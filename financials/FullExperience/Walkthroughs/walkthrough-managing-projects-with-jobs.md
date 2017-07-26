@@ -128,7 +128,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 4.  Choose the **OK** button to close all open windows.  
 
 ## Setting Up a Job  
- In this scenario, ADD INCLUDE<!--[!INCLUDE[demo](../../includes/demo_md.md)]--> has won a contract with a customer, Progressive Home Furnishings, to design a conference and dining hall. The customer is based in the United States and the project will require special software. The project manager reaches an agreement with the customer and creates a job that covers the agreement.  
+ In this scenario, ADD INCLUDE<!--[!INCLUDE[demo](includes/demo_md.md)]--> has won a contract with a customer, Progressive Home Furnishings, to design a conference and dining hall. The customer is based in the United States and the project will require special software. The project manager reaches an agreement with the customer and creates a job that covers the agreement.  
 
 #### To set up a job  
 
@@ -152,7 +152,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
 5.  On the **Duration** FastTab, type today's date into the **Starting Date** and **Ending Date** fields. These dates will help apply currency conversions when the job is invoiced.  
 
-6.  On the **Foreign Trade** FastTab, set the currency code to **USD**. If you select USD in the **Invoice Currency Code** field, then the job will be invoiced in U.S. dollars and planned in the local currency of ADD INCLUDE<!--[!INCLUDE[demo](../../includes/demo_md.md)]--> only.  
+6.  On the **Foreign Trade** FastTab, set the currency code to **USD**. If you select USD in the **Invoice Currency Code** field, then the job will be invoiced in U.S. dollars and planned in the local currency of ADD INCLUDE<!--[!INCLUDE[demo](includes/demo_md.md)]--> only.  
 
  You can customize the pricing for customers on a per job basis, depending on the agreements you have set up. In the next procedure, the project manager specifies a cost for Tricia’s time, sets the price for the required software, and adds in the travel costs that the customer has agreed to pay.  
 
@@ -196,7 +196,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
 2.  The following table describes the information that you should enter in the fields.  
 
-    |Job Task No.|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|Job Task Type|  
+    |Job Task No.|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]-->|Job Task Type|  
     |------------------|---------------------------------------|-------------------|  
     |1000|Consulting on hall setup|Begin-Total|  
     |1010|Consultation meeting with customer|Posting|  
@@ -356,7 +356,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 3.  Choose the **Close** button to close the **Job Statistics** window.  
 
 ## Handling Fixed Prices  
- ADD INCLUDE<!--[!INCLUDE[demoname](../../includes/demoname_md.md)]--> has been contracted to set up conference rooms. As the project manager, Prakash wants a good overview of the tasks required for the job with the associated budgeted and incurred costs for each task. In addition, he wants to know the total contracted price for the job and the amount that has been invoiced to this point. He has reached an agreement with the customer regarding fixed pricing for the job.  
+ ADD INCLUDE<!--[!INCLUDE[demoname](includes/demoname_md.md)]--> has been contracted to set up conference rooms. As the project manager, Prakash wants a good overview of the tasks required for the job with the associated budgeted and incurred costs for each task. In addition, he wants to know the total contracted price for the job and the amount that has been invoiced to this point. He has reached an agreement with the customer regarding fixed pricing for the job.  
 
 #### To manage fixed pricing in jobs  
 
@@ -502,7 +502,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
      By comparing prices, job task lines, and job planning lines for the two jobs, you can see that the information was successfully copied.  
 
 ## Making Payments by Installments  
- ADD INCLUDE<!--[!INCLUDE[demoname](../../includes/demoname_md.md)]--> has just landed a large project that will take a year to be completed. Because it requires the dedication of many resources, the project manager sets up the contract so that the customer pays part of the price up front, part when the project is halfway completed, and the final payment upon completion.  
+ ADD INCLUDE<!--[!INCLUDE[demoname](includes/demoname_md.md)]--> has just landed a large project that will take a year to be completed. Because it requires the dedication of many resources, the project manager sets up the contract so that the customer pays part of the price up front, part when the project is halfway completed, and the final payment upon completion.  
 
 #### To set up a new account  
 
@@ -548,7 +548,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
      The following table describes the lines that you will create.  
 
-    |Line|Job Task No.|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|Job Task Type|  
+    |Line|Job Task No.|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]-->|Job Task Type|  
     |----------|------------------|---------------------------------------|-------------------|  
     |1|1000|Payment-Down Payment|Posting|  
     |2|2000|Usage|Posting|  
@@ -615,11 +615,11 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 3.  On the **Home** tab, in the **Process** group, choose **Sales Invoice/Credit Memo**. On the sales invoice, you can see that only the down payment is included in the invoice. You can now send this to the customer as agreed.  
 
 ## Next Steps  
- This walkthrough has taken you through some of the basic steps of working with jobs in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. You have learned about how to create a new job, how to copy a job, and how to handle payments. Also, you have seen a demonstration of how to track hours and create invoices.  
+ This walkthrough has taken you through some of the basic steps of working with jobs in [!INCLUDE[d365fin](includes/d365fin_md.md)]. You have learned about how to create a new job, how to copy a job, and how to handle payments. Also, you have seen a demonstration of how to track hours and create invoices.  
 
 ## See Also  
- [Business Process Walkthroughs](../business-process-walkthroughs.md)   
- [Set Up Jobs](../set-up-jobs.md)   
- [Price, Schedule, and Manage Resources](../price-schedule-and-manage-resources.md)   
- [Monitor Progress and Performance](../monitor-progress-and-performance.md)   
- [Invoice Jobs](../invoice-jobs.md)
+ [Business Process Walkthroughs](business-process-walkthroughs.md)   
+ [Set Up Jobs](set-up-jobs.md)   
+ [Price, Schedule, and Manage Resources](price-schedule-and-manage-resources.md)   
+ [Monitor Progress and Performance](monitor-progress-and-performance.md)   
+ [Invoice Jobs](invoice-jobs.md)

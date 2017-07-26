@@ -1,6 +1,6 @@
 ---
-    title: How to: Set Up Bin Types | Microsoft Docs
-    description: You can direct the flow of items through bins that you have defined for particular warehouse activities. You give each bin its basic flow activities, and thereby define the way the way a bin is used, by assigning it a bin type.
+    title: How to: Set Up In-Transit Codes | Microsoft Docs
+    description: Before you transfer items between locations using transfer routes, you need to set up in-transit codes.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -14,37 +14,26 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
----
-# How to: Set Up Bin Types
-You can direct the flow of items through bins that you have defined for particular warehouse activities. You give each bin its basic flow activities, and thereby define the way the way a bin is used, by assigning it a bin type.  
+    ---
+# How to: Set Up In-Transit Codes
+Before you transfer items between locations using transfer routes, you need to set up in-transit codes.  
   
- There are eight bin types. You can operate your warehouse with all of the eight possible bin types, or you can choose to operate with just the RECEIVE, PUTPICK, SHIP and QC bin types. These four bin types enable suggestions to be made that support the flow of items and allow you to record inventory discrepancies.  
+ When the transfer order is posted, the items on the line are no longer available at one of your locations but are in transit. The items on the line are in a temporary, fictive location described by one of your in-transit codes.  
   
-### To set up the bin types you want to use  
+ You set up in-transit codes on the location card. You can set up as many or as few in-transit codes as you like.  
   
-1.  In the **Search** box, enter **Bin Types**, and then choose the related link.  
+### To set up in-transit codes  
   
-2.  In the **Bin Types** window, create a 10-character code for a bin type.  
+1.  In the **Search** box, enter **Locations**, and then choose the related link.  
   
-3.  Select the activities that can be performed with each bin type.  
+2.  Create a new Location card. You must fill in the **Code** and **Name** fields.  
   
-> [!NOTE]  
->  Bin types are only applicable if you are using directed put-away and pick for your location.  
+3.  Select the **Use As In-Transit** field.  
   
- The bin type determines only how a bin is used when processing the flow of items through the warehouse. You can always override the suggestions for any warehouse document, and you can move items in or out of any bin by performing a warehouse movement.  
+ Repeat this procedure to set up as many in-transit codes as you want.  
   
- The bin types that you can create are listed below.  
-  
-|**Bin type**|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
-|------------------|---------------------------------------|  
-|RECEIVE|Items registered as posted receipts but not yet put away.|  
-|SHIP|Items picked for warehouse shipment lines but not yet posted as shipped.|  
-|PUT AWAY|Typically, items to be stored in large units of measure but that you do not want to access for picking purposes. Because these bins are not used for picking, either for production orders or shipments, your use of a Put Away type bin might be limited, but this bin type could be useful if you have purchased a large quantity of items. Bins of this type should always have a low bin-ranking, so that when received items are put away, other higher-ranking PUTPICK bins fixed to the item are put away first. If you are using this type of bin, you must regularly perform bin replenishment so that the items stored in these bins are also available in PUTPICK or PICK type bins.|  
-|PICK|Items to be used only for picking, for example, for items with an approaching expiration date that you have moved into this type of bin. You would place a high bin ranking on these bins so they are suggested for picking first.|  
-|PUTPICK|Items in bins that are suggested for both the put-away and pick functions. Bins of this type probably have different bin rankings. You can set up your bulk storage bins as this type of bin with low bin rankings compared to your ordinary pick bins or forward picking area bins.|  
-|QC|This bin is used for inventory adjustments if you specify this bin on the location card in the **Adjustment Bin Code** field. You can also set up bins of this type for defective items and items being inspected. You can move items to this type of bin if you want to make them inaccessible to the usual item flow.<br /><br /> **NOTE:** Unlike all other bin types, the **QC** bin type has none of the item handling check boxes selected by default. This indicates that any content you place in a QC bin is excluded from item flows.|  
+> [!TIP]  
+>  One or two codes might be enough for your purposes, for example, simply “InTransit”, or two related codes: “OwnVhcl” for items being transported in your own vehicles, and “OtherCarr” for items being transported by other carriers. You can also set up in-transit codes that indicate something about the in-transit arrangement, for example, ExtrInsur for extra insurance.  
   
 ## See Also  
- Bin Types   
- Bin Contents   
- [How to: Set Up Locations to Use Bins](../how-to-set-up-locations-to-use-bins.md)
+ [How to: Set Up Transfer Routes](../how-to-set-up-transfer-routes.md)

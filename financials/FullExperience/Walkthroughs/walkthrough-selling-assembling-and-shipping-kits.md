@@ -1,6 +1,6 @@
 ---
-    title: Walkthrough: Planning Supplies Manually | Microsoft Docs
-    description: This walkthrough demonstrates the process of planning supply orders to fulfill new demand. You can initiate supply planning at fixed intervals, for example, every morning or every Monday, or when you are notified by sales or production, depending on the type of demand. In this walkthrough you will use the **Order Planning** window, a simple supply planning tool that is based on manual decision-making instead of parameter-based automatic planning.
+    title: Walkthrough: Selling, Assembling, and Shipping Kits | Microsoft Docs
+    description: To support just-in-time inventory and the ability to customize products to customer requests, assembly orders can be automatically created and linked as soon as the sales order line is created. The link between the sales demand and the assembly supply enables sales order processors to customize the assembly item and promise delivery dates according to component availability. In addition, assembly consumption and output are posted automatically with the shipment of the linked sales order.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -14,248 +14,489 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
----
-# Walkthrough: Planning Supplies Manually
-This walkthrough demonstrates the process of planning supply orders to fulfill new demand. You can initiate supply planning at fixed intervals, for example, every morning or every Monday, or when you are notified by sales or production, depending on the type of demand. In this walkthrough you will use the **Order Planning** window, a simple supply planning tool that is based on manual decision-making instead of parameter-based automatic planning.  
+    ---
+# Walkthrough: Selling, Assembling, and Shipping Kits
+To support just-in-time inventory and the ability to customize products to customer requests, assembly orders can be automatically created and linked as soon as the sales order line is created. The link between the sales demand and the assembly supply enables sales order processors to customize the assembly item and promise delivery dates according to component availability. In addition, assembly consumption and output are posted automatically with the shipment of the linked sales order.  
+  
+ Special functionality exists to govern the shipping of assemble-to-order quantities, both in basic and in advanced warehouse configurations. When workers in charge of assembly finish assembling parts or all of the assemble-to-order quantity, they record it in the **Qty. to Ship** field on the warehouse shipment line, in advanced configurations, and then choose **Post Shipment**. The result is that the corresponding assembly output is posted, including the related component consumption, and a sales shipment for the quantity is posted for the linked sales order. This walkthrough illustrates the advanced warehouse process.  
+  
+ In basic warehouse configurations, when an assemble-to-order quantity is ready to be shipped, the warehouse worker in charge posts an inventory pick for the sales order lines. This creates an inventory movement for the components, posts the assembly output, and the sales order shipment. For more information, see the “Handling Assemble-to-Order Items in Inventory Picks” section in Inventory Pick.  
   
 ## About This Walkthrough  
- This walkthrough illustrates the following tasks:  
+ This walkthrough demonstrates the following tasks:  
   
--   Planning a purchase order for manufacturing components.  
+### Setting up Assembly Items  
+ Assembly items are characterized by their replenishment system and the assembly BOM. The item’s assembly policy can be either assemble-to-order (ATO) or assemble-to-stock (ATS). This section covers the following tasks:  
   
--   Planning a transfer order to fulfill sales demand.  
+-   Setting the appropriate replenishment system and assembly policy on a new assembly item card.  
   
--   Planning a production order for a multilevel item.  
+-   Creating an assembly BOM that lists the assembly components and the resource that go into the assembly item.  
+  
+### Selling Customized Assembly Items  
+ ADD INCLUDE<!--[!INCLUDE[navnow](includes/navnow_md.md)]--> provides the flexibility to enter both an inventory quantity and an assemble-to-order quantity on one sales order line. This section covers the following tasks:  
+  
+-   Creating a pure ATO sales order line where the full quantity is unavailable and must be assembled before shipment.  
+  
+-   Customizing ATO items.  
+  
+-   Recalculating the unit price of a customized assembly item.  
+  
+-   Creating a mixed sales order line where parts of the sales quantity is provided from inventory and the remaining part must be assembled before shipment.  
+  
+-   Understanding ATO availability warnings.  
+  
+### Planning for Assembly Items  
+ Assembly demand and supply are handled by the planning system, just like for purchase, transfer, and production. This section covers the following tasks:  
+  
+-   Running a regenerative plan for items with sales demand for assembled supply.  
+  
+-   Generating an assembly order to fulfill a sales line quantity by the demanded shipment date.  
+  
+### Assembling Items  
+ Assembly orders function in a similar way as production orders, expect the consumption and output is recorded and posted directly from the order. When the items are assembled to inventory, the assembly worker has full access to all header and line fields. When the items are assembled to an order where the quantity and date are promised to the customer, then certain fields on the assembly order are not editable. In that case, the assembly posting is performed from the warehouse shipment for the linked sales order. This section covers the following tasks.  
+  
+-   Recording and posting assembly consumption and output to inventory.  
+  
+-   Accessing a warehouse shipment line from an ATO assembly order to record assembly work.  
+  
+-   Accessing an ATO assembly order from a warehouse shipment line to review the automatically entered data.  
+  
+### Shipping Assembly Items, from Stock and Assembled to Order  
+ Special functionality exists to govern the shipping of assemble-to-order quantities. This section covers the following tasks:  
+  
+-   Creating a warehouse pick for inventory assembly items and for assembly components to be assembled before shipment.  
+  
+-   Registering warehouse picks for assembly components and then for assembly items.  
+  
+-   Accessing an assembly order from a warehouse shipment to review picked or consumed components.  
+  
+-   Shipping assemble-to-order quantities.  
+  
+-   Shipping inventory assembly items.  
   
 ## Roles  
- This walkthrough demonstrates tasks performed by the following user roles:  
-  
--   Production Planner  
-  
--   Purchasing Agent  
+ This walkthrough demonstrates tasks that are performed by the following user roles:  
   
 -   Sales Order Processor  
   
+-   Planner  
+  
+-   Assembly Worker  
+  
+-   Picker  
+  
+-   Shipping Responsible  
+  
 ## Prerequisites  
- Before you begin this walkthrough, you must install the [!INCLUDE[d365fin](includes/d365fin_md.md)]. The following modifications must be made to the database:  
+ Before you can perform the tasks in the walkthrough, you must do the following:  
   
--   Delete all existing sales orders for bicycles.  
+-   Install the ADD INCLUDE<!--[!INCLUDE[demolong](includes/demolong_md.md)]-->.  
   
--   Create one sales order for 10 bicycles at BLUE location.  
+-   Make yourself a warehouse employee at WHITE location by following these steps:  
   
--   Delete all planned and firm planned production orders. Do not delete started orders with entries that are already posted.  
+    1.  In the **Search** box, enter **Warehouse Employees**, and then choose the related link.  
   
- As a rule, use the suggested data in this walkthrough because this data has the necessary records.  
+    2.  Choose the **User ID** field, and select your own user account in the **Users** window.  
+  
+    3.  In the **Location Code** field, enter WHITE.  
+  
+    4.  Select the **Default** field.  
+  
+-   Prepare WHITE location for assembly processing by following these steps:  
+  
+    1.  In the **Search** box, enter **Locations**, and then choose the related link.  
+  
+    2.  Open the location card for WHITE location.  
+  
+    3.  On the **Bins** FastTab, enter **W-10-0001** in the **To-Assembly Bin Code** field.  
+  
+         By entering this non-pick bin code, all assembly order lines are ready to receive their components in the bin.  
+  
+    4.  In the **From-Assembly Bin Code** field, enter **W-01-0001**.  
+  
+         By entering this pick bin code, finished assembly items will be output to the bin.  
+  
+-   Remove the default lead time for internal processes by following these steps:  
+  
+    1.  In the **Search** box, enter **Manufacturing Setup**, and then choose the related link.  
+  
+    2.  In the **Manufacturing Setup** window, on the **Planning** FastTab, remove the value in the **Default Safety Lead Time** field.  
+  
+-   Create inventory for assembly components by following the "Prepare Sample Data" section in this walkthrough.  
   
 ## Story  
- Eduardo, the Production Planner of a small manufacturing company, is about to plan production and purchase orders to fulfill new sales demand.  
+ On January 23, Susan, the sales order processor takes an order from The Device Shop for three units of Kit B, which is an ATO item. All three units are customized and must contain the strong graphics card and an extra RAM block. The disc drives are upgraded to DWD because the CD drives are unavailable. Susan knows that the units can be assembled immediately, so she leaves the suggested shipment date of January 23.  
   
- Because the products have few BOM levels and the flow of orders is relatively low, Eduardo uses the **Order Planning** window to manually create supply orders, one product level at a time.  
+ At the same time, the customer orders fifteen units of Kit A with a special request that five units be customized to contain the strong graphics card. Although Kit A is typically an assemble-to-stock item, the order processor combines the sales line quantities to sell ten units from stock and assemble five customized units to the order. The ten units of Kit A are unavailable and must first be supplied to inventory by an assembly order according to the item’s assembly policy. Susan learns from the assembly department that Kit A units cannot be completed in the current week. She sets the shipment date of the second sales order line, for the mixed ATO and inventory quantity, to January 27 and informs the customer that the 15 units of Kit A will be shipped four days later than the three units of Kit B. To signal to the shipping department that this sales order requires assembly processing, Susan creates the warehouse shipment document from the sales order.  
   
- In a more complex manufacturing environment, the planning worksheet is used to plan supply based on item parameters such as rescheduling period, safety lead time, reorder point, and batch calculations of consolidated demand from all product levels.  
+ Eduardo, the planner, runs the planning worksheet and generates an assembly order for ten standard units of Kit A with an internal due date of January 27.  
+  
+ Sammy, who is responsible for shipping, gets three warehouse shipment lines for the sales order: One line for the three pure ATO units, one line for the five ATO units on the mixed sales order line, and one line for the ten ATS units on the mixed sale order line. He creates a warehouse pick document for all the assembly components that are needed to assemble the total of eight ATO units on the warehouse shipment document.  
+  
+ John, the picker, retrieves components for all the ATO quantities on the warehouse shipment document and brings them to the assembly area. He enters the quantity to handle and registers the warehouse pick.  
+  
+ Linda assembles the three ATO units of Kit B. The components are already picked, and she does not record output and consumption quantities or post the order, because both of these actions are performed automatically through the related warehouse shipment lines.  
+  
+ Sammy records the assembled quantity on the warehouse shipment line and posts the shipment of the three units of Kit B. The first line on the sales order is updated as shipped. The linked assembly order remains open until the sales order is fully invoiced. The two warehouse shipment lines, one ATO and one ATS, for Kit A with due dates on January 27 remain open.  
+  
+ On January 27, Linda processes two assembly orders for Kit A. The first order is the ATO order for five units, which she processes differently than the ATO order for Kit B that she processed on January 23. On this order, she is authorized to access the warehouse shipment line herself to record the completed assembly work. The needed components are ready in the assembly department, as they were picked together with components for Kit B.  
+  
+ The second assembly order is the ATS order for ten units that were created by the planning system. On this ATS order, Linda performs all involved actions from the assembly order. She creates a warehouse pick document for the assembly components that are needed to assemble the ten units. When the PCs are assembled, Linda posts the assembly order and thereby signals that the items are available in inventory and can be picked for shipment.  
+  
+ Sammy creates a warehouse pick document for any quantities that remain before the warehouse shipment can be posted. A pick document is created for the ten units of Kit A that have just finished. The components needed to assemble the five units of Kit A to order where picked on January 23.  
+  
+ John brings the ten units of Kit A from the warehouse to the specified shipping area, records the quantity to handle, and then registers the pick.  
+  
+ Sammy packs the ten ATS units with the five ATO units that Linda assembled earlier in the day. He fills in the quantity to ship on both lines and then posts the last shipment for The Device Shop. The related assembly order for five units of Kit A is automatically posted. The second line on the sales order is updated as shipped. Two linked assembly order remains open until the sales order is invoiced and closed.  
+  
+ When the sales order is later posted as fully invoiced, the sales order and the linked assembly orders are removed.  
   
 ## Setting Up the Sample Data  
- The standard ADD INCLUDE<!--[!INCLUDE[demo](../../includes/demo_md.md)]--> demonstration company currently has lots of unplanned demand. During the different planning tasks in this walkthrough, you will have to deviate from the realistic business flow by ignoring demand with close due dates and instead use demand with later due dates.  
   
-## Using the Order Planning Window  
- The **Order Planning** window can be accessed from several different locations on the **Departments** menu in the navigation pane:  
+1.  In the **Search** box, enter **Whse. Item Journals**, and then choose the related link.  
   
--   Manufacturing, Planning  
+2.  Choose the **Batch Name** field, and then select the default journal.  
   
--   Sales & Marketing, Order Processing  
+3.  Create positive inventory adjustments at WHITE location on the work date, January 23, by entering the following information.  
   
--   Purchase, Planning  
+    |**Item No.**|**Zone Code**|**Bin Code**|**Quantity**|  
+    |-----------------------------------|---------------------------------------|--------------------------------------|------------------------------------|  
+    |80001|PICK|W-01-0001|20|  
+    |80005|PICK|W-01-0001|20|  
+    |80011|PICK|W-01-0001|20|  
+    |80014|PICK|W-01-0001|20|  
+    |80203|PICK|W-01-0001|20|  
+    |80209|PICK|W-01-0001|20|  
   
--   In addition, you can open this window for a specific production order by choosing **Planning** on the **Navigate** tab in the **Order** group.  
+4.  On the **Home** tab, in the **Registering** group, choose **Register**, and then choose the **Yes** button.  
   
-#### To use the Order Planning window  
+     Next, synchronize the new warehouse entries with inventory.  
   
-1.  In the **Search** box, enter **Order Planning**, and then choose the related link.  
+5.  In the **Search** box, enter **Item Journals**, and then choose the related link. The **Item Journal** window opens.  
   
-     When the **Order Planning** window first opens, a plan must be calculated to show the new demand since it was last calculated.  
+6.  On the **Actions** tab, in the **Functions** group, choose **Calculate Whse. Adjustment**.  
   
-2.  On the **Actions** tab, in the **Functions** group, choose **Calculate Plan**.  
+7.  In the **Calculate Whse. Adjustment** window, choose the **OK** button.  
   
-     The planning system analyzes any new demand that has been introduced, such as new sales, changed sales, or production orders.  
+8.  In the **Item Journal** window, on the **Actions** tab, in the **Functions** group, choose **Post**, and then choose the **Yes** button.  
   
-     Based on total availability, the quantity needed for each demand line is calculated. This calculation is performed order-by-order. This means that the order which includes the demand line with the earliest due date or shipment date will be calculated first. After that, additional demand lines will be calculated in the same order, regardless of the due date or shipment date.  
+### Creating the Assembly Items  
   
-3.  Be sure that the **Order Planning** window is maximized and that column fields are resized to show all the default field names.  
+1.  In the **Search** box, enter **Items**, and then choose the related link.  
   
-     When the calculation is completed, the window displays all unfulfilled demand as collapsed order header lines sorted by earliest demand date.  
+2.  On the **Home** tab, in the **Manage** group, choose **New**.  
   
-     Notice that ADD INCLUDE<!--[!INCLUDE[demo](../../includes/demo_md.md)]--> has several orders with unfulfilled demand. Each bold planning line represents an order, sales order, or production order, including at least one order line with insufficient availability.  
+3.  Create the first assembly item based on the following information.  
   
-4.  In the **Show Demand As** field, select the **All Demand** filter.  
-  
-     With the **Demand Type** field, you can choose which order types that you want to display.  
-  
-     Orders that do not have availability problems are not shown. If no orders exist when a plan is calculated, a message will display and no planning lines will appear.  
-  
-## Planning a Purchase Order to Fulfill Component Demand  
- In this procedure, you create a purchase order for needed manufacturing components.  
-  
-#### To plan a purchase order to fulfill component need in production  
-  
-1.  Expand the first line (choose the + symbol).  
-  
-2.  Choose the first demand line, with item **LSU-15**, and then on the **Navigate** tab, in the **Line** group, choose **Show Document**.  
-  
-3.  Close the opened production order to return to the **Order Planning** window.  
-  
-4.  In the **Replenishment System** field, select **Purchase**.  
-  
-     The default value is from the item card, or SKU card, but you can change it to one of the following options:  
-  
-    -   **Purchase** – To create a purchase order.  
-  
-    -   **Transfer** – To create a transfer order.  
-  
-    -   **Prod. Order** – To create a production order.  
-  
-5.  In the **Supply From** field, select one of the following options according to the selected replenishment system:  
-  
-    -   **Vendor** – For purchases  
-  
-    -   **Location** – For transfers  
-  
-     If the field is not filled in, an error message will display when you try to create the supply orders.  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]-->|Value|  
+    |---------------------------------|-----------|  
+    |**Description**|Kit A – Basic PC|  
+    |**Base Unit of Measure**|PCS|  
+    |**Item Category Code**|Misc.|  
+    |**Replenishment System**|Assembly|  
+    |**Assembly Policy**|Assemble-to-Stock|  
+    |**Reordering Policy**|Lot-for-Lot|  
   
     > [!NOTE]  
-    >  If the components have a default vendor number set up on the item cards, the lines will be preset.  
+    >  Kit A is typically supplied by assembly to stock and therefore has a reordering policy to make it part of general supply planning.  
   
-6.  Choose the **Supply From**  field.  
+4.  On the **Navigate** tab, in the **Assembly/Production** group, choose **Assembly**, and then choose **Assembly BOM**.  
   
-7.  In the **Item Vendor Catalogue** window, choose **New**, and then select vendor **30000**.  
+5.  Define an assembly BOM for Kit A with the following information.  
   
-8.  Choose the **OK** button to return to the **Order Planning** window.  
+    |**Type**|**No.**|**Quantity per**|  
+    |-------------------------------|------------------------------|---------------------------------------|  
+    |Item|80001|1|  
+    |Item|80011|1|  
+    |Item|80209|1|  
+    |Resource|Linda|1|  
   
-9. Copy vendor **30000** to the other lines for loudspeaker components on this production order.  
+6.  Create the second assembly item based on the following information.  
   
-     You are now ready to create a purchase order.  
-  
-10. On the **Actions** tab, choose **Make Orders**. The **Make Supply Orders** window opens.  
-  
-11. On the **Order Planning** FastTab, in the **Make Orders for** field, choose the **Active Order** option.  
-  
-12. On the **Options** FastTab, in the **Create Purchase Order** field, choose the **Make Purch. Order** option.  
-  
-13. Choose the **OK** button to create purchase orders for all the components of the order.  
-  
-     The purchase orders are now created and saved as the last orders in the list of purchase orders.  
-  
-## Planning a Transfer Order to Fulfill Sales Demand  
- In this procedure, you will plan for demand from a sales order. Demand lines represent sales lines and not component lines, as in production demand.  
-  
-#### To plan a transfer order to fulfill sales demand  
-  
-1.  Move the pointer to the planning line for order **2008**.  
-  
-2.  Expand the line and move the pointer to the demand line.  
-  
-     Sales order **2008** is for ten loudspeakers, item **LS-120**, ordered by John Haddock Insurance Co.  
-  
-     The item’s defined replenishment system and default vendor will display.  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]-->|Value|  
+    |---------------------------------|-----------|  
+    |**Description**|Kit B – Pro PC|  
+    |**Base Unit of Measure**|PCS|  
+    |**Item Category Code**|Misc.|  
+    |**Replenishment System**|Assembly|  
+    |**Assembly Policy**|Assemble-to-Order|  
   
     > [!NOTE]  
-    >  At the bottom of the window, there are four information fields. In the **Earliest Date Available** field, the ten pieces that are needed will be available, on an inbound supply order, nine days later than the current due date. If this is too late for the customer, the **Available for Transfer** field shows 13 pieces of the item at another location. You will want to plan for this stock.  
+    >  Kit B is usually supplied by assembly to order and therefore does not have a reordering policy, because it should not be part of general supply planning.  
   
-3.  Choose the **Available for Transfer** field to open the **Get Alternative Supply** window.  
+7.  On the **Navigate** tab, in the **Assembly/Production** group, choose **Assembly**, and then choose **Assembly BOM**.  
   
-4.  Choose the **OK** button to book the ten items that are available.  
+8.  Define an assembly BOM for Kit B with the following information.  
+  
+    |**Type**|**No.**|**Quantity per**|  
+    |-------------------------------|------------------------------|---------------------------------------|  
+    |Item|80005|1|  
+    |Item|80014|1|  
+    |Item|80210|1|  
+    |Resource|Linda|1|  
+  
+### Selling the Assembly Items  
+  
+1.  In the **Search** box, enter **Sales Orders**, and then choose the related link.  
+  
+2.  On the **Home** tab, in the **Manage** group, choose **New**.  
+  
+3.  Create two sales order lines for customer 62000, The Device Shop, on the work date with the following information.  
+  
+    |**Type**|**Description**|**Quantity**|Qty. to Assemble to Order|Shipment Date|  
+    |--------------|---------------------|------------------|-------------------------------|-------------------|  
+    |Item|Kit B – Pro PC|3|3|January 23|  
+    |Item|Kit A – Basic PC|15|5|January 27|  
   
     > [!NOTE]  
-    >  In the demand line, the suggested purchase has been exchanged with a transfer from GREEN location. The **Make Orders** function creates a transfer order from GREEN to the demanded location. The **Substitutes Exists** field works in the same way.  
+    >  The following availability issue exists for the sales order line for Kit B:  
+    >   
+    >  -   Assembly component 80210 is not available. This means that the three specified units of Kit B cannot be assembled, indicated by **0** in the **Able to Assemble** field in the **Assembly Availability** window.  
+    >   
+    >  The following availability issue exists for the sales order line for Kit A:  
+    >   
+    >  -   The ten units of Kit A are not available. This indicates to the planning system that the quantity must be assembled to inventory.  
   
-5.  On the **Actions** tab, in the **Functions** group, choose **Make Orders**. The **Make Supply Orders** window opens.  
+     Next, customize the sales order.  
   
-6.  On the **Order Planning** FastTab, in the **Make Orders for** field, choose the **The Active Order** option.  
+4.  Select the sales order line for three units of Kit B.  
   
-7.  On the **Options** FastTab, in the **Create Transfer Order** field, select the **Make Trans. Orders** option.  
+5.  On the **Lines** FastTab, choose **Line**, choose **Assemble to Order**, and then choose **Assemble-to-Order Lines**.  
   
-8.  Choose the **OK** button to create the transfer order to supply the sales order.  
+6.  In the **Assemble-to-Order Lines** window, on the assembly order line for item 80014, enter **2** in the **Quantity per** field.  
   
-     The transfer order is now created and saved in the list as the last order in the list of open transfer orders.  
+7.  On the assembly order line for item 80210, choose the **No.** field, and then select item 80209 instead.  
   
-## Planning a Multilevel Production Order to Fulfill Sales Demand  
- In this procedure, you will plan to fulfill sales demand for a produced item with multiple product levels, each creating dependent production demand.  
+8.  Create a new assembly order line with the following information.  
   
-#### To plan multilevel production to fulfill sales demand  
+    |Type|No.|Quantity per|  
+    |----------|---------|------------------|  
+    |Item|80203|1|  
   
-1.  Select the planning line with sales demand for order **1001**, created earlier as prerequisite data.  
+9. Close the **Assemble-to-Order Lines** window.  
   
-     This demand is a sales line, but the item has a defined replenishment system of **Prod. Order**. Proceed to add an extra bell to the component need of each bicycle.  
+     Next, update the unit price of Kit B according to the customization that you just performed. Notice the current value in the **Unit Price Excl. VAT** field.  
   
-2.  On the **Navigate** tab, in the **Line** group, choose **Components** to open the **Planning Components** window.  
+10. On the **Lines** FastTab, choose **Line**, choose **Assemble to Order**, and then choose **Roll Up Price**.  
   
-3.  On the line with the Bell item, change the **Quantity per** field from **1** to **2**.  
+11. Choose the **Yes** button. Notice the increased value in the **Unit Price Excl. VAT** field.  
   
-4.  In the **Order Planning** window, consider your planning alternatives. In this case, you have no alternative means of supply, no transfer, substitute, or later delivery. You must create the suggested supply order, a production order.  
+12. Select the sales order line for 15 units of Kit A.  
   
-5.  On the **Actions** tab, in the **General** group, choose **Make Orders** to create the production order.  
+13. On the **Lines** FastTab, choose **Line**, choose **Assemble to Order**, and then choose **Assemble-to-Order Lines**.  
   
-     In the **Order Planning** window, notice that the planning line for sales order **1001** no longer exists and that the initial sales demand has been covered.  
+14. In the **Assemble-to-Order Lines** window, create a new assembly order line with the following information.  
   
-6.  Close the **Order Planning** window.  
+    |Type|No.|Quantity per|  
+    |----------|---------|------------------|  
+    |Item|80203|1|  
   
-     Now, you could choose to stay in this view and complete all the planning tasks. Instead, you will now take on the Production Planner role by going to the production order that you just created and access the **Order Planning** window.  
+     Next, change the shipment date of the second sales order line according to the assembly schedule.  
   
- As a production planner you now must plan a specific production order.  
+15. On the sales order line for 15 units of Kit A, enter **01-27-2014** in the **Shipment Date** field.  
   
-#### To plan a specific production order  
+16. On the **Actions** tab, in the **Release** group, choose **Release**.  
   
-1.  Open the production order **101001**, for ten bicycles, that you just created by using the **Make Orders** function.  
+17. On the **Actions** tab, in the **Warehouse** group, choose **Create Whse. Shipment**.  
   
-2.  Open the **Prod. Order Components** window to check that the extra bell is reflected on the production order.  
+18. Close the sales order.  
   
-3.  On the **Navigate** tab, in the **Order** group, choose **Planning**.  
+### Planning for the Unavailable ATS Items  
   
-     The **Order Planning** window opens in a view that is always filtered on the specific production demand. Sales demand is not displayed. You must calculate a plan before you can see any additional demand.  
+1.  In the **Search** box, enter **Planning Worksheet**, and then choose the related link.  
   
-4.  On the **Actions** tab, in the **Functions** group, choose **Calculate Plan**.  
+2.  On the **Action** tab, in the **Functions** group, choose **Calculate Regenerative Plan**.  
   
-     Notice that four new production orders appear as unplanned production demand derived from order **101001**. The new lines represent new production demand from the subassemblies that must be created to produce the order.  
+3.  In the **Calculate Plan** window, set the following filters.  
   
-5.  On the **Actions** tab, in the **General** group, choose **Expand All**  to get an overview of all the production demand for the production orders.  
+    |Starting Date|Ending Date|No.|  
+    |-------------------|-----------------|---------|  
+    |01-23-2014|01-27-2014|Kit A – Basic PC|  
   
-     To provide additional information about the demand lines, you may want to add the **Demand Quantity** and **Demand Qty. Available** fields to your view.  
+4.  Choose the **OK** button.  
   
-     Now you must supply ten of each component.  
+     A new planning line is created for the needed assembly order of ten units, due on January 27. It needs no changes, so now you can create the order.  
   
-     Note that four of the demand lines have replenishment system Prod. Order. These four subassemblies represent the second product level of the bicycle.  
+5.  On the **Actions** tab, in the **Functions** group, choose **Carry Out Action Message**.  
   
-     The default replenishment settings are already filled in and you can proceed to make orders.  
+6.  In the **Carry Out Action Msg.** window, choose the **Assembly Order** field, and then select **Make Assembly Orders**.  
   
-6.  On the **Actions** tab, in the **General** group, choose **Make Orders**.  
+7.  Choose the **OK** button.  
   
-     Before you choose the **OK** button, notice the text on the **Order Planning** FastTab. This text is important because you know that the bicycle has several produced components, subassemblies, in its product structure that might be in demand when you create this production order.  
+### Assembling and Shipping the First ATO Quantity  
   
-7.  In the **Make Supply Order** window, in the **Make Orders for** field, choose the **All Lines** option, and then choose the **OK** button to create production orders for the second product level of the order.  
+1.  In the **Search** box, enter **Warehouse Shipment**, and then choose the related link.  
   
-     Note that the top-level production demand for production order 101001 no longer exists. This means that the initial production demand for subassemblies has been planned for.  
+    > [!NOTE]  
+    >  In this section, the person who is responsible for shipping is in charge of recording the completed ATO assembly work on the warehouse shipment line. This workflow may occur in environments where the assembly work is performed by the person who is responsible for shipping or by assembly workers in the shipping area.  
+    >   
+    >  In this section, actions on the assembly order are performed indirectly from the warehouse shipment line. For more information about how to process an assembly order directly, see the “Assemble Items to Inventory” section in this walkthrough.  
   
-     In the **Order Planning** window, you calculate a plan again in order to plan the bicycle structure.  
+2.  Open the most recent warehouse shipment that is created at WHITE location.  
   
-8.  On the **Actions** tab, in the **Functions** group, choose **Calculate Plan** to recalculate the plan as instructed by the embedded Help text.  
+     Notice the three warehouse shipment lines: One line for the ATO quantity of Kit B, due on January 23. One line for the ATO quantity of Kit A, due on January 27. One line for the inventory quantity of Kit A, due on January 27.  
   
-     The two new lines represent additional production demand derived from the subassemblies planned in the previous steps. It is suggested that you make two production orders to supply the wheel hubs, one for 10 front hubs and one for 10 back hubs.  
+     The **Assemble to Order** field specifies the assembly method. ADD INCLUDE<!--[!INCLUDE[bp_choose_columns](includes/bp_choose_columns_md.md)]-->  
   
-9. On the **Actions** tab, in the **General** group, choose **Expand All**  to get an overview of all the demand for the two production orders.  
+     Next, create a pick document for all the ATO assembly components that are needed on the warehouse shipment.  
   
-     The suggested supply plan indicates that a total of four purchase orders will be created for the components. You decide to make the proposed orders.  
+3.  On the **Actions** tab, in the **Functions** group, choose **Create Pick**, and then choose the **OK** button.  
   
-10. On the **Actions** tab, in the **General** group, choose **Make Orders**.  
+     Next, perform the picker’s task.  
   
-11. In the **Make Orders for** field, select the **All Lines** option, and then choose the **OK** button. Check if additional demand exists for the production of the parent item, the bicycle, which is being sold on sales order 1001.  
+4.  In the **Search** box, enter **Picks**, and then choose the related link.  
   
-12. On the **Actions**, in the **Functions** group, choose **Calculate Plan**.  
+5.  Open the warehouse pick document that you created in step 3 in this section.  
   
-     The message indicates that all required items are now supplied. Verify the firm planned production orders that are created.  
+     Notice the value in the **Source Document** field and that all the pick lines are for assembly components.  
   
-13. In the **Search** box, enter **Firm Planned Prod. Orders**, and then choose the related link.  
+     Next.register the pick without changing the default information.  
   
-     In the **Firm Planned Prod. Orders** window review how start times and end times of individual orders are scheduled according to the product structure. The lowest-level components are produced first. Therefore, you must plan multilevel orders as demonstrated in this planning workflow.  
+6.  On the **Actions** tab, in the **Functions** group, choose **Autofill Qty. to Handle**.  
+  
+7.  On the **Home** tab, in the **Registering** group, choose **Register Pick**.  
+  
+     Return to performing the shipping tasks.  
+  
+8.  Reopen the **Warehouse Shipment** window.  
+  
+     Notice that the **Qty. Picked** field is still empty on all lines. This is because you still have not picked the items to be shipped, but only the components needed to assemble the ATO quantities.  
+  
+     Proceed to review the related assembly order.  
+  
+9. Select the shipment line for three units of Kit B.  
+  
+10. On the **Lines** FastTab, choose **Line**, and then choose **Assemble to Order**. The **Assembly Order** window opens.  
+  
+     Notice that several fields on the assembly order are unavailable because the order is linked to a sales order.  
+  
+     Notice on the assembly order lines that the **Qty. Picked** field is filled. This is due to the pick that you registered in step 7 in this section.  
+  
+11. In the **Quantity to Assemble** field, try to enter any value lower than **3**.  
+  
+     Read the error message explaining why this field can only be filled through the **Qty. to Ship** field on the related shipment.  
+  
+     The **Quantity to Assemble** field is editable is to support situations where you want to partially ship an inventory quantity instead of assembling more units to the order. For more information, see the “Combination Scenarios” section in [Assemble to Order or Assemble to Stock](FullExperience/assemble-to-order-or-assemble-to-stock.md).  
+  
+12. Close the **Assembly Order** window to return to the **Warehouse Shipment** window.  
+  
+13. On the shipment line for three units of Kit B, in the **Qty. to Ship** field, enter **3**.  
+  
+14. On the **Actions** tab, in the **Posting** group, choose **Post Shipment**, and then select **Ship**.  
+  
+     Along with this warehouse shipment posting, the full consumption and output quantities of the related assembly order are posted, and the **Remaining Quantity** field is empty. The sales order line for Kit B is updated to show that the three units are shipped.  
+  
+     Warehouse activities to fulfill the first sales order line by January 23 are completed. Next, fulfill the sales order lines that are shipping on January 27  
+  
+### Assembling and Recording the Second ATO Quantity  
+  
+1.  In the **Search** box, enter **Assembly Orders**, and then choose the related link.  
+  
+     Notice that the ATO order for shipped units of Kit B is still in the list, although the **Remaining Quantity** is empty. This is because the linked sales order is still not fully invoiced.  
+  
+    > [!NOTE]  
+    >  In this section, the assembly worker is responsible for recording the completed ATO assembly work on the warehouse shipment line. This workflow may occur in environments where the assembly work is performed in a separate assembly department and assembly workers are authorized to change the warehouse shipment line.  
+  
+2.  Open the ATO assembly order for five units of Kit A.  
+  
+     Notice that the **Quantity to Assemble** and the **Quantity to Consume** fields are empty because no work is recorded yet.  
+  
+     Notice on the assembly order lines that the **Qty. Picked** field is filled. This is due to the pick that was registered on January 23.  
+  
+     Next, record that the assembly order is completed.  
+  
+3.  On the **Navigate** tab, in the **Warehouse** group, choose **Asm.-to-Order Whse. Shpt. Line**.  
+  
+4.  In the **Asm.-to-Order Whse. Shpt. Line** window, in the **Qty. to Ship** field, enter **5**, and then close the window.  
+  
+     Notice in the **Assembly Order** window that the **Quantity to Assemble** and the **Quantity to Consume** fields are now filled with the output and consumption quantities that will be posted with the shipment.  
+  
+5.  Close the **Assembly Order** window.  
+  
+### Assembling the ATS Quantity  
+  
+1.  In the **Search** box, enter **Assembly Orders**, and then choose the related link.  
+  
+2.  Open the assembly order for ten units of Kit A.  
+  
+     Notice that the **Quantity to Assemble** field is filled with the expected quantity.  
+  
+     Next, create a pick document to retrieve the needed components.  
+  
+3.  On the **Actions** tab, in the **Release** group, choose **Release**.  
+  
+4.  On the **Actions** tab, in the **Warehouse** group, choose **Create Whse. Pick**, and choose the **OK** button.  
+  
+     Next, perform the picker’s task.  
+  
+5.  In the **Search** box, enter **Picks**, and then choose the related link.  
+  
+6.  Open the warehouse pick document that you created in step 4 in this section.  
+  
+     Proceed to register the pick without changing the default information.  
+  
+7.  On the **Actions** tab, in the **Functions** group, choose **Autofill Qty. to Handle**.  
+  
+8.  On the **Home** tab, in the **Registering** group, choose **Register Pick**.  
+  
+     Return to the assembly order to perform the last assembly task.  
+  
+9. In the **Assembly Order**, on the **Actions** tab, in the **Posting** group, choose **Post**, and then choose the **Yes** button.  
+  
+     Notice that the assembly order is removed from the list of open orders.  
+  
+### Shipping the Remaining Items, Partly from Stock and Partly Assembled to the Order  
+  
+1.  In the **Search** box, enter **Warehouse Shipment**, and then choose the related link.  
+  
+2.  Open the most recent warehouse shipment that is created at WHITE location.  
+  
+     Notice on the line for ten units of Kit A that the **Qty. to Ship** and **Qty. Picked** field are empty.  
+  
+     Next, pick any remaining items.  
+  
+3.  On the **Actions** tab, in the **Functions** group, choose **Create Pick**, and then choose the **OK** button.  
+  
+     Next, perform the picker’s last task for this warehouse shipment.  
+  
+4.  In the **Search** box, enter **Picks**, and then choose the related link.  
+  
+5.  Open the warehouse pick document that you created in step 3 in this section.  
+  
+     Notice that this pick document is for assembly item, not for assembly components.  
+  
+     Next, register the pick without changing the default information.  
+  
+6.  On the **Actions** tab, in the **Functions** group, choose **Autofill Qty. to Handle**.  
+  
+7.  On the **Home** tab, in the **Registering** group, choose **Register Pick**, and then choose the **Yes** button.  
+  
+     Return to the warehouse shipment to perform the last task.  
+  
+8.  Reopen the **Warehouse Shipment** window.  
+  
+     In the **Warehouse Shipment** window, on the line for ten units of Kit A, notice that the **Qty. to Ship** and **Qty. Picked** fields now contain **10**.  
+  
+9. On the **Actions** tab, in the **Posting** group, choose **Post Shipment**, and the choose **Ship**.  
+  
+     The warehouse shipment document is removed, which indicates that the involved warehouse activities are completed. Next, verify that the sales order has been processed.  
+  
+10. In the **Search** box, enter **Sales Orders**, and then choose the related link  
+  
+11. Open the sales order for The Device Shop.  
+  
+     Notice that the **Quantity Shipped** field contains the full quantity on both lines.  
+  
+     When the The Device Shop pays for their receipt of the 18 PCs from ADD INCLUDE<!--[!INCLUDE[demoname](includes/demoname_md.md)]-->, the sales order and its linked assembly orders are removed.  
   
 ## See Also  
- [Business Process Walkthroughs](../business-process-walkthroughs.md)   
- [Walkthrough: Planning Supplies Automatically](../walkthrough-planning-supplies-automatically.md)
+ Assembly Order   
+ [Assemble to Order or Assemble to Stock](FullExperience/assemble-to-order-or-assemble-to-stock.md)   
+ [How to: Assemble Items](FullExperience/how-to-assemble-items.md)   
+ [How to: Pick Items for Warehouse Shipment](FullExperience/how-to-pick-items-for-warehouse-shipment.md)   
+ [How to: Sell Items Assembled to Order](FullExperience/how-to-sell-items-assembled-to-order.md)   
+ [Assemble Items](FullExperience/assemble-items.md)   
+ [Design Details: Assembly Order Posting](FullExperience/design-details-assembly-order-posting.md)   
+ [Design Details: Internal Warehouse Flows](FullExperience/design-details-internal-warehouse-flows.md)   
+ [Design Details: Outbound Warehouse Flow](FullExperience/design-details-outbound-warehouse-flow.md)   
+ [Walkthrough: Planning Supplies Automatically](FullExperience/walkthrough-planning-supplies-automatically.md)

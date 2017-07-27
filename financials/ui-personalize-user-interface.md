@@ -10,14 +10,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: customize, personalize
+ms.search.keywords: customize, personalize, personalize mode
 ms.date: 07/26/2017
 ms.author: jswymer
 
 ---
 # Personalizing Pages
 <!--NAV in the Web client-->
-You can customize pages to better suit your daily work by displaying only the information you want - where you want it. Depending on the type of page and what it includes, you can:
+You can customize pages to better suit your daily work by displaying only the information you want - where you want it. Depending on the type of page and what it includes, you can change the layout and content, including:
 
 -   Add, move, and remove fields.
 
@@ -25,7 +25,7 @@ You can customize pages to better suit your daily work by displaying only the in
 -   Add, move, and remove field columns in a list.
 -   Change the freeze pane of field columns in a list. 
 
-    The freeze pane defines the columns that always appear in the list, even when you scroll.
+    The freeze pane defines the columns that always appear in the list, even when you scroll horizontally.
 -   Move and remove parts.
 
     Parts are typically larger areas on a page that contain elements such as another page, a chart, or cues (tiles).  

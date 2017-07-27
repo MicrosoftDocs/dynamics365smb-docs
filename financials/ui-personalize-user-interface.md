@@ -1,0 +1,66 @@
+---
+title: Personalizing the User Interface in Financials | Microsoft Docs
+description: Learn how to customize the user interface to suit your way of working.
+services: project-madeira
+documentationcenter: ''
+author: jswymer
+
+ms.service: dynamics365-financials
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: customize, personalize, personalize mode
+ms.date: 07/26/2017
+ms.author: jswymer
+
+---
+# Personalizing Pages
+<!--NAV in the Web client-->
+You can customize pages to better suit your daily work by displaying only the information you want - where you want it. Depending on the type of page and what it includes, you can change the layout and content, including:
+
+-   Add, move, and remove fields.
+
+    You cannot create new fields; you can only add fields that already exist in the database. The same is true for field columns in a list.
+-   Add, move, and remove field columns in a list.
+-   Change the freeze pane of field columns in a list. 
+
+    The freeze pane defines the columns that always appear in the list, even when you scroll horizontally.
+-   Move and remove parts.
+
+    Parts are typically larger areas on a page that contain elements such as another page, a chart, or cues (tiles).  
+
+
+## To personalize a page
+
+1. Choose the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, and then choose **Personalize**.
+
+    The **Personalize Mode** bar appears at the top to indicate that you can start to making changes. 
+
+    ![Personalize mode](media/ui_personalize_mode.png "Personalize mode")
+
+    Choose **More** to see additional personalization actions.
+
+2.  Go to a page that you want to personalize.
+
+3.  Point to an area or component that you want to personalize, such as a field or column header in a list.
+
+    -   If a component can be personalized, an arrow head (![Personalization indicator arrow left](media/ui_personalize_arrow_left.png "Personalization indicator arrow left") or ![Personalization indicator arrow down](media/ui_personalize_arrow_down.png "Personalization indicator arrow down")) appears.
+    -   If the component is a part, the extent of the part is indicated by a border. 
+    -   The freeze pane in a list is indicated by a vertical line along the entire right-side of the last column of the freeze pane.
+5.  To move the component, like a field or column, drag it to its new location.
+4.  To remove the component, select the arrowhead, and choose **Remove**.
+6.  To add a field, in the **Personalize Mode** bar, choose **More**, and then choose **Field*.
+
+    A pane opens to display the fields that you can add to the page. Field marked as **Placed** are already on the page and cannot be added again.
+
+    To add a field, drag it from the field pane to the location that you want it.
+7. You can continue to make changes on the same or other pages. When you are done, in the **Personalize Mode** bar, choose **Stop Personalization** to save the changes and exit the **Personalize Mode**. 
+
+## To restore pages to their original layout
+At some point, you might want to undo all the personalization changes that you have made over time so that pages appear as they were originally designed. To do this, choose the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, **Personalize**, and then **Restore Defaults**.  
+
+## See Also
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[How to: Change the Role Center](change-role.md)  
+[Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)  

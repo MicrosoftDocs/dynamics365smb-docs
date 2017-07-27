@@ -16,11 +16,11 @@
 
 ---
 # Customize the User Interface
-The concept of UI customization in ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]--> is divided in two:  
+The concept of user interface (UI) customization in ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]--> is divided in two:  
   
--   Configuration, performed by the administrator  
+-   Configuration, which is performed by the administrator  
   
--   Personalization, performed by users  
+-   Personalization, which performed by users  
   
  The administrator configures the user interface for multiple users by customizing the user interface for a profile that the users are assigned to.  
   

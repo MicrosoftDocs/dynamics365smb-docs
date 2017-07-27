@@ -17,7 +17,7 @@ ms.author: jswymer
 ---
 # Personalizing Pages
 <!--NAV in the Web client-->
-You can customize pages to better suit your daily work by displaying only the information you want - where you want it. Depending on the type of page and what it includes, you can change the layout and content, including:
+You can customize pages to better suit your daily work by changing their layout to display only the information you want, where you want it. Depending on the type of page and what it includes, you can:
 
 -   Add, move, and remove fields.
 

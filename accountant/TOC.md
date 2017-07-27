@@ -1,2 +1,2 @@
-# [Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](index.md)
-## [Get started with [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](accountant-get-started.md)
+# [Welcome to Dynamics 365 for Accountants](index.md)
+## [Get started with Dynamics 365 for Accountants](accountant-get-started.md)

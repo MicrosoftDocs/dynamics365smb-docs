@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, accountant
-ms.date: 06/09/2017
+ms.date: 07/27/2017
 ms.author: edupont
 
 ---
@@ -24,8 +24,6 @@ When you first install the extension, a sample company helps you get started. Yo
 ## Installing the Extension
 When you add the extension to your [!INCLUDE[d365fin](includes/d365fin_md.md)], it replaces your current Role Center and adds permissions to your user profile. As a result, you must sign out and sign in a couple of times.  
 
-For more information, see [Accountant Experiences in Dynamics 365 for Financials](finance-accounting.md).  
-
 ## See Also
-[Accountant Experiences in Dynamics 365 for Financials](finance-accounting.md)  
-[Finance](finance.md)  
+[Welcome to Dynamics 365 for Accountants](index.md)  
+[Get started with Dynamics 365 for Accountants](accountant-get-started.md)  

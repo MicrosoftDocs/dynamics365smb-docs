@@ -48,14 +48,19 @@ You can customize pages to better suit your daily work by changing their layout 
     -   If a component can be personalized, an arrow head (![Personalization indicator arrow left](media/ui_personalize_arrow_left.png "Personalization indicator arrow left") or ![Personalization indicator arrow down](media/ui_personalize_arrow_down.png "Personalization indicator arrow down")) appears.
     -   If the component is a part, the extent of the part is indicated by a border. 
     -   The freeze pane in a list is indicated by a vertical line along the entire right-side of the last column of the freeze pane.
-5.  To move the component, like a field or column, drag it to its new location.
+5.  To move the component, like a field or column, drag it by the arrowhead to its new location. The target location is indicated by either a thick horizontal or vertical line.
 4.  To remove the component, select the arrowhead, and choose **Remove**.
-6.  To add a field, in the **Personalize Mode** bar, choose **More**, and then choose **Field*.
+5.  To change the freeze pane in a list to another column, select the arrowhead of the column that you want as the last column of the freeze pane, and then choose **Set Freeze Pane**. If you do not want a freeze pane, select the arrowhead for the current freeze pane column, and choose **Clear Freeze Pane**. 
+6.  To add a field, in the **Personalize Mode** bar, choose **More**, and then choose **Field**.
 
-    A pane opens to display the fields that you can add to the page. Field marked as **Placed** are already on the page and cannot be added again.
+    The **Add Field to Page** pane opens on the right that list the fields that you can add to the page. Fields marked as **Placed** are already on the page. Fields marked as **Ready** are not currently on the page.
 
-    To add a field, drag it from the field pane to the location that you want it.
-7. You can continue to make changes on the same or other pages. When you are done, in the **Personalize Mode** bar, choose **Stop Personalization** to save the changes and exit the **Personalize Mode**. 
+    To add a field, drag it from the pane to the location that you want it.
+
+    > [!NOTE]  
+    >   For lists, you cannot add field if the list is shown as tiles. To change the view, choose the show as list ![Show as list](media/ui_show_as_list_icon.png "Show as list arrow left") icon.
+
+7. You can continue to make changes on the same or other pages. When you are done, in the **Personalize Mode** bar, choose **Stop personalizing** to save the changes and exit the **Personalize Mode**. 
 
 ## To restore pages to their original layout
 At some point, you might want to undo all the personalization changes that you have made over time so that pages appear as they were originally designed. To do this, choose the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, **Personalize**, and then **Restore Defaults**.  

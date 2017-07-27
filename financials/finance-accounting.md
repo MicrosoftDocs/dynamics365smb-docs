@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 06/20/2017
+ms.date: 07/11/2017
 ms.author: edupont
 
 ---
@@ -59,7 +59,12 @@ Next to the client name the three ellipses reveal a short menu:
 Similarly, you can use the **Client Summary** drop-down menu to refresh all companies, for example.  
 
 #### Company Details
-You can see more information about your clients' data by choosing the name of the company that you want to learn more about. This opens the **Company Details** window in a new browser tab.
+You can see more information about your clients' data by choosing the name of the company that you want to learn more about. This opens the **Company Details** window, where you can see additional information, such as the following:  
+
+-   Cash account balances  
+-   Cash flow forecast  
+-   Overdue purchase invoices  
+-   Overdue sales invoices  
 
 All other work that you do for each client, you can do in the Accountant Role Center in their [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
@@ -78,6 +83,7 @@ The data in the card for each client is specified by you, and you can change it 
 [Setting Up Finance](finance-setup-finance.md)  
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
 [Closing Years and Periods](year-close-years-periods.md)  
+[Working with Dimensions](finance-dimensions.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Invite Your External Accountant to Your [!INCLUDE[d365fin](includes/d365fin_md.md)]](finance-invite-external-accountant.md)  
 [Financials for Accountants on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  

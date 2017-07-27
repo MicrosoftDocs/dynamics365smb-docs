@@ -1,6 +1,6 @@
 ---
-    title: Walkthrough: Planning Supplies Manually | Microsoft Docs
-    description: This walkthrough demonstrates the process of planning supply orders to fulfill new demand. You can initiate supply planning at fixed intervals, for example, every morning or every Monday, or when you are notified by sales or production, depending on the type of demand. In this walkthrough you will use the **Order Planning** window, a simple supply planning tool that is based on manual decision-making instead of parameter-based automatic planning.
+    title: Walkthrough: Receiving and Putting Away in Basic Warehousing | Microsoft Docs
+    description: In ADD INCLUDE<!--[!INCLUDE[navnow](includes/navnow_md.md)]-->, the inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -14,248 +14,151 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
----
-# Walkthrough: Planning Supplies Manually
-This walkthrough demonstrates the process of planning supply orders to fulfill new demand. You can initiate supply planning at fixed intervals, for example, every morning or every Monday, or when you are notified by sales or production, depending on the type of demand. In this walkthrough you will use the **Order Planning** window, a simple supply planning tool that is based on manual decision-making instead of parameter-based automatic planning.  
+    ---
+# Walkthrough: Receiving and Putting Away in Basic Warehousing
+In ADD INCLUDE<!--[!INCLUDE[navnow](includes/navnow_md.md)]-->, the inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.  
+  
+|Method|Inbound process|Bins|Receipts|Put-aways|Complexity level (See [Design Details: Warehouse Setup](FullExperience/design-details-warehouse-setup.md))|  
+|------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  
+|A|Post receipt and put-away from the order line|X|||2|  
+|B|Post receipt and put-away from an inventory put-away document|||X|3|  
+|C|Post receipt and put-away from a warehouse receipt document||X||4/5/6|  
+|D|Post receipt from a warehouse receipt document and post put-away from a warehouse put-away document||X|X|4/5/6|  
+  
+ For more information, see [Design Details: Inbound Warehouse Flow](FullExperience/design-details-inbound-warehouse-flow.md).  
+  
+ The following walkthrough demonstrates method B in the previous table.  
   
 ## About This Walkthrough  
- This walkthrough illustrates the following tasks:  
+ In basic warehousing where your location is set up to require put-away processing but not receive processing, you use the **Inventory Put-away** window to record and post put-away and receipt information for your inbound source documents. The inbound source document can be a purchase order, sales return order, inbound transfer order, or production order with output that is ready to be put away.  
   
--   Planning a purchase order for manufacturing components.  
+ This walkthrough demonstrates the following tasks.  
   
--   Planning a transfer order to fulfill sales demand.  
+-   Setting up SILVER location for inventory put aways.  
   
--   Planning a production order for a multilevel item.  
+-   Setting up SILVER location for bin handling.  
+  
+-   Defining a default bin for item LS-81. (LS-75 is already set up in ADD INCLUDE<!--[!INCLUDE[demo](includes/demo_md.md)]-->.)  
+  
+-   Creating a purchase order for vendor 10000 for 40 loudspeakers.  
+  
+-   Verifying that the put-away bins are preset by setup.  
+  
+-   Releasing the purchase order for warehouse handling.  
+  
+-   Creating an inventory put-away based on a released source document.  
+  
+-   Verifying that the put-away bins are inherited from the purchase order.  
+  
+-   Registering the warehouse movement into the warehouse and at the same time posting the purchase receipt for the source purchase order.  
   
 ## Roles  
- This walkthrough demonstrates tasks performed by the following user roles:  
+ This walkthrough demonstrates tasks that are performed by the following user roles:  
   
--   Production Planner  
+-   Warehouse Manager  
   
 -   Purchasing Agent  
   
--   Sales Order Processor  
+-   Warehouse Worker  
   
 ## Prerequisites  
- Before you begin this walkthrough, you must install the [!INCLUDE[d365fin](includes/d365fin_md.md)]. The following modifications must be made to the database:  
+ To complete this walkthrough, you will need:  
   
--   Delete all existing sales orders for bicycles.  
+-   ADD INCLUDE<!--[!INCLUDE[navnow](includes/demolong_md.md)]--> installed.  
   
--   Create one sales order for 10 bicycles at BLUE location.  
+-   To make yourself a warehouse employee at SILVER location by following these steps:  
   
--   Delete all planned and firm planned production orders. Do not delete started orders with entries that are already posted.  
+    1.  In the **Search** box, enter **Warehouse Employees**, and then choose the related link.  
   
- As a rule, use the suggested data in this walkthrough because this data has the necessary records.  
+    2.  Choose the **User ID** field, and select your own user account in the **Users** window.  
+  
+    3.  In the **Location Code** field, enter SILVER.  
+  
+    4.  Select the **Default** field.  
   
 ## Story  
- Eduardo, the Production Planner of a small manufacturing company, is about to plan production and purchase orders to fulfill new sales demand.  
+ Ellen, the warehouse manager at ADD INCLUDE<!--[!INCLUDE[demoname](includes/demo_md.md)]-->, creates a purchase order for 10 units of item LS-75 and 30 units of item LS-81 from vendor 10000 to be delivered to SILVER Warehouse. When the delivery arrives at the warehouse, John, the warehouse worker, puts the items away in default bins defined for the items. When John posts the put-away, the items are posted as received into inventory and available for sale or other demand.  
   
- Because the products have few BOM levels and the flow of orders is relatively low, Eduardo uses the **Order Planning** window to manually create supply orders, one product level at a time.  
+## Setting up the Location  
+ The setup of the **Location Card** window defines the company’s warehouse flows.  
   
- In a more complex manufacturing environment, the planning worksheet is used to plan supply based on item parameters such as rescheduling period, safety lead time, reorder point, and batch calculations of consolidated demand from all product levels.  
+### To set up the location  
   
-## Setting Up the Sample Data  
- The standard ADD INCLUDE<!--[!INCLUDE[demo](../../includes/demo_md.md)]--> demonstration company currently has lots of unplanned demand. During the different planning tasks in this walkthrough, you will have to deviate from the realistic business flow by ignoring demand with close due dates and instead use demand with later due dates.  
+1.  In the **Search** box, enter **Locations**, and then choose the related link.  
   
-## Using the Order Planning Window  
- The **Order Planning** window can be accessed from several different locations on the **Departments** menu in the navigation pane:  
+2.  Open the SILVER location card.  
   
--   Manufacturing, Planning  
+3.  Select the **Require Put-away** check box.  
   
--   Sales & Marketing, Order Processing  
+     Proceed to set up a default bin for the two item numbers to control where they are put away.  
   
--   Purchase, Planning  
+4.  On the **Navigate** tab, in the **Location** group, choose **Bins**.  
   
--   In addition, you can open this window for a specific production order by choosing **Planning** on the **Navigate** tab in the **Order** group.  
+5.  Select the first row, for bin S-01-0001, and then on the **Home** tab, in the **Bins** group, choose **Contents**.  
   
-#### To use the Order Planning window  
+     Notice in the **Bin Content** window that item LS-75 is already set up as content in bin S-01-0001.  
   
-1.  In the **Search** box, enter **Order Planning**, and then choose the related link.  
+6.  On the **Home** tab, in the **New** group, choose **New**.  
   
-     When the **Order Planning** window first opens, a plan must be calculated to show the new demand since it was last calculated.  
+7.  Select the **Fixed** and the **Default** fields.  
   
-2.  On the **Actions** tab, in the **Functions** group, choose **Calculate Plan**.  
+8.  In the **Item No.** field, enter LS-81.  
   
-     The planning system analyzes any new demand that has been introduced, such as new sales, changed sales, or production orders.  
+## Creating the Purchase Order  
+ Purchase orders are the most common type of inbound source document.  
   
-     Based on total availability, the quantity needed for each demand line is calculated. This calculation is performed order-by-order. This means that the order which includes the demand line with the earliest due date or shipment date will be calculated first. After that, additional demand lines will be calculated in the same order, regardless of the due date or shipment date.  
+### To create the purchase order  
   
-3.  Be sure that the **Order Planning** window is maximized and that column fields are resized to show all the default field names.  
+1.  In the **Search** box, enter **Purchase Orders**, and then choose the related link.  
   
-     When the calculation is completed, the window displays all unfulfilled demand as collapsed order header lines sorted by earliest demand date.  
+2.  On the **Home** tab, in the **New** group, choose **New**.  
   
-     Notice that ADD INCLUDE<!--[!INCLUDE[demo](../../includes/demo_md.md)]--> has several orders with unfulfilled demand. Each bold planning line represents an order, sales order, or production order, including at least one order line with insufficient availability.  
+3.  Create a purchase order for vendor 10000 on the work date (January 23) with the following purchase order lines.  
   
-4.  In the **Show Demand As** field, select the **All Demand** filter.  
-  
-     With the **Demand Type** field, you can choose which order types that you want to display.  
-  
-     Orders that do not have availability problems are not shown. If no orders exist when a plan is calculated, a message will display and no planning lines will appear.  
-  
-## Planning a Purchase Order to Fulfill Component Demand  
- In this procedure, you create a purchase order for needed manufacturing components.  
-  
-#### To plan a purchase order to fulfill component need in production  
-  
-1.  Expand the first line (choose the + symbol).  
-  
-2.  Choose the first demand line, with item **LSU-15**, and then on the **Navigate** tab, in the **Line** group, choose **Show Document**.  
-  
-3.  Close the opened production order to return to the **Order Planning** window.  
-  
-4.  In the **Replenishment System** field, select **Purchase**.  
-  
-     The default value is from the item card, or SKU card, but you can change it to one of the following options:  
-  
-    -   **Purchase** – To create a purchase order.  
-  
-    -   **Transfer** – To create a transfer order.  
-  
-    -   **Prod. Order** – To create a production order.  
-  
-5.  In the **Supply From** field, select one of the following options according to the selected replenishment system:  
-  
-    -   **Vendor** – For purchases  
-  
-    -   **Location** – For transfers  
-  
-     If the field is not filled in, an error message will display when you try to create the supply orders.  
+    |Item|Location code|Bin code|Quantity|  
+    |----------|-------------------|--------------|--------------|  
+    |LS_75|SILVER|S-01-0001|10|  
+    |LS-81|SILVER|S-01-0001|30|  
   
     > [!NOTE]  
-    >  If the components have a default vendor number set up on the item cards, the lines will be preset.  
+    >  The bin code is entered automatically according to the setup that you performed in the “Setting up the Location” section.  
   
-6.  Choose the **Supply From**  field.  
+     Proceed to notify the warehouse that the purchase order is ready for warehouse handling when the delivery arrives.  
   
-7.  In the **Item Vendor Catalogue** window, choose **New**, and then select vendor **30000**.  
+4.  On the **Actions** tab, in the **Release** group, choose **Release**.  
   
-8.  Choose the **OK** button to return to the **Order Planning** window.  
+     The delivery of loudspeakers from vendor 10000 has arrived at SILVER warehouse, and John proceeds to put them away.  
   
-9. Copy vendor **30000** to the other lines for loudspeaker components on this production order.  
+## Receiving and Putting the Items Away  
+ In the **Inventory Put-away** window, you can manage all inbound warehouse activities for a specific source document, such as a purchase order.  
   
-     You are now ready to create a purchase order.  
+### To receive and put the items away  
   
-10. On the **Actions** tab, choose **Make Orders**. The **Make Supply Orders** window opens.  
+1.  In the **Search** box, enter **Inventory Put-aways**, and then choose the related link.  
   
-11. On the **Order Planning** FastTab, in the **Make Orders for** field, choose the **Active Order** option.  
+2.  On the **Home** tab, in the **New** group, choose **New**.  
   
-12. On the **Options** FastTab, in the **Create Purchase Order** field, choose the **Make Purch. Order** option.  
+3.  Select the **Source Document** field, and then select **Purchase Order**.  
   
-13. Choose the **OK** button to create purchase orders for all the components of the order.  
+4.  Select the **Source No.** field, select the line for the purchase from vendor 10000, and then choose the **OK** button.  
   
-     The purchase orders are now created and saved as the last orders in the list of purchase orders.  
+     Alternatively, on the **Actions** tab, in the **Functions** group, choose **Get Source Document**, and then select the purchase order.  
   
-## Planning a Transfer Order to Fulfill Sales Demand  
- In this procedure, you will plan for demand from a sales order. Demand lines represent sales lines and not component lines, as in production demand.  
+5.  On the **Actions** tab, in the **Functions** group, choose **Autofill Qty. to Handle**.  
   
-#### To plan a transfer order to fulfill sales demand  
+     Alternatively, in the **Qty. to Handle** field, enter 10 and 30 respectively on the two inventory put-away lines.  
   
-1.  Move the pointer to the planning line for order **2008**.  
+6.  On the **Actions** tab, in the **Posting** group, choose **Post**, select **Receive**, and then choose the **OK** button.  
   
-2.  Expand the line and move the pointer to the demand line.  
-  
-     Sales order **2008** is for ten loudspeakers, item **LS-120**, ordered by John Haddock Insurance Co.  
-  
-     The item’s defined replenishment system and default vendor will display.  
-  
-    > [!NOTE]  
-    >  At the bottom of the window, there are four information fields. In the **Earliest Date Available** field, the ten pieces that are needed will be available, on an inbound supply order, nine days later than the current due date. If this is too late for the customer, the **Available for Transfer** field shows 13 pieces of the item at another location. You will want to plan for this stock.  
-  
-3.  Choose the **Available for Transfer** field to open the **Get Alternative Supply** window.  
-  
-4.  Choose the **OK** button to book the ten items that are available.  
-  
-    > [!NOTE]  
-    >  In the demand line, the suggested purchase has been exchanged with a transfer from GREEN location. The **Make Orders** function creates a transfer order from GREEN to the demanded location. The **Substitutes Exists** field works in the same way.  
-  
-5.  On the **Actions** tab, in the **Functions** group, choose **Make Orders**. The **Make Supply Orders** window opens.  
-  
-6.  On the **Order Planning** FastTab, in the **Make Orders for** field, choose the **The Active Order** option.  
-  
-7.  On the **Options** FastTab, in the **Create Transfer Order** field, select the **Make Trans. Orders** option.  
-  
-8.  Choose the **OK** button to create the transfer order to supply the sales order.  
-  
-     The transfer order is now created and saved in the list as the last order in the list of open transfer orders.  
-  
-## Planning a Multilevel Production Order to Fulfill Sales Demand  
- In this procedure, you will plan to fulfill sales demand for a produced item with multiple product levels, each creating dependent production demand.  
-  
-#### To plan multilevel production to fulfill sales demand  
-  
-1.  Select the planning line with sales demand for order **1001**, created earlier as prerequisite data.  
-  
-     This demand is a sales line, but the item has a defined replenishment system of **Prod. Order**. Proceed to add an extra bell to the component need of each bicycle.  
-  
-2.  On the **Navigate** tab, in the **Line** group, choose **Components** to open the **Planning Components** window.  
-  
-3.  On the line with the Bell item, change the **Quantity per** field from **1** to **2**.  
-  
-4.  In the **Order Planning** window, consider your planning alternatives. In this case, you have no alternative means of supply, no transfer, substitute, or later delivery. You must create the suggested supply order, a production order.  
-  
-5.  On the **Actions** tab, in the **General** group, choose **Make Orders** to create the production order.  
-  
-     In the **Order Planning** window, notice that the planning line for sales order **1001** no longer exists and that the initial sales demand has been covered.  
-  
-6.  Close the **Order Planning** window.  
-  
-     Now, you could choose to stay in this view and complete all the planning tasks. Instead, you will now take on the Production Planner role by going to the production order that you just created and access the **Order Planning** window.  
-  
- As a production planner you now must plan a specific production order.  
-  
-#### To plan a specific production order  
-  
-1.  Open the production order **101001**, for ten bicycles, that you just created by using the **Make Orders** function.  
-  
-2.  Open the **Prod. Order Components** window to check that the extra bell is reflected on the production order.  
-  
-3.  On the **Navigate** tab, in the **Order** group, choose **Planning**.  
-  
-     The **Order Planning** window opens in a view that is always filtered on the specific production demand. Sales demand is not displayed. You must calculate a plan before you can see any additional demand.  
-  
-4.  On the **Actions** tab, in the **Functions** group, choose **Calculate Plan**.  
-  
-     Notice that four new production orders appear as unplanned production demand derived from order **101001**. The new lines represent new production demand from the subassemblies that must be created to produce the order.  
-  
-5.  On the **Actions** tab, in the **General** group, choose **Expand All**  to get an overview of all the production demand for the production orders.  
-  
-     To provide additional information about the demand lines, you may want to add the **Demand Quantity** and **Demand Qty. Available** fields to your view.  
-  
-     Now you must supply ten of each component.  
-  
-     Note that four of the demand lines have replenishment system Prod. Order. These four subassemblies represent the second product level of the bicycle.  
-  
-     The default replenishment settings are already filled in and you can proceed to make orders.  
-  
-6.  On the **Actions** tab, in the **General** group, choose **Make Orders**.  
-  
-     Before you choose the **OK** button, notice the text on the **Order Planning** FastTab. This text is important because you know that the bicycle has several produced components, subassemblies, in its product structure that might be in demand when you create this production order.  
-  
-7.  In the **Make Supply Order** window, in the **Make Orders for** field, choose the **All Lines** option, and then choose the **OK** button to create production orders for the second product level of the order.  
-  
-     Note that the top-level production demand for production order 101001 no longer exists. This means that the initial production demand for subassemblies has been planned for.  
-  
-     In the **Order Planning** window, you calculate a plan again in order to plan the bicycle structure.  
-  
-8.  On the **Actions** tab, in the **Functions** group, choose **Calculate Plan** to recalculate the plan as instructed by the embedded Help text.  
-  
-     The two new lines represent additional production demand derived from the subassemblies planned in the previous steps. It is suggested that you make two production orders to supply the wheel hubs, one for 10 front hubs and one for 10 back hubs.  
-  
-9. On the **Actions** tab, in the **General** group, choose **Expand All**  to get an overview of all the demand for the two production orders.  
-  
-     The suggested supply plan indicates that a total of four purchase orders will be created for the components. You decide to make the proposed orders.  
-  
-10. On the **Actions** tab, in the **General** group, choose **Make Orders**.  
-  
-11. In the **Make Orders for** field, select the **All Lines** option, and then choose the **OK** button. Check if additional demand exists for the production of the parent item, the bicycle, which is being sold on sales order 1001.  
-  
-12. On the **Actions**, in the **Functions** group, choose **Calculate Plan**.  
-  
-     The message indicates that all required items are now supplied. Verify the firm planned production orders that are created.  
-  
-13. In the **Search** box, enter **Firm Planned Prod. Orders**, and then choose the related link.  
-  
-     In the **Firm Planned Prod. Orders** window review how start times and end times of individual orders are scheduled according to the product structure. The lowest-level components are produced first. Therefore, you must plan multilevel orders as demonstrated in this planning workflow.  
+     The 40 loudspeakers are now registered as put away in bin S-01-0001, and a positive item ledger entry is created reflecting the posted purchase receipt.  
   
 ## See Also  
- [Business Process Walkthroughs](../business-process-walkthroughs.md)   
- [Walkthrough: Planning Supplies Automatically](../walkthrough-planning-supplies-automatically.md)
+ Inventory Put-away   
+ Location Card   
+ [How to: Put Items Away with Inventory Put-aways](FullExperience/how-to-put-items-away-with-inventory-put-aways.md)   
+ [How to: Set Up Basic Warehouses with Operations Areas](FullExperience/how-to-set-up-basic-warehouses-with-operations-areas.md)   
+ [How to: Move Components to an Operation Area in Basic Warehousing](FullExperience/how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
+ [How to: Pick for Production in Basic Warehousing](FullExperience/how-to-pick-for-production-in-basic-warehousing.md)   
+ [How to: Move Items Ad Hoc in Basic Warehousing](FullExperience/how-to-move-items-ad-hoc-in-basic-warehousing.md)   
+ [Design Details: Inbound Warehouse Flow](FullExperience/design-details-inbound-warehouse-flow.md)   
+ [Business Process Walkthroughs](FullExperience/business-process-walkthroughs.md)

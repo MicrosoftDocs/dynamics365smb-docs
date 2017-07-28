@@ -49,7 +49,18 @@ Of course, the personalization changes that you make will only effect what you s
     -   If a component can be personalized, an arrow head (![Personalization indicator arrow left](media/ui_personalize_arrow_left.png "Personalization indicator arrow left") or ![Personalization indicator arrow down](media/ui_personalize_arrow_down.png "Personalization indicator arrow down")) appears.
     -   If the component is a part, the extent of the part is indicated by a border. 
     -   The freeze pane in a list is indicated by a vertical line along the entire right-side of the last column of the freeze pane.
-5.  To move the component, like a field or column, drag it by the arrowhead to its new location. The target location is indicated by either a thick horizontal or vertical line.
+
+4.    Use this table to help make changes:
+        <table>
+        <tr><th>What do you want to do</td><th>How to do it</th></tr>
+        <tr><td>Move the component, like a field, column in list, or part</td><td> Drag it by the arrowhead to its new location. The target location is indicated by either a thick horizontal or vertical line.</td></tr>
+        <tr><td>Remove the component</td><td>Select the arrowhead, and choose <b>Remove</b>.</td></tr>
+        <tr><td>Change the freeze pane in a list to another column</td><td>Select the arrowhead of the column that you want as the last column of the freeze pane, and then choose **Set Freeze Pane**.<br /></br>If you do not want a freeze pane, select the arrowhead for the current freeze pane column, and choose **Clear Freeze Pane**.</td></tr></table>
+    
+    
+   
+
+<!--
 4.  To remove the component, select the arrowhead, and choose **Remove**.
 5.  To change the freeze pane in a list to another column, select the arrowhead of the column that you want as the last column of the freeze pane, and then choose **Set Freeze Pane**. If you do not want a freeze pane, select the arrowhead for the current freeze pane column, and choose **Clear Freeze Pane**. 
 6.  To add a field, in the **Personalize Mode** bar, choose **More**, and then choose **Field**.
@@ -59,9 +70,11 @@ Of course, the personalization changes that you make will only effect what you s
     To add a field, drag it from the pane to the location that you want it.
 
     > [!NOTE]  
-    >   For lists, you cannot add field if the list is shown as tiles. To change the view, choose the show as list ![Show as list](media/ui_show_as_list_icon.png "Show as list arrow left") icon.
+    >   For lists, you cannot add field if the list is shown as tiles. To change the view, choose the show as list ![Show as list](media/ui_show_as_list_icon.png "Show as list arrow left") icon.-->
 
 7. You can continue to make changes on the same or other pages. When you are done, in the **Personalize Mode** bar, choose **Stop personalizing** to save the changes and exit the **Personalize Mode**. 
+
+When you make changes to a card-type page, that is a page that displays information about a record, such as the Customer card or Item card, the changes will be seen on all similar records. For example, if you move . for 
 
 ## To restore pages to their original layout
 At some point, you might want to undo all the personalization changes that you have made over time so that pages appear as they were originally designed. To do this, choose the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, **Personalize**, and then **Restore Defaults**.  

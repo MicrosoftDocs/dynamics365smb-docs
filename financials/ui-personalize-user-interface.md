@@ -30,6 +30,7 @@ You can customize pages to better suit your daily work by changing their layout 
 
     Parts are typically larger areas on a page that contain elements such as another page, a chart, or cues (tiles).  
 
+Of course, the personalization changes that you make will only effect what you see, not what other users see. 
 
 ## To personalize a page
 

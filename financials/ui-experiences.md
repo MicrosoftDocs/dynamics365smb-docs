@@ -21,7 +21,7 @@ ms.author: edupont
 The user experience determines how much of the core functionality is available when you and your colleagues use [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can choose the user experience for your company in the **Company Information** window, in the **Experience** field.
 
 > [!NOTE]  
->   This setting applies to all users in your company.
+>   This setting applies to all users in your company. Users can then customize thier experience even further by rearranging changing page layouts and content personalizecustomize 
 
 ![Experience](media/ui-experience/experience.gif)
 

@@ -30,7 +30,7 @@ In the ribbon, choose the relevant Excel report, and let it open so you can get 
 
 Let's say you want to dig deeper into your cash flow. You can open the Cash Flow Statement report in Excel, but what actually happens is that we export the relevant data for you and create an Excel workbook based on a predefined template.
 
-In Excel, you see a tab where the data is laid out for you on the first worksheet. All the data that was exported is also present in other worksheets in case you need it. You can print the report right away, or you can modify it until you have the overview and the details that you want. Use the [!INCLUDE[d365fin](includes/d365fin_md.md)] Excel Add-in to further filter, add, or remove data. 
+In Excel, you see a tab where the data is laid out for you on the first worksheet. All the data that was exported is also present in other worksheets in case you need it. You can print the report right away, or you can modify it until you have the overview and the details that you want. Use the [!INCLUDE[d365fin](includes/d365fin_md.md)] Excel Add-in to further filter and analyze data. 
 
 ## See Also
 [Finance](finance.md)  

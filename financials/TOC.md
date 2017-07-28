@@ -23,13 +23,14 @@
 ## [Videos on Common Tasks](across-videos.md)
 ## [Overview of Business Functionality](madeira-business-functionality.md)
 ## [Overview of Supply Chain Functionality](madeira-supply-chain.md)
+## [Languages of the Docs](about-languages.md)
 
 # [Setting Up Financials](setup.md)
 ## [Setting Up Finance](finance-setup-finance.md)
 ### [Defining Payment Methods](finance-payment-methods.md)
 ### [Setting Up Posting Groups](finance-posting-groups.md)
 ### [How to: Open a New Fiscal Year](finance-how-open-new-fiscal-year.md)
-### [Setting Up Value-Added Tax](finance-how-report-vat.md)
+### [Setting Up Value-Added Tax](finance-setup-vat.md)
 ### [How to: Update Currency Exchange Rates](finance-how-update-currencies.md)
 ### [Setting Up the Chart of Accounts](finance-setup-chart-accounts.md)
 ### [Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md)
@@ -67,7 +68,6 @@
 ## [How to: Set up Email](madeira-how-setup-email.md)
 ## [How to: Create Number Series](ui-create-number-series.md)
 ## [How to: Set Up Extended Item Text](ui-how-define-ext-text.md)
-## [Setting Up Value Added Tax](finance-setup-vat.md)
 
 # [Finance](finance.md)
 ## [Managing Receivables](receivables-manage-receivables.md)
@@ -225,8 +225,8 @@
 # Local Functionality
 ## [Canada](LocalFunctionality/Canada/canada-local-functionality.md)
 ## [Denmark](LocalFunctionality/Denmark/denmark-local-functionality.md)
-## [United Kingdom](LocalFunctionality/United Kingdom/united-kingdom-local-functionality.md)
-## [United States](LocalFunctionality/United States/united-states-local-functionality.md)
+## [United Kingdom](LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.md)
+## [United States](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 
 # Full Experience
 ## Business Intelligence (FULL)

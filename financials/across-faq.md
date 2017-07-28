@@ -1,8 +1,6 @@
 ---
 title: FAQ About Using Financials| Microsoft Docs
 description: Answers common questions about how to sign up for Financials, and what to do to get started.
-services: project-madeira
-documentationcenter: ''
 author: edupont04
 
 ms.service: dynamics365-financials
@@ -11,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 06/02/2017
+ms.date: 07/27/2017
 ms.author: edupont
 
 ---
@@ -40,6 +38,9 @@ Yes. If you want to extend your trial, you should contact Microsoft at 1-888-477
 
 ## Our administrator has moved me to another plan to give me another role, but I still see the same Home page in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 This is a bit complicated, but it looks like your administrator didn't change your Role Center and assign user groups that match the new license. Essentially, your access to [!INCLUDE[d365fin](includes/d365fin_md.md)] is determined by the type of plan (license) that you have - this sets permissions and your default Home page. You can change your Role Center manually in My Settings, but if you are moved to another plan, such as moving you from the Business plan to the Team Members plan, you might see the old Home because your permissions were not changed.  
+
+## Why can't I find that capability in my [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+Did you read about a new capability in the roadmap or on our blog recently? In that case, your [!INCLUDE[d365fin](includes/d365fin_md.md)] might not have been upgraded to the latest version yet. If the capability is published as an extension in AppSource, then there is a delay between the extension being announced and its availability in AppSource.
 
 ## See Also
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

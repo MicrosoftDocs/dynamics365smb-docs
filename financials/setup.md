@@ -1,8 +1,6 @@
 ---
 title: Overview of Tasks to Set Up Dynamics 365 for Financials| Microsoft Docs
 description: Outlines tasks to set up, initialize, and configure Dynamics 365 for Financials to suit your needs.
-services: project-madeira
-documentationcenter: ''
 author: edupont04
 
 ms.service: dynamics365-financials
@@ -11,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 06/07/2017
+ms.date: 07/14/2017
 ms.author: edupont
 
 ---
@@ -42,6 +40,7 @@ Some functionality, either general or for specific business processes, can be se
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Welcome to [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
+[Creating New Companies in [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company)  
+[Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

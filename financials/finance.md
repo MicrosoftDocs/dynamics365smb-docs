@@ -41,6 +41,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Learn how to use additional currencies and update currency exchange rates automatically. |[How to: Update Currency Exchange Rates](finance-how-update-currencies.md)|
 | Import salary transactions from your payroll provider into the general ledger. |[How to: Import Payroll Transactions](finance-how-import-payroll-transactions.md) |
 | Monitor the flow of cash in and out of your business. |[Analyzing Cash Flows in Your Company](finance-analyze-cash-flow.md) |
+| Work with financial statements and overviews in Excel. |[Analyzing Financial Statements in Excel](finance-analyze-excel.md) |
 | Prepare to close a fiscal year or period. |[Closing Years and Periods](year-close-years-periods.md) |
 |**US**: Meet the IRS requirement to submit various versions of the 1099 form for vendor payments.|[Reporting 1099 Transactions in the US](us-finance-tax-1099.md)|
 |**US and Canada**: Understand how to set up and use US and Canadian sales tax functionality.|[Reporting Sales Tax in the US and Canada](us-finance-sales-tax.md)|

@@ -26,7 +26,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can specify how the st
   
 2.  On the **Std. Customer Sales Codes** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Insert Std. Cust. Sales Lines**|Specify the method by which to insert the standard customer sales lines.<br /><br /> -   **Manual** - You must insert the standard sales lines that you set up for that customer. If you select this option, then you will not be able to select the **Quotes**, **Orders**, **Invoices**, or **Credit Memos** fields in the **Sales & Receivables Setup** window.<br />-   **Automatic** - Automatically insert standard sales lines on sales documents that you create for a customer.<br />-   **Always Ask** - Display a window with all the existing standard sales codes that you set up for the customer.|  
     |**Quotes**|Select to insert standard sales lines on sales quotes.|  

@@ -24,7 +24,7 @@ You must define a location for storing Offentlig Information Online UBL (OIOUBL)
   
 2.  In the **Sales & Receivables Setup** window, on the **OIOUBL** FastTab, in the **Output Paths** section, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Invoice Path**|The path and name of the folder where you want to store the OIOUBL files for sales invoices.|  
     |**Cr. Memo Path**|The path and name of the folder where you want to store the OIOUBL files for sales credit memos.|  
@@ -39,7 +39,7 @@ You must define a location for storing Offentlig Information Online UBL (OIOUBL)
   
     2.  In the **OIOUBL Profile List** window, fill in the fields as described in the following table.  
   
-        |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tabledescription_md.md)]-->|  
+        |Field|Description|  
         |---------------------------------|---------------------------------------|  
         |**Code**|Specifies the code for the OIOUBL profile.|  
         |**Profile ID**|Specifies the profile that you want to support in the electronic documents that you send to customers in the Danish public sector, such as **Procurement-BilSim-1.0**.|  
@@ -55,7 +55,7 @@ You must define a location for storing Offentlig Information Online UBL (OIOUBL)
   
 2.  In the **Service Mgt. Setup** window, on the **OIOUBL** FastTab, in the **Output Paths** section, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Service Invoice Path**|The path and name of the folder where you want to store the OIOUBL files for service invoices.|  
     |**Service Cr. Memo Path**|The path and name of the folder where you want to store the OIOUBL files for service credit memos.|  

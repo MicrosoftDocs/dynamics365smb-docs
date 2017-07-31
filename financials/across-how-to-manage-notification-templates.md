@@ -33,7 +33,7 @@ Notifications are sent to workflow users to notify them about steps they must ma
 
 3.  Fill the fields as described in the following table.  
 
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Identify the notification template.|  
     |**Description**|Describe the notification template.|  

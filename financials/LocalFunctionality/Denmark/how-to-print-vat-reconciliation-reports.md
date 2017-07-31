@@ -24,7 +24,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the **VAT Reco
 
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
 
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Show Details**|Select to print all transaction amounts in the report.<br /><br /> If you do not select this field, a single cumulative line is printed for each general ledger account.|  
     |**Show Transactions without VAT**|Select to print a line for each general ledger account that transactions are posted to. You can use this option for both single accounts and multiple accounts.<br /><br /> The default is **No**. The report includes only those transactions that include VAT entries. If you select this field, the report includes all transactions.|  

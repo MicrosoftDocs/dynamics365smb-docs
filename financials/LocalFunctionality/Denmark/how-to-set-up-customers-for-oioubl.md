@@ -28,7 +28,7 @@ To create Offentlig Information Online UBL (OIOUBL) documents for customers in t
 
 3.  On the **Invoicing** FastTab, fill in the fields as described in the following table.  
 
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**EAN No.**|Enter the European Article Numbering (EAN) location number for the customer. For more information, see [EAN Location Number](ean-location-number.md).|  
     |**Account Code**|Enter the account code for the customer.<br /><br /> Customers in the public sector provide an account code when they place an order or requisition. Based on the value of this field, the account code is included in the OIOUBL documents that you create in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. In accordance with **Lov om Offentlige Betalinger** and related statutes, the customer is entitled to withhold payment until they receive an invoice with the relevant account code. For more information, see Account Code.|  

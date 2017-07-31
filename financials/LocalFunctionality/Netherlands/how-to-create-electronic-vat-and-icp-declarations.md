@@ -31,7 +31,7 @@ To create electronic VAT and ICP declarations, you must first set up the declara
   
 3.  In the **Elec. Tax Declaration Card** window, on the **General** FastTab, fill in the required fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---
     title: How to: Create Electronic VAT and ICP Declarations | Microsoft Docs
     description: To create electronic VAT and ICP declarations, you must first set up the declaration using the **Elec. Tax Declaration Setup** window. Then you can submit them to the tax authorities.

@@ -1,6 +1,6 @@
 ---
     title: How to: Set Up Approval Users | Microsoft Docs
-    description: Before you can create workflows that involve approval steps, you must set up the workflow users who are involved in approval processes. In the **Approval User Setup** window, you also set amount limits for specific types of requests and define substitute approvers to whom approval requests are delegated when the original approver is absent.
+    description: Before you can create workflows that involve approval steps, you must set up the workflow users who are involved in approval processes. In the Approval User Setup window, you also set amount limits for specific types of requests and define substitute approvers to whom approval requests are delegated when the original approver is absent.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -34,7 +34,7 @@ Before you can create workflows that involve approval steps, you must set up the
 
 2.  Create a new line in the **Approval User Setup** window, and then fill the fields as described in the following table.  
 
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**User ID**|Select the user ID of the user who is involved in the approval process.|  
     |**Salespers./Purch. Code**|Specify the salesperson or purchaser code that applies to the user in the **Salespers./Purch. Code** field.<br /><br /> You typically fill the **Salespers./Purch. Code** field if the salesperson or purchaser who is responsible for the customer or vendor is also the person who must approve the sales or purchase request in question.|  

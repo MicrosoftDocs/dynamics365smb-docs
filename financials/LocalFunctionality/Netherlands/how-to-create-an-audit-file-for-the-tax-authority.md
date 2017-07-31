@@ -28,7 +28,7 @@ During an examination of the books for a fiscal year, a tax inspector can ask fo
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Start Date**|Specify the start date of the period on which the data must be based.|  
     |**End Date**|Specify the end date of the period on which the data must be based.|  

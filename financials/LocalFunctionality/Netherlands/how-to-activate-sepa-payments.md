@@ -55,7 +55,7 @@ To submit vendor payments electronically in Single Euro Payments Area (SEPA) ISO
   
 3.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Sets the export protocol code, such as **SEPA ISO20022**.|  
     |**Description**|Provides the description for the export protocol.|  

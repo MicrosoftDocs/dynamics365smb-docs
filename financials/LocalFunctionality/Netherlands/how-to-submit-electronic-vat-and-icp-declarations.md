@@ -35,7 +35,7 @@ With the eXtensible Business Reporting Language (XBRL) reporter, you can submit 
   
 4.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**PIN**|The personal identification number of the company.<br /><br /> You can enter a value in this field only if you have set the **Sign Method** field to **PIN** in the **Elec. Tax Declaration Setup** window.|  
     |**User Certificate Password**|The password that will encrypt the user certificates.<br /><br /> You can enter a value in this field only if you have set the **Sign Method**  field to **PKI** in the **Elec. Tax Declaration Setup** window.|  

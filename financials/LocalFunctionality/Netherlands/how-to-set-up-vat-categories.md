@@ -28,7 +28,7 @@ To use the electronic VAT declaration, you must set up a VAT category code for a
   
 3.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Code**|The unique code for each category and subcategory combination. You can enter a maximum of 10 alphanumeric characters.|  
     |**Category**|Specify the main category option for the VAT statement.|  

@@ -30,7 +30,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create and submit 
   
 4.  In the **Get Proposal Entries** batch job, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Currency Date**|Specify the currency date.|  
     |**Pmt. Discount Date**|Specify the payment discount date.|  

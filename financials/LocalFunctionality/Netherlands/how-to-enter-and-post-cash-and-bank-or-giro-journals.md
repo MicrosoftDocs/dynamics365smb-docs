@@ -32,7 +32,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the cash and b
   
 3.  In the **Cash Journal** window, on the **Lines** FastTab, fill in the required fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Date**|The journal entry date.|  
     |**Document No.**|The document number for which journal entry is created.|  
@@ -59,14 +59,14 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the cash and b
   
 4.  In the **Bank/Giro Journal** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Opening Balance**|The current balance of the bank or giro account. It equals the closing balance of previously posted entries for the journal.|  
     |**Closing Balance**|The new closing balance of the journal.|  
   
 5.  On the **Lines** FastTab, fill in the required fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Date**|The journal entry date.|  
     |**Account Type**|The account type to which the journal entry is to be posted.|  

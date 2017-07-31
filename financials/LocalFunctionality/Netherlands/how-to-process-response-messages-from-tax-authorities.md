@@ -28,7 +28,7 @@ When you submit a VAT or ICP declaration to the tax authorities electronically, 
   
 3.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**CA Certificate Encryption Password**|The password that was used to encrypt the Certificate Authorities' certificates.|  
     |**User Certificate Password**|The password that is used to encrypt the user certificates.|  

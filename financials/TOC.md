@@ -68,6 +68,9 @@
 ## [How to: Set up Email](madeira-how-setup-email.md)
 ## [How to: Create Number Series](ui-create-number-series.md)
 ## [How to: Set Up Extended Item Text](ui-how-define-ext-text.md)
+## [Set Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)
+### [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)
+### [Setup Best Practices: Costing Methods](setup-best-practices-costing-method.md)
 
 # [Finance](finance.md)
 ## [Managing Receivables](receivables-manage-receivables.md)
@@ -212,6 +215,21 @@
 ### [Setting Up Workflows](across-set-up-workflows.md)
 ### [Using Workflows](across-use-workflows.md)
 
+# [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)
+## [Walkthrough: Synchronizing Information Between Outlook and Financials](walkthrough-synchronizing-information-between-outlook-and-microsoft-dynamics-nav.md)
+## [Walkthrough: Conducting a Sales Campaign](walkthrough-conducting-a-sales-campaign.md)
+## [Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
+## [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
+## [Walkthrough: Receiving and Putting Away in Basic Warehousing](walkthrough-picking-and-shipping-in-basic-warehousing.md)
+## [Walkthrough: Receiving and Putting Away in Advanced Warehousing](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
+## [Walkthrough: Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)
+## [Walkthrough: Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md)
+## [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)
+## [Walkthrough: Walkthrough: Managing Projects with Jobs](walkthrough-managing-projects-with-jobs.md)
+## [Walkthrough: Walkthrough: Calculating Work in Process for a Job](walkthrough-calculating-work-in-process-for-a-job.md)
+## [Walkthrough: Picking and Shipping in Basic Warehousing](walkthrough-picking-and-shipping-in-basic-warehousing.md)
+## [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)
+
 # [Design Details](design-details-application-design.md)
 ## [Design Details: Dimension Set Entries](design-details-dimension-set-entries.md)
 ## [Design Details: Supply Planning](design-details-supply-planning.md)
@@ -219,10 +237,6 @@
 ## [Design Details: Warehouse Management](design-details-warehouse-management.md)
 ## [Design Details: Item Tracking](design-details-item-tracking.md)
 ## [Design Details: General Journal Post Line](design-details-general-journal-post-line.md)
-
-# [Business Process walkthroughs](walkthrough-business-process-walkthroughs.md)
-
-# [Setup Best Practices]()
 
 # Local Functionality
 ## [Canada](LocalFunctionality/Canada/canada-local-functionality.md)

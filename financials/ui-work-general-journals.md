@@ -106,4 +106,4 @@ Values in the **Document No.** field are changed, where required, so that the do
 [How to: Reverse Journal Posting](finance-how-reverse-journal-posting.md)  
 [How to: Allocate Costs and Income](year-allocate-costs-income.md)  
 [Finance](finance.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)

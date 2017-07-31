@@ -31,4 +31,4 @@ From PDF or image files that you receive from your trading partners, you can hav
 ## See Also
 [Incoming Documents](across-income-documents.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)

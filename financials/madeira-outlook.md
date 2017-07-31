@@ -55,7 +55,7 @@ Similarly in the Outlook desktop client, you can verify that [!INCLUDE[d365fin](
 In both cases, if [!INCLUDE[d365fin](includes/d365fin_md.md)] is still not available, you have to get the add-in manifest files. For more information, please contact your Office 365 administrator.
 
 ## See Also
-[Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
+[Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)](index.md)  
 [Finance](finance.md)  
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  

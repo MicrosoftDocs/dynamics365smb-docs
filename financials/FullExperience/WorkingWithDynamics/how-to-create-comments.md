@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create Comments
 Comments are used to add extra information to accounts, customers, items, and so on. With comments you can, for example, specify that a customer has a certain pricing agreement or has been behind with payments.  
   

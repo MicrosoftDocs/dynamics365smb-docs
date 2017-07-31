@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Filters
 You use filters to display certain accounts, customers, entries, or other records by specifying criteria for fields in a table. Only records that match the criteria are displayed. If you specify criteria for multiple fields, then records must match all criteria to be displayed.  
   

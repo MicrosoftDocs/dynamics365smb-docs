@@ -62,6 +62,6 @@ As a result, you may receive two emails:
 You can then access their financial data from the **Accountant** Role Center. If you use the **Accountant Portal** extension, you can also add that client to your list of clients in the accountant portal dashboard.  
 
 ## See Also
-[Accountant Experiences in [!INCLUDE[d365fin](includes/d365fin_md.md)]](/dynamics365/financials/finance-accounting.md)  
+[Accountant Experiences in [!INCLUDE[d365fin](includes/d365fin_md.md)](/dynamics365/financials/finance-accounting.md)  
 [Working with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](/dynamics365/financials/ui-work-product.md)  
 [Dynamics 365 for Accountants on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  

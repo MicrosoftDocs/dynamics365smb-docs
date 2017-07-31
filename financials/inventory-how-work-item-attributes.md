@@ -77,4 +77,4 @@ The items in the **Items** window are filtered by the specified item attribute v
 [How to: Categorize Items](inventory-how-categorize-items.md)    
 [How to: Register New Items](inventory-how-register-new-items.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)

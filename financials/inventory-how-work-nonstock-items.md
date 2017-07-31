@@ -63,4 +63,4 @@ You can then fill or edit fields on the new item card as necessary. For more inf
 ## See Also
 [How to: Register New Items](inventory-how-register-new-items.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)

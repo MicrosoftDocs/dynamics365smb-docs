@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Up In-Transit Codes
 Before you transfer items between locations using transfer routes, you need to set up in-transit codes.  
   

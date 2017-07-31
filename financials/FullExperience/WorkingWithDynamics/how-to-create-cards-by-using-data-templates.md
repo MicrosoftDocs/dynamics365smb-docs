@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create Cards by Using Data Templates
 Cards hold master data that represent business accounts such as items, vendors, and customers. For example, an item card displays the necessary information to store, maintain, and trade the item.  
   

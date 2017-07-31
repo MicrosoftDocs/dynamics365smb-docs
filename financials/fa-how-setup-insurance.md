@@ -58,4 +58,4 @@ You can set up batches in an insurance journal template. The values in the journ
 [Fixed Assets](fa-manage.md)  
 [Finance](finance.md)  
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)

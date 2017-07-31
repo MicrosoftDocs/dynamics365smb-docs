@@ -54,5 +54,5 @@ If you have set up more than one number series code for the same kind of basic i
 Now when you set up something that requires a number, you can use the relationships you created to select among the related number series.
 
 ## See Also
-[Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)](setup.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  

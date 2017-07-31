@@ -40,6 +40,6 @@ For more information, see [QuickBooks Data Migration](ui-extensions-quickbooks-d
 [QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)  
 [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)  
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)   
-[Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)
+[Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)](setup.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

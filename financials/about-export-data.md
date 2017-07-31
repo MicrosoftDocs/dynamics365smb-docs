@@ -63,4 +63,4 @@ We recommend that you also consider exporting data from the following pages:
 [Importing Business Data from Other Finance Systems](upload-data.md)  
 [Finance](finance.md)  
 [General Business Functionality](ui-across-business-areas.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  

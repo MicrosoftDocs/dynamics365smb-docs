@@ -52,4 +52,4 @@ Alternatively, you can manually create payment lines using the due date to calcu
 [Managing Payables](payables-manage-payables.md)  
 [Making Payments](payables-make-payments.md)  
 [Working with General Journals](ui-work-general-journals.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  

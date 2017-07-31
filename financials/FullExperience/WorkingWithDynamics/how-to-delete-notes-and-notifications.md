@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Delete Notes and Notifications
 You cannot delete a notification on the Role Center; you must delete the note on the record where it was created. You can only delete a note if your administrator has assigned the necessary user permissions to you.  
   

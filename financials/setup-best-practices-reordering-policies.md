@@ -37,4 +37,4 @@ The **Reordering Policy** field on item cards offers four different planning met
  [Design Details: Fixed Reorder Qty.](design-details-fixed-reorder-qty..md)   
  [Design Details: Maximum Qty.](design-details-maximum-qty..md)   
  [Set Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)

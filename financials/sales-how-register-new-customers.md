@@ -52,4 +52,4 @@ The customer template is added to the list of customer templates, so that you ca
 ## See Also
 [Sales](sales-manage-sales.md)    
 [Setting Up Sales](sales-setup-sales.md)    
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)

@@ -42,4 +42,4 @@ To create a custom layout, you can either make a copy of an existing custom layo
 ## See Also
 [Managing Report Layouts](ui-manage-report-layouts.md)  
 [How to: Change Which Layout is Currently Used on a Report](ui-how-change-layout-currently-used-report.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)

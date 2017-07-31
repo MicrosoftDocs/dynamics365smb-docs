@@ -29,5 +29,5 @@ All parts of the purchase invoice are tested, and the result is presented in a r
 
 ## See Also
 [Post Documents and Journals](ui-post-documents-journals.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
 

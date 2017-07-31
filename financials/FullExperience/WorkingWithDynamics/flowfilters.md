@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # FlowFilters
 ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> contains fields called FlowFields. These are fields whose contents are constantly changing. The value of the contents of a FlowField is calculated each time you open the window containing the field. FlowFilters are used to determine how information is included when the contents of FlowFields are calculated.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Use Find-Go to
 In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> you can search in data by using the **Find** mechanism. Find searches on all types of pages that have data, except in chart pages. You specify the field you want to search in and the string you want to search for. Find is also available from the action strip.  
   

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Fill and Post General Journals
 General journals are used to post to general ledger, bank, customer, vendor, and fixed assets accounts.  
   

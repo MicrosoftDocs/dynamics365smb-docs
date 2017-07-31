@@ -28,7 +28,7 @@ No. But if you want to experience [!INCLUDE[d365fin](includes/d365fin_md.md)] as
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is fully integrated with Office 365 so that you can navigate freely between Office 365 apps and [!INCLUDE[d365fin](includes/d365fin_md.md)] using the app launcher. In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can open data in Excel, print reports using Word, and you can work with your [!INCLUDE[d365fin](includes/d365fin_md.md)] data in Outlook, for example. For more information, see [Using [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] as your Business Inbox in Outlook](madeira-outlook.md).  
 
 ## Can I cancel my subscription?
-Yes, but depending on how you signed up to [!INCLUDE[d365fin](includes/d365fin_md.md)], your data can be deleted or preserved. For more information, see [Canceling [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md).  
+Yes, but depending on how you signed up to [!INCLUDE[d365fin](includes/d365fin_md.md)], your data can be deleted or preserved. For more information, see [Canceling [!INCLUDE[d365fin](includes/d365fin_md.md)](madeira-cancel.md).  
 
 ## Where do I go if I have questions?
 If you have questions about [!INCLUDE[d365fin](includes/d365fin_md.md)] that you can't find an answer for in this documentation, you can ask the Dynamics 365 for Financials community. For more information, see [Dynamics 365, Business edition community](https://community.dynamics.com/business). Also, our Support team post tips and tricks. For more information, see [Dynamics 365 for Financials Support Blog](https://blogs.msdn.microsoft.com/dyn365finsupport).  
@@ -47,4 +47,4 @@ Did you read about a new capability in the roadmap or on our blog recently? In t
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as Your Business Inbox in Outlook](madeira-outlook.md)  
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] without Outlook](madeira-no-outlook.md)  
 [How to: Change the Role Center](change-role.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  

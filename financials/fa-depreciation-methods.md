@@ -352,4 +352,4 @@ When you enter an entry in B1 in the fixed asset G/L journal and place a check m
 [Setting Up Fixed Assets](fa-setup.md)  
 [Finance](finance.md)  
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)

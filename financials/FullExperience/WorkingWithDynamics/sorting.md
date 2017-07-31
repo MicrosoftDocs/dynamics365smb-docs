@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Sorting
 The sorting function makes it easy for you to get a quick overview of your data. A sorted list can be saved using the **Save View As…** functionality which is found by choosing the page title.  
   

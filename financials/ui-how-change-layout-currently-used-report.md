@@ -42,4 +42,4 @@ You return to the **Report Layout Selection** window. The name of the selected c
 
 ## See Also
 [Managing Report Layouts](ui-manage-report-layouts.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)

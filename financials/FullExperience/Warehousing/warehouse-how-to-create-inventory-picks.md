@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create Inventory Picks
 When your location is set up to require pick processing but not shipment processing, you use the **Inventory Pick** document to organize and record your picking activity.  
   

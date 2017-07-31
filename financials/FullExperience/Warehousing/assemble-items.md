@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Assemble Items
 To support companies that supply products to their customers by combining components in simple processes without the need of manufacturing functionality, ADD INCLUDE<!--[!INCLUDE[navnowlong](../../includes/navnowlong_md.md)]--> includes features to assemble items that integrate with existing features, such as sales, planning, reservations, and warehousing.  
 

@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Save Filters as Views
 After you have set your preferred filters in a list place, such as the **Sales Orders** window, you can save the list as a special view that you can access from the navigation pane. This is a form of personalization that defines how data is displayed, unlike customization, which defines how user interface components are displayed.  
   

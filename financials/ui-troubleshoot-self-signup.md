@@ -35,5 +35,5 @@ In many cases, registering for [!INCLUDE[d365fin](includes/d365fin_md.md)] can b
 
 ## See Also
 [Welcome to [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
 

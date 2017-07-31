@@ -63,4 +63,4 @@ You have now signed up for the bank data conversion service. Proceed to reflect 
 ## See Also
 [Setting Up Banking](bank-setup-banking.md)  
 [Managing Bank Accounts](bank-manage-bank-accounts.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)

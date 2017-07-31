@@ -35,4 +35,4 @@ Finance-related sales setup, such as payment methods and currencies, are covered
 
 ## See Also
 [Sales](sales-manage-sales.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)

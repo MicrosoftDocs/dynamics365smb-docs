@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Selecting a Language
 ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> is multilanguage enabled. You can therefore change the language that the application uses.  
   

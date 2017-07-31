@@ -34,4 +34,4 @@ This content contains detailed technical information about complex application f
  [Manage Inventory Costs](manage-inventory-costs.md)   
  [Perform Warehouse Activities](perform-warehouse-activities.md)   
  [Set Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)

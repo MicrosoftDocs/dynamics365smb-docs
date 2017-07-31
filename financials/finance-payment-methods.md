@@ -26,4 +26,4 @@ Several typical payment methods are already defined in [!INCLUDE[d365fin](includ
 
 ## See Also
 [Finance](finance.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  

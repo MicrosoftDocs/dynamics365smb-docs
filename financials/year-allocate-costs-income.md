@@ -52,4 +52,4 @@ You can allocate an entry in a recurring general journal to several different ac
 [Closing Years and Periods](year-close-years-periods.md)  
 [Working with General Journals](ui-work-general-journals.md)    
 [Posting Documents and Journals](ui-post-documents-journals.md)    
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)

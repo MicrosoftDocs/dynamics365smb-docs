@@ -28,8 +28,8 @@ You can set up and use workflows that connect business-process tasks performed b
 
 |**To**|**See**|  
 |------------|-------------|  
-|Set up workflow users, specify how users get notified, and create new workflows. For new workflows for unsupported scenarios, implement the required workflow elements by customizing the application code.|[Set Up Workflows](across-set-up-workflows.md)|  
-|Enable workflows, act on workflow notifications, including request approvals and approve requests to perform a workflow step. Archive and delete workflows.|[Use Workflows](across-use-workflows.md)|  
+|Set up workflow users, specify how users get notified, and create new workflows. For new workflows for unsupported scenarios, implement the required workflow elements by customizing the application code.|[Setting Up Workflows](across-set-up-workflows.md)|  
+|Enable workflows, act on workflow notifications, including request approvals and approve requests to perform a workflow step. Archive and delete workflows.|[Using Workflows](across-use-workflows.md)|  
 
 ## See Also  
 [Sales](sales-manage-sales.md)  

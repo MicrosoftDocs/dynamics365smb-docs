@@ -67,5 +67,5 @@ When you set up users in approval workflows, you must specify in the **Notificat
  [How to: Manage Notification Templates](across-how-to-manage-notification-templates.md)   
  [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)   
  Workflow   
- [Set Up Workflows](across-set-up-workflows.md)   
- [Use Workflows](across-use-workflows.md)
+ [Setting Up Workflows](across-set-up-workflows.md)   
+ [Using Workflows](across-use-workflows.md)

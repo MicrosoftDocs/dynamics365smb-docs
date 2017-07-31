@@ -1,18 +1,18 @@
 ---
-    title: How to: Create Workflows from Workflow Templates | Microsoft Docs
-    description: To save time when creating new workflows, you can create workflows from workflow templates.
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
+title: How to: Create Workflows from Workflow Templates | Microsoft Docs
+description: To save time when creating new workflows, you can create workflows from workflow templates.
+services: project-madeira
+documentationcenter: ''
+author: SorenGP
 
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
+ms.service: dynamics365-financials
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.date: 07/01/2017
+ms.author: sgroespe
 
 ---
 # How to: Create Workflows from Workflow Templates
@@ -46,7 +46,7 @@ To save time when creating new workflows, you can create workflows from workflow
  [How to: View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md)   
  [How to: Delete Workflows](across-how-to-delete-workflows.md)   
  [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
- [Set Up Workflows](across-set-up-workflows.md)   
- [Use Workflows](across-use-workflows.md)   
+ [Setting Up Workflows](across-set-up-workflows.md)   
+ [Using Workflows](across-use-workflows.md)   
  [Workflow](across-workflow.md)   
  [Business Functionality](across-Business%20Functionality.md)

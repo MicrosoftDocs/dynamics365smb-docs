@@ -97,7 +97,7 @@ You can create workflows that connect business-process tasks performed by differ
 
 12. Repeat steps 7 through 11 to add more workflow steps, either before or after the step that you have just created.  
 
-13. Select the **Enabled** check box to specify that the workflow will start as soon as the event on the first step of type **Entry Point** occurs. For more information, see [Use Workflows](across-use-workflows.md).  
+13. Select the **Enabled** check box to specify that the workflow will start as soon as the event on the first step of type **Entry Point** occurs. For more information, see [Using Workflows](across-use-workflows.md).  
 
     > [!NOTE]  
     >  Do not enable a workflow until you are sure that the workflow is completed and that the involved workflow steps can start.  
@@ -114,8 +114,8 @@ You can create workflows that connect business-process tasks performed by differ
  [How to: View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md)   
  [How to: Delete Workflows](across-how-to-delete-workflows.md)   
  [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
- [Set Up Workflows](across-set-up-workflows.md)   
- [Use Workflows](across-use-workflows.md)   
+ [Setting Up Workflows](across-set-up-workflows.md)   
+ [Using Workflows](across-use-workflows.md)   
  [Workflow](across-workflow.md)   
  [Business Functionality](across-Business%20Functionality.md)   
  [Walkthrough: Implementing New Workflow Events and Responses](walkthrough-implementing-new-workflow-events-and-responses.md)

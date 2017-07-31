@@ -1,6 +1,6 @@
 ---
-    title: Set Up Workflows | Microsoft Docs
-    description: You can set up and use workflows that connect business-process tasks performed by different users. System tasks, such as automatic posting, can be included as steps in workflows, preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps. For more information, see [Use Workflows](across-use-workflows.md).
+    title: Setting Up Workflows | Microsoft Docs
+    description: You can set up and use workflows that connect business-process tasks performed by different users. System tasks, such as automatic posting, can be included as steps in workflows, preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps. For more information, see [Using Workflows](across-use-workflows.md).
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -15,8 +15,8 @@
     ms.author: sgroespe
 
 ---
-# Set Up Workflows
-You can set up and use workflows that connect business-process tasks performed by different users. System tasks, such as automatic posting, can be included as steps in workflows, preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps. For more information, see [Use Workflows](across-use-workflows.md).  
+# Setting Up Workflows
+You can set up and use workflows that connect business-process tasks performed by different users. System tasks, such as automatic posting, can be included as steps in workflows, preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps. For more information, see [Using Workflows](across-use-workflows.md).  
 
  Before you begin to use workflows, you must set up workflow users and approval users, specify how users receive notifications about workflow steps, and then create the workflows, potentially preceded by code customization.  
 
@@ -41,7 +41,7 @@ You can set up and use workflows that connect business-process tasks performed b
 |Add support for a business scenario that requires new workflow events or responses by customizing the application code.|[Walkthrough: Implementing New Workflow Events and Responses](walkthrough-implementing-new-workflow-events-and-responses.md) in Developer and IT Pro Help.|  
 
 ## See Also  
- [Use Workflows](across-use-workflows.md)   
+ [Using Workflows](across-use-workflows.md)   
  [Workflow](across-workflow.md)   
  [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
  [Working with Financials](ui-work-product.md)

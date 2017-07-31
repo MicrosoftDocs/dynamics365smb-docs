@@ -9,8 +9,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords:
-ms.date: 07/30/2017
+ms.search.keywords: reject, delegate, request
+ms.date: 08/01/2017
 ms.author: sgroespe
 
 ---

@@ -41,7 +41,7 @@ You can automate the process of approving new or changed records, such as docume
 -   ADD INCLUDE<!--[!INCLUDE[navnow](includes/Demo%20Option.md).  
   
 ## Story  
- Sean is a super user at ADD INCLUDE<!--[!INCLUDE[demoname](includes/dyn_nav_md.md)]--> on his own computer.  
+ Sean is a super user at CRONUS on his own computer.  
   
  He creates two approval users. One is Alicia who represents a purchasing agent. The other is himself representing Alicia’s approver. Sean then gives himself unlimited purchase approval rights and specifies that he will receive notifications by internal note as soon as a relevant event occurs. Last, Sean creates the required approval workflow as a copy of the existing Purchase Order Approval Workflow workflow template, leaves all existing event conditions and response options unchanged, and then enables the workflow.  
   
@@ -200,7 +200,7 @@ You can automate the process of approving new or changed records, such as docume
   
  You define variations of workflows by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code. For more information, see [How to: Create Workflows](across-how-to-create-workflows.md).  
   
- If a business scenario requires a workflow event or response that is not supported, a Microsoft partner must implement them by customizing the application code. For more information, see [Walkthrough: Implementing New Workflow Events and Responses](across-walkthrough-implementing-new-workflow-events-and-responses.md).  
+ If a business scenario requires a workflow event or response that is not supported, a Microsoft partner must implement them by customizing the application code. For more information, see [Walkthrough: Implementing New Workflow Events and Responses](walkthrough-implementing-new-workflow-events-and-responses.md).  
   
 ## See Also  
  [How to: Set Up Approval Users](across-how-to-set-up-approval-users.md)   

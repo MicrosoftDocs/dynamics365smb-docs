@@ -257,5 +257,5 @@ This walkthrough demonstrates the process of planning supply orders to fulfill n
      In the **Firm Planned Prod. Orders** window review how start times and end times of individual orders are scheduled according to the product structure. The lowest-level components are produced first. Therefore, you must plan multilevel orders as demonstrated in this planning workflow.  
   
 ## See Also  
- [Business Process Walkthroughs](business-process-walkthroughs.md)   
+ [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)   
  [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md)

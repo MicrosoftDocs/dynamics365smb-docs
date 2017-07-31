@@ -356,7 +356,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 3.  Choose the **Close** button to close the **Job Statistics** window.  
 
 ## Handling Fixed Prices  
- ADD INCLUDE<!--[!INCLUDE[demoname](includes/demoname_md.md)]--> has been contracted to set up conference rooms. As the project manager, Prakash wants a good overview of the tasks required for the job with the associated budgeted and incurred costs for each task. In addition, he wants to know the total contracted price for the job and the amount that has been invoiced to this point. He has reached an agreement with the customer regarding fixed pricing for the job.  
+ CRONUS has been contracted to set up conference rooms. As the project manager, Prakash wants a good overview of the tasks required for the job with the associated budgeted and incurred costs for each task. In addition, he wants to know the total contracted price for the job and the amount that has been invoiced to this point. He has reached an agreement with the customer regarding fixed pricing for the job.  
 
 #### To manage fixed pricing in jobs  
 
@@ -502,7 +502,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
      By comparing prices, job task lines, and job planning lines for the two jobs, you can see that the information was successfully copied.  
 
 ## Making Payments by Installments  
- ADD INCLUDE<!--[!INCLUDE[demoname](includes/demoname_md.md)]--> has just landed a large project that will take a year to be completed. Because it requires the dedication of many resources, the project manager sets up the contract so that the customer pays part of the price up front, part when the project is halfway completed, and the final payment upon completion.  
+ CRONUS has just landed a large project that will take a year to be completed. Because it requires the dedication of many resources, the project manager sets up the contract so that the customer pays part of the price up front, part when the project is halfway completed, and the final payment upon completion.  
 
 #### To set up a new account  
 
@@ -618,8 +618,9 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
  This walkthrough has taken you through some of the basic steps of working with jobs in [!INCLUDE[d365fin](includes/d365fin_md.md)]. You have learned about how to create a new job, how to copy a job, and how to handle payments. Also, you have seen a demonstration of how to track hours and create invoices.  
 
 ## See Also  
- [Business Process Walkthroughs](business-process-walkthroughs.md)   
+ [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)   
  [Set Up Jobs](set-up-jobs.md)   
  [Price, Schedule, and Manage Resources](price-schedule-and-manage-resources.md)   
  [Monitor Progress and Performance](monitor-progress-and-performance.md)   
- [Invoice Jobs](invoice-jobs.md)
+ [Invoice Jobs](invoice-jobs.md)  
+ [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)

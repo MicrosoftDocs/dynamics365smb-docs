@@ -42,7 +42,7 @@ If you are certain that a workflow is no longer being used, you can delete it. A
  [How to: Create Workflows](across-how-to-create-workflows.md)   
  [How to: Enable Workflows](across-how-to-enable-workflows.md)   
  [How to: View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md)   
- [Walkthrough: Setting Up and Using a Purchase Approval Workflow](across-walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
+ [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Set Up Workflows](across-set-up-workflows.md)   
  [Use Workflows](across-use-workflows.md)   
  [Workflow](across-workflow.md)   

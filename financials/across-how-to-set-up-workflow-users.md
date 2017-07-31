@@ -53,6 +53,6 @@ Before you can create workflows, you must set up the users who take part in work
  [How to: Set Up Approval Users](across-how-to-set-up-approval-users.md)   
  [Set Up Workflows](across-set-up-workflows.md)   
  [Use Workflows](across-use-workflows.md)   
- [Walkthrough: Setting Up and Using a Purchase Approval Workflow](across-walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
+ [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Workflow](across-workflow.md)   
  [Business Functionality](across-Business%20Functionality.md)

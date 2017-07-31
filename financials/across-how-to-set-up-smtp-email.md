@@ -43,5 +43,5 @@ To send e-mails from ADD INCLUDE<!--[!INCLUDE[navnow](includes/navnow_md.md)]-->
  [How to: Manage Notification Templates](across-how-to-manage-notification-templates.md)   
  SMTP Mail Setup   
  [Workflow](across-workflow.md)   
- [Walkthrough: Setting Up and Using a Purchase Approval Workflow](across-walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
+ [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Configure SMTP E-mail (IIS 7)](http://go.microsoft.com/fwlink/?LinkId=263830)

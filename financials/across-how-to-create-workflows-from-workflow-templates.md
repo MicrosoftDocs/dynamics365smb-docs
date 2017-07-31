@@ -45,7 +45,7 @@ To save time when creating new workflows, you can create workflows from workflow
  [How to: Export and Import Workflows](across-how-to-export-and-import-workflows.md)   
  [How to: View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md)   
  [How to: Delete Workflows](across-how-to-delete-workflows.md)   
- [Walkthrough: Setting Up and Using a Purchase Approval Workflow](across-walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
+ [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Set Up Workflows](across-set-up-workflows.md)   
  [Use Workflows](across-use-workflows.md)   
  [Workflow](across-workflow.md)   

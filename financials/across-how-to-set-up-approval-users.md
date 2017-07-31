@@ -63,6 +63,6 @@ Before you can create workflows that involve approval steps, you must set up the
  [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)   
  [How to: Create Workflows](across-how-to-create-workflows.md)   
  [Set Up Workflows](across-set-up-workflows.md)   
- [Walkthrough: Setting Up and Using a Purchase Approval Workflow](across-walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
+ [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Workflow](across-workflow.md)   
  [Business Functionality](across-Business%20Functionality.md)

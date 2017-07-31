@@ -50,7 +50,7 @@ To prevent documents from piling up or otherwise block the workflow, the approve
  [How to: Set Up Approval Users](across-how-to-set-up-approval-users.md)   
  [How to: Approve or Reject Requests for Approval](across-how-to-approve-or-reject-requests-for-approval.md)   
  [How to: Make Minor Changes to Approved Records](across-how-to-make-minor-changes-to-approved-records.md)   
- [Walkthrough: Setting Up and Using a Purchase Approval Workflow](across-walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
+ [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Set Up Workflows](across-set-up-workflows.md)   
  [Use Workflows](across-use-workflows.md)   
  [Workflow](across-workflow.md)

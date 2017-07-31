@@ -44,6 +44,6 @@ Many workflow responses are about notifying a user that an event has occurred th
  [How to: Manage Notification Templates](across-how-to-manage-notification-templates.md)   
  [How to: Set Up Job Queues](across-how-to-set-up-job-queues.md)   
  [How to: Set Up SMTP Email](across-how-to-set-up-smtp-email.md)   
- [Walkthrough: Setting Up and Using a Purchase Approval Workflow](across-walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
+ [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Workflow](across-workflow.md)   
  [Business Functionality](across-Business%20Functionality.md)

@@ -22,7 +22,7 @@ You can set up and use workflows that connect business-process tasks performed b
 
  In the **Workflow** window, you create a workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code.  
 
- If a business scenario requires a workflow event or response that is not supported, a Microsoft partner must implement them by customizing the application code. For more information, see [Walkthrough: Implementing New Workflow Events and Responses](across-walkthrough-implementing-new-workflow-events-and-responses.md).  
+ If a business scenario requires a workflow event or response that is not supported, a Microsoft partner must implement them by customizing the application code. For more information, see [Walkthrough: Implementing New Workflow Events and Responses](walkthrough-implementing-new-workflow-events-and-responses.md).  
 
  The following table describes a sequence of tasks, with links to the topics that describe them.  
 
@@ -37,11 +37,11 @@ You can set up and use workflows that connect business-process tasks performed b
 |Specify the different steps of a workflow by connection workflow events with workflow responses.|[How to: Create Workflows](across-how-to-create-workflows.md)|  
 |Use workflow templates to create new workflows.|[How to: Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)|  
 |Share workflows with other [!INCLUDE[d365fin](includes/d365fin_md.md)] databases.|[How to: Export and Import Workflows](across-how-to-export-and-import-workflows.md)|  
-|Learn how to set up a workflow for approving sales documents by following an end-to-end procedure.|[Walkthrough: Setting Up and Using a Purchase Approval Workflow](across-walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
-|Add support for a business scenario that requires new workflow events or responses by customizing the application code.|[Walkthrough: Implementing New Workflow Events and Responses](across-walkthrough-implementing-new-workflow-events-and-responses.md) in Developer and IT Pro Help.|  
+|Learn how to set up a workflow for approving sales documents by following an end-to-end procedure.|[Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
+|Add support for a business scenario that requires new workflow events or responses by customizing the application code.|[Walkthrough: Implementing New Workflow Events and Responses](walkthrough-implementing-new-workflow-events-and-responses.md) in Developer and IT Pro Help.|  
 
 ## See Also  
  [Use Workflows](across-use-workflows.md)   
  [Workflow](across-workflow.md)   
- [Walkthrough: Setting Up and Using a Purchase Approval Workflow](across-walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
+ [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
  [Working with Financials](ui-work-product.md)

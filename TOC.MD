@@ -979,7 +979,7 @@
 # [($ S_CHART Charts $)](GettingStarted/-$-s_chart-charts-$-.md)
 # [Help Keyboard Shortcuts](GettingStarted/help-keyboard-shortcuts.md)
 # [($ S_DEPARTMENTS Departments $)](GettingStarted/-$-s_departments-departments-$-.md)
-# [Business Process Walkthroughs](GettingStarted/business-process-walkthroughs.md)
+# [Business Process Walkthroughs](GettingStarted/walkthrough-business-process-walkthroughs.md)
 # [Accessibility Features of Microsoft Dynamics NAV Help](GettingStarted/accessibility-features-of-microsoft-dynamics-nav-help.md)
 # [Walkthrough: Receiving and Putting Away in Advanced Warehousing](GettingStarted/walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
 # [Accessibility for People with Disabilities](GettingStarted/accessibility-for-people-with-disabilities.md)

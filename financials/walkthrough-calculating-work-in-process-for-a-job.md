@@ -40,10 +40,10 @@ With jobs, you can schedule the usage of your company's resources and keep track
  Before you can perform the tasks in the walkthrough, the [!INCLUDE[d365fin](includes/d365fin_md.md)] must be installed on your computer.  
 
 ## Story  
- This walkthrough focuses on the ADD INCLUDE<!--[!INCLUDE[demoname](includes/demo_md.md)]--> has started and also the jobs that are completed. Some of the jobs can be very lengthy and can run over months. Tricia can use a WIP account to record the work in process and to track the costs throughout the job.  
+ This walkthrough focuses on CRONUS International Ltd., a design and consultancy firm that designs and fits new infrastructures, such as conference halls and offices, with furniture, accessories, and storage units. Most of the work at CRONUS is project-oriented and Tricia, a project team member, uses jobs to have an overview of each ongoing job that CRONUS has started and also the jobs that are completed. Some of the jobs can be very lengthy and can run over months. Tricia can use a WIP account to record the work in process and to track the costs throughout the job.  
 
 ## Calculating WIP  
- ADD INCLUDE<!--[!INCLUDE[demoname](includes/demoname_md.md)]--> has taken on a lengthy project that has now extended across reporting periods. Tricia, a project team member, calculates the work in process (WIP) to make sure that the financial statement of the company will be accurate.  
+ CRONUS has taken on a lengthy project that has now extended across reporting periods. Tricia, a project team member, calculates the work in process (WIP) to make sure that the financial statement of the company will be accurate.  
 
  During this procedure, Tricia will select a specific group of tasks that will be included in the WIP calculation. In the **Job Task Lines** window, she can specify these lines in the **WIP-Total** column.  
 
@@ -63,7 +63,7 @@ With jobs, you can schedule the usage of your company's resources and keep track
 
 2.  In the **Jobs** list, select the **Deerfield** job. On the **Home** tab, in the **Manage** group, choose **Edit**. This will open the job card in edit mode.  
 
-     WIP can be calculated based on Cost Value, Sales Value, Cost of Sales, Percentage of Completion, or Completed Contract. In this example, ADD INCLUDE<!--[!INCLUDE[demo](includes/demo_md.md)]--> uses the Cost Value method.  
+     WIP can be calculated based on Cost Value, Sales Value, Cost of Sales, Percentage of Completion, or Completed Contract. In this example, CRONUS uses the Cost Value method.  
 
 3.  On the **Posting** FastTab, choose the **WIP Method** field, and then select **Cost Value**.  
 
@@ -82,7 +82,7 @@ With jobs, you can schedule the usage of your company's resources and keep track
 
 6.  In the **Job Calculate WIP** window, you can select a job that you want to calculate WIP. On the **Job** FastTab, select **Deerfield** in the **No.** field.  
 
-7.  In the **Posting Date** field, enter a date that is later than the work date set for ADD INCLUDE<!--[!INCLUDE[demoname](includes/how-to-enter-dates-and-times.md).
+7.  In the **Posting Date** field, enter a date that is later than the work date.
 
 8.  In the **Document No.** field, enter **1**. This creates a document that you can refer to later for traceability.  
 
@@ -187,7 +187,8 @@ With jobs, you can schedule the usage of your company's resources and keep track
  This walkthrough has taken you through the steps of calculating WIP in [!INCLUDE[d365fin](includes/d365fin_md.md)]. In larger jobs, it may be useful to transfer the costs to a WIP account periodically while the job is being completed. This walkthrough has shown you how to exclude task lines from a calculation. It also shows you when you would have to recalculate. And finally, this walkthrough demonstrates how to post the WIP to the general ledger. An example of how to reverse a WIP posting to the general ledger is also included.  
 
 ## See Also  
- [Business Process Walkthroughs](business-process-walkthroughs.md)   
+ [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
  [Walkthrough: Managing Projects with Jobs](walkthrough-managing-projects-with-jobs.md)   
- [Understanding WIP Methods](understanding-wip-methods.md)   
- [Monitor Progress and Performance](monitor-progress-and-performance.md)
+ [Understanding WIP Methods](projects-understanding-wip.md)   
+ [Monitor Progress and Performance](projects-how-monitor-progress-performance.md)  
+ [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)

@@ -208,9 +208,9 @@
 ## [Incoming Documents](across-income-documents.md)
 ### [How to: Set Up Incoming Documents](across-how-setup-income-documents.md)
 ### [Processing Incoming Documents](across-process-income-documents.md)
-## [Workflow](workflow.md)
-### [Setting Up Workflows](set-up-workflows)
-### [Using Workflows](use-workflows)
+## [Workflow](across-workflow.md)
+### [Setting Up Workflows](across-set-up-workflows.md)
+### [Using Workflows](across-use-workflows.md)
 
 # [Design Details](design-details-application-design.md)
 ## [Design Details: Dimension Set Entries](design-details-dimension-set-entries.md)
@@ -220,7 +220,9 @@
 ## [Design Details: Item Tracking](design-details-item-tracking.md)
 ## [Design Details: General Journal Post Line](design-details-general-journal-post-line.md)
 
-# [Business Process walkthroughs]()
+# [Business Process walkthroughs](walkthrough-business-process-walkthroughs.md)
+
+# [Setup Best Practices]()
 
 # Local Functionality
 ## [Canada](LocalFunctionality/Canada/canada-local-functionality.md)
@@ -228,11 +230,11 @@
 ## [United Kingdom](LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.md)
 ## [United States](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 
-# Full Experience
-## Business Intelligence (FULL)
+# Advanced
+## Business Intelligence (Advanced)
 ### [How to: Create Reports with XBRL](FullExperience/bi-create-reports-with-xbrl.md)
 
-## Manufacturing (FULL)
+## Manufacturing (Advanced)
 ### How to: Plan for Production Availability
 ### How to: Forecast for Sales and Production
 ### How to: Perform Master Planning
@@ -242,7 +244,7 @@
 ### How to: Issue Materials
 ### How to: Execute Production
 
-## Warehousing (FULL)
+## Warehousing (Advanced)
 ### How to: Receive Items
 ### How to: Put Items Away
 ### How to: Assemble Items
@@ -250,7 +252,7 @@
 ### How to: Pick Items
 ### How to: Ship Items
 
-## Service Management (FULL)
+## Service Management (Advanced)
 ### How to: Plan Service
 ### How to: Fulfill Service Contracts
 ### How to: Handle Customer Inquiries

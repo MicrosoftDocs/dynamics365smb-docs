@@ -52,7 +52,7 @@ To transfer workflows to other [!INCLUDE[d365fin](includes/d365fin_md.md) databa
  [How to: Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)   
  [How to: View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md)   
  [How to: Delete Workflows](across-how-to-delete-workflows.md)   
- [Walkthrough: Setting Up and Using a Purchase Approval Workflow](across-walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
+ [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Set Up Workflows](across-set-up-workflows.md)   
  [Use Workflows](across-use-workflows.md)   
  [Workflow](across-workflow.md)   

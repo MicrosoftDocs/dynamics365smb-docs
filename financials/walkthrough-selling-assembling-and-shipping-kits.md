@@ -487,7 +487,7 @@ To support just-in-time inventory and the ability to customize products to custo
   
      Notice that the **Quantity Shipped** field contains the full quantity on both lines.  
   
-     When the The Device Shop pays for their receipt of the 18 PCs from ADD INCLUDE<!--[!INCLUDE[demoname](includes/demoname_md.md)]-->, the sales order and its linked assembly orders are removed.  
+     When the The Device Shop pays for their receipt of the 18 PCs from CRONUS, the sales order and its linked assembly orders are removed.  
   
 ## See Also  
  Assembly Order   

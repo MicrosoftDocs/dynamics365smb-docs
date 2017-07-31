@@ -273,4 +273,4 @@ Prepayments are payments that are invoiced and posted to a sales or purchase pre
  The prepayments functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)] makes it easy to set up and enforce prepayment rules for customers and items, and it enables you to post every payment against an invoice.  
   
 ## See Also  
- [Business Process Walkthroughs](business-process-walkthroughs.md)
+ [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)

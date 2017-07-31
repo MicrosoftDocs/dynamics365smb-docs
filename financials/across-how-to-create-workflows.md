@@ -22,7 +22,7 @@ You can create workflows that connect business-process tasks performed by differ
   
  When you create workflows, you can copy the steps from existing workflows or from workflow templates. Workflow templates represent non-editable workflows that exist in the generic version of Microsoft Dynamics NAV. The code for workflow templates that are added by Microsoft are prefixed with “MS-“, such as in “MS-PIW”. For more information, see [How to: Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md).  
   
- If your business scenario requires workflow events or responses that are not supported, a Microsoft partner must implement them by customizing the application code. For more information, see [Walkthrough: Implementing New Workflow Events and Responses](across-walkthrough-implementing-new-workflow-events-and-responses.md).  
+ If your business scenario requires workflow events or responses that are not supported, a Microsoft partner must implement them by customizing the application code. For more information, see [Walkthrough: Implementing New Workflow Events and Responses](walkthrough-implementing-new-workflow-events-and-responses.md).  
   
 > [!NOTE]  
 >  All notifications about workflow steps are sent through a job queue. Make sure that the job queue in your installation is set up to handle workflow notifications, and that the **Start Automatically From NAS** check box is selected. For more information, see [How to: Set Up Job Queues](across-how-to-set-up-job-queues.md).  
@@ -113,9 +113,9 @@ You can create workflows that connect business-process tasks performed by differ
  [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)   
  [How to: View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md)   
  [How to: Delete Workflows](across-how-to-delete-workflows.md)   
- [Walkthrough: Setting Up and Using a Purchase Approval Workflow](across-walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
+ [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Set Up Workflows](across-set-up-workflows.md)   
  [Use Workflows](across-use-workflows.md)   
  [Workflow](across-workflow.md)   
  [Business Functionality](across-Business%20Functionality.md)   
- [Walkthrough: Implementing New Workflow Events and Responses](across-walkthrough-implementing-new-workflow-events-and-responses.md)
+ [Walkthrough: Implementing New Workflow Events and Responses](walkthrough-implementing-new-workflow-events-and-responses.md)

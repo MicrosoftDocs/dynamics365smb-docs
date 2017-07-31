@@ -117,5 +117,5 @@ You can create workflows that connect business-process tasks performed by differ
  [Setting Up Workflows](across-set-up-workflows.md)   
  [Using Workflows](across-use-workflows.md)   
  [Workflow](across-workflow.md)   
- [Business Functionality](across-Business%20Functionality.md)   
+    
  [Walkthrough: Implementing New Workflow Events and Responses](walkthrough-implementing-new-workflow-events-and-responses.md)

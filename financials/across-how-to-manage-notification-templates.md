@@ -96,4 +96,4 @@ Notifications are sent to workflow users to notify them about steps they must ma
  NOTES Write Notes   
  [How to: Set Up Job Queues](across-how-to-set-up-job-queues.md)   
  [Workflow](across-workflow.md)   
- [Business Functionality](across-Business%20Functionality.md)
+ 

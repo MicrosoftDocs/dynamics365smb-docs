@@ -13,6 +13,7 @@ ms.workload: na
 ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
+
 ---
 # How to: Set Up Workflow Users
 Before you can create workflows, you must set up the users who take part in workflows. This is necessary, for example, to specify who will receive a notification to act on a workflow step.  
@@ -54,4 +55,3 @@ Before you can create workflows, you must set up the users who take part in work
  [Using Workflows](across-use-workflows.md)   
  [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Workflow](across-workflow.md)   
- [Business Functionality](across-Business%20Functionality.md)

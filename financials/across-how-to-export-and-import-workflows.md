@@ -56,4 +56,4 @@ To transfer workflows to other [!INCLUDE[d365fin](includes/d365fin_md.md)] datab
  [Setting Up Workflows](across-set-up-workflows.md)   
  [Using Workflows](across-use-workflows.md)   
  [Workflow](across-workflow.md)   
- [Business Functionality](across-Business%20Functionality.md)
+ 

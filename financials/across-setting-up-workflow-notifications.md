@@ -44,4 +44,4 @@ You set up different aspects of workflow notifications in the following places:
  [How to: Set Up SMTP Email](across-how-to-set-up-smtp-email.md)   
  [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Workflow](across-workflow.md)   
- [Business Functionality](across-Business%20Functionality.md)
+ 

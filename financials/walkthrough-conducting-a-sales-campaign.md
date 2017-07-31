@@ -231,4 +231,4 @@ A campaign is any kind of activity that involves several contacts. An important 
 
 ## See Also  
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+ [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

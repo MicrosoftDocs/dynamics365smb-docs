@@ -34,4 +34,4 @@ The following table lists these general business areas with links to topics that
 | Record external documents in [!INCLUDE[d365fin](includes/d365fin_md.md)], including their file attachments, and then manually create the related documents or automatically convert the files to electronic documents. |[Manage Incoming Documents](across-income-documents.md) |
 
 ## See Also
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

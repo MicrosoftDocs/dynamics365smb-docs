@@ -29,4 +29,4 @@ To open the **Interaction Template Setup** window, choose the ![Search for Page 
 
 ## See Also
 [Recording Interactions With Contacts](marketing-interactions.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

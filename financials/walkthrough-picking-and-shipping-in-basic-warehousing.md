@@ -148,4 +148,4 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], the outbound processes for picki
  [How to: Move Items Ad Hoc in Basic Warehousing](how-to-move-items-ad-hoc-in-basic-warehousing.md)   
  [Design Details: Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md)   
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+ [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -26,7 +26,7 @@ On this page, you can see which areas became available while we were still in pr
 As announced on the blog, we're now a service that you use in your business. But this update also adds new capabilities and a new extension.
 
 ### Project management
-If you switch to the Suite experience, you can manage projects and work with resources, time sheets, and jobs. When you first log in as a Project Manager role, an assisted setup guide will help you set up how your projects are managed. You can work with the sample accounts, jobs, resources, and so on in the demonstration company to get familiar with the functionality. For more information, see [Manage Projects](projects-manage-projects.md).
+If you switch to the Suite experience, you can manage projects and work with resources, time sheets, and jobs. When you first log in as a Project Manager role, an assisted setup guide will help you set up how your projects are managed. You can work with the sample accounts, jobs, resources, and so on in the demonstration company to get familiar with the functionality. For more information, see [Managing Projects](projects-manage-projects.md).
 
 ### Fixed assets
 If you switch to the Suite experience, you can manage fixed assets, including depreciation and insurance. A standard setup is provided, but you can modify it if anytime you want. You can register purchases of fixed assets in dedicated fixed asset G/L journals where you can also dispose of fixed assets. The right accounting entries are created automatically. For more information, see [Fixed Assets](fa-manage.md).
@@ -124,5 +124,5 @@ Key scenarios to try out on your own:
 
 ## See Also
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Dynamics 365 Roadmap](https://roadmap.dynamics.com/)  

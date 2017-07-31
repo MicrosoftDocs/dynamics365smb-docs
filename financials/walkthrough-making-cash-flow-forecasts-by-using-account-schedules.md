@@ -122,5 +122,5 @@ This walkthrough describes how you can use account schedules to make cash flow f
  [How to: Create Account Schedule Columns That Calculate Percentages](how-to-create-account-schedule-columns-that-calculate-percentages.md)   
  [How to: Set Up Account Schedules with Overviews](how-to-set-up-account-schedules-with-overviews.md)   
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+ [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
  

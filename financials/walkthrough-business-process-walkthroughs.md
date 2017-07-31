@@ -39,4 +39,4 @@ This selection of walkthroughs provides step-by-step, end-to-end business proces
 |Implement defects management|[Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)|  
 
 ## See Also
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

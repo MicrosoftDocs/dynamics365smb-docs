@@ -473,4 +473,4 @@ If a business scenario requires a workflow event or a workflow response that is 
  [Events in Microsoft Dynamics NAV](across-Events%20in%20Microsoft%20Dynamics%20NAV.md)   
  [Developer and IT Pro Help for Madeira](across-Developer%20and%20IT%20Pro%20Help%20for%20Madeira.md)  
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+ [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

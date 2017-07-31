@@ -36,4 +36,4 @@ You can set up and use workflows that connect business-process tasks performed b
 ## See Also  
 [Setting Up Workflows](across-set-up-workflows.md)   
 [Workflow](across-workflow.md)   
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

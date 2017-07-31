@@ -38,4 +38,4 @@ The following table describes a sequence of tasks, with links to the topics that
  [Inventory](inventory-manage-inventory.md)   
  [Sales](sales-manage-sales.md)   
  [Purchasing](purchasing-manage-purchasing.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+ [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

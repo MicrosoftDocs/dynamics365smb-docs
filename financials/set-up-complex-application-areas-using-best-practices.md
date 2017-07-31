@@ -31,4 +31,4 @@ Entering the correct setup values from the start is important to the success of 
  [Design Details: Supply Planning](design-details-supply-planning.md)   
  [Design Details: Costing Methods](design-details-costing-methods.md)  
  [Set Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+ [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

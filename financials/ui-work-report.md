@@ -61,4 +61,4 @@ The saved settings entry called **Last used options and filters** is always avai
 
 ## See Also
 [Specify Printer Selection for Reports](ui-specify-printer-selection-reports.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

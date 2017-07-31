@@ -40,4 +40,4 @@ The following table lists the colors that correspond to the options of the **Low
 | **Subordinate** |Gray |
 
 ## See Also
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

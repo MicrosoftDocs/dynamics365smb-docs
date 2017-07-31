@@ -623,4 +623,4 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
  [Price, Schedule, and Manage Resources](price-schedule-and-manage-resources.md)   
  [Monitor Progress and Performance](monitor-progress-and-performance.md)   
  [Invoice Jobs](invoice-jobs.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+ [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -55,4 +55,4 @@ Now when you set up something that requires a number, you can use the relationsh
 
 ## See Also
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)](setup.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

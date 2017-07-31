@@ -89,9 +89,9 @@ All job-related entries are recorded in job registers and are numbered sequentia
 In the **Job Ledger Entries** window you can review the entries that are associated with any job.  
 
 ## See Also
-[Manage Projects](projects-manage-projects.md)
+[Managing Projects](projects-manage-projects.md)
 [Managing Inventory Costs](finance-manage-inventory-costs)   
 [Finance](finance.md)  
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)      
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

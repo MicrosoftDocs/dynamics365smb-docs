@@ -40,6 +40,6 @@ You main actions in the window are to fill in the **Payment Made** check box and
 3. Open the **Payment Registration** window and proceed to process incoming customer payments using the described functionality for automatic entry of a field value.
 
 ## See Also
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Finance](Finance.md)
 

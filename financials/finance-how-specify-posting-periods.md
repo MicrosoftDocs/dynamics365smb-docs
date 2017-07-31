@@ -30,4 +30,4 @@ Use posting periods to specify when users can post to the general ledger.
 ## See Also
 [Finance](finance.md)  
 [Completing Period-End Processes](year-how-complete-period-end-processes.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

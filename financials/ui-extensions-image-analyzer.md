@@ -90,5 +90,5 @@ You can view the number of analyses you've done, and how many you can still do, 
 ## See Also
 [How to: Work with Item Attributes](inventory-how-work-item-attributes.md)  
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
-[Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)](index.md)  
+[Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 

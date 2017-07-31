@@ -41,4 +41,4 @@ To find items by characteristics, you can assign item attributes to items and al
 [How to: Work with Item Attributes](inventory-how-work-item-attributes.md)  
 [How to: Register New Items](inventory-how-register-new-items.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

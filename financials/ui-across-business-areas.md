@@ -24,13 +24,15 @@ The following table lists these general business areas with links to topics that
 | --- | --- |
 | Assign unique identification codes to records, such as general ledger accounts, customer and vendor accounts, invoices, and documents. A well-designed numbering system also makes the company more manageable and easy to analyze and can reduce the number of errors that occur in data entry. |[Creating Number Series](ui-create-number-series.md) |
 | Set up standard text codes so you can extend standard text by adding extra lines, and set up conditions for use of the extra lines. |[How to: Define Extended Text](ui-how-define-ext-text.md) |
-| Change [!INCLUDE[d365fin](includes/d365fin_md.md)] by installing extensions that add functionality, changes behavior, or gives you access to new online services. |[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md) |
-| Learn how to work with general journals, which are used to post to general ledger accounts and other accounts such as bank, customer, vendor, and fixed assets accounts. |[Managing General Journals](ui-work-general-journals.md) |
+| Learn how to work with general journals, which are used to post to general ledger accounts and other accounts such as bank, customer, vendor, and fixed assets accounts. |[Working with General Journals](ui-work-general-journals.md) |
 | Communicate the contents of business documents quickly to your business partners, such as the payment information on sales documents to customers. |[How to: Send Documents by Email](ui-how-send-documents-email.md) |
 | Schedule a report to run at a specific date and time. |[Schedule a report to run](ui-work-report.md#ScheduleReport) |
 | Manage different types of report layouts. |[Managing Report Layouts](ui-manage-report-layouts.md) |
-| Request and grant approval to create or change certain documents and cards. |[Use Approval Workflows](across-how-use-approval-workflows.md) |
-| Record external documents in [!INCLUDE[d365fin](includes/d365fin_md.md)], including their file attachments, and then manually create the related documents or automatically convert the files to electronic documents. |[Manage Incoming Documents](across-income-documents.md) |
+| Track users' activities.|[Logging Changes in Financials](across-log-changes.md)|
+|Assign permissions to users, modify permission sets, and group users per permissions.|[How to: Manage Users and Permissions](ui-how-users-permissions.md)|
+| Change [!INCLUDE[d365fin](includes/d365fin_md.md)] by installing extensions that add functionality, changes behavior, or gives you access to new online services. |[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md) |
+| Set up and use workflows that connect tasks performed by different users or by the system, such as automatic posting. Requesting and granting approval to create or post documents are typical workflow steps.|[Workflow](across-workflow.md) |
+| Record external documents in [!INCLUDE[d365fin](includes/d365fin_md.md)], including their file attachments, and then manually create the related documents or automatically convert the files to electronic documents. |[Incoming Documents](across-income-documents.md) |
 
 ## See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

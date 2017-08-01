@@ -35,6 +35,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Create budgets to forecast different financial activities and assign dimensions for business intelligence purposes. |[How to: Create Budgets](finance-how-create-budgets.md) |
 |Record income or expenses directly in the general ledger without posting dedicated business documents.|[How to: Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)|
 |Post reversing entries to undo transactions that you have posted in the general journal. |[How to: Reverse Journal Posting](finance-how-reverse-journal-posting.md)|
+|Allocate an entry in a general journal to several different accounts when you post the journal. |[How to: Allocate Costs and Income](year-allocate-costs-income.md) |
 | Assign extra costs, such as freight and physical handling that you incur during trade, to the involved items so that the cost is reflected in inventory valuation. |[How to: Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md) |
 |Post employees' personal expenses for business-related activities and reimburse employees by making payment to their bank account.|[How to: Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)|
 | Recognize revenues and expenses in other periods than when the transactions were posted. |[How to: Defer Revenues and Expenses](finance-how-defer-revenue-expenses.md)|

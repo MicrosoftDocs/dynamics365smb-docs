@@ -24,7 +24,7 @@ This selection of walkthroughs provides step-by-step, end-to-end business proces
 
 |To|See|  
 |--------|---------|  
-|Use Outlook to manage contacts|[Walkthrough: Synchronizing Information Between Outlook and [!INCLUDE[d365fin](includes/d365fin_md.md)](walkthrough-synchronizing-information-between-outlook-and-microsoft-dynamics-nav.md)|  
+|Use Outlook to manage contacts|[Walkthrough: Synchronizing Information Between Outlook and [!INCLUDE[d365fin](includes/d365fin_md.md)]](walkthrough-synchronizing-information-between-outlook-and-microsoft-dynamics-nav.md)|  
 |Set up a marketing campaign|[Walkthrough: Conducting a Sales Campaign](walkthrough-conducting-a-sales-campaign.md)|  
 |Use prepayments to part of sales orders|[Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)|  
 |Set up approval users, when and how the users receive notification about approval workflows, and then modify and enable the relevant approval workflow.|[Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  

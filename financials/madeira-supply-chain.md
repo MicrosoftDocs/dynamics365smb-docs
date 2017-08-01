@@ -40,4 +40,4 @@ The following table describes a sequence of tasks, with links to the topics that
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  
 [Managing Payables](payables-manage-payables.md)    
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-
+[General Business Functionality](ui-across-business-areas.md)

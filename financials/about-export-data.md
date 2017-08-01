@@ -62,5 +62,5 @@ We recommend that you also consider exporting data from the following pages:
 [Canceling Your Subscription for [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](madeira-cancel.md)  
 [Importing Business Data from Other Finance Systems](upload-data.md)  
 [Finance](finance.md)  
-  
+[General Business Functionality](ui-across-business-areas.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

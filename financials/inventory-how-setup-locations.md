@@ -43,4 +43,4 @@ You can now transfer inventory items between two locations. For more information
 [How to: Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)    
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)  
-[General Business Functionality](ui-across-business-areas.md)
+

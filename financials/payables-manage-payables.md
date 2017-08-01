@@ -35,5 +35,5 @@ The following table describes a sequence of tasks within accounts payable, with 
 [Purchasing](purchasing-manage-purchasing.md)  
 [Managing Receivables](receivables-manage-receivables.md)  
 [How to: Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)  
-[General Business Functionality](ui-across-business-areas.md)  
+  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

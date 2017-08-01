@@ -44,6 +44,6 @@ Even though inventory costs are automatically posted to the general ledger, it i
 [Sales](sales-manage-sales.md)    
 [Supply Chain](madeira-supply-chain.md)  
 [Working with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
-[General Business Functionality](ui-across-business-areas.md)
+
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

@@ -38,4 +38,4 @@ When you have set up check layouts, you can print checks from the **Payment Jour
 [Managing Bank Accounts](bank-manage-bank-accounts.md)   
 [Completing Period-End Processes](year-how-complete-period-end-processes.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[General Business Functionality](ui-across-business-areas.md)
+

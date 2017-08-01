@@ -100,4 +100,4 @@ The **Bottleneck** field specifies which item in the BOM structure restricts you
 [How to: Sell Products](sales-how-sell-products.md)      
 [Supply Chain](madeira-supply-chain.md)  
 [Working with Financials](ui-work-product.md)  
-[General Business Functionality](ui-across-business-areas.md)
+

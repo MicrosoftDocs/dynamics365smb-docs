@@ -30,6 +30,6 @@ The following table describes related tasks, with links to the topics that descr
 | Preview, in a report, the entries that will be created when you post. |[How to: View Test Reports Before Posting](ui-how-view-test-reports-posting.md) |
 
 ## See Also
-[General Business Functionality](ui-across-business-areas.md)  
+  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

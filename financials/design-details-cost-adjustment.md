@@ -1,5 +1,5 @@
 ---
-    title: Design Details: Cost Adjustment | Microsoft Docs
+    title: Design Details - Cost Adjustment | Microsoft Docs
     description: The main purpose of cost adjustment is to forward cost changes from cost sources to cost recipients, according to an item’s costing method, to provide correct inventory valuation.
     services: project-madeira
     documentationcenter: ''

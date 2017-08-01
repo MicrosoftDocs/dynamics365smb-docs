@@ -1,5 +1,5 @@
 ---
-    title: Design Details: Monitoring the Projected Inventory Level and the Reorder Point | Microsoft Docs
+    title: Design Details - Monitoring the Projected Inventory Level and the Reorder Point | Microsoft Docs
     description: Inventory is a type of supply, but for inventory planning, the planning system distinguishes between two inventory levels:
     services: project-madeira
     documentationcenter: ''

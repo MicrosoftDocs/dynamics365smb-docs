@@ -1,5 +1,5 @@
 ---
-    title: Design Details: Inventory Valuation | Microsoft Docs
+    title: Design Details - Inventory Valuation | Microsoft Docs
     description: Inventory valuation XE "Inventory Valuation"  is the determination of the cost that is assigned to an inventory item, as expressed by the following equation.
     services: project-madeira
     documentationcenter: ''

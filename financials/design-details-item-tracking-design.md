@@ -1,5 +1,5 @@
 ---
-    title: Design Details: Item Tracking Design | Microsoft Docs
+    title: Design Details - Item Tracking Design | Microsoft Docs
     description: In the first version of Item Tracking in [!INCLUDE[d365fin](includes/d365fin_md.md)] 2.60, serial numbers or lot numbers were recorded directly on item ledger entries. This design provided full availability information and simple tracking of historic entries, but it lacked flexibility and functionality.
     services: project-madeira
     documentationcenter: ''

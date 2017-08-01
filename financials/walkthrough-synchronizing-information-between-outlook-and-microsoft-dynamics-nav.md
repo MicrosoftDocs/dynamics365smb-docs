@@ -1,5 +1,5 @@
 ---
-    title: Walkthrough: Synchronizing Information Between Outlook and Microsoft Dynamics NAV | Microsoft Docs
+    title: Walkthrough - Synchronizing Information Between Outlook and Microsoft Dynamics NAV | Microsoft Docs
     description: You can set up synchronization between [!INCLUDE[d365fin](includes/d365fin_md.md)].
     services: project-madeira
     documentationcenter: ''

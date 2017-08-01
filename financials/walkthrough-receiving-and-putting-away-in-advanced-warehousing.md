@@ -1,5 +1,5 @@
 ---
-    title: Walkthrough: Receiving and Putting Away in Advanced Warehousing | Microsoft Docs
+    title: Walkthrough - Receiving and Putting Away in Advanced Warehousing | Microsoft Docs
     description: In ADD INCLUDE<!--[!INCLUDE[navnow](includes/navnow_md.md)]-->, the inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.
     services: project-madeira
     documentationcenter: ''

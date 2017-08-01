@@ -1,5 +1,5 @@
 ---
-    title: Walkthrough: Conducting a Sales Campaign | Microsoft Docs
+    title: Walkthrough - Conducting a Sales Campaign | Microsoft Docs
     description: A campaign is any kind of activity that involves several contacts. An important part of setting up a campaign involves selecting the target audience for your campaign. For this purpose, in [!INCLUDE[d365fin](includes/d365fin_md.md)], you create a segment, or a group of contacts using filters.
     services: project-madeira
     documentationcenter: ''

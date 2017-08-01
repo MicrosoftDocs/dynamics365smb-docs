@@ -1,5 +1,5 @@
 ---
-    title: Design Details: Costing Methods | Microsoft Docs
+    title: Design Details - Costing Methods | Microsoft Docs
     description: The costing method determines if an actual or a budgeted value is capitalized and used in the cost calculation. Together with the posting date and sequence, the costing method also influences how the cost flow is recorded. The following methods are supported in [!INCLUDE[d365fin](includes/d365fin_md.md)]:
     services: project-madeira
     documentationcenter: ''

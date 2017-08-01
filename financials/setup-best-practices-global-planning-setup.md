@@ -1,5 +1,5 @@
 ---
-    title: Setup Best Practices: Global Planning Setup | Microsoft Docs
+    title: Setup Best Practices - Global Planning Setup | Microsoft Docs
     description: The **Planning** FastTab in the **Manufacturing Setup** window contains several fields that define global rules for supply planning.
     services: project-madeira
     documentationcenter: ''

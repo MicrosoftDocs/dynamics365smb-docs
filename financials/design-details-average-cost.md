@@ -1,5 +1,5 @@
 ---
-    title: Design Details: Average Cost | Microsoft Docs
+    title: Design Details - Average Cost | Microsoft Docs
     description: The average cost of an item is calculated with a periodic weighted average, based on the average cost period that is set up in [!INCLUDE[d365fin](includes/d365fin_md.md)].
     services: project-madeira
     documentationcenter: ''
@@ -25,7 +25,7 @@ The average cost of an item is calculated with a periodic weighted average, base
   
 |Field|Description|  
 |---
-    title: Design Details: Average Cost | Microsoft Docs
+    title: Design Details - Average Cost | Microsoft Docs
     description: The average cost of an item is calculated with a periodic weighted average, based on the average cost period that is set up in [!INCLUDE[d365fin](includes/d365fin_md.md)].
     services: project-madeira
     documentationcenter: ''

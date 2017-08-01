@@ -1,5 +1,5 @@
 ---
-    title: Walkthrough: Implementing New Workflow Events and Responses | Microsoft Docs
+    title: Walkthrough - Implementing New Workflow Events and Responses | Microsoft Docs
     description: If a business scenario requires a workflow event or a workflow response that is not supported in a Microsoft Dynamics NAV solution, you must implement it by customizing the application code.
     services: project-madeira
     documentationcenter: ''

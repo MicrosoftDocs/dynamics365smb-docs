@@ -137,8 +137,6 @@ If you receive items from your vendor that are not what you wanted, for example,
 
 You can post this reduced purchase cost as an item charge on a credit memo or return order and link it to the posted receipt. The following describes it for a purchase return order, but the same steps apply to a purchase credit memo.
 
-> [!NOTE]  
->  It is recommended that you print a test report before you post the credit memo.   
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Credit Memos**, and then choose the related link.
 2. Choose the **New** action to open a new empty purchase credit memo.  
 3.  Fill in the credit memo header with information about the vendor who sent you the purchase allowance.  

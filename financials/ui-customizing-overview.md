@@ -16,7 +16,7 @@ ms.author: jswymer
 ---
 # Customizing Dynamics 365 for Financials
 <!--NAV # Customizing Dynamics NAV -->
-There are different ways to customize the application to give you and your colleagues access to the features, functionality, and data that you need most, in the best way possible to ease your daily work. Each way customizes the application on a different level. 
+There are different ways to customize the application to give you and your colleagues access to the features, functionality, and data that you need most, in a manner that bests suits your daily work. Each way customizes the application on a different level. 
 
 |     |  Description  |  Level  |  See  |
 |-----|---------------|---------|-------|

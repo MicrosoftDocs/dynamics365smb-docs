@@ -17,13 +17,11 @@ ms.author: jswymer
 ---
 # Personalizing Pages
 <!--NAV in the Web client-->
-You can customize pages to better suit your daily work by changing their layout to display only the information you want, where you want it. Of course, the personalization changes that you make will only effect what you see, not what other users see. 
+You can customize pages to suit your daily work and preferences by changing their layout to display only the information you want, where you want it. The personalization changes that you make will only effect what you see, not what other users see. 
 
 Depending on the type of page and what it includes, you can:
 
 -   Add, move, and remove fields.
-
-    You cannot create new fields; you can only add fields that already exist in the database. The same is true for field columns in a list.
 -   Add, move, and remove columns in a list.
 -   Change the freeze pane of columns in a list. 
 
@@ -32,7 +30,16 @@ Depending on the type of page and what it includes, you can:
 
     Parts are typically larger areas on a page that contain elements such as another page, a chart, or cues (tiles).  
 
-When you make changes to a card page of record that you open from a list, the changes will take effect on all records that you open from the list. For example, you could open a specific customer from the Customers list page, and then personalize the page by adding a field. When you open other customers from the list, the field that you added will also be included.  
+## Personalization in detail
+To help you better understand personalization, here are some important points.  
+-   When you make changes to a card page of record that you open from a list, the changes will take effect on all records that you open from that list. For example, let's say you open a specific customer from the Customers list page, and then personalize the page by adding a field. When you open other customers from the list, the field that you added will also be shown.
+-   Changes that you make will take effect on all your Role Centers. For example, if you make a change to the Customer list when the Role Center is set to Business Manager, you will also see the change in the Customer list when Role Center is set to Sales Order Processor. 
+-   Changes to a page in a part will take effect where ever the part is used.  
+-   You cannot create new fields or columns on a page; you can only add fields that already exist in the database.
+
+<!--NAV
+
+-   You can perform personalization in either the Web client or the Windows client. When you start to personalize a page in the Web client, if the page has already been personalized by using the Windows client, you will get a message. If you continue in the Web client, the personalization that was done in the Windows client will be removed. The page is restored to its original layout, from which you can start to personalize for the Web client only. In the Windows client, the personalization will remain as is. If you want to keep the personalization in the Windows and Web clients identical, you should use the Windows client. #-->       
 
 ## To personalize a page
 
@@ -64,7 +71,6 @@ When you make changes to a card page of record that you open from a list, the ch
     > [!IMPORTANT]  
     >   You cannot make changes to a list if the list is shown as tiles. To change the view, choose the ![Show as list](media/ui_show_as_list_icon.png "Show as list arrow left") icon.
    
-
 5.  You can continue to make changes on the same page or move to another page. When you are done, in the **Personalize Mode** bar, choose **Stop personalizing** to save the changes and exit the **Personalize Mode**. 
 
 ## To restore pages to their original layout

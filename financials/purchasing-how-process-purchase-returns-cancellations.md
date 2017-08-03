@@ -161,6 +161,7 @@ When return shipments are combined on a credit memo and posted, then a posted pu
 
 > [!NOTE]  
 > The following procedure assumes that there are several purchase return orders for the vendor, and that they have been posted as shipped.     
+
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Credit Memos**, and then choose the related link.  
 2.  Choose the **New** action.  
 3. On the **General** FastTab, fill in the fields as necessary.  

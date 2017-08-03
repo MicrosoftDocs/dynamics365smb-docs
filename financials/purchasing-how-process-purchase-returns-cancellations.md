@@ -80,8 +80,7 @@ The purchase credit memo is removed and replaced with a new document in the list
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Return Orders**, and then choose the related link.  
 2. Choose the **New** action.  
 3. Fill in the fields on the **General** FastTab as necessary.
-
-    On the **Lines** FastTab, you can either fill the lines manually, or, if you want to copy information from other documents, you have two options for filling the lines automatically:
+4. On the **Lines** FastTab, fill the lines manually, or copy information from other documents to fill the lines automatically:
 
     - Use the **Get Posted Document Lines to Reverse** function to copy one or more posted document lines from one or more posted documents. This function always exactly reverses the costs from the posted document line. This function is described in the following steps.    
     - Use the **Copy Document** function to copy an existing document to the return order. Use this function to copy the entire document. It can be either a posted document or a document that is not yet posted. This function only enables exact cost reversing when the **Exact Cost Reversing Mandatory** check box is selected in the **Sales and Receivables Setup** window.  
@@ -89,16 +88,16 @@ The purchase credit memo is removed and replaced with a new document in the list
 4. Choose the **Get Posted Document Lines to Reverse** action.
 5. At the top of the **Posted Purchase Document Lines** window, select the **Show Reversible Lines Only** check box if you want to see only lines that have quantities that have not yet been returned. For example, if a posted purchase invoice quantity has already been returned, you may not want to include that quantity on a new purchase return document.
 
-        > [!NOTE]  
-        >  This field only works for posted receipts and posted invoice lines, not for posted return or posted credit memo lines.  
+    > [!NOTE]  
+    >  This field only works for posted receipts and posted invoice lines, not for posted return or posted credit memo lines.  
 
-        At the left side of the window, the different document types are listed, and the number in brackets shows the number of documents available of each document type.
+    At the left side of the window, the different document types are listed, and the number in brackets shows the number of documents available of each document type.
 
 6. In the **Document Type Filter** field, select the type of posted document lines you would like to use.  
 7. Select the lines that you would like to copy to the new document.  
 
-        > [!NOTE]  
-        >  If you use Ctrl+A to select all lines, all lines within the filter you have set are copied, but the **Show Reversible Quantity Only** filter is ignored. For example, suppose you have filtered the lines to a particular document number with two lines, one of which has already been returned. Even if the **Show Reversible Quantity Only** field is selected, if you press Ctrl+A to copy all lines, both lines are copied, instead of only the one that has not yet been reversed.  
+    > [!NOTE]  
+    >  If you use Ctrl+A to select all lines, all lines within the filter you have set are copied, but the **Show Reversible Quantity Only** filter is ignored. For example, suppose you have filtered the lines to a particular document number with two lines, one of which has already been returned. Even if the **Show Reversible Quantity Only** field is selected, if you press Ctrl+A to copy all lines, both lines are copied, instead of only the one that has not yet been reversed.  
 
 8. Choose the **OK** button to copy the lines to the new document.  
 
@@ -118,10 +117,10 @@ The purchase credit memo is removed and replaced with a new document in the list
 
      When you copy from a posted invoice or posted credit memo, the program copies any relevant invoice discounts and line discounts as valid at the time of posting that document from the posted document line to the new document line. Be aware, however, that if the **Calc. Inv. Discount** option is activated in the **Purchases & Payables Setup** window, then the invoice discount will be newly calculated when you post the new document line. The line amount for the new line may therefore be different than the line amount for the posted document line, depending on the new calculation of the invoice discount.  
 
-    > [!NOTE]  
-    >  If part of the quantity of the posted document line has already been reversed or sold or consumed, a line is created for only the quantity that remains in inventory or that has not been returned. If the full quantity of the posted document line has already been reversed, a new document line is not created.  
-    >   
-    >  If the flow of goods in the posted document is the same as the flow of goods in the new document, a copy of the original posted document line in the new document is created. The **Appl.-from Item Entry** field is not filled in because, in this case, exact cost reversing is not possible. For example, if you use the **Get Posted Document Lines to Reverse** function to get a posted purchase credit memo line for a new purchase credit memo, only the original posted credit memo line is copied to the new credit memo.  
+> [!NOTE]  
+>  If part of the quantity of the posted document line has already been reversed or sold or consumed, a line is created for only the quantity that remains in inventory or that has not been returned. If the full quantity of the posted document line has already been reversed, a new document line is not created.  
+>   
+>  If the flow of goods in the posted document is the same as the flow of goods in the new document, a copy of the original posted document line in the new document is created. The **Appl.-from Item Entry** field is not filled in because, in this case, exact cost reversing is not possible. For example, if you use the **Get Posted Document Lines to Reverse** function to get a posted purchase credit memo line for a new purchase credit memo, only the original posted credit memo line is copied to the new credit memo.  
 
 8. In the **Purchase Return Order** window, in the **Return Reason Code** field on each line, select the reason for the return.
 9. Choose the **post** action.
@@ -142,17 +141,13 @@ You can post this reduced purchase cost as an item charge on a credit memo or re
 >  It is recommended that you print a test report before you post the credit memo.   
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Credit Memos**, and then choose the related link.
 2. Choose the **New** action to open a new empty purchase credit memo.  
-
 3.  Fill in the credit memo header with information about the vendor who sent you the purchase allowance.  
-
 4. On the **Lines** FastTab, in the **Type** field, select **Charge (Item)**.  
 5.  In the **No.** field, select the appropriate item charge value.  
 
     You may want to create a special item charge number to cover purchase allowances.  
 6.  In the **Quantity** field, enter **1**.  
-
 7.  In the **Direct Unit Cost** field, enter the amount of the purchase allowance.  
-
 8.  Assign the purchase allowance as an item charge to the items in the posted receipt. For more information, see [How to: Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md). When you have assigned the allowance, return to the **Purchase Credit Memo** window.
 
 When you post the purchase return order, the purchase allowance is added to the relevant purchase entry amount. In this way, you can maintain accurate inventory valuation.  
@@ -169,25 +164,18 @@ When return shipments are combined on a credit memo and posted, then a posted pu
 > [!NOTE]  
 > The following procedure assumes that there are several purchase return orders for the vendor, and that they have been posted as shipped.     
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Credit Memos**, and then choose the related link.  
-
 2.  Choose the **New** action.  
-
 3. On the **General** FastTab, fill in the fields as necessary.  
-
 4. Choose the **Get Return Shipment Lines** action.  
-
 5.  Select multiple return shipment lines that you want to include in the invoice.  
 
-     If an incorrect return shipment line was selected or you want to start over, you can just delete the lines on the purchase credit memo and then use the **Get Return Shipment Lines** function again.  
-
+    If an incorrect return shipment line was selected or you want to start over, you can just delete the lines on the purchase credit memo and then use the **Get Return Shipment Lines** function again.  
 6.  Choose the **Post** action.  
 
 ### To remove open purchase return orders after combined return shipment posting  
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Delete Invoiced Purchase Return Orders**, and then choose the related link.  
-
 2.  Fill in the fields as necessary, and then choose the **OK** button.  
-
 3.  Alternatively, delete the individual purchase return orders manually.
 
 ## See Also

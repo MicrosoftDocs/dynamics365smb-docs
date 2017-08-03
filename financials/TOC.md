@@ -115,7 +115,7 @@
 ## [Working with Dimensions](finance-dimensions.md)
 ## [How to: Create Budgets](finance-how-create-budgets.md)
 ## [How to: Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)
-## [How to: Reverse Journal Posting](finance-how-reverse-journal-posting.md)
+## [How to: Reverse Postings](finance-how-reverse-journal-posting.md)
 ## [How to: Allocate Costs and Income](year-allocate-costs-income.md)
 ## [How to: Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)
 ## [How to: Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)

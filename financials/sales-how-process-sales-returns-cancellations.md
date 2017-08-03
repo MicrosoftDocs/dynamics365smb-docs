@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 08/01/2016
+ms.date: 08/03/2016
 ms.author: sgroespe
 
 ---
@@ -86,7 +86,7 @@ The posted sales documents that you applied the credit memo to are now reversed,
     On the **Lines** FastTab, you can either fill the lines manually, or, if you want to copy information from other documents, you have two options for filling the lines automatically:
 
     - Use the **Get Posted Document Lines to Reverse** function to copy one or more posted document lines from one or more posted documents. This function always exactly reverses the costs from the posted document line. This function is described in the following steps.    
-    - Use the **Copy Document** batch job to copy an existing document to the return order. Use this function to copy the entire document. It can be either a posted document or a document that is not yet posted. This function only enables exact cost reversing when exact cost reversing is set up as mandatory in the **Sales and Receivables Setup** window.  
+    - Use the **Copy Document** function to copy an existing document to the return order. Use this function to copy the entire document. It can be either a posted document or a document that is not yet posted. This function only enables exact cost reversing when the **Exact Cost Reversing Mandatory** check box is selected in the **Sales and Receivables Setup** window.  
 
 4. Choose the **Get Posted Document Lines to Reverse** action.
 5. At the top of the **Posted Sales Document Lines** window, select the **Show Reversible Lines Only** check box if you want to see only lines that have quantities that have not yet been returned. For example, if a posted sales invoice quantity has already been returned, you may not want to return that quantity on a new sales return document.
@@ -118,7 +118,7 @@ The posted sales documents that you applied the credit memo to are now reversed,
 
     -   If the posted document line contains item tracking lines, the **Appl.-from Item Entry** field on the item tracking lines is filled with the appropriate item ledger entry numbers from the posted item tracking lines.  
 
-     When you copy from a posted invoice or posted credit memo, the program copies any relevant invoice discounts and line discounts as valid at the time of posting that document from the posted document line to the new document line. Be aware, however, that if the **Calc. Inv. Discount** option is activated in the **Sales and Receivables Setup** window, then the invoice discount will be newly calculated when you post the new document line. The line amount for the new line may therefore be different than the line amount for the posted document line, depending on the new calculation of the invoice discount.  
+     When you copy from a posted invoice or posted credit memo, the program copies any relevant invoice discounts and line discounts as valid at the time of posting that document from the posted document line to the new document line. Be aware, however, that if the **Calc. Inv. Discount** option is activated in the **Sales & Receivables Setup** window, then the invoice discount will be newly calculated when you post the new document line. The line amount for the new line may therefore be different than the line amount for the posted document line, depending on the new calculation of the invoice discount.  
 
     > [!NOTE]  
     >  If part of the quantity of the posted document line has already been reversed or sold or consumed, a line is created for only the quantity that remains in inventory or that has not been returned. If the full quantity of the posted document line has already been reversed, a new document line is not created.  
@@ -128,13 +128,14 @@ The posted sales documents that you applied the credit memo to are now reversed,
 8. In the **Sales Return Order** window, in the **Return Reason Code** field on each line, select the reason for the return.
 9. Choose the **post** action.
 
-### To create a replacement sales order from a sales return order  
+## To create a replacement sales order from a sales return order
+You may decide to compensate a customer for an item that you have sold them by replacing the item. You can make a replacement with the same item or a different item. This situation could occur if you mistakenly shipped the wrong item to the customer, for example.  
 1. In the **Sales Return Order** window for an active return process, on an empty line, make a negative entry for the replacement item by inserting a negative amount in the **Quantity** field.  
 2. Choose the **Move Negative Lines** action.
 3. In the **Move Negative Sales Lines** window, fill in the fields as necessary.
 4. Choose the **OK** button. The negative line for the replacement item is deleted from the sales return order and inserted in a new **Sales Order** window. For more information, see [How to: Sell Products](sales-how-sell-products.md).
 
-### To create return-related documents from a sales return order
+## To create return-related documents from a sales return order
 You can have replacement sales orders, purchase return orders, and replacement purchase orders created automatically during the sales return process. This is useful, for example, in situations where you want to handle items with warranties provided by vendors.
 
 1. In the **Sales Return Order** window for an active return process, choose the **Create Return-Related Documents** action.
@@ -166,9 +167,54 @@ You can post this reduced price as an item charge in a credit memo or a return o
      You may want to create a special item charge number to cover sales allowances.  
 6.  In the **Quantity** field, enter **1**.  
 7.  In the **Unit Price** field, enter the amount of the sales allowance.  
-8.  Assign the sales allowance as an item charge to the items in the posted shipment. For more information, see [How to: Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md). When you have assigned the allowance, return to the credit memo window.  
+8.  Assign the sales allowance as an item charge to the items in the posted shipment. For more information, see [How to: Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md). When you have assigned the allowance, return to the **Sales Credit Memo** window.  
 
-When you post the sales return order, the sales allowance is added to the relevant sales entry amount. In this way, you can maintain accurate inventory valuation.   
+When you post the sales return order, the sales allowance is added to the relevant sales entry amount. In this way, you can maintain accurate inventory valuation.
+
+## To combine return receipts
+You can combine return receipts if your customer returns several items that are covered by different sales return orders.  
+
+When you receive the items into your warehouse, post the relevant sales return orders as received. This creates posted return receipts.  
+
+When you are ready to invoice this customer, instead of invoicing each sales return order separately, you can create a sales credit memo and automatically copy the posted return receipt lines to this document. Then you can post the sales credit memo and conveniently invoice all the open sales return orders at once.  
+
+To combine return receipts, the **Combine Shipments** check box must be selected in the **Customer Card** window.  
+
+### To manually combine return receipts  
+
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Credit Memo**, and then choose the related link.  
+2. Choose the **New** action.
+3. On the **General** FastTab, fill in the fields as necessary.  
+4. Choose the **Get Return Receipt Lines** action.  
+5. Select the return receipt lines that you want to include in the credit memo:  
+
+    -   To insert all lines, select all lines, and then choose the **OK** button.  
+
+    -   To insert specific lines, select the lines, and then choose the **OK** button.  
+
+6.  If an incorrect shipment line was selected or you want to start over, you can simply delete the lines on the credit memo and re-run the **Get Return Receipt Lines** function.  
+
+7.  Post the invoice.  
+
+### To automatically combine return receipts  
+You can automatically combine return receipts and have the option of automatically posting the credit memos using the  **Combine Return Receipts** function.  
+
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Combine Return Receipts**, and then choose the related link.
+2. In the **Combine Return Receipts** window, fill in the fields to select the relevant return receipts.
+3. Select the **Post Credit Memos** check box. If not, you must manually post the resulting purchase credit memos.
+4.  Choose the **OK** button.  
+
+### To remove a received and invoiced return order  
+When you invoice return receipts in this way, the return orders from which the return receipts were posted still exist, even if they have been fully received and invoiced.  
+
+When return receipts are combined on a credit memo and posted, a posted sales credit memo is created for the credited lines. The **Quantity Invoiced** field on the originating sales return order is updated based on the invoiced quantity.   
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Delete Invoiced Sales Return Orders**, and then select the link.  
+
+2.  Specify in the **No.** filter field which return orders to delete.  
+
+3.  Choose the **OK** button.  
+
+Alternatively, delete individual sales return orders manually.   
 
 ## See Also
 [Sales](sales-manage-sales.md)  

@@ -79,7 +79,7 @@ The posted sales documents that you applied the credit memo to are now reversed,
 9. Complete the sales credit memo as explained in the "To create a sales credit memo from a posted sales invoice" section in this topic.
 
 ## To create a sales return order based on one or more a posted sales documents
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Return Orders**, and then choose the related link. 
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Return Orders**, and then choose the related link.
 2. Choose the **New** action.  
 3. Fill in the fields on the **General** FastTab as necessary.
 4. On the **Lines** FastTab, fill the lines manually, or copy information from other documents to fill the lines automatically:

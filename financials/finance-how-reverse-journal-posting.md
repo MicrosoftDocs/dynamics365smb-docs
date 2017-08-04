@@ -24,7 +24,7 @@ For more information about posting from a general journal, see [How to: Post Tra
 
 If you have made an incorrect negative quantity posting, such as a purchase order with the wrong number of items and posted it as received but not invoiced, then you can undo the posting.
 
-If you have made an incorrect positive quantity posting, such as a return order with the wrong number of items and posted it as shipped but not invoiced, then you can undo the posting.   
+If you have made an incorrect positive quantity posting, such as a purchase return order with the wrong number of items and posted it as shipped but not invoiced, then you can undo the posting.   
 
 ## To reverse the journal posting of a general ledger entry
 You can reverse entries from all **Ledger Entries** windows. The following procedure is based on the **General Ledger Entries** window.
@@ -36,37 +36,31 @@ You can reverse entries from all **Ledger Entries** windows. The following proce
 ## To undo a quantity posting on a posted purchase receipt  
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Purchase Receipts**, and then choose the related link.  
-
 2.  Open the posted receipt that you want to undo.  
-
 3.  Select the line or lines that you want to undo.  
+4.  Choose **Undo Receipt** action.
 
-4.  Choose **Undo Receipt** action.  
+    A corrective line is inserted under the selected receipt line.  
 
-     A corrective line is inserted under the selected receipt line.  
+    If the quantity was received in a warehouse receipt, then a corrective line is inserted in the posted warehouse receipt.  
 
-     If the quantity was received in a warehouse receipt, then a corrective line is inserted in the posted warehouse receipt.  
-
-     The **Quantity Received** and **Qty. Rcd. Not Invoiced** fields on the related purchase order are set to zero.
+    The **Quantity Received** and **Qty. Rcd. Not Invoiced** fields on the related purchase order are set to zero.
 
 ## To undo and then redo a quantity posting on a posted return shipment
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Return Shipments**, and then choose the related link.  
-
 2.  Open the posted return shipment that you want to undo.
 3. Select the line or lines you want to undo.  
 
 4.  Choose the **Undo Return Shipment** action.  
 
-          A corrective line is inserted in the posted document, and the **Return Qty. Shipped** and **Return Shpd. Not Invd.** fields on the return order are set to zero.  
+    A corrective line is inserted in the posted document, and the **Return Qty. Shipped** and **Return Shpd. Not Invd.** fields on the return order are set to zero.  
 
-          Now go back to the purchase return order to redo the posting.  
+    Now go back to the purchase return order to redo the posting.  
 
 5.  In the **Posted Return Shipment** window, take a note of the number in the **Return Order No.** field.  
-
 6.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Return Orders**, and then select the related link.  
 7.  Open the return order in question, and then choose the **Reopen** action.  
-
 8.  Correct the entry in the **Quantity** field and post the purchase return order again.  
 
 ## See Also

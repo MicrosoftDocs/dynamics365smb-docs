@@ -1,6 +1,6 @@
 ---
     title: About Cost Accounting | Microsoft Docs
-    description: Cost accounting can help you understand the costs of running a business. Cost accounting information is designed to analyze:
+    description: Cost accounting can help you understand the costs of running a business.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -19,9 +19,7 @@
 Cost accounting can help you understand the costs of running a business. Cost accounting information is designed to analyze:  
 
 -   What types of costs that you incur when you run a business?  
-
 -   Where do the costs occur?  
-
 -   Who bears the costs?  
 
  In cost accounting, you allocate actual and budgeted costs of operations, departments, products, and projects to analyze the profitability of your company.  
@@ -29,19 +27,15 @@ Cost accounting can help you understand the costs of running a business. Cost ac
 ## Workflow in Cost Accounting  
  Cost accounting has the following main components:  
 
--   Cost types, cost centers, and cost objects  
-
+-   Cost types, cost centers, and cost o  
 -   Cost entries and cost journals  
-
 -   Cost allocations  
-
 -   Cost budgets  
-
 -   Cost reporting  
 
  The following diagram shows the workflow in cost accounting.  
 
- ![Cost Accounting overview](../media/costaccountingoverview.png "CostAccountingOverview")  
+ ![Cost Accounting overview](media/costaccountingoverview.png "CostAccountingOverview")  
 
 ## Cost Types, Cost Centers, and Cost Objects  
  You define cost types, cost centers, and cost objects to analyze what the costs are, where the costs come from, and who should bear the costs.  
@@ -71,7 +65,8 @@ Cost accounting can help you understand the costs of running a business. Cost ac
 
 ## Cost Reporting  
  Most reports and statistics are based on the posted cost entries. You can set the sorting of the results and use filters to define which data must be displayed. You can create reports for cost distribution analysis. In addition, you can use the standard account schedules to define how your reports for the chart of cost types are displayed.  
-  
+
 ## See Also  
- [Manage Cost Accounting](manage-cost-accounting.md)   
- [Terminology in Cost Accounting](terminology-in-cost-accounting.md)
+ [Accounting for Costs](manage-cost-accounting.md)   
+ [Terminology in Cost Accounting](terminology-in-cost-accounting.md)  
+ [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -23,7 +23,7 @@ Invoices must specify a VAT entry type code. The VAT entry type codes are based 
   
 ### To set up VAT Type Codes  
   
-1.  In the Search box, enter **VAT Entry Types**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Entry Types**, and then choose the related link.  
   
 2.  In the **VAT Entry Types** window, fill in the fields as described in the following table.  
   

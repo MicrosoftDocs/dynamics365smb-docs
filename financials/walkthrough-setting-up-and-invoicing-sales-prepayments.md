@@ -221,5 +221,5 @@ The prepayments functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)] mak
 ## See Also  
 [Invoicing Prepayments](finance-invoice-prepayments.md)  
 [Finance](finance.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)

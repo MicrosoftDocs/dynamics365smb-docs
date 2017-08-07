@@ -31,5 +31,5 @@ In cost accounting, you can transfer general ledger entries to a cost type by us
  [How to: Transfer General Ledger Entries to Cost Entries](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)   
  [Criteria for Transferring General Ledger Entries to Cost Entries](finance-criteria-for-transferring-general-ledger-entries-to-cost-entries.md)   
  [Results of the Transfer](finance-results-of-the-transfer.md)   
- [Transfer and Post Cost Entries](finance-transfer-and-post-cost-entries.md)
+ [Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)
  

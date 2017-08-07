@@ -57,6 +57,6 @@ This topic shows an example of how to define allocations by using the dynamic al
 ## See Also  
  [Setting Filters for Dynamic Allocation Bases](setting-filters-for-dynamic-allocation-bases.md)   
  [How to: Set Up Allocation Source and Targets](how-to-set-up-allocation-source-and-targets.md)   
- [Define and Allocate Costs](define-and-allocate-costs.md)   
+ [Defining and Allocating Costs](define-and-allocate-costs.md)   
  [Terminology in Cost Accounting](terminology-in-cost-accounting.md)   
  [About Cost Accounting](about-cost-accounting.md)

@@ -27,7 +27,7 @@ Before you can ship any items, you must either open a shipment document that is 
 ## To create a shipment
 
 
-1.In the Search box, enter Warehouse Shipments, and then choose the related link.
+1.Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter Warehouse Shipments, and then choose the related link.
 
 
 2.Fill in the fields on each journal line.
@@ -50,7 +50,7 @@ When you have the lines you want to ship, you can start the process that sends t
 ## To pick and ship
 
 
-1.In the Search box, enter Warehouse Shipments, and then choose the related link. Select the warehouse shipment that you want to work on.
+1.Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter Warehouse Shipments, and then choose the related link. Select the warehouse shipment that you want to work on.
 
 
 2.In the Warehouse Shipment window, choose Create Pick.
@@ -59,7 +59,7 @@ When you have the lines you want to ship, you can start the process that sends t
 3.Fill in the fields in the request window and then choose the OK button. All the fields are optional.
 
 
-4.In the Search box, enter Picks, and then choose the related link. Select the warehouse pick that you want to work on.
+4.Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter Picks, and then choose the related link. Select the warehouse pick that you want to work on.
 
 If the warehouse is set up to use bins, then the pick lines have been converted to Take and Place action lines.
 

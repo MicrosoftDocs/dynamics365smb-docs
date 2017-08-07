@@ -76,6 +76,6 @@ Static allocation method is based on a definite value, such as square meters use
   
 ## See Also  
  [How to: Set Up Allocation Source and Targets](how-to-set-up-allocation-source-and-targets.md)   
- [Define and Allocate Costs](define-and-allocate-costs.md)   
+ [Defining and Allocating Costs](define-and-allocate-costs.md)   
  [Scenario Example: Defining Dynamic Allocations Based on Items Sold](scenario-example-defining-dynamic-allocations-based-on-items-sold.md)   
- [Define and Allocate Costs](define-and-allocate-costs.md)
+ [Defining and Allocating Costs](define-and-allocate-costs.md)

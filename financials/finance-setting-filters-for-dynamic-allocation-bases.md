@@ -36,4 +36,4 @@ The dynamic allocation method is based on changeable values. For example, the nu
 ## See Also  
  [Scenario Example: Defining Dynamic Allocations Based on Items Sold](scenario-example-defining-dynamic-allocations-based-on-items-sold.md)   
  [How to: Set Up Allocation Source and Targets](how-to-set-up-allocation-source-and-targets.md)   
- [Define and Allocate Costs](define-and-allocate-costs.md)
+ [Defining and Allocating Costs](define-and-allocate-costs.md)

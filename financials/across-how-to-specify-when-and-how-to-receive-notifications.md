@@ -23,12 +23,10 @@ When you set up users in approval workflows, you must specify in the **Notificat
 
  Many approval workflow steps are about notifying users that an event has occurred that they must act on. For example, on one workflow step, the event can be that User 1 requests approval of a new record. The related response is that a notification is sent to User 2, the approver. On the next workflow step, the event can be that User 2 approves the record. The related response is that a notification is sent to User 3 to start a process with the approved record. For workflow steps that are about approval, each notification is tied to an approval entry. For more information, see [Workflow](across-workflow.md).  
 
-### Specify when and how users receive notifications  
+## Specify when and how users receive notifications  
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Approval User Setup**, and then choose the related link.  
-
-2.  Select the line for the user that you want to set up notification preferences for, and then, on the **Home** tab, in the **Process** group, choose **Notification Setup**.  
-
+2.  Select the line for the user that you want to set up notification preferences for, and then choose the **Notification Setup** action.  
 3.  In the **Notification Setup** window, fill the fields as described in the following table.  
 
     |Field|Description|  
@@ -39,8 +37,7 @@ When you set up users in approval workflows, you must specify in the **Notificat
 
      You have now specified how the user receives notifications. Proceed to specify when the user receives notifications.  
 
-4.  On the **Home** tab, in the **Process** group, choose **Notification Schedule**.  
-
+4.  Choose the **Notification Schedule** action.  
 5.  In the **Notification Schedule** window, fill the fields as described in the following table.  
 
     |Field|Description|  
@@ -52,19 +49,13 @@ When you set up users in approval workflows, you must specify in the **Notificat
     |**Date of Month**|Specify if the user receives notifications on the first, last, or a specific date of the month.|  
     |**Monthly Notification Date**|Specify the date of the month on which the user receives notifications when the value in the **Date of Month** field is **Custom**.|  
 
-### Change when and how you receive notifications  
-
+## Change when and how you receive notifications  
 1.  On one of the notifications that you have received, either as email or note, choose the **Change Notification Settings** button.  
-
 2.  In the **Notification Setup** window, change your notification preferences as described in the previous procedure.  
 
 ## See Also  
- Notification Setup   
- Notification Schedule   
- Notification Templates   
  [How to: Set Up Approval Users](across-how-to-set-up-approval-users.md)   
  [How to: Manage Notification Templates](across-how-to-manage-notification-templates.md)   
  [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)   
- Workflow   
  [Setting Up Workflows](across-set-up-workflows.md)   
  [Using Workflows](across-use-workflows.md)

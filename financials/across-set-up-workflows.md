@@ -33,7 +33,7 @@ You can set up and use workflows that connect business-process tasks performed b
 |Specify how workflow users are notified of workflow steps, including approval requests.|[Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)|  
 |Specify when users receive notifications and whether to aggregate notifications in a period to minimize the number of notifications.|[How to: Specify When and How to Receive Notifications](across-how-to-specify-when-and-how-to-receive-notifications.md)|  
 |Set up the layout and general content of new workflow notifications emails, or export, modify, and reimport existing templates.|[How to: Manage Notification Templates](across-how-to-manage-notification-templates.md)|  
-|Set up an SMTP server to enable email communication in and out of [!INCLUDE[d365fin](includes/d365fin_md.md)]|[How to: Set Up SMTP Email](across-how-to-set-up-smtp-email.md)|
+|Set up an SMTP server to enable email communication in and out of [!INCLUDE[d365fin](includes/d365fin_md.md)]|[How to: Set up Email](madeira-how-setup-email.md)|
 |Specify the different steps of a workflow by connection workflow events with workflow responses.|[How to: Create Workflows](across-how-to-create-workflows.md)|  
 |Use workflow templates to create new workflows.|[How to: Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)|  
 |Share workflows with other [!INCLUDE[d365fin](includes/d365fin_md.md)] databases.|[How to: Export and Import Workflows](across-how-to-export-and-import-workflows.md)|  

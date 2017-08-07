@@ -35,4 +35,4 @@ You can set up and use workflows that connect business-process tasks performed b
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Managing Projects](projects-manage-projects.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

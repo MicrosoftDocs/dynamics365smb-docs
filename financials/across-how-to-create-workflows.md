@@ -87,7 +87,7 @@ You can create workflows that connect business-process tasks performed by differ
 >  Do not enable a workflow until you are sure that the workflow is completed and that the involved workflow steps can start.  
 
 > [!NOTE]  
->  To see relations between tables that are used in workflows, Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Workflow – Table Relations**.  
+>  To see relations between tables that are used in workflows, Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, and then enter **Workflow – Table Relations**.  
 
 ## See Also  
  Workflow   

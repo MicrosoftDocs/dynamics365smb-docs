@@ -34,4 +34,5 @@ The following table describes a sequence of tasks, with links to the topics that
 |Set up the rounding rules to apply when adjusting or suggesting item prices and when adjusting or suggesting standard costs.|**Rounding Method** window|  
 
 ## See Also  
-[Managing Inventory Costs](finance-manage-inventory-costs.md)
+[Managing Inventory Costs](finance-manage-inventory-costs.md)  
+[Working with Financials](ui-work-product.md)

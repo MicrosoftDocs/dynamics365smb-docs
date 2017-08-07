@@ -20,7 +20,7 @@ The change log functionality enables you to track all direct modifications that 
   
  For more information, see [Microsoft Dynamics NAV Change Log](../microsoft-dynamics-nav-change-log.md).  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

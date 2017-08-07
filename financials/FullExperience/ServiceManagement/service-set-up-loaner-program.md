@@ -27,7 +27,7 @@ Sometimes you must provide a customer a loaner item for use when your customer s
 > [!NOTE]  
 >  As for service items generally, loaner items are not part of inventory nor can they take part in any warehouse activities.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

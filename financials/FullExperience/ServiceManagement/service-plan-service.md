@@ -20,7 +20,7 @@ With [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can set up the stand
   
  After you do this, you can map what skills a particular service item requires and which employees have those skills. This makes it easy to create service orders and manage job assignments. You can also manage how many hours a service typically takes, repair status, and employee work hours.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

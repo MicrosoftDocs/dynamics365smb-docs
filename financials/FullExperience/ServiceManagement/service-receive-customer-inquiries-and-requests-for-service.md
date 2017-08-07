@@ -20,7 +20,7 @@ You can use Service Management to determine what your service offerings will be,
   
  A service order is the record that captures all the details about a service. By using a service order, you can view the contract number, if there is one, and customer contact information. You can view the details of the service items that are part of the service in the Lines section of the **Service Order** window. You can also view invoicing and shipping details.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

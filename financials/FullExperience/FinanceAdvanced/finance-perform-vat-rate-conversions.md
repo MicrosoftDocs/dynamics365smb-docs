@@ -18,7 +18,7 @@
 # Perform VAT Rate Conversions
 The VAT rate change tool lets you easily manage VAT rate changes in order to maintain accurate VAT reporting.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |To|See|  
 |--------|---------|  

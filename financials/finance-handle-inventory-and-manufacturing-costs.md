@@ -20,7 +20,7 @@ Although much of the cost accounting functionality is expressed in underlying pr
 
  Assigning item charges to purchase documents is an example of an indirect cost accounting task. Updating the unit cost of assembly or production BOM item is an example of a more direct cost accounting task.  
 
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
 
 |**To**|**See**|  
 |------------|-------------|  

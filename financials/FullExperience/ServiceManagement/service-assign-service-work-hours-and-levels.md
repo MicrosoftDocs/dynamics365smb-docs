@@ -20,7 +20,7 @@ Typically, a service management system tracks resource hours and service order s
   
  After you set the default service hours of your company, you can calculate response times for service orders or send warnings or alerts when service calls come in. The alert feature is implemented together with the job scheduler.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

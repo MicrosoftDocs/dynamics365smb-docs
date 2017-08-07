@@ -30,7 +30,7 @@ You can use the following features to plan for future sales:
   
  You can also use a blanket sales order to forecast indirect sales demand.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

@@ -24,7 +24,7 @@ The ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/rtc_md.md)]--> enables you t
   
  You cannot delete notes in **My Notifications**. Instead, you must open the record that the note is attached to, and delete it there, but only if you have been allocated the necessary permissions.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

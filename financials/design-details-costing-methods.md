@@ -153,3 +153,6 @@ The costing method determines if an actual or a budgeted value is capitalized an
  [Design Details: Variance](design-details-variance.md)   
  [Design Details: Average Cost](design-details-average-cost.md)   
  [Design Details: Item Application](design-details-item-application.md)
+ [Managing Inventory Costs](finance-manage-inventory-costs)  
+ [Finance](finance.md)  
+ [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md  

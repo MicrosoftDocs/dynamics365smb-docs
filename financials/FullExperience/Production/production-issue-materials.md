@@ -20,7 +20,7 @@ The first physical activity in a production process is to prepare the materials 
   
  As an alternative to the batch journal for consumption posting for multiple production orders, you can use the **Production Journal** window to post consumption and/or output for one production order line.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

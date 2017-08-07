@@ -22,7 +22,7 @@ There are many common processes in central design and engineering work, such as 
   
  The data and setup that you enter during design and engineering is later used in sales and operations when the item is handled.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

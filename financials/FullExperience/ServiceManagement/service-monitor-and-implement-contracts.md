@@ -20,7 +20,7 @@ After you have set up a system to initiate and maintain service contracts, you c
   
  In addition, you can adjust the accounting that is related to service contracts that have an annual amount billing. You can adjust it manually, or set up [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to do this automatically.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

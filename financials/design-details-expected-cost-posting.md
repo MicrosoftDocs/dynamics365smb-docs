@@ -78,9 +78,12 @@ Expected costs represent the estimation of, for example, a purchased item’s co
 |01-15-20|Direct Cost Applied Account|7291|-100|6|  
 |01-15-20|Inventory Account|2130|100|5|  
 
-## See Also  
+## See Also
  [Design Details: Inventory Costing](design-details-inventory-costing.md)   
  [Design Details: Cost Adjustment](design-details-cost-adjustment.md)   
  [Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md)   
  [Design Details: Inventory Posting](design-details-inventory-posting.md)   
- [Design Details: Variance](design-details-variance.md)
+ [Design Details: Variance](design-details-variance.md)  
+ [Managing Inventory Costs](finance-manage-inventory-costs)  
+ [Finance](finance.md)  
+ [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md

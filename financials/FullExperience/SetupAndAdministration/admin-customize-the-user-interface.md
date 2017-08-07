@@ -29,7 +29,7 @@ The concept of user interface (UI) customization in ADD INCLUDE<!--[!INCLUDE[dyn
 > [!NOTE]  
 >  Only the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/nav_windows_md.md)]--> as configuration are reflected in the web client.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

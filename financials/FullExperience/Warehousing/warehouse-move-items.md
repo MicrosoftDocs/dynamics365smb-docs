@@ -22,7 +22,7 @@ While in inventory, items may need to be moved between bins to support the daily
   
  Additional movement tasks are to periodically replenish picking bins or shop floor bins and to modify bin content information.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

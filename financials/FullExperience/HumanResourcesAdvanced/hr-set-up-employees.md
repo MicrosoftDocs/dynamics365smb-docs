@@ -20,7 +20,7 @@ To use the Human Resources feature, you must set up employees by creating a new 
   
  You can modify an employee's details at any time. Keeping up-to-date records about your employees simplifies personnel tasks. For example, if an employee's address changes, you can register this information on their employee card.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

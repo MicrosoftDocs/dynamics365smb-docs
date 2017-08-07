@@ -20,7 +20,7 @@
   
  Another way to review pending service orders is to use the **Service Tasks** window. In this view of your service obligations, you can see where in your service workflow an order is and change that status to reflect interactions with your customer.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

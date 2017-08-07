@@ -20,7 +20,7 @@ One way to set up a service management business is to have standard contractual 
   
  After you have set up the template, you can customize the resulting contract to keep track of service hours, or other items that may vary from customer to customer. You can also set up a contract manually from a service contract quote. Finally, you can adjust your service pricing to keep track of discounts that a specific customer qualifies for, by specifying the discount amount in the **Service Contract** window.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

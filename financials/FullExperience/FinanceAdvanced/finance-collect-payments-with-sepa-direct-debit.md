@@ -29,7 +29,7 @@ With your customer’s consent, you can collect payments directly from the custo
 > [!NOTE]  
 >  To collect payments using SEPA Direct Debit, the currency on the sales invoice must be EURO.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

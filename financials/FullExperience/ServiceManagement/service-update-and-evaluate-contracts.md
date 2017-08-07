@@ -20,7 +20,7 @@ Sometimes you have to change the terms of a contract after it has been created. 
   
  You can change the status of the contract, initially set to **Locked**, add and remove contract lines, and cancel a contract. If you want to see how your business is doing as measured by gain and loss, you can do quick business analysis using the contract trendscape feature.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

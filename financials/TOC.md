@@ -111,7 +111,7 @@
 ### [How to: Handle Inventory and Manufacturing Costs](finance-handle-inventory-and-manufacturing-costs.md)
 ### [How to: Update Standard Costs](finance-how-to-update-standard-costs.md)
 ### [Reporting Costs and Reconciling with the General Ledger](finance-report-costs-and-reconcile-with-the-general-ledger.md)
-### [Design Details: Inventory Costing](design-details-inventory-costing.md)]
+### [Design Details: Inventory Costing](design-details-inventory-costing.md)
 ## [Accountant Experiences in Financials](finance-accounting.md)
 ### [Inviting Your External Accountant to Your Financials](finance-invite-external-accountant.md)  
 ### [Accountant Portal Extension](ui-extensions-accountant-portal.md)  

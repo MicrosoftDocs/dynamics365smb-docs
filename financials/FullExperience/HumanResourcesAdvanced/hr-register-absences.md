@@ -26,7 +26,7 @@ To be able to administer an employee's absence, you must register the absence in
   
  You can register employee absences on a daily basis or however suits your administrator. To obtain meaningful statistics, you should always use the same unit of measure (hour or day) when registering employee absences.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

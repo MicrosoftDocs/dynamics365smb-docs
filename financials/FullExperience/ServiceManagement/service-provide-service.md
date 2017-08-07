@@ -20,7 +20,7 @@
   
  To track changes and get a graphical view of your service business, use [!INCLUDE[d365fin](../../includes/d365fin_md.md)] statistics tools for quick, automatically generated charting and analysis.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

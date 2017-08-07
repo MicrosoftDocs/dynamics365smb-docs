@@ -243,3 +243,6 @@ When you post an inventory transaction, the quantity posting is recorded in the 
  [Design Details: Costing Methods](design-details-costing-methods.md)   
  [Design Details: Average Cost](design-details-average-cost.md)   
  [Design Details: Cost Adjustment](design-details-cost-adjustment.md)
+ [Managing Inventory Costs](finance-manage-inventory-costs)  
+ [Finance](finance.md)  
+ [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md

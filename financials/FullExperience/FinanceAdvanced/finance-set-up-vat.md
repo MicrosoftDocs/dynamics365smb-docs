@@ -34,7 +34,7 @@ Similar to the general posting setup described in **Set Up Posting Groups**, you
 ## Adjust Payment Discounts for VAT  
  If a payment discount has been calculated on the basis of an invoice amount including VAT, you can have the payment discount part of the VAT amount be debited to the Sales VAT account when the payment discount is granted.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

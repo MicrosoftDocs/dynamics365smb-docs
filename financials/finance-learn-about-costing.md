@@ -20,7 +20,7 @@ Managing inventory costs is concerned with recording and reporting business oper
 
  Central principles to understand are that costing methods define how items are valued when they leave inventory, that cost adjustment updates the cost of goods sold with related purchase costs posted after the sale, and that inventory values must be posted to dedicated G/L accounts at regular intervals.  
 
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
 
 |**To**|**See**|  
 |------------|-------------|  

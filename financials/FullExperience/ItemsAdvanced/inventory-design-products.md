@@ -22,7 +22,7 @@ The starting point for any business that deals with physical goods is to establi
   
  Items that are assembled or produced within a company require additional product design tasks, which are described in [Define Material and Process Structure](../define-material-and-process-structure.md).  
   
- The following table describes a sequence of tasks with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

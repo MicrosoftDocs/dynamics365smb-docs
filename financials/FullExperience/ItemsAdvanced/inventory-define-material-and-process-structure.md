@@ -24,7 +24,7 @@ When designing products that are assembled or produced within the company before
   
  A production routing holds master data that describes the process structure of a given produced item. After a production order is created for that item, its routing will determine the scheduling of production operation(s) as represented in the **Prod. Order Routing** window and as such functions as a job card to machine operators who perform the work.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

@@ -30,7 +30,7 @@ In the **Payment Journal** window, you can process payments to your vendors by e
 > [!NOTE]  
 >  When you have verified that the payments are successfully processed by the bank, you can proceed to post the payment journal lines.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

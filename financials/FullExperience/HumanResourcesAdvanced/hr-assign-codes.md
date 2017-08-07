@@ -22,7 +22,7 @@ In the Human Resources feature, you can assign various codes to your employees. 
   
  After you have setup the codes, you can assign them to the relevant employees.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

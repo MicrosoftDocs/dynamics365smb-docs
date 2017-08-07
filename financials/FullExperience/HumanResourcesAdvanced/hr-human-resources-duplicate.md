@@ -22,7 +22,7 @@ The Human Resources feature lets you keep detailed records of your employees. Yo
   
  To start using Human Resources, you must set up employees and other basic information. You can also associate various codes to an employee, which allows you to filter information and view specific employees.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

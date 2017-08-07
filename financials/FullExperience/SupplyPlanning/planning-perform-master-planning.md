@@ -20,7 +20,7 @@ Before a detailed executable plan ( [see MRP](../plan-for-resource-availability.
   
  In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the Calculate MPS option (Master Production Schedule) is the system expression of the above master planning activities.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

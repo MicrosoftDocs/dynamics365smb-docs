@@ -28,7 +28,7 @@ If your company is in the European Union (EU), you must report the extent of you
   
  You must also set up Intrastat journal templates and batches.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

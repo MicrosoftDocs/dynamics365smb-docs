@@ -20,7 +20,7 @@ The key element to service management is the people who supply service. By using
   
  In addition, you can group resources together when responding to service requests.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

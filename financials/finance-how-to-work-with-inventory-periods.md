@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 08/07/2017
     ms.author: sgroespe
 
 ---
@@ -67,4 +67,7 @@ Inventory periods define a period of time in which you can post changes to inven
 4.  All inventory periods with ending dates later than the period you selected are reopened.  
 
 ## See Also  
-[Design Details: Inventory Periods](design-details-inventory-periods.md)
+[Design Details: Inventory Periods](design-details-inventory-periods.md)  
+[Finance](finance.md)  
+[Inventory](inventory-manage-inventory.md)  
+[Working with Financials](ui-work-product.md)

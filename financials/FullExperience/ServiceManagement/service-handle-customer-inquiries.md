@@ -20,7 +20,7 @@ A service management application must interface with a customer request for serv
   
  If needed, you can manage a loaner program for your customers. You can also determine your pricing structure, put service pricing offerings into logical groupings, and create price adjustments.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

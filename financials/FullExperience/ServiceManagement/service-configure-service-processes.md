@@ -22,7 +22,7 @@ Service management in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] has feat
   
  When you define a service, you can associate it with the skills required to perform the service. To help your service representatives be efficient, you can also set up real time troubleshooting guidelines and assign typical startup costs, such as travel costs or other fees.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

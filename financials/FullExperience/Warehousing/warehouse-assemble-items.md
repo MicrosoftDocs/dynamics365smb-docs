@@ -28,7 +28,7 @@ To support companies that supply products to their customers by combining compon
 
  Special functionality exists to govern the shipping of assemble-to-order quantities. When an assemble-to-order quantity is ready to be shipped, the warehouse worker in charge posts an inventory pick for the sales order line(s) in question. This, in turn, creates an inventory movement for the components, posts the assembly output, and the sales order shipment. For more information, see “Handling Assemble-to-Order Items in Inventory Picks” in Inventory Pick.  
 
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
 
 |**To**|**See**|  
 |------------|-------------|  

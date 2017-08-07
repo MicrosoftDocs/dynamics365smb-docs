@@ -31,7 +31,7 @@ It may be necessary to round invoice amounts when you create invoices. Local reg
 > [!NOTE]  
 >  In addition to the invoice rounding features, amounts on invoices can be rounded by the unit-amount rounding feature and the amount rounding feature. For more information, see [Set Up Currencies](../set-up-currencies.md).  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

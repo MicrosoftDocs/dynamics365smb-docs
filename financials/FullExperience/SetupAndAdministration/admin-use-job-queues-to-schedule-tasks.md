@@ -26,7 +26,7 @@ Job queues in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] enables users to
   
  In the **Job Queue Entries** window, you add information about the job queue entry that you want to schedule, such as a report or codeunit for the object type, the name and object ID of the object that you want to run, recurrence, priority, and status. You can also add parameters to specify the behavior of the job queue entry. For example, you can add a parameter to only send posted sales orders. You must have permission to run the particular report or codeunit, or an error will be returned when the job queue is run. Errors are listed in the **Job Queue Log Entries** window. You can also troubleshoot job queue errors. Data generated when a job queue is run is stored in the database.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

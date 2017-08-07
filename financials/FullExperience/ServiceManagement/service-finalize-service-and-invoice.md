@@ -20,7 +20,7 @@ Ease in invoicing your service orders is a key feature of [!INCLUDE[d365fin](../
   
  To create an invoice directly, you can use the **Service Contract** window. You can also set up your system so that a service technician in the field can create an invoice for service that is not connected to a contract or order.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

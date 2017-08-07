@@ -71,13 +71,13 @@ The main purpose of cost adjustment is to forward cost changes from cost sources
 -   Manually, by running the **Adjust Cost - Item Entries** batch job. You can run this batch job either for all items or for only certain items or item categories. This batch job runs a cost adjustment for the items in inventory for which an inbound transaction has been made, such as a purchase. For items that use the average costing method, the batch job also makes an adjustment if any outbound transactions are created.  
 -   Automatically, by adjusting costs every time that you post an inventory transaction, and when you finish a production order. The cost adjustment is only run for the specific item or items affected by the posting. This is set up when you select the **Automatic Cost Adjustment** check box in the **Inventory Setup** window.  
 
- It is good practice to run the cost adjustment automatically when you post because unit costs are more frequently updated and therefore more accurate. The disadvantage is that the performance of the database can be affected by running the cost adjustment so often.  
+It is good practice to run the cost adjustment automatically when you post because unit costs are more frequently updated and therefore more accurate. The disadvantage is that the performance of the database can be affected by running the cost adjustment so often.  
 
- Because it is important to keep the unit cost of an item up to date, it is recommend that you run the **Adjust Cost - Item Entries** batch job as often as possible, during nonworking hours. Alternatively, use automatic cost adjustment. This ensures that the unit cost is updated for items daily.  
+Because it is important to keep the unit cost of an item up to date, it is recommend that you run the **Adjust Cost - Item Entries** batch job as often as possible, during nonworking hours. Alternatively, use automatic cost adjustment. This ensures that the unit cost is updated for items daily.  
 
- Regardless if you run the cost adjustment manually or automatically, the adjustment process and its consequences are the same. [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates the value of the inbound transaction and forwards that cost to any outbound transactions, such as sales or consumptions, which have been applied to the inbound transaction. The cost adjustment creates value entries that contain adjustment amounts and amounts that compensate for rounding.  
+Regardless if you run the cost adjustment manually or automatically, the adjustment process and its consequences are the same. [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates the value of the inbound transaction and forwards that cost to any outbound transactions, such as sales or consumptions, which have been applied to the inbound transaction. The cost adjustment creates value entries that contain adjustment amounts and amounts that compensate for rounding.  
 
- The new adjustment and rounding value entries have the posting date of the related invoice. Exceptions are if the value entries fall in a closed accounting period or inventory period or if the posting date is earlier than the date in the **Allow Posting From** field in the **General Ledger Setup** window. If this occurs, the batch job assigns the posting date as the first date of the next open period.  
+The new adjustment and rounding value entries have the posting date of the related invoice. Exceptions are if the value entries fall in a closed accounting period or inventory period or if the posting date is earlier than the date in the **Allow Posting From** field in the **General Ledger Setup** window. If this occurs, the batch job assigns the posting date as the first date of the next open period.  
 
 ## Adjust Cost - Item Entries Batch Job  
  When you run the **Adjust Cost - Item Entries** batch job, you have the option to run the batch job for all items or for only certain items or categories.  
@@ -86,7 +86,7 @@ The main purpose of cost adjustment is to forward cost changes from cost sources
 >  We recommend that you always run the batch job for all items and only use the filtering option to reduce the runtime of the batch job, or to fix the cost of a certain item.  
 
 ### Example  
- The following example shows if you post a purchased item as received and invoiced on 01-01-20. You later post the sold item as shipped and invoiced on 01-15-20. Then, you run the **Adjust Cost - Item Entries** and **Post Inventory Cost to G/L** batch jobs. The following entries are created.  
+The following example shows if you post a purchased item as received and invoiced on 01-01-20. You later post the sold item as shipped and invoiced on 01-15-20. Then, you run the **Adjust Cost - Item Entries** and **Post Inventory Cost to G/L** batch jobs. The following entries are created.  
 
  **Value Entries**  
 
@@ -141,7 +141,7 @@ The main purpose of cost adjustment is to forward cost changes from cost sources
 |01-15-20|[COGS Account]|7290||2.00|8|  
 
 ## Automatic Cost Adjustment  
- To set up cost adjustment to run automatically when you post an inventory transaction, use the **Automatic Cost Adjustment** field in the **Inventory Setup** window. This field enables you to select how far back in time from the current work date that you want automatic cost adjustment to be performed. The following options exist.  
+To set up cost adjustment to run automatically when you post an inventory transaction, use the **Automatic Cost Adjustment** field in the **Inventory Setup** window. This field enables you to select how far back in time from the current work date that you want automatic cost adjustment to be performed. The following options exist.  
 
 |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](includes/bp_tabledescription_md.md)]-->|  
 |----------------------------------|---------------------------------------|  
@@ -153,23 +153,27 @@ The main purpose of cost adjustment is to forward cost changes from cost sources
 |Year|Costs are adjusted if posting occurs within one year from the work date.|  
 |Always|Costs are always adjusted when you post, regardless of the posting date.|  
 
- The selection that you make in the **Automatic Cost Adjustment** field is important for performance and the accuracy of your costs. Shorter time periods, such as **Day** or **Week**, affect system performance less, because they provide the stricter requirement that only costs posted in the last day or week can be automatically adjusted. This means that the automatic cost adjustment does not run as frequently and therefore affects system performance less. However, it also means that unit costs may be less accurate.  
+The selection that you make in the **Automatic Cost Adjustment** field is important for performance and the accuracy of your costs. Shorter time periods, such as **Day** or **Week**, affect system performance less, because they provide the stricter requirement that only costs posted in the last day or week can be automatically adjusted. This means that the automatic cost adjustment does not run as frequently and therefore affects system performance less. However, it also means that unit costs may be less accurate.  
 
 ### Example  
- The following example shows an automatic cost adjustment scenario:  
+The following example shows an automatic cost adjustment scenario:  
 
 -   On January 10, you post a purchased item as received and invoiced.  
--   On January 15, you post a sales order for the item as shipped and invoiced.  
+-   On January 15, you post a sales order for the item as shipped and invoiced.
 -   On February 5, you receive an invoice for a freight charge on the original purchase. You post this freight charge, applying it to the original purchase invoice, which increases the cost of the original purchase.  
 
- If you have set up the automatic cost adjustment to apply to postings that occur within a month or a quarter from the current work date, then the automatic cost adjustment runs and forwards the cost of the purchase to the sale.  
+If you have set up the automatic cost adjustment to apply to postings that occur within a month or a quarter from the current work date, then the automatic cost adjustment runs and forwards the cost of the purchase to the sale.  
 
- If you have set up the automatic cost adjustment to apply to postings that occur within a day or a week from the current work date, then the automatic cost adjustment does not run, and the cost of the purchase is not forwarded to the sale until you run the **Adjust Cost - Item Entries** batch job.  
+If you have set up the automatic cost adjustment to apply to postings that occur within a day or a week from the current work date, then the automatic cost adjustment does not run, and the cost of the purchase is not forwarded to the sale until you run the **Adjust Cost - Item Entries** batch job.  
 
-## See Also  
+## See Also
+ [How to: Adjust Item Costs](inventory-how-adjust-item-costs.md)   
  [Design Details: Inventory Costing](design-details-inventory-costing.md)   
  [Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md)   
  [Design Details: Inventory Posting](design-details-inventory-posting.md)   
  [Design Details: Variance](design-details-variance.md)   
  [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)   
  [Design Details: Production Order Posting](design-details-production-order-posting.md)
+ [Managing Inventory Costs](finance-manage-inventory-costs)  
+ [Finance](finance.md)  
+ [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md  

@@ -20,7 +20,7 @@
   
  As part of your business processes, you may also want to monitor your contracts and update and evaluate them. You can set up a system to keep track of contract status, and view how gain and loss information about your contracts is being posted.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

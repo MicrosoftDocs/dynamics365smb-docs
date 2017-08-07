@@ -30,7 +30,7 @@ If you have set up the VAT features correctly, VAT is calculated and posted auto
   
  You can use the **Calc. and Post VAT Settlement** batch job to close the VAT entries and transfer purchase and sales VAT amounts to the VAT settlement account.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

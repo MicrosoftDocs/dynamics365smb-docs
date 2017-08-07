@@ -33,7 +33,7 @@ You can configure ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md
   
  A couple of permission sets in the ADD INCLUDE<!--[!INCLUDE[demo](../../includes/demo_md.md)]--> demonstration database are adapted to support the FOUNDATION permission set for demonstration purposes. You can use those permission sets to try out how UI elements are removed for a user performing the task to create and edit a new customer.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

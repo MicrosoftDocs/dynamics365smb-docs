@@ -24,7 +24,7 @@ Companies in the European Union (EU) must report the extent of their trade with 
   
  You can export the completed entries to a file that can be sent to the Intrastat authorities, or you can print a report and enter the information on the forms from the Intrastat authorities manually.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

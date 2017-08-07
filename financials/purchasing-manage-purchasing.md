@@ -26,7 +26,7 @@ Products can be both inventory items and services. For more information, see [Ho
 
 For all purchase processes, you can incorporate an approval workflow, for example, to require that large purchases are approved by the accounting manager. For more information, see [Using Approval Workflows](across-how-use-approval-workflows.md).
 
-The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.
+The following table describes a sequence of tasks, with links to the topics that describe them. 
 
 | To | See |
 | --- | --- |

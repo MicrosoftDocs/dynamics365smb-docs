@@ -1,6 +1,6 @@
 ---
     title: Set Up Inventory Valuation and Costing | Microsoft Docs
-    description: The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.
+    description: The following table describes a sequence of tasks, with links to the topics that describe them.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -29,10 +29,11 @@ The following table describes a sequence of tasks, with links to the topics that
 |Define if the average cost is to be calculated per item only or per item for each stockkeping unit and for each variant of the item.|**Average Cost Calc. Type** field in the **Inventory Setup** window|  
 |Select the period of time you would like the program to use for calculating the weighted average cost of items that use the average costing method.|**Average Cost Period** field in the **Inventory Setup** window|  
 |Define inventory periods to control inventory value over time by disallowing transaction posting in closed inventory periods.|[How to: Work with Inventory Periods](finance-how-to-work-with-inventory-periods.md)|  
-|Ensure that sales returns are applied to the original outbound transaction to preserve inventory value.|**Exact Cost Reversing Mandatory** field in the **Sales & Receivables** and **Purchases & Payables** window|  
-|Ensure that purchase returns are applied to the original inbound transaction to preserve inventory value.**Exact Cost Reversing Mandatory** field in the **´Purchases & Payables** window|
+|Ensure that sales returns are applied to the original outbound transaction to preserve inventory value.|**Exact Cost Reversing Mandatory** field in the **Sales & Receivables** window|  
+|Ensure that purchase returns are applied to the original inbound transaction to preserve inventory value.|**Exact Cost Reversing Mandatory** field in the **´Purchases & Payables** window|
 |Set up the rounding rules to apply when adjusting or suggesting item prices and when adjusting or suggesting standard costs.|**Rounding Method** window|  
 
 ## See Also  
 [Managing Inventory Costs](finance-manage-inventory-costs.md)  
-[Working with Financials](ui-work-product.md)
+[Working with Financials](ui-work-product.md)  
+[Finance](finance.md)  

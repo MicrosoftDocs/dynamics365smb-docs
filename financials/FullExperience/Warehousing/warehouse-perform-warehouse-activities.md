@@ -22,7 +22,7 @@ Warehouse activities are defined as the tasks involved in handling items that ex
   
  An in-warehouse activity that is common in whole sale is to pick, assemble, and pack inventory items in kits just before selling the kit, or, alternatively, assembling kits to stock.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

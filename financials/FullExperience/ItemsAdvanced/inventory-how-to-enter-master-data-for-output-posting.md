@@ -20,7 +20,7 @@ To post work progress automatically, you must assign a flushing method to the ma
   
 ### To enter master data for output posting  
   
-1.  In the **Search** box, enter **Machine Centers**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Machine Centers**, and then choose the related link.  
   
 2.  Open the relevant machine center card from the list.  
   

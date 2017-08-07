@@ -21,19 +21,19 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use reverse charge
 
 ### To reverse charges on VAT  
 
-1.  In the **Search** box, enter **VAT Business Posting Groups**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Business Posting Groups**, and then choose the related link.  
 
 2.  Create a new VAT business posting group. Set up the needed VAT product posting groups.  
 
-3.  In the **Search** box, enter **General Ledger Setup**, and then choose the related link.  
+3.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Setup**, and then choose the related link.  
 
 4.  On the **Reverse Charge** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]  
 
-5.  In the **Search** box, enter **Sales & Receivables Setup**, and then choose the related link.  
+5.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales & Receivables Setup**, and then choose the related link.  
 
 6.  On the **Reverse Charge** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]  
 
-7.  In the **Search** box, enter **Purchases & Payables Setup** and then choose the related link.  
+7.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchases & Payables Setup** and then choose the related link.  
 
 6.  On the **Reverse Charge** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]  
 

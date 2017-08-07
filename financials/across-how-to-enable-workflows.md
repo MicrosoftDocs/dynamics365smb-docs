@@ -22,7 +22,7 @@ When you have created a workflow and you are sure that it is ready to start, you
   
 ### To enable a workflow  
   
-1.  In the **Search** box, enter **Workflows**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Workflows**, and then choose the related link.  
   
 2.  Open the workflow that you want to enable.  
   

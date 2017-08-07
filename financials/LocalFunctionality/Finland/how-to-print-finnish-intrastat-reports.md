@@ -22,7 +22,7 @@ Companies in the European Union (EU) must report the extent of their trade with 
   
 ### To print a Finnish Intrastat report  
   
-1.  In the **Search** box, enter **Intrastat Journal**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat Journal**, and then choose the related link.  
   
 2.  Enter the batch name for the Intrastat report.  
   

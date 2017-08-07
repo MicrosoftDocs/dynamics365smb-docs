@@ -22,7 +22,7 @@ You can use cause of inactivity codes to define various reasons for employee ina
   
 ### To assign a cause of inactivity code to an employee  
   
-1.  In the **Search** box, enter **Employees**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Employees**, and then choose the related link.  
   
 2.  Open the relevant employee card.  
   

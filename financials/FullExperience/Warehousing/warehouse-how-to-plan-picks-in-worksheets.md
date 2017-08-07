@@ -36,7 +36,7 @@ If your warehouse is set up to require both pick and shipment processing, the wa
   
 ### To plan picks in the worksheet  
   
-1.  In the **Search** box, enter **Pick Worksheet**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Pick Worksheet**, and then choose the related link.  
   
 2.  On the **Actions** tab, in the **Functions** group, choose **Get Whse. Documents**.  
   
@@ -44,7 +44,7 @@ If your warehouse is set up to require both pick and shipment processing, the wa
   
 4.  On the **Actions** tab, in the **Functions** group, choose **Create Pick**, and fill in the **Create Pick** request window. The sorting you request here will order the pick lines you create. For example, you can create one pick for each zone and sort the lines by bin ranking within each pick.  
   
-5.  In the **Search** box, enter **Picks**, and then choose the related link. The **Picks** window opens.  
+5.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Picks**, and then choose the related link. The **Picks** window opens.  
   
 6.  You can now find the pick assignment you just created by selecting the pick with the highest number.  
   

@@ -20,7 +20,7 @@ When you register a service item line in a service order or quote, the response 
   
 ### To change the response time for a service item line  
   
-1.  In the **Search** box, enter **Service Orders** or **Service Quotes**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Orders** or **Service Quotes**, and then choose the related link.  
   
 2.  Select the relevant service order or quote. On the **Home** tab, in the **Manage** group, choose **Service Order** or **Service Quote**. The window for that particular service order or service quote opens.  
   

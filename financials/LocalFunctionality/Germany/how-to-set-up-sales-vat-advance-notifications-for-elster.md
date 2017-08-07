@@ -30,7 +30,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], to submit valid sales VAT 
   
 ### To set up company information  
   
-1.  In the **Search** box, enter **Company Information**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.  
   
 2.  In the **Company Information** window, on the **General** FastTab, in the **VAT Representative** field, enter the contact person for VAT related information.  
   
@@ -90,7 +90,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], to submit valid sales VAT 
   
 ### To set up a VAT statement for sales VAT advance notifications  
   
-1.  In the **Search** box, enter **VAT Statement**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Statement**, and then choose the related link.  
   
 2.  In the **VAT Statement** window, in the **Name** field, choose the drop-down arrow.  
   

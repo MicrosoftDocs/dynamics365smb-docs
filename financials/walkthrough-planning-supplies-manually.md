@@ -70,7 +70,7 @@ This walkthrough demonstrates the process of planning supply orders to fulfill n
   
 #### To use the Order Planning window  
   
-1.  In the **Search** box, enter **Order Planning**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Order Planning**, and then choose the related link.  
   
      When the **Order Planning** window first opens, a plan must be calculated to show the new demand since it was last calculated.  
   
@@ -252,7 +252,7 @@ This walkthrough demonstrates the process of planning supply orders to fulfill n
   
      The message indicates that all required items are now supplied. Verify the firm planned production orders that are created.  
   
-13. In the **Search** box, enter **Firm Planned Prod. Orders**, and then choose the related link.  
+13. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Firm Planned Prod. Orders**, and then choose the related link.  
   
      In the **Firm Planned Prod. Orders** window review how start times and end times of individual orders are scheduled according to the product structure. The lowest-level components are produced first. Therefore, you must plan multilevel orders as demonstrated in this planning workflow.  
   

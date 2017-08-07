@@ -32,7 +32,7 @@ Occasionally, you may need to update a custom report layout that is used on a re
   
 ### To update a specific custom report layout  
   
-1.  In the **Search** box, enter **Report Layouts**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Report Layouts**, and then choose the related link.  
   
 2.  In the **Report Layouts** window, select the layout that you want to update, and then on the **Actions** tab, choose **Update Layout**.  
   
@@ -40,7 +40,7 @@ Occasionally, you may need to update a custom report layout that is used on a re
   
 ### To update all custom report layouts for the company  
   
-1.  In the **Search** box, enter **Report Layout Selection**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Report Layout Selection**, and then choose the related link.  
   
 2.  In the **Report Layout Selection** window, on the Actions tab, choose Update All Layouts.  
   
@@ -48,7 +48,7 @@ Occasionally, you may need to update a custom report layout that is used on a re
   
 ### To test custom report layout updates  
   
-1.  In the **Search** box, enter **Report Layout Selection**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Report Layout Selection**, and then choose the related link.  
   
 2.  In the **Report Layout Selection** window, on the **Actions** tab, choose **Test Layout Updates**.  
   

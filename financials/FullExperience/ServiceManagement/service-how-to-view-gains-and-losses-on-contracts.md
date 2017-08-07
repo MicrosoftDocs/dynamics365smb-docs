@@ -30,7 +30,7 @@ A contract gain or loss entry is generated whenever a contract quote is converte
   
 ### To view contract gain/loss  
   
-1.  In the **Search** box, enter **Contract Gain/Loss**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Contract Gain/Loss**, and then choose the related link.  
   
 2.  Fill in the filter criteria you want to apply. For example, in the **Contract Gain/Loss (Reasons)** window, select a value for **Reason Code Filter**.  
   

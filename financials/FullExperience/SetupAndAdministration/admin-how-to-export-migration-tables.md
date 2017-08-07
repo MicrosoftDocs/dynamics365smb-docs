@@ -20,7 +20,7 @@ After you have determined the tables for which you want to transfer customer dat
   
 ### To export data migration files  
   
-1.  In the **Search** box, enter **Configuration Packages**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Packages**, and then choose the related link.  
   
 2.  Select and open the package that you want to use for export. Select the table or tables that you want to export.  
   

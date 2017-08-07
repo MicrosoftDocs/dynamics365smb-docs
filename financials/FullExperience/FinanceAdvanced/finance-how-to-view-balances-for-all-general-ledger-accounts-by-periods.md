@@ -20,7 +20,7 @@ You can view balances for all general ledger accounts for all periods.
   
 ### To view balances for all general ledger accounts by periods  
   
-1.  In the **Search** box, enter **Chart of Accounts**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Chart of Accounts**, and then choose the related link.  
   
 2.  In the **Chart of Accounts** window, on the **Navigate** tab, in the **Balance** group, choose **G/L Balance by Dimension**.  
   

@@ -20,7 +20,7 @@ If you have not set up a job queue to send email messages to customers or a mess
   
 ### To send an email message manually  
   
-1.  In the **Search** box, enter **View E-Mail Queue**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **View E-Mail Queue**, and then choose the related link.  
   
 2.  Choose the relevant line for which the status is other than **Processed**.  
   

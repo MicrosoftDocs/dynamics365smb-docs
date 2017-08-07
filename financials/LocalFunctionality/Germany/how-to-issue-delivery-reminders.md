@@ -22,7 +22,7 @@ After you have created delivery reminders, you must issue and print them so that
   
 ### To issue delivery reminders  
   
-1.  In the **Search** box, enter **Delivery Reminder**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Delivery Reminder**, and then choose the related link.  
   
 2.  In the **Delivery Reminder** window, select the delivery reminder that you want to issue, and then, on the **Home** tab, in the **Manage** group, choose **Edit**.  
   
@@ -47,7 +47,7 @@ After you have created delivery reminders, you must issue and print them so that
   
 ### To view delivery reminder ledger entries  
   
-1.  In the **Search** box, enter **Purchase Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Orders**, and then choose the related link.  
   
 2.  Select the purchase order for which you want to view the reminder status, and then, on the **Home** tab, in the **Manage** group, choose **Edit**.  
   

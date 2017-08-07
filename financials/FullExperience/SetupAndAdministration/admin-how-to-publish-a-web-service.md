@@ -27,7 +27,7 @@ Web services are a lightweight way to make application functionality available t
 
 1.  Open the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/nav_web_md.md)]-->.  
 
-2.  In the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/nav_windows_md.md)]-->, in the **Search** box, enter **Web Services**, and then choose the related link.  
+2.  In the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/nav_windows_md.md)]-->, Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Web Services**, and then choose the related link.  
 
      In the ADD INCLUDE<!--[!INCLUDE[nav_web](../../includes/nav_web_md.md)]-->, choose the **Search for Page or Report** button, enter **Web Services**, and then choose the related link.  
 

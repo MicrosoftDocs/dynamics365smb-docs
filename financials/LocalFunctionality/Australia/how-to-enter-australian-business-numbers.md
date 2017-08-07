@@ -26,7 +26,7 @@ You can enter an Australian Business Number (ABN) in the following windows:
   
 ### To enter Australian business numbers  
   
-1.  In the **Search** box, enter **Company Information** or **Vendors**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information** or **Vendors**, and then choose the related link.  
   
 2.  Select the required company or vendor.  
   

@@ -22,7 +22,7 @@ You can use the **CBG Posting - Test** report to edit the statement lines and se
   
 ### To print the test report for cash journal  
   
-1.  In the **Search** box, enter **Cash Journal**, and then select the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Journal**, and then select the related link.  
   
 2.  In the **Cash Journal** window, on the **Actions** tab, choose **Test Report**.  
   
@@ -38,7 +38,7 @@ You can use the **CBG Posting - Test** report to edit the statement lines and se
   
 ### To print the test report for bank or giro journal  
   
-1.  In the **Search** box, enter **Bank/Giro Journal**, and then select the related link  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank/Giro Journal**, and then select the related link  
   
 2.  Expand **Financial Management**, and then click **General Ledger**.  
   

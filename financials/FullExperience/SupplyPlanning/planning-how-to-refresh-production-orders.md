@@ -29,7 +29,7 @@ This planning function calculates changes made to a production order header and 
   
 ### To refresh a production order  
   
-1.  In the **Search** box, enter **Planned Production Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Planned Production Orders**, and then choose the related link.  
   
 2.  Create a new production order or open one that you want to refresh and change the **Quantity** or **Due Date** fields.  
   

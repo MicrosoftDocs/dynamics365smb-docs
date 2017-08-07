@@ -20,7 +20,7 @@ For a remittance error, the error code from the bank and an explanation of the e
   
 ### To view error codes  
   
-1.  In the **Search** box, enter **Return Error**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Return Error**, and then choose the related link.  
   
 2.  In the **Return Error** window, fill in the fields as described in the following table.  
   

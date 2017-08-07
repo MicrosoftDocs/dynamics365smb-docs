@@ -22,7 +22,7 @@ You can view entries that have been posted with withholding tax (WHT) for a spec
   
 ### To view withholding tax entries  
   
-1.  In the **Search** box, enter **G/L Registers**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Registers**, and then choose the related link.  
   
 2.  Select the general ledger register for which you want to view WHT entries, and then, on the **Navigate** tab, choose **WHT Entry**.  
   

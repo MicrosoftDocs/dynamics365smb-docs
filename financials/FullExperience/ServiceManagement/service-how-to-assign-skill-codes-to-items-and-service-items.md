@@ -22,7 +22,7 @@ Servicing some service items may require specific skills. If this is the case, y
   
 ### To assign a skill code to an item  
   
-1.  In the **Search** box, enter **Items**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
   
 2.  Select the item you want to assign a skill code to.  
   
@@ -34,7 +34,7 @@ Servicing some service items may require specific skills. If this is the case, y
   
 ### To assign a skill code to a service item  
   
-1.  In the **Search** box, enter **Service Items**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Items**, and then choose the related link.  
   
 2.  Select the service item you want to assign a skill code to.  
   

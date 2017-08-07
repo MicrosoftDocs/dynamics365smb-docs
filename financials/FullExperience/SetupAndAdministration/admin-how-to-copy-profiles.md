@@ -20,7 +20,7 @@ Use the **Copy Profile** window when you want to create a copy of an existing pr
   
 ### To copy a profile  
   
-1.  In the **Search** box, enter **Profiles**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Profiles**, and then choose the related link.  
   
 2.  On the **Actions** tab, in the **Functions** group, choose **Copy Profile**.  
   

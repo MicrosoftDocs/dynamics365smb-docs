@@ -22,7 +22,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the print chec
   
 ### To print checks  
   
-1.  In the **Search** box, enter **Payment Journals**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.  
   
 2.  In the **Payment Journal** window, fill in the payment journal lines. Either enter the lines manually or on the **Navigate** tab, in the **Payments** groups, choose **Suggest Vendor Payments**. For more information, see [How to: Generate Electronic Payments](how-to-generate-electronic-payments.md).  
   

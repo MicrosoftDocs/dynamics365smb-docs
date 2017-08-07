@@ -20,7 +20,7 @@ Before you can run the **Close Income Statement** batch job, you must close the 
   
 ### To close the income statement accounts  
   
-1.  In the **Search** box, enter **Close Income Statement**, and then choose the relevant link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Close Income Statement**, and then choose the relevant link.  
   
 2.  In the **Close Income Statement** window, on the **Options** FastTab, specify the conditions of the batch job.  
   
@@ -28,7 +28,7 @@ Before you can run the **Close Income Statement** batch job, you must close the 
   
      When the batch job is finished, you must close the accounts.  
   
-4.  In the **Search** box, enter **General Journals**, and then choose the relevant link.  
+4.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journals**, and then choose the relevant link.  
   
 5.  Select the general journal that contains the closing entries.  
   

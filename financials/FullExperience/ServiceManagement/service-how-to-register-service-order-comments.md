@@ -20,7 +20,7 @@ You can use the **Service Comments** window to register comments on service orde
   
 ### To register a service order comment  
   
-1.  In the **Search** box, enter **Service Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Orders**, and then choose the related link.  
   
 2.  Open the relevant service order.  
   

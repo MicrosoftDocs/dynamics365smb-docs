@@ -20,7 +20,7 @@ Reclassifying item tracking for an item means changing a lot or serial number to
   
 ### To reclassify item tracking  
   
-1.  In the **Search** box, enter **Item Reclass. Journal**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Reclass. Journal**, and then choose the related link.  
   
 2.  Fill in the line with the relevant information. On the **Navigate** tab, in the **Line** group, choose **Item Tracking Lines**.  
   

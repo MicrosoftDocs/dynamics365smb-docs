@@ -22,7 +22,7 @@ You can either create a new tax register section or select a tax register sectio
   
 ### To set up a tax register  
   
-1.  In the **Search** box, enter **Tax Registers**, and choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Tax Registers**, and choose the related link.  
   
 2.  In the **Tax Registers Sections** window, choose **New**.  
   

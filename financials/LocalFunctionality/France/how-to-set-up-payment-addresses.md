@@ -22,7 +22,7 @@ To use payment management, you must set up payment addresses that will be used f
   
 ### To set up a payment address  
   
-1.  In the **Search** box, enter **Vendors**, and then choose the relevant link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the relevant link.  
   
 2.  Select a vendor, and then, on the **Home** tab , in the **Manage** group, choose **Edit**.  
   

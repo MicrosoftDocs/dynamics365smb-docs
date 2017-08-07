@@ -22,7 +22,7 @@ When you sell goods to a customer in another EU country/region, you can print a 
   
 ### To enable the creation of a certificate of supply in VAT posting  
   
-1.  In the **Search** box, enter **VAT Posting Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Posting Setup**, and then choose the related link.  
   
 2.  In the **VAT Posting Setup** window, choose the relevant line, and then on the **Home** tab, in the **Manage** group, choose **Edit**.  
   
@@ -38,7 +38,7 @@ When you sell goods to a customer in another EU country/region, you can print a 
   
      If the VAT Posting Group setup does not have the **Certificate of Supply Required** check box selected, then a record is created and the field is set to **Not Applicable**. A certificate is created.  
   
-3.  Verify that the certificate has been created. In the **Search** box, enter **Certificates of Supply** and choose the related link.  
+3.  Verify that the certificate has been created. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Certificates of Supply** and choose the related link.  
   
      The **Certificates of Supply** window opens, which provides a list of all available certificates that have a status of **Required**, **Received**, or **Not Received**.  
   

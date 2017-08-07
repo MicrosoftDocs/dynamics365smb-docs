@@ -20,7 +20,7 @@ If the flushing method is **Manual**, you must post the components manually, usi
   
 ### To post consumption manually  
   
-1.  In the **Search** box, enter **Consumption Journal**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Consumption Journal**, and then choose the related link.  
   
 2.  Fill in the fields with the production order data and the consumption data.  
   

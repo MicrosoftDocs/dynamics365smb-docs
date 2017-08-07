@@ -30,7 +30,7 @@ Inventory periods define a period of time in which you can post changes to inven
 
 #### To create an inventory period  
 
-1.  In the **Search** box, enter **Inventory Periods**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Inventory Periods**, and then choose the related link.  
 
 2.  Create a new line.  
 
@@ -74,7 +74,7 @@ Inventory periods define a period of time in which you can post changes to inven
 
 #### To reopen an inventory period  
 
-1.  In the **Search** box, enter **Inventory Periods**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Inventory Periods**, and then choose the related link.  
 
 2.  Select the inventory period you would like to reopen.  
 

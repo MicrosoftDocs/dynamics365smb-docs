@@ -20,7 +20,7 @@ You can use the **Loaner Card** window to set up loaners that you can lend to cu
   
 ### To set up a loaner  
   
-1.  In the **Search** box, enter **Loaners**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Loaners**, and then choose the related link.  
   
 2.  Create a new loaner card. On the **Home** tab, in the **New** group, choose **New**.  
   

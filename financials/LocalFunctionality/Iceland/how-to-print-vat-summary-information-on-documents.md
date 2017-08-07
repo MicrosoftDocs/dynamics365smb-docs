@@ -22,7 +22,7 @@ If VAT is calculated, VAT summary information is typically printed on sales and 
   
 ### To show VAT summary information  
   
-1.  In the **Search** box, enter **Posted Sales Invoices**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Sales Invoices**, and then choose the related link.  
   
 2.  In the list, select the relevant document, and on the **Actions** tab, choose **Print**.  
   

@@ -28,7 +28,7 @@ If the **Assembly Policy** field on the item card of an assembly item is **Assem
   
 ### To sell an item that is assembled to order  
   
-1.  In the **Search** box, enter **Sales Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.  
   
 2.  Create a sales order. For more information, see [How to: Create Sales Orders Manually](../how-to-create-sales-orders-manually.md).  
   

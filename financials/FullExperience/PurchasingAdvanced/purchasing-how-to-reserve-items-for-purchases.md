@@ -20,7 +20,7 @@ You can reserve items for purchase orders. Before you can do this, you must have
   
 ### To reserve an item for a purchase  
   
-1.  In the **Search** box, enter **Purchase Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Orders**, and then choose the related link.  
   
 2.  From a purchase order, select the line you want to reserve the items from.  
   

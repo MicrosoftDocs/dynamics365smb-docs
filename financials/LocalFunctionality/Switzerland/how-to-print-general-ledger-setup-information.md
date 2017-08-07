@@ -20,7 +20,7 @@ Before you use [!INCLUDE[d365fin](../../includes/d365fin_md.md)] in the daily bu
   
 ### To print general ledger setup information  
   
-1.  In the **Search** box, enter **G/L Setup Information**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Setup Information**, and then choose the related link.  
   
 2.  On the **Options** FastTab, in the **Setup Information** field, select the master data area as described in the following table.  
   

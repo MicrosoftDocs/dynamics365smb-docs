@@ -30,7 +30,7 @@ Assembly BOMs specify which components or resources are required to assemble the
   
 ### To create an assembly BOM  
   
-1.  In the **Search** box, enter **Items**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
   
 2.  Create a new item. On the **Home** tab, in the **New** group, choose **New**. Fill in the required fields on the item card. For more information, see [How to: Register New Products](../how-to-register-new-products.md).  
   

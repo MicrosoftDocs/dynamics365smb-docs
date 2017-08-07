@@ -29,7 +29,7 @@ If you have taxable sales in a foreign currency, you must use the official rate 
   
 ### To adjust an exchange rate  
   
-1.  In the **Search** box, enter **Currencies**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Currencies**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **Exchange Rate** group, choose **Exch. Rates**.  
   
@@ -37,7 +37,7 @@ If you have taxable sales in a foreign currency, you must use the official rate 
   
 4.  Choose the **OK** button.  
   
-5.  In the **Search** box, enter **Adjust Exchange Rates**, and then choose the related link.  
+5.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Adjust Exchange Rates**, and then choose the related link.  
   
 6.  On the **Options** FastTab, fill in the fields as described in the following table.   
   

@@ -20,7 +20,7 @@ You can use the **Resolution Codes** window to set up resolution codes to identi
   
 ### To set up a resolution code  
   
-1.  In the **Search** box, enter **Resolution Codes**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Resolution Codes**, and then choose the related link.  
   
 2.  Create a new resolution code. On the **Home** tab, in the **New** group, choose **New**.  
   

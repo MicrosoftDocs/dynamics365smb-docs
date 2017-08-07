@@ -20,7 +20,7 @@ After you create a recurring group, you can set up recurring orders on the blank
   
 ### To set up a recurring order  
   
-1.  In the **Search** box, enter **Blanket Sales Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Blanket Sales Orders**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **New** group, choose **New**.  
   

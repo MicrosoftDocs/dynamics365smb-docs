@@ -22,7 +22,7 @@ You use miniforms to describe the information that you want to present on a hand
   
 ### To create a miniform for ADCS  
   
-1.  In the **Search** box, enter **ADCS**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **ADCS**, and then choose the related link.  
   
 2.  Choose **Miniforms**. The **Miniforms** window opens. On the **Home** tab, in the **New** group, choose **New**.  
   
@@ -51,7 +51,7 @@ You use miniforms to describe the information that you want to present on a hand
   
 ### To customize miniform functions  
   
-1.  In the **Search** box, enter **Miniforms**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Miniforms**, and then choose the related link.  
   
 2.  Select a miniform from the list. On the **Home** tab, in the **Manage** group, choose **Edit**.  
   

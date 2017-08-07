@@ -20,7 +20,7 @@ The **VAT Reconciliation** report shows the reconciliation settlement for the ba
   
 ### To print the VAT reconciliation report  
   
-1.  In the **Search** box, enter **VAT Reconciliation**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Reconciliation**, and then choose the related link.  
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   

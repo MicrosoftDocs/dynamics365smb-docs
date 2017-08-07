@@ -28,7 +28,7 @@ You may need to change the owner of a service contract. If a service item in a s
   
 ### To change the owner of a service contract  
   
-1.  In the **Search** box, enter **Service Contracts**, and then choose the related link. Open the relevant service contract whose owner you want to change.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Contracts**, and then choose the related link. Open the relevant service contract whose owner you want to change.  
   
 2.  On the **Actions** tab, in the **Functions** group, choose **Open Contract** to open the contract for editing.  
   

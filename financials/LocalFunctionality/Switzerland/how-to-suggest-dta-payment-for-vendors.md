@@ -22,7 +22,7 @@ You can suggest vendor payments using the payment journal, and transfer the over
   
 ### To suggest DTA payment for vendors  
   
-1.  In the **Search** box, enter **Payment Journals**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.  
   
 2.  In the **Batch Name** field, select the required journal batch.  
   

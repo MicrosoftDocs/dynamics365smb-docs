@@ -18,7 +18,7 @@ You can add VAT setup information to journal lines if needed. If you enter items
 
 ### To change VAT setup in journals  
 
-1.  In the **Search** box, enter **General Journals**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journals**, and then choose the related link.  
 
 2.  In the **General Journal** window, choose the **AssistEdit** button in the **Batch Name** field.  
 

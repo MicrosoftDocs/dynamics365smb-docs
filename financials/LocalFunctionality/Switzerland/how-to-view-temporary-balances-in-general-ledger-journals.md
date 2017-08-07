@@ -22,7 +22,7 @@ When you enter a new transaction in the general journal, you can view temporary 
   
 ### To view temporary balances in general ledger journals  
   
-1.  In the **Search** box, enter **General Journals**, and choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journals**, and choose the related link.  
   
 2.  Select the required general journal entry. On the **Home** tab, in the **Process** group, and choose **Balance**.  
   

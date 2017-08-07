@@ -22,7 +22,7 @@ You use the **Profile** card to create profiles for end users. Each profile is a
   
 #### To create a profile  
   
-1.  In the **Search** box, enter **Profiles**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Profiles**, and then choose the related link.  
   
 2.  In the ribbon, click **New** to open the **New Profile Card** window.  
   

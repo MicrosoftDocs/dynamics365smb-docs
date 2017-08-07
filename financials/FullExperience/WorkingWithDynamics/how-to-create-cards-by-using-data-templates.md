@@ -22,7 +22,7 @@ Cards hold master data that represent business accounts such as items, vendors, 
   
 ### To create a card using a data template  
   
-1.  In the **Search** box, enter **Items**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
   
 2.  On the **Home** tab, choose **New** to create a new empty item card.  
   

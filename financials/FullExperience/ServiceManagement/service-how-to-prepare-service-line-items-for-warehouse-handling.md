@@ -26,7 +26,7 @@ Service lines, like other outbound document lines, such as on sales, outbound tr
   
 ### To prepare service line items for shipment  
   
-1.  In the **Search** box, enter **Service Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Orders**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **Warehouse** group, choose **Release to Ship**. The **Release Status** field on the service order header changes to **Released to Ship**. A warehouse request now exists that allows the relevant warehouse activity document to be pushed or pulled for the service order.  
   

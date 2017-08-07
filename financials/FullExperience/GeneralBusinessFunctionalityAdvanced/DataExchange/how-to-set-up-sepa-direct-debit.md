@@ -33,7 +33,7 @@ From the **Direct Debit Collections** window, you can export instructions to you
   
 ### To set up your bank account for SEPA direct debit  
   
-1.  In the **Search** box, enter **Bank Accounts**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.  
   
 2.  Open the bank account that you want to use for direct debit.  
   
@@ -41,7 +41,7 @@ From the **Direct Debit Collections** window, you can export instructions to you
   
 ### To set up the customer’s payment method for SEPA direct debit  
   
-1.  In the **Search** box, enter **Payment Methods**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Methods**, and then choose the related link.  
   
 2.  In the **Payment Methods** window, on the **Home** tab, in the **New** group, choose **New**.  
   
@@ -57,7 +57,7 @@ From the **Direct Debit Collections** window, you can export instructions to you
   
 4.  Choose the **OK** button to close the **Payment Methods** window.  
   
-5.  In the **Search** box, enter **Customers**, and then choose the related link.  
+5.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.  
   
 6.  Open the customer card for the customer that you want to set up for SEPA direct debit collection.  
   
@@ -67,7 +67,7 @@ From the **Direct Debit Collections** window, you can export instructions to you
   
 #### To set up the direct-debit mandate that represents the customer agreement  
   
-1.  In the **Search** box, enter **Customers**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.  
   
 2.  Open the card for the customer that you want to set up for SEPA direct debits.  
   

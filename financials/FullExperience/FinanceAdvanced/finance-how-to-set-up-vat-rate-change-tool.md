@@ -20,7 +20,7 @@ This topic describes how you set up the VAT rate change tool and corresponding n
   
 ### To set up the VAT rate change tool  
   
-1.  In the **Search** box, enter **VAT Rate Change Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Rate Change Setup**, and then choose the related link.  
   
 2.  On the **Master Data**, **Journals**, and **Documents** FastTabs, select a posting group value from the option list for needed fields.  
   
@@ -37,7 +37,7 @@ This topic describes how you set up the VAT rate change tool and corresponding n
   
 ### To set up product posting group conversion  
   
-1.  In the **Search** box, enter **VAT Rate Change Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Rate Change Setup**, and then choose the related link.  
   
 2.  In the **VAT Rate Change Setup** window, on the **Home** tab, in the **Process** group, choose either **VAT Prod. Posting Group Conv.** or **Gen Prod. Posting Group Conv.**.  
   

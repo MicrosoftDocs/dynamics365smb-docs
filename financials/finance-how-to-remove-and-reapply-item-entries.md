@@ -23,7 +23,7 @@ You can view and manually change certain item application entries that are creat
   
 ### To remove an item application by using the Application Worksheet  
   
-1.  In the **Search** box, enter **Application Worksheet**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Application Worksheet**, and then choose the related link.  
   
 2.  The **Application Worksheet** window opens displaying existing item ledger entries for all items.  
   
@@ -46,7 +46,7 @@ You can view and manually change certain item application entries that are creat
   
 ### To reapply an item application by using the Application Worksheet  
   
-1.  In the **Search** box, enter **Application Worksheet**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Application Worksheet**, and then choose the related link.  
   
 2.  The **Application Worksheet** window opens displaying existing item ledger entries for all items.  
   

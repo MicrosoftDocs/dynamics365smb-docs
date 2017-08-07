@@ -20,7 +20,7 @@ To be able to see the most common methods of repair for particular item faults w
   
 ### To insert fault/resolution codes relationships  
   
-1.  In the **Search** box, enter **Insert Fault/Resol. Codes Relationships**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insert Fault/Resol. Codes Relationships**, and then choose the related link.  
   
 2.  In the **From Date** field, enter the starting date of the period you want to include in the batch job.  
   

@@ -24,7 +24,7 @@ You can make corrections to already posted VAT entries and change the total sale
   
 ### To correct VAT  
   
-1.  In the **Search** box, enter **General Journal**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journal**, and then choose the related link.  
   
 2.  In the **General Journal** window, fill in a journal line for the correction. Enter the corrective amount in the **Amount** field. Note that the **VAT Base Amount** field remains 0.00.  
   

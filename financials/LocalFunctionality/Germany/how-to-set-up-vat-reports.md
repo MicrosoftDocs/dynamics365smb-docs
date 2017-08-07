@@ -20,7 +20,7 @@ Information from various invoice types is used to feed data into the EU Sales Li
   
 ### To set up a VAT report  
   
-1.  In the **Search** box, enter **VAT Report Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Report Setup**, and then choose the related link.  
   
 2.  On the **General** FastTab, select the **Modify Submitted Reports** check box to let users modify VAT reports that have been submitted to the tax authorities.  
   

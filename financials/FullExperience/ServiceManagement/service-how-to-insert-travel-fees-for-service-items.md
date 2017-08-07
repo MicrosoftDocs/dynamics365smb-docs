@@ -22,7 +22,7 @@ When working on service items in service orders, you may need to register travel
   
 ### To insert a travel fee for a service item  
   
-1.  In the **Search** box, enter **Service Tasks**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Tasks**, and then choose the related link.  
   
 2.  Select the line that includes the relevant service item. On the **Navigate** tab, in the **Service Tasks** group, choose **Item Worksheet**.  
   

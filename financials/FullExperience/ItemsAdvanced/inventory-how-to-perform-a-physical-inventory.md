@@ -31,7 +31,7 @@ You must take a physical inventory, that is, count the actual items on hand, to 
   
 ### To calculate the expected inventory  
   
-1.  In the **Search** box, enter **Phys. Inventory Journal**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Phys. Inventory Journal**, and then choose the related link.  
   
 2.  On the **Actions** tab, in the **Functions** group, choose **Calculate Inventory**.  
   
@@ -60,7 +60,7 @@ You must take a physical inventory, that is, count the actual items on hand, to 
   
 ### To enter and post the actual counted inventory  
   
-1.  In the **Search** box, enter **Phys. Inventory Journal**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Phys. Inventory Journal**, and then choose the related link.  
   
 2.  On each line where the actual inventory on hand, as determined by the physical count, differs from the calculated quantity, enter the actual inventory on hand in the **Qty. (Phys. Inventory)** field.  
   
@@ -73,7 +73,7 @@ You must take a physical inventory, that is, count the actual items on hand, to 
   
      Both item ledger entries and physical inventory ledger entries are created. Open the item card to view the resulting physical inventory ledger entries.  
   
-4.  In the **Search** box, enter **Items**, and then choose the related link.  
+4.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
   
 5.  Open the item card in question, and then, on the **Navigate** tab, in the **Item** group, choose **Phys. Inventory ledger Entries**.  
   

@@ -20,7 +20,7 @@ You must submit a periodic report of trade with other EU countries/regions to th
   
 ### To create Report 349  
   
-1.  In the **Search** box, enter **Make 349 Declaration**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Make 349 Declaration**, and then choose the related link.  
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   

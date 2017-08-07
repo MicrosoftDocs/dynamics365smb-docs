@@ -127,7 +127,7 @@ The following options are available:
 Use numbers for ordered lists. No space between the lines, we'll let the template take care of that.
 
 ```
-1. In the **Search** box, enter **Payment Journal**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journal**, and then choose the related link.
 2. In the **Payment Journal** window, on the first journal line, enter the relevant information about the payment entry.
 3. To apply a single vendor ledger entry:
 4. In the **Applies-to Doc. No.** field, choose the field to open the **Apply Vendor Entries** window.

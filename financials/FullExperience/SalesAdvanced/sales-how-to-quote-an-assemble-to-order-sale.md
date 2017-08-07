@@ -25,7 +25,7 @@ You can use assembly management to customize an assembly item to a customer’s 
   
 ### To create a sales quote for an assemble-to-order item  
   
-1.  In the **Search** box, enter **Sales Quote**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Quote**, and then choose the related link.  
   
 2.  Create a sales quote line with one line for an assembly item. For more information, see [How to: Make Offers](../how-to-make-offers.md).  
   

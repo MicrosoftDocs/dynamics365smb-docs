@@ -22,7 +22,7 @@ If you want to copy sales prices, such as an individual customer's sales prices 
   
 ### To copy sales prices  
   
-1.  In the **Search** box, enter **Sales Price Worksheet**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Price Worksheet**, and then choose the related link.  
   
 2.  On the **Actions** tab, in the **Functions** group, choose **Suggest Sales Price on Wksh.**  
   

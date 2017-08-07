@@ -24,7 +24,7 @@ The Tax Authority or Fund card enables you to compile a list of different tax au
   
 ### To set up a Tax Authority or Fund Card  
   
-1.  In the **Search** box, enter **Tax Authorities**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Tax Authorities**, and then choose the related link.  
   
 2.  In the **New** tab, choose **New**.  
   

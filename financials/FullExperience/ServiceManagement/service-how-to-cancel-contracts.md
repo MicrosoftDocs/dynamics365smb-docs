@@ -20,7 +20,7 @@ You may need to cancel a service contract when the contract has expired or has b
   
 ### To cancel a service contract  
   
-1.  In the **Search** box, enter **Service Contracts**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Contracts**, and then choose the related link.  
   
 2.  Open the relevant service contract you want to cancel.  
   

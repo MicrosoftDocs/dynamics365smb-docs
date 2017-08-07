@@ -23,7 +23,7 @@ Plan movements in the worksheet using a bin replenishment function or manually p
   
 #### To calculate a replenishment movement  
   
-1.  In the **Search** box, enter **Movement Worksheet**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Movement Worksheet**, and then choose the related link.  
   
 2.  On the **Actions** tab, in the **Functions** group, choose **Calculate Bin Replenishment**.  
   
@@ -48,7 +48,7 @@ Plan movements in the worksheet using a bin replenishment function or manually p
   
 #### To move the entire contents of one or more bins by using the Get Bin Content function  
   
-1.  In the **Search** box, enter **Movement Worksheet**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Movement Worksheet**, and then choose the related link.  
   
 2.  On the **Actions** tab, in the **Functions** group, choose **Get Bin Content**. Use the request window to filter which bins and items you want to appear on the movement worksheet lines.  
   

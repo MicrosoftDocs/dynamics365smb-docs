@@ -26,7 +26,7 @@ The Russian federal tax authorities require companies to submit statutory report
   
 ### To set up general information about statutory reports  
   
-1.  In the **Search** box, enter **Statutory Report Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Statutory Report Setup**, and then choose the related link.  
   
 2.  On the **General** FastTab, fill in the fields to describe XML formatting, file locations, and so on.  
   
@@ -36,7 +36,7 @@ The Russian federal tax authorities require companies to submit statutory report
   
 ### To set up statutory report groups  
   
-1.  In the **Search** box, enter **Statutory Report Groups**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Statutory Report Groups**, and then choose the related link.  
   
 2.  On the **Home** tab, choose **New**. In the **Code** field, enter a code for the group, and in the **Description** field, enter a description of the purpose of the group.  
   
@@ -44,7 +44,7 @@ The Russian federal tax authorities require companies to submit statutory report
   
 ### To set up report versions  
   
-1.  In the **Search** box, enter **Format Versions**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Format Versions**, and then choose the related link.  
   
 2.  Fill in the fields to describe the format version of the statutory report.  
   
@@ -59,7 +59,7 @@ The Russian federal tax authorities require companies to submit statutory report
   
 #### To define a statutory report  
   
-1.  In the **Search** box, enter **Statutory Reports**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Statutory Reports**, and then choose the related link.  
   
 2.  Optionally, you can create one or more rows that group a range of statutory reports, such as reports for VAT reporting or reports for property tax. To specify a row as an internal grouping, enter information in the **Code** and **Description** fields, and the select the **Header** check box. Leave the other fields blank.  
   

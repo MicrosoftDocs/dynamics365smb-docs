@@ -20,7 +20,7 @@ If your location uses both put-away processing and receive processing and you ha
   
 ### To create a put-away from a posted receipt  
   
-1.  In the **Search** box, enter **Posted Whse. Receipts**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Whse. Receipts**, and then choose the related link.  
   
 2.  Select a posted receipt that might need to be put away.  
   

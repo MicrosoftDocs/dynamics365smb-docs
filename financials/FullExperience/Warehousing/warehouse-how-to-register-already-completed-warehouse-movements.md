@@ -20,7 +20,7 @@ If your location uses directed put-away and pick, and you need to move items to 
   
 ### To register the movement of an item that has already occurred  
   
-1.  In the **Search** box, enter **Whse. Reclassification Journal**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Whse. Reclassification Journal**, and then choose the related link.  
   
 2.  Fill in the **Item No.**, **From Zone Code**, **From Bin Code**, **To Zone Code**, and **To Bin Code** fields.  
   

@@ -22,7 +22,7 @@ After you create a report, you can release it, and then export it for the author
   
 ### To export and submit a VAT transaction report  
   
-1.  In the **Search** box, enter **VAT Reports**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Reports**, and then choose the related link.  
   
 2.  Select an existing report or create a new report:  
   

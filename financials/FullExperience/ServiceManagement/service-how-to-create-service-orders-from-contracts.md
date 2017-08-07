@@ -20,7 +20,7 @@ You can automatically create service orders for the maintenance of service items
   
 ### To create a service order from a contract  
   
-1.  In the **Search** box, enter **Create Contract Service Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Create Contract Service Orders**, and then choose the related link.  
   
 2.  On the **Service Contract Header** FastTab, set the filters you want to apply.  
   

@@ -20,7 +20,7 @@ You can use the **Symptom Codes** window to set up symptom codes to describe pos
   
 ### To set up a symptom code  
   
-1.  In the **Search** box, enter **Symptom Codes**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Symptom Codes**, and then choose the related link.  
   
 2.  Create a new symptom code. On the **Home** tab, in the **New** group, choose **New**.  
   

@@ -20,7 +20,7 @@ If you have a digitalized picture, which is picture file in .BMP format, you can
   
 ### To insert a picture  
   
-1.  In the **Search** box, enter **Items**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
   
 2.  On the **Navigate**, in the **Master Data** group, choose **Picture**. The **Item Picture** window appears.  
   

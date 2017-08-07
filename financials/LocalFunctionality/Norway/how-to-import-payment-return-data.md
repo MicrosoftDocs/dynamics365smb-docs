@@ -20,7 +20,7 @@ To import receipt and settlement returns, use the **Rem. payment order – impor
   
 ### To import return data  
   
-1.  In the **Search** box, enter **Rem. payment order – import**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Rem. payment order – import**, and then choose the related link.  
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
@@ -38,7 +38,7 @@ To import receipt and settlement returns, use the **Rem. payment order – impor
   
 ### To view settlement information  
   
-1.  In the **Search** box, enter **Settlement Info**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Settlement Info**, and then choose the related link.  
   
 2.  On the **General** FastTab, view the fields as described in the following table.  
   

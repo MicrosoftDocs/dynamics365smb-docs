@@ -20,7 +20,7 @@ To find your warehouse assignments, open the card window for a selected item. If
   
 ### To find an instruction assigned to you  
   
-1.  In the **Search** box, enter **Warehouse Put-aways**, **Warehouse Picks**, or **Warehouse Movement**, and then choose the related link. You can see the list of all the assignments for all warehouse locations.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Warehouse Put-aways**, **Warehouse Picks**, or **Warehouse Movement**, and then choose the related link. You can see the list of all the assignments for all warehouse locations.  
   
 2.  Sort the items by location. You can now see the instructions that have been assigned to you.  
   

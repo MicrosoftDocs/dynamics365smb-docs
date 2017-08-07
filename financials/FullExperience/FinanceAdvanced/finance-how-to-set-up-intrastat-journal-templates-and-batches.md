@@ -22,7 +22,7 @@ Before you can use the **Intrastat Journal**, you must decide which Intrastat jo
   
 ### To set up Intrastat templates  
   
-1.  In the **Search** box, enter **Intrastat Journal Templates**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat Journal Templates**, and then choose the related link.  
   
 2.  In the **Intrastat Journal Templates** window, create several templates if you need several different forms.  
   

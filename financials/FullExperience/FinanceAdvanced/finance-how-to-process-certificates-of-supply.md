@@ -22,7 +22,7 @@ When you sell goods to a customer in another EU country/region, you must send th
   
 ### To view certificate of supply details  
   
-1.  In the **Search** box, enter **Posted Sales Shipments**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Sales Shipments**, and then choose the related link.  
   
 2.  Choose the relevant sales shipment to a customer in another EU country/region.  
   
@@ -45,7 +45,7 @@ When you sell goods to a customer in another EU country/region, you must send th
   
 ### To print a certificate of supply  
   
-1.  In the **Search** box, enter **Posted Sales Shipments**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Sales Shipments**, and then choose the related link.  
   
 2.  Choose the relevant sales shipment to a customer in another EU country/region.  
   
@@ -68,7 +68,7 @@ When you sell goods to a customer in another EU country/region, you must send th
   
 ### To update the status of a certificate of supply for a shipment  
   
-1.  In the **Search** box, enter **Posted Sales Shipments**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Sales Shipments**, and then choose the related link.  
   
 2.  Choose the relevant sales shipment to a customer in another EU country/region.  
   
@@ -84,7 +84,7 @@ When you sell goods to a customer in another EU country/region, you must send th
   
 ### To update the status of a group of certificates of supply  
   
-1.  In the **Search** box, enter **Certificates of Supply**, and choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Certificates of Supply**, and choose the related link.  
   
 2.  Filter the **Status** field to the value that you want in order to create the list of certificates that you want to manage.  
   

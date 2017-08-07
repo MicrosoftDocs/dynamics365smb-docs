@@ -20,7 +20,7 @@ A job queue can have many entries, which are the jobs that the queue manages and
   
 ### To create job queue entries  
   
-1.  In the **Search** box, enter **Job Queue Entries**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Queue Entries**, and then choose the related link.  
   
 2.  On the **Home** tab, choose **New**. The **Job Queue Entry Card** window opens.  
   

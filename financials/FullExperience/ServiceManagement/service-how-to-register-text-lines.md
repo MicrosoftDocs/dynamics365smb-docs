@@ -20,7 +20,7 @@ When registering service lines for service orders, you may want to register line
   
 ### To register text lines  
   
-1.  In the **Search** box, enter **Service Tasks**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Tasks**, and then choose the related link.  
   
 2.  Select the line that includes the relevant service item. On the **Navigate** tab, in the **Service Tasks** group, choose **Item Worksheet**.  
   
@@ -36,7 +36,7 @@ When registering service lines for service orders, you may want to register line
   
 ### To register text lines from a service order  
   
-1.  In the **Search** box, enter **Service Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Orders**, and then choose the related link.  
   
 2.  Open the service order you want to register text lines for.  
   

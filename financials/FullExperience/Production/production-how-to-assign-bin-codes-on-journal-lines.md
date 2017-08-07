@@ -20,7 +20,7 @@ When you create a consumption journal or an output journal, and the warehouse lo
   
 ### To assign a bin code to a journal line  
   
-1.  In the **Search** box, enter **Consumption Journal**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Consumption Journal**, and then choose the related link.  
   
 2.  Enter the relevant line information and fill in the **Location Code** and **Bin Code** fields.  
   

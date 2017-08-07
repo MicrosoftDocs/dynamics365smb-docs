@@ -20,7 +20,7 @@
   
 ### To import and export account schedules  
   
-1.  In the **Search** box, enter **Account Schedule Names** or **Account Schedules**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Account Schedule Names** or **Account Schedules**, and then choose the related link.  
   
 2.  In the **Account Schedule Names**or **Account Schedules** window, on the **Home** tab, in the **Functions** group, choose **Import Settings** or **Export Settings**. An extensible markup language (XML) file will be created for the import or export.  
   

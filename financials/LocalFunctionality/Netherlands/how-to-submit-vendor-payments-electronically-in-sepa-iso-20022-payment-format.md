@@ -22,7 +22,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create and submit 
   
 ### To submit vendor payments electronically in SEPA ISO 20022 payment format  
   
-1.  In the **Search** box, enter **Telebank-Bank Overview**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Telebank-Bank Overview**, and then choose the related link.  
   
 2.  Select the relevant bank account, and then, on the **Navigate** tab, in the **Telebank** group, choose **Proposal**.  
   

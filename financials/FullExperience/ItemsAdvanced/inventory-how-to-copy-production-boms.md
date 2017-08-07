@@ -20,7 +20,7 @@ You can copy production BOMs. Make sure that the BOM you copy to is not certifie
   
 ### To copy production BOMs  
   
-1.  In the **Search** box, enter **Production BOM**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Production BOM**, and then choose the related link.  
   
 2.  Select the BOM you want to copy to, or create a new BOM.  
   

@@ -22,7 +22,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can send electronic pa
   
 ### To set up an electronic payment for a bank account  
   
-1.  In the **Search** box, enter  **Bank Accounts**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter  **Bank Accounts**, and then choose the related link.  
   
 2.  Select the required bank account. On the **Actions** tab, in the **Home** group, choose **Edit**.  
   
@@ -52,7 +52,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can send electronic pa
   
 ### To set up an electronic payment for a vendor bank account  
   
-1.  In the **Search** box, enter **Vendors**, and then choose the related link in **Payables**.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link in **Payables**.  
   
 2.  Select the vendor for which you want to set up electronic payments.  
   

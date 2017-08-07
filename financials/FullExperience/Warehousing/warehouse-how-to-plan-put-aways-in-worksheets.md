@@ -30,7 +30,7 @@ If your location requires both put-away and receive processing, and you want to 
   
 ### To plan instructions in the put-away worksheet  
   
-1.  In the **Search** box, enter **Put-away Worksheet**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Put-away Worksheet**, and then choose the related link.  
   
 2.  On the **Actions** tab, in the **Functions** group, choose **Get Warehouse Documents**. The **Put-away Selection** window opens.  
   

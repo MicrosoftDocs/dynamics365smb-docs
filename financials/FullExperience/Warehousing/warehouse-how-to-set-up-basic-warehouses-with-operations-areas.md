@@ -39,7 +39,7 @@ If internal operation areas such as production or assembly exist in basic wareho
   
 ### To enable inventory documents for internal operation activities  
   
-1.  In the **Search** box, enter **Locations**, and then choose the related link. Open the location card you want to update.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link. Open the location card you want to update.  
   
 2.  On the **Warehouse** FastTab, select the **Require Put-away** field to indicate that, when an inbound or internal source document with a bin code is released, an inventory put-away or an inventory movement document can be created.  
   
@@ -47,7 +47,7 @@ If internal operation areas such as production or assembly exist in basic wareho
   
 ### To define a default bin structure in the operation area  
   
-1.  In the **Search** box, enter **Locations**, and then choose the related link. Open the Location you want to update.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link. Open the Location you want to update.  
   
 2.  On the **Bins** FastTab, in the **Open Shop Floor Bin Code** field, enter the code of the bin in the production area with plenty of components that the machine operator can consume from without requesting a warehouse activity to bring them to the bin. Items that are placed in this bin are typically set up for automatic posting, or flushing. This means that the **Flushing Method** field contains **Forward** or **Backward**.  
   
@@ -62,7 +62,7 @@ If internal operation areas such as production or assembly exist in basic wareho
   
 ### To make dedicated component bins  
   
-1.  In the **Search** box, enter **Locations**, and then choose the related link. Select the location that you want to update.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link. Select the location that you want to update.  
   
 2.  On the **Navigate** tab, in the **Location** group, choose **Bins**.  
   

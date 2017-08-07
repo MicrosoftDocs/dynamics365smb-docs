@@ -30,13 +30,13 @@ You may want to restructure your warehouse with new bin codes and new bin charac
   
 ### To restructure a basic warehouse that uses bins only  
   
-1.  In the **Search** box, enter **Locations**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.  
   
 2.  On the **Warehouse** FastTab, set the **Default Bin Selection** field to **Last-Used Bin**.  
   
 3.  Move all the contents of your current bins to the new bins that you have just created.  
   
-    1.  In the **Search** box, enter **Item Reclassification Journal**, and then choose the related link.  
+    1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Reclassification Journal**, and then choose the related link.  
   
     2.  Select a journal line, and then, on the **Actions** tab, in the **Functions** group, choose **Get Bin Content**.  
   
@@ -58,7 +58,7 @@ You may want to restructure your warehouse with new bin codes and new bin charac
   
 2.  Move all the contents of your current bins to the new bins that you just created.  
   
-    1.  In the **Search** box, enter **Warehouse Reclassification Journal**, and then choose the related link.  
+    1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Warehouse Reclassification Journal**, and then choose the related link.  
   
     2.  For the bins where no real movement of items is involved, create a line for each of your current bins in the **Warehouse Reclassification Journal** with the old bin code, **From Bin Code**, and the new bin code, **To Bin Code**.  
   
@@ -66,7 +66,7 @@ You may want to restructure your warehouse with new bin codes and new bin charac
   
 3.  When the old bins are emptied, reclassify them as **QC** type bins to ensure that they are not included in item flows.  
   
-    1.  In the **Search** box, enter **Locations**, and then choose the related link.  
+    1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.  
   
     2.  Select the line with the location, and then, on the **Navigate** tab, choose **Bins**.  
   
@@ -76,7 +76,7 @@ You may want to restructure your warehouse with new bin codes and new bin charac
   
 ### To delete a bin  
   
-1.  In the **Search** box, enter **Locations**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.  
   
 2.  Select the location where you want to delete bins. On the **Navigate** tab, in the **Location** group, choose **Bins.**  
   
@@ -90,7 +90,7 @@ You may want to restructure your warehouse with new bin codes and new bin charac
   
 ### To rename a bin and change the bin code in all records  
   
-1.  In the **Search** box, enter **Locations**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.  
   
 2.  Select the location where you want to rename a bin or change the bin code, and on the **Navigate** tab, in the **Location** group, choose **Bins.**  
   

@@ -20,7 +20,7 @@ If a payment discount has been calculated on the basis of an invoice amount that
   
 ### To revert VAT on payment discounts  
   
-1.  In the **Search** box, enter **General Ledger Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Setup**, and then choose the related link.  
   
 2.  On the **General** FastTab, select the **Adjust for Payment Disc.** field.  
   

@@ -27,19 +27,19 @@ You can configure and customize a new company that you have created. To fine tun
   
 1.  Open the new company in the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/nav_windows_md.md)]-->.  
   
-2.  In the **Search** box, enter **Configuration Packages**, and then select the related link.  
+2.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Packages**, and then select the related link.  
   
 3.  On the **Actions** tab, in the **Package** group, choose **Import Package**.  
   
 4.  Navigate to the location where you have saved the .rapidstart configuration package file. Choose the **Open** button.  
   
-5.  In the **Search** box, enter **Company Information**, and then choose the related link. Enter information about the company in the company information card. Include information, such as bank details. You can also provide a logo for the company.  
+5.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link. Enter information about the company in the company information card. Include information, such as bank details. You can also provide a logo for the company.  
   
  All the tables that you have designated for inclusion in the new company are imported. At this point, you can apply the package data to the database, or adjust and modify the table data to meet your customer specifications.  
   
 ### To apply package data  
   
-1.  In the **Search** box, enter **Configuration Worksheet**, and then select the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Worksheet**, and then select the related link.  
   
 2.  Select a table for which you want to modify data, and on the **Actions** tab, in the **Functions** group, choose **Apply Data**. Choose **Yes** to confirm the application.  
   
@@ -50,7 +50,7 @@ You can configure and customize a new company that you have created. To fine tun
   
 ### To modify and apply package data  
   
-1.  In the **Search** box, enter **Configuration Worksheet**, and then select the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Worksheet**, and then select the related link.  
   
 2.  Select a table for which you want to modify data, and on the **Actions** tab, in the **Show** group, choose **Package Data**.  
   
@@ -64,7 +64,7 @@ You can configure and customize a new company that you have created. To fine tun
   
 ### To locate and identify a configuration error  
   
-1.  In the **Search** box, enter **Configuration Packages**, and then select the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Packages**, and then select the related link.  
   
 2.  Select the package you want to review from the list. On the **Home** tab, in the **Manage** group, choose **Edit**.  
   
@@ -78,7 +78,7 @@ You can configure and customize a new company that you have created. To fine tun
   
 1.  Open the company on which you based your configuration package.  
   
-2.  In the **Search** box, enter **Configuration Worksheet**, and then select the related link.  
+2.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Worksheet**, and then select the related link.  
   
 3.  Fix errors and add missing related tables to the worksheet.  
   

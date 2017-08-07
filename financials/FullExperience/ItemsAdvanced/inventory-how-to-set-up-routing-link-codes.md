@@ -20,7 +20,7 @@ The BOM position is not assigned to a special position in the routing but to a r
   
 ### To set up routing link codes  
   
-1.  In the **Search** box, enter **Routing Links**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Routing Links**, and then choose the related link.  
   
 2.  In the **Code** field, enter any combination of numbers and letters that uniquely identify the routing link code.  
   

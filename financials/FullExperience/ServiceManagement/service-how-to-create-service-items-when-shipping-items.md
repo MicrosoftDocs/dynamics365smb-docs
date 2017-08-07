@@ -22,7 +22,7 @@ When you ship items by posting either service orders or service invoices, the sh
   
 ### To create a service item when shipping items  
   
-1.  In the **Search** box, enter **Service Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Orders**, and then choose the related link.  
   
 2.  Open the relevant service order.  
   

@@ -20,7 +20,7 @@ You can view separate debit and credit balances for a single general ledger acco
   
 ### To view debit and credit balances for single general ledger accounts  
   
-1.  In the **Search** box, enter **Chart of Accounts**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Chart of Accounts**, and then choose the related link.  
   
 2.  In the **Chart of Accounts** window, on the **Navigate** tab, in the **Balance** group, choose **G/L Account Balance**.  
   

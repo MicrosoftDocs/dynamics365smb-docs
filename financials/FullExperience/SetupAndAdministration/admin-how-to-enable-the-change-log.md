@@ -22,7 +22,7 @@ A common problem in an administrative computer system is to locate the origin of
   
 ### To set up a change log  
   
-1.  In the **Search** box, enter **Change Log Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Change Log Setup**, and then choose the related link.  
   
 2.  In the **Change Log Setup** window, on the **Actions** tab, in the **Setup** group, choose **Tables**. The **Change Log Setup (Table) List** window opens.  
   

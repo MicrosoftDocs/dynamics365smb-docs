@@ -20,7 +20,7 @@ You can use alternative addresses to keep track of your employees’ location, f
   
 ### To set up an alternative address for an employee  
   
-1.  In the **Search** box, enter **Employees**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Employees**, and then choose the related link.  
   
 2.  Select the relevant employee card.  
   

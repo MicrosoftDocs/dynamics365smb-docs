@@ -28,7 +28,7 @@ If you are using the fixed assets in [!INCLUDE[d365fin](../../includes/d365fin_m
   
 3.  Set up fixed asset depreciation books.  
   
-4.  Enable general ledger integration. In the **Search** box, enter **Depreciation Books**, and then choose the related link.  
+4.  Enable general ledger integration. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Books**, and then choose the related link.  
   
 5.  Select the relevant depreciation book. On the **Home** tab, in the **Manage** group, choose **Edit** to open the **Depreciation Book Card** window.  
   

@@ -94,7 +94,7 @@ To support just-in-time inventory and the ability to customize products to custo
   
 -   Make yourself a warehouse employee at WHITE location by following these steps:  
   
-    1.  In the **Search** box, enter **Warehouse Employees**, and then choose the related link.  
+    1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Warehouse Employees**, and then choose the related link.  
   
     2.  Choose the **User ID** field, and select your own user account in the **Users** window.  
   
@@ -104,7 +104,7 @@ To support just-in-time inventory and the ability to customize products to custo
   
 -   Prepare WHITE location for assembly processing by following these steps:  
   
-    1.  In the **Search** box, enter **Locations**, and then choose the related link.  
+    1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.  
   
     2.  Open the location card for WHITE location.  
   
@@ -118,7 +118,7 @@ To support just-in-time inventory and the ability to customize products to custo
   
 -   Remove the default lead time for internal processes by following these steps:  
   
-    1.  In the **Search** box, enter **Manufacturing Setup**, and then choose the related link.  
+    1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Manufacturing Setup**, and then choose the related link.  
   
     2.  In the **Manufacturing Setup** window, on the **Planning** FastTab, remove the value in the **Default Safety Lead Time** field.  
   
@@ -153,7 +153,7 @@ To support just-in-time inventory and the ability to customize products to custo
   
 ## Setting Up the Sample Data  
   
-1.  In the **Search** box, enter **Whse. Item Journals**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Whse. Item Journals**, and then choose the related link.  
   
 2.  Choose the **Batch Name** field, and then select the default journal.  
   
@@ -172,7 +172,7 @@ To support just-in-time inventory and the ability to customize products to custo
   
      Next, synchronize the new warehouse entries with inventory.  
   
-5.  In the **Search** box, enter **Item Journals**, and then choose the related link. The **Item Journal** window opens.  
+5.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Journals**, and then choose the related link. The **Item Journal** window opens.  
   
 6.  On the **Actions** tab, in the **Functions** group, choose **Calculate Whse. Adjustment**.  
   
@@ -182,7 +182,7 @@ To support just-in-time inventory and the ability to customize products to custo
   
 ### Creating the Assembly Items  
   
-1.  In the **Search** box, enter **Items**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **Manage** group, choose **New**.  
   
@@ -237,7 +237,7 @@ To support just-in-time inventory and the ability to customize products to custo
   
 ### Selling the Assembly Items  
   
-1.  In the **Search** box, enter **Sales Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **Manage** group, choose **New**.  
   
@@ -303,7 +303,7 @@ To support just-in-time inventory and the ability to customize products to custo
   
 ### Planning for the Unavailable ATS Items  
   
-1.  In the **Search** box, enter **Planning Worksheet**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Planning Worksheet**, and then choose the related link.  
   
 2.  On the **Action** tab, in the **Functions** group, choose **Calculate Regenerative Plan**.  
   
@@ -325,7 +325,7 @@ To support just-in-time inventory and the ability to customize products to custo
   
 ### Assembling and Shipping the First ATO Quantity  
   
-1.  In the **Search** box, enter **Warehouse Shipment**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Warehouse Shipment**, and then choose the related link.  
   
     > [!NOTE]  
     >  In this section, the person who is responsible for shipping is in charge of recording the completed ATO assembly work on the warehouse shipment line. This workflow may occur in environments where the assembly work is performed by the person who is responsible for shipping or by assembly workers in the shipping area.  
@@ -344,7 +344,7 @@ To support just-in-time inventory and the ability to customize products to custo
   
      Next, perform the picker’s task.  
   
-4.  In the **Search** box, enter **Picks**, and then choose the related link.  
+4.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Picks**, and then choose the related link.  
   
 5.  Open the warehouse pick document that you created in step 3 in this section.  
   
@@ -390,7 +390,7 @@ To support just-in-time inventory and the ability to customize products to custo
   
 ### Assembling and Recording the Second ATO Quantity  
   
-1.  In the **Search** box, enter **Assembly Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Assembly Orders**, and then choose the related link.  
   
      Notice that the ATO order for shipped units of Kit B is still in the list, although the **Remaining Quantity** is empty. This is because the linked sales order is still not fully invoiced.  
   
@@ -415,7 +415,7 @@ To support just-in-time inventory and the ability to customize products to custo
   
 ### Assembling the ATS Quantity  
   
-1.  In the **Search** box, enter **Assembly Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Assembly Orders**, and then choose the related link.  
   
 2.  Open the assembly order for ten units of Kit A.  
   
@@ -429,7 +429,7 @@ To support just-in-time inventory and the ability to customize products to custo
   
      Next, perform the picker’s task.  
   
-5.  In the **Search** box, enter **Picks**, and then choose the related link.  
+5.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Picks**, and then choose the related link.  
   
 6.  Open the warehouse pick document that you created in step 4 in this section.  
   
@@ -447,7 +447,7 @@ To support just-in-time inventory and the ability to customize products to custo
   
 ### Shipping the Remaining Items, Partly from Stock and Partly Assembled to the Order  
   
-1.  In the **Search** box, enter **Warehouse Shipment**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Warehouse Shipment**, and then choose the related link.  
   
 2.  Open the most recent warehouse shipment that is created at WHITE location.  
   
@@ -459,7 +459,7 @@ To support just-in-time inventory and the ability to customize products to custo
   
      Next, perform the picker’s last task for this warehouse shipment.  
   
-4.  In the **Search** box, enter **Picks**, and then choose the related link.  
+4.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Picks**, and then choose the related link.  
   
 5.  Open the warehouse pick document that you created in step 3 in this section.  
   
@@ -481,7 +481,7 @@ To support just-in-time inventory and the ability to customize products to custo
   
      The warehouse shipment document is removed, which indicates that the involved warehouse activities are completed. Next, verify that the sales order has been processed.  
   
-10. In the **Search** box, enter **Sales Orders**, and then choose the related link  
+10. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link  
   
 11. Open the sales order for The Device Shop.  
   

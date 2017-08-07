@@ -29,7 +29,7 @@ When you configure a new company, table relations are recognized and processed. 
   
 ### To create a configuration package  
   
-1.  In the **Search** box, enter **Configuration Packages**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Packages**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **New** group, choose **New**.  
   
@@ -98,7 +98,7 @@ When you configure a new company, table relations are recognized and processed. 
   
 ### To copy a configuration package  
   
-1.  In the **Search** box, enter **Configuration Packages**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Packages**, and then choose the related link.  
   
 2.  Select a package from the list, and on the **Actions** tab, in the **Functions** group, choose **Copy Package**.  
   

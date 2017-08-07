@@ -29,7 +29,7 @@
   
 ### To print the Swiss VAT statement  
   
-1.  In the **Search** box, enter **Swiss VAT Statement**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Swiss VAT Statement**, and then choose the related link.  
   
     > [!NOTE]  
     >  You will receive a message stating that the **Swiss VAT Statement** will open in the local language.  

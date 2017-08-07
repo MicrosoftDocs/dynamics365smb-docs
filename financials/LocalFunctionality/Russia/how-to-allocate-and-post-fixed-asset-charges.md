@@ -20,7 +20,7 @@ After an invoice has been created you can allocate and post fixed asset charges.
   
 ### To allocate and post a fixed asset charge  
   
-1.  In the **Search** box, enter **Allocate FA Charges**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Allocate FA Charges**, and then choose the related link.  
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   

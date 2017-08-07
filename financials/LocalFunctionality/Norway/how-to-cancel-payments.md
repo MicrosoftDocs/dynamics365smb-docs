@@ -24,7 +24,7 @@
   
 ### To cancel a payment order  
   
-1.  In the **Search** box, enter **Remittance Payment Order**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Remittance Payment Order**, and then choose the related link.  
   
 2.  Select the payment order, and on the **Navigate** tab, in the **Payment order** group, choose **Export**, and then select **Cancel payment order**.  
   
@@ -32,7 +32,7 @@
   
 ### To cancel a payment  
   
-1.  In the **Search** box, enter **Waiting Journal**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Waiting Journal**, and then choose the related link.  
   
 2.  Select the payment, and on the **Navigate** tab, in the **Waiting Journal** group, choose **Cancel Payment**.  
   

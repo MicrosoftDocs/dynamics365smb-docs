@@ -23,7 +23,7 @@ When a fiscal period is complete, you can fiscally close the period to make sure
   
 ### To fiscally close accounting periods  
   
-1.  In the **Search** box, enter **Accounting Periods**, and then choose the relevant link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Accounting Periods**, and then choose the relevant link.  
   
 2.  In the **Accounting Periods** window, on the **Navigate** tab, in the **Fiscal Closing** group, choose **Close Fiscal Period**.  
   

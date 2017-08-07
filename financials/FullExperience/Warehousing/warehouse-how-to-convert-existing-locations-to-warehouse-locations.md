@@ -27,7 +27,7 @@ You can enable an existing inventory location to use zones and bins and to opera
   
 ### To enable an existing location to operate as a warehouse location  
   
-1.  In the **Search** box, enter **Create Warehouse Location**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Create Warehouse Location**, and then choose the related link.  
   
 2.  In the **Location Code** field, specify the location that you want to enable for warehouse processing.  
   

@@ -20,7 +20,7 @@ You can assign a location to an entry after you have posted it, for example, if 
   
 ### To assign a locations to a posted entry  
   
-1.  In the **Search** box, enter **Item Reclass. Journal**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Reclass. Journal**, and then choose the related link.  
   
 2.  In the **Item No.** field, enter the number of the item on the entry you want to assign a location to.  
   

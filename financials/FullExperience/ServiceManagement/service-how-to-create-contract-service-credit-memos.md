@@ -20,7 +20,7 @@ You can use a contract service credit memo when a customer cancels a prepaid ser
   
 ### To create a contract service credit memo  
   
-1.  In the **Search** box, enter **Service Credit Memos**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Credit Memos**, and then choose the related link.  
   
 2.  Create a new service credit memo.  
   
@@ -31,7 +31,7 @@ You can use a contract service credit memo when a customer cancels a prepaid ser
      On the **Invoicing** FastTab, you can see information copied from the **Customer** card. If you want to post the credit memo to a different customer than the one specified on the **General** FastTab, enter the number of that customer in the **Bill-to Customer No.** field.  
   
     > [!NOTE]  
-    >  You can compare the credit memo to the original posted document in the **Posted Service Invoices** window. In the **Search** box, enter **Posted Service Invoices**, and then choose the related link.  
+    >  You can compare the credit memo to the original posted document in the **Posted Service Invoices** window. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Service Invoices**, and then choose the related link.  
   
 5.  On the **General** FastTab, in the **Posting Date** and **Document Date** fields, enter a date.  
   

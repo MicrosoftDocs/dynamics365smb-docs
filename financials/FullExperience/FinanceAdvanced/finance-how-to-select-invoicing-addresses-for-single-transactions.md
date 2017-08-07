@@ -24,7 +24,7 @@ When you purchase goods, you usually receive the invoice from the person or comp
   
 ### To choose invoicing addresses for single transactions  
   
-1.  In the **Search** box, enter **Purchase Quotes**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Quotes**, and then choose the related link.  
   
 2.  Create a new purchase quote and give it a number.  
   

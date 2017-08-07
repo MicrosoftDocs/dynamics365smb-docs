@@ -20,7 +20,7 @@ There will be occasions in which you want to make sure that an item you want for
   
 ### To reserve an item for a service order  
   
-1.  In the **Search** box, enter **Service Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Orders**, and then choose the related link.  
   
 2.  From the **Service Orders** list, select the service order you want, and on the **Home** tab, in the **Manage** group, choose **Edit**.  
   

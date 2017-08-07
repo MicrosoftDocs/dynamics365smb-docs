@@ -20,7 +20,7 @@ You can quickly get an overview of confidential information related to your empl
   
 ### To view confidential information  
   
-1.  In the **Search** box, enter **Employees**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Employees**, and then choose the related link.  
   
 2.  On the **Navigate** tab, in the **Employee** group, choose **Confidential Info. Overview**. The **Confidential Info. Overview** window opens.  
   

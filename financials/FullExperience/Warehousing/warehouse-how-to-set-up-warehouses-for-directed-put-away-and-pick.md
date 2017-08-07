@@ -22,7 +22,7 @@ Directed put-away and pick gives you access to advanced warehousing features tha
   
 ### To activate directed put away and pick functionality  
   
-1.  In the **Search** box, enter **Locations**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.  
   
 2.  Select the location where you want to use directed put-away and pick. On the **Home** tab, in the **Manage** group, choose **Edit**.  
   
@@ -41,7 +41,7 @@ Directed put-away and pick gives you access to advanced warehousing features tha
   
 ### To set up a zone in your warehouse  
   
-1.  In the **Search** box, enter **Locations**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.  
   
 2.  Select the location where you want to set up zone and open the location card.  
   

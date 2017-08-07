@@ -20,7 +20,7 @@ The following procedure describes how to post the items, resource hours, and or 
   
 ### To post consumption from a service order  
   
-1.  In the **Search** box, enter **Service Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Orders**, and then choose the related link.  
   
 2.  Open the service order you want to post consumption for.  
   

@@ -20,7 +20,7 @@ Tax registers are used to track and manage taxable profits and losses in accorda
   
 ### To define tax registers  
   
-1.  In the **Search** box, enter **Tax Register Card**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Tax Register Card**, and then choose the related link.  
   
 2.  On the **General** FastTab, enter the following information.  
   

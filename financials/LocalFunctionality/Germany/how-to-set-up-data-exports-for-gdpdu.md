@@ -20,7 +20,7 @@ You must set up data export record sources to be able to export Grundsätze zum 
   
 ### To set up a GDPdU data export  
   
-1.  In the **Search** box, enter **Data Exports**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Data Exports**, and then choose the related link.  
   
 2.  On the **Home** tab, choose **New**.  
   

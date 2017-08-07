@@ -22,7 +22,7 @@ A physical inventory is typically taken at some recurring interval, for example 
   
 ### To set up counting periods  
   
-1.  In the **Search** box, enter **Phys. Invt. Counting Periods**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Phys. Invt. Counting Periods**, and then choose the related link.  
   
 2.  Fill in the **Code** field with a short descriptive code for the counting period.  
   
@@ -32,7 +32,7 @@ A physical inventory is typically taken at some recurring interval, for example 
   
 ### To assign a counting period to an item or stockkeeping unit  
   
-1.  In the **Search** box, enter **Items**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
   
 2.  Select the item to which you want to assign a counting period.  
   

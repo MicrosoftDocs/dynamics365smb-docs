@@ -31,7 +31,7 @@ You can use the export remittance payments process to export the payments file t
   
 ### To export remittance payments using the Remittance - Export batch jobs  
   
-1.  In the **Search** box, enter **Payment Journals**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.  
   
 2.  Prepare to export the payments from the journal. For more information, see [How to: Export Payments to a Bank File](how-to-export-payments-to-a-bank-file.md).  
   

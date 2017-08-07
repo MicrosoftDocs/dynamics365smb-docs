@@ -26,7 +26,7 @@ Account book reports display all the general ledger entries created in a specifi
   
 ### To print an official account book report  
   
-1.  In the **Search** box, enter **Account - Official Acc. Book**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Account - Official Acc. Book**, and then choose the related link.  
   
 2.  In the **Options** FastTab, fill in the fields as described in the following table.  
   
@@ -43,7 +43,7 @@ Account book reports display all the general ledger entries created in a specifi
   
 ### To print an official account summarized book report  
   
-1.  In the **Search** box, enter **Official Acc.Summarized Book**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Official Acc.Summarized Book**, and then choose the related link.  
   
 2.  In the **Options** FastTab, fill in the fields as described in the following table.  
   

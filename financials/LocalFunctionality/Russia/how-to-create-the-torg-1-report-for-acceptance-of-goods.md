@@ -20,7 +20,7 @@ The TORG-1 report is used for the registration of incoming goods. This report li
   
 ### To create the TORG-1 report  
   
-1.  In the **Search** box, enter **Item Receipts Act TORG-1**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Receipts Act TORG-1**, and then choose the related link.  
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   

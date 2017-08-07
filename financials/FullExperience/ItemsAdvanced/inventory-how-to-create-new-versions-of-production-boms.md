@@ -20,7 +20,7 @@ New versions of production BOMs are used when, for example, an item is replaced 
   
 ### To create a new version of a production BOM  
   
-1.  In the **Search** box, enter **Production BOM**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Production BOM**, and then choose the related link.  
   
 2.  Select the production BOM to be copied.  
   

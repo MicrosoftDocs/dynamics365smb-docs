@@ -20,7 +20,7 @@
   
 ### To view account turnover information  
   
-1.  In the **Search** box, enter **G/L Corresp. General Ledger**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Corresp. General Ledger**, and then choose the related link.  
   
 2.  On the **General** FastTab, enter the following information.  
   
@@ -34,7 +34,7 @@
   
 ### To print account turnover information  
   
-1.  In the **Search** box, enter **G/L Corresp. General Ledger**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Corresp. General Ledger**, and then choose the related link.  
   
 2.  On the **Options** FastTab, enter the following information.  
   

@@ -31,7 +31,7 @@ You can set up inventory to use the same column for original and corrective post
   
 ### To post corrective entries in the item journal  
   
-1.  In the **Search** box, enter **Item Journal**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Journal**, and then choose the related link.  
   
 2.  Fill in the fields as described in the following table.  
   
@@ -49,9 +49,9 @@ You can set up inventory to use the same column for original and corrective post
   
 ### To reverse item documents  
   
-1.  To reverse an item receipt, in the **Search** box, enter **Item Receipt**, and then choose the related link.  
+1.  To reverse an item receipt, Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Receipt**, and then choose the related link.  
   
-     To reverse an item shipment, in the **Search** box, enter **Item Shipment**, and then choose the related link.  
+     To reverse an item shipment, Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Shipment**, and then choose the related link.  
   
 2.  On the **General** FastTab, select the **Correction** field.  
   
@@ -67,9 +67,9 @@ You can set up inventory to use the same column for original and corrective post
   
 ### To post item revaluation or item reclassification journals  
   
-1.  To post an item revaluation, in the **Search** box, enter **Revaluation Journal**, and then choose the related link.  
+1.  To post an item revaluation, Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Revaluation Journal**, and then choose the related link.  
   
-     To post an item reclassification, in the **Search** box, enter **Item Reclass Journal**, and then choose the related link.  
+     To post an item reclassification, Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Reclass Journal**, and then choose the related link.  
   
 2.  Fill in the fields as described in the following table.  
   

@@ -20,7 +20,7 @@ Sometimes, you must make a negative adjustment to the value, but not the quantit
   
 ### To make negative adjustments to inventory value  
   
-1.  In the **Search** box, enter **Item Journal**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Journal**, and then choose the related link.  
   
 2.  Fill in the first journal line by decreasing the quantity on inventory with a negative adjustment. Use a unit cost that corresponds to the actual posted cost.  
   

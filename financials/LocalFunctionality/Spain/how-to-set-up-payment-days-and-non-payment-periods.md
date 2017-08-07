@@ -26,7 +26,7 @@ Payment days and non-payment periods are used to calculate due dates. Due date c
   
 ### To set up payment days and non-payment periods for a company  
   
-1.  In the **Search** box, enter **Company Information**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.  
   
 2.  Expand the **Payments** FastTab.  
   
@@ -51,7 +51,7 @@ Payment days and non-payment periods are used to calculate due dates. Due date c
   
 ### To set up payment days for customers and vendors  
   
-1.  In the **Search** box, enter **Customers** or enter **Vendors**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers** or enter **Vendors**, and then choose the related link.  
   
 2.  Select the required customer or vendor, and then, on the **Navigate** tab, in the **Customers** or **Vendors** group, choose **Payment Days**.  
   
@@ -61,7 +61,7 @@ Payment days and non-payment periods are used to calculate due dates. Due date c
   
 ### To set up non-payment periods for customers and vendors  
   
-1.  In the **Search** box, enter **Customers** or enter **Vendors**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers** or enter **Vendors**, and then choose the related link.  
   
 2.  Select the required customer or vendor, and then, on the **Navigate** tab, in the **Customers** or **Vendors** group, choose **Non-Payment Periods**.  
   

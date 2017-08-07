@@ -20,7 +20,7 @@ If you need to link special information to a specific item tracking number, for 
   
 ### To record serial or lot number information  
   
-1.  In the **Search** box, enter **Sales Orders**, and then select the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then select the related link.  
   
 2.  Create a sales order line for an item-tracked item.  
   
@@ -42,7 +42,7 @@ If you need to link special information to a specific item tracking number, for 
   
 ### To modify existing serial/lot number information  
   
-1.  In the **Search** box, enter **Items**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
   
 2.  From the **Item Card** window, on the **Navigate** tab, in the **History** group, choose the **Entries** button, and then choose **Ledger Entries**.  
   

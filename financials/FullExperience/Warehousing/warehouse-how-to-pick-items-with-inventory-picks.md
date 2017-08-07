@@ -27,7 +27,7 @@ If a location is set up to require pick processing but not shipment processing, 
   
 ### To pick items with inventory picks  
   
-1.  In the **Search** box, enter **Inventory Pick**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Inventory Pick**, and then choose the related link.  
   
 2.  To begin working on the pick document, you can either open a pick document that has already been created, or you can create a new document. For more information, see [How to: Create Inventory Picks](../how-to-create-inventory-picks.md).  
   

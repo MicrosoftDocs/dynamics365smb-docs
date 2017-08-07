@@ -20,7 +20,7 @@ You can use the **Correction** field to post a negative debit instead of a credi
   
 ### To post a negative entry  
   
-1.  In the **Search** box, enter **General Journals**, and then choose the related link  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journals**, and then choose the related link  
   
 2.  In the **Batch Name** field, select the required batch name.  
   

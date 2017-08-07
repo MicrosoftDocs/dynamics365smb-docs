@@ -20,7 +20,7 @@ You can use standard service codes to create service documents with similar comb
   
 ### To set up a standard service code  
   
-1.  In the **Search** box, enter **Standard Service Codes**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Standard Service Codes**, and then choose the related link.  
   
 2.  Create a new standard service code. On the **Home** tab, in the **New** group, choose **New**.  
   

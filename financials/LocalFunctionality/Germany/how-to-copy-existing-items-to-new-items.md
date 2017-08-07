@@ -20,7 +20,7 @@ You can group items with similar settings in an item catalog. When you add a new
   
 ### To copy existing items to new items  
   
-1.  In the **Search** box, enter **Items**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
   
 2.  Select the item that you want to copy, and then, on the **Actions** tab, in the **Functions** group, choose **Copy Item**.  
   

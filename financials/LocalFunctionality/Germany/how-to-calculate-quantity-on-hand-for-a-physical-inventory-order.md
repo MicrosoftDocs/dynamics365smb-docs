@@ -22,7 +22,7 @@ After you have created the physical inventory order and after you have entered t
   
 ### To calculate the expected quantity on the physical inventory order  
   
-1.  In the **Search** box, enter **Phys. Inventory Order**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Phys. Inventory Order**, and then choose the related link.  
   
 2.  Open the physical inventory order that you want to calculate the expected quantity for.  
   

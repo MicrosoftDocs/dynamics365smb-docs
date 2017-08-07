@@ -28,7 +28,7 @@
   
 ### To create a general ledger account turnover entry  
   
-1.  In the **Search** box, enter **G/L Account Turnover**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Account Turnover**, and then choose the related link.  
   
 2.  On the **General** FastTab, enter the following information.  
   
@@ -49,7 +49,7 @@
   
 ### To print the general ledger account turnover report  
   
-1.  In the **Search** box, enter **G/L Account Turnover**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Account Turnover**, and then choose the related link.  
   
 2.  On the **Options** FastTab, enter the following information.  
   
@@ -63,7 +63,7 @@
   
 ### To print the general ledger account card report  
   
-1.  In the **Search** box, enter **G/L Account Card**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Account Card**, and then choose the related link.  
   
 2.  On the **Options** FastTab, enter the following information.  
   
@@ -75,7 +75,7 @@
   
 ### To print the general ledger account entries analysis report  
   
-1.  In the **Search** box, enter **G/L Account Entries Analysis**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Account Entries Analysis**, and then choose the related link.  
   
 2.  On the **Options** FastTab, enter the following information.  
   

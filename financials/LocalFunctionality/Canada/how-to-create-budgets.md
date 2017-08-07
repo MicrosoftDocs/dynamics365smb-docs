@@ -28,7 +28,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the create budget function
   
 ### To create budget amounts by period  
   
-1.  In the **Search** box, enter **G/L Budgets**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Budgets**, and then choose the related link.  
   
 2.  Select a budget. On the **Home** tab, in the **Process** group, choose **Edit Budget**.  
   

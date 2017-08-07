@@ -20,7 +20,7 @@ You can create sales and production forecasts with the **Production Forecast** w
   
 ### To create a forecast  
   
-1.  In the **Search** box, enter **Production Forecast**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Production Forecast**, and then choose the related link.  
   
 2.  On the **General** FastTab, select a forecast in the **Production Forecast Name** field. Multiple forecasts can exist and are differentiated by name and forecast type.  
   

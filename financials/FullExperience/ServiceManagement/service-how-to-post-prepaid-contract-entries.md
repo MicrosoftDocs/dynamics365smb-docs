@@ -22,7 +22,7 @@ If you work with prepaid service contracts, you must regularly post prepaid cont
   
 ### To post prepaid contract entries  
   
-1.  In the **Search** box, enter **Post Prepaid Contract Entries**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Post Prepaid Contract Entries**, and then choose the related link.  
   
 2.  On the **Service Ledger Entry** FastTab, enter the filters you want to apply.  
   

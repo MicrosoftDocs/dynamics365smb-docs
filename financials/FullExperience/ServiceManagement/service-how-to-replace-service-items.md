@@ -20,7 +20,7 @@ If you cannot repair a service item, you may have to replace the service item ei
   
 ### To replace a service item  
   
-1.  In the **Search** box, enter **Service Tasks**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Tasks**, and then choose the related link.  
   
 2.  Open the relevant service order and select the line that includes the relevant service item. On the **Lines** toolbar, on the **Line** menu, choose **Service Item Worksheet**.  
   

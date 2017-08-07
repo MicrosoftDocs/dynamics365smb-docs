@@ -22,7 +22,7 @@ When a customer has accepted a service quote, you convert it to a service order.
   
 ### To convert a service quote to a service order  
   
-1.  In the **Search** box, enter **Service Contract Quotes**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Contract Quotes**, and then choose the related link.  
   
 2.  Select the relevant service quote that you want to convert to a service order.  
   

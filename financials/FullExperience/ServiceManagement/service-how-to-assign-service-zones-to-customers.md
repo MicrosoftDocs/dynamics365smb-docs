@@ -22,7 +22,7 @@ You can assign service zones to customers in the **Customer Card** window. When 
   
 ### To assign a service zone to customer  
   
-1.  In the **Search** box, enter **Customers**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.  
   
 2.  Select the customer that you want to assign a service zone to and open the customer card.  
   

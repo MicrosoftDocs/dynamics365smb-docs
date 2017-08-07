@@ -20,7 +20,7 @@ When you have created service orders or quotes, you can allocate resource groups
   
 ### To allocate a resource group  
   
-1.  In the **Search** box, enter **Dispatch Board**, and choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Dispatch Board**, and choose the related link.  
   
 2.  Browse to the relevant service order.  
   

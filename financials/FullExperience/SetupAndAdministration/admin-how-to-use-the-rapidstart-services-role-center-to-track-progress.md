@@ -26,7 +26,7 @@ When you use ADD INCLUDE<!--[!INCLUDE[rim](../../includes/how-to-change-role-cen
   
 ### To update the status of a configuration table  
   
-1.  In the **Search** box, enter **Configuration Worksheet**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Worksheet**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **Manage** group, choose **Edit List**.  
   

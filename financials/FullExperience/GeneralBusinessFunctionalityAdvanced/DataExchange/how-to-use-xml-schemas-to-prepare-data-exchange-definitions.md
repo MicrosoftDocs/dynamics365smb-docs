@@ -33,7 +33,7 @@ From PDF or image files that you receive from your trading partners, you can hav
   
 ### To send a PDF or image file to the OCR service from the Incoming Documents window  
   
-1.  In the **Search** box, enter **Incoming Documents**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Incoming Documents**, and then choose the related link.  
   
 2.  Create a new incoming document record and attach the file. For more information, see [How to: Create Incoming Document Records](../how-to-create-incoming-document-records.md).  
   
@@ -56,7 +56,7 @@ From PDF or image files that you receive from your trading partners, you can hav
   
 ### To receive an electronic document from the OCR service  
   
-1.  In the **Search** box, enter **Incoming Documents**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Incoming Documents**, and then choose the related link.  
   
 2.  To actively pull electronic document from the OCR service, on the **Actions** tab, in the **OCR** group, choose **Receive from OCR Service**.  
   

@@ -24,7 +24,7 @@ The generic version of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/how-to-s
   
 ### To send an electronic sales invoice  
   
-1.  In the **Search** box, enter **Sales Invoices**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Invoices**, and then choose the related link.  
   
 2.  Create a new sales invoice. For more information, see [Invoice Sales Activities](../invoice-sales-activities.md).  
   

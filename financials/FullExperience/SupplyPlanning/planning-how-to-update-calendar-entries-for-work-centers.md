@@ -20,7 +20,7 @@ You can use the Calculate function to create new calendar entries. If old entrie
   
 ### To update calendar entries for work centers  
   
-1.  In the **Search** box, enter **Work Centers**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Work Centers**, and then choose the related link.  
   
 2.  Open the relevant work center card from the list.  
   

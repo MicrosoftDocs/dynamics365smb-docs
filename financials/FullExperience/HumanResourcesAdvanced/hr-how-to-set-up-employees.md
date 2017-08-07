@@ -20,7 +20,7 @@ When you set up a new employee, there are fields that must always be filled in, 
   
 ### To set up an employee  
   
-1.  In the **Search** box, enter **Employees**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Employees**, and then choose the related link.  
   
 2.  Create a new employee card. On the **Home** tab, in the **New** group, choose **New**.  
   

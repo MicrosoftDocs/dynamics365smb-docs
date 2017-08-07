@@ -32,7 +32,7 @@ Banks provide electronic bank statements for all your financial interactions. Yo
   
 ### To import and reconcile bank statements  
   
-1.  In the **Search** box, enter **Import Bank Statement**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Import Bank Statement**, and then choose the related link.  
   
 2.  In the **Import Protocol List** window, select the required import protocol, and then choose the **OK** button.  
   

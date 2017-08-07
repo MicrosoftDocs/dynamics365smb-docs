@@ -22,7 +22,7 @@ If you want to cancel all UI customization that you have ever made for a page un
   
 ### To cancel all UI customization that you have made to a page  
   
-1.  In the **Search** box, enter **Delete User Personalization**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Delete User Personalization**, and then choose the related link.  
   
 2.  Select the page for which you want to cancel your UI customization, and then, on the **Home** tab, in the **View** group, choose **Delete**.  
   

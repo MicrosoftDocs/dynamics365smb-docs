@@ -25,7 +25,7 @@ When you set up users in approval workflows, you must specify in the **Notificat
 
 ### Specify when and how users receive notifications  
 
-1.  In the **Search** box, enter **Approval User Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Approval User Setup**, and then choose the related link.  
 
 2.  Select the line for the user that you want to set up notification preferences for, and then, on the **Home** tab, in the **Process** group, choose **Notification Setup**.  
 

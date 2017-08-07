@@ -98,7 +98,7 @@ You can set up synchronization between [!INCLUDE[d365fin](includes/d365fin_md.md
 
 #### To create a to-do and synchronize it with Outlook  
 
-1.  In the **Search** box, enter **Contacts**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Contacts**, and then choose the related link.  
 
 2.  In the **Contacts** list, select the contact card for **A. Gibson's Law Firm**, **CT100006**, and on the **Home** tab, in the **Manage** group, choose **Edit**.  
 
@@ -172,7 +172,7 @@ You can set up synchronization between [!INCLUDE[d365fin](includes/d365fin_md.md
 
 1.  Open [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-2.  In the **Search** box, enter **Outlook Synch Entities**, and then choose the related link.  
+2.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Outlook Synch Entities**, and then choose the related link.  
 
      The **Outlook Synch. Entity** window contains the definition of the mapping between contacts in [!INCLUDE[d365fin](includes/d365fin_md.md)] and contacts in Microsoft Outlook.  
 
@@ -194,7 +194,7 @@ You can set up synchronization between [!INCLUDE[d365fin](includes/d365fin_md.md
 
      To make sure that the added territory code appears in Microsoft Outlook, you must create and synchronize a new contact. Changes in the synchronization setup are only shown for newly synchronized items.  
 
-9. In the **Search** box, enter **Contact**, and then choose the related link.  
+9. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Contact**, and then choose the related link.  
 
 10. On the **Home** tab, in the **New** group, choose **New**, and create a new contact of the type **Company**.  
 

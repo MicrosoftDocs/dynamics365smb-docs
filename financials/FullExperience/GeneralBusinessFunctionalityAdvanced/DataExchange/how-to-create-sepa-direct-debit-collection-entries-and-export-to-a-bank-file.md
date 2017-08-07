@@ -23,7 +23,7 @@ To instruct the bank to transfer the payment amount from the customer’s bank a
   
 ### To create a direct-debit collection  
   
-1.  In the **Search** box, enter **Direct Debit Collections**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Direct Debit Collections**, and then choose the related link.  
   
 2.  In the **Direct Debit Collections** window, on the **Home** tab, in the **New** group, choose **Create Direct Debit Collection**.  
   

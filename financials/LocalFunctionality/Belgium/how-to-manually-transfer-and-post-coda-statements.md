@@ -22,7 +22,7 @@ After you have applied and processed all CODA statement lines, you can manually 
   
 ### To manually transfer and post statement lines  
   
-1.  In the **Search** box, enter **General Journal**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journal**, and then choose the related link.  
   
 2.  Select the journal, and then choose the **OK** button.  
   

@@ -20,7 +20,7 @@ The order promising function is a tool for calculating the earliest possible dat
   
 ### To make an item critical  
   
-1.  In the **Search** box, enter **Items**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
   
 2.  Open the relevant item card.  
   
@@ -28,7 +28,7 @@ The order promising function is a tool for calculating the earliest possible dat
   
 ### To calculate an order promising date  
   
-1.  In the **Search** box, enter **Sales Order**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Order**, and then choose the related link.  
   
 2.  Open the relevant sales order and select the sales order lines that you want the program to calculate.  
   

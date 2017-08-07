@@ -24,7 +24,7 @@ With the eXtensible Business Reporting Language (XBRL) reporter, you can submit 
   
 ### To submit an electronic VAT or ICP declaration  
   
-1.  In the **Search** box, enter **Elec. Tax Declarations**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Elec. Tax Declarations**, and then choose the related link.  
   
 2.  Select the electronic declaration that you want to submit, and then, on the **Home** tab, choose **Edit**.  
   

@@ -20,7 +20,7 @@ After you have set your preferred filters in a list place, such as the **Sales O
   
 ### To save a filter to create a View  
   
-1.  In the **Search** box, enter **Sales Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.  
   
 2.  Set your preferred filters, such as to show sales orders for the location RED only.  
   

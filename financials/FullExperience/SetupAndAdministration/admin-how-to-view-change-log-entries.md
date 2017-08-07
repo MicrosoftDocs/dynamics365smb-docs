@@ -20,7 +20,7 @@ After you have set up the change log, activated it, and made a change to data, [
   
 ### To view change log entries  
   
-1.  In the **Search** box, enter **Change Log Entries**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Change Log Entries**, and then choose the related link.  
   
 2.  In the **Change Log Entries** window, remove any filters. The window now displays all change log entries.  
   

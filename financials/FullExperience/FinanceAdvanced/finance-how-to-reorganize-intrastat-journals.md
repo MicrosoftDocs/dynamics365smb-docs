@@ -22,7 +22,7 @@ You must submit an Intrastat report every month and create a new journal batch f
   
 ### To reorganize intrastat journals  
   
-1.  In the **Search** box, enter **Intrastat Journals**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat Journals**, and then choose the related link.  
   
 2.  In the **Intrastat Journal** window, to view the options, choose the **Batch Name** field.  
   

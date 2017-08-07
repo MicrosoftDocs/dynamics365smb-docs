@@ -23,7 +23,7 @@ This topic shows an example of how to define allocations by using the dynamic al
 
 ### To define dynamic allocations based on items sold in the previous year  
 
-1.  In the **Search** box, enter **Cost Allocations**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cost Allocations**, and then choose the related link.  
 
 2.  In the **Cost Allocation** window, on the **Home** tab, in the **New** group, choose **New**.  
 

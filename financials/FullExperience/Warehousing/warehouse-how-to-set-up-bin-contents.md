@@ -20,7 +20,7 @@ After you have set up your bins, you can set up the bin contents. In other words
   
 ### To set up bin contents  
   
-1.  In the **Search** box, enter **Locations**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.  
   
 2.  Select the location where you want to set up bin contents. On the **Navigate** tab, in the **Location** group, choose **Bins**.  
   

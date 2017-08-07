@@ -20,7 +20,7 @@ You can print balance sheet reports and income statement reports to submit to ba
   
 ### To print a balance sheet report  
   
-1.  In the **Search** box, enter **Balance Sheet**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Balance Sheet**, and then choose the related link.  
   
 2.  On the **G/L Account** FastTab, select the appropriate filters.  
   
@@ -30,7 +30,7 @@ You can print balance sheet reports and income statement reports to submit to ba
   
 ### To print an income statement report  
   
-1.  In the **Search** box, enter **Income Statement**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Income Statement**, and then choose the related link.  
   
 2.  On the **G/L Account** FastTab, select the appropriate filters.  
   

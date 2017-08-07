@@ -22,7 +22,7 @@ You can direct the flow of items through bins that you have defined for particul
   
 ### To set up the bin types you want to use  
   
-1.  In the **Search** box, enter **Bin Types**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bin Types**, and then choose the related link.  
   
 2.  In the **Bin Types** window, create a 10-character code for a bin type.  
   

@@ -20,7 +20,7 @@ You can export or write Lastschrift Verfahren (LSV+) files that contain payments
   
 ### To export payments using LSV  
   
-1.  In the **Search** box, enter **LSV Journal List**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **LSV Journal List**, and then choose the related link.  
   
 2.  In the **LSV Journal List** window, select the required LSV journal.  
   

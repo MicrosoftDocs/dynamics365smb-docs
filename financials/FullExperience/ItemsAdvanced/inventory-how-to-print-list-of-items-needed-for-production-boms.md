@@ -20,7 +20,7 @@ The **Quantity Explosion of BOM** report gives you a list of the item quantities
   
 ### To print the quantities of items needed for BOMs  
   
-1.  In the **Search** box, enter **Quantity Explosion of BOM**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Quantity Explosion of BOM**, and then choose the related link.  
   
 2.  On the **Item** FastTab, you can define filters to restrict the report to certain items. All fields of the item master data can be selected as filter criteria.  
   

@@ -20,7 +20,7 @@ You can set up a default balancing account for each journal batch and have [!INC
   
 ### To set up default balancing accounts  
   
-1.  In the **Search** box, enter **General Journal**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journal**, and then choose the related link.  
   
 2.  In the **General Journal** window, in the **Batch Name** field, select the journal batch for which you want to set up a default balancing account.  
   

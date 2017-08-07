@@ -22,7 +22,7 @@ Intrastat reporting is required throughout the European Union (EU) and must foll
   
 ### To print the German Intrastat checklist  
   
-1.  In the **Search** box, enter **Intrastat Journals**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat Journals**, and then choose the related link.  
   
 2.  In the **Batch Name** field, select the required journal batch name. For more information, see [How to: Set Up Intrastat Journal Templates and Batches](how-to-set-up-intrastat-journal-templates-and-batches.md).  
   
@@ -41,7 +41,7 @@ Intrastat reporting is required throughout the European Union (EU) and must foll
   
 ### To print the German Intrastat form  
   
-1.  In the **Search** box, enter **Intrastat Journals**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat Journals**, and then choose the related link.  
   
 2.  In the **Batch Name** field, select the required journal batch name.  
   
@@ -55,7 +55,7 @@ Intrastat reporting is required throughout the European Union (EU) and must foll
   
 ### To export Intrastat information to a disk  
   
-1.  In the **Search** box, enter **Intrastat Journals**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat Journals**, and then choose the related link.  
   
 2.  In the **Batch Name** field, select the required journal batch name.  
   

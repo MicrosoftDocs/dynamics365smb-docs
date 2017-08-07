@@ -20,7 +20,7 @@ If you want to include warehouse handling time in the order promising calculatio
   
 ### To enter inbound warehouse handling time in the inventory setup window  
   
-1.  In the **Search** box, enter **Inventory Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Inventory Setup**, and then choose the related link.  
   
 2.  On the **General** FastTab, in the **Inbound Whse. Handling Time** field, enter the number of days that you want to include in the order promising calculation.  
   
@@ -29,7 +29,7 @@ If you want to include warehouse handling time in the order promising calculatio
   
 ### To enter inbound warehouse handling time on location cards  
   
-1.  In the **Search** box, enter **Location**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Location**, and then choose the related link.  
   
 2.  Open the relevant location card.  
   

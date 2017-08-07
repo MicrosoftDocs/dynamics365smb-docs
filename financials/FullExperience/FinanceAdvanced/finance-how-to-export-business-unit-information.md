@@ -22,7 +22,7 @@ If consolidation takes place in another database than the one where you have you
 
 1.  Open the company that you want to export.  
 
-2.  In the selected company, in the **Search** box, enter **Export Consolidation**, and then choose the related link.  
+2.  In the selected company, Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Export Consolidation**, and then choose the related link.  
 
 3.  On the **Options** FastTab, fill in the fields to specify how the batch job will create the file.  
 

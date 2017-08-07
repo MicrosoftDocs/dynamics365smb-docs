@@ -37,7 +37,7 @@ The **Advance Statement** report enables you to print and view information about
   
 #### To create a Responsible Employee card  
   
-1.  In the **Search** box, enter **Resp. Employees**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Resp. Employees**, and then choose the related link.  
   
 2.  Create a new card.  
   
@@ -45,7 +45,7 @@ The **Advance Statement** report enables you to print and view information about
   
 #### To create a Responsible Employee Card from an Employee card  
   
-1.  In the **Search** box, enter **Employees**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Employees**, and then choose the related link.  
   
 2.  On the **Actions** tab, in the **Functions** group, choose **Create Resp. Employee**.  
   
@@ -121,7 +121,7 @@ The **Advance Statement** report enables you to print and view information about
   
 #### To access the Advance Statement  
   
-1.  In the **Search** box, enter **Advance Statements**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Advance Statements**, and then choose the related link.  
   
      The **Advance Statement** window contains the following information in the **General** FastTab, in the header, entered manually or filled in from the corresponding glossary and settings.  
   
@@ -164,7 +164,7 @@ The **Advance Statement** report enables you to print and view information about
   
 #### To print an unposted Advance Statement  
   
-1.  In the **Search** box, enter **Advance Statements**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Advance Statements**, and then choose the related link.  
   
 2.  In the **Advance Statement** window, on the **Home** tab, in the **Process** group, choose **Print**.  
   
@@ -192,7 +192,7 @@ The **Advance Statement** report enables you to print and view information about
   
 #### To view the posted advance statement  
   
-1.  In the **Search** box, enter **Posted Advance Statement**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Advance Statement**, and then choose the related link.  
   
  A posted **Advance Statement** reflects all the information entered in the document in the Advance statement.  
   
@@ -201,7 +201,7 @@ The **Advance Statement** report enables you to print and view information about
   
 #### To print a posted advance statement  
   
-1.  In the **Search** box, enter **Posted Advance Statements** and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Advance Statements** and then choose the related link.  
   
 2.  On the **Home** tab, in the **Process** group, choose **Print**. The **Posted Advance Statement** dialog box opens.  
   

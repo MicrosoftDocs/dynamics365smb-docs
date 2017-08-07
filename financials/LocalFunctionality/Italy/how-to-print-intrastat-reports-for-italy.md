@@ -26,7 +26,7 @@ You can print monthly and quarterly Intrastat reports and submit them to the aut
   
 ### To print quarterly or monthly reports  
   
-1.  In the **Search** box, enter **Intrastat Journals**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat Journals**, and then choose the related link.  
   
 2.  Select the required journal batch.  
   
@@ -43,7 +43,7 @@ You can print monthly and quarterly Intrastat reports and submit them to the aut
   
 ### To print Intrastat - Checklist reports  
   
-1.  In the **Search** box, enter **Intrastat - Checklist**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat - Checklist**, and then choose the related link.  
   
 2.  On the **Options** FastTab, select the **Show Intrastat Journal Lines** check box to include detailed information about the journal lines in the report.  
   
@@ -53,7 +53,7 @@ You can print monthly and quarterly Intrastat reports and submit them to the aut
   
 ### To print Intrastat - Form reports  
   
-1.  In the **Search** box, enter **Intrastat - Form**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat - Form**, and then choose the related link.  
   
 2.  On the **Intrastat Jnl. Batch** and **Intrastat Jnl. Line** FastTabs, select the appropriate filters.  
   

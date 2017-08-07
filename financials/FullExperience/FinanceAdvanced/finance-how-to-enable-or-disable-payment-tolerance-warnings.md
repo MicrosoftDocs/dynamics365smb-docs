@@ -20,7 +20,7 @@ The payment tolerance warning appears when you post an application that has a ba
   
 ### To enable or disable payment tolerance warning  
   
-1.  In the **Search** box, enter **General Ledger Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Setup**, and then choose the related link.  
   
 2.  In the **General Ledger Setup** window, on the **Application** FastTab, select the **Payment Tolerance Warning** check box to activate the warning. To deactivate the warning, clear the check box.  
   

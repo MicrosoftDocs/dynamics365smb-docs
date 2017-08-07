@@ -78,7 +78,7 @@ Phrases like “run planning” and “run MRP” refer to the calculation of th
 
 #### To change selected planning parameters  
 
-1.  In the **Search** box, enter **Stockkeeping Units**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Stockkeeping Units**, and then choose the related link.  
 
 2.  Open the BLUE stockkeeping unit card for item 1100, Front Wheel.  
 
@@ -97,7 +97,7 @@ Phrases like “run planning” and “run MRP” refer to the calculation of th
 
 #### To create the sales order  
 
-1.  In the **Search** box, enter **Sales Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.  
 
 2.  On the **Home** tab, in the **New** group, choose **New**.  
 
@@ -111,7 +111,7 @@ Phrases like “run planning” and “run MRP” refer to the calculation of th
 
 #### To create a regenerative plan to fulfill demand at location BLUE  
 
-1.  In the **Search** box, enter **Planning Worksheet**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Planning Worksheet**, and then choose the related link.  
 
 2.  On the **Actions** tab, in the **Functions** group, choose **Calculate Regenerative Plan**.  
 
@@ -137,7 +137,7 @@ Phrases like “run planning” and “run MRP” refer to the calculation of th
 
 #### To calculate MRP to include underlying component needs  
 
-1.  In the **Search** box, enter **Planning Worksheet**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Planning Worksheet**, and then choose the related link.  
 
 2.  On the **Actions** tab, in the **Functions** group, choose **Calculate Regenerative Plan**.  
 
@@ -244,7 +244,7 @@ Phrases like “run planning” and “run MRP” refer to the calculation of th
 
 4.  Proceed to replan to adjust the current supply plan.  
 
-5.  In the **Search** box, enter **Planning Worksheet**, and then choose the related link.  
+5.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Planning Worksheet**, and then choose the related link.  
 
 6.  On the **Actions** tab, in the **Functions** group, choose **Calculate Net Change Plan**.  
 

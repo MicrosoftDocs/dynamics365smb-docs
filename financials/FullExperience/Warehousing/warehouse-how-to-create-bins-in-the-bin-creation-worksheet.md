@@ -28,9 +28,9 @@ In the bin creation worksheet, you can create bins manually or you can allow the
   
 ### To make bins in the bin creation worksheet  
   
-1.  In the **Search** box, enter **Bin Templates**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bin Templates**, and then choose the related link.  
   
-2.  In the **Search** box, enter **Bin Creation Worksheet**, and then choose the related link.  
+2.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bin Creation Worksheet**, and then choose the related link.  
   
 3.  On the **Actions** tab, in the **Functions** group, choose **Calculate Bins**. The **Calculate Bins** batch job request window opens.  
   

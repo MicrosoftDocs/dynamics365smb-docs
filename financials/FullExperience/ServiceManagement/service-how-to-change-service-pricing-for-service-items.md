@@ -20,7 +20,7 @@ You can manually change the breakdown of service pricing for a service item in t
   
 ### To change service pricing for a service item  
   
-1.  In the **Search** box, enter **Service Order**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Order**, and then choose the related link.  
   
 2.  Select the relevant service order and open the service order card.  
   

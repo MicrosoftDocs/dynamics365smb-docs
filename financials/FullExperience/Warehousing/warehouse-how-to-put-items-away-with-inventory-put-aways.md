@@ -20,7 +20,7 @@ When your location is setup to require put-away processing but not receive proce
   
 ### To put items away with the inventory put-away  
   
-1.  In the **Search** box, enter **Inventory Put-away**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Inventory Put-away**, and then choose the related link.  
   
 2.  To begin working on the put-away document, you can either open a put-away document that has already been created, or you can create a new document. For more information on creating an Inventory Put-away, see [How to: Create Inventory Put-aways](../how-to-create-inventory-put-aways.md).  
   

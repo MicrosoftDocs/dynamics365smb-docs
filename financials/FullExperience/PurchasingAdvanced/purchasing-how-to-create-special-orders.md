@@ -24,7 +24,7 @@ You can create a special order for a specific nonstock item to be shipped to a s
   
 ### To create a special order  
   
-1.  In the **Search** box, enter **Sales Order**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Order**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **New** groups, choose **New**. Create and fill in a  sales order for the item.  
   
@@ -32,7 +32,7 @@ You can create a special order for a specific nonstock item to be shipped to a s
   
      You must now create a purchase order from a requisition worksheet.  
   
-4.  In the **Search** box, enter **Requisition Worksheet**, and then choose the related link.  
+4.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Requisition Worksheet**, and then choose the related link.  
   
 5.  On the **Actions** tab, in the **Functions** group, choose **Special Order**, and then choose **Get Sales Orders**.  
   

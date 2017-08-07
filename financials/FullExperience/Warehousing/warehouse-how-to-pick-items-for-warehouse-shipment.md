@@ -35,7 +35,7 @@ When the location is set up to require warehouse pick processing as well as ware
   
 ### To pick items for warehouse shipment  
   
-1.  In the **Search** box, enter **Picks**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Picks**, and then choose the related link.  
   
      If you need to work on a particular pick, select the pick from the list or filter the list to find the picks that have been assigned to you specifically. Open the pick card.  
   

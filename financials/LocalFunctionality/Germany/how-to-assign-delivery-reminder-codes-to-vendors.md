@@ -20,7 +20,7 @@ In order to enable delivery reminders for overdue purchases, you must assign del
   
 ### To assign delivery reminders codes to vendors  
   
-1.  In the **Search** box, enter **Vendors**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.  
   
 2.  Select the vendor for whom you want to set up delivery reminders, and then, on the **Home** tab, in the **Manage** group, choose **Edit**.  
   

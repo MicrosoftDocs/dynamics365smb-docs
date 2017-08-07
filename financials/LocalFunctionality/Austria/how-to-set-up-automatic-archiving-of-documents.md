@@ -22,7 +22,7 @@ You can set up automatic archiving of sales documents and purchase documents—s
   
 ### To set up automatic archiving of documents  
   
-1.  In the **Search** box, enter **Sales & Receivable Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales & Receivable Setup**, and then choose the related link.  
   
 2.  In the **Sales & Receivable Setup** window, on the **Archiving** FastTab, fill in the fields as described in the following table.  
   

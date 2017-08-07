@@ -20,7 +20,7 @@ This topic describes how to create a VAT combination setup.
   
 #### To create a VAT combination setup  
   
-1.  In the **Search** box, enter **VAT Posting Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Posting Setup**, and then choose the related link.  
   
 2.  In the **VAT Posting Setup** window, insert a new line, and then enter values in the **VAT Bus. Posting Group**, **VAT Prod. Posting Group**, and **VAT Identifier** fields.  
   

@@ -32,7 +32,7 @@ You may occasionally need to move items between internal bins, not receiving or 
   
 ### To move items as an internal movement  
   
-1.  In the **Search** box, enter **Internal Movement**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Internal Movement**, and then choose the related link.  
   
 2.  On the **General** FastTab, fill in the **No.** field, either by leaving the field or by choosing the **AssistEdit** button to select from the number series.  
   
@@ -67,7 +67,7 @@ You may occasionally need to move items between internal bins, not receiving or 
   
 ### To move items with the item reclassification journal  
   
-1.  In the **Search** box, enter **Item Reclass. Journal**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Reclass. Journal**, and then choose the related link.  
   
 2.  On each journal line, define the bins from which and to which you want to move items by filling in the **Bin Code** and the **New Bin Code** fields.  
   

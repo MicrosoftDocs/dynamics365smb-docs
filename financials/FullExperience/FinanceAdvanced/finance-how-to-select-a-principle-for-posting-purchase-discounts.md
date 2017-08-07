@@ -22,7 +22,7 @@ When you post a purchase invoice that includes one or more discounts, you can ch
   
 ### To choose a principle for posting purchase discounts  
   
-1.  In the **Search** box, enter **Purchases & Payables Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchases & Payables Setup**, and then choose the related link.  
   
 2.  On the **General** FastTab, in the **Discount Posting** field, choose the principle for posting discounts.  
   

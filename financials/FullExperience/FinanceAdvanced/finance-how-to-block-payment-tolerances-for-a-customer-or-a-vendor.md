@@ -20,7 +20,7 @@ The default setting for payment tolerance is allowed. To disallow a certain cust
   
 ### To block payment tolerance for customers  
   
-1.  In the **Search** box, enter **Customer** or **Vendor**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customer** or **Vendor**, and then choose the related link.  
   
 2.  On the **Payments** FastTab, select the **Block Payment Tolerance** check box.  
   

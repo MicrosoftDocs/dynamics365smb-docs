@@ -20,7 +20,7 @@ You cannot create an invoice without a customer number. This is true, even if yo
   
 ### To set up a cash customer  
   
-1.  In the **Search** box, enter **Customer**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customer**, and then choose the related link.  
   
 2.  Create a new **Customer** card. On the **Home** tab, in the **New** group, choose **New**.  
   

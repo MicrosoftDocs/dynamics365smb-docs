@@ -20,7 +20,7 @@ The **Deposit Slip** report displays cash and check details in a format required
   
 ### To a print deposit slip report  
   
-1.  In the **Search** box, enter **Cash Receipt Journals**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Receipt Journals**, and then choose the related link.  
   
 2.  Select the **Bank** journal.  
   

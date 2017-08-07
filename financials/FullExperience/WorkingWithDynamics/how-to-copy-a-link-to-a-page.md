@@ -23,7 +23,7 @@ All pages have a **Copy Link to Page** action that you can use to save a link to
   
 ### To copy a link to the Customers window  
   
-1.  In the **Search** box, enter **Customers**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.  
   
 2.  In the **Application** menu, choose **Page**, and then choose **Copy Link to Page**.  
   

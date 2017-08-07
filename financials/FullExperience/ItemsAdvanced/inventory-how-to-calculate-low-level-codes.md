@@ -22,11 +22,11 @@ Each item in a production BOM must have a low-level code.
   
 ### To calculate low-level codes  
   
-1.  In the **Search** box, enter **Manufacturing Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Manufacturing Setup**, and then choose the related link.  
   
 2.  On the **General** FastTab, clear the **Dynamic Low-Level Code** field, and then close the **Manufacturing Setup** window.  
   
-3.  In the **Search** box, enter **Calculate Low-Level Code**, and then choose the related link. The **Calculate Low-Level Code** batch job opens. Choose the **Yes** button to calculate the low-level codes.  
+3.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Calculate Low-Level Code**, and then choose the related link. The **Calculate Low-Level Code** batch job opens. Choose the **Yes** button to calculate the low-level codes.  
   
 ## See Also  
  [Concepts of Production BOMs](../concepts-of-production-boms.md)   

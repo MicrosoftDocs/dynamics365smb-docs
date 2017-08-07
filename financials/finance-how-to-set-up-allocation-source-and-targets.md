@@ -20,7 +20,7 @@ Each allocation consists of an allocation source and one or more allocation targ
 
 ### To set up cost allocations  
 
-1.  In the **Search** box, enter **Cost Allocation**, and then chose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cost Allocation**, and then chose the related link.  
 
 2.  In the **Cost Allocation** window, on the **Home** tab, choose **Edit**.  
 

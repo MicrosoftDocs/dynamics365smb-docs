@@ -20,7 +20,7 @@ After you have defined a VAT statement, you can see a preview of it on the scree
   
 ### To preview VAT statements  
   
-1.  In the **Search** box, enter **VAT Statement**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Statement**, and then choose the related link.  
   
 2.  In the **VAT Statement** window, on the **Navigate** tab, in the **VAT Statement** group, choose **Preview**.  
   

@@ -20,7 +20,7 @@ You can add contract discounts on services for contract quotes and service contr
   
 ### To add a contract discount to a service contract quotes  
   
-1.  In the **Search** box, enter **Service Contract Quotes**, and choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Contract Quotes**, and choose the related link.  
   
 2.  Select the quote you want to add discounts for.  
   

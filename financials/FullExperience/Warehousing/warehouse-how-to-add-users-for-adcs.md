@@ -20,7 +20,7 @@ You can add any user as a user of an Automated Data Capture System (ADCS). When 
   
 ### To add an ADCS user  
   
-1.  In the **Search** box, enter **ADCS Users**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **ADCS Users**, and then choose the related link.  
   
 2.  On the **Home** tab, choose **New** to add a new user.  
   
@@ -30,7 +30,7 @@ You can add any user as a user of an Automated Data Capture System (ADCS). When 
   
 ### To indicate that a warehouse employee is an ADCS user  
   
-1.  In the **Search** box, enter **Warehouse Employees**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Warehouse Employees**, and then choose the related link.  
   
 2.  If needed, add a new warehouse employee. For more information, see [How to: Set Up Warehouse Employees](../how-to-set-up-warehouse-employees.md).  
   

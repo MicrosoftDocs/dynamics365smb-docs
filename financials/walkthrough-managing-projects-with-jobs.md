@@ -81,7 +81,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
 #### To prepare the sample data  
 
-1.  In the **Search** box, enter **Resources**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Resources**, and then choose the related link.  
 
 2.  On the **Home** tab, in the **New** group, choose **New** to create a new resource card.  
 
@@ -113,7 +113,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
 #### To create a Job Journal batch  
 
-1.  In the **Search** box, enter **Job Journals**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Journals**, and then choose the related link.  
 
 2.  In the **Job Journal** window, choose the **Batch Name** field. The **Job Journal Batches** window opens.  
 
@@ -132,7 +132,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
 #### To set up a job  
 
-1.  In the **Search** box, enter **Jobs**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.  
 
 2.  On the **Home** tab, in the **New** group, choose **New** to create a new card.  
 
@@ -292,7 +292,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
 #### To calculate remaining usage  
 
-1.  In the **Search** box, enter **Job Journals**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Journals**, and then choose the related link.  
 
 2.  In the **Job Journal** window, in the **Batch Name** field, open the **Job Journals Batches** list. Select the **Tricia** job journal batch.  
 
@@ -317,7 +317,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
 #### To create a job sales invoice  
 
-1.  In the **Search** box, enter **Jobs**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.  
 
 2.  Select the job that you created earlier, and on the **Actions** tab, in the **Functions** group, choose **Create Job Sales Invoice**.  
 
@@ -331,7 +331,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
 #### To post a new sales invoice  
 
-1.  In the **Search** box, enter **Sales Invoices**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Invoices**, and then choose the related link.  
 
 2.  Open the invoice for Customer No. 01445544. You can see the information that was entered from the planning lines.  
 
@@ -349,7 +349,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
 #### To open the Statistics window  
 
-1.  In the **Search** box, enter **Jobs**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.  
 
 2.  Select the job, and on the **Home** tab, in the **Process** group, choose **Statistics**. You can review detailed information about the job prices, costs, and profits in both local and foreign currencies.  
 
@@ -360,7 +360,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
 #### To manage fixed pricing in jobs  
 
-1.  In the **Search** box, enter **Jobs**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.  
 
 2.  Select the **Guildford** job number, and on the **Home** tab, in the **Process** group, choose **Jobs Task Lines**.  
 
@@ -394,7 +394,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
 #### To enter hours in the Job Journal  
 
-1.  In the **Search** box, enter **Job Journals**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Journals**, and then choose the related link.  
 
 2.  On a new line, enter the following information:  
 
@@ -473,7 +473,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
 #### To copy a job  
 
-1.  In the **Search** box, enter **Jobs**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.  
 
 2.  On the **Home** tab, in the **New** group, choose **New** to create a new job. Enter the following information:  
 
@@ -506,7 +506,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
 #### To set up a new account  
 
-1.  In the **Search** box, enter **Chart of Accounts**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Chart of Accounts**, and then choose the related link.  
 
 2.  In the **Chart of Accounts** window, on the **Home** tab, choose **New** to create a new card.  
 

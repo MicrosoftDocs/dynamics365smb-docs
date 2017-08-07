@@ -22,7 +22,7 @@ To get your Digipoort communications to work, you may have to adjust your networ
   
 ### To set up electronic tax declarations  
   
-1.  In the **Search** box, enter **Elec. Tax Declaration Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Elec. Tax Declaration Setup**, and then choose the related link.  
   
 2.  In the **Elec. Tax Declaration Setup** window, on the **General** FastTab, select the **VAT Contact Type**. The options include **Tax Payer** and **Agent**. If the contact type is **Tax Payer**, the contact ID in the electronic declaration will be filled with the VAT Registration No. of the company.  
   

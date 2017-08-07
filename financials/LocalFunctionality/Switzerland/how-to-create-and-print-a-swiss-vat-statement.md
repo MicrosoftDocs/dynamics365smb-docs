@@ -20,7 +20,7 @@ Based on the information that you have specified in the **VAT Posting Setup** wi
   
 ### To set up a Swiss VAT statement template  
   
-1.  In the **Search** box, enter **Update VAT Statement Template**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Update VAT Statement Template**, and then choose the related link.  
   
 2.  Select a template in the **VAT Statement Template Name** field. For more information about how to creat a new template, see VAT Statement Template.  
   
@@ -32,7 +32,7 @@ Based on the information that you have specified in the **VAT Posting Setup** wi
   
 ### To print the Swiss VAT statement  
   
-1.  In the **Search** box, enter **Swiss VAT Statement**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Swiss VAT Statement**, and then choose the related link.  
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   

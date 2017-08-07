@@ -20,7 +20,7 @@ Before setting up VAT business posting groups, you must decide how many differen
   
 ### To set up VAT business posting groups  
   
-1.  In the **Search** box, enter **VAT Business Posting Groups**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Business Posting Groups**, and then choose the related link.  
   
 2.  In the **VAT Business Posting Groups** window, enter a code to identify the group in the **Code** field.  
   

@@ -20,7 +20,7 @@ You must sign an agreement of remittance with the bank when you set up electroni
   
 ### To set up a remittance agreement  
   
-1.  In the **Search** box, enter **Remittance Agreement Overview**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Remittance Agreement Overview**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **New** group, choose **New**.  
   

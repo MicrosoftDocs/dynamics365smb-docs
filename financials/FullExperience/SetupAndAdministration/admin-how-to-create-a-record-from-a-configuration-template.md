@@ -22,7 +22,7 @@ You can use the structure of data that is contained in the data templates to con
   
 ### To create a record from a configuration template  
   
-1.  In the **Search** box, enter **Configuration Templates**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Templates**, and then choose the related link.  
   
 2.  In the **Setup Master Templates** window, select the item template that you have created and choose **Edit**. For more information on how to create a template, see [How to: Create a Configuration Template](../how-to-create-a-configuration-template.md).  
   
@@ -30,7 +30,7 @@ You can use the structure of data that is contained in the data templates to con
   
 4.  Choose the **OK** button.  
   
-5.  To review the new item card, in the **Search** box, enter **Items**, and then choose the related link.  
+5.  To review the new item card, Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
   
 6.  Open the new item card.  
   

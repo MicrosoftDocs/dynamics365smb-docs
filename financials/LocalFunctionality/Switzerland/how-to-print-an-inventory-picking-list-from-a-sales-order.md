@@ -30,7 +30,7 @@ You can print an inventory picking list directly from a sales order. The picking
   
 ### To print an inventory picking list from a sales order  
   
-1.  In the **Search** box, enter **Sales Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.  
   
 2.  Select the required sales order, and on the **Home** tab, in the **Manage** group, choose **Edit**.  
   

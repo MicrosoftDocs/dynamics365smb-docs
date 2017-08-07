@@ -20,7 +20,7 @@ You can see which report layouts are used on ADD INCLUDE<!--[!INCLUDE[navnow](..
   
 ### To see the report layouts are set up on reports  
   
-1.  In the **Search** box, enter **Report Layout Selection**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Report Layout Selection**, and then choose the related link.  
   
      The window lists all the reports that are available for the company that is set in the **Company** field at the top of the window.  
   

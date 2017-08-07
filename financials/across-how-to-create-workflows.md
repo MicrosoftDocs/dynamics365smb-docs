@@ -29,7 +29,7 @@ You can create workflows that connect business-process tasks performed by differ
 
 ### To create a workflow  
 
-1.  In the **Search** box, enter **Workflows**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Workflows**, and then choose the related link.  
 
 2.  On the **Home** tab, in the **New** group, choose **New**. The **Workflow** window opens.  
 
@@ -103,7 +103,7 @@ You can create workflows that connect business-process tasks performed by differ
     >  Do not enable a workflow until you are sure that the workflow is completed and that the involved workflow steps can start.  
 
 > [!NOTE]  
->  To see relations between tables that are used in workflows, in the **Search** box, enter **Workflow – Table Relations**. For more information, see Workflow - Table Relations.  
+>  To see relations between tables that are used in workflows, Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Workflow – Table Relations**. For more information, see Workflow - Table Relations.  
 
 ## See Also  
  Workflow   

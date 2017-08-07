@@ -20,7 +20,7 @@ The most effective way to create the bins of your warehouse is to generate group
   
 ### To create a bin from the location card  
   
-1.  In the **Search** box, enter **Locations**, and choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and choose the related link.  
   
 2.  Select the location that you want to create a bin from.  
   
@@ -32,7 +32,7 @@ The most effective way to create the bins of your warehouse is to generate group
   
 ### To create bins individually in the bin creation worksheet  
   
-1.  In the **Search** box, enter **Bin Creation Worksheet**, and choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bin Creation Worksheet**, and choose the related link.  
   
 2.  Fill in on each line the fields that are necessary to name and characterize the bins you are creating.  
   

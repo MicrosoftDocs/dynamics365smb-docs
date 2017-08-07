@@ -22,7 +22,7 @@ The tracking facility offers you an overview of the various documents related to
   
 ### To track item an reservation  
   
-1.  In the **Search** box, enter **Firm Planned Prod. Order**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Firm Planned Prod. Order**, and then choose the related link.  
   
 2.  Open the relevant firm planned production order   from the list.  
   

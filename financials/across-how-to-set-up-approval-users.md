@@ -30,7 +30,7 @@ Before you can create workflows that involve approval steps, you must set up the
 
 ### To set up an approval user  
 
-1.  In the **Search** box, enter **Approval User Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Approval User Setup**, and then choose the related link.  
 
 2.  Create a new line in the **Approval User Setup** window, and then fill the fields as described in the following table.  
 

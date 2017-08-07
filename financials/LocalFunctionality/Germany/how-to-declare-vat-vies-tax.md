@@ -24,7 +24,7 @@
   
 ### To declare VAT-VIES tax  
   
-1.  In the **Search** box, enter **VAT-Vies Declaration Tax – DE**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT-Vies Declaration Tax – DE**, and then choose the related link.  
   
 2.  In the **VAT-Vies Declaration Tax – DE** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   

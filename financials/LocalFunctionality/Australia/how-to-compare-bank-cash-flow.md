@@ -36,7 +36,7 @@ You can use the **Bank Detail Cashflow Compare** report to compare the flow of c
   
 ### To compare bank cash flow  
   
-1.  In the **Search** box, enter **Bank Detail Cashflow Compare**, and then choose the relevant link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Detail Cashflow Compare**, and then choose the relevant link.  
   
 2.  On the **ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](../../includes/bp_optionsheading_md.md)]-->** FastTab, fill in the fields as described in the following table.  
   

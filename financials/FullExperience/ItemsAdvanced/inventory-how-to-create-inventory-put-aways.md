@@ -32,13 +32,13 @@ When your location is set up to require put-away processing but not receive proc
   
 1.  In the case of purchase orders, sales return orders, and inbound transfer orders, you create the warehouse request by releasing the order.  
   
-2.  In the **Search** box, enter the order document type, such as **Purchase Orders**, and choose the related link. Open the order you want to release.  
+2.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter the order document type, such as **Purchase Orders**, and choose the related link. Open the order you want to release.  
   
 3.  On the **Actions** tab, in the **Release** group, choose **Release**.  
   
 4.  In the case of production orders, you create the warehouse request by creating an inbound request from the released production order.  
   
-    1.  In the **Search** box, enter **Production Orders**, and then select the related link.  
+    1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Production Orders**, and then select the related link.  
   
     2.  On the **Actions** tab, in the **Warehouse** group, choose **Create Inbound Whse. Request**.  
   
@@ -49,7 +49,7 @@ When your location is set up to require put-away processing but not receive proc
   
 ### To create an inventory put-away based on the source document  
   
-1.  In the **Search** box, enter **Inventory Put-away**, and then select the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Inventory Put-away**, and then select the related link.  
   
 2.  On the **Home** tab, in the **New** group, choose **New**.  
   
@@ -71,7 +71,7 @@ When your location is set up to require put-away processing but not receive proc
   
 ### To create several inventory put-aways with the batch job  
   
-1.  In the **Search** box, enter **Create Invt. Put-away / Pick**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Create Invt. Put-away / Pick**, and then choose the related link.  
   
 2.  On the **Warehouse Request** FastTab of the request window, use the **Source Document** and **Source No.** fields to filter on certain types of documents or ranges of document numbers.  
   

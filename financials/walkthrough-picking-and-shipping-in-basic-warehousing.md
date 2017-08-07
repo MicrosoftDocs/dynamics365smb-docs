@@ -60,7 +60,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], the outbound processes for picki
 
 -   To make yourself a warehouse employee at SILVER location by following these steps:  
 
-    1.  In the **Search** box, enter **Warehouse Employees**, and then choose the related link.  
+    1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Warehouse Employees**, and then choose the related link.  
 
     2.  Choose the **User ID** field, and select your own user account in the **Users** window.  
 
@@ -70,7 +70,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], the outbound processes for picki
 
 -   Make item LS-81 available at SILVER location by following these steps:  
 
-    1.  In the **Search** box, enter **Item Journals**, and then choose the related link.  
+    1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Journals**, and then choose the related link.  
 
     2.  Open the default journal, and then create two item journal lines with the following information about the work date (January 23).  
 
@@ -89,7 +89,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], the outbound processes for picki
 
 ### To set up the location  
 
-1.  In the **Search** box, enter **Locations**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.  
 
 2.  Open the SILVER location card.  
 
@@ -100,7 +100,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], the outbound processes for picki
 
 ### To create the sales order  
 
-1.  In the **Search** box, enter **Sales Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.  
 
 2.  On the **Home** tab, in the **New** group, choose **New**.  
 
@@ -121,7 +121,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], the outbound processes for picki
 
 ### To pick and ship items  
 
-1.  In the **Search** box, enter **Inventory Picks**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Inventory Picks**, and then choose the related link.  
 
 2.  On the **Home** tab, in the **New** group, choose **New**.  
 

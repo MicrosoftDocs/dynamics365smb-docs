@@ -25,7 +25,7 @@ Companies may want to keep track of items from the moment they enter the company
   
 ### To assign serial or lot numbers during an inbound transaction  
   
-1.  In the **Search** box, enter **Purchase Oders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Oders**, and then choose the related link.  
   
 2.  Select the relevant document line and on the **Lines** FastTab, choose **Actions**![Action Menu icon](../media/actionmenuicon.png "actionMenuIcon"), choose **Line**, and then choose **Item Tracking Lines**.  
   

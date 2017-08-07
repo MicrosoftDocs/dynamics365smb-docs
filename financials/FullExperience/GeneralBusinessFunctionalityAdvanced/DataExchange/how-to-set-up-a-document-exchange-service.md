@@ -20,7 +20,7 @@ You use an external service provider to exchange electronic documents with your 
   
 ### To set up a document exchange service  
   
-1.  In the **Search** box, enter **Doc. Exch. Service Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Doc. Exch. Service Setup**, and then choose the related link.  
   
 2.  Fill the fields as described in the following table.  
   

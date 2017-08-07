@@ -118,7 +118,7 @@ Administrators configure the user interface by customizing the user interface fo
 
 #### To add the Links FactBox to a FactBox pane  
 
-1.  In the **Search** box, enter **Customers**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.  
 
 2.  Select a customer, and then, on the **Navigate** tab, in the **Documents** group, choose **Orders**.  
 
@@ -155,7 +155,7 @@ Administrators configure the user interface by customizing the user interface fo
 
 #### To export a profile  
 
-1.  In the **Search** box, enter **Export Profiles**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Export Profiles**, and then choose the related link.  
 
 2.  In the **Export Profiles** window, on the **Profile** FastTab, enter **Order Processor** as a filter value for profile ID, and then choose **OK**.  
 
@@ -165,7 +165,7 @@ Administrators configure the user interface by customizing the user interface fo
 
 1.  Logon to a database where you want to implement the Order Processor profile that you have configured in the previous procedures.  
 
-2.  In the **Search** box, enter **Import Profiles**, and then choose the related link.  
+2.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Import Profiles**, and then choose the related link.  
 
 3.  In the **Import from XML File** window, select the profile that you want to import.  
 

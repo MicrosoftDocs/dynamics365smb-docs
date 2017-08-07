@@ -30,7 +30,7 @@ Errors for background posting are easy to determine. [!INCLUDE[d365fin](../../in
   
 ### To view an error from a sales or purchase list  
   
-1.  Open the relevant list. For example, in the **Search** box, enter **Sales Orders**, and then choose the related link.  
+1.  Open the relevant list. For example, Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.  
   
 2.  Select the entry that you are reviewing, and choose the **Job Queue Status** field. The error message is displayed. Review the error message and fix the problem.  
   

@@ -34,7 +34,7 @@ For items that are set up with backward flushing method, the default behavior is
   
 ### To flush components according to operation output  
   
-1.  In the **Search** box, enter **Items**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
   
 2.  Select the component that you want to set up. On the **Home** tab, in the **Manage** group, choose **Edit**.  
   
@@ -43,11 +43,11 @@ For items that are set up with backward flushing method, the default behavior is
     > [!NOTE]  
     >  Select **Pick+ Forward** if the component is used in a location that is set up for directed put-away and pick.  
   
-4.  In the **Search** box, enter **Routings**, and then choose the related link.  
+4.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Routings**, and then choose the related link.  
   
 5.  Define routing link codes for every operation that consumes the component. For more information, see [How to: Create Routing Links](../how-to-create-routing-links.md).  
   
-6.  In the **Search** box, enter **Production BOM**, and then choose the related link.  
+6.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Production BOM**, and then choose the related link.  
   
 7.  Define routing link codes from each instance of the component to the operation where it is consumed. For more information, see [How to: Create Routing Links](../how-to-create-routing-links.md).  
   

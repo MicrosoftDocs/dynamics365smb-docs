@@ -20,7 +20,7 @@ If you have set up a large number of service orders, it is advantageous to post 
   
 ### To batch post service orders  
   
-1.  In the **Search** box, enter **Service Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Orders**, and then choose the related link.  
   
 2.  On the **Actions** tab, in the **Posting** group, choose **Post Batch**. The **Batch Post Service Orders** batch job request window opens.  
   

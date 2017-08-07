@@ -20,7 +20,7 @@ You can file service contracts and contract quotes at any time to record and arc
   
 ### To file a service contracts or contract quote  
   
-1.  In the **Search** box, enter **Service Contracts** or **Service Contract Quotes**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Contracts** or **Service Contract Quotes**, and then choose the related link.  
   
 2.  Open the relevant service contract or service contract quote.  
   

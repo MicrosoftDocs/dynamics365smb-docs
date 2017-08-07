@@ -20,7 +20,7 @@ Generally, payments are created automatically in the payment journal using the r
   
 ### To create a manual remittance payment  
   
-1.  In the **Search** box, enter **Payment Info**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Info**, and then choose the related link.  
   
 2.  In the **Payment Info** window, on the **Actions** tab, in the **Functions** group, choose **Initialize payment info**.  
   

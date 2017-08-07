@@ -28,7 +28,7 @@ The customer and vendor agreements feature provides the following:
   
 ### To set up an agreement  
   
-1.  In the **Search** box, enter **Sales & Receivables Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales & Receivables Setup**, and then choose the related link.  
   
 2.  To set up agreement, on the **Dimensions** FastTab and **Numbering** FastTabs, enter information in the fields listed in the following table.  
   
@@ -40,7 +40,7 @@ The customer and vendor agreements feature provides the following:
   
 ### To create a customer or vendor agreement  
   
-1.  In the **Search** box, enter **Customers**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.  
   
 2.  Select a customer from the list, and on the **Home** tab, in the **Manage** group, choose **Edit**.  
   

@@ -46,7 +46,7 @@ As you grow your business, you will likely come to rely on a set of company type
   
 -   Inventory Posting Setup  
   
- To see a complete list of setup tables, in the **Search** box, enter **Setup**, and then choose the related link.  
+ To see a complete list of setup tables, Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Setup**, and then choose the related link.  
   
 ### To create a company package  
   

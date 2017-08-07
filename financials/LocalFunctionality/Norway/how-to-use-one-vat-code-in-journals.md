@@ -24,7 +24,7 @@ In Norway, you can use the feature one VAT code in a journal, so that you can po
   
 ### To create a VAT code  
   
-1.  In the **Search** box, enter **VAT Codes**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Codes**, and then choose the related link.  
   
 2.  On the  **Home** tab, choose **New**.  
   
@@ -36,7 +36,7 @@ In Norway, you can use the feature one VAT code in a journal, so that you can po
   
 ### To set up VAT posting  
   
-1.  In the **Search** box, enter **VAT Posting Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Posting Setup**, and then choose the related link.  
   
 2.  On the **Home** tab, choose **New**.  
   

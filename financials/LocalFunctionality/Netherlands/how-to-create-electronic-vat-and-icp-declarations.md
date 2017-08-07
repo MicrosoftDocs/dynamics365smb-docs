@@ -25,7 +25,7 @@ To create electronic VAT and ICP declarations, you must first set up the declara
   
 ### To create an electronic VAT or ICP declaration  
   
-1.  In the **Search** box, enter **Elec. Tax Declarations**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Elec. Tax Declarations**, and then choose the related link.  
   
 2.  In the **Elec. Tax Declaration List** window, on the **Home** tab, choose **New**.  
   

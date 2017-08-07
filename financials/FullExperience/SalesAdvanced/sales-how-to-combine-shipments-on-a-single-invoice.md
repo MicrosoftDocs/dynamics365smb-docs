@@ -22,7 +22,7 @@ If you want to invoice more than one shipment at a time, you can use the combine
   
 ### To manually combine shipments on a single invoice  
   
-1.  In the **Search** box, enter **Sales Invoices**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Invoices**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **New** group, choose **New**.  
   
@@ -44,7 +44,7 @@ If you want to invoice more than one shipment at a time, you can use the combine
   
 ### To automatically combine shipments on a single invoice  
   
-1.  In the **Search** box, enter **Combine Shipments**, and then choose the related link. The batch job request window opens.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Combine Shipments**, and then choose the related link. The batch job request window opens.  
   
 2.  On the **Options** FastTab, fill in the fields. Select the **Post Invoices** field.  
   
@@ -60,7 +60,7 @@ If you want to invoice more than one shipment at a time, you can use the combine
   
 #### To remove open sales orders  
   
--   In the **Search** box, enter **Delete Invoiced Sales Orders**, and then select the link.  
+-   Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Delete Invoiced Sales Orders**, and then select the link.  
   
 -   Specify in the **No.** filter field which sales orders to delete.  
   
@@ -70,7 +70,7 @@ If you want to invoice more than one shipment at a time, you can use the combine
   
 #### To remove open blanket sales orders  
   
--   In the **Search** box, enter **Delete Invoiced Blanket Sales Orders**, and then select the link.  
+-   Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Delete Invoiced Blanket Sales Orders**, and then select the link.  
   
 -   Specify in the **No.** filter field which sales orders to delete.  
   

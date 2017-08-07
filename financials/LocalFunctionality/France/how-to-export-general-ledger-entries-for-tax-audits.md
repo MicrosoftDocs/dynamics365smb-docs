@@ -35,7 +35,7 @@ The standard audit file for tax purposes records key business information (trans
   
 ### To export general ledger entries to a text file for a tax audit  
   
-1.  In the **Search** box, enter **Export G/L Entries – Tax Audit**, and then choose the relevant link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Export G/L Entries – Tax Audit**, and then choose the relevant link.  
   
 2.  In the **Export G/L Entries – Tax Audit** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   

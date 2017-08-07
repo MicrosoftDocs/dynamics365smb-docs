@@ -20,7 +20,7 @@ You can submit the Intrastat report on a disk. Before creating the file, you can
   
 ### To report Intrastat on a disk  
   
-1.  In the **Search** box, enter **Intrastat Journal**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat Journal**, and then choose the related link.  
   
 2.  In the **Intrastat Journal** window, select the relevant journal batch in the **Batch Name** field.  
   

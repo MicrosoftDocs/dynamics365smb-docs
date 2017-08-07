@@ -20,7 +20,7 @@ You can import and export general ledger data according to the standard import e
   
 ### To import data in SIE format  
   
-1.  In the **Search** box, enter **SIE Import**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **SIE Import**, and then choose the related link.  
   
 2.  Fill in the fields as described in the following table.  
   
@@ -37,7 +37,7 @@ You can import and export general ledger data according to the standard import e
   
 ### To export data in SIE format  
   
-1.  In the **Search** box, enter **SIE Export**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **SIE Export**, and then choose the related link.  
   
 2.  On the **G/L Account** FastTab, choose the appropriate filters.  
   

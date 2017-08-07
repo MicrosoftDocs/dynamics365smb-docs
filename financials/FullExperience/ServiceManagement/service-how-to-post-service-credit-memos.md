@@ -20,7 +20,7 @@ When you have created a service credit memo and filled it in, you can post the c
   
 ### To post a service credit memo  
   
-1.  In the **Search** box, enter **Service Credit Memos**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Credit Memos**, and then choose the related link.  
   
 2.  Create a new service credit memo. On the **Home** tab, in the **New** group, choose **New**.  
   

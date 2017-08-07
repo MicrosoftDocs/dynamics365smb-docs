@@ -20,7 +20,7 @@ You can get an overview of an individual employee’s absences.
   
 ### To view an individual employee's absences  
   
-1.  In the **Search** box, enter **Employees**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Employees**, and then choose the related link.  
   
 2.  Select the relevant employee.  
   

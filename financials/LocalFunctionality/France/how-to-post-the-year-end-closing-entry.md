@@ -20,7 +20,7 @@ After you use the **Close Income Statement** batch job to generate the year-end 
   
 ### To post the year-end closing entry  
   
-1.  In the **Search** box, enter **General Journal**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journal**, and then choose the related link.  
   
 2.  Review the entries.  
   

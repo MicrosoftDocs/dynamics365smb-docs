@@ -20,7 +20,7 @@ The need for VAT product posting groups is determined by the way items are taxed
   
 ### To set up VAT product posting groups  
   
-1.  In the **Search** box, enter **VAT Product Posting Groups**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Product Posting Groups**, and then choose the related link.  
   
 2.  In the **VAT Product Posting Groups** window, enter a code in the **Code** field to identify the group.  
   

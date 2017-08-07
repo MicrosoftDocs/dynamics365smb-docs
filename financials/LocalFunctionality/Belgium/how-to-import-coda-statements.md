@@ -20,7 +20,7 @@ When you receive a CODA statement from your bank, you must import it into ADD IN
   
 ### To import a CODA statement  
   
-1.  In the **Search** box, enter **Bank Accounts**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.  
   
 2.  Select the bank account, and on the **Home** tab, in the **Progress** group, choose **Import CODA File**.  
   

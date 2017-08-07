@@ -22,7 +22,7 @@ After you have entered all data for a physical inventory recording, you can fini
   
 ### To finish a physical inventory recording  
   
-1.  In the **Search** box, enter **Phys. Inventory Recording List**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Phys. Inventory Recording List**, and then choose the related link.  
   
 2.  Open the physical inventory recording that you want to finish.  
   

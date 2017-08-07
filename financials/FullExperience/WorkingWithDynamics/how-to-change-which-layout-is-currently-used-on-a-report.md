@@ -22,7 +22,7 @@ This procedure describes how to change the layout that is used by a report. A re
   
 ### To change the layout that is used on a report  
   
-1.  In the **Search** box, enter **Report Layout Selection**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Report Layout Selection**, and then choose the related link.  
   
      The **Report Layout Selection** window lists all the reports that are available for the company that is specified in the **Company** field at the top of the window.  
   

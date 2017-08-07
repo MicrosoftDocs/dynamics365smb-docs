@@ -33,7 +33,7 @@ After items have been put away and before they are picked to fulfill the needs o
   
 ### To create a pick from the internal pick  
   
-1.  In the **Search** box, enter **Whse. Internal Pick**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Whse. Internal Pick**, and then choose the related link.  
   
 2.  Fill in the **No.** field and the **To Bin Code** field on the **General** FastTab. The **To Bin Code** field specifies the bin from which you want to get the items. For production purposes, this bin would be the inbound production bin or the open shop bin. For other purposes, choose a To Bin Code of a bin type that is not used for picking, most likely a staging, shipping or special purpose bin.  
   
@@ -43,7 +43,7 @@ After items have been put away and before they are picked to fulfill the needs o
   
 ### To create a put-away from the internal put-away  
   
-1.  In the **Search** box, enter **Whse. Internal Put-away**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Whse. Internal Put-away**, and then choose the related link.  
   
 2.  Fill in the **No.** and **From Bin Code** fields on the **General** FastTab. The **From Bin Code** field specifies the bin where the items being returned to the warehouse, perhaps from production, are located.  
   

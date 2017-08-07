@@ -32,7 +32,7 @@ You can use an EU web service to verify that VAT registration numbers that you e
   
 ### To verify a VAT registration number from a customer card  
   
-1.  In the **Search** box, enter **Customers**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.  
   
 2.  Open the card of a customer where you want to verify the VAT registration number.  
   

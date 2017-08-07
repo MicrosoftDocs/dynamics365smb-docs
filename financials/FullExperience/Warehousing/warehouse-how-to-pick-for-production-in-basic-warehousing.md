@@ -33,7 +33,7 @@ When your warehouse location requires pick processing but does not require shipm
   
 ### To pick components with the inventory pick document  
   
-1.  In the **Search** box, enter **Inventory Picks**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Inventory Picks**, and then choose the related link.  
   
 2.  To access the production order components, on the **Actions** tab, in the **Functions** group, choose **Get Source Documents**, and then select the released production order.  
   

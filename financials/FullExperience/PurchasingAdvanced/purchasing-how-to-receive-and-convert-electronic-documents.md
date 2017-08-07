@@ -39,7 +39,7 @@ The generic version of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_
   
 ### To receive and convert an electronic invoice to a purchase invoice  
   
-1.  In the **Search** box, enter **Incoming Documents**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Incoming Documents**, and then choose the related link.  
   
 2.  Select the line for the incoming document record that represents a new incoming electronic invoice, and then, on the **Home** tab, in the **Manage** group, choose **Edit**.  
   

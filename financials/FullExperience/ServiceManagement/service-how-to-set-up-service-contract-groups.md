@@ -20,7 +20,7 @@ You can use the **Service Contract Groups** window to set up groups of service c
   
 ### To set up a service contract group  
   
-1.  In the **Search** box, enter **Service Contract Groups**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Contract Groups**, and then choose the related link.  
   
 2.  Create a new service contract group. On the **Home** tab, in the **New** group, choose **New**.  
   

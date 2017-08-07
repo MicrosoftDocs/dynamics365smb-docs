@@ -28,7 +28,7 @@ If you want to restrict a record from being used in certain activities, for exam
 
 ### To create a workflow step that restricts posting of unapproved purchase orders  
 
-1.  In the **Search** box, enter **Workflows**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Workflows**, and then choose the related link.  
 
 2.  In the **Workflows** window, create a new workflow named Purchase Order Approval Workflow. For more information, see [How to: Create Workflows](across-how-to-create-workflows.md).  
 

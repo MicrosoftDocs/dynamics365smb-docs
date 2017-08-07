@@ -20,7 +20,7 @@ Every posting that involves VAT creates an entry in the **VAT Entries** window. 
   
 ### To view VAT entries  
   
-1.  In the **Search** box, enter **G/L Registers**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Registers**, and then choose the related link.  
   
 2.  In the **G/L Registers** window, on the **Home** tab, in the **Process** group, choose **VAT Entries**.  
   

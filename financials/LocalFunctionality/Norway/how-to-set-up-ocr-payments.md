@@ -20,7 +20,7 @@ You can process electronic payments from customers according to a predefined pay
   
 ### To set up OCR payments  
   
-1.  In the **Search** box, enter **OCR Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **OCR Setup**, and then choose the related link.  
   
 2.  On the **General** FastTab, fill in the fields as described in the following table.  
   

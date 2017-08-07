@@ -23,7 +23,7 @@ When you select an existing data template, you must evaluate whether the templat
   
 ### To select a data template  
   
-1.  In the **Search** box, enter **Templates**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Templates**, and then choose the related link.  
   
 2.  Open the **Config. Templates** window.  
   

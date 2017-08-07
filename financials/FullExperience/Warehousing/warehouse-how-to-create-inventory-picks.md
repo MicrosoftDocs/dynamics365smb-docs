@@ -36,7 +36,7 @@ When your location is set up to require pick processing but not shipment process
   
 -   After the warehouse request has been created, someone working in the warehouse creating picks can see that the source document is ready to be picked and can create a new pick document based on the warehouse request.  
   
-1.  In the **Search** box, enter **Inventory Picks**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Inventory Picks**, and then choose the related link.  
   
 2.  Create a new pick.  
   

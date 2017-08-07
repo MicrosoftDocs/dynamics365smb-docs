@@ -20,7 +20,7 @@ You can reserve items for sales orders. You must have already set up a sales ord
   
 ### To reserve items for sales  
   
-1.  In the **Search** box, enter **Sales Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.  
   
 2.  On a sales order, on the **Lines** FastTab, choose **Actions**![Action Menu icon](../media/actionmenuicon.png "actionMenuIcon"), choose **Functions**, and then choose **Reserve**. The **Reservation** window opens.  
   

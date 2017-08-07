@@ -20,7 +20,7 @@ You can check and see if an item you need to fulfill an order is in stock, and i
   
 ### To check item availability for all orders  
   
-1.  In the **Search** box, enter **Dispatch Board**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Dispatch Board**, and then choose the related link.  
   
 2.  Select an order, and on the **Navigate** tab, in the **Planning** group, choose **Demand Overview**.  
   
@@ -30,7 +30,7 @@ You can check and see if an item you need to fulfill an order is in stock, and i
   
 ### To check item availability for a single order  
   
-1.  In the **Search** box, enter **Dispatch Board**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Dispatch Board**, and then choose the related link.  
   
 2.  Select an order to review. On the **Navigate** tab, in the **Dispatch Board** group, choose **Show Document**. The **Service Order** window opens.  
   

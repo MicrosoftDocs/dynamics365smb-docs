@@ -20,7 +20,7 @@ For some items, you might want to set up specific warranties in the item trackin
   
 ### To set up warranties for serial or lot numbers  
   
-1.  In the **Search** box, enter **Item Tracking Codes**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Tracking Codes**, and then choose the related link.  
   
 2.  Select an existing item tracking code, and then, on the **Home** tab, in the **Manage** group, choose **Edit**.  
   

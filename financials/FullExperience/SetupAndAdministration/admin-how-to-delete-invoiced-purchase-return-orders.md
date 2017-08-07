@@ -22,7 +22,7 @@ Return orders are usually deleted after they are invoiced. When you post an invo
   
 ### To delete invoiced purchase return orders  
   
-1.  In the **Search** box, enter **Delete Invoiced Purchase Return Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Delete Invoiced Purchase Return Orders**, and then choose the related link.  
   
 2.  Set filters in the **No.**, **Buy-from Vendor No.**, and **Pay-to Vendor No.** fields to select the orders to be deleted.  
   

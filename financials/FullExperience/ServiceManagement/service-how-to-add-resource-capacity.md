@@ -20,7 +20,7 @@ You may regularly need to change the capacity of resources, such as technicians,
   
 ### To add resource capacity  
   
-1.  In the **Search** box, enter **Resource List**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Resource List**, and then choose the related link.  
   
 2.  On the **Navigate** tab, in the **Planning** group, choose **Resource Capacity**. The **Resource Capacity** window opens.  
   

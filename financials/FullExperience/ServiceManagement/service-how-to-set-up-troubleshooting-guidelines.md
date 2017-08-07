@@ -20,7 +20,7 @@ You can use the **Troubleshooting** window to set up troubleshooting guidelines 
   
 ### To set up troubleshooting guidelines  
   
-1.  In the **Search** box, enter **Troubleshooting**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Troubleshooting**, and then choose the related link.  
   
 2.  Create new troubleshooting guidelines for a service item. On the **Home** tab, in the **New** group, choose **New**.  
   

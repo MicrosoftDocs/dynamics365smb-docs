@@ -27,7 +27,7 @@ Notifications are sent to workflow users to notify them about steps they must ma
 
 ### To create a new notification template  
 
-1.  In the **Search** box, enter **Notification Templates**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Notification Templates**, and then choose the related link.  
 
 2.  In the **Notification Templates** window, on the **Home** tab, in the **New** group, choose **New**.  
 
@@ -43,7 +43,7 @@ Notifications are sent to workflow users to notify them about steps they must ma
 
 ### To modify a notification template  
 
-1.  In the **Search** box, enter **Notification Templates**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Notification Templates**, and then choose the related link.  
 
 2.  In the **Notification Templates** window, select the notification template that you want to modify.  
 
@@ -96,4 +96,3 @@ Notifications are sent to workflow users to notify them about steps they must ma
  NOTES Write Notes   
  [How to: Set Up Job Queues](across-how-to-set-up-job-queues.md)   
  [Workflow](across-workflow.md)   
- 

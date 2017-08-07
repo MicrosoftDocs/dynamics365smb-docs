@@ -11,12 +11,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/04/2017
+    ms.date: 08/07/2017
     ms.author: sgroespe
 
 ---
 # How to: Set Up Prepayments
-If you require your customers to submit payment before you ship an order to them, or if your vendor requires you to submit payment before they ship an order to you, you can use the Prepayment functionality. The functionality enables you to invoice and collect deposits required from customers or to remit deposits to vendors, and to ensure that all partial payments are posted against an invoice. For more information, see [Invoicing Prepayments](finance-invoice-prepayments.md).
+If you require your customers to submit payment before you ship an order to them, or if your vendor requires you to submit payment before they ship an order to you, you can use the Prepayment functionality. The functionality enables you to invoice and collect deposits required from customers or to remit deposits to vendors, and to ensure that all partial payments are posted against an invoice. For more information, see [How to: Create Prepayment Invoices](finance-how-to-create-prepayment-invoices.md).
 
 Before you can post prepayment invoices, you have to set up the posting accounts in the general ledger, and you have to set up number series for prepayment documents.  
 
@@ -37,14 +37,14 @@ Because the prepaid amount belongs to the buyer until they have received the goo
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales & Receivables Setup**, and then choose the related link.
 2. In the **Sales & Receivables Setup** window, fill in the following fields:  
 
--   -**Posted Prepmt. Inv. Nos.**
-    -**Posted Prepmt. Cr. Memo Nos.**
+   - **Posted Prepmt. Inv. Nos.**
+   - **Posted Prepmt. Cr. Memo Nos.**
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchases & Payables Setup**, and then choose the related link.
 2. In the **Purchases & Payables Setup** window, fill in the following fields:
 
-    -**Posted Prepmt. Inv. Nos.**
-    -**Posted Prepmt. Cr. Memo Nos.**
+    - **Posted Prepmt. Inv. Nos.**
+    - **Posted Prepmt. Cr. Memo Nos.**
 
 > [!NOTE]  
 >  You can use the same number series for prepayment invoices and regular invoices, or you can use different number series. If you use different series, they must not overlap because there must not be any numbers that exist in both series.  

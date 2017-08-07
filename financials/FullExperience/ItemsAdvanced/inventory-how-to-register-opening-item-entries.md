@@ -20,7 +20,7 @@ To record inventory on hand of individual items, you must post an entry for each
   
 ### To register opening item entries  
   
-1.  In the **Search** box, enter **Item Journal**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Journal**, and then choose the related link.  
   
 2.  Fill in a line in the item journal for every item. In the **Entry Type** field, select **Positive Adjmt**.  
   

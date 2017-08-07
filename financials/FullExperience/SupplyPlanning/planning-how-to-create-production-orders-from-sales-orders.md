@@ -20,7 +20,7 @@ You can create production orders from sales orders in the Sales & Marketing depa
   
 ### To create a production order from a sales order  
   
-1.  In the **Search** box, enter **Sales Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.  
   
 2.  Select the sales order you want to create a production order for.  
   

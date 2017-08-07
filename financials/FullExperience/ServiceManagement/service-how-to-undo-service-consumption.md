@@ -20,7 +20,7 @@ You may need to cancel the consumption on the service order because it was poste
   
 ### To undo posted consumption  
   
-1.  In the **Search** box, enter **Posted Service Shipments**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Service Shipments**, and then choose the related link.  
   
 2.  Open the posted service shipment for which the erroneous consumption was posted.  
   

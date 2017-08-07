@@ -28,7 +28,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], an item can be marked as b
   
 ### To block inventory items for sales  
   
-1.  In the **Search** box, enter **Items**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
   
 2.  Select the item that you want to block. On the **Home** tab, in the **Manage** group, choose **Edit**.  
   
@@ -38,7 +38,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], an item can be marked as b
   
 ### To block inventory items for purchase  
   
-1.  In the **Search** box, enter **Items**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
   
 2.  Select the item that you want to block. On the **Home** tab, in the **Manage** group, choose **Edit**.  
   

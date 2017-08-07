@@ -22,7 +22,7 @@
   
 ### To view general ledger reconciliation with the customer ledger  
   
-1.  In the **Search** box, enter **General Ledger**, and then choose the related link in **General Ledger**.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger**, and then choose the related link in **General Ledger**.  
   
 2.  Under **Reports**, under **France**, choose **GL/Cust. Ledger Reconciliation**.  
   

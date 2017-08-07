@@ -22,7 +22,7 @@ General journals are used to post to general ledger, bank, customer, vendor, and
 
 ### To fill in and post a general journal  
 
-1.  In the **Search** box, enter **General Journal**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journal**, and then choose the related link.  
 
 2.  Fill in the fields on the first line manually.  
 
@@ -38,7 +38,7 @@ General journals are used to post to general ledger, bank, customer, vendor, and
 
 ### To fill in and post a payment journal  
 
-1.  In the **Search** box, enter **Payment Journals**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.  
 
 2.  Fill payment journal lines, for example, by using the **Suggest Vendor Payments** function. For more information, see [How to: Suggest Vendor Payments](../FullExperience/how-to-suggest-vendor-payments.md).  
 

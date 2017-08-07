@@ -20,7 +20,7 @@ You might need to create a service invoice for the service that has already been
   
 ### To invoice posted shipment lines  
   
-1.  In the **Search** box, enter **Service Invoices**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Invoices**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **New** group, choose **New**. Create a new service invoice.  
   

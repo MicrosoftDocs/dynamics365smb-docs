@@ -24,7 +24,7 @@ To transfer workflows to other [!INCLUDE[d365fin](includes/d365fin_md.md)] datab
 
 ### To export a workflow  
 
-1.  In the **Search** box, enter **Workflows**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Workflows**, and then choose the related link.  
 
 2.  Select a workflow, and then, on the **Actions** tab, in the **General** group, choose **Export to File**.  
 
@@ -34,7 +34,7 @@ To transfer workflows to other [!INCLUDE[d365fin](includes/d365fin_md.md)] datab
 
 ### To import a workflow  
 
-1.  In the **Search** box, enter **Workflows**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Workflows**, and then choose the related link.  
 
 2.  On the **Actions** tab, in the **General** group, choose **Import from File**.  
 

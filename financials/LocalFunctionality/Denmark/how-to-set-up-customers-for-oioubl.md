@@ -22,7 +22,7 @@ To create Offentlig Information Online UBL (OIOUBL) documents for customers in t
 
 ### To set up customers for OIOUBL  
 
-1.  In the **Search** box, enter **Customers**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.  
 
 2.  Open the customer that you want to enable for OIOUBL.  
 

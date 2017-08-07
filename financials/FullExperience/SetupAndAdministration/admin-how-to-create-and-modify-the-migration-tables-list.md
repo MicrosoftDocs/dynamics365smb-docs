@@ -22,7 +22,7 @@ You can create new data migration files and customize them to support your busin
   
 ### To create a data migration file  
   
-1.  In the **Search** box, enter **Configuration Package**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Package**, and then choose the related link.  
   
 2.  Select and open the package that you want to use to migrate data. On the **Actions** tab, choose **Get Tables**. The **Get Package Table** window opens.  
   

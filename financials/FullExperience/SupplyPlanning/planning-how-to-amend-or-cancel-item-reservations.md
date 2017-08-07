@@ -22,7 +22,7 @@ Sometimes you may want to amend or cancel an item reservation.
   
 ### To amend or cancel item reservations  
   
-1.  In the **Search** box, enter **Firm Planned Prod. Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Firm Planned Prod. Orders**, and then choose the related link.  
   
 2.  Open the relevant firm planned production order from the list.  
   

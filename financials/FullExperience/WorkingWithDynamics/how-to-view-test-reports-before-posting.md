@@ -23,7 +23,7 @@ When you are ready to post a document, such as an order, invoice, or a credit me
   
 ### To print a test report before posting a purchase invoice  
   
-1.  In the **Search** box, enter **Purchase Invoices**, and then select the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoices**, and then select the related link.  
   
 2.  Open the purchase invoice that you want to test.  
   

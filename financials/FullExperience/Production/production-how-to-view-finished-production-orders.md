@@ -20,7 +20,7 @@ All finished production orders are archived when their status has been changed f
   
 ### To view finished production orders  
   
-1.  In the **Search** box, enter **Finished Prod. Order**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Finished Prod. Order**, and then choose the related link.  
   
 2.  Open the relevant finished prouction. order from the list.  
   

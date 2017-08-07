@@ -20,7 +20,7 @@ Kunde ID (KID) is a customer identification number that provides a payment refer
   
 ### To set up KID numbers on sales documents  
   
-1.  In the **Search** box, enter **Sales & Receivables Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales & Receivables Setup**, and then choose the related link.  
   
 2.  On the **Documents** FastTab, fill in the fields as described in the following table.  
   

@@ -20,7 +20,7 @@ You may often have contacts or potential customers asking for quotes. These cont
   
 ### To set up a customer template  
   
-1.  In the **Search** box, enter **Customer Templates**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customer Templates**, and then choose the related link.  
   
 2.  Create a new customer template card. On the **Home** tab, in the **New** group, choose **New**.  
   

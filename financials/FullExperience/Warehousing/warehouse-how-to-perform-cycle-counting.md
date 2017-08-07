@@ -28,7 +28,7 @@ Although you count all items in inventory at least once a year, you may have dec
   
 ### To perform cycle counting without directed put-away and pick  
   
-1.  In the **Search** box, enter **Phys. Inventory Journal**, and choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Phys. Inventory Journal**, and choose the related link.  
   
 2.  On the **Actions** tab, in the **Functions** group, choose **Calculate Counting Period**. The **Phys. Invt. Item Selection** window opens, which contains the items for which counting periods have been established that need to be counted, according to their counting periods.  
   
@@ -39,7 +39,7 @@ Although you count all items in inventory at least once a year, you may have dec
   
 4.  Choose the **OK** button, and the selected lines now appear in the **Phys. Inventory Journal** window.  
   
-5.  In the **Search** box, enter **Phys. Inventory List**, and choose the related link.  
+5.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Phys. Inventory List**, and choose the related link.  
   
 6.  Open the report request page and print the report, and count all the items in the warehouse with the item numbers on the report lines.  
   
@@ -49,7 +49,7 @@ Although you count all items in inventory at least once a year, you may have dec
   
 ### To perform cycle counting with directed put-away and pick  
   
-1.  In the **Search** box, enter **Whse. Phys. Invt. Journal**, and choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Whse. Phys. Invt. Journal**, and choose the related link.  
   
 2.  On the **Actions** tab, in the **Functions** group, choose **Counting Period**. The **Phys. Invt. Item Selection** window opens, containing the items or stockkeeping units for which counting periods have been established that need to be counted according to their counting periods.  
   
@@ -72,7 +72,7 @@ Although you count all items in inventory at least once a year, you may have dec
   
 ### To post the results with directed put-away and pick  
   
-1.  In the **Search** box, enter **Item Journal**, and choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Journal**, and choose the related link.  
   
 2.  On the **Actions** tab, in the **Functions** group, choose **Calculate Whse. Adjustment**.  
   
@@ -88,7 +88,7 @@ Although you count all items in inventory at least once a year, you may have dec
   
 ### To calculate the next counting period  
   
-1.  In the **Search** box, enter **Items**.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**.  
   
 2.  Select the item card of each item for which you performed a cycle count.  
   

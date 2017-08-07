@@ -23,7 +23,7 @@ If you are using bins at a location, you will need to occasionally adjust the qu
   
 #### To post bin adjustment in basic warehouses that use bins only  
   
-1.  In the **Search** box, enter **Item Journal**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Journal**, and then choose the related link.  
   
 2.  Fill in the fields on each journal line.  
   
@@ -41,7 +41,7 @@ If you are using bins at a location, you will need to occasionally adjust the qu
   
 #### To post bin adjustment in advanced warehouses that use directed put-away and pick  
   
-1.  In the **Search** box, enter **Item Journal**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Journal**, and then choose the related link.  
   
 2.  Fill in the fields on each journal line.  
   

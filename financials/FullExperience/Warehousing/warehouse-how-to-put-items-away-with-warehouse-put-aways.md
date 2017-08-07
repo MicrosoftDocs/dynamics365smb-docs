@@ -26,7 +26,7 @@ When your location is set up to require warehouse put-away processing and wareho
   
 ### To put items away without directed put-away and pick  
   
-1.  In the **Search** box, enter **Put-aways**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Put-aways**, and then choose the related link.  
   
 2.  Open the warehouse put-away that is ready to handle.  
   
@@ -40,7 +40,7 @@ When your location is set up to require warehouse put-away processing and wareho
   
 ### To put items away with directed put-away and pick  
   
-1.  In the **Search** box, enter **Put-aways**, and then choose the related link. If put-away instructions have been created, a warehouse put-away is visible.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Put-aways**, and then choose the related link. If put-away instructions have been created, a warehouse put-away is visible.  
   
 2.  Open the warehouse put-away that you want to work on.  
   

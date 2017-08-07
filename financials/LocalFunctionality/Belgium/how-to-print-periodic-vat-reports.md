@@ -26,7 +26,7 @@ The VAT reporting feature enables you to print VAT transaction details. You must
   
 ### To print the monthly/quarterly declaration  
   
-1.  In the **Search** box, enter **Form/Intervat Declaration**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Form/Intervat Declaration**, and then choose the related link.  
   
 2.  In the **VAT – Form** window, fill in the fields.  
   
@@ -76,11 +76,11 @@ The VAT reporting feature enables you to print VAT transaction details. You must
   
 ### To print the VAT-VIES declaration report to disk  
   
-1.  In the **Search** box, enter the **VAT – Vies Declaration Disk**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter the **VAT – Vies Declaration Disk**, and then choose the related link.  
   
 2.  Enter the required information, and choose the **OK** button to start the batch job, which will create an xml file. For more information, see VAT- VIES Declaration Disk.  
   
-3.  If you have to make a correction, in the **Search** box, enter **VAT – VIES Correction**, and then choose the related link.  
+3.  If you have to make a correction, Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT – VIES Correction**, and then choose the related link.  
   
 4.  On the **Home** tab, in the **Manage** group, choose **Edit List**, and then enter the information that has to be adjusted. Choose the **OK** button.  
   

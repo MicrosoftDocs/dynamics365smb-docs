@@ -20,7 +20,7 @@ You can assign any tools to standard tasks. The assigned tools specify which too
   
 ### To assign a tool to a standard task  
   
-1.  In the **Search** box, enter **Standard Tasks**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Standard Tasks**, and then choose the related link.  
   
 2.  Select the standard task to be processed.  
   

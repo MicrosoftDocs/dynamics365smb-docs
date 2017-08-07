@@ -24,7 +24,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can print the followin
   
 ### To print a bank reconciliation test report  
   
-1.  In the **Search** box, enter **Bank Account Reconciliations**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Account Reconciliations**, and then choose the related link.  
   
 2.  On the **Report** tab, in the **General** group, choose **Bank Rec. Test Report**.  
   
@@ -45,7 +45,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can print the followin
   
 ### To print a bank reconciliation report  
   
-1.  In the **Search** box, enter **Bank Account Reconciliations**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Account Reconciliations**, and then choose the related link.  
   
 2.  On the **Report** tab, in the **General** group, choose **Bank Account – Reconcile**.  
   

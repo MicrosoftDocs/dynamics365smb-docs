@@ -40,7 +40,7 @@ In advanced warehousing where the location is set up to use picking as well as s
   
 ### To pick components using the pick worksheet  
   
-1.  In the **Search** box, enter **Pick Worksheet**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Pick Worksheet**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **Process** group, choose **Get Warehouse Documents**, and then select the component lines from the released production order.  
   

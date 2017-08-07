@@ -20,7 +20,7 @@ When you set up a warehouse location for directed put-away and pick, you have ne
   
 ### To set up an item for directed put-away and pick  
   
-1.  In the **Search** box, enter **Items**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
   
 2.  Select the item that you want to set up for directed put-away and pick.  
   

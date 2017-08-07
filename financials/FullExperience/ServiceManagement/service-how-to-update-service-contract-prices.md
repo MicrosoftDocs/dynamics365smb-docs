@@ -20,7 +20,7 @@ You can update the prices on service contracts by specifying a price update perc
   
 ### To update a service contract price  
   
-1.  In the **Search** box, enter **Update Service Contract Prices**, and then choose the related link. The **Update Contract Prices** window opens.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Update Service Contract Prices**, and then choose the related link. The **Update Contract Prices** window opens.  
   
 2.  On the **Service Contract Header** FastTab, set the filters you want to apply.  
   

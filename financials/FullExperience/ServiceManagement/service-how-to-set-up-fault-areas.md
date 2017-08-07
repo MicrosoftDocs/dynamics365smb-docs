@@ -20,7 +20,7 @@ You can use the **Fault Areas** window to set up fault areas to describe areas o
   
 ### To set up fault areas  
   
-1.  In the **Search** box, enter **Fault Areas**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Fault Areas**, and then choose the related link.  
   
 2.  Create a new fault area   code. On the **Home** tab, in the **New** group, choose **New**.  
   

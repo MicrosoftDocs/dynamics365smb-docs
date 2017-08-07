@@ -20,7 +20,7 @@ You may at times need to modify bin content to update the details of a bin conte
   
 ### To modify bin content  
   
-1.  In the **Search** box, enter **Locations**, and then choose the related link. Select the location you want.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link. Select the location you want.  
   
 2.  On the **Navigate** tab, in the **Location** group, choose **Bins** and select the bin with the bin content that needs to be modified.  
   

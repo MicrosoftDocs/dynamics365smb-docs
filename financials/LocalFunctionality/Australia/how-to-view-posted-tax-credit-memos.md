@@ -22,7 +22,7 @@ You can use the **Posted Sales Tax Credit Memo** window and **Posted Purch. Tax 
   
 ### To view a posted sales tax credit memo  
   
-1.  In the **Search** box, enter **Posted Sales Tax Credit Memo**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Sales Tax Credit Memo**, and then choose the related link.  
   
 2.  View the FastTabs as described in the following table.  
   

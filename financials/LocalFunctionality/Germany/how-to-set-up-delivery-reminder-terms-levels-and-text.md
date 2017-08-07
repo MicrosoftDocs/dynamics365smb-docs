@@ -30,7 +30,7 @@ To create delivery reminders, you must set up the following:
   
 ### To set up delivery reminder terms  
   
-1.  In the **Search** box, enter **Delivery Reminder Terms**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Delivery Reminder Terms**, and then choose the related link.  
   
 2.  On the **Home** tab, choose **New**.  
   

@@ -26,7 +26,7 @@ You can set each customer up with a preferred method of sending sales documents,
   
 ### To set up a document sending profile  
   
-1.  In the **Search** box, enter **Document Sending Profiles**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Document Sending Profiles**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **New** group, choose **New**.  
   
@@ -47,7 +47,7 @@ You can set each customer up with a preferred method of sending sales documents,
   
 ### To specify a sending profile on a customer card  
   
-1.  In the **Search** box, enter **Customers**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.  
   
 2.  Open the card of the customer who you want to set up a sending profile for.  
   
@@ -55,7 +55,7 @@ You can set each customer up with a preferred method of sending sales documents,
   
 ### To set up electronic document formats  
   
-1.  In the **Search** box, enter **Electronic Document Formats**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Electronic Document Formats**, and then choose the related link.  
   
 2.  In the **Electronic Document Format** window, create a new line for a new electronic document format that you want to set up.  
   

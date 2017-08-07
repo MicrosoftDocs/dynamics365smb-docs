@@ -26,7 +26,7 @@ You can encrypt data on the ADD INCLUDE<!--[!INCLUDE[nav_server](../../includes/
   
 #### To export an encryption key  
   
-1.  In the **Search** box, enter Data Encryption Management, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter Data Encryption Management, and then choose the related link.  
   
 2.  On the **Home** tab, in the **Process** group, choose **Export Encryption Key**.  
   
@@ -41,7 +41,7 @@ You can encrypt data on the ADD INCLUDE<!--[!INCLUDE[nav_server](../../includes/
   
 #### To import an encryption key  
   
-1.  In the **Search** box, enter Data Encryption Management, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter Data Encryption Management, and then choose the related link.  
   
 2.  On the **Home** tab, in the **Process** group, choose **Import Encryption Key**.  
   
@@ -57,7 +57,7 @@ You can encrypt data on the ADD INCLUDE<!--[!INCLUDE[nav_server](../../includes/
   
 #### To change an encryption key  
   
-1.  In the **Search** box, enter Data Encryption Management, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter Data Encryption Management, and then choose the related link.  
   
 2.  On the **Home** tab, in the **Process** group, choose **Change Encryption Key**.  
   

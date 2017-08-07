@@ -30,7 +30,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the following 
   
 ### To set up 1099 tax for vendors  
   
-1.  In the **Search** box, enter **Purchase Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Orders**, and then choose the related link.  
   
 2.  Select a purchase order, and then on the **Home** tab, in the **Manage** group, choose **Edit**.  
   
@@ -51,7 +51,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the following 
   
 ### To print vendor 1099 information reports  
   
-1.  In the **Search** box, enter **Vendor 1099 Information**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendor 1099 Information**, and then choose the related link.  
   
 2.  On the **Vendor** FastTab, select the appropriate filters.  
   

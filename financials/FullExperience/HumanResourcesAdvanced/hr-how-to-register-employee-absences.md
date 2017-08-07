@@ -22,7 +22,7 @@ In order for you to be able to manage employee absences, you must register them.
   
 ### To register employee absences  
   
-1.  In the **Search** box, enter **Absence Registration**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Absence Registration**, and then choose the related link.  
   
 2.  Create a new absence registration. On the **Home** tab, in the **New** group, choose **New**.  
   

@@ -20,7 +20,7 @@ You use the **Default Service Hours** window to set up the usual service working
   
 ### To set up default service hours  
   
-1.  In the **Search** box, enter **Default Service Hours**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Default Service Hours**, and then choose the related link.  
   
 2.  Create a new default service hour entry.  
   

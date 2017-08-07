@@ -28,7 +28,7 @@ You must submit a periodic report of transactions with customers and vendors in 
   
 ### To update the relevant countries/regions  
   
-1.  In the **Search** box, enter **Countries/Regions**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Countries/Regions**, and then choose the related link.  
   
 2.  Choose the relevant country/region, and then select the **Blacklisted** field.  
   
@@ -41,7 +41,7 @@ You must submit a periodic report of transactions with customers and vendors in 
   
 ### To specify the current threshold amount  
   
-1.  In the **Search** box, enter **VAT Posting Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Posting Setup**, and then choose the related link.  
   
 2.  In the **VAT Posting Setup** window, on the **Navigate** tab, in the **Setup** group, choose **Blacklist Comm. Amount**.  
   
@@ -78,7 +78,7 @@ You must submit a periodic report of transactions with customers and vendors in 
   
 #### To set up the template to create the list of Blacklist transactions  
   
-1.  In the **Search** box, enter **Blacklist Communication**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Blacklist Communication**, and then choose the related link.  
   
 2.  In the **Name** field, select the relevant VAT statement name.  
   
@@ -109,7 +109,7 @@ You must submit a periodic report of transactions with customers and vendors in 
   
 #### To create and print the list of transactions  
   
-1.  In the **Search** box, enter **Blacklist Communication**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Blacklist Communication**, and then choose the related link.  
   
 2.  In the **Name** field, select the relevant VAT statement name.  
   
@@ -139,7 +139,7 @@ You must submit a periodic report of transactions with customers and vendors in 
   
 #### To preview and export the list of transactions  
   
-1.  In the **Search** box, enter **Blacklist Communication**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Blacklist Communication**, and then choose the related link.  
   
 2.  In the **Name** field, select the relevant VAT statement name.  
   

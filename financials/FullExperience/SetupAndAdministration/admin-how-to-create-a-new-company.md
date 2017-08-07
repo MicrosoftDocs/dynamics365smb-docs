@@ -26,7 +26,7 @@ To use RapidStart Services tables and pages are created, but there is no data in
 
 1.  Open ADD INCLUDE<!--[!INCLUDE[demoname](../../includes/demoname_md.md)]-->  
 
-2.  In the **Search** box, enter **Configuration Packages**, and then choose the related link.  
+2.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Packages**, and then choose the related link.  
 
 3.  Choose the BASICCONFIG package from the list, and on the **Home** tab, in the **Process** group, choose **Export Package**.  
 

@@ -20,7 +20,7 @@ You can import payroll transactions into a general journal from two external pay
   
 ### To set up payroll integration  
   
-1.  In the **Search** box, enter **Payroll Integration Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payroll Integration Setup**, and then choose the related link.  
   
 2.  On the **General** FastTab, fill in the fields as described in the following table.  
   
@@ -38,7 +38,7 @@ You can import payroll transactions into a general journal from two external pay
   
 ### To import payroll transactions  
   
-1.  In the **Search** box, enter **General Journals**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journals**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **Process** group, choose **Import Payroll**.  
   

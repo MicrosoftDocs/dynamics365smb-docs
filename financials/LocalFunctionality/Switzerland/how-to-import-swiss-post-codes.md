@@ -20,7 +20,7 @@ You can import the latest post code file and use it to update the **Post Code** 
   
 ### To import post codes  
   
-1.  In the **Search** box, enter **Post Codes**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Post Codes**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **Process** group, choose **Import Post Codes**.  
   
@@ -34,7 +34,7 @@ You can import the latest post code file and use it to update the **Post Code** 
   
 ### To define post codes for customers  
   
-1.  In the **Search** box, enter **Customers**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.  
   
 2.  Select the customer for whom you want to define a post code, and on the **Home** tab, in the **Manage** group, choose **Edit**.  
   

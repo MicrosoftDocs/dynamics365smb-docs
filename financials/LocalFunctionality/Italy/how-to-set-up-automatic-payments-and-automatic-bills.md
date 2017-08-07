@@ -22,7 +22,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can manage automatic p
   
 ### To add bank information for your company  
   
-1.  In the **Search** box, enter **Company Information**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.  
   
 2.  On the **Payments** FastTab, fill in the key fields as described in the following table.  
   
@@ -61,7 +61,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can manage automatic p
   
 ### To set up automatic bills for sales and receivables  
   
-1.  In the **Search** box, enter **Sales & Receivables Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales & Receivables Setup**, and then choose the related link.  
   
 2.  On the **Bills** FastTab, in the **Temporary Bill List No.** field, select the temporary bill list number. Fill in the fields as described in the following table.  
   
@@ -77,7 +77,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can manage automatic p
   
 ### To specify bill codes for a payment method  
   
-1.  In the **Search** box, enter **Payment Methods**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Methods**, and then choose the related link.  
   
 2.  Select the payment method that you use for bank transfers to vendors, and then, in the **Bill Code** field, select a bill code.  
   

@@ -26,7 +26,7 @@ After a CODA statement has been imported, the statement lines can be accessed fr
   
 ### To manually apply the CODA statement lines  
   
-1.  In the **Search** box, enter **Bank Accounts**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.  
   
 2.  Select the bank account, and on the **Home** tab, in the **Process** group, choose **CODA Statements**.  
   
@@ -43,7 +43,7 @@ After a CODA statement has been imported, the statement lines can be accessed fr
   
 ### To automatically apply the CODA statement lines  
   
-1.  In the **Search** box, enter **Bank Accounts**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.  
   
 2.  Select the bank account, and on the **Home** tab, in the **Process** group, choose **CODA Statements**.  
   

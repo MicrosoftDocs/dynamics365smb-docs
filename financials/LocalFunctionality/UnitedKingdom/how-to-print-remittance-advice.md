@@ -20,7 +20,7 @@ You can print remittance advice before posting a payment journal and after posti
 
 ### To print remittance advice  
 
-1.  In the **Search** box, enter **Payment Journals**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.  
 
 2.  In the **Payment Journal** window, select the payment for which remittance advice must be printed.  
 

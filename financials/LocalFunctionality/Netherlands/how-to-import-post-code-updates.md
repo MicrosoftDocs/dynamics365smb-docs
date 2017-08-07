@@ -20,7 +20,7 @@ Every month a post code file will be delivered with all post code mutations in a
   
 ### To import the update file  
   
-1.  In the **Search** box, enter **Post Codes Updates**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Post Codes Updates**, and then choose the related link.  
   
 2.  In the **Post Codes Updates** window, on the **Actions** tab, in the **Functions** group, choose **Import Post Codes Update**.  
   

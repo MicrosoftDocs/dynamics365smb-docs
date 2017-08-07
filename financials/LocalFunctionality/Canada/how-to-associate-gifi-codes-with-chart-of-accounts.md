@@ -23,7 +23,7 @@ To report financial information by General Index of Financial Information (GIFI)
   
 ### To associate GIFI codes with chart of accounts  
   
-1.  In the **Search** box, enter **Chart of Accounts**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Chart of Accounts**, and then choose the related link.  
   
 2.  Select the general ledger account. On the **Home** tab, choose **Edit**.  
   

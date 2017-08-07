@@ -20,7 +20,7 @@ Payment journal line information for the remittance payment is set up in the **P
   
 ### To set up payment line information  
   
-1.  In the **Search** box, enter **Payment Journals**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.  
   
 2.  On the **Navigate** tab, choose **Payment Info**.  
   

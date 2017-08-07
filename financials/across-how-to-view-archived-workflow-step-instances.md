@@ -22,7 +22,7 @@ All completed workflow step instances are saved in the **Archived Workflow Step 
   
 ### To view archived workflow step instances  
   
-1.  In the **Search** box, enter **Workflows**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Workflows**, and then choose the related link.  
   
 2.  Open the workflow for which you want to view all archived workflow step instances.  
   
@@ -30,7 +30,7 @@ All completed workflow step instances are saved in the **Archived Workflow Step 
   
      The **Archived Workflow Step Instances** window opens showing the archived workflow step instances of the selected workflow.  
   
-4.  Alternatively, in the **Search** box, enter **Archived Workflow Step Instances**, and then choose the related link.  
+4.  Alternatively, Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Archived Workflow Step Instances**, and then choose the related link.  
   
      The **Archived Workflow Step Instances** window opens showing all archived workflow step instances. In the **Workflow Code** field, you can see which workflow the archived workflow step instance belonged to.  
   

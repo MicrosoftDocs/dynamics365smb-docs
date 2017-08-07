@@ -22,7 +22,7 @@ The tax authorities require that you submit two fiscal reports that list all of 
   
 ### To print the general ledger book report  
   
-1.  In the **Search** box, enter **G/L Book - Print**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Book - Print**, and then choose the related link.  
   
 2.  Fill in the fields as described in the following table.  
   
@@ -39,7 +39,7 @@ The tax authorities require that you submit two fiscal reports that list all of 
     > [!IMPORTANT]  
     >  [!INCLUDE[d365fin](../../includes/d365fin_md.md)] with the last printed page number.  
   
-3.  In the **Search** box, enter **General Ledger Setup**, and then choose the related link.  
+3.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Setup**, and then choose the related link.  
   
      To set the last printed page number for the VAT register report, search for **VAT Register**, and choose the link for the window under **VAT Posting Group**.  
   
@@ -51,7 +51,7 @@ The tax authorities require that you submit two fiscal reports that list all of 
   
 ### To view or change page numbering for reprinting the general ledger book report  
   
-1.  In the **Search** box, enter **General Ledger Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Setup**, and then choose the related link.  
   
 2.  On the **Actions** FastTab, in the **Functions** group, choose **Change G/L Book Reprint Info.**. In the **G/L Book Reprint Info** window, the **First Page Number** field specifies the first page number of the previously printed reports.  
   

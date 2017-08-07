@@ -22,7 +22,7 @@ The **Tax Details** window contains a matrix table that uses different combinati
   
 ### To set up sales tax details  
   
-1.  In the **Search** box, enter **Tax Details**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Tax Details**, and then choose the related link.  
   
 2.  In the **Tax Details** window, on the **Home** tab, in the **New** group, choose **New**.  
   
@@ -42,7 +42,7 @@ The **Tax Details** window contains a matrix table that uses different combinati
   
 ### To set up sales tax for a customer  
   
-1.  In the **Search** box, enter **Customers**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.  
   
 2.  Select the required customer. On the **Home** tab, in the **Manage** group, choose **Edit**.  
   

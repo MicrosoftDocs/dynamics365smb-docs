@@ -22,7 +22,7 @@ When the customer brings in a service item for repair, you can assign a fault co
   
 ### To register fault codes  
   
-1.  In the **Search** box, enter **Service Tasks**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Tasks**, and then choose the related link.  
   
 2.  Select the service task that includes the relevant service item.  
   

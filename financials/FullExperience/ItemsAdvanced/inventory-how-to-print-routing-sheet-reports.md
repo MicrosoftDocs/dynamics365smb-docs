@@ -20,7 +20,7 @@ The structure of the routing can be shown by printing the following report.
   
 ### To print the routing sheet report  
   
-1.  In the **Search** box, enter **Routing Sheet**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Routing Sheet**, and then choose the related link.  
   
 2.  On the **Item** FastTab, enter a filter for the relevant item.  
   

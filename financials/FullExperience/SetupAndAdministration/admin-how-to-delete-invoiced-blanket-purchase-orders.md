@@ -20,7 +20,7 @@ Blanket purchase orders are not deleted after you have processed and invoiced al
   
 ### To delete invoiced blanket purchase orders  
   
-1.  In the **Search** box, enter **Delete Invoiced Blanket Purchase Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Delete Invoiced Blanket Purchase Orders**, and then choose the related link.  
   
 2.  Set filters in the **No.**, **Buy-from Vendor No.**, and **Pay-to Vendor No.** fields to select the blanket orders to be deleted.  
   

@@ -20,7 +20,7 @@ You can use the **Service Order Types** window to set up codes to identify types
   
 ### To set up a service order type  
   
-1.  In the **Search** box, enter **Service Order Types**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Order Types**, and then choose the related link.  
   
 2.  Create a new service order type.  
   

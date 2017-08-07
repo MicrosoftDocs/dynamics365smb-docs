@@ -22,7 +22,7 @@ When a direct debit collection is successfully processed by your bank, you can p
   
 ### To post a direct-debit payment receipt from the Direct Debit Collections window  
   
-1.  In the **Search** box, enter **Direct Debit Collections**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Direct Debit Collections**, and then choose the related link.  
   
 2.  Select a line for a direct debit collection that has been exported to a bank file and successfully processed by the bank. For more information, see [How to: Create SEPA Direct Debit Collection Entries and Export to a Bank File](../how-to-create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file.md).  
   

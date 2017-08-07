@@ -66,7 +66,7 @@ You can automate the process of approving new or changed records, such as docume
 
 #### To add Alicia as a user in [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 
-1.  In the **Search** box, enter **Users**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Users**, and then choose the related link.  
 
 2.  In the **Windows Users** window, on the **Home** tab, in the **New** group, choose **New**.  
 
@@ -89,7 +89,7 @@ You can automate the process of approving new or changed records, such as docume
 
 #### To set up yourself and Alicia as approval users  
 
-1.  In the **Search** box, enter **Approval User Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Approval User Setup**, and then choose the related link.  
 
 2.  In the **Approval User Setup** window, on the **Home** tab, in the **New** group, choose **New**.  
 
@@ -131,7 +131,7 @@ You can automate the process of approving new or changed records, such as docume
 
 #### To create and enable a purchase order approval workflow  
 
-1.  In the **Search** box, enter **Workflows**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Workflows**, and then choose the related link.  
 
 2.  In the **Workflows** window, on the **Actions** tab, in the **General** group, choose **Create Workflow from Template**.  
 
@@ -148,7 +148,7 @@ You can automate the process of approving new or changed records, such as docume
 
 #### To start the NOTIFY job queue  
 
-1.  In the **Search** box, enter **Job Queues**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Queues**, and then choose the related link.  
 
 2.  In the **Job Queues** window, select the line for the NOTIFY job queue, and then, on the **Home** tab, in the **Process** group, choose **Start Job Queue**.  
 
@@ -167,7 +167,7 @@ You can automate the process of approving new or changed records, such as docume
 
 #### To request approval of a purchase order, as Alicia  
 
-1.  In the **Search** box, enter **Purchase Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Orders**, and then choose the related link.  
 
 2.  Select the line for open purchase order 104001, and then on the **Home** tab, in the **Manage** group, choose **Edit**.  
 

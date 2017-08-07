@@ -20,7 +20,7 @@ You use an external provider of OCR services to have PDF or image files turned i
   
 ### To set up an OCR service  
   
-1.  In the **Search** box, enter **OCR Service Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **OCR Service Setup**, and then choose the related link.  
   
 2.  Fill the fields as described in the following table.  
   

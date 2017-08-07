@@ -59,7 +59,7 @@ With jobs, you can schedule the usage of your company's resources and keep track
 
 #### To calculate WIP  
 
-1.  In the **Search** box, enter **Jobs**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.  
 
 2.  In the **Jobs** list, select the **Deerfield** job. On the **Home** tab, in the **Manage** group, choose **Edit**. This will open the job card in edit mode.  
 
@@ -97,7 +97,7 @@ With jobs, you can schedule the usage of your company's resources and keep track
 
 #### To review WIP warnings  
 
-1.  In the **Search** box, enter **Job WIP Cockpit**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job WIP Cockpit**, and then choose the related link.  
 
 2.  Select the **Deerfield** job, and on the **Home** tab, in the **Process** group, choose **Show Warnings**.  
 

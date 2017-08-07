@@ -26,7 +26,7 @@ How you put away your output from production depends on how your warehouse is se
   
 ### To create the inbound warehouse request  
   
-1.  In the **Search** box, enter **Released Production Order**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Released Production Order**, and then choose the related link.  
   
 2.  On the production order that is ready for put-away, on the **Actions** tab, in the **Warehouse** group, choose **Create Inbound Whse. Request**.  
   
@@ -34,7 +34,7 @@ How you put away your output from production depends on how your warehouse is se
   
 ### To put output away with an inventory put-away  
   
-1.  In the **Search** box, enter **Inventory Put-away**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Inventory Put-away**, and then choose the related link.  
   
 2.  Create a new inventory put-away.  
   
@@ -52,7 +52,7 @@ How you put away your output from production depends on how your warehouse is se
   
 ### To put output away with a warehouse internal put-away  
   
-1.  In the **Search** box, enter **Whse. Internal Put-away**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Whse. Internal Put-away**, and then choose the related link.  
   
      Create a new warehouse internal put-away.  
   
@@ -72,7 +72,7 @@ How you put away your output from production depends on how your warehouse is se
   
 ### To manually specify a bin to store items from production output  
   
-1.  In the **Search** box, enter **Movement Worksheet**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Movement Worksheet**, and then choose the related link.  
   
 2.  Fill in the header, and create a line for each item you wish to move to the warehouse.  
   

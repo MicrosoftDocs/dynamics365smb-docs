@@ -22,7 +22,7 @@ You can export a VAT statement in text format and then submit it electronically 
   
 ### To export a VAT statement in text format  
   
-1.  In the **Search** box, enter **VAT**, and then choose the link for the **Periodic Activities** area in the **Financial Management** department.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT**, and then choose the link for the **Periodic Activities** area in the **Financial Management** department.  
   
 2.  Under **Tasks**, choose **VAT Statements**.  
   

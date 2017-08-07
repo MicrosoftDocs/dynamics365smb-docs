@@ -22,7 +22,7 @@ You must post payment slips to complete a payment transaction and to create the 
   
 ### To post a payment slip  
   
-1.  In the **Search** box, enter **Payment Slips**, and then choose the relevant link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Slips**, and then choose the relevant link.  
   
 2.  Select a payment slip, and then, on the **Home** tab, in the **Manage** group, choose **Edit**.  
   

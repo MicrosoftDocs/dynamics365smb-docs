@@ -25,7 +25,7 @@ Before you create the first VAT transaction report, you should prepare the exist
   
 ### To update VAT transaction data  
   
-1.  In the **Search** box, enter **Update VAT Transaction Data**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Update VAT Transaction Data**, and then choose the related link.  
   
 2.  Optionally, on the **VAT Entry** FastTab, set the appropriate filters.  
   

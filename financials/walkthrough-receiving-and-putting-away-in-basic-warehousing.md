@@ -68,7 +68,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](includes/navnow_md.md)]-->, the inbound proc
 
 -   To make yourself a warehouse employee at SILVER location by following these steps:  
 
-    1.  In the **Search** box, enter **Warehouse Employees**, and then choose the related link.  
+    1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Warehouse Employees**, and then choose the related link.  
 
     2.  Choose the **User ID** field, and select your own user account in the **Users** window.  
 
@@ -84,7 +84,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](includes/navnow_md.md)]-->, the inbound proc
 
 ### To set up the location  
 
-1.  In the **Search** box, enter **Locations**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.  
 
 2.  Open the SILVER location card.  
 
@@ -109,7 +109,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](includes/navnow_md.md)]-->, the inbound proc
 
 ### To create the purchase order  
 
-1.  In the **Search** box, enter **Purchase Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Orders**, and then choose the related link.  
 
 2.  On the **Home** tab, in the **New** group, choose **New**.  
 
@@ -134,7 +134,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](includes/navnow_md.md)]-->, the inbound proc
 
 ### To receive and put the items away  
 
-1.  In the **Search** box, enter **Inventory Put-aways**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Inventory Put-aways**, and then choose the related link.  
 
 2.  On the **Home** tab, in the **New** group, choose **New**.  
 

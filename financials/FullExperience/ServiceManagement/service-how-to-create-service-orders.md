@@ -22,7 +22,7 @@ You can use the **Service Order** window to create documents where you enter inf
   
 ### To create a service order  
   
-1.  In the **Search** box, enter **Service Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Orders**, and then choose the related link.  
   
 2.  Create a new service order.  
   

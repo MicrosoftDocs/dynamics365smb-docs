@@ -25,7 +25,7 @@ Bins represent the basic warehouse structure and are used to make suggestions ab
   
 ### To set up a location to use bins  
   
-1.  In the **Search** box, enter **Locations**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.  
   
 2.  Select the location where you want to use bins.  
   

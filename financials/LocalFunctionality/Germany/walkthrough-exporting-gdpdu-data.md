@@ -46,7 +46,7 @@ You can export business data for auditing purposes. How the data export is set u
   
 #### To set up the requirements for a data export  
   
-1.  In the **Search** box, enter **Data Export**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Data Export**, and then choose the related link.  
   
 2.  On the **Home** tab, choose **New**.  
   
@@ -272,7 +272,7 @@ You can export business data for auditing purposes. How the data export is set u
   
 #### To export data  
   
-1.  In the **Search** box, enter **GDPdU Export**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **GDPdU Export**, and then choose the related link.  
   
 2.  In the **GDPdU Export** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   

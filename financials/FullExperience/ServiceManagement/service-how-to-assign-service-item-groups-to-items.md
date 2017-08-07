@@ -20,7 +20,7 @@ You can assign service item groups to items on the item card. The service item g
   
 ### To assign a service item group to an item  
   
-1.  In the **Search** box, enter **Items**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
   
 2.  Select the item that you want to assign a service item group to and open the **Item** card.  
   

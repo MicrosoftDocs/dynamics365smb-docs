@@ -20,7 +20,7 @@ You can use the **Serv. Price Adjmt. Detail** window to set up the details for t
   
 ### To set up service price adjustment details  
   
-1.  In the **Search** box, enter **Service Price Adjustment Groups**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Price Adjustment Groups**, and then choose the related link.  
   
 2.  Open a   service price adjustment group.  
   

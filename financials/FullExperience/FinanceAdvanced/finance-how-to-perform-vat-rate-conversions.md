@@ -29,7 +29,7 @@ You use the VAT rate change tool to manage changes in the standard rate of VAT. 
   
 ### To perform VAT rate change test conversion  
   
-1.  In the **Search** box, enter **VAT Rate Change**, and then choose the **VAT Rate Change Setup** link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Rate Change**, and then choose the **VAT Rate Change Setup** link.  
   
 2.  Verify that you have already set up the VAT product posting group conversion or the general product posting group conversion.  
   
@@ -50,7 +50,7 @@ You use the VAT rate change tool to manage changes in the standard rate of VAT. 
   
 ### To perform VAT rate change conversion  
   
-1.  In the **Search** box, enter **VAT Rate Change**, and then choose the **VAT Rate Change Setup** link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Rate Change**, and then choose the **VAT Rate Change Setup** link.  
   
 2.  Verify that you have already set up the VAT product posting group conversion or general product posting group conversion.  
   

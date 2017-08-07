@@ -22,7 +22,7 @@ After you have created delivery reminders and made any needed modifications, you
   
 ### To print test reports before issuing delivery reminders  
   
-1.  In the **Search** box, enter **Delivery Reminder**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Delivery Reminder**, and then choose the related link.  
   
 2.  In the **Delivery Reminder List** window, on the **Report** tab, choose **Delivery Reminder - Test**.  
   

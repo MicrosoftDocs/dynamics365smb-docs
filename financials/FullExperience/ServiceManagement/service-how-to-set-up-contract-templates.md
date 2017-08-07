@@ -20,7 +20,7 @@ You can use the **Service Contract Templates** window to set up contract templat
   
 ### To set up a contract template  
   
-1.  In the **Search** box, enter **Service Contract Templates**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Contract Templates**, and then choose the related link.  
   
 2.  Create a new service contract template. On the **Home** tab, in the **New** group, choose **New**.  
   

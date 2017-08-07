@@ -22,7 +22,7 @@ You can create a new sales order or purchase order from an archived blanket orde
   
 ### To create an order from an archived blanket order  
   
-1.  In the **Search** box, enter **Sales Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.  
   
 2.  On the **Home** tab, choose **New**.  
   

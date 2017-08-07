@@ -24,7 +24,7 @@ The production order lines contain the items that are to be produced in the prod
   
 ### To calculate lines from a production order header  
   
-1.  In the **Search** box, enter **Firm Planned Prod. Order**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Firm Planned Prod. Order**, and then choose the related link.  
   
 2.  Create a new firm planned production order.  
   

@@ -20,7 +20,7 @@ When a customer purchases a new item and wants to include it in the existing ser
   
 ### To add a contract line to a service contract or contract quote  
   
-1.  In the **Search** box, enter **Service Contracts**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Contracts**, and then choose the related link.  
   
 2.  Open the relevant service contract or service contract quote that you want to add a new contract line for.  
   

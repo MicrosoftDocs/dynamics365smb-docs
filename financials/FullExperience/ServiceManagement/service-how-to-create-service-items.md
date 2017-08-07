@@ -20,7 +20,7 @@ When you receive an unregistered item for servicing, you can register it as a se
   
 ### To create a service item  
   
-1.  In the **Search** box, enter **Service Items**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Items**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **New** group, choose **New** to create a new service item.  
   

@@ -37,7 +37,7 @@ The follow table shows the various ways you can view an item’s availability.
   
 ### To view item availability by event  
   
-1.  In the **Search** box, enter **Sales Order**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Order**, and then choose the related link.  
   
 2.  Open the sales order you want to view. On the **Lines** FastTab, select the line that contains the item that you want to see availability for.  
   
@@ -58,7 +58,7 @@ The follow table shows the various ways you can view an item’s availability.
   
 ### To view item availability by period  
   
-1.  In the **Search** box, enter **Sales Order**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Order**, and then choose the related link.  
   
 2.  Open the sales order you want, and then on the **Lines** FastTab, select the line that contains the item that you want to see availability for.  
   
@@ -79,7 +79,7 @@ The follow table shows the various ways you can view an item’s availability.
   
 ### To view item availability by variant  
   
-1.  In the **Search** box, enter **Sales Order**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Order**, and then choose the related link.  
   
 2.  Open the sales order you want, and then on the **Lines** FastTab, select the line that contains the item that you want to see availability for.  
   
@@ -93,7 +93,7 @@ The follow table shows the various ways you can view an item’s availability.
   
 ### To view item availability by location  
   
-1.  In the **Search** box, enter **Sales Order**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Order**, and then choose the related link.  
   
 2.  Open the sales order you want, and then on the **Lines** FastTab, select the line that contains the item that you want to see availability for.  
   
@@ -116,7 +116,7 @@ The follow table shows the various ways you can view an item’s availability.
   
 ##  <a name="BKMK_Toinsertadifferentdatelocationorvariantfromtheavailabilityview"></a> To insert a different date, location, or variant from the availability view  
   
-1.  In the **Search** box, enter **Sales Order**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Order**, and then choose the related link.  
   
 2.  Open the sales order you want, and then on the **Lines** FastTab, select the line that has a shipment date that you want to change according to availability.  
   
@@ -130,7 +130,7 @@ The follow table shows the various ways you can view an item’s availability.
   
 ### To view item availability by BOM level  
   
-1.  In the **Search** box, enter **Sales Order**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Order**, and then choose the related link.  
   
 2.  Open the sales order you want, and then on the **Lines** FastTab, select the line that contains the item that you want to see availability for.  
   
@@ -147,7 +147,7 @@ The follow table shows the various ways you can view an item’s availability.
   
 ### To view item availability by timeline  
   
-1.  In the **Search** box, enter **Planning Worksheet**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Planning Worksheet**, and then choose the related link.  
   
 2.  Open the planning worksheet you want.  
   

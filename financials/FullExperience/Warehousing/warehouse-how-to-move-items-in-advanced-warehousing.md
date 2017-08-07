@@ -20,7 +20,7 @@ In advanced warehouse configurations, that is, locations with directed put-away 
   
 #### To move items with the warehouse movement worksheet  
   
-1.  In the **Search** box, enter **Movement Worksheet**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Movement Worksheet**, and then choose the related link.  
   
 2.  Enter the warehouse movement information on the worksheet lines as appropriate.  
   
@@ -30,7 +30,7 @@ In advanced warehouse configurations, that is, locations with directed put-away 
   
 #### To register the warehouse movement  
   
-1.  In the **Search** box, enter **Movements**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Movements**, and then choose the related link.  
   
 2.  Open the warehouse movement that you want to process.  
   

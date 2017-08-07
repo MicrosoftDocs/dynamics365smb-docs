@@ -22,7 +22,7 @@ You can export financial data and tax data according to the process for data acc
   
 ### To export GDPdU data  
   
-1.  In the **Search** box, enter **Export Business Data**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Export Business Data**, and then choose the related link.  
   
 2.  In the **GDPdU Export** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   

@@ -20,7 +20,7 @@ When you have created your bins, you can create the bin content that you want fo
   
 ### To create bin content in the worksheet  
   
-1.  In the **Search** box, enter **Bin Content Creation Worksheet**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bin Content Creation Worksheet**, and then choose the related link.  
   
 2.  On the worksheet header, in the **Name** field, select the worksheet of the location where you want to create bin contents.  
   

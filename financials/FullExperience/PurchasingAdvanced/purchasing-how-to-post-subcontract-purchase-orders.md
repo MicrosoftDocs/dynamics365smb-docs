@@ -20,7 +20,7 @@ When the purchase order has been created from the subcontractor worksheet, then 
   
 ### To post a subcontract purchase order  
   
-1.  In the **Search** box, enter **Purchase Orders**, and then select the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Orders**, and then select the related link.  
   
 2.  Open a purchase order that is created from the subcontracting worksheet.  
   

@@ -75,7 +75,7 @@ When product defects occur, the errors must be identified and affected items mus
 
 #### To create the items  
 
-1.  In the **Search** box, enter **Items**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
 
 2.  On the **Home** tab, in the **New** group, choose **New**.  
 
@@ -123,7 +123,7 @@ When product defects occur, the errors must be identified and affected items mus
 
 #### To purchase components  
 
-1.  In the **Search** box, enter **Purchase Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Orders**, and then choose the related link.  
 
 2.  On the **Home** tab, in the **New** group, choose **New**.  
 
@@ -143,7 +143,7 @@ When product defects occur, the errors must be identified and affected items mus
 
      Next, purchase racing frames from Coolwood Technologies.  
 
-8.  In the **Search** box, enter **Purchase Orders**, and then choose the related link.  
+8.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Orders**, and then choose the related link.  
 
 9. On the **Home** tab, in the **New** group, choose **New**.  
 
@@ -165,7 +165,7 @@ When product defects occur, the errors must be identified and affected items mus
 
 #### To produce end items  
 
-1.  In the **Search** box, enter **Released Prod. Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Released Prod. Orders**, and then choose the related link.  
 
 2.  On the **Home** tab, in the **New** group, choose **New**.  
 
@@ -195,7 +195,7 @@ When product defects occur, the errors must be identified and affected items mus
 
      Next, produce two more racing bikes, SN3 and SN4.  
 
-11. In the **Search** box, enter **Released Prod. Orders**, and then choose the related link.  
+11. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Released Prod. Orders**, and then choose the related link.  
 
 12. On the **Home** tab, in the **New** group, choose **New**.  
 
@@ -228,7 +228,7 @@ When product defects occur, the errors must be identified and affected items mus
 
 #### To sell the end items  
 
-1.  In the **Search** box, enter **Sales Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.  
 
 2.  On the **Home** tab, in the **New** group, choose **New**, and then, create a sales order by filling in the following fields.  
 
@@ -242,7 +242,7 @@ When product defects occur, the errors must be identified and affected items mus
 
      Next, sell the racing bike with SN2 to The Cannon Group PLC.  
 
-5.  In the **Search** box, enter **Sales Orders**, and then choose the related link.  
+5.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.  
 
 6.  On the **Home** tab, in the **New** group, choose **New**, and then, create a sales order by filling in the following fields.  
 
@@ -256,7 +256,7 @@ When product defects occur, the errors must be identified and affected items mus
 
      Finally, sell some racing frames separately. The Cannon Group PLC. also orders four separate racing frames for their own assembly line.  
 
-9. In the **Search** box, enter **Sales Orders**, and then choose the related link.  
+9. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.  
 
 10. On the **Home** tab, in the **New** group, choose **New**, and then, create a sales order by filling in the following fields.  
 
@@ -276,7 +276,7 @@ When product defects occur, the errors must be identified and affected items mus
 
 #### To determine which lot included the faulty frame and who supplied it  
 
-1.  In the **Search** box, enter **Item Tracing**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Tracing**, and then choose the related link.  
 
 2.  In the **Item Tracing** window, enter **SN1** in the **Serial No. Filter** field, and then enter **1002** in the **Item Filter** field.  
 

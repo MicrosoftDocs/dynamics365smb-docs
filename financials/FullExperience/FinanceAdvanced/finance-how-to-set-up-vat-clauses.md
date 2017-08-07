@@ -20,7 +20,7 @@ You set up a VAT clause to describe information about the type of VAT that is be
   
 ### To set up VAT clause codes  
   
-1.  In the **Search** box, enter **VAT Clauses**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Clauses**, and then choose the related link.  
   
 2.  The **VAT Clauses** window opens. On a new line, in the **Code** field, enter a code for the clause. This code is used when you set up a VAT Posting group.  
   
@@ -36,7 +36,7 @@ You set up a VAT clause to describe information about the type of VAT that is be
   
 ### To assign a VAT clause code to a posting group  
   
-1.  In the **Search** box, enter **VAT Posting Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Posting Setup**, and then choose the related link.  
   
 2.  Select the posting setup that you want to modify, and on the **Home** tab, in the **Manage** group, choose **Edit**.  
   

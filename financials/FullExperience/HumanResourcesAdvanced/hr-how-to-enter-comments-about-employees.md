@@ -20,7 +20,7 @@ If you want to enter information about an employee that is additional to the inf
   
 ### To enter comments about an employee  
   
-1.  In the **Search** box, enter **Employees**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Employees**, and then choose the related link.  
   
 2.  Select the relevant employee card.  
   

@@ -22,7 +22,7 @@ You can assign troubleshooting guidelines to service items to help the technicia
   
 ### To assign troubleshooting guidelines to a service item  
   
-1.  In the **Search** box, enter **Service Item List**, and then choose the related link. Select the service item to which you want to assign troubleshooting guidelines.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Item List**, and then choose the related link. Select the service item to which you want to assign troubleshooting guidelines.  
   
 2.  On the **Navigate** tab, in the **Serv. Item** group, choose **Troubleshooting Setup**. The **Troubleshooting Setup** window opens.  
   

@@ -20,7 +20,7 @@ You set up default VAT business posting groups by linking them to general busine
   
 ### To set up default VAT business posting groups  
   
-1.  In the **Search** box, enter **Gen. Business Posting Groups**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Gen. Business Posting Groups**, and then choose the related link.  
   
 2.  Select the relevant business posting group. On the **Home** tab, choose **Edit**.  
   

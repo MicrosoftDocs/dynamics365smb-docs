@@ -20,7 +20,7 @@ Before you can use physical inventory order and physical inventory recording doc
   
 ### To enter the properties for physical inventory documents  
   
-1.  In the **Search** box, enter **Inventory Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Inventory Setup**, and then choose the related link.  
   
 2.  On the **Numbering** FastTab, fill in the fields for physical inventory.  
   

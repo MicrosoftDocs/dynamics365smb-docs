@@ -20,7 +20,7 @@ Before you can use warehouse documents to control your inventory movements, you 
   
 ### To set up warehouse management  
   
-1.  In the **Search** box, enter **Warehouse Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Warehouse Setup**, and then choose the related link.  
   
 2.  On the **General** FastTab, select the functionality you want implemented in the warehouses. Options are **Require Receive**, **Require Put-away**, **Require Shipment**, and **Require Pick**.  
   

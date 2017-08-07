@@ -24,7 +24,7 @@ Before you transfer items between locations using transfer routes, you need to s
   
 ### To set up in-transit codes  
   
-1.  In the **Search** box, enter **Locations**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.  
   
 2.  Create a new Location card. You must fill in the **Code** and **Name** fields.  
   

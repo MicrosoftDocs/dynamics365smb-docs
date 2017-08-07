@@ -24,7 +24,7 @@ All vendors must export the data required for auditing in a Content Separated Va
 
 ### To print the VAT audit report  
 
-1.  In the **Search** box, enter **VAT Audit**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Audit**, and then choose the related link.  
 
 2.  In the **VAT Audit** window, on the **Options** FastTab, fill in the fields as described in the following table.  
 
@@ -46,7 +46,7 @@ All vendors must export the data required for auditing in a Content Separated Va
 
 ### To print the VAT entry exception report  
 
-1.  In the **Search** box, enter **VAT Entry Exception Report**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Entry Exception Report**, and then choose the related link.  
 
 2.  In the **VAT Entry Exception Report** window, on the **Options** FastTab, fll in the fields as described in the following table.  
 

@@ -22,7 +22,7 @@ Servicing items that belong to certain service item groups may require specific 
   
 ### To assign a skill code to a service item group  
   
-1.  In the **Search** box, enter **Service Item Groups**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Item Groups**, and then choose the related link.  
   
 2.  Select the service item group to which you want to assign a skill code.  
   

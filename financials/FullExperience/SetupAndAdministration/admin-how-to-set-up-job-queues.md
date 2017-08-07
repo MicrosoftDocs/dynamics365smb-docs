@@ -22,7 +22,7 @@ You can set up a job queue and specify the order in which designated reports, ba
   
 ### To create a job queue  
   
-1.  In the **Search** box, enter **Job Queues**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Queues**, and then choose the related link.  
   
 2.  On the **Home** tab, choose **New**. The **Job Queue Card** window opens.  
   
@@ -34,7 +34,7 @@ You can set up a job queue and specify the order in which designated reports, ba
   
 ### To activate a job queue  
   
-1.  In the **Search** box, enter **Job Queues**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Queues**, and then choose the related link.  
   
 2.  Select the job queue that you want to start, and on the **Home** tab, choose **Start Job Queue**.  
   

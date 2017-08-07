@@ -20,7 +20,7 @@ To send electronic payments to vendors, you must first generate a payment file f
   
 ### To generate a payment file  
   
-1.  In the **Search** box, enter **Bank Payments to Send**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Payments to Send**, and then choose the related link.  
   
 2.  In the **Vendor No.** column, select the vendors to include in the payment file.  
   

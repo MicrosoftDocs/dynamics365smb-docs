@@ -20,7 +20,7 @@ You can create different types of VAT reports depending on the requirements of y
   
 ### To set up VAT reports  
   
-1.  In the **Search** box, enter **VAT Report Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Report Setup**, and then choose the related link.  
   
 2.  On the **General** FastTab, select the **Modify Submitted Reports** field to let users modify VAT reports that have been submitted to the tax authorities.  
   
@@ -37,7 +37,7 @@ You can create different types of VAT reports depending on the requirements of y
   
 #### To create a VAT report  
   
-1.  In the **Search** box, enter **VAT Report**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Report**, and then choose the related link.  
   
 2.  Fill in the fields as described in the following table.  
   
@@ -60,7 +60,7 @@ You can create different types of VAT reports depending on the requirements of y
   
 #### To submit a VAT report  
   
-1.  In the **Search** box, enter **VAT Report List**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Report List**, and then choose the related link.  
   
 2.  Select the appropriate VAT report, and then choose **Edit**.  
   

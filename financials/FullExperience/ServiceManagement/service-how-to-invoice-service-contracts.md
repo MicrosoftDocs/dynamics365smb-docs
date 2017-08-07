@@ -20,7 +20,7 @@ You can invoice service contracts periodically. The invoice period for each cont
   
 ### To invoice a service contract  
   
-1.  In the **Search** box, enter **Create Contract Invoices**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Create Contract Invoices**, and then choose the related link.  
   
 2.  On the **Service Contract Header** FastTab, set the filters you want to apply.  
   
@@ -36,7 +36,7 @@ You can invoice service contracts periodically. The invoice period for each cont
   
 ### To invoice a service contract from the service contract window  
   
-1.  In the **Search** box, enter **Service Contracts**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Contracts**, and then choose the related link.  
   
 2.  Select and open the service contract that you want to invoice.  
   

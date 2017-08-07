@@ -24,7 +24,7 @@ Before you can receive optical character recognition (OCR) payments, you must ma
   
 ### To import OCR payments  
   
-1.  In the **Search** box, enter **Cash Receipt Journals**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Receipt Journals**, and then choose the related link.  
   
 2.  In the **Batch Name** field, select a journal batch.  
   
@@ -43,7 +43,7 @@ Before you can receive optical character recognition (OCR) payments, you must ma
   
 ### To post OCR payments  
   
-1.  In the **Search** box, enter **Cash Receipt Journals**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Receipt Journals**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **Posting** group, choose **Post**.  
   

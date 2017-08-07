@@ -20,7 +20,7 @@ You can always delete change log entries that are of no use to you.
   
 ### To delete change log entries  
   
-1.  In the **Search** box, enter **Delete Change Log Entries**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Delete Change Log Entries**, and then choose the related link.  
   
 2.  In the **Change Log - Delete** window, enter the date or period for the change log entries you want to delete. You can also enter time.  
   

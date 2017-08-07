@@ -20,7 +20,7 @@ To depreciate a future expense, you have to set up future period expenses in a d
   
 ### To set up future expenses in a depreciation book  
   
-1.  In the **Search** box, enter **Depreciation Books**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Books**, and then choose the related link.  
   
 2.  On the **General** FastTab, fill in the fields as described in the following table.  
   
@@ -57,15 +57,15 @@ To depreciate a future expense, you have to set up future period expenses in a d
   
 6.  Choose the **OK** button.  
   
-7.  In the **Search** box, enter **FA Setup**, and then choose the related link.  
+7.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA Setup**, and then choose the related link.  
   
 8.  In the **Fixed Asset Setup** window, on the **General** FastTab, fill in the **Future Depr. Book** field and then choose the **OK** button.  
   
-9. In the **Search** box, enter **Chart of Accounts**, and then choose the related link.  
+9. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Chart of Accounts**, and then choose the related link.  
   
 10. Open the relevant account, and in the **G/L Account Card** window, on the **Posting** FastTab, fill in the **Gen. Prod. Posting Group** and the **VAT Prod. Posting Group** fields, and then choose the **OK** button.  
   
-11. In the **Search** box, enter **FA Posting Groups**, and then choose the related link.  
+11. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA Posting Groups**, and then choose the related link.  
   
 12. In the **FA Posting Groups** window, enter information in the required fields.  
   

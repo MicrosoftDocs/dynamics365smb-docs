@@ -39,7 +39,7 @@ If the **Replenishment System** field on the item card contains **Assembly**, th
   
 ### To assemble an item  
   
-1.  In the **Search** box, enter **Assembly Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Assembly Orders**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **New** group, choose **New**. The **New Assembly Order** window opens.  
   

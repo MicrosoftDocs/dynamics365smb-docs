@@ -26,7 +26,7 @@ You can create and store any number of VAT ledgers. For example, you can create 
   
 ### To create a VAT ledger  
   
-1.  In the **Search** box, enter **VAT Ledger List**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Ledger List**, and then choose the related link.  
   
 2.  In the **VAT Ledger List** window, fill in the fields as described in the following table.  
   

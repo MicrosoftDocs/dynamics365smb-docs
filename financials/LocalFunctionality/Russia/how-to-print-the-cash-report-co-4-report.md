@@ -22,7 +22,7 @@ The **Cash Report CO-4** report shows the unified standard printing form for cas
   
 ### To print the cash report CO-4  
   
-1.  In the **Search** box, enter **Cash Report CO-4**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Report CO-4**, and then choose the related link.  
   
 2.  In the **Cash Report CO-4** window, fill in the fields.  
   

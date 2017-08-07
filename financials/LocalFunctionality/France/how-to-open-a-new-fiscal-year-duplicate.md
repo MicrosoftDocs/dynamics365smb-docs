@@ -20,7 +20,7 @@ Before you can post in a fiscal year, you must open the fiscal year and define i
   
 ### To open a new fiscal year  
   
-1.  In the **Search** box, enter **Accounting Periods**, and then choose the relevant link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Accounting Periods**, and then choose the relevant link.  
   
 2.  On the **Home** tab, in the **Process** group, choose **Create Year**.  
   

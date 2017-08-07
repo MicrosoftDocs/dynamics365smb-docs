@@ -26,7 +26,7 @@ As an administrator, you can set up Cues that appear on the users' Role Centers 
   
 ### To set up colored indicators on Cues  
   
-1.  In the **Search** box, enter **Cue Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cue Setup**, and then choose the related link.  
   
      The **Cue Setup** window appears. The window lists the indicators that are currently setup up on Cues. Indicators that apply to all users in the company have a blank **User Name** field. Indicators that apply to a specific user include the ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> user's name in the **User Name** field.  
   

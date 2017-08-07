@@ -20,7 +20,7 @@ You can have [!INCLUDE[d365fin](../../includes/d365fin_md.md)] suggest payments 
   
 ### To manage a payment journal line  
   
-1.  In the **Search** box, enter **Payment Journals**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.  
   
 2.  In the **Batch Name** field, select the required journal batch.  
   

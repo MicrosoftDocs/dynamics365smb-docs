@@ -20,7 +20,7 @@ In certain situations, you may need to delete invoiced purchase orders that have
   
 ### To delete invoiced purchase orders  
   
-1.  In the **Search** box, enter **Delete Invoiced Purchase Orders** , and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Delete Invoiced Purchase Orders** , and then choose the related link.  
   
 2.  In the **Delete Invoiced Purchase Orders** window, set filters on the **No.**, **Buy-from Vendor No.**, and **Pay-to Vendor No.** fields to select the orders to be deleted.  
   

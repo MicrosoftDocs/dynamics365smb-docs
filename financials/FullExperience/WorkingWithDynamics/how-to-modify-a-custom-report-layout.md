@@ -28,7 +28,7 @@ This topic describes how to modify a custom layout that is available for a ADD I
   
 ###  <a name="EditLayoutFromWindowsClient"></a> To modify a report layout from the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/nav_windows_md.md)]-->  
   
-1.  In the **Search** box, enter **Report Layout Selection**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Report Layout Selection**, and then choose the related link.  
   
      The **Report Layout Selection** window lists all the reports that are available in the company that is specified in the **Company** field at the top of the window.  
   
@@ -56,7 +56,7 @@ This topic describes how to modify a custom layout that is available for a ADD I
   
 ###  <a name="EditLayoutFromWebClient"></a> To modify a report layout  
   
-1.  In the **Search** box, enter **Report Layout Selection**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Report Layout Selection**, and then choose the related link.  
   
      The **Report Layout Selection** window lists all the reports that are available in the company that is specified in the **Company** field at the top of the window.  
   

@@ -51,7 +51,7 @@ This walkthrough describes how you can use account schedules to make cash flow f
 
 ### To set up a new account schedule name  
 
-1.  In the **Search** box, enter **Account Schedules**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Account Schedules**, and then choose the related link.  
 
 2.  In the **Account Schedule Names** window, on the **Home** tab, in the **New** group, choose **New** to create a new cash flow account schedule name.  
 

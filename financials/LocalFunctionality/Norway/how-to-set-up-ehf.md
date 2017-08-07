@@ -35,7 +35,7 @@ You must define a location for storing Elektronisk Handelsformat (EHF) files whe
   
 ### To set up EHF file locations for service management  
   
-1.  In the **Search** box, enter **Service Mgt. Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Mgt. Setup**, and then choose the related link.  
   
 2.  In the **Service Mgt. Setup** window, on the **E-Invoice** FastTab, in the **Output Paths** section, fill in the fields as described in the following table.  
   

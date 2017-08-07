@@ -20,7 +20,7 @@ You can review your account balances by General Index of Financial Information (
   
 ### To view account balances using the GIFI code report  
   
-1.  In the **Search** box, enter **Account Balances by GIFI Code**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Account Balances by GIFI Code**, and then choose the related link.  
   
 2.  In the **Account Balances by GIFI Code** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   

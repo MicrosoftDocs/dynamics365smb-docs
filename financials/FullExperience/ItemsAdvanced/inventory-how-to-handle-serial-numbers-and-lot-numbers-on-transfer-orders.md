@@ -24,7 +24,7 @@ Procedures for handling serial and lot numbers that are being transferred betwee
   
 ### To handle serial/lot numbers on transfer orders  
   
-1.  In the **Search** box, enter **Transfer Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Transfer Orders**, and then choose the related link.  
   
 2.  Open the transfer order you want to process. On the **Lines** FastTab, choose **Actions**, choose **Line**, choose **Item Tracking Lines**, and then choose **Shipment**.  
   

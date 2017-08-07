@@ -34,7 +34,7 @@ When you use functionality to get posted receipt or shipment lines from related 
   
 ### To handle item tracking lines when getting receipt lines from a purchase invoice  
   
-1.  In the **Search** box, enter **Purchase Invoices**, and then select the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoices**, and then select the related link.  
   
 2.  Open a purchase invoice for items that are purchase with serial or lot numbers.  
   

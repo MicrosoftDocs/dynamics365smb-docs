@@ -22,7 +22,7 @@ You can either convert the entire blanket order into one order, or you can make 
   
 ### To convert a blanket purchase order to a purchase order  
   
-1.  In the **Search** box, enter **Blanket Purchase Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Blanket Purchase Orders**, and then choose the related link.  
   
 2.  Open the relevant blanket purchase order   that you want to convert to an order.  
   

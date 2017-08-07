@@ -30,7 +30,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can export payment jou
   
 ### To export electronic payments using the Payment Orders window  
   
-1.  In the **Search** box, enter **Payment Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Orders**, and then choose the related link.  
   
 2.  Select the documents that you want to pay.  
   
@@ -62,7 +62,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can export payment jou
   
 ### To export electronic payments using the Payment Journal window  
   
-1.  In the **Search** box, enter **Payment Journals**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.  
   
 2.  Select the documents that you want to pay.  
   
@@ -97,7 +97,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can export payment jou
   
 ### To export electronic payments from the Cartera module  
   
-1.  In the **Search** box, enter **PO - Export N34.1**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **PO - Export N34.1**, and then choose the related link.  
   
 2.  Fill in the fields as described in the following table.  
   

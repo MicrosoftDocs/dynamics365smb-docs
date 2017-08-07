@@ -24,7 +24,7 @@ You can set up responsibility centers to help administer your business.
   
 ### To set up a responsibility center  
   
-1.  In the **Search** box, enter **Responsibility Centers**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Responsibility Centers**, and then choose the related link.  
   
 2.  Create a new **Responsibility Center** card. On the **Home** tab, in the **New** group, choose **New**.  
   

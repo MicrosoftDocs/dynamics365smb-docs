@@ -22,7 +22,7 @@ The **Intrastat - Form** report must be used for reporting to Intrastat. In Belg
   
 ### To print the Intrastat form report  
   
-1.  In the **Search** box, enter **Intrastat – Form**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat – Form**, and then choose the related link.  
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   

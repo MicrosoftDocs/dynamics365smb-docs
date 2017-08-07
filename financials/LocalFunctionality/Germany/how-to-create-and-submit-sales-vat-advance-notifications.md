@@ -20,7 +20,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can submit the sales V
   
 ### To create an XML document for sales VAT advance notification  
   
-1.  In the **Search** box, enter **Sales Vat Advanced Notification List**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Vat Advanced Notification List**, and then choose the related link.  
   
 2.  In the **Sales Vat Advanced Notification List** window, on the **Actions** tab, choose **New**.  
   

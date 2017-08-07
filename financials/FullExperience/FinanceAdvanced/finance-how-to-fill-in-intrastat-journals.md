@@ -20,7 +20,7 @@ You can fill in the fields in the Intrastat journal manually or retrieve item en
   
 ### To fill in Intrastat journals  
   
-1.  In the **Search** box, enter **Intrastat Journal** and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat Journal** and then choose the related link.  
   
 2.  In the **Intrastat Journal** window, in the **Batch Name** field, select the relevant journal batch, and then choose the **OK** button.  
   

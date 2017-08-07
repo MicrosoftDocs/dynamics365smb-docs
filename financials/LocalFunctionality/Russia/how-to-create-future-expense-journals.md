@@ -22,19 +22,19 @@ Future expense journals are used to post expenses to a special account on a mont
   
 ### To create future expense journals  
   
-1.  In the **Search** box, enter **VAT Posting Setup**, and then choose the related link. Use the **VAT Posting Setup** window to create VAT posting groups. For more information, see [How to: Set Up VAT Product Posting Groups](how-to-set-up-vat-business-posting-groups.md).  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Posting Setup**, and then choose the related link. Use the **VAT Posting Setup** window to create VAT posting groups. For more information, see [How to: Set Up VAT Product Posting Groups](how-to-set-up-vat-business-posting-groups.md).  
   
 2.  On the **Settlement** FastTab, in the **VAT Settlement Template** field, select a template.  
   
 3.  Select a batch in the **VAT Settlement Batch** field. This determines the batch where future expenses and VAT will be produced.  
   
-4.  In the **Search** box, enter **Purchase Invoices**, and then choose the related link. Create a purchase invoice for the deferral general ledger account (97).  
+4.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoices**, and then choose the related link. Create a purchase invoice for the deferral general ledger account (97).  
   
 5.  Create and post the payment and apply the invoice and payment.  
   
      VAT is not deducted at this time. It is deducted later, on a monthly basis through the Future Expense Journal.  
   
-6.  In the **Search** box, enter **Future Expense Journals**, and then choose the related link.  
+6.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Future Expense Journals**, and then choose the related link.  
   
 7.  In the **Future Expense Journal** window, fill in the fields as described in the following table.  
   

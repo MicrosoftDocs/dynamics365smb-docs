@@ -22,7 +22,7 @@ When you submit a VAT or ICP declaration to the tax authorities electronically, 
   
 ### To import messages from the tax authorities' server  
   
-1.  In the **Search** box, enter **Elec. Tax Decl. Response Msgs.**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Elec. Tax Decl. Response Msgs.**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **Process** group, choose **Receive Response Messages**.  
   
@@ -37,7 +37,7 @@ When you submit a VAT or ICP declaration to the tax authorities electronically, 
   
 ### To process the response messages from the tax authorities  
   
-1.  In the **Search** box, enter **Elec. Tax Decl. Response Msgs.**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Elec. Tax Decl. Response Msgs.**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **Process** group, choose **Process Response Messages**.  
   

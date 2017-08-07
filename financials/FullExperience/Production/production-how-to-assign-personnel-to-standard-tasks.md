@@ -20,7 +20,7 @@ If you require personnel with qualifications, special knowledge, or special auth
   
 ### To assign personnel to standard tasks  
   
-1.  In the **Search** box, enter **Standard Tasks**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Standard Tasks**, and then choose the related link.  
   
 2.  Select the standard task that you want to assign personnel to.  
   

@@ -22,7 +22,7 @@ You use the **Service Order Status Setup** window to set the priority level for 
   
 ### To set up service status priorities  
   
-1.  In the **Search** box, enter **Service Order Status**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Order Status**, and then choose the related link.  
   
 2.  Select the service order status you want to set a priority for.  
   

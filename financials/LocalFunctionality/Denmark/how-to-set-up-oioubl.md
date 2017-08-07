@@ -20,7 +20,7 @@ You must define a location for storing Offentlig Information Online UBL (OIOUBL)
   
 ### To set up OIOUBL file locations for sales and receivables  
   
-1.  In the **Search** box, enter **Sales & Receivables Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales & Receivables Setup**, and then choose the related link.  
   
 2.  In the **Sales & Receivables Setup** window, on the **OIOUBL** FastTab, in the **Output Paths** section, fill in the fields as described in the following table.  
   
@@ -51,7 +51,7 @@ You must define a location for storing Offentlig Information Online UBL (OIOUBL)
   
 ### To set up OIOUBL file locations for service management  
   
-1.  In the **Search** box, enter **Service Mgt. Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Mgt. Setup**, and then choose the related link.  
   
 2.  In the **Service Mgt. Setup** window, on the **OIOUBL** FastTab, in the **Output Paths** section, fill in the fields as described in the following table.  
   
@@ -66,7 +66,7 @@ You must define a location for storing Offentlig Information Online UBL (OIOUBL)
   
 ### To set up payment methods and payments terms  
   
-1.  In the **Search** box, enter **Payment Methods**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Methods**, and then choose the related link.  
   
 2.  In the **Payment Methods** window, for each payment method that you will use for electronic invoices, in the **Payment Channel** field, select a payment channel. The following table describes the options.  
   
@@ -77,7 +77,7 @@ You must define a location for storing Offentlig Information Online UBL (OIOUBL)
     |**National Clearing**|The payment is made by transfer from the customer’s bank account and is processed by a clearing house.|  
     |**Direct Debit**|The payment is made by using the unified bank payment service (PBS).|  
   
-3.  In the **Search** box, enter **Payment Terms**, and then choose the related link.  
+3.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Terms**, and then choose the related link.  
   
 4.  In the **Payment Terms** window, for each payment term that you will use for electronic invoices, in the **OIOXML Code** field, select a code. For more information, see OIOUBL Code.  
   
@@ -85,7 +85,7 @@ You must define a location for storing Offentlig Information Online UBL (OIOUBL)
   
 ### To set up item charges  
   
-1.  In the **Search** box, enter **Item Charges**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Charges**, and then choose the related link.  
   
 2.  In the **Item Charges** window, for each item charge, in the **Charge Category** field, select a category. For more information, see Charge Category.  
   

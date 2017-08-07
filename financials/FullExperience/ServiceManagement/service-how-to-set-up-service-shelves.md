@@ -22,7 +22,7 @@ You can use the **Service Shelves** window to set up service shelves that identi
   
 ### To set up a service shelf  
   
-1.  In the **Search** box, enter **Service Shelves**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Shelves**, and then choose the related link.  
   
 2.  Fill in the **No.** and **Description** fields.  
   

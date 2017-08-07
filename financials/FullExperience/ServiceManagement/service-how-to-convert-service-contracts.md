@@ -28,7 +28,7 @@ Because the VAT rate change tool cannot convert service contracts, these contrac
   
 ### To correct an invoice for a prepaid service contract  
   
-1.  In the **Search** box, enter **Contract Management**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Contract Management**, and then choose the related link.  
   
 2.  Under **Lists**, choose **Service Contracts**.  
   

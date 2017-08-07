@@ -23,7 +23,7 @@ If you purchase the same item from more than one vendor, you must enter informat
   
 ### To set up multiple vendors for an item  
   
-1.  In the **Search** box, enter **Items**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
   
 2.  Select the relevant item, and then, on the **Home** tab, in the **Manage** group, choose **Edit**.  
   

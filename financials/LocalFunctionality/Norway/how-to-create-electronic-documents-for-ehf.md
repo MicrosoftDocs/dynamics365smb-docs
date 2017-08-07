@@ -25,7 +25,7 @@ When you sell goods or services to a customer in the public sector, you must sub
   
 ### To post a sales invoice  
   
-1.  In the **Search** box, enter **Sales Invoices**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Invoices**, and then choose the related link.  
   
 2.  Select the sales invoice that you want to post. On the **Home** tab, in the **Manage** group, choose **Edit**.  
   
@@ -58,7 +58,7 @@ When you sell goods or services to a customer in the public sector, you must sub
   
 ### To create an electronic sales invoice  
   
-1.  In the **Search** box, enter **Posted Sales Invoices**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Sales Invoices**, and then choose the related link.  
   
 2.  Select the relevant sales invoice.  
   

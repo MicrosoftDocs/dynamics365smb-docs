@@ -22,7 +22,7 @@ CODA files can be downloaded manually or in attended mode.
   
 ### To download CODA files in attended mode  
   
-1.  In the **Search** box, enter **IBS Logs**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **IBS Logs**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **Process** group, choose **Download**.  
   

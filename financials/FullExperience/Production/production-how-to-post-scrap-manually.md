@@ -20,7 +20,7 @@ If scrap is produced during processing, it can be entered in the output journal.
   
 ### To post scrap manually  
   
-1.  In the **Search** box, enter **Output Journal**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Output Journal**, and then choose the related link.  
   
 2.  In the **Posting Date** field, enter the posting date.  
   

@@ -24,7 +24,7 @@ After you have created a physical inventory order and its lines you can create a
   
 ### To create a physical inventory recording  
   
-1.  In the **Search** box, enter **Phys. Inventory Order**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Phys. Inventory Order**, and then choose the related link.  
   
 2.  Select the physical inventory order that you want to create an inventory recording for, and then, on the **Home** tab, choose **Edit**.  
   
@@ -59,7 +59,7 @@ After you have created a physical inventory order and its lines you can create a
   
 ### To complete a physical inventory recording  
   
-1.  In the **Search** box, enter **Phys. Inventory Recording**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Phys. Inventory Recording**, and then choose the related link.  
   
 2.  Select the physical inventory recording that you want to complete, and then, on the **Home** tab, choose **Edit**.  
   

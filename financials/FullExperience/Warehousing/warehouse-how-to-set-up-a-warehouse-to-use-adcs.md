@@ -23,7 +23,7 @@ To use ADCS, you must specify which warehouse locations use the technology.
   
 ### To set up a warehouse to use ADCS  
   
-1.  In the **Search** box, enter **Location List**, and choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Location List**, and choose the related link.  
   
 2.  Select a warehouse from the list for which you want to enable ADCS. On the **Home** tab, in the **Manage** group, choose **Edit**. The **Location Card** window opens.  
   

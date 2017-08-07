@@ -20,7 +20,7 @@ After you have set up codes for import VAT, you can post import VAT invoices.
   
 ### To post import VAT  
   
-1.  In the **Search** box, enter **General Journal**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journal**, and then choose the related link.  
   
 2.  In the **General Journal** window, fill in one line in the journal with the amount of the invoice and the general ledger account for import VAT.  
   

@@ -22,7 +22,7 @@ You can either convert an entire blanket order into one order, or you can make i
   
 ### To convert a blanket sales order to a sales order  
   
-1.  In the **Search** box, enter **Blanket Sales Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Blanket Sales Orders**, and then choose the related link.  
   
 2.  Open the relevant blanket sales order.  
   

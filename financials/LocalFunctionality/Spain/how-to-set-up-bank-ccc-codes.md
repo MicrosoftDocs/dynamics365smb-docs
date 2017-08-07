@@ -32,7 +32,7 @@ Código Cuenta Cliente (CCC) is a unique account code used by banks to identify 
   
 ### To enter CCC codes  
   
-1.  In the **Search** box, enter **Company Information**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.  
   
 2.  On the **Payments** FastTab, fill in the fields as described in the following table.  
   
@@ -47,7 +47,7 @@ Código Cuenta Cliente (CCC) is a unique account code used by banks to identify 
   
 ### To set up bank CCC codes for a customer bank account  
   
-1.  In the **Search** box, enter **Customer Bank Account Card**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customer Bank Account Card**, and then choose the related link.  
   
 2.  On the **Transfer** FastTab, enter information into the relevant CCC fields.  
   

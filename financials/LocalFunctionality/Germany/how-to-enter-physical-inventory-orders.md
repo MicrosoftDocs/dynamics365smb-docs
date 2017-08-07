@@ -24,7 +24,7 @@ A physical inventory order is a complete document that consists of a physical in
   
 ### To create a physical inventory order  
   
-1.  In the **Search** box, enter **Phys. Inventory Order**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Phys. Inventory Order**, and then choose the related link.  
   
 2.  On the **Home** tab, choose **New**.  
   

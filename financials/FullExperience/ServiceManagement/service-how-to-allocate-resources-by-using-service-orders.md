@@ -20,7 +20,7 @@ After you have created and filled in a service order or service quote, you can a
   
 ### To allocate a resource using a service order  
   
-1.  In the **Search** box, enter **Service Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Orders**, and then choose the related link.  
   
 2.  Select the relevant service order, and on the **Home** tab, in the **Manage** group, choose **Edit**.  
   

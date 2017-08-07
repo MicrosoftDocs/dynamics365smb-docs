@@ -27,7 +27,7 @@ To prevent documents from piling up or otherwise block the workflow, the approve
 
 ### To delegate approval requests in the Requests to Approve window  
 
-1.  In the **Search** box, enter **Requests to Approve**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Requests to Approve**, and then choose the related link.  
 
 2.  Select one or more lines for the approval requests that you want to delegate to a substitute approver.  
 
@@ -37,7 +37,7 @@ To prevent documents from piling up or otherwise block the workflow, the approve
 
 ### To delegate approval requests in the Approval Request Entries window  
 
-1.  In the **Search** box, enter **Approval Entries**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Approval Entries**, and then choose the related link.  
 
 2.  Select one or more lines for the approval requests that you want to delegate to a substitute approver.  
 

@@ -24,7 +24,7 @@ Use the disregard payment discount at full payment feature to accept payments wh
   
 ### To disregard a payment discount  
   
-1.  In the **Search** box, enter **Payment Terms**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Terms**, and then choose the related link.  
   
 2.  Select the line with the payment term for which you want to activate or deactivate payment discounts.  
   

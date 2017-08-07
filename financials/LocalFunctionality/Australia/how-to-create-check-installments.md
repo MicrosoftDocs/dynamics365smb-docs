@@ -20,7 +20,7 @@ You can create check installments for post-dated checks. You can define the numb
   
 ### To create a check installment  
   
-1.  In the **Search** box, enter **Post Dated checks-Purchases**, and then choose the relevant link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Post Dated checks-Purchases**, and then choose the relevant link.  
   
 2.  Choose the relevant check, and then, on the **Home** tab, choose **Edit**.  
   

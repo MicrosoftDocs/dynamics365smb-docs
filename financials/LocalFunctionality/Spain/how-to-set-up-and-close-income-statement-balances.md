@@ -23,7 +23,7 @@ You can use income statement balancing accounts to balance and track several acc
   
 ### To set up the income statement balance account  
   
-1.  In the **Search** box, enter **Chart of Accounts**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Chart of Accounts**, and then choose the related link.  
   
 2.  Select an existing general ledger account. On the **Home** tab, choose **Edit** to open the **G/L Account Card** window.  
   
@@ -38,7 +38,7 @@ You can use income statement balancing accounts to balance and track several acc
   
 ### To close income statement balances  
   
-1.  In the **Search** box, enter **Close Income Statement**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Close Income Statement**, and then choose the related link.  
   
 2.  In the **Options** FastTab, fill in the fields as described in the following table.  
   

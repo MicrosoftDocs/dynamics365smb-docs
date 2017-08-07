@@ -20,7 +20,7 @@ You can lend customers loaners to temporarily replace service items that you hav
   
 ### To lend a loaner  
   
-1.  In the **Search** box, enter **Service Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Orders**, and then choose the related link.  
   
 2.  Open the relevant service order card.  
   

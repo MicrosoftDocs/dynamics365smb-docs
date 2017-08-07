@@ -20,7 +20,7 @@ The **Job Queue Entries** window lists all current job queue entries. The list d
   
 ### To check the state of a job queue entry  
   
-1.  In the **Search** box, enter **Job Queue Entries**, and then choose the related link. The **Job Queue Entries** window opens.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Queue Entries**, and then choose the related link. The **Job Queue Entries** window opens.  
   
 2.  In the list, select the job queue entry that you want to check.  
   

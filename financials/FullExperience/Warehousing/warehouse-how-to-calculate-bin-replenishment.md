@@ -26,7 +26,7 @@ When the location is set up to use directed put-away and pick, priorities of the
   
 ### To replenish pick bins  
   
-1.  In the **Search** box, enter **Movement Worksheet**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Movement Worksheet**, and then choose the related link.  
   
 2.  On the **Actions** tab, in the **Functions** group, Choose **Calculate Bin Replenishment** to open the report request page.  
   

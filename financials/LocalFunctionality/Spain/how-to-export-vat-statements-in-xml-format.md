@@ -22,7 +22,7 @@ You can export a VAT statement in XML format and then submit it electronically t
   
 ### To export a VAT statement in XML format  
   
-1.  In the **Search** box, enter **VAT Statement**, and then choose the appropriate link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Statement**, and then choose the appropriate link.  
   
 2.  Select the required VAT statement, and then, on the **Actions** tab, choose **Telematic VAT**, and then choose **Generate XML file**.  
   

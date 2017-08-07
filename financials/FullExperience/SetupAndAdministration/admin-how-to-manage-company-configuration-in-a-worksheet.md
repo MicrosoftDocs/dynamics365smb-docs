@@ -30,7 +30,7 @@ The configuration worksheet is the central location in which you can plan, track
   
 1.  In the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/rim_md.md)]-->.  
   
-2.  In the **Search** box, enter **Configuration Worksheet**, and then choose the related link.  
+2.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Worksheet**, and then choose the related link.  
   
  The worksheet window opens.  
   

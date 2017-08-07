@@ -20,7 +20,7 @@ After you have set up your recurring journal, you can start to fill in the field
   
 ### To fill in a recurring journal  
   
-1.  In the **Search** box, enter **Recurring**, and then select a relevant link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Recurring**, and then select a relevant link.  
   
 2.  Enter your journal lines and post the journal.  
   

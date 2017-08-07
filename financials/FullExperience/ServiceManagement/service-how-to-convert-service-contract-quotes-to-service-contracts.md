@@ -22,7 +22,7 @@ When a customer has accepted a service contract quote, you convert it to a servi
   
 ### To convert a service contract quote to service contract  
   
-1.  In the **Search** box, enter **Service Contract Quotes**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Contract Quotes**, and then choose the related link.  
   
 2.  Open the relevant service contract quote you want to convert to a service contract.  
   

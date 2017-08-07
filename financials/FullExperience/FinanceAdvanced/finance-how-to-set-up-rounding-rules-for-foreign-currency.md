@@ -20,7 +20,7 @@ Before you can use the automatic invoice rounding function, you must set up roun
   
 ### To set up rounding rules for foreign currency  
   
-1.  In the **Search** box, enter **Currencies**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Currencies**, and then choose the related link.  
   
 2.  In the **Currencies** window, fill in the **Invoice Rounding Precision** and **Invoice Rounding Type** fields.   
   

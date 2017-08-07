@@ -24,7 +24,7 @@ After you have generated domiciliation suggestions, you may want to change the d
   
 ### To edit a journal line  
   
-1.  In the **Search** box, enter **Domiciliation Journals**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Domiciliation Journals**, and then choose the related link.  
   
 2.  In the **Batch Name** field, select the required journal batch.  
   
@@ -32,7 +32,7 @@ After you have generated domiciliation suggestions, you may want to change the d
   
 ### To delete a journal line  
   
-1.  In the **Search** box, enter **Domiciliation Journals**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Domiciliation Journals**, and then choose the related link.  
   
 2.  In the **Batch Name** field, select the required journal batch.  
   

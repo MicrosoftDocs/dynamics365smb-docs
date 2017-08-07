@@ -26,7 +26,7 @@ Use blanket orders when a customer has agreed to buy large quantities that are t
   
 ### To create a blanket sales order  
   
-1.  In the **Search** box, enter **Blanket Sales Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Blanket Sales Orders**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **New** group, choose **New**. Create a new blanket sales order.  
   

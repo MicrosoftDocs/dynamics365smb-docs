@@ -20,7 +20,7 @@ Transferring VAT amounts to the settlement account means that the purchase VAT a
   
 ### To transfer VAT amounts to the settlement account  
   
-1.  In the **Search** box, enter **VAT Statements**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Statements**, and then choose the related link.  
   
 2.  In the **VAT Statement** window, on the **Actions** tab, in the **Functions** group, choose **Calc. and Post VAT Settlement**.  
   

@@ -22,7 +22,7 @@ You can assign troubleshooting guidelines to items to help the technician solve 
   
 ### To assign troubleshooting guidelines to an item  
   
-1.  In the **Search** box, enter **Items**, and then choose the related link. Select the item to which you want to assign troubleshooting.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link. Select the item to which you want to assign troubleshooting.  
   
 2.  On the **Navigate** tab, in the **Service** group, choose **Troubleshooting**, and then choose **Troubleshooting Setup**. The **Troubleshooting Setup** window opens.  
   

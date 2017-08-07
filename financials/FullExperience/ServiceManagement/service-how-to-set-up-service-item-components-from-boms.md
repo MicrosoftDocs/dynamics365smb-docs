@@ -20,7 +20,7 @@ If you want to set up components for service items that are BOMs, you can copy t
   
 ### To set up service item components from a BOM  
   
-1.  In the **Search** box, enter **Service Items**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Items**, and then choose the related link.  
   
 2.  Open the service item for which you want to set up components from a BOM.  
   

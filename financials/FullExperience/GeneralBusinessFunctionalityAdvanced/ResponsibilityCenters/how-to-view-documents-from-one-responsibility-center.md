@@ -22,7 +22,7 @@ You can set up users so that in their daily routines the program retrieves only 
   
 ### To assign responsibility centers to users  
   
-1.  In the **Search** box, enter **User Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **User Setup**, and then choose the related link.  
   
 2.  In the **User Setup** window, select the user you want to assign a responsibility center to. If the user not is on the list, you must enter a user ID in the **User ID** field.  
   

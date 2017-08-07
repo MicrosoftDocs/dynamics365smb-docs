@@ -28,7 +28,7 @@ After posting the fixed assets, you must create a fixed asset release act of the
   
 ### To create a purchase order for an undepreciable fixed asset  
   
-1.  In the **Search** box, enter **Purchase Order**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Order**, and then choose the related link.  
   
 2.  In the **Purchase Order** window, on the **Home** tab, in the **Posting** group, choose **Post**.  
   
@@ -36,7 +36,7 @@ After posting the fixed assets, you must create a fixed asset release act of the
   
 ### To create a release order for an undepreciable fixed asset  
   
-1.  In the **Search** box, enter **FA Releases**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA Releases**, and then choose the related link.  
   
 2.  Select a release, and in the **FA Release Act** window, and on the **Home** tab, in the **Posting** group, choose **Post**.  
   

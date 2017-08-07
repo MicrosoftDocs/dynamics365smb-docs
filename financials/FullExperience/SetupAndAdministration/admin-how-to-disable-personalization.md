@@ -20,7 +20,7 @@ You can disable personalization for all users by modifying the profile. When you
   
 ### To disable personalization  
   
-1.  In the **Search** box, enter **Profiles**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Profiles**, and then choose the related link.  
   
 2.  Select the profile that you want to modify.  
   

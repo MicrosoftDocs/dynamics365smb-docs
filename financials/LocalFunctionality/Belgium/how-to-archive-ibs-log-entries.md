@@ -22,7 +22,7 @@ IBS log lines that have a process status of **Processed** can be archived. IBS l
   
 ### To archive an IBS log entry  
   
-1.  In the **Search** box, enter **IBS Logs**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **IBS Logs**, and then choose the related link.  
   
 2.  Select the line that you want to archive. On the **Actions** tab, in the **Function** group, choose **Archive**.  
   

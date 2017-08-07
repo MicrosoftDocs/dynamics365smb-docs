@@ -29,7 +29,7 @@ Withholding tax (WHT) is the tax withheld by a company when it makes a payment t
   
 ### To set up a product posting group for withholding tax  
   
-1.  In the **Search** box, enter **WHT Product Posting Group**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **WHT Product Posting Group**, and then choose the related link.  
   
 2.  Fill in the fields as described in the following table.  
   
@@ -42,7 +42,7 @@ Withholding tax (WHT) is the tax withheld by a company when it makes a payment t
   
 ### To set up posting for withholding tax  
   
-1.  In the **Search** box, enter **WHT Posting Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **WHT Posting Setup**, and then choose the related link.  
   
 2.  Fill in the fields as described in the following table.  
   

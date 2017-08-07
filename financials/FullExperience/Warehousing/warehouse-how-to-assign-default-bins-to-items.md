@@ -20,7 +20,7 @@ If you are using bins at a location, assigning default bins to your items can ma
   
 ### To assign a default bin  
   
-1.  In the **Search** box, enter **Bin Content Creation Worksheet**, and choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bin Content Creation Worksheet**, and choose the related link.  
   
 2.  Fill in the bin code and item information for each bin that you would like to set up as a default for an item. Make sure to select the **Default** field.  
   

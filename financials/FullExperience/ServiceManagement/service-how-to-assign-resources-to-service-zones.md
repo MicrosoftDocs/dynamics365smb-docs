@@ -22,7 +22,7 @@ When you allocate a resource, for example, a technician, to a service task that 
   
 ### To assign a resource to a service zone  
   
-1.  In the **Search** box, enter **Resource Service Zones**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Resource Service Zones**, and then choose the related link.  
   
 2.  Create a new resource service zones assignment.  
   

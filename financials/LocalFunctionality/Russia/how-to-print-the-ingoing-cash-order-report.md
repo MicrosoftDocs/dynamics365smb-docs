@@ -20,7 +20,7 @@ The **Cash Ingoing Order CO-1** report prints the Ingoing Cash Order form, which
   
 ### To print the ingoing cash order report  
   
-1.  In the **Search** box, enter **Cash Ingoing Order**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Ingoing Order**, and then choose the related link.  
   
 2.  In the **Cash Ingoing Order CO-1** window, fill in the fields.  
   

@@ -20,7 +20,7 @@ You can enter external document numbers for customers and vendors in all sales a
   
 ### To enter external document numbers in sales and purchase orders  
   
-1.  In the **Search** box, enter **Sales Orders** or **Purchase Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders** or **Purchase Orders**, and then choose the related link.  
   
 2.  Select a relevant sales order or purchase order. On the **Home** tab, choose **Edit**.  
   

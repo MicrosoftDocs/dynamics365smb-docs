@@ -20,7 +20,7 @@ You may need to change the default bin assignment for an item or assign a defaul
   
 ### To assign or change a default bin for an individual item  
   
-1.  In the **Search** box, enter **Bin Contents**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bin Contents**, and then choose the related link.  
   
 2.  In the **Location Filter** field, select the appropriate location code.  
   

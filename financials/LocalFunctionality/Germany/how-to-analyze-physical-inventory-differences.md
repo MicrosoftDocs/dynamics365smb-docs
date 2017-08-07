@@ -22,7 +22,7 @@ After you have finished the physical inventory order, you can analyze the physic
   
 ### To view the Physical Inventory Statistics window  
   
-1.  In the **Search** box, enter **Phys. Inventory Order**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Phys. Inventory Order**, and then choose the related link.  
   
 2.  Open physical inventory order that you want to view the statistics of.  
   
@@ -32,7 +32,7 @@ After you have finished the physical inventory order, you can analyze the physic
   
 ### To print the Phys. Inventory Order Difference list  
   
-1.  In the **Search** box, enter **Phys. Inventory Order**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Phys. Inventory Order**, and then choose the related link.  
   
 2.  Open physical inventory order that you want to print the difference list of.  
   

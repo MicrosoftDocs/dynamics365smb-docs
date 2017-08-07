@@ -20,7 +20,7 @@ You can reserve items for production orders. You have to distinguish between res
   
 ### To reserve items for production order components  
   
-1.  In the **Search** box, enter **Firm Planned Prod. Order**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Firm Planned Prod. Order**, and then choose the related link.  
   
 2.  Open the firm planned production order you want to reserve component items for.  
   

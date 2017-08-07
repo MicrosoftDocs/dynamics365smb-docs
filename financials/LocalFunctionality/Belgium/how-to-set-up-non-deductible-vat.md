@@ -23,7 +23,7 @@ You can calculate VAT amounts for specific types of expenses which can be partia
   
 ### To set up the non-deductible VAT percentage  
   
-1.  In the **Search** box, enter **Chart of Accounts**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Chart of Accounts**, and then choose the related link.  
   
 2.  Select a general ledger expense account that requires the partial deduction, and on the **Home** tab, in the **Manage** group, choose **Edit**.  
   

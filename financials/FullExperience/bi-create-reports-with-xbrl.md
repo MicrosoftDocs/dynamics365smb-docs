@@ -62,7 +62,7 @@ After you import or update the taxonomy, the lines of the schemas must be suppli
 
 You set up the XBRL Lines by mapping the data in the taxonomy to the data in your general ledger.  
 
-1.  In the **Search** box, enter **XBRL Taxonomies**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **XBRL Taxonomies**, and then choose the related link.  
 
 2.  In the **XBRL Taxonomies** window, select a taxonomy from the list.  
 
@@ -86,7 +86,7 @@ You set up the XBRL Lines by mapping the data in the taxonomy to the data in you
 
 The first step in working with the XBRL functionality is to import the taxonomy into your company database. A taxonomy consists of one or more schemas and some linkbases. After you have completed the import of both schemas and linkbases and have applied the linkbases to the schema, you can set up the lines and map the general ledger accounts in the chart of accounts to the appropriate taxonomy lines.  
 
-1.  In the **Search** box, enter **XBRL Taxonomies**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **XBRL Taxonomies**, and then choose the related link.  
 
 2.  In the **XBRL Taxonomies** window, create a new line and enter the name and description of the taxonomy.  
 
@@ -106,7 +106,7 @@ The first step in working with the XBRL functionality is to import the taxonomy 
 ### To update an XBRL taxonomy  
 When a taxonomy changes you need to update the current taxonomy accordingly. The reason for the update can be an altered schema, an altered linkbase, or a new linkbase. After updating the taxonomy, you only need to map the lines for the changed or new lines.  
 
-1.  In the **Search** box, enter **XBRL Taxonomies**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **XBRL Taxonomies**, and then choose the related link.  
 
 2.  In the **XBRL Taxonomies** window, on the **Navigate** tab, in the **Taxonomy** group, choose **Schemas**.  
 

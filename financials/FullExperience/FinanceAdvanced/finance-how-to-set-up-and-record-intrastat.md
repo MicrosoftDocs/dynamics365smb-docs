@@ -20,15 +20,15 @@ All companies in the European Union must report their trade with other EU countr
   
 ### To set up Intrastat  
   
-1.  In the **Search** box, enter **Tariff Numbers**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Tariff Numbers**, and then choose the related link.  
   
 2.  In the **Tariff Numbers** window, enter the published tariff numbers for all items that you buy and sell.   
   
-3.  In the **Search** box, enter **Transaction Types**, and then choose the related link.  
+3.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Transaction Types**, and then choose the related link.  
   
 4.  In the **Transaction Types** window, enter the 22 pre-defined Intrastat transaction types and codes.  
   
-5.  In the **Search** box, enter **Transport Methods**, and then choose the related link.  
+5.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Transport Methods**, and then choose the related link.  
   
 6.  In the **Transport Methods** window, enter the seven pre-defined Intrastat transport methods and codes.  
   

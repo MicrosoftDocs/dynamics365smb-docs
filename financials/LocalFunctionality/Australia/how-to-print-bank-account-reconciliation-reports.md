@@ -20,7 +20,7 @@ The **Bank Account Reconciliation** report displays open bank ledger entries as 
   
 ### To print a bank account reconciliation report  
   
-1.  In the **Search** box, enter **Reconciliation**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Reconciliation**, and then choose the related link.  
   
 2.  On the **Options** FastTab, select the **New Page per Bank Account** check box.  
   

@@ -22,7 +22,7 @@ After specifying the details of a service, you can adjust and post the quantitie
   
 ### To post shipments from service orders  
   
-1.  In the **Search** box, enter **Service Order**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Order**, and then choose the related link.  
   
 2.  In the window for the selected service order, click **Actions**![Action Menu icon](../media/actionmenuicon.png "actionMenuIcon"), **Order**, **Service Lines**.  
   

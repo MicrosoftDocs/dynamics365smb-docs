@@ -22,7 +22,7 @@ An item tracking code reflects the different considerations a company has regard
   
 ### To set up an item tracking code  
   
-1.  In the **Search** box, enter **Item Tracking Codes**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Tracking Codes**, and then choose the related link.  
   
 2.  Create a new **Item Tracking Code** card. On the **Home** tab, in the **New** group, choose **New**.  
   

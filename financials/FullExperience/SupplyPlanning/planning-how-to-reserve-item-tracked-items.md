@@ -24,7 +24,7 @@ From outbound documents for item-tracked items, such as sales orders or producti
   
 ### To reserve a specific serial or lot number  
   
-1.  In the **Search** box, enter **Sales Orders**, and then select the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then select the related link.  
   
 2.  Create a sales order line for an item-tracked item.  
   

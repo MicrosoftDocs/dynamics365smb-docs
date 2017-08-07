@@ -20,7 +20,7 @@ The **Debit Amount** and **Credit Amount** fields are included in multiple journ
   
 ### To define debit and credit amounts  
   
-1.  In the **Search** box, enter **General Journal**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journal**, and then choose the related link.  
   
 2.  Fill in the fields as described in the following table.  
   

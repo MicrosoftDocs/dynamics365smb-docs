@@ -22,7 +22,7 @@ A resource, for example, a technician, may have specific skills necessary to ser
   
 ### To assign a skill code to a resource  
   
-1.  In the **Search** box, enter **Resources**, and then choose the related link.Select the resource to which you want to assign a skill code.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Resources**, and then choose the related link.Select the resource to which you want to assign a skill code.  
   
 2.  On the **Navigate** tab, in the **Resource** group, choose **Skills**. The **Resource Skills** window opens.  
   

@@ -22,7 +22,7 @@ If you want to appreciate or depreciate an item or a specific item ledger entry,
   
 ### To fill in the revaluation journal with the batch job  
   
-1.  In the **Search** box, enter **Revaluation Journal**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Revaluation Journal**, and then choose the related link.  
   
 2.  As the calculation of inventory value can be rather time consuming, it is not desirable if the calculation is cancelled because of a precondition not met. Therefore, the **Calculate Inventory Value - Test** batch job can be used. This test report checks preconditions for the inventory value calculation.  
   

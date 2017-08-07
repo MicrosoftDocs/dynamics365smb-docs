@@ -28,7 +28,7 @@ Before you can create workflows, you must set up the users who take part in work
 
 ### To set up a workflow user  
 
-1.  In the **Search** box, enter **Workflow User Groups**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Workflow User Groups**, and then choose the related link.  
 
 2.  On the **Home** tab, in the **New** group, choose **New**. The **Workflow User Group** window opens.  
 

@@ -20,7 +20,7 @@ You can use the **Fault Reason Codes** window to set up fault reasons codes to d
   
 ### To set up fault reason codes  
   
-1.  In the **Search** box, enter **Fault Reason Codes**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Fault Reason Codes**, and then choose the related link.  
   
 2.  Create a new fault reason code. On the **Home** tab, in the **New** group, choose **New**.  
   

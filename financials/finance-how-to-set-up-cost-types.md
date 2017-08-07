@@ -24,7 +24,7 @@ Chart of cost types are similar to the chart of accounts in the general ledger. 
 
 ### To transfer the general ledger chart of accounts to the chart of cost types  
 
-1.  In the **Search** box, enter **Chart of Cost Types**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Chart of Cost Types**, and then choose the related link.  
 
 2.  On the **Actions** menu, in the **Functions** group, choose **Get Cost Types from Chart of Accounts**. In the dialog box, choose the **Yes** button to confirm the transfer. The function uses the chart of accounts to create a chart of cost types.  
 

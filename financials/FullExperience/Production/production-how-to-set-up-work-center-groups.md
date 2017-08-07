@@ -20,7 +20,7 @@ The work center groups offer you the possibility for classifying work groups. Se
   
 ### To set up work center groups  
   
-1.  In the **Search** box, enter **Work Center Groups**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Work Center Groups**, and then choose the related link.  
   
 2.  Create a new work center group, and fill in a code and name for the new work center group.  
   

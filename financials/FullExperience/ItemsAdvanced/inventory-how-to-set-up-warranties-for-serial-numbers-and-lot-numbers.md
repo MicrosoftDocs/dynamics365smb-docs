@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Warranties for Serial Numbers and Lot Numbers | Microsoft Docs
+    title: How to Set Up Warranties for Serial Numbers and Lot Numbers | Microsoft Docs
     description: For some items, you might want to set up specific warranties in the item tracking code. This functionality allows you to keep track of when the warranties on specific serial or lot numbers in your inventory will run out.
     services: project-madeira
     documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: How to: Configure New Companies | Microsoft Docs
+    title: How to Configure New Companies | Microsoft Docs
     description: You can configure and customize a new company that you have created. To fine tune your implementation, you proceed in three phases to complete your configuration. In the first phase, you import the configuration package, which is a .rapidstart file that you have saved. The file contains configuration information. In the second phase, you modify the configuration information, and then apply it to your new company. In the final phase, you review and fix errors.
     services: project-madeira
     documentationcenter: ''

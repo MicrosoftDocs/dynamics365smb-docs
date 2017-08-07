@@ -1,5 +1,5 @@
 ---
-    title: How to: Post Prepaid Contract Entries | Microsoft Docs
+    title: How to Post Prepaid Contract Entries | Microsoft Docs
     description: If you work with prepaid service contracts, you must regularly post prepaid contract entries, thereby transferring the prepaid payments from the prepaid contract accounts to the regular contract accounts.
     services: project-madeira
     documentationcenter: ''

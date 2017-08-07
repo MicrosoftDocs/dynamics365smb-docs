@@ -1,5 +1,5 @@
 ---
-    title: How to: Work with Inventory Periods | Microsoft Docs
+    title: How to Work with Inventory Periods | Microsoft Docs
     description: Inventory periods define a period of time in which you can post changes to inventory. An inventory period is defined by the date on which it ends, or the ending date. When you close an inventory period, you cannot post any changes to inventory, either expected or invoiced, before this ending date. You cannot post any new values to inventory before the ending date. If you have open item entries in the closed period, meaning positive quantities that have not yet been applied to outbound transactions, you can still apply outbound quantities to these entries, even if the period is closed.
     services: project-madeira
     documentationcenter: ''

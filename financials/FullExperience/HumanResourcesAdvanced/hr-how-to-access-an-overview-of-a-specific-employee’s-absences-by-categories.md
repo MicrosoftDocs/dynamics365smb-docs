@@ -1,5 +1,5 @@
 ---
-    title: How to: Access an Overview of a Specific Employee’s Absences by Categories | Microsoft Docs
+    title: How to Access an Overview of a Specific Employee’s Absences by Categories | Microsoft Docs
     description: You can get an overview of an individual employee’s absences by categories.
     services: project-madeira
     documentationcenter: ''

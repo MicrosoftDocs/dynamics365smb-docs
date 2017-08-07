@@ -1,5 +1,5 @@
 ---
-    title: How to: Fill In Intrastat Journals | Microsoft Docs
+    title: How to Fill In Intrastat Journals | Microsoft Docs
     description: You can fill in the fields in the Intrastat journal manually or retrieve item entries automatically with a batch job. Before you can do this, you must set up the Intrastat journal templates and batches.
     services: project-madeira
     documentationcenter: ''

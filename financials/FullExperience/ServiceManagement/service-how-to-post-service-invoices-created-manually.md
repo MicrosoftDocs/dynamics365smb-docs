@@ -1,5 +1,5 @@
 ---
-    title: How to: Post Service Invoices Created Manually | Microsoft Docs
+    title: How to Post Service Invoices Created Manually | Microsoft Docs
     description: When you have created an invoice, filled in all the information, and made any required modifications, you can post the invoice.
     services: project-madeira
     documentationcenter: ''

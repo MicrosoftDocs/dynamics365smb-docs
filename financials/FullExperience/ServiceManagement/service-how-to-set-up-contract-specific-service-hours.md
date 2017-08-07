@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Contract Specific Service Hours | Microsoft Docs
+    title: How to Set Up Contract Specific Service Hours | Microsoft Docs
     description: You can use the **Service Hours** window to set up specific service hours for the customer that owns the service contract. Service hours are used to calculate the response date and time for service orders and quotes that belong to the service contract.
     services: project-madeira
     documentationcenter: ''

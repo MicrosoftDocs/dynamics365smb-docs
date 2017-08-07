@@ -1,5 +1,5 @@
 ---
-    title: How to: View Unposted and Posted Blanket Sales Order Lines | Microsoft Docs
+    title: How to View Unposted and Posted Blanket Sales Order Lines | Microsoft Docs
     description: The link between the blanket sales order and the originating sales order, and any other sales document, is retained after posting as a list of posted and unposted sales order invoice lines.
     services: project-madeira
     documentationcenter: ''

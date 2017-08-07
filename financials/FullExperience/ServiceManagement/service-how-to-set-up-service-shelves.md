@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Service Shelves | Microsoft Docs
+    title: How to Set Up Service Shelves | Microsoft Docs
     description: You can use the **Service Shelves** window to set up service shelves that identify where service items are stored while they are in the repair shop.
     services: project-madeira
     documentationcenter: ''

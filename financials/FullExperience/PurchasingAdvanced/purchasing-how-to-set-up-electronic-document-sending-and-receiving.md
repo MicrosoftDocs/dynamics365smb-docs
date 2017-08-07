@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Alternative Vendor Addresses | Microsoft Docs
+    title: How to Set Up Alternative Vendor Addresses | Microsoft Docs
     description: You can associate any number of order addresses with a vendor. Each address is identified by a unique code, and when you use this code on a purchase quote, order, or invoice header, the related address information is printed on the purchase order.
     services: project-madeira
     documentationcenter: ''

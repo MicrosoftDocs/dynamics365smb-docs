@@ -1,5 +1,5 @@
 ---
-    title: How to: Delete Invoiced Service Orders | Microsoft Docs
+    title: How to Delete Invoiced Service Orders | Microsoft Docs
     description: Orders are usually deleted automatically after having been fully invoiced. When an invoice is posted, a corresponding entry is created in the **Posted Service Invoices** window. The posted document can be viewed in the **Posted Service Invoice** window.
     services: project-madeira
     documentationcenter: ''

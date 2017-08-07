@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Electronic VAT and ICP Declarations | Microsoft Docs
+    title: How to Set Up Electronic VAT and ICP Declarations | Microsoft Docs
     description: To get your Digipoort communications to work, you may have to adjust your network settings. Digipoort uses a secure communication protocol and requires using TCP port 443. Before proceeding with the following procedure, set up your network to use this port.
     services: project-madeira
     documentationcenter: ''

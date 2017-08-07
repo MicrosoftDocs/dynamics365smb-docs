@@ -1,5 +1,5 @@
 ---
-    title: How to: Post a Bank Reconciliation | Microsoft Docs
+    title: How to Post a Bank Reconciliation | Microsoft Docs
     description: You can post bank reconciliation if you have reconciled the bank accounts in the **Bank Rec.Worksheet** window. For more information, see [How to: Reconcile Bank Accounts by Using Bank Statements](how-to-reconcile-bank-accounts-by-using-bank-statements.md).
     services: project-madeira
     documentationcenter: ''

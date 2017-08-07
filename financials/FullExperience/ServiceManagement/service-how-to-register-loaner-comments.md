@@ -1,5 +1,5 @@
 ---
-    title: How to: Register Loaner Comments | Microsoft Docs
+    title: How to Register Loaner Comments | Microsoft Docs
     description: You can use the **General Service Comment Sheet** window to register comments on registered loaners.
     services: project-madeira
     documentationcenter: ''

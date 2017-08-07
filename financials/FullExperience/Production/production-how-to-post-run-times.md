@@ -1,5 +1,5 @@
 ---
-    title: How to: Post Run Times | Microsoft Docs
+    title: How to Post Run Times | Microsoft Docs
     description: The run time represents work progress in the form of the necessary working time.
     services: project-madeira
     documentationcenter: ''

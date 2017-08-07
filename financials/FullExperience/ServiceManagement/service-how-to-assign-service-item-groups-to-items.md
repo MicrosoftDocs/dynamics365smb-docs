@@ -1,5 +1,5 @@
 ---
-    title: How to: Assign Service Item Groups to Items | Microsoft Docs
+    title: How to Assign Service Item Groups to Items | Microsoft Docs
     description: You can assign service item groups to items on the item card. The service item group determines whether the items are automatically registered as service items when sold. Service items representing items belong to the same service item group as the items.
     services: project-madeira
     documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: How to: Record Serial Number and Lot Number Information | Microsoft Docs
+    title: How to Record Serial Number and Lot Number Information | Microsoft Docs
     description: If you need to link special information to a specific item tracking number, for example, for quality assurance, you can do so in a serial or lot number information card.
     services: project-madeira
     documentationcenter: ''

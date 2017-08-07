@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Service Contract Groups | Microsoft Docs
+    title: How to Set Up Service Contract Groups | Microsoft Docs
     description: You can use the **Service Contract Groups** window to set up groups of service contracts that are related in some way.
     services: project-madeira
     documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: How to: Lend Loaners | Microsoft Docs
+    title: How to Lend Loaners | Microsoft Docs
     description: You can lend customers loaners to temporarily replace service items that you have received for servicing.
     services: project-madeira
     documentationcenter: ''

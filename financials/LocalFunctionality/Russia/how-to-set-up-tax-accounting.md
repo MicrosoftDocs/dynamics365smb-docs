@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Tax Accounting | Microsoft Docs
+    title: How to Set Up Tax Accounting | Microsoft Docs
     description: Tax accounting lets you apply rules for recognizing income and expenses that follow your local tax laws. You can activate tax accounting features in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] by setting up tax registers.
     services: project-madeira
     documentationcenter: ''

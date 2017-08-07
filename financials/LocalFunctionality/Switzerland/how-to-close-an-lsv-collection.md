@@ -1,5 +1,5 @@
 ---
-    title: How to: Close an LSV Collection | Microsoft Docs
+    title: How to Close an LSV Collection | Microsoft Docs
     description: You must close Lastschrift Verfahren (LSV+) collections to write LSV files that can be sent to the bank for payment collection. When you close a collection, the collection is complete, and the postings in the LSV journal are combined.
     services: project-madeira
     documentationcenter: ''

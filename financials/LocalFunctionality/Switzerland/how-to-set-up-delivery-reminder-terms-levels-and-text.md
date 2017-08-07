@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Delivery Reminder Terms, Levels, and Text | Microsoft Docs
+    title: How to Set Up Delivery Reminder Terms, Levels, and Text | Microsoft Docs
     description: To create delivery reminders, you must set up the following:
     services: project-madeira
     documentationcenter: ''

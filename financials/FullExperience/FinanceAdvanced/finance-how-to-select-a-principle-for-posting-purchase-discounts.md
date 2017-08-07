@@ -1,5 +1,5 @@
 ---
-    title: How to: Select a Principle for Posting Purchase Discounts | Microsoft Docs
+    title: How to Select a Principle for Posting Purchase Discounts | Microsoft Docs
     description: When you post a purchase invoice that includes one or more discounts, you can choose between two principles for posting discount amounts. You can post discounts separately or you can subtract discounts from invoice discounts.
     services: project-madeira
     documentationcenter: ''

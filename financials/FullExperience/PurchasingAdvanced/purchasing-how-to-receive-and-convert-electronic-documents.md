@@ -1,5 +1,5 @@
 ---
-    title: How to: Receive and Convert Electronic Documents | Microsoft Docs
+    title: How to Receive and Convert Electronic Documents | Microsoft Docs
     description: The generic version of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]-->.
     services: project-madeira
     documentationcenter: ''

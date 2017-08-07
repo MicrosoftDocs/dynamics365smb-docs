@@ -1,5 +1,5 @@
 ---
-    title: How to: Batch Post Service Orders | Microsoft Docs
+    title: How to Batch Post Service Orders | Microsoft Docs
     description: If you have set up a large number of service orders, it is advantageous to post them in a batch job. You can have them posted at any convenient time.
     services: project-madeira
     documentationcenter: ''

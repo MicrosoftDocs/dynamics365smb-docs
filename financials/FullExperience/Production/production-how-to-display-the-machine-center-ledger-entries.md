@@ -1,5 +1,5 @@
 ---
-    title: How to: Display the Machine Center Ledger Entries | Microsoft Docs
+    title: How to Display the Machine Center Ledger Entries | Microsoft Docs
     description: From the **Machine Center Card** window, you can view the posted entries for the machine center.
     services: project-madeira
     documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: How to: Use the RapidStart Services Role Center to Track Progress | Microsoft Docs
+    title: How to Use the RapidStart Services Role Center to Track Progress | Microsoft Docs
     description: When you use ADD INCLUDE<!--[!INCLUDE[rim](../../includes/how-to-change-role-centers.md). Choose the RapidStart Profile ID.
     services: project-madeira
     documentationcenter: ''

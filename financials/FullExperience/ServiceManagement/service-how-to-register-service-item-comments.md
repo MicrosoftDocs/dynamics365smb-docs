@@ -1,5 +1,5 @@
 ---
-    title: How to: Register Service Item Comments | Microsoft Docs
+    title: How to Register Service Item Comments | Microsoft Docs
     description: You can use the **Service Comment Sheet** window to register comments on service items.
     services: project-madeira
     documentationcenter: ''

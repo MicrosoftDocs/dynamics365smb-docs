@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Production Orders | Microsoft Docs
+    title: How to Set Up Production Orders | Microsoft Docs
     description: When you set up a new production order, there are fields that must always be filled in, fields that can be filled in as needed, and fields in which you cannot enter anything.
     services: project-madeira
     documentationcenter: ''

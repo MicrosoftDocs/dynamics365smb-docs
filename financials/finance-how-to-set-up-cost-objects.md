@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Cost Objects | Microsoft Docs
+    title: How to Set Up Cost Objects | Microsoft Docs
     description: Cost objects are projects, products, or services of a company. The chart of cost objects is similar to the dimension information for the general ledger. You can set up the chart of cost objects in the following ways:
     services: project-madeira
     documentationcenter: ''
@@ -19,7 +19,6 @@
 Cost objects are projects, products, or services of a company. The chart of cost objects is similar to the dimension information for the general ledger. You can set up the chart of cost objects in the following ways:  
 
 -   Transfer dimension values in the general ledger to the chart of cost objects. You can make any necessary adjustments after the transfer.  
-
 -   Create a new chart of cost object that is independent of the general ledger or add a new cost object to an existing chart of cost objects. You must create each cost object individually.  
 
 ## To transfer dimension values from the general ledger to the chart of cost objects  

@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Responsibility Centers in Inventory | Microsoft Docs
+    title: How to Set Up Responsibility Centers in Inventory | Microsoft Docs
     description: You can set up responsibility centers to help administer your business.
     services: project-madeira
     documentationcenter: ''

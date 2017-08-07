@@ -1,5 +1,5 @@
 ---
-    title: How to: Calculate Production Order Components | Microsoft Docs
+    title: How to Calculate Production Order Components | Microsoft Docs
     description: If you have amended production order lines, you must also refresh the components of the production order.
     services: project-madeira
     documentationcenter: ''

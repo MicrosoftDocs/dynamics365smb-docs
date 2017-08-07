@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Contract Templates | Microsoft Docs
+    title: How to Set Up Contract Templates | Microsoft Docs
     description: You can use the **Service Contract Templates** window to set up contract templates as predefined layouts of contracts that include the most commonly used service contract details. When you create service contract quotes, you can create them by using templates. The fields in the contract quote are filled in automatically with the contents of the corresponding template fields.
     services: project-madeira
     documentationcenter: ''

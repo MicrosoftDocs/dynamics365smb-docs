@@ -1,5 +1,5 @@
 ---
-    title: How to: View Withholding Tax Entries | Microsoft Docs
+    title: How to View Withholding Tax Entries | Microsoft Docs
     description: You can view entries that have been posted with withholding tax (WHT) for a specified general ledger register.
     services: project-madeira
     documentationcenter: ''

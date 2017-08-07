@@ -1,5 +1,5 @@
 ---
-    title: How to: Enter Custom Declarations Information | Microsoft Docs
+    title: How to Enter Custom Declarations Information | Microsoft Docs
     description: Use the following procedure to enter custom declaration information.
     services: project-madeira
     documentationcenter: ''

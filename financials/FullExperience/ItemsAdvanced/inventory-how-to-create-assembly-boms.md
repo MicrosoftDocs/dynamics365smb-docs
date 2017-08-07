@@ -1,5 +1,5 @@
 ---
-    title: How to: Create Assembly BOMs | Microsoft Docs
+    title: How to Create Assembly BOMs | Microsoft Docs
     description: Assembly BOMs specify which components or resources are required to assemble the item that the assembly BOM represents. Assembly BOMs usually contain items but can also contain one or more resources that perform the assembly work. For more information, see Resource Usage Type.
     services: project-madeira
     documentationcenter: ''

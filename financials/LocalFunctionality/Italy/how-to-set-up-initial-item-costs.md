@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Initial Item Costs | Microsoft Docs
+    title: How to Set Up Initial Item Costs | Microsoft Docs
     description: When you set up [!INCLUDE[d365fin](../../includes/d365fin_md.md)] in your organization.
     services: project-madeira
     documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Rounding Rules for the LCY | Microsoft Docs
+    title: How to Set Up Rounding Rules for the LCY | Microsoft Docs
     description: Before you can use the automatic invoice rounding function, you must set up rounding rules.
     services: project-madeira
     documentationcenter: ''

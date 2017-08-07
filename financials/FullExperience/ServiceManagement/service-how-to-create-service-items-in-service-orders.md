@@ -1,5 +1,5 @@
 ---
-    title: How to: Create Service Items in Service Orders | Microsoft Docs
+    title: How to Create Service Items in Service Orders | Microsoft Docs
     description: When you receive items for service that you want to register as service items, you can create them as service items in the **Service Order** or **Service Quote** windows.
     services: project-madeira
     documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: How to: Create SEPA Direct Debit Collection Entries and Export to a Bank File | Microsoft Docs
+    title: How to Create SEPA Direct Debit Collection Entries and Export to a Bank File | Microsoft Docs
     description: To instruct the bank to transfer the payment amount from the customer’s bank account to your company’s account, you create a direct-debit collection, which holds information about the customer’s bank account, the affected sales invoices, and the direct-debit mandate. From the resulting direct-debit collection entry, you then export an XML file that you send or upload to your electronic bank for processing. Any payments that could not be processed by the bank will be communicated to you by your bank, and you must then manually reject the direct debit-collection entries in question.
     services: project-madeira
     documentationcenter: ''

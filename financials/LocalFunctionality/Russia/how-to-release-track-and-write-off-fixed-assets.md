@@ -1,5 +1,5 @@
 ---
-    title: How to: Release, Track, and Write-Off Fixed Assets | Microsoft Docs
+    title: How to Release, Track, and Write-Off Fixed Assets | Microsoft Docs
     description: You can manage your fixed assets utilizing the fixed assets acts features in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. Fixed assets acts allow you to release, track, and write-off the fixed assets of your organization.
     services: project-madeira
     documentationcenter: ''

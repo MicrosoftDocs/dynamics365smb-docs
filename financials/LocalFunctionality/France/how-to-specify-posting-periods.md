@@ -1,5 +1,5 @@
 ---
-    title: How to: Specify Posting Periods | Microsoft Docs
+    title: How to Specify Posting Periods | Microsoft Docs
     description: When you specify posting periods, you limit the period in which posting is allowed.
     services: project-madeira
     documentationcenter: ''

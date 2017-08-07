@@ -1,5 +1,5 @@
 ---
-    title: How to: Copy Production BOMs | Microsoft Docs
+    title: How to Copy Production BOMs | Microsoft Docs
     description: You can copy production BOMs. Make sure that the BOM you copy to is not certified. The item lines in the BOM you are copying to are replaced by the lines in the BOM you are copying from.
     services: project-madeira
     documentationcenter: ''

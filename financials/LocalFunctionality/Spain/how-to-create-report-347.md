@@ -1,5 +1,5 @@
 ---
-    title: How to: Create Report 347 | Microsoft Docs
+    title: How to Create Report 347 | Microsoft Docs
     description: All companies must provide an annual declaration, **Report 347**, to the tax authorities providing the sales and purchase transactions from the previous fiscal period.
     services: project-madeira
     documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: How to: Reserve Items for Production Order Lines | Microsoft Docs
+    title: How to Reserve Items for Production Order Lines | Microsoft Docs
     description: You can reserve items for production orders. You have to distinguish between production order lines and production order components.
     services: project-madeira
     documentationcenter: ''

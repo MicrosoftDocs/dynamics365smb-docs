@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Service Item Components from BOMs | Microsoft Docs
+    title: How to Set Up Service Item Components from BOMs | Microsoft Docs
     description: If you want to set up components for service items that are BOMs, you can copy the BOM items and create them as service item components.
     services: project-madeira
     documentationcenter: ''

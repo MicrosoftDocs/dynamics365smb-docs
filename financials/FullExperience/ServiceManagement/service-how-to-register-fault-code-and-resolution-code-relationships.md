@@ -1,5 +1,5 @@
 ---
-    title: How to: Register Fault Code and Resolution Code Relationships | Microsoft Docs
+    title: How to Register Fault Code and Resolution Code Relationships | Microsoft Docs
     description: After repairing a service item, you can register both the fault code and the resolution code for the item by selecting a combination from the existing fault/resolution codes relationships.
     services: project-madeira
     documentationcenter: ''

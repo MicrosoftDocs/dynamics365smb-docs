@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Automatic Account Posting Groups | Microsoft Docs
+    title: How to Set Up Automatic Account Posting Groups | Microsoft Docs
     description: To use automatic account codes, you must create an automatic account posting group.
     services: project-madeira
     documentationcenter: ''

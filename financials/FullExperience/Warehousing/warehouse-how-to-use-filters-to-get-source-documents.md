@@ -1,5 +1,5 @@
 ---
-    title: How to: Use Filters to Get Source Documents | Microsoft Docs
+    title: How to Use Filters to Get Source Documents | Microsoft Docs
     description: From a new or an open warehouse receipt or warehouse shipment, you can use the **Filters to Get Source Docs.** window to retrieve the released source document lines that define which items to receive or ship.
     services: project-madeira
     documentationcenter: ''

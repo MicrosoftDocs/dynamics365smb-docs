@@ -1,5 +1,5 @@
 ---
-    title: How to: Change Which Layout is Currently Used on a Report | Microsoft Docs
+    title: How to Change Which Layout is Currently Used on a Report | Microsoft Docs
     description: This procedure describes how to change the layout that is used by a report. A report can be set up with more than one report layout, which you can then switch among as needed.
     services: project-madeira
     documentationcenter: ''

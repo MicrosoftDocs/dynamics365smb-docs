@@ -1,5 +1,5 @@
 ---
-    title: How to: Create Simulation Entries | Microsoft Docs
+    title: How to Create Simulation Entries | Microsoft Docs
     description: When you have set up simulation of general ledger entries, you can create simulation entries.
     services: project-madeira
     documentationcenter: ''

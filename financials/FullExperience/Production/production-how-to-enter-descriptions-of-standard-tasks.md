@@ -1,5 +1,5 @@
 ---
-    title: How to: Enter Descriptions of Standard Tasks | Microsoft Docs
+    title: How to Enter Descriptions of Standard Tasks | Microsoft Docs
     description: You can enter descriptions of standard tasks.
     services: project-madeira
     documentationcenter: ''

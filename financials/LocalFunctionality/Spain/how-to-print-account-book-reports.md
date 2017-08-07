@@ -1,5 +1,5 @@
 ---
-    title: How to: Print Account Book Reports | Microsoft Docs
+    title: How to Print Account Book Reports | Microsoft Docs
     description: Account book reports display all the general ledger entries created in a specific period. The two account book reports are:
     services: project-madeira
     documentationcenter: ''

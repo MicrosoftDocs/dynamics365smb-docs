@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Service Price Groups | Microsoft Docs
+    title: How to Set Up Service Price Groups | Microsoft Docs
     description: You can use the **Service Price Groups** window to set up groups containing service items that you want to receive the same special service pricing. You assign service price groups to service items on service item lines. You can also assign service price groups to service item groups.
     services: project-madeira
     documentationcenter: ''

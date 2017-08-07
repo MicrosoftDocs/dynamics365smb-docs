@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Symptom Codes | Microsoft Docs
+    title: How to Set Up Symptom Codes | Microsoft Docs
     description: You can use the **Symptom Codes** window to set up symptom codes to describe possible symptoms of service item faults. The level of fault reporting in your company determines whether you use symptom codes.
     services: project-madeira
     documentationcenter: ''

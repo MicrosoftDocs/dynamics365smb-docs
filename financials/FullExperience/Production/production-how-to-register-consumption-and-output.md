@@ -1,5 +1,5 @@
 ---
-    title: How to: Recalculate Calendar Entries for Work Centers | Microsoft Docs
+    title: How to Recalculate Calendar Entries for Work Centers | Microsoft Docs
     description: You can update the calendar entries after changes in the shop calendar. The existing calendar entries are validated to make sure they correspond to the shop calendar. The appropriate calendar entry is corrected if deviations are determined.
     services: project-madeira
     documentationcenter: ''

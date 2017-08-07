@@ -1,5 +1,5 @@
 ---
-    title: How to: Change Service Pricing for Service Items | Microsoft Docs
+    title: How to Change Service Pricing for Service Items | Microsoft Docs
     description: You can manually change the breakdown of service pricing for a service item in the **Service Item Worksheet** window.
     services: project-madeira
     documentationcenter: ''

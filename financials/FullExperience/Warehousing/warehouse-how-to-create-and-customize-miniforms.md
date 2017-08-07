@@ -1,5 +1,5 @@
 ---
-    title: How to: Create and Customize Miniforms | Microsoft Docs
+    title: How to Create and Customize Miniforms | Microsoft Docs
     description: You use miniforms to describe the information that you want to present on a handheld device. For example, you can create miniforms to support the warehouse activity of picking items. After you create a miniform, you can add functions to it for the common actions that a user takes with handheld devices, such as moving up or down a line.
     services: project-madeira
     documentationcenter: ''

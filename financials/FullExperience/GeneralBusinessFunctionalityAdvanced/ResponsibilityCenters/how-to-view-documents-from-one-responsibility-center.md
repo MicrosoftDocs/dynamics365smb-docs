@@ -1,5 +1,5 @@
 ---
-    title: How to: View Documents from One Responsibility Center | Microsoft Docs
+    title: How to View Documents from One Responsibility Center | Microsoft Docs
     description: You can set up users so that in their daily routines the program retrieves only the documents relevant for their particular work areas. Users are usually associated with one responsibility center and work only with documents related to specific application areas at that particular center.
     services: project-madeira
     documentationcenter: ''

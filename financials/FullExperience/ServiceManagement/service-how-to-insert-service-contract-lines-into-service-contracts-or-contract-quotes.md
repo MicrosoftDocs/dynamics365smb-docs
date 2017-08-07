@@ -1,5 +1,5 @@
 ---
-    title: How to: Insert Service Contract Lines into Service Contracts or Contract Quotes | Microsoft Docs
+    title: How to Insert Service Contract Lines into Service Contracts or Contract Quotes | Microsoft Docs
     description: You may need to insert the contract or contract quote lines to register service items in the service contract or service contract quote that are already included in a different service contract or service contract quote.
     services: project-madeira
     documentationcenter: ''

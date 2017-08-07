@@ -1,5 +1,5 @@
 ---
-    title: How to: Enter Comments for Work Centers | Microsoft Docs
+    title: How to Enter Comments for Work Centers | Microsoft Docs
     description: You can add comments to each work center.
     services: project-madeira
     documentationcenter: ''

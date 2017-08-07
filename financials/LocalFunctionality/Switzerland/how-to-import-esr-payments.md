@@ -1,5 +1,5 @@
 ---
-    title: How to: Import ESR Payments | Microsoft Docs
+    title: How to Import ESR Payments | Microsoft Docs
     description: After you receive payment from a customer, you receive a file that contains information about paid invoices. You can receive this file from your bank electronically, or by mail.
     services: project-madeira
     documentationcenter: ''

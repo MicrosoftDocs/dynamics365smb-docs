@@ -1,5 +1,5 @@
 ---
-title: How to: Post Inventory Costs to the General Ledger| Microsoft Docs
+title: How to Post Inventory Costs to the General Ledger| Microsoft Docs
 description: Describes how to manage the physical products that you trade in, for example, handling the stock in your warehouse.
 documentationcenter: ''
 author: SorenGP

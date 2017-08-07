@@ -1,5 +1,5 @@
 ---
-    title: How to: View and Print Reports | Microsoft Docs
+    title: How to View and Print Reports | Microsoft Docs
     description: In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, there are many predefined reports that you can find in different ways:
     services: project-madeira
     documentationcenter: ''

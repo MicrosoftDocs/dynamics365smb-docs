@@ -1,5 +1,5 @@
 ---
-    title: How to: Transmit Electronic Payments | Microsoft Docs
+    title: How to Transmit Electronic Payments | Microsoft Docs
     description: After you have exported payment journal entries to a file using the Export Electronic Payments report, you can use the Void-Transmit Elec. Payments process to transmit the electronic payments file to your bank for processing.
     services: project-madeira
     documentationcenter: ''

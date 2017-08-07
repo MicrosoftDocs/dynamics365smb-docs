@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Tax Authority-Fund Cards | Microsoft Docs
+    title: How to Set Up Tax Authority-Fund Cards | Microsoft Docs
     description: The Tax Authority or Fund card enables you to compile a list of different tax authorities.
     services: project-madeira
     documentationcenter: ''

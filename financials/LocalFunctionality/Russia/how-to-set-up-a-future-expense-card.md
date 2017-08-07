@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up a Future Expense Card | Microsoft Docs
+    title: How to Set Up a Future Expense Card | Microsoft Docs
     description: To account for future period expenses you have to set up a future expense card.
     services: project-madeira
     documentationcenter: ''

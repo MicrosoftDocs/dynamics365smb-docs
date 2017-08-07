@@ -1,5 +1,5 @@
 ---
-    title: How to: Enter Time Periods When Machine Centers Cannot Be Used | Microsoft Docs
+    title: How to Enter Time Periods When Machine Centers Cannot Be Used | Microsoft Docs
     description: You can define time periods where machine centers cannot be used.
     services: project-madeira
     documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: How to: Fill In the Revaluation Journal with the Batch Job | Microsoft Docs
+    title: How to Fill In the Revaluation Journal with the Batch Job | Microsoft Docs
     description: If you want to appreciate or depreciate an item or a specific item ledger entry, you must use the revaluation journal.
     services: project-madeira
     documentationcenter: ''

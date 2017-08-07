@@ -1,5 +1,5 @@
 ---
-    title: How to: Create Check Installments | Microsoft Docs
+    title: How to Create Check Installments | Microsoft Docs
     description: You can create check installments for post-dated checks. You can define the number of installments that a payment will be divided into, the percent of interest, and the period in which the checks will be created.
     services: project-madeira
     documentationcenter: ''

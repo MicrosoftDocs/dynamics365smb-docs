@@ -1,5 +1,5 @@
 ---
-    title: How to: Work with the BASIC Permission Set | Microsoft Docs
+    title: How to Work with the BASIC Permission Set | Microsoft Docs
     description: When a user creates a new database, that user is assigned only one permission set automatically: the SUPER permission set. As you create and define permission sets in a new database and companies, remember to always assign the BASIC permission set, which grants users access to required system tables and other fundamental tables, to all users.
     services: project-madeira
     documentationcenter: ''

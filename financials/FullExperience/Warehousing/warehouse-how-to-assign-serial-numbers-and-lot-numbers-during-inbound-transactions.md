@@ -1,5 +1,5 @@
 ---
-    title: How to: Assign Serial Numbers and Lot Numbers During Inbound Transactions | Microsoft Docs
+    title: How to Assign Serial Numbers and Lot Numbers During Inbound Transactions | Microsoft Docs
     description: Companies may want to keep track of items from the moment they enter the company. In this situation, the purchase order is often the central document, although item tracking may be handled from any inbound document and its posted entries displayed in the related item ledger entries.
     services: project-madeira
     documentationcenter: ''

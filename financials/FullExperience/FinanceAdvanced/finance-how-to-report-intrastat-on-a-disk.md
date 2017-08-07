@@ -1,5 +1,5 @@
 ---
-    title: How to: Report Intrastat on a Disk | Microsoft Docs
+    title: How to Report Intrastat on a Disk | Microsoft Docs
     description: You can submit the Intrastat report on a disk. Before creating the file, you can print a checklist that contains the same information that will be in the file.
     services: project-madeira
     documentationcenter: ''

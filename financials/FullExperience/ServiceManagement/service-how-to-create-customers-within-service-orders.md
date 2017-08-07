@@ -1,5 +1,5 @@
 ---
-    title: How to: Create Customers within Service Orders | Microsoft Docs
+    title: How to Create Customers within Service Orders | Microsoft Docs
     description: When you create service orders for customers that are not registered in [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create the customers within the **Service Order** or **Service Quote** windows.
     services: project-madeira
     documentationcenter: ''

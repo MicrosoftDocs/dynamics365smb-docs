@@ -1,5 +1,5 @@
 ---
-    title: How to: Generate Electronic Invoices | Microsoft Docs
+    title: How to Generate Electronic Invoices | Microsoft Docs
     description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], after you post a sales invoice you must generate an electronic invoice that will be sent to the customer. You can also export the electronic invoice as an XML file, which you can save to a specified location.
     services: project-madeira
     documentationcenter: ''

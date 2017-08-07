@@ -1,5 +1,5 @@
 ---
-    title: How to: Create Job Queue Categories | Microsoft Docs
+    title: How to Create Job Queue Categories | Microsoft Docs
     description: You can use categories of job queues to help group and filter jobs.
     services: project-madeira
     documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: How to: Release Production Orders Automatically | Microsoft Docs
+    title: How to Release Production Orders Automatically | Microsoft Docs
     description: With an automatic release, you can release several production orders at the same time.
     services: project-madeira
     documentationcenter: ''

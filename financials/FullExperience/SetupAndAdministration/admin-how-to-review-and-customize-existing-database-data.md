@@ -1,5 +1,5 @@
 ---
-    title: How to: Review and Customize Existing Database Data | Microsoft Docs
+    title: How to Review and Customize Existing Database Data | Microsoft Docs
     description: As you create a configuration package for a solution, you can view and customize the available database data to suit your customer needs. The database table has to have an associated page.
     services: project-madeira
     documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: How to: Define Check Layouts | Microsoft Docs
+    title: How to Define Check Layouts | Microsoft Docs
     description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can design your checks to conform with the standards set by the local authorities. Check images can be printed in English, French, or Spanish.
     services: project-madeira
     documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: How to: Enable and Disable Encryption Keys | Microsoft Docs
+    title: How to Enable and Disable Encryption Keys | Microsoft Docs
     description: You can encrypt data on the ADD INCLUDE<!--[!INCLUDE[nav_server](../../includes/nav_server_md.md)]--> by generating new or importing existing encryption keys that you enable on the server.
     services: project-madeira
     documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: How to: Find Where Routings Are Used | Microsoft Docs
+    title: How to Find Where Routings Are Used | Microsoft Docs
     description: You can use the **Where-used** function to find out which items use a certain routing.
     services: project-madeira
     documentationcenter: ''

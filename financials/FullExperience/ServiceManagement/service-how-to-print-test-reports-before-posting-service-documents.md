@@ -1,5 +1,5 @@
 ---
-    title: How to: Print Test Reports Before Posting Service Documents | Microsoft Docs
+    title: How to Print Test Reports Before Posting Service Documents | Microsoft Docs
     description: When you have created a service document, such as an order, invoice, or credit memo, and filled in all the information, you can post the document.
     services: project-madeira
     documentationcenter: ''

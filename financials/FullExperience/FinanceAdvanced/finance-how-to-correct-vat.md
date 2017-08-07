@@ -1,5 +1,5 @@
 ---
-    title: How to: Correct VAT | Microsoft Docs
+    title: How to Correct VAT | Microsoft Docs
     description: You can make corrections to already posted VAT entries and change the total sales or purchase VAT amounts without changing the VAT base. You may need to do this, for example, if you receive an invoice from a vendor that has calculated VAT incorrectly.
     services: project-madeira
     documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Loaners | Microsoft Docs
+    title: How to Set Up Loaners | Microsoft Docs
     description: You can use the **Loaner Card** window to set up loaners that you can lend to customers to replace service items while they are in service.
     services: project-madeira
     documentationcenter: ''

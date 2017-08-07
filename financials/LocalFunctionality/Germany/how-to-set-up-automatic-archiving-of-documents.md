@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Automatic Archiving of Documents | Microsoft Docs
+    title: How to Set Up Automatic Archiving of Documents | Microsoft Docs
     description: You can set up automatic archiving of sales documents and purchase documents—such as quotes, blanket orders, and orders—before you delete documents.
     services: project-madeira
     documentationcenter: ''

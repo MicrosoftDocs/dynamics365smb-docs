@@ -1,5 +1,5 @@
 ---
-    title: How to: Export and Print Intrastat Reports | Microsoft Docs
+    title: How to Export and Print Intrastat Reports | Microsoft Docs
     description: Intrastat reporting is required throughout the European Union (EU) and must follow local requirements, such as specific formats and files. All companies in the EU must report their trade with other EU countries. The movement of goods must be reported to the statistics authorities (Statistisches Bundesamt) every month, and a report must be delivered to the tax authorities.
     services: project-madeira
     documentationcenter: ''

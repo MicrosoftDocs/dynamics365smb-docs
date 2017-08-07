@@ -1,5 +1,5 @@
 ---
-    title: How to: Create Workflows | Microsoft Docs
+    title: How to Create Workflows | Microsoft Docs
     description: You can create workflows that connect business-process tasks performed by different users. System tasks, such as automatic posting, can be included as steps in workflows, preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps.
     services: project-madeira
     documentationcenter: ''

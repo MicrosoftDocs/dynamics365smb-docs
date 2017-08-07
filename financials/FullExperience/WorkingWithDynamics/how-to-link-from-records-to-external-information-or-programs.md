@@ -1,5 +1,5 @@
 ---
-    title: How to: Link from Records to External Information or Programs | Microsoft Docs
+    title: How to Link from Records to External Information or Programs | Microsoft Docs
     description: You may want to attach a hyperlink to a document or website to a specific record, such as a customer or document in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> to the corresponding invoice on Microsoft SharePoint Server. Or, you can make a link from an item card to the corresponding page in your vendor's online catalog.
     services: project-madeira
     documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: How to: Assign Quality Measures to Operations | Microsoft Docs
+    title: How to Assign Quality Measures to Operations | Microsoft Docs
     description: You can assign any quality measures to an operation. The assigned quality measures specify the features and tolerances to be tested for quality assurance.
     services: project-madeira
     documentationcenter: ''

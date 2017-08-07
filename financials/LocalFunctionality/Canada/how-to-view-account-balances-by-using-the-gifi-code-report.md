@@ -1,5 +1,5 @@
 ---
-    title: How to: View Account Balances by Using the GIFI Code Report | Microsoft Docs
+    title: How to View Account Balances by Using the GIFI Code Report | Microsoft Docs
     description: You can review your account balances by General Index of Financial Information (GIFI) code using the **Account Balances by GIFI Code** report.
     services: project-madeira
     documentationcenter: ''

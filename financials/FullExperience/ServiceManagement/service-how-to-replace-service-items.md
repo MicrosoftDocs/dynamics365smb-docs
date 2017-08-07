@@ -1,5 +1,5 @@
 ---
-    title: How to: Replace Service Items | Microsoft Docs
+    title: How to Replace Service Items | Microsoft Docs
     description: If you cannot repair a service item, you may have to replace the service item either temporarily or permanently.
     services: project-madeira
     documentationcenter: ''

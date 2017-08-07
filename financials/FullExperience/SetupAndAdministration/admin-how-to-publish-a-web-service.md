@@ -1,5 +1,5 @@
 ---
-    title: How to: Publish a Web Service | Microsoft Docs
+    title: How to Publish a Web Service | Microsoft Docs
     description: Web services are a lightweight way to make application functionality available to a variety of external systems and users. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] objects as web services, they are immediately available on the network.
     services: project-madeira
     documentationcenter: ''

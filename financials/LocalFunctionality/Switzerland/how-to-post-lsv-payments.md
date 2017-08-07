@@ -1,5 +1,5 @@
 ---
-    title: How to: Post LSV+ Payments | Microsoft Docs
+    title: How to Post LSV+ Payments | Microsoft Docs
     description: You can post payments after you have received Lastschrift Verfahren (LSV+) payment advice from the bank.
     services: project-madeira
     documentationcenter: ''

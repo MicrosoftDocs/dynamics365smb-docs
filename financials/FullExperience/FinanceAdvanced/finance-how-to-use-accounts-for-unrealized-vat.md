@@ -1,5 +1,5 @@
 ---
-    title: How to: Use Accounts for Unrealized VAT | Microsoft Docs
+    title: How to Use Accounts for Unrealized VAT | Microsoft Docs
     description: You can choose to have VAT amounts calculated and posted to a temporary general ledger account when an invoice is posted, and then posted to the correct general ledger account and included in VAT statements when the actual payment of the invoice is posted. Before you can do this, you must complete the VAT posting setup.
     services: project-madeira
     documentationcenter: ''

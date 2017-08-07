@@ -1,5 +1,5 @@
 ---
-    title: How to: Enable or Disable Payment Tolerance Warnings | Microsoft Docs
+    title: How to Enable or Disable Payment Tolerance Warnings | Microsoft Docs
     description: The payment tolerance warning appears when you post an application that has a balance in the allowed tolerance. You can then choose how you want to post and document the balance.
     services: project-madeira
     documentationcenter: ''

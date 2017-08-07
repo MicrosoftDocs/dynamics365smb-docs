@@ -1,5 +1,5 @@
 ---
-    title: How to: Track Item Reservations | Microsoft Docs
+    title: How to Track Item Reservations | Microsoft Docs
     description: The tracking facility offers you an overview of the various documents related to a particular business case.
     services: project-madeira
     documentationcenter: ''

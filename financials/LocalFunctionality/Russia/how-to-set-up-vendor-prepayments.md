@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Vendor Prepayments | Microsoft Docs
+    title: How to Set Up Vendor Prepayments | Microsoft Docs
     description: Prepayments are advance payments on purchase orders that are paid before the final invoice is issued. For example, you may be required by a vendor to prepay 20 percent of the invoice amount on a manufactured item. Prepayments allow you track and record advance payments on purchase invoices.
     services: project-madeira
     documentationcenter: ''

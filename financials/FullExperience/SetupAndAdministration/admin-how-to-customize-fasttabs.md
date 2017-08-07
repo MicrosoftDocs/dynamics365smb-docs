@@ -1,5 +1,5 @@
 ---
-    title: How to: Customize FastTabs | Microsoft Docs
+    title: How to Customize FastTabs | Microsoft Docs
     description: FastTabs help organize information about pages into simple, manageable groups. You can customize FastTabs on pages so that they support your workflow. For example, you may want to show fewer FastTabs or hide specific fields on FastTabs. You can also promote the most important fields to be included in the FastTab headers when the FastTabs are collapsed.
     services: project-madeira
     documentationcenter: ''

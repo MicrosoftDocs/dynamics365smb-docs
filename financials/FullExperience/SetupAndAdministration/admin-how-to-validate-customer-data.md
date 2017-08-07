@@ -1,5 +1,5 @@
 ---
-    title: How to: Validate Customer Data | Microsoft Docs
+    title: How to Validate Customer Data | Microsoft Docs
     description: Customer data must be validated before you apply the records to the [!INCLUDE[d365fin](../../includes/d365fin_md.md)] database.
     services: project-madeira
     documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: How to: Invoice Service Contracts | Microsoft Docs
+    title: How to Invoice Service Contracts | Microsoft Docs
     description: You can invoice service contracts periodically. The invoice period for each contract defines how often you invoice it.
     services: project-madeira
     documentationcenter: ''

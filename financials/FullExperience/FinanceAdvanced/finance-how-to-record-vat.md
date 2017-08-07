@@ -1,5 +1,5 @@
 ---
-    title: How to: Record VAT | Microsoft Docs
+    title: How to Record VAT | Microsoft Docs
     description: In EU countries/regions, every sales and purchase transaction is subject to VAT calculations. For more information about recording VAT, see [Recording VAT](../recording-vat.md).
     services: project-madeira
     documentationcenter: ''

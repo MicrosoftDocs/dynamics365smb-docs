@@ -1,5 +1,5 @@
 ---
-    title: How to: Display the Load on Machine Centers | Microsoft Docs
+    title: How to Display the Load on Machine Centers | Microsoft Docs
     description: From the **Machine Center** card, you can see the load on the machine centers.
     services: project-madeira
     documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: How to: Perform VAT Rate Conversions | Microsoft Docs
+    title: How to Perform VAT Rate Conversions | Microsoft Docs
     description: You use the VAT rate change tool to manage changes in the standard rate of VAT. You perform VAT and general posting group conversions to change VAT rates and maintain accurate VAT reporting.
     services: project-madeira
     documentationcenter: ''

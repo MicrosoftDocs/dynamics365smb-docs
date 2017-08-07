@@ -1,5 +1,5 @@
 ---
-    title: How to: Export General Ledger Entries for Tax Audits | Microsoft Docs
+    title: How to Export General Ledger Entries for Tax Audits | Microsoft Docs
     description: The standard audit file for tax purposes records key business information (transactions and ledger postings) into a file in a specified common format for audit purposes. In France, you are required to provide the government with this information in a standard audit file beginning in January 2014. This applies to companies for both corporate tax and VAT audit purposes.
     services: project-madeira
     documentationcenter: ''

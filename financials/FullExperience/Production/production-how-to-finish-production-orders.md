@@ -1,5 +1,5 @@
 ---
-    title: How to: Finish Production Orders | Microsoft Docs
+    title: How to Finish Production Orders | Microsoft Docs
     description: Production orders are finished by changing the status of the released production order to a finished production order.
     services: project-madeira
     documentationcenter: ''

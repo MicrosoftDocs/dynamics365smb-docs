@@ -1,5 +1,5 @@
 ---
-    title: How to: Assign Union Codes to Employees | Microsoft Docs
+    title: How to Assign Union Codes to Employees | Microsoft Docs
     description: You can set up union codes for the various trade and labor unions that your employees belong to.
     services: project-madeira
     documentationcenter: ''

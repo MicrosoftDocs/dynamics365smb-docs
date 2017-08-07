@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Repair Statuses | Microsoft Docs
+    title: How to Set Up Repair Statuses | Microsoft Docs
     description: You use the **Repair Status Setup** window to set up repair status options that identify the progress of repair and maintenance of service items in service orders. You are required to set up at least nine repair status options that identify situations or actions taken when servicing service items.
     services: project-madeira
     documentationcenter: ''

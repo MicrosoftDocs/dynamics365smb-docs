@@ -1,5 +1,5 @@
 ---
-    title: How to: Post Import VAT with Purchase Invoices | Microsoft Docs
+    title: How to Post Import VAT with Purchase Invoices | Microsoft Docs
     description: Instead of using a general journal to post an import VAT invoice, you can use a purchase invoice.
     services: project-madeira
     documentationcenter: ''

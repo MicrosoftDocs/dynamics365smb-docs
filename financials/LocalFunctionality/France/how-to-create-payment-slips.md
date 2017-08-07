@@ -1,5 +1,5 @@
 ---
-    title: How to: Create Payment Slips | Microsoft Docs
+    title: How to Create Payment Slips | Microsoft Docs
     description: You can create payments slips to manage vendor and customer payments. Before you create payment slips, you must set up payment classes. For more information, see [How to: Set Up Payment Classes](how-to-set-up-payment-classes.md).
     services: project-madeira
     documentationcenter: ''

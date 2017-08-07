@@ -1,5 +1,5 @@
 ---
-    title: How to: Create Configuration Questionnaires | Microsoft Docs
+    title: How to Create Configuration Questionnaires | Microsoft Docs
     description: You can use a questionnaire to help you determine the scope and needs of configuration. You can create a new questionnaire, or modify an existing questionnaire by adding new questions or question areas.
     services: project-madeira
     documentationcenter: ''

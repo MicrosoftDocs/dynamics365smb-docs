@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Items for Directed Put-away and Pick | Microsoft Docs
+    title: How to Set Up Items for Directed Put-away and Pick | Microsoft Docs
     description: When you set up a warehouse location for directed put-away and pick, you have new functionality available to you to help run the warehouse in the most efficient way possible. In order to make full use of this functionality, you provide additional information about the items, which in turn helps to make the calculations necessary to suggest the most efficient and effective ways to conduct warehouse activities.
     services: project-madeira
     documentationcenter: ''

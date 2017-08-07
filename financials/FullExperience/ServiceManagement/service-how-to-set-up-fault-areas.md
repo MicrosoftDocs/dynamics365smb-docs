@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Fault Areas | Microsoft Docs
+    title: How to Set Up Fault Areas | Microsoft Docs
     description: You can use the **Fault Areas** window to set up fault areas to describe areas of service items faults. The level of fault reporting in your company determines whether you use fault area codes.
     services: project-madeira
     documentationcenter: ''

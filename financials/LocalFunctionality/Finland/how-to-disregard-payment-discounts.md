@@ -1,5 +1,5 @@
 ---
-    title: How to: Disregard Payment Discounts | Microsoft Docs
+    title: How to Disregard Payment Discounts | Microsoft Docs
     description: Use the disregard payment discount at full payment feature to accept payments when the following conditions are true:
     services: project-madeira
     documentationcenter: ''

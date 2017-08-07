@@ -1,5 +1,5 @@
 ---
-    title: How to: View VAT Entries | Microsoft Docs
+    title: How to View VAT Entries | Microsoft Docs
     description: Every posting that involves VAT creates an entry in the **VAT Entries** window. These entries are used to calculate your VAT settlement amount, such as your payment and refund, for a specific period.
     services: project-madeira
     documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Document Printing | Microsoft Docs
+    title: How to Set Up Document Printing | Microsoft Docs
     description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can print the sales reports that use the required giro specifications by using different paper types and paper trays.
     services: project-madeira
     documentationcenter: ''

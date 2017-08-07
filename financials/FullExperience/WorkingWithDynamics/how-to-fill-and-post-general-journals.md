@@ -1,5 +1,5 @@
 ---
-    title: How to: Fill and Post General Journals | Microsoft Docs
+    title: How to Fill and Post General Journals | Microsoft Docs
     description: General journals are used to post to general ledger, bank, customer, vendor, and fixed assets accounts.
     services: project-madeira
     documentationcenter: ''

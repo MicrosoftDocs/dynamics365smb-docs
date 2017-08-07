@@ -1,5 +1,5 @@
 ---
-    title: How to: View Test Reports Before Posting | Microsoft Docs
+    title: How to View Test Reports Before Posting | Microsoft Docs
     description: When you are ready to post a document, such as an order, invoice, or a credit memo, you can test the document to ensure that no issues exist that will block the posting.
     services: project-madeira
     documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: How to: Display the Load on Work Centers | Microsoft Docs
+    title: How to Display the Load on Work Centers | Microsoft Docs
     description: From the **Work Center** card, you can view the load on the work centers.
     services: project-madeira
     documentationcenter: ''

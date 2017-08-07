@@ -1,5 +1,5 @@
 ---
-    title: How to: Create a Forecast | Microsoft Docs
+    title: How to Create a Forecast | Microsoft Docs
     description: You can create sales and production forecasts with the **Production Forecast** window.
     services: project-madeira
     documentationcenter: ''

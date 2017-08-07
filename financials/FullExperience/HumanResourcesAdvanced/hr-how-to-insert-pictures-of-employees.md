@@ -1,5 +1,5 @@
 ---
-    title: How to: Insert Pictures of Employees | Microsoft Docs
+    title: How to Insert Pictures of Employees | Microsoft Docs
     description: If you have a digitalized picture of an employee, that is, a picture that is a file in .bmp format, you can insert it on the employee card.
     services: project-madeira
     documentationcenter: ''

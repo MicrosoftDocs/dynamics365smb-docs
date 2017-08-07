@@ -1,5 +1,5 @@
 ---
-    title: How to: File Non-Euro SEPA Payments | Microsoft Docs
+    title: How to File Non-Euro SEPA Payments | Microsoft Docs
     description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can file non-euro SEPA payments with the bank. This is useful when you make payments to other countries that do not use SEPA and for currencies other than the euro.
     services: project-madeira
     documentationcenter: ''

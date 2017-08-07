@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Warehouse Management | Microsoft Docs
+    title: How to Set Up Warehouse Management | Microsoft Docs
     description: Before you can use warehouse documents to control your inventory movements, you must set up certain criteria in the **Warehouse Mgt. Setup** window.
     services: project-madeira
     documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Physical Inventory Counting Periods | Microsoft Docs
+    title: How to Set Up Physical Inventory Counting Periods | Microsoft Docs
     description: A physical inventory is typically taken at some recurring interval, for example monthly, quarterly, or annually. You can set up whatever inventory counting periods necessary.
     services: project-madeira
     documentationcenter: ''

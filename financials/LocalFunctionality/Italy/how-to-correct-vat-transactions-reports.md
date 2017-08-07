@@ -1,5 +1,5 @@
 ---
-    title: How to: Correct VAT Transactions Reports | Microsoft Docs
+    title: How to Correct VAT Transactions Reports | Microsoft Docs
     description: ### To send a corrected VAT transaction report
     services: project-madeira
     documentationcenter: ''

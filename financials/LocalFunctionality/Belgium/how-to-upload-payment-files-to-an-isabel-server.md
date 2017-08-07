@@ -1,5 +1,5 @@
 ---
-    title: How to: Upload Payment Files to an Isabel Server | Microsoft Docs
+    title: How to Upload Payment Files to an Isabel Server | Microsoft Docs
     description: Payment files can be uploaded using the **IBS Logs** window. The **Upload Integration Mode** and **Download Integration Mode** fields in the **Electronic Banking Setup** window must be set to **Attended** to upload payment files.
     services: project-madeira
     documentationcenter: ''

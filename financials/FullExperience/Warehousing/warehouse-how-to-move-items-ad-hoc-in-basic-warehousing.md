@@ -1,5 +1,5 @@
 ---
-    title: How to: Move Items Ad Hoc in Basic Warehousing | Microsoft Docs
+    title: How to Move Items Ad Hoc in Basic Warehousing | Microsoft Docs
     description: You may occasionally need to move items between internal bins, not receiving or shipping bins, without a specific demand from a source document. You may perform these ad hoc movements, for example, to reorganize the warehouse, to bring items to an inspection area, or to move additional items to and from a production area without a system relation to the production order source document.
     services: project-madeira
     documentationcenter: ''

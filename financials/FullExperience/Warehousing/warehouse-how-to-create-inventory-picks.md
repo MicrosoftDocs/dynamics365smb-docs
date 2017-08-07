@@ -1,5 +1,5 @@
 ---
-    title: How to: Create Inventory Picks | Microsoft Docs
+    title: How to Create Inventory Picks | Microsoft Docs
     description: When your location is set up to require pick processing but not shipment processing, you use the **Inventory Pick** document to organize and record your picking activity.
     services: project-madeira
     documentationcenter: ''

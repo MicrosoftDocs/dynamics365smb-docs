@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Fiscal Inventory Valuation | Microsoft Docs
+    title: How to Set Up Fiscal Inventory Valuation | Microsoft Docs
     description: To use fiscal inventory valuation, you must set up inventory valuation methods.
     services: project-madeira
     documentationcenter: ''

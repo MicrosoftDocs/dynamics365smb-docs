@@ -1,5 +1,5 @@
 ---
-    title: How to: Display Work Center Ledger Entries | Microsoft Docs
+    title: How to Display Work Center Ledger Entries | Microsoft Docs
     description: From the **Work Center** card, you can view the posted entries of the work center.
     services: project-madeira
     documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: How to: Generate Payment Files | Microsoft Docs
+    title: How to Generate Payment Files | Microsoft Docs
     description: To send electronic payments to vendors, you must first generate a payment file for domestic or foreign payments.
     services: project-madeira
     documentationcenter: ''

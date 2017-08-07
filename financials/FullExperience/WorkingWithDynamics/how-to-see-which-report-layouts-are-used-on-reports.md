@@ -1,5 +1,5 @@
 ---
-    title: How to: See Which Report Layouts are Used on Reports | Microsoft Docs
+    title: How to See Which Report Layouts are Used on Reports | Microsoft Docs
     description: You can see which report layouts are used on ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> reports from the **Report Layout Selection** window. From this window, you can change layout that is used on a report, create new custom layouts, or make variations of existing custom layouts.
     services: project-madeira
     documentationcenter: ''

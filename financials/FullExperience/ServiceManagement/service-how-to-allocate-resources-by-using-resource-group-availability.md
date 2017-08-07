@@ -1,5 +1,5 @@
 ---
-    title: How to: Allocate Resources by Using Resource Group Availability | Microsoft Docs
+    title: How to Allocate Resources by Using Resource Group Availability | Microsoft Docs
     description: When you have created service orders or quotes, you can make use of resource group availability to allocate resource groups to perform the service tasks in the orders or quotes.
     services: project-madeira
     documentationcenter: ''

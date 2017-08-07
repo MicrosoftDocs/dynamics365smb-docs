@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Payment Statuses | Microsoft Docs
+    title: How to Set Up Payment Statuses | Microsoft Docs
     description: To use payment management, you must set up payment statuses to define payment document progress levels. You must define a set of statuses for each payment class. For more information, see [How to: Set Up Payment Classes](how-to-set-up-payment-classes.md).
     services: project-madeira
     documentationcenter: ''

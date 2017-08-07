@@ -1,5 +1,5 @@
 ---
-    title: How to: Modify a Custom Report Layout | Microsoft Docs
+    title: How to Modify a Custom Report Layout | Microsoft Docs
     description: This topic describes how to modify a custom layout that is available for a ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/nav_web_md.md)]--> client, you can only modify a report layout by exporting and importing the report layout as a file.
     services: project-madeira
     documentationcenter: ''

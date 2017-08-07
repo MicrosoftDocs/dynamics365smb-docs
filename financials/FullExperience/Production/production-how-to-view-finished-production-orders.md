@@ -1,5 +1,5 @@
 ---
-    title: How to: View Finished Production Orders | Microsoft Docs
+    title: How to View Finished Production Orders | Microsoft Docs
     description: All finished production orders are archived when their status has been changed from **Released** to **Finished**. They can later be viewed with their entire history.
     services: project-madeira
     documentationcenter: ''

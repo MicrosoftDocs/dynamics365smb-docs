@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Holiday Calendars | Microsoft Docs
+    title: How to Set Up Holiday Calendars | Microsoft Docs
     description: After the working days have been created, the exceptions must be specified.
     services: project-madeira
     documentationcenter: ''

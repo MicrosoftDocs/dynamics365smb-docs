@@ -1,5 +1,5 @@
 ---
-    title: How to: Define VAT Statements | Microsoft Docs
+    title: How to Define VAT Statements | Microsoft Docs
     description: You use a VAT statement to calculate your VAT settlement amount for a certain period, for example, a quarter.
     services: project-madeira
     documentationcenter: ''

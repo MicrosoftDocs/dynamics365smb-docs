@@ -1,5 +1,5 @@
 ---
-    title: How to: Allocate and Post Fixed Asset Charges | Microsoft Docs
+    title: How to Allocate and Post Fixed Asset Charges | Microsoft Docs
     description: After an invoice has been created you can allocate and post fixed asset charges. The following procedure shows how to allocate and post a fixed asset charge.
     services: project-madeira
     documentationcenter: ''

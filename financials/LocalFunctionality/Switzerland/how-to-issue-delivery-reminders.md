@@ -1,5 +1,5 @@
 ---
-    title: How to: Issue Delivery Reminders | Microsoft Docs
+    title: How to Issue Delivery Reminders | Microsoft Docs
     description: After you have created delivery reminders, you must issue and print them so that you can send reminders to vendors. Before you issue the delivery reminders, you can print a test report. For more information, see [How to: Print Test Reports for Delivery Reminders](how-to-print-test-reports-for-delivery-reminders.md).
     services: project-madeira
     documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: How to: Fill In Recurring Journals in Inventory | Microsoft Docs
+    title: How to Fill In Recurring Journals in Inventory | Microsoft Docs
     description: After you have set up your recurring journal, you can start to fill in the fields. Note that several of the fields in the window are unique to recurring journals.
     services: project-madeira
     documentationcenter: ''

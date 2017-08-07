@@ -1,5 +1,5 @@
 ---
-    title: How to: Register Service Contract Comments | Microsoft Docs
+    title: How to Register Service Contract Comments | Microsoft Docs
     description: You can use the **Service Comment Sheet** window to register comments on service contracts or service contract quotes.
     services: project-madeira
     documentationcenter: ''

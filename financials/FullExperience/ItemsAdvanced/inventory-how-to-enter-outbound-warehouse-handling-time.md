@@ -1,5 +1,5 @@
 ---
-    title: How to: Enter Outbound Warehouse Handling Time | Microsoft Docs
+    title: How to Enter Outbound Warehouse Handling Time | Microsoft Docs
     description: If you want to set up an outbound warehouse handling time to be included in the order promising calculation on the sales line, you can set this up as a default for the inventory.
     services: project-madeira
     documentationcenter: ''

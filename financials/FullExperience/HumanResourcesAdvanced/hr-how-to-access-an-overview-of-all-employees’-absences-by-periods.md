@@ -1,5 +1,5 @@
 ---
-    title: How to: Access an Overview of All Employees’ Absences by Periods | Microsoft Docs
+    title: How to Access an Overview of All Employees’ Absences by Periods | Microsoft Docs
     description: You can view all employees’ absences, broken down by periods or categories, from the **Absence Registration** window.
     services: project-madeira
     documentationcenter: ''

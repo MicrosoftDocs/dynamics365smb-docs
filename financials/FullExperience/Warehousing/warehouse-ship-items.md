@@ -1,5 +1,5 @@
 ---
-    title: How to: Prepare Shipments | Microsoft Docs
+    title: How to Prepare Shipments | Microsoft Docs
     description: When your warehouse is set up to require warehouse shipment processing, you can ship items only on the basis of source documents that other company units have released to the warehouse for action. Source documents for shipments include sales orders, service orders, purchase return orders, and outbound transfers.
     services: project-madeira
     documentationcenter: ''

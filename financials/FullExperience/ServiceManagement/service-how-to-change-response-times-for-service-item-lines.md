@@ -1,5 +1,5 @@
 ---
-    title: How to: Change Response Times for Service Item Lines | Microsoft Docs
+    title: How to Change Response Times for Service Item Lines | Microsoft Docs
     description: When you register a service item line in a service order or quote, the response time in hours is automatically entered and the response date and time are calculated accordingly. You can change the response time in hours and the response date and time if you need to.
     services: project-madeira
     documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: How to: Submit DTA Payments | Microsoft Docs
+    title: How to Submit DTA Payments | Microsoft Docs
     description: To submit DatenTrägerAustausch (DTA) payments to your bank for payment, you must do the following:
     services: project-madeira
     documentationcenter: ''

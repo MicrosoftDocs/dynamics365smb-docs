@@ -1,5 +1,5 @@
 ---
-    title: How to: Post Shipments from Service Orders | Microsoft Docs
+    title: How to Post Shipments from Service Orders | Microsoft Docs
     description: After specifying the details of a service, you can adjust and post the quantities of items used, time spent, and costs incurred. As a result, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] makes the necessary changes to reflect the new state of your inventory and current status of the specific order processing.
     services: project-madeira
     documentationcenter: ''

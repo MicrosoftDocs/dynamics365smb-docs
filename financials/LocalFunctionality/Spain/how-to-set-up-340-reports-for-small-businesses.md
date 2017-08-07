@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up 340 Reports for Small Businesses | Microsoft Docs
+    title: How to Set Up 340 Reports for Small Businesses | Microsoft Docs
     description: Use the following procedure to set up your business to report on a cash basis, that is, Cash Accounting Criteria (CAC). If you have not already done so, you can set up posting groups for cash-based VAT accounting for purchases and sales.
     services: project-madeira
     documentationcenter: ''

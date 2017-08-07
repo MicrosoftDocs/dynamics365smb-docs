@@ -1,5 +1,5 @@
 ---
-    title: How to: Edit Document Amounts in Purchase Invoices and Credit Memos | Microsoft Docs
+    title: How to Edit Document Amounts in Purchase Invoices and Credit Memos | Microsoft Docs
     description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] lets you easily edit document amounts in purchase invoices and credit memos.
     services: project-madeira
     documentationcenter: ''

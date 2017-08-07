@@ -1,5 +1,5 @@
 ---
-    title: How to: Enter Master Data for Consumption Calculation | Microsoft Docs
+    title: How to Enter Master Data for Consumption Calculation | Microsoft Docs
     description: The method for the calculation of the consumption posting time is assigned to the item's master data.
     services: project-madeira
     documentationcenter: ''

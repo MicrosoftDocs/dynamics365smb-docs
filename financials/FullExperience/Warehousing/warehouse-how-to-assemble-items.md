@@ -1,5 +1,5 @@
 ---
-    title: How to: Assemble Items | Microsoft Docs
+    title: How to Assemble Items | Microsoft Docs
     description: If the **Replenishment System** field on the item card contains **Assembly**, then the default method of supplying the item is to assemble it from defined components and potentially by a defined resource.
     services: project-madeira
     documentationcenter: ''

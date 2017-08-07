@@ -1,5 +1,5 @@
 ---
-    title: How to: Print Bank Account Reconciliation Reports | Microsoft Docs
+    title: How to Print Bank Account Reconciliation Reports | Microsoft Docs
     description: The **Bank Account Reconciliation** report displays open bank ledger entries as unpresented checks or unrecorded deposits.
     services: project-madeira
     documentationcenter: ''

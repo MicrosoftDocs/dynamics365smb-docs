@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Expiration Rules for Serial Numbers and Lot Numbers | Microsoft Docs
+    title: How to Set Up Expiration Rules for Serial Numbers and Lot Numbers | Microsoft Docs
     description: For some items you might want to set up specific expiration dates and rules in the item tracking code. This functionality allows you to keep track of when specific serial numbers and lot numbers expire.
     services: project-madeira
     documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: How to: Refresh Production Orders | Microsoft Docs
+    title: How to Refresh Production Orders | Microsoft Docs
     description: This planning function calculates changes made to a production order header and does not involve production BOM levels.
     services: project-madeira
     documentationcenter: ''

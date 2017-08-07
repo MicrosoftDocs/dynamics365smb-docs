@@ -1,5 +1,5 @@
 ---
-    title: How to: Convert Blanket Sales Orders to Sales Orders | Microsoft Docs
+    title: How to Convert Blanket Sales Orders to Sales Orders | Microsoft Docs
     description: You can either convert an entire blanket order into one order, or you can make it into a number of separate orders, depending upon how you want the blanket order to be invoiced.
     services: project-madeira
     documentationcenter: ''

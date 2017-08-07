@@ -1,5 +1,5 @@
 ---
-    title: How to: Modify Bin Content | Microsoft Docs
+    title: How to Modify Bin Content | Microsoft Docs
     description: You may at times need to modify bin content to update the details of a bin content entry.
     services: project-madeira
     documentationcenter: ''

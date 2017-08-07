@@ -1,5 +1,5 @@
 ---
-    title: How to: Change the Annual Amount on Service Contracts or Contract Quotes | Microsoft Docs
+    title: How to Change the Annual Amount on Service Contracts or Contract Quotes | Microsoft Docs
     description: You can change the annual amount of the service contract or contract quote to correct the amount that will be invoiced annually.
     services: project-madeira
     documentationcenter: ''

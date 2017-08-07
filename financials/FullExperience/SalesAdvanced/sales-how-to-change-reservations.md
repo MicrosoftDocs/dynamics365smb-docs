@@ -1,5 +1,5 @@
 ---
-    title: How to: Change Reservations | Microsoft Docs
+    title: How to Change Reservations | Microsoft Docs
     description: Sometimes, you may want to change an item reservation.
     services: project-madeira
     documentationcenter: ''

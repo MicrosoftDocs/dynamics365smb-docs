@@ -1,5 +1,5 @@
 ---
-    title: How to: Delete Invoiced Blanket Purchase Orders | Microsoft Docs
+    title: How to Delete Invoiced Blanket Purchase Orders | Microsoft Docs
     description: Blanket purchase orders are not deleted after you have processed and invoiced all the related purchase orders. You can delete blanket orders with the **Delete Invoiced Blanket Purchase Orders** batch job.
     services: project-madeira
     documentationcenter: ''

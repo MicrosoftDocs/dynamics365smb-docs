@@ -1,5 +1,5 @@
 ---
-    title: How to: Add Resource Capacity | Microsoft Docs
+    title: How to Add Resource Capacity | Microsoft Docs
     description: You may regularly need to change the capacity of resources, such as technicians, over time.
     services: project-madeira
     documentationcenter: ''

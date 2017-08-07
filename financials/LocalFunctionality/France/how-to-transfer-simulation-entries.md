@@ -1,5 +1,5 @@
 ---
-    title: How to: Transfer Simulation Entries | Microsoft Docs
+    title: How to Transfer Simulation Entries | Microsoft Docs
     description: When you have created and posted simulation entries to the general ledger, you can transfer the simulation entries into real accounting entries.
     services: project-madeira
     documentationcenter: ''

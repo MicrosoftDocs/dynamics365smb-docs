@@ -1,5 +1,5 @@
 ---
-    title: How to: Print Sales and Purchase Orders During Batch Posting | Microsoft Docs
+    title: How to Print Sales and Purchase Orders During Batch Posting | Microsoft Docs
     description: After sales orders and purchase orders are batch posted, you can print the corresponding posted documents.
     services: project-madeira
     documentationcenter: ''

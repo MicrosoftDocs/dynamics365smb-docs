@@ -1,5 +1,5 @@
 ---
-    title: How to: Revert VAT on Payment Discounts | Microsoft Docs
+    title: How to Revert VAT on Payment Discounts | Microsoft Docs
     description: If a payment discount has been calculated on the basis of an invoice amount that includes VAT, you have the possibility of having the payment discount part of the VAT amount reverted when the payment discount is granted.
     services: project-madeira
     documentationcenter: ''

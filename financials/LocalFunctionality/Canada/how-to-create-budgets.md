@@ -1,5 +1,5 @@
 ---
-    title: How to: Create Budgets | Microsoft Docs
+    title: How to Create Budgets | Microsoft Docs
     description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the create budget function allows you to do the following:
     services: project-madeira
     documentationcenter: ''

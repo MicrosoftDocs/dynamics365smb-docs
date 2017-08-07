@@ -1,5 +1,5 @@
 ---
-    title: How to: Remove Contract Quote Lines | Microsoft Docs
+    title: How to Remove Contract Quote Lines | Microsoft Docs
     description: You may need to remove service items as contract lines from service contract quotes in the process of creating a service contract that the customer agrees to.
     services: project-madeira
     documentationcenter: ''

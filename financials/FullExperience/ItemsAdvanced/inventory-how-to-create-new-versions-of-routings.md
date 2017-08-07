@@ -1,5 +1,5 @@
 ---
-    title: How to: Create New Versions of Routings | Microsoft Docs
+    title: How to Create New Versions of Routings | Microsoft Docs
     description: The version principle enables you to manage several versions of a routing. The structure of the routing version corresponds to the structure of the routing consisting of the routing version header and the routing version lines. The basic difference is defined by the starting date.
     services: project-madeira
     documentationcenter: ''

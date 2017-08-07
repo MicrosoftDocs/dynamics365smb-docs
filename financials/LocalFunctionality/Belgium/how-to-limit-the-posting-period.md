@@ -1,5 +1,5 @@
 ---
-    title: How to: Limit the Posting Period | Microsoft Docs
+    title: How to Limit the Posting Period | Microsoft Docs
     description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can limit the period by which posting is permitted on three different levels: **by company**, **by user**, and **by template**.
     services: project-madeira
     documentationcenter: ''

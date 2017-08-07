@@ -1,5 +1,5 @@
 ---
-    title: How to: Finish a Physical Inventory Recording | Microsoft Docs
+    title: How to Finish a Physical Inventory Recording | Microsoft Docs
     description: After you have entered all data for a physical inventory recording, you can finish the recording by setting the **Status** field to **Finished**.
     services: project-madeira
     documentationcenter: ''

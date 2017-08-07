@@ -1,5 +1,5 @@
 ---
-    title: How to: View Item Availability | Microsoft Docs
+    title: How to View Item Availability | Microsoft Docs
     description: The follow table shows the various ways you can view an item’s availability.
     services: project-madeira
     documentationcenter: ''

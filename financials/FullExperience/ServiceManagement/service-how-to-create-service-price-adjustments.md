@@ -1,5 +1,5 @@
 ---
-    title: How to: Create Service Price Adjustments | Microsoft Docs
+    title: How to Create Service Price Adjustments | Microsoft Docs
     description: You can assign service price groups to service items in the **Service Order** window. The service pricing breakdown is inserted for the items. You can then automatically create service price adjustments for costs, spare parts, and resource hours for these service items.
     services: project-madeira
     documentationcenter: ''

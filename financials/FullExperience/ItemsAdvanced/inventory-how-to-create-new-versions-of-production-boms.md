@@ -1,5 +1,5 @@
 ---
-    title: How to: Create New Versions of Production BOMs | Microsoft Docs
+    title: How to Create New Versions of Production BOMs | Microsoft Docs
     description: New versions of production BOMs are used when, for example, an item is replaced by another item, or when a customer requires a special version of a product.
     services: project-madeira
     documentationcenter: ''

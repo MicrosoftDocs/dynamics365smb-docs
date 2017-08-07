@@ -1,5 +1,5 @@
 ---
-    title: How to: Assign Cause of Inactivity Codes to Employees | Microsoft Docs
+    title: How to Assign Cause of Inactivity Codes to Employees | Microsoft Docs
     description: You can use cause of inactivity codes to define various reasons for employee inactivity.
     services: project-madeira
     documentationcenter: ''

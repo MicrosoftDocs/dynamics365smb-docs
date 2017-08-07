@@ -1,5 +1,5 @@
 ---
-    title: How to: Print Non-Invoiced Stock Reports | Microsoft Docs
+    title: How to Print Non-Invoiced Stock Reports | Microsoft Docs
     description: You can use the following reports for month-end reconciliation and auditing:
     services: project-madeira
     documentationcenter: ''

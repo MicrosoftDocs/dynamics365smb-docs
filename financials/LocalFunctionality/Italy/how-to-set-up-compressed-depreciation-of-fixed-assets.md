@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Compressed Depreciation of Fixed Assets | Microsoft Docs
+    title: How to Set Up Compressed Depreciation of Fixed Assets | Microsoft Docs
     description: You can compress fixed asset depreciation into subclasses and choose to display only the total sum by subclass. You can choose to post only the depreciation totals of assets that are grouped by category. This is particularly important for companies that have multiple fixed assets divided into many individual items.
     services: project-madeira
     documentationcenter: ''

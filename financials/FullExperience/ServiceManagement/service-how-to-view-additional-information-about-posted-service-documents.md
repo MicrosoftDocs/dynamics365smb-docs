@@ -1,5 +1,5 @@
 ---
-    title: How to: View Additional Information About Posted Service Documents | Microsoft Docs
+    title: How to View Additional Information About Posted Service Documents | Microsoft Docs
     description: When you post a service invoice, a service shipment, or a service credit memo, the information on the document is transferred to the **Posted Service Invoice**, **Posted Service Shipment**, or **Posted Service Credit Memo** windows respectively. You cannot enter, change, or delete anything in these windows. You can print a shipment, invoice, or credit memo from these windows.
     services: project-madeira
     documentationcenter: ''

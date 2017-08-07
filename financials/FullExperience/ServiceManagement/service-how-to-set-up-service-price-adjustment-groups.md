@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Service Price Adjustment Groups | Microsoft Docs
+    title: How to Set Up Service Price Adjustment Groups | Microsoft Docs
     description: You can use the **Serv. Price Adjmt. Group** window to set up price adjustment groups to adjust service pricing of service items. For example, you can set up price adjustment groups that adjust price of freight or spare parts.
     services: project-madeira
     documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up VAT Rate Change Tool | Microsoft Docs
+    title: How to Set Up VAT Rate Change Tool | Microsoft Docs
     description: This topic describes how you set up the VAT rate change tool and corresponding new posting groups before you perform VAT rate conversions.
     services: project-madeira
     documentationcenter: ''

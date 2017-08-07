@@ -1,5 +1,5 @@
 ---
-    title: How to: Invoice Posted Shipment Lines | Microsoft Docs
+    title: How to Invoice Posted Shipment Lines | Microsoft Docs
     description: You might need to create a service invoice for the service that has already been shipped, either from one or several service orders, but not yet invoiced or consumed. You can fill in the invoice lines automatically with the selected posted shipment lines for a specific customer.
     services: project-madeira
     documentationcenter: ''

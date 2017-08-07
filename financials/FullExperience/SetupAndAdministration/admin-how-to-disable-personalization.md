@@ -1,5 +1,5 @@
 ---
-    title: How to: Disable Personalization | Microsoft Docs
+    title: How to Disable Personalization | Microsoft Docs
     description: You can disable personalization for all users by modifying the profile. When you disable personalization for a profile, all users of that profile cannot personalize their user interface.
     services: project-madeira
     documentationcenter: ''

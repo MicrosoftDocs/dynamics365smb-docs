@@ -1,5 +1,5 @@
 ---
-    title: How to: Perform a Physical Inventory | Microsoft Docs
+    title: How to Perform a Physical Inventory | Microsoft Docs
     description: You must take a physical inventory, that is, count the actual items on hand, to check if the quantity registered is the same as the physical quantity in stock at the end of a fiscal year, if not more often. If there are differences, you must post them to the item accounts before you do the inventory valuation.
     services: project-madeira
     documentationcenter: ''

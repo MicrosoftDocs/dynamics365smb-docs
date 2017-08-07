@@ -1,5 +1,5 @@
 ---
-    title: How to: Replace Components | Microsoft Docs
+    title: How to Replace Components | Microsoft Docs
     description: When you service a service item that is composed of components, you may need to replace a faulty component with a new one. Every time that you enter a spare part for a service item with components, you have the option of replacing a component or creating a new one.
     services: project-madeira
     documentationcenter: ''

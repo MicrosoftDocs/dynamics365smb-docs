@@ -1,5 +1,5 @@
 ---
-    title: How to: View Service Order Statistics | Microsoft Docs
+    title: How to View Service Order Statistics | Microsoft Docs
     description: When you have created a service order and filled in the lines, you can see the resulting totals in the **Service Order Statistics** window.
     services: project-madeira
     documentationcenter: ''

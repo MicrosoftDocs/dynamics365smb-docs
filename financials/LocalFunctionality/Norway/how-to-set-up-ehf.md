@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up EHF | Microsoft Docs
+    title: How to Set Up EHF | Microsoft Docs
     description: You must define a location for storing Elektronisk Handelsformat (EHF) files when you create electronic documents such as invoices or credit memos. You must also define payment methods and set up relevant customers for EHF.
     services: project-madeira
     documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: How to: Cancel Contracts | Microsoft Docs
+    title: How to Cancel Contracts | Microsoft Docs
     description: You may need to cancel a service contract when the contract has expired or has been canceled by you or the customer.
     services: project-madeira
     documentationcenter: ''

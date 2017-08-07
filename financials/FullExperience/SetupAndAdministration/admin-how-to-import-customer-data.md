@@ -1,5 +1,5 @@
 ---
-    title: How to: Import Customer Data | Microsoft Docs
+    title: How to Import Customer Data | Microsoft Docs
     description: After the customer data has been entered in the data migration files in Excel, you import the files into [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
     services: project-madeira
     documentationcenter: ''

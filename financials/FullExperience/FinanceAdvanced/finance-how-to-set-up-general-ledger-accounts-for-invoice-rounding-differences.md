@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up General Ledger Accounts for Invoice Rounding Differences | Microsoft Docs
+    title: How to Set Up General Ledger Accounts for Invoice Rounding Differences | Microsoft Docs
     description: To use the automatic invoice rounding function, you must set up the general ledger account or accounts where rounding differences will be posted. Before you can do this, you must set up VAT product posting groups.
     services: project-madeira
     documentationcenter: ''

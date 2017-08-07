@@ -1,5 +1,5 @@
 ---
-    title: How to: Print Bank Reconciliation Reports | Microsoft Docs
+    title: How to Print Bank Reconciliation Reports | Microsoft Docs
     description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can print the following bank reconciliation reports:
     services: project-madeira
     documentationcenter: ''

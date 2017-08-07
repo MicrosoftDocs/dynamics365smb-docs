@@ -1,5 +1,5 @@
 ---
-    title: How to: Amend or Cancel Item Reservations | Microsoft Docs
+    title: How to Amend or Cancel Item Reservations | Microsoft Docs
     description: Sometimes you may want to amend or cancel an item reservation.
     services: project-madeira
     documentationcenter: ''

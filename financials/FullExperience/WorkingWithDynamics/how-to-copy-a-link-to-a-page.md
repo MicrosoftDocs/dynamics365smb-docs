@@ -1,5 +1,5 @@
 ---
-    title: How to: Copy a Link to a Page | Microsoft Docs
+    title: How to Copy a Link to a Page | Microsoft Docs
     description: All pages have a **Copy Link to Page** action that you can use to save a link to a specific page in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->. You can then share these pages across your company. The link text is the same as the page header text.
     services: project-madeira
     documentationcenter: ''

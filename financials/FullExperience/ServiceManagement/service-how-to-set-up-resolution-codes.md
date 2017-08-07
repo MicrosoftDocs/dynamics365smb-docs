@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Resolution Codes | Microsoft Docs
+    title: How to Set Up Resolution Codes | Microsoft Docs
     description: You can use the **Resolution Codes** window to set up resolution codes to identify a particular method or procedure used to solve a service problem.
     services: project-madeira
     documentationcenter: ''

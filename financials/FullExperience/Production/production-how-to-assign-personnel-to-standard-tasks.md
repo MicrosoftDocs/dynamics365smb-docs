@@ -1,5 +1,5 @@
 ---
-    title: How to: Assign Personnel to Standard Tasks | Microsoft Docs
+    title: How to Assign Personnel to Standard Tasks | Microsoft Docs
     description: If you require personnel with qualifications, special knowledge, or special authorization for a special task, you can assign these people to the task.
     services: project-madeira
     documentationcenter: ''

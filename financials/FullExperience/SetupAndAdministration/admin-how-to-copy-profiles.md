@@ -1,5 +1,5 @@
 ---
-    title: How to: Copy Profiles | Microsoft Docs
+    title: How to Copy Profiles | Microsoft Docs
     description: Use the **Copy Profile** window when you want to create a copy of an existing profile. This can save you time if you want to use similar settings on a profile and you only want to change a few settings.
     services: project-madeira
     documentationcenter: ''

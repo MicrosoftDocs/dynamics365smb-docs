@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Fault Reason Codes | Microsoft Docs
+    title: How to Set Up Fault Reason Codes | Microsoft Docs
     description: You can use the **Fault Reason Codes** window to set up fault reasons codes to describe the reason for service item faults and, if necessary, to exclude warranty and contract discounts. For example, you might want to exclude warranty and contract discount when the customer spills water on the service item.
     services: project-madeira
     documentationcenter: ''

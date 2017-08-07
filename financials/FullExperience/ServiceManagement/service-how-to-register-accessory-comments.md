@@ -1,5 +1,5 @@
 ---
-    title: How to: Register Accessory Comments | Microsoft Docs
+    title: How to Register Accessory Comments | Microsoft Docs
     description: You can use the **Accessory Service Comment Sheet** window to register comments on the accessories to service items in service orders and service quotes.
     services: project-madeira
     documentationcenter: ''

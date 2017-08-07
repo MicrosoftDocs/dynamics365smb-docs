@@ -1,5 +1,5 @@
 ---
-    title: How to: Create Certificates of Supply | Microsoft Docs
+    title: How to Create Certificates of Supply | Microsoft Docs
     description: When you sell goods to a customer in another EU country/region, you can print a certificate of supply. If the shipment uses a combination of VAT business posting group and VAT product posting group that have been set up to require a certificate of supply in the **VAT Posting Setup** window, the certificate will be automatically set up for you in the **Certificates of Supply** window, with its status set to **Required**.
     services: project-madeira
     documentationcenter: ''

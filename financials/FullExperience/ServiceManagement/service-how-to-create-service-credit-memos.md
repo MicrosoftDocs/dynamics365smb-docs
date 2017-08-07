@@ -1,5 +1,5 @@
 ---
-    title: How to: Create Service Credit Memos | Microsoft Docs
+    title: How to Create Service Credit Memos | Microsoft Docs
     description: A service credit memo document is typically used when a customer returns an item, but it can also be used to give a customer some compensation or to correct an erroneous invoice.
     services: project-madeira
     documentationcenter: ''

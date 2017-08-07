@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Multiple Vendors for Items | Microsoft Docs
+    title: How to Set Up Multiple Vendors for Items | Microsoft Docs
     description: If you purchase the same item from more than one vendor, you must enter information about each vendor of the item, such as prices, lead time, discounts, and so on.
     services: project-madeira
     documentationcenter: ''

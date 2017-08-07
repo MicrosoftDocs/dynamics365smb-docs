@@ -1,5 +1,5 @@
 ---
-    title: How to: Remove Contract Lines | Microsoft Docs
+    title: How to Remove Contract Lines | Microsoft Docs
     description: You may need to remove contract lines from the service contract as you remove corresponding service items from the service contract. Usually you remove a contract line that is expired or corresponds to the service item that has broken down.
     services: project-madeira
     documentationcenter: ''

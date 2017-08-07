@@ -1,5 +1,5 @@
 ---
-    title: How to: Register Fault Reason Codes | Microsoft Docs
+    title: How to Register Fault Reason Codes | Microsoft Docs
     description: You use fault reason codes to identify possible reasons for service item faults and, if necessary, to exclude warranty and contract discounts from the service of service items.
     services: project-madeira
     documentationcenter: ''

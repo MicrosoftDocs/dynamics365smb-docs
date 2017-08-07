@@ -1,5 +1,5 @@
 ---
-    title: How to: Fiscally Close Accounting Periods | Microsoft Docs
+    title: How to Fiscally Close Accounting Periods | Microsoft Docs
     description: When a fiscal period is complete, you can fiscally close the period to make sure that no more general ledger entries can be posted.
     services: project-madeira
     documentationcenter: ''

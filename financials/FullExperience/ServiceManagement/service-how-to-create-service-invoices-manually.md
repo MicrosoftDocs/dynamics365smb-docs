@@ -1,5 +1,5 @@
 ---
-    title: How to: Create Service Invoices Manually | Microsoft Docs
+    title: How to Create Service Invoices Manually | Microsoft Docs
     description: Typically, after you post a service order with the **Invoice** or **Ship and Invoice** option, a service invoice is posted automatically. Yet, you may need to issue an invoice that is not linked either to a service contract or to a service order. This procedure explains how to issue an invoice at the same time that the customer receives the service.
     services: project-madeira
     documentationcenter: ''

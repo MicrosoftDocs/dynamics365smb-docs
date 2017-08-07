@@ -1,5 +1,5 @@
 ---
-    title: How to: Submit Vendor Payments Electronically in SEPA ISO 20022 Payment Format | Microsoft Docs
+    title: How to Submit Vendor Payments Electronically in SEPA ISO 20022 Payment Format | Microsoft Docs
     description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create and submit Single Euro Payments Area (SEPA) ISO 20022 vendor payments electronically.
     services: project-madeira
     documentationcenter: ''

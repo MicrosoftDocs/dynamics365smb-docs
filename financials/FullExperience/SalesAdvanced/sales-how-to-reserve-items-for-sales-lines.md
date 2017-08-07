@@ -1,5 +1,5 @@
 ---
-    title: How to: Reserve Items for Sales Lines | Microsoft Docs
+    title: How to Reserve Items for Sales Lines | Microsoft Docs
     description: You can reserve items for sales orders. You must have already set up a sales order.
     services: project-madeira
     documentationcenter: ''

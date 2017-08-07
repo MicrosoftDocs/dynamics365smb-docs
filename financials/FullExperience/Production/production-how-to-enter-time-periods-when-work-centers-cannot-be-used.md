@@ -1,5 +1,5 @@
 ---
-    title: How to: Enter Time Periods When Work Centers Cannot Be Used | Microsoft Docs
+    title: How to Enter Time Periods When Work Centers Cannot Be Used | Microsoft Docs
     description: The calendar for the work center is calculated from the entries of the assigned shop calendar and the calendar absence entries of the work center.
     services: project-madeira
     documentationcenter: ''

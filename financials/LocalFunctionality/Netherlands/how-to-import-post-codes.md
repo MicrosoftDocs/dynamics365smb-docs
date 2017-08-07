@@ -1,5 +1,5 @@
 ---
-    title: How to: Import Post Codes | Microsoft Docs
+    title: How to Import Post Codes | Microsoft Docs
     description: You can import a file that specifies post codes for marketing and relationship management activities. The post code data that you import will be saved in the **Post Code Range** table.
     services: project-madeira
     documentationcenter: ''

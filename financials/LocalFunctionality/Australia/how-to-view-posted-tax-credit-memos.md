@@ -1,5 +1,5 @@
 ---
-    title: How to: View Posted Tax Credit Memos | Microsoft Docs
+    title: How to View Posted Tax Credit Memos | Microsoft Docs
     description: You can use the **Posted Sales Tax Credit Memo** window and **Posted Purch. Tax Credit Memo** window to view details of sales tax credit memos and purchase tax credit memos that have been posted.
     services: project-madeira
     documentationcenter: ''

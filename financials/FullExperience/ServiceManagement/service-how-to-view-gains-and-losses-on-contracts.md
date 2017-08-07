@@ -1,5 +1,5 @@
 ---
-    title: How to: View Gains and Losses on Contracts | Microsoft Docs
+    title: How to View Gains and Losses on Contracts | Microsoft Docs
     description: A contract gain or loss entry is generated whenever a contract quote is converted to a service contract, when contract lines are added or removed from a service contract, or when a contract is canceled.
     services: project-madeira
     documentationcenter: ''

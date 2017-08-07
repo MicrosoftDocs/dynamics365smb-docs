@@ -1,5 +1,5 @@
 ---
-    title: How to: Create and Print General Ledger Account Turnover | Microsoft Docs
+    title: How to Create and Print General Ledger Account Turnover | Microsoft Docs
     description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] enables you to create general ledger account turnover information in the **G/L Account Turnover** window.
     services: project-madeira
     documentationcenter: ''

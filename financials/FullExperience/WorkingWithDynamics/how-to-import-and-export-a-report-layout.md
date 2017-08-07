@@ -1,5 +1,5 @@
 ---
-    title: How to: Import and Export a Report Layout | Microsoft Docs
+    title: How to Import and Export a Report Layout | Microsoft Docs
     description: You can import and export an existing custom report layout as a file to and from a location on your computer and network. For example, you can export a report layout, and then send the file to another person to modify. That person can then make the modifications to layout and return the file to you for importing back into ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.
     services: project-madeira
     documentationcenter: ''

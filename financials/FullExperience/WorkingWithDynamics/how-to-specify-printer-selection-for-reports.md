@@ -1,5 +1,5 @@
 ---
-    title: How to: Specify Printer Selection for Reports | Microsoft Docs
+    title: How to Specify Printer Selection for Reports | Microsoft Docs
     description: You can set up reports so that they must be printed on a specific printer from the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/nav_windows_md.md)]-->. The following are some uses of printer selection:
     services: project-madeira
     documentationcenter: ''

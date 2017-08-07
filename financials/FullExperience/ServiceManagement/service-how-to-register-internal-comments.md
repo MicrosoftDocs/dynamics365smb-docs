@@ -1,5 +1,5 @@
 ---
-    title: How to: Register Internal Comments | Microsoft Docs
+    title: How to Register Internal Comments | Microsoft Docs
     description: You can use the **Internal Service Comment Sheet** window to register internal comments on service items in service orders and service quotes. Internal comments are for internal use only and are not printed on reports.
     services: project-madeira
     documentationcenter: ''

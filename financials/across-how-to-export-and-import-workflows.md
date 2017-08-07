@@ -1,5 +1,5 @@
 ---
-    title: How to: Export and Import Workflows | Microsoft Docs
+    title: How to Export and Import Workflows | Microsoft Docs
     description: To transfer workflows to other [!INCLUDE[d365fin](includes/d365fin_md.md)] databases, for example to save time when creating new workflows, you can export and import workflows.
     services: project-madeira
     documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: How to: Enter Comments for Machine Centers | Microsoft Docs
+    title: How to Enter Comments for Machine Centers | Microsoft Docs
     description: You can add any comments to every machine center.
     services: project-madeira
     documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Norm Jurisdictions | Microsoft Docs
+    title: How to Set Up Norm Jurisdictions | Microsoft Docs
     description: Norm jurisdictions are based on Russian tax laws that define a variety of tax rates. Norm jurisdictions are used to calculate taxable profits and losses in tax accounting. You can use the **Norm Jurisdictions** window to set up and define norm jurisdictions that can be used when you calculate tax differences.
     services: project-madeira
     documentationcenter: ''

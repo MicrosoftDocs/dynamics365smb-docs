@@ -1,5 +1,5 @@
 ---
-    title: How to: Prepare VAT Rate Change Conversions | Microsoft Docs
+    title: How to Prepare VAT Rate Change Conversions | Microsoft Docs
     description: Before you set up the VAT rate change tool, you must make the following preparations.
     services: project-madeira
     documentationcenter: ''

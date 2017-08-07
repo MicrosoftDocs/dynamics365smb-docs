@@ -1,5 +1,5 @@
 ---
-    title: How to: Assign Confidential Information Codes to Employees | Microsoft Docs
+    title: How to Assign Confidential Information Codes to Employees | Microsoft Docs
     description: You can set up confidential information codes for confidential information, such as company pension, stock option plan, salary, and so on, related to your employees.
     services: project-madeira
     documentationcenter: ''

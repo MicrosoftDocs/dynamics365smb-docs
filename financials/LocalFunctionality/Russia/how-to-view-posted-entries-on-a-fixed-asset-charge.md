@@ -1,5 +1,5 @@
 ---
-    title: How to: View Posted Entries on a Fixed Asset Charge | Microsoft Docs
+    title: How to View Posted Entries on a Fixed Asset Charge | Microsoft Docs
     description: You can view all posted fixed asset entries for each fixed asset charge code. The following procedure shows how to view the posted entries.
     services: project-madeira
     documentationcenter: ''

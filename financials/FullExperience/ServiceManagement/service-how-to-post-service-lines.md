@@ -1,5 +1,5 @@
 ---
-    title: How to: Post Service Lines | Microsoft Docs
+    title: How to Post Service Lines | Microsoft Docs
     description: If you have to work on a service order for a considerable time without posting it, you may want to post some of the service lines linked to it as a way, for example, of keeping your inventory updated. You can post by specifying the relevant quantities on the lines to be posted. You may choose to post the lines one by one or by selecting several lines at a time.
     services: project-madeira
     documentationcenter: ''

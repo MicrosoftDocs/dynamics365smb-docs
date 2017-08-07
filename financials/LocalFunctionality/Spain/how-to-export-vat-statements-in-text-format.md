@@ -1,5 +1,5 @@
 ---
-    title: How to: Export VAT Statements in Text Format | Microsoft Docs
+    title: How to Export VAT Statements in Text Format | Microsoft Docs
     description: You can export a VAT statement in text format and then submit it electronically to the tax authorities.
     services: project-madeira
     documentationcenter: ''

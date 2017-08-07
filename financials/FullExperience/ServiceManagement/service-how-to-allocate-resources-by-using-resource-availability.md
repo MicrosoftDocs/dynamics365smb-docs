@@ -1,5 +1,5 @@
 ---
-    title: How to: Allocate Resources by Using Resource Availability | Microsoft Docs
+    title: How to Allocate Resources by Using Resource Availability | Microsoft Docs
     description: When you have created service orders or quotes, you can make use of resource availability to allocate resources, for example, technicians, to perform the service tasks in the orders or quotes.
     services: project-madeira
     documentationcenter: ''

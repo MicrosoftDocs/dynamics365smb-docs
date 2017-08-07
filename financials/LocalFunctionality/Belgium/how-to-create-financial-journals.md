@@ -1,5 +1,5 @@
 ---
-    title: How to: Create Financial Journals | Microsoft Docs
+    title: How to Create Financial Journals | Microsoft Docs
     description: Financial journals are used to register bank account transactions. The financial journal lets you enter a starting balance and an ending balance and automatically calculate the difference so that you can verify that all of the transactions have been registered.
     services: project-madeira
     documentationcenter: ''

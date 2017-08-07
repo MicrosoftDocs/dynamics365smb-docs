@@ -1,5 +1,5 @@
 ---
-    title: How to: Export Payments Using LSV | Microsoft Docs
+    title: How to Export Payments Using LSV | Microsoft Docs
     description: You can export or write Lastschrift Verfahren (LSV+) files that contain payments information after closing the LSV collection. You can send the generated files to the bank on a disk, or use an electronic file transfer such as your online banking software or an Internet portal.
     services: project-madeira
     documentationcenter: ''

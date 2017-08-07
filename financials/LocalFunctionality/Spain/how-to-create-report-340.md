@@ -1,5 +1,5 @@
 ---
-    title: How to: Create Report 340 | Microsoft Docs
+    title: How to Create Report 340 | Microsoft Docs
     description: Report 340 ../../includes all sales invoices and purchase invoices posted by a company during a given period. The report also ../../includes the operation codes with related taxes and payments in cash.
     services: project-madeira
     documentationcenter: ''

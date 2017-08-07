@@ -1,5 +1,5 @@
 ---
-    title: How to: Calculate Low-Level Codes | Microsoft Docs
+    title: How to Calculate Low-Level Codes | Microsoft Docs
     description: Each item in a production BOM must have a low-level code.
     services: project-madeira
     documentationcenter: ''

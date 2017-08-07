@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up an OCR Service | Microsoft Docs
+    title: How to Set Up an OCR Service | Microsoft Docs
     description: You use an external provider of OCR services to have PDF or image files turned into electronic documents that can be converted to document records in ADD INCLUDE<!--[!INCLUDE[dyn_nav](includes/how-to-use-ocr-to-turn-pdf-and-image-files-into-electronic-documents.md).
     services: project-madeira
     documentationcenter: ''

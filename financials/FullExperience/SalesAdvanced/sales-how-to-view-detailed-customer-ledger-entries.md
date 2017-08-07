@@ -1,5 +1,5 @@
 ---
-    title: How to: View Detailed Customer Ledger Entries | Microsoft Docs
+    title: How to View Detailed Customer Ledger Entries | Microsoft Docs
     description: All adjustments to a customer ledger entry, for example, payment discounts or changes in currency exchange rates, are shown in the **Detailed Cust. Ledg. Entry** window.
     services: project-madeira
     documentationcenter: ''

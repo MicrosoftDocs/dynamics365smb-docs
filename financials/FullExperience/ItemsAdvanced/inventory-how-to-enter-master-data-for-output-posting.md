@@ -1,5 +1,5 @@
 ---
-    title: How to: Enter Master Data for Output Posting | Microsoft Docs
+    title: How to Enter Master Data for Output Posting | Microsoft Docs
     description: To post work progress automatically, you must assign a flushing method to the machine center or the work center.
     services: project-madeira
     documentationcenter: ''

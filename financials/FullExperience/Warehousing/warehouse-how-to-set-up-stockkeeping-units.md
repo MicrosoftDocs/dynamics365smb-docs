@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Stockkeeping Units | Microsoft Docs
+    title: How to Set Up Stockkeeping Units | Microsoft Docs
     description: You can use stockkeeping units to record information about your items for a specific location or a specific variant code.
     services: project-madeira
     documentationcenter: ''

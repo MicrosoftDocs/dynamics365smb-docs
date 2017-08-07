@@ -1,5 +1,5 @@
 ---
-    title: How to: Create Comments | Microsoft Docs
+    title: How to Create Comments | Microsoft Docs
     description: Comments are used to add extra information to accounts, customers, items, and so on. With comments you can, for example, specify that a customer has a certain pricing agreement or has been behind with payments.
     services: project-madeira
     documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: How to: Cancel UI Configuration | Microsoft Docs
+    title: How to Cancel UI Configuration | Microsoft Docs
     description: You can cancel UI customizations that you have made as configuration for a profile in three ways:
     services: project-madeira
     documentationcenter: ''

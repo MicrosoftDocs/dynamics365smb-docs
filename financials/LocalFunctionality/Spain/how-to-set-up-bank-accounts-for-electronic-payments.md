@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Bank Accounts for Electronic Payments | Microsoft Docs
+    title: How to Set Up Bank Accounts for Electronic Payments | Microsoft Docs
     description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can set up bank accounts to make electronic payments.
     services: project-madeira
     documentationcenter: ''

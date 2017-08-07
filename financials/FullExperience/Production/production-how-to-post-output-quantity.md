@@ -1,5 +1,5 @@
 ---
-    title: How to: Post Output Quantity | Microsoft Docs
+    title: How to Post Output Quantity | Microsoft Docs
     description: The output quantity represents the work progress in the form of the finished quantity.
     services: project-madeira
     documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: How to: Define Tax Registers | Microsoft Docs
+    title: How to Define Tax Registers | Microsoft Docs
     description: Tax registers are used to track and manage taxable profits and losses in accordance with Russian tax accounting principles. You can use the **Tax Register Card** window to define how tax registers calculate taxable profits and losses and record the results.
     services: project-madeira
     documentationcenter: ''

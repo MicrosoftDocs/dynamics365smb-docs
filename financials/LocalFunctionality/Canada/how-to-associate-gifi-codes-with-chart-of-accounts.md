@@ -1,5 +1,5 @@
 ---
-    title: How to: Associate GIFI Codes with Chart of Accounts | Microsoft Docs
+    title: How to Associate GIFI Codes with Chart of Accounts | Microsoft Docs
     description: To report financial information by General Index of Financial Information (GIFI) code, each GIFI code must be associated with the appropriate accounts in the chart of accounts.
     services: project-madeira
     documentationcenter: ''

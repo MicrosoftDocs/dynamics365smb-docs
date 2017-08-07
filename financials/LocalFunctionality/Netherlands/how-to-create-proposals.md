@@ -1,5 +1,5 @@
 ---
-    title: How to: Create Proposals | Microsoft Docs
+    title: How to Create Proposals | Microsoft Docs
     description: Proposals can be generated manually or automatically based on either vendor or customer ledger entries.
     services: project-madeira
     documentationcenter: ''

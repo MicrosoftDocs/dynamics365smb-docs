@@ -1,5 +1,5 @@
 ---
-    title: How to: Print Vendor 1099 Information Reports | Microsoft Docs
+    title: How to Print Vendor 1099 Information Reports | Microsoft Docs
     description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the following tax forms to report 1099 transactions:
     services: project-madeira
     documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: How to: Calculate Lines from Production Order Headers | Microsoft Docs
+    title: How to Calculate Lines from Production Order Headers | Microsoft Docs
     description: The production order lines contain the items that are to be produced in the production order.
     services: project-madeira
     documentationcenter: ''

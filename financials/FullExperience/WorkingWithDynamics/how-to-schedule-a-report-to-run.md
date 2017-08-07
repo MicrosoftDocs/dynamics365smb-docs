@@ -1,5 +1,5 @@
 ---
-    title: How to: Schedule a Report to Run | Microsoft Docs
+    title: How to Schedule a Report to Run | Microsoft Docs
     description: You can schedule a report to run at a specific date and time. Scheduled reports are entered in the job queue and processed at the scheduled time, similar to other jobs. You can choose to save the processed report to a file, such as an Excel, Word, or PDF, print it to a selected printer, or process the report only. If you choose to save the report to a file, then the processed report is sent to the **Report Inbox**, where you can view it.
     services: project-madeira
     documentationcenter: ''

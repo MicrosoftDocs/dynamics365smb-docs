@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Alternate Depreciation Methods | Microsoft Docs
+    title: How to Set Up Alternate Depreciation Methods | Microsoft Docs
     description: Alternate depreciation methods include the following:
     services: project-madeira
     documentationcenter: ''

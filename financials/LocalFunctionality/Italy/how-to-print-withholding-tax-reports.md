@@ -1,5 +1,5 @@
 ---
-    title: How to: Print Withholding Tax Reports | Microsoft Docs
+    title: How to Print Withholding Tax Reports | Microsoft Docs
     description: The **Withholding Taxes** report displays a list of withholding taxes that are payable to the government.
     services: project-madeira
     documentationcenter: ''

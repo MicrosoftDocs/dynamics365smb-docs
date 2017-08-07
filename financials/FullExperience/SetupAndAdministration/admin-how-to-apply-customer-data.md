@@ -1,5 +1,5 @@
 ---
-    title: How to: Apply Customer Data | Microsoft Docs
+    title: How to Apply Customer Data | Microsoft Docs
     description: When you have all imported data migration records that are valid and have no errors, you can apply the records to the [!INCLUDE[d365fin](../../includes/d365fin_md.md)] database.
     services: project-madeira
     documentationcenter: ''

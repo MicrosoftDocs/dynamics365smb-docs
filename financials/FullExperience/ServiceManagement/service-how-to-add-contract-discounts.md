@@ -1,5 +1,5 @@
 ---
-    title: How to: Add Contract Discounts | Microsoft Docs
+    title: How to Add Contract Discounts | Microsoft Docs
     description: You can add contract discounts on services for contract quotes and service contracts. The discounts can be on spare parts in particular service item groups, on resource hours for resources in particular resource groups, and on particular service costs.
     services: project-madeira
     documentationcenter: ''

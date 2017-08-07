@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up and Record Intrastat | Microsoft Docs
+    title: How to Set Up and Record Intrastat | Microsoft Docs
     description: All companies in the European Union must report their trade with other EU countries/regions. You must report the movement of goods to the statistics authorities in your country/region every month, and the report must be delivered to the tax authorities. This is referred to as Intrastat Reporting. You use the **Intrastat Journal** window to complete periodic Intrastat reports.
     services: project-madeira
     documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: How to: Create VAT Reports | Microsoft Docs
+    title: How to Create VAT Reports | Microsoft Docs
     description: You can configure different types of VAT reports based on requirements. Then, when you have to submit a VAT report, you can create it in the **VAT Report** window and then export it in electronic format that conforms to the ELMA5 format requirements.
     services: project-madeira
     documentationcenter: ''

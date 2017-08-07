@@ -1,5 +1,5 @@
 ---
-    title: How to: Use Quick Filter on Pages | Microsoft Docs
+    title: How to Use Quick Filter on Pages | Microsoft Docs
     description: You can add filters to all pages, either by using the Quick Filter or the Advanced Filter. The Quick Filter is enabled by entering criteria in the **Type to filter** box at the top of a page. This filtering type is used for a fast entry of criteria. The advanced filtering option is available when you click the expand button next to the Quick Filter or when you press F3. All filters are cleared by pressing Ctrl+Shift+A.
     services: project-madeira
     documentationcenter: ''

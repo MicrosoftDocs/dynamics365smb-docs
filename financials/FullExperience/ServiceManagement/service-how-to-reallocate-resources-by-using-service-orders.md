@@ -1,5 +1,5 @@
 ---
-    title: How to: Reallocate Resources by Using Service Orders | Microsoft Docs
+    title: How to Reallocate Resources by Using Service Orders | Microsoft Docs
     description: You can reallocate resources directly from a service order or service quote when you are working with it.
     services: project-madeira
     documentationcenter: ''

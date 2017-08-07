@@ -1,5 +1,5 @@
 ---
-    title: How to: Perform Cycle Counting | Microsoft Docs
+    title: How to Perform Cycle Counting | Microsoft Docs
     description: Although you count all items in inventory at least once a year, you may have decided to count some items more often, perhaps because they are more valuable, or because they are very fast movers and a large part of your business.
     services: project-madeira
     documentationcenter: ''

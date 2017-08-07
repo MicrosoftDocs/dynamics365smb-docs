@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up VAT Categories | Microsoft Docs
+    title: How to Set Up VAT Categories | Microsoft Docs
     description: To use the electronic VAT declaration, you must set up a VAT category code for all XML elements in the electronic VAT declaration.
     services: project-madeira
     documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Undepreciable Fixed Assets | Microsoft Docs
+    title: How to Set Up Undepreciable Fixed Assets | Microsoft Docs
     description: You need to create or select a card for the fixed asset that should be repaid. The following procedure shows how to open the fixed asset card.
     services: project-madeira
     documentationcenter: ''

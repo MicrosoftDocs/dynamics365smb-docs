@@ -1,5 +1,5 @@
 ---
-    title: How to: Find Where Production BOM Components Are Used | Microsoft Docs
+    title: How to Find Where Production BOM Components Are Used | Microsoft Docs
     description: The where-used option displays where a component is used.
     services: project-madeira
     documentationcenter: ''

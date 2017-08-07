@@ -1,5 +1,5 @@
 ---
-    title: How to: Refresh Planning Demands | Microsoft Docs
+    title: How to Refresh Planning Demands | Microsoft Docs
     description: You can use the **Refresh Planning Demand** batch job to refresh the planning components and the routing lines for the current planning line.
     services: project-madeira
     documentationcenter: ''

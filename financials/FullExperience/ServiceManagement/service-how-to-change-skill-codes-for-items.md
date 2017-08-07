@@ -1,5 +1,5 @@
 ---
-    title: How to: Change Skill Codes for Items | Microsoft Docs
+    title: How to Change Skill Codes for Items | Microsoft Docs
     description: You may want to change the skill codes assigned to items, for example, changing **PC** to **PCS**. The procedure for changing skill codes is similar to the process of assigning skill codes.
     services: project-madeira
     documentationcenter: ''

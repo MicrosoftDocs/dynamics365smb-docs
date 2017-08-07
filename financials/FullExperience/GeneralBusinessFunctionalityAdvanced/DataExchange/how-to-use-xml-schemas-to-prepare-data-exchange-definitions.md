@@ -1,5 +1,5 @@
 ---
-    title: How to: Use OCR to Turn PDF and Image Files into Electronic Documents | Microsoft Docs
+    title: How to Use OCR to Turn PDF and Image Files into Electronic Documents | Microsoft Docs
     description: From PDF or image files that you receive from your trading partners, you can have an external OCR service (Optical Character Recognition) generate electronic documents that can be converted to document records in ADD INCLUDE<!--[!INCLUDE[dyn_nav](includes/dyn_nav_md.md)]-->. For example, when you receive an invoice in PDF format from your vendor, you can send it to the OCR service from the **Incoming Documents** window. This is described in the first procedure.
     services: project-madeira
     documentationcenter: ''

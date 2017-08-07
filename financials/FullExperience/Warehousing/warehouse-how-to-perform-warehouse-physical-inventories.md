@@ -1,5 +1,5 @@
 ---
-    title: How to: Perform Warehouse Physical Inventories | Microsoft Docs
+    title: How to Perform Warehouse Physical Inventories | Microsoft Docs
     description: At least once in every fiscal year, you must take a physical inventory to see if the quantity registered is the same as the physical quantity in stock. If there are differences, you must post them to the item accounts before you do an inventory valuation. You also post your results to the physical inventory ledger, to record that you have counted a particular item on a particular date.
     services: project-madeira
     documentationcenter: ''

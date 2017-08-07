@@ -1,5 +1,5 @@
 ---
-    title: How to: Copy Data to New Companies | Microsoft Docs
+    title: How to Copy Data to New Companies | Microsoft Docs
     description: You can copy commonly used values from an existing company to a new one, as long as both companies are in the same database. For example, if you have a standard list of symptom codes that is common to all your service management implementations, you can copy the codes easily from one company to another.
     services: project-madeira
     documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Tolerances | Microsoft Docs
+    title: How to Set Up Tolerances | Microsoft Docs
     description: Tolerance on days and amounts allows you to close an invoice even though the payment does not fully cover the amount on the invoice, whether this is because the due date for the payment discount has been exceeded, goods have been deducted or because of a minor error. This also applies to refunds and credit memos.
     services: project-madeira
     documentationcenter: ''

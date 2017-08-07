@@ -1,5 +1,5 @@
 ---
-    title: How to: Print and Reprint G-L Books and VAT Registers | Microsoft Docs
+    title: How to Print and Reprint G-L Books and VAT Registers | Microsoft Docs
     description: The tax authorities require that you submit two fiscal reports that list all of the posted ledger entries, the **G/L Book - Print** report and the **VAT Register - Print** report. Each printed page must have its own progressive number, and therefore, you must update [!INCLUDE[d365fin](../../includes/d365fin_md.md)] with the last printed page number before you run these reports again.
     services: project-madeira
     documentationcenter: ''

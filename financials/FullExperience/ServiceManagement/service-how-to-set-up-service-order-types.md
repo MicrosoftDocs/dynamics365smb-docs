@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Service Order Types | Microsoft Docs
+    title: How to Set Up Service Order Types | Microsoft Docs
     description: You can use the **Service Order Types** window to set up codes to identify types of service orders, for example, hardware and software. You can use service order types to group service orders together for statistical or other purposes.
     services: project-madeira
     documentationcenter: ''

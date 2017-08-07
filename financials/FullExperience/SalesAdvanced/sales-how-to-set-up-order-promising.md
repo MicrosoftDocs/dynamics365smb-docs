@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Document Sending Profiles | Microsoft Docs
+    title: How to Set Up Document Sending Profiles | Microsoft Docs
     description: You can set each customer up with a preferred method of sending sales documents, so that you do not have to select a sending option every time you choose the **Post and Send** button.
     services: project-madeira
     documentationcenter: ''

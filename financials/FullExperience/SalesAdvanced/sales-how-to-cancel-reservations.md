@@ -1,5 +1,5 @@
 ---
-    title: How to: Cancel Reservations | Microsoft Docs
+    title: How to Cancel Reservations | Microsoft Docs
     description: Sometimes, you may want to cancel an item reservation.
     services: project-madeira
     documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: How to: Print VAT Reports | Microsoft Docs
+    title: How to Print VAT Reports | Microsoft Docs
     description: You can use the following reports for VAT reporting:
     services: project-madeira
     documentationcenter: ''

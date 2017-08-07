@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Withholding Tax | Microsoft Docs
+    title: How to Set Up Withholding Tax | Microsoft Docs
     description: Companies must pay withholding tax to the government for third-party services and vendor purchases. Withholding tax is calculated during invoice payment rather than during invoice posting.
     services: project-madeira
     documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: How to: Close Years | Microsoft Docs
+    title: How to Close Years | Microsoft Docs
     description: When a fiscal year is over, you must close the periods that it comprises.
     services: project-madeira
     documentationcenter: ''

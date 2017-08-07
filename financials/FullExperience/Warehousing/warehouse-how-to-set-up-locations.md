@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Locations | Microsoft Docs
+    title: How to Set Up Locations | Microsoft Docs
     description: You can keep track of items in different locations by setting up locations.
     services: project-madeira
     documentationcenter: ''

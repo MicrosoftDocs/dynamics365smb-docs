@@ -1,5 +1,5 @@
 ---
-    title: How to: Track Entries in Planning Lines | Microsoft Docs
+    title: How to Track Entries in Planning Lines | Microsoft Docs
     description: The order tracking function offers you an overview of the documents that are related to the current planning line.
     services: project-madeira
     documentationcenter: ''

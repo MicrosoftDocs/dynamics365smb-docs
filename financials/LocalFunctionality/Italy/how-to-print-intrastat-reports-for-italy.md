@@ -1,5 +1,5 @@
 ---
-    title: How to: Print Intrastat Reports for Italy | Microsoft Docs
+    title: How to Print Intrastat Reports for Italy | Microsoft Docs
     description: You can print monthly and quarterly Intrastat reports and submit them to the authorities on a diskette by running the **Intrastat Make Disk Tax Auth** batch job. Information regarding the receipt and the delivery of goods is included automatically.
     services: project-madeira
     documentationcenter: ''

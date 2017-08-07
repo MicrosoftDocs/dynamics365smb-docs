@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Alternative Addresses for Employees | Microsoft Docs
+    title: How to Set Up Alternative Addresses for Employees | Microsoft Docs
     description: You can use alternative addresses to keep track of your employees’ location, for example if they are stationed abroad, on a long business trip, or residing at a summer residence.
     services: project-madeira
     documentationcenter: ''

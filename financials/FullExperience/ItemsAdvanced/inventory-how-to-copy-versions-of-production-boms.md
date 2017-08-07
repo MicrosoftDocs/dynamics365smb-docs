@@ -1,5 +1,5 @@
 ---
-    title: How to: Copy Versions of Production BOMs | Microsoft Docs
+    title: How to Copy Versions of Production BOMs | Microsoft Docs
     description: When working with long production BOMs or slight changes in the versions, it is useful to copy an existing version of a production BOM into a new version or into an existing version. Already existing information on the lines is overwritten in the destination version.
     services: project-madeira
     documentationcenter: ''

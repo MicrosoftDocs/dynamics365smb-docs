@@ -1,5 +1,5 @@
 ---
-    title: How to: View Debit Balances and Credit Balances for All General Ledger Accounts | Microsoft Docs
+    title: How to View Debit Balances and Credit Balances for All General Ledger Accounts | Microsoft Docs
     description: You can view debit and credit balances for all general ledger accounts for a single period.
     services: project-madeira
     documentationcenter: ''

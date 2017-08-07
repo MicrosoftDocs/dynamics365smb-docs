@@ -1,5 +1,5 @@
 ---
-    title: How to: Localize Intrastat Reporting | Microsoft Docs
+    title: How to Localize Intrastat Reporting | Microsoft Docs
     description: You must localize Intrastat reporting to be legally compliant. The code for the shipment method must be transferred from the Intrastat journal.
     services: project-madeira
     documentationcenter: ''

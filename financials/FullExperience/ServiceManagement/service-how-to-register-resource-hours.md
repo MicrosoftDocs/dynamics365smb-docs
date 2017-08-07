@@ -1,5 +1,5 @@
 ---
-    title: How to: Register Resource Hours | Microsoft Docs
+    title: How to Register Resource Hours | Microsoft Docs
     description: When working on service items in service orders, you need to register the resource hours used for the service. The following procedure shows how to register the resource hours in the **Service Item Worksheet** window.
     services: project-madeira
     documentationcenter: ''

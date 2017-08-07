@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up In-Transit Codes | Microsoft Docs
+    title: How to Set Up In-Transit Codes | Microsoft Docs
     description: Before you transfer items between locations using transfer routes, you need to set up in-transit codes.
     services: project-madeira
     documentationcenter: ''

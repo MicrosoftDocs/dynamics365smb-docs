@@ -1,5 +1,5 @@
 ---
-    title: How to: Assign Qualification Codes to Employees | Microsoft Docs
+    title: How to Assign Qualification Codes to Employees | Microsoft Docs
     description: You can set up qualification codes for various qualifications, both academic and practical, that your employees have.
     services: project-madeira
     documentationcenter: ''

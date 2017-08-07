@@ -1,5 +1,5 @@
 ---
-    title: How to: Create a VAT Combination Setup | Microsoft Docs
+    title: How to Create a VAT Combination Setup | Microsoft Docs
     description: This topic describes how to create a VAT combination setup.
     services: project-madeira
     documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: How to: Reserve Items for a Service Order | Microsoft Docs
+    title: How to Reserve Items for a Service Order | Microsoft Docs
     description: There will be occasions in which you want to make sure that an item you want for a service order is available. If an item is available to reserve, you can reserve it to make sure that it is available for your use on a service order.
     services: project-madeira
     documentationcenter: ''

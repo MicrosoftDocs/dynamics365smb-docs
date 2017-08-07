@@ -1,5 +1,5 @@
 ---
-    title: How to: Run MPS and MRP | Microsoft Docs
+    title: How to Run MPS and MRP | Microsoft Docs
     description: The terms "running the planning worksheet" or "running MRP" refer to the calculation of the master production schedule and material requirements based on actual and forecasted demand. The planning system can calculate either Master Planning Schedule (MPS) or Material Requirements Planning (MRP) on request, or it can calculate both at the same time.
     services: project-madeira
     documentationcenter: ''

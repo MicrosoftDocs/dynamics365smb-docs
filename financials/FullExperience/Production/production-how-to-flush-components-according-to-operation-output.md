@@ -1,5 +1,5 @@
 ---
-    title: How to: Flush Components According to Operation Output | Microsoft Docs
+    title: How to Flush Components According to Operation Output | Microsoft Docs
     description: For items that are set up with backward flushing method, the default behavior is to calculate and post component consumption when you change the status of a released production order to **Finished**. For more information, see Flushing Method.
     services: project-madeira
     documentationcenter: ''

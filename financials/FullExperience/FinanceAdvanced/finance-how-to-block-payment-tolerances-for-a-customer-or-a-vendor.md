@@ -1,5 +1,5 @@
 ---
-    title: How to: Block Payment Tolerances for a Customer or a Vendor | Microsoft Docs
+    title: How to Block Payment Tolerances for a Customer or a Vendor | Microsoft Docs
     description: The default setting for payment tolerance is allowed. To disallow a certain customer or vendor payment tolerance you need to block tolerance on the respective customer or vendor card.
     services: project-madeira
     documentationcenter: ''

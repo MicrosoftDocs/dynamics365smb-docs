@@ -1,5 +1,5 @@
 ---
-    title: How to: Export or Import Profiles | Microsoft Docs
+    title: How to Export or Import Profiles | Microsoft Docs
     description: You can export a profile, for example to reuse UI configurations in other ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]--> databases.
     services: project-madeira
     documentationcenter: ''

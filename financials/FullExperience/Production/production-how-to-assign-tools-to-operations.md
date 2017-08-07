@@ -1,5 +1,5 @@
 ---
-    title: How to: Assign Tools to Operations | Microsoft Docs
+    title: How to Assign Tools to Operations | Microsoft Docs
     description: You can assign any tools to a routing line, that is, an operation. The assigned tools specify which tool is to be used to process the operation. This specification is used for special tools, precision tools, and quality measures.
     services: project-madeira
     documentationcenter: ''

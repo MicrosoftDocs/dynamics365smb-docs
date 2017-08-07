@@ -1,5 +1,5 @@
 ---
-    title: How to: Register Costs for Service Orders | Microsoft Docs
+    title: How to Register Costs for Service Orders | Microsoft Docs
     description: When working on service items in service orders, you may need to register additional costs for a service order in general. For example, you can insert a fee for travel to the service zone where the customer is located for whom the service order was created. You can also insert a starting fee for the order. For more information, see [How to: Insert Travel Fees for Service Orders](../how-to-insert-starting-fees-for-service-orders.md).
     services: project-madeira
     documentationcenter: ''

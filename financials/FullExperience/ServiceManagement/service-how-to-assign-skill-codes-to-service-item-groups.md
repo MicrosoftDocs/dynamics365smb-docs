@@ -1,5 +1,5 @@
 ---
-    title: How to: Assign Skill Codes to Service Item Groups | Microsoft Docs
+    title: How to Assign Skill Codes to Service Item Groups | Microsoft Docs
     description: Servicing items that belong to certain service item groups may require specific skills. If this is the case, you must assign skill codes to these service item groups.
     services: project-madeira
     documentationcenter: ''

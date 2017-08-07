@@ -1,5 +1,5 @@
 ---
-    title: How to: Print Swiss VAT Statements (older version) | Microsoft Docs
+    title: How to Print Swiss VAT Statements (older version) | Microsoft Docs
     description: > [!NOTE]
     services: project-madeira
     documentationcenter: ''

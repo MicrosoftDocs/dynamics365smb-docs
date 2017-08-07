@@ -1,5 +1,5 @@
 ---
-    title: How to: Validate the Configuration Questionnaire | Microsoft Docs
+    title: How to Validate the Configuration Questionnaire | Microsoft Docs
     description: It is important to validate the setup questionnaire before you apply it to the [!INCLUDE[d365fin](../../includes/d365fin_md.md)] format. It is also a way to make sure that data formatting is preserved during the import from Excel.
     services: project-madeira
     documentationcenter: ''

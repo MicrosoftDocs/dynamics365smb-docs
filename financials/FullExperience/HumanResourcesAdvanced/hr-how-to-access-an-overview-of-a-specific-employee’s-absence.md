@@ -1,5 +1,5 @@
 ---
-    title: How to: Access an Overview of a Specific Employee’s Absence | Microsoft Docs
+    title: How to Access an Overview of a Specific Employee’s Absence | Microsoft Docs
     description: You can get an overview of an individual employee’s absences.
     services: project-madeira
     documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: How to: Archive Payment Slips | Microsoft Docs
+    title: How to Archive Payment Slips | Microsoft Docs
     description: When a payment slip has been processed, you can separate it from the active payment slips by archiving it.
     services: project-madeira
     documentationcenter: ''

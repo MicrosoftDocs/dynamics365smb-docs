@@ -1,5 +1,5 @@
 ---
-    title: How to: Sell Inventory Items in Assemble-to-Order Flows | Microsoft Docs
+    title: How to Sell Inventory Items in Assemble-to-Order Flows | Microsoft Docs
     description: If the **Assembly Policy** field on the item card of an assembly item contains **Assemble-to-Order**, then the default sales order process assumes that the item is not in inventory and must be assembled for that specific sales order. Therefore, a linked assembly order is automatically created when you add the item to a sales order line. For more information, see [How to: Sell Items Assembled to Order](../how-to-sell-items-assembled-to-order.md). However, if a part of the sales order quantity is already available in inventory, then you can decrease the assembly order quantity by changing the **Qty. to Assemble to Order** field on the sales order line.
     services: project-madeira
     documentationcenter: ''

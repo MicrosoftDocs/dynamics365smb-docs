@@ -1,5 +1,5 @@
 ---
-    title: How to: Print the Factura-Invoice | Microsoft Docs
+    title: How to Print the Factura-Invoice | Microsoft Docs
     description: The Factura-Invoice.
     services: project-madeira
     documentationcenter: ''

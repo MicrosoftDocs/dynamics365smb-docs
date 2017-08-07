@@ -1,5 +1,5 @@
 ---
-    title: How to: Print Balance Sheet Reports | Microsoft Docs
+    title: How to Print Balance Sheet Reports | Microsoft Docs
     description: You can use the **Balance Sheet** report to view the company’s balance sheet.
     services: project-madeira
     documentationcenter: ''

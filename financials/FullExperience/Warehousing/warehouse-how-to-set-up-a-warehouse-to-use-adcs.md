@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up a Warehouse to Use ADCS | Microsoft Docs
+    title: How to Set Up a Warehouse to Use ADCS | Microsoft Docs
     description: To use ADCS, you must specify which warehouse locations use the technology.
     services: project-madeira
     documentationcenter: ''

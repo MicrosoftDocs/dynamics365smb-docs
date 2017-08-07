@@ -1,5 +1,5 @@
 ---
-    title: How to: Create Remittance Suggestions | Microsoft Docs
+    title: How to Create Remittance Suggestions | Microsoft Docs
     description: You can create a remittance suggestion so that payment proposals are sent to vendors who are set up to receive remittance payments. One payment transaction per posting date for each vendor is transferred to the bank.
     services: project-madeira
     documentationcenter: ''

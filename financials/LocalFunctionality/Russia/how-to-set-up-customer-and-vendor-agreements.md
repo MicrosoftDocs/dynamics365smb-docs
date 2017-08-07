@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Customer and Vendor Agreements | Microsoft Docs
+    title: How to Set Up Customer and Vendor Agreements | Microsoft Docs
     description: The customer and vendor agreements feature provides the following:
     services: project-madeira
     documentationcenter: ''

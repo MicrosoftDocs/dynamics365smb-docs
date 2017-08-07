@@ -1,5 +1,5 @@
 ---
-    title: How to: Register Opening Item Entries | Microsoft Docs
+    title: How to Register Opening Item Entries | Microsoft Docs
     description: To record inventory on hand of individual items, you must post an entry for each item number. Before you can do this, you must set up all your items on item cards.
     services: project-madeira
     documentationcenter: ''

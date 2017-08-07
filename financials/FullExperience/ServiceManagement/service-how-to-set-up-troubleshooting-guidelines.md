@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Troubleshooting Guidelines | Microsoft Docs
+    title: How to Set Up Troubleshooting Guidelines | Microsoft Docs
     description: You can use the **Troubleshooting** window to set up troubleshooting guidelines for service items to help the technician solve problems or set up a list of questions to ask relating to the specific items.
     services: project-madeira
     documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up SMTP Email | Microsoft Docs
+    title: How to Set Up SMTP Email | Microsoft Docs
     description: To send e-mails from ADD INCLUDE<!--[!INCLUDE[navnow](includes/navnow_md.md)]--> using an SMTP server, you must fill the **SMTP Mail Setup** window.
     services: project-madeira
     documentationcenter: ''

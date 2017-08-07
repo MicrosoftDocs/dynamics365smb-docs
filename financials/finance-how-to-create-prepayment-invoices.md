@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/04/2017
+    ms.date: 08/07/2017
     ms.author: sgroespe
 
 ---
@@ -29,8 +29,8 @@ The following procedure describes how to invoice a prepayment for a sales orders
     On the **Prepayment** FastTab, the **Prepayment %** field will be filled in automatically if there is a default prepayment percentage on the customer card. You can change the contents of the field. The prepayment percentage is only copied from the header to lines that do not copy the default prepayment percentage from the item.  
 
     If the **Compress Prepayment** field is selected, lines will be combined on the invoice if:  
-    -They have the same general ledger account for prepayments as determined by the general posting setup.  
-    -They have the same dimensions.  
+    - They have the same general ledger account for prepayments as determined by the general posting setup.  
+    - They have the same dimensions.  
 
     Leave the field blank if you want to specify a prepayment invoice with one line for each sales order line that has a prepayment percentage.  
 
@@ -40,10 +40,11 @@ The following procedure describes how to invoice a prepayment for a sales orders
 4. If you want to apply one prepayment percentage to the entire order, change the **Prepayment %** field on the header after filling in the lines.  
 5. To view the total prepayment amount, choose the **Statistics** action.
 
-    -If you want to adjust the total prepayment amount for the order, you can change the contents of the **Prepayment Amount** field in the **Sales Order Statistics** window.  
-    -If the **Prices Including VAT** field is selected, the **Prepayment Amount Incl. VAT** field is editable.  
-    -If you change the contents of the **Prepayment Amount** field, the amount will be distributed proportionately between all lines, except those that have **0** in the **Prepayment %** field.  
+    If you want to adjust the total prepayment amount for the order, you can change the contents of the **Prepayment Amount** field in the **Sales Order Statistics** window.  
 
+    If the **Prices Including VAT** field is selected, the **Prepayment Amount Incl. VAT** field is editable.  
+
+    If you change the contents of the **Prepayment Amount** field, the amount will be distributed proportionately between all lines, except those that have **0** in the **Prepayment %** field.  
 6. To print a test report before posting the prepayment invoice, choose the **Prepayment** action, and then choose the **Prepayment Test Report** action.  
 7. To post the prepayment invoice, choose the **Prepayment** action, and then choose the **Post Prepayment Invoice** action.  
 

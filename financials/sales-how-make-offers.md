@@ -1,5 +1,5 @@
 ﻿---
-title: Create a Sales Offer or Sales Quote | Microsoft Docs
+title: Create a Sales Offer to a Customer | Microsoft Docs
 description: Describes how to create a sales offer or a request for proposal (RFQ) document to record your offer to a customer to sell products under certain terms.
 documentationcenter: ''
 author: SorenGP
@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 03/29/2017
+ms.date: 08/08/2017
 ms.author: sgroespe
 
 ---

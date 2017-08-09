@@ -203,6 +203,7 @@
 
 # [Human Resources](hr-manage-human-resources.md)
 ## [How to: Register Employees](hr-how-register-employees.md)
+## [How to: Manage Employee Absence](hr-how-manage-absence.md)
 
 # [General Business Functionality](ui-across-business-areas.md)
 ## [How to: Create Number Series](ui-create-number-series.md)

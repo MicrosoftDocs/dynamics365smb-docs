@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 06/30/2017
+ms.date: 08/09/2017
 ms.author: sgroespe
 
 ---
@@ -45,6 +45,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Link a sales order to a purchase order to sell a drop-shipment item that will be delivered directly from your vendor to your customer. |[How to: Make Drop Shipments](sales-how-drop-shipment.md) |
 | Perform an action on an unpaid posted sales invoice to automatically create a credit memo and either cancel the sales invoice or recreate it so you can make corrections. |[How to: Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md) |
 | Create a sales credit memo to revert a specific posted sales invoice to reflect which products the customer returns and which payment amount you will refund. |[How to: Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md) |
+|Manage your customer's commitment to purchase large quantities delivered in several shipments over time.|[How to: Work with Blanket Sales Orders](sales-how-to-create-blanket-sales-orders.md)|
 | Create a customer card for each customer that you sell to. |[How to: Register New Customers](sales-how-register-new-customers.md) |
 
 ## See Also

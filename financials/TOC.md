@@ -152,7 +152,7 @@
 ## [How to: Make Drop Shipments](sales-how-drop-shipment.md)
 ## [How to: Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md)
 ## [How to: Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md)
-## How to: Work with Blanket Sales Orders
+## [How to: Work with Blanket Sales Orders](sales-how-to-create-blanket-sales-orders.md)
 
 # [Purchasing](purchasing-manage-purchasing.md)
 ## [How to: Record Purchases](purchasing-how-record-purchases.md)
@@ -160,7 +160,6 @@
 ## [How to: Purchase Items for a Sale](purchasing-how-purchase-products-sale.md)
 ## [How to: Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)
 ## [How to: Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md)
-## How to: Work with Blanket Purchase Orders
 
 # [Inventory](inventory-manage-inventory.md)
 ## [How to: Register New Items](inventory-how-register-new-items.md)

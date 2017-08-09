@@ -9,7 +9,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/04/2017
+ms.date: 08/09/2017
 ms.author: sgroespe
 
 ---
@@ -68,6 +68,8 @@ All fields on the sales invoice line for the assembly item are cleared except fo
 
 ## To calculate the standard cost of an assembly item
 You calculate the unit cost of an assembly item by rolling up the unit cost of each component and resource in the item’s assembly BOM.
+
+You can also calculate and update the standard cost for one or many items in the **Standard Cost Worksheet** window. For more information, see [How to: Update Standard Costs](finance-how-to-update-standard-costs.md).  
 
 The unit cost of an assembly BOM always equals the total of the unit costs of its components, including other assembly BOMs, and any resources.
 

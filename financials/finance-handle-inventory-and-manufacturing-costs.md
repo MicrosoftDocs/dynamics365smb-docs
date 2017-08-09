@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 08/09/2017
     ms.author: sgroespe
 
 ---
@@ -30,10 +30,10 @@ Although much of the cost accounting functionality is expressed in underlying pr
 |Create a manufacturing item's standard cost by entering the three cost elements: material cost, capacity cost, and subcontractor cost.|[About Calculating Standard Cost](about-calculating-standard-cost.md)|  
 |Update the standard cost of multiple items and production BOMs.|**Update Unit Cost** batch job|  
 |Calculate the unit cost of a BOM item based on the unit costs of its underlying components.|[How to: Work with Assembly BOMs](inventory-how-work-BOMs.md)|  
-|Complete the costing life cycle of a produced item by adjusting the costs and reconciling the value entries with the general ledger.|[How to: Finish Production Orders](how-to-finish-production-orders.md)|  
+|Complete the costing life cycle of a produced item by adjusting the costs and reconciling the value entries with the general ledger.|[How to: Finish Production Orders](production-how-to-finish-production-orders.md)|  
 |Change the value of an item in inventory or the value of one item ledger entry, such as a purchase transaction.|[How to: Revalue Inventory](inventory-how-revalue-inventory.md)|
 |Manually undo an item application or reapply item ledger entries created by the program.|[How to: Remove and Reapply Item Entries](finance-how-to-remove-and-reapply-item-entries.md)|  
-|Use the **Applies-from Entry** field in the item journal to manually create a fixed application between an inbound transaction and the original outbound transaction.|[How to: Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
+|Use the **Applies-from Entry** field in the item journal to manually create a fixed application between an inbound transaction and the original outbound transaction.|[How to: Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
 ## See Also  
 [Manage Inventory Costs](finance-manage-inventory-costs.md)

@@ -1,6 +1,6 @@
 ---
     title: How to Define Check Layouts | Microsoft Docs
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can design your checks to conform with the standards set by the local authorities. Check images can be printed in English, French, or Spanish.
+    description: In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can design your checks to conform with the standards set by the local authorities. Check images can be printed in English, French, or Spanish.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # How to: Define Check Layouts
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can design your checks to conform with the standards set by the local authorities. Check images can be printed in English, French, or Spanish.  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can design your checks to conform with the standards set by the local authorities. Check images can be printed in English, French, or Spanish.  
   
  Checks are designed to print in both the United States and Canadian check image formats in either a check-stub-check format or a stub-stub-check format.  
   

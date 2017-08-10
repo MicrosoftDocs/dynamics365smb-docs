@@ -1,6 +1,6 @@
 ---
     title: How to View Change Log Entries | Microsoft Docs
-    description: After you have set up the change log, activated it, and made a change to data, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] logs the change in a change log entry. You can view and filter the changes in the **Change Log Activated** window.
+    description: After you have set up the change log, activated it, and made a change to data, [!INCLUDE[d365fin](includes/d365fin_md.md)] logs the change in a change log entry. You can view and filter the changes in the **Change Log Activated** window.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # How to: View Change Log Entries
-After you have set up the change log, activated it, and made a change to data, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] logs the change in a change log entry. You can view and filter the changes in the **Change Log Activated** window.  
+After you have set up the change log, activated it, and made a change to data, [!INCLUDE[d365fin](includes/d365fin_md.md)] logs the change in a change log entry. You can view and filter the changes in the **Change Log Activated** window.  
   
 ### To view change log entries  
   

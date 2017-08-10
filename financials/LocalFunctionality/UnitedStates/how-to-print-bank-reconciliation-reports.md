@@ -1,6 +1,6 @@
 ---
     title: How to Print Bank Reconciliation Reports | Microsoft Docs
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can print the following bank reconciliation reports:
+    description: In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can print the following bank reconciliation reports:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # How to: Print Bank Reconciliation Reports
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can print the following bank reconciliation reports:  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can print the following bank reconciliation reports:  
   
 -   **Bank Rec. Test Report** - Displays the list of errors that are found in the bank reconciliation statement. You can generate this report before you post the bank reconciliation statement to make sure that there are no errors in the statement.  
   

@@ -1,6 +1,6 @@
 ---
     title: How to Set Up Document Printing | Microsoft Docs
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can print the sales reports that use the required giro specifications by using different paper types and paper trays.
+    description: In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can print the sales reports that use the required giro specifications by using different paper types and paper trays.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # How to: Set Up Document Printing
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can print the sales reports that use the required giro specifications by using different paper types and paper trays.  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can print the sales reports that use the required giro specifications by using different paper types and paper trays.  
   
  When you use tray numbers and paper sources for Norwegian sales documents, you must consider how the printer and printer driver interpret this information. You may have to specify other tray numbers for your specific printer.  
   
@@ -33,11 +33,11 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can print the sales re
   
 -   Reminders  
   
- The Norwegian version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)] contains the following sets of sales documents.  
+ The Norwegian version of [!INCLUDE[d365fin](includes/d365fin_md.md)] contains the following sets of sales documents.  
   
 |**Set**|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
 |-------------|---------------------------------------|  
-|1|The standard [!INCLUDE[d365fin](../../includes/d365fin_md.md)] documents. No giro information is printed.|  
+|1|The standard [!INCLUDE[d365fin](includes/d365fin_md.md)] documents. No giro information is printed.|  
 |2|The giro is printed on every page. The last page prints the giro total.|  
   
 ### To set up paper trays  

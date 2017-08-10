@@ -28,7 +28,7 @@ Instead of using a general journal to post an import VAT invoice, you can use a 
   
 4.  Select the import VAT general ledger account, and then on the **Home** tab, in the **Manage** group, choose **Edit**.  
   
-5.  On the **Posting** FastTab, select the **Gen. Prod. Posting Group** setup for import VAT. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] automatically fills in the **VAT Prod. Posting Group** field.  
+5.  On the **Posting** FastTab, select the **Gen. Prod. Posting Group** setup for import VAT. [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically fills in the **VAT Prod. Posting Group** field.  
   
 6.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Posting Setup**, and then choose the related link.  
   

@@ -1,6 +1,6 @@
 ---
     title: How to Set Up Electronic Payments for Bank Accounts | Microsoft Docs
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can send electronic payments to vendors and electronic refunds to customers using the electronic payments function.
+    description: In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can send electronic payments to vendors and electronic refunds to customers using the electronic payments function.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # How to: Set Up Electronic Payments for Bank Accounts
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can send electronic payments to vendors and electronic refunds to customers using the electronic payments function.  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can send electronic payments to vendors and electronic refunds to customers using the electronic payments function.  
   
  Electronic payments are exported in a standard United States or Canadian file format, and transmitted to the bank for processing. In the United States, this is done through the Automated Clearing House (ACH). In Canada, this is done through the Royal Bank.  
   

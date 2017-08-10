@@ -1,6 +1,6 @@
 ---
     title: How to File Service Contracts and Contract Quotes | Microsoft Docs
-    description: You can file service contracts and contract quotes at any time to record and archive a copy of the contract or contract quote. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] files service contracts automatically when you convert contract quotes to service contracts or cancel service contracts.
+    description: You can file service contracts and contract quotes at any time to record and archive a copy of the contract or contract quote. [!INCLUDE[d365fin](includes/d365fin_md.md)] files service contracts automatically when you convert contract quotes to service contracts or cancel service contracts.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # How to: File Service Contracts and Contract Quotes
-You can file service contracts and contract quotes at any time to record and archive a copy of the contract or contract quote. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] files service contracts automatically when you convert contract quotes to service contracts or cancel service contracts.  
+You can file service contracts and contract quotes at any time to record and archive a copy of the contract or contract quote. [!INCLUDE[d365fin](includes/d365fin_md.md)] files service contracts automatically when you convert contract quotes to service contracts or cancel service contracts.  
   
 ### To file a service contracts or contract quote  
   

@@ -1,6 +1,6 @@
 ---
     title: How to Create Budgets | Microsoft Docs
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the create budget function allows you to do the following:
+    description: In [!INCLUDE[d365fin](includes/d365fin_md.md)], the create budget function allows you to do the following:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # How to: Create Budgets
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the create budget function allows you to do the following:  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], the create budget function allows you to do the following:  
   
 -   Create budget amounts by period.  
   

@@ -1,6 +1,6 @@
 ---
     title: How to Print VAT Reports | Microsoft Docs
-    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] ../../includes VAT reports that you can use to submit information about VAT to the authorities. The following VAT reports are available for Germany:
+    description: [!INCLUDE[d365fin](includes/d365fin_md.md)] ../../includes VAT reports that you can use to submit information about VAT to the authorities. The following VAT reports are available for Germany:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # How to: Print VAT Reports
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] ../../includes VAT reports that you can use to submit information about VAT to the authorities. The following VAT reports are available for Germany:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] ../../includes VAT reports that you can use to submit information about VAT to the authorities. The following VAT reports are available for Germany:  
   
 -   **Sales VAT Adv. Not. Acc. Proof**  
   

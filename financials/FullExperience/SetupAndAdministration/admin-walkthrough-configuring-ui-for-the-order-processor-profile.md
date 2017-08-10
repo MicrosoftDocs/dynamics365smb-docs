@@ -26,13 +26,13 @@ Administrators configure the user interface by customizing the user interface fo
 >  The only situation where UI configuration does overwrite UI personalization is when a UI element is removed by configuration. For example, if the administrator removes a field that the user has renamed or moved, then the field is still removed from the user’s user interface.  
 
 ## About This Walkthrough  
- This walkthrough provides examples of how to configure the Order Processor profile in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. The walkthrough illustrates the following tasks:  
+ This walkthrough provides examples of how to configure the Order Processor profile in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The walkthrough illustrates the following tasks:  
 
 -   Making sure order processors only see UI elements that they have permissions for  
 
 -   Checking the user interface of a test user who has the Order Processor profile  
 
--   Opening [!INCLUDE[d365fin](../../includes/d365fin_md.md)] in configuration mode  
+-   Opening [!INCLUDE[d365fin](includes/d365fin_md.md)] in configuration mode  
 
 -   Customizing the Sales Orders ribbon for the Order Processor profile  
 
@@ -148,7 +148,7 @@ Administrators configure the user interface by customizing the user interface fo
  The UI customization that you made in a previous procedure to show the **Manage Notes** action in the **Sale Orders** window when it is accessed from the **Sales Orders – Open** tile on the Role Center is now canceled.  
 
 ## Reusing UI Customization for the Order Processor Profile in Other Databases  
- You can export a profile, for example to reuse the UI configuration by importing the profile into another [!INCLUDE[d365fin](../../includes/d365fin_md.md)] database.  
+ You can export a profile, for example to reuse the UI configuration by importing the profile into another [!INCLUDE[d365fin](includes/d365fin_md.md)] database.  
 
 > [!NOTE]  
 >  ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/nav_windows_md.md)]--> must be in configuration mode, otherwise the exported XML file will be empty.  

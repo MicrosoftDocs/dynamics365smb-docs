@@ -1,6 +1,6 @@
 ---
     title: How to Review Errors for Background Posting | Microsoft Docs
-    description: Errors for background posting are easy to determine. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] provides several options for you to access this information.
+    description: Errors for background posting are easy to determine. [!INCLUDE[d365fin](includes/d365fin_md.md)] provides several options for you to access this information.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # How to: Review Errors for Background Posting
-Errors for background posting are easy to determine. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] provides several options for you to access this information.  
+Errors for background posting are easy to determine. [!INCLUDE[d365fin](includes/d365fin_md.md)] provides several options for you to access this information.  
   
 ### To view an error from a sales or purchase document  
   

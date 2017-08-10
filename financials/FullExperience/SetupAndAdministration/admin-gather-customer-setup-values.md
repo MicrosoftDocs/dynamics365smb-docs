@@ -1,6 +1,6 @@
 ---
     title: Gather Customer Setup Values | Microsoft Docs
-    description: You use the setup questionnaire to help reduce your implementation workload by streamlining the task of setting up the new company. You can generate the setup questionnaire in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] and then provide it to your customer as an Excel (.xls) or XML file.
+    description: You use the setup questionnaire to help reduce your implementation workload by streamlining the task of setting up the new company. You can generate the setup questionnaire in [!INCLUDE[d365fin](includes/d365fin_md.md)] and then provide it to your customer as an Excel (.xls) or XML file.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,14 +16,14 @@
 
 ---
 # Gather Customer Setup Values
-You use the setup questionnaire to help reduce your implementation workload by streamlining the task of setting up the new company. You can generate the setup questionnaire in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] and then provide it to your customer as an Excel (.xls) or XML file.  
+You use the setup questionnaire to help reduce your implementation workload by streamlining the task of setting up the new company. You can generate the setup questionnaire in [!INCLUDE[d365fin](includes/d365fin_md.md)] and then provide it to your customer as an Excel (.xls) or XML file.  
   
  You can change all default values in a questionnaire to more closely match customer needs.  
   
 > [!TIP]  
 >  For more information about defining setup values in supply planning fields, see [Setup Best Practices: Supply Planning](../setup-best-practices-supply-planning.md).  
   
- When your customer completes the questionnaire, you import the file into the customer's new [!INCLUDE[d365fin](../../includes/d365fin_md.md)] company, which you have created based on industry-specific data templates that match the questionnaire. You and your customer validate the questionnaire answers before you apply them to the database, and then work directly in the database to set up the company.  
+ When your customer completes the questionnaire, you import the file into the customer's new [!INCLUDE[d365fin](includes/d365fin_md.md)] company, which you have created based on industry-specific data templates that match the questionnaire. You and your customer validate the questionnaire answers before you apply them to the database, and then work directly in the database to set up the company.  
   
  The following table describes the sequence of tasks with links to topics that describe them. These tasks are listed in the order in which you generally perform them.  
   

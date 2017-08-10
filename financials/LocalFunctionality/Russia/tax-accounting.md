@@ -1,6 +1,6 @@
 ---
     title: Tax Accounting | Microsoft Docs
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can set up and maintain tax registers to track taxable profits and losses. This is based on the following tax accounting principles:
+    description: In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can set up and maintain tax registers to track taxable profits and losses. This is based on the following tax accounting principles:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # Tax Accounting
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can set up and maintain tax registers to track taxable profits and losses. This is based on the following tax accounting principles:  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can set up and maintain tax registers to track taxable profits and losses. This is based on the following tax accounting principles:  
   
 -   The financial database is used for tax accounting.  
   
@@ -28,7 +28,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can set up and maintai
   
 -   Tax registers are grouped and totaled monthly. Each register has 12 values for a 12 month tax period.  
   
- Because [!INCLUDE[d365fin](../../includes/d365fin_md.md)] keeps the history of all transactions, detailed information from a transaction that changes taxable profits is automatically tracked. The information collected in tax registers meets the principles of tax reliability and tax validity.  
+ Because [!INCLUDE[d365fin](includes/d365fin_md.md)] keeps the history of all transactions, detailed information from a transaction that changes taxable profits is automatically tracked. The information collected in tax registers meets the principles of tax reliability and tax validity.  
   
 ## Tax Registers  
  There are two types of tax registers that are used for tracking taxable profits and losses.  

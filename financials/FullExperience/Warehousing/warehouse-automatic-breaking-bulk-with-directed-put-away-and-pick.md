@@ -1,6 +1,6 @@
 ---
     title: Automatic Breaking Bulk with Directed Put-away and Pick | Microsoft Docs
-    description: For locations that use directed put-away and pick, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] breakbulks as follows:
+    description: For locations that use directed put-away and pick, [!INCLUDE[d365fin](includes/d365fin_md.md)] breakbulks as follows:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # Automatic Breaking Bulk with Directed Put-away and Pick
-For locations that use directed put-away and pick, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] breakbulks as follows:  
+For locations that use directed put-away and pick, [!INCLUDE[d365fin](includes/d365fin_md.md)] breakbulks as follows:  
   
 ## Breakbulking in Picks  
  If you want to store items in several different units of measure and allow them to be automatically combined as needed in the picking process, select the **Allow Breakbulk** field on the location card.  

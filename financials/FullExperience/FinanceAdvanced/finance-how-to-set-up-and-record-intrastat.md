@@ -32,13 +32,13 @@ All companies in the European Union must report their trade with other EU countr
   
 6.  In the **Transport Methods** window, enter the seven pre-defined Intrastat transport methods and codes.  
   
-     You must fill in the above tables and assign **Transaction Types** and **Transport Method** values on the **Foreign Trade** FastTab of each sales and purchase document before you post any sales or purchases in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+     You must fill in the above tables and assign **Transaction Types** and **Transport Method** values on the **Foreign Trade** FastTab of each sales and purchase document before you post any sales or purchases in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
   
 7.  In the **Item Card** window, on the **Foreign Trade** FastTab, enter the appropriate Tariff number for this item in the **Tariff No.** field.  
   
  Repeat the steps for all items. Tariff numbers must be assigned to each item.  
   
- In order for item entries to contain the necessary information when [!INCLUDE[d365fin](../../includes/d365fin_md.md)] imports them to the Intrastat journal line, you must have entered the necessary information.  
+ In order for item entries to contain the necessary information when [!INCLUDE[d365fin](includes/d365fin_md.md)] imports them to the Intrastat journal line, you must have entered the necessary information.  
   
 ##### Additional setup  
   

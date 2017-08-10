@@ -1,6 +1,6 @@
 ---
     title: Canada Local Functionality | Microsoft Docs
-    description: The following topics describe the local functionality in the Canadian version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
+    description: The following topics describe the local functionality in the Canadian version of [!INCLUDE[d365fin](includes/d365fin_md.md)].
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # Canada Local Functionality
-The following topics describe the local functionality in the Canadian version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+The following topics describe the local functionality in the Canadian version of [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## In This Section  
  [What's New 7](what-s-new-7.md)  

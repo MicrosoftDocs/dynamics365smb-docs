@@ -1,6 +1,6 @@
 ---
     title: Payables and Receivables | Microsoft Docs
-    description: In Russia, there are specific [!INCLUDE[d365fin](../../includes/d365fin_md.md)] features that you can use to track and manage your accounts payable and accounts receivable.
+    description: In Russia, there are specific [!INCLUDE[d365fin](includes/d365fin_md.md)] features that you can use to track and manage your accounts payable and accounts receivable.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # Payables and Receivables
-In Russia, there are specific [!INCLUDE[d365fin](../../includes/d365fin_md.md)] features that you can use to track and manage your accounts payable and accounts receivable.  
+In Russia, there are specific [!INCLUDE[d365fin](includes/d365fin_md.md)] features that you can use to track and manage your accounts payable and accounts receivable.  
   
 ## Getting Started with Payables and Receivables  
  Use the following table to learn more about the payables and receivables features that are available for Russia.  

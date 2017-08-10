@@ -1,6 +1,6 @@
 ---
     title: How to Define an Account Schedule Constant | Microsoft Docs
-    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] enables you to define a constant for an account schedule line. Constants are useful if an account schedule value does not change.
+    description: [!INCLUDE[d365fin](includes/d365fin_md.md)] enables you to define a constant for an account schedule line. Constants are useful if an account schedule value does not change.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # How to: Define an Account Schedule Constant
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] enables you to define a constant for an account schedule line. Constants are useful if an account schedule value does not change.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] enables you to define a constant for an account schedule line. Constants are useful if an account schedule value does not change.  
   
 ### To define an account schedule constant  
   

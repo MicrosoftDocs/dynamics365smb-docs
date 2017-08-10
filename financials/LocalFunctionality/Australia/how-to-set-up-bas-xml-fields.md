@@ -1,6 +1,6 @@
 ---
     title: How to Set Up BAS XML Fields | Microsoft Docs
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you must define setup names for XML fields in the Business Activity Statement (BAS). You can group the required BAS XML field IDs under one setup name.
+    description: In [!INCLUDE[d365fin](includes/d365fin_md.md)], you must define setup names for XML fields in the Business Activity Statement (BAS). You can group the required BAS XML field IDs under one setup name.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # How to: Set Up BAS XML Fields
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you must define setup names for XML fields in the Business Activity Statement (BAS). You can group the required BAS XML field IDs under one setup name.  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], you must define setup names for XML fields in the Business Activity Statement (BAS). You can group the required BAS XML field IDs under one setup name.  
   
 ### To set up BAS XML fields  
   
@@ -29,7 +29,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you must define setup name
     |**Fuel_Excise_Credit**|73|  
     |**Fuel_Excise_Debit**|72|  
   
-     [!INCLUDE[d365fin](../../includes/d365fin_md.md)] automatically fills in the **Field Label No.** and **Field Description** fields by using the Business Activity Statement (BAS) labels.  
+     [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically fills in the **Field Label No.** and **Field Description** fields by using the Business Activity Statement (BAS) labels.  
   
 ## See Also  
  [BAS Fuel Tax Credits](bas-fuel-tax-credits.md)   

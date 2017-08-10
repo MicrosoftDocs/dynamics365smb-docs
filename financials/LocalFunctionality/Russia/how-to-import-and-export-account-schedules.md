@@ -1,6 +1,6 @@
 ---
     title: How to Import and Export Account Schedules | Microsoft Docs
-    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] enables you to import and export account schedules into other companies and databases.
+    description: [!INCLUDE[d365fin](includes/d365fin_md.md)] enables you to import and export account schedules into other companies and databases.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # How to: Import and Export Account Schedules
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] enables you to import and export account schedules into other companies and databases.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] enables you to import and export account schedules into other companies and databases.  
   
 ### To import and export account schedules  
   

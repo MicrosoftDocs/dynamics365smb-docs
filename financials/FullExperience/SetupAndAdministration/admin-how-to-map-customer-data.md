@@ -1,6 +1,6 @@
 ---
     title: How to Map Customer Data | Microsoft Docs
-    description: You can map values from an existing ERP system into your [!INCLUDE[d365fin](../../includes/d365fin_md.md)] already has.
+    description: You can map values from an existing ERP system into your [!INCLUDE[d365fin](includes/d365fin_md.md)] already has.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,21 +16,21 @@
 
 ---
 # How to: Map Customer Data
-You can map values from an existing ERP system into your [!INCLUDE[d365fin](../../includes/d365fin_md.md)] already has.  
+You can map values from an existing ERP system into your [!INCLUDE[d365fin](includes/d365fin_md.md)] already has.  
   
  In the procedures that follow, you should review in advance which values you want to retain during the migration process. To perform the following procedures, you will need data migration files (.xls) that you have exported from ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-export-migration-tables.md).  
   
-### To add additional values to [!INCLUDE[d365fin](../../includes/d365fin_md.md)]  
+### To add additional values to [!INCLUDE[d365fin](includes/d365fin_md.md)]  
   
 1.  Open the configuration package for the company.  
   
 2.  Select the table for which you want to add additional values, and on the **Tables** FastTab, choose **Table**, and then choose **Fields**.  
   
-3.  For the fields for which you want [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to permit additional values during migration, select the **Create Missing Codes** check box.  
+3.  For the fields for which you want [!INCLUDE[d365fin](includes/d365fin_md.md)] to permit additional values during migration, select the **Create Missing Codes** check box.  
   
 4.  Import the customer data. For more information, see [How to: Import Customer Data](../how-to-import-customer-data.md).  
   
-### To map values to be used during import to [!INCLUDE[d365fin](../../includes/d365fin_md.md)]  
+### To map values to be used during import to [!INCLUDE[d365fin](includes/d365fin_md.md)]  
   
 1.  Open the configuration package for the company.  
   

@@ -1,6 +1,6 @@
 ---
     title: Assign Service Work Hours and Levels | Microsoft Docs
-    description: Typically, a service management system tracks resource hours and service order status in order to forecast workloads and service needs. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] has built-in tools that you can customize to record this kind of information.
+    description: Typically, a service management system tracks resource hours and service order status in order to forecast workloads and service needs. [!INCLUDE[d365fin](includes/d365fin_md.md)] has built-in tools that you can customize to record this kind of information.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # Assign Service Work Hours and Levels
-Typically, a service management system tracks resource hours and service order status in order to forecast workloads and service needs. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] has built-in tools that you can customize to record this kind of information.  
+Typically, a service management system tracks resource hours and service order status in order to forecast workloads and service needs. [!INCLUDE[d365fin](includes/d365fin_md.md)] has built-in tools that you can customize to record this kind of information.  
   
  After you set the default service hours of your company, you can calculate response times for service orders or send warnings or alerts when service calls come in. The alert feature is implemented together with the job scheduler.  
   

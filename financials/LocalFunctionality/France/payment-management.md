@@ -1,6 +1,6 @@
 ---
     title: Payment Management | Microsoft Docs
-    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] allows you to manage bills of exchange, electronic payments, and vendor payments using the payment management function.
+    description: [!INCLUDE[d365fin](includes/d365fin_md.md)] allows you to manage bills of exchange, electronic payments, and vendor payments using the payment management function.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # Payment Management
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] allows you to manage bills of exchange, electronic payments, and vendor payments using the payment management function.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] allows you to manage bills of exchange, electronic payments, and vendor payments using the payment management function.  
   
  You can manage customer and vendor payments using payment slips. Before you create a payment slip, you must set up the following prerequisites:  
   

@@ -18,9 +18,9 @@
 # How to: Enter Dimensions for Physical Inventory Orders
 After you have created a physical inventory order, you can enter dimensions for this order.  
 
- The application distinguishes between the dimensions for the physical inventory order header and the dimensions for the physical inventory order lines. The dimensions of the physical inventory header are a pattern for the dimensions of the physical inventory order lines. Every time you create a new physical inventory order line manually or automatically, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] will transfer the dimensions from the header to the new line.  
+ The application distinguishes between the dimensions for the physical inventory order header and the dimensions for the physical inventory order lines. The dimensions of the physical inventory header are a pattern for the dimensions of the physical inventory order lines. Every time you create a new physical inventory order line manually or automatically, [!INCLUDE[d365fin](includes/d365fin_md.md)] will transfer the dimensions from the header to the new line.  
 
- That is why you should create the physical inventory order lines first after complete entering the dimensions for the physical inventory order header. You can manually change the dimensions for every physical inventory order line. For posting, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] will use the dimensions of the physical inventory order line.  
+ That is why you should create the physical inventory order lines first after complete entering the dimensions for the physical inventory order header. You can manually change the dimensions for every physical inventory order line. For posting, [!INCLUDE[d365fin](includes/d365fin_md.md)] will use the dimensions of the physical inventory order line.  
 
 ### To enter dimensions for a physical inventory order  
 

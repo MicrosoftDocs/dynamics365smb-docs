@@ -1,6 +1,6 @@
 ---
     title: How to View and Print Account Turnover Information | Microsoft Docs
-    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] enables you to view account turnover information in correspondence with other accounts.
+    description: [!INCLUDE[d365fin](includes/d365fin_md.md)] enables you to view account turnover information in correspondence with other accounts.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # How to: View and Print Account Turnover Information
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] enables you to view account turnover information in correspondence with other accounts.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] enables you to view account turnover information in correspondence with other accounts.  
   
 ### To view account turnover information  
   

@@ -1,6 +1,6 @@
 ---
     title: Budgets | Microsoft Docs
-    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] provides budget functions so that you can plan and work with budgets.
+    description: [!INCLUDE[d365fin](includes/d365fin_md.md)] provides budget functions so that you can plan and work with budgets.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # Budgets
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] provides budget functions so that you can plan and work with budgets.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] provides budget functions so that you can plan and work with budgets.  
   
 ## Budget Functions  
  You use budget functions to:  

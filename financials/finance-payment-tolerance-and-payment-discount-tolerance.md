@@ -16,7 +16,7 @@
 
 ---
 # How to: Work with Payment Tolerances and Payment Discount Tolerances
-You can set up payment tolerance to close an invoice when the payment does not fully cover the amount on the invoice. You can set up a payment discount tolerance to grant a payment discount after the payment discount date has passed.  
+You can set up a payment tolerance to close an invoice when the payment does not fully cover the amount on the invoice. You can set up a payment discount tolerance to grant a payment discount after the payment discount date has passed.  
 
 You can use payment tolerances so that every outstanding amount has a set maximum allowed payment tolerance. If the payment tolerance is met, then the payment amount is analyzed. If the payment amount is an underpayment, then the outstanding amount is fully closed by the underpayment. A detailed ledger entry is posted to the payment entry so that no remaining amount is left on the applied invoice entry. If the payment amount is an overpayment, then a new detailed ledger entry is posted to the payment entry so that no remaining amount is left on the payment entry.
 
@@ -43,22 +43,22 @@ To set up tolerance you have to set up various tolerance accounts, specify both 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Posting Setup**, and then choose the related link.  
 2. In the **General Posting Setup** window, set up a debit and a credit sales payment tolerance account and a debit and a credit purchase payment tolerance account.  
 3. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customer Posting Groups**, and then choose the related link.    
-4. In the **Customer Posting Groups** window, set up a debit and a credit payment tolerance account. For more information, see ### [Setting Up Posting Groups](finance-posting-groups.md).  
+4. In the **Customer Posting Groups** window, set up a debit and a credit payment tolerance account. For more information, see [Setting Up Posting Groups](finance-posting-groups.md).  
 5. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendor Posting Setup**, and then choose the related link.  
 6. In the **Vendor Posting Groups** window, set up a debit and a credit payment tolerance account.  
 7. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Setup**, and then choose the related link.  
 8. Open the **General Ledger Setup** window.  
 9. On the **Application** FastTab, fill in the **Pmt. Disc. Tolerance Posting**, **Payment Discount Grace Period** and **Payment Tolerance Posting** fields.   
 10. Choose the **Change Payment Tolerance** action.
-11. To run the **Change Payment Tolerance** batch job, fill in the **Payment Tolerance %** and **Max Payment Tolerance Amount** fields, and then choose the **OK** button.
+11. In the **Change Payment Tolerance** window, fill in the **Payment Tolerance %** and **Max Payment Tolerance Amount** fields, and then choose the **OK** button.
 
 > [!IMPORTANT]  
 >  You have now set up tolerance for local currency only. If you want [!INCLUDE[d365fin](includes/d365fin_md.md)] to handle tolerance on payments, credit memos, and refunds in a foreign currency, you must run the **Change Payment Tolerance** batch job with a value in the **Currency Code** field.  
 
 > [!NOTE]  
->  To deactivate tolerance for a customer or vendor, you must block tolerances on the relevant customer or vendor card. For more information, see the "To block payment tolerance for customers" section.  
->   
 >  If you want to get a payment tolerance warning every time that you post an application in the tolerance, you must activate the payment tolerance warning. For more information, see the "To enable or disable payment tolerance warning" section.  
+>   
+>  To deactivate tolerance for a customer or vendor, you must block tolerances on the relevant customer or vendor card. For more information, see the "To block payment tolerance for customers" section.  
 >   
 >  When you set up tolerance, [!INCLUDE[d365fin](includes/d365fin_md.md)] also checks if there are any open entries and calculates the tolerance for these entries.
 
@@ -66,9 +66,6 @@ To set up tolerance you have to set up various tolerance accounts, specify both 
 The payment tolerance warning appears when you post an application that has a balance in the allowed tolerance. You can then choose how you want to post and document the balance.    
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Setup**, and then choose the related link.  
 2. In the **General Ledger Setup** window, on the **Application** FastTab, select the **Payment Tolerance Warning** check box to activate the warning. To deactivate the warning, clear the check box.  
-
-> [!IMPORTANT]  
->  The warning is not applicable when you select **Apply to Oldest**.  
 
 > [!NOTE]  
 >  The default option for the **Payment Tolerance Warning** window is **Leave the Balance as Remaining Amount**. The default option for the **Pmt. Disc. Tolerance Warning** window the is **Do Not Accept the Late Payment Discount**.
@@ -80,7 +77,7 @@ The default setting for payment tolerance is allowed. To disallow a certain cust
 2. On the **Payments** FastTab, select the **Block Payment Tolerance** check box.  
 
 > [!NOTE]  
->  If the customer or vendor has open entries, you must remove payment tolerance from entries that are currently open.
+>  If the customer or vendor has open entries, you must first remove payment tolerance from entries that are currently open.
 
 ## Example 1 - Tolerance Calculations for a Single Document
 The following are some example scenarios showing the expected tolerance calculations and postings occurring in different situations.  
@@ -89,10 +86,10 @@ The **G/L Setup** window contains the following setup:
 - Payment Discount Grace Period: 5D  
 - Max Payment Tolerance: 5  
 
-For scenarios with alternative A or B, these represent the following:  
+Scenarios with alternative A or B represent the following:  
 
-- A In this case, the payment discount tolerance warning has been turned off OR the user has the warning on and has selected to allow the late payment discount (Post the Balance as Payment Tolerance).  
-- B In this case, the user has the warning on and has selected not to allow the late payment discount (Leave the Balance as Remaining Amount).  
+- **A** In this case, the payment discount tolerance warning has been turned off OR the user has the warning on and has selected to allow the late payment discount (Post the Balance as Payment Tolerance).  
+- **B** In this case, the user has the warning on and has selected not to allow the late payment discount (Leave the Balance as Remaining Amount).  
 
 |—|Inv.|Pmt. Disc.|Max<br /><br /> Pmt. Tol.|Pmt. Disc. Date|Pmt. Disc. Tol. Date|Payment Date|Pmt.|Tolerance Type|All Entries closed|Pmt. Disc. Tol. <br /> GL/CL|Pmt.<br /><br /> Tol.<br /><br /> G/L|  
 |-------|----------|----------------|-----------------------|---------------------|--------------------------|------------------|----------|--------------------|------------------------|------------------------------|----------------------------|  
@@ -158,12 +155,12 @@ The **G/L Setup** window contains the following setup:
 - Payment Discount Grace Period 5D  
 - Max Payment Tolerance 5  
 
-For those scenarios with alternative A or B, these represent the following:  
+Scenarios with alternative A, B, C, or D represent the following:  
 
-- A In this case the payment discount tolerance warning has been turned off, OR the user has the warning on and has selected to allow the late payment discount (Post as Tolerance) in any invoice.  
-- B In this case, the user has the warning on and has selected not to allow the late payment discount on any invoice.  
-- C - In this case, the user has the warning on and has selected to allow the late payment discount on the first invoice but not the second.  
-- D - In this case, the user has the warning on and has selected not to allow the late payment discount on the first invoice but allowed it on the second.  
+- **A** In this case the payment discount tolerance warning has been turned off, OR the user has the warning on and has selected to allow the late payment discount (Post as Tolerance) in any invoice.  
+- **B** In this case, the user has the warning on and has selected not to allow the late payment discount on any invoice.  
+- **C** - In this case, the user has the warning on and has selected to allow the late payment discount on the first invoice but not the second.  
+- **D** - In this case, the user has the warning on and has selected not to allow the late payment discount on the first invoice but allowed it on the second.  
 
 |—|Inv.|Pmt Disc.|Max Pmt. Tol.|Pmt. Disc. Date|Pmt. Disc. Tol. Date|Payment Date|Pmt|Tolerance Type|All Entries closed|Pmt. Disc. Tol. <br /> GL/CL|Pmt. Tol.<br /><br /> G/L|  
 |-------|----------|---------------|-------------------|---------------------|--------------------------|------------------|---------|--------------------|------------------------|------------------------------|------------------------|  

@@ -81,6 +81,7 @@
 ### [How to: How to: Apply Customer Payments Manually](receivables-how-apply-sales-transactions-manually.md)  
 ### [How to: Collect Outstanding Balances](receivables-collect-outstanding-balances.md)
 ### [How to: Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)
+### [How to: Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 ## [Managing Payables](payables-manage-payables.md)
 ### [Making Payments](payables-make-payments.md)
 ### [Apply Payments Automatically and Reconcile Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)

@@ -104,7 +104,7 @@
 ### [Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)
 ### [Defining and Allocating Costs](finance-define-and-allocate-costs.md)
 ### [Creating Cost Budgets](finance-create-cost-budgets.md)
-## [Managing Inventory Costs](finance-manage-inventory-costs)
+## [Managing Inventory Costs](finance-manage-inventory-costs.md)
 ### [About Inventory Costing](finance-learn-about-costing.md)
 ### [Setting Up Inventory Valuation and Costing](finance-set-up-inventory-valuation-and-costing.md)
 ### [How to: Revalue Inventory](inventory-how-revalue-inventory.md)

@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 08/08/2017
+ms.date: 08/10/2017
 ms.author: sgroespe
 
 ---
@@ -35,10 +35,11 @@ The following table describes a sequence of tasks, with links to the topics that
 | Create a purchase invoice for all or selected lines on a sales invoice. |[How to: Purchase Items for a Sale](purchasing-how-purchase-products-sale.md) |
 | Perform an action on an unpaid posted purchase invoice to automatically create a credit memo and either cancel the purchase invoice or recreate it so you can make corrections. |[How to: Correct or Cancel Unpaid Sales Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md) |
 | Create a purchase credit memo to revert a specific posted purchase invoice to reflect which products you are returning to the vendor and which payment amount you will collect. |[How to: Process Purchase Returns or Cancellations](purchasing-how-register-new-vendors.md) |
-| Create a vendor card for each vendor that you purchase from. |[How to: Register New Vendors](purchasing-how-register-new-vendors.md) |
+| Learn how [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates when you must order an item to receive it on a certain date.|[Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)|
 
 ## See Also
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  
+[How to: Register New Vendors](purchasing-how-register-new-vendors.md)  
 [Managing Payables](payables-manage-payables.md)  
 [Managing Projects](projects-manage-projects.md)    
 [Supply Chain](madeira-supply-chain.md)      

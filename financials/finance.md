@@ -41,7 +41,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Post employees' personal expenses for business-related activities and reimburse employees by making payment to their bank account.|[How to: Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)|
 | Recognize revenues and expenses in other periods than when the transactions were posted. |[How to: Defer Revenues and Expenses](finance-how-defer-revenue-expenses.md)|
 |Learn how to use additional currencies and update currency exchange rates automatically. |[How to: Update Currency Exchange Rates](finance-how-update-currencies.md)|
-| Import salary transactions from your payroll provider into the general ledger. |[How to: Import Payroll Transactions](finance-how-import-payroll-transactions.md) |
+| Import salary transactions from your payroll provider into the general ledger. |[How to: Import Payroll Transactions](finance-how-import-payroll-transactions.md)|
 | Monitor the flow of cash in and out of your business. |[Analyzing Cash Flows in Your Company](finance-analyze-cash-flow.md) |
 | Work with financial statements and overviews in Excel. |[Analyzing Financial Statements in Excel](finance-analyze-excel.md) |
 | Prepare to close a fiscal year or period. |[Closing Years and Periods](year-close-years-periods.md) |

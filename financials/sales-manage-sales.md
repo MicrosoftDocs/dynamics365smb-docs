@@ -46,10 +46,12 @@ The following table describes a sequence of tasks, with links to the topics that
 | Perform an action on an unpaid posted sales invoice to automatically create a credit memo and either cancel the sales invoice or recreate it so you can make corrections. |[How to: Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md) |
 | Create a sales credit memo to revert a specific posted sales invoice to reflect which products the customer returns and which payment amount you will refund. |[How to: Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md) |
 |Manage your customer's commitment to purchase large quantities delivered in several shipments over time.|[How to: Work with Blanket Sales Orders](sales-how-to-create-blanket-sales-orders.md)|
-| Create a customer card for each customer that you sell to. |[How to: Register New Customers](sales-how-register-new-customers.md) |
+|Inform your customers of order delivery dates by calculating either the capable-to-promise date or the available-to-promise date.|[How to: Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)| 
+| Learn how [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates when you must ship an item for the customer to receive it on a certain date.|[Date Calculation for Sales](sales-date-calculation-for-sales.md)|
 
 ## See Also
 [Setting Up Sales](sales-setup-sales.md)  
+[How to: Register New Customers](sales-how-register-new-customers.md)  
 [Managing Receivables](receivables-manage-receivables.md)  
 [Managing Payables](payables-manage-payables.MD)  
 [Project Management](projects-manage-projects.md)    

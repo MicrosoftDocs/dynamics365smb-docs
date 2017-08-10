@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 06/21/2017
+ms.date: 08/10/2017
 ms.author: sgroespe
 
 ---
@@ -25,6 +25,8 @@ An item can be structured as a parent item with underlying child items in a bill
 
 > [!NOTE]  
 >   If item templates exist for different item types, then a window appears when you create a new item card from where you can select an appropriate template. If only one item template exists, then new item cards always use that template.
+
+If you purchase the same item from more than one vendor, you can connect those vendors to the item card. The vendors will then appear in the **Item Vendor Catalog** window, so that you can easily select an alternate vendor.
 
 ## To create a new item card
 1. On the Home page, choose the **Items** action to open the list of existing items.  
@@ -54,6 +56,18 @@ If you want to use this item card as a template when you create new item cards, 
 5. When you have completed the new item template, choose the **OK** button.
 
 The item template is added to the list of item templates, so that you can use it to create new item cards.
+
+## To set up multiple vendors for an item  
+If you purchase the same item from more than one vendor, you must enter information about each vendor of the item, such as prices, lead time, discounts, and so on.  
+
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
+2.  Select the relevant item, and then choose the **Edit** action.  
+3.  Choose the **Vendors** action.  
+4.  Choose the **Vendor No.** field, and then select the vendor that you want to set up for the item.  
+5.  Optionally, fill in the remaining fields.  
+6.  Repeat steps 2 through 5 for each vendor that you want to buy the item from.
+
+The vendors will now appear in the **Item Vendor Catalog** window, which you open from the item card, so that you can easily select an alternate vendor.
 
 ## See Also
   [Inventory](inventory-manage-inventory.md)  

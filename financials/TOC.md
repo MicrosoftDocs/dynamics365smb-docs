@@ -45,6 +45,7 @@
 ### [How to: Set Up Salespeople](sales-how-setup-salespeople.md)
 ### [How to: Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md)
 ### [How to: Send Documents by Email](ui-how-send-documents-email.md)
+### [How to: Verify VAT Registration Numbers](sales-how-to-verify-vat-registration-numbers.md)
 ## [Setting Up Purchasing](purchasing-setup-purchasing.md)
 ### [How to: Register New Vendors](purchasing-how-register-new-vendors.md)
 ### [How to: Record Special Purchase Prices and Discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md)
@@ -153,6 +154,8 @@
 ## [How to: Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md)
 ## [How to: Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md)
 ## [How to: Work with Blanket Sales Orders](sales-how-to-create-blanket-sales-orders.md)
+## [How to: Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)
+## [Date Calculation for Sales](sales-date-calculation-for-sales.md)
 
 # [Purchasing](purchasing-manage-purchasing.md)
 ## [How to: Record Purchases](purchasing-how-record-purchases.md)
@@ -160,6 +163,7 @@
 ## [How to: Purchase Items for a Sale](purchasing-how-purchase-products-sale.md)
 ## [How to: Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)
 ## [How to: Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md)
+## [Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)
 
 # [Inventory](inventory-manage-inventory.md)
 ## [How to: Register New Items](inventory-how-register-new-items.md)

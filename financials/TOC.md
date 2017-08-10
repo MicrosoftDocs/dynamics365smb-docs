@@ -29,6 +29,7 @@
 ## [Setting Up Finance](finance-setup-finance.md)
 ### [Defining Payment Methods](finance-payment-methods.md)
 ### [Setting Up Posting Groups](finance-posting-groups.md)
+### [How to: Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 ### [How to: Open a New Fiscal Year](finance-how-open-new-fiscal-year.md)
 ### [Setting Up Value-Added Tax](finance-setup-vat.md)
 ### [How to: Update Currency Exchange Rates](finance-how-update-currencies.md)
@@ -155,7 +156,6 @@
 ## [How to: Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md)
 ## [How to: Work with Blanket Sales Orders](sales-how-to-create-blanket-sales-orders.md)
 ## [How to: Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)
-## [Date Calculation for Sales](sales-date-calculation-for-sales.md)
 
 # [Purchasing](purchasing-manage-purchasing.md)
 ## [How to: Record Purchases](purchasing-how-record-purchases.md)

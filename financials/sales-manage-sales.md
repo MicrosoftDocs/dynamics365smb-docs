@@ -18,21 +18,19 @@ ms.author: sgroespe
 # Sales
 You create a sales invoice or sales order to record your agreement with a customer to sell certain products on certain delivery and payment terms.
 
-You must use sales orders if your sales process requires that you can ship parts of an order quantity, for example, because the full quantity is not available at once. If you sell items by delivering directly from your vendor to your customer, as a drop shipment, then you must also use sales orders. In all other aspects, sales orders work the same way as sales invoices.
+You must use sales orders if your sales process requires that you can ship parts of an order quantity, for example, because the full quantity is not available at once. If you sell items by delivering directly from your vendor to your customer, as a drop shipment, then you must also use sales orders. In all other aspects, sales orders work the same way as sales invoices. With sales orders, you can also use the Order Promising functionality to communicate certain delivery dates to your customers.  
+
+You can negotiate with the customer by first creating a sales quote, which you can convert to a sales invoice or sales order when you agree on the sale. After the customer has confirmed the agreement, you can send an order confirmation to record your obligation to deliver the products as agreed.
+
+You can easily correct or cancel a posted sales invoice before it is paid. This is useful if you want to correct a typing mistake or if the customer requests a change early in the order process. If the posted sales invoice is paid, then you must create a sales credit memo or a sales return order to reverse the sale.
 
 Good sales and marketing practices are all about how to make the best decisions at the right time. Marketing functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)] provides precise and timely overview of your contact information so that you can serve your prospective customers more efficiently and increase customer satisfaction. For more information, see [Relationship Management](marketing-relationship-management.md).
 
-You can negotiate with the customer by first creating a sales quote, which you can convert to a sales invoice when you agree on the sale. After the customer has confirmed the agreement, for example after a quote process, you can send an order confirmation to record your obligation to deliver the products as agreed.
-
-When you deliver the products, either fully or partially, you post the sales invoice or sales order as shipped or as shipped and invoiced to create the related item and customer ledger entries in your system.
-
 In business environments where the customer must pay before products are delivered, such as in retail, you must wait for the receipt of payment before you deliver the products. In most cases, you process incoming payments some weeks after delivery by applying the payments to their related posted, unpaid sales invoices. For more information, see [How to: Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
-
-You can easily correct or cancel a posted sales invoice before it is paid. This is useful if you want to correct a typing mistake or if the customer requests a change early in the order process. If the posted sales invoice is paid, then you must create a sales credit memo to reverse the sale.
 
 Sales documents can be sent as PDF files attached to email. The email body will contain an extract of the sales document, such as products, total amount, and a link to the PayPal site. For more information, see [How to: Send Documents by Email](ui-how-send-documents-email.md).
 
-For all sales processes, you can incorporate an approval workflow, for example, to require that large sales to certain customers are approved by the accounting manager. For more information, see [Using Approval Workflows](across-how-use-approval-workflows.md).
+For all sales processes, you can incorporate an approval workflow, for example, to require that large sales to certain customers are approved by the accounting manager. For more information, see [Using Workflows](across-use-workflows.md).
 
 The following table describes a sequence of tasks, with links to the topics that describe them.
 
@@ -46,8 +44,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Perform an action on an unpaid posted sales invoice to automatically create a credit memo and either cancel the sales invoice or recreate it so you can make corrections. |[How to: Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md) |
 | Create a sales credit memo to revert a specific posted sales invoice to reflect which products the customer returns and which payment amount you will refund. |[How to: Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md) |
 |Manage your customer's commitment to purchase large quantities delivered in several shipments over time.|[How to: Work with Blanket Sales Orders](sales-how-to-create-blanket-sales-orders.md)|
-|Inform your customers of order delivery dates by calculating either the capable-to-promise date or the available-to-promise date.|[How to: Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)| 
-| Learn how [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates when you must ship an item for the customer to receive it on a certain date.|[Date Calculation for Sales](sales-date-calculation-for-sales.md)|
+|Inform your customers of order delivery dates by calculating either the capable-to-promise date or the available-to-promise date.|[How to: Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)|
 
 ## See Also
 [Setting Up Sales](sales-setup-sales.md)  

@@ -41,7 +41,7 @@ You can cancel UI customizations that you have made as configuration for a profi
 3.  In the **Profile Card** window, on the **Actions** tab, in the **Functions** group, choose **Clear Configured Pages**.  
   
 > [!NOTE]  
->  All UI customizations for the profile, both those installed with ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]--> and those made by the administrator, are canceled. No page layouts specific to the profile remain in the database.  
+>  All UI customizations for the profile, both those installed with [!INCLUDE[d365fin](includes/d365fin_md.md)] and those made by the administrator, are canceled. No page layouts specific to the profile remain in the database.  
   
 ### To cancel UI customization that you have made for specific page for a profile  
   
@@ -59,7 +59,7 @@ You can cancel UI customizations that you have made as configuration for a profi
   
 1.  You can undo changes for that you have made to individual UI areas, such as a ribbon, by using the **Restore Defaults** button in the **Customize** window. Alternatively, you can undo all UI changes that you have made for a profile by using the **Delete Profile Configuration** window.  
   
- The UI customization for the profile of the particular UI area on the particular page is canceled. The layout of the UI area on the page is reset to the default configuration, as made either by the administrator or as installed with ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]-->.  
+ The UI customization for the profile of the particular UI area on the particular page is canceled. The layout of the UI area on the page is reset to the default configuration, as made either by the administrator or as installed with [!INCLUDE[d365fin](includes/d365fin_md.md)].  
   
 ## See Also  
  [Configure the User Interface](../configure-the-user-interface.md)   

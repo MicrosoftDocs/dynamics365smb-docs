@@ -29,7 +29,7 @@ As basic types of UI personalization, you can change the size and position of an
   
 1.  On a page with a grid, open the shortcut menu for any column header, point to **Choose Header Height**, and then choose ether **1**, **2**, or **3**.  
   
-2.  Open the shortcut menu for the any column header again, and then choose **Apply to All Lists** to specify that the selection you made in step 1 applies to grids in all pages in your instance of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]-->.  
+2.  Open the shortcut menu for the any column header again, and then choose **Apply to All Lists** to specify that the selection you made in step 1 applies to grids in all pages in your instance of [!INCLUDE[d365fin](includes/d365fin_md.md)].  
   
 ### To change the sorting of data in columns  
   

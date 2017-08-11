@@ -19,7 +19,7 @@
 From the **Direct Debit Collections** window, you can export instructions to your electronic bank to perform a direct debit collection from the customer’s bank account to your bank account. For more information, see [Collect Payments with SEPA Direct Debit](../collect-payments-with-sepa-direct-debit.md).  
   
 > [!NOTE]  
->  The generic version of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]--> supports the SEPA Credit Transfer format. In your country/region, other formats for electronic payments may be available.  
+>  The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the SEPA Credit Transfer format. In your country/region, other formats for electronic payments may be available.  
 >   
 >  To enable export of a bank file formats that are not supported by the generic or local versions of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/how-to-set-up-data-exchange-definitions.md).  
   

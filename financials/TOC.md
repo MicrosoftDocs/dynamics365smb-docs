@@ -154,6 +154,7 @@
 ## [How to: Sell Products](sales-how-sell-products.md)
 ## [How to: Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)
 ## [How to: Make Drop Shipments](sales-how-drop-shipment.md)
+## [How to: Create Special Orders](sales-how-to-create-special-orders.md)|
 ## [How to: Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md)
 ## [How to: Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md)
 ## [How to: Work with Blanket Sales Orders](sales-how-to-create-blanket-sales-orders.md)

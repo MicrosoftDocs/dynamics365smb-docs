@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales tax, local
-ms.date: 06/02/2017
+ms.date: 08/11/2017
 ms.author: edupont
 
 ---
@@ -26,5 +26,5 @@ The tax information in purchase documents is used to generate a GST/HST online f
 ## See Also
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  
-[Sales Tax and Tax Groups in Canada](ca-sales tax.md)  
+[Reporting Sales Tax in Canada](ca-sales tax.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

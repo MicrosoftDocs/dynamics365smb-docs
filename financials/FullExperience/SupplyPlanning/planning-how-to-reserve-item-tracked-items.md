@@ -50,5 +50,5 @@ From outbound documents for item-tracked items, such as sales orders or producti
  [How to: Reserve Items for Sales Lines](../how-to-reserve-items-for-sales-lines.md)   
  [How to: Reserve Items for Production Components](../how-to-reserve-items-for-production-components.md)   
  [How to: Reserve Items for Production Order Lines](../how-to-reserve-items-for-production-order-lines.md)   
- [How to: Cancel Reservations](../how-to-cancel-reservations.md)   
+ [How to: Cancel Reservations](inventory-how-to-cancel-reservations.md)   
  [How to: Change Reservations](../how-to-change-reservations.md)

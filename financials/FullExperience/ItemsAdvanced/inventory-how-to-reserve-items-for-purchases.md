@@ -37,4 +37,4 @@ You can reserve items for purchase orders. Before you can do this, you must have
 ## See Also  
  Purchase Order   
  [How to: Change Reservations](../how-to-change-reservations.md)   
- [How to: Cancel Reservations](../how-to-cancel-reservations.md)
+ [How to: Cancel Reservations](inventory-how-to-cancel-reservations.md)

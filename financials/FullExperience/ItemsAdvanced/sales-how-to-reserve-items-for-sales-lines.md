@@ -39,5 +39,5 @@ You can reserve items for sales orders. You must have already set up a sales ord
   
 ## See Also  
  [How to: Change Reservations](../how-to-change-reservations.md)   
- [How to: Cancel Reservations](../how-to-cancel-reservations.md)   
+ [How to: Cancel Reservations](inventory-how-to-cancel-reservations.md)   
  [How to: Reserve Item-Tracked Items](../how-to-reserve-item-tracked-items.md)

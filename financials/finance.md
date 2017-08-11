@@ -45,11 +45,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Monitor the flow of cash in and out of your business. |[Analyzing Cash Flows in Your Company](finance-analyze-cash-flow.md) |
 | Work with financial statements and overviews in Excel. |[Analyzing Financial Statements in Excel](finance-analyze-excel.md) |
 | Prepare to close a fiscal year or period. |[Closing Years and Periods](year-close-years-periods.md) |
-|**US**: Meet the IRS requirement to submit various versions of the 1099 form for vendor payments.|[Reporting 1099 Transactions in the US](us-finance-tax-1099.md)|
-|**US and Canada**: Understand how to set up and use US and Canadian sales tax functionality.|[Reporting Sales Tax in the US and Canada](us-finance-sales-tax.md)|
-|**Canada**: Understand how to set up and use Canadian sales tax functionality for goods and services.|[Reporting Sales Tax and Goods/Services Tax in Canada](ca-finance-tax.md)|
-|**Canada**: Set up and use Canadian functionality for reporting General Index of Financial Information.| [How to: Work with GIFI Codes in Canada](ca-finance-work-gifi-codes.md)
-|**EU**: Prepare a report that lists VAT from sales, and submit the report to a tax authority. | [How to: Report VAT to Tax Authorities](finance-how-report-vat.md)|
+|Prepare a report that lists VAT from sales, and submit the report to tax authorities in the EU. | [How to: Report VAT to Tax Authorities](finance-how-report-vat.md)|
 
 ## See Also
 [Setting Up Finance](finance-setup-finance.md)  

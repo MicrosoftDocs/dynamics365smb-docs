@@ -26,7 +26,7 @@ As a performance measure, the program collects the availability information in t
 
 The availability of the item is automatically rechecked when you close the window to confirm that there are no availability problems.
 
-## Item Tracking availability
+## Item Tracking Availability
 When you work with serial and lot numbers, Microsoft Dynamics NAV calculates availability information for lot and serial numbers and shows it in the various item tracking windows. This lets you see how much of a lot or serial number is currently being used on other documents. This reduces errors and uncertainty caused by double allocations.
 
 In the **Item Tracking Lines** window, a warning icon is shown in the **Availability, Lot No.** or **Availability, Serial No.** field if some or all of the quantity you have selected is already being used in other documents or if the lot or serial number is not available.
@@ -250,4 +250,5 @@ Reclassifying item tracking for an item means changing a lot or serial number to
 [Inventory](inventory-manage-inventory.md)  
 [Design Details: Item Tracking](design-details-item-tracking.md)
 [Design Details - Item Tracking and Reservations](design-details-item-tracking-and-reservations.md)  
+[How to: Reserve Items](inventory-how-to-reserve-items.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

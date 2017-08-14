@@ -44,4 +44,4 @@ You can create sales and production forecasts with the **Production Forecast** w
   
 ## See Also  
  [Production Forecast](../($%20N_99000919%20Production%20Forecast%20$).md)   
- [About Forecasting Functionality](../about-forecasting-functionality.md)
+ [About Forecasting Functionality](../production-about-forecasting-functionality.md)

@@ -38,5 +38,5 @@ You can create production orders from sales orders in the Sales & Marketing depa
  [How to: Set Up Production Orders](../how-to-set-up-production-orders.md)   
  [How to: Plan Project Orders](../how-to-plan-project-orders.md)   
  [Processing Sales Orders](../processing-sales-orders.md)   
- [About Forecasting Functionality](../about-forecasting-functionality.md)   
+ [About Forecasting Functionality](../production-about-forecasting-functionality.md)   
  [About Production Orders](../about-production-orders.md)

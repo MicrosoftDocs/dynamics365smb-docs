@@ -25,7 +25,7 @@ Before a detailed executable plan ( [see MRP](../plan-for-resource-availability.
 |**To**|**See**|  
 |------------|-------------|  
 |Learn how the planning system can be used to detect and prioritize demand and suggest a consolidated balanced supply plan for MPS or MRP.|[About Planning Functionality](../about-planning-functionality.md)|  
-|Create and manage expected demand presented by sales forecasts.|[How to: Create a Forecast](../how-to-create-a-forecast.md)|  
+|Create and manage expected demand presented by sales forecasts.|[How to: Create a Forecast](../production-how-to-create-a-forecast.md)|  
 |Run the planning worksheet with the MPS option to automatically create a high-level supply plan based on actual demand and the production forecast.|[How to: Run MPS and MRP](../how-to-run-mps-and-mrp.md)|  
 |Use the **Order Planning** window to manually plan for sales or production demand one production BOM level at a time.|[How to: Plan for New Demand](../how-to-plan-for-new-demand.md)|  
 |Create one-to-one production orders automatically from a sales order to cover the exact demand of that sales order line.|[How to: Create Production Orders from Sales Orders](../how-to-create-production-orders-from-sales-orders.md)|  

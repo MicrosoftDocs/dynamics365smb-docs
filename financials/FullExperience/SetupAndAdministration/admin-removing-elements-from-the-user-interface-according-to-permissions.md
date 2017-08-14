@@ -1,6 +1,6 @@
 ---
     title: Removing Elements from the User Interface According to Permissions | Microsoft Docs
-    description: You can configure ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]-->.
+    description: You can configure [!INCLUDE[d365fin](includes/d365fin_md.md)].
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # Removing Elements from the User Interface According to Permissions
-You can configure ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]-->.  
+You can configure [!INCLUDE[d365fin](includes/d365fin_md.md)].  
   
  Depending on the setting in the **UI Elements Removal** field in the ADD INCLUDE<!--[!INCLUDE[nav_admin](../../includes/nav_admin_md.md)]-->, only UI elements on objects in the license or on objects that the user has permissions to will appear in the user interface.  
   

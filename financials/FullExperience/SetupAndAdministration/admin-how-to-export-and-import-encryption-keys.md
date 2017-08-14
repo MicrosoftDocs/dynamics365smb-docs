@@ -53,7 +53,7 @@ You can encrypt data on the ADD INCLUDE<!--[!INCLUDE[nav_server](../../includes/
  If a server instance already has an encryption key, then you can replace the current encryption key with an encryption key that is stored in an encryption key file that was exported from another server.  
   
 > [!NOTE]  
->  If ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]--> is configured with multiple server instances, when you change the encryption key on a server instance, then the old encryption key is no longer valid on the other server instances. To enable the new encryption key on the other server instances, import it on each server instance.  
+>  If [!INCLUDE[d365fin](includes/d365fin_md.md)] is configured with multiple server instances, when you change the encryption key on a server instance, then the old encryption key is no longer valid on the other server instances. To enable the new encryption key on the other server instances, import it on each server instance.  
   
 #### To change an encryption key  
   

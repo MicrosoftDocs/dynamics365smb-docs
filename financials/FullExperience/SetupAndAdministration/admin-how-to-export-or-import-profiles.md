@@ -1,6 +1,6 @@
 ---
     title: How to Export or Import Profiles | Microsoft Docs
-    description: You can export a profile, for example to reuse UI configurations in other ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]--> databases.
+    description: You can export a profile, for example to reuse UI configurations in other [!INCLUDE[d365fin](includes/d365fin_md.md)] databases.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # How to: Export or Import Profiles
-You can export a profile, for example to reuse UI configurations in other ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]--> databases.  
+You can export a profile, for example to reuse UI configurations in other [!INCLUDE[d365fin](includes/d365fin_md.md)] databases.  
   
  You can quickly implement UI configurations for a profile by importing an XML file that holds the configured profile.  
   

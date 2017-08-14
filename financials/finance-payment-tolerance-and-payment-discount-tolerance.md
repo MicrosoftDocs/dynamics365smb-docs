@@ -27,7 +27,7 @@ A single document has the same payment tolerance whether it is applied on its ow
 
 *payment discount date < payment date on the selected entry <= payment tolerance date*  
 
-This rule also applies to determine whether to display warnings when you apply payment tolerance to multiple documents. The payment discount tolerance warning is displayed for each entry that meets the date criteria.  
+This rule also applies to determine whether to display warnings when you apply payment tolerance to multiple documents. The payment discount tolerance warning is displayed for each entry that meets the date criteria. For more information, see the "Example 2 - Tolerance Calculations for Multiple Documents" section. 
 
 You can choose to display a warning that is based on different tolerance situations.  
 

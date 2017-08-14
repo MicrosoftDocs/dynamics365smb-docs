@@ -20,7 +20,7 @@ Profiles are collections of [!INCLUDE[d365fin](includes/d365fin_md.md)] users wh
   
  The user interface of Role Centers and all other pages can be customized. For more information, see [Customize the User Interface](../customize-the-user-interface.md).  
   
- The concept of UI customization in ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]--> is divided in two:  
+ The concept of UI customization in [!INCLUDE[d365fin](includes/d365fin_md.md)] is divided in two:  
   
 -   Configuration, performed by the administrator  
   

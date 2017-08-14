@@ -26,8 +26,23 @@ As a performance measure, the program collects the availability information in t
 
 The availability of the item is automatically rechecked when you close the window to confirm that there are no availability problems.
 
+## About Picking Serial or Lot Numbers in the Warehouse
+Outbound handling of serial or lot numbers is a frequent task in different warehouse processes.  
+
+In simple processes, the inventory items already carry item tracking numbers, and these numbers are automatically transferred through all outbound warehouse activities without an interaction by warehouse workers.  
+
+In other processes, the inventory items do not carry item tracking numbers, and the warehouse worker must assign new during the outbound handling, typically from a predefined number series.
+
+In special processes, the inventory items already carry item tracking numbers, but the warehouse worker must select them specifically during the outbound handling. This process is typically used when the item is set up for specific tracking.
+
+In some situations, the serial or lot numbers are already defined on the source document, which the warehouse worker must respect during the outbound warehouse handling. This may be because the customer requested a specific lot during the order process. In that case, warehouse workers must pick the specific serial or lot numbers, similarly to the special process above, but they have little means of editing the **Item Tracking Lines** window.  
+
+When the inventory pick or warehouse pick document is created from an outbound source document where item tracking numbers are already defined, then all fields in the **Item Tracking Lines** window under the inventory pick are locked for writing, except the **Qty. to Handle** field.  
+
+The inventory pick lines specify the item tracking numbers on individual take and place lines. The quantity is already split into unique serial or lot number combinations because the sales order specifies the item tracking numbers to ship.  
+
 ## Item Tracking Availability
-When you work with serial and lot numbers, Microsoft Dynamics NAV calculates availability information for lot and serial numbers and shows it in the various item tracking windows. This lets you see how much of a lot or serial number is currently being used on other documents. This reduces errors and uncertainty caused by double allocations.
+When you work with serial and lot numbers, [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates availability information for lot and serial numbers and shows it in the various item tracking windows. This lets you see how much of a lot or serial number is currently being used on other documents. This reduces errors and uncertainty caused by double allocations.
 
 In the **Item Tracking Lines** window, a warning icon is shown in the **Availability, Lot No.** or **Availability, Serial No.** field if some or all of the quantity you have selected is already being used in other documents or if the lot or serial number is not available.
 
@@ -195,7 +210,7 @@ However, the transfer order is unique in that shipment and receipt are both done
 During the transfer, the **Item Tracking Lines** window remains locked for writing.  
 
 ## To handle serial and lot numbers when getting receipt lines from a purchase invoice  
-When you use functionality to get posted receipt or shipment lines from related invoices or credit memos, then any item tracking lines on the warehouse documents are transferred automatically, however, they are processed in a special way. For more information about getting lines, see Get Receipt Lines.  
+When you use functionality to get posted receipt or shipment lines from related invoices or credit memos, then any item tracking lines on the warehouse documents are transferred automatically, however, they are processed in a special way.
 
 The functionality supports the following inbound processes:  
 -   **Get Receipt Lines** - from a purchase invoice.  
@@ -244,7 +259,6 @@ Reclassifying item tracking for an item means changing a lot or serial number to
 
 7.  If you want to modify the existing information for the lot or serial number, you can record lot or serial information.  
 8.  Post the journal to link the renewed item tracking numbers or expiration dates to the associated item ledger entry
-
 
 ## See Also  
 [Inventory](inventory-manage-inventory.md)  

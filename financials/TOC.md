@@ -216,7 +216,8 @@
 ## [How to: Manage Employee Absence](hr-how-manage-absence.md)
 
 # [General Business Functionality](ui-across-business-areas.md)
-## [How to: Create Number Series](ui-create-number-series.md)
+## [How to: Reserve Items](across-how-to-reserve-items.md)
+## [How to: Work with Serial and Lot Numbers](across-how-work-item-tracking.md)
 ## [How to: Set Up Extended Item Text](ui-how-define-ext-text.md)
 ## [Working with General Journals](ui-work-general-journals.md)
 ## [How to: Send Documents by Email](ui-how-send-documents-email.md)

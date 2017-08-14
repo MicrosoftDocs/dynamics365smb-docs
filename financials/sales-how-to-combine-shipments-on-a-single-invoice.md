@@ -42,7 +42,7 @@ If you want to invoice more than one shipment at a time, you can use the combine
 > [!NOTE]  
 >  You will need to manually post the invoices if the **Post Invoices** check box was not selected on the batch job.  
 
-## To remove open sales orders
+## To remove open sales orders after combined shipment posting 
 When shipments are combined on an invoice and posted, a posted sales invoice is created for the invoiced lines. The **Quantity Invoiced** field on the originating blanket sales order or sales order is updated based on the invoiced quantity.  
 
 When you invoice shipments in this way, the orders from which the shipments were posted still exist, even if they have been fully shipped and invoiced.   

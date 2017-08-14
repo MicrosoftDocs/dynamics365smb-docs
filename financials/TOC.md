@@ -181,6 +181,8 @@
 ## [How to: Count, Adjust, and Reclassify Inventory](inventory-how-count-adjust-reclassify.md)
 ## [How to: View the Availability of Items](inventory-how-availability-overview.md)
 ## [How to: Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)
+## [How to: Reserve Items](inventory-how-to-reserve-items.md)
+## [How to: Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)
 
 # [Relationship Management](marketing-relationship-management.md)
 ## [Setting Up Relationship Management](marketing-setup-marketing.md)
@@ -216,8 +218,6 @@
 ## [How to: Manage Employee Absence](hr-how-manage-absence.md)
 
 # [General Business Functionality](ui-across-business-areas.md)
-## [How to: Reserve Items](across-how-to-reserve-items.md)
-## [How to: Work with Serial and Lot Numbers](across-how-work-item-tracking.md)
 ## [How to: Set Up Extended Item Text](ui-how-define-ext-text.md)
 ## [Working with General Journals](ui-work-general-journals.md)
 ## [How to: Send Documents by Email](ui-how-send-documents-email.md)

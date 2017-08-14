@@ -22,7 +22,6 @@ The following table lists these general business areas with links to topics that
 
 | To | See |
 | --- | --- |
-| Assign unique identification codes to records, such as general ledger accounts, customer and vendor accounts, invoices, and documents. A well-designed numbering system also makes the company more manageable and easy to analyze and can reduce the number of errors that occur in data entry. |[Creating Number Series](ui-create-number-series.md) |
 | Set up standard text codes so you can extend standard text by adding extra lines, and set up conditions for use of the extra lines. |[How to: Define Extended Text](ui-how-define-ext-text.md) |
 | Learn how to work with general journals, which are used to post to general ledger accounts and other accounts such as bank, customer, vendor, and fixed assets accounts. |[Working with General Journals](ui-work-general-journals.md) |
 | Communicate the contents of business documents quickly to your business partners, such as the payment information on sales documents to customers. |[How to: Send Documents by Email](ui-how-send-documents-email.md) |

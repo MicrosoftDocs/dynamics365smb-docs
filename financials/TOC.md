@@ -167,6 +167,7 @@
 ## [How to: Purchase Items for a Sale](purchasing-how-purchase-products-sale.md)
 ## [How to: Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)
 ## [How to: Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md)
+## [How to: Combine Shipments on a Single Invoice](sales-how-to-combine-shipments-on-a-single-invoice.md)
 ## [Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)
 
 # [Inventory](inventory-manage-inventory.md)

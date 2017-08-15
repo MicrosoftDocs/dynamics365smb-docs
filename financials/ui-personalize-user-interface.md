@@ -17,7 +17,7 @@ ms.author: jswymer
 ---
 # Personalizing Pages
 <!--NAV in the Web client-->
-You can customize pages to suit your daily work and preferences by changing their layout to display only the information you want, where you want it. The personalization changes that you make will only affect what you see, not what other users see. 
+You can customize, or *personalize*, your workspace to suit your work and preferences by changing pages so that they display only the information you need, where you need it. The personalization changes that you make will only affect what you see, not what other users see. 
 
 Depending on the type of page and what it includes, you can:
 

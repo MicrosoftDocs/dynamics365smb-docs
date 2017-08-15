@@ -33,6 +33,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Add new accounts to the existing chart of accounts. |[Setting Up the Chart of Accounts](finance-setup-chart-accounts.md) |
 | Set up business intelligence (BI) charts to analyze cash flow. |[Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md) |
 |Enable invoicing of a customer who is not set up in the system.|[How to: Set Up Cash Customers](finance-how-to-set-up-cash-customers.md)|
+| Set up Intrastat reporting, and submit the report to an authority | [How to: Set Up and Report Intrastat](finance-how-setup-report-intrastat.md)|
 
 ## See Also
 [[Finance](finance.md)]  

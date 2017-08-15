@@ -155,10 +155,11 @@
 ## [How to: Sell Products](sales-how-sell-products.md)
 ## [How to: Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)
 ## [How to: Make Drop Shipments](sales-how-drop-shipment.md)
-## [How to: Create Special Orders](sales-how-to-create-special-orders.md)|
+## [How to: Create Special Orders](sales-how-to-create-special-orders.md)
 ## [How to: Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md)
 ## [How to: Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md)
 ## [How to: Work with Blanket Sales Orders](sales-how-to-create-blanket-sales-orders.md)
+## [How to: Combine Shipments on a Single Invoice](sales-how-to-combine-shipments-on-a-single-invoice.md)
 ## [How to: Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)
 
 # [Purchasing](purchasing-manage-purchasing.md)
@@ -166,7 +167,9 @@
 ## [How to: Request Quotes](purchasing-how-request-quotes.md)
 ## [How to: Purchase Items for a Sale](purchasing-how-purchase-products-sale.md)
 ## [How to: Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)
+## [How to: Combine Receipts on a Single Invoice](purchasing-how-to-combine-receipts.md)
 ## [How to: Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md)
+
 ## [Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)
 
 # [Inventory](inventory-manage-inventory.md)
@@ -178,6 +181,8 @@
 ## [How to: Count, Adjust, and Reclassify Inventory](inventory-how-count-adjust-reclassify.md)
 ## [How to: View the Availability of Items](inventory-how-availability-overview.md)
 ## [How to: Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)
+## [How to: Reserve Items](inventory-how-to-reserve-items.md)
+## [How to: Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)
 
 # [Relationship Management](marketing-relationship-management.md)
 ## [Setting Up Relationship Management](marketing-setup-marketing.md)
@@ -213,7 +218,6 @@
 ## [How to: Manage Employee Absence](hr-how-manage-absence.md)
 
 # [General Business Functionality](ui-across-business-areas.md)
-## [How to: Create Number Series](ui-create-number-series.md)
 ## [How to: Set Up Extended Item Text](ui-how-define-ext-text.md)
 ## [Working with General Journals](ui-work-general-journals.md)
 ## [How to: Send Documents by Email](ui-how-send-documents-email.md)

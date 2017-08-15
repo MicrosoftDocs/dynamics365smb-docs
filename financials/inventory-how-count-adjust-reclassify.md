@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 06/02/2017
+ms.date: 08/14/2017
 ms.author: sgroespe
 
 ---
@@ -126,6 +126,8 @@ If you often use the item journal to post the same or similar journal lines, for
 3. To In the **Lot No.** field, enter the items current lot number.
 4. In the **New Lot No.** field, enter the item's new lot number.
 5. Choose the **Post** action.
+
+Special steps apply to reclassify serial or lot numbers. For more information, see [How to: Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md).
 
 ## See Also
 [Inventory](inventory-manage-inventory.md)  

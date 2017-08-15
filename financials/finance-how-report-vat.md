@@ -22,6 +22,8 @@ You can use the following reports :
 * The **EC Sales List** European Community (EC) Sales List report lists the value added tax (VAT) amounts that you have collected for sales to VAT-registered customers in the European Union (EU) countries.  
 * The **VAT Return** report includes VAT for sales and purchases to customers in all countries that use VAT.
 
+If you want to view a complete history of VAT entries, every posting that involves VAT creates an entry on the **VAT Entries** page. These entries are used to calculate your VAT settlement amount, such as your payment and refund, for a specific period. To view VAT entries, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Entries**, and then choose the related link.
+
 ## About the EC Sales List report
 In the UK, all companies that sell goods and services to VAT-registered customers, including customers in other European Union (EU) countries, must submit an electronic version of the European Community (EC) Sales List report in XML format through Her Majesty's Revenue and Customs (HMRC) website. The EC Sales List report works only for countries in the EU.
 
@@ -42,13 +44,10 @@ VAT is calculated based on the VAT posting setup and the VAT posting groups that
 
 For the VAT return, you can specify the entries to include:
 
-<<<<<<< HEAD
 * Submit open transactions only, or open and closed.
 * Submit only entries from the specified periods, or also include entries from preview periods.
-=======
 * Submit open transactions only, or open and closed. For example, this is useful when you prepare your final annual VAT return.
 * Submit only entries from the specified periods, or also include entries from previous periods. This is useful for updating a VAT return that you have already submitted, for example, if a vendor sends you a late invoice.    
->>>>>>> refs/remotes/origin/master
 
 ## To connect to your tax authority's web service
 [!INCLUDE[d365fin](includes/d365fin_md.md)] provides service connections to tax authority websites. For example, if you are in the UK, you can enable the **GovTalk** service connection to submit the EC Sales List and VAT Return reports electronically. If you want to submit the report manually, for example by entering your data on the tax authority's website, this is not required.   

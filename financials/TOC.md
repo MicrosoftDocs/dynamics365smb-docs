@@ -170,7 +170,6 @@
 ## [How to: Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)
 ## [How to: Combine Receipts on a Single Invoice](purchasing-how-to-combine-receipts.md)
 ## [How to: Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md)
-
 ## [Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)
 
 # [Inventory](inventory-manage-inventory.md)
@@ -185,13 +184,16 @@
 ## [How to: Reserve Items](inventory-how-to-reserve-items.md)
 ## [How to: Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)
 
-# [Relationship Management](marketing-relationship-management.md)
-## [Setting Up Relationship Management](marketing-setup-marketing.md)
-## [Managing Contacts](marketing-contacts.md)
-## [Managing Segments](marketing-segments.md)
-## [Recording Interactions](marketing-interactions.md)
-## [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)
-## [Managing Your Customer Relationships Using Dynamics 365 for Sales from Inside Financials](marketing-integrate-dynamicscrm.md)
+# [Assembly Management](assembly-assemble-items.md)
+## [How to: Quote an Assemble-to-Order Sale](assembly-how-to-quote-an-assemble-to-order-sale.md)
+## [How to: Assemble Items](assembly-how-to-assemble-items.md)
+## [How to: Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md)
+## [How to: Sell Inventory Items in Assemble-to-Order Flows](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md)
+## [How to: Sell Assemble-to-Order Items and Inventory Items Together](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)
+## [How to: Undo Assembly Posting](assembly-how-to-undo-assembly-posting.md)
+## [How to: Work with Bills of Material](inventory-how-work-BOMs.md)
+## [Assemble to Order or Assemble to Stock](assemble-to-order-or-assemble-to-stock.md)
+## [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)
 
 # [Project Management](projects-manage-projects.md)
 ## [How to: Create Jobs](projects-how-create-jobs.md)
@@ -214,6 +216,14 @@
 ## [How to: Dispose of or Retire Fixed Assets](fa-how-dispose-retire.md)
 ## [How to: Manage Budgets for Fixed Assets](fa-how-manage-budgets.md)
 
+# [Relationship Management](marketing-relationship-management.md)
+## [Setting Up Relationship Management](marketing-setup-marketing.md)
+## [Managing Contacts](marketing-contacts.md)
+## [Managing Segments](marketing-segments.md)
+## [Recording Interactions](marketing-interactions.md)
+## [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)
+## [Managing Your Customer Relationships Using Dynamics 365 for Sales from Inside Financials](marketing-integrate-dynamicscrm.md)
+
 # [Human Resources](hr-manage-human-resources.md)
 ## [How to: Register Employees](hr-how-register-employees.md)
 ## [How to: Manage Employee Absence](hr-how-manage-absence.md)
@@ -233,8 +243,6 @@
 ## [Workflow](across-workflow.md)
 ### [Setting Up Workflows](across-set-up-workflows.md)
 ### [Using Workflows](across-use-workflows.md)
-
-# [Assembly Management](assembly-assemble-items.md)
 
 # [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)
 ## [Walkthrough: Synchronizing Information Between Outlook and Financials](walkthrough-synchronizing-information-between-outlook-and-microsoft-dynamics-nav.md)

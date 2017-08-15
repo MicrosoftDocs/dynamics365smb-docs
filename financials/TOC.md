@@ -130,6 +130,7 @@
 ## [How to: Defer Revenues and Expenses](finance-how-defer-revenue-expenses.md)
 ## [How to: Import Payroll Transactions](finance-how-import-payroll-transactions.md)
 ## [How to: Report VAT to Tax Authorities](finance-how-report-vat.md)
+## [Analyzing Financial Statements in Excel](finance-analyze-excel.md)
 ## [Analyzing Cash Flows in Your Company](finance-analyze-cash-flow.md)
 ## [Closing Years and Periods](year-close-years-periods.md)
 ### [How to: Specify Posting Periods](finance-how-specify-posting-periods.md)

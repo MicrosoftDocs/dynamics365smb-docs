@@ -18,28 +18,18 @@
 # How to: Work with Serial and Lot Numbers
 You can assign serial numbers and lot numbers to any outbound or inbound document, and its posted item tracking entries are displayed in the related item ledger entries. You perform the work in the **Item Tracking Lines** window.
 
-The matrix of quantity fields at the top of the **Item Tracking Lines** window displays the quantities and sums of item tracking numbers being defined on the lines.
+The matrix of quantity fields at the top of the **Item Tracking Lines** window displays the quantities and sums of item tracking numbers being defined on the lines. The quantities must correspond to those of the document line, which is indicated by 0 in the **Undefined** fields.
 
-The quantities must correspond to those of the document line, which is indicated by 0 in the **Undefined** fields.
-
-As a performance measure, the program collects the availability information in the **Item Tracking Lines** window only once, when you open the window. This means that the program does not update the availability information during the time that you have the window open, even if changes occur in inventory or on other documents during that time. If you work in the Item Tracking Lines window for a long period of time or if there is a great deal of activity with the item you are working with, then you can choose the **Refresh Availability** action.
-
-The availability of the item is automatically rechecked when you close the window to confirm that there are no availability problems.
+As a performance measure, the program collects the availability information in the **Item Tracking Lines** window only once, when you open the window. This means that the program does not update the availability information during the time that you have the window open, even if changes occur in inventory or on other documents during that time.
 
 ## About Picking Serial or Lot Numbers in the Warehouse
 Outbound handling of serial or lot numbers is a frequent task in different warehouse processes.  
 
-In simple processes, the inventory items already carry item tracking numbers, and these numbers are automatically transferred through all outbound warehouse activities without an interaction by warehouse workers.  
+In some processes, the inventory items do not carry serial or lot numbers, and the warehouse worker must assign new during the outbound handling, typically from a predefined number series.
 
-In other processes, the inventory items do not carry item tracking numbers, and the warehouse worker must assign new during the outbound handling, typically from a predefined number series.
+In simple processes, the inventory items already carry serial or lot numbers, for example assigned during the put-away, and these numbers are automatically transferred through all outbound warehouse activities without interaction by warehouse workers.
 
-In special processes, the inventory items already carry item tracking numbers, but the warehouse worker must select them specifically during the outbound handling. This process is typically used when the item is set up for specific tracking.
-
-In some situations, the serial or lot numbers are already defined on the source document, which the warehouse worker must respect during the outbound warehouse handling. This may be because the customer requested a specific lot during the order process. In that case, warehouse workers must pick the specific serial or lot numbers, similarly to the special process above, but they have little means of editing the **Item Tracking Lines** window.  
-
-When the inventory pick or warehouse pick document is created from an outbound source document where item tracking numbers are already defined, then all fields in the **Item Tracking Lines** window under the inventory pick are locked for writing, except the **Qty. to Handle** field.  
-
-The inventory pick lines specify the item tracking numbers on individual take and place lines. The quantity is already split into unique serial or lot number combinations because the sales order specifies the item tracking numbers to ship.  
+In special situations for serial- or lot-numbered inventory, specific serial or lot numbers are defined on the source document, such as a sales order, which the warehouse worker must respect during the outbound warehouse handling. This may be because the customer requested a specific lot during the order process. When the inventory pick or warehouse pick document is created from an outbound source document where serial or lot numbers are already defined, then all fields in the **Item Tracking Lines** window under the inventory pick are locked for writing, except the **Qty. to Handle** field. In that case, the inventory pick lines specify the item tracking numbers on individual take and place lines. The quantity is already split into unique serial or lot number combinations because the sales order specifies the item tracking numbers to ship.  
 
 ## Item Tracking Availability
 When you work with serial and lot numbers, [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates availability information for lot and serial numbers and shows it in the various item tracking windows. This lets you see how much of a lot or serial number is currently being used on other documents. This reduces errors and uncertainty caused by double allocations.
@@ -55,6 +45,8 @@ In the **Lot No./Serial No.-List** window, the **Lot No./Serial No.-Availability
 |**Current Pending Quantity**|The number of items that are requested that will be used on the current document but that is not yet committed to the database|
 |**Current Requested Quantity**|The number of items that are requested that will be used on the current document|
 |**Total Available Quantity**|The total number of items in inventory, minus the quantity of the item that are requested on this and other documents (total requested quantity), and minus the quantity that is requested but not yet committed on this document (current pending quantity)|
+
+If you work in the **Item Tracking Lines** window for a long period of time or if there is a great deal of activity with the item you are working with, then you can choose the **Refresh Availability** action. In addition, the availability of the item is automatically rechecked when you close the window to confirm that there are no availability problems.
 
 ## To set up item tracking codes
 An item tracking code reflects the different considerations a company has regarding the use of serial and lot numbers for items moving through the inventory.  

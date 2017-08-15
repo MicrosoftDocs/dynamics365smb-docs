@@ -17,7 +17,7 @@ ms.author: jswymer
 ---
 # Personalizing Pages
 <!--NAV in the Web client-->
-You can customize pages to suit your daily work and preferences by changing their layout to display only the information you want, where you want it. The personalization changes that you make will only effect what you see, not what other users see. 
+You can customize pages to suit your daily work and preferences by changing their layout to display only the information you want, where you want it. The personalization changes that you make will only affect what you see, not what other users see. 
 
 Depending on the type of page and what it includes, you can:
 
@@ -70,7 +70,7 @@ To help you better understand personalization, here are some pointers.
         </table>
     
     > [!IMPORTANT]  
-    >   You cannot make changes to a list if the list is shown as tiles. To change the view, choose the ![Show as list](media/ui_show_as_list_icon.png "Show as list arrow left") icon.
+    >   You cannot make changes to a list if the list is shown as tiles. You must first switch the page to the list view by selecting the ![Show as list](media/ui_show_as_list_icon.png "Show as list arrow left") icon.
    
 5.  You can continue to make changes on the same page or move to another page. Your changes are automatically saved as you make them. When you are done, in the **Personalizing** bar, choose **I'm Done**. 
 

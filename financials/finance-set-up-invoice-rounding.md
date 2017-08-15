@@ -3,7 +3,7 @@
     description: You can round invoice amounts when you create invoices. Additionally, local regulations or custom may require you to round in a specific way, for example, to an amount divisible by 0.05.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: bholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article
@@ -11,8 +11,8 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
+    ms.date: 08/15/2017
+    ms.author: bholtorf
 
 ---
 # Set Up Invoice Rounding

@@ -85,6 +85,7 @@ On each line in the window for both parent items and child items, the following 
 |**Able to Make Parent**|Shows how many units of any subassembly in the top item you can make. The field specifies how many immediate parent units you can assemble. The value is based on availability of the item on the line.|
 |**Able to Make Top Item**|Shows how many units of the top item you can make. The field specifies how many units of the top-line BOM item you can assemble. The value is based on availability of the item on the line.|
 
+## Item Availability by BOM Level Window
 The **Item Availability by BOM Level** window shows information for the item on the card or document line that the window is opened for. The item is always shown on the top line. You can view information for other items or for all items by changing the value in the **Item Filter** field.
 
 > [!NOTE]  
@@ -92,6 +93,7 @@ The **Item Availability by BOM Level** window shows information for the item on 
 
 The **Bottleneck** field specifies which item in the BOM structure restricts you from making a larger quantity than the quantity that is shown in the **Able to Make Top Item** field. For example, the bottleneck item can be a purchased component with an expected receipt date that is too late to make additional units of the top item by the date in the **Needed by Date** field.
 
+## Assembly Availability Window
 The **Assembly Availability** window shows detailed availability information for the assembly item. It opens:
 
 - Automatically from a sales order line in assemble-to-order scenarios when you enter a quantity that causes a component availability issue.

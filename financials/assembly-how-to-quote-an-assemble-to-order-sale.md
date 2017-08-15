@@ -1,6 +1,6 @@
 ---
     title: How to Quote an Assemble-to-Order Sale | Microsoft Docs
-    description: You can use assembly management to customize an assembly item to a customer’s request during the sales process. For more information, see [How to: Sell Items Assembled to Order](../how-to-sell-items-assembled-to-order.md).
+    description: You can use assembly management to customize an assembly item to a customer’s request during the sales process.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

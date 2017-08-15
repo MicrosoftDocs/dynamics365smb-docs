@@ -36,7 +36,7 @@ In this procedure, you process the sale of an item that will be assembled accord
     > [!NOTE]  
     >  If one or more components of the requested assembly item quantity are not available, then a detailed availability warning window opens. For more information, see Assembly Availability.  
 
-     n assembly order is now automatically created and linked to the sales order line. The due date of this assembly order is synchronized with the shipment date of the sales order line.  
+    An assembly order is now automatically created and linked to the sales order line. The due date of this assembly order is synchronized with the shipment date of the sales order line.  
 
     The quantity to sell is copied to the **Qty. to Assemble to Order** field, which indicates that the item setup expects the full quantity on the sales line to be assembled to the order. You can decrease the quantity to assemble to order, such as if you know that some items are already available. For more information, see [How to: Sell Inventory Items in Assemble-to-Order Flows](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
 

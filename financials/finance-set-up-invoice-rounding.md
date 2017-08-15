@@ -1,9 +1,9 @@
 ---
     title: Set Up Invoice Rounding | Microsoft Docs
-    description: It may be necessary to round invoice amounts when you create invoices. Local regulations or local custom may require the invoice to be rounded in a specific way, for example, to an amount divisible by 0.05.
+    description: You can round invoice amounts when you create invoices. Additionally, local regulations or custom may require you to round in a specific way, for example, to an amount divisible by 0.05.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: bholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article
@@ -11,8 +11,8 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
+    ms.date: 08/15/2017
+    ms.author: bholtorf
 
 ---
 # Set Up Invoice Rounding
@@ -28,11 +28,8 @@ To use automatic invoice rounding, you must:
 * Activate the function.  
   
 > [!NOTE]  
->  In addition to the invoice rounding features, you can round amounts on invoices by the unit-amount rounding feature and the amount rounding feature. For more information, see [Set Up Currencies](../set-up-currencies.md).  
-  
+>  In addition to the invoice rounding features, you can round amounts on invoices by the unit-amount rounding feature and the amount rounding feature.  
  
-|Activate the invoice rounding function so that sales and purchase invoices are rounded automatically.|[How to: Enable the Invoice Rounding Function](../how-to-enable-the-invoice-rounding-function.md)|  
-
 ## How to: Set up general ledger accounts for invoice rounding differences
 To use the automatic invoice rounding function, you must set up the general ledger account or accounts where rounding differences will be posted. Before you can do this, you must set up VAT product posting groups. For more information, see [Set up VAT](finance-setup-vat.md).  
   
@@ -56,11 +53,11 @@ Before you can use the automatic invoice rounding function, you must set up roun
 2. On the **General Ledger Setup** page, on the **General** FastTab, fill in the **Inv. Rounding Precision** and **Inv. Rounding Type** fields.  
 
 ## How to: Activate the invoice rounding function  
-To make sure that sales and purchase invoices are rounded automatically, you must activate the invoice rounding function. You activate invoice rounding separately for sales and purchase invoices.
+To ensure that sales and purchase invoices are rounded automatically, you must activate the invoice rounding function. You activate invoice rounding separately for sales and purchase invoices.
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales & Receivables Setup** or **Purchases & Payables Setup**, and then choose the related link.  
 2. On the **General** FastTab, choose the **Invoice Rounding** check box.  
   
 ## See Also  
-[Set Up Currencies](../set-up-currencies.md)   
-[How to: Allow for Rounding Differences When You Apply Entries in Different Currencies](../how-to-allow-for-rounding-differences-when-you-apply-entries-in-different-currencies.md)  
+[How to: Invoice Sales](sales-how-invoice-sales.md)  
+[How to: Record Purchases](purchasing-how-record-purchases.md)

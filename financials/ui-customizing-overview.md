@@ -22,8 +22,9 @@ There are different ways to customize the application to give you and your colle
 |-----|---------------|---------|-------|
 |Installing Extensions|Extensions are like small applications that add functionality, change behavior, provide access to new online services, and more. For example, Microsoft provides an extension that provides integration with PayPal Payments Standard.|Application-wide.<BR /><BR />Effects all companies and users.|[Customizing Using Extensions](ui-extensions.md)|
 |Setting the Experience|A single setting, the *experience* setting, determines how much of the core functionality is available. Currently, there are two levels: Basic and Suite.|Company<BR /><BR />Effects all users of a specific company.|[Configuring the Dynamics 365 for Financials Experience for a Company](ui-experiences.md)|
-|Personalization|Change the layout and content of your pages.|User<BR /><BR />Effects users individually.|[Personalizing Pages](ui-personalize-user-interface.md)|
+|Personalization|Change the layout and content of your pages.|User<BR /><BR />Effects users individually.|[Personalizing Your WorkSpace and Pages](ui-user-personalization.md)|
 
-## See Also  
+## See Also 
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

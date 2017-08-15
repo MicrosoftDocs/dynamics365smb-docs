@@ -1,7 +1,6 @@
 ---
 title: Set Up Fixed Assets| Microsoft Docs
 description: Learn about the sequence of tasks you must do to set up fixed assets, such as machinery or buildings.
-services: project-madeira
 documentationcenter: ''
 author: SorenGP
 
@@ -11,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 06/02/2017
+ms.date: 08/15/2017
 ms.author: sgroespe
 
 ---
@@ -27,6 +26,9 @@ The table below has links to more information. After you set those things up, yo
 >   You can record fixed asset transactions in the **Fixed Asset G/L Journal** or **Fixed Asset Journal** windows, depending on whether the transactions are for financial reporting or for internal management. Help for Fixed Assets only describes how to use the **Fixed Asset G/L Journal** window.  
 
 When you enable a fixed asset activity in the **G/L Integration** section in the **Depreciation Book Card** window, the **Fixed Asset G/L Journal** window is used to post transactions for the activity.
+
+> [!NOTE]  
+>  This functionality requires that the experience is set to **Suite**. For more information, see [Customizing Your Financials Experience](ui-experiences.md).  
 
 The following table describes a sequence of tasks, with links to the topics that describe them.  
 

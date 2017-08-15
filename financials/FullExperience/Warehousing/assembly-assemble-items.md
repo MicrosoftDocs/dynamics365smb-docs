@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# Assemble Items
+# Assembly Management
 To support companies that supply products to their customers by combining components in simple processes without the need of manufacturing functionality, ADD INCLUDE<!--[!INCLUDE[navnowlong](../../includes/navnowlong_md.md)]--> includes features to assemble items that integrate with existing features, such as sales, planning, reservations, and warehousing.  
 
  An assembly item is defined as a sellable item that contains an assembly BOM. For more information, see [How to: Create Assembly BOMs](assemble-to-order-or-assemble-to-stock.md).  

@@ -1,6 +1,6 @@
 ---
-    title: Assemble Items | Microsoft Docs
-    description: To support companies that supply products to their customers by combining components in simple processes without the need of manufacturing functionality, ADD INCLUDE<!--[!INCLUDE[navnowlong](../../includes/navnowlong_md.md)]--> includes features to assemble items that integrate with existing features, such as sales, planning, reservations, and warehousing.
+    title: Assembly Management | Microsoft Docs
+    description: Support companies that supply products to their customers by combining components in simple processes without the need of manufacturing functionality but with features to assemble items that integrate with existing features, such as sales, planning, reservations, and warehousing.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -11,12 +11,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 08/15/2017
     ms.author: sgroespe
 
 ---
 # Assembly Management
-To support companies that supply products to their customers by combining components in simple processes without the need of manufacturing functionality, ADD INCLUDE<!--[!INCLUDE[navnowlong](../../includes/navnowlong_md.md)]--> includes features to assemble items that integrate with existing features, such as sales, planning, reservations, and warehousing.  
+To support companies that supply products to their customers by combining components in simple processes without the need of manufacturing functionality, [!INCLUDE[d365fin](includes/d365fin_md.md)] includes features to assemble items that integrate with existing features, such as sales, planning, reservations, and warehousing.  
 
  An assembly item is defined as a sellable item that contains an assembly BOM. For more information, see [How to: Create Assembly BOMs](assemble-to-order-or-assemble-to-stock.md).  
 
@@ -32,14 +32,18 @@ To support companies that supply products to their customers by combining compon
 
 |**To**|**See**|  
 |------------|-------------|  
-|Specify which and how many items to assemble and which items or resources go into the assembly item.|Assembly Order|  
-|Learn about the difference between assembly BOMs and production BOMs and the involved processing differences.|[Assembly BOMs or Production BOMs](assembly-boms-or-production-boms.md)|  
-|Learn about the difference between assembling items right before shipping sales orders and assembling items that are intended for storage.|[Assemble to Order or Assemble to Stock](assemble-to-order-or-assemble-to-stock.md)|  
-|Combine components to create an item in a simple process.|[How to: Assemble Items](how-to-assemble-items.md)|  
-|Sell kits that are not currently available by instantaneously creating an assembly order to supply the full or partial sales order quantity, while supporting potential customization of the kit.|[How to: Sell Items Assembled to Order](how-to-sell-items-assembled-to-order.md)|  
+|Customize an assembly item to a customer’s request during the sales process, and convert to a sale when accepted.|[How to: Quote an Assemble-to-Order Sale](assembly-how-to-quote-an-assemble-to-order-sale.md)|
+|Combine components to create an item in a simple process, to order or to stock.|[How to: Assemble Items](assembly-how-to-assemble-items.md)|  
+|Sell assembly items that are not currently available by instantaneously creating an assembly order to supply the full or partial sales order quantity.|[How to: Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md)|
+|When some assemble-to-order items are already in inventory, deduct that quantity from the assembly order and reserve it from inventory.|[How to: Sell Inventory Items in Assemble-to-Order Flows](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md)|  
+|When you are selling assembly items from inventory and all items are not available, initiate an assembly order to automatically supply a part or all of the sales order quantity.|[How to: Sell Assemble-to-Order Items and Inventory Items Together](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)|
+|Undo a posted assembly order, for example because the order was posted with mistakes that must be corrected.|[How to: Undo Assembly Posting](assembly-how-to-undo-assembly-posting.md)|
+|Learn about the difference between assembly BOMs and production BOMs and the involved processing differences.|[How to: Work with Bills of Material](inventory-how-work-BOMs.md)|
+|Learn about the difference between assembling items right before shipping sales orders and assembling items that are intended for storage.|[Assemble to Order or Assemble to Stock](assemble-to-order-or-assemble-to-stock.md)|
 |Learn how assembly consumption and output are handled when you post assembly orders and how the derived item and resource costs are processed and distributed to the general ledger.|[Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)|  
 
 ## See Also  
- [Perform Warehouse Activities](perform-warehouse-activities.md)   
- [Define Material and Process Structure](define-material-and-process-structure.md)   
- [Design Details: Warehouse Management](design-details-warehouse-management.md)
+[How to: Work with Bills of Material](inventory-how-work-BOMs.md)  
+[Inventory](inventory-manage-inventory.md)  
+[Design Details: Warehouse Management](design-details-warehouse-management.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

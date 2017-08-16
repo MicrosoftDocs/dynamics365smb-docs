@@ -28,11 +28,11 @@ Before you can perform warehouse activities, you must set the system up. For mor
 
 |**To**|**See**|  
 |------------|-------------|  
-|Record the receipt of items at warehouse locations, either with a purchase order only, in simple location setups, or with a warehouse receipt, in case of semi or fully automated warehouse processes at the location.|[Receiving Items](warehouse-receiving.md)|  
-|Put away items received from purchases, sales returns, transfers, or production output according to the configured warehouse process.|[Putting Items Away](warehouse-put-items-away.md)|
-|Move items between bins in the warehouse.|[Moving Items](warehouse-move-items.md)|
-|Pick items to be shipped, transferred, or consumed in assembly or production, according to the configured warehouse process.|[Picking Items](warehouse-pick-items.md)|
-|Record the shipment of items from warehouse locations, either with a sales order only, in simple location setups, or with a warehouse shipment, in case of semi or fully automated warehouse processes at the location.|[Shipping Items](warehouse-shipping.md)|  
+|Record the receipt of items at warehouse locations, either with a purchase order only, in simple location setups, or with a warehouse receipt, in case of semi or fully automated warehouse processes at the location.|[How to: Receive Items](warehouse-how-receive-items.md)|  
+|Put away items received from purchases, sales returns, transfers, or production output according to the configured warehouse process.|[Putting Items Away](warehouse-how put-away-items.md)|
+|Move items between bins in the warehouse.|[Moving Items](warehouse-how move-items.md)|
+|Pick items to be shipped, transferred, or consumed in assembly or production, according to the configured warehouse process.|[Picking Items](warehouse-how-pick-items.md)|
+|Record the shipment of items from warehouse locations, either with a sales order only, in simple location setups, or with a warehouse shipment, in case of semi or fully automated warehouse processes at the location.|[Shipping Items](warehouse-how-ship-items.md)|  
 
 ## See Also  
  [Inventory](inventory-manage-inventory.md)  

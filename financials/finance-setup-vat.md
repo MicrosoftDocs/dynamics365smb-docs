@@ -188,5 +188,135 @@ When you post a sale to a customer in another EU country/region, the VAT amount 
 ## Understanding VAT rounding for documents
 Amounts in documents that are not yet posted are rounded and displayed to correspond with the final rounding of amounts that are actually posted. VAT is calculated for a complete document, which means that VAT is calculated based on the sum of all lines with the same VAT identifier in the document.
 
+## Certificates of Supply
+When you sell goods to a customer in another EU country/region, the customer must confirm receipt before you can deduct VAT or calculate zero VAT according to the rules for intra-community trade. 
+  
+## Requiring a Certificate of Supply  
+When you sell goods or sell services that include items to a customer in another EU country/region, you can post the order as shipped and invoiced. If a shipment requires a certificate of supply, you must print a certificate of supply that the customer must sign and return to you. According to the rules for intra-community trade, the invoice that you create at this point will not include VAT. Therefore, if the customer does not return the signed certificate of supply, you must issue a new invoice that includes VAT. Alternatively, you must manually correct the VAT.  
+  
+You must print a certificate of supply if the shipment uses a combination of VAT business posting group and VAT product posting group that have been marked for requiring a certificate of supply in the VAT Posting Setup window.  
+  
+> [!TIP]  
+>  You can add the relevant report to the report selection for sales, services, or return shipments so that the certificate of supply is printed automatically if it is required.  
+  
+If the customer does not sign and return the certificate of supply, you must set the **Status** field to **Not Received**. Then, you must send the customer a new invoice that includes VAT and refers to the original invoice. This provides a trail that can help you in the auditing process.  
+  
+To help you track if documents are posted that require a certificate of supply, you can enable the change log for the tables for shipments.  
+  
+You can add a cue to your role center to show you documents that have a certificate of supply status of **Received** or **Not Received**. This way, it is easier for you to remind customers to return the certificate of supply so that you do not have to cancel the existing invoice and issue a new invoice.  
+  
+> [!NOTE]  
+>  A certificate of supply is also required when you return a shipment to a vendor in another EU country/region.
+
+### To create certificates of supply
+<!-- I don't see how to require a certificate of supply -->
+If the shipment uses a combination of VAT business posting group and VAT product posting group that have been set up to require a certificate of supply on the **VAT Posting Setup** page, the certificate will be automatically set up for you in the **Certificates of Supply** window, with its status set to **Required**. Alternatively, you can manually update the status of a certificate of supply in the **Certificates of Supply** window from **Not Applicable** to **Required**. You can also manually change the status from **Required** to **Not Applicable** as needed.  
+  
+### To enable the creation of a certificate of supply in VAT posting  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Posting Setup**, and then choose the related link.  
+2. In the **VAT Posting Setup** window, choose the relevant line, and then on the **Home** tab, in the **Manage** group, choose **Edit**.  
+3. In the **VAT Posting Setup Card** window, select the **Certificate of Supply Required** check box.    
+  
+### To manually create a certificate of supply  
+1. Open a posted sales shipment document.  
+2. On the **Home** tab, in the **Shipment** group, choose **Certificate of Supply Details**.  
+  
+     If the VAT Posting Group setup does not have the **Certificate of Supply Required** check box selected, then a record is created and the field is set to **Not Applicable**. A certificate is created.  
+  
+3. Verify that the certificate has been created. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Certificates of Supply** and choose the related link.  
+  
+     The **Certificates of Supply** window opens, which provides a list of all available certificates that have a status of **Required**, **Received**, or **Not Received**.  
+  
+4. On the **Home** tab, in the **Process** group, choose **Print Certificate of Supply**.  
+  
+     You can preview or print the document. When you choose **Print Certificate of Supply** and print the document, the **Printed** check box is automatically selected. In addition, if not already specified, the status of the certificate is updated to **Required**.
+
+## Understanding the VAT Rate Conversion Process  
+The VAT rate change tool performs VAT rate conversions for master data, journals, and orders in different ways. The selected master data and journals will be updated by the new general product posting group or VAT product post group. If an order has been fully or partially shipped, the shipped items will keep the current general product posting group or VAT product posting group. A new order line will be created for the unshipped items and updated to align current and new VAT or general product posting groups. In addition, item charge assignments, reservations, and item tracking information will be updated accordingly.  
+  
+There are, however, a few things that the tool does not convert:
+
+* Sales or purchase orders and invoices where shipments have been posted. These documents are posted using the current VAT rate.  
+* Documents that have posted prepayment invoices. For example, you have made or received prepayments on invoices that have not been completed before you use the VAT rate change tool. In this case, there will be a difference between the VAT that is due and the VAT that has been paid in the prepayments when the invoice is completed. The VAT rate change tool will skip these documents and you will have to manually update them.  
+* Drop shipments or special orders.  
+* Sales or purchase orders with warehouse integration if they are partially shipped or received.  
+* Service contracts.  
+
+### To prepare VAT rate change conversions  
+Before you set up the VAT rate change tool, you must make the following preparations.
+
+1. If you have transactions that use different rates, then they must be separated into different groups either by creating new general ledger accounts for each rate or by using data filters to group transactions according to rate.  
+2. If you create new general ledger accounts, then you must create new general posting groups.  
+3. To reduce the number of documents that get converted, post as many documents as possible and reduce unposted documents to a minimum.  
+4. Back up data.
+
+### To set up the VAT rate change tool  
+1. In the **Search** box, enter **VAT Rate Change Setup**, and then choose the related link.  
+2. On the **Master Data**, **Journals**, and **Documents** FastTabs, select a posting group value from the option list for needed fields.  
+  
+     The following table describes the options that you can select for a field.  
+  
+    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../../includes/bp_tabledescription_md.md)]-->|  
+    |----------------------------------|---------------------------------------|  
+    |**No**|The selected field will not be updated.|  
+    |**VAT Product Posting Group**|The selected field will be updated by the VAT product posting group conversion.|  
+    |**Gen. Prod. Posting Group**|The selected field will be updated by the general product posting group conversion.|  
+    |**Both**|The selected field will be updated by the both the VAT and the general product posting group conversions.|  
+  
+3.  Choose the **OK** button.  
+  
+### To set up product posting group conversion  
+1. In the **Search** box, enter **VAT Rate Change Setup**, and then choose the related link.  
+2. In the **VAT Rate Change Setup** window, on the **Home** tab, in the **Process** group, choose either **VAT Prod. Posting Group Conv.** or **Gen Prod. Posting Group Conv.**.  
+3. In the **From Code** field, enter the current posting group.  
+4. In the **To Code** field, enter the new posting group.  
+5. Choose the **OK** button. 
+
+### How to: Perform VAT Rate Conversions
+You use the VAT rate change tool to manage changes in the standard rate of VAT. You perform VAT and general posting group conversions to change VAT rates and maintain accurate VAT reporting.  
+  
+Depending on your setup, the following changes are made:  
+  
+* VAT and general posting groups are converted.  
+* Changes are implemented in general ledger accounts, customers, vendors, open documents, journal lines, etc..  
+  
+> [!IMPORTANT]  
+>  Before you perform VAT rate change conversion, you can perform a test conversion to make sure that the VAT rate change procedure is correctly executed.  
+  
+### To perform VAT rate change test conversion  
+  
+1. In the **Search** box, enter **VAT Rate Change**, and then choose the **VAT Rate Change Setup** link.  
+2. Verify that you have already set up the VAT product posting group conversion or the general product posting group conversion.  
+  
+    > [!IMPORTANT]  
+    >  Clear the **Perform Conversion** check box.  
+  
+    > [!IMPORTANT]  
+    >  Clear the **VAT Rate Change Tool Completed** check box. The check box is automatically selected when the real VAT rate change conversion is completed.  
+  
+3. On the **Home** tab, in the **Process** group, choose **Convert**.  
+4. After the conversion is complete, on the **Home** tab, in the **Process** group, choose **VAT Rate Change Log Entries** to view the results of the test conversion.  
+  
+    > [!IMPORTANT]  
+    >  During test conversion, the **Converted** field in the **VAT Rate Change Log Entry** table is cleared and the **Converted Date** field in the **VAT Rate Change Log Entry** table is blank.  
+  
+5. Verify each entry before you perform the conversion. In particular, verify transactions which use an old VAT rate.  
+  
+### To perform VAT rate change conversion  
+1. In the **Search** box, enter **VAT Rate Change**, and then choose the **VAT Rate Change Setup** link.  
+2. Verify that you have already set up the VAT product posting group conversion or general product posting group conversion.  
+3. Select the **Perform Conversion** check box.  
+  
+    > [!IMPORTANT]  
+    >  Clear the **VAT Rate Change Tool Completed** check box. The check box is automatically selected when the VAT rate change conversion is completed.  
+  
+4. On the **Home** tab, in the **Process** group, choose **Convert**.  
+5. After the conversion is complete, on the **Home** tab, in the **Process** group, choose **VAT Rate Change Log Entries** to view the results of the conversion.  
+  
+    > [!IMPORTANT]  
+    >  After the conversion is completed, the **Converted** field in the **VAT Rate Change Log Entry** table is selected and the **Converted Date** field in the **VAT Rate Change Log Entry** table is filled in with the conversion date.  
+  
+6. Review each entry. In particular, review transactions which use an old VAT rate. 
+
 ## See Also  
 [Setting Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)

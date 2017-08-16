@@ -19,6 +19,7 @@
 ## [Changing Basic Settings](ui-change-basic-settings.md)
 ## [How to: Change the Role Center](change-role.md)
 ## [Customizing Your Financials Experience](ui-experiences.md)
+## [Letting Financials Suggest Values](ui-let-system-suggest-values.md)
 ## [Printing a Report](ui-work-report.md#PrintReport)
 ## [Videos on Common Tasks](across-videos.md)
 ## [Overview of Business Functionality](madeira-business-functionality.md)
@@ -279,6 +280,11 @@
 ### [How to: Create Reports with XBRL](FullExperience/bi-create-reports-with-xbrl.md)
 
 ## [Warehouse Management](warehouse-manage-warehouse.md)
+### [How to: Receive Items](warehouse-how-receive-items.md)
+### [How to: Put Items Away](warehouse-how-put-away-items.md)
+### [How to: Move Items](warehouse-how-move-items.md)
+### [How to: Pick Items](warehouse-how-pick-items.md)
+### [How to: Ship Items](warehouse-how-ship-items)
 
 ## Production
 ### How to: Plan for Production Availability

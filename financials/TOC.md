@@ -72,7 +72,7 @@
 ## [How to: Set up Email](madeira-how-setup-email.md)
 ## [How to: Create Number Series](ui-create-number-series.md)
 ## [How to: Set Up Extended Item Text](ui-how-define-ext-text.md)
-## [Set Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)
+## [Setting Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)
 ### [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)
 ### [Setup Best Practices: Costing Methods](setup-best-practices-costing-method.md)
 

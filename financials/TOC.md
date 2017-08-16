@@ -278,6 +278,8 @@
 ## Business Intelligence (Advanced)
 ### [How to: Create Reports with XBRL](FullExperience/bi-create-reports-with-xbrl.md)
 
+## [Warehouse Management](warehouse-manage-warehouse.md)
+
 ## Production
 ### How to: Plan for Production Availability
 ### How to: Forecast for Sales and Production
@@ -287,8 +289,6 @@
 ### How to: Schedule Production Processes
 ### How to: Issue Materials
 ### How to: Execute Production
-
-# [Warehouse Management](warehouse-manage-warehouse.md)
 
 ## Service Management
 ### How to: Plan Service

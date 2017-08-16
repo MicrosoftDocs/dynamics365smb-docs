@@ -207,8 +207,6 @@
 ## [Assemble to Order or Assemble to Stock](assemble-to-order-or-assemble-to-stock.md)
 ## [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)
 
-# [Warehouse Management](warehouse-manage-warehouse.md)
-
 # [Fixed Assets](fa-manage.md)
 ## [How to: Acquire Fixed Assets](fa-how-acquire.md)
 ## [How to: Maintain Fixed Assets](fa-how-maintain.md)
@@ -280,7 +278,7 @@
 ## Business Intelligence (Advanced)
 ### [How to: Create Reports with XBRL](FullExperience/bi-create-reports-with-xbrl.md)
 
-## Manufacturing (Advanced)
+## Production
 ### How to: Plan for Production Availability
 ### How to: Forecast for Sales and Production
 ### How to: Perform Master Planning
@@ -290,15 +288,9 @@
 ### How to: Issue Materials
 ### How to: Execute Production
 
-## Warehousing (Advanced)
-### How to: Receive Items
-### How to: Put Items Away
-### How to: Assemble Items
-### How to: Move Items
-### How to: Pick Items
-### How to: Ship Items
+# [Warehouse Management](warehouse-manage-warehouse.md)
 
-## Service Management (Advanced)
+## Service Management
 ### How to: Plan Service
 ### How to: Fulfill Service Contracts
 ### How to: Handle Customer Inquiries

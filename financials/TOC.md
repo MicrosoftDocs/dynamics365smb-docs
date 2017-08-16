@@ -58,6 +58,7 @@
 ### [How to: Set Up Locations](inventory-how-setup-locations.md)
 ### [How to: Register New Items](inventory-how-register-new-items.md)
 ### [How to: Categorize Items](inventory-how-categorize-items.md)
+## [Setting Up Warehouse Management](warehouse-setup-warehouse.md)
 ## [Setting Up Project Management](projects-setup-projects.md)
 ### [How to: Set Up Resources](projects-how-setup-resources.md)
 ### [How to: Set Up Time Sheets](projects-how-setup-time-sheets.md)
@@ -71,7 +72,7 @@
 ## [How to: Set up Email](madeira-how-setup-email.md)
 ## [How to: Create Number Series](ui-create-number-series.md)
 ## [How to: Set Up Extended Item Text](ui-how-define-ext-text.md)
-## [Set Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)
+## [Setting Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)
 ### [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)
 ### [Setup Best Practices: Costing Methods](setup-best-practices-costing-method.md)
 
@@ -184,17 +185,6 @@
 ## [How to: Reserve Items](inventory-how-to-reserve-items.md)
 ## [How to: Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)
 
-# [Assembly Management](assembly-assemble-items.md)
-## [How to: Quote an Assemble-to-Order Sale](assembly-how-to-quote-an-assemble-to-order-sale.md)
-## [How to: Assemble Items](assembly-how-to-assemble-items.md)
-## [How to: Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md)
-## [How to: Sell Inventory Items in Assemble-to-Order Flows](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md)
-## [How to: Sell Assemble-to-Order Items and Inventory Items Together](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)
-## [How to: Undo Assembly Posting](assembly-how-to-undo-assembly-posting.md)
-## [How to: Work with Bills of Material](inventory-how-work-BOMs.md)
-## [Assemble to Order or Assemble to Stock](assemble-to-order-or-assemble-to-stock.md)
-## [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)
-
 # [Project Management](projects-manage-projects.md)
 ## [How to: Create Jobs](projects-how-create-jobs.md)
 ## [How to: Use Resources for Jobs](projects-how-use-resources.md)
@@ -205,6 +195,17 @@
 ## [Understanding WIP Methods](projects-understanding-wip.md)
 ## [How to: Monitor Job Progress and Performance](projects-how-monitor-progress-performance.md)
 ## [How to: Invoice Jobs](projects-how-invoice-jobs.md)
+
+# [Assembly Management](assembly-assemble-items.md)
+## [How to: Quote an Assemble-to-Order Sale](assembly-how-to-quote-an-assemble-to-order-sale.md)
+## [How to: Assemble Items](assembly-how-to-assemble-items.md)
+## [How to: Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md)
+## [How to: Sell Inventory Items in Assemble-to-Order Flows](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md)
+## [How to: Sell Assemble-to-Order Items and Inventory Items Together](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)
+## [How to: Undo Assembly Posting](assembly-how-to-undo-assembly-posting.md)
+## [How to: Work with Bills of Material](inventory-how-work-BOMs.md)
+## [Assemble to Order or Assemble to Stock](assemble-to-order-or-assemble-to-stock.md)
+## [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)
 
 # [Fixed Assets](fa-manage.md)
 ## [How to: Acquire Fixed Assets](fa-how-acquire.md)
@@ -277,7 +278,9 @@
 ## Business Intelligence (Advanced)
 ### [How to: Create Reports with XBRL](FullExperience/bi-create-reports-with-xbrl.md)
 
-## Manufacturing (Advanced)
+## [Warehouse Management](warehouse-manage-warehouse.md)
+
+## Production
 ### How to: Plan for Production Availability
 ### How to: Forecast for Sales and Production
 ### How to: Perform Master Planning
@@ -287,15 +290,7 @@
 ### How to: Issue Materials
 ### How to: Execute Production
 
-## Warehousing (Advanced)
-### How to: Receive Items
-### How to: Put Items Away
-### How to: Assemble Items
-### How to: Move Items
-### How to: Pick Items
-### How to: Ship Items
-
-## Service Management (Advanced)
+## Service Management
 ### How to: Plan Service
 ### How to: Fulfill Service Contracts
 ### How to: Handle Customer Inquiries

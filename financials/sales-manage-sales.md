@@ -45,6 +45,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Perform an action on an unpaid posted sales invoice to automatically create a credit memo and either cancel the sales invoice or recreate it so you can make corrections. |[How to: Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md) |
 | Create a sales credit memo to revert a specific posted sales invoice to reflect which products the customer returns and which payment amount you will refund. |[How to: Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md) |
 |Manage your customer's commitment to purchase large quantities delivered in several shipments over time.|[How to: Work with Blanket Sales Orders](sales-how-to-create-blanket-sales-orders.md)|
+|Sell assembly items that are not currently available by creating a linked assembly order to supply the full or partial sales order quantity.|[How to: Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md)|
 |Invoice a customer once for multiple shipments by combining the shipments on one invoice.|[How to: Combine Shipments on a Single Invoice](sales-how-to-combine-shipments-on-a-single-invoice.md)|
 |Inform your customers of order delivery dates by calculating either the capable-to-promise date or the available-to-promise date.|[How to: Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)|
 

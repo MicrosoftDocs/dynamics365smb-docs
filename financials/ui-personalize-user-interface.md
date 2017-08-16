@@ -1,5 +1,5 @@
 ---
-title: Personalizing the User Interface in Financials | Microsoft Docs
+title: Personalizing Pages in Financials | Microsoft Docs
 description: Learn how to customize the user interface to suit your way of working.
 services: project-madeira
 documentationcenter: ''
@@ -10,12 +10,12 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: customize, personalize, personalize mode
+ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 07/26/2017
 ms.author: jswymer
 
 ---
-# Personalizing Pages
+# Personalizing Your Workspace
 <!--NAV in the Web client-->
 You can customize, or *personalize*, your workspace to suit your work and preferences by changing pages so that they display only the information you need, where you need it. The personalization changes that you make will only affect what you see, not what other users see. 
 
@@ -29,14 +29,14 @@ Depending on the type of page and what it includes, you can:
 -   Add, move, and remove cues (tiles).
 -   Move and remove entire parts.
 
-    Parts are typically larger areas on a page that contain elements such as another page, a chart, or tiles.  
+    Parts are typically larger areas on a page that contain one or more components such as another page, a chart, or tiles.  
 
 ## Personalization in detail
 To help you better understand personalization, here are some pointers.  
 -   When you make changes to a card page of record that you open from a list, the changes will take effect on all records that you open from that list. For example, let's say you open a specific customer from the Customers list page, and then personalize the page by adding a field. When you open other customers from the list, the field that you added will also be shown.
 -   Changes that you make will take effect on all your Role Centers. For example, if you make a change to the Customer list when the Role Center is set to Business Manager, you will also see the change in the Customer list when Role Center is set to Sales Order Processor. 
 -   Changes to a page in a part will take effect where ever the part is used.  
--   You can only add fields, columns, or tiles from a predetirmend list based on the page. You cannot create new ones.
+-   You can only add fields, columns, or tiles from a predefined list, which is based on the page. You cannot create new ones.
 
 <!--NAV
 
@@ -63,7 +63,7 @@ To help you better understand personalization, here are some pointers.
 4.  Use this table to help make changes:
         <table>
         <tr><th>What do you want to do</td><th>How to do it</th></tr>
-        <tr><td>Move the component, like a field, column in list, tile, or part</td><td> Point anywhere on component, and drag it to its new location. The location is indicated by either a thick horizontal or vertical line.</td></tr>
+        <tr><td>Move the component, like a field, column in list, tile, or part</td><td> Point anywhere on a component, and drag it to its new location. The location is indicated by either a thick horizontal or vertical line.</td></tr>
         <tr><td>Remove the component</td><td>Select the arrowhead, and choose <b>Remove</b>.</td></tr>
         <tr><td>Change the freeze pane in a list to another column</td><td>Select the arrowhead of the column that you want as the last column of the freeze pane, and then choose <b>Set Freeze Pane</b>.<br /></br>If you do not want a freeze pane, select the arrowhead for the current freeze pane column, and choose <b>Clear Freeze Pane</b>.</td></tr>
         <tr><td>Add a field, column, or tile</td><td>In the <b>Personalizing</b> bar, choose <b>More</b>, and then choose <b>Field</b>.<br /></br>The <b>Add Field to Page</b> pane opens on the right that lists the fields that you can add to the page. Fields marked as <b>Placed</b> are already on the page. Fields marked as <b>Ready</b> are not currently on the page.<br /></br>To add a field, drag it from the pane to the location that you want it. The location is indicated by either a thick horizontal or vertical line.</td></tr>
@@ -74,8 +74,8 @@ To help you better understand personalization, here are some pointers.
    
 5.  You can continue to make changes on the same page or move to another page. Your changes are automatically saved as you make them. When you are done, in the **Personalizing** bar, choose **I'm Done**. 
 
-## Undo personalization and restore a page to its original layout
-At some point, you might want to undo all the personalization changes that you have made over time to a page so that page looks like it originally. To do this, choose the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, **Personalize**, and then **Undo All**. You will not see the changes, until you close and open the page again.
+## Undo personalization to restore a page to its original layout
+At some point, you might want to undo all the personalization changes that you have made to a page over time so that page looks like it did originally. To do this, choose the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, **Personalize**, and then **Undo All**. You will not see the changes, until you close and open the page again.
 
 ## See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

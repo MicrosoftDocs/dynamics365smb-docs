@@ -16,13 +16,13 @@ ms.author: jswymer
 ---
 # Customizing Dynamics 365 for Financials
 <!--NAV # Customizing Dynamics NAV -->
-There are different ways to customize the application to give you and your colleagues access to the features, functionality, and data that you need most, in a manner that bests suits your daily work. The scope of the changes to the application vary between the different ways, as described in this table. 
+There are different ways to customize the application to give you and your colleagues access to the features, functionality, and data that you need most, in a manner that bests suits your daily work. Those who see the changes will depend on what you do, as described in this table. 
 
-|     |  Description  |  Scope  |  See  |
+| What you can do    |  Description  |  Who sees the changes  |  More information  |
 |-----|---------------|---------|-------|
-|Installing Extensions|Extensions are like small applications that add functionality, change behavior, provide access to new online services, and more. For example, Microsoft provides an extension that provides integration with PayPal Payments Standard.|Application-wide.<BR /><BR />All companies and users.|[Customizing Using Extensions](ui-extensions.md)|
-|Setting the Experience|A single setting, the *experience* setting, determines how much of the core functionality is available. Currently, there are two levels: Basic and Suite.|Company<BR /><BR />All users of a specific company.|[Configuring the Dynamics 365 for Financials Experience for a Company](ui-experiences.md)|
-|Personalization|Change the layout and content of your pages.|User<BR /><BR />Individual user|[Personalizing Your WorkSpace and Pages](ui-user-personalization.md)|
+|Install an extension|Extensions are like small applications that add functionality, change behavior, provide access to new online services, and more. For example, Microsoft provides an extension that provides integration with PayPal Payments Standard.|All users in all companies.|[Customizing Using Extensions](ui-extensions.md)|
+|Change the Experience|A single setting, the *Experience* setting, determines how much of the core functionality is available. Currently, there are two levels: Basic and Suite.|All users in a specific company.|[Configuring the Dynamics 365 for Financials Experience for a Company](ui-experiences.md)|
+|Personalize your workspace|Change the layout and content of your pages.|Only you.|[Personalizing Your WorkSpace and Pages](ui-user-personalization.md)|
 
 ## See Also 
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

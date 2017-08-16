@@ -25,7 +25,6 @@ In the ribbon, choose the relevant Excel report, and let it open so you can get 
 - Income Statement  
 - Cash Flow Statement  
 - Retained Earnings Statement  
-- Trial Balance  
 - Aged Accounts Payable  
 - Aged Accounts Receivable  
 

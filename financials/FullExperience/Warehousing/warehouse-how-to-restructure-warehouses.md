@@ -106,7 +106,7 @@ You may want to restructure your warehouse with new bin codes and new bin charac
 ## See Also  
  [How to: Set Up Locations to Use Bins](../how-to-set-up-locations-to-use-bins.md)   
  [How to: Set Up Warehouses for Directed Put-away and Pick](../how-to-set-up-warehouses-for-directed-put-away-and-pick.md)   
- [How to: Set Up Warehouse Management](../how-to-set-up-warehouse-management.md)   
+ [How to: Setting Up Warehouse Management](../how-to-set-up-warehouse-management.md)   
  Bin Content   
  [How to: Set Up Bin Contents](../how-to-set-up-bin-contents.md)   
  [How to: Delete Registered Warehouse Documents](../how-to-delete-registered-warehouse-documents.md)   

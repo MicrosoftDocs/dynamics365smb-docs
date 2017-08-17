@@ -46,4 +46,4 @@ You can enable an existing inventory location to use zones and bins and to opera
   
 ## See Also  
  [How to: Set Up Locations to Use Bins](../how-to-set-up-locations-to-use-bins.md)   
- [How to: Set Up Warehouse Management](../how-to-set-up-warehouse-management.md)
+ [How to: Setting Up Warehouse Management](../how-to-set-up-warehouse-management.md)

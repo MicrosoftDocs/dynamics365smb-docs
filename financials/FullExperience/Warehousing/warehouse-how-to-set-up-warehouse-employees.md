@@ -38,5 +38,5 @@ Each user who performs warehouse activities must be set up as a warehouse employ
   
 ## See Also  
  [Configure Warehouse Processes](../configure-warehouse-processes.md)   
- [How to: Set Up Warehouse Management](../how-to-set-up-warehouse-management.md)   
+ [How to: Setting Up Warehouse Management](../how-to-set-up-warehouse-management.md)   
  [How to: Convert Existing Locations to Warehouse Locations](../how-to-convert-existing-locations-to-warehouse-locations.md)

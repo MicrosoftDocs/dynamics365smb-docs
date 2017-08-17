@@ -22,21 +22,21 @@ Typical warehouse activities include putting items away, moving items inside or 
 
 In large warehouses these different handling tasks can be separated by departments and the integration managed by a directed workflow. In simpler installations the flow is less formalized, and the warehouse activities are performed with so-called inventory put-aways and inventory picks. For more information about basic versus advanced warehousing, see [Design Details: Warehouse Management](design-details-warehouse-management.md).
 
-Before you can perform warehouse activities, you must set the system up. For more information, see [Set Up Warehouse Management](warehouse-setup-warehouse.md).
+Before you can perform warehouse activities, you must set the system up, for the relevant complexity of warehouse processing. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).
 
  The following table describes a sequence of tasks, with links to the topics that describe them.   
 
 |**To**|**See**|  
 |------------|-------------|  
-|Record the receipt of items at warehouse locations, either with a purchase order only, in simple location setups, or with a warehouse receipt, in case of semi or fully automated warehouse processes at the location.|[How to: Receive Items](warehouse-how-receive-items.md)|  
-|Put away items received from purchases, sales returns, transfers, or production output according to the configured warehouse process.|[Putting Items Away](warehouse-how put-away-items.md)|
+|Record the receipt of items at warehouse locations, either with a purchase order only, in simple location setups, or with a warehouse receipt, in case of semi or fully automated warehouse processing at the location.|[How to: Receive Items](warehouse-how-receive-items.md)|  
+|Put away items received from purchases, sales returns, transfers, or production output according to the configured warehouse process.|[Putting Items Away](warehouse-put-away-items.md)|
 |Move items between bins in the warehouse.|[Moving Items](warehouse-how move-items.md)|
-|Pick items to be shipped, transferred, or consumed in assembly or production, according to the configured warehouse process.|[Picking Items](warehouse-how-pick-items.md)|
+|Pick items to be shipped, transferred, or consumed in assembly or production, according to the configured warehouse process.|[Picking Items](warehouse-pick-items.md)|
 |Record the shipment of items from warehouse locations, either with a sales order only, in simple location setups, or with a warehouse shipment, in case of semi or fully automated warehouse processes at the location.|[Shipping Items](warehouse-how-ship-items.md)|  
 
 ## See Also  
  [Inventory](inventory-manage-inventory.md)  
- [Set Up Warehouse Management](warehouse-setup-warehouse.md)     
+ [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
  [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -11,25 +11,25 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 08/16/2017
     ms.author: sgroespe
 
 ---
 # How to: Register Already Completed Warehouse Movements
 If your location uses directed put-away and pick, and you need to move items to other bins without a pre-existing warehouse put-away, pick, or movement, you can register the correct placement of the items in the warehouse using the **Whse. Reclassification Journal**.  
-  
-### To register the movement of an item that has already occurred  
-  
+
+## To register the movement of an item that has already occurred  
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Whse. Reclassification Journal**, and then choose the related link.  
-  
 2.  Fill in the **Item No.**, **From Zone Code**, **From Bin Code**, **To Zone Code**, and **To Bin Code** fields.  
-  
-3.  Register the movement.  
-  
+3.  Choose the **Register** action.  
+
 > [!NOTE]  
 >  In this journal, you cannot create a warehouse movement instruction.  
-  
+
 ## See Also  
- Whse. Reclassification Journal   
- Warehouse Movement   
- [How to: Move Items in Advanced Warehousing](../how-to-move-items-in-advanced-warehousing.md)
+[Warehouse Management](warehouse-manage-warehouse.md)  
+[Inventory](inventory-manage-inventory.md)  
+[Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
+[Assembly Management](assembly-assemble-items.md)    
+[Design Details: Warehouse Management](design-details-warehouse-management.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

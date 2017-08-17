@@ -1,6 +1,6 @@
 ---
-    title: How to Record VAT | Microsoft Docs
-    description: In EU countries/regions, every sales and purchase transaction is subject to VAT calculations. For more information about recording VAT, see [Recording VAT](../recording-vat.md).
+    title: How to work With VAT on Sales and Purchases | Microsoft Docs
+    description: This topic describes how perform tasks such as correcting posted VATIn EU countries/regions, every sales and purchase transaction is subject to VAT calculations. This topic describes how.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Record VAT on Sales and Purchases
+# How to: Work with VAT on Sales and Purchases
 If your country or region requires you to calculate value-added tax (VAT) on sales and purchase transactions so that you can report the amounts to a tax authority, you can set up [!INCLUDE[d365fin](includes/d365fin_md.md)] to calculate VAT automatically on sales and purchase documents. For more information, see [Setting Up to Calculations and Posting Methods for Value-Added Tax] (finance-setup-vat.md). 
 
 However, you can also enter VAT manually. For example, this is useful if you need to make a correction.
@@ -91,7 +91,7 @@ You can also adjust VAT amounts in general, sales, and purchase journals. For ex
 
 **************************************************************************************************************
 
-# How to: Process Certificates of Supply
+## How to: Process Certificates of Supply
 When you sell goods to a customer in another EU country/region, you must send the customer a certificate of supply that the customer must sign and return to you. The following procedures are for processing certificates of supply for sales shipments, but the same steps apply for service shipments of items, and return shipments to vendors.  
   
 ### To view certificate of supply details  
@@ -116,59 +116,48 @@ When you sell goods to a customer in another EU country/region, you must send th
 ### To print a certificate of supply  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Sales Shipments**, and then choose the related link.  
 2. Choose the relevant sales shipment to a customer in another EU country/region.  
+3. On the **Home** tab, choose **Print Certificate of Supply**.  
   
-3.  On the **Home** tab, in the **Shipment** group, choose **Print Certificate of Supply**.  
-  
-    > [!NOTE]  
+> [!NOTE]  
     >  Alternatively, you can print a certificate from the  **Certificate of Supply** window.  
   
-4.  To include information from the lines on the shipment document in the certificate, select the **Print Line Details** check box.  
+4. To include information from the lines on the shipment document in the certificate, select the **Print Line Details** check box.  
+5. Select the **Create Certificates of Supply if Not Already Created** check box to have [!INCLUDE[d365fin](includes/d365fin_md.md)] create certificates for posted shipments that do not have one at the moment of execution. When you select the check box, new certificates will be created for all posted shipments that do not have certificates within the selected range  
+6. By default, the filter settings are for the shipment document that you have selected. Fill in the filter information to select a specific certificate of supply that you want to print.  
+7. In the **Certificate of Supply** window, choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
   
-5.  Select the **Create Certificates of Supply if Not Already Created** check box to have [!INCLUDE[d365fin](includes/d365fin_md.md)] create certificates for posted shipments that do not have one at the moment of execution. When you select the check box, new certificates will be created for all posted shipments that do not have certificates within the selected range  
+    The **Certificate of Supply Status** field and the **Printed** field are updated for the shipment in the **Certificates of Supply** window.  
   
-6.  By default, the filter settings are for the shipment document that you have selected. Fill in the filter information to select a specific certificate of supply that you want to print.  
-  
-7.  In the **Certificate of Supply** window, choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
-  
-     The **Certificate of Supply Status** field and the **Printed** field are updated for the shipment in the **Certificates of Supply** window.  
-  
- You must send the printed certificate of supply to the customer for signature.  
+    You must send the printed certificate of supply to the customer for signature.  
   
 ### To update the status of a certificate of supply for a shipment  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Sales Shipments**, and then choose the related link.  
+2. Choose the relevant sales shipment to a customer in another EU country/region.  
+3. In the **Status** field, choose the relevant option.  
   
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Sales Shipments**, and then choose the related link.  
+   If the customer has returned the signed certificate of supply, choose **Received**. The **Receipt Date** field is updated. By default, the receipt date is set to the current work date.  
   
-2.  Choose the relevant sales shipment to a customer in another EU country/region.  
+   You can modify the date to reflect the date that you received the customer's signed certificate of supply. You can also add a link to the signed certificate using standard [!INCLUDE[d365fin](includes/d365fin_md.md)] linking.  
   
-3.  In the **Status** field, choose the relevant option.  
-  
-     If the customer has returned the signed certificate of supply, choose **Received**. The **Receipt Date** field is updated. By default, the receipt date is set to the current work date.  
-  
-     You can modify the date to reflect the date that you received the customer's signed certificate of supply. You can also add a link to the signed certificate using standard [!INCLUDE[d365fin](includes/d365fin_md.md)] linking.  
-  
-     If the customer does not return the signed certificate of supply, choose **Not Received**. You must then send the customer a new invoice that includes VAT, because the original invoice will not be accepted by the tax authority.  
+   If the customer does not return the signed certificate of supply, choose **Not Received**. You must then send the customer a new invoice that includes VAT, because the original invoice will not be accepted by the tax authority.  
   
  To view a group of certificates, you start from the **Certificates of Supply** window, and then update the information about the status of outstanding certificates as you receive them back from your customers. This can be useful when you want to search for all certificates that have a certain status, for example, **Required**, for which you want to update their status to **Not Received**.  
   
 ### To update the status of a group of certificates of supply  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Certificates of Supply**, and choose the related link.  
+2. Filter the **Status** field to the value that you want in order to create the list of certificates that you want to manage.  
+3. To update the status information, choose **Edit List**.  
+4. In the **Status** field, choose the relevant option.  
   
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Certificates of Supply**, and choose the related link.  
+   If the customer has returned the signed certificate of supply, choose **Received**. The **Receipt Date** field is updated. By default, the receipt date is set to the current work date.  
   
-2.  Filter the **Status** field to the value that you want in order to create the list of certificates that you want to manage.  
+   You can modify the date to reflect the date that you received the signed the certificate of supply. You can also add a link to the signed certificate using standard Microsoft Dynamics NAV document linking.  
   
-3.  To update the status information, on the **Home** tab, in the **Manage** group, choose **Edit List**.  
-  
-4.  In the **Status** field, choose the relevant option.  
-  
-     If the customer has returned the signed certificate of supply, choose **Received**. The **Receipt Date** field is updated. By default, the receipt date is set to the current work date.  
-  
-     You can modify the date to reflect the date that you received the signed the certificate of supply. You can also add a link to the signed certificate using standard Microsoft Dynamics NAV document linking.  
-  
-    > [!NOTE]  
-    >  You cannot create a new certificate of supply in the **Certificate of Supply** window when you navigate to it using this procedure. To create a certificate for a shipment that was not set up to require one, open the posted sales shipment, and use either of two procedures described above:  
+> [!NOTE]  
+>  You cannot create a new certificate of supply in the **Certificate of Supply** window when you navigate to it using this procedure. To create a certificate for a shipment that was not set up to require one, open the posted sales shipment, and use either of two procedures described above:  
     >   
-    >  -   To manually create a certificate of supply certificate  
-    > -   To print a certificate of supply.
+    > * To manually create a certificate of supply certificate  
+    > * To print a certificate of supply.
   
 ## See Also  
  [Recording VAT](../recording-vat.md)   

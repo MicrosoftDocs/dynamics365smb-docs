@@ -60,4 +60,4 @@ You can export balance information using GIFI codes and save the exported file i
 
 ## See Also
 [Finance](../../finance.md)   
-[Setting Up Finance](finance-setup-../../finance.md)
+[Setting Up Finance](../../finance.md)

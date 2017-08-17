@@ -209,7 +209,6 @@ You can add a cue to your role center to show you documents that have a certific
 >  A certificate of supply is also required when you return a shipment to a vendor in another EU country/region.
 
 ### To create certificates of supply
-<!-- I don't see how to require a certificate of supply -->
 If the shipment uses a combination of VAT business posting group and VAT product posting group that have been set up to require a certificate of supply on the **VAT Posting Setup** page, the certificate will be automatically set up for you in the **Certificates of Supply** window, with its status set to **Required**. Alternatively, you can manually update the status of a certificate of supply in the **Certificates of Supply** window from **Not Applicable** to **Required**. You can also manually change the status from **Required** to **Not Applicable** as needed.  
   
 ### To enable the creation of a certificate of supply in VAT posting  
@@ -284,3 +283,5 @@ You use the VAT rate change tool to manage changes in the standard rate of VAT. 
   
 ## See Also  
 [Setting Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)
+[How To: Report VAT to a Tax Authority](finance-how-report-vat)
+[How to: Work with VAT on Sales and Purchases](finance-work-with-vat.md)

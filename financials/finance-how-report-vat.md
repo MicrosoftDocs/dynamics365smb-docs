@@ -112,6 +112,6 @@ The following table describes the codeunits that you must create for your report
 
 ## See also
 [Setting Up to Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md)  
-[How to: Work with VAT on Sales and Purchases](finance-work-with-vat)
+[How to: Work with VAT on Sales and Purchases](finance-work-with-vat.md)
 [Set Up Sales](sales-setup-sales.md)  
 [How to: Invoice Sales](sales-setup-sales.md)  

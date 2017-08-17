@@ -41,7 +41,7 @@
  If you change the order date on the header, then that date is copied to the **Order Date** field on all the lines, and all the related date fields are then recalculated.  
 
 ## See Also  
- [How to: Enter Inbound Warehouse Handling Time](inventory-how-to-enter-inbound-warehouse-handling-time.md)   
+ [How to: Enter Inbound Warehouse Handling Time](FullExperience/ItemsAdvanced/inventory-how-to-enter-inbound-warehouse-handling-time.md)   
  [Date Calculation for Sales](sales-date-calculation-for-sales.md)   
  [How to: Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

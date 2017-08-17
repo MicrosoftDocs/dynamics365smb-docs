@@ -68,4 +68,4 @@ When the location is set up to require warehouse pick processing as well as ware
  [How to: Sell Items Assembled to Order](../how-to-sell-items-assembled-to-order.md)   
  [How to: Prepare Shipments](../How%20to:%20Prepare%20Shipments.md)   
  [How to: Sell Items Assembled to Order](../how-to-sell-items-assembled-to-order.md)   
- [Design Details: Warehouse Management](../design-details-warehouse-management.md)
+ [Design Details: Warehouse Management](../../design-details-warehouse-management.md)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Create a Purchase Quote to Request an Offer from Your Vendor | Microsoft Docs
 description: Describes how to create a sales offer or a request for proposal (RFQ) document to record your offer to a customer to sell products under certain terms.
 documentationcenter: ''

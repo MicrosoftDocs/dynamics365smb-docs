@@ -64,4 +64,4 @@ If a location is set up to require pick processing but not shipment processing, 
  [How to: Pick for Internal Operations in Advanced Warehousing](../how-to-pick-for-internal-operations-in-advanced-warehousing.md)   
  [How to: Pick Items for Warehouse Shipment](../how-to-pick-items-for-warehouse-shipment.md)   
  [Pick Items](../pick-items.md)   
- [Design Details: Warehouse Management](../design-details-warehouse-management.md)
+ [Design Details: Warehouse Management](../../design-details-warehouse-management.md)

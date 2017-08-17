@@ -24,7 +24,7 @@ For more information about sales tax, see [Sales Tax and Tax Groups in the US an
 The tax information in purchase documents is used to generate a GST/HST online file transfer that you must provide to the tax authorities. This file includes goods and services tax (GST) and harmonized sales tax (HST). The file is created in a .tax file format, which can be transferred online.  
 
 ## See Also
-[Finance](finance.md)  
-[Setting Up Finance](finance-setup-finance.md)  
+[Finance](../../finance.md)  
+[Setting Up Finance](finance-setup-../../finance.md)  
 [Reporting Sales Tax in Canada](ca-sales tax.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

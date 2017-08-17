@@ -27,4 +27,4 @@ Using Multiple Locations and Responsibility Centers in Product Name provide mult
  [How to: Assign Locations to Entries](../how-to-assign-locations-to-entries.md)   
  [How to: Set Up Locations](../how-to-set-up-locations.md)   
  [How to: Set Up Stockkeeping Units](../how-to-set-up-stockkeeping-units.md)   
- [How to: Set Up Responsibility Centers in Inventory](../how-to-set-up-responsibility-centers-in-inventory.md)
+ [How to: Set Up Responsibility Centers in Inventory](../GeneralBusinessFunctionalityAdvanced/ResponsibilityCenters/how-to-set-up-responsibility-centers-in-inventory.md)

@@ -21,7 +21,7 @@ This documentation gives an overview of the concepts and principles that are use
  To differentiate the different complexity levels of the warehousing, this documentation is divided into two general groups, Basic and Advanced Warehousing, indicated by section titles. This simple differentiation covers different complexity levels as defined by product granules and location setup. For more information, see [Design Details: Warehouse Setup](design-details-warehouse-setup.md).  
   
 ## In This Section  
- [Design Details: Warehouse Overview](design-details-warehouse-overview.md)  
+ [Design Details: Warehouse Overview]()  
   
  [Design Details: Warehouse Setup](design-details-warehouse-setup.md)  
   

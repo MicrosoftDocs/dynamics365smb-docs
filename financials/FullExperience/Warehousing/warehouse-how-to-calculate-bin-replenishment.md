@@ -53,4 +53,4 @@ When the location is set up to use directed put-away and pick, priorities of the
  Calculate Bin Replenishment   
  Movement Worksheet   
  [Move Items](../move-items.md)   
- [Design Details: Internal Warehouse Flows](design-details-internal-warehouse-flows.md)
+ [Design Details: Internal Warehouse Flows](../../design-details-internal-warehouse-flows.md)

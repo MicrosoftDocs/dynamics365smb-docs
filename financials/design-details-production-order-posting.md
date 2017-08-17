@@ -97,7 +97,7 @@ In standard-cost environments, the costing of a production order is based on the
 
 1.  When the last routing operation is posted, the production order cost is posted to the item ledger and set to the expected cost.  
 
-    This cost equals the output quantity that is posted in the output journal multiplied by the standard cost that is copied from the item card. The cost is treated as expected cost until the production order is finished. For more information, see [Design Details: Expected Cost Posting](../FullExperience/design-details-expected-cost-posting.md).  
+    This cost equals the output quantity that is posted in the output journal multiplied by the standard cost that is copied from the item card. The cost is treated as expected cost until the production order is finished. For more information, see [Design Details: Expected Cost Posting](design-details-expected-cost-posting.md).  
 
     > [!NOTE]  
     >  This differs from assembly order posting, which always posts actual costs. For more information, see [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md).  

@@ -56,5 +56,5 @@ Next, you can use the Deposit Test Report and Deposit reports to reconcile your 
 
 ## See Also  
 [United States Local Functionality](united-states-local-functionality.md)  
-[Finance](finance.md)  
-[Setting Up Finance](finance-setup-finance.md)  
+[Finance](../../finance.md)  
+[Setting Up Finance](finance-setup-../../finance.md)  

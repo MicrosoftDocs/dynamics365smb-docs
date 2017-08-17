@@ -18,14 +18,14 @@
 # Walkthrough: Receiving and Putting Away in Advanced Warehousing
 In ADD INCLUDE<!--[!INCLUDE[navnow](includes/navnow_md.md)]-->, the inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.  
 
-|Method|Inbound process|Bins|Receipts|Put-aways|Complexity level (See [Design Details: Warehouse Setup](FullExperience/design-details-warehouse-setup.md))|  
+|Method|Inbound process|Bins|Receipts|Put-aways|Complexity level (See [Design Details: Warehouse Setup](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  
 |A|Post receipt and put-away from the order line|X|||2|  
 |B|Post receipt and put-away from an inventory put-away document|||X|3|  
 |C|Post receipt and put-away from a warehouse receipt document||X||4/5/6|  
 |D|Post receipt from a warehouse receipt document and post put-away from a warehouse put-away document||X|X|4/5/6|  
 
- For more information, see [Design Details: Inbound Warehouse Flow](FullExperience/design-details-inbound-warehouse-flow.md).  
+ For more information, see [Design Details: Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md).  
 
  The following walkthrough demonstrates method D in the previous table.  
 
@@ -144,7 +144,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](includes/navnow_md.md)]-->, the inbound proc
 
 8.  On the **Purchase** FastTab, in the **Buy-from Vendor No. Filter** field, enter **10000&#124;20000**.  
 
-     The &#124; symbol is the filter criterion for “either/or”. For more information, see [Enter Criteria in Filters](FullExperience/enter-criteria-in-filters.md).  
+     The &#124; symbol is the filter criterion for “either/or”. For more information, see [Enter Criteria in Filters](FullExperience/WorkingWithDynamics/enter-criteria-in-filters.md).  
 
 9. On the **Actions** tab, in the **General** group, choose **Run**. The warehouse receipt is filled with four lines representing purchase order lines for the specified vendors. The **Qty. to Receive** field is filled because you did not select the **Do not Fill Qty. to Handle** check box in the **Filters to Get Source Docs.** window.  
 
@@ -188,6 +188,6 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](includes/navnow_md.md)]-->, the inbound proc
  Warehouse Put-away   
  [How to: Put Items Away with Warehouse Put-aways](FullExperience/how-to-put-items-away-with-warehouse-put-aways.md)   
  [How to: Move Items in Advanced Warehousing](FullExperience/how-to-move-items-in-advanced-warehousing.md)   
- [Design Details: Inbound Warehouse Flow](FullExperience/design-details-inbound-warehouse-flow.md)   
- [Walkthrough: Receiving and Putting Away in Basic Warehousing](FullExperience/walkthrough-receiving-and-putting-away-in-basic-warehousing.md)   
- [Business Process Walkthroughs](FullExperience/walkthrough-business-process-walkthroughs.md)
+ [Design Details: Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md)   
+ [Walkthrough: Receiving and Putting Away in Basic Warehousing](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)   
+ [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)

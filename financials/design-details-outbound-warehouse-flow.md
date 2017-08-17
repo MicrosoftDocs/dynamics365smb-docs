@@ -47,7 +47,7 @@ The outbound flow in the warehouse begins with a request from released source do
 |C|Post pick and shipment from a warehouse shipment document|||X|4/5/6|  
 |D|Post pick from a warehouse pick document and post shipment from a warehouse shipment document||X|X|4/5/6|  
   
- For more information, see [Design Details: Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md).  
+ For more information, see [Design Details: Outbound Warehouse Flow]().  
   
  Selecting an approach depends on the company's accepted practices and the level of their organizational complexity. In an order-by-order environment with straightforward processes and simple bin structure, method A, picking and shipping from the order line is appropriate. In other order-by-order companies where items for one order line might come from more than one bin or where warehouse workers cannot work with order documents, the use of separate pick documents is appropriate, method B. Where a company's picking and shipping processes involve multiple order handling and therefore require greater control and overview, the company might choose to use a warehouse shipment document and warehouse pick document to separate the picking and shipping tasks, methods C and D.  
   

@@ -23,7 +23,7 @@ A company's distribution strategy is reflected in the configuration of its wareh
 |**To**|**See**|  
 |------------|-------------|  
 |Get an overview of the capabilities of different warehouse elements, such as bins, locations, and activities, to decide how to configure the warehouse management system.|[About Warehouse Management](../about-warehouse-management.md)|  
-|Learn how to configure an efficient distribution model with a combination of different location setups and responsibility centers assigned to business partners or employees.|[About Using Locations and Responsibility Centers](../about-using-locations-and-responsibility-centers.md)|  
+|Learn how to configure an efficient distribution model with a combination of different location setups and responsibility centers assigned to business partners or employees.|[About Using Locations and Responsibility Centers](FullExperience/GeneralBusinessFunctionalityAdvanced/ResponsibilityCenters/about-using-locations-and-responsibility-centers.md)|  
 |Set users up as warehouse employees at specific locations.|[How to: Set Up Warehouse Employees](../how-to-set-up-warehouse-employees.md)|  
 |Define storage and planning rules for each instance of an item in a specific warehouse location.|[How to: Set Up Stockkeeping Units](../how-to-set-up-stockkeeping-units.md)|  
 |Make additional settings to an existing location to enable it for warehouse activities.|[How to: Convert Existing Locations to Warehouse Locations](../how-to-convert-existing-locations-to-warehouse-locations.md)|  

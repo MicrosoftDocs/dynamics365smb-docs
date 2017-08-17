@@ -82,5 +82,5 @@ Sales tax includes taxes that companies pay for using items:
 
 ## See Also  
 [Reporting Sales Tax in Canada](ca-sales-tax.md)  
-[Finance](finance.md)  
-[Setting Up Finance](finance-setup-finance.md)  
+[Finance](../../finance.md)  
+[Setting Up Finance](finance-setup-../../finance.md)  

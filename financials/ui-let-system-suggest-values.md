@@ -41,4 +41,4 @@ You main actions in the window are to fill in the **Payment Made** check box and
 
 ## See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Finance](Finance.md)
+[Finance](finance.md)

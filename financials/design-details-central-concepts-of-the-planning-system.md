@@ -129,5 +129,5 @@ The core of the planning system involves balancing demand and supply by means of
   
 ## See Also  
  [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)   
- [Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md)   
+ [Design Details: Central Concepts of the Planning System]()   
  [Design Details: Supply Planning](design-details-supply-planning.md)

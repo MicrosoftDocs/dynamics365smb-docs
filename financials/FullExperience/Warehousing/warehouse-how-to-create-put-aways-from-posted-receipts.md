@@ -34,4 +34,4 @@ If your location uses both put-away processing and receive processing and you ha
   
 ## See Also  
  [Put Items Away](../put-items-away.md)   
- [Design Details: Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md)
+ [Design Details: Inbound Warehouse Flow](../../design-details-inbound-warehouse-flow.md)

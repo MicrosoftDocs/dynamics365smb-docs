@@ -74,4 +74,4 @@ When your location is set up to require pick processing but not shipment process
  [Pick Items](../pick-items.md)   
  [How to: Pick Items with Inventory Picks](../how-to-pick-items-with-inventory-picks.md)   
  [How to: Pick Items for Warehouse Shipment](../how-to-pick-items-for-warehouse-shipment.md)   
- [Design Details: Warehouse Management](../design-details-warehouse-management.md)
+ [Design Details: Warehouse Management](../../design-details-warehouse-management.md)

@@ -83,5 +83,5 @@ Sales tax includes taxes that companies pay for using items:
 ## See Also
 [United States Local Functionality](united-states-local-functionality.md)  
 [Reporting Sales Tax in the US](us-sales-tax)  
-[Finance](finance.md)  
-[Setting Up Finance](finance-setup-finance.md)  
+[Finance](../../finance.md)  
+[Setting Up Finance](../../finance.md)  

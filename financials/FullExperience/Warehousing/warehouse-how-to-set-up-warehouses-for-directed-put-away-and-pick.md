@@ -71,4 +71,4 @@ Directed put-away and pick gives you access to advanced warehousing features tha
  [How to: Set Up Items for Directed Put-away and Pick](../how-to-set-up-items-for-directed-put-away-and-pick.md)   
  [How to: Convert Existing Locations to Warehouse Locations](../how-to-convert-existing-locations-to-warehouse-locations.md)   
  [About Warehouse Management](../about-warehouse-management.md)   
- [Design Details: Warehouse Management](design-details-warehouse-management.md)
+ [Design Details: Warehouse Management](../../design-details-warehouse-management.md)

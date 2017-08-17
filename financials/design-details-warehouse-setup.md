@@ -18,12 +18,12 @@
 # Design Details: Warehouse Management
 This documentation gives an overview of the concepts and principles that are used in the Warehouse Management features in [!INCLUDE[d365fin](includes/d365fin_md.md)]. It explains the design behind central warehouse features and how warehousing integrates with other supply chain features.  
   
- To differentiate the different complexity levels of the warehousing, this documentation is divided into two general groups, Basic and Advanced Warehousing, indicated by section titles. This simple differentiation covers different complexity levels as defined by product granules and location setup. For more information, see [Design Details: Warehouse Setup](design-details-warehouse-setup.md).  
+ To differentiate the different complexity levels of the warehousing, this documentation is divided into two general groups, Basic and Advanced Warehousing, indicated by section titles. This simple differentiation covers different complexity levels as defined by product granules and location setup. For more information, see [Design Details: Warehouse Setup]().  
   
 ## In This Section  
  [Design Details: Warehouse Overview](design-details-warehouse-overview.md)  
   
- [Design Details: Warehouse Setup](design-details-warehouse-setup.md)  
+ [Design Details: Warehouse Setup]()  
   
  [Design Details: Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md)  
   

@@ -30,5 +30,5 @@ Entering the correct setup values from the start is important to the success of 
  [Set Up a Company With RapidStart Services for [!INCLUDE[d365fin](includes/d365fin_md.md)](set-up-a-company-with-rapidstart-services-for-microsoft-dynamics-nav.md)   
  [Design Details: Supply Planning](design-details-supply-planning.md)   
  [Design Details: Costing Methods](design-details-costing-methods.md)  
- [Set Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)  
+ [Set Up Complex Application Areas Using Best Practices]()  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

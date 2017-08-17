@@ -18,14 +18,14 @@
 # Walkthrough: Receiving and Putting Away in Basic Warehousing
 In ADD INCLUDE<!--[!INCLUDE[navnow](includes/navnow_md.md)]-->, the inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.  
 
-|Method|Inbound process|Bins|Receipts|Put-aways|Complexity level (See [Design Details: Warehouse Setup](FullExperience/design-details-warehouse-setup.md))|  
+|Method|Inbound process|Bins|Receipts|Put-aways|Complexity level (See [Design Details: Warehouse Setup](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  
 |A|Post receipt and put-away from the order line|X|||2|  
 |B|Post receipt and put-away from an inventory put-away document|||X|3|  
 |C|Post receipt and put-away from a warehouse receipt document||X||4/5/6|  
 |D|Post receipt from a warehouse receipt document and post put-away from a warehouse put-away document||X|X|4/5/6|  
 
- For more information, see [Design Details: Inbound Warehouse Flow](FullExperience/design-details-inbound-warehouse-flow.md).  
+ For more information, see [Design Details: Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md).  
 
  The following walkthrough demonstrates method B in the previous table.  
 
@@ -158,6 +158,6 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](includes/navnow_md.md)]-->, the inbound proc
  [How to: Move Components to an Operation Area in Basic Warehousing](FullExperience/how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
  [How to: Pick for Production in Basic Warehousing](FullExperience/how-to-pick-for-production-in-basic-warehousing.md)   
  [How to: Move Items Ad Hoc in Basic Warehousing](FullExperience/how-to-move-items-ad-hoc-in-basic-warehousing.md)   
- [Design Details: Inbound Warehouse Flow](FullExperience/design-details-inbound-warehouse-flow.md)   
+ [Design Details: Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md)   
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

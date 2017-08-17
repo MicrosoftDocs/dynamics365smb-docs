@@ -53,7 +53,7 @@ The following table describes a sequence of tasks, with links to the topics that
 [Setting Up Sales](sales-setup-sales.md)  
 [How to: Register New Customers](sales-how-register-new-customers.md)  
 [Managing Receivables](receivables-manage-receivables.md)  
-[Managing Payables](payables-manage-payables.MD)  
+[Managing Payables](payables-manage-payables.md)  
 [Project Management](projects-manage-projects.md)    
 [Supply Chain](madeira-supply-chain.md)      
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

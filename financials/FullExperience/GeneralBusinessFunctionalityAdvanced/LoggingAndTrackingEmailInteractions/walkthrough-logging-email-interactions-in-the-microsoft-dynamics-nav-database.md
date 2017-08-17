@@ -237,11 +237,11 @@ In managing your relationships with contacts, it helps keep track of email corre
 ## Using Email Logging and Interaction Logs  
  To verify your interactions, you can review the information that is recorded in the **Interaction Log Entries** window.  
 
- For more information, see [How to: Set Up Email Logging for use with the Job Queue](../how-to-set-up-email-logging-for-use-with-the-job-queue.md)  
+ For more information, see [How to: Set Up Email Logging for use with the Job Queue](how-to-set-up-email-logging-for-use-with-the-job-queue.md)  
 
 ## See Also  
- [Logging and Tracking Email Interactions](../logging-and-tracking-email-interactions.md)   
+ [Logging and Tracking Email Interactions](logging-and-tracking-email-interactions.md)   
  Folders   
  Relationship Management Setup   
- [Security Considerations for Email Logging](../security-considerations-for-email-logging.md)   
- [Troubleshooting: Email Logging](../troubleshooting-email-logging.md)
+ [Security Considerations for Email Logging](security-considerations-for-email-logging.md)   
+ [Troubleshooting: Email Logging](troubleshooting-email-logging.md)

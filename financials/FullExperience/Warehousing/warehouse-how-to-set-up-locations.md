@@ -32,4 +32,4 @@ You can keep track of items in different locations by setting up locations.
  [How to: Set Up In-Transit Codes](../how-to-set-up-in-transit-codes.md)   
  [How to: Set Up Warehouses for Directed Put-away and Pick](../how-to-set-up-warehouses-for-directed-put-away-and-pick.md)   
  [How to: Convert Existing Locations to Warehouse Locations](../how-to-convert-existing-locations-to-warehouse-locations.md)   
- [About Using Locations and Responsibility Centers](../about-using-locations-and-responsibility-centers.md)
+ [About Using Locations and Responsibility Centers](../GeneralBusinessFunctionalityAdvanced/ResponsibilityCenters/about-using-locations-and-responsibility-centers.md)

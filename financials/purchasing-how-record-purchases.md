@@ -1,4 +1,4 @@
-﻿---
+---
 title: Create a Purchase Invoice and Record Purchases | Microsoft Docs
 description: Describes how to purchase inventory and service items by creating and posting purchase invoices or orders.
 documentationcenter: ''

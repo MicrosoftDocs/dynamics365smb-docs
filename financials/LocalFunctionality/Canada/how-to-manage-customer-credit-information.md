@@ -52,5 +52,5 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can add comments to customer
 
 ## See Also  
 [Canada Local Functionality](canada-local-functionality.md)  
-[Finance](finance.md)  
-[Setting Up Finance](finance-setup-finance.md)
+[Finance](../../finance.md)  
+[Setting Up Finance](../../finance.md)

@@ -110,5 +110,5 @@ You may want to restructure your warehouse with new bin codes and new bin charac
  Bin Content   
  [How to: Set Up Bin Contents](../how-to-set-up-bin-contents.md)   
  [How to: Delete Registered Warehouse Documents](../how-to-delete-registered-warehouse-documents.md)   
- [Design Details: Warehouse Management](design-details-warehouse-management.md)   
+ [Design Details: Warehouse Management](../../design-details-warehouse-management.md)   
  [Configure Warehouse Processes](../configure-warehouse-processes.md)

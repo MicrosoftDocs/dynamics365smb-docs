@@ -76,4 +76,4 @@ At least once in every fiscal year, you must take a physical inventory to see if
  [How to: Perform a Physical Inventory](../how-to-perform-a-physical-inventory.md)   
  [How to: Set Up Physical Inventory Counting Periods](../how-to-set-up-physical-inventory-counting-periods.md)   
  [Count, Adjust, and Reclassify Inventory](../count-adjust-and-reclassify-inventory.md)   
- [Design Details: Integration with Inventory](design-details-integration-with-inventory.md)
+ [Design Details: Integration with Inventory](../../design-details-integration-with-inventory.md)

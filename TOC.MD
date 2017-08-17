@@ -15696,7 +15696,7 @@
 # [How to: Add Users for ADCS](WarehouseActivities/how-to-add-users-for-adcs.md)
 # [How to: Set Up a Warehouse to Use ADCS](WarehouseActivities/how-to-set-up-a-warehouse-to-use-adcs.md)
 # [How to: Calculate Bin Replenishment](WarehouseActivities/how-to-calculate-bin-replenishment.md)
-# [How to: Set Up Warehouse Management](WarehouseActivities/how-to-set-up-warehouse-management.md)
+# [How to: Setting Up Warehouse Management](WarehouseActivities/how-to-set-up-warehouse-management.md)
 # [($ N_461 Inventory Setup $)](WarehouseActivities/-$-n_461-inventory-setup-$-.md)
 # [How to: Create and Customize Miniforms](WarehouseActivities/how-to-create-and-customize-miniforms.md)
 # [How to: Set Up Warehouse Employees](WarehouseActivities/how-to-set-up-warehouse-employees.md)

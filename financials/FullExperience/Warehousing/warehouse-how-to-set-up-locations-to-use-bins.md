@@ -52,4 +52,4 @@ Bins represent the basic warehouse structure and are used to make suggestions ab
  Bin Content   
  [Configure Warehouse Processes](../configure-warehouse-processes.md)   
  [Design Details: Warehouse Management](../../design-details-warehouse-management.md)   
- [How to: Set Up Warehouse Management](../how-to-set-up-warehouse-management.md)
+ [How to: Setting Up Warehouse Management](../how-to-set-up-warehouse-management.md)

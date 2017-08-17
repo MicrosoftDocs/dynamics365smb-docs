@@ -281,9 +281,9 @@
 
 ## [Warehouse Management](warehouse-manage-warehouse.md)
 ### [How to: Receive Items](warehouse-how-receive-items.md)
-### [How to: Put Items Away](warehouse-how-put-away-items.md)
+### [Putting Items Away](warehouse-put-away-items.md)
 ### [How to: Move Items](warehouse-how-move-items.md)
-### [How to: Pick Items](warehouse-how-pick-items.md)
+### [Picking Items](warehouse-pick-items.md)
 ### [How to: Ship Items](warehouse-how-ship-items)
 
 ## Production

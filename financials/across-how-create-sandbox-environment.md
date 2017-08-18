@@ -67,7 +67,6 @@ After you’ve enabled the advanced functionality in a sandbox tenant, you get a
 
 
 ## See Also
-[Sales](sales-manage-sales.md)    
-[Incoming Documents](across-income-documents.md)  
-[Purchasing](purchasing-manage-purchasing.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)  
+
+

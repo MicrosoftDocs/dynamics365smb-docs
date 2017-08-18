@@ -23,10 +23,11 @@ When items arrive at a warehouse that is set up for warehouse receipt processing
 ## To receive items with a purchase order
 The following describes how to receive items with a purchase order. The steps are similar for sales return orders and transfer orders.  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **purchase orders**, and then choose the related link.
-2. In the **Qty. to Receive** field, enter the received quantity.
+2. Open a purchase order, or create a new one. For more information, see [How to: Record Purchases](purchasing-how-record-purchases.md).
+3. In the **Qty. to Receive** field, enter the received quantity.
 
     The value in the **Qty. Received** field is updated. If this is a partial receipt, then the value is lower than the value in the **Quantity** field.
-3. Choose the **Post** action.
+4. Choose the **Post** action.
 
 ## Top receive items with a warehouse receipt
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Warehouse Receipts**, and then choose the related link.  
@@ -48,7 +49,6 @@ The following describes how to receive items with a purchase order. The steps ar
     4. Choose the **Run** action.  
 
     All released source document lines that fulfill the filter criteria are now inserted in **Warehouse Receipt** window from which you activated the filter function.  
-
 
     The filter combinations that you define are saved in the **Filters to Get Source Docs.** window until the next time you need it. You can make an unlimited number of filter combinations. You can change the criteria at any time by choosing the **Modify** action.
 

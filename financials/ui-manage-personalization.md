@@ -15,7 +15,7 @@ ms.date: 07/26/2017
 ms.author: jswymer
 
 ---
-# Managing Personalization by Users as an Administrator
+# Managing Personalization as an Administrator
 <!--NAV in the Web client-->
 Users can personalize their workspace to suit their own preferences. As an administrator, you can control and manage personalization by disabling the ability for users to personalize pages and clearing any page personalizations that users have made. 
 
@@ -29,7 +29,7 @@ You can prevent all users that belong to a specific profile from being able to p
 
 Clearing page personalization changes the page back to its original layout, before any personalization was made. There are two ways to clear the personalizations that users have made to pages: using the **Delete User Personalization** page and using the **User Personalization Card** page. 
 
-### Clear user personalizations by using the **Delete User Personalization** page
+### Clear user personalizations by using the Delete User Personalization page
 
 The **Delete User Personalization** page enables you to clear personalizations on a per-page basis for each user individually. 
 
@@ -41,7 +41,7 @@ The **Delete User Personalization** page enables you to clear personalizations o
 
     The user will see the changes the next time they sign-in.
 
-### Clear user personalizations by using the **User Personalization Card** page
+### Clear user personalizations by using the User Personalization Card page
 
 The **User Personalization Card** page enables you to clear the personalization on all pages for specific user.
 
@@ -51,7 +51,7 @@ The **User Personalization Card** page enables you to clear the personalization 
 
 2. Select the user from the list, and then choose the **Edit** action.
 
-3.  On the Actions tab, choose **Clear Personalized Pages**.
+3.  On the **Actions** tab, choose **Clear Personalized Pages**.
 
     The user will see the changes the next time they sign-in.
 

@@ -21,7 +21,7 @@ The Inventory Pick window is also used to pick and ship for sales where items mu
 
 Items to be shipped are not physically present in a bin until they are assembled and posted as output to a bin in the assembly area. This means that picking assemble-to-order items for shipment follows a special flow. From a bin, warehouse workers take the assembly items to the shipping dock and then post the inventory pick. The posted inventory pick then posts the assembly output, the component consumption, and the sales shipment.
 
-You can set up Microsoft Dynamics NAV to automatically create an inventory movement when the inventory pick for the assembly item is created. To enable this, you must select the Create Movements Automatically field in the Assembly Setup window. For more information, see How to: Move Components to an Operation Area in Basic Warehousing.
+You can set up Microsoft Dynamics NAV to automatically create an inventory movement when the inventory pick for the assembly item is created. To enable this, you must select the Create Movements Automatically field in the Assembly Setup window. For more information, see How to: Move Components to an Operation Area in Basic Warehouse Configurations.
 
 Inventory pick lines for sales items are created in different ways depending on whether none, some, or all of the sales line quantities are assembled to order.
 

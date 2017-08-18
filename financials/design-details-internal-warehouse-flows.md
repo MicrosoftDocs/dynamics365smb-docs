@@ -27,7 +27,7 @@ The Warehouse Management application area and the Inventory application area int
   
  If the quantity counted is less than the quantity on the journal line, a movement for this difference is posted from the counted bin to the default adjustment bin. This decreases the quantity in the counted bin and increases the quantity in the default adjustment bin.  
   
- In advanced warehousing, the value in the **Quantity (Calculated)** field is retrieved from item ledger entries and the value in the **Quantity (Phys. Inventory)** field is retrieved from warehouse entries, excluding the adjustment bin content. The **Quantity** field specifies the difference between the first two fields, which should be equal to the contents of the adjustment bin.  
+ In advanced warehouse configurations, the value in the **Quantity (Calculated)** field is retrieved from item ledger entries and the value in the **Quantity (Phys. Inventory)** field is retrieved from warehouse entries, excluding the adjustment bin content. The **Quantity** field specifies the difference between the first two fields, which should be equal to the contents of the adjustment bin.  
   
  When you post the physical inventory journal, the inventory and the default adjustment bin are updated.  
   

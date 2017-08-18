@@ -27,14 +27,14 @@ This selection of walkthroughs provides step-by-step, end-to-end business proces
 |Set up a marketing campaign|[Walkthrough: Conducting a Sales Campaign](walkthrough-conducting-a-sales-campaign.md)|  
 |Use prepayments to part of sales orders|[Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)|  
 |Set up approval users, when and how the users receive notification about approval workflows, and then modify and enable the relevant approval workflow.|[Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
-|Put received items away in basic warehouse configurations|[Walkthrough: Receiving and Putting Away in Basic Warehousing](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)|  
-|Put received items away in advanced warehouse configurations|[Walkthrough: Receiving and Putting Away in Advanced Warehousing](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)|  
+|Put received items away in basic warehouse configurations|[Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)|  
+|Put received items away in advanced warehouse configurations|[Walkthrough: Receiving and Putting Away in advanced warehouse configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)|  
 |Plan supply orders to fulfill demand manually|[Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)|  
 |Plan supply orders to fulfill demand automatically|[Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md)|  
 |Assemble and ship items that are customized on the sales order|[Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)|  
 |Plan a project, from start to finish|[Walkthrough: Managing Projects with Jobs](walkthrough-managing-projects-with-jobs.md)|  
 |Understand the costs of a job|[Walkthrough: Calculating Work in Process for a Job](walkthrough-calculating-work-in-process-for-a-job.md)|  
-|Pick items for shipment in basic warehouse configurations|[Walkthrough: Picking and Shipping in Basic Warehousing](walkthrough-picking-and-shipping-in-basic-warehousing.md)|  
+|Pick items for shipment in basic warehouse configurations|[Walkthrough: Picking and Shipping in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)|  
 |Implement defects management|[Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)|  
 
 ## See Also

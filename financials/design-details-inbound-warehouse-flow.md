@@ -34,7 +34,7 @@ The inbound flow in a warehouse begins when items arrive in the warehouse of the
   
  The last two represent inbound flows to the warehouse from internal operation areas. For more information about warehouse handling for internal inbound and outbound processes, see [Design Details: Internal Warehouse Flows](design-details-internal-warehouse-flows.md).  
   
- Processes and UI documents in inbound warehouse flows are different for basic and advanced warehousing. The main difference is that activities are performed order-by-order in basic warehousing, and they are consolidated for multiple orders in advanced warehousing. For more information about different warehouse complexity levels, see [Design Details: Warehouse Overview](design-details-warehouse-setup.md).  
+ Processes and UI documents in inbound warehouse flows are different for basic and advanced warehouse configurations. The main difference is that activities are performed order-by-order in basic warehouse configurations, and they are consolidated for multiple orders in advanced warehouse configurations. For more information about different warehouse complexity levels, see [Design Details: Warehouse Overview](design-details-warehouse-setup.md).  
   
  In [!INCLUDE[d365fin](includes/d365fin_md.md)], the inbound processes of receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.  
   
@@ -49,10 +49,10 @@ The inbound flow in a warehouse begins when items arrive in the warehouse of the
   
  In methods A, B, and C, the actions of receiving and putting away are combined in one step when posting the corresponding documents as received. In method D, the receipt is posted first to recognize the increase of inventory and that items are available for sale. The warehouse worker then registers the put-away to make items available to pick.  
   
-## Basic Warehousing  
- The following diagram illustrates the inbound warehouse flows by document type in basic warehousing. The numbers in the diagram correspond with the steps in the sections following the diagram.  
+## Basic Warehouse Configurations  
+ The following diagram illustrates the inbound warehouse flows by document type in basic warehouse configurations. The numbers in the diagram correspond with the steps in the sections following the diagram.  
   
- ![Inbound flow in basic warehousing](media/design_details_warehouse_management_inbound_basic_flow.png "design_details_warehouse_management_inbound_basic_flow")  
+ ![Inbound flow in basic warehouse configurations](media/design_details_warehouse_management_inbound_basic_flow.png "design_details_warehouse_management_inbound_basic_flow")  
   
 ### 1: Release Source Document / Create Inventory Put-Away  
  When items are received in the warehouse, the user who is responsible for receiving releases the source document, such as a purchase order or an inbound transfer order, to signal to warehouse workers that the received items can be put away in inventory. Alternatively, the user creates inventory put-away documents for individual order lines, in a push fashion, based on specified bins and quantities to handle.  
@@ -68,10 +68,10 @@ The inbound flow in a warehouse begins when items arrive in the warehouse of the
   
  Positive item ledger entries are created, warehouse entries are created, and the put-away request is deleted, if fully handled. For example, the **Quantity Received** field on the inbound source document line is updated. A posted receipt document is created that reflects the purchase order, for example, and the received items.  
   
-## Advanced Warehousing  
- The following diagram illustrates the inbound warehouse flow by document type in advanced warehousing. The numbers in the diagram correspond with the steps in the sections following the diagram.  
+## advanced warehouse configurations  
+ The following diagram illustrates the inbound warehouse flow by document type in advanced warehouse configurations. The numbers in the diagram correspond with the steps in the sections following the diagram.  
   
- ![Inbound flow in advanced warehousing](media/design_details_warehouse_management_inbound_advanced_flow.png "design_details_warehouse_management_inbound_advanced_flow")  
+ ![Inbound flow in advanced warehouse configurations](media/design_details_warehouse_management_inbound_advanced_flow.png "design_details_warehouse_management_inbound_advanced_flow")  
   
 ### 1: Release Source Document  
  When items are received in the warehouse, the user who is responsible for receiving releases the source document, such as a purchase order or an inbound transfer order, to signal to warehouse workers that the received items can be put away in inventory.  

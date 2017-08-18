@@ -1,5 +1,5 @@
 ---
-    title: How to Move Components to an Operation Area in Basic Warehousing | Microsoft Docs
+    title: How to Move Components to an Operation Area in Basic Warehouse Configurations | Microsoft Docs
     description: If item processing operations occur at your warehouse location, then you may have to move items between internal bins to respond to internal source documents, such as production, assembly, or service orders at the location.
     services: project-madeira
     documentationcenter: ''
@@ -15,13 +15,13 @@
     ms.author: sgroespe
 
 ---
-# How to: Move Components to an Operation Area in Basic Warehousing
+# How to: Move Components to an Operation Area in Basic Warehouse Configurations
 If item processing operations occur at your warehouse location, then you may have to move items between internal bins to respond to internal source documents, such as production, assembly, or service orders at the location.  
 
 > [!NOTE]  
 >  For information about moving items between bins without source documents, see Internal Movement.  
 
-In advanced warehouse configurations, which are locations that use the **Directed Put-away and Pick** setup field, you can use the **Movement Worksheet** window to move items between bins. For more information, see [How to: Move Items in Advanced Warehousing](warehouse-how-to-move-items-in-advanced-warehousing.md).  
+In advanced warehouse configurations, which are locations that use the **Directed Put-away and Pick** setup field, you can use the **Movement Worksheet** window to move items between bins. For more information, see [How to: Move Items in Advanced warehouse Configurations](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
 In basic warehouse configurations, which are locations that use the **Bin Mandatory** setup field and the **Require Pick** setup field, you can register movement of items to internal operation areas based on internal source documents in the following ways:  
 
@@ -40,11 +40,11 @@ Alternatively, a warehouse worker can create it by pointing to the released asse
 > [!NOTE]  
 >  If the movement is for an assembly order where the item is assembled to a sales order, then you can define that the inventory movement document is automatically created when you create the inventory pick document that takes the finished assembly item and posts the shipment. To set this up, select the **Create Movements Automatically** field in the **Assembly Setup** window  
 >   
->  For more information about assembly orders and basic warehousing, see [How to: Handle Assemble-to-Order Items in Inventory Picks](warehouse-how-to-handle-assembly-components-with-inventory-picks).  
+>  For more information about assembly orders and basic warehouse configurations, see [How to: Handle Assemble-to-Order Items in Inventory Picks](warehouse-how-to-handle-assembly-components-with-inventory-picks).  
 
 This procedure shows how to create an inventory movement from the **Inventory Movement** window by referencing a released assembly order as a source document. The procedure is the same when you move components for production orders and service orders.  
 
-## To move components to an operation area in basic warehousing  
+## To move components to an operation area in basic warehouse configurations  
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Inventory Movement**, and choose the relevant link.  
 2.  On the **General** FastTab, fill in the **No.** field. You can press the Enter key  to select from the number series.  
 3.  In the **Location Code** field, enter the location where the movement occurs.  

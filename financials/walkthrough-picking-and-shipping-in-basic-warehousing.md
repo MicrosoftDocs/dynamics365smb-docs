@@ -1,5 +1,5 @@
 ---
-    title: Walkthrough - Picking and Shipping in Basic Warehousing | Microsoft Docs
+    title: Walkthrough - Picking and Shipping in Basic Warehouse Configurations | Microsoft Docs
     description: In [!INCLUDE[d365fin](includes/d365fin_md.md)], the outbound processes for picking and shipping can be performed in four ways using different functionalities depending on the warehouse complexity level.
     services: project-madeira
     documentationcenter: ''
@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# Walkthrough: Picking and Shipping in Basic Warehousing
+# Walkthrough: Picking and Shipping in Basic Warehouse Configurations
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], the outbound processes for picking and shipping can be performed in four ways using different functionalities depending on the warehouse complexity level.  
 
 |Method|Inbound process|Bins|Picks|Shipments|Complexity level (See [Design Details: Warehouse Setup](design-details-warehouse-setup.md))|  
@@ -30,7 +30,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], the outbound processes for picki
  The following walkthrough demonstrates method B in the previous table.  
 
 ## About This Walkthrough  
- In basic warehousing where your location is set up to require pick processing but not ship processing, you use the **Inventory Pick** window to record and post pick and ship information for your outbound source documents. The outbound source document can be a sales order, purchase return order, outbound transfer order, or a production order with component need.  
+ In basic warehouse configurations where your location is set up to require pick processing but not ship processing, you use the **Inventory Pick** window to record and post pick and ship information for your outbound source documents. The outbound source document can be a sales order, purchase return order, outbound transfer order, or a production order with component need.  
 
  This walkthrough demonstrates the following tasks:  
 
@@ -143,9 +143,9 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], the outbound processes for picki
  [How to: Pick Items with Inventory Picks](how-to-pick-items-with-inventory-picks.md)   
  [How to: Pick Items for Warehouse Shipment](how-to-pick-items-for-warehouse-shipment.md)   
  [How to: Set Up Basic Warehouses with Operations Areas](how-to-set-up-basic-warehouses-with-operations-areas.md)   
- [How to: Move Components to an Operation Area in Basic Warehousing](how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
- [How to: Pick for Production in Basic Warehousing](how-to-pick-for-production-in-basic-warehousing.md)   
- [How to: Move Items Ad Hoc in Basic Warehousing](how-to-move-items-ad-hoc-in-basic-warehousing.md)   
+ [How to: Move Components to an Operation Area in Basic Warehouse Configurations](how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
+ [How to: Pick for Production in Basic Warehouse Configurations](how-to-pick-for-production-in-basic-warehousing.md)   
+ [How to: Move Items Ad Hoc in Basic Warehouse Configurations](how-to-move-items-ad-hoc-in-basic-warehousing.md)   
  [Design Details: Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md)   
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

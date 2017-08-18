@@ -1,5 +1,5 @@
 ---
-    title: How to Move Items Ad Hoc in Basic Warehousing | Microsoft Docs
+    title: How to Move Items Ad Hoc in Basic Warehouse Configurations | Microsoft Docs
     description: You may occasionally need to move items between internal bins, not receiving or shipping bins, without a specific demand from a source document. You may perform these ad hoc movements, for example, to reorganize the warehouse, to bring items to an inspection area, or to move additional items to and from a production area without a system relation to the production order source document.
     services: project-madeira
     documentationcenter: ''
@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Move Items Ad Hoc in Basic Warehousing
+# How to: Move Items Ad Hoc in Basic Warehouse Configurations
 You may occasionally need to move items between internal bins, not receiving or shipping bins, without a specific demand from a source document. You may perform these ad hoc movements, for example, to reorganize the warehouse, to bring items to an inspection area, or to move additional items to and from a production area without a system relation to the production order source document.  
 
 In basic warehouse configurations, that is locations that use the **Bin Mandatory** setup field and possibly the **Require Pick** and the **Require Put-away** setup fields, you can register ad hoc movements without source documents in the following ways:  
@@ -52,7 +52,7 @@ In basic warehouse configurations, that is locations that use the **Bin Mandator
     > [!NOTE]  
     >  When you have created the inventory movement, the internal movement lines are deleted.  
 
-    You perform the remainder of the ad hoc movement in the **Inventory Movement** window in the same way as you would for a movement based on source documents. For more information, see for example [How to: Move Components to an Operation Area in Basic Warehousing](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
+    You perform the remainder of the ad hoc movement in the **Inventory Movement** window in the same way as you would for a movement based on source documents. For more information, see for example [How to: Move Components to an Operation Area in Basic Warehouse Configurations](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
 
 ## To move items with the item reclassification journal
 In stead of using warehouse movement documents, you can record the moving of items by reclassifying their bin codes. For more information, see [How to: Count, Adjust, and Reclassify Inventory](inventory-how-count-adjust-reclassify.md).   

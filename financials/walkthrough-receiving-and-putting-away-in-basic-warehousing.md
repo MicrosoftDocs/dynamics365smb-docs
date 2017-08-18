@@ -1,5 +1,5 @@
 ---
-    title: Walkthrough - Receiving and Putting Away in Basic Warehousing | Microsoft Docs
+    title: Walkthrough - Receiving and Putting Away in Basic Warehouse Configurations | Microsoft Docs
     description: In ADD INCLUDE<!--[!INCLUDE[navnow](includes/navnow_md.md)]-->, the inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.
     services: project-madeira
     documentationcenter: ''
@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# Walkthrough: Receiving and Putting Away in Basic Warehousing
+# Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations
 In ADD INCLUDE<!--[!INCLUDE[navnow](includes/navnow_md.md)]-->, the inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.  
 
 |Method|Inbound process|Bins|Receipts|Put-aways|Complexity level (See [Design Details: Warehouse Setup](design-details-warehouse-setup.md))|  
@@ -30,7 +30,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](includes/navnow_md.md)]-->, the inbound proc
  The following walkthrough demonstrates method B in the previous table.  
 
 ## About This Walkthrough  
- In basic warehousing where your location is set up to require put-away processing but not receive processing, you use the **Inventory Put-away** window to record and post put-away and receipt information for your inbound source documents. The inbound source document can be a purchase order, sales return order, inbound transfer order, or production order with output that is ready to be put away.  
+ In basic warehouse configurations where your location is set up to require put-away processing but not receive processing, you use the **Inventory Put-away** window to record and post put-away and receipt information for your inbound source documents. The inbound source document can be a purchase order, sales return order, inbound transfer order, or production order with output that is ready to be put away.  
 
  This walkthrough demonstrates the following tasks.  
 
@@ -155,9 +155,9 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](includes/navnow_md.md)]-->, the inbound proc
 ## See Also  
  [How to: Put Items Away with Inventory Put-aways](FullExperience/how-to-put-items-away-with-inventory-put-aways.md)   
  [How to: Set Up Basic Warehouses with Operations Areas](FullExperience/how-to-set-up-basic-warehouses-with-operations-areas.md)   
- [How to: Move Components to an Operation Area in Basic Warehousing](FullExperience/how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
- [How to: Pick for Production in Basic Warehousing](FullExperience/how-to-pick-for-production-in-basic-warehousing.md)   
- [How to: Move Items Ad Hoc in Basic Warehousing](FullExperience/how-to-move-items-ad-hoc-in-basic-warehousing.md)   
+ [How to: Move Components to an Operation Area in Basic Warehouse Configurations](FullExperience/how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
+ [How to: Pick for Production in Basic Warehouse Configurations](FullExperience/how-to-pick-for-production-in-basic-warehousing.md)   
+ [How to: Move Items Ad Hoc in Basic Warehouse Configurations](FullExperience/how-to-move-items-ad-hoc-in-basic-warehousing.md)   
  [Design Details: Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md)   
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

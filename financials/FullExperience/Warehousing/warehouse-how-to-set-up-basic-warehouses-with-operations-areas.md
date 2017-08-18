@@ -56,7 +56,7 @@ If internal operation areas such as production or assembly exist in basic wareho
     > [!NOTE]  
     >  When you use inventory picks, the **Bin Code** field on a production order component line defines the *take* bin from where components are decreased when posting consumption. When you use inventory movements, the **Bin Code** field on production order component lines defines the *place* bin in the operation area where the warehouse worker must place the components.  
   
-4.  On the **Bins** FastTab, in the **From-Production Bin Code** field, enter the code of the bin in the production area where finished end items are taken from by default when the process involves a warehouse activity. In basic warehousing, the activity is recorded as an inventory put-away or an inventory movement.  
+4.  On the **Bins** FastTab, in the **From-Production Bin Code** field, enter the code of the bin in the production area where finished end items are taken from by default when the process involves a warehouse activity. In basic warehouse configurations, the activity is recorded as an inventory put-away or an inventory movement.  
   
  Now, production order component lines with the default bin code require that forward-flushed components are placed there. However, until the components are consumed from that bin, other component demands may pick or consume from that bin because they are still considered available bin contents. To make sure that bin content is only available to component demand that uses that to-production bin, you must select the **Dedicated** field on the line for that bin code in the **Bins** window that you open from the location card.  
   
@@ -78,7 +78,7 @@ If internal operation areas such as production or assembly exist in basic wareho
  Flushing Method   
  Bin Code   
  Dedicated   
- [How to: Move Components to an Operation Area in Basic Warehousing](../how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
- [How to: Pick for Production in Basic Warehousing](../how-to-pick-for-production-in-basic-warehousing.md)   
- [How to: Move Items Ad Hoc in Basic Warehousing](../how-to-move-items-ad-hoc-in-basic-warehousing.md)   
+ [How to: Move Components to an Operation Area in Basic Warehouse Configurations](../how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
+ [How to: Pick for Production in Basic Warehouse Configurations](../how-to-pick-for-production-in-basic-warehousing.md)   
+ [How to: Move Items Ad Hoc in Basic Warehouse Configurations](../how-to-move-items-ad-hoc-in-basic-warehousing.md)   
  [How to: Convert Existing Locations to Warehouse Locations](../how-to-convert-existing-locations-to-warehouse-locations.md)

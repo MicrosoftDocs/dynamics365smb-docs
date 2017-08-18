@@ -170,7 +170,7 @@ You can also use the **Adjust Inventory** function as a simple way to place purc
 > [!NOTE]  
 >   After you have adjusted inventory, you must update it with the current, calculated value. For more information, see [How to: Revalue Inventory](inventory-how-revalue-inventory.md).
 
-## To adjust the inventory quantity of one or more items
+## To adjust the inventory quantity of multiple items in basic warehouse configurations
 In the **Item Journal** window, you can post item transaction directly to adjust inventory in connection with purchases, sales, and positive or negative adjustments without using documents.
 
 If you often use the item journal to post the same or similar journal lines, for example, in connection with material consumption, you can use the **Standard Item Journal** window to make this recurring work easier. For more information, see the "Standard Journals" section in [Working with General Journals](ui-work-general-journals.md).
@@ -182,6 +182,28 @@ If you often use the item journal to post the same or similar journal lines, for
 > [!NOTE]  
 >   After you have adjusted inventory, you must update it with the current, calculated value. For more information, see [How to: Revalue Inventory](inventory-how-revalue-inventory.md).
 
+## To adjust bin quantities in advanced warehouse configurations  
+If your location uses directed put-away and pick, use the **Whse. Item Journal** to post, outside the context of the physical inventory, all positive and negative adjustments in item quantity that you know are real gains, such as items previously posted as missing that show up unexpectedly, or real losses, such as breakage.  
+
+Unlike posting adjustments in the inventory item journal, using the warehouse item journal gives you an additional level of adjustment that makes your quantity records even more precise at all times. The warehouse thus always has a complete record of how many items are on hand and where they are stored, but each adjustment registration is not posted immediately to the item ledger. In the registering process, credits or debits are made to the real bin with the quantity adjustment and a counterbalancing entry is made in an adjustment bin, a virtual bin with no real items. This bin is defined in the **Invt. Adjustment Bin Code** on the location card.
+
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Whse. Item Journal**, and then choose the related link.  
+2.  Fill in the header information.  
+3.  Fill in the **Item No.** field on the line.  
+4.  Enter the bin in which you are putting the extra items or where you have found items to be missing.  
+5.  Fill in the quantity that you observe as a discrepancy in the **Quantity** field. If you have found extra items, enter a positive quantity. If items are missing, enter a negative quantity.  
+6.  Choose the **Register** action.
+
+### To synchronize the adjusted warehouse entries with the related item ledger entries
+At appropriate intervals as defined by company policy, you must post the warehouse adjustment bin records in the item ledger. Some companies find it appropriate to post adjustments to the item ledger every day, while others may find it adequate to reconcile less frequently.
+
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Journal**, and then choose the related link.  
+2.  Fill in the fields on each journal line.  
+3.  Choose the **Calculate Whse. Adjustment** action, and fill in the filters as appropriate in the batch job request window. The adjustments are calculated only for the entries in the adjustment bin that meet filter requirements.  
+4.  On the **Options** FastTab, fill in the **Document No.** field with a number that you enter manually. Because no number series has been set up for this batch job, use the number scheme set up by the warehouse, or enter the date followed by your initials.  
+5.  Choose the **OK** button. The positive and negative adjustments are totaled for each item and lines are created in the item journal for any items where the sum is a positive or negative quantity.  
+6.  Post the journal lines to enter the quantity differences in the item ledger. The inventory in the warehouse bins now corresponds precisely to the inventory in the item ledger.  
+
 ## To reclassify an item's lot number
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Reclass. Journals**, and then choose the related link.
 2. In the **Item Reclass. Journal** window, fill in the fields as necessary.
@@ -189,7 +211,7 @@ If you often use the item journal to post the same or similar journal lines, for
 4. In the **New Lot No.** field, enter the item's new lot number.
 5. Choose the **Post** action.
 
-Special steps apply to reclassify serial or lot numbers. For more information, see [How to: Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md).
+Special steps apply when you want to reclassify serial or lot numbers. For more information, see [How to: Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md).
 
 ## See Also
 [Inventory](inventory-manage-inventory.md)

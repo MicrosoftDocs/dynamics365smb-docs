@@ -25,7 +25,7 @@ Cost accounting can help you understand the costs of running a business. Cost ac
 In cost accounting, you allocate actual and budgeted costs of operations, departments, products, and projects to analyze the profitability of your company.  
 
 ## Workflow in Cost Accounting  
- Cost accounting has the following main components:  
+Cost accounting has the following main components:  
 
 -   Cost types, cost centers, and cost objects  
 -   Cost entries and cost journals  
@@ -67,6 +67,7 @@ You can create as many cost budgets as you want. You can copy the cost budget to
 Most reports and statistics are based on the posted cost entries. You can set the sorting of the results and use filters to define which data must be displayed. You can create reports for cost distribution analysis. In addition, you can use the standard account schedules to define how your reports for the chart of cost types are displayed.  
 
 ## See Also  
- [Accounting for Costs](manage-cost-accounting.md)   
+ [Accounting for Costs](manage-cost-accounting.md)  
+ [Finance](finance.md)   
  [Terminology in Cost Accounting](terminology-in-cost-accounting.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

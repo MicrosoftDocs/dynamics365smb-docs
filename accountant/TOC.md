@@ -1,2 +1,2 @@
-# [Welcome to Dynamics 365 for Accountants](index.md)
-## [Get started with Dynamics 365 for Accountants](accountant-get-started.md)
+# [Welcome to Dynamics 365 — Accountant Hub](index.md)
+## [Get started with Accountant Hub](accountant-get-started.md)

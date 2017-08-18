@@ -150,6 +150,7 @@
 ## [How to: Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)
 ## [How to: Create Analysis Reports](bi-how-create-analysis-views-reports.md)
 ## [How to: Set Up and Publish KPI Web Services Based on Account Schedules]
+## [How to: Create Reports with XBRL](bi-create-reports-with-xbrl.md)
 
 # [Sales](sales-manage-sales.md)
 ## [How to: Make Offers](sales-how-make-offers.md)
@@ -229,6 +230,29 @@
 ## [How to: Register Employees](hr-how-register-employees.md)
 ## [How to: Manage Employee Absence](hr-how-manage-absence.md)
 
+## [Warehouse Management](warehouse-manage-warehouse.md)
+### [How to: Receive Items](warehouse-how-receive-items.md)
+### [Putting Items Away](warehouse-put-away-items.md)
+### [Moving Items](warehouse-move-items.md)
+### [Picking Items](warehouse-pick-items.md)
+### [How to: Ship Items](warehouse-how-ship-items)
+
+## Production
+### How to: Plan for Production Availability
+### How to: Forecast for Sales and Production
+### How to: Perform Master Planning
+### How to: Material Requirements Planning
+### How to: Communicate Production Plans
+### How to: Schedule Production Processes
+### How to: Issue Materials
+### How to: Execute Production
+
+## Service Management
+### How to: Plan Service
+### How to: Fulfill Service Contracts
+### How to: Handle Customer Inquiries
+### How to: Deliver Service
+
 # [General Business Functionality](ui-across-business-areas.md)
 ## [How to: Set Up Extended Item Text](ui-how-define-ext-text.md)
 ## [Working with General Journals](ui-work-general-journals.md)
@@ -273,30 +297,3 @@
 ## [Denmark](LocalFunctionality/Denmark/denmark-local-functionality.md)
 ## [United Kingdom](LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.md)
 ## [United States](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
-
-# Advanced
-## Business Intelligence (Advanced)
-### [How to: Create Reports with XBRL](FullExperience/bi-create-reports-with-xbrl.md)
-
-## [Warehouse Management](warehouse-manage-warehouse.md)
-### [How to: Receive Items](warehouse-how-receive-items.md)
-### [Putting Items Away](warehouse-put-away-items.md)
-### [Moving Items](warehouse-move-items.md)
-### [Picking Items](warehouse-pick-items.md)
-### [How to: Ship Items](warehouse-how-ship-items)
-
-## Production
-### How to: Plan for Production Availability
-### How to: Forecast for Sales and Production
-### How to: Perform Master Planning
-### How to: Material Requirements Planning
-### How to: Communicate Production Plans
-### How to: Schedule Production Processes
-### How to: Issue Materials
-### How to: Execute Production
-
-## Service Management
-### How to: Plan Service
-### How to: Fulfill Service Contracts
-### How to: Handle Customer Inquiries
-### How to: Deliver Service

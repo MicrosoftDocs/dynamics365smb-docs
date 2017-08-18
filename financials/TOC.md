@@ -237,7 +237,7 @@
 ## [Picking Items](warehouse-pick-items.md)
 ## [How to: Ship Items](warehouse-how-ship-items)
 
-# Production
+# Manufacturing
 ## How to: Plan for Production Availability
 ## How to: Forecast for Sales and Production
 ## How to: Perform Master Planning

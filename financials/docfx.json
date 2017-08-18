@@ -30,7 +30,8 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "searchScope": ["Financials"] 
+      "searchScope": ["Financials"],
+      "uhfHeaderId": "MSDocsHeader-Dynamics365"
       },
     "fileMetadata": {},
     "template": [],

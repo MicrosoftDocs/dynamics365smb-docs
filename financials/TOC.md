@@ -230,28 +230,28 @@
 ## [How to: Register Employees](hr-how-register-employees.md)
 ## [How to: Manage Employee Absence](hr-how-manage-absence.md)
 
-## [Warehouse Management](warehouse-manage-warehouse.md)
-### [How to: Receive Items](warehouse-how-receive-items.md)
-### [Putting Items Away](warehouse-put-away-items.md)
-### [Moving Items](warehouse-move-items.md)
-### [Picking Items](warehouse-pick-items.md)
-### [How to: Ship Items](warehouse-how-ship-items)
+# [Warehouse Management](warehouse-manage-warehouse.md)
+## [How to: Receive Items](warehouse-how-receive-items.md)
+## [Putting Items Away](warehouse-put-away-items.md)
+## [Moving Items](warehouse-move-items.md)
+## [Picking Items](warehouse-pick-items.md)
+## [How to: Ship Items](warehouse-how-ship-items)
 
-## Production
-### How to: Plan for Production Availability
-### How to: Forecast for Sales and Production
-### How to: Perform Master Planning
-### How to: Material Requirements Planning
-### How to: Communicate Production Plans
-### How to: Schedule Production Processes
-### How to: Issue Materials
-### How to: Execute Production
+# Production
+## How to: Plan for Production Availability
+## How to: Forecast for Sales and Production
+## How to: Perform Master Planning
+## How to: Material Requirements Planning
+## How to: Communicate Production Plans
+## How to: Schedule Production Processes
+## How to: Issue Materials
+## How to: Execute Production
 
-## Service Management
-### How to: Plan Service
-### How to: Fulfill Service Contracts
-### How to: Handle Customer Inquiries
-### How to: Deliver Service
+# Service Management
+## How to: Plan Service
+## How to: Fulfill Service Contracts
+## How to: Handle Customer Inquiries
+## How to: Deliver Service
 
 # [General Business Functionality](ui-across-business-areas.md)
 ## [How to: Set Up Extended Item Text](ui-how-define-ext-text.md)

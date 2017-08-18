@@ -27,10 +27,10 @@ While in inventory, items may need to be moved between bins to support the daily
 |**To**|**See**|  
 |------------|-------------|  
 |Plan which bins to fill or empty to maintain an efficient flow, such as emptying a bulk storage area before a large receipt.|[How to: Plan Warehouse Movements in Worksheets](warehouse-how-to-plan-warehouse-movements-in-worksheets.md)|  
-|Use the warehouse movement worksheet to move items in advanced warehouse configurations, both for source documents and ad hoc.|[How to: Move Items in Advanced Warehousing](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
+|Use the warehouse movement worksheet to move items in advanced warehouse configurations, both for source documents and ad hoc.|[How to: Move Items in Advanced Warehouse Configurations](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
 |Record a movement between bins in advanced warehouse configurations after the movement has been completed.|[How to: Register Already Completed Warehouse Movements](warehouse-how-to-register-already-completed-warehouse-movements.md)|  
-|Bring component items to internal operations in basic warehouse configurations as requested by source documents for those operations.|[How to: Move Components to an Operation Area in Basic Warehousing](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)|  
-|Move items between bins in basic warehouse configurations at any time and without source documents.|[How to: Move Items Ad Hoc in Basic Warehousing](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)|
+|Bring component items to internal operations in basic warehouse configurations as requested by source documents for those operations.|[How to: Move Components to an Operation Area in Basic Warehouse Configurations](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)|  
+|Move items between bins in basic warehouse configurations at any time and without source documents.|[How to: Move Items Ad Hoc in Basic Warehouse Configurations](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)|
 |Update the frequency at which bins, such as picking bins, must be replenished as a result of demand fluctuations.|[How to: Calculate Bin Replenishment](warehouse-how-to-calculate-bin-replenishment.md)|
 |Restructure your warehouse with new bin codes and new bin characteristics and potentially move them around.|[How to: Restructure Warehouses](warehouse-how-to-restructure-warehouses.md)|  
 

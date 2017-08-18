@@ -1,5 +1,5 @@
 ---
-    title: Walkthrough - Receiving and Putting Away in Advanced Warehousing | Microsoft Docs
+    title: Walkthrough - Receiving and Putting Away in advanced warehouse configurations | Microsoft Docs
     description: In ADD INCLUDE<!--[!INCLUDE[navnow](includes/navnow_md.md)]-->, the inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.
     services: project-madeira
     documentationcenter: ''
@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# Walkthrough: Receiving and Putting Away in Advanced Warehousing
+# Walkthrough: Receiving and Putting Away in advanced warehouse configurations
 In ADD INCLUDE<!--[!INCLUDE[navnow](includes/navnow_md.md)]-->, the inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.  
 
 |Method|Inbound process|Bins|Receipts|Put-aways|Complexity level (See [Design Details: Warehouse Setup](design-details-warehouse-setup.md))|  
@@ -30,7 +30,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](includes/navnow_md.md)]-->, the inbound proc
  The following walkthrough demonstrates method D in the previous table.  
 
 ## About This Walkthrough  
- In advanced warehousing where your location is set up to require receiving processing in addition to put-away processing, you use the **Warehouse Receipt** window to record and post the receipt of items on multiple inbound orders. When the warehouse receipt is posted, one or more warehouse put-away documents are created to instruct warehouse workers to take the received item and place them in designated places according to bin setup or in other bins. The specific placement of the items is recorded when the warehouse put-away is registered. The inbound source document can be a purchase order, sales return order, inbound transfer order, or assembly or production order with output that is ready to be put away. If the receipt is created from an inbound order, more than one inbound source document can be retrieved for the receipt. By using this method you can register many items arriving from different inbound orders with one receipt.  
+ In advanced warehouse configurations where your location is set up to require receiving processing in addition to put-away processing, you use the **Warehouse Receipt** window to record and post the receipt of items on multiple inbound orders. When the warehouse receipt is posted, one or more warehouse put-away documents are created to instruct warehouse workers to take the received item and place them in designated places according to bin setup or in other bins. The specific placement of the items is recorded when the warehouse put-away is registered. The inbound source document can be a purchase order, sales return order, inbound transfer order, or assembly or production order with output that is ready to be put away. If the receipt is created from an inbound order, more than one inbound source document can be retrieved for the receipt. By using this method you can register many items arriving from different inbound orders with one receipt.  
 
  This walkthrough demonstrates the following tasks.  
 
@@ -187,7 +187,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](includes/navnow_md.md)]-->, the inbound proc
  Filters to Get Source Docs.   
  Warehouse Put-away   
  [How to: Put Items Away with Warehouse Put-aways](FullExperience/how-to-put-items-away-with-warehouse-put-aways.md)   
- [How to: Move Items in Advanced Warehousing](FullExperience/how-to-move-items-in-advanced-warehousing.md)   
+ [How to: Move Items in advanced warehouse configurations](FullExperience/how-to-move-items-in-advanced-warehousing.md)   
  [Design Details: Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md)   
- [Walkthrough: Receiving and Putting Away in Basic Warehousing](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)   
+ [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)   
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)

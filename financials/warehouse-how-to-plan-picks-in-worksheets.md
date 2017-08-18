@@ -32,7 +32,7 @@ If your warehouse is set up to require both pick and shipment processing, the wa
 >   
 >  For more information, see “Handling Assemble-to-Order Items in Warehouse Shipments” in Warehouse Shipment.  
 >   
->  For information about picking components for assembly orders generally, including situations where the assembly item is not due on a sales shipment, see [How to: Pick for Internal Operations in Advanced Warehousing](../how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
+>  For information about picking components for assembly orders generally, including situations where the assembly item is not due on a sales shipment, see [How to: Pick for Internal Operations in advanced warehouse configurations](../how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
   
 ### To plan picks in the worksheet  
   
@@ -62,7 +62,7 @@ If your warehouse is set up to require both pick and shipment processing, the wa
   
 ## See Also  
  Pick Worksheet   
- [How to: Pick for Internal Operations in Advanced Warehousing](../how-to-pick-for-internal-operations-in-advanced-warehousing.md)   
+ [How to: Pick for Internal Operations in advanced warehouse configurations](../how-to-pick-for-internal-operations-in-advanced-warehousing.md)   
  [Handling Assemble-to-Order Items in Warehouse Shipments](../Topic/($%20N_7335%20Warehouse%20Shipment%20$).md#BKMK_HandlingAssemble-to-OrderItemsinWarehouseShipments)   
  [How to: Pick Items for Warehouse Shipment](../how-to-pick-items-for-warehouse-shipment.md)   
  [Design Details: Warehouse Management](../../design-details-warehouse-management.md)

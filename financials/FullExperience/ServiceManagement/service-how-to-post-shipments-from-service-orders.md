@@ -37,7 +37,7 @@ After specifying the details of a service, you can adjust and post the quantitie
   
  If the location is set up to require warehouse handling, then the shipping and moving of service line items function in the same ways as for other source documents. The only difference is that service line items can be consumed either externally or internally and therefore require two different release functions. For more information, see [How to: Prepare Service Line Items for Warehouse Handling](../how-to-prepare-service-line-items-for-warehouse-handling.md).  
   
- For information about shipping service line items in advanced warehousing, see [How to: Pick Items for Warehouse Shipment](../how-to-move-components-to-an-operation-area-in-basic-warehousing.md).  
+ For information about shipping service line items in advanced warehouse configurations, see [How to: Pick Items for Warehouse Shipment](../how-to-move-components-to-an-operation-area-in-basic-warehousing.md).  
   
 ## See Also  
  [How to: Post Invoices from Service Orders](../how-to-post-invoices-from-service-orders.md)   

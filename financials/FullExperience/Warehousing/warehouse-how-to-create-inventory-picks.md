@@ -65,9 +65,9 @@ When your location is set up to require pick processing but not shipment process
 4.  Choose the **OK** button. The inventory picks will be created, and if you selected the **Print Document** field, the pick list will be printed.  
   
 > [!NOTE]  
->  In basic warehousing, assembly components are picked with inventory movements. For more information see [How to: Move Components to an Operation Area in Basic Warehousing](../how-to-move-components-to-an-operation-area-in-basic-warehousing.md).  
+>  In basic warehouse configurations, assembly components are picked with inventory movements. For more information see [How to: Move Components to an Operation Area in Basic Warehouse Configurations](../how-to-move-components-to-an-operation-area-in-basic-warehousing.md).  
 >   
->  In basic warehousing, items that are assembled to sales orders are picked from the related sales order, as explained in this topic. For more information, see “Handling Assemble-to-Order Items in Inventory Picks” in Inventory Pick.  
+>  In basic warehouse configurations, items that are assembled to sales orders are picked from the related sales order, as explained in this topic. For more information, see “Handling Assemble-to-Order Items in Inventory Picks” in Inventory Pick.  
   
 ## See Also  
  Inventory Pick   

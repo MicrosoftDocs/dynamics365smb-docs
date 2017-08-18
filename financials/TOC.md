@@ -1,6 +1,7 @@
 # [Getting Started](index.md)
 ## [Minimum Requirements](financials-requirements.md)
 ## [Frequently Asked Questions](across-faq.md)
+## [Overview of Business Functionality](madeira-business-functionality.md)
 ## [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
 ## [Importing Business Data from Other Finance Systems](upload-data.md)
 ## [Getting Financials on Your Mobile Device](install-mobile-app.md)
@@ -22,8 +23,6 @@
 ## [Letting Financials Suggest Values](ui-let-system-suggest-values.md)
 ## [Printing a Report](ui-work-report.md#PrintReport)
 ## [Videos on Common Tasks](across-videos.md)
-## [Overview of Business Functionality](madeira-business-functionality.md)
-## [Overview of Supply Chain Functionality](madeira-supply-chain.md)
 ## [Languages of the Docs](about-languages.md)
 
 # [Setting Up Financials](setup.md)
@@ -151,6 +150,7 @@
 ## [How to: Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)
 ## [How to: Create Analysis Reports](bi-how-create-analysis-views-reports.md)
 ## [How to: Set Up and Publish KPI Web Services Based on Account Schedules]
+## [How to: Create Reports with XBRL](bi-create-reports-with-xbrl.md)
 
 # [Sales](sales-manage-sales.md)
 ## [How to: Make Offers](sales-how-make-offers.md)
@@ -230,6 +230,29 @@
 ## [How to: Register Employees](hr-how-register-employees.md)
 ## [How to: Manage Employee Absence](hr-how-manage-absence.md)
 
+# [Warehouse Management](warehouse-manage-warehouse.md)
+## [How to: Receive Items](warehouse-how-receive-items.md)
+## [Putting Items Away](warehouse-put-away-items.md)
+## [Moving Items](warehouse-move-items.md)
+## [Picking Items](warehouse-pick-items.md)
+## [How to: Ship Items](warehouse-how-ship-items)
+
+# Manufacturing
+## How to: Plan for Production Availability
+## How to: Forecast for Sales and Production
+## How to: Perform Master Planning
+## How to: Material Requirements Planning
+## How to: Communicate Production Plans
+## How to: Schedule Production Processes
+## How to: Issue Materials
+## How to: Execute Production
+
+# Service Management
+## How to: Plan Service
+## How to: Fulfill Service Contracts
+## How to: Handle Customer Inquiries
+## How to: Deliver Service
+
 # [General Business Functionality](ui-across-business-areas.md)
 ## [How to: Set Up Extended Item Text](ui-how-define-ext-text.md)
 ## [Working with General Journals](ui-work-general-journals.md)
@@ -251,14 +274,14 @@
 ## [Walkthrough: Conducting a Sales Campaign](walkthrough-conducting-a-sales-campaign.md)
 ## [Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ## [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
-## [Walkthrough: Receiving and Putting Away in Basic Warehousing](walkthrough-picking-and-shipping-in-basic-warehousing.md)
-## [Walkthrough: Receiving and Putting Away in Advanced Warehousing](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
+## [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)
+## [Walkthrough: Receiving and Putting Away in advanced warehouse configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
 ## [Walkthrough: Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)
 ## [Walkthrough: Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md)
 ## [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)
 ## [Walkthrough: Walkthrough: Managing Projects with Jobs](walkthrough-managing-projects-with-jobs.md)
 ## [Walkthrough: Walkthrough: Calculating Work in Process for a Job](walkthrough-calculating-work-in-process-for-a-job.md)
-## [Walkthrough: Picking and Shipping in Basic Warehousing](walkthrough-picking-and-shipping-in-basic-warehousing.md)
+## [Walkthrough: Picking and Shipping in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 ## [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)
 
 # [Design Details](design-details-application-design.md)
@@ -274,30 +297,3 @@
 ## [Denmark](LocalFunctionality/Denmark/denmark-local-functionality.md)
 ## [United Kingdom](LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.md)
 ## [United States](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
-
-# Advanced
-## Business Intelligence (Advanced)
-### [How to: Create Reports with XBRL](FullExperience/bi-create-reports-with-xbrl.md)
-
-## [Warehouse Management](warehouse-manage-warehouse.md)
-### [How to: Receive Items](warehouse-how-receive-items.md)
-### [Putting Items Away](warehouse-put-away-items.md)
-### [Moving Items](warehouse-move-items.md)
-### [Picking Items](warehouse-pick-items.md)
-### [How to: Ship Items](warehouse-how-ship-items)
-
-## Production
-### How to: Plan for Production Availability
-### How to: Forecast for Sales and Production
-### How to: Perform Master Planning
-### How to: Material Requirements Planning
-### How to: Communicate Production Plans
-### How to: Schedule Production Processes
-### How to: Issue Materials
-### How to: Execute Production
-
-## Service Management
-### How to: Plan Service
-### How to: Fulfill Service Contracts
-### How to: Handle Customer Inquiries
-### How to: Deliver Service

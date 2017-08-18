@@ -48,4 +48,4 @@ If you have to work on a service order for a considerable time without posting i
  [How to: Post Consumption from Service Orders](../how-to-post-consumption-from-service-orders.md)   
  [Invoice Discounts on Service Documents](../invoice-discounts-on-service-documents.md)   
  [How to: Pick Items for Warehouse Shipment](../how-to-pick-items-for-warehouse-shipment.md)   
- [How to: Move Components to an Operation Area in Basic Warehousing](../how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
+ [How to: Move Components to an Operation Area in Basic Warehouse Configurations](../how-to-move-components-to-an-operation-area-in-basic-warehousing.md)

@@ -1,6 +1,6 @@
 ---
     title: How to Set Up Warehouses for Directed Put-away and Pick | Microsoft Docs
-    description: Directed put-away and pick gives you access to advanced warehousing features that can greatly enhance your efficiency and data reliability. In order to use this functionality, you must first set up a number of parameters in your warehouse location.
+    description: Directed put-away and pick gives you access to advanced warehouse configurations features that can greatly enhance your efficiency and data reliability. In order to use this functionality, you must first set up a number of parameters in your warehouse location.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # How to: Set Up Warehouses for Directed Put-away and Pick
-Directed put-away and pick gives you access to advanced warehousing features that can greatly enhance your efficiency and data reliability. In order to use this functionality, you must first set up a number of parameters in your warehouse location.  
+Directed put-away and pick gives you access to advanced warehouse configurations features that can greatly enhance your efficiency and data reliability. In order to use this functionality, you must first set up a number of parameters in your warehouse location.  
   
  To use the directed put-away and pick functionality, you must activate the functionality on the location card.  
   

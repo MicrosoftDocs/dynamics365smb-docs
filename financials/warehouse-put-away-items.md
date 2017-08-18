@@ -16,7 +16,7 @@
 
 ---
 # Putting Items Away
-The warehouse activity of putting items away after they are received or output is performed in different ways depending on how warehouse management features are configured. The complexity can rank from no warehouse features, through basic warehousing for order-by order handling in one or more activities only, to advanced configurations where all warehouse activities must be performed in a directed workflow. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).
+The warehouse activity of putting items away after they are received or output is performed in different ways depending on how warehouse management features are configured. The complexity can rank from no warehouse features, through basic warehouse configurations for order-by order handling in one or more activities only, to advanced configurations where all warehouse activities must be performed in a directed workflow. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).
 
 When setting up your warehouse, you make a number of different choices regarding how you want to operate and the level of detail and complexity you want to work with. The choices you make affect how you perform tasks in the program. One of these choices is how you want to put items away in your warehouse location.  
 

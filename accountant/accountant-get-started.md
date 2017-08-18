@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 accountant experience | Microsoft Docs
-description: Learn about the accountant portal for Dynamics 365.
+description: Learn about the Accountant Hub for Dynamics 365.
 author: edupont04
 
 ms.service: dynamics365-financials
@@ -9,24 +9,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 07/27/2017
+ms.date: 08/15/2017
 ms.author: edupont
 
 ---
 # Get started with [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]
-Any business must do its books and sign off on the accounting. Some businesses employ an external accountant, and others have an accountant on staff. If you are an accountant with several clients, you can use [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] as your dashboard for a better overview of your clients.  
+Any business must do its books and sign off on the accounting. Some businesses employ an external accountant, and others have an accountant on staff. If you are an accountant with several clients, you can use [!INCLUDE[d365acc](includes/d365acc_md.md)] as your dashboard for a better overview of your clients.  
 
-## Accountant Portal
-You can get access to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] by signing up from [Dynamics 365 for Accountants on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants).  
+## Accountant Hub
+You can get access to [!INCLUDE[d365acc_long](includes/d365acc_md.md)] by signing up from [Dynamics 365 — Accountant Hub on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants).  
 
 > [!TIP]  
->  When you sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)], you must specify your work email address, such as *me@accountant.com*. We recommend that you use the same email address when you work in your clients' [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], so that you can easily switch between clients.  
+>  When you sign up for [!INCLUDE[d365acc](includes/d365acc_md.md)], you must specify your work email address, such as *me@accountant.com*. We recommend that you use the same email address when you work in your clients' [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], so that you can easily switch between clients.  
 
 When you first log in to the accountant portal, the dashboard shows a sample client to help you get started. Once you are comfortable, you can remove that sample client.  
 
 ### Working with Individual Clients
 The dashboard shows the most important information about each client.  
-[![Accountant Portal](./media/ui-extensions-accportal/accountant-portal.png)](https://go.microsoft.com/fwlink/?linkid=851257)
+[![Accountant Hub](./media/ui-extensions-accportal/accountant-portal.png)](https://go.microsoft.com/fwlink/?linkid=851257)
 
 The **Client Name** column shows the names of your clients, and the **Company Name** column lists all companies if the client has more than one company in [!INCLUDE[d365fin_ong](includes/d365fin_long_md.md)]. You can customize the dashboard to show the data points that you want to see by adding or removing columns. For example, you might want to see taxes that are due, how many open sales documents each client has, or the number of purchase invoices that are due next week. You can configure the view to suit your needs. If you have many clients, you can use filters to sort your view.  
 
@@ -64,4 +64,4 @@ You can then access their financial data from the **Accountant** Role Center. If
 ## See Also
 [Accountant Experiences in [!INCLUDE[d365fin](includes/d365fin_md.md)](/dynamics365/financials/finance-accounting.md)  
 [Working with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](/dynamics365/financials/ui-work-product.md)  
-[Dynamics 365 for Accountants on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
+[Dynamics 365 — Accountant Hub on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  

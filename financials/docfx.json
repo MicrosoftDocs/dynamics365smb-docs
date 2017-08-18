@@ -31,9 +31,8 @@
     "externalReference": [],
     "globalMetadata": {
 	"searchScope": ["Financials"]
-        "brand": "dynamics", 
-        "uhfHeaderId": "MSDocsHeader-Dynamics365", 
-	},
+        "brand": "dynamics",
+        "uhfHeaderId": "MSDocsHeader-Dynamics365"},
     "fileMetadata": {},
     "template": [],
     "dest": "financialssmb"

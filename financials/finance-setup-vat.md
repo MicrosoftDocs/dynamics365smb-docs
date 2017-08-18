@@ -29,22 +29,7 @@ You can set up VAT calculations manually, but that can be tricky and time consum
 > [!NOTE]  
 >   You can use the guide only if you have created a My Company, and have not posted transactions that include VAT. Otherwise, it would be very easy to use different VAT rates by mistake, and make VAT-related reports inaccurate.  
   
-If you want to set up VAT calculations yourself, or just want to learn about each step, this topic contains descriptions of each step. These include how to:  
-  
-* Set up VAT business posting groups to define VAT rates for the markets you do business in. You assign these to customers and vendors.  
-* Set up VAT product posting groups to define VAT rates for the products and services you buy or sell.  
-  
-   > [!NOTE]  
->   The concepts behind VAT business and product posting groups are similar to general posting groups. For more information, see [Posting Group Setups](finance-posting-groups.md).
-* Combine VAT business and product posting groups to create VAT setups that calculate VAT amounts on sales and purchases.  
-* Assign VAT product posting groups to the general ledger accounts you use for sales and purchases, and items, and resources.  
-
-   > [!NOTE]  
->   To set up VAT for resources, you must enable the **Suite** user experience for your company. For more information, see [Customizing Your Dynamics 365 for Financials Experience](ui-experiences.md).
-* Use reverse charge VAT for trade between EU countries/regions  
-* Understand VAT rounding for documents  
-* Set up clauses to explain the use of non-standard VAT rates
-* Verify VAT registration numbers
+If you want to set up VAT calculations yourself, or just want to learn about each step, this topic contains descriptions of each step.
 
 ## Use the VAT Setup assisted setup guide to set up VAT (recommended)
 We recommend that you use the VAT Setup assisted setup guide to set up VAT in [!INCLUDE[d365fin](includes/d365fin_md.md)]. 
@@ -188,48 +173,6 @@ When you post a sale to a customer in another EU country/region, the VAT amount 
 ## Understanding VAT rounding for documents
 Amounts in documents that are not yet posted are rounded and displayed to correspond with the final rounding of amounts that are actually posted. VAT is calculated for a complete document, which means that VAT is calculated based on the sum of all lines with the same VAT identifier in the document.
 
-## Certificates of Supply
-When you sell goods to a customer in another EU country/region, the customer must confirm receipt before you can deduct VAT or calculate zero VAT according to the rules for intra-community trade. 
-  
-## Requiring a Certificate of Supply  
-When you sell goods or sell services that include items to a customer in another EU country/region, you can post the order as shipped and invoiced. If a shipment requires a certificate of supply, you must print a certificate of supply that the customer must sign and return to you. According to the rules for intra-community trade, the invoice that you create at this point will not include VAT. Therefore, if the customer does not return the signed certificate of supply, you must issue a new invoice that includes VAT. Alternatively, you must manually correct the VAT.  
-  
-You must print a certificate of supply if the shipment uses a combination of VAT business posting group and VAT product posting group that have been marked for requiring a certificate of supply in the VAT Posting Setup window.  
-  
-> [!TIP]  
->  You can add the relevant report to the report selection for sales, services, or return shipments so that the certificate of supply is printed automatically if it is required.  
-  
-If the customer does not sign and return the certificate of supply, you must set the **Status** field to **Not Received**. Then, you must send the customer a new invoice that includes VAT and refers to the original invoice. This provides a trail that can help you in the auditing process.  
-  
-To help you track if documents are posted that require a certificate of supply, you can enable the change log for the tables for shipments.  
-  
-You can add a cue to your role center to show you documents that have a certificate of supply status of **Received** or **Not Received**. This way, it is easier for you to remind customers to return the certificate of supply so that you do not have to cancel the existing invoice and issue a new invoice.  
-  
-> [!NOTE]  
->  A certificate of supply is also required when you return a shipment to a vendor in another EU country/region.
-
-### To create certificates of supply
-If the shipment uses a combination of VAT business posting group and VAT product posting group that have been set up to require a certificate of supply on the **VAT Posting Setup** page, the certificate will be automatically set up for you in the **Certificates of Supply** window, with its status set to **Required**. Alternatively, you can manually update the status of a certificate of supply in the **Certificates of Supply** window from **Not Applicable** to **Required**. You can also manually change the status from **Required** to **Not Applicable** as needed.  
-  
-### To enable the creation of a certificate of supply in VAT posting  
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Posting Setup**, and then choose the related link.  
-2. In the **VAT Posting Setup** window, choose the relevant line, and then on the **Home** tab, in the **Manage** group, choose **Edit**.  
-3. In the **VAT Posting Setup Card** window, select the **Certificate of Supply Required** check box.    
-  
-### To manually create a certificate of supply  
-1. Open a posted sales shipment document.  
-2. On the **Home** tab, in the **Shipment** group, choose **Certificate of Supply Details**.  
-  
-     If the VAT Posting Group setup does not have the **Certificate of Supply Required** check box selected, then a record is created and the field is set to **Not Applicable**. A certificate is created.  
-  
-3. Verify that the certificate has been created. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Certificates of Supply** and choose the related link.  
-  
-     The **Certificates of Supply** window opens, which provides a list of all available certificates that have a status of **Required**, **Received**, or **Not Received**.  
-  
-4. On the **Home** tab, in the **Process** group, choose **Print Certificate of Supply**.  
-  
-     You can preview or print the document. When you choose **Print Certificate of Supply** and print the document, the **Printed** check box is automatically selected. In addition, if not already specified, the status of the certificate is updated to **Required**.
-
 ## Understanding the VAT Rate Conversion Process  
 The VAT rate change tool performs VAT rate conversions for master data, journals, and orders in different ways. The selected master data and journals will be updated by the new general product posting group or VAT product post group. If an order has been fully or partially shipped, the shipped items will keep the current general product posting group or VAT product posting group. A new order line will be created for the unshipped items and updated to align current and new VAT or general product posting groups. In addition, item charge assignments, reservations, and item tracking information will be updated accordingly.  
   
@@ -255,7 +198,7 @@ Before you set up the VAT rate change tool, you must make the following preparat
   
 ### To set up product posting group conversion  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Rate Change Setup**, and then choose the related link.  
-2. In the **VAT Rate Change Setup** window, on the **Home** tab, in the **Process** group, choose either **VAT Prod. Posting Group Conv.** or **Gen Prod. Posting Group Conv.**.  
+2. On the **VAT Rate Change Setup** page, on the **Home** tab, in the **Process** group, choose either **VAT Prod. Posting Group Conv.** or **Gen Prod. Posting Group Conv.**.  
 3. In the **From Code** field, enter the current posting group.  
 4. In the **To Code** field, enter the new posting group.  
 
@@ -272,10 +215,10 @@ You use the VAT rate change tool to manage changes in the standard rate of VAT. 
 2. Verify that you have already set up the VAT product posting group conversion or general product posting group conversion.  
 3. Choose the **Perform Conversion** check box.  
   
-    > [!IMPORTANT]  
+> [!IMPORTANT]  
     >  Clear the **VAT Rate Change Tool Completed** check box. The check box is automatically selected when the VAT rate change conversion is completed.  
   
-4. On the **Home** tab, choose **Convert**.  
+4. Choose the **Convert** action.  
 5. After the conversion is complete, on the **Home** tab, in the **Process** group, choose **VAT Rate Change Log Entries** to view the results of the conversion.  
   
 > [!IMPORTANT]  
@@ -283,5 +226,5 @@ You use the VAT rate change tool to manage changes in the standard rate of VAT. 
   
 ## See Also  
 [Setting Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)
-[How To: Report VAT to a Tax Authority](finance-how-report-vat)
+[How To: Report VAT to a Tax Authority](finance-how-report-vat.md)
 [How to: Work with VAT on Sales and Purchases](finance-work-with-vat.md)

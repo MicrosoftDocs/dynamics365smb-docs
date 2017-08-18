@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 06/02/2017
+ms.date: 06/15/2017
 ms.author: SorenGP
 
 ---
@@ -48,6 +48,7 @@ You can use alternate addresses to keep track of your employees’ location, for
 5. Repeat step 4 for each alternate address.
 
 ## See Also
+[Human Resources](hr-manage-human-resources.md)   
 [Finance](finance.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)

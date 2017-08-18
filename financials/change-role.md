@@ -24,7 +24,6 @@ The content on the Home page is based on the selected Role Center. The standard 
 1. In the top right corner, choose the **Settings** icon ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center"), and then choose **My Settings**.
 2. In the **My Settings** window, in the **Role Center** field, select the Role Center that you want to set as the standard. For example, select **Accountant**.
 3. Choose the **OK** button.
-4. Sign out of [!INCLUDE[d365fin](includes/d365fin_md.md)] and then sign in again to have the change take effect.
 
 ## See Also
 [Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  

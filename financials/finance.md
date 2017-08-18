@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 06/15/2017
+ms.date: 06/22/2017
 ms.author: edupont
 
 ---
@@ -27,13 +27,14 @@ The following table describes a sequence of tasks, with links to the topics that
 | Apply incoming payments, reconcile bank accounts during payment application, and collect outstanding balances. |[Managing Receivables](receivables-manage-receivables.md) |
 | Make payments, apply outgoing payments, and work with checks. |[Managing Payables](payables-manage-payables.md) |
 | Reconcile bank accounts and transfer funds between bank accounts. |[Managing Bank Accounts](bank-manage-bank-accounts.md) |
+|Set up intercompany partners and process transactions, manually or automatically, between legal entities within the same company.|[Managing Intercompany Transactions](intercompany-manage.md)|
 | Understand the general ledger and the chart of accounts. |[Understanding the General Ledger and the COA](finance-general-ledger.md) |
 | Add dimensions for richer business intelligence. |[Working with Dimensions](finance-dimensions.md) |
 | Create budgets to forecast different financial activities and assign dimensions for business intelligence purposes. |[How to: Create Budgets](finance-how-create-budgets.md) |
 |Record income or expenses directly in the general ledger without posting dedicated business documents.|[How to: Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)|
 |Post reversing entries to undo transactions that you have posted in the general journal. |[How to: Reverse Journal Posting](finance-how-reverse-journal-posting.md)|
 | Assign extra costs, such as freight and physical handling that you incur during trade, to the involved items so that the cost is reflected in inventory valuation. |[How to: Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md) |
-| Recognize revenues and expenses in other periods than when the transactions were posted. |[How to: Defer Revenues and Expenses](finance-how-defer-revenue-expenses.md) |
+| Recognize revenues and expenses in other periods than when the transactions were posted. |[How to: Defer Revenues and Expenses](finance-how-defer-revenue-expenses.md)|
 | Import salary transactions from your payroll provider into the general ledger. |[How to: Import Payroll Transactions](finance-how-import-payroll-transactions.md) |
 | Monitor the flow of cash in and out of your business. |[Analyzing Cash Flows in Your Company](finance-analyze-cash-flow.md) |
 | Prepare to close a fiscal year or period. |[Closing Years and Periods](year-close-years-periods.md) |

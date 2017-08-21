@@ -14,7 +14,7 @@ ms.author: sgroespe
 
 ---
 # About the Data Exchange Framework in [!INCLUDE[d365fin](includes/d365fin_md.md)
-The format of files for exchange of data in bank files, electronic documents, currency exchange rates, and other with ERP systems vary depending on the provider of the data file or stream and on the country/region. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports various bank file formats and data service standards. To provide support for other electronic document formats, you use the data exchange framework. For more information, see [Data Exchange](across-data-exchange.md).    
+The format of files for exchange of data in bank files, electronic documents, currency exchange rates, and other with ERP systems vary depending on the provider of the data file or stream and on the country/region. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports various bank file formats and data service standards. To provide support for other electronic document formats, you use the data exchange framework. For more information, see [Exchanging Data as Electronic Documents](across-data-exchange.md).    
 
  The following diagrams show the architecture of the data exchange framework.  
 
@@ -23,7 +23,7 @@ The format of files for exchange of data in bank files, electronic documents, cu
  ![Data Exchange Framework &#45; Export](media/across-data-exchange/dataexchangeframework_export.png)  
 
 ## See Also  
-[Data Exchange](across-data-exchange.md)
+[Exchanging Data as Electronic Documents](across-data-exchange.md)
 [How to: Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
 [Set Up Data Exchange](across-set-up-data-exchange.md)  
 [Exchange Data](across-exchange-data.md)  

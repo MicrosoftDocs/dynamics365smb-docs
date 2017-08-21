@@ -376,7 +376,7 @@ To support just-in-time inventory and the ability to customize products to custo
   
      Read the error message explaining why this field can only be filled through the **Qty. to Ship** field on the related shipment.  
   
-     The **Quantity to Assemble** field is editable is to support situations where you want to partially ship an inventory quantity instead of assembling more units to the order. For more information, see the “Combination Scenarios” section in [Assemble to Order or Assemble to Stock](FullExperience/assemble-to-order-or-assemble-to-stock.md).  
+     The **Quantity to Assemble** field is editable is to support situations where you want to partially ship an inventory quantity instead of assembling more units to the order. For more information, see the “Combination Scenarios” section in [Understanding Assemble to Order and Assemble to Stock](FullExperience/assemble-to-order-or-assemble-to-stock.md).  
   
 12. Close the **Assembly Order** window to return to the **Warehouse Shipment** window.  
   
@@ -491,7 +491,7 @@ To support just-in-time inventory and the ability to customize products to custo
   
 ## See Also  
  Assembly Order   
- [Assemble to Order or Assemble to Stock](FullExperience/assemble-to-order-or-assemble-to-stock.md)   
+ [Understanding Assemble to Order and Assemble to Stock](FullExperience/assemble-to-order-or-assemble-to-stock.md)   
  [How to: Assemble Items](FullExperience/how-to-assemble-items.md)   
  [How to: Pick Items for Warehouse Shipment](FullExperience/how-to-pick-items-for-warehouse-shipment.md)   
  [How to: Sell Items Assembled to Order](FullExperience/how-to-sell-items-assembled-to-order.md)   

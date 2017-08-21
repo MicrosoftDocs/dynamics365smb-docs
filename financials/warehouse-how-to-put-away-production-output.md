@@ -15,14 +15,14 @@
     ms.author: sgroespe
 
 ---
-# How to: Put Away Production Output
+# How to: Put Away Production or Assembly Output
 How you put away your output from production depends on how your warehouse is set up as a location. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).  
 
- The first step in creating the inventory put-away is to create the inbound warehouse request. This request informs the warehouse that the production order output is ready for put-away. Someone working in the warehouse creating inventory put-aways can then see that the production order is ready and can create the inventory put-away for the output.  
+In basic warehouse configurations where the location requires put-away processing, but not receive processing, you use the **Inventory Put-away** document to organize and record the put-away of output.  
 
- In basic warehouse configurations where your location requires put-away processing, but not receive processing, you use the **Inventory Put-away** document to organize and record the put-away of output.  
+In advanced warehouse configurations where the location requires both put-away and receive processing, you create either an internal put-away document or a movement document to put away the output.  
 
- In advanced warehouse configurations where your location requires both put-away and receive processing, you create either an internal put-away document or a movement document to put away the output.  
+The first step in creating putting output away is to create the inbound warehouse request. This request informs the warehouse that the production or assembly order output is ready to be put away.
 
 ## To create the inbound warehouse request  
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Released Production Order**, and then choose the related link.  

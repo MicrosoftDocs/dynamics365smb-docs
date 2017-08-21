@@ -150,6 +150,7 @@
 ## [How to: Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)
 ## [How to: Create Analysis Reports](bi-how-create-analysis-views-reports.md)
 ## [How to: Set Up and Publish KPI Web Services Based on Account Schedules]
+## [How to: Create Reports with XBRL](bi-create-reports-with-xbrl.md)
 
 # [Sales](sales-manage-sales.md)
 ## [How to: Make Offers](sales-how-make-offers.md)
@@ -197,6 +198,7 @@
 ## [How to: Invoice Jobs](projects-how-invoice-jobs.md)
 
 # [Assembly Management](assembly-assemble-items.md)
+## [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md)
 ## [How to: Quote an Assemble-to-Order Sale](assembly-how-to-quote-an-assemble-to-order-sale.md)
 ## [How to: Assemble Items](assembly-how-to-assemble-items.md)
 ## [How to: Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md)
@@ -204,8 +206,7 @@
 ## [How to: Sell Assemble-to-Order Items and Inventory Items Together](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)
 ## [How to: Undo Assembly Posting](assembly-how-to-undo-assembly-posting.md)
 ## [How to: Work with Bills of Material](inventory-how-work-BOMs.md)
-## [Assemble to Order or Assemble to Stock](assemble-to-order-or-assemble-to-stock.md)
-## [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)
+## ## [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)
 
 # [Fixed Assets](fa-manage.md)
 ## [How to: Acquire Fixed Assets](fa-how-acquire.md)
@@ -228,6 +229,29 @@
 # [Human Resources](hr-manage-human-resources.md)
 ## [How to: Register Employees](hr-how-register-employees.md)
 ## [How to: Manage Employee Absence](hr-how-manage-absence.md)
+
+# [Warehouse Management](warehouse-manage-warehouse.md)
+## [How to: Receive Items](warehouse-how-receive-items.md)
+## [Putting Items Away](warehouse-put-away-items.md)
+## [Moving Items](warehouse-move-items.md)
+## [Picking Items](warehouse-pick-items.md)
+## [How to: Ship Items](warehouse-how-ship-items)
+
+# Manufacturing
+## How to: Plan for Production Availability
+## How to: Forecast for Sales and Production
+## How to: Perform Master Planning
+## How to: Material Requirements Planning
+## How to: Communicate Production Plans
+## How to: Schedule Production Processes
+## How to: Issue Materials
+## How to: Execute Production
+
+# Service Management
+## How to: Plan Service
+## How to: Fulfill Service Contracts
+## How to: Handle Customer Inquiries
+## How to: Deliver Service
 
 # [General Business Functionality](ui-across-business-areas.md)
 ## [How to: Set Up Extended Item Text](ui-how-define-ext-text.md)
@@ -277,30 +301,3 @@
 ## [Denmark](LocalFunctionality/Denmark/denmark-local-functionality.md)
 ## [United Kingdom](LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.md)
 ## [United States](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
-
-# Advanced
-## Business Intelligence (Advanced)
-### [How to: Create Reports with XBRL](FullExperience/bi-create-reports-with-xbrl.md)
-
-## [Warehouse Management](warehouse-manage-warehouse.md)
-### [How to: Receive Items](warehouse-how-receive-items.md)
-### [Putting Items Away](warehouse-put-away-items.md)
-### [Moving Items](warehouse-move-items.md)
-### [Picking Items](warehouse-pick-items.md)
-### [How to: Ship Items](warehouse-how-ship-items)
-
-## Production
-### How to: Plan for Production Availability
-### How to: Forecast for Sales and Production
-### How to: Perform Master Planning
-### How to: Material Requirements Planning
-### How to: Communicate Production Plans
-### How to: Schedule Production Processes
-### How to: Issue Materials
-### How to: Execute Production
-
-## Service Management
-### How to: Plan Service
-### How to: Fulfill Service Contracts
-### How to: Handle Customer Inquiries
-### How to: Deliver Service

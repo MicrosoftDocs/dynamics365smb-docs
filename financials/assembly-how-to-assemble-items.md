@@ -29,7 +29,7 @@ You typically use **Assemble to Stock** for items that you want to assemble ahea
 
 You typically use **Assemble to Order** for items that you do not want to stock because you expect to customize them to customer requests or because you want to minimize the inventory carrying cost by supplying them just in time. For more information, see [How to: Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md).  
 
-For more information about how to set up an assembly item, see [Assemble to Order or Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md).  
+For more information about how to set up an assembly item, see [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md).  
 
 > [!NOTE]  
 >  These setup options are default settings that manage how sales and assembly order lines are initially processed. You can depart from these defaults and supply the assembly item in the most optimal way when processing a sale. For more information, see [How to: Sell Inventory Items in Assemble-to-Order Flows](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).  

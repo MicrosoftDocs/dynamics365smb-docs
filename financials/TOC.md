@@ -198,6 +198,7 @@
 ## [How to: Invoice Jobs](projects-how-invoice-jobs.md)
 
 # [Assembly Management](assembly-assemble-items.md)
+## [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md)
 ## [How to: Quote an Assemble-to-Order Sale](assembly-how-to-quote-an-assemble-to-order-sale.md)
 ## [How to: Assemble Items](assembly-how-to-assemble-items.md)
 ## [How to: Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md)
@@ -205,8 +206,7 @@
 ## [How to: Sell Assemble-to-Order Items and Inventory Items Together](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)
 ## [How to: Undo Assembly Posting](assembly-how-to-undo-assembly-posting.md)
 ## [How to: Work with Bills of Material](inventory-how-work-BOMs.md)
-## [Assemble to Order or Assemble to Stock](assemble-to-order-or-assemble-to-stock.md)
-## [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)
+## ## [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)
 
 # [Fixed Assets](fa-manage.md)
 ## [How to: Acquire Fixed Assets](fa-how-acquire.md)

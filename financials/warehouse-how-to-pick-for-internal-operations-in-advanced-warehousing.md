@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Pick for Internal Operations in Advanced Warehouse Configurations
+# How to: Pick for Assembly or Production Advanced Warehouse Configurations
 In advanced warehouse configurations where the location is set up to use picking as well as shipping, you can pick components for production and assembly activities with the **Warehouse Pick** window.  
 
  Alternatively, you can use the **Movement Worksheet** window to move items between bins ad hoc, meaning without reference to a source document. For more information, see [How to: Move Items in advanced warehouse configurations](../how-to-move-items-in-advanced-warehousing.md).  
@@ -54,14 +54,10 @@ In advanced warehouse configurations where the location is set up to use picking
 
  If the internal operation area, such as a production shop floor, is set up with a default bin for placement of components to be used in the operation, then that bin code is inserted in the Place lines on the warehouse pick document to instruct warehouse workers where to place the items. For more information, see the To-Production Bin Code or the To-Assembly Bin Code field.  
 
-## See Also  
- Pick Worksheet   
- Warehouse Pick   
- [How to: Plan Picks in Worksheets](../how-to-plan-picks-in-worksheets.md)   
- [How to: Pick Items for Warehouse Shipment](../how-to-pick-items-for-warehouse-shipment.md)   
- Movement Worksheet   
- Create Pick   
- To-Production Bin Code   
- [How to: Pick for Production in Basic Warehouse Configurations](../how-to-pick-for-production-in-basic-warehousing.md)   
- [How to: Move Components to an Operation Area in Basic Warehouse Configurations](../how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
- [How to: Move Items in Advanced Warehouse Configurations](../how-to-move-items-in-advanced-warehousing.md)
+## See Also
+[Warehouse Management](warehouse-manage-warehouse.md)  
+[Inventory](inventory-manage-inventory.md)  
+[Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
+[Assembly Management](assembly-assemble-items.md)    
+[Design Details: Warehouse Management](design-details-warehouse-management.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md

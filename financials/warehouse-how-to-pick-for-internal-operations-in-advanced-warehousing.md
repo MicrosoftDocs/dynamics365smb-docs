@@ -15,16 +15,16 @@
     ms.author: sgroespe
 
 ---
-# How to: Pick for Assembly or Production Advanced Warehouse Configurations
+# How to: Pick for Assembly or Production in Advanced Warehouse Configurations
 In advanced warehouse configurations where the location is set up to use picking as well as shipping, you can pick components for production and assembly activities with the **Warehouse Pick** window.  
 
- Alternatively, you can use the **Movement Worksheet** window to move items between bins ad hoc, meaning without reference to a source document. For more information, see [How to: Move Items in advanced warehouse configurations](../how-to-move-items-in-advanced-warehousing.md).  
+ Alternatively, you can use the **Movement Worksheet** window to move items between bins ad hoc, meaning without reference to a source document. For more information, see [How to: Move Items in advanced warehouse configurations](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
- For information about picking items for internal operations in basic warehouse locations that are set up for picking only, see [How to: Move Components to an Operation Area in Basic Warehouse Configurations](../how-to-pick-for-production-in-basic-warehousing.md).  
+ For information about picking items for internal operations in basic warehouse locations that are set up for picking only, see [How to: Move Components to an Operation Area in Basic Warehouse Configurations](warekhouse-how-to-pick-for-production-in-basic-warehousing.md).  
 
  You cannot create a warehouse pick document from scratch because a pick activity is always part of a workflow, either in a pull or a push scenario.  
 
- You can create the warehouse pick document in a push fashion by selecting **Create Whse. Pick** on the source document, such as a released assembly order or warehouse shipment. For more information, see Whse.-Source - Create Document and [How to: Pick Items for Warehouse Shipment](../how-to-pick-items-for-warehouse-shipment.md).  
+ You can create the warehouse pick document in a push fashion by selecting **Create Whse. Pick** on the source document, such as a released assembly order or warehouse shipment. For more information, see [[How to: Pick Items with Warehouse Picks](warehouse-how-to-pick-items-for-warehouse-shipment.md).  
 
  Alternatively, you can create the warehouse pick document in a pull fashion by using the **Pick Worksheet** window to detect pick requests, both for shipment and internal operations, and then create the required warehouse pick documents.  
 
@@ -60,4 +60,4 @@ In advanced warehouse configurations where the location is set up to use picking
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

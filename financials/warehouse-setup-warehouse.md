@@ -28,6 +28,7 @@ A company's distribution strategy is reflected in the configuration of its wareh
 |Define storage and planning rules for each instance of an item in a specific warehouse location.|[How to: Set Up Stockkeeping Units](../how-to-set-up-stockkeeping-units.md)|  
 |Make additional settings to an existing location to enable it for warehouse activities.|[How to: Convert Existing Locations to Warehouse Locations](../how-to-convert-existing-locations-to-warehouse-locations.md)|  
 |Define different types of bins across the warehouse to control where items are placed according to their type, rank, or handling level.|[How to: Set Up Locations to Use Bins](../how-to-set-up-locations-to-use-bins.md)|  
+|klnmkl|[How to: Set Up Assembly Locations](assembly-setup-assembly-locations.md)|
 |Set up eight different bin types, such as Picking Bin, to define the flow activities that relate to each bin type.|[How to: Set Up Bin Types](../how-to-set-up-bin-types.md)|  
 |Use a worksheet to create multiple bins with information, such as name, number series, and category, according to a bin template.|[How to: Create Bins in the Bin Creation Worksheet](../how-to-create-bins-in-the-bin-creation-worksheet.md)|  
 |Define which items you want to store in any given bin and set the rules that decide when to fill the bin with a particular item.|[How to: Set Up Bin Contents](../how-to-set-up-bin-contents.md)|  

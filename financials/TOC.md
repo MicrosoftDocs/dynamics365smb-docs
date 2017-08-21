@@ -244,6 +244,10 @@
 ## [Workflow](across-workflow.md)
 ### [Setting Up Workflows](across-set-up-workflows.md)
 ### [Using Workflows](across-use-workflows.md)
+## [Exchanging Data as Electronic Documents ](across-data-exchange.md)
+### [About the Data Exchange Framework](across-about-the-data-exchange-framework.md)
+### [Set Up Data Exchange](across-set-up-data-exchange.md)
+### [Exchange Data](across-exchange-data.md)
 
 # [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)
 ## [Walkthrough: Synchronizing Information Between Outlook and Financials](walkthrough-synchronizing-information-between-outlook-and-microsoft-dynamics-nav.md)

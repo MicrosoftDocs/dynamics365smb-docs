@@ -1,8 +1,6 @@
 ---
-    title: How to Post SEPA Direct Debit Payment Receipts | Microsoft Docs
+    title: Post SEPA Direct Debit Payments | Microsoft Docs
     description: When a direct debit collection is successfully processed by your bank, you can proceed to post receipt of the payment for the involved sales invoices.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-financials
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 08/21/2017
     ms.author: sgroespe
 
 ---
@@ -40,8 +38,5 @@ When a direct debit collection is successfully processed by your bank, you can p
 5.  Choose the **OK** button.  
 
 ## See Also  
- Post Direct Debit Collection   
- Direct Debit Collections   
- Direct Debit Collect. Entries   
- [Collect Payments with SEPA Direct Debit](../collect-payments-with-sepa-direct-debit.md)   
- [Process Incoming Payments](../process-incoming-payments.md)
+ [Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)   
+ [Sales](sales-manage-sales.md)

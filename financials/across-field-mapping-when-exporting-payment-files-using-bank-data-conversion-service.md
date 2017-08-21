@@ -21,7 +21,7 @@ When you export payment files using the Bank Data Conversion Service feature, th
 
 The following table lists the fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] from which data can be exported to the service provider.  
 
-|Mapped Field|Field in Table|Table|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]-->|  
+|Mapped Field|Field in Table|Table|Description]-->|  
 |------------------|--------------------|-----------|---------------------------------------|  
 |Creditor No.|Creditor No.|Bank Account|The identifier assigned to your company by your bank to collect payments|  
 |Sender Bank Account No.|Bank Account No./IBAN|Bank Account|Your company's bank account number (IBAN or other) that is specified on the bank account card|  

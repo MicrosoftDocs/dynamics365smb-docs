@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/14/2017
+    ms.date: 08/22/2017
     ms.author: sgroespe
 
 ---
@@ -21,6 +21,8 @@ You can assign serial numbers and lot numbers to any outbound or inbound documen
 The matrix of quantity fields at the top of the **Item Tracking Lines** window displays the quantities and sums of item tracking numbers being defined on the lines. The quantities must correspond to those of the document line, which is indicated by 0 in the **Undefined** fields.
 
 As a performance measure, the program collects the availability information in the **Item Tracking Lines** window only once, when you open the window. This means that the program does not update the availability information during the time that you have the window open, even if changes occur in inventory or on other documents during that time.
+
+Items with serial or lot numbers can be traced both backwards and forward in their supply chain. This is useful for general quality assurance and for product recalls. For more information, see [How to: Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items).
 
 ## About Picking Serial or Lot Numbers in the Warehouse
 Outbound handling of serial or lot numbers is a frequent task in different warehouse processes.  
@@ -252,7 +254,8 @@ Reclassifying item tracking for an item means changing a lot or serial number to
 7.  If you want to modify the existing information for the lot or serial number, you can record lot or serial information.  
 8.  Post the journal to link the renewed item tracking numbers or expiration dates to the associated item ledger entry
 
-## See Also  
+## See Also
+[How to: Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items)   
 [Inventory](inventory-manage-inventory.md)  
 [Design Details: Item Tracking](design-details-item-tracking.md)
 [Design Details - Item Tracking and Reservations](design-details-item-tracking-and-reservations.md)  

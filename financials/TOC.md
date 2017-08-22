@@ -187,6 +187,7 @@
 ## [How to: Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)
 ## [How to: Reserve Items](inventory-how-to-reserve-items.md)
 ## [How to: Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)
+## [How to: Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items)
 ## [How to: Work with Responsibility Centers](inventory-responsibility-centers.md)
 
 # [Project Management](projects-manage-projects.md)

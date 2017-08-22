@@ -36,6 +36,7 @@
 ### [Setting Up the Chart of Accounts](finance-setup-chart-accounts.md)
 ### [Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md)
 ### [How to: Set Up Cash Customers](finance-how-to-set-up-cash-customers.md)
+### [How to: Set Up Intrastat Reporting](finance-how-setup-report-intrastat.md)
 ## [Setting Up Banking](bank-setup-banking.md)
 ### [How to: Set Up Bank Accounts](bank-how-setup-bank-accounts.md)
 ### [How to: Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)
@@ -68,6 +69,7 @@
 ### [How to: Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md)
 ### [How to: Set Up Fixed Asset Insurance](fa-how-setup-insurance.md)
 ### [How to: Set Up Fixed Asset Maintenance](fa-how-setup-maintenance.md)
+## [Setting Up Service Management](service-service-management-setup.md)
 ### [Depreciation Methods](fa-depreciation-methods.md)
 ## [How to: Set up Email](madeira-how-setup-email.md)
 ## [How to: Create Number Series](ui-create-number-series.md)
@@ -131,6 +133,7 @@
 ## [How to: Defer Revenues and Expenses](finance-how-defer-revenue-expenses.md)
 ## [How to: Import Payroll Transactions](finance-how-import-payroll-transactions.md)
 ## [How to: Report VAT to Tax Authorities](finance-how-report-vat.md)
+## [How to: Work with VAT on Sales and Purchases](finance-work-with-vat.md)
 ## [Analyzing Financial Statements in Excel](finance-analyze-excel.md)
 ## [Analyzing Cash Flows in Your Company](finance-analyze-cash-flow.md)
 ## [Closing Years and Periods](year-close-years-periods.md)
@@ -185,7 +188,6 @@
 ## [How to: Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)
 ## [How to: Reserve Items](inventory-how-to-reserve-items.md)
 ## [How to: Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)
-## [How to: Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items)
 ## [How to: Work with Responsibility Centers](inventory-responsibility-centers.md)
 
 # [Project Management](projects-manage-projects.md)
@@ -237,7 +239,7 @@
 ## [Putting Items Away](warehouse-put-away-items.md)
 ## [Moving Items](warehouse-move-items.md)
 ## [Picking Items](warehouse-pick-items.md)
-## [How to: Ship Items](warehouse-how-ship-items)
+## [How to: Ship Items](warehouse-how-ship-items.md)
 
 # Manufacturing
 ## How to: Plan for Production Availability
@@ -249,7 +251,7 @@
 ## How to: Issue Materials
 ## How to: Execute Production
 
-# Service Management
+# [Service Management](service-service.md)
 ## How to: Plan Service
 ## How to: Fulfill Service Contracts
 ## How to: Handle Customer Inquiries

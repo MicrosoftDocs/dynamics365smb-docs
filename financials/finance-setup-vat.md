@@ -225,6 +225,6 @@ You use the VAT rate change tool to manage changes in the standard rate of VAT. 
 >  After the conversion, the **Converted** field in the **VAT Rate Change Log Entry** table is chosen and the **Converted Date** field in the **VAT Rate Change Log Entry** table displays the conversion date.  
   
 ## See Also  
-[Setting Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)
-[How To: Report VAT to a Tax Authority](finance-how-report-vat.md)
-[How to: Work with VAT on Sales and Purchases](finance-work-with-vat.md)
+[Setting Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)  
+[How To: Report VAT to a Tax Authority](finance-how-report-vat.md)  
+[How to: Work with VAT on Sales and Purchases](finance-work-with-vat.md)  

@@ -29,9 +29,8 @@ The following table lists the experiences that are currently available.
 
 | Experience | Impact on User Interface |
 | --- | --- |
-| Basic |Shows only core actions and fields for the most common business functionality, such as sales, purchasing, inventory, and finance. |
-| Essential |Shows all actions and fields for approximately 90 % of the application functionality. Manufacturing, Service Management, and Warehouse Management require the Advanced experience. |
-| Advanced| Shows all actions and fields for all application functionality, including Manufacturing, Service Management, and Warehouse Management.|
+| Basic |Shows only core actions and fields within the most common business functionality, such as sales, purchasing, inventory, and finance. |
+| Suite |Shows all actions and fields for all available business functionality.|
 
 ## See also
 [Changing Basic Settings](ui-change-basic-settings.md)  

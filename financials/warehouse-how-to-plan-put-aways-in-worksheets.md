@@ -66,4 +66,4 @@ If you do not select this field, the program will automatically create put-away 
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md) 
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

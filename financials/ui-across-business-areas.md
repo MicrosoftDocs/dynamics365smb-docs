@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 08/01/2017
+ms.date: 08/21/2017
 ms.author: solsen
 
 ---
@@ -32,6 +32,7 @@ The following table lists these general business areas with links to topics that
 | Change [!INCLUDE[d365fin](includes/d365fin_md.md)] by installing extensions that add functionality, changes behavior, or gives you access to new online services. |[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md) |
 | Set up and use workflows that connect tasks performed by different users or by the system, such as automatic posting. Requesting and granting approval to create or post documents are typical workflow steps.|[Workflow](across-workflow.md) |
 | Record external documents in [!INCLUDE[d365fin](includes/d365fin_md.md)], including their file attachments, and then manually create the related documents or automatically convert the files to electronic documents. |[Incoming Documents](across-income-documents.md) |
+| Set up data exchange definitions to you can send and receive electronic documents. |[Exchanging Data as Electronic Documents](across-data-exchange.md) |
 
 ## See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

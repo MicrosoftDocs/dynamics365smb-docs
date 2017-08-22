@@ -187,6 +187,7 @@
 ## [How to: Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)
 ## [How to: Reserve Items](inventory-how-to-reserve-items.md)
 ## [How to: Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)
+## [How to: Work with Responsibility Centers](inventory-responsibility-centers.md)
 
 # [Project Management](projects-manage-projects.md)
 ## [How to: Create Jobs](projects-how-create-jobs.md)
@@ -200,6 +201,7 @@
 ## [How to: Invoice Jobs](projects-how-invoice-jobs.md)
 
 # [Assembly Management](assembly-assemble-items.md)
+## [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md)
 ## [How to: Quote an Assemble-to-Order Sale](assembly-how-to-quote-an-assemble-to-order-sale.md)
 ## [How to: Assemble Items](assembly-how-to-assemble-items.md)
 ## [How to: Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md)
@@ -207,8 +209,7 @@
 ## [How to: Sell Assemble-to-Order Items and Inventory Items Together](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)
 ## [How to: Undo Assembly Posting](assembly-how-to-undo-assembly-posting.md)
 ## [How to: Work with Bills of Material](inventory-how-work-BOMs.md)
-## [Assemble to Order or Assemble to Stock](assemble-to-order-or-assemble-to-stock.md)
-## [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)
+## ## [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)
 
 # [Fixed Assets](fa-manage.md)
 ## [How to: Acquire Fixed Assets](fa-how-acquire.md)
@@ -270,6 +271,10 @@
 ## [Workflow](across-workflow.md)
 ### [Setting Up Workflows](across-set-up-workflows.md)
 ### [Using Workflows](across-use-workflows.md)
+## [Exchanging Data as Electronic Documents ](across-data-exchange.md)
+### [About the Data Exchange Framework](across-about-the-data-exchange-framework.md)
+### [Set Up Data Exchange](across-set-up-data-exchange.md)
+### [Exchange Data](across-exchange-data.md)
 
 # [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)
 ## [Walkthrough: Synchronizing Information Between Outlook and Financials](walkthrough-synchronizing-information-between-outlook-and-microsoft-dynamics-nav.md)

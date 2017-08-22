@@ -21,7 +21,7 @@ If the **Assembly Policy** field on the item card of an assembly item contains *
 Similar flexibility exists when you are selling items to be assembled to the order and a part of the quantity is in inventory, which you want to deduct from the assembly order. For more information, see [How to: Sell Inventory Items in Assemble-to-Order Flows](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
 
 > [!NOTE]  
->  Certain rules apply to the **Qty. to Ship** field on sales order lines that contain a combination of assemble-to-order quantities and inventory quantities. For more information, see the Combination Scenarios section in [Assemble to Order or Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md).  
+>  Certain rules apply to the **Qty. to Ship** field on sales order lines that contain a combination of assemble-to-order quantities and inventory quantities. For more information, see the Combination Scenarios section in [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md).  
 
 > [!NOTE]  
 >  The following procedure does not include the standard sales order steps that you need to follow before you create an assembly order for unavailable quantities.

@@ -16,32 +16,32 @@
 
 ---
 # How to: Receive Items
-When items arrive at a warehouse that is not set up for warehouse processing, you simply record the receipt on the source document, such as a purchase order.
+When items arrive at a warehouse that is not set up for warehouse receipt processing, you simply record the receipt on the related business document, such as a purchase order, a sales return order, or an inbound transfer order.
 
-When items arrive at a warehouse that is set up for warehouse receipt processing, you must retrieve the lines of the released source document that triggered their receipt. If you have bins, you can either accept the default bin that is filled in, or if the item has never been used before in the warehouse, fill in the bin where the item should be put away. You must then fill in the quantities of the items you have received, and post the receipt. A source document for a receipt can be a purchase order, a sales return order, or an inbound transfer order.  
+When items arrive at a warehouse that is set up for warehouse receipt processing, you must retrieve the lines of the released source document that triggered their receipt. If you have bins, you can either accept the default bin that is filled in, or if the item has never been used before in the warehouse, fill in the bin where the item should be put away. You must then fill in the quantities of the items you have received, and post the receipt.  
 
 ## To receive items with a purchase order
 The following describes how to receive items with a purchase order. The steps are similar for sales return orders and transfer orders.  
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **purchase orders**, and then choose the related link.
-2. Open a purchase order, or create a new one. For more information, see [How to: Record Purchases](purchasing-how-record-purchases.md).
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Orders**, and then choose the related link.
+2. Open an existing purchase order, or create a new one. For more information, see [How to: Record Purchases](purchasing-how-record-purchases.md).
 3. In the **Qty. to Receive** field, enter the received quantity.
 
     The value in the **Qty. Received** field is updated. If this is a partial receipt, then the value is lower than the value in the **Quantity** field.
 4. Choose the **Post** action.
 
-## Top receive items with a warehouse receipt
+## To receive items with a warehouse receipt
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Warehouse Receipts**, and then choose the related link.  
 2.  Choose the **New** action.  
 
     Fill in the fields on **General** FastTab. When you retrieve source document lines, some of the information is copied to each line.  
 
-    For directed put-away and pick, if the location has a default zone and bin for receipts, the **Zone Code** and **Bin Code** fields are filled in automatically, but you can change them as appropriate.  
+    For warehouse configuration with directed put-away and pick, if the location has a default zone and bin for receipts, the **Zone Code** and **Bin Code** fields are filled in automatically, but you can change them as appropriate.  
 
     > [!NOTE]  
     >  If you wish to receive items with warehouse class codes other than the class code of the bin in the **Bin Code** field on the document header, you must delete the contents of the **Bin Code** field on the header before you retrieve source document lines for the items.  
 3.  Choose the **Get Source Documents** action. The **Source Documents** window opens.
 
-    From a new or an open warehouse receipt or warehouse shipment, you can use the **Filters to Get Source Docs.** window to retrieve the released source document lines that define which items to receive or ship.
+    From a new or an open warehouse receipt, you can use the **Filters to Get Source Docs.** window to retrieve the released source document lines that define which items to receive or ship.
 
     1. Choose the **Use Filters to Get Src. Docs.** action.  
     2. To set up a new filter, enter a descriptive code in the **Code** field, and then choose the **Modify** action.  
@@ -52,7 +52,7 @@ The following describes how to receive items with a purchase order. The steps ar
 
     The filter combinations that you define are saved in the **Filters to Get Source Docs.** window until the next time you need it. You can make an unlimited number of filter combinations. You can change the criteria at any time by choosing the **Modify** action.
 
-4.  Select the source documents for which you want to receive items and choose the **OK** button.  
+4.  Select the source documents for which you want to receive items, and then choose the **OK** button.  
 
     The lines of the source documents appear in the **Warehouse Receipt** window. The **Qty. to Receive** field is filled with the quantity outstanding for each line, but you can change the quantity as necessary. If you deleted the contents of the **Bin Code** field on the **General** FastTab before getting the lines, you must fill in an appropriate bin code on each receipt line.  
 

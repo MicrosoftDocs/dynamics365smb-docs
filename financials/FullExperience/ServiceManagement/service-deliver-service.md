@@ -1,6 +1,6 @@
 ---
     title: Deliver Service | Microsoft Docs
-    description: [!INCLUDE[d365fin](includes/d365fin_md.md)] provides features to help you deliver service according to the contracts that you have created and the service orders that you have committed to fulfilling. Your service technicians or dispatcher will find outstanding service orders easy to locate when they use the **Dispatch Board**. At a glance, the **Dispatch Board** shows which orders are in progress and which orders are complete.
+    description: Learn about features that can help you deliver service according to the contracts that you have created and the service orders that you have committed to fulfilling.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -10,12 +10,12 @@
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
-    ms.search.keywords:
+    ms.search.keywords: service, 
     ms.date: 07/01/2017
     ms.author: sgroespe
 
 ---
-# Deliver Service
+# How to: Deliver Service
 [!INCLUDE[d365fin](includes/d365fin_md.md)] provides features to help you deliver service according to the contracts that you have created and the service orders that you have committed to fulfilling. Your service technicians or dispatcher will find outstanding service orders easy to locate when they use the **Dispatch Board**. At a glance, the **Dispatch Board** shows which orders are in progress and which orders are complete.  
   
  Another way to review pending service orders is to use the **Service Tasks** window. In this view of your service obligations, you can see where in your service workflow an order is and change that status to reflect interactions with your customer.  
@@ -30,4 +30,4 @@
 |Create invoices and post them to your financial management system.|[Finalize Service and Invoice](../finalize-service-and-invoice.md)|  
   
 ## See Also  
- [Jobs](../jobs.md)
+[Jobs](../jobs.md)

@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Suite, Basic, user interface, application area
-ms.date: 03/29/2017
+ms.date: 08/22/2017
 ms.author: edupont
 
 ---
@@ -29,8 +29,9 @@ The following table lists the experiences that are currently available.
 
 | Experience | Impact on User Interface |
 | --- | --- |
-| Basic |Shows only core actions and fields for core business areas, such as sales, purchasing, finance, and opportunity management. |
-| Suite |Shows more actions and fields for core business areas and for other areas, such as project management, fixed asset management, and analysis by dimensions. |
+| Basic |Shows only core actions and fields for the most common business functionality, such as sales, purchasing, inventory, and finance. |
+| Essential |Shows all actions and fields for approximately 90 % of the application functionality. Manufacturing, Service Management, and Warehouse Management require the Advanced experience. |
+| Advanced| Shows all actions and fields for all application functionality, including Manufacturing, Service Management, and Warehouse Management.|
 
 ## See also
 [Changing Basic Settings](ui-change-basic-settings.md)  

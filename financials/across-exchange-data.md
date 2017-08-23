@@ -13,7 +13,7 @@
     ms.author: sgroespe
 
 ---
-# Exchange Data
+# Exchanging Data
 You can exchange data between [!INCLUDE[d365fin](includes/d365fin_md.md)] and external files or streams in connection with common business tasks, such as sending and receiving electronic documents and importing and exporting bank files.  
 
 Before you can send and receive electronic documents or import and export bank files, you must set up the data exchange framework to process the involved data files or streams. In addition, you must set up related areas. These include master data for customers that you send electronic invoices to and the bank data conversion service in case you distribute bank file conversions to an external service provider. For more information, see [Set Up Data Exchange](across-set-up-data-exchange.md).  

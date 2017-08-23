@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 06/02/2017
+ms.date: 08/23/2017
 ms.author: SorenGP
 
 ---
@@ -27,6 +27,7 @@ When you have set up your inventory, you can manage various inventory processes.
 | Define the general inventory setup, such as number series and how to use locations. |[How to: Set Up General Inventory Information](inventory-how-setup-general.md) |
 | Organize your inventory at multiple locations, including transfer routes. |[How to: Set Up Locations](inventory-how-register-new-items.md) |
 | Create item cards for inventory items that you trade in. |[How to: Register New Items](inventory-how-register-new-items.md) |
+|As a supplement to item cards, record information about your items in a specific location or of a specific variant.|[How to: Set Up Stockkeeping Units](inventory-how-to-set-up-stockkeeping-units.md)|
 | Assign items to categories and give them attributes to help you and customers find items. |[How to: Categorize Items](inventory-how-categorize-items.md) |
 
 ## See Also

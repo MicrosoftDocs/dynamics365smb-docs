@@ -49,6 +49,7 @@
 ### [How to: Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md)
 ### [How to: Send Documents by Email](ui-how-send-documents-email.md)
 ### [How to: Verify VAT Registration Numbers](sales-how-to-verify-vat-registration-numbers.md)
+### [How to: Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md)
 ## [Setting Up Purchasing](purchasing-setup-purchasing.md)
 ### [How to: Register New Vendors](purchasing-how-register-new-vendors.md)
 ### [How to: Record Special Purchase Prices and Discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md)
@@ -58,6 +59,7 @@
 ### [How to: Set Up General Inventory Information](inventory-how-setup-general.md)
 ### [How to: Set Up Locations](inventory-how-setup-locations.md)
 ### [How to: Register New Items](inventory-how-register-new-items.md)
+### [How to: Set Up Stockkeeping Units](inventory-how-to-set-up-stockkeeping-units.md)
 ### [How to: Categorize Items](inventory-how-categorize-items.md)
 ## [Setting Up Warehouse Management](warehouse-setup-warehouse.md)
 ## [Setting Up Project Management](projects-setup-projects.md)
@@ -167,6 +169,7 @@
 ## [How to: Work with Blanket Sales Orders](sales-how-to-create-blanket-sales-orders.md)
 ## [How to: Combine Shipments on a Single Invoice](sales-how-to-combine-shipments-on-a-single-invoice.md)
 ## [How to: Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)
+## [How to: Track Packages](sales-how-track-packages.md)
 
 # [Purchasing](purchasing-manage-purchasing.md)
 ## [How to: Record Purchases](purchasing-how-record-purchases.md)
@@ -202,6 +205,7 @@
 ## [How to: Invoice Jobs](projects-how-invoice-jobs.md)
 
 # [Assembly Management](assembly-assemble-items.md)
+## [How to: Set Up Assembly Locations](assembly-setup-assembly-locations.md)
 ## [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md)
 ## [How to: Quote an Assemble-to-Order Sale](assembly-how-to-quote-an-assemble-to-order-sale.md)
 ## [How to: Assemble Items](assembly-how-to-assemble-items.md)
@@ -236,6 +240,7 @@
 
 # [Warehouse Management](warehouse-manage-warehouse.md)
 ## [How to: Receive Items](warehouse-how-receive-items.md)
+## [How to: Cross-Dock Items](warehouse-how-to-cross-dock-items.md)
 ## [Putting Items Away](warehouse-put-away-items.md)
 ## [Moving Items](warehouse-move-items.md)
 ## [Picking Items](warehouse-pick-items.md)

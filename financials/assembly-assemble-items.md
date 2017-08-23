@@ -32,6 +32,8 @@ To support companies that supply products to their customers by combining compon
 
 |**To**|**See**|  
 |------------|-------------|  
+|Learn about the difference between assembling items right before shipping sales orders and assembling items that are intended for storage.|[Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md)|
+|Fill in fields on location cards and in inventory setup to define how items flow to and from the assembly department.|[How to: Set Up Assembly Locations](assembly-setup-assembly-locations.md)|
 |Customize an assembly item to a customer’s request during the sales process, and convert to a sale when accepted.|[How to: Quote an Assemble-to-Order Sale](assembly-how-to-quote-an-assemble-to-order-sale.md)|
 |Combine components to create an item in a simple process, to order or to stock.|[How to: Assemble Items](assembly-how-to-assemble-items.md)|  
 |Sell assembly items that are not currently available by creating a linked assembly order to supply the full or partial sales order quantity.|[How to: Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md)|
@@ -39,7 +41,6 @@ To support companies that supply products to their customers by combining compon
 |When you are selling assembly items from inventory and all items are not available, initiate an assembly order to automatically supply a part or all of the sales order quantity.|[How to: Sell Assemble-to-Order Items and Inventory Items Together](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)|
 |Undo a posted assembly order, for example because the order was posted with mistakes that must be corrected.|[How to: Undo Assembly Posting](assembly-how-to-undo-assembly-posting.md)|
 |Learn about the difference between assembly BOMs and production BOMs and the involved processing differences.|[How to: Work with Bills of Material](inventory-how-work-BOMs.md)|
-|Learn about the difference between assembling items right before shipping sales orders and assembling items that are intended for storage.|[Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md)|
 |Learn how assembly consumption and output are handled when you post assembly orders and how the derived item and resource costs are processed and distributed to the general ledger.|[Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)|  
 
 ## See Also  

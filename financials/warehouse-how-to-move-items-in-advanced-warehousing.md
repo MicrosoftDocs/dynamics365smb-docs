@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/16/2017
+    ms.date: 08/232017
     ms.author: sgroespe
 
 ---
@@ -31,13 +31,19 @@ The **Movement Worksheet** window has two functions that can assist in automatic
 3.  On lines of action type **Place**, specify where, which, and when to move the item in question by editing the **Zone Code**, **Bin Code**, **Qty. to Handle**, or **Due Date** fields.  
 
     If your warehouse has been set up so the bin codes follow the physical structure of the warehouse, you can take quantities of several items from successive bulk bins and then place them in forward picking bins, which also might be close to one another.  
-
 4.  On lines of action type **Take**, specify in the **Qty. to Handle** field a part quantity of the bin content that you want to move. All other fields on lines of action type **Take** are read-only.  
 5.  To move all suggested quantities as specified in the **Quantity** field, choose the **Autofill Qty. to Handle** action.  
 6. Choose the **Register** action.  
 
 > [!NOTE]  
->  If the location uses directed put-away and pick, then you cannot manually move items in or out of bins of bin type RECEIVE, because items in such bins must be registered as being put away before they are part of available inventory.  
+>  If the location uses directed put-away and pick, then you cannot manually move items in or out of bins of bin type RECEIVE, because items in such bins must be registered as being put away before they are part of available inventory.
+
+## To register the movement of an item that has already occurred  
+If your location uses directed put-away and pick, and you need to move items to other bins without a pre-existing warehouse put-away, pick, or movement, you can register the correct placement of the items in the warehouse using the **Whse. Reclassification Journal**.
+
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Whse. Reclassification Journal**, and then choose the related link.  
+2.  Fill in the **Item No.**, **From Zone Code**, **From Bin Code**, **To Zone Code**, and **To Bin Code** fields.  
+3.  Choose the **Register** action.  
 
 ## See Also  
 [Warehouse Management](warehouse-manage-warehouse.md)  

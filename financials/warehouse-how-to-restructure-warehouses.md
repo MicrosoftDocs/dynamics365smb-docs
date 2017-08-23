@@ -59,7 +59,7 @@ You have now emptied the bins where the items used to be. The default bins for y
 ## To delete a bin  
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.  
-2.  Select the location where you want to delete bins. On the **Navigate** tab, in the **Location** group, choose **Bins.**  
+2.  Select the location where you want to delete bins. Choose the **Bins** action.  
 3.  Select the lines for the bins that you want to delete.  
 4.  Choose the **Delete** action.  
 
@@ -70,7 +70,7 @@ If you want to rename a bin so that all records associated with the bin are also
 ## To rename a bin and change the bin code in all records  
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.  
-2.  Select the location where you want to rename a bin or change the bin code, and on the **Navigate** tab, in the **Location** group, choose **Bins.**  
+2.  Select the location where you want to rename a bin or change the bin code, and then choose the **Bins** action.  
 3.  Select the bin that you want to change and enter a new bin code in the **Code** field.  
 4.  Choose the **Yes** button.  
 

@@ -26,7 +26,7 @@ Based on the needs of your warehouse, you define the amount of information displ
 - Text information.  
 - Messages to show confirmations or errors about activities performed and registered by the handheld device user.
 
-For more information, see [Configuring an Automated Data Capture System](https://msdn.microsoft.com/en-us/library/dd338742(v=nav.90).aspx).
+For more information, see [Configuring an Automated Data Capture System](https://msdn.microsoft.com/en-us/library/dd338742.aspx) on MSDN.
 
 ## To set up a warehouse to use ADCS  
 To use ADCS, you must specify which warehouse locations use the technology.  
@@ -105,7 +105,7 @@ When you have created a miniform, the next steps are to create functions and to 
 
 In the [!INCLUDE[d365fin](includes/d365fin_md.md)] development environment, edit the code for the **Handling Codeunit** field to create or modify code to perform the required action or response.
 
-For more information, see [Configuring an Automated Data Capture System](https://msdn.microsoft.com/en-us/library/dd338742(v=nav.90).aspx).
+For more information, see [Configuring an Automated Data Capture System](https://msdn.microsoft.com/en-us/library/dd338742.aspx) on MSDN.
 
 ## See Also  
 [Warehouse Management](warehouse-manage-warehouse.md)  

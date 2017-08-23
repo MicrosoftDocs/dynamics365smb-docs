@@ -76,7 +76,7 @@
 ### [How to: Count, Adjust, or Reclassify Inventory](inventory-how-count-adjust-reclassify)
 ### [How to: Enable Automatic Breaking Bulk with Directed Put-away and Pick](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)
 ### [How to: Enable Picking by FEFO](warehouse-picking-by-fefo.md)
-### [Use Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)
+### [How to: Enable Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)
 ### [How to: Restructure Warehouses](warehouse-how-to-restructure-warehouses.md)
 ## [Setting Up Project Management](projects-setup-projects.md)
 ### [How to: Set Up Resources](projects-how-setup-resources.md)

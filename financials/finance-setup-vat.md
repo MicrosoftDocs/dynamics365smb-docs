@@ -82,7 +82,7 @@ The following sections describe how to assign VAT posting groups to individual e
 
 ### To assign VAT posting groups to individual general ledger accounts 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Chart of Accounts**, and then choose the related link.  
-2. Open the **G/L Account** card for the account.
+2. Open the **G/L Account** card for the account.  
 3. On the **Posting** FastTab, in the **Gen. Posting Type** field, choose either **Sale** or **Purchase**.  
 5. Choose the VAT posting groups to use for the sales or purchase account.  
 
@@ -93,10 +93,11 @@ The following sections describe how to assign VAT posting groups to individual e
 
 ### To assign VAT product posting groups to individual items and resources  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item** or **Resource**, and then choose the related link.  
-2. Do one of the following:
+2. Do one of the following:  
+
 * On the **Item** card, expand the **Price & Posting** FastTab, and then choose **Show more** to display the **VAT Product Posting Group** field.  
 * On the **Resource** card, expand the **Invoicing** FastTab.  
-3. Choose the VAT product posting group.
+3. Choose the VAT product posting group.  
 
 ## Set up clauses to explain the use of non-standard VAT rates
 You set up a VAT clause to describe information about the type of VAT that is being applied. The information may be required by government regulation. After you set up a VAT clause, and associate it with a VAT posting setup, the VAT clause is displayed on printed sales documents that use the VAT posting setup group. 

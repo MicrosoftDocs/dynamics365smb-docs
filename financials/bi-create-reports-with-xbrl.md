@@ -24,7 +24,7 @@ XBRL, which stands for eXtensible Business Reporting Language, is an XML-based l
  • Non-financial information  
  • Regulatory filings, such as annual and quarterly financial statements  
 
- Microsoft Dynamics NAV enables companies to implement data in XBRL, and take advantage of the flexibility and automation it provides for both collecting and sharing data.  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] enables companies to implement data in XBRL, and take advantage of the flexibility and automation it provides for both collecting and sharing data.  
 
 ## eXtensible Business Reporting Language
 XBRL (e **X**tensible **B**usiness **R**eporting **L**anguage) is an XML-based language for financial reporting. XBRL provides a standard for uniform reporting for all users of the financial information supply chain; such as public and private companies, the accounting profession, regulators, analysts, the investment community, capital markets and lenders, as well as key third parties such as software developers and data aggregators.  

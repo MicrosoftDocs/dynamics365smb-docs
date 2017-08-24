@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 08/22/2017
+ms.date: 08/23/2017
 ms.author: solsen
 
 ---
@@ -53,11 +53,11 @@ In the **Assisted Setup** window, you will find the following with the **Suite**
 | Set Up Reporting |Sets up data sets that you can use to build powerful reports using Excel or Power BI, for example. |
 | Set Up an Item Approval Workflow |Sets up the ability to send a notification to an approver when a user changes or creates an item. |
 | Set Up a Payment Approval Workflow |Sets up the ability to send a notification to an approver when a user sends payment journal lines for approval. |
-| Set Up Dynamics CRM Connection |Sets up a connection to Dynamics CRM, which allows you to synchronize data such as contacts and sales order information. |
+| Set Up Dynamics 365 for Sales Connection |Sets up a connection to Dynamics 365 for Sales, which allows you to synchronize data such as contacts and sales order information. |
 | Set Up Sales Tax |Gets you started with default tax groups and assigning tax area codes that you can assign to customers and vendors in order to automatically calculate sales tax in sales or purchase documents. |
 
 ## Trying things out in your own company
-Thinking about subscribing? You can easily change from the demonstration company, and create and work in a company of your own. This is a great way to start toward a subscription. Setups for finances are provided; you just need to create or import your items, customers, and vendors. After that, you're ready to post invoices and use business intelligence tools to analyze your business. You can use your company for free for a 30-day trial period. If you subscribe to [!INCLUDE[d365fin](includes/d365fin_md.md)] during that time, you're already up and running. You can continue with the work you did during the trial.  
+Thinking about subscribing? You can easily change from the demonstration company, and create and work in a company of your own. This is a great way to start toward a subscription. Setups for finances are provided; you just need to create or import your customers, vendors, and the products or services that you sell. After that, you're ready to post invoices and use business intelligence tools to analyze your business. You can use your company for free for a 30-day trial period. If you subscribe to [!INCLUDE[d365fin](includes/d365fin_md.md)] during that time, you're already up and running. You can continue with the work you did during the trial.  
 
 To create a company to try things out, go to the **My Settings** menu in the top right corner, and change the company to **My Company**. Sign out of [!INCLUDE[d365fin](includes/d365fin_md.md)] and then sign in again to apply the change. An assisted setup guide will help you provide basic information about your company. When that's done, explore the Home page and find the **Assisted Setup** action.  
 

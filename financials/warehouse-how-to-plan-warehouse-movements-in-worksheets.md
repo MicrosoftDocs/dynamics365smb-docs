@@ -59,8 +59,6 @@ You can also use the movement worksheet to plan other movement of inventory with
     > -   The **Bin Mandatory** check box on the location card is selected.  
     > -   The **From Zone** and **From Bin** fields are blank.  
 
-    For more information, see [Picking by FEFO](../picking-by-fefo.md).  
-
 5.  Complete some of the retrieved lines to reflect the changes you want to make. For each item that you want to move, you must fill in the **Item No.**, **From Bin Code**, **To Bin Code**, and **Quantity** fields.  
 6.  Delete the incomplete lines that you used for information.  
 7.  Once the movement worksheet lines accurately reflect how the movement action should be carried out by the warehouse employee, choose the **Create Movement** action to create the instructions for the employee.  

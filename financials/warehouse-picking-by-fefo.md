@@ -1,5 +1,5 @@
 ---
-    title: Picking by FEFO | Microsoft Docs
+    title: How to Enable Picking by FEFO | Microsoft Docs
     description: First-Expired-First-Out (FEFO) is a sorting method that ensures that the oldest items, those with the earliest expiration dates, are picked first.
     services: project-madeira
     documentationcenter: ''
@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# Picking Items by FEFO
+# How to: Enable Picking Items by FEFO
 First-Expired-First-Out (FEFO) is a sorting method that ensures that the oldest items, those with the earliest expiration dates, are picked first.  
 
  This functionality only works when the following criteria are met:  

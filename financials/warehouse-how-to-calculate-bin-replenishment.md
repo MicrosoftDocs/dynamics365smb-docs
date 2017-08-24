@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/16/2017
+    ms.date: 08/23/2017
     ms.author: sgroespe
 
 ---
@@ -25,15 +25,14 @@ It could also be that the warehouse is expecting new stock to arrive soon and wa
 Finally, if you have defined your bulk storage bins with a bin type action **Put Away** only, that is, the bin type does not have the **Pick** action selected, you must always keep your pick bins replenished, since Put Away-type bins are not suggested for a pick of inventory.  
 
 ## To replenish pick bins  
-
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Movement Worksheet**, and then choose the related link.  
 2.  Choose the **Calculate Bin Replenishment** action to open the report request page.  
 3.  Fill in the batch job request window to limit the scope of the replenishment suggestions that will be calculated. For example, you might be concerned with particular items, zones, or bins.  
 4.  Choose the **OK** button. Lines are created for the replenishment movements that need to be performed according to the rules that have been set up for the bins and bin contents, that is, items in bins.  
-5.  If you want to perform all the suggested replenishments, choose the **Create Movement.** Employees can now find instructions in the **Movements** menu item, carry them out and register them.  
+5.  If you want to perform all the suggested replenishments, choose the **Create Movement** action. Employees can now find instructions in the **Movements** menu item, carry them out and register them.  
 6.  If you only want some of the suggestions to be performed, delete the lines that are less important and then create a movement.  
 
-    The next time you calculate bin replenishment, the suggestions that you have deleted will be recreated, if they are still valid at that time.  
+The next time you calculate bin replenishment, the suggestions that you have deleted will be recreated, if they are still valid at that time.  
 
 > [!NOTE]  
 >  If the following conditions are met for an item:  
@@ -46,6 +45,7 @@ Finally, if you have defined your bulk storage bins with a bin type action **Put
 
 ## See Also  
 [Warehouse Management](warehouse-manage-warehouse.md)  
+[Picking by FEFO](warehouse-picking-by-fefo.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
 [Assembly Management](assembly-assemble-items.md)    

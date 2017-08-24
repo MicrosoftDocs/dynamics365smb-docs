@@ -23,29 +23,27 @@ A company's distribution strategy is reflected in the configuration of its wareh
 
 |**To**|**See**|  
 |------------|-------------|  
-|Get an overview of the capabilities of different warehouse elements, such as bins, locations, and activities, to decide how to configure the warehouse management system.|[About Warehouse Management](../about-warehouse-management.md)|  
-|Learn how to configure an efficient distribution model with a combination of different location setups and responsibility centers assigned to business partners or employees.|[About Using Locations and Responsibility Centers](FullExperience/GeneralBusinessFunctionalityAdvanced/ResponsibilityCenters/about-using-locations-and-responsibility-centers.md)|  
-|Set users up as warehouse employees at specific locations.|[How to: Set Up Warehouse Employees](../how-to-set-up-warehouse-employees.md)|  
-|Define storage and planning rules for each instance of an item in a specific warehouse location.|[How to: Set Up Stockkeeping Units](../how-to-set-up-stockkeeping-units.md)|  
-|Make additional settings to an existing location to enable it for warehouse activities.|[How to: Convert Existing Locations to Warehouse Locations](../how-to-convert-existing-locations-to-warehouse-locations.md)|  
-|Define different types of bins across the warehouse to control where items are placed according to their type, rank, or handling level.|[How to: Set Up Locations to Use Bins](../how-to-set-up-locations-to-use-bins.md)|  
-|klnmkl|[How to: Set Up Assembly Locations](assembly-setup-assembly-locations.md)|
-|Set up eight different bin types, such as Picking Bin, to define the flow activities that relate to each bin type.|[How to: Set Up Bin Types](../how-to-set-up-bin-types.md)|  
-|Use a worksheet to create multiple bins with information, such as name, number series, and category, according to a bin template.|[How to: Create Bins in the Bin Creation Worksheet](../how-to-create-bins-in-the-bin-creation-worksheet.md)|  
-|Define which items you want to store in any given bin and set the rules that decide when to fill the bin with a particular item.|[How to: Set Up Bin Contents](../how-to-set-up-bin-contents.md)|  
-|Set an item up to always be placed in a specific bin.|[How to: Assign Default Bins to Items](../how-to-assign-default-bins-to-items.md)|  
-|Set up the warehouse to automatically suggest items to be picked that expire first.|[Picking by FEFO](../picking-by-fefo.md)|  
-|Create templates to govern where and how items are put away during directed put-away.|[How to: Set Up Put-away Templates](../how-to-set-up-put-away-templates.md)|  
-|Set locations up for the most advanced scope of warehouse management where all activities must follow a strict workflow.|[How to: Set Up Warehouses for Directed Put-away and Pick](../how-to-set-up-warehouses-for-directed-put-away-and-pick.md)|  
-|Set items up to be handled by directed put-aways and picks.|[How to: Set Up Items for Directed Put-away and Pick](../how-to-set-up-items-for-directed-put-away-and-pick.md)|  
-|Enter information about the different transportation vendors you use, including a link to their package tracking service.|[How to: Set Up Shipping Agents](../how-to-set-up-shipping-agents.md)|  
-|Set up fixed location pairs, transfer-from location and transfer-to location, between which items can be transferred via in-transit services, transportation units.|[How to: Set Up Transfer Routes](../how-to-set-up-transfer-routes.md)|  
-|Configure the warehouse to support a process where items are shipped directly from the receiving area, without entering inventory.|"Set Up the Warehouse for Cross-Docking" in [Cross-Docking Items](../how-to-cross-dock-items.md)|  
-|Define when and how items in warehouse locations are counted for maintenance or financial reporting purposes.|[How to: Set Up Physical Inventory Counting Periods](../how-to-set-up-physical-inventory-counting-periods.md)|  
-|Learn about the capabilities of integration bar code readers to the warehouse management installation.|[Use Automated Data Capture Systems (ADCS)](../use-automated-data-capture-systems-adcs-.md)|  
-|Get tips on how to reorganize locations, bins, or zones to obtain more efficient warehouse activities.|[How to: Restructure Warehouses](../how-to-restructure-warehouses.md)|  
+|Get an overview of the capabilities of basic versus advanced warehouse functionality.|[Design Details: Warehouse Overview](design-details-warehouse-overview.md)|  
+|Configure an efficient distribution model with a combination of different locations and responsibility centers assigned to business partners or employees.|[How to: Work with Responsibility Centers](inventory-responsibility-centers.md)|  
+|Set up eight different bin types, such as Picking Bin, to define the flow activities that relate to each bin type.|[How to: Set Up Bin Types](warehouse-how-to-set-up-bin-types.md)|  
+|Create bins, either manually or automatically, with information, such as name, number series, and category, according to a bin template.|[How to: Create Bins](warehouse-how-to-create-individual-bins.md)|  
+|Define which items you want to store in any given bin and set the rules that decide when to fill the bin with a particular item.|[How to: Create Bin Contents](warehouse-how-to-set-up-bin-contents.md)|  
+|Set an item up to always be placed in a specific bin.|[How to: Assign Default Bins to Items](warehouse-how-to-assign-default-bins-to-items.md)|
+|Create templates to govern where and how items are put away during directed put-away.|[How to: Set Up Put-away Templates](warehouse-how-to-set-up-put-away-templates.md)|
+|Set users up as warehouse employees at specific locations.|[How to: Set Up Warehouse Employees](warehouse-how-to-set-up-warehouse-employees.md)|
+|Define different types of bins across the warehouse to control where items are placed according to their type, rank, or handling level.|[How to: Set Up Locations to Use Bins](warehouse-how-to-set-up-locations-to-use-bins.md)|
+|Make additional settings to an existing location to enable it for warehouse activities.|[How to: Convert Existing Locations to Warehouse Locations](warehouse-how-to-convert-existing-locations-to-warehouse-locations.md)|
+|Enable picking, moving, and putting away for assembly or production orders in basic warehouse configurations.|[How to: Set Up Basic Warehouses with Operations Areas](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)|  
+|Set items and locations up for the most advanced scope of warehouse management where all activities must follow a strict workflow.|[How to: Set Up Items and Locations for Directed Put-away and Pick](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md)|  
+|Define when and how items in warehouse locations are counted for maintenance or financial reporting purposes.|[How to: Count, Adjust, or Reclassify Inventory](inventory-how-count-adjust-reclassify)|
+|Enable warehouse workers to break a larger unit of measure into smaller units of measure to fulfill the needs of source documents.|[How to: Enable Automatic Breaking Bulk with Directed Put-away and Pick](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)|  
+|Set up the warehouse to automatically suggest items to be picked that expire first.|[How to: Picking by FEFO](warehouse-picking-by-fefo.md)|
+|Integrate bar code readers to your warehouse management solution.|[Use Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)|  
+|Get tips on how to reorganize locations, bins, or zones to obtain more efficient warehouse activities.|[How to: Restructure Warehouses](warehouse-how-to-restructure-warehouses.md)|  
 
 ## See Also  
- [Design and Engineering](../design-and-engineering.md)   
- [Receiving](../receiving.md)   
- [Shipping](../Shipping.md)
+[Warehouse Management](warehouse-manage-warehouse.md)  
+[Inventory](inventory-manage-inventory.md)  
+[Assembly Management](assembly-assemble-items.md)    
+[Design Details: Warehouse Management](design-details-warehouse-management.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

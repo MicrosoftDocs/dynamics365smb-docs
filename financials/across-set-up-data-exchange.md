@@ -13,7 +13,7 @@
     ms.author: sgroespe
 
 ---
-# Set Up Data Exchange
+# Setting Up Data Exchange
 Before you can send and receive electronic documents or import and export bank files, you must set up the data exchange framework to process the involved files. In addition, you must set up related areas, such as master data for customers that you send electronic invoices to or the bank data conversion service in case you use the external service provider to convert your bank files. For more information, see [Exchanging Data as Electronic Documents](across-data-exchange.md).  
 
  When [!INCLUDE[d365fin](includes/d365fin_md.md)] is set up to exchange data with external files, users can use the setup in common business tasks, such as sending and receiving electronic documents and importing and exporting bank files.  

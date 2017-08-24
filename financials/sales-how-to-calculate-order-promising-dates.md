@@ -46,7 +46,6 @@ Available to promise (ATP) calculates dates based on the reservation system. It 
 ### Capable to Promise  
 Capable to promise (CTP) assumes a “what if” scenario where the item is not in inventory and no orders are scheduled. Based on this scenario, [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates the earliest date that the item can be available if it is to be produced, purchased, or transferred.  
 
-For information about performing the two calculations from sales orders, see [How to: Calculate Order Promising Dates](../Topic/How%20to:%20Calculate%20Order%20Promising%20Dates.md).  
 
 ### Calculations  
 When [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates the customer’s delivery date, it performs two tasks:  
@@ -73,8 +72,8 @@ The order processor finishes the CTP process by accepting the dates. This means 
 In addition to the external order promising that you can perform in the **Order Promising Lines** window, you can also promise internal or external delivery dates for bill-of-material items. For more information, see [How to: View the Availability of Items](inventory-how-availability-overview.md).
 
 ## To set up order promising  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Order Promising Setup**, and then choose the related link.  
-2.  Enter a number and time unit code in the **Offset(Time)** field. Select one of the following codes.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Order Promising Setup**, and then choose the related link.  
+2. Enter a number and time unit code in the **Offset(Time)** field. Select one of the following codes.  
 
     |Code|Description|  
     |----------|-----------------|  
@@ -85,9 +84,42 @@ In addition to the external order promising that you can perform in the **Order 
     |**y**|Year|  
 
     For example, "3w" indicates that the offset time is three weeks. To indicate the current period, prefix to any of these codes with the letter “c”. For example, if you want the offset time to be the current month, enter **cm**.  
-3.  Enter a number series in the **Order Promising Nos.** field by selecting a line from the list in the **No. Series** window.  
-4.  Enter an order promising template in the **Order Promising Template** field by selecting a line from the list in the **Req. Worksheet Template List** window.  
-5.  Enter a requisition worksheet in the **Order Promising Worksheet** field by selecting a line from the list on the **Req. Wksh. Names** window.
+3. Enter a number series in the **Order Promising Nos.** field by selecting a line from the list in the **No. Series** window.  
+4. Enter an order promising template in the **Order Promising Template** field by selecting a line from the list in the **Req. Worksheet Template List** window.  
+5. Enter a requisition worksheet in the **Order Promising Worksheet** field by selecting a line from the list on the **Req. Wksh. Names** window.
+
+### To enter inbound warehouse handling time in the inventory setup window  
+If you want to include warehouse handling time in the order promising calculation on the purchase line, you can set it up as a default for the inventory and for your location.    
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Inventory Setup**, and then choose the related link.  
+2. On the **General** FastTab, in the **Inbound Whse. Handling Time** field, enter the number of days that you want to include in the order promising calculation.  
+
+> [!NOTE]  
+>  If you have filled in the **Inbound Whse. Handling Time** field on the **Location Card** for your location this field is used as the default inbound warehouse handling time.  
+
+### To enter inbound warehouse handling time on location cards  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Location**, and then choose the related link.  
+2.  Open the relevant location card.  
+3.  On the **Warehouse** FastTab, in the **Inbound Whse. Handling Time** field, enter the number of days that you want to be included in the order promising calculation.  
+
+> [!NOTE]  
+>  If you leave the **Inbound Whse. Handling Time** field blank, then the calculation uses the value in the **Inventory Setup**  window.
+
+### To enter outbound warehouse handling time in the inventory setup window  
+If you want to set up an outbound warehouse handling time to be included in the order promising calculation on the sales line, you can set this up as a default for the inventory.
+
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Inventory Setup**, and then choose the related link.  
+2. On the **General** FastTab, in the **Outbound Whse. Handling Time** field, enter the number of days you want to include in the order promising calculation.  
+
+> [!NOTE]  
+>  If you have filled in the **Outbound Whse. Handling Time** field on the Location card for your location, this field is used as the default outbound warehouse handling time.  
+
+### To enter outbound warehouse handling time on location cards  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.  
+2.  Open the relevant location card.  
+3.  On the **Warehouse** FastTab, in the **Outbound Whse. Handling Time** field, enter the number of days that you want to include in the order promising calculation.  
+
+> [!NOTE]  
+>  If you leave the **Outbound Whse. Handling Time** field blank, then the calculation uses the value in the **Inventory Setup**  window.
 
 ## To make an item critical  
 Before an item can be included in the order promising calculation, it must be marked as critical. This setup ensures that non-critical items do not cause irrelevant order promising calculations.   

@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 07/21/2017
+ms.date: 08/24/2017
 ms.author: edupont
 
 ---
@@ -17,7 +17,7 @@ ms.author: edupont
 Any business must do its books and sign off on the accounting. Some businesses employ an external accountant, and others have an accountant on staff. No matter which type of accountant you are, you can use the **Accountant** Role Center as your Home in [!INCLUDE[d365fin](includes/d365fin_md.md)]. From here, you can access all windows that you need in your work.  
 
 ## Accountant Role Center
-The Role Center is a dashboard with activity tiles that show you real-time key figures and give you quick access to data. In the ribbon at the top of the window, you have access to more actions, such as opening the most commonly used financial reports and statements in Excel. In the navigation pane to the left, you can quickly switch between the lists you use most often. If you expand the **Home** menu in the navigation pane, you will see other areas, such as **Posted Documents** with the various types of documents that the company has posted.  
+The Role Center is a dashboard with activity tiles that show you real-time key figures and give you quick access to data. In the ribbon at the top of the window, you have access to more actions, such as opening the most commonly used financial reports and statements in Excel. In the navigation pane to the left, you can quickly switch between the lists you use most often. If you expand the **Home** menu in the navigation pane, you will see other areas, such as **Posted Documents** with the various types of documents that the company has posted.  
 
 If you are new to [!INCLUDE[d365fin](includes/d365fin_md.md)], you can launch a list of videos right from your Home page. You can also launch a **Getting Started** tour that points out key areas.  
 
@@ -34,60 +34,9 @@ As a result, you may receive two emails:
 
 You can then access their financial data from the **Accountant** Role Center. If you use the **Accountant Portal** extension, you can also add that client to your list of clients in the accountant portal dashboard.  
 
-## Accountant Portal
-If you are an accountant with several clients, you can use the accountant portal as your dashboard for a better overview of your clients. From there, you can access each client's tenant in [!INCLUDE[d365fin](includes/d365fin_md.md)] and use the Accountant Role Center as described above.  
+## Accountant Hub
+If you are an accountant with several clients, you can use [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] for a better overview of your clients. From there, you can access each client's tenant in [!INCLUDE[d365fin](includes/d365fin_md.md)] and use the Accountant Role Center as described above. For more information see [Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountant/index).  
 
-The accountant portal is a dedicated version of [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can get access to the portal by signing up from [Financials for Accountants on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants), or by adding the [Accountant Portal extension](ui-extensions-accountant-portal.md) to your [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-
-> [!TIP]  
->  When you sign up for the accountant portal, you must specify your work email address, such as *me@accountant.com*. We recommend that you use the same email address when you work in your clients' [!INCLUDE[d365fin](includes/d365fin_md.md)], so that you can easily switch between clients.  
-
-When you first log in to the accountant portal, the dashboard shows a sample client to help you get started. Once you are comfortable, you can remove that sample client.  
-
-### Working with Individual Clients
-The dashboard shows the most important information about each client.  
-[![Accountant Portal](./media/ui-extensions-accportal/accountant-portal.png)](https://go.microsoft.com/fwlink/?linkid=851257)
-
-The **Company Name** column lists all companies that your clients have in [!INCLUDE[d365fin](includes/d365fin_md.md)], and the **Client Name** column shows the names of your clients. You can customize the dashboard to show the data points that you want to see by adding or removing columns. For example, you might want to see taxes that are due, how many open sales documents each client has, or the number of purchase invoices that are due next week. You can configure the view to suit your needs. If you have many clients, you can use filters to sort your view.  
-
-Next to the client name the three ellipses reveal a short menu:
-
--   Refresh the current company and get fresh data for the client  
--   Go to the client's company  
--   Select more companies  
-
-Similarly, you can use the **Client Summary** drop-down menu to refresh all companies, for example.  
-
-#### Company Details
-You can see more information about your clients' data by choosing the name of the company that you want to learn more about. This opens the **Company Details** window, where you can see additional information, such as the following:  
-
--   Cash account balances  
--   Cash flow forecast  
--   Overdue purchase invoices  
--   Overdue sales invoices  
-
-All other work that you do for each client, you can do in the Accountant Role Center in their [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-
-In the **Company Details** window, you can see KPIs for the company, such as the following:
-
--   Cash account balances  
--   Cash flow forecast  
--   Overdue purchase invoices  
--   Overdue sales invoices  
-
-Technically, you have now logged into your client's [!INCLUDE[d365fin](includes/d365fin_md.md)], so you can use the Home menu in the left navigation pane to access other areas in your client's company. If you change the Role Center to the Accountant Role Center, you can pick up your usual work that you do for each client. For more information, see [How to: Change the Role Center](change-role.md).  
-
-Otherwise, go back to your accountant portal and continue to the next client. You can close the current browser tab with your client's [!INCLUDE[d365fin](includes/d365fin_md.md)] or leave it open while you continue work in the accountant portal.  
-
-> [!NOTE]  
->  If you do not intend to return to this client in a few minutes, we recommend that you close the browser tab. If you want to access the same client again, simply choose the **Go To Client** menu item - you are logged in automatically.  
-
-### Adding Clients
-You can add a client by using the **Clients** window, which you can open by choosing the **Manage Clients** action in the ribbon. Simply choose **New** and then fill in the fields.  
-
-The data in the card for each client is specified by you, and you can change it as needed. However, the **Client URL** field is critical - this is how you can access each client's [!INCLUDE[d365fin](includes/d365fin_md.md)]. Use the **Test Client URL** action in the ribbon to test that you entered the right link. The URL that you must enter points at the client's [!INCLUDE[d365fin](includes/d365fin_md.md)], such as *https://mybusiness.financials.dynamics.com*. This URL is then used when you choose the **Go To Company** menu item.  
-
-<!--If you have been invited to a client's [!INCLUDE[d365fin](includes/d365fin_md.md)] and signed in with your work account, then the client will be added to your dashboard in the accountant portal. -->
 
 ## See Also
 [Finance](finance.md)  
@@ -97,6 +46,6 @@ The data in the card for each client is specified by you, and you can change it 
 [Working with Dimensions](finance-dimensions.md)  
 [Analyzing Financial Statements in Excel](finance-analyze-excel.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Invite Your External Accountant to Your [!INCLUDE[d365fin](includes/d365fin_md.md)]](finance-invite-external-accountant.md)  
-[Financials for Accountants on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
 [Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md)  
+[Invite Your External Accountant to Your [!INCLUDE[d365fin](includes/d365fin_md.md)]](finance-invite-external-accountant.md)  
+[Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountant/index)[Financials for Accountants on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  

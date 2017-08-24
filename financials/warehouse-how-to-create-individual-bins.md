@@ -33,7 +33,7 @@ The most effective way to create the bins of your warehouse is to generate group
 Before you start creating bins automatically, you should determine the kind of bins that are essential for your operations, as well as the most practical flow of items through the physical structure of your warehouse.  
 
 > [!NOTE]  
->  As soon as you use a bin, you cannot delete it, since entries associated with it have been created. But if you want to use another bin-naming system, you can use the reclassification journal to in effect move your items to a new bin system. This process is manual and takes time, however, so it is best to set up your bins correctly from the start.  
+>  As soon as you use a bin, you cannot delete it unless it is empty. But if you want to use another bin-naming system, you can use the reclassification journal to in effect move your items to a new bin system. This process is manual and takes time, however, so it is best to set up your bins correctly from the start.  
 
 To work with the **Bin Creation Worksheet** window, you must be set up as a warehouse employee at the location where the bins exist. For more information, see [How to: Set Up Warehouse Employees](warehouse-how-to-set-up-warehouse-employees.md).    
 

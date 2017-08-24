@@ -30,7 +30,7 @@ The dashboard shows the most important information about each client.
 
 The **Client Name** column shows the names of your clients, and the **Company Name** column lists all companies if the client has more than one company in [!INCLUDE[d365fin_ong](includes/d365fin_long_md.md)]. You can customize the dashboard to show the data points that you want to see by adding or removing columns. For example, you might want to see taxes that are due, how many open sales documents each client has, or the number of purchase invoices that are due next week. You can configure the view to suit your needs. If you have many clients, you can use filters to sort your view.  
 
-Next to the client name the three ellipses reveal a short menu:
+Next to the client name the ellipsis reveal a short menu:
 
 -   Refresh the current company and get fresh data for the client  
 -   Go to the client's [!INCLUDE[d365fin](includes/d365fin_md.md)]  

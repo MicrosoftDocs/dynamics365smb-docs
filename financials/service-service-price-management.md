@@ -52,18 +52,16 @@ Service price adjustment lets you adjust the price of an item, resource, general
   
 After you have entered an item on the service item line, you then enter all information about the costs of this item on the service lines. When you run the Adjust Service Price function, you can preview the price adjustments. You can make modifications if you have to. When you acknowledge the modifications, the adjustments are calculated, and are then transferred to the service lines. You then post the service order.  
   
- Depending on the type of service price adjustment, the total amount of the adjustments is calculated.  
+Depending on the type of service price adjustment, the total amount of the adjustments is calculated.  
   
- The following table describes the calculations.  
+The following table describes the calculations.  
   
-|Calculation | Description|
+|ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../../includes/bp_tabledescription_md.md)]-->|  
 |----------------------------------|---------------------------------------|  
 |**Fixed Price**|This means that you charge a fixed price for the service item, resource, general ledger account, or cost, regardless of the real costs or regular charges. Selecting this option means that the service price adjustment will reach the exact amount specified in the service price group.|  
 |**Maximum**|This means that you put an upper limit on the charge to your customer, regardless of the real costs or regular charges. Selecting this option means that the service price adjustment will only be performed if the total price exceeds the amount specified in the service price group.|  
 |**Minimum**|This means that you put a lower limit on the charge to your customer, regardless of the real costs or regular charges. Selecting this option means that the service price adjustment will only be performed if the total amount is less than the amount specified on the service price group.|  
   
 ## See Also  
-[How to: Set Up Service Price Adjustment Groups](../how-to-set-up-service-price-adjustment-groups.md)   
-[How to: Set Up Service Price Groups](../how-to-set-up-service-price-groups.md)   
-[How to: Create Service Price Adjustments](../how-to-create-service-price-adjustments.md)   
-[How to: Change Service Pricing for Service Items](../how-to-change-service-pricing-for-service-items.md)
+[Setting Up Service management](service-setup-service.md)   
+[How to: Set Up Pricing and Additional Costs for Services](service-how-setup-service-costs-pricing.md)

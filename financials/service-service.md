@@ -1,6 +1,6 @@
 ---
-    title: Service | Microsoft Docs
-    description: Providing ongoing service to customers is an important part of any business and one that can be a source of customer satisfaction and loyalty, in addition to revenue. However, managing and tracking service is not always easy, and [!INCLUDE[d365fin](includes/d365fin_md.md)] provides a set of tools to help. These tools are designed to support repair shop and field service operations, and can be used in business scenarios such as complex customer service distribution systems, industrial service environments with bills of materials, and high volume dispatching of service technicians with requirements for spare parts management.
+    title: Service Management | Microsoft Docs
+    description: Learn to use features designed to support repair shop and field service operations.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -15,8 +15,8 @@
     ms.author: sgroespe
 
 ---
-# Service
-Providing ongoing service to customers is an important part of any business and one that can be a source of customer satisfaction and loyalty, in addition to revenue. However, managing and tracking service is not always easy, and [!INCLUDE[d365fin](includes/d365fin_md.md)] provides a set of tools to help. These tools are designed to support repair shop and field service operations, and can be used in business scenarios such as complex customer service distribution systems, industrial service environments with bills of materials, and high volume dispatching of service technicians with requirements for spare parts management.  
+# Service Management
+Providing ongoing service to customers is an important part of any business and one that can be a source of customer satisfaction and loyalty, in addition to revenue. However,managing and tracking service is not always easy, and [!INCLUDE[d365fin](includes/d365fin_md.md)] provides a set of tools to help. These tools are designed to support repair shop and field service operations, and can be used in business scenarios such as complex customer service distribution systems, industrial service environments with bills of materials, and high volume dispatching of service technicians with requirements for spare parts management.  
   
  With these tools you can accomplish the following:  
   
@@ -36,13 +36,13 @@ Providing ongoing service to customers is an important part of any business and 
   
 |**To**|**See**|  
 |------------|-------------|  
-|Set up Service Management, including fault codes, policies, default documents and templates.|[Configure Service Processes](../configure-service-processes.md)|  
-|Set up service orders, service tasks, and dispatch systems.|[Plan Service](../plan-service.md)|  
-|Set up contracts using templates and provide quotes and estimates|[Fulfill Service Contracts](../fulfill-service-contracts.md)|  
-|Determine solutions, provide loaners, and establish service pricing.|[Handle Customer Inquiries](../handle-customer-inquiries.md)|  
-|Finalize service details, provide service to customers, and invoice service orders.|[Deliver Service](../deliver-service.md)|  
+|Set up Service Management, including fault codes, policies, default documents and templates.|[Setting Up Service Management](service-setup-service.md)|  
+|Create service orders, service tasks, and dispatch systems.|[Plan Service](service-plan-service.md)|  
+|Create contracts using templates and provide quotes and estimates|[Fulfill Service Contracts](service-fulfill-service-contracts.md)|  
+|Determine solutions, provide loaners, and establish service pricing.|[Handle Customer Inquiries](service-handle-customer-inquiries.md)|  
+|Finalize service details, provide service to customers, and invoice service orders.|[Deliver Service](service-deliver-service.md)|  
   
 ## See Also  
- [Manage Receivables](../manage-receivables.md)   
- [Jobs](../jobs.md)   
- [Working with Product Name](../working-with-$-p_1-product-name-$-.md)
+[Manage Receivables](receivables-manage-receivables.md)   
+[Jobs](projects-how-create-jobs.md)   
+[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] ](index.md)

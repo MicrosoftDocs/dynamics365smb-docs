@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 07/04/2017
+ms.date: 08/24/2017
 ms.author: sgroespe
 
 ---
@@ -44,17 +44,6 @@ A customer may want to change an order after it has been submitted for approval.
 - In the window that displays the record, choose the **Cancel Approval Request** action.
 
 When the approval request has been canceled, the status of the related approval entry is changed to **Canceled**. The status of the record is updated from **Pending Approval** to **Open**. The approval process can then start again.
-
-## To make minor changes to approved records
-If you want to make a minor change to a record after it has been approved, you can reopen the record, make the change, and then release it. For minor changes, you do this with the **Reopen** and **Release** buttons.
-
-1. Open the window that displays the record, such as a purchase invoice, and then choose the **Reopen** action.
-
-    The **Document Status** field is changed to **Open**.
-2. Make the necessary changes on the record, such as the vendor’s address.
-3. Choose the **Release** action.
-
-When you reopen the source record, the status of the related approval entry remains Approved in the **Approval Entries** window.
 
 ## To approve or reject requests for approval
 The following task is performed by an approval user with approver rights.

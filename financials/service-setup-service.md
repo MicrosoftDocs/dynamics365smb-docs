@@ -28,11 +28,11 @@ The following table describes a sequence of tasks, with links to the topics that
 | Define how your organization works with fault reporting. |[How to: Set Up Fault Reporting](service-how-setup-fault-reporting.md) |
 | Set up a loaner program, so you can lend a substitute while you work on a service item. |[How to: Set Up a Loaner Program](service-how-setup-loaner-program.md) |
 | Provide troubleshooting guidelines that help service reps deliver faster service. |[How to: Set Up Troubleshooting](service-how-setup-troubleshooting.md) |
-| Set up resource allocation to make it easy to assign the right resource to a service task. |[How to: Set Up Resource Allocation]service-how-setup-resource-allocation.md) |
+| Set up resource allocation to make it easy to assign the right resource to a service task. |[How to: Set Up Resource Allocation](service-how-setup-resource-allocation.md) |
 | Set up codes that automatically assign lines on service documents for services you deliver often. |[How to: Set Up Codes for Standard Services](service-how-setup-resource-allocation.md) |
 | Set up service items and service item components. |[How to: Set Up Service Items](service-how-setup-service-items.md) |
 | Establish general settings that control aspects of Service Management Processes. |[How to: Configure Service Management Processes](service-setup-service-processes.md) |
-| Define pricing for services, and set up additional service costs to assess on service orders. |[How to: Set Up Pricing and Additional Costs for Services]service-how-setup-service-cost-pricing.md)|
+| Define pricing for services, and set up additional service costs to assess on service orders. |[How to: Set Up Pricing and Additional Costs for Services](service-how-setup-service-cost-pricing.md)|
 
 ## See also
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] ](index.md)

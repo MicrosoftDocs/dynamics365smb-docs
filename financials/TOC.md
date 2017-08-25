@@ -98,6 +98,7 @@
 ### [How to: Set Up Work Hours and Service Hours](service-how-setup-work-service-hours.md)
 ### [How to: Set Up Statuses for Service Orders and Repairs](service-order-repair-status.md)
 ### [How to: Set Up a Loaner Program](service-how-setup-loaner-program.md)
+### [How to: Set Up Service Contracts](service-how-setup-service-contracts.md)
 ## [Depreciation Methods](fa-depreciation-methods.md)
 ## [How to: Set up Email](madeira-how-setup-email.md)
 ## [How to: Create Number Series](ui-create-number-series.md)
@@ -162,6 +163,7 @@
 ## [How to: Import Payroll Transactions](finance-how-import-payroll-transactions.md)
 ## [How to: Report VAT to Tax Authorities](finance-how-report-vat.md)
 ## [How to: Work with VAT on Sales and Purchases](finance-work-with-vat.md)
+## [How to: Convert Service Contracts that Include VAT Amounts](service-how-to-convert-service-contracts.md)
 ## [Analyzing Financial Statements in Excel](finance-analyze-excel.md)
 ## [Analyzing Cash Flows in Your Company](finance-analyze-cash-flow.md)
 ## [Closing Years and Periods](year-close-years-periods.md)
@@ -282,8 +284,13 @@
 ## How to: Execute Production
 
 # [Service Management](service-service.md)
-## How to: Plan Service
-## How to: Fulfill Service Contracts
+## [Plan Service](service-plan-service.md)
+### [How to: Create Service Items](service-how-to-create-service-items.md)
+### [Understanding Service Order and Repair Status](service-service-order-status-and-repair-status.md)
+### [Understanding Allocation Status and Repair Status](service-allocation-status-and-repair-status.md)
+## [Fulfill Service Contracts](service-fulfill-service-contracts.md)
+### [Multiple Contracts](service-multiple-contracts.md)
+### [How to: Create Service Contracts and Service Contract Quotes](service-how-to-create-service-contracts-and-service-contract-quotes.md)
 ## How to: Handle Customer Inquiries
 ## How to: Deliver Service
 

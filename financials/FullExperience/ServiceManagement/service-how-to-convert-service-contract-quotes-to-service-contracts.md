@@ -1,6 +1,6 @@
 ---
     title: How to Convert Service Contract Quotes to Service Contracts | Microsoft Docs
-    description: When a customer has accepted a service contract quote, you convert it to a service contract. At the same time, you can create a service invoice for the starting period of the contract if the starting date of the contract is before the beginning of the next invoice period.
+    description: When a customer has accepted a service contract quote, you convert it to a service contract and create a service invoice for the starting period of the contract if the starting date of the contract is before the beginning of the next invoice period.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -21,7 +21,10 @@ When a customer has accepted a service contract quote, you convert it to a servi
  You must have created the service contract quote already.  
   
 ### To convert a service contract quote to service contract  
+When a customer has accepted a service contract quote, you convert it to a service contract. At the same time, you can create a service invoice for the starting period of the contract if the starting date of the contract is before the beginning of the next invoice period.  
   
+ You must have created the service contract quote already.  
+
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Contract Quotes**, and then choose the related link.  
   
 2.  Open the relevant service contract quote you want to convert to a service contract.  

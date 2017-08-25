@@ -291,6 +291,7 @@
 ## [Fulfill Service Contracts](service-fulfill-service-contracts.md)
 ### [Multiple Contracts](service-multiple-contracts.md)
 ### [How to: Create Service Contracts and Service Contract Quotes](service-how-to-create-service-contracts-and-service-contract-quotes.md)
+### [How to: Change the Annual Amount on a Service Contract or Contract Quote](service-how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)
 ## How to: Handle Customer Inquiries
 ## How to: Deliver Service
 

@@ -57,7 +57,7 @@ The following procedure shows how to create service items when you ship items on
 >  If an item is a BOM and you have exploded the BOM, the exploded BOM items are processed the same as regular items. Service items are created based on the service items group condition and, optionally, the serial numbers condition. Furthermore, if a service item is created for an exploded BOM item that is made up of other BOM components, these items are created as service item components for the exploded BOM service item.  
 >   
 >  If an item is a BOM and you have not exploded the BOM, a service item is created for it based on the service item group condition and, optionally, the serial numbers condition.  
-  
+
 ## See Also  
 [How to: Set Up Service Items](service-how-setup-service-items.md)
 [Service Management](service-service.md)   

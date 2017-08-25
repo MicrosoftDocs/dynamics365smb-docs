@@ -73,7 +73,7 @@ The valuation date is set to the date of the consumption posting (02-01-20), as 
 |------------------|----------|----------------|--------------|---------------|  
 |02-15-20|CHAIN|Output|1|3|  
 
-**3V**: The user runs the **($ B_795 Adjust Cost - Item Entries $)** batch job, which posts the chain as invoiced to indicate that all material consumption has been completely invoiced. From a financial point of view, the links are no longer part of WIP inventory when the output is completely invoiced and adjusted. The following table shows the resulting value entries.  
+**3V**: The user runs the **Adjust Cost - Item Entries** batch job, which posts the chain as invoiced to indicate that all material consumption has been completely invoiced. From a financial point of view, the links are no longer part of WIP inventory when the output is completely invoiced and adjusted. The following table shows the resulting value entries.  
 
 |Posting Date|Entry Type|Valuation Date|Cost Amount (Actual)|Item Ledger Entry No.|Entry No.|  
 |------------------|----------------|--------------------|----------------------------|---------------------------|---------------|  

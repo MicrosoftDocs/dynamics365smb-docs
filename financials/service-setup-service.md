@@ -35,4 +35,4 @@ The following table describes a sequence of tasks, with links to the topics that
 | Define pricing for services, and set up additional service costs to assess on service orders. |[How to: Set Up Pricing and Additional Costs for Services](service-how-setup-service-cost-pricing.md)|
 
 ## See also
-[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] ](index.md)
+[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)

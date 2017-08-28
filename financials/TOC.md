@@ -284,16 +284,24 @@
 ## How to: Execute Production
 
 # [Service Management](service-service.md)
-## [Plan Service](service-plan-service.md)
+## [Planning Service](service-plan-service.md)
+### [Managing Service Price](service-service-price-management.md)
 ### [How to: Create Service Items](service-how-to-create-service-items.md)
 ### [Understanding Service Order and Repair Status](service-service-order-status-and-repair-status.md)
 ### [Understanding Allocation Status and Repair Status](service-allocation-status-and-repair-status.md)
-## [Fulfill Service Contracts](service-fulfill-service-contracts.md)
+## [Fulfilling Service Contracts](service-fulfill-service-contracts.md)
 ### [Multiple Contracts](service-multiple-contracts.md)
 ### [How to: Create Service Contracts and Service Contract Quotes](service-how-to-create-service-contracts-and-service-contract-quotes.md)
 ### [How to: Change the Annual Amount on a Service Contract or Contract Quote](service-how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)
-## How to: Handle Customer Inquiries
+## [Handling Customer Inquiries](service-receive-customer-inquiries-and-requests-for-service.md)
+### [How to: Create Service Quotes](service-how-to-create-service-quotes.md)
+### [How to: Create a Service Order](service-how-to-create-service-orders.md)
+### [How to: Allocate Resources](service-how-to-allocate-resources.md)
 ## How to: Deliver Service
+### [How to: Work on Service Tasks](service-how-to-work-on-service-tasks.md)
+### [Posting in Service Management](service-service-posting.md)
+### [How to: Post Service Orders and Credit Memos](service-how-to-post-service-orders.md)
+### [How to: Invoice Customers for Services](service-how-create-invoices.md)
 
 # [General Business Functionality](ui-across-business-areas.md)
 ## [How to: Set Up Extended Item Text](ui-how-define-ext-text.md)

@@ -27,7 +27,6 @@ You must set up repair status options that identify the progress of repair and m
 7. To be able to manually change the service order status option to **Pending** in service orders including service items with this repair status, choose the **Pending Status Allowed** check box.  
 8. Choose the **In Process Status Allowed**, **Finished Status Allowed**, and **On Hold Status Allowed** check boxes in the same way.
   
- 
 ## How to: Set Up Service Status Priorities
 You can set the priority level for service order status options. There four priorities are High, Medium High, Medium Low, and Low.  
   

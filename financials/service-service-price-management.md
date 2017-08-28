@@ -1,9 +1,9 @@
 ---
     title: Service Price Management | Microsoft Docs
-    description: The service price management functionality lets you apply the best price to service orders, set up personalized service price agreements for customers, improve service employees' efficiency, and accelerate the invoicing process.
+    description: This topic describes how to apply the best price to service orders, set up personalized service price agreements for customers, improve service employees' efficiency, and accelerate the invoicing process.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: bholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article
@@ -11,8 +11,8 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
+    ms.date: 08/28/2017
+    ms.author: bholtorf
 
 ---
 # Service Price Management
@@ -56,12 +56,12 @@ Depending on the type of service price adjustment, the total amount of the adjus
   
 The following table describes the calculations.  
   
-|ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../../includes/bp_tabledescription_md.md)]-->|  
+|Option | Description |  
 |----------------------------------|---------------------------------------|  
 |**Fixed Price**|This means that you charge a fixed price for the service item, resource, general ledger account, or cost, regardless of the real costs or regular charges. Selecting this option means that the service price adjustment will reach the exact amount specified in the service price group.|  
 |**Maximum**|This means that you put an upper limit on the charge to your customer, regardless of the real costs or regular charges. Selecting this option means that the service price adjustment will only be performed if the total price exceeds the amount specified in the service price group.|  
 |**Minimum**|This means that you put a lower limit on the charge to your customer, regardless of the real costs or regular charges. Selecting this option means that the service price adjustment will only be performed if the total amount is less than the amount specified on the service price group.|  
   
 ## See Also  
-[Setting Up Service management](service-setup-service.md)   
-[How to: Set Up Pricing and Additional Costs for Services](service-how-setup-service-costs-pricing.md)
+[How to: Set Up Pricing and Additional Costs for Services](service-how-setup-service-costs-pricing.md)  
+[Setting Up Service Management](service-setup-service.md)  

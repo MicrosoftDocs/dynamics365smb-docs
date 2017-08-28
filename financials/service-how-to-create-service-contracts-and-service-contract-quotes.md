@@ -18,7 +18,7 @@
 # How to: Create Service Contracts and Service Contract Quotes
 You can create a service contract either manually or from a service contract quote. You can use a service contract quote as a forerunner of a service contract, in which your company makes an offer to the customer and obtains customer approval before you can convert it to a service contract. The procedures for creating either a service contract or service contract quote are similar.  
   
-### To create a service contract or service contract quote  
+## To create a service contract or service contract quote  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Contracts** or **Service Contract Quotes**,and then choose the related link.  
 2. Create a new service contract or service contract quote.  
 3. Fill in the **No.** field. A dialog box opens, asking whether you want to fill it with the common data from a contract template. If you want to create such a service contract or service contract quote, choose the **Yes** button. The **Service Contract Template List** window opens.  
@@ -28,7 +28,7 @@ You can create a service contract either manually or from a service contract quo
 7. Add contract lines to the service contract or service contract quote.  
 8. Fill in the rest of the fields in the **Service Contract Quote** window as needed.  
 
-### To convert a service contract quote to service contract  
+## To convert a service contract quote to service contract  
 When a customer has accepted a service contract quote, you convert it to a service contract. At the same time, you can create a service invoice for the starting period of the contract if the starting date of the contract is before the beginning of the next invoice period.  
   
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Contract Quotes**, and then choose the related link.  
@@ -54,10 +54,9 @@ When a customer has accepted a service contract quote, you convert it to a servi
   
  The service invoice is posted to the service account of the contract, even if the contract is prepaid. 
 
-## How to: Create Contract Service Credit Memos
+## To create contract service credit memos
 You can use a contract service credit memo when a customer cancels a prepaid service contract or removes a service item from a prepaid contract. You can also use it to correct an erroneous service invoice.  
   
-### To create a contract service credit memo  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Credit Memos**, and then choose the related link.  
 2. Create a new service credit memo.  
 3. Fill in the **No.** field.  
@@ -75,7 +74,7 @@ You can use a contract service credit memo when a customer cancels a prepaid ser
   
  To manually create a credit memo when contract lines are removed from a service contract, in the **Service Contract** window, on the **Actions** tab, in the **Functions** group, choose **Credit Memo**.  
 
-## Update and Evaluate Contracts
+## Update and evaluate contracts
 Sometimes you have to change the terms of a contract after it has been created. In most cases, you open the relevant contract in the **Service Contract** window, and change it as necessary.  
   
 You can change the status of the contract, initially set to **Locked**, add and remove contract lines, and cancel a contract. If you want to see how your business is doing as measured by gain and loss, you can do quick business analysis using the contract trendscape feature.
@@ -106,7 +105,7 @@ You may need to remove contract lines from the service contract as you remove co
 >   
 >  If the contract is detailed and prepaid, and you have posted invoices for the contract, you can create a credit memo for the contract. On the **Actions** tab, in the **Functions** group, choose **Create Credit Memo**. This is unnecessary if the check box in the **Automatic Credit Memos** field on the **Invoice Details** FastTab is selected. In that case, a credit memo is created automatically when you remove a contract line. 
 
-### About Service Line Cost and Value
+## Service Line Cost and Value
 On a service contract lines, the amounts in the **Line Cost** and **Line Value** are calculated as described in the following tables.
 
 | Line Cost Options | Description|

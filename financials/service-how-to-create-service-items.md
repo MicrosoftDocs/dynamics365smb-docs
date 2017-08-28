@@ -16,7 +16,7 @@
 
 ---
 # How to: Create Service Items
-When you receive an unregistered item for servicing, you can register it as a service item.  
+When you receive an unregistered item for servicing, you can register it as a service item. There are sevaral ways   
   
 ## To create a service item  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Items**, and then choose the related link. 2. Choose **New** to create a new service item.  
@@ -36,11 +36,10 @@ When you receive items for service that you want to register as service items, y
 2. Open the service order that you want to create service items for.  
 3. Enter a new service item line.  
 4. Fill in the **Serial No.** field.  
-5. Confirm the subsequent message.  
-6. Fill in the **Description** field.  
-7. Choose **Actions**, then **Functions**, and then **Create Service Item**.  
+5. Fill in the **Description** field.  
+6. Choose **Actions**, then **Functions**, and then **Create Service Item**.  
   
- A number is assigned to the service item and a service item card is created. The **Service Item No.** field is filled in with the number of the new service item.
+A number is assigned to the service item and a service item card is created. The **Service Item No.** field is filled in with the number of the new service item.
 
 ## To create a service item when shipping items  
 When you ship items by posting either service orders or service invoices, the shipped items are automatically registered as service items if the following condition is met. The items must belong to a service item group with the **Create Service Item** check box selected. If the items have serial numbers registered in the Item Tracking Lines window, this information is copied automatically to the **Serial No.** field on the service item card when creating service items.  

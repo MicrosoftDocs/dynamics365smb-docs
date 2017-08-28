@@ -34,15 +34,6 @@ If you want to use allocation of resources to service items, then you can alloca
     * For service items, choose **Resource Skills**.  
     * For resources, choose **Skills**.  
 
-## To specify what to show when a resource is chosen
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Setup**, and then choose the related link. 2. In the **Resource Skills Option** field, choose one of the options described in the following table.  
-  
-    |**Option**|**Description**|  
-    |------------|-------------|  
-    |Code Shown | Displays the code only.|  
-    |Warning Displayed | Shows the information and displays a warning if you choose a resource that is not qualified.|  
-    |Not Used | Does not show this information.|  
-
 ## To set up zones
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Zones**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -54,18 +45,39 @@ If you want to use allocation of resources to service items, then you can alloca
     * For customers, choose a zone in the **Service Zone Code** field.  
     * For resources, choose the **Service Zones** action.  
 
-## To specify what to show when a resource is chosen 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Setup**, and then choose the related link. 2. In the **Falut Reporting Level** field, choose one of the options described in the following table.  
+## To specify what to show when a resource is chosen
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Setup**, and then choose the related link. 
+2. In the **Resource Skills Option** field, choose one of the options described in the following table.  
   
     |**Option**|**Description**|  
     |------------|-------------|  
     |Code Shown | Displays the code only.|  
-    |Warning Displayed | Shows the information and displays a warning if you choose a resource that is not located in the customer zone.|  
+    |Warning Displayed | Shows the information and displays a warning if you choose a resource that is not qualified.|  
     |Not Used | Does not show this information.|  
 
+## To update resource capacity  
+You may need to change the capacity of resources.  
+  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Resource Capacity**, and then choose the related link.  
+2. Choose the resource, and then choose the **Set Capacity** action.  
+3. Make the changes, and then choose **Update Capacity**.  
+
+## To update skills for items, service items, or service item groups
+If you want to change the skill codes assigned to items, for example from **PC** to **PCS**, you can do so either for an item, service item, or for all items in a service item group.  
+  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items** or **Service Item**, or **Service Item Group**, and then choose the related link.  
+2. Choose the entity to update, and then choose the **Resource Skills** action.  
+3. On the line with the code to be changed, in the **Skill Code** field, choose the relevant skill code.  
+4.  If the item has associated service items, a dialog box opens with the following two options:  
+  
+    -   Change the skill codes to the selected value: Select this option if you want to replace the old skill code with the new one on all the related service items.  
+  
+    -   Delete the skill codes or update their relation: Select this option if you want to change the skill code on this item only. The skill code on the related service items will be reassigned, that is, the **Assigned From** field will be updated.  
+  
 ## See Also
+[How to: Allocate Resources](service-how-to-allocate-resources.md)  
+[How to: Set Up Work Hours and Service Hours](service-how-setup-work-service-hours.md)  
 [How to: Set Up Fault Reporting](service-how-setup-fault-reporting.md)  
-[How to: Set Up Resource Allocation](service-how-setup-resource-allocation.md)  
 [How to: Set Up Codes for Standard Services](service-how-setup-service-coding.md)  
-[How to: Set Up Additional Costs for Services](service-how-setup-service-costs.md)  
-[How to: Set Up Troubleshooting](service-how-setup-troubleshooting.md)  
+ 
+

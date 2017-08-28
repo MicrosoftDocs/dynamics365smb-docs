@@ -211,6 +211,7 @@
 ## [Workflow](workflow.md)
 ### [Setting Up Workflows](set-up-workflows)
 ### [Using Workflows](use-workflows)
+## [Defining User Tasks](across-user-tasks.md)
 
 # [Design Details](design-details-application-design.md)
 ## [Design Details: Dimension Set Entries](design-details-dimension-set-entries.md)

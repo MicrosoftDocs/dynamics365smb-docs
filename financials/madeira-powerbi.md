@@ -24,7 +24,7 @@ Microsoft has published the following content packs:
 | Microsoft Dynamics 365 for Financials - CRM | Provides a dashboard with key data about sales opportunities and contacts.  |
 | Microsoft Dynamics 365 for Financials - Sales | Provides a dashboard with key data about sales and inventory. |
 
-## Using the dashboards
+## Using the Dashboards
 Each content pack provides reports that you can drill into:
 
 * Choose any visual on the dashboard to bring up one of the underlying reports.  
@@ -49,7 +49,7 @@ To access your [!INCLUDE[d365fin](includes/d365fin_md.md)] data in Power BI, on 
 
 | Field | Description |
 | --- | --- |
-| **OData Feed URL** |The OData URL so Power BI can access data from your company, such as ´´´https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('My%2Business')´´´. |
+| **OData Feed URL** |The OData URL so Power BI can access data from your company, such as https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('My%2Business'). |
 | **Authentication method** |Choose **Basic**. |
 | **User name** |Your name as it displays for your account in [!INCLUDE[d365fin](includes/d365fin_md.md)], such as *John Smith*. |
 | **Password** |This is the web service access key for your user account in [!INCLUDE[d365fin](includes/d365fin_md.md)]. |
@@ -59,7 +59,7 @@ This means that you must get 3 pieces of information from Financials: The OData 
 ### Getting the URL
 When you add [!INCLUDE[d365fin](includes/d365fin_md.md)] to Power BI, you must specify a URL so Power BI can access data from your company. On the connection page, the URL is referred to as the **OData Feed URL**, and it must have the following format:
 
-         ´´´https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')´´´  
+         https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')  
 In this example, *mybusiness* is the name of your Financials service, and *CRONUS US* is the name of the demonstration company with *%20* representing the space in the name.   
 To get the URL, in [!INCLUDE[d365fin](includes/d365fin_md.md)], search for and open the **Web Services** window. This window lists the web services that are currently available, and you can copy the link from the **OData URL** field for one of the default OData web services.  
 
@@ -83,7 +83,7 @@ If you see this error after you enter your [!INCLUDE[d365fin](includes/d365fin_m
 
 * The URL follows exactly this pattern:
 
-    ´´´https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')´´´  
+    https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')  
 * Delete any text after the company name in parenthesis  
 * Make sure there are no trailing forward slash at the end of the URL.  
 * Make sure that it is a secure connection as indicated by the URL starting with *https*.  
@@ -104,13 +104,13 @@ If you see an "Oops" error dialog after you pass the authentication dialog, this
 
 * Verify that the URL follows the pattern that was specified earlier:
 
-    ´´´https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')´´´  
+    https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')  
 * A common mistake is to specify the full URL for a specific web service:
 
-    ´´´https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')/powerbifinance´´´  
+    https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')/powerbifinance  
 * Or you might have forgotten to specify the company name:
 
-    ´´´https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/´´´  
+    https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/  
 
 ## See Also
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

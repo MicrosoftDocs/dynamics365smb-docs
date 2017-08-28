@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 08/16/2017
+ms.date: 08/28/2017
 ms.author: edupont
 
 ---
@@ -63,7 +63,7 @@ You can see more information about your clients' data by choosing the name of th
 -   Overdue purchase invoices  
 -   Overdue sales invoices  
 
-[![Client company details in Accountant Hub ](./media/finance-accounting/accountant-company-details.png)]
+[![Client company details in Accountant Hub ](./media/finance-accounting/accountant-company-details.png)
 
 Technically, you have now logged into your client's [!INCLUDE[d365fin](includes/d365fin_md.md)], and data you see is live data. If you want to take a closer look at the data, such as an overdue purchase invoice, choose the link, and you are taken to the client company.  
 
@@ -72,10 +72,10 @@ Technically, you have now logged into your client's [!INCLUDE[d365fin](includes/
 
 Otherwise, close the details pane and continue to the next client.  
 
-## Working in the Client Company
+#### Working in the Client Company
 If you want to do more work for a client, you can do this in the Accountant Role Center in their [!INCLUDE[d365fin](includes/d365fin_md.md)] - simply choose the **Go To Client** menu item, and you are logged in automatically.  
 
-In the client's company, you have view and modify the data that you need in your work. 
+In the client's company, you have view and modify the data that you need in your work. For more information, see the top of this page.
 
 > [!NOTE]  
 >  If you do not intend to return to this client in a few minutes, we recommend that you close the browser tab.  
@@ -95,6 +95,6 @@ The data in the card for each client is specified by you, and you can change it 
 [Working with Dimensions](finance-dimensions.md)  
 [Analyzing Financial Statements in Excel](finance-analyze-excel.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Invite Your External Accountant to Your [!INCLUDE[d365fin](includes/d365fin_md.md)](finance-invite-external-accountant.md)  
+[Invite Your External Accountant to Your [!INCLUDE[d365fin](includes/d365fin_md.md)]](finance-invite-external-accountant.md)  
 [Financials for Accountants on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
 [Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md)  

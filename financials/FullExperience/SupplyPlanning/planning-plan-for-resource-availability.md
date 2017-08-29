@@ -20,7 +20,7 @@ In connection with master planning, you must know the exact availability of reso
   
  Before you can plan for resource availability, the resources, such as machine and work centers, must be created and their calendars filled in with expected capacity. This is described in [Configure Production Processes](../configure-production-processes.md) as a task under Production.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

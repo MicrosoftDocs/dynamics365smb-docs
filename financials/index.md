@@ -1,8 +1,6 @@
 ---
-title: Welcome to Dynamics 365 for Financials| Microsoft Docs
-description: Dynamics 365 for Financials is a business management solution for small and mid-sized organizations that automates and streamlines business processes and helps you manage your business. Signing up is easy, and you can migrate existing business data from your legacy system.
-services: project-madeira
-documentationcenter: ''
+title: Meet Dynamics 365 for Financials| Microsoft Docs
+description: Learn about capabilities and work scenarios in Dynamics 365 for Financials, a business management solution for small and mid-sized organizations.
 author: SusanneWindfeldPedersen
 
 ms.service: dynamics365-financials
@@ -11,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 06/02/2017
+ms.date: 08/23/2017
 ms.author: solsen
 
 ---
@@ -55,16 +53,19 @@ In the **Assisted Setup** window, you will find the following with the **Suite**
 | Set Up Reporting |Sets up data sets that you can use to build powerful reports using Excel or Power BI, for example. |
 | Set Up an Item Approval Workflow |Sets up the ability to send a notification to an approver when a user changes or creates an item. |
 | Set Up a Payment Approval Workflow |Sets up the ability to send a notification to an approver when a user sends payment journal lines for approval. |
-| Set Up Dynamics CRM Connection |Sets up a connection to Dynamics CRM, which allows you to synchronize data such as contacts and sales order information. |
+| Set Up Dynamics 365 for Sales Connection |Sets up a connection to Dynamics 365 for Sales, which allows you to synchronize data such as contacts and sales order information. |
 | Set Up Sales Tax |Gets you started with default tax groups and assigning tax area codes that you can assign to customers and vendors in order to automatically calculate sales tax in sales or purchase documents. |
 
 ## Trying things out in your own company
-Thinking about subscribing? You can easily change from the demonstration company, and create and work in a company of your own. This is a great way to start toward a subscription. Setups for finances are provided; you just need to create or import your items, customers, and vendors. After that, you're ready to post invoices and use business intelligence tools to analyze your business. You can use your company for free for a 30-day trial period. If you subscribe to [!INCLUDE[d365fin](includes/d365fin_md.md)] during that time, you're already up and running. You can continue with the work you did during the trial.  
+Thinking about subscribing? You can easily change from the demonstration company, and create and work in a company of your own. This is a great way to start toward a subscription. Setups for finances are provided; you just need to create or import your customers, vendors, and the products or services that you sell. After that, you're ready to post invoices and use business intelligence tools to analyze your business. You can use your company for free for a 30-day trial period. If you subscribe to [!INCLUDE[d365fin](includes/d365fin_md.md)] during that time, you're already up and running. You can continue with the work you did during the trial.  
 
 To create a company to try things out, go to the **My Settings** menu in the top right corner, and change the company to **My Company**. Sign out of [!INCLUDE[d365fin](includes/d365fin_md.md)] and then sign in again to apply the change. An assisted setup guide will help you provide basic information about your company. When that's done, explore the Home page and find the **Assisted Setup** action.  
 
 ## Ready to subscribe?
-Each time you sign in during the trial period, a notification in a blue bar at the top displays the time remaining. If you decide to subscribe, use the link in the notification to get in touch with Microsoft. You can also go to [Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=828707).
+Each time you sign in during the trial period, a notification in a blue bar at the top displays the time remaining. If you decide to subscribe, use the link in the notification to get in touch with Microsoft. You can also contact the [!INCLUDE[d365fin](includes/d365fin_md.md)] Sales team at [Microsoft Dynamics 365 for Financials](https://go.microsoft.com/fwlink/?linkid=828707).  
+
+## Other Dynamics 365 apps
+Navigate to content about the other Dynamics 365 apps by choosing the [Dynamics 365](https://docs.microsoft.com/dynamics365) link in the blue banner at the top of this page. You can also learn more at the [Dynamics 365 website](https://www.microsoft.com/en-us/dynamics365/).
 
 ## See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
@@ -75,6 +76,6 @@ Each time you sign in during the trial period, a notification in a blue bar at t
 [Getting [!INCLUDE[d365fin](includes/d365fin_md.md)] on Your Mobile Device](install-mobile-app.md)  
 [Microsoft Dynamics 365 documentation](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
 [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
-[Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=828707)  
+[Microsoft Dynamics 365 for Financials](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

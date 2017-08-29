@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Alternate Depreciation Methods | Microsoft Docs
+    title: How to Set Up Alternate Depreciation Methods | Microsoft Docs
     description: Alternate depreciation methods include the following:
     services: project-madeira
     documentationcenter: ''
@@ -28,7 +28,7 @@ Alternate depreciation methods include the following:
   
 ### To set up alternate depreciation methods  
   
-1.  In the **Search** box, enter **Depreciation Tables**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Tables**, and then choose the related link.  
   
 2.  In the **Depreciation Table List** window, in the **Home** tab, choose **New**.  
   

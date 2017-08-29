@@ -1,5 +1,5 @@
 ---
-    title: How to: Prepare for VAT Transactions Reports | Microsoft Docs
+    title: How to Prepare for VAT Transactions Reports | Microsoft Docs
     description: You must submit periodic reports to the tax authorities to list all transactions that include VAT. The tax authority establishes the thresholds at which reporting is required. Currently, the threshold is set at zero, meaning that all transactions are to be reported. To prepare for these reports, you must set up VAT posting to include VAT transaction report amounts.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ You must submit periodic reports to the tax authorities to list all transactions
   
 ### To set up VAT transaction amounts  
   
-1.  In the **Search** box, enter **VAT Posting Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Posting Setup**, and then choose the related link.  
   
 2.  On the **Navigate** tab, choose **VAT Transaction Report Amount**.  
   
@@ -28,7 +28,7 @@ You must submit periodic reports to the tax authorities to list all transactions
   
     |Field|Description|  
     |---
-    title: How to: Prepare for VAT Transactions Reports | Microsoft Docs
+    title: How to Prepare for VAT Transactions Reports | Microsoft Docs
     description: You must submit periodic reports to the tax authorities to list all transactions that include VAT. The tax authority establishes the thresholds at which reporting is required. Currently, the threshold is set at zero, meaning that all transactions are to be reported. To prepare for these reports, you must set up VAT posting to include VAT transaction report amounts.
     services: project-madeira
     documentationcenter: ''
@@ -44,7 +44,7 @@ You must submit periodic reports to the tax authorities to list all transactions
     ms.author: sgroespe
 
 ------
-    title: How to: Prepare for VAT Transactions Reports | Microsoft Docs
+    title: How to Prepare for VAT Transactions Reports | Microsoft Docs
     description: You must submit periodic reports to the tax authorities to list all transactions that include VAT. The tax authority establishes the thresholds at which reporting is required. Currently, the threshold is set at zero, meaning that all transactions are to be reported. To prepare for these reports, you must set up VAT posting to include VAT transaction report amounts.
     services: project-madeira
     documentationcenter: ''
@@ -60,7 +60,7 @@ You must submit periodic reports to the tax authorities to list all transactions
     ms.author: sgroespe
 
 ------
-    title: How to: Prepare for VAT Transactions Reports | Microsoft Docs
+    title: How to Prepare for VAT Transactions Reports | Microsoft Docs
     description: You must submit periodic reports to the tax authorities to list all transactions that include VAT. The tax authority establishes the thresholds at which reporting is required. Currently, the threshold is set at zero, meaning that all transactions are to be reported. To prepare for these reports, you must set up VAT posting to include VAT transaction report amounts.
     services: project-madeira
     documentationcenter: ''
@@ -90,7 +90,7 @@ You must submit periodic reports to the tax authorities to list all transactions
   
 #### To specify a tax representative for a non-resident customer  
   
-1.  In the **Search** box, enter **Customer Card**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customer Card**, and then choose the related link.  
   
 2.  On the **Foreign Trade** FastTab, fill in the fields as described in the following table.  
   

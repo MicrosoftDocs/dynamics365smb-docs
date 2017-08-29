@@ -1,5 +1,5 @@
 ---
-    title: Design Details: The Role of the Time Bucket | Microsoft Docs
+    title: Design Details - The Role of the Time Bucket | Microsoft Docs
     description: The purpose of the time bucket is to collect demand events within the time window in order to make a joint supply order.
     services: project-madeira
     documentationcenter: ''

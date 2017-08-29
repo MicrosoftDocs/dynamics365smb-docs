@@ -1,5 +1,5 @@
 ---
-    title: How to: Post Payment Slips | Microsoft Docs
+    title: How to Post Payment Slips | Microsoft Docs
     description: You must post payment slips to complete a payment transaction and to create the related financial data. You can post a payment slip if the payment slip's **Action Type** is set to **Ledger**. For more information, see [How to: Set Up Payment Steps](-$-t_10862-payment-step-$-.md).
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ You must post payment slips to complete a payment transaction and to create the 
   
 ### To post a payment slip  
   
-1.  In the **Search** box, enter **Payment Slips**, and then choose the relevant link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Slips**, and then choose the relevant link.  
   
 2.  Select a payment slip, and then, on the **Home** tab, in the **Manage** group, choose **Edit**.  
   

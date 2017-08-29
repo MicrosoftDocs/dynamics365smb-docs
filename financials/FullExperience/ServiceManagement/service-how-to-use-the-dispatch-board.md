@@ -1,5 +1,5 @@
 ---
-    title: How to: Use the Dispatch Board | Microsoft Docs
+    title: How to Use the Dispatch Board | Microsoft Docs
     description: You may often need to see the list of service orders or service quotes that meet certain requirements to be able to perform specific actions with them one by one. For example, you may need to allocate resources to service orders that belong to a specific customer.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ You may often need to see the list of service orders or service quotes that meet
   
 ### To see an overview of service orders and service quotes  
   
-1.  In the **Search** box, enter **Dispatch Board**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Dispatch Board**, and then choose the related link.  
   
 2.  In the **Document Filter** field, select the type of the documents you want to see. There are three options: **Order**, **Quote**, and **All**.  
   

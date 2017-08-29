@@ -1,5 +1,5 @@
 ---
-    title: Design Details: Planning Parameters | Microsoft Docs
+    title: Design Details - Planning Parameters | Microsoft Docs
     description: This topic describes the different planning parameters that you can use in [!INCLUDE[d365fin](includes/d365fin_md.md)].
     services: project-madeira
     documentationcenter: ''

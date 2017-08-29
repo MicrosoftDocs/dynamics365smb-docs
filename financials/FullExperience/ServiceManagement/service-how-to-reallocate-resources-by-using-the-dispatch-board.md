@@ -1,5 +1,5 @@
 ---
-    title: How to: Reallocate Resources by Using the Dispatch Board | Microsoft Docs
+    title: How to Reallocate Resources by Using the Dispatch Board | Microsoft Docs
     description: If the resource allocated to a service task cannot accomplish the work, it means that this service task needs reallocation. Usually you reallocate resources to a service task by using the **Dispatch Board**.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ If the resource allocated to a service task cannot accomplish the work, it means
   
 ### To reallocate a resource using the dispatch board  
   
-1.  In the **Search** box, enter **Dispatch Board**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Dispatch Board**, and then choose the related link.  
   
 2.  In the **Allocation Filter** field, select **Reallocation Needed**. The **Dispatch Board** window now shows the list of service orders that include service tasks that need reallocation.  
   

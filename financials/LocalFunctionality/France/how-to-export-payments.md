@@ -1,5 +1,5 @@
 ---
-    title: How to: Export Payments | Microsoft Docs
+    title: How to Export Payments | Microsoft Docs
     description: The Payment Management module allows you to export your payments electronically via a text file or XMLport.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ The Payment Management module allows you to export your payments electronically 
   
 ### To export payments  
   
-1.  In the **Search** box, enter **Payment Slip Setup**, and then choose the relevant link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Slip Setup**, and then choose the relevant link.  
   
 2.  In the **Payment Class** window, select a payment class, and then, on the **Actions** tab, in the **General** group, choose **Steps**.  
   

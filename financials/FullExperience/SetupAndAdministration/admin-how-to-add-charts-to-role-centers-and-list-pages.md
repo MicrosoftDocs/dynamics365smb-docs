@@ -1,5 +1,5 @@
 ---
-    title: How to: Add Charts to Role Centers and List Pages | Microsoft Docs
+    title: How to Add Charts to Role Centers and List Pages | Microsoft Docs
     description: When you have complex information, you may want to view a visual representation of the data to help see trends and make decisions. For example, you may want to monitor the balances per bank account for your company in a chart.
     services: project-madeira
     documentationcenter: ''

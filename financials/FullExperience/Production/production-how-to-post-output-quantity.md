@@ -1,5 +1,5 @@
 ---
-    title: How to: Post Output Quantity | Microsoft Docs
+    title: How to Post Output Quantity | Microsoft Docs
     description: The output quantity represents the work progress in the form of the finished quantity.
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ The output quantity represents the work progress in the form of the finished qua
   
 ### To post output quantity  
   
-1.  In the **Search** box, enter **Output Journal**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Output Journal**, and then choose the related link.  
   
 2.  In the **Posting Date** field, enter a posting date.  
   

@@ -1,5 +1,5 @@
 ---
-    title: How to: Undo Service Shipments | Microsoft Docs
+    title: How to Undo Service Shipments | Microsoft Docs
     description: You can cancel a service shipment that has been posted by mistake or contains some erroneous information.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ You can cancel a service shipment that has been posted by mistake or contains so
   
 ### To undo a service shipment  
   
-1.  In the **Search** box, enter **Posted Service Shipments**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Service Shipments**, and then choose the related link.  
   
 2.  Open the relevant posted service shipment.  
   

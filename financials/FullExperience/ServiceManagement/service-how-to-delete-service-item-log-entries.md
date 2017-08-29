@@ -1,5 +1,5 @@
 ---
-    title: How to: Delete Service Item Log Entries | Microsoft Docs
+    title: How to Delete Service Item Log Entries | Microsoft Docs
     description: You can delete the automatically generated service item log entries, for example, the unnecessary or outdated ones.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ You can delete the automatically generated service item log entries, for example
   
 ### To delete service item log entries  
   
-1.  In the **Search** box, enter **Service Item Log**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Item Log**, and then choose the related link.  
   
      Alternatively, you can open the **Service Item Log** for a certain service item from the **Service Item List** window. To do this, select the service item for which you want to see the changes that the program has logged, and then on the **Navigate** tab, in the **History** group, choose **Service Item Log**.  
   

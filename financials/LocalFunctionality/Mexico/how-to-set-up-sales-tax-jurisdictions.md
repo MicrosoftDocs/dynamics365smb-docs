@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Sales Tax Jurisdictions | Microsoft Docs
+    title: How to Set Up Sales Tax Jurisdictions | Microsoft Docs
     description: In the United States, states, counties, cities, and localities can charge sales tax.
     services: project-madeira
     documentationcenter: ''
@@ -28,7 +28,7 @@ In the United States, states, counties, cities, and localities can charge sales 
   
 ### To set up sales tax jurisdictions  
   
-1.  In the **Search** box, enter **Tax Jurisdictions**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Tax Jurisdictions**, and then choose the related link.  
   
 2.  In the **Tax Jurisdictions** window, on the **Home** tab, in the **New** group, choose **New**.  
   
@@ -51,7 +51,7 @@ In the United States, states, counties, cities, and localities can charge sales 
   
 ### To set up sales tax areas  
   
-1.  In the **Search** box, enter **Tax Areas**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Tax Areas**, and then choose the related link.  
   
 2.  In the **Tax Areas** window, on the **Home** tab, in the **New** group, choose **New**.  
   

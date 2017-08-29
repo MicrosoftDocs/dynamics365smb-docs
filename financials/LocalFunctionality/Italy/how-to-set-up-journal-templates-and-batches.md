@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Journal Templates and Batches | Microsoft Docs
+    title: How to Set Up Journal Templates and Batches | Microsoft Docs
     description: All European Union (EU) companies must submit Intrastat reports to the customs office, detailing their trade with other EU countries/regions for the current year. An Intrastat summary report is presented to the tax authorities monthly, quarterly, or yearly depending upon the company's business.
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ All European Union (EU) companies must submit Intrastat reports to the customs o
   
 ### To set up Intrastat journal templates  
   
-1.  In the **Search** box, enter **Intrastat Journal Templates**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat Journal Templates**, and then choose the related link.  
   
 2.  To create a new Intrastat journal template, on the **Home** tab, choose **New**.  
   
@@ -37,7 +37,7 @@ All European Union (EU) companies must submit Intrastat reports to the customs o
   
 ### To set up Intrastat journal batches  
   
-1.  In the **Search** box, enter **Intrastat Journal Templates**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat Journal Templates**, and then choose the related link.  
   
 2.  To open the **Intrastat Jnl. Batches** window, select the required template, and then, on the **Navigate** tab, in the **Templates** group, choose **Batches**.  
   

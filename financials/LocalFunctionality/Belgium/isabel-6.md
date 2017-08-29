@@ -1,6 +1,6 @@
 ---
     title: Isabel 6 | Microsoft Docs
-    description: The Isabel organization has developed a Client Isabel Synchronizer (CIS) platform that allows [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to securely integrate with Isabel. CIS handles document exchange to and from the Isabel server.
+    description: The Isabel organization has developed a Client Isabel Synchronizer (CIS) platform that allows [!INCLUDE[d365fin](includes/d365fin_md.md)] to securely integrate with Isabel. CIS handles document exchange to and from the Isabel server.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,9 +16,9 @@
 
 ---
 # Isabel 6
-The Isabel organization has developed a Client Isabel Synchronizer (CIS) platform that allows [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to securely integrate with Isabel. CIS handles document exchange to and from the Isabel server.  
+The Isabel organization has developed a Client Isabel Synchronizer (CIS) platform that allows [!INCLUDE[d365fin](includes/d365fin_md.md)] to securely integrate with Isabel. CIS handles document exchange to and from the Isabel server.  
   
- To upload or download the bank files, you will have to set up your environment to work with Isabel. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] communicates to the CIS.dll through a COM wrapper.  
+ To upload or download the bank files, you will have to set up your environment to work with Isabel. [!INCLUDE[d365fin](includes/d365fin_md.md)] communicates to the CIS.dll through a COM wrapper.  
   
  To set up your system to work with Isabel, complete the following:  
   

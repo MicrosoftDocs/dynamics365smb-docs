@@ -1,5 +1,5 @@
 ---
-    title: How to: Enter Comments for Operations | Microsoft Docs
+    title: How to Enter Comments for Operations | Microsoft Docs
     description: You can enter comments for each operation in a routing.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ You can enter comments for each operation in a routing.
   
 ### To enter comments for operations  
   
-1.  In the **Search** box, enter **Routings**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Routings**, and then choose the related link.  
   
 2.  Open the relevant routing from the list.  
   

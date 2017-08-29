@@ -1,5 +1,5 @@
 ---
-    title: How to: Insert Travel Fees for Service Orders | Microsoft Docs
+    title: How to Insert Travel Fees for Service Orders | Microsoft Docs
     description: When working on service items in service orders, you may need to register travel fees for the service order in general. The following procedure shows how to insert fees for travel to the service zone of the customer in the service order in the **Service Lines** window.
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ When working on service items in service orders, you may need to register travel
   
 ### To insert a travel fee for a service order  
   
-1.  In the **Search** box, enter **Service Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Orders**, and then choose the related link.  
   
 2.  Open the relevant service order.  
   

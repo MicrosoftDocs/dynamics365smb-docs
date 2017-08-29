@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Job Queues | Microsoft Docs
+    title: How to Set Up Job Queues | Microsoft Docs
     description: You can set up a job queue and specify the order in which designated reports, batch jobs, and codeunits are set up to run. The ADD INCLUDE<!--[!INCLUDE[nav_server](../../includes/nav_server_md.md)]--> reads from the job queue and determines which job to run next. When you set up a job queue, you can specify on which computer and on which service the job queue is to run.
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ You can set up a job queue and specify the order in which designated reports, ba
   
 ### To create a job queue  
   
-1.  In the **Search** box, enter **Job Queues**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Queues**, and then choose the related link.  
   
 2.  On the **Home** tab, choose **New**. The **Job Queue Card** window opens.  
   
@@ -34,13 +34,13 @@ You can set up a job queue and specify the order in which designated reports, ba
   
 ### To activate a job queue  
   
-1.  In the **Search** box, enter **Job Queues**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Queues**, and then choose the related link.  
   
 2.  Select the job queue that you want to start, and on the **Home** tab, choose **Start Job Queue**.  
   
      To stop the job queue, on the **Home** tab, choose **Stop Job Queue**.  
   
- On the **NAS Settings** FastTab, you can set fields if you want to specify on which computer and which server instance the NAS that you want to run the job queue will be running. This can be important when you are fine tuning performance or when a server instance or computer is set up to handle specific [!INCLUDE[d365fin](../../includes/d365fin_md.md)] functionality. If you do not specify a server or computer, the job queue will run with the services that the client is running on.  
+ On the **NAS Settings** FastTab, you can set fields if you want to specify on which computer and which server instance the NAS that you want to run the job queue will be running. This can be important when you are fine tuning performance or when a server instance or computer is set up to handle specific [!INCLUDE[d365fin](includes/d365fin_md.md)] functionality. If you do not specify a server or computer, the job queue will run with the services that the client is running on.  
   
 ### To specify NAS settings  
   

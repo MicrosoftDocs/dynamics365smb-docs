@@ -1,5 +1,5 @@
 ---
-    title: How to: Delete Simulation Entries | Microsoft Docs
+    title: How to Delete Simulation Entries | Microsoft Docs
     description: You can create and post simulation entries to the general ledger without affecting the real accounting, and you can delete the simulated entries.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ You can create and post simulation entries to the general ledger without affecti
   
 ### To delete simulation entries  
   
-1.  In the **Search** box, enter **Simulation Registers**, and then choose the relevant link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Simulation Registers**, and then choose the relevant link.  
   
 2.  Select the simulation register that you want to delete.  
   

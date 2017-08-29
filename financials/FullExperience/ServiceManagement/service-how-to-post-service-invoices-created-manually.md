@@ -1,5 +1,5 @@
 ---
-    title: How to: Post Service Invoices Created Manually | Microsoft Docs
+    title: How to Post Service Invoices Created Manually | Microsoft Docs
     description: When you have created an invoice, filled in all the information, and made any required modifications, you can post the invoice.
     services: project-madeira
     documentationcenter: ''
@@ -28,7 +28,7 @@ When you have created an invoice, filled in all the information, and made any re
   
 ### To view the posted invoice document  
   
-1.  In the **Search** box, enter **Posted Service Invoices**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Service Invoices**, and then choose the related link.  
   
 2.  Select the relevant invoice.  
   

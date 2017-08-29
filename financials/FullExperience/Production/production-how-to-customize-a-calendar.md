@@ -1,5 +1,5 @@
 ---
-    title: How to: Customize a Calendar | Microsoft Docs
+    title: How to Customize a Calendar | Microsoft Docs
     description: The main task in customizing a base calendar for your company, or one of its business partners, is to enter any changes to working and nonworking day status.
     services: project-madeira
     documentationcenter: ''
@@ -24,7 +24,7 @@ The main task in customizing a base calendar for your company, or one of its bus
   
 ### To customize a calendar  
   
-1.  In the **Search** box, enter **Locations**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.  
   
 2.  Open the location that you want to update. On the **Warehouse** FastTab, select the **Customized Calendar** field to open the **Customized Calendar Entries** window. Note that a calendar must be selected in the **Base Calendar Code** field.  
   

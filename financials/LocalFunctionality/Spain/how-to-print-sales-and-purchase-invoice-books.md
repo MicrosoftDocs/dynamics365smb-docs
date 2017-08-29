@@ -1,5 +1,5 @@
 ---
-    title: How to: Print Sales and Purchase Invoice Books | Microsoft Docs
+    title: How to Print Sales and Purchase Invoice Books | Microsoft Docs
     description: The **Sales Invoice Book** report and **Purchases Invoice Book** report allow you to check all of the sales and purchase documents created for a specific period.
     services: project-madeira
     documentationcenter: ''
@@ -30,7 +30,7 @@ The **Sales Invoice Book** report and **Purchases Invoice Book** report allow yo
   
 ### To print sales invoice book and purchase invoice book reports  
   
-1.  In the **Search** box, enter **Sales Invoice Book** or enter **Purchases Invoice Book**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Invoice Book** or enter **Purchases Invoice Book**, and then choose the related link.  
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   

@@ -1,5 +1,5 @@
 ---
-    title: How to: Check Service Orders Before Posting Them | Microsoft Docs
+    title: How to Check Service Orders Before Posting Them | Microsoft Docs
     description: Before you post a service order, you can check whether there are any errors, or missing or incorrect information. The service order must contain at least one service item line and one service line before you can post the service order.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ Before you post a service order, you can check whether there are any errors, or 
   
 ### To validate service orders prior to posting  
   
-1.  In the **Search** box, enter **Service Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Orders**, and then choose the related link.  
   
 2.  Open the order you want to check.  
   

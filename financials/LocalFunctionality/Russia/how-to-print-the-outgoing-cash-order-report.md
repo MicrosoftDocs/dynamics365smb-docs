@@ -1,5 +1,5 @@
 ---
-    title: How to: Print the Outgoing Cash Order Report | Microsoft Docs
+    title: How to Print the Outgoing Cash Order Report | Microsoft Docs
     description: The **Cash Outgoing Order CO-2** report shows the outgoing cash order, which is a standard format required by Russian accounting legislation.
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ The **Cash Outgoing Order CO-2** report shows the outgoing cash order, which is 
   
 ### To print the outgoing cash order report  
   
-1.  In the **Search** box, enter **Cash Outgoing Order**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Outgoing Order**, and then choose the related link.  
   
 2.  In the **Cash Outgoing Order** window, fill in the fields.  
   

@@ -1,6 +1,6 @@
 ---
-    title: How to: Set Up Tax Accounting | Microsoft Docs
-    description: Tax accounting lets you apply rules for recognizing income and expenses that follow your local tax laws. You can activate tax accounting features in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] by setting up tax registers.
+    title: How to Set Up Tax Accounting | Microsoft Docs
+    description: Tax accounting lets you apply rules for recognizing income and expenses that follow your local tax laws. You can activate tax accounting features in [!INCLUDE[d365fin](includes/d365fin_md.md)] by setting up tax registers.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,11 +16,11 @@
 
 ---
 # How to: Set Up Tax Accounting
-Tax accounting lets you apply rules for recognizing income and expenses that follow your local tax laws. You can activate tax accounting features in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] by setting up tax registers.  
+Tax accounting lets you apply rules for recognizing income and expenses that follow your local tax laws. You can activate tax accounting features in [!INCLUDE[d365fin](includes/d365fin_md.md)] by setting up tax registers.  
   
 ### To activate tax accounting  
   
-1.  In the **Search** box, enter **Tax Register Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Tax Register Setup**, and then choose the related link.  
   
 2.  On the **General** FastTab, select codes for the following dimensions.  
   
@@ -37,7 +37,7 @@ Tax accounting lets you apply rules for recognizing income and expenses that fol
     |**Create Reclass. FA Tax Ledger**|Select to create fixed asset reclassification entries.|  
     |**Create Acquis. FE Tax Ledger**|Select to create future expense acquisition entries.|  
   
-4.  Select the appropriate depreciation books in the **Tax Depreciation Book** and **Future Exp. Depreciation Book** fields. The depreciation books that you select should not be integrated with the [!INCLUDE[d365fin](../../includes/d365fin_md.md)] finance module.  
+4.  Select the appropriate depreciation books in the **Tax Depreciation Book** and **Future Exp. Depreciation Book** fields. The depreciation books that you select should not be integrated with the [!INCLUDE[d365fin](includes/d365fin_md.md)] finance module.  
   
 5.  Select the **Create Data for Printing Forms** check box to enable detailed tax register entry information to be printed on reports and forms.  
   

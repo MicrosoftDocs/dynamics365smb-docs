@@ -1,5 +1,5 @@
 ---
-    title: How to: Print ESR Invoices | Microsoft Docs
+    title: How to Print ESR Invoices | Microsoft Docs
     description: You can print an Einzahlungsschein mit Referenznummer (ESR) payment slip in the following ways:
     services: project-madeira
     documentationcenter: ''
@@ -31,7 +31,7 @@ You can print an Einzahlungsschein mit Referenznummer (ESR) payment slip in the 
   
 ### To print ESR invoices  
   
-1.  In the **Search** box, enter **Invoice ESR**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Invoice ESR**, and then choose the related link.  
   
 2.  In the **Sales Invoice ESR** batch job, on the **Options** FastTab, fill in the fields as described in the following table.  
   

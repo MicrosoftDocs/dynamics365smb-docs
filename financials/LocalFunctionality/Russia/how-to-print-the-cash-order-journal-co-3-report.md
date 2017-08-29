@@ -1,5 +1,5 @@
 ---
-    title: How to: Print the Cash Order Journal CO-3 Report | Microsoft Docs
+    title: How to Print the Cash Order Journal CO-3 Report | Microsoft Docs
     description: The **Cash Order Journal CO-3** report shows the unified standard printing form (typically on a monthly basis).
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ The **Cash Order Journal CO-3** report shows the unified standard printing form 
   
 ### To print the cash order journal CO-3 report  
   
-1.  In the **Search** box, enter **Cash Order Journal CO-3**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Order Journal CO-3**, and then choose the related link.  
   
 2.  In the **Cash Order Journal CO-3** window, fill in the fields.  
   

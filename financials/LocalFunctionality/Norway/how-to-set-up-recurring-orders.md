@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Recurring Orders | Microsoft Docs
+    title: How to Set Up Recurring Orders | Microsoft Docs
     description: After you create a recurring group, you can set up recurring orders on the blanket sales order by adding the group to the order. For more information, see [How to: Create Blanket Sales Orders](how-to-set-up-recurring-groups.md).
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ After you create a recurring group, you can set up recurring orders on the blank
   
 ### To set up a recurring order  
   
-1.  In the **Search** box, enter **Blanket Sales Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Blanket Sales Orders**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **New** group, choose **New**.  
   

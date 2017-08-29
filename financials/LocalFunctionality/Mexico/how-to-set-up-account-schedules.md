@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Account Schedules | Microsoft Docs
+    title: How to Set Up Account Schedules | Microsoft Docs
     description: You can use account schedules to arrange and organize accounts in the chart of accounts. For more information, see the Acc. Schedule Name table.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ You can use account schedules to arrange and organize accounts in the chart of a
   
 ### To set up account schedules  
   
-1.  In the **Search** box, enter **Account Schedules**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Account Schedules**, and then choose the related link.  
   
 2.  On the **Home** tab, choose **New**.  
   

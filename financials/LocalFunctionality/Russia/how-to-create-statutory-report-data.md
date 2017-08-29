@@ -1,5 +1,5 @@
 ---
-    title: How to: Create Statutory Report Data | Microsoft Docs
+    title: How to Create Statutory Report Data | Microsoft Docs
     description: After you have defined the statutory reports that are required by the tax authorities, you can create the report data and generate files that you can submit to the authorities.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ After you have defined the statutory reports that are required by the tax author
   
 ### To create report data  
   
-1.  In the **Search** box, enter **Statutory Reports**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Statutory Reports**, and then choose the related link.  
   
 2.  Select the statutory report that you want to create data for, and then, on the **Actions** tab, choose **Create Report Data**.  
   
@@ -57,7 +57,7 @@ After you have defined the statutory reports that are required by the tax author
   
 #### To release the report data for a statutory report  
   
-1.  In the **Search** box, enter **Statutory Reports**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Statutory Reports**, and then choose the related link.  
   
 2.  Select the statutory report that you want to generate, and on the **Actions** tab, choose **Report Data**.  
   

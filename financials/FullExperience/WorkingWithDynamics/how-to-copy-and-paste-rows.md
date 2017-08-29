@@ -1,5 +1,5 @@
 ---
-    title: How to: Copy and Paste Rows | Microsoft Docs
+    title: How to Copy and Paste Rows | Microsoft Docs
     description: You can use the shortcut menu to copy and paste rows from ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> to save time entering data.
     services: project-madeira
     documentationcenter: ''
@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Copy and Paste Rows
 You can use the shortcut menu to copy and paste rows from ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> to save time entering data.  
   

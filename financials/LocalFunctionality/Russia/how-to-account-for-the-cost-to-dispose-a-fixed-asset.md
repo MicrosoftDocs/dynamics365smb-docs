@@ -1,5 +1,5 @@
 ---
-    title: How to: Account for the Cost  to Dispose a Fixed Asset | Microsoft Docs
+    title: How to Account for the Cost  to Dispose a Fixed Asset | Microsoft Docs
     description: The maintenance on disposal feature enables you to account for the amount spent to dispose a fixed asset (FA) as an expense. You can post operations related to spending for the disposal of a fixed asset so that they will be reflected in the FA Write-Off Act forms.
     services: project-madeira
     documentationcenter: ''
@@ -24,7 +24,7 @@ The maintenance on disposal feature enables you to account for the amount spent 
   
 ### To set up a maintenance code  
   
-1.  In the **Search** box, enter **FA Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA Setup**, and then choose the related link.  
   
 2.  In the **Fixed Asset Setup** window, on the **General** FastTab, enter a maintenance code in the **On Disposal Maintenance Code** field.  
   
@@ -32,7 +32,7 @@ The maintenance on disposal feature enables you to account for the amount spent 
   
 ### To post expenses on a fixed asset disposal  
   
-1.  In the **Search** box, enter **FA G/L Journals**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA G/L Journals**, and then choose the related link.  
   
 2.  In the **Fixed Asset G/L Journal** window, fill in the fields as described in the following table.  
   
@@ -47,7 +47,7 @@ The maintenance on disposal feature enables you to account for the amount spent 
   
 ### To print a report with expenses on a fixed asset disposal  
   
-1.  In the **Search** box, enter **FA Writeoff Act**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA Writeoff Act**, and then choose the related link.  
   
 2.  In the **FA Writeoff Act** window, enter the expenses that are posted for the fixed asset.  
   

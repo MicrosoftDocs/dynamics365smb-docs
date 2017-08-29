@@ -1,6 +1,6 @@
 ---
     title: Removing Elements from the User Interface According to Permissions | Microsoft Docs
-    description: You can configure ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]-->.
+    description: You can configure [!INCLUDE[d365fin](includes/d365fin_md.md)].
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # Removing Elements from the User Interface According to Permissions
-You can configure ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]-->.  
+You can configure [!INCLUDE[d365fin](includes/d365fin_md.md)].  
   
  Depending on the setting in the **UI Elements Removal** field in the ADD INCLUDE<!--[!INCLUDE[nav_admin](../../includes/nav_admin_md.md)]-->, only UI elements on objects in the license or on objects that the user has permissions to will appear in the user interface.  
   
@@ -33,7 +33,7 @@ You can configure ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md
   
  A couple of permission sets in the ADD INCLUDE<!--[!INCLUDE[demo](../../includes/demo_md.md)]--> demonstration database are adapted to support the FOUNDATION permission set for demonstration purposes. You can use those permission sets to try out how UI elements are removed for a user performing the task to create and edit a new customer.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

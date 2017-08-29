@@ -1,5 +1,5 @@
 ---
-    title: Walkthrough: Exporting GDPdU Data | Microsoft Docs
+    title: Walkthrough - Exporting GDPdU Data | Microsoft Docs
     description: You can export business data for auditing purposes. How the data export is set up is different for all companies, and you should ask your tax advisor and the tax auditor. The following walkthrough describes the end-to-end process, but it is an example only.
     services: project-madeira
     documentationcenter: ''
@@ -18,7 +18,7 @@
 # Walkthrough: Exporting GDPdU Data
 You can export business data for auditing purposes. How the data export is set up is different for all companies, and you should ask your tax advisor and the tax auditor. The following walkthrough describes the end-to-end process, but it is an example only.  
   
- The sample implementation illustrates a scenario where the auditor has requested that you export data from your general ledger, and information about your customers and vendors. This is not an example that is based on actual requirements from a tax auditor, but it serves to illustrate how to export data according to the process for data access and testability of digital documents (GDPdU) in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+ The sample implementation illustrates a scenario where the auditor has requested that you export data from your general ledger, and information about your customers and vendors. This is not an example that is based on actual requirements from a tax auditor, but it serves to illustrate how to export data according to the process for data access and testability of digital documents (GDPdU) in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
   
 ## About This Walkthrough  
  This walkthrough illustrates the following tasks:  
@@ -46,7 +46,7 @@ You can export business data for auditing purposes. How the data export is set u
   
 #### To set up the requirements for a data export  
   
-1.  In the **Search** box, enter **Data Export**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Data Export**, and then choose the related link.  
   
 2.  On the **Home** tab, choose **New**.  
   
@@ -272,7 +272,7 @@ You can export business data for auditing purposes. How the data export is set u
   
 #### To export data  
   
-1.  In the **Search** box, enter **GDPdU Export**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **GDPdU Export**, and then choose the related link.  
   
 2.  In the **GDPdU Export** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   

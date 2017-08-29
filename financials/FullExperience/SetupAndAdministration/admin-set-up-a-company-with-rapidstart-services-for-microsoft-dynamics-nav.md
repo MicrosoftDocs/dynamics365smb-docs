@@ -35,7 +35,7 @@ You can set up a new company in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/
  You can find the tools in the ADD INCLUDE<!--[!INCLUDE[rtc](../../includes/rtc_md.md)]--> in the **Application Setup** area.  
   
 > [!IMPORTANT]  
->  There are areas of [!INCLUDE[d365fin](../../includes/d365fin_md.md)] that you will have to set up manually. These include adding users, setting up accounting periods, and setting up dimensions for business intelligence.  
+>  There are areas of [!INCLUDE[d365fin](includes/d365fin_md.md)] that you will have to set up manually. These include adding users, setting up accounting periods, and setting up dimensions for business intelligence.  
   
  The following table describes the sequence of tasks with links to topics that describe them. These tasks are listed in the order in which you generally perform them.  
   

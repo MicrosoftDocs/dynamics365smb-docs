@@ -1,5 +1,5 @@
 ---
-    title: How to: Modify Planning Suggestions in a Graphical View | Microsoft Docs
+    title: How to Modify Planning Suggestions in a Graphical View | Microsoft Docs
     description: A typical planning activity is to change or add planning worksheet lines to modify the suggested supply orders before you commit them by running the **Carry out Action Message** function. An alternative to doing this in the planning worksheet is to use a graphical view. For more information, see Item Availability by Timeline.
     services: project-madeira
     documentationcenter: ''
@@ -36,7 +36,7 @@ A typical planning activity is to change or add planning worksheet lines to modi
   
 ### To modify suggested supply orders in the graphical view  
   
-1.  In the **Search** box, enter **Item Availability by Timeline**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Availability by Timeline**, and then choose the related link.  
   
 2.  The **Item Availability by Timeline** window opens with the item number, location, and variant of the item on the selected planning line prefilled in the **Options** FastTab. The **Timeline** FastTab shows a graphical representation of the item’s projected inventory, including planning suggestions.  
   

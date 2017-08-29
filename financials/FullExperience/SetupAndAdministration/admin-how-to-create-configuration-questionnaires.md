@@ -1,5 +1,5 @@
 ---
-    title: How to: Create Configuration Questionnaires | Microsoft Docs
+    title: How to Create Configuration Questionnaires | Microsoft Docs
     description: You can use a questionnaire to help you determine the scope and needs of configuration. You can create a new questionnaire, or modify an existing questionnaire by adding new questions or question areas.
     services: project-madeira
     documentationcenter: ''
@@ -41,11 +41,11 @@ You can use a questionnaire to help you determine the scope and needs of configu
 -   Warehouse Setup  
   
 > [!NOTE]  
->  To see a complete list of setup tables, in the **Search** box, enter **Setup**, and then choose the related link. To determine the scope of migration of records data, use migration functionality. For more information, see [Migrate Customer Data](../migrate-customer-data.md).  
+>  To see a complete list of setup tables, Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Setup**, and then choose the related link. To determine the scope of migration of records data, use migration functionality. For more information, see [Migrate Customer Data](../migrate-customer-data.md).  
   
 ### To create a custom configuration questionnaire  
   
-1.  In the **Search** box, enter **Configuration Questionnaire**, and choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Questionnaire**, and choose the related link.  
   
 2.  On the **Home** tab, choose **New**. The **Config. Questionnaire** window opens.  
   

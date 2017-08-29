@@ -1,5 +1,5 @@
 ---
-    title: How to: Fiscally Close Years | Microsoft Docs
+    title: How to Fiscally Close Years | Microsoft Docs
     description: When a fiscal year is complete, you must fiscally close the periods that it comprises to make sure that no more general ledger entries can be posted.
     services: project-madeira
     documentationcenter: ''
@@ -28,7 +28,7 @@ When a fiscal year is complete, you must fiscally close the periods that it comp
   
 ### To fiscally close years  
   
-1.  In the **Search** box, enter **Accounting Periods**, and then choose the relevant link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Accounting Periods**, and then choose the relevant link.  
   
 2.  On the **Navigate** tab, in the **Fiscal Closing** group, choose **Fiscally Close Year**.  
   

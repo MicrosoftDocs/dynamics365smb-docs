@@ -1,5 +1,5 @@
 ---
-    title: How to: Print Intrastat Reports | Microsoft Docs
+    title: How to Print Intrastat Reports | Microsoft Docs
     description: All European Union (EU) companies must submit an Intrastat statistics report to the Instituto Nacional de Estatística (INE) detailing their trade with other EU countries/regions. Companies do not have to submit statistical declarations for the Intrastat system if their import and export totals are lower than the threshold set by their country/region.
     services: project-madeira
     documentationcenter: ''
@@ -22,13 +22,13 @@ All European Union (EU) companies must submit an Intrastat statistics report to 
   
 ### To print an Intrastat checklist  
   
-1.  In the **Search** box, enter **Intrastat Journal**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat Journal**, and then choose the related link.  
   
 2.  Fill in the fields as described in the following table.  
   
     |Field|Description|  
     |---
-    title: How to: Print Intrastat Reports | Microsoft Docs
+    title: How to Print Intrastat Reports | Microsoft Docs
     description: All European Union (EU) companies must submit an Intrastat statistics report to the Instituto Nacional de Estatística (INE) detailing their trade with other EU countries/regions. Companies do not have to submit statistical declarations for the Intrastat system if their import and export totals are lower than the threshold set by their country/region.
     services: project-madeira
     documentationcenter: ''

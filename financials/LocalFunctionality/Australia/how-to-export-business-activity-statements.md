@@ -1,5 +1,5 @@
 ---
-    title: How to: Export Business Activity Statements | Microsoft Docs
+    title: How to Export Business Activity Statements | Microsoft Docs
     description: A Business Activity Statement (BAS) is a form that reports both the total Goods and Services Tax (GST) collected from sales activities, and GST paid on purchases.
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ A Business Activity Statement (BAS) is a form that reports both the total Goods 
   
 ### To export business activity statements  
   
-1.  In the **Search** box, enter **BAS Setup Names**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **BAS Setup Names**, and then choose the related link.  
   
 2.  Select a relevant BAS calculation sheet.  
   
@@ -38,7 +38,7 @@ A Business Activity Statement (BAS) is a form that reports both the total Goods 
   
 ### To print business activity statements  
   
-1.  In the **Search** box, enter **BAS Calculation Sheets**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **BAS Calculation Sheets**, and then choose the related link.  
   
 2.  On the **Actions** tab, in the **Functions** group, choose **Update** to open the **BAS Update** window.  
   

@@ -1,5 +1,5 @@
 ---
-    title: How to: Apply CODA Statements | Microsoft Docs
+    title: How to Apply CODA Statements | Microsoft Docs
     description: After a CODA statement has been imported, the statement lines can be accessed from the **Bank Account Card** window. The application status on each line will be blank because the statement amounts have not been applied to outstanding ledger entries.
     services: project-madeira
     documentationcenter: ''
@@ -26,7 +26,7 @@ After a CODA statement has been imported, the statement lines can be accessed fr
   
 ### To manually apply the CODA statement lines  
   
-1.  In the **Search** box, enter **Bank Accounts**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.  
   
 2.  Select the bank account, and on the **Home** tab, in the **Process** group, choose **CODA Statements**.  
   
@@ -37,13 +37,13 @@ After a CODA statement has been imported, the statement lines can be accessed fr
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Account No.**|Enter the number of the general ledger account, bank, customer, vendor, or fixed asset, which the bank account statement line is linked to.|  
-    |**Description**|[!INCLUDE[d365fin](../../includes/d365fin_md.md)] automatically retrieves the description from the imported CODA file, but you can modify the contents of this field.|  
+    |**Description**|[!INCLUDE[d365fin](includes/d365fin_md.md)] automatically retrieves the description from the imported CODA file, but you can modify the contents of this field.|  
   
 5.  Choose the **OK** button.  
   
 ### To automatically apply the CODA statement lines  
   
-1.  In the **Search** box, enter **Bank Accounts**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.  
   
 2.  Select the bank account, and on the **Home** tab, in the **Process** group, choose **CODA Statements**.  
   

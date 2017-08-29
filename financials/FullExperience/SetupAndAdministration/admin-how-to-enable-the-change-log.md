@@ -1,5 +1,5 @@
 ---
-    title: How to: Enable the Change Log | Microsoft Docs
+    title: How to Enable the Change Log | Microsoft Docs
     description: A common problem in an administrative computer system is to locate the origin of errors and changes in data. It could be anything from an incorrect customer telephone number to an incorrect posting to the general ledger. The change log functionality lets you track all direct modifications a user makes to data in the database.
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ A common problem in an administrative computer system is to locate the origin of
   
 ### To set up a change log  
   
-1.  In the **Search** box, enter **Change Log Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Change Log Setup**, and then choose the related link.  
   
 2.  In the **Change Log Setup** window, on the **Actions** tab, in the **Setup** group, choose **Tables**. The **Change Log Setup (Table) List** window opens.  
   
@@ -35,11 +35,11 @@ A common problem in an administrative computer system is to locate the origin of
  You must restart the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/nav_windows_md.md)]--> for the new change log settings to take effect.  
   
 > [!IMPORTANT]  
->  The change log cannot track all changes to BLOB fields. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] tracks that the BLOB field gets set or cleared but cannot read if the field value changes.  
+>  The change log cannot track all changes to BLOB fields. [!INCLUDE[d365fin](includes/d365fin_md.md)] tracks that the BLOB field gets set or cleared but cannot read if the field value changes.  
   
- [!INCLUDE[d365fin](../../includes/d365fin_md.md)] always logs changes to the **Change Log Activated** field, which means that you are always able to see which user deactivated or reactivated the change log. This cannot be turned off.  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] always logs changes to the **Change Log Activated** field, which means that you are always able to see which user deactivated or reactivated the change log. This cannot be turned off.  
   
- [!INCLUDE[d365fin](../../includes/d365fin_md.md)] also always tracks the following system tables:  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] also always tracks the following system tables:  
   
 -   **Access Control**  
   

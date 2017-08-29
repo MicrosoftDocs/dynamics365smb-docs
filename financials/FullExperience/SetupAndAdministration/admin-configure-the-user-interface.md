@@ -35,7 +35,7 @@ As an administrator, you configure the company’s default user interfaces by cu
 > [!NOTE]  
 >  Unlike when users change the size of windows or the width of columns on their own computer, any such basic view changes that you make during your configuration of the UI for a profile are not saved to the profile and will not be available for users assigned to the profile. Basic view changes are computer-specific. For more information, see [How to: Make Basic UI Changes](../how-to-make-basic-ui-changes.md).  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

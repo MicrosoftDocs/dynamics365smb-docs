@@ -1,5 +1,5 @@
 ---
-    title: How to: Archive IBS Log Entries | Microsoft Docs
+    title: How to Archive IBS Log Entries | Microsoft Docs
     description: IBS log lines that have a process status of **Processed** can be archived. IBS logs contain information about electronic banking files that are created during Isabel electronic bank transfers.
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ IBS log lines that have a process status of **Processed** can be archived. IBS l
   
 ### To archive an IBS log entry  
   
-1.  In the **Search** box, enter **IBS Logs**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **IBS Logs**, and then choose the related link.  
   
 2.  Select the line that you want to archive. On the **Actions** tab, in the **Function** group, choose **Archive**.  
   

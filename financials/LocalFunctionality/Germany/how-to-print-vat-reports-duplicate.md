@@ -1,6 +1,6 @@
 ---
-    title: How to: Print VAT Reports | Microsoft Docs
-    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] ../../includes VAT reports that you can use to submit information about VAT to the authorities. The following VAT reports are available for Germany:
+    title: How to Print VAT Reports | Microsoft Docs
+    description: [!INCLUDE[d365fin](includes/d365fin_md.md)] ../../includes VAT reports that you can use to submit information about VAT to the authorities. The following VAT reports are available for Germany:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # How to: Print VAT Reports
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] ../../includes VAT reports that you can use to submit information about VAT to the authorities. The following VAT reports are available for Germany:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] ../../includes VAT reports that you can use to submit information about VAT to the authorities. The following VAT reports are available for Germany:  
   
 -   **Sales VAT Adv. Not. Acc. Proof**  
   
@@ -28,7 +28,7 @@
   
 ### To print the Sales VAT Adv. Not. Acc. Proof report  
   
-1.  In the **Search** box, enter **Sales VAT Advance Notification**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales VAT Advance Notification**, and then choose the related link.  
   
 2.  In the **Sales Advance VAT Notification** window, on the **Actions** tab, in the **Functions** group, choose **Sales VAT Adv. Not. Acc. Proof**.  
   
@@ -46,7 +46,7 @@
   
 ### To print the VAT Statement Schedule report  
   
-1.  In the **Search** box, enter **VAT Statements**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Statements**, and then choose the related link.  
   
 2.  In the **Name** field, select the relevant VAT statement name.  
   
@@ -60,7 +60,7 @@
   
 ### To print the VAT Statement Germany report  
   
-1.  In the **Search** box, enter **VAT Statement Germany**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Statement Germany**, and then choose the related link.  
   
 2.  In the **VAT Statement Germany** batch job, on the **Options** FastTab, fill in the fields as described in the following table.  
   

@@ -1,5 +1,5 @@
 ---
-    title: How to: Copy a Link to a Page | Microsoft Docs
+    title: How to Copy a Link to a Page | Microsoft Docs
     description: All pages have a **Copy Link to Page** action that you can use to save a link to a specific page in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->. You can then share these pages across your company. The link text is the same as the page header text.
     services: project-madeira
     documentationcenter: ''
@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Copy a Link to a Page
 All pages have a **Copy Link to Page** action that you can use to save a link to a specific page in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->. You can then share these pages across your company. The link text is the same as the page header text.  
   
@@ -23,7 +23,7 @@ All pages have a **Copy Link to Page** action that you can use to save a link to
   
 ### To copy a link to the Customers window  
   
-1.  In the **Search** box, enter **Customers**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.  
   
 2.  In the **Application** menu, choose **Page**, and then choose **Copy Link to Page**.  
   

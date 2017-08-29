@@ -1,5 +1,5 @@
 ---
-    title: How to: Reopen Accounting Periods | Microsoft Docs
+    title: How to Reopen Accounting Periods | Microsoft Docs
     description: When a single fiscal period has been fiscally closed it might be necessary to reopen it to post general ledger entries.
     services: project-madeira
     documentationcenter: ''
@@ -23,7 +23,7 @@ When a single fiscal period has been fiscally closed it might be necessary to re
   
 ### To reopen accounting periods  
   
-1.  In the **Search** box, enter **Accounting Periods**, and then choose the relevant link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Accounting Periods**, and then choose the relevant link.  
   
 2.  On the **Navigate** tab, in the **Fiscal Closing** group, choose **Reopen Fiscal Period**.  
   

@@ -1,5 +1,5 @@
 ---
-    title: How to: Check Job Queues Entries | Microsoft Docs
+    title: How to Check Job Queues Entries | Microsoft Docs
     description: The **Job Queue Entries** window lists all current job queue entries. The list displays the **Status** of the job, the **User ID** of the user who initiated the job, and the **Object ID.to Run**. If the status is set to **Ready**, then the scheduled job can run.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ The **Job Queue Entries** window lists all current job queue entries. The list d
   
 ### To check the state of a job queue entry  
   
-1.  In the **Search** box, enter **Job Queue Entries**, and then choose the related link. The **Job Queue Entries** window opens.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Queue Entries**, and then choose the related link. The **Job Queue Entries** window opens.  
   
 2.  In the list, select the job queue entry that you want to check.  
   

@@ -26,7 +26,7 @@ The production operations required to transform inputs into finished goods must 
   
  The configuration needed to prepare production capacities, such as creating shop calendars, routings, and machine centers is described in [Configure Production Processes](../configure-production-processes.md).  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

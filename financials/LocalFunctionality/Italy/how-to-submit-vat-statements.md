@@ -1,5 +1,5 @@
 ---
-    title: How to: Submit VAT Statements | Microsoft Docs
+    title: How to Submit VAT Statements | Microsoft Docs
     description: Companies must pay VAT for most purchased goods and services. VAT can be deducted if the goods and services that are purchased by a company are used in the production of its income.
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ Companies must pay VAT for most purchased goods and services. VAT can be deducte
   
 ### To review and print VAT statements  
   
-1.  In the **Search** box, enter **VAT Statements**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Statements**, and then choose the related link.  
   
 2.  In the **VAT Statement** window, in the **Name** field, select the required VAT statement, and then, on the **Home** tab, in the **Process** group, choose **Print**.  
   
@@ -34,7 +34,7 @@ Companies must pay VAT for most purchased goods and services. VAT can be deducte
   
 ### To settle and post VAT transactions  
   
-1.  In the **Search** box, enter **Calc. and Post VAT Settlement**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Calc. and Post VAT Settlement**, and then choose the related link.  
   
 2.  On the **Options** FastTab, enter a date interval to limit the period covered by the VAT settlement, select the correct VAT settlement account, and then select **Post** if you want to post the VAT amounts to the settlement account.  
   
@@ -44,7 +44,7 @@ Companies must pay VAT for most purchased goods and services. VAT can be deducte
   
 ### To submit VAT statements  
   
-1.  In the **Search** box, enter **VAT Statements**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Statements**, and then choose the related link.  
   
 2.  In the **VAT Statement** window, in the **Name** field, select the required VAT statement, and then, on the **Home** tab, in the **Process** group, choose **Print**, and then choose **PDF**.  
   

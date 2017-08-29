@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Post Documents and Journals
 Posting represents the accounting action of recording business transactions in the various company ledgers.  
   

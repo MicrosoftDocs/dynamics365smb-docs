@@ -1,5 +1,5 @@
 ---
-    title: How to: Export Account Schedules to ASC Format | Microsoft Docs
+    title: How to Export Account Schedules to ASC Format | Microsoft Docs
     description: You can export the account schedule data into a digital file format approved by the local tax authorities for the following annual reports:
     services: project-madeira
     documentationcenter: ''
@@ -28,7 +28,7 @@ You can export the account schedule data into a digital file format approved by 
   
 ### To export account schedules into ASC format  
   
-1.  In the **Search** box, enter **Account Schedules**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Account Schedules**, and then choose the related link.  
   
 2.  In the **Account Schedule Names** window, select the relevant account schedule name. On the **Home** tab, in the **Process** group, choose **Edit Account Schedule**.  
   

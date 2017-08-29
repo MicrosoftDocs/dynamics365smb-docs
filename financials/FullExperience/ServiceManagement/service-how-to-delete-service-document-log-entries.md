@@ -1,5 +1,5 @@
 ---
-    title: How to: Delete Service Document Log Entries | Microsoft Docs
+    title: How to Delete Service Document Log Entries | Microsoft Docs
     description: You can delete the automatically generated service document log entries, for example, the unnecessary or outdated ones.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ You can delete the automatically generated service document log entries, for exa
   
 ### To delete service document log entries  
   
-1.  In the **Search** box, enter **Service Document Log**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Document Log**, and then choose the related link.  
   
      Alternatively, you can open the Service Document Log for a separate service document. To do this, open the window for the document you want to see the changes logged for, and then on the **Navigate** tab, in the relevant group, such as **Order**, or **Invoice**, and so on, choose **Service Document Log**.  
   

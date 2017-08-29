@@ -1,5 +1,5 @@
 ---
-    title: How to: Cancel UI Configuration | Microsoft Docs
+    title: How to Cancel UI Configuration | Microsoft Docs
     description: You can cancel UI customizations that you have made as configuration for a profile in three ways:
     services: project-madeira
     documentationcenter: ''
@@ -34,18 +34,18 @@ You can cancel UI customizations that you have made as configuration for a profi
   
 ### To cancel all UI customization that you have made for a profile  
   
-1.  In the **Search** box, enter **Profiles**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Profiles**, and then choose the related link.  
   
 2.  Select the profile for which you want to cancel all UI customizations, and then, on the **Home** tab, in the **Manage** group, choose **Edit**.  
   
 3.  In the **Profile Card** window, on the **Actions** tab, in the **Functions** group, choose **Clear Configured Pages**.  
   
 > [!NOTE]  
->  All UI customizations for the profile, both those installed with ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]--> and those made by the administrator, are canceled. No page layouts specific to the profile remain in the database.  
+>  All UI customizations for the profile, both those installed with [!INCLUDE[d365fin](includes/d365fin_md.md)] and those made by the administrator, are canceled. No page layouts specific to the profile remain in the database.  
   
 ### To cancel UI customization that you have made for specific page for a profile  
   
-1.  In the **Search** box, enter **Delete Profile Configuration**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Delete Profile Configuration**, and then choose the related link.  
   
 2.  Select the profile/page set for which you want to cancel your UI customization, and then, on the **Home** tab, in the **Manage** group, choose **Delete**.  
   
@@ -59,7 +59,7 @@ You can cancel UI customizations that you have made as configuration for a profi
   
 1.  You can undo changes for that you have made to individual UI areas, such as a ribbon, by using the **Restore Defaults** button in the **Customize** window. Alternatively, you can undo all UI changes that you have made for a profile by using the **Delete Profile Configuration** window.  
   
- The UI customization for the profile of the particular UI area on the particular page is canceled. The layout of the UI area on the page is reset to the default configuration, as made either by the administrator or as installed with ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]-->.  
+ The UI customization for the profile of the particular UI area on the particular page is canceled. The layout of the UI area on the page is reset to the default configuration, as made either by the administrator or as installed with [!INCLUDE[d365fin](includes/d365fin_md.md)].  
   
 ## See Also  
  [Configure the User Interface](../configure-the-user-interface.md)   

@@ -1,5 +1,5 @@
 ---
-    title: How to: Export and Import Encryption Keys | Microsoft Docs
+    title: How to Export and Import Encryption Keys | Microsoft Docs
     description: You can encrypt data on the ADD INCLUDE<!--[!INCLUDE[nav_server](../../includes/nav_server_md.md)]--> instance by generating new encryption keys or importing or changing existing encryption keys that you enable on the server instance.
     services: project-madeira
     documentationcenter: ''
@@ -26,7 +26,7 @@ You can encrypt data on the ADD INCLUDE<!--[!INCLUDE[nav_server](../../includes/
   
 #### To export an encryption key  
   
-1.  In the **Search** box, enter Data Encryption Management, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter Data Encryption Management, and then choose the related link.  
   
 2.  On the **Home** tab, in the **Process** group, choose **Export Encryption Key**.  
   
@@ -41,7 +41,7 @@ You can encrypt data on the ADD INCLUDE<!--[!INCLUDE[nav_server](../../includes/
   
 #### To import an encryption key  
   
-1.  In the **Search** box, enter Data Encryption Management, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter Data Encryption Management, and then choose the related link.  
   
 2.  On the **Home** tab, in the **Process** group, choose **Import Encryption Key**.  
   
@@ -53,11 +53,11 @@ You can encrypt data on the ADD INCLUDE<!--[!INCLUDE[nav_server](../../includes/
  If a server instance already has an encryption key, then you can replace the current encryption key with an encryption key that is stored in an encryption key file that was exported from another server.  
   
 > [!NOTE]  
->  If ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]--> is configured with multiple server instances, when you change the encryption key on a server instance, then the old encryption key is no longer valid on the other server instances. To enable the new encryption key on the other server instances, import it on each server instance.  
+>  If [!INCLUDE[d365fin](includes/d365fin_md.md)] is configured with multiple server instances, when you change the encryption key on a server instance, then the old encryption key is no longer valid on the other server instances. To enable the new encryption key on the other server instances, import it on each server instance.  
   
 #### To change an encryption key  
   
-1.  In the **Search** box, enter Data Encryption Management, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter Data Encryption Management, and then choose the related link.  
   
 2.  On the **Home** tab, in the **Process** group, choose **Change Encryption Key**.  
   

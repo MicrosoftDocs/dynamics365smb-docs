@@ -1,5 +1,5 @@
 ---
-    title: Design Details: Balancing Supply with Demand | Microsoft Docs
+    title: Design Details - Balancing Supply with Demand | Microsoft Docs
     description: The core of the planning system involves balancing demand and supply by means of suggesting user actions to revise the supply orders in case of imbalance. This takes place per combination of variant and location.
     services: project-madeira
     documentationcenter: ''
@@ -129,5 +129,5 @@ The core of the planning system involves balancing demand and supply by means of
   
 ## See Also  
  [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)   
- [Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md)   
+ [Design Details: Central Concepts of the Planning System]()   
  [Design Details: Supply Planning](design-details-supply-planning.md)

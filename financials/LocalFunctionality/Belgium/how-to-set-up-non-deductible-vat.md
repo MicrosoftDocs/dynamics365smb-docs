@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Non-Deductible VAT | Microsoft Docs
+    title: How to Set Up Non-Deductible VAT | Microsoft Docs
     description: You can calculate VAT amounts for specific types of expenses which can be partially declared as VAT. For example, in the **G/L Account Card** window, if you enter 75 percent in the **% Non-Deductible VAT** field, then 75 percent of the regular VAT amount is considered an additional cost and will be added to the net amount during posting. The remaining 25 percent will be posted as regular VAT.
     services: project-madeira
     documentationcenter: ''
@@ -23,7 +23,7 @@ You can calculate VAT amounts for specific types of expenses which can be partia
   
 ### To set up the non-deductible VAT percentage  
   
-1.  In the **Search** box, enter **Chart of Accounts**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Chart of Accounts**, and then choose the related link.  
   
 2.  Select a general ledger expense account that requires the partial deduction, and on the **Home** tab, in the **Manage** group, choose **Edit**.  
   

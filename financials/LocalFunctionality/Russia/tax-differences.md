@@ -18,7 +18,7 @@
 # Tax Differences
 Tax differences are variations in tax amounts caused by the different rules for recognizing income and expenses between entries for book accounting and tax accounting.  
   
- In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can set up tax difference registers and tax difference journals to track and manage differences between book accounting and tax accounting amounts.  
+ In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can set up tax difference registers and tax difference journals to track and manage differences between book accounting and tax accounting amounts.  
   
 ## Preparing the Chart of Accounts  
  Before you set up tax differences, you will have to make sure that your chart of accounts is set up to correctly handle tax accounting and tax differences. At a minimum, your chart of accounts must contain tax difference accounts for income and expense transactions.  

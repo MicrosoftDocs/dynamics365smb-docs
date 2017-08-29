@@ -1,6 +1,6 @@
 ---
-    title: How to: View Ledger Reconciliations | Microsoft Docs
-    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] ../../includes two reports that can help you reconcile general ledger entries with customer ledger entries and vendor ledger entries. The reports print a separate page for each customer or vendor that sums up amounts from general ledger transactions based on payments and posted invoices.
+    title: How to View Ledger Reconciliations | Microsoft Docs
+    description: [!INCLUDE[d365fin](includes/d365fin_md.md)] ../../includes two reports that can help you reconcile general ledger entries with customer ledger entries and vendor ledger entries. The reports print a separate page for each customer or vendor that sums up amounts from general ledger transactions based on payments and posted invoices.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,13 +16,13 @@
 
 ---
 # How to: View Ledger Reconciliations
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] ../../includes two reports that can help you reconcile general ledger entries with customer ledger entries and vendor ledger entries. The reports print a separate page for each customer or vendor that sums up amounts from general ledger transactions based on payments and posted invoices.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] ../../includes two reports that can help you reconcile general ledger entries with customer ledger entries and vendor ledger entries. The reports print a separate page for each customer or vendor that sums up amounts from general ledger transactions based on payments and posted invoices.  
   
  The following procedure applies to viewing reconciliation between the general ledger and the customer ledger, but the same steps apply to reconciliation with the vendor ledger.  
   
 ### To view general ledger reconciliation with the customer ledger  
   
-1.  In the **Search** box, enter **General Ledger**, and then choose the related link in **General Ledger**.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger**, and then choose the related link in **General Ledger**.  
   
 2.  Under **Reports**, under **France**, choose **GL/Cust. Ledger Reconciliation**.  
   

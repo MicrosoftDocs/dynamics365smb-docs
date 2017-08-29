@@ -1,5 +1,5 @@
 ---
-    title: How to: Cancel Allocations | Microsoft Docs
+    title: How to Cancel Allocations | Microsoft Docs
     description: If you need to cancel allocations of resources, for example, technicians, to service tasks without reallocating the tasks directly, you can cancel the allocations.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ If you need to cancel allocations of resources, for example, technicians, to ser
   
 ### To cancel an allocation  
   
-1.  In the **Search** box, enter **Dispatch Board**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Dispatch Board**, and then choose the related link.  
   
 2.  Browse to the relevant service order. On the **Navigate** tab, in the **Planning** group, choose **Resource Allocations**. The **Resource Allocations** window opens.  
   

@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Tax Register Sections | Microsoft Docs
+    title: How to Set Up Tax Register Sections | Microsoft Docs
     description: You can either create a new tax register section or select a tax register section to be used in a company during the current taxation period. You can select a tax register section that was valid during previous taxation periods and view tax information for any of the periods. You can copy tax registers from one tax register section into another. You can also set up tax registers and adjust the algorithm of information collection into tax registers.
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ You can either create a new tax register section or select a tax register sectio
   
 ### To set up a tax register  
   
-1.  In the **Search** box, enter **Tax Registers**, and choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Tax Registers**, and choose the related link.  
   
 2.  In the **Tax Registers Sections** window, choose **New**.  
   

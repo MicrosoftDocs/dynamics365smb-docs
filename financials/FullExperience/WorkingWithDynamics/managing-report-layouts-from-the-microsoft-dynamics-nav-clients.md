@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Managing Report Layouts From the Microsoft Dynamics NAV Clients
 A report layout controls content and format of the report, including which data fields of a report dataset appear on the report and how they are arranged, text style, images, and more. From the ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> clients, you can change which layout is used on a report, create new layout, or modify the existing layouts.  
   

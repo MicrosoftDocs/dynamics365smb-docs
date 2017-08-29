@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Base Calendars | Microsoft Docs
+    title: How to Set Up Base Calendars | Microsoft Docs
     description: The main task in setting up a new base calendar is to specify and define the nonworking days that you want to apply.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ The main task in setting up a new base calendar is to specify and define the non
   
 ### To set up a base calendar  
   
-1.  In the **Search** box, enter **Base Calendar**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Base Calendar**, and then choose the related link.  
   
 2.  Create a new Base Calendar Card. On the **Home** tab, in the **New** group, choose **New**.  
   

@@ -1,5 +1,5 @@
 ---
-    title: How to: Clean Up and Process Data | Microsoft Docs
+    title: How to Clean Up and Process Data | Microsoft Docs
     description: In some cases, you may want to clean up customer data and process it before you apply it to the database. To do that, you can customize report 8621 to fix issues, such as:
     services: project-madeira
     documentationcenter: ''

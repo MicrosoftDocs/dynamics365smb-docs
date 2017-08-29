@@ -1,5 +1,5 @@
 ---
-    title: How to: Add Freeze Panes | Microsoft Docs
+    title: How to Add Freeze Panes | Microsoft Docs
     description: If you must use the horizontal scroll bar to view all columns on a list page or on document lines, then you can add a vertical freeze pane to restrict some columns from scrolling. You can make sure that only less important columns move and more important columns remain visible and do not move when you scroll.
     services: project-madeira
     documentationcenter: ''

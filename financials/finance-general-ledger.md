@@ -35,7 +35,8 @@ The chart of accounts shows all general ledger accounts. From the chart of accou
 * View reports that show general ledger entries and balances.  
 * Close your income statement.  
 * Open the G/L account card to add or change settings.  
-* See a list of posting groups that post to that account.  
+* See a list of posting groups that post to that account.
+* View separate debit and credit balances for a single account  
 
 You can add, change, or delete general ledger accounts. However, to prevent discrepancies, you can't delete a general ledger account if it's data is used in the chart of accounts.  
 

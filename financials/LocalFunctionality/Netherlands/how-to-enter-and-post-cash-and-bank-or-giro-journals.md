@@ -1,6 +1,6 @@
 ---
-    title: How to: Enter and Post Cash and Bank or Giro Journals | Microsoft Docs
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the cash and bank journals to enter the transactions that affect the cash and bank accounts by using **Cash Book** and **Bank Book**.
+    title: How to Enter and Post Cash and Bank or Giro Journals | Microsoft Docs
+    description: In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can use the cash and bank journals to enter the transactions that affect the cash and bank accounts by using **Cash Book** and **Bank Book**.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # How to: Enter and Post Cash and Bank or Giro Journals
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the cash and bank journals to enter the transactions that affect the cash and bank accounts by using **Cash Book** and **Bank Book**.  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can use the cash and bank journals to enter the transactions that affect the cash and bank accounts by using **Cash Book** and **Bank Book**.  
   
  You can enter increases or decreases to the cash account in the **Cash Journals**. For example, you can use this journal for paying out petty cash or receiving transfers from a different bank account.  
   
@@ -26,13 +26,13 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the cash and b
   
 ### To post cash journals  
   
-1.  In the **Search** box, enter **Cash Journal**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Journal**, and then choose the related link.  
   
 2.  On the **Home** tab, choose **New**.  
   
 3.  In the **Cash Journal** window, on the **Lines** FastTab, fill in the required fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Date**|The journal entry date.|  
     |**Document No.**|The document number for which journal entry is created.|  
@@ -51,7 +51,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the cash and b
   
 ### To post bank or giro journals  
   
-1.  In the **Search** box, enter **Bank/Giro Journal**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank/Giro Journal**, and then choose the related link.  
   
 2.  On the **Home** tab, choose **New**.  
   
@@ -59,14 +59,14 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the cash and b
   
 4.  In the **Bank/Giro Journal** window, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Opening Balance**|The current balance of the bank or giro account. It equals the closing balance of previously posted entries for the journal.|  
     |**Closing Balance**|The new closing balance of the journal.|  
   
 5.  On the **Lines** FastTab, fill in the required fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Date**|The journal entry date.|  
     |**Account Type**|The account type to which the journal entry is to be posted.|  

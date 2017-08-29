@@ -1,5 +1,5 @@
 ---
-    title: How to: Link from Records to External Information or Programs | Microsoft Docs
+    title: How to Link from Records to External Information or Programs | Microsoft Docs
     description: You may want to attach a hyperlink to a document or website to a specific record, such as a customer or document in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> to the corresponding invoice on Microsoft SharePoint Server. Or, you can make a link from an item card to the corresponding page in your vendor's online catalog.
     services: project-madeira
     documentationcenter: ''
@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Link from Records to External Information or Programs
 You may want to attach a hyperlink to a document or website to a specific record, such as a customer or document in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> to the corresponding invoice on Microsoft SharePoint Server. Or, you can make a link from an item card to the corresponding page in your vendor's online catalog.  
   
@@ -75,7 +75,7 @@ You may want to attach a hyperlink to a document or website to a specific record
   
 ### To run delete orphaned record links  
   
-1.  In the **Search** box, enter **Data Deletion**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Data Deletion**, and then choose the related link.  
   
 2.  On the **Data Deletion** page, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  
   

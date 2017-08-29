@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Sales Tax Details | Microsoft Docs
+    title: How to Set Up Sales Tax Details | Microsoft Docs
     description: The **Tax Details** window contains a matrix table that uses different combinations of sales tax jurisdictions and sales tax groups to establish sales tax rates. For each tax jurisdiction, you are advised to set up one tax group for normal sales tax, another tax group for items or services that are not taxed, and an additional tax group for every type of item or service that is handled with a different sales tax rate in that jurisdiction.
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ The **Tax Details** window contains a matrix table that uses different combinati
   
 ### To set up sales tax details  
   
-1.  In the **Search** box, enter **Tax Details**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Tax Details**, and then choose the related link.  
   
 2.  In the **Tax Details** window, on the **Home** tab, in the **New** group, choose **New**.  
   
@@ -42,7 +42,7 @@ The **Tax Details** window contains a matrix table that uses different combinati
   
 ### To set up sales tax for a customer  
   
-1.  In the **Search** box, enter **Customers**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.  
   
 2.  Select the required customer. On the **Home** tab, in the **Manage** group, choose **Edit**.  
   

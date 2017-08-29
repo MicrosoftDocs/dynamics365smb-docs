@@ -1,5 +1,5 @@
 ---
-    title: How to: Recalculate Calendar Entries for Machine Centers | Microsoft Docs
+    title: How to Recalculate Calendar Entries for Machine Centers | Microsoft Docs
     description: You can update the calendar entries after making changes in the shop calendar. The existing calendar entries are verified to make sure they correspond to the shop calendar. The appropriate calendar entry is corrected if deviations are identified.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ You can update the calendar entries after making changes in the shop calendar. T
   
 ### To recalculate calendar entries for a machine center  
   
-1.  In the **Search** box, enter **Machine Centers**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Machine Centers**, and then choose the related link.  
   
 2.  Open the relevant machine center from the list.  
   

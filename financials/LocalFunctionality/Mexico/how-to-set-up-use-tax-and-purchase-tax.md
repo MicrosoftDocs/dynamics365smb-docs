@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Use Tax and Purchase Tax | Microsoft Docs
+    title: How to Set Up Use Tax and Purchase Tax | Microsoft Docs
     description: Sales tax ../../includes taxes that companies pay for using items:
     services: project-madeira
     documentationcenter: ''
@@ -24,7 +24,7 @@ Sales tax ../../includes taxes that companies pay for using items:
   
 ### To set up use tax for a purchase order  
   
-1.  In the **Search** box, enter **Purchase Orders**, and then choose the related link in **Order Processing**.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Orders**, and then choose the related link in **Order Processing**.  
   
 2.  In the **Purchase Orders** window, on the **Home** tab, in the **New** group, choose **New**.  
   
@@ -49,7 +49,7 @@ Sales tax ../../includes taxes that companies pay for using items:
   
 ### To set up use tax details  
   
-1.  In the **Search** box, enter **Tax Details**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Tax Details**, and then choose the related link.  
   
 2.  In the **Tax Details** window, on the **Home** tab, in the **New** group, choose **New**.  
   
@@ -65,7 +65,7 @@ Sales tax ../../includes taxes that companies pay for using items:
   
 ### To set up purchase tax for a company  
   
-1.  In the **Search** box, enter **Company Information**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.  
   
 2.  In the **Company Information** window, on the **Tax** FastTab, fill in the fields as described in the following table.  
   
@@ -79,7 +79,7 @@ Sales tax ../../includes taxes that companies pay for using items:
   
 ### To set up purchase tax for a location  
   
-1.  In the **Search** box, enter **Locations**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.  
   
 2.  In the **Locations** window, select the required location. On the **Home** tab, in the **Manage** group, choose **Edit**.  
   
@@ -96,7 +96,7 @@ Sales tax ../../includes taxes that companies pay for using items:
   
 ### To set up purchase tax for non-recoverable tax  
   
-1.  In the **Search** box, enter **Tax Details**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Tax Details**, and then choose the related link.  
   
 2.  In the **Tax Details** window, on the **Home** tab. In the **New** group, choose **New**.  
   

@@ -1,5 +1,5 @@
 ---
-    title: How to: Update Calendar Entries for Machine Centers | Microsoft Docs
+    title: How to Update Calendar Entries for Machine Centers | Microsoft Docs
     description: When you create a new machine center, its calendar entries do not yet exist. Calendar changes, such as absence, are not immediately visible either. When you have entered the machine center’s nonworking days, you must recalculate the calendar.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ When you create a new machine center, its calendar entries do not yet exist. Cal
   
 ### To update calendar entries for a machine center  
   
-1.  In the **Search** box, enter **Machine Centers**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Machine Centers**, and then choose the related link.  
   
 2.  Open the relevant **Machine Center** card from the list.  
   

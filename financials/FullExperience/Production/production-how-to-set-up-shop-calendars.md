@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Shop Calendars | Microsoft Docs
+    title: How to Set Up Shop Calendars | Microsoft Docs
     description: It is possible to set up many different calendars. A calendar is then assigned to the individual capacity.
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ It is possible to set up many different calendars. A calendar is then assigned t
   
 ### To set up shop calendars  
   
-1.  In the **Search** box, enter **Shop Calendars**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Shop Calendars**, and then choose the related link.  
   
 2.  Fill in a code and a name for each calendar you wish to create.  
   

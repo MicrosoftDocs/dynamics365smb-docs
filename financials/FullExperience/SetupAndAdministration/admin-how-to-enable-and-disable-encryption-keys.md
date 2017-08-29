@@ -1,5 +1,5 @@
 ---
-    title: How to: Enable and Disable Encryption Keys | Microsoft Docs
+    title: How to Enable and Disable Encryption Keys | Microsoft Docs
     description: You can encrypt data on the ADD INCLUDE<!--[!INCLUDE[nav_server](../../includes/nav_server_md.md)]--> by generating new or importing existing encryption keys that you enable on the server.
     services: project-madeira
     documentationcenter: ''
@@ -19,7 +19,7 @@
 You can encrypt data on the ADD INCLUDE<!--[!INCLUDE[nav_server](../../includes/nav_server_md.md)]--> by generating new or importing existing encryption keys that you enable on the server.  
   
 > [!NOTE]  
->  If ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]--> is configured with multiple service tiers, then you must first enable encryption on one server and then export the key so it can be imported to another server where you enable encryption. You cannot generate different keys within one multiple-server environment.  
+>  If [!INCLUDE[d365fin](includes/d365fin_md.md)] is configured with multiple service tiers, then you must first enable encryption on one server and then export the key so it can be imported to another server where you enable encryption. You cannot generate different keys within one multiple-server environment.  
   
  You encrypt data by enabling an encryption key on a server where an encryption key exists.  
   
@@ -30,7 +30,7 @@ You can encrypt data on the ADD INCLUDE<!--[!INCLUDE[nav_server](../../includes/
   
 ### To enable data encryption  
   
-1.  In the **Search** box, enter Data Encryption Management, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter Data Encryption Management, and then choose the related link.  
   
 2.  On the **Home** tab, in the **Process** group, choose **Enable Encryption**.  
   
@@ -42,7 +42,7 @@ You can encrypt data on the ADD INCLUDE<!--[!INCLUDE[nav_server](../../includes/
   
 ### To disable data encryption  
   
-1.  In the **Search** box, enter Data Encryption Management, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter Data Encryption Management, and then choose the related link.  
   
 2.  On the **Home** tab, in the **Process** group, choose **Disable Encryption**.  
   

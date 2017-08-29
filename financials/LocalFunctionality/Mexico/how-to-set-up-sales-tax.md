@@ -1,6 +1,6 @@
 ---
-    title: How to: Set Up Sales Tax | Microsoft Docs
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you need to set the tax calculation type before you can set up sales tax.
+    title: How to Set Up Sales Tax | Microsoft Docs
+    description: In [!INCLUDE[d365fin](includes/d365fin_md.md)], you need to set the tax calculation type before you can set up sales tax.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,11 +16,11 @@
 
 ---
 # How to: Set Up Sales Tax
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you need to set the tax calculation type before you can set up sales tax.  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], you need to set the tax calculation type before you can set up sales tax.  
   
 ### To set up sales tax  
   
-1.  In the **Search** box, enter **Tax Posting Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Tax Posting Setup**, and then choose the related link.  
   
 2.  Select the tax. On the **Home** tab, in the **Manage** group, choose **Edit**.  
   

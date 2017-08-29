@@ -1,5 +1,5 @@
 ---
-    title: How to: Refresh Planning Demands | Microsoft Docs
+    title: How to Refresh Planning Demands | Microsoft Docs
     description: You can use the **Refresh Planning Demand** batch job to refresh the planning components and the routing lines for the current planning line.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ You can use the **Refresh Planning Demand** batch job to refresh the planning co
   
 ### To refresh planning demands  
   
-1.  In the **Search** box, enter **Planning Worksheet**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Planning Worksheet**, and then choose the related link.  
   
 2.  In the **Planning Worksheet** window, select the line you want to refresh.  
   

@@ -1,5 +1,5 @@
 ---
-    title: How to: Export and Post Domiciliations | Microsoft Docs
+    title: How to Export and Post Domiciliations | Microsoft Docs
     description: You can submit domiciliations to your bank by exporting the data to a file. When you export to a file, you can choose to automatically post the lines to the general ledger.
     services: project-madeira
     documentationcenter: ''
@@ -26,7 +26,7 @@ You can submit domiciliations to your bank by exporting the data to a file. When
   
 ### To export and post domiciliations in SEPA format  
   
-1.  In the **Search** box, enter **Domiciliation Journals**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Domiciliation Journals**, and then choose the related link.  
   
 2.  In the **Batch Name** field, select the required journal batch, and on the **Home** tab, in the **Progress** group, choose **File Domiciliations**.  
   
@@ -51,7 +51,7 @@ You can submit domiciliations to your bank by exporting the data to a file. When
   
 ### To export and post domiciliations in Isabel format  
   
-1.  In the **Search** box, enter **Domiciliation Journals**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Domiciliation Journals**, and then choose the related link.  
   
 2.  In the **Batch Name** field, select the required journal batch, and on the **Home** tab, in the **Progress** group, choose **File Domiciliations**.  
   

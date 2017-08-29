@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Working with Reports in ($ P_1 Product Name $)
 A report in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/nav_dev_long_md.md)]--> to define new reports or change the standard reports.  
   

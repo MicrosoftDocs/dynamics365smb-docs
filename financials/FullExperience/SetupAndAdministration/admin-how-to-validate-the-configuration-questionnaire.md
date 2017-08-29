@@ -1,6 +1,6 @@
 ---
-    title: How to: Validate the Configuration Questionnaire | Microsoft Docs
-    description: It is important to validate the setup questionnaire before you apply it to the [!INCLUDE[d365fin](../../includes/d365fin_md.md)] format. It is also a way to make sure that data formatting is preserved during the import from Excel.
+    title: How to Validate the Configuration Questionnaire | Microsoft Docs
+    description: It is important to validate the setup questionnaire before you apply it to the [!INCLUDE[d365fin](includes/d365fin_md.md)] format. It is also a way to make sure that data formatting is preserved during the import from Excel.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,12 +16,12 @@
 
 ---
 # How to: Validate the Configuration Questionnaire
-It is important to validate the setup questionnaire before you apply it to the [!INCLUDE[d365fin](../../includes/d365fin_md.md)] format. It is also a way to make sure that data formatting is preserved during the import from Excel.  
+It is important to validate the setup questionnaire before you apply it to the [!INCLUDE[d365fin](includes/d365fin_md.md)] format. It is also a way to make sure that data formatting is preserved during the import from Excel.  
   
  A common validation task is to check that text strings are not entered into date fields. This review process is necessary because the format of the answer in the questionnaire is not validated automatically when the **Apply Answers** function is run.  
   
 > [!NOTE]  
->  In general, validation of the setup questionnaire is a manual process only. However, there are checks for regional formatting inconsistencies. In addition, you will have errors if the structure of your [!INCLUDE[d365fin](../../includes/d365fin_md.md)] database does not match the structure of the migration database.  
+>  In general, validation of the setup questionnaire is a manual process only. However, there are checks for regional formatting inconsistencies. In addition, you will have errors if the structure of your [!INCLUDE[d365fin](includes/d365fin_md.md)] database does not match the structure of the migration database.  
   
 ### To validate the setup questionnaire  
   
@@ -31,7 +31,7 @@ It is important to validate the setup questionnaire before you apply it to the [
   
 3.  For each question, validate that the value in the **Answer** field corresponds to the format provided in the **Answer Option** field. For example, validate that the address of a company is in text format.  
   
-4.  If you find errors, you can troubleshoot and make corrections in Excel by exporting the questionnaire, and then importing it again. Alternatively, you can also correct errors directly in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] as you review the answers in the **Question Areas** window.  
+4.  If you find errors, you can troubleshoot and make corrections in Excel by exporting the questionnaire, and then importing it again. Alternatively, you can also correct errors directly in [!INCLUDE[d365fin](includes/d365fin_md.md)] as you review the answers in the **Question Areas** window.  
   
 5.  Repeat these steps for each **Question Area**.  
   

@@ -1,5 +1,5 @@
 ---
-    title: How to: Export VAT Statements in XML Format | Microsoft Docs
+    title: How to Export VAT Statements in XML Format | Microsoft Docs
     description: You can export a VAT statement in XML format and then submit it electronically to the tax authorities.
     services: project-madeira
     documentationcenter: ''
@@ -22,14 +22,14 @@ You can export a VAT statement in XML format and then submit it electronically t
   
 ### To export a VAT statement in XML format  
   
-1.  In the **Search** box, enter **VAT Statement**, and then choose the appropriate link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Statement**, and then choose the appropriate link.  
   
 2.  Select the required VAT statement, and then, on the **Actions** tab, choose **Telematic VAT**, and then choose **Generate XML file**.  
   
     > [!IMPORTANT]  
     >  The VAT statement name must be of the template type **One Column Report**.  
     >   
-    >  In the standard version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the VAT statement name for the 392 telematic statement is of the type **One Column Report**.  
+    >  In the standard version of [!INCLUDE[d365fin](includes/d365fin_md.md)], the VAT statement name for the 392 telematic statement is of the type **One Column Report**.  
   
 3.  In the **XML VAT Declaration** window, on the **ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](../../includes/bp_optionsheading_md.md)]-->** FastTab, fill in the fields as described in the following table.  
   

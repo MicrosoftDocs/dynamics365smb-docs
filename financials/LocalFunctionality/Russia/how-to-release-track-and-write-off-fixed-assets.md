@@ -1,6 +1,6 @@
 ---
-    title: How to: Release, Track, and Write-Off Fixed Assets | Microsoft Docs
-    description: You can manage your fixed assets utilizing the fixed assets acts features in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. Fixed assets acts allow you to release, track, and write-off the fixed assets of your organization.
+    title: How to Release, Track, and Write-Off Fixed Assets | Microsoft Docs
+    description: You can manage your fixed assets utilizing the fixed assets acts features in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Fixed assets acts allow you to release, track, and write-off the fixed assets of your organization.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,13 +16,13 @@
 
 ---
 # How to: Release, Track, and Write-Off Fixed Assets
-You can manage your fixed assets utilizing the fixed assets acts features in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. Fixed assets acts allow you to release, track, and write-off the fixed assets of your organization.  
+You can manage your fixed assets utilizing the fixed assets acts features in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Fixed assets acts allow you to release, track, and write-off the fixed assets of your organization.  
   
  The first step to managing your fixed assets is to set up fixed assets numbering and source codes.  
   
 ### To set up fixed asset numbering  
   
-1.  In the **Search** box, enter **Fixed Asset Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Fixed Asset Setup**, and then choose the related link.  
   
 2.  On the **Numbering** FastTab, select a numbering series for each type of fixed asset transaction.  
   
@@ -30,7 +30,7 @@ You can manage your fixed assets utilizing the fixed assets acts features in [!I
   
 ### To set up fixed asset source codes  
   
-1.  In the **Search** box, enter **Source Code Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Source Code Setup**, and then choose the related link.  
   
 2.  On the **Fixed Assets** FastTab, select a source code for each type of fixed asset.  
   
@@ -41,7 +41,7 @@ You can manage your fixed assets utilizing the fixed assets acts features in [!I
   
 #### To release fixed assets into service  
   
-1.  In the **Search** box, enter **FA Release Act**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA Release Act**, and then choose the related link.  
   
 2.  On the **General** FastTab, fill in the fields as described in the following table.  
   
@@ -73,7 +73,7 @@ You can manage your fixed assets utilizing the fixed assets acts features in [!I
   
 #### To track the movement of fixed assets  
   
-1.  In the **Search** box, enter **FA Movement Act**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA Movement Act**, and then choose the related link.  
   
 2.  On the **General** FastTab, fill in the fields as described in the following table.  
   
@@ -109,7 +109,7 @@ You can manage your fixed assets utilizing the fixed assets acts features in [!I
   
 #### To write-off the value of a fixed asset  
   
-1.  In the **Search** box, enter **FA Writeoff Act**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA Writeoff Act**, and then choose the related link.  
   
 2.  On the **General** FastTab, fill in the fields as described in the following table.  
   

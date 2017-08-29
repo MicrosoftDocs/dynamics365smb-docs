@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Remittance Agreements | Microsoft Docs
+    title: How to Set Up Remittance Agreements | Microsoft Docs
     description: You must sign an agreement of remittance with the bank when you set up electronic payments. You can create more than one remittance agreement if you have an agreement with two or more banks. For each agreement, you must specify one or more accounts from which the payment should be made. For each account, you must create a remittance account. For more information, see [How to: Create Remittance Accounts](how-to-create-remittance-accounts.md).
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ You must sign an agreement of remittance with the bank when you set up electroni
   
 ### To set up a remittance agreement  
   
-1.  In the **Search** box, enter **Remittance Agreement Overview**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Remittance Agreement Overview**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **New** group, choose **New**.  
   

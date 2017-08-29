@@ -23,7 +23,7 @@ There are two main tasks in creating a segment:
 * Enter general information about the segment. Before you can select the contacts within the segment, you must first create the segment.
 * Select the contacts to be included within the segment.
 
-The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.
+The following table describes a sequence of tasks, with links to the topics that describe them. 
 
 | To | See |
 | --- | --- |

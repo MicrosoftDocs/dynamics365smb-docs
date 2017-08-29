@@ -1,6 +1,6 @@
 ---
-    title: How to: Set Up Declaration Types | Microsoft Docs
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], there are two types of declaration:
+    title: How to Set Up Declaration Types | Microsoft Docs
+    description: In [!INCLUDE[d365fin](includes/d365fin_md.md)], there are two types of declaration:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # How to: Set Up Declaration Types
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], there are two types of declaration:  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], there are two types of declaration:  
   
 -   Simplified declaration  
   
@@ -28,7 +28,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], there are two types of dec
   
 ### To set up declaration types  
   
-1.  In the **Search** box, enter **General Ledger Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Setup**, and then choose the related link.  
   
 2.  On the **General** FastTab, select the **Simplified Intrastat Decl.** check box to set up a simplified declaration type. Clear this field to use extended declaration.  
   

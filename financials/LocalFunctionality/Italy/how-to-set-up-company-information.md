@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Company Information | Microsoft Docs
+    title: How to Set Up Company Information | Microsoft Docs
     description: Fiscal documents must contain all company information. You can enter all relevant data in the **Company Information** window when setting up a company. This data will be included in all reports and fiscal documents.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ Fiscal documents must contain all company information. You can enter all relevan
   
 ### To set up company information  
   
-1.  In the **Search** box, enter **Company Information**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.  
   
 2.  Enter the information into the FastTabs as described in the following table.  
   

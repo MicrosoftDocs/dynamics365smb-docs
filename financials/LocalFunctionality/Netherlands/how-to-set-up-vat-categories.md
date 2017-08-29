@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up VAT Categories | Microsoft Docs
+    title: How to Set Up VAT Categories | Microsoft Docs
     description: To use the electronic VAT declaration, you must set up a VAT category code for all XML elements in the electronic VAT declaration.
     services: project-madeira
     documentationcenter: ''
@@ -22,13 +22,13 @@ To use the electronic VAT declaration, you must set up a VAT category code for a
   
 ### To set up a VAT category  
   
-1.  In the **Search** box, enter **Elec. Tax. Decl. VAT Categories**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Elec. Tax. Decl. VAT Categories**, and then choose the related link.  
   
 2.  In the **Elec. Tax. Decl. VAT Categories** window, on the **Home** tab, choose **New**.  
   
 3.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Code**|The unique code for each category and subcategory combination. You can enter a maximum of 10 alphanumeric characters.|  
     |**Category**|Specify the main category option for the VAT statement.|  

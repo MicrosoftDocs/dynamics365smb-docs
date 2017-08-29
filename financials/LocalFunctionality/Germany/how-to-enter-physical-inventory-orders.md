@@ -1,5 +1,5 @@
 ---
-    title: How to: Enter Physical Inventory Orders | Microsoft Docs
+    title: How to Enter Physical Inventory Orders | Microsoft Docs
     description: A physical inventory order is a complete document that consists of a physical inventory order header and some physical inventory order lines. The information on a physical inventory header describes how to take the physical inventory. You can fill in the header manually. You can create a physical inventory order and relate it to one or more physical inventory recordings.
     services: project-madeira
     documentationcenter: ''
@@ -24,7 +24,7 @@ A physical inventory order is a complete document that consists of a physical in
   
 ### To create a physical inventory order  
   
-1.  In the **Search** box, enter **Phys. Inventory Order**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Phys. Inventory Order**, and then choose the related link.  
   
 2.  On the **Home** tab, choose **New**.  
   
@@ -38,7 +38,7 @@ A physical inventory order is a complete document that consists of a physical in
     |**Order Date**|Sets the creation date for the physical inventory order.|  
     |**Posting Date**|Sets the posting date for the physical inventory order.|  
   
- You can add lines to the physical inventory order manually, or [!INCLUDE[d365fin](../../includes/d365fin_md.md)] can create new physical inventory order lines automatically. To create new physical inventory order lines automatically, you have two possibilities:  
+ You can add lines to the physical inventory order manually, or [!INCLUDE[d365fin](includes/d365fin_md.md)] can create new physical inventory order lines automatically. To create new physical inventory order lines automatically, you have two possibilities:  
   
 -   You can create new physical inventory order lines based on inventory items and item ledger entries.  
   

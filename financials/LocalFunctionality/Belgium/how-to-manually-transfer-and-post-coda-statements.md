@@ -1,5 +1,5 @@
 ---
-    title: How to: Manually Transfer and Post CODA Statements | Microsoft Docs
+    title: How to Manually Transfer and Post CODA Statements | Microsoft Docs
     description: After you have applied and processed all CODA statement lines, you can manually transfer the CODA statement lines to a financial journal. The financial journal lets you enter a starting balance and an ending balance and automatically calculate the difference between the two balances. Posting is not allowed if the statement line amounts do not balance with the statement ending balance.
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ After you have applied and processed all CODA statement lines, you can manually 
   
 ### To manually transfer and post statement lines  
   
-1.  In the **Search** box, enter **General Journal**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journal**, and then choose the related link.  
   
 2.  Select the journal, and then choose the **OK** button.  
   

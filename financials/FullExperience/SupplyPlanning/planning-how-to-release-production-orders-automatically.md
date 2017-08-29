@@ -1,5 +1,5 @@
 ---
-    title: How to: Release Production Orders Automatically | Microsoft Docs
+    title: How to Release Production Orders Automatically | Microsoft Docs
     description: With an automatic release, you can release several production orders at the same time.
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ With an automatic release, you can release several production orders at the same
   
 ### To release production orders automatically  
   
-1.  In the **Search** box, enter **Change Production Order Status**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Change Production Order Status**, and then choose the related link.  
   
 2.  In the **Status Filter** field, select **Firm Planned** to filter the production orders to be released.  
   

@@ -20,7 +20,7 @@ To help plan the satisfaction of service, you can use the **Dispatch Board**, wh
   
  In some cases, you may want to send notification to a customer stating that service is complete. There are two ways to do this: manually or by automating the process if it is attached to a job queue.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

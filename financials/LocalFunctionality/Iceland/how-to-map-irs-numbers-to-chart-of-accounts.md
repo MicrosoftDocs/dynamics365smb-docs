@@ -1,5 +1,5 @@
 ---
-    title: How to: Map IRS Numbers to Chart of Accounts | Microsoft Docs
+    title: How to Map IRS Numbers to Chart of Accounts | Microsoft Docs
     description: Companies in Iceland are required to send the tax authority a data file in a predefined format. Before you can do this, you must map predefined Internal Revenue Service (IRS) account codes to general ledger accounts.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ Companies in Iceland are required to send the tax authority a data file in a pre
   
 ### To create an Internal Revenue Service number  
   
-1.  In the **Search** box, enter **IRS Number**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **IRS Number**, and then choose the related link.  
   
 2.  On the **Home** tab, choose **New**.  
   
@@ -32,7 +32,7 @@ Companies in Iceland are required to send the tax authority a data file in a pre
   
 ### To map an IRS number to a general ledger account  
   
-1.  In the **Search** box, enter **Chart of Accounts**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Chart of Accounts**, and then choose the related link.  
   
 2.  Select a general ledger account that has an **Account Type** of **Posting**.  
   

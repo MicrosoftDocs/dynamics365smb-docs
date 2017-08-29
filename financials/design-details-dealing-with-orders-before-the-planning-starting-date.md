@@ -1,5 +1,5 @@
 ---
-    title: Design Details: Dealing with Orders Before the Planning Starting Date | Microsoft Docs
+    title: Design Details - Dealing with Orders Before the Planning Starting Date | Microsoft Docs
     description: To avoid that a supply plan shows impossible and therefore useless suggestions, the planning system regards the period up until the planning starting date a frozen zone where nothing is planned for. The following rule applies to the frozen zone:
     services: project-madeira
     documentationcenter: ''

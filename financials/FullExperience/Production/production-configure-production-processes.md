@@ -22,7 +22,7 @@ To convert material into produced end items, production resources, such as machi
   
  To learn how the established production resources are used in operations planning and execution, see [Plan for Resource Availability](../execute-production.md).  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

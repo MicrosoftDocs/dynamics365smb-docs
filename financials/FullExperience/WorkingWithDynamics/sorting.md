@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Sorting
 The sorting function makes it easy for you to get a quick overview of your data. A sorted list can be saved using the **Save View As…** functionality which is found by choosing the page title.  
   
@@ -50,7 +50,7 @@ The sorting function makes it easy for you to get a quick overview of your data.
 ## Sorting Lists and Journal Lines  
  The following example shows how to sort a list of customers by name.  
   
-1.  In the **Search** box, enter **Customers**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.  
   
 2.  Choose any column header, right-click the column, and select **Sort ascending** or **Sort descending**.  
   
@@ -59,7 +59,7 @@ The sorting function makes it easy for you to get a quick overview of your data.
 ## Sorting Document Lines  
  The following example shows how to sort lines on a sales order.  
   
-1.  In the **Search** box, enter **Sales Orders**, and then choose the related link. Select a sales order.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link. Select a sales order.  
   
 2.  On the sales order, choose the **Lines** FastTab, choose any column to sort on, right-click the column header, and select **Sort ascending** or **Sort descending**.  
   

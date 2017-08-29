@@ -1,5 +1,5 @@
 ---
-    title: How to: Create Report 347 | Microsoft Docs
+    title: How to Create Report 347 | Microsoft Docs
     description: All companies must provide an annual declaration, **Report 347**, to the tax authorities providing the sales and purchase transactions from the previous fiscal period.
     services: project-madeira
     documentationcenter: ''
@@ -24,7 +24,7 @@ All companies must provide an annual declaration, **Report 347**, to the tax aut
   
 ### To identify unapplied payments in cash  
   
-1.  In the **Search** box, enter **347**, and then choose the link for the **347 Declaration** area.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **347**, and then choose the link for the **347 Declaration** area.  
   
 2.  Under **Reports and Analysis**, choose **Unapplied Payments in Cash**.  
   
@@ -32,7 +32,7 @@ All companies must provide an annual declaration, **Report 347**, to the tax aut
   
 ### To create a Report 347 declaration  
   
-1.  In the **Search** box, enter **Make 347 Declaration**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Make 347 Declaration**, and then choose the related link.  
   
 2.  On the **Options** FastTab, fill in the fields. For more information, see Make 347 Declaration.  
   
@@ -42,7 +42,7 @@ All companies must provide an annual declaration, **Report 347**, to the tax aut
   
 ### To create 347 declaration labels  
   
-1.  In the **Search** box, enter **347 Declaration Labels**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **347 Declaration Labels**, and then choose the related link.  
   
 2.  On the **Options** FastTab, fill in the fields. For more information, see Declaration Labels.  
   

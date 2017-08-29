@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up an Intangible Assets Account | Microsoft Docs
+    title: How to Set Up an Intangible Assets Account | Microsoft Docs
     description: The intangible assets accounting feature allows you to post intangible assets to a special account called the Intangible Assets account. Intangible assets are non-monetary assets that cannot be physically measured. You can also include current expenses by using monthly depreciation.
     services: project-madeira
     documentationcenter: ''
@@ -22,14 +22,14 @@ The intangible assets accounting feature allows you to post intangible assets to
   
 ### To set up an intangible asset account  
   
-1.  In the **Search** box, enter **Fixed Assets**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Fixed Assets**, and then choose the related link.  
   
 2.  Select a fixed asset. In the **Fixed Asset Card** window, select **Intangible Asset** in the **FA Type** field.  
   
 3.  Purchase and release the intangible asset. For more information, see [How to: Purchase and Release Undepreciable Fixed Assets](how-to-purchase-and-release-undepreciable-fixed-assets.md).  
   
-4.  Print the **Receiving-Transmission Act** report. In the **Search** box, enter **Intq. FA Rec.-Tran. Act**, to print the unposted version of the report. Or, in the **Search** box, enter **Posted Intg. FA Rec.-Tran. Act** to print the posted version of the report.  
+4.  Print the **Receiving-Transmission Act** report. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intq. FA Rec.-Tran. Act**, to print the unposted version of the report. Or, Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Intg. FA Rec.-Tran. Act** to print the posted version of the report.  
   
-5.  Print a legal Intangible FA Card HMA-1 report. In the **Search** box, enter **Intangible FA Card HMA-1**, and then choose the related link.  
+5.  Print a legal Intangible FA Card HMA-1 report. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intangible FA Card HMA-1**, and then choose the related link.  
   
 6.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen. Choose the **Cancel** button to save the information without printing the report.

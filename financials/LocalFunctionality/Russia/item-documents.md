@@ -1,6 +1,6 @@
 ---
     title: Item Documents | Microsoft Docs
-    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] ../../includes several documents that you can use to manage your warehouse. This also ../../includes reports that you must submit for official reporting, such as the Item Report TORG-29, Items Receipt Act TORG-1, and Receipt Deviations TORG-2 reports.
+    description: [!INCLUDE[d365fin](includes/d365fin_md.md)] ../../includes several documents that you can use to manage your warehouse. This also ../../includes reports that you must submit for official reporting, such as the Item Report TORG-29, Items Receipt Act TORG-1, and Receipt Deviations TORG-2 reports.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # Item Documents
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] ../../includes several documents that you can use to manage your warehouse. This also ../../includes reports that you must submit for official reporting, such as the Item Report TORG-29, Items Receipt Act TORG-1, and Receipt Deviations TORG-2 reports.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] ../../includes several documents that you can use to manage your warehouse. This also ../../includes reports that you must submit for official reporting, such as the Item Report TORG-29, Items Receipt Act TORG-1, and Receipt Deviations TORG-2 reports.  
   
  The following types of documents are useful for managing your warehouse:  
   
@@ -29,7 +29,7 @@
 ## Setting Up Warehouse Document Numbering  
  The following procedure shows how to set up warehouse document numbering.  
   
-1.  In the **Search** box, enter **Inventory Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Inventory Setup**, and then choose the related link.  
   
 2.  On the **Numbering** FastTab, specify in the following fields the series of numbers for documents:  
   
@@ -44,7 +44,7 @@
 ## Creating an Item Receipt Act Without a Vendor  
  The following procedure shows how to create an item receipt act without a vendor.  
   
-1.  In the **Search** box, enter **Item Receipts**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Receipts**, and then choose the related link.  
   
 2.  In the header of the **Item Receipt** window, enter the fields described in the following table.  
   
@@ -100,7 +100,7 @@
 ## Analysis of a Posted Document Item Receipt Without a Vendor  
  The following procedure shows how to analyze a posted document item receipt without a vendor.  
   
-1.  In the **Search** box, enter **Posted Item Receipts**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Item Receipts**, and then choose the related link.  
   
     > [!NOTE]  
     >  The posted item receipt displays all the information from the item receipt.  
@@ -112,7 +112,7 @@
 ## Creating an Item Writing-Off Act  
  The following procedure shows how to create an item writing-off act.  
   
-1.  In the **Search** box, enter **Item Shipments**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Shipments**, and then choose the related link.  
   
 2.  On the header of the **Item Shipment** window, enter the fields. These fields are the same as those on the **Item Receipt** window.  
   
@@ -144,7 +144,7 @@
 ## Analysis of a Posted Document Item Writing-Off Act  
  The following procedure shows how to analyze a posted document item writing-off act.  
   
-1.  In the **Search** box, enter **Posted Item Shipments**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Item Shipments**, and then choose the related link.  
   
     > [!NOTE]  
     >  The posted item shipment displays all the information from the item shipment.  
@@ -156,21 +156,21 @@
 ## Report Transfer Order TORG-13 Based on an Unposted Transfer Document  
  The following procedure shows how to create a Transfer Order TORG-13 report based on transfer documents that are not posted.  
   
-1.  In the **Search** box, enter **Transfer Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Transfer Orders**, and then choose the related link.  
   
      On the **Actions** tab, in the **General** group, choose **Print**.  
   
 ## Report Transfer Order TORG-13 Based on a Posted Transfer Document - Transfer Receipt  
  The following procedure shows how to create a report based on a posted transfer document called a transfer receipt.  
   
-1.  In the **Search** box, enter **Posted Transfer Receipt**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Transfer Receipt**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **Print** group, choose **Print**.  
   
 ## Report Transfer Order TORG-13 Based on a Posted Transfer Document - Transfer Shipment  
  The following procedure shows how to create a report based on a posted transfer document called a transfer shipment.  
   
-1.  In the **Search** box, enter **Posted Transfer Shipments**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Transfer Shipments**, and then choose the related link.  
   
      On the **Home** tab, in the **Print** group, choose **Print**.  
   

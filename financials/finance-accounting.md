@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 07/21/2017
+ms.date: 08/28/2017
 ms.author: edupont
 
 ---
@@ -17,7 +17,7 @@ ms.author: edupont
 Any business must do its books and sign off on the accounting. Some businesses employ an external accountant, and others have an accountant on staff. No matter which type of accountant you are, you can use the **Accountant** Role Center as your Home in [!INCLUDE[d365fin](includes/d365fin_md.md)]. From here, you can access all windows that you need in your work.  
 
 ## Accountant Role Center
-The Role Center is a dashboard with activity tiles that show you real-time key figures and give you quick access to data. In the ribbon at the top of the window, you have access to more actions, such as opening the most commonly used financial reports and statements in Excel. In the navigation pane to the left, you can quickly switch between the lists you use most often. If you expand the **Home** menu in the navigation pane, you will see other areas, such as **Posted Documents** with the various types of documents that the company has posted.  
+The Role Center is a dashboard with activity tiles that show you real-time key figures and give you quick access to data. In the ribbon at the top of the window, you have access to more actions, such as opening the most commonly used financial reports and statements in Excel. In the navigation pane to the left, you can quickly switch between the lists you use most often. If you expand the **Home** menu in the navigation pane, you will see other areas, such as **Posted Documents** with the various types of documents that the company has posted.  
 
 If you are new to [!INCLUDE[d365fin](includes/d365fin_md.md)], you can launch a list of videos right from your Home page. You can also launch a **Getting Started** tour that points out key areas.  
 
@@ -27,17 +27,14 @@ If you are new to [!INCLUDE[d365fin](includes/d365fin_md.md)], you can launch a 
 ### Get Invited to a Client's [!INCLUDE[d365fin](includes/d365fin_md.md)]
 A company who use [!INCLUDE[d365fin](includes/d365fin_md.md)] can invite you to [!INCLUDE[d365fin](includes/d365fin_md.md)] as their external accountant. This requires that they have set up SMTP mail, so they might want to contact their [!INCLUDE[d365fin](includes/d365fin_md.md)] partner for assistance. For more information, see [Invite Your External Accountant](finance-invite-external-accountant.md). Also, we recommend that you give them the email address that you plan to use for your accounting work - that way, you can choose if you want to use *me@accountant.com* or *me@client.com*  
 
-As a result, you may receive two emails:
+As a result, you will receive email from your client with a link to their [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 
--   One from Microsoft Invitations with a link to add yourself to your client's organization  
--   One from your client with a link to their [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-
-You can then access their financial data from the **Accountant** Role Center. If you use the **Accountant Portal** extension, you can also add that client to your list of clients in the accountant portal dashboard.  
+You can then access their financial data from the **Accountant** Role Center. If you use the accountant portal, you can also add that client to your list of clients in the accountant portal dashboard.  
 
 ## Accountant Portal
 If you are an accountant with several clients, you can use the accountant portal as your dashboard for a better overview of your clients. From there, you can access each client's tenant in [!INCLUDE[d365fin](includes/d365fin_md.md)] and use the Accountant Role Center as described above.  
 
-The accountant portal is a dedicated version of [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can get access to the portal by signing up from [Financials for Accountants on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants), or by adding the [Accountant Portal extension](ui-extensions-accountant-portal.md) to your [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+The accountant portal is a dedicated version of [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can get access to the dashboard by signing up from [Financials for Accountants on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants).  
 
 > [!TIP]  
 >  When you sign up for the accountant portal, you must specify your work email address, such as *me@accountant.com*. We recommend that you use the same email address when you work in your clients' [!INCLUDE[d365fin](includes/d365fin_md.md)], so that you can easily switch between clients.  
@@ -50,37 +47,38 @@ The dashboard shows the most important information about each client.
 
 The **Company Name** column lists all companies that your clients have in [!INCLUDE[d365fin](includes/d365fin_md.md)], and the **Client Name** column shows the names of your clients. You can customize the dashboard to show the data points that you want to see by adding or removing columns. For example, you might want to see taxes that are due, how many open sales documents each client has, or the number of purchase invoices that are due next week. You can configure the view to suit your needs. If you have many clients, you can use filters to sort your view.  
 
-Next to the client name the three ellipses reveal a short menu:
+Next to the company name, the ellipsis (...) reveals a short menu:
 
 -   Refresh the current company and get fresh data for the client  
 -   Go to the client's company  
 -   Select more companies  
 
-Similarly, you can use the **Client Summary** drop-down menu to refresh all companies, for example.  
+Similarly, you can use the **Client Summary** drop-down menu to refresh all companies or open the currently selected company, for example.  
 
 #### Company Details
-You can see more information about your clients' data by choosing the name of the company that you want to learn more about. This opens the **Company Details** window, where you can see additional information, such as the following:  
+You can see more information about your clients' data by choosing the name of the company that you want to learn more about. This opens the **Company Details** pane, where you can see additional information, such as the following:  
 
 -   Cash account balances  
 -   Cash flow forecast  
 -   Overdue purchase invoices  
 -   Overdue sales invoices  
 
-All other work that you do for each client, you can do in the Accountant Role Center in their [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+[![Client company details in Accountant Hub ](./media/finance-accounting/accountant-company-details.png)
 
-In the **Company Details** window, you can see KPIs for the company, such as the following:
+Technically, you have now logged into your client's [!INCLUDE[d365fin](includes/d365fin_md.md)], and data you see is live data. If you want to take a closer look at the data, such as an overdue purchase invoice, choose the link, and you are taken to the client company.  
 
--   Cash account balances  
--   Cash flow forecast  
--   Overdue purchase invoices  
--   Overdue sales invoices  
+> [!TIP]  
+>  You can launch predefined Excel workbooks from the **Reports** tab in the ribbon. These Excel workbooks are designed to be ready to print key financial statements and reports, but you can also modify them to fit your needs. For more information, see [Analyzing Financial Statements in Microsoft Excel](finance-analyze-excel.md).  
 
-Technically, you have now logged into your client's [!INCLUDE[d365fin](includes/d365fin_md.md)], so you can use the Home menu in the left navigation pane to access other areas in your client's company. If you change the Role Center to the Accountant Role Center, you can pick up your usual work that you do for each client. For more information, see [How to: Change the Role Center](change-role.md).  
+Otherwise, close the details pane and continue to the next client.  
 
-Otherwise, go back to your accountant portal and continue to the next client. You can close the current browser tab with your client's [!INCLUDE[d365fin](includes/d365fin_md.md)] or leave it open while you continue work in the accountant portal.  
+#### Working in the Client Company
+If you want to do more work for a client, you can do this in the Accountant Role Center in their [!INCLUDE[d365fin](includes/d365fin_md.md)] - simply choose the **Go To Client** menu item, and you are logged in automatically.  
+
+In the client's company, you have view and modify the data that you need in your work. For more information, see the top of this page.
 
 > [!NOTE]  
->  If you do not intend to return to this client in a few minutes, we recommend that you close the browser tab. If you want to access the same client again, simply choose the **Go To Client** menu item - you are logged in automatically.  
+>  If you do not intend to return to this client in a few minutes, we recommend that you close the browser tab.  
 
 ### Adding Clients
 You can add a client by using the **Clients** window, which you can open by choosing the **Manage Clients** action in the ribbon. Simply choose **New** and then fill in the fields.  

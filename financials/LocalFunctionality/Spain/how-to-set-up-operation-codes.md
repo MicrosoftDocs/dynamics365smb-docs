@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Operation Codes | Microsoft Docs
+    title: How to Set Up Operation Codes | Microsoft Docs
     description: You can add as many operation codes as you want to the table. However, the operation codes C, D, and I already exist in Microsoft Dynamics NAV. For example, Credit Memos always have the operation code D. You cannot set up these values in the table because they are system-created codes. If you try to add them, Microsoft Dynamics NAV will return an error.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ You can add as many operation codes as you want to the table. However, the opera
   
 ### To set up operation codes  
   
-1.  In the **Search** box, enter **Operation Codes**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Operation Codes**, and then choose the related link.  
   
 2.  In the **Operation Codes** window, fill in the fields as described in the following table  
   
@@ -31,7 +31,7 @@ You can add as many operation codes as you want to the table. However, the opera
   
 ### To link operation codes to general product posting groups  
   
-1.  In the **Search** box, enter **Posting Groups**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posting Groups**, and then choose the related link.  
   
 2.  Choose **General Product Posting Groups**.  
   

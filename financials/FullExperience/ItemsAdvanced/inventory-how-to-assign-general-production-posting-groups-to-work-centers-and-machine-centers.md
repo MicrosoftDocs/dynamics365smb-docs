@@ -1,5 +1,5 @@
 ---
-    title: How to: Assign General Production Posting Groups to Work Centers and Machine Centers | Microsoft Docs
+    title: How to Assign General Production Posting Groups to Work Centers and Machine Centers | Microsoft Docs
     description: You must assign a general product posting group to each work center and machine center in order to set up capacity and subcontractor costing.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ You must assign a general product posting group to each work center and machine 
   
 ### To assign general production posting groups  
   
-1.  In the **Search** box, enter **Work Centers**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Work Centers**, and then choose the related link.  
   
 2.  Open the relevant **Work Center** card.  
   

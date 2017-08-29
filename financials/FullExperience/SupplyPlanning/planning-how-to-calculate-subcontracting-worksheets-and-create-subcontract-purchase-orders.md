@@ -1,5 +1,5 @@
 ---
-    title: How to: Calculate Subcontracting Worksheets and Create Subcontract Purchase Orders | Microsoft Docs
+    title: How to Calculate Subcontracting Worksheets and Create Subcontract Purchase Orders | Microsoft Docs
     description: The **Subcontracting Worksheet** window functions like the **Planning Worksheet** by calculating the needed supply, in this case purchase orders, which you review in the worksheet and then create with the **Carry Out Action Message** function.
     services: project-madeira
     documentationcenter: ''
@@ -23,7 +23,7 @@ The **Subcontracting Worksheet** window functions like the **Planning Worksheet*
   
 ### To calculate the subcontracting worksheet  
   
-1.  In the **Search** box, enter **Subcontracting Worksheet**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Subcontracting Worksheet**, and then choose the related link.  
   
 2.  To calculate the worksheet, on the **Actions** tab, in the **Functions** group, choose **Calculate Subcontracts**.  
   
@@ -35,7 +35,7 @@ The **Subcontracting Worksheet** window functions like the **Planning Worksheet*
   
 ### To create the subcontract purchase order  
   
-1.  In the **Search** box, enter **Subcontracting Worksheet**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Subcontracting Worksheet**, and then choose the related link.  
   
 2.  On the **Actions** tab, in the **Process** group, choose **Carry Out Action Message**.  
   

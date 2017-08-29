@@ -1,5 +1,5 @@
 ---
-    title: How to: Configure a Company with the RapidStart Wizard | Microsoft Docs
+    title: How to Configure a Company with the RapidStart Wizard | Microsoft Docs
     description: You can quickly configure a new company that you have created by using the ADD INCLUDE<!--[!INCLUDE[rim](../../includes/how-to-change-role-centers.md). Choose the RapidStart Profile ID.
     services: project-madeira
     documentationcenter: ''
@@ -45,7 +45,7 @@ You can quickly configure a new company that you have created by using the ADD I
   
 7.  Choose the **OK** button.  
   
-8.  To verify that the configuration information has been applied to the new company, in the **Search** box, enter **Company Information**, and then choose the related link.  
+8.  To verify that the configuration information has been applied to the new company, Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.  
   
      The **Company Information** window contains information that you have specified. Choose the **OK** button to close the window.  
   

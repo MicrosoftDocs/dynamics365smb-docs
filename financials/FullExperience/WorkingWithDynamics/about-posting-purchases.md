@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # About Posting Purchases
 In the **Posting** group on a purchase document, you can choose between the following posting functions:  
   

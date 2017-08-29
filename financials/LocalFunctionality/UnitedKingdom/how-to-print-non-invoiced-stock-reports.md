@@ -1,5 +1,5 @@
 ---
-    title: How to: Print Non-Invoiced Stock Reports | Microsoft Docs
+    title: How to Print Non-Invoiced Stock Reports | Microsoft Docs
     description: You can use the following reports for month-end reconciliation and auditing:
     services: project-madeira
     documentationcenter: ''
@@ -24,7 +24,7 @@ You can use the following reports for month-end reconciliation and auditing:
 
 ### To print non-invoiced stock reports  
 
-1.  In the **Search** box, enter **Stock Received not Invoiced** or **Stock Shipped not Invoiced**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Stock Received not Invoiced** or **Stock Shipped not Invoiced**, and then choose the related link.  
 
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
 

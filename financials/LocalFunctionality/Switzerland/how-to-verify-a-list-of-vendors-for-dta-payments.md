@@ -1,5 +1,5 @@
 ---
-    title: How to: Verify a List of Vendors for DTA Payments | Microsoft Docs
+    title: How to Verify a List of Vendors for DTA Payments | Microsoft Docs
     description: The DatenTrägerAustausch (DTA) payment journal report displays information for each payment line. You can also view comments in the comments column. The report ../../includes information about the number of postings, the highest posting amount, and the total amount in local and foreign currencies.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ The DatenTrägerAustausch (DTA) payment journal report displays information for 
   
 ### To verify a list of vendors for DTA payments  
   
-1.  In the **Search** box, enter **Payment Journals**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.  
   
 2.  In the **Batch Name** field, select the required journal batch.  
   

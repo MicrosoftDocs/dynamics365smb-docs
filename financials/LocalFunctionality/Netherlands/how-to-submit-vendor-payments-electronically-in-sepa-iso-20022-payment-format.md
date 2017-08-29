@@ -1,6 +1,6 @@
 ---
-    title: How to: Submit Vendor Payments Electronically in SEPA ISO 20022 Payment Format | Microsoft Docs
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create and submit Single Euro Payments Area (SEPA) ISO 20022 vendor payments electronically.
+    title: How to Submit Vendor Payments Electronically in SEPA ISO 20022 Payment Format | Microsoft Docs
+    description: In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can create and submit Single Euro Payments Area (SEPA) ISO 20022 vendor payments electronically.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,13 +16,13 @@
 
 ---
 # How to: Submit Vendor Payments Electronically in SEPA ISO 20022 Payment Format
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create and submit Single Euro Payments Area (SEPA) ISO 20022 vendor payments electronically.  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can create and submit Single Euro Payments Area (SEPA) ISO 20022 vendor payments electronically.  
   
  Before you can create and submit SEPA vendor payments, you must enable SEPA payments. For more information, see [How to: Activate SEPA Payments](how-to-activate-sepa-payments.md).  
   
 ### To submit vendor payments electronically in SEPA ISO 20022 payment format  
   
-1.  In the **Search** box, enter **Telebank-Bank Overview**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Telebank-Bank Overview**, and then choose the related link.  
   
 2.  Select the relevant bank account, and then, on the **Navigate** tab, in the **Telebank** group, choose **Proposal**.  
   
@@ -30,7 +30,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create and submit 
   
 4.  In the **Get Proposal Entries** batch job, on the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Currency Date**|Specify the currency date.|  
     |**Pmt. Discount Date**|Specify the payment discount date.|  

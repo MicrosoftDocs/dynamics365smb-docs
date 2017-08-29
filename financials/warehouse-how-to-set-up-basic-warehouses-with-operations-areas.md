@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/23/2017
+    ms.date: 08/29/2017
     ms.author: sgroespe
 
 ---
@@ -20,7 +20,10 @@ If internal operation areas such as production or assembly exist in basic wareho
 
 - **Inventory Movement** window.  
 - **Inventory Pick** window.  
-- **Inventory Put-away** window.  
+- **Inventory Put-away** window.
+
+> [!NOTE]
+> Even though the settings are called **Require Pick** and **Require Put-away**, you can still post receipts and shipments directly from the source business documents at location where you select these check boxes.  
 
 To use these windows with internal operations, such as to pick and move components to production, you must make some or all the following setup steps depending on how much control you need:  
 
@@ -28,7 +31,7 @@ To use these windows with internal operations, such as to pick and move componen
 - Define default bin structures for components and end items flowing to and from operation resources.  
 - Make to- and from- bins that are dedicated to specific operation resources to prevent the items from being picked for outbound documents.
 
-Bin codes that are set up on location cards define a default warehouse flow for certain activities, such as components in an assembly department. Additional functionality exists to make sure that when items are placed in a certain bin, they cannot be moved or picked to other activities. For more information, see the "To create dedicated component bins" section. 
+Bin codes that are set up on location cards define a default warehouse flow for certain activities, such as components in an assembly department. Additional functionality exists to make sure that when items are placed in a certain bin, they cannot be moved or picked to other activities. For more information, see the "To create dedicated component bins" section.
 
 The following procedures are based on setting up basic warehouse activities around a production area. The steps are similar for other operation areas, such as assembly, service management, and jobs.  
 

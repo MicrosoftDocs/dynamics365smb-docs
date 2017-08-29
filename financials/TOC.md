@@ -1,6 +1,7 @@
 # [Getting Started](index.md)
 ## [Minimum Requirements](financials-requirements.md)
 ## [Frequently Asked Questions](across-faq.md)
+## [Overview of Business Functionality](madeira-business-functionality.md)
 ## [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
 ## [Importing Business Data from Other Finance Systems](upload-data.md)
 ## [Getting Financials on Your Mobile Device](install-mobile-app.md)
@@ -19,21 +20,23 @@
 ## [Changing Basic Settings](ui-change-basic-settings.md)
 ## [How to: Change the Role Center](change-role.md)
 ## [Customizing Your Financials Experience](ui-experiences.md)
+## [Letting Financials Suggest Values](ui-let-system-suggest-values.md)
 ## [Printing a Report](ui-work-report.md#PrintReport)
 ## [Videos on Common Tasks](across-videos.md)
-## [Overview of Business Functionality](madeira-business-functionality.md)
-## [Overview of Supply Chain Functionality](madeira-supply-chain.md)
 ## [Languages of the Docs](about-languages.md)
 
 # [Setting Up Financials](setup.md)
 ## [Setting Up Finance](finance-setup-finance.md)
 ### [Defining Payment Methods](finance-payment-methods.md)
 ### [Setting Up Posting Groups](finance-posting-groups.md)
+### [How to: Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 ### [How to: Open a New Fiscal Year](finance-how-open-new-fiscal-year.md)
 ### [Setting Up Value-Added Tax](finance-setup-vat.md)
 ### [How to: Update Currency Exchange Rates](finance-how-update-currencies.md)
 ### [Setting Up the Chart of Accounts](finance-setup-chart-accounts.md)
 ### [Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md)
+### [How to: Set Up Cash Customers](finance-how-to-set-up-cash-customers.md)
+### [How to: Set Up Intrastat Reporting](finance-how-setup-report-intrastat.md)
 ## [Setting Up Banking](bank-setup-banking.md)
 ### [How to: Set Up Bank Accounts](bank-how-setup-bank-accounts.md)
 ### [How to: Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)
@@ -45,6 +48,8 @@
 ### [How to: Set Up Salespeople](sales-how-setup-salespeople.md)
 ### [How to: Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md)
 ### [How to: Send Documents by Email](ui-how-send-documents-email.md)
+### [How to: Verify VAT Registration Numbers](sales-how-to-verify-vat-registration-numbers.md)
+### [How to: Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md)
 ## [Setting Up Purchasing](purchasing-setup-purchasing.md)
 ### [How to: Register New Vendors](purchasing-how-register-new-vendors.md)
 ### [How to: Record Special Purchase Prices and Discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md)
@@ -54,7 +59,25 @@
 ### [How to: Set Up General Inventory Information](inventory-how-setup-general.md)
 ### [How to: Set Up Locations](inventory-how-setup-locations.md)
 ### [How to: Register New Items](inventory-how-register-new-items.md)
+### [How to: Set Up Stockkeeping Units](inventory-how-to-set-up-stockkeeping-units.md)
 ### [How to: Categorize Items](inventory-how-categorize-items.md)
+## [Setting Up Warehouse Management](warehouse-setup-warehouse.md)
+### [Design Details: Warehouse Overview](design-details-warehouse-overview.md)
+### [How to: Work with Responsibility Centers](inventory-responsibility-centers.md)
+### [How to: Set Up Bin Types](warehouse-how-to-set-up-bin-types.md)
+### [How to: Create Bins](warehouse-how-to-create-individual-bins.md)
+### [How to: Create Bin Contents](warehouse-how-to-set-up-bin-contents.md)
+### [How to: Set Up Put-away Templates](warehouse-how-to-set-up-put-away-templates.md)
+### [How to: Set Up Warehouse Employees](warehouse-how-to-set-up-warehouse-employees.md)
+### [How to: Set Up Locations to Use Bins](warehouse-how-to-set-up-locations-to-use-bins.md)
+### [How to: Convert Existing Locations to Warehouse Locations](warehouse-how-to-convert-existing-locations-to-warehouse-locations.md)
+### [How to: Set Up Basic Warehouses with Operations Areas](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)
+### [How to: Set Up Items and Locations for Directed Put-away and Pick](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md)
+### [How to: Count, Adjust, or Reclassify Inventory](inventory-how-count-adjust-reclassify.md)
+### [How to: Enable Automatic Breaking Bulk with Directed Put-away and Pick](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)
+### [How to: Enable Picking by FEFO](warehouse-picking-by-fefo.md)
+### [How to: Enable Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)
+### [How to: Restructure Warehouses](warehouse-how-to-restructure-warehouses.md)
 ## [Setting Up Project Management](projects-setup-projects.md)
 ### [How to: Set Up Resources](projects-how-setup-resources.md)
 ### [How to: Set Up Time Sheets](projects-how-setup-time-sheets.md)
@@ -64,10 +87,25 @@
 ### [How to: Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md)
 ### [How to: Set Up Fixed Asset Insurance](fa-how-setup-insurance.md)
 ### [How to: Set Up Fixed Asset Maintenance](fa-how-setup-maintenance.md)
-### [Depreciation Methods](fa-depreciation-methods.md)
+## [Setting Up Service Management](service-setup-service.md)
+### [How to: Set Up Standard Service Codes](service-how-setup-service-coding.md)
+### [How to: Set Up Fault Reporting](service-how-setup-fault-reporting.md)
+### [How to: Set Up Service Offerings](service-how-setup-service-offerings.md)
+### [How to: Set Up Troubleshooting](service-how-setup-troubleshooting.md)
+### [How to: Set Up Resource Allocation](service-how-setup-resource-allocation.md)
+### [How to: Set Up Pricing and Additional Costs for Services](service-how-setup-service-costs-pricing.md)
+### [How to: Set Up Service Items and Service Item Components](service-how-setup-service-items.md)
+### [How to: Set Up Work Hours and Service Hours](service-how-setup-work-service-hours.md)
+### [How to: Set Up Statuses for Service Orders and Repairs](service-order-repair-status.md)
+### [How to: Set Up a Loaner Program](service-how-setup-loaner-program.md)
+### [How to: Set Up Service Contracts](service-how-setup-service-contracts.md)
+## [Depreciation Methods](fa-depreciation-methods.md)
 ## [How to: Set up Email](madeira-how-setup-email.md)
 ## [How to: Create Number Series](ui-create-number-series.md)
 ## [How to: Set Up Extended Item Text](ui-how-define-ext-text.md)
+## [Setting Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)
+### [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)
+### [Setup Best Practices: Costing Methods](setup-best-practices-costing-method.md)
 
 # [Finance](finance.md)
 ## [Managing Receivables](receivables-manage-receivables.md)
@@ -76,11 +114,16 @@
 ### [How to: How to: Apply Customer Payments Manually](receivables-how-apply-sales-transactions-manually.md)  
 ### [How to: Collect Outstanding Balances](receivables-collect-outstanding-balances.md)
 ### [How to: Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)
+### [How to: Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 ## [Managing Payables](payables-manage-payables.md)
 ### [Making Payments](payables-make-payments.md)
 ### [Apply Payments Automatically and Reconcile Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ### [How to: How to: Reconcile Vendor Payments Manually](payables-how-apply-purchase-transactions-manually.md)
 ### [How to: Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)
+## [Invoicing Prepayments](finance-invoice-prepayments.md)
+### [How to: Set Up Prepayments](finance-set-up-prepayments.md)
+### [How to: Create Prepayment Invoices](finance-how-to-create-prepayment-invoices.md)
+### [How to: Correct Prepayments](finance-how-to-correct-prepayments.md)
 ## [Managing Bank Accounts](bank-manage-bank-accounts.md)
 ### [Applying Payments Automatically and Reconcile Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ### [How to: Reconcile Bank Accounts Separately](bank-how-reconcile-bank-accounts-separately.md)  
@@ -96,7 +139,7 @@
 ### [Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)
 ### [Defining and Allocating Costs](finance-define-and-allocate-costs.md)
 ### [Creating Cost Budgets](finance-create-cost-budgets.md)
-## [Managing Inventory Costs](finance-manage-inventory-costs)
+## [Managing Inventory Costs](finance-manage-inventory-costs.md)
 ### [About Inventory Costing](finance-learn-about-costing.md)
 ### [Setting Up Inventory Valuation and Costing](finance-set-up-inventory-valuation-and-costing.md)
 ### [How to: Revalue Inventory](inventory-how-revalue-inventory.md)
@@ -104,7 +147,7 @@
 ### [How to: Handle Inventory and Manufacturing Costs](finance-handle-inventory-and-manufacturing-costs.md)
 ### [How to: Update Standard Costs](finance-how-to-update-standard-costs.md)
 ### [Reporting Costs and Reconciling with the General Ledger](finance-report-costs-and-reconcile-with-the-general-ledger.md)
-### [Design Details: Inventory Costing](design-details-inventory-costing.md)]
+### [Design Details: Inventory Costing](design-details-inventory-costing.md)
 ## [Accountant Experiences in Financials](finance-accounting.md)
 ### [Inviting Your External Accountant to Your Financials](finance-invite-external-accountant.md)  
 ### [Accountant Portal Extension](ui-extensions-accountant-portal.md)  
@@ -112,12 +155,16 @@
 ## [Working with Dimensions](finance-dimensions.md)
 ## [How to: Create Budgets](finance-how-create-budgets.md)
 ## [How to: Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)
-## [How to: Reverse Journal Posting](finance-how-reverse-journal-posting.md)
+## [How to: Reverse Postings](finance-how-reverse-journal-posting.md)
+## [How to: Allocate Costs and Income](year-allocate-costs-income.md)
 ## [How to: Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)
 ## [How to: Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)
 ## [How to: Defer Revenues and Expenses](finance-how-defer-revenue-expenses.md)
 ## [How to: Import Payroll Transactions](finance-how-import-payroll-transactions.md)
 ## [How to: Report VAT to Tax Authorities](finance-how-report-vat.md)
+## [How to: Work with VAT on Sales and Purchases](finance-work-with-vat.md)
+## [How to: Convert Service Contracts that Include VAT Amounts](service-how-to-convert-service-contracts.md)
+## [Analyzing Financial Statements in Excel](finance-analyze-excel.md)
 ## [Analyzing Cash Flows in Your Company](finance-analyze-cash-flow.md)
 ## [Closing Years and Periods](year-close-years-periods.md)
 ### [How to: Specify Posting Periods](finance-how-specify-posting-periods.md)
@@ -128,6 +175,7 @@
 ### [Preparing Pre-Closing Reports](year-prepare-preclose-reports.md)
 ### [Closing Books](year-close-books.md)
 ### [Preparing Closing Statements](year-prepare-close-statement.md)
+### [How to: Report VAT to Tax Authorities](finance-how-report-vat.md)|
 
 # [Business Intelligence](bi.md)
 ## [How to: Analyze Actual Amounts Versus Budgeted Amounts](bi-how-analyze-actual-versus-budget.md)
@@ -135,6 +183,7 @@
 ## [How to: Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)
 ## [How to: Create Analysis Reports](bi-how-create-analysis-views-reports.md)
 ## [How to: Set Up and Publish KPI Web Services Based on Account Schedules]
+## [How to: Create Reports with XBRL](bi-create-reports-with-xbrl.md)
 
 # [Sales](sales-manage-sales.md)
 ## [How to: Make Offers](sales-how-make-offers.md)
@@ -142,18 +191,22 @@
 ## [How to: Sell Products](sales-how-sell-products.md)
 ## [How to: Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)
 ## [How to: Make Drop Shipments](sales-how-drop-shipment.md)
+## [How to: Create Special Orders](sales-how-to-create-special-orders.md)
 ## [How to: Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md)
 ## [How to: Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md)
-## How to: Work with Blanket Sales Orders
-## How to: Receive Prepayments from Customers
+## [How to: Work with Blanket Sales Orders](sales-how-to-create-blanket-sales-orders.md)
+## [How to: Combine Shipments on a Single Invoice](sales-how-to-combine-shipments-on-a-single-invoice.md)
+## [How to: Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)
+## [How to: Track Packages](sales-how-track-packages.md)
 
 # [Purchasing](purchasing-manage-purchasing.md)
 ## [How to: Record Purchases](purchasing-how-record-purchases.md)
+## [How to: Request Quotes](purchasing-how-request-quotes.md)
 ## [How to: Purchase Items for a Sale](purchasing-how-purchase-products-sale.md)
 ## [How to: Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)
+## [How to: Combine Receipts on a Single Invoice](purchasing-how-to-combine-receipts.md)
 ## [How to: Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md)
-## How to: Work with Blanket Purchase Orders
-## How to: Make Prepayments to Vendors
+## [Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)
 
 # [Inventory](inventory-manage-inventory.md)
 ## [How to: Register New Items](inventory-how-register-new-items.md)
@@ -164,14 +217,9 @@
 ## [How to: Count, Adjust, and Reclassify Inventory](inventory-how-count-adjust-reclassify.md)
 ## [How to: View the Availability of Items](inventory-how-availability-overview.md)
 ## [How to: Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)
-
-# [Relationship Management](marketing-relationship-management.md)
-## [Setting Up Relationship Management](marketing-setup-marketing.md)
-## [Managing Contacts](marketing-contacts.md)
-## [Managing Segments](marketing-segments.md)
-## [Recording Interactions](marketing-interactions.md)
-## [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)
-## [Managing Your Customer Relationships Using Dynamics 365 for Sales from Inside Financials](marketing-integrate-dynamicscrm.md)
+## [How to: Reserve Items](inventory-how-to-reserve-items.md)
+## [How to: Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)
+## [How to: Work with Responsibility Centers](inventory-responsibility-centers.md)
 
 # [Project Management](projects-manage-projects.md)
 ## [How to: Create Jobs](projects-how-create-jobs.md)
@@ -184,6 +232,17 @@
 ## [How to: Monitor Job Progress and Performance](projects-how-monitor-progress-performance.md)
 ## [How to: Invoice Jobs](projects-how-invoice-jobs.md)
 
+# [Assembly Management](assembly-assemble-items.md)
+## [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md)
+## [How to: Quote an Assemble-to-Order Sale](assembly-how-to-quote-an-assemble-to-order-sale.md)
+## [How to: Assemble Items](assembly-how-to-assemble-items.md)
+## [How to: Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md)
+## [How to: Sell Inventory Items in Assemble-to-Order Flows](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md)
+## [How to: Sell Assemble-to-Order Items and Inventory Items Together](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)
+## [How to: Undo Assembly Posting](assembly-how-to-undo-assembly-posting.md)
+## [How to: Work with Bills of Material](inventory-how-work-BOMs.md)
+## ## [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)
+
 # [Fixed Assets](fa-manage.md)
 ## [How to: Acquire Fixed Assets](fa-how-acquire.md)
 ## [How to: Maintain Fixed Assets](fa-how-maintain.md)
@@ -194,24 +253,96 @@
 ## [How to: Dispose of or Retire Fixed Assets](fa-how-dispose-retire.md)
 ## [How to: Manage Budgets for Fixed Assets](fa-how-manage-budgets.md)
 
+# [Relationship Management](marketing-relationship-management.md)
+## [Setting Up Relationship Management](marketing-setup-marketing.md)
+## [Managing Contacts](marketing-contacts.md)
+## [Managing Segments](marketing-segments.md)
+## [Recording Interactions](marketing-interactions.md)
+## [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)
+## [Managing Your Customer Relationships Using Dynamics 365 for Sales from Inside Financials](marketing-integrate-dynamicscrm.md)
+
 # [Human Resources](hr-manage-human-resources.md)
 ## [How to: Register Employees](hr-how-register-employees.md)
+## [How to: Manage Employee Absence](hr-how-manage-absence.md)
 
-# General Business Functionality
-## [How to: Send Documents by Email](ui-how-send-documents-email.md)
+# [Warehouse Management](warehouse-manage-warehouse.md)
+## [How to: Receive Items](warehouse-how-receive-items.md)
+## [How to: Cross-Dock Items](warehouse-how-to-cross-dock-items.md)
+## [Putting Items Away](warehouse-put-away-items.md)
+## [Moving Items](warehouse-move-items.md)
+## [Picking Items](warehouse-pick-items.md)
+## [How to: Ship Items](warehouse-how-ship-items.md)
+
+# Manufacturing
+## How to: Plan for Production Availability
+## How to: Forecast for Sales and Production
+## How to: Perform Master Planning
+## How to: Material Requirements Planning
+## How to: Communicate Production Plans
+## How to: Schedule Production Processes
+## How to: Issue Materials
+## How to: Execute Production
+
+# [Service Management](service-service.md)
+## [Planning Service](service-plan-service.md)
+### [Managing Service Price](service-service-price-management.md)
+### [How to: Create Service Items](service-how-to-create-service-items.md)
+### [Understanding Service Order and Repair Status](service-service-order-status-and-repair-status.md)
+### [Understanding Allocation Status and Repair Status](service-allocation-status-and-repair-status.md)
+## [Fulfilling Service Contracts](service-fulfill-service-contracts.md)
+### [Multiple Contracts](service-multiple-contracts.md)
+### [How to: Work with Service Contracts and Service Contract Quotes](service-how-to-create-service-contracts-and-service-contract-quotes.md)
+### [How to: Change the Annual Amount on a Service Contract or Contract Quote](service-how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)
+## [Delivering Service](service-deliver-service)
+### [How to: Create Service Quotes](service-how-to-create-service-quotes.md)
+### [How to: Create a Service Order](service-how-to-create-service-orders.md)
+### [How to: Allocate Resources](service-how-to-allocate-resources.md)
+### [How to: Work on Service Tasks](service-how-to-work-on-service-tasks.md)
+### [Posting in Service Management](service-service-posting.md)
+### [How to: Post Service Orders and Credit Memos](service-how-to-post-service-orders.md)
+### [How to: Invoice Customers for Services](service-how-create-invoices.md)
+
+# [General Business Functionality](ui-across-business-areas.md)
+## [How to: Set Up Extended Item Text](ui-how-define-ext-text.md)
 ## [Working with General Journals](ui-work-general-journals.md)
+## [How to: Send Documents by Email](ui-how-send-documents-email.md)
 ## [Working with Reports](ui-work-report.md)
-### [Managing Report and Document Layouts](ui-manage-report-layouts.md)
-## [How to: Manage Users and Permissions](ui-how-users-permissions.md)
+## [Managing Report and Document Layouts](ui-manage-report-layouts.md)
 ## [Logging Changes in Financials](across-log-changes.md)
-## [How to: Create Number Series](ui-create-number-series.md)
+## [How to: Manage Users and Permissions](ui-how-users-permissions.md)
+## [Customizing Financials Using Extensions](ui-extensions.md)
 ## [Incoming Documents](across-income-documents.md)
 ### [How to: Set Up Incoming Documents](across-how-setup-income-documents.md)
 ### [Processing Incoming Documents](across-process-income-documents.md)
+<<<<<<< HEAD
 ## [Workflow](workflow.md)
 ### [Setting Up Workflows](set-up-workflows)
 ### [Using Workflows](use-workflows)
 ## [Defining User Tasks](across-user-tasks.md)
+=======
+## [Workflow](across-workflow.md)
+### [Setting Up Workflows](across-set-up-workflows.md)
+### [Using Workflows](across-use-workflows.md)
+## [Exchanging Data as Electronic Documents ](across-data-exchange.md)
+### [About the Data Exchange Framework](across-about-the-data-exchange-framework.md)
+### [Setting Up Data Exchange](across-set-up-data-exchange.md)
+### [Exchanging Data](across-exchange-data.md)
+
+# [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)
+## [Walkthrough: Synchronizing Information Between Outlook and Financials](walkthrough-synchronizing-information-between-outlook-and-microsoft-dynamics-nav.md)
+## [Walkthrough: Conducting a Sales Campaign](walkthrough-conducting-a-sales-campaign.md)
+## [Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
+## [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
+## [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)
+## [Walkthrough: Receiving and Putting Away in advanced warehouse configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
+## [Walkthrough: Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)
+## [Walkthrough: Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md)
+## [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)
+## [Walkthrough: Walkthrough: Managing Projects with Jobs](walkthrough-managing-projects-with-jobs.md)
+## [Walkthrough: Walkthrough: Calculating Work in Process for a Job](walkthrough-calculating-work-in-process-for-a-job.md)
+## [Walkthrough: Picking and Shipping in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)
+## [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)
+>>>>>>> Update10
 
 # [Design Details](design-details-application-design.md)
 ## [Design Details: Dimension Set Entries](design-details-dimension-set-entries.md)
@@ -221,38 +352,8 @@
 ## [Design Details: Item Tracking](design-details-item-tracking.md)
 ## [Design Details: General Journal Post Line](design-details-general-journal-post-line.md)
 
-# [Business Process walkthroughs]()
-
 # Local Functionality
 ## [Canada](LocalFunctionality/Canada/canada-local-functionality.md)
 ## [Denmark](LocalFunctionality/Denmark/denmark-local-functionality.md)
 ## [United Kingdom](LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.md)
 ## [United States](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
-
-# Full Experience
-## Business Intelligence (FULL)
-### [How to: Create Reports with XBRL](FullExperience/bi-create-reports-with-xbrl.md)
-
-## Manufacturing (FULL)
-### How to: Plan for Production Availability
-### How to: Forecast for Sales and Production
-### How to: Perform Master Planning
-### How to: Material Requirements Planning
-### How to: Communicate Production Plans
-### How to: Schedule Production Processes
-### How to: Issue Materials
-### How to: Execute Production
-
-## Warehousing (FULL)
-### How to: Receive Items
-### How to: Put Items Away
-### How to: Assemble Items
-### How to: Move Items
-### How to: Pick Items
-### How to: Ship Items
-
-## Service Management (FULL)
-### How to: Plan Service
-### How to: Fulfill Service Contracts
-### How to: Handle Customer Inquiries
-### How to: Deliver Service

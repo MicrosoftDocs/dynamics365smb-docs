@@ -1,5 +1,5 @@
 ---
-    title: How to: View the Service Email Queue | Microsoft Docs
+    title: How to View the Service Email Queue | Microsoft Docs
     description: When the status of service orders is updated to **Finished**, and the customer in the order is to be notified by email message, an entry is added to the service email queue. If you have set up a job queue to send email messages, the messages are sent to the customers.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ When the status of service orders is updated to **Finished**, and the customer i
   
 ### To view the service email queue  
   
--   In the **Search** box, enter **View E-Mail Queue**, and then choose the related link.  
+-   Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **View E-Mail Queue**, and then choose the related link.  
   
      In the list, you can see the status of each entry in the queue and the relevant subject line of the email message that will be sent.  
   

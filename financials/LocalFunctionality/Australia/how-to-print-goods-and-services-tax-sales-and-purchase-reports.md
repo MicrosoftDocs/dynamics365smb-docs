@@ -1,5 +1,5 @@
 ---
-    title: How to: Print Goods and Services Tax Sales and Purchase Reports | Microsoft Docs
+    title: How to Print Goods and Services Tax Sales and Purchase Reports | Microsoft Docs
     description: You can create reports of goods and services tax (GST) for purchases and sales from the **BAS Calc. Schedule List** window. Goods and Services Tax (GST) is the tax applied on most goods and services bought and sold in Australia.
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ You can create reports of goods and services tax (GST) for purchases and sales f
   
 ### To print GST sales and purchase reports  
   
-1.  In the **Search** box, enter **BAS Calculation Sheets**, and then choose the relevant link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **BAS Calculation Sheets**, and then choose the relevant link.  
   
 2.  Choose the appropriate BAS calculation sheet, and then, on the **Actions** tab, choose **GST Sales Report** or choose **GST Purchase Report**.  
   

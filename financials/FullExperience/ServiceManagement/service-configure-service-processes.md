@@ -1,6 +1,6 @@
 ---
     title: Configure Service Processes | Microsoft Docs
-    description: Service management in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] has features to help you configure and set up your service management system. Use these tools to set defaults, numbering series, and the required fields that you want a customer service representative to fill in. The information stored in the underlying tables determines how to manage certain aspects of the service management activities.
+    description: Service management in [!INCLUDE[d365fin](includes/d365fin_md.md)] has features to help you configure and set up your service management system. Use these tools to set defaults, numbering series, and the required fields that you want a customer service representative to fill in. The information stored in the underlying tables determines how to manage certain aspects of the service management activities.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,13 +16,13 @@
 
 ---
 # Configure Service Processes
-Service management in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] has features to help you configure and set up your service management system. Use these tools to set defaults, numbering series, and the required fields that you want a customer service representative to fill in. The information stored in the underlying tables determines how to manage certain aspects of the service management activities.  
+Service management in [!INCLUDE[d365fin](includes/d365fin_md.md)] has features to help you configure and set up your service management system. Use these tools to set defaults, numbering series, and the required fields that you want a customer service representative to fill in. The information stored in the underlying tables determines how to manage certain aspects of the service management activities.  
   
  In addition, you can establish coding for standard services, symptom, and fault codes, and set up service item types that your company's customer service needs require.  
   
  When you define a service, you can associate it with the skills required to perform the service. To help your service representatives be efficient, you can also set up real time troubleshooting guidelines and assign typical startup costs, such as travel costs or other fees.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

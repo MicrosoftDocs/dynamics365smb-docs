@@ -1,5 +1,5 @@
 ---
-    title: How to: Export VAT Transactions Reports | Microsoft Docs
+    title: How to Export VAT Transactions Reports | Microsoft Docs
     description: After you create a report, you can release it, and then export it for the authorities. To change the report, make sure that the Modify Submitted Reports check box is enabled in the VAT Report Setup window. If it is not, to change the report when you want to correct an error, you will have to create a new report, add the report with the error in the original report number, and then create a corrective report. For more information, see [How to: Correct VAT Transactions Reports](how-to-correct-vat-transactions-reports.md).
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ After you create a report, you can release it, and then export it for the author
   
 ### To export and submit a VAT transaction report  
   
-1.  In the **Search** box, enter **VAT Reports**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Reports**, and then choose the related link.  
   
 2.  Select an existing report or create a new report:  
   
@@ -37,7 +37,7 @@ After you create a report, you can release it, and then export it for the author
   
 4.  On the **Home** tab, in the **Process** group, choose **Release**. The **Status** field is updated to Released.  
   
-     [!INCLUDE[d365fin](../../includes/d365fin_md.md)] validates that the VAT report is valid and ready for submission. If the validation fails, the errors are shown in the **VAT Report Error Log** window so that you can make the appropriate changes.  
+     [!INCLUDE[d365fin](includes/d365fin_md.md)] validates that the VAT report is valid and ready for submission. If the validation fails, the errors are shown in the **VAT Report Error Log** window so that you can make the appropriate changes.  
   
      After you release a VAT report, you cannot edit it. If you have to change the report after it is released, you have to first reopen it. On the **Home** tab, in the **Process** group, choose **Reopen**.  
   

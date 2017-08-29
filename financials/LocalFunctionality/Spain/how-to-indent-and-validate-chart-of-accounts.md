@@ -1,5 +1,5 @@
 ---
-    title: How to: Indent and Validate Chart of Accounts | Microsoft Docs
+    title: How to Indent and Validate Chart of Accounts | Microsoft Docs
     description: You can indent and validate the chart of accounts in the **G/L Account Card** window. You can enter a maximum of 20 numbers. Accounts are sorted in string order, as shown in the following example.
     services: project-madeira
     documentationcenter: ''
@@ -36,7 +36,7 @@ You can indent and validate the chart of accounts in the **G/L Account Card** wi
   
 ### To indent and validate the chart of accounts  
   
-1.  In the **Search** box, enter **Chart of Accounts**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Chart of Accounts**, and then choose the related link.  
   
 2.  To open the **G/L Account Card** window, choose **New**.  
   

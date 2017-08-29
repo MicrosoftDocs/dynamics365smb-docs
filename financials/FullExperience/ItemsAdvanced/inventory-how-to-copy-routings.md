@@ -1,5 +1,5 @@
 ---
-    title: How to: Copy Routings | Microsoft Docs
+    title: How to Copy Routings | Microsoft Docs
     description: You can copy routings. This is useful for long routings or when slight changes are to be made. You can copy an existing version of a routing into a new or existing one. The copy function deletes old lines in the current routing.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ You can copy routings. This is useful for long routings or when slight changes a
   
 ### To copy routings  
   
-1.  In the **Search** box, enter **Routings**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Routings**, and then choose the related link.  
   
 2.  If you want to create a new routing, fill in the **No.** field of the new routing.  
   

@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up VAT Ledgers | Microsoft Docs
+    title: How to Set Up VAT Ledgers | Microsoft Docs
     description: VAT ledgers are used to store details about VAT in transactions that involve goods and services in Russia or goods imported into Russia. You can create and store different kinds of VAT ledgers. For example, you can create VAT ledgers for:
     services: project-madeira
     documentationcenter: ''
@@ -28,7 +28,7 @@ VAT ledgers are used to store details about VAT in transactions that involve goo
   
 ### To set up VAT ledgers  
   
-1.  In the **Search** box, enter **General Ledger Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Setup**, and then choose the related link.  
   
 2.  In the **General Ledger Setup** window, on the **Numbering** Fast Tab, fill in the fields as described in the following table.  
   
@@ -39,13 +39,13 @@ VAT ledgers are used to store details about VAT in transactions that involve goo
   
      You must ensure that vendor purchase documents cannot be posted without stating the invoice date and number.  
   
-3.  In the **Search** box, enter **Vendor Posting Groups**, and then choose the related link.  
+3.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendor Posting Groups**, and then choose the related link.  
   
 4.  In the **Vendor Posting Groups** window, for the relevant posting groups, select the **VAT Invoice Mandatory** field.  
   
      Next, you must set up VAT posting. For each VAT posting setup you must specify if entries that use the setup must be included in VAT ledgers.  
   
-5.  In the **Search** box, enter **VAT Posting Setup**, and then choose the related link.  
+5.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Posting Setup**, and then choose the related link.  
   
 6.  In the **VAT Posting Setup** window, for each VAT posting setup, fill in the fields as described in the following table.  
   

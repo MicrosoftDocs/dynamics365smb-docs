@@ -48,6 +48,6 @@ You apply employee payments to their related open employee ledger entries in the
 ## See Also
 [How to: Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)  
 [Working with General Journals](ui-work-general-journals.md)  
-[How to: Reverse Journal Posting](finance-how-reverse-journal-posting.md)  
+[How to: Reverse Postings](finance-how-reverse-journal-posting.md)  
 [Finance](finance.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

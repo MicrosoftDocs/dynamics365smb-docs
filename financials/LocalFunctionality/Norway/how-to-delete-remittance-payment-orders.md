@@ -1,5 +1,5 @@
 ---
-    title: How to: Delete Remittance Payment Orders | Microsoft Docs
+    title: How to Delete Remittance Payment Orders | Microsoft Docs
     description: Orders can be deleted if they are managed in full and are in a closed financial year. An order is managed in full if no payments in the **Waiting Journal** window have a status of **Sent** or **Approved**.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ Orders can be deleted if they are managed in full and are in a closed financial 
   
 ### To delete a remittance payment order  
   
-1.  In the **Search** box, enter **Delete rem. payment order**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Delete rem. payment order**, and then choose the related link.  
   
 2.  In the **Delete rem. payment order** window, fill in the fields as described in the following table.  
   

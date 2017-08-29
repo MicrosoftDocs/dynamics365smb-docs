@@ -1,5 +1,5 @@
 ---
-    title: How to: Test Domiciliations | Microsoft Docs
+    title: How to Test Domiciliations | Microsoft Docs
     description: To test the domiciliation journal lines, you can use the **Domiciliation Journal - Test** report. This report prints an overview of all journal lines along with any errors such as missing fields or incorrect bank accounts. You have to correct all errors before you can post the lines.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ To test the domiciliation journal lines, you can use the **Domiciliation Journal
   
 ### To print a domiciliation test report  
   
-1.  In the **Search** box, enter **Domiciliation Journal**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Domiciliation Journal**, and then choose the related link.  
   
 2.  In the **Batch Name** field, select the required journal batch.  
   

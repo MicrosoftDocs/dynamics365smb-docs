@@ -1,5 +1,5 @@
 ---
-    title: How to: Issue Vendor Payments and Customer Bills | Microsoft Docs
+    title: How to Issue Vendor Payments and Customer Bills | Microsoft Docs
     description: The vendor and customer bill pay feature supports SEPA-based formats in addition to Italian file formats. You can pay vendors according to the SEPA Credit Transfer standard and collect payment from customers according to the SEPA Direct Debit standard. The following procedure describes the process for sending a SEPA-based payment to a vendor. The steps are similar for collecting payment from a customer.
     services: project-madeira
     documentationcenter: ''
@@ -32,7 +32,7 @@ The vendor and customer bill pay feature supports SEPA-based formats in addition
   
 ### To issue payment to a vendor  
   
-1.  In the **Search** box, enter **Vendors**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.  
   
 2.  Select the vendor to which you want to send payment. On the **Payment** FastTab, in the **Payment Method Code** field, choose, **TRASFBANC**. On the **Navigate** tab, in the **Vendor** group, choose **Bank Accounts**.  
   
@@ -40,7 +40,7 @@ The vendor and customer bill pay feature supports SEPA-based formats in addition
   
      Choose the **OK** button.  
   
-4.  In the **Search** box, enter **Vendor Bill Card**, and then choose the related link.  
+4.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendor Bill Card**, and then choose the related link.  
   
 5.  On the **Home** tab, in the **Manage** group, choose **New**.  
   
@@ -50,7 +50,7 @@ The vendor and customer bill pay feature supports SEPA-based formats in addition
   
 8.  On the **Home** tab, in the **Process** group, choose **Create List**. Choose the **Yes** button to send the bill payment.  
   
-9. In the **Search** box, enter **Vendor Bill List Issued**, and select bill payment that you issued from the list. On the **Home** tab, choose **Edit**. The **Vendor Bill List Sent Card** window opens.  
+9. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendor Bill List Issued**, and select bill payment that you issued from the list. On the **Home** tab, choose **Edit**. The **Vendor Bill List Sent Card** window opens.  
   
 10. To export the payment information, on the **Home** tab, in the **Report** group, chose one of the following: **Export Bill List to File**. You can review the xml file that was sent.  
   

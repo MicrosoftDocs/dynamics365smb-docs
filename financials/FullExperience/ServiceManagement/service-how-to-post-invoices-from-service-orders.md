@@ -1,5 +1,5 @@
 ---
-    title: How to: Post Invoices from Service Orders | Microsoft Docs
+    title: How to Post Invoices from Service Orders | Microsoft Docs
     description: The following procedure describes how to define the part of service that you will charge the customer for.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ The following procedure describes how to define the part of service that you wil
   
 ### To post an invoice from a service order  
   
-1.  In the **Search** box, enter **Service Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Orders**, and then choose the related link.  
   
 2.  Select the service order that you want to invoice and open the order card.  
   

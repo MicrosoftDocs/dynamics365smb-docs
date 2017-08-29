@@ -1,6 +1,6 @@
 ---
     title: Electronic Banking in Norway | Microsoft Docs
-    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] ../../includes Norwegian enhancements to electronic banking. You can use this functionality to perform the following operations:
+    description: [!INCLUDE[d365fin](includes/d365fin_md.md)] ../../includes Norwegian enhancements to electronic banking. You can use this functionality to perform the following operations:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # Electronic Banking in Norway
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] ../../includes Norwegian enhancements to electronic banking. You can use this functionality to perform the following operations:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] ../../includes Norwegian enhancements to electronic banking. You can use this functionality to perform the following operations:  
   
 -   Receive electronic payments based on an optical character recognition (OCR) payment ID.  
   

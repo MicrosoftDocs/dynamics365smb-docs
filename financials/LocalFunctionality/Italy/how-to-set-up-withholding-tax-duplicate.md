@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Withholding Tax | Microsoft Docs
+    title: How to Set Up Withholding Tax | Microsoft Docs
     description: Companies must pay withholding tax to the government for third-party services and vendor purchases. Withholding tax is calculated during invoice payment rather than during invoice posting.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ Companies must pay withholding tax to the government for third-party services an
   
 ### To set up withholding tax codes  
   
-1.  In the **Search** box, enter **Withhold Tax**, and then choose the link for the **Setup** area for payables.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Withhold Tax**, and then choose the link for the **Setup** area for payables.  
   
 2.  Under **Lists**, choose **Code**.  
   
@@ -38,7 +38,7 @@ Companies must pay withholding tax to the government for third-party services an
   
 ### To set up withholding tax for vendors  
   
-1.  In the **Search** box, enter **Vendors**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.  
   
 2.  Select the relevant vendor, and then, on the **Home** tab, in the **Manage** group, choose **Edit**.  
   
@@ -58,7 +58,7 @@ Companies must pay withholding tax to the government for third-party services an
   
 ### To calculate withholding tax for purchase invoices  
   
-1.  In the **Search** box, enter **Purchase Invoices**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoices**, and then choose the related link.  
   
 2.  Select the relevant purchase invoice, and then on the **Home** tab, in the **Manage** group, choose **Edit**.  
   
@@ -72,7 +72,7 @@ Companies must pay withholding tax to the government for third-party services an
   
 ### To make a vendor payment  
   
-1.  In the **Search** box, enter **Payment Journals**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.  
   
 2.  In the **Batch Name** field, specify the relevant journal batch.  
   

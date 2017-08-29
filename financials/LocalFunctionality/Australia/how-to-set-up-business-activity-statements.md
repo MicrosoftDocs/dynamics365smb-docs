@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Business Activity Statements | Microsoft Docs
+    title: How to Set Up Business Activity Statements | Microsoft Docs
     description: You must set up a Business Activity Statement (BAS) to generate a BAS report. BAS setup ../../includes the following:
     services: project-madeira
     documentationcenter: ''
@@ -26,7 +26,7 @@ You must set up a Business Activity Statement (BAS) to generate a BAS report. BA
   
 ### To set up GST posting  
   
-1.  In the **Search** box, enter **VAT Posting Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Posting Setup**, and then choose the related link.  
   
 2.  To set up GST posting rules, create a new line and enter information into the relevant fields.  
   
@@ -34,7 +34,7 @@ You must set up a Business Activity Statement (BAS) to generate a BAS report. BA
   
 ### To set up BAS – XML field IDs  
   
-1.  In the **Search** box, enter **BAS – XML Field IDs**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **BAS – XML Field IDs**, and then choose the related link.  
   
 2.  On the **Home** tab, choose **New** to create a new line.  
   
@@ -43,7 +43,7 @@ You must set up a Business Activity Statement (BAS) to generate a BAS report. BA
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**XML Field ID**|The name for the BAS field, as it appears in the XML file.|  
-    |**Field No.**|The internal [!INCLUDE[d365fin](../../includes/d365fin_md.md)] number that corresponds to the field label number in the XML file.|  
+    |**Field No.**|The internal [!INCLUDE[d365fin](includes/d365fin_md.md)] number that corresponds to the field label number in the XML file.|  
     |**Field Label No.**|This value is replicated from the XML file received from the Australian Tax Office (ATO). It refers to the relevant section of the BAS, as described in the BAS instructions from the ATO. **Note:**  The value in this field is updated when you select a value in the **Field No.** field.|  
     |**Field Description**|This is the description for the value in the **Field Label No.** field. **Note:**  The value in this field is updated when you select a value in the **Field No.** field.|  
   
@@ -51,7 +51,7 @@ You must set up a Business Activity Statement (BAS) to generate a BAS report. BA
   
 ### To set up BAS  
   
-1.  In the **Search** box, enter **BAS Setup Names**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **BAS Setup Names**, and then choose the related link.  
   
 2.  On the **Home** tab, choose **New**.  
   

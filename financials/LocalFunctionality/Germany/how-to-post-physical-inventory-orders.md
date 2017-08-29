@@ -1,5 +1,5 @@
 ---
-    title: How to: Post Physical Inventory Orders | Microsoft Docs
+    title: How to Post Physical Inventory Orders | Microsoft Docs
     description: After completing a physical inventory order and changing its status to **Finished**, you can post it.
     services: project-madeira
     documentationcenter: ''
@@ -30,7 +30,7 @@ After completing a physical inventory order and changing its status to **Finishe
   
 ### To post a physical inventory order  
   
-1.  In the **Search** box, enter **Phys. Inventory Order**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Phys. Inventory Order**, and then choose the related link.  
   
 2.  Select the physical inventory order that you want to complete, and then, on the **Home** tab, choose **Edit**.  
   
@@ -47,7 +47,7 @@ After completing a physical inventory order and changing its status to **Finishe
   
 ### To view posted physical inventory orders  
   
-1.  In the **Search** box, enter **Posted Phys. Invt. Order**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Phys. Invt. Order**, and then choose the related link.  
   
 2.  In the **Posted Phys. Invt. Order** window, select the posted inventory order that you want to view, and then, on the **Home** tab, choose **View**.  
   

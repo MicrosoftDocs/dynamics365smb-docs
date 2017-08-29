@@ -1,5 +1,5 @@
 ---
-    title: How to: Create Electronic Documents for EHF | Microsoft Docs
+    title: How to Create Electronic Documents for EHF | Microsoft Docs
     description: When you sell goods or services to a customer in the public sector, you must submit documents electronically. In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-set-up-customers-for-ehf.md).
     services: project-madeira
     documentationcenter: ''
@@ -21,11 +21,11 @@ When you sell goods or services to a customer in the public sector, you must sub
  Electronic documents can only be created after a document has been posted or issued. The following procedures describe how to post a sales invoice with the required information and then create an electronic sales invoice, but the same steps also apply to sales credit memos, reminders, finance charge memos, service invoices, and service credit memos.  
   
 > [!NOTE]  
->  The sum of lines in an exported electronic document will not reflect invoice rounding, even if it is enabled. Instead, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] sums the lines without rounding.  
+>  The sum of lines in an exported electronic document will not reflect invoice rounding, even if it is enabled. Instead, [!INCLUDE[d365fin](includes/d365fin_md.md)] sums the lines without rounding.  
   
 ### To post a sales invoice  
   
-1.  In the **Search** box, enter **Sales Invoices**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Invoices**, and then choose the related link.  
   
 2.  Select the sales invoice that you want to post. On the **Home** tab, in the **Manage** group, choose **Edit**.  
   
@@ -58,7 +58,7 @@ When you sell goods or services to a customer in the public sector, you must sub
   
 ### To create an electronic sales invoice  
   
-1.  In the **Search** box, enter **Posted Sales Invoices**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Sales Invoices**, and then choose the related link.  
   
 2.  Select the relevant sales invoice.  
   

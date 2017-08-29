@@ -25,7 +25,7 @@ Static allocation method is based on a definite value, such as square meters use
   
 ### To define the allocation source PROD cost center on the General FastTab  
   
-1.  In the **Search** box, enter **Cost Allocation**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cost Allocation**, and then choose the related link.  
   
 2.  In the **Cost Allocation** window, on the **Home** tab, in the **New** group, choose **New**.  
   
@@ -76,6 +76,6 @@ Static allocation method is based on a definite value, such as square meters use
   
 ## See Also  
  [How to: Set Up Allocation Source and Targets](how-to-set-up-allocation-source-and-targets.md)   
- [Define and Allocate Costs](define-and-allocate-costs.md)   
+ [Defining and Allocating Costs](define-and-allocate-costs.md)   
  [Scenario Example: Defining Dynamic Allocations Based on Items Sold](scenario-example-defining-dynamic-allocations-based-on-items-sold.md)   
- [Define and Allocate Costs](define-and-allocate-costs.md)
+ [Defining and Allocating Costs](define-and-allocate-costs.md)

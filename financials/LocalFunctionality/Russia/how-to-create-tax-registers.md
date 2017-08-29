@@ -1,5 +1,5 @@
 ---
-    title: How to: Create Tax Registers | Microsoft Docs
+    title: How to Create Tax Registers | Microsoft Docs
     description: The following procedure shows how to create tax registers.
     services: project-madeira
     documentationcenter: ''

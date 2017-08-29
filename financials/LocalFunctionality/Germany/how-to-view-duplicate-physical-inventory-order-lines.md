@@ -1,5 +1,5 @@
 ---
-    title: How to: View Duplicate Physical Inventory Order Lines | Microsoft Docs
+    title: How to View Duplicate Physical Inventory Order Lines | Microsoft Docs
     description: If you create physical inventory order lines manually, or if you change automatically created lines, you must make sure that there are no duplicate lines. You can create a list of duplicate physical inventory order lines.
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ If you create physical inventory order lines manually, or if you change automati
   
 ### To view duplicate physical inventory order lines  
   
-1.  In the **Search** box, enter **Phys. Inventory Order**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Phys. Inventory Order**, and then choose the related link.  
   
 2.  Open the physical inventory order that you want to view to duplicate lines of.  
   

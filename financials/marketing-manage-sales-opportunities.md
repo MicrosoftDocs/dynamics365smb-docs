@@ -20,7 +20,7 @@ Any incoming lead can be considered a sales opportunity. You can create opportun
 
 Before you can start using opportunity management, you must set up sales cycles and sales cycle stages. As you create opportunities, you should provide information about the contact, salesperson, sales cycle, and dates, as well as your estimates for the sales value of the opportunity and your estimation of the chances of its success.
 
-The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.
+The following table describes a sequence of tasks, with links to the topics that describe them. 
 
 | To | See |
 | --- | --- |

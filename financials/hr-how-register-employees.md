@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 06/28/2017
+ms.date: 08/11/2017
 ms.author: SorenGP
 
 ---
@@ -41,7 +41,9 @@ If you have a picture of an employee in .bmp format, you can insert it on the em
 
 The picture is inserted in the **Employee Picture** FactBox.
 
-## To register an alternate address for an employee
+## To register various information about an employee
+On the employee card, you can set up information, such as union membership, relatives, and contracts for the employee. The following describes how to set up an alternate address. The steps are similar for all other information that you can set up from an employee card.
+
 You can use alternate addresses to keep track of your employees’ location, for example if they are stationed abroad, on a long business trip, or residing at a summer residence.
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Employees**, and then choose the related link.

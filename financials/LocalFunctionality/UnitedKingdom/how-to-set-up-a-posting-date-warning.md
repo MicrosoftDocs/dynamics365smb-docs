@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up a Posting Date Warning | Microsoft Docs
+    title: How to Set Up a Posting Date Warning | Microsoft Docs
     description: A warning message will be displayed when you post or batch post sales and purchase documents with a posting date not same as the work date. You must set up for this in the **Sales Receivables Setup** and **Purchases Payables Setup**.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ A warning message will be displayed when you post or batch post sales and purcha
 
 ### To set up a posting date warning for sales and purchases  
 
-1.  In the **Search** box, enter **Sales & Receivables Setup** or **Purchases & Payables Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales & Receivables Setup** or **Purchases & Payables Setup**, and then choose the related link.  
 
 2.  In the **Sales Receivables Setup** window or the **Purchases Payables Setup** window, in the **General** FastTab, select the **Posting Date Check on Posting** check box.  
 

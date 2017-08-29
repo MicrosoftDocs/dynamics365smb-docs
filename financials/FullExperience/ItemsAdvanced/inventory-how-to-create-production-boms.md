@@ -1,5 +1,5 @@
 ---
-    title: How to: Create Production BOMs | Microsoft Docs
+    title: How to Create Production BOMs | Microsoft Docs
     description: A production BOM holds master data that describes the components and subassemblies used in the production of a parent item. Once a production order is created for that parent item, its production BOM will govern the calculation of material requirements as represented in the **Prod. Order Components** window.
     services: project-madeira
     documentationcenter: ''
@@ -26,7 +26,7 @@ A production BOM holds master data that describes the components and subassembli
   
 ### To fill in the production BOM header  
   
-1.  In the **Search** box, enter **Production BOM**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Production BOM**, and then choose the related link.  
   
 2.  Create a new production BOM.  
   

@@ -1,5 +1,5 @@
 ---
-    title: How to: Replan Production Orders | Microsoft Docs
+    title: How to Replan Production Orders | Microsoft Docs
     description: This planning function calculates changes made to components and routings lines, and it includes items on lower production BOM levels for which it may generate new production orders.
     services: project-madeira
     documentationcenter: ''
@@ -25,7 +25,7 @@ This planning function calculates changes made to components and routings lines,
   
 ### To replan a production order  
   
-1.  In the **Search** box, enter **Production Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Production Orders**, and then choose the related link.  
   
 2.  Select the production order you want to replan.  
   

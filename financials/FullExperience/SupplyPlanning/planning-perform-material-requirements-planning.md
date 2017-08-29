@@ -24,7 +24,7 @@ To establish executable supply orders to meet all dependent and independent dema
   
  The planning worksheets offers supporting planning information, such as [tracking to non-order entities](../($%20N_99000852_118%20Warning%20$).md) to help the planner obtain an optimal supply plan.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

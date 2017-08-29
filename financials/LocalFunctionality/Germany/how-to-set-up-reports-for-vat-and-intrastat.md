@@ -1,6 +1,6 @@
 ---
-    title: How to: Set Up Reports for VAT and Intrastat | Microsoft Docs
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can specify which reports to use to create the documents that you must submit to the authorities, such as the VAT statement and the Intrastat form.
+    title: How to Set Up Reports for VAT and Intrastat | Microsoft Docs
+    description: In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can specify which reports to use to create the documents that you must submit to the authorities, such as the VAT statement and the Intrastat form.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,11 +16,11 @@
 
 ---
 # How to: Set Up Reports for VAT and Intrastat
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can specify which reports to use to create the documents that you must submit to the authorities, such as the VAT statement and the Intrastat form.  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can specify which reports to use to create the documents that you must submit to the authorities, such as the VAT statement and the Intrastat form.  
   
 ### To set up reports for VAT  
   
-1.  In the **Search** box, enter **Report Selections VAT**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Report Selections VAT**, and then choose the related link.  
   
 2.  In the **Report Selection – VAT** window, in the **Usage** field, select the type of document that you want to specify reports for. This ../../includes the VAT statement and the VAT statement schedule.  
   
@@ -36,7 +36,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can specify which repo
   
 ### To set up reports for Intrastat  
   
-1.  In the **Search** box, enter **Report Selection**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Report Selection**, and then choose the related link.  
   
 2.  In the **Report Selection – Intrastat** window, in the **Usage** field, select the type of document that you want to specify reports for. This ../../includes the Intrastat checklist and Intrastat form.  
   

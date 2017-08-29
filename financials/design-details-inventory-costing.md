@@ -1,5 +1,5 @@
 ---
-    title: Design Details: Inventory Costing | Microsoft Docs
+    title: Design Details - Inventory Costing | Microsoft Docs
     description: This documentation provides detailed technical insight to the concepts and principles that are used within the Inventory Costing features in [!INCLUDE[d365fin](includes/d365fin_md.md)].
     services: project-madeira
     documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: How to: Create the TORG-2 Report for Registering Mismatched Receipts | Microsoft Docs
+    title: How to Create the TORG-2 Report for Registering Mismatched Receipts | Microsoft Docs
     description: The TORG-2 report is used to document inconsistencies for deviations of received goods that are not imported.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ The TORG-2 report is used to document inconsistencies for deviations of received
   
 ### To create the TORG-2 report  
   
-1.  In the **Search** box, enter **Receipt Deviations TORG-2**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Receipt Deviations TORG-2**, and then choose the related link.  
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   

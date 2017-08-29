@@ -1,5 +1,5 @@
 ---
-    title: How to: Create Recurring Orders | Microsoft Docs
+    title: How to Create Recurring Orders | Microsoft Docs
     description: The create recurring orders process will find all of the recurring orders based on the options selected in the **Create Recurring Orders** window and will create the new sales orders. This is a periodic activity that you must run regularly.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ The create recurring orders process will find all of the recurring orders based 
   
 ### To create recurring orders  
   
-1.  In the **Search** box, enter **Create Recurring Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Create Recurring Orders**, and then choose the related link.  
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   

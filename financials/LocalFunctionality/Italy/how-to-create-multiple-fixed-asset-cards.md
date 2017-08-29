@@ -1,5 +1,5 @@
 ---
-    title: How to: Create Multiple Fixed Asset Cards | Microsoft Docs
+    title: How to Create Multiple Fixed Asset Cards | Microsoft Docs
     description: You can create multiple fixed asset cards automatically during purchase invoice posting. For example, if your company purchases 200 computers of the same kind from the same vendor, you do not have to manually create a fixed asset card for each computer; the fixed asset cards can be created automatically.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ You can create multiple fixed asset cards automatically during purchase invoice 
   
 ### To create multiple fixed asset cards  
   
-1.  In the **Search** box, enter **Fixed Assets**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Fixed Assets**, and then choose the related link.  
   
 2.  Under **Lists**, choose **Fixed Assets**.  
   
@@ -30,7 +30,7 @@ You can create multiple fixed asset cards automatically during purchase invoice 
   
      You will use the value of the **No.** field when you generate the remaining fixed assets later.  
   
-5.  In the **Search** box, enter **Purchase Orders**, and then choose the related link.  
+5.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Orders**, and then choose the related link.  
   
 6.  Create a new purchase order, or open the existing purchase order.  
   

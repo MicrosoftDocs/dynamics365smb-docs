@@ -1,5 +1,5 @@
 ---
-    title: How to: Automatically Distribute the Annual Amount Difference on Contracts | Microsoft Docs
+    title: How to Automatically Distribute the Annual Amount Difference on Contracts | Microsoft Docs
     description: If you are going to change the annual amount of the service contract or contract quote, you will need to distribute the difference between the new and calculated annual amount values on the contract lines.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ If you are going to change the annual amount of the service contract or contract
   
 ### To distribute the annual amount difference of a service contract change automatically  
   
-1.  In the **Search** box, enter **Service Contracts** or **Service Contract Quotes**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Contracts** or **Service Contract Quotes**, and then choose the related link.  
   
 2.  Select the relevant contract or contract quote. Open the **Service Contract** or **Contract Quote** card window containing information for this service contract or contract quote.  
   

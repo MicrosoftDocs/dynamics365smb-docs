@@ -1,5 +1,5 @@
 ---
-    title: How to: Print Depreciation Book Reports | Microsoft Docs
+    title: How to Print Depreciation Book Reports | Microsoft Docs
     description: The **Depreciation Book** is a fiscal report that is sorted by year and item class. The **Depreciation Book** report shows changes in fixed asset stock in a given year by item class, rather than by the individual items. The **Depreciation Book** report is run after the depreciation method has been set up and assets have been entered.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ The **Depreciation Book** is a fiscal report that is sorted by year and item cla
   
 ### To print depreciation book reports  
   
-1.  In the **Search** box, enter **Fixed Assets**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Fixed Assets**, and then choose the related link.  
   
 2.  Under **Reports and Analysis**, in the **Reports** section, choose **Depreciation Book**.  
   

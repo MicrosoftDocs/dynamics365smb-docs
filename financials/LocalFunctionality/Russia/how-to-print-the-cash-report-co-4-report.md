@@ -1,5 +1,5 @@
 ---
-    title: How to: Print the Cash Report CO-4 Report | Microsoft Docs
+    title: How to Print the Cash Report CO-4 Report | Microsoft Docs
     description: The **Cash Report CO-4** report shows the unified standard printing form for cashiers reporting for one operational day of the cash account. It is required and can only be printed per day.
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ The **Cash Report CO-4** report shows the unified standard printing form for cas
   
 ### To print the cash report CO-4  
   
-1.  In the **Search** box, enter **Cash Report CO-4**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Report CO-4**, and then choose the related link.  
   
 2.  In the **Cash Report CO-4** window, fill in the fields.  
   

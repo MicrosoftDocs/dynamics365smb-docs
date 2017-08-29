@@ -1,6 +1,6 @@
 ---
-    title: How to: Review Errors for Background Posting | Microsoft Docs
-    description: Errors for background posting are easy to determine. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] provides several options for you to access this information.
+    title: How to Review Errors for Background Posting | Microsoft Docs
+    description: Errors for background posting are easy to determine. [!INCLUDE[d365fin](includes/d365fin_md.md)] provides several options for you to access this information.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # How to: Review Errors for Background Posting
-Errors for background posting are easy to determine. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] provides several options for you to access this information.  
+Errors for background posting are easy to determine. [!INCLUDE[d365fin](includes/d365fin_md.md)] provides several options for you to access this information.  
   
 ### To view an error from a sales or purchase document  
   
@@ -30,7 +30,7 @@ Errors for background posting are easy to determine. [!INCLUDE[d365fin](../../in
   
 ### To view an error from a sales or purchase list  
   
-1.  Open the relevant list. For example, in the **Search** box, enter **Sales Orders**, and then choose the related link.  
+1.  Open the relevant list. For example, Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.  
   
 2.  Select the entry that you are reviewing, and choose the **Job Queue Status** field. The error message is displayed. Review the error message and fix the problem.  
   

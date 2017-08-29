@@ -1,5 +1,5 @@
 ---
-    title: Use Workflows | Microsoft Docs
+    title: Using Workflows | Microsoft Docs
     description: You can set up and use workflows that connect business-process tasks performed by different users. System tasks, such as automatic posting, can be included as steps in workflows, preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps.
     services: project-madeira
     documentationcenter: ''
@@ -15,10 +15,10 @@
     ms.author: sgroespe
 
 ---
-# Use Workflows
+# Using Workflows
 You can set up and use workflows that connect business-process tasks performed by different users. System tasks, such as automatic posting, can be included as steps in workflows, preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps.  
 
- Before you can begin to use workflows, you must set up workflow users, create the workflows, potentially preceded by code customization and specify how users receive notifications. For more information, see [Set Up Workflows](across-set-up-workflows.md).  
+ Before you can begin to use workflows, you must set up workflow users, create the workflows, potentially preceded by code customization and specify how users receive notifications. For more information, see [Setting Up Workflows](across-set-up-workflows.md).  
 
 > [!NOTE]  
 >  Typical workflow steps are about users who request approval of tasks and approvers accepting or rejecting approval requests. Therefore, many topics about how to use workflows refer to approvals.  
@@ -34,6 +34,6 @@ You can set up and use workflows that connect business-process tasks performed b
 |Delete a workflow that you are sure will no longer be used.|[How to: Delete Workflows](across-how-to-delete-workflows.md)|  
 
 ## See Also  
- [Set Up Workflows](across-set-up-workflows.md)   
- [Workflow](across-workflow.md)   
- [Working with Financials](ui-work-product.md)
+[Setting Up Workflows](across-set-up-workflows.md)   
+[Workflow](across-workflow.md)   
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

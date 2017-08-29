@@ -1,5 +1,5 @@
 ---
-    title: Codeunit 12 Changes: Mapping Global Variables for General Journal Post Line | Microsoft Docs
+    title: Design Details - Codeunit 12 Changes in Mapping Global Variables for General Journal Post Line | Microsoft Docs
     description: The following changes have been implemented in this release of [!INCLUDE[d365fin](includes/d365fin_md.md)].
     services: project-madeira
     documentationcenter: ''
@@ -17,7 +17,7 @@
 ---
 # Codeunit 12 Changes: Mapping Global Variables for General Journal Post Line
 The following changes have been implemented in this release of [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-  
+
 |**Microsoft Dynamics NAV 2009 R2**|**Microsoft Dynamics NAV 2013 R2**|**Comment**|  
 |----------------------------------------|----------------------------------------|-----------------|  
 |GLSetup@1009 : Record 98;|GLSetup@1009 : Record 98;|Unchanged|  
@@ -104,6 +104,6 @@ The following changes have been implemented in this release of [!INCLUDE[d365fin
 ||GLSetupRead@1015 : Boolean;|Added|  
 ||AmountRoundingPrecision@1012 : Decimal;|Added|  
 ||CrCardTransactionEntryNo@1013 : Integer;|Added|  
-  
+
 ## See Also  
  [Codeunit 12 Changes: Changes in General Journal Post Procedures](codeunit-12-changes-changes-in-general-journal-post-procedures.md)

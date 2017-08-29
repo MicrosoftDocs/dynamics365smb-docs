@@ -1,5 +1,5 @@
 ---
-    title: How to: Run MPS and MRP | Microsoft Docs
+    title: How to Run MPS and MRP | Microsoft Docs
     description: The terms "running the planning worksheet" or "running MRP" refer to the calculation of the master production schedule and material requirements based on actual and forecasted demand. The planning system can calculate either Master Planning Schedule (MPS) or Material Requirements Planning (MRP) on request, or it can calculate both at the same time.
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ The terms "running the planning worksheet" or "running MRP" refer to the calcula
   
 -   *MRP* is the calculation of material requirements based on actual demand for components and the production forecast on the component level. MRP is calculated only for items that are not MPS items. The purpose of MRP is to provide time-phased formal plans, by item, to supply the appropriate item, at the appropriate time, in the appropriate location, in the appropriate quantity.  
   
- The planning algorithms used for both MPS and MRP are identical. The planning algorithms pertain to netting, reuse of existing replenishment orders, and action messages. The planning system process examines what is needed or will be needed (demand) and what is on-hand or expected (supply). When these quantities are netted against each other, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] provides action messages. Action messages are suggestions to create a new order, change an order (quantity or date), or cancel an order already on order. The term "order" includes purchase orders, assembly order, production orders, and transfer orders.  
+ The planning algorithms used for both MPS and MRP are identical. The planning algorithms pertain to netting, reuse of existing replenishment orders, and action messages. The planning system process examines what is needed or will be needed (demand) and what is on-hand or expected (supply). When these quantities are netted against each other, [!INCLUDE[d365fin](includes/d365fin_md.md)] provides action messages. Action messages are suggestions to create a new order, change an order (quantity or date), or cancel an order already on order. The term "order" includes purchase orders, assembly order, production orders, and transfer orders.  
   
  Proper planning results depend on the set up done on item cards, assembly BOMs, production BOMs, and routings.  
   
@@ -38,7 +38,7 @@ The terms "running the planning worksheet" or "running MRP" refer to the calcula
   
 -   **Get Action Messages:** This function serves as a short-term planning tool by issuing action messages to alert the user of any modifications made since the last regenerative or net change plan was calculated.  
   
- With each planned method, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] generates worksheet entries assuming infinite capacity. Work center and machine center capacity is not considered when you develop schedules.  
+ With each planned method, [!INCLUDE[d365fin](includes/d365fin_md.md)] generates worksheet entries assuming infinite capacity. Work center and machine center capacity is not considered when you develop schedules.  
   
 > [!IMPORTANT]  
 >  The Calculate Regenerative Plan function is the most common process. The Calculate Plan and Carry out Action Messages functions, however, can be used to run the Calculate Net Change Plan process.  
@@ -47,7 +47,7 @@ The terms "running the planning worksheet" or "running MRP" refer to the calcula
   
 ### To calculate the planning worksheet  
   
-1.  In the **Search** box, enter **Planning Worksheets**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Planning Worksheets**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **Process** group, choose **Calculate Regenerative Plan**  to open the **Calculate Plan** window.  
   
@@ -106,10 +106,10 @@ The terms "running the planning worksheet" or "running MRP" refer to the calcula
 |Action Message|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
 |--------------------|---------------------------------------|  
 |**New**|If a demand cannot be fulfilled by suggesting action messages to **Change Qty.**, **Reschedule**, or **Reschedule & Change Qty.** on existing orders, the action message **New** is generated, which suggests a new order. In addition, the message **New** is generated if there are no existing supply orders in the reorder cycle of the item in question. This parameter determines the number of periods forward and backward in the availability profile when it searches for an order to reschedule.|  
-|**Change Quantity**|When demand that is tracked to a supply order experiences a quantity change, the action message **Change Qty.** is generated, which indicates that the related supply should be changed relative to the change in demand. If a new demand emerges, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] searches for the nearest existing unreserved supply order in the reorder cycle, and issues a change of action message for that order.|  
+|**Change Quantity**|When demand that is tracked to a supply order experiences a quantity change, the action message **Change Qty.** is generated, which indicates that the related supply should be changed relative to the change in demand. If a new demand emerges, [!INCLUDE[d365fin](includes/d365fin_md.md)] searches for the nearest existing unreserved supply order in the reorder cycle, and issues a change of action message for that order.|  
 |**Reschedule**|When a supply or demand order experiences a date modification causing an imbalance in the order network, the action message **Reschedule** is generated. If there is a one-to-one relationship between demand and supply, an action message is generated suggesting that the supply order be moved accordingly. If the supply-order covers demand from more than one sales order, the supply order is re-scheduled equal to the date of the first demand.|  
 |**Resch. & Chg. Qty.**|If both the dates and quantities of an order have been modified, you must change plans with regard to both circumstances. Action messaging gathers both actions in one message, **Resched. and Chg. Qty.**, to ensure that the order network returns to balance.|  
-|**Cancel**|If a demand, which has been covered on an order-to-order basis, is deleted, an action message is generated to cancel the related supply order. If the relationship is not order-to-order, an action message is generated to change in order to reduce the supply. If through other factors, such as inventory adjustments, a supply order is not required at the time the action messages are generated by the user, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] suggests an action message of **Cancel** in the worksheet.|  
+|**Cancel**|If a demand, which has been covered on an order-to-order basis, is deleted, an action message is generated to cancel the related supply order. If the relationship is not order-to-order, an action message is generated to change in order to reduce the supply. If through other factors, such as inventory adjustments, a supply order is not required at the time the action messages are generated by the user, [!INCLUDE[d365fin](includes/d365fin_md.md)] suggests an action message of **Cancel** in the worksheet.|  
   
 ## See Also  
  [Design Details: Supply Planning](design-details-supply-planning.md)   

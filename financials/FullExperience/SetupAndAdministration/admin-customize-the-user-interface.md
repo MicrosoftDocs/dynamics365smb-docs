@@ -1,6 +1,6 @@
 ---
     title: Customize the User Interface | Microsoft Docs
-    description: The concept of UI customization in ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]--> is divided in two:
+    description: The concept of UI customization in [!INCLUDE[d365fin](includes/d365fin_md.md)] is divided in two:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # Customize the User Interface
-The concept of user interface (UI) customization in ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]--> is divided in two:  
+The concept of user interface (UI) customization in [!INCLUDE[d365fin](includes/d365fin_md.md)] is divided in two:  
   
 -   Configuration, which is performed by the administrator  
   
@@ -29,12 +29,12 @@ The concept of user interface (UI) customization in ADD INCLUDE<!--[!INCLUDE[dyn
 > [!NOTE]  
 >  Only the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/nav_windows_md.md)]--> as configuration are reflected in the web client.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  
 |As an administrator, remove UI elements according to permissions. Then, configure different profile-specific page layouts using the same UI customization functions that users use.|[Configure the User Interface](../configure-the-user-interface.md)|  
-|As a user, change how actions, fields, and page parts are placed in your personal version of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]--> using a rich set of UI customization functions.|PERSONALIZATION Personalize the User Interface|  
+|As a user, change how actions, fields, and page parts are placed in your personal version of [!INCLUDE[d365fin](includes/d365fin_md.md)] using a rich set of UI customization functions.|PERSONALIZATION Personalize the User Interface|  
   
 ## See Also  
  [Administration in the Clients](../administration-in-the-clients.md)   

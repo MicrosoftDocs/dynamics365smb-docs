@@ -1,6 +1,6 @@
 ---
-    title: How to: Apply Answers from the Configuration Questionnaire | Microsoft Docs
-    description: After you have imported and validated information from a setup questionnaire, you can transfer, or apply the setup data to the corresponding tables in the [!INCLUDE[d365fin](../../includes/d365fin_md.md)] database.
+    title: How to Apply Answers from the Configuration Questionnaire | Microsoft Docs
+    description: After you have imported and validated information from a setup questionnaire, you can transfer, or apply the setup data to the corresponding tables in the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,11 +16,11 @@
 
 ---
 # How to: Apply Answers from the Configuration Questionnaire
-After you have imported and validated information from a setup questionnaire, you can transfer, or apply the setup data to the corresponding tables in the [!INCLUDE[d365fin](../../includes/d365fin_md.md)] database.  
+After you have imported and validated information from a setup questionnaire, you can transfer, or apply the setup data to the corresponding tables in the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.  
   
 ### To apply answers from the setup questionnaire  
   
-1.  In the **Search** box, enter **Configuration Questionnaire**, and then choose the related link. The **Setup Questionnaire** window opens.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Questionnaire**, and then choose the related link. The **Setup Questionnaire** window opens.  
   
 2.  Select a configuration questionnaire from the list, and on the **Home** tab, choose **Edit List**.  
   
@@ -34,7 +34,7 @@ After you have imported and validated information from a setup questionnaire, yo
   
 ### To verify that answers have been applied successfully  
   
-1.  Check setup windows for the various functional areas of [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. To locate the window, in the **Search** box, enter the name of the setup window, and then choose the related link.  
+1.  Check setup windows for the various functional areas of [!INCLUDE[d365fin](includes/d365fin_md.md)]. To locate the window, Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter the name of the setup window, and then choose the related link.  
   
      The following table identifies some common setup tables, but your verification of answers depends on which setup tables you use.  
   

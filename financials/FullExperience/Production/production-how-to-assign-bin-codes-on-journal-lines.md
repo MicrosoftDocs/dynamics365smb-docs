@@ -1,5 +1,5 @@
 ---
-    title: How to: Assign Bin Codes on Journal Lines | Microsoft Docs
+    title: How to Assign Bin Codes on Journal Lines | Microsoft Docs
     description: When you create a consumption journal or an output journal, and the warehouse location is set up to use bins but not directed put-away and pick, you assign a bin code to the journal line to indicate that the item will either come from or be placed in that bin. In the following procedure, a consumption journal is used as an example.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ When you create a consumption journal or an output journal, and the warehouse lo
   
 ### To assign a bin code to a journal line  
   
-1.  In the **Search** box, enter **Consumption Journal**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Consumption Journal**, and then choose the related link.  
   
 2.  Enter the relevant line information and fill in the **Location Code** and **Bin Code** fields.  
   

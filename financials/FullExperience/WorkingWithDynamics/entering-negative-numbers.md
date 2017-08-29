@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Entering Negative Numbers
 You can enter negative numbers in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> in two ways. The number -20.5 can be entered as:  
   

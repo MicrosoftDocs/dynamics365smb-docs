@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Work Centers | Microsoft Docs
+    title: How to Set Up Work Centers | Microsoft Docs
     description: A **Work Center** card organizes the fixed values and requirements of the production resource, and thus governs the output of production performed in that work center.
     services: project-madeira
     documentationcenter: ''
@@ -30,7 +30,7 @@ A **Work Center** card organizes the fixed values and requirements of the produc
   
 ### To fill in the General FastTab  
   
-1.  In the **Search** box, enter **Work Centers**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Work Centers**, and then choose the related link.  
   
 2.  Create a new work center card. On the **Home** tab, in the **New** group, choose **New**.  
   

@@ -1,5 +1,5 @@
 ---
-    title: How to: Register Service Contract Comments | Microsoft Docs
+    title: How to Register Service Contract Comments | Microsoft Docs
     description: You can use the **Service Comment Sheet** window to register comments on service contracts or service contract quotes.
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ You can use the **Service Comment Sheet** window to register comments on service
   
 ### To register service contract comments  
   
-1.  In the **Search** box, enter **Service Contracts**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Contracts**, and then choose the related link.  
   
 2.  Open the relevant service contract.  
   

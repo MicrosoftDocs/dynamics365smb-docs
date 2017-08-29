@@ -54,13 +54,13 @@ To access your [!INCLUDE[d365fin](includes/d365fin_md.md)] data in Power BI, on 
 | **User name** |Your name as it displays for your account in [!INCLUDE[d365fin](includes/d365fin_md.md)], such as *John Smith*. |
 | **Password** |This is the web service access key for your user account in [!INCLUDE[d365fin](includes/d365fin_md.md)]. |
 
-This means that you must get 3 pieces of information from Financials: The OData URL and the web service access key for your user account.  
+This means that you must get 2 pieces of information from [!INCLUDE[d365fin](includes/d365fin_md.md)]: The *OData URL* and the *web service access key* for your user account.  
 
 ### Getting the URL
 When you add [!INCLUDE[d365fin](includes/d365fin_md.md)] to Power BI, you must specify a URL so Power BI can access data from your company. On the connection page, the URL is referred to as the **OData Feed URL**, and it must have the following format:
 
          https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')  
-In this example, *mybusiness* is the name of your Financials service, and *CRONUS US* is the name of the demonstration company with *%20* representing the space in the name.   
+In this example, *mybusiness* is the name of your [!INCLUDE[d365fin](includes/d365fin_md.md)] service, and *CRONUS US* is the name of the demonstration company with *%20* representing the space in the name.   
 To get the URL, in [!INCLUDE[d365fin](includes/d365fin_md.md)], search for and open the **Web Services** window. This window lists the web services that are currently available, and you can copy the link from the **OData URL** field for one of the default OData web services.  
 
 ### Getting the user name and the web service access key

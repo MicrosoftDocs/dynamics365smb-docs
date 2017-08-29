@@ -1,5 +1,5 @@
 ---
-    title: How to: Print Vendor Payments List Reports | Microsoft Docs
+    title: How to Print Vendor Payments List Reports | Microsoft Docs
     description: The **Vendor Payments List** report provides a list of payments for each vendor. The report can sort payments chronologically or grouped by vendor.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ The **Vendor Payments List** report provides a list of payments for each vendor.
   
 ### To print the vendor payments list report  
   
-1.  In the **Search** box, enter **Vendor Payments List**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendor Payments List**, and then choose the related link.  
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   

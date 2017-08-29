@@ -1,5 +1,5 @@
 ---
-    title: How to: Create Custom Company Configuration Packages | Microsoft Docs
+    title: How to Create Custom Company Configuration Packages | Microsoft Docs
     description: As you grow your business, you will likely come to rely on a set of company types that you use with most of your customers. You can streamline your implementation process by turning these types into company configuration packages that are available for reuse.
     services: project-madeira
     documentationcenter: ''
@@ -46,7 +46,7 @@ As you grow your business, you will likely come to rely on a set of company type
   
 -   Inventory Posting Setup  
   
- To see a complete list of setup tables, in the **Search** box, enter **Setup**, and then choose the related link.  
+ To see a complete list of setup tables, Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Setup**, and then choose the related link.  
   
 ### To create a company package  
   

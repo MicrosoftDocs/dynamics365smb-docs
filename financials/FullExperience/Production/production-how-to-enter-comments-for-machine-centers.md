@@ -1,5 +1,5 @@
 ---
-    title: How to: Enter Comments for Machine Centers | Microsoft Docs
+    title: How to Enter Comments for Machine Centers | Microsoft Docs
     description: You can add any comments to every machine center.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ You can add any comments to every machine center.
   
 ### To enter comments for machine centers  
   
-1.  In the **Search** box, enter **Machine Centers**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Machine Centers**, and then choose the related link.  
   
 2.  Open the relevant **Machine Center** card from the list.  
   

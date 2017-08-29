@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Bank Reference Files | Microsoft Docs
+    title: How to Set Up Bank Reference Files | Microsoft Docs
     description: To process electronic payments, you must first set up bank reference files to determine how payment data should be imported or exported.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ To process electronic payments, you must first set up bank reference files to de
   
 ### To set up a bank reference file  
   
-1.  In the **Search** box, enter **Bank Reference File Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Reference File Setup**, and then choose the related link.  
   
 2.  On the **General** FastTab, fill in the fields as described in the following table.  
   

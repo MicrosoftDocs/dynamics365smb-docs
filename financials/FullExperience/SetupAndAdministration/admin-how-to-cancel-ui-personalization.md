@@ -1,5 +1,5 @@
 ---
-    title: How to: Cancel UI Personalization | Microsoft Docs
+    title: How to Cancel UI Personalization | Microsoft Docs
     description: If you want to cancel all UI customization that you have ever made for a page under your current user logon or since you last canceled UI customizations, you can use the **Delete User Personalization** window. The layout of the page for which you delete your personalization is then reset to the default configuration for your profile.
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ If you want to cancel all UI customization that you have ever made for a page un
   
 ### To cancel all UI customization that you have made to a page  
   
-1.  In the **Search** box, enter **Delete User Personalization**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Delete User Personalization**, and then choose the related link.  
   
 2.  Select the page for which you want to cancel your UI customization, and then, on the **Home** tab, in the **View** group, choose **Delete**.  
   

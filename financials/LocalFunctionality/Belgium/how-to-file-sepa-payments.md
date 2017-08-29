@@ -1,6 +1,6 @@
 ---
-    title: How to: File SEPA Payments | Microsoft Docs
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use Single Euro Payments Area (SEPA) credit transfers to file SEPA payments with the bank.
+    title: How to File SEPA Payments | Microsoft Docs
+    description: In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can use Single Euro Payments Area (SEPA) credit transfers to file SEPA payments with the bank.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # How to: File SEPA Payments
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use Single Euro Payments Area (SEPA) credit transfers to file SEPA payments with the bank.  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can use Single Euro Payments Area (SEPA) credit transfers to file SEPA payments with the bank.  
   
  SEPA unifies payment methods in participating European countries/regions, which makes international payments as easy to process as domestic payments. European citizens and companies can make and receive payments in euros, whether within or across national borders, with the same basic conditions, rights, and obligations, regardless of location.  
   
@@ -32,7 +32,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use Single Euro Pa
   
 ### To file a SEPA payment  
   
-1.  In the **Search** box, enter **File SEPA Payments**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **File SEPA Payments**, and then choose the related link.  
   
 2.  Fill in the fields as described in the following table.  
   

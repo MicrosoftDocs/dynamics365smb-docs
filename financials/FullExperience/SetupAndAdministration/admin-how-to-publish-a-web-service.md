@@ -1,6 +1,6 @@
 ---
-    title: How to: Publish a Web Service | Microsoft Docs
-    description: Web services are a lightweight way to make application functionality available to a variety of external systems and users. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] objects as web services, they are immediately available on the network.
+    title: How to Publish a Web Service | Microsoft Docs
+    description: Web services are a lightweight way to make application functionality available to a variety of external systems and users. In [!INCLUDE[d365fin](includes/d365fin_md.md)] objects as web services, they are immediately available on the network.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # How to: Publish a Web Service
-Web services are a lightweight way to make application functionality available to a variety of external systems and users. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] objects as web services, they are immediately available on the network.  
+Web services are a lightweight way to make application functionality available to a variety of external systems and users. In [!INCLUDE[d365fin](includes/d365fin_md.md)] objects as web services, they are immediately available on the network.  
 
  You can set up a web service in the Windows client or in the Web client. You must then publish the web service so that it is available to service requests over the network. Users can discover web services by pointing a browser at the computer that is running Dynamics NAV Server and requesting a list of available services. When you publish a web service, it is immediately available over the network for authenticated users. All authorized users can access metadata for web services, but only users who have sufficient Dynamics NAV permissions can access actual data.
   
@@ -27,7 +27,7 @@ Web services are a lightweight way to make application functionality available t
 
 1.  Open the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/nav_web_md.md)]-->.  
 
-2.  In the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/nav_windows_md.md)]-->, in the **Search** box, enter **Web Services**, and then choose the related link.  
+2.  In the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/nav_windows_md.md)]-->, Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Web Services**, and then choose the related link.  
 
      In the ADD INCLUDE<!--[!INCLUDE[nav_web](../../includes/nav_web_md.md)]-->, choose the **Search for Page or Report** button, enter **Web Services**, and then choose the related link.  
 
@@ -68,7 +68,7 @@ Web services are a lightweight way to make application functionality available t
 
 2.  Review the information that is displayed in the browser. Verify that you can see the name of the web service that you have created.  
 
- When you access a web service, and you want to write data back to [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you must specify the company name. You can specify the company as part of the URI as shown in the examples, or you can specify the company as part of the query parameters. For example, the following URIs point to the same OData web service and are both valid URIs.  
+ When you access a web service, and you want to write data back to [!INCLUDE[d365fin](includes/d365fin_md.md)], you must specify the company name. You can specify the company as part of the URI as shown in the examples, or you can specify the company as part of the query parameters. For example, the following URIs point to the same OData web service and are both valid URIs.  
 
 ```  
 https://localhost:7048/nav_server_instance/OData/Company('CRONUS International Ltd.')/Customer  

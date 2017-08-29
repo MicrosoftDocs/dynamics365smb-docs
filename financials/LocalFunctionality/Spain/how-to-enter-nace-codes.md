@@ -1,5 +1,5 @@
 ---
-    title: How to: Enter NACE Codes | Microsoft Docs
+    title: How to Enter NACE Codes | Microsoft Docs
     description: Nomenclature génerale des Activités économiques dans les Communautés Européennes (NACE) codes represent the statistical classification of economic activities within the European Union (EU).
     services: project-madeira
     documentationcenter: ''
@@ -32,7 +32,7 @@ Nomenclature génerale des Activités économiques dans les Communautés Europé
   
 ### To enter NACE codes  
   
-1.  In the **Search** box, enter **Company Information**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.  
   
 2.  On the **General** FastTab, in the **Industrial Classification** field, enter the NACE code.  
   

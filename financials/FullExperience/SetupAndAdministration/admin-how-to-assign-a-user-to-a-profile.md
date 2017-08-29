@@ -1,5 +1,5 @@
 ---
-    title: How to: Assign a User to a Profile | Microsoft Docs
+    title: How to Assign a User to a Profile | Microsoft Docs
     description: You use the **User Personalization** page to assign a user to a profile.
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ You use the **User Personalization** page to assign a user to a profile.
   
 #### To assign a user to a profile  
   
-1.  In the Search box, enter **User Personalization**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **User Personalization**, and then choose the related link.  
   
 2.  Choose **New** to open  
   

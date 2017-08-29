@@ -18,7 +18,7 @@
 # Manage Documents
 A central role, such as the application administrator, must regularly deal with accumulating historic documents by deleting or compressing them.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

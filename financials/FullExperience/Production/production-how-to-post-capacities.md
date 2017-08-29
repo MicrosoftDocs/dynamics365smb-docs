@@ -1,5 +1,5 @@
 ---
-    title: How to: Post Capacities | Microsoft Docs
+    title: How to Post Capacities | Microsoft Docs
     description: In the capacity journal, you post consumed capacities that are not assigned to the production order. For example, maintenance work must be assigned to capacity, but not to a production order.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ In the capacity journal, you post consumed capacities that are not assigned to t
   
 ### To post capacities  
   
-1.  In the **Search** box, enter **Capacity Journals**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Capacity Journals**, and then choose the related link.  
   
 2.  Fill in the **Posting Date** and **Document No.** fields.  
   

@@ -1,5 +1,5 @@
 ---
-    title: How to: Create Production Order Headers | Microsoft Docs
+    title: How to Create Production Order Headers | Microsoft Docs
     description: You can create a production order manually, and the first step is to create a production order header.
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ You can create a production order manually, and the first step is to create a pr
   
 ### To create a production order header  
   
-1.  In the **Search** box, enter **Firm Planned Prod. Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Firm Planned Prod. Orders**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **New** group, choose **New**.  
   

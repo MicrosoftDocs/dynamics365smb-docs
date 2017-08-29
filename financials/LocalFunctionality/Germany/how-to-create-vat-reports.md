@@ -1,5 +1,5 @@
 ---
-    title: How to: Create VAT Reports | Microsoft Docs
+    title: How to Create VAT Reports | Microsoft Docs
     description: You can configure different types of VAT reports based on requirements. Then, when you have to submit a VAT report, you can create it in the **VAT Report** window and then export it in electronic format that conforms to the ELMA5 format requirements.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ You can configure different types of VAT reports based on requirements. Then, wh
   
 ### To create a VAT report  
   
-1.  In the **Search** box, enter **VAT Report**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Report**, and then choose the related link.  
   
 2.  Fill in the fields in the **General** FastTab, including the fields that are described in the following table.  
   
@@ -60,7 +60,7 @@ You can configure different types of VAT reports based on requirements. Then, wh
   
 2.  Confirm that you want to release the report.  
   
-     [!INCLUDE[d365fin](../../includes/d365fin_md.md)] validates that the VAT report is set up correctly. If the validation fails, the errors are shown in the **VAT Report Error Log** window so that you can make the appropriate changes. For example, an error displays if you try to release a standard VAT report but you have not yet added any lines to the report.  
+     [!INCLUDE[d365fin](includes/d365fin_md.md)] validates that the VAT report is set up correctly. If the validation fails, the errors are shown in the **VAT Report Error Log** window so that you can make the appropriate changes. For example, an error displays if you try to release a standard VAT report but you have not yet added any lines to the report.  
   
      When you mark a VAT report as released, it becomes non-editable. If you must change the report after marking it as released, you must first reopen it.  
   

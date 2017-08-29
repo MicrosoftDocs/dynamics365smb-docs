@@ -1,6 +1,6 @@
 ---
-    title: How to: Limit the Posting Period | Microsoft Docs
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can limit the period by which posting is permitted on three different levels: **by company**, **by user**, and **by template**.
+    title: How to Limit the Posting Period | Microsoft Docs
+    description: In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can limit the period by which posting is permitted on three different levels: **by company**, **by user**, and **by template**.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # How to: Limit the Posting Period
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can limit the period by which posting is permitted on three different levels: **by company**, **by user**, and **by template**.  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can limit the period by which posting is permitted on three different levels: **by company**, **by user**, and **by template**.  
   
  Limiting posting periods can be useful when a company closes its sales journal at the end of each month. This keeps salespeople from registering sales documents from the previous month. At the same time, the purchase journal may stay open to register incoming purchase invoices from the previous month.  
   
@@ -24,7 +24,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can limit the period b
   
 ### To limit the posting periods by company  
   
-1.  In the **Search** box, enter **General Ledger Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Setup**, and then choose the related link.  
   
 2.  Select the **General** tab.  
   
@@ -34,7 +34,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can limit the period b
   
 ### To limit the posting periods by user  
   
-1.  In the **Search** box, enter **User Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **User Setup**, and then choose the related link.  
   
 2.  To specify the start of the period, choose the **Allow Posting From** field, and then enter the earliest date on which the user can post to the company.  
   
@@ -42,7 +42,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can limit the period b
   
 ### To limit the posting periods by template  
   
-1.  In the **Search** box, enter **General Journal Templates**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journal Templates**, and then choose the related link.  
   
 2.  To specify the start of the period, choose the **Allow Posting From** field, and then enter the earliest date on which the user can post to the company.  
   

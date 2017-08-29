@@ -1,6 +1,6 @@
 ---
-    title: How to: Manage Customer Credit Information | Microsoft Docs
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can add comments to customer credit information. You can also hold and block customers with bad credit before shipping or invoicing occurs.
+    title: How to Manage Customer Credit Information | Microsoft Docs
+    description: In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can add comments to customer credit information. You can also hold and block customers with bad credit before shipping or invoicing occurs.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,11 +16,11 @@
 
 ---
 # How to: Manage Customer Credit Information
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can add comments to customer credit information. You can also hold and block customers with bad credit before shipping or invoicing occurs.  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can add comments to customer credit information. You can also hold and block customers with bad credit before shipping or invoicing occurs.  
   
 ### To add comments to customer credit information  
   
-1.  In the **Search** box, enter **Credit Management**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Credit Management**, and then choose the related link.  
   
 2.  In the **Customer List - Credit Mgmt.** window, select a customer. On the **Navigate** tab, in the **Customer** group, choose **Comments**.  
   
@@ -35,7 +35,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can add comments to cu
   
 ### To prevent an order from shipping or invoicing  
   
-1.  In the **Search** box, enter **Customers**, and then choose the related link in **Receivables**.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link in **Receivables**.  
   
 2.  Select the customer. On the **Navigate** tab, in the **History** group, choose **Ledger Entries**.  
   
@@ -48,7 +48,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can add comments to cu
   
 ### To block a sales order for a customer  
   
-1.  In the **Search** box, enter **Customers**, and then choose the related link in **Receivables**.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link in **Receivables**.  
   
 2.  Select a customer. On the **Home** tab, in the **Manage** group, choose **Edit**.  
   

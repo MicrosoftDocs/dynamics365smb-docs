@@ -47,4 +47,5 @@ This topic defines the key terms that are used in cost accounting.
 
 ## See Also  
  [About Cost Accounting](about-cost-accounting.md)   
- [Manage Cost Accounting](manage-cost-accounting.md)
+ [Accounting for Costs](manage-cost-accounting.md)  
+ [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

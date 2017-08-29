@@ -1,5 +1,5 @@
 ---
-    title: How to: Create Remittance Accounts | Microsoft Docs
+    title: How to Create Remittance Accounts | Microsoft Docs
     description: You must create one remittance account for each bank account where payment is made. If an account is used to make payments to both domestic and foreign vendors, this account must be created two times—one time for domestic payments and one time for foreign payments.
     services: project-madeira
     documentationcenter: ''
@@ -23,7 +23,7 @@ You must create one remittance account for each bank account where payment is ma
   
 ### To create a remittance account  
   
-1.  In the **Search** box, enter **Remittance Account Overview**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Remittance Account Overview**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **New** group, choose **New**.  
   

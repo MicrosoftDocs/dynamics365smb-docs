@@ -1,5 +1,5 @@
 ---
-    title: How to: Create Report 349 | Microsoft Docs
+    title: How to Create Report 349 | Microsoft Docs
     description: You must submit a periodic report of trade with other EU countries/regions to the tax authorities. This declaration, Report 349, must be submitted to the tax authorities electronically on the tax agency website or on a CD-ROM. For more information, see the [Spanish Tax Agency](http://go.microsoft.com/fwlink/?LinkId=238181) website.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ You must submit a periodic report of trade with other EU countries/regions to th
   
 ### To create Report 349  
   
-1.  In the **Search** box, enter **Make 349 Declaration**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Make 349 Declaration**, and then choose the related link.  
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   

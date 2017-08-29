@@ -1,5 +1,5 @@
 ---
-    title: How to: Calculate Tax Differences | Microsoft Docs
+    title: How to Calculate Tax Differences | Microsoft Docs
     description: Tax differences are variations in tax amounts caused by the different rules for recognizing income and expenses between entries for book accounting and tax accounting.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ Tax differences are variations in tax amounts caused by the different rules for 
   
 ### To calculate tax differences  
   
-1.  In the **Search** box, enter **Create Tax Calc.**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Create Tax Calc.**, and then choose the related link.  
   
 2.  Fill in the fields as described in the following table.  
   

@@ -1,5 +1,5 @@
 ---
-    title: How to: Export GDPdU Data | Microsoft Docs
+    title: How to Export GDPdU Data | Microsoft Docs
     description: You can export financial data and tax data according to the process for data access and testability of digital documents (GDPdU). You can also select various options to be included in an XML file.
     services: project-madeira
     documentationcenter: ''
@@ -18,11 +18,11 @@
 # How to: Export GDPdU Data
 You can export financial data and tax data according to the process for data access and testability of digital documents (GDPdU). You can also select various options to be included in an XML file.  
   
- If there is no data to export, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] creates empty files.  
+ If there is no data to export, [!INCLUDE[d365fin](includes/d365fin_md.md)] creates empty files.  
   
 ### To export GDPdU data  
   
-1.  In the **Search** box, enter **Export Business Data**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Export Business Data**, and then choose the related link.  
   
 2.  In the **GDPdU Export** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   

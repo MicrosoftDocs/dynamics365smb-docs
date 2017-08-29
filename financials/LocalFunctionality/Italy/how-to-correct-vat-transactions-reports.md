@@ -1,5 +1,5 @@
 ---
-    title: How to: Correct VAT Transactions Reports | Microsoft Docs
+    title: How to Correct VAT Transactions Reports | Microsoft Docs
     description: ### To send a corrected VAT transaction report
     services: project-madeira
     documentationcenter: ''
@@ -18,7 +18,7 @@
 # How to: Correct VAT Transactions Reports
 ### To send a corrected VAT transaction report  
   
-1.  In the **Search** box, enter **VAT Reports**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Reports**, and then choose the related link.  
   
 2.  Create a new report. For more information, see [How to: Create Electronic VAT Transactions Reports](how-to-create-electronic-vat-transactions-reports.md).  
   

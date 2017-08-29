@@ -1,5 +1,5 @@
 ---
-    title: How to: Post Preliminary Invoices by Using Inward Registration | Microsoft Docs
+    title: How to Post Preliminary Invoices by Using Inward Registration | Microsoft Docs
     description: Use an inward registration to post a preliminary purchase invoice, which you overwrite later when you post the invoice normally. For more information, see Inward Registration.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ Use an inward registration to post a preliminary purchase invoice, which you ove
   
 ### To post a preliminary invoice  
   
-1.  In the **Search** box, enter **Purchase Invoices**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoices**, and then choose the related link.  
   
 2.  Select an invoice, or create a new invoice.  
   

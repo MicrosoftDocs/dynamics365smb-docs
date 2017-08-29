@@ -1,6 +1,6 @@
 ---
     title: Finalize Service and Invoice | Microsoft Docs
-    description: Ease in invoicing your service orders is a key feature of [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. You can send an invoice to your customers at any time, or create invoices periodically.
+    description: Ease in invoicing your service orders is a key feature of [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can send an invoice to your customers at any time, or create invoices periodically.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,11 +16,11 @@
 
 ---
 # Finalize Service and Invoice
-Ease in invoicing your service orders is a key feature of [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. You can send an invoice to your customers at any time, or create invoices periodically.  
+Ease in invoicing your service orders is a key feature of [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can send an invoice to your customers at any time, or create invoices periodically.  
   
  To create an invoice directly, you can use the **Service Contract** window. You can also set up your system so that a service technician in the field can create an invoice for service that is not connected to a contract or order.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

@@ -1,5 +1,5 @@
 ---
-    title: How to: Include Company Registration Numbers on Sales Reports and Purchase Reports | Microsoft Docs
+    title: How to Include Company Registration Numbers on Sales Reports and Purchase Reports | Microsoft Docs
     description: When generating certain sales reports and purchase reports, you can print registration numbers on the reports.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ When generating certain sales reports and purchase reports, you can print regist
   
 ### To print company registration numbers on sales reports  
   
-1.  In the **Search** box, enter **Company Information**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.  
   
 2.  On the **Tax Office** FastTab, in the **Registration No.** field, enter the registration number of the company.  
   
@@ -28,7 +28,7 @@ When generating certain sales reports and purchase reports, you can print regist
   
 ### To print company registration numbers on purchase reports  
   
-1.  In the **Search** box, enter **Vendors**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.  
   
 2.  Select the vendor that you want to add a registration number for, and then, on the **Home** tab, choose **Edit**.  
   

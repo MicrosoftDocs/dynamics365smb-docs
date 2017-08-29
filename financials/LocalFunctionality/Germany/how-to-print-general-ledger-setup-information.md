@@ -1,6 +1,6 @@
 ---
-    title: How to: Print General Ledger Setup Information | Microsoft Docs
-    description: Before you use [!INCLUDE[d365fin](../../includes/d365fin_md.md)] in the daily business, you can run the **G/L Setup Information** report to display the master data that you have set up. You can look over this master data so that you have a baseline to compare to, and then verify that you have set up posting groups correctly, for example.
+    title: How to Print General Ledger Setup Information | Microsoft Docs
+    description: Before you use [!INCLUDE[d365fin](includes/d365fin_md.md)] in the daily business, you can run the **G/L Setup Information** report to display the master data that you have set up. You can look over this master data so that you have a baseline to compare to, and then verify that you have set up posting groups correctly, for example.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,11 +16,11 @@
 
 ---
 # How to: Print General Ledger Setup Information
-Before you use [!INCLUDE[d365fin](../../includes/d365fin_md.md)] in the daily business, you can run the **G/L Setup Information** report to display the master data that you have set up. You can look over this master data so that you have a baseline to compare to, and then verify that you have set up posting groups correctly, for example.  
+Before you use [!INCLUDE[d365fin](includes/d365fin_md.md)] in the daily business, you can run the **G/L Setup Information** report to display the master data that you have set up. You can look over this master data so that you have a baseline to compare to, and then verify that you have set up posting groups correctly, for example.  
   
 ### To print general ledger setup information  
   
-1.  In the **Search** box, enter **G/L Setup Information**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Setup Information**, and then choose the related link.  
   
 2.  On the **Options** FastTab, in the **Setup Information** field, select the master data area as described in the following table.  
   

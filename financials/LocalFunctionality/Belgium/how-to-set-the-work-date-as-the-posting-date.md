@@ -1,5 +1,5 @@
 ---
-    title: How to: Set the Work Date as the Posting Date | Microsoft Docs
+    title: How to Set the Work Date as the Posting Date | Microsoft Docs
     description: You can set up the general ledger to use the work date as the posting date for customer or vendor open entries on an invoice, payment, or credit memo.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ You can set up the general ledger to use the work date as the posting date for c
   
 ### To set the work date as the posting date  
   
-1.  In the **Search** box, enter **General Ledger Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Setup**, and then choose the related link.  
   
 2.  On the **Application** FastTab, select the **Use Workdate for Appl./Unappl.** field.  
   

@@ -70,7 +70,7 @@ When you have completed all activities for a job, including usage posting and in
      The job WIP general ledger entries created by running the batch job will have the **Job Complete** check box selected to show they are completion entries.
 
 ## See Also
-[Manage Projects](projects-manage-projects.md)  
+[Managing Projects](projects-manage-projects.md)  
 [Finance](finance.md)  
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)      

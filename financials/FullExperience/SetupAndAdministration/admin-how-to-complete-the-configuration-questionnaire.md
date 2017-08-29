@@ -1,6 +1,6 @@
 ---
-    title: How to: Complete the Configuration Questionnaire | Microsoft Docs
-    description: You use the setup questionnaire to structure and document a detailed discussion about the customer’s specific needs. You also use it to collect setup data from the customer to configure the relevant [!INCLUDE[d365fin](../../includes/d365fin_md.md)] setup tables, such as the general ledger, inventory, and customers.
+    title: How to Complete the Configuration Questionnaire | Microsoft Docs
+    description: You use the setup questionnaire to structure and document a detailed discussion about the customer’s specific needs. You also use it to collect setup data from the customer to configure the relevant [!INCLUDE[d365fin](includes/d365fin_md.md)] setup tables, such as the general ledger, inventory, and customers.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # How to: Complete the Configuration Questionnaire
-You use the setup questionnaire to structure and document a detailed discussion about the customer’s specific needs. You also use it to collect setup data from the customer to configure the relevant [!INCLUDE[d365fin](../../includes/d365fin_md.md)] setup tables, such as the general ledger, inventory, and customers.  
+You use the setup questionnaire to structure and document a detailed discussion about the customer’s specific needs. You also use it to collect setup data from the customer to configure the relevant [!INCLUDE[d365fin](includes/d365fin_md.md)] setup tables, such as the general ledger, inventory, and customers.  
   
 > [!NOTE]  
 >  You can also create your own setup questionnaire to meet your needs.  
@@ -25,7 +25,7 @@ You use the setup questionnaire to structure and document a detailed discussion 
   
 1.  In the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/-$-s_company-how-to-select-a-company-$-.md).  
   
-2.  In the **Search** box, enter **Configuration Questionnaire**, and then choose the related link.  
+2.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Questionnaire**, and then choose the related link.  
   
 3.  In the list, select the questionnaire for the company.  
   
@@ -45,7 +45,7 @@ You use the setup questionnaire to structure and document a detailed discussion 
   
      On the **Home** tab, in the **Process** group, choose **Question Areas** to begin the process of validating and applying the answers to the setup questionnaire.  
   
- You can now review the completed setup questionnaire before applying the data to the [!INCLUDE[d365fin](../../includes/d365fin_md.md)] database.  
+ You can now review the completed setup questionnaire before applying the data to the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.  
   
  The next procedure provides an alternative way of accessing configuration questionnaires. It assumes that the configuration package that you have been provided includes questionnaires.  
   

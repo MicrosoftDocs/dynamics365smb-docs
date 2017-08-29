@@ -28,7 +28,7 @@ You can encrypt data on the ADD INCLUDE<!--[!INCLUDE[nav_server](../../includes/
 > 3.  Import the data into another database. For more information, see [How to: Export and Import Companies and Other Data in Clients](../How%20to:%20Export%20and%20Import%20Companies%20and%20Other%20Data%20in%20Clients.md).  
 > 4.  Import the data encryption key. For more information, see [How to: Export and Import Encryption Keys](../how-to-export-and-import-encryption-keys.md).  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

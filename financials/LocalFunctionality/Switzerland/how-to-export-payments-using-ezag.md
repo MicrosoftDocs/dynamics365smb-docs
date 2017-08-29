@@ -1,5 +1,5 @@
 ---
-    title: How to: Export Payments Using EZAG | Microsoft Docs
+    title: How to Export Payments Using EZAG | Microsoft Docs
     description: You can generate a file for electronic payment using the Elektronischer Zahlungsauftrag (EZAG) method, and export it for the bank to use for the payments.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ You can generate a file for electronic payment using the Elektronischer Zahlungs
   
 ### To export payments using EZAG  
   
-1.  In the **Search** box, enter **Payment Journals**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.  
   
 2.  In the **Batch Name** field, select the journal batch name.  
   

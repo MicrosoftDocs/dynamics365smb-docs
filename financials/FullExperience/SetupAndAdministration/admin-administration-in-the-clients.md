@@ -1,6 +1,6 @@
 ---
     title: Administration in the Clients | Microsoft Docs
-    description: After you create users and assign them to permission sets, add them to profiles, which will align them with Role Centers in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
+    description: After you create users and assign them to permission sets, add them to profiles, which will align them with Role Centers in [!INCLUDE[d365fin](includes/d365fin_md.md)].
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # Administration in the Clients
-After you create users and assign them to permission sets, add them to profiles, which will align them with Role Centers in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+After you create users and assign them to permission sets, add them to profiles, which will align them with Role Centers in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
   
 -   [Profiles and Role Centers](../profiles-and-role-centers.md)  
   

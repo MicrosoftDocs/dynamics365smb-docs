@@ -111,7 +111,7 @@ One aspect of planning jobs is deciding which posting accounts to use for job co
 
 ## See Also
 [Set Up Project Management](projects-setup-projects.md)  
-[Manage Projects](projects-manage-projects.md)  
+[Managing Projects](projects-manage-projects.md)  
 [Finance](finance.md)  
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)      

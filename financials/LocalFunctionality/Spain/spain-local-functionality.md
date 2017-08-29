@@ -1,6 +1,6 @@
 ---
     title: Spain Local Functionality | Microsoft Docs
-    description: The following topics describe the local functionality in the Spanish version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
+    description: The following topics describe the local functionality in the Spanish version of [!INCLUDE[d365fin](includes/d365fin_md.md)].
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # Spain Local Functionality
-The following topics describe the local functionality in the Spanish version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+The following topics describe the local functionality in the Spanish version of [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## In This Section  
  [What's New 17](what-s-new-17.md)  

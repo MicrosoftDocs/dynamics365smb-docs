@@ -1,6 +1,6 @@
 ---
     title: Delete Documents | Microsoft Docs
-    description: This section provides an overview of how to delete documents in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
+    description: This section provides an overview of how to delete documents in [!INCLUDE[d365fin](includes/d365fin_md.md)].
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # Delete Documents
-This section provides an overview of how to delete documents in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+This section provides an overview of how to delete documents in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
   
 ## See Also  
  [How to: Delete Invoiced Blanket Purchase Orders](../how-to-delete-invoiced-blanket-purchase-orders.md)   

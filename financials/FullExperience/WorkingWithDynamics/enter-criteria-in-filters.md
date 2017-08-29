@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Enter Criteria in Filters
 When you enter criteria, you can use all the numbers and letters that you can normally use in the field. In addition, you can use special symbols to further filter the results. For information on how to use the Quick Filter, see [How to: Use Quick Filter on Pages](../FullExperience/how-to-use-quick-filter-on-pages.md).  
   

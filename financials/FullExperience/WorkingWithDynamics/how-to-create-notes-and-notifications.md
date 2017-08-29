@@ -1,5 +1,5 @@
 ---
-    title: How to: Create Notes and Notifications | Microsoft Docs
+    title: How to Create Notes and Notifications | Microsoft Docs
     description: The ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/rtc_md.md)]--> enables you to attach a note to any record in the application. For example, if you have extra information about a sales order that does not fit in any of the fields on the sales order, you can write a note. Then it will be available on the sales order window for you and any of your colleagues that look at the sales order.
     services: project-madeira
     documentationcenter: ''
@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create Notes and Notifications
 The ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/rtc_md.md)]--> enables you to attach a note to any record in the application. For example, if you have extra information about a sales order that does not fit in any of the fields on the sales order, you can write a note. Then it will be available on the sales order window for you and any of your colleagues that look at the sales order.  
   

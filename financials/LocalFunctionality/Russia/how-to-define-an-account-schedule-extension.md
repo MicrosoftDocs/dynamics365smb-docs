@@ -1,6 +1,6 @@
 ---
-    title: How to: Define an Account Schedule Extension | Microsoft Docs
-    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] enables you to define an extension for an account schedule line. Extensions are useful if you want to filter the data of your general ledger accounts.
+    title: How to Define an Account Schedule Extension | Microsoft Docs
+    description: [!INCLUDE[d365fin](includes/d365fin_md.md)] enables you to define an extension for an account schedule line. Extensions are useful if you want to filter the data of your general ledger accounts.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,11 +16,11 @@
 
 ---
 # How to: Define an Account Schedule Extension
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] enables you to define an extension for an account schedule line. Extensions are useful if you want to filter the data of your general ledger accounts.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] enables you to define an extension for an account schedule line. Extensions are useful if you want to filter the data of your general ledger accounts.  
   
 ### To define an account schedule extension  
   
-1.  In the **Search** box, enter **Account Schedule**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Account Schedule**, and then choose the related link.  
   
 2.  In the **Name** field, select the account schedule for which you want to define an extension.  
   

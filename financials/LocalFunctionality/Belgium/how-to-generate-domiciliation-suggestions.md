@@ -1,6 +1,6 @@
 ---
-    title: How to: Generate Domiciliation Suggestions | Microsoft Docs
-    description: After you have set up domiciliations, you can start generating domiciliation suggestions. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can only create domiciliation suggestions for domestic customers.
+    title: How to Generate Domiciliation Suggestions | Microsoft Docs
+    description: After you have set up domiciliations, you can start generating domiciliation suggestions. In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can only create domiciliation suggestions for domestic customers.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,11 +16,11 @@
 
 ---
 # How to: Generate Domiciliation Suggestions
-After you have set up domiciliations, you can start generating domiciliation suggestions. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can only create domiciliation suggestions for domestic customers.  
+After you have set up domiciliations, you can start generating domiciliation suggestions. In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can only create domiciliation suggestions for domestic customers.  
   
 ### To generate domiciliation suggestions  
   
-1.  In the **Search** box, enter **Domiciliation Journal**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Domiciliation Journal**, and then choose the related link.  
   
 2.  In the **Batch Name** field, select the required journal batch, and on the **Home** tab, in the **Progress** group, choose **Suggest Domiciliations**.  
   

@@ -1,5 +1,5 @@
 ---
-    title: How to: Make Manual Corrections to VAT | Microsoft Docs
+    title: How to Make Manual Corrections to VAT | Microsoft Docs
     description: You can make corrections to posted VAT entries without posting the correction into the VAT or general ledger entries. This is useful if you need to make a change to the total sales or purchases VAT amounts without changing the VAT base. For example, you can manually correct VAT if you receive an invoice from a vendor who has calculated VAT incorrectly.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ You can make corrections to posted VAT entries without posting the correction in
   
 ### To make manual corrections to VAT  
   
-1.  In the **Search** box, enter **VAT Statement Preview**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Statement Preview**, and then choose the related link.  
   
 2.  Select the line that needs to be corrected. You can make the VAT correction on both the **Row Totaling** and **VAT Entry Totaling** row **Type**.  
   

@@ -1,6 +1,6 @@
 ---
     title: Russia Local Functionality | Microsoft Docs
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to calculate VAT due based on Russian VAT rates and regulations.
+    description: In [!INCLUDE[d365fin](includes/d365fin_md.md)] to calculate VAT due based on Russian VAT rates and regulations.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # Russia Local Functionality
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to calculate VAT due based on Russian VAT rates and regulations.  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] to calculate VAT due based on Russian VAT rates and regulations.  
   
 ## Getting Started with Russia Local Functionality  
  Use the following table to learn more about local functionality that is available for Russia.  

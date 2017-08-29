@@ -1,5 +1,5 @@
 ---
-    title: How to: Create a Configuration Package | Microsoft Docs
+    title: How to Create a Configuration Package | Microsoft Docs
     description: When you configure a new company, table relations are recognized and processed. Data is imported and applied in the correct order. Dimension tables are also imported if they are included in the configuration package.
     services: project-madeira
     documentationcenter: ''
@@ -29,7 +29,7 @@ When you configure a new company, table relations are recognized and processed. 
   
 ### To create a configuration package  
   
-1.  In the **Search** box, enter **Configuration Packages**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Packages**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **New** group, choose **New**.  
   
@@ -45,7 +45,7 @@ When you configure a new company, table relations are recognized and processed. 
   
 6.  On the **Home** tab, in the **Process** group, choose **Select All** to add all tables to the package, or select the **Selected** check box for each table in the list that you want to add.  
   
-7.  Choose the **OK** button. The count of tables that you have selected is indicated in the **Select Tables** field. Specify additional options, and then choose the **OK** button. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] tables are added to the lines of the **Config. Package** card.  
+7.  Choose the **OK** button. The count of tables that you have selected is indicated in the **Select Tables** field. Specify additional options, and then choose the **OK** button. [!INCLUDE[d365fin](includes/d365fin_md.md)] tables are added to the lines of the **Config. Package** card.  
   
     > [!NOTE]  
     >  You can also do this in the configuration worksheet. Select the tables you want to include in the package, and on the **Actions** tab, in the **Functions** group, choose **Assign Package**.  
@@ -98,7 +98,7 @@ When you configure a new company, table relations are recognized and processed. 
   
 ### To copy a configuration package  
   
-1.  In the **Search** box, enter **Configuration Packages**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Packages**, and then choose the related link.  
   
 2.  Select a package from the list, and on the **Actions** tab, in the **Functions** group, choose **Copy Package**.  
   

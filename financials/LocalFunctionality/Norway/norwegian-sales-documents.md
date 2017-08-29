@@ -1,6 +1,6 @@
 ---
     title: Norwegian Sales Documents | Microsoft Docs
-    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] supports two sets of sales documents. A document set consists of a sales invoice, sales credit memo, reminder, and finance charge memo.
+    description: [!INCLUDE[d365fin](includes/d365fin_md.md)] supports two sets of sales documents. A document set consists of a sales invoice, sales credit memo, reminder, and finance charge memo.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # Norwegian Sales Documents
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] supports two sets of sales documents. A document set consists of a sales invoice, sales credit memo, reminder, and finance charge memo.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] supports two sets of sales documents. A document set consists of a sales invoice, sales credit memo, reminder, and finance charge memo.  
   
  Set 1 is based on international reports. You cannot print Norwegian giro or use paper sources/trays in this set of reports.  
   

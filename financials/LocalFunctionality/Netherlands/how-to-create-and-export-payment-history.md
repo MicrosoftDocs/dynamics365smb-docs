@@ -1,5 +1,5 @@
 ---
-    title: How to: Create and Export Payment History | Microsoft Docs
+    title: How to Create and Export Payment History | Microsoft Docs
     description: After you have created a proposal and made any modifications, you can process the proposal to create a payment history. Proposals can be created manually or automatically from a vendor or customer ledger entry. For more information, see [How to: Create Proposals](how-to-create-proposals.md).
     services: project-madeira
     documentationcenter: ''
@@ -30,7 +30,7 @@ After you have created a proposal and made any modifications, you can process th
   
 ### To create a payment history for a proposal  
   
-1.  In the **Search** box, enter **Telebank - Bank Overview**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Telebank - Bank Overview**, and then choose the related link.  
   
      If you want to print the proposal before you process it, choose the **Print** button.  
   

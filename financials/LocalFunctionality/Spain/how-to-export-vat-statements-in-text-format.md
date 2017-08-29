@@ -1,5 +1,5 @@
 ---
-    title: How to: Export VAT Statements in Text Format | Microsoft Docs
+    title: How to Export VAT Statements in Text Format | Microsoft Docs
     description: You can export a VAT statement in text format and then submit it electronically to the tax authorities.
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ You can export a VAT statement in text format and then submit it electronically 
   
 ### To export a VAT statement in text format  
   
-1.  In the **Search** box, enter **VAT**, and then choose the link for the **Periodic Activities** area in the **Financial Management** department.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT**, and then choose the link for the **Periodic Activities** area in the **Financial Management** department.  
   
 2.  Under **Tasks**, choose **VAT Statements**.  
   
@@ -31,7 +31,7 @@ You can export a VAT statement in text format and then submit it electronically 
     > [!IMPORTANT]  
     >  The VAT statement name must be of the template type **One Column Report**.  
     >   
-    >  In the standard version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the VAT statement name for the 320 telematic statement is of the type **One Column Report**.  
+    >  In the standard version of [!INCLUDE[d365fin](includes/d365fin_md.md)], the VAT statement name for the 320 telematic statement is of the type **One Column Report**.  
   
 4.  In the **Telematic VAT Declaration** window, on the **ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](../../includes/bp_optionsheading_md.md)]-->** FastTab, fill in the fields as described in the following table.  
   

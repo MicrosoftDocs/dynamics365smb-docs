@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Find Any Entry with Navigate
 Shows the number and type of entries that have the same document number or posting date. You can also use this feature to find the documents and entries where certain lot numbers and serial numbers are used. This feature is useful if you want to find the ledger entries that resulted from certain transactions. When you search by document number, you can print the summary from the **Document Entries** report.  
   

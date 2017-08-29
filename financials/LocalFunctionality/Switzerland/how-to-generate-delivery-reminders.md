@@ -1,5 +1,5 @@
 ---
-    title: How to: Generate Delivery Reminders | Microsoft Docs
+    title: How to Generate Delivery Reminders | Microsoft Docs
     description: In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-create-delivery-reminders-manually.md).
     services: project-madeira
     documentationcenter: ''
@@ -23,7 +23,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-create-delivery-remind
   
 ### To generate delivery reminders for all overdue deliveries  
   
-1.  In the **Search** box, enter **Delivery Reminder**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Delivery Reminder**, and then choose the related link.  
   
 2.  On the **Home** tab, choose **New**.  
   

@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Interest on Arrears | Microsoft Docs
+    title: How to Set Up Interest on Arrears | Microsoft Docs
     description: For each finance charge term, you can specify how interest on arrears must be calculated. You can set up finance charge calculations with different interest rates for different periods.
     services: project-madeira
     documentationcenter: ''
@@ -24,7 +24,7 @@ For each finance charge term, you can specify how interest on arrears must be ca
   
 ### To set up interest on arrears  
   
-1.  In the **Search** box, enter **Finance Charge Terms**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Finance Charge Terms**, and then choose the related link.  
   
 2.  In the **Finance Charge Terms** window, select the required finance charge term entry, and then, on the **Actions** tab, choose **Int. on Arrears**.  
   
@@ -44,7 +44,7 @@ For each finance charge term, you can specify how interest on arrears must be ca
   
 ### To apply interest on arrears to a customer  
   
-1.  In the **Search** box, enter **Customers**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.  
   
 2.  Select the customer to whom interest on arrears must be applied, and then, on the **Home** tab, in the **Manage** group, choose **Edit**.  
   

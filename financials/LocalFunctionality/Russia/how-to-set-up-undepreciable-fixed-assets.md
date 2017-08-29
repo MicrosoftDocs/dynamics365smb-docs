@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Undepreciable Fixed Assets | Microsoft Docs
+    title: How to Set Up Undepreciable Fixed Assets | Microsoft Docs
     description: You need to create or select a card for the fixed asset that should be repaid. The following procedure shows how to open the fixed asset card.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ You need to create or select a card for the fixed asset that should be repaid. T
   
 ### To set up an undepreciable fixed asset  
   
-1.  In the **Search** box, enter **Fixed Assets**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Fixed Assets**, and then choose the related link.  
   
 2.  In the **Fixed Asset Card** window, on the **Depreciation** FastTab, select the **Undepreciable FA** field.  
   

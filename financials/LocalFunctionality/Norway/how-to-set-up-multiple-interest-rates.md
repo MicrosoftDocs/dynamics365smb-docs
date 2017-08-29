@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Multiple Interest Rates | Microsoft Docs
+    title: How to Set Up Multiple Interest Rates | Microsoft Docs
     description: You can calculate finance charges with multiple interest rates for a specific period. The interest calculation is similar for all financial charges, with variation only in the rate of interest for a specific period.
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ You can calculate finance charges with multiple interest rates for a specific pe
   
 ### To set up multiple interest rates  
   
-1.  In the **Search** box, enter **Finance Charge Terms**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Finance Charge Terms**, and then choose the related link.  
   
 2.  In the **Finance Charge Terms** window, select the required finance term, and then, on the **Navigate** tab, choose **Interest Rates**.  
   
@@ -36,7 +36,7 @@ You can calculate finance charges with multiple interest rates for a specific pe
   
 4.  Choose the **OK** button.  
   
-5.  In the **Search** box, enter **Reminder Terms**, and then choose the related link.  
+5.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Reminder Terms**, and then choose the related link.  
   
 6.  In the **Reminder Terms** window, select the required reminder term, and then, on the **Actions** tab, choose **Levels**.  
   

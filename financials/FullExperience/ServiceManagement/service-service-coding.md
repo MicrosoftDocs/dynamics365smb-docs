@@ -1,6 +1,6 @@
 ---
     title: Service Coding | Microsoft Docs
-    description: To successfully create a service management implementation, you should decide up front what your standard service offerings and scenarios will be. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] has features to make this easy.
+    description: To successfully create a service management implementation, you should decide up front what your standard service offerings and scenarios will be. [!INCLUDE[d365fin](includes/d365fin_md.md)] has features to make this easy.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,11 +16,11 @@
 
 ---
 # Service Coding
-To successfully create a service management implementation, you should decide up front what your standard service offerings and scenarios will be. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] has features to make this easy.  
+To successfully create a service management implementation, you should decide up front what your standard service offerings and scenarios will be. [!INCLUDE[d365fin](includes/d365fin_md.md)] has features to make this easy.  
   
  For example, you can set up a group of service codes to describe what service items are part of your solution. Each code represents a specific group of service lines that typically go together. A technician filling out a service order has to only select the appropriate service code and have the associated information automatically filled in, which helps standardize information gathering.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

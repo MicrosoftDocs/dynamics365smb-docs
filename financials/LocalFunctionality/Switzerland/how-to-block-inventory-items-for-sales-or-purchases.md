@@ -1,6 +1,6 @@
 ---
-    title: How to: Block Inventory Items for Sales or Purchases | Microsoft Docs
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], an item can be marked as blocked for sales, blocked for purchase, or blocked for all purposes.
+    title: How to Block Inventory Items for Sales or Purchases | Microsoft Docs
+    description: In [!INCLUDE[d365fin](includes/d365fin_md.md)], an item can be marked as blocked for sales, blocked for purchase, or blocked for all purposes.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # How to: Block Inventory Items for Sales or Purchases
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], an item can be marked as blocked for sales, blocked for purchase, or blocked for all purposes.  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], an item can be marked as blocked for sales, blocked for purchase, or blocked for all purposes.  
   
  The following table illustrates what occurs when items are blocked.  
   
@@ -28,7 +28,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], an item can be marked as b
   
 ### To block inventory items for sales  
   
-1.  In the **Search** box, enter **Items**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
   
 2.  Select the item that you want to block. On the **Home** tab, in the **Manage** group, choose **Edit**.  
   
@@ -38,7 +38,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], an item can be marked as b
   
 ### To block inventory items for purchase  
   
-1.  In the **Search** box, enter **Items**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
   
 2.  Select the item that you want to block. On the **Home** tab, in the **Manage** group, choose **Edit**.  
   

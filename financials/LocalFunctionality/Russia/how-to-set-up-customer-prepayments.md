@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Customer Prepayments | Microsoft Docs
+    title: How to Set Up Customer Prepayments | Microsoft Docs
     description: Prepayments are advance payments on sales orders that are received, invoiced, and posted before the final invoice is issued. For example, you may require a deposit before you manufacture and ship an item to a customer. Prepayments let you invoice and collect advance payments from customers and post the payments against the correct invoices and accounts.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ Prepayments are advance payments on sales orders that are received, invoiced, an
   
 ### To set up customer prepayments  
   
-1.  In the Search box, enter **Sales & Receivables Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales & Receivables Setup**, and then choose the related link.  
   
 2.  On the **Numbering** FastTab, verify that the number series for the **Posted Prepmt. Inv. Nos.** is the same as the **Posted Invoice Nos.**. Also verify that the number series for the **Posted Prepmt. Cr. Memo Nos.** is the same as the **Posted Credit Memo Nos.**.  
   

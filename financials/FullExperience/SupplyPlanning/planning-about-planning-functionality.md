@@ -106,6 +106,6 @@ The planning system takes all demand and supply data into account, nets the resu
  Order Planning   
  [How to: Run MPS and MRP](../how-to-run-mps-and-mrp.md)   
  [Design Details: Supply Planning](design-details-supply-planning.md)   
- [About Forecasting Functionality](../about-forecasting-functionality.md)   
+ [About Forecasting Functionality](../production-about-forecasting-functionality.md)   
  [How to: Plan Project Orders](../how-to-plan-project-orders.md)   
  [How to: Plan for New Demand](../how-to-plan-for-new-demand.md)

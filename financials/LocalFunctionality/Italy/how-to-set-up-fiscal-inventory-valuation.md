@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Fiscal Inventory Valuation | Microsoft Docs
+    title: How to Set Up Fiscal Inventory Valuation | Microsoft Docs
     description: To use fiscal inventory valuation, you must set up inventory valuation methods.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ To use fiscal inventory valuation, you must set up inventory valuation methods.
   
 ### To set up fiscal inventory valuation for item costing  
   
-1.  In the **Search** box, enter **Item Costing Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Costing Setup**, and then choose the related link.  
   
 2.  On the **General** FastTab, fill in the fields as described in the following table.  
   
@@ -33,7 +33,7 @@ To use fiscal inventory valuation, you must set up inventory valuation methods.
   
 ### To set up fiscal inventory valuation for an item  
   
-1.  In the **Search** box, enter **Items**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
   
 2.  In the **Item List** window select each item, and then, on the **General** FastTab, in the **Inventory Valuation** field, specify the inventory valuation type.  
   

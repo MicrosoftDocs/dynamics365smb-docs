@@ -1,5 +1,5 @@
 ---
-    title: How to: Display Work Center Statistics | Microsoft Docs
+    title: How to Display Work Center Statistics | Microsoft Docs
     description: You can view work center statistics to get information about expected and actual capacity, quantity, and value of production orders.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ You can view work center statistics to get information about expected and actual
   
 ### To display work center statistics  
   
-1.  In the **Search** box, enter **Work Centers**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Work Centers**, and then choose the related link.  
   
 2.  Open the **Work Center** card from the list.  
   

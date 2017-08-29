@@ -1,5 +1,5 @@
 ---
-    title: Codeunit 12 Changes: Changes in General Journal Post Procedures | Microsoft Docs
+    title: Design Details - Codeunit 12 Changes in General Journal Post Procedures | Microsoft Docs
     description: The following changes have been implemented in this release of [!INCLUDE[d365fin](includes/d365fin_md.md)].
     services: project-madeira
     documentationcenter: ''
@@ -17,7 +17,7 @@
 ---
 # Codeunit 12 Changes: Changes in General Journal Post Procedures
 The following changes have been implemented in this release of [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-  
+
 |**Microsoft Dynamics NAV 2009 R2**|**Microsoft Dynamics NAV 2013 R2**|**Comment**|  
 |----------------------------------------|----------------------------------------|-----------------|  
 |GetGLReg|GetGLReg|Updated|  
@@ -185,6 +185,6 @@ The following changes have been implemented in this release of [!INCLUDE[d365fin
 ||UpdateDimensionsFromVendLedgEntry|Added|  
 ||UpdateTotalAmounts|Added|  
 ||CreateGLEntriesForTotalAmounts|Added|  
-  
+
 ## See Also  
  [Codeunit 12 Changes: Mapping Global Variables for General Journal Post Line](codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)

@@ -23,7 +23,7 @@ If internal operation areas such as production or assembly exist in basic wareho
 - **Inventory Put-away** window.
 
 > [!NOTE]
-> Even though the settings are called **Require Pick** and **Require Put-away**, you can still post receipts and shipments directly from the source business documents at location where you select these check boxes.  
+> Even though the settings are called **Require Pick** and **Require Put-away**, you can still post receipts and shipments directly from the source business documents at locations where you select these check boxes.  
 
 To use these windows with internal operations, such as to pick and move components to production, you must make some or all the following setup steps depending on how much control you need:  
 

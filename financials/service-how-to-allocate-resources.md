@@ -23,6 +23,19 @@ You can allocate resources, for example, technicians, by using the **Dispatch Bo
 
 You can allocate the same resource, for example, a technician, or resource group to all the service items in a service order. Allocation entries are created for the other service items in the order with the same resource number and allocation date as the line you allocated. The allocated hours are the hours you allocated divided by the number of service items in the order. The **Status** field is automatically set to **Active** for all the entries that were created.
 
+## To see an overview of service orders and service quotes  
+You may often need to see the list of service orders or service quotes that meet certain requirements to be able to perform specific actions with them one by one. For example,you may need to allocate resources to service orders that belong to a specific customer.  
+  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Dispatch Board**, and then choose the related link.  
+2. In the **Document Filter** field, choose the type of the documents you want to see. 
+3. To get a list of documents that contain service tasks a certain resource or resource group is allocated to, fill in the **Resource Filter** and **Resource Group Filter** fields and press Enter.  
+4. To get a list of documents with a certain response date or response dates within a certain date period, fill in the **Response Date Filter** field and press **Enter**.  
+5. To get a list of documents with a specified allocation state or document status, fill in the **Allocation Filter/Status Filter** field and press **Enter**.  
+6. To get a list of documents that belong to a certain contract, customer, or zone, fill in the **Contract Filter/Customer Filter/Zone Filter** field and press **Enter**.  
+7. Choose a line that corresponds to a service order or service quote, and then choose the **Show Document** action.  
+  
+    The **Service Order** or **Service Quote** page opens, and you can work with the document. To return to the **Dispatch Board** page, choose **OK**.
+
 ## To allocate a resource using resource or resource group availability    
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Dispatch Board**, and choose the related link.  
 2. Choose the service order, and then choose the **Resource Allocations** action.  

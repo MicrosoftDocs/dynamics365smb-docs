@@ -1,9 +1,9 @@
 ---
-    title: How to Create Service Contracts and Service Contract Quotes | Microsoft Docs
+    title: How to Work with Service Contracts and Service Contract Quotes | Microsoft Docs
     description: You can create a service contract either manually or from a service contract quote. You can create a contract based on a service contract quote. 
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: bholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article
@@ -11,11 +11,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
+    ms.date: 08/29/2017
+    ms.author: bholtorf
 
 ---
-# How to: Create Service Contracts and Service Contract Quotes
+# How to: Work with Service Contracts and Service Contract Quotes
 You can create a service contract either manually or from a service contract quote. You can use a service contract quote as a forerunner of a service contract, in which your company makes an offer to the customer and obtains customer approval before you can convert it to a service contract. The procedures for creating either a service contract or service contract quote are similar.  
   
 ## To create a service contract or service contract quote  
@@ -26,7 +26,7 @@ You can create a service contract either manually or from a service contract quo
 5. In the **Customer No.** field, choose the customer.  
 6. If you do not want an annual amount difference to be distributed automatically, choose the **Allow Unbalanced Amounts** check box. The values in the **Annual Amount** and **Calcd. Annual Amount** fields are not automatically equalized. If you want the program to do automatically distribute any annual amount difference that might occur from a change in the service contract, leave the **Allow Unbalanced Amounts** check box clear.  
 7. Add contract lines to the service contract or service contract quote.  
-8. Fill in the rest of the fields in the **Service Contract Quote** window as needed.  
+8. Fill in the rest of the fields as necessary.  
 
 ## To convert a service contract quote to service contract  
 When a customer has accepted a service contract quote, you convert it to a service contract. At the same time, you can create a service invoice for the starting period of the contract if the starting date of the contract is before the beginning of the next invoice period.  
@@ -74,12 +74,12 @@ You can use a contract service credit memo when a customer cancels a prepaid ser
   
  To manually create a credit memo when contract lines are removed from a service contract, in the **Service Contract** window, on the **Actions** tab, in the **Functions** group, choose **Credit Memo**.  
 
-## Update and evaluate contracts
+## Updating and evaluating contracts
 Sometimes you have to change the terms of a contract after it has been created. In most cases, you open the relevant contract in the **Service Contract** window, and change it as necessary.  
   
 You can change the status of the contract, initially set to **Locked**, add and remove contract lines, and cancel a contract. If you want to see how your business is doing as measured by gain and loss, you can do quick business analysis using the contract trendscape feature.
 
-### To add a contract line to a service contract or contract quote  
+## To add a contract line to a service contract or contract quote  
 When a customer purchases a new item and wants to include it in the existing service contract or contract quote, you can register the item as a service item and then add it as a new contract line to the contract or contract quote.  
   
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Contracts**, and then choose the related link.  
@@ -89,7 +89,7 @@ When a customer purchases a new item and wants to include it in the existing ser
 5. On the **Lines** FastTab, add a service item or item, or text description, on each contract line. Alternatively, you can add contract quote lines. Note that you can create multiple contracts per service item to have it included in different service contracts or contract quotes at the same time.  
 6. Verify and correct the numbers in the **Line Discount %**, **Line Discount Amount**, **Response Time**, **Service Period**, and other fields as needed. 
 
-### To remove contract lines  
+## To remove contract lines  
 You may need to remove contract lines from the service contract as you remove corresponding service items from the service contract. Usually you remove a contract line that is expired or corresponds to the service item that has broken down.  
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Contracts**, and then choose the related link.  
@@ -120,18 +120,18 @@ On a service contract lines, the amounts in the **Line Cost** and **Line Value**
 |**Item** | Depending on the value in the **Contract Value Calc. Method** field in the **Service Mgt. Setup** table, the amount is retrieved from either the **Unit Price** or the **Unit Cost** field in the **Item** table. After that, this value is multiplied by the contents of the **Contract Value %** field in the **Service Mgt. Setup** table and divided by 100. This amount is copied into the **Line Value** field.<br /><br /> **NOTE:** If the **Contract Value Calc. Method** field is set to **None**, the contents of the **Line Value** field are not calculated.|  
 |**Text description** | The contents of the **Line Value** field are set to zero.|  
 
-### To add a contract discount to service contract quotes  
+## To add a contract discount to service contract quotes  
 You can add contract discounts on services for contract quotes and service contracts. The discounts can be on spare parts in particular service item groups, on resource hours for resources in particular resource groups, and on particular service costs. 
   
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Contract Quotes**, and choose the related link.  
-2. Select the quote you want to add discounts for.  
-3. On the **Navigate** tab, in the **Quote** group, choose **Service Discounts**. The **Contract/Service Discounts** window opens.  
+2. Choose the quote to add discounts for.  
+3. Choose the **Service Discounts** action. The **Contract/Service Discounts** window opens.  
 4. To create a new contract discount, on the **Home** tab, in the **New** group, choose **New**.  
-5. Fill in the fields in the **Contract/Service Discounts** window.  
+5. Fill in the fields as nedessary.  
   
  To add contract discounts directly to a service contract, perform similar steps from the **Service Contract** window.  
 
-### To change the owner of a service contract  
+## To change the owner of a service contract  
 You may need to change the owner of a service contract. If a service item in a service contract is registered in noncanceled multiple contracts owned by the same customer, then the owner of all service contracts that include this service item and of all other service items included in these contracts is updated automatically.  
   
 > [!NOTE]  
@@ -151,7 +151,7 @@ You may need to change the owner of a service contract. If a service item in a s
 7. Choose **OK** to change the customer and ship-to code of the service contracts.  
 8. Choose the **Lock Contract** action to lock the contract and to make sure that the changes will be part of the contracts.  
 
-### To update a service contract price  
+## To update a service contract price  
 You can update the prices on service contracts by specifying a price update percentage.  
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Update Service Contract Prices**, and then choose the related link. 

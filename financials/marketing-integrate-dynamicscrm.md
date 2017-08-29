@@ -18,19 +18,16 @@ If you use Dynamics 365 for Sales for customer engagement, you can use [!INCLUDE
 
 When your application is set up to integrate with Dynamics 365 for Sales, you have access to Sales data from [!INCLUDE[d365fin](includes/d365fin_md.md)] and the other way around in some cases. This integration enables you to work with and synchronize data types that are common to both services, such as customers, contacts, and sales information, and keep the data up to date in both locations.  
 
-> [!NOTE]  
->   In the current version of [!INCLUDE[d365fin](includes/d365fin_md.md)], Dynamics 365 for Sales is referred to as Dynamics 365 for Sales. For simplicity, the remainder of this article will use the terminology that is used in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-
-For example, the sales person in Dynamics 365 for Sales can use the price lists from [!INCLUDE[d365fin](includes/d365fin_md.md)] when they create a sales order. When they add the item to the sales order line in Dynamics 365 for Sales, they are also able to see the inventory level (availability) of the item from [!INCLUDE[d365fin](includes/d365fin_md.md)]. This data is published as part of the assisted setup guide, **Dynamics 365 for Sales Connection Setup**.  
+For example, the sales person in Dynamics 365 for Sales can use the price lists from [!INCLUDE[d365fin](includes/d365fin_md.md)] when they create a sales order. When they add the item to the sales order line in Dynamics 365 for Sales, they are also able to see the inventory level (availability) of the item from [!INCLUDE[d365fin](includes/d365fin_md.md)]. This data is published as part of the assisted setup guide, **Dynamics 365 Connection Setup**.  
 
 > [!NOTE]  
 >   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).  
 
 ## Setting up the connection
-From Home, you can access the **Dynamics 365 for Sales Connection Setup** assisted setup guide that helps you set up the connection. Once that is done, you will have a seamless coupling of Dynamics 365 for Sales records with [!INCLUDE[d365fin](includes/d365fin_md.md)] records.  
+From Home, you can access the **Dynamics 365 Connection Setup** assisted setup guide that helps you set up the connection. Once that is done, you will have a seamless coupling of Dynamics 365 for Sales records with [!INCLUDE[d365fin](includes/d365fin_md.md)] records.  
 
 > [!NOTE]  
->   The following explains the assisted setup, but you can perform the same tasks manually in the **CRM Connection Setup** window.
+>   The following explains the assisted setup, but you can perform the same tasks manually in the **Dynamics 365 Connection Setup** window.
 
 In the assisted setup guide, you can choose which data to synchronize between the two services. You can also specify that you want to import your existing Dynamics 365 for Sales solution. In that case, you must specify an administrative user account.
 
@@ -47,7 +44,7 @@ This account is only used during the setup. Once the solution is imported into [
 ### Setting up the user account for synchronization
 The integration relies on a shared user account. So in your Office 365 subscription, you must create a dedicated user that will be used for synchronization between the two services. This account must already be a valid user in Dynamics 365 for Sales, but you do not have to assign security roles to the account because the setup guide will do that for you. You must specify this user account one or more times in the setup guide, depending how much synchronization you want to enable. For more information, see [Create users and assign Microsoft Dynamics 365 (online) security roles](https://technet.microsoft.com/library/jj191623.aspx) on techNet.
 
-If you choose to enable *item availability*, the integration user account must have a web services access key. This is a two-step thing in the [!INCLUDE[d365fin](includes/d365fin_md.md)] page for that user account, you must choose the **Change Web Service Key** button; and in the CRM connection setup guide, you must specify that user as the OData web service user.
+If you choose to enable *item availability*, the integration user account must have a web services access key. This is a two-step thing in the [!INCLUDE[d365fin](includes/d365fin_md.md)] page for that user account, you must choose the **Change Web Service Key** button; and in the Dynamics 365 Connection setup guide, you must specify that user as the OData web service user.
 
 If you choose to enable *sales order integration*, you must specify a user that can handle this synchronization - the integration user or another user account.
 
@@ -75,7 +72,7 @@ At the end of the assisted setup guide, you can choose the **Run Full Synchroniz
 
 To check the progress of individual jobs in a full synchronization, drill down on the **Job Queue Entry Status**, **To Int. Table Job Status**, or **From Int. Table Job Status** field in the **CRM Full Synch. Review** window.
 
-From the **CRM Connection Setup** window, you can get details about full synchronization at any time. From here, you can also open the **Integration Table Mappings** window to see details about the tables in Financials and in the Dynamics 365 for Sales solution that must be synchronized.
+From the **Dynamics 365 Connection Setup** window, you can get details about full synchronization at any time. From here, you can also open the **Integration Table Mappings** window to see details about the tables in Financials and in the Dynamics 365 for Sales solution that must be synchronized.
 
 ## See Also
 [Relationship Management](marketing-relationship-management.md)  

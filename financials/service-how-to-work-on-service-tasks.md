@@ -42,34 +42,32 @@ When performing a service on a service order, you can register the details speci
   
  The data you specify is stored in the **Service Item Worksheet** window. You can update the data when necessary.  
 
- ## To register spare parts  
+## To register spare parts  
 When working on service items in service orders, you may need to use spare parts for the service. The following procedure shows how to register the spare parts you use in the **Service Item Worksheet** window.  
   
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Tasks**, and then choose the related link. 
 2. Choose the line that includes the relevant service item, and then choose the **Item Worksheet** action.  
 3. Enter a new service line.  
-4. In the **Type** field, select **Item**.  
-5. In the **No.** field, select the relevant spare part.  
-6.  In the **Quantity** field, enter the quantity of items you want to use.  
+4. In the **Type** field, choose **Item**.  
+5. In the **No.** field, choose the relevant spare part.  
+6. In the **Quantity** field, enter the quantity of items you want to use.  
   
- You can use a similar procedure to register the spare parts in the **Service Lines** window, which you can open from the **Service Order** window.  
+ You can use a similar procedure to register the spare parts on the **Service Lines** page, which you can open from the **Service Order** page.  
   
 ## To register spare parts from a service order  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Orders**, and then choose the related link.  
 2. Open the service order you want to register spare parts for.  
 3. Choose the line that includes the relevant service item. Choose **Actions**, choose **Order**, and then choose **Service Lines**.  
-4. Enter a new service line.  
+4. enter a new service line.  
   
- Repeat these steps for each spare part you want to register.  
-
 ### To replace a service item or a service item component  
 When you service a service item that is composed of components, you may need to replace a faulty component with a new one. Every time that you enter a spare part for a service item with components, you have the option of replacing a component or creating a new one.  
     
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Tasks**, and then choose the related link. 
 2. Choose the line that includes the service item, and then choose the **Item Worksheet** action.  
 3. Enter a new service line.  
-4. In the **Type** field, select **Item**.  
-5. In the **No.** field, select the component that you want to replace.  
+4. In the **Type** field, choose **Item**.  
+5. In the **No.** field, choose the component to replace.  
 6. Press **Enter**. A dialog box opens with three options: **Replace Component**, **New Component**, and **Ignore**.  
   
      The following table describes the options.  
@@ -80,8 +78,8 @@ When you service a service item that is composed of components, you may need to 
     |**New Component**|Enters the new component in the component list of the service item.|  
     |**Ignore**|Does nothing to the component list of the service item.|  
   
-7. Choose **Replace Component**. The **Service Item Component List** window opens.  
-8. Select the component that you want to replace, and then choose the **OK** button.  
+7. Choose **Replace Component**.  
+8. Choose the component to replace, and then choose **OK**.  
   
  The new item is not registered as a component of the service item until you post this service line or the service order.  
 

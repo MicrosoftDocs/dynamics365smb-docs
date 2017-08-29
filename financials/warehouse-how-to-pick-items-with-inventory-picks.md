@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/21/2017
+    ms.date: 08/29/2017
     ms.author: sgroespe
 
 ---
@@ -25,9 +25,9 @@ When your location is set up to require pick processing but not shipment process
 
 You can create an inventory pick in three ways:  
 
-    -   Create the pick in two steps by first requesting an inventory pick by releasing the source document. This signals to the warehouse that the source document is ready for picking. The inventory pick can then be created in the **Inventory Pick** window based on the source document.  
-    -   Create the inventory pick directly from the source document itself.  
-    -   You can create inventory picks for several source documents at the same time by using the batch job.  
+- Create the pick in two steps by first requesting an inventory pick by releasing the source document. This signals to the warehouse that the source document is ready for picking. The inventory pick can then be created in the **Inventory Pick** window based on the source document.  
+- Create the inventory pick directly from the source document itself.  
+- You can create inventory picks for several source documents at the same time by using the batch job.  
 
 ## To request an inventory pick by releasing the source document  
 For sales orders, purchase return orders, and outbound transfer orders, you create the warehouse request by releasing the order. The following describes how to do this from a sales order.

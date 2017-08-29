@@ -293,7 +293,7 @@
 ### [Multiple Contracts](service-multiple-contracts.md)
 ### [How to: Work with Service Contracts and Service Contract Quotes](service-how-to-create-service-contracts-and-service-contract-quotes.md)
 ### [How to: Change the Annual Amount on a Service Contract or Contract Quote](service-how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)
-## [Delivering Service](service-deliver-service)
+## [Delivering Service](service-deliver-service.md)
 ### [How to: Create Service Quotes](service-how-to-create-service-quotes.md)
 ### [How to: Create a Service Order](service-how-to-create-service-orders.md)
 ### [How to: Allocate Resources](service-how-to-allocate-resources.md)

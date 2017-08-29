@@ -36,6 +36,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Post service orders for services, so that your accounting is up-to-date.|[How to: Post Service Orders](service-how-to-post-service-orders.md)|  
 |Deliver service to customers by performing service tasks.|[How to: Work on Service Tasks](service-how-to-work-on-service-tasks.md)|  
 |Create and post invoices for services that you have delivered.|[How to: Invoice Customers for Services](service-how-create-invoices.md)|  
+|Keep customers happy by lending them an item while you work on theirs.| [How to: Lend and Receive Loaner Items](service-how-to-lend-receive-loaners.md)|
   
 ## See Also  
 [Managing Projects](projects-manage-projects.md)

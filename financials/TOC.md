@@ -314,12 +314,6 @@
 ## [Incoming Documents](across-income-documents.md)
 ### [How to: Set Up Incoming Documents](across-how-setup-income-documents.md)
 ### [Processing Incoming Documents](across-process-income-documents.md)
-<<<<<<< HEAD
-## [Workflow](workflow.md)
-### [Setting Up Workflows](set-up-workflows)
-### [Using Workflows](use-workflows)
-## [Defining User Tasks](across-user-tasks.md)
-=======
 ## [Workflow](across-workflow.md)
 ### [Setting Up Workflows](across-set-up-workflows.md)
 ### [Using Workflows](across-use-workflows.md)
@@ -327,6 +321,7 @@
 ### [About the Data Exchange Framework](across-about-the-data-exchange-framework.md)
 ### [Setting Up Data Exchange](across-set-up-data-exchange.md)
 ### [Exchanging Data](across-exchange-data.md)
+## [Defining User Tasks](across-user-tasks.md)
 
 # [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)
 ## [Walkthrough: Synchronizing Information Between Outlook and Financials](walkthrough-synchronizing-information-between-outlook-and-microsoft-dynamics-nav.md)
@@ -342,7 +337,6 @@
 ## [Walkthrough: Walkthrough: Calculating Work in Process for a Job](walkthrough-calculating-work-in-process-for-a-job.md)
 ## [Walkthrough: Picking and Shipping in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 ## [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)
->>>>>>> Update10
 
 # [Design Details](design-details-application-design.md)
 ## [Design Details: Dimension Set Entries](design-details-dimension-set-entries.md)

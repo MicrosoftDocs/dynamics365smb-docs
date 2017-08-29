@@ -18,9 +18,6 @@ If you use Dynamics 365 for Sales for customer engagement, you can use [!INCLUDE
 
 When your application is set up to integrate with Dynamics 365 for Sales, you have access to Sales data from [!INCLUDE[d365fin](includes/d365fin_md.md)] and the other way around in some cases. This integration enables you to work with and synchronize data types that are common to both services, such as customers, contacts, and sales information, and keep the data up to date in both locations.  
 
-> [!NOTE]  
->   In the current version of [!INCLUDE[d365fin](includes/d365fin_md.md)], Dynamics 365 for Sales is referred to as Dynamics 365 for Sales. For simplicity, the remainder of this article will use the terminology that is used in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-
 For example, the sales person in Dynamics 365 for Sales can use the price lists from [!INCLUDE[d365fin](includes/d365fin_md.md)] when they create a sales order. When they add the item to the sales order line in Dynamics 365 for Sales, they are also able to see the inventory level (availability) of the item from [!INCLUDE[d365fin](includes/d365fin_md.md)]. This data is published as part of the assisted setup guide, **Dynamics 365 for Sales Connection Setup**.  
 
 > [!NOTE]  

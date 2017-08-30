@@ -203,7 +203,13 @@ All amounts are calculated from service ledger entries, that is, entries that ar
 2. Fill in the filter criteria you want to apply. For example, in the **Contract Gain/Loss (Reasons)** window, select a value for **Reason Code Filter**.  
 3. Choose the **Show Matrix** action.  
 
-### To cancel a service contract  
+## Changing the Service Contract Status
+After the service contract is signed, the **Change Status** field value is automatically set to **Locked**. If you want to modify information in the service contract or service contract quote, first you have to change the status of the contract or contract quote from **Locked** to **Open**. Note that you cannot create service invoices for the service contract with the **Open** change status. After the contract or contract quote is modified, you have to change the status back to **Locked** to make it possible to create service invoices and ledger entries for the service contract, which includes the changes that you made to it.  
+  
+> [!NOTE]  
+>  The **Change Status** field is not related to the **Release Status** field on the service order header, which governs the warehouse handling of service items.  
+
+## To cancel a service contract  
 You may need to cancel a service contract when the contract has expired or has been canceled by you or the customer.  
   
 > [!NOTE]  
@@ -218,6 +224,9 @@ You may need to cancel a service contract when the contract has expired or has b
   
 5. In the **Status** field, choose **Canceled**.  
 6. If there are unposted invoices, credit memos, or opened prepaid entries for the contract, a confirmation message will appear. In the message box, choose **No** to return to the contract and post the documents, or **Yes** to continue the cancellation process.  
+
+## Filing a service contract or contract quote  
+You can file service contracts and contract quotes at any time to record and archive a copy of the contract or contract quote. [!INCLUDE[d365fin](includes/d365fin_md.md)] files service contracts automatically when you convert contract quotes to service contracts or cancel service contracts. You can file a contract or quote yourself by choosing the **File Contract** action on the **Service Contracts** or **Service Contract Quotes** pages. If you want to view your archived contracts of quotes by searching for **Filed Contracts**.
 
 ## See Also  
 [How to: Set Up Service Contracts](service-how-setup-service-contracts.md)  

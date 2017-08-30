@@ -76,6 +76,19 @@ If you need to be sure that an item is available for a service order, you can re
 4. On the **Service Lines** page, choose the item to reserve, and then choose the **Reserve** action.  
 5. On the **Reservation** page, choose **Reserve from Current Line**. 
 
+## To insert lines based on standard service codes  
+If you have set up standard service codes and assigned them to service item groups, you can insert the standard lines linked to the standard service codes on service documents. For more information, see [How to: Set Up Standard Service Codes](service-how-setup-service-coding).   
+
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Orders**, and then choose the related link.  
+2. Create a new service order.  
+3. Fill in the fields as necessary..  
+4. Fill in the service item lines with the required information.  
+5. Choose the line with the service item that you want to create service lines for, and then choose **Get Std. Service Codes**. The **Standard Serv. Item Gr. Codes** window opens with the standard codes for the service item group specified on the line.  
+6. Choose the appropriate code, and choose the **OK** button to enter standard service lines.  
+  
+> [!NOTE]  
+>  If the **Service Item Group Code** field on the service item line of the document is blank, this means that the service item does not belong to any service item group. In this case, the **Standard Serv. Item Gr. Codes** window will contain a list of all standard service codes. You should select from the list to insert standard service lines in the document. You may also select from the list of standard service codes assigned to a specific service item group. To view the list, select the relevant code in the **Service Item Group Code** field in the **Standard Serv. Item Gr. Codes** window.  
+
 ## To register internal or public comments
 You can add comments that will be printed on service orders and service quotes to provide additional information. You can add up to 80 characters, including spaces. If you need to enter additional text, choose another line. To register a comment, choose a line, and then choose the **Comments** action.  
 

@@ -70,6 +70,38 @@ After you have created and filled in a service order or service quote, you can a
 > [!NOTE]  
 >  For a service item in a service order, there can only be active allocation entries with one resource or resource group at a time. 
 
+## To reallocate resources on a service order  
+You can reallocate resources directly from a service order or service quote when you are working with it. The original entry will still exist, but its status is updated as follows:  
+  
+* If service was started while the allocation was **Active**, that is, if the repair status of the service item in the entry was changed to **In Process**, the allocation status changes from **Reallocation Needed** to **Finished**.  
+* If service was not started while the allocation was **Active**, allocation status changes from **Reallocation Needed** to **Canceled**.  
+* If you are reallocating a service order that you have converted from a quote, the status of the allocation entries registered for the quote always changes to **Finished** when you reallocate the service items in the service order.  
+  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Orders**, and then choose the related link.  
+2. Open the relevant service order.  
+3. Select the service item line corresponding to the service task you want to allocate a resource to.  Choose **Actions**, choose **Line**, and then choose **Resource Allocations**.  
+4. In the **Resource Allocations** window, select an allocation entry with the service task you want to reallocate the resource to. In the **Resource No.** field, select the relevant resource. This overwrites the resource number already in the field.  
+5. Press the Enter key. A dialog box opens, asking whether you want to reallocate this entry. Fill in the **Reason Code** field if appropriate and choose the **Yes** button to confirm the reallocation.  
+6. Fill in the **Allocation Date** and **Allocated Hours** fields. The entry now contains the new resource and its status is **Active**. 
+
+## To reallocate a resource using the dispatch board  
+If the resource allocated to a service task cannot accomplish the work, it means that this service task needs reallocation. Usually you reallocate resources to a service task by using the **Dispatch Board**.  
+
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Dispatch Board**, and then choose the related link.  
+2. In the **Allocation Filter** field, select **Reallocation Needed**. The **Dispatch Board** window now shows the list of service orders that include service tasks that need reallocation.  
+3. Select the relevant service order. On the **Navigate** tab, in the **Planning** group, choose **Resource Allocations**. The **Resource Allocations** window opens.  
+4. Select the allocation entry with the service task you want to reallocate a resource to.  
+5. In the **Resource No.** field, select the relevant resource. It overwrites the resource number already in the field.  
+6. Press Enter. The **Reallocation Entry Reasons** dialog box opens, asking whether you want to reallocate this entry. Fill in the **Reason Code** field if appropriate and choose the **Yes** button to confirm the reallocation.  
+7.  Fill in the **Allocation Date** and **Allocated Hours** fields. The entry now contains the new resource and its status is **Active**.  
+  
+    > [!NOTE]  
+    >  The old entry still exists but the status is updated in the following ways:  
+    >   
+    >  1.  If service was started while the allocation was **Active**, that is, if the repair status of the service item in the entry was changed to **In Process**, the allocation status changes from **Reallocation Needed** to **Finished**.  
+    > 2.  If service was not started while the allocation was **Active**, the allocation status changes from **Reallocation Needed** to **Canceled**.  
+    > 3.  If you are reallocating a service order that you have converted from a quote, the status of the allocation entries registered for the quote always changes to **Finished** when you reallocate the service items in the service order.  
+
 ## See Also
 [How to: Set Up Resource Allocation](service-how-setup-resource-allocation.md)
 [Allocation Status and Repair Status](service-allocation-status-and-repair-status.md)   

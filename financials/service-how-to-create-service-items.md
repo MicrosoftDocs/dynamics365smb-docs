@@ -16,7 +16,7 @@
 
 ---
 # How to: Create Service Items
-When you receive an unregistered item for servicing, you can register it as a service item. There are sevaral ways   
+When you receive an unregistered item for servicing, you can register it as a service item. There are sevaral ways to do so. For example, you can create a service item on the **Service Items**, or as part of another process, such as when working with a service order.   
   
 ## To create a service item  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Items**, and then choose the related link. 2. Choose **New** to create a new service item.  
@@ -39,7 +39,7 @@ When you receive items for service that you want to register as service items, y
 5. Fill in the **Description** field.  
 6. Choose **Actions**, then **Functions**, and then **Create Service Item**.  
   
-A number is assigned to the service item and a service item card is created. The **Service Item No.** field is filled in with the number of the new service item.
+    A number is assigned to the service item and a service item card is created. The **Service Item No.** field is filled in with the number of the new service item.
 
 ## To create a service item when shipping items  
 When you ship items by posting either service orders or service invoices, the shipped items are automatically registered as service items if the following condition is met. The items must belong to a service item group with the **Create Service Item** check box selected. If the items have serial numbers registered in the Item Tracking Lines window, this information is copied automatically to the **Serial No.** field on the service item card when creating service items.  
@@ -58,5 +58,5 @@ The following procedure shows how to create service items when you ship items on
 >  If an item is a BOM and you have not exploded the BOM, a service item is created for it based on the service item group condition and, optionally, the serial numbers condition.  
 
 ## See Also  
-[How to: Set Up Service Items](service-how-setup-service-items.md)
+[How to: Set Up Service Items](service-how-setup-service-items.md)  
 [Service Management](service-service.md)   

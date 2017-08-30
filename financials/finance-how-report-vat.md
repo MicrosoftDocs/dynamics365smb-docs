@@ -44,8 +44,6 @@ VAT is calculated based on the VAT posting setup and the VAT posting groups that
 
 For the VAT return, you can specify the entries to include:
 
-* Submit open transactions only, or open and closed.
-* Submit only entries from the specified periods, or also include entries from preview periods.
 * Submit open transactions only, or open and closed. For example, this is useful when you prepare your final annual VAT return.
 * Submit only entries from the specified periods, or also include entries from previous periods. This is useful for updating a VAT return that you have already submitted, for example, if a vendor sends you a late invoice.    
 
@@ -112,6 +110,6 @@ The following table describes the codeunits that you must create for your report
 
 ## See also
 [Setting Up to Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md)  
-[How to: Work with VAT on Sales and Purchases](finance-work-with-vat.md)
+[How to: Work with VAT on Sales and Purchases](finance-work-with-vat.md)  
 [Set Up Sales](sales-setup-sales.md)  
 [How to: Invoice Sales](sales-setup-sales.md)  

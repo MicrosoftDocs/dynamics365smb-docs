@@ -53,9 +53,17 @@ The following procedure shows how to create service items when you ship items on
 5. The service items are automatically created for the items on the order, provided these belong to a service item group that you have set up to create service items. If you registered specific serial numbers in the **Item Tracking Lines** window, they will be assigned to these service items correspondingly.  
   
 > [!NOTE]  
->  If an item is a BOM and you have exploded the BOM, the exploded BOM items are processed the same as regular items. Service items are created based on the service items group condition and, optionally, the serial numbers condition. Furthermore, if a service item is created for an exploded BOM item that is made up of other BOM components, these items are created as service item components for the exploded BOM service item.  
+>  If an item is a BOM and you have exploded the BOM, the exploded BOM items are processed in the same way as regular items. Service items are created based on the service items group condition and, optionally, the serial numbers condition. Additionally, if a service item is created for an exploded BOM item that is made up of other BOM components, these items are created as service item components for the exploded BOM service item.  
 >   
 >  If an item is a BOM and you have not exploded the BOM, a service item is created for it based on the service item group condition and, optionally, the serial numbers condition.  
+
+## To insert a starting fee for a service item
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Tasks**, and then choose the related link. 
+2. Choose the **Item Worksheet** action.
+3. Choose the service line, and then choose **Actions**, choose **Functions**, and then choose **Insert Starting Fee** action.
+
+    A service line of type **Cost** is inserted with the starting fee. The starting fee applies to the selected service item.
+
 
 ## See Also  
 [How to: Set Up Service Items](service-how-setup-service-items.md)  

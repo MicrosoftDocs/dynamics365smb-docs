@@ -89,6 +89,7 @@
 ### [How to: Set Up Fixed Asset Maintenance](fa-how-setup-maintenance.md)
 ## [Setting Up Service Management](service-setup-service.md)
 ### [How to: Set Up Standard Service Codes](service-how-setup-service-coding.md)
+### [How to: Configure Service Processes](service-setup-service-processes.md)
 ### [How to: Set Up Fault Reporting](service-how-setup-fault-reporting.md)
 ### [How to: Set Up Service Offerings](service-how-setup-service-offerings.md)
 ### [How to: Set Up Troubleshooting](service-how-setup-troubleshooting.md)

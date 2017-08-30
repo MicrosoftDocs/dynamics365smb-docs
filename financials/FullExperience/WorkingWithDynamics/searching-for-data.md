@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Searching for Data
 In the ADD INCLUDE<!--[!INCLUDE[nav_web](../../includes/nav_phone_md.md)]-->, you can use the Search functionality to limit a data set across columns on lists. Search is enabled by entering criteria in search box. The search is cleared by selecting the cross next to the search box.  
   

@@ -1,6 +1,6 @@
 ---
-    title: How to: Void Electronic Payments | Microsoft Docs
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can void the exported payment file. By voiding the file, the entire payment journal from which the file was created, will be deleted.
+    title: How to Void Electronic Payments | Microsoft Docs
+    description: In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can void the exported payment file. By voiding the file, the entire payment journal from which the file was created, will be deleted.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,11 +16,11 @@
 
 ---
 # How to: Void Electronic Payments
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can void the exported payment file. By voiding the file, the entire payment journal from which the file was created, will be deleted.  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can void the exported payment file. By voiding the file, the entire payment journal from which the file was created, will be deleted.  
   
 ### To void electronic payments  
   
-1.  In the **Search** box, enter **Void Electronic Payments**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Void Electronic Payments**, and then choose the related link.  
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
@@ -30,7 +30,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can void the exported 
   
 ### To void electronic payments in the Cartera module  
   
-1.  In the **Search** box, enter **Void PO – Export N34.1**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Void PO – Export N34.1**, and then choose the related link.  
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   

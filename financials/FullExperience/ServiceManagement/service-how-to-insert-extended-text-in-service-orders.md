@@ -1,5 +1,5 @@
 ---
-    title: How to: Insert Extended Text in Service Orders | Microsoft Docs
+    title: How to Insert Extended Text in Service Orders | Microsoft Docs
     description: If you have set up extended texts for standard texts, you can insert extended texts for service lines that include standard text codes.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ If you have set up extended texts for standard texts, you can insert extended te
   
 ### To insert extended texts  
   
-1.  In the **Search** box, enter **Service Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Orders**, and then choose the related link.  
   
 2.  Open the relevant service order.  
   

@@ -1,5 +1,5 @@
 ---
-    title: How to: Create Work Center Calendars | Microsoft Docs
+    title: How to Create Work Center Calendars | Microsoft Docs
     description: A work center calendar specifies the working days and hours, shifts, holidays, and absences that determine the work center’s gross available capacity, measured in time, according to its defined efficiency and capacity values. Creating and enabling a work center calendar involves several preparatory tasks.
     services: project-madeira
     documentationcenter: ''
@@ -26,7 +26,7 @@ A work center calendar specifies the working days and hours, shifts, holidays, a
   
 ### To create work shifts  
   
-1.  In the **Search** box, enter **Work Shifts**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Work Shifts**, and then choose the related link.  
   
 2.  On a blank line, enter a number in the **Code** field to identify the work shift, for example, **1**.  
   
@@ -38,7 +38,7 @@ A work center calendar specifies the working days and hours, shifts, holidays, a
   
 ### To set up a shop calendar  
   
-1.  In the **Search** box, enter **Shop Calendars**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Shop Calendars**, and then choose the related link.  
   
 2.  On a blank line, enter a number in the **Code** field to identify the shop calendar.  
   
@@ -80,7 +80,7 @@ A work center calendar specifies the working days and hours, shifts, holidays, a
   
 ### To calculate a work center calendar  
   
-1.  In the **Search** box, enter **Work Centers**, and then choose the related link. Open the work center that you want to update.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Work Centers**, and then choose the related link. Open the work center that you want to update.  
   
 2.  On the **Scheduling** FastTab, in the **Shop Calendar Code** field, select which shop calendar to use as the foundation for a work center calendar.  
   

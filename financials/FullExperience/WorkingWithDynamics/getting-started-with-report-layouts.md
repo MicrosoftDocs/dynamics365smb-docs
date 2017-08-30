@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Getting Started with Report Layouts
 Use the following table to help you get started using report layouts to change the appearance of your ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> reports.  
   

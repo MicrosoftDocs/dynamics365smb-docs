@@ -1,5 +1,5 @@
 ---
-    title: How to: Create an Audit File for the Tax Authority | Microsoft Docs
+    title: How to Create an Audit File for the Tax Authority | Microsoft Docs
     description: During an examination of the books for a fiscal year, a tax inspector can ask for data about the basis transactions from the general ledger for that fiscal year. Basis transactions usually are processed via journal entries. That is the reason why the journal entries are the basis for the audit file.
     services: project-madeira
     documentationcenter: ''
@@ -24,11 +24,11 @@ During an examination of the books for a fiscal year, a tax inspector can ask fo
   
 ### To make an Audit file  
   
-1.  In the **Search** box, enter **Tax Authority - Audit File**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Tax Authority - Audit File**, and then choose the related link.  
   
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Start Date**|Specify the start date of the period on which the data must be based.|  
     |**End Date**|Specify the end date of the period on which the data must be based.|  

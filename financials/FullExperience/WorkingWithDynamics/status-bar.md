@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Status Bar
 The status bar at the bottom of the program window shows the following information:  
   

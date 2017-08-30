@@ -1,6 +1,6 @@
 ---
-    title: How to: Export or Import Profiles | Microsoft Docs
-    description: You can export a profile, for example to reuse UI configurations in other ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]--> databases.
+    title: How to Export or Import Profiles | Microsoft Docs
+    description: You can export a profile, for example to reuse UI configurations in other [!INCLUDE[d365fin](includes/d365fin_md.md)] databases.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # How to: Export or Import Profiles
-You can export a profile, for example to reuse UI configurations in other ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/dyn_nav_md.md)]--> databases.  
+You can export a profile, for example to reuse UI configurations in other [!INCLUDE[d365fin](includes/d365fin_md.md)] databases.  
   
  You can quickly implement UI configurations for a profile by importing an XML file that holds the configured profile.  
   
@@ -25,7 +25,7 @@ You can export a profile, for example to reuse UI configurations in other ADD IN
   
 ### To export a profile  
   
-1.  In the **Search** box, enter **Export Profiles**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Export Profiles**, and then choose the related link.  
   
 2.  In the **Export Profiles** window, on the **Profile** FastTab, set a filter for the profile ID that you want to export, and then choose **OK**.  
   
@@ -33,7 +33,7 @@ You can export a profile, for example to reuse UI configurations in other ADD IN
   
 ### To import a profile  
   
-1.  In the **Search** box, enter **Import Profiles**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Import Profiles**, and then choose the related link.  
   
 2.  In the **Import from XML File** window, select the profile that you want to import.  
   

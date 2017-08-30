@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Company Addresses | Microsoft Docs
+    title: How to Set Up Company Addresses | Microsoft Docs
     description: If your company has different types of addresses, such as a legal address or an address for use with tax inspection, you must set up these addresses in the **Company Address** window.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ If your company has different types of addresses, such as a legal address or an 
   
 ### To set up company addresses  
   
-1.  In the **Search** box, enter **Company Information**, and choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and choose the related link.  
   
 2.  On the **Navigate** tab, in the **Company** group, choose **Addresses**.  
   

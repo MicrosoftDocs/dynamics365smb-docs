@@ -1,5 +1,5 @@
 ---
-    title: How to: Import ESR Payments | Microsoft Docs
+    title: How to Import ESR Payments | Microsoft Docs
     description: After you receive payment from a customer, you receive a file that contains information about paid invoices. You can receive this file from your bank electronically, or by mail.
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ After you receive payment from a customer, you receive a file that contains info
   
 ### To import ESR payments  
   
-1.  In the **Search** box, enter **Cash Receipt Journals**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Receipt Journals**, and then choose the related link.  
   
 2.  In the **Batch Name** field, select the required journal batch.  
   

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Create a Purchase Invoice and Record Purchases | Microsoft Docs
 description: Describes how to purchase inventory and service items by creating and posting purchase invoices or orders.
 documentationcenter: ''
@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
-ms.date: 06/15/2017
+ms.date: 08/08/2017
 ms.author: sgroespe
 
 ---
@@ -73,6 +73,7 @@ The purchase is now reflected in inventory and financial records, and the vendor
 ## See Also
 [Purchasing](purchasing-manage-purchasing.md)  
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  
+[How to: Request Quotes](purchasing-how-request-quotes.md)  
 [How to: Purchase Items for a Sale](purchasing-how-purchase-products-sale.md)  
 [How to: Register New Vendors](purchasing-how-register-new-vendors.md)  
 [How to: Prepare Drop Shipments](sales-how-drop-shipment.md)  

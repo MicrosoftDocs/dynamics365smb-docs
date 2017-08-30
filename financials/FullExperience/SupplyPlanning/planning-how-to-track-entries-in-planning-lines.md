@@ -1,5 +1,5 @@
 ---
-    title: How to: Track Entries in Planning Lines | Microsoft Docs
+    title: How to Track Entries in Planning Lines | Microsoft Docs
     description: The order tracking function offers you an overview of the documents that are related to the current planning line.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ The order tracking function offers you an overview of the documents that are rel
   
 ### To track entries in planning lines  
   
-1.  In the **Search** box, enter **Planning Worksheet**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Planning Worksheet**, and then choose the related link.  
   
 2.  Select the line you want to track.  
   

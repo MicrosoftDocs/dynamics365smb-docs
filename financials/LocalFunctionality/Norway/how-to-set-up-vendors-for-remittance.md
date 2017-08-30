@@ -1,6 +1,6 @@
 ---
-    title: How to: Set Up Vendors for Remittance | Microsoft Docs
-    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] ../../includes Norwegian enhancements for automatically making payments to vendors. This reduces errors that occur from manual data entry. To pay vendors using the remittance system, you must set up vendor information.
+    title: How to Set Up Vendors for Remittance | Microsoft Docs
+    description: [!INCLUDE[d365fin](includes/d365fin_md.md)] ../../includes Norwegian enhancements for automatically making payments to vendors. This reduces errors that occur from manual data entry. To pay vendors using the remittance system, you must set up vendor information.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,11 +16,11 @@
 
 ---
 # How to: Set Up Vendors for Remittance
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] ../../includes Norwegian enhancements for automatically making payments to vendors. This reduces errors that occur from manual data entry. To pay vendors using the remittance system, you must set up vendor information.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] ../../includes Norwegian enhancements for automatically making payments to vendors. This reduces errors that occur from manual data entry. To pay vendors using the remittance system, you must set up vendor information.  
   
 ### To set up a vendor for remittance  
   
-1.  In the **Search** box, enter **Vendors**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.  
   
 2.  Select the vendor, and on the **Home** tab, choose **Edit**.  
   

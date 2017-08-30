@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up EHF | Microsoft Docs
+    title: How to Set Up EHF | Microsoft Docs
     description: You must define a location for storing Elektronisk Handelsformat (EHF) files when you create electronic documents such as invoices or credit memos. You must also define payment methods and set up relevant customers for EHF.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ You must define a location for storing Elektronisk Handelsformat (EHF) files whe
   
 ### To set up EHF file locations for sales and receivables  
   
-1.  In the Search box, enter **Sales & Receivables Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales & Receivables Setup**, and then choose the related link.  
   
 2.  In the **Sales & Receivables Setup** window, on the **E-Invoice** FastTab, in the **Output Paths** section, fill in the fields as described in the following table.  
   
@@ -35,7 +35,7 @@ You must define a location for storing Elektronisk Handelsformat (EHF) files whe
   
 ### To set up EHF file locations for service management  
   
-1.  In the **Search** box, enter **Service Mgt. Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Mgt. Setup**, and then choose the related link.  
   
 2.  In the **Service Mgt. Setup** window, on the **E-Invoice** FastTab, in the **Output Paths** section, fill in the fields as described in the following table.  
   

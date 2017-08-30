@@ -1,5 +1,5 @@
 ---
-    title: How to: Register Resolution Comments | Microsoft Docs
+    title: How to Register Resolution Comments | Microsoft Docs
     description: You can use the **Resolution Service Comment Sheet** window to register comments on the method or procedure applied to service items in service orders and service quotes.
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ You can use the **Resolution Service Comment Sheet** window to register comments
   
 ### To register resolution comments  
   
-1.  In the **Search** box, enter **Service Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Orders**, and then choose the related link.  
   
 2.  Open the relevant service order.  
   

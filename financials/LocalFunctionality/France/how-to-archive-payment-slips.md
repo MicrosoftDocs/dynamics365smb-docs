@@ -1,5 +1,5 @@
 ---
-    title: How to: Archive Payment Slips | Microsoft Docs
+    title: How to Archive Payment Slips | Microsoft Docs
     description: When a payment slip has been processed, you can separate it from the active payment slips by archiving it.
     services: project-madeira
     documentationcenter: ''
@@ -26,7 +26,7 @@ When a payment slip has been processed, you can separate it from the active paym
   
 ### To archive a payment slip  
   
-1.  In the **Search** box, enter **Payment Slips**, and then choose the relevant link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Slips**, and then choose the relevant link.  
   
 2.  Select the relevant payment slip, and then, on the **Home** tab, in the **Manage** group, choose **Edit**.  
   
@@ -39,7 +39,7 @@ When a payment slip has been processed, you can separate it from the active paym
   
 ### To archive a batch of payment slips  
   
-1.  In the **Search** box, enter **Archive Payment Slips**, and then choose the relevant link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Archive Payment Slips**, and then choose the relevant link.  
   
 2.  In the **Archive Payment Slips** window, on the **Payment Header** FastTab, select the appropriate filters.  
   

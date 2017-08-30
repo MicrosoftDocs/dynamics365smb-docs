@@ -1,5 +1,5 @@
 ---
-    title: How to: Register Resolution Codes | Microsoft Docs
+    title: How to Register Resolution Codes | Microsoft Docs
     description: After repairing a service item, you can register a resolution code describing the resolution or method of repair. This code can be used along with the fault codes for future reference on possible methods of repair.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ After repairing a service item, you can register a resolution code describing th
   
 ### To register a resolution code  
   
-1.  In the **Search** box, enter **Service Tasks**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Tasks**, and then choose the related link.  
   
 2.  Select the service task that includes the relevant service item.  
   

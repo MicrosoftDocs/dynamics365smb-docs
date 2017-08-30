@@ -1,5 +1,5 @@
 ---
-    title: How to: View Test Reports Before Posting | Microsoft Docs
+    title: How to View Test Reports Before Posting | Microsoft Docs
     description: When you are ready to post a document, such as an order, invoice, or a credit memo, you can test the document to ensure that no issues exist that will block the posting.
     services: project-madeira
     documentationcenter: ''
@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: View Test Reports Before Posting
 When you are ready to post a document, such as an order, invoice, or a credit memo, you can test the document to ensure that no issues exist that will block the posting.  
   
@@ -23,7 +23,7 @@ When you are ready to post a document, such as an order, invoice, or a credit me
   
 ### To print a test report before posting a purchase invoice  
   
-1.  In the **Search** box, enter **Purchase Invoices**, and then select the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoices**, and then select the related link.  
   
 2.  Open the purchase invoice that you want to test.  
   

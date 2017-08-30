@@ -1,6 +1,6 @@
 ---
-    title: How to: Void Posted Checks | Microsoft Docs
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you must void the **Payment Journal** from which the export was initiated to void a check. You cannot void the journal after the file has been transmitted. You must post printed checks before you can void printed checks.
+    title: How to Void Posted Checks | Microsoft Docs
+    description: In [!INCLUDE[d365fin](includes/d365fin_md.md)], you must void the **Payment Journal** from which the export was initiated to void a check. You cannot void the journal after the file has been transmitted. You must post printed checks before you can void printed checks.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,11 +16,11 @@
 
 ---
 # How to: Void Posted Checks
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you must void the **Payment Journal** from which the export was initiated to void a check. You cannot void the journal after the file has been transmitted. You must post printed checks before you can void printed checks.  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], you must void the **Payment Journal** from which the export was initiated to void a check. You cannot void the journal after the file has been transmitted. You must post printed checks before you can void printed checks.  
   
 ### To post printed checks  
   
-1.  In the **Search** box, enter **Payment Journals**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.  
   
 2.  In the **Edit - Payment Journal** window, fill in the fields as described in the following table.  
   
@@ -46,7 +46,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you must void the **Paymen
   
 ### To void posted checks  
   
-1.  In the **Search** box, enter **Bank Accounts**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.  
   
 2.  Select the required bank account. On the **Actions** tab, in the **Manage** group, choose **Edit**.  
   

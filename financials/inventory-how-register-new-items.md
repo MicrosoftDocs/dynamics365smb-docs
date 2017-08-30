@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 06/21/2017
+ms.date: 08/10/2017
 ms.author: sgroespe
 
 ---
@@ -26,6 +26,8 @@ An item can be structured as a parent item with underlying child items in a bill
 > [!NOTE]  
 >   If item templates exist for different item types, then a window appears when you create a new item card from where you can select an appropriate template. If only one item template exists, then new item cards always use that template.
 
+If you purchase the same item from more than one vendor, you can connect those vendors to the item card. The vendors will then appear in the **Item Vendor Catalog** window, so that you can easily select an alternate vendor.
+
 ## To create a new item card
 1. On the Home page, choose the **Items** action to open the list of existing items.  
 2. In the **Items** window, choose the **New** action.
@@ -36,9 +38,9 @@ An item can be structured as a parent item with underlying child items in a bill
 5. Proceed to fill or change fields on the item card as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
-> In the **Costing Method** field, you set up how the item's unit cost is calculated by making assumptions about the flow of physical items through your company. For more information, see [How to: Adjust Item Costs](inventory-how-adjust-item-costs.md).
-- If you select **FIFO**, then the item’s unit cost is the actual value of any receipt of the item. Inventory is valuated with the assumption that the first items placed in inventory are sold first.
-- If you select **Average**, then the item’s unit cost is calculated as the average unit cost at each point in time after a purchase. Inventory is valuated with the assumption that all inventories are sold simultaneously. With this setting, you can choose the **Unit Cost** field to view, in the **Average Cost Calc. Overview** window, the history of transactions that the average cost is calculated from.
+> In the **Costing Method** field, you set up how the item's unit cost is calculated by making assumptions about the flow of physical items through your company. Five costing methods are available, depending on the type of item. For more information, see [Design Details: Costing Methods](design-details-costing-methods.md).
+>
+> If you select **Average**, then the item’s unit cost is calculated as the average unit cost at each point in time after a purchase. Inventory is valuated with the assumption that all inventories are sold simultaneously. With this setting, you can choose the **Unit Cost** field to view, in the **Average Cost Calc. Overview** window, the history of transactions that the average cost is calculated from.
 
 On the **Price and Posting** FastTab, you can view special prices or discounts that you grant for the item if certain criteria are met, such as customer, minimum order quantity, or ending date. Each row represents a special price or line discount. Each column represents a criterion that must apply to warrant the special price that you enter in the **Unit Price** field, or the line discount that you enter in the **Line Discount %** field. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).
 
@@ -54,6 +56,18 @@ If you want to use this item card as a template when you create new item cards, 
 5. When you have completed the new item template, choose the **OK** button.
 
 The item template is added to the list of item templates, so that you can use it to create new item cards.
+
+## To set up multiple vendors for an item  
+If you purchase the same item from more than one vendor, you must enter information about each vendor of the item, such as prices, lead time, discounts, and so on.  
+
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
+2.  Select the relevant item, and then choose the **Edit** action.  
+3.  Choose the **Vendors** action.  
+4.  Choose the **Vendor No.** field, and then select the vendor that you want to set up for the item.  
+5.  Optionally, fill in the remaining fields.  
+6.  Repeat steps 2 through 5 for each vendor that you want to buy the item from.
+
+The vendors will now appear in the **Item Vendor Catalog** window, which you open from the item card, so that you can easily select an alternate vendor.
 
 ## See Also
   [Inventory](inventory-manage-inventory.md)  

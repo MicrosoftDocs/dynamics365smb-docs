@@ -1,5 +1,5 @@
 ---
-    title: Design Details: Handling Reordering Policies | Microsoft Docs
+    title: Design Details - Handling Reordering Policies | Microsoft Docs
     description: For an item to participate in supply planning, a reorder policy must be defined. The following four reordering policies exist:
     services: project-madeira
     documentationcenter: ''

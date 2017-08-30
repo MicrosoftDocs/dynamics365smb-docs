@@ -1,5 +1,5 @@
 ---
-    title: How to: Activate SEPA Payments | Microsoft Docs
+    title: How to Activate SEPA Payments | Microsoft Docs
     description: To submit vendor payments electronically in Single Euro Payments Area (SEPA) ISO 20022 payment format, you must set up prerequisites for enabling SEPA payments.
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ To submit vendor payments electronically in Single Euro Payments Area (SEPA) ISO
   
 ### To enable countries/regions for SEPA  
   
-1.  In the **Search** box, enter **Countries/Regions**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Countries/Regions**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **Manage** group, choose **Edit List**.  
   
@@ -32,7 +32,7 @@ To submit vendor payments electronically in Single Euro Payments Area (SEPA) ISO
   
 ### To enable bank accounts for SEPA  
   
-1.  In the **Search** box, enter **Bank Accounts**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.  
   
 2.  Select the bank account that you want to enable for SEPA, and then, on the **Home** tab, in the **Manage** group, choose **Edit**.  
   
@@ -49,13 +49,13 @@ To submit vendor payments electronically in Single Euro Payments Area (SEPA) ISO
   
 ### To set up a SEPA ISO 20022 export protocol  
   
-1.  In the **Search** box, enter **Export Protocols**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Export Protocols**, and then choose the related link.  
   
 2.  In the **Export Protocols** window, on the **Home** tab, choose **New**.  
   
 3.  Fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Sets the export protocol code, such as **SEPA ISO20022**.|  
     |**Description**|Provides the description for the export protocol.|  
@@ -72,7 +72,7 @@ To submit vendor payments electronically in Single Euro Payments Area (SEPA) ISO
   
 ### To enable transaction modes for SEPA  
   
-1.  In the **Search** box, enter **Transaction Modes**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Transaction Modes**, and then choose the related link.  
   
 2.  Select the transaction mode that you want to enable for SEPA, and then, on the **Home** tab, in the **Manage** group, choose **Edit**.  
   
@@ -82,7 +82,7 @@ To submit vendor payments electronically in Single Euro Payments Area (SEPA) ISO
   
 ### To verify vendor payment transaction modes for SEPA  
   
-1.  In the **Search** box, enter **Vendors**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.  
   
 2.  Select the vendor that you want to verify the transaction mode for, and then, on the **Home** tab, in the **Manage** group, choose **View**.  
   
@@ -92,7 +92,7 @@ To submit vendor payments electronically in Single Euro Payments Area (SEPA) ISO
   
 ### To set up vendor bank accounts for SEPA  
   
-1.  In the **Search** box, enter **Vendors**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.  
   
 2.  Select the relevant vendor, and then, on the **Navigate** tab, in the **Vendor** group, choose **Bank Accounts**.  
   

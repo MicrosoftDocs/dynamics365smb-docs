@@ -1,5 +1,5 @@
 ---
-    title: Design Details: Closing Demand and Supply | Microsoft Docs
+    title: Design Details - Closing Demand and Supply | Microsoft Docs
     description: When the supply balancing procedures have been performed, there are three possible end situations:
     services: project-madeira
     documentationcenter: ''

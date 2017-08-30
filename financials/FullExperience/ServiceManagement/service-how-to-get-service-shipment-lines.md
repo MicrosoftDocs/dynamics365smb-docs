@@ -1,5 +1,5 @@
 ---
-    title: How to: Get Service Shipment Lines | Microsoft Docs
+    title: How to Get Service Shipment Lines | Microsoft Docs
     description: You can fill in the lines of a service invoice with the selected posted shipment lines for a specific customer. This will enable you to create an invoice for the items that have already been shipped, either from one or several service orders, but not yet been invoiced or consumed.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ You can fill in the lines of a service invoice with the selected posted shipment
   
 ### To get service shipment lines  
   
-1.  In the **Search** box, enter **Service Invoices**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Invoices**, and then choose the related link.  
   
 2.  Create a new service invoice.  
   

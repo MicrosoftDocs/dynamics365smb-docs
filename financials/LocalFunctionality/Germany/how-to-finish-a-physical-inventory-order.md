@@ -1,5 +1,5 @@
 ---
-    title: How to: Finish a Physical Inventory Order | Microsoft Docs
+    title: How to Finish a Physical Inventory Order | Microsoft Docs
     description: After you have entered all data for the physical inventory order, you can finish the physical inventory order.
     services: project-madeira
     documentationcenter: ''
@@ -24,7 +24,7 @@ After you have entered all data for the physical inventory order, you can finish
   
 -   In all physical inventory order lines, the quantity expected has been calculated.  
   
-     [!INCLUDE[d365fin](../../includes/d365fin_md.md)] shows this by setting a check mark in the field Qty. Exp. Calculated of the physical inventory order line.  
+     [!INCLUDE[d365fin](includes/d365fin_md.md)] shows this by setting a check mark in the field Qty. Exp. Calculated of the physical inventory order line.  
   
 -   Every physical inventory order line has been counted by at least one inventory recording line.  
   
@@ -32,7 +32,7 @@ After you have entered all data for the physical inventory order, you can finish
   
 ### To finish a physical inventory order  
   
-1.  In the **Search** box, enter **Phys. Inventory Order**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Phys. Inventory Order**, and then choose the related link.  
   
 2.  Open the physical inventory order that you want to finish.  
   

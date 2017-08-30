@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Customers for EHF | Microsoft Docs
+    title: How to Set Up Customers for EHF | Microsoft Docs
     description: To create Elektronisk Handelsformat (EHF) documents for customers in the public sector, you must add EHF information to the relevant customers.
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ To create Elektronisk Handelsformat (EHF) documents for customers in the public 
   
 ### To set up a customer that uses Elektronisk Handelsformat  
   
-1.  In the **Search** box, enter **Customers**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.  
   
 2.  Open the customer that you want to enable for EHF.  
   
@@ -31,7 +31,7 @@ To create Elektronisk Handelsformat (EHF) documents for customers in the public 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**GLN**|Required. Enter the Global Location Number (GLN) for the customer.|  
-    |**Account Code**|Enter the account code for the customer.<br /><br /> Customers in the public sector provide an account code when they place an order or requisition. Based on the value of this field, the account code is included in the EHF documents that you create in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. For more information, see Account Code.|  
+    |**Account Code**|Enter the account code for the customer.<br /><br /> Customers in the public sector provide an account code when they place an order or requisition. Based on the value of this field, the account code is included in the EHF documents that you create in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see Account Code.|  
     |**E-Invoice**|Select the check box to use electronic invoicing with this customer.|  
     |**Responsibility Center**|Make sure that the Responsibility Center that you have selected has a Country/Region Code specified.|  
   

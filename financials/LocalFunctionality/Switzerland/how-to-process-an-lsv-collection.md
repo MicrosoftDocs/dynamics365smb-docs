@@ -1,5 +1,5 @@
 ---
-    title: How to: Process an LSV Collection | Microsoft Docs
+    title: How to Process an LSV Collection | Microsoft Docs
     description: You can use **LSV Journals** to create and process payments from Lastschrift Verfahren (LSV+) customers. You can register these payments in the cash receipt journal, create an LSV file, and then print the collection order. For more information, see the Cash Receipt Journal window and [How to: Export Payments Using LSV](how-to-export-payments-using-lsv.md).
     services: project-madeira
     documentationcenter: ''
@@ -24,7 +24,7 @@ You can use **LSV Journals** to create and process payments from Lastschrift Ver
   
 ### To create an LSV collection  
   
-1.  In the **Search** box, enter **LSV Journal List**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **LSV Journal List**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **New** group, choose **New**.  
   

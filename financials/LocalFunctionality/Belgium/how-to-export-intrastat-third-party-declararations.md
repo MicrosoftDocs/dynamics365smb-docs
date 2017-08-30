@@ -1,5 +1,5 @@
 ---
-    title: How to: Export Intrastat Third-Party Declararations | Microsoft Docs
+    title: How to Export Intrastat Third-Party Declararations | Microsoft Docs
     description: In Belgium, you must have a third-party declarant fill out the Intrastat declaration. The third-party declarant must be an external person or company.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ In Belgium, you must have a third-party declarant fill out the Intrastat declara
   
 ### To export the third-party declaration  
   
-1.  In the **Search** box, enter **Intrastat Journals**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat Journals**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **Print** group, choose **Make Diskette**.  
   

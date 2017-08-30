@@ -1,5 +1,5 @@
 ---
-    title: How to: Import Swiss Bank Clearing Numbers | Microsoft Docs
+    title: How to Import Swiss Bank Clearing Numbers | Microsoft Docs
     description: Bank clearing numbers are unique numbers used to identify each bank agency or branch in the bank directory. This information is required for electronic payment. The file can be downloaded from the [SIX Interbank Clearing](http://go.microsoft.com/fwlink/?LinkId=145121) website.
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ Bank clearing numbers are unique numbers used to identify each bank agency or br
   
 ### To import Swiss bank clearing numbers  
   
-1.  In the **Search** box, enter **Bank Directory**, and choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Directory**, and choose the related link.  
   
 2.  On the **Home** tab, in the **Process** group, select **Import Bank Directory**.  
   
@@ -36,7 +36,7 @@ Bank clearing numbers are unique numbers used to identify each bank agency or br
   
 ### To define bank branch numbers for customer bank accounts  
   
-1.  In the **Search** box, enter **Customers**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.  
   
 2.  Select the customer for whom you want to create bank account information, and on the **Navigate** tab, in the **Customer** group, select **Bank Accounts**.  
   

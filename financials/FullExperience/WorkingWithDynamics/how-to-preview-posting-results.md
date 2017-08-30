@@ -1,5 +1,5 @@
 ---
-    title: How to: Preview Posting Results | Microsoft Docs
+    title: How to Preview Posting Results | Microsoft Docs
     description: On every document and journal that can be posted, you can choose the **Preview Posting** button to review the different types of entries that will be created when you post the document or journal.
     services: project-madeira
     documentationcenter: ''
@@ -14,13 +14,13 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Preview Posting Results
 On every document and journal that can be posted, you can choose the **Preview Posting** button to review the different types of entries that will be created when you post the document or journal.  
   
 ### To preview G/L entries that will result from posting a purchase invoice  
   
-1.  In the **Search** box, enter **Purchase Invoices**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoices**, and then choose the related link.  
   
 2.  Create a purchase invoice. For more information, see [How to: Record Purchases](../FullExperience/how-to-record-purchases.md).  
   

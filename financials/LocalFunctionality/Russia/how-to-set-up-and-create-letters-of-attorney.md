@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up and Create Letters of Attorney | Microsoft Docs
+    title: How to Set Up and Create Letters of Attorney | Microsoft Docs
     description: The letter of attorney feature enables you to create and print a Letter of Attorney, and to also print a journal of Letters of Attorney.
     services: project-madeira
     documentationcenter: ''
@@ -24,7 +24,7 @@ The letter of attorney feature enables you to create and print a Letter of Attor
   
 ### To set up a letter of attorney  
   
-1.  In the **Search** box, enter **Purchases & Payables Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchases & Payables Setup**, and then choose the related link.  
   
 2.  On the **Background Posting** FastTab, fill in the **Letter of Attorney Nos.** and **Released Letter of Attorney Nos.** fields.  
   
@@ -34,7 +34,7 @@ The letter of attorney feature enables you to create and print a Letter of Attor
   
 ### To create a letter of attorney  
   
-1.  In the Search box, enter **Letters of Attorney** and then choose the related link. Create a new document and fill in the fields in the following table.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Letters of Attorney** and then choose the related link. Create a new document and fill in the fields in the following table.  
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

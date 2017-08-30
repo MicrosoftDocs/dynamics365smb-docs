@@ -1,5 +1,5 @@
 ---
-    title: How to: Copy Data from Test Environment to Production Environment | Microsoft Docs
+    title: How to Copy Data from Test Environment to Production Environment | Microsoft Docs
     description: After you have vetted and tested all your setup information, you can proceed with copying data to your production environment. You create a new company in the same database.
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ After you have vetted and tested all your setup information, you can proceed wit
   
 1.  Open and initialize the new company.  
   
-2.  In the **Search** box, enter **Configuration Worksheet**, and then choose the related link.  
+2.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Worksheet**, and then choose the related link.  
   
 3.  On the **Actions** tab, in the **Tools** group, choose **Copy Data from the Company**.  
   

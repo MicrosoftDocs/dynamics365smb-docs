@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Machine Centers | Microsoft Docs
+    title: How to Set Up Machine Centers | Microsoft Docs
     description: The machine centers are used as the lowest capacity level. No further subdivision is possible. You must therefore use machine centers for either single machines or a number of identical machines that do not need to be distinguished any further.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ The machine centers are used as the lowest capacity level. No further subdivisio
   
 ### To set up a machine center  
   
-1.  In the **Search** box, enter **Machine Centers**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Machine Centers**, and then choose the related link.  
   
 2.  Create a new **Machine Center** card. On the **Home** tab, in the **New** group, choose **New**.  
   

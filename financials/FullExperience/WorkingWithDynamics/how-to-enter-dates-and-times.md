@@ -1,5 +1,5 @@
 ---
-    title: How to: Enter Dates and Times | Microsoft Docs
+    title: How to Enter Dates and Times | Microsoft Docs
     description: You can enter dates and times in all the fields that are specifically assigned to dates (date fields).
     services: project-madeira
     documentationcenter: ''
@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Enter Dates and Times
 You can enter dates and times in all the fields that are specifically assigned to dates (date fields).  
   

@@ -1,5 +1,5 @@
 ---
-    title: How to: Correct VAT Reports | Microsoft Docs
+    title: How to Correct VAT Reports | Microsoft Docs
     description: If you have to submit a corrective VAT report or delete a submitted VAT report, you must create a new VAT report. According to the legislation, a corrective report must be submitted within a month of the initial report.
     services: project-madeira
     documentationcenter: ''
@@ -41,7 +41,7 @@ If you have to submit a corrective VAT report or delete a submitted VAT report, 
      **Suggest Lines** will create entries to account for the difference between the filters.  
   
     > [!NOTE]  
-    >  If the updated filters exclude a customer or vendor, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] creates a Cancellation line for the previous reported amount and a Correction entry with amount 0.  
+    >  If the updated filters exclude a customer or vendor, [!INCLUDE[d365fin](includes/d365fin_md.md)] creates a Cancellation line for the previous reported amount and a Correction entry with amount 0.  
   
 ### To correct a VAT report  
   

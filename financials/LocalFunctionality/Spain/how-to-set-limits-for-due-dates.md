@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Limits for Due Dates | Microsoft Docs
+    title: How to Set Limits for Due Dates | Microsoft Docs
     description: You can modify payment terms to have limits for the maximum number of days that can be between a delivery and the corresponding payment.
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ You can modify payment terms to have limits for the maximum number of days that 
   
 ### To set limits for due dates on payment terms  
   
-1.  In the **Search** box, enter **Payment Terms**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Terms**, and then choose the related link.  
   
 2.  Select the payment term that you want to modify, and then, in the **Max. No. of Days till Due Date** field, specify the number of calendar days to allow between delivery and payment.  
   

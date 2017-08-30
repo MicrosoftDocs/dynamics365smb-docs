@@ -1,5 +1,5 @@
 ---
-    title: How to: Create Deposits | Microsoft Docs
+    title: How to Create Deposits | Microsoft Docs
     description: You can make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ You can make deposits to maintain a transaction record that contains information
   
 ### To create a deposit  
   
-1.  In the **Search** box, enter **Deposits**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Deposits**, and then choose the related link.  
   
 2.  On the **Home** tab, choose **New**.  
   

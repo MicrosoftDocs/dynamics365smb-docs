@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # About Report Layouts
 A report layout is a document that acts as a template that defines the appearance of a ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> report when viewing, printing, or saving the report. In particular, a report layout sets up the following:  
   

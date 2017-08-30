@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How the Post Code and City Fields Are Filled
 If you fill in **Post Code** field with a post code that is linked to a single city in the **Post Code** table, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> displays a list of the relevant cities for you to choose from. If the post code is not set up in the **Post Code** table, you must enter the city manually.  
   

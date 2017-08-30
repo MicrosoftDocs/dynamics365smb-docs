@@ -1,5 +1,5 @@
 ---
-    title: How to: Report BAS Information | Microsoft Docs
+    title: How to Report BAS Information | Microsoft Docs
     description: You need to report the Business Activity Statement (BAS) calculation information for goods and services tax (GST). The **C** and **D** fields on the **Totals** FastTab in the **BAS Calculation Sheet** window are used for fuel tax credits.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ You need to report the Business Activity Statement (BAS) calculation information
   
 ### To report BAS information and calculate the GST settlement  
   
-1.  In the **Search** box, enter **BAS Calculation Sheets**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **BAS Calculation Sheets**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **New** group, choose **New**.  
   

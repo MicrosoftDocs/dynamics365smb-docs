@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up a Future Expense Card | Microsoft Docs
+    title: How to Set Up a Future Expense Card | Microsoft Docs
     description: To account for future period expenses you have to set up a future expense card.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ To account for future period expenses you have to set up a future expense card.
   
 ### To set up a future expense card  
   
-1.  In the **Search** box, enter **Future Expenses**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Future Expenses**, and then choose the related link.  
   
 2.  On the **General** FastTab, fill in the fields as described in the following table.  
   

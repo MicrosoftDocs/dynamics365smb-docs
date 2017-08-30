@@ -1,6 +1,6 @@
 ---
-    title: How to: View and Print Account Turnover Information | Microsoft Docs
-    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] enables you to view account turnover information in correspondence with other accounts.
+    title: How to View and Print Account Turnover Information | Microsoft Docs
+    description: [!INCLUDE[d365fin](includes/d365fin_md.md)] enables you to view account turnover information in correspondence with other accounts.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,11 +16,11 @@
 
 ---
 # How to: View and Print Account Turnover Information
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] enables you to view account turnover information in correspondence with other accounts.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] enables you to view account turnover information in correspondence with other accounts.  
   
 ### To view account turnover information  
   
-1.  In the **Search** box, enter **G/L Corresp. General Ledger**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Corresp. General Ledger**, and then choose the related link.  
   
 2.  On the **General** FastTab, enter the following information.  
   
@@ -34,7 +34,7 @@
   
 ### To print account turnover information  
   
-1.  In the **Search** box, enter **G/L Corresp. General Ledger**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Corresp. General Ledger**, and then choose the related link.  
   
 2.  On the **Options** FastTab, enter the following information.  
   

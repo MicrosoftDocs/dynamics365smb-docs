@@ -1,6 +1,6 @@
 ---
-    title: How to: Reconcile Bank Accounts by Using Bank Statements | Microsoft Docs
-    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] provides a **Bank Rec.Worksheet** that you can use to reconcile bank account ledger entries with bank statements.
+    title: How to Reconcile Bank Accounts by Using Bank Statements | Microsoft Docs
+    description: [!INCLUDE[d365fin](includes/d365fin_md.md)] provides a **Bank Rec.Worksheet** that you can use to reconcile bank account ledger entries with bank statements.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,11 +16,11 @@
 
 ---
 # How to: Reconcile Bank Accounts by Using Bank Statements
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] provides a **Bank Rec.Worksheet** that you can use to reconcile bank account ledger entries with bank statements.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] provides a **Bank Rec.Worksheet** that you can use to reconcile bank account ledger entries with bank statements.  
   
 ### To reconcile bank accounts with bank statements  
   
-1.  In the **Search** box, enter **Bank Account Reconciliations**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Account Reconciliations**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **New** group, choose **New**.  
   

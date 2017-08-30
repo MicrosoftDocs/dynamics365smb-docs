@@ -1,6 +1,6 @@
 ---
-    title: How to: Set Up Statutory Reports | Microsoft Docs
-    description: The Russian federal tax authorities require companies to submit statutory reports in electronic formats such as XML or as Microsoft Excel documents. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you must set up the templates, formats, XML schemas, and other prerequisites so that you can generate the required files.
+    title: How to Set Up Statutory Reports | Microsoft Docs
+    description: The Russian federal tax authorities require companies to submit statutory reports in electronic formats such as XML or as Microsoft Excel documents. In [!INCLUDE[d365fin](includes/d365fin_md.md)], you must set up the templates, formats, XML schemas, and other prerequisites so that you can generate the required files.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # How to: Set Up Statutory Reports
-The Russian federal tax authorities require companies to submit statutory reports in electronic formats such as XML or as Microsoft Excel documents. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you must set up the templates, formats, XML schemas, and other prerequisites so that you can generate the required files.  
+The Russian federal tax authorities require companies to submit statutory reports in electronic formats such as XML or as Microsoft Excel documents. In [!INCLUDE[d365fin](includes/d365fin_md.md)], you must set up the templates, formats, XML schemas, and other prerequisites so that you can generate the required files.  
   
  After you have set up a report and specified the required information, you can export the report to Excel, and then print the report.  
   
@@ -26,7 +26,7 @@ The Russian federal tax authorities require companies to submit statutory report
   
 ### To set up general information about statutory reports  
   
-1.  In the **Search** box, enter **Statutory Report Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Statutory Report Setup**, and then choose the related link.  
   
 2.  On the **General** FastTab, fill in the fields to describe XML formatting, file locations, and so on.  
   
@@ -36,7 +36,7 @@ The Russian federal tax authorities require companies to submit statutory report
   
 ### To set up statutory report groups  
   
-1.  In the **Search** box, enter **Statutory Report Groups**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Statutory Report Groups**, and then choose the related link.  
   
 2.  On the **Home** tab, choose **New**. In the **Code** field, enter a code for the group, and in the **Description** field, enter a description of the purpose of the group.  
   
@@ -44,7 +44,7 @@ The Russian federal tax authorities require companies to submit statutory report
   
 ### To set up report versions  
   
-1.  In the **Search** box, enter **Format Versions**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Format Versions**, and then choose the related link.  
   
 2.  Fill in the fields to describe the format version of the statutory report.  
   
@@ -59,7 +59,7 @@ The Russian federal tax authorities require companies to submit statutory report
   
 #### To define a statutory report  
   
-1.  In the **Search** box, enter **Statutory Reports**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Statutory Reports**, and then choose the related link.  
   
 2.  Optionally, you can create one or more rows that group a range of statutory reports, such as reports for VAT reporting or reports for property tax. To specify a row as an internal grouping, enter information in the **Code** and **Description** fields, and the select the **Header** check box. Leave the other fields blank.  
   

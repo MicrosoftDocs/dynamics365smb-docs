@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Filters | Microsoft Docs
+    title: How to Set Filters | Microsoft Docs
     description: You use filters to display certain accounts, customers, entries, or other records by specifying criteria for fields in a table. Only records that match the criteria are displayed. If you specify criteria for multiple fields, then records must match all criteria to be displayed.
     services: project-madeira
     documentationcenter: ''
@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Set Filters
 You use filters to display certain accounts, customers, entries, or other records by specifying criteria for fields in a table. Only records that match the criteria are displayed. If you specify criteria for multiple fields, then records must match all criteria to be displayed.  
   
@@ -48,7 +48,7 @@ You use filters to display certain accounts, customers, entries, or other record
   
 #### To set a field filter  
   
-1.  In the **Search** box, enter **Customers**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.  
   
 2.  In the **Type to filter** box, enter **GREEN**.  
   
@@ -70,7 +70,7 @@ You use filters to display certain accounts, customers, entries, or other record
   
 #### To set a filter for multiple fields  
   
-1.  In the **Search** box, enter **Chart of Accounts**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Chart of Accounts**, and then choose the related link.  
   
 2.  Select the page title menu, and then choose **Advanced filter**.  
   
@@ -111,7 +111,7 @@ You use filters to display certain accounts, customers, entries, or other record
   
 #### To set a FlowFilter on a card  
   
-1.  In the **Search** box, enter **Items**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
   
 2.  Select the page title menu again, and then choose **Limit totals**.  
   
@@ -131,7 +131,7 @@ You use filters to display certain accounts, customers, entries, or other record
   
 #### To set a FlowFilter on a list page  
   
-1.  In the **Search** box, enter **Chart of Accounts**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Chart of Accounts**, and then choose the related link.  
   
 2.  Select the page title menu, and then choose **Limit Totals**.  
   

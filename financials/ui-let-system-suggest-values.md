@@ -10,11 +10,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/15/2017
+ms.date: 08/15/2017
 ms.author: sgroespe
 
 ---
-# Letting Dynamics 365 for Financials Suggest Values
+# Letting [!INCLUDE[d365fin](includes/d365fin_md.md)] Suggest Values
 [!INCLUDE[d365fin](includes/d365fin_md.md)] can help you complete tasks quicker and more correctly by prefilling fields or complete lines with data that you would otherwise have to calculate and enter yourself. Although such automatic data entry is always correct, you can change it afterwards if you want to.
 
 Functionality that enters field values for you is typically offered for tasks where you enter large volumes of transactional data and want to avoid errors and save time. This topic contains a selection of such functionality. More sections will be added in future updates of [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -41,5 +41,4 @@ You main actions in the window are to fill in the **Payment Made** check box and
 
 ## See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Finance](Finance.md)
-
+[Finance](finance.md)

@@ -1,5 +1,5 @@
 ---
-    title: How to: Plan for New Demand | Microsoft Docs
+    title: How to Plan for New Demand | Microsoft Docs
     description: This planning task can be performed in the **Order Planning** window, which displays all new demand along with availability information and suggestions for supply. It provides the visibility and tools needed to effectively plan demand from sales lines and component lines and then create different types of supply orders directly.
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ This planning task can be performed in the **Order Planning** window, which disp
   
 ### To plan for new production order demand  
   
-1.  In the **Search** box, enter **Production Orders**, and then choose the related link. You can perform these steps for a planned, firm planned, or released production order.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Production Orders**, and then choose the related link. You can perform these steps for a planned, firm planned, or released production order.  
   
 2.  Open the production order you want to plan.  On the **Navigate** tab, in the **Order** group, choose **Planning**.  
   
@@ -106,7 +106,7 @@ This planning task can be performed in the **Order Planning** window, which disp
   
 ### To make supply orders  
   
-1.  In the **Search** box, enter **Production Orders**, and then choose the related link. You can perform these steps for a planned, firm planned, or released production order.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Production Orders**, and then choose the related link. You can perform these steps for a planned, firm planned, or released production order.  
   
 2.  Open the production order you want to plan.  On the **Navigate** tab, in the **Order** group, choose **Planning**.  
   

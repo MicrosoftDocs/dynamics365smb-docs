@@ -1,5 +1,5 @@
 ---
-    title: How to: Post a Negative Entry | Microsoft Docs
+    title: How to Post a Negative Entry | Microsoft Docs
     description: You can use the **Correction** field to post a negative debit instead of a credit, or to post a negative credit instead of a debit on an account. To meet legal requirements, this field is visible by default in all journals. The **Debit Amount** and **Credit Amount** fields include both the original entry, and the corrected entry. These fields have no effect on the account balance.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ You can use the **Correction** field to post a negative debit instead of a credi
   
 ### To post a negative entry  
   
-1.  In the **Search** box, enter **General Journals**, and then choose the related link  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journals**, and then choose the related link  
   
 2.  In the **Batch Name** field, select the required batch name.  
   

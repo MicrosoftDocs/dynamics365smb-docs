@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Troubleshooting: Record Locked by Another User
 If you have ended ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, you may experience the following error message: “Record locked by another user”. This is caused by a lock on data in a job that is still running on the server.  
   

@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Electronic Banking | Microsoft Docs
+    title: How to Set Up Electronic Banking | Microsoft Docs
     description: With electronic banking, you can make electronic payments to domestic, international, SEPA, and non-Euro SEPA vendors and customers.
     services: project-madeira
     documentationcenter: ''
@@ -34,7 +34,7 @@ With electronic banking, you can make electronic payments to domestic, internati
   
 ### To set up electronic banking  
   
-1.  In the **Search** box, enter **Electronic Banking Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Electronic Banking Setup**, and then choose the related link.  
   
 2.  In the **Electronic Banking Setup** window, on the **General** FastTab, fill in the fields as described in the following table.   
   
@@ -75,7 +75,7 @@ With electronic banking, you can make electronic payments to domestic, internati
   
 ### To add a preferred bank account to a customer  
   
-1.  In the **Search** box, enter **Customers**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.  
   
 2.  Select a customer, and then choose **Edit**.  
   

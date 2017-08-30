@@ -1,5 +1,5 @@
 ---
-    title: Design Details: Handling Projected Negative Inventory | Microsoft Docs
+    title: Design Details - Handling Projected Negative Inventory | Microsoft Docs
     description: The reorder point expresses the anticipated demand during the lead time of the item. When the reorder point is passed, it is time to order more. But the projected inventory must be large enough to cover the demand until the new order is received. Meanwhile, the safety stock should take care of fluctuations in demand up to a targeted service level.
     services: project-madeira
     documentationcenter: ''

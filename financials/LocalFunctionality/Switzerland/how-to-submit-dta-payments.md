@@ -1,5 +1,5 @@
 ---
-    title: How to: Submit DTA Payments | Microsoft Docs
+    title: How to Submit DTA Payments | Microsoft Docs
     description: To submit DatenTrägerAustausch (DTA) payments to your bank for payment, you must do the following:
     services: project-madeira
     documentationcenter: ''
@@ -28,7 +28,7 @@ To submit DatenTrägerAustausch (DTA) payments to your bank for payment, you mus
   
 ### To generate a DTA file  
   
-1.  In the **Search** box, enter **Payment Journals**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.  
   
 2.  In the **Batch Name** field, select the required journal batch.  
   
@@ -47,7 +47,7 @@ To submit DatenTrägerAustausch (DTA) payments to your bank for payment, you mus
   
 ### To print a DTA payment order  
   
-1.  In the **Search** box, enter **Payment Journals**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.  
   
 2.  In the **Batch Name** field, select the required journal batch.  
   

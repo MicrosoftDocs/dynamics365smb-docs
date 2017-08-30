@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Change Basic Settings
 You can change basic database settings, such as the work date or language.  
   

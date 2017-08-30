@@ -1,5 +1,5 @@
 ---
-    title: How to: Calculate Production Order Components | Microsoft Docs
+    title: How to Calculate Production Order Components | Microsoft Docs
     description: If you have amended production order lines, you must also refresh the components of the production order.
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ If you have amended production order lines, you must also refresh the components
   
 ### To calculate production order components  
   
-1.  In the **Search** box, enter **Firm Planned Prod. Order**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Firm Planned Prod. Order**, and then choose the related link.  
   
 2.  Open the relevant firm planned prod. order  from the list.  
   

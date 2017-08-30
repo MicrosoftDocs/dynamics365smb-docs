@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Work Shifts | Microsoft Docs
+    title: How to Set Up Work Shifts | Microsoft Docs
     description: To be able to assign work shifts to calendars, you must set up the various work shifts. Normal working hours are set up in the **Manufacturing Setup** window.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ To be able to assign work shifts to calendars, you must set up the various work 
   
 ### To set up a work shift  
   
-1.  In the **Search** box, enter **Work Shifts**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Work Shifts**, and then choose the related link.  
   
 2.  Enter the code and description of the work shift.  
   

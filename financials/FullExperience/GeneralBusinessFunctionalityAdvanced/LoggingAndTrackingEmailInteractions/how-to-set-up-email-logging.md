@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Email Logging | Microsoft Docs
+    title: How to Set Up Email Logging | Microsoft Docs
     description: You set up email logging in the **Marketing Setup** window. Setup requires an email account that has a valid email address on Exchange. It also requires that you use public folders. This enables you to share and log information and email in a company.
     services: project-madeira
     documentationcenter: ''
@@ -29,7 +29,7 @@ You set up email logging in the **Marketing Setup** window. Setup requires an em
   
 ### To set up email logging  
   
-1.  In the **Search** box, enter **Marketing Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Marketing Setup**, and then choose the related link.  
   
 2.  Expand the **E-Mail Logging** FastTab to enter information to enable email logging.  
   

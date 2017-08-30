@@ -1,5 +1,5 @@
 ---
-    title: Walkthrough: Logging Email Interactions in the Microsoft Dynamics NAV Database | Microsoft Docs
+    title: Walkthrough - Logging Email Interactions in the Microsoft Dynamics NAV Database | Microsoft Docs
     description: In managing your relationships with contacts, it helps keep track of email correspondence. Email logging in [!INCLUDE[d365fin](includes/d365fin_md.md)] and Microsoft Exchange Server. For example, you can send an email message to a contact about an upcoming event. The contact replies, and confirms interest in participating. Both messages are logged on the contact card. Or, you might receive a complaint from a contact via an email message. You can track that contact's message and your response to it by using email logging.
     services: project-madeira
     documentationcenter: ''
@@ -102,11 +102,11 @@ In managing your relationships with contacts, it helps keep track of email corre
 
 #### To configure email logging  
 
-1.  In the **Search** box, enter **Interaction Template Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Interaction Template Setup**, and then choose the related link.  
 
 2.  On the **General** FastTab, in the **E-Mails** field, select a template. For this walkthrough, select **EMAIL**. Choose the **OK** button. For more information, see [Interactions](../interactions.md).  
 
-3.  In the **Search** box, enter **Marketing Setup**, and then choose the related link.  
+3.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Marketing Setup**, and then choose the related link.  
 
 4.  Expand the **E-Mail Logging** FastTab and in the **Autodiscovery E-mail Address** field, enter the email address of a user in your company who has an email account on a Microsoft Exchange Server.  
 
@@ -150,17 +150,17 @@ In managing your relationships with contacts, it helps keep track of email corre
 
 #### To start the job queue  
 
-1.  In the **Search** box, enter **Job Queue Category**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Queue Category**, and then choose the related link.  
 
 2.  Choose **New**, and create a new category code called LOGGING. In the **Description** field, enter Email Logging. Choose the **OK** button.  
 
-3.  In the **Search** box, enter **Job Queues**, and then choose the related link.  
+3.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Queues**, and then choose the related link.  
 
 4.  Choose **New**, and create a new queue code called ELQ. In the **Description** field, enter **Email Logging Queue**.  
 
 5.  Choose the **Job Queue Category Filter** field and set to LOGGING. Select the **Start Automatically From NAS** check box. Choose the **OK** button.  
 
-6.  In the **Search** box, enter **Job Queue Entries**, and then choose the related link.  
+6.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Queue Entries**, and then choose the related link.  
 
 7.  Choose **New**, and fill in the **Job Queue Entry** card as follows.  
 
@@ -197,7 +197,7 @@ In managing your relationships with contacts, it helps keep track of email corre
 
      For more information, see [Managing Microsoft Dynamics NAV Server Instances](../Managing%20Microsoft%20Dynamics%20NAV%20Server%20Instances.md).  
 
-3.  Return to the ADD INCLUDE<!--[!INCLUDE[rtc](includes/rtc_md.md)]-->, and in the **Search** box, enter **Job Queue Log Entries**, and then choose the related link. To verify that the job queue is working as expected, note whether an entry is logged every five minutes.  
+3.  Return to the ADD INCLUDE<!--[!INCLUDE[rtc](includes/rtc_md.md)]-->, and Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Queue Log Entries**, and then choose the related link. To verify that the job queue is working as expected, note whether an entry is logged every five minutes.  
 
 ## Testing Email Logging  
  Before you put a system into production, you can try some simple tests to see whether it is working as expected. The following procedure is representative of how a salesperson and his manager would use the system. The task has several prerequisites to make testing easy. First, you should set the email address of a test salesperson so that it is the same email account that you used for autodiscovery. The test salesperson should have an email address that you can use for testing. Next, set up a test contact that has an email address that you can verify receives mail.  
@@ -237,11 +237,11 @@ In managing your relationships with contacts, it helps keep track of email corre
 ## Using Email Logging and Interaction Logs  
  To verify your interactions, you can review the information that is recorded in the **Interaction Log Entries** window.  
 
- For more information, see [How to: Set Up Email Logging for use with the Job Queue](../how-to-set-up-email-logging-for-use-with-the-job-queue.md)  
+ For more information, see [How to: Set Up Email Logging for use with the Job Queue](how-to-set-up-email-logging-for-use-with-the-job-queue.md)  
 
 ## See Also  
- [Logging and Tracking Email Interactions](../logging-and-tracking-email-interactions.md)   
+ [Logging and Tracking Email Interactions](logging-and-tracking-email-interactions.md)   
  Folders   
  Relationship Management Setup   
- [Security Considerations for Email Logging](../security-considerations-for-email-logging.md)   
- [Troubleshooting: Email Logging](../troubleshooting-email-logging.md)
+ [Security Considerations for Email Logging](security-considerations-for-email-logging.md)   
+ [Troubleshooting: Email Logging](troubleshooting-email-logging.md)

@@ -1,5 +1,5 @@
 ---
-    title: How to: Insert Pictures | Microsoft Docs
+    title: How to Insert Pictures | Microsoft Docs
     description: If you have a digitalized picture, which is picture file in .BMP format, you can insert it in most card windows, such as the item card or the employee card. The **Picture** field is not included in the standard layout of some card windows, but it can be inserted with the Design facilities. The following procedure describes how to insert pictures for items, but the same steps also apply to all card windows.
     services: project-madeira
     documentationcenter: ''
@@ -14,13 +14,13 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Insert Pictures
 If you have a digitalized picture, which is picture file in .BMP format, you can insert it in most card windows, such as the item card or the employee card. The **Picture** field is not included in the standard layout of some card windows, but it can be inserted with the Design facilities. The following procedure describes how to insert pictures for items, but the same steps also apply to all card windows.  
   
 ### To insert a picture  
   
-1.  In the **Search** box, enter **Items**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
   
 2.  On the **Navigate**, in the **Master Data** group, choose **Picture**. The **Item Picture** window appears.  
   

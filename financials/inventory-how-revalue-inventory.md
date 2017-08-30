@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: costing, inventory cost, value entries
-ms.date: 06/02/2017
+ms.date: 08/07/2017
 ms.author: sgroespe
 
 ---
@@ -31,6 +31,7 @@ If you want to appreciate or depreciate an item or a specific item ledger entry,
 New value entries are now created to reflect the revaluations that you have posted. You can see the new values on the respective item cards.
 
 ## See Also
+[Design Details: Revaluation](design-details-revaluation.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  

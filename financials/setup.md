@@ -29,6 +29,7 @@ Some functionality, either general or for specific business processes, can be se
 | Configure the rules and values that define your company's sales policies, register new customers, and set up how you communicate with customers. |[Setting Up Sales](sales-setup-sales.md) |
 | Configure the rules and values that define your company's purchasing policies, register new vendors, and prioritize your vendors for payment processing. |[Setting Up Purchasing](purchasing-setup-purchasing.md) |
 | Configure the rules and values that define the company's inventory policies, set up locations if you keep inventory in multiple warehouses, and categorize your items to improve searching and sorting . |[Setting Up Inventory](inventory-setup-inventory.md) |
+|Define the general rules and values for warehouse processes and the specific handling at each location.|[Setting Up Warehouse Management](warehouse-setup-warehouse.md)|
 | Set up resources, time sheets, and jobs to manage projects. |[Setting Up Project Management](projects-setup-projects.md) |
 | Configure how to insure, maintain, and depreciate fixed assets, and how you record the costs of fixed assets in your company books. |[Setting Up Fixed Assets](fa-setup.md) |
 | Set up unique identification codes for records, such as cards, documents, and journal lines, to track them in the system. |[Creating Number Series](ui-create-number-series.md) |
@@ -40,7 +41,7 @@ Some functionality, either general or for specific business processes, can be se
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Creating New Companies in [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
+[Creating New Companies in [!INCLUDE[d365fin](includes/d365fin_md.md)](about-new-company.md)  
 [Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

@@ -1,5 +1,5 @@
 ---
-    title: How to: Post a Bank Reconciliation | Microsoft Docs
+    title: How to Post a Bank Reconciliation | Microsoft Docs
     description: You can post bank reconciliation if you have reconciled the bank accounts in the **Bank Rec.Worksheet** window. For more information, see [How to: Reconcile Bank Accounts by Using Bank Statements](how-to-reconcile-bank-accounts-by-using-bank-statements.md).
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ You can post bank reconciliation if you have reconciled the bank accounts in the
   
 ### To post a bank reconciliation  
   
-1.  In the **Search** box, enter **Bank Account Reconciliations**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Account Reconciliations**, and then choose the related link.  
   
 2.  Select the bank account reconciliation that you want to post. On the **Home** tab, in the **Manage** group, choose **Edit**.  
   
@@ -39,7 +39,7 @@ You can post bank reconciliation if you have reconciled the bank accounts in the
   
 ### To view the posted bank account reconciliations  
   
-1.  In the **Search** box, enter **Bank Accounts**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.  
   
 2.  Select the bank account for which you want to view the posted reconciliations. On the **Navigate** tab, in the **Bank Acc.** group, choose **Statements**.  
   

@@ -1,5 +1,5 @@
 ---
-    title: How to: Create Proposals | Microsoft Docs
+    title: How to Create Proposals | Microsoft Docs
     description: Proposals can be generated manually or automatically based on either vendor or customer ledger entries.
     services: project-madeira
     documentationcenter: ''
@@ -26,7 +26,7 @@ Proposals can be generated manually or automatically based on either vendor or c
   
 #### To create proposals manually  
   
-1.  In the **Search** box, enter **Telebank - Bank Overview**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Telebank - Bank Overview**, and then choose the related link.  
   
 2.  Select the relevant bank account. On the **Actions** tab, in the **Telebank** group, choose **Proposal**.  
   
@@ -46,7 +46,7 @@ Proposals can be generated manually or automatically based on either vendor or c
   
        
   
-3.  In the **Search** box, enter **Telebank - Bank Overview**, and then choose the related link.  
+3.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Telebank - Bank Overview**, and then choose the related link.  
   
 4.  Select the relevant bank account. On the **Actions** tab, in the **Telebank** group, choose **Proposal**.  
   
@@ -69,7 +69,7 @@ Proposals can be generated manually or automatically based on either vendor or c
   
        
   
-3.  In the **Search** box, enter **Telebank - Bank Overview**, and then choose the related link.  
+3.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Telebank - Bank Overview**, and then choose the related link.  
   
 4.  Select the relevant bank account. On the **Actions** tab, in the **Telebank** group, choose **Proposal**.  
   

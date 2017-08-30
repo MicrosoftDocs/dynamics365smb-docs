@@ -1,5 +1,5 @@
 ---
-    title: How to: Export or Import Payment Management Setup Parameters | Microsoft Docs
+    title: How to Export or Import Payment Management Setup Parameters | Microsoft Docs
     description: You can export or import payment management setup parameters to an external disk so that you can use the same parameters for another company with similar requirements.
     services: project-madeira
     documentationcenter: ''
@@ -30,7 +30,7 @@ You can export or import payment management setup parameters to an external disk
   
 ### To export or import payment management setup parameters  
   
-1.  In the **Search** box, enter **Payment Slip Setup**, and then choose the relevant link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Slip Setup**, and then choose the relevant link.  
   
 2.  In the **Payment Class** window, on the **Actions** tab, in the **Functions** group, choose **Export Parameters**.  
   

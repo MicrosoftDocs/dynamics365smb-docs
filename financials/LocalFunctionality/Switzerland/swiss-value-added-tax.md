@@ -1,6 +1,6 @@
 ---
     title: Swiss Value Added Tax | Microsoft Docs
-    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] ../../includes the following enhancements to Swiss VAT reporting:
+    description: [!INCLUDE[d365fin](includes/d365fin_md.md)] ../../includes the following enhancements to Swiss VAT reporting:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # Swiss Value Added Tax
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] ../../includes the following enhancements to Swiss VAT reporting:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] ../../includes the following enhancements to Swiss VAT reporting:  
   
 -   Automatic adjustment of VAT amounts for invoices, according to payment discounts.  
   

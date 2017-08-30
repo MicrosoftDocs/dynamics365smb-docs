@@ -1,5 +1,5 @@
 ---
-    title: How to: Enter CCC Codes | Microsoft Docs
+    title: How to Enter CCC Codes | Microsoft Docs
     description: Código Cuenta Cliente (CCC) is a unique bank account identification code. The following component fields make up the 20-digit (Spain) or 21-digit (Portugal) bank CCC code structure.
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ Código Cuenta Cliente (CCC) is a unique bank account identification code. The f
   
 ### To enter CCC codes  
   
-1.  In the **Search** box, enter **Company Information**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.  
   
 2.  On the **Payments** FastTab, fill in the fields as described in the following table  
   

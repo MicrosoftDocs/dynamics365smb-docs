@@ -22,6 +22,8 @@ You can use the following reports :
 * The **EC Sales List** European Community (EC) Sales List report lists the value added tax (VAT) amounts that you have collected for sales to VAT-registered customers in the European Union (EU) countries.  
 * The **VAT Return** report includes VAT for sales and purchases to customers in all countries that use VAT.
 
+If you want to view a complete history of VAT entries, every posting that involves VAT creates an entry on the **VAT Entries** page. These entries are used to calculate your VAT settlement amount, such as your payment and refund, for a specific period. To view VAT entries, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Entries**, and then choose the related link.
+
 ## About the EC Sales List report
 In the UK, all companies that sell goods and services to VAT-registered customers, including customers in other European Union (EU) countries, must submit an electronic version of the European Community (EC) Sales List report in XML format through Her Majesty's Revenue and Customs (HMRC) website. The EC Sales List report works only for countries in the EU.
 
@@ -107,6 +109,7 @@ The following table describes the codeunits that you must create for your report
 >   When you create codeunits for the report, pay attention to the value in the **VAT Report Version** field. This field must reflect the version of the report that is, or was, required by the tax authority. For example, you might enter **2017** in the field to indicate that the report conforms to the requirements that were in place that year. To find the current version, contact your tax authority.  
 
 ## See also
-[Set up VAT](finance-setup-vat.md)  
+[Setting Up to Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md)  
+[How to: Work with VAT on Sales and Purchases](finance-work-with-vat.md)  
 [Set Up Sales](sales-setup-sales.md)  
 [How to: Invoice Sales](sales-setup-sales.md)  

@@ -1,5 +1,5 @@
 ---
-    title: How to: Configure New Companies using a Cmdlet | Microsoft Docs
+    title: How to Configure New Companies using a Cmdlet | Microsoft Docs
     description: In a number of scenarios, you may want to load and import a configuration package without involving your users or using the RapidStart Services user interface. You can do so by using a Windows PowerShell cmdlet. Scenarios where this may be useful include:
     services: project-madeira
     documentationcenter: ''
@@ -18,7 +18,7 @@
 # How to: Configure New Companies using a Cmdlet
 In a number of scenarios, you may want to load and import a configuration package without involving your users or using the RapidStart Services user interface. You can do so by using a Windows PowerShell cmdlet. Scenarios where this may be useful include:  
 
--   Performing data import across multiple [!INCLUDE[d365fin](../../includes/d365fin_md.md)] installations without opening each of installation manually.  
+-   Performing data import across multiple [!INCLUDE[d365fin](includes/d365fin_md.md)] installations without opening each of installation manually.  
 
 -   Configuring additional application areas for multiple customers.  
 

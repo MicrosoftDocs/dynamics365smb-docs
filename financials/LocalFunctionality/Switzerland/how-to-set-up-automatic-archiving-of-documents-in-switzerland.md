@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Automatic Archiving of Documents in Switzerland | Microsoft Docs
+    title: How to Set Up Automatic Archiving of Documents in Switzerland | Microsoft Docs
     description: You can set up automatic archiving of sales documents and purchase documents—such as quotes, blanket orders, and orders—before you delete documents.
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ You can set up automatic archiving of sales documents and purchase documents—s
   
 ### To set up automatic archiving of documents  
   
-1.  In the **Search** box, enter **Sales & Receivables Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales & Receivables Setup**, and then choose the related link.  
   
 2.  On the **Sales & Receivables Setup** window, on the **Archiving** FastTab, fill in the fields as described in the following table.  
   

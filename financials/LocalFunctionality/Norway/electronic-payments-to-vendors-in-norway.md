@@ -1,6 +1,6 @@
 ---
     title: Electronic Payments to Vendors in Norway | Microsoft Docs
-    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] ../../includes Norwegian enhancements for automatically making payments to vendors. This reduces errors that occur from manual data entry. You can use this functionality to perform the following operations:
+    description: [!INCLUDE[d365fin](includes/d365fin_md.md)] ../../includes Norwegian enhancements for automatically making payments to vendors. This reduces errors that occur from manual data entry. You can use this functionality to perform the following operations:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # Electronic Payments to Vendors in Norway
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] ../../includes Norwegian enhancements for automatically making payments to vendors. This reduces errors that occur from manual data entry. You can use this functionality to perform the following operations:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] ../../includes Norwegian enhancements for automatically making payments to vendors. This reduces errors that occur from manual data entry. You can use this functionality to perform the following operations:  
   
 -   Search invoices that are due based on different conditions.  
   
@@ -39,9 +39,9 @@
   
 2.  The bank's software receives the payments and transfers payments to the bank.  
   
-3.  The bank receives the payments and sends the first-time return receipt to [!INCLUDE[d365fin](../../includes/d365fin_md.md)] using the bank's software.  
+3.  The bank receives the payments and sends the first-time return receipt to [!INCLUDE[d365fin](includes/d365fin_md.md)] using the bank's software.  
   
-4.  The bank executes the payments and sends the settlement return (second-time return receipt) to [!INCLUDE[d365fin](../../includes/d365fin_md.md)] using the bank's software where the payments are posted.  
+4.  The bank executes the payments and sends the settlement return (second-time return receipt) to [!INCLUDE[d365fin](includes/d365fin_md.md)] using the bank's software where the payments are posted.  
   
 ## Vendor Payment Requirements  
  If the payment transactions do not fulfill the requirements, an error message appears and you cannot create a payment file for transfers to the bank. The following criteria must be met when you process payments to vendors:  

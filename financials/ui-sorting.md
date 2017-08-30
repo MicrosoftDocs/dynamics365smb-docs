@@ -25,4 +25,3 @@ Choose a column heading and use the small arrow to sort ascending or descending.
 ## See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Entering Criteria in Filters](ui-enter-criteria-filters.md)
-

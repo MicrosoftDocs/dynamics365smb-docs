@@ -1,5 +1,5 @@
 ---
-    title: How to: Calculate and Post Withholding Tax Settlements | Microsoft Docs
+    title: How to Calculate and Post Withholding Tax Settlements | Microsoft Docs
     description: You can use the **Calc. and Post WHT Settlement** window to calculate and post the withholding tax (WHT).
     services: project-madeira
     documentationcenter: ''
@@ -27,7 +27,7 @@ You can use the **Calc. and Post WHT Settlement** window to calculate and post t
   
 ### To calculate and post withholding tax settlements  
   
-1.  In the **Search** box, enter **Calc. and Post WHT Settlement**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Calc. and Post WHT Settlement**, and then choose the related link.  
   
 2.  On the **ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](../../includes/bp_optionsheading_md.md)]-->** FastTab, fill in the fields as described in the following table.  
   

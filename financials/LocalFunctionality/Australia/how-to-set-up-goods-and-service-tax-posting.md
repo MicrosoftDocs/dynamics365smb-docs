@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Goods and Service Tax Posting | Microsoft Docs
+    title: How to Set Up Goods and Service Tax Posting | Microsoft Docs
     description: Goods and services tax (GST) is the tax that is applied on most goods and services. The GST that is paid and received during a period is reported in the Business Activity Statement (BAS) that has to be submitted to the Australian Taxation Office (ATO).
     services: project-madeira
     documentationcenter: ''
@@ -24,7 +24,7 @@ Goods and services tax (GST) is the tax that is applied on most goods and servic
   
 ### To set up goods and sales tax posting  
   
-1.  In the **Search** box, enter **VAT Posting Setup**, and then choose the appropriate link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Posting Setup**, and then choose the appropriate link.  
   
 2.  Fill in the fields as described in the following table.  
   

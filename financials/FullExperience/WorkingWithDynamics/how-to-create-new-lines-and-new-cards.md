@@ -1,5 +1,5 @@
 ---
-    title: How to: Create New Lines and New Cards | Microsoft Docs
+    title: How to Create New Lines and New Cards | Microsoft Docs
     description: ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> lets you work with windows in three different modes: view, edit, and new. The mode appears in the window caption, before the window name. For example, **View - Customer Card - 10000 The Cannon Group PLC**.
     services: project-madeira
     documentationcenter: ''
@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create New Lines and New Cards
 ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> lets you work with windows in three different modes: view, edit, and new. The mode appears in the window caption, before the window name. For example, **View - Customer Card - 10000 The Cannon Group PLC**.  
   

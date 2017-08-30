@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Electronic VAT and ICP Declarations | Microsoft Docs
+    title: How to Set Up Electronic VAT and ICP Declarations | Microsoft Docs
     description: To get your Digipoort communications to work, you may have to adjust your network settings. Digipoort uses a secure communication protocol and requires using TCP port 443. Before proceeding with the following procedure, set up your network to use this port.
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ To get your Digipoort communications to work, you may have to adjust your networ
   
 ### To set up electronic tax declarations  
   
-1.  In the **Search** box, enter **Elec. Tax Declaration Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Elec. Tax Declaration Setup**, and then choose the related link.  
   
 2.  In the **Elec. Tax Declaration Setup** window, on the **General** FastTab, select the **VAT Contact Type**. The options include **Tax Payer** and **Agent**. If the contact type is **Tax Payer**, the contact ID in the electronic declaration will be filled with the VAT Registration No. of the company.  
   

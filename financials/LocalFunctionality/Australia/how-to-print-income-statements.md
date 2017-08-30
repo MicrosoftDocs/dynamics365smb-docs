@@ -1,5 +1,5 @@
 ---
-    title: How to: Print Income Statements | Microsoft Docs
+    title: How to Print Income Statements | Microsoft Docs
     description: You can use the **Income Statement** report to view the company’s annual income statement.
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ You can use the **Income Statement** report to view the company’s annual incom
   
 ### To print the income statement report  
   
-1.  In the **Search** box, enter **Income Statement**, and then choose the relevant link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Income Statement**, and then choose the relevant link.  
   
 2.  In the **Income Statement** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   

@@ -1,5 +1,5 @@
 ---
-    title: How to: Add a Note to a Record and Share It with Other Users | Microsoft Docs
+    title: How to Add a Note to a Record and Share It with Other Users | Microsoft Docs
     description: The ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/rtc_md.md)]--> enables you to attach a note to any record, such as a document or card. For example, if you have extra information about a sales order that does not belong in any of the fields on the sales order page, you can write it in a note. This note will be visible on the sales order for you and any of your colleagues who view the sales order.
     services: project-madeira
     documentationcenter: ''
@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Add a Note to a Record and Share It with Other Users
 The ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/rtc_md.md)]--> enables you to attach a note to any record, such as a document or card. For example, if you have extra information about a sales order that does not belong in any of the fields on the sales order page, you can write it in a note. This note will be visible on the sales order for you and any of your colleagues who view the sales order.  
   
@@ -24,7 +24,7 @@ The ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/rtc_md.md)]--> enables you t
   
  You cannot delete notes in **My Notifications**. Instead, you must open the record that the note is attached to, and delete it there, but only if you have been allocated the necessary permissions.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.  
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  

@@ -1,5 +1,5 @@
 ---
-    title: How to: Upgrade a .DTD Definition File | Microsoft Docs
+    title: How to Upgrade a .DTD Definition File | Microsoft Docs
     description: You can explicitly validate a .dtd file after you import one in order to address upgrade issues. This is useful when you have an existing setup that needs to be updated to reflect the current version of Microsoft Dynamics NAV.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ You can explicitly validate a .dtd file after you import one in order to address
   
 ### To upgrade and validate a .dtd file  
   
-1.  In the **Search** box, enter **Data Exports**, and choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Data Exports**, and choose the related link.  
   
 2.  On the **Home** tab, in the **Export** group, choose **Record Definitions**.  
   

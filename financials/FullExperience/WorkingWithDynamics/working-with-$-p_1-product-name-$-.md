@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Working with ($ P_1 Product Name $)
 When performing business tasks, you interact with data in different ways, such as creating records and entering data, sorting and filtering data, writing notes, and outputting data to other applications. To work more efficiently, you can use keyboard shortcuts to perform tasks without using the mouse.  
   

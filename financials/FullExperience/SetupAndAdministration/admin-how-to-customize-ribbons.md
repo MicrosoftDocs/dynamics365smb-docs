@@ -1,5 +1,5 @@
 ---
-    title: How to: Customize Ribbons | Microsoft Docs
+    title: How to Customize Ribbons | Microsoft Docs
     description: By opening the **Customize Ribbon** window from any page that has a ribbon, you can customize the ribbon to optimize it for your work processes and preferences. For example, if you frequently use the **Dimensions** window, you can add the **Dimensions** action to the **Process** actions group. You can also remove actions that you never use for better overview.
     services: project-madeira
     documentationcenter: ''
@@ -45,7 +45,7 @@ By opening the **Customize Ribbon** window from any page that has a ribbon, you 
 >     3.  Open the dialog again and re-add the actions to the group.  
   
 > [!CAUTION]  
->  Any customization that alters the ribbon could affect the guidance provided in the [!INCLUDE[d365fin](../../includes/d365fin_md.md)] Help, because navigation steps in Help may refer to a different ribbon layout.  
+>  Any customization that alters the ribbon could affect the guidance provided in the [!INCLUDE[d365fin](includes/d365fin_md.md)] Help, because navigation steps in Help may refer to a different ribbon layout.  
   
  The following procedures describe how to perform typical customization of ribbons by working with groups, but the same steps apply to working with tabs.  
   

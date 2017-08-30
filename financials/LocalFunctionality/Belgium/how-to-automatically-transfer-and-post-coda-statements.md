@@ -1,5 +1,5 @@
 ---
-    title: How to: Automatically Transfer and Post CODA Statements | Microsoft Docs
+    title: How to Automatically Transfer and Post CODA Statements | Microsoft Docs
     description: After you have applied and processed all CODA statement lines, you can transfer the CODA statement lines to a financial journal.
     services: project-madeira
     documentationcenter: ''
@@ -24,7 +24,7 @@ After you have applied and processed all CODA statement lines, you can transfer 
   
 ### To automatically transfer statement lines  
   
-1.  In the **Search** box, enter **Bank Accounts**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.  
   
 2.  Select the bank account, and on the **Home** tab, in the **Process** group, choose **CODA Statements**.  
   

@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up IBLC-BLWI Transaction Codes | Microsoft Docs
+    title: How to Set Up IBLC-BLWI Transaction Codes | Microsoft Docs
     description: In order to process electronic payments, you must set up transaction codes according to the requirements of the Belgian-Luxembourg Exchange Institute. These are international identification codes for the different types of payment transactions. The IBLC/BLWI codes are used only for international payments.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ In order to process electronic payments, you must set up transaction codes accor
   
 ### To set up IBLC/BLWI transaction codes  
   
-1.  In the **Search** box, enter **IBLC/BLWI Transaction Codes**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **IBLC/BLWI Transaction Codes**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **New** group, choose **New**.  
   

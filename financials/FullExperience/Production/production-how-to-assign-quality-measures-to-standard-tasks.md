@@ -1,5 +1,5 @@
 ---
-    title: How to: Assign Quality Measures to Standard Tasks | Microsoft Docs
+    title: How to Assign Quality Measures to Standard Tasks | Microsoft Docs
     description: You can assign any quality measures to the standard task. The assigned quality measures give specifications of the features and tolerances to be tested for quality assurance.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ You can assign any quality measures to the standard task. The assigned quality m
   
 ### To assign quality measures to standard tasks  
   
-1.  In the **Search** box, enter **Standard Tasks**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Standard Tasks**, and then choose the related link.  
   
 2.  Select the standard task that you want to assign quality measures to.  
   

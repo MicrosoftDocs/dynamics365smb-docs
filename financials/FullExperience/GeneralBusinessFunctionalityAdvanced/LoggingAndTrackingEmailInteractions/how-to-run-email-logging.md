@@ -1,5 +1,5 @@
 ---
-    title: How to: Run Email Logging | Microsoft Docs
+    title: How to Run Email Logging | Microsoft Docs
     description: Email logging can be used to capture email activities between a ADD INCLUDE<!--[!INCLUDE[d365fin](includes/d365fin_md.md)] contact. Both persons must have valid email addresses that are registered on the respective salesperson and contact cards.
     services: project-madeira
     documentationcenter: ''
@@ -43,7 +43,7 @@ Email logging can be used to capture email activities between a ADD INCLUDE<!--[
 
 4.  After the mail in the queue folder is processed and determined to be valid, it is moved to the public storage folder. For more information, see [Logging and Tracking Email Interactions](../logging-and-tracking-email-interactions.md).  
 
-5.  In the **Search** box, enter **Interaction Log Entries**, and then choose the related link.  
+5.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Interaction Log Entries**, and then choose the related link.  
 
     > [!TIP]  
     >  To limit the log entries that you view to just those of the salesperson, you can open the **Interaction Log Entries** window from the salesperson card.  

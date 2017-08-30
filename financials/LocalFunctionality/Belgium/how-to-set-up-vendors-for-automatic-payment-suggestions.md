@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Vendors for Automatic Payment Suggestions | Microsoft Docs
+    title: How to Set Up Vendors for Automatic Payment Suggestions | Microsoft Docs
     description: You can set up each vendor so that unpaid invoices from that vendor are automatically included in payment suggestions. For each vendor, you must decide whether you want to automatically generate payment suggestions. If you do not want to generate payment suggestions for a vendor, you should not select the **Suggest Payments** check box. This way the outstanding ledger entries for the vendor will not be included in payment suggestions.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ You can set up each vendor so that unpaid invoices from that vendor are automati
   
 ### To set up a vendor to be included in the payment suggestion batch  
   
-1.  In the **Search** box, enter **Vendors**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.  
   
 2.  In the **Vendors** window, select a relevant vendor. On the **Home** tab, in the **Manage** group, choose **Edit**.  
   

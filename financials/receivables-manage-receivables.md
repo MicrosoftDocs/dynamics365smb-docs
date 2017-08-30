@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 06/01/2017
+ms.date: 08/10/2017
 ms.author: sgroespe
 
 ---
@@ -37,6 +37,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Post cash receipts or refunds for customers in the cash receipt journal and apply to customer ledger entries, either from the journal or from posted ledger entries. |[How to: Reconcile Customer Payments Manually](receivables-how-apply-sales-transactions-manually.md) |
 | Remind customers of overdue amounts, calculate interest and finance charges, and manage accounts receivable. |[How to: Collect Outstanding Balances](receivables-collect-outstanding-balances.md) |
 |Ensure that you know the cost of shipped items by assigning added item costs, such as freight, physical handling, insurance, and transportation that you incur after selling.|[How to: Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)|
+|Set up a tolerance by which the system closes an invoice even though the payment, including any discount, does not fully cover the amount on the invoice.|[How to: Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 ## See Also
 [Sales](sales-manage-sales.md)  
 [Managing Payables](payables-manage-payables.md)  

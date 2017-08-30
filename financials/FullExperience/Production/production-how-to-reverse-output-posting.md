@@ -1,5 +1,5 @@
 ---
-    title: How to: Reverse Output Posting | Microsoft Docs
+    title: How to Reverse Output Posting | Microsoft Docs
     description: There are times when output posting must be reversed. An example of this would be if a data entry error occurred and an incorrect amount of output is posted to a production order.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ There are times when output posting must be reversed. An example of this would b
   
 ### To reverse an output posting  
   
-1.  In the **Search** box, enter **Output Journal**, and then choose the related link. Select your batch.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Output Journal**, and then choose the related link. Select your batch.  
   
 2.  In the **Posting Date** field, type the posting date of the entry to reverse.  
   

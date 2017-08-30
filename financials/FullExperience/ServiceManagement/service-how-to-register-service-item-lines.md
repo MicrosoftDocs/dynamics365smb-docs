@@ -1,5 +1,5 @@
 ---
-    title: How to: Register Service Item Lines | Microsoft Docs
+    title: How to Register Service Item Lines | Microsoft Docs
     description: When you have created a service order or service quote, you need to register the service item lines where you enter the information about the items you have received for service. This may include a description, service item number, item number, serial number, and service item group, along with fault comments, and so on.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ When you have created a service order or service quote, you need to register the
   
 ### To register service item lines  
   
-1.  In the **Search** box, enter **Service Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Orders**, and then choose the related link.  
   
 2.  Open the relevant service order.  
   

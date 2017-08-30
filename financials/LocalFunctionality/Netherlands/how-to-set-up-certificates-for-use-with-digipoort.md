@@ -1,5 +1,5 @@
 ---
-    title: How to: Process Response Messages from Tax Authorities | Microsoft Docs
+    title: How to Process Response Messages from Tax Authorities | Microsoft Docs
     description: When you submit a VAT or ICP declaration to the tax authorities electronically, they will process the declaration and send you a message in response.
     services: project-madeira
     documentationcenter: ''
@@ -18,17 +18,17 @@
 # How to: Process Response Messages from Tax Authorities
 When you submit a VAT or ICP declaration to the tax authorities electronically, they will process the declaration and send you a message in response.  
   
- You can import the response into [!INCLUDE[d365fin](../../includes/d365fin_md.md)] by using the **Receive Response Messages** batch job. The response message will contain the status of the declaration.  
+ You can import the response into [!INCLUDE[d365fin](includes/d365fin_md.md)] by using the **Receive Response Messages** batch job. The response message will contain the status of the declaration.  
   
 ### To import messages from the tax authorities' server  
   
-1.  In the **Search** box, enter **Elec. Tax Decl. Response Msgs.**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Elec. Tax Decl. Response Msgs.**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **Process** group, choose **Receive Response Messages**.  
   
 3.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tabledescription_md.md)]-->|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**CA Certificate Encryption Password**|The password that was used to encrypt the Certificate Authorities' certificates.|  
     |**User Certificate Password**|The password that is used to encrypt the user certificates.|  
@@ -37,7 +37,7 @@ When you submit a VAT or ICP declaration to the tax authorities electronically, 
   
 ### To process the response messages from the tax authorities  
   
-1.  In the **Search** box, enter **Elec. Tax Decl. Response Msgs.**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Elec. Tax Decl. Response Msgs.**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **Process** group, choose **Process Response Messages**.  
   

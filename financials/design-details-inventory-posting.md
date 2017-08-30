@@ -1,5 +1,5 @@
 ---
-    title: Design Details: Inventory Posting | Microsoft Docs
+    title: Design Details - Inventory Posting | Microsoft Docs
     description: Each inventory transaction, such as a purchase receipt or a sales shipment, posts two entries of different types.
     services: project-madeira
     documentationcenter: ''
@@ -77,7 +77,7 @@ Each inventory transaction, such as a purchase receipt or a sales shipment, post
 
  At the end of the accounting period, you run the **Post Inventory Cost to G/L** batch job to reconcile these inventory transactions with the general ledger.  
 
- For more information, see [Design Details: Reconciliation with the General Ledger](design-details-accounts-in-the-general-ledger.md).  
+ For more information, see [Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md).  
 
  The following tables show the result of reconciling the inventory transactions in this example with the general ledger.  
 
@@ -119,11 +119,14 @@ Each inventory transaction, such as a purchase receipt or a sales shipment, post
 |6|3|1|  
 
 ## Assembly and Production Posting  
- Capacity and resource ledger entries represent the time that is posted as consumed in production or assembly. These process costs are posted as value entries to the general ledger along with the involved material costs in a similar structure as described for item ledger entries in this topic.  
+Capacity and resource ledger entries represent the time that is posted as consumed in production or assembly. These process costs are posted as value entries to the general ledger along with the involved material costs in a similar structure as described for item ledger entries in this topic.  
 
- For more information, see [Design Details: Assembly Order Posting](design-details-production-order-posting.md).  
+For more information, see [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md).  
 
 ## See Also  
  [Design Details: Inventory Costing](design-details-inventory-costing.md)   
  [Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md)   
  [Design Details: Cost Components](design-details-cost-components.md)
+ [Managing Inventory Costs](finance-manage-inventory-costs)  
+ [Finance](finance.md)  
+ [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md

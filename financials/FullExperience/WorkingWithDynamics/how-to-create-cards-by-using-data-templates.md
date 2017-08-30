@@ -1,5 +1,5 @@
 ---
-    title: How to: Create Cards by Using Data Templates | Microsoft Docs
+    title: How to Create Cards by Using Data Templates | Microsoft Docs
     description: Cards hold master data that represent business accounts such as items, vendors, and customers. For example, an item card displays the necessary information to store, maintain, and trade the item.
     services: project-madeira
     documentationcenter: ''
@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Create Cards by Using Data Templates
 Cards hold master data that represent business accounts such as items, vendors, and customers. For example, an item card displays the necessary information to store, maintain, and trade the item.  
   
@@ -22,7 +22,7 @@ Cards hold master data that represent business accounts such as items, vendors, 
   
 ### To create a card using a data template  
   
-1.  In the **Search** box, enter **Items**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
   
 2.  On the **Home** tab, choose **New** to create a new empty item card.  
   

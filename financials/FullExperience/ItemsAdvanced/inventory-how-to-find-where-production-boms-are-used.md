@@ -1,5 +1,5 @@
 ---
-    title: How to: Find Where Production BOMs Are Used | Microsoft Docs
+    title: How to Find Where Production BOMs Are Used | Microsoft Docs
     description: The **Prod. BOM Where-Used** window displays where a production BOM is used.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ The **Prod. BOM Where-Used** window displays where a production BOM is used.
   
 ### To find where production BOMs are used  
   
-1.  In the **Search** box, enter **Production BOM**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Production BOM**, and then choose the related link.  
   
 2.  Open the relevant production BOM from the list.  
   

@@ -1,6 +1,6 @@
 ---
-    title: How to: Set Up Electronic Invoicing | Microsoft Docs
-    description: Before you can send electronic documents, you must set up [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to ensure that the tax identification number (RFC), personal identification number (CURP), and state inscription IDs are available for your company and all your customers and vendors. You also need to set up the parameters that are needed for sending electronic invoices to customers and vendors. These parameters include the certificate thumbprint, which is the certificate that you received from the Mexico tax authority (SAT).
+    title: How to Set Up Electronic Invoicing | Microsoft Docs
+    description: Before you can send electronic documents, you must set up [!INCLUDE[d365fin](includes/d365fin_md.md)] to ensure that the tax identification number (RFC), personal identification number (CURP), and state inscription IDs are available for your company and all your customers and vendors. You also need to set up the parameters that are needed for sending electronic invoices to customers and vendors. These parameters include the certificate thumbprint, which is the certificate that you received from the Mexico tax authority (SAT).
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # How to: Set Up Electronic Invoicing
-Before you can send electronic documents, you must set up [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to ensure that the tax identification number (RFC), personal identification number (CURP), and state inscription IDs are available for your company and all your customers and vendors. You also need to set up the parameters that are needed for sending electronic invoices to customers and vendors. These parameters include the certificate thumbprint, which is the certificate that you received from the Mexico tax authority (SAT).  
+Before you can send electronic documents, you must set up [!INCLUDE[d365fin](includes/d365fin_md.md)] to ensure that the tax identification number (RFC), personal identification number (CURP), and state inscription IDs are available for your company and all your customers and vendors. You also need to set up the parameters that are needed for sending electronic invoices to customers and vendors. These parameters include the certificate thumbprint, which is the certificate that you received from the Mexico tax authority (SAT).  
   
 > [!IMPORTANT]  
 >  The certificate that you received from the Mexico tax authority must be installed for each user who sends electronic invoices. For more information, see the [Servicio de Administracíon Tributaria](http://go.microsoft.com/fwlink/?LinkId=242772) website.  
@@ -25,14 +25,14 @@ Before you can send electronic documents, you must set up [!INCLUDE[d365fin](../
   
 ### To set up company information  
   
-1.  In the **Search** box, enter **Company Information**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.  
   
 2.  In the **Company Information** window, on the **Tax** FastTab, fill in the fields as described in the following table.  
   
     |Field|Description|  
     |---
-    title: How to: Set Up Electronic Invoicing | Microsoft Docs
-    description: Before you can send electronic documents, you must set up [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to ensure that the tax identification number (RFC), personal identification number (CURP), and state inscription IDs are available for your company and all your customers and vendors. You also need to set up the parameters that are needed for sending electronic invoices to customers and vendors. These parameters include the certificate thumbprint, which is the certificate that you received from the Mexico tax authority (SAT).
+    title: How to Set Up Electronic Invoicing | Microsoft Docs
+    description: Before you can send electronic documents, you must set up [!INCLUDE[d365fin](includes/d365fin_md.md)] to ensure that the tax identification number (RFC), personal identification number (CURP), and state inscription IDs are available for your company and all your customers and vendors. You also need to set up the parameters that are needed for sending electronic invoices to customers and vendors. These parameters include the certificate thumbprint, which is the certificate that you received from the Mexico tax authority (SAT).
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -47,8 +47,8 @@ Before you can send electronic documents, you must set up [!INCLUDE[d365fin](../
     ms.author: sgroespe
 
 ------
-    title: How to: Set Up Electronic Invoicing | Microsoft Docs
-    description: Before you can send electronic documents, you must set up [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to ensure that the tax identification number (RFC), personal identification number (CURP), and state inscription IDs are available for your company and all your customers and vendors. You also need to set up the parameters that are needed for sending electronic invoices to customers and vendors. These parameters include the certificate thumbprint, which is the certificate that you received from the Mexico tax authority (SAT).
+    title: How to Set Up Electronic Invoicing | Microsoft Docs
+    description: Before you can send electronic documents, you must set up [!INCLUDE[d365fin](includes/d365fin_md.md)] to ensure that the tax identification number (RFC), personal identification number (CURP), and state inscription IDs are available for your company and all your customers and vendors. You also need to set up the parameters that are needed for sending electronic invoices to customers and vendors. These parameters include the certificate thumbprint, which is the certificate that you received from the Mexico tax authority (SAT).
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -63,8 +63,8 @@ Before you can send electronic documents, you must set up [!INCLUDE[d365fin](../
     ms.author: sgroespe
 
 ------
-    title: How to: Set Up Electronic Invoicing | Microsoft Docs
-    description: Before you can send electronic documents, you must set up [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to ensure that the tax identification number (RFC), personal identification number (CURP), and state inscription IDs are available for your company and all your customers and vendors. You also need to set up the parameters that are needed for sending electronic invoices to customers and vendors. These parameters include the certificate thumbprint, which is the certificate that you received from the Mexico tax authority (SAT).
+    title: How to Set Up Electronic Invoicing | Microsoft Docs
+    description: Before you can send electronic documents, you must set up [!INCLUDE[d365fin](includes/d365fin_md.md)] to ensure that the tax identification number (RFC), personal identification number (CURP), and state inscription IDs are available for your company and all your customers and vendors. You also need to set up the parameters that are needed for sending electronic invoices to customers and vendors. These parameters include the certificate thumbprint, which is the certificate that you received from the Mexico tax authority (SAT).
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

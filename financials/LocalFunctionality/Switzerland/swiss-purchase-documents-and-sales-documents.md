@@ -1,6 +1,6 @@
 ---
     title: Swiss Purchase Documents and Sales Documents | Microsoft Docs
-    description: [!INCLUDE[d365fin](../../includes/d365fin_md.md)] ../../includes Swiss enhancements to purchase documents and sales documents. This ../../includes the following:
+    description: [!INCLUDE[d365fin](includes/d365fin_md.md)] ../../includes Swiss enhancements to purchase documents and sales documents. This ../../includes the following:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # Swiss Purchase Documents and Sales Documents
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] ../../includes Swiss enhancements to purchase documents and sales documents. This ../../includes the following:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] ../../includes Swiss enhancements to purchase documents and sales documents. This ../../includes the following:  
   
 -   Enhanced posting descriptions for general ledger entries, customer ledger entries, and vendor ledger entries. For more information, see the G/L Entry table, the Cust. Ledger Entry table, and the Vendor Ledger Entry table.  
   

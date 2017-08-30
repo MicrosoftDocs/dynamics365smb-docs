@@ -1,5 +1,5 @@
 ---
-    title: How to: Test Remittance Payments | Microsoft Docs
+    title: How to Test Remittance Payments | Microsoft Docs
     description: After you have set up remittance payments and generated suggestions, you can test the payment journal lines for errors before posting them.
     services: project-madeira
     documentationcenter: ''
@@ -24,7 +24,7 @@ After you have set up remittance payments and generated suggestions, you can tes
   
 ### To print a remittance test report  
   
-1.  In the **Search** box, enter **Payment Journals**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.  
   
 2.  On the **Home** tab, in the **Posting** group, choose **Test Report**.  
   

@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up Bank Accounts for CODA | Microsoft Docs
+    title: How to Set Up Bank Accounts for CODA | Microsoft Docs
     description: Before you can start to use the electronic banking functionality for CODA statements, you must set up the following codes:
     services: project-madeira
     documentationcenter: ''
@@ -26,7 +26,7 @@ Before you can start to use the electronic banking functionality for CODA statem
   
 ### To set up protocol numbers and version codes  
   
-1.  In the **Search** box, enter **Bank Accounts**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.  
   
 2.  Select the bank account, and on the **Home** tab, in the **Manage** group, choose **Edit**.  
   

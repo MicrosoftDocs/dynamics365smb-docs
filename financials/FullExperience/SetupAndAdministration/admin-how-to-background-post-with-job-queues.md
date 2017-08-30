@@ -1,5 +1,5 @@
 ---
-    title: How to: Background Post with Job Queues | Microsoft Docs
+    title: How to Background Post with Job Queues | Microsoft Docs
     description: Job queues are an effective tool to schedule the running of business processes in the background. For example, there may be an instance in which multiple users are trying to post sales orders at the same time, but only one order can be processed at a time. By setting up a background posting routine, you can place the postings in a queue for processing in the background.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ Job queues are an effective tool to schedule the running of business processes i
   
  Alternatively, you may want to schedule postings for hours when it is convenient for your organization. For example, it may make sense in your business to run certain routines when most of the data entry for the day has concluded. You can achieve this by setting the job queue up to run various batch post reports, such as the **Batch Post Sales Orders**, **Batch Post Sales Invoices**, and **Batch Post Sales Credit Memos** reports.  
   
- [!INCLUDE[d365fin](../../includes/d365fin_md.md)] supports background posting for the following document types:  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] supports background posting for the following document types:  
   
 -   Sales: sales order, return order, credit memo, invoice  
   
@@ -35,7 +35,7 @@ Job queues are an effective tool to schedule the running of business processes i
   
 ### To post in the background using a job queue  
   
-1.  In the **Search** box, enter **Sales & Receivables Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales & Receivables Setup**, and then choose the related link.  
   
 2.  In the **Sales & Receivables Setup** window, expand the **Background Posting** FastTab.  
   
@@ -45,7 +45,7 @@ Job queues are an effective tool to schedule the running of business processes i
   
      ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/use-job-queues-to-schedule-tasks.md).  
   
-5.  In the **Search** box, enter **Job Queues**, and then choose the related link. For more information, see [How to: Set Up Job Queues](../how-to-set-up-job-queues.md).  
+5.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Queues**, and then choose the related link. For more information, see [How to: Set Up Job Queues](../how-to-set-up-job-queues.md).  
   
 6.  In the **Code** field, select the job queue code **SPPOST**, and on the **Home** tab, choose **Edit**.  
   
@@ -61,7 +61,7 @@ Job queues are an effective tool to schedule the running of business processes i
     >  1.  For the sales order page or the sales order list, customize the ribbon to add the following action: **Remove From Job Queue**. For more information, see [How to: Customize Ribbons](../how-to-customize-ribbons.md).  
     > 2.  Select the order that you want to remove from the queue, and in the group where you have added the action, choose **Remove From Job Queue**.  
   
-10. In the **Search** box, enter **Job Queue Log Entries**, and then choose the related link.  
+10. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Queue Log Entries**, and then choose the related link.  
   
      In the **Job Queue Log Entries** window, you can see whether the sales order posting is in process or has succeeded in the job queue.  
   
@@ -73,7 +73,7 @@ Job queues are an effective tool to schedule the running of business processes i
   
 1.  Set up a printer to work in the background. For more information, see [How to: Specify Printer Selection for Reports](../Printing%20Reports%20from%20a%20Background%20Session.md).  
   
-2.  In the **Search** box, enter **Sales & Receivables Setup**, and then choose the related link.  
+2.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales & Receivables Setup**, and then choose the related link.  
   
 3.  In the **Sales & Receivables Setup** window, expand the **Background Posting** FastTab.  
   

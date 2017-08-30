@@ -1,5 +1,5 @@
 ---
-    title: How to: Register Fault Reason Codes | Microsoft Docs
+    title: How to Register Fault Reason Codes | Microsoft Docs
     description: You use fault reason codes to identify possible reasons for service item faults and, if necessary, to exclude warranty and contract discounts from the service of service items.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ You use fault reason codes to identify possible reasons for service item faults 
   
 ### To register a fault reason code  
   
-1.  In the **Search** box, enter **Service Orders**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Orders**, and then choose the related link.  
   
 2.  Open the service order in which you want to register a fault reason code.  
   

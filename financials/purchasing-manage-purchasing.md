@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 03/29/2017
+ms.date: 08/10/2017
 ms.author: sgroespe
 
 ---
@@ -26,21 +26,24 @@ Products can be both inventory items and services. For more information, see [Ho
 
 For all purchase processes, you can incorporate an approval workflow, for example, to require that large purchases are approved by the accounting manager. For more information, see [Using Approval Workflows](across-how-use-approval-workflows.md).
 
-The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.
+The following table describes a sequence of tasks, with links to the topics that describe them.
 
 | To | See |
 | --- | --- |
 | Create a purchase invoice to record your agreement with a vendor to purchase products on certain delivery and payment terms. |[How to: Record Purchases](purchasing-how-record-purchases.md) |
+|Create a purchase quote to reflect a request for quote from your vendor, which you can later convert to a purchase order.|[How to: Request Quotes](purchasing-how-request-quotes.md)|
 | Create a purchase invoice for all or selected lines on a sales invoice. |[How to: Purchase Items for a Sale](purchasing-how-purchase-products-sale.md) |
 | Perform an action on an unpaid posted purchase invoice to automatically create a credit memo and either cancel the purchase invoice or recreate it so you can make corrections. |[How to: Correct or Cancel Unpaid Sales Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md) |
 | Create a purchase credit memo to revert a specific posted purchase invoice to reflect which products you are returning to the vendor and which payment amount you will collect. |[How to: Process Purchase Returns or Cancellations](purchasing-how-register-new-vendors.md) |
-| Create a vendor card for each vendor that you purchase from. |[How to: Register New Vendors](purchasing-how-register-new-vendors.md) |
+|Prepare to invoice multiple receipts from the same vendor once by combining the receipts on one invoice.|[How to: Combine Receipts on a Single Invoice](purchasing-how-to-combine-receipts.md)]
+| Learn how [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates when you must order an item to receive it on a certain date.|[Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)|
 
 ## See Also
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  
+[How to: Register New Vendors](purchasing-how-register-new-vendors.md)  
 [Managing Payables](payables-manage-payables.md)  
-[Manage Projects](projects-manage-projects.md)    
-[Supply Chain](madeira-supply-chain.md)      
+[Managing Projects](projects-manage-projects.md)    
+      
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
 

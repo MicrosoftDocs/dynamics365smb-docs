@@ -1,5 +1,5 @@
 ---
-    title: How to: Print VAT Information on Invoices | Microsoft Docs
+    title: How to Print VAT Information on Invoices | Microsoft Docs
     description: You can use posting groups to print VAT information for each item on the sales invoice.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ You can use posting groups to print VAT information for each item on the sales i
   
 ### To print VAT information on an invoice  
   
-1.  In the **Search** box, enter **VAT Posting Group**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Posting Group**, and then choose the related link.  
   
 2.  Enter an item code and description.  
   

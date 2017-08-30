@@ -38,7 +38,7 @@ Delivery reminders are used to track overdue vendor shipments, and to remind ven
   
  You can also track documents in relation to purchase order lines and sales order lines.  
   
- [!INCLUDE[d365fin](../../includes/d365fin_md.md)] provides the following reports:  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] provides the following reports:  
   
  **Issued Delivery Reminder**  
  To view the delivery reminders for vendors.  

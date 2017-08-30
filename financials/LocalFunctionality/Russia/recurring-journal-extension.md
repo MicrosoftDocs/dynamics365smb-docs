@@ -21,7 +21,7 @@ The recurring journal extension feature enables you to enter a line for a recurr
 ## Recurring General Journal Line Card  
  The **Recurring General Journal** window enables you to fill in the recurring journal information.  
   
-1.  In the **Search** box, enter **Recurring General Journal**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Recurring General Journal**, and then choose the related link.  
   
 2.  On the **Navigate** tab, in the **Account** group, choose **Card**.  
   

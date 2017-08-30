@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Mandatory Fields
 When you enter data on pages in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, certain fields are marked with a red asterisk. The red asterisk means that the field must be filled to complete a certain process that uses the field, such as posting a transaction that uses the value in the field.  
   

@@ -1,5 +1,5 @@
 ---
-    title: How to: Display Work Center Ledger Entries | Microsoft Docs
+    title: How to Display Work Center Ledger Entries | Microsoft Docs
     description: From the **Work Center** card, you can view the posted entries of the work center.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ From the **Work Center** card, you can view the posted entries of the work cente
   
 ### To display work center ledger entries  
   
-1.  In the **Search** box, enter **Work Centers**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Work Centers**, and then choose the related link.  
   
 2.  Open the relevant **Work Center** card from the list.  
   

@@ -1,5 +1,5 @@
 ---
-    title: How to: Print the Factura-Invoice | Microsoft Docs
+    title: How to Print the Factura-Invoice | Microsoft Docs
     description: The Factura-Invoice.
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,7 @@ The Factura-Invoice.
   
 ### To print the posted factura-invoice  
   
-1.  In the **Search** box, enter **Posted Sales Invoice**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Sales Invoice**, and then choose the related link.  
   
 2.  Choose the **Print** button, and then select **Posted Factura-Invoice**.  
   
@@ -28,7 +28,7 @@ The Factura-Invoice.
   
 ### To print the order factura-invoice  
   
-1.  In the **Search** box, enter **Sales Order**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Order**, and then choose the related link.  
   
 2.  Choose the **Print** button, and then select **Order Factura-Invoice**.  
   

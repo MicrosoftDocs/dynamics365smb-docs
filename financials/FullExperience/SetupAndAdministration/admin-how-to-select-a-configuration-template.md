@@ -1,5 +1,5 @@
 ---
-    title: How to: Select a Configuration Template | Microsoft Docs
+    title: How to Select a Configuration Template | Microsoft Docs
     description: When you select an existing data template, you must evaluate whether the template that you created for the new company are sufficient for the customer. Review the provided fields and values to determine which templates are appropriate for a new company.
     services: project-madeira
     documentationcenter: ''
@@ -23,7 +23,7 @@ When you select an existing data template, you must evaluate whether the templat
   
 ### To select a data template  
   
-1.  In the **Search** box, enter **Templates**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Templates**, and then choose the related link.  
   
 2.  Open the **Config. Templates** window.  
   

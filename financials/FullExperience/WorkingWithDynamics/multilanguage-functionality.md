@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # Multilanguage Functionality
 Product Name is multilanguage enabled. This means that a localized version of Product Name can present itself in different languages. It is possible for the user to change the language that is used to display texts, and the change is immediate. There is no need to stop and restart Product Name.  
   

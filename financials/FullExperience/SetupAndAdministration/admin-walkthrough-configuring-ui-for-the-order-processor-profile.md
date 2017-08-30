@@ -1,5 +1,5 @@
 ---
-    title: Walkthrough: Configuring UI for the Order Processor Profile | Microsoft Docs
+    title: Walkthrough - Configuring UI for the Order Processor Profile | Microsoft Docs
     description: Administrators configure the user interface by customizing the user interface for a single profile, such as the Order Processor profile, that multiple users are assigned to. To configure a profile, you must have the SUPER permission set. For more information, see [Administration in the Clients](../administration-in-the-clients.md).
     services: project-madeira
     documentationcenter: ''
@@ -26,13 +26,13 @@ Administrators configure the user interface by customizing the user interface fo
 >  The only situation where UI configuration does overwrite UI personalization is when a UI element is removed by configuration. For example, if the administrator removes a field that the user has renamed or moved, then the field is still removed from the user’s user interface.  
 
 ## About This Walkthrough  
- This walkthrough provides examples of how to configure the Order Processor profile in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. The walkthrough illustrates the following tasks:  
+ This walkthrough provides examples of how to configure the Order Processor profile in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The walkthrough illustrates the following tasks:  
 
 -   Making sure order processors only see UI elements that they have permissions for  
 
 -   Checking the user interface of a test user who has the Order Processor profile  
 
--   Opening [!INCLUDE[d365fin](../../includes/d365fin_md.md)] in configuration mode  
+-   Opening [!INCLUDE[d365fin](includes/d365fin_md.md)] in configuration mode  
 
 -   Customizing the Sales Orders ribbon for the Order Processor profile  
 
@@ -118,7 +118,7 @@ Administrators configure the user interface by customizing the user interface fo
 
 #### To add the Links FactBox to a FactBox pane  
 
-1.  In the **Search** box, enter **Customers**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.  
 
 2.  Select a customer, and then, on the **Navigate** tab, in the **Documents** group, choose **Orders**.  
 
@@ -148,14 +148,14 @@ Administrators configure the user interface by customizing the user interface fo
  The UI customization that you made in a previous procedure to show the **Manage Notes** action in the **Sale Orders** window when it is accessed from the **Sales Orders – Open** tile on the Role Center is now canceled.  
 
 ## Reusing UI Customization for the Order Processor Profile in Other Databases  
- You can export a profile, for example to reuse the UI configuration by importing the profile into another [!INCLUDE[d365fin](../../includes/d365fin_md.md)] database.  
+ You can export a profile, for example to reuse the UI configuration by importing the profile into another [!INCLUDE[d365fin](includes/d365fin_md.md)] database.  
 
 > [!NOTE]  
 >  ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/nav_windows_md.md)]--> must be in configuration mode, otherwise the exported XML file will be empty.  
 
 #### To export a profile  
 
-1.  In the **Search** box, enter **Export Profiles**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Export Profiles**, and then choose the related link.  
 
 2.  In the **Export Profiles** window, on the **Profile** FastTab, enter **Order Processor** as a filter value for profile ID, and then choose **OK**.  
 
@@ -165,7 +165,7 @@ Administrators configure the user interface by customizing the user interface fo
 
 1.  Logon to a database where you want to implement the Order Processor profile that you have configured in the previous procedures.  
 
-2.  In the **Search** box, enter **Import Profiles**, and then choose the related link.  
+2.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Import Profiles**, and then choose the related link.  
 
 3.  In the **Import from XML File** window, select the profile that you want to import.  
 

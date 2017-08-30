@@ -1,5 +1,5 @@
 ---
-    title: How to: Send Email Messages | Microsoft Docs
+    title: How to Send Email Messages | Microsoft Docs
     description: When ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> is integrated with an email system, you can choose the button on the right side of the **E-Mail** field to open a window in which you can create and send a message.
     services: project-madeira
     documentationcenter: ''
@@ -14,7 +14,7 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 
-    ---
+---
 # How to: Send Email Messages
 When ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> is integrated with an email system, you can choose the button on the right side of the **E-Mail** field to open a window in which you can create and send a message.  
   

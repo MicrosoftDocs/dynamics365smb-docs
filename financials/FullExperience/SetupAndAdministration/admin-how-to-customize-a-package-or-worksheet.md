@@ -1,5 +1,5 @@
 ---
-    title: How to: Customize a Package or Worksheet | Microsoft Docs
+    title: How to Customize a Package or Worksheet | Microsoft Docs
     description: Use the configuration worksheet to gather together and categorize the information that you want to use to configure a new company, and arrange tables in a logical way. Formatting in the worksheet is based on a simple hierarchy: areas contain groups, which in turn contain tables. Areas and groups are optional, but are necessary if you want to be able to see an overview of the configuration process on the ADD INCLUDE<!--[!INCLUDE[rim](../../includes/how-to-use-the-rapidstart-services-role-center-to-track-progress.md).
     services: project-madeira
     documentationcenter: ''
@@ -22,7 +22,7 @@ Use the configuration worksheet to gather together and categorize the informatio
   
 ### To create an area or group for configuration  
   
-1.  In the **Search** box, enter **Configuration Worksheet**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Worksheet**, and then choose the related link.  
   
 2.  In the **Line Type** field, choose **Area**. In the **Name** field, enter a descriptive name.  
   

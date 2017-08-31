@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/16/2017
+    ms.date: 08/31/2017
     ms.author: sgroespe
 
 ---
@@ -43,10 +43,10 @@ The following describes how to receive items with a purchase order. The steps ar
 
     From a new or an open warehouse receipt, you can use the **Filters to Get Source Docs.** window to retrieve the released source document lines that define which items to receive or ship.
 
-    1. Choose the **Use Filters to Get Src. Docs.** action.  
-    2. To set up a new filter, enter a descriptive code in the **Code** field, and then choose the **Modify** action.  
-    3. Define the type of source document lines that you want to retrieve by filling in the relevant filter fields.  
-    4. Choose the **Run** action.  
+        1. Choose the **Use Filters to Get Src. Docs.** action.  
+        2. To set up a new filter, enter a descriptive code in the **Code** field, and then choose the **Modify** action.  
+        3. Define the type of source document lines that you want to retrieve by filling in the relevant filter fields.  
+        4. Choose the **Run** action.  
 
     All released source document lines that fulfill the filter criteria are now inserted in **Warehouse Receipt** window from which you activated the filter function.  
 

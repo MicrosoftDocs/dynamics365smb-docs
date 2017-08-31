@@ -85,7 +85,7 @@ On each line in the window for both parent items and child items, the following 
 |**Able to Make Parent**|Shows how many units of any subassembly in the top item you can make. The field specifies how many immediate parent units you can assemble. The value is based on availability of the item on the line.|
 |**Able to Make Top Item**|Shows how many units of the top item you can make. The field specifies how many units of the top-line BOM item you can assemble. The value is based on availability of the item on the line.|
 
-## Item Availability by BOM Level Window
+### Item Availability by BOM Level Window
 The **Item Availability by BOM Level** window shows information for the item on the card or document line that the window is opened for. The item is always shown on the top line. You can view information for other items or for all items by changing the value in the **Item Filter** field.
 
 > [!NOTE]  
@@ -115,6 +115,5 @@ If one or more assembly components are not available, then this is reflected in 
 [How to: Set Up Locations](inventory-how-setup-locations.md)  
 [How to: Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)  
 [How to: Sell Products](sales-how-sell-products.md)      
-  
 [Working with Financials](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)

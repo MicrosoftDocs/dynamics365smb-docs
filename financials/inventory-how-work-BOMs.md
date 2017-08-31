@@ -14,7 +14,7 @@ ms.author: sgroespe
 
 ---
 # How to: Work with Bills of Material
-You use bills of materials (BOMs) to structure parent items that you sell as kits consisting of the parent's components or that you assemble or produce to order or to stock.
+You use bills of materials (BOMs) to structure parent items that must be assembled or produced by resources or machine centers from components. An assembly BOM can also be used to sell a parent item as a kit consisting of its components.
 
 ## Assembly BOMs or Production BOMs
 You use assembly orders for making end items from components in a simple process that can be performed by one or more basic resources, which are not machine or work centers, or without any resources. For example, an assembly process could be to pick two wine bottles and one coffee sack and then pack them as a gift item.  

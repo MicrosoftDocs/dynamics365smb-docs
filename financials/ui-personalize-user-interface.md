@@ -23,19 +23,15 @@ Depending on the type of page and what it includes, you can:
 
 -   Add, move, and remove fields.
 -   Add, move, and remove columns in a list.
--   Change the freeze pane of columns in a list. 
-
-    The freeze pane defines the columns that always appear in the list, even when you scroll horizontally.
--   Add, move, and remove cues (tiles).
--   Move and remove entire parts.
-
-    Parts are typically larger areas on a page that contain one or more components such as another page, a chart, or tiles.  
+-   Change the freeze pane of columns in a list. The freeze pane defines the columns that always appear in the list, even when you scroll horizontally.
+-   Move and remove Cues (tiles).
+-   Move and remove panes. Panes are areas on a page that contain things like another page, a chart, or tiles.  
 
 ## Personalization in detail
 To help you better understand personalization, here are some pointers.  
 -   When you make changes to a card page of record that you open from a list, the changes will take effect on all records that you open from that list. For example, let's say you open a specific customer from the Customers list page, and then personalize the page by adding a field. When you open other customers from the list, the field that you added will also be shown.
 -   Changes that you make will take effect on all your Role Centers. For example, if you make a change to the Customer list when the Role Center is set to Business Manager, you will also see the change in the Customer list when Role Center is set to Sales Order Processor. 
--   Changes to a page in a part will take effect where ever the part is used.  
+-   Changes to a page in a pane will take effect where ever the pane is used.  
 -   You can only add fields, columns, or tiles from a predefined list, which is based on the page. You cannot create new ones.
 
 <!--NAV
@@ -72,10 +68,10 @@ To help you better understand personalization, here are some pointers.
     > [!IMPORTANT]  
     >   You cannot make changes to a list if the list is shown as tiles. You must first switch the page to the list view by selecting the ![Show as list](media/ui_show_as_list_icon.png "Show as list arrow left") icon.
    
-5.  You can continue to make changes on the same page or move to another page. Your changes are automatically saved as you make them. When you are done, in the **Personalizing** bar, choose **I'm Done**. 
+5.  You can continue to make changes on the same page or move to another page. Your changes are automatically saved as you make them. When you are done, in the **Personalizing** bar, choose **Done**. 
 
-## Undo personalization to change a page back to its original layout
-At some point, you might want to undo all the personalization changes that you have made to a page over time so that page looks like it did originally. To do this, choose the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, **Personalize**, and then **Undo All**. You will not see the changes, until you close and open the page again.
+## Clear personalization to change a page back to its original layout
+At some point, you might want to undo all the personalization changes that you have made to a page over time so that page looks like it did originally. To do this, choose the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, **Personalize**, and then **Clear personalization**. You will not see the changes, until you close and open the page again.
 
 ## See Also
 [Managing Personalization](ui-manage-personalization.md)  

@@ -10,7 +10,7 @@
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
-    ms.search.keywords:
+    ms.search.keywords: resources, allocation, status, repairs
     ms.date: 08/28/2017
     ms.author: bholtorf
 
@@ -65,8 +65,6 @@ When you reallocate a service item in an allocation entry that has the status **
 A new allocation entry that contains the new resource is created that has the status **Active**.  
   
 ## See Also  
-[How to: Cancel Allocations](../how-to-cancel-allocations.md)  
-[How to: Reallocate Resources by Using the Dispatch Board](../how-to-reallocate-resources-by-using-the-dispatch-board.md)  
-[How to: Reallocate Resources by Using Service Orders](../how-to-reallocate-resources-by-using-service-orders.md)  
-[How to: Work on Service Tasks](../how-to-work-on-service-tasks.md)  
-[How to: Set Up Repair Statuses](../how-to-set-up-repair-statuses.md)  
+[How to: Set Up Resource Allocations](service-how-setup-resource-allocation.md)  
+[How to: Allocate Resources](service-how-to-allocate-resources.md)  
+

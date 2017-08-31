@@ -179,4 +179,4 @@ WIP inventory can be revalued as long as the revaluation date is not later than 
  [Design Details: Inventory Valuation](design-details-inventory-valuation.md)
  [Managing Inventory Costs](finance-manage-inventory-costs)  
  [Finance](finance.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md
+ [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

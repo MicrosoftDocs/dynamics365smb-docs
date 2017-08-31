@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/21/2017
+    ms.date: 08/31/2017
     ms.author: sgroespe
 
 ---
@@ -20,9 +20,9 @@ When your location is set up to require put-away processing but not receive proc
 
 You can create an inventory put-away in three ways:  
 
-    -   Create the put-away in two steps by first creating a warehouse request from the source document, which acts as a signal to the warehouse that the source document is ready for put-away. The inventory put-away can then be created from the **Inventory Put-away** window based on the source document.  
-    -   Create the inventory put-away directly from the source document itself.  
-    -   Create inventory put-aways for several source documents at once by using a batch job.  
+- Create the put-away in two steps by first creating a warehouse request from the source document, which acts as a signal to the warehouse that the source document is ready for put-away. The inventory put-away can then be created from the **Inventory Put-away** window based on the source document.  
+- Create the inventory put-away directly from the source document itself.  
+- Create inventory put-aways for several source documents at once by using a batch job.  
 
 ## To request an inventory put-away by releasing the source document
 For purchase orders, sales return orders, inbound transfer orders, and assembly orders, you create the warehouse request by releasing the order. The following describes how to do this from a purchase order.  

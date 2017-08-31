@@ -32,4 +32,4 @@ In cost accounting, you can transfer general ledger entries to a cost type by us
  [Criteria for Transferring General Ledger Entries to Cost Entries](finance-criteria-for-transferring-general-ledger-entries-to-cost-entries.md)   
  [Results of the Transfer](finance-results-of-the-transfer.md)   
  [Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md
+ [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

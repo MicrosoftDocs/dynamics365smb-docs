@@ -102,6 +102,19 @@ If the resource allocated to a service task cannot accomplish the work, it means
     > 2.  If service was not started while the allocation was **Active**, the allocation status changes from **Reallocation Needed** to **Canceled**.  
     > 3.  If you are reallocating a service order that you have converted from a quote, the status of the allocation entries registered for the quote always changes to **Finished** when you reallocate the service items in the service order.  
 
+## To cancel an allocation  
+You can cancel resource allocations for service tasks without reallocating the tasks.  
+  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Dispatch Board**, and then choose the related link.  
+2. Choose the service order, and then choose the **Resource Allocations** action.  
+3. Choose the allocation entry with the service task that you want to cancel allocation for.  
+4. Choose the **Cancel Allocation** action.  
+5. In the **Reason Code** field, select the appropriate reason code.  
+6. Choose **Yes** to confirm the cancellation.  
+  
+  > [!NOTE]  
+    > In the **Status** field, the **Reallocation Needed** option is automatically selected. If the repair status of the service item in the entry is **Initial**, the repair status is changed to **Referred**, that is, no service has been started. If the repair status is **In Process**, it is changed to **Partly Serviced**, that is, some service has been completed.
+
 ## See Also
 [How to: Set Up Resource Allocation](service-how-setup-resource-allocation.md)
 [Allocation Status and Repair Status](service-allocation-status-and-repair-status.md)   

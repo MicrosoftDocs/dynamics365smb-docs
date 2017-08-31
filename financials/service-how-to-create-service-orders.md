@@ -27,11 +27,9 @@ When creating a service order, you only have to fill in a few fields. Some field
   
      Alternatively, if you have set up number series for service orders in the **Service Mgt. Setup** window, you can press Enter to select the next available service order number.  
   
-4. In the **Customer No.** field, select the relevant customer from the list.  
+4. In the **Customer No.** field, select the relevant customer from the list. The customer-relevant fields are filled in with information from the **Customer** table.  
   
-     The customer-relevant fields are filled in with information from the **Customer** table.  
-  
-5. Depending on the settings on the **Mandatory Fields** FastTab in the **Service Mgt. Setup** window, you may need to fill in the **Service Order Type** field on the **General** FastTab and the **Salesperson Code** field on the **Invoicing** FastTab.  
+5. Depending on the settings on the **Mandatory Fields** FastTab in the **Service Mgt. Setup** window, you may need to fill in the **Service Order Type** field and the **Salesperson Code** field.  
 6. Optionally, fill in the rest of the fields.  
 7. Register the service item lines.  
 
@@ -103,8 +101,8 @@ Service orders are not deleted automatically, however, if the total quantity on 
 
 
 ## See Also  
-[Service Posting](service-service-posting.md)
-[How to: Post a Service Order](service-how-to-post-service-orders.md)
-[Setting Up Service Management](../how-to-create-service-quotes.md)   
-[How to: Work on Service Tasks](service-how-to-work-on-service-tasks.md)   
-[How to: Allocate Resources](service-how-to-allocate-resources.md)
+[Service Posting](service-service-posting.md)  
+[How to: Post a Service Order](service-how-to-post-service-orders.md)  
+[Setting Up Service Management](../how-to-create-service-quotes.md)  
+[How to: Work on Service Tasks](service-how-to-work-on-service-tasks.md)  
+[How to: Allocate Resources](service-how-to-allocate-resources.md)  

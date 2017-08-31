@@ -36,16 +36,14 @@ When you convert a service quote to a service order, the service order, the serv
 * There is a search for allocation entries for all the service items in the service order that have the status **Active**. If such allocation entries are found, their allocation status is changed from **Active** to **Reallocation Needed**.  
   
 ## Canceling Allocations  
-When you cancel an allocation for a service item, [!INCLUDE[d365fin](includes/d365fin_md.md)] updates the allocation status of the corresponding allocation entry in the following way:  
-  
-* The allocation status is changed from **Active** to **Reallocation Needed**.  
+When you cancel an allocation for a service item, [!INCLUDE[d365fin](includes/d365fin_md.md)] updates the allocation status of the corresponding allocation entry from **Active** to **Reallocation Needed**.
 
 The repair status of the service item in the allocation entry is updated in the following ways:  
   
 * If the repair status is **Initial**, the repair status is changed to **Referred** (no service has been started).  
 * If the repair status is **In Process**, the repair status is changed to **Partly Serviced** (some service has been completed).  
   
-## Reallocating  
+## Reallocating an Active Allocation Entry  
 When you reallocate a service item in an allocation entry that is **Active**, the allocation entry is updated in the following ways:  
   
 * If service was started when the allocation was **Active** (that is, if the repair status of the service item in the entry was changed to **In Process**), the allocation status is changed from **Active** to **Finished**.  
@@ -58,7 +56,7 @@ The repair status of the service item in the allocation entry is updated in the 
   
 A new allocation entry that contains the new resource is created that has the status **Active**.  
   
-## Reallocating a Service Item That Needs Reallocation  
+## Reallocating a Service Item  
 When you reallocate a service item in an allocation entry that has the status **Reallocation Needed**, the allocation entry is updated in the following ways:  
   
 * If service was started when the allocation was **Active** (that is, if the repair status of the service item in the entry was changed to **In Process**), the allocation status is changed from **Reallocation Needed** to **Finished**.  
@@ -67,8 +65,8 @@ When you reallocate a service item in an allocation entry that has the status **
 A new allocation entry that contains the new resource is created that has the status **Active**.  
   
 ## See Also  
-[How to: Cancel Allocations](../how-to-cancel-allocations.md)   
-[How to: Reallocate Resources by Using the Dispatch Board](../how-to-reallocate-resources-by-using-the-dispatch-board.md)   
-[How to: Reallocate Resources by Using Service Orders](../how-to-reallocate-resources-by-using-service-orders.md)   
-[How to: Work on Service Tasks](../how-to-work-on-service-tasks.md)   
-[How to: Set Up Repair Statuses](../how-to-set-up-repair-statuses.md)
+[How to: Cancel Allocations](../how-to-cancel-allocations.md)  
+[How to: Reallocate Resources by Using the Dispatch Board](../how-to-reallocate-resources-by-using-the-dispatch-board.md)  
+[How to: Reallocate Resources by Using Service Orders](../how-to-reallocate-resources-by-using-service-orders.md)  
+[How to: Work on Service Tasks](../how-to-work-on-service-tasks.md)  
+[How to: Set Up Repair Statuses](../how-to-set-up-repair-statuses.md)  

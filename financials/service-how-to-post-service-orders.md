@@ -64,16 +64,14 @@ When you have created a service credit memo and filled it in, you can post the c
 2. Create a new service credit memo. On the **Home** tab, in the **New** group, choose **New**.  
 3. Fill in the necessary fields.  
 4. On the **Actions** tab, in the **Posting** group, choose **Post**. If you want to print the credit memo at the same time as you post, choose **Post and Print** instead.  
-  
- To test credit memos before you post them,  choose **Test Report**. When you run the report, the posting dates specified in the document are verified, and so on.  
-  
- To post several service credit memos at the same time. run the **Batch Post Service Cr. Memos** batch job. This can be an advantage if you have a large number of credit memos that must be posted.  
+5. To test credit memos before you post them, choose **Test Report**. When you run the report, the posting dates specified in the document are verified.  
+6. To post several service credit memos at the same time. run the **Batch Post Service Cr. Memos** batch job. This can be an advantage if you have a large number of credit memos that must be posted.  
   
 > [!NOTE]  
 >  It is important to enter all the necessary information on the credit memos before they are batch posted. Otherwise, it is possible that they will not be posted. When the batch job has finished posting, a message is displayed that shows how many of the service credit memos have been posted.  
 
 ## To post consumption from a service order  
-The following procedure describes how to post the items, resource hours, and or costs used for a specific service operation for which you will not charge your customer. It is not possible to post consumption before posting shipment and you cannot post consumption for lines where all quantity shipped has already been invoiced. Note that you can post consumed items, hours, or costs only for a posted shipment that has no posted invoices or consumption.  
+The following procedure describes how to post the items, resource hours, and or costs used for a specific service operation for which you will not charge your customer. Note that you can post consumed items, hours, or costs only for a posted shipment that has no posted invoices or consumption.  
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Orders**, and then choose the related link.  
 2. Open the service order to post consumption for.  
@@ -100,7 +98,7 @@ The following procedure shows how to post shipment of service line items in loca
   
 4. Choose **Actions**, **Posting**, **Post**. In the window that appears, choose **Ship**.  
   
-The program creates ledger entries (in the warranty ledger, item ledger, service ledger, or G/L), produces the posted service shipment document, and updates the relevant fields on the service lines of the service order.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] creates ledger entries (in the warranty ledger, item ledger, service ledger, or G/L), produces the posted service shipment document, and updates the relevant fields on the service lines of the service order.  
   
 If the location is set up to require warehouse handling, then the shipping and moving of service line items function in the same ways as for other source documents. The only difference is that service line items can be consumed either externally or internally and therefore require two different release functions. For more information, see [How to: Prepare Service Line Items for Warehouse Handling](../how-to-prepare-service-line-items-for-warehouse-handling.md).  
   
@@ -111,8 +109,8 @@ You can cancel the consumption on the service orders. For example, because it wa
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Service Shipments**, and then choose the related link.  
 2. Open the posted service shipment for which the erroneous consumption was posted.  
-3. On the **Lines** FastTab, choose **Actions**![Action Menu icon](../media/actionmenuicon.png "actionMenuIcon"), choose **Shipment**, and then choose **Service Shipment Lines**.  
-4. In the **Posted Service Shipment Lines** window, select the lines containing the incorrect consumption. On the **Actions** tab, in the **Functions** group, choose **Undo Consumption**.  
+3. Choose **Actions**, choose **Shipment**, and then choose **Service Shipment Lines**.  
+4. Choose the lines that contain the incorrect consumption, and then choose the **Undo Consumption** action.  
   
  A balancing service shipment line is inserted with negative values in the quantity fields for the selected lines.  
   
@@ -128,10 +126,10 @@ If you have to work on a service order for a considerable time without posting i
 The following procedure describes shipment posting directly from a service order in locations without warehouse handling set up. If the location is set up to require warehouse handling, then shipment posting happens in a different warehouse document, depending on the location setup.
   
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Orders**, and then choose the related link.  
-2. Open the relevant service order, and then choose the **Service Lines** action.  
+2. Open the service order, and then choose the **Service Lines** action.  
 4. On the lines you are going to post, fill in the **Qty. to Ship**, **Qty. to Invoice**, and **Qty. to Consume** fields, depending on how you will post the lines.  
 5. Choose the **Post** action.
   
 ## See Also  
-[Posting in Service Management](service-service-posting.md) 
-[How to: Create a Service Order](service-how-to-create-service-orders.md)
+[Posting in Service Management](service-service-posting.md)  
+[How to: Create a Service Order](service-how-to-create-service-orders.md)  

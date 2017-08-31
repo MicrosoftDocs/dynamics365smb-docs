@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 08/22/2017
+ms.date: 08/31/2017
 ms.author: sgroespe
 ---
 
@@ -36,7 +36,7 @@ Even though inventory costs are automatically posted to the general ledger, it i
 |Assign item attributes of different value types to your items to help you sort and find items.|[How to: Work with Item Attributes](inventory-how-work-item-attributes.md)|
 |Create special item cards for items that you offer to customers but do not maintain inventory for.|[How to: Work with Nonstock Items](inventory-how-work-nonstock-items.md)|
 |Perform physical counting, make negative or positive adjustments, and change information, such as location or lot number, on item ledger entries.|[How to: Count, Adjust, and Reclassify Inventory Inventory](inventory-how-count-adjust-reclassify.md)|
-|View the availability of items per location, by period, by sales or purchase event, or by their use on assembly BOMs.|[How to: How to: View the Availability of Items](inventory-how-availability-overview.md)|
+|View the availability of items per location, by period, by sales or purchase event, or by their use on assembly or production BOMs.|[How to: How to: View the Availability of Items](inventory-how-availability-overview.md)|
 |Transfer inventory items between locations with transfer orders, to manage warehouse activities, or with the item reclassification journal.|[How to: Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)|
 |Reserve inventory or inbound items for sales orders, purchase orders, service orders, assembly orders, or production orders.|[How to: Reserve Items](inventory-how-to-reserve-items.md)|
 |Assign serial numbers or lot numbers to any outbound or inbound document or journal line, for example to track items in case of recalls.|[How to: Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)|
@@ -46,7 +46,6 @@ Even though inventory costs are automatically posted to the general ledger, it i
 ## See Also  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Sales](sales-manage-sales.md)    
-
 [Working with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
 

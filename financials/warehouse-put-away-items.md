@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/16/2017
+    ms.date: 08/31/2017
     ms.author: sgroespe
 
 ---
@@ -29,7 +29,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |**To**|**See**|  
 |------------|-------------|  
 |Post the receipt of items directly from the inbound order document and thereby record the put away, because no warehouse configuration exists.|[How to: Receive Items](warehouse-how-receive-items.md)|  
-|Put items away order by order and post the receipt in the same activity, in a basic warehouse configuration.|[How to: Put Items Away with Inventory Put-aways](warehouse-how-to put-items-away-with-inventory-put-aways.md)|  
+|Put items away order by order and post the receipt in the same activity, in a basic warehouse configuration.|[How to: Put Items Away with Inventory Put-aways](warehouse-how-to-put-items-away-with-inventory-put-aways.md)|  
 |Put items away for multiple orders in an advanced warehouse configuration.|[How to: Put Items Away with Warehouse Put-aways](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)|  
 |Put produced or assembled items away in a basic or an advanced warehouse configuration.|[How to: Put Away Production or Assembly Output](warehouse-how-to-put-away-production-output.md)|
 |Plan optimized put-away instructions for a number of posted warehouse receipts rather than have warehouse workers act directly on receipts.|[How to: Plan Put-aways in Worksheets](warehouse-how-to-plan-put-aways-in-worksheets.md)|  

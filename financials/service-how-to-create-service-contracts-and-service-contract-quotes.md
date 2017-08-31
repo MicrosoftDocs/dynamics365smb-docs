@@ -29,28 +29,25 @@ You can create a service contract either manually or from a service contract quo
 8. Fill in the rest of the fields as necessary.  
 
 ## To convert a service contract quote to service contract  
-When a customer has accepted a service contract quote, you convert it to a service contract. At the same time, you can create a service invoice for the starting period of the contract if the starting date of the contract is before the beginning of the next invoice period.  
+When a customer has accepted a service contract quote, you convert it to a service contract. At the same time, you can create a service invoice for the starting period of the contract if the starting date of the contract is before the beginning of the next invoice period. 
+
+After you complete the following steps, a service contract is created with the status **Signed**. If a service invoice is created for the starting period of the contract, the invoiced amount is calculated in the following way, depending on whether the contract is detailed or not.  
+  
+For detailed contracts, the invoiced amount is calculated as follows:  
+  
+* Invoiced amount = sum of the invoiced amount for each contract line.  
+* Invoiced amount for each contract line = ((quote value ÷ 12) × number of months in the starting period) + ((quote value ÷ number of days in the year) × number of days left in the starting period).  
+* If the contract line expires before the starting period ends, the expiration date becomes the ending date of the starting period for the line.  
+  
+For contracts that are not detailed, the invoiced amount is calculated as follows:  
+  
+* Invoiced amount = (annual amount ÷ number of days in the year) × number of days in the starting period.  
+* If the contract expires before the starting period ends, the expiration date becomes the ending date of the starting period.    
   
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Contract Quotes**, and then choose the related link.  
 2. Open the service contract quote you want to convert to a service contract.  
 3. Choose the **Make Contract** action.  
 4. If the starting date of the contract is before the beginning of the next invoice period, you are asked if you want to create an invoice for the starting period of the contract. Choose **Yes**.  
-  
-     A service contract is created with the status **Signed**. If a service invoice is created for the starting period of the contract, the invoiced amount is calculated in the following way, depending on whether the contract is detailed or not.  
-  
-    -   For detailed contracts, the invoiced amount is calculated as follows:  
-  
-        -   Invoiced amount = sum of the invoiced amount for each contract line.  
-  
-        -   Invoiced amount for each contract line = ((quote value ÷ 12) × number of months in the starting period) + ((quote value ÷ number of days in the year) × number of days left in the starting period).  
-  
-         If the contract line expires before the starting period ends, the expiration date becomes the ending date of the starting period for the line.  
-  
-    -   For contracts that are not detailed, the invoiced amount is calculated as follows:  
-  
-        -   Invoiced amount = (annual amount ÷ number of days in the year) × number of days in the starting period.  
-  
-         If the contract expires before the starting period ends, the expiration date becomes the ending date of the starting period.  
   
  The service invoice is posted to the service account of the contract, even if the contract is prepaid. 
 
@@ -129,7 +126,8 @@ You can add contract discounts on services for contract quotes and service contr
 4. To create a new contract discount, on the **Home** tab, in the **New** group, choose **New**.  
 5. Fill in the fields as nedessary.  
   
- To add contract discounts directly to a service contract, perform similar steps from the **Service Contract** window.  
+> [!Tip]()  
+>  To add contract discounts directly to a service contract, perform similar steps from the **Service Contract** window.  
 
 ## To change the owner of a service contract  
 You may need to change the owner of a service contract. If a service item in a service contract is registered in noncanceled multiple contracts owned by the same customer, then the owner of all service contracts that include this service item and of all other service items included in these contracts is updated automatically.  

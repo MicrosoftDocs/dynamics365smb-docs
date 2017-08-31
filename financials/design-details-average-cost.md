@@ -106,7 +106,7 @@ The average cost of an item is calculated with a periodic weighted average, base
 
  The following table shows the entries in the **Avg. Cost Adjmt. Entry Point** table that apply to value entries resulting from the item ledger entries in the preceding table.  
 
-|**Item No.**|**Variant Code)**|**Location Code**|**Valuation Date**|**Cost is Adjusted)**|  
+|**Item No.**|**Variant Code)**|**Location Code**|**Valuation Date**|**Cost is Adjusted**|  
 |-------------------------------------|-----------------------------------------|------------------------------------------|-------------------------------------------|---------------------------------------------|  
 |ITEM1||BLUE|01-31-20|No|  
 |ITEM1||BLUE|02-28-20|No|  
@@ -209,4 +209,4 @@ The average cost of an item is calculated with a periodic weighted average, base
  [Design Details: Item Application](design-details-item-application.md)  
  [Managing Inventory Costs](finance-manage-inventory-costs)  
  [Finance](finance.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md  
+ [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

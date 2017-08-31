@@ -176,4 +176,4 @@ If you have set up the automatic cost adjustment to apply to postings that occur
  [Design Details: Production Order Posting](design-details-production-order-posting.md)
  [Managing Inventory Costs](finance-manage-inventory-costs)  
  [Finance](finance.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md  
+ [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

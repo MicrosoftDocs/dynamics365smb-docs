@@ -20,27 +20,23 @@ Providing ongoing service to customers is an important part of any business and 
   
  With these tools you can accomplish the following:  
   
--   Schedule service calls and set up service orders.  
+* Schedule service calls and set up service orders.  
+* Track repair parts and supplies.  
+* Assign service personnel based on skill and availability.  
+* Provide service estimates and service invoices.  
   
--   Track repair parts and supplies.  
+In addition, you can standardize coding, set up contracts, implement a discounting policy, and create route maps for service employees.  
   
--   Assign service personnel based on skill and availability.  
+In general, there are two aspects to service management: configuring and setting up your system, and using it for pricing, contracts, orders, service personnel dispatch, and job scheduler.  
   
--   Provide service estimates and service invoices.  
-  
- In addition, you can standardize coding, set up contracts, implement a discounting policy, and create route maps for service employees.  
-  
- In general, there are two aspects to service management: configuring and setting up your system, and using it for pricing, contracts, orders, service personnel dispatch, and job scheduler.  
-  
- The following table describes a sequence of tasks, with links to the topics that describe them.   
+The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  
 |Set up Service Management, including fault codes, policies, default documents and templates.|[Setting Up Service Management](service-setup-service.md)|  
-|Create service orders, service tasks, and dispatch systems.|[Plan Service](service-plan-service.md)|  
-|Create contracts using templates and provide quotes and estimates|[Fulfill Service Contracts](service-fulfill-service-contracts.md)|  
-|Determine solutions, provide loaners, and establish service pricing.|[Handle Customer Inquiries](service-handle-customer-inquiries.md)|  
-|Finalize service details, provide service to customers, and invoice service orders.|[Deliver Service](service-deliver-service.md)|  
+|Manage service pricing, create service items, and understand how to monitor progress.|[Planning Service](service-plan-service.md)|  
+|Create and manage contractual agreements between you and your customers.|[Fulfilling Service Contracts](service-fulfill-service-contracts.md)|  
+|Provide service to customers, and invoice service orders.|[Delivering Service](service-deliver-service.md)|  
   
 ## See Also  
 [Manage Receivables](receivables-manage-receivables.md)   

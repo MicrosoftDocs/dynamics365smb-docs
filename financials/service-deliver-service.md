@@ -33,8 +33,8 @@ The following table describes a sequence of tasks, with links to the topics that
 |Create quotes that are drafts of service orders, and then convert the quotes to service orders.|[How to: Create Service Quotes](service-how-to-create-service-quotes.md)|
 |Create documents that contain information about a service, such as repairs and maintenance, on service items.|[How to: Create Service Orders](service-how-to-create-service-orders.md)|
 |Plan the delivery of service by using the **Dispatch Board**. You can also use project management tools in the Jobs department to help in planning.|[How to: Allocate Resources](service-how-to-use-the-dispatch-board.md)|  
-|Post service orders for services, so that your accounting is up-to-date.|[How to: Post Service Orders](service-how-to-post-service-orders.md)|  
 |Deliver service to customers by performing service tasks.|[How to: Work on Service Tasks](service-how-to-work-on-service-tasks.md)|  
+|Post service orders for services, so that your accounting is up-to-date.|[How to: Post Service Orders and Credit Memos](service-how-to-post-service-orders.md)|  
 |Create and post invoices for services that you have delivered.|[How to: Invoice Customers for Services](service-how-create-invoices.md)|  
 |Keep customers happy by lending them an item while you work on theirs.| [How to: Lend and Receive Loaner Items](service-how-to-lend-receive-loaners.md)|
   

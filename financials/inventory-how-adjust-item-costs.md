@@ -61,7 +61,7 @@ As a rule, the value in the **Unit Cost** field on the item card is based on the
 ### Costing Method FIFO, LIFO, Specific, or Average  
  [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates the contents of the **Unit Cost (LCY)** field on the purchase line or the contents of the **Unit Cost** field on the item journal line according to the following formula:  
 
- Unit Cost (LCY) = (Direct Unit Cost – (Discount Amount / Quantity)) x (1 + Indirect Cost % / 100)) + Overhead Rate  
+ Unit Cost (LCY) = (Direct Unit Cost – (Discount Amount / Quantity)) x (1 + Indirect Cost % / 100) + Overhead Rate  
 
 ### Costing Method Standard  
  The **Unit Cost (LCY)** field on the purchase line or the **Unit Cost** field is filled on the item journal line by copying the value in the **Unit Cost** field on the item card. By using costing method set as Standard, this is always based on the standard cost.  

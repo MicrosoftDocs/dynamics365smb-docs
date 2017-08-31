@@ -43,4 +43,4 @@ Cost components are different types of costs that make up the value of an invent
  [Design Details: Variance](design-details-variance.md)
  [Managing Inventory Costs](finance-manage-inventory-costs)  
  [Finance](finance.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md  
+ [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

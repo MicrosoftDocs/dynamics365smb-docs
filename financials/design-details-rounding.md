@@ -63,4 +63,4 @@ Rounding residuals can occur when you value the cost of an inventory decrease th
  [Design Details: Costing Methods](design-details-costing-methods.md)
  [Managing Inventory Costs](finance-manage-inventory-costs)  
  [Finance](finance.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md
+ [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

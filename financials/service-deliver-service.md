@@ -39,4 +39,6 @@ The following table describes a sequence of tasks, with links to the topics that
 |Keep customers happy by lending them an item while you work on theirs.| [How to: Lend and Receive Loaner Items](service-how-to-lend-receive-loaners.md)|
   
 ## See Also  
+## [Planning Service](service-plan-service.md)
+## [Fulfilling Service Contracts](service-fulfill-service-contracts.md)
 [Managing Projects](projects-manage-projects.md)

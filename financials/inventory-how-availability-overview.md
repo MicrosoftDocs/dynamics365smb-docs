@@ -1,6 +1,6 @@
 ---
 title: Get an Availability Overview| Microsoft Docs
-description: You can get information about the availability of items or stock across locations, per sales or purchase events, by a time period, or by the item's position on an assembly BOM.
+description: You can get information about the availability of items or stock across locations, per sales or purchase events, by a time period, or by the item's position on an assembly or production BOM.
 documentationcenter: ''
 author: SorenGP
 
@@ -73,10 +73,10 @@ You view the availability of all your items across all your locations in the **I
     The **Items by Location** window shows for all your items how many are available at each location.
 3. Choose the value in the **Qty. on Hand** field to view the item ledger entries that make up the value.
 
-## To view the availability of an item by its use in assembly BOMs
-If an item exists in assembly BOMs, either as a parent item or as a component, then you can view how many units of its are required in the **Item Availability by BOM Level** window. The window shows how many units of a parent you can make based on the availability of child items on underlying lines. Any item that has an assembly BOM is shown in the window as a collapsible line. You can expand this line to see the underlying components and lower-level subassemblies with their own BOMs.
+## To view the availability of an item by its use in assembly or production BOMs
+If an item exists in assembly or production BOMs, either as a parent item or as a component, then you can view how many units of its are required in the **Item Availability by BOM Level** window. The window shows how many units of a parent you can make based on the availability of child items on underlying lines. Any item that has an assembly or production BOM is shown in the window as a collapsible line. You can expand this line to see the underlying components and lower-level subassemblies with their own BOMs.
 
-You can use the window to find out whether you can fulfill a sales order for an item on a specified date by looking at its current availability and the quantities that can be supplied by its components. You can also use the window to identify bottlenecks in related assembly BOMs.
+You can use the window to find out whether you can fulfill a sales order for an item on a specified date by looking at its current availability and the quantities that can be supplied by its components. You can also use the window to identify bottlenecks in related BOMs.
 
 On each line in the window for both parent items and child items, the following key fields specify the availability figures. You can use these figures to promise how many units of a parent you can supply if you start the related assembly process.
 

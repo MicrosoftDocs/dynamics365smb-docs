@@ -1,6 +1,6 @@
 ---
 title: Work with Bills of Material to Manage Components| Microsoft Docs
-description: You create an assembly BOM to specify the components or resources required to put together the item that the assembly BOM represents, and you can view the components of an assembly item.
+description: You create an assembly BOM or production BOM to specify the components or resources required to put together the item that the BOM represents.
 documentationcenter: ''
 author: SorenGP
 
@@ -9,7 +9,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 08/09/2017
+ms.date: 08/31/2017
 ms.author: sgroespe
 
 ---
@@ -93,12 +93,6 @@ The unit cost of an assembly BOM always equals the total of the unit costs of it
 6. Choose the **OK** button.
 
 The costs of the items that make up the assembly BOM are copied from the component item cards. The cost of each item is multiplied by the quantity, and the total cost is shown in the **Unit Cost** field on the item card.
-
-
-## To buy, sell, or transfer assembly items
-Because the current version of [!INCLUDE[d365fin](includes/d365fin_md.md)] only contains the ability to define and assign assembly BOMs to items, you can handle assembly items on document lines as normal items only.
-
-**Caution**: The inventory quantity of BOM components will not be adjusted if you do so.
 
 ## See Also
 [How to: Register New Items](inventory-how-register-new-items.md)  

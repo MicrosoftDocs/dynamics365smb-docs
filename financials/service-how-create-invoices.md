@@ -50,7 +50,7 @@ The following procedure describes how to define the part of service that you wil
   
  When you post the order with the **Invoice** option, a posted service invoice is created along with the corresponding ledger entries and updates to the relevant fields on the service lines of the order. In addition, previously posted shipment documents are updated with the quantities that have been invoiced. If you select the **Ship and Invoice** posting option, a posted shipment is created.
 
-### To create a service invoice manually  
+## To create a service invoice manually  
 Typically, after you post a service order with the **Invoice** or **Ship and Invoice** option, a service invoice is posted automatically. Yet, you may need to issue an invoice that is not linked either to a service contract or to a service order. This procedure explains how to issue an invoice at the same time that the customer receives the service.  
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Invoices**, and then choose the related link.  
@@ -93,6 +93,6 @@ Using this procedure, you can invoice the customer for services provided on diff
 5. In the **Get Service Shipment Lines** page, choose the lines for the service to invoice, and then choose **OK** to insert the service shipment lines into the invoice.  
 
 ## See Also
-[How to: Post Service Invoices](service-how-to-post-service-orders.md)
-[Setting Up Service Management](service-setup-service.md)
-[Service Posting](service-service-posting.md)
+[How to: Post Service Invoices](service-how-to-post-service-orders.md)  
+[Setting Up Service Management](service-setup-service.md)  
+[Service Posting](service-service-posting.md)  

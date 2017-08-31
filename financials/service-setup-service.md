@@ -19,10 +19,10 @@
 # Setting Up Service Management
 Before you can start using Service Management features in [!INCLUDE[d365fin](includes/d365fin_md.md)], there are a few things to set up. For example, you can establish coding for standard services, symptoms, and fault codes, and the service items and service item types that your company's customer service needs require.  
   
-When you define a service, you can associate it with the skills required to perform the service. To help your service representatives be efficient, you can also set up real time troubleshooting guidelines and assign typical startup costs, such as travel costs or other fees. 
+When you define a service, you can associate it with the skills required to perform the service. To help your service representatives be efficient, you can also set up real time troubleshooting guidelines and assign typical startup costs, such as travel costs or other fees.  
 
-The following table describes a sequence of tasks, with links to the topics that describe them.
-
+The following table describes a sequence of tasks, with links to the topics that describe them.  
+  
 | To | See |
 | --- | --- |
 | Set up codes that automatically assign lines on service documents for services you deliver often. |[How to: Set Up Codes for Standard Services](service-how-setup-service-coding.md)|
@@ -39,5 +39,5 @@ The following table describes a sequence of tasks, with links to the topics that
 | Lay the groundwork for creating service contracts and contract quotes. |[How to: Set Up Service Contracts](service-how-setup-service-contracts.md) |
 
 ## See also
-[Service Management](service-service.md)
-[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)
+[Service Management](service-service.md)  
+[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

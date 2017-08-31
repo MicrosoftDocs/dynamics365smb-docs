@@ -126,7 +126,7 @@ You can add contract discounts on services for contract quotes and service contr
 4. To create a new contract discount, on the **Home** tab, in the **New** group, choose **New**.  
 5. Fill in the fields as nedessary.  
   
-> [!Tip]()  
+> [!Tip]  
 >  To add contract discounts directly to a service contract, perform similar steps from the **Service Contract** window.  
 
 ## To change the owner of a service contract  

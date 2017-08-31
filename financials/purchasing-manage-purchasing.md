@@ -35,7 +35,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Create a purchase invoice for all or selected lines on a sales invoice. |[How to: Purchase Items for a Sale](purchasing-how-purchase-products-sale.md) |
 | Perform an action on an unpaid posted purchase invoice to automatically create a credit memo and either cancel the purchase invoice or recreate it so you can make corrections. |[How to: Correct or Cancel Unpaid Sales Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md) |
 | Create a purchase credit memo to revert a specific posted purchase invoice to reflect which products you are returning to the vendor and which payment amount you will collect. |[How to: Process Purchase Returns or Cancellations](purchasing-how-register-new-vendors.md) |
-|Prepare to invoice multiple receipts from the same vendor once by combining the receipts on one invoice.|[How to: Combine Receipts on a Single Invoice](purchasing-how-to-combine-receipts.md)]
+|Prepare to invoice multiple receipts from the same vendor once by combining the receipts on one invoice.|[How to: Combine Receipts on a Single Invoice](purchasing-how-to-combine-receipts.md)|
 | Learn how [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates when you must order an item to receive it on a certain date.|[Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)|
 
 ## See Also
@@ -43,7 +43,6 @@ The following table describes a sequence of tasks, with links to the topics that
 [How to: Register New Vendors](purchasing-how-register-new-vendors.md)  
 [Managing Payables](payables-manage-payables.md)  
 [Managing Projects](projects-manage-projects.md)    
-      
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
 

@@ -3,24 +3,24 @@ title: Planning Service Processes | Microsoft Docs
 description: Outlines tasks to set up rules and values to define your service policies and processes.
 services: project-madeira
 documentationcenter: ''
-author: SorenGP
+author: bholtorf
 
 ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: service, , configure
+ms.search.keywords: service, work hours, configure, price, pricing
 ms.date: 08/23/2017
-ms.author: sgroespe
+ms.author: bholtorf
 
 ---
 # Planning Services
-With [!INCLUDE[d365fin](includes/d365fin_md.md)], you can set up the standard tasks that you need to fulfill your customer service requirements. To successfully do this, you have to determine what service offerings your service organization is supporting. In addition, you may want to establish a framework within which to set work levels for service workers.  
+With [!INCLUDE[d365fin](includes/d365fin_md.md)], you can set up the standard tasks that you need to fulfill your customer service requirements. To do this, you must determine what service offerings your service organization supports. In addition, you may want to establish a framework for setting work levels for service workers.  
   
- After you do this, you can map what skills a particular service item requires and which employees have those skills. This makes it easy to create service orders and manage job assignments. You can also manage how many hours a service typically takes, repair status, and employee work hours.  
+You can also map the skills a particular service item requires to the employees who have those skills. This makes it easy to create service orders and manage assignments. You can also manage how many hours a service typically takes, repair status, and employee work hours.  
   
- The following table describes a sequence of tasks, with links to the topics that describe them.   
+The following table describes a sequence of tasks, with links to the topics that describe them.   
   
 |**To**|**See**|  
 |------------|-------------|  
@@ -28,3 +28,9 @@ With [!INCLUDE[d365fin](includes/d365fin_md.md)], you can set up the standard ta
 |Set up and customize service items and service groups. This includes establishing which skills a service requires and troubleshooting guidance.| [How to: Create Service Items](service-how-to-create-service-items.md)|  
 |Know how to manage the status of repairs on service orders, and how to identify their priority.|[Understanding Service Order and Repair Status](service-service-order-status-and-repair-status.md)|  
 |Understand the relationship between the status of a repair, and the effect they have on allocated resources, and vice versa.|[Understanding Allocation Status and Repair Status](service-allocation-status-and-repair-status.md)|  
+
+## See Also
+[How to: Set Up Pricing and Additional Costs for Services](service-how-setup-service-costs-pricing.md)  
+[How to: Set Up Service Items and Service Item Components](service-how-setup-service-items.md)  
+[How to: Set Up Statuses for Service Orders and Repairs](service-order-repair-status.md)  
+[Setting Up Service Management](service-setup-service.md)  

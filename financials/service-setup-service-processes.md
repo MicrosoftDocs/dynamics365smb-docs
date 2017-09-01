@@ -1,18 +1,18 @@
 ---
     title: Set Up Service Management Processes | Microsoft Docs
-    description: Learn how to set up processes that help ensure that your customers are thoroughly satisfied with your customer service.
+    description: Learn how to set up processes that help ensure your customers are satisfied with your customer service.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: bholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
-    ms.search.keywords:
+    ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
     ms.date: 08/22/2017
-    ms.author: sgroespe
+    ms.author: bholtorf
 
 ---
 # How to: Configure Service Processes
@@ -31,6 +31,6 @@ The following are some examples of the settings that you can apply to service ma
 [How to: Set Up Fault Reporting](service-how-setup-fault-reporting.md)  
 [How to: Set Up Resource Allocation](service-how-setup-resource-allocation.md)  
 [How to: Set Up Codes for Standard Services](service-how-setup-service-coding.md)  
-[How to: Set Up Additional Costs for Services](service-how-setup-service-costs.md)  
+[How to: Set Up Additional Costs for Services](service-how-setup-service-costs-pricing.md)  
 [How to: Set Up Troubleshooting](service-how-setup-troubleshooting.md)  
 [Service Management](service-service.md)  

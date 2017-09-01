@@ -100,7 +100,7 @@ The following procedure shows how to post shipment of service line items in loca
   
 [!INCLUDE[d365fin](includes/d365fin_md.md)] creates ledger entries (in the warranty ledger, item ledger, service ledger, or G/L), produces the posted service shipment document, and updates the relevant fields on the service lines of the service order.  
   
-If the location is set up to require warehouse handling, then the shipping and moving of service line items function in the same ways as for other source documents. The only difference is that service line items can be consumed either externally or internally and therefore require two different release functions. For more information, see [How to: Prepare Service Line Items for Warehouse Handling](../how-to-prepare-service-line-items-for-warehouse-handling.md).  
+If the location is set up to require warehouse handling, then the shipping and moving of service line items function in the same ways as for other source documents. The only difference is that service line items can be consumed either externally or internally and therefore require two different release functions.  
   
 For information about shipping service line items in advanced warehouse configurations, see [Picking Items for Warehouse Shipment](warehouse-pick-items.md).  
 

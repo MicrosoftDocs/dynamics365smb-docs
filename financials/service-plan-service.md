@@ -30,6 +30,8 @@ The following table describes a sequence of tasks, with links to the topics that
 |Understand the relationship between the status of a repair, and the effect they have on allocated resources, and vice versa.|[Understanding Allocation Status and Repair Status](service-allocation-status-and-repair-status.md)|  
 
 ## See Also
+[Fulfilling Service Contracts](service-fulfill-service-contracts.md)  
+[Delivering Service](service-deliver-service.md)  
 [How to: Set Up Pricing and Additional Costs for Services](service-how-setup-service-costs-pricing.md)  
 [How to: Set Up Service Items and Service Item Components](service-how-setup-service-items.md)  
 [How to: Set Up Statuses for Service Orders and Repairs](service-order-repair-status.md)  

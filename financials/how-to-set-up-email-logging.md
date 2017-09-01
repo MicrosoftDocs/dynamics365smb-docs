@@ -67,11 +67,11 @@ To use email logging, you must be connected to Microsoft Exchange Server and hav
 >  For more information, see [Managing Public Folder Permissions](http://go.microsoft.com/fwlink/?LinkId=246183).  
   
 ### To set up Microsoft Dynamics NAV Server  
-1. Open ADD INCLUDE<!--[!INCLUDE[nav_admin](includes/Microsoft%20Dynamics%20NAV%20Server%20Administration%20Tool.md).  
+1. Open <!--ADD INCLUDE [!INCLUDE[nav_admin](includes/Microsoft%20Dynamics%20NAV%20Server%20Administration%20Tool.md)-->.  
 2. Create a new server instance that uses a user account for the service account. The user account must have an account on an Exchange Server. For more information, see [How to: Create a Microsoft Dynamics NAV Server Instance](../How%20to:%20Create%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md).  
   
-    > [!NOTE]  
-    >  The user must have sufficient ADD INCLUDE<!--[!INCLUDE[navnow](includes/demolong_md.md)]-->.  
+> [!NOTE]  
+   >  The user must have sufficient <!-- ADD INCLUDE [!INCLUDE[navnow](includes/demolong_md.md)]-->.  
   
 3. Choose **Edit**. On the **NAS Services** FastTab, in the **Startup Codeunit** field, enter the following parameter: *450*. In the **Company** field, enter the name of the company.  
 4. Choose **Save**, and then choose **OK**.  
@@ -83,4 +83,4 @@ To use email logging, you must be connected to Microsoft Exchange Server and hav
 
 ## See Also  
 [Managing Interactions With Contacts](marketing-interactions.md)   
-[Walkthrough: Logging Email Interactions in the Microsoft Dynamics NAV Database](walkthrough-logging-email-interactions-in-the-database.md)   
+[Walkthrough: Logging Email Interactions in the Database](walkthrough-logging-email-interactions-in-the-database.md)   

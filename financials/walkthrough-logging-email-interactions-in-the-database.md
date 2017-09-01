@@ -68,7 +68,7 @@ In Outlook, you must create two Exchange public folders to contain your mail. Th
 >  The email account that is used to configure email logging in [!INCLUDE[d365fin](includes/d365fin_md.md)] must have certain permissions with regard to the public folders.  
 >   
 >  * When you configure email logging setup in the **Marketing Setup** window, the user name that is used for the validation of setup must have **Read** access to the public folders.  
->  * When email logging is running on the [!INCLUDE[nav_server](includes/nav_server_md.md)], the user account credentials that are used on the server instance must have full **Read**, **Write**, and **Delete items** permission levels set on the public folders.  
+>  * When email logging is running on the <!--[!INCLUDE[nav_server](includes/nav_server_md.md)]-->, the user account credentials that are used on the server instance must have full **Read**, **Write**, and **Delete items** permission levels set on the public folders.  
 
 For more information, see [Managing Public Folder Permissions](http://go.microsoft.com/fwlink/?prd=12036).  
 
@@ -76,7 +76,7 @@ For more information, see [Managing Public Folder Permissions](http://go.microso
 
 * In Microsoft Outlook, in your mailbox, create two public folders.  
 
-    |Folder|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
+   |Folder| <!--[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]-->|  
     |------------|---------------------------------------|  
     |Queue|Email messages are copied by a [!INCLUDE[d365fin](includes/d365fin_md.md)] user, typically a salesperson, to the queue folder, according to rules that you have set up.|  
     |Storage|Incoming and outgoing messages are logged and automatically copied to the storage folder.|  
@@ -106,8 +106,8 @@ After you have set up public mail folders in Microsoft Outlook, you next configu
 To keep an email logging system running at all times, you must use it together with a job queue. You can set up a job queue to run on a separate server instance to service your email logging system.  
 
 ### To set up Microsoft Dynamics NAV Server  
-1. Open [!INCLUDE[d365fin](includes/nav_admin.md.md)].  
-2. Create a new server instance called EMAIL. For more information, see [How to: Create a Microsoft Dynamics NAV Server Instance](../How%20to:%20Create%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md). To prevent collisions with the default server port settings, set port information as follows.  
+1. Open <!--[!INCLUDE[d365fin](includes/nav_admin.md.md)]-->.  
+2. Create a new server instance called EMAIL. <!--For more information, see [How to: Create a Microsoft Dynamics NAV Server Instance](../How%20to:%20Create%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md).--> To prevent collisions with the default server port settings, set port information as follows.  
 
     |Port|Setting|  
     |----------|-------------|  
@@ -125,7 +125,7 @@ After you set up the job queue, which is described in the following procedure, y
 
 For your company, you set up a job queue that you want to run every day. You also specify that you want the process to run every 5 minutes. Finally, you specify that the job queue should stop on the last day of the year, December 31.  
 
-In order to set up the job queue for email logging, a ADD INCLUDE<!--[!INCLUDE[navnow](includes/how-to-create-job-queue-entries.md).  
+<!--In order to set up the job queue for email logging, a ADD INCLUDE[!INCLUDE[navnow](includes/how-to-create-job-queue-entries.md).-->  
 
 #### To start the job queue  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Queue Category**, and then choose the related link.  
@@ -138,7 +138,7 @@ In order to set up the job queue for email logging, a ADD INCLUDE<!--[!INCLUDE[n
 
     ### General FastTab  
 
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]-->|Value|  
+   |<!--ADD INCLUDE [!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]-->|Value|  
     |---------------------------------|-----------|  
     |**Object Type to Run**|Codeunit|  
     |**Object ID to Run**|5065|  
@@ -150,7 +150,7 @@ In order to set up the job queue for email logging, a ADD INCLUDE<!--[!INCLUDE[n
 
     ### Recurrence FastTab  
 
-    |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]-->|Value|  
+|ADD <!--INCLUDE [!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]--> |Value|  
     |---------------------------------|-----------|  
     |**Recurrence**|Set all days to True|  
     |**Starting Time**|6:00:00 AM|  
@@ -161,12 +161,12 @@ In order to set up the job queue for email logging, a ADD INCLUDE<!--[!INCLUDE[n
 9. In the **Job Queue Entries** window, select the job queue, and then choose the **Set Status to Ready** action.  
 
 ### To start and test the job queue  
-1. Open [!INCLUDE[nav_admin](includes/nav_admin_md.md)].  
+1. Open <!-- [!INCLUDE[nav_admin](includes/nav_admin_md.md)]-->.  
 2. Select the EMAIL server instance, and start it.  
 
      For more information, see [Managing Microsoft Dynamics NAV Server Instances](../Managing%20Microsoft%20Dynamics%20NAV%20Server%20Instances.md).  
 
-3. Return to the ADD INCLUDE<!--[!INCLUDE[rtc](includes/rtc_md.md)]-->, and Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Queue Log Entries**, and then choose the related link. To verify that the job queue is working as expected, note whether an entry is logged every five minutes.  
+3. Return to the <!--ADD INCLUDE [!INCLUDE[rtc](includes/rtc_md.md)]-->, and Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Queue Log Entries**, and then choose the related link. To verify that the job queue is working as expected, note whether an entry is logged every five minutes.  
 
 ## Testing Email Logging  
 Before you put a system into production, you can try some simple tests to see whether it is working as expected. The following procedure is representative of how a salesperson and his manager would use the system. The task has several prerequisites to make testing easy. First, you should set the email address of a test salesperson so that it is the same email account that you used for autodiscovery. The test salesperson should have an email address that you can use for testing. Next, set up a test contact that has an email address that you can verify receives mail.  

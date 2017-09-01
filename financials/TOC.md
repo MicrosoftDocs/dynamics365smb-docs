@@ -23,6 +23,7 @@
 ## [Letting Financials Suggest Values](ui-let-system-suggest-values.md)
 ## [Printing a Report](ui-work-report.md#PrintReport)
 ## [Videos on Common Tasks](across-videos.md)
+## [Language and Locale](about-locale-language.md)  
 ## [Languages of the Docs](about-languages.md)
 
 # [Setting Up Financials](setup.md)

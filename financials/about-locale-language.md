@@ -8,7 +8,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords:language, locale, localization, culture
+ms.search.keywords: language, locale, localization, culture
 ms.date: 09/01/2017
 ms.author: edupont
 

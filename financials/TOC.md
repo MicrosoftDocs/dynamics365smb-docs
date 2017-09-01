@@ -317,6 +317,7 @@
 
 # [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)
 ## [Walkthrough: Synchronizing Information Between Outlook and Financials](walkthrough-synchronizing-information-between-outlook-and-microsoft-dynamics-nav.md)
+## [Walkthrough: Logging Email Interactions in the Database](walkthrough-logging-email-interactions-in-the-database.md)
 ## [Walkthrough: Conducting a Sales Campaign](walkthrough-conducting-a-sales-campaign.md)
 ## [Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ## [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)

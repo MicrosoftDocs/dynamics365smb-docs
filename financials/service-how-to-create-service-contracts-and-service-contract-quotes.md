@@ -158,6 +158,18 @@ You can update the prices on service contracts by specifying a price update perc
 4. In the **Price Update %** field, enter the percentage that you want to update the prices by.  
 5. In the **Action** field, select **Update Contract Prices**.  
 
+## To post prepaid contract entries  
+If you work with prepaid service contracts, you must regularly post prepaid contract entries, thereby transferring the prepaid payments from the prepaid contract accounts to the regular contract accounts.  
+  
+Before you can post prepaid contract entries, you must specify a number series in the **Prepaid Posting Document Nos.** field in the **Service Mgt. Setup** window.  
+
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Post Prepaid Contract Entries**, and then choose the related link.  
+2. On the **Service Ledger Entry** FastTab, enter the filters you want to apply.  
+3. On the **Options** FastTab, in the **Post until Date** field, enter a date. The batch job posts prepaid service ledger entries with posting dates up to this date.  
+4. In the **Posting Date** field, enter the date you want to use as the posting date on the general journal line.  
+5. In the **Action** field, choose **Post Prepaid Transactions**.  
+6. Choose **OK** to post the entries.
+
 ## How to: View Gains and Losses on Contracts
 A contract gain or loss entry is generated when a contract quote is converted to a service contract, when contract lines are added or removed from a service contract, or when a contract is canceled. You can view contract gains or losses on the following pages.  
   

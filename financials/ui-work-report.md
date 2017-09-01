@@ -18,12 +18,14 @@ ms.author: jswymer
 # Working with Reports
 A report gathers information based on a specified set of criteria, and organizes and presents the information in an easy-to-read, printable format. There are many reports that you can access throughout the application. The reports typically provide information relative to the context of the page you are on. For example, the **Customer** page includes reports for the top 10 customers and the sales statistics, and more.
 
-You can find reports in the **Reports** tab on selected pages, or you can use search to find reports by name. When you open a report, you are presented with a page that let's you specify information (options and filters) that determines want to include in the report. For example, depending on the report, you can specify a date range, a specific record such as a customer, or sorting order.
+You can find reports in the **Reports** tab on selected pages, or you can use search to find reports by name. When you open a report, you are presented with a page that let's you specify information (options and filters) that determines want to include in the report. For example, depending on the report, you can specify a date range, a specific record such as a customer, or sorting order. Here is an example:
+
+![Report options](media/report_options.png "Report options")
 
 ## Previewing a report
 Choose **Preview** to see the report in the Internet browser. Point to an area of the report to show the menu bar.  
 
-![Report preview toolbar](media/report_viewer.png "Report preview toolbar").
+![Report preview toolbar](media/report_viewer.png "Report preview toolbar")
 
 Use the menu bar to:
 
@@ -38,6 +40,7 @@ Use the menu bar to:
     You can move the visible area of the report in any direction so you can view other areas or the report. This is helpful when you have zoomed in to see details.  Using your mouse, for example, press and hold the mouse button anywhere in the report preview, and then move your mouse.
 
 -   Download to a PDF file on your computer or network.
+-   Print
 
 
 ## Saving a Report
@@ -49,7 +52,7 @@ You can schedule a report to run at a specific date and time. Scheduled reports 
 You can schedule a report when you open a report. You choose the **Schedule** action and then you enter information such as printer, and time and date. The report is then added to the job queue and will be run at the specified time. When the report is processed, the item will be removed from the job queue. If you saved the processed report to a file, it will be available in the **Report Inbox** area.
 
 ## <a name="PrintReport"></a>Printing a Report
-When you want to print a report you have to download the report as a PDF, Word, or Excel document first by choosing **Send to**. Now, you can either open the report document right-away and print it, or save it and print it later.
+You can print a report from the **Print** button on the options page that appears when you open the report or from the menu bar in Preview.
 
 ## Using Saved Settings
 A report can include one or more entries in the **Saved Settings** box. *Saved settings* are basically a predefined group of options and filters that you can apply to the report before previewing or sending the report to a file. Using saved settings is a fast and reliable way to consistently generate reports that contain the correct data.

@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 08/28/2017
+ms.date: 08/31/2017
 ms.author: edupont
 
 ---
@@ -30,7 +30,7 @@ Each content pack provides reports that you can drill into:
 * Choose any visual on the dashboard to bring up one of the underlying reports.  
 * Filter the report or add fields that you want to monitor.  
 * Pin this customized view to the dashboard to continue tracking.  
-  The dashboard and underlying reports refresh daily. You can control the refresh schedule and modify the frequency on the dataset.  
+  You can refresh data manually, and you can set up a refresh schedule. For more information, see [Configuring scheduled refresh](https://powerbi.microsoft.com/en-us/documentation/powerbi-refresh-scheduled-refresh/).  
 
 The content packs are preconfigured to work with data from the demonstration company that you get when you sign up for [!INCLUDE[d365fin](includes/d365fin_md.md)]. When you install the apps in Power BI, and you connect to your own data, some reports may not work because they rely on data that your company does not have. In those cases, you can simply remove that report from your dashboard.  
 

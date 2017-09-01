@@ -76,10 +76,10 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], the outbound processes for picki
 
         |Entry Type|Item Number|Location Code|Bin Code|Quantity|  
         |----------------|-----------------|-------------------|--------------|--------------|  
-        |Positive Adjmt.|LS-81|SILVER|S-01-0001 **Note:**  The item’s default bin in ADD INCLUDE<!--[!INCLUDE[demo](includes/demo_md.md)]-->.|20|  
+        |Positive Adjmt.|LS-81|SILVER|S-01-0001 **Note:**  The item’s default bin in CRONUS|20|  
         |Positive Adjmt.|LS-81|SILVER|S-01-0002|20|  
 
-    3.  On the **Actions** tab, in the **Posting** group, choose **Post**, and then select the **Yes** button.  
+    3.  Choose the **Post** action, and then select the **Yes** button.  
 
 ## Story  
  Ellen, the warehouse manager at CRONUS, sets up SILVER warehouse for basic pick handling where warehouse workers process outbound orders individually. Susan, the order processor, creates a sales order for 30 units of item LS-81 to be shipped to customer 10000 from the SILVER Warehouse. John, the warehouse worker must make sure that the shipment is prepared and delivered to the customer. John manages all involved tasks in the **Inventory Pick** window, which automatically points to the bins where LS-81 is stored.  

@@ -43,7 +43,7 @@ Some areas require you to be an administrator in your [!INCLUDE[d365fin](include
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Setup and Administration in Dynamics 365 for Financials](admin-setup-and-administration)
+[Setup and Administration in Dynamics 365 for Financials](admin-setup-and-administration.md)  
 [Creating New Companies in [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
 [Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 

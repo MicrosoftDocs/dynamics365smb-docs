@@ -16,7 +16,7 @@ ms.author: edupont
 # How to: Publish a Web Service
 Web services are a lightweight way to make application functionality available to a variety of external systems and users. [!INCLUDE[d365fin](includes/d365fin_md.md)] includes an number of objects that are exposed as web services by default due to integration with other Microsoft services, but you can also add other web services.  
 
-You can set up a web service in the Windows client or in the Web client. You must then publish the web service so that it is available to service requests over the network. Users can discover web services by pointing a browser at the computer that is running Dynamics NAV Server and requesting a list of available services. When you publish a web service, it is immediately available over the network for authenticated users. All authorized users can access metadata for web services, but only users who have sufficient Dynamics NAV permissions can access actual data.
+You can set up a web service in the Windows client or in the Web client. You must then publish the web service so that it is available to service requests over the network. Users can discover web services by pointing a browser at the server location and requesting a list of available services. When you publish a web service, it is immediately available over the network for authenticated users. All authorized users can access metadata for web services, but only users who have sufficient permissions can access actual data.
 
 ## Creating and Publishing a Web Service  
  The following steps explain how to create and publish a web service.  
@@ -42,12 +42,25 @@ After you publish a web service, it is available to external parties. You can ve
 
 1.  In your browser, enter the relevant URL. The following table illustrates the types of URLs that you can enter. For SOAP web services, use the following format for your URI.  
 
-    |Web service type|Syntax|Example|  
-    |----------------------|------------|-------------|  
-    |SOAP|https://*Server*:*SOAPWebServicePort*/*ServerInstance*/WS/*CompanyName*/salesDocuments/|https://mycompany.financials.dynamics.com:7047/MS/WS/MyCompany/Page/salesDocuments?tenant=mycompany.financials.dynamicse.com|  
-    |OData|https://*Server*:*ODataWebServicePort*/*ServerInstance*/OData/Company('*CompanyName*')|https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com|  
+<table>
+<tr>
+<th>Web service type</th>
+<th>Syntax</th>
+<th>Example</th>
+</tr>
+<tr>
+<td>SOAP</td>
+<td>https://*Server*:*SOAPWebServicePort*/*ServerInstance*/WS/*CompanyName*/salesDocuments/</td>
+<td>https://mycompany.financials.dynamics.com:7047/MS/WS/MyCompany/Page/salesDocuments?tenant=mycompany.financials.dynamics.com</td>
+</tr>
+<tr>
+<td>OData</td>
+<td>https://*Server*:*ODataWebServicePort*/*ServerInstance*/OData/Company('*CompanyName*')</td>
+<td>https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com< /br>
 
-     The company name is case-sensitive.  
+     The company name is case-sensitive.  </td>
+</tr>
+</table>
 
 2.  Review the information that is displayed in the browser. Verify that you can see the name of the web service that you have created.  
 

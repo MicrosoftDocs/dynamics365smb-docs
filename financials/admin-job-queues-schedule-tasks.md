@@ -55,7 +55,7 @@ In this part, you can see those documents that are being processed or that are q
 ## Security  
 Job queue entries run based on permissions. Those permissions must allow the execution of the report or codeunit.  
 
-When a job queue is activated manually, it is run with the credentials of the user. When a job queue is activated from the NAS, it is run with the credentials of the server instance. When a job is run, it is run with the credentials of the job queue that activates it. However, the user who created that job queue entry must also have permissions. When a job is “run in user session” (such as during background posting), it is run with the credentials of the user who created that job.  
+When a job queue is activated manually, it is run with the credentials of the user. When a job queue is activated as a scheduled task, it is run with the credentials of the server instance. When a job is run, it is run with the credentials of the job queue that activates it. However, the user who created that job queue entry must also have permissions. When a job is “run in user session” (such as during background posting), it is run with the credentials of the user who created that job.  
 
 > [!IMPORTANT]  
 >  If you use the SUPER permissions set that comes with [!INCLUDE[d365fin](includes/d365fin_md.md)], you and your users have permissions to run all objects. In this case, access for each user is only limited by permissions for data.  

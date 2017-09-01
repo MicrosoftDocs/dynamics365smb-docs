@@ -26,6 +26,11 @@
 ## [Languages of the Docs](about-languages.md)
 
 # [Setting Up Financials](setup.md)
+## [Setup and Administration](admin-setup-and-administration)
+### [Creating New Companies](about-new-company.md)
+### [Users, Profiles, and Role Centers](admin-users-profiles-roles.md)
+### [Using Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)
+### [How to: Publish a Web Service](across-how-publish-web-service.md)
 ## [Setting Up Finance](finance-setup-finance.md)
 ### [Defining Payment Methods](finance-payment-methods.md)
 ### [Setting Up Posting Groups](finance-posting-groups.md)

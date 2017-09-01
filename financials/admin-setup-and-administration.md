@@ -35,6 +35,9 @@ The following table describes a sequence of tasks, with links to the topics that
 |Enter single or recurring requests to run reports or codeunits.|[Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)|  
 |Set up a new business unit using templates|[Creating New Companies in [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)|  
 
-## See Also  
+## See Also
+[Manage Documents](admin-manage-documents.md)  
+[Overview of Business Functionality](madeira-business-functionality.md)  
+[General Business Functionality](ui-across-business-areas.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  

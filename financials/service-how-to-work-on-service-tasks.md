@@ -17,6 +17,10 @@
 ---
 # How to: Work on Service Tasks
 After you have created a service order or service quote, registered service item lines, and allocated resources to the service items in the order or quote, you can start repairing and maintaining the service items.  
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] features a **Service Tasks** window that gives an overview of all the service items that need attention. Think of it as your service dashboard where you can see what orders are pending, look for and register spare parts, and keep your inventory up-to-date.  
+  
+To track changes and get a graphical view of your service business, use [!INCLUDE[d365fin](includes/d365fin_md.md)] statistics tools for quick, automatically generated charting and analysis.  
   
 ## To work on a service task  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Tasks**, and then choose the related link. 

@@ -26,7 +26,7 @@
 ## [Languages of the Docs](about-languages.md)
 
 # [Setting Up Financials](setup.md)
-## [Setup and Administration](admin-setup-and-administration)
+## [Setup and Administration](admin-setup-and-administration.md)
 ### [Logging Changes](across-log-changes.md)
 ### [Creating New Companies](about-new-company.md)
 ### [Users, Profiles, and Role Centers](admin-users-profiles-roles.md)

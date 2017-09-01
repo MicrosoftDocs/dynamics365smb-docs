@@ -128,7 +128,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 4.  Choose the **OK** button to close all open windows.  
 
 ## Setting Up a Job  
- In this scenario, ADD INCLUDE<!--[!INCLUDE[demo](includes/demo_md.md)]--> has won a contract with a customer, Progressive Home Furnishings, to design a conference and dining hall. The customer is based in the United States and the project will require special software. The project manager reaches an agreement with the customer and creates a job that covers the agreement.  
+ In this scenario, CRONUS has won a contract with a customer, Progressive Home Furnishings, to design a conference and dining hall. The customer is based in the United States and the project will require special software. The project manager reaches an agreement with the customer and creates a job that covers the agreement.  
 
 #### To set up a job  
 
@@ -152,7 +152,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
 5.  On the **Duration** FastTab, type today's date into the **Starting Date** and **Ending Date** fields. These dates will help apply currency conversions when the job is invoiced.  
 
-6.  On the **Foreign Trade** FastTab, set the currency code to **USD**. If you select USD in the **Invoice Currency Code** field, then the job will be invoiced in U.S. dollars and planned in the local currency of ADD INCLUDE<!--[!INCLUDE[demo](includes/demo_md.md)]--> only.  
+6.  On the **Foreign Trade** FastTab, set the currency code to **USD**. If you select USD in the **Invoice Currency Code** field, then the job will be invoiced in U.S. dollars and planned in the local currency of CRONUS only.  
 
  You can customize the pricing for customers on a per job basis, depending on the agreements you have set up. In the next procedure, the project manager specifies a cost for Tricia’s time, sets the price for the required software, and adds in the travel costs that the customer has agreed to pay.  
 
@@ -196,7 +196,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
 2.  The following table describes the information that you should enter in the fields.  
 
-    |Job Task No.|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]-->|Job Task Type|  
+    |Job Task No.|Description|Job Task Type|  
     |------------------|---------------------------------------|-------------------|  
     |1000|Consulting on hall setup|Begin-Total|  
     |1010|Consultation meeting with customer|Posting|  
@@ -548,7 +548,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
      The following table describes the lines that you will create.  
 
-    |Line|Job Task No.|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]-->|Job Task Type|  
+    |Line|Job Task No.|Description|Job Task Type|  
     |----------|------------------|---------------------------------------|-------------------|  
     |1|1000|Payment-Down Payment|Posting|  
     |2|2000|Usage|Posting|  

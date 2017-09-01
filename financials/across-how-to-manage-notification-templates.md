@@ -76,5 +76,5 @@ Parameter values are automatically inserted in notifications according to the no
  [How to: Set Up Workflow Users](across-how-to-set-up-workflow-users.md)   
  [How to: Set Up Approval Users](across-how-to-set-up-approval-users.md)   
  [How to: Create Workflows](across-how-to-create-workflows.md)   
- [How to: Set Up Job Queues](across-how-to-set-up-job-queues.md)   
+ [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)   
  [Workflow](across-workflow.md)   

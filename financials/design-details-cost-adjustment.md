@@ -143,7 +143,7 @@ The following example shows if you post a purchased item as received and invoice
 ## Automatic Cost Adjustment  
 To set up cost adjustment to run automatically when you post an inventory transaction, use the **Automatic Cost Adjustment** field in the **Inventory Setup** window. This field enables you to select how far back in time from the current work date that you want automatic cost adjustment to be performed. The following options exist.  
 
-|ADD INCLUDE<!--[!INCLUDE[bp_tableoption](includes/bp_tabledescription_md.md)]-->|  
+|Option|Description|  
 |----------------------------------|---------------------------------------|  
 |Never|Costs are not adjusted when you post.|  
 |Day|Costs are adjusted if posting occurs within one day from the work date.|  

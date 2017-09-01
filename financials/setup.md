@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 07/14/2017
+ms.date: 09/01/2017
 ms.author: edupont
 
 ---
@@ -36,11 +36,14 @@ Some functionality, either general or for specific business processes, can be se
 | Set up the **SMTP Mail Setup** window to send and receive emails from documents within [!INCLUDE[d365fin](includes/d365fin_md.md)]. |[How to: Set up Email](madeira-how-setup-email.md) |
 | Set up unique identification codes. |[How to: Create Number Series](ui-create-number-series.md) |
 
+Some areas require you to be an administrator in your [!INCLUDE[d365fin](includes/d365fin_md.md)] subscription. For more information, see [Setup and Administration in Dynamics 365 for Financials](admin-setup-and-administration.md).  
+
 ## See Also
 [Finance](finance.md)  
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Setup and Administration in Dynamics 365 for Financials](admin-setup-and-administration.md)  
 [Creating New Companies in [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
 [Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 

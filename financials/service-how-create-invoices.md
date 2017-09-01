@@ -1,5 +1,5 @@
 ---
-    title: Create Invoices for Services | Microsoft Docs
+    title: Create Invoices or Credit Memos for Services | Microsoft Docs
     description: Learn how to create invoices, so you can get paid for your service.
     services: project-madeira
     documentationcenter: ''
@@ -15,7 +15,7 @@
     ms.author: bholtorf
 
 ---
-# How to: Invoice Customers for Services
+# How to: Create Service Invoices or Credit Memos
 Ease in invoicing your service orders is a key feature of [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can send an invoice to your customers at any time, or create invoices periodically.  
   
 To create an invoice directly, you can use the **Service Contract** window. You can also set up your system so that a service technician in the field can create an invoice for service that is not connected to a contract or order.  
@@ -91,6 +91,14 @@ Using this procedure, you can invoice the customer for services provided on diff
 3. Specify the customer to invoice, and fill in the document header.  
 4. Choose **Actions**, choose **Functions**, and then choose **Get Shipment Lines**. The **Get Service Shipment Lines** page displays all the shipped but not invoiced lines for the specified customer.  
 5. In the **Get Service Shipment Lines** page, choose the lines for the service to invoice, and then choose **OK** to insert the service shipment lines into the invoice.  
+
+## To create a service credit memo  
+A service credit memo document is typically used when a customer returns an item, but it can also be used to give a customer some compensation or to correct an erroneous invoice.  
+
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Credit Memos**, and then choose the related link.  
+2. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. The **Posting Date** and **Document Date** fields display the work date. If needed, you can change it.    
+4. On the credit memo lines, enter information about the items that have been returned or removed, or the compensation that will be given to the customer.  
 
 ## See Also
 [How to: Post Service Invoices](service-how-to-post-service-orders.md)  

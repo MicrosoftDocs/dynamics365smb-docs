@@ -3,7 +3,7 @@ title: Create and Modify Custom Layouts for Reports and Documents | Microsoft Do
 description: Learn how to create your own customized layouts to personalize the appearance of a report when it is viewed, printed, or saved. 
 services: project-madeira
 documentationcenter: ''
-author: SusanneWindfeldPedersen
+author: jswymer
 
 ms.service: dynamics365-financials
 ms.topic: article
@@ -12,7 +12,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
-ms.author: solsen
+ms.author: jswymer
 
 ---
 # How to: Create and Modify a Custom Report or Document Layout
@@ -41,7 +41,7 @@ To create a custom layout, you can either make a copy of an existing custom layo
 
 The custom layout has been created. You can now modify the custom layout as needed.
 
-## Modifying a custom layout
+## <a name="ModifyCustomLayout"></a>Modifying a custom layout
 To modify a report layout, you must first export the report layout as a file to a location on your computer or network, and then open the exported document and make the changes. When you are finished making the changes, you import the report layout.
 
 ### To modify a custom layout

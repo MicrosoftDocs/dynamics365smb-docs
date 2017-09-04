@@ -1,6 +1,6 @@
 ---
 title: Financials accountant experience | Microsoft Docs
-description: Learn about the accountant portal for Dynamics 365 for Financials and the Accountant Role Center that supports internal and external accountants in the client company.
+description: Learn about the accountant portal for Dynamics 365 Business edition  and the Accountant Role Center that supports internal and external accountants in the client company.
 author: edupont04
 
 ms.service: dynamics365-financials
@@ -22,7 +22,7 @@ The Role Center is a dashboard with activity tiles that show you real-time key f
 If you are new to [!INCLUDE[d365fin](includes/d365fin_md.md)], you can launch a list of videos right from your Home page. You can also launch a **Getting Started** tour that points out key areas.  
 
 > [!NOTE]  
->  This functionality requires that the experience is set to **Suite**. For more information, see [Customizing Your Financials Experience](ui-experiences.md).  
+>  This functionality requires that the experience is set to **Suite**. For more information, see [Customizing Your Dynamics 365 Experience](ui-experiences.md).  
 
 ### Get Invited to a Client's [!INCLUDE[d365fin](includes/d365fin_md.md)]
 A company who use [!INCLUDE[d365fin](includes/d365fin_md.md)] can invite you to [!INCLUDE[d365fin](includes/d365fin_md.md)] as their external accountant. This requires that they have set up SMTP mail, so they might want to contact their [!INCLUDE[d365fin](includes/d365fin_md.md)] partner for assistance. For more information, see [Invite Your External Accountant](finance-invite-external-accountant.md). Also, we recommend that you give them the email address that you plan to use for your accounting work - that way, you can choose if you want to use *me@accountant.com* or *me@client.com*  

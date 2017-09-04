@@ -1,6 +1,6 @@
 ---
 title: Create Segments| Microsoft Docs
-description: Describes how to create a segment for a group of contacts in Financials, for example, in order to target several contacts with a direct mail.
+description: Describes how to create a segment for a group of contacts in Dynamics 365 Business edition, for example, in order to target several contacts with a direct mail.
 services: project-madeira
 documentationcenter: ''
 author: jswymer

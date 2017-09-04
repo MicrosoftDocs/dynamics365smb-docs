@@ -1,6 +1,6 @@
 ---
-title: Cancelling Dynamics 365 for Financials| Microsoft Docs
-description: Describes how to remove or delete your Dynamics 365 for Financials experience.
+title: Cancelling Dynamics 365 Business edition | Microsoft Docs
+description: Describes how to remove or delete your Dynamics 365 Business edition  experience.
 services: project-madeira
 documentationcenter: ''
 author: edupont04

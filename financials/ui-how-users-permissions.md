@@ -1,6 +1,6 @@
 ---
 title: Assign User Permissions and Create or Modify Permission Sets | Microsoft Docs
-description: Describes how add Office 365 users to Financials, and then assign permissions, access rights, and security settings.
+description: Describes how add Office 365 users to Dynamics 365, and then assign permissions, access rights, and security settings.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

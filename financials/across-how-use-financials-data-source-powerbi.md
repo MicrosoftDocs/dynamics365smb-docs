@@ -21,7 +21,7 @@ You can make your [!INCLUDE[d365fin](includes/d365fin_md.md)] data available as 
 
 ## To add [!INCLUDE[d365fin](includes/d365fin_md.md)] as a data source in Power BI Desktop
 1. In Power BI Desktop, in the left navigation pane, choose **Get Data**.
-2. In the **Get Data** window, choose **Online Services**, choose **Dynamics 365 for Financials**, and then choose the **Connect** button.
+2. In the **Get Data** window, choose **Online Services**, choose **Dynamics 365 Business edition **, and then choose the **Connect** button.
 
    Power BI displays a wizard that will guide you though the connection process. The first step will be to enter an OData URL and the company name that is associated with your [!INCLUDE[d365fin](includes/d365fin_md.md)] account.  
 

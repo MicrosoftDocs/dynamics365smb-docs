@@ -1,6 +1,6 @@
 ---
-title: Working with the General Functionality in Dynamics 365 for Financials | Microsoft Docs
-description: Describes the general functionality you use to interact with data in Financials, such as entering values, sorting data, and changing views.
+title: Working with the General Functionality in Dynamics 365 Business edition  | Microsoft Docs
+description: Describes the general functionality you use to interact with data in Dynamics 365, such as entering values, sorting data, and changing views.
 services: ''
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -32,7 +32,7 @@ The following table lists some of the general functionality with links to topics
 | Change basic settings such as company or work date. |[Changing Basic Settings](ui-change-basic-settings.md) |
 | Change the Role Center, and the related Home page, to fit your role. |[How to: Change the Role Center](change-role.md) |
 | Change which fields and actions are shown in the user interface to fit your company's business processes. |[Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md) |
-| Get reports to show data from specific date ranges. |[Entering Date Ranges in Dynamics 365 for Financials](ui-enter-date-ranges.md) |
+| Get reports to show data from specific date ranges. |[Entering Date Ranges in Dynamics 365 Business edition ](ui-enter-date-ranges.md) |
 
 ## See Also
 [General Business Functionality](ui-across-business-areas.md)  

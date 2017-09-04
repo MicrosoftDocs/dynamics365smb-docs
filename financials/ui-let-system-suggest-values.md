@@ -1,6 +1,6 @@
 ---
 title: Setting Up Suggested Field Values | Microsoft Docs
-description: To avoid manual calculations and complete tasks quickly and accurately, you can set up automatic data entry so that Financials fills in selected fields.
+description: To avoid manual calculations and complete tasks quickly and accurately, you can set up automatic data entry so that Dynamics 365 fills in selected fields.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

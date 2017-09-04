@@ -1,6 +1,6 @@
 ---
 title: 'How to: Create Number Series | Microsoft Docs'
-description: Learn how to set up number series that assign unique ID codes to accounts and documents in Dynamics 365 for Financials.
+description: Learn how to set up number series that assign unique ID codes to accounts and documents in Dynamics 365 Business edition .
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 

@@ -1,6 +1,6 @@
 ---
-title: Overview of Tasks to Set Up Dynamics 365 for Financials| Microsoft Docs
-description: Outlines tasks to set up, initialize, and configure Dynamics 365 for Financials to suit your needs.
+title: Overview of Tasks to Set Up Dynamics 365 Business edition | Microsoft Docs
+description: Outlines tasks to set up, initialize, and configure Dynamics 365 Business edition  to suit your needs.
 author: edupont04
 
 ms.service: dynamics365-financials
@@ -13,7 +13,7 @@ ms.date: 07/14/2017
 ms.author: edupont
 
 ---
-# Setting Up Dynamics 365 for Financials
+# Setting Up Dynamics 365 Business edition
 [!INCLUDE[d365fin](includes/d365fin_md.md)] includes standard configurations for most business processes, but you can change the configuration to suit the needs of company.
 
 For example, your chart of accounts is prefilled with a number of posting accounts ready for use. You can, of course, change the chart of accounts to suit your needs. For more information, see [Finance](finance.md).

@@ -114,6 +114,7 @@
 ## [How to: Set up Email](madeira-how-setup-email.md)
 ## [How to: Create Number Series](ui-create-number-series.md)
 ## [How to: Set Up Extended Item Text](ui-how-define-ext-text.md)
+## [How to: Set Up Base Calendars](across-how-to-assign-base-calendars)
 ## [Setting Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)
 ### [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)
 ### [Setup Best Practices: Costing Methods](setup-best-practices-costing-method.md)
@@ -268,16 +269,6 @@
 # [Planning](planning.md)
 ##
 
-# [Manufacturing](production-production.md)
-## How to: Plan for Production Availability
-## How to: Forecast for Sales and Production
-## How to: Perform Master Planning
-## How to: Material Requirements Planning
-## How to: Communicate Production Plans
-## How to: Schedule Production Processes
-## How to: Issue Materials
-## How to: Execute Production
-
 # [Assembly Management](assembly-assemble-items.md)
 ## [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md)
 ## [How to: Quote an Assemble-to-Order Sale](assembly-how-to-quote-an-assemble-to-order-sale.md)
@@ -288,6 +279,16 @@
 ## [How to: Undo Assembly Posting](assembly-how-to-undo-assembly-posting.md)
 ## [How to: Work with Bills of Material](inventory-how-work-BOMs.md)
 ## [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)
+
+# [Manufacturing](production-production.md)
+## How to: Plan for Production Availability
+## How to: Forecast for Sales and Production
+## How to: Perform Master Planning
+## How to: Material Requirements Planning
+## How to: Communicate Production Plans
+## How to: Schedule Production Processes
+## How to: Issue Materials
+## How to: Execute Production
 
 # [Warehouse Management](warehouse-manage-warehouse.md)
 ## [How to: Receive Items](warehouse-how-receive-items.md)

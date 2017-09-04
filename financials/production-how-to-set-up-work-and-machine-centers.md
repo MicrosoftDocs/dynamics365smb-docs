@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Work Centers, Work Center Groups, and Machine Centers
+# How to: Set Up Work Centers and Machine Centers
 
 The program distinguishes between three types of capacities. These are arranged hierarchically. Each level contains the subordinate levels.  
 
@@ -41,9 +41,9 @@ A **Work Center** card organizes the fixed values and requirements of the produc
 
 -   A shop calendar is created. For more information, see [How to: Create Work Center Calendars](../how-to-create-work-center-calendars.md).  
 
- Before you can set up a work center, you must gather all data about your production resources.  
+ Before you can set up a work center, you must gather all data about your production resources.
 
-### To fill in the General FastTab  
+## To fill in the General FastTab  
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Work Centers**, and then choose the related link.  
 
@@ -87,7 +87,11 @@ A **Work Center** card organizes the fixed values and requirements of the produc
 
 ### To fill in the Scheduling FastTab  
 
-1.  In the **Unit of Measure Code** field, enter the time unit in which this work center’s cost calculation and capacity planning are made.  
+1.  In the **Unit of Measure Code** field, enter the time unit in which this work center’s cost calculation and capacity planning are made.
+    In order to be able to constantly monitor consumption, you must first set up a method of measure. The units you enter are basic units. For example, the processing time is measured in hours and minutes.
+
+    > [!NOTE]  
+    > If you select to use Days then remember that 1 day = 24 hours - and not 8 (working hours).
 
 2.  In the **Capacity** field, define whether the work center has more than one machine or person working at the same time. If your **Product Name** installation does not include the Machine Center functionality, then the value in this field must be **1**).  
 
@@ -149,6 +153,15 @@ To post work progress automatically, you must assign a flushing method to the ma
     |**Backward**|Automatic posting of planned run time and output quantity upon finishing the production order.|  
 
 4.  Repeat these steps on the **Posting** FastTab of the **Work Center** card.  
+
+## Example - Different Machine Centers Assigned to a Work Center
+It is important to plan which capacities are to make up the total capacity when setting up the machine centers and work centers.
+
+If different machine centers (such as 210 Packing table 1, 310 Painting Cabin ...) are assigned to a work center, the consideration of the single capacities of the machine centers is significant because failure of one machine center can interrupt the entire process. The machine groups can be entered according to their capacity but may not be included in the planning. By deactivating the Consolidated Calendar field only the capacity of the work center but not the machine center is assigned in the planning.
+
+If, however, identical machine centers (such as 210 Packing table 1 and 220 Packing table 2) are combined in a work center, the consideration of the work center as a sum of the assigned machine centers is of interest. Therefore, the work center would be listed with zero capacity. By activating the Consolidated Calendar field, the common capacity is assigned to the work center.
+
+If capacities of work centers are to make no contribution to the total capacity, you can achieve this with efficiency = 0.
 
 
 ## See Also  

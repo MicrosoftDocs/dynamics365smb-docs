@@ -267,7 +267,6 @@
 ## [How to: Manage Employee Absence](hr-how-manage-absence.md)
 
 # [Planning](planning.md)
-##
 
 # [Assembly Management](assembly-assemble-items.md)
 ## [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md)

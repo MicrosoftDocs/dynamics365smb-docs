@@ -11,15 +11,15 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 09/04/2017
     ms.author: sgroespe
 
 ---
-# Production
+# Manufacturing
 When [production orders](../operations-planning.md), shop floor staff can proceed to fine schedule the activities, pull the required material, and output finished goods. In order to convert material into end items, a complete set of production resources must exist. This setup work is also the responsibility of the production department and is described as the first set of tasks in Established Production Resources below.  
-  
+
  The following table describes a sequence of tasks, with links to the topics that describe them.   
-  
+
 |**To**|**See**|  
 |------------|-------------|  
 |Configure general rules and values for production and define shop floor resources and their capacity.|[Configure Production Processes](../configure-production-processes.md)|  

@@ -1,1 +1,1 @@
-Dynamic 365
+Dynamics 365

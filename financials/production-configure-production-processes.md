@@ -1,6 +1,6 @@
 ---
     title: Configure Production Processes | Microsoft Docs
-    description: To convert material into produced end items, production resources, such as machine operators and machinery need to be set up in the system.
+    description: To convert material into produced end items, production resources, such as bills of material, routings, machine operators, and machinery must be set up in the system.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -11,19 +11,19 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 09/04/2017
     ms.author: sgroespe
 
 ---
-# Configure Production Processes
-To convert material into produced end items, production resources, such as machine operators and machinery need to be set up in the system.  
-  
- Operators and machines are represented in the system as machine centers which are organized into work centers. When these resources are established, they can be loaded with operations according to the item's defined [material and process structure](../define-material-and-process-structure.md), and according to the capacity of the machine or work center. You can also set the production capacity of each resource. Capacity is defined by the work time available in the machine and work centers, and is governed by calendars for each level. A work center calendar specifies the working days or hours, shifts, holidays, and absence that determine the work center’s gross available capacity (typically measured in minutes). All of this is determined by defined efficiency and capacity values.  
-  
- To learn how the established production resources are used in operations planning and execution, see [Plan for Resource Availability](../execute-production.md).  
-  
+# Setting Up Manufacturing
+To convert material into produced end items, production resources, such as bills of material, routings, machine operators, and machinery must be set up in the system.
+
+Operators and machines are represented in the system as machine centers which are organized into work centers. When these resources are established, they can be loaded with operations according to the item's defined material (BOM) and process (routing) structure, and according to the capacity of the machine or work center. You can also set the production capacity of each resource. Capacity is defined by the work time available in the machine and work centers, and is governed by calendars for each level. A work center calendar specifies the working days or hours, shifts, holidays, and absence that determine the work center’s gross available capacity (typically measured in minutes). All of this is determined by defined efficiency and capacity values.  
+
+To learn how the established production resources are used in operations planning and execution, see [Planning](planning.md).  
+
  The following table describes a sequence of tasks, with links to the topics that describe them.   
-  
+
 |**To**|**See**|  
 |------------|-------------|  
 |Configure the manufacturing features, such as defining shop floor work hours and selecting planning principles.|Manufacturing Setup|  
@@ -37,7 +37,7 @@ To convert material into produced end items, production resources, such as machi
 |Define families of production items with similar manufacturing processes.|Family|  
 |Specify if expected output quantities should be preset when reporting output.|Preset Output Quantity|  
 |Prepare work centers and routings to represent subcontracted production operations.|[About Subcontracting](../about-subcontracting.md)|  
-  
+
 ## See Also  
  [Plan for Resource Availability](../plan-for-resource-availability.md)   
  [Design and Engineering](../design-and-engineering.md)

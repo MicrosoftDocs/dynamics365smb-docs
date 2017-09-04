@@ -33,7 +33,7 @@
       "searchScope": ["Business edition"],
       "uhfHeaderId": "MSDocsHeader-Dynamics365",
       "titleSuffix": "Finance and Operations, Business",
-      "ms.service": "dynamics365-financials",
+      "ms.service": "dynamics365-financials"
       },
     "fileMetadata": {},
     "template": [],

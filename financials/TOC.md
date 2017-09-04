@@ -69,6 +69,15 @@
 ### [How to: Register New Items](inventory-how-register-new-items.md)
 ### [How to: Set Up Stockkeeping Units](inventory-how-to-set-up-stockkeeping-units.md)
 ### [How to: Categorize Items](inventory-how-categorize-items.md)
+## [Setting Up Project Management](projects-setup-projects.md)
+### [How to: Set Up Resources](projects-how-setup-resources.md)
+### [How to: Set Up Time Sheets](projects-how-setup-time-sheets.md)
+### [How to: Set Up Jobs](projects-how-setup-jobs.md)
+## [Setting Up Fixed Assets](fa-setup.md)
+### [How to: Set Up General Fixed Assets Information](fa-how-setup-general.md)
+### [How to: Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md)
+### [How to: Set Up Fixed Asset Insurance](fa-how-setup-insurance.md)
+### [How to: Set Up Fixed Asset Maintenance](fa-how-setup-maintenance.md)
 ## [Setting Up Warehouse Management](warehouse-setup-warehouse.md)
 ### [Design Details: Warehouse Overview](design-details-warehouse-overview.md)
 ### [How to: Work with Responsibility Centers](inventory-responsibility-centers.md)
@@ -86,15 +95,8 @@
 ### [How to: Enable Picking by FEFO](warehouse-picking-by-fefo.md)
 ### [How to: Enable Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)
 ### [How to: Restructure Warehouses](warehouse-how-to-restructure-warehouses.md)
-## [Setting Up Project Management](projects-setup-projects.md)
-### [How to: Set Up Resources](projects-how-setup-resources.md)
-### [How to: Set Up Time Sheets](projects-how-setup-time-sheets.md)
-### [How to: Set Up Jobs](projects-how-setup-jobs.md)
-## [Setting Up Fixed Assets](fa-setup.md)
-### [How to: Set Up General Fixed Assets Information](fa-how-setup-general.md)
-### [How to: Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md)
-### [How to: Set Up Fixed Asset Insurance](fa-how-setup-insurance.md)
-### [How to: Set Up Fixed Asset Maintenance](fa-how-setup-maintenance.md)
+## [Setting Up Manufacturing](production-configure-production-processes.md)
+### [How to: Create Work Center Calendars](production-how-to-create-work-center-calendars.md)
 ## [Setting Up Service Management](service-setup-service.md)
 ### [How to: Set Up Standard Service Codes](service-how-setup-service-coding.md)
 ### [How to: Configure Service Processes](service-setup-service-processes.md)
@@ -112,6 +114,7 @@
 ## [How to: Set up Email](madeira-how-setup-email.md)
 ## [How to: Create Number Series](ui-create-number-series.md)
 ## [How to: Set Up Extended Item Text](ui-how-define-ext-text.md)
+## [How to: Set Up Base Calendars](across-how-to-assign-base-calendars)
 ## [Setting Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)
 ### [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)
 ### [Setup Best Practices: Costing Methods](setup-best-practices-costing-method.md)
@@ -241,17 +244,6 @@
 ## [How to: Monitor Job Progress and Performance](projects-how-monitor-progress-performance.md)
 ## [How to: Invoice Jobs](projects-how-invoice-jobs.md)
 
-# [Assembly Management](assembly-assemble-items.md)
-## [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md)
-## [How to: Quote an Assemble-to-Order Sale](assembly-how-to-quote-an-assemble-to-order-sale.md)
-## [How to: Assemble Items](assembly-how-to-assemble-items.md)
-## [How to: Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md)
-## [How to: Sell Inventory Items in Assemble-to-Order Flows](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md)
-## [How to: Sell Assemble-to-Order Items and Inventory Items Together](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)
-## [How to: Undo Assembly Posting](assembly-how-to-undo-assembly-posting.md)
-## [How to: Work with Bills of Material](inventory-how-work-BOMs.md)
-## [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)
-
 # [Fixed Assets](fa-manage.md)
 ## [How to: Acquire Fixed Assets](fa-how-acquire.md)
 ## [How to: Maintain Fixed Assets](fa-how-maintain.md)
@@ -274,15 +266,20 @@
 ## [How to: Register Employees](hr-how-register-employees.md)
 ## [How to: Manage Employee Absence](hr-how-manage-absence.md)
 
-# [Warehouse Management](warehouse-manage-warehouse.md)
-## [How to: Receive Items](warehouse-how-receive-items.md)
-## [How to: Cross-Dock Items](warehouse-how-to-cross-dock-items.md)
-## [Putting Items Away](warehouse-put-away-items.md)
-## [Moving Items](warehouse-move-items.md)
-## [Picking Items](warehouse-pick-items.md)
-## [How to: Ship Items](warehouse-how-ship-items.md)
+# [Planning](planning.md)
 
-# Manufacturing
+# [Assembly Management](assembly-assemble-items.md)
+## [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md)
+## [How to: Quote an Assemble-to-Order Sale](assembly-how-to-quote-an-assemble-to-order-sale.md)
+## [How to: Assemble Items](assembly-how-to-assemble-items.md)
+## [How to: Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md)
+## [How to: Sell Inventory Items in Assemble-to-Order Flows](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md)
+## [How to: Sell Assemble-to-Order Items and Inventory Items Together](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)
+## [How to: Undo Assembly Posting](assembly-how-to-undo-assembly-posting.md)
+## [How to: Work with Bills of Material](inventory-how-work-BOMs.md)
+## [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)
+
+# [Manufacturing](production-production.md)
 ## How to: Plan for Production Availability
 ## How to: Forecast for Sales and Production
 ## How to: Perform Master Planning
@@ -291,6 +288,14 @@
 ## How to: Schedule Production Processes
 ## How to: Issue Materials
 ## How to: Execute Production
+
+# [Warehouse Management](warehouse-manage-warehouse.md)
+## [How to: Receive Items](warehouse-how-receive-items.md)
+## [How to: Cross-Dock Items](warehouse-how-to-cross-dock-items.md)
+## [Putting Items Away](warehouse-put-away-items.md)
+## [Moving Items](warehouse-move-items.md)
+## [Picking Items](warehouse-pick-items.md)
+## [How to: Ship Items](warehouse-how-ship-items.md)
 
 # [Service Management](service-service.md)
 ## [Planning Service](service-plan-service.md)

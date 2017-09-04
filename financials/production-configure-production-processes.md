@@ -1,0 +1,43 @@
+---
+    title: Configure Production Processes | Microsoft Docs
+    description: To convert material into produced end items, production resources, such as bills of material, routings, machine operators, and machinery must be set up in the system.
+    services: project-madeira
+    documentationcenter: ''
+    author: SorenGP
+
+    ms.service: dynamics365-financials
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 09/04/2017
+    ms.author: sgroespe
+
+---
+# Setting Up Manufacturing
+To convert material into produced end items, production resources, such as bills of material, routings, machine operators, and machinery must be set up in the system.
+
+Operators and machines are represented in the system as machine centers that may be organized in work centers and work center groups. When these resources are established, they can be loaded with operations according to the item's defined material (BOM) and process (routing) structure, and according to the capacity of the machine or work center. You can also set the production capacity of each resource. Capacity is defined by the work time available in the machine and work centers, and is governed by calendars for each level. A work center calendar specifies the working days or hours, shifts, holidays, and absence that determine the work center’s gross available capacity (typically measured in minutes). All of this is determined by defined efficiency and capacity values.  
+
+When you have set up manufacturing, you can plan and execute production orders. For more information, see [Planning](planning.md) and [Manufacturing](production-production.md).  
+
+ The following table describes a sequence of tasks, with links to the topics that describe them.   
+
+|**To**|**See**|  
+|------------|-------------|  
+|Configure the manufacturing features, such as defining shop floor work hours and selecting planning principles.|The **Manufacturing Setup** window.|  
+|Define a standard working week in the manufacturing department in terms of starting and ending times of each work day and related work shift.|[How to: Create Shop Calendars](production-how-to-create-work-center-calendars.md)|  
+|Organize fixed values and requirements of production resources as work centers or machine centers to govern their output of production performed.|[How to: Set Up Work Centers and Machine Centers](production-how-to-set-up-work-and-machine-centers.md)|
+|Organize production operations in the required order and assign them to work or machine centers with the required work times.|How to: Create Routings](production-how-to-create-routings.md)|
+|Organize production components or subassemblies under a produced parent item and certify the BOM for execution at work centers.|[How to: Create Production BOMs](production-how-to-create-production-boms.md)|  
+|Define families of production items with similar manufacturing processes to save consumption. For example, four pieces of the same item can be produced from one sheet and 10 pieces of another, different, item at the same time.|[How to: Work With Family Items]()|  
+|Specify if expected output quantities should be preset when reporting output.|Preset Output Quantity|  
+|Prepare work centers and routings to represent subcontracted production operations.|[How to: Subcontract Manufacturing](production-subcontracting.md)|  
+
+## See Also
+[Manufacturing](production-production.md)    
+[Planning](planning.md)   
+[Inventory](inventory-manage-inventory.md)  
+[Purchasing](purchasing-manage-purchasing.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

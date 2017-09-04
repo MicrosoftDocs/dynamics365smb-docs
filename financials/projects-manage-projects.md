@@ -1,6 +1,6 @@
 ---
 title: Job Tasks using Resources and Time Sheets| Microsoft Docs
-description:Outlines how to to use resources, time sheets, and jobs to manage projects.
+description: Outlines how to use resources, time sheets, and jobs to manage projects.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

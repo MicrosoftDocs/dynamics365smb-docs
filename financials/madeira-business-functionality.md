@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.date: 06/02/2017
+ms.date: 09/04/2017
 ms.author: sgroespe
 
 ---
@@ -26,15 +26,25 @@ The following table describes a sequence of tasks, with links to the topics that
 
 | To | See |
 | --- | --- |
-| Make and collect payments, manage your cash flow, defer income and revenue, prepare year-end closing, and manage fixed assets. |[Finance](finance.md) |
+|Make and collect payments, manage your cash flow, defer income and revenue, prepare year-end closing, and manage fixed assets.|[Finance](finance.md)|
 |Get insight to the performance of your business activities through budgets, account schedules, and analysis views.|[Business Intelligence](bi.md)|
-| Manage sales processes and information, such as quotes, orders, returns, and customer accounts, and make drop shipments. |[Sales](sales-manage-sales.md) |
-| Manage purchasing processes and information, such as invoices, orders, returns, and vendor accounts, and purchase items from sales documents. |[Purchasing](purchasing-manage-purchasing.md) |
-| Register new inventory or service-type items, categorize items for easy searching, adjust inventory levels, and perform common inventory costing tasks. |[Inventory](inventory-manage-inventory.md) |
-| Manage and support your sales efforts and focus your interactions on preferred customers and contacts. |[Relationship Management](marketing-relationship-management.md) |
-| Create jobs and schedule resources for project, manage job budgets, monitor progress, and track machine and employee hours. |[Project Management](projects-manage-projects.md) |
-| Organize your fixed assets, ensure correct periodic depreciation, and keep track of maintenance costs. |[Fixed Assets](fa-manage.md) |
-| Keep detailed records of your employees, and register absence for analysis purposes. |[Human Resources](hr-manage-human-resources.md) |
+|Manage sales processes and information, such as quotes, orders, returns, and customer accounts, and make drop shipments.|[Sales](sales-manage-sales.md)|
+|Manage purchasing processes and information, such as invoices, orders, returns, and vendor accounts, and purchase items from sales documents. |[Purchasing](purchasing-manage-purchasing.md)|
+|Register new inventory or service-type items, categorize items for easy searching, adjust inventory levels, and perform common inventory costing tasks.|[Inventory](inventory-manage-inventory.md)|
+|Create jobs and schedule resources for project, manage job budgets, monitor progress, and track machine and employee hours.|[Project Management](projects-manage-projects.md)|
+|Organize your fixed assets, ensure correct periodic depreciation, and keep track of maintenance costs.|[Fixed Assets](fa-manage.md)|
+|Keep detailed records of your employees, and register absence for analysis purposes. |[Human Resources](hr-manage-human-resources.md)|
+|Manage and support your sales efforts and focus your interactions on preferred customers and contacts.|[Relationship Management](marketing-relationship-management.md)|
+|Maintain employee information and register and monitor employee absence.|[Human Resources](hr-manage-human-resources.md)|
+|Plan the production operations that are required to transform inputs into finished goods.|[Planning](planning.md)|
+|Put sellable items together in simple steps to make a new item, such as a kit.|[Assembly Management](assembly-assemble-items.md)|
+|Define shop floor resources and their capacity, schedule operations, pull production components, and execute production operations.|[Manufacturing](production-production.md)|
+|Ensure an effective flow of goods that are received and shipped.|[Warehouse Management](warehouse-manage-warehouse.md)|
+|Schedule service calls and set up service orders, and track repair parts and supplies.|[Service Management](service-service.md)|
+|Set up and use workflows that connect tasks performed by different users or by the system, such as automatic posting. Requesting and granting approval to create or post documents are typical workflow steps.|[Workflow](across-workflow.md)|
+|Enable users to exchange data with external sources during daily tasks, such as sending/receiving electronic documents, importing/exporting bank files, and updating currency exchange rates.|[Exchanging Data as Electronic Documents ](across-data-exchange.md)|
+|Record external documents in Microsoft Dynamics NAV, including their file attachments, and then manually create the related documents or automatically convert the files to electronic documents.|[Incoming Documents](across-income-documents.md)|
+
 
 ## See Also
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  

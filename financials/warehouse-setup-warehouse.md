@@ -15,7 +15,6 @@
     ms.author: sgroespe
 
 ---
-[!INCLUDE[d365fin](includes/advanced_experience_md.md)]
 # Setting Up Warehouse Management
 A company's distribution strategy is reflected in the configuration of its warehouse processes. This includes defining how different items are handled in different warehouse locations, such as the degree of bin control and the extend of workflow required between warehouse activities.  
 

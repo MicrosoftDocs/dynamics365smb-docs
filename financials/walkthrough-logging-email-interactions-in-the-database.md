@@ -164,7 +164,7 @@ For your company, you set up a job queue that you want to run every day. You als
 1. Open <!-- [!INCLUDE[nav_admin](includes/nav_admin_md.md)]-->.  
 2. Select the EMAIL server instance, and start it.  
 
-     For more information, see [Managing Microsoft Dynamics NAV Server Instances](../Managing%20Microsoft%20Dynamics%20NAV%20Server%20Instances.md).  
+<!--For more information, see [Managing Microsoft Dynamics NAV Server Instances](../Managing%20Microsoft%20Dynamics%20NAV%20Server%20Instances.md).-->  
 
 3. Return to the <!--ADD INCLUDE [!INCLUDE[rtc](includes/rtc_md.md)]-->, and Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Queue Log Entries**, and then choose the related link. To verify that the job queue is working as expected, note whether an entry is logged every five minutes.  
 
@@ -199,7 +199,7 @@ In your tests and in production, we recommend that you copy mail messages, and n
 To verify your interactions, you can review the information that is recorded in the **Interaction Log Entries** window.  
 
 ## See Also  
-[Logging and Tracking Email Interactions](logging-and-tracking-email-interactions.md)   
+<!--[Logging and Tracking Email Interactions](logging-and-tracking-email-interactions.md)-->   
 [Setting Up Relationship Management](marketing-setup-marketing.md)   
-[Security Considerations for Email Logging](security-considerations-for-email-logging.md)   
-[Troubleshooting: Email Logging](troubleshooting-email-logging.md)
+<!--[Security Considerations for Email Logging](security-considerations-for-email-logging.md)-->
+<!--[Troubleshooting: Email Logging](troubleshooting-email-logging.md)-->

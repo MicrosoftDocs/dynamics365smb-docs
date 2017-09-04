@@ -18,7 +18,7 @@
 # How to: Post Service Orders and Credit Memos
 When you have created a service order, filled in all the necessary information and made any modifications, you can post the service order. The order must contain at least one service item line and one service line before you can post it. Should the order contain more than one service line, all the lines are posted at one time.  
 
-If you have a large number of service orders, you can save time by using a batch job to post them.
+If you have a large number of service orders, you can save time by using a batch job to post them at the same time. You can run the batch job from any service order.
 
 > [!Tip]
 > Before you post a service document, it's a good idea to use the **Test Report** action to to check for any errors or missing information. If there are errors, you must correct the problem. You can print a new test report to verify the fix, and then post the document.
@@ -50,10 +50,7 @@ When posting the order, the corresponding ledger entries and posted documents ar
 
 ## To batch post service orders
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Orders**, and then choose the related link.  
-2. Choose the **Post Batch** action. 
-  
-     When you use the **Batch Post Service Orders** batch job, it does not matter which service order you work from.  
-  
+2. Choose the **Post Batch** action.  
 3.  You can set a filter to select specific service order numbers or an interval of order numbers for the batch job to process.  
 4.  Choose **OK** to start the batch job.  
 

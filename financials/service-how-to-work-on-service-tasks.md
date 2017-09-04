@@ -96,10 +96,10 @@ After repairing a service item, you can register both the fault code and the res
 2. Choose the line that includes the relevant service item, and then choose the **Item Worksheet** action.  
 3. On the **Service Item Worksheet** page, choose **Fault/Resol. Codes Relationships**. The **Fault/Resolution Codes Relationships** window opens.  
   
->   [!Note]
+  >  [!Note]
   >  Filters are set on the relationships that are shown in the window by copying the service item group and the fault codes from the **Service Item Worksheet** window.  
   
-4. Fill out the line. Choose the combination of fault and resolution codes, and then choose the **OK** button to copy it to the service item. If an appropriate combination cannot be found, you can create a new combination in the window.  
+4. Fill out the line. Choose the combination of fault and resolution codes, and then choose **OK** to copy it to the service item. If an appropriate combination cannot be found, you can create a new combination in the window.  
 
 ## See Also  
 [How to: Set Up Fault Reporting](service-how-setup-fault-reporting.md)

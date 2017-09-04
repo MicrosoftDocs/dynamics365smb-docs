@@ -36,7 +36,7 @@ The following procedure describes how to define the part of service that you wil
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Orders**, and then choose the related link.  
 2. Choose the service order to invoice, and open the order card.  
-3. Choose **Actions**, choose **Order**, and then choose **Service Lines**.  
+3. Choose the **Service Lines** action.  
 4. Find the required entries, and then specify the quantities for which you will charge the customer in the **Qty. to Invoice** field.  
   
    > [!NOTE]  
@@ -72,25 +72,19 @@ Typically, after you post a service order with the **Invoice** or **Ship and Inv
 You might need to create a service invoice for the service that has already been shipped, either from one or several service orders, but not yet invoiced or consumed. You can fill in the invoice lines automatically with the selected posted shipment lines for a specific customer.  
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Invoices**, and then choose the related link.  
-2. On the **Home** tab, in the **New** group, choose **New**. Create a new service invoice.  
-3. Fill in the fields on the **General** FastTab.  
-4. Create invoice lines for services shipped but not invoiced. Alternatively, you can use the **Get Shipment Lines** action.  
-  
-    1. Choose **Actions**, choose **Functions**, and then choose **Get Shipment Lines**.  
-    2. On the **Get Service Shipment Lines** page, choose the shipment lines to invoice, and then choose **OK**. The posted shipment lines are inserted into the invoice.  
-  
-5. Post the service invoice.  
+2. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
+3. Create invoice lines for services shipped but not invoiced. Alternatively, you can use the **Get Shipment Lines** action to add posted shipment lines to the invoice.  
+4. Post the service invoice.  
   
  The posted service invoice and the corresponding ledger entries are created. Previously posted shipment documents are updated with the invoiced quantities and the relevant quantities on the service lines of the source orders.  
 
 ## To create a combined invoice  
-Using this procedure, you can invoice the customer for services provided on different service orders. Invoice lines are created for items, resource hours, or costs that have already been shipped from different service orders but not yet invoiced.  
+You can invoice the customer for services provided on different service orders. Invoice lines are created for items, resource hours, or costs that have already been shipped from different service orders but not yet invoiced.  
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Invoices**, and then choose the related link.  
-2. Create a new service invoice.  
-3. Specify the customer to invoice, and fill in the document header.  
-4. Choose **Actions**, choose **Functions**, and then choose **Get Shipment Lines**. The **Get Service Shipment Lines** page displays all the shipped but not invoiced lines for the specified customer.  
-5. In the **Get Service Shipment Lines** page, choose the lines for the service to invoice, and then choose **OK** to insert the service shipment lines into the invoice.  
+2. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. Choose the **Get Shipment Lines** action. The **Get Service Shipment Lines** page displays all lines that are shipped but not invoiced for the customer.  
+4. Choose the lines for the service to invoice, and then choose **OK** to add the service shipment lines to the invoice.  
 
 ## To create a service credit memo  
 A service credit memo document is typically used when a customer returns an item, but it can also be used to give a customer some compensation or to correct an erroneous invoice.  

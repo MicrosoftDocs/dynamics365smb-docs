@@ -21,7 +21,7 @@ Ease in invoicing your service orders is a key feature of [!INCLUDE[d365fin](inc
 To create an invoice directly, you can use the **Service Contract** window. You can also set up your system so that a service technician in the field can create an invoice for service that is not connected to a contract or order.  
 
 ## To invoice a service contract from the Service Contract page   
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Create Contract Invoices**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Create Service Contract Invoices**, and then choose the related link.  
 2. Set the filters you want to apply.  
 3. In the **Posting Date** field, enter the date to use as the posting date on the service invoices.  
 4. In the **Invoice to Date** field, enter the date up to which you want to invoice contracts. The batch job will include the contracts with the next invoice dates, up to this date.  

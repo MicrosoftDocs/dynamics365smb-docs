@@ -24,7 +24,7 @@ As for production BOMs, the routings are assigned to the manufacturing end item.
 
 Before you can set up a routing, the following must be in place:  
 
-- Item cards are created. For more information, see [How to: Register New Products](inventory-how-register-new-items.md).
+- Item cards are created for parent items that take part in manufacturing. For more information, see [How to: Register New Products](inventory-how-register-new-items.md).
 - Production resources are set up. For more information, see [How to: Set Up Work Centers and Machine Centers](production-how-to-set-up-work-and-machine-centers.md).
 
 ## To create a routing  
@@ -102,14 +102,17 @@ The version principle enables you to manage several versions of a routing. The s
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Routings**, and then choose the related link.  
 2.  Select the routing to be copied, and then choose the **Versions** action.  
 3. In the **Routing Versions** window, choose the **New** action.
-4.  In the **Version Code** field, you enter the unique identification of the version. Any combination of numbers and letters is permitted.  
+4. Fill in the fields as necessary.
+5.  In the **Version Code** field, enter the unique identification of the version. Any combination of numbers and letters is permitted.  
 
     The newly created version is automatically assigned the status **New**.  
-5.  To create operations lines, select the first blank line, and then fill in the **Operation No.** field according to the sequence of operations.
+6.  To create operation lines, select the first blank line, and then fill in the **Operation No.** field according to the sequence of operations.
 
     The operation lines are sorted in ascending order by operation numbers. To be able to make changes later, we recommend you to select adequate step widths. The **Next Operation No.** field refers to the following operation. The number of the operation can be entered directly.
 
-6. When the routing version is completed, setting the **Status** field to **Certified**.  
+7. When the routing version is completed, setting the **Status** field to **Certified**.
+
+The time validity of the version is specified by the **Starting Date** field.  
 
 ## See Also  
 [How to: Create Production BOMs](production-how-to-create-production-boms.md)  

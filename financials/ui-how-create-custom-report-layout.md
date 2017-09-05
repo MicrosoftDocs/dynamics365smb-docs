@@ -61,7 +61,7 @@ To modify a report layout, you must first export the report layout as a file to 
 5. In the **Import** dialog box, select **Choose** to find and select the report layout document, and then choose **Open**.
 
 ##  <a name="MakeChangesToLayout"></a> Making changes to a Word report layout  
-To can make general formatting and layout changes, such as changing text font, adding and modifying a table, or removing a data field, by using the basic editing features of Word, like you do with any Word document.
+To can make general formatting and layout changes, such as changing text font, adding and modifying a table, or removing a data field, just use the basic editing features of Word, like you do with any Word document.
 
 If you are designing a Word report layout from scratch or adding new data fields, then start by adding a table that includes rows and columns that will eventually hold the data fields. 
   
@@ -83,11 +83,13 @@ If you are designing a Word report layout from scratch or adding new data fields
   
 2.  Delete the remaining text as needed.  
 
-#### Adding data fields
-adding data fields from a report dataset is a more advanced and requires some knowledge of the report dataset. For information about adding fields for data, labels, data, and images, see [How to: Add Fields to a Word Report Layout](how-to-add-fields-to-a-word-report-layout.md).  
+### Adding data fields
+Adding data fields from a report dataset is a more advanced and requires some knowledge of the report dataset. For information about adding fields for data, labels, data, and images, see [How to: Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md).  
   
 
 ## See Also
 [Managing Report Layouts](ui-manage-report-layouts.md)  
 [How to: Change Which Layout is Currently Used on a Report](ui-how-change-layout-currently-used-report.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[How to: Import and Export a Custom Report or Document Layout](ui-how-import-and-export-report-layout.md)  
+[Working with Reports](ui-work-report.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

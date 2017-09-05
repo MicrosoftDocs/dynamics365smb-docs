@@ -52,10 +52,12 @@ The general design concepts for Word and RDLC layouts are very similar. However 
 
 The process for setting up Word report layouts and RDLC report layouts on reports is the same. The main difference is in the way you modify the layouts. Word report layouts are typically easier to create and modify than RDLC report layouts because you can use Word. RDLC report layouts are modified by using SQL Server Report builder which targets more advanced users.
 
-For information on how to change which layout to use, see [How to: Change Which Layout is Currently Used on a Report](ui-how-change-layout-currently-used-report.md)
+For information on how to change which layout to use, see [How to: Change Which Layout is Currently Used on a Report](ui-how-change-layout-currently-used-report.md).
 
 ## See Also
-[Updating Report Layouts](ui-update-report-layouts.md)  
+[Updating Report or Document Layouts](ui-update-report-layouts.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[How to: Create a Custom Report or Document Layout](ui-how-create-custom-report-layout.md)  
-[How to: Send Documents by Email](ui-how-send-documents-email.md)
+[How to: Create and Modify a Custom Report or Document Layout](ui-how-create-custom-report-layout.md)  
+[How to: Import and Export a Custom Report or Document Layout](ui-how-import-and-export-report-layout.md)  
+[How to: Send Documents by Email](ui-how-send-documents-email.md)  
+[Working with Reports](ui-work-report.md)  

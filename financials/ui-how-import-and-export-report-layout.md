@@ -1,9 +1,9 @@
 ---
-    title: How to Import and Export a Report Layout | Microsoft Docs
-    description: You can import and export an existing custom report layout as a file to and from a location on your computer and network. For example, you can export a report layout, and then send the file to another person to modify. That person can then make the modifications to layout and return the file to you for importing back into ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.
+    title: Importing and Exporting a Report and Document Layout | Microsoft Docs
+    description: You can import and export an existing custom report layout as a file to and from a location on your computer and network.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: jswymer
 
     ms.service: dynamics365-financials
     ms.topic: article
@@ -12,11 +12,11 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 07/01/2017
-    ms.author: sgroespe
+    ms.author: jswymer
 
 ---
-# How to: Import and Export a Report Layout
-You can import and export an existing custom report layout as a file to and from a location on your computer and network. For example, you can export a report layout, and then send the file to another person to modify. That person can then make the modifications to layout and return the file to you for importing back into ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
+# How to: Import and Export a Report or Document Layout
+You can import and export an existing custom report layout as a file to and from a location on your computer and network. For example, you can export a report layout, and then send the file to another person to modify. That person can then make the modifications to layout and return the file to you so that you can import it back.  
   
 > [!IMPORTANT]  
 >  You cannot import or export built-in report layouts.  
@@ -48,9 +48,6 @@ You can import and export an existing custom report layout as a file to and from
  The original custom report layout is replaced with the imported report layout.  
   
 ## See Also  
- [Managing Report Layouts From the Microsoft Dynamics NAV Clients](../FullExperience/managing-report-layouts-from-the-microsoft-dynamics-nav-clients.md)   
- [Getting Started with Report Layouts](../FullExperience/getting-started-with-report-layouts.md)   
- [About Report Layouts](../FullExperience/about-report-layouts.md)   
- [How to: Create a Custom Report Layout](../FullExperience/how-to-create-a-custom-report-layout.md)   
- [How to: Add Fields to a Word Report Layout](../FullExperience/how-to-add-fields-to-a-word-report-layout.md)   
- [How to: Modify a Custom Report Layout](../FullExperience/how-to-modify-a-custom-report-layout.md)
+ [How to: Create and Modify a Custom Report Layout](how-to-create-a-custom-report-layout.md)   
+ [Managing Report and Document Layouts](ui-manage-report-layouts.md)  
+ [Working with Reports](ui-work-report.md)    

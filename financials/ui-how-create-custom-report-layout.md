@@ -90,4 +90,6 @@ Adding data fields from a report dataset is a more advanced and requires some kn
 ## See Also
 [Managing Report Layouts](ui-manage-report-layouts.md)  
 [How to: Change Which Layout is Currently Used on a Report](ui-how-change-layout-currently-used-report.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[How to: Import and Export a Custom Report or Document Layout](ui-how-import-and-export-report-layout.md)  
+[Working with Reports](ui-work-report.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

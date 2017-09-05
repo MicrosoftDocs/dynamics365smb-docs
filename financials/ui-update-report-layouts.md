@@ -15,7 +15,7 @@
     ms.author: jswymer
 
 ---
-# Updating Report Layouts
+# Updating Report or Document Layouts
 Occasionally, you may need to update a custom report layout that is used on a report. This is required when there has been a design change to the report's data set, for example, a field that is used in the layout has been removed from the report data set. If a report layout requires updating, you will get an error message when you try to preview, print or save the report.  
   
 You can automatically update a report layout from the error message that appears when you run the report by choosing the **Yes** button on the error message. Or, in advance of running reports, you can update specific report layouts or all custom report layouts that might be affected by dataset changes.  
@@ -61,4 +61,5 @@ If no errors occur, then the updates is applied to the report layouts. If errors
  After you modify the layout, try to update the layout again.  
   
 ## See Also  
- [Managing Report Layouts](ui-manage-report-layouts.md)
+ [Managing Report Layouts](ui-manage-report-layouts.md)  
+ [Working with Reports](ui-work-report.md)  

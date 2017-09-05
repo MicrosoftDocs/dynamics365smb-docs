@@ -274,7 +274,7 @@
 ## [How to: Register Employees](hr-how-register-employees.md)
 ## [How to: Manage Employee Absence](hr-how-manage-absence.md)
 
-# [Planning](planning.md)
+# [Planning](production-planning.md)
 ## [About Planning Functionality](production-about-planning-functionality.md)
 ## [Planning with-without Locations](production-planning-with-without-locations.md)
 ## [How to: Create a Forecast](production-how-to-create-a-forecast.md)
@@ -297,7 +297,7 @@
 ## [How to: Work with Bills of Material](inventory-how-work-BOMs.md)
 ## [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)
 
-# [Manufacturing](production-production.md)
+# [Manufacturing](production-manage-manufacturing.md)
 ## How to: Communicate Production Plans
 ## How to: Schedule Production Processes
 ## How to: Issue Materials

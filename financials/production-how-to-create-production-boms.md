@@ -90,7 +90,7 @@ In a production BOM, seventy metal parts with the dimensions length = 0.20 m and
 ## See Also  
 [How to: Create Routings](production-how-to-create-routings.md)   
 [Setting Up Manufacturing](production-configure-production-processes.md)  
-[Manufacturing](production-production.md)    
+[Manufacturing](production-manage-manufacturing.md)    
 [Planning](planning.md)   
 [Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  

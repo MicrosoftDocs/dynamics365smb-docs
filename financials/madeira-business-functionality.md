@@ -38,7 +38,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Maintain employee information and register and monitor employee absence.|[Human Resources](hr-manage-human-resources.md)|
 |Plan the production operations that are required to transform inputs into finished goods.|[Planning](planning.md)|
 |Put sellable items together in simple steps to make a new item, such as a kit.|[Assembly Management](assembly-assemble-items.md)|
-|Define shop floor resources and their capacity, schedule operations, pull production components, and execute production operations.|[Manufacturing](production-production.md)|
+|Define shop floor resources and their capacity, schedule operations, pull production components, and execute production operations.|[Manufacturing](production-manage-manufacturing.md)|
 |Ensure an effective flow of goods that are received and shipped.|[Warehouse Management](warehouse-manage-warehouse.md)|
 |Schedule service calls and set up service orders, and track repair parts and supplies.|[Service Management](service-service.md)|
 |Set up and use workflows that connect tasks performed by different users or by the system, such as automatic posting. Requesting and granting approval to create or post documents are typical workflow steps.|[Workflow](across-workflow.md)|

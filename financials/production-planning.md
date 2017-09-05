@@ -23,7 +23,7 @@ The production operations required to transform inputs into finished goods must 
 
 Before you can plan and execute production orders, you must configure production capacities, such as creating shop calendars, routings, production BOMs, and machine centers. For more information, see [Setting Up Manufacturing](production-configure-production-processes.md).
 
-Planning can be seen as the preparation required supply orders in the assembly or manufacturing departments to fulfill demand. For more information, see [Assembly Management](assembly-assemble-items.md) and [Manufacturing](production-production.md).
+Planning can be seen as the preparation required supply orders in the assembly or manufacturing departments to fulfill demand. For more information, see [Assembly Management](assembly-assemble-items.md) and [Manufacturing](production-manage-manufacturing.md).
 
 The following table describes a sequence of tasks, with links to the topics that describe them.   
 
@@ -50,7 +50,7 @@ The following table describes a sequence of tasks, with links to the topics that
 
 ## See Also  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
-[Manufacturing](production-production.md)    
+[Manufacturing](production-manage-manufacturing.md)    
 [Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

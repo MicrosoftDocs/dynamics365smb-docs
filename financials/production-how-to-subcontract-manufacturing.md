@@ -110,5 +110,5 @@ When the purchase is posted as received, then an output journal entry is automat
 ## See Also  
 [How to: Subcontract Manufacturing]()  
 [Setting Up Manufacturing](production-configure-production-processes.md)
-[Manufacturing](production-production.md)  
+[Manufacturing](production-manage-manufacturing.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

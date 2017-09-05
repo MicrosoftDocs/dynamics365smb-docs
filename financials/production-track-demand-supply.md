@@ -21,7 +21,7 @@ From any supply or demand docum,ent in the so-called order network, you can trac
 The planning worksheets also offers supporting planning information about non-order entities, in the **Untracked Planning Elements** window, to help the planner obtain an optimal supply plan.  
 
 ## See Also  
-[Manufacturing](production-production.md)  
+[Manufacturing](production-manage-manufacturing.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  

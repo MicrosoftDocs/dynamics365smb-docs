@@ -45,6 +45,7 @@
 ### [Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md)
 ### [How to: Set Up Cash Customers](finance-how-to-set-up-cash-customers.md)
 ### [How to: Set Up Intrastat Reporting](finance-how-setup-report-intrastat.md)
+### [How To: Work with the Consolidated Trial Balance Report](accross-how-consolidated-company-reporting.md)
 ## [Setting Up Banking](bank-setup-banking.md)
 ### [How to: Set Up Bank Accounts](bank-how-setup-bank-accounts.md)
 ### [How to: Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)

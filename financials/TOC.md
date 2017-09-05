@@ -275,7 +275,16 @@
 ## [How to: Manage Employee Absence](hr-how-manage-absence.md)
 
 # [Planning](planning.md)
-##
+## [About Planning Functionality](production-about-planning-functionality.md)
+## [Planning with-without Locations](production-planning-with-without-locations.md)
+## [How to: Create a Forecast](production-how-to-create-a-forecast.md)
+## [How to: Create Production Orders from Sales Orders](production-how-to-create-production-orders-from-sales-orders.md)
+## [How to: Plan Project Orders](production-how-to-plan-project-orders.md)
+## [How to: Plan for New Demand Order by Order](production-how-to-plan-for-new-demand.md)
+## [How to: Run Full Planning, MPS or MRP](production-how-to-run-mps-and-mrp.md)
+## [How to: Replan or Refresh Production Orders Directly](Replan or Refresh Production Order Directly.md)
+## [How to: Track Relations Between Demand and Supply](production-track-demand-supply.md)
+## [How to: Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)
 
 # [Assembly Management](assembly-assemble-items.md)
 ## [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md)

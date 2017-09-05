@@ -17,15 +17,15 @@
 ---
 # Perform Material Requirements Planning
 To establish executable supply orders to meet all dependent and independent demand, you must plan for material requirements on all product levels. The material requirements plan, created with the Calculate MRP option, considers production BOM data, inventory levels, and the [master production schedule](../perform-master-planning.md).  
-  
+
  The MRP calculation makes recommendations to release supply orders for items, either by purchase, transfer, or production. Further, because it is time-phased, it makes recommendations to reschedule open orders when due dates and need dates are out of phase.  
-  
+
  Material requirements planning can be performed in two different tools depending on the complexity of the production BOM and the volume of orders. The **Order Planning** window is used to plan for one BOM level at a time with manual decision-making, whereas the planning worksheet is used for automatic supply order calculations based on planning parameters. For purchase planning of purchase and transfer orders only, the requisition worksheets can be used as a light-weight MRP worksheet.  
-  
+
  The planning worksheets offers supporting planning information, such as [tracking to non-order entities](../($%20N_99000852_118%20Warning%20$).md) to help the planner obtain an optimal supply plan.  
-  
+
  The following table describes a sequence of tasks, with links to the topics that describe them.   
-  
+
 |**To**|**See**|  
 |------------|-------------|  
 |Run the planning worksheet with the MRP option to automatically create a detailed supply plan (purchase, production, or transfer) based on the master production schedule and material requirements on all BOM levels.|[How to: Run MPS and MRP](../how-to-run-mps-and-mrp.md)|  
@@ -41,7 +41,7 @@ To establish executable supply orders to meet all dependent and independent dema
 |Reserve items from inventory or inbound orders to use for sales order lines when they are due for shipping.|[How to: Reserve Items for Production Components](../how-to-reserve-items-for-production-components.md)|  
 |Reserve items with serial/lot numbers by making a specific or non-specific reservation.|[How to: Reserve Item-Tracked Items](../how-to-reserve-item-tracked-items.md)|  
 |Track the order demand (tracked quantity), forecast, blanket sales order, or planning parameter (untracked quantity) that has given rise to the planning line in question.|Order Tracking|  
-  
+
 ## See Also  
  [Schedule Production Activities](../schedule-production-activities.md)   
  [Execute Production](../execute-production.md)   

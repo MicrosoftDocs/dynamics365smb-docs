@@ -275,6 +275,7 @@
 ## [How to: Manage Employee Absence](hr-how-manage-absence.md)
 
 # [Planning](planning.md)
+##
 
 # [Assembly Management](assembly-assemble-items.md)
 ## [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md)
@@ -288,10 +289,6 @@
 ## [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)
 
 # [Manufacturing](production-production.md)
-## How to: Plan for Production Availability
-## How to: Forecast for Sales and Production
-## How to: Perform Master Planning
-## How to: Material Requirements Planning
 ## How to: Communicate Production Plans
 ## How to: Schedule Production Processes
 ## How to: Issue Materials

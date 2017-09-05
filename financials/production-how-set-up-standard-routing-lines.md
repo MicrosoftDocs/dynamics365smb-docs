@@ -1,5 +1,5 @@
 ---
-    title: How to Set Up Standard for Operations | Microsoft Docs
+    title: How to Set Up Standard Tasks for Operations | Microsoft Docs
     description: You can enter descriptions of standard tasks.
     services: project-madeira
     documentationcenter: ''
@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 09/05/2017
     ms.author: sgroespe
 
 ---
@@ -27,6 +27,15 @@ The use of standard tasks simplifies the creation and maintenance of routings. T
 
 ## To add a standard task to an operation
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Routings**, and then choose the related link.
-2.  
+2. Open the relevant routing.
+3. Select a relevant routing line, choose the **Operations** action, and then choose the **Tools**, **Personnel**, **Description**, or **Tools** action.
+
 ## See Also  
- [How to: Create Standard Tasks](../how-to-create-standard-tasks.md)
+[How to: Create Routings](production-how-to-create-routings.md)
+[How to: Create Production BOMs](production-how-to-create-production-boms.md)     
+[Setting Up Manufacturing](production-configure-production-processes.md)  
+[Manufacturing](production-production.md)    
+[Planning](planning.md)   
+[Inventory](inventory-manage-inventory.md)  
+[Purchasing](purchasing-manage-purchasing.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

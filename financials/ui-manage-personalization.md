@@ -43,7 +43,7 @@ The **Delete User Personalization** page enables you to clear personalizations o
 
 ### Clear user personalizations by using the User Personalization Card page
 
-The **User Personalization Card** page enables you to clear the personalization on all pages for specific user.
+The **User Personalization Card** page enables you to clear the personalization on all pages for specific user. This requires write permission to Table 2000000072 **Profile**.
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **User Personalization**, and then choose the related link.
 

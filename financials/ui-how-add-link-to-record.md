@@ -38,7 +38,7 @@ Another example could be when you receive printed invoices from vendors. You can
   
 6.  Choose the **Save** button.  
   
-### To delete a link from a record  
+## To delete a link from a record  
   
 To delete a link, in the **Links** window, you can select **...** and then **Delete**.
 

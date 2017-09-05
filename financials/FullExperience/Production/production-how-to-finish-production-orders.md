@@ -35,4 +35,4 @@ Production orders are finished by changing the status of the released production
  [How to: Release Production Orders by Status Change](../how-to-release-production-orders-by-status-change.md)   
  [How to: Release Production Orders Automatically](../how-to-release-production-orders-automatically.md)   
  [About Production Orders](../about-production-orders.md)   
- [Design Details: Production Order Posting](design-details-production-order-posting.md)
+ [Design Details: Production Order Posting](../../design-details-production-order-posting.md)

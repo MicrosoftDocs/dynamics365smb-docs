@@ -44,7 +44,7 @@ To use payment management, you must set up payment statuses to define payment do
  View-Edit Payment Line   
  [Payment Management](payment-management.md)   
  [How to: Set Up Payment Classes](how-to-set-up-payment-classes.md)   
- [How to: Set Up Payment Steps](how-to-set-up-payment-steps.md)   
+ [How to: Set Up Payment Steps]()   
  [How to: Set Up Payment Addresses](how-to-set-up-payment-addresses.md)   
  [How to: Create Payment Slips](how-to-create-payment-slips.md)   
  [How to: Post Payment Slips](how-to-post-payment-slips.md)   

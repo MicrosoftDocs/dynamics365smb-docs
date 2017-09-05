@@ -35,7 +35,7 @@ Before you can set up a routing, the following must be in place:
 5. In the **Type** field, select whether the item on this BOM line is an ordinary item or a production BOM. If the item on the line is a production BOM, then it must already exist as a certified production BOM.  
 6.  In the **No.** field, look up and select the item or production BOM in question, or type it in the field.  
 7.  In the **Quantity Per** field, enter how many units of the item go into the parent item, for example, 4 wheels for 1 car.  
-8.  In the **Scrap %** field you can enter a fixed percentage of components that are scrapped during production. When the components are ready to be consumed in a released production order, this percentage will be added to the expected quantity in the **Consumption Quantity** field in a production journal. For more information, see [How to: Register Consumption and Output](production-how-to-register-consumption-and-output.md).  
+8.  In the **Scrap %** field you can enter a fixed percentage of components that are scrapped during production. When the components are ready to be consumed in a released production order, this percentage will be added to the expected quantity in the **Consumption Quantity** field in a production journal. For more information, see [How to: Register Consumption and Output](FullExperience/Production/production-how-to-register-consumption-and-output.md).  
 
     > [!NOTE]  
     >  This scrap percentage represents components that are scrapped during production when picking from inventory, whereas the scrap percentage on routing lines represents scrapped output before putting on inventory.  
@@ -90,7 +90,7 @@ In a production BOM, seventy metal parts with the dimensions length = 0.20 m and
 ## See Also  
 [How to: Create Routings](production-how-to-create-routings.md)   
 [Setting Up Manufacturing](production-configure-production-processes.md)  
-[Manufacturing](production-production.md)    
+[Manufacturing](production-manage-manufacturing.md)    
 [Planning](planning.md)   
 [Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  

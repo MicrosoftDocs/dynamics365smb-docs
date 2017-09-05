@@ -28,9 +28,9 @@ The ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/rtc_md.md)]--> enables you t
   
 |**To**|**See**|  
 |------------|-------------|  
-|Enter a note on a record and have it appear in another user's My Notifications, your own My Notifications, or only on the record.|[How to: Create Notes and Notifications](../FullExperience/how-to-create-notes-and-notifications.md)|  
-|View the full text in a note, or open the record that a notification is related to.|[How to: View Notes and Notifications](../FullExperience/how-to-view-notes-and-notifications.md)|  
-|Delete a note and any related notification.|[How to: Delete Notes and Notifications](../FullExperience/how-to-delete-notes-and-notifications.md)|  
+|Enter a note on a record and have it appear in another user's My Notifications, your own My Notifications, or only on the record.|[How to: Create Notes and Notifications](../../../archive/WorkingWithDynamics/how-to-create-notes-and-notifications.md)|  
+|View the full text in a note, or open the record that a notification is related to.|[How to: View Notes and Notifications](../../../archive/WorkingWithDynamics/how-to-view-notes-and-notifications.md)|  
+|Delete a note and any related notification.|[How to: Delete Notes and Notifications](../../../archive/WorkingWithDynamics/how-to-delete-notes-and-notifications.md)|  
   
 ## See Also  
  [How to: Send Data to Other Programs](../FullExperience/how-to-send-data-to-other-programs.md)

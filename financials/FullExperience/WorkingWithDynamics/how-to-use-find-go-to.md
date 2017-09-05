@@ -41,4 +41,4 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> you can sea
 6.  Choose the **Close** button when you have finished searching.  
   
 ## See Also  
- [Working with Product Name](../FullExperience/working-with-$-p_1-product-name-$-.md)
+ [Working with Product Name](../../../archive/WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)

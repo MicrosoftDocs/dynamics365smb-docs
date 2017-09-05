@@ -20,7 +20,7 @@ To convert material into produced end items, production resources, such as bills
 
 Operators and machines are represented in the system as machine centers that may be organized in work centers and work center groups. When these resources are established, they can be loaded with operations according to the item's defined material (BOM) and process (routing) structure, and according to the capacity of the machine or work center. You can also set the production capacity of each resource. Capacity is defined by the work time available in the machine and work centers, and is governed by calendars for each level. A work center calendar specifies the working days or hours, shifts, holidays, and absence that determine the work center’s gross available capacity (typically measured in minutes). All of this is determined by defined efficiency and capacity values.  
 
-When you have set up manufacturing, you can plan and execute production orders. For more information, see [Planning](planning.md) and [Manufacturing](production-production.md).  
+When you have set up manufacturing, you can plan and execute production orders. For more information, see [Planning](production-planning.md) and [Manufacturing](production-manage-manufacturing.md).  
 
  The following table describes a sequence of tasks, with links to the topics that describe them.   
 
@@ -37,7 +37,7 @@ When you have set up manufacturing, you can plan and execute production orders. 
 |Prepare work centers and routings to represent subcontracted production operations.|[How to: Subcontract Manufacturing](production-how-to-subcontract-manufacturing.md)|  
 
 ## See Also
-[Manufacturing](production-production.md)    
+[Manufacturing](production-manage-manufacturing.md)    
 [Planning](planning.md)   
 [Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  

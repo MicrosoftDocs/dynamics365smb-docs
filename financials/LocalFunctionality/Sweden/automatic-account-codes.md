@@ -26,5 +26,5 @@ You can use customized posting groups to automate recurring transactions in jour
  [How to: Set Up Automatic Account Posting Groups](how-to-set-up-automatic-account-posting-groups.md)   
  [OBSOLETE: Accrual Accounting](OBSOLETE:%20Accrual%20Accounting.md)   
  [About Posting Groups](about-posting-groups.md)   
- [How to: Fill and Post General Journals](how-to-fill-and-post-general-journals.md)   
+ [How to: Fill and Post General Journals](../../../archive/WorkingWithDynamics/how-to-fill-and-post-general-journals.md)   
  [OBSOLETE: How to: Set Up Accrual Accounting](OBSOLETE:%20How%20to:%20Set%20Up%20Accrual%20Accounting.md)

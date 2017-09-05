@@ -80,4 +80,4 @@ You may want to attach a hyperlink to a document or website to a specific record
 2.  On the **Data Deletion** page, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  
   
 ## See Also  
- [Working with Product Name](../FullExperience/working-with-$-p_1-product-name-$-.md)
+ [Working with Product Name](../../../archive/WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)

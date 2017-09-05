@@ -112,6 +112,6 @@ Base calendars are assigned to your own company, customers, vendors, locations, 
 
 ## See Also
 [Purchasing](purchasing-manage-purchasing.md)  
-[Manufacturing](production-production.md)    
+[Manufacturing](production-manage-manufacturing.md)    
 [Inventory](inventory-manage-inventory.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

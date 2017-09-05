@@ -37,4 +37,4 @@ The first physical activity in a production process is to prepare the materials 
  [Pick Items](../pick-items.md)   
  [Perform Material Requirements Planning](../perform-material-requirements-planning.md)   
  [Design Products](../design-products.md)   
- [Working with Product Name](../working-with-$-p_1-product-name-$-.md)
+ [Working with Product Name](../../../archive/WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)

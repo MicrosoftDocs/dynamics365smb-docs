@@ -64,6 +64,6 @@ The sorting function makes it easy for you to get a quick overview of your data.
 2.  On the sales order, choose the **Lines** FastTab, choose any column to sort on, right-click the column header, and select **Sort ascending** or **Sort descending**.  
   
 ## See Also  
- [How to: Set Filters](../FullExperience/how-to-set-filters.md)   
- [Working with Product Name](../FullExperience/working-with-$-p_1-product-name-$-.md)   
- [Keyboard Shortcuts](../FullExperience/keyboard-shortcuts.md)
+ [How to: Set Filters](../../../archive/WorkingWithDynamics/how-to-set-filters.md)   
+ [Working with Product Name](../../../archive/WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)   
+ [Keyboard Shortcuts](../../../archive/WorkingWithDynamics/keyboard-shortcuts.md)

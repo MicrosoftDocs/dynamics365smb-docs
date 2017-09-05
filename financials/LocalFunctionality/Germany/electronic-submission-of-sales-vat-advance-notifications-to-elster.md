@@ -21,12 +21,12 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can electronically submit ta
 ## Sales VAT Advance Notifications  
  [!INCLUDE[d365fin](includes/d365fin_md.md)] creates an XML document containing tax and base amounts, along with company information. You can validate the data before submitting it to the tax authorities. You can set up the XML document using the layout that is defined in the tax authorities' style sheet. You can then transmit the XML document to the tax authorities' Elektronische Steuererklärungen (ELSTER) online portal interface.  
   
- You must first set up ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-create-and-submit-sales-vat-advance-notifications.md).  
+ You must first set up ADD INCLUDE<!--[!INCLUDE[navnow](how-to-create-and-submit-sales-vat-advance-notifications.md).  
   
  The tax authorities' server processes the submitted XML document, and sends an XML document in response. This response document displays codes and descriptions for errors that occurred during the processing of the submitted XML document. The XML documents are encrypted during transmission. For more information, see the [ELSTER online portal](http://go.microsoft.com/fwlink/?LinkId=155998).  
   
 ## Architectural Overview  
- ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/elster-transmission-overview.md).  
+ ADD INCLUDE<!--[!INCLUDE[navnow](elster-transmission-overview.md).  
   
  The ELSTER portal has requirements for computers that will submit documents. This ../../includes a software certificate that you must acquire for each user who will submit documents to ELSTER. You must verify your installation against the information that is available on [ELSTER online portal](http://go.microsoft.com/fwlink/?LinkId=155998). The following section describes installation considerations for your [!INCLUDE[d365fin](includes/d365fin_md.md)] implementation.  
   
@@ -67,7 +67,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can electronically submit ta
 ### Transmissions  
  In the Sales VAT Adv. Notification List window, you can create and submit sales VAT advance notifications. When you create a document, you can preview it before submitting it to the ELSTER portal. The documents that are created are based on the XML stylesheets that are published at the ELSTER portal, and on the certificate and other information that you have set up in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
   
- After you have submitted a document to ELSTER, an entry is made in the **VAT Transmission Log Entries** window. When the ELSTER online portal processed the submitted document, errors can occur, and ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/elster-transmission-overview.md).  
+ After you have submitted a document to ELSTER, an entry is made in the **VAT Transmission Log Entries** window. When the ELSTER online portal processed the submitted document, errors can occur, and ADD INCLUDE<!--[!INCLUDE[navnow](elster-transmission-overview.md).  
   
 ## See Also  
  [How to: Set Up Sales VAT Advance Notifications for ELSTER](how-to-set-up-sales-vat-advance-notifications-for-elster.md)   

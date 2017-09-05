@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Business edition  and Power BI Content Packs| Microsoft Docs
+title: Dynamics 365 Business edition and Power BI Content Packs| Microsoft Docs
 description: Getting insight, business intelligence, and KPIs from your Dynamics 365 data is easy with Power BI and the Dynamics 365 content packs.
 author: edupont04
 

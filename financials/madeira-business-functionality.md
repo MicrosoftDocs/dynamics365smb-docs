@@ -15,7 +15,7 @@ ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---
-# Overview of Business Functionality
+# Overview of Business Functionality in Dynamics 365 for Finance and Operations, Business edition
 [!INCLUDE[d365fin](includes/d365fin_md.md)] provides functionality for common business processes in small and mid-sized companies, mainly within wholesale and professional services.
 
 The Sales, Purchasing, and Inventory application areas also support common supply chain processes, although limited to the needs of wholesale and distribution companies without managed warehouse handling. For more information, see .

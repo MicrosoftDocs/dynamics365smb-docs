@@ -1,8 +1,6 @@
 ---
 title: Cancelling Dynamics 365 Business edition | Microsoft Docs
-description: Describes how to remove or delete your Dynamics 365 Business edition  experience.
-services: project-madeira
-documentationcenter: ''
+description: Describes how to remove or delete your Dynamics 365 Business edition experience.
 author: edupont04
 
 ms.service: dynamics365-financials
@@ -15,7 +13,7 @@ ms.date: 06/02/2017
 ms.author: edupont
 
 ---
-# Unsubscribe, Remove, or Reset [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# Unsubscribe, Remove, or Reset [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 When you have signed up for [!INCLUDE[d365fin](includes/d365fin_md.md)], you can choose to cancel your subscription at any time. Similarly, you can choose to reset the company that you can been using in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For a quick overview, see [the [!INCLUDE[d365fin](includes/d365fin_md.md)] blog](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel).  
 
 ## Unsubscribing by removing [!INCLUDE[d365fin](includes/d365fin_md.md)] from your Office 365 experience

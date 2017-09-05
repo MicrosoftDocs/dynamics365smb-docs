@@ -80,7 +80,7 @@ In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, there are 
 -   If you enter 12/4, the field is calculated to 3.  
   
 ## See Also  
- [How to: Set Filters](../FullExperience/how-to-set-filters.md)   
- [Sorting](../FullExperience/sorting.md)   
- [How to: Enter Dates and Times](../FullExperience/how-to-enter-dates-and-times.md)   
- [Keyboard Shortcuts](../FullExperience/keyboard-shortcuts.md)
+ [How to: Set Filters](../../../archive/WorkingWithDynamics/how-to-set-filters.md)   
+ [Sorting](sorting.md)   
+ [How to: Enter Dates and Times](how-to-enter-dates-and-times.md)   
+ [Keyboard Shortcuts](../../../archive/WorkingWithDynamics/keyboard-shortcuts.md)

@@ -67,4 +67,4 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can archive documents and tr
  [How to: Create an Order from an Archived Blanket Order](how-to-create-an-order-from-an-archived-blanket-order.md)   
  [How to: Delete Archived Blanket Orders](how-to-delete-archived-blanket-orders.md)   
  [How to: Track Document Lines](how-to-track-document-lines.md)   
- [Germany Local Functionality](germany-local-functionality.md)
+ [Germany Local Functionality](../Germany/germany-local-functionality.md)

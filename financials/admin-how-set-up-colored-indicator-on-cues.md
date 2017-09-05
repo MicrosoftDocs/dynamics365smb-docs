@@ -64,4 +64,4 @@ To set up the indicator, you specify up to two threshold values that define thre
     |**Subordinate**|Gray|  
   
 ## See Also  
- [How to: Set Up a Colored Indicator on Cues of Your Workspace](ui-how-setup-Colored-Indicator-cues.md)  
+ [How to: Set Up a Colored Indicator on Cues of Your Workspace](ui-how-setup-colored-indicator-cues.md)  

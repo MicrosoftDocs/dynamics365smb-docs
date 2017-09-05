@@ -120,9 +120,9 @@ The following table provides a simplified overview of the XML of a custom XML pa
 -   The language of the label that is displayed when you run the report depends on the language setting of the report object. For more information, see [Multiple Document Languages](../FullExperience/Viewing%20the%20Application%20in%20Different%20Languages.md).  
   
 ## See Also  
- [Custom XML Part Overview for Word Report Layouts](../FullExperience/custom-xml-part-overview-for-word-report-layouts.md)   
- [Managing Report Layouts From the Microsoft Dynamics NAV Clients](../FullExperience/managing-report-layouts-from-the-microsoft-dynamics-nav-clients.md)   
- [About Report Layouts](../FullExperience/about-report-layouts.md)   
- [How to: Create a Custom Report Layout](../FullExperience/how-to-create-a-custom-report-layout.md)   
+ [Custom XML Part Overview for Word Report Layouts](../archive/WorkingWithDynamics/custom-xml-part-overview-for-word-report-layouts.md)   
+ [Managing Report Layouts From the Microsoft Dynamics NAV Clients](../archive/WorkingWithDynamics/managing-report-layouts-from-the-microsoft-dynamics-nav-clients.md)   
+ [About Report Layouts](../archive/WorkingWithDynamics/about-report-layouts.md)   
+ [How to: Create a Custom Report Layout](../archive/WorkingWithDynamics/how-to-create-a-custom-report-layout.md)   
  [How to: Add Fields to a Word Layout](../FullExperience/how-to-add-fields-to-a-word-report-layout.md)   
- [How to: Modify a Custom Report Layout](../FullExperience/how-to-modify-a-custom-report-layout.md)
+ [How to: Modify a Custom Report Layout](../archive/WorkingWithDynamics/how-to-modify-a-custom-report-layout.md)

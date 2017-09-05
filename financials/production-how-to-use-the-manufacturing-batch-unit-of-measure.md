@@ -45,7 +45,7 @@ On the **Lines** FastTab, choose the **Line** action, and then choose the **Comp
 [How to: Create Routings](production-how-to-create-routings.md)
 [How to: Create Production BOMs](production-how-to-create-production-boms.md)     
 [Setting Up Manufacturing](production-configure-production-processes.md)  
-[Manufacturing](production-production.md)    
+[Manufacturing](production-manage-manufacturing.md)    
 [Planning](planning.md)   
 [Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  

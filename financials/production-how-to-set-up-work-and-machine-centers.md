@@ -33,7 +33,7 @@ The following primarily describes how to set up a work center. The steps to set 
 2.  Choose the **New** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  In the **Work Center Group** field, select the higher-level resource grouping that the work center is organized under, if relevant. Choose the **New** action in the drop-down list.  
-5.  Select the **Blocked** field if you want to prevent the work center from being used in any processing. This means that output cannot be posted for an item that is produced at the work center. For more information, see [How to: Post Production Output](production-how-to-post-output-quantity.md).
+5.  Select the **Blocked** field if you want to prevent the work center from being used in any processing. This means that output cannot be posted for an item that is produced at the work center. For more information, see [How to: Post Production Output](FullExperience/Production/production-how-to-post-output-quantity.md).
 6.  In the **Direct Unit Cost** field, enter the cost of producing one unit of measure at this work center, excluding any other cost elements. This cost is often referred to as the *direct labor rate*.  
 7.  In the **Indirect Cost %** field, enter the general operation costs of using the work center as a percentage of the direct unit cost. This percentage amount is added to the direct cost in the calculation of the unit cost.  
 8.  In the **Overhead Rate** field, enter any non-operational costs, for example maintenance expenses, of the work center as an absolute amount.  
@@ -79,7 +79,7 @@ If capacities of work centers are to make no contribution to the total capacity,
 ## See Also  
 [How to: Create Shop Calendars](production-how-to-create-work-center-calendars.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
-[Manufacturing](production-production.md)    
+[Manufacturing](production-manage-manufacturing.md)    
 [Planning](planning.md)   
 [Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  

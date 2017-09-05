@@ -47,7 +47,7 @@ Some areas require you to be an administrator in your [!INCLUDE[d365fin](include
 [Project Management](projects-manage-projects.md)
 [Fixed Assets](fa-manage.md)    
 [Assembly Management](assembly-assemble-items.md)  
-[Manufacturing](production-production.md)  
+[Manufacturing](production-manage-manufacturing.md)  
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Setup and Administration in Dynamics 365 for Financials](admin-setup-and-administration.md)  

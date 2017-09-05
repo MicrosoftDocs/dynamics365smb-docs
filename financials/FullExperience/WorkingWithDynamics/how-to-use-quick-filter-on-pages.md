@@ -41,7 +41,7 @@ You can add filters to all pages, either by using the Quick Filter or the Advanc
 > [!NOTE]  
 >  You cannot use a ***** when filtering on enumeration fields, such as the **Status** field on sales orders. To enter a filter for this type of field, you can enter the numeric value as a filtering parameter. For example, in the **Status** field on a sales order that has the values **Open**, **Released**, **Pending Approval**, and **Pending Prepayment**, use the values **0**, **1**, **2**, and **3** to filter for these options.  
   
- For more information about filter criteria, see [Enter Criteria in Filters](../FullExperience/enter-criteria-in-filters.md).  
+ For more information about filter criteria, see [Enter Criteria in Filters](../../../archive/WorkingWithDynamics/enter-criteria-in-filters.md).  
   
 ### To use Quick Filter on pages  
   

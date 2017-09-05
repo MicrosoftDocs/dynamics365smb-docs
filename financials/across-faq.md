@@ -47,4 +47,4 @@ Did you read about a new capability in the roadmap or on our blog recently? In t
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as Your Business Inbox in Outlook](madeira-outlook.md)  
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] without Outlook](madeira-no-outlook.md)  
 [How to: Change the Role Center](change-role.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  

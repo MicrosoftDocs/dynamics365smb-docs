@@ -44,7 +44,7 @@ Use the menu bar to:
 
 
 ## Saving a Report
-You can save a report to a PDF document, Microsoft Word document, or Microsoft Excel document by choosing **Send to**, and then making your selection. 
+You can save a report to a PDF document, Microsoft Word document, or Microsoft Excel document by choosing **Send to**, and then making your selection.
 
 ## <a name="ScheduleReport"></a> Scheduling a Report to Run
 You can schedule a report to run at a specific date and time. Scheduled reports are entered in the job queue and processed at the scheduled time, similar to other jobs. You can choose to save the processed report to a file, such as an Excel, Word, or PDF, print it to a selected printer, or process the report only. If you choose to save the report to a file, then the processed report is sent to the **Report Inbox** area on your Home page, where you can view it.
@@ -64,4 +64,4 @@ The saved settings entry called **Last used options and filters** is always avai
 
 ## See Also
 [Specify Printer Selection for Reports](ui-specify-printer-selection-reports.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)

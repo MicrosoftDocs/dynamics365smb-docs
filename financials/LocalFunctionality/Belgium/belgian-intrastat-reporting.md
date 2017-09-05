@@ -25,7 +25,7 @@ Companies in the European Union (EU) are required to report trade with other cou
  To determine the type of declaration that you should use, visit the [National Bank of Belgium](http://go.microsoft.com/fwlink/?LinkId=163064) Web site.  
   
 ## Submitting the Intrastat Report  
- In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-export-intrastat-third-party-declararations.md).  
+ In ADD INCLUDE<!--[!INCLUDE[navnow](how-to-export-intrastat-third-party-declararations.md).  
   
 ## See Also  
  [Belgium Local Functionality](belgium-local-functionality.md)   

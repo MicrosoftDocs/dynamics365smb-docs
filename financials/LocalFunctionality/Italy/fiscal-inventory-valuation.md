@@ -31,7 +31,7 @@ You must submit an annual report that shows the monetary value of inventory item
 ## Fiscal Inventory Valuation in [!INCLUDE[d365fin](includes/d365fin_md.md)]  
  Initially, you must set up the fiscal inventory valuation for all cost types in the **Item Costing Setup** window and the **Item Card** window. For more information, see [How to: Set Up Fiscal Inventory Valuation](how-to-set-up-fiscal-inventory-valuation.md).  
   
- When you set up ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-set-up-initial-item-costs.md).  
+ When you set up ADD INCLUDE<!--[!INCLUDE[navnow](how-to-set-up-initial-item-costs.md).  
   
  To calculate discrete LIFO cost, you must set up information in the **Item Card** window and the **Subcontracting Prices** window.  
   

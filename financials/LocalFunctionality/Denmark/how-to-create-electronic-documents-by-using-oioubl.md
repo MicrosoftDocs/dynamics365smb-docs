@@ -1,6 +1,6 @@
 ---
     title: How to Create Electronic Documents by Using OIOUBL | Microsoft Docs
-    description: When you sell goods or services to a customer in the public sector, you must submit documents electronically. In ADD INCLUDE<!--[!INCLUDE[navnow](includes/how-to-set-up-customers-for-oioubl.md).
+    description: When you sell goods or services to a customer in the public sector, you must submit documents electronically. In ADD INCLUDE<!--[!INCLUDE[navnow](how-to-set-up-customers-for-oioubl.md).
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # How to: Create Electronic Documents by Using OIOUBL
-When you sell goods or services to a customer in the public sector, you must submit documents electronically. In ADD INCLUDE<!--[!INCLUDE[navnow](includes/how-to-set-up-customers-for-oioubl.md).  
+When you sell goods or services to a customer in the public sector, you must submit documents electronically. In ADD INCLUDE<!--[!INCLUDE[navnow](how-to-set-up-customers-for-oioubl.md).  
   
 ## Creating Electronic Documents  
  Electronic documents can only be created after a document has been posted or issued. The following sections describe how to post a sales invoice with the required information and then create an electronic sales invoice, but the same procedure applies to sales credit memos, reminders, finance charge memos, service invoices, and service credit memos.  

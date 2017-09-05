@@ -23,4 +23,4 @@ You can reallocate the amount in one general ledger account to other general led
  The net changes or balances of the accounts in the **Allocation** window determine the allocation percentage calculated.  
   
 ## See Also  
- [Australia Local Functionality](australia-local-functionality.md)
+ [Australia Local Functionality](../Australia/australia-local-functionality.md)

@@ -108,7 +108,7 @@ When the purchase is posted as received, then an output journal entry is automat
  When the purchase order is posted as invoiced, then the direct cost of the purchase order is posted to the production.  
 
 ## See Also  
-[How to: Subcontract Manufacturing](production-how-to-subcontract-manufacturing.md)  
+[How to: Subcontract Manufacturing]()  
 [Setting Up Manufacturing](production-configure-production-processes.md)
 [Manufacturing](production-production.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

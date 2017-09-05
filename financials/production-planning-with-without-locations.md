@@ -148,4 +148,4 @@ The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* r
  Location Mandatory   
  Components at Location   
  [Design Details: Supply Planning](design-details-supply-planning.md)   
- [Setup Best Practices: Supply Planning](../setup-best-practices-supply-planning.md)
+ [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)

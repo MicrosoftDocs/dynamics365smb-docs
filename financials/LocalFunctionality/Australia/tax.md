@@ -30,5 +30,5 @@
 [How to: Print Goods and Services Tax Sales and Purchase Reports](how-to-print-goods-and-services-tax-sales-and-purchase-reports.md)  
 [How to: Calculate Goods and Services Tax on Prepayments](how-to-calculate-goods-and-services-tax-on-prepayments.md)  
 [How to: Adjust Settlement Exchange Rates for VAT Entries](how-to-adjust-settlement-exchange-rates-for-vat-entries.md)  
-[How to: View Posted Tax Invoices](LocalFunctionalityForMicrosoftDynamicsNav2016/how-to-view-posted-tax-invoices.md)  
-[How to: View Posted Tax Credit Memos](LocalFunctionalityForMicrosoftDynamicsNav2016/how-to-view-posted-tax-credit-memos.md)
+[How to: View Posted Tax Invoices](how-to-view-posted-tax-invoices.md)  
+[How to: View Posted Tax Credit Memos](how-to-view-posted-tax-credit-memos.md)

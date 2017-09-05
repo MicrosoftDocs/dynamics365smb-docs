@@ -116,7 +116,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can export payment journal e
 ## See Also  
  Payment Orders   
  Payment Journal   
- [Electronic Payments – AEB N34.1](electronic-payments-–-aeb-n34.1.md)   
+ [Electronic Payments – AEB N34.1](electronic-payments-%E2%80%93-aeb-n34.1.md)   
  Export Electronic Payments   
  [How to: Set Up Bank Accounts for Electronic Payments](how-to-set-up-bank-accounts-for-electronic-payments.md)   
  [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)

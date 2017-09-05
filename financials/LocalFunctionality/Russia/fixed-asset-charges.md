@@ -1,6 +1,6 @@
 ---
     title: Fixed Asset Charges | Microsoft Docs
-    description: In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-create-a-fixed-asset-charge.md).
+    description: In ADD INCLUDE<!--[!INCLUDE[navnow](how-to-create-a-fixed-asset-charge.md).
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # Fixed Asset Charges
-In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-create-a-fixed-asset-charge.md).  
+In ADD INCLUDE<!--[!INCLUDE[navnow](how-to-create-a-fixed-asset-charge.md).  
   
  You can change the fixed asset acquisition cost in the following scenarios:  
   

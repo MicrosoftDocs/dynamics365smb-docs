@@ -30,7 +30,7 @@ In the electronic banking module in ADD INCLUDE<!--[!INCLUDE[nav_current_short](
 > [!NOTE]  
 >  Credit memos cannot be processed separately because payments must not have a negative balance. To process a credit memo, the credit memo must be added to one or more invoices by summarizing payments.  
   
- Before you can make electronic payments, you must set up use electronic banking in ADD INCLUDE<!--[!INCLUDE[nav_current_short](../../includes/how-to-set-up-electronic-banking.md).  
+ Before you can make electronic payments, you must set up use electronic banking in ADD INCLUDE<!--[!INCLUDE[nav_current_short](how-to-set-up-electronic-banking.md).  
   
 ## Correcting Payment Lines  
  You must correct all errors before you can post the electronic payment lines. You can correct payment lines in the following ways.  

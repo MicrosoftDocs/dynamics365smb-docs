@@ -48,6 +48,6 @@ You can import and export an existing custom report layout as a file to and from
  The original custom report layout is replaced with the imported report layout.  
   
 ## See Also  
- [How to: Create and Modify a Custom Report Layout](how-to-create-a-custom-report-layout.md)   
+ [How to: Create and Modify a Custom Report Layout](../archive/WorkingWithDynamics/how-to-create-a-custom-report-layout.md)   
  [Managing Report and Document Layouts](ui-manage-report-layouts.md)  
  [Working with Reports](ui-work-report.md)    

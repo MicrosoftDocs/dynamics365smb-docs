@@ -30,4 +30,4 @@ You can use the shortcut menu to copy and paste rows from ADD INCLUDE<!--[!INCLU
     >  You paste rows directly where your cursor is located. If you paste into an empty line, any existing subsequent lines will be moved after the pasted lines. If you paste into an existing line or lines, this will be overwritten.  
   
 ## See Also  
- [Working with Product Name](../FullExperience/working-with-$-p_1-product-name-$-.md)
+ [Working with Product Name](../../../archive/WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)

@@ -122,7 +122,7 @@ In the **Warehouse Receipt** window, you can manage multiple inbound orders for 
 7.  Choose the **Modify** action.  
 8.  On the **Purchase** FastTab, in the **Buy-from Vendor No. Filter** field, enter **10000&#124;20000**.  
 
-    The &#124; symbol is the filter criterion for “either/or”. For more information, see [Enter Criteria in Filters](FullExperience/WorkingWithDynamics/enter-criteria-in-filters.md).  
+    The &#124; symbol is the filter criterion for “either/or”. For more information, see [Enter Criteria in Filters](../archive/WorkingWithDynamics/enter-criteria-in-filters.md).  
 
 9. Choose the **Run** action. The warehouse receipt is filled with four lines representing purchase order lines for the specified vendors. The **Qty. to Receive** field is filled because you did not select the **Do not Fill Qty. to Handle** check box in the **Filters to Get Source Docs.** window.  
 10. Optionally, if you want to use a filter as described earlier in this section, choose the **Get Source Document** action, and then select purchase orders from the vendors in question.  

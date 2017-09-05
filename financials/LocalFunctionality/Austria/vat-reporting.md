@@ -28,7 +28,7 @@ You can report VAT electronically to the tax authorities. You can generate, elec
 |**VAT Statement Schedule**|This report can be retrieved from the **VAT Statement** form.<br /><br /> Prints the settings in the VAT statement. Using this report, you can print the characteristics of the **Sales VAT Adv. Not. Acc. Proof**.|  
   
 ## See Also  
- [How to: Print VAT Reports](how-to-print-vat-reports.md)   
+ [How to: Print VAT Reports](../UnitedKingdom/how-to-print-vat-reports.md)   
  VAT Statement Line   
  [How to: Correct VAT](how-to-correct-vat.md)   
  VAT Statement AT   
@@ -36,4 +36,4 @@ You can report VAT electronically to the tax authorities. You can generate, elec
  Sales VAT Adv. Not. Acc. Proof   
  VAT Statement Schedule   
  VAT Statement Schedule   
- [How to: Set Up Reports for VAT and Intrastat](how-to-set-up-reports-for-vat-and-intrastat.md)
+ [How to: Set Up Reports for VAT and Intrastat](../Germany/how-to-set-up-reports-for-vat-and-intrastat.md)

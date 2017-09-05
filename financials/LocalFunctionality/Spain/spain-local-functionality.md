@@ -22,7 +22,7 @@ The following topics describe the local functionality in the Spanish version of 
  [What's New 17](what-s-new-17.md)  
   [Calculating Due Dates](calculating-due-dates.md)  
   [Cartera Module](cartera-module.md)  
-  [Electronic Payments – AEB N34.1](electronic-payments-–-aeb-n34.1.md)  
+  [Electronic Payments – AEB N34.1](electronic-payments-%E2%80%93-aeb-n34.1.md)  
   [Transaction Numbers](transaction-numbers.md)  
   [Corrective Invoices](corrective-invoices.md)  
   [How to: Enter CCC Codes](how-to-enter-ccc-codes.md)  

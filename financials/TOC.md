@@ -122,7 +122,7 @@
 ## [How to: Set up Email](madeira-how-setup-email.md)
 ## [How to: Create Number Series](ui-create-number-series.md)
 ## [How to: Set Up Extended Item Text](ui-how-define-ext-text.md)
-## [How to: Set Up Base Calendars](across-how-to-assign-base-calendars)
+## [How to: Set Up Base Calendars](across-how-to-assign-base-calendars.md)
 ## [Setting Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)
 ### [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)
 ### [Setup Best Practices: Costing Methods](setup-best-practices-costing-method.md)
@@ -282,7 +282,7 @@
 ## [How to: Plan Project Orders](production-how-to-plan-project-orders.md)
 ## [How to: Plan for New Demand Order by Order](production-how-to-plan-for-new-demand.md)
 ## [How to: Run Full Planning, MPS or MRP](production-how-to-run-mps-and-mrp.md)
-## [How to: Replan or Refresh Production Orders Directly](Replan or Refresh Production Order Directly.md)
+## [How to: Replan or Refresh Production Orders Directly](production-how-to-replan-refresh-production-orders.md)
 ## [How to: Track Relations Between Demand and Supply](production-track-demand-supply.md)
 ## [How to: Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)
 

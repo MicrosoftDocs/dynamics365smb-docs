@@ -1,5 +1,5 @@
 ---
-title: Defining Search Criteria in Filters | Microsoft Docs
+title: Searching Data and Entering Filter Criteria | Microsoft Docs
 description: Describes how to work with filters, such as the Quick Filter, to refine the results you get when you search for data.
 services: project-madeira
 documentationcenter: ''
@@ -15,10 +15,12 @@ ms.date: 03/29/2017
 ms.author: solsen
 
 ---
-# Entering Criteria in Filters
-When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results.
+# Searching, Filtering, and Sorting Data
+There are a few things that you can do that will help you find, pinpoint, and scan records in a list. These include searching, filtering, and sorting.
 
-## Searching using the Quick Filter
+When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
+
+## Searching by Using the Quick Filter
 You can add filters to all pages by using the Quick Filter. The Quick Filter is enabled by choosing the magnifier icon in the top right corner of a page. This filtering type is used for a fast entry of criteria.
 
 > [!IMPORTANT]  
@@ -68,7 +70,14 @@ You can add filters to all pages by using the Quick Filter. The Quick Filter is 
 </TABLE>
 
 > [!NOTE]  
->   You cannot use a wildcard when filtering on enumeration fields, such as the **Status** field on sales orders. To enter a filter for this type of field, you can enter the numeric value as a filtering parameter. For example, in the **Status** field on a sales order that has the values **Open**, **Released**, **Pending Approval**, and **Pending Prepayment**, use the values **0**, **1**, **2**, and **3** to filter for these options.  
+>   You cannot use a wildcard when filtering on enumeration fields, such as the **Status** field on sales orders. To enter a filter for this type of field, you can enter the numeric value as a filtering parameter. For example, in the **Status** field on a sales order that has the values **Open**, **Released**, **Pending Approval**, and **Pending Prepayment**, use the values **0**, **1**, **2**, and **3** to filter for these options. 
+
+## Searching by Using Column Filters
+You can use add a filter on one or more columns in a list. Before you add a filter, choose to change to the list view.  To add a filter, choose the downwards arrow in the column heading, and then choose **Filter**.  
+
+> [!NOTE]
+ 
+
 
 ## See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

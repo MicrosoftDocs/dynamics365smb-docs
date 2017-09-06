@@ -25,6 +25,9 @@ In the **Work Center Card** and **Machine Center Card** windows, you can view th
 Use the **View by** and **View as** fields on the **Options** FastTab to select the required period.  
 
 ## See Also  
- [Structure of the Capacity](../structure-of-the-capacity.md)   
- [How to: Display the Load on Machine Centers](../how-to-display-the-load-on-machine-centers.md)   
- [How to: Set Up Work Centers](../how-to-set-up-work-centers.md)
+[Manufacturing](production-manage-manufacturing.md)    
+[Setting Up Manufacturing](production-configure-production-processes.md)  
+[Planning](production-planning.md)      
+[Inventory](inventory-manage-inventory.md)  
+[Purchasing](purchasing-manage-purchasing.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

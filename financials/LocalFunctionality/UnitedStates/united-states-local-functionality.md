@@ -25,4 +25,7 @@ The following topics describe local functionality that is unique to the United S
   [Reporting Transactions as 1099 Liable in the US](tax-1099.md)  
   [How to: Manage Customer Credit Information](how-to-manage-customer-credit-information.md)  
   [How to: Create Deposits](how-to-create-deposits.md)  
-  [How to: Print Troubleshooting Reports](how-to-print-troubleshooting-reports.md)  
+  [How to: Print Troubleshooting Reports](how-to-print-troubleshooting-reports.md)
+
+## See Also
+  [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md  

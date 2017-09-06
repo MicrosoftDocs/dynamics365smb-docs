@@ -129,7 +129,12 @@ Making a bin dedicated provides similar functionality to using bin types, which 
 3.  Select the **Dedicated** field for each bin that you want to use exclusively for certain internal operations and where you want quantities to be reserved for that internal operation once placed there.  
 
 > [!NOTE]  
->  The bin must be empty before you can select or clear the **Dedicated** field.  
+>  The bin must be empty before you can select or clear the **Dedicated** field.
+
+## Filling the Consumption Bin
+This flow chart shows how the **Bin Code** field on production order component lines is filled according to your location setup.
+
+   ![Bin flow chart](../media/binflow.png "BinFlow")   
 
 ## See Also  
 [Warehouse Management](warehouse-manage-warehouse.md)  

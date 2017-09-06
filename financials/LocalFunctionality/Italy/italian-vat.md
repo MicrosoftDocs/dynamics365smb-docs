@@ -86,7 +86,7 @@ Companies must pay VAT to the state for most purchased goods and services. VAT c
   
  Transactions with reverse charges are not included in the VAT transaction reports. Transactions with prepayments are also not included in the VAT transaction reports.  
   
- To prepare your data for these reports, you must set up VAT posting to include VAT transaction report amounts. When a transaction such as posting a sales invoice is made that uses this VAT posting setup, ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-prepare-for-vat-transactions-reports.md).  
+ To prepare your data for these reports, you must set up VAT posting to include VAT transaction report amounts. When a transaction such as posting a sales invoice is made that uses this VAT posting setup, ADD INCLUDE<!--[!INCLUDE[navnow](how-to-prepare-for-vat-transactions-reports.md).  
   
  You must submit a VAT transactions report electronically to the tax authorities. For more information, see [How to: Create Electronic VAT Transactions Reports](how-to-create-electronic-vat-transactions-reports.md).  
   

@@ -102,6 +102,30 @@ If the resource allocated to a service task cannot accomplish the work, it means
     > 2.  If service was not started while the allocation was **Active**, the allocation status changes from **Reallocation Needed** to **Canceled**.  
     > 3.  If you are reallocating a service order that you have converted from a quote, the status of the allocation entries registered for the quote always changes to **Finished** when you reallocate the service items in the service order.  
 
+## To register resource hours  
+When working on service items in service orders, you need to register the resource hours used for the service. The following procedure shows how to register the resource hours in the **Service Item Worksheet** window.  
+  
+You can use the same procedure to register the hours in the **Service Lines** window, which you can open from the Service Order window. Open the relevant service card, and then choose **Actions**, choose **Order**, and then choose **Service Lines**.  
+
+If the same resource works on all the service items in the service order, you can register the total resource hours for one service item only and then split the resource line to assign the resource hours to the other service items.
+  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Tasks**, and then choose the related link. 
+2. Select the line that includes the relevant service item, and then choose the **Item Worksheet** action.  
+3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+## To assign a resource to all service items in an order 
+If the same resource, for example a technician, works on all the service items in the service order, you can register the total resource hours for one service item only and then split the resource line to divide the resource hours onto the resource lines for the other service items.  
+  
+The following procedure shows how to split resource lines in the **Service Invoice Lines** window.  
+  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Orders**, and then choose the related link.  
+2. Open the relevant service order.  
+3. On the **Lines** FastTab, choose **Actions**, choose **Order**, and then choose **Service Lines**. The **Service Lines** window opens.  
+4. Select the resource line you want to split. The contents of the **Quantity** field is divided between all the service items in the order.  
+5. On the **Actions** tab, choose the **Split Resource Line** action. Choose **Yes** to confirm.  
+  
+    Resource lines for the other service items in the order are created with the same resource number as the line you split. The quantity is the quantity for the line you split divided by the number of service items in the order.  
+
 ## To cancel an allocation  
 You can cancel resource allocations for service tasks without reallocating the tasks.  
   

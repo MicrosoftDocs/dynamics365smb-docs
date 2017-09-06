@@ -39,7 +39,7 @@ For each payment term, you can specify if the payment can be made in installment
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Payment %**|Specify the percentage of the total payment that this installment is for.<br /><br /> For example, if the payment must be made in one installment, specify **100**.|  
-    |**Due Date Calculation**|Specify the formula that is used to calculate the date that a payment must be made.<br /><br /> For example, if the payment must be made in one installment after two weeks, specify **14D**. For more information, see [How to: Enter Dates and Times](how-to-enter-dates-and-times.md).|  
+    |**Due Date Calculation**|Specify the formula that is used to calculate the date that a payment must be made.<br /><br /> For example, if the payment must be made in one installment after two weeks, specify **14D**. For more information, see [How to: Enter Dates and Times](../../FullExperience/WorkingWithDynamics/how-to-enter-dates-and-times.md).|  
     |**Discount Date Calculation**|Specify the formula that is used to calculate the date that a payment must be made in order to obtain a discount.|  
     |**Discount %**|Specify the discount percentage that is applied for early payment of an invoice amount.|  
   

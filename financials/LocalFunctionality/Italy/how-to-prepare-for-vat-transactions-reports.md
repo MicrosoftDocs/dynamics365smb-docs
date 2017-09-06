@@ -99,7 +99,7 @@ You must submit periodic reports to the tax authorities to list all transactions
     |**Tax Representative Type**|Specifies if the tax representative is a customer or a contact. You must set this field to **Contact**.|  
     |**Tax Representative No.**|Specify the contact that is the tax representative for this customer.|  
   
- You have set up information so that ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-create-electronic-vat-transactions-reports.md).  
+ You have set up information so that ADD INCLUDE<!--[!INCLUDE[navnow](how-to-create-electronic-vat-transactions-reports.md).  
   
 ## See Also  
  [How to: Update VAT Transactions Data](how-to-update-vat-transactions-data.md)   

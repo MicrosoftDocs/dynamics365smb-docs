@@ -9,11 +9,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 08/24/2017
+ms.date: 09/05/2017
 ms.author: edupont
 
 ---
-# Accountant Experiences in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# Accountant Experiences in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Any business must do its books and sign off on the accounting. Some businesses employ an external accountant, and others have an accountant on staff. No matter which type of accountant you are, you can use the **Accountant** Role Center as your Home in [!INCLUDE[d365fin](includes/d365fin_md.md)]. From here, you can access all windows that you need in your work.  
 
 ## Accountant Role Center

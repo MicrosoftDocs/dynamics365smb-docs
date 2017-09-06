@@ -46,7 +46,7 @@ Microsoft provides the following extensions:
 
 * [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)  
 * [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)  
-* [Microsoft Wallet](ui-extensions-microsoft-wallet-payments.md)
+* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
 * [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)  
 * [QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)  
 * [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)  

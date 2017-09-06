@@ -35,10 +35,10 @@ The following table describes a sequence of tasks, with links to the topics that
 |Plan the delivery of service by using the **Dispatch Board**. You can also use project management tools in the Jobs department to help in planning.|[How to: Allocate Resources](service-how-to-allocate-resources.md)|  
 |Deliver service to customers by performing service tasks.|[How to: Work on Service Tasks](service-how-to-work-on-service-tasks.md)|  
 |Post service orders for services, so that your accounting is up-to-date.|[How to: Post Service Orders and Credit Memos](service-how-to-post-service-orders.md)|  
-|Create and post invoices for services that you have delivered.|[How to: Invoice Customers for Services](service-how-create-invoices.md)|  
+|Create and post invoices for services that you have delivered.|[How to: Create Service Invoices or Credit Memos](service-how-create-invoices.md)|  
 |Keep customers happy by lending them an item while you work on theirs.| [How to: Lend and Receive Loaner Items](service-how-to-lend-receive-loaners.md)|
   
 ## See Also  
-## [Planning Service](service-plan-service.md)
-## [Fulfilling Service Contracts](service-fulfill-service-contracts.md)
-[Managing Projects](projects-manage-projects.md)
+[Planning Service](service-plan-service.md)  
+[Fulfilling Service Contracts](service-fulfill-service-contracts.md)  
+[Managing Projects](projects-manage-projects.md)  

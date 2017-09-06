@@ -66,6 +66,6 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can add comments to customer
   
 ## See Also  
  Customer - Order Summary   
- [United States Local Functionality](united-states-local-functionality.md)   
- [Canada Local Functionality](canada-local-functionality.md)   
+ [United States Local Functionality](../UnitedStates/united-states-local-functionality.md)   
+ [Canada Local Functionality](../Canada/canada-local-functionality.md)   
  [Mexico Local Functionality](mexico-local-functionality.md)

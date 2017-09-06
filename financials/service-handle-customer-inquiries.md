@@ -29,6 +29,6 @@ A service management application must interface with a customer request for serv
 |Set up and fine-tune pricing details on service items.|[Set Service Pricing](../set-service-pricing.md)|  
   
 ## See Also  
-[Loaner](../working-with-$-p_1-product-name-$-.md)
+[Loaner](../archive/WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)
 [How to: Set Up Service Orders](service-setup-service-orders)    
  

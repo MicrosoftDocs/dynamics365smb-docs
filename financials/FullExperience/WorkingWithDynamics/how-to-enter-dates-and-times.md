@@ -194,5 +194,5 @@ You can enter dates and times in all the fields that are specifically assigned t
 >  If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, a 1W means seven working days. For more information, see Base Calendar Card.  
   
 ## See Also  
- [Working with Product Name](../FullExperience/working-with-$-p_1-product-name-$-.md)   
+ [Working with Product Name](../../../archive/WorkingWithDynamics/working-with-$-p_1-product-name-$-.md)   
  Shipping Time

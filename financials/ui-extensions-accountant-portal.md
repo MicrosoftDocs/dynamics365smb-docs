@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, accountant
-ms.date: 07/03/2017
+ms.date: 09/05/2017
 ms.author: edupont
 
 ---
@@ -28,6 +28,9 @@ For more information, see [Accountant Experiences in Dynamics 365 Business editi
 
 > [!NOTE]  
 >  The current version of the extension requires that your clients use [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+
+## Using the extension
+This extension is used when you sign up at [Financials for Accountants on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants). If you install the extension in your [!INCLUDE[d365fin](includes/d365fin_md.md)], it will replace your current Role Center. If you then want to return to the other Role Center, then you can do that in My Settings. For more information, see [How to: Change the Role Center](change-role.md).  
 
 ## See Also
 [Accountant Experiences in Dynamics 365 Business edition ](finance-accounting.md)  

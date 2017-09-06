@@ -15,7 +15,6 @@ ms.date: 08/16/2017
 ms.author: sgroespe
 
 ---
-[!INCLUDE[d365fin](includes/advanced_experience_md.md)]
 # How to: Create Reports with XBRL
 XBRL, which stands for eXtensible Business Reporting Language, is an XML-based language for tagging financial data, and enabling businesses to efficiently and accurately process and share their data. The XBRL initiative enables global financial reporting by numerous ERP software companies and international accounting organizations. The goal of the initiative is to provide a standard for the uniform reporting of financial information for banks, investors, and government authorities. Such business reporting can include:  
 
@@ -103,6 +102,6 @@ When a taxonomy changes you need to update the current taxonomy accordingly. The
 7.  Choose the **Yes** button to apply the linkbase to the schema.  
 
 ## See Also
-[Finance](../finance.md)    
-[Business Intelligence](../bi.md)  
+[Finance](finance.md)    
+[Business Intelligence](bi.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)

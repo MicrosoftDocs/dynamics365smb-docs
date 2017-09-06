@@ -48,7 +48,7 @@ When a repair status of a service item is changed, the service order status opti
   
 You must decide which service order status contains the most important information about the status of the service order and assign that status the highest priority, and so on.  
   
-## Example  
+### Example  
 A typical priority level assignment could be as follows:  
   
 * In Process - High  

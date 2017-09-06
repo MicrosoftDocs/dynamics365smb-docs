@@ -21,14 +21,15 @@ In Service Management, the term "service item" refers to equipment or items that
 When you receive an item that needs service, you can register it as a service item. There are sevaral ways to do so. For example, you can create a service item on the **Service Items** page, or as part of another process, such as when working with a service order.   
   
 ## To create a service item  
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Items**, and then choose the related link. 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Items**, and then choose the related link.
+2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
   
 ## To create service items within a service order  
 When you receive items for service that you want to register as service items, you can create them as service items in the **Service Order** or **Service Quote** windows.  
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Orders**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-6. Choose the **Create Service Item** action.  
+3. Choose the **Create Service Item** action.  
   
     A number is assigned to the service item and a service item card is created. The **Service Item No.** field is filled in with the number of the new service item.
 
@@ -51,8 +52,8 @@ The following procedure shows how to create service items when you ship items on
 ## To insert a starting fee for a service item
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Tasks**, and then choose the related link. 
 2. Choose the **Item Worksheet** action.
-3. Choose the service line, and then choose **Actions**, choose **Functions**, and then choose **Insert Starting Fee** action.
-
+3. Choose the service line, and then choose **Actions**, choose **Functions**, and then choose **Insert Starting Fee** action.  
+  
     A service line of type **Cost** is inserted with the starting fee. The starting fee applies to the selected service item.
 
 ## See Also  

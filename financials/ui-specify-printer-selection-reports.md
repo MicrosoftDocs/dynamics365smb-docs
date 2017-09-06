@@ -18,7 +18,7 @@ ms.author: solsen
 # Specify Printer Selection for Reports
 This page is empty because you cannot yet set up specific printers for specific reports. We are working on solving this.
 
-In the meantime, when you want to print a report you have to download the report as a PDF document first by choosing the **Send to** button. Then you select the type of file to download the report as, and here you should pick **PDF Document**. Now, you can either open the PDF document right-away and print it, or save it and print it later.
+In the meantime, when you want to print a report, you have to download the report as a PDF document first by choosing the **Send to** button. Then you select the type of file to download the report as, and here you should pick **PDF Document**. Now, you can either open the PDF document right-away and print it, or save it and print it later.
 
 <!--
 

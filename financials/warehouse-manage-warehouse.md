@@ -15,7 +15,6 @@
     ms.author: sgroespe
 
 ---
-[!INCLUDE[d365fin](includes/advanced_experience_md.md)]
 # Warehouse Management
 After goods are received and before goods are shipped, a series of internal warehouse activities take place to ensure an effective flow through the warehouse and to organize and maintain company inventories.
 

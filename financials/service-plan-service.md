@@ -16,9 +16,9 @@ ms.author: bholtorf
 
 ---
 # Planning Services
-With [!INCLUDE[d365fin](includes/d365fin_md.md)], you can set up the standard tasks that you need to fulfill your customer service requirements. To do this, you must determine what service offerings your service organization supports. In addition, you may want to establish a framework for setting work levels for service workers.  
-  
-You can also map the skills a particular service item requires to the employees who have those skills. This makes it easy to create service orders and manage assignments. You can also manage how many hours a service typically takes, repair status, and employee work hours.  
+With [!INCLUDE[d365fin](includes/d365fin_md.md)], you can set up the standard tasks that you need to fulfill your customer service requirements. To do this, you must determine what service items and offerings your service organization supports, and at what price.   
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] also provides some statistics tools that you can use to determine how well things are going, and identify areas where you can improve.
   
 The following table describes a sequence of tasks, with links to the topics that describe them.   
   
@@ -28,6 +28,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Set up and customize service items and service groups. This includes establishing which skills a service requires and troubleshooting guidance.| [How to: Create Service Items](service-how-to-create-service-items.md)|  
 |Know how to manage the status of repairs on service orders, and how to identify their priority.|[Understanding Service Order and Repair Status](service-service-order-status-and-repair-status.md)|  
 |Understand the relationship between the status of a repair, and the effect they have on allocated resources, and vice versa.|[Understanding Allocation Status and Repair Status](service-allocation-status-and-repair-status.md)|  
+|Use statistics to analyze your service processes. | [Viewing Service Statistics](service-service-statistics.md) |
 
 ## See Also
 [Fulfilling Service Contracts](service-fulfill-service-contracts.md)  

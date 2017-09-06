@@ -82,8 +82,8 @@ You can add a filter on one or more columns in a list. Filtering on columns is m
 1.  Before you add a filter, choose ![Show as list](media/ui_show_as_list_icon.png "Show as list arrow left") icon to change to the list view.
 2. Choose the downwards arrow in the column heading, and then choose **Filter**.
 3. Do one of the following: 
-  -  Choose *...* to select a value from a list.
-  -  Enter filter criteria.
+  -  Choose *...* next to the box to select a value from a list.
+  -  Enter filter criteria in the box. See the next section for details.
 4. Choose the **OK** button.
 
 ### Entering filter criteria

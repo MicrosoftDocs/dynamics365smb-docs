@@ -76,7 +76,7 @@ You can add filters to all pages by using the Quick Filter. The Quick Filter is 
 >   You cannot use a wildcard when filtering on enumeration fields, such as the **Status** field on sales orders. To enter a filter for this type of field, you can enter the numeric value as a filtering parameter. For example, in the **Status** field on a sales order that has the values **Open**, **Released**, **Pending Approval**, and **Pending Prepayment**, use the values **0**, **1**, **2**, and **3** to filter for these options. 
 
 ## Searching by Using Column Filters
-You can use add a filter on one or more columns in a list.
+You can add a filter on one or more columns in a list. Filtering on columns is more flexible and enhanced than the Quick Filter. 
 
 ### To add a filter on a column
 1.  Before you add a filter, choose ![Show as list](media/ui_show_as_list_icon.png "Show as list arrow left") icon to change to the list view.

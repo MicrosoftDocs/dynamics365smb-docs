@@ -17,7 +17,7 @@
 # Adding Links to Websites, Documents, or Programs on Records
 On a specific record, such as a customer, document, or sales order, you can add a link to an external document, website, or program. Or, you may want a link that opens a new empty email to a specific recipient when you select it. The card page for some records, such as customer and vendor cards, include a **Home Page** field where you can enter an Internet address (URL). To include other links, you can use the method described in this article.
 
-Another example could be when you receive printed invoices from vendors. You can scan them and store them as .pdf files on a SharePoint site. Then you can make a link from a purchase invoice in [!INCLUDE[d365fin_md](d365fin_md.md)] to the corresponding invoice on  SharePoint. Or, you can make a link from an item card to the corresponding page in your vendor's online catalog.
+Another example could be when you receive printed invoices from vendors. You can scan them and store them as .pdf files on a SharePoint site. Then you can make a link from a purchase invoice in [!INCLUDE[d365fin_md](includes/d365fin_md.md)] to the corresponding invoice on  SharePoint. Or, you can make a link from an item card to the corresponding page in your vendor's online catalog.
   
 ## To add a link on a record   
   

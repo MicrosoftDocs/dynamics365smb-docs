@@ -41,7 +41,6 @@ The following table describes a sequence of tasks, with links to the topics that
 |Recalculate work or machine center calendars due to planning changes.|[How to: Set Up Work Centers and Machine Centers](production-how-to-set-up-work-and-machine-centers.md)|
 |Run the requisition worksheet to automatically create a detailed supply plan to cover demand for items that are replenished by purchase or transfer only.|Req. Worksheet|  
 |Refresh the master data requirements of a production order shown in the **Order Planning** or the **Planning Worksheet** windows.|**Refresh Planning Demand** batch job|  
-|Enable a non-demanded move between locations without involving the planning system.|[Planning with Manual Transfer Orders](production-planning-with-manual-transfer-orders.md)|
 |Exclude an existing supply order from the automatic planning run.|**Planning Flexibility** field|
 |View clear status icons and read warnings about planning lines created for exceptional events, such as violation of safety stock or crossing of a reorder point.|**Warning** field|
 |Track the order demand (tracked quantity), forecast, blanket sales order, or planning parameter (untracked quantity) that has given rise to the planning line in question.|[How to: Track Relations Between Demand and Supply](production-track-demand-supply.md)|
@@ -53,4 +52,6 @@ The following table describes a sequence of tasks, with links to the topics that
 [Manufacturing](production-manage-manufacturing.md)    
 [Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
+[Design Details: Supply Planning](design-details-supply-planning.md)   
+[Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

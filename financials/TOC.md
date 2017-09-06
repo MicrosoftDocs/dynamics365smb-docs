@@ -283,7 +283,7 @@
 ## [How to: Plan for New Demand Order by Order](production-how-to-plan-for-new-demand.md)
 ## [How to: Run Full Planning, MPS or MRP](production-how-to-run-mps-and-mrp.md)
 ## [How to: Replan or Refresh Production Orders Directly](production-how-to-replan-refresh-production-orders.md)
-## [How to: Track Relations Between Demand and Supply](production-track-demand-supply.md)
+## [How to: Track Relations Between Demand and Supply](production-how-track-demand-supply.md)
 ## [How to: Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)
 
 # [Assembly Management](assembly-assemble-items.md)
@@ -298,10 +298,14 @@
 ## [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)
 
 # [Manufacturing](production-manage-manufacturing.md)
-## How to: Communicate Production Plans
-## How to: Schedule Production Processes
-## How to: Issue Materials
-## How to: Execute Production
+## [About Production Orders](production-about-production-orders.md)
+## [How to: Register Consumption and Output for a Single Released Production Order line](production-how-to-register-consumption-and-output.md)
+## [How to: Batch Post Consumption](production-how-to-post-consumption.md)
+## [How to: Batch Post Output and Run Times](production-how-to-post-output-quantity.md)
+## [How to: Post Scrap](production-how-to-post-scrap.md)
+## [How to: View the Load in Work and Machine Centers](production-how-to-view-the-load-on-work-centers.md)
+## [How to: Post Capacities](production-how-to-post-capacities.md)
+## [About Finished Production Order Costs](production-about-finished-production-order-costs.md)
 
 # [Warehouse Management](warehouse-manage-warehouse.md)
 ## [How to: Receive Items](warehouse-how-receive-items.md)

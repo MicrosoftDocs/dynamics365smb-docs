@@ -23,8 +23,8 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], some things will be familiar to 
 For some quick, nice-to-know tricks, see:  
 
 * [Find things](ui-search.md)  
-* [Set filters](ui-enter-criteria-filters.md)  
-* [Sort data in lists](ui-sorting.md)  
+* [Searching, Filtering, and Sorting Lists](ui-enter-criteria-filters.md)  
+* [Entering Data](ui-enter-data.md)  
 
 For more information, see [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 

@@ -306,7 +306,7 @@
 ## [How to: Post Scrap](production-how-to-post-scrap.md)
 ## [How to: View the Load in Work and Machine Centers](production-how-to-view-the-load-on-work-centers.md)
 ## [How to: Post Capacities](production-how-to-post-capacities.md)
-## [About Finished Production Order Costs](production-about-finished-production-order-costs.md)
+## [About Finished Production Order Costs](finance-about-finished-production-order-costs.md)
 
 # [Warehouse Management](warehouse-manage-warehouse.md)
 ## [How to: Receive Items](warehouse-how-receive-items.md)

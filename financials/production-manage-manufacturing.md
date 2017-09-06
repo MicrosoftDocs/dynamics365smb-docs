@@ -33,7 +33,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Post the number of items produced in each finished operation which do not qualify as finished output, but as scrapped material.|[How to: Post Scrap](production-how-to-post-scrap.md)|
 |View the shop floor load as a result of planned and released production orders.|[How to: View the Load in Work and Machine Centers](production-how-to-view-the-load-on-work-centers.md)|      
 |Use the **Capacity Journal** window to post consumed capacities that are not assigned to a production order, such as maintenance work.|[How to: Post Capacities](production-how-to-post-capacities.md)|  
-|Calculate and adjust the cost of finished production items and consumed components for financial reconciliation.|[About Finished Production Order Costs](production-about-finished-production-order-costs.md)|  
+|Calculate and adjust the cost of finished production items and consumed components for financial reconciliation.|[About Finished Production Order Costs](finance-about-finished-production-order-costs.md)|  
 
 ## See Also  
 [Setting Up Manufacturing](production-configure-production-processes.md)  

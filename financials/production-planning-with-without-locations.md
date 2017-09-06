@@ -1,5 +1,5 @@
 ---
-    title: Planning W or Without Locations | Microsoft Docs
+    title: Planning With or Without Locations | Microsoft Docs
     description: Planning with or without location codes on demand lines is important to understand.
     services: project-madeira
     documentationcenter: ''
@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# Planning with-without Locations
+# Planning With or Without Locations
 Concerning planning with or without location codes on demand lines, the planning system operates in a straight forward way when:  
 
 -   demand lines always carry location codes and the system fully uses stockkeeping units, including the relevant location setup.  
@@ -59,10 +59,9 @@ See variations in the scenarios below.
 Even if the **Location Mandatory** check box is selected, the system will allow demand lines to be created without a location code – also referred to as *BLANK* location. This is a deviation for the system because it has various setup values tuned to dealing with locations (see above) and as a result, the planning engine will not create a planning line for such a demand line. If the **Location Mandatory** field is not selected but any of the location setup values exist, then that is also considered a deviation and the planning system will react by outputting the "minimal alternative":   
 The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains *Order)*, Include Inventory =  *Yes*, all other planning parameters = Empty.  
 
-See variations in the scenarios below.  
+See variations in the setup scenarios below.  
 
-## Scenarios  
-###Setup 1:  
+### Setup 1:  
 
 -   Location Mandatory = *Yes*  
 -   SKU is set up for  *RED*  
@@ -134,7 +133,8 @@ As you can see from the last scenario, the only way to get a correct result for 
 
 Therefore, if you often plan for demand at locations, it is strongly advised to use the Stockkeeping Units feature.  
 
-## See Also  
+## See Also
+[Planning](production-planning.md)    
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)    
 [Inventory](inventory-manage-inventory.md)  

@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 09/05/2017
+    ms.date: 09/06/2017
     ms.author: sgroespe
 
 ---
@@ -36,7 +36,7 @@ The planning system is driven by anticipated and actual customer demand, as well
 
 The basis of the planning routine is in the gross-to-net calculation. Net requirements drive planned order releases, which are scheduled based on the routing information (manufactured items) or the item card lead time (purchased items). Planned order release quantities are based on the planning calculation, and are affected by the parameters set on the individual item cards.  
 
-# Planning with Manual Transfer Orders
+## Planning with Manual Transfer Orders
 As you can see from the **Replenishment System** field on a SKU card, the planning system can be set up to create transfer orders to balance supply and demand across locations.  
 
 In addition to such automatic transfer orders, you may sometimes need to perform a general move of inventory quantities to another location, irrespective of existing demand. For this purpose you would manually create a transfer order for the quantity to move. To ensure that the planning system does not try to manipulate this manual transfer order, you must set the **Planning Flexibility** on the transfer line(s) to None.  
@@ -83,13 +83,56 @@ Global planning setup fields on the **Manufacturing Setup** window include:
 
 For more information, see [Design Details: Planning Parameters](design-details-planning-parameters.md)  
 
-Planning is affected by many additional factors, such as the planning horizon defined by the order and ending dates specified when you run MPS/MRP from the **Planning Worksheet** or **Order Planning** windows.  
+## Other Important Planning Fields
+### Planning Flexibility
+On most supply orders, such as production orders, you can select **Unlimited** or **None** in the **Planning Flexibility** field on the lines.
+
+This specifies whether the supply represented by the production order line is considered by the planning system when calculating action messages.
+If the field contains **Unlimited**, then the planning system includes the line when calculating action messages. If the field contains **None**, then the line is firm and unchangeable, and the planning system does not include the line when calculating action messages.
+
+### Warning
+The **Warning** information field in the **Planning Worksheet** window informs you of any planning line created for an unusual situation with a text, which the user can choose to read additional information. The following warning types exist:
+
+- Emergency
+- Exception
+- Attention
+- Emergency
+
+The emergency warning is displayed in two situations:
+
+- The inventory is negative on the planning starting date.
+- Back-dated supply or demand events exist.
+
+If an item’s inventory is negative on the planning starting date, the planning system suggests an emergency supply order for the negative quantity to arrive on the planning starting date. The warning text states the starting date and the quantity of the emergency order.
+
+Any document lines with due dates before the planning starting date are consolidated into one emergency supply order for the item to arrive on the planning starting date.
+
+#### Exception
+The exception warning is displayed if the projected available inventory drops below the safety stock quantity.
+
+The planning system will suggest a supply order to meet the demand on its due date. The warning text states the item’s safety stock quantity and the date on which it is violated.
+
+Violating the safety stock level is considered an exception because it should not occur if the reorder point has been set correctly.
+
+> [!NOTE]
+> Supply on planning lines with Exception warnings is normally not modified according to planning parameters. Instead, the planning system only suggests a supply to cover the exact demand quantity. However, you can set the planning run up to respect certain planning parameters for planning lines with certain warnings. For more information, see “Respect Planning Parameters for Exception Warnings” in Calculate Plan - Plan. Wksh.
+
+#### Attention
+The attention warning is displayed in two situations:
+
+The planning starting date is earlier than the work date.
+
+The planning line suggests to change a released purchase or production order.
+
+> [!NOTE]
+> In planning lines with warnings, the **Accept Action Message** field is not selected, because the planner is expected to further investigate these lines before carrying out the plan.
 
 ## See Also  
+[Design Details: Supply Planning](design-details-supply-planning.md)  
+[Planning](production-planning.md)   
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)    
 [Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Design Details: Supply Planning](design-details-supply-planning.md)   
 [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

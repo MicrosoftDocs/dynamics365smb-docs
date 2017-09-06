@@ -283,7 +283,7 @@
 ## [How to: Plan for New Demand Order by Order](production-how-to-plan-for-new-demand.md)
 ## [How to: Run Full Planning, MPS or MRP](production-how-to-run-mps-and-mrp.md)
 ## [How to: Replan or Refresh Production Orders Directly](production-how-to-replan-refresh-production-orders.md)
-## [How to: Track Relations Between Demand and Supply](production-track-demand-supply.md)
+## [How to: Track Relations Between Demand and Supply](production-how-track-demand-supply.md)
 ## [How to: Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)
 
 # [Assembly Management](assembly-assemble-items.md)

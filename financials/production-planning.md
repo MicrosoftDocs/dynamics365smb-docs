@@ -38,16 +38,12 @@ The following table describes a sequence of tasks, with links to the topics that
 |Use the **Planning Worksheet** window to run both the MPS and MRP options to automatically create either a high-level or detailed supply plan at all item levels.|[How to: Run Full Planning, MPS or MRP](production-how-to-run-mps-and-mrp.md)|
 |Run the requisition worksheet to automatically create a detailed supply plan to cover demand for items that are replenished by purchase or transfer only.|**Requisition Worksheet** window|  
 |Initiate or update a production order as rough-scheduled operations in the master production schedule.|[How to: Replan or Refresh Production Orders Directly](Replan or Refresh Production Order Directly.md)|
-|Recalculate work or machine center calendars due to planning changes.|[How to: Set Up Work Centers and Machine Centers](production-how-to-set-up-work-and-machine-centers.md)|
-|Run the requisition worksheet to automatically create a detailed supply plan to cover demand for items that are replenished by purchase or transfer only.|Req. Worksheet|  
-|Refresh the master data requirements of a production order shown in the **Order Planning** or the **Planning Worksheet** windows.|**Refresh Planning Demand** batch job|  
-|Exclude an existing supply order from the automatic planning run.|**Planning Flexibility** field|
-|View clear status icons and read warnings about planning lines created for exceptional events, such as violation of safety stock or crossing of a reorder point.|**Warning** field|
-|Track the order demand (tracked quantity), forecast, blanket sales order, or planning parameter (untracked quantity) that has given rise to the planning line in question.|[How to: Track Relations Between Demand and Supply](production-track-demand-supply.md)|
+|Recalculate work or machine center calendars due to planning changes.|"To calculate a work center calendar" section in [How to: Set Up Work Centers and Machine Centers](production-how-to-set-up-work-and-machine-centers.md)|
+|Track the order demand (tracked quantity), forecast, blanket sales order, or planning parameter (untracked quantity) that has given rise to the planning line in question.|[How to: Track Relations Between Demand and Supply](production-how-track-demand-supply.md)|
 |View an item's projected available inventory by different views and see which gross requirements, planned order receipts, and other events influence it over time.|[How to: View the Availability of Items](inventory-how-availability-overview.md)|  
 |Perform selected planning activities, such as changing or adding planning worksheet lines, in a graphical view of the supply plan.|[How to: Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)|
 
-## See Also  
+## See Also
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)    
 [Inventory](inventory-manage-inventory.md)  

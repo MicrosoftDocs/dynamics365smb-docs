@@ -28,7 +28,7 @@ To sort a list, you can either choose a column heading text to toggle between as
 > [!NOTE]  
 >   Sorting is not supported images, BLOB fields, FlowFilters, and fields that do not belong to a table.  
 
-## Searching by Using the Quick Filter
+## Searching by using the Quick Filter
 You can add filters to all pages by using the Quick Filter. The Quick Filter is enabled by choosing the magnifier icon in the top right corner of a page. This filtering type is used for a fast entry of criteria.
 
 > [!IMPORTANT]  
@@ -80,7 +80,7 @@ You can add filters to all pages by using the Quick Filter. The Quick Filter is 
 > [!NOTE]  
 >   You cannot use a wildcard when filtering on enumeration fields, such as the **Status** field on sales orders. To enter a filter for this type of field, you can enter the numeric value as a filtering parameter. For example, in the **Status** field on a sales order that has the values **Open**, **Released**, **Pending Approval**, and **Pending Prepayment**, use the values **0**, **1**, **2**, and **3** to filter for these options. 
 
-## Searching by Using Column Filters
+## Searching by using column Filters
 You can add a filter on one or more columns in a list. Filtering on columns is more flexible and enhanced than the Quick Filter. 
 
 ### To add a filter on a column

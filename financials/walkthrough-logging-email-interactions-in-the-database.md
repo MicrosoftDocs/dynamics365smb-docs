@@ -95,7 +95,7 @@ After you have set up public mail folders in Microsoft Outlook, you next configu
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Interaction Template Setup**, and then choose the related link.  
 2. On the **General** FastTab, in the **E-Mails** field, select a template. For this walkthrough, select **EMAIL**. Choose the **OK** button. For more information, see [Managing Interactions With Contacts](marketing-interactions.md).  
 3. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Marketing Setup**, and then choose the related link.  
-4. Expand the **E-Mail Logging** FastTab and in the **Autodiscovery E-mail Address** field, enter the email address of a user in your company who has an email account on a Microsoft Exchange Server.  
+4. Expand the **E-Mail Logging** FastTab, and in the **Autodiscovery E-mail Address** field, enter the email address of a user in your company who has an email account on a Microsoft Exchange Server.  
 5. In the **Queue Folder Path** field, choose the **AssistEdit** button. The **Exchange Public Folders** window opens.  
 6. Select a folder name for your public folder, and on the **Home** tab, choose **Get Subfolders**. Navigate to the queue folder that you created in Outlook.  
 7. In the **Storage Folder Path** field, choose the **AssistEdit** button. Navigate to the storage folder that you created in Outlook.  
@@ -107,7 +107,7 @@ To keep an email logging system running at all times, you must use it together w
 
 ### To set up Microsoft Dynamics NAV Server  
 1. Open <!--[!INCLUDE[d365fin](includes/nav_admin.md.md)]-->.  
-2. Create a new server instance called EMAIL. <!--For more information, see [How to: Create a Microsoft Dynamics NAV Server Instance](../How%20to:%20Create%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md).--> To prevent collisions with the default server port settings, set port information as follows.  
+2. Create a new server instance called EMAIL. <!--For more information, see [How to: Create a Microsoft Dynamics NAV Server Instance](../How%20to:%20Create%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md).-->To prevent collisions with the default server port settings, set port information as follows.  
 
     |Port|Setting|  
     |----------|-------------|  
@@ -119,7 +119,7 @@ To keep an email logging system running at all times, you must use it together w
      Set the Service Account. Select **User Account**, and specify the required information for user name, domain, and password. To complete this walkthrough, select the user account that you used to configure the email logging setup.  
 
 3. Choose **Edit**. On the **NAS Services** FastTab, in the **Startup Codeunit** field, enter the following parameter: *450*. In the **Company** field, enter the name of the company. The company name field is case sensitive.  
-4. Choose **Save**, and then choose the **OK** button.  
+4. Choose **Save**, and then choose **OK**.  
 
 After you set up the job queue, which is described in the following procedure, you will return to the administration tool to start the server instance.  
 
@@ -127,18 +127,18 @@ For your company, you set up a job queue that you want to run every day. You als
 
 <!--In order to set up the job queue for email logging, a ADD INCLUDE[!INCLUDE[navnow](includes/how-to-create-job-queue-entries.md).-->  
 
-#### To start the job queue  
+### To start the job queue  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Queue Category**, and then choose the related link.  
-2. Choose **New**, and create a new category code called LOGGING. In the **Description** field, enter Email Logging. Choose the **OK** button.  
+2. Choose **New**, and create a new category code called LOGGING. In the **Description** field, enter **Email Logging**. Choose **OK**.  
 3. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Queues**, and then choose the related link.  
-4. Choose **New**, and create a new queue code called ELQ. In the **Description** field, enter **Email Logging Queue**.  
-5. Choose the **Job Queue Category Filter** field and set to LOGGING. Select the **Start Automatically From NAS** check box. Choose the **OK** button.  
+4. Choose **New**, and create a new queue code called **ELQ**. In the **Description** field, enter **Email Logging Queue**.  
+5. In the **Job Queue Category Filter** field, choose **LOGGING**. Choose the **Start Automatically From NAS** check box, and then choose **OK**.  
 6. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Queue Entries**, and then choose the related link.  
 7. Choose **New**, and fill in the **Job Queue Entry** card as follows.  
 
     ### General FastTab  
 
-   |<!--ADD INCLUDE [!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]-->|Value|  
+   | Field |Value|  
     |---------------------------------|-----------|  
     |**Object Type to Run**|Codeunit|  
     |**Object ID to Run**|5065|  
@@ -150,7 +150,7 @@ For your company, you set up a job queue that you want to run every day. You als
 
     ### Recurrence FastTab  
 
-|ADD <!--INCLUDE [!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]--> |Value|  
+    | Field |Value|  
     |---------------------------------|-----------|  
     |**Recurrence**|Set all days to True|  
     |**Starting Time**|6:00:00 AM|  
@@ -160,36 +160,37 @@ For your company, you set up a job queue that you want to run every day. You als
 8. Choose **OK**.  
 9. In the **Job Queue Entries** window, select the job queue, and then choose the **Set Status to Ready** action.  
 
-### To start and test the job queue  
-1. Open <!-- [!INCLUDE[nav_admin](includes/nav_admin_md.md)]-->.  
+## To start and test the job queue  
+1. Open the Microsoft Dynamics NAV Server Administration tool.  
 2. Select the EMAIL server instance, and start it.  
 
 <!--For more information, see [Managing Microsoft Dynamics NAV Server Instances](../Managing%20Microsoft%20Dynamics%20NAV%20Server%20Instances.md).-->  
 
-3. Return to the <!--ADD INCLUDE [!INCLUDE[rtc](includes/rtc_md.md)]-->, and Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Queue Log Entries**, and then choose the related link. To verify that the job queue is working as expected, note whether an entry is logged every five minutes.  
+3. Return to the RoleTailored client. 
+4. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Queue Log Entries**, and then choose the related link. To verify that the job queue is working, note whether an entry is logged every five minutes.  
 
-## Testing Email Logging  
+## To test email logging  
 Before you put a system into production, you can try some simple tests to see whether it is working as expected. The following procedure is representative of how a salesperson and his manager would use the system. The task has several prerequisites to make testing easy. First, you should set the email address of a test salesperson so that it is the same email account that you used for autodiscovery. The test salesperson should have an email address that you can use for testing. Next, set up a test contact that has an email address that you can verify receives mail.  
 
 In your tests and in production, we recommend that you copy mail messages, and not move them. This makes sure that all mails from customers are seen, even if they contain invalid data that prevents email logging from processing them.  
 
-#### To test email logging  
-1. Open the test salesperson card.  
-2. On the **Navigate** tab, choose **Contacts**. Add your test contact to the salesperson's list. Create a new contact, if needed.  
-3. Choose **Edit** to open the contact card.  
-4. Expand the **Communications** FastTab, and in the **E-mail** field, choose the button with a picture of an envelope on it. An Outlook window opens in which you can create and send a simple message.  
-5. Send a message from the salesperson to the contact. Also send a message from the contact to the salesperson.  
-6. From the salesperson Outlook Sent folder, copy the message that you sent to the contact to the public queue folder. From the Outlook Inbox of the salesperson, copy the message from the contact to the public queue folder.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Salespeople**, and then choose the related link.  
+2. Open the card for the salesperson.
+3. Choose the **Contacts** action. Add your test contact to the salesperson's list. Create a new contact, if needed.  
+4. Choose **Edit** to open the contact card.  
+5. Expand the **Communications** FastTab, and in the **E-mail** field, choose the button with a picture of an envelope on it. An Outlook window opens in which you can create and send a simple message.  
+6. Send a message from the salesperson to the contact. Also send a message from the contact to the salesperson.  
+7. From the salesperson Outlook Sent folder, copy the message that you sent to the contact to the public queue folder. From the Outlook Inbox of the salesperson, copy the message from the contact to the public queue folder.  
 
      If the job queue is working as expected, you can proceed to the next step.  
 
-7. On the salesperson card, on the **Navigate** tab, choose **Interaction Log Entries**. Verify that the email message that you sent is in the list. On the **Home** tab, choose **Show** to open the mail message.  
+8. On the salesperson card, choose the **Interaction Log Entries** action. Verify that the email message that you sent is in the list. Choose the **Show** action to open the email message.  
 
     > [!IMPORTANT]  
     >  Email messages received through the Internet can have fake sender addresses. That means that interaction log entries in [!INCLUDE[d365fin](includes/d365fin_md.md)] that are created from email logging could potentially include fake addresses and should be reviewed with security in mind.  
 
-#### To integrate mail messages with public folders  
-1. In your Outlook Sent box, select the email messages that you want to archive for future reference.  
+## To integrate email messages with public folders  
+1. In your Outlook Sent Items box, select the email messages that you want to archive for future reference.  
 2. Copy the messages to the public folder that you have designated to be your queue folder.  
 
     > [!TIP]  
@@ -199,7 +200,6 @@ In your tests and in production, we recommend that you copy mail messages, and n
 To verify your interactions, you can review the information that is recorded in the **Interaction Log Entries** window.  
 
 ## See Also  
-<!--[Logging and Tracking Email Interactions](logging-and-tracking-email-interactions.md)-->   
+[Logging and Tracking Email Interactions](logging-and-tracking-email-interactions.md)   
 [Setting Up Relationship Management](marketing-setup-marketing.md)   
-<!--[Security Considerations for Email Logging](security-considerations-for-email-logging.md)-->
-<!--[Troubleshooting: Email Logging](troubleshooting-email-logging.md)-->
+

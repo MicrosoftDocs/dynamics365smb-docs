@@ -9,11 +9,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 08/28/2017
+ms.date: 09/05/2017
 ms.author: edupont
 
 ---
-# Accountant Experiences in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# Accountant Experiences in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Any business must do its books and sign off on the accounting. Some businesses employ an external accountant, and others have an accountant on staff. No matter which type of accountant you are, you can use the **Accountant** Role Center as your Home in [!INCLUDE[d365fin](includes/d365fin_md.md)]. From here, you can access all windows that you need in your work.  
 
 ## Accountant Role Center
@@ -63,12 +63,12 @@ You can see more information about your clients' data by choosing the name of th
 -   Overdue purchase invoices  
 -   Overdue sales invoices  
 
-[![Client company details in Accountant Hub ](./media/finance-accounting/accountant-company-details.png)
+![Client company details in the accountant portal](./media/finance-accounting/accountant-company-details.png)
 
 Technically, you have now logged into your client's [!INCLUDE[d365fin](includes/d365fin_md.md)], and data you see is live data. If you want to take a closer look at the data, such as an overdue purchase invoice, choose the link, and you are taken to the client company.  
 
 > [!TIP]  
->  You can launch predefined Excel workbooks from the **Reports** tab in the ribbon. These Excel workbooks are designed to be ready to print key financial statements and reports, but you can also modify them to fit your needs. For more information, see [Analyzing Financial Statements in Microsoft Excel](finance-analyze-excel.md).  
+>  You can launch predefined Excel workbooks from the **Reports** tab in the ribbon. These Excel workbooks are designed as ready-to-print key financial statements and reports, but you can also modify them to fit your needs. For more information, see [Analyzing Financial Statements in Microsoft Excel](finance-analyze-excel.md).  
 
 Otherwise, close the details pane and continue to the next client.  
 
@@ -84,8 +84,6 @@ In the client's company, you have view and modify the data that you need in your
 You can add a client by using the **Clients** window, which you can open by choosing the **Manage Clients** action in the ribbon. Simply choose **New** and then fill in the fields.  
 
 The data in the card for each client is specified by you, and you can change it as needed. However, the **Client URL** field is critical - this is how you can access each client's [!INCLUDE[d365fin](includes/d365fin_md.md)]. Use the **Test Client URL** action in the ribbon to test that you entered the right link. The URL that you must enter points at the client's [!INCLUDE[d365fin](includes/d365fin_md.md)], such as *https://mybusiness.financials.dynamics.com*. This URL is then used when you choose the **Go To Company** menu item.  
-
-<!--If you have been invited to a client's [!INCLUDE[d365fin](includes/d365fin_md.md)] and signed in with your work account, then the client will be added to your dashboard in the accountant portal. -->
 
 ## See Also
 [Finance](finance.md)  

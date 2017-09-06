@@ -23,9 +23,17 @@
 ## [Letting Financials Suggest Values](ui-let-system-suggest-values.md)
 ## [Printing a Report](ui-work-report.md#PrintReport)
 ## [Videos on Common Tasks](across-videos.md)
+## [Language and Locale](about-locale-language.md)  
 ## [Languages of the Docs](about-languages.md)
 
 # [Setting Up Financials](setup.md)
+## [Setup and Administration](admin-setup-and-administration.md)
+### [Logging Changes](across-log-changes.md)
+### [Creating New Companies](about-new-company.md)
+### [Users, Profiles, and Role Centers](admin-users-profiles-roles.md)
+### [How to: Manage Users and Permissions](ui-how-users-permissions.md)
+### [Using Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)
+### [How to: Publish a Web Service](across-how-publish-web-service.md)
 ## [Setting Up Finance](finance-setup-finance.md)
 ### [Defining Payment Methods](finance-payment-methods.md)
 ### [Setting Up Posting Groups](finance-posting-groups.md)
@@ -37,6 +45,7 @@
 ### [Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md)
 ### [How to: Set Up Cash Customers](finance-how-to-set-up-cash-customers.md)
 ### [How to: Set Up Intrastat Reporting](finance-how-setup-report-intrastat.md)
+### [How To: Work with the Consolidated Trial Balance Report](accross-how-consolidated-company-reporting.md)
 ## [Setting Up Banking](bank-setup-banking.md)
 ### [How to: Set Up Bank Accounts](bank-how-setup-bank-accounts.md)
 ### [How to: Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)
@@ -61,6 +70,15 @@
 ### [How to: Register New Items](inventory-how-register-new-items.md)
 ### [How to: Set Up Stockkeeping Units](inventory-how-to-set-up-stockkeeping-units.md)
 ### [How to: Categorize Items](inventory-how-categorize-items.md)
+## [Setting Up Project Management](projects-setup-projects.md)
+### [How to: Set Up Resources](projects-how-setup-resources.md)
+### [How to: Set Up Time Sheets](projects-how-setup-time-sheets.md)
+### [How to: Set Up Jobs](projects-how-setup-jobs.md)
+## [Setting Up Fixed Assets](fa-setup.md)
+### [How to: Set Up General Fixed Assets Information](fa-how-setup-general.md)
+### [How to: Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md)
+### [How to: Set Up Fixed Asset Insurance](fa-how-setup-insurance.md)
+### [How to: Set Up Fixed Asset Maintenance](fa-how-setup-maintenance.md)
 ## [Setting Up Warehouse Management](warehouse-setup-warehouse.md)
 ### [Design Details: Warehouse Overview](design-details-warehouse-overview.md)
 ### [How to: Work with Responsibility Centers](inventory-responsibility-centers.md)
@@ -78,15 +96,15 @@
 ### [How to: Enable Picking by FEFO](warehouse-picking-by-fefo.md)
 ### [How to: Enable Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)
 ### [How to: Restructure Warehouses](warehouse-how-to-restructure-warehouses.md)
-## [Setting Up Project Management](projects-setup-projects.md)
-### [How to: Set Up Resources](projects-how-setup-resources.md)
-### [How to: Set Up Time Sheets](projects-how-setup-time-sheets.md)
-### [How to: Set Up Jobs](projects-how-setup-jobs.md)
-## [Setting Up Fixed Assets](fa-setup.md)
-### [How to: Set Up General Fixed Assets Information](fa-how-setup-general.md)
-### [How to: Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md)
-### [How to: Set Up Fixed Asset Insurance](fa-how-setup-insurance.md)
-### [How to: Set Up Fixed Asset Maintenance](fa-how-setup-maintenance.md)
+## [Setting Up Manufacturing](production-configure-production-processes.md)
+### [How to: Create Work Center Calendars](production-how-to-create-work-center-calendars.md)
+### [How to: Set Up Work Centers and Machine Centers](production-how-to-set-up-work-and-machine-centers.md)
+### [How to: Create Routings](production-how-to-create-routings.md)
+### [How to: Create Production BOMs](production-how-to-create-production-boms.md)
+### [How to: Work With Manufacturing Batch Units of Measure](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)
+### [How to: Work With Production Families](production-how-work-family.md)
+### [How to: Set Up Standard Routing Lines](production-how-set-up-standard-routing-lines.md)
+### [How to: Subcontract Manufacturing](production-how-to-subcontract-manufacturing.md)
 ## [Setting Up Service Management](service-setup-service.md)
 ### [How to: Set Up Standard Service Codes](service-how-setup-service-coding.md)
 ### [How to: Configure Service Processes](service-setup-service-processes.md)
@@ -104,6 +122,7 @@
 ## [How to: Set up Email](madeira-how-setup-email.md)
 ## [How to: Create Number Series](ui-create-number-series.md)
 ## [How to: Set Up Extended Item Text](ui-how-define-ext-text.md)
+## [How to: Set Up Base Calendars](across-how-to-assign-base-calendars.md)
 ## [Setting Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)
 ### [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)
 ### [Setup Best Practices: Costing Methods](setup-best-practices-costing-method.md)
@@ -233,17 +252,6 @@
 ## [How to: Monitor Job Progress and Performance](projects-how-monitor-progress-performance.md)
 ## [How to: Invoice Jobs](projects-how-invoice-jobs.md)
 
-# [Assembly Management](assembly-assemble-items.md)
-## [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md)
-## [How to: Quote an Assemble-to-Order Sale](assembly-how-to-quote-an-assemble-to-order-sale.md)
-## [How to: Assemble Items](assembly-how-to-assemble-items.md)
-## [How to: Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md)
-## [How to: Sell Inventory Items in Assemble-to-Order Flows](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md)
-## [How to: Sell Assemble-to-Order Items and Inventory Items Together](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)
-## [How to: Undo Assembly Posting](assembly-how-to-undo-assembly-posting.md)
-## [How to: Work with Bills of Material](inventory-how-work-BOMs.md)
-## [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)
-
 # [Fixed Assets](fa-manage.md)
 ## [How to: Acquire Fixed Assets](fa-how-acquire.md)
 ## [How to: Maintain Fixed Assets](fa-how-maintain.md)
@@ -266,6 +274,35 @@
 ## [How to: Register Employees](hr-how-register-employees.md)
 ## [How to: Manage Employee Absence](hr-how-manage-absence.md)
 
+# [Planning](production-planning.md)
+## [About Planning Functionality](production-about-planning-functionality.md)
+## [Planning with-without Locations](production-planning-with-without-locations.md)
+## [How to: Create a Forecast](production-how-to-create-a-forecast.md)
+## [How to: Create Production Orders from Sales Orders](production-how-to-create-production-orders-from-sales-orders.md)
+## [How to: Plan Project Orders](production-how-to-plan-project-orders.md)
+## [How to: Plan for New Demand Order by Order](production-how-to-plan-for-new-demand.md)
+## [How to: Run Full Planning, MPS or MRP](production-how-to-run-mps-and-mrp.md)
+## [How to: Replan or Refresh Production Orders Directly](production-how-to-replan-refresh-production-orders.md)
+## [How to: Track Relations Between Demand and Supply](production-track-demand-supply.md)
+## [How to: Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)
+
+# [Assembly Management](assembly-assemble-items.md)
+## [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md)
+## [How to: Quote an Assemble-to-Order Sale](assembly-how-to-quote-an-assemble-to-order-sale.md)
+## [How to: Assemble Items](assembly-how-to-assemble-items.md)
+## [How to: Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md)
+## [How to: Sell Inventory Items in Assemble-to-Order Flows](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md)
+## [How to: Sell Assemble-to-Order Items and Inventory Items Together](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)
+## [How to: Undo Assembly Posting](assembly-how-to-undo-assembly-posting.md)
+## [How to: Work with Bills of Material](inventory-how-work-BOMs.md)
+## [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)
+
+# [Manufacturing](production-manage-manufacturing.md)
+## How to: Communicate Production Plans
+## How to: Schedule Production Processes
+## How to: Issue Materials
+## How to: Execute Production
+
 # [Warehouse Management](warehouse-manage-warehouse.md)
 ## [How to: Receive Items](warehouse-how-receive-items.md)
 ## [How to: Cross-Dock Items](warehouse-how-to-cross-dock-items.md)
@@ -273,16 +310,6 @@
 ## [Moving Items](warehouse-move-items.md)
 ## [Picking Items](warehouse-pick-items.md)
 ## [How to: Ship Items](warehouse-how-ship-items.md)
-
-# Manufacturing
-## How to: Plan for Production Availability
-## How to: Forecast for Sales and Production
-## How to: Perform Master Planning
-## How to: Material Requirements Planning
-## How to: Communicate Production Plans
-## How to: Schedule Production Processes
-## How to: Issue Materials
-## How to: Execute Production
 
 # [Service Management](service-service.md)
 ## [Planning Service](service-plan-service.md)
@@ -296,8 +323,6 @@
 ## [How to: Send Documents by Email](ui-how-send-documents-email.md)
 ## [Working with Reports](ui-work-report.md)
 ## [Managing Report and Document Layouts](ui-manage-report-layouts.md)
-## [Logging Changes in Financials](across-log-changes.md)
-## [How to: Manage Users and Permissions](ui-how-users-permissions.md)
 ## [Customizing Financials Using Extensions](ui-extensions.md)
 ## [Incoming Documents](across-income-documents.md)
 ### [How to: Set Up Incoming Documents](across-how-setup-income-documents.md)
@@ -312,6 +337,7 @@
 
 # [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)
 ## [Walkthrough: Synchronizing Information Between Outlook and Financials](walkthrough-synchronizing-information-between-outlook-and-microsoft-dynamics-nav.md)
+## [Walkthrough: Logging Email Interactions in the Database](walkthrough-logging-email-interactions-in-the-database.md)
 ## [Walkthrough: Conducting a Sales Campaign](walkthrough-conducting-a-sales-campaign.md)
 ## [Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ## [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)

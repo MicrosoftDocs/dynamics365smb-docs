@@ -51,7 +51,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can specify which reports to
 4.  Choose the **OK** button.  
   
 ## See Also  
- [How to: Print VAT Reports](how-to-print-vat-reports.md)   
+ [How to: Print VAT Reports](../UnitedKingdom/how-to-print-vat-reports.md)   
  [How to: Export and Print Intrastat Reports](how-to-export-and-print-intrastat-reports.md)   
  Report Selection - VAT   
  Report Selection - Intrastat   

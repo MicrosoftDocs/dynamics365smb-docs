@@ -25,5 +25,5 @@ Users may experience slow mobile client responses especially noticeable when the
 >  Dynamic compression is enabled by the ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/nav_web_server_md.md)]-->.  
   
 ## See Also  
- [Troubleshooting Using Microsoft Dynamics NAV](../troubleshooting-using-microsoft-dynamics-nav.md)   
+ [Troubleshooting Using Microsoft Dynamics NAV](troubleshooting-using-microsoft-dynamics-nav.md)   
  [Troubleshooting the Microsoft Dynamics NAV Universal App](../Troubleshooting%20the%20Microsoft%20Dynamics%20NAV%20Universal%20App.md)

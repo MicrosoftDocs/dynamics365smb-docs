@@ -53,7 +53,7 @@ You can import the latest post code file and use it to update the **Post Code** 
  [How to: Print Sales and Purchase Orders During Batch Posting](how-to-print-sales-and-purchase-orders-during-batch-posting.md)   
  Post Code   
  [How to: Register New Vendors](how-to-register-new-vendors.md)   
- [How the Post Code and City Fields Are Filled](how-the-post-code-and-city-fields-are-filled.md)   
+ [How the Post Code and City Fields Are Filled](../../../archive/WorkingWithDynamics/how-the-post-code-and-city-fields-are-filled.md)   
  Customer   
  Customer Card   
  Vendor   

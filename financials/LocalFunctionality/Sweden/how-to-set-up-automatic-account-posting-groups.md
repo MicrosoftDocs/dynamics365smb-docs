@@ -51,5 +51,5 @@ To use automatic account codes, you must create an automatic account posting gro
  G-L Account No.   
  [Total Balance](total-balance.md)   
  [About Posting Groups](about-posting-groups.md)   
- [How to: Fill and Post General Journals](how-to-fill-and-post-general-journals.md)   
+ [How to: Fill and Post General Journals](../../../archive/WorkingWithDynamics/how-to-fill-and-post-general-journals.md)   
  [How to: Set Up Dimensions and Dimension Values](how-to-set-up-dimensions-and-dimension-values.md)

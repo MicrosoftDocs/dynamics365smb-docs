@@ -28,15 +28,10 @@ You can set up groups containing service items that you want to receive the same
 2. Create a new service price group.  
 3. Fill in the **Code** and **Description** fields.  
 4. Choose the **Setup** action.  
-5. To include service lines with a specific fault area code, fill in the **Fault Area Code** field.  
-6. To include service lines belonging to a specific customer, fill in the **Cust. Price Group Code** field.  
-7. To include service lines with a specific currency, fill in the **Currency Code** field.  
-8. To include service lines that have a specific starting date, fill in the **Starting Date** field.  
-9. To include service lines that belong to a specific service price adjustment group, fill in the **Serv. Price Adjmt. Gr. Code** field.  
-10. To include service lines that include discounts or VAT, choose the **Include Discounts** and **Include VAT** check boxes.  
-11. To adjust service prices to a specific amount, fill in the **Amount** field.  
-  
-    In combination with the **Amount** field, you can set up whether this adjustment concerns a fixed amount, or only applies when the total service price exceeds or is lower than the amount in the **Amount** field.  
+2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+
+ > [!Tip]
+ > The **Adjustment Type** and **Amount** fields work together to specify whether an adjustment concerns a fixed amount, or applies only when the total service price exceeds or is lower than the amount in the **Amount** field.  
 
 ## To set up a service price adjustment group  
 You can set up price adjustment groups to adjust service pricing of service items. For example, you can set up price adjustment groups that adjust price of freight or spare parts.  
@@ -44,18 +39,18 @@ You can set up price adjustment groups to adjust service pricing of service item
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Price Adjustment Groups**, and then choose the related link.  
 2. Create a new service price adjustment group.  
 3. Fill in the **Code** and **Description** fields.  
-5. In the **Type** field, enter the type of the entry that you want to adjust.  
+4. In the **Type** field, enter the type of the entry that you want to adjust.  
   
-* To adjust only one specific entry, enter the number of this entry in the **No.** field. When you leave this field blank, your adjustment group will adjust all entries of the type defined in the **Type** field.  
-* To adjust service prices related to only one specific service, fill in the **Work Type** field. When you leave this field blank, it will just be ignored.  
+    * To adjust only one specific entry, enter the number of this entry in the **No.** field. When you leave this field blank, your adjustment group will adjust all entries of the type defined in the **Type** field.  
+    * To adjust service prices related to only one specific service, fill in the **Work Type** field. When you leave this field blank, it will just be ignored.  
   
-6. In the **Description** field, you can give a short description of the service price adjustment.  
-7. To adjust service prices related to only one specific general product posting group, fill in the **Gen. Prod. Posting Group** field.
+5. In the **Description** field, enter a short description of the service price adjustment.  
+6. To adjust service prices related to only one specific general product posting group, fill in the **Gen. Prod. Posting Group** field.
 
 > [!Tip]
 > You can choose **Details** to add additional information about the adjustment group. For example, you can specify which item belongs to the service price adjustment group, and whether this is an item, a resource, a resource group, or a service charge.  
 
-## How to: Set Up Additional Costs for Services
+## To set up additional costs for services
 When you work with service items and service orders, you may need to register additional costs, such as travel costs to particular service zones or starting fees. When you create a service order, you can insert these costs and a line with the type **Cost** will be added to the order. Alternatively, if you want to apply the cost to all service orders, you can set up a default cost. For example, if you always want to apply a starting fee.
   
 ### To set up service costs
@@ -67,4 +62,5 @@ When you work with service items and service orders, you may need to register ad
 2. In the **Service Order Starting Fee** field, choose the appropriate service cost.
 
 ## See Also
-[Service Management](service-service.md)
+[Setting Up Service Management](service-setup-service.md)  
+[Service Management](service-service.md)  

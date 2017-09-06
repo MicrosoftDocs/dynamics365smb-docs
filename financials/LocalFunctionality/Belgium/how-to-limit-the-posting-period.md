@@ -52,4 +52,4 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can limit the period by whic
  [Belgium Local Functionality](belgium-local-functionality.md)   
  General Ledger Setup   
  Gen. Journal Template   
- [How to: Specify Posting Periods](how-to-specify-posting-periods.md)
+ [How to: Specify Posting Periods](../France/how-to-specify-posting-periods.md)

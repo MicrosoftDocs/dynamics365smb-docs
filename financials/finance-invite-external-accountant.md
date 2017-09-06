@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting
-ms.date: 08/16/2017
+ms.date: 09/05/2017
 ms.author: edupont
 
 ---
@@ -24,7 +24,7 @@ Once your accountant has gained access to your [!INCLUDE[d365fin](includes/d365f
 ## Invite Your Accountant to Your [!INCLUDE[d365fin](includes/d365fin_md.md)]
 In the latest version of [!INCLUDE[d365fin](includes/d365fin_md.md)], we have made it easy for you to invite your external accountant. Simply open the **Users** window, and then choose the **Invite External Accountant** action in the ribbon. An email is made ready for you, just add your accountant's work email, and send the invitation.  
 
-[![Invite your accountant](./media/finance-invite-accountant/invite-accountant.png)]
+![Invite your accountant](./media/finance-invite-accountant/invite-accountant.png)
 
 > [!TIP]  
 >  This requires that you have set up SMTP email. You can do this yourself or ask your [!INCLUDE[d365fin](includes/d365fin_md.md)] partner. Also, you must be logged in to [!INCLUDE[d365fin](includes/d365fin_md.md)] as a user administrator, not as the business owner or other users.  

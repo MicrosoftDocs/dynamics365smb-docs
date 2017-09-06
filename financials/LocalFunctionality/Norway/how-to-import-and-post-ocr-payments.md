@@ -54,5 +54,5 @@ Before you can receive optical character recognition (OCR) payments, you must ma
  [How to: Set Up KID Numbers on Sales Documents](how-to-set-up-kid-numbers-on-sales-documents.md)   
  [How to: Set Up OCR Payments](how-to-set-up-ocr-payments.md)   
  Cash Receipt Journal   
- [How to: Fill and Post General Journals](how-to-fill-and-post-general-journals.md)   
+ [How to: Fill and Post General Journals](../../../archive/WorkingWithDynamics/how-to-fill-and-post-general-journals.md)   
  [How to: Print the OCR Journal - Test Report](how-to-print-the-ocr-journal-test-report.md)

@@ -37,5 +37,5 @@ When you change the repair status of a service item in a service order, the serv
 3. In the **Priority** field, choose the priority you want for this service order status. Repeat this step for each status.  
   
 ## See Also  
-[Understanding Service Order Status and Repair Status](service-order-repair-status.md)  
+[Understanding Service Order Status and Repair Status]()  
 [Setting Up Service Management](service-setup-service.md)  

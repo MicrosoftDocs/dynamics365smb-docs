@@ -238,7 +238,7 @@ Reclassifying item tracking for an item means changing a lot or serial number to
 5.  If you want to enter a new item tracking number, enter it in the **New Serial No.** or **New Lot No.** field. If you want, you can merge one or more lots to one new or existing lot.  
 
     > [!NOTE]  
-    >  Be aware that when you reclassify expiration dates, then the items with the earliest expiration dates for outbound transactions are suggested first. For more information, see [Picking by FEFO](FullExperience/Warehousing/warehouse-picking-by-fefo.md).  
+    >  Be aware that when you reclassify expiration dates, then the items with the earliest expiration dates for outbound transactions are suggested first. For more information, see [Picking by FEFO](warehouse-picking-by-fefo.md).  
 
 5.  If you would like to enter a new expiration date for the serial or lot number, enter it in the **New Expiration Date** field.  
 

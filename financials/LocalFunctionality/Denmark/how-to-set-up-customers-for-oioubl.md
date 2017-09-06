@@ -18,7 +18,7 @@
 # How to: Set Up Customers for OIOUBL
 To create Offentlig Information Online UBL (OIOUBL) documents for customers in the public sector, you must add OIOUBL information to the relevant customers.  
 
- This topic only describes fields that apply to OIOUBL. For more information, see [How to: Register New Customers](how-to-register-new-customers.md).  
+ This topic only describes fields that apply to OIOUBL. For more information, see [How to: Register New Customers](../../how-to-register-new-customers.md).  
 
 ### To set up customers for OIOUBL  
 
@@ -38,8 +38,8 @@ To create Offentlig Information Online UBL (OIOUBL) documents for customers in t
  These fields are specific to OIOUBL. The values are used in all OIOUBL documents that you create for this customer. For more information, see [OIOUBL Electronic Invoicing Overview](oioubl-electronic-invoicing-overview.md).  
 
 ## See Also  
- [How to: Register New Customers](how-to-register-new-customers.md)   
+ [How to: Register New Customers](../../how-to-register-new-customers.md)   
  [How to: Set Up OIOUBL](how-to-set-up-oioubl.md)   
  [How to: Create Electronic Documents by Using OIOUBL](how-to-create-electronic-documents-by-using-oioubl.md)   
  [OIOUBL Electronic Invoicing Overview](oioubl-electronic-invoicing-overview.md)   
- [EAN Location Number](ean-location-number.md) 
+ [EAN Location Number](ean-location-number.md)

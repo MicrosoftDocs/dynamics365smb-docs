@@ -11,14 +11,19 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 09/09/2017
     ms.author: sgroespe
 
 ---
 # Denmark Local Functionality
-This section describes local functionality in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] in Denmark.  
+The following topics describe the local functionality in the Danish version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)] in Denmark.  
 
 ## In This Section  
- [What's New](what-s-new.md)  
-  [OIOUBL Electronic Invoicing Overview](oioubl-electronic-invoicing-overview.md)  
-  [VAT-VIES Reporting](vat-vies-reporting.md)  
+[OIOUBL Electronic Invoicing Overview](oioubl-electronic-invoicing-overview.md)  
+[EAN Location Number](EAN Location Number.md)  
+[FIK Details in the Payment Reconciliation Journal](fik-details-in-the-payment-reconciliation-journal.md)  
+[VAT-VIES Reporting](vat-vies-reporting.md)
+[How to: Print VAT Reconciliation Reports](how-to-print-vat-reconciliation-reports.md)
+
+## See Also
+[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)   

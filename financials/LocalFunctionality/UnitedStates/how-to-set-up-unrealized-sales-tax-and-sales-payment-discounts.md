@@ -67,6 +67,6 @@ You can use the **General Ledger Setup** window to set up unrealized sales tax. 
 
 ## See Also  
 [United States Local Functionality](united-states-local-functionality.md)  
-[Reporting Sales Tax in the US](us-sales-tax)  
+[Reporting Sales Tax in the US](us-sales-tax.md)  
 [Finance](../../finance.md)  
 [Setting Up Finance](../../finance.md)

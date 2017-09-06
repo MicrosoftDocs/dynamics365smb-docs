@@ -31,5 +31,4 @@ The **Transaction Text** field in the **Payment Reconciliation Journal** window 
 
 ## See Also  
  Payment Reconciliation Journal   
- [Reconcile Payments Automatically](reconcile-payments-automatically.md)   
- [What's New](what-s-new.md)
+ [Reconcile Payments Automatically](reconcile-payments-automatically.md) 

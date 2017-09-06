@@ -1,6 +1,6 @@
 ---
     title: United States Local Functionality | Microsoft Docs
-    description: The following topics describe the local functionality in the United States version of [!INCLUDE[d365fin](includes/d365fin_md.md)].
+    description: The following topics describe the local functionality in the United States version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # United States Local Functionality
-The following topics describe local functionality that is unique to the United States version of [!INCLUDE[d365fin](includes/d365fin_md.md)].
+The following topics describe local functionality that is unique to the United States version of [!INCLUDE[d365fin]../../(includes/d365fin_md.md)].
 
 ## In This Section  
   [How to: Set Up Use Tax and Purchase Tax](how-to-set-up-use-tax-and-purchase-tax.md)  

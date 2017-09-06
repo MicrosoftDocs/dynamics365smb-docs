@@ -1,6 +1,6 @@
 ---
 title: United Kingdom Local Functionality | Microsoft Docs
-description: Get an overview of local functionality in the United Kingdom version of [!INCLUDE[d365fin](includes/d365fin_md.md)].
+description: Get an overview of local functionality in the United Kingdom version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
 author: edupont04
 
 ms.service: dynamics365-financials
@@ -14,7 +14,7 @@ ms.author: edupont
 
 ---
 # United Kingdom Local Functionality
-The following topics describe the local functionality in the United Kingdom version of [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+The following topics describe the local functionality in the United Kingdom version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## In This Section  
 [Multiple Interest Rates Overview](multiple-interest-rates-overview.md)  

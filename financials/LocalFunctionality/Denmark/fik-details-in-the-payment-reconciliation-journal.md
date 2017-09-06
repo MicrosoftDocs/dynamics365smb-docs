@@ -17,10 +17,10 @@
 ---
 # FIK Details in the Payment Reconciliation Journal
 The **Transaction Text** field in the **Payment Reconciliation Journal** window shows information about the automatic application of payments using the Danish FIK standard. For more information, see [How to: Reconcile Payments Using Automatic Application](how-to-reconcile-payments-using-automatic-application.md).  
-  
+
  The following table describes the six values that may be shown in the **Transaction Text** field.  
-  
-|Transaction Text|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]-->|  
+
+|Transaction Text|Description|  
 |-----------------------------------------|---------------------------------------|  
 |**Matching Amount**|The amount paid covers exactly the remaining amount on an unpaid sales invoice that is identified by the FIK number.|  
 |**Partial Amount**|The amount paid is less than the remaining amount on an unpaid sales invoice that is identified by the FIK number.|  
@@ -28,7 +28,7 @@ The **Transaction Text** field in the **Payment Reconciliation Journal** window 
 |**No Matching FIK Number**|The system has not found any unpaid or paid sales invoices with a FIK number that matches the FIK number on the payment.|  
 |**Duplicate FIK Number**|The system has discovered that there are payments that have similar FIK numbers.|  
 |**Invoice Already Paid**|The system has discovered that a FIK number on a payment matches a sales invoice that is fully applied and closed.|  
-  
+
 ## See Also  
  Payment Reconciliation Journal   
  [Reconcile Payments Automatically](reconcile-payments-automatically.md)   

@@ -48,7 +48,7 @@ Mexican companies must be able to send invoices electronically as Comprobante Fi
 >  You will be submitting the electronic invoices to a PAC, which is an authorized service provider appointed by the Mexican tax authorities (SAT).  
   
 ## Getting Started  
- Before you can use ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-set-up-electronic-invoicing.md). For information about SAT certificates and keys, see the [Servicio de Administracíon Tributaria](http://go.microsoft.com/fwlink/?LinkId=242772) website.  
+ Before you can use ADD INCLUDE<!--[!INCLUDE[navnow](how-to-set-up-electronic-invoicing.md). For information about SAT certificates and keys, see the [Servicio de Administracíon Tributaria](http://go.microsoft.com/fwlink/?LinkId=242772) website.  
   
  You also must specify the web services that you will use to communicate with the PAC in order to obtain digital stamps. For more information, see [How to: Set Up PAC Web Services](how-to-set-up-pac-web-services.md).  
   

@@ -22,7 +22,8 @@ Fault reporting lets you establish standards for recording fault information for
 Fault codes describe the typical service item faults or the actions taken on service items. Depending on the level of fault reporting in your company, you might need to set up fault area codes and symptom codes before you set up fault codes. Fault areas descrive areas of service item faults. Fault reason codes describe the reason for service item faults and, if needed, whether to exclude warranty and contract discounts. For example, you might want to exclude warranty and contract discounts if the customer was somehow responsible for the fault in the service item. You assign fault reason codes to service orders. For more information, see [How to: Work on Service Tasks](service-how-to-work-on-service-tasks.md).  
 
 ## To specify the overall level of fault reporting to use
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Setup**, and then choose the related link. 2. In the **Fault Reporting Level** field, choose one of the options described in the following table.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Setup**, and then choose the related link. 
+2. In the **Fault Reporting Level** field, choose one of the options described in the following table.  
   
     |**Fault Level**|**Description**|  
     |------------|-------------|  

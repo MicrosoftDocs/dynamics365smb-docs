@@ -30,7 +30,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] to calculate VAT due based on Rus
 |[General Ledger Correspondence](general-ledger-correspondence.md)|Enables you to create, view, and print account turnover information.|  
 |[Human Resources](human-resources.md)|Enables you to print and view information about payments made to and from employees.|  
 |[Inventory](inventory.md)|Enables you to set up and manage your inventory including item documents, item and inventory acts, and general ledger turnover.|  
-|[Payables and Receivables](payables-and-receivables.md)|Enables you to manage your payables and receivables reports, prepayments, agreements, and cards.|  
+|[Payables and Receivables](../Netherlands/payables-and-receivables.md)|Enables you to manage your payables and receivables reports, prepayments, agreements, and cards.|  
 |[Statutory Reports](statutory-reports.md)|Enables you to import and export data for electronic tax reporting and other documents required by law.|  
 |[Tax Accounting](tax-accounting.md)|Enables you to follow tax accounting principles by setting up tax registers and calculating tax differences.|  
 |[Tax Reports](assetId:///e42ca8e7-1cee-4fb8-9f71-e596f29cabc3)|Enables you to design tax reports and export them using a Microsoft Excel format.|  

@@ -1,6 +1,6 @@
 ---
-title: Installing Extensions to Customize Dynamics 365 for Financials | Microsoft Docs
-description: Learn about adding functionality and customizing Dynamics 365 for Financials by installing extensions.
+title: Installing Extensions to Customize Dynamics 365 Business edition  | Microsoft Docs
+description: Learn about adding functionality and customizing Dynamics 365 Business edition  by installing extensions.
 documentationcenter: ''
 author: edupont04
 
@@ -14,7 +14,7 @@ ms.date: 07/07/2017
 ms.author: edupont
 
 ---
-# Customizing Dynamics 365 for Financials Using Extensions
+# Customizing Dynamics 365 Business edition  Using Extensions
 You can change [!INCLUDE[d365fin](includes/d365fin_md.md)] by installing extensions that add functionality, changes behavior, or gives you access to new online services, for example.
 When you first launch [!INCLUDE[d365fin](includes/d365fin_md.md)], some extensions are already installed for you. Over time, more extensions will be made available to you, and you can then choose if you want to use the extension or not.
 
@@ -46,7 +46,7 @@ Microsoft provides the following extensions:
 
 * [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)  
 * [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)  
-* [Microsoft Wallet](ui-extensions-microsoft-wallet-payments.md)
+* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
 * [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)  
 * [QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)  
 * [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)  

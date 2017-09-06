@@ -25,7 +25,7 @@ The following topics describe the local functionality in the Italian version of 
   [Italian Fixed Assets](italian-fixed-assets.md)  
   [Interest on Arrears Overview](interest-on-arrears-overview.md)  
   [Italian VAT](italian-vat.md)  
-  [How to: Set Up Withholding Tax](how-to-set-up-withholding-tax.md)  
+  [How to: Set Up Withholding Tax](../Australia/how-to-set-up-withholding-tax.md)  
   [How to: Set Up Journal Templates and Batches](how-to-set-up-journal-templates-and-batches.md)  
   [How to: Set Up Company Information](how-to-set-up-company-information.md)  
   [How to: Set Up Payment Terms](how-to-set-up-payment-terms.md)  

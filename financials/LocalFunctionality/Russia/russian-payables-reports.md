@@ -270,4 +270,4 @@ The payables report feature enables you to view the vendor general ledger turnov
 ## See Also  
  [Russian Receivables Reports](russian-receivables-reports.md)   
  [How to: Set Up Customer and Vendor Agreements](how-to-set-up-customer-and-vendor-agreements.md)   
- [Payables and Receivables](payables-and-receivables.md)
+ [Payables and Receivables](../Netherlands/payables-and-receivables.md)

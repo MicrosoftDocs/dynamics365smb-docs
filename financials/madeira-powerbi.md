@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Financials and Power BI Content Packs| Microsoft Docs
-description: Getting insight, business intelligence, and KPIs from your Financials data is easy with Power BI and the Financials content packs.
+title: Dynamics 365 Business edition and Power BI Content Packs| Microsoft Docs
+description: Getting insight, business intelligence, and KPIs from your Dynamics 365 data is easy with Power BI and the Dynamics 365 content packs.
 author: edupont04
 
 ms.service: dynamics365-financials
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 08/31/2017
+ms.date: 09/05/2017
 ms.author: edupont
 
 ---
@@ -20,7 +20,7 @@ Microsoft has published the following content packs:
 
 | App | Description |
 | --- | --- |
-| Microsoft Dynamics 365 for Financials | Provides a dashboard with key financial data over time, such as earnings versus expenses, operating margin %, and cash cycle.|
+| Microsoft Dynamics 365 for Financials | Provides a dashboard with key financial data over time, such as earnings versus expenses, operating margin, and cash cycle.|
 | Microsoft Dynamics 365 for Financials - CRM | Provides a dashboard with key data about sales opportunities and contacts.  |
 | Microsoft Dynamics 365 for Financials - Sales | Provides a dashboard with key data about sales and inventory. |
 
@@ -40,7 +40,7 @@ The content packs are preconfigured to work with data from the demonstration com
 ## Accessing [!INCLUDE[d365fin](includes/d365fin_md.md)] in Power BI
 To see your [!INCLUDE[d365fin](includes/d365fin_md.md)] data in Power BI, you must have the following:  
 
-* Access to [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Financials](http://go.microsoft.com/fwlink/?LinkID=759714).  
+* Access to [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Dynamics 365 Business edition](http://go.microsoft.com/fwlink/?LinkID=759714).  
 * Access to Power BI. For more information, see [Power BI](https://powerbi.microsoft.com).
 
 On the Power BI site, you can find additional information about [connecting to services with content packs for Power BI](http://go.microsoft.com/fwlink/?LinkID=760850).  
@@ -104,13 +104,13 @@ If you see an "Oops" error dialog after you pass the authentication dialog, this
 
 * Verify that the URL follows the pattern that was specified earlier:
 
-    https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')  
+    ```https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')```  
 * A common mistake is to specify the full URL for a specific web service:
 
-    https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')/powerbifinance  
+    ```https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')/powerbifinance```  
 * Or you might have forgotten to specify the company name:
 
-    https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/  
+    ```https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/```  
 
 ## See Also
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

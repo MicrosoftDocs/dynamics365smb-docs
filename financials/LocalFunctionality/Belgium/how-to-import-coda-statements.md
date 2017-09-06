@@ -1,6 +1,6 @@
 ---
     title: How to Import CODA Statements | Microsoft Docs
-    description: When you receive a CODA statement from your bank, you must import it into ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-set-up-bank-accounts-for-coda.md).
+    description: When you receive a CODA statement from your bank, you must import it into ADD INCLUDE<!--[!INCLUDE[navnow](how-to-set-up-bank-accounts-for-coda.md).
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # How to: Import CODA Statements
-When you receive a CODA statement from your bank, you must import it into ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-set-up-bank-accounts-for-coda.md).  
+When you receive a CODA statement from your bank, you must import it into ADD INCLUDE<!--[!INCLUDE[navnow](how-to-set-up-bank-accounts-for-coda.md).  
   
 ### To import a CODA statement  
   

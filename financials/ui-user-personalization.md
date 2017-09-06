@@ -1,6 +1,6 @@
 ---
-title: Personalizing What Information Appears on Page | Microsoft Docs
-description: Describes how to customize the look and feel of Financials for your user account.
+title: Personalizing the Way Information is Displayed for a User Account | Microsoft Docs
+description: Describes how to customize the look and feel of Dynamics 365 for your user account.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

@@ -33,5 +33,5 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], you must define setup names for 
   
 ## See Also  
  [BAS Fuel Tax Credits](bas-fuel-tax-credits.md)   
- [How to: Set Up BAS XML Fields](how-to-set-up-bas-xml-fields.md)   
+ [How to: Set Up BAS XML Fields]()   
  [Business Activity Statements](business-activity-statements.md)

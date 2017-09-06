@@ -27,4 +27,4 @@ The tax information in purchase documents is used to generate a GST/HST online f
 [Finance](../../finance.md)  
 [Setting Up Finance](../../finance.md)  
 [Reporting Sales Tax in Canada](ca-sales tax.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)

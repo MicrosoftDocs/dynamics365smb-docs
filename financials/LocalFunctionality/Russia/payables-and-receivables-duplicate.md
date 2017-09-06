@@ -33,4 +33,4 @@ In Russia, there are specific [!INCLUDE[d365fin](includes/d365fin_md.md)] featur
 |[How to: Combine Customer or Vendor Cards](how-to-combine-customer-or-vendor-cards.md)|Enables you to combine two customer or vendor cards that belong to one customer or vendor.|  
   
 ## See Also  
- [Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
+ [Walkthrough: Setting Up and Invoicing Sales Prepayments](../../walkthrough-setting-up-and-invoicing-sales-prepayments.md)

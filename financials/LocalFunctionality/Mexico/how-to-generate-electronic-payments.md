@@ -55,4 +55,4 @@ When you select electronic payment in the payment journal, the information is ex
  [Bank Payment Type](-$-t_81_70-bank-payment-type-$.md)   
  [Electronic Payments for United States, Canada, and Mexico](electronic-payments-for-united-states-canada-and-mexico.md)   
  [How to: Transmit Electronic Payments](how-to-transmit-electronic-payments.md)   
- [How to: Export Electronic Payments](how-to-export-electronic-payments.md)
+ [How to: Export Electronic Payments](../Spain/how-to-export-electronic-payments.md)

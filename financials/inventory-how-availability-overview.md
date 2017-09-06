@@ -115,5 +115,5 @@ If one or more assembly components are not available, then this is reflected in 
 [How to: Set Up Locations](inventory-how-setup-locations.md)  
 [How to: Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)  
 [How to: Sell Products](sales-how-sell-products.md)      
-[Working with Financials](ui-work-product.md)  
+[Working with Dynamics 365](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)

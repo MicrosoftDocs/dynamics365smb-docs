@@ -34,4 +34,4 @@ The following topics describe the local functionality in the United Kingdom vers
 [How to: Set Up Reverse Charges on VAT](how-to-set-up-reverse-charges-on-vat.md)  
 
 ## See Also
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](../../ui-work-product.md)  
+[Working with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](../../ui-work-product.md)  

@@ -16,7 +16,10 @@
 
 ---
 # How to: Set Up Service Items and Service Item Components
-Before you can work with service items, you must set up service items. 
+To work with service items, you must set up the following
+
+* Service item groups. 
+* Optional
 
 ## To set up service item groups
 You can set up groups of items that are related in terms of repair and maintenance. You can define default values for service items in a service item group, such as response time, contract discount percent, and service price group. For items in a service item group, you can select whether you want them to be automatically registered as service items when they are sold.  
@@ -34,27 +37,26 @@ You assign service item groups to items on the **Item** card, and to service ite
 ## To set up service item components
 A service item can consist of several components, which can be replaced with spare parts when the item is serviced. These components are set up on the **Service Item Component List** page. Additionally, if you want to set up components for service items that are BOMs, you can copy the BOM items and create them as service item components. 
   
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Items**, and then choose the related link. 2. Open the service item for which you want to set up components.  
-3. On the **Navigate** tab, in the **Serv. Item** group, choose **Components**. The **Service Item Component List** window opens.  
-4. Add a new component. On the **Home** tab, in the **New** group, choose **New**.  
-5. In the **Type** field, select **Service Item** if the component itself is a registered service item. Otherwise, select **Item**.  
-6. In the **No.** field, select the item or service item that is a component of the service item.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Items**, and then choose the related link. 
+2. Open the service item for which you want to set up components.  
+3. Choose the **Components** action. The **Service Item Component List** window opens.  
+4. Add a new component.  
+5. In the **Type** field, choose **Service Item** if the component itself is a registered service item. Otherwise, select **Item**.  
+6. In the **No.** field, choose the item or service item that is a component of the service item.  
 
 ## To set up service item components from a BOM
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Items**, and then choose the related link.  
 2. Open the service item for which you want to set up components from a BOM.  
-3. On the **Navigate** tab, in the **Serv. Item** group, choose **Components**. The **Service Item Component List** window opens.  
-4. On the **Navigate** tab, in the **Component** group, choose **Copy from BOM**.  
+3. Choose the **Components** action. The **Service Item Component List** window opens.  
+4. Choose the **Copy from BOM** action.  
   
     If the item that the service item is linked to is a BOM, the components for all the items in the BOM are created automatically.  
 
 ## To set up a service shelf
-You can set up service shelvers that identify where you store your service items. You assign service shelves to service items on the **Service Order** and **Service Item Worksheet** pages.  
+You can set up service shelves that identify where you store your service items. You assign service shelves to service items on the **Service Order** and **Service Item Worksheet** pages.  
   
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Shelves**, and then choose the related link.
 2. Fill in the fields as necessary.
-
-
 
 ## See Also
 [How to: Set Up Codes for Standard Services](service-how-setup-service-coding.md)   

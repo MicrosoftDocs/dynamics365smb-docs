@@ -33,7 +33,7 @@ You must define a location for storing Offentlig Information Online UBL (OIOUBL)
   
 3.  In the **Default OIOUBL Profile Code** field, select the profile that most of your public sector customers use.  
   
-     When you select a profile, ADD INCLUDE<!--[!INCLUDE[navnow](includes/oioubl-electronic-invoicing-overview.md).  
+     When you select a profile, ADD INCLUDE<!--[!INCLUDE[navnow](oioubl-electronic-invoicing-overview.md).  
   
     1.  To create a new profile, choose the **Default OIOUBL Profile Code** field, and then choose **New**.  
   

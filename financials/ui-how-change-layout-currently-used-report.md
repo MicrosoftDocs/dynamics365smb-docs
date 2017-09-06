@@ -3,7 +3,7 @@ title: Change the Way a Report Looks by Selecting a Different Layout | Microsoft
 description: You can use different layouts for a report, and switch between layouts to change how a report looks.
 services: project-madeira
 documentationcenter: ''
-author: SusanneWindfeldPedersen
+author: jswymer
 
 ms.service: dynamics365-financials
 ms.topic: article
@@ -12,7 +12,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
-ms.author: solsen
+ms.author: jswymer
 
 ---
 # How to: Change Which Layout is Currently Used on a Report

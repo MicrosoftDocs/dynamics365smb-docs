@@ -50,4 +50,4 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can set up bank accounts to 
 3.  On the **Transfer** FastTab, make sure that the **CCC Bank No.**, **CCC Bank Branch No.**, **CCC Control Digits**, and **CCC Bank Account No.** fields are filled in correctly.  
   
 ## See Also  
- [Electronic Payments – AEB N34.1](electronic-payments-–-aeb-n34.1.md)
+ [Electronic Payments – AEB N34.1](electronic-payments-%E2%80%93-aeb-n34.1.md)

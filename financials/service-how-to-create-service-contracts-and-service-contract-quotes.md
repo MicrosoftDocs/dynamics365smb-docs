@@ -59,7 +59,7 @@ You can use a contract service credit memo when a customer cancels a prepaid ser
 3. Fill in the **No.** field.  
 4. In the **Customer No.** field, enter the number of the customer in the service contract.  
   
-     On the **Invoicing** FastTab, you can see information copied from the **Customer** card. If you want to post the credit memo to a different customer than the one specified on the **General** FastTab, enter the number of that customer in the **Bill-to Customer No.** field.  
+     The **Invoicing** FastTab shows information copied from the **Customer** card. If you want to post the credit memo to a different customer than the one specified on the **General** FastTab, enter the number of that customer in the **Bill-to Customer No.** field.  
   
     > [!NOTE]  
     >  You can compare the credit memo to the original posted document in the **Posted Service Invoices** window. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Service Invoices**, and then choose the related link.  
@@ -123,8 +123,8 @@ You can add contract discounts on services for contract quotes and service contr
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Contract Quotes**, and choose the related link.  
 2. Choose the quote to add discounts for.  
 3. Choose the **Service Discounts** action. The **Contract/Service Discounts** window opens.  
-4. To create a new contract discount, on the **Home** tab, in the **New** group, choose **New**.  
-5. Fill in the fields as nedessary.  
+4. To create a new contract discount, choose the **New** action.  
+5. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
   
 > [!Tip]  
 >  To add contract discounts directly to a service contract, perform similar steps from the **Service Contract** window.  
@@ -136,13 +136,13 @@ You may need to change the owner of a service contract. If a service item in a s
 >  In this case, only noncanceled contracts are considered. The status of the contract quotes is not taken into account.  
   
 > [!IMPORTANT]  
->  Many service items and contracts can be interrelated. These interrelationships can be affected when you change the ownership of a service contract.  
+>  Service items and contracts can be related. Changing the owner of a service contract can affect these relationships.  
 >   
 >  For example, suppose service item No. 8 is included in contracts SC00003 and SC00015. Contract SC00015 also contains service item No. 15, which is also included in the contract SC00080. In this case, the owner for all three contracts and service items will be changed.  
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Contracts**, and then choose the related link. Open the relevant service contract whose owner you want to change.  
 2. Choose the **Open Contract** action to open the contract for editing.  
-3. On the **Actions** tab, in the **Functions** group, choose **Change Customer**. The **Change Customer in Contract** window opens.  
+3. Choose the **Change Customer** action. The **Change Customer in Contract** window opens.  
 4. In the **Contract No.** and **Service Item No**. fields you can see the numbers of the contract and service item owned by the selected customer. If the customer owns more than one contract with more than one service item included, then the value of these fields will be **Multiple**. To see the list of related contracts or service items, select these field values.  
 5. In the **New Customer No.** field, choose the new customer.  
 6. In the **New Ship-to Code** field, choose the address.  
@@ -158,48 +158,16 @@ You can update the prices on service contracts by specifying a price update perc
 4. In the **Price Update %** field, enter the percentage that you want to update the prices by.  
 5. In the **Action** field, select **Update Contract Prices**.  
 
-## How to: View Gains and Losses on Contracts
-A contract gain or loss entry is generated when a contract quote is converted to a service contract, when contract lines are added or removed from a service contract, or when a contract is canceled. You can view contract gains or losses on the following pages.  
+## To post prepaid contract entries  
+If you work with prepaid service contracts, you must regularly post prepaid contract entries, thereby transferring the prepaid payments from the prepaid contract accounts to the regular contract accounts.  
   
-|Page | Description|  
-|----------------|---------------------------------------|  
-|**Contract Gain/Loss (Contracts)**|To view the contract gain/loss by service contract.|  
-|**Contract Gain/Loss (Groups)**|To view the contract gain/loss by service contract group.|  
-|**Contract Gain/Loss (Customers)**|To view the contract gain/loss by customer.|  
-|**Contract Gain/Loss (Reasons)**|To view the contract gain/loss by reason code.|  
-|**Contract Gain/Loss (Resp.Ctr)**|To view the contract gain/loss by responsibility center.|  
-  
-## Using Contract Trendscape Overview
-The **Contract Trendscape** window gives a financial overview of the service contract using the data from its service ledger entries. This overview is generated for a specific time period that you set in the **Period** field.  
-  
-To use the trendscape, from the **Service Contracts** window, select a service contract. On the **Navigate** tab, in the **Contract** group, point to **Statistics**, and then choose **Trendscape**.  
-  
-When you scroll up and down, the amounts (in LCY) are calculated according to the time interval you have set in the **Contract Trendscape** window.  
-  
-You can specify which service contract is included in the trendscape by setting a filter in the **Contract No.** field on the **General** FastTab.  
-  
-The **Period Start** and **Period Name** fields contain a series of dates that are determined by the time interval you have selected. You can change the time interval in the **View by** field.  
-  
-The following table describes the other fields on the **Lines** FastTab.  
-  
-|Field|Description|  
-|---------------------------------|---------------------------------------|  
-|**Prepaid Income**|The total income (in LCY) that has been posted to the prepaid account for the service contract in the periods specified in the **Period Start** field.|  
-|**Posted Income**|The total income (in LCY) that has been posted to the general ledger for the service contract in the periods specified in the **Period Start** field.|  
-|**Posted Cost**|The cost of the service contract based on its service usage in the periods specified in the **Period Start** field.|  
-|**Discount Amount**|The amount of discount (in LCY) that applies to the service contract in the periods specified in the **Period Start** field.|  
-|**Profit**|The profit (posted income minus posted cost in LCY) for the service contract in the periods specified in the **Period Start** field.|  
-|**Profit %**|The profit percentage for the service contract in the periods specified in the **Period Start** field.|  
-  
-All amounts are calculated from service ledger entries, that is, entries that are created when you post service orders or service invoices related to the service contracts.  
-  
-> [!NOTE]  
->  If you have set the time interval to **Day** and you want to scroll over a long period, you can do it faster by shifting to a larger interval such as **Quarter**. When you have found the desired period, you can shift back to the original interval to see the data in more detail.
+Before you can post prepaid contract entries, you must specify a number series in the **Prepaid Posting Document Nos.** field in the **Service Mgt. Setup** window.  
 
-### To view contract gain/loss  
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Contract Gain/Loss**, and then choose the related link.  
-2. Fill in the filter criteria you want to apply. For example, in the **Contract Gain/Loss (Reasons)** window, select a value for **Reason Code Filter**.  
-3. Choose the **Show Matrix** action.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Post Prepaid Contract Entries**, and then choose the related link.  
+2. In the **Post until Date** field, enter a date. The batch job posts prepaid service ledger entries with posting dates up to this date.  
+4. In the **Posting Date** field, enter the date you want to use as the posting date on the general journal line.  
+5. In the **Action** field, choose **Post Prepaid Transactions**.  
+6. Choose **OK** to post the entries.
 
 ## Changing the Service Contract Status
 After the service contract is signed, the **Change Status** field value is automatically set to **Locked**. If you want to modify information in the service contract or service contract quote, first you have to change the status of the contract or contract quote from **Locked** to **Open**. Note that you cannot create service invoices for the service contract with the **Open** change status. After the contract or contract quote is modified, you have to change the status back to **Locked** to make it possible to create service invoices and ledger entries for the service contract, which includes the changes that you made to it.  

@@ -24,7 +24,7 @@ The following topics describe the local functionality in the German version of [
   [Process for Data Access and Testability of Digital Documents (GDPdU)](process-for-data-access-and-testability-of-digital-documents-gdpdu-.md)  
   [Physical Inventory Documents](physical-inventory-documents.md)  
   [VAT Reporting](vat-reporting.md)  
-  [VAT-VIES Reporting](vat-vies-reporting.md)  
+  [VAT-VIES Reporting](../Denmark/vat-vies-reporting.md)  
   [Currency Exchange Rates](currency-exchange-rates.md)  
   [How to: Print General Ledger Setup Information](how-to-print-general-ledger-setup-information.md)  
   [How to: Set Up Reports for VAT and Intrastat](how-to-set-up-reports-for-vat-and-intrastat.md)  

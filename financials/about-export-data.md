@@ -1,6 +1,6 @@
 ---
 title: Export Your Financials Data to Excel| Microsoft Docs
-description: You can export your financial reports and business intelligence data from Dynamics 365 for Financials to Excel, or open your Financials data in Excel.
+description: You can export your financial reports and business intelligence data from Dynamics 365 Business edition  to Excel, or open your Financials data in Excel.
 services: project-madeira
 documentationcenter: ''
 author: edupont04
@@ -63,4 +63,4 @@ We recommend that you also consider exporting data from the following pages:
 [Importing Business Data from Other Finance Systems](upload-data.md)  
 [Finance](finance.md)  
 [General Business Functionality](ui-across-business-areas.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  

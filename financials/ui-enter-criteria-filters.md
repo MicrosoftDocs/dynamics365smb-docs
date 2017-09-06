@@ -91,11 +91,8 @@ You can add a filter on one or more columns in a list. Filtering on columns is m
   -  Enter filter criteria in the box. See the next section for details.
 4. Choose the **OK** button.
 
-### Entering filter criteria
-When you enter criteria, you can use all the numbers and letters that you can normally use in the field. In addition, you can use special symbols to further filter the results.
-  
-## Symbols  
- The following tables show the symbols which can be used in filters.  
+## Filter criteria and symbols
+When you enter criteria, you can use all the numbers and letters that you can normally use in the field. In addition, you can use special symbols to further filter the results. The following tables show the symbols which can be used in filters.  
   
 > [!IMPORTANT]  
 >  There may be instances where field values contain these symbols and you want to filter on them. To do this, you must include the filter expression that contains the symbol in quotation marks (''). For example, if you want to filter on records that start with the text *S&R*, the filter expression is **'S&R*'**.  

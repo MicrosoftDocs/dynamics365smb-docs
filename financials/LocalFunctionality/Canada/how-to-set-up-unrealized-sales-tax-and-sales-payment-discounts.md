@@ -48,7 +48,7 @@ You can use the **General Ledger Setup** window to set up unrealized sales tax. 
 3.  In the **Tax Posting Setup Card** window, select the **Adjust for Payment Discount** check box.  
 
     > [!IMPORTANT]  
-    >  This field is available in the **VAT Posting Setup** window, but it is not shown by default. To select the field, you must first add the column that shows this field. [!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]  
+    >  This field is available in the **VAT Posting Setup** window, but it is not shown by default.
 4.  Choose the **OK** button.  
 
 ## To set up maximum tax correction amounts  

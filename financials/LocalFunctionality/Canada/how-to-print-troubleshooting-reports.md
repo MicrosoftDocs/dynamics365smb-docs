@@ -22,16 +22,16 @@ The following troubleshooting reports are available to assist Microsoft Certifie
 
 -   **Data Dictionary** report (report #10315) – This report allows you to print detailed table reference, field reference, and table properties for table objects.  
 
-You must have access to [!INCLUDE[d365fin](includes/d365fin_md.md)] Object Designer, which is available only to administrators.  
+You must have access to [!INCLUDE[d365fin](../../includes/d365fin_md.md)] Object Designer, which is available only to administrators.  
 
-You can print these reports and send them to your Microsoft Certified Partner to help resolve issues with your [!INCLUDE[d365fin](includes/d365fin_md.md)] implementation.  
+You can print these reports and send them to your Microsoft Certified Partner to help resolve issues with your [!INCLUDE[d365fin](../../includes/d365fin_md.md)] implementation.  
 
 ## To print the License Information report  
-1.  In [!INCLUDE[d365fin](includes/d365fin_md.md)] Object Designer, on the **Tools** menu, choose **License Information**.  
+1.  In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] Object Designer, on the **Tools** menu, choose **License Information**.  
 2.  In the **License Information** window, you can preview the license information, or you can choose the **Export** button to print the **License Information** report.  
 
 ## To print the Data Dictionary report  
-1.  In [!INCLUDE[d365fin](includes/d365fin_md.md)] Object Designer, on the **Tools** menu, choose **Object Designer**.  
+1.  In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] Object Designer, on the **Tools** menu, choose **Object Designer**.  
 2.  Choose the **Report** button.  
 3.  In the **Type** column, find **ID** 10315, which is the **Data Dictionary** report.  
 4.  In the **Object Designer** window, choose the **Run** button to open the **Data Dictionary** report.  

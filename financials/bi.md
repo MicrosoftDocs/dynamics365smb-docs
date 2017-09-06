@@ -31,6 +31,8 @@ The following table describes a sequence of tasks, with links to the topics that
 |Create new account schedules to define financial statements for reporting or for display as charts.|[How to: Work with Account Schedules](bi-how-work-account-schedule.md)|
 |Set up analysis views to analyze data using dimensions.|[How to: Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)|
 |Create new analysis reports for sales, purchases, and inventory, and set up analysis templates.|[How to: Create Analysis Reports](bi-how-create-analysis-views-reports.md)|
+|Enable global financial reporting by to international accounting organizations with the eXtensible Business Reporting Language standard.|[How to: Create Reports with XBRL](bi-create-reports-with-xbrl.md)|
+|
 
 ## See Also
 [Finance](finance.md)    

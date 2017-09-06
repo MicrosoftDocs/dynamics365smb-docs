@@ -24,7 +24,7 @@ Sales tax includes taxes that companies pay for using items:
 ## To set up use tax for a purchase order  
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Orders**, and then choose the related link in **Order Processing**.  
 2.  In the **Purchase Orders** window, on the **Home** tab, in the **New** group, choose **New**.  
-3.  On the **Lines** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3.  On the **Lines** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]  
 4.  On the **Invoicing** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

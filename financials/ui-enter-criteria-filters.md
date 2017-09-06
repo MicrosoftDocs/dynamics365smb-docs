@@ -16,12 +16,17 @@ ms.author: solsen
 
 ---
 # Searching, Filtering, and Sorting Data
-There are a few things that you can do that will help you find, pinpoint, and scan records in a list. These include searching, filtering, and sorting.
+There are a few things that you can do that will help you find, pinpoint, and scan records in a list. These include sorting, searching and filtering.
 
 When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
 
 ## Sorting
-You can sort data in ascending or descending order either by choosing the column heading name or by choosing the downwards arrow in the column heading, and then choosing **Ascending** or **Descending**.  
+Sorting makes it easy for you to get a quick overview of your data. If you have many customers, for example, you can choose to sort them by **Customer No.**, **Customer Posting Group**, **Currency Code**, **Country Region Code**, or **Sales Tax Registration No.** to get the overview you need.
+
+To sort a list, you can either choose a column heading text to toggle between ascending and descending order, or choose the small downwards arrow in the column heading, and then choose **Ascending** or **Descending**.  
+
+> [!NOTE]  
+>   Sorting is not supported images, BLOB fields, FlowFilters, and fields that do not belong to a table.  
 
 ## Searching by Using the Quick Filter
 You can add filters to all pages by using the Quick Filter. The Quick Filter is enabled by choosing the magnifier icon in the top right corner of a page. This filtering type is used for a fast entry of criteria.

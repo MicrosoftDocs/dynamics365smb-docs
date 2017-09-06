@@ -27,7 +27,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |**To**|**See**|  
 |------------|-------------|  
 |Understand how production orders work.|[About Production Orders](production-about-production-orders.md)|
-|Record and post production output along with material and time consumption for a single released production order line.|[How to: Register Consumption and Output for a Single Released Production Order line](production-how-to-register-consumption-and-output.md)|  
+|Record and post production output along with material and time consumption for a single released production order line.|[How to: Post Consumption and Output for One Released Production Order Line](production-how-to-register-consumption-and-output.md)|  
 |Batch post the quantity of components used per operation in a journal that can processes multiple planned production orders.|[How to: Batch Post Consumption](production-how-to-post-consumption.md)|
 |Post the quantity of finished items and the time spent per operation in a journal that can processes multiple released production orders.|[How to: Batch Post Output and Run Times](production-how-to-post-output-quantity.md)|  
 |Post the number of items produced in each finished operation which do not qualify as finished output, but as scrapped material.|[How to: Post Scrap](production-how-to-post-scrap.md)|

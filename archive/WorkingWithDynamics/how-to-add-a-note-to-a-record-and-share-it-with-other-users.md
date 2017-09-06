@@ -1,9 +1,9 @@
 ---
     title: How to Add a Note to a Record and Share It with Other Users | Microsoft Docs
-    description: The ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/rtc_md.md)]--> enables you to attach a note to any record, such as a document or card. For example, if you have extra information about a sales order that does not belong in any of the fields on the sales order page, you can write it in a note. This note will be visible on the sales order for you and any of your colleagues who view the sales order.
+    description: You to attach a note to any record, such as a document or card for others to see.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: jswymer
 
     ms.service: dynamics365-financials
     ms.topic: article
@@ -12,7 +12,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 07/01/2017
-    ms.author: sgroespe
+    ms.author: jswymer
 
 ---
 # How to: Add a Note to a Record and Share It with Other Users

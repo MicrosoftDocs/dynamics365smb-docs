@@ -11,38 +11,64 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 09/06/2017
     ms.author: sgroespe
 
 ---
 # How to: Replan or Refresh Production Orders Directly
-The production order lines contain the items that are to be produced in the production order.  
+The **Replan** function on production orders is typically used after you have added or changed components that constitute underlying production orders. The function calculates changes made to components and routings lines, and it includes items on lower production BOM levels for which it may generate new production orders.  
 
- You can either insert the production order lines manually or use the function that calculates the production order lines from the header.  
+Based on the changes you have made to the components and routing lines, the Replan function calculates and plans for any new demand for the production order.  
 
- If you use the function to calculate the production order lines from the header, the old production order lines are deleted and new lines are calculated.  
+The **Refresh** function on production orders is typically used after you have done one of the following:
 
-### To calculate lines from a production order header  
+- Created a production order header manually to calculate and create line data for the first time.
+- Made changes to the production order header to recalculate all the line data.
+
+The Refresh function calculates changes made to a production order header and does not involve production BOM levels. The function calculates and initiates the values of the component lines and routing lines based on the master data defined in the assigned production BOM and routing, according to the order quantity and due date on the production order’s header.
+
+You can either insert the production order lines manually or use the function that calculates the production order lines from the header.  
+
+> [!NOTE]
+ If you use the Refresh function to recalculate production order lines, the old production order lines are deleted and new lines are calculated.  
+
+## To replan a production order  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Firm Planned Prod. Orders**, and then choose the related link.  
+2.  Open the production order you want to replan.  
+3.  On the **Lines** FastTab, choose the **Lines** action, and then choose the **Components** action.  
+4.  Add a component, which is a produced item or subassembly.  
+5.  From the production order, choose the **Replan** action.  
+
+    In the **Replan Production Order** window, proceed to define how and what to replan.  
+6.  In the **Scheduling Direction** field, select one of the following options.  
+
+    |Option|Description|  
+    |----------------------------------|---------------------------------------|  
+    |**Back**|Calculates the operation sequence backwards from the earliest possible ending date, defined by due date and/or other scheduled orders, to the latest possible starting date. **Note:**  This default option is relevant in the majority of situations.|  
+    |**Forward**|Calculates the operation sequence forward from the earliest latest possible starting date, defined by due date and/or other scheduled orders, to the earliest possible ending date. **Note:**  This option is only relevant for expedite orders.|  
+
+7.  In the **Plan** field, select whether to calculate production requirements for produced items on the production BOM, as follows.  
+
+    |Option|Description|  
+    |----------------------------------|---------------------------------------|  
+    |**No Levels**|Do not consider lower level production. This only updates the item’s schedule, like refresh.|  
+    |**One Level**|Plan for first-level production demand. First-level production orders may be created.|  
+    |**All Levels**|Plan for all-level production demand. All-level production orders may be created.|  
+
+8.  Select **One Level**, and choose the **OK** button to replan the production order, and calculate and create a new underlying production order for the introduced subassembly, if it is not fully available.  
+
+> [!NOTE]  
+>  Changes implemented with the **Replan** function are very likely to change the capacity need of the production order and you may therefore have to reschedule operations afterwards.  
+
+## To refresh a production order  
+If you have amended production order lines, components or routing lines, you must also refresh the information on the production order. In the following procedure, the components are calculated for a firm planned production order. The steps are similar for routing lines.
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Firm Planned Prod. Order**, and then choose the related link.  
+2.  Choose the **New** action. For more information, see [How to: Create Production orders](production-how-to-create-production-orders.md).  
+3.  Choose the **Refresh** action.
+4. In the **Refresh Production Order** window, select one of the following options:
 
-2.  Create a new firm planned production order.  
-
-3.  In the **No.** field, insert the next number in the series.  
-
-4.  In the **Source Type** field, select the source of the production order.  
-
-5.  In the **Source No.** field, select the item number, family, or sales header for which the production order is to be generated.  
-
-6.  Fill in the **Quantity** and **Due Date** fields according to your specifications.  
-
-7.  On the **Actions** tab, in the **Functions** group, choose **Refresh**. The **Refresh Production Order** window opens.  
-
-8.  On the **Production Order** FastTab, the current production order has been selected as a default.  
-
-9. The following table describes the options available for this batch job.  
-
-    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../../includes/bp_tabledescription_md.md)]-->|  
+    |Option|Description|  
     |----------------------------------|---------------|---------------------------------------|  
     |**Scheduling Direction**|**Forward**|Scheduling starts from the starting date and proceeds forward to the finishing date. You must fill in the starting date to use this option.|  
     ||**Backward**|Scheduling starts from the ending date and proceeds backward to the starting date.|  
@@ -51,73 +77,17 @@ The production order lines contain the items that are to be produced in the prod
     ||**Component Need**|This field has no influence on calculating the production lines.|  
     |**Warehouse**|**Create Inbound Request**|This field has no influence on calculating the production lines.|  
 
-10. Choose the **OK** button to confirm your selection. Now the production order lines are calculated.
-
-# How to: Calculate Production Order Components
-If you have amended production order lines, you must also refresh the components of the production order.  
-
- In the following procedure, the components are calculated for a firm planned production order. This can also be done for production orders with a different status.  
-
-### To calculate production order components  
-
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Firm Planned Prod. Order**, and then choose the related link.  
-
-2.  Open the relevant firm planned prod. order  from the list.  
-
-3.  On the **Actions** tab, in the **Functions** group, choose **Refresh**. The **Refresh Production Order** window opens.  
-
-     On the **Production Order** FastTab, the current production order has been selected as a default.  
-
-4.  The following table describes the options available for this batch job.  
-
-    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../../includes/bp_tabledescription_md.md)]-->|  
-    |----------------------------------|---------------|---------------------------------------|  
-    |**Scheduling Direction**|**Forward**|This field has no effect on the outcome.|  
-    ||**Backward**|This field has no effect on the outcome.|  
-    |**Calculate**|**Lines**|You must leave the field blank to retain the current production order line.|  
-    ||**Routings**|This field has no effect on the outcome.|  
-    ||**Component Need**|Select this field to calculate component need.|  
-    |**Warehouse**|**Create Inbound Request**|This field has no effect on the outcome.|  
-
-5.  Choose the **OK** button to confirm your selections. The production order components are refreshed.  
+5. Choose the **OK** button to confirm your selection. Now the production order lines are calculated.
 
 > [!NOTE]  
 >  Calculating production order components deletes previous changes in the components.
 
-# How to: Calculate Production Order Routing Lines
-If you have amended production order lines, you must also refresh the routing of the production order.  
-
- In the following procedure, the routing lines are calculated for a firm planned production order. This can also be done for production orders with a different status.  
-
-### To calculate production order routing lines  
-
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Firm Planned Prod. Order**, and then choose the related link.  
-
-2.  Open the relevant firm planned production order  from the list.  
-
-3.  On the **Actions** tab, in the **Functions** group, choose **Refresh**. The **Refresh Production Order** window opens.  
-
-4.  On the **Production Order** FastTab, the current production order has been selected as a default.  
-
-5.  The following table describes the options available for this batch job.  
-
-    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../../includes/bp_tabledescription_md.md)]-->|  
-    |----------------------------------|---------------|---------------------------------------|  
-    |**Scheduling Direction**|**Forward**|This field has no effect on the outcome.|  
-    ||**Backward**|This field has no effect on the outcome.|  
-    |**Calculate**|**Lines**|You must leave the field blank to retain the current production order line.|  
-    ||**Routings**|Select this field to calculate routings.|  
-    ||**Component Need**|This field has no effect on the outcome.|  
-    |**Warehouse**|**Create Inbound Request**|This field has no effect on the outcome.|  
-
-6.  Choose the **OK** button to confirm your selections. The production order routing lines are refreshed.  
-
-> [!NOTE]  
->  Calculating production order routing lines deletes previous changes in the routings.  
-
 ## See Also  
- [How to: Refresh Production Orders](../how-to-refresh-production-orders.md)   
- [How to: Calculate Production Order Components](../how-to-calculate-production-order-components.md)   
- [How to: Calculate Production Order Routing Lines](../how-to-calculate-production-order-routing-lines.md)   
- [About Production Orders](../about-production-orders.md)   
- [How to: Use the Manufacturing Batch Unit of Measure](../how-to-use-the-manufacturing-batch-unit-of-measure.md)
+[Planning](production-planning.md)  
+[Setting Up Manufacturing](production-configure-production-processes.md)  
+[Manufacturing](production-manage-manufacturing.md)    
+[Inventory](inventory-manage-inventory.md)  
+[Purchasing](purchasing-manage-purchasing.md)  
+[Design Details: Supply Planning](design-details-supply-planning.md)   
+[Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

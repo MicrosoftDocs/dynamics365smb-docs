@@ -27,6 +27,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |**To**|**See**|  
 |------------|-------------|  
 |Understand how production orders work.|[About Production Orders](production-about-production-orders.md)|
+|Outsource all or selected operations in a production order to a subcontractor.|[How to: Subcontract Manufacturing](production-how-to-subcontract-manufacturing.md)|
 |Record and post production output along with material and time consumption for a single released production order line.|[How to: Post Consumption and Output for One Released Production Order Line](production-how-to-register-consumption-and-output.md)|  
 |Batch post the quantity of components used per operation in a journal that can processes multiple planned production orders.|[How to: Batch Post Consumption](production-how-to-post-consumption.md)|
 |Post the quantity of finished items and the time spent per operation in a journal that can processes multiple released production orders.|[How to: Batch Post Output and Run Times](production-how-to-post-output-quantity.md)|  

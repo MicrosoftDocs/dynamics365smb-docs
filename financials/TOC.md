@@ -277,6 +277,7 @@
 
 # [Planning](production-planning.md)
 ## [About Planning Functionality](production-about-planning-functionality.md)
+## [How to: Subcontract Manufacturing](production-how-to-subcontract-manufacturing.md)
 ## [Planning with-without Locations](production-planning-with-without-locations.md)
 ## [How to: Create a Forecast](production-how-to-create-a-forecast.md)
 ## [How to: Create Production Orders from Sales Orders](production-how-to-create-production-orders-from-sales-orders.md)

@@ -1,6 +1,6 @@
 ---
     title: Walkthrough - Calculating Work in Process for a Job | Microsoft Docs
-    description: With jobs, you can schedule the usage of your company's resources and keep track of the various costs associated with the usage of resources on a specific project. Jobs involve the consumption of employee hours, machine hours, inventory items, and other types of usage that have to be tracked as a job progresses. If a job runs over a long period, you may want to transfer these costs to a Work in Process (WIP) account on the balance sheet while the job is being completed. You can then recognize the costs and sales in your income statement accounts when it is appropriate.
+    description: With jobs, you can schedule the usage of your company's resources and keep track of the various costs associated with the usage of resources on a specific project. Jobs involve the consumption of employee hours, machine hours, inventory items, and other types of usage that have to be tracked as a job progresses.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 09/06/2017
     ms.author: sgroespe
 
 ---
@@ -22,13 +22,9 @@ With jobs, you can schedule the usage of your company's resources and keep track
  This walkthrough illustrates the following tasks:  
 
 -   Calculating WIP.  
-
 -   Selecting a WIP calculation method.  
-
 -   Excluding part of a job from the WIP.  
-
 -   Posting the WIP to the general ledger.  
-
 -   Reversing a WIP posting.  
 
  Each step of the process calculates the value and moves the job transactions to the general ledger. The calculation and posting steps are separated to help you review your data and to make modifications before posting to the general ledger. Therefore, you should make sure that all information is correct after you run the calculation batch jobs and before you run the posting batch jobs.  
@@ -57,17 +53,15 @@ With jobs, you can schedule the usage of your company's resources and keep track
 
  In the following walkthrough, Tricia applies the Cost Value method, her company standard, to calculate WIP. She specifies what part of the job will be included in the WIP calculation by assigning WIP-Total values to various job task lines.  
 
-#### To calculate WIP  
+### To calculate WIP  
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.  
-
-2.  In the **Jobs** list, select the **Deerfield** job. On the **Home** tab, in the **Manage** group, choose **Edit**. This will open the job card in edit mode.  
+2.  In the **Jobs** list, select the **Deerfield** job, and then choose the **Edit** action. This will open the job card in edit mode.  
 
      WIP can be calculated based on Cost Value, Sales Value, Cost of Sales, Percentage of Completion, or Completed Contract. In this example, CRONUS uses the Cost Value method.  
 
 3.  On the **Posting** FastTab, choose the **WIP Method** field, and then select **Cost Value**.  
-
-4.  On the **Home** tab, in the **Process** group, choose **Job Task Lines** and set the following values in the **WIP-Total** field.  
+4.  Choose the **Job Task Lines** action and set the following values in the **WIP-Total** field.  
 
      The following table describes the values.  
 
@@ -78,14 +72,10 @@ With jobs, you can schedule the usage of your company's resources and keep track
     |1210|Excluded|  
     |1310|Excluded|  
 
-5.  On the **Actions** tab, in the **Functions** group, choose **WIP**, and then choose **Calculate WIP**.  
-
+5.  Choose the **WIP** action, and then choose the **Calculate WIP** action.  
 6.  In the **Job Calculate WIP** window, you can select a job that you want to calculate WIP. On the **Job** FastTab, select **Deerfield** in the **No.** field.  
-
 7.  In the **Posting Date** field, enter a date that is later than the work date.
-
 8.  In the **Document No.** field, enter **1**. This creates a document that you can refer to later for traceability.  
-
 9. Choose the **OK** button to run the batch job. A message is displayed. Choose the **OK** button to continue. Close the **Job Task Lines** window.  
 
     > [!NOTE]  
@@ -95,24 +85,21 @@ With jobs, you can schedule the usage of your company's resources and keep track
 
  Notice that the value for **Recog. Costs Amount** is 215.60 in the **To Post** column. This reflects the total costs of two of the items in the group of job tasks 1110 – 1130. The third item was set to **Excluded**, and therefore is not included in the WIP calculation.  
 
-#### To review WIP warnings  
+### To review WIP warnings  
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job WIP Cockpit**, and then choose the related link.  
-
-2.  Select the **Deerfield** job, and on the **Home** tab, in the **Process** group, choose **Show Warnings**.  
-
+2.  Select the **Deerfield** job, and then choose the **Show Warnings** action.  
 3.  In the **Job WIP Warnings** window, review the warning associated with the job.  
 
  After the accounting period ends, Tricia has to recalculate the WIP to include completed work to this point.  
 
-#### To recalculate WIP  
+### To recalculate WIP  
 
-1.  On the **Job** card, on the **Navigate** tab, in the **WIP** group, choose **WIP Entries** to view the WIP calculation.  
+1.  On the **Job** card, choose the **WIP Entries** action to view the WIP calculation.  
 
      The **Job WIP Entries** window shows the WIP entries that were last calculated on a job, even if WIP has not yet been posted to the general ledger.  
 
 2.  You can follow the steps in the procedure that explains how to calculate WIP to recalculate WIP. Every time WIP is calculated, an entry is created in the **Job WIP Entries** window.  
-
 3.  Close the window.  
 
 > [!NOTE]  
@@ -121,63 +108,43 @@ With jobs, you can schedule the usage of your company's resources and keep track
 ## Posting WIP to General Ledger  
  Now that Tricia has calculated WIP for this job, she can post it to the general ledger.  
 
-#### To post WIP to general ledger  
+### To post WIP to general ledger  
 
 1.  From the **Jobs** list, select the **Deerfield** job.  
-
-2.  On the **Actions** tab, in the **Functions** group, choose **WIP**, and then choose **Post WIP to G/L**.  
-
+2.  Choose the **WIP** action, and then choose the **Post WIP to G/L** action.  
 3.  In the **Job Post WIP to G/L** window, on the **Job** FastTab, select **Deerfield** in the **No.** field.  
-
 4.  On the **Options** FastTab, in the **Reversal Document No.** field, enter **1**.  
-
 5.  Choose the **OK** button to post WIP to the general ledger.  
-
 6.  Choose the **OK** button to close the confirmation window.  
 
      After you have completed the posting, you can view the posting information in the **WIP G/L Entries** window.  
 
-7.  In the **Jobs** list, select the **Deerfield** job, and on the **Navigate** tab, in the **WIP** group, choose **WIP G/L Entries**.  
+7.  In the **Jobs** list, select the **Deerfield** job, and then choose the **WIP G/L Entries** action.  
 
      In the **Job WIP G/L Entries** window, verify that the WIP has been posted to the general ledger.  
 
 8.  Close the window.  
-
 9. Open the **Job** card for the **Deerfield** job.  
-
 10. On the **WIP and Recognition** FastTab, notice that in the **Posted** column, the **Recog. Costs G/L Amount** field is now filled in, which indicates that WIP was posted to the general ledger successfully.  
-
 11. Choose the **OK** button to close the card.  
 
 ## Reversing a WIP Posting  
  Tricia determines that the job tasks that were excluded from the calculation of WIP should have been calculated in WIP. She can reverse the incorrect postings without having to post new WIP postings.  
 
-#### To reverse a WIP posting  
+### To reverse a WIP posting  
 
 1.  From the **Jobs** list, select the **Deerfield** job.  
-
-2.  On the **Actions** tab, in the **Functions** group, choose **WIP**, and then choose **Post WIP to G/L**.  
-
+2.  Choose the **WIP** action, and then choose the **Post WIP to G/L** action.  
 3.  In the **Job Post to WIP to G/L** window, on the **Job** FastTab, select **Deerfield** in the **No.** field.  
-
 4.  On the **Options** FastTab, in the **Reversal Document No.** field, enter **1**.  
-
 5.  In the **Reversal Posting Date** field, enter the original posting date. It should be the same date that you used to calculate WIP the first time.  
-
 6.  Select the **Reverse Only** check box. This will reverse previously posted WIP, but does post new WIP to the general ledger.  
-
 7.  Choose the **OK** button to run the batch job, and choose the **OK** button to close the confirmation window.  
-
 8.  Open the **Job** card for **Deerfield**.  
-
 9. On the **WIP and Recognition** FastTab, verify that there are no posted WIP entries.  
-
 10. Close this window.  
-
-11. In the **Jobs** list, select the **Deerfield** job, choose the **Navigate** tab, choose **WIP**, and then choose **WIP G/L Entries**. The WIP entries have the **Reversed** check box selected.  
-
+11. In the **Jobs** list, select the **Deerfield** job, choose the **WIP** action, and then choose the **WIP G/L Entries** action. The WIP entries have the **Reversed** check box selected.  
 12. Close this window.  
-
 13. Open **Job Task Lines** for the job, include the parts of the job that should be in the WIP calculation, and then recalculate and post the new value to the general ledger.  
 
     > [!NOTE]  

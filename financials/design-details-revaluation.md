@@ -37,7 +37,7 @@ Because revaluation can be made on any date, you must have conventions for when 
 ### Example  
 The following example illustrates when a WIP item transitions to become part of inventory. The example is based on the production of a chain with 150 links.  
 
-![WIP inventory and revaluation](Image/design_details_inventory_costing_10_revaluation_wip.png "design_details_inventory_costing_10_revaluation_wip")  
+![WIP inventory and revaluation](media/design_details_inventory_costing_10_revaluation_wip.png "design_details_inventory_costing_10_revaluation_wip")  
 
 **1Q**: The user posts the purchased links as received. The following table shows the resulting item ledger entry.  
 

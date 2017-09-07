@@ -84,6 +84,6 @@ Expected costs represent the estimation of, for example, a purchased item’s co
  [Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md)   
  [Design Details: Inventory Posting](design-details-inventory-posting.md)   
  [Design Details: Variance](design-details-variance.md)  
- [Managing Inventory Costs](finance-manage-inventory-costs)  
+ [Managing Inventory Costs](finance-manage-inventory-costs.md)  
  [Finance](finance.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

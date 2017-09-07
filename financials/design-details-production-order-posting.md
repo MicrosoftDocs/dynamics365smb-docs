@@ -106,6 +106,6 @@ In standard-cost environments, the costing of a production order is based on the
 ## See Also  
  [Design Details: Inventory Costing](design-details-inventory-costing.md)   
  [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)  
- [Managing Inventory Costs](finance-manage-inventory-costs)
+ [Managing Inventory Costs](finance-manage-inventory-costs.md)
  [Finance](finance.md)  
  [Working with Financials](ui-work-product.md)

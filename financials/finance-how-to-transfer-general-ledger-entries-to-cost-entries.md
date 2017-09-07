@@ -27,7 +27,7 @@ Before you run the process for transferring general ledger entries to cost entri
 3.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Chart of Cost Types**, and then choose the related link.  
 4.  In the **Cost Type Card** window, verify that the **G/L Account Range** field is linked correctly for each cost type to take entries from the general ledger.  
 5.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Chart of Accounts**, and then choose the related link.  
-6.  For each relevant general ledger account, in the **G/L Account Card** window, verify that the **Cost Type No.** field is linked correctly to a cost type. For more information, see [Defining the Relationship Between Cost Types and General Ledger Accounts](defining-the-relationship-between-cost-types-and-general-ledger-accounts..md).  
+6.  For each relevant general ledger account, in the **G/L Account Card** window, verify that the **Cost Type No.** field is linked correctly to a cost type. For more information, see [Defining the Relationship Between Cost Types and General Ledger Accounts](finance-defining-the-relationship-between-cost-types-and-general-ledger-accounts..md).  
 7.  Verify that all relevant general ledger entries have dimension values that correspond to a cost center and a cost object.  
 
 ## To transfer general ledger entries to cost entries  
@@ -37,8 +37,8 @@ Before you run the process for transferring general ledger entries to cost entri
     During the transfer, the process creates connections in the entries in the **Cost Entry** table and the **Cost Register** table. This makes it possible to trace the source of cost entries.  
 
 ## See Also  
- [Criteria for Transferring General Ledger Entries to Cost Entries](finance-criteria-for-transferring-general-ledger-entries-to-cost-entries.md)   
+ [Criteria for Transferring General Ledger Entries to Cost Entries](finance-finance-criteria-for-transferring-general-ledger-entries-to-cost-entries.md)   
  [Automatic Transfer and Combined Entries](finance-automatic-transfer-and-combined-entries.md)   
- [Results of the Transfer](results-of-the-transfer.md)   
+ [Results of the Transfer](finance-results-of-the-transfer.md)   
  [Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)   
  [Defining the Relationship Between Cost Types and General Ledger Accounts](finance-defining-the-relationship-between-cost-types-and-general-ledger-accounts.md)   

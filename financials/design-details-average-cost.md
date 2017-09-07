@@ -207,6 +207,6 @@ The average cost of an item is calculated with a periodic weighted average, base
  [Design Details: Costing Methods](design-details-costing-methods.md)   
  [Design Details: Cost Adjustment](design-details-cost-adjustment.md)   
  [Design Details: Item Application](design-details-item-application.md)  
- [Managing Inventory Costs](finance-manage-inventory-costs)  
+ [Managing Inventory Costs](finance-manage-inventory-costs.md)  
  [Finance](finance.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

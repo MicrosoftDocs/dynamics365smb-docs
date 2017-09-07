@@ -120,6 +120,6 @@ For more information about the relationship between the account types and the di
  [Design Details: Inventory Costing](design-details-inventory-costing.md)   
  [Design Details: Expected Cost Posting](design-details-expected-cost-posting.md)   
  [Design Details: Cost Adjustment](design-details-cost-adjustment.md)
- [Managing Inventory Costs](finance-manage-inventory-costs)  
+ [Managing Inventory Costs](finance-manage-inventory-costs.md)  
  [Finance](finance.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

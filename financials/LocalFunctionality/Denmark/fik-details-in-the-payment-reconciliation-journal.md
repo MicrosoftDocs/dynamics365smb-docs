@@ -30,5 +30,4 @@ The **Transaction Text** field in the **Payment Reconciliation Journal** window 
 |**Invoice Already Paid**|The system has discovered that a FIK number on a payment matches a sales invoice that is fully applied and closed.|  
 
 ## See Also  
- Payment Reconciliation Journal   
- [Reconcile Payments Automatically](reconcile-payments-automatically.md) 
+[How to: Reconcile Payments Using Automatic Application](../../receivables-how-reconcile-payments-auto-application.md) 

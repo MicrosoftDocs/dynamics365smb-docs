@@ -84,7 +84,7 @@ This is referred to as a specific reservation, because you reserve from the quan
 The following procedure is based on a sales order.    
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then select the related link.  
 2. Create a sales order line for an item-tracked item.  
-3. Assign serial and lot numbers to the sales order line. For more information, see [How to: Assign Serial Numbers and Lot Numbers During Outbound Transactions](across-how-to-assign-serial-numbers-and-lot-numbers-during-outbound-transactions.md).
+3. Assign serial and lot numbers to the sales order line. For more information, see [How to: Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md).
 4. On the sales order line, choose the **Reserve** action.  
 5. Choose the **Yes** button to reserve specific serial or lot numbers.  
 6. In the   **Item Tracking List** window, select the serial and lot number combination that you have just assigned.  

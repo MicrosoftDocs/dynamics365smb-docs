@@ -26,11 +26,11 @@ Before you define cost allocations, you must understand how cost entries come fr
 |**To**|**See**|  
 |------------|-------------|  
 |Understand criteria for transferring cost entries from general ledger.|[Criteria for Transferring General Ledger Entries to Cost Entries](finance-criteria-for-transferring-general-ledger-entries-to-cost-entries.md)|  
-|Transfer general ledger entries to cost entries with a batch job.|[How to: Transfer General Ledger Entries to Cost Entries](finance-automatic-transfer-and-combined-entries.md)|  
+|Transfer general ledger entries to cost entries with a batch job.|[How to: Transfer General Ledger Entries to Cost Entries](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)|  
 |See the results of the transfer.|[Results of the Transfer](finance-results-of-the-transfer.md)|  
 
 ## See Also  
- [About Cost Accounting](about-cost-accounting.md)   
- [Setting Up Cost Accounting](set-up-cost-accounting.md)   
- [Defining and Allocating Costs](define-and-allocate-costs.md)   
- [Accounting for Costs](manage-cost-accounting.md)
+ [About Cost Accounting](finance-about-cost-accounting.md)   
+ [Setting Up Cost Accounting](finance-set-up-cost-accounting.md)   
+ [Defining and Allocating Costs](finance-define-and-allocate-costs.md)   
+ [Accounting for Costs](finance-manage-cost-accounting.md)

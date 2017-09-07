@@ -40,7 +40,7 @@ Even though inventory costs are automatically posted to the general ledger, it i
 |Transfer inventory items between locations with transfer orders, to manage warehouse activities, or with the item reclassification journal.|[How to: Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)|
 |Reserve inventory or inbound items for sales orders, purchase orders, service orders, assembly orders, or production orders.|[How to: Reserve Items](inventory-how-to-reserve-items.md)|
 |Assign serial numbers or lot numbers to any outbound or inbound document or journal line, for example to track items in case of recalls.|[How to: Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)|
-|Find where any serial or lot number was used in its supply chain, for example in recall situations.|[How to: Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items)|
+|Find where any serial or lot number was used in its supply chain, for example in recall situations.|[How to: Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)|
 |Manage business operations in sales offices, a purchasing departments, or plant planning offices across multiple locations.|[How to: Work with Responsibility Centers](inventory-responsibility-centers.md)|
 
 ## See Also  

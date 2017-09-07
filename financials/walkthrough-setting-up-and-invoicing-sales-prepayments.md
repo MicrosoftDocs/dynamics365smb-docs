@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/07/2017
+    ms.date: 09/07/2017
     ms.author: sgroespe
 
 ---
@@ -24,24 +24,17 @@ Prepayments are payments that are invoiced and posted to a sales or purchase pre
  This walkthrough will take you through the following scenarios:  
 
 -   Setting up prepayments  
-
 -   Creating an order that requires a prepayment  
-
 -   Creating a prepayment invoice  
-
 -   Correcting the prepayment requirements on an order  
-
 -   Applying prepayments to an order  
-
 -   Invoicing the final amount on an order with prepayment  
 
 ### Roles  
  This walkthrough includes tasks for the following roles:  
 
 -   Accounting Manager (Phyllis)  
-
 -   Order Processor (Susan)  
-
 -   Accounts Receivable Administrator (Arnie)  
 
 ## Story  
@@ -63,9 +56,7 @@ Prepayments are payments that are invoiced and posted to a sales or purchase pre
  Phyllis sets up the system to handle prepayments for customers.  
 
 -   Phyllis decides to have the same number series for prepayments as the one used for sales invoicing.  
-
 -   Phyllis sets the program to check if prepayments are required before final invoicing on an order.  
-
 -   Phyllis sets up default values for a required prepayment percentage for particular items and customers.  
 
 The following procedures describe how to complete Phyllis' tasks:  

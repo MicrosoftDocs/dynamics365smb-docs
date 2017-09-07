@@ -1,6 +1,6 @@
 ---
     title: Walkthrough - Planning Supplies Manually | Microsoft Docs
-    description: This walkthrough demonstrates the process of planning supply orders to fulfill new demand. You can initiate supply planning at fixed intervals, for example, every morning or every Monday, or when you are notified by sales or production, depending on the type of demand. In this walkthrough you will use the **Order Planning** window, a simple supply planning tool that is based on manual decision-making instead of parameter-based automatic planning.
+    description: This walkthrough demonstrates the process of planning supply orders to fulfill new demand. You can initiate supply planning at fixed intervals, for example, every morning or every Monday, or when you are notified by sales or production, depending on the type of demand.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 09/07/2017
     ms.author: sgroespe
 
 ---
@@ -22,27 +22,21 @@ This walkthrough demonstrates the process of planning supply orders to fulfill n
  This walkthrough illustrates the following tasks:  
 
 -   Planning a purchase order for manufacturing components.  
-
 -   Planning a transfer order to fulfill sales demand.  
-
 -   Planning a production order for a multilevel item.  
 
 ## Roles  
  This walkthrough demonstrates tasks performed by the following user roles:  
 
 -   Production Planner  
-
 -   Purchasing Agent  
-
 -   Sales Order Processor  
 
 ## Prerequisites  
  Before you begin this walkthrough, you must install the [!INCLUDE[d365fin](includes/d365fin_md.md)]. The following modifications must be made to the database:  
 
 -   Delete all existing sales orders for bicycles.  
-
 -   Create one sales order for 10 bicycles at BLUE location.  
-
 -   Delete all planned and firm planned production orders. Do not delete started orders with entries that are already posted.  
 
  As a rule, use the suggested data in this walkthrough because this data has the necessary records.  
@@ -61,20 +55,17 @@ This walkthrough demonstrates the process of planning supply orders to fulfill n
  The **Order Planning** window can be accessed from several different locations on the **Departments** menu in the navigation pane:  
 
 -   Manufacturing, Planning  
-
 -   Sales & Marketing, Order Processing  
-
 -   Purchase, Planning  
-
 -   In addition, you can open this window for a specific production order by choosing **Planning** on the **Navigate** tab in the **Order** group.  
 
-#### To use the Order Planning window  
+### To use the Order Planning window  
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Order Planning**, and then choose the related link.  
 
      When the **Order Planning** window first opens, a plan must be calculated to show the new demand since it was last calculated.  
 
-2.  On the **Actions** tab, in the **Functions** group, choose **Calculate Plan**.  
+2.  Choose the **Calculate Plan** action.  
 
      The planning system analyzes any new demand that has been introduced, such as new sales, changed sales, or production orders.  
 
@@ -95,28 +86,22 @@ This walkthrough demonstrates the process of planning supply orders to fulfill n
 ## Planning a Purchase Order to Fulfill Component Demand  
  In this procedure, you create a purchase order for needed manufacturing components.  
 
-#### To plan a purchase order to fulfill component need in production  
+### To plan a purchase order to fulfill component need in production  
 
 1.  Expand the first line (choose the + symbol).  
-
-2.  Choose the first demand line, with item **LSU-15**, and then on the **Navigate** tab, in the **Line** group, choose **Show Document**.  
-
+2.  Choose the first demand line, with item **LSU-15**, and then choose the **Show Document** action.  
 3.  Close the opened production order to return to the **Order Planning** window.  
-
 4.  In the **Replenishment System** field, select **Purchase**.  
 
      The default value is from the item card, or SKU card, but you can change it to one of the following options:  
 
     -   **Purchase** – To create a purchase order.  
-
     -   **Transfer** – To create a transfer order.  
-
     -   **Prod. Order** – To create a production order.  
 
 5.  In the **Supply From** field, select one of the following options according to the selected replenishment system:  
 
     -   **Vendor** – For purchases  
-
     -   **Location** – For transfers  
 
      If the field is not filled in, an error message will display when you try to create the supply orders.  
@@ -125,21 +110,15 @@ This walkthrough demonstrates the process of planning supply orders to fulfill n
     >  If the components have a default vendor number set up on the item cards, the lines will be preset.  
 
 6.  Choose the **Supply From**  field.  
-
-7.  In the **Item Vendor Catalogue** window, choose **New**, and then select vendor **30000**.  
-
+7.  In the **Item Vendor Catalogue** window, choose the **New** action, and then select vendor **30000**.  
 8.  Choose the **OK** button to return to the **Order Planning** window.  
-
 9. Copy vendor **30000** to the other lines for loudspeaker components on this production order.  
 
      You are now ready to create a purchase order.  
 
-10. On the **Actions** tab, choose **Make Orders**. The **Make Supply Orders** window opens.  
-
+10. Choose the **Make Orders** action. The **Make Supply Orders** window opens.  
 11. On the **Order Planning** FastTab, in the **Make Orders for** field, choose the **Active Order** option.  
-
 12. On the **Options** FastTab, in the **Create Purchase Order** field, choose the **Make Purch. Order** option.  
-
 13. Choose the **OK** button to create purchase orders for all the components of the order.  
 
      The purchase orders are now created and saved as the last orders in the list of purchase orders.  
@@ -147,10 +126,9 @@ This walkthrough demonstrates the process of planning supply orders to fulfill n
 ## Planning a Transfer Order to Fulfill Sales Demand  
  In this procedure, you will plan for demand from a sales order. Demand lines represent sales lines and not component lines, as in production demand.  
 
-#### To plan a transfer order to fulfill sales demand  
+### To plan a transfer order to fulfill sales demand  
 
 1.  Move the pointer to the planning line for order **2008**.  
-
 2.  Expand the line and move the pointer to the demand line.  
 
      Sales order **2008** is for ten loudspeakers, item **LS-120**, ordered by John Haddock Insurance Co.  
@@ -161,18 +139,14 @@ This walkthrough demonstrates the process of planning supply orders to fulfill n
     >  At the bottom of the window, there are four information fields. In the **Earliest Date Available** field, the ten pieces that are needed will be available, on an inbound supply order, nine days later than the current due date. If this is too late for the customer, the **Available for Transfer** field shows 13 pieces of the item at another location. You will want to plan for this stock.  
 
 3.  Choose the **Available for Transfer** field to open the **Get Alternative Supply** window.  
-
 4.  Choose the **OK** button to book the ten items that are available.  
 
     > [!NOTE]  
     >  In the demand line, the suggested purchase has been exchanged with a transfer from GREEN location. The **Make Orders** function creates a transfer order from GREEN to the demanded location. The **Substitutes Exists** field works in the same way.  
 
-5.  On the **Actions** tab, in the **Functions** group, choose **Make Orders**. The **Make Supply Orders** window opens.  
-
+5.  Choose the **Make Orders** action. The **Make Supply Orders** window opens.  
 6.  On the **Order Planning** FastTab, in the **Make Orders for** field, choose the **The Active Order** option.  
-
 7.  On the **Options** FastTab, in the **Create Transfer Order** field, select the **Make Trans. Orders** option.  
-
 8.  Choose the **OK** button to create the transfer order to supply the sales order.  
 
      The transfer order is now created and saved in the list as the last order in the list of open transfer orders.  
@@ -180,19 +154,16 @@ This walkthrough demonstrates the process of planning supply orders to fulfill n
 ## Planning a Multilevel Production Order to Fulfill Sales Demand  
  In this procedure, you will plan to fulfill sales demand for a produced item with multiple product levels, each creating dependent production demand.  
 
-#### To plan multilevel production to fulfill sales demand  
+### To plan multilevel production to fulfill sales demand  
 
 1.  Select the planning line with sales demand for order **1001**, created earlier as prerequisite data.  
 
      This demand is a sales line, but the item has a defined replenishment system of **Prod. Order**. Proceed to add an extra bell to the component need of each bicycle.  
 
-2.  On the **Navigate** tab, in the **Line** group, choose **Components** to open the **Planning Components** window.  
-
+2.  Choose the **Components** action to open the **Planning Components** window.  
 3.  On the line with the Bell item, change the **Quantity per** field from **1** to **2**.  
-
 4.  In the **Order Planning** window, consider your planning alternatives. In this case, you have no alternative means of supply, no transfer, substitute, or later delivery. You must create the suggested supply order, a production order.  
-
-5.  On the **Actions** tab, in the **General** group, choose **Make Orders** to create the production order.  
+5.  Choose the **Make Orders** action to create the production order.  
 
      In the **Order Planning** window, notice that the planning line for sales order **1001** no longer exists and that the initial sales demand has been covered.  
 
@@ -202,21 +173,19 @@ This walkthrough demonstrates the process of planning supply orders to fulfill n
 
  As a production planner you now must plan a specific production order.  
 
-#### To plan a specific production order  
+### To plan a specific production order  
 
 1.  Open the production order **101001**, for ten bicycles, that you just created by using the **Make Orders** function.  
-
 2.  Open the **Prod. Order Components** window to check that the extra bell is reflected on the production order.  
-
-3.  On the **Navigate** tab, in the **Order** group, choose **Planning**.  
+3.  Choose the **Planning** action.  
 
      The **Order Planning** window opens in a view that is always filtered on the specific production demand. Sales demand is not displayed. You must calculate a plan before you can see any additional demand.  
 
-4.  On the **Actions** tab, in the **Functions** group, choose **Calculate Plan**.  
+4.  Choose the **Calculate Plan** action.  
 
      Notice that four new production orders appear as unplanned production demand derived from order **101001**. The new lines represent new production demand from the subassemblies that must be created to produce the order.  
 
-5.  On the **Actions** tab, in the **General** group, choose **Expand All**  to get an overview of all the production demand for the production orders.  
+5.  Choose the **Expand All** action to get an overview of all the production demand for the production orders.  
 
      To provide additional information about the demand lines, you may want to add the **Demand Quantity** and **Demand Qty. Available** fields to your view.  
 
@@ -226,7 +195,7 @@ This walkthrough demonstrates the process of planning supply orders to fulfill n
 
      The default replenishment settings are already filled in and you can proceed to make orders.  
 
-6.  On the **Actions** tab, in the **General** group, choose **Make Orders**.  
+6.  Choose the **Make Orders** action.  
 
      Before you choose the **OK** button, notice the text on the **Order Planning** FastTab. This text is important because you know that the bicycle has several produced components, subassemblies, in its product structure that might be in demand when you create this production order.  
 
@@ -236,19 +205,17 @@ This walkthrough demonstrates the process of planning supply orders to fulfill n
 
      In the **Order Planning** window, you calculate a plan again in order to plan the bicycle structure.  
 
-8.  On the **Actions** tab, in the **Functions** group, choose **Calculate Plan** to recalculate the plan as instructed by the embedded Help text.  
+8.  Choose the **Calculate Plan** action to recalculate the plan as instructed by the embedded Help text.  
 
      The two new lines represent additional production demand derived from the subassemblies planned in the previous steps. It is suggested that you make two production orders to supply the wheel hubs, one for 10 front hubs and one for 10 back hubs.  
 
-9. On the **Actions** tab, in the **General** group, choose **Expand All**  to get an overview of all the demand for the two production orders.  
+9. Choose the **Expand All** action to get an overview of all the demand for the two production orders.  
 
      The suggested supply plan indicates that a total of four purchase orders will be created for the components. You decide to make the proposed orders.  
 
-10. On the **Actions** tab, in the **General** group, choose **Make Orders**.  
-
+10. Choose the **Make Orders** action.  
 11. In the **Make Orders for** field, select the **All Lines** option, and then choose the **OK** button. Check if additional demand exists for the production of the parent item, the bicycle, which is being sold on sales order 1001.  
-
-12. On the **Actions**, in the **Functions** group, choose **Calculate Plan**.  
+12. Choose the **Calculate Plan** action.  
 
      The message indicates that all required items are now supplied. Verify the firm planned production orders that are created.  
 

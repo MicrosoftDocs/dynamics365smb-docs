@@ -35,7 +35,7 @@ For purchase orders, sales return orders, inbound transfer orders, and assembly 
 4. Choose the **Create Inbound Whse. Request** action.  
 
 > [!NOTE]  
->  You can also create the inbound warehouse request by selecting the **Create Inbound Request** check box when you refresh the production order. For more information, see [How to: Refresh Production Orders](production-how-to-refresh-production-orders.md).  
+>  You can also create the inbound warehouse request by selecting the **Create Inbound Request** check box when you refresh the production order. For more information, see [How to: Refresh or Replan Production Orders](production-how-to-replan-refresh-production-orders.md).  
 
 When the warehouse request is created, a warehouse employee assigned to putting items away can see that the source document is ready and can create an inventory put-away document.  
 

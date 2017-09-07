@@ -20,7 +20,7 @@ This documentation provides detailed technical insight into the concepts and pri
 
 ## In This Section  
  [General Journal Post Line Overview](design-details-general-journal-post-line-overview.md)  
-  
+
  [Design Details: Posting Interface Structure](design-details-posting-interface-structure.md)  
 
  [Design Details: Posting Engine Structure](design-details-posting-engine-structure.md)  
@@ -30,4 +30,4 @@ This documentation provides detailed technical insight into the concepts and pri
  [Codeunit 12 Changes: Changes in General Journal Post Procedures](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)  
 
 ## See Also  
- [Work with General Journals](work-with-general-journals.md)
+ [Working with General Journals](ui-work-general-journals.md)

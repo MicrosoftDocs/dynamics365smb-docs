@@ -30,8 +30,8 @@ This content contains detailed technical information about complex application f
 |Learn about the General Journal Posting Line feature, including recent simplifications to the design of codeunit 12.|[Design Details: General Journal Post Line](design-details-general-journal-post-line.md)|  
 
 ## See Also  
- [Operations Planning](operations-planning.md)   
- [Manage Inventory Costs](manage-inventory-costs.md)   
- [Perform Warehouse Activities](perform-warehouse-activities.md)   
- [Set Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)  
+ [Planning](production-planning.md)   
+ [Managing Inventory Costs](finance-manage-inventory-costs.md)   
+ [Warehouse Management](warehouse-manage-warehouse.md)   
+ [Setting Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

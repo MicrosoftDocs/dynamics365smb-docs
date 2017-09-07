@@ -95,6 +95,6 @@ The following table shows how the amounts to post to the general ledger are calc
  [Design Details: Inventory Costing](design-details-inventory-costing.md)   
  [Design Details: Inventory Posting](design-details-inventory-posting.md)   
  [Design Details: Expected Cost Posting](design-details-expected-cost-posting.md)  
- [Managing Inventory Costs](finance-manage-inventory-costs)  
+ [Managing Inventory Costs](finance-manage-inventory-costs.md)  
  [Finance](finance.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

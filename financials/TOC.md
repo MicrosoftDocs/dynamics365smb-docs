@@ -277,6 +277,7 @@
 
 # [Planning](production-planning.md)
 ## [About Planning Functionality](production-about-planning-functionality.md)
+## [How to: Subcontract Manufacturing](production-how-to-subcontract-manufacturing.md)
 ## [Planning with-without Locations](production-planning-with-without-locations.md)
 ## [How to: Create a Forecast](production-how-to-create-a-forecast.md)
 ## [How to: Create Production Orders from Sales Orders](production-how-to-create-production-orders-from-sales-orders.md)
@@ -300,6 +301,8 @@
 
 # [Manufacturing](production-manage-manufacturing.md)
 ## [About Production Orders](production-about-production-orders.md)
+## [How to: Create Production Orders](production-how-to-create-production-orders.md)
+## [How to: Subcontract Manufacturing](production-how-to-subcontract-manufacturing.md)
 ## [How to: Post Consumption and Output for One Released Production Order Line](production-how-to-register-consumption-and-output.md)
 ## [How to: Batch Post Consumption](production-how-to-post-consumption.md)
 ## [How to: Batch Post Output and Run Times](production-how-to-post-output-quantity.md)
@@ -320,7 +323,6 @@
 ## [Planning Service](service-plan-service.md)
 ## [Fulfilling Service Contracts](service-fulfill-service-contracts.md)
 ## [Delivering Service](service-deliver-service.md)
-
 
 # [General Business Functionality](ui-across-business-areas.md)
 ## [How to: Set Up Extended Item Text](ui-how-define-ext-text.md)
@@ -344,8 +346,6 @@
 ## [Defining User Tasks](across-user-tasks.md)
 
 # [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)
-## [Walkthrough: Synchronizing Information Between Outlook and [!INCLUDE[d365fin](includes/d365fin_md.md)]](walkthrough-synchronizing-information-between-outlook-and-microsoft-dynamics-nav.md)
-## [Walkthrough: Logging Email Interactions in the Database](walkthrough-logging-email-interactions-in-the-database.md)
 ## [Walkthrough: Conducting a Sales Campaign](walkthrough-conducting-a-sales-campaign.md)
 ## [Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ## [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)

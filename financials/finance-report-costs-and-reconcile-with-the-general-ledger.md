@@ -32,7 +32,7 @@ At the end of accounting periods, monthly, yearly or other, a sequence of cost c
 
 ## See Also  
 [Setting Up Inventory Valuation and Costing](finance-set-up-inventory-valuation-and-costing.md)  
-[Managing Inventory Costs](finance-manage-inventory-costs)  
+[Managing Inventory Costs](finance-manage-inventory-costs.md)  
 [Finance](finance.md)  
 [Inventory](inventory-manage-inventory.md)   
 [Sales](sales-manage-sales.md)   

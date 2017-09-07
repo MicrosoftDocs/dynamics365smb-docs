@@ -106,4 +106,4 @@ The following changes have been implemented in this release of [!INCLUDE[d365fin
 ||CrCardTransactionEntryNo@1013 : Integer;|Added|  
 
 ## See Also  
- [Codeunit 12 Changes: Changes in General Journal Post Procedures](codeunit-12-changes-changes-in-general-journal-post-procedures.md)
+ [Design Details: Codeunit 12 Changes: Changes in General Journal Post Procedures](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)

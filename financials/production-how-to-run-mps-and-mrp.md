@@ -23,7 +23,7 @@ The terms "running the planning worksheet" or "running MRP" refer to the calcula
 
 The planning algorithms used for both MPS and MRP are identical. The planning algorithms pertain to netting, reuse of existing replenishment orders, and action messages. The planning system process examines what is needed or will be needed (demand) and what is on-hand or expected (supply). When these quantities are netted against each other, [!INCLUDE[d365fin](includes/d365fin_md.md)] provides action messages. Action messages are suggestions to create a new order, change an order (quantity or date), or cancel an order already on order. The term "order" includes purchase orders, assembly orders, production orders, and transfer orders.
 
-Links created by the planning engine between demand and its related supply can be tracked in the **Order Tracking** window. For more information, see [How to: Track Relations Between Demand and Supply](production-track-demand-supply.md).   
+Links created by the planning engine between demand and its related supply can be tracked in the **Order Tracking** window. For more information, see [How to: Track Relations Between Demand and Supply](production-how-track-demand-supply.md).   
 
 Proper planning results depend on the set up done on item cards, assembly BOMs, production BOMs, and routings.  
 

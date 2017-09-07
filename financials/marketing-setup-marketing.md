@@ -54,11 +54,6 @@ For more information about number series, see [How to: Create Number Series](ui-
 ## Searching for Duplicate Contacts when Contacts are Created
 You can choose to have the program automatically search for duplicates each time you create a contact company, or you can choose to search manually after you have created contacts. You can also choose to have the program update the search strings automatically each time you modify contact information or create a contact. You can decide the search hit percentage, that is, the percentage of identical strings two contacts must have for the program to consider them as duplicates.
 
-## Setting Up Email Logging
-You can exchange email messages with your contacts, customers, vendors, and so on. You can send and receive your email messages either from the application or from Outlook. Before you can exchange messages this way and have the system store and queue them, you have to set up some parameters, such as time interval at which the program will check whether any emails are waiting to be processed, email logging profile name, and so on.
-
-For more information, see [How to: Set Up Email Logging](how-to-set-up-email-logging.md).
-
 ## See Also
 [Managing Contacts](marketing-contacts.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

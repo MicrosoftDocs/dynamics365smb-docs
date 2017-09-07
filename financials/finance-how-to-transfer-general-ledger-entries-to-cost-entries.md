@@ -37,8 +37,8 @@ Before you run the process for transferring general ledger entries to cost entri
     During the transfer, the process creates connections in the entries in the **Cost Entry** table and the **Cost Register** table. This makes it possible to trace the source of cost entries.  
 
 ## See Also  
- [Criteria for Transferring General Ledger Entries to Cost Entries](criteria-for-transferring-general-ledger-entries-to-cost-entries.md)   
- [Automatic Transfer and Combined Entries](automatic-transfer-and-combined-entries.md)   
- [Results of the Transfer](results-of-the-transfer.md)   
- [Transferring and Posting Cost Entries](transfer-and-post-cost-entries.md)   
- [Defining the Relationship Between Cost Types and General Ledger Accounts](defining-the-relationship-between-cost-types-and-general-ledger-accounts.md)   
+ [Criteria for Transferring General Ledger Entries to Cost Entries](finance-criteria-for-transferring-general-ledger-entries-to-cost-entries.md)   
+ [Automatic Transfer and Combined Entries](finance-automatic-transfer-combined-entries.md)   
+ [Results of the Transfer](finance-results-of-the-transfer.md)   
+ [Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)   
+ [Defining the Relationship Between Cost Types and General Ledger Accounts](finance-defining-the-relationship-between-cost-types-and-general-ledger-accounts.md)   

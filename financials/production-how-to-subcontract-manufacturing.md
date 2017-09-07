@@ -16,7 +16,7 @@
 
 ---
 # How to: Subcontract Manufacturing
-Subcontracting, when a vendor performs one or more operational steps in production, is a standard operational step in many manufacturing companies. Subcontracting can be a rare occurrence or can be an integral part of all production processes.  
+Subcontracting selected operations to vendor is common in many manufacturing companies. Subcontracting can be a rare occurrence or can be an integral part of all production processes.
 
 The program provides several tools for managing subcontract work:  
 
@@ -42,7 +42,7 @@ You can set up a routing that uses an outside work center as a standard operatio
 For more information, see [How to: Create Routings](production-how-to-create-routings.md).  
 
 ## Subcontracting Worksheet  
-Once you have calculated the subcontracting worksheet, the relevant document, in this case a purchase order, is created. For more information, see [How to: Calculate Subcontracting Worksheets and Create Subcontract Purchase Orders](production-how-to-calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders.md)  
+Once you have calculated the subcontracting worksheet, the relevant document, in this case a purchase order, is created.  
 
 # How to: Calculate Subcontracting Worksheets and Create Subcontract Purchase Orders
 The **Subcontracting Worksheet** window functions like the **Planning Worksheet** by calculating the needed supply, in this case purchase orders, which you review in the worksheet and then create with the **Carry Out Action Message** function.  
@@ -51,33 +51,25 @@ The **Subcontracting Worksheet** window functions like the **Planning Worksheet*
 >  Only production orders with status **Released** can be accessed and used from a subcontracting worksheet.  
 
 ### To calculate the subcontracting worksheet  
-
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Subcontracting Worksheet**, and then choose the related link.  
-
-2.  To calculate the worksheet, on the **Actions** tab, in the **Functions** group, choose **Calculate Subcontracts**.  
-
+2.  To calculate the worksheet, choose the **Calculate Subcontracts** action.  
 3.  In the **Calculate Subcontracts** window, set filters for the subcontracted operations, or the work centers where they are performed, to calculate only the relevant production orders.  
-
 4.  Choose the **OK** button.  
 
-     Review the lines in the **Subcontracting Worksheet** window. The information in this worksheet comes from the production order and production order routing lines and flows to the purchase order when that document is created. You can delete a row from the worksheet without affecting the original information, just as you can with the other worksheets. The information will reappear the next time you run the **Calculate Subcontracts** function.  
+    Review the lines in the **Subcontracting Worksheet** window. The information in this worksheet comes from the production order and production order routing lines and flows to the purchase order when that document is created. You can delete a row from the worksheet without affecting the original information, just as you can with the other worksheets. The information will reappear the next time you run the **Calculate Subcontracts** function.  
 
 ### To create the subcontract purchase order  
-
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Subcontracting Worksheet**, and then choose the related link.  
-
 2.  On the **Actions** tab, in the **Process** group, choose **Carry Out Action Message**.  
-
 3.  Select the **Print Orders** field to print the purchase order as it is created.  
-
 4.  Choose the **OK** button.  
 
- If all subcontraced operations are sent to the same vendor location, then only one purchase order is created.  
+If all subcontracted operations are sent to the same vendor location, then only one purchase order is created.  
 
- The worksheet line that was turned into a purchase order is deleted from the worksheet. Once a purchase order is created, it will not appear in the worksheet again.  
+The worksheet line that was turned into a purchase order is deleted from the worksheet. Once a purchase order is created, it will not appear in the worksheet again.  
 
 ## Posting Subcontract Purchase Orders  
-Once the Subcontractor Purchase Orders have been created, they can be [posted](../how-to-post-subcontract-purchase-orders.md). Receiving the order posts a Capacity Ledger Entry to the production order and invoicing the order posts the direct cost of the purchase order to the production order.  
+Once the Subcontractor Purchase Orders have been created, they can be posted. Receiving the order posts a Capacity Ledger Entry to the production order and invoicing the order posts the direct cost of the purchase order to the production order.  
 
 When the purchase is posted as received, then an output journal entry is automatically posted for the production order. This only applies if the subcontract operation is the last operation on the production order routing.  
 
@@ -86,29 +78,27 @@ When the purchase is posted as received, then an output journal entry is automat
 >   
 >  To avoid that the expected output of a production order is posted when subcontract purchases are received, make sure the subcontracted operation is not the last one. Alternatively, insert a new last operation for the final output quantity.
 
-
-
 ## To post a subcontract purchase order  
-
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Orders**, and then select the related link.  
-
 2.  Open a purchase order that is created from the subcontracting worksheet.  
 
-     On the purchase order lines, you see the same information that was in the worksheet. The **Prod. Order No.**, **Prod. Order Line No.**, **Operation No.**, and **Work Center No.** fields are filled in with the information from the source production order.  
+    On the purchase order lines, you see the same information that was in the worksheet. The **Prod. Order No.**, **Prod. Order Line No.**, **Operation No.**, and **Work Center No.** fields are filled in with the information from the source production order.  
 
-3.  On the **Actions** tab, in the **Posting** group, choose **Post**.  
+3.  Choose the **Post** action.  
 
- When the purchase is posted as received, then an output journal entry is automatically posted for the production order. This only applies if the subcontract operation is the last operation on the production order routing.  
+When the purchase is posted as received, then an output journal entry is automatically posted for the production order. This only applies if the subcontract operation is the last operation on the production order routing.  
 
 > [!CAUTION]  
 >  Posting output automatically for an ongoing production order when subcontracted items are received may not be desired. Reasons for this could be that the expected output quantity that is posted may be different from the actual quantity and that the posting date of the automatic output is misleading.  
 >   
 >  To avoid that the expected output of a production order is posted when subcontract purchases are received, make sure the subcontracted operation is not the last one. Alternatively, insert a new last operation for the final output quantity.  
 
- When the purchase order is posted as invoiced, then the direct cost of the purchase order is posted to the production.  
+When the purchase order is posted as invoiced, then the direct cost of the purchase order is posted to the production.  
 
 ## See Also  
-[How to: Subcontract Manufacturing]()  
-[Setting Up Manufacturing](production-configure-production-processes.md)
-[Manufacturing](production-manage-manufacturing.md)  
+[Manufacturing](production-manage-manufacturing.md)    
+[Setting Up Manufacturing](production-configure-production-processes.md)  
+[Planning](production-planning.md)      
+[Inventory](inventory-manage-inventory.md)  
+[Purchasing](purchasing-manage-purchasing.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

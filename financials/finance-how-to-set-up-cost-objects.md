@@ -51,9 +51,9 @@ You can set up and maintain cost objects in either the **Cost Object Card** card
 
 ## See Also  
 [Accounting for Costs](finance-manage-cost-accounting.md)  
- [Defining Cost Centers and Cost Objects for Chart of Accounts](defining-cost-centers-and-cost-objects-for-chart-of-accounts.md)   
- [Balances Between Cost Type, Cost Center, and Cost Object](balances-between-cost-type-cost-center-and-cost-object.md)   
- [Setting Up Cost Accounting](set-up-cost-accounting.md)   
- [Terminology in Cost Accounting](terminology-in-cost-accounting.md)   
- [About Cost Accounting](about-cost-accounting.md)  
+ [Defining Cost Centers and Cost Objects for Chart of Accounts](finance-defining-cost-centers-and-cost-objects-for-chart-of-accounts.md)   
+ [Balances Between Cost Type, Cost Center, and Cost Object](finance-balances-between-cost-type-cost-center-and-cost-object.md)   
+ [Setting Up Cost Accounting](finance-set-up-cost-accounting.md)   
+ [Terminology in Cost Accounting](finance-terminology-in-cost-accounting.md)   
+ [About Cost Accounting](finance-about-cost-accounting.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

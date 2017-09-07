@@ -18,28 +18,28 @@
 # How to: Create Workflows
 You can create workflows that connect business-process tasks performed by different users. System tasks, such as automatic posting, can be included as steps in workflows, preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps.  
 
- In the **Workflow** window, you create a workflow by listing the involved steps on the lines. Each step consists of a workflow event moderated by event conditions and a workflow response with response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code.  
+In the **Workflow** window, you create a workflow by listing the involved steps on the lines. Each step consists of a workflow event moderated by event conditions and a workflow response with response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code.  
 
- When you create workflows, you can copy the steps from existing workflows or from workflow templates. Workflow templates represent non-editable workflows that exist in the generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)]. The code for workflow templates that are added by Microsoft are prefixed with “MS-“, such as in “MS-PIW”. For more information, see [How to: Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md).  
+When you create workflows, you can copy the steps from existing workflows or from workflow templates. Workflow templates represent non-editable workflows that exist in the generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)]. The code for workflow templates that are added by Microsoft are prefixed with “MS-“, such as in “MS-PIW”. For more information, see [How to: Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md).  
 
- If your business scenario requires workflow events or responses that are not supported, a Microsoft partner must implement them by customizing the application code. For more information, see [Walkthrough: Implementing New Workflow Events and Responses](walkthrough-implementing-new-workflow-events-and-responses.md).  
-
+If your business scenario requires workflow events or responses that are not supported, a Microsoft partner must implement them by customizing the application code.  
+  
 > [!NOTE]  
 >  All notifications about workflow steps are sent through a job queue. Make sure that the job queue in your installation is set up to handle workflow notifications, and that the **Start Automatically From NAS** check box is selected. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).  
 
 ## To create a workflow  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Workflows**, and then choose the related link.  
-2.  Choose the **New** action. The **Workflow** window opens.  
-3.  In the **Code** field, enter a maximum of 20 characters to identify the workflow.  
-4.  To create the workflow from a workflow template, in the **Workflows** window, choose the **Create Workflow from Template** action. For more information, see [How to: Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md).  
-5.  In the **Description** field, describe the workflow.  
-6.  In the **Category** field, specify which category the workflow belongs to.  
-7.  In the **When Event** field, specify the event that must occur to start the workflow step.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Workflows**, and then choose the related link.  
+2. Choose the **New** action. The **Workflow** window opens.  
+3. In the **Code** field, enter a maximum of 20 characters to identify the workflow.  
+4. To create the workflow from a workflow template, in the **Workflows** window, choose the **Create Workflow from Template** action. For more information, see [How to: Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md).  
+5. In the **Description** field, describe the workflow.  
+6. In the **Category** field, specify which category the workflow belongs to.  
+7. In the **When Event** field, specify the event that must occur to start the workflow step.  
 
     When you choose the field, the **Workflow Events** window opens where you select from all the workflow events that exist.  
-8.  In the **Condition** field, specify one or more conditions that must be met before the event in the **When Event** field can occur.  
+8. In the **Condition** field, specify one or more conditions that must be met before the event in the **When Event** field can occur.  
 
-    When you choose the field, the **Event Conditions** window opens where you choose from a list of filter fields that are relevant as conditions for the event in question. You can add new filter fields that you want to use as event conditions. You set event condition filters just as you set filters on report request pages. For more information, see [How to: Set Filters](across-how-to-set-filters.md).  
+    When you choose the field, the **Event Conditions** window opens where you choose from a list of filter fields that are relevant as conditions for the event in question. You can add new filter fields that you want to use as event conditions. You set event condition filters just as you set filters on report request pages.  
 
     If the workflow event is the change of a specific field on a record, then the **Event Conditions** window opens with options to select the field and the type of change.  
 
@@ -86,19 +86,17 @@ You can create workflows that connect business-process tasks performed by differ
 > [!NOTE]  
 >  Do not enable a workflow until you are sure that the workflow is completed and that the involved workflow steps can start.  
 
-> [!NOTE]  
+> [!TIP]  
 >  To see relations between tables that are used in workflows, Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, and then enter **Workflow – Table Relations**.  
 
 ## See Also  
- Workflow   
- Workflow Response Options   
- [How to: Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)   
- [How to: Set Up Approval Users](across-how-to-set-up-approval-users.md)   
- [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)   
- [How to: View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md)   
- [How to: Delete Workflows](across-how-to-delete-workflows.md)   
- [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
- [Setting Up Workflows](across-set-up-workflows.md)   
- [Using Workflows](across-use-workflows.md)   
- [Workflow](across-workflow.md)      
- [Walkthrough: Implementing New Workflow Events and Responses](walkthrough-implementing-new-workflow-events-and-responses.md)
+[How to: Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)   
+[How to: Set Up Approval Users](across-how-to-set-up-approval-users.md)   
+[Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)   
+[How to: View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md)   
+[How to: Delete Workflows](across-how-to-delete-workflows.md)   
+[Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
+[Setting Up Workflows](across-set-up-workflows.md)   
+[Using Workflows](across-use-workflows.md)   
+[Workflow](across-workflow.md)      
+

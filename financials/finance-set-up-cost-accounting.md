@@ -29,7 +29,6 @@ Before you start working with cost accounting, you must perform setup tasks.
 
 ## See Also  
 [Accounting for Costs](finance-manage-cost-accounting.md)  
- [Accounting for Costs](manage-cost-accounting.md)   
- [Transferring and Posting Cost Entries](transfer-and-post-cost-entries.md)   
- [Defining and Allocating Costs](define-and-allocate-costs.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)   
+[Defining and Allocating Costs](finance-define-and-allocate-costs.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

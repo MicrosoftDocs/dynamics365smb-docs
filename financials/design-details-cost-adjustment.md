@@ -174,6 +174,6 @@ If you have set up the automatic cost adjustment to apply to postings that occur
  [Design Details: Variance](design-details-variance.md)   
  [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)   
  [Design Details: Production Order Posting](design-details-production-order-posting.md)
- [Managing Inventory Costs](finance-manage-inventory-costs)  
+ [Managing Inventory Costs](finance-manage-inventory-costs.md)  
  [Finance](finance.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -72,7 +72,6 @@ Now that the request is created, the warehouse employee can create a new invento
     If it is necessary to pick the items for one line from more than one bin, for example because they are not available in the designated bin, then use the **Split Line** function on the **Lines** FastTab. For more information about splitting lines, see [How to: Split Warehouse Activity Lines](warehouse-how-to-split-warehouse-activity-lines.md).  
 4. When you have performed the pick, choose the **Post** action.    
 
-
 The posting process will post the shipment of the source document lines that have been picked, or in the case of production orders, the posting process will post the consumption. If the location uses bins, the posting will also create warehouse entries to post the bin quantity changes.  
 
 ## To delete inventory pick lines  
@@ -83,7 +82,7 @@ If items on the inventory pick are not available, then you can delete those inve
 >   
 >  If inventory pick lines have serial/lot numbers that are not available, you must not delete the lines in question. Instead, you must change the **Qty. to Handle** field to zero, post the actual picks, and then delete the inventory pick document. This ensures that the inventory pick lines for those serial/lot numbers can be recreated from the sales order later.  
 
-## Handling Assemble-to-Order Item with Inventory Picks
+## Handling Assemble-to-Order Items with Inventory Picks
 The **Inventory Pick** window is also used to pick and ship for sales where items must be assembled before they can be shipped. For more information, see [How to: Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md).
 
 Items to be shipped are not physically present in a bin until they are assembled and posted as output to a bin in the assembly area. This means that picking assemble-to-order items for shipment follows a special flow. From a bin, warehouse workers take the assembly items to the shipping dock and then post the inventory pick. The posted inventory pick then posts the assembly output, the component consumption, and the sales shipment.

@@ -90,7 +90,7 @@ In the **Job Ledger Entries** window you can review the entries that are associa
 
 ## See Also
 [Managing Projects](projects-manage-projects.md)
-[Managing Inventory Costs](finance-manage-inventory-costs)   
+[Managing Inventory Costs](finance-manage-inventory-costs.md)   
 [Finance](finance.md)  
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)      

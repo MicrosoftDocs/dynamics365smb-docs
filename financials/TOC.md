@@ -101,6 +101,7 @@
 ### [How to: Set Up Work Centers and Machine Centers](production-how-to-set-up-work-and-machine-centers.md)
 ### [How to: Create Routings](production-how-to-create-routings.md)
 ### [How to: Create Production BOMs](production-how-to-create-production-boms.md)
+### [Enable Flushing of Components According to Operation Output](production-how-to-flush-components-according-to-operation-output.md)
 ### [How to: Work With Manufacturing Batch Units of Measure](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)
 ### [How to: Work With Production Families](production-how-work-family.md)
 ### [How to: Set Up Standard Routing Lines](production-how-set-up-standard-routing-lines.md)
@@ -202,8 +203,8 @@
 ## [How to: Work with Account Schedules](bi-how-work-account-schedule.md)
 ## [How to: Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)
 ## [How to: Create Analysis Reports](bi-how-create-analysis-views-reports.md)
-## [How to: Set Up and Publish KPI Web Services Based on Account Schedules]
 ## [How to: Create Reports with XBRL](bi-create-reports-with-xbrl.md)
+## [How to: Set Up and Publish KPI Web Services Based on Account Schedules]
 
 # [Sales](sales-manage-sales.md)
 ## [How to: Make Offers](sales-how-make-offers.md)
@@ -299,13 +300,13 @@
 
 # [Manufacturing](production-manage-manufacturing.md)
 ## [About Production Orders](production-about-production-orders.md)
-## [How to: Register Consumption and Output for a Single Released Production Order line](production-how-to-register-consumption-and-output.md)
+## [How to: Post Consumption and Output for One Released Production Order Line](production-how-to-register-consumption-and-output.md)
 ## [How to: Batch Post Consumption](production-how-to-post-consumption.md)
 ## [How to: Batch Post Output and Run Times](production-how-to-post-output-quantity.md)
 ## [How to: Post Scrap](production-how-to-post-scrap.md)
 ## [How to: View the Load in Work and Machine Centers](production-how-to-view-the-load-on-work-centers.md)
 ## [How to: Post Capacities](production-how-to-post-capacities.md)
-## [About Finished Production Order Costs](production-about-finished-production-order-costs.md)
+## [About Finished Production Order Costs](finance-about-finished-production-order-costs.md)
 
 # [Warehouse Management](warehouse-manage-warehouse.md)
 ## [How to: Receive Items](warehouse-how-receive-items.md)

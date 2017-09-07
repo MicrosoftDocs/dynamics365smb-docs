@@ -44,7 +44,7 @@ For more information, see [How to: Set Up Base Calendars](across-how-to-assign-b
 ## Filling the Consumption Bin
 This flow chart shows how the **Bin Code** field on production order component lines is filled according to your location setup.
 
-   ![Bin flow chart](../media/binflow.png "BinFlow")  
+![Bin flow chart](media/binflow.png "BinFlow")  
 
 ## See Also
 [Warehouse Management](warehouse-manage-warehouse.md)  

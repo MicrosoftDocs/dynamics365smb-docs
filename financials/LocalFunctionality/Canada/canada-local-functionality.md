@@ -1,6 +1,6 @@
 ---
     title: Canada Local Functionality | Microsoft Docs
-    description: The following topics describe the local functionality in the Canadian version of [!INCLUDE[d365fin](includes/d365fin_md.md)].
+    description: The following topics describe the local functionality in the Canadian version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # Canada Local Functionality
-The following topics describe local functionality that is unique to the Canadian version of [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+The following topics describe local functionality that is unique to the Canadian version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## In This Section
 [How to: Work With GIFI Codes](work-gifi-codes.md)  
@@ -25,4 +25,7 @@ The following topics describe local functionality that is unique to the Canadian
 [Reporting Sales Tax in Canada](ca-sales-tax.md)  
 [How to: Manage Customer Credit Information](how-to-manage-customer-credit-information.md)  
 [How to: Create Deposits](how-to-create-deposits.md)  
-[How to: Print Troubleshooting Reports](how-to-print-troubleshooting-reports.md)   
+[How to: Print Troubleshooting Reports](how-to-print-troubleshooting-reports.md)
+
+## See Also
+[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md   

@@ -1,0 +1,10 @@
+## Setting Up Email Logging <!-- goes in the marketing-setup-marketing topic -->
+You can exchange email messages with your contacts, customers, vendors, and so on. You can send and receive your email messages either from the application or from Outlook. Before you can exchange messages this way and have the system store and queue them, you have to set up some parameters, such as time interval at which the program will check whether any emails are waiting to be processed, email logging profile name, and so on.
+
+For more information, see [How to: Set Up Email Logging](how-to-set-up-email-logging.md).
+
+
+
+
+
+

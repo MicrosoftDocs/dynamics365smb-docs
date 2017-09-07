@@ -21,7 +21,7 @@ The system must keep a constant control of item availability in the warehouse, s
  Availability varies depending on allocations at the bin level when warehouse activities such as picks and movements occur and when the inventory reservation system imposes restrictions to comply with. A rather complex algorithm verifies that all conditions are met before allocating quantities to picks for outbound flows.  
 
 ## Bin Content and Reservations  
- In any installation of NAV warehouse management, item quantities exist both as warehouse entries, in the Warehouse application area, and as item ledger entries, in the Inventory application area. These two entry types contain different information about where items exist and whether they are available. Warehouse entries define an item’s availability by bin and bin type, which is called bin content. Item ledger entries define an item’s availability by its reservation to outbound documents.  
+ In any installation of warehouse management, item quantities exist both as warehouse entries, in the Warehouse application area, and as item ledger entries, in the Inventory application area. These two entry types contain different information about where items exist and whether they are available. Warehouse entries define an item’s availability by bin and bin type, which is called bin content. Item ledger entries define an item’s availability by its reservation to outbound documents.  
 
  Special functionality in the picking algorithm exists to calculate the quantity that is available to pick when bin content is coupled with reservations.  
 
@@ -53,7 +53,7 @@ The system must keep a constant control of item availability in the warehouse, s
 -   Quantity in open shop floor bins  
 -   Quantity in to-assembly bins  
 -   Quantity in adjustment bins  
-  
+
  The result is displayed in the **Total Available Quantity** field in the **Reservation** window.  
 
  On a reservation line, the quantity that cannot be reserved, because it is allocated in the warehouse, is displayed in the **Qty. Allocated in Warehouse** field in the **Reservation** window.  

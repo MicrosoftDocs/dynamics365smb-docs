@@ -187,4 +187,4 @@ The following changes have been implemented in this release of [!INCLUDE[d365fin
 ||CreateGLEntriesForTotalAmounts|Added|  
 
 ## See Also  
- [Codeunit 12 Changes: Mapping Global Variables for General Journal Post Line](codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)
+ [Design Details: Codeunit 12 Changes: Mapping Global Variables for General Journal Post Line](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)

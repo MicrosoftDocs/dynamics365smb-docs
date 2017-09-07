@@ -55,7 +55,7 @@ Before you can set up a routing, the following must be in place:
 >  Remember also to recalculate the item’s standard cost from the **Item** card: Choose the **Manufacturing** action, select the **Calc. Standard Cost** action, and then select the **All Levels** action.  
 
 ## To create routing links
-You can create routing links to connect components to specific operations in order to retain their relationship even though the production BOM or routing is modified. It also facilitates just-in-time flushing of components, namely when the specific linked operation starts, not when the complete production order is released. For more information see [How to: Flush Components According to Operation Output](FullExperience/Production/production-how-to-flush-components-according-to-operation-output.md).  
+You can create routing links to connect components to specific operations in order to retain their relationship even though the production BOM or routing is modified. It also facilitates just-in-time flushing of components, namely when the specific linked operation starts, not when the complete production order is released. For more information see [How to: Flush Components According to Operation Output](production-how-to-flush-components-according-to-operation-output.md).  
 
 Another important benefit is that linked components and operations are displayed in a logical process structure when you use the **Production Journal** window for output and consumption posting.  
 
@@ -83,7 +83,7 @@ Another important benefit is that linked components and operations are displayed
 10. Set the production BOM status to **Certified**.  
 
     > [!NOTE]  
-    >  To enable the routing links on an existing production order, you must refresh the productio1n order. For more information, see [How to: Create Production Orders](planning-how-to-create-production-orders.md).  
+    >  To enable the routing links on an existing production order, you must refresh the productio1n order. For more information, see [How to: Create Production Orders](production-how-to-create-production-orders.md).  
 
 The selected components will now be linked to the selected operations when you create or refresh a production order using the production BOM and routing in question. This is visible in the **Prod. Order Components** window under the production order, and here you can also remove and add the defined routing link codes at any time.
 
@@ -118,7 +118,7 @@ The time validity of the version is specified by the **Starting Date** field.
 [How to: Create Production BOMs](production-how-to-create-production-boms.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)    
-[Planning](planning.md)   
+[Planning](production-planning.md)   
 [Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -78,6 +78,11 @@ Warehouse pick documents are now created with pick lines for each component that
 
 If the internal operation area, such as a production shop floor, is set up with a default bin for placement of components to be used in the operation, then that bin code is inserted in the Place lines on the warehouse pick document to instruct warehouse workers where to place the items. For more information, see [How to: Set Up Basic Warehouses with Operation Areas](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md).
 
+## Filling the Consumption Bin
+This flow chart shows how the **Bin Code** field on production order component lines is filled according to your location setup.
+
+![Bin flow chart](media/binflow.png "BinFlow")
+
 ## See Also
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Inventory](inventory-manage-inventory.md)  

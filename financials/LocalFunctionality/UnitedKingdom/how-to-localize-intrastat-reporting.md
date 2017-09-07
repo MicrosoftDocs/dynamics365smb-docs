@@ -20,7 +20,7 @@ You must localize Intrastat reporting to be legally compliant. The code for the 
 
 ### To localize Intrastat reporting  
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat Journals**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat Journals**, and then choose the related link.  
 
 2.  In the **Intrastat Journal** window, select the required Intrastat journal batch in the **Batch Name** field.  
 

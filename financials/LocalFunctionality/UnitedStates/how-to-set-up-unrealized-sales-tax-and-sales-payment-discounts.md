@@ -19,7 +19,7 @@
 You can use the **General Ledger Setup** window to set up unrealized sales tax. You can also set up maximum correction tax amounts so that you can limit the tax correction amounts that are entered for sales and purchases. This allows you to overwrite the calculated tax when there are rounding differences between what is calculated on the purchase order, and what is calculated on the purchase invoice from the vendor.  
 
 ## To set up unrealized sales tax  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Setup**, and then choose the related link.  
 2.  In the **General Ledger Setup** window, on the **General** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -30,7 +30,7 @@ You can use the **General Ledger Setup** window to set up unrealized sales tax. 
 3.  Choose the **OK** button.  
 
 ## To set up unrealized tax for jurisdictions  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Tax Jurisdictions**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Tax Jurisdictions**, and then choose the related link.  
 2.  In the **Tax Jurisdictions** window, choose the **Edit List** action.  
 3.  Fill in the fields as described in the following table.  
 
@@ -43,7 +43,7 @@ You can use the **General Ledger Setup** window to set up unrealized sales tax. 
 4.  Choose the **OK** button.  
 
 ## To set up adjustments for payment discounts in a tax posting group  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Tax Posting Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Tax Posting Setup**, and then choose the related link.  
 2.  Choose the **Edit** action.  
 3.  In the **Tax Posting Setup Card** window, select the **Adjust for Payment Discount** check box.  
 
@@ -52,13 +52,13 @@ You can use the **General Ledger Setup** window to set up unrealized sales tax. 
 4.  Choose the **OK** button.  
 
 ## To set up maximum tax correction amounts  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales & Receivables Setup**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales & Receivables Setup**, and then choose the related link.  
 2.  In the **Sales Receivables Setup** window, on the **General** FastTab, select the **Allow Tax Difference** check box.  
 3.  Choose the **OK** button.  
-4.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchases & Payables Setup**, and then choose the related link.  
+4.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchases & Payables Setup**, and then choose the related link.  
 5.  In the **Purchases & Payables Setup** window, on the **General** FastTab, select the **Allow Tax Difference** check box.  
 6.  Choose the **OK** button.  
-7.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Setup**, and then choose the related link.  
+7.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Setup**, and then choose the related link.  
 8.  In the **General Ledger Setup** window, in the **Max. Tax Difference Allowed** field, enter the maximum tax correction amount that is allowed for the local currency.  
 
     > [!NOTE]  
@@ -67,6 +67,6 @@ You can use the **General Ledger Setup** window to set up unrealized sales tax. 
 
 ## See Also  
 [United States Local Functionality](united-states-local-functionality.md)  
-[Reporting Sales Tax in the US](us-sales-tax)  
+[Reporting Sales Tax in the US](us-sales-tax.md)  
 [Finance](../../finance.md)  
 [Setting Up Finance](../../finance.md)

@@ -1,6 +1,6 @@
 ---
     title: How to Print VAT Reconciliation Reports | Microsoft Docs
-    description: In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can use the **VAT Reconciliation** report to view a list of general ledger accounts with their base amounts and VAT amounts. These amounts are grouped by VAT type to help with VAT settlement reconciliation.
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the **VAT Reconciliation** report to view a list of general ledger accounts with their base amounts and VAT amounts. These amounts are grouped by VAT type to help with VAT settlement reconciliation.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,11 +16,11 @@
 
 ---
 # How to: Print VAT Reconciliation Reports
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can use the **VAT Reconciliation** report to view a list of general ledger accounts with their base amounts and VAT amounts. These amounts are grouped by VAT type to help with VAT settlement reconciliation.  
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the **VAT Reconciliation** report to view a list of general ledger accounts with their base amounts and VAT amounts. These amounts are grouped by VAT type to help with VAT settlement reconciliation.  
 
 ### To print a VAT reconciliation report  
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Reconciliation**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Reconciliation**, and then choose the related link.  
 
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
 

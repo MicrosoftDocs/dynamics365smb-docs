@@ -33,7 +33,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |**To**|**See**|  
 |------------|-------------|  
 |Learn about the difference between assembling items right before shipping sales orders and assembling items that are intended for storage.|[Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md)|
-|Fill in fields on location cards and in inventory setup to define how items flow to and from the assembly department.|[How to: Set Up Assembly Locations](assembly-setup-assembly-locations.md)|
+|Fill in fields on location cards and in inventory setup to define how items flow to and from the assembly department.|[How to: Set Up Basic Warehouses with Operations Areas](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)|
 |Customize an assembly item to a customer’s request during the sales process, and convert to a sale when accepted.|[How to: Quote an Assemble-to-Order Sale](assembly-how-to-quote-an-assemble-to-order-sale.md)|
 |Combine components to create an item in a simple process, to order or to stock.|[How to: Assemble Items](assembly-how-to-assemble-items.md)|  
 |Sell assembly items that are not currently available by creating a linked assembly order to supply the full or partial sales order quantity.|[How to: Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md)|

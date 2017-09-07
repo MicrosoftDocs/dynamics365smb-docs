@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 09/07/2017
     ms.author: sgroespe
 
 ---
@@ -19,7 +19,6 @@
 Phrases like “run planning” and “run MRP” refer to the calculation of the master production schedule (MPS) and the material requirements plan (MRP) based on actual and forecasted demand.  
 
 -   MPS is the calculation of a master production schedule based on actual demand and the production forecast. The MPS calculation is used for end items that have a forecast or a sales order line. These items are called "MPS items" and are identified dynamically when the calculation starts.  
-
 -   MRP is the calculation of material requirements based on actual demand for components and the production forecast on the component level. MRP is calculated only for items that are not MPS items. The overall purpose of MRP is to provide time-phased formal plans, by item, to supply the right item at the right time, in the right place, in the right quantity.  
 
  The planning algorithms used for both MPS and MRP are identical. The planning algorithms use netting, reuse of existing supply orders, and action messages. The planning system process examines what is needed or will be needed (demand) and what is available or expected (supply). When these quantities are netted against each other, action messages are displayed in the planning worksheet. Action messages are suggestions to create a new supply order, change a supply order (quantity or date), or cancel an existing supply order. Supply orders can be production orders, purchase orders, and transfer orders. For more information, see [Design Details: Supply Planning](design-details-supply-planning.md).  
@@ -32,24 +31,19 @@ Phrases like “run planning” and “run MRP” refer to the calculation of th
  This walkthrough illustrates the following tasks:  
 
 -   Creating the sales order and calculating a complete supply plan.  
-
 -   Viewing planning parameters and order tracking entries behind the planning lines.  
-
 -   Automatically creating the suggested supply orders.  
-
 -   Creating new sales demand and replanning accordingly.  
 
 ## Roles  
 
 -   Production Planner  
-
 -   Purchasing Agent  
 
 ## Prerequisites  
  To complete this walkthrough, you will need:  
 
--   The [!INCLUDE[d365fin](includes/d365fin_md.md)] company.  
-
+-   The CRONUS International Ltd. demonstration  company.  
 -   To change various item setup values by following the steps in the “Preparing Sample Data” section, later in this walkthrough.  
 
 ## Story  
@@ -66,22 +60,17 @@ Phrases like “run planning” and “run MRP” refer to the calculation of th
 ## Preparing Sample Data  
  Create stockkeeping units (SKUs) for the touring bike and a selection of its components, item numbers 1001 to 1300. (Some components are excluded to simplify the procedures.) Adjust the planning parameters of the selected components to provide a more transparent planning result.  
 
-#### To create stockkeeping units  
+### To create stockkeeping units  
 
 1.  Open the item card for item 1001, Touring Bicycle.  
-
-2.  On the **Actions** tab, in the **Functions** group, choose **Create Stockkeeping Unit**.  
-
+2.  Choose the **Create Stockkeeping Unit** action.  
 3.  In the **Create Stockkeeping Unit** window, leave all options and filters unchanged, and then choose the **OK** button.  
-
 4.  Repeat steps 1 through 3 for all items in the number range between 1100 and 1300.  
 
-#### To change selected planning parameters  
+### To change selected planning parameters  
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Stockkeeping Units**, and then choose the related link.  
-
 2.  Open the BLUE stockkeeping unit card for item 1100, Front Wheel.  
-
 3.  On the **Planning** FastTab, fill in the fields as described in the following table.  
 
     |Reordering Policy|Safety Stock Quantity|Lot Accumulation Period|Rescheduling Period|  
@@ -95,12 +84,10 @@ Phrases like “run planning” and “run MRP” refer to the calculation of th
 ## Creating a Regenerative Supply Plan  
  In reaction to a new sales order for five touring bikes, Ricardo begins the planning process by setting options, filters, and planning interval to exclude all other demand except that of the first week of February at location BLUE. He begins by calculating a master production schedule (MPS), and then proceeds to calculate a complete supply plan for all lower-level demand (MRP).  
 
-#### To create the sales order  
+### To create the sales order  
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.  
-
-2.  On the **Home** tab, in the **New** group, choose **New**.  
-
+2.  Choose the **New** action.  
 3.  In the **Sales Order** window, fill in the fields as described in the following table.  
 
     |Sell-to Customer Name|Shipment Date|Item No.|Location|Quantity|  
@@ -109,12 +96,10 @@ Phrases like “run planning” and “run MRP” refer to the calculation of th
 
 4.  Accept the availability warning and choose the **Yes** button to record the new demand quantity.  
 
-#### To create a regenerative plan to fulfill demand at location BLUE  
+### To create a regenerative plan to fulfill demand at location BLUE  
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Planning Worksheet**, and then choose the related link.  
-
-2.  On the **Actions** tab, in the **Functions** group, choose **Calculate Regenerative Plan**.  
-
+2.  Choose the **Calculate Regenerative Plan** action.  
 3.  In the **Calculate Plan - Plan. Wksh.** window, fill in the fields as described in the following table.  
 
     |Calculate Plan|Starting Date|Ending Date|Show results:|Limit totals to|  
@@ -127,20 +112,17 @@ Phrases like “run planning” and “run MRP” refer to the calculation of th
 
      Next, verify that this planning line relates to the Cannon Group sales order by using the **Order Tracking** function, which dynamically links demand with its planned supply.  
 
-5.  Select the new planning line, and then, on the **Actions** tab, in the **Functions** group, choose **Order Tracking**.  
-
-6.  In the **Order Tracking** window, on the **Actions** tab, in the **General** group, choose **Show**.  
+5.  Select the new planning line, and then choose the **Order Tracking** action.  
+6.  In the **Order Tracking** window, choose the **Show** action.  
 
      The sales order for five touring bikes shipping to customer number 10000 on 02-05-2014, is shown.  
 
 7.  Close the **Sales Order** and **Order Tracking** windows.  
 
-#### To calculate MRP to include underlying component needs  
+### To calculate MRP to include underlying component needs  
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Planning Worksheet**, and then choose the related link.  
-
-2.  On the **Actions** tab, in the **Functions** group, choose **Calculate Regenerative Plan**.  
-
+2.  Choose the **Calculate Regenerative Plan** action.  
 3.  In the **Calculate Plan - Plan. Wksh.** window, fill in the fields as described in the following table.  
 
     |Calculate|Starting Date|Ending Date|Show results:|Limit totals to:|  
@@ -158,9 +140,9 @@ Phrases like “run planning” and “run MRP” refer to the calculation of th
 
  The planning line for item 1300, Chain Assy, suggests ten pieces. This deviates from the five pieces that we expect to need to fulfill the sales order. Proceed to view the order tracking entries.  
 
-#### To view order tracking entries for item 1300  
+### To view order tracking entries for item 1300  
 
-1.  Select the planning line for item 1300, and then on the **Actions** tab, in the **Functions** group, choose **Order Tracking**.  
+1.  Select the planning line for item 1300, and then choose the **Order Tracking** action.  
 
      The two lines in the **Order Tracking** window show that five pieces are tracked from the planning line (first order tracking line) to sales order 1001 (second order tracking line). The last five pieces suggested on the planning line are not related to any document lines, but to a planning parameter, forecast entry, or blanket order entry. Such untracked quantities are summed in the **Untracked Quantity** field in the header of the **Order Tracking** window.  
 
@@ -168,23 +150,18 @@ Phrases like “run planning” and “run MRP” refer to the calculation of th
 
      The **Untracked Planning Elements** window shows that item 1300 uses a planning parameter, Minimum Order Quantity, of 10.00. Therefore, the planning line is for ten pieces in total, of which only five can be tracked to a demand. The last five pieces are an untracked quantity to satisfy the planning parameter. Proceed to review the planning parameter.  
 
-#### To check the planning parameter  
+### To check the planning parameter  
 
 1.  In the **Untracked Planning Elements** window, select the order tracking line for item 1300.  
-
-2.  Choose the **Item No.** field, and then choose **Advanced**.  
-
-3.  In the **Item List** window, on the **Navigate** tab, in the **Warehouse** group, choose **Stockkeeping Units**.  
-
+2.  Choose the **Item No.** field, and then choose the **Advanced** action.  
+3.  In the **Item List** window, choose the **Stockkeeping Units** action.  
 4.  In the **Stockkeeping Unit List** window, open the BLUE stockkeeping unit card.  
-
 5.  On the **Planning** FastTab, note that the **Minimum Order Quantity** field contains 10.  
-
 6.  Close all windows except the **Planning Worksheet** window.  
 
-#### To view more order tracking entries  
+### To view more order tracking entries  
 
-1.  Select the planning line for item 1110, Rim, and then, on the **Actions** tab, in the **Functions** group, choose **Order Tracking**.  
+1.  Select the planning line for item 1110, Rim, and then choose the **Order Tracking** action.  
 
      The **Order Tracking** window shows that five rims are needed for each production order for front and back wheels respectively.  
 
@@ -192,7 +169,7 @@ Phrases like “run planning” and “run MRP” refer to the calculation of th
 
      The planning line for item 1150 for six pieces looks irregular. Proceed to analyze.  
 
-2.  Select the planning line for item 1150, and then, on the **Actions** tab, in the **Functions** group, choose **Order Tracking**.  
+2.  Select the planning line for item 1150, and then, on then choose the **Order Tracking** action.  
 
      The **Order Tracking** window shows that five units are tracked to the front wheel, and one unit is untracked. Proceed to view the untracked quantity.  
 
@@ -207,12 +184,10 @@ Phrases like “run planning” and “run MRP” refer to the calculation of th
 ## Carrying Out Action Messages  
  Next, Eduardo converts the suggested planning lines to supply orders by using the **Carry Out Action Msg.** function.  
 
-#### To automatically create the suggested supply orders  
+### To automatically create the suggested supply orders  
 
 1.  Select the **Accept Action Message** check box on all planning lines with a warning of type Exception.  
-
-2.  On the **Actions** tab, in the **Functions** group, choose **Carry Out Action Message**.  
-
+2.  Choose the **Carry Out Action Message** action.  
 3.  In the **Carry Out Action Msg.-Plan.** window, fill in the fields as described in the following table.  
 
     |Production Order|Purchase Order|Transfer Order|  
@@ -220,7 +195,6 @@ Phrases like “run planning” and “run MRP” refer to the calculation of th
     |Firm Planned|Make Purch. Orders|Make Trans. Orders|  
 
 4.  Choose the **OK** button to automatically create all the suggested supply orders.  
-
 5.  Close the empty **Planning Worksheet** window.  
 
  This completes the initial calculation, analysis, and creation of a supply plan for demand at location BLUE in the first week of February. In the following section, another customer orders ten touring bikes, and Eduardo must replan.  
@@ -230,10 +204,9 @@ Phrases like “run planning” and “run MRP” refer to the calculation of th
 
  The planning system calculates the best way to cover the demand for these two identical products, such as to consolidate some purchase and production orders, reschedule other orders, and create new orders where it is required.  
 
-#### To create the new sales demand and replan accordingly  
+### To create the new sales demand and replan accordingly  
 
-1.  On the **Home** tab, in the **New** group, choose **New**.  
-
+1.  Choose the **New** action.  
 2.  In the **Sales Order** window, fill in the fields as described in the following table.  
 
     |Sell-to Customer Name|Shipment Date|Item No.|Location|Quantity|  
@@ -241,13 +214,9 @@ Phrases like “run planning” and “run MRP” refer to the calculation of th
     |Libros S.A.|02-12-2014|1001|BLUE|10|  
 
 3.  Accept the availability warning and choose the **Yes** button to record the demand quantity.  
-
 4.  Proceed to replan to adjust the current supply plan.  
-
 5.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Planning Worksheet**, and then choose the related link.  
-
-6.  On the **Actions** tab, in the **Functions** group, choose **Calculate Net Change Plan**.  
-
+6.  Choose the **Calculate Net Change Plan** action.  
 7.  In the **Calculate Plan - Plan. Wksh.** window, fill in the fields as described in the following table.  
 
     |Calculate Plan|Starting Date|Ending Date|Show results:|Limit totals to|  
@@ -267,9 +236,9 @@ Phrases like “run planning” and “run MRP” refer to the calculation of th
 
  Several planning lines are simply multiplied by three to provide 15 touring bikes instead of 5, and the due dates are moved back in time to provide the increased quantities by the shipment date of the sales order to the Cannon Group. For these planning lines, all quantities can be tracked. The remaining planning lines are increased by ten pieces in addition to moving their due dates. For these planning lines, a part of the quantities are untracked due to different planning parameters. Proceed to view some of these order tracking entries.  
 
-#### To view order tracking entries for item 1250  
+### To view order tracking entries for item 1250  
 
-1.  Select the planning line for item 1250, and then on the **Actions** tab, in the **Functions** group, choose **Order Tracking**.  
+1.  Select the planning line for item 1250, and then choose the **Order Tracking** action.  
 
      The seven lines in the **Order Tracking** window show that five and ten pieces are tracked through the back wheel to the touring bikes on the two sales orders respectively.  
 
@@ -281,12 +250,10 @@ Phrases like “run planning” and “run MRP” refer to the calculation of th
 
 3.  Close all windows except the **Planning Worksheet** window.  
 
-#### To view an existing order  
+### To view an existing order  
 
 1.  In the planning line for item 1250, choose the **Ref. Order No.** field.  
-
 2.  In the **Firm Planned Prod. Order** window for the Back Hub. The existing order for ten pieces, which you created in the first planning run, opens.  
-
 3.  Close the firm planned production order.  
 
  This completes the walkthrough of how the planning system is used to automatically detect demand, calculate the appropriate supply orders according to demand and planning parameters, and then automatically create different types of supply orders with the appropriate dates and quantities.  

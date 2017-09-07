@@ -15,7 +15,7 @@ ms.author: sgroespe
 
 ---
 # How to: Track Packages
-A number of shipping agents provide services on the Internet that allow you to track parcels you have handed over to the agent. If you use one or more of these shipping agents, you can set up certain basic information and use the automatic tracking feature from posted shipments. For more informa.tion, see [How to: Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md).
+A number of shipping agents provide services on the Internet that allow you to track parcels you have handed over to the agent. If you use one or more of these shipping agents, you can set up certain basic information and use the automatic tracking feature from posted shipments. For more information, see [How to: Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md).
 
 ## To track a package
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Shipments**, and then choose the related link.
@@ -26,7 +26,7 @@ A number of shipping agents provide services on the Internet that allow you to t
 Your default browser opens the shipping agent's tracking page.
 
 ## See Also
-[[How to: Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md)  
+[How to: Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md)  
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  
 [How to: Send Documents by Email](ui-how-send-documents-email.md)  

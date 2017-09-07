@@ -63,8 +63,7 @@ To help you better understand personalization, here are some pointers.
         <tr><td>Remove something</td><td>Select the arrowhead, and choose <b>Remove</b>. </td></tr>
         <tr><td>Add a field or column</td><td>In the <b>Personalizing</b> banner, choose <b>More</b>, and then choose <b>Field</b>.<br /></br>The <b>Add Field to Page</b> pane opens on the right that lists the fields that you can add to the page. Fields marked as <b>Placed</b> are already on the page. Fields marked as <b>Ready</b> are not currently on the page.<br /></br>To add a field, drag it from the pane to the location that you want it. The location is indicated by either a thick horizontal or vertical line.</td></tr>
         <tr><td>Change the freeze pane in a list to another column</td><td>Select the arrowhead of the column that you want as the last column of the freeze pane, and then choose <b>Set Freeze Pane</b>.<br /><br/>If you want to set the freeze pane back to its original designed location, select the arrowhead for the current freeze pane column, and choose <b>Clear Freeze Pane</b>. Note: You cannot remove this freeze pane.</td></tr>
-      
-        </table>
+      </table>
     
     > [!IMPORTANT]  
     >   You cannot make changes to a list if the list is shown as tiles. You must first switch the page to the list view by selecting the ![Show as list](media/ui_show_as_list_icon.png "Show as list arrow left") icon.

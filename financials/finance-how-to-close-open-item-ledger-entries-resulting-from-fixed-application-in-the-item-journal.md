@@ -31,7 +31,8 @@ The following procedure shows how to close such entries by performing two correc
 2.  Use the **Applies-to Entry** field to post a negative adjustment. This closes the original corrective positive entry with a fixed application.  
 
 ## See Also  
+[ How to: Remove and Reapply Item Ledger Entries](finance-how-to-remove-and-reapply-item-entries.md)  
  [How to: Process Sales Returns and Cancellations](sales-how-process-sales-returns-cancellations.md)   
- [Set Up Inventory Valuation and Costings](finance-set-up-inventory-valuation-and-costings.md)   
- [Manage Inventory Costs](finance-manage-inventory-costs.md)   
+ [Setting Up Inventory Valuation and Costing](finance-set-up-inventory-valuation-and-costing.md)   
+ [Managing Inventory Costs](finance-manage-inventory-costs.md)   
  [Design Details: Costing Methods](design-details-costing-methods.md)

@@ -37,9 +37,9 @@ Each allocation consists of an allocation source and one or more allocation targ
 
 ## See Also  
 [Accounting for Costs](finance-manage-cost-accounting.md)  
- [Setting Filters for Dynamic Allocation Bases](setting-filters-for-dynamic-allocation-bases.md)   
- [Scenario Example: Defining Static Allocations Based on Allocation Ratio](scenario-example-defining-static-allocations-based-on-allocation-ratio.md)   
- [Scenario Example: Defining Dynamic Allocations Based on Items Sold](scenario-example-defining-dynamic-allocations-based-on-items-sold.md)   
- [Defining and Allocating Costs](define-and-allocate-costs.md)   
- [Terminology in Cost Accounting](terminology-in-cost-accounting.md)  
+ [Setting Filters for Dynamic Allocation Bases](finance-setting-filters-for-dynamic-allocation-bases.md)   
+ [Scenario Example: Defining Static Allocations Based on Allocation Ratio](finance-scenario-example-defining-static-allocations-based-on-allocation-ratio.md)   
+ [Scenario Example: Defining Dynamic Allocations Based on Items Sold](finance-scenario-example-defining-dynamic-allocations-based-on-items-sold.md)   
+ [Defining and Allocating Costs](finance-define-and-allocate-costs.md)   
+ [Terminology in Cost Accounting](finance-terminology-in-cost-accounting.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

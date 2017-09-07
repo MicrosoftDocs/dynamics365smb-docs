@@ -36,7 +36,7 @@ Because revaluation can be made on any date, you must have conventions for when 
 ### Example  
 The following example illustrates when a WIP item transitions to become part of inventory. The example is based on the production of a chain with 150 links.  
 
-![WIP inventory and revaluation](Image/design_details_inventory_costing_10_revaluation_WIP.png "design_details_inventory_costing_10_revaluation_WIP")  
+![WIP inventory and revaluation](Image/design_details_inventory_costing_10_revaluation_wip.png "design_details_inventory_costing_10_revaluation_wip")  
 
 **1Q**: The user posts the purchased links as received. The following table shows the resulting item ledger entry.  
 
@@ -177,6 +177,6 @@ WIP inventory can be revalued as long as the revaluation date is not later than 
  [Design Details: Inventory Costing](design-details-inventory-costing.md)   
  [Design Details: Costing Methods](design-details-costing-methods.md)   
  [Design Details: Inventory Valuation](design-details-inventory-valuation.md)
- [Managing Inventory Costs](finance-manage-inventory-costs)  
+ [Managing Inventory Costs](finance-manage-inventory-costs.md)  
  [Finance](finance.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

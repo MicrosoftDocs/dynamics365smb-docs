@@ -24,9 +24,7 @@ Inventory periods define a period of time in which you can post changes to inven
 -   Close inventory periods.  
 -   Reopen inventory periods.  
 
-## Creating Inventory Periods  
-
-### To create an inventory period  
+## To create an inventory period  
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Inventory Periods**, and then choose the related link.  
 2.  Create a new line.  
@@ -67,6 +65,7 @@ Inventory periods define a period of time in which you can post changes to inven
 4.  All inventory periods with ending dates later than the period you selected are reopened.  
 
 ## See Also  
+[]
 [Design Details: Inventory Periods](design-details-inventory-periods.md)  
 [Finance](finance.md)  
 [Inventory](inventory-manage-inventory.md)  

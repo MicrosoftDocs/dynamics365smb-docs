@@ -1,6 +1,6 @@
 ---
-    title: Design Details - Searching for Dimension Combinations | Microsoft Docs
-    description: When you close a window after you edit a set of dimensions, [!INCLUDE[d365fin](includes/d365fin_md.md)] evaluates whether the edited set of dimensions exists. If the set does not exist, a new set is created and the dimension combination ID is returned.
+    title: Design Details - Staying Under the Overflow Level | Microsoft Docs
+    description: When using Maximum Qty. and Fixed Reorder Qty., the planning system focuses on the projected inventory in the given time-bucket only. This means that the planning system may suggest superfluous supply when negative demand or positive supply changes occur outside of the given time bucket.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -11,69 +11,98 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 09/06/2017
     ms.author: sgroespe
 
 ---
-# Design Details: Searching for Dimension Combinations
-When you close a window after you edit a set of dimensions, [!INCLUDE[d365fin](includes/d365fin_md.md)] evaluates whether the edited set of dimensions exists. If the set does not exist, a new set is created and the dimension combination ID is returned.  
+# Design Details: Staying under the Overflow Level
+When using the Maximum Qty. and Fixed Reorder Qty. policies, the planning system focuses on the projected inventory in the given time-bucket only. This means that the planning system may suggest superfluous supply when negative demand or positive supply changes occur outside of the given time bucket. If, for this reason, a superfluous supply is suggested, the planning system calculates which quantity the supply should be decreased to (or deleted) to avoid the superfluous supply. This quantity is called the “overflow level.” The overflow is communicated as a planning line with a **Change Qty. (Decrease)** or **Cancel** action and the following warning message:  
 
-## Building Search Tree  
- Table 481 **Dimension Set Tree Node** is used when [!INCLUDE[d365fin](includes/d365fin_md.md)] evaluates whether a set of dimensions already exists in table 480 **Dimension Set Entry** table. The evaluation is performed by recursively traversing the search tree starting at the top level numbered 0. The top level 0 represents a dimension set with no dimension set entries. The children of this dimension set represent dimension sets with only one dimension set entry. The children of these dimension sets represent dimension sets with two children, and so on.  
+*Attention: The projected inventory [xx] is higher than the overflow level [xx] on the Due Date [xx].*  
 
-### Example 1  
- The following diagram represents a search tree with six dimension sets. Only the distinguishing dimension set entry is displayed in the diagram.  
+![Inventory overflow level](../FullExperience/media/supplyplanning_2_overflow1_new.png "supplyplanning_2_overflow1_new")  
 
- ![Dimension tree structure](media/nav2013_dimension_tree.png "NAV2013_Dimension_Tree")  
+##  Calculating the Overflow Level  
+The overflow level is calculated in different ways depending on planning setup.  
 
- The following table describes a complete list of dimension set entries that make up each dimension set.  
+### Maximum Qty. reordering policy  
+Overflow level = Maximum Inventory  
 
-|Dimension Sets|Dimension Set Entries|  
-|--------------------|---------------------------|  
-|Set 0|None|  
-|Set 1|AREA 30|  
-|Set 2|AREA 30, DEPT ADM|  
-|Set 3|AREA 30, DEPT PROD|  
-|Set 4|AREA 30, DEPT ADM, PROJ VW|  
-|Set 5|AREA 40|  
-|Set 6|AREA 40, PROJ VW|  
+> [!NOTE]  
+>  If a minimum order quantity exists, then it will be added as follows: Overflow level = Maximum Inventory + Minimum Order Quantity.  
 
-### Example 2  
- This example shows how [!INCLUDE[d365fin](includes/d365fin_md.md)] evaluates whether a dimension set that consists of the dimension set entries AREA 40, DEPT PROD exists.  
+### Fixed Reorder Qty. reordering policy  
+Overflow level = Reorder Quantity + Reorder Point  
 
- First, [!INCLUDE[d365fin](includes/d365fin_md.md)] also updates the **Dimension Set Tree Node** table to make sure that the search tree looks like the following diagram. Thus dimension set 7 becomes a child of the dimension set 5.  
+> [!NOTE]  
+>  If the minimum order quantity is higher than the reorder point, then it will replace as follows: Overflow Level = Reorder Quantity + Minimum Order Quantity  
 
- ![NAV2013&#95;Dimension&#95;Tree&#95;Example 2](media/nav2013_dimension_tree_example2.png "NAV2013_Dimension_Tree_Example2")  
+### Order Multiple  
+If an order multiple exists, then it will adjust the overflow level for both Maximum Qty. and Fixed Reorder Qty. reordering policies.  
 
-### Finding Dimension Set ID  
- At a conceptual level, **Parent ID**, **Dimension**, and **Dimension Value**, in the search tree, are combined and used as the primary key because [!INCLUDE[d365fin](includes/d365fin_md.md)] traverses the tree in the same order as the dimension entries. The GET function (record) is used to search for dimension set ID. The following code example shows how to find the dimension set ID when there are three dimension values.  
+##  Creating the Planning Line with Overflow Warning  
+When an existing supply causes the projected inventory to be higher than the overflow level at the end of a time bucket, a planning line is created. To warn about the potential superfluous supply, the planning line has a warning message, the **Accept Action Message** field is not selected, and the action message is either Cancel or Change Qty.  
 
-```  
-DimSet."Parent ID" := 0;  // 'root'  
-IF UserDim.FINDSET THEN  
-  REPEAT  
-      DimSet.GET(DimSet."Parent ID",UserDim.DimCode,UserDim.DimValueCode);  
-  UNTIL UserDim.NEXT = 0;  
-EXIT(DimSet.ID);  
+### Calculating the Planning Line Quantity  
+Planning Line Quantity = Current Supply Quantity – (Projected Inventory – Overflow Level)  
 
-```  
+> [!NOTE]  
+>  As with all warning lines, any maximum/minimum order quantity or order multiple will be ignored.  
 
- However, to preserve the ability of [!INCLUDE[d365fin](includes/d365fin_md.md)] to rename a dimension and dimension value, table 348 **Dimension Value** is extended with an integer field of **Dimension Value ID**. This table converts the field pair **Dimension** and **Dimension Value** to an integer value. When you rename the dimension and dimension value, the integer value is not changed.  
+### Defining the Action Message Type  
 
-```  
-DimSet."Parent ID" := 0;  // 'root'  
-IF UserDim.FINDSET THEN  
-  REPEAT  
-      DimSet.GET(DimSet.ParentID,UserDim."Dimension Value ID");  
-  UNTIL UserDim.NEXT = 0;  
-EXIT(DimSet.ID);  
+-   If the planning line quantity is higher than 0, then the action message is Change Qty.  
+-   If the planning line quantity is equal to or lower than 0, then the action message is Cancel  
 
-```  
+### Composing the Warning Message  
+In case of overflow, the **Untracked Planning Elements** window displays a warning message with the following information:  
+
+-   The projected inventory level that triggered the warning  
+-   The calculated overflow level  
+-   The due date of the supply event.  
+
+Example: “The projected inventory 120 is higher than the overflow level 60 on 28-01-11”  
+
+## Scenario  
+In this scenario, a customer changes a sales order from 70 to 40 pieces between two planning runs. The overflow feature sets in to reduce the purchase that was suggested for the initial sales quantity.  
+
+### Item setup  
+
+|Reordering Policy|Maximum Qty.|  
+|-----------------------|------------------|  
+|Maximum Order Quantity|100|  
+|Reorder Point|50|  
+|Inventory|80|  
+
+### Situation before sales decrease  
+
+|Event|Change Qty.|Projected Inventory|  
+|-----------|-----------------|-------------------------|  
+|Day one|None|80|  
+|Sale|-70|10|  
+|End of time bucket|None|10|  
+|Suggest new purchase order|+90|100|  
+
+### Situation after sales decrease  
+
+|Change|Change Qty.|Projected Inventory|  
+|------------|-----------------|-------------------------|  
+|Day one|None|80|  
+|Sale|-40|40|  
+|Purchase|+90|130|  
+|End of time bucket|None|130|  
+|Suggest to decrease purchase<br /><br /> order from 90 to 60|-30|100|  
+
+### Resulting Planning Lines  
+ One planning line (warning) is created to reduce the purchase with 30 from 90 to 60 to keep the projected inventory on 100 according to the overflow level.  
+
+![](../FullExperience/media/nav_app_supply_planning_2_overflow2.png "NAV_APP_supply_planning_2_overflow2")  
+
+> [!NOTE]  
+>  Without the Overflow feature, no warning is created if the projected inventory level is above maximum inventory. This could cause a superfluous supply of 30.  
 
 ## See Also  
- [GET Function (Record)](GET%20Function%20(Record).md)   
- [Design Details: Dimension Set Entries](design-details-dimension-set-entries.md)   
- [Dimension Set Entries Overview](design-details-dimension-set-entries-overview.md)   
- [Design Details: Table Structure](design-details-table-structure.md)   
- [Design Details: Codeunit 408 Dimension Management](design-details-codeunit-408-dimension-management.md)   
- [Design Details: Code Examples of Changed Patterns in Modifications](design-details-code-examples-of-changed-patterns-in-modifications.md)
+[Design Details: Reordering Policies](design-details-reordering-policies.md)   
+[Design Details: Planning Parameters](design-details-planning-parameters.md)   
+[Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md)   
+[Design Details: Supply Planning](design-details-supply-planning.md)

@@ -33,8 +33,8 @@ To help you better understand personalization, here are some pointers.
 -   Changes that you make will take effect on all your Role Centers. For example, if you make a change to the Customer list when the Role Center is set to Business Manager, you will also see the change in the Customer list when Role Center is set to Sales Order Processor. 
 -   Changes to a page in a pane will take effect on the page where ever it is shown.  
 -   You can only add fields and columns from a predefined list, which is based on the page. You cannot create new ones.
--   Because tiles and parts cannot be added, if you remove them, the only way to get them back is to clear personalization.
--   There  
+-   Because Cues and parts cannot be added, if you remove them, the only way to get them back is to clear personalization.
+
 
 <!--NAV
 

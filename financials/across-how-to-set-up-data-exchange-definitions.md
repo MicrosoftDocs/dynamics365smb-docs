@@ -83,7 +83,7 @@ You can set up [!INCLUDE[d365fin](includes/d365fin_md.md)] to exchange data in s
 
 5.  Repeat step 4 to create a line for every type of file data that you want to export.  
 
-     Proceed to describe the formatting of columns in the data file by filling the fields on the **Column Definitions** FastTab as described in the table below. You can use the structure file, such as an .XSD file, for the data file to prefill the FastTab with the relevant elements. For more information, see [How to: Use XML Schemas to Prepare Data Exchange Definitions](../Topic/How%20to:%20Use%20XML%20Schemas%20to%20Prepare%20Data%20Exchange%20Definitions.md).  
+     Proceed to describe the formatting of columns in the data file by filling the fields on the **Column Definitions** FastTab as described in the table below. You can use the structure file, such as an .XSD file, for the data file to prefill the FastTab with the relevant elements. For more information, see [How to: Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
 6.  On the **Column Definitions** FastTab, choose **Get File Structure**.  
 

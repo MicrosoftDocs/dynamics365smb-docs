@@ -1,6 +1,6 @@
 ---
     title: How to Manage Customer Credit Information | Microsoft Docs
-    description: In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can add comments to customer credit information. You can also hold and block customers with bad credit before shipping or invoicing occurs.
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can add comments to customer credit information. You can also hold and block customers with bad credit before shipping or invoicing occurs.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,10 +16,10 @@
 
 ---
 # How to: Manage Customer Credit Information
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can add comments to customer credit information. You can also hold and block customers with bad credit before shipping or invoicing occurs.  
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can add comments to customer credit information. You can also hold and block customers with bad credit before shipping or invoicing occurs.  
 
 ## To add comments to customer credit information  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Credit Management**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Credit Management**, and then choose the related link.  
 2.  In the **Customer List - Credit Mgmt.** window, select a customer, and then choose the **Comments** action.  
 3.  In the **Comment Sheet** window, fill in the fields as described in the following table.  
 
@@ -31,7 +31,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can add comments to customer
 4.  Choose the **OK** button.  
 
 ## To prevent an order from shipping or invoicing  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.  
 2.  Select the customer, and the choose the **Ledger Entries** action.  
 3.  In the **On Hold** field, enter the initials of the customer.  
 4.  Choose the **OK** button.  
@@ -40,7 +40,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can add comments to customer
     >  You must have the proper security clearance to add or remove holds on individual sales orders using the **On Hold** field.  
 
 ## To block a sales order for a customer  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.  
 2.  Select a customer, and then choose the **Edit** action.  
 3.  On the **General** FastTab, in the **Blocked** field, select one of the following options:  
 

@@ -28,7 +28,7 @@ The **Direct Sales Details** and **Direct Purchase Details** reports include hea
 
 ### To print direct sales and direct purchase details reports  
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Direct Sales Details** or **Direct Purchase Details**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Direct Sales Details** or **Direct Purchase Details**, and then choose the related link.  
 
 2.  On the **G/L Entry** FastTab, select the appropriate filters.  
 

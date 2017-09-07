@@ -1,6 +1,6 @@
 ---
 title: United Kingdom Local Functionality | Microsoft Docs
-description: Get an overview of local functionality in the United Kingdom version of [!INCLUDE[d365fin](includes/d365fin_md.md)].
+description: Get an overview of local functionality in the United Kingdom version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
 author: edupont04
 
 ms.service: dynamics365-financials
@@ -14,7 +14,7 @@ ms.author: edupont
 
 ---
 # United Kingdom Local Functionality
-The following topics describe the local functionality in the United Kingdom version of [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+The following topics describe the local functionality in the United Kingdom version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## In This Section  
 [Multiple Interest Rates Overview](multiple-interest-rates-overview.md)  
@@ -34,4 +34,4 @@ The following topics describe the local functionality in the United Kingdom vers
 [How to: Set Up Reverse Charges on VAT](how-to-set-up-reverse-charges-on-vat.md)  
 
 ## See Also
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](../../ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  

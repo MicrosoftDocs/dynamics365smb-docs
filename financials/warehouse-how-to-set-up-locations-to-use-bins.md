@@ -21,7 +21,7 @@ Bins represent the basic warehouse structure and are used to make suggestions ab
 To use the bin functionality at a location, you first activate the functionality on the **Location** card. Then you design the item flow at the location by specifying bin codes in setup fields that represent the different flows.  
 
 > [!NOTE]  
->  Before you can specify bin codes on the location card, the bin codes must be created. For more information, see [How to: Create Bins in the Bin Creation Worksheet](../how-to-create-bins-in-the-bin-creation-worksheet.md).  
+>  Before you can specify bin codes on the location card, the bin codes must be created. For more information, see [How to: Create Bins](warehouse-how-to-create-individual-bins.md).  
 
 ## To set up a location to use bins  
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.  

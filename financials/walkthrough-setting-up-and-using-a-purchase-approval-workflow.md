@@ -162,6 +162,5 @@ If a business scenario requires a workflow event or response that is not support
 [How to: Set Up Approval Users](across-how-to-set-up-approval-users.md)   
 [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)   
 [How to: Create Workflows](across-how-to-create-workflows.md)   
-[How to: Request Approval](across-how-to-request-approval.md)   
-[How to: Approve or Reject Requests for Approval](across-how-to-approve-or-reject-requests-for-approval.md)   
+[How to: Use Approval Workflows](across-how-use-approval-workflows.md)   
 [Workflow](across-workflow.md)

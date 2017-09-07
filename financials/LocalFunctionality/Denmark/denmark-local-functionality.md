@@ -20,7 +20,7 @@ The following topics describe the local functionality in the Danish version of [
 
 ## In This Section  
 [OIOUBL Electronic Invoicing Overview](oioubl-electronic-invoicing-overview.md)  
-[EAN Location Number](EAN Location Number.md)  
+[EAN Location Number](ean-location-number.md)  
 [FIK Details in the Payment Reconciliation Journal](fik-details-in-the-payment-reconciliation-journal.md)  
 [VAT-VIES Reporting](vat-vies-reporting.md)
 [How to: Print VAT Reconciliation Reports](how-to-print-vat-reconciliation-reports.md)

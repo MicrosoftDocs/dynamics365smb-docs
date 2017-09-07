@@ -38,6 +38,7 @@ You can make your [!INCLUDE[d365fin](includes/d365fin_md.md)] data available as 
 5. Choose the **Connection** button to continue. The Power BI wizard shows a list of [!INCLUDE[d365fin](includes/d365fin_md.md)] data sources. These data source represent all the web services that you have published from your [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
    Alternatively, create a new web service URL in [!INCLUDE[d365fin](includes/d365fin_md.md)] by using the **Create Data Set** action in the **Web Services** page, using the **Set Up Reporting** Assisted Setup guide, or by choosing the **Edit in Excel** action in any lists.
+   
 6. Specify the data you want to add to your data model, and then choose the **Load** button.
 7. Repeat the previous steps to add additional [!INCLUDE[d365fin](includes/d365fin_md.md)] data to your Power BI data model.
 

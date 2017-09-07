@@ -28,10 +28,9 @@ Before you can create workflows that involve approval steps, you must set up the
 >   
 >  To define that an approval request is not approved until multiple equal approvers have approved it, regardless of a hirarchy, set up a flat workflow user group. For approver type, **Workflow User Group**, set up approvers in the **Workflow User Groups** window and assign the same number to each approver in the **Sequence No.** field. For more information, see [How to: Set Up Workflow Users](across-how-to-set-up-workflow-users.md).  
 
-### To set up an approval user  
-
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Approval User Setup**, and then choose the related link.  
-2.  Create a new line in the **Approval User Setup** window, and then fill the fields as described in the following table.  
+## To set up an approval user  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Approval User Setup**, and then choose the related link.  
+2. Create a new line in the **Approval User Setup** window, and then fill the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -51,15 +50,13 @@ Before you can create workflows that involve approval steps, you must set up the
     > [!NOTE]  
     >  The behavior of **Approver Limit Type** field only applies to application areas where limits can be defined, namely sales and purchase approvals. Any other type of approval where limits do not apply will always behave as described for the **Direct Approver** option.  
 
-3.  To test the approval user setup, choose the **Approval User Setup Test** action.  
-4.  Repeat steps 2 and 3 for every user who you want to set up as an approval user.  
+3. To test the approval user setup, choose the **Approval User Setup Test** action.  
+4. Repeat steps 2 and 3 for every user who you want to set up as an approval user.  
 
 ## See Also  
- Limit Type   
- Approval User Setup Test   
- [How to: Set Up Workflow Users](across-how-to-set-up-workflow-users.md)   
- [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)   
- [How to: Create Workflows](across-how-to-create-workflows.md)   
- [Setting Up Workflows](across-set-up-workflows.md)   
- [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
- [Workflow](across-workflow.md)   
+[How to: Set Up Workflow Users](across-how-to-set-up-workflow-users.md)   
+[Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)   
+[How to: Create Workflows](across-how-to-create-workflows.md)   
+[Setting Up Workflows](across-set-up-workflows.md)   
+[Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
+[Workflow](across-workflow.md)   

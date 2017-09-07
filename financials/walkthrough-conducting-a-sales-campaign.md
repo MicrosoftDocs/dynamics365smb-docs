@@ -37,7 +37,6 @@ A campaign is any kind of activity that involves several contacts. An important 
  This walkthrough demonstrates tasks that are performed by the following user roles:  
 
 -   Marketing Manager or Sales Manager  
-
 -   Marketing Staffer  
 
 ## Prerequisites  

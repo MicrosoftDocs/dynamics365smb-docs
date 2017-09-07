@@ -30,7 +30,7 @@ The **Processed** check box is automatically selected on incoming document recor
 1. In the **Incoming Documents** window, select one or more lines for incoming document records that you want to remove from the default view.
 2. Choose the **Set to Processed** action.
 
-The incoming document records are removed from the default view, and the **Processed** check box is selected on the lines.
+    The incoming document records are removed from the default view, and the **Processed** check box is selected on the lines.
 
 > [!NOTE]  
 >   You can also perform this action for the individual record in the **Incoming Document Card** window.

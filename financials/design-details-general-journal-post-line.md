@@ -30,4 +30,4 @@ This documentation provides detailed technical insight into the concepts and pri
  [Codeunit 12 Changes: Changes in General Journal Post Procedures](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)  
 
 ## See Also  
- [Work with General Journals](ui-work-with-general-journals.md)
+ [Working with General Journals](ui-work-general-journals.md)

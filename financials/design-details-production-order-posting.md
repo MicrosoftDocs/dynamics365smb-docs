@@ -34,9 +34,9 @@ Therefore, apart from regular inventory accounts, a manufacturing company must e
 |**Work in Process (WIP) account**|Accumulates the costs that are incurred during production in the accounting period. The WIP account is debited for the cost of raw materials that are transferred from the raw materials warehouse, the cost of direct labor performed, and the manufacturing overhead costs that are incurred.<br /><br /> The WIP account is credited for the total manufacturing cost of units that are completed in the factory and transferred to the finished goods warehouse.|  
 |**Finished Goods account**|This account includes the total manufacturing cost of units that are completed but not yet sold. At the time of sale, the cost of units sold is transferred from the Finished Goods account to the Cost of Goods Sold account.|  
 
-The inventory value is calculated by tracking the costs of all increases and decreases, as expressed by the following equation.  
+The inventory value is calculated by tracking the costs of all increases and decreases, as expressed by the following equation:  
 
-inventory value = beginning balance of inventory + value of all increases - value of all decreases  
+* inventory value = beginning balance of inventory + value of all increases - value of all decreases  
 
 Depending on the type of inventory, increases and decreases are represented by different transactions.  
 

@@ -321,7 +321,6 @@
 ## [Fulfilling Service Contracts](service-fulfill-service-contracts.md)
 ## [Delivering Service](service-deliver-service.md)
 
-
 # [General Business Functionality](ui-across-business-areas.md)
 ## [How to: Set Up Extended Item Text](ui-how-define-ext-text.md)
 ## [Working with General Journals](ui-work-general-journals.md)

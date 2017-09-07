@@ -324,7 +324,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
     Read the error message explaining why this field can only be filled through the **Qty. to Ship** field on the related shipment.  
 
-    The **Quantity to Assemble** field is editable is to support situations where you want to partially ship an inventory quantity instead of assembling more units to the order. For more information, see the “Combination Scenarios” section in [Understanding Assemble to Order and Assemble to Stock](warehouse-assemble-to-order-or-assemble-to-stock.md).  
+    The **Quantity to Assemble** field is editable is to support situations where you want to partially ship an inventory quantity instead of assembling more units to the order. For more information, see the “Combination Scenarios” section in [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md).  
 
 12. Close the **Assembly Order** window to return to the **Warehouse Shipment** window.  
 13. On the shipment line for three units of Kit B, in the **Qty. to Ship** field, enter **3**.  
@@ -427,11 +427,11 @@ When the sales order is later posted as fully invoiced, the sales order and the 
     When the The Device Shop pays for their receipt of the 18 PCs from CRONUS, the sales order and its linked assembly orders are removed.  
 
 ## See Also  
- [Understanding Assemble to Order and Assemble to Stock](warehouse-assemble-to-order-or-assemble-to-stock.md)   
+ [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md)   
  [How to: Assemble Items](warehouse-how-to-assemble-items.md)   
  [How to: Pick Items for Warehouse Shipment](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
- [How to: Sell Items Assembled to Order](warehouse-how-to-sell-items-assembled-to-order.md)   
- [Assembling Items](warehouse-assemble-items.md)   
+ [How to: Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md)   
+ [How to: Assemble Items](assembly-how-to-assemble-items.md)   
  [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)   
  [Design Details: Internal Warehouse Flows](design-details-internal-warehouse-flows.md)   
  [Design Details: Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md)   

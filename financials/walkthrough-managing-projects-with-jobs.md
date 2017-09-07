@@ -619,8 +619,8 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
 ## See Also  
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)   
- [Set Up Jobs](set-up-jobs.md)   
- [Price, Schedule, and Manage Resources](price-schedule-and-manage-resources.md)   
- [Monitor Progress and Performance](monitor-progress-and-performance.md)   
- [Invoice Jobs](invoice-jobs.md)  
+ [Setting Up Project Management](projects-setup-projects.md)   
+ [How to: Use Resources](projects-how-use-resources.md)   
+ [How to: Monitor Progress and Performance](projects-monitor-progress-and-performance.md)   
+ [How to: Invoice Jobs](projects-how-invoice-jobs.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

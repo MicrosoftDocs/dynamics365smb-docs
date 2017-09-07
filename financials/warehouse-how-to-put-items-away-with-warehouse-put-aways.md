@@ -52,7 +52,7 @@ In addition to the standard ways to create warehouse put-aways that are describe
 
 At locations that are set up to use directed put-away and pick, the following settings are prerequisites for the procedure above:  
 
-- A put-away template is set up. For more information, see [How to: Set Up Put-away Templates](../how-to-set-up-put-away-templates.md).  
+- A put-away template is set up. For more information, see [How to: Set Up Put-away Templates](warehouse-how-to-set-up-put-away-templates.md).  
 - The weight, cubage, and special storage requirements of the item or stockkeeping unit are defined. For more information, see Gross Weight.  
 - The capacity, bin type, and bin ranking of the bins. For more information, see Bin Ranking.  
 

@@ -49,19 +49,19 @@ The **Company Name** column lists all companies that your clients have in [!INCL
 
 Next to the company name, the ellipsis (...) reveals a short menu:
 
--   Refresh the current company and get fresh data for the client  
--   Go to the client's company  
--   Select more companies  
+* Refresh the current company and get fresh data for the client  
+* Go to the client's company  
+* Select more companies  
 
 Similarly, you can use the **Client Summary** drop-down menu to refresh all companies or open the currently selected company, for example.  
 
-#### Company Details
+### Company Details
 You can see more information about your clients' data by choosing the name of the company that you want to learn more about. This opens the **Company Details** pane, where you can see additional information, such as the following:  
 
--   Cash account balances  
--   Cash flow forecast  
--   Overdue purchase invoices  
--   Overdue sales invoices  
+* Cash account balances  
+* Cash flow forecast  
+* Overdue purchase invoices  
+* Overdue sales invoices  
 
 ![Client company details in the accountant portal](./media/finance-accounting/accountant-company-details.png)
 
@@ -72,7 +72,7 @@ Technically, you have now logged into your client's [!INCLUDE[d365fin](includes/
 
 Otherwise, close the details pane and continue to the next client.  
 
-#### Working in the Client Company
+### Working in the Client Company
 If you want to do more work for a client, you can do this in the Accountant Role Center in their [!INCLUDE[d365fin](includes/d365fin_md.md)] - simply choose the **Go To Client** menu item, and you are logged in automatically.  
 
 In the client's company, you have view and modify the data that you need in your work. For more information, see the top of this page.

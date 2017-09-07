@@ -46,7 +46,9 @@ To help you better understand personalization, here are some pointers.
 
     The **Personalizing** banner appears at the top to indicate that you can start making changes. 
 
-    ![Personalize mode](media/ui_personalize_mode.png "Personalize mode")
+    ![Personalize mode](media/ui_personalize_mode_small.png "Personalize mode")
+
+    If you see a lock icon in the banner, see [Why the page is locked](ui-personalize-locked) for more details.
 
 2.  Go to a page that you want to personalize.
 

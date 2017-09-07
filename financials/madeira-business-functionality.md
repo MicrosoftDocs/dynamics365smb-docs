@@ -33,10 +33,9 @@ The following table describes a sequence of tasks, with links to the topics that
 |Register new inventory or service-type items, categorize items for easy searching, adjust inventory levels, and perform common inventory costing tasks.|[Inventory](inventory-manage-inventory.md)|
 |Create jobs and schedule resources for project, manage job budgets, monitor progress, and track machine and employee hours.|[Project Management](projects-manage-projects.md)|
 |Organize your fixed assets, ensure correct periodic depreciation, and keep track of maintenance costs.|[Fixed Assets](fa-manage.md)|
-|Keep detailed records of your employees, and register absence for analysis purposes. |[Human Resources](hr-manage-human-resources.md)|
 |Manage and support your sales efforts and focus your interactions on preferred customers and contacts.|[Relationship Management](marketing-relationship-management.md)|
-|Maintain employee information and register and monitor employee absence.|[Human Resources](hr-manage-human-resources.md)|
-|Plan the production operations that are required to transform inputs into finished goods.|[Planning](planning.md)|
+|Keep detailed records of your employees, and register absence for analysis purposes. |[Human Resources](hr-manage-human-resources.md)|
+|Plan the production operations that are required to transform inputs into finished goods.|[Planning](production-planning.md)|
 |Put sellable items together in simple steps to make a new item, such as a kit.|[Assembly Management](assembly-assemble-items.md)|
 |Define shop floor resources and their capacity, schedule operations, pull production components, and execute production operations.|[Manufacturing](production-manage-manufacturing.md)|
 |Ensure an effective flow of goods that are received and shipped.|[Warehouse Management](warehouse-manage-warehouse.md)|

@@ -340,7 +340,6 @@
 ### [Exchanging Data](across-exchange-data.md)
 
 # [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)
-## [Walkthrough: Synchronizing Information Between Outlook and Financials](walkthrough-synchronizing-information-between-outlook-and-microsoft-dynamics-nav.md)
 ## [Walkthrough: Conducting a Sales Campaign](walkthrough-conducting-a-sales-campaign.md)
 ## [Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ## [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)

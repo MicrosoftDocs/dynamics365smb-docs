@@ -15,6 +15,7 @@
     ms.author: sgroespe
 
 ---
+# Design Details: Revaluation
 You can revalue the inventory based on the valuation base that most accurately reflects the inventory value. You can also backdate a revaluation, so that the cost of goods sold (COGS) is correctly updated for items that have already been sold. Items using the Standard costing method that have not been completely invoiced can also be revalued.  
 
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], the following flexibility is supported regarding revaluation:  

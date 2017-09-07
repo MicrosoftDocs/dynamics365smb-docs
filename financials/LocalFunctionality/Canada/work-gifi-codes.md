@@ -25,7 +25,7 @@ When an account is associated with a GIFI code, it is reported to the revenue ag
 You can export balance information by GIFI code and save the exported file in Excel, which is useful for transferring information to your tax preparation software.
 
 ## To set up GIFI codes
-In Dynamics NAV, you must set up GIFI codes for general ledger accounts, reports, balance sheets, income sheets, and statements of retained earnings.
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you must set up GIFI codes for general ledger accounts, reports, balance sheets, income sheets, and statements of retained earnings.
 
 1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **GIFI Codes**, and then choose the related link.
 2. In the **GIFI Codes** window, choose the **New** action.

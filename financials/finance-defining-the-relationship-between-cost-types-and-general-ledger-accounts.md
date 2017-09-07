@@ -42,7 +42,7 @@ These two fields are filled automatically when you use the **Get Cost Types from
 
 ## See Also  
 [Accounting for Costs](finance-manage-cost-accounting.md)  
- [How to: Set Up Cost Types](how-to-set-up-cost-types.md)   
- [Setting Up Cost Accounting](set-up-cost-accounting.md)   
- [About Cost Accounting](about-cost-accounting.md)  
+ [How to: Set Up Cost Types]finance-(how-to-set-up-cost-types.md)   
+ [Setting Up Cost Accounting](finance-set-up-cost-accounting.md)   
+ [About Cost Accounting](finance-about-cost-accounting.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

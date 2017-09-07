@@ -22,7 +22,7 @@ The matrix of quantity fields at the top of the **Item Tracking Lines** window d
 
 As a performance measure, the program collects the availability information in the **Item Tracking Lines** window only once, when you open the window. This means that the program does not update the availability information during the time that you have the window open, even if changes occur in inventory or on other documents during that time.
 
-Items with serial or lot numbers can be traced both backwards and forward in their supply chain. This is useful for general quality assurance and for product recalls. For more information, see [How to: Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items).
+Items with serial or lot numbers can be traced both backwards and forward in their supply chain. This is useful for general quality assurance and for product recalls. For more information, see [How to: Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md).
 
 ## About Picking Serial or Lot Numbers in the Warehouse
 Outbound handling of serial or lot numbers is a frequent task in different warehouse processes.  
@@ -255,7 +255,7 @@ Reclassifying item tracking for an item means changing a lot or serial number to
 8.  Post the journal to link the renewed item tracking numbers or expiration dates to the associated item ledger entry
 
 ## See Also
-[How to: Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items)   
+[How to: Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)   
 [Inventory](inventory-manage-inventory.md)  
 [Design Details: Item Tracking](design-details-item-tracking.md)
 [Design Details - Item Tracking and Reservations](design-details-item-tracking-and-reservations.md)  

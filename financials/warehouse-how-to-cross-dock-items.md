@@ -55,7 +55,7 @@ The program does not keep separate records about items that have been cross-dock
 
 ## To cross-dock items without viewing the opportunities  
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Warehouse Receipts**, and then choose the related link.  
-2.  Create a warehouse receipts for an item that has arrived and can perhaps be cross-docked. For more information, see [How to: Receive Items](warehouse-how-to-receive-items.md).  
+2.  Create a warehouse receipts for an item that has arrived and can perhaps be cross-docked. For more information, see [How to: Receive Items](warehouse-how-receive-items.md).  
 3.  Fill in the **Qty. to Receive** field, and then choose the **Calculate Cross-Dock** action.  
 
     Outbound source documents requesting the items that are scheduled to leave the warehouse within the date formula time period are identified.  [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates quantities so that you can cross-dock as much as possible and avoid having to put items away, without piling up too many items in the cross-dock area. The value in the **Qty. to Cross-Dock** field is thus the sum of all the outbound lines requesting the item within the look-ahead period minus the quantity of the items that have already been placed in the cross-dock area, or it is the value in the **Qty. to Receive** field on the receipt line, whichever is smaller. You cannot cross-dock more than you have received.  
@@ -72,7 +72,7 @@ The program does not keep separate records about items that have been cross-dock
 
 ## To cross-dock items after viewing the opportunities  
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Warehouse Receipts**, and then choose the related link.  
-2.  Create a warehouse receipts for an item that has arrived and can perhaps be cross-docked. For more information, see [How to: Receive Items](warehouse-how-to-receive-items.md).  
+2.  Create a warehouse receipts for an item that has arrived and can perhaps be cross-docked. For more information, see [How to: Receive Items](warehouse-how-receive-items.md).  
 
     You want to view the source document lines that are requesting the item before you post the receipt.  
 3.  Choose the **Calculate Cross-Dock** action.  

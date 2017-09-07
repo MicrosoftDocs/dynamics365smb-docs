@@ -36,5 +36,5 @@ For single cost entries, [!INCLUDE[d365fin](includes/d365fin_md.md)] transfers t
 ## See Also  
  [How to: Transfer General Ledger Entries to Cost Entries](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)   
  [Criteria for Transferring General Ledger Entries to Cost Entries](finance-criteria-for-transferring-general-ledger-entries-to-cost-entries.md)   
- [Automatic Transfer and Combined Entries](finance-automatic-transfer-and-combined-entries.md)   
+ [Automatic Transfer and Combined Entries](finance-automatic-transfer-combined-entries.md)   
  [Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)  

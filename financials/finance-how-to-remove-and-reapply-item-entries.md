@@ -11,11 +11,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/09/2017
+    ms.date: 09/07/2017
     ms.author: sgroespe
 
 ---
-# How to: Remove and Reapply Item Entries
+# How to: Remove and Reapply Item Ledger Entries
 In the **Application Worksheet** window, you can view and manually change certain item application entries that are created automatically during inventory transactions.  
 
 When you post a transaction where items are moved in or out of inventory, an item application is created between each inventory increase and inventory decrease. These applications determine the flow of costs from the goods that are received in inventory to the cost of goods going out of inventory. Because of the way the unit cost is calculated, an incorrect item application could lead to a skewed average cost and a skewed unit cost. For more information, see Design Details: Item Application.
@@ -71,7 +71,8 @@ If you cannot use a document to reapply, such as when you have to correct a fixe
 6.  If the **Automatic Cost Adjustment** field in the **Inventory Setup** is set to **Always**, then the cost adjustment batch job is automatically run after you make a reapplication. Otherwise, run the **Adjust Cost - Item Entries** batch job to make sure that all costs are up to date.  
 
 ## See Also  
+[How to: Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
  [How to: Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md)  
- [Managing Inventory Costs](finance-manage-inventory-costs)   
+ [Managing Inventory Costs](finance-manage-inventory-costs.md)   
  [Design Details: Item Application](design-details-item-application.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

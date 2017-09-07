@@ -18,11 +18,11 @@
 # Walkthrough: Logging Email Interactions in the Database
 In managing your relationships with contacts, it helps keep track of email correspondence. Email logging in [!INCLUDE[d365fin](includes/d365fin_md.md)] and Microsoft Exchange Server. For example, you can send an email message to a contact about an upcoming event. The contact replies, and confirms interest in participating. Both messages are logged on the contact card. Or, you might receive a complaint from a contact via an email message. You can track that contact's message and your response to it by using email logging.  
 
-The email logging feature makes it possible to log all inbound and outbound email messages. The only requirement is that the email address be one that [!INCLUDE[d365fin](includes/d365fin_md.md)] recognizes. The address must belong to a salesperson or to a contact. The messages can be created in Outlook. They are logged automatically when you have email logging enabled. This gives you flexibility to choose the solution that best suits your needs.  
+The email logging feature automatically records all inbound and outbound email messages. The only requirement is that [!INCLUDE[d365fin](includes/d365fin_md.md)] knows the email address of the salesperson and the contact in Outlook. 
 
-After you have implemented email logging, you can make email correspondence available to all employees, even if a message was sent to a specific recipient. You do this by taking advantage of Exchange public folders. This improves knowledge sharing and enables better user productivity, because information is stored in one common location.  
+After you enable email logging, you can make email correspondence available to all employees, even if a message was sent to a specific recipient. You do this by taking advantage of Exchange public folders. This improves knowledge sharing and enables better user productivity because information is stored in one shared location.  
 
-Because email logging is server-based, email messages are kept in their native environment instead of in the application. This makes it easier to administer and optimize database storage.  
+Because email logging is server-based, email messages are kept in their native environment instead of the application. This makes it easier to administer and optimize database storage.  
 
 ## About This Walkthrough  
 This walkthrough describes how to install and maintain email logging for Microsoft Exchange Server in [!INCLUDE[d365fin](includes/d365fin_md.md)], and illustrates the following tasks:  

@@ -41,7 +41,7 @@ You have now emptied the bins where the items used to be. The default bins for y
 
 ## To restructure an advanced warehouse that uses directed put-away and pick  
 
-1.  Create the new bins that you want to use in the future. For more information, see [How to: Create Bins in the Bin Creation Worksheet](warehouse-how-to-create-bins-in-the-bin-creation-worksheet.md).  
+1.  Create the new bins that you want to use in the future. For more information, see [How to: Create Bins](warehouse-how-to-create-individual-bins.md).  
 2.  Move all the contents of your current bins to the new bins that you just created.  
 
     1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Warehouse Reclassification Journal**, and then choose the related link.  
@@ -54,7 +54,7 @@ You have now emptied the bins where the items used to be. The default bins for y
     2.  Select the line with the location, and then choose the **Bins** action.  
     3.  In the **Bins** window, in the **Bin Type Code** field, enter **QC** for each of the old bins that you emptied in step 3 in the previous procedure.  
 
- You have now removed the bins from the warehouse flow, and reclassified them as QC bins. QC bins have none of the activity fields in the **Bin Types** window selected and are therefore not considered by the item flow. For more information, see [How to: Set Up Bin Types](../how-to-set-up-bin-types.md).  
+ You have now removed the bins from the warehouse flow, and reclassified them as QC bins. QC bins have none of the activity fields in the **Bin Types** window selected and are therefore not considered by the item flow. For more information, see [How to: Set Up Bin Types](warehouse-how-to-set-up-bin-types.md).  
 
 ## To delete a bin  
 

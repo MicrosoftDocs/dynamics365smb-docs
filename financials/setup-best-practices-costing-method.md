@@ -33,6 +33,5 @@ The **Costing Method** on the item card defines item’s cost flow is recorded a
 ## See Also  
  [Design Details: Costing Methods](design-details-costing-methods.md)   
  [Design Details: Inventory Costing](design-details-inventory-costing.md)   
- [Set Up a Company With RapidStart Services for [!INCLUDE[d365fin](includes/d365fin_md.md)]](set-up-a-company-with-rapidstart-services-for-microsoft-dynamics-nav.md)  
  [Set Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -301,6 +301,8 @@
 
 # [Manufacturing](production-manage-manufacturing.md)
 ## [About Production Orders](production-about-production-orders.md)
+## [How to: Create Production Orders](production-how-to-create-production-orders.md)
+## [How to: Subcontract Manufacturing](production-how-to-subcontract-manufacturing.md)
 ## [How to: Post Consumption and Output for One Released Production Order Line](production-how-to-register-consumption-and-output.md)
 ## [How to: Batch Post Consumption](production-how-to-post-consumption.md)
 ## [How to: Batch Post Output and Run Times](production-how-to-post-output-quantity.md)

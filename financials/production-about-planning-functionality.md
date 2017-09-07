@@ -41,7 +41,7 @@ As you can see from the **Replenishment System** field on a SKU card, the planni
 
 In addition to such automatic transfer orders, you may sometimes need to perform a general move of inventory quantities to another location, irrespective of existing demand. For this purpose you would manually create a transfer order for the quantity to move. To ensure that the planning system does not try to manipulate this manual transfer order, you must set the **Planning Flexibility** on the transfer line(s) to None.  
 
-Contrarily, if you do want the planning system to adjust the transfer order quantities and [dates](../($%20T_5741_39%20Receipt%20Date%20$).md) to existing demand, you must set the Planning Flexibility field to the default value, Unlimited.
+Contrarily, if you do want the planning system to adjust the transfer order quantities and dates to existing demand, you must set the **Planning Flexibility** field to the default value, Unlimited.
 
 ## Planning Parameters  
 The planning parameters control when, how much, and how to replenish based on the various settings on the item card (or stockkeeping unit - SKU), and the manufacturing setup.  
@@ -107,7 +107,7 @@ If an item’s inventory is negative on the planning starting date, the planning
 
 Any document lines with due dates before the planning starting date are consolidated into one emergency supply order for the item to arrive on the planning starting date.
 
-#### Exception
+### Exception
 The exception warning is displayed if the projected available inventory drops below the safety stock quantity.
 
 The planning system will suggest a supply order to meet the demand on its due date. The warning text states the item’s safety stock quantity and the date on which it is violated.
@@ -117,7 +117,7 @@ Violating the safety stock level is considered an exception because it should no
 > [!NOTE]
 > Supply on planning lines with Exception warnings is normally not modified according to planning parameters. Instead, the planning system only suggests a supply to cover the exact demand quantity. However, you can set the planning run up to respect certain planning parameters for planning lines with certain warnings. For more information, see “Respect Planning Parameters for Exception Warnings” in Calculate Plan - Plan. Wksh.
 
-#### Attention
+### Attention
 The attention warning is displayed in two situations:
 
 The planning starting date is earlier than the work date.

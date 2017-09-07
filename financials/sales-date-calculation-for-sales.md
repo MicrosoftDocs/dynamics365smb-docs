@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 09/07/2017
+    ms.date: 09/06/2017
     ms.author: sgroespe
 
 ---
@@ -40,6 +40,6 @@ If you do not specify a requested delivery date on the sales order line, or if t
 
 
 ## See Also  
- [Date Calculation for Purchases](purchsing-date-calculation-for-purchases.md)   
+ [Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)   
  [How to: Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

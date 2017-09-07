@@ -23,7 +23,7 @@ Depending on the type of page and what it includes, you can:
 
 -   Add, move, and remove fields.
 -   Add, move, and remove columns in a list.
--   Change the freeze pane of columns in a list. The freeze pane locks one or more the columns to the left side of a list so that are always present, even when you scroll horizontally.
+-   Change the freeze pane of columns in a list. The freeze pane locks one or more columns to the left side of a list so that are always present, even when you scroll horizontally.
 -   Move and remove Cues (tiles).
 -   Move and remove parts. Parts are subdivisions or areas on a page that contain things like multiple fields, another page, a chart, or tiles.  
 

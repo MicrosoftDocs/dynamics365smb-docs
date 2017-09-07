@@ -56,6 +56,6 @@ Inventory valuation XE "Inventory Valuation"  is the determination of the cost t
  [Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md)   
  [Design Details: Revaluation](design-details-revaluation.md)   
  [Design Details: Production Order Posting](design-details-production-order-posting.md)
- [Managing Inventory Costs](finance-manage-inventory-costs)  
+ [Managing Inventory Costs](finance-manage-inventory-costs.md)  
  [Finance](finance.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

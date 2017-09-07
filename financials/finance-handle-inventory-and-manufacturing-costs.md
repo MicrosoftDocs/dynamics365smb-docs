@@ -26,13 +26,11 @@ Although much of the cost accounting functionality is expressed in underlying pr
 |------------|-------------|  
 |Periodically or automatically update the unit cost of one or multiple items to forward any cost changes from inbound entries, such as those for purchases or production output, to the related outbound entries, such as consumption or transfers.|[How to: Adjust Item Costs](inventory-how-adjust-item-costs.md)|  
 |Get insight into average cost dynamics to make pricing decisions or to track cost fluctuations caused by data entry errors.|[How to: Register New Items](inventory-how-register-new-items.md)|  
-|Update the unit cost and unit price of multiple items, for example, to reflect a general price increase of 5%.|[How to: Adjust Item Costs](inventory-how-adjust-item-costs.md)|  
-|Create a manufacturing item's standard cost by entering the three cost elements: material cost, capacity cost, and subcontractor cost.|[About Calculating Standard Cost](about-calculating-standard-cost.md)|  
-|Update the standard cost of multiple items and production BOMs.|**Update Unit Cost** batch job|  
-|Calculate the unit cost of a BOM item based on the unit costs of its underlying components.|[How to: Work with Assembly BOMs](inventory-how-work-BOMs.md)|  
-|Complete the costing life cycle of a produced item by adjusting the costs and reconciling the value entries with the general ledger.|[How to: Finish Production Orders](FullExperience/Production/production-how-to-finish-production-orders.md)|  
+|Create a manufacturing item's standard cost by entering the three cost elements: material cost, capacity cost, and subcontractor cost.|[About Calculating Standard Cost](finance-about-calculating-standard-cost.md)|  
+|Calculate the unit cost of a BOM item based on the unit costs of its underlying components.|[How to: Work with Bills of Material](inventory-how-work-BOMs.md)|  
+|Complete the costing life cycle of a produced item by adjusting the costs and reconciling the value entries with the general ledger.|[About Finished Production Order Costs](finance-about-finished-production-order-costs.md)|  
 |Change the value of an item in inventory or the value of one item ledger entry, such as a purchase transaction.|[How to: Revalue Inventory](inventory-how-revalue-inventory.md)|
-|Manually undo an item application or reapply item ledger entries created by the program.|[How to: Remove and Reapply Item Entries](finance-how-to-remove-and-reapply-item-entries.md)|  
+|Manually undo an item application or reapply item ledger entries created by the program.|[How to: Remove and Reapply Item Ledger Entries](finance-how-to-remove-and-reapply-item-entries.md)|  
 |Use the **Applies-from Entry** field in the item journal to manually create a fixed application between an inbound transaction and the original outbound transaction.|[How to: Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
 ## See Also  

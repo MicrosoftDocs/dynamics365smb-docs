@@ -67,7 +67,7 @@ You can create as many cost budgets as you want. You can copy the cost budget to
 Most reports and statistics are based on the posted cost entries. You can set the sorting of the results and use filters to define which data must be displayed. You can create reports for cost distribution analysis. In addition, you can use the standard account schedules to define how your reports for the chart of cost types are displayed.  
 
 ## See Also  
- [Accounting for Costs](manage-cost-accounting.md)  
+ [Accounting for Costs](finance-manage-cost-accounting.md)  
  [Finance](finance.md)   
- [Terminology in Cost Accounting](terminology-in-cost-accounting.md)  
+ [Terminology in Cost Accounting](finance-terminology-in-cost-accounting.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

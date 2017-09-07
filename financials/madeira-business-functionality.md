@@ -42,7 +42,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Schedule service calls and set up service orders, and track repair parts and supplies.|[Service Management](service-service.md)|
 |Set up and use workflows that connect tasks performed by different users or by the system, such as automatic posting. Requesting and granting approval to create or post documents are typical workflow steps.|[Workflow](across-workflow.md)|
 |Enable users to exchange data with external sources during daily tasks, such as sending/receiving electronic documents, importing/exporting bank files, and updating currency exchange rates.|[Exchanging Data as Electronic Documents ](across-data-exchange.md)|
-|Record external documents in Microsoft Dynamics NAV, including their file attachments, and then manually create the related documents or automatically convert the files to electronic documents.|[Incoming Documents](across-income-documents.md)|
+|Record external documents in [!INCLUDE[d365fin](includes/d365fin_md.md)], including their file attachments, and then manually create the related documents or automatically convert the files to electronic documents.|[Incoming Documents](across-income-documents.md)|
 
 
 ## See Also

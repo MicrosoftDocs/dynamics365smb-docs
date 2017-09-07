@@ -31,8 +31,8 @@ You use the following windows to create and analyze cost budgets. Choose the ![S
 |Print cost budget comparisons using various reports.|**Cost Acctg. Balance-Budget** report<br /><br /> **Cost Acctg. Statement-Budget** report<br /><br /> **Cost Budget by Cost Center** report<br /><br /> **Cost Budget by Cost Object** report|  
 
 ## See Also  
- [Accounting for Costs](manage-cost-accounting.md)  
+ [Accounting for Costs](finance-manage-cost-accounting.md)  
  [How to: Create Budgets](finance-how-create-budgets.md)  
- [Terminology in Cost Accounting](terminology-in-cost-accounting.md)   
- [Defining and Allocating Costs](define-and-allocate-costs.md)  
+ [Terminology in Cost Accounting](finance-terminology-in-cost-accounting.md)   
+ [Defining and Allocating Costs](finance-define-and-allocate-costs.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

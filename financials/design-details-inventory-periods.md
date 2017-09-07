@@ -30,6 +30,6 @@ Backdated transactions or cost adjustments often affect balances and stock valua
 
 ## See Also  
  [Design Details: Inventory Costing](design-details-inventory-costing.md)
- [Managing Inventory Costs](finance-manage-inventory-costs)
+ [Managing Inventory Costs](finance-manage-inventory-costs.md)
  [Finance](finance.md)  
  [Working with Financials](ui-work-product.md)

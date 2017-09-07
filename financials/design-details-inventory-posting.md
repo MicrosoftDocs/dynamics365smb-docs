@@ -127,6 +127,6 @@ For more information, see [Design Details: Assembly Order Posting](design-detail
  [Design Details: Inventory Costing](design-details-inventory-costing.md)   
  [Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md)   
  [Design Details: Cost Components](design-details-cost-components.md)
- [Managing Inventory Costs](finance-manage-inventory-costs)  
+ [Managing Inventory Costs](finance-manage-inventory-costs.md)  
  [Finance](finance.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

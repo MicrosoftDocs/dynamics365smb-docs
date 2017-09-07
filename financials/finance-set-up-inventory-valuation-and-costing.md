@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# Set Up Inventory Valuation and Costing
+# Setting Up Inventory Valuation and Costing
 To make sure that inventory costs are recorded correctly, you must set up various fields and windows before you begin to make item transactions.
 
 The following table describes a sequence of tasks, with links to the topics that describe them.

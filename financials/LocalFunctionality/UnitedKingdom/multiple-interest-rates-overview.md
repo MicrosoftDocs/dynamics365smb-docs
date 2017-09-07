@@ -30,4 +30,4 @@ For each finance charge term code, you can specify multiple interest rates so th
 
 ## See Also  
  [How to: Set Up Multiple Interest Rates](how-to-set-up-multiple-interest-rates.md)   
- [Manage Finance Charges](manage-finance-charges.md)
+ [How to: Collect Outstanding balances](../../receivables-collect-outstanding-balances.md)

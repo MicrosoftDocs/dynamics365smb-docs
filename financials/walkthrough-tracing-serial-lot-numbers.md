@@ -256,9 +256,9 @@ Then you must create various purchase, production, and sales transactions with t
 
 1.  In the **Item Tracing** window, select the line of the purchase receipt, the last trace line, and then choose **Trace Opposite – from Line**.  
 
-     The trace result is now based on the filters of the trace line for the purchase receipt, LOT1 and item 2000, and the result is based on trace method **Origin - Usage**.  
+    The trace result is now based on the filters of the trace line for the purchase receipt, LOT1 and item 2000, and the result is based on trace method **Origin - Usage**.  
 
-     To obtain an overview of all usage of item 2000 with LOT1, continue to expand all trace lines.  
+    To obtain an overview of all usage of item 2000 with LOT1, continue to expand all trace lines.  
 
 2.  Choose the **Expand All** action.  
 
@@ -290,5 +290,5 @@ Then you must create various purchase, production, and sales transactions with t
 
 ## See Also
 [How to: Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)  
-[How to: Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items)  
+[How to: Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)  
 [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  

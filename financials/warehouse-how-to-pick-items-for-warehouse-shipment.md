@@ -48,7 +48,7 @@ You can also create warehouse pick documents in a push fashion from the **Wareho
 
 4.  When you have performed the pick and placed the items in the shipping area or shipping bin, choose the **Register Pick** action.  
 
-The person responsible for shipment can now bring the items to the shipment dock and post the shipment, including the related source document, in the **Warehouse Shipment** window. For more information, see [How to: Ship Items](warehouse-how-ship-items).   
+The person responsible for shipment can now bring the items to the shipment dock and post the shipment, including the related source document, in the **Warehouse Shipment** window. For more information, see [How to: Ship Items](warehouse-how-ship-items.md).   
 
 In addition to picking for source documents, as described in this topic, you can take and place items between bins without referring to source documents. For more information, see [How to: Pick and Put Away Without a Source Document](warehouse-how-to-create-put-aways-from-internal-put-aways.md).  
 

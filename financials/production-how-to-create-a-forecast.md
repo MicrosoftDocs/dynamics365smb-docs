@@ -47,7 +47,7 @@ As the component forecast is designed to define options for a parent item, the c
 ## Forecast by Locations  
 It can be stated in the manufacturing setup if. Note, though, that if location-based forecasts are viewed in isolation, the overall forecast may not be representative.
 
-## To create a productio1n forecast
+## To create a production forecast
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Production Forecast**, and then choose the related link.  
 2.  On the **General** FastTab, select a forecast in the **Production Forecast Name** field. Multiple forecasts can exist and are differentiated by name and forecast type.  

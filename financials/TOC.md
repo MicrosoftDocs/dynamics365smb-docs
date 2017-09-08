@@ -201,10 +201,10 @@
 # [Business Intelligence](bi.md)
 ## [How to: Analyze Actual Amounts Versus Budgeted Amounts](bi-how-analyze-actual-versus-budget.md)
 ## [How to: Work with Account Schedules](bi-how-work-account-schedule.md)
+## [How to: Set Up and Publish KPI Web Services Based on Account Schedules](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 ## [How to: Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)
 ## [How to: Create Analysis Reports](bi-how-create-analysis-views-reports.md)
 ## [How to: Create Reports with XBRL](bi-create-reports-with-xbrl.md)
-## [How to: Set Up and Publish KPI Web Services Based on Account Schedules](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules)
 
 # [Sales](sales-manage-sales.md)
 ## [How to: Make Offers](sales-how-make-offers.md)

@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/15/2017
+    ms.date: 09/08/2017
     ms.author: sgroespe
 
 ---
@@ -23,7 +23,6 @@ A company's distribution strategy is reflected in the configuration of its wareh
 |**To**|**See**|  
 |------------|-------------|  
 |Get an overview of the capabilities of basic versus advanced warehouse functionality.|[Design Details: Warehouse Overview](design-details-warehouse-overview.md)|  
-|Configure an efficient distribution model with a combination of different locations and responsibility centers assigned to business partners or employees.|[How to: Work with Responsibility Centers](inventory-responsibility-centers.md)|  
 |Set up eight different bin types, such as Picking Bin, to define the flow activities that relate to each bin type.|[How to: Set Up Bin Types](warehouse-how-to-set-up-bin-types.md)|  
 |Create bins, either manually or automatically, with information, such as name, number series, and category, according to a bin template.|[How to: Create Bins](warehouse-how-to-create-individual-bins.md)|  
 |Define which items you want to store in any given bin and set the rules that decide when to fill the bin with a particular item.|[How to: Create Bin Contents](warehouse-how-to-set-up-bin-contents.md)|  

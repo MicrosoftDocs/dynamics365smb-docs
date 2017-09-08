@@ -18,7 +18,7 @@ ms.author: edupont
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to help you run your business, regardless which line of business you are in. At the core of [!INCLUDE[d365fin](includes/d365fin_md.md)], you find financial reporting and sales and purchasing processes. You add experiences to that according to your business needs by adding extensions from AppSource. You can also turn up and down the volume on the user experience and choose what's right for your company. For more information, see [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md).
 
 > [!NOTE]  
->   This setting applies to all users in your company. Users can customize thier own experience even further by changing page layouts and content. For more information, see [Personalizing Your Workspace and Pages](ui-user-personalization.md).
+>   This setting applies to all users in your company. Users can customize thier own experience even further by changing page layouts and content. For more information, see [Personalizing Your Workspace and Pages](ui-personalization-user.md).
 
 ![Experience](media/ui-experience/experience.gif)
 

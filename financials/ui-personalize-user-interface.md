@@ -48,7 +48,7 @@ To help you better understand personalization, here are some pointers.
 
     ![Personalize mode](media/ui_personalize_mode_small.png "Personalize mode")
 
-    If you see a lock icon in the banner, see [Why the page is locked](ui-personalize-locked) for more details.
+    If you see a lock icon in the banner, see [Why the page is locked](ui-personalize-locked.md) for more details.
 
 2.  Go to a page that you want to personalize.
 

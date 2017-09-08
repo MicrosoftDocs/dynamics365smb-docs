@@ -36,7 +36,7 @@ A company's distribution strategy is reflected in the configuration of its wareh
 |Set items and locations up for the most advanced scope of warehouse management where all activities must follow a strict workflow.|[How to: Set Up Items and Locations for Directed Put-away and Pick](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md)|  
 |Define when and how items in warehouse locations are counted for maintenance or financial reporting purposes.|[How to: Count, Adjust, or Reclassify Inventory](inventory-how-count-adjust-reclassify.md)|
 |Enable warehouse workers to break a larger unit of measure into smaller units of measure to fulfill the needs of source documents.|[How to: Enable Automatic Breaking Bulk with Directed Put-away and Pick](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)|  
-|Set up the warehouse to automatically suggest items to be picked that expire first.|[How to: Picking by FEFO](warehouse-picking-by-fefo.md)|
+|Set up the warehouse to automatically suggest items to be picked that expire first.|[How to: Enable Picking by FEFO](warehouse-picking-by-fefo.md)|
 |Integrate bar code readers to your warehouse management solution.|[Use Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)|  
 |Get tips on how to reorganize locations, bins, or zones to obtain more efficient warehouse activities.|[How to: Restructure Warehouses](warehouse-how-to-restructure-warehouses.md)|  
 

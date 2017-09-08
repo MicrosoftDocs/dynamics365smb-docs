@@ -13,7 +13,7 @@ ms.date: 09/07/2017
 ms.author: jswymer
 
 ---
-# Why the page is locked
+# Why a Page is Locked From Personalizing
 If there is a lock icon in the **Personalizing** bar when you open a page (as shown), this means that you are currently prevented from making any more personalization changes to the page.
 
 ![Personalize Lock](media/personalization-locked.png "Personalize lock")

@@ -1,8 +1,6 @@
 ---
 title: Overview of Tasks to Manage Sales | Microsoft Docs
 description: Describes how to manage sales activities.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-financials
@@ -11,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 08/09/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
 
 ---
@@ -55,7 +53,6 @@ The following table describes a sequence of tasks, with links to the topics that
 [Managing Receivables](receivables-manage-receivables.md)  
 [Managing Payables](payables-manage-payables.md)  
 [Project Management](projects-manage-projects.md)    
-      
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
 

@@ -1,8 +1,6 @@
 ---
 title: Remind or Fine Customers of Overdue Payments| Microsoft Docs
 description: Describes how to send a reminder to a customer about a payment that is due and add charges, or fees to the payment because of the delay.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-financials
@@ -11,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 06/28/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
 
 ---
@@ -94,7 +92,7 @@ If you create more reminders than you have defined levels for, the conditions fo
 |%11|The company name|  
 |%12|Content of the **Add. Fee per Line** field on the reminder header|  
 
-For example, if you write **You owe %7 %9 due on %2.**, then the resulting reminder will contain the following text: **You owe 1.200,50 LCY due on 02-02-2014.**.
+For example, if you write **You owe %9 %7 due on %2.**, then the resulting reminder will contain the following text: **You owe USD 1.200,50 due on 02-02-2014.**.
 
 After you have set up the reminder terms, with additional levels and text, enter one of the codes on each of the customer cards. For more information, see [How to: Register New Customers](sales-how-register-new-customers.md).
 
@@ -158,11 +156,13 @@ You must set up a code representing each finance charge calculation. Then you ca
 
 Finance charges can be calculated using either the average daily balance method or the balance due method.
 
-With the balance due method, the finance charge is simply a percentage of the overdue amount.
-**Balance Due method** - Finance Charge = Overdue Amount x (Interest Rate / 100)
+With the balance due method, the finance charge is simply a percentage of the overdue amount:  
 
-With the average daily balance method, the number of days the payment is overdue is taken into account.
-**Average Daily Balance** method - Finance Charge = Overdue Amount x (Days Overdue / Interest Period) x (Interest Rate/100)
+    Balance Due method - Finance Charge = Overdue Amount x (Interest Rate / 100)
+
+With the average daily balance method, the number of days the payment is overdue is taken into account:  
+
+    Average Daily Balance method - Finance Charge = Overdue Amount x (Days Overdue / Interest Period) x (Interest Rate/100)
 
 In addition, each code in the Finance Charge Terms table is linked to a subtable, the Finance Charge Text table. For each set of finance charge terms, you can define a beginning and/or an ending text to be included on the finance charge memo.
 
@@ -199,10 +199,8 @@ A finance charge memo is similar to an invoice. You can fill in a header manuall
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Finance Charge Memos**, and then choose the related link.  
 2. Choose the **New** action, and then fill in the fields as necessary.  
 3. Choose **Suggest Fin. Charge Memo Lines** action.
-4. In the **Suggest Fin. Charge Memo Lines  
-6.  Set a filter on the **Cust. Ledger Entry** FastTab if you want to create finance charge memos only for specific entries.  
-
-7.  Choose the **OK** button to start the batch job.  
+4. In the **Suggest Finance Charge Memo Lines** window, set a filter on the **Cust. Ledger Entry** FastTab if you want to create finance charge memos only for specific entries.  
+5.  Choose the **OK** button to start the batch job.  
 
 ## To update finance charge memo texts  
 In some cases, you may want to modify the beginning and ending text that you have set up for the finance charge terms. If you do this at a time when you have created, but not yet issued, finance charge memos, you can update the memos with the modified text.

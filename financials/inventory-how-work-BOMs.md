@@ -84,15 +84,14 @@ The unit cost of an assembly BOM always equals the total of the unit costs of it
 2. Open the card for an assembly item. (The **Assembly BOM** field in the **Items** window contains **Yes**.)
 3. In the **Item Card** window, choose the **Assembly** action, and then choose the **Assembly BOM** action.
 4. In the **Assembly BOM** window, choose the **Calc. Standard Cost** action.
-5. Select one of the following options.
-
+5. Select one of the following options, and then choose the **OK** button.
 
 |Option |Description |
 |-------|------------|
 |**Top Level**|Calculates the assembly item's standard cost as the total cost of all purchased or assembled items on that assembly BOM regardless of any underlying assembly BOMs.|
 |**All Levels**|Calculates the assembly's item standard cost as the sum of: 1) The calculated cost of all underlying assembly BOMs on the assembly BOM. 2) The cost of all purchased items on the assembly BOM.|
 
-6. Choose the **OK** button.
+
 
 The costs of the items that make up the assembly BOM are copied from the component item cards. The cost of each item is multiplied by the quantity, and the total cost is shown in the **Unit Cost** field on the item card.
 

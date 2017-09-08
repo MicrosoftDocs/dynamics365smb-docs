@@ -107,7 +107,8 @@ If you see an "Oops" error dialog after you pass the authentication dialog, this
     ```https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')```  
 * A common mistake is to specify the full URL for a specific web service:
 
-    ```https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')/powerbifinance```  
+    ```https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')/powerbifinance```
+      
 * Or you might have forgotten to specify the company name:
 
     ```https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/```  

@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/22/2017
+    ms.date: 09/08/2017
     ms.author: sgroespe
 
 ---
@@ -45,14 +45,17 @@ To set this up, you assign responsibility centers to users in three functional a
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **User Setup**, and then choose the related link.  
 2.  In the **User Setup** window, select the user you want to assign a responsibility center to. If the user not is on the list, you must enter a user ID in the **User ID** field.  
-3.  In the **Sales Resp. Ctr. Filter** field, enter the responsibility center where the user will have tasks related to Sales & Receivables.  
-4.  In the **Purchase Resp. Ctr. Filter** field, enter the responsibility center where the user will have tasks related to Purchase & Payables.  
-5.  In the **Service Resp. Ctr. Filter** field, enter the responsibility center where the user will have tasks related to Service Management.  
+3.  In the **Sales Resp. Ctr. Filter** field, enter the responsibility center where the user will have tasks related to sales.  
+4.  In the **Purchase Resp. Ctr. Filter** field, enter the responsibility center where the user will have tasks related to purchasing.  
+5.  In the **Service Resp. Ctr. Filter** field, enter the responsibility center where the user will have tasks related to service management.  
 
 > [!NOTE]  
 >  Users will still be able to view all posted documents and ledger entries, not just those related to their own responsibility center.
 
 ## See Also  
 [Setting Up Inventory](inventory-setup-inventory.md)  
-[Inventory](inventory-manage-inventory.md)  
+[Setting Up Warehouse Management](warehouse-setup-warehouse.md)
+[Inventory](inventory-manage-inventory.md)[Warehouse Management](warehouse-manage-warehouse.md)  
+[Warehouse Management](warehouse-manage-warehouse.md)    
+[Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -108,11 +108,9 @@ If you see an "Oops" error dialog after you pass the authentication dialog, this
 * A common mistake is to specify the full URL for a specific web service:
 
     ```https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')/powerbifinance```
-      
 * Or you might have forgotten to specify the company name:
 
     ```https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/```  
-
 ## See Also
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Migrate Business Data from Other Finance Systems](upload-data.md)  

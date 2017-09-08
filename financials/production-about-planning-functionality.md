@@ -120,9 +120,8 @@ Violating the safety stock level is considered an exception because it should no
 ### Attention
 The attention warning is displayed in two situations:
 
-The planning starting date is earlier than the work date.
-
-The planning line suggests to change a released purchase or production order.
+- The planning starting date is earlier than the work date.
+- The planning line suggests to change a released purchase or production order.
 
 > [!NOTE]
 > In planning lines with warnings, the **Accept Action Message** field is not selected, because the planner is expected to further investigate these lines before carrying out the plan.

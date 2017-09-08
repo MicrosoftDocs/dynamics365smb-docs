@@ -1,8 +1,6 @@
 ---
 title: Using a Sales Credit Memo to Process Sales Returns or Cancellations | Microsoft Docs
 description: Describes how to create a sales credit memo, directly or through a sales return order, to process a return, cancellation, or reimbursement for items or services you have been received payment for.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-financials
@@ -11,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 08/03/2016
+ms.date: 09/08/2016
 ms.author: sgroespe
 
 ---
@@ -87,21 +85,21 @@ The posted sales documents that you applied the credit memo to are now reversed,
     - Use the **Get Posted Document Lines to Reverse** function to copy one or more posted document lines from one or more posted documents. This function always exactly reverses the costs from the posted document line. This function is described in the following steps.    
     - Use the **Copy Document** function to copy an existing document to the return order. Use this function to copy the entire document. It can be either a posted document or a document that is not yet posted. This function only enables exact cost reversing when the **Exact Cost Reversing Mandatory** check box is selected in the **Sales and Receivables Setup** window.  
 
-4. Choose the **Get Posted Document Lines to Reverse** action.
-5. At the top of the **Posted Sales Document Lines** window, select the **Show Reversible Lines Only** check box if you want to see only lines that have quantities that have not yet been returned. For example, if a posted sales invoice quantity has already been returned, you may not want to return that quantity on a new sales return document.
+5. Choose the **Get Posted Document Lines to Reverse** action.
+6. At the top of the **Posted Sales Document Lines** window, select the **Show Reversible Lines Only** check box if you want to see only lines that have quantities that have not yet been returned. For example, if a posted sales invoice quantity has already been returned, you may not want to return that quantity on a new sales return document.
 
     > [!NOTE]  
     >  This field only works for posted shipments and posted invoice lines, not for posted return or posted credit memo lines.
 
     At the left side of the window, the different document types are listed, and the number in brackets shows the number of documents available of each document type.
 
-6. In the **Document Type Filter** field, select the type of posted document lines you would like to use.  
-7. Select the lines that you would like to copy to the new document.  
+7. In the **Document Type Filter** field, select the type of posted document lines you would like to use.  
+8. Select the lines that you would like to copy to the new document.  
 
     > [!NOTE]  
     >  If you use Ctrl+A to select all lines, all lines within the filter you have set are copied, but the **Show Reversible Quantity Only** filter is ignored. For example, suppose you have filtered the lines to a particular document number with two lines, one of which has already been returned. Even if the **Show Reversible Quantity Only** field is selected, if you press Ctrl+A to copy all lines, both lines are copied, instead of only the one that has not yet been reversed.  
 
-8. Choose the **OK** button to copy the lines to the new document.  
+9. Choose the **OK** button to copy the lines to the new document.  
 
     The following processes occur:  
 
@@ -119,16 +117,17 @@ The posted sales documents that you applied the credit memo to are now reversed,
 
      When you copy from a posted invoice or posted credit memo, the program copies any relevant invoice discounts and line discounts as valid at the time of posting that document from the posted document line to the new document line. Be aware, however, that if the **Calc. Inv. Discount** option is activated in the **Sales & Receivables Setup** window, then the invoice discount will be newly calculated when you post the new document line. The line amount for the new line may therefore be different than the line amount for the posted document line, depending on the new calculation of the invoice discount.  
 
-> [!NOTE]  
->  If part of the quantity of the posted document line has already been reversed or sold or consumed, a line is created for only the quantity that remains in inventory or that has not been returned. If the full quantity of the posted document line has already been reversed, a new document line is not created.  
->   
->  If the flow of goods in the posted document is the same as the flow of goods in the new document, a copy of the original posted document line in the new document is created. The **Appl.-from Item Entry** field is not filled in because, in this case, exact cost reversing is not possible. For example, if you use the **Get Posted Document Lines to Reverse** function to get a posted sales credit memo line for a new sales credit memo, only the original posted credit memo line is copied to the new credit memo.  
+     > [!NOTE]  
+     >  If part of the quantity of the posted document line has already been reversed or sold or consumed, a line is created for only the quantity that remains in inventory or that has not been returned. If the full quantity of the posted document line has already been reversed, a new document line is not created.  
+     >   
+     >  If the flow of goods in the posted document is the same as the flow of goods in the new document, a copy of the original posted document line in the new document is created. The **Appl.-from Item Entry** field is not filled in because, in this case, exact cost reversing is not possible. For example, if you use the **Get Posted Document Lines to Reverse** function to get a posted sales credit memo line for a new sales credit memo, only the original posted credit memo line is copied to the new credit memo.  
 
-8. In the **Sales Return Order** window, in the **Return Reason Code** field on each line, select the reason for the return.
-9. Choose the **post** action.
+10. In the **Sales Return Order** window, in the **Return Reason Code** field on each line, select the reason for the return.
+11. Choose the **post** action.
 
 ## To create a replacement sales order from a sales return order
 You may decide to compensate a customer for an item that you have sold them by replacing the item. You can make a replacement with the same item or a different item. This situation could occur if you mistakenly shipped the wrong item to the customer, for example.  
+
 1. In the **Sales Return Order** window for an active return process, on an empty line, make a negative entry for the replacement item by inserting a negative amount in the **Quantity** field.  
 2. Choose the **Move Negative Lines** action.
 3. In the **Move Negative Sales Lines** window, fill in the fields as necessary.

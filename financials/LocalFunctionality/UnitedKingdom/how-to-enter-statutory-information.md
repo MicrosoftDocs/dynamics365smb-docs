@@ -18,10 +18,9 @@
 # How to: Enter Statutory Information
 To comply with legal requirements, statutory information is available on the **Statutory** FastTab in the **Company Information** window.  
 
-### To enter statutory information  
+## To enter statutory information  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.  
-
 2.  On the **Statutory** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

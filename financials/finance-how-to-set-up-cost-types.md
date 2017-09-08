@@ -16,7 +16,7 @@
 
 ---
 # How to: Set Up Cost Types
-Chart of cost types are similar to the chart of accounts in the general ledger. You can set up the chart of cost types in the following ways:  
+The chart of cost types is similar to the chart of accounts in the general ledger. You can set up the chart of cost types in the following ways:  
 
 -   Structure the chart of cost types similar to the income statement accounts in the general ledger chart of accounts. Then, you can transfer the general ledger chart of accounts to the chart of cost types. You can make any necessary adjustments after the transfer.  
 -   Create new chart of cost types or add new cost types to existing chart of cost types. You must create each new cost type individually.  
@@ -44,7 +44,7 @@ Chart of cost types are similar to the chart of accounts in the general ledger. 
 > [!IMPORTANT]  
 >  If you have entered definitions in the **Totaling** fields for the line type of **End-Total** before you run the **Indent Cost Types** function, then you must enter the definitions again because the function overwrites the values in all **End-Total** fields.  
 
-### To update cost types  
+## To update cost types  
 1.  In the **Cost Accounting Setup** window, select if you want the chart of cost types to be automatically updated when the chart of accounts is changed.  
 2.  In the **Align G/L Account** field, you can choose from the following options.  
 
@@ -54,10 +54,10 @@ Chart of cost types are similar to the chart of accounts in the general ledger. 
 
 ## See Also  
 [Accounting for Costs](finance-manage-cost-accounting.md)  
- [Defining the Relationship Between Cost Types and General Ledger Accounts](finance-defining-the-relationship-between-cost-types-and-general-ledger-accounts.md)   
- [Defining Cost Centers and Cost Objects for Chart of Accounts](finance-defining-cost-centers-and-cost-objects-for-chart-of-accounts.md)   
- [Balances Between Cost Type, Cost Center, and Cost Object](finance-balances-between-cost-type-cost-center-and-cost-object.md)   
- [Setting Up Cost Accounting](finance-set-up-cost-accounting.md)   
- [Terminology in Cost Accounting](finance-terminology-in-cost-accounting.md)   
- [About Cost Accounting](finance-about-cost-accounting.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Defining the Relationship Between Cost Types and General Ledger Accounts](finance-defining-the-relationship-between-cost-types-and-general-ledger-accounts.md)   
+[Defining Cost Centers and Cost Objects for Chart of Accounts](finance-defining-cost-centers-and-cost-objects-for-chart-of-accounts.md)   
+[Balances Between Cost Type, Cost Center, and Cost Object](finance-balances-between-cost-type-cost-center-and-cost-object.md)   
+[Setting Up Cost Accounting](finance-set-up-cost-accounting.md)   
+[Terminology in Cost Accounting](finance-terminology-in-cost-accounting.md)   
+[About Cost Accounting](finance-about-cost-accounting.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

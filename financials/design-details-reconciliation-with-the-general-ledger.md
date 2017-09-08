@@ -1,6 +1,6 @@
 ---
     title: Design Details - Reconciliation with the General Ledger | Microsoft Docs
-    description: When you post inventory transactions, such as sales shipments, production output, or negative adjustments, the quantity and value changes to the inventory are recorded in the item ledger entries and the value entries, respectively. The next step in the process is to post the inventory values to the inventory accounts in the general ledger.
+    description: This topic describes reconciliation with the general ledger when you post inventory transactions, such as sales shipments, production output, or negative adjustments.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -10,7 +10,7 @@
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
-    ms.search.keywords:
+    ms.search.keywords: design, reconciliation, general ledger, inventory
     ms.date: 07/01/2017
     ms.author: sgroespe
 
@@ -18,10 +18,10 @@
 # Design Details: Reconciliation with the General Ledger
 When you post inventory transactions, such as sales shipments, production output, or negative adjustments, the quantity and value changes to the inventory are recorded in the item ledger entries and the value entries, respectively. The next step in the process is to post the inventory values to the inventory accounts in the general ledger.  
 
- There are two ways to reconcile the inventory ledger with the general ledger:  
+There are two ways to reconcile the inventory ledger with the general ledger:  
 
--   Manually, by running the **Post Inventory Cost to G/L** batch job.  
--   Automatically, every time that you post an inventory transaction.  
+* Manually, by running the **Post Inventory Cost to G/L** batch job.  
+* Automatically, every time that you post an inventory transaction.  
 
 ## Post Inventory Cost to G/L Batch Job  
 When you run the **Post Inventory Cost to G/L** batch job, the general ledger entries are created based on value entries. You have the option to summarize general ledger entries for each value entry, or create general ledger entries for each combination of posting date, location code, inventory posting group, general business posting group, and general product posting group.  
@@ -51,7 +51,7 @@ The following table shows how the link is set up on the item card.
 |**Standard Cost**|LCY 1.00|  
 |**Overhead Rate**|LCY 0.02|  
 
- The following table shows how the chain is set up on the item card.  
+The following table shows how the chain is set up on the item card.  
 
 |Setup Field|Value|  
 |-----------------|-----------|  
@@ -59,7 +59,7 @@ The following table shows how the link is set up on the item card.
 |**Standard Cost**|LCY 150.00|  
 |**Overhead Rate**|LCY 25.00|  
 
- The following table shows how the work center is set up on the work center card.  
+The following table shows how the work center is set up on the work center card.  
 
 |Setup Field|Value|  
 |-----------------|-----------|  
@@ -67,48 +67,47 @@ The following table shows how the link is set up on the item card.
 |**Indirect Cost Percentage**|10|  
 
 ##### Scenario  
+1. The user purchases 150 links and posts the purchase order as received. (Purchase)  
+2. The user posts the purchase order as invoiced. This creates an overhead amount of LCY 3.00 to be allocated and a variance amount of LCY 18.00. (Purchase)  
 
-1.  The user purchases 150 links and posts the purchase order as received. (Purchase)  
-2.  The user posts the purchase order as invoiced. This creates an overhead amount of LCY 3.00 to be allocated and a variance amount of LCY 18.00. (Purchase)  
+    1. The interim accounts are cleared. (Purchase)  
+    2. The direct cost is posted. (Purchase)  
+    3. The indirect cost is calculated and posted. (Purchase)  
+    4. The purchase variance is calculated and posted (only for standard-cost items). (Purchase)  
+3. The user sells one chain and posts the sales order as shipped. (Sale)  
+4. The user posts the sales order as invoiced. (Sale)  
 
-    1.  The interim accounts are cleared. (Purchase)  
-    2.  The direct cost is posted. (Purchase)  
-    3.  The indirect cost is calculated and posted. (Purchase)  
-    4.  The purchase variance is calculated and posted (only for standard-cost items). (Purchase)  
-3.  The user sells one chain and posts the sales order as shipped. (Sale)  
-4.  The user posts the sales order as invoiced. (Sale)  
-
-    1.  The interim accounts are cleared. (Sale)  
-    2.  Cost of goods sold (COGS) is posted. (Sale)  
+    1. The interim accounts are cleared. (Sale)  
+    2. Cost of goods sold (COGS) is posted. (Sale)  
 
         ![Results of sale posting to G&#47;L accounts](media/design_details_inventory_costing_3_gl_posting_sales.png "design_details_inventory_costing_3_GL_posting_sales")  
-5.  The user posts consumption of 150 links, which is the number of links used to produce one chain. (Consumption, Material)  
+5. The user posts consumption of 150 links, which is the number of links used to produce one chain. (Consumption, Material)  
 
     ![Results of material posting to G&#47;L accounts](media/design_details_inventory_costing_3_gl_posting_material.png "design_details_inventory_costing_3_GL_posting_material")  
-6.  The work center used 60 minutes to produce the chain. The user posts the conversion cost. (Consumption, Capacity)  
+6. The work center used 60 minutes to produce the chain. The user posts the conversion cost. (Consumption, Capacity)  
 
-    1.  The direct costs are posted. (Consumption, Capacity)  
-    2.  The indirect costs are calculated and posted. (Consumption, Capacity)  
+    1. The direct costs are posted. (Consumption, Capacity)  
+    2. The indirect costs are calculated and posted. (Consumption, Capacity)  
 
         ![Results of capacity posting to G&#47;L accounts](media/design_details_inventory_costing_3_gl_posting_capacity.png "design_details_inventory_costing_3_GL_posting_capacity")  
-7.  The user posts the expected cost of one chain. (Output)  
-8.  The user finishes the production order and runs the **Adjust Cost - Item Entries** batch job. (Output)  
+7. The user posts the expected cost of one chain. (Output)  
+8. The user finishes the production order and runs the **Adjust Cost - Item Entries** batch job. (Output)  
 
-    1.  The interim accounts are cleared. (Output)  
-    2.  The direct cost is transferred from the WIP account to the inventory account. (Output)  
-    3.  The indirect cost (overhead) is transferred from the indirect cost account to the inventory account. (Output)  
-    4.  This results in a variance amount of LCY 157.00. Variances are only calculated for standard-cost items. (Output)  
+    1. The interim accounts are cleared. (Output)  
+    2. The direct cost is transferred from the WIP account to the inventory account. (Output)  
+    3. The indirect cost (overhead) is transferred from the indirect cost account to the inventory account. (Output)  
+    4. This results in a variance amount of LCY 157.00. Variances are only calculated for standard-cost items. (Output)  
 
         ![Results of output posting to G&#47;L accounts](media/design_details_inventory_costing_3_gl_posting_output.png "design_details_inventory_costing_3_GL_posting_output")  
 
         > [!NOTE]  
         >  For the sake of simplicity, only one variance account is shown. In reality, five different accounts exist:  
         >   
-        >  -   Material Variance  
-        > -   Capacity Variance  
-        > -   Capacity Overhead Variance  
-        > -   Subcontracting Variance  
-        > -   Manufacturing Overhead Variance  
+        >  * Material Variance  
+        >  * Capacity Variance  
+        >  * Capacity Overhead Variance  
+        >  * Subcontracting Variance  
+        >  * Manufacturing Overhead Variance  
 
 9. The user revalues the chain from LCY 150.00 to LCY 140.00. (Adjustment/Revaluation/Rounding/Transfer)  
 
@@ -117,9 +116,9 @@ The following table shows how the link is set up on the item card.
 For more information about the relationship between the account types and the different types of value entries, see [Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md).  
 
 ## See Also  
- [Design Details: Inventory Costing](design-details-inventory-costing.md)   
- [Design Details: Expected Cost Posting](design-details-expected-cost-posting.md)   
- [Design Details: Cost Adjustment](design-details-cost-adjustment.md)
- [Managing Inventory Costs](finance-manage-inventory-costs.md)  
- [Finance](finance.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Design Details: Inventory Costing](design-details-inventory-costing.md)   
+[Design Details: Expected Cost Posting](design-details-expected-cost-posting.md)   
+[Design Details: Cost Adjustment](design-details-cost-adjustment.md)
+[Managing Inventory Costs](finance-manage-inventory-costs.md)  
+[Finance](finance.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

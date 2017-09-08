@@ -48,7 +48,7 @@ To help you better understand personalization, here are some pointers.
 
     ![Personalize mode](media/ui_personalize_mode_small.png "Personalize mode")
 
-    If you see a lock icon in the banner, see [Why the page is locked](ui-personalize-locked.md) for more details.
+    If you see a lock icon in the banner, see [Why the page is locked](ui-personalization-locked.md) for more details.
 
 2.  Go to a page that you want to personalize.
 
@@ -76,7 +76,7 @@ To help you better understand personalization, here are some pointers.
 At some point, you might want to undo all the personalization changes that you have made to a page over time so that page looks like it did originally. To do this, in the **Personalizing** banner, choose **More**, and then **Clear personalization**. You will not see the changes, until you close and open the page again.
 
 ## See Also
-[Managing Personalization](ui-manage-personalization.md)  
+[Managing Personalization](ui-personalization-manage.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [How to: Change the Role Center](change-role.md)  
 [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)  

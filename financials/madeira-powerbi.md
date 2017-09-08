@@ -104,13 +104,13 @@ If you see an "Oops" error dialog after you pass the authentication dialog, this
 
 * Verify that the URL follows the pattern that was specified earlier:
 
-    ```https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')```  
+    `https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')`  
 * A common mistake is to specify the full URL for a specific web service:
 
-    ```https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')/powerbifinance```
+    `https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')/powerbifinance`
 * Or you might have forgotten to specify the company name:
 
-    ```https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/```
+    `https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/`
 
 ## See Also
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

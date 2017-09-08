@@ -19,7 +19,9 @@
 The production operations required to transform inputs into finished goods must be planned daily or weekly depending on the volume and nature of the products. [!INCLUDE[d365fin](includes/d365fin_md.md)] offers features to supply for anticipated and actual demand from sale, assembly, and production as well as features for distribution planning using stockkeeping units and location transfers.
 
 > [!NOTE]
-> This topic mainly describes planning for companies involved in manufacturing or assembly management where the resulting supply orders can be either production, assembly, transfer, or purchase orders. The main interface for this planning work is the **Planning Worksheet** window. [!INCLUDE[d365fin](includes/d365fin_md.md)] also supports supply planning for wholesale companies where the resulting supply orders can only be transfer and purchase orders. The main interface for this planning work is the **Requisition Worksheet** window, which is also described in this topic.
+> This topic mainly describes planning for companies involved in manufacturing or assembly management where the resulting supply orders can be either production, assembly, transfer, or purchase orders. The main interface for this planning work is the **Planning Worksheet** window.
+
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] also supports supply planning for wholesale companies where the resulting supply orders can only be transfer and purchase orders. The main interface for this planning work is the **Requisition Worksheet** window, which is also described in this topic.
 
 Before you can plan and execute production orders, you must configure production capacities, such as creating shop calendars, routings, production BOMs, and machine centers. For more information, see [Setting Up Manufacturing](production-configure-production-processes.md).
 
@@ -29,7 +31,8 @@ The following table describes a sequence of tasks, with links to the topics that
 
 |**To**|**See**|  
 |------------|-------------|  
-|Learn how the planning system can be used to detect and prioritize demand and suggest a consolidated balanced supply plan for MPS or MRP.|[About Planning Functionality](production-about-planning-functionality.md)|  
+|Get a brief introduction to how the planning system can be used to detect and prioritize demand and suggest a balanced supply plan.|[About Planning Functionality](production-about-planning-functionality.md)|
+|Understand how all aspects of the planning system works and how to adjust the algorithms to meet planning requirements in different environments.|[Design Details: Supply Planning](design-details-supply-planning.md)|
 |Learn how the planning logic differentiates between demand at locations according to the SKU setup and demand without location codes.|[Planning with-without Locations](production-planning-with-without-locations.md)|
 |Create and manage expected demand presented by sales forecasts.|[How to: Create a Forecast](production-how-to-create-a-forecast.md)|  
 |Create one-to-one production orders automatically from a sales order to cover the exact demand of that sales order line.|[How to: Create Production Orders from Sales Orders](production-how-to-create-production-orders-from-sales-orders.md)|

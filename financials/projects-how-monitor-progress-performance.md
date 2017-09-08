@@ -33,7 +33,8 @@ If you want to view the result using a different method, you can change the meth
 ## To create a job WIP method
 You can create a job WIP method that reflects the needs of your organization. After you have created it, you can set it as the default job WIP calculation method that will be used in your organization.  
 
-**Note**. After you have used your new method to create WIP entries, you cannot delete the method or modify it.  
+> [!NOTE]
+> After you have used your new method to create WIP entries, you cannot delete the method or modify it.  
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job WIP Methods**, and then choose the related link.  
 2. Choose the **New** action, and then fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  

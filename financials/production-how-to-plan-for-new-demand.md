@@ -26,7 +26,7 @@ You can enter the **Order Planning** window in two ways depending on your focus:
 2.  Open the production order you want to plan for, and then choose the **Planning** action.  
 3.  In the **Order Planning** window, choose the **Calculate Plan** action.  
 
-The window displays planning lines according to the view filter **Production Demand**, meaning unfulfilled component lines of all existing production orders. Demand for only the one production order is not shown because t is necessary to plan for one production order with an overview of demand for potentially earlier components lines. Planning lines for the production order in context are expanded.  
+The window displays planning lines according to the view filter **Production Demand**, meaning unfulfilled component lines of all existing production orders. Demand for only the one production order is not shown because it is necessary to plan for one production order with an overview of demand for potentially earlier components lines. Planning lines for the production order in context are expanded.  
 
 ## To plan for any new demand  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Order Planning**, and then choose the related link.  

@@ -16,7 +16,7 @@
 
 ---
 # How to: Flush Components According to Operation Output
-For items that are set up with backward flushing method, the default behavior is to calculate and post component consumption when you change the status of a released production order to **Finished**. For more information, see Flushing Method.  
+For items that are set up with backward flushing method, the default behavior is to calculate and post component consumption when you change the status of a released production order to **Finished**.  
 
 If you also define routing link codes, then calculation and posting occurs when each operation is finished, and the quantity that was actually consumed in the operation is posted. For more information, see [How to: Create Routings](production-how-to-create-routings.md).  
 

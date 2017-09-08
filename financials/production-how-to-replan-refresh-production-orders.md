@@ -61,7 +61,7 @@ You can either insert the production order lines manually or use the function th
 >  Changes implemented with the **Replan** function are very likely to change the capacity need of the production order and you may therefore have to reschedule operations afterwards.  
 
 ## To refresh a production order  
-If you have amended production order lines, components or routing lines, you must also refresh the information on the production order. In the following procedure, the components are calculated for a firm planned production order. The steps are similar for routing lines.
+If you have amended production order lines, components, or routing lines, you must also refresh the information on the production order. In the following procedure, the components are calculated for a firm planned production order. The steps are similar for routing lines.
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Firm Planned Prod. Order**, and then choose the related link.  
 2.  Choose the **New** action. For more information, see [How to: Create Production orders](production-how-to-create-production-orders.md).  

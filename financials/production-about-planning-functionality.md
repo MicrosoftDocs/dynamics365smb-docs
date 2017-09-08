@@ -20,7 +20,7 @@ The planning system takes all demand and supply data into account, nets the resu
 
 For detailed information, see [Design Details: Supply Planning](design-details-supply-planning.md).  
 
-> (!NOTE)
+> [!NOTE]  
 > For all the fields that are mentioned in this topic, read the tooltip to understand their function. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## Demand and Supply  

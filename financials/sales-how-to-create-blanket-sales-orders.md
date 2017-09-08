@@ -109,7 +109,7 @@ The link between the blanket sales order and the originating sales order, and an
     </tr>
     <tr>
     <td>**Return Receipts**</td>
-    <td>SPosted return receipts that have been associated with the selected line.</td>
+    <td>Posted return receipts that have been associated with the selected line.</td>
     </tr>
     <tr>
     <td>**Credit Memos**</td>

@@ -1,8 +1,6 @@
 ---
-    title: Setup Best Practices - Global Planning Setup | Microsoft Docs
+    title: Best practices for global planning setup | Microsoft Docs
     description: The **Planning** FastTab in the **Manufacturing Setup** window contains several fields that define global rules for supply planning.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-financials
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 09/08/2017
     ms.author: sgroespe
 
 ---
@@ -24,7 +22,7 @@ The **Planning** FastTab in the **Manufacturing Setup** window contains several 
 |-----------------|-------------------|-------------|  
 |Use Forecast on Locations|Select if you have forecasts for specific locations.||  
 |Components at Location|If items are not defined as SKUs, select the location code of your main warehouse.|This also applies if you only use the requisition worksheet.|  
-|Blank Overflow Level|Select **Allow Default Calculation** if the solution has been upgraded from a version earlier than Microsoft Dynamics NAV 5.0 SP1.|Use only if you want to allow all or some of your items to overflow the reorder point.|  
+|Blank Overflow Level|Select **Allow Default Calculation** if you are migrating from Microsoft Dynamics NAV 5.0 or earlier.|Use only if you want to allow all or some of your items to overflow the reorder point.|  
 |Default Dampener Period|Set between 1D and 5D.<br /><br /> If new to planning in [!INCLUDE[d365fin](includes/d365fin_md.md)], then set a longer period.|When users are more familiar with the different reasons for action messages, then shorten the dampener period to allow more change suggestions.|  
 |Default Dampener Quantity|Set between 5 and 20 percent of the item’s lot size.||  
 

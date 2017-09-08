@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/15/2017
+    ms.date: 09/08/2017
     ms.author: sgroespe
 
 ---
@@ -23,7 +23,6 @@ A company's distribution strategy is reflected in the configuration of its wareh
 |**To**|**See**|  
 |------------|-------------|  
 |Get an overview of the capabilities of basic versus advanced warehouse functionality.|[Design Details: Warehouse Overview](design-details-warehouse-overview.md)|  
-|Configure an efficient distribution model with a combination of different locations and responsibility centers assigned to business partners or employees.|[How to: Work with Responsibility Centers](inventory-responsibility-centers.md)|  
 |Set up eight different bin types, such as Picking Bin, to define the flow activities that relate to each bin type.|[How to: Set Up Bin Types](warehouse-how-to-set-up-bin-types.md)|  
 |Create bins, either manually or automatically, with information, such as name, number series, and category, according to a bin template.|[How to: Create Bins](warehouse-how-to-create-individual-bins.md)|  
 |Define which items you want to store in any given bin and set the rules that decide when to fill the bin with a particular item.|[How to: Create Bin Contents](warehouse-how-to-set-up-bin-contents.md)|  
@@ -36,7 +35,7 @@ A company's distribution strategy is reflected in the configuration of its wareh
 |Set items and locations up for the most advanced scope of warehouse management where all activities must follow a strict workflow.|[How to: Set Up Items and Locations for Directed Put-away and Pick](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md)|  
 |Define when and how items in warehouse locations are counted for maintenance or financial reporting purposes.|[How to: Count, Adjust, or Reclassify Inventory](inventory-how-count-adjust-reclassify.md)|
 |Enable warehouse workers to break a larger unit of measure into smaller units of measure to fulfill the needs of source documents.|[How to: Enable Automatic Breaking Bulk with Directed Put-away and Pick](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)|  
-|Set up the warehouse to automatically suggest items to be picked that expire first.|[How to: Picking by FEFO](warehouse-picking-by-fefo.md)|
+|Set up the warehouse to automatically suggest items to be picked that expire first.|[How to: Enable Picking by FEFO](warehouse-picking-by-fefo.md)|
 |Integrate bar code readers to your warehouse management solution.|[Use Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)|  
 |Get tips on how to reorganize locations, bins, or zones to obtain more efficient warehouse activities.|[How to: Restructure Warehouses](warehouse-how-to-restructure-warehouses.md)|  
 

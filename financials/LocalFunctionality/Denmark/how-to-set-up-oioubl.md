@@ -86,5 +86,6 @@ You must also make sure that the OIOUBL Country-Region Code field is filled in f
 Finally, you must specify EAN numbers and account codes for the relevant customers. For more information, see [How to: Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md).  
 
 ## See Also  
+[Denmark Local Functionality](denmark-local-functionality.md)  
 [OIOUBL Electronic Invoicing Overview](oioubl-electronic-invoicing-overview.md)   
 [How to: Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md)   

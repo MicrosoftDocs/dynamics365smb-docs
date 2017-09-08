@@ -23,9 +23,7 @@ To create Offentlig Information Online UBL (OIOUBL) documents for customers in t
 ### To set up customers for OIOUBL  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.  
-
 2.  Open the customer that you want to enable for OIOUBL.  
-
 3.  On the **Invoicing** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -38,6 +36,7 @@ To create Offentlig Information Online UBL (OIOUBL) documents for customers in t
  These fields are specific to OIOUBL. The values are used in all OIOUBL documents that you create for this customer. For more information, see [OIOUBL Electronic Invoicing Overview](oioubl-electronic-invoicing-overview.md).  
 
 ## See Also  
+[Denmark Local Functionality](denmark-local-functionality.md)  
  [How to: Register New Customers](../../sales-how-register-new-customers.md)   
  [How to: Set Up OIOUBL](how-to-set-up-oioubl.md)   
  [How to: Create Electronic Documents by Using OIOUBL](how-to-create-electronic-documents-by-using-oioubl.md)   

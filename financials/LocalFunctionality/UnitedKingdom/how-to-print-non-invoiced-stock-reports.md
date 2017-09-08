@@ -19,13 +19,11 @@
 You can use the following reports for month-end reconciliation and auditing:  
 
 -   **Stock Received not Invoiced** – Displays stock that has been received, but not yet invoiced.  
-
 -   **Stock Shipped not Invoiced** – Displays stock that has been shipped, but not yet invoiced.  
 
-### To print non-invoiced stock reports  
+## To print non-invoiced stock reports  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Stock Received not Invoiced** or **Stock Shipped not Invoiced**, and then choose the related link.  
-
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

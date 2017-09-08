@@ -19,13 +19,11 @@
 All vendors must export the data required for auditing in a Content Separated Value (CSV) file format. The following reports comply with this requirement:  
 
 -   **VAT Audit**  report – This report is used for VAT auditing.  
-
 -   **VAT Entry Exception** report - This report details the differences between the calculated VAT and the changes that occur because of rounding, VAT tolerance percentage, and discounts. It also displays the difference in VAT amounts for the tax authorities.  
 
-### To print the VAT audit report  
+## To print the VAT audit report  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Audit**, and then choose the related link.  
-
 2.  In the **VAT Audit** window, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -42,12 +40,11 @@ All vendors must export the data required for auditing in a Content Separated Va
 
 3.  To export the file, choose the **OK** button.  
 
-     The VAT audit information is exported. You can save the data to a file, or open the file in the appropriate program.  
+    The VAT audit information is exported. You can save the data to a file, or open the file in the appropriate program.  
 
-### To print the VAT entry exception report  
+## To print the VAT entry exception report  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Entry Exception Report**, and then choose the related link.  
-
 2.  In the **VAT Entry Exception Report** window, on the **Options** FastTab, fll in the fields as described in the following table.  
 
     |Field|Description|  

@@ -78,7 +78,7 @@ The Calculation Formula, Length, Width, Depth and Weight columns are not display
 
 The relation of the individual components is defined by the calculation formula. The following possibilities are available as a calculation formula:  
 
--  Empty - No consideration of dimensions. (Quantity = Quantity per.)  
+-  **Empty** - No consideration of dimensions. (Quantity = Quantity per.)  
 -  **Length** - Quantity = Quantity per * Length  
 -  **Length x Width** - Quantity = Quantity per * Length x Width  
 -  **Length x Width x Depth** - Quantity = Quantity per x Length x Width x Depth  

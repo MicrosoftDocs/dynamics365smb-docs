@@ -1,8 +1,6 @@
 ---
     title: How to Subcontract Manufacturing | Microsoft Docs
-    description: When the purchase order has been created from the subcontractor worksheet, then it can be posted. For more information, see [How to: Calculate Subcontracting Worksheets and Create Subcontract Purchase Orders](../how-to-calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders.md).
-    services: project-madeira
-    documentationcenter: ''
+    description: When the purchase order has been created from the subcontractor worksheet, then it can be posted.
     author: SorenGP
 
     ms.service: dynamics365-financials

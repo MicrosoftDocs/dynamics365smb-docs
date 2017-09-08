@@ -1,8 +1,6 @@
 ---
 title: Using the Transfer Difference to Account Feature to Reconcile Payments | Microsoft Docs'
 description: Describes how to process payments that cannot be applied to a document, for example, when an exchange rate causes amounts to differ.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-financials
@@ -11,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts
-ms.date: 03/29/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
 
 ---
@@ -23,9 +21,9 @@ Payments that cannot be applied can appear on payment reconciliation journal lin
 * The value in the **Difference** field is equal to the value in the **Transaction Amount** field, which indicates that no part of the payment can be applied to a related open customer, vendor, or bank account ledger entry.
 * The value in the **Difference** field is lower than the value in the **Transaction Amount** field, which indicates that a part of the payment can be applied to a related open customer, vendor, or bank account ledger entry. The remaining part of the payment cannot be applied and must be reconciled manually or by posting it directly to an account.
 
-To reconcile such payments, you can choose the Transfer Difference to Account button and then specify to which account the amount in the Difference field will be posted when you post the payment reconciliation journal.
+To reconcile such payments, you can choose the **Transfer Difference to Account** button and then specify to which account the amount in the **Difference** field will be posted when you post the payment reconciliation journal.
 
-> [!NOTE]  
+> [!TIP]  
 >   Similar functionality exists to set up automatic reconciliation of recurring payments that cannot be applied to related open customer, vendor, or bank account ledger entries. For more information, see [How to: Map Text on Recurring Payments to Accounts for Automatic Reconciliation](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 
 ## To reconcile payments that cannot be applied

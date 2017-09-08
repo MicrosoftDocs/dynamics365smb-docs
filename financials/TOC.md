@@ -66,6 +66,7 @@
 ### [How to: Set Up Purchasers](purchasing-how-setup-purchasers.md)
 ## [Setting Up Inventory](inventory-setup-inventory.md)
 ### [How to: Set Up General Inventory Information](inventory-how-setup-general.md)
+### [How to: Work with Responsibility Centers](inventory-responsibility-centers.md)
 ### [How to: Set Up Locations](inventory-how-setup-locations.md)
 ### [How to: Register New Items](inventory-how-register-new-items.md)
 ### [How to: Set Up Stockkeeping Units](inventory-how-to-set-up-stockkeeping-units.md)
@@ -81,7 +82,6 @@
 ### [How to: Set Up Fixed Asset Maintenance](fa-how-setup-maintenance.md)
 ## [Setting Up Warehouse Management](warehouse-setup-warehouse.md)
 ### [Design Details: Warehouse Overview](design-details-warehouse-overview.md)
-### [How to: Work with Responsibility Centers](inventory-responsibility-centers.md)
 ### [How to: Set Up Bin Types](warehouse-how-to-set-up-bin-types.md)
 ### [How to: Create Bins](warehouse-how-to-create-individual-bins.md)
 ### [How to: Create Bin Contents](warehouse-how-to-set-up-bin-contents.md)
@@ -204,7 +204,7 @@
 ## [How to: Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)
 ## [How to: Create Analysis Reports](bi-how-create-analysis-views-reports.md)
 ## [How to: Create Reports with XBRL](bi-create-reports-with-xbrl.md)
-## [How to: Set Up and Publish KPI Web Services Based on Account Schedules]
+## [How to: Set Up and Publish KPI Web Services Based on Account Schedules](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules)
 
 # [Sales](sales-manage-sales.md)
 ## [How to: Make Offers](sales-how-make-offers.md)

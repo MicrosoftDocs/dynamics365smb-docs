@@ -19,6 +19,7 @@
 The following topics describe local functionality that is unique to the Canadian version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## In This Section
+[Canada Local Functionality](canada-local-functionality.md)  
 [How to: Work With GIFI Codes](work-gifi-codes.md)  
 [How to: Set Up Use Tax and Purchase Tax](how-to-set-up-use-tax-and-purchase-tax.md)  
 [How to: Set Up Unrealized Sales Tax and Sales Payment Discounts](how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  

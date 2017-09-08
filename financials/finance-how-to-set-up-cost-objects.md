@@ -1,6 +1,6 @@
 ---
     title: How to Set Up Cost Objects | Microsoft Docs
-    description: Cost objects are projects, products, or services of a company. The chart of cost objects is similar to the dimension information for the general ledger. You can set up the chart of cost objects in the following ways:
+    description: Learn how to set up cost objects, which are similar to dimensions for the general ledger.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -18,8 +18,8 @@
 # How to: Set Up Cost Objects
 Cost objects are projects, products, or services of a company. The chart of cost objects is similar to the dimension information for the general ledger. You can set up the chart of cost objects in the following ways:  
 
--   Transfer dimension values in the general ledger to the chart of cost objects. You can make any necessary adjustments after the transfer.  
--   Create a new chart of cost object that is independent of the general ledger or add a new cost object to an existing chart of cost objects. You must create each cost object individually.  
+* Transfer dimension values in the general ledger to the chart of cost objects. You can make any necessary adjustments after the transfer.  
+* Create a new chart of cost object that is independent of the general ledger or add a new cost object to an existing chart of cost objects. You must create each cost object individually.  
 
 ## To transfer dimension values from the general ledger to the chart of cost objects  
 1.  Set a dimension to be the cost object dimension in the **Update CA Dimensions** window. Only the values from this dimension are transferred.  
@@ -39,9 +39,8 @@ You can set up and maintain cost objects in either the **Cost Object Card** card
 3.  In the **Name** field, enter the cost object name.  
 4.  Choose the drop-down arrow in the **Line Type** field to specify the purpose of the cost object.  
 
-    -   For cost objects of the **Total** line type, fill in the **Total From/To** field. Use the **or** operator, which is a vertical line (**&#124;**), to set ranges of cost objects.  
-
-    -   For cost objects of the **End-Total** line type, this field is filled in automatically when you use  the indent function.  
+    * For cost objects of the **Total** line type, fill in the **Total From/To** field. Use the **or** operator, which is a vertical line (**&#124;**), to set ranges of cost objects.  
+    * For cost objects of the **End-Total** line type, this field is filled in automatically when you use  the indent function.  
 5.  Fill in the **Sorting Order** field.  
 6.  Chose the next empty line to create a new cost object, and then repeat steps 2 through 5.  
 7.  After you have set up all the cost objects, choose the **Indent Cost Objects** action. Choose the **Yes** button.  
@@ -51,9 +50,9 @@ You can set up and maintain cost objects in either the **Cost Object Card** card
 
 ## See Also  
 [Accounting for Costs](finance-manage-cost-accounting.md)  
- [Defining Cost Centers and Cost Objects for Chart of Accounts](finance-defining-cost-centers-and-cost-objects-for-chart-of-accounts.md)   
- [Balances Between Cost Type, Cost Center, and Cost Object](finance-balances-between-cost-type-cost-center-and-cost-object.md)   
- [Setting Up Cost Accounting](finance-set-up-cost-accounting.md)   
- [Terminology in Cost Accounting](finance-terminology-in-cost-accounting.md)   
- [About Cost Accounting](finance-about-cost-accounting.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Defining Cost Centers and Cost Objects for Chart of Accounts](finance-defining-cost-centers-and-cost-objects-for-chart-of-accounts.md)   
+[Balances Between Cost Type, Cost Center, and Cost Object](finance-balances-between-cost-type-cost-center-and-cost-object.md)   
+[Setting Up Cost Accounting](finance-set-up-cost-accounting.md)   
+[Terminology in Cost Accounting](finance-terminology-in-cost-accounting.md)   
+[About Cost Accounting](finance-about-cost-accounting.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

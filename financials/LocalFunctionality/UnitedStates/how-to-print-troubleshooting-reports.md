@@ -19,7 +19,6 @@
 The following troubleshooting reports are available to assist Microsoft Certified Partners with troubleshooting issues:  
 
 -   **License Information** report – This report contains the license number, the name of the licensed user, which application granules they have purchased, and when the license expires, if applicable.  
-
 -   **Data Dictionary** report (report #10315) – This report allows you to print detailed table reference, field reference, and table properties for table objects.  
 
 You must have access to [!INCLUDE[d365fin](../../includes/d365fin_md.md)] Object Designer, which is available only to administrators.  

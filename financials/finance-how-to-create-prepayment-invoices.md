@@ -1,6 +1,6 @@
 ---
     title: How to Create Prepayment Invoices | Microsoft Docs
-    description: If you require your customers to submit payment before you ship an order to them, or if your vendor requires you to submit payment before they ship an order to you, you can use the prepayment functionality.
+    description: Learn how to handle situations where you require prepayment, or your vendor does.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

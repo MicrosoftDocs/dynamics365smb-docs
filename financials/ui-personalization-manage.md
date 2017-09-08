@@ -56,7 +56,7 @@ The **User Personalization Card** page enables you to clear the personalization 
     The user will see the changes the next time they sign-in.
 
 ## See Also
-[Personalizing Your Workspace](ui-personalize-user-interface.md)  
+[Personalizing Your Workspace](ui-personalization-user.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [How to: Change the Role Center](change-role.md)  
 [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)  

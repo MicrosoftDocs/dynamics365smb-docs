@@ -1,8 +1,6 @@
 ---
     title: How to Create Special Orders | Microsoft Docs
     description: You can create a special order for a specific nonstock item to be shipped to a specific customer. Your vendor ships the item to your warehouse and you can then ship the item on to your customer either independently or together with other items on another order.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-financials
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/11/2017
+    ms.date: 09/08/2017
     ms.author: sgroespe
 
 ---
@@ -36,7 +34,7 @@ Before you can use this feature, you must first set up the customer, vendor, and
 
     A message appears telling you that the purchase orders have been created. Choost the **OK** button.  
 
-A purchase order created as a special order for a sales order is respected by the planning system as it balances demand and supply. That is, the purchase order (supply) remains linked to the sales order (demand), even if that purchase order could supply another earlier demand. For more information, see [Design Details: Reservation, Order Tracking, and Action Messaging](design-details-reservation-order-tracking-and-action-messaging.md).  
+A purchase order created as a special order for a sales order is respected by the planning system as it balances demand and supply. That is, the purchase order (supply) remains linked to the sales order (demand), even if that purchase order could supply another earlier demand. For more information, see [Design Details: Reordering Policies](design-details-reservation-order-tracking-and-action-messaging.md).  
 
 > [!NOTE]  
 >  You cannot use the special order functionality if the item is already reserved. Therefore, for items that are sold on special orders, make sure the **Reserve** field on the item card is not set to **Always**.  
@@ -45,5 +43,5 @@ A purchase order created as a special order for a sales order is respected by th
 [How to: Work with Nonstock Items](inventory-how-work-nonstock-items.md)  
 [Sales](sales-manage-sales.md)  
 [How to: Make Drop Shipments](sales-how-drop-shipment.md)   
-[Design Details: Reservation, Order Tracking, and Action Messaging](design-details-reservation-order-tracking-and-action-messaging.md)  
+[Design Details: Reordering Policies](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

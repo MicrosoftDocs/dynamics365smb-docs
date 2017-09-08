@@ -1,8 +1,6 @@
 ---
     title: Setup Best Practices - Planning Parameters | Microsoft Docs
     description: The **Planning** FastTab on the item card is the center of a company’s supply chain. Setting the correct planning parameters is very important for cost-effective inventory control and high customer service.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-financials
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 09/08/2017
     ms.author: sgroespe
 
 ---
@@ -24,8 +22,8 @@ The **Planning** FastTab on the item card is the center of a company’s supply 
 |-----------------|-------------------|-------------|  
 |Reordering Policy||For more information, see [Setup Best Practices: Reordering Policies](setup-best-practices-reordering-policies.md).|  
 |Reserve|Select **Never** when the item is planned using a reorder point.<br /><br /> In manufacturing, select **Never** to allow the planning system to cover all demands.<br /><br /> Select **Optional** for items that you may want to reserve for top-priority customers.<br /><br /> Select **Always** for non-unique items, such as items of type miscellaneous that are inbound for specific demands.|Reservations generally counteract the purpose of planning, which is to balance demand and supply. Therefore, items that are set up for planning should generally not be reserved.<br /><br /> If the user reserves an inventory quantity for future demand, then the planning foundation will be disturbed, and the reorder point may not work correctly. Even if the projected inventory level is acceptable with regard to the reorder point, the quantities may not be available because of the reservation.|  
-|Dampener Period|Set with regard to the supplier’s flexibility.|If the supplier accepts last-minute changes to orders, then use a longer period. If the supplier requires firm planning, then shorten your period as much as possible.<br /><br /> For information about the global setup, see Default Dampener Period.|  
-|Dampener Quantity||For information about the global setup, see Default Dampener Quantity.|  
+|Dampener Period|Set with regard to the supplier’s flexibility.|If the supplier accepts last-minute changes to orders, then use a longer period. If the supplier requires firm planning, then shorten your period as much as possible.<br /><br /> For information about the global setup, see [Design Details: Planning Parameters](design-details-planning-parameters.md).|  
+|Dampener Quantity||For information about the global setup, see [Design Details: Planning Parameters](design-details-planning-parameters.md).|  
 |Include Inventory|Always select when you are using the Lot-for-Lot reordering policy.|Do not select only in special situations, such as when inventory items are not sellable.|  
 |Safety Lead Time|Set between 1D and 6D.<br /><br /> Set a safety lead time of at least one day to make sure that supplies are available on the day before they are needed.<br /><br /> If using a new supplier, define a longer time until their delivery performance is known.<br /><br /> In manufacturing, define longer safety lead times for critical components.|Supply that is planned by the system to avoid a stock-out will arrive on the same day that the stock-out occurs. This may be several hours too late if, for example, the demand is needed in the morning and the supply arrives in the afternoon. **Note:**  The **Safety Lead Time** field uses the base calendar. Therefore, 14D is not necessarily two weeks.|  
 |Safety Stock Quantity|Use for items with large demand fluctuations.<br /><br /> In manufacturing, use for critical components.<br /><br /> Use for items that are subject to service agreements.|If the **Reorder Point** field is not filled, then the safety stock quantity also functions as a reorder point.|  

@@ -66,6 +66,7 @@ You can use the **General Ledger Setup** window to set up unrealized sales tax. 
 9. Choose the **OK** button.  
 
 ## See Also  
+[Canada Local Functionality](canada-local-functionality.md)  
 [Reporting Sales Tax in Canada](ca-sales-tax.md)  
 [Finance](../../finance.md)  
 [Setting Up Finance](../../finance.md)

@@ -27,11 +27,9 @@ There are times when output posting must be reversed. An example of this would b
 The output journal entries are posted to the item ledger as a positive adjustment.  
 
 ## See Also  
- Output Journal   
- Production Journal   
  [Manufacturing](production-manage-manufacturing.md)    
  [Setting Up Manufacturing](production-configure-production-processes.md)  
  [Planning](production-planning.md)      
  [Inventory](inventory-manage-inventory.md)  
  [Purchasing](purchasing-manage-purchasing.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

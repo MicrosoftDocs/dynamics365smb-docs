@@ -1,5 +1,6 @@
 ---
-    title: Scenario Example: Defining Static Allocations Based on Allocation Ratio | Microsoft Docs
+
+    title: Defining Static Allocations Based on Allocation Ratio | Microsoft Docs
     description: Static allocation method is based on a definite value, such as square meters used, or an established allocation ratio such as 5:2:4.
     services: project-madeira
     documentationcenter: ''
@@ -55,7 +56,7 @@ This topic describes how to define three new allocation target cost objects for 
 >  [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically calculates the **Percent** field using a percentage rate that is dependent on all three allocation ratios that are entered in the **Share** field for all three lines.  
 
 ## See Also  
- [How to: Set Up Allocation Source and Targets](finance-how-to-set-up-allocation-source-and-targets.md)   
- [Defining and Allocating Costs](finance-define-and-allocate-costs.md)   
- [Scenario Example: Defining Dynamic Allocations Based on Items Sold](finance-scenario-example-defining-dynamic-allocations-based-on-items-sold.md)   
- [Defining and Allocating Costs](finance-define-and-allocate-costs.md)
+[How to: Set Up Allocation Source and Targets](finance-how-to-set-up-allocation-source-and-targets.md)   
+[Defining and Allocating Costs](finance-define-and-allocate-costs.md)   
+[Scenario Example: Defining Dynamic Allocations Based on Items Sold](finance-scenario-example-defining-dynamic-allocations-based-on-items-sold.md)   
+[Defining and Allocating Costs](finance-define-and-allocate-costs.md)

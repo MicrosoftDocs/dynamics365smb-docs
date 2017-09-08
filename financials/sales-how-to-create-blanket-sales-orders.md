@@ -1,8 +1,6 @@
 ---
     title: How to Create Blanket Sales Orders | Microsoft Docs
     description: Use blanket orders when a customer has agreed to buy large quantities that are to be delivered in several smaller shipments over a certain period of time.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-financials
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/09/2017
+    ms.date: 09/08/2017
     ms.author: sgroespe
 
 ---
@@ -25,7 +23,7 @@ On the blanket order, each separate shipment can be set up as an order line, whi
 An example of when a blanket sales order could be used is if a customer calls and places an order of 1000 units of an item and they want the items to be delivered in 250 units every week over the next month.
 
 > [!NOTE]
-< Blanket purchase orders work in a similar way as blanket sales orders. This documentation does not cover blanket purchase orders.
+> Blanket purchase orders work in a similar way as blanket sales orders. This documentation does not cover blanket purchase orders.
 
 ## To create a blanket sales order  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Blanket Sales Orders**, and then choose the related link.  
@@ -72,23 +70,52 @@ The link between the blanket sales order and the originating sales order, and an
 2. Open the blanket sales order you want to view.
 3. To view unposted entries, select the line in question, choose the **Line** action, and then choose the **Unposted Lines** action. Choose one of the following options.  
 
-        |Option|Description|
-        |----------------------------------|---------------------------------------|  
-        |**Orders**|Specifies open orders associated with the selected line.|  
-        |**Invoices**|Specifies open invoices that have been associated with the selected line. Open invoices are manually associated with a blanket order by entering the blanket order number on the sales invoice line.|  
-        |**Return Orders:**|Specifies open return orders that have been associated with the selected line.|  
-        |**Credit Memos**|Specifies open credit memos that have been associated with the selected line.|  
-
+    <table>
+    <tr>
+    <th>Option</th>
+    <th>Description</th>
+    </tr>
+    <tr>
+    <td>**Orders**</td>
+    <td>Specifies open orders associated with the selected line.</td>
+    </tr>
+    <tr>
+    <td>**Invoices**</td>
+    <td>Specifies open invoices that have been associated with the selected line. Open invoices are manually associated with a blanket order by entering the blanket order number on the sales invoice line.</td>
+    </tr>
+    <tr>
+    <td>**Return Orders**</td>
+    <td>Specifies open return orders that have been associated with the selected line.</td>
+    </tr>
+    <tr>
+    <td>**Credit Memos**</td>
+    <td>Specifies open credit memos that have been associated with the selected line.</td>
+    </tr>
+    </table>
 4. To view posted entries, select the line in question, choose the **Line** action, and then choose the **Posted Lines** action. Choose one of the following options.  
 
-        |Option|Description|  
-        |----------------------------------|---------------------------------------|  
-        |**Shipments**|Posted shipments associated with the selected line.|  
-        |**Invoices**|Posted invoices associated with the selected line.|  
-        |**Return Receipts**|Posted return receipts that have been associated with the selected line.|  
-        |**Credit Memos**|Posted credit memos that have been associated with the selected line.|
-        In the Purchase Lines window, on the Navigate tab, in the Line group, choose Show Document to view the entry.
-
+    <table>
+    <tr>
+    <th>Option</th>
+    <th>Description</th>
+    </tr>
+    <tr>
+    <td>**Shipments**</td>
+    <td>Posted shipments associated with the selected line.</td>
+    </tr>
+    <tr>
+    <td>**Invoices**</td>
+    <td>Posted invoices associated with the selected line.</td>
+    </tr>
+    <tr>
+    <td>**Return Receipts**</td>
+    <td>Posted return receipts that have been associated with the selected line.</td>
+    </tr>
+    <tr>
+    <td>**Credit Memos**</td>
+    <td>Posted credit memos that have been associated with the selected line.</td>
+    </tr>
+    </table>
 5. In the **Sales Lines** window, choose the **Show Document** action to view the entry.
 
 ## See Also

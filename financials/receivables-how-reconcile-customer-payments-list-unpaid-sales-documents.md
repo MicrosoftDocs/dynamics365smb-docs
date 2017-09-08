@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
-ms.date: 06/16/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
 
 ---
@@ -69,7 +69,7 @@ Payments entries are posted to general ledger, bank, and customer accounts. Each
 
 Payment entries are posted to general ledger, bank, and customer accounts. Each payment is applied to the related posted sales document.  
 
-If a payment in the bank is not represented by line in the **Payment Registration** window, it may be because the related document has not yet been posted. In that case, you can use a search function to quickly find the document and post it to process the payment. For more information, see the How to: Find Unpaid Documents During Manual Customer Payment Reconciliation section.  
+If a payment in the bank is not represented by line in the **Payment Registration** window, it may be because the related document has not yet been posted. In that case, you can use a search function to quickly find the document and post it to process the payment. For more information, see the "To find a specific sales document that is not fully invoiced" section.  
 
 If a payment in the bank is not represented by any document in [!INCLUDE[d365fin](includes/d365fin_md.md)], then you can open a prefilled general journal from the **Payment Registration** window to post the payment directly to the balancing account without applying the payment to a document. Alternatively, you may want to record the payment in the journal until the origin of the payment has been resolved. For more information, see the "To record or post a payment without a related document" section.  
 

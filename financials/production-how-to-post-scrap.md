@@ -16,13 +16,16 @@
 
 ---
 # How to: Post Scrap Manually
-If scrap is produced during processing, it can be entered in the output journal. Note that the scrap quantity does not increase the output quantity.  
+If scrap is produced during processing, it can be entered in the output journal. 
+
+> [!NOTE]
+> The scrap quantity does not increase the output quantity.  
 
 ## To post scrap manually  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Output Journal**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Output Journal**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. In the **Scrapped Quantity** field, enter the scrap quantity.  
-4.  In the **Scrap Code** field, enter the scrap code.  
+4. In the **Scrap Code** field, enter the scrap code.  
 5. Choose the **Post** action to post the specified scrap per operation.  
 
 ## See Also  

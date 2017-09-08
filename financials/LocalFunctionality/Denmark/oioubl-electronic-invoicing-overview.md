@@ -40,6 +40,7 @@ Your customers can use a profile that is based on the Danish OIOUBL definitions,
 For more information, see the entry on OIOUBL profiles in the frequently asked questions section at [Digitaliseringsstyrelsen](http://go.microsoft.com/fwlink/?LinkId=267236).  
 
 ## See Also  
+[Denmark Local Functionality](denmark-local-functionality.md)  
  [How to: Set Up OIOUBL](how-to-set-up-oioubl.md)   
  [How to: Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md)   
  [How to: Create Electronic Documents by Using OIOUBL](how-to-create-electronic-documents-by-using-oioubl.md)   

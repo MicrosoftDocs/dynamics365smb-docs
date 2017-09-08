@@ -1,8 +1,6 @@
 ---
 title: Set Up Special Sales Prices and Discounts for Customers | Microsoft Docs
 description: Describes how to define the alternate pricing and discount agreements that you want to apply to sales documents when selling to different customers.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-financials
@@ -11,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 08/11/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
 
 ---
@@ -74,9 +72,9 @@ Before you can use invoice discounts with sales, you must enter certain informat
 - which customers will be granted this type of discount.  
 - which discount percentages you will use.  
 
-If you want the program to automatically calculate invoice discounts, you can set this up in the Sales & Receivables Setup window.  
+If you invoice discounts to be calculated automatically, you can specify this in the **Sales & Receivables Setup** window.  
 
-For each customer, you can specify whether you will grant invoice discounts if the requirement is satisfied (that is, if the invoice amount is large enough). You can define the terms of the invoice discount in LCY for domestic customers and in foreign currency for foreign customers.  
+For each customer, you can specify whether you will grant invoice discounts if the requirement is satisfied (that is, if the invoice amount is large enough). You can define the terms of the invoice discount in local currency for domestic customers and in foreign currency for foreign customers.  
 
 You link discount percentages to specific invoice amounts in **Cust. Invoice Discounts** windows. You can enter any number of percentages in each window. Each customer can have its own window, or you can link several customers to the same window.  
 
@@ -103,7 +101,7 @@ The best price is the lowest permissible price with the highest permissible line
 2. [!INCLUDE[d365fin](includes/d365fin_md.md)] checks if any price/discount agreements apply to information on the document or journal line, and then inserts the applicable unit price and line discount percentage, using the following criteria:
 
     - Is there a minimum quantity requirement in the price/discount agreement that is fulfilled?
-    - Is there a currency requirement in the price/discount agreement that is fulfilled? If so, the lowest price and the highest line discount for that currency are inserted, even if LCY would provide a better price. If there is no price/discount agreement for the specified currency code, [!INCLUDE[d365fin](includes/d365fin_md.md)] inserts the lowest price and the highest line discount in LCY.
+    - Is there a currency requirement in the price/discount agreement that is fulfilled? If so, the lowest price and the highest line discount for that currency are inserted, even if local currency would provide a better price. If there is no price/discount agreement for the specified currency code, [!INCLUDE[d365fin](includes/d365fin_md.md)] inserts the lowest price and the highest line discount in your local currency.
 
 If no special price can be calculated for the item on the line, then either the last direct cost or the unit price from the item card is inserted.
 

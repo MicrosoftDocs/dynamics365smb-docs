@@ -24,7 +24,7 @@ If you need to adjust recorded inventory quantities, in connection with counting
 
 If you need to change attributes on item ledger entries as well as the quantities, you can use the item reclassification journal. Typical attributes to reclassify include serial/lot numbers, expiration dates, and dimensions.
 
-> [Note!]
+> [!NOTE]
 > In advanced warehouse configurations, items are registered in bins as warehouse entries, not as item ledger entries. Therefore, you perform counting, adjusting, and reclassifying in special warehouse journals that support bins. Then, you use special functions to synchronize the new or changed warehouse entries with their related item ledger entries to reflect the changes in inventory quantities and values. This is described in specific procedures below where relevant.
 
 ## To perform a physical inventory
@@ -51,7 +51,7 @@ You can perform the physical inventory in either of the following ways depending
 > [!NOTE]  
 >   The item entries are processed according to the information that you specified, and lines are created in the physical inventory journal. Notice that the **Qty. (Phys. Inventory)** field is automatically filled in with the same quantity as the **Qty. (Calculated)** field. With this feature, it is not necessary for you to enter the counted inventory on hand for items that are the same as the calculated quantity. However, if the quantity counted differs from what is entered in the **Qty. (Calculated)** field, you must overwrite it with the quantity actually counted.
 
-#### To calculate the expected inventory in advanced warehouse configurations
+### To calculate the expected inventory in advanced warehouse configurations
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Journal**, and choose the related link.  
 2.  Choose the **Calculate Whse. Adjustment** action.  
 3.  Fill in the batch job request window with the numbers of the items you want to count and with your location.
@@ -104,7 +104,7 @@ Employees can now proceed to count inventory and record any discrepancies on the
 3. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.
 4. To verify the inventory counting, open the item card in question, and then, choose the **Phys. Inventory ledger Entries** action.
 
-#### To enter and post the actual counted inventory in advanced warehouse configurations
+### To enter and post the actual counted inventory in advanced warehouse configurations
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Journal**, and choose the related link.  
 2.  Choose the **Calculate Whse. Adjustment** action.  
@@ -170,7 +170,7 @@ You can also use the **Adjust Inventory** function as a simple way to place purc
 > [!NOTE]  
 >   After you have adjusted inventory, you must update it with the current, calculated value. For more information, see [How to: Revalue Inventory](inventory-how-revalue-inventory.md).
 
-## To adjust the inventory quantity of multiple items in basic warehouse configurations
+### To adjust the inventory quantity of multiple items in basic warehouse configurations
 In the **Item Journal** window, you can post item transaction directly to adjust inventory in connection with purchases, sales, and positive or negative adjustments without using documents.
 
 If you often use the item journal to post the same or similar journal lines, for example, in connection with material consumption, you can use the **Standard Item Journal** window to make this recurring work easier. For more information, see the "Standard Journals" section in [Working with General Journals](ui-work-general-journals.md).
@@ -182,7 +182,7 @@ If you often use the item journal to post the same or similar journal lines, for
 > [!NOTE]  
 >   After you have adjusted inventory, you must update it with the current, calculated value. For more information, see [How to: Revalue Inventory](inventory-how-revalue-inventory.md).
 
-## To adjust bin quantities in advanced warehouse configurations  
+### To adjust bin quantities in advanced warehouse configurations  
 If your location uses directed put-away and pick, use the **Whse. Item Journal** to post, outside the context of the physical inventory, all positive and negative adjustments in item quantity that you know are real gains, such as items previously posted as missing that show up unexpectedly, or real losses, such as breakage.  
 
 Unlike posting adjustments in the inventory item journal, using the warehouse item journal gives you an additional level of adjustment that makes your quantity records even more precise at all times. The warehouse thus always has a complete record of how many items are on hand and where they are stored, but each adjustment registration is not posted immediately to the item ledger. In the registering process, credits or debits are made to the real bin with the quantity adjustment and a counterbalancing entry is made in an adjustment bin, a virtual bin with no real items. This bin is defined in the **Invt. Adjustment Bin Code** on the location card.
@@ -194,7 +194,7 @@ Unlike posting adjustments in the inventory item journal, using the warehouse it
 5.  Fill in the quantity that you observe as a discrepancy in the **Quantity** field. If you have found extra items, enter a positive quantity. If items are missing, enter a negative quantity.  
 6.  Choose the **Register** action.
 
-### To synchronize the adjusted warehouse entries with the related item ledger entries
+## To synchronize the adjusted warehouse entries with the related item ledger entries
 At appropriate intervals as defined by company policy, you must post the warehouse adjustment bin records in the item ledger. Some companies find it appropriate to post adjustments to the item ledger every day, while others may find it adequate to reconcile less frequently.
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Journal**, and then choose the related link.  

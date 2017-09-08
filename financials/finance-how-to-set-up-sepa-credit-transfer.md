@@ -1,6 +1,8 @@
 ---
     title: Set up SEPA credit transfer | Microsoft Docs
     description: Learn how to set up SEPA credit transfer in Dynamics 365 for Financials.
+    services: project-madeira
+    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-financials
@@ -32,8 +34,8 @@ Before you can process payment electronically by exporting payment files in the 
 4. In the **SEPA CT Msg. ID No. Series** field, choose a number series from which numbers are assigned to SEPA credit transfer entries.  
 5. Make sure the **IBAN** field is filled.  
 
-> [!NOTE]  
->  The **Currency Code** field must be set to **EUR**, because SEPA credit transfers can only be made in the EURO currency.  
+    > [!NOTE]  
+    >  The **Currency Code** field must be set to **EUR**, because SEPA credit transfers can only be made in the EURO currency.  
 
 ### To set up a vendor card for SEPA Credit Transfer  
 1. In the **Search** box, enter **Vendors**, and then choose the related link.  

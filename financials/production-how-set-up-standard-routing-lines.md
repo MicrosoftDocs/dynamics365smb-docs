@@ -31,11 +31,11 @@ The use of standard tasks simplifies the creation and maintenance of routings. T
 3. Select a relevant routing line, choose the **Operations** action, and then choose the **Tools**, **Personnel**, **Description**, or **Tools** action.
 
 ## See Also  
-[How to: Create Routings](production-how-to-create-routings.md)
+[How to: Create Routings](production-how-to-create-routings.md)  
 [How to: Create Production BOMs](production-how-to-create-production-boms.md)     
-[Setting Up Manufacturing](production-configure-production-processes.md)  
+[Setting Up Manufacturing](production-configure-production-processes.md)   
 [Manufacturing](production-manage-manufacturing.md)    
 [Planning](production-planning.md)   
 [Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

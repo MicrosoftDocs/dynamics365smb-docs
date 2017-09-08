@@ -14,33 +14,25 @@ ms.author: sgroespe
 
 ---
 # How to: Set Up SEPA Direct Debit
-From the **Direct Debit Collections** window, you can export instructions to your electronic bank to perform a direct debit collection from the customer’s bank account to your bank account. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the SEPA direct debit format, but in your country/region, other formats for electronic payments may be available.  
+From the **Direct Debit Collections** window, you can export instructions to your electronic bank to perform a direct debit collection from the customer’s bank account to your bank account. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the SEPA direct debit format, but in your country/region,other formats for electronic payments may be available.  
 
 To enable export of a bank file formats that are not supported out of the box in [!INCLUDE[d365fin](includes/d365fin_md.md)] , you can set up a data exchange definition by using the data exchange framework. For more information, see [How to: Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).  
 
- Before you can process customer payments electronically by exporting direct debit instructions in the SEPA Direct Debit format, you must perform the following setup steps:  
+Before you can process customer payments electronically by exporting direct debit instructions in the SEPA Direct Debit format, you must perform the following setup steps:  
 
--   Set up the export format of the bank file that instructs your bank to perform a direct debit collection from the customer’s bank account to your bank account.  
-
--   Set up the customer’s payment method.  
-
--   Set up the direct-debit mandate that reflects your agreement with the customer to collect their payments in a certain agreement period.  
+* Set up the export format of the bank file that instructs your bank to perform a direct debit collection from the customer’s bank account to your bank account.  
+* Set up the customer’s payment method.  
+* Set up the direct-debit mandate that reflects your agreement with the customer to collect their payments in a certain agreement period.  
 
 ### To set up your bank account for SEPA direct debit  
-
-1.  In the **Search** box, enter **Bank Accounts**, and then choose the related link.  
-
-2.  Open the bank account that you want to use for direct debit.  
-
-3.  On the **Transfer** FastTab, in the **SEPA Direct Debit Export Format** field, choose the option for SEPA direct debit.  
+1. In the **Search** box, enter **Bank Accounts**, and then choose the related link.  
+2. Open the bank account that you want to use for direct debit.  
+3. On the **Transfer** FastTab, in the **SEPA Direct Debit Export Format** field, choose the option for SEPA direct debit.  
 
 ### To set up the customer’s payment method for SEPA direct debit  
-
-1.  In the **Search** box, enter **Payment Methods**, and then choose the related link.  
-
-2.  In the **Payment Methods** window, on the **Home** tab, in the **New** group, choose **New**.  
-
-3.  Set up a payment method. Fill in the direct debit\-specific fields as described in the following table.  
+1. In the **Search** box, enter **Payment Methods**, and then choose the related link.  
+2. Choose the **New** action.  
+3. Set up a payment method. Fill in the direct debit\-specific fields as described in the following table.  
 
     |Field|[Description|  
     |---------------------------------|---------------------------------------|  
@@ -50,27 +42,18 @@ To enable export of a bank file formats that are not supported out of the box in
     > [!NOTE]  
     >  Do not enter a value in the **Bal. Account No.** field.  
 
-4.  Choose the **OK** button to close the **Payment Methods** window.  
-
-5.  In the **Search** box, enter **Customers**, and then choose the related link.  
-
-6.  Open the customer card for the customer that you want to set up for SEPA direct debit collection.  
-
-7.  Choose the **Payment Method Code** field, and then select the payment method code that you specified in step 3.  
-
-8.  Repeat steps 6 and 7 for all customers that you want to set up for SEPA direct debit collection.  
+4. Choose the **OK** button to close the **Payment Methods** window.  
+5. In the **Search** box, enter **Customers**, and then choose the related link.  
+6. Open the customer card for the customer that you want to set up for SEPA direct debit collection.  
+7. Choose the **Payment Method Code** field, and then select the payment method code that you specified in step 3.  
+8. Repeat steps 6 and 7 for all customers that you want to set up for SEPA direct debit collection.  
 
 #### To set up the direct-debit mandate that represents the customer agreement  
-
-1.  In the **Search** box, enter **Customers**, and then choose the related link.  
-
-2.  Open the card for the customer that you want to set up for SEPA direct debits.  
-
-3.  In the **Customer Card** window, on the **Navigate** tab, in the **Customer** group, choose **Bank Accounts**.  
-
-4.  In the **Customer Bank Account List** window, select the customer bank account that will use direct debits, and then, on the **Home** tab, in the **Process** group, choose **Direct Debit Mandates**.  
-
-5.  In the **SEPA Direct Debit Mandates** window, fill in the fields as described in the following table.  
+1. In the **Search** box, enter **Customers**, and then choose the related link.  
+2. Open the card for the customer that you want to set up for SEPA direct debits.  
+3. Choose the **Bank Accounts** action.  
+4. In the **Customer Bank Account List** window, select the customer bank account that will use direct debits, and then, on the **Home** tab, in the **Process** group, choose **Direct Debit Mandates**.  
+5. In the **SEPA Direct Debit Mandates** window, fill in the fields as described in the following table.  
 
     |[Field|Description]|  
     |---------------------------------|---------------------------------------|  

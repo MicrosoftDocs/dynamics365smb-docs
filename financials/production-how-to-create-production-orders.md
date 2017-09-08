@@ -18,7 +18,7 @@
 # How to: Create Production Order Headers
 You can create a production order manually, and the first step is to create a production order header.
 
-Production orders are typically created automatically by a planning function to fulfill a known demand. For more information, see [[Planning](production-planning.md)].   
+Production orders are typically created automatically by a planning function to fulfill a known demand. For more information, see [Planning](production-planning.md).   
 
 In the following procedure, a firm planned production order is created. You can also create production orders with a different status.  
 

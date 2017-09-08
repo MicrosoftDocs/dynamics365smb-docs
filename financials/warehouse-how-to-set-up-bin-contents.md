@@ -11,12 +11,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/23/2017
+    ms.date: 09/08/2017
     ms.author: sgroespe
 
 ---
 # How to: Create Bin Contents
-After you have set up your bins, you can set up the bin contents. In other words, you can set up the items you want to store in any given bin and set the rules that govern filling the bin with a particular item. You can do this manually or with the **Create Bin Content Worksheet** window.
+After you have set up your bins, you can set up the bin contents. In other words, you can set up the items you want to store in any given bin and set the rules that govern filling the bin with a particular item. You can do this manually in the **Bin Contents** window or automatically with the **Create Bin Content Worksheet** window.
 
 ## To create bin content manually  
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.  
@@ -25,7 +25,7 @@ After you have set up your bins, you can set up the bin contents. In other words
 4.  For each item that you want to store in the bin, fill in a line in the **Bin Contents** window with the appropriate information. Some of the fields are filled in already with information about the bin.  
 5.  First fill in the **Item No.** field, and then, if you are using directed put-away and pick, fill in the other fields such as the **Unit of Measure Code**, **Max. Qty.**, and **Min. Qty.** fields.  
 
-    Select the **Fixed** field if necessary. If the bin is to be used as the default bin for the item, select the **Default Bin** field.  
+Select the **Fixed** field if necessary. If the bin is to be used as the default bin for the item, select the **Default Bin** field.  
 
 If you are using directed put-away and pick, and if you have entered the correct dimensional information on the item card about each item’s units of measure, the maximum quantity that you enter in the **Bin Contents** window is verified against the physical capabilities of the bin. The minimum and maximum quantities are used when calculating bin replenishment and suggested put-aways.  
 
@@ -34,7 +34,7 @@ If you select the **Fixed** field, you are fixing the item to the bin, meaning t
 > [!NOTE]  
 >  You can set up several bin contents at the same time in the **Bin Content Creation Worksheet** window.  
 
-## To create bin content in a worksheet  
+## To create bin content with a worksheet  
 When you have created your bins, you can create the bin content that you want for each bin in the bin content creation worksheet.
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bin Content Creation Worksheet**, and then choose the related link.  

@@ -31,9 +31,7 @@ You use the **Credit Transfer Registers** window to view the payment files that 
 3. Fill in the fields on the payment journal lines as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
->   If you are using EFT, you must select either **Electronic Payment** or **Electronic Payment–IAT** in the **Bank Payment Type** field.
-
-    Different file export services and their formats require different setup values in the **Bank Account Card** and **Vendor Bank Account Card** windows. You will be informed about wrong or missing setup values as you try to export the file.
+>   If you are using EFT, you must select either **Electronic Payment** or **Electronic Payment–IAT** in the **Bank Payment Type** field. Different file export services and their formats require different setup values in the **Bank Account Card** and **Vendor Bank Account Card** windows. You will be informed about wrong or missing setup values as you try to export the file.
 
 4. When you have completed all payment journal lines, choose the **Export** action.
 5. In the **Export Electronic Payments** window, fill in the fields as necessary.

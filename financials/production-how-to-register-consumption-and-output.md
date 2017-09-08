@@ -41,7 +41,7 @@ This execution task is performed in the **Production Journal** window. The journ
 
     When the journal is opened, it is preset with the quantities to be posted. If nothing is posted so far, all quantity fields will show by default the expected quantities carried from the production order. If partial postings have been made, the quantity fields on the lines will show the remaining quantities. The quantities and times already posted for the order are displayed at the bottom of the journal as actual entries.  
 
-    Concerning the quantities in the **Output Quantity** field, you have the option to set up which values to preset when the journal is first opened. This is done from the **Manufacturing Setup** window, **General** FastTab, in the **Preset Output Quantity** field. For more information, see Preset Output Quantity.  
+    Concerning the quantities in the **Output Quantity** field, you have the option to set up which values to preset when the journal is first opened. This is done from the **Manufacturing Setup** window, **General** FastTab, in the **Preset Output Quantity** field. 
 
 5.  Proceed to enter the relevant consumption and output quantities in the editable fields.  
 

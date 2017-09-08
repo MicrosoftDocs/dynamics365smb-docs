@@ -104,8 +104,8 @@ The calculated work center calendar will now define when and how much capacity i
 The capacity of the selected day has now decreased by the recorded absence time.  
 
 ## See Also  
-[How to: Set Up Base Calendars](across-how-to-assign-base-calendars.md)
+[How to: Set Up Base Calendars](across-how-to-assign-base-calendars.md)  
 [How to: Set Up Work Centers and Machine Centers](production-how-to-set-up-work-and-machine-centers.md)  
-[Setting Up Manufacturing](production-configure-production-processes.md)
+[Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

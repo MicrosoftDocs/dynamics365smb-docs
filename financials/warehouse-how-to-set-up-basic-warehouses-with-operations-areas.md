@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/29/2017
+    ms.date: 09/08/2017
     ms.author: sgroespe
 
 ---
@@ -84,7 +84,7 @@ The value in this field is automatically inserted in the **Bin Code** field on a
 
 Bin codes that are set up on location cards define a default warehouse flow for specific warehouse activities, such as consumption of components in an assembly area. Additional functionality exists to make sure that when items are placed in a default bin, they cannot be moved or picked to other activities.
 
-> [!NOTE>
+> [!NOTE]
 > This setup is only possible for locations where the Bin Mandatory field is selected.
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.
@@ -94,12 +94,12 @@ Bin codes that are set up on location cards define a default warehouse flow for 
 ### To set up the bin where finished assembly items are posted to when they are assembled to a linked sales order
 From this bin, the assembly items are shipped immediately, via an inventory pick, to fulfill the sales order.
 
-> [!NOTE>
+> [!NOTE]
 > This field cannot be used if the location is set up to use directed pick and put-away.
 
 The bin code is copied from the sales order line to the assembly order header to communicate to assembly workers where to place the output to ready it for shipping. It is also copied to the inventory pick line to communicate to warehouse workers where to take it from to ship it.
 
-> [!NOTE>
+> [!NOTE]
 > The Assemble-to-Order Shipment bin is always empty. When you post an assemble-to-order sales line, then the bin content is first positively adjusted with the assembly output. Immediately after, it is negatively adjusted with the shipped quantity.
 
 The value in this field is automatically inserted in the Bin Code field on sales order lines that contain a quantity in the **Qty. to Assemble to Order** field or if the item to be sold has **Assemble-to-Order** in the **Replenishment System** field.

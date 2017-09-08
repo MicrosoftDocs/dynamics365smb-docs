@@ -20,7 +20,7 @@ The planning system takes all demand and supply data into account, nets the resu
 
 For detailed information, see [Design Details: Supply Planning](design-details-supply-planning.md).  
 
-> (!NOTE)
+> [!NOTE]  
 > For all the fields that are mentioned in this topic, read the tooltip to understand their function. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## Demand and Supply  
@@ -120,9 +120,8 @@ Violating the safety stock level is considered an exception because it should no
 ### Attention
 The attention warning is displayed in two situations:
 
-The planning starting date is earlier than the work date.
-
-The planning line suggests to change a released purchase or production order.
+- The planning starting date is earlier than the work date.
+- The planning line suggests to change a released purchase or production order.
 
 > [!NOTE]
 > In planning lines with warnings, the **Accept Action Message** field is not selected, because the planner is expected to further investigate these lines before carrying out the plan.

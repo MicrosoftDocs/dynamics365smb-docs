@@ -1,5 +1,5 @@
 ---
-    title: How to: Set Up and Publish KPI Web Services Based on Account Schedules | Microsoft Docs
+    title: How to Set Up and Publish KPI Web Services Based on Account Schedules | Microsoft Docs
     description: In the **Account Schedule KPI Web Service Setup** window, you set up how to show the account-schedule KPI data and which specific account schedules to base the KPIs on.
     services: project-madeira
     documentationcenter: ''

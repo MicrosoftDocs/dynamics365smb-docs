@@ -113,6 +113,7 @@ If you see an "Oops" error dialog after you pass the authentication dialog, this
     `https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/`
 
 ## See Also
+[Business Intelligence](bi.md)  
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Migrate Business Data from Other Finance Systems](upload-data.md)  
 [Using [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  

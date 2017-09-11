@@ -29,7 +29,10 @@
     ],
     "overwrite": [],
     "externalReference": [],
-    "globalMetadata": {},
+    "globalMetadata": {
+      "searchScope": ["Accountant"],
+      "uhfHeaderId": "MSDocsHeader-Dynamics365"
+    },
     "fileMetadata": {},
     "template": [],
     "dest": "d365accountant"

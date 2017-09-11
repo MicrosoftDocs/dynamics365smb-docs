@@ -1,6 +1,6 @@
 ---
 title: Correct or Cancel a Posted Sales Invoice | Microsoft Docs
-description: Describes how to correct, undo, or cancel a posted sales invoice and apply a sales credit memo. 
+description: Describes how to correct, undo, or cancel a posted sales invoice and apply a sales credit memo.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 03/29/2017
+ms.date: 08/01/2017
 ms.author: sgroespe
 
 ---
@@ -19,7 +19,7 @@ ms.author: sgroespe
 You can correct or cancel a posted sales invoice. This is useful if you make a mistake or if the customer requests a change.
 
 > [!NOTE]  
->   After a posted sales invoice has been partially or fully paid, you cannot correct or cancel it from the posted sales invoice itself. Instead, you must manually create a sales credit memo to void the sale and reimburse the customer. For more information, see [How to: Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md).
+>   After a posted sales invoice has been partially or fully paid, you cannot correct or cancel it from the posted sales invoice itself. Instead, you must manually create a sales credit memo to void the sale and reimburse the customer, optionally managed with a sales return order. For more information, see [How to: Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md).
 
 In the **Posted Sales Invoice** window, you can choose the **Correct** action or the **Cancel** action to perform the actions that are described in the following table.
 

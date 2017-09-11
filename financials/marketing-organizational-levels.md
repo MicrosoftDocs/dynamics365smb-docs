@@ -20,13 +20,13 @@ You can use organizational levels on your contacts to specify which position the
 
 Using organizational levels on contacts is a two-step process. First, you define the organizational level code. You only have to perform this step one time for each organizational level. Once you have an organizational level code, you can start to assign the code to contact persons.
 
-## to define an organizational level code
+## To define an organizational level code
 The organizational level code defines the type or category of the organizational level, such a CEO  or CFO. You can have several organizational level codes. To define the organizational level, you use the **Organizational Levels** window.
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Organizational Levels**, and then choose the related link.
 2. Choose the **New** action, and fill in a code and description. The code can be a maximum of 11 characters, and can be any combination of numbers and letters.
 
-## to assign organizational levels to a contact person
+## To assign organizational levels to a contact person
 You can assign organizational levels to contact persons only, not contact companies. You can only assign one organizational level to each contact.
 
 1. Open the contact.

@@ -29,11 +29,14 @@ The following table describes a sequence of tasks, with links to the topics that
 | --- | --- |
 |View actual amounts compared to budgeted amounts for all accounts and for several periods.|[How to: Analyze Actual Amounts Versus Budgeted Amounts](bi-how-analyze-actual-versus-budget.md)|
 |Create new account schedules to define financial statements for reporting or for display as charts.|[How to: Work with Account Schedules](bi-how-work-account-schedule.md)|
+|Analyze your financial performance by setting up KPIs based on account schedules, which you then publish as web services. The published account-schedule KPIs can be viewed on a web site or imported to Microsoft Excel using OData web services.|[How to: Set Up and Publish KPI Web Services Based on Account Schedules](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)|
 |Set up analysis views to analyze data using dimensions.|[How to: Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)|
 |Create new analysis reports for sales, purchases, and inventory, and set up analysis templates.|[How to: Create Analysis Reports](bi-how-create-analysis-views-reports.md)|
+|Enable global financial reporting by to international accounting organizations with the eXtensible Business Reporting Language standard.|[How to: Create Reports with XBRL](bi-create-reports-with-xbrl.md)|
 
 ## See Also
 [Finance](finance.md)    
+[Using Financials as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
 [Closing Fiscal Periods](year-close-years-periods.md)  
 [Importing from Other Finance Systems](upload-data.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

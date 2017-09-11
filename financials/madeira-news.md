@@ -26,7 +26,7 @@ On this page, you can see which areas became available while we were still in pr
 As announced on the blog, we're now a service that you use in your business. But this update also adds new capabilities and a new extension.
 
 ### Project management
-If you switch to the Suite experience, you can manage projects and work with resources, time sheets, and jobs. When you first log in as a Project Manager role, an assisted setup guide will help you set up how your projects are managed. You can work with the sample accounts, jobs, resources, and so on in the demonstration company to get familiar with the functionality. For more information, see [Manage Projects](projects-manage-projects.md).
+If you switch to the Suite experience, you can manage projects and work with resources, time sheets, and jobs. When you first log in as a Project Manager role, an assisted setup guide will help you set up how your projects are managed. You can work with the sample accounts, jobs, resources, and so on in the demonstration company to get familiar with the functionality. For more information, see [Managing Projects](projects-manage-projects.md).
 
 ### Fixed assets
 If you switch to the Suite experience, you can manage fixed assets, including depreciation and insurance. A standard setup is provided, but you can modify it if anytime you want. You can register purchases of fixed assets in dedicated fixed asset G/L journals where you can also dispose of fixed assets. The right accounting entries are created automatically. For more information, see [Fixed Assets](fa-manage.md).
@@ -95,8 +95,8 @@ You can add attributes to your inventory items that make it really easy to find 
 With this update, you can choose between even more extensions in the **Extension Management** window.
 For more information, see [[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensions by Other Providers](ui-extensions-other.md).  
 
-### Manage your customer relationships using Microsoft Dynamics CRM from inside [!INCLUDE[d365fin](includes/d365fin_md.md)]
-We've added a new assisted setup guide to the Business Manager home page that guides you through the setup process to connect to Dynamics CRM. Once that's done, you'll have a seamless coupling of Dynamics CRM records with [!INCLUDE[d365fin](includes/d365fin_md.md)] records. For more information, see [Manage your customer relationships using Microsoft Dynamics CRM from inside [!INCLUDE[d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
+### Manage your customer relationships using Microsoft Dynamics 365 for Sales from inside [!INCLUDE[d365fin](includes/d365fin_md.md)]
+We have added a new assisted setup guide to the Business Manager home page that guides you through the setup process to connect to Dynamics 365 for Sales. Once that is done, you will have a seamless coupling of Dynamics 365 for Sales records with [!INCLUDE[d365fin](includes/d365fin_md.md)] records. For more information, see [Manage your customer relationships using Microsoft Dynamics 365 for Sales from inside [!INCLUDE[d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
 
 ## May 2016 Update
 This update of [!INCLUDE[d365fin](includes/d365fin_md.md)] added new capabilities as [announced on the blog](https://community.dynamics.com/business/b/financials/archive/2016/06/01/new-and-updated-capabilities-in-the-first-update-of-project-quot-madeira-quot).  

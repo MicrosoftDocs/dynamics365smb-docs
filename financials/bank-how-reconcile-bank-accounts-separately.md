@@ -57,15 +57,15 @@ When the value in the **Total Balance** field in the **Bank Statement Lines** pa
 1. In the **Bank Acc. Reconciliation** window, choose the **Match Automatically**. **The Match Bank Entries** window opens.
 2. In the **Transaction Date Tolerance (Days)** field, specify the span of days before and after the bank account ledger entry posting date within which the function will search for matching transaction dates in the bank statement.
 
-    If you enter 0 or leave the field blank, then the **Match Automatically** function will only search for matching transaction dates on the bank account ledger entry posting date.  
-3. Choose the **OK** button.  
+    If you enter 0 or leave the field blank, then the **Match Automatically** function will only search for matching transaction dates on the bank account ledger entry posting date.
+3. Choose the **OK** button.
 
     All bank statement lines and bank account ledger entries that can be matched change to green font, and the **Applied** check box is selected.
 4. To remove a match, select the bank statement line, and then choose the **Remove Match** action.
 
 ## To match bank statement lines with bank account ledger entries manually
 1. In the **Bank Acc. Reconciliation** window, select a non-applied line in the **Bank Statement Lines** pane.
-2. In the **Bank Account Ledger Entries** pane, select one or more banks account ledger entries that can be matched with the selected bank statement line. To choose multiple lines, press and hold the Ctrl key.  
+2. In the **Bank Account Ledger Entries** pane, select one or more banks account ledger entries that can be matched with the selected bank statement line. To choose multiple lines, press and hold the Ctrl key.
 3. Choose the **Match Manually** action.
 
     The selected bank statement line and the selected bank account ledger entries change to green font, and the **Applied** check box in the right pane is selected.

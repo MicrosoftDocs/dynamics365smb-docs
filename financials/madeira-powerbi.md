@@ -1,8 +1,6 @@
 ---
 title: Dynamics 365 for Financials and Power BI Content Packs| Microsoft Docs
 description: Getting insight, business intelligence, and KPIs from your Financials data is easy with Power BI and the Financials content packs.
-services: project-madeira
-documentationcenter: ''
 author: edupont04
 
 ms.service: dynamics365-financials
@@ -11,19 +9,30 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 06/02/2017
+ms.date: 09/05/2017
 ms.author: edupont
 
 ---
 # Enabling Your Business Data for Power BI
 Getting insights into your [!INCLUDE[d365fin](includes/d365fin_md.md)] data is easy with Power BI and the [!INCLUDE[d365fin](includes/d365fin_md.md)] content packs. Power BI retrieves your data and then builds an out-of-the-box dashboard and reports based on that data.  
 
-The content packs are preconfigured to work with sales data and financial data from the demonstration company that you get when you sign up for [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)].  
+Microsoft has published the following content packs:
 
-* Choose any visual on the dashboard to bring up one of seven underlying reports.  
+| App | Description |
+| --- | --- |
+| Microsoft Dynamics 365 for Financials | Provides a dashboard with key financial data over time, such as earnings versus expenses, operating margin, and cash cycle.|
+| Microsoft Dynamics 365 for Financials - CRM | Provides a dashboard with key data about sales opportunities and contacts.  |
+| Microsoft Dynamics 365 for Financials - Sales | Provides a dashboard with key data about sales and inventory. |
+
+## Using the Dashboards
+Each content pack provides reports that you can drill into:
+
+* Choose any visual on the dashboard to bring up one of the underlying reports.  
 * Filter the report or add fields that you want to monitor.  
 * Pin this customized view to the dashboard to continue tracking.  
-  The dashboard and underlying reports refresh daily. You can control the refresh schedule and modify the frequency on the dataset.  
+  You can refresh data manually, and you can set up a refresh schedule. For more information, see [Configuring scheduled refresh](https://powerbi.microsoft.com/en-us/documentation/powerbi-refresh-scheduled-refresh/).  
+
+The content packs are preconfigured to work with data from the demonstration company that you get when you sign up for [!INCLUDE[d365fin](includes/d365fin_md.md)]. When you install the apps in Power BI, and you connect to your own data, some reports may not work because they rely on data that your company does not have. In those cases, you can simply remove that report from your dashboard.  
 
 > [!NOTE]  
 >   You can also build your own reports and dashboards in Power BI based on your [!INCLUDE[d365fin](includes/d365fin_md.md)] data. For more information, see [Connecting Your Business Data to Power BI](across-how-use-financials-data-source-powerbi.md).  
@@ -45,13 +54,13 @@ To access your [!INCLUDE[d365fin](includes/d365fin_md.md)] data in Power BI, on 
 | **User name** |Your name as it displays for your account in [!INCLUDE[d365fin](includes/d365fin_md.md)], such as *John Smith*. |
 | **Password** |This is the web service access key for your user account in [!INCLUDE[d365fin](includes/d365fin_md.md)]. |
 
-This means that you must get 3 pieces of information from Financials: The OData URL and the web service access key for your user account.  
+This means that you must get 2 pieces of information from [!INCLUDE[d365fin](includes/d365fin_md.md)]: The *OData URL* and the *web service access key* for your user account.  
 
 ### Getting the URL
 When you add [!INCLUDE[d365fin](includes/d365fin_md.md)] to Power BI, you must specify a URL so Power BI can access data from your company. On the connection page, the URL is referred to as the **OData Feed URL**, and it must have the following format:
 
          https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')  
-In this example, *mybusiness* is the name of your Financials service, and *CRONUS US* is the name of the demonstration company with *%20* representing the space in the name.   
+In this example, *mybusiness* is the name of your [!INCLUDE[d365fin](includes/d365fin_md.md)] service, and *CRONUS US* is the name of the demonstration company with *%20* representing the space in the name.   
 To get the URL, in [!INCLUDE[d365fin](includes/d365fin_md.md)], search for and open the **Web Services** window. This window lists the web services that are currently available, and you can copy the link from the **OData URL** field for one of the default OData web services.  
 
 ### Getting the user name and the web service access key
@@ -60,15 +69,7 @@ In order to use data from [!INCLUDE[d365fin](includes/d365fin_md.md)] in Power B
 To find this information, in [!INCLUDE[d365fin](includes/d365fin_md.md)], search for the **Users** window, and then open the card for your user account. On the **General** FastTab, copy the content of the **User Name** field, and on the **Web Service Access** FastTab, copy the contents of the **Web Service Access Key** field. If the **Web Service Access Key** field is blank, in the ribbon, choose **Change Web Service Access Key**, choose the **Key Never Expires** field, and then choose the OK button. You can then copy the key.  
 
 ## Getting Data from [!INCLUDE[d365fin](includes/d365fin_md.md)]
-The [!INCLUDE[d365fin](includes/d365fin_md.md)] dashboard shows the most typical reports that you will want to use to track your business. The data is extracted from your [!INCLUDE[d365fin](includes/d365fin_md.md)] company using web services to read live data. In [!INCLUDE[d365fin](includes/d365fin_md.md)], the **Web Services** window lists the web services that have been set up for you, including the following that are consumed by the content pack in Power BI:  
-
-* ItemSalesAndProfit  
-* ItemSalesByCustomer  
-* powerbifinance  
-* SalesDashboard  
-* SalesOpportunities  
-* SalesOrdersBySalesPerson  
-* TopCustomerOverview  
+The [!INCLUDE[d365fin](includes/d365fin_md.md)] dashboard shows the most typical reports that you will want to use to track your business. The data is extracted from your [!INCLUDE[d365fin](includes/d365fin_md.md)] company using web services to read live data. In [!INCLUDE[d365fin](includes/d365fin_md.md)], the **Web Services** window lists the web services that have been set up for you.
 
 > [!NOTE]  
 >   If you change the name of any of these web services, the data will not show up in Power BI.  
@@ -103,19 +104,20 @@ If you see an "Oops" error dialog after you pass the authentication dialog, this
 
 * Verify that the URL follows the pattern that was specified earlier:
 
-    https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')  
+    `https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')`  
 * A common mistake is to specify the full URL for a specific web service:
 
-    https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')/powerbifinance  
+    `https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')/powerbifinance`
 * Or you might have forgotten to specify the company name:
 
-    https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/  
+    `https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/`
 
 ## See Also
+[Business Intelligence](bi.md)  
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Migrate Business Data from Other Finance Systems](upload-data.md)  
 [Using [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
 [Using [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] as a PowerApps Data Source](across-how-use-financials-data-source-powerapps.md)  
-[Using [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] in Microsoft Flow](across-how-use-financials-data-source-flow.md)  
+[Using [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] in Microsoft Flow](across-how-use-financials-data-source-flow.md)   
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

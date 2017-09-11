@@ -37,5 +37,5 @@ In the United States, when you sell to a customer at a location where you do not
 [United States Local Functionality](united-states-local-functionality.md)  
 [Finance](../../finance.md)  
 [Setting Up Finance](../../finance.md)  
-[Sales Tax setup made easy](https://madeira.microsoft.com/blog/sales-tax-setup-made-easy)  
+[Sales Tax Setup Made Easy - Video](https://madeira.microsoft.com/blog/sales-tax-setup-made-easy)  
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  

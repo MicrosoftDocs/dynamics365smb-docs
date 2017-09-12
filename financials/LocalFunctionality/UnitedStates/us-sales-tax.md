@@ -1,8 +1,6 @@
 ---
 title: Setting Up Tax Groups, Areas, and Jurisdictions in the US and Canada | Microsoft Docs
 description: Learn about how sales tax is set up, and how tax groups, tax areas (states, counties, cities, and localities), tax jurisdictions, and tax details work.
-services: project-madeira
-documentationcenter: ''
 author: edupont04
 
 ms.service: dynamics365-financials
@@ -37,5 +35,5 @@ In the United States, when you sell to a customer at a location where you do not
 [United States Local Functionality](united-states-local-functionality.md)  
 [Finance](../../finance.md)  
 [Setting Up Finance](../../finance.md)  
-[Sales Tax Setup Made Easy - Video](https://madeira.microsoft.com/blog/sales-tax-setup-made-easy)  
+[Set Up Sales Tax - Watch a Video](https://www.youtube.com/watch?v=qMs4BoSytN8&index=13&list=PLcakwueIHoT8K1m148oMqo7amR2a7Bz-8)  
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  

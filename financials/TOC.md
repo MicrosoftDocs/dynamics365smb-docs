@@ -171,7 +171,6 @@
 ### [Design Details: Inventory Costing](design-details-inventory-costing.md)
 ## [Accountant Experiences in Dynamics 365](finance-accounting.md)
 ### [Inviting Your External Accountant to Your Dynamics 365](finance-invite-external-accountant.md)  
-### [Accountant Portal Extension](ui-extensions-accountant-portal.md)  
 ## [Understanding the General Ledger and the COA](finance-general-ledger.md)
 ## [Working with Dimensions](finance-dimensions.md)
 ## [How to: Create Budgets](finance-how-create-budgets.md)

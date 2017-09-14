@@ -35,7 +35,7 @@ A company who use [!INCLUDE[d365fin](includes/d365fin_md.md)] can invite you to 
 
 As a result, you will receive email from your client with a link to their [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-You can then access their financial data from the **Accountant** Role Center. For more information, see [Accountant Experiences in [!INCLUDE[d365fin](includes/d365fin_md.md)]](/dynamics365/financials/finance-accounting.md).  
+You can then access their financial data from the **Accountant** Role Center. For more information, see [Accountant Experiences in [!INCLUDE[d365fin](includes/d365fin_md.md)]](/dynamics365/financials/finance-accounting).  
 
 ### Working with Individual Clients
 The dashboard shows the most important information about each client.  
@@ -67,11 +67,11 @@ You can see more information about your clients' data by choosing the name of th
 Technically, you have now logged into your client's [!INCLUDE[d365fin](includes/d365fin_md.md)], and data you see is live data. If you want to take a closer look at the data, such as an overdue purchase invoice, choose the link, and you are taken to the client company.  
 
 > [!TIP]  
->  You can launch predefined Excel workbooks from the **Reports** tab in the ribbon. These Excel workbooks are designed as ready-to-print key financial statements and reports, but you can also modify them to fit your needs. For more information, see [Analyzing Financial Statements in Microsoft Excel](/dynamics365/financials/finance-analyze-excel.md).  
+>  You can launch predefined Excel workbooks from the **Reports** tab in the ribbon. These Excel workbooks are designed as ready-to-print key financial statements and reports, but you can also modify them to fit your needs. For more information, see [Analyzing Financial Statements in Microsoft Excel](/dynamics365/financials/finance-analyze-excel).  
 
 Otherwise, close the details pane and continue to the next client.  
 
 ## See Also
 [Welcome to Dynamics 365 — Accountant Hub](index.md)  
-[Accountant Experiences in [!INCLUDE[d365fin](includes/d365fin_md.md)]](/dynamics365/financials/finance-accounting.md)  
+[Accountant Experiences in [!INCLUDE[d365fin](includes/d365fin_md.md)]](/dynamics365/financials/finance-accounting)  
 [Dynamics 365 — Accountant Hub on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  

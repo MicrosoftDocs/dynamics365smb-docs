@@ -17,7 +17,7 @@ ms.author: edupont
 This application provides a portal with summary data for each client of an accountant. The portal displays financial KPIs as well as a direct link to the client’s financial application.  
 
 The portal includes a highly specialized Role Center that serves as a dashboard for a better overview of your clients.  
-[![Accountant Portal](./media/ui-extensions-accportal/accountant-portal.png)](https://go.microsoft.com/fwlink/?linkid=851257)
+[![Accountant Portal](./media/accountant-get-started/accountant-dashboard.png)](https://go.microsoft.com/fwlink/?linkid=851257)
 
 When you first install the extension, a sample company helps you get started. You can delete the sample company at any time.  
 
@@ -25,5 +25,5 @@ When you first install the extension, a sample company helps you get started. Yo
 When you add the extension to your [!INCLUDE[d365fin](includes/d365fin_md.md)], it replaces your current Role Center and adds permissions to your user profile. As a result, you must sign out and sign in a couple of times.  
 
 ## See Also
-[Welcome to Dynamics 365 for Accountants](index.md)  
-[Get started with Dynamics 365 for Accountants](accountant-get-started.md)  
+[Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](index.md)  
+[Get Started with [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](accountant-get-started.md)  

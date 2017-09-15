@@ -16,7 +16,7 @@ ms.author: edupont
 # Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]
 If you are an accountant with several clients, you can use [!INCLUDE[d365acc](includes/d365acc_md.md)] as your dashboard for a better overview of your clients. From there, you can access each client's data.  
 
-![Accountant Hub](./media/accountant-get-started/accountant-portal.png)
+![Accountant Hub](./media/accountant-get-started/accountant-dashboard.png)
 
 You can get access to [!INCLUDE[d365acc](includes/d365acc_md.md)] by signing up from [Dynamics 365 — Accountant Hub on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants). It's free of charge, and it's quick to get started and add your clients to the dashboard. For more information, see [Get started with Accountant Hub](accountant-get-started.md).  
 

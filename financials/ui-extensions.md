@@ -1,7 +1,6 @@
 ---
 title: Installing Extensions to Customize Dynamics 365 for Financials | Microsoft Docs
 description: Learn about adding functionality and customizing Dynamics 365 for Financials by installing extensions.
-services: project-madeira
 documentationcenter: ''
 author: edupont04
 
@@ -11,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 04/11/2017
+ms.date: 07/07/2017
 ms.author: edupont
 
 ---
@@ -28,11 +27,11 @@ You manage the extensions in the **Extension Management** window. You can access
 >   If you think you should have access to an extension but you cannot find its functionality, check the **Extension Management** window - if the extension is not listed there, you can install it as described in the following section.  
 
 ## Installing an Extension
-You can get new extensions from the marketplace at [AppSource.microsoft.com](https://appsource.microsoft.com/). Here, you can see all available extensions for [!INCLUDE[d365fin](includes/d365fin_md.md)], and you can get apps, extensions, and content packs for other Microsoft products. Set the relevant filters, take a look at the information for each extension, and get an extension for your [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+You can get new extensions from the marketplace at [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1). Here, you can see all available extensions for [!INCLUDE[d365fin](includes/d365fin_md.md)], and you can get apps, extensions, and content packs for other Microsoft products. Set the relevant filters, take a look at the information for each extension, and get an extension for your [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 > [!NOTE]  
 >   Sign in to [AppSource.microsoft.com](https://appsource.microsoft.com/) using the email account that you use for [!INCLUDE[d365fin](includes/d365fin_md.md)]. Use the same email account for other services and products for a smooth experience.  
 
-You can also get to the marketplace from inside [!INCLUDE[d365fin](includes/d365fin_md.md)]. In the **Extension Management** window, you can see the extensions that are currently installed, and you can open the **Extension Marketplace** page that shows the [!INCLUDE[d365fin](includes/d365fin_md.md)] extensions that are currently available in AppSource. If you choose the *More apps* link, you are taken to [AppSource.microsoft.com](https://appsource.microsoft.com/).  
+You can also get to the marketplace from inside [!INCLUDE[d365fin](includes/d365fin_md.md)]. In the **Extension Management** window, you can see the extensions that are currently installed, and you can open the **Extension Marketplace** page that shows the [!INCLUDE[d365fin](includes/d365fin_md.md)] extensions that are currently available in AppSource. If you choose the *More apps* link, you are taken to [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).  
 
 If you choose an extension, you can read about what the extension does, and you can access Help for the extension to learn more. When you choose to get an extension, you must agree to the terms of use. If you get the extension from the AppSource website, you will be signed in to [!INCLUDE[d365fin](includes/d365fin_md.md)] to complete the installation.  
 
@@ -47,6 +46,7 @@ Microsoft provides the following extensions:
 
 * [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)  
 * [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)  
+* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
 * [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)  
 * [QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)  
 * [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)  
@@ -55,13 +55,17 @@ Microsoft provides the following extensions:
 * [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 * [GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)
 * [QuickBooks Online Data Migration](ui-extensions-quickbooks-online-data-migration.md)
+* [Accountant Portal](ui-extensions-accountant-portal.md)  
 * [Image Analyzer](ui-extensions-image-analyzer.md)
+
+> [!NOTE]  
+>  New extensions are not available in AppSource immediately after we announce an update. You can keep an eye out for the extensions at  [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).
 
 ## See Also
 [How to: Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)  
 [How to: Enable Customer Payment Through PayPal](sales-how-enable-payment-service-extensions.md)  
 [Migrate Business Data from Other Finance Systems](upload-data.md)  
-[Set up the GetAddress.io UK Postal Code extension](uk-setup-postal-code-service.md)  
+[Set up the GetAddress.io UK Postal Code extension](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensions by Other Providers](ui-extensions-other.md)  
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 

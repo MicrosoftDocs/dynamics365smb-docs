@@ -22,7 +22,7 @@ By assigning as much data as possible about a specific company ensures efficient
 
 You can also define the business relationship that you have with a contact. For example, a contact could be a prospect, bank, or contractor.
 
-The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.
+The following table describes a sequence of tasks, with links to the topics that describe them. 
 
 | To | See |
 | --- | --- |

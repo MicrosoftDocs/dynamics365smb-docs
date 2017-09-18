@@ -101,7 +101,7 @@ If you are using the fixed assets in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 2. Create a fixed asset card for each existing asset.  
 3. Set up fixed asset depreciation books.  
 4. Enable general ledger integration by following the next steps.
-5. In the **Search** box, enter **Depreciation Books**, and then choose the related link.  
+5. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Books**, and then choose the related link.  
 6. Select the relevant depreciation book. On the **Home** tab, in the **Manage** group, choose **Edit** to open the **Depreciation Book Card** window.
 7. On the **Integration** FastTab, make sure all fields are blank by clearing all check marks. If you have more than one depreciation book, turn on general ledger integration for each one.  
 8. In the fixd asset journal, enter the following lines for each asset:
@@ -109,7 +109,7 @@ If you are using the fixed assets in [!INCLUDE[d365fin](includes/d365fin_md.md)]
    * A line with the accumulated depreciation to the end of the previous fiscal year.
    * A line with the accumulated depreciation from the start of the current fiscal year to the date that [!INCLUDE[d365fin](includes/d365fin_md.md)] is set to start calculating the depreciation.
 
-If you have other opening balances you can also enter them now, such as write\-down and appreciation.  
+If you have other opening balances you can also enter them now, such as write-down and appreciation.  
 
 If the fixed assets are not integrated with the general ledger, skip steps 4 through 7.
 

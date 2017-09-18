@@ -38,6 +38,7 @@ You can make your [!INCLUDE[d365fin](includes/d365fin_md.md)] data available as 
 5. Choose the **Connection** button to continue. The Power BI wizard shows a list of [!INCLUDE[d365fin](includes/d365fin_md.md)] data sources. These data source represent all the web services that you have published from your [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
    Alternatively, create a new web service URL in [!INCLUDE[d365fin](includes/d365fin_md.md)] by using the **Create Data Set** action in the **Web Services** page, using the **Set Up Reporting** Assisted Setup guide, or by choosing the **Edit in Excel** action in any lists.
+
 6. Specify the data you want to add to your data model, and then choose the **Load** button.
 7. Repeat the previous steps to add additional [!INCLUDE[d365fin](includes/d365fin_md.md)] data to your Power BI data model.
 
@@ -47,6 +48,7 @@ You can make your [!INCLUDE[d365fin](includes/d365fin_md.md)] data available as 
 Once the data is loaded it will appear in the right navigation on the page. At this point, you have successfully connected to your Dynamics 365 data and are ready to begin building your Power BI report. For more information, see the [Power BI documentation](https://powerbi.microsoft.com/documentation/powerbi-landing-page/).
 
 ## See Also
+[Business Intelligence](bi.md)  
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Importing Business Data from Other Finance Systems](upload-data.md)  
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  

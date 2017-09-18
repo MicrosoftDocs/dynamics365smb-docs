@@ -59,7 +59,7 @@ If you want to set up multiple alternate resource prices based on the standard p
 ## To get resource price change suggestions based on alternate prices
 If you have already set up alternate resource price for some resources, you can use a batch job to set up multiple alternate resource prices.
 
-1. In the **Search** box, enter **Suggest Res. Price Chg. (Price)**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Suggest Res. Price Chg. (Price)**, and then choose the related link.  
 2. Fill in the fields as necessary.
 3. Choose the **OK** button.  
 4. When the batch job is finished, open the **Resource Price Changes** window to see the results of the batch job.

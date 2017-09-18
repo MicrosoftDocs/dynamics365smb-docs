@@ -44,8 +44,11 @@ The default work date is usually today's date. You may have to temporarily chang
 > [!IMPORTANT]  
 >   The work date is only changed until you close the company or until the date changes. If you open a different company or open the same company the next day and still have to use a different work date, then you must set the work date again.
 
-## Confirmation dialogs
-Use the options in this section if you want to specify some additional checks for posting documents. These options are checked as standard, but you can clear the check boxes to avoid getting specific warnings or messages.
+## Region
+The **Region** setting determines how dates, times, numbers, and currencies are shown or formatted.   
+
+## Change when I receive notifications
+Choose this link to view or change the notifications that you get about certain events or changes in status, such as when you are about to invoice a customer who has an overdue balance, or the available inventory is lower than the quantity you are about to sell. For more information, see [Smart Notifications](ui-smart-notifications.md).
 
 ## See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

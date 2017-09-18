@@ -1,8 +1,6 @@
 ---
 title: Set Up Special Sales Prices and Discounts for Customers | Microsoft Docs
 description: Describes how to define the alternate pricing and discount agreements that you want to apply to sales documents when selling to different customers.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-financials
@@ -11,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 06/01/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
 
 ---
@@ -64,6 +62,27 @@ When you have decided which customers are eligible for invoice discounts, enter 
 
 The invoice discount is now set up and assigned to the customer in question. When you select the customer code in the **Invoice Disc. Code** field on other customer cards, the same invoice discount is assigned to those customers.
 
+## To work with sales invoice discounts and service charges
+When you use invoice discounts, the size of the invoice amount determines the size of the discount that is granted.  
+
+In the **Cust. Invoice Discounts** window, you can also add a service charge to invoices over a certain amount.  
+
+Before you can use invoice discounts with sales, you must enter certain information in the program. You must decide:  
+
+- which customers will be granted this type of discount.  
+- which discount percentages you will use.  
+
+If you invoice discounts to be calculated automatically, you can specify this in the **Sales & Receivables Setup** window.  
+
+For each customer, you can specify whether you will grant invoice discounts if the requirement is satisfied (that is, if the invoice amount is large enough). You can define the terms of the invoice discount in local currency for domestic customers and in foreign currency for foreign customers.  
+
+You link discount percentages to specific invoice amounts in **Cust. Invoice Discounts** windows. You can enter any number of percentages in each window. Each customer can have its own window, or you can link several customers to the same window.  
+
+In addition to (or instead of) a discount percentage, you can link a service charge amount to a specific invoice amount.  
+
+> [!TIP]  
+>  Before you start entering this information in the program, it is a good idea to prepare an outline of the discount structure you want to use. This makes it easier to see which customers can be linked to the same invoice discount window. The fewer windows you have to set up, the faster you can enter the basic information.  
+
 ## Best Price Calculation
 When you have recorded special prices and line discounts for sales and purchases, [!INCLUDE[d365fin](includes/d365fin_md.md)] ensures that your profit on item trade is always optimal by automatically calculating the best price on sales and purchase documents and on job and item journal lines.
 
@@ -82,9 +101,22 @@ The best price is the lowest permissible price with the highest permissible line
 2. [!INCLUDE[d365fin](includes/d365fin_md.md)] checks if any price/discount agreements apply to information on the document or journal line, and then inserts the applicable unit price and line discount percentage, using the following criteria:
 
     - Is there a minimum quantity requirement in the price/discount agreement that is fulfilled?
-    - Is there a currency requirement in the price/discount agreement that is fulfilled? If so, the lowest price and the highest line discount for that currency are inserted, even if LCY would provide a better price. If there is no price/discount agreement for the specified currency code, [!INCLUDE[d365fin](includes/d365fin_md.md)] inserts the lowest price and the highest line discount in LCY.
+    - Is there a currency requirement in the price/discount agreement that is fulfilled? If so, the lowest price and the highest line discount for that currency are inserted, even if local currency would provide a better price. If there is no price/discount agreement for the specified currency code, [!INCLUDE[d365fin](includes/d365fin_md.md)] inserts the lowest price and the highest line discount in your local currency.
 
 If no special price can be calculated for the item on the line, then either the last direct cost or the unit price from the item card is inserted.
+
+## To copy sales prices  
+If you want to copy sales prices, such as an individual customer's sales prices to use for a customer price group, you must run the **Suggest Sales Price on Wksh.** batch job. You find the batch job in the **Sales Price Worksheet** window.    
+
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Price Worksheet**, and then choose the related link.  
+2.  Choose the **Suggest Sales Price on Wksh.** action.  
+3.  On the **Sales Prices** FastTab, fill in the **Sales Type** and **Sales Code** fields with the original sales prices you want to copy.  
+4.  In the top section of the request window, fill in the **Sales Type** and **Sales Code** with the type and name you want the sales prices copied to.  
+5.  If you want the batch job to create new prices, select the **Create New Prices** field.  
+6.  Choose the **OK** button to fill in the lines on the **Sales Price Worksheet** window with the suggested new prices, indicating that they are valid for the selected **Sales Type**.  
+
+> [!NOTE]  
+>  This batch job only creates suggestions and it does not implement the suggested changes. If you are satisfied with the suggestions and want to implement them, that is insert them in the **Sales Prices** table, you can use the **Implement Price Changes** batch job, which is found on the **Actions** tab, in the **Functions** group, in the **Sales Price Worksheet** window.
 
 ## See Also
 [Setting Up Sales](sales-setup-sales.md)  

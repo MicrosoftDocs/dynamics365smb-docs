@@ -1,6 +1,6 @@
 ---
 title: Financials accountant experience | Microsoft Docs
-description: Learn about the accountant portal for Dynamics 365 Business edition  and the Accountant Role Center that supports internal and external accountants in the client company.
+description: Learn about the accountant portal for Dynamics 365 Business edition and the Accountant Role Center that supports internal and external accountants in the client company.
 author: edupont04
 
 ms.service: dynamics365-financials
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 09/05/2017
+ms.date: 09/14/2017
 ms.author: edupont
 
 ---
@@ -24,19 +24,8 @@ If you are new to [!INCLUDE[d365fin](includes/d365fin_md.md)], you can launch a 
 > [!NOTE]  
 >  This functionality requires that the experience is set to **Suite**. For more information, see [Customizing Your Dynamics 365 Experience](ui-experiences.md).  
 
-### Get Invited to a Client's [!INCLUDE[d365fin](includes/d365fin_md.md)]
-A company who use [!INCLUDE[d365fin](includes/d365fin_md.md)] can invite you to [!INCLUDE[d365fin](includes/d365fin_md.md)] as their external accountant. This requires that they have set up SMTP mail, so they might want to contact their [!INCLUDE[d365fin](includes/d365fin_md.md)] partner for assistance. For more information, see [Invite Your External Accountant](finance-invite-external-accountant.md). Also, we recommend that you give them the email address that you plan to use for your accounting work - that way, you can choose if you want to use *me@accountant.com* or *me@client.com*  
-
-As a result, you may receive two emails:
-
--   One from Microsoft Invitations with a link to add yourself to your client's organization  
--   One from your client with a link to their [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-
-You can then access their financial data from the **Accountant** Role Center. If you use the **Accountant Portal** extension, you can also add that client to your list of clients in the accountant portal dashboard.  
-
 ## Accountant Hub
-If you are an accountant with several clients, you can use [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] for a better overview of your clients. From there, you can access each client's tenant in [!INCLUDE[d365fin](includes/d365fin_md.md)] and use the Accountant Role Center as described above. For more information see [Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountant/index).  
-
+If you are an accountant with several clients, you can use [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] for a better overview of your clients. From there, you can access each client's tenant in [!INCLUDE[d365fin](includes/d365fin_md.md)] and use the Accountant Role Center as described above. For more information see [Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  
 
 ## See Also
 [Finance](finance.md)  
@@ -48,4 +37,5 @@ If you are an accountant with several clients, you can use [!INCLUDE[d365acc_lon
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md)  
 [Invite Your External Accountant to Your [!INCLUDE[d365fin](includes/d365fin_md.md)]](finance-invite-external-accountant.md)  
-[Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountant/index)[Financials for Accountants on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
+[Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index)  
+[Financials for Accountants on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  

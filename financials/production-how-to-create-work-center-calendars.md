@@ -1,5 +1,5 @@
 ---
-    title: How to Create Work Center Calendars | Microsoft Docs
+    title: How to Set Up Shop Calendars | Microsoft Docs
     description: A work center calendar specifies the working days and hours, shifts, holidays, and absences that determine the work center’s gross available capacity, measured in time, according to its defined efficiency and capacity values. Creating and enabling a work center calendar involves several preparatory tasks.
     services: project-madeira
     documentationcenter: ''
@@ -11,11 +11,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 09/04/2017
+    ms.date: 09/14/2017
     ms.author: sgroespe
 
 ---
-# How to: Create Shop Calendars
+# How to: Set Up Shop Calendars
 A work center or machine calendar specifies the working days and hours, shifts, holidays, and absences that determine the center’s gross available capacity, measured in time, according to its defined efficiency and capacity values.
 
 As a foundation for calculating a specific work or machine center calendar, you must first set up one or more general shop calendars. A shop calendar defines a standard work week according to start and end times of each working day and the work shift relation. In addition, the shop calendar defines the fixed holidays during a year.  

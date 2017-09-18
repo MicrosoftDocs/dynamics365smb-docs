@@ -35,6 +35,17 @@ The following procedure describes how to set this up for vendor ledger entries i
 | EMU |Application between EMU currencies is allowed. |
 | All |Application between all currencies is allowed. |
 
+## To set up G/L accounts for currency application rounding differences  
+If you apply entries in different currencies, you must set up the general ledger accounts to which you want to post rounding differences.  
+  
+> [!NOTE]  
+>  You must set up the general ledger accounts before you complete the task. For more information, see [Understanding the General Ledger and the Chart of Accounts](finance-general-ledger.md). 
+  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customer Posting Groups**, and then choose the related link.  
+2. In the **Debit Curr. Appln. Rndg. Acc.** and **Credit Curr. Appln. Rndg. Acc.** fields, enter the relevant general ledger accounts to post rounding differences.  
+3. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendor Posting Groups**, and then choose the related link.  
+4. In the **Debit Curr. Appln. Rndg. Acc.** and **Credit Curr. Appln. Rndg. Acc.** fields, enter the relevant general ledger accounts to post rounding differences.  
+
 ## See Also
 [Managing Payables](payables-manage-payables.md)  
 [Managing Receivables](receivables-manage-receivables.md)  

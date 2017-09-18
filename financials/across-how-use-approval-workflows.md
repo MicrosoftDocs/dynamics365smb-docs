@@ -10,14 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 04/25/2017
+ms.date: 08/24/2017
 ms.author: sgroespe
 
 ---
 # How to: Use Approval Workflows
 When a record, such as a purchase document or a customer card, needs to be approved by someone in your organization, you send an approval request as part of a workflow. Based on how the workflow is set up, the appropriate approver is then notified that the record requires their approval.
 
-You set up approval workflows in the **Workflow** window.
+You set up approval workflows in the **Workflow** window. For more information, see [Setting Up Workflows](across-set-up-workflows.md).
+
+In addition to approval workflows described in this topic, you can perform various other workflow tasks. For more information, [Using Workflows](across-use-workflows.md).
 
 Core approval workflows for purchases documents, sales documents, payment journals, customer cards, and item cards are ready to start as assisted setup. For more information, see [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)](index.md).
 
@@ -42,17 +44,6 @@ A customer may want to change an order after it has been submitted for approval.
 - In the window that displays the record, choose the **Cancel Approval Request** action.
 
 When the approval request has been canceled, the status of the related approval entry is changed to **Canceled**. The status of the record is updated from **Pending Approval** to **Open**. The approval process can then start again.
-
-## To make minor changes to approved records
-If you want to make a minor change to a record after it has been approved, you can reopen the record, make the change, and then release it. For minor changes, you do this with the **Reopen** and **Release** buttons.
-
-1. Open the window that displays the record, such as a purchase invoice, and then choose the **Reopen** action.
-
-    The **Document Status** field is changed to **Open**.
-2. Make the necessary changes on the record, such as the vendor’s address.
-3. Choose the **Release** action.
-
-When you reopen the source record, the status of the related approval entry remains Approved in the **Approval Entries** window.
 
 ## To approve or reject requests for approval
 The following task is performed by an approval user with approver rights.
@@ -93,4 +84,4 @@ The **Send Overdue Approval Notifications** function checks for all open approva
 [Sales](sales-manage-sales.md)    
 [Incoming Documents](across-income-documents.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

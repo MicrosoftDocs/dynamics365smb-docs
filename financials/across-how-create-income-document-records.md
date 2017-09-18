@@ -39,7 +39,7 @@ If you approve the incoming document record, the **Released** check box on the i
 3. In the **Incoming Documents** window, choose the ellipsis button, and then choose **Create from Camera**. The camera on the tablet or phone is activated.
 4. Take a photo of a document, such as a purchase receipt, that you want to process as an incoming document, and then choose the **OK** button.
 
-A new incoming document record is created, with the image attached.
+    A new incoming document record is created, with the image attached.
 
 ## To attach an image to an incoming document record by taking a photo
 > [!NOTE]  
@@ -50,14 +50,12 @@ A new incoming document record is created, with the image attached.
 3. In the **Incoming Document** window, choose the ellipsis button, and then choose **Attach Image from Camera**. The camera on the tablet or phone is activated.
 4. Take a photo of a document, such as a purchase receipt, that you want to process as an incoming document, and then choose the **OK** button.
 
-The image is attached to the incoming document record.
+    The image is attached to the incoming document record.
 
 ## To create an incoming document record manually
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Incoming Documents**, and then choose the related link.
 2. Choose the **Create from File** action.  
-3. In the **Insert File** window, select a file, and then choose **Open**.
-
-    The file is automatically attached.
+3. In the **Insert File** window, select a file, and then choose **Open**. The file is automatically attached.
 4. Alternatively, choose the **New** action.
 5. To attach a file, choose the **Attach File** action.
 6. In the **Insert File** window, select the file that represents the incoming document in question, and then choose the **Open** button.

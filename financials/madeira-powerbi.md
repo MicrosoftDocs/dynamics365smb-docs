@@ -54,13 +54,13 @@ To access your [!INCLUDE[d365fin](includes/d365fin_md.md)] data in Power BI, on 
 | **User name** |Your name as it displays for your account in [!INCLUDE[d365fin](includes/d365fin_md.md)], such as *John Smith*. |
 | **Password** |This is the web service access key for your user account in [!INCLUDE[d365fin](includes/d365fin_md.md)]. |
 
-This means that you must get 3 pieces of information from Financials: The OData URL and the web service access key for your user account.  
+This means that you must get 2 pieces of information from [!INCLUDE[d365fin](includes/d365fin_md.md)]: The *OData URL* and the *web service access key* for your user account.  
 
 ### Getting the URL
 When you add [!INCLUDE[d365fin](includes/d365fin_md.md)] to Power BI, you must specify a URL so Power BI can access data from your company. On the connection page, the URL is referred to as the **OData Feed URL**, and it must have the following format:
 
          https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')  
-In this example, *mybusiness* is the name of your Financials service, and *CRONUS US* is the name of the demonstration company with *%20* representing the space in the name.   
+In this example, *mybusiness* is the name of your [!INCLUDE[d365fin](includes/d365fin_md.md)] service, and *CRONUS US* is the name of the demonstration company with *%20* representing the space in the name.   
 To get the URL, in [!INCLUDE[d365fin](includes/d365fin_md.md)], search for and open the **Web Services** window. This window lists the web services that are currently available, and you can copy the link from the **OData URL** field for one of the default OData web services.  
 
 ### Getting the user name and the web service access key
@@ -104,19 +104,20 @@ If you see an "Oops" error dialog after you pass the authentication dialog, this
 
 * Verify that the URL follows the pattern that was specified earlier:
 
-    ```https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')```  
+    `https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')`  
 * A common mistake is to specify the full URL for a specific web service:
 
-    ```https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')/powerbifinance```  
+    `https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')/powerbifinance`
 * Or you might have forgotten to specify the company name:
 
-    ```https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/```  
+    `https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/`
 
 ## See Also
+[Business Intelligence](bi.md)  
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Migrate Business Data from Other Finance Systems](upload-data.md)  
 [Using [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
 [Using [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] as a PowerApps Data Source](across-how-use-financials-data-source-powerapps.md)  
-[Using [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] in Microsoft Flow](across-how-use-financials-data-source-flow.md)  
+[Using [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] in Microsoft Flow](across-how-use-financials-data-source-flow.md)   
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

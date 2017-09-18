@@ -29,6 +29,9 @@ You can then create document lines for a specific location, view availability by
 3. In the **Location Card** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Repeat steps 2 and 3 for every location where you want to keep inventory.
 
+> [!NOTE]  
+> Many fields on the location card refer to the handling of items in inbound and outbound warehouse processes. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md). 
+
 ## To create a transfer route
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Transfer Routes**, and then choose the related link.
 2. Alternatively, from any **Location Card** window, choose the **Transfer Routes** action.
@@ -39,7 +42,6 @@ You can now transfer inventory items between two locations. For more information
 
 ## See Also
 [Manage Inventory](inventory-manage-inventory.md)  
-[Supply Chain](madeira-supply-chain.md)  
 [How to: Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)    
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)  

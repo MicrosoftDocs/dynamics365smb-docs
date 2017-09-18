@@ -8,7 +8,7 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: setup wizard
+ms.search.keywords: setup wizard, accountant
 ms.date: 08/15/2017
 ms.author: edupont
 

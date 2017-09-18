@@ -1,8 +1,6 @@
-﻿---
+---
 title: Assign User Permissions and Create or Modify Permission Sets | Microsoft Docs
 description: Describes how add Office 365 users to Financials, and then assign permissions, access rights, and security settings.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-financials
@@ -107,5 +105,6 @@ Administrators can define periods of time during which specified users are able 
 
 ## See Also
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
+[Setup and Administration in Dynamics 365 for Financials](admin-setup-and-administration.md)  
 [Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

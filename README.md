@@ -59,9 +59,9 @@ The general flow is as follows:
 
 You can build and preview your content in local to discover and fix problems early, before pushing your changes to the GitHub repo:
 
-1. To validate your changes, just run `.\.openpublishing.build.ps1` under the root of the repo.
+1. To validate your changes, just run `..openpublishing.build.ps1` under the root of the repo.
 2. To preview your changes:
-   * Run `.\.openpublishing.build.ps1 -parameters:targets=serve` under the root of the repo.
+   * Run `..openpublishing.build.ps1 -parameters:targets=serve` under the root of the repo.
    * Open `http://localhost:8080` in your browser.
 
 
@@ -127,7 +127,7 @@ The following options are available:
 Use numbers for ordered lists. No space between the lines, we'll let the template take care of that.
 
 ```
-1. In the **Search** box, enter **Payment Journal**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journal**, and then choose the related link.
 2. In the **Payment Journal** window, on the first journal line, enter the relevant information about the payment entry.
 3. To apply a single vendor ledger entry:
 4. In the **Applies-to Doc. No.** field, choose the field to open the **Apply Vendor Entries** window.
@@ -239,7 +239,7 @@ The TOC structure of the TOC file is as follows:
 ```
 
 ### Standard Phrases
-All fields in Dynamics NAV have tooltips. Therefore, do not document fields in Help. To refer readers to the tooltips, use this standard phrase where relevant:    
+All fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] have tooltips. Therefore, do not document fields in Help. To refer readers to the tooltips, use this standard phrase where relevant:    
 "Choose a field to read a short description of the field or link to more information."
 
 ### File naming

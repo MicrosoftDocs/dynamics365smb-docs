@@ -34,6 +34,9 @@ Vendor cards hold the information that is required to buy products from the vend
 4. Choose the **OK** button. A new vendor card opens with some fields filled with information from the template.
 5. Proceed to fill or change fields on the vendor card as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
+> [!NOTE]  
+>   If you do not know the invoicing address that will be used for every invoice from a vendor, do not fill in the **Pay-to** field. Instead, choose the pay-to vendor number after you have set up a purchase quote, order, or invoice header.
+
 The vendor is now registered, and the vendor card is ready to be used on purchase documents.
 
 If you want to use this vendor card as a template when you create new vendor cards, you can save it as a vendor template. For more information, see the following section.

@@ -22,7 +22,7 @@ All of the external entities that you have business relationships with (for exam
 
 You can record information based on a company or a person at that company. You can also create an independent contact person for people who do not work for a particular company, but who work independently or freelance.
 
-The following table describes a sequence of tasks, with links to the topics that describe them. These tasks are listed in the order in which they are generally performed.
+The following table describes a sequence of tasks, with links to the topics that describe them. 
 
 | To | See |
 | --- | --- |

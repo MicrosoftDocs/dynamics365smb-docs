@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 07/05/2017
+ms.date: 07/07/2017
 ms.author: edupont
 
 ---
@@ -46,6 +46,7 @@ Microsoft provides the following extensions:
 
 * [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)  
 * [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)  
+* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
 * [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)  
 * [QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)  
 * [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)  
@@ -64,7 +65,7 @@ Microsoft provides the following extensions:
 [How to: Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)  
 [How to: Enable Customer Payment Through PayPal](sales-how-enable-payment-service-extensions.md)  
 [Migrate Business Data from Other Finance Systems](upload-data.md)  
-[Set up the GetAddress.io UK Postal Code extension](uk-setup-postal-code-service.md)  
+[Set up the GetAddress.io UK Postal Code extension](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensions by Other Providers](ui-extensions-other.md)  
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 

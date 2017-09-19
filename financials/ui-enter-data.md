@@ -49,7 +49,7 @@ Even though the field contains a red asterisk, you are not forced to fill the fi
  Journal lines are very flexible and can be copied freely in the same journal, indicated by the presence of **Paste** on the shortcut menu.  
 
 > [!NOTE]  
->   If you copy a journal line or document line, and the fields for setting the dimensions are not in your view, then the default values for the dimension set are used on the new line.
+>   If you copy a journal line or document line, the fields that are not in your view are not copied to the new line.
 
 #### To copy previous field  
 

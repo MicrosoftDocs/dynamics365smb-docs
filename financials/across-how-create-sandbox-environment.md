@@ -66,4 +66,4 @@ After you’ve enabled the advanced functionality in a sandbox tenant, you get a
 
 
 ## See Also
-[Working with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

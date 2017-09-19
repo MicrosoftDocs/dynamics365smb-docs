@@ -1,6 +1,6 @@
 ---
     title: How to Print VAT Reports | Microsoft Docs
-    description: You can use the following reports for VAT reporting:
+    description: Learn about the reports that you can use to report VAT information.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,8 +1,6 @@
 ---
     title: Design Details - Average Cost | Microsoft Docs
-    description: The average cost of an item is calculated with a periodic weighted average, based on the average cost period that is set up in [!INCLUDE[d365fin](includes/d365fin_md.md)].
-    services: project-madeira
-    documentationcenter: ''
+    description: The average cost of an item is calculated with a periodic weighted average, based on the average cost period that is set up in Dynamics 365.
     author: SorenGP
 
     ms.service: dynamics365-financials
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 09/18/2017
     ms.author: sgroespe
 
 ---
@@ -158,7 +156,7 @@ The average cost of an item is calculated with a periodic weighted average, base
 >  To avoid such a quantity-value mismatch, the valuation date is set to equal the latest valuation date of the applied value entries (03-01-20). The value in the **Cost Amount (Actual)** field becomes 10.00 (after revaluation), which means that the quantity on inventory is zero, and the inventory value is also zero.  
 
 > [!CAUTION]  
->  Because the **Inventory Valuation** report is based on posting date, the report will reflect any quantity-value mismatches in scenarios as in the above example. For more information, see [Design Details: Inventory Valuation](../Topic/Design%20Details:%20Inventory%20Valuation.md).  
+>  Because the **Inventory Valuation** report is based on posting date, the report will reflect any quantity-value mismatches in scenarios as in the above example. For more information, see [Design Details: Inventory Valuation](design-details-inventory-valuation.md).  
 
  If the quantity on inventory is less than zero after posting the inventory decrease, then the valuation date is first set to the posting date of the inventory decrease. This date may be changed later, according to the rules described in the note earlier in this section, when the inventory increase is applied.  
 

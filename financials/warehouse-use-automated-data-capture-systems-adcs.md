@@ -1,8 +1,6 @@
 ---
     title: Use Automated Data Capture Systems (ADCS) | Microsoft Docs
     description: You can use your automatic data capture system (ADCS) to register the movement of items in the warehouse and to register some journal activities, such as quantity adjustments in the warehouse item journal and physical inventories.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-financials
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/23/2017
+    ms.date: 09/18/2017
     ms.author: sgroespe
 
 ---
@@ -73,7 +71,7 @@ You can add any user as a user of an Automated Data Capture System (ADCS). When 
 ## To create and customize miniforms
 You use miniforms to describe the information that you want to present on a handheld device. For example, you can create miniforms to support the warehouse activity of picking items. After you create a miniform, you can add functions to it for the common actions that a user takes with handheld devices, such as moving up or down a line.  
 
-To implement or change the functionality of a miniform function, you must create a new codeunit or modify an existing one to perform the required action or response. You can learn more about ADCS functionality by examining codeunits such as 7705, which is the handling codeunit for logon functionality. Codeunit 7705 shows how a Card-type miniform works. For more information, see [How to: Modify ADCS Functions](../How%20to:%20Modify%20ADCS%20Functions.md).  
+To implement or change the functionality of a miniform function, you must create a new codeunit or modify an existing one to perform the required action or response. You can learn more about ADCS functionality by examining codeunits such as 7705, which is the handling codeunit for logon functionality. Codeunit 7705 shows how a Card-type miniform works.  
 
 ### To create a miniform for ADCS  
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Miniforms**, and then choose the related link.  

@@ -64,4 +64,4 @@ You can now proceed to post receipts of payment for the involved sales invoices.
 ## See Also  
 [How to: Set Up SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)  
 [How to: Post SEPA Direct Debit Payment Receipts](finance-how-to-post-sepa-direct-debit-payment-receipts.md)  
-[Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  
+[Collecting Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  

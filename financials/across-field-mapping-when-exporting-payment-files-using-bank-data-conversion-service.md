@@ -64,7 +64,7 @@ The following table lists the fields in [!INCLUDE[d365fin](includes/d365fin_md.m
 |Sender Bank Name - Data Conv.|Bank Name – Data Conv.|Bank Account|The sender bank account name that is requested by the bank data conversion service and specified on the bank account card|  
 
 ## See Also  
-[Set Up Data Exchange](across-set-up-data-exchange.md)  
-[Exchanging Data as Electronic Documents](across-data-exchange.md)
+[Setting Up Data Exchange](across-set-up-data-exchange.md)  
+[Exchanging Data Electronically](across-data-exchange.md)
 [How to: Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md)   
 [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   

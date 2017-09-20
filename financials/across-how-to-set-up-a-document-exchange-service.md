@@ -14,7 +14,7 @@
 
 ---
 # How to: Set Up a Document Exchange Service
-You use an external service provider to exchange electronic documents with your trading partners. For more information, see [Exchanging Data as Electronic Documents](across-data-exchange.md).  
+You use an external service provider to exchange electronic documents with your trading partners. For more information, see [Exchanging Data Electronically](across-data-exchange.md).  
 
 ## To set up a document exchange service  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Doc. Exch. Service Setup**, and then choose the related link.  
@@ -41,5 +41,5 @@ You use an external service provider to exchange electronic documents with your 
 2. In the **Data Encryption Management** window, enable encryption of your data. <!--For more information, see [Manage Data Encryption](../manage-data-encryption.md).-->  
 
 ## See Also  
-[Set Up Data Exchange](across-set-up-data-exchange.md)  
-[Exchanging Data as Electronic Documents](across-data-exchange.md)
+[Setting Up Data Exchange](across-set-up-data-exchange.md)  
+[Exchanging Data Electronically](across-data-exchange.md)

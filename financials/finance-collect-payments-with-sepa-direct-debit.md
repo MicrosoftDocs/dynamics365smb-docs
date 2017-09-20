@@ -13,7 +13,7 @@
     ms.author: sgroespe
 
 ---
-# Collect Payments with SEPA Direct Debit
+# Collecting Payments with SEPA Direct Debit
 With your customer’s consent, you can collect payments directly from the customer’s bank account according to the SEPA format.  
 
  First, set up the export format of the bank file that instructs your bank to perform a direct debit. Then, set up the customer’s payment method. Last, set up the direct-debit mandate that reflects your agreement with the customer to collect their payments in a certain agreement period.  
@@ -37,4 +37,4 @@ With your customer’s consent, you can collect payments directly from the custo
 |Post payments made as SEPA direct debits.|[How to: Post SEPA Direct Debit Payment Receipts](finance-how-to-post-sepa-direct-debit-payment-receipts.md)|  
 
 ## See Also  
-[Manage Receivables](receivables-manage-receivables.md)
+[Managing Receivables](receivables-manage-receivables.md)

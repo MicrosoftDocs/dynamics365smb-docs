@@ -63,4 +63,4 @@ The vendor and customer bill pay feature supports SEPA-based formats in addition
 ## See Also  
  [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
  [How to: Set Up SEPA Credit Transfer](how-to-set-up-sepa-credit-transfer.md)   
- [Collect Payments with SEPA Direct Debit](collect-payments-with-sepa-direct-debit.md)
+ [Collecting Payments with SEPA Direct Debit](collect-payments-with-sepa-direct-debit.md)

@@ -57,5 +57,5 @@ The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] supports rece
 [Manage Payables](payables-manage-payables.md)  
 [Incoming Documents](across-income-documents.md)  
 [How to: Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
-[Exchanging Data as Electronic Documents](across-data-exchange.md)   
+[Exchanging Data Electronically](across-data-exchange.md)   
 [General Business Functionality](ui-across-business-areas.md)  

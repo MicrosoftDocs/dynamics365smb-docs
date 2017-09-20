@@ -37,4 +37,4 @@ In the **Payment Journal** window, you can process payments to your vendors by e
 [How to: Set Up SEPA Credit Transfer](finance-how-to-set-up-sepa-credit-transfer.md)  
 [Manage Payables](payables-manage-payables.md)   
 [Working with General Journals](ui-work-general-journals.md)  
-[Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)   
+[Collecting Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)   

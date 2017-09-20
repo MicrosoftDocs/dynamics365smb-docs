@@ -195,7 +195,6 @@
 ### [Preparing Pre-Closing Reports](year-prepare-preclose-reports.md)
 ### [Closing Books](year-close-books.md)
 ### [Preparing Closing Statements](year-prepare-close-statement.md)
-### [How to: Report VAT to Tax Authorities](finance-how-report-vat.md)|
 
 # [Business Intelligence](bi.md)
 ## [How to: Analyze Actual Amounts Versus Budgeted Amounts](bi-how-analyze-actual-versus-budget.md)
@@ -338,7 +337,7 @@
 ## [Workflow](across-workflow.md)
 ### [Setting Up Workflows](across-set-up-workflows.md)
 ### [Using Workflows](across-use-workflows.md)
-## [Exchanging Data as Electronic Documents ](across-data-exchange.md)
+## [Exchanging Data Electronically](across-data-exchange.md)
 ### [About the Data Exchange Framework](across-about-the-data-exchange-framework.md)
 ### [Setting Up Data Exchange](across-set-up-data-exchange.md)
 ### [Exchanging Data](across-exchange-data.md)

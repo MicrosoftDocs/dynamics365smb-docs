@@ -9,12 +9,15 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/18/2017
+    ms.date: 09/19/2017
     ms.author: sgroespe
 
 ---
-## Exchanging Data as Electronic Documents  
-As an alternative to emailing as file attachments, you can send and receive documents electronically. By electronic document is meant a standard-compliant file representing a business document, such as an invoice from a vendor that you can receive and convert to a purchase invoice in [!INCLUDE[d365fin](includes/d365fin_md.md)] . The exchange of electronic documents between two trading partners is performed by an external provider of document exchange services. The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)]  supports sending and receiving electronic invoices and credit memos in the PEPPOL format, which is supported by the largest providers of document exchange services. A major provider of document exchange services is preconfigured and ready to be set up for your company. To provide support for other electronic document formats, you must create new date exchange definitions using the Data Exchange Framework.  
+# Exchanging Data Electronically
+You can use the Data Exchange Framework to exchange business documents, bank files, currency exchange rates, and any other data files with your business partners.
+
+## Electronic Documents
+As an alternative to emailing as file attachments, you can send and receive business documents electronically. By electronic document is meant a standard-compliant file representing a business document, such as an invoice from a vendor that you can receive and convert to a purchase invoice in [!INCLUDE[d365fin](includes/d365fin_md.md)] . The exchange of electronic documents between two trading partners is performed by an external provider of document exchange services. The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)]  supports sending and receiving electronic invoices and credit memos in the PEPPOL format, which is supported by the largest providers of document exchange services. A major provider of document exchange services is preconfigured and ready to be set up for your company. To provide support for other electronic document formats, you must create new date exchange definitions using the Data Exchange Framework.  
 
 From PDF or image files representing incoming documents, you can have an external OCR service (Optical Character Recognition) create electronic documents that you can then convert to document records in [!INCLUDE[d365fin](includes/d365fin_md.md)], like for electronic PEPPOL documents. For example, when you receive an invoice in PDF format from your vendor, you can send it to the OCR service from the **Incoming Documents** window. After a few seconds, you receive the file back as an electronic invoice that can be converted to a purchase invoice for the vendor. If you send the file to the OCR service by email, then a new incoming document record is automatically created when you receive the electronic document back.  
 
@@ -45,13 +48,13 @@ The following table describes a sequence of tasks, with links to the topics that
 |To|See|  
 |--------|---------|  
 |Learn how the Data Exchange Framework works.|[About the Data Exchange Framework](across-about-the-data-exchange-framework.md)|  
-|Prepare to exchange data in a file by reusing the file’s XML schema. Set up data exchange definitions. Set up master data for electronic document sending. Set up various bank import/export fields.|[Set Up Data Exchange](across-set-up-data-exchange.md)|  
-|Based on data exchange definitions, send PEPPOL invoices, receive PEPPOL invoices, import bank statements, and export bank payment files.|[Exchange Data](across-exchange-data.md)|  
+|Prepare to exchange data in a file by reusing the file’s XML schema. Set up data exchange definitions. Set up master data for electronic document sending. Set up various bank import/export fields.|[Setting Up Data Exchange](across-set-up-data-exchange.md)|  
+|Based on data exchange definitions, send PEPPOL invoices, receive PEPPOL invoices, import bank statements, and export bank payment files.|[Exchanging Data](across-exchange-data.md)|  
 
 ## See Also  
 [About the Data Exchange Framework](across-about-the-data-exchange-framework.md)  
 [How to: Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
-[Set Up Data Exchange](across-set-up-data-exchange.md)  
-[Exchange Data](across-exchange-data.md)  
+[Setting Up Data Exchange](across-set-up-data-exchange.md)  
+[Exchanging Data](across-exchange-data.md)  
 [Incoming Documents](across-income-documents.md)  
 [General Business Functionality](ui-across-business-areas.md)

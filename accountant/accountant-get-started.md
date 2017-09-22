@@ -69,5 +69,5 @@ The **My User Tasks** list shows more information about your assigned tasks acro
 ## See Also
 [Add Clients to Your Dashboard in [!INCLUDE[d365acc](includes/d365acc_md.md)]](accountant-add-client.md)  
 [Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](index.md)  
-[Accountant Experiences in [!INCLUDE[d365fin](includes/d365fin_md.md)]](/dynamics365/financials/finance-accounting?toc=/dynamics365/financials/toc.json)  
+[Accountant Experiences in [!INCLUDE[d365fin](includes/d365fin_md.md)]](/dynamics365/financials/finance-accounting?toc=/dynamics365/accountants/toc.json)  
 [Dynamics 365 — Accountant Hub on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  

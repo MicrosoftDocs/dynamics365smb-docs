@@ -40,9 +40,9 @@ After you publish a web service, it is available to external parties. You can ve
 
 #### To verify the availability of a web service  
 
-1.  In your browser, enter the relevant URL. The following table illustrates the types of URLs that you can enter. For SOAP web services, use the following format for your URI.  
+1.  In your browser, enter the relevant URL. The following table illustrates the types of URLs that you can enter.  
 
-    >    [!div class="mx-tdBreakAll"]  
+    >    [!div class="mx-tdBreakAll"]
     >    |Web service type|Syntax|Example|  
     >    |----------------|------|-------|
     >    |SOAP |https://*Server*:*SOAPWebServicePort*/*ServerInstance*/WS/*CompanyName*/salesDocuments/ |https://mycompany.financials.dynamics.com:7047/MS/WS/MyCompany/Page/salesDocuments?tenant=mycompany.financials.dynamics.com |  

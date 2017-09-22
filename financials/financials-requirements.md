@@ -1,6 +1,6 @@
 ---
 title: Minimum requirements for using Dynamics 365 Business edition| Microsoft Docs
-Learn about the minimum system and version requirements for using Dynamics 365 Business edition .
+Learn about the minimum system and version requirements for using Dynamics 365 Business edition.
 author: edupont04
 
 ms.service: dynamics365-financials
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 06/02/2017
+ms.date: 09/22/2017
 ms.author: edupont
 
 ---

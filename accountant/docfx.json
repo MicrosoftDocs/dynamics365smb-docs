@@ -20,7 +20,7 @@
       {
         "files": [
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
           "**/*.gif"
         ],
         "exclude": [
@@ -33,7 +33,7 @@
     "externalReference": [],
     "globalMetadata": {
       "searchScope": ["Accountant"],
-      "uhfHeaderId": "MSDocsHeader-Dynamics365"
+      "uhfHeaderId": "MSDocsHeader-Dynamics365",
       "titleSuffix": "Accountant Hub",
       "breadcrumb_path": "/dynamics365/financials/breadcrumb/toc.yml"
     },

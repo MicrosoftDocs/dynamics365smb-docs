@@ -1,0 +1,13 @@
+- name: Dynamics 365
+  tocHref: /dynamics365/
+  topicHref: /dynamics365
+  items:
+  - name: Introduction to Dynamics 365
+    tocHref: /dynamics365/get-started/what-is/
+    topicHref: /dynamics365/get-started/what-is/index
+  - name: Finance and Operations, Business
+    tocHref: /dynamics365/financials/
+    topicHref: /dynamics365/financials/index
+  - name: Accountant Hub
+    tocHref: /dynamics365/accountants/
+    topicHref: /dynamics365/accountants/index

@@ -3,7 +3,8 @@
     "content": [
       {
         "files": [
-          "**/*.md"
+          "**/*.md",
+          "**/**.yml"
         ],
         "exclude": [
           "**/obj/**",
@@ -33,6 +34,7 @@
       "searchScope": ["Business edition"],
       "uhfHeaderId": "MSDocsHeader-Dynamics365",
       "titleSuffix": "Finance and Operations, Business",
+      "breadcrumb_path": "/dynamics365/financials/breadcrumb/toc.json",      
       "ms.service": "dynamics365-financials"
       },
     "fileMetadata": {},

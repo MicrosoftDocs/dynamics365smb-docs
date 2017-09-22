@@ -2,9 +2,10 @@
   "build": {
     "content": [
       {
-        "files": [
-          "**/*.md"
-        ],
+        "files":  [
+          "**/*.md",
+          "**/**.yml"
+	],
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -19,7 +20,8 @@
       {
         "files": [
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
+          "**/*.gif"
         ],
         "exclude": [
           "**/obj/**",
@@ -31,7 +33,9 @@
     "externalReference": [],
     "globalMetadata": {
       "searchScope": ["Accountant"],
-      "uhfHeaderId": "MSDocsHeader-Dynamics365"
+      "uhfHeaderId": "MSDocsHeader-Dynamics365",
+      "titleSuffix": "Accountant Hub",
+      "breadcrumb_path": "/dynamics365/financials/breadcrumb/toc.json"
     },
     "fileMetadata": {},
     "template": [],

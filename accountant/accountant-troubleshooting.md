@@ -13,6 +13,8 @@ ms.date: 09/15/2017
 ms.author: edupont
 
 ---
+[!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
+
 # Troubleshooting [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]
 Signing up for [!INCLUDE[d365acc](includes/d365acc_md.md)] is easy and can be done very quickly. Adding clients to the dashboard is also easy, but this article addresses issues that you may have on the way.
 

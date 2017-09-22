@@ -13,6 +13,8 @@ ms.date: 09/15/2017
 ms.author: edupont
 
 ---
+[!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
+
 # Add Clients to Your Dashboard in [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]
 You can add a client by using the **Clients** window, which you can open by choosing the **Manage Clients** action in the ribbon. Simply choose **New** and then fill in the fields.  
 

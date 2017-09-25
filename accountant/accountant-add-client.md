@@ -30,7 +30,7 @@ A company who use [!INCLUDE[d365fin](includes/d365fin_md.md)] can invite you to 
 
 As a result, you will receive email from your client with a link to their [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-You can then access their financial data from the **Accountant** Role Center. For more information, see [Accountant Experiences in [!INCLUDE[d365fin](includes/d365fin_md.md)]](/dynamics365/financials/finance-accounting).  
+You can then access their financial data from the **Accountant** Role Center. For more information, see [Accountant Experiences in [!INCLUDE[d365fin](includes/d365fin_md.md)]](/dynamics365/financials/finance-accounting?toc=/dynamics365/accountants/toc.json).  
 
 You can then add the client to your dashboard in [!INCLUDE[d365acc_long](includes/d365acc_md.md)].  
 

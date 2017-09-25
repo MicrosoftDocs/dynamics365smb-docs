@@ -17,47 +17,43 @@ ms.author: bholtorf
 ---
 
 # The Payments and Reconciliations (DK) Extension for Microsoft Dynamics for Finance and Operations, Business edition
-Make fast, error-free payments by exporting files that are formatted specifically for exchanges with your vendor or bank. These files speed up the payment and reconciliation processes, and eliminate errors that can happen when you manually enter the information on a bank website. 
-
-This extension supports file formats for several Danish banks. When you export payment information to a file, the extension packages the data into the format that your bank requires. For example, the formats include Bankdata-vl, BEC, SDC, and FIK, which many different banks use, and some that are more specialized for certain banks, for example, Danske Bank and Nordea. The extension also includes some formats for importing and reconciling bank statements.
-
+Make fast, error-free payments by exporting files that are formatted specifically for exchanges with your vendor or bank. These files speed up the payment and reconciliation processes, and eliminate errors that can happen when you manually enter the information on a bank website.  
+  
+This extension supports file formats for several Danish banks. When you export payment information to a file, the extension packages the data into the format that your bank requires. For example, the formats include Bankdata-vl, BEC, SDC, and FIK, which many different banks use, and some that are more specialized for certain banks, for example, Danske Bank and Nordea. The extension also includes some formats for importing and reconciling bank statements.  
+  
 > [!Note]
-> To use the extension, you must know the format that your bank or vendor requires. Some banks or vendors provide this information on their websites; however, you might need to contact their customer service to get the information.
-
+> To use the extension, you must know the format that your bank or vendor requires. Some banks or vendors provide this information on their websites; however, you might need to contact their customer service to get the information.  
+  
 ## Supported Bank Formats
-This extension can apply the following file formats for payment files:
-
-* BANKDATA-V3
-* BEC-INDLAND
-* BEC-CSV
-* DANSKEBANK-CMKV
-* DANSKEBANK-CMKXKSX
-* DANSKEBANK
-* FIK71
-* NORDEA-ERHVERV-CSV
-* NORDEA
-* NORDEA-UNITEL-V3
-* SDC
-* SDC-CSV
+This extension can apply the following file formats for payment files:  
+  
+* BANKDATA-V3  
+* BEC-INDLAND  
+* BEC-CSV  
+* DANSKEBANK-CMKV  
+* DANSKEBANK-CMKXKSX  
+* DANSKEBANK  
+* FIK71  
+* NORDEA-ERHVERV-CSV  
+* NORDEA  
+* NORDEA-UNITEL-V3  
+* SDC  
+* SDC-CSV  
 
 ## To set up the extension
-There are a few steps to get started.
-
-* Allow payment data exports. To help protect your data, this is not readily available.
-* Set up purchase and payables so that you do not require external document numbers on invoices. If needed, you can use the reference number to refer to a specific invoice.
-* Specify the payment method for each vendor. Payment methods define how you pay invoices from the vendor. For example, Bank, Cash, Check, or Account.
-* Specify the type of format to use for each of your bank accounts. For example, NORDEA, DANSKEBANK, SDC, and so on.
-
-Additionally, you must assign vendors to a domestic **Gen. Bus. Posting Group** and a **Vendor Posting Group**. The Country/Region setting for the vendor must be Denmark (DK). For more information, see [Setting Up Posting Groups](finance-posting-groups.md).
-
+There are a few steps to get started.  
+  
+* Allow payment data exports. To help protect your data, this is not readily available.  
+* Set up purchase and payables so that you do not require external document numbers on invoices. If needed, you can use the reference number to refer to a specific invoice.  
+* Specify the payment method for each vendor. Payment methods define how you pay invoices from the vendor. For example, Bank, Cash, Check, or Account.  
+* Specify the type of format to use for each of your bank accounts. For example, NORDEA, DANSKEBANK, SDC, and so on.  
+  
+Additionally, you must assign vendors to a domestic **Gen. Bus. Posting Group** and a **Vendor Posting Group**. The Country/Region setting for the vendor must be Denmark (DK). For more information, see [Setting Up Posting Groups](finance-posting-groups.md).  
+  
 ### To allow [!INCLUDE[d365fin](includes/d365fin_md.md)] to export payment data
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journal**, and then choose the related link.
-2. In the **Edit Payment Journal** window, choose the **Bank** batch.
-3. Choose the **Allow Payment Export** check box.
-
-### To modify Purchase & Payables Setup
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase & Payables Setup**, and then choose the related link.
-2. Clear the **Ext. Doc. No. Mandatory** check box.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journal**, and then choose the related link.  
+2. In the **Edit Payment Journal** window, choose the **Bank** batch.  
+3. Choose the **Allow Payment Export** check box.  
 
 ### To specify a payment method for a vendor
 The following table shows the combinations of FIK and GIRO payment methods that [!INCLUDE[d365fin](includes/d365fin_md.md)] supports.
@@ -68,14 +64,14 @@ The following table shows the combinations of FIK and GIRO payment methods that 
 |Allows Message to Recipient? | Yes |No |No | Yes |
 |Contains Payment Reference number? | No | Yes, 16 digits. | Yes, 15 digits. | No|
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.  
 2. Open the card, expand the **Payments** tab, in the **Payment Method** field choose the payment method.  
-3. Depending on your selection, you must complete other fields. See the table above for a description of the combinations.
+3. Depending on your selection, you must complete other fields. See the table above for a description of the combinations.  
 
 ### To specify the format to use for a bank account
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.
-2. Open the card for the bank account.
-3. In the **Payment Export Format** field, choose the format for your export file. 
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.  
+2. Open the card for the bank account.  
+3. In the **Payment Export Format** field, choose the format for your export file.  
 
 ## Choosing the FIK or Giro payment information for vendor invoices
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoices**, and then choose the related link.
@@ -89,15 +85,15 @@ The following table shows the combinations of FIK and GIRO payment methods that 
 5. Post the invoice.
 
 ## To use the extension to export payment data
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.  
 2. Choose the **Suggest Vendor Payment Journals** action.  
   
     > [!Tip]
     > If you want to export only specific payments, use the options for filtering the data.  
-
-3. If needed, you can add filters to export only specific payments.
-4. In the **Bank Payment Type** field, choose **Electronic Payment**.
-5. Choose the **Export** action.
+  
+3. If needed, you can add filters to export only specific payments.  
+4. In the **Bank Payment Type** field, choose **Electronic Payment**.  
+5. Choose the **Export** action.  
 
 ## See also
 [Customizing Dynamics 365 for Financials Using Extensions](ui-extensions.md)  

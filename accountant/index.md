@@ -15,7 +15,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 
 ---
 # Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]
-[!INCLUDE[d365fin_early_release](d365fin_early_release.md.md)]
+[!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
 
 ## See Also
 [Microsoft Dynamics 365 documentation](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  

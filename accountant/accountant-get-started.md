@@ -14,7 +14,7 @@ ms.author: edupont
 ROBOTS: NOINDEX,NOFOLLOW
 ---
 # Get started with [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]
-[!INCLUDE[d365fin_early_release](d365fin_early_release.md.md)]
+[!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
 
 ## See Also
 [Accountant Experiences in [!INCLUDE[d365fin](includes/d365fin_md.md)]](/dynamics365/financials/finance-accounting.md)  

@@ -14,7 +14,7 @@ ms.author: edupont
 ROBOTS: NOINDEX,NOFOLLOW
 ---
 # Accountant Portal for Dynamics 365 for Financials
-[!INCLUDE[d365fin_early_release](d365fin_early_release.md.md)]
+[!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
 ## See Also
 [Welcome to Dynamics 365 for Accountants](index.md)  
 [Get started with Dynamics 365 for Accountants](accountant-get-started.md)  

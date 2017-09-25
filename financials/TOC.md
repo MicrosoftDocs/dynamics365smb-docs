@@ -4,6 +4,7 @@
 ## [Overview of Business Functionality](madeira-business-functionality.md)
 ## [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
 ## [Importing Business Data from Other Finance Systems](upload-data.md)
+## [Changing from a QuickBooks App to Microsoft Dynamics 365, Business edition](across-quickbooks-to-business-edition.md)
 ## [Getting Dynamics 365 on Your Mobile Device](install-mobile-app.md)
 ## [Using Dynamics 365 as Your Business Inbox in Outlook](madeira-outlook.md)
 ## [Using Dynamics 365 Without Outlook](madeira-no-outlook.md)

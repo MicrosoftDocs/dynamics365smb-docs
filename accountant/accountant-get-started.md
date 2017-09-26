@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 09/15/2017
+ms.date: 09/26/2017
 ms.author: edupont
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]

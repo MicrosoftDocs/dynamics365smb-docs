@@ -17,10 +17,10 @@ ms.author: bholtorf
 ---
 
 # The C5 Data Migration Extension for Dynamics 365 for Finance and Operations, Business Edition
-This extension makes it easy to migrate customers, vendors, items, and your chart of accounts from Microsoft Dynamcis C5 2012 to [!INCLUDE[d365fin](includes/d365fin_md.md)]. 
+This extension makes it easy to migrate customers, vendors, items, and your general ledger accounts from Microsoft Dynamcis C5 2012 to [!INCLUDE[d365fin](includes/d365fin_md.md)]. 
 
 > [!Note] 
-> After you start a migration, we recommend that you do not enter new data until the migration finishes. You can view information in [!INCLUDE[d365fin](includes/d365fin_md.md)], but adding new transactions might cause a conflict.
+> The company in [!INCLUDE[d365fin](includes/d365fin_md.md)] must not contain any data. Additionally, after you start a migration, do not create customers, vendors, items, or accounts until the migration finishes.
 
 ## To migrate data
 There are just a few steps to export data from C5, and import it in [!INCLUDE[d365fin](includes/d365fin_md.md)]: 

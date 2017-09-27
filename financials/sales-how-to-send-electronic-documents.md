@@ -51,5 +51,5 @@ The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] supports send
 [How to: Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [How to: Set Up a Document Exchange Service](across-how-to-set-up-a-document-exchange-service.md)  
 [How to: Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md)  
-[Exchanging Data as Electronic Documents](across-data-exchange.md)  
+[Exchanging Data Electronically](across-data-exchange.md)  
 [General Business Functionality](ui-across-business-areas.md)  

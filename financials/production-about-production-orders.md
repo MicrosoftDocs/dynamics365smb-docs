@@ -11,14 +11,14 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 09/06/2017
+    ms.date: 09/26/2017
     ms.author: sgroespe
 
 ---
 # About Production Orders
 Production orders are used to manage the conversion of purchased materials into manufactured items. Production orders route work through various work or machine centers on the shop floor.  
 
-Before proceeding with production, most companies perform supply planning, typically once a week, to calculate how many production orders and purchase orders to execute to fulfill that week’s sales demand. Purchase orders supply the components that are required according to the production BOM to produce the end items. 
+Before proceeding with production, most companies perform supply planning, typically once a week, to calculate how many production orders and purchase orders to execute to fulfill that week’s sales demand. Purchase orders supply the components that are required according to the production BOM to produce the end items.
 
 Production orders are the central components of the program's manufacturing functionality and they contain the following information:  
 
@@ -42,7 +42,6 @@ Production orders are created using information from:
 
 - Items  
 - Production BOMs
-- Assembly BOMs
 - Routings  
 - Machine centers  
 - Work centers  

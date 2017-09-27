@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 09/04/2017
+    ms.date: 09/19/2017
     ms.author: sgroespe
 
 ---
@@ -75,6 +75,24 @@ If different machine centers (such as 210 Packing table 1, 310 Painting Cabin ..
 If, however, identical machine centers (such as 210 Packing table 1 and 220 Packing table 2) are combined in a work center, the consideration of the work center as a sum of the assigned machine centers is of interest. Therefore, the work center would be listed with zero capacity. By activating the **Consolidated Calendar** field, the common capacity is assigned to the work center.
 
 If capacities of work centers are to make no contribution to the total capacity, you can achieve this with efficiency = 0.
+
+## To set up a capacity constrained machine or work center
+You must set up production resources that you regard as critical and mark them to accept a finite load instead of the default infinite load that other production resources accept. A capacity-constrained resource can be a work center or machine center that you have identified as a bottleneck and would like to establish a limited, finite load for.
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] does not support detailed shop floor control. It plans for a feasible utilization of resources by providing a rough-cut schedule, but it does not automatically create and maintain detailed schedules based on priorities or optimization rules.
+
+In the **Capacity-Constrained Resources** window, you can make setup that avoids overload of specific resources and ensure that no capacity is left unallocated if it could increase the turn-around time of a production order. In the **Dampener (% of Total Capacity)** field, you can add dampener time to resources to minimize operation splitting. This enables the system to schedule load on the last possible day by exceeding the critical load percent slightly if this can reduce the number of operations that are split.
+
+When planning with capacity-constrained resources, the system ensures that no resource is loaded above its defined capacity (critical load). This is done by assigning each operation to the nearest available time slot. If the time slot is not big enough to complete the entire operation, then the operation will be split into two or more parts placed in the nearest available time slots.
+
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Capacity Constrined Resources**, and then choose the related link.
+2. Choose the **New** action.
+3. Fill in the fields as necessary.
+
+> [!NOTE]
+> Operations on work centers or machine centers that are set up as constrained resources will always be planned serially. This means that if a constrained resource has multiple capacities, then those capacities can only be planned in sequence, not in parallel as they would be if the work or machine center was not set up as a constrained resource. In a constrained resource, the Capacity field on the work center or machine center is greater than 1.
+
+> In case of operation splitting, the setup time is only assigned once because it is assumed that some manual adjustment is done to optimize the schedule.
 
 ## See Also  
 [How to: Create Shop Calendars](production-how-to-create-work-center-calendars.md)  

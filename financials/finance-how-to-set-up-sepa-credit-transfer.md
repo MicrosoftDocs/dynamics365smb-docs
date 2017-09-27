@@ -60,7 +60,7 @@ Before you can process payment electronically by exporting payment files in the 
     The direct-debit mandate is automatically inserted in the **Direct Debit Mandate ID** field when you create a sales invoice for the customer that you selected in step 2. For more information, see [How to: Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md).  
 
 ## See Also  
-[Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  
+[Collecting Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  
 [How to: Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md)  
 [How to: Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)  
-[Exchanging Data as Electronic Documents](across-data-exchange.md)  
+[Exchanging Data Electronically](across-data-exchange.md)  

@@ -11,16 +11,16 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 09/08/2017
+    ms.date: 09/26/2017
     ms.author: sgroespe
 
 ---
 # Assembly Management
 To support companies that supply products to their customers by combining components in simple processes without the need of manufacturing functionality, [!INCLUDE[d365fin](includes/d365fin_md.md)] includes features to assemble items that integrate with existing features, such as sales, planning, reservations, and warehousing.  
 
- An assembly item is defined as a sellable item that contains an assembly BOM.
+ An assembly item is defined as a sellable item that contains an assembly BOM. For more information, see [How to: Work with Bills of Material](inventory-how-work-BOMs.md).
 
- Assembly orders are internal orders, just like production orders, that are used to manage the assembly process and to connect the sales requirements with the involved warehouse activities. Assembly orders differ from other order types because they involve both output and consumption when posting. The assembly order header behaves similarly to a sales order line, and the assembly order lines behave similarly to consumption journal lines. For more information, see Assembly Order.  
+ Assembly orders are internal orders, just like production orders, that are used to manage the assembly process and to connect the sales requirements with the involved warehouse activities. Assembly orders differ from other order types because they involve both output and consumption when posting. The assembly order header behaves similarly to a sales order line, and the assembly order lines behave similarly to consumption journal lines.  
 
  To support a just-in-time inventory strategy and the ability to customize products to customer requests, assembly orders may be automatically created and linked as soon as the sales order line is created. The link between the sales demand and the assembly supply enables sales order processors to customize the assembly item on the fly, promise delivery dates according to component availability, and to post output and shipment of the assembled item directly from their sales order interface. For more information, see [How to: Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md).  
 

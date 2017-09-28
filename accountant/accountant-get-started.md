@@ -25,7 +25,7 @@ You can get access to [!INCLUDE[d365acc_long](includes/d365acc_md.md)] by signin
 
 ### Working with Individual Clients
 The dashboard shows the most important information about each client.  
-![Accountant Hub](./media/accountant-get-started/accountant-dashboard.png)
+![Accountant Hub](./media/accountant-get-started/accountant-dashboard-tasks.png)
 
 The **Client Name** column shows the names of your clients, and the **Company Name** column lists all companies if the client has more than one company in [!INCLUDE[d365fin_ong](includes/d365fin_long_md.md)]. There are also fields to show you tasks that are assigned to you in your client's company, including overdue tasks.  
 
@@ -50,7 +50,7 @@ You can see more information about your clients' data by choosing the name of th
 * Overdue purchase invoices  
 * Overdue sales invoices  
 
-![Client company details in the accountant portal](./media/accountant-get-started/accountant-company-details.png)
+![Client company details in the accountant's dashboard](./media/accountant-get-started/accountant-company-details.png)
 
 Technically, you have now logged into your client's [!INCLUDE[d365fin](includes/d365fin_md.md)], and data you see is live data. If you want to take a closer look at the data, such as an overdue purchase invoice, choose the link, and you are taken to the client company.  
 
@@ -64,7 +64,8 @@ In your client's [!INCLUDE[d365fin](includes/d365fin_md.md)], you can assign tas
 
 #### My User Tasks
 The **My User Tasks** list shows more information about your assigned tasks across all clients. You can sort by due date, for example, to help you prioritize your day.
-<!-- insert screenshot when ready-->
+
+![List of tasks assigned to the external accountant](./media/accountant-get-started/accountant-tasklist.png)
 
 ## See Also
 [Add Clients to Your Dashboard in [!INCLUDE[d365acc](includes/d365acc_md.md)]](accountant-add-client.md)  

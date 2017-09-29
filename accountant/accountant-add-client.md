@@ -27,9 +27,10 @@ The data in the card for each client is specified by you, and you can change it 
 ### Get Invited to a Client's [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 A company who use [!INCLUDE[d365fin](includes/d365fin_md.md)] can invite you to [!INCLUDE[d365fin](includes/d365fin_md.md)] as their external accountant. To get invited, you must give them the email that you use with [!INCLUDE[d365acc](includes/d365acc_md.md)], such as *me@accountant.com*. Your client's administrator can then add you to their system by running the **Invite External Accountant** wizard.  
 
-As a result, you will receive email from your client with a link to their [!INCLUDE[d365fin](includes/d365fin_md.md)]. Click the link, and you are logged in and can access their financial data from the **Accountant** Role Center. For more information, see [Accountant Experiences in [!INCLUDE[d365fin](includes/d365fin_md.md)]](/dynamics365/financials/finance-accounting?toc=/dynamics365/accountants/toc.json).  
+As a result, you will receive email from your client with links to their [!INCLUDE[d365fin](includes/d365fin_md.md)]. The first link is an invitation to get access to their company - open the link and accept the steps that adds you to your client's [!INCLUDE[d365fin](includes/d365fin_md.md)]. The second link is for adding this client to your dashboard in [!INCLUDE[d365acc](includes/d365acc_md.md)] as described above.  
 
-You can then add the client to your dashboard in [!INCLUDE[d365acc_long](includes/d365acc_md.md)] as described above.  
+When you have accepted the invitation, you are logged in and can access the client's financial data from the **Accountant** Role Center. For more information, see [Accountant Experiences in [!INCLUDE[d365fin](includes/d365fin_md.md)]](/dynamics365/financials/finance-accounting?toc=/dynamics365/accountants/toc.json).  
 
 ## See Also
-[Get Started with Accountant Hub](accountant-get-started.md)  
+[Get Started with [!INCLUDE[d365acc](includes/d365acc_md.md)]](accountant-get-started.md)  
+[Troubleshooting [!INCLUDE[d365acc](includes/d365acc_md.md)]](accountant-troubleshooting.md)  

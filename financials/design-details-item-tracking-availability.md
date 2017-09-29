@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 09/26/2017
     ms.author: sgroespe
 
 ---
@@ -30,7 +30,7 @@ The **Item Tracking Lines** and **Item Tracking Summary** windows provide dynami
 > [!NOTE]  
 >  You can also see the information in the preceding table by using the **Select Entries** function in the **Item Tracking Lines** window.  
 
- To preserve database performance, availability data is only retrieved once from the database when you open the **Item Tracking Lines** window and use the **Refresh Availability** function in the window.  
+ To preserve database performance, availability data is only retrieved once from the database when you open the **Item Tracking Lines** window and when you use the **Refresh Availability** function in the window.  
 
 ## Calculation Formula  
  As described in the preceding table, the availability of a given serial or lot number is calculated as follows.  

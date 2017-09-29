@@ -8,13 +8,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-<<<<<<< HEAD
 ms.search.keywords: QuickBooks, transfer, import, migrate, initialize, implement
-ms.date: 09/21/2017
-=======
-ms.search.keywords: migrate, initialize, implement
 ms.date: 09/25/2017
->>>>>>> master
 ms.author: edupont
 
 ---

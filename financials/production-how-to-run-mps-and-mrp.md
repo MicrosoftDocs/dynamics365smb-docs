@@ -11,15 +11,15 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 09/06/2017
+    ms.date: 09/26/2017
     ms.author: sgroespe
 
 ---
-# How to: Run Full Planning, MPS and MRP
+# How to: Run Full Planning, MPS or MRP
 The terms "running the planning worksheet" or "running MRP" refer to the calculation of the master production schedule and material requirements based on actual and forecasted demand. The planning system can calculate either Master Planning Schedule (MPS) or Material Requirements Planning (MRP) on request, or it can calculate both at the same time.  
 
--   *MPS* is the calculation of a master production schedule based on actual demand and the production forecast. The MPS calculation is used for end items that have a forecast or a sales order line. These items are called "MPS items" and are identified dynamically when the calculation starts.  
--   *MRP* is the calculation of material requirements based on actual demand for components and the production forecast on the component level. MRP is calculated only for items that are not MPS items. The purpose of MRP is to provide time-phased formal plans, by item, to supply the appropriate item, at the appropriate time, in the appropriate location, in the appropriate quantity.  
+-   MPS is the calculation of a master production schedule based on actual demand and the production forecast. The MPS calculation is used for end items that have a forecast or a sales order line. These items are called MPS items and are identified dynamically when the calculation starts.  
+-   MRP is the calculation of material requirements based on actual demand for components and the production forecast on the component level. MRP is calculated only for items that are not MPS items. The purpose of MRP is to provide time-phased formal plans, by item, to supply the appropriate item, at the appropriate time, in the appropriate location, in the appropriate quantity.  
 
 The planning algorithms used for both MPS and MRP are identical. The planning algorithms pertain to netting, reuse of existing replenishment orders, and action messages. The planning system process examines what is needed or will be needed (demand) and what is on-hand or expected (supply). When these quantities are netted against each other, [!INCLUDE[d365fin](includes/d365fin_md.md)] provides action messages. Action messages are suggestions to create a new order, change an order (quantity or date), or cancel an order already on order. The term "order" includes purchase orders, assembly orders, production orders, and transfer orders.
 

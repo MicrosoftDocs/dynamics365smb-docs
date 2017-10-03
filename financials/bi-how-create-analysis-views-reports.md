@@ -46,13 +46,12 @@ Then you can set up columns like these:
 
 Based on the lines and columns you have set up, the program will aggregate the result of your report in the **Analysis Report** matrix window, such as in this example:  
 
-|||||  
+| |Sales Current Month|Sales Last Month|Sales Last Month %|  
 |-|-|-|-|  
-||Sales Current Month|Sales Last Month|Sales Last Month %|  
-|Computers||||  
-|Displays||||  
-|Spare parts||||  
-|Total||||  
+|Computers| | | |  
+|Displays| | | |  
+|Spare parts| | | |  
+|Total| | | |  
 
  You can, for example, set up one set of lines and several sets of column layouts to show monthly and annual reports respectively.
 

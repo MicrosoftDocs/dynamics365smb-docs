@@ -26,9 +26,6 @@ Depending on the type of page and what it includes, you can:
 -   Change the freeze pane of columns in a list. The freeze pane locks one or more columns to the left side of a list so that are always present, even when you scroll horizontally.
 -   Move and remove Cues (tiles).
 -   Move and remove parts. Parts are subdivisions or areas on a page that contain things like multiple fields, another page, a chart, or tiles.  
-<!--NAV
-
--   You can perform personalization in either the Web client or the Windows client. When you start to personalize a page in the Web client, if the page has already been personalized by using the Windows client, you will get a message. If you continue in the Web client, the personalization that was done in the Windows client will be removed. The page is restored to its original layout, from which you can start to personalize for the Web client only. In the Windows client, the personalization will remain as is. If you want to keep the personalization in the Windows and Web clients identical, you should use the Windows client. #-->       
 
 ## To personalize a page
 

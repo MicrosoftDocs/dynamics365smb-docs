@@ -19,7 +19,7 @@ ms.author: bholtorf
 # The Payments and Reconciliations (DK) Extension for Microsoft Dynamics for Finance and Operations, Business edition
 Make fast, error-free payments by exporting files that are formatted specifically for exchanges with your vendor or bank. These files speed up the payment and reconciliation processes, and eliminate errors that can happen when you manually enter the information on a bank website.  
   
-This extension supports file formats for several Danish banks. When you export payment information to a file, the extension packages the data into the format that your bank requires. For example, the formats include Bankdata-vl, BEC, SDC, and FIK, which many different banks use, and some that are more specialized for certain banks, for example, Danske Bank and Nordea. The extension also includes some formats for importing and reconciling bank statements.  
+This extension supports file formats for several Danish banks. When you export payment information to a file, the extension packages the data into the format that your bank requires. For example, the formats include Bankdata-V3, BEC, SDC, and FIK, which many different banks use, and some that are more specialized for certain banks, for example, Danske Bank and Nordea. The extension also includes some formats for importing and reconciling bank statements.  
   
 > [!Note]
 > To use the extension, you must know the format that your bank or vendor requires. Some banks or vendors provide this information on their websites; however, you might need to contact their customer service to get the information.  

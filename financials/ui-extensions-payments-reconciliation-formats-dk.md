@@ -77,11 +77,11 @@ The following table shows the combinations of FIK and GIRO payment methods that 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoices**, and then choose the related link.
 2. Choose the vendor. Remember, this must be a Danish vendor with an address in Denmark.
 3. Create an invoice. The **Payment Method** and **Vendor Number** fields are filled in based on settings on the Vendor card. You can change them if you want.
-4. In the **Payment Reference** field, enter the 15-digit number from the vendor invoice. 
+4. In the **Payment Reference** field, enter the 15-digit number from the vendor invoice.  
   
     > [!Tip]
-    > You only have to add the last 11 digits of the number. Financials will add four zeros to the beginning of the number.  
-  <!--ASK ANDREI WHY AND WHAT THIS NUMBER IS-->
+    > You only have to add the last 11 digits of the number. [!INCLUDE[d365fin](includes/d365fin_md.md)] will add four zeros to the beginning of the number.  
+  
 5. Post the invoice.
 
 ## To use the extension to export payment data
@@ -96,7 +96,7 @@ The following table shows the combinations of FIK and GIRO payment methods that 
 5. Choose the **Export** action.  
 
 ## See also
-[Customizing Dynamics 365 for Financials Using Extensions](ui-extensions.md)  
+[Customizing Dynamics 365 for [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
 [How to: Create SEPA Direct Debit Collection Entries and Export to a Bank File](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)  
 [How to: Set Up SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)  
 [How to: Post SEPA Direct Debit Payment Receipts](finance-how-to-post-sepa-direct-debit-payment-receipts.md)  

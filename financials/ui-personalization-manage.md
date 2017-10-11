@@ -27,7 +27,7 @@ You can prevent all users that belong to a specific profile from being able to p
 
 ## Clear user personalizations
 
-Clearing page personalization changes the page back to its original layout, before any personalization was made. There are two ways to clear the personalizations that users have made to pages: using the **Delete User Personalization** page and using the **User Personalization Card** page. 
+Clearing page personalization changes the page back to its original layout before any personalization was made. There are two ways to clear the personalizations that users have made to pages: using the **Delete User Personalization** page and using the **User Personalization Card** page. 
 
 ### Clear user personalizations by using the Delete User Personalization page
 
@@ -38,7 +38,7 @@ The **Delete User Personalization** page enables you to clear personalizations o
     The page lists all the pages that have been personalized and the user it belongs to. 
 
     >[!NOTE]
-    > A check mark in the **Legacy Personalization** columns indicates that the personalization was done in a older version of [!INCLUDE[d365fin](includes/d365fin_md.md)] which handled personalization different than it does now. Users who try to personalize these pages are locked from doing so unless they choose to unlock the page. For more information, see [Why a page is locked from personalizing](ui-personalization-locked.md).
+    > A check mark in the **Legacy Personalization** columns indicates that the personalization was done in an older version of [!INCLUDE[d365fin](includes/d365fin_md.md)], which handled personalization different than it does now. Users who try to personalize these pages are locked from doing so unless they choose to unlock the page. For more information, see [Why a page is locked from personalizing](ui-personalization-locked.md).
 
 2. Select the entry that you want to delete, and then choose the **Delete** action.
 

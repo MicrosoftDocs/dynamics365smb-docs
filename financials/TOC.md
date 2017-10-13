@@ -20,7 +20,7 @@
 ## [Using Search for Page or Report](ui-search.md)
 ## [Changing Basic Settings](ui-change-basic-settings.md)
 ## [How to: Change the Role Center](change-role.md)
-## [Customizing Your Dynamics 365 Experience](ui-experiences.md)
+## [Customizing Dynamics 365](ui-customizing-overview.md)
 ## [Letting Dynamics 365 Suggest Values](ui-let-system-suggest-values.md)
 ## [Printing a Report](ui-work-report.md#PrintReport)
 ## [Videos on Common Tasks](across-videos.md)

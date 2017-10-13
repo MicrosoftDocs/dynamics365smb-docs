@@ -35,7 +35,7 @@ When you have set up your campaign, decided what segments you want the campaign 
 > [!NOTE]  
 >   In order to activate the sales prices/line discounts, you must specify if the whole segment or only some contacts are targets of the campaign. If the sales prices/line discounts covers all the contacts in the segment, select the **Campaign Target** field on the **Campaign** FastTab of the **Segment** card.
 
-If the sales prices/line discounts are not to be offered to all the contacts in the segment, you can clear the **Campaign Target** field for the relevant contacts. If you cannot see this field, you can add it to your view. For more information, see [User Personalization](ui-user-personalization.md).
+If the sales prices/line discounts are not to be offered to all the contacts in the segment, you can clear the **Campaign Target** field for the relevant contacts. If you cannot see this field, you can add it to your view. For more information, see [Personalizing Your Workspace](ui-personalization-user.md).
 
 ## Conducting campaigns
 As a campaign runs, all interactions with your contacts, or segment, are recorded so that you can get statistics and other information about the costs and success rates of the campaign.

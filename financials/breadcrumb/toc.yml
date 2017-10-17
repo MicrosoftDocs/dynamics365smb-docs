@@ -1,6 +1,6 @@
 - name: Dynamics 365
   tocHref: /dynamics365/
-  topicHref: /dynamics365
+  topicHref: /dynamics365/index
   items:
   - name: Introduction to Dynamics 365
     tocHref: /dynamics365/get-started/what-is/

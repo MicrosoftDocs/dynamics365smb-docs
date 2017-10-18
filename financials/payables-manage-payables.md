@@ -27,7 +27,7 @@ The following table describes a sequence of tasks within accounts payable, with 
 | To | See |
 | --- | --- |
 | Generate due vendor payments or employee reimbursements, prepare check payments, and export payments to a bank file when posting. |[Making Payments](payables-make-payments.md) |
-| Apply vendor payments automatically to unpaid purchase invoices by importing a bank statement file. |[Apply Payments Automatically and Reconcile Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
+| Apply vendor payments automatically to unpaid purchase invoices by importing a bank statement file. |[Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
 | Apply vendor payments to unpaid purchase invoices manually. |[How to: Reconcile Vendor Payments Manually](payables-how-apply-purchase-transactions-manually.md) |
 |Ensure correct inventory valuation by assigning added item costs, such as freight, physical handling, insurance, and transportation that you incur when purchasing.|[How to: Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)|
 

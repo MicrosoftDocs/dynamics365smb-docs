@@ -138,7 +138,7 @@
 ### [How to: Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 ## [Managing Payables](payables-manage-payables.md)
 ### [Making Payments](payables-make-payments.md)
-### [Apply Payments Automatically and Reconcile Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
+### [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ### [How to: How to: Reconcile Vendor Payments Manually](payables-how-apply-purchase-transactions-manually.md)
 ### [How to: Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)
 ## [Invoicing Prepayments](finance-invoice-prepayments.md)

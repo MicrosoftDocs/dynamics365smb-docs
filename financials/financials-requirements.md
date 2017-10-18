@@ -18,7 +18,7 @@ Before you access [!INCLUDE[d365fin](includes/d365fin_md.md)], we recommend that
 
 ## Browsers
 **Chrome for Windows and Firefox for Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to work with the current version of these desktop browsers.  
-**Safari:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to work with the current version of Safari on OSX.  
+**Safari:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to work with the current version of Safari on macOS.  
 **Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to work with the current version of Microsoft Edge.  
 **Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to work with Internet Explorer 11 (build 11.0.9600.17239) for Windows 10 and for Windows 8.1 (32-bit and 64-bit versions). We recommend that you upgrade to the latest version of Internet Explorer supported for your version of Windows.  
 

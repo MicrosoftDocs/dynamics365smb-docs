@@ -23,8 +23,8 @@ Before you access [!INCLUDE[d365fin](includes/d365fin_md.md)], we recommend that
 **Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to work with Internet Explorer 11 (build 11.0.9600.17239) for Windows 10 and for Windows 8.1 (32-bit and 64-bit versions). We recommend that you upgrade to the latest version of Internet Explorer supported for your version of Windows.  
 
 ## Mobile devices
-**Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] for Windows can be installed on devices with at least 1GB of RAM and Windows 10 Phone, Home, Pro, Enterprise, or Education (32-bit and 64-bit editions).  
-**iOS:** [!INCLUDE[d365fin](includes/d365fin_md.md)] for iPad and iPhone requires iOS 9.0 or later.  
+**Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] for Windows can be installed on devices with at least 1GB of RAM and Windows 10 Mobile, S, Home, Pro, Enterprise, or Education (32-bit and 64-bit editions).  
+**iOS:** [!INCLUDE[d365fin](includes/d365fin_md.md)] for iPad and iPhone requires iOS 10.0 or later.  
 **Android:** [!INCLUDE[d365fin](includes/d365fin_md.md)] for Android tablet and Android phone can be installed on devices with at least 1GB of RAM and Android 5.0 or higher.  
 **Device size:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is supported on smartphones with a minimum screen size of 4” and tablets with a minimum screen size of 7”.  
 

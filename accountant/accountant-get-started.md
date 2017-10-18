@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/16/2017
+ms.date: 10/18/2017
 ms.author: edupont
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
@@ -17,13 +17,12 @@ ms.author: edupont
 # Get Started with [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]
 Any business must do its books and sign off on the accounting. Some businesses employ an external accountant, and others have an accountant on staff. If you are an accountant with several clients, you can use [!INCLUDE[d365acc](includes/d365acc_md.md)] as your dashboard for a better overview of your clients.  
 
-## Accountant Hub
 You can get access to [!INCLUDE[d365acc](includes/d365acc_md.md)] by signing up from [Dynamics 365 — Accountant Hub on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants).  
 
 > [!TIP]  
 >  When you sign up for [!INCLUDE[d365acc](includes/d365acc_md.md)], you must specify your work email address, such as *me@accountant.com*. We recommend that you use the same email address when you work in your clients' [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], so that you can easily switch between clients.  
 
-### Working with Individual Clients
+## Working with Individual Clients
 The dashboard shows the most important information about each client.  
 ![Accountant Hub](./media/accountant-get-started/accountant-dashboard-tasks.png)
 
@@ -42,7 +41,7 @@ Similarly, you can use the **Client Summary** drop-down menu to refresh all comp
 > [!TIP]  
 >  To access a client's [!INCLUDE[d365fin](includes/d365fin_md.md)], choose the **Go To Client** menu item - you are logged in automatically.
 
-### Company Details
+## Company Details
 You can see more information about your clients' data by choosing the name of the company that you want to learn more about. This opens the **Company Details** pane, where you can see additional information, such as the following:  
 
 * Cash account balances  
@@ -59,19 +58,19 @@ Technically, you have now logged into your client's [!INCLUDE[d365fin](includes/
 
 Otherwise, close the details pane and continue to the next client.  
 
-### Assigned Tasks
+## Assigned Tasks
 In your client's [!INCLUDE[d365fin](includes/d365fin_md.md)], you can assign tasks to yourself and others, and others can assign tasks to you. Your dashboard in [!INCLUDE[d365acc](includes/d365acc_md.md)] gives you an overview of assigned tasks for each client, and you can also access a list of all assigned tasks by choosing **My User Tasks** in the left navigation.  
 
 In the client company, you also have cues that call out tasks assigned to you in this particular client.
 
 ![Tasks assigned to the accountant in the client company](./media/accountant-get-started/accountant-company-details-tasks.png)
 
-#### My User Tasks
+### My User Tasks
 The **My User Tasks** list in [!INCLUDE[d365acc](includes/d365acc_md.md)] helps you prioritize your day by showing more information about tasks assigned to you across all your clients.  
 
 ![List of tasks assigned to me as an external accountant](./media/accountant-get-started/accountant-tasklist.png)
 
-You can sort by due date, for example, or any other type of data that helps you prioritize your day. By default, the list shows all tasks that are assigned to you, but you can set up filters to only show tasks that are marked as high priority, for example. 
+You can sort by due date, for example, or any other type of data that helps you prioritize your day. By default, the list shows all tasks that are assigned to you, but you can set up filters to only show tasks that are marked as high priority, for example.
 
 
 ## See Also

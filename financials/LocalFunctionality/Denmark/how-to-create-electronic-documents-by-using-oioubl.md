@@ -1,6 +1,6 @@
 ---
     title: How to Create Electronic Documents by Using OIOUBL | Microsoft Docs
-    description: When you sell goods or services to a customer in the public sector, you must submit documents electronically. In ADD INCLUDE<!--[!INCLUDE[navnow](how-to-set-up-customers-for-oioubl.md).
+    description: When you sell goods or services to a customer in the public sector, you must submit documents electronically.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -47,7 +47,7 @@ The average cost of an item is calculated with a periodic weighted average, base
  The calculated average cost is then applied to the inventory decreases for the item (or item, location, and variant) with posting dates in the average cost period. If any inventory increases exist that were fixed applied to inventory decreases in the average cost period, then the calculated average cost is forwarded from the increase to the decrease.  
 
 ### Example: Average Cost Period = Day  
- The following example shows the effect of calculating the average cost based on an average cost period of one day. The **Average Cost Calc. Type ** field in the **Inventory Setup** window is set to **Item**.  
+ The following example shows the effect of calculating the average cost based on an average cost period of one day. The **Average Cost Calc. Type** field in the **Inventory Setup** window is set to **Item**.  
 
  The following table shows item ledger entries for the sample average-cost item, ITEM1, before the **Adjust Cost - Item Entries** batch job has been run.  
 
@@ -104,7 +104,7 @@ The average cost of an item is calculated with a periodic weighted average, base
 
  The following table shows the entries in the **Avg. Cost Adjmt. Entry Point** table that apply to value entries resulting from the item ledger entries in the preceding table.  
 
-|**Item No.**|**Variant Code)**|**Location Code**|**Valuation Date**|**Cost is Adjusted**|  
+|**Item No.**|**Variant Code**|**Location Code**|**Valuation Date**|**Cost is Adjusted**|  
 |-------------------------------------|-----------------------------------------|------------------------------------------|-------------------------------------------|---------------------------------------------|  
 |ITEM1||BLUE|01-31-20|No|  
 |ITEM1||BLUE|02-28-20|No|  

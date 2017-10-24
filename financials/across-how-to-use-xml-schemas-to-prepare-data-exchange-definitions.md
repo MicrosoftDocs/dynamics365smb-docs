@@ -42,7 +42,7 @@ To enable import/export of data in XML files through the data exchange framework
 
 4.  Fill the fields as described in the following table.  
 
-    |Field|[Description]|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Specify a code to identify the XML schema.|  
     |**Description**|Specify a description of the XML schema.|  

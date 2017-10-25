@@ -22,7 +22,7 @@ From the payment journal, you can print computer checks or record when checks ar
 
 When the payments are posted, you can export them to a bank file for upload to your bank for processing.
 
-After the payments are made at your bank, you must apply them to their related open vendor or employee ledger entries. You can do this manually or by importing a bank statement file and applying the payments automatically. For more information, see [Apply Payments Automatically and Reconcile Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+After the payments are made at your bank, you must apply them to their related open vendor or employee ledger entries. You can do this manually or by importing a bank statement file and applying the payments automatically. For more information, see [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 The following table describes a sequence of tasks, with links to the topics that describe them.
 

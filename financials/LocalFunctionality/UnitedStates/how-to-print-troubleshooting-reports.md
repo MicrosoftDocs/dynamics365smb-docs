@@ -1,6 +1,6 @@
 ---
     title: How to Print Troubleshooting Reports | Microsoft Docs
-    description: Several troubleshooting reports are available to assist Microsoft Certified Partners with troubleshooting issues:
+    description: Several troubleshooting reports are available to assist Microsoft Certified Partners with troubleshooting issues.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -268,7 +268,7 @@
 ## [Managing Segments](marketing-segments.md)
 ## [Recording Interactions](marketing-interactions.md)
 ## [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)
-## [Managing Your Customer Relationships Using Dynamics 365 for Sales from Inside Financials](marketing-integrate-dynamicscrm.md)
+## [Managing Customers and Sales Created in Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)
 
 # [Human Resources](hr-manage-human-resources.md)
 ## [How to: Register Employees](hr-how-register-employees.md)

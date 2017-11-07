@@ -9,7 +9,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: consolidation, subsidiaries, consolidate 
+ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.date: 07/14/2017
 ms.author: bholtorf
 
@@ -25,16 +25,16 @@ You can consolidate:
 * Across companies that have different charts of accounts.  
 * Companies that use different fiscal years and different currencies.  
 * Either the full amount or a percentage of a company's financial information
-* Using different currency exchange rates in individual G/L accounts 
+* Using different currency exchange rates in individual G/L accounts
 
 Depending on the complexity of your businesses, there are two ways to set up the report:
 
 * If you don't need advanced settings, such as including a company that you only own part of, you can use the **Company Consolidation** assisted setup guide to quickly set up a consolidation. The guide helps you through the basic steps.
 * If you do need more advanced settings, you can set up the consolidated company and business units yourself.
 
-## To do a simple consolidation setup 
+## To do a simple consolidation setup
 If your consolidation is straightforward, for example because you wholly-own the business units to consolidate, the **Company Consolidation** assisted setup guide will help you through the following steps:
-  
+
 * Choose whether to create a new consolidated company, or whether to consolidate the data in a company that you have already created for the consolidation. The company should not contain transactions.
 * Preview the results. [!INCLUDE[d365fin](includes/d365fin_md.md)] verifies that the master data and transactions can be successfully transferred to the consolidated company.
 
@@ -54,20 +54,20 @@ If you need more advanced settings for your consolidation, you can set up consol
 
 If your business unit uses a foreign currency, you must specify the exchange rate to use in the consolidation. You must also enter consolidation information about the business unit's general ledger accounts. These processes are described in the following sections.
 
-### To prepare general ledger accounts for consolidation 
+### To prepare general ledger accounts for consolidation
 If the chart of accounts in the business unit differs from the consolidated company, you must prepare general ledger accounts for consolidation. You can specify the accounts to post debits and credits to, and the method to use to translate currencies in the consolidated company. For example, this is useful if you frequently run the report.
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Chart of Accounts**, and then choose the related link.  
 2. Open the card for the account, and then fill in the fields on the **Consolidation** FastTab.
 
 ### To specify exchange rates for consolidations
-If a business unit uses a different currency than the consolidated company, you must specify exchange rate methods for each account before you consolidate. For each account, the content of the **Consol. Translation Method** field determines the exchange rate. On each business unit card, in the **Currency Exchange Rate Table** field, you specify whether consolidation will use exchange rates from the business unit or the consolidated company. If you use exchange rates from the consolidated company, you can change the exchange rates for a business unit. For business units, if the **Currency Exchange Rate Table** field on the business unit card contains **Local**, you can change the exchange rate from the business unit card. The exchange rates are copied from the **Currency Exchange Rate** table, but you can change them before consolidating. 
+If a business unit uses a different currency than the consolidated company, you must specify exchange rate methods for each account before you consolidate. For each account, the content of the **Consol. Translation Method** field determines the exchange rate. On each business unit card, in the **Currency Exchange Rate Table** field, you specify whether consolidation will use exchange rates from the business unit or the consolidated company. If you use exchange rates from the consolidated company, you can change the exchange rates for a business unit. For business units, if the **Currency Exchange Rate Table** field on the business unit card contains **Local**, you can change the exchange rate from the business unit card. The exchange rates are copied from the **Currency Exchange Rate** table, but you can change them before consolidating.
 
 The following table describes the exchange rate methods you can use for accounts.
 
 |Exchange rate | Typical use |
 |---|---|
-|Average Rate (Manual) | You manually calculate the average rate for the period to consolidate. Calculate the average either as an arithmetic average or as a best estimate, and specify the result for each business unit. Used for income statement accounts.| 
+|Average Rate (Manual) | You manually calculate the average rate for the period to consolidate. Calculate the average either as an arithmetic average or as a best estimate, and specify the result for each business unit. Used for income statement accounts.|
 |Closing Rate | Used for balance sheet accounts.|
 |Last Closing Rate | The rate that was valid in the foreign exchange market on the date for which the balance sheet or income statement is being prepared. You enter this rate for each business unit. Used for balance sheet accounts.|
 |Historical Rate | The exchange rate that was valid when the transaction occurred.|
@@ -79,8 +79,8 @@ To specify exchange rates for business units, follow these steps:
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Business Units**, and then choose the related link.  
 2. On the **Business Unit List** page, choose the business unit, and then choose the **Average Rate (Manual)** action.   
 3. On the **Change Exchange Rate** page, the contents of the **Relational Exch. Rate** field have been copied from the **Currency Exchange Rate** table, but you can modify them. Close the page.  
-4. On the **Navigate** tab, in the **Exch. Rates** group, choose **Closing Rate**.  
-5. In the **Relational Exch. Rate Amount** field, enter the exchange rate. 
+4. Choose the **Closing Rate** action.  
+5. In the **Relational Exch. Rate Amount** field, enter the exchange rate.
 
 <!-- ### To include or exclude dimensions
 
@@ -100,17 +100,17 @@ If you own only part of a company, you can include a percentage of each transact
 
 ### To test the data before you consolidate
 You can test your data before you transfer it to the consolidated company. [!INCLUDE[d365fin](includes/d365fin_md.md)] looks for differences in the information in the business units and the consolidated company. For example, whether account numbers or dimension codes are different. You must correct errors before you can run the report. You can test the database or, if you are importing data from an XML file, you can test the file.   
-  
+
 1. Open the consolidated company.  
 2. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Business Units**, and then choose the related link.  
 3. Do one of the following:  
-  
+
     * To test a file, choose the **Test File** action, enter the name of the file to test, and then choose **Print**.  
     * To test the database, choose **Test Database**.  
 
 ## To run the consolidation
 After you have tested the data, you can transfer it to the consolidated company.  
-  
+
 1. Sign in to the consolidated company.  
 2. On the **Accountant Role Center**, choose the **Run Consolidation** action.  
 3. Fill in the required fields.  
@@ -118,7 +118,7 @@ After you have tested the data, you can transfer it to the consolidated company.
 
 ## To export data from Dynamics NAV and import it in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 If data for a business unit is in another database, you must export the data to a file before you can include it in the consolidation. Each company must be exported separately. For this purpose, use the **Export Consolidation** batch job.  
-  
+
 After you run the batch job, all entries in general ledger accounts are processed. For every combination of selected dimensions and date, the contents of the entries' **Amount** fields are totaled and exported. The next combination of selected dimensions and date with the same account number is processed, then the combinations in the next account number are processed, and so on.  
 
 The exported entries contain the following fields: **Account No.**, **Posting Date**, and **Amount**. If dimensions information was also exported, dimension codes and dimension values are also included.  

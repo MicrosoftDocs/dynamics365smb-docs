@@ -3,13 +3,13 @@ title: Ways to troubleshoot or work around issues | Microsoft Docs
 description: Learn how to work around any issues in the Accountant Hub for Dynamics 365.
 author: edupont04
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-accountant
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, troubleshoot
-ms.date: 09/26/2017
+ms.date: 10/23/2017
 ms.author: edupont
 
 ---
@@ -43,5 +43,5 @@ There can be a couple of reasons, including the following:
 When you add a client or request a refresh of the data, [!INCLUDE[d365acc](includes/d365acc_md.md)] fetches the data. But you must refresh the window yourself, such as choosing the "Redisplay all companies" action, refresh the browser window, navigate away from the dashboard and then back again, or similar. This is a known issue that we are working on improving in a later update.  
 
 ## See Also
-[Get Started with [!INCLUDE[d365acc](includes/d365acc_md.md)]](accountant-get-started.md)  
-[Add Clients to Your Dashboard in [!INCLUDE[d365acc](includes/d365acc_md.md)]](accountant-add-client.md)  
+[Get Started with [!INCLUDE[d365acc](includes/d365acc_md.md)]](get-started.md)  
+[Add Clients to Your Dashboard in [!INCLUDE[d365acc](includes/d365acc_md.md)]](add-client.md)  

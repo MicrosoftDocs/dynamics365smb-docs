@@ -3,13 +3,13 @@ title: Dynamics 365 accountant experience | Microsoft Docs
 description: Learn about the Accountant Hub for Dynamics 365.
 author: edupont04
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-accountant
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/18/2017
+ms.date: 10/23/2017
 ms.author: edupont
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
@@ -72,9 +72,12 @@ The **My User Tasks** list in [!INCLUDE[d365acc](includes/d365acc_md.md)] helps 
 
 You can sort by due date, for example, or any other type of data that helps you prioritize your day. By default, the list shows all tasks that are assigned to you, but you can set up filters to only show tasks that are marked as high priority, for example.
 
+To pick up a task, simply choose it from the list of pending user tasks. In the ribbon, the link **Go to Task Item** opens the window where you can do the work.  
+
+When you have completed a task, simply mark it as completed.  
 
 ## See Also
-[Add Clients to Your Dashboard in [!INCLUDE[d365acc](includes/d365acc_md.md)]](accountant-add-client.md)  
+[Add Clients to Your Dashboard in [!INCLUDE[d365acc](includes/d365acc_md.md)]](add-client.md)  
 [Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](index.md)  
 [Analyzing Financial Statements in Microsoft Excel](/dynamics365/financials/finance-analyze-excel?toc=/dynamics365/accountants/toc.json)   
 [Accountant Experiences in [!INCLUDE[d365fin](includes/d365fin_md.md)]](/dynamics365/financials/finance-accounting?toc=/dynamics365/accountants/toc.json)  

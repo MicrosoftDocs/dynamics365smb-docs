@@ -104,4 +104,4 @@ When a taxonomy changes you need to update the current taxonomy accordingly. The
 ## See Also
 [Finance](finance.md)    
 [Business Intelligence](bi.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -42,5 +42,5 @@ For more information, see [About Calculating Standard Cost](finance-about-calcul
  [About Calculating Standard Cost](finance-about-calculating-standard-cost.md)   
  [Managing Inventory Costs](finance-manage-inventory-costs.md)   
  [Design Details: Costing Methods](design-details-costing-methods.md)
- [[Finance](finance.md)]  
+ [[Finance](finance.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

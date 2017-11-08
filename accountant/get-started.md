@@ -12,9 +12,9 @@ ms.search.keywords: accountant, accounting, financial report
 ms.date: 10/23/2017
 ms.author: edupont
 ---
+# Get Started with [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
 
-# Get Started with [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]
 Any business must do its books and sign off on the accounting. Some businesses employ an external accountant, and others have an accountant on staff. If you are an accountant with several clients, you can use [!INCLUDE[d365acc](includes/d365acc_md.md)] as your dashboard for a better overview of your clients.  
 
 You can get access to [!INCLUDE[d365acc](includes/d365acc_md.md)] by signing up from [Dynamics 365 — Accountant Hub on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants).  

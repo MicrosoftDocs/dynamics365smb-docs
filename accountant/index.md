@@ -13,9 +13,9 @@ ms.date: 10/23/2017
 ms.author: edupont
 
 ---
+# Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
 
-# Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]
 If you are an accountant with several clients, you can use [!INCLUDE[d365acc](includes/d365acc_md.md)] as your dashboard for a better overview of your clients. From there, you can access each client's data.  
 
 ![Accountant Hub](./media/accountant-get-started/accountant-dashboard.png)

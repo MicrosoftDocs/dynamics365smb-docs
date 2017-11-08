@@ -58,7 +58,6 @@
 ### [How to: Set Up Salespeople](sales-how-setup-salespeople.md)
 ### [How to: Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md)
 ### [How to: Send Documents by Email](ui-how-send-documents-email.md)
-### [How to: Verify VAT Registration Numbers](sales-how-to-verify-vat-registration-numbers.md)
 ### [How to: Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md)
 ## [Setting Up Purchasing](purchasing-setup-purchasing.md)
 ### [How to: Register New Vendors](purchasing-how-register-new-vendors.md)

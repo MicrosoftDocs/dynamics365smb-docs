@@ -137,7 +137,6 @@ Then you must create various purchase, production, and sales transactions with t
 2.  Choose the **New** group.  
 3.  Create a new released production order by filling in the following fields.  
 
-    ||||  
     |-|-|-|  
     |Source No.|Quantity|Serial No.|  
     |1002|2|SN1|  

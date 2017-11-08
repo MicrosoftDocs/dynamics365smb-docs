@@ -1,6 +1,6 @@
 ---
 title: 'How to: Set Up the GetAddress.io UK Postcodes Extension | Microsoft Docs'
-description: Describes the general functionality you use to interact with data in Financials, such as entering values, sorting data, and changing views.
+description: Describes the general functionality you use to interact with data in Dynamics 365, such as entering values, sorting data, and changing views.
 author: bholtorf
 ms.service: dynamics365-financials
 ms.topic: article

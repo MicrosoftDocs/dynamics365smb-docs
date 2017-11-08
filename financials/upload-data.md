@@ -1,6 +1,6 @@
 ---
-title: Import Your Legacy Business Data into Financials | Microsoft Docs
-description: You can migrate data for customers, vendors, and inventory, for example, from Excel, QuickBooks, or Dynamics GP, into Financials.
+title: Import Your Legacy Business Data into Dynamics 365 | Microsoft Docs
+description: You can migrate data for customers, vendors, and inventory, for example, from Excel, QuickBooks, or Dynamics GP, into Dynamics 365.
 author: edupont04
 
 ms.service: dynamics365-financials
@@ -8,7 +8,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: migrate, initialize, implement
+ms.search.keywords: QuickBooks, transfer, import, migrate, initialize, implement
 ms.date: 09/25/2017
 ms.author: edupont
 
@@ -20,7 +20,7 @@ From Home, you can start an assisted setup guide that helps you transfer the bus
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] includes templates for accounts, customers, vendors, and inventory items that you can choose to apply when you import your data.  
 
-## Importing Data from QuickBooks or Dynamics GP
+## Importing Data from QuickBooks Desktop, QuickBooks Online, or Dynamics GP
 If your business uses QuickBooks or Dynamics GP today, you can export the relevant information to a file. You can then open the assisted setup guide to transfer the data.
 For example, if your file includes customers and vendors, you can choose to transfer only the customer data. You can then transfer the rest of the information later.  
 

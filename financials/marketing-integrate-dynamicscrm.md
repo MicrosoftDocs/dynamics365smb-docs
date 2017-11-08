@@ -27,7 +27,6 @@ For example, the sales person in Dynamics 365 for Sales can use the price lists 
 From Home, you can access the **Dynamics 365 for Sales Connection Setup** assisted setup guide that helps you set up the connection. Once that is done, you will have a seamless coupling of Dynamics 365 for Sales records with [!INCLUDE[d365fin](includes/d365fin_md.md)] records.  
 
 > [!NOTE]  
->   The following explains the assisted setup, but you can perform the same tasks manually in the **Dynamics 365 Connection Setup** window.
 >   The following explains the assisted setup, but you can perform the same tasks manually in the **Dynamics 365 for Sales Connection Setup** window.
 
 In the assisted setup guide, you can choose which data to synchronize between the two services. You can also specify that you want to import your existing Dynamics 365 for Sales solution. In that case, you must specify an administrative user account.

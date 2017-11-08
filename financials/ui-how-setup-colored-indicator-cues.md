@@ -33,7 +33,7 @@ The following table lists the colors that correspond to the options of the **Low
 
 | Option | Color |
 | --- | --- |
-| **None** |No color (same color as the Cue tile |
+| **None** |No color (same color as the Cue tile)|
 | **Favorable** |Green |
 | **Unfavorable** |Red |
 | **Ambiguous** |Yellow |

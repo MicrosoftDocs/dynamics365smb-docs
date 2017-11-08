@@ -61,7 +61,7 @@ The following primarily describes how to set up a work center. The steps to set 
     > [!NOTE]  
     > If you select to use Days then remember that 1 day = 24 hours - and not 8 (working hours).
 
-13.  In the **Capacity** field, define whether the work center has more than one machine or person working at the same time. If your **Product Name** installation does not include the Machine Center functionality, then the value in this field must be **1**).  
+13.  In the **Capacity** field, define whether the work center has more than one machine or person working at the same time. If your [!INCLUDE[d365fin](includes/d365fin_md.md)] installation does not include the Machine Center functionality, then the value in this field must be **1**.  
 14.  In the **Efficiency** field, enter the percentage of the expected standard output that this work center actually outputs. If you enter **100**, it means that the work center has an actual output that is the same as the standard output.  
 15. Select the **Consolidated Calendar** check box if you are also using machine centers. This ensures that calendar entries are rolled up from machine center calendars.  
 16.  In the **Shop Calendar Code** field, select a shop calendar. For more information, see [How to: Create Shop Calendars](production-how-to-create-work-center-calendars.md).  

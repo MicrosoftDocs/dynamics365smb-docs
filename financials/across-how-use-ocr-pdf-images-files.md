@@ -93,7 +93,7 @@ In addition to mapping to a vendor account or G/L accounts, you can also map to 
     > [!NOTE]
     > Do not use the **Bal. Source Type** and **Bal. Source No.** fields in connection with incoming documents. They are used for automatic payment reconciliation only. For more information, see [How to: Map Text on Recurring Payments to Accounts for Automatic Reconciliation](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 
-7. Repeat steps 2 through 6 for all text on incoming documents that you want to map to accounts for automatic document creation.
+7. Repeat steps 2 through 5 for all text on incoming documents that you want to want to automatically create documents for.
 
 ## To handle errors when receiving electronic documents
 1. In the **Incoming Documents** window, select the line for an electronic document received from the OCR service with errors. This is indicated by the Error value in the **OCR Status** field.

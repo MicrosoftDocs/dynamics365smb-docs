@@ -37,13 +37,15 @@ On a payment reconciliation journal line where the payment has been set to posti
 4. In the **Mapping Text** field, enter any text that occurs on payments that you want to post to specified accounts without applying to an open entry. You can enter up to 50 characters.
 
     > [!NOTE]  
->   If no other payments or incoming documents exist with the mapping text in question, then the text-to-account mapping will occur even when only a part of the text on the payment or incoming document exists as a mapping text.
-5. In the **Vendor No.** field, enter the vendor that incoming documents containing the mapping text will be created for, or that payments will be posted to. For more information, see [How to: Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md).      
-6. In the **Debit Acc. No.** field, enter the account that payments containing the mapping text will be posted to if they are incoming payments. For incoming payments, the sign of the value in the **Statement Amount** field is positive.
-7. In the **Credit Acc. No.** field, enter the account that payments containing the mapping text will be posted to if they are outgoing payments. For outgoing payments, the sign of the value in the **Statement Amount** field is negative.
-8. In the **Bal. Source Type** field, specify if the payment will be posted to a general ledger account or to a customer or vendor account.
-9. In the **Bal. Source No.** field, specify the account that the payment will be posted to, depending on your selection in the **Bal. Source Type** field.
-10. Repeat steps 4 through 8 for all text on payments that you want to map to accounts for direct posting without application.
+>   If no other payments exist with the mapping text in question, then the text-to-account mapping will occur even when only a part of the text on the payment exists as a mapping text.
+5. In the **Vendor No.** field, enter the vendor that the payments will be posted to.
+6. In the **Bal. Source Type** field, specify if the payment will be posted to a general ledger account or to a customer or vendor account.
+7. In the **Bal. Source No.** field, specify the account that the payment will be posted to, depending on your selection in the **Bal. Source Type** field.
+
+> [!NOTE]
+> Do not use the **Debit Acc. No.** and **Credit Acc. No.** fields in connection with payment reconciliation. They are for incoming documents only. For more information, see [How to: Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md).
+
+8. Repeat steps 3 through 7 for all text on payments that you want to map to accounts for direct posting without application.
 
 Next time you import a bank statement file or choose the **Apply Automatically** action in the **Payment Reconciliation Journal** window, journal lines for the payments that contain the specified mapping text will contain the mapped accounts in the **Account Type** and **Account No.** fields. The **Match Confidence** field will contain **High - Text-to-Account Mapping**. This is on the condition that the automatic application function can only provide a match confidence of **Low** or **Medium**.
 

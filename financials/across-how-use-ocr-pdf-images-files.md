@@ -84,15 +84,14 @@ For incoming documents, you typically use the **Map Text to Account** action to 
 
 In addition to mapping to a vendor account or G/L accounts, you can also map to a bank account. This is practical, for example, for electronic documents for expenses that are already paid where you want to create a general journal line that is ready to post to a bank account.
 
-1. Select the incoming document line for the electronic vendor document received from the OCR service.
-2. To map text on the document to the vendor's account, a debit account, choose the **Map Text to Account** action. The **Text-to-Account Mapping** window opens.
-3. In the **Mapping Text** field, enter any text that occurs on invoices that you want to post to specified accounts. You can enter up to 50 characters.
-4. In the **Vendor No.** field, enter the vendor that incoming documents containing the mapping text will be created for.
-5. In the **Debit Acc. No.** field, enter the account that debit-type documents containing the mapping text will be posted to.
-6. In the **Credit Acc. No.** field, enter the account that credit-type documents containing the mapping text will be posted to.
+1. Select the relevant incoming document line, and then choose the **Map Text to Account** action. The **Text-to-Account Mapping** window opens.
+3. In the **Mapping Text** field, enter any text that occurs on vendor invoices that you want to create purchase documents or journal lines for. You can enter up to 50 characters.
+4. In the **Vendor No.** field, enter the vendor that the resulting purchase documents or journal lines will be created for.
+5. In the **Debit Acc. No.** field, enter the debit-type G/L account that will be inserted on resulting purchase documents or journal lines of type G/L Account.
+6. In the **Credit Acc. No.** field, enter the credit-type G/L account that will be inserted on resulting purchase documents or journal lines of type G/L Account.
 
     > [!NOTE]
-    > Do not use the **Bal. Source Type** and **Bal. Source No.** fields in connection with incoming documents. They are used for payment reconciliation only. For more information, see [How to: Map Text on Recurring Payments to Accounts for Automatic Reconciliation](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
+    > Do not use the **Bal. Source Type** and **Bal. Source No.** fields in connection with incoming documents. They are used for automatic payment reconciliation only. For more information, see [How to: Map Text on Recurring Payments to Accounts for Automatic Reconciliation](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 
 7. Repeat steps 2 through 6 for all text on incoming documents that you want to map to accounts for automatic document creation.
 

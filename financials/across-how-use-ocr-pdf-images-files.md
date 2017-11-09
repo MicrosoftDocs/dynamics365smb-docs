@@ -87,17 +87,14 @@ In addition to mapping to a vendor account or G/L accounts, you can also map to 
 1. Select the incoming document line for the electronic vendor document received from the OCR service.
 2. To map text on the document to the vendor's account, a debit account, choose the **Map Text to Account** action. The **Text-to-Account Mapping** window opens.
 3. In the **Mapping Text** field, enter any text that occurs on invoices that you want to post to specified accounts. You can enter up to 50 characters.
-
-    > [!NOTE]  
-    >   If no other incoming documents exist with the mapping text in question, then the text-to-account mapping will occur even when only a part of the text on incoming document exists as a mapping text.
 4. In the **Vendor No.** field, enter the vendor that incoming documents containing the mapping text will be created for.
 5. In the **Debit Acc. No.** field, enter the account that debit-type documents containing the mapping text will be posted to.
 6. In the **Credit Acc. No.** field, enter the account that credit-type documents containing the mapping text will be posted to.
 
-> [!NOTE]
-> Do not use the **Bal. Source Type** and **Bal. Source No.** fields in connection with incoming documents. They are for payment reconciliation only. For more information, see [How to: Map Text on Recurring Payments to Accounts for Automatic Reconciliation](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
+    > [!NOTE]
+    > Do not use the **Bal. Source Type** and **Bal. Source No.** fields in connection with incoming documents. They are used for payment reconciliation only. For more information, see [How to: Map Text on Recurring Payments to Accounts for Automatic Reconciliation](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 
-7. Repeat steps 2 through 6 for all text on payments that you want to map to accounts for direct posting without application.
+7. Repeat steps 2 through 6 for all text on incoming documents that you want to map to accounts for automatic document creation.
 
 ## To handle errors when receiving electronic documents
 1. In the **Incoming Documents** window, select the line for an electronic document received from the OCR service with errors. This is indicated by the Error value in the **OCR Status** field.

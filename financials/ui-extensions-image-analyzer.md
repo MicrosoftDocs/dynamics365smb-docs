@@ -1,6 +1,6 @@
 ---
 title: Using the Image Analyzer Extension | Microsoft Docs
-description: This extensions lets you analyze images of contact persons and items to find attributes, so you can quickly assign them in Financials.
+description: This extensions lets you analyze images of contact persons and items to find attributes, so you can quickly assign them in Dynamics 365.
 documentationcenter: ''
 author: bholtorf
 
@@ -15,7 +15,7 @@ ms.author: bholtorf
 
 ---
 
-# The Image Analyzer Extension for Microsoft Dynamics 365 for Financials
+# The Image Analyzer Extension for Microsoft Dynamics 365 Business edition
 The Image Analyzer extension uses powerful image analytics provided by the Computer Vision API for Microsoft Cognitive Services to detect attributes in the images that you import for items and contact persons, so you can easily review and assign them. For items, attributes could be whether the item is a table or a car, and whether it is red or blue. For contact persons, attributes can be gender or age.
 
 Image Analyzer suggests attributes based on tags that the Computer Vision API finds, and a confidence level. By default, it suggests attributes only if it is at least 80% sure that the attribute is correct. You can set another confidence level, if needed. To learn more about how the tags and confidence level are determined, see [Computer Vision API](https://go.microsoft.com/fwlink/?linkid=851476).  
@@ -44,12 +44,12 @@ The Image Analyzer extension is built-in to [!INCLUDE[d365fin](includes/d365fin_
 > To enable the Image Analyzer extension, you must be an administrator. Make sure that you are assigned the **SUPER** user permission set.
 
 1. To enable the Image Analyzer extension, do one of the following:
-  
+
 * Open an item or contact card. In the notification bar, choose **Analyze Images**, and then follow the steps in the assisted setup guide.  
 * Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Connections**, and then choose **Image Analysis Setup**. Choose the **Enable Image Analyzer** check box, and then complete the steps in the assisted setup guide.  
 
 >   [!TIP]  
->   The **Image Analysis Setup** page is also where you can change the degree of confidence for attribute suggestions. For example, if you want to require a greater degree of confidence, you can enter a higher percentage. 
+>   The **Image Analysis Setup** page is also where you can change the degree of confidence for attribute suggestions. For example, if you want to require a greater degree of confidence, you can enter a higher percentage.
 
 ## To analyze an image of an item
 The following steps describe how to analyze an image that was imported before you enabled the Image Analyzer extension.  
@@ -70,16 +70,16 @@ The following steps describe how to analyze an image that was imported before yo
 
 ## To use your own account for the Computer Vision API
 You can also use your own account for the Computer Vision API, for example, if you want to analyze more images than we allow.  
-  
+
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Image Analyzer Setup**, and then choose the related link.  
 2. Enter the **API URI** and **API Key** that you received for Computer Vision API.  
-  
+
 >   [!NOTE]  
 >   You must add **/analyze** at the end of the API URI, if it isn't already there. For example: ```https://cronus.api.cognitive.microsoft.com/vision/v1.0/analyze```.
 
 ## To see how many analyses you have left in the current period
 You can view the number of analyses you've done, and how many you can still do, in the current period.  
-  
+
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Image Analyzer Setup**, and then choose the related link.  
 2. The **Limit type**, **Limit value**, and **Analyzes performed** provide the usage information.  
 
@@ -90,5 +90,4 @@ You can view the number of analyses you've done, and how many you can still do, 
 ## See Also
 [How to: Work with Item Attributes](inventory-how-work-item-attributes.md)  
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
-[Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
-
+[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

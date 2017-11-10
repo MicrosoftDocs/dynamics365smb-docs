@@ -22,7 +22,7 @@ All of the external entities that you have business relationships with (for exam
 
 You can record information based on a company or a person at that company. You can also create an independent contact person for people who do not work for a particular company, but who work independently or freelance.
 
-The following table describes a sequence of tasks, with links to the topics that describe them. 
+The following table describes a sequence of tasks, with links to the topics that describe them.
 
 | To | See |
 | --- | --- |
@@ -33,4 +33,4 @@ The following table describes a sequence of tasks, with links to the topics that
 ## See Also
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
 [Setting Up Relationship Management](marketing-setup-marketing.md)  
-[Working with Financials](ui-work-product.md)  
+[Working with Dynamics 365](ui-work-product.md)  

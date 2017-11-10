@@ -1,6 +1,7 @@
 ---
 title: See content in other languages | Microsoft Docs
-description: You can view the Help content for Dynamics 365 for Financials in other languages.
+description: You can view the Help content for Dynamics 365 Business edition  in other languages.
+documentationcenter: ''
 author: edupont04
 
 ms.service: dynamics365-financials

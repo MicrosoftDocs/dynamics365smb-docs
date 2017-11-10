@@ -15,7 +15,7 @@ ms.date: 06/02/2017
 ms.author: edupont
 
 ---
-# Viewing List Data in Power BI Reports in Dynamics 365 for Financials
+# Viewing List Data in Power BI Reports in Dynamics 365 Business edition 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] includes a FactBox control element on a number of key list pages that provides additional insight into the data in the list. As you move between rows in the list, the report is updated and filtered for the selected entry. You can create custom reports to display in this control, but there are a few rules to follow when creating the reports to ensure they provide the desired behavior.  
 
 > [!NOTE]  

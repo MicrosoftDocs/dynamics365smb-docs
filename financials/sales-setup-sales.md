@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.date: 08/23/2017
+ms.date: 10/26/2017
 ms.author: sgroespe
 
 ---
@@ -32,7 +32,7 @@ Finance-related sales setup, such as payment methods and currencies, are covered
 | Set up salespeople so that you can assign them to customer contacts or measure salespeople's performance as a basis for calculating the sales commission or bonus. |[How to: Set Up Salespeople](sales-how-setup-salespeople.md) |
 | Specify for individual customers or for all customers how sales documents are sent by default when you choose the **Post and Send** action. |[How to: Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md) |
 | Set your email up to contain a summary of information in the sales document that is being sent. |[How to: Send Documents by Email](ui-how-send-documents-email.md). |
-|Use an EU web service to verify a customer's VAT registration number.|[How to: Verify VAT Registration Numbers](sales-how-to-verify-vat-registration-numbers.md)|
+|Use an EU web service to verify a customer's VAT registration number.|[How to: Verify VAT Registration Numbers](finance-setup-vat.md)|
 |Enter information about the different transportation vendors you use, including a link to their package tracking service.|[How to: Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md)|
 
 ## See Also

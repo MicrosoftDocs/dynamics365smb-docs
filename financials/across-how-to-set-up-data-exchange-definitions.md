@@ -69,7 +69,7 @@ Creating a data exchange definition involves two tasks:
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Code)**|Enter a code to identify the line in the file.|  
+    |**Code**|Enter a code to identify the line in the file.|  
     |**Name**|Enter a name that describes the line in the file.|  
     |**Column Count**|Specify how many columns the line in data file has. **Note:**  This field is only relevant for import.|  
     |**Data Line Tag**|Specify the position in the related XML schema of the element that represents the main entry of the data file. **Note:**  This field is only relevant for import.|  
@@ -98,7 +98,7 @@ Creating a data exchange definition involves two tasks:
 
 9. Repeat step 8 for every column or XML element in the data file that has data that you want to exchange with [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
- The next step in creating a data exchange definition is to decide which columns or XML elements in the data file map to which fields in [!INCLUDE[d365fin](includes/d365fin_md.md)]].  
+ The next step in creating a data exchange definition is to decide which columns or XML elements in the data file map to which fields in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!NOTE]  
 >  The specific mapping depends on the business purpose of the data file to be exchanged and on local variations. Even the SEPA bank standard has local variations. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports import of SEPA CAMT bank statement files out\-of\-the\-box. This is represented by the **SEPA CAMT** data exchange definition record code in the **Data Exchange Definitions** window. For information about the specific field mapping of this SEPA CAMT support, see [Field Mapping When Importing SEPA CAMT Files](across-field-mapping-when-importing-sepa-camt-files.md).  

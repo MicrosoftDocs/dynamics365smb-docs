@@ -22,10 +22,10 @@ You can view the availability of all items per location, and you can view the av
 > [!NOTE]  
 >   Availability views by location require that you maintain inventory at more than one location. For more information, see [How to: Set Up Locations](inventory-how-setup-locations.md).
 
-In [Using [!INCLUDE[d365fin](includes/d365fin_md.md)], availability figures are shown in two different fields, each with a different definition:
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], availability figures are shown in two different fields, each with a different definition:
 
 * The **Quantity on Hand** field shows the actual quantity today according to posted item ledger entries.
-* The **Projected Available Balance** field is calculated and shows the quantity on hand plus scheduled receipts minus gross requirements. (In [Using [!INCLUDE[d365fin](includes/d365fin_md.md)], scheduled receipts include quantities on purchase orders and inbound transfer orders. Gross requirements include quantities on sales orders and outbound transfer orders.)
+* The **Projected Available Balance** field is calculated and shows the quantity on hand plus scheduled receipts minus gross requirements. (In [!INCLUDE[d365fin](includes/d365fin_md.md)], scheduled receipts include quantities on purchase orders and inbound transfer orders. Gross requirements include quantities on sales orders and outbound transfer orders.)
 
 > [!TIP]  
 >   The projected available balance is especially relevant to view in the **Item Availability by Periods** and **Item Availability by Event** windows as they contain the date dimension.  
@@ -115,5 +115,5 @@ If one or more assembly components are not available, then this is reflected in 
 [How to: Set Up Locations](inventory-how-setup-locations.md)  
 [How to: Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)  
 [How to: Sell Products](sales-how-sell-products.md)      
-[Working with Financials](ui-work-product.md)  
+[Working with Dynamics 365](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)

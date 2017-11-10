@@ -171,7 +171,7 @@ Codeunit 408 Dimension Management is a function library that handles common task
 
  TestNewDimValue  
 
- MoveDimBufToItemBudgetDim. (Delete because the ItemBudgetDim Table is deleted.  
+ MoveDimBufToItemBudgetDim. (Delete because the ItemBudgetDim Table is deleted.)  
 
  GetServContractDim  
 

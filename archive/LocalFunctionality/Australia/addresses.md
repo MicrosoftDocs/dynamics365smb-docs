@@ -1,7 +1,7 @@
 ---
     title: Addresses in Australia
     description: A single postal code can include multiple cities in the same region.
-
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 

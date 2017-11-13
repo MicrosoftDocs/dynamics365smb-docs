@@ -1,11 +1,11 @@
 ---
-    title: How to Process Response Messages from Tax Authorities | Microsoft Docs
-    description: When you submit a VAT or ICP declaration to the tax authorities electronically, they will process the declaration and send you a message in response.
-    services: project-madeira
+    title: How to Set Up Certificates for use with Digipoort
+    description: Information about Digipoort certificates.
+
     documentationcenter: ''
     author: SorenGP
 
-    ms.service: dynamics365-financials
+    ms.prod: "dynamics-nav-2017"
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -15,45 +15,42 @@
     ms.author: sgroespe
 
 ---
-# How to: Process Response Messages from Tax Authorities
-When you submit a VAT or ICP declaration to the tax authorities electronically, they will process the declaration and send you a message in response.  
-  
- You can import the response into [!INCLUDE[d365fin](includes/d365fin_md.md)] by using the **Receive Response Messages** batch job. The response message will contain the status of the declaration.  
-  
-### To import messages from the tax authorities' server  
-  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Elec. Tax Decl. Response Msgs.**, and then choose the related link.  
-  
-2.  On the **Home** tab, in the **Process** group, choose **Receive Response Messages**.  
-  
-3.  On the **Options** FastTab, fill in the fields as described in the following table.  
-  
-    |Field|Description|  
-    |---------------------------------|---------------------------------------|  
-    |**CA Certificate Encryption Password**|The password that was used to encrypt the Certificate Authorities' certificates.|  
-    |**User Certificate Password**|The password that is used to encrypt the user certificates.|  
-  
-4.  Choose the **OK** button.  
-  
-### To process the response messages from the tax authorities  
-  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Elec. Tax Decl. Response Msgs.**, and then choose the related link.  
-  
-2.  On the **Home** tab, in the **Process** group, choose **Process Response Messages**.  
-  
-3.  In the **Process Response Messages Batch Job** window, on the **Elec. Tax Decl. Response Msg**. FastTab, select the appropriate filters.  
-  
-4.  Choose the **OK** button.  
-  
-     The processed information about the response message is displayed in the **Elec. Tax Decl. Response Msgs.**. window.  
-  
-5.  To export a message or attachment, on the **Actions** tab, in the **Functions** group, choose **Export Response Message** or **Export Response Attachment**.  
-  
+# How to: Set Up Certificates for use with Digipoort
+The following procedure assumes that you have obtained the certificates from the government. If you have not, take the following steps to obtain the certificates.  
+
+- Obtain a PKIoverheid certificate for the company if you do not have one already. A list of certificate providers can be found here: [http://www.logius.nl/producten/toegang/pkioverheid/aansluiten/toegetreden-csps](http://www.logius.nl/producten/toegang/pkioverheid/aansluiten/toegetreden-csps).  
+
+- Obtain a **Digipoort Service certificate**, which can be obtained at the Dutch Tax Administration website: <[https://aansluiten.procesinfrastructuur.nl](https://aansluiten.procesinfrastructuur.nl)>.  
+
+- Register a user of Digipoort, which can be done here: <[https://aansluiten.procesinfrastructuur.nl/site/registratie/nieuw](https://aansluiten.procesinfrastructuur.nl/site/registratie/nieuw)>.  
+
+After you register and log on to the official site, you can download the digiport server certificates from this site: <[https://aansluiten.procesinfrastructuur.nl/site/documentatie/certificaten](https://aansluiten.procesinfrastructuur.nl/site/documentatie/certificaten)>.  
+
+Next, you have to install the certificates. The certificates have to be installed on the server. Later, you will use the common name (CN) of the certificates in [!INCLUDE[navnow](../../includes/navnow_md.md)].  
+
+> [!NOTE]  
+>  In the Digipoort implementation you install certificates on the server. Users who need to be able to communicate with tax authorities via Digipoort will need access to the private key of the personal certificate on the server.  
+
+## To install the certificates  
+
+1.  Open the **Windows Certificate Console** to import the certificates that you have obtained from the government. For more information, see [How to: Use the Certificates Console](http://social.technet.microsoft.com/wiki/contents/articles/2167.how-to-use-the-certificates-console.aspx).  
+2.  Import the two certificates. For more information, [To import a certificate](http://social.technet.microsoft.com/wiki/contents/articles/2167.how-to-use-the-certificates-console.aspx#To_import_certificates).  
+
+    **Personal Certificate**  
+
+    1.  In the **Personal** section, choose the **Import** action. Make sure to set proper permissions to the private key.  
+    2.  Complete the **Certificate Import Wizard**.  
+
+    **Service Certificate**  
+
+    1.  In the **Trusted Publishers** section, choose the **Import** action  
+    2.  Complete the **Certificate Import Wizard**.  
+
+3.  Grant read permissions to the certificate for the user who is doing the submission.  
+
+    Right-click the certificate, choose the **All Tasks** action, and then choose the **Manage Private Keys** action. Select the user and in the **Permissions** box, select the **Allow Read** check box.  
+
+4.  Close the **Console** window.  
+
 ## See Also  
- [Electronic VAT and ICP Declarations](electronic-vat-and-icp-declarations.md)   
- [How to: Set Up VAT Categories](how-to-set-up-vat-categories.md)   
- [How to: Create Electronic VAT and ICP Declarations](how-to-create-electronic-vat-and-icp-declarations.md)   
- Elec. Tax Declaration Header Table   
- Elec. Tax Decl. Response Msg. Table   
- Receive Response Messages Batch Job   
- Process Response Messages Batch Job
+ [Digipoort Overview](digipoort-overview.md)

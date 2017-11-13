@@ -1,11 +1,11 @@
 ---
-    title: Recurring Journal Extension | Microsoft Docs
+    title: Recurring Journal Extension
     description: The recurring journal extension feature enables you to enter a line for a recurring journal.
-    services: project-madeira
+
     documentationcenter: ''
     author: SorenGP
 
-    ms.service: dynamics365-financials
+    ms.prod: "dynamics-nav-2017"
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -17,18 +17,14 @@
 ---
 # Recurring Journal Extension
 The recurring journal extension feature enables you to enter a line for a recurring journal.  
-  
+
 ## Recurring General Journal Line Card  
- The **Recurring General Journal** window enables you to fill in the recurring journal information.  
-  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Recurring General Journal**, and then choose the related link.  
-  
-2.  On the **Navigate** tab, in the **Account** group, choose **Card**.  
-  
+The **Recurring General Journal** window enables you to fill in the recurring journal information.  
+
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Recurring General Journal**, and then choose the related link.  
+2.  Choose the **Card** action.  
 3.  Fill the fields for the recurring general journal lines.  
-  
 4.  Post the journal.  
-  
+
 ## See Also  
- Recurring General Journal   
- [How to: Fill In Recurring Journals](how-to-fill-in-recurring-journals.md)
+[Working with General Journals](../../ui-work-general-journals.md)

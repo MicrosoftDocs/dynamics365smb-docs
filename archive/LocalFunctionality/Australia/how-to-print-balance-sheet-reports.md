@@ -1,11 +1,11 @@
 ---
-    title: How to Print Balance Sheet Reports | Microsoft Docs
+    title: How to Print Balance Sheet Reports 
     description: You can use the **Balance Sheet** report to view the company’s balance sheet.
-    services: project-madeira
+    
     documentationcenter: ''
     author: SorenGP
 
-    ms.service: dynamics365-financials
+    ms.prod: "dynamics-nav-2017"
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -22,9 +22,9 @@ You can use the **Balance Sheet** report to view the company’s balance sheet.
   
 ### To print a balance sheet report  
   
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Balance Sheet**, and then choose the relevant link.  
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Balance Sheet**, and then choose the relevant link.  
   
-2.  In the **Balance Sheet** window, on the **ADD INCLUDE<!--[!INCLUDE[bp_optionsheading](../../includes/bp_optionsheading_md.md)]-->** FastTab, fill in the fields as described in the following table.  
+2.  In the **Balance Sheet** window, on the **Options** FastTab, fill in the fields as described in the following table.  
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

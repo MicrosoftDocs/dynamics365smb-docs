@@ -1,11 +1,11 @@
 ---
-    title: How to Set Up Remittance Agreements | Microsoft Docs
-    description: You must sign an agreement of remittance with the bank when you set up electronic payments. You can create more than one remittance agreement if you have an agreement with two or more banks. For each agreement, you must specify one or more accounts from which the payment should be made. For each account, you must create a remittance account. For more information, see [How to: Create Remittance Accounts](how-to-create-remittance-accounts.md).
-    services: project-madeira
+    title: How to Set Up Remittance Agreements
+    description: You must sign an agreement of remittance with the bank when you set up electronic payments. You can create more than one remittance agreement if you have an agreement with two or more banks.
+
     documentationcenter: ''
     author: SorenGP
 
-    ms.service: dynamics365-financials
+    ms.prod: "dynamics-nav-2017"
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -17,23 +17,21 @@
 ---
 # How to: Set Up Remittance Agreements
 You must sign an agreement of remittance with the bank when you set up electronic payments. You can create more than one remittance agreement if you have an agreement with two or more banks. For each agreement, you must specify one or more accounts from which the payment should be made. For each account, you must create a remittance account. For more information, see [How to: Create Remittance Accounts](how-to-create-remittance-accounts.md).  
-  
-### To set up a remittance agreement  
-  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Remittance Agreement Overview**, and then choose the related link.  
-  
-2.  On the **Home** tab, in the **New** group, choose **New**.  
-  
+
+## To set up a remittance agreement  
+
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Remittance Agreement Overview**, and then choose the related link.  
+2.  Choose the **New** action.  
 3.  On the **General** FastTab, fill in the fields as described in the following table.  
-  
+
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Specify the agreement code from the bank.|  
     |**Description**|Specify a name for the agreement, such as the name of the bank.|  
     |**Payment System**|Select the payment system that will be used. Payment systems include **DnB Telebank**, **K-LINK**, **SparNett**, **Fokus Bank**, **Postbanken**, **Other bank**, and **BBS**.|  
-  
+
 4.  On the **Bank** FastTab, fill in the fields as described in the following table.  
-  
+
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Operator No.**|Specify the operator information given by the bank.|  
@@ -42,46 +40,44 @@ You must sign an agreement of remittance with the bank when you set up electroni
     |**Latest Sequence No.**|Specify the latest sequence number.|  
     |**Latest Daily Sequence No.**|Specify the latest daily sequence number.|  
     |**Latest Export**|Specify the date of the latest export.|  
-  
+
 5.  On the **BBS** FastTab, fill in the fields as described in the following table.  
-  
+
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**BBS Customer Unit ID**|Specify the identification of the agreement for Bankernes Betalingssentral (BBS). This code is provided by BBS.|  
     |**Latest BBS Payment Order No.**|Specify the entry number that was used when payment was sent to BBS.|  
-  
+
 6.  On the **Send** FastTab, fill in the field as described in the following table.  
-  
+
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Payment File Name**|Specify the path and the name of the file that contains the electronic payment order that was sent to the bank.|  
-  
+
 7.  On the **Receive** FastTab, fill in the fields as described in the following table.  
-  
-    |Field|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
+
+    |Field|Description|  
     |-----------|---------------------------------------|  
     |**Save Return File**|Select to automatically name the return file after it is imported without errors.|  
     |**Receipt Return Required**|Select to verify that the first-time return report is imported.|  
     |**Return File Is Not In Use**|Select if you do not want to use return files for approval and settlement of payment. You can use this feature if you do not want to update payments with return information from the bank.|  
     |**On Hold Rejection Code**|Enter the code to update a rejected vendor ledger entry. The ledger entry will be marked as **On Hold**, which means that after rejection, it is not added to the remittance proposal again.<br /><br /> If the code is blank, the entry is not marked as **On Hold**, which means that after rejection it can be added to a remittance proposal again.|  
-  
+
 8.  On the **Finance** FastTab, fill in the field as described in the following table.  
-  
+
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**New Document Per Field**|Specify how documents are numbered when payments are posted. Options include **Date**, **Vendor**, and **Specified for account**.|  
-  
-9. On the **Navigate** tab, in the **Receive** group, choose **Return File Setup List**.  
-  
-10. In the **Return File Setup List** window, on the **Home** tab, in the **New** group, choose **New**.  
-  
+
+9. Choose the **Return File Setup List** action.  
+10. In the **Return File Setup List** window, choose the **New** action.  
 11. Enter the return file name in the **Return File Name** field.  
-  
+
     > [!NOTE]  
     >  At a minimum, you must set up one file name for each receipt return, rejected return, and settlement return. Contact your bank about the naming conventions that it uses.  
-  
+
 12. Choose the **OK** button.  
-  
+
 ## See Also  
  [Electronic Payments to Vendors in Norway](electronic-payments-to-vendors-in-norway.md)   
  [How to: Create Remittance Accounts](how-to-create-remittance-accounts.md)   

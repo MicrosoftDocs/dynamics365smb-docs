@@ -1,11 +1,11 @@
 ---
-    title: How to Post Tax Differences | Microsoft Docs
+    title: How to Post Tax Differences
     description: The **Tax Difference Journal** is used to create and post tax difference transactions. Tax differences are variations in tax amounts caused by the different rules for recognizing income and expenses between entries for book accounting and tax accounting.
-    services: project-madeira
+
     documentationcenter: ''
     author: SorenGP
 
-    ms.service: dynamics365-financials
+    ms.prod: "dynamics-nav-2017"
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -17,15 +17,14 @@
 ---
 # How to: Post Tax Differences
 The **Tax Difference Journal** is used to create and post tax difference transactions. Tax differences are variations in tax amounts caused by the different rules for recognizing income and expenses between entries for book accounting and tax accounting.  
-  
- You can use the **Tax Difference Journal** to manually create tax difference journal entries or you can modify existing entries created by periodic tax difference calculation activities. When you post the **Tax Difference Journal**, tax differences entries are posted to the selected posting groups.  
-  
-### To post tax differences  
-  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Tax Difference Journal**, and then choose the related link.  
-  
+
+You can use the **Tax Difference Journal** window to manually create tax difference journal entries or you can modify existing entries created by periodic tax difference calculation activities. When you post the **Tax Difference Journal** window, tax differences entries are posted to the selected posting groups.  
+
+## To post tax differences  
+
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Tax Difference Journals**, and then choose the related link.  
 2.  Fill in the fields as described in the following table.  
-  
+
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Posting Date**|Enter the transaction date.|  
@@ -56,11 +55,10 @@ The **Tax Difference Journal** is used to create and post tax difference transac
     |**Disposal Mode**|Select if you want to write down the tax difference or transform it into a constant difference.|  
     |**Disposal Date**|Enter the date of the item’s disposal.|  
     |**Partial Disposal**|Select if you want to dispose of an item that causes differences in the expense or income code. If this field is not selected, the tax differences are written off.|  
-  
-3.  On the **Action Pane**, in the **Process** actions group, choose the **Post** button. The tax difference journal transaction is posted.  
-  
-4.  On the **Action Pane**, in the **Process** actions group, choose **Ledger Entries** to open the **Tax Diff. Ledger Entry** window and review the posted entries.  
-  
+
+3.  Choose the **Post** action. The tax difference journal transaction is posted.  
+4.  Choose the **Ledger Entries** action to open the **Tax Diff. Ledger Entry** window and review the posted entries.  
+
 ## See Also  
  [Tax Differences](tax-differences.md)   
  [Setting up Tax Difference Calculation](setting-up-tax-difference-calculation.md)   

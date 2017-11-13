@@ -1,11 +1,11 @@
 ---
-    title: Australia Local Functionality | Microsoft Docs
-    description: The following topics describe the local functionality in the Australian version of [!INCLUDE[d365fin](includes/d365fin_md.md)].
-    services: project-madeira
+    title: Australia Local Functionality
+    description: The following topics describe the local functionality in the Australian version of [!INCLUDE[navnow](../../includes/navnow_md.md)].
+
     documentationcenter: ''
     author: SorenGP
 
-    ms.service: dynamics365-financials
+    ms.prod: "dynamics-nav-2017"
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -16,10 +16,9 @@
 
 ---
 # Australia Local Functionality
-The following topics describe the local functionality in the Australian version of [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+The following topics describe local functionality that is unique to the Australian version of [!INCLUDE[navnow](../../includes/navnow_md.md)].  
 
 ## In This Section  
- [What's New 11](what-s-new-11.md)  
   [Australian Business Numbers and Adjustment Notes](australian-business-numbers-and-adjustment-notes.md)  
   [Business Activity Statements](business-activity-statements.md)  
   [Tax](tax.md)  
@@ -32,4 +31,7 @@ The following topics describe the local functionality in the Australian version 
   [How to: Compare Bank Cash Flow](how-to-compare-bank-cash-flow.md)  
   [How to: Print Deposit Slip Reports](how-to-print-deposit-slip-reports.md)  
   [How to: Print Bank Account Reconciliation Reports](how-to-print-bank-account-reconciliation-reports.md)  
-  [How to: Create Check Installments](how-to-create-check-installments.md)  
+  [How to: Create Check Installments](how-to-create-check-installments.md)
+
+## See Also
+[Working with [!INCLUDE[navnow](../../includes/navnow_md.md)]](../../ui-work-product.md)  

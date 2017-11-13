@@ -1,11 +1,11 @@
 ---
-    title: How to Set Up Electronic Invoicing | Microsoft Docs
-    description: Before you can send electronic documents, you must set up [!INCLUDE[d365fin](includes/d365fin_md.md)] to ensure that the tax identification number (RFC), personal identification number (CURP), and state inscription IDs are available for your company and all your customers and vendors. You also need to set up the parameters that are needed for sending electronic invoices to customers and vendors. These parameters include the certificate thumbprint, which is the certificate that you received from the Mexico tax authority (SAT).
-    services: project-madeira
+    title: How to Set Up Electronic Invoicing
+    description: Before you can send electronic documents, you must set up [!INCLUDE[navnow](../../includes/navnow_md.md)] to ensure that the tax identification number (RFC), personal identification number (CURP), and state inscription IDs are available for your company and all your customers and vendors.
+
     documentationcenter: ''
     author: SorenGP
 
-    ms.service: dynamics365-financials
+    ms.prod: "dynamics-nav-2017"
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -16,17 +16,16 @@
 
 ---
 # How to: Set Up Electronic Invoicing
-Before you can send electronic documents, you must set up [!INCLUDE[d365fin](includes/d365fin_md.md)] to ensure that the tax identification number (RFC), personal identification number (CURP), and state inscription IDs are available for your company and all your customers and vendors. You also need to set up the parameters that are needed for sending electronic invoices to customers and vendors. These parameters include the certificate thumbprint, which is the certificate that you received from the Mexico tax authority (SAT).  
+Before you can send electronic documents, you must set up [!INCLUDE[navnow](../../includes/navnow_md.md)] to ensure that the tax identification number (RFC), personal identification number (CURP), and state inscription IDs are available for your company and all your customers and vendors. You also need to set up the parameters that are needed for sending electronic invoices to customers and vendors. These parameters include the certificate thumbprint, which is the certificate that you received from the Mexico tax authority (SAT).  
 
 > [!IMPORTANT]  
 >  The certificate that you received from the Mexico tax authority must be installed for each user who sends electronic invoices. For more information, see the [Servicio de Administracíon Tributaria](http://go.microsoft.com/fwlink/?LinkId=242772) website.  
 >   
 >  Your company must also have SMTP mail set up for emailing electronic invoices. Depending on the configuration in your company, you may need to grant explicit SMTP permissions to each relevant user and computer. The documents will be sent from the address that is specified in the **Company Information** window.  
 
-### To set up company information  
+## To set up company information  
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.  
-
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.  
 2.  In the **Company Information** window, on the **Tax** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -36,12 +35,9 @@ Before you can send electronic documents, you must set up [!INCLUDE[d365fin](inc
     |**PAC Code**|Specify the authorized service provider, PAC, that you want apply digital stamps to your electronic invoices. **Note:**  To use a PAC, you must set up web services. For more information, see [How to: Set Up PAC Web Services](how-to-set-up-pac-web-services.md).|  
     |**PAC Environment**|Specify if your company uses electronic invoices, and if you are using the web services of your authorized service provider, PAC, in a test environment or a production environment.|  
 
- Optionally, you can ask your Microsoft Certified Partner to modify the text that is included in the email that is sent when you send electronic invoices. The text is stored as text variables in codeunit 10145.  
+Optionally, you can ask your Microsoft Certified Partner to modify the text that is included in the email that is sent when you send electronic invoices. The text is stored as text variables in codeunit 10145.  
 
 ## See Also  
  [Electronic Invoicing](electronic-invoicing.md)   
  [How to: Generate Electronic Invoices](how-to-generate-electronic-invoices.md)   
- Company Information   
- Customer Card   
- Vendor Card   
- General Ledger Setup
+ [Mexico Local Functionality](mexico-local-functionality.md)

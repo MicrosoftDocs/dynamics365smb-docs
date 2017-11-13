@@ -1,11 +1,11 @@
 ---
-    title: Calculating Distribution Amounts | Microsoft Docs
+    title: Calculating Distribution Amounts 
     description: You can reallocate the amount in one general ledger account to other general ledger accounts so that the balances of your accounts remain proportionate to one another.
-    services: project-madeira
+    
     documentationcenter: ''
     author: SorenGP
 
-    ms.service: dynamics365-financials
+    ms.prod: "dynamics-nav-2017"
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na

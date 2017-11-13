@@ -1,11 +1,11 @@
 ---
-    title: Tax | Microsoft Docs
-    description: [!INCLUDE[emptyBookNodeText](../../includes/emptybooknodetext_md.md)]
-    services: project-madeira
+    title: Australian Tax
+    description: Tax functionality in Australia is described in several topics.
+
     documentationcenter: ''
     author: SorenGP
 
-    ms.service: dynamics365-financials
+    ms.prod: "dynamics-nav-2017"
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -16,10 +16,8 @@
 
 ---
 # Tax
-[!INCLUDE[emptyBookNodeText](../../includes/emptybooknodetext_md.md)]  
+For information about tax in Australia, see the following topics:  
 
-## See Also
-[Australia Local Functionality](australia-local-functionality.md)  
 [How to: Set Up Withholding Tax](how-to-set-up-withholding-tax.md)  
 [How to: Set Up Vendors Without ABN for Calculating the Withholding Tax](how-to-set-up-vendors-without-abn-for-calculating-the-withholding-tax.md)  
 [How to: Set Up Revenue Types for Withholding Tax](how-to-set-up-revenue-types-for-withholding-tax.md)  
@@ -32,3 +30,6 @@
 [How to: Adjust Settlement Exchange Rates for VAT Entries](how-to-adjust-settlement-exchange-rates-for-vat-entries.md)  
 [How to: View Posted Tax Invoices](how-to-view-posted-tax-invoices.md)  
 [How to: View Posted Tax Credit Memos](how-to-view-posted-tax-credit-memos.md)
+
+## See Also
+[Australia Local Functionality](australia-local-functionality.md)  

@@ -1,11 +1,11 @@
 ---
-    title: How to Set Up Future Expenses in a Depreciation Book | Microsoft Docs
+    title: How to Set Up Future Expenses in a Depreciation Book
     description: To depreciate a future expense, you have to set up future period expenses in a depreciation book.
-    services: project-madeira
+
     documentationcenter: ''
     author: SorenGP
 
-    ms.service: dynamics365-financials
+    ms.prod: "dynamics-nav-2017"
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -17,13 +17,12 @@
 ---
 # How to: Set Up Future Expenses in a Depreciation Book
 To depreciate a future expense, you have to set up future period expenses in a depreciation book.  
-  
-### To set up future expenses in a depreciation book  
-  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Books**, and then choose the related link.  
-  
+
+## To set up future expenses in a depreciation book  
+
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Books**, and then choose the related link.  
 2.  On the **General** FastTab, fill in the fields as described in the following table.  
-  
+
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Specifies the code for the depreciation book.|  
@@ -48,32 +47,20 @@ To depreciate a future expense, you have to set up future period expenses in a d
     |**Fiscal Year 365 Days**|Specifies if the fiscal year equals 365 days.|  
     |**Mark Errors as Corrections**|Specifies if errors are marked as corrections.|  
     |**Control FA Acquis.Cost**|Specifies if fixed asset acquisition costs are controlled.|  
-  
+
 3.  On the **Integration** FastTab, select all options.  
-  
-4.  On the **Navigate** tab, in the **Depr. Book** group, choose **FA Journal Setup**.  
-  
+4.  Choose the **FA Journal Setup** action.  
 5.  In the **FA Journal Setup window**, fill in the **Gen. Jnl. Template Name** and **Gen. Jnl. Batch Name** fields.  
-  
 6.  Choose the **OK** button.  
-  
-7.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA Setup**, and then choose the related link.  
-  
+7.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA Setup**, and then choose the related link.  
 8.  In the **Fixed Asset Setup** window, on the **General** FastTab, fill in the **Future Depr. Book** field and then choose the **OK** button.  
-  
-9. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Chart of Accounts**, and then choose the related link.  
-  
+9. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Chart of Accounts**, and then choose the related link.  
 10. Open the relevant account, and in the **G/L Account Card** window, on the **Posting** FastTab, fill in the **Gen. Prod. Posting Group** and the **VAT Prod. Posting Group** fields, and then choose the **OK** button.  
-  
-11. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA Posting Groups**, and then choose the related link.  
-  
+11. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA Posting Groups**, and then choose the related link.  
 12. In the **FA Posting Groups** window, enter information in the required fields.  
-  
 13. Choose the **OK** button.  
-  
+
 ## See Also  
- Fixed Asset Setup   
- [Fixed Assets Accounting Setup](fixed-assets-accounting-setup.md)   
- Fixed Asset Card   
+ [Fixed Assets](../../fa-manage.md)     
  [Future Expenses (Deferrals)](future-expenses-deferrals-.md)   
  [How to: Create Future Expense Journals](how-to-create-future-expense-journals.md)

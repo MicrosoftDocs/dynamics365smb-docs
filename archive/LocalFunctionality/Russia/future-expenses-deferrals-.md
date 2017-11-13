@@ -1,11 +1,11 @@
 ---
-    title: Future Expenses (Deferrals) | Microsoft Docs
-    description: The future expenses (deferrals) feature enables you to:
-    services: project-madeira
+    title: Future Expenses (Deferrals)
+    description: The future expenses (deferrals) feature enables you to post future expenses to the Future Expenses account, generate a list of future expenses and a card for each expense, to reflect the current status of the expense, and more.
+       
     documentationcenter: ''
     author: SorenGP
 
-    ms.service: dynamics365-financials
+    ms.prod: "dynamics-nav-2017"
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -17,22 +17,18 @@
 ---
 # Future Expenses (Deferrals)
 The future expenses (deferrals) feature enables you to:  
-  
--   Post future expenses to the Future Expenses account.  
-  
--   Generate a list of future expenses and a card for each expense, to reflect the current status of the expense.  
-  
--   Purchase a future expense.  
-  
--   Depreciate a future expense.  
-  
+
+- Post future expenses to the Future Expenses account.  
+- Generate a list of future expenses and a card for each expense, to reflect the current status of the expense.  
+- Purchase a future expense.  
+- Depreciate a future expense.  
+
 ## Purchase of Future Period Expenses  
- To account for future period expenses, you must:  
-  
--   Create a Future Expenses card.  
-  
--   Create and post purchase invoices for the future expense.  
-  
+To account for future period expenses, you must:  
+
+- Create a future expenses card.  
+- Create and post purchase invoices for the future expense.  
+
 ## See Also  
  [How to: Create Future Expense Journals](how-to-create-future-expense-journals.md)   
  [How to: Create and Post a Purchase Invoice on a Future Expense](how-to-create-and-post-a-purchase-invoice-on-a-future-expense.md)   

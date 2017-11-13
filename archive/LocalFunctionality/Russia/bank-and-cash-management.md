@@ -1,11 +1,11 @@
 ---
-    title: Bank and Cash Management | Microsoft Docs
-    description: [!INCLUDE[emptyBookNodeText](../../includes/emptybooknodetext_md.md)]
-    services: project-madeira
+    title: Bank and Cash Management
+    description: Russian functionality for bank and cash management in described in several topics.
+
     documentationcenter: ''
     author: SorenGP
 
-    ms.service: dynamics365-financials
+    ms.prod: "dynamics-nav-2017"
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -16,9 +16,9 @@
 
 ---
 # Bank and Cash Management
-[!INCLUDE[emptyBookNodeText](../../includes/emptybooknodetext_md.md)]
+Russian functionality for bank and cash management in described in several topics.
 
-##See Also
+## In This Section
 [Bank Management](bank-management.md)  
 [Petty Cash Management](petty-cash-management.md)  
 [How to: Set Up a Bank Payment Order](how-to-set-up-a-bank-payment-order.md)  

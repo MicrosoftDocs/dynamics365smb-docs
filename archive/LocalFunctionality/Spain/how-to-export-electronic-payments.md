@@ -1,11 +1,11 @@
 ---
-    title: How to Export Electronic Payments | Microsoft Docs
-    description: In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can export payment journal entries into a file format according to four different payment standards. You must use the following windows to export according to the different payment standards.
-    services: project-madeira
+    title: How to Export Electronic Payments
+    description: In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can export payment journal entries into a file format according to four different payment standards. You must use the following windows to export according to the different payment standards.
+
     documentationcenter: ''
     author: SorenGP
 
-    ms.service: dynamics365-financials
+    ms.prod: "dynamics-nav-2017"
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -16,32 +16,30 @@
 
 ---
 # How to: Export Electronic Payments
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can export payment journal entries into a file format according to four different payment standards. You must use the following windows to export according to the different payment standards.  
-  
+In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can export payment journal entries into a file format according to four different payment standards. You must use the following windows to export according to the different payment standards.  
+
 |Payment standard|Window to export from|  
 |----------------------|---------------------------|  
 |AEB N34|**Payment Orders**|  
 |AEB N34.1|**Payment Orders**|  
 |E-PAY|**Payment Journal**|  
 |SEPA|**Payment Journal** or **Payment Orders**|  
-  
+
 > [!IMPORTANT]  
 >  Before you can export a payment, you must select a payment format in the **Payment Export Format** field in the **Bank Account Card** window.  
-  
-### To export electronic payments using the Payment Orders window  
-  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Orders**, and then choose the related link.  
-  
+
+## To export electronic payments using the Payment Orders window  
+
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Orders**, and then choose the related link.  
 2.  Select the documents that you want to pay.  
-  
-3.  On the **Home** tab, in the **Process** group, choose **Export to File**.  
-  
-     Payments of type SEPA will be exported to a file immediately.  
-  
-     Payments of type N34 or N34.1 will be exported when you run the **Payment order - Export N34** or **PO - Export N34.1** report, which automatically opens when you choose **Export** in step 3.  
-  
+3.  Choose THE **Export to File** action.  
+
+    Payments of type SEPA will be exported to a file immediately.  
+
+    Payments of type N34 or N34.1 will be exported when you run the **Payment order - Export N34** or **PO - Export N34.1** report, which automatically opens when you choose **Export** in step 3.  
+
 4.  In the **PO - Export N34.1** window, fill in the fields as described in the following table.  
-  
+
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Bank Account No.**|Select the bank account from which the payments will be exported.|  
@@ -52,28 +50,26 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can export payment journal e
     |**Payment Order Concept.)**|Specify the payment order concept, either **Payroll**, **Retirement Payroll**, or **Others**.|  
     |**Relation**|Specify if you want the bank to send you a detailed list of all transfer charges. If you do not select this field, the bank will send the total of all charges for all the transfers made.|  
     |**Number Of Copies**|Specify the number of additional copies of the remittance advice that will be printed by this process. One document is always printed so that it can be mailed to the payee.|  
-  
-5.  Choose **Print** or **Preview** to see the created payment file.  
-  
-     The payment journal entries which have the **Bank Payment Type** field set to **Electronic Payment** will be exported. The data will be exported to a file that is formatted according the N34 or N34.1 standard format. In addition, remittance advice will be printed, which is suitable for mailing to each payee.  
-  
+
+5.  Choose the **Print** or the **Preview** action to see the created payment file.  
+
+    The payment journal entries which have the **Bank Payment Type** field set to **Electronic Payment** will be exported. The data will be exported to a file that is formatted according the N34 or N34.1 standard format. In addition, remittance advice will be printed, which is suitable for mailing to each payee.  
+
     > [!NOTE]  
     >  You can only post the payment order after you have successfully exported the electronic payments.  
-  
-### To export electronic payments using the Payment Journal window  
-  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.  
-  
+
+## To export electronic payments using the Payment Journal window  
+
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.  
 2.  Select the documents that you want to pay.  
-  
 3.  On the **Navigate** tab, choose **Electronic Payments**, and then choose **Export**.  
-  
-     Payments of type SEPA will be exported to a file immediately.  
-  
-     Payments of type E-PAY will be exported when you run the **Export Electronic Payments** report, which automatically opens when you choose **Export** in step 3.  
-  
+
+    Payments of type SEPA will be exported to a file immediately.  
+
+    Payments of type E-PAY will be exported when you run the **Export Electronic Payments** report, which automatically opens when you choose **Export** in step 3.  
+
 4.  In the **Export Electronic Payments** window, fill in the fields as described in the following table.  
-  
+
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Bank Account No.**|Select the bank account from which the payments will be exported.|  
@@ -84,23 +80,22 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can export payment journal e
     |**Payment Order Concept.)**|Specify the payment order concept, either **Payroll**, **Retirement Payroll**, or **Others**.|  
     |**Relation**|Specify if you want the bank to send you a detailed list of all transfer charges. If you do not select this field, the bank will send the total of all charges for all the transfers made.|  
     |**Number Of Copies**|Specify the number of additional copies of the remittance advice that will be printed by this process. One document is always printed so that it can be mailed to the payee.|  
-  
-5.  Choose **Print** or **Preview** to see the created payment file.  
-  
-     The payment journal entries which have the **Bank Payment Type** field set to **Electronic Payment** will be exported. The data will be exported to a file that is formatted according to the selected payment standard. In addition, remittance advice will be printed, which is suitable for mailing to each payee.  
-  
+
+5.  Choose the **Print** or the **Preview** action to see the created payment file.  
+
+    The payment journal entries which have the **Bank Payment Type** field set to **Electronic Payment** will be exported. The data will be exported to a file that is formatted according to the selected payment standard. In addition, remittance advice will be printed, which is suitable for mailing to each payee.  
+
     > [!NOTE]  
     >  You can only post the payment order after you have successfully exported the electronic payments.  
-  
+
     > [!NOTE]  
-    >  In the generic version of ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
-  
-### To export electronic payments from the Cartera module  
-  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **PO - Export N34.1**, and then choose the related link.  
-  
+    >  In the generic version of [!INCLUDE[navnow](../../includes/navnow_md.md)], the **Payment Journal** window is used in a similar way to export electronic payments in the SEPA Credit Transfer format. For more information, see [How to: Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
+
+## To export electronic payments from the Cartera module  
+
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **PO - Export N34.1**, and then choose the related link.  
 2.  Fill in the fields as described in the following table.  
-  
+
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Delivery Date**|Specify the delivery date of the electronic payment.|  
@@ -109,14 +104,12 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can export payment journal e
     |**Relation**|Specify if you want the bank to send you a detailed list of all transfer charges. If you do not select this field, the bank will send the total of all charges for all the transfers made.|  
     |**Number Of Copies**|Specify the number of additional copies of the remittance advice that will be printed by this process. One document is always printed so that it can be mailed to the payee.|  
     |**Shared (Only Internation Transf.)**|Specify if you want to share the expenses between the payer and the payee. This is only applicable for international transfers.|  
-  
+
 > [!NOTE]  
 >  You can only post the payment order after you have successfully exported the electronic payments.  
-  
+
 ## See Also  
- Payment Orders   
- Payment Journal   
- [Electronic Payments – AEB N34.1](electronic-payments-%E2%80%93-aeb-n34.1.md)   
+ [Electronic Payments – AEB N34.1](electronic-payments-aeb-n341.md)   
  Export Electronic Payments   
  [How to: Set Up Bank Accounts for Electronic Payments](how-to-set-up-bank-accounts-for-electronic-payments.md)   
- [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+ [How to: Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)

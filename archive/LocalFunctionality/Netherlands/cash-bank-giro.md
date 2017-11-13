@@ -1,11 +1,11 @@
 ---
-    title: Cash-Bank-Giro | Microsoft Docs
+    title: Cash-Bank-Giro 
     description: Cash/Bank/Giro helps you posting both cash and bank/giro transactions into the system in an easier and more direct way than using the General Journals.
-    services: project-madeira
+    
     documentationcenter: ''
     author: SorenGP
 
-    ms.service: dynamics365-financials
+    ms.prod: "dynamics-nav-2017"
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na

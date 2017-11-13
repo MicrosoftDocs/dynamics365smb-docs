@@ -1,11 +1,11 @@
 ---
-    title: Icelandic Tax Regulations of Conditional Discounts | Microsoft Docs
+    title: Icelandic Tax Regulations of Conditional Discounts
     description: In Iceland, it is a legal requirement to issue a credit memo if a conditional discount has been given.
-    services: project-madeira
+
     documentationcenter: ''
     author: SorenGP
 
-    ms.service: dynamics365-financials
+    ms.prod: "dynamics-nav-2017"
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -17,10 +17,10 @@
 ---
 # Icelandic Tax Regulations of Conditional Discounts
 In Iceland, it is a legal requirement to issue a credit memo if a conditional discount has been given.  
-  
- The local tax regulation of conditional discounts feature enables you to issue a credit memo if a conditional discount is given to a customer. The payment for a conditional discount must be made within a specified period.  
-  
- On the Sales and Receivables Setup form, a field has been added for number series for credit invoices. A new field has also been added in the Customer Ledger Entry table to link the appropriate entries to a credit invoice.  
-  
+
+The local tax regulation of conditional discounts feature enables you to issue a credit memo if a conditional discount is given to a customer. The payment for a conditional discount must be made within a specified period.  
+
+On the Sales and Receivables Setup form, a field has been added for number series for credit invoices. A new field has also been added in the Customer Ledger Entry table to link the appropriate entries to a credit invoice.  
+
 ## See Also  
- Sales & Receivables Setup
+[Setting Up Sales](../../sales-setup-sales.md)

@@ -1,11 +1,11 @@
 ---
-    title: How to Generate Payment Suggestions | Microsoft Docs
+    title: How to Generate Payment Suggestions
     description: After you have set up electronic banking, you can start generating payment suggestions. You can do this in the payment journal.
-    services: project-madeira
+
     documentationcenter: ''
     author: SorenGP
 
-    ms.service: dynamics365-financials
+    ms.prod: "dynamics-nav-2017"
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -17,15 +17,13 @@
 ---
 # How to: Generate Payment Suggestions
 After you have set up electronic banking, you can start generating payment suggestions. You can do this in the payment journal.  
-  
-### To generate payment suggestions  
-  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.  
-  
-2.  Select the appropriate journal batch, and on the **Home** tab, in the **Progress** group, choose **Suggest Vendor Payments**.  
-  
+
+## To generate payment suggestions  
+
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.  
+2.  Select the appropriate journal batch, and then choose the **Suggest Vendor Payments** action.  
 3.  In the **Suggest Vendor Payments EB**  window, on the **Options** FastTab, fill in the fields as described in the following table.  
-  
+
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Last Due Date**|Enter the last due date that can appear on the vendor ledger entries to be included in the batch job.|  
@@ -34,13 +32,12 @@ After you have set up electronic banking, you can start generating payment sugge
     |**Payment Discount Date**|Enter the date that will be used to calculate a payment discount.|  
     |**Available Amount**|If there is a maximum amount available for payments, you can enter it here. The batch job will then create a payment suggestion based on this amount and the priority of vendors.|  
     |**Posting Date**|Enter the date that will appear as the posting date on the lines that the batch job inserts in the payment journal.|  
-  
+
 4.  On the **Vendor** FastTab, enter the filter criteria.  
-  
 5.  Choose the **OK** button to start the batch job.  
-  
-     When the batch job is finished, the payment journal contains all vendor ledger entries that match the filters.  
-  
+
+When the batch job is finished, the payment journal contains all vendor ledger entries that match the filters.  
+
 ## See Also  
  [Belgian Electronic Payments](belgian-electronic-payments.md)   
  [How to: Set Up Vendors for Automatic Payment Suggestions](how-to-set-up-vendors-for-automatic-payment-suggestions.md)   

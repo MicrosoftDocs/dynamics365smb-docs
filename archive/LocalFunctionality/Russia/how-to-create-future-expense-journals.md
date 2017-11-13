@@ -1,11 +1,11 @@
 ---
-    title: How to Create Future Expense Journals | Microsoft Docs
+    title: How to Create Future Expense Journals
     description: Future expense journals are used to post expenses to a special account on a monthly basis. These future expenses are later included as expenses. VAT is deducted when future expenses are included in current expenses.
-    services: project-madeira
+
     documentationcenter: ''
     author: SorenGP
 
-    ms.service: dynamics365-financials
+    ms.prod: "dynamics-nav-2017"
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -17,27 +17,25 @@
 ---
 # How to: Create Future Expense Journals
 Future expense journals are used to post expenses to a special account on a monthly basis. These future expenses are later included as expenses. VAT is deducted when future expenses are included in current expenses.  
-  
- You must select **Future Expenses** in the **Type** field of the **General Journal Templates** window. In addition, be sure you select the **Recurring** and **Copy VAT Setup to Jnl. Lines** check boxes in the **General. Journal Templates** window.  
-  
-### To create future expense journals  
-  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Posting Setup**, and then choose the related link. Use the **VAT Posting Setup** window to create VAT posting groups. For more information, see [How to: Set Up VAT Product Posting Groups](how-to-set-up-vat-business-posting-groups.md).  
-  
+
+You must select **Future Expenses** in the **Type** field of the **General Journal Templates** window. In addition, be sure you select the **Recurring** and **Copy VAT Setup to Jnl. Lines** check boxes in the **General. Journal Templates** window.  
+
+## To create future expense journals  
+
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Posting Setup**, and then choose the related link.
+
+    Use the **VAT Posting Setup** window to create VAT posting groups. For more information, see [How to: Report VAT to Tax Authorities](../../finance-how-report-vat.md).  
 2.  On the **Settlement** FastTab, in the **VAT Settlement Template** field, select a template.  
-  
 3.  Select a batch in the **VAT Settlement Batch** field. This determines the batch where future expenses and VAT will be produced.  
-  
-4.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoices**, and then choose the related link. Create a purchase invoice for the deferral general ledger account (97).  
-  
-5.  Create and post the payment and apply the invoice and payment.  
-  
-     VAT is not deducted at this time. It is deducted later, on a monthly basis through the Future Expense Journal.  
-  
-6.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Future Expense Journals**, and then choose the related link.  
-  
-7.  In the **Future Expense Journal** window, fill in the fields as described in the following table.  
-  
+4.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoices**, and then choose the related link.
+5. Create a purchase invoice for the Deferral general ledger account (97).  
+6.  Create and post the payment and apply the invoice and payment.  
+
+    VAT is not deducted at this time. It is deducted later, on a monthly basis through the Future Expense Journal.  
+
+7.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Future Expense Journals**, and then choose the related link.  
+8.  In the **Future Expense Journal** window, fill in the fields as described in the following table.  
+
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**FA Posting Date**|Specifies the fixed asset posting date that is associated with the future expense journal.|  
@@ -60,11 +58,11 @@ Future expense journals are used to post expenses to a special account on a mont
     |**Depr. Acquisition Cost**|Specifies if the depreciation acquisition cost is used with the future expense journal.|  
     |**Duplicate in Depreciation Book**|Specifies the duplicate in depreciation book that is associated with the future expense journal.|  
     |**FA Error Entry No.**|Specifies the fixed asset error entry number that is associated with the future expense journal.|  
-  
-8.  On the **Home** tab, in the **Process** group, choose **Post**. The amount entered in the **Amount** field will be transferred from the Future Expenses account to the Current Expenses account. VAT will be calculated according to VAT setup (percentage) on the basis of the posted amount, and VAT deduction (realized VAT) will be posted.  
-  
+
+9.  Choose the **Post** action.
+
+The amount entered in the **Amount** field will be transferred from the Future Expenses account to the Current Expenses account. VAT will be calculated according to VAT setup (percentage) on the basis of the posted amount, and VAT deduction (realized VAT) will be posted.  
+
 ## See Also  
- Fixed Asset Setup   
- [Fixed Assets Accounting Setup](fixed-assets-accounting-setup.md)   
- Fixed Asset Card   
- [How to: Set Up a Future Expense Card](how-to-set-up-a-future-expense-card.md)
+  [How to: Set Up a Future Expense Card](how-to-set-up-a-future-expense-card.md)  
+  [Fixed Assets](../../fa-manage.md)

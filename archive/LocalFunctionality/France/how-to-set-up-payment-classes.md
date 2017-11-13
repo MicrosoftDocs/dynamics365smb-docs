@@ -1,11 +1,11 @@
 ---
-    title: How to Set Up Payment Classes | Microsoft Docs
+    title: How to Set Up Payment Classes
     description: To use payment management, you must set up payment classes to define operation types, such as bills of exchange, electronic payments, or checks.
-    services: project-madeira
+
     documentationcenter: ''
     author: SorenGP
 
-    ms.service: dynamics365-financials
+    ms.prod: "dynamics-nav-2017"
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -17,15 +17,13 @@
 ---
 # How to: Set Up Payment Classes
 To use payment management, you must set up payment classes to define operation types, such as bills of exchange, electronic payments, or checks.  
-  
-### To set up a payment class  
-  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Slip Setup**, and then choose the relevant link.  
-  
-2.  In the **Payment Class** window, on the **Home** tab, choose **New**.  
-  
+
+## To set up a payment class  
+
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Slip Setup**, and then choose the relevant link.  
+2.  In the **Payment Class** window, choose the **New** action.  
 3.  Fill in the fields as described in the following table.  
-  
+
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Enable**|Select to enable usage of the payment class.|  
@@ -36,11 +34,9 @@ To use payment management, you must set up payment classes to define operation t
     |**Suggestions**|The type of payment proposals that can be created automatically on a payment slip.|  
     |**Unrealized VAT Reversal**|Specify the method to handle unrealized VAT.<br /><br /> If you select **Application**, VAT will be realized when you post the invoice application and payment application.<br /><br /> If you select **Delayed**, you must define the payment step during which VAT must be realized, by selecting the **Realize VAT** field in the **Payment Step Card** window. For more information, see Realize VAT and Payment Step.|  
     |**SEPA Transfer Type**|Specify the SEPA export format, either **Credit Transfer** or **Direct Debit**.|  
-  
-     For more information, see Payment Class.  
-  
+
 4.  Choose the **OK** button.  
-  
+
 ## See Also  
  [Payment Management](payment-management.md)   
  [How to: Set Up Payment Statuses](how-to-set-up-payment-statuses.md)   
@@ -49,8 +45,4 @@ To use payment management, you must set up payment classes to define operation t
  [How to: Export or Import Payment Management Setup Parameters](how-to-export-or-import-payment-management-setup-parameters.md)   
  [How to: Create Payment Slips](how-to-create-payment-slips.md)   
  [How to: Post Payment Slips](how-to-post-payment-slips.md)   
- [How to: Archive Payment Slips](how-to-archive-payment-slips.md)   
- Payment Class   
- Payment Class   
- Realize VAT   
- Payment Step
+ [How to: Archive Payment Slips](how-to-archive-payment-slips.md)

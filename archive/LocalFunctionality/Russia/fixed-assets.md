@@ -1,11 +1,11 @@
 ---
-    title: Fixed Assets | Microsoft Docs
-    description: In Russia, there are specific [!INCLUDE[d365fin](includes/d365fin_md.md)] features that you can use to track and manage your fixed assets. You can use fixed assets functionality to manage depreciation and maintenance costs, track the movement of fixed assets, manage the sale or disposal of fixed assets, and generate various reports and statistics.
-    services: project-madeira
+    title: Fixed Assets
+    description: In Russia, there are specific [!INCLUDE[navnow](../../includes/navnow_md.md)] features that you can use to track and manage your fixed assets.
+
     documentationcenter: ''
     author: SorenGP
 
-    ms.service: dynamics365-financials
+    ms.prod: "dynamics-nav-2017"
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -16,16 +16,16 @@
 
 ---
 # Fixed Assets
-In Russia, there are specific [!INCLUDE[d365fin](includes/d365fin_md.md)] features that you can use to track and manage your fixed assets. You can use fixed assets functionality to manage depreciation and maintenance costs, track the movement of fixed assets, manage the sale or disposal of fixed assets, and generate various reports and statistics.  
-  
+In Russia, there are specific [!INCLUDE[navnow](../../includes/navnow_md.md)] features that you can use to track and manage your fixed assets. You can use fixed assets functionality to manage depreciation and maintenance costs, track the movement of fixed assets, manage the sale or disposal of fixed assets, and generate various reports and statistics.  
+
 ## Getting Started with Fixed Assets  
- Use the following table to learn more about the fixed asset features that are available for Russia.  
-  
-|Topic|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
+Use the following table to learn more about the fixed asset features that are available for Russia.  
+
+|Topic|Description|  
 |-----------|---------------------------------------|  
 |[How to: Calculate Assessed Tax](how-to-calculate-assessed-tax.md)|Enables you to calculate the assessed tax for fixed assets.|  
 |[Depreciation Bonus](depreciation-bonus.md)|Enables you to include fixed asset and capital investment expenses in the current period.|  
-|[Depreciation Methods](depreciation-methods.md)|Enables you to understand and use depreciation methods that are unique to Russia.|  
+|[How to: Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md)|Enables you to understand and use depreciation methods that are unique to Russia.|  
 |[Fixed Asset Charges](fixed-asset-charges.md)|Enables you to include additional charges on the purchase of fixed assets in the fixed asset acquisition cost.|  
 |[Fixed Asset Inventory](fixed-asset-inventory.md)|Enables you to generate, process, filter, and print fixed asset inventory lists for auditing in compliance with legal requirements.|  
 |[Fixed Asset Locations and Employees](fixed-asset-locations-and-employees.md)|Enables you to manage the movement and history of fixed assets.|  

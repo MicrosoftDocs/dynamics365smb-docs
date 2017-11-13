@@ -1,11 +1,11 @@
 ---
-    title: Recipient Reference Codes | Microsoft Docs
-    description: The recipient reference code determines the message that is sent to the recipient. The code is displayed on the remittance account and is used for vendors that are paid from this account. For each vendor, a special recipient reference code can be created if the general reference text is not used.
-    services: project-madeira
+    title: Recipient Reference Codes
+    description: The recipient reference code determines the message that is sent to the recipient. The code is displayed on the remittance account and is used for vendors that are paid from this account.
+
     documentationcenter: ''
     author: SorenGP
 
-    ms.service: dynamics365-financials
+    ms.prod: "dynamics-nav-2017"
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -17,12 +17,12 @@
 ---
 # Recipient Reference Codes
 The recipient reference code determines the message that is sent to the recipient. The code is displayed on the remittance account and is used for vendors that are paid from this account. For each vendor, a special recipient reference code can be created if the general reference text is not used.  
-  
- The text in recipient reference fields can be formatted automatically with special codes. For example, if you enter **Payment of Invoice %2** in a recipient reference field, the information that will print is **Payment of Invoice 10000**.  
-  
- The recipient reference codes are described in the following table.  
-  
-|**Code**|ADD INCLUDE<!--[!INCLUDE[bp_tabledescription](../../includes/bp_tabledescription_md.md)]-->|  
+
+The text in recipient reference fields can be formatted automatically with special codes. For example, if you enter **Payment of Invoice %2** in a recipient reference field, the information that will print is **Payment of Invoice 10000**.  
+
+The recipient reference codes are described in the following table.  
+
+|**Code**|Description|  
 |--------------|---------------------------------------|  
 |**%1**|The document type. Either invoice or credit memo.|  
 |**%2**|The vendor's invoice number.|  
@@ -35,6 +35,6 @@ The recipient reference code determines the message that is sent to the recipien
 |**%9**|The currency code from the vendor ledger entry.|  
 |**%10**|The due date from the vendor ledger entry.|  
 |**%11**|The Kunde ID number from the vendor ledger entry.|  
-  
+
 ## See Also  
  [How to: Set Up Vendors for Remittance](how-to-set-up-vendors-for-remittance.md)

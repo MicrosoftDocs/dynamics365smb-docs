@@ -1,11 +1,11 @@
 ---
-    title: Inventory | Microsoft Docs
-    description: ##See Also
-    services: project-madeira
+    title: Inventory
+    description: Russian inventory functionality is described in several topics.
+
     documentationcenter: ''
     author: SorenGP
 
-    ms.service: dynamics365-financials
+    ms.prod: "dynamics-nav-2017"
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -16,9 +16,9 @@
 
 ---
 # Inventory
+Russian inventory functionality is described in several topics.
 
-
-##See Also
+## In This Section
 [Inventory Setup](inventory-setup.md)  
 [Item Documents](item-documents.md)  
 [Item Obligatory Acts](item-obligatory-acts.md)  

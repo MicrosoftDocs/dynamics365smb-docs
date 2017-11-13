@@ -1,11 +1,11 @@
 ---
-    title: How to View Remittance Error Codes | Microsoft Docs
+    title: How to View Remittance Error Codes
     description: For a remittance error, the error code from the bank and an explanation of the error will be shown for the payment in the **Waiting Journal** window.
-    services: project-madeira
+
     documentationcenter: ''
     author: SorenGP
 
-    ms.service: dynamics365-financials
+    ms.prod: "dynamics-nav-2017"
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -17,20 +17,19 @@
 ---
 # How to: View Remittance Error Codes
 For a remittance error, the error code from the bank and an explanation of the error will be shown for the payment in the **Waiting Journal** window.  
-  
-### To view error codes  
-  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Return Error**, and then choose the related link.  
-  
+
+## To view error codes  
+
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Return Error**, and then choose the related link.  
 2.  In the **Return Error** window, fill in the fields as described in the following table.  
-  
+
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Waiting Journal Reference**|Specify the reference code from the waiting journal.|  
     |**Message Text**|Specify the message from the bank.|  
-  
+
 3.  Choose the **Close** button.  
-  
+
 ## See Also  
  [Electronic Payments to Vendors in Norway](electronic-payments-to-vendors-in-norway.md)   
  [How to: Set Up Remittance Agreements](how-to-set-up-remittance-agreements.md)   

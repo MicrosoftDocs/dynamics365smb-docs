@@ -1,11 +1,11 @@
 ---
-    title: How to Set Up Norm Jurisdictions | Microsoft Docs
+    title: How to Set Up Norm Jurisdictions
     description: Norm jurisdictions are based on Russian tax laws that define a variety of tax rates. Norm jurisdictions are used to calculate taxable profits and losses in tax accounting. You can use the **Norm Jurisdictions** window to set up and define norm jurisdictions that can be used when you calculate tax differences.
-    services: project-madeira
+
     documentationcenter: ''
     author: SorenGP
 
-    ms.service: dynamics365-financials
+    ms.prod: "dynamics-nav-2017"
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -17,17 +17,14 @@
 ---
 # How to: Set Up Norm Jurisdictions
 Norm jurisdictions are based on Russian tax laws that define a variety of tax rates. Norm jurisdictions are used to calculate taxable profits and losses in tax accounting. You can use the **Norm Jurisdictions** window to set up and define norm jurisdictions that can be used when you calculate tax differences.  
-  
-### To set up norm jurisdictions  
-  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Norm Jurisdictions**, and then choose the related link.  
-  
+
+## To set up norm jurisdictions  
+
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Norm Jurisdictions**, and then choose the related link.  
 2.  Enter an identifying **Code** and **Description** for the norm jurisdiction that you want to set up.  
-  
-3.  On the **Process** tab, choose **Groups** to open the **Norm Groups** window.  
-  
+3.  Choose the **Groups** action to open the **Norm Groups** window.  
 4.  In the **Norm Groups** window, enter the following information.  
-  
+
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Code**|Enter a code to identify the norm group.|  
@@ -35,20 +32,19 @@ Norm jurisdictions are based on Russian tax laws that define a variety of tax ra
     |**Has Details**|Specifies if calculation details are defined for the norm group.|  
     |**Search Detail**|Select the method that you use for norm jurisdiction search. The options include **To Date** and **As of Date.**|  
     |**Storing Method**|Select **Calculation** if the norm jurisdiction is calculated with a specific formula. Leave this field blank if the norm is a constant value.|  
-  
-5.  On the **Process** tab, choose **Details** to open the **Norm Details** window. In this window, you will define a constant tax rate for the norm.  
-  
+
+5.  Choose the **Details** action to open the **Norm Details** window. In this window, you will define a constant tax rate for the norm.  
 6.  In the **Norm Details** window, enter the following information.  
-  
+
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Effective Date**|Enter an effective date for the norm.|  
     |**Norm**|Enter a value for the norm. This value is used to calculate tax differences.|  
-  
+
 7.  Choose the **Close** button to close the **Norm Details** window and save your entries.  
-  
- The norm jurisdiction that you set up is now available for use in calculating tax differences.  
-  
+
+The norm jurisdiction that you set up is now available for use in calculating tax differences.  
+
 ## See Also  
  [Tax Differences](tax-differences.md)   
  [Setting up Tax Difference Calculation](setting-up-tax-difference-calculation.md)   

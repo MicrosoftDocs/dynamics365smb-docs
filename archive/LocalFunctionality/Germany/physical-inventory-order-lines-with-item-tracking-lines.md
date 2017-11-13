@@ -2,6 +2,7 @@
     title: Physical Inventory Order Lines With Item Tracking Lines
     description: Item tracking lines are used to enter serial nos. and lot nos. for physical inventory order lines.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

@@ -2,6 +2,7 @@
     title: Digipoort Overview
     description: In the Netherlands, you use Digipoort to make periodic electronic filings for VAT declarations and ICP reports in EU sales list submissions. Digipoort is the electronic post office provided by the Dutch government for companies.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

@@ -2,6 +2,7 @@
     title: How to Set Up Customer and Vendor Agreements
     description: The customer and vendor agreements feature provides a list of agreements for customers and vendors, an agreement card where all the required information about agreements is stored, and more.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

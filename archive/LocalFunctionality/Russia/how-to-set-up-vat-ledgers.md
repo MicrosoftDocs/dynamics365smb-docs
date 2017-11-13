@@ -2,6 +2,7 @@
     title: How to Set Up VAT Ledgers
     description: VAT ledgers are used to store details about VAT in transactions that involve goods and services in Russia or goods imported into Russia. You can create and store different kinds of VAT ledgers.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

@@ -2,6 +2,7 @@
     title: How to Cancel Payments
     description: Norwegian enhancements allow you to cancel payments.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

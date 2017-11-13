@@ -2,6 +2,7 @@
     title: How to Set Up Electronic Invoicing
     description: Before you can send electronic documents, you must set up [!INCLUDE[navnow](../../includes/navnow_md.md)] to ensure that the tax identification number (RFC), personal identification number (CURP), and state inscription IDs are available for your company and all your customers and vendors.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

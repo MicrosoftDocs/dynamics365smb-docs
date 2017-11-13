@@ -2,6 +2,7 @@
     title: How to Print Deposit Slip Reports
     description: The **Deposit Slip** report displays cash and check details in a format required by the bank.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

@@ -2,6 +2,7 @@
     title: How to Generate Delivery Reminders
     description: In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can create delivery reminders when a purchase has not been delivered as expected.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

@@ -2,6 +2,7 @@
     title: Bank Management
     description: In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can create bank directory structures to keep bank reference information in one location, create budget classifications, add bank account details to specific general ledger accounts, and print and post required documents.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

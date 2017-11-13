@@ -2,6 +2,7 @@
     title: Russian Chart of Accounts
     description: The **Source Type** and Currency Code** fields are available in the Russian **Chart of Accounts** window.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

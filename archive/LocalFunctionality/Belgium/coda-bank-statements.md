@@ -2,6 +2,7 @@
     title: CODA Bank Statements
     description: The Coded Statement of Account (CODA) is a national banking standard, designed by the Belgian Banker's Association, which allows you to automatically process electronic bank statements.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

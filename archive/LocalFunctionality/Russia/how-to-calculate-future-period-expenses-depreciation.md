@@ -2,6 +2,7 @@
     title: How to Calculate Future Period Expenses Depreciation
     description: The following procedure shows how to calculate future period expenses depreciation.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

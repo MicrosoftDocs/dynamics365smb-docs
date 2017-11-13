@@ -2,6 +2,7 @@
     title: Recurring Journal Extension
     description: The recurring journal extension feature enables you to enter a line for a recurring journal.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

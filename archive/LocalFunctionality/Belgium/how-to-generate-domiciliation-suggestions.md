@@ -2,6 +2,7 @@
     title: How to Generate Domiciliation Suggestions
     description: After you have set up domiciliations, you can start generating domiciliation suggestions. In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can only create domiciliation suggestions for domestic customers.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

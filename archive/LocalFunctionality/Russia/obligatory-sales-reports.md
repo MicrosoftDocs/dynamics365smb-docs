@@ -2,6 +2,7 @@
     title: Obligatory Sales Reports
     description: The obligatory sales reports feature enables you to print several reports
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

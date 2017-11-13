@@ -2,6 +2,7 @@
     title: Collecting Profit Tax Information for Tax Declaration
     description: To reduce the labor required to complete a profit tax declaration and to simplify the company bookkeeping, the reporting document is split into supplements in accordance with the source.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

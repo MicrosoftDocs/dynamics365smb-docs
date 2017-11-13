@@ -2,6 +2,7 @@
     title: Delivery Reminders
     description: Delivery reminders are used to track overdue vendor shipments, and to remind vendors about overdue deliveries.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

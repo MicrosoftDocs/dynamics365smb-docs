@@ -2,6 +2,7 @@
     title: Norwegian VAT Reporting
     description: Norwegian enhancements allow you to calculate and report VAT to the Norwegian tax authorities.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

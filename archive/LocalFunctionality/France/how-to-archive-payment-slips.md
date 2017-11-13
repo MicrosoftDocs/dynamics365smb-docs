@@ -2,6 +2,7 @@
     title: How to Archive Payment Slips
     description: When a payment slip has been processed, you can separate it from the active payment slips by archiving it.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

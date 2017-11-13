@@ -2,6 +2,7 @@
     title: How to Set Up Physical Inventory Documents
     description: Before you can use physical inventory order and physical inventory recording documents, you have to set up some properties.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

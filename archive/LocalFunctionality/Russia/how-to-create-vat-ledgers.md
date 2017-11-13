@@ -2,6 +2,7 @@
     title: How to Create VAT Ledgers
     description: You can create and store any number of VAT ledgers, such as for different groups of customers, for additional sales ledgers for amount differences and prepayments, and for joint sales ledgers for the whole company.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

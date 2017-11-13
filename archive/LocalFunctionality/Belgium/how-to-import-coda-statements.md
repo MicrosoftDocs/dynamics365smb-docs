@@ -2,6 +2,7 @@
     title: How to Import CODA Statements
     description: When you receive a CODA statement from your bank, you must import it into [!INCLUDE[navnow](../../includes/navnow_md.md)].
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

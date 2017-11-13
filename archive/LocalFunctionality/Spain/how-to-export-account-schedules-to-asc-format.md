@@ -2,6 +2,7 @@
     title: How to Export Account Schedules to ASC Format
     description: You can export the account schedule data into a digital file format approved by the local tax authorities for certain reports.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

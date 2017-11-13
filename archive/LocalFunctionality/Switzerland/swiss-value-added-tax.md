@@ -2,6 +2,7 @@
     title: Swiss Value Added Tax
     description: Swiss enhancements include special VAT reporting features.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

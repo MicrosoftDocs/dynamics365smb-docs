@@ -2,6 +2,7 @@
     title: Swiss Inventory Management
     description: Swiss enhancements include special inventory management features.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

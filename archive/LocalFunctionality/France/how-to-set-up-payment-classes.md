@@ -2,6 +2,7 @@
     title: How to Set Up Payment Classes
     description: To use payment management, you must set up payment classes to define operation types, such as bills of exchange, electronic payments, or checks.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

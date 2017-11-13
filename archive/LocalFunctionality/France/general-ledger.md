@@ -3,6 +3,7 @@
     description: Special general ledger functionality exists for the French version of [!INCLUDE[navnow](../../includes/navnow_md.md)].
 
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

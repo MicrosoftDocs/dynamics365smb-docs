@@ -2,6 +2,7 @@
     title: How to Set Up Simulation
     description: You can create and post simulation entries to the general ledger without affecting the real accounting.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

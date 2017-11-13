@@ -2,6 +2,7 @@
     title: How to Block Inventory Items for Sales or Purchases
     description: In [!INCLUDE[navnow](../../includes/navnow_md.md)], an item can be marked as blocked for sales, blocked for purchase, or blocked for all purposes.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

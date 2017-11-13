@@ -2,6 +2,7 @@
     title: How to Enter Custom Declarations Information
     description: Use the following procedure to enter custom declaration information.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

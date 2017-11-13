@@ -2,6 +2,7 @@
     title: Posting Depreciation Differences
     description: In Finland, certain depreciation methods are commonly used for fixed assets.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

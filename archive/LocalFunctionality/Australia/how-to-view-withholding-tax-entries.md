@@ -2,6 +2,7 @@
     title: How to View Withholding Tax Entries
     description: You can view entries that have been posted with withholding tax (WHT) for a specified general ledger register.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

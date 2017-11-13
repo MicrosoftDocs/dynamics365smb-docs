@@ -2,6 +2,7 @@
     title: How to Create and Post a Purchase Invoice on a Future Expense
     description: To account for future period expenses, you have to create and post purchase invoices on the future expense.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

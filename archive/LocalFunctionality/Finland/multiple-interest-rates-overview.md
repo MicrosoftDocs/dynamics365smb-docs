@@ -2,6 +2,7 @@
     title: Multiple Interest Rates Overview
     description: For each finance charge term code, you can specify multiple interest rates so that you can calculate finance charges with multiple interest rates for a specific period.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

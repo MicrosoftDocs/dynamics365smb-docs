@@ -2,6 +2,7 @@
     title: Fixed Asset Turnover
     description: The fixed asset turnover feature enables you to control the turnover of fixed assets or certain groups of fixed assets, view useful information about fixed assets in one place, and more.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

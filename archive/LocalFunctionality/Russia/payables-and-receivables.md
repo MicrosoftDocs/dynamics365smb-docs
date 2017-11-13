@@ -2,6 +2,7 @@
     title: Payables and Receivables
     description: In Russia, there are specific [!INCLUDE[navnow](../../includes/navnow_md.md)] features that you can use to track and manage your accounts payable and accounts receivable.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

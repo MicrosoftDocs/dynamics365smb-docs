@@ -2,6 +2,7 @@
     title: Posting VAT on Sales
     description: Certain fields have been added to the VAT Posting Setup window.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

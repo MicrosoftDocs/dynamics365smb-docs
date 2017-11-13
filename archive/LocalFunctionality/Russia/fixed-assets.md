@@ -2,6 +2,7 @@
     title: Fixed Assets
     description: In Russia, there are specific [!INCLUDE[navnow](../../includes/navnow_md.md)] features that you can use to track and manage your fixed assets.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

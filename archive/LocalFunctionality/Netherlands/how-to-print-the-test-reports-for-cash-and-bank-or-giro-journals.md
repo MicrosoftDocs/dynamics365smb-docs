@@ -2,6 +2,7 @@
     title: How to Print the Test Reports for Cash and Bank or Giro Journals
     description: You can use the **CBG Posting - Test** report to edit the statement lines and see the effect of posting before you post cash journals and bank or giro journals.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

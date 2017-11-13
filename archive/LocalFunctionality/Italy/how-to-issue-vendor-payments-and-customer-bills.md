@@ -2,6 +2,7 @@
     title: How to Issue Vendor Payments and Customer Bills
     description: The vendor and customer bill pay feature supports SEPA-based formats in addition to Italian file formats.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

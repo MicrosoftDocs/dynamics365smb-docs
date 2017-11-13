@@ -2,6 +2,7 @@
     title: How to Print Intrastat Reports
     description: All European Union (EU) companies must submit an Intrastat statistics report to the Instituto Nacional de Estatística (INE) detailing their trade with other EU countries/regions.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

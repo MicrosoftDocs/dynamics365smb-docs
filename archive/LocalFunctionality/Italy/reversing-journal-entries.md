@@ -2,6 +2,7 @@
     title: Reversing Journal Entries
     description: Controls have been added to the **Reverse Transaction Entries** window to comply with local laws.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

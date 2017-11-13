@@ -2,6 +2,7 @@
     title: Bank and Cash Management
     description: Russian functionality for bank and cash management in described in several topics.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

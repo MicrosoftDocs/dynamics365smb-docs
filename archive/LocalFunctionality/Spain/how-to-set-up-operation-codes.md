@@ -2,6 +2,7 @@
     title: How to Set Up Operation Codes
     description: You can add as many operation codes as you want to the table. However, the operation codes C, D, and I already exist in [!INCLUDE[navnow](../../includes/navnow_md.md)].
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

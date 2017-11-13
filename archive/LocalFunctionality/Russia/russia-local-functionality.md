@@ -2,6 +2,7 @@
     title: Russia Local Functionality
     description: In [!INCLUDE[navnow](../../includes/navnow_md.md)] to calculate VAT due based on Russian VAT rates and regulations.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

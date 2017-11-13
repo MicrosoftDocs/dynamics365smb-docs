@@ -2,6 +2,7 @@
     title: Electronic Banking in Norway
     description: Norwegian enhancements include electronic banking.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

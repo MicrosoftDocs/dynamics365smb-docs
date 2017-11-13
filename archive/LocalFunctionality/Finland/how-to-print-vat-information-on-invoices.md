@@ -2,6 +2,7 @@
     title: How to Print VAT Information on Invoices
     description: You can use posting groups to print VAT information for each item on the sales invoice.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

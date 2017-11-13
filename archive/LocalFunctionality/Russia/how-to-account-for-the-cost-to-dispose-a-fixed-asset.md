@@ -2,6 +2,7 @@
     title: How to Account for the Cost  to Dispose a Fixed Asset
     description: The maintenance on disposal feature enables you to account for the amount spent to dispose a fixed asset (FA) as an expense. You can post operations related to spending for the disposal of a fixed asset so that they will be reflected in the FA Write-Off Act forms.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

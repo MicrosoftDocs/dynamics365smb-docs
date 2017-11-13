@@ -2,6 +2,7 @@
     title: How to Set Up Declaration Types
     description: In [!INCLUDE[navnow](../../includes/navnow_md.md)], there are two types of declaration.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

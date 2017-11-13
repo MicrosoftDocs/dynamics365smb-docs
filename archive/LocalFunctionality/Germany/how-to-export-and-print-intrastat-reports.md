@@ -1,6 +1,7 @@
 ---
     title: How to Export and Print Intrastat Reports
     description: Intrastat reporting is required throughout the European Union (EU) and must follow local requirements, such as specific formats and files. All companies in the EU must report their trade with other EU countries.
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

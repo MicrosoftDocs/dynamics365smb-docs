@@ -2,6 +2,7 @@
     title: Enhanced Document Management
     description: In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can archive documents and track work across archived and non-archived documents.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

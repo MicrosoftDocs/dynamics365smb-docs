@@ -2,6 +2,7 @@
     title: Undepreciable Fixed Assets
     description: The undepreciable fixed assets feature enables you to repay fixed assets with the whole amount of their acquisition at the time of their release.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

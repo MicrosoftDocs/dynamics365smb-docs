@@ -2,6 +2,7 @@
     title: General Journal Extension
     description: The general journal extension feature enables you to fill a journal line on a card and to view posted journal lines.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

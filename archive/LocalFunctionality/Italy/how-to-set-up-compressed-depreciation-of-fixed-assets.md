@@ -2,6 +2,7 @@
     title: How to Set Up Compressed Depreciation of Fixed Assets
     description: You can compress fixed asset depreciation into subclasses and choose to display only the total sum by subclass.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

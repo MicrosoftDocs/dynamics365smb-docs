@@ -2,6 +2,7 @@
     title: Future Expenses (Deferrals)
     description: The future expenses (deferrals) feature enables you to post future expenses to the Future Expenses account, generate a list of future expenses and a card for each expense, to reflect the current status of the expense, and more.
        
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

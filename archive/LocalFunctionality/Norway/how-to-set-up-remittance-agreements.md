@@ -2,6 +2,7 @@
     title: How to Set Up Remittance Agreements
     description: You must sign an agreement of remittance with the bank when you set up electronic payments. You can create more than one remittance agreement if you have an agreement with two or more banks.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

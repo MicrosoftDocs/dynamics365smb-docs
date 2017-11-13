@@ -2,6 +2,7 @@
     title: How to File SEPA Payments
     description: In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can use Single Euro Payments Area (SEPA) credit transfers to file SEPA payments with the bank.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

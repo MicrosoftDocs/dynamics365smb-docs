@@ -2,6 +2,7 @@
     title: How to Set Up Recurring Orders
     description: After you create a recurring group, you can set up recurring orders on the blanket sales order by adding the group to the order.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

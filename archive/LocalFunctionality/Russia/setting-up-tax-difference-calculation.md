@@ -2,6 +2,7 @@
     title: Setting up Tax Difference Calculation
     description: Tax difference calculations must be set up if there is a tax difference for the presentation of fixed asset entries, item cost entries, or finance transactions in bookkeeping and tax accounting for which expenses to write off must be fixed.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

@@ -2,6 +2,7 @@
     title: How to Set Up Journal Templates and Batches
     description: All European Union (EU) companies must submit Intrastat reports to the customs office, detailing their trade with other EU countries/regions for the current year.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

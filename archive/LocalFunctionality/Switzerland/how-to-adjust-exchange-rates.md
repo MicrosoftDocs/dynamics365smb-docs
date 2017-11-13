@@ -2,6 +2,7 @@
     title: How to Adjust Exchange Rates
     description: If you have taxable sales in a foreign currency, you must use the official rate for VAT currency conversion as set by the Federal Tax Administration.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

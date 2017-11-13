@@ -2,6 +2,7 @@
     title: Special Data Output and Reports for the Tax Authority
     description: It is a legal requirement to send the tax authority a data file in a predefined format.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

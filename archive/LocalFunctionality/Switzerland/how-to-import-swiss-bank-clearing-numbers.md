@@ -2,6 +2,7 @@
     title: How to Import Swiss Bank Clearing Numbers
     description: Bank clearing numbers are unique numbers used to identify each bank agency or branch in the bank directory. This information is required for electronic payment. The file can be downloaded from the [SIX Interbank Clearing](http://go.microsoft.com/fwlink/?LinkId=145121) website.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

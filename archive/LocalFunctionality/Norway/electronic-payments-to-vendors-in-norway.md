@@ -2,6 +2,7 @@
     title: Electronic Payments to Vendors in Norway
     description: Norwegian enhancements include automatically making payments to vendors.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

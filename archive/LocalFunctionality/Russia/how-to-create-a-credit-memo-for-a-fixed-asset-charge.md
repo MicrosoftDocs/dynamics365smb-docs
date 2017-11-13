@@ -2,6 +2,7 @@
     title: How to Create a Credit Memo for a Fixed Asset Charge
     description: If you need to fix an error on a fixed asset charge of an invoice, you can post a credit memo for the fixed asset charge.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

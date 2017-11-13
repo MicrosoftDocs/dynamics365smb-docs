@@ -2,6 +2,7 @@
     title: How to Set Up Certificates for use with Digipoort
     description: Information about Digipoort certificates.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

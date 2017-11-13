@@ -2,6 +2,7 @@
     title: Payments in Cash
     description: As of January 1, 2012, companies in Spain are required to submit a summary for payments in cash that are greater than EUR 6.000.00 for each customer for each year.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

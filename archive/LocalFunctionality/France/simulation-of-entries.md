@@ -2,6 +2,7 @@
     title: Simulation of Entries
     description: Functionality for France includes the ability to simulate posted entries before posting.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

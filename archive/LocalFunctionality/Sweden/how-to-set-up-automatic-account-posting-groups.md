@@ -2,6 +2,7 @@
     title: How to Set Up Automatic Account Posting Groups
     description: To use automatic account codes, you must create an automatic account posting group.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

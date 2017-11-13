@@ -2,6 +2,7 @@
     title: How to Process Response Messages from Tax Authorities
     description: When you submit a VAT or ICP declaration to the tax authorities electronically, they will process the declaration and send you a message in response.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

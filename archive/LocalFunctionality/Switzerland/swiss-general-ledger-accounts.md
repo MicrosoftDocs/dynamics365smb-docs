@@ -2,6 +2,7 @@
     title: Swiss General Ledger Accounts
     description: Swiss enhancements include special general ledger account features.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

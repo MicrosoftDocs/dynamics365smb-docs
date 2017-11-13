@@ -2,6 +2,7 @@
     title: How to Create Recurring Orders
     description: The create recurring orders process will find all of the recurring orders based on the options selected in the **Create Recurring Orders** window and will create the new sales orders.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

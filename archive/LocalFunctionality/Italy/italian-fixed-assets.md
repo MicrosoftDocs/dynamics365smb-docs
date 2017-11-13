@@ -2,6 +2,7 @@
     title: Italian Fixed Assets
     description: Fixed assets are properties owned by a company and used in the production of its income.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

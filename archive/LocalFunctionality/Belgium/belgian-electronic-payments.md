@@ -2,6 +2,7 @@
     title: Belgian Electronic Payments
     description: In the electronic banking module in [!INCLUDE[navnow](../../includes/navnow_md.md)], you can make domestic, international, SEPA, and non-Euro SEPA electronic payments.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

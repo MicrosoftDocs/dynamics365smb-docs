@@ -2,6 +2,7 @@
     title: General Ledger Correspondence
     description: The general ledger correspondence feature enables you to create a correspondence transaction periodically, post correspondence operations when you post general ledger transactions, and analyze a number of reports for correspondence.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

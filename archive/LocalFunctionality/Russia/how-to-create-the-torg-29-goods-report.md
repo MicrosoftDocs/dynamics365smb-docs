@@ -2,6 +2,7 @@
     title: How to Create the TORG-29 Goods Report
     description: The TORG-29 report shows the item documents that you can use to submit for receipts and shipments for a location.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

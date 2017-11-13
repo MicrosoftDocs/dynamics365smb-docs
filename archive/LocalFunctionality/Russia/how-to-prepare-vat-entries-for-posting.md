@@ -2,6 +2,7 @@
     title: How to Prepare VAT Entries for Posting
     description: You may want to periodically remit the net VAT from sales and purchase transactions to the tax authorities. You can use the **VAT Settlement Worksheet** to prepare transactions with open VAT amounts for posting and copy the entries to the appropriate VAT settlement journal.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

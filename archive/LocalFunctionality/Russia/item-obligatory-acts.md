@@ -2,6 +2,7 @@
     title: Item Obligatory Acts
     description: The item obligatory acts feature enables you to print the obligatory reports used for the material and production resources in your company.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

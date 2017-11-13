@@ -2,6 +2,7 @@
     title: How to Set Up OCR Payments
     description: You can process electronic payments from customers according to a predefined payment ID. This is often referred to as an optical character recognition (OCR) payment.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

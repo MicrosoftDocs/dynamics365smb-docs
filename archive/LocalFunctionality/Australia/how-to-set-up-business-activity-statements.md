@@ -2,6 +2,7 @@
     title: How to Set Up Business Activity Statements
     description: You must set up a Business Activity Statement (BAS) to generate a BAS report.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

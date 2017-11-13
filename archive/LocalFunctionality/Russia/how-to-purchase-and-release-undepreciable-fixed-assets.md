@@ -2,6 +2,7 @@
     title: How to Purchase and Release Undepreciable Fixed Assets
     description: After posting the fixed assets, you must create a fixed asset release act of the fixed asset and post it.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

@@ -2,6 +2,7 @@
     title: Fixed Asset Inventory
     description: The fixed assets inventory feature enables you to process inventory auditing of fixed assets in accordance with legal requirements, generate electronic inventory lists of fixed assets that are to be inventoried with calculated quantities and amounts, and more.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

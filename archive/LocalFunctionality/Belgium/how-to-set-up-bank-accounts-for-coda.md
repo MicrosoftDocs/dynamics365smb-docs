@@ -2,6 +2,7 @@
     title: How to Set Up Bank Accounts for CODA
     description: Before you can start to use the electronic banking functionality for CODA statements, you must set up certain codes.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

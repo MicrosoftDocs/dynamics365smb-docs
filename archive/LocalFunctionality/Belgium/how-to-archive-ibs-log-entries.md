@@ -2,6 +2,7 @@
     title: How to Archive IBS Log Entries
     description: IBS log lines that have a process status of **Processed** can be archived. IBS logs contain information about electronic banking files that are created during Isabel electronic bank transfers.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

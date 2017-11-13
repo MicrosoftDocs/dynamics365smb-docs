@@ -2,6 +2,7 @@
     title: How to Create the TORG-1 Report for Acceptance of Goods
     description: The TORG-1 report is used for the registration of incoming goods. This report lists receipts with quantity, quality, mass, and package contents according to the terms of an agreement.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

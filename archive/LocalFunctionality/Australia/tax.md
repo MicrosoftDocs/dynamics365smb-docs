@@ -2,6 +2,7 @@
     title: Australian Tax
     description: Tax functionality in Australia is described in several topics.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

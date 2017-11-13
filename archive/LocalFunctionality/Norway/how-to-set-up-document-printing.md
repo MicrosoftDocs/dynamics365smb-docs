@@ -2,6 +2,7 @@
     title: How to Set Up Document Printing
     description: In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can print the sales reports that use the required giro specifications by using different paper types and paper trays.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

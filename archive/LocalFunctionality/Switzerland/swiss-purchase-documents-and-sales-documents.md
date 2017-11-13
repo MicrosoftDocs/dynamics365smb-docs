@@ -1,6 +1,7 @@
 ---
     title: Swiss Purchase Documents and Sales Documents
     description: Swiss enhancements include special purchase and sales document features.    
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

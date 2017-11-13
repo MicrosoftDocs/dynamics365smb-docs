@@ -2,6 +2,7 @@
     title: How to View Duplicate Physical Inventory Order Lines
     description: If you create physical inventory order lines manually, or if you change automatically created lines, you must make sure that there are no duplicate lines. You can create a list of duplicate physical inventory order lines.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

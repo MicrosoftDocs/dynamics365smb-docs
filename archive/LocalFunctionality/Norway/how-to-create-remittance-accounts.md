@@ -2,6 +2,7 @@
     title: How to Create Remittance Accounts
     description: You must create one remittance account for each bank account where payment is made.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

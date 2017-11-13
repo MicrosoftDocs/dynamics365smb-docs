@@ -2,6 +2,7 @@
     title: How to Export or Import Payment Management Setup Parameters
     description: You can export or import payment management setup parameters to an external disk so that you can use the same parameters for another company with similar requirements.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

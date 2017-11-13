@@ -2,6 +2,7 @@
     title: Fixed Asset Locations and Employees
     description: The fixed assets locations and the fixed assets employees feature enable you, among other things, to control the movement of fixed assets and to keep the history of the movements of fixed assets between locations and responsible employees.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

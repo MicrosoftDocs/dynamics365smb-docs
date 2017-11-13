@@ -2,6 +2,7 @@
     title: How to Delete Archived Blanket Orders
     description: You can delete the archived versions of deleted blanket sales orders and blanket purchase orders.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

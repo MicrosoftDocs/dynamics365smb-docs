@@ -2,6 +2,7 @@
     title: How to Set Up Delivery Reminder Terms, Levels, and Text
     description: To create delivery reminders, you must set up delivery reminder terms, delivery reminder levels, and delivery reminder text. messages
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

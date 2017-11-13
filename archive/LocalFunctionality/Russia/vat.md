@@ -2,6 +2,7 @@
     title: VAT
     description: VAT is charged on transactions that involve goods and services in Russia or goods imported into Russia.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

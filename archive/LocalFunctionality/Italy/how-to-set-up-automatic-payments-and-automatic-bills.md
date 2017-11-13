@@ -2,6 +2,7 @@
     title: How to Set Up Automatic Payments and Automatic Bills
     description: In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can manage automatic payments and bills.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

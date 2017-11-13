@@ -2,6 +2,7 @@
     title: Belgian Electronic Banking
     description: Electronic banking allows you to electronically exchange data with Belgian financial institutions. Data can be exchanged either on disk, by modem, or via Interbanks Standards Association Belgium (Isabel). This way you can benefit from a faster processing time and avoid errors caused by manual data entry or processing.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

@@ -2,6 +2,7 @@
     title: How to Import and Post OCR Payments
     description: Before you can receive optical character recognition (OCR) payments, you must make certain preparations.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

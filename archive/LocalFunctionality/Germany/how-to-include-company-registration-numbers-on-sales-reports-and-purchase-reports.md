@@ -2,6 +2,7 @@
     title: How to Include Company Registration Numbers on Sales Reports and Purchase Reports
     description: When generating certain sales reports and purchase reports, you can print registration numbers on the reports.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

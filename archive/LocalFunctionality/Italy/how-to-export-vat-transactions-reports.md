@@ -2,6 +2,7 @@
     title: How to Export VAT Transactions Reports
     description: After you create a report, you can release it, and then export it for the authorities.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

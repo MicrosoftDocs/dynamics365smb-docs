@@ -2,6 +2,7 @@
     title: How to Report Trade with Customers and Vendors in Blacklist Countries-Regions
     description: You must submit a periodic report of transactions with customers and vendors in certain countries/regions that the Italian government has identified in a blacklist.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

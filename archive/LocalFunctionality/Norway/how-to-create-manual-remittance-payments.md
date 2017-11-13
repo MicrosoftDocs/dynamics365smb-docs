@@ -2,6 +2,7 @@
     title: How to Create Manual Remittance Payments
     description: Generally, payments are created automatically in the payment journal using the remittance suggestion function.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

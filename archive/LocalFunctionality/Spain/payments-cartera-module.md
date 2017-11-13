@@ -2,6 +2,7 @@
     title: Payments Cartera Module
     description: The Payments Cartera module allows you to manage payables documents generated from purchase invoices or from the **Cartera Journal**.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

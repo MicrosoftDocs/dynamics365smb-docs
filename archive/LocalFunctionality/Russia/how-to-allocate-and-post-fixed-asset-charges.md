@@ -2,6 +2,7 @@
     title: How to Allocate and Post Fixed Asset Charges
     description: After an invoice has been created you can allocate and post fixed asset charges.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

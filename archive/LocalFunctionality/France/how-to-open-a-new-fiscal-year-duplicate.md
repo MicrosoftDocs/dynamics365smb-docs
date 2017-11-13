@@ -2,6 +2,7 @@
     title: How to Open a New Fiscal Year
     description: Before you can post in a fiscal year, you must open the fiscal year and define its accounting periods.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

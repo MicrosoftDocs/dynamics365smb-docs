@@ -2,6 +2,7 @@
     title: Petty Cash Management
     description: The petty cash management feature enables you to create multiple cash account cards, create ingoing and outgoing cash order documents, and more.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

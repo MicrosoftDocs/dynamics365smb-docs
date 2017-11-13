@@ -2,6 +2,7 @@
     title: Inventory
     description: Russian inventory functionality is described in several topics.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

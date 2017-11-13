@@ -2,6 +2,7 @@
     title: How to Create Remittance Suggestions
     description: You can create a remittance suggestion so that payment proposals are sent to vendors who are set up to receive remittance payments.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

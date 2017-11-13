@@ -2,6 +2,7 @@
     title: How to Set Up Business Units for Business Activity Statements
     description: In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can consolidate the financial statements of various companies into one financial statement.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

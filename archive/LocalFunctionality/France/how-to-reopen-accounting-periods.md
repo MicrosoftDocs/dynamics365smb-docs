@@ -2,6 +2,7 @@
     title: How to Reopen Accounting Periods
     description: When a single fiscal period has been fiscally closed it might be necessary to reopen it to post general ledger entries.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

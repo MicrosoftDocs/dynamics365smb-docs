@@ -2,6 +2,7 @@
     title: Year End Processes Overview
     description: Year end closing in [!INCLUDE[navnow](../../includes/navnow_md.md)] involves three steps.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

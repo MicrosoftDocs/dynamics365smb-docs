@@ -2,6 +2,7 @@
     title: How to Import ESR Payments
     description: After you receive payment from a customer, you receive a file that contains information about paid invoices. You can receive this file from your bank electronically, or by mail.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

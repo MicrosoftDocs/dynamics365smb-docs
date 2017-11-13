@@ -1,6 +1,7 @@
 ---
     title: How to Set Up Company Information
     description: Fiscal documents must contain all company information. You can enter all relevant data in the **Company Information** window when setting up a company.
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

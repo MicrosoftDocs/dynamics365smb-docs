@@ -2,6 +2,7 @@
     title: How to Unapply General Ledger Entries
     description: You can unapply general ledger entries in a very straightforward way.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

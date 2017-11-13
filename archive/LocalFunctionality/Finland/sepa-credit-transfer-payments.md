@@ -2,6 +2,7 @@
     title: SEPA Credit Transfer Payments
     description: Finnish enhancements allow you to create Single Euro Payments Area (SEPA) credit transfer files to send vendor payments to banks.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

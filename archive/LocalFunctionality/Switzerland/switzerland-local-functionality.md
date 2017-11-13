@@ -2,6 +2,7 @@
     title: Switzerland Local Functionality
     description: The following topics describe the local functionality in the Swiss version of [!INCLUDE[navnow](../../includes/navnow_md.md)].
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

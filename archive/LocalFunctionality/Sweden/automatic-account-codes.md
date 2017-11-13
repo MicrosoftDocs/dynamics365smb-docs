@@ -2,6 +2,7 @@
     title: Automatic Account Codes
     description: You can use customized posting groups to automate recurring transactions in journals, sales documents, or purchase documents.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

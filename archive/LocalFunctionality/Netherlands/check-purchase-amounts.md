@@ -2,6 +2,7 @@
     title: Check Purchase Amounts
     description: Before posting a purchase invoice or credit memo, the program checks if the 'amount including VAT' and the 'VAT amount' stated on the purchase document is equal to the total amount of the inserted purchase lines.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

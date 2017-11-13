@@ -2,6 +2,7 @@
     title: Balance
     description: Specifies a temporary general ledger balance.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

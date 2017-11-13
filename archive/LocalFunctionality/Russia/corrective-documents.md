@@ -2,6 +2,7 @@
     title: Corrective Documents
     description: If you sell or purchase items, and you then reach an agreement to change the price or the quantity, you must issue a corrective document that specifies the new price or quantity.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

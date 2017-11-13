@@ -2,6 +2,7 @@
     title: How to Archive Blanket Orders
     description: You can archive a blanket sales order or a blanket purchase order, and you can use the archived blanket order to create an order.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

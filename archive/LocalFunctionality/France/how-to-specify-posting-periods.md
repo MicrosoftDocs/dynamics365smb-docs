@@ -2,6 +2,7 @@
     title: How to Specify Posting Periods
     description: When you specify posting periods, you limit the period in which posting is allowed.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

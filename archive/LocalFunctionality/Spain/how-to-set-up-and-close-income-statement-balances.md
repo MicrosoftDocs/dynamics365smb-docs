@@ -2,6 +2,7 @@
     title: How to Set Up and Close Income Statement Balances
     description: You can use income statement balancing accounts to balance and track several accounts at the same time.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

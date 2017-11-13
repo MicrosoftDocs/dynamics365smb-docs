@@ -2,6 +2,7 @@
     title: Remittance Errors
     description: Remittance errors for payments may occur when data is transferred and after payments have been sent to the bank. Both kinds of errors are reported in the **Return Error** window.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

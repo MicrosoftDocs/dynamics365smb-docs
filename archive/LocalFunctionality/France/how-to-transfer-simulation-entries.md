@@ -2,6 +2,7 @@
     title: How to Transfer Simulation Entries
     description: When you have created and posted simulation entries to the general ledger, you can transfer the simulation entries into real accounting entries.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

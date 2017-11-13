@@ -2,6 +2,7 @@
     title: Types of Payment Returns Files
     description: Norwegian enhancements include two types of payment return files that can be imported.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

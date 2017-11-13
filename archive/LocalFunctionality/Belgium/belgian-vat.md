@@ -2,6 +2,7 @@
     title: Belgian VAT
     description: Belgian enhancements of the VAT reporting feature enables you to print VAT transaction details.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

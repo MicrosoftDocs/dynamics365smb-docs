@@ -2,6 +2,7 @@
     title: Interest on Arrears Overview
     description: In [!INCLUDE[navnow](../../includes/navnow_md.md)], finance charge terms can include interest on arrears if you have amounts outstanding from customers or amounts outstanding for vendors.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

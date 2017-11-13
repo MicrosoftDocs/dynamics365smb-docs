@@ -2,6 +2,7 @@
     title: Payment Management
     description: You can manage bills of exchange, electronic payments, and vendor payments using the payment management function.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

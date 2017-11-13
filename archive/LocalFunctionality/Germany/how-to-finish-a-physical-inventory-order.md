@@ -2,6 +2,7 @@
     title: How to Finish a Physical Inventory Order
     description: After you have entered all data for the physical inventory order, you can finish the physical inventory order.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

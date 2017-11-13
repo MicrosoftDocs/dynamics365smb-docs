@@ -2,6 +2,7 @@
     title: How to Download CODA Files from an Isabel Server
     description: CODA files can be downloaded manually or in attended mode.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

@@ -2,6 +2,7 @@
     title: How to Calculate Assessed Tax
     description: The assessed tax feature enables you to calculate the assessed tax for fixed assets. The assessed tax is based on the information provided in the **Fixed Asset Setup** window.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

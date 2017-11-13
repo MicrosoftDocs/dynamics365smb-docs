@@ -2,6 +2,7 @@
     title: How to Set Up Automatic Archiving of Documents
     description: You can set up automatic archiving of sales documents and purchase documents—such as quotes, blanket orders, and orders—before you delete documents.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

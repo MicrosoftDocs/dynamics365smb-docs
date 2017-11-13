@@ -2,6 +2,7 @@
     title: How to Set Up Future Expenses in a Depreciation Book
     description: To depreciate a future expense, you have to set up future period expenses in a depreciation book.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

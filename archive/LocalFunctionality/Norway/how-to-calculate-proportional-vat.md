@@ -2,6 +2,7 @@
     title: How to Calculate Proportional VAT
     description: You can use proportional VAT to calculate VAT when there is both deductible and non-deductible VAT.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

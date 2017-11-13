@@ -2,6 +2,7 @@
     title: How to Set Up Validation of Purchase Amounts
     description: In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can activate the **Check Doc. Total Amounts** function to validate the total amount of purchase documents before posting a purchase invoice and purchase credit memo.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

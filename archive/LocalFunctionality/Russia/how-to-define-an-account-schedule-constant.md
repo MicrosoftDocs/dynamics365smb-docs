@@ -2,6 +2,7 @@
     title: How to Define an Account Schedule Constant
     description: Russian enhancements enable you to define a constant for an account schedule line. Constants are useful if an account schedule value does not change.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

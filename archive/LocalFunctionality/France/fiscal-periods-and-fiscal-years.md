@@ -2,6 +2,7 @@
     title: Fiscal Periods and Fiscal Years
     description: A fiscal year is typically divided into 12 monthly fiscal periods. In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can have two fiscal years open at the same time.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

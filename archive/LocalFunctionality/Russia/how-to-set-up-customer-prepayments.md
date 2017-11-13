@@ -2,6 +2,7 @@
     title: How to Set Up Customer Prepayments
     description: Prepayments are advance payments on sales orders that are received, invoiced, and posted before the final invoice is issued. For example, you may require a deposit before you manufacture and ship an item to a customer.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

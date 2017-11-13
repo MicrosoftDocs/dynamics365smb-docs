@@ -2,6 +2,7 @@
     title: How to Import Payroll Transactions
     description: You can import payroll transactions into a general journal from two external payroll solutions.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

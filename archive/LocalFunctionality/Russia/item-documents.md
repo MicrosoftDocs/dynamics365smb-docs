@@ -2,6 +2,7 @@
     title: Item Documents
     description: Russian enhancements include several documents that you can use to manage your warehouse.
 
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 

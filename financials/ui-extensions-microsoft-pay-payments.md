@@ -1,6 +1,6 @@
 ---
-title: WorldPay Payments Standard| Microsoft Docs
-description: Provides information about the WorldPay Payments Standard extension
+title: Microsoft Pay Standard| Microsoft Docs
+description: Provides information about the Microsoft Pay extension
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

@@ -1,5 +1,5 @@
 ---
-    title: Design Details - Central Concepts of the Planning System | Microsoft Docs
+    title: Design Details - Central Concepts of the Planning System| Microsoft Docs
     description: The planning functions are contained in a batch job that first selects the relevant items and period to plan for and then suggests possible actions for the user to take based on the demand/supply situation and the items' planning parameters.
     services: project-madeira
     documentationcenter: ''
@@ -47,7 +47,7 @@ In other words, it assumes that the plan for the past is executed according to t
 For more information, see [Design Details: Dealing with Orders Before the Planning Starting Date](design-details-dealing-with-orders-before-the-planning-starting-date.md).  
 
 ## Dynamic Order Tracking (Pegging)  
-Dynamic Order Tracking, with its simultaneous creation of action messages in the planning worksheet, is not a part of the supply planning system in Microsoft Dynamics NAV. This feature links, in real-time, the demand and the quantities that could cover them, whenever a new demand or supply is created or changed.  
+Dynamic Order Tracking, with its simultaneous creation of action messages in the planning worksheet, is not a part of the supply planning system in [!INCLUDE[d365fin](includes/d365fin_md.md)]. This feature links, in real-time, the demand and the quantities that could cover them, whenever a new demand or supply is created or changed.  
 
 For example, if the user enters or changes a sales order, the dynamic order tracking system will instantly and search for an appropriate supply to cover the demand. This could be from inventory or from an expected supply order (such as a purchase order or a production order). When a supply source is found, the system creates a link between the demand and the supply, and displays it in view-only windows that are accessed from the involved document lines. When appropriate supply cannot be found, the dynamic order tracking system creates action messages in the planning worksheet with supply plan suggestions reflecting the dynamic balancing. Accordingly, the dynamic order tracking system offers a very basic planning system that can be of help both to the planner and other roles in the internal supply chain.  
 
@@ -79,7 +79,7 @@ For more information, see Order Tracking Links during Planning in [Design Detail
 ## Sequence and Priority in Planning  
 When establishing a plan, the sequence of the calculations is important to get the job done within a reasonable timeframe. In addition, the prioritization of requirements and resources play an important role in obtaining the best results.  
 
-The planning system in Microsoft Dynamics NAV is demand-driven. High-level items should be planned before low-level items, because the plan for high-level items might generate additional demand for the lower-level items. This means, for example, that retail locations should be planned before distribution centers are planned, because the plan for a retail location may include additional demand from the distribution center. On a detailed balancing level, this also means that a sales order should not trigger a new supply order if an already released supply order is can cover the sales order. Likewise, a supply carrying a specific lot number should not be allocated to cover a generic demand if another demand requires this specific lot.  
+The planning system in [!INCLUDE[d365fin](includes/d365fin_md.md)] is demand-driven. High-level items should be planned before low-level items, because the plan for high-level items might generate additional demand for the lower-level items. This means, for example, that retail locations should be planned before distribution centers are planned, because the plan for a retail location may include additional demand from the distribution center. On a detailed balancing level, this also means that a sales order should not trigger a new supply order if an already released supply order is can cover the sales order. Likewise, a supply carrying a specific lot number should not be allocated to cover a generic demand if another demand requires this specific lot.  
 
 ### Item Priority / Low-Level Code  
 In a manufacturing environment, the demand for a finished, sellable item will result in derived demand for components that comprise the finished item. The bill-of-material structure controls the component structure and can cover several levels of semi-finished items. Planning an item at one level will cause derived demand for components at the next level, and so on. Eventually, this will result in derived demand for purchased items. Consequently, the planning system plans for items in order of their ranking in the total BOM hierarchy, starting with finished saleable items at the top level and continuing down through the product structure to the lower level items (according to the low-level code).  
@@ -126,16 +126,16 @@ The reason for selecting items for planning is a matter of system performance. I
 
 The full list of reasons for assigning an item for planning is provided in [Design Details: Planning Assignment Table](design-details-planning-assignment-table.md).  
 
-The planning options in Microsoft Dynamics NAV are:  
+The planning options in [!INCLUDE[d365fin](includes/d365fin_md.md)] are:  
 
 -   Calculate Regenerative Plan – Calculates all selected items, whether it is necessary or not.  
 -   Calculate Net Change Plan – Calculates only those selected items that have had some change in their demand-supply pattern and, therefore, have been assigned for planning.  
 
-Some users believe that net change planning should be performed on the fly, for example, when sales orders are entered. However, this could be confusing because dynamic order tracking and action messaging are also calculated on the fly. Besides, Microsoft Dynamics NAV offers real-time available-to-promise control, which provides pop–up warnings when entering sales orders if the demand cannot be fulfilled under the present supply plan.  
+Some users believe that net change planning should be performed on the fly, for example, when sales orders are entered. However, this could be confusing because dynamic order tracking and action messaging are also calculated on the fly. Besides, [!INCLUDE[d365fin](includes/d365fin_md.md)] offers real-time available-to-promise control, which provides pop–up warnings when entering sales orders if the demand cannot be fulfilled under the present supply plan.  
 
 In addition to these considerations, the planning system only plans for those items that the user has prepared with appropriate planning parameters. Otherwise, it is assumed that the user will plan the items manually or semi-automatically by using the Order Planning feature.  
 
-For more information about the automatic planning procedures, see [Design Details: Balancing Demand and Supply](../Topic/Design%20Details:%20Balancing%20Demand%20and%20Supply.md).  
+For more information about the automatic planning procedures, see [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md).  
 
 ## Item Dimensions  
 Demand and supply can carry variant codes and location codes that must be respected when the planning system balances demand and supply.  
@@ -154,7 +154,7 @@ An order-to-order link between demand and supply is another type of attribute th
 ### Specific Attributes  
 Certain attributes on demand are specific and must be matched exactly by a corresponding supply. The following two specific attributes exist:  
 
--   Demanded serial/lot numbers that require specific application (The **($ T_6502_11 SN Specific Tracking $)** or **($ T_6502_41 Lot Specific Tracking $)** check box is selected in the **($ N_6512 Item Tracking Code Card $)** window for the item tracking code that is used by the item.)  
+-   Demanded serial/lot numbers that require specific application (The **SN Specific Tracking** or **Lot Specific Tracking** check box is selected in the **Item Tracking Code Card** window for the item tracking code that is used by the item.)  
 -   Links to supply orders created manually or automatically for a specific demand (order-to-order links).  
 
 For these attributes, the planning system applies the following rules:  
@@ -205,7 +205,7 @@ For more information, see [Design Details: Reservation, Order Tracking, and Acti
 ## Warnings  
 The first column in the planning worksheet is for the warning fields. Any planning line created for an unusual situation will display a warning icon in this field, which the user can click for additional information.  
 
-Supply on planning lines with warnings will normally not be modified according to planning parameters. Instead, the planning system only suggests a supply to cover the exact demand quantity. However, the system can be set up to respect certain planning parameters for planning lines with certain warnings. For more information, see the description of these options for the **($ B_99001017 Calculate Plan - Plan. Wksh. $)** batch job and the **($ B_699 Calculate Plan - Req. Wksh. $)** batch job respectively.  
+Supply on planning lines with warnings will normally not be modified according to planning parameters. Instead, the planning system only suggests a supply to cover the exact demand quantity. However, the system can be set up to respect certain planning parameters for planning lines with certain warnings. For more information, see the description of these options for the **Calculate Plan - Plan. Wksh.** batch job and the **Calculate Plan - Req. Wksh.** batch job respectively.  
 
 The warning information is shown in the **Untracked Planning Elements** window, which is also used to show order tracking links to non-order network entities. The following warning types exist:  
 
@@ -221,26 +221,26 @@ The emergency warning is displayed in two situations:
 -   When the inventory is negative on the planning starting date.  
 -   When back-dated supply or demand events exist.  
 
-If an item’s inventory is negative on the planning starting date, the planning system suggests an emergency supply for the negative quantity to arrive on the planning starting date. The warning text states the starting date and the quantity of the emergency order. For more information, see [Design Details: Handling Projected Negative Inventory](../Topic/Design%20Details:%20Handling%20Projected%20Negative%20Inventory.md).  
+If an item’s inventory is negative on the planning starting date, the planning system suggests an emergency supply for the negative quantity to arrive on the planning starting date. The warning text states the starting date and the quantity of the emergency order. For more information, see [Design Details: Handling Projected Negative Inventory](design-details-handling-projected-negative-inventory.md).  
 
 Any document lines with due dates before the planning starting date are consolidated into one emergency supply order for the item to arrive on the planning starting date.  
 
 ### Exception  
 The exception warning is displayed if the projected available inventory drops below the safety stock quantity. The planning system will suggest a supply order to meet the demand on its due date. The warning text states the item’s safety stock quantity and the date on which it is violated.  
 
-Violating the safety stock level is considered an exception because it should not occur if the reorder point has been set correctly. For more information, see [Design Details: The Role of the Reorder Point](../Topic/Design%20Details:%20The%20Role%20of%20the%20Reorder%20Point.md).  
+Violating the safety stock level is considered an exception because it should not occur if the reorder point has been set correctly. For more information, see [Design Details: The Role of the Reorder Point](design-details-the-role-of-the-reorder-point.md).  
 
 In general, exceptional order proposals ensure that the projected available inventory is never lower than the safety stock level. This means that the proposed quantity is just enough to cover the safety stock, without considering planning parameters. However, in some scenarios, order modifiers will be considered.  
 
 > [!NOTE]  
->  The planning system may have consumed the safety stock intentionally and will then replenish it straight away. For more information, see [Safety Stock May Be Consumed](../Topic/Design%20Details:%20Loading%20the%20Inventory%20Profiles.md#BKMK_SafetyStockMayBeConsumed).  
+>  The planning system may have consumed the safety stock intentionally and will then replenish it straight away. For more information, see the "Safety Stock May Be Consumed" section in [Design Details: Loading the Inventory Profile](design-details-loading-the-inventory-profiles.md).
 
 ### Attention  
 The attention warning is displayed in three situations:  
 
 -   The planning starting date is earlier than the work date.  
 -   The planning line suggests changing a released purchase or production order.  
--   The projected inventory exceeds the overflow level on the due date. For more information, see [Design Details: Staying under the Overflow Level](../Topic/Design%20Details:%20Staying%20under%20the%20Overflow%20Level.md).  
+-   The projected inventory exceeds the overflow level on the due date. For more information, see [Design Details: Staying under the Overflow Level](design-details-staying-under-the-overflow-level.md).  
 
 > [!NOTE]  
 >  In planning lines with warnings, the **Accept Action Message** field is not selected, because the planner is expected to further investigate these lines before carrying out the plan.  
@@ -257,10 +257,10 @@ It is not always practical to plan an existing supply order, such as when produc
 
 The field can be manually set by the user, however, in some cases it will be set automatically by the system. The fact that planning flexibility can be manually set by the user is important, because it makes it easy to adapt the usage of the feature to different workflows and business cases.  
 
-For more information about how this field is used, see [Design Details: Transfers in Planning](../Topic/Design%20Details:%20Transfers%20in%20Planning.md).  
+For more information about how this field is used, see [Design Details: Transfers in Planning](design-details-transfers-in-planning.md).  
 
 ## Order Planning  
-The basic supply planning tool represented by the **Order Planning** window is designed for manual decision making. It does not consider any planning parameters and is therefore not discussed further in this document. For more information on the Order Planning feature, refer to Help in Microsoft Dynamics NAV.  
+The basic supply planning tool represented by the **Order Planning** window is designed for manual decision making. It does not consider any planning parameters and is therefore not discussed further in this document. For more information on the Order Planning feature, refer to Help in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!NOTE]  
 >  It is not advisable to use Order Planning if the company already uses the planning or requisition worksheets. Supply orders created through the **Order Planning** window may be changed or deleted during the automated planning runs. This is because the automated planning run uses planning parameters and these may not be considered by the user who made the manual plan in the Order Planning window.  
@@ -277,7 +277,7 @@ When planning with capacity-constrained resources, the system ensures that no re
 
 Dampener time can be added to resources to minimize operation splitting. This enables the system to schedule load on the last possible day by exceeding the critical load percent slightly if this can reduce the number of operations that are split.  
 
-This completes the outline of central concepts relating to supply planning in Microsoft Dynamics NAV. The following sections investigate these concepts deeper and place them in the context of the core planning procedures, balancing demand and supply as well as the use of reordering policies.  
+This completes the outline of central concepts relating to supply planning in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The following sections investigate these concepts deeper and place them in the context of the core planning procedures, balancing demand and supply as well as the use of reordering policies.  
 
 ## See Also  
 [Design Details: Transfers in Planning](design-details-transfers-in-planning.md)   

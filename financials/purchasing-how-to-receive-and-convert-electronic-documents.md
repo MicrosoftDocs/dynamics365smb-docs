@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/21/2017
+    ms.date: 11/17/2017
     ms.author: sgroespe
 
 ---
@@ -54,7 +54,7 @@ The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] supports rece
      Any validation errors, typically related to wrong or missing master data in [!INCLUDE[d365fin](includes/d365fin_md.md)] will be shown on the **Error Messages** FastTab.  
 
 ## See Also  
-[Manage Payables](payables-manage-payables.md)  
+[Managing Payables](payables-manage-payables.md)  
 [Incoming Documents](across-income-documents.md)  
 [How to: Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Exchanging Data Electronically](across-data-exchange.md)   

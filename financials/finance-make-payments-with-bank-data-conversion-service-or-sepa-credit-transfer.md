@@ -1,5 +1,5 @@
 ---
-    title: Choose the method of electronic payments | Microsoft Docs
+    title: Make Payments with Bank Data Conversion Service or SEPA Credit Transfer | Microsoft Docs
     description: Process payments to your vendors by exporting a file together with the payment information from the journal lines.
     author: SorenGP
 

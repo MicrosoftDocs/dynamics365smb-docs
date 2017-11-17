@@ -59,4 +59,4 @@ https://localhost:7048/server/OData/Customer?company='CRONUS International Ltd.'
 ```  
 
 ## See Also  
-[Setup and Administration in Dynamics 365 for Financials](admin-setup-and-administration.md)  
+[Setup and Administration](admin-setup-and-administration.md)  

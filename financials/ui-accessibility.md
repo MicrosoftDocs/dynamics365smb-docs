@@ -13,7 +13,7 @@ ms.date: 11/20/2017
 ms.author: edupont
 
 ---
-# Accessibility ***
+# Accessibility and keyboard shortcuts in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 This topic provides information about the features that make [!INCLUDE[d365fin](includes/d365fin_md.md)] readily available to people with disabilities. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the following accessibility features:  
 
 -   Keyboard shortcuts  
@@ -27,7 +27,7 @@ This topic provides information about the features that make [!INCLUDE[d365fin](
 -   Support for common assistive technologies  
 
 ##  <a name="Keyboard"></a> Keyboard Shortcuts in the browser
- [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the keyboard shortcuts that are supported by most web browsers.  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the keyboard shortcuts that are supported by most web browsers. The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.  
 
 |To do this|Press|  
 |----------------|-----------|  

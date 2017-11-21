@@ -1,8 +1,6 @@
 ---
 title: Using the QuickBooks Migration Extension | Microsoft Docs
-description: Describes how to use the extension to migrate customers, vendors, items, and accounts from QuickBooks Online to Financials. 
-services: project-madeira
-documentationcenter: ''
+description: Describes how to use the extension to migrate customers, vendors, items, and accounts from QuickBooks Online to Dynamics 365.
 author: bholtorf
 
 ms.service: dynamics365-financials
@@ -16,7 +14,7 @@ ms.author: bholtorf
 
 ---
 
-# The QuickBooks Online Data Migration Extension for Dynamics 365 for Financials
+# The QuickBooks Online Data Migration Extension for Dynamics 365 Business edition
 This extension is included in the **Data Migration** assisted setup guide to help you migrate important business data from QuickBooks Online to [!INCLUDE[d365fin](includes/d365fin_md.md)]. For example, this is useful when your business is growing, and you've decided to upgrade your business management app by starting to use [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## What data can I import from QuickBooks Online?
@@ -25,7 +23,7 @@ You can import the following data from QuickBooks Online to [!INCLUDE[d365fin](i
 * Customers
 * Vendors
 * Items
-* Chart of accounts 
+* Chart of accounts
 * Beginning balance transaction in the general ledger
 * On-hand quantities for inventory items
 * Open documents for customers and vendors, such as invoices, credit memos, and payments
@@ -37,7 +35,7 @@ We migrate only full amounts on sales and purchase documents. We do not update p
 
 ## Before you start
 An important part of the migration process is to specify the accounts to migrate transactions to. It's a good idea to plan this mapping before you migrate data. For example, the accounts where you post transactions for:  
-  
+
 * The sale of items or services to customers.
 * The purchase of items or services from vendors.  
 * Adjustments in the general ledger.  

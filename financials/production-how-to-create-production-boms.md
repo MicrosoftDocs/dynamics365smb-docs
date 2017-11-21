@@ -22,7 +22,7 @@ A production bill of material (BOM) holds master data that describes the compone
 
 Before you can set up a routing, the following must be in place:  
 
-- Item cards are created for parent items that take part in manufacturing. For more information, see [How to: Register New Products](inventory-how-register-new-items.md).
+- Item cards are created for parent items that take part in manufacturing. For more information, see [How to: Register New Items](inventory-how-register-new-items.md).
 - Production resources are set up. For more information, see [How to: Set Up Work Centers and Machine Centers](production-how-to-set-up-work-and-machine-centers.md).
 
 ## To create a production BOM  
@@ -43,7 +43,7 @@ Before you can set up a routing, the following must be in place:
 9.  In the **Routing Link Code** field, enter a code to connect the component to a specific operation. For more information, see the "To create routing links" section in [How to: Create Routings](production-how-to-create-routings.md).
 10. To copy lines from an existing production BOM, choose the **Copy BOM** action to select existing lines.  
 11.  Certify the production BOM.  
-12.  You can now attach the new production BOM to the card of the parent item in question. For more information, see [How to: Register New Products](inventory-how-register-new-items.md).  
+12.  You can now attach the new production BOM to the card of the parent item in question. For more information, see [How to: Register New Items](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
 >  To recalculate the item’s standard cost from the item card, choose the **Manufacturing** action, and then choose the **Calc. Standard Cost** action.  

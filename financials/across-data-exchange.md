@@ -1,5 +1,5 @@
 ---
-    title: Electronic documents in Dynamics 365 for Financials  | Microsoft Docs
+    title: Electronic documents in Dynamics 365 Business edition   | Microsoft Docs
     description: Introduction to sending and receiving electronic documents in [!INCLUDE[d365fin](includes/d365fin_md.md)].
     author: SorenGP
 
@@ -13,6 +13,7 @@
     ms.author: sgroespe
 
 ---
+
 # Exchanging Data Electronically
 You can use the Data Exchange Framework to exchange business documents, bank files, currency exchange rates, and any other data files with your business partners.
 

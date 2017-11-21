@@ -1,6 +1,6 @@
 ---
 title: Optional Activities for Closing Periods | Microsoft Docs
-description: This topic outlines the optional processes and activities for closing accounting periods in Financials.  
+description: This topic outlines the optional processes and activities for closing accounting periods in Dynamics 365.  
 services: project-madeira
 documentationcenter: ''
 author: jswymer

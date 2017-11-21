@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
-ms.date: 06/02/2017
+ms.date: 09/26/2017
 ms.author: sgroespe
 
 ---
@@ -22,6 +22,9 @@ You use bank accounts in the [!INCLUDE[d365fin](includes/d365fin_md.md)] to keep
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.
 2. In the **Bank Accounts** window, choose the **New** action.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!NOTE]
+> To fill in the **Balance** field with an opening balance, you must post a bank account ledger entry with the amount in question. You can do this by performing a bank account reconciliation. For more information, see [How to: Reconcile Bank Accounts Separately](bank-how-reconcile-bank-accounts-separately.md). Alternatively, you can implement the opening balance as a part of general data creation in new companies by using the **Migrate Business Data** assisted setup. For more information, see [Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)](index.md).
 
 ## To set up your bank account for import or export of bank files
 Fields on the **Transfer** FastTab in the **Bank Account Card** window are related to import and export of bank feeds and files. For more information, see [How to: Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md) and [How to: Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md).
@@ -40,6 +43,9 @@ Fields on the **Transfer** FastTab in the **Vendor Bank Account Card** window ar
 2. Open the card for a vendor whose bank account you will export payment bank files to.
 3. Choose the **Bank Accounts** action.
 3. In the **Vendor Bank Account Card** window, on the **Transfer** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+## To set the opening balance on new bank accounts
+
 
 ## See Also
 [Setting Up Banking](bank-setup-banking.md)  

@@ -1,6 +1,6 @@
 ---
 title: Set up SEPA Direct Debit | Microsoft Docs
-description: Learn how to set up SEPA Direct Debit in Dynamics 365 for Financials.
+description: Learn how to set up SEPA Direct Debit in Dynamics 365 Business edition .
 author: SorenGP
 
 ms.service: dynamics365-financials
@@ -34,7 +34,7 @@ Before you can process customer payments electronically by exporting direct debi
 2. Choose the **New** action.  
 3. Set up a payment method. Fill in the direct debit\-specific fields as described in the following table.  
 
-    |Field|[Description|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Direct Debit**|Specify if the payment method is for SEPA direct debit collection.|  
     |**Direct Debit Pmt. Terms Code**|Specify the payment terms, such as DON’T PAY, that are displayed on sales invoices that are paid with SEPA direct debit to indicate to the customer that the payment will be collected automatically. Alternatively, leave the field empty.|  
@@ -55,7 +55,7 @@ Before you can process customer payments electronically by exporting direct debi
 4. In the **Customer Bank Account List** window, select the customer bank account that will use direct debits, and then, on the **Home** tab, in the **Process** group, choose **Direct Debit Mandates**.  
 5. In the **SEPA Direct Debit Mandates** window, fill in the fields as described in the following table.  
 
-    |[Field|Description]|  
+    |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Customer Bank Account Code**|Specifies the bank account from which direct\-debit payments are collected. This field is filled automatically.|  
     |**Valid From**|Specify the date when the direct\-debit mandate starts.|  

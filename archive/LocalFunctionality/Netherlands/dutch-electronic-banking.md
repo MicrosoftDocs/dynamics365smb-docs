@@ -1,7 +1,8 @@
 ---
-    title: Docket Reports | Microsoft Docs
-    description: The Dutch telebanking application allows you to combine ledger entries for the same customer or vendor, having the same transaction mode, into one payment or collection order to the bank. As such one total amount will be paid to or collected from the vendor or customer involved. Possibly this combined payment could lack all detail information about the individual payments or collections. Telebanking offers you the possibility to inform your vendor or customer in detail by generating a docket report that describes the individual payments that constitute the total amount paid or collected.
-    services: project-madeira
+    title: Dutch Electronic Banking
+    description: Electronic banking functionality allows you to create electronic payment files and direct debit files, and to import electronic bank statements from supported bank software.
+
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 
@@ -11,18 +12,42 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/26/2017
     ms.author: sgroespe
 
 ---
-# Docket Reports
-The Dutch telebanking application allows you to combine ledger entries for the same customer or vendor, having the same transaction mode, into one payment or collection order to the bank. As such one total amount will be paid to or collected from the vendor or customer involved. Possibly this combined payment could lack all detail information about the individual payments or collections. Telebanking offers you the possibility to inform your vendor or customer in detail by generating a docket report that describes the individual payments that constitute the total amount paid or collected.  
-  
- When generating payment proposals using the Get Proposal Entries batch job the system will place a check mark in the Docket field on the proposal in case that:  
-  
--   The resulting combined payment includes too many invoice numbers to list them in the available four description fields of the new proposal line: Description 1 field, Description 2 field, Description 3 field, and Description 4 field.  
-  
--   The payment is not based upon an invoice.  
-  
+# Dutch Electronic Banking
+Electronic banking functionality allows you to create electronic payment files and direct debit files, and to import electronic bank statements from supported bank software.  
+
+## Telebanking  
+Using Telebanking, you can export payments, import bank statements, and collect data to forward to the bank. For more information, see [Telebanking](telebanking.md).  
+
+You can create payment proposals and reconcile bank accounts in the cash, bank, and giro journals.  
+
+### Payment Files  
+You can make payment proposals for paying open invoices to suppliers. Payment proposals can be edited manually prior to processing to add or remove payment invoices, or to change payment amounts. After processing a proposed payment batch, you can transfer electronic payment files to the bank. If an error occurs in the payment file while importing into the banking software, you can make a copy of the payment file to resubmit to the bank.  
+
+You can make domestic payments and international payments using the designated formats. For more information, see [Telebanking](telebanking.md).  
+
+### Direct Debit Files  
+You can create a payment proposal to collect payment from customer bank accounts. You can edit payment proposals manually to add or remove invoices, or to change collection amounts. After processing a proposed payment batch, you can transfer electronic direct debit files to the bank. If an error occurs in the direct debit file while importing into the banking software, you can make a copy of the direct debit file to resubmit to the bank.  
+
+You can only collect payments domestically at this time. For more information, see [How to: Create Proposals](how-to-create-proposals.md).  
+
+### Bank Statement Import  
+You can import bank statements from supported bank software, and reconcile them with incoming and outgoing payments. You can also reconcile bank charges and interest earned.  
+
+Electronic bank statement files are supported for the following banks:  
+
+- ABN AMRO Bank \(SWIFT MT940\)  
+- ING Bank \(SWIFT MT940, PAYMUL\)  
+- Rabobank \(MUT.ASC, VVMUT.ASC, BBV and ASCII\)  
+- Postbank \(SWIFT MT940\)  
+
+### Bank Account Number Validation  
+Bank account numbers are validated by ensuring that they are either 9 or 10 digits long and they pass the “eleven test” algorithm. For giro accounts, the account number must be less than eight digits.  
+
 ## See Also  
- [Telebanking](telebanking.md)
+ [Telebanking](telebanking.md)   
+ [Cash\-Bank\-Giro](cash-bank-giro.md)   
+ [How to: Import and Reconcile Bank Statements](how-to-import-and-reconcile-bank-statements.md)

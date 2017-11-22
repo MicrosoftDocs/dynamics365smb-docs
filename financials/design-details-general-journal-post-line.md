@@ -1,8 +1,6 @@
 ---
     title: Design Details - General Journal Post Line | Microsoft Docs
-    description: This topic provides insight into the concepts and principles that are used to redesign the general journal posting line feature in [!INCLUDE[d365fin](includes/d365fin_md.md)].
-    services: project-madeira
-    documentationcenter: ''
+    description: This topic provides insight into the concepts and principles that are used to redesign the general journal posting line feature in Dynamics 365.
     author: SorenGP
 
     ms.service: dynamics365-financials

@@ -1,7 +1,8 @@
 ---
-    title: How to Create and Export Payment History | Microsoft Docs
-    description: After you have created a proposal and made any modifications, you can process the proposal to create a payment history. Proposals can be created manually or automatically from a vendor or customer ledger entry. For more information, see [How to: Create Proposals](how-to-create-proposals.md).
-    services: project-madeira
+    title: How to Create and Export Payment History
+    description: After you have created a proposal and made any modifications, you can process the proposal to create a payment history. Proposals can be created manually or automatically from a vendor or customer ledger entry.
+
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 
@@ -17,36 +18,30 @@
 ---
 # How to: Create and Export Payment History
 After you have created a proposal and made any modifications, you can process the proposal to create a payment history. Proposals can be created manually or automatically from a vendor or customer ledger entry. For more information, see [How to: Create Proposals](how-to-create-proposals.md).  
-  
+
  For exporting payment histories, the following protocols are supported:  
-  
--   ($ B_11000006 CLIEOP3 $)  
-  
--   ($ B_11000007 BTL91 $)  
-  
--   BBV  
-  
--   PAYMUL  
-  
-### To create a payment history for a proposal  
-  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Telebank - Bank Overview**, and then choose the related link.  
-  
-     If you want to print the proposal before you process it, choose the **Print** button.  
-  
-2.  To process the proposal, choose **Proposal** , and then choose **Process**.  
-  
-3.  To view the payment history, close the **Telebank Proposal** window. Make sure the same bank account in the **Telebank – Bank Overview** window is selected. On the **Actions** tab, in the **Telebank** group, choose **Payment History**.  
-  
-     The **Payment History List** window displays the payment history that you just created.  
-  
-### To export a payment history  
-  
--   In the **Payment History List** window, on the **Home** tab, choose **Export**.  
-  
+
+- BTL91 $)  
+- BBV  
+- PAYMUL  
+
+## To create a payment history for a proposal  
+
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Telebank - Bank Overview**, and then choose the related link.  
+
+    If you want to print the proposal before you process it, choose the **Print** button.  
+
+2.  To process the proposal, choose the **Process** action.  
+3.  To view the payment history, close the **Telebank Proposal** window. Make sure the same bank account in the **Telebank – Bank Overview** window is selected, and then choose the **Payment History** action.  
+
+The **Payment History List** window displays the payment history that you just created.  
+
+## To export a payment history  
+
+- In the **Payment History List** window, choose the **Export** action.  
+
     > [!NOTE]  
-    >  A text file will be created. This file contains the path and file name as defined in the Default File Names Field field of the export protocol.  
-  
+    >  A text file will be created. This file contains the path and file name as defined in the **Default File Names Field** field of the export protocol.  
+
 ## See Also  
- [How to: Create Proposals](how-to-create-proposals.md)   
- Paymt. History - Change Status Batch Job
+ [How to: Create Proposals](how-to-create-proposals.md)

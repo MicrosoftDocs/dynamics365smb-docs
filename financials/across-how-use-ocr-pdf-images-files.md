@@ -66,23 +66,34 @@ If you are not using a job queue, or you want to receive a finished OCR document
 Now you can proceed to create document records for the received electronic documents in [!INCLUDE[d365fin](includes/d365fin_md.md)], manually or automatically. For more information, see the next procedure. You can also connect the new incoming document record to existing posted or non-posted document so that the source file is easy to access from [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Process Incoming Documents](across-process-income-documents.md).
 
 ## To create a purchase invoice from an electronic document received from the OCR service
-The following procedure describes how to create a purchase invoice record from a vendor invoice received as an electronic document from the OCR service. The procedure is the same when you create, for example, a general journal line from an expense receipt.
+The following procedure describes how to create a purchase invoice record from a vendor invoice received as an electronic document from the OCR service. The procedure is the same when you create, for example, a general journal line from an expense receipt or a sales return order from a customer.
 
 > [!NOTE]  
->   The **Description** and **No.** fields on the created document lines will only be filled if you have first mapped text found on the OCR document to the two fields in [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can do this either as item cross-references, for document lines of type Item, or as text-to-account mappings, for document or journal lines of type G/L Account. For more information, see the tooltip for the **Cross References** action on item cards and the related procedure, [How to: Map Text on Recurring Payments to Accounts for Automatic Reconciliation](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
+>   The **Description** and **No.** fields on the created document lines will only be filled if you have first mapped text found on the OCR document to the two fields in [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can do this mapping as item cross-references, for document lines of type Item. You can also use the Text-to-Account Mapping function. For more information, see the "To map text on an incoming document to a specific vendor, G/L, or bank account" section.
 
+To map the item numbers on the document to your descriptions of the vendor's items, open the card of each item, and then choose the **Cross References** action to set up cross-references between your item descriptions and those of the vendor. For more information, see the tooltip for the **Cross References** action on item cards.
+
+1. Select the line for the incoming document, and then choose the **Create Document** action.
+
+A purchase invoice will be created in [!INCLUDE[d365fin](includes/d365fin_md.md)] based on the information in the electronic vendor document that you received from the OCR service. Information will be inserted in the new purchase invoice based on the mapping that you have defined as a cross-reference or as text-to-account mapping.
+
+Any validation errors, typically related to wrong or missing master data in [!INCLUDE[d365fin](includes/d365fin_md.md)], will be shown on the **Errors and Warnings** FastTab. For more information, see the "To handle errors when receiving electronic documents" section.
+
+### To map text on an incoming document to a specific vendor account
 For incoming documents, you typically use the **Map Text to Account** action to define that a certain text on a vendor invoice received from the OCR service is mapped to a certain vendor account. Going forward, any part of the incoming document description that exists as a mapping text means that the **No.** field on resulting document or journal lines of type G/L Account are filled with the vendor in question.
 
 In addition to mapping to a vendor account or G/L accounts, you can also map to a bank account. This is practical, for example, for electronic documents for expenses that are already paid where you want to create a general journal line that is ready to post to a bank account.
 
-1. Select the incoming document line for the electronic vendor document received from the OCR service.
-2. To map text on the document to the vendor's account, a debit account, choose the **Map Text to Account** action, and then fill in the **Text-to-Account Mapping** window with information that will apply to the vendor going forward. For more information, see [How to: Map Text on Recurring Payments to Accounts for Automatic Reconciliation](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
-3. To map the item numbers on the document to your descriptions of the vendor's items, open the card of each item, and then choose the **Cross References** action to set up cross-references between your item descriptions and those of the vendor.
-4. In the **Incoming Documents** window, choose the **Create Document** action.
+1. Select the relevant incoming document line, and then choose the **Map Text to Account** action. The **Text-to-Account Mapping** window opens.
+3. In the **Mapping Text** field, enter any text that occurs on vendor invoices that you want to create purchase documents or journal lines for. You can enter up to 50 characters.
+4. In the **Vendor No.** field, enter the vendor that the resulting purchase document or journal line will be created for.
+5. In the **Debit Acc. No.** field, enter the debit-type G/L account that will be inserted on resulting purchase document or journal line of type G/L Account.
+6. In the **Credit Acc. No.** field, enter the credit-type G/L account that will be inserted on resulting purchase document or journal line of type G/L Account.
 
-A purchase invoice will be created in [!INCLUDE[d365fin](includes/d365fin_md.md)] based on the information in the electronic vendor document that you received from the OCR service.
+    > [!NOTE]
+    > Do not use the **Bal. Source Type** and **Bal. Source No.** fields in connection with incoming documents. They are used for automatic payment reconciliation only. For more information, see [How to: Map Text on Recurring Payments to Accounts for Automatic Reconciliation](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 
-Any validation errors, typically related to wrong or missing master data in [!INCLUDE[d365fin](includes/d365fin_md.md)], will be shown on the **Errors and Warnings** FastTab. For more information, see the "To handle errors when receiving electronic documents" section.
+7. Repeat steps 2 through 5 for all text on incoming documents that you want to automatically create documents for.
 
 ## To handle errors when receiving electronic documents
 1. In the **Incoming Documents** window, select the line for an electronic document received from the OCR service with errors. This is indicated by the Error value in the **OCR Status** field.

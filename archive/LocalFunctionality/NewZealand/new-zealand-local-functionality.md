@@ -1,7 +1,8 @@
 ---
-    title: New Zealand Local Functionality | Microsoft Docs
-    description: The following topics describe the local functionality in the New Zealand version of [!INCLUDE[d365fin](includes/d365fin_md.md)].
-    services: project-madeira
+    title: New Zealand Local Functionality
+    description: The following topics describe the local functionality in the New Zealand version of [!INCLUDE[navnow](../../includes/navnow_md.md)].
+
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 
@@ -16,11 +17,14 @@
 
 ---
 # New Zealand Local Functionality
-The following topics describe the local functionality in the New Zealand version of [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-  
+The following topics describe local functionality that is unique to the New Zealand version of [!INCLUDE[navnow](../../includes/navnow_md.md)]  
+
 ## In This Section  
  [Addresses](addresses.md)  
   [Calculating Distribution Amounts](calculating-distribution-amounts.md)  
   [How to: Determine Sales Price by Cost Plus Percentage](how-to-determine-sales-price-by-cost-plus-percentage.md)  
   [How to: Print Deposit Slip Reports](how-to-print-deposit-slip-reports.md)  
   [How to: Print Bank Account Reconciliation Reports](how-to-print-bank-account-reconciliation-reports.md)
+
+## See Also
+[Working with [!INCLUDE[navnow](../../includes/navnow_md.md)]](../../ui-work-product.md)

@@ -1,7 +1,8 @@
 ---
-    title: How to View and Print Account Turnover Information | Microsoft Docs
-    description: [!INCLUDE[d365fin](includes/d365fin_md.md)] enables you to view account turnover information in correspondence with other accounts.
-    services: project-madeira
+    title: How to View and Print Account Turnover Information
+    description: Russian enhancements enable you to view account turnover information in correspondence with other accounts.
+
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 
@@ -16,14 +17,13 @@
 
 ---
 # How to: View and Print Account Turnover Information
-[!INCLUDE[d365fin](includes/d365fin_md.md)] enables you to view account turnover information in correspondence with other accounts.  
-  
-### To view account turnover information  
-  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Corresp. General Ledger**, and then choose the related link.  
-  
+[!INCLUDE[navnow](../../includes/navnow_md.md)] enables you to view account turnover information in correspondence with other accounts.  
+
+## To view account turnover information  
+
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Corresp. General Ledger**, and then choose the related link.  
 2.  On the **General** FastTab, enter the following information.  
-  
+
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Date Filter**|Enter the date filter for which you want to view account information.|  
@@ -31,13 +31,12 @@
     |**Department Filter**|Select the department filter for which you want to view account information.|  
     |**Incexp Filter**|Select the income and expenses filter for which you want to view account information.|  
     |**Switch Debit/Credit**|Specifies if you want to show the debit and credit balance for the account.|  
-  
-### To print account turnover information  
-  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Corresp. General Ledger**, and then choose the related link.  
-  
+
+## To print account turnover information  
+
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Corresp. General Ledger**, and then choose the related link.  
 2.  On the **Options** FastTab, enter the following information.  
-  
+
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Period Beginning**|Select the start date for the information that you want to include in the report.|  
@@ -46,10 +45,6 @@
     |**Without Account Title Type**|Specifies if you want to print the report without including account titles.|  
     |**Without Levels of Enclosure**|Specifies if you want to print the report without including levels of enclosure.|  
     |**Interim Total**|Specifies if you want to print the report including interim totals.|  
-  
+
 ## See Also  
- Business Unit List   
- Dimension Value   
- G-L Corresp. General Ledger   
- G-L Correspondence   
- Create G-L Correspondence
+[Russia Local Functionality](russia-local-functionality.md)

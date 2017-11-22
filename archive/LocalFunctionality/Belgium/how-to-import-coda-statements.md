@@ -1,7 +1,8 @@
 ---
-    title: How to Import CODA Statements | Microsoft Docs
-    description: When you receive a CODA statement from your bank, you must import it into ADD INCLUDE<!--[!INCLUDE[navnow](how-to-set-up-bank-accounts-for-coda.md).
-    services: project-madeira
+    title: How to Import CODA Statements
+    description: When you receive a CODA statement from your bank, you must import it into [!INCLUDE[navnow](../../includes/navnow_md.md)].
+
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 
@@ -16,18 +17,16 @@
 
 ---
 # How to: Import CODA Statements
-When you receive a CODA statement from your bank, you must import it into ADD INCLUDE<!--[!INCLUDE[navnow](how-to-set-up-bank-accounts-for-coda.md).  
-  
-### To import a CODA statement  
-  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.  
-  
-2.  Select the bank account, and on the **Home** tab, in the **Progress** group, choose **Import CODA File**.  
-  
+When you receive a CODA statement from your bank, you must import it into [!INCLUDE[navnow](../../includes/navnow_md.md)]. For more information, see [How to: Set Up Bank Accounts for CODA](how-to-set-up-bank-accounts-for-coda.md).  
+
+## To import a CODA statement  
+
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.  
+2.  Select the bank account, and then choose **Import CODA File** action.  
 3.  Enter the name of the file to import and then choose the **OK** button.  
-  
- This imports the CODA statement. Next, you must process the CODA statement lines. For more information, see [How to: Apply CODA Statements](how-to-apply-coda-statements.md).  
-  
+
+This imports the CODA statement. Next, you must process the CODA statement lines. For more information, see [How to: Apply CODA Statements](how-to-apply-coda-statements.md).  
+
 ## See Also  
  [CODA Bank Statements](coda-bank-statements.md)   
  [How to: Set Up Bank Accounts for CODA](how-to-set-up-bank-accounts-for-coda.md)   

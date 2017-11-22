@@ -1,7 +1,8 @@
 ---
-    title: How to Create Additional Sheets | Microsoft Docs
-    description: In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can create additional sheets based on VAT purchase ledgers and VAT sales ledgers.
-    services: project-madeira
+    title: How to Create Additional Sheets 
+    description: In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can create additional sheets based on VAT purchase ledgers and VAT sales ledgers.
+    
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 
@@ -16,11 +17,11 @@
 
 ---
 # How to: Create Additional Sheets
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can create additional sheets based on VAT purchase ledgers and VAT sales ledgers.  
+In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can create additional sheets based on VAT purchase ledgers and VAT sales ledgers.  
   
 ### To create entries for an additional sheet for a VAT purchase or sales ledger  
   
-1.  Select the VAT purchase or sales line in the **VAT Ledger List** form with the required accounting period.  
+1.  Select the VAT purchase or sales line in the **VAT Ledger List** window with the required accounting period.  
   
 2.  On the **Actions** tab, choose **Functions**, and then choose **Create Additional Sheet**.  
   

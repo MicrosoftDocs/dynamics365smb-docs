@@ -1,7 +1,8 @@
 ---
-    title: Iceland Local Functionality | Microsoft Docs
-    description: The following topics describe the local functionality in the Icelandic version of Microsoft Dynamics NAV.
-    services: project-madeira
+    title: Iceland Local Functionality
+    description: The following topics describe the local functionality in the Icelandic version of [!INCLUDE[navnow](../../includes/navnow_md.md)].
+
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 
@@ -16,13 +17,14 @@
 
 ---
 # Iceland Local Functionality
-The following topics describe the local functionality in the Icelandic version of Microsoft Dynamics NAV.  
+The following topics describe local functionality that is unique to the Icelandic version of [!INCLUDE[navnow](../../includes/navnow_md.md)]
 
 ## In This Section  
- [What's New 13](what-s-new-13.md)  
- [Icelandic Tax Regulations of Conditional Discounts](icelandic-tax-regulations-of-conditional-discounts.md)  
+  [Icelandic Tax Regulations of Conditional Discounts](icelandic-tax-regulations-of-conditional-discounts.md)  
   [Electronic Invoicing Requirement: Issuing Single Copy Invoice](electronic-invoicing-requirement-issuing-single-copy-invoice.md)  
   [Deleting Posted Invoices and Credit Memos](deleting-posted-invoices-and-credit-memos.md)  
   [How to: Print VAT Summary Information on Documents](how-to-print-vat-summary-information-on-documents.md)  
  [Special Data Output and Reports for the Tax Authority](special-data-output-and-reports-for-the-tax-authority.md)  
-  
+
+## See Also
+[Working with [!INCLUDE[navnow](../../includes/navnow_md.md)]](../../ui-work-product.md)  

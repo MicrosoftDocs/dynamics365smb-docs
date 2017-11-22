@@ -1,7 +1,8 @@
 ---
-    title: How to Import Payment Return Data | Microsoft Docs
-    description: To import receipt and settlement returns, use the **Rem. payment order – import** window. If any errors are indicated when importing settlement returns, you can view this information in the **Settlement Info** window.
-    services: project-madeira
+    title: How to Import Payment Return Data
+    description: To import receipt and settlement returns, use the **Rem. payment order – import** window.
+
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 
@@ -17,39 +18,35 @@
 ---
 # How to: Import Payment Return Data
 To import receipt and settlement returns, use the **Rem. payment order – import** window. If any errors are indicated when importing settlement returns, you can view this information in the **Settlement Info** window.  
-  
-### To import return data  
-  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Rem. payment order – import**, and then choose the related link.  
-  
+
+## To import return data  
+
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Rem. payment order – import**, and then choose the related link.  
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
-  
+
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Payment order note**|Enter a note that is transferred to the payment order.|  
     |**ControlBatch**|Select the check box to verify return files in advance to ensure if the import can be made. Return data is not imported.|  
     |**Return files**|Specifies how many return files are found and imported.|  
-  
+
 3.  Choose the **Return Files** button to display the return files.  
-  
 4.  In the **Return Files** window, select the **Import** option next to each file to be imported. If the option is cleared, the file will not be imported.  
-  
 5.  Choose the **OK** button.  
-  
-### To view settlement information  
-  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Settlement Info**, and then choose the related link.  
-  
+
+## To view settlement information  
+
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Settlement Info**, and then choose the related link.  
 2.  On the **General** FastTab, view the fields as described in the following table.  
-  
+
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Remittance Handling Ref.**|Shows the reference that the bank enters for foreign payments.|  
     |**Remittance Warning**|If selected, the journal line contains a warning.|  
     |**Remittance Warning Text**|Shows the description of the warning, if applicable.|  
-  
+
 3.  Choose the **OK** button.  
-  
+
 ## See Also  
  [Electronic Payments to Vendors in Norway](electronic-payments-to-vendors-in-norway.md)   
  [How to: Set Up Remittance Agreements](how-to-set-up-remittance-agreements.md)   

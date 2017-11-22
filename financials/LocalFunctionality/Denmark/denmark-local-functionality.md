@@ -1,8 +1,6 @@
 ---
     title: Denmark Local Functionality | Microsoft Docs
-    description: This section describes local functionality in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] in Denmark.
-    services: project-madeira
-    documentationcenter: ''
+    description: This section describes local functionality in Dynamics 365 in Denmark.
     author: SorenGP
 
     ms.service: dynamics365-financials

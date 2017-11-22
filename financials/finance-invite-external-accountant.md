@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting
-ms.date: 09/05/2017
+ms.date: 11/10/2017
 ms.author: edupont
 
 ---
@@ -27,7 +27,10 @@ In the latest version of [!INCLUDE[d365fin](includes/d365fin_md.md)], we have ma
 ![Invite your accountant](./media/finance-invite-accountant/invite-accountant.png)
 
 > [!TIP]  
->  This requires that you have set up SMTP email. You can do this yourself or ask your [!INCLUDE[d365fin](includes/d365fin_md.md)] partner. Also, you must be logged in to [!INCLUDE[d365fin](includes/d365fin_md.md)] as a user administrator, not as the business owner or other users.  
+>  This requires that you have set up SMTP email. You can do this yourself or ask your [!INCLUDE[d365fin](includes/d365fin_md.md)] partner. Also, you must be logged in to [!INCLUDE[d365fin](includes/d365fin_md.md)] as a user administrator, not as the business owner or other users. Finally, you must have left the trial company so that you have an Azure Active Directory administrator.  
+
+> [!IMPORTANT]  
+>  The accountant's email address must be a work address that is based an Active Directory. If the accountant uses another type of email, then the invitation cannot be sent.  
 
 ### Separate License
 Behind the scenes, the accountant is added to your Active Directory tenant. Your administrator can verify that the accountant accepts the invitation and is assigned the correct license. The steps for doing this depends on the type of account that you used when you signed up for [!INCLUDE[d365fin](includes/d365fin_md.md)]. This topic is based on the use of an Office 365 account, which uses Microsoft Azure Active Directory.  

@@ -1,7 +1,8 @@
 ---
-    title: How to Enter Custom Declarations Information | Microsoft Docs
+    title: How to Enter Custom Declarations Information
     description: Use the following procedure to enter custom declaration information.
-    services: project-madeira
+
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 
@@ -17,13 +18,12 @@
 ---
 # How to: Enter Custom Declarations Information
 Use the following procedure to enter custom declaration information.  
-  
-### To enter custom declarations information  
-  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Custom Declarations**, and then choose the related link.  
-  
+
+## To enter custom declarations information  
+
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Custom Declarations**, and then choose the related link.  
 2.  In the **Custom Declaration** window, fill in the fields.  
-  
+
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**No.**|Specifies the custom declaration number.|  
@@ -32,9 +32,8 @@ Use the following procedure to enter custom declaration information.
     |**Source No.**|Specifies the source number from one of the following tables:<br /><br /> -   **Customer**<br />-   **Vendor**<br />-   **Item List**|  
     |**Country of Origin Code**|Specifies the country/region for the customer if all the items in the custom declarations have come from the same country/region. Information from this field is copied to the custom declaration lines.|  
     |**Declaration Date**|Enter the date of the custom declaration.|  
-  
+
 3.  Choose the **OK** button.  
-  
+
 ## See Also  
- Custom Declarations   
- [How to: Print the Factura-Invoice](how-to-print-the-factura-invoice.md)
+[How to: Print the Factura-Invoice](how-to-print-the-factura-invoice.md)

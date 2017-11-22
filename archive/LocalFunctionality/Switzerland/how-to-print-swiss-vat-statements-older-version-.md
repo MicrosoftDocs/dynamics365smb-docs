@@ -1,7 +1,8 @@
 ---
-    title: How to Print Swiss VAT Statements (older version) | Microsoft Docs
-    description: > [!NOTE]
-    services: project-madeira
+    title: How to Print Swiss VAT Statements (older version)
+    description: The **Swiss VAT Statement** is the standard calculation report for realizing VAT. You can print this report, and use it for quarterly tax reporting.
+
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 
@@ -16,26 +17,25 @@
 
 ---
 # How to: Print Swiss VAT Statements (older version)
+
 > [!NOTE]  
 >  This topic is retained for backward compatibility with the **Swiss VAT Statement** report. For information about using the newer Swiss VAT Statement, see Swiss VAT Statement.  
-  
- The **Swiss VAT Statement** is the standard calculation report for realizing VAT. You can print this report, and use it for quarterly tax reporting. The **Swiss VAT Statement** ../../includes:  
-  
--   A VAT entry.  
-  
--   VAT adjusting entries.  
-  
--   An accounting sheet.  
-  
-### To print the Swiss VAT statement  
-  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Swiss VAT Statement**, and then choose the related link.  
-  
+
+The **Swiss VAT Statement** is the standard calculation report for realizing VAT. You can print this report, and use it for quarterly tax reporting. The **Swiss VAT Statement** includes the following:  
+
+- A VAT entry.  
+- VAT adjusting entries.  
+- An accounting sheet.  
+
+## To print the Swiss VAT statement  
+
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Swiss VAT Statement**, and then choose the related link.  
+
     > [!NOTE]  
     >  You will receive a message stating that the **Swiss VAT Statement** will open in the local language.  
-  
+
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
-  
+
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Closed with Journal no.**|Select the general ledger journals that contain the posting source of the VAT adjusting entries. This field evaluates accounting periods that have already been settled.|  
@@ -49,12 +49,9 @@
     |**Own Consumption Bus. Group**|Select the business and product group for own consumptions.|  
     |**Service Foreign Bus. Group**|Select the foreign service business and product group.|  
     |**Export Bus. Group**|Select the business and product group for exports.|  
-  
+
 3.  Choose the **Print** button to print the VAT statement or choose the **Preview** button to view it on the screen.  
-  
+
 ## See Also  
  [Swiss Value Added Tax](swiss-value-added-tax.md)   
- [VAT Rates for Switzerland](vat-rates-for-switzerland.md)   
- VAT Posting Setup   
- General Ledger Setup   
- VAT Entry
+ [VAT Rates for Switzerland](vat-rates-for-switzerland.md)

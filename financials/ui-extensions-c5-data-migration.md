@@ -11,13 +11,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 09/26/2017
+ms.date: 11/21/2017
 ms.author: bholtorf
 
 ---
 
 # The C5 Data Migration Extension for Dynamics 365 for Finance and Operations, Business Edition
-This extension makes it easy to migrate customers, vendors, items, and your general ledger accounts from Microsoft Dynamcis C5 2012 to [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+This extension makes it easy to migrate customers, vendors, items, and your general ledger accounts from Microsoft Dynamcis C5 2012 to [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can also migrate historical transactions for these entities. 
   
 > [!Note] 
 > The company in [!INCLUDE[d365fin](includes/d365fin_md.md)] must not contain any data. Additionally, after you start a migration, do not create customers, vendors, items, or accounts until the migration finishes.
@@ -33,16 +33,16 @@ There are just a few steps to export data from C5, and import it in [!INCLUDE[d3
 > Companies often add fields to customize C5 for their specific line of business. [!INCLUDE[d365fin](includes/d365fin_md.md)] does not migrate data from custom fields. Also, migration will fail if you have more than 10 custom fields. 
 
 ## Viewing the Status of the Migration
-Use the **Data Migration Overview** page to monitor the success of the migration. The page shows information such as the number of entities that the migration will include, the status of the migration, and the number of items that have been migrated and whether they were successfull. It also shows the number of errors, lets you investigate what went wrong and, when possible, makes it easy to go to the entity to fix the issues. For more information, see the next section in this topic. 
-
+Use the **Data Migration Overview** page to monitor the success of the migration. The page shows information such as the number of entities that the migration will include, the status of the migration, and the number of items that have been migrated and whether they were successfull. It also shows the number of errors, lets you investigate what went wrong and, when possible, makes it easy to go to the entity to fix the issues. For more information, see the next section in this topic.  
+  
 > [!Note] 
 > While you are waiting for the results of the migration, you must refresh the page to display the results.
 
 ## Correcting Errors
-If something goes wrong and an error occurs, the **Status** field will show **Completed with Errors**, and the **Error Count** field will show how many. To view a list of the errors, you can open the **Data Migration Errors** page by choosing:
+If something goes wrong and an error occurs, the **Status** field will show **Completed with Errors**, and the **Error Count** field will show how many. To view a list of the errors, you can open the **Data Migration Errors** page by choosing:  
 
-* The number in the **Error Count** field for the entity. 
-* The entity, and then the **Show Errors** action. 
+* The number in the **Error Count** field for the entity.  
+* The entity, and then the **Show Errors** action.  
 
 On the **Data Migration Errors** page, to fix an error you can choose an error message, then choose **Edit Record** to open a page that shows the migrated data for the entity. After you fix one or more errors, you can choose **Migrate** to migrate only the entities you fixed, without having to completely restart the migration.  
 
@@ -53,7 +53,7 @@ On the **Data Migration Errors** page, to fix an error you can choose an error m
 > If you have items that are included in a BOM, you might need to migrate more than once if the original item is not created before the variants that reference it. If an item variant is created first, the reference to the original item can cause an error message.  
 
 ## Verifying Data After Migrating 
-If you want to verify that your data migrated correctly, you can look at the following pages in C5 and [!INCLUDE[d365fin](includes/d365fin_md.md)].
+One way to verify that your data migrated correctly is to look at the following pages in C5 and [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 |Microsoft Dynamcis C5 2012 | [!INCLUDE[d365fin](includes/d365fin_md.md)]|
 |-----|-----|
@@ -62,6 +62,8 @@ If you want to verify that your data migrated correctly, you can look at the fol
 |Item Entries| Item Journals|
 
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], the batch for the migrated data is named **C5MIGRATE**. 
+
+<!--Should we point out how we handle duplicate transactions? Maybe in a note that talks about the offsetting transaction? -->
 
 ## Stopping Data Migration
 You can stop migrating data by choosing **Stop All Migrations**. If you do, all pending migrations are also stopped.

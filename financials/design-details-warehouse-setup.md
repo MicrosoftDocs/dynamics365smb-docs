@@ -1,8 +1,6 @@
 ---
     title: Design Details - Warehouse Setup | Microsoft Docs
-    description: Warehouse functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)] contains different levels of complexity, as defined by license permissions in the offered granules. The level of complexity in a warehouse solution is largely defined by the bin setup on location cards, which in turn is license-controlled so that access to bin setup fields is defined by the license.
-    services: project-madeira
-    documentationcenter: ''
+    description: Warehouse functionality in Dynamics 365 contains different levels of complexity, as defined by license permissions in the offered granules. The level of complexity in a warehouse solution is largely defined by the bin setup on location cards, which in turn is license-controlled so that access to bin setup fields is defined by the license.
     author: SorenGP
 
     ms.service: dynamics365-financials

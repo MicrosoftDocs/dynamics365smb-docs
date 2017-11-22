@@ -1,8 +1,6 @@
 ---
     title: Canada Local Functionality | Microsoft Docs
-    description: The following topics describe the local functionality in the Canadian version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
-    services: project-madeira
-    documentationcenter: ''
+    description: The following topics describe the local functionality in the Canadian version of Dynamics 365.
     author: SorenGP
 
     ms.service: dynamics365-financials

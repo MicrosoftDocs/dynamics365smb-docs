@@ -1,8 +1,6 @@
 ---
     title: Design Details | Microsoft Docs
-    description: This content contains detailed technical information about complex application features in [!INCLUDE[d365fin](includes/d365fin_md.md)].
-    services: project-madeira
-    documentationcenter: ''
+    description: This content contains detailed technical information about complex application features in Dynamics 365.
     author: SorenGP
 
     ms.service: dynamics365-financials

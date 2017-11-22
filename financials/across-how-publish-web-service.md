@@ -1,6 +1,6 @@
 ---
 title: Expose objects as web services | Microsoft Docs
-description: Publish Dynamics 365 objects as web services to make them immediately available on the network.
+description: Publish objects as web services to make them immediately available on the network.
 author: edupont04
 
 ms.service: dynamics365-financials

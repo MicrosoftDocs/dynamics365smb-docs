@@ -1,8 +1,6 @@
 ---
     title: United States Local Functionality | Microsoft Docs
-    description: The following topics describe the local functionality in the United States version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
-    services: project-madeira
-    documentationcenter: ''
+    description: The following topics describe the local functionality in the United States version of Dynamics 365.
     author: SorenGP
 
     ms.service: dynamics365-financials

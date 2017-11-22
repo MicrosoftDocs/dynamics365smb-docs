@@ -1,7 +1,8 @@
 ---
-    title: How to Set Up and Create Letters of Attorney | Microsoft Docs
+    title: How to Set Up and Create Letters of Attorney
     description: The letter of attorney feature enables you to create and print a Letter of Attorney, and to also print a journal of Letters of Attorney.
-    services: project-madeira
+
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 
@@ -17,25 +18,24 @@
 ---
 # How to: Set Up and Create Letters of Attorney
 The letter of attorney feature enables you to create and print a Letter of Attorney, and to also print a journal of Letters of Attorney.  
-  
- Set up numbering for open and released Letters of Attorney. Numbers for open documents are generated after a new document is created. Numbers for released documents are generated after a document is printed. This number is documented in the printing form of the document and in the Letter of Attorney journal.  
-  
- The following procedure shows how to set up the numbering for Letters of Attorney.  
-  
-### To set up a letter of attorney  
-  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchases & Payables Setup**, and then choose the related link.  
-  
+
+Set up numbering for open and released Letters of Attorney. Numbers for open documents are generated after a new document is created. Numbers for released documents are generated after a document is printed. This number is documented in the printing form of the document and in the Letter of Attorney journal.  
+
+The following procedure shows how to set up the numbering for Letters of Attorney.  
+
+## To set up a letter of attorney  
+
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchases & Payables Setup**, and then choose the related link.  
 2.  On the **Background Posting** FastTab, fill in the **Letter of Attorney Nos.** and **Released Letter of Attorney Nos.** fields.  
-  
 3.  Choose the **OK** button.  
-  
- The following procedure shows how to create a Letter of Attorney.  
-  
-### To create a letter of attorney  
-  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Letters of Attorney** and then choose the related link. Create a new document and fill in the fields in the following table.  
-  
+
+The following procedure shows how to create a Letter of Attorney.  
+
+## To create a letter of attorney  
+
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Letters of Attorney** and then choose the related link.
+2. Create a new document and fill in the fields in the following table.  
+
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Letter of Attorney No.**|Enter the number of the printed document. This number is documented in the printing form of the document and in the Letter of Attorney journal. This field is filled in automatically from the numbering series.|  
@@ -52,8 +52,8 @@ The letter of attorney feature enables you to create and print a Letter of Attor
     |**Validity Date**|Enter the validity date of the document. This field is filled in by default, with the date that occurs 15 days after the document date. Manually enter the validity date, if needed.|  
     |**Status**|Specifies the status of the document.|  
     |**No.**|Enter the number of the open document. This field is filled in automatically from the numbering series.|  
-  
+
 2.  Choose the **OK** button.  
-  
+
 ## See Also  
  [How to: Set Up Responsible Employees and Advance Statements](how-to-set-up-responsible-employees-and-advance-statements.md)

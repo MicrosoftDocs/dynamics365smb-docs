@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 06/28/2017
+ms.date: 11/17/2017
 ms.author: sgroespe
 
 ---
@@ -34,7 +34,8 @@ The following table describes a sequence of tasks, with links to the topics that
 | Issue checks for vendor payments, either as print-outs or as computer checks. Void checks before or after posting. |[How to: Work With Checks](payables-how-work-checks.md) |
 | Pay the vendor by cash or check, and post the payment when you post the invoice. |[How to: Settle Purchase Invoices Promptly](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Make sure that your bank only clears validated checks and amounts by sending them a file that contains vendor, check, and payment information. |[How to: Export a Positive Pay file](finance-how-positive-pay.md) |
-|Export payments from the **Payment Journal** window to a bank file that you upload to your bank for processing, including EFT (electronic funds transfer) in North America. |[How to: Export Payments to a Bank File](payables-how-export-payments-bank-file.md)|  
+|Export payments from the **Payment Journal** window to a bank file that you upload to your bank for processing, including EFT (electronic funds transfer) in North America. |[How to: Export Payments to a Bank File](payables-how-export-payments-bank-file.md)|
+|Make electronic payments according to the EU SEPA Credit Transfer standard.|[Making Payments with Bank Data Conversion Service or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|    
 
 ## See Also
 [Managing Payables](payables-manage-payables.md)  

@@ -1,6 +1,6 @@
 ---
 title: Administrative tasks in Dynamics 365 | Microsoft Docs
-description: Some tasks in [!INCLUDE[d365fin](includes/d365fin_md.md)] requires central administration and setup. See what they are and learn what to do.
+description: Some tasks in Dynamics 365 requires central administration and setup. See what they are and learn what to do.
 author: edupont04
 
 ms.service: dynamics365-financials

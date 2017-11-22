@@ -1,7 +1,8 @@
 ---
-    title: How to Calculate Future Period Expenses Depreciation | Microsoft Docs
+    title: How to Calculate Future Period Expenses Depreciation
     description: The following procedure shows how to calculate future period expenses depreciation.
-    services: project-madeira
+
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 
@@ -17,19 +18,15 @@
 ---
 # How to: Calculate Future Period Expenses Depreciation
 The following procedure shows how to calculate future period expenses depreciation.  
-  
-### To calculate future period expenses depreciation  
-  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Calculate FE Depreciation**, and then choose the related link.  
-  
-2.  On the **Options** tab, fill in the **Posting Date** field for the depreciation.  
-  
+
+## To calculate future period expenses depreciation  
+
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Calculate FE Depreciation**, and then choose the related link.  
+2.  On the **Options** FastTab, fill in the **Posting Date** field for the depreciation.  
 3.  Choose the **OK** button.  
-  
-4.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA G/L Journals**, and then choose the related link.  
-  
+4.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA G/L Journals**, and then choose the related link.  
 5.  Post the created lines with the calculated depreciation amounts.  
-  
+
 ## See Also  
  [How to: Set Up a Future Expense Card](how-to-set-up-a-future-expense-card.md)   
  [Future Expenses (Deferrals)](future-expenses-deferrals-.md)   

@@ -1,7 +1,8 @@
 ---
-    title: How to View Posted Entries on a Fixed Asset Charge | Microsoft Docs
+    title: How to View Posted Entries on a Fixed Asset Charge
     description: You can view all posted fixed asset entries for each fixed asset charge code. The following procedure shows how to view the posted entries.
-    services: project-madeira
+
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 
@@ -17,11 +18,10 @@
 ---
 # How to: View Posted Entries on a Fixed Asset Charge
 You can view all posted fixed asset entries for each fixed asset charge code. The following procedure shows how to view the posted entries.  
-  
-### To view a posted entry on a fixed asset charge  
-  
--   Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA Ledger Entries**, and then choose the related link.  
-  
+
+## To view a posted entry on a fixed asset charge  
+
+- Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA Ledger Entries**, and then choose the related link.  
+
 ## See Also  
- [How to: Create a Fixed Asset Charge](how-to-create-a-fixed-asset-charge.md)   
- Purchase Header
+[How to: Create a Fixed Asset Charge](how-to-create-a-fixed-asset-charge.md)   

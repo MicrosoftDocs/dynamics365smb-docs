@@ -1,7 +1,8 @@
 ---
-    title: Inventory | Microsoft Docs
-    description: ##See Also
-    services: project-madeira
+    title: Inventory
+    description: Russian inventory functionality is described in several topics.
+
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 
@@ -16,9 +17,9 @@
 
 ---
 # Inventory
+Russian inventory functionality is described in several topics.
 
-
-##See Also
+## In This Section
 [Inventory Setup](inventory-setup.md)  
 [Item Documents](item-documents.md)  
 [Item Obligatory Acts](item-obligatory-acts.md)  

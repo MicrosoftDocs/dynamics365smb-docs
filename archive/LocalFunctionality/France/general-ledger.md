@@ -1,7 +1,9 @@
 ---
-    title: General Ledger | Microsoft Docs
-    description: [!INCLUDE[emptyBookNodeText](../../includes/emptybooknodetext_md.md)]
-    services: project-madeira
+    title: General Ledger
+    description: Special general ledger functionality exists for the French version of [!INCLUDE[navnow](../../includes/navnow_md.md)].
+
+
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 
@@ -16,9 +18,9 @@
 
 ---
 # General Ledger
-[!INCLUDE[emptyBookNodeText](../../includes/emptybooknodetext_md.md)]
+General ledger functionality for France is described in the below topics.
 
-##See Also
+## In This Section
 [How to: Apply General Ledger Entries](how-to-apply-general-ledger-entries.md)  
 [How to: Unapply General Ledger Entries](how-to-unapply-general-ledger-entries.md)  
 [How to: Print General Ledger Reports](how-to-print-general-ledger-reports.md)  

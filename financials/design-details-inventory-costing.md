@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: design, inventory, costing
-    ms.date: 07/01/2017
+    ms.date: 11/23/2017
     ms.author: sgroespe
 
 ---
@@ -21,7 +21,9 @@ Inventory costing, also referred to as cost management, is concerned with record
 ## In This Section  
 [Design Details: Costing Methods](design-details-costing-methods.md)  
 [Design Details: Item Application](design-details-item-application.md)  
+[Design Details: Known Item Application Issue](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 [Design Details: Cost Adjustment](design-details-cost-adjustment.md)  
+[Design Details: Posting Date on Adjustment Value Entry](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Design Details: Expected Cost Posting](design-details-expected-cost-posting.md)  
 [Design Details: Average Cost](design-details-average-cost.md)  
 [Design Details: Variance](design-details-variance.md)  

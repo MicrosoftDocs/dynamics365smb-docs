@@ -27,7 +27,12 @@ The article starts by listing typical symptoms of the issue, followed by the bas
 
      See the following example of an item ledger entry situation.  
 
-![Why is inventory zero 1](media/helene/TechArticleInventoryZero1.png "Whyisinventoryzero\_1")
+     |Entry No.|Posting Date|Entry Type|Document Type|Document No.|Item No.|Location Code|Quantity|Cost Amount (Actual)|Invoiced Quantity|Remaining Quantity|Open|  
+     |---------|------------|----------|-------------|------------|--------|-------------|--------|------------------------|-----------------|------------------|----|  
+     |333|01/28/2018|Sale|Sales Shipment|102043|TEST|BLUE|-1|-10|-1|-1|Yes|  
+     |334|01/28/2018|Sale|Sales Shipment|102043|TEST|BLUE|1|10|1|1|Yes|  
+
+<!--![Why is inventory zero 1](media/helene/TechArticleInventoryZero1.png "Whyisinventoryzero\_1")-->
 
 ## Basics of Item Application  
  An item application entry is created for every inventory transaction to link the cost recipient to its cost source so that the cost can be forwarded according to the costing method. For more information, see [Design Details: Item Application](design-details-item-application.md).  
@@ -55,11 +60,15 @@ The article starts by listing typical symptoms of the issue, followed by the bas
 >  If the outbound item ledger entry is valued by average cost, then the applied inbound item ledger entry is not the unique cost source. It merely plays a part in the calculation of the average cost of the period.  
 
 ### Cost Application  
- Cost applications are only created for inbound transactions where the **Appl.-from Item Entry** field is filled to provide a fixed application. This typically happens in connection with a sales credit memo or an undo shipment scenario. The cost application ensures that the item re-enters inventory with the same cost as when it was shipped.  
+Cost applications are only created for inbound transactions where the **Appl.-from Item Entry** field is filled to provide a fixed application. This typically happens in connection with a sales credit memo or an undo shipment scenario. The cost application ensures that the item re-enters inventory with the same cost as when it was shipped.  
 
- The following diagram shows how cost applications are made.  
+The following diagram shows how cost applications are made.  
 
-![Why is inventory zero 3](media/helene/TechArticleInventoryZero3.png "Whyisinventoryzero\_3")
+|Entry No.|Posting Date|Entry Type|Document Type|Document No.|Item No.|Location Code|Quantity|Cost Amount (Actual)|Invoiced Quantity|Remaining Quantity|Open|  
+|---------|------------|----------|-------------|------------|--------|-------------|--------|------------------------|-----------------|------------------|----|  
+|333|01/28/2018|Sale|Sales Shipment|102043|TEST|BLUE|-1|-10|-1|-1|Yes|  
+|334|01/28/2018|Sale|Sales Shipment|102043|TEST|BLUE|1|10|1|1|Yes|  
+<!--![Why is inventory zero 3](media/helene/TechArticleInventoryZero3.png "Whyisinventoryzero\_3")-->
 
  Notice above that inbound item ledger 3 (Sales Return) is a cost recipient for the original outbound item ledger entry 2 (Sale).  
 
@@ -98,7 +107,11 @@ The article starts by listing typical symptoms of the issue, followed by the bas
 
 -   Look for an open outbound item ledger entry and an inbound item ledger entry with same number in the **Document No.** field, and Yes in the **Correction** field. See the following example of such an item ledger entry situation.  
 
-![Why is inventory zero 7](media/helene/TechArticleInventoryZero7.png "Whyisinventoryzero\_7")
+|Entry No.|Posting Date|Entry Type|Document Type|Document No.|Item No.|Location Code|Quantity|Cost Amount (Actual)|Invoiced Quantity|Remaining Quantity|Open|Correction|  
+|---------|------------|----------|-------------|------------|--------|-------------|--------|------------------------|-----------------|------------------|----|---------|
+|333|01/28/2018|Sale|Sales Shipment|102043|TEST|BLUE|-1|-10|-1|-1|Yes|No|  
+|334|01/28/2018|Sale|Sales Shipment|102043|TEST|BLUE|1|10|1|1|Yes|**Yes**|  
+<!--![Why is inventory zero 7](media/helene/TechArticleInventoryZero7.png "Whyisinventoryzero\_7")-->
 
 -   In the **Posted Sales Shipment** window, look up from the **Appl.-from Item Entry** field to see if the field is populated, and in that case to which item ledger entry the return receipt is cost applied.  
 
@@ -117,7 +130,10 @@ The article starts by listing typical symptoms of the issue, followed by the bas
 
      See the following example of an item application entry.  
 
-![Why is inventory zero 8](media/helene/TechArticleInventoryZero8.png "Whyisinventoryzero\_8")  
+     |Entry No.|Item Ledger Entry No.|Inbound Item Entry No.|Outbound Item Entry No.|Quantity|Posting Date|Cost Application|  
+     |---------|---------------------|----------------------|-----------------------|--------|------------|----------------|  
+     |299|334|334|333|1|01/28/2018|Yes|  
+<!--![Why is inventory zero 8](media/helene/TechArticleInventoryZero8.png "Whyisinventoryzero\_8")  -->
 
  Notice above that inbound item ledger entry 334 is cost applied to outbound item ledger entry 333.  
 

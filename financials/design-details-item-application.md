@@ -236,11 +236,11 @@ Because of the way an item’s unit cost is calculated, an incorrect item applic
 [!INCLUDE[d365fin](includes/d365fin_md.md)] offers a feature for analyzing and correcting item applications. This work is performed in the **Application Worksheet** window.  
 
 ## See Also  
-[Design Details: Known Item Application Issue](design-details-inventory-zero-level-open-item-ledger-entries)  
-[Design Details: Inventory Costing](design-details-inventory-costing.md)   
-[Design Details: Costing Methods](design-details-costing-methods.md)   
+[Design Details: Known Item Application Issue](design-details-inventory-zero-level-open-item-ledger-entries.md)  
+[Design Details: Inventory Costing](design-details-inventory-costing.md)  
+[Design Details: Costing Methods](design-details-costing-methods.md)  
 [Design Details: Average Cost](design-details-average-cost.md)   
-[Design Details: Cost Adjustment](design-details-cost-adjustment.md)
+[Design Details: Cost Adjustment](design-details-cost-adjustment.md)  
 [Managing Inventory Costs](finance-manage-inventory-costs.md)  
 [Finance](finance.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -13,7 +13,7 @@ ms.date: 11/23/2017
 ms.author: edupont
 
 ---
-# Why is inventory zero when I have open item ledger entries?
+# Design Details: Known Item Application Issue
 This article addresses an issue where the inventory level is zero although open item ledger entries exist in  [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 The article starts by listing typical symptoms of the issue, followed by the basics of item application to support the described reasons for this issue. At the end of the article is a workaround to address such open item ledger entries.  
@@ -133,5 +133,5 @@ The article starts by listing typical symptoms of the issue, followed by the bas
  The result is that inventory is zero and all item ledger entries are closed.  
 
 ## See Also  
- [Design Details: Item Application](design-details-item-application.md)   
- [Design Details: Inventory Costing](design-details-inventory-costing.md)  
+[Design Details: Item Application](design-details-item-application.md)   
+[Design Details: Inventory Costing](design-details-inventory-costing.md)  

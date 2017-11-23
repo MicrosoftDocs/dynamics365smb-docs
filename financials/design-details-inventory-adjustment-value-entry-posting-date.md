@@ -9,17 +9,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 11/17/2017
+ms.date: 11/23/2017
 ms.author: edupont
 
 ---
-# Posting Date on Adjustment Value Entry
+# Design Details: Posting Date on Adjustment Value Entry
 This article provides guidance for users of the Inventory Costing functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The specific article is providing guidance in how the **Adjust Cost - Item Entries** batch job identifies and assigns a posting date to the value entries that the batch job is about to create.  
 
 First the concept of the process is reviewed, how the batch job identifies and assigns the Posting Date to the Value Entry to be created. Thereafter there are some scenarios shared that we in the support team come across from time to time and finally there is a summary of the concepts used from version 3.0.  
 
 ## The Concept  
-The **Adjust Cost – Item Entries** batch job assigns a posting date to the value entry it is about to create in the following steps:  
+From version 5.0, the **Adjust Cost – Item Entries** batch job assigns a posting date to the value entry it is about to create in the following steps:  
 
 1.  Initially the Posting Date of the entry to be created is the same date as the entry it adjusts.  
 
@@ -286,7 +286,7 @@ The **Adjust Cost – Item Entries** batch job determines if the initial Posting
 
      Post Receipt and Invoice.  
 
-     <!--![Adjust cost &#45;Item entries data](media/helene/TechArticleAdjustcost11.png "TechArticleAdjustcost11") -->
+     ![Adjust cost &#45;Item entries data](media/helene/TechArticleAdjustcost11.png "TechArticleAdjustcost11")
 
 6.  On work date January 3rd a purchase invoice arrives, containing an additional item charge to the purchase made in step 2. This invoice has document date December 30th and is therefore posted with Posting Date December 30th, 2013.  
 
@@ -310,7 +310,7 @@ The **Adjust Cost – Item Entries** batch job determines if the initial Posting
 
      Post Receipt and Invoice.  
 
-<!--     ![Adjust cost &#45;Item entries data](media/helene/TechArticleAdjustcost12.png "TechArticleAdjustcost12")
+   ![Adjust cost &#45;Item entries data](media/helene/TechArticleAdjustcost12.png "TechArticleAdjustcost12")
 
  Inventory Valuation report is printed as of Date December 31st , 2013  
 
@@ -351,7 +351,7 @@ The **Adjust Cost – Item Entries** batch job determines if the initial Posting
 
  In version 3 and 4 the batch job scans all value entries to detect if there are any value entries where Cost Amount (Actual) differs from Cost Posted to G/L. If there is a difference detected the differing amount will be posted in a G/L entry. If expected cost posting is used corresponding fields are processed in the same way.  
 
- <!--![Adjust cost &#45;Item entries data](media/helene/TechArticleAdjustcost14.png "TechArticleAdjustcost14")
+![Adjust cost &#45;Item entries data](media/helene/TechArticleAdjustcost14.png "TechArticleAdjustcost14")
 
 ### From version 5.0:  
  There is no longer a posting date to be stated in the request form of the Post Inventory Cost to G/L batch job. The G/L entry is created with the same Posting Date as the related value entry. In order to complete the batch job the allowed posting date range must allow the Posting Date of the created G/L entry. If not, the allowed posting date range must be temporarily re-opened by changing or removing the dates in the Allow Posting From and To fields in the General Ledger Setup. To avoid reconciliation issues it is required that Posting Date of the G/L Entry corresponds to the Posting Date of the Value Entry.  
@@ -366,3 +366,4 @@ The **Adjust Cost – Item Entries** batch job determines if the initial Posting
 
 ## See Also  
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  
+[Design Details: Item Application](design-details-item-application.md)  

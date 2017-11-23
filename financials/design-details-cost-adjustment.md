@@ -1,18 +1,16 @@
 ---
-    title: Design Details - Cost Adjustment | Microsoft Docs
-    description: The main purpose of cost adjustment is to forward cost changes from cost sources to cost recipients, according to an item’s costing method, to provide correct inventory valuation.
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
+title: Design Details - Cost Adjustment | Microsoft Docs
+description: The main purpose of cost adjustment is to forward cost changes from cost sources to cost recipients, according to an item’s costing method, to provide correct inventory valuation.
+author: SorenGP
 
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
+ms.service: dynamics365-financials
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.date: 23/23/2017
+ms.author: sgroespe
 
 ---
 # Design Details: Cost Adjustment
@@ -168,6 +166,7 @@ If you have set up the automatic cost adjustment to apply to postings that occur
 
 ## See Also
 [How to: Adjust Item Costs](inventory-how-adjust-item-costs.md)   
+[Design Details: Posting Date on Adjustment Value Entry](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Design Details: Inventory Costing](design-details-inventory-costing.md)   
 [Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md)   
 [Design Details: Inventory Posting](design-details-inventory-posting.md)   

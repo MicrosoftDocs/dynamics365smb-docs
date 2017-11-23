@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 11/17/2017
+ms.date: 11/23/2017
 ms.author: edupont
 
 ---
@@ -27,7 +27,7 @@ The article starts by listing typical symptoms of the issue, followed by the bas
 
      See the following example of an item ledger entry situation.  
 
-<!-- ![Why is inventory zero&#95;1](media/helene/Whyisinventoryzero_1.png "Whyisinventoryzero\_1")  -->
+![Why is inventory zero 1](media/helene/TechArticleInventoryZero1.png "Whyisinventoryzero\_1")
 
 ## Basics of Item Application  
  An item application entry is created for every inventory transaction to link the cost recipient to its cost source so that the cost can be forwarded according to the costing method. For more information, see [Design Details: Item Application](design-details-item-application.md).  
@@ -47,7 +47,7 @@ The article starts by listing typical symptoms of the issue, followed by the bas
 
  The following diagram shows how quantity applications are made.  
 
-<!-- ![Why is inventory zero&#95;2](media/helene/Whyisinventoryzero_2.png "Whyisinventoryzero\_2")  -->
+![Why is inventory zero 2](media/helene/TechArticleInventoryZero2.png "Whyisinventoryzero\_2")
 
  Notice above that item ledger entry 1 (Purchase) is both the supplier of the item and the cost source to the applied item ledger entry, item ledger entry 2 (Sale).  
 
@@ -59,7 +59,7 @@ The article starts by listing typical symptoms of the issue, followed by the bas
 
  The following diagram shows how cost applications are made.  
 
-<!-- ![Why is inventory zero&#95;3](media/helene/Whyisinventoryzero_3.png "Whyisinventoryzero\_3")  -->
+![Why is inventory zero 3](media/helene/TechArticleInventoryZero3.png "Whyisinventoryzero\_3")
 
  Notice above that inbound item ledger 3 (Sales Return) is a cost recipient for the original outbound item ledger entry 2 (Sale).  
 
@@ -68,7 +68,7 @@ The article starts by listing typical symptoms of the issue, followed by the bas
 
  The following diagram illustrates the cost flow.  
 
-<!-- ![Why is inventory zero&#95;4](media/helene/Whyisinventoryzero_4.png "Whyisinventoryzero\_4")  -->
+![Why is inventory zero 4](media/helene/TechArticleInventoryZero4.png "Whyisinventoryzero\_4")
 
  Notice above that the cost is forwarded to item ledger entry 2 (Sale), then to item ledger entry 3 (Sales Return), and finally to item ledger entry 4 (Sale 2).  
 
@@ -81,7 +81,7 @@ The article starts by listing typical symptoms of the issue, followed by the bas
 
  The following diagram illustrates how item applications are made in both scenarios.  
 
-<!-- ![Why is inventory zero&#95;6](media/helene/Whyisinventoryzero_6.png "Whyisinventoryzero\_6")  -->
+![Why is inventory zero 6](media/helene/TechArticleInventoryZero6.png "Whyisinventoryzero\_6")  
 
  Notice above that a cost application is made (represented by the blue arrows) to ensure that item ledger entry 2 (Sales Return) is assigned the same costs as the item ledger entry that it reverses, item ledger entry 1 (Sale 1). However, a quantity application (represented by the red arrows) is not made.  
 
@@ -98,7 +98,7 @@ The article starts by listing typical symptoms of the issue, followed by the bas
 
 -   Look for an open outbound item ledger entry and an inbound item ledger entry with same number in the **Document No.** field, and Yes in the **Correction** field. See the following example of such an item ledger entry situation.  
 
-<!--     ![Why is inventory zero&#95;7](media/helene/Whyisinventoryzero_7.png "Whyisinventoryzero\_7")  -->
+![Why is inventory zero 7](media/helene/TechArticleInventoryZero7.png "Whyisinventoryzero\_7")
 
 -   In the **Posted Sales Shipment** window, look up from the **Appl.-from Item Entry** field to see if the field is populated, and in that case to which item ledger entry the return receipt is cost applied.  
 
@@ -117,7 +117,7 @@ The article starts by listing typical symptoms of the issue, followed by the bas
 
      See the following example of an item application entry.  
 
-<!--     ![Why is inventory zero&#95;8](media/helene/Whyisinventoryzero_8.png "Whyisinventoryzero\_8")  -->
+![Why is inventory zero 8](media/helene/TechArticleInventoryZero8.png "Whyisinventoryzero\_8")  
 
  Notice above that inbound item ledger entry 334 is cost applied to outbound item ledger entry 333.  
 

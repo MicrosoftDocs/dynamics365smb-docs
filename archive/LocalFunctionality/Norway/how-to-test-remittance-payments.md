@@ -1,7 +1,8 @@
 ---
-    title: How to Test Remittance Payments | Microsoft Docs
+    title: How to Test Remittance Payments
     description: After you have set up remittance payments and generated suggestions, you can test the payment journal lines for errors before posting them.
-    services: project-madeira
+
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 
@@ -17,21 +18,18 @@
 ---
 # How to: Test Remittance Payments
 After you have set up remittance payments and generated suggestions, you can test the payment journal lines for errors before posting them.  
-  
- To test the payment journal lines, you can use the **Remittance Test** report. This report prints an overview of all journal lines together with any errors, such as missing fields or incorrect bank accounts.  
-  
- If a warning is printed in the test report, you cannot transfer the payments to the bank before the problem is corrected. You should print the test report to make sure that all payments are made as expected.  
-  
-### To print a remittance test report  
-  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.  
-  
-2.  On the **Home** tab, in the **Posting** group, choose **Test Report**.  
-  
+
+To test the payment journal lines, you can use the **Remittance Test** report. This report prints an overview of all journal lines together with any errors, such as missing fields or incorrect bank accounts.  
+
+If a warning is printed in the test report, you cannot transfer the payments to the bank before the problem is corrected. You should print the test report to make sure that all payments are made as expected.  
+
+## To print a remittance test report  
+
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.  
+2.  Choose the **Test Report** action.  
 3.  On the **Options** FastTab, select the **Show Dimensions** field to print dimensions on the test report.  
-  
 4.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
-  
+
 ## See Also  
  [Electronic Payments to Vendors in Norway](electronic-payments-to-vendors-in-norway.md)   
  [How to: Set Up Remittance Agreements](how-to-set-up-remittance-agreements.md)   

@@ -20,13 +20,13 @@ You can add information about the job responsibilities of contact persons to ind
 
 Using job responsibilities on contacts is a two-step process. First, you define the job responsibility code. You only have to perform this step one time for each job responsibility. Once you have a job responsibility code, you can start to assign the code to contact persons.
 
-## to define a job responsibility code
+## To define a job responsibility code
 The job responsibility code defines the type or category of the job, such a MARKETING or PURCHASE. You can have several job responsibility codes. To define the job responsibility, you use the **Job Responsibilities** window.
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Responsibilities**, and then choose the related link.
 2. Choose the **New** action, and fill in a code and description. The code can be a maximum of 11 characters, and can be any combination of numbers and letters.
 
-## to assign job responsibilities to a contact person
+## To assign job responsibilities to a contact person
 You cannot assign job responsibilities to contact companies.
 
 1. Open the contact person.

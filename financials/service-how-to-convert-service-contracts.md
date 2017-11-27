@@ -19,7 +19,7 @@ Because the VAT rate change tool cannot convert service contracts, these contrac
 > [!NOTE]  
 >  This topic provides a high-level workflow.  
 
- The following procedure describes how to correct an invoice for a prepaid service contact that has been created a year in advance.  
+ The following procedure describes how to correct an invoice for a prepaid service contract that has been created a year in advance.  
 
 > [!NOTE]  
 >  For this example, you must change your work date to 01.01.2017.  
@@ -43,7 +43,7 @@ The following procedure describes how to create a credit memo that only includes
 2. Add a new line to the VAT posting setup.  
 
 ### To create contract expiration dates in contract lines  
-The following procedure describes how to create new contracts by working with contact expiration dates in service contract lines.  
+The following procedure describes how to create new contracts by working with contract expiration dates in service contract lines.  
 
 1. In the **Service Contract** window, set the contract expiration date to **30.06.2017**.  
 2. Choose the **Create Credit Memo** action to automatically create a credit memo for July 2017 to December 2017.  

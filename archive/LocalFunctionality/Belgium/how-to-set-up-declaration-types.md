@@ -1,7 +1,8 @@
 ---
-    title: How to Set Up Declaration Types | Microsoft Docs
-    description: In [!INCLUDE[d365fin](includes/d365fin_md.md)], there are two types of declaration:
-    services: project-madeira
+    title: How to Set Up Declaration Types
+    description: In [!INCLUDE[navnow](../../includes/navnow_md.md)], there are two types of declaration.
+
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 
@@ -16,24 +17,21 @@
 
 ---
 # How to: Set Up Declaration Types
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], there are two types of declaration:  
-  
--   Simplified declaration  
-  
--   Extended declaration  
-  
- The type of declaration depends on the amount of shipped or received goods. To determine the type of declaration that you should use, see the [National Bank of Belgium](http://go.microsoft.com/fwlink/?LinkId=163064) web site.  
-  
- When using the extended declaration, you will also need to set up an Incoterm in Intrastat Declaration for each shipping method. For more information, see [Incoterm in Intrastat Decl. Field](ms-its:be_lf_a.chm::/T_10_11300.htm).  
-  
-### To set up declaration types  
-  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Setup**, and then choose the related link.  
-  
+In [!INCLUDE[navnow](../../includes/navnow_md.md)], there are two types of declaration:  
+
+- Simplified declaration  
+- Extended declaration  
+
+The type of declaration depends on the amount of shipped or received goods. To determine the type of declaration that you should use, see the [National Bank of Belgium](http://go.microsoft.com/fwlink/?LinkId=163064) web site.  
+
+When using the extended declaration, you will also need to set up an Incoterm in Intrastat Declaration for each shipping method. For more information, see [Incoterm in Intrastat Decl. Field](ms-its:be_lf_a.chm::/T_10_11300.htm).  
+
+## To set up declaration types  
+
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Setup**, and then choose the related link.  
 2.  On the **General** FastTab, select the **Simplified Intrastat Decl.** check box to set up a simplified declaration type. Clear this field to use extended declaration.  
-  
 3.  Choose the **OK** button.  
-  
+
 ## See Also  
  [Belgian Intrastat Reporting](belgian-intrastat-reporting.md)   
  [How to: Set Up Belgian Tariff Numbers](how-to-set-up-belgian-tariff-numbers.md)   

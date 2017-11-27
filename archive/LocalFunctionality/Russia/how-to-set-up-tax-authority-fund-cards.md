@@ -1,7 +1,8 @@
 ---
-    title: How to Set Up Tax Authority-Fund Cards | Microsoft Docs
+    title: How to Set Up Tax Authority-Fund Cards
     description: The Tax Authority or Fund card enables you to compile a list of different tax authorities.
-    services: project-madeira
+
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 
@@ -17,15 +18,16 @@
 ---
 # How to: Set Up Tax Authority-Fund Cards
 The Tax Authority or Fund card enables you to compile a list of different tax authorities.  
-  
- The functionality of the Tax Authority or Fund card is the same as that of the Vendor card.  
-  
- The following procedure shows how to use the Tax Authority or Fund card.  
-  
-### To set up a Tax Authority or Fund Card  
-  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Tax Authorities**, and then choose the related link.  
-  
-2.  In the **New** tab, choose **New**.  
-  
+
+The functionality of the Tax Authority or Fund card is the same as that of the Vendor card.  
+
+The following procedure shows how to use the Tax Authority or Fund card.  
+
+## To set up a Tax Authority or Fund Card  
+
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Tax Authorities**, and then choose the related link.  
+2.  Choose the **New** action.  
 3.  In the **Tax Authority and Fund** card, enter the required information.
+
+## See Also
+[Russia Local Functionality](russia-local-functionality.md)

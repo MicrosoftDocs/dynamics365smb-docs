@@ -16,8 +16,6 @@ ms.author: edupont
 # Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as a Power BI Data Source
 You can make your [!INCLUDE[d365fin](includes/d365fin_md.md)] data available as a data source in Power BI and build powerful reports of the state of your business.  
 
-> [!NOTE]  
->   You must have a valid account with [!INCLUDE[d365fin](includes/d365fin_md.md)] and with Power BI. Also, you must download [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/).  
 To set up a connection to Power BI, you must have the following:  
 
 * Access to [!INCLUDE[d365fin](includes/d365fin_md.md)].  

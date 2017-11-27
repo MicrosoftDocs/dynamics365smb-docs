@@ -1,6 +1,6 @@
 ---
 title: Choosing the User Experience to Show or Hide Advanced Features | Microsoft Docs
-description: Learn what the Basic and Suite user experience tiers mean for the user interface, application areas, and your company in Dynamics 365 Business edition.
+description: Learn what the Basic and Essential user experience tiers mean for the user interface, application areas, and your company in Dynamics 365 Business edition.
 documentationcenter: ''
 author: edupont04
 
@@ -9,7 +9,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Suite, Basic, user interface, application area
+ms.search.keywords: Essential, Basic, user interface, application area
 ms.date: 08/22/2017
 ms.author: edupont
 
@@ -30,7 +30,9 @@ The following table lists the experiences that are currently available.
 | Experience | Impact on User Interface |
 | --- | --- |
 | Basic |Shows only core actions and fields within the most common business functionality, such as sales, purchasing, inventory, and finance. |
-| Suite |Shows all actions and fields for all available business functionality.|
+| Essential |Shows all actions and fields for all common business functionality.|
+
+For more inmformation, see [Creating New Companies](about-new-company.md).
 
 ## See also
 [Changing Basic Settings](ui-change-basic-settings.md)  

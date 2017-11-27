@@ -21,9 +21,6 @@ The Role Center is a dashboard with activity tiles that show you real-time key f
 
 If you are new to [!INCLUDE[d365fin](includes/d365fin_md.md)], you can launch a list of videos right from your Home page. You can also launch a **Getting Started** tour that points out key areas.  
 
-> [!NOTE]  
->  This functionality requires that the experience is set to **Suite**. For more information, see [Customizing Your Dynamics 365 Experience](ui-experiences.md).  
-
 ## Accountant Hub
 If you are an accountant with several clients, you can use [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] for a better overview of your clients. From there, you can access each client's tenant in [!INCLUDE[d365fin](includes/d365fin_md.md)] and use the Accountant Role Center as described above. For more information see [Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  
 

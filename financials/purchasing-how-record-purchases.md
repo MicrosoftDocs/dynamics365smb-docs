@@ -29,9 +29,6 @@ You can easily correct or cancel a posted purchase invoice before you pay the ve
 
 Items can be type **Inventory** or **Service**. For more information, see [How to: Register New Items](inventory-how-register-new-items.md). The purchase invoice process is the same for both item types.
 
-> [!NOTE]  
->   Purchase order functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
-
 You can fill vendor fields on the purchase invoice in two ways depending on whether the vendor is already registered.
 
 ## To create a purchase invoice

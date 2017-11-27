@@ -26,10 +26,10 @@ On this page, you can see which areas became available while we were still in pr
 As announced on the blog, we're now a service that you use in your business. But this update also adds new capabilities and a new extension.
 
 ### Project management
-If you switch to the Suite experience, you can manage projects and work with resources, time sheets, and jobs. When you first log in as a Project Manager role, an assisted setup guide will help you set up how your projects are managed. You can work with the sample accounts, jobs, resources, and so on in the demonstration company to get familiar with the functionality. For more information, see [Managing Projects](projects-manage-projects.md).
+You can manage projects and work with resources, time sheets, and jobs. When you first log in as a Project Manager role, an assisted setup guide will help you set up how your projects are managed. You can work with the sample accounts, jobs, resources, and so on in the demonstration company to get familiar with the functionality. For more information, see [Managing Projects](projects-manage-projects.md).
 
 ### Fixed assets
-If you switch to the Suite experience, you can manage fixed assets, including depreciation and insurance. A standard setup is provided, but you can modify it if anytime you want. You can register purchases of fixed assets in dedicated fixed asset G/L journals where you can also dispose of fixed assets. The right accounting entries are created automatically. For more information, see [Fixed Assets](fa-manage.md).
+You can manage fixed assets, including depreciation and insurance. A standard setup is provided, but you can modify it if anytime you want. You can register purchases of fixed assets in dedicated fixed asset G/L journals where you can also dispose of fixed assets. The right accounting entries are created automatically. For more information, see [Fixed Assets](fa-manage.md).
 
 ### New extension for migrating data from Dynamics GP
 If your business uses Dynamics GP today, you can use an assisted setup guide to migrate master records to [!INCLUDE[d365fin](includes/d365fin_md.md)]. You must have exported your existing customers, vendors, inventory items, and accounts using the export data functionality in Dynamics GP. The Dynamics GP Data Migration extension automatically maps the exported data so that you can quickly get  your existing data into your new company in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md).

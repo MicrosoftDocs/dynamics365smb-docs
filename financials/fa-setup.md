@@ -27,9 +27,6 @@ The table below has links to more information. After you set those things up, yo
 
 When you enable a fixed asset activity in the **G/L Integration** section in the **Depreciation Book Card** window, the **Fixed Asset G/L Journal** window is used to post transactions for the activity.
 
-> [!NOTE]  
->  This functionality requires that the experience is set to **Suite**. For more information, see [Customizing Your Financials Experience](ui-experiences.md).  
-
 The following table describes a sequence of tasks, with links to the topics that describe them.  
 
 | To | See |

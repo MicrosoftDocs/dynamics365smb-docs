@@ -33,7 +33,7 @@ So you will have to log into [!INCLUDE[d365fin](includes/d365fin_md.md)] and ren
 
     Wait a number of minutes. We’ll be making a number of changes in the underlying database, and that takes a while.
 5.	When the system is ready again, choose the **Create New Company** button.  
-6.  In the dialog that appears, specify the name as *My Company*, and choose the **Suite Production – Setup Data Only** option.  
+6.  In the dialog that appears, specify the name as *My Company*, and choose the **Production – Setup Data Only** option.  
 
 This again takes a number of minutes. When the process completes, you will be able to access Invoicing as part of your Office 365 Business Premium experience.  
 

@@ -43,10 +43,10 @@ To use accounts for unrealized VAT, follow these steps:
 
     > [!NOTE]  
 >   The VAT amount will be posted to this account, and stay there until the customer payment is posted. The amount is then transferred to the account for sales VAT.
-7. In the **Purch. VAT Unreal. Account** field, enter the general ledger count for unrealized purchase VAT.
+7. In the **Purch. VAT Unreal. Account** field, enter the general ledger account for unrealized purchase VAT.
 
     > [!NOTE]  
->   The VAT amount will be posted to this account, and stay there until the customer payment is posted. The amount is then transferred to the account for sales VAT.
+>   The VAT amount will be posted to this account, and stay there until the customer payment is posted. The amount is then transferred to the account for purchase VAT.
 
 ## See Also
 [Setting Up Value Added Tax](finance-setup-vat.md)

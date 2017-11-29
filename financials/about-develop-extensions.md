@@ -1,6 +1,6 @@
 ---
-title: Customize Dynamics 365 for Financials| Microsoft Docs
-description: Build, showcase, and promote your apps and extensions for Dynamics 365 for Financials.
+title: Customize Dynamics 365 Business edition | Microsoft Docs
+description: Build, showcase, and promote your apps and extensions for Dynamics 365 Business edition .
 services: project-madeira
 documentationcenter: ''
 author: edupont04
@@ -45,7 +45,7 @@ Before we publish, we will collaborate with you to ensure that your app stands o
 For more information about the validation process and how to publish your app, get the [Publish your app.pdf](https://go.microsoft.com/fwlink/?linkid=841517) document from the Download Center.
 
 ## Learn more about extensions v2.0
-The new development tools, which enable to you to build extensions v2.0, are currently in preview and will be enabled in the Dynamics 365 for Financials service soon. If you already want to familiarize yourself with the new tools or learn more about extensions 2.0, have a look at [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
+The new development tools, which enable to you to build extensions v2.0, are currently in preview and will be enabled in the Dynamics 365 Business edition  service soon. If you already want to familiarize yourself with the new tools or learn more about extensions 2.0, have a look at [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
 
 ## Need help?
 If you would like some coaching, you can contact an app subject matter expert from the following list:
@@ -66,7 +66,7 @@ This [FAQ](https://go.microsoft.com/fwlink/?linkid=841520) responds to the most 
 
 ## Further Resources
 Please find further resources for app development on our [DLP topic page](https://mbspartner.microsoft.com/BFI/Topic/76) DLP topic page. Some selected ones are available below:
--	[User Registration and Subsequent Billing ](http://download.microsoft.com/download/3/2/0/320D0286-8810-4A8F-B7DD-523ED87D441B/FAQ on apps for Dynamics 365 for Financials.pdf)
+-	[User Registration and Subsequent Billing ](http://download.microsoft.com/download/3/2/0/320D0286-8810-4A8F-B7DD-523ED87D441B/FAQ on apps for Dynamics 365 Business edition .pdf)
 
 
 

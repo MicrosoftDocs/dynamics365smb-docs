@@ -1,7 +1,8 @@
 ---
-    title: Remittance Errors | Microsoft Docs
+    title: Remittance Errors
     description: Remittance errors for payments may occur when data is transferred and after payments have been sent to the bank. Both kinds of errors are reported in the **Return Error** window.
-    services: project-madeira
+
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 
@@ -17,29 +18,28 @@
 ---
 # Remittance Errors
 Remittance errors for payments may occur when data is transferred and after payments have been sent to the bank. Both kinds of errors are reported in the **Return Error** window.  
-  
- The remittance system handles all error codes which can be sent through the return files. It is not required to manually cancel payments rejected by the bank.  
-  
+
+The remittance system handles all error codes which can be sent through the return files. It is not required to manually cancel payments rejected by the bank.  
+
 ## Types of Errors  
- There are two types of remittance errors:  
-  
--   Transfer error  
-  
--   Rejection  
-  
-### Transfer Errors  
- If errors occur during transfer and no return data is created, payments have not been received by the bank.  
-  
- If the payment file cannot be sent to the bank, you must cancel the payment order in the remittance system.  
-  
-### Rejections  
- If there is an error or information is missing with a payment that was sent to the bank, the return will contain a rejection of the payment.  
-  
+There are two types of remittance errors:  
+
+- Transfer error  
+- Rejection  
+
+## Transfer Errors  
+If errors occur during transfer and no return data is created, payments have not been received by the bank.  
+
+If the payment file cannot be sent to the bank, you must cancel the payment order in the remittance system.  
+
+## Rejections  
+If there is an error or information is missing with a payment that was sent to the bank, the return will contain a rejection of the payment.  
+
 > [!NOTE]  
 >  Rejections vary from bank to bank. Contact your bank regarding how to handle rejection of payments.  
-  
- If there is a rejection, the error code from the bank and an explanation is displayed for the payment in the **Waiting Journal** window. You will have to handle the rejection based how the remittance agreement was set up. For more information, see [How to: Set Up Remittance Agreements](how-to-set-up-remittance-agreements.md).  
-  
+
+If there is a rejection, the error code from the bank and an explanation is displayed for the payment in the **Waiting Journal** window. You will have to handle the rejection based how the remittance agreement was set up. For more information, see [How to: Set Up Remittance Agreements](how-to-set-up-remittance-agreements.md).  
+
 ## See Also  
  [Electronic Payments to Vendors in Norway](electronic-payments-to-vendors-in-norway.md)   
  [How to: Set Up Remittance Agreements](how-to-set-up-remittance-agreements.md)   

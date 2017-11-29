@@ -1,8 +1,6 @@
 ---
     title: Dimension Set Entries Overview | Microsoft Docs
-    description: This topic describes how dimension set entries are stored and posted in [!INCLUDE[d365fin](includes/d365fin_md.md)].
-    services: project-madeira
-    documentationcenter: ''
+    description: This topic describes how dimension set entries are stored and posted in Dynamcis 365.
     author: SorenGP
 
     ms.service: dynamics365-financials

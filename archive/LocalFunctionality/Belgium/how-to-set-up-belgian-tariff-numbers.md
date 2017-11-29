@@ -1,7 +1,8 @@
 ---
-    title: How to Set Up Belgian Tariff Numbers | Microsoft Docs
+    title: How to Set Up Belgian Tariff Numbers
     description: The Belgian customs and tax authorities have established an 8-digit item code for various tariff items.
-    services: project-madeira
+
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 
@@ -17,21 +18,19 @@
 ---
 # How to: Set Up Belgian Tariff Numbers
 The Belgian customs and tax authorities have established an 8-digit item code for various tariff items.  
-  
+
 ### To set up tariff numbers  
-  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Tariff Numbers**, and then choose the related link.  
-  
-2.  On the **Home** tab, in the **New** group, choose **New**.  
-  
+
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Tariff Numbers**, and then choose the related link.  
+2.  Choose the **New** action.  
 3.  In the **Tariff Numbers** window, fill in the fields as described in the following table.  
-  
+
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Conversion Factor**|Enter the conversion factor for the tariff number. The conversion factor is the factor by which you have to multiply the item unit to obtain the unit imposed by Intrastat. The conversion factor can be used when the item unit differs from the imposed Intrastat unit. The field is available when **Supplementary Units** is selected.|  
     |**Unit of Measure**|Enter the unit of measure for the tariff number. The field is available when **Supplementary Units** is selected.|  
     |**Weight Mandatory**|Select this field to show the weight of the items.|  
-  
+
 4.  Choose the **OK** button.  
   
 ## See Also  

@@ -1,6 +1,6 @@
 ---
 title: Set up SEPA Direct Debit | Microsoft Docs
-description: Learn how to set up SEPA Direct Debit in Dynamics 365 for Financials.
+description: Learn how to set up SEPA Direct Debit in Dynamics 365 Business edition .
 author: SorenGP
 
 ms.service: dynamics365-financials

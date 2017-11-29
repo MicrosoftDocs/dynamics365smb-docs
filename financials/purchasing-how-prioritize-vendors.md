@@ -1,6 +1,6 @@
 ---
 title: Assign a Priority Level to a Vendor | Microsoft Docs
-description: You can assign numbers to your vendors or suppliers to prioritize them and facilitate payment suggestions in Financials.
+description: You can assign numbers to your vendors or suppliers to prioritize them and facilitate payment suggestions in Dynamics 365.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

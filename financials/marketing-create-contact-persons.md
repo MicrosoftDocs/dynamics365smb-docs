@@ -24,7 +24,7 @@ You may also need some publications about your products translated and after som
 
 By recording as many details as possible about a contact person ensures that all groups at your company can find the relevant information.
 
-The following table describes a sequence of tasks, with links to the topics that describe them. 
+The following table describes a sequence of tasks, with links to the topics that describe them.
 
 | To | See |
 | --- | --- |
@@ -37,4 +37,4 @@ The following table describes a sequence of tasks, with links to the topics that
 ## See Also
 [Creating Contact Companies](marketing-create-contact-companies.md)  
 [Creating and Managing Contacts]()  
-[Working with Financials](ui-work-product.md)
+[Working with Dynamics 365](ui-work-product.md)

@@ -1,7 +1,8 @@
 ---
-    title: How to Create Tax Registers | Microsoft Docs
+    title: How to Create Tax Registers 
     description: The following procedure shows how to create tax registers.
-    services: project-madeira
+    
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 
@@ -18,9 +19,9 @@
 # How to: Create Tax Registers
 The following procedure shows how to create tax registers.  
   
-1.  Click **Financial Management**, click **Tax Accounting**, click **Setup**, click **Tax Register**s, and then click **Sections**.  
+1.  Choose **Financial Management**, choose **Tax Accounting**, choose **Setup**, choose **Tax Register**s, and then choose **Sections**.  
   
-2.  In the **Tax Register Sections** form, click the **Functions** button.  
+2.  In the **Tax Register Sections** window, choose the **Functions** button.  
   
 3.  Select one of the following fields:  
   
@@ -30,7 +31,7 @@ The following procedure shows how to create tax registers.
   
     -   **Create Registers** -Creates data in the tax registers**.**  
   
-4.  To create data, click **Create Register**. The **Tax Register Create** form opens.  
+4.  To create data, choose **Create Register**. The **Tax Register Create** window opens.  
   
 5.  On the **General** tab, enter the fields described in the following table.  
   
@@ -43,22 +44,22 @@ The following procedure shows how to create tax registers.
     |**Status**|This field displays information about the version of the tax register.|  
     |**Starting Date, Ending Date**|This field displays the dates given when setting the tax register version.|  
   
-6.  Click **OK** to create the tax register.  
+6.  Choose **OK** to create the tax register.  
   
     > [!NOTE]  
     >  If the creation of registers for an already counted period is selected, a warning is displayed. At this stage of the tax register creation, it is possible either to continue counting and delete all existing data, or stop.  
   
-7.  To view the calculated information in the **Tax Register Accumulation** form, click **Financial Management**, click **Tax Accounting**, click **Reporting,** and then click **Profit Tax**.  
+7.  To view the calculated information in the **Tax Register Accumulation** window, choose **Financial Management**, choose **Tax Accounting**, choose **Reporting,** and then choose **Profit Tax**.  
   
 8.  Using the register list, you can view the contents of any register or using the arrows at the top of the window, you can view the information going from one register to another.  
   
 9. With the arrows and buttons in the lower-left corner of the window, you can view the contents of the registers for previously counted periods.  
   
-10. Click the **Drill-down** button in the **Amount** field to view the sources based on which this was counted. A source can be a tax register or a list of transactions forming this amount, depending on the settings. If the source forming the sum is a tax register, click the **Drill-down** button to open the window where the source tax register information is displayed. Then click the **Drill-down** button in the **Amount** field on this form to get a list of transactions forming the amount.  
+10. Choose the **Drill-down** button in the **Amount** field to view the sources based on which this was counted. A source can be a tax register or a list of transactions forming this amount, depending on the settings. If the source forming the sum is a tax register, choose the **Drill-down** button to open the window where the source tax register information is displayed. Then choose the **Drill-down** button in the **Amount** field on this form to get a list of transactions forming the amount.  
   
-11. Select a document and click **Navigate** to get all the transactions of the selected document.  
+11. Select a document and choose **Navigate** to get all the transactions of the selected document.  
   
-12. Click **Show** to view all the transactions of any entry ledger that is created.  
+12. Choose **Show** to view all the transactions of any entry ledger that is created.  
   
 ## See Also  
  [Tax Accounting](tax-accounting.md)   

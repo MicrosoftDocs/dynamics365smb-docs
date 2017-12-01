@@ -16,7 +16,11 @@ ms.author: solsen
 
 ---
 # General Business Functionality
-[!INCLUDE[d365fin](includes/d365fin_md.md)] provides dedicated functionality for typical business areas, such as finance and sales. And to support your business area-specific tasks, you can use a variety of general business functionality, such as defining extended text for document lines and organizing connecting business tasks in workflows.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] provides dedicated functionality for typical business areas, such as finance and sales. For more information, see [Business Functionality](madeira-business-functionality.md).
+
+To support those business area-specific tasks, you can use a variety of general business functionality, such as defining extended text for document lines and organizing connecting business tasks in workflows.
+
+
 
 The following table lists these general business areas with links to topics that describe them.
 

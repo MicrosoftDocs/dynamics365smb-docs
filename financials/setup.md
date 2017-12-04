@@ -41,10 +41,10 @@ Some areas require you to be an administrator in your [!INCLUDE[d365fin](include
 
 ## See Also
 [Finance](finance.md)  
-[Sales](sales-manage-sales.md)
+[Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Inventory](inventory-manage-inventory.md)    
-[Project Management](projects-manage-projects.md)
+[Project Management](projects-manage-projects.md)  
 [Fixed Assets](fa-manage.md)    
 [Assembly Management](assembly-assemble-items.md)  
 [Manufacturing](production-manage-manufacturing.md)  

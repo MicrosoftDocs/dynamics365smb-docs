@@ -1,8 +1,6 @@
 ---
 title: Creating  Budgets| Microsoft Docs
 description: Describes hos to create budgets to forecast different financial activities and assign dimensions for business intelligence purposes.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-financials
@@ -11,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.author: sgroespe
 
 ---
@@ -27,6 +25,7 @@ You can have multiple budgets for identical time periods by creating budgets wit
 In cost accounting, you work with cost budgets in a similar way. For more information, see [Creating Cost Budgets](finance-create-cost-budgets.md).    
 
 ## To create a new budget  
+The following procedures are based on G/L budgets, The steps are similar to sales, purchase, and inventory budgets.
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Budgets**, and then choose the related link.  
 2. Choose the **Edit List** action, and then fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  

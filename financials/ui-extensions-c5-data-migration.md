@@ -17,10 +17,70 @@ ms.author: bholtorf
 ---
 
 # The C5 Data Migration Extension for Dynamics 365 for Finance and Operations, Business Edition
-This extension makes it easy to migrate customers, vendors, items, and your general ledger accounts from Microsoft Dynamcis C5 2012 to [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can also migrate historical transactions for these entities. 
+This extension makes it easy to migrate customers, vendors, items, and your general ledger accounts from Microsoft Dynamcis C5 2012 to [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can also migrate historical entries for general ledger accounts.
   
 > [!Note] 
 > The company in [!INCLUDE[d365fin](includes/d365fin_md.md)] must not contain any data. Additionally, after you start a migration, do not create customers, vendors, items, or accounts until the migration finishes.
+
+##What Data is Migrated?
+The following data is migrated for each entity:
+
+**Customers**
+* Location
+* Country
+* Customer dimensions (department, center, purpose)
+* Shipment method
+* Sales Person
+* Payment terms
+* Payment method
+* Customer price group
+* Customer invoice discount
+
+If you migrate accounts, the following data is also migrated:
+
+* Customer posting setup
+* General journal batch
+* Open transactions (customer ledger entries)
+
+**Vendors**
+* Location
+* Country
+* Vendor dimensions (department, center, purpose)
+* Invoice discount
+* Shipment method
+* Purchaser
+* Payment terms
+* Payment method
+* Vendor invoice discount
+
+If you migrate accounts, the following data is also migrated:
+
+* Vendor posting setup
+* General journal batch
+* Open transactions (vendor ledger entries)
+
+**Items**
+* Location
+* Country
+* Item dimensions (department, center, purpose)
+* Sales line discounts
+* Customer discount groups
+* Item discount groups
+* Sales price
+* Tariff number
+* Units of measure
+* Item tracking code
+* Customer price group
+
+If you migrate accounts, the following data is also migrated:
+
+* Inventory posting setup
+* General posting setup
+* Item journal batch
+* Open transactions (item ledger entries)
+
+> [!Note]
+> If there are open transactions that use foreign currencies, the exchange rates for those currencies are also migrated. Other exchange rates are not migrated.
 
 ## To migrate data
 There are just a few steps to export data from C5, and import it in [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
@@ -62,8 +122,6 @@ One way to verify that your data migrated correctly is to look at the following 
 |Item Entries| Item Journals|
 
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], the batch for the migrated data is named **C5MIGRATE**. 
-
-<!--Should we point out how we handle duplicate transactions? Maybe in a note that talks about the offsetting transaction? -->
 
 ## Stopping Data Migration
 You can stop migrating data by choosing **Stop All Migrations**. If you do, all pending migrations are also stopped.

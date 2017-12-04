@@ -1,6 +1,6 @@
 ---
 title: Assistive features
-description: Keyboard shortcuts and other assistive features in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+description: Keyboard shortcuts and other assistive features.
 author: edupont04
 
 ms.service: dynamics365-financials
@@ -9,11 +9,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 11/20/2017
+ms.date: 12/04/2017
 ms.author: edupont
 
 ---
-# Accessibility and keyboard shortcuts in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# Accessibility and Keyboard Shortcuts in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 This topic provides information about the features that make [!INCLUDE[d365fin](includes/d365fin_md.md)] readily available to people with disabilities. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the following accessibility features:  
 
 -   Keyboard shortcuts  
@@ -55,3 +55,8 @@ This topic provides information about the features that make [!INCLUDE[d365fin](
 
 ## For more accessibility information  
 You can find additional information about accessibility with Microsoft products and assistive technologies on the [Microsoft Accessibility](http://go.microsoft.com/fwlink/?LinkId=262160) site.
+
+## See Also
+[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Working with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Frequently Asked Questions](across-faq.md)  

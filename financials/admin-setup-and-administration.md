@@ -36,7 +36,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Set up a new business unit using templates|[Creating New Companies in [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)|  
 
 ## See Also
-[Overview of Business Functionality](madeira-business-functionality.md)  
+[Business Functionality](madeira-business-functionality.md)  
 [General Business Functionality](ui-across-business-areas.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  

@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 06/01/2017
+ms.date: 12/01/2017
 ms.author: sgroespe
 
 ---
@@ -25,6 +25,8 @@ To analyze budgeted amounts, you must first create budgets. For more information
 
 ## To view a budget
 In a budget with dimensions, you can filter the entries and see specific budgets.
+
+The following procedures are based on G/L budgets, The steps are similar to sales, purchase, and inventory budgets.
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Budgets**, and then choose the related link.
 2. In the **G/L Budgets** window, open the budget that you want to view.  
@@ -64,7 +66,7 @@ Instead of viewing the actual and budgeted amounts for all accounts within a sin
 4. To see a specification of an amount shown, choose the field.  
 
 ## See Also
-[Business Intelligence](bi.md)
+[Business Intelligence](bi.md)  
 [How to: Work with Account Schedules](bi-how-work-account-schedule.md)  
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  

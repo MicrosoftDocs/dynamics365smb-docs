@@ -1,7 +1,8 @@
 ---
-    title: Finland Local Functionality | Microsoft Docs
-    description: The following topics describe the local functionality in the Finnish version of [!INCLUDE[d365fin](includes/d365fin_md.md)].
-    services: project-madeira
+    title: Finland Local Functionality
+    description: The following topics describe the local functionality in the Finnish version of [!INCLUDE[navnow](../../includes/navnow_md.md)].
+
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 
@@ -16,14 +17,14 @@
 
 ---
 # Finland Local Functionality
-The following topics describe the local functionality in the Finnish version of [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-  
+The following topics describe local functionality that is unique to the Finnish version of [!INCLUDE[navnow](../../includes/navnow_md.md)].  
+
 ## In This Section  
  [Automatic Account Codes](automatic-account-codes.md)  
   [Electronic Banking in Finland](electronic-banking-in-finland.md)  
   [Posting Depreciation Differences](posting-depreciation-differences.md)  
   [SEPA Credit Transfer Payments](sepa-credit-transfer-payments.md)  
-  [VAT-VIES Declaration in Finland](vat-vies-declaration-in-finland.md)  
-  
-## See Also  
- [Getting Started](getting-started.md)
+  [VAT-VIES Declaration in Finland](vat-vies-declaration-in-finland.md)
+
+## See Also
+[Working with [!INCLUDE[navnow](../../includes/navnow_md.md)]](../../ui-work-product.md)     

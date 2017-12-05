@@ -1,7 +1,8 @@
 ---
-    title: How to Create the TORG-29 Goods Report | Microsoft Docs
+    title: How to Create the TORG-29 Goods Report
     description: The TORG-29 report shows the item documents that you can use to submit for receipts and shipments for a location.
-    services: project-madeira
+
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 
@@ -17,13 +18,12 @@
 ---
 # How to: Create the TORG-29 Goods Report
 The TORG-29 report shows the item documents that you can use to submit for receipts and shipments for a location.  
-  
- When you run the report for a location, the **Last Goods Report No.** and **Last Goods Report Date** fields in the **Location Card** window are updated to ensure consistent reporting.  
-  
-### To create the TORG-29 report  
-  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Report TORG-29**, and then choose the related link.  
-  
+
+When you run the report for a location, the **Last Goods Report No.** and **Last Goods Report Date** fields in the **Location Card** window are updated to ensure consistent reporting.  
+
+## To create the TORG-29 report  
+
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Report TORG-29**, and then choose the related link.  
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
   
     |Field|Description|  
@@ -44,12 +44,8 @@ The TORG-29 report shows the item documents that you can use to submit for recei
     |**Sales Code**|Specifies the price list. Depending on the selection in the **Sales Type** field, you can specify either a customer price group or a campaign number.|  
     |**Show Cost Amount for Receipts**|Specifies if each receipt line must be divided into two lines. If selected, the first line for a receipt represents item cost, and the second line represents the sales margin.|  
     |**Show Cost Amounts for Shipment**|Specifies if each shipment line must be divided into two lines. If selected, the first line for a receipt represents the item cost, and the second line represents the sales margin.|  
-  
+
 3.  Choose the **Print** button.  
-  
+
 ## See Also  
- [Inventory Setup](inventory-setup.md)   
- Item Report TORG-29   
- Items Receipt Act TORG-1   
- Receipt Deviations TORG-2   
- Transfer Order TORG-13
+ [Setting Up Inventory](../../inventory-setup-inventory.md)

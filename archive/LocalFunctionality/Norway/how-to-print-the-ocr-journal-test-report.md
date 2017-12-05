@@ -1,7 +1,8 @@
 ---
-    title: How to Print the OCR Journal - Test Report | Microsoft Docs
-    description: You can print the **OCR Journal – Test** report to test the imported payment transactions in the cash receipt journal. You can also view potential warnings and reconcile conflicts before the payments are posted to the journal.
-    services: project-madeira
+    title: How to Print the OCR Journal - Test Report
+    description: You can print the **OCR Journal – Test** report to test the imported payment transactions in the cash receipt journal.
+
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 
@@ -18,10 +19,9 @@
 # How to: Print the OCR Journal - Test Report
 You can print the **OCR Journal – Test** report to test the imported payment transactions in the cash receipt journal. You can also view potential warnings and reconcile conflicts before the payments are posted to the journal.  
 
-### To print the OCR Journal – Test report  
+## To print the OCR Journal – Test report  
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **OCR Journal - Test**, and then choose the related link.  
-
+1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **OCR Journal - Test**, and then choose the related link.  
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -36,4 +36,4 @@ You can print the **OCR Journal – Test** report to test the imported payment t
  [How to: Set Up KID Numbers on Sales Documents](how-to-set-up-kid-numbers-on-sales-documents.md)   
  [How to: Set Up OCR Payments](how-to-set-up-ocr-payments.md)   
  [How to: Import and Post OCR Payments](how-to-import-and-post-ocr-payments.md)   
- [Work with General Journals](ui-work-with-general-journals.md)
+ [Working with General Journals](../../ui-work-general-journals.md)

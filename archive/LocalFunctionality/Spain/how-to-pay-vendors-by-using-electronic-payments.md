@@ -1,7 +1,8 @@
 ---
-    title: How to Indent and Validate Chart of Accounts | Microsoft Docs
-    description: You can indent and validate the chart of accounts in the **G/L Account Card** window. You can enter a maximum of 20 numbers. Accounts are sorted in string order, as shown in the following example.
-    services: project-madeira
+    title: How to Pay Vendors Using Electronic Payments
+    description: In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can pay a vendor using electronic payments. Payments will be exported to a file, which will then be transmitted to your bank. The bank then electronically transfers the payments from your bank account to the payee’s (vendor) bank account.
+
+    services: project-madeira 
     documentationcenter: ''
     author: SorenGP
 
@@ -11,60 +12,25 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/26/2017
     ms.author: sgroespe
 
 ---
-# How to: Indent and Validate Chart of Accounts
-You can indent and validate the chart of accounts in the **G/L Account Card** window. You can enter a maximum of 20 numbers. Accounts are sorted in string order, as shown in the following example.  
-  
- 1  
-  
- 10  
-  
- 101  
-  
- 2  
-  
- 20  
-  
- 2100001  
-  
- 3  
-  
- 31  
-  
-### To indent and validate the chart of accounts  
-  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Chart of Accounts**, and then choose the related link.  
-  
-2.  To open the **G/L Account Card** window, choose **New**.  
-  
-3.  On the **General** FastTab, in the **No.** field, enter the number of the general ledger account that you are setting up.  
-  
-4.  In the **Account type** field, select **Posting** or **Heading**. **Posting** implies that entries can be posted to the account. **Heading** implies that entries cannot be posted to the account.  
-  
-    > [!NOTE]  
-    >  For Portugal, select **Posting** or **Total** in the **Account type** field.  
-  
-5.  In the **Income Stmt. Bal. Acc.** field, select the account to which the changes will be sent after correction.  
-  
-6.  Enter information into the other relevant fields.  
-  
-7.  Choose the **OK** button to close the **G/L Account Card** window.  
-  
-8.  In the **Chart of Accounts** window, select an account, and then choose **Indent Chart of Accounts**.  
-  
-9. To validate the chart of accounts, choose the **Yes** button in the dialog box. After validation, you will be notified whether the chart of accounts is correct.  
-  
-10. Choose the **OK** button.  
-  
-### To validate the chart of accounts in Portugal  
-  
-1.  In the **Chart of Accounts** window, click **Actions**, point to **Functions**, and then choose **Check Chart of Accounts**.  
-  
-2.  Choose the **Yes** button.  
-  
+# How to: Pay Vendors Using Electronic Payments
+In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can pay a vendor using electronic payments. Payments will be exported to a file, which will then be transmitted to your bank. The bank then electronically transfers the payments from your bank account to the payee’s (vendor) bank account.  
+
+This process is similar to how computer checks are processed.  
+
+## To pay a vendor electronically  
+
+1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.  
+2. Fill in the fields as described in the following table.  
+
+    |Field|Description|  
+    |---------------------------------|---------------------------------------|  
+    |**Bank Payment Type**|Specify **Electronic Payment** to create a corresponding check ledger entry for the amount.|  
+    |**Payment Type**|Specify the payment type for the special transfer payment, if applicable. Select **Blank** if you do not want to use the special transfer payment type. Select **01** to create a special payment for “goods” on the journal line. Select **02** to create a special payment for “non-goods” on this journal line.|  
+    |**Statistical Code**|Specify the statistical code for the special transfer payment, if applicable. The statistical code must be used at the same time as the payment type. Select **01** to create a special payment for “goods” on the journal line. Select **02** to create a special payment for “non-goods” on this journal line.|  
+
 ## See Also  
- Chart of Accounts   
- G/L Account Card
+[How to: Set Up Bank Accounts for Electronic Payments](how-to-set-up-bank-accounts-for-electronic-payments.md)

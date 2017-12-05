@@ -23,7 +23,7 @@ You can find reports in the **Reports** tab on selected pages, or you can use se
 ![Report options](media/report_options.png "Report options")
 
 ## Previewing a report
-Choose **Preview** to see the report in the Internet browser. Point to an area of the report to show the menu bar.  
+Choose **Preview** to see the report in the Internet browser or device. Point to an area of the report to show the menu bar.  
 
 ![Report preview toolbar](media/report_viewer.png "Report preview toolbar")
 

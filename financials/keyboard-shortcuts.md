@@ -13,11 +13,13 @@ ms.author: jswymer
 ---
 
 # Keyboard Shortcuts
-This articleprovides an overview of some of the shortcut key combinations that you can use when you are working with [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
+This article provides an overview of some of the shortcut key combinations that you can use when you are working with [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
 
 ## Keyboard shortcuts in lists (shown as a list)
 
-The following table describes the keyboard shortcuts that you can use in a list page when the page. The shortcut action is slightly different depending on whether the page is shown in the list view or tile view. 
+The following table describes the keyboard shortcuts that you can use in a list page. The shortcut action is slightly different depending on whether the page is shown in the list view or tile view.
+
+Most of the shortcuts are the same no matter whether the operating system is Windows or macOS; however, there are some shortcuts that are different for macOS than Windows. These are indicated in the table as well.
 
 
 |Keyboard Shortcut<br />(shortcut in osX)| Action in list view |Action in tile view |Remarks|

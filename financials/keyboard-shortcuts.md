@@ -22,16 +22,16 @@ The following table describes the keyboard shortcuts that you can use in a list 
 Most of the shortcuts are the same no matter whether the operating system is Windows or macOS; however, there are some shortcuts that are different for macOS than Windows. These are indicated in the table as well.
 
 
-|Keyboard Shortcut<br />(shortcut in osX)| Action in list view |Action in tile view |Remarks|
+|Keyboard Shortcut<br />(shortcut in macOS)| Action in list view |Action in tile view |Remarks|
 |-----------------|-------|-------|-------|
-|Up arrow|Move to the field in the row above in the same column| Move to the tile above in the same column |  | 
-|Down arrow|Move to the field in the row below in the same column|Move to the tile below in the same column  | |
-|Right arrow|Move to the next field or character in the same row| Move to the next tile in the same row|Pertains to read-only grids|
-|Left arrow|Move to the previous field or character | Move to the previous tile in the same row |Pertains to read-only grids|
-|Home<br />(Fn+left arrow)|Move to the first field on a line|Move to the first tile in the row||
-|End<br />Fn+right arrow)|Move to the last field on a line|ove to the last tile in the row||
-|Page Up<br />(Fn+up arrow)|Move up in the same column to the uppermost visible row|Move up in the same column to the uppermost visible row||
-|Page Down<br />(Fn+down arrow)|Move down in the same column to the lowermost visible row|Move down in the same column to the lowermost visible row||
+|Up arrow|Move in the same column to the field in the row above | Move in the same column to the tile in the row above  |  | 
+|Down arrow|Move in the same column to the field in the row below |Move in the same column to the tile in the row below | |
+|Right arrow|Move in the same row to the next field or character to the right | Move in the same row to the next tile to the right |Pertains to read-only grids|
+|Left arrow|Move to the previous field or character to the left in the same row| Move to the previous tile to the left in the same row |Pertains to read-only grids|
+|Home<br />(Fn+left arrow)|Move to the first field in the row|Move to the first tile in the row||
+|End<br />Fn+right arrow)|Move to the last field in the row|Move to the last tile in the row||
+|Page Up<br />(Fn+up arrow)|Move in the same column to the uppermost visible row|Move in the same column to the uppermost visible row||
+|Page Down<br />(Fn+down arrow)|Move in the same column to lowermost visible row|Move in the same column to the lowermost visible row||
 |Enter<br />(Fn+down arrow)|Not applicable|Opens the record.| Only relevant if a card page is associated with the record.|
 |Home<br />(Fn+Ctrl+left arrow)|Select the first record (row) in the grid|Not applicable||
 |End<br />(Fn+Ctrl+right arrow)|Select the last record (row) in the grid|Not applicable||

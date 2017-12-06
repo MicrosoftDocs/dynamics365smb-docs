@@ -1,6 +1,6 @@
 ---
 title: Expose objects as web services | Microsoft Docs
-description: Publish [!INCLUDE[d365fin](includes/d365fin_md.md)] objects as web services to make them immediately available on the network.
+description: Publish objects as web services to make them immediately available on the network.
 author: edupont04
 
 ms.service: dynamics365-financials

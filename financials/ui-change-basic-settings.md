@@ -35,7 +35,7 @@ The default company is called CRONUS and contains demonstration data only.
 > [!TIP]  
 >   If you want to display a different name for your company in the application (such as on the Home page), set the **Name** field on the **Company Information** page or the **Display Name** field on the **Companies** page.  
 
-## Work date
+## Work Date
 The default work date is usually today's date. You may have to temporarily change the work date to be able to perform tasks, such as completing transactions for a date that is not the current date.
 
 > [!TIP]  
@@ -47,7 +47,7 @@ The default work date is usually today's date. You may have to temporarily chang
 ## Region
 The **Region** setting determines how dates, times, numbers, and currencies are shown or formatted.   
 
-## Change when I receive notifications
+## Changing When I Receive Notifications
 Choose this link to view or change the notifications that you get about certain events or changes in status, such as when you are about to invoice a customer who has an overdue balance, or the available inventory is lower than the quantity you are about to sell. For more information, see [Smart Notifications](ui-smart-notifications.md).
 
 ## See Also

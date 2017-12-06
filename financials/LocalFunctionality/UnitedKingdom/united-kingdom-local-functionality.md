@@ -1,6 +1,6 @@
 ---
 title: United Kingdom Local Functionality | Microsoft Docs
-description: Get an overview of local functionality in the United Kingdom version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
+description: Get an overview of local functionality in the United Kingdom version of Dynamics 365.
 author: edupont04
 
 ms.service: dynamics365-financials

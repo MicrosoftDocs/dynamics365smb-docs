@@ -1,8 +1,6 @@
 ---
     title: Design Details - Item Tracking Design | Microsoft Docs
-    description: This topic describes the design behind item tracking in [!INCLUDE[d365fin](includes/d365fin_md.md)].
-    services: project-madeira
-    documentationcenter: ''
+    description: This topic describes the design behind item tracking in Dynamics 365.
     author: SorenGP
 
     ms.service: dynamics365-financials

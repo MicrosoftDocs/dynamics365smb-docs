@@ -15,7 +15,7 @@ ms.author: jswymer
 # Keyboard Shortcuts
 This article provides an overview of some of the shortcut key combinations that you can use when you are working with [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
 
-## Keyboard shortcuts in lists
+## Keyboard Shortcuts in Lists
 
 The following table describes the keyboard shortcuts that you can use in a list page. The shortcut action is slightly different depending on whether the page is shown in the list view or tile view.
 

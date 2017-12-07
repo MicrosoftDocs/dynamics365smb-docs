@@ -18,15 +18,13 @@ ms.author: sgroespe
 # How to: Analyze Actual Amounts Versus Budgeted Amounts
 As a part of gathering, analyzing, and sharing your company data, you view actual amounts compared to budgeted amounts for all accounts and for several periods.
 
-To analyze budgeted amounts, you must first create budgets. For more information, see [How to: Create Budgets](finance-how-create-budgets.md).
+To analyze budgeted amounts, you must first create G(L budgets. For more information, see [How to: Create G/L Budgets](finance-how-create-budgets.md).
 
 > [!NOTE]  
 >   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
-## To view a budget
+## To view a G/L budget
 In a budget with dimensions, you can filter the entries and see specific budgets.
-
-The following procedures are based on G/L budgets, The steps are similar to sales, purchase, and inventory budgets.
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Budgets**, and then choose the related link.
 2. In the **G/L Budgets** window, open the budget that you want to view.  

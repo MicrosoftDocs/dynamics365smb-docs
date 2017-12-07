@@ -33,7 +33,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Manage inventory and manufacturing costs, report costs, and reconcile costs with the general ledger.|[Managing Inventory Costs](finance-manage-inventory-costs.md)|
 | Understand the general ledger and the chart of accounts. |[Understanding the General Ledger and the COA](finance-general-ledger.md) |
 | Add dimensions for richer business intelligence. |[Working with Dimensions](finance-dimensions.md) |
-| Create budgets to forecast different financial activities and assign dimensions for business intelligence purposes. |[How to: Create Budgets](finance-how-create-budgets.md) |
+| Create G/L budgets to forecast different financial activities and assign dimensions for business intelligence purposes. |[How to: Create G/L Budgets](finance-how-create-budgets.md) |
 |Record income or expenses directly in the general ledger without posting dedicated business documents.|[How to: Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)|
 |Post reversing entries to undo value postings in the general journal or quantity postings on purchase and sales documents. |[How to: Reverse Postings](finance-how-reverse-journal-posting.md)|
 |Allocate an entry in a general journal to several different accounts when you post the journal. |[How to: Allocate Costs and Income](year-allocate-costs-income.md) |

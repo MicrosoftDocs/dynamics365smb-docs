@@ -24,6 +24,7 @@
 ## [Letting Dynamics 365 Suggest Values](ui-let-system-suggest-values.md)
 ## [Printing a Report](ui-work-report.md#PrintReport)
 ## [Videos on Common Tasks](across-videos.md)
+## [Accessibility and Keyboard Shortcuts](ui-accessibility.md)
 ## [Language and Locale](about-locale-language.md)  
 ## [Languages of the Docs](about-languages.md)
 
@@ -173,7 +174,7 @@
 ### [Inviting Your External Accountant to Your Dynamics 365](finance-invite-external-accountant.md)  
 ## [Understanding the General Ledger and the COA](finance-general-ledger.md)
 ## [Working with Dimensions](finance-dimensions.md)
-## [How to: Create Budgets](finance-how-create-budgets.md)
+## [How to: Create G/L Budgets](finance-how-create-budgets.md)
 ## [How to: Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)
 ## [How to: Reverse Postings](finance-how-reverse-journal-posting.md)
 ## [How to: Allocate Costs and Income](year-allocate-costs-income.md)

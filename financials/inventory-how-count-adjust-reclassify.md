@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 08/16/2017
+ms.date: 11/29/2017
 ms.author: sgroespe
 
 ---
@@ -22,7 +22,7 @@ Although you count all items in inventory at least once a year, you may have dec
 
 If you need to adjust recorded inventory quantities, in connection with counting or for other purposes, you can use an item journal to change the inventory ledger entries directly without posting business transactions. Alternatively, you can adjust for a single item on the item card.
 
-If you need to change attributes on item ledger entries as well as the quantities, you can use the item reclassification journal. Typical attributes to reclassify include serial/lot numbers, expiration dates, and dimensions.
+If you need to change attributes on item ledger entries, you can use the item reclassification journal. Typical attributes to reclassify include dimensions and sales campaign codes, but you also perform "system transfers" by reclassifying bin and location codes. Special steps apply when you want to reclassify serial or lot numbers and their expiration dates. For more information, see [How to: Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md).
 
 > [!NOTE]
 > In advanced warehouse configurations, items are registered in bins as warehouse entries, not as item ledger entries. Therefore, you perform counting, adjusting, and reclassifying in special warehouse journals that support bins. Then, you use special functions to synchronize the new or changed warehouse entries with their related item ledger entries to reflect the changes in inventory quantities and values. This is described in specific procedures below where relevant.
@@ -205,13 +205,19 @@ At appropriate intervals as defined by company policy, you must post the warehou
 6.  Post the journal lines to enter the quantity differences in the item ledger. The inventory in the warehouse bins now corresponds precisely to the inventory in the item ledger.  
 
 ## To reclassify an item's lot number
+If you need to change attributes on item ledger entries, you can use the item reclassification journal. Typical attributes to reclassify include dimensions and sales campaign codes, but you also perform "system transfers" by reclassifying bin and location codes.
+
+Special steps apply when you want to reclassify serial or lot numbers and their expiration dates. For more information, see [How to: Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md).
+
+The following example is based on a location code. The steps are similar for other types of item attributes.
+
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Reclass. Journals**, and then choose the related link.
 2. In the **Item Reclass. Journal** window, fill in the fields as necessary.
-3. To In the **Lot No.** field, enter the items current lot number.
-4. In the **New Lot No.** field, enter the item's new lot number.
+3. In the **Location Code** field, enter the item's current location code.
+4. In the **New Location Code** field, enter the item's new location code.
 5. Choose the **Post** action.
 
-Special steps apply when you want to reclassify serial or lot numbers. For more information, see [How to: Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md).
+For information about transferring items with full control of quantities shipped and received, see [How to: Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md).
 
 ## See Also
 [Inventory](inventory-manage-inventory.md)

@@ -1,1 +1,1 @@
-You can change how certain UI elements are displayed. For more information, see [User Personalization](../ui-user-personalization.md).
+You can change how certain UI elements are displayed. For more information, see [Personalizing Your Workspace](../ui-personalization-user.md).

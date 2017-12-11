@@ -37,8 +37,8 @@ To create Offentlig Information Online UBL (OIOUBL) documents for customers in t
 
 ## See Also  
 [Denmark Local Functionality](denmark-local-functionality.md)  
- [How to: Register New Customers](../../sales-how-register-new-customers.md)   
- [How to: Set Up OIOUBL](how-to-set-up-oioubl.md)   
- [How to: Create Electronic Documents by Using OIOUBL](how-to-create-electronic-documents-by-using-oioubl.md)   
- [OIOUBL Electronic Invoicing Overview](oioubl-electronic-invoicing-overview.md)   
- [EAN Location Number](ean-location-number.md)
+[How to: Register New Customers](../../sales-how-register-new-customers.md)   
+[How to: Set Up OIOUBL](how-to-set-up-oioubl.md)   
+[How to: Create Electronic Documents by Using OIOUBL](how-to-create-electronic-documents-by-using-oioubl.md)   
+[OIOUBL Electronic Invoicing Overview](oioubl-electronic-invoicing-overview.md)   
+[EAN Location Number](ean-location-number.md)

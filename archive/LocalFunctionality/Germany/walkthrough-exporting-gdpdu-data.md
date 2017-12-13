@@ -19,7 +19,7 @@
 # Walkthrough: Exporting GDPdU Data
 You can export business data for auditing purposes. How the data export is set up is different for all companies, and you should ask your tax advisor and the tax auditor. The following walkthrough describes the end-to-end process, but it is an example only.  
 
-The sample implementation illustrates a scenario where the auditor has requested that you export data from your general ledger, and information about your customers and vendors. This is not an example that is based on actual requirements from a tax auditor, but it serves to illustrate how to export data according to the process for data access and testability of digital documents (GDPdU) in [!INCLUDE[navnow](../../includes/navnow_md.md)].  
+The sample implementation illustrates a scenario where the auditor has requested that you export data from your general ledger, and information about your customers and vendors. This is not an example that is based on actual requirements from a tax auditor, but it serves to illustrate how to export data according to the process for data access and testability of digital documents (GDPdU) in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## About This Walkthrough  
 This walkthrough illustrates the following tasks:  
@@ -31,7 +31,7 @@ This walkthrough illustrates the following tasks:
 ## Prerequisites  
 To complete this walkthrough, you will need:  
 
-- The German version of [!INCLUDE[navnow](../../includes/navnow_md.md)] with the CRONUS AG demonstraltion company.
+- The German version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)] with the CRONUS AG demonstraltion company.
 - The .DTD file that is required according to the GDPdU. In this scenario, **gdpdu-01-08-2002.dtd**.  
 
 ## Story  

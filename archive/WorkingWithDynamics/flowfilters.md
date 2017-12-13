@@ -1,6 +1,6 @@
 ---
     title: FlowFilters | Microsoft Docs
-    description: ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> contains fields called FlowFields. These are fields whose contents are constantly changing. The value of the contents of a FlowField is calculated each time you open the window containing the field. FlowFilters are used to determine how information is included when the contents of FlowFields are calculated.
+    description: ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> contains fields called FlowFields. These are fields whose contents are constantly changing. The value of the contents of a FlowField is calculated each time you open the window containing the field. FlowFilters are used to determine how information is included when the contents of FlowFields are calculated.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # FlowFilters
-ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> contains fields called FlowFields. These are fields whose contents are constantly changing. The value of the contents of a FlowField is calculated each time you open the window containing the field. FlowFilters are used to determine how information is included when the contents of FlowFields are calculated.  
+ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> contains fields called FlowFields. These are fields whose contents are constantly changing. The value of the contents of a FlowField is calculated each time you open the window containing the field. FlowFilters are used to determine how information is included when the contents of FlowFields are calculated.  
   
  FlowFields are used to display amounts and quantities that must always be up-to-date. The calculation can be based on information in tables other than the one that contains the field.  
   

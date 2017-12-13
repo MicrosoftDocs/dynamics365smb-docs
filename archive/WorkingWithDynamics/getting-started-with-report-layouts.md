@@ -1,6 +1,6 @@
 ---
     title: Getting Started with Report Layouts | Microsoft Docs
-    description: Use the following table to help you get started using report layouts to change the appearance of your ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> reports.
+    description: Use the following table to help you get started using report layouts to change the appearance of your ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> reports.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # Getting Started with Report Layouts
-Use the following table to help you get started using report layouts to change the appearance of your ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> reports.  
+Use the following table to help you get started using report layouts to change the appearance of your ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> reports.  
   
 |To|See|  
 |--------|---------|  

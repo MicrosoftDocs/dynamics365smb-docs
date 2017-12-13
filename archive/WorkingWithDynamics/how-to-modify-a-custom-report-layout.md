@@ -81,7 +81,7 @@ This topic describes how to modify a custom layout that is available for a ADD I
 10. In the **Import Microsoft Office Template** dialog box, select the report layout document that you modified, and then choose **Open**.  
   
 ##  <a name="MakeChangesToLayout"></a> Making Changes to the Report Layout  
- When modifying Word report layouts, you can make general formatting and layout changes, such as changing text font, adding and modifying a table, or removing a data field, by using the basic editing features of Word, like you do with any Word document. However, adding data fields from a ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> report dataset is a more advanced and requires some knowledge of the report dataset.  
+ When modifying Word report layouts, you can make general formatting and layout changes, such as changing text font, adding and modifying a table, or removing a data field, by using the basic editing features of Word, like you do with any Word document. However, adding data fields from a ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> report dataset is a more advanced and requires some knowledge of the report dataset.  
   
  Making changes to RDLC report layouts is more advanced than Word report layouts. For more information about modifying an RDLC report layout, see [Designing RDLC Report Layouts](../FullExperience/Designing%20RDLC%20Report%20Layouts.md).  
   

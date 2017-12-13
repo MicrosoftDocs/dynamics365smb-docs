@@ -1,6 +1,6 @@
 ---
     title: General Ledger
-    description: Special general ledger functionality exists for the Dutch version of [!INCLUDE[navnow](../../includes/navnow_md.md)].
+    description: Special general ledger functionality exists for the Dutch version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

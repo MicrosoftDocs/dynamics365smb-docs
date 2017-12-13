@@ -1,6 +1,6 @@
 ---
     title: Switzerland Local Functionality
-    description: The following topics describe the local functionality in the Swiss version of [!INCLUDE[navnow](../../includes/navnow_md.md)].
+    description: The following topics describe the local functionality in the Swiss version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
 
     services: project-madeira 
     documentationcenter: ''
@@ -17,7 +17,7 @@
 
 ---
 # Switzerland Local Functionality
-The following topics describe local functionality that is unique to the Swiss version of [!INCLUDE[navnow](../../includes/navnow_md.md)].  
+The following topics describe local functionality that is unique to the Swiss version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## In This Section  
  [Enhanced Document Management](enhanced-document-management.md)  
@@ -29,4 +29,4 @@ The following topics describe local functionality that is unique to the Swiss ve
   [How to: Print General Ledger Setup Information](how-to-print-general-ledger-setup-information.md)
 
 ## See Also
-[Working with [!INCLUDE[navnow](../../includes/navnow_md.md)]](../../ui-work-product.md) 
+[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md) 

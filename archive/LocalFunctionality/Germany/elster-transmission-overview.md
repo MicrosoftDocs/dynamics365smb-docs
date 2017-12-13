@@ -1,6 +1,6 @@
 ---
     title: ELSTER Transmission Overview
-    description: When a user submits a sales VAT advance notification from [!INCLUDE[navnow](../../includes/navnow_md.md)] to the Elektronische Steuererklärungen (ELSTER) online portal, the Microsoft.Dynamics.ElsterTransferHandler assembly processes the document and then transmits it to ELSTER.
+    description: When a user submits a sales VAT advance notification from [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to the Elektronische Steuererklärungen (ELSTER) online portal, the Microsoft.Dynamics.ElsterTransferHandler assembly processes the document and then transmits it to ELSTER.
 
     services: project-madeira 
     documentationcenter: ''
@@ -17,7 +17,7 @@
 
 ---
 # ELSTER Transmission Overview
-When a user submits a sales VAT advance notification from [!INCLUDE[navnow](../../includes/navnow_md.md)] to the Elektronische Steuererklärungen (ELSTER) online portal, the Microsoft.Dynamics.ElsterTransferHandler assembly processes the document and then transmits it to ELSTER. The following section describes technical aspects of submitting documents to ELSTER.  
+When a user submits a sales VAT advance notification from [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to the Elektronische Steuererklärungen (ELSTER) online portal, the Microsoft.Dynamics.ElsterTransferHandler assembly processes the document and then transmits it to ELSTER. The following section describes technical aspects of submitting documents to ELSTER.  
 
 ## Process Overview  
 
@@ -28,7 +28,7 @@ When a user submits a sales VAT advance notification from [!INCLUDE[navnow](../.
     You can specify the servers of the OFD in the **Electronic VAT Decl. Setup** window. For more information, see [How to: Set Up Sales VAT Advance Notifications for ELSTER](how-to-set-up-sales-vat-advance-notifications-for-elster.md)  
 
 4.  The data is received and processed by the server of the OFD and a response document is sent back.  
-5.  The response document is received, decrypted, and decompressed by Microsoft.Dynamics.ElsterTransferHandler and returned as an XML document to [!INCLUDE[navnow](../../includes/navnow_md.md)]. You can then view the responses in the **VAT Transmission Log Entries** window.  
+5.  The response document is received, decrypted, and decompressed by Microsoft.Dynamics.ElsterTransferHandler and returned as an XML document to [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. You can then view the responses in the **VAT Transmission Log Entries** window.  
 
 ## Process Details  
 The Microsoft.Dynamics.ElsterTransferHandler assembly is responsible for preparation before the transmission to the OFD and the processing of the response document before it is returned to the program.  

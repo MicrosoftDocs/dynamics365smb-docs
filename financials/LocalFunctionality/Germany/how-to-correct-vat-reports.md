@@ -41,7 +41,7 @@ The **Suggest Lines** action recalculates the values to report. The **Correct Li
     **Suggest Lines** will create entries to account for the difference between the filters.  
 
     > [!NOTE]  
-    >  If the updated filters exclude a customer or vendor, [!INCLUDE[navnow](../../includes/navnow_md.md)] creates a Cancellation line for the previous reported amount and a Correction entry with amount 0.
+    >  If the updated filters exclude a customer or vendor, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] creates a Cancellation line for the previous reported amount and a Correction entry with amount 0.
 
 ## To correct a VAT report  
 

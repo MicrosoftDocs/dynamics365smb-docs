@@ -1,6 +1,6 @@
 ---
     title: How to Upgrade a .DTD Definition File
-    description: You can explicitly validate a .dtd file after you import one in order to address upgrade issues. This is useful when you have an existing setup that needs to be updated to reflect the current version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
+    description: You can explicitly validate a .dtd file after you import one in order to address upgrade issues. This is useful when you have an existing setup that needs to be updated to reflect the current version of Dynamics 365.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

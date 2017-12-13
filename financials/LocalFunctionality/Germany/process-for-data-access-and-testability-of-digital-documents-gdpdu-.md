@@ -1,6 +1,6 @@
 ---
     title: Process for Data Access and Testability of Digital Documents (GDPdU)
-    description: You can export data from [!INCLUDE[d365fin](../../includes/d365fin_md.md)] according to the process for data access and testability of digital documents (GDPdU), which is based on German tax law.
+    description: You can export data from Dynamics 365 according to the process for data access and testability of digital documents (GDPdU), which is based on German tax law.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

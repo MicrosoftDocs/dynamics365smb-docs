@@ -1,6 +1,6 @@
 ---
     title: How to Set Up Delivery Reminders
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use purchase delivery reminders to remind vendors about overdue deliveries.
+    description: In Dynamics 365, you can use purchase delivery reminders to remind vendors about overdue deliveries.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

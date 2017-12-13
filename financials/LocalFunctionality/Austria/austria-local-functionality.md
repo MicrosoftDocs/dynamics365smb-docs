@@ -1,6 +1,6 @@
 ---
     title: Austria Local Functionality
-    description: The following topics describe the local functionality in the Austrian version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
+    description: The following topics describe the local functionality in the Austrian version of Dynamics 365.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

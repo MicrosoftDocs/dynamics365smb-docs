@@ -1,6 +1,6 @@
 ---
     title: How to Set Up Standard Sales or Purchase Lines
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can specify how the standard sales or purchase codes will be entered when you are creating the specified sales or purchase documents.
+    description: In Dynamics 365, you can specify how the standard sales or purchase codes will be entered when you are creating the specified sales or purchase documents.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

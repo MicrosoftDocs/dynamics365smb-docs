@@ -1,6 +1,6 @@
 ---
     title: How to Generate Delivery Reminders
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create delivery reminders when a purchase has not been delivered as expected.
+    description: In Dynamics 365, you can create delivery reminders when a purchase has not been delivered as expected.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

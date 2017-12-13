@@ -1,10 +1,10 @@
 ---
     title: How to Print Test Reports for Delivery Reminders
     description: After you have created delivery reminders and made any needed modifications, you can either print the test reports or issue the delivery reminders.
-
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
-    services: project-madeira
+
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na

@@ -1,6 +1,6 @@
 ---
     title: Error Messages of the ElsterTransferHandler
-    description: When [!INCLUDE[d365fin](../../includes/d365fin_md.md)] submits sales VAT advance notifications, errors can occur.
+    description: When Dynamics 365 submits sales VAT advance notifications, errors can occur.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

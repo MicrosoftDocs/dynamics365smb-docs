@@ -1,6 +1,6 @@
 ---
     title: Electronic Submission of Sales VAT Advance Notifications to ELSTER
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can electronically submit tax documents and VAT statements, such as the sales VAT advance notification, to the tax authorities.
+    description: In Dynamics 365, you can electronically submit tax documents and VAT statements, such as the sales VAT advance notification, to the tax authorities.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

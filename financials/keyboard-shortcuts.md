@@ -7,7 +7,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: app, add-in, manifest, customize
+ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 07/12/2017
 ms.author: jswymer
 ---
@@ -24,27 +24,27 @@ Most of the shortcuts are the same no matter whether the operating system is Win
 
 |Keyboard Shortcut<br />(shortcut in macOS)| Action in list view |Action in tile view |Remarks|
 |-----------------|-------|-------|-------|
-|Up arrow|Move in the same column to the field in the row above.| Move in the same column to the tile in the row above.  |  | 
-|Down arrow|Move in the same column to the field in the row below. |Move in the same column to the tile in the row below. | |
-|Right arrow|Move in the same row to the next field or character to the right.| Move in the same row to the next tile to the right. |Pertains to read-only grids|
-|Left arrow|Move in the same row to the previous field or character to the left. | Move in the same row to the previous tile to the left. |Pertains to read-only grids|
-|Home<br />(Fn+left arrow)|Move to the first field in the row.|Move to the first tile in the row.||
-|End<br />(Fn+right arrow)|Move to the last field in the row.|Move to the last tile in the row.||
-|Page Up<br />(Fn+up arrow)|Move in the same column to the uppermost visible row.|Move in the same column to the uppermost visible row.||
-|Page Down<br />(Fn+down arrow)|Move in the same column to lowermost visible row.|Move in the same column to the lowermost visible row.||
-|Enter<br />(Fn+down arrow)|Not applicable|Opens the record.| Only relevant if a card page is associated with the record.|
-|Ctrl+Home<br />(Fn+Ctrl+left arrow)|Select the first row in the grid; focus on first actionable field in row|Not applicable||
-|Ctrl+End<br />(Fn+Ctrl+right arrow)|Select the last row in the grid; focus on first actionable field in row|Not applicable||
-|Ctrl+click<br />(Cmd+click)|Extend the selection of rows to include the row that you click.|Not applicable||
-|Shift+click|Extend the selection of rows to include the row that you click and all the rows in between.|Not applicable||
-|Ctrl+up arrow<br />(Ctrl+Cmd+up arrow )|Move focus to the row above and keep the current row selected .|Not applicable||
-|Ctrl+down arrow<br />(Ctrl+Cmd+down arrow )|Move focus to the row below and keep the current row selected.|Not applicable||
-|Ctrl+space<br />(Ctrl+Cmd+Space )|Extend the selection of rows to included the focused row.|Not applicable||
+|Up Arrow|Move in the same column to the field in the row above.| Move in the same column to the tile in the row above.  |  | 
+|Down Arrow|Move in the same column to the field in the row below. |Move in the same column to the tile in the row below. | |
+|Right Arrow|Move in the same row to the next field or character to the right.| Move in the same row to the next tile to the right. |Pertains to read-only grids|
+|Left Arrow|Move in the same row to the previous field or character to the left. | Move in the same row to the previous tile to the left. |Only p|
+|Home<br />(Fn+Left Arrow)|Move to the first field in the row.|Move to the first tile in the row.||
+|End<br />(Fn+right Arrow)|Move to the last field in the row.|Move to the last tile in the row.||
+|Page Up<br />(Fn+up Arrow)|Move in the same column to the uppermost visible row.|Move in the same column to the uppermost visible row.||
+|Page Down<br />(Fn+down Arrow)|Move in the same column to lowermost visible row.|Move in the same column to the lowermost visible row.||
+|Enter<br />(Fn+down Arrow)|Not applicable|Opens the record.| Only relevant if a card page is associated with the record.|
+|Ctrl+Home<br />(Fn+Ctrl+Left Arrow)|Select the first row in the grid; focus on first actionable field in row|Not applicable||
+|Ctrl+End<br />(Fn+Ctrl+Right Arrow)|Select the last row in the grid; focus on first actionable field in row|Not applicable||
+|Ctrl+Click<br />(Cmd+Click)|Extend the selection of rows to include the row that you click.|Not applicable||
+|Shift+Click|Extend the selection of rows to include the row that you click and all the rows in between.|Not applicable||
+|Ctrl+Up Arrow<br />(Ctrl+Cmd+up Arrow )|Move focus to the row above and keep the current row selected .|Not applicable||
+|Ctrl+Down Arrow<br />(Ctrl+Cmd+Down Arrow )|Move focus to the row below and keep the current row selected.|Not applicable||
+|Ctrl+Space Bar<br />(Ctrl+Cmd+Space )|Extend the selection of rows to included the focused row.|Not applicable||
 |Ctrl+A|Select all rows.|Not applicable||
-|Shift+up arrow|Extend the selection of rows to include the row above.|Not applicable||
-|Shift+down arrow|Extend the selection of rows to include the row below.|Not applicable||
-|Shift+Page Up<br />(Shift+Fn+up arrow)|Extend the selection of rows to include all rows of the previous page.|Not applicable||
-|Shift+Page Down<br />(Shift+Fn+down arrow)|Extend the selection of rows to include all rows of the next page.|Not applicable||
+|Shift+up Arrow|Extend the selection of rows to include the row above.|Not applicable||
+|Shift+down Arrow|Extend the selection of rows to include the row below.|Not applicable||
+|Shift+Page Up<br />(Shift+Fn+Up Arrow)|Extend the selection of rows to include all rows of the previous page.|Not applicable||
+|Shift+Page Down<br />(Shift+Fn+Down Arrow)|Extend the selection of rows to include all rows of the next page.|Not applicable||
 
 <!--
 ## Keyboard shortcuts in list (shown as tiles) 
@@ -54,15 +54,15 @@ The following table describes the keyboard shortcuts that you can use in a list 
 
 |Keyboard Shortcut<br />(shortcut in osX)| Action|Remarks|
 |-----------------|-------|-------|
-|Up arrow|Move to the tile above in the same column|  |   
-|Down arrow|Move to the tile below in the same column|  | 
-|Right arrow|Move to the next tile in the same row| | 
-|Left arrow|Move to the previous tile in the same row | |
-|Home<br />(Fn+left arrow)|Move to the first tile in the row|
-|End<br />Fn+right arrow)|Move to the last tile in the row|
-|Page Up<br />(Fn+up arrow)|Move up in the same column to the uppermost visible row|
-|Page Down<br />(Fn+down arrow)|Move down in the same column to the lowermost visible row|
-|Enter<br />(Fn+down arrow)|Opens the record (when a card page is available).|
+|Up Arrow|Move to the tile above in the same column|  |   
+|Down Arrow|Move to the tile below in the same column|  | 
+|Right Arrow|Move to the next tile in the same row| | 
+|Left Arrow|Move to the previous tile in the same row | |
+|Home<br />(Fn+left Arrow)|Move to the first tile in the row|
+|End<br />Fn+right Arrow)|Move to the last tile in the row|
+|Page Up<br />(Fn+up Arrow)|Move up in the same column to the uppermost visible row|
+|Page Down<br />(Fn+down Arrow)|Move down in the same column to the lowermost visible row|
+|Enter<br />(Fn+down Arrow)|Opens the record (when a card page is available).|
 -->
 
 ## See also

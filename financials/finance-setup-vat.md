@@ -36,7 +36,23 @@ We recommend that you use the VAT Setup assisted setup guide to set up VAT in [!
 
 To start the assisted setup guide, follow these steps:
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Assisted Setup**.  
-2. Choose **VAT Setup**.
+2. Choose **Set up VAT**.
+
+## To set up VAT registration numbers for your country or region
+To help ensure that people enter valid VAT registration numbers, you can define formats for the VAT registration numbers that are used in the countries or regions in which you do business. [!INCLUDE[d365fin](includes/d365fin_md.md)] will display an error message when someone makes a mistake or uses a format that is incorrect for the country or region.
+
+To setup VAT registration numbers, follow these steps:
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Countries/Regions**.
+2. Choose the country or region, and then choose the **VAT Reg. No. Formats** action.
+3. In the **Formats** field, define the format by entering one or more of the following characters:  
+  
+    |----|----|
+    | # | Requires a single-digit number. |
+    | @ | Requires a letter. This is not case-sensitive. |
+    | ? | Allows any character. |
+  
+    > [!Tip]
+    > You can use other characters as long as they are always present in the country or region format. For example, if you need to include a period or a hyphen between sets of numbers, you can define the format as ##.####.### or @@-###-###.  
 
 ## To set up VAT business posting groups
 VAT business posting groups should represent the markets in which you do business with customers and vendors, and define how to calculate and post VAT in each market. Examples of VAT business posting groups are **Domestic** and **European Union (EU)**.  

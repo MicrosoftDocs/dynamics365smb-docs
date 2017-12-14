@@ -89,3 +89,7 @@ The following table describes the keyboard shortcuts that you can use in a list 
 -->
 
 ## See also
+[Assistive Features](ui-accessibility.md)  
+[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Working with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Frequently Asked Questions](across-faq.md)  

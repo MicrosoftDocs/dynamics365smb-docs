@@ -19,30 +19,30 @@ This article provides an overview of some of the shortcut key combinations that 
 
 The following table describes the keyboard shortcuts that you can use in a list page. The shortcut action is slightly different depending on whether the page is shown in the list view or tile view.
 
-Most of the shortcuts are the same no matter whether the operating system is Windows or macOS; however, there are some shortcuts that are different for macOS than Windows. These are indicated in the table as well.
+Most of the shortcuts are the same no matter whether the operating system is Windows or macOS; however, there are some shortcuts that are different for macOS than Windows. These are indicated in parantheses in the table as well.
 
 
 |Keyboard Shortcut<br />(shortcut in macOS)| Action in list view |Action in tile view |Remarks|
 |-----------------|-------|-------|-------|
 |Up Arrow|Move in the same column to the field in the row above.| Move in the same column to the tile in the row above.  |  | 
 |Down Arrow|Move in the same column to the field in the row below. |Move in the same column to the tile in the row below. | |
-|Right Arrow|Move in the same row to the next field or character to the right.| Move in the same row to the next tile to the right. |Pertains to read-only grids|
-|Left Arrow|Move in the same row to the previous field or character to the left. | Move in the same row to the previous tile to the left. |Only p|
+|Right Arrow|Move in the same row to the next field or character to the right.| Move in the same row to the next tile to the right. |This does not pertain when the list editable.|
+|Left Arrow|Move in the same row to the previous field or character to the left. | Move in the same row to the previous tile to the left. |This does not pertain when the list editable.|
 |Home<br />(Fn+Left Arrow)|Move to the first field in the row.|Move to the first tile in the row.||
 |End<br />(Fn+right Arrow)|Move to the last field in the row.|Move to the last tile in the row.||
 |Page Up<br />(Fn+up Arrow)|Move in the same column to the uppermost visible row.|Move in the same column to the uppermost visible row.||
 |Page Down<br />(Fn+down Arrow)|Move in the same column to lowermost visible row.|Move in the same column to the lowermost visible row.||
 |Enter<br />(Fn+down Arrow)|Not applicable|Opens the record.| Only relevant if a card page is associated with the record.|
-|Ctrl+Home<br />(Fn+Ctrl+Left Arrow)|Select the first row in the grid; focus on first actionable field in row|Not applicable||
-|Ctrl+End<br />(Fn+Ctrl+Right Arrow)|Select the last row in the grid; focus on first actionable field in row|Not applicable||
-|Ctrl+Click<br />(Cmd+Click)|Extend the selection of rows to include the row that you click.|Not applicable||
-|Shift+Click|Extend the selection of rows to include the row that you click and all the rows in between.|Not applicable||
+|Ctrl+Home<br />(Fn+Ctrl+Left Arrow)|Select the first row in the list; focus moves to the first actionable field in row|Not applicable||
+|Ctrl+End<br />(Fn+Ctrl+Right Arrow)|Select the last row in the list; focus moves to first actionable field in row|Not applicable||
+|Ctrl+Click<br />(Cmd+Click)|Extend the selection of rows to include the row that you click.|Not applicable|You can use this after using Ctrl+Up Arrow or Ctrl+Up Down to expand your selection.|
+|Shift+Click|Extend the selection of rows to include the row that you click and all the rows in between.|Not applicable|You can use this after using Ctrl+Up Arrow or Ctrl+Up Down to expand your selection.|
 |Ctrl+Up Arrow<br />(Ctrl+Cmd+up Arrow )|Move focus to the row above and keep the current row selected .|Not applicable||
 |Ctrl+Down Arrow<br />(Ctrl+Cmd+Down Arrow )|Move focus to the row below and keep the current row selected.|Not applicable||
 |Ctrl+Space Bar<br />(Ctrl+Cmd+Space )|Extend the selection of rows to included the focused row.|Not applicable||
 |Ctrl+A|Select all rows.|Not applicable||
-|Shift+up Arrow|Extend the selection of rows to include the row above.|Not applicable||
-|Shift+down Arrow|Extend the selection of rows to include the row below.|Not applicable||
+|Shift+Up Arrow|Extend the selection of rows to include the row above.|Not applicable||
+|Shift+Down Arrow|Extend the selection of rows to include the row below.|Not applicable||
 |Shift+Page Up<br />(Shift+Fn+Up Arrow)|Extend the selection of rows to include all rows of the previous page.|Not applicable||
 |Shift+Page Down<br />(Shift+Fn+Down Arrow)|Extend the selection of rows to include all rows of the next page.|Not applicable||
 

@@ -1,6 +1,6 @@
 ---
     title: Finland Local Functionality
-    description: The following topics describe the local functionality in the Finnish version of [!INCLUDE[navnow](../../includes/navnow_md.md)].
+    description: The following topics describe the local functionality in the Finnish version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
 
     services: project-madeira 
     documentationcenter: ''
@@ -17,7 +17,7 @@
 
 ---
 # Finland Local Functionality
-The following topics describe local functionality that is unique to the Finnish version of [!INCLUDE[navnow](../../includes/navnow_md.md)].  
+The following topics describe local functionality that is unique to the Finnish version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## In This Section  
  [Automatic Account Codes](automatic-account-codes.md)  
@@ -27,4 +27,4 @@ The following topics describe local functionality that is unique to the Finnish 
   [VAT-VIES Declaration in Finland](vat-vies-declaration-in-finland.md)
 
 ## See Also
-[Working with [!INCLUDE[navnow](../../includes/navnow_md.md)]](../../ui-work-product.md)     
+[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)     

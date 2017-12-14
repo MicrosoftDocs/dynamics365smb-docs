@@ -1,6 +1,6 @@
 ---
     title: Enhanced Document Management
-    description: In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can archive documents and track work across archived and non-archived documents.
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can archive documents and track work across archived and non-archived documents.
 
     services: project-madeira 
     documentationcenter: ''
@@ -17,7 +17,7 @@
 
 ---
 # Enhanced Document Management
-In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can archive documents and track work across archived and non-archived documents.  
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can archive documents and track work across archived and non-archived documents.  
 
 ## Archiving Documents  
  You can use enhanced archive document management to:  

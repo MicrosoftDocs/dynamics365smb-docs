@@ -29,7 +29,7 @@ For more information, see the [Spanish Tax Agency](http://go.microsoft.com/fwlin
     > [!IMPORTANT]  
     >  The VAT statement name must be of the template type **One Column Report**.  
     >   
-    >  In the standard version of [!INCLUDE[navnow](../../includes/navnow_md.md)], the VAT statement name for the 320 telematic statement is of the type **One Column Report**.  
+    >  In the standard version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the VAT statement name for the 320 telematic statement is of the type **One Column Report**.  
 
 4.  In the **Telematic VAT Declaration** window, on the **Options** FastTab, fill in the fields as described in the following table.  
 

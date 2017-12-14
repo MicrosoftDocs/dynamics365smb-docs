@@ -367,7 +367,10 @@
 ## [Design Details: General Journal Post Line](design-details-general-journal-post-line.md)
 
 # Local Functionality
+## [Austria](LocalFunctionality/Austria/austria-local-functionality.md)
 ## [Canada](LocalFunctionality/Canada/canada-local-functionality.md)
 ## [Denmark](LocalFunctionality/Denmark/denmark-local-functionality.md)
+## [Germany](LocalFunctionality/Germany/germany-local-functionality.md)
+## [Netherlands](LocalFunctionality/Netherlands/netherlands-local-functionality.md)
 ## [United Kingdom](LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.md)
 ## [United States](LocalFunctionality/UnitedStates/united-states-local-functionality.md)

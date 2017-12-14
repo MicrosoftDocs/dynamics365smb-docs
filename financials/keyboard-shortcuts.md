@@ -21,12 +21,15 @@ The following table describes the keyboard shortcuts that you can use in a list 
 
 Most of the shortcuts are the same no matter whether the operating system is Windows or macOS; however, there are some shortcuts that are different for macOS than Windows. These are indicated in parantheses in the table as well.
 
+>[!Note]
+>In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
+
 
 |Keyboard Shortcut<br />(shortcut in macOS)| Action in list view |Action in tile view |Remarks|
 |-----------------|-------|-------|-------|
 |Up Arrow|Move in the same column to the field in the row above.| Move in the same column to the tile in the row above.  |  | 
 |Down Arrow|Move in the same column to the field in the row below. |Move in the same column to the tile in the row below. | |
-|Right Arrow|Move in the same row to the next field or character to the right.| Move in the same row to the next tile to the right. |This does not pertain when the list editable.|
+|Right Arrow|Move in the same row to the next actionable field to the right.| Move in the same row to the next tile to the right. |This does not pertain when the list editable.|
 |Left Arrow|Move in the same row to the previous field or character to the left. | Move in the same row to the previous tile to the left. |This does not pertain when the list editable.|
 |Home<br />(Fn+Left Arrow)|Move to the first field in the row.|Move to the first tile in the row.||
 |End<br />(Fn+right Arrow)|Move to the last field in the row.|Move to the last tile in the row.||

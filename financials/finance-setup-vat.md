@@ -16,7 +16,7 @@ ms.author: bholtorf
 
 ---
 
-# Setting Up to Calculations and Posting Methods for Value-Added Tax
+# Setting Up Calculations and Posting Methods for Value-Added Tax
 Consumers and businesses pay value-added tax (VAT) when they purchase goods or services. The amount of VAT to pay can vary, depending on several factors. In [!INCLUDE[d365fin](includes/d365fin_md.md)], you set up VAT to specify the rates to use to calculate tax amounts based on the following: 
 
 * Who you sell to  

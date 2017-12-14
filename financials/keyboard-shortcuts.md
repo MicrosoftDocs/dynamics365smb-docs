@@ -15,6 +15,25 @@ ms.author: jswymer
 # Keyboard Shortcuts
 This article provides an overview of some of the shortcut key combinations that you can use when you are working with [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
 
+## Overview
+The keyboard shortcuts aide accessibility and can make it easier and more efficient to navigate to different areas and elements on a page.
+
+The keyboard shortcuts that are supported by most web browsers; however the behavior may vary slightly.
+
+The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.
+
+##  <a name="Keyboard"></a> General Keyboard Shortcuts in the browser
+The following table describes keyboard shortcuts for navigating and accessing different elements of a page, such as actions, drop-down lists, lookups, and more. For details about keyboard shortcuts for navigating records once you get inside a list, see the next section. 
+
+|Press these keys|To do this|  
+|----------------|-----------|  
+|Tab|Move focus to the next control or element on a page, such as actions, buttons, fields, or list headings.| 
+|Shift+Tab|Move focus to the previous control or element on a page, such as buttons, fields, or list headings.|   
+|Enter|Enable or access the element or control that is in focus.|   
+|Alt+Down Arrow|Open a drop-down list or look up a value for a field.|    
+|Alt+Right Arrow|See the transactions that resulted in a calculated value in a field.|  
+
+
 ## Keyboard Shortcuts in Lists
 
 The following table describes the keyboard shortcuts that you can use in a list page. The shortcut action is slightly different depending on whether the page is shown in the list view or tile view.
@@ -25,7 +44,7 @@ Most of the shortcuts are the same no matter whether the operating system is Win
 >In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
 
 
-|Keyboard Shortcut<br />(shortcut in macOS)| Action in list view |Action in tile view |Remarks|
+|Press these keys<br />(in macOS)|To do this in a list view |To do this in a list view |Remarks|
 |-----------------|-------|-------|-------|
 |Up Arrow|Move in the same column to the field in the row above.| Move in the same column to the tile in the row above.  |  | 
 |Down Arrow|Move in the same column to the field in the row below. |Move in the same column to the tile in the row below. | |
@@ -48,6 +67,7 @@ Most of the shortcuts are the same no matter whether the operating system is Win
 |Shift+Down Arrow|Extend the selection of rows to include the row below.|Not applicable||
 |Shift+Page Up<br />(Shift+Fn+Up Arrow)|Extend the selection of rows to include all visible rows above the current selection of rows.|Not applicable||
 |Shift+Page Down<br />(Shift+Fn+Down Arrow)|Extend the selection of rows to include all all visible rows below the current selection of rows.|Not applicable||
+|Ctrl+Enter|Move focus to the next element outside the list.|Move focus to the next element outside the list.||
 
 <!--
 ## Keyboard shortcuts in list (shown as tiles) 

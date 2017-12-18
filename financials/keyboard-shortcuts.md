@@ -18,7 +18,7 @@ This article provides an overview of some of the shortcut key combinations that 
 ## Overview
 The keyboard shortcuts aide accessibility and can make it easier and more efficient to navigate to different areas and elements on a page.
 
-The keyboard shortcuts that are supported by most web browsers; however the behavior may vary slightly.
+The keyboard shortcuts are supported by most web browsers; however the behavior may vary slightly.
 
 The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.
 

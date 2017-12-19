@@ -9,6 +9,7 @@
 ## [Using Dynamics 365 as Your Business Inbox in Outlook](madeira-outlook.md)
 ## [Using Dynamics 365 Without Outlook](madeira-no-outlook.md)
 ## [Enabling Your Business Data for Power BI](madeira-powerbi.md)
+## [Connect PowerBI to Dynamics 365 Content Packs](across-how-to-connect-powerbi-dynamics-365-content-pack-help.md)
 ## [Using Dynamics 365 in an Automated Workflow](across-how-use-financials-data-source-flow.md)
 ## [Using Dynamics 365 as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)
 ## [Connecting to Your Dynamics 365 Data to Build a Business App Using PowerApps](across-how-use-financials-data-source-powerapps.md)

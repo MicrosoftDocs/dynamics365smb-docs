@@ -47,7 +47,7 @@
 ### [Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md)
 ### [How to: Set Up Cash Customers](finance-how-to-set-up-cash-customers.md)
 ### [How to: Set Up Intrastat Reporting](finance-how-setup-report-intrastat.md)
-### [How to: Set Up Multiple Interest Rates](finance-how-set-up-multiple-interest-rates.md)
+### [How to: Set Up Multiple Interest Rates](finance-how-to-set-up-multiple-interest-rates.md)
 ## [Setting Up Banking](bank-setup-banking.md)
 ### [How to: Set Up Bank Accounts](bank-how-setup-bank-accounts.md)
 ### [How to: Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)

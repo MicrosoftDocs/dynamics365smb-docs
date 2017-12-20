@@ -18,28 +18,18 @@ Getting insights into your Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin
 
 > [!NOTE]  
 >  You must have a valid account with [!INCLUDE[d365fin](includes/d365fin_md.md)] and with Power BI. Also, you must download [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/).  
-
-Power BI content packs require permissions to the tables where data is retrieved from. More details on the requirements are described below.  
+>  Power BI content packs require permissions to the tables where data is retrieved from. More details on the requirements are described below.  
 
 ## How to Connect 
-1.    Select **Get Data** at the bottom of the left navigation pane.
-
+1. Select **Get Data** at the bottom of the left navigation pane.  
 ![Navigating to Get Data](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
-
-2.    In the **Services** box, select **Get**. This will open a window with the **AppSource** and **Apps for Power BI apps**. 
-
+2. In the **Services** box, select **Get**. This will open a window with the **AppSource** and **Apps for Power BI apps**.  
 ![Choose content packs from online services](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)
-
-3.    Select **Apps** from the **Apps for Power BI apps** tab, and choose the **Dynamics 365 for Finance and Operations** content pack that you want to use, and then select **Get it now**.
-
+3. Select **Apps** from the **Apps for Power BI apps** tab, and choose the **Dynamics 365 for Finance and Operations** content pack that you want to use, and then select **Get it now**.  
 ![Select Dynamics 365 for Finance and Operation and select Get it now](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-dynamics365-for-financials-get-it-now.png)
-
-4.    When prompted, enter the name of *your company* in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. This is not the Display Name.
-
+4. When prompted, enter the name of *your company* in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. This is not the Display Name.  
 ![Select Dynamics 365 for Finance and Operation and select Get it now](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-connect-to-d365-finance-and-operations-crm.png)
-
-5.    Once connected, a dashboard, report and dataset will automatically be loaded into your Power BI workspace. When completed, the tiles will update with data from your account. 
-
+5. Once connected, a dashboard, report and dataset will automatically be loaded into your Power BI workspace. When completed, the tiles will update with data from your account.
 ![Select Dynamics 365 for Finance and Operation and select Get it now](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
 ## What Now?
@@ -54,18 +44,15 @@ Power BI content packs require permissions to the tables where data is retrieved
 To import your [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] data into Power BI, you need to have permissions to the web services used to retrieve data. The web services required for each content pack include:
 
 **Microsoft Dynamics 365 for Finance and Operations – CRM**
-
 - SalesOpportunities
 
 **Microsoft Dynamics 365 for Finance and Operations – Sales**
-
 - ItemSalesbyCustomer
 - Power_BI_Item_Purchase_List
 - Power_BI_Item_Sales_List
 - SalesDashboard
 
 **Microsoft Dynamics 365 for Finance and Operations – Finance**
-
 - PowerBIFinance
 
 **Microsoft Dynamics 365 for Finance and Operations – Jobs**

@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 08/10/2017
+ms.date: 12/20/2017
 ms.author: edupont
 
 ---
@@ -29,11 +29,12 @@ The following table describes a sequence of tasks, with links to the topics that
 |Set up a tolerance by which the system closes an invoice even though the payment, including any discount, does not fully cover the amount on the invoice.|[How to: Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Set up fiscal periods. |[How to: Open a New Fiscal Year](finance-how-open-new-fiscal-year.md) |
 | Define how you report value-added tax amounts that you have collected for sales to the tax authorities. |[How To: Report VAT to Tax Authorities](finance-how-report-vat.md)|
-| Set your Sales and Purchases features up to handle payments in foreign currencies.|[How to: Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md)
+| Set your sales and purchasing features up to handle payments in foreign currencies.|[How to: Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md)
 | Add new accounts to the existing chart of accounts. |[Setting Up the Chart of Accounts](finance-setup-chart-accounts.md) |
 | Set up business intelligence (BI) charts to analyze cash flow. |[Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md) |
 |Enable invoicing of a customer who is not set up in the system.|[How to: Set Up Cash Customers](finance-how-to-set-up-cash-customers.md)|
 | Set up Intrastat reporting, and submit the report to an authority | [How to: Set Up and Report Intrastat](finance-how-setup-report-intrastat.md)|
+|Set up different interest rates that you can use on finance charges to charge different interests on late payments depending on the period.|[How to: Set Up Multiple Interest Rates](finance-how-set-up-multiple-interest-rates.md)| 
 
 ## See Also
 [Finance](finance.md)  

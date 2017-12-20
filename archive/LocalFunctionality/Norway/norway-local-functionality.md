@@ -2,7 +2,7 @@
     title: Norway Local Functionality
     description: The following topics describe the local functionality in the Norwegian version of [!INCLUDE[navnow](../../includes/navnow_md.md)].
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -28,7 +28,6 @@ The following topics describe local functionality that is unique to the Norwegia
   [Norwegian Sales Documents](norwegian-sales-documents.md)  
   [Norwegian VAT Reporting](norwegian-vat-reporting.md)  
  [Recurring Orders](recurring-orders.md)  
-  [Multiple Interest Rates Overview](multiple-interest-rates-overview.md)  
-
+  
 ## See Also
 [Working with [!INCLUDE[navnow](../../includes/navnow_md.md)]](../../ui-work-product.md)    

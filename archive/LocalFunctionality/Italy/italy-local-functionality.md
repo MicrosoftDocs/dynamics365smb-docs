@@ -2,7 +2,7 @@
     title: Italy Local Functionality
     description: The following topics describe the local functionality in the Italian version of [!INCLUDE[navnow](../../includes/navnow_md.md)].
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -23,7 +23,6 @@ The following topics describe local functionality that is unique to the Italian 
   [Vendor Payments and Customer Bills Overview](vendor-payments-and-customer-bills-overview.md)  
   [Fiscal Inventory Valuation](fiscal-inventory-valuation.md)  
   [Italian Fixed Assets](italian-fixed-assets.md)  
-  [Interest on Arrears Overview](interest-on-arrears-overview.md)  
   [Italian VAT](italian-vat.md)  
   [How to: Print Withholding Reports](how-to-print-withholding-tax-reports.md)  
   [How to: Set Up Journal Templates and Batches](how-to-set-up-journal-templates-and-batches.md)  

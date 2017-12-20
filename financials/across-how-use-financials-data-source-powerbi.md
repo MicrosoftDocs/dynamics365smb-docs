@@ -13,7 +13,7 @@ ms.date: 12/19/2017
 ms.author: edupont
 
 ---
-# Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as a Power BI Data Source for Building Reports
+# Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as Power BI Data Source for Building Reports
 You can make your [!INCLUDE[d365fin](includes/d365fin_md.md)] data available as a data source in Power BI and build powerful reports of the state of your business.  
 
 > [!NOTE]  
@@ -23,7 +23,7 @@ You can make your [!INCLUDE[d365fin](includes/d365fin_md.md)] data available as 
 1. In Power BI Desktop, in the left navigation pane, choose **Get Data**.
 2. In the **Get Data** window, choose **Online Services**, choose **Dynamics 365 for Financials**, and then choose the **Connect** button.
 
-   Power BI displays a wizard that will guide you through the connection process. The first step will be to sign into the service. Select **Sign in** and choose the account you would like to sign in as. This should be the same account you sign into [!INCLUDE[d365fin](includes/d365fin_md.md)] with. 
+   Power BI displays a wizard that will guide you through the [connection process](across-how-to-connect-powerbi-dynamics-365-content-packs-help.md). The first step will be to sign into the service. Select **Sign in** and choose the account you would like to sign in as. This should be the same account you sign into [!INCLUDE[d365fin](includes/d365fin_md.md)] with. 
 
  3. Choose the **Connect** button to continue. The Power BI wizard shows a list of [!INCLUDE[d365fin](includes/d365fin_md.md)] companies and data sources. These data source represent all the web services that you have published from each company in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
@@ -43,4 +43,4 @@ Once the data is loaded it will appear in the right navigation on the page. At t
 [Importing Business Data from Other Finance Systems](upload-data.md)  
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)   
 [Finance](finance.md)  
-[Connect Power BI to [!INCLUDE[d365fin](includes/d365fin_md.md)]](across-how-to-connect-powerbi-dynamics-365-content-packs-help.md)  
+[Connecting Power BI to [!INCLUDE[d365fin](includes/d365fin_md.md)]](across-how-to-connect-powerbi-dynamics-365-content-packs-help.md)  

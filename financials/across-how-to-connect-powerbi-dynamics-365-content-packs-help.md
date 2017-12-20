@@ -18,8 +18,7 @@ Getting insights into your Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin
 
 > [!NOTE]  
 >  You must have a valid account with [!INCLUDE[d365fin](includes/d365fin_md.md)] and with Power BI. Also, you must download [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/).  
-
-Power BI content packs require permissions to the tables where data is retrieved from. More details on the requirements are described below.  
+>  Power BI content packs require permissions to the tables where data is retrieved from. More details on the requirements are described below.  
 
 ## How to Connect 
 1. Select **Get Data** at the bottom of the left navigation pane.  

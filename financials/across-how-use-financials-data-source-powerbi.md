@@ -43,4 +43,4 @@ Once the data is loaded it will appear in the right navigation on the page. At t
 [Importing Business Data from Other Finance Systems](upload-data.md)  
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)   
 [Finance](finance.md)  
-[Connect Power BI to [!INCLUDE[d365fin](includes/d365fin_md.md)]](across-how-to-connect-powerbi-dynamics-365-content-pack-help.md)  
+[Connect Power BI to [!INCLUDE[d365fin](includes/d365fin_md.md)]](across-how-to-connect-powerbi-dynamics-365-content-packs-help.md)  

@@ -11,8 +11,8 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 08/21/2017
-ms.author: solsen
+ms.date: 12/21/2017
+ms.author: SorenGP
 
 ---
 # General Business Functionality
@@ -20,15 +20,16 @@ ms.author: solsen
 
 To support those business area-specific tasks, you can use a variety of general business functionality, such as defining extended text for document lines and organizing connecting business tasks in workflows.
 
-
-
 The following table lists these general business areas with links to topics that describe them.
 
 | To | See |
 | --- | --- |
 | Set up standard text codes so you can extend standard text by adding extra lines, and set up conditions for use of the extra lines. |[How to: Define Extended Text](ui-how-define-ext-text.md) |
 | Learn how to work with general journals, which are used to post to general ledger accounts and other accounts such as bank, customer, vendor, and fixed assets accounts. |[Working with General Journals](ui-work-general-journals.md) |
-| Communicate the contents of business documents quickly to your business partners, such as the payment information on sales documents to customers. |[How to: Send Documents by Email](ui-how-send-documents-email.md) |
+| Communicate the contents of business documents quickly to your business partners, such as the payment information on sales documents to customers.
+|Archive sales and purchase orders, quotes, return orders, and blanket orders, and use the archived document to recreate the document that it was archived from.|[How to: Archive Documents](across-how-to-archive-documents)|
+|View documents that are related to sales order lines and purchase order lines, including from archived order lines.|[How to: Track Document Lines](across-how-to-track-document-lines.md)|
+|[How to: Send Documents by Email](ui-how-send-documents-email.md) |
 | Schedule a report to run at a specific date and time. |[Scheduling a Report to Run](ui-work-report.md#ScheduleReport) |
 | Manage different types of report layouts. |[Managing Report Layouts](ui-manage-report-layouts.md) |
 | Track users' activities.|[Logging Changes in Financials](across-log-changes.md)|

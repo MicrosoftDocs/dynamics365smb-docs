@@ -20,7 +20,6 @@ The following topics describe local functionality that is unique to the Austrian
 
 ## In This Section  
 
-[Enhanced Document Management](enhanced-document-management.md)  
 [VAT Reporting](vat-reporting.md)  
 [How to: Report VAT to Tax Authorities](../../finance-how-report-vat.md)  
 [How to: Update Currency Exchange Rates](../../finance-how-update-currencies.md)  

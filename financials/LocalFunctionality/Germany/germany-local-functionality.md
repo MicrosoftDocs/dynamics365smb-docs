@@ -19,7 +19,6 @@
 The following topics describe local functionality that is unique to the German version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## In This Section  
-  [Enhanced Document Management](enhanced-document-management.md)  
   [Process for Data Access and Testability of Digital Documents (GDPdU)](process-for-data-access-and-testability-of-digital-documents-gdpdu-.md)  
   [Physical Inventory Documents](physical-inventory-documents.md)  
   [VAT Reporting](vat-reporting.md)  

@@ -328,6 +328,8 @@
 # [General Business Functionality](ui-across-business-areas.md)
 ## [How to: Set Up Extended Item Text](ui-how-define-ext-text.md)
 ## [Working with General Journals](ui-work-general-journals.md)
+## [How to: Archive Documents](across-how-to-archive-documents)
+## [How to: Track Document Lines](across-how-to-track-document-lines.md)
 ## [How to: Send Documents by Email](ui-how-send-documents-email.md)
 ## [Working with Reports](ui-work-report.md)
 ## [Managing Report and Document Layouts](ui-manage-report-layouts.md)

@@ -1,8 +1,6 @@
 ---
-title: Using Dynamics 365 Business edition  with Outlook| Microsoft Docs
-description: Dynamics 365 Business edition  has deep integration with Office 365 enabling you to manage all your business interactions and mail with customers and vendors directly in Outlook.
-services: project-madeira
-documentationcenter: ''
+title: Using Dynamics 365 Business edition with Outlook| Microsoft Docs
+description: This service has deep integration with Office 365 enabling you to manage all your business interactions and mail with customers and vendors directly in Outlook.
 author: edupont04
 
 ms.service: dynamics365-financials
@@ -11,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 06/02/2017
+ms.date: 12/20/2017
 ms.author: edupont
 
 ---
@@ -21,7 +19,7 @@ ms.author: edupont
 ## Getting the Add-in
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], one of the steps in the Getting Started assisted setup is the **Run your business within Office 365** window. In that window, when you choose the **Set up in Outlook** button, you must specify your Office 365 user name and password. The [!INCLUDE[d365fin](includes/d365fin_md.md)] add-ins are then automatically added to your Outlook.  
 
-Then, when you open Outlook, you will see an email messages from Dynamics 365 Admin. The new add-in is added to the Outlook ribbon, and in Outlook Web Access, you can see it in the add-in ribbon, immediately above the body of the email message. The add-in itself will be updated periodically, and you'll get notified that a new version is ready for you in Outlook.  
+Then, when you open Outlook, you will see an email message from Dynamics 365 Admin. The new add-in is added to the Outlook ribbon, and in Outlook Web Access, you can see it in the add-in ribbon, immediately above the body of the email message. The add-in itself will be updated periodically, and you'll get notified that a new version is ready for you in Outlook.  
 
 Some companies using Office 365 restrict users’ permissions to deploy add-ins. So you must make sure that you have an Office 365 subscription that includes email and allows you to deploy add-ins. If you want to try out the add-in anyway, you can [try Office 365 for free](https://products.office.com/try).  
 
@@ -44,6 +42,11 @@ The [!INCLUDE[d365fin](includes/d365fin_md.md)] Document Links add-in gives you 
 For example, if you receive an email message that mentions the text *S-QUO100*, [!INCLUDE[d365fin](includes/d365fin_md.md)] identifies that as a sales quote, and so you can open this document in Outlook. In Outlook, choose the **Document Links** button immediately above the body of the email message. In the Outlook Web App, choose the *S-QUO1001* text in the body of the email message.  
 
 In the Document Links add-in, you can modify and take actions with the document, just like you can in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+## Creating Quotes or Invoices from Your Emails
+If the add-in is open when you read an incoming email, [!INCLUDE[d365fin](includes/d365fin_md.md)] will scan the email and recognize that the sender is a customer who is asking for a quote on 10 items, for example. [!INCLUDE[d365fin](includes/d365fin_md.md)] then creates that quote for you right there and then in Outlook.  
+
+The line items are created by comparing the items and services mentioned in the email message to the item list in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For example, when you create a new sales quote in the Outlook add-in, the add-in will review the email text to see if any of your products and services are mentioned in the email. If so, the add-in will suggest the items and quantities to be added automatically to the sales quote, saving the user time from manually keying in the data.  
 
 ## Adding the Add-ins Manually
 In some cases, the add-ins do not get added automatically to Outlook. Even if you or a colleague ran the assisted setup guide on behalf of the company, [!INCLUDE[d365fin](includes/d365fin_md.md)] might not show up in Outlook. If you experience this issue, you can add the [!INCLUDE[d365fin](includes/d365fin_md.md)] add-ins manually.  

@@ -9,11 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-<<<<<<< HEAD
-ms.date: 12/19/2017
-=======
 ms.date: 12/21/2017
->>>>>>> refs/remotes/origin/Update14
 ms.author: edupont
 
 ---
@@ -30,16 +26,9 @@ You can make your [!INCLUDE[d365fin](includes/d365fin_md.md)] data available as 
    Power BI displays a wizard that will guide you through the [connection process](across-how-to-connect-powerbi-dynamics-365-content-packs-help.md). The first step will be to sign into the service. Select **Sign in** and choose the account you would like to sign in as. This should be the same account you sign into [!INCLUDE[d365fin](includes/d365fin_md.md)] with.
 
  3. Choose the **Connect** button to continue. The Power BI wizard shows a list of [!INCLUDE[d365fin](includes/d365fin_md.md)] companies and data sources. These data source represent all the web services that you have published from each company in [!INCLUDE[d365fin](includes/d365fin_md.md)].
-<<<<<<< HEAD
-
-## To build your Power BI report
-1. In the **Navigator** window, choose your data set.  
-
-=======
 
    Alternatively, create a new web service URL in [!INCLUDE[d365fin](includes/d365fin_md.md)] by using the **Create Data Set** action in the **Web Services** page, using the **Set Up Reporting** Assisted Setup guide, or by choosing the **Edit in Excel** action in any lists.
 
->>>>>>> refs/remotes/origin/Update14
  4. Specify the data you want to add to your data model, and then choose the **Load** button.
  5. Repeat the previous steps to add additional [!INCLUDE[d365fin](includes/d365fin_md.md)] data to your Power BI data model.
 

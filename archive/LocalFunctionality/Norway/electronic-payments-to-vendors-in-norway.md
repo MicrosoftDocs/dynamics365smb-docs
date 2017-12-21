@@ -17,7 +17,7 @@
 
 ---
 # Electronic Payments to Vendors in Norway
-[!INCLUDE[navnow](../../includes/navnow_md.md)] includes Norwegian enhancements for automatically making payments to vendors. This reduces errors that occur from manual data entry. You can use this functionality to perform the following operations:  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] includes Norwegian enhancements for automatically making payments to vendors. This reduces errors that occur from manual data entry. You can use this functionality to perform the following operations:  
 
 - Search invoices that are due based on different conditions.  
 - Send payments to the bank.  
@@ -34,8 +34,8 @@ The following steps show how electronic payments are processed:
 
 1.  The payment proposal is run in the electronic payments feature and transferred to the bank by using the bank’s software.  
 2.  The bank's software receives the payments and transfers payments to the bank.  
-3.  The bank receives the payments and sends the first-time return receipt to [!INCLUDE[navnow](../../includes/navnow_md.md)] using the bank's software.  
-4.  The bank executes the payments and sends the settlement return (second-time return receipt) to [!INCLUDE[navnow](../../includes/navnow_md.md)] using the bank's software where the payments are posted.  
+3.  The bank receives the payments and sends the first-time return receipt to [!INCLUDE[d365fin](../../includes/d365fin_md.md)] using the bank's software.  
+4.  The bank executes the payments and sends the settlement return (second-time return receipt) to [!INCLUDE[d365fin](../../includes/d365fin_md.md)] using the bank's software where the payments are posted.  
 
 ## Vendor Payment Requirements  
 If the payment transactions do not fulfill the requirements, an error message appears and you cannot create a payment file for transfers to the bank. The following criteria must be met when you process payments to vendors:  

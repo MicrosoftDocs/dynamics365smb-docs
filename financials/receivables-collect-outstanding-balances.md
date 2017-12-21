@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 09/08/2017
+ms.date: 12/21/2017
 ms.author: sgroespe
 
 ---
 # How to: Collect Outstanding Balances
 Managing receivables includes checking whether amounts due are paid on time. If customers have overdue payments, you can begin by sending the Customer Statement report as a reminder. Alternatively, you can issue reminders.
 
-You can use reminders to remind customers about overdue amounts. You can also use reminders to calculate finance charges, such as interest or fees and include them on the reminder. Use finance charge memos if you want to debit customers for interest or fees without reminding them of overdue amounts.  
+You can use reminders to remind customers about overdue amounts. You can also use reminders to calculate finance charges, such as interest or fees and include them on the reminder. Use finance charge memos if you want to debit customers for interest or fees without reminding them of overdue amounts.
 
 ## Reminders
 Before you can create reminders, you must set up reminder terms and assign them to your customers. Each reminder term has predefined reminder levels. Each reminder level includes rules about when the reminder will be issued, for example, how many days after the invoice due date or the date of the previous reminder. The contents of the **Finance Charge Terms** window determines whether interest is calculated on the reminder.  
@@ -39,7 +39,10 @@ You can manually create a finance charge memo for an individual customer, and fi
 
 After you create the finance charge memos, you can modify them. The text that appears at the beginning and end of the finance charge memo is determined by the finance charge terms, and can be seen in the **Description** column on the lines. If a calculated amount has been inserted automatically in the beginning or ending text, the text will not be adjusted if you delete lines. Then you must use the **Update Finance Charge Text** function.  
 
-After you have created finance charge memos and made any needed modifications, you can either print test reports or issue the finance charge memos, typically as email.  
+After you have created finance charge memos and made any needed modifications, you can either print test reports or issue the finance charge memos, typically as email.
+
+## Multiple Interest rates
+When you set up finance charge terms and reminder terms, for delayed payment penalty, you can specify multiple interest rates so that the penalty fee is calculated from different interest rates in different periods. If multiple interest rates are not set up, then the interest rate and period that is defined in the **Finance Charge Terms** and **Reminder Terms** windows for the whole period of calculation will be used. For more information, see [How to: Set Up Multiple Interest Rates](finance-how-to-set-up-multiple-interest-rates.md).  
 
 ## To send the Customer Statement report
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customer Statement**, and then choose the related link.

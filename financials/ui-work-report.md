@@ -23,7 +23,7 @@ You can find reports in the **Reports** tab on selected pages, or you can use se
 ![Report options](media/report_options.png "Report options")
 
 ## Previewing a report
-Choose **Preview** to see the report in the Internet browser. Point to an area of the report to show the menu bar.  
+Choose **Preview** to see the report in the Internet browser or device. Point to an area of the report to show the menu bar.  
 
 ![Report preview toolbar](media/report_viewer.png "Report preview toolbar")
 
@@ -53,6 +53,9 @@ You can schedule a report when you open a report. You choose the **Schedule** ac
 
 ## <a name="PrintReport"></a>Printing a Report
 You can print a report from the **Print** button on the options page that appears when you open the report or from the menu bar in Preview.
+
+>[!TIP]
+>For the best experience when using Internet Explorer, install Adobe Acrobat Reader on your computer.
 
 ## Using Saved Settings
 A report can include one or more entries in the **Saved Settings** box. *Saved settings* are basically a predefined group of options and filters that you can apply to the report before previewing or sending the report to a file. Using saved settings is a fast and reliable way to consistently generate reports that contain the correct data.

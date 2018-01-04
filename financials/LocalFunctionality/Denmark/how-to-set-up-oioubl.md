@@ -33,7 +33,7 @@ By default, the Simpel fakturaproces is chosen in [!INCLUDE[d365fin](../../inclu
 For more information, see the entry on OIOUBL profiles in the frequently asked questions section at [Digitaliseringsstyrelsen](http://go.microsoft.com/fwlink/?LinkId=267236).  
 
 ### To set up customers for OIOUBL  
-You must add OIOUBL information to the relevant customers. Additionally, your customer must be able to receive documents in either the **Billing Basic** or **Simpel fakturaprocess** profiles. For more information, see [OIOUBL Extension for [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-extensions-oioubl.md).
+You must add OIOUBL information to the relevant customers. Additionally, your customer must be able to receive documents in either the **Billing Basic** or **Simpel fakturaprocess** profiles. For more information, see [The OIOUBL Extension for Electronic Invoicing in Denmark](ui-extensions-oioubl.md).
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.  
 2.  Open the customer that you want to enable for OIOUBL.  
@@ -42,20 +42,20 @@ You must add OIOUBL information to the relevant customers. Additionally, your cu
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|
-    |**GLN**|Enter the Global Location Number for the customer. For more information, see [EAN Location Number](ean-location-number.md).|  
+    |**GLN**|Enter the Global Location Number for the customer. |  
     |**Account Code**|Enter the account code for the customer.<br /><br /> Customers in the public sector provide an account code when they place an order or requisition. Based on the value of this field, the account code is included in the OIOUBL documents that you create in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. In accordance with **Lov om Offentlige Betalinger** and related statutes, the customer is entitled to withhold payment until they receive an invoice with the relevant account code. |  
     |**Profile Code**|Specifies the profile that this customer requires for electronic documents if this is different from the default profile that you specified in the **Sales & Receivables Setup** window.|  
-    |**Profile Code Required**|Specifies if this customer requires a profile code for electronic documents.<br /><br /> > [!Tip] <br /> > If the **Profile Code Required** field is selected, you cannot post a sales document for this customer unless you have specified a profile.|  
+    |**Profile Code Required**|Specifies if this customer requires a profile code for electronic documents.<br /><br /> **Tip** <br /> If the **Profile Code Required** field is selected, you cannot post a sales document for this customer unless you have specified a profile.|  
 
-For more information about how to set up a customer, see [How to: Register New Customers](sales-how-register-new-customers.md).
+For more information about how to set up a customer, see [How to: Register New Customers](../../sales-how-register-new-customers.md).
 
 ### To specify where to store OIOUBL files  
 1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales & Receivables Setup**, and then choose the related link.  
 2. On the **OIOUBL** FastTab, fill in the fields as required.  
 3. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Setup**, and then choose the related link.  
 4. In the **Service Invoice Path** and **Service Cr. Memo Path** fields, provide the path and name of the folder where you want to store OIOUBL files.  
-5.  Choose the **OK** button.  
-
+5. Choose the **OK** button.  
+  
     > [!IMPORTANT]  
     > External document numbers are required for OIOUBL documents. This is true even if you did not select the **Ext. Doc. No. Mandatory** field on the **General** FastTab. If the document does not have an external document number, you will receive an error message.  
 
@@ -65,7 +65,7 @@ For more information about how to set up a customer, see [How to: Register New C
 
     |Option|Description|  
     |-------------------------------------|---------------------------------------|  
-    |**Payment Slip**|The payment is made by using a payment slip, such as giro or an FI card (Fællesindbetalingskort).<br /><br /> > [!Note] <br /> >  This payment channel is not supported in the standard version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].|  
+    |**Payment Slip**|The payment is made by using a payment slip, such as giro or an FI card (Fællesindbetalingskort).<br /><br /> > **Note** <br /> This payment channel is not supported in the standard version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].|  
     |**Account Transfer**|The payment is made by transfer from the customer’s bank account.|  
     |**National Clearing**|The payment is made by transfer from the customer’s bank account and is processed by a clearing house.|  
     |**Direct Debit**|The payment is made by using the unified bank payment service (PBS).|  
@@ -73,16 +73,16 @@ For more information about how to set up a customer, see [How to: Register New C
 3.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Terms**, and then choose the related link.  
 4.  In the **OIOXML Code** field, choose a code for each payment term that you will use for electronic invoices.  
 
-For more information about how to set up payment methods, see [Defining Payment Methods](finance-payment-methods.md). 
+For more information about how to set up payment methods, see [Defining Payment Methods](../../finance-payment-methods.md). 
 
 ## To set up item charges  
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Charges**, and then choose the related link.  
 2.  For each item charge, in the **Charge Category** field, select a category.  
 
-For more information about how to set up item charges, see [How to: Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md).
+For more information about how to set up item charges, see [How to: Use Item Charges to Account for Additional Trade Costs](../../payables-how-assign-item-charges.md).
 
 ## See Also  
 [Denmark Local Functionality](denmark-local-functionality.md)  
 [The OIOUBL Extension for Electronic Invoicing in Denmark](ui-extensions-oioubl.md)  
-[Create an Electronic Document in a OIOUBL Format](how-to-create-electronic-documents-by-using-oioubl)  
+[Create an Electronic Document in a OIOUBL Format](how-to-create-electronic-documents-by-using-oioubl.md)  
  

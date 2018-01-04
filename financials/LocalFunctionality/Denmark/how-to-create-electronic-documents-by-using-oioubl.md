@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Create Electronic Documents by Using OIOUBL
+# How to: Create Electronic Documents in an OIOUBL Format
 When you sell goods or services to a customer in the public sector, you must submit documents electronically. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create electronic documents for invoices, credit memos, reminders, and finance charge memos. Before you can create the electronic documents, you must have set up file locations and information about the customers. For more information, see [How to: Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md).  
 
 ## Creating Electronic Documents  

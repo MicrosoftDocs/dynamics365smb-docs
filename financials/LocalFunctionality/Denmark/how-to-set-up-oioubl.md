@@ -26,14 +26,14 @@ By default, the OIOUBL extension is installed in [!INCLUDE[d365fin](../../includ
 * Set up item charges
 
 ### About OIOUBL Profiles  
-OIOUBL profiles are adaptations of business processes for various types of transactions and differ depending on the types and contents of the documents that are exchanged. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] you can specify the profile that you want to use by default for all customers, but you can also specify the profile to use for a specific customer if needed. In Denmark, the two profiles that are required are the Simpel fakturaproces (Procurement-OrdSim-BilSim-1.0) and Billing Basic (urn:www.nesubl.eu:profiles:profile5:ver2.0) profiles. The Billing Basic profile is based on the Northern European Subset (NES). 
+OIOUBL profiles are adaptations of business processes for various types of transactions and differ depending on the types and contents of the documents that are exchanged. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] you can specify the profile that you want to use by default for all customers, but you can also specify the profile to use for a specific customer if needed. In Denmark, the two profiles that are required are the **Simpel fakturaproces** (Procurement-OrdSim-BilSim-1.0) and **Billing Basic** (urn:www.nesubl.eu:profiles:profile5:ver2.0) profiles. The Billing Basic profile is based on the Northern European Subset (NES). 
 
 By default, the Simpel fakturaproces is chosen in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. If you want to use the Billing Basic profile, you will need to set that up. You specify the default profile to use for all customers on the **Sales & Receivables Setup** page. You specify the profile for a specific customer on the **Customer** card. <!--To use the Billing Basic profile, copy the following >
 
 For more information, see the entry on OIOUBL profiles in the frequently asked questions section at [Digitaliseringsstyrelsen](http://go.microsoft.com/fwlink/?LinkId=267236).  
 
 ### To set up customers for OIOUBL  
-You must add OIOUBL information to the relevant customers. Additionally, your customer must be able to receive documents in either the **Billing Basic** or **Simpel fakturaprocess** profiles. For more information, see [The OIOUBL Extension for Electronic Invoicing in Denmark](ui-extensions-oioubl.md).
+You must add OIOUBL information to the relevant customers. Additionally, your customer must be able to receive documents in either the **Billing Basic** or **Simpel fakturaprocess** profiles. If you are not sure, ask your customer about the profile they require.
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.  
 2.  Open the customer that you want to enable for OIOUBL.  
@@ -65,7 +65,7 @@ For more information about how to set up a customer, see [How to: Register New C
 
     |Option|Description|  
     |-------------------------------------|---------------------------------------|  
-    |**Payment Slip**|The payment is made by using a payment slip, such as giro or an FI card (Fællesindbetalingskort).<br /><br /> > **Note** <br /> This payment channel is not supported in the standard version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].|  
+    |**Payment Slip**|The payment is made by using a payment slip, such as giro or an FI card (Fællesindbetalingskort).<br /><br /> **Note** <br /> This payment channel is not supported in the standard version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].|  
     |**Account Transfer**|The payment is made by transfer from the customer’s bank account.|  
     |**National Clearing**|The payment is made by transfer from the customer’s bank account and is processed by a clearing house.|  
     |**Direct Debit**|The payment is made by using the unified bank payment service (PBS).|  

@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: multiple currencies, Yahoo
-ms.date: 07/02/2017
+ms.date: 01/05/2018
 ms.author: edupont
 
 ---
@@ -38,7 +38,7 @@ Using an additional reporting currency can assist the reporting process for a co
 Several reports in the General Ledger application area are based on G/L entries. To display the financial data in the report in the additional reporting currency, you simply select the **Show in Add.-Currency** field in the relevant G/L report window.  
 
 ## To set up a currency exchange rate service
-You can use an external service to keep your currency exchange rates up to date. The Yahoo Currency Exchange Rates service is preinstalled and ready to enable.
+You can use an external service, such as Yahoo Currency Exchange Rates, to keep your currency exchange rates up to date.
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Currency Exchange Rate Services**, and then choose the related link.
 2. Choose the **New** action.

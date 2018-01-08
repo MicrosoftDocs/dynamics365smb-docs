@@ -1,8 +1,6 @@
 ---
 title: Set Up and Report Intrastat| Microsoft Docs
 description: Learn how to set up Intrastat reporting features, and how to report trade with companies in other EU countries.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 
 ms.service: dynamics365-financials
@@ -11,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
-ms.date: 08/15/2017
+ms.date: 12/20/2017
 ms.author: bholtorf
 
 ---
@@ -68,6 +66,9 @@ All items that you buy or sell must have a commodity code.
 
 ## To Report Intrastat
 After you fill in the Intrastat journal, you can print the **Checklist** report to make sure that that all information in the journal is correct. Afterward, you can print an Intrastat report as a form, or create a file to submit to the tax authority in your country/region.  
+
+> [!Tip]
+> The Intrastat journal can contain many hundreds of lines. It might be easier for you to open the journal in Excel and make the relevant changes there, using the [!INCLUDE[d365fin](includes/d365fin_md.md)] Excel add-in to publish the changes back into [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ### To fill in Intrastat journals  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat Journal** and then choose the related link.  

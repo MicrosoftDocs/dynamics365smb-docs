@@ -1,4 +1,4 @@
----
+﻿---
 title: Setting Up Tax Groups, Areas, and Jurisdictions in the US | Microsoft Docs
 description: Learn about how sales tax is set up, and how tax groups, tax areas (states, counties, cities, and localities), tax jurisdictions, and tax details work.
 author: edupont04
@@ -9,12 +9,12 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: local
-ms.date: 03/29/2017
+ms.date: 01/05/2018
 ms.author: edupont
 
 ---
 # Reporting Sales Tax in the US
-When you first start using [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can run an assisted setup guide to quickly and easily set up sales tax information for your company, customers, and vendors. In a matter of minutes, you are ready to create sales documents and purchase documents with sales tax calculated correctly. This is explained [in our blog post](https://madeira.microsoft.com/blog/sales-tax-setup-made-easy).
+When you first start using [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can run an assisted setup guide to quickly and easily set up sales tax information for your company, customers, and vendors. In a matter of minutes, you are ready to create sales documents and purchase documents with sales tax calculated correctly. This is explained [in our blog post](https://community.dynamics.com/business/b/financials/archive/2016/05/09/sales-tax-setup-made-easy).
 If you move to the empty My Company, we recommend that you start by using each of the assisted setup guides, including the one for sales tax. If you prefer to set up sales tax yourself, this article explains what you have to take into consideration.  
 
 ## Tax Groups, Tax Areas, and Tax Jurisdictions

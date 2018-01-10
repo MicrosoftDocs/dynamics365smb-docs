@@ -22,7 +22,7 @@ The keyboard shortcuts are supported by most web browsers; however the behavior 
 
 The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.
 
-##  <a name="Keyboard"></a> General Keyboard Shortcuts in the browser
+##  <a name="Keyboard"></a> General Keyboard Shortcuts
 The following table describes keyboard shortcuts for navigating and accessing different elements of a page, such as actions, drop-down lists, lookups, and more. For details about keyboard shortcuts for navigating records once you get inside a list, see the next section. 
 
 |Press these keys|To do this|  

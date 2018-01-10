@@ -55,5 +55,5 @@ To setup electronic declarations for subsidiaries of a holding company, you must
 In the Netherlands, you use Digipoort to make periodic electronic filings for VAT declarations and ICP reports in EU sales list submissions. Digipoort is the electronic post office provided by the Dutch government for companies. It provides the common infrastructure for the communication of information between companies and the government, including VAT declarations. The reports are in XBRL format. For more information, see [Digipoort Overview](digipoort-overview.md).
 
 ## See Also  
- [Electronic VAT and ICP Declarations](electronic-vat-and-icp-declarations.md)
+ [Electronic VAT and ICP Declarations](electronic-vat-and-icp-declarations.md)  
  [Digipoort Overview](digipoort-overview.md)

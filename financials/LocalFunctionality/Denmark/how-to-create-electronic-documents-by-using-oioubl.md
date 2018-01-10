@@ -35,12 +35,12 @@ You can create an electronic document after you post the sales or service docume
 5.  Post the invoice.  
 
 ## To create an electronic sales invoice  
-After you post a document, you can create an electronic invoice in an OIOUBL format.
+After you post a document, you can create an electronic invoice in an OIOUBL format. The following steps describe the process for posted sales invoices, but the process is the same for other documents.
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Sales Invoices**, and then choose the related link.  
 2.  Open the relevant posted sales invoice.  
-3.  Choose the **Create Electronic Invoice** action.  
-4.  Optionally, in the **Create Electronic Invoices** window, set additional filters, and then choose the **OK** button.  
+3.  Choose the **Create Electronic <*document type*>** action.  
+4.  Optionally, in the **Create Electronic <*document type*>** window, set additional filters, and then choose the **OK** button.  
 
 An XML file is created and stored at the location that was defined in the **Sales & Receivables Setup** window. You can now submit the document to the customer.  
 

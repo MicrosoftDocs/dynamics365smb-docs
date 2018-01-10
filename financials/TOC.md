@@ -2,6 +2,7 @@
 ## [Minimum Requirements](financials-requirements.md)
 ## [Frequently Asked Questions](across-faq.md)
 ## [Overview of Business Functionality](madeira-business-functionality.md)
+## [Trying Out a Preview Version](accross-preview.md)
 ## [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
 ## [Importing Business Data from Other Finance Systems](upload-data.md)
 ## [Changing from a QuickBooks App to Microsoft Dynamics 365, Business edition](across-quickbooks-to-business-edition.md)

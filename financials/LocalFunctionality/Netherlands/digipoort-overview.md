@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 01/10/2018
     ms.author: sgroespe
 
 ---
@@ -23,7 +23,7 @@ In the Netherlands, you use Digipoort to make periodic electronic filings for VA
 The Digipoort channel replaces the BAPI method for making submissions.  
 
 ## Certificate Storage  
-In order to communicate electronically using Digipoort with the Dutch government, you will need two certificates (PKIoverheid). You will need a private certificate for the company as well as a public certificate from the website of the Dutch tax authorities. need a private certificate for the company as well as a public certificate from the Dutch authorities. You can get more specific information from the website of the Dutch tax authority. For more information, see the Dutch Tax Administration website[Logius](https://aansluiten.procesinfrastructuur.nl/site/en/).  
+In order to communicate electronically using Digipoort with the Dutch government, you will need two certificates (PKIoverheid). You will need a private certificate for the company as well as a public certificate from the website of the Dutch tax authorities. need a private certificate for the company as well as a public certificate from the Dutch authorities. You can get more specific information from the website of the Dutch tax authority. For more information, see the Dutch Tax Administration website [Logius](https://aansluiten.procesinfrastructuur.nl/site/en/).  
 
 You will have to import the certificates that you receive into the Windows Certificate store. This is a change from prior releases, in which you stored your certificates in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 

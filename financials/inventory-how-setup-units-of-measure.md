@@ -44,14 +44,14 @@ When you sell items to foreign customers, you may want to specify the unit of me
 4. In the **Description** field, enter the appropriate text.
 5. Repeat steps 2 through 4 for the unit of measure codes and the languages for which you want to enter translations.
 
-## To enter a default unit of measure code for sales and purchase transactions
+## To enter a default unit of measure code for sales and purchasing transactions
 If you usually buy or sell in units different from the base unit of measure, you can specify separate units of measure for purchases and sales. To do this, the units of measure must be set up in the **Item Units of Measure** window.
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.
 2. Open the relevant item card for which you want to specify a default sales or purchase unit of measure code.
 3. For sales, on the **Invoicing** FastTab, in the **Sales Unit of Measure** field, open the **Item Units of Measure** window.
 4. For purchasing, on the **Replenishment** FastTab, in the **Purch. Unit of Measure** field, open the **Item Units of Measure** window.
-5. Select the code you want to set up as the default unit of measure for sales or purchases respectively, and then choose the **OK** button.
+5. Select the code you want to set up as the default unit of measure for sales or purchasing respectively, and then choose the **OK** button.
 
 ## See Also
 [How to: Work with Manufacturing Batch Units of Measure](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)  

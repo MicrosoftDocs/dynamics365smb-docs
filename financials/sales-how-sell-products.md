@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade
-ms.date: 03/29/2017
+ms.date: 01/12/2018
 ms.author: sgroespe
 
 ---
@@ -67,45 +67,45 @@ You can fill customer fields on the sales order in two ways depending on whether
 
     If you have set up special item prices on the **Sales Prices and Sales Line Discounts** FastTab on the customer or item card, then the price and amount on the quote line are automatically updated if the agreed price criteria are met. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).
 12. To add a comment about the quote line that the customer can see on the printed sales quote, write a text in the **Description** field on an empty line.  
-13. Repeat steps 10 through 13 for every item that you want to offer to the customer.
+13. Repeat steps 9 through 12 for every item that you want to offer to the customer.
 
     The totals under the lines are automatically calculated as you create or modify lines.
-6. A new customer card displays the information on the selected customer template. Fill in the remaining fields. For more information, see [How to: Register New Customers](sales-how-register-new-customers.md).  
-7. When you have completed the customer card, choose the **OK** button to return to the **Sales Order** window.
+14. A new customer card displays the information on the selected customer template. Fill in the remaining fields. For more information, see [How to: Register New Customers](sales-how-register-new-customers.md).  
+15. When you have completed the customer card, choose the **OK** button to return to the **Sales Order** window.
 
    Several fields on the sales Order are now filled with information that you specified on the new customer card.  
-8. Fill in the remaining fields in the **Sales Order** window as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+16. Fill in the remaining fields in the **Sales Order** window as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
    You are now ready to fill in the sales order lines for products that you are selling to the customer or for any transaction with the customer that you want to record in a G/L account.   
 
    If you have set up recurring sales lines for the customer, such as a monthly replenishment order, then you can insert these lines on the order by choosing the **Get Recurring Sales Lines** action.  
-9. On the **Lines** FastTab, in the **Type** field, select what type of product, charge, or transaction that you will post for the customer with the sales line.
-10. In the **No.** field, select a record to post according to the value in the **Type** field.
+17. On the **Lines** FastTab, in the **Type** field, select what type of product, charge, or transaction that you will post for the customer with the sales line.
+18. In the **No.** field, select a record to post according to the value in the **Type** field.
 
     You leave the **No.** field empty in the following cases:
     -If the line is for a comment. Write the comment in the **Description** field.
     -If the line is for a nonstock item. Choose the **Select Nonstock Items** action. For more information, see [How to: Work With Nonstock Items](inventory-how-work-nonstock-items.md).
 
-11. In the **Quantity** field, enter how many units of the product, charge, or transaction that the line will record for the customer.  
+19. In the **Quantity** field, enter how many units of the product, charge, or transaction that the line will record for the customer.  
 
     > [!NOTE]  
->   If the item is of type **Item - Service** or **Resource**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.  
+>   If the item is of type **Item - Service** or **Resource**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line. For more information, see [How to: Set Up Item Units of Measure](inventory-how-setup-units-of-measure.md).
 
     The value in the **Line Amount** field is calculated as *Unit Price* x *Quantity*.  
 
     The price and line amounts are with or without sales tax, depending on what you selected in the **Prices Including Tax** field on the customer card.  
-12. If you want to give a discount, enter a percentage in the **Line Discount %** field. The value in the **Line Amount** field updates accordingly.  
+20. If you want to give a discount, enter a percentage in the **Line Discount %** field. The value in the **Line Amount** field updates accordingly.  
 
     If special item prices are set up on the **Sales Prices and Sales Line Discounts** FastTab on the customer or item card, the price and amount on the sales line automatically update if the price criteria is met. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).  
-13. Repeat steps 9 through 12 for every product or charge you want to sell to the customer.  
+21. Repeat steps 9 through 12 for every product or charge you want to sell to the customer.  
 
     The totals under the lines are automatically calculated as you create or modify lines.  
-14. In the **Invoice Discount Amount** field, enter an amount that should be deducted from the value shown in the **Total Incl. Tax** field.
+22. In the **Invoice Discount Amount** field, enter an amount that should be deducted from the value shown in the **Total Incl. Tax** field.
 
     If you have set up invoice discounts for the customer, then the specified percentage value is automatically inserted in the **Invoice Discount %** field if the criteria are met, and the related amount is inserted in the **Inv. Discount Amount Excl. Tax** field. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).
-15. To only ship a part of the order quantity, enter that quantity in the **Qty. to Ship** field. The value is copied to the **Qty. to Invoice** field.
-16. To only invoice a part of the shipped quantity, enter that quantity in the **Qty. to Invoice** field. The quantity must be lower than the value in the **Qty. to Ship** field.   
-17. When the sales order lines are completed, choose the **Post and Send** action.
+23. To only ship a part of the order quantity, enter that quantity in the **Qty. to Ship** field. The value is copied to the **Qty. to Invoice** field.
+24. To only invoice a part of the shipped quantity, enter that quantity in the **Qty. to Invoice** field. The quantity must be lower than the value in the **Qty. to Ship** field.   
+25. When the sales order lines are completed, choose the **Post and Send** action.
 
 The **Post and Send Confirmation** dialog box displays the customer's preferred method of receiving documents. You can change the sending method by choosing the lookup button for the **Send Document to** field. For more information, see [How to: Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
 

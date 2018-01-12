@@ -72,6 +72,7 @@
 ### [How to: Work with Responsibility Centers](inventory-responsibility-centers.md)
 ### [How to: Set Up Locations](inventory-how-setup-locations.md)
 ### [How to: Register New Items](inventory-how-register-new-items.md)
+### [How to: Set Up Item Units of Measure](inventory-how-setup-units-of-measure.md)
 ### [How to: Set Up Stockkeeping Units](inventory-how-to-set-up-stockkeeping-units.md)
 ### [How to: Categorize Items](inventory-how-categorize-items.md)
 ## [Setting Up Project Management](projects-setup-projects.md)

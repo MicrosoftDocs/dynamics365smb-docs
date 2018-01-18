@@ -1,8 +1,8 @@
 ---
     title: Fiscal Periods and Fiscal Years
-    description: A fiscal year is typically divided into 12 monthly fiscal periods. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can have two fiscal years open at the same time.
+    description: A fiscal year is typically divided into 12 monthly fiscal periods. In Dynamics 365, Business edition, you can have two fiscal years open at the same time.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 

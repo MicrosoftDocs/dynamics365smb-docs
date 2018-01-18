@@ -1,6 +1,6 @@
 ---
-title: Using Dynamics 365 Business edition without Outlook | Microsoft Docs
-description: You can use Dynamics 365 Business edition as your business inbox in Outlook because it is integrated with Office 365, however, you can also work without Outlook in a browser or on your mobile device.
+title: Using Dynamics 365, Business edition without Outlook | Microsoft Docs
+description: You can use Dynamics 365, Business edition as your business inbox in Outlook because it is integrated with Office 365, however, you can also work without Outlook in a browser or on your mobile device.
 documentationcenter: ''
 author: edupont04
 

@@ -1,6 +1,6 @@
 ---
 title: Manage Customers Using Dynamics 365 for Sales| Microsoft Docs
-description: You can use Dynamics 365 for Sales from inside Dynamics 365 Business edition  to map data and have seamless integration and synchronization in the lead-to-cash process.
+description: You can use Dynamics 365 for Sales from inside Dynamics 365, Business edition  to map data and have seamless integration and synchronization in the lead-to-cash process.
 documentationcenter: ''
 author: edupont04
 
@@ -76,7 +76,7 @@ At the end of the assisted setup guide, you can choose the **Run Full Synchroniz
 
 To check the progress of individual jobs in a full synchronization, drill down on the **Job Queue Entry Status**, **To Int. Table Job Status**, or **From Int. Table Job Status** field in the **CRM Full Synch. Review** window.
 
-From the **Dynamics 365 Connection Setup** window, you can get details about full synchronization at any time. From here, you can also open the **Integration Table Mappings** window to see details about the tables in Dynamics 365 Business edition and in the Dynamics 365 for Sales solution that must be synchronized.
+From the **Dynamics 365 Connection Setup** window, you can get details about full synchronization at any time. From here, you can also open the **Integration Table Mappings** window to see details about the tables in Dynamics 365, Business edition and in the Dynamics 365 for Sales solution that must be synchronized.
 
 ## Handling Special Sales Order Data
 Sales orders in Dynamics 365 for Sales will be transferred to [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically if you select the **Automatically Create Sales Orders** check box in the **Microsoft Dynamics 365 for Sales Connection Setup** window. On such sales orders, the **Name** field on the original order is transferred and mapped to the **External Document Number** field on the sales order in [!INCLUDE[d365fin](includes/d365fin_md.md)].

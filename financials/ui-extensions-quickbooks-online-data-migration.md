@@ -14,7 +14,7 @@ ms.author: bholtorf
 
 ---
 
-# The QuickBooks Online Data Migration Extension for Dynamics 365 Business edition
+# The QuickBooks Online Data Migration Extension for Dynamics 365, Business edition
 This extension is included in the **Data Migration** assisted setup guide to help you migrate important business data from QuickBooks Online to [!INCLUDE[d365fin](includes/d365fin_md.md)]. For example, this is useful when your business is growing, and you've decided to upgrade your business management app by starting to use [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## What data can I import from QuickBooks Online?

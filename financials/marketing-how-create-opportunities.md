@@ -1,6 +1,6 @@
 ---
 title: Create Sales Opportunities| Microsoft Docs
-description: Describes how to create opportunities from a salesperson or a contact in Dynamics 365 Business edition.
+description: Describes how to create opportunities from a salesperson or a contact in Dynamics 365, Business edition.
 services: project-madeira
 documentationcenter: ''
 author: jswymer

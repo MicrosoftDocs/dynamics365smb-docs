@@ -28,7 +28,7 @@ You can make your [!INCLUDE[d365fin](includes/d365fin_md.md)] data available as 
 
    PowerApps Studio for Windows is a desktop application used to create and publish PowerApps. The PowerApps Studio for Web is the online solution used to create and publish PowerApps.
 4. The next step to create a PowerApp is to select your data. Choose the Arrow icon then choose the **New connection** option in the upper left side of the page.
-5. In the list of available connections, choose **Dynamics 365 Business edition **.
+5. In the list of available connections, choose **Dynamics 365, Business edition **.
 6. PowerApps will display a connection page that prompts you for the information that is required to connect to your [!INCLUDE[d365fin](includes/d365fin_md.md)] data. To connect, you must specify an OData URL, username, password, and company name.
 
    For the *OData URL*, you can copy the OData V4 URL of any of the web services that are listed in the **Web Services** page in [!INCLUDE[d365fin](includes/d365fin_md.md)], such as `https://mycompany.financials.dynamics.com:7048/MS/ODataV4/`.  

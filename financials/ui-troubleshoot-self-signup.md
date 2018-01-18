@@ -1,6 +1,6 @@
 ---
 title: Ways to Troubleshoot or Work Around Issues with Self-Service Sign-Up | Microsoft Docs
-description: Learn about the most common reasons why you may not be able to complete the signup to Dynamics 365 Business edition , and ways to work around them.
+description: Learn about the most common reasons why you may not be able to complete the signup to Dynamics 365, Business edition , and ways to work around them.
 author: SusanneWindfeldPedersen
 
 ms.service: dynamics365-financials

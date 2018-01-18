@@ -1,6 +1,6 @@
 ---
-title: Selling Dynamics 365 Business edition | Microsoft Docs
-description: Find out how you can expand your business opportunities and become a Microsoft partner and Dynamics 365 Business edition  reseller.   
+title: Selling Dynamics 365, Business edition | Microsoft Docs
+description: Find out how you can expand your business opportunities and become a Microsoft partner and Dynamics 365, Business edition  reseller.   
 services: project-madeira
 documentationcenter: ''
 author: edupont04

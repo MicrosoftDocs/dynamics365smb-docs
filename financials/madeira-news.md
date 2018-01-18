@@ -1,6 +1,6 @@
 ---
-title: What's New in Dynamics 365 Business edition | Microsoft Docs
-description: Describes the latest news and updates for Dynamics 365 Business edition .
+title: What's New in Dynamics 365, Business edition | Microsoft Docs
+description: Describes the latest news and updates for Dynamics 365, Business edition .
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

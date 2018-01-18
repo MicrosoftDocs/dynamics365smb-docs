@@ -1,1 +1,1 @@
-Dynamics 365 Business edition 
+Dynamics 365, Business edition 

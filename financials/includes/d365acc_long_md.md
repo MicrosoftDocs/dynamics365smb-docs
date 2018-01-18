@@ -1,1 +1,1 @@
-Dynamics 365, Business edition — Accountant Hub
+Dynamics 365 for Finance and Operations, Business edition — Accountant Hub

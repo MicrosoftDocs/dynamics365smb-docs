@@ -14,7 +14,7 @@ ms.date: 0602/2017
 ms.author: edupont
 
 ---
-# Using Dynamics 365, Business edition for Finance and Operations, Business edition without Outlook
+# Using Dynamics 365, Business edition without Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] has deep integration with Office 365, and you can use [!INCLUDE[d365fin](includes/d365fin_md.md)] as your business inbox in Outlook. But if you do not have Outlook, you can work with [!INCLUDE[d365fin](includes/d365fin_md.md)] in the browser or on your mobile device.  
 
 ## Sending Email

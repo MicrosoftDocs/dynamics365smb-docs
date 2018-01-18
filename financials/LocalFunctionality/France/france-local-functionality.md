@@ -1,8 +1,8 @@
 ---
     title: France Local Functionality
-    description: The following topics describe the local functionality in the French version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
+    description: The following topics describe the local functionality in the French version of Dynamics 365, Business edition.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 

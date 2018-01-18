@@ -1,8 +1,8 @@
 ---
     title: Year End Processes Overview
-    description: Year end closing in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] involves three steps.
+    description: Year end closing in Dynamics 365, Business edition involves three steps.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 

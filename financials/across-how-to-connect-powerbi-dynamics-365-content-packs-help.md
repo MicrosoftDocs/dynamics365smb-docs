@@ -1,6 +1,6 @@
 ---
-title: How to Connect Power BI to Dynamics 365 | Microsoft Docs
-description: Getting insight, business intelligence, and KPIs from your Dynamics 365 data is easy with Power BI and the Dynamics 365 content packs.
+title: How to Connect Power BI to Dynamics 365, Business edition | Microsoft Docs
+description: Getting insight, business intelligence, and KPIs from your Dynamics 365, Business edition data is easy with Power BI and the Dynamics 365, Business edition content packs.
 author: SusanneWindfeldPedersen
 
 ms.service: dynamics365-financials
@@ -13,7 +13,7 @@ ms.date: 12/18/2017
 ms.author: solsen
 
 ---
-# Connecting Power BI to Dynamics 365 Content Packs
+# Connecting Power BI to Dynamics 365, Business edition Content Packs
 Getting insights into your Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] data is easy with Power BI and the Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] content packs. Power BI retrieves your data then builds an out-of-the-box dashboard and reports based on that data. 
 
 > [!NOTE]  
@@ -25,12 +25,12 @@ Getting insights into your Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin
 ![Navigating to Get Data](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 2. In the **Services** box, select **Get**. This will open a window with the **AppSource** and **Apps for Power BI apps**.  
 ![Choose content packs from online services](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)
-3. Select **Apps** from the **Apps for Power BI apps** tab, and choose the **Dynamics 365 for Finance and Operations** content pack that you want to use, and then select **Get it now**.  
-![Select Dynamics 365 for Finance and Operation and select Get it now](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-dynamics365-for-financials-get-it-now.png)
+3. Select **Apps** from the **Apps for Power BI apps** tab, and choose the **Dynamics 365, Business edition for Finance and Operations** content pack that you want to use, and then select **Get it now**.  
+![Select Dynamics 365, Business edition for Finance and Operation and select Get it now](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-dynamics365-for-financials-get-it-now.png)
 4. When prompted, enter the name of *your company* in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. This is not the Display Name.  
-![Select Dynamics 365 for Finance and Operation and select Get it now](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-connect-to-d365-finance-and-operations-crm.png)
+![Select Dynamics 365, Business edition for Finance and Operation and select Get it now](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-connect-to-d365-finance-and-operations-crm.png)
 5. Once connected, a dashboard, report and dataset will automatically be loaded into your Power BI workspace. When completed, the tiles will update with data from your account.
-![Select Dynamics 365 for Finance and Operation and select Get it now](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
+![Select Dynamics 365, Business edition for Finance and Operation and select Get it now](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
 ## What Now?
 
@@ -43,19 +43,19 @@ Getting insights into your Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin
 
 To import your [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] data into Power BI, you need to have permissions to the web services used to retrieve data. The web services required for each content pack include:
 
-**Microsoft Dynamics 365 for Finance and Operations – CRM**
+**Microsoft Dynamics 365, Business edition for Finance and Operations – CRM**
 - SalesOpportunities
 
-**Microsoft Dynamics 365 for Finance and Operations – Sales**
+**Microsoft Dynamics 365, Business edition for Finance and Operations – Sales**
 - ItemSalesbyCustomer
 - Power_BI_Item_Purchase_List
 - Power_BI_Item_Sales_List
 - SalesDashboard
 
-**Microsoft Dynamics 365 for Finance and Operations – Finance**
+**Microsoft Dynamics 365, Business edition for Finance and Operations – Finance**
 - PowerBIFinance
 
-**Microsoft Dynamics 365 for Finance and Operations – Jobs**
+**Microsoft Dynamics 365, Business edition for Finance and Operations – Jobs**
 - Job List
 - Job Planning Lines
 - Job Task Lines

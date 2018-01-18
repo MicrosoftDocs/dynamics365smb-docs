@@ -1,5 +1,5 @@
 ---
-title: Using Dynamics 365 Business edition with Outlook| Microsoft Docs
+title: Using Dynamics 365, Business edition with Outlook| Microsoft Docs
 description: This service has deep integration with Office 365 enabling you to manage all your business interactions and mail with customers and vendors directly in Outlook.
 author: edupont04
 
@@ -13,13 +13,13 @@ ms.date: 12/20/2017
 ms.author: edupont
 
 ---
-# Using Dynamics 365 for Finance and Operations, Business edition as your Business Inbox in Outlook
+# Using Dynamics 365, Business edition for Finance and Operations, Business edition as your Business Inbox in Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] introduces the ability to manage business interactions with your customers and vendors, directly in Microsoft Outlook. With the [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook add-ins, you can see financial data related to customers and vendors, as well as create and send financial documents, such as quotes and invoices.  
 
 ## Getting the Add-in
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], one of the steps in the Getting Started assisted setup is the **Run your business within Office 365** window. In that window, when you choose the **Set up in Outlook** button, you must specify your Office 365 user name and password. The [!INCLUDE[d365fin](includes/d365fin_md.md)] add-ins are then automatically added to your Outlook.  
 
-Then, when you open Outlook, you will see an email message from Dynamics 365 Admin. The new add-in is added to the Outlook ribbon, and in Outlook Web Access, you can see it in the add-in ribbon, immediately above the body of the email message. The add-in itself will be updated periodically, and you'll get notified that a new version is ready for you in Outlook.  
+Then, when you open Outlook, you will see an email message from Dynamics 365, Business edition Admin. The new add-in is added to the Outlook ribbon, and in Outlook Web Access, you can see it in the add-in ribbon, immediately above the body of the email message. The add-in itself will be updated periodically, and you'll get notified that a new version is ready for you in Outlook.  
 
 Some companies using Office 365 restrict users’ permissions to deploy add-ins. So you must make sure that you have an Office 365 subscription that includes email and allows you to deploy add-ins. If you want to try out the add-in anyway, you can [try Office 365 for free](https://products.office.com/try).  
 

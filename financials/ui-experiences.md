@@ -1,6 +1,6 @@
 ---
 title: Choosing the User Experience to Show or Hide Advanced Features | Microsoft Docs
-description: Learn what the Basic and Suite user experience tiers mean for the user interface, application areas, and your company in Dynamics 365 Business edition.
+description: Learn what the Basic and Suite user experience tiers mean for the user interface, application areas, and your company in Dynamics 365, Business edition.
 documentationcenter: ''
 author: edupont04
 

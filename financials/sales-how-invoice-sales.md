@@ -88,5 +88,5 @@ The related item and customer ledger entries are now created in your system, and
 [Setting Up Sales](sales-setup-sales.md)  
 [Inventory](inventory-manage-inventory.md)  
 [How to: Send Documents by Email](ui-how-send-documents-email.md)  
-[Bulk Invoicing from Microsoft Bookings in Dynamics 365 Business edition ](finance-bookings.md)  
+[Bulk Invoicing from Microsoft Bookings in Dynamics 365, Business edition ](finance-bookings.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

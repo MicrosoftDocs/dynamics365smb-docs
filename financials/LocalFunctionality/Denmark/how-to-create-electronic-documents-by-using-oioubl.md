@@ -28,7 +28,7 @@ You can create an electronic document after you post the sales or service docume
     > [!Note]  
     > For service documents, you must fill in the **Your Reference** field.  
   
-4.  On the **Invoicing** FastTab, fill in the **EAN No.**, **Account Code**, and **Payment Channel** fields.  
+4.  On the **Invoicing** FastTab, fill in the **GLN** and **OIOUBL Account Code** fields.  
 
     For reminders and finance charge memos, the fields are on the **Posting** FastTab.  
 

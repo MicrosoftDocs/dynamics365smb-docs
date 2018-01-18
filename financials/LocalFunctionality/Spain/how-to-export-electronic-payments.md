@@ -1,8 +1,8 @@
 ---
     title: How to Export Electronic Payments
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can export payment journal entries into a file format according to four different payment standards. You must use the following windows to export according to the different payment standards.
+    description: In Dynamics 365, Business edition, you can export payment journal entries into a file format according to four different payment standards. You must use the following windows to export according to the different payment standards.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 

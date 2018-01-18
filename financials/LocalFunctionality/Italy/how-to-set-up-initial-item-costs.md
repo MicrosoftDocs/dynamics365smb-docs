@@ -1,8 +1,8 @@
 ---
     title: How to Set Up Initial Item Costs
-    description: When you set up [!INCLUDE[d365fin](../../includes/d365fin_md.md)] in your organization.
+    description: When you set up Dynamics 365, Business edition in your organization.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 

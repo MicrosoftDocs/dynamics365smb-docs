@@ -1,8 +1,8 @@
 ---
     title: Vendor Payments and Customer Bills Overview
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can manage automatic bills to customers and from vendors.
+    description: In Dynamics 365, Business edition, you can manage automatic bills to customers and from vendors.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 

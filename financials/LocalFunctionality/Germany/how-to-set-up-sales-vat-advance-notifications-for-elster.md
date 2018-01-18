@@ -1,6 +1,6 @@
 ---
     title: How to Set Up Sales VAT Advance Notifications for ELSTER
-    description: In Dynamics 365, to submit valid sales VAT advance notifications to the ELSTER portal, you must perform certain setup.
+    description: In Dynamics 365, Business edition, to submit valid sales VAT advance notifications to the ELSTER portal, you must perform certain setup.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

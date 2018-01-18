@@ -1,8 +1,8 @@
 ---
     title: How to Set Up Automatic Payments and Automatic Bills
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can manage automatic payments and bills.
+    description: In Dynamics 365, Business edition, you can manage automatic payments and bills.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 

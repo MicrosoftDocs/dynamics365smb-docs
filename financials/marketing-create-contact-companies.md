@@ -36,4 +36,4 @@ The following table describes a sequence of tasks, with links to the topics that
 
 ## See Also
 [Creating Contact Persons](marketing-create-contact-persons.md)   
-[Working with Dynamics 365](ui-work-product.md)
+[Working with Dynamics 365, Business edition](ui-work-product.md)

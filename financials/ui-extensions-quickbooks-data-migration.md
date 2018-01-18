@@ -1,6 +1,6 @@
 ---
 title: Using the QuickBooks Migration Extension | Microsoft Docs
-description: Describes how to use the extension to import customers, vendors, items, and accounts from QuickBooks Desktop to Dynamics 365 for Financials.
+description: Describes how to use the extension to import customers, vendors, items, and accounts from QuickBooks Desktop to Dynamics 365, Business edition.
 author: edupont04
 
 ms.service: dynamics365-financials

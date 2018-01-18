@@ -14,7 +14,7 @@ ms.date: 0602/2017
 ms.author: edupont
 
 ---
-# Using Dynamics 365 for Finance and Operations, Business edition without Outlook
+# Using Dynamics 365, Business edition for Finance and Operations, Business edition without Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] has deep integration with Office 365, and you can use [!INCLUDE[d365fin](includes/d365fin_md.md)] as your business inbox in Outlook. But if you do not have Outlook, you can work with [!INCLUDE[d365fin](includes/d365fin_md.md)] in the browser or on your mobile device.  
 
 ## Sending Email
@@ -23,6 +23,6 @@ You can send documents such as invoices as email using your business email addre
 
 ## See Also
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Using Dynamics 365 as your Business Inbox in Outlook](madeira-outlook.md)  
-[Getting Dynamics 365 on my Mobile Device](install-mobile-app.md)  
+[Using Dynamics 365, Business edition as your Business Inbox in Outlook](madeira-outlook.md)  
+[Getting Dynamics 365, Business edition on my Mobile Device](install-mobile-app.md)  
 [How to: Send Documents by Email](ui-how-send-documents-email.md)

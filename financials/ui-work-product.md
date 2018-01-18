@@ -1,6 +1,6 @@
 ---
 title: Working with the General Functionality in Dynamics 365, Business edition  | Microsoft Docs
-description: Describes the general functionality you use to interact with data in Dynamics 365, such as entering values, sorting data, and changing views.
+description: Describes the general functionality you use to interact with data in Dynamics 365, Business edition, such as entering values, sorting data, and changing views.
 services: ''
 documentationcenter: ''
 author: SusanneWindfeldPedersen

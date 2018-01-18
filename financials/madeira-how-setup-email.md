@@ -1,6 +1,6 @@
 ---
 title: Set up email in Dynamics 365, Business edition | Microsoft Docs
-description: Describes how to use the company's SMTP server to send and receive email messages within Dynamics 365, or alternatively how to use the email server settings created with the Office 365 subscription.
+description: Describes how to use the company's SMTP server to send and receive email messages within Dynamics 365, Business edition, or alternatively how to use the email server settings created with the Office 365 subscription.
 documentationcenter: ''
 author: edupont04
 

@@ -32,7 +32,7 @@ For more information, see [Accountant Experiences in Dynamics 365, Business edit
 ## Using the extension
 This extension will be deprecated in a few months. We recommend that you do not install this extension but sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] at [Financials for Accountants on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants) instead.
 
-For more information, see [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index.md).  
+For more information, see [Welcome to Dynamics 365, Business edition — Accountant Hub](/dynamics365/accountants/index.md).  
 
 ## See Also
 [Accountant Experiences in Dynamics 365, Business edition ](finance-accounting.md)  

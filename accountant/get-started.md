@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 accountant experience | Microsoft Docs
-description: Learn about the Accountant Hub for Dynamics 365.
+title: Dynamics 365, Business edition accountant experience | Microsoft Docs
+description: Learn about the Accountant Hub for Dynamics 365, Business edition.
 author: edupont04
 
 ms.service: dynamics365-accountant
@@ -17,7 +17,7 @@ ms.author: edupont
 
 Any business must do its books and sign off on the accounting. Some businesses employ an external accountant, and others have an accountant on staff. If you are an accountant with several clients, you can use [!INCLUDE[d365acc](includes/d365acc_md.md)] as your dashboard for a better overview of your clients.  
 
-You can get access to [!INCLUDE[d365acc](includes/d365acc_md.md)] by signing up from [Dynamics 365 — Accountant Hub on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants).  
+You can get access to [!INCLUDE[d365acc](includes/d365acc_md.md)] by signing up from [Dynamics 365, Business edition — Accountant Hub on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants).  
 
 > [!TIP]  
 >  When you sign up for [!INCLUDE[d365acc](includes/d365acc_md.md)], you must specify your work email address, such as *me@accountant.com*. We recommend that you use the same email address when you work in your clients' [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], so that you can easily switch between clients. The email address must be a work address that is based on Active Directory.
@@ -81,4 +81,4 @@ When you have completed a task, simply mark it as completed.
 [Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](index.md)  
 [Analyzing Financial Statements in Microsoft Excel](/dynamics365/financials/finance-analyze-excel?toc=/dynamics365/accountants/toc.json)   
 [Accountant Experiences in [!INCLUDE[d365fin](includes/d365fin_md.md)]](/dynamics365/financials/finance-accounting?toc=/dynamics365/accountants/toc.json)  
-[Dynamics 365 — Accountant Hub on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
+[Dynamics 365, Business edition — Accountant Hub on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  

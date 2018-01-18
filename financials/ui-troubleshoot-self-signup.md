@@ -15,7 +15,7 @@ ms.author: solsen
 # Troubleshooting Self-Service Sign-Up
 Signing up for [!INCLUDE[d365fin](includes/d365fin_md.md)] is easy and can be done very quickly. You can create a free account even if you are an existing organization. This article addresses issues that you may have during signup.
 
-## What email address can I use with Dynamics 365?
+## What email address can I use with Dynamics 365, Business edition?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] requires that you use a work, or school, email address to sign up. [!INCLUDE[d365fin](includes/d365fin_md.md)] does not support email addresses provided by consumer email services or telecommunication providers. This includes outlook.com, hotmail.com, gmail.com, and others.
 
 If you try to sign up with a personal email address, you will get a message indicating to use a work or school email address.

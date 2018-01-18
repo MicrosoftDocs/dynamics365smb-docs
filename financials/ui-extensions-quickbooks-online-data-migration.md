@@ -1,6 +1,6 @@
 ---
 title: Using the QuickBooks Migration Extension | Microsoft Docs
-description: Describes how to use the extension to migrate customers, vendors, items, and accounts from QuickBooks Online to Dynamics 365.
+description: Describes how to use the extension to migrate customers, vendors, items, and accounts from QuickBooks Online to Dynamics 365, Business edition.
 author: bholtorf
 
 ms.service: dynamics365-financials

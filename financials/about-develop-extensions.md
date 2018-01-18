@@ -19,7 +19,7 @@ ms.author: edupont
 There are plenty of benefits of using [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] as a platform for App builders:
 
 * Enrich [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], a proven Microsoft online solution, with your expertise  
-* Leverage the Dynamics 365 brand – a brand that millions of users know and trust  
+* Leverage the Dynamics 365, Business edition brand – a brand that millions of users know and trust  
 * Reach more customers for your business apps with [Microsoft AppSource](https://appsource.microsoft.com/)  
 * Achieve more with a platform that delivers a modern experience and offers scale  
 * Bundle with intelligent business apps such as PowerApps, Flow, Power BI, Cortana Intelligence, and many more  

@@ -1,5 +1,5 @@
 ---
-title: Invoice your bookings in Dynamics 365 | Microsoft Docs
+title: Invoice your bookings in Dynamics 365, Business edition | Microsoft Docs
 description: 'Learn how you can do bulk invoicing from Microsoft Bookings in Dynamics 365, Business edition .'
 author: edupont04
 

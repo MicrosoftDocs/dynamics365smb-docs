@@ -15,12 +15,12 @@ ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---
-# What's New in Dynamics 365 for Finance and Operations, Business edition
+# What's New in Dynamics 365, Business edition for Finance and Operations, Business edition
 Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]! If you haven't already, then sign up for a trial, let us walk you through the basics of what you can do with [!INCLUDE[d365fin](includes/d365fin_md.md)], and then try things out on your own for a while. When you are ready, you can open a blank company and set things up for yourself.  
 
-On a regular basis, we will update [!INCLUDE[d365fin](includes/d365fin_md.md)] with additional capabilities in the core application and with new [extensions](ui-extensions.md). For an overview of what is coming and what is currently available, see the [Dynamics 365 Roadmap](https://roadmap.dynamics.com/) - and remember to filter for [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+On a regular basis, we will update [!INCLUDE[d365fin](includes/d365fin_md.md)] with additional capabilities in the core application and with new [extensions](ui-extensions.md). For an overview of what is coming and what is currently available, see the [Dynamics 365, Business edition Roadmap](https://roadmap.dynamics.com/) - and remember to filter for [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-On this page, you can see which areas became available while we were still in preview. Going forward, find the updates in the [Dynamics 365 Roadmap](https://roadmap.dynamics.com/).
+On this page, you can see which areas became available while we were still in preview. Going forward, find the updates in the [Dynamics 365, Business edition Roadmap](https://roadmap.dynamics.com/).
 
 ## November 2016 Launch of [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 As announced on the blog, we're now a service that you use in your business. But this update also adds new capabilities and a new extension.
@@ -125,4 +125,4 @@ Key scenarios to try out on your own:
 ## See Also
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Dynamics 365 Roadmap](https://roadmap.dynamics.com/)  
+[Dynamics 365, Business edition Roadmap](https://roadmap.dynamics.com/)  

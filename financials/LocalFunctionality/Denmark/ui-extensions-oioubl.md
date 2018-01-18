@@ -29,7 +29,6 @@ By default, the OIOUBL extension is installed in [!INCLUDE[d365fin](../../includ
 
 * Set up payment methods, payment terms, and item charges.
 * Set up customers for OIOUBL by specifying an account code, the OILUBL profile to use to exchange documents, and the customer's Geographic Location Number (GLN).
-* If you are using the Windows client, specify the file locations for the XML documents you generate. If you are using a browser version, such as the Web client, by default the files save to your Downloads folder.
 
 For more information, see [How to: Set Up the OIOUBL Extension](how-to-set-up-oioubl.md).  
 

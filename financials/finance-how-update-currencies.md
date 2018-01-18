@@ -1,6 +1,6 @@
 ---
 title: Updating Currency Exchange Rates| Microsoft Docs
-description: To use multiple currencies in your business, you can set up a code for each currency and use an external exchange rate service, such as Yahoo.
+description: To use multiple currencies in your business, you can set up a code for each currency and use an external exchange rate service, such as FloatRates.
 services: project-madeira
 documentationcenter: ''
 author: edupont04
@@ -10,8 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: multiple currencies, Yahoo
-ms.date: 01/05/2018
+ms.search.keywords: multiple currencies
+ms.date: 07/02/2017
 ms.author: edupont
 
 ---
@@ -38,7 +38,7 @@ Using an additional reporting currency can assist the reporting process for a co
 Several reports in the General Ledger application area are based on G/L entries. To display the financial data in the report in the additional reporting currency, you simply select the **Show in Add.-Currency** field in the relevant G/L report window.  
 
 ## To set up a currency exchange rate service
-You can use an external service, such as Yahoo Currency Exchange Rates, to keep your currency exchange rates up to date.
+You can use an external service to keep your currency exchange rates up to date, such as FloatRates.
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Currency Exchange Rate Services**, and then choose the related link.
 2. Choose the **New** action.

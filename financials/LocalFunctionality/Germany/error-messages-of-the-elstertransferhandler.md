@@ -1,6 +1,6 @@
 ---
     title: Error Messages of the ElsterTransferHandler
-    description: When Dynamics 365 submits sales VAT advance notifications, errors can occur.
+    description: When Dynamics 365, Business edition submits sales VAT advance notifications, errors can occur.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

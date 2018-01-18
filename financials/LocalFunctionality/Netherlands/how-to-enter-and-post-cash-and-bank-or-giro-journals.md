@@ -1,6 +1,6 @@
 ---
     title: How to Enter and Post Cash and Bank or Giro Journals
-    description: In Dynamics 365, you can use the cash and bank journals to enter the transactions that affect the cash and bank accounts by using **Cash Book** and **Bank Book**.
+    description: In Dynamics 365, Business edition, you can use the cash and bank journals to enter the transactions that affect the cash and bank accounts by using **Cash Book** and **Bank Book**.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

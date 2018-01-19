@@ -67,7 +67,7 @@ Each time you sign in during the trial period, a notification in a blue bar at t
 ## Other Dynamics 365, Business edition apps
 Navigate to content about the other Dynamics 365, Business edition apps by choosing the [Dynamics 365, Business edition](https://docs.microsoft.com/dynamics365) link in the blue banner at the top of this page. You can also learn more at the [Dynamics 365, Business edition website](https://www.microsoft.com/en-us/dynamics365/).  
 
-If you are an accountant, you can sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] and have seamless integration with [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Welcome to Dynamics 365, Business edition — Accountant Hub](/dynamics365/accountants/index).
+If you are an accountant, you can sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] and have seamless integration with [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).
 
 ## See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

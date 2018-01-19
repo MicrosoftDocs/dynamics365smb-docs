@@ -1,6 +1,6 @@
 ---
 title: Ways to troubleshoot or work around issues | Microsoft Docs
-description: Learn how to work around any issues in the Accountant Hub for Dynamics 365, Business edition.
+description: Learn how to work around any issues in the Accountant Hub for Dynamics 365.
 author: edupont04
 
 ms.service: dynamics365-accountant

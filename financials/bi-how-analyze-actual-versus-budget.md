@@ -20,9 +20,6 @@ As a part of gathering, analyzing, and sharing your company data, you view actua
 
 To analyze budgeted amounts, you must first create G(L budgets. For more information, see [How to: Create G/L Budgets](finance-how-create-budgets.md).
 
-> [!NOTE]  
->   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
-
 ## To view a G/L budget
 In a budget with dimensions, you can filter the entries and see specific budgets.
 

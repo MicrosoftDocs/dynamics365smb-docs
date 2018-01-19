@@ -18,7 +18,7 @@ ms.author: bholtorf
 
 ---
 # Managing Payables
-[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] has what you need to effectively manage accounts payable.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] has what you need to effectively manage accounts payable.  
 
 ## Payments
 It's easy to prioritize payments, account for penalties for overdue payments, and handle discounts for early payments.

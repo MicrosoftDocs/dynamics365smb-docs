@@ -14,7 +14,7 @@ ms.author: edupont
 
 ---
 # Frequently Asked Questions
-This section contains answers to frequently asked questions about signing up for and using [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)].  
+This section contains answers to frequently asked questions about signing up for and using [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## What email address can I use with [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] requires that you use a work, or school, email address to sign up. [!INCLUDE[d365fin](includes/d365fin_md.md)] does not support email addresses provided by consumer email services or telecommunication providers. This includes outlook.com, hotmail.com, gmail.com, and others.  
@@ -47,4 +47,4 @@ Did you read about a new capability in the roadmap or on our blog recently? In t
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as Your Business Inbox in Outlook](madeira-outlook.md)  
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] without Outlook](madeira-no-outlook.md)  
 [How to: Change the Role Center](change-role.md)  
-[Working with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -48,7 +48,7 @@ Even though inventory costs are automatically posted to the general ledger, it i
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Sales](sales-manage-sales.md)    
-[Working with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

@@ -16,7 +16,7 @@ ms.author: edupont
 
 ---
 # Finance
-[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] includes a standard configuration of most financial processes, but you can change the configuration to suit your business. For more information, see [Setting Up Finance](finance-setup-finance.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] includes a standard configuration of most financial processes, but you can change the configuration to suit your business. For more information, see [Setting Up Finance](finance-setup-finance.md).
 
 The default configuration includes a chart of accounts and standard posting groups that make the process of assigning default general ledger posting accounts to customers, vendors, and items more efficient.  
 

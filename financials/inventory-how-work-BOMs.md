@@ -99,4 +99,4 @@ The costs of the items that make up the assembly BOM are copied from the compone
 [How to: Register New Items](inventory-how-register-new-items.md)  
 [How to: View the Availability of Items](inventory-how-availability-overview.md)     
 [Inventory](inventory-manage-inventory.md)  
-[Working with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

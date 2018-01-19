@@ -58,5 +58,5 @@ You can find additional information about accessibility with Microsoft products 
 
 ## See Also
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Working with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Frequently Asked Questions](across-faq.md)  

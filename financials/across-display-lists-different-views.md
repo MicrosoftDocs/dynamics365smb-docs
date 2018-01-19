@@ -24,5 +24,5 @@ On the Items list, having pictures helps you get a quick overview of what you se
 You can import a picture for a specific item by going to the **Item** card and to the right select **Picture** and then choose **Import**. Likewise you can export a picture to a file or delete the picture for the item.  
 
 ## See Also
-[Working with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [How to: Register New Items](inventory-how-register-new-items.md)  

@@ -1,6 +1,6 @@
 ---
     title: Germany Local Functionality
-    description: The following topics describe the local functionality in the German version of Dynamics 365.
+    description: The following topics describe the local functionality in the German version of Dynamics 365, Business edition.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

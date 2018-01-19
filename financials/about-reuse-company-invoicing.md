@@ -1,6 +1,6 @@
 ---
-title: Use Invoicing and Dynamics 365 | Microsoft Docs
-description: Workaround for accessing Microsoft Invoicing when you have signed up for Dynamics 365.
+title: Use Invoicing and Dynamics 365, Business edition | Microsoft Docs
+description: Workaround for accessing Microsoft Invoicing when you have signed up for Dynamics 365, Business edition.
 author: edupont04
 
 ms.service: dynamics365-financials

@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 Business edition and Power BI Content Packs| Microsoft Docs
-description: Getting insight, business intelligence, and KPIs from your Dynamics 365 data is easy with Power BI and the Dynamics 365 content packs.
+title: Dynamics 365, Business edition and Power BI Content Packs| Microsoft Docs
+description: Getting insight, business intelligence, and KPIs from your Dynamics 365, Business edition data is easy with Power BI and the Dynamics 365, Business edition content packs.
 author: edupont04
 
 ms.service: dynamics365-financials
@@ -20,9 +20,9 @@ Microsoft has published the following content packs:
 
 | App | Description |
 | --- | --- |
-| Microsoft Dynamics 365 for Financials | Provides a dashboard with key financial data over time, such as earnings versus expenses, operating margin, and cash cycle.|
-| Microsoft Dynamics 365 for Financials - CRM | Provides a dashboard with key data about sales opportunities and contacts.  |
-| Microsoft Dynamics 365 for Financials - Sales | Provides a dashboard with key data about sales and inventory. |
+| Microsoft Dynamics 365, Business edition | Provides a dashboard with key financial data over time, such as earnings versus expenses, operating margin, and cash cycle.|
+| Microsoft Dynamics 365, Business edition - CRM | Provides a dashboard with key data about sales opportunities and contacts.  |
+| Microsoft Dynamics 365, Business edition - Sales | Provides a dashboard with key data about sales and inventory. |
 
 ## Using the Dashboards
 Each content pack provides reports that you can drill into:
@@ -40,7 +40,7 @@ The content packs are preconfigured to work with data from the demonstration com
 ## Accessing [!INCLUDE[d365fin](includes/d365fin_md.md)] in Power BI
 To see your [!INCLUDE[d365fin](includes/d365fin_md.md)] data in Power BI, you must have the following:  
 
-* Access to [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Dynamics 365 Business edition](http://go.microsoft.com/fwlink/?LinkID=759714).  
+* Access to [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Dynamics 365, Business edition](http://go.microsoft.com/fwlink/?LinkID=759714).  
 * Access to Power BI. For more information, see [Power BI](https://powerbi.microsoft.com).
 
 On the Power BI site, you can find additional information about [connecting to services with content packs for Power BI](http://go.microsoft.com/fwlink/?LinkID=760850).  

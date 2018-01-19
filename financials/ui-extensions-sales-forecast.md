@@ -15,7 +15,7 @@ ms.date: 03/29/2017
 ms.author: edupont
 
 ---
-# Sales and Inventory Forecast for Dynamics 365 Business edition 
+# Sales and Inventory Forecast for Dynamics 365, Business edition 
 Inventory management is a trade-off between customer service and managing your cost. On one hand, a low inventory requires less working capital, but, on the other hand, stock-outs potentially lead to missed sales. The Sales and Inventory Forecast extension predicts potential sales using historical data and gives a clear overview of expected stock-outs. Based on the forecast, the extension helps create replenishment requests to your vendors and saves you time.  
 
 ## Setting up forecasting

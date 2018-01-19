@@ -1,6 +1,6 @@
 ---
     title: Design Details - Planning Parameters | Microsoft Docs
-    description: This topic describes the different planning parameters that you can use in Dynamics 365.
+    description: This topic describes the different planning parameters that you can use in Dynamics 365, Business edition.
     author: SorenGP
 
     ms.service: dynamics365-financials

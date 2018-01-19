@@ -1,5 +1,5 @@
 ---
-    title: SEPA Direct Debit in Dynamics 365 | Microsoft Docs
+    title: SEPA Direct Debit in Dynamics 365, Business edition | Microsoft Docs
     description: You can collect payments directly from the customer’s bank account according to the SEPA format.
     author: SorenGP
 

@@ -1,6 +1,6 @@
 ---
-title: Set Up Marketing Campaigns in Dynamics 365| Microsoft Docs
-description: Describes how you can set up and conduct marketing campaigns in Dynamics 365 to help you identify and attract prospects and retain customers.
+title: Set Up Marketing Campaigns in Dynamics 365, Business edition| Microsoft Docs
+description: Describes how you can set up and conduct marketing campaigns in Dynamics 365, Business edition to help you identify and attract prospects and retain customers.
 author: SorenGP
 
 ms.service: dynamics365-financials
@@ -45,4 +45,4 @@ Campaigns are conducted by salespeople, and you must create activities to repres
 [Managing Contacts](marketing-contacts.md)  
 [Managing Segments](marketing-segments.md)  
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
-[Working with Dynamics 365](ui-work-product.md)  
+[Working with Dynamics 365, Business edition](ui-work-product.md)  

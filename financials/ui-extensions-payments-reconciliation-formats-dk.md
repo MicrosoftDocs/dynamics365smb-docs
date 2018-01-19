@@ -96,7 +96,7 @@ The following table shows the combinations of FIK and GIRO payment methods that 
 5. Choose the **Export** action.  
 
 ## See also
-[Customizing Dynamics 365 for [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
+[Customizing Dynamics 365, Business edition for [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
 [How to: Create SEPA Direct Debit Collection Entries and Export to a Bank File](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)  
 [How to: Set Up SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)  
 [How to: Post SEPA Direct Debit Payment Receipts](finance-how-to-post-sepa-direct-debit-payment-receipts.md)  

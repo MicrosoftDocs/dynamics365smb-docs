@@ -37,4 +37,4 @@ Repeat these steps to assign as many date ranges as you want.
 
 ## See Also
 [Create Contact Companies](marketing-create-contact-companies.md)  
-[Working with Dynamics 365](ui-work-product.md)
+[Working with Dynamics 365, Business edition](ui-work-product.md)

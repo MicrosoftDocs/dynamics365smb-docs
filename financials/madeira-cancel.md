@@ -1,6 +1,6 @@
 ---
-title: Cancelling Dynamics 365 Business edition | Microsoft Docs
-description: Describes how to remove or delete your Dynamics 365 Business edition experience.
+title: Cancelling Dynamics 365, Business edition | Microsoft Docs
+description: Describes how to remove or delete your Dynamics 365, Business edition experience.
 author: edupont04
 
 ms.service: dynamics365-financials

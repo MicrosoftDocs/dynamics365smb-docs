@@ -11,7 +11,8 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: multiple currencies
-ms.date: 07/02/2017
+ms.date: 01/17/2018
+>>>>>>> refs/remotes/origin/Update15
 ms.author: edupont
 
 ---
@@ -39,6 +40,7 @@ Several reports in the General Ledger application area are based on G/L entries.
 
 ## To set up a currency exchange rate service
 You can use an external service to keep your currency exchange rates up to date, such as FloatRates.
+>>>>>>> refs/remotes/origin/Update15
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Currency Exchange Rate Services**, and then choose the related link.
 2. Choose the **New** action.

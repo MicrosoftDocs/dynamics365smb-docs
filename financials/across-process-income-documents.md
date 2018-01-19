@@ -1,6 +1,6 @@
 ---
 title: Process Incoming Documents| Microsoft Docs
-description: To record an external document, such as a PDF,  in Dynamics 365 Business edition , you first create or complete an incoming document record.
+description: To record an external document, such as a PDF,  in Dynamics 365, Business edition , you first create or complete an incoming document record.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

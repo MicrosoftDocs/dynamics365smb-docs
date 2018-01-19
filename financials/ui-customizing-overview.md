@@ -1,6 +1,6 @@
 ---
-title: Customizing Dynamics 365 for Financials | Microsoft Docs
-description: Learn about adding functionality and customizing Dynamics 365 for Financials.
+title: Customizing Dynamics 365, Business edition | Microsoft Docs
+description: Learn about adding functionality and customizing Dynamics 365, Business edition.
 documentationcenter: ''
 author: edupont04
 
@@ -14,7 +14,7 @@ ms.date: 07/07/2017
 ms.author: jswymer
 
 ---
-# Customizing Dynamics 365 for Financials
+# Customizing Dynamics 365, Business edition
 <!--NAV # Customizing Dynamics NAV -->
 There are different ways to customize the application to give you and your colleagues access to the features, functionality, and data that you need most, in a manner that bests suits your daily work. Those who see the changes will depend on what you do, as described in this table.
 

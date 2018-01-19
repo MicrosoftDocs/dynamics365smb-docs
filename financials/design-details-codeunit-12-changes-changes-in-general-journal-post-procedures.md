@@ -1,6 +1,6 @@
 ---
     title: Design Details - Codeunit 12 Changes in General Journal Post Procedures | Microsoft Docs
-    description: The following changes have been implemented in this release of Dynamics 365.
+    description: The following changes have been implemented in this release of Dynamics 365, Business edition.
     author: SorenGP
 
     ms.service: dynamics365-financials

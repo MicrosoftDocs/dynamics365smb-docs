@@ -1,6 +1,6 @@
 ---
 title: Manage Sales Opportunities and Leads| Microsoft Docs
-description: Describes managing any incoming lead or sales opportunity in Dynamics 365,  and associating the opportunity with a salesperson to keep track of potential sales.
+description: Describes managing any incoming lead or sales opportunity in Dynamics 365, Business edition,  and associating the opportunity with a salesperson to keep track of potential sales.
 services: project-madeira
 documentationcenter: ''
 author: jswymer

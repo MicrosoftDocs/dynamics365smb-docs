@@ -1,6 +1,6 @@
 ---
 title: Using the Tax File Formats (DK) Extension | Microsoft Docs
-description: This extension makes it easy to export files that are pre-formatted to meet bank requirements for electronic submissions. 
+description: This extension makes it easy to export files that are pre-formatted to meet bank requirements for electronic submissions.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -16,10 +16,10 @@ ms.author: bholtorf
 
 ---
 
-# The Tax File Formats (DK) Extension for Dynamics 365 for Finance and Operations, Business Edition
+# The Tax File Formats (DK) Extension for Dynamics 365, Business edition
 If you engage in trade with companies, or internal branches or subsidiaries, in other EU countries you must report information about the activities to SKAT and to Statistics Denmark. If you use the VAT and Intrastat reporting features in [!INCLUDE[d365fin](includes/d365fin_md.md)], this extension can ensure that the file you export is compatible with requirements from these organizations. The extension adds the MS-ECSL Report Export File and Intrastat Export Lines submission codeunits to your VAT Report configuration, so you can export data in the new format right away.
 
-The extension is free, you just need to install it. 
+The extension is free, you just need to install it.
 
 ## See Also
 [Customizing Dynamics 365, Business edition Using Extensions](ui-extensions.md)

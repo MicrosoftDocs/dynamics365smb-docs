@@ -36,6 +36,6 @@ The following table lists some of the general functionality with links to topics
 
 ## See Also
 [General Business Functionality](ui-across-business-areas.md)  
-[Customizing Your [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Experience](ui-experiences.md)  
+[Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)  
 
 ## [!INCLUDE[free_trial](includes/free_trial_md.md)]

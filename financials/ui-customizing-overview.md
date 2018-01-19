@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalize, add-in, extend, customize
-ms.date: 07/07/2017
+ms.date: 01/19/2018
 ms.author: jswymer
 
 ---
@@ -23,6 +23,9 @@ There are different ways to customize the application to give you and your colle
 |Install an extension|Extensions are like small applications that add functionality, change behavior, provide access to new online services, and more. For example, Microsoft provides an extension that provides integration with PayPal Payments Standard.|All users in all companies.|[Customizing Using Extensions](ui-extensions.md)|
 |Change the Experience|A single setting, the *Experience* setting, determines how much of the core functionality is available. Currently, there are two levels: Basic and Essential.|All users in a specific company.|[Configuring the Dynamics 365 for Financials Experience for a Company](ui-experiences.md)|
 |Personalize your workspace|Change the layout and content of your pages.|Only you.|[Personalizing Your Workspace](ui-personalization-user.md)|
+
+> [!NOTE]  
+> With the Sandbox option, you can select the **Advanced** experience, which gives access to all possible business functionality, including Manufacturing and Service Management. For more information, see [How to: Create a Sandbox Environment](across-how-create-sandbox-environment.md).
 
 ## See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

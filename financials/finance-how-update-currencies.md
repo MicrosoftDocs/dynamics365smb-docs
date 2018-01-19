@@ -11,9 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: multiple currencies
-ms.date: 01/17/2018
->>>>>>> refs/remotes/origin/Update15
-ms.author: edupont
+ms.date: 01/19/2018
 
 ---
 # How to: Update Currency Exchange Rates

@@ -16,7 +16,7 @@ ms.author: edupont
 
 ---
 # Setting Up or Changing the Chart of Accounts
-The chart of accounts shows the ledger accounts that store your financial data. [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] includes a standard chart of accounts that is ready to support your business.
+The chart of accounts shows the ledger accounts that store your financial data. [!INCLUDE[d365fin](includes/d365fin_md.md)] includes a standard chart of accounts that is ready to support your business.
 However, you can change the default accounts, and you can add new accounts.  
 
 ## Adding or Changing Accounts

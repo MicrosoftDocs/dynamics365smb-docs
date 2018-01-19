@@ -71,4 +71,4 @@ A report layout controls what is shown on a report, how it is arranged, and how 
 ## See Also
 [Specify Printer Selection for Reports](ui-specify-printer-selection-reports.md)  
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  
-[Working with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

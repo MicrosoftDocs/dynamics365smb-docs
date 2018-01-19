@@ -1,6 +1,6 @@
 ---
-title: Get clients into Dynamics 365, Business edition accountant experience | Microsoft Docs
-description: Learn how to add existing clients to the Accountant Hub for Dynamics 365, Business edition.
+title: Get clients into Dynamics 365 accountant experience | Microsoft Docs
+description: Learn how to add existing clients to the Accountant Hub for Dynamics 365.
 author: edupont04
 
 ms.service: dynamics365-accountant

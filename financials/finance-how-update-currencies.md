@@ -10,14 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-<<<<<<< HEAD
-ms.search.keywords: multiple currencies, Yahoo
-ms.date: 01/05/2018
-=======
 ms.search.keywords: multiple currencies
-ms.date: 07/02/2017
->>>>>>> refs/remotes/origin/master
-ms.author: edupont
+ms.date: 01/19/2018
 
 ---
 # How to: Update Currency Exchange Rates

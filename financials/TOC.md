@@ -334,6 +334,7 @@
 ## [Managing Report and Document Layouts](ui-manage-report-layouts.md)
 ## [Logging Changes in Dynamics 365, Business edition](across-log-changes.md)
 ## [How to: Manage Users and Permissions](ui-how-users-permissions.md)
+## [Defining User Tasks](across-user-tasks.md)
 ## [Customizing Dynamics 365, Business edition Using Extensions](ui-extensions.md)
 ## [Incoming Documents](across-income-documents.md)
 ### [How to: Set Up Incoming Documents](across-how-setup-income-documents.md)
@@ -345,7 +346,6 @@
 ### [About the Data Exchange Framework](across-about-the-data-exchange-framework.md)
 ### [Setting Up Data Exchange](across-set-up-data-exchange.md)
 ### [Exchanging Data](across-exchange-data.md)
-## [Defining User Tasks](across-user-tasks.md)
 
 # [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)
 ## [Walkthrough: Conducting a Sales Campaign](walkthrough-conducting-a-sales-campaign.md)

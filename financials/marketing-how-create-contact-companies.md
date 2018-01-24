@@ -56,4 +56,4 @@ If you have already set up a number of customers, vendors, and bank accounts, yo
 [Assign Industry Groups to a Contact](marketing-industry-groups.md#AssignIndustryGroupContact)  
 [Assign Mailing Groups to a Contact](marketing-mailing-groups.md#AssignMailGroupContact)  
 [How to: Create Contact Persons](marketing-create-contact-persons.md)  
-[Working with Dynamics 365](ui-work-product.md)
+[Working with Dynamics 365, Business edition](ui-work-product.md)

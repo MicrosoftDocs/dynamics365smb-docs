@@ -1,6 +1,6 @@
 ---
     title: Design Details - Item Tracking Design | Microsoft Docs
-    description: This topic describes the design behind item tracking in Dynamics 365.
+    description: This topic describes the design behind item tracking in Dynamics 365, Business edition.
     author: SorenGP
 
     ms.service: dynamics365-financials

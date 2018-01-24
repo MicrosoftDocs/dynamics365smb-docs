@@ -1,6 +1,6 @@
 ---
-title: Installing Extensions to Customize Dynamics 365 Business edition  | Microsoft Docs
-description: Learn about adding functionality and customizing Dynamics 365 Business edition  by installing extensions.
+title: Installing Extensions to Customize Dynamics 365, Business edition  | Microsoft Docs
+description: Learn about adding functionality and customizing Dynamics 365, Business edition  by installing extensions.
 documentationcenter: ''
 author: edupont04
 

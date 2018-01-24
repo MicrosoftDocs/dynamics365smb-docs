@@ -39,7 +39,7 @@ You can use your [!INCLUDE[d365fin](includes/d365fin_md.md)] data as part of a w
    Alternatively, create a new web service URL in [!INCLUDE[d365fin](includes/d365fin_md.md)] by using the **Create Data Set** action in the **Web Services** page, using the **Set Up Reporting** Assisted Setup guide, or by choosing the **Edit in Excel** action in any lists.
 7. Choose the data that you want to use for in Flow.
 
-At this point, you have successfully connected to your Dynamics 365 data and are ready to begin building your flow. For more information, see the [Flow documentation](https://flow.microsoft.com/documentation/getting-started/).
+At this point, you have successfully connected to your Dynamics 365, Business edition data and are ready to begin building your flow. For more information, see the [Flow documentation](https://flow.microsoft.com/documentation/getting-started/).
 
 ## See Also
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

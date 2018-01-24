@@ -1,6 +1,6 @@
 ---
-    title: Electronic documents in Dynamics 365 Business edition   | Microsoft Docs
-    description: Introduction to sending and receiving electronic documents in Dynamics 365.
+    title: Electronic documents in Dynamics 365, Business edition   | Microsoft Docs
+    description: Introduction to sending and receiving electronic documents in Dynamics 365, Business edition.
     author: SorenGP
 
     ms.service: dynamics365-financials

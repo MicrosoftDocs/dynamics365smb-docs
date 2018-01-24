@@ -1,6 +1,6 @@
 ---
     title: General Ledger
-    description: Special general ledger functionality exists for the Dutch version of Dynamics 365.
+    description: Special general ledger functionality exists for the Dutch version of Dynamics 365, Business edition.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

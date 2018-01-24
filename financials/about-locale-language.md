@@ -1,6 +1,6 @@
 ---
 title: Multilanguage and Localization | Microsoft Docs
-description: Learn how language and locale influence your experience in Dynamics 365.
+description: Learn how language and locale influence your experience in Dynamics 365, Business edition.
 author: edupont04
 
 ms.service: dynamics365-financials

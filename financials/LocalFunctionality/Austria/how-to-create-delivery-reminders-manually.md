@@ -1,6 +1,6 @@
 ---
     title: How to Create Delivery Reminders Manually
-    description: In Dynamics 365, you can create delivery reminders when a purchase has not been delivered as expected.
+    description: In Dynamics 365, Business edition, you can create delivery reminders when a purchase has not been delivered as expected.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

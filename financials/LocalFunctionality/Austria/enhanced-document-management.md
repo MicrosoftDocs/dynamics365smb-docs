@@ -1,6 +1,6 @@
 ---
     title: Enhanced Document Management
-    description: In Dynamics 365, you can archive documents and track work across archived and non-archived documents.
+    description: In Dynamics 365, Business edition, you can archive documents and track work across archived and non-archived documents.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

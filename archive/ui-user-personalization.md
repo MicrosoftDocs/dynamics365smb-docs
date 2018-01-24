@@ -1,6 +1,6 @@
 ---
 title: Personalizing the Way Information is Displayed for a User Account | Microsoft Docs
-description: Describes how to customize the look and feel of Dynamics 365 for your user account.
+description: Describes how to customize the look and feel of Dynamics 365, Business edition for your user account.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

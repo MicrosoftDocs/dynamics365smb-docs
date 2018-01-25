@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: multiple currencies
-ms.date: 07/02/2017
+ms.date: 01/25/2018
 ms.author: edupont
 
 ---
@@ -36,9 +36,6 @@ Using an additional reporting currency can assist the reporting process for a co
 - Companies that also wish to display reports in a more internationally traded currency than their own local currency.  
 
 Several reports in the General Ledger application area are based on G/L entries. To display the financial data in the report in the additional reporting currency, you simply select the **Show in Add.-Currency** field in the relevant G/L report window.  
-
-> [!NOTE]  
->   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
 ## To set up a currency exchange rate service
 You can use an external service to keep your currency exchange rates up to date, such as FloatRates.

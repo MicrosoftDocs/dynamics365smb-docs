@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 10/16/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 
 ---
@@ -25,9 +25,6 @@ A permission set is a collection of permissions for specific objects in the data
 You can add users to user groups. This makes it easier to assign the same permission sets to multiple users.
 
 Administrators can use the **User Setup** window to define periods of time during which specified users are able to post, and also specify if the system logs the amount of time users are logged on.
-
-> [!NOTE]  
->   This functionality requires that your experience is set to Suite. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
 ## To assign permissions to a user
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Users**, and then choose the related link.

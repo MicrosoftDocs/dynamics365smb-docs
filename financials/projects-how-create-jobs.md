@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, task
-ms.date: 06/06/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 
 ---
@@ -26,9 +26,6 @@ The layer structure enables you to divide the job into smaller tasks, and theref
 
 > [!NOTE]  
 >   The **New Job** action on the **Project Manager** Role Center launches an assisted setup that guides you through the steps of creating a job with integrated tasks and planning lines. The following procedure describes how to perform the steps manually.
-
-> [!NOTE]  
->   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
 ## To create a job card
 You create a job card and then create job task lines and job planning lines for it.

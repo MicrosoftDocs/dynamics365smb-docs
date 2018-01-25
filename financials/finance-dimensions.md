@@ -3,7 +3,7 @@ title: Work with Dimensions| Microsoft Docs
 description: You use dimensions to categorize entries, for example, by department or project, so you can easily track and analyze data.
 services: project-madeira
 documentationcenter: ''
-author: bholtorf
+author: SorenGP
 
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,8 +11,8 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 06/14/2017
-ms.author: bholtorf
+ms.date: 01/25/2018
+ms.author: sgroespe
 
 ---
 # Working with Dimensions
@@ -54,6 +54,62 @@ You can also set up some global and shortcut dimensions:
 
 ### Setting Up Default Dimensions for Customers, Vendors, and Other accounts
 You can assign a default dimension for a specific account. The dimension will be copied to the journal or document when you enter the account number on a line, but you can delete or change the code on the line if appropriate. You can also make a dimension required for posting an entry with a specific type of account.  
+
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Dimensions**, and then choose the related link.  
+2.  In the **Dimensions** window, select the relevant dimension, and then choose the **Account Type Default Dim** action.  
+4.  Fill in a line for each new default dimension that you want to set up. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
+
+> [!TIP]  
+>  If you want to make a dimension required but you do not want to assign a default value to the dimension, leave the **Dimension Value Code** field blank and then select **Code Mandatory** in the **Value Posting** field.  
+
+> [!WARNING]  
+>  If an account is used in the **Adjust Exchange Rates** batch job or the **Post Inventory Cost to G/L** batch job, do not select **Code Mandatory** or **Same Code**. These batch jobs cannot use dimension codes.  
+
+> [!NOTE]  
+>  If an account must have a different dimension assigned to it than the default dimension already set up for the account type, you must set up a default dimension for this account. The default dimension for the individual account then replaces the default dimension for the account type.  
+
+### To set up default dimension priorities  
+Different account types, such as a customer account and an item account, can have different default dimensions set up. As a result, an entry can have more than one default dimension proposed for a dimension. To avoid such conflicts, you can apply priority rules to the different sources.  
+
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Default Dimension Priorities**, and then choose the related link.  
+2.  In the **Default Dimension Priorities** window, in the **Source Code** field, enter the source code for the entry table to which default dimension priorities will apply.  
+3.  Fill in a line for each default dimension priority that you want for the selected source code.
+4.  Repeat the procedure for each source code for which you want to set up default dimension priorities.  
+
+> [!IMPORTANT]  
+>  If you set up two tables with the same priority for the same source code, [!INCLUDE[d365fin](includes/d365fin_md.md)] will always select the table with the lowest table ID.  
+
+### To set up dimension combinations  
+To avoid posting entries with contradictory or irrelevant dimensions, you can block or limit specific combinations of two dimensions. A blocked dimension combination means that you cannot post both dimensions on the same entry regardless of what the dimension values are. A limited dimension combination lets you post both dimensions to the same entry, but only for certain combinations of dimension values.
+
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Dimension Combinations**, and then choose the related link.  
+2.  In the **Dimension Combinations** window, choose the field of the dimension combination and select one of the following options.  
+
+    |Field|Description|
+    |----------------------------------|---------------------------------------|  
+    |**No limitation**|This dimension combination has no restrictions. All dimensions values are allowed.|  
+    |**Limit**|This dimension combination has restrictions depending on which dimension values that you enter. You must define the limitations in the **Dimension Value Combination** window.|  
+    |**Blocked**|This dimension combination is not allowed.|  
+
+3.  If you selected the **Limited** option, you must define which combinations of dimension values are blocked. To do this, choose the field to define the dimension combination.  
+4.  Now select a dimension value combination that is blocked and enter **Blocked** in the field. A blank field means that the dimension value combination is allowed. Repeat if multiple combinations are blocked.  
+
+> [!NOTE]  
+>  The same dimensions are displayed in both rows and columns and, therefore, all dimension combinations appear two times. [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically displays the setting in both fields. You cannot select anything in the fields from the upper-left corner and down, because these fields have the same dimension in both rows and columns.  
+>   
+>  The selected option is not visible before you exit the field.  
+>   
+>  To show the name of the dimensions instead of the code, select the **Show Column Name** field.
+
+### Getting an Overview of Dimensions used Multiple Times
+The **Default Dimensions-Multiple** specifies how a group of accounts use dimensions and dimension values. You can do this by highlighting multiple accounts and then specifying default dimensions and dimension values for all the accounts you have highlighted in the account list. When you specify default dimensions for the highlighted accounts, the program will suggest these dimensions and dimension values whenever one of these accounts is used, for example on a journal line. This makes entry posting easier for the user, as the program fills out the dimension fields automatically. However, the dimension values the program suggests can be changed on, for example, a journal line.
+
+The window contains the following fields:
+|Field|Description|
+|----------------------------------|---------------------------------------|  
+|**Dimension Code**|Shows all dimensions that have been defined as default dimensions on one or more of the highlighted accounts. By choosing the field, you can see a list of all available dimensions. If you select a dimension, the selected dimension will be defined as a default dimension for all highlighted accounts.|
+|Dimension Value Code|Shows either a single dimension value or the term (Conflict). If a dimension value is shown in the field, then all highlighted accounts have the same default dimension value for a dimension. If the term (Conflict) is shown in the field, then not all of the highlighted accounts have the same default dimension value for a dimension. By choosing the field, you can see a list of all available dimension values for a dimension. If you select a dimension value, the selected dimension value will be defined as a default dimension value for all highlighted accounts.|
+|Value Posting|Shows either a single value posting rule or the term (Conflict). If a value posting rule is shown in the field, then all highlighted accounts have the same value posting rule for a dimension value. If the term (Conflict) is shown in the field, then not all of the highlighted accounts have the same value posting rule for a dimension value. By choosing the Value Posting field, you can see a list of value posting rules. If you select a value posting rule, it will be applied for all highlighted accounts.|
 
 ### Translating the Names of Dimensions
 When you create a dimension, and especially a shortcut dimension, what you're actually creating is a custom field or column heading. If your business is international, you can provide translations for the name of the dimension. Documents that include the dimension will use the translated name, where applicable.   
@@ -103,6 +159,19 @@ In a document such as a sales order, you can add dimension information for both 
 If you work in a journal instead, you can add dimension information to an entry in the same way, if you have set up shortcut dimensions as fields directly on journal lines.  
 
 You can set up default dimensions for accounts or account types, so that dimensions and dimension values are filled in automatically.
+
+## To view global dimensions in ledger entry windows  
+Global dimensions are always company\-defined and company-named. To see the global dimensions for your company, open the **General Ledger Setup** window.  
+
+In a ledger entry window, you can see whether there are global dimensions for the entries. The two global dimensions differ from the rest of your dimensions because you can use them as filters anywhere in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Chart of Accounts**, and then choose the related link.  
+2.  In the **Chart of Accounts** window, choose the **Ledger Entries** action.  
+3.  To see only the entries that are relevant, set one or more filters on the window.  
+4.  To see all the dimensions for an entry, select the entry, and then choose the **Dimensions** action.  
+
+> [!NOTE]  
+>  The **Ledger Entry Dimensions** window displays the dimensions for one ledger entry at a time. As you scroll through the ledger entries, the content in the **Ledger Entry Dimensions** window changes accordingly.  
 
 ## See Also
 [Business Intelligence](bi.md)  

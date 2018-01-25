@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supply planning, sales demand, replenish
-ms.date: 05/16/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 
 ---
@@ -23,10 +23,7 @@ From sales orders and sales invoices, you can use functions to quickly create pu
 |**Create Purchase Invoice**|From a sales order and from a sales invoice, this function creates a purchase invoice for a selected vendor for all lines or selected lines on the sales document. The full sales quantity is suggested.|
 
 ## To create one or more purchase orders from a sales order
-To create a purchase order for each unavailable item quantity on the sales order, you use the **Create Purchase Orders** function. 
-
-> [!NOTE]  
->   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
+To create a purchase order for each unavailable item quantity on the sales order, you use the **Create Purchase Orders** function.
 
 1. On the Home page, choose the **Ongoing Sales Orders** tile.
 2. Open a sales order that you want to purchase items for.
@@ -39,14 +36,14 @@ To create a purchase order for each unavailable item quantity on the sales order
 
     > [!NOTE]  
 >   You can also change the **Quantity to Purchase** field on grayed lines even though they represent fully available sales quantities.
-5. Choose the **OK** button. 
-    
+5. Choose the **OK** button.
+
     A purchase order is created for each vendor of items on the sales order, including any quantity changes that you made in the **Create Purchase Orders** window.
 7. Proceed to process the purchase order or orders, for example, by editing or adding purchase order lines. For more information, see [How to: Record Purchases](purchasing-how-record-purchases.md).
 
 
 ## To create a purchase invoice from a sales order or sales invoice
-To create a single purchase invoice for one or more lines on a sales document by first selecting which vendor to buy from, you use the **Create Purchase Invoice** function. 
+To create a single purchase invoice for one or more lines on a sales document by first selecting which vendor to buy from, you use the **Create Purchase Invoice** function.
 
 > [!NOTE]  
 >   This function creates a purchase invoice for the exact item quantity on the selected sales document. To change the purchase quantity, you must edit the purchase invoice after it is created.  

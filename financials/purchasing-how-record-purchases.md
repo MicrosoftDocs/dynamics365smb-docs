@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
-ms.date: 08/08/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 
 ---
@@ -28,9 +28,6 @@ When you receive the inventory items, or when the purchased service is completed
 You can easily correct or cancel a posted purchase invoice before you pay the vendor. This is useful if you want to correct a typing mistake or if you want to change the purchase early in the order process. For more information, see [How to: Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). If you have already paid for items on the posted purchase invoice, then you must create a purchase credit memo to reverse the purchase. For more information, see [How to: Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md).
 
 Items can be type **Inventory** or **Service**. For more information, see [How to: Register New Items](inventory-how-register-new-items.md). The purchase invoice process is the same for both item types.
-
-> [!NOTE]  
->   Purchase order functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
 You can fill vendor fields on the purchase invoice in two ways depending on whether the vendor is already registered.
 

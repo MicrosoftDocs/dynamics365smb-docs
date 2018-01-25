@@ -57,7 +57,7 @@ You can assign a default dimension for a specific account. The dimension will be
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Dimensions**, and then choose the related link.  
 2.  In the **Dimensions** window, select the relevant dimension, and then choose the **Account Type Default Dim** action.  
-4.  Fill in a line for each new default dimension that you want to set up. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
+4.  Fill in a line for each new default dimension that you want to set up. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]  
 >  If you want to make a dimension required but you do not want to assign a default value to the dimension, leave the **Dimension Value Code** field blank and then select **Code Mandatory** in the **Value Posting** field.  

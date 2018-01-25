@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, distribution center
-ms.date: 06/02/2017
+ms.date: 01/25/2018
 ms.author: SorenGP
 
 ---

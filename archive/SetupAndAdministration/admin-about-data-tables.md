@@ -53,5 +53,5 @@
 |5700|Stockkeeping Unit|  
   
 ## See Also  
- [How to: Manage Company Configuration in a Worksheet](../how-to-manage-company-configuration-in-a-worksheet.md)   
- [How to: Customize a Package or Worksheet](../how-to-customize-a-package-or-worksheet.md)
+ [Manage Company Configuration in a Worksheet](../how-to-manage-company-configuration-in-a-worksheet.md)   
+ [Customize a Package or Worksheet](../how-to-customize-a-package-or-worksheet.md)

@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Create Tax Registers
+# Create Tax Registers
 The following procedure shows how to create tax registers.  
   
 1.  Choose **Financial Management**, choose **Tax Accounting**, choose **Setup**, choose **Tax Register**s, and then choose **Sections**.  
@@ -64,5 +64,5 @@ The following procedure shows how to create tax registers.
 ## See Also  
  [Tax Accounting](tax-accounting.md)   
  [Tax Registers](tax-registers.md)   
- [How to: Set Up Tax Register Sections](how-to-set-up-tax-register-sections.md)   
+ [Set Up Tax Register Sections](how-to-set-up-tax-register-sections.md)   
  [Collecting Profit Tax Information for Tax Declaration](collecting-profit-tax-information-for-tax-declaration.md)

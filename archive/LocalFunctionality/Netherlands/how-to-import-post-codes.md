@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Import Post Codes
+# Import Post Codes
 You can import a file that specifies post codes for marketing and relationship management activities. The post code data that you import will be saved in the **Post Code Range** table.  
 
 ## To import a post code file  
@@ -29,4 +29,4 @@ Information about the imported post code will be saved in the Post Code Update L
 
 ## See Also  
  [Dutch Post Codes](dutch-post-codes.md)   
- [How to: Import Post Code Updates](how-to-import-post-code-updates.md)
+ [Import Post Code Updates](how-to-import-post-code-updates.md)

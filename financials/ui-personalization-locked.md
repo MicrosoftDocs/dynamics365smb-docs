@@ -27,5 +27,5 @@ The page currently includes the last personalization changes that you made. If y
 [Personalizing Your Workspace](ui-personalization-manage.md)  
 [Managing Personalization](ui-personalization-manage.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[How to: Change the Role Center](change-role.md)  
+[Change the Role Center](change-role.md)  
 [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)  

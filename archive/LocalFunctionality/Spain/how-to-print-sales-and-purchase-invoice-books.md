@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Print Sales and Purchase Invoice Books
+# Print Sales and Purchase Invoice Books
 The **Sales Invoice Book** report and **Purchases Invoice Book** report allow you to check all of the sales and purchase documents created for a specific period.  
 
 Invoices posted from a journal are displayed in these reports. When a sales or purchase general posting journal line is posted, the VAT entry that is created stores information about the customer or vendor.  

@@ -59,5 +59,5 @@ A typical priority level assignment could be as follows:
 For example, if one service item has the repair status **Initial**, linked to the service order status **Pending**, another has the repair status **In Process**, linked to the service order status **In Process**, and a third has the repair status **Spare Part Ordered**, linked to the service order status **On Hold**, the resulting service order status will be **In Process** because this has the highest priority.  
   
 ## See Also  
-[How to: Set Up Statuses for Service Orders and Repairs](service-order-repair-status.md)  
+[Set Up Statuses for Service Orders and Repairs](service-order-repair-status.md)  
 [Setting Up Service Management](service-setup-service.md)  

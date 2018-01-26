@@ -21,11 +21,11 @@ The Einzahlungsschein mit Referenznummer (ESR) electronic payment method is an e
 
 With ESR electronic payments, you can do the following:  
 
-- Send ESR payment slips with unique reference numbers on the invoices. Because of the unique ESR reference numbers, the payments for settlement are automatically applied to the related invoices. For more information, see [How to: Print ESR Invoices](how-to-print-esr-invoices.md).  
+- Send ESR payment slips with unique reference numbers on the invoices. Because of the unique ESR reference numbers, the payments for settlement are automatically applied to the related invoices. For more information, see [Print ESR Invoices](how-to-print-esr-invoices.md).  
 
 - Download the ESR files from the bank daily. The files contain information about all paid invoices.  
 
-- Import the ESR files and create payment lines automatically for each payment. For more information, see [How to: Import ESR Payments](how-to-import-esr-payments.md).  
+- Import the ESR files and create payment lines automatically for each payment. For more information, see [Import ESR Payments](how-to-import-esr-payments.md).  
 
 > [!NOTE]  
 >  Before you can use the ESR module, you must set up the bank, bank account, and file name. You must also specify whether ESR or ESR+ should be used.
@@ -40,8 +40,8 @@ When you set up number series for invoices, you must follow these guidelines:
 
 ## See Also  
  [Swiss Electronic Payments](swiss-electronic-payments.md)   
- [How to: Print ESR Invoices](how-to-print-esr-invoices.md)   
- [How to: Import ESR Payments](how-to-import-esr-payments.md)   
+ [Print ESR Invoices](how-to-print-esr-invoices.md)   
+ [Import ESR Payments](how-to-import-esr-payments.md)   
  [Swiss Electronic Payments Using DTA](swiss-electronic-payments-using-dta.md)   
  [Swiss Electronic Payments Using LSV+](swiss-electronic-payments-using-lsv-.md)   
  [Making Payments](../../payables-make-payments.md)

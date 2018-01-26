@@ -34,7 +34,7 @@ For single cost entries, [!INCLUDE[d365fin](includes/d365fin_md.md)] transfers t
 In the **Cost Register** table, [!INCLUDE[d365fin](includes/d365fin_md.md)] creates an entry with the source transfer from general ledger. The entry records the first and last entry numbers of the general ledger entries that are transferred, in addition to the first and last entry numbers of the cost entries that are created.  
 
 ## See Also  
-[How to: Transfer General Ledger Entries to Cost Entries](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)   
+[Transfer General Ledger Entries to Cost Entries](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)   
 [Criteria for Transferring General Ledger Entries to Cost Entries](finance-criteria-for-transferring-general-ledger-entries-to-cost-entries.md)   
 [Automatic Transfer and Combined Entries](finance-automatic-transfer-combined-entries.md)   
 [Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)  

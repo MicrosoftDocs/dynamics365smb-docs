@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Print Withholding Tax Reports
+# Print Withholding Tax Reports
 The **Withholding Taxes** report displays a list of withholding taxes that are payable to the government.  
 
 ## To print a withholding tax report  
@@ -34,4 +34,4 @@ The **Withholding Taxes** report displays a list of withholding taxes that are p
 3.  Chose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.  
 
 ## See Also  
- [How to: Report VAT to Tax Authorities](../../finance-how-report-vat.md)
+ [Report VAT to Tax Authorities](../../finance-how-report-vat.md)

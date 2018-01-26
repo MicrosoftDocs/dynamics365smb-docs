@@ -37,7 +37,7 @@ The incoming document process can consist of the following main activities:
 
 | To | See |
 | --- | --- |
-| Set up the Incoming Documents feature and set up the OCR service. |[How to: Set Up Incoming Documents](across-how-setup-income-documents.md) |
+| Set up the Incoming Documents feature and set up the OCR service. |[Set Up Incoming Documents](across-how-setup-income-documents.md) |
 | Create incoming document records, attach files, use OCR to turn PDF files into electronic documents, convert electronic documents to document records, audit incoming document records from posted sales and purchase documents. |[Processing Incoming Documents](across-process-income-documents.md) |
 
 ## See Also

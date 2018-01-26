@@ -34,8 +34,8 @@ When you file your BAS electronically, you must perform the following tasks:
 7.  Update BAS with the receipt number received from the ATO.  
 
 ## See Also  
- [How to: Set Up Business Activity Statements](how-to-set-up-business-activity-statements.md)   
- [How to: Export Business Activity Statements](how-to-export-business-activity-statements.md)   
- [How to: Calculate Goods and Services Tax on Prepayments](how-to-calculate-goods-and-services-tax-on-prepayments.md)   
- [How to: Print Goods and Services Tax Sales and Purchase Reports](how-to-print-goods-and-services-tax-sales-and-purchase-reports.md)   
+ [Set Up Business Activity Statements](how-to-set-up-business-activity-statements.md)   
+ [Export Business Activity Statements](how-to-export-business-activity-statements.md)   
+ [Calculate Goods and Services Tax on Prepayments](how-to-calculate-goods-and-services-tax-on-prepayments.md)   
+ [Print Goods and Services Tax Sales and Purchase Reports](how-to-print-goods-and-services-tax-sales-and-purchase-reports.md)   
  [Australia Local Functionality](australia-local-functionality.md)

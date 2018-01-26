@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Print VAT Audit Reports
+# Print VAT Audit Reports
 All vendors must export the data required for auditing in a Content Separated Value (CSV) file format. The following reports comply with this requirement:  
 
 -   **VAT Audit**  report – This report is used for VAT auditing.  

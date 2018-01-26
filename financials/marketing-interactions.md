@@ -31,7 +31,7 @@ You set up an interaction template in the **Interaction Templates** window.
 ## Creating Interactions
 There are two ways of recording interactions:
 
-* You can manually create interactions that are linked to a single contact or to a segment. For more information, see [How to: Create Interactions on Contacts and Segments](marketing-how-create-interactions.md).  
+* You can manually create interactions that are linked to a single contact or to a segment. For more information, see [Create Interactions on Contacts and Segments](marketing-how-create-interactions.md).  
 * You can automatically record interactions when you perform actions in the application, for example, when you print an invoice, or quote. For more information, see [Automatically Record Interactions with Contacts](marketing-auto-record-interactions.md).
 
 ## Viewing and managing Recorded Interactions

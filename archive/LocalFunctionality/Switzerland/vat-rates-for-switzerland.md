@@ -19,8 +19,8 @@
 # VAT Rates for Switzerland
 If VAT rates change, you must use the VAT rate change tool. In earlier versions of [!INCLUDE[navnow](../../includes/navnow_md.md)] you could temporarily use both the old and the new VAT rates for transactions, depending on the shipping dates. This functionality has been deprecated.  
 
-For more information, see [How to: Report VAT to Tax Authorities](../../finance-how-report-vat.md).  
+For more information, see [Report VAT to Tax Authorities](../../finance-how-report-vat.md).  
 
 ## See Also  
  [Swiss Value Added Tax](swiss-value-added-tax.md)   
- [How to: Print Swiss VAT Statements (older version)](how-to-print-swiss-vat-statements-older-version-.md)
+ [Print Swiss VAT Statements (older version)](how-to-print-swiss-vat-statements-older-version-.md)

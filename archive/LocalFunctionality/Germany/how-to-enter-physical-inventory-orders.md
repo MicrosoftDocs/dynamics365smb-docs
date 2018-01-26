@@ -16,12 +16,12 @@
     ms.author: sgroespe
 
 ---
-# How to: Enter Physical Inventory Orders
+# Enter Physical Inventory Orders
 A physical inventory order is a complete document that consists of a physical inventory order header and some physical inventory order lines. The information on a physical inventory header describes how to take the physical inventory. You can fill in the header manually. You can create a physical inventory order and relate it to one or more physical inventory recordings.  
 
 The physical inventory order lines contain the information about the items and their locations. You can create the physical inventory order lines manually, or you can let the program automatically create physical inventory order lines for you. You can do this by using batch jobs.  
 
-Before you can create physical inventory orders you have to set up properties for physical inventory. For more information, see [How to: Set Up Physical Inventory Documents](how-to-set-up-physical-inventory-documents.md).  
+Before you can create physical inventory orders you have to set up properties for physical inventory. For more information, see [Set Up Physical Inventory Documents](how-to-set-up-physical-inventory-documents.md).  
 
 ## To create a physical inventory order  
 
@@ -72,14 +72,14 @@ Both batch jobs will check if there is already a line with the same values in th
 
 You can run the batch job more than once. If there are already existing lines for the physical inventory order, the program will append the new lines at the end.  
 
-For each physical inventory order, you can create one or more physical inventory recordings. There you can document the physical count. For more information, see [How to: Create a Physical Inventory Recording](how-to-create-a-physical-inventory-recording.md).  
+For each physical inventory order, you can create one or more physical inventory recordings. There you can document the physical count. For more information, see [Create a Physical Inventory Recording](how-to-create-a-physical-inventory-recording.md).  
 
 You can compare and document the expected quantities from the physical inventory order lines with the (counted) quantities from the physical inventory recording lines. You can post the physical inventory differences.  
 
 ## See Also  
  [Physical Inventory Documents](physical-inventory-documents.md)   
- [How to: Enter Dimensions for Physical Inventory Orders](how-to-enter-dimensions-for-physical-inventory-orders.md)   
- [How to: View Duplicate Physical Inventory Order Lines](how-to-view-duplicate-physical-inventory-order-lines.md)   
- [How to: Create a Physical Inventory Recording](how-to-create-a-physical-inventory-recording.md)   
- [How to: Calculate Quantity On Hand for a Physical Inventory Order](how-to-calculate-quantity-on-hand-for-a-physical-inventory-order.md)   
- [How to: Post Physical Inventory Orders](how-to-post-physical-inventory-orders.md)
+ [Enter Dimensions for Physical Inventory Orders](how-to-enter-dimensions-for-physical-inventory-orders.md)   
+ [View Duplicate Physical Inventory Order Lines](how-to-view-duplicate-physical-inventory-order-lines.md)   
+ [Create a Physical Inventory Recording](how-to-create-a-physical-inventory-recording.md)   
+ [Calculate Quantity On Hand for a Physical Inventory Order](how-to-calculate-quantity-on-hand-for-a-physical-inventory-order.md)   
+ [Post Physical Inventory Orders](how-to-post-physical-inventory-orders.md)

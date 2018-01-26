@@ -14,8 +14,8 @@
 
 ---
 
-# How to: Allocate Resources
-The key element to service management is the people who supply service. You can set up [!INCLUDE[d365fin](includes/d365fin_md.md)] to assign the appropriate people to the appropriate jobs. Assignments can be based on service zones where the people are located or where the service occurs. In addition, you can group resources together when responding to service requests. For more information, see [How to: Set Up Resource Allocation](service-how-setup-resource-allocation.md).
+# Allocate Resources
+The key element to service management is the people who supply service. You can set up [!INCLUDE[d365fin](includes/d365fin_md.md)] to assign the appropriate people to the appropriate jobs. Assignments can be based on service zones where the people are located or where the service occurs. In addition, you can group resources together when responding to service requests. For more information, see [Set Up Resource Allocation](service-how-setup-resource-allocation.md).
 
 You can allocate resources, for example, technicians, by using the **Dispatch Board**, or from a service order. You can use resource availability to allocate resources to perform the service tasks in the orders or quotes.
 
@@ -138,5 +138,5 @@ You can cancel resource allocations for service tasks without reallocating the t
     > In the **Status** field, the **Reallocation Needed** option is automatically selected. If the repair status of the service item in the entry is **Initial**, the repair status is changed to **Referred**, that is, no service has been started. If the repair status is **In Process**, it is changed to **Partly Serviced**, that is, some service has been completed.
 
 ## See Also
-[How to: Set Up Resource Allocation](service-how-setup-resource-allocation.md)  
+[Set Up Resource Allocation](service-how-setup-resource-allocation.md)  
 [Allocation Status and Repair Status](service-allocation-status-and-repair-status.md)  

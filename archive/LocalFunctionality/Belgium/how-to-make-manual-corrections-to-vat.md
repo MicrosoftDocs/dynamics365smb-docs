@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Make Manual Corrections to VAT
+# Make Manual Corrections to VAT
 You can make corrections to posted VAT entries without posting the correction into the VAT or general ledger entries. This is useful if you need to make a change to the total sales or purchases VAT amounts without changing the VAT base. For example, you can manually correct VAT if you receive an invoice from a vendor who has calculated VAT incorrectly.  
 
 ## To make manual corrections to VAT  
@@ -44,5 +44,5 @@ You can make corrections to posted VAT entries without posting the correction in
 
 ## See Also  
  [Belgian VAT](belgian-vat.md)   
- [How to: Print Periodic VAT Reports](how-to-print-periodic-vat-reports.md)   
- [How to: Set Up Non-Deductible VAT](how-to-set-up-non-deductible-vat.md)
+ [Print Periodic VAT Reports](how-to-print-periodic-vat-reports.md)   
+ [Set Up Non-Deductible VAT](how-to-set-up-non-deductible-vat.md)

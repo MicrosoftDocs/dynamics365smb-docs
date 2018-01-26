@@ -25,4 +25,4 @@ In Iceland, in accordance with legislation, [!INCLUDE[navnow](../../includes/nav
 - Purchase credit memos  
 
 ## See Also  
-[How to: Invoice Sales](../../sales-how-invoice-sales.md)
+[Invoice Sales](../../sales-how-invoice-sales.md)

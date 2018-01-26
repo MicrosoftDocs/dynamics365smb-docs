@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Print Income Statements
+# Print Income Statements
 You can use the **Income Statement** report to view the company’s annual income statement.  
 
 This is a legal report that is required for auditing accounts. This report displays the details of revenues and expenses for the current year and the previous year.  
@@ -34,9 +34,9 @@ This is a legal report that is required for auditing accounts. This report displ
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 
 ## See Also  
- [How to: Set Up Business Activity Statements](how-to-set-up-business-activity-statements.md)   
- [How to: Calculate and Post Withholding Tax Settlements](how-to-calculate-and-post-withholding-tax-settlements.md)   
- [How to: View Withholding Tax Entries](how-to-view-withholding-tax-entries.md)   
- [How to: Compare Bank Cash Flow](how-to-compare-bank-cash-flow.md)   
- [How to: Print Balance Sheet Reports](how-to-print-balance-sheet-reports.md)   
- [How to: Print Goods and Service Tax Settlement Reports](how-to-print-goods-and-service-tax-settlement-reports.md) 
+ [Set Up Business Activity Statements](how-to-set-up-business-activity-statements.md)   
+ [Calculate and Post Withholding Tax Settlements](how-to-calculate-and-post-withholding-tax-settlements.md)   
+ [View Withholding Tax Entries](how-to-view-withholding-tax-entries.md)   
+ [Compare Bank Cash Flow](how-to-compare-bank-cash-flow.md)   
+ [Print Balance Sheet Reports](how-to-print-balance-sheet-reports.md)   
+ [Print Goods and Service Tax Settlement Reports](how-to-print-goods-and-service-tax-settlement-reports.md) 

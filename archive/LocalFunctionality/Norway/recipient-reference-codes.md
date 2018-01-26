@@ -38,4 +38,4 @@ The recipient reference codes are described in the following table.
 |**%11**|The Kunde ID number from the vendor ledger entry.|  
 
 ## See Also  
- [How to: Set Up Vendors for Remittance](how-to-set-up-vendors-for-remittance.md)
+ [Set Up Vendors for Remittance](how-to-set-up-vendors-for-remittance.md)

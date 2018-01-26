@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Export Migration Tables
+# Export Migration Tables
 After you have determined the tables for which you want to transfer customer data, you export the files.  
   
 ### To export data migration files  
@@ -35,4 +35,4 @@ After you have determined the tables for which you want to transfer customer dat
  If the table is empty, the resulting data migration file contains empty cells for the fields you selected when you chose or created migration tables for your new company. If the selected data migration table contains data, it will be exported.  
   
 ## See Also  
- [How to: Import Configuration Packages](../how-to-import-configuration-packages.md)
+ [Import Configuration Packages](../how-to-import-configuration-packages.md)

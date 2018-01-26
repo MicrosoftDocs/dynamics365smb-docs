@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Generate Electronic Invoices
+# Generate Electronic Invoices
 In [!INCLUDE[navnow](../../includes/navnow_md.md)], after you post a sales invoice you must generate an electronic invoice that will be sent to the customer. You can also export the electronic invoice as an XML file, which you can save to a specified location.  
 
 The following procedure describes how to generate electronic invoices for sales invoices, but the same steps also apply to service invoices and credit memos.  
@@ -34,6 +34,6 @@ The following procedure describes how to generate electronic invoices for sales 
 >  ADD INCLUDE<!--[!INCLUDE[bp_refimplementation](../../includes/bp_refimplementation_md.md)]-->  
 
 ## See Also  
- [How to: Set Up Electronic Invoicing](how-to-set-up-electronic-invoicing.md)   
+ [Set Up Electronic Invoicing](how-to-set-up-electronic-invoicing.md)   
   [Electronic Invoicing](electronic-invoicing.md)  
   [Mexico Local Functionality](mexico-local-functionality.md)

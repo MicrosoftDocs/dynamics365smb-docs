@@ -58,9 +58,9 @@ The percentage withheld is specified in **WHT Posting Setup**. The amount to be 
 Ensure that a valid combination of **General Business** and **General Product PostingGroups** has been established for vendors for whom you need to withhold tax, other than for non-ABN.  
 
 ## See Also  
- [How to: Set Up Withholding Tax](how-to-set-up-withholding-tax.md)   
- [How to: Set Up Vendors Without ABN for Calculating the Withholding Tax](how-to-set-up-vendors-without-abn-for-calculating-the-withholding-tax.md)   
- [How to: Set Up Revenue Types for Withholding Tax](how-to-set-up-revenue-types-for-withholding-tax.md)   
- [How to: Calculate and Post Withholding Tax Settlements](how-to-calculate-and-post-withholding-tax-settlements.md)   
- [How to: View Withholding Tax Entries](how-to-view-withholding-tax-entries.md)   
+ [Set Up Withholding Tax](how-to-set-up-withholding-tax.md)   
+ [Set Up Vendors Without ABN for Calculating the Withholding Tax](how-to-set-up-vendors-without-abn-for-calculating-the-withholding-tax.md)   
+ [Set Up Revenue Types for Withholding Tax](how-to-set-up-revenue-types-for-withholding-tax.md)   
+ [Calculate and Post Withholding Tax Settlements](how-to-calculate-and-post-withholding-tax-settlements.md)   
+ [View Withholding Tax Entries](how-to-view-withholding-tax-entries.md)   
  [Australia Local Functionality](australia-local-functionality.md)

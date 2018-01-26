@@ -15,13 +15,13 @@ ms.date: 01/12/2018
 ms.author: SorenGP
 
 ---
-# How to: Set Up Item Units of Measure
+# Set Up Item Units of Measure
 You can set up multiple units of measure for an item so that you can assign units of measure to the item for the following purposes:
 
 - Assign a base unit of measure on the item’s item card to define how it is stored in inventory and to serve as the conversion basis for alternate units of measure.
 - Assign alternate units of measure to purchase, production, or sales documents to specify how many units of the base unit of measure you handle at a time in those processes. For example, you may buy the item on pallets and only use single pieces in your production.
 
-If an item is stocked in one unit of measure but produced in another, a production order is created that uses a manufacturing batch unit of measure to calculate the correct quantity of the components during the **Refresh Production Order** batch job. An example of a manufacturing batch unit of measure calculation is when a manufactured item is stocked in pieces but produced in tons. For more information, see [How to: Work with Manufacturing Batch Units of Measure](production-how-to-use-the-manufacturing-batch-unit-of-measure.md).
+If an item is stocked in one unit of measure but produced in another, a production order is created that uses a manufacturing batch unit of measure to calculate the correct quantity of the components during the **Refresh Production Order** batch job. An example of a manufacturing batch unit of measure calculation is when a manufactured item is stocked in pieces but produced in tons. For more information, see [Work with Manufacturing Batch Units of Measure](production-how-to-use-the-manufacturing-batch-unit-of-measure.md).
 
 ## To set up a unit of measure
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.
@@ -33,7 +33,7 @@ If an item is stocked in one unit of measure but produced in another, a producti
 7. In the **Qty. per Unit of Measure** field, enter how many units of the base unit of measure the new unit of measure contains.
 8. Repeat steps 5 through 7 to set up all the alternate units of measure that you want to use in different processes for this item.
 
-You can now use the alternate units of measure on purchase, production, and sales documents. For more information, see How to: Enter Default Units of Measure Codes for Purchase Transactions and Sales Transactions or How to: Use the Manufacturing Batch Unit of Measure.
+You can now use the alternate units of measure on purchase, production, and sales documents. For more information, see Enter Default Units of Measure Codes for Purchase Transactions and Sales Transactions or Use the Manufacturing Batch Unit of Measure.
 
 ## To set up unit of measure translations
 When you sell items to foreign customers, you may want to specify the unit of measure in the customer’s language. You can do this after you have set up the necessary unit of measure translations.
@@ -54,7 +54,7 @@ If you usually buy or sell in units different from the base unit of measure, you
 5. Select the code you want to set up as the default unit of measure for sales or purchasing respectively, and then choose the **OK** button.
 
 ## See Also
-[How to: Work with Manufacturing Batch Units of Measure](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)  
+[Work with Manufacturing Batch Units of Measure](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)  
 [Managing Inventory](inventory-manage-inventory.md)  
 [Managing Purchasing](purchasing-manage-purchasing.md)  
 [Managing Sales](sales-manage-sales.md)    

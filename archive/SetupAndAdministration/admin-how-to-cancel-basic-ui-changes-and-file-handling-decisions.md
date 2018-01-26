@@ -15,15 +15,15 @@
     ms.author: sgroespe
 
 ---
-# How to: Cancel Basic UI Changes and File Handling Decisions
+# Cancel Basic UI Changes and File Handling Decisions
 You cancel you basic UI changes and decisions for handling of files and automation objects by opening the **Reset User-Specified Settings** window from your Role Center.  
   
- As basic types of UI personalization, you can change the size and position of any window, the width of columns, and the height of column headers, and you can change the sorting of data in columns. For more information, see [How to: Make Basic UI Changes](../how-to-make-basic-ui-changes.md).  
+ As basic types of UI personalization, you can change the size and position of any window, the width of columns, and the height of column headers, and you can change the sorting of data in columns. For more information, see [Make Basic UI Changes](../how-to-make-basic-ui-changes.md).  
   
- You also perform a basic type of personalization when you select whether to run, save, or cancel external files by default and whether to allow automation objects by default. For more information, see [How to: Specify How to Handle External Files and Automation Objects](../how-to-specify-how-to-handle-external-files-and-automation-objects.md).  
+ You also perform a basic type of personalization when you select whether to run, save, or cancel external files by default and whether to allow automation objects by default. For more information, see [Specify How to Handle External Files and Automation Objects](../how-to-specify-how-to-handle-external-files-and-automation-objects.md).  
   
 > [!NOTE]  
->  You perform your main UI personalization in the **Customize** window. The **Reset User-Specified Settings** function does not cancel changes that you make in the **Customize** window. For more information, see [How to: Cancel UI Personalization](../how-to-cancel-ui-personalization.md).  
+>  You perform your main UI personalization in the **Customize** window. The **Reset User-Specified Settings** function does not cancel changes that you make in the **Customize** window. For more information, see [Cancel UI Personalization](../how-to-cancel-ui-personalization.md).  
   
 ### To cancel basic UI changes that you have made to window sizes, column sizes, or column sorting  
   
@@ -56,8 +56,8 @@ You cancel you basic UI changes and decisions for handling of files and automati
  All decisions about how to run automation objects that you have ever made under your current user logon, or since you last chose the **Reset automation decisions** button, are canceled. The file handling behavior is reset to the default configuration for your profile.The next time [!INCLUDE[d365fin](includes/d365fin_md.md)] must run an automation object of any type, you are presented with a dialog with the options, **Always allow** and **Never allow**.  
   
 ## See Also  
- [How to: Make Basic UI Changes](../how-to-make-basic-ui-changes.md)   
- [How to: Specify How to Handle External Files and Automation Objects](../how-to-specify-how-to-handle-external-files-and-automation-objects.md)   
+ [Make Basic UI Changes](../how-to-make-basic-ui-changes.md)   
+ [Specify How to Handle External Files and Automation Objects](../how-to-specify-how-to-handle-external-files-and-automation-objects.md)   
  PERSONALIZATION Personalize the User Interface   
  Delete Profile Configuration   
  [Customize the User Interface](../customize-the-user-interface.md)   

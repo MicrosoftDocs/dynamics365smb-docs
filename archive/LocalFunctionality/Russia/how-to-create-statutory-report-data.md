@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Create Statutory Report Data
+# Create Statutory Report Data
 After you have defined the statutory reports that are required by the tax authorities, you can create the report data and generate files that you can submit to the authorities.  
 
 ## To create report data  
@@ -79,4 +79,4 @@ Now, you can submit the report. For more information, see [Statutory Reporting D
   
 ## See Also  
  [Statutory Reports](statutory-reports.md)   
- [How to: Set Up Statutory Reports](how-to-set-up-statutory-reports.md)
+ [Set Up Statutory Reports](how-to-set-up-statutory-reports.md)

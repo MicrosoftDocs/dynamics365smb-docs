@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Adjust Exchange Rates
+# Adjust Exchange Rates
 If you have taxable sales in a foreign currency, you must use the official rate for VAT currency conversion as set by the Federal Tax Administration.  
 
 If these rates do not match the currency rates used in the purchase or sales invoices, you will have to adjust the VAT rates with a batch job later. These adjustments can only be run using an authorized VAT rate.  
@@ -48,4 +48,4 @@ For more information about VAT and foreign currencies, see the [ESTV](http://go.
 ## See Also  
  [Swiss Value Added Tax](swiss-value-added-tax.md)   
  [VAT Rates for Switzerland](vat-rates-for-switzerland.md)   
-[How to: Update Currency Exchange Rates](../../finance-how-update-currencies.md)
+[Update Currency Exchange Rates](../../finance-how-update-currencies.md)

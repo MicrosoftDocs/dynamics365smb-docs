@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Save Filters as Views
+# Save Filters as Views
 After you have set your preferred filters in a list place, such as the **Sales Orders** window, you can save the list as a special view that you can access from the navigation pane. This is a form of personalization that defines how data is displayed, unlike customization, which defines how user interface components are displayed.  
   
 ### To save a filter to create a View  
@@ -34,4 +34,4 @@ After you have set your preferred filters in a list place, such as the **Sales O
   
 ## See Also  
  [Enter Criteria in Filters](../FullExperience/enter-criteria-in-filters.md)   
- [How to: Set Filters](../FullExperience/how-to-set-filters.md)
+ [Set Filters](../FullExperience/how-to-set-filters.md)

@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Test Remittance Payments
+# Test Remittance Payments
 After you have set up remittance payments and generated suggestions, you can test the payment journal lines for errors before posting them.  
 
 To test the payment journal lines, you can use the **Remittance Test** report. This report prints an overview of all journal lines together with any errors, such as missing fields or incorrect bank accounts.  
@@ -32,17 +32,17 @@ If a warning is printed in the test report, you cannot transfer the payments to 
 
 ## See Also  
  [Electronic Payments to Vendors in Norway](electronic-payments-to-vendors-in-norway.md)   
- [How to: Set Up Remittance Agreements](how-to-set-up-remittance-agreements.md)   
- [How to: Create Remittance Accounts](how-to-create-remittance-accounts.md)   
- [How to: Set Up Vendors for Remittance](how-to-set-up-vendors-for-remittance.md)   
+ [Set Up Remittance Agreements](how-to-set-up-remittance-agreements.md)   
+ [Create Remittance Accounts](how-to-create-remittance-accounts.md)   
+ [Set Up Vendors for Remittance](how-to-set-up-vendors-for-remittance.md)   
  [Recipient Reference Codes](recipient-reference-codes.md)   
- [How to: Create Remittance Suggestions](how-to-create-remittance-suggestions.md)   
- [How to: Create Manual Remittance Payments](how-to-create-manual-remittance-payments.md)   
- [How to: Set Up Payment Line Information](how-to-set-up-payment-line-information.md)   
- [How to: Export Remittance Payments](how-to-export-remittance-payments.md)   
+ [Create Remittance Suggestions](how-to-create-remittance-suggestions.md)   
+ [Create Manual Remittance Payments](how-to-create-manual-remittance-payments.md)   
+ [Set Up Payment Line Information](how-to-set-up-payment-line-information.md)   
+ [Export Remittance Payments](how-to-export-remittance-payments.md)   
  [Types of Payment Returns Files](types-of-payment-returns-files.md)   
- [How to: Import Payment Return Data](how-to-import-payment-return-data.md)   
- [How to: Delete Remittance Payment Orders](how-to-delete-remittance-payment-orders.md)   
+ [Import Payment Return Data](how-to-import-payment-return-data.md)   
+ [Delete Remittance Payment Orders](how-to-delete-remittance-payment-orders.md)   
  [Remittance Errors](remittance-errors.md)   
- [How to: View Remittance Error Codes](how-to-view-remittance-error-codes.md)   
- [How to: Cancel Payments](how-to-cancel-payments.md)
+ [View Remittance Error Codes](how-to-view-remittance-error-codes.md)   
+ [Cancel Payments](how-to-cancel-payments.md)

@@ -16,8 +16,8 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Payment Statuses
-To use payment management, you must set up payment statuses to define payment document progress levels. You must define a set of statuses for each payment class. For more information, see [How to: Set Up Payment Classes](how-to-set-up-payment-classes.md).  
+# Set Up Payment Statuses
+To use payment management, you must set up payment statuses to define payment document progress levels. You must define a set of statuses for each payment class. For more information, see [Set Up Payment Classes](how-to-set-up-payment-classes.md).  
 
 ## To set up payment statuses  
 
@@ -40,9 +40,9 @@ To use payment management, you must set up payment statuses to define payment do
 
 ## See Also  
  [Payment Management](payment-management.md)   
- [How to: Set Up Payment Classes](how-to-set-up-payment-classes.md)   
- [How to: Set Up Payment Addresses](how-to-set-up-payment-addresses.md)   
- [How to: Create Payment Slips](how-to-create-payment-slips.md)   
- [How to: Post Payment Slips](how-to-post-payment-slips.md)   
- [How to: Archive Payment Slips](how-to-archive-payment-slips.md)   
- [How to: Export or Import Payment Management Setup Parameters](how-to-export-or-import-payment-management-setup-parameters.md)
+ [Set Up Payment Classes](how-to-set-up-payment-classes.md)   
+ [Set Up Payment Addresses](how-to-set-up-payment-addresses.md)   
+ [Create Payment Slips](how-to-create-payment-slips.md)   
+ [Post Payment Slips](how-to-post-payment-slips.md)   
+ [Archive Payment Slips](how-to-archive-payment-slips.md)   
+ [Export or Import Payment Management Setup Parameters](how-to-export-or-import-payment-management-setup-parameters.md)

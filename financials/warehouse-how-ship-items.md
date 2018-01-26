@@ -15,18 +15,18 @@
     ms.author: sgroespe
 
 ---
-# How to: Ship Items
+# Ship Items
 When you ship items from a warehouse that is not set up for warehouse shipment processing, you simply record the shipment on the related business document, such as a sales order, service order, purchase return order, or outbound transfer order.
 
 When you ship items from a warehouse that is set up warehouse shipment processing, you can ship items only on the basis of source documents that other company units have released to the warehouse for action.
 
 > [!NOTE]
-> If your warehouse uses cross-docking and bins, for each line, you can view the quantity of items that have been placed in the cross-dock bins. The program calculates these quantities automatically whenever the fields on the shipment are updated. If they are the items that apply to the shipment you are preparing, you can create a pick for all the lines and then complete the shipment. For more information, see [How to: Cross-Dock Items](warehouse-how-to-cross-dock-items.md).
+> If your warehouse uses cross-docking and bins, for each line, you can view the quantity of items that have been placed in the cross-dock bins. The program calculates these quantities automatically whenever the fields on the shipment are updated. If they are the items that apply to the shipment you are preparing, you can create a pick for all the lines and then complete the shipment. For more information, see [Cross-Dock Items](warehouse-how-to-cross-dock-items.md).
 
 ## To ship items with a sales order
 The following describes how to receive items with a purchase order. The steps are similar for purchase return orders, service orders, and outbound transfer orders.  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.
-2. Open an existing sales order, or create a new one. For more information, see [How to: Sell Products](sales-how-sell-products.md).
+2. Open an existing sales order, or create a new one. For more information, see [Sell Products](sales-how-sell-products.md).
 3. In the **Qty. to Ship** field, enter the received quantity.
 
     The value in the **Qty. Shipped** field is updated. If this is a partial shipment, then the value is lower than the value in the **Quantity** field.
@@ -87,12 +87,12 @@ Typically, a warehouse worker responsible for picking creates a pick document, o
     The **Qty. to Ship** field and the **Document Status** field on the header of the shipment document are updated. The items you have picked are no longer available for picking for other shipments or for internal operations.
 7. Print your shipping documents, prepare the shipment packages, and then post the shipment.
 
-For more information about picking for warehouse shipments, see [How to: Pick Items for Warehouse Shipment](warehouse-how-to-pick-items-for-warehouse-shipment.md).
+For more information about picking for warehouse shipments, see [Pick Items for Warehouse Shipment](warehouse-how-to-pick-items-for-warehouse-shipment.md).
 
-You can also use the pick worksheet to make several pick instructions into one instruction (for several shipments) and thereby improve the efficiency of picking in the warehouse. For more information, see [How to: Plan Pick in Worksheets](warehouse-how-to-plan-picks-in-worksheets.md).
+You can also use the pick worksheet to make several pick instructions into one instruction (for several shipments) and thereby improve the efficiency of picking in the warehouse. For more information, see [Plan Pick in Worksheets](warehouse-how-to-plan-picks-in-worksheets.md).
 
 > [!NOTE]
-> If you are waiting for particular items to arrive at the warehouse, and you use cross-dock functionality, then [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates on each shipment or pick worksheet line the quantity of the item that is in the cross-dock bin. It updates this field each time you leave and open the shipment document or worksheet. For more information, see [How to: Cross-Dock Items](warehouse-how-to-cross-dock-items.md).
+> If you are waiting for particular items to arrive at the warehouse, and you use cross-dock functionality, then [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates on each shipment or pick worksheet line the quantity of the item that is in the cross-dock bin. It updates this field each time you leave and open the shipment document or worksheet. For more information, see [Cross-Dock Items](warehouse-how-to-cross-dock-items.md).
 
 ## See Also  
 [Warehouse Management](warehouse-manage-warehouse.md)  

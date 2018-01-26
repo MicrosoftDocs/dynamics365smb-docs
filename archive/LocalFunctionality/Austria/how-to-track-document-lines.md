@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Track Document Lines
+# Track Document Lines
 You can use the document tracking to view documents that are related to sales order lines and purchase order lines for orders and archived orders. You can also see an overview of documents related to order lines. This helps you to identify documents used to process orders.  
 
 You can also track document lines using the following:  
@@ -49,7 +49,7 @@ The following procedure describes how to track document lines from sales orders,
 
 ## See Also  
  [Enhanced Document Management](enhanced-document-management.md)   
- [How to: Set Up Automatic Archiving of Documents](how-to-set-up-automatic-archiving-of-documents.md)   
- [How to: Archive Blanket Orders](how-to-archive-blanket-orders.md)   
- [How to: Create an Order from an Archived Blanket Order](how-to-create-an-order-from-an-archived-blanket-order.md)   
- [How to: Delete Archived Blanket Orders](how-to-delete-archived-blanket-orders.md)
+ [Set Up Automatic Archiving of Documents](how-to-set-up-automatic-archiving-of-documents.md)   
+ [Archive Blanket Orders](how-to-archive-blanket-orders.md)   
+ [Create an Order from an Archived Blanket Order](how-to-create-an-order-from-an-archived-blanket-order.md)   
+ [Delete Archived Blanket Orders](how-to-delete-archived-blanket-orders.md)

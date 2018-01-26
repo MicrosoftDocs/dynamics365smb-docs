@@ -33,5 +33,5 @@ In the ADD INCLUDE<!--[!INCLUDE[nav_web](../../includes/nav_phone_md.md)]-->, yo
 |@man*|Starts with and case insensitive|All records that start with **man**.|  
   
 ## See Also  
- [How to: Use Quick Filter on Pages](../FullExperience/how-to-use-quick-filter-on-pages.md)   
+ [Use Quick Filter on Pages](../FullExperience/how-to-use-quick-filter-on-pages.md)   
  [Introducing the Microsoft Dynamics NAV Universal App](../FullExperience/Introducing%20the%20Microsoft%20Dynamics%20NAV%20Universal%20App.md)

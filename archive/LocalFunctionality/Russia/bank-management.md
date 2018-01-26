@@ -40,4 +40,4 @@ In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can create bank director
 |**Bank Account Card**|This report contains information about bank operations.|  
 
 ## See Also  
- [How to: Set Up a Bank Payment Order](how-to-set-up-a-bank-payment-order.md)
+ [Set Up a Bank Payment Order](how-to-set-up-a-bank-payment-order.md)

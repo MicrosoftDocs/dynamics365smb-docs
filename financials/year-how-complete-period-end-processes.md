@@ -21,7 +21,7 @@ ms.author: jswymer
 ## General Ledger
 * Specify system-wide and user-specific posting periods.  
 
-    This specifies the dates between which you allow posting. Depending on your business, you may want to allow posting at the start of the period, or toward the end. For more information, see [How to: Specify Posting Periods](finance-how-specify-posting-periods.md).  
+    This specifies the dates between which you allow posting. Depending on your business, you may want to allow posting at the start of the period, or toward the end. For more information, see [Specify Posting Periods](finance-how-specify-posting-periods.md).  
 * Make all necessary G/L adjustments.  
 * Update and post Recurring Journals.  
   <!--* Process Consolidations-->

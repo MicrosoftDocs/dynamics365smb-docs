@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: View and Print Account Turnover Information
+# View and Print Account Turnover Information
 [!INCLUDE[navnow](../../includes/navnow_md.md)] enables you to view account turnover information in correspondence with other accounts.  
 
 ## To view account turnover information  

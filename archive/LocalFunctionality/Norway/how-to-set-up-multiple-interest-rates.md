@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Multiple Interest Rates
+# Set Up Multiple Interest Rates
 You can calculate finance charges with multiple interest rates for a specific period. The interest calculation is similar for all financial charges, with variation only in the rate of interest for a specific period.  
 
 For example, you can charge customers accordingly if they pay late.  
@@ -42,4 +42,4 @@ For example, you can charge customers accordingly if they pay late.
 When you issue a finance charge memo, the memo shows the finance charges with multiple interest rates for a specific time period. The memo also contains the contact details of the customer, the company issuing the memo, the additional amount, and the total amount. The opening entry on the memo is displayed in bold. The finance charges are calculated with multiple interest rates for a specific time period and are printed after the opening entry of the memo.  
 
 ## See Also  
- [How to: Collect Outstanding Balances](../../receivables-collect-outstanding-balances.md)
+ [Collect Outstanding Balances](../../receivables-collect-outstanding-balances.md)

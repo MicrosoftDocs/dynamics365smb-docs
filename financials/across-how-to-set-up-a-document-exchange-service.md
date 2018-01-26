@@ -13,7 +13,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up a Document Exchange Service
+# Set Up a Document Exchange Service
 You use an external service provider to exchange electronic documents with your trading partners. For more information, see [Exchanging Data Electronically](across-data-exchange.md).  
 
 ## To set up a document exchange service  

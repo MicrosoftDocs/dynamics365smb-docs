@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Non-Deductible VAT
+# Set Up Non-Deductible VAT
 You can calculate VAT amounts for specific types of expenses which can be partially declared as VAT. For example, in the **G/L Account Card** window, if you enter 75 percent in the **% Non-Deductible VAT** field, then 75 percent of the regular VAT amount is considered an additional cost and will be added to the net amount during posting. The remaining 25 percent will be posted as regular VAT.  
 
 > [!NOTE]  
@@ -31,4 +31,4 @@ You can calculate VAT amounts for specific types of expenses which can be partia
 
 ## See Also  
  [Belgian VAT](belgian-vat.md)   
- [How to: Print Periodic VAT Reports](how-to-print-periodic-vat-reports.md)
+ [Print Periodic VAT Reports](how-to-print-periodic-vat-reports.md)

@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Domiciliations
+# Set Up Domiciliations
 Before you can use electronic banking for domiciliations, you must enter the customer's domiciliation number and preferred bank account.  
 
 > [!NOTE]  
@@ -37,7 +37,7 @@ Before you can use electronic banking for domiciliations, you must enter the cus
 
 ## See Also  
  [Direct Debit Using Domiciliation](direct-debit-using-domiciliation.md)   
- [How to: Generate Domiciliation Suggestions](how-to-generate-domiciliation-suggestions.md)   
- [How to: Test Domiciliations](how-to-test-domiciliations.md)   
- [How to: Edit and Delete Domiciliation Lines](how-to-edit-and-delete-domiciliation-lines.md)   
- [How to: Export and Post Domiciliations](how-to-export-and-post-domiciliations.md)
+ [Generate Domiciliation Suggestions](how-to-generate-domiciliation-suggestions.md)   
+ [Test Domiciliations](how-to-test-domiciliations.md)   
+ [Edit and Delete Domiciliation Lines](how-to-edit-and-delete-domiciliation-lines.md)   
+ [Export and Post Domiciliations](how-to-export-and-post-domiciliations.md)

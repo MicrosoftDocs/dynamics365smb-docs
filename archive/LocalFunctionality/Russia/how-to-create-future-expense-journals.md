@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Create Future Expense Journals
+# Create Future Expense Journals
 Future expense journals are used to post expenses to a special account on a monthly basis. These future expenses are later included as expenses. VAT is deducted when future expenses are included in current expenses.  
 
 You must select **Future Expenses** in the **Type** field of the **General Journal Templates** window. In addition, be sure you select the **Recurring** and **Copy VAT Setup to Jnl. Lines** check boxes in the **General. Journal Templates** window.  
@@ -25,7 +25,7 @@ You must select **Future Expenses** in the **Type** field of the **General Journ
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Posting Setup**, and then choose the related link.
 
-    Use the **VAT Posting Setup** window to create VAT posting groups. For more information, see [How to: Report VAT to Tax Authorities](../../finance-how-report-vat.md).  
+    Use the **VAT Posting Setup** window to create VAT posting groups. For more information, see [Report VAT to Tax Authorities](../../finance-how-report-vat.md).  
 2.  On the **Settlement** FastTab, in the **VAT Settlement Template** field, select a template.  
 3.  Select a batch in the **VAT Settlement Batch** field. This determines the batch where future expenses and VAT will be produced.  
 4.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoices**, and then choose the related link.
@@ -65,5 +65,5 @@ You must select **Future Expenses** in the **Type** field of the **General Journ
 The amount entered in the **Amount** field will be transferred from the Future Expenses account to the Current Expenses account. VAT will be calculated according to VAT setup (percentage) on the basis of the posted amount, and VAT deduction (realized VAT) will be posted.  
 
 ## See Also  
-  [How to: Set Up a Future Expense Card](how-to-set-up-a-future-expense-card.md)  
+  [Set Up a Future Expense Card](how-to-set-up-a-future-expense-card.md)  
   [Fixed Assets](../../fa-manage.md)

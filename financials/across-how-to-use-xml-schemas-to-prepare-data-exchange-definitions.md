@@ -13,12 +13,12 @@
     ms.author: sgroespe
 
 ---
-# How to: Use XML Schemas to Prepare Data Exchange Definitions
+# Use XML Schemas to Prepare Data Exchange Definitions
 To enable import/export of data in XML files through the data exchange framework in [!INCLUDE[d365fin](includes/d365fin_md.md)], you can use XML schemas to define which data elements you want to exchange with [!INCLUDE[d365fin](includes/d365fin_md.md)]. You perform this work in the **XML Schema Viewer** window by loading the XML schema file, selecting the relevant data elements, and then initializing either a data exchange definition or an XMLport.  
 
  When you have defined which data elements to include based on the XML schema, you can use the **Generate XMLport** action to create the XMLport object.  
 
- Alternatively, you can use the **Generate Data Exchange Definition** action to initialize a data exchange definition based on the selected data elements, which you then complete in the Data Exchange Framework. This creates a record in the **Posting Exchange Definition** window where you continue by defining which elements in the file map to which fields in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [How to: Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).  
+ Alternatively, you can use the **Generate Data Exchange Definition** action to initialize a data exchange definition based on the selected data elements, which you then complete in the Data Exchange Framework. This creates a record in the **Posting Exchange Definition** window where you continue by defining which elements in the file map to which fields in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).  
 
  This topic contains the following procedures:  
 
@@ -104,7 +104,7 @@ To enable import/export of data in XML files through the data exchange framework
 
 4.  In the **XML Schema Viewer** window, on the **Home** tab, in the **Process** group, choose **Generate Data Exchange Definition**.  
 
- A data exchange definition is created in the **Posting Exchange Definition** window, which you can complete by specifying which elements in the file map to which fields in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [How to: Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).  
+ A data exchange definition is created in the **Posting Exchange Definition** window, which you can complete by specifying which elements in the file map to which fields in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).  
 
 > [!NOTE]  
 >  You can also use the **Get File Structure** function from the **Posting Exchange Definition** window, which uses the functionality of the **XML Schema Viewer** window to prefill the **Column Definitions** TastTab.  
@@ -124,7 +124,7 @@ To enable import/export of data in XML files through the data exchange framework
 6. Import the new XMLport into the [!INCLUDE[d365fin](includes/d365fin_md.md)] development environment and compile it.
 
 ## See Also  
-[How to: Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md)   
-[How to: Export Payments to a Bank File](payables-how-export-payments-bank-file.md)   
+[Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md)   
+[Export Payments to a Bank File](payables-how-export-payments-bank-file.md)   
 [Collecting Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)   
 [About the Data Exchange Framework](across-about-the-data-exchange-framework.md)

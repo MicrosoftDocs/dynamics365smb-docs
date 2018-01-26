@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Customize FactBoxes
+# Customize FactBoxes
 You can add or remove FactBoxes in the FactBox pane with the **Customize** dialog box. You use FactBoxes to see information that relates to the record that you have selected in the list or opened in a task page. You can select which FactBoxes to display in your FactBox pane. You can also customize FactBoxes to display only the fields that you need.  
   
 > [!NOTE]  
@@ -52,7 +52,7 @@ You can add or remove FactBoxes in the FactBox pane with the **Customize** dialo
 -   Choose the **Restore Defaults** button, and then choose the **OK** button.  
   
     > [!NOTE]  
-    >  All the FastBox Pane customization that you have ever made for this page under your current user logon or since you last used the **Restore Defaults** button are canceled. The FactBox Pane is reset to the default configuration for your profile. For more information, see [How to: Cancel UI Personalization](../how-to-cancel-ui-personalization.md).  
+    >  All the FastBox Pane customization that you have ever made for this page under your current user logon or since you last used the **Restore Defaults** button are canceled. The FactBox Pane is reset to the default configuration for your profile. For more information, see [Cancel UI Personalization](../how-to-cancel-ui-personalization.md).  
   
 ## Customizing FactBoxes  
   
@@ -75,14 +75,14 @@ You can add or remove FactBoxes in the FactBox pane with the **Customize** dialo
 -   In the **Customize** window, choose the **Restore Defaults** button, and then choose the **OK** button.  
   
     > [!NOTE]  
-    >  All customization of FactBoxes that you have ever made for this page under your current user logon or since you last used the **Restore Defaults** button are canceled. The FactBoxes on the page are reset to the default configuration for your profile. For more information, see [How to: Cancel UI Personalization](../how-to-cancel-ui-personalization.md).  
+    >  All customization of FactBoxes that you have ever made for this page under your current user logon or since you last used the **Restore Defaults** button are canceled. The FactBoxes on the page are reset to the default configuration for your profile. For more information, see [Cancel UI Personalization](../how-to-cancel-ui-personalization.md).  
   
 ## See Also  
  PERSONALIZATION Personalize the User Interface   
- [How to: Customize Ribbons](../how-to-customize-ribbons.md)   
- [How to: Customize FastTabs](../how-to-customize-fasttabs.md)   
- [How to: Specify When UI Elements Are Removed](../How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md)   
- [How to: Cancel UI Personalization](../how-to-cancel-ui-personalization.md)   
+ [Customize Ribbons](../how-to-customize-ribbons.md)   
+ [Customize FastTabs](../how-to-customize-fasttabs.md)   
+ [Specify When UI Elements Are Removed](../How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md)   
+ [Cancel UI Personalization](../how-to-cancel-ui-personalization.md)   
  Delete User Personalization   
  [Customize the User Interface](../customize-the-user-interface.md)   
  [Working with Product Name](../working-with-$-p_1-product-name-$-.md)   

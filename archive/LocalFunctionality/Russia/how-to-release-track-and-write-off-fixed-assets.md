@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Release, Track, and Write-Off Fixed Assets
+# Release, Track, and Write-Off Fixed Assets
 You can manage your fixed assets utilizing the fixed assets acts features in [!INCLUDE[navnow](../../includes/navnow_md.md)]. Fixed assets acts allow you to release, track, and write-off the fixed assets of your organization.  
 
 The first step to managing your fixed assets is to set up fixed assets numbering and source codes.  

@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Use the RapidStart Services Role Center to Track Progress
+# Use the RapidStart Services Role Center to Track Progress
 When you use ADD INCLUDE<!--[!INCLUDE[rim](../../includes/how-to-change-role-centers.md). Choose the RapidStart Profile ID.  
   
  As you continue with your work, you can assign each table the status that reflects where you are in the process. [!INCLUDE[d365fin](includes/d365fin_md.md)] then keeps track of the table status in the **Activities** part on the **Home** page.  

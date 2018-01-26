@@ -15,7 +15,7 @@ ms.date: 03/29/2017
 ms.author: solsen
 
 ---
-# How to: Run Batch Jobs
+# Run Batch Jobs
 A batch job is a routine that processes data in batches, for example the **Adjust Exchange Rates** batch job. There are batch jobs that perform periodic accounting activities, such as closing the income statement at the end of a fiscal year. Many batch jobs do calculation work, such as calculation of finance charges, exchange rate adjustment, and calculation of unit prices.
 
 A batch job is like a report, except the batch job uses the result of its work to update information directly, instead of printing the results.

@@ -15,7 +15,7 @@
     ms.author: jswymer
 
 ---
-# How to: Set Up a Colored Indicator on Cues for the Company or Individual Users
+# Set Up a Colored Indicator on Cues for the Company or Individual Users
 As an administrator, you can set up Cues that appear on the users' Role Centers to include an indicator that changes color based on the data values in the Cues.  
   
 The indicator appears as a colored bar along the top border of the Cue tile. It provides a visual signal of the status of the Cue's activity, which can indicate favorable or unfavorable conditions to prompt the user to take action. For example, if a Cue displays ongoing sales invoices, you can set up the indicator to appear green (favorable) when total number of ongoing sales invoices is below 10, and appears red (unfavorable) when the total is greater than 20.  
@@ -62,4 +62,4 @@ To set up the indicator, you specify up to two threshold values that define thre
     |**Subordinate**|Gray|  
   
 ## See Also  
-[How to: Set Up a Colored Indicator on Cues of Your Workspace](ui-how-setup-colored-indicator-cues.md)  
+[Set Up a Colored Indicator on Cues of Your Workspace](ui-how-setup-colored-indicator-cues.md)  

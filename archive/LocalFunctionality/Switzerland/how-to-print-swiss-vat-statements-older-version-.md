@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Print Swiss VAT Statements (older version)
+# Print Swiss VAT Statements (older version)
 
 > [!NOTE]  
 >  This topic is retained for backward compatibility with the **Swiss VAT Statement** report. For information about using the newer Swiss VAT Statement, see Swiss VAT Statement.  

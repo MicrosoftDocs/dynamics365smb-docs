@@ -15,14 +15,14 @@ ms.date: 11/29/2017
 ms.author: sgroespe
 
 ---
-# How to: Count, Adjust, and Reclassify Inventory
+# Count, Adjust, and Reclassify Inventory
 At least once every fiscal year you must take a physical inventory, that is, count all the items on inventory, to see if the quantity registered in the database is the same as the actual physical quantity in the warehouses. When the actual physical quantity is known, it must be posted to the general ledger as a part of period-end valuation of inventory.
 
 Although you count all items in inventory at least once a year, you may have decided to count some items more often, perhaps because they are more valuable, or because they are very fast movers and a large part of your business. For this purpose, you can assign special counting periods to those items. For more information, see the "To perform cycle counting" section.
 
 If you need to adjust recorded inventory quantities, in connection with counting or for other purposes, you can use an item journal to change the inventory ledger entries directly without posting business transactions. Alternatively, you can adjust for a single item on the item card.
 
-If you need to change attributes on item ledger entries, you can use the item reclassification journal. Typical attributes to reclassify include dimensions and sales campaign codes, but you also perform "system transfers" by reclassifying bin and location codes. Special steps apply when you want to reclassify serial or lot numbers and their expiration dates. For more information, see [How to: Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md).
+If you need to change attributes on item ledger entries, you can use the item reclassification journal. Typical attributes to reclassify include dimensions and sales campaign codes, but you also perform "system transfers" by reclassifying bin and location codes. Special steps apply when you want to reclassify serial or lot numbers and their expiration dates. For more information, see [Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md).
 
 > [!NOTE]
 > In advanced warehouse configurations, items are registered in bins as warehouse entries, not as item ledger entries. Therefore, you perform counting, adjusting, and reclassifying in special warehouse journals that support bins. Then, you use special functions to synchronize the new or changed warehouse entries with their related item ledger entries to reflect the changes in inventory quantities and values. This is described in specific procedures below where relevant.
@@ -95,7 +95,7 @@ Employees can now proceed to count inventory and record any discrepancies on the
     The related fields are updated accordingly.
 
     > [!NOTE]  
->   If the physical count reveals differences that are caused by items posted with incorrect location codes, do not enter the differences in the physical inventory journal. Instead, use the reclassification journal or a transfer order to redirect the items to the correct locations. For more information, see Item Reclass. Journal or How to: Create Transfer Orders.
+>   If the physical count reveals differences that are caused by items posted with incorrect location codes, do not enter the differences in the physical inventory journal. Instead, use the reclassification journal or a transfer order to redirect the items to the correct locations. For more information, see Item Reclass. Journal or Create Transfer Orders.
 
 2. To adjust the calculated quantities to the actual counted quantities, choose the **Post** action.
 
@@ -165,10 +165,10 @@ After you have made a physical count of an item in your inventory area, you can 
 
 The item’s inventory is now adjusted. The new quantity is shown in the **Current Inventory** field in the **Adjust Inventory** window and in the **Inventory** field in the **Item Card** window.
 
-You can also use the **Adjust Inventory** function as a simple way to place purchased items on inventory if you do not use purchase invoices or orders to record your purchases. For more information, [How to: Record Purchases](purchasing-how-record-purchases.md).
+You can also use the **Adjust Inventory** function as a simple way to place purchased items on inventory if you do not use purchase invoices or orders to record your purchases. For more information, [Record Purchases](purchasing-how-record-purchases.md).
 
 > [!NOTE]  
->   After you have adjusted inventory, you must update it with the current, calculated value. For more information, see [How to: Revalue Inventory](inventory-how-revalue-inventory.md).
+>   After you have adjusted inventory, you must update it with the current, calculated value. For more information, see [Revalue Inventory](inventory-how-revalue-inventory.md).
 
 ### To adjust the inventory quantity of multiple items in basic warehouse configurations
 In the **Item Journal** window, you can post item transaction directly to adjust inventory in connection with purchases, sales, and positive or negative adjustments without using documents.
@@ -180,7 +180,7 @@ If you often use the item journal to post the same or similar journal lines, for
 3. Choose the **Post** action to make the inventory adjustments.
 
 > [!NOTE]  
->   After you have adjusted inventory, you must update it with the current, calculated value. For more information, see [How to: Revalue Inventory](inventory-how-revalue-inventory.md).
+>   After you have adjusted inventory, you must update it with the current, calculated value. For more information, see [Revalue Inventory](inventory-how-revalue-inventory.md).
 
 ### To adjust bin quantities in advanced warehouse configurations  
 If your location uses directed put-away and pick, use the **Whse. Item Journal** to post, outside the context of the physical inventory, all positive and negative adjustments in item quantity that you know are real gains, such as items previously posted as missing that show up unexpectedly, or real losses, such as breakage.  
@@ -207,7 +207,7 @@ At appropriate intervals as defined by company policy, you must post the warehou
 ## To reclassify an item's lot number
 If you need to change attributes on item ledger entries, you can use the item reclassification journal. Typical attributes to reclassify include dimensions and sales campaign codes, but you also perform "system transfers" by reclassifying bin and location codes.
 
-Special steps apply when you want to reclassify serial or lot numbers and their expiration dates. For more information, see [How to: Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md).
+Special steps apply when you want to reclassify serial or lot numbers and their expiration dates. For more information, see [Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md).
 
 The following example is based on a location code. The steps are similar for other types of item attributes.
 
@@ -217,7 +217,7 @@ The following example is based on a location code. The steps are similar for oth
 4. In the **New Location Code** field, enter the item's new location code.
 5. Choose the **Post** action.
 
-For information about transferring items with full control of quantities shipped and received, see [How to: Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md).
+For information about transferring items with full control of quantities shipped and received, see [Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md).
 
 ## See Also
 [Inventory](inventory-manage-inventory.md)

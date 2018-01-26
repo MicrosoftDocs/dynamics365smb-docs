@@ -28,9 +28,9 @@ The following table lists some of the general functionality with links to topics
 | Use Search to look for a specific page or report. |[Using Search for Page or Report](ui-search.md) |
 | Learn about how to sort data. |[Sorting](ui-sorting.md) |
 | Change how you view lists of, for example, customers, vendors, or items. |[Displaying Lists in Different Ways](across-display-lists-different-views.md) |
-| Modify the colored indicator on cues. |[How to: Set Up a Colored Indicator on Cues](ui-how-setup-colored-indicator-cues.md) |
+| Modify the colored indicator on cues. |[Set Up a Colored Indicator on Cues](ui-how-setup-colored-indicator-cues.md) |
 | Change basic settings such as company or work date. |[Changing Basic Settings](ui-change-basic-settings.md) |
-| Change the Role Center, and the related Home page, to fit your role. |[How to: Change the Role Center](change-role.md) |
+| Change the Role Center, and the related Home page, to fit your role. |[Change the Role Center](change-role.md) |
 | Change which fields and actions are shown in the user interface to fit your company's business processes. |[Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md) |
 | Get reports to show data from specific date ranges. |[Entering Date Ranges in Dynamics 365, Business edition ](ui-enter-date-ranges.md) |
 

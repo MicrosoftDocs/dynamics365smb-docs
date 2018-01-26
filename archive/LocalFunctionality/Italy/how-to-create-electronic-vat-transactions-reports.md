@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Create Electronic VAT Transactions Reports
+# Create Electronic VAT Transactions Reports
 You must create a list of transactions that include VAT with amounts over the current threshold on or before the specified occurrence date. You submit this report to the tax authorities.  
 
 ## To create a VAT transactions report  
@@ -35,7 +35,7 @@ You must create a list of transactions that include VAT with amounts over the cu
 
 Credit memos are included in the VAT transaction report if the customer or vendor is from a country/region that is outside the EU and not black-listed. For more information, see [Italian VAT](italian-vat.md).  
 
-Now that you have created the VAT report, you must submit it to the tax authorities. For more information, see [How to: Export VAT Transactions Reports](how-to-export-vat-transactions-reports.md).  
+Now that you have created the VAT report, you must submit it to the tax authorities. For more information, see [Export VAT Transactions Reports](how-to-export-vat-transactions-reports.md).  
 
 ## See Also  
  [Italian VAT](italian-vat.md)

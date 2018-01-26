@@ -14,7 +14,7 @@ ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---
-# How to: Set Up General Fixed Assets Information
+# Set Up General Fixed Assets Information
 Before you can manage fixed assets, you must set up default G/L accounts, allocation keys, journal templates and batches for fixed asset posting and reclassification, and you can classify fixed assets in classes, such as Tangible and Intangible.
 
 ## To set up general default values for fixed assets
@@ -34,10 +34,10 @@ You use posting groups to define groups of fixed assets. Entries for these posti
 >   To make sure that balancing accounts for different fixed assets postings are automatically inserted when you choose the **Insert FA Bal. Account** action on journal lines, follow the next step, based on appreciation posting.
 4. On the **Balancing Account** FastTab, in the **Appreciation Bal. Account** field, select the general ledger account to which you want to post balancing entries for appreciation.
 
-For more information about using the **Insert FA Bal. Account** action on fixed asset G/L journal lines, see, for example, [How to: Revalue Fixed Assets](fa-how-revalue.md).
+For more information about using the **Insert FA Bal. Account** action on fixed asset G/L journal lines, see, for example, [Revalue Fixed Assets](fa-how-revalue.md).
 
 ## To set up fixed asset allocation keys
-Transactions can be allocated to various departments or projects, according to user-defined allocation keys. For example, you could set up an allocation key to allocate depreciation costs on cars with 35 percent to the administration department and 65 percent to the sales department. For more information, see [How to: Allocate Costs and Income](year-allocate-costs-income.md).
+Transactions can be allocated to various departments or projects, according to user-defined allocation keys. For example, you could set up an allocation key to allocate depreciation costs on cars with 35 percent to the administration department and 65 percent to the sales department. For more information, see [Allocate Costs and Income](year-allocate-costs-income.md).
 
 Allocation keys apply to fixed asset classes, not to individual assets.
 

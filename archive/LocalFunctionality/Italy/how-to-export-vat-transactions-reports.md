@@ -16,8 +16,8 @@
     ms.author: sgroespe
 
 ---
-# How to: Export VAT Transactions Reports
-After you create a report, you can release it, and then export it for the authorities. To change the report, make sure that the Modify Submitted Reports check box is enabled in the VAT Report Setup window. If it is not, to change the report when you want to correct an error, you will have to create a new report, add the report with the error in the original report number, and then create a corrective report. For more information, see [How to: Correct VAT Transactions Reports](how-to-correct-vat-transactions-reports.md).  
+# Export VAT Transactions Reports
+After you create a report, you can release it, and then export it for the authorities. To change the report, make sure that the Modify Submitted Reports check box is enabled in the VAT Report Setup window. If it is not, to change the report when you want to correct an error, you will have to create a new report, add the report with the error in the original report number, and then create a corrective report. For more information, see [Correct VAT Transactions Reports](how-to-correct-vat-transactions-reports.md).  
 
 It is only possible to change the lines and fields when the document has the status Open. In the Released status, only the receipt no. is available for change. In the Submitted status, all fields are locked.  
 
@@ -27,7 +27,7 @@ It is only possible to change the lines and fields when the document has the sta
 2.  Select an existing report or create a new report:  
 
     - Select the relevant VAT report from the list, and then choose the **Edit** action.  
-    - Choose the **New** action, and create a new report. For more information, see [How to: Create Electronic VAT Transactions Reports](how-to-create-electronic-vat-transactions-reports.md).  
+    - Choose the **New** action, and create a new report. For more information, see [Create Electronic VAT Transactions Reports](how-to-create-electronic-vat-transactions-reports.md).  
 
 3.  Review the transaction details. To exclude a line from being reported to the tax authority, on the line, clear the **Incl. in Report** check box. To see the VAT entries that the line is based on, choose the drill-down button in the **Amount** field.
 
@@ -55,4 +55,4 @@ It is only possible to change the lines and fields when the document has the sta
     >  You can modify a report that has the status of Submitted only if you have enabled the **Modify Submitted Reports** check box in the **VAT Report Setup** window.  
 
 ## See Also  
-[How to: Correct VAT Transactions Reports](how-to-correct-vat-transactions-reports.md)
+[Correct VAT Transactions Reports](how-to-correct-vat-transactions-reports.md)

@@ -16,8 +16,8 @@
     ms.author: sgroespe
 
 ---
-# How to: Import Swiss Post Codes
-You can import the latest post code file and use it to update the **Post Code** table. The post code file can be downloaded from the [Swiss Post](http://go.microsoft.com/fwlink/?LinkId=150292) website. After importing the latest post code, you can define post codes for customers or vendors. For more information, see [How to: Register New Vendors](../../purchasing-how-register-new-vendors.md).  
+# Import Swiss Post Codes
+You can import the latest post code file and use it to update the **Post Code** table. The post code file can be downloaded from the [Swiss Post](http://go.microsoft.com/fwlink/?LinkId=150292) website. After importing the latest post code, you can define post codes for customers or vendors. For more information, see [Register New Vendors](../../purchasing-how-register-new-vendors.md).  
 
 ## To import post codes  
 
@@ -37,13 +37,13 @@ The following procedure describes how to define post codes for customers, but th
 3.  In the **Customer Card** window, on the **General** FastTab, in the **Post Code** field, select the post code for the customer's address.  
 
     > [!NOTE]  
-    >  When you select the post code, the **City** and **Country/Region Code** fields populate automatically with the information from the **Post Code** table. For more information, see [How to: Register New Customers](../../sales-how-register-new-customers.md).  
+    >  When you select the post code, the **City** and **Country/Region Code** fields populate automatically with the information from the **Post Code** table. For more information, see [Register New Customers](../../sales-how-register-new-customers.md).  
 
 4.  Choose the **OK** button.  
 
 ## See Also   
  [Swiss Purchase Documents and Sales Documents](swiss-purchase-documents-and-sales-documents.md)   
- [How to: Set Up Automatic Archiving of Documents in Switzerland](how-to-set-up-automatic-archiving-of-documents-in-switzerland.md)   
- [How to: Print an Inventory Picking List from a Sales Order](how-to-print-an-inventory-picking-list-from-a-sales-order.md)   
- [How to: Print Sales and Purchase Orders During Batch Posting](how-to-print-sales-and-purchase-orders-during-batch-posting.md)   
- [How to: Register New Vendors](../../purchasing-how-register-new-vendors.md)  
+ [Set Up Automatic Archiving of Documents in Switzerland](how-to-set-up-automatic-archiving-of-documents-in-switzerland.md)   
+ [Print an Inventory Picking List from a Sales Order](how-to-print-an-inventory-picking-list-from-a-sales-order.md)   
+ [Print Sales and Purchase Orders During Batch Posting](how-to-print-sales-and-purchase-orders-during-batch-posting.md)   
+ [Register New Vendors](../../purchasing-how-register-new-vendors.md)  

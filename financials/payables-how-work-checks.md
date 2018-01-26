@@ -15,19 +15,19 @@ ms.date: 06/06/2017
 ms.author: sgroespe
 
 ---
-# How to: Work With Checks
+# Work With Checks
 You can issue electronic and manual checks in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Both methods use the payment journal to issue checks to vendors. You can also void checks and view check ledger entries.
 
 The process of issuing checks suggests payments, creates ledger entries, and prints the computer checks.
 
 > [!NOTE]  
->   To make sure that your bank only clears validated checks and amounts, you can send them a file that contains vendor, check, and payment information. For more information, see [How to: Export a Positive Pay file](finance-how-positive-pay.md).
+>   To make sure that your bank only clears validated checks and amounts, you can send them a file that contains vendor, check, and payment information. For more information, see [Export a Positive Pay file](finance-how-positive-pay.md).
 
-Your printer must be correctly set up with the check forms, and you must define which check layout to use. For more information, see [How to: Define Check Layouts](finance-how-define-check-layouts.md)
+Your printer must be correctly set up with the check forms, and you must define which check layout to use. For more information, see [Define Check Layouts](finance-how-define-check-layouts.md)
 
 ## To issue checks
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.
-2. Fill in the journal with relevant payments, for example by using the Suggest Vendor Payments function. For more information, see [How to: Suggest Vendor Payments](payables-how-suggest-vendor-payments.md).
+2. Fill in the journal with relevant payments, for example by using the Suggest Vendor Payments function. For more information, see [Suggest Vendor Payments](payables-how-suggest-vendor-payments.md).
 3. In the **Bank Payment Type** field on journal lines for payment that you want to make with checks, select one of the following options:
 
    * **Computer Check**: Select this option if you want to print a check for the amount on the payment journal line. You must print the checks before you can post the journal lines. You can only select **Computer Check** if the **Bal. Account Type** or the **Account Type** is **Bank Account**.
@@ -59,5 +59,5 @@ When check payment have been posted, you can only cancel (void) checks from the 
 ## See Also
 [Managing Payables](payables-manage-payables.md)  
 [Setting Up Banking](bank-setup-banking.md)  
-[How to: Export a Positive Pay file](finance-how-positive-pay.md)  
+[Export a Positive Pay file](finance-how-positive-pay.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

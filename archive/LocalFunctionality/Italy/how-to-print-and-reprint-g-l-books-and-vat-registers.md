@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Print and Reprint GL Books and VAT Registers
+# Print and Reprint GL Books and VAT Registers
 The tax authorities require that you submit two fiscal reports that list all of the posted ledger entries, the **G/L Book - Print** report and the **VAT Register - Print** report. Each printed page must have its own progressive number, and therefore, you must update [!INCLUDE[navnow](../../includes/navnow_md.md)] with the last printed page number before you run these reports again.  
 
 The following procedure describes how to print or reprint the **G/L Book - Print** report, but the same steps apply to printing or reprinting the **VAT Register - Print** report.  

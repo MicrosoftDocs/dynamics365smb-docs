@@ -48,5 +48,5 @@ Because credit memos are used for adjustment notes, each credit memo should sati
 - **Adjustment** and **BAS Adjustment**: These entries populate automatically. Some credit memos are Business Activity Statement (BAS) adjustments. Adjustment notes can only be applied against a single document.  
 
 ## See Also  
- [How to: Enter Australian Business Numbers](how-to-enter-australian-business-numbers.md)   
+ [Enter Australian Business Numbers](how-to-enter-australian-business-numbers.md)   
  [Australia Local Functionality](australia-local-functionality.md)

@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Apply Answers from the Configuration Questionnaire
+# Apply Answers from the Configuration Questionnaire
 After you have imported and validated information from a setup questionnaire, you can transfer, or apply the setup data to the corresponding tables in the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.  
 
 ## To apply answers from the setup questionnaire  

@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Print Direct Sales and Purchase Details Reports
+# Print Direct Sales and Purchase Details Reports
 The **Direct Sales Details** and **Direct Purchase Details** reports include headers with order numbers and descriptions from sales and purchase documents.  
 
  You can filter or select data for these reports based on:  

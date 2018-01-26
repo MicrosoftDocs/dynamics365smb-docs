@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Interest on Arrears
+# Set Up Interest on Arrears
 For each finance charge term, you can specify how interest on arrears must be calculated. You can set up finance charge calculations with different interest rates for different periods.  
 
 When you apply a finance charge term with interest on arrears to a customer or vendor, interest on arrears will be calculated. Then, you can run the Calculate Interest on Arrears report to view details about interest on arrears for customers or vendors.  

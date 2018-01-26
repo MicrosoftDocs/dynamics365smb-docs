@@ -42,7 +42,7 @@ Repeat these steps to assign as many business relations as you want. You can als
 
 The number of business relations you have assigned to the contact is displayed in the **No. of Business Relations** field in the **Segmentation** section in the **Contact** window.
 
-After you have assigned business relations to your contacts, you can use this information to select contacts for your segments. For more information, see [How to: Add Contacts to Segments](marketing-add-contact-segment.md).
+After you have assigned business relations to your contacts, you can use this information to select contacts for your segments. For more information, see [Add Contacts to Segments](marketing-add-contact-segment.md).
 
 ## See Also
 [Creating Contact Companies](marketing-create-contact-companies.md)  

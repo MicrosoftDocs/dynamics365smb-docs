@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Print the Factura-Invoice
+# Print the Factura-Invoice
 You must print the Factura-Invoice document as part of customs declaration.  
 
 ## To print the posted factura-invoice  
@@ -32,4 +32,4 @@ You must print the Factura-Invoice document as part of customs declaration.
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen. Choose the **Cancel** button to save the information without printing the report.  
 
 ## See Also  
-[How to: Enter Custom Declarations Information](how-to-enter-custom-declarations-information.md)
+[Enter Custom Declarations Information](how-to-enter-custom-declarations-information.md)

@@ -15,10 +15,10 @@
     ms.author: sgroespe
 
 ---
-# How to: Assemble Items
+# Assemble Items
 If the **Replenishment System** field on the item card contains **Assembly**, then the default method of supplying the item is to assemble it from defined components and potentially by a defined resource.  
 
-The components and resources that go into this kind of an assembly item must be defined in an assembly BOM. For more information, see [How to: Work with Bills of Material](inventory-how-work-BOMs.md).  
+The components and resources that go into this kind of an assembly item must be defined in an assembly BOM. For more information, see [Work with Bills of Material](inventory-how-work-BOMs.md).  
 
 Assembly items can be set up for two different assembly processes:  
 
@@ -27,14 +27,14 @@ Assembly items can be set up for two different assembly processes:
 
 You typically use **Assemble to Stock** for items that you want to assemble ahead of sales, such as to prepare for a kit campaign, and keep in stock until they are ordered. These items are usually standard items such as packaged kits that you do not offer to customize to customer requests.  
 
-You typically use **Assemble to Order** for items that you do not want to stock because you expect to customize them to customer requests or because you want to minimize the inventory carrying cost by supplying them just in time. For more information, see [How to: Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md).  
+You typically use **Assemble to Order** for items that you do not want to stock because you expect to customize them to customer requests or because you want to minimize the inventory carrying cost by supplying them just in time. For more information, see [Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md).  
 
 For more information about how to set up an assembly item, see [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md).  
 
-These setup options are default settings that manage how sales and assembly order lines are initially processed. You can depart from these defaults and supply the assembly item in the most optimal way when processing a sale. For more information, see [How to: Sell Inventory Items in Assemble-to-Order Flows](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md) and [How to: Sell Assemble-to-Order Items and Inventory Items Together](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).
+These setup options are default settings that manage how sales and assembly order lines are initially processed. You can depart from these defaults and supply the assembly item in the most optimal way when processing a sale. For more information, see [Sell Inventory Items in Assemble-to-Order Flows](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md) and [Sell Assemble-to-Order Items and Inventory Items Together](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).
 
 > [!NOTE]  
-> Assembly components are handled in a special way in basic warehouse configurations. For more information, see the “Handling Assemble-to-Order Items in Inventory Picks” section in [How to: Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md).   
+> Assembly components are handled in a special way in basic warehouse configurations. For more information, see the “Handling Assemble-to-Order Items in Inventory Picks” section in [Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md).   
 
 In this procedure, you create and process an assembly order for items that are assembled to stock, which means without a linked sales order. The steps include initiating the assembly order, handling potential component availability issues, and partially posting assembly item output.
 
@@ -46,7 +46,7 @@ In this procedure, you create and process an assembly order for items that are a
 5.  In the **Quantity** field, enter how many units of the item that you want assembled.  
 
     > [!NOTE]  
-    >  If one or more components are not available to fulfill the entered assembly item quantity on the defined due date, then the **Assembly Availability** window automatically opens to provide detailed information about how many assembly items can be assembled based on component availability. For more information, see [How to: View the Availability of Items](inventory-how-availability-overview.md). When you close the window, the assembly order is created with availability alerts on the affected component lines.  
+    >  If one or more components are not available to fulfill the entered assembly item quantity on the defined due date, then the **Assembly Availability** window automatically opens to provide detailed information about how many assembly items can be assembled based on component availability. For more information, see [View the Availability of Items](inventory-how-availability-overview.md). When you close the window, the assembly order is created with availability alerts on the affected component lines.  
 
     The assembly order lines are automatically filled with the contents of the assembly BOM and with line quantities according to the assembly order header.  
 
@@ -67,7 +67,7 @@ After posting succeeds, the assembly item is posted as output to the location co
 
 ## See Also
 [Assembly Management](assembly-assemble-items.md)  
-[How to: Work with Bills of Material](inventory-how-work-BOMs.md)  
+[Work with Bills of Material](inventory-how-work-BOMs.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

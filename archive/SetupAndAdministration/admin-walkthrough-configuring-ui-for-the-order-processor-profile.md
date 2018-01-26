@@ -69,7 +69,7 @@ Administrators configure the user interface by customizing the user interface fo
 
 #### To check the user interface of a test user  
 
-1.  Create a test user and assign the same permission set to the user who order processors in your company have. For more information, see [How to: Create Microsoft Dynamics NAV Users](../How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).  
+1.  Create a test user and assign the same permission set to the user who order processors in your company have. For more information, see [Create Microsoft Dynamics NAV Users](../How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).  
 
 2.  Log on using the credentials of the test order processor.  
 
@@ -108,7 +108,7 @@ Administrators configure the user interface by customizing the user interface fo
 
 7.  Choose the **OK** button to save and close the **Customize** window.  
 
- The **Page Notes** action is now visible to users assigned to the Order Processor profile when they access the **Sales Orders** window by choosing the **Sales Orders – Open** tile on their Role Center. For more information, see [How to: Customize Ribbons](../how-to-customize-ribbons.md).  
+ The **Page Notes** action is now visible to users assigned to the Order Processor profile when they access the **Sales Orders** window by choosing the **Sales Orders – Open** tile on their Role Center. For more information, see [Customize Ribbons](../how-to-customize-ribbons.md).  
 
 > [!NOTE]  
 >  In some cases, an action can be a promoted action if the **PromotedIsBig** property is set to **Yes** in the ADD INCLUDE<!--[!INCLUDE[nav_dev_long](../../includes/How%20to:%20Promote%20Actions%20on%20Pages.md).  
@@ -128,10 +128,10 @@ Administrators configure the user interface by customizing the user interface fo
 
 5.  Choose the **OK** button to save and close the **Customize** window.  
 
- The **Notes** FactBox is now visible to users assigned to the Order Processor profile when they access the **Sales Orders** window by choosing the Orders actions in a **Customer Card** window. For more information, see [How to: Customize FactBoxes](../how-to-customize-factboxes.md).  
+ The **Notes** FactBox is now visible to users assigned to the Order Processor profile when they access the **Sales Orders** window by choosing the Orders actions in a **Customer Card** window. For more information, see [Customize FactBoxes](../how-to-customize-factboxes.md).  
 
 ## Cancelling UI Customization for the Order Processor Profile  
- You can cancel UI customization for profiles in three ways. For more information, see [How to: Cancel UI Configuration](../how-to-cancel-ui-configuration.md).  
+ You can cancel UI customization for profiles in three ways. For more information, see [Cancel UI Configuration](../how-to-cancel-ui-configuration.md).  
 
  The following procedure shows how to cancel only the specific UI customization that you made for the **Sales Orders** page when it is accessed from the **Sales Orders – Open** tile on the Role Center.  
 

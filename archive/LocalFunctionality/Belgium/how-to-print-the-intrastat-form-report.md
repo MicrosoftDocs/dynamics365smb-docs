@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Print the Intrastat Form Report
+# Print the Intrastat Form Report
 The **Intrastat - Form** report must be used for reporting to Intrastat. In Belgium, you must report the movement of goods to the statistics authorities every month, and the report must be sent to the tax authorities.  
 
 Before you print the **Intrastat - Form** report, you can also print the **Intrastat Checklist** report to verify the contents of the report.  
@@ -42,7 +42,7 @@ Before you print the **Intrastat - Form** report, you can also print the **Intra
   
 ## See Also  
  [Belgian Intrastat Reporting](belgian-intrastat-reporting.md)   
- [How to: Set Up Declaration Types](how-to-set-up-declaration-types.md)   
- [How to: Set Up Belgian Tariff Numbers](how-to-set-up-belgian-tariff-numbers.md)   
- [How to: Set Up Intrastat Establishment Numbers](how-to-set-up-intrastat-establishment-numbers.md)   
- [How to: Export Intrastat Third-Party Declararations](how-to-export-intrastat-third-party-declararations.md)
+ [Set Up Declaration Types](how-to-set-up-declaration-types.md)   
+ [Set Up Belgian Tariff Numbers](how-to-set-up-belgian-tariff-numbers.md)   
+ [Set Up Intrastat Establishment Numbers](how-to-set-up-intrastat-establishment-numbers.md)   
+ [Export Intrastat Third-Party Declararations](how-to-export-intrastat-third-party-declararations.md)

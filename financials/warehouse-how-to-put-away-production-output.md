@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Put Away Production or Assembly Output
+# Put Away Production or Assembly Output
 How you put away your output from production depends on how your warehouse is set up as a location. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).  
 
 In basic warehouse configurations where the location requires put-away processing, but not receive processing, you use the **Inventory Put-away** document to organize and record the put-away of output.  
@@ -29,16 +29,16 @@ The first step in creating putting output away is to create the inbound warehous
 2.  On the production order that is ready for put-away, choose the **Create Inbound Whse. Request** action.  
 
 > [!NOTE]  
->  You can also create the inbound warehouse request by selecting the **Create Inbound Request** check box when you refresh the production order. For more information, see [How to: Refresh or Replan Production Orders](production-how-to-replan-refresh-production-orders.md).  
+>  You can also create the inbound warehouse request by selecting the **Create Inbound Request** check box when you refresh the production order. For more information, see [Refresh or Replan Production Orders](production-how-to-replan-refresh-production-orders.md).  
 
 ## To put output away with an inventory put-away  
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Inventory Put-away**, and then choose the related link.  
-2.  Create a new inventory put-away. For more information, see [How to: Put Items Away with Inventory Put-aways](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
+2.  Create a new inventory put-away. For more information, see [Put Items Away with Inventory Put-aways](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
 3.  To access the production order output, choose the **Get Source Documents** action, and then select the released production order.  
 4.  Fill in the put-away lines as appropriate.
 5.  When the lines are ready for posting, choose the **Post** action. The posting will create the necessary warehouse entries and post the output of the items.  
 
-You can also create an **Inventory Put-away** directly from the released production order. For more information, see [How to: Put Items Away with Inventory Put-aways](warehouse-how-to-put-items-away-with-inventory-put-aways.md).  
+You can also create an **Inventory Put-away** directly from the released production order. For more information, see [Put Items Away with Inventory Put-aways](warehouse-how-to-put-items-away-with-inventory-put-aways.md).  
 
 When you post an inventory put-away, it is assumed that all the operations are posted according to the standard routing, that is, output quantity is posted according to the last operation. You can use the output journal to post variances in output quantity and the setup and run times. If it is required to post partially after you have created the inventory put-away, you can do so on setup times and quantities for all operations except the last one. In that case, the last operation is controlled by the inventory put-away.  
 

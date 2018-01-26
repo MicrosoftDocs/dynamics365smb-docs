@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Disregard Payment Discounts
+# Disregard Payment Discounts
 Use the disregard payment discount at full payment feature to accept payments when the following conditions are true:  
 
 - Payment discount date < payment date <= payment tolerance date  
@@ -33,7 +33,7 @@ Use the disregard payment discount at full payment feature to accept payments wh
 
 ## See Also  
 [Electronic Banking in Finland](electronic-banking-in-finland.md)   
-[How to: Generate Payment Files](how-to-generate-payment-files.md)   
+[Generate Payment Files](how-to-generate-payment-files.md)   
 [Defining Payment Methods](../../finance-payment-methods.md)  
-[How to: Work with Payment Tolerances and Payment Discount Tolerances](../../finance-payment-tolerance-and-payment-discount-tolerance.md)     
-[How to: Set Up Bank Reference Files](how-to-set-up-bank-reference-files.md)
+[Work with Payment Tolerances and Payment Discount Tolerances](../../finance-payment-tolerance-and-payment-discount-tolerance.md)     
+[Set Up Bank Reference Files](how-to-set-up-bank-reference-files.md)

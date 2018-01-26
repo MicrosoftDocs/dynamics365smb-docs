@@ -16,12 +16,12 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Bank Accounts for CODA
+# Set Up Bank Accounts for CODA
 Before you can start to use the electronic banking functionality for CODA statements, you must set up the following codes:  
 
 - Protocol number  
 - Version code  
-- IBLC/BLWI codes - For more information, see [How to: Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md).  
+- IBLC/BLWI codes - For more information, see [Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md).  
 
 ## To set up protocol numbers and version codes  
 
@@ -38,5 +38,5 @@ Before you can start to use the electronic banking functionality for CODA statem
 
 ## See Also  
  [CODA Bank Statements](coda-bank-statements.md)   
- [How to: Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md)   
- [How to: Import CODA Statements](how-to-import-coda-statements.md)
+ [Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md)   
+ [Import CODA Statements](how-to-import-coda-statements.md)

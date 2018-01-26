@@ -25,7 +25,7 @@ In the center you find the Activities tiles. Activities show current data and ca
 
 You can also build up a list of Favorite Customers on the Home page for accounts that you do business with often or need to pay special attention to. Use the arrows to collapse part of the page and make more room to show specific data. At the top of the Home page you will find all of the actions that can be applied to the current content. This too can be collapsed and you only need to click or tap within the collapsed area to view it again.
 
-The default Role Center is **Business Manager**, but you can select another Role Center that fits your needs better. For more information, see [How to: Change the Role Center](change-role.md).
+The default Role Center is **Business Manager**, but you can select another Role Center that fits your needs better. For more information, see [Change the Role Center](change-role.md).
 
 ## Company
 A company functions as a container for data in [!INCLUDE[d365fin](includes/d365fin_md.md)]. There can be multiple companies in a database, but only one can be selected at a time.
@@ -52,5 +52,5 @@ Choose this link to view or change the notifications that you get about certain 
 
 ## See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[How to: Change the Role Center](change-role.md)  
+[Change the Role Center](change-role.md)  
 [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)  

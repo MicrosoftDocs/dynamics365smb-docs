@@ -16,10 +16,10 @@
     ms.author: sgroespe
 
 ---
-# How to: Download CODA Files from an Isabel Server
+# Download CODA Files from an Isabel Server
 CODA files can be downloaded manually or in attended mode.  
 
-To manually download CODA files, log  on to the Isabel server and select the files that you want to download. The downloaded files can then be imported from the **Bank Account** table. For more information, see [How to: Import CODA Statements](how-to-import-coda-statements.md).  
+To manually download CODA files, log  on to the Isabel server and select the files that you want to download. The downloaded files can then be imported from the **Bank Account** table. For more information, see [Import CODA Statements](how-to-import-coda-statements.md).  
 
 ## To download CODA files in attended mode  
 
@@ -39,7 +39,7 @@ To manually download CODA files, log  on to the Isabel server and select the fil
     > [!NOTE]  
     >  You cannot delete any files from the Isabel server by using the **IBS Download Request Options** window. You must manually delete the files by logging on to the Isabel server.  
 
-     After the CODA files have been downloaded, the **Process Status** field will display **Created** in the **IBS Logs** window. You can log on to the Isabel server to manually retrieve the files. For more information, see [How to: Import CODA Statements](how-to-import-coda-statements.md).  
+     After the CODA files have been downloaded, the **Process Status** field will display **Created** in the **IBS Logs** window. You can log on to the Isabel server to manually retrieve the files. For more information, see [Import CODA Statements](how-to-import-coda-statements.md).  
 
 ## See Also  
 [Belgium Local Functionality](belgium-local-functionality.md)

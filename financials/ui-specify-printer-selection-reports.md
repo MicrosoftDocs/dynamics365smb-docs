@@ -43,5 +43,5 @@ The following table describes the combination of values to specify when you set 
 
 ## See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[How to: Run Batch Jobs](ui-how-run-batch-jobs.md)  
-[How to: Send Documents by Email](ui-how-send-documents-email.md)  
+[Run Batch Jobs](ui-how-run-batch-jobs.md)  
+[Send Documents by Email](ui-how-send-documents-email.md)  

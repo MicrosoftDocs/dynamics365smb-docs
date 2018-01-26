@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Import Customer Data
+# Import Customer Data
 After the customer data has been entered in the data migration files in Excel, you import the files into [!INCLUDE[d365fin](includes/d365fin_md.md)].  
   
 ### To import customer data  
@@ -33,4 +33,4 @@ After the customer data has been entered in the data migration files in Excel, y
  Data from the file is imported into the configuration package tables. In the **No. of Package Records** field, you can see the number of records that have been imported. In addition, you can see the number of migration errors.  
   
 ## See Also  
- [How to: Validate Customer Data](../how-to-validate-customer-data.md)
+ [Validate Customer Data](../how-to-validate-customer-data.md)

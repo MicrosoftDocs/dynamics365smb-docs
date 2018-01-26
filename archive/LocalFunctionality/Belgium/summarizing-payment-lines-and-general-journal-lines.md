@@ -63,6 +63,6 @@ Based on the XML structure, the payments are summarized per account number and b
 The EndToEndId in the SEPA message is taken from the payment message and can be truncated to the maximum length of 45 characters.  
 
 ## See Also  
- [How to: Set Up Electronic Banking](how-to-set-up-electronic-banking.md)   
+ [Set Up Electronic Banking](how-to-set-up-electronic-banking.md)   
  [Setting Up Finance](../../finance-setup-finance.md)  
- [How to: Record Purchases](../../purchasing-how-record-purchases.md) 
+ [Record Purchases](../../purchasing-how-record-purchases.md) 

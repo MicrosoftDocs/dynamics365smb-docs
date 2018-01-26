@@ -14,7 +14,7 @@ ms.search.keywords: purchasing agent
 ms.date: 03/29/2017
 ms.author: sgroespe
 ---
-# How to: Set Up Purchasers
+# Set Up Purchasers
 If several purchasers work at your company, you can set them up in a window and assign them each a code. You can then use the codes to prepare statistics and to filter information in printed reports.
 
 ## To set up purchasers

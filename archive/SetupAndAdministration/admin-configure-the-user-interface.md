@@ -33,7 +33,7 @@ As an administrator, you configure the company’s default user interfaces by cu
 >  To see the effect of the initial UI customization that is provided with the **UI Elements Removal** option, you can log on as a test user with the permission set of the profile you are configuring. The reason is that you as the administrator have the SUPER permission set, and you can therefore not see and test the resulting user interface during your own logon. For more information, see [Walkthrough: Configuring UI for the Order Processor Profile](../walkthrough-configuring-ui-for-the-order-processor-profile.md).  
   
 > [!NOTE]  
->  Unlike when users change the size of windows or the width of columns on their own computer, any such basic view changes that you make during your configuration of the UI for a profile are not saved to the profile and will not be available for users assigned to the profile. Basic view changes are computer-specific. For more information, see [How to: Make Basic UI Changes](../how-to-make-basic-ui-changes.md).  
+>  Unlike when users change the size of windows or the width of columns on their own computer, any such basic view changes that you make during your configuration of the UI for a profile are not saved to the profile and will not be available for users assigned to the profile. Basic view changes are computer-specific. For more information, see [Make Basic UI Changes](../how-to-make-basic-ui-changes.md).  
   
  The following table describes a sequence of tasks, with links to the topics that describe them.   
   
@@ -42,7 +42,7 @@ As an administrator, you configure the company’s default user interfaces by cu
 |Configure ADD INCLUDE<!--[!INCLUDE[nav_server](../../includes/removing-elements-from-the-user-interface-according-to-permissions.md)|  
 |Prepare to customize the user interface for a profile by opening the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/how-to-open-microsoft-dynamics-nav-in-configuration-mode.md)|  
 |Customize the user interface for a profile by changing which actions, fields, and page parts to show, how filter buttons are displayed, and how the navigation pane is structured. You use the same functions in the **Customize** window that users use to personalize their own user interface.|PERSONALIZATION Personalize the User Interface|  
-|Cancel UI customization that you have made as configuration for a profile in either of three ways.|[How to: Cancel UI Configuration](../how-to-cancel-ui-configuration.md)|  
+|Cancel UI customization that you have made as configuration for a profile in either of three ways.|[Cancel UI Configuration](../how-to-cancel-ui-configuration.md)|  
 |Export the UI configuration for a profile so that it can be imported into another ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/how-to-export-or-import-profiles.md)|  
 |Follow an end-to-end procedure to learn how to ensure that disallowed UI elements are removed and that you can test the order processor’s user interface. Then, learn how to open you ADD INCLUDE<!--[!INCLUDE[dyn_nav](../../includes/walkthrough-configuring-ui-for-the-order-processor-profile.md)|  
   

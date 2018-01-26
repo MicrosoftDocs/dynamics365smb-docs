@@ -15,14 +15,14 @@ ms.date: 06/28/2017
 ms.author: sgroespe
 
 ---
-# How to: Post Transactions Directly to the General Ledger
+# Post Transactions Directly to the General Ledger
 Most financial transactions are posted to the general ledger through dedicated business documents, such as purchase invoices and sales orders. For business activities that are not represented by a document in [!INCLUDE[d365fin](includes/d365fin_md.md)], such as smaller expenses or cash receipts, you can create the related transactions by posting journal lines in the **General Journal** window.
 
-A typical use of the general journal is to post employees' expenditure of own money during business activities, for later reimbursement. For more information, see [How to: Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md).
+A typical use of the general journal is to post employees' expenditure of own money during business activities, for later reimbursement. For more information, see [Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md).
 
 General journals post financial transactions directly to general ledger accounts and other accounts, such as bank, customer, vendor, and employee accounts. Posting with a general journal always creates entries on general ledger accounts. This is true even when, for example, you post a journal line to a customer account, because an entry is posted to a general ledger receivables account through a posting group. You can personalize your version of a general journal by setting up a journal batch or template. For more information, see [Working with General Journals](ui-work-general-journals.md).
 
-Unlike for entries that are posted with documents, which require a credit memo process, you can correctly reverse entries that are posted with the general journal. For more information, see [How to: Reverse Postings](finance-how-reverse-journal-posting.md).
+Unlike for entries that are posted with documents, which require a credit memo process, you can correctly reverse entries that are posted with the general journal. For more information, see [Reverse Postings](finance-how-reverse-journal-posting.md).
 
 ## To post a transaction directly to a general ledger account
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journals**, and then choose the related link.
@@ -36,7 +36,7 @@ Unlike for entries that are posted with documents, which require a credit memo p
 
 ## See Also
 [Working with General Journals](ui-work-general-journals.md)  
-[How to: Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)  
-[How to: Reverse Postings](finance-how-reverse-journal-posting.md)  
+[Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)  
+[Reverse Postings](finance-how-reverse-journal-posting.md)  
 [Finance](finance.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

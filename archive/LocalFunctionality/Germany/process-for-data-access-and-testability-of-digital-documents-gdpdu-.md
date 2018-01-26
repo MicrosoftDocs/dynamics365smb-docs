@@ -55,13 +55,13 @@ When you set up a data export, you can filter data on different levels as descri
 
 If you include a FlowField such as the **Net Change (LCY)** field on the **Customer** table, you can specify that the entries must be filtered based on the remaining amount at the end date of the GDPdU period. If you add this as a field filter, then the calculation formulas are based on the dates that are specified during the export.
 
-For more informa.tion, see the "GDPdU Filter Examples" section in [How to: Set Up Data Exports for GDPdU](how-to-set-up-data-exports-for-gdpdu.md).
+For more informa.tion, see the "GDPdU Filter Examples" section in [Set Up Data Exports for GDPdU](how-to-set-up-data-exports-for-gdpdu.md).
 
 ## Export Performance  
  If you want to export large sets of data, it can take a very long time. We recommend that you set up data exports based on advice from your tax advisor to establish your business needs, and the requirements of the tax auditor. The number of records in a table is also something that you should consider.  
 
 ## See Also  
- [How to: Set Up Data Exports for GDPdU](how-to-set-up-data-exports-for-gdpdu.md)   
- [How to: Export GDPdU Data](how-to-export-gdpdu-data.md)   
+ [Set Up Data Exports for GDPdU](how-to-set-up-data-exports-for-gdpdu.md)   
+ [Export GDPdU Data](how-to-export-gdpdu-data.md)   
  [Walkthrough: Exporting GDPdU Data](walkthrough-exporting-gdpdu-data.md)   
  [Germany Local Functionality](germany-local-functionality.md)

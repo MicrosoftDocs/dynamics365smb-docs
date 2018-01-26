@@ -15,14 +15,14 @@
     ms.author: sgroespe
 
 ---
-# How to: Combine Shipments on a Single Invoice
+# Combine Shipments on a Single Invoice
 If you want to invoice more than one shipment at a time, you can use the combined shipments feature.  
 
  Before you can create a combined shipment, more than one sales shipment for the same customer in the same currency must be posted. In other words, you must have filled in two or more sales orders and posted them as shipped, but not invoiced. To combine shipments, the **Combine Shipments** check box must be selected on the **Shipping** FastTab of the **Customer** card.  
 
 ## To manually combine shipments on a single invoice  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Invoices**, and then choose the related link.  
-2. Choose the **New** action. For more information, see [How to: Invoice Sales](sales-how-invoice-sales.md).
+2. Choose the **New** action. For more information, see [Invoice Sales](sales-how-invoice-sales.md).
 3. In the **Sell-to Customer No.** field, enter the customer who will receive the invoice for the shipped items.  
 4. On the **Lines** FastTab, choose the **Get Shipment Lines** action.  
 5. Select the shipment line that you want to include in the invoice:  

@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Enter Dates and Times
+# Enter Dates and Times
 You can enter dates and times in all the fields that are specifically assigned to dates (date fields).  
   
  How you enter dates depends on the settings that have been selected in the Regional and Language Options window in the Control Panel. You can enter dates with or without separators.  

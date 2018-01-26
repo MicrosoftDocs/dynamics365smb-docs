@@ -22,7 +22,7 @@ In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can electronically submi
 ## Sales VAT Advance Notifications  
 [!INCLUDE[navnow](../../includes/navnow_md.md)] creates an XML document containing tax and base amounts, along with company information. You can validate the data before submitting it to the tax authorities. You can set up the XML document using the layout that is defined in the tax authorities' style sheet. You can then transmit the XML document to the tax authorities' Elektronische Steuererklärungen (ELSTER) online portal interface.  
 
-You must first set up [!INCLUDE[navnow](../../includes/navnow_md.md)] to be able to submit sales VAT advance notifications to the ELSTER online portal. For more information, see [How to: Set Up Sales VAT Advance Notifications for ELSTER](how-to-set-up-sales-vat-advance-notifications-for-elster.md). You can later create and transmit the sales VAT advance notification. For more information, see [How to: Create and Submit Sales VAT Advance Notifications](how-to-create-and-submit-sales-vat-advance-notifications.md).
+You must first set up [!INCLUDE[navnow](../../includes/navnow_md.md)] to be able to submit sales VAT advance notifications to the ELSTER online portal. For more information, see [Set Up Sales VAT Advance Notifications for ELSTER](how-to-set-up-sales-vat-advance-notifications-for-elster.md). You can later create and transmit the sales VAT advance notification. For more information, see [Create and Submit Sales VAT Advance Notifications](how-to-create-and-submit-sales-vat-advance-notifications.md).
 
 The tax authorities' server processes the submitted XML document, and sends an XML document in response. This response document displays codes and descriptions for errors that occurred during the processing of the submitted XML document. The XML documents are encrypted during transmission. For more information, see the [ELSTER online portal](http://go.microsoft.com/fwlink/?LinkId=155998).  
 
@@ -46,7 +46,7 @@ You must then list the users and the friendly names of the certificates in the *
 
 If you use a proxy server to submit the ELSTER documents, you must specify the settings in the **Electronic VAT Decl. Setup** window.  
 
-For more information, see [How to: Set Up Sales VAT Advance Notifications for ELSTER](how-to-set-up-sales-vat-advance-notifications-for-elster.md).  
+For more information, see [Set Up Sales VAT Advance Notifications for ELSTER](how-to-set-up-sales-vat-advance-notifications-for-elster.md).  
 
 ## Certificates and Style Sheets  
 Your company must register at the ELSTER online portal so that you can acquire the necessary certificates. If you have already registered, you do not have to register again.  
@@ -70,6 +70,6 @@ In the **Sales VAT Adv. Notification List** window, you can create and submit sa
 After you have submitted a document to ELSTER, an entry is made in the **VAT Transmission Log Entries** window. When the ELSTER online portal processed the submitted document, errors can occur, and [!INCLUDE[navnow](../../includes/navnow_md.md)] displays an error message that is based on the error code from ELSTER. In most cases, the error is caused by problems with the user-specific certificate or with network connectivity. For more information, see [Error Messages of the ElsterTransferHandler and ELSTER Transmission Overview](error-messages-of-the-elstertransferhandler.md).
 
 ## See Also  
- [How to: Set Up Sales VAT Advance Notifications for ELSTER](how-to-set-up-sales-vat-advance-notifications-for-elster.md)   
- [How to: Create and Submit Sales VAT Advance Notifications](how-to-create-and-submit-sales-vat-advance-notifications.md)   
+ [Set Up Sales VAT Advance Notifications for ELSTER](how-to-set-up-sales-vat-advance-notifications-for-elster.md)   
+ [Create and Submit Sales VAT Advance Notifications](how-to-create-and-submit-sales-vat-advance-notifications.md)   
  [ELSTER online portal](http://go.microsoft.com/fwlink/?LinkId=155998)

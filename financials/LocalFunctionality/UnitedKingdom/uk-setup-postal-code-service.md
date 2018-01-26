@@ -1,5 +1,5 @@
 ---
-title: 'How to: Set Up the GetAddress.io UK Postcodes Extension | Microsoft Docs'
+title: 'Set Up the GetAddress.io UK Postcodes Extension | Microsoft Docs'
 description: Describes the general functionality you use to interact with data in Dynamics 365, Business edition, such as entering values, sorting data, and changing views.
 author: bholtorf
 ms.service: dynamics365-financials
@@ -12,7 +12,7 @@ ms.date: 07/17/2017
 ms.author: bholtorf
 
 ---
-# How to: Set Up the GetAddress.io UK Postcodes Extension
+# Set Up the GetAddress.io UK Postcodes Extension
 This extension makes it easy to enter addresses in the UK for entities like customers, contacts, employees, vendors, bank accounts, and so on.
 
 The GetAddress.io UK Postcodes extension uses the getAddress API to find addresses in postcodes in the UK. To use the extension, you need to get a plan and an API Key for the getAddress API. That's easy, and we help you do that when you set up the GetAddress.io UK Postcodes extension. Plans are based on use, or what's sometimes referred to as calls. A call, in this case, is when [!INCLUDE[d365fin](../../includes/d365fin_md.md)] displays a list of addresses in a postcode. Depending on how often you add addresses, choose the plan that is best for you. If you just choose **Get API Key** in the page, you'll use the **Free** plan, which lets you add 20 addresses per day, and is valid for 30 days.

@@ -16,8 +16,8 @@
     ms.author: sgroespe
 
 ---
-# How to: Create Electronic Documents for EHF
-When you sell goods or services to a customer in the public sector, you must submit documents electronically.  In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can create electronic documents for invoices, credit memos, reminders, and finance charge memos. Before you can create the electronic documents, you must have set up file locations and information about the customers. For more information, see [How to: Set Up EHF](how-to-set-up-ehf.md) and [How to: Set Up Customers for EHF](how-to-set-up-customers-for-ehf.md).
+# Create Electronic Documents for EHF
+When you sell goods or services to a customer in the public sector, you must submit documents electronically.  In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can create electronic documents for invoices, credit memos, reminders, and finance charge memos. Before you can create the electronic documents, you must have set up file locations and information about the customers. For more information, see [Set Up EHF](how-to-set-up-ehf.md) and [Set Up Customers for EHF](how-to-set-up-customers-for-ehf.md).
 
 Electronic documents can only be created after a document has been posted or issued. The following procedures describe how to post a sales invoice with the required information and then create an electronic sales invoice, but the same steps also apply to sales credit memos, reminders, finance charge memos, service invoices, and service credit memos.  
 

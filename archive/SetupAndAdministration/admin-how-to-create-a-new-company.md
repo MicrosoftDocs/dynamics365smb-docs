@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Create a New Company
+# Create a New Company
 To use RapidStart Services tables and pages are created, but there is no data in them.  
 
  In addition, you can apply specific setup data to your company after you initialize it. The information is provided in a configuration package, a .rapidstart file, which delivers content in a compressed format.  
@@ -34,7 +34,7 @@ To use RapidStart Services tables and pages are created, but there is no data in
 
 ### To create a new company  
 
-1.  Create a new company. For more information, see [How to: Create Companies](../How%20to:%20Create%20Companies.md) and information on the <xref:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVCompany> cmdlet.  
+1.  Create a new company. For more information, see [Create Companies](../How%20to:%20Create%20Companies.md) and information on the <xref:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVCompany> cmdlet.  
 
 2.  Switch to the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/-$-s_company-how-to-select-a-company-$-.md).  
 

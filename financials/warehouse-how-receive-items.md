@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Receive Items
+# Receive Items
 When items arrive at a warehouse that is not set up for warehouse receipt processing, you simply record the receipt on the related business document, such as a purchase order, a sales return order, or an inbound transfer order.
 
 When items arrive at a warehouse that is set up for warehouse receipt processing, you must retrieve the lines of the released source document that triggered their receipt. If you have bins, you can either accept the default bin that is filled in, or if the item has never been used before in the warehouse, fill in the bin where the item should be put away. You must then fill in the quantities of the items you have received, and post the receipt.  
@@ -23,7 +23,7 @@ When items arrive at a warehouse that is set up for warehouse receipt processing
 ## To receive items with a purchase order
 The following describes how to receive items with a purchase order. The steps are similar for sales return orders and transfer orders.  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Orders**, and then choose the related link.
-2. Open an existing purchase order, or create a new one. For more information, see [How to: Record Purchases](purchasing-how-record-purchases.md).
+2. Open an existing purchase order, or create a new one. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 3. In the **Qty. to Receive** field, enter the received quantity.
 
     The value in the **Qty. Received** field is updated. If this is a partial receipt, then the value is lower than the value in the **Quantity** field.

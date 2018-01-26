@@ -257,17 +257,17 @@ All fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] have tooltips. Therefo
 
 |Topic title |Naming  |
 |------------|--------|
-|How to: Select a Company|ui-how-select-company.md|
+|Select a Company|ui-how-select-company.md|
 |Enter Criteria in Filters|ui-enter-criteria-filters.md|
 |Troubleshooting: Record Locked by Another User|ui-troubleshoot-record-locked-another-user.md|
 |Changing Role Center|ui-change-role-center.md|
 |||
 |Set Up Currencies|finance-setup-currencies.md|
-|How to: Set Up Purchasers|purchases-how-setup-purchasers.md|
+|Set Up Purchasers|purchases-how-setup-purchasers.md|
 |Understanding Session Timeouts|admin-understand-session-timeouts.md|
 |Manage Data Encryption|admin-manage-data-encryption.md|
 |||
-|How to: Work With GIFI Codes in Canada|ca-finance-work-GiFI-codes.md|
+|Work With GIFI Codes in Canada|ca-finance-work-GiFI-codes.md|
 
 Naming consists of the following elements: ```<country prefix>-<category prefix>-<topic title>.<extension>```
 
@@ -277,7 +277,7 @@ To simplify content localization and translation, country-specific articles live
 To give readers the impression that the content library is truly country-specific, while maintaining the simple file structure, we integrate country-specific articles in a subtle way by following these guidelines:
 
 - Prefix article file names with the country code. Example: ```ca-``` for Canada.
-- End article titles with ```in <country>```. Example: "How to: Work With GIFI Codes in Canada".
+- End article titles with ```in <country>```. Example: "Work With GIFI Codes in Canada".
 - Link to country-specific content from generic content whenever relevant. The more you link to and from country-specific content, the more integrated it will feel. As for all other links, the link name must be the same as the title of the target article.
-- In navigation tables; the To/See tables in top-level topics, create rows for country-specific references at the bottom of the table. Prefix the text in the **To** column with ```<country>:``` Example: "Canada: How to: Work With GIFI Codes in Canada".
+- In navigation tables; the To/See tables in top-level topics, create rows for country-specific references at the bottom of the table. Prefix the text in the **To** column with ```<country>:``` Example: "Canada: Work With GIFI Codes in Canada".
 - Do not create TOC entries for country-specific content. TOC entries will make the content library appear less country-specific.

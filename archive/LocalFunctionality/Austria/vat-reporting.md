@@ -30,4 +30,4 @@ You can print the following local VAT reports.
 
 ## See Also  
 [How To: Report VAT to the Tax Authorities](../../finance-how-report-vat.md)  
-[How to: Work with VAT on Sales and Purchases](../../finance-work-with-vat.md)
+[Work with VAT on Sales and Purchases](../../finance-work-with-vat.md)

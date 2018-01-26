@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Modify a Custom Report Layout
+# Modify a Custom Report Layout
 This topic describes how to modify a custom layout that is available for a ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/nav_web_md.md)]--> client, you can only modify a report layout by exporting and importing the report layout as a file.  
   
  There two different report layout types: Word report layouts and RDLC report layouts. You modify Word report layouts by using Microsoft Word and RDLC report layouts by using SQL Server Report Builder.  
@@ -93,7 +93,7 @@ This topic describes how to modify a custom layout that is available for a ADD I
   
          If you are designing a Word report layout from scratch or adding new data fields, then start by adding a table that includes rows and columns that will eventually hold the data fields.  
   
-    -   For information about adding fields for data, labels, data, and images, see [How to: Add Fields to a Word Report Layout](../FullExperience/how-to-add-fields-to-a-word-report-layout.md).  
+    -   For information about adding fields for data, labels, data, and images, see [Add Fields to a Word Report Layout](../FullExperience/how-to-add-fields-to-a-word-report-layout.md).  
   
     -   For information about removing a label or data field, see [Removing Label and Data Fields in Word Layouts](../WorkingWithDynamics/how-to-modify-a-custom-report-layout.md#RemoveField).  
   
@@ -118,6 +118,6 @@ This topic describes how to modify a custom layout that is available for a ADD I
 ## See Also  
  [Managing Report Layouts From the Microsoft Dynamics NAV Clients](../FullExperience/managing-report-layouts-from-the-microsoft-dynamics-nav-clients.md)   
  [About Report Layouts](../FullExperience/about-report-layouts.md)   
- [How to: Create a Custom Report Layout](../FullExperience/how-to-create-a-custom-report-layout.md)   
- [How to: Add Fields to a Word Report Layout](../FullExperience/how-to-add-fields-to-a-word-report-layout.md)   
- [How to: Create a Custom Report Layout](../FullExperience/how-to-create-a-custom-report-layout.md)
+ [Create a Custom Report Layout](../FullExperience/how-to-create-a-custom-report-layout.md)   
+ [Add Fields to a Word Report Layout](../FullExperience/how-to-add-fields-to-a-word-report-layout.md)   
+ [Create a Custom Report Layout](../FullExperience/how-to-create-a-custom-report-layout.md)

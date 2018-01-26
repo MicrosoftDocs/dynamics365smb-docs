@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Trace Item-Tracked Items
+# Trace Item-Tracked Items
 You can see where an item-tracked item was used, including how and when it was received or produced, transferred, sold, consumed, or returned. You can also find all current instances of a specific serial or lot number in the database. You do this by using the Item Tracing and the Navigate features.  
 
  These features can be particularly useful in quality control when you need to find out which customers received products with a particular lot number or when you need to find out which lot a defective component came from.  
@@ -65,6 +65,6 @@ You can see where an item-tracked item was used, including how and when it was r
 [Inventory](inventory-manage-inventory.md)  
 [Design Details: Item Tracking](design-details-item-tracking.md)
 [Design Details - Item Tracking and Reservations](design-details-item-tracking-and-reservations.md)  
-[How to: Reserve Items](inventory-how-to-reserve-items.md)  
+[Reserve Items](inventory-how-to-reserve-items.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)

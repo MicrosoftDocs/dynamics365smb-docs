@@ -29,4 +29,4 @@ In order to increase security, all types of taxes and tax reports must be submit
 
 ## See Also  
 [BZSt Online Portal](http://www.bzst.de)   
-[How to: Create VAT Reports](how-to-create-vat-reports.md)
+[Create VAT Reports](how-to-create-vat-reports.md)

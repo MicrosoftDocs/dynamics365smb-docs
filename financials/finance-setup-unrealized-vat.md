@@ -16,7 +16,7 @@ ms.author: bholtorf
 
 ---
 
-# How to: Set Up Unrealized VAT for Cash-Based Accounting
+# Set Up Unrealized VAT for Cash-Based Accounting
 If you're using cash-based accounting methods, you can set up [!INCLUDE[d365fin](includes/d365fin_md.md)] to handle unrealized VAT.
 
 ## To use general ledger accounts for unrealized VAT

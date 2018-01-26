@@ -15,7 +15,7 @@ ms.date: 06/02/2017
 ms.author: jswymer
 
 ---
-# How to: Close Accounting Periods
+# Close Accounting Periods
 When a fiscal year is over, you must close the periods that comprise it.
 
 ## To close accounting periods
@@ -36,6 +36,6 @@ After a fiscal year is closed, you must close the income statement accounts and 
 
 ## See Also
 [Closing Books](year-close-books.md)  
-[How to: Post the Year-End Closing Entry](year-how-post-year-end-close-entry.md)  
-[How to: Open a New Fiscal Year](finance-how-open-new-fiscal-year.md)  
+[Post the Year-End Closing Entry](year-how-post-year-end-close-entry.md)  
+[Open a New Fiscal Year](finance-how-open-new-fiscal-year.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -25,4 +25,4 @@ You can send documents such as invoices as email using your business email addre
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Using Dynamics 365, Business edition as your Business Inbox in Outlook](madeira-outlook.md)  
 [Getting Dynamics 365, Business edition on my Mobile Device](install-mobile-app.md)  
-[How to: Send Documents by Email](ui-how-send-documents-email.md)
+[Send Documents by Email](ui-how-send-documents-email.md)

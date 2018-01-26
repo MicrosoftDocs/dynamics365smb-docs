@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Assign Delivery Reminder Codes to Vendors
+# Assign Delivery Reminder Codes to Vendors
 In order to enable delivery reminders for overdue purchases, you must assign delivery reminder terms to vendors. For more information, see [Delivery Reminders](delivery-reminders.md).  
 
 ## To assign delivery reminders codes to vendors  
@@ -27,9 +27,9 @@ In order to enable delivery reminders for overdue purchases, you must assign del
 4.  Choose the **OK** button.  
 
 ## See Also  
- [How to: Register New Vendors](../../purchasing-how-register-new-vendors.md)   
+ [Register New Vendors](../../purchasing-how-register-new-vendors.md)   
  [Delivery Reminders](delivery-reminders.md)   
- [How to: Set Up Delivery Reminders](how-to-set-up-delivery-reminders.md)   
- [How to: Set Up Delivery Reminder Terms, Levels, and Text](how-to-set-up-delivery-reminder-terms-levels-and-text.md)   
- [How to: Create Delivery Reminders Manually](how-to-create-delivery-reminders-manually.md)   
- [How to: Issue Delivery Reminders](how-to-issue-delivery-reminders.md)
+ [Set Up Delivery Reminders](how-to-set-up-delivery-reminders.md)   
+ [Set Up Delivery Reminder Terms, Levels, and Text](how-to-set-up-delivery-reminder-terms-levels-and-text.md)   
+ [Create Delivery Reminders Manually](how-to-create-delivery-reminders-manually.md)   
+ [Issue Delivery Reminders](how-to-issue-delivery-reminders.md)

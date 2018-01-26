@@ -13,7 +13,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Work with Blanket Sales Orders
+# Work with Blanket Sales Orders
 A blanket sales order represents a framework for a long-term agreement between you and your customer.
 
 A blanket order is typically made when a customer has committed to purchasing large quantities that are to be delivered in several smaller shipments over a certain period of time. Often blanket orders cover only one item with predetermined delivery dates. The main reason for using a blanket order rather than a sales order is that quantities entered on a blanket order do not affect item availability and thus can be used as a worksheet for monitoring, forecasting, and planning purposes.

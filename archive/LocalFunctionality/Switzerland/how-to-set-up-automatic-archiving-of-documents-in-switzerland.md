@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Automatic Archiving of Documents in Switzerland
+# Set Up Automatic Archiving of Documents in Switzerland
 You can set up automatic archiving of sales documents and purchase documents—such as quotes, blanket orders, and orders—before you delete documents.  
 
 The following procedure describes how to set up automatic archiving of sales documents, but the same steps apply to purchase documents.  
@@ -37,6 +37,6 @@ The following procedure describes how to set up automatic archiving of sales doc
 
 ## See Also  
  [Swiss Purchase Documents and Sales Documents](swiss-purchase-documents-and-sales-documents.md)   
- [How to: Import Swiss Post Codes](how-to-import-swiss-post-codes.md)   
- [How to: Print an Inventory Picking List from a Sales Order](how-to-print-an-inventory-picking-list-from-a-sales-order.md)   
- [How to: Print Sales and Purchase Orders During Batch Posting](how-to-print-sales-and-purchase-orders-during-batch-posting.md)
+ [Import Swiss Post Codes](how-to-import-swiss-post-codes.md)   
+ [Print an Inventory Picking List from a Sales Order](how-to-print-an-inventory-picking-list-from-a-sales-order.md)   
+ [Print Sales and Purchase Orders During Batch Posting](how-to-print-sales-and-purchase-orders-during-batch-posting.md)

@@ -31,10 +31,10 @@ With your customer’s consent, you can collect payments directly from the custo
 
 |**To**|**See**|  
 |------------|-------------|  
-|Prepare bank account formats, payment methods, and customer agreements for SEPA direct debit.|[How to: Set Up SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)|  
-|Instruct your bank to transfer payment amounts from your customers’ bank accounts to your company’s account according to your setup of SEPA direct debit.|[How to: Create SEPA Direct Debit Collection Entries and Export to a Bank File](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)|  
-|Set up standard customer sales codes for direct-debit invoices and generate sales invoices with direct-debit information when the invoices are due for payment.|[How to: Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)|  
-|Post payments made as SEPA direct debits.|[How to: Post SEPA Direct Debit Payment Receipts](finance-how-to-post-sepa-direct-debit-payment-receipts.md)|  
+|Prepare bank account formats, payment methods, and customer agreements for SEPA direct debit.|[Set Up SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)|  
+|Instruct your bank to transfer payment amounts from your customers’ bank accounts to your company’s account according to your setup of SEPA direct debit.|[Create SEPA Direct Debit Collection Entries and Export to a Bank File](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)|  
+|Set up standard customer sales codes for direct-debit invoices and generate sales invoices with direct-debit information when the invoices are due for payment.|[Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)|  
+|Post payments made as SEPA direct debits.|[Post SEPA Direct Debit Payment Receipts](finance-how-to-post-sepa-direct-debit-payment-receipts.md)|  
 
 ## See Also  
 [Managing Receivables](receivables-manage-receivables.md)

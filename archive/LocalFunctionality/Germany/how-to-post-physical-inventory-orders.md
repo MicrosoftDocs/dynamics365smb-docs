@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Post Physical Inventory Orders
+# Post Physical Inventory Orders
 After completing a physical inventory order and changing its status to **Finished**, you can post it.  
 
 You can set the status of a physical inventory order to **Finished** if the following is true:  
@@ -54,4 +54,4 @@ After posting the order, you can view the posted physical inventory orders. Post
 
 ## See Also  
  [Physical Inventory Documents](physical-inventory-documents.md)   
- [How to: Enter Physical Inventory Orders](how-to-enter-physical-inventory-orders.md)
+ [Enter Physical Inventory Orders](how-to-enter-physical-inventory-orders.md)

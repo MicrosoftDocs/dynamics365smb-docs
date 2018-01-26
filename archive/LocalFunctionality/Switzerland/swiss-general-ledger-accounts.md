@@ -44,8 +44,8 @@ When you manually enter amounts in the journal, the positive and negative signs 
 The amounts for customer invoices, vendor credit memos, and payments must be positive. The amounts for vendor invoices, customer credit memos, and payments must be negative.  
 
 ## Viewing Temporary Balances in General Journals  
-Before posting a general journal you can preview the effect that posting would have on the balances of certain general ledger accounts. You can open a statistics window that shows the balances of the accounts, and the balances of the active lines that included the unposted values for the current journal. For more information, see [How to: View Temporary Balances in General Ledger Journals](how-to-view-temporary-balances-in-general-ledger-journals.md).  
+Before posting a general journal you can preview the effect that posting would have on the balances of certain general ledger accounts. You can open a statistics window that shows the balances of the accounts, and the balances of the active lines that included the unposted values for the current journal. For more information, see [View Temporary Balances in General Ledger Journals](how-to-view-temporary-balances-in-general-ledger-journals.md).  
 
 ## See Also  
- [How to: View Temporary Balances in General Ledger Journals](how-to-view-temporary-balances-in-general-ledger-journals.md)   
+ [View Temporary Balances in General Ledger Journals](how-to-view-temporary-balances-in-general-ledger-journals.md)   
  [Switzerland Local Functionality](switzerland-local-functionality.md)

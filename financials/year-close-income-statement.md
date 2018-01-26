@@ -15,11 +15,11 @@ ms.date: 06/02/2017
 ms.author: jswymer
 
 ---
-# How to: Close Income Statement Accounts
+# Close Income Statement Accounts
 When a fiscal year is over, you must close the periods that comprise it. To do this, you run the **Close Income Statement** batch job. This job transfers the year's result to an account in the balance sheet and closes the income statement accounts. You do this by creating lines in a journal, which you then can post.
 
 ## To run the Close Income Statement batch job
-1. Close the fiscal year. The fiscal year must closed before the batch job can be run. For more information, see [How to: Close Accounting Periods](year-close-account-periods.md).
+1. Close the fiscal year. The fiscal year must closed before the batch job can be run. For more information, see [Close Accounting Periods](year-close-account-periods.md).
 2. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Close Income Statement**, and then choose the related link.
 3. Choose the **OK** button to run the batch job.
 
@@ -34,6 +34,6 @@ The **Close Income Statement** batch job can be used several times. You can post
 
 ## See Also
 [Closing Books](year-close-books.md)  
-[How to: Post the Year-End Closing Entry](year-how-post-year-end-close-entry.md)  
-[How to: Open a New Fiscal Year](finance-how-open-new-fiscal-year.md)  
+[Post the Year-End Closing Entry](year-how-post-year-end-close-entry.md)  
+[Open a New Fiscal Year](finance-how-open-new-fiscal-year.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

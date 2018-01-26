@@ -14,7 +14,7 @@ ms.date: 01/16/2017
 ms.author: solsen
 
 ---
-# How to: Set Up Extended Item Text
+# Set Up Extended Item Text
 You can extend a standard text for items by adding extra lines, and you can set up conditions for use of the extra lines. You do this from item cards.
 
 ## To define extended text for an item description

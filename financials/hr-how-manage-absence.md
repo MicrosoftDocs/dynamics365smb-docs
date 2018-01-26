@@ -1,5 +1,5 @@
 ---
-title: 'How to: Manage Employee Absence| Microsoft Docs'
+title: 'Manage Employee Absence| Microsoft Docs'
 description: Describes how to record employees' absence and analyze absence statistics.
 services: project-madeira
 documentationcenter: ''
@@ -14,7 +14,7 @@ ms.date: 09/08/2017
 ms.author: SorenGP
 
 ---
-# How to: Manage Employee Absence
+# Manage Employee Absence
 To manage an employee's absence, you must record the absence in the **Absence Registration** window. It can then be viewed in different ways for analysis and reporting needs.
 
 You can view employee absence in two different windows:

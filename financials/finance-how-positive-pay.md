@@ -15,7 +15,7 @@ ms.date: 06/16/2017
 ms.author: sgroespe
 
 ---
-# How to: Export a Positive Pay file
+# Export a Positive Pay file
 To make sure that your bank only clears validated checks and amounts, you can export a Positive Pay file that contains vendor information, check number, and payment amount, which you send to the bank for reference when you process payments.
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is preconfigured to support Positive Pay files for Bank of America and City Bank.

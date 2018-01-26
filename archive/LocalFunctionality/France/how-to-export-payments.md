@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Export Payments
+# Export Payments
 The Payment Management module allows you to export your payments electronically via a text file or XMLport.  
 
 ## To export payments  
@@ -32,5 +32,5 @@ The Payment Management module allows you to export your payments electronically 
 The next time you make a payment that is based on this payment step, the payments will be exported to a file as specified.  
 
 ## See Also  
- [How to: Set Up Payment Classes](how-to-set-up-payment-classes.md)   
- [How to: Set Up Payment Steps](how-to-set-up-payment-steps.md)
+ [Set Up Payment Classes](how-to-set-up-payment-classes.md)   
+ [Set Up Payment Steps](how-to-set-up-payment-steps.md)

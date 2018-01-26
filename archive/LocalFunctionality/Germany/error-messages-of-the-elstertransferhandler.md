@@ -49,4 +49,4 @@ The following table lists the error messages that the ELSTER portal sends to [!I
 
 ## See Also  
  [ELSTER Transmission Overview](elster-transmission-overview.md)   
- [How to: Set Up Sales VAT Advance Notifications for ELSTER](how-to-set-up-sales-vat-advance-notifications-for-elster.md)
+ [Set Up Sales VAT Advance Notifications for ELSTER](how-to-set-up-sales-vat-advance-notifications-for-elster.md)

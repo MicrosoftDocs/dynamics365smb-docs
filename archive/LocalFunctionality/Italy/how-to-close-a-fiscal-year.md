@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Close a Fiscal Year
+# Close a Fiscal Year
 To evaluate profit and loss, a fiscal year closing report is provided at the end of each fiscal year.  
 
 Fiscal year closing involves the following steps:  

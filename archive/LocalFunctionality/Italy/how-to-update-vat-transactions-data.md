@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Update VAT Transactions Data
+# Update VAT Transactions Data
 Before you create the first VAT transaction report, you should prepare the existing data by running the **Update VAT Transaction Data** report. You should also run this report if you have made changes to the setup based on new requirements from the tax authorities.  
 
 You can run the **Update VAT Transaction Data** report as a test before you change any data. When you have verified that the filters meet your expectations and the requirements of the tax authorities, you should run the report again to make the appropriate changes to data.  
@@ -45,5 +45,5 @@ When you run the report, [!INCLUDE[navnow](../../includes/navnow_md.md)] process
 
 ## See Also  
 [Set Up VAT](../../finance-setup-vat.md)  
- [How to: Prepare for VAT Transactions Reports](how-to-prepare-for-vat-transactions-reports.md)   
+ [Prepare for VAT Transactions Reports](how-to-prepare-for-vat-transactions-reports.md)   
  [Italian VAT](italian-vat.md)   

@@ -74,5 +74,5 @@ A report layout is a document that acts as a template that defines the appearanc
 ## See Also  
  [Deciding Whether to use a Word or RDLC Report Layout](../FullExperience/deciding-whether-to-use-a-word-or-rdlc-report-layout.md)   
  [Managing Report Layouts From the Microsoft Dynamics NAV Clients](../FullExperience/managing-report-layouts-from-the-microsoft-dynamics-nav-clients.md)   
- [How to: Create a Custom Report Layout](../FullExperience/how-to-create-a-custom-report-layout.md)   
- [How to: Modify a Custom Report Layout](../FullExperience/how-to-modify-a-custom-report-layout.md)
+ [Create a Custom Report Layout](../FullExperience/how-to-create-a-custom-report-layout.md)   
+ [Modify a Custom Report Layout](../FullExperience/how-to-modify-a-custom-report-layout.md)

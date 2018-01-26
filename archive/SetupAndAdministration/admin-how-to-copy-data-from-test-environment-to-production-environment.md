@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Copy Data from Test Environment to Production Environment
+# Copy Data from Test Environment to Production Environment
 After you have vetted and tested all your setup information, you can proceed with copying data to your production environment. You create a new company in the same database.  
   
 ### To copy data to a production environment  

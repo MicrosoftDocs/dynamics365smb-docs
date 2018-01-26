@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Create Additional Sheets
+# Create Additional Sheets
 In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can create additional sheets based on VAT purchase ledgers and VAT sales ledgers.  
   
 ### To create entries for an additional sheet for a VAT purchase or sales ledger  

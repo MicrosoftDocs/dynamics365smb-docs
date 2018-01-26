@@ -15,7 +15,7 @@ ms.date: 06/15/2017
 ms.author: jswymer
 
 ---
-# How to: Create Interactions on Contacts and Segments
+# Create Interactions on Contacts and Segments
 You can create interactions to record all the interactions and communications you have with your contacts and segments, for example, direct mail.
 
 Before you create interactions, you must set up interaction templates. For more information, see  [Set Up Interaction Templates](marketing-interactions.md).

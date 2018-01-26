@@ -247,4 +247,4 @@ You use the VAT rate change tool to manage changes in the standard rate of VAT. 
 ## See Also  
 [Setting Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)  
 [How To: Report VAT to a Tax Authority](finance-how-report-vat.md)  
-[How to: Work with VAT on Sales and Purchases](finance-work-with-vat.md)  
+[Work with VAT on Sales and Purchases](finance-work-with-vat.md)  

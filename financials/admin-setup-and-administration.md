@@ -29,8 +29,8 @@ The following table describes a sequence of tasks, with links to the topics that
 |Add users, manage permissions and access to data, assign roles.|[Users, Profiles, and Role Centers in Dynamics 365, Business edition](admin-users-profiles-roles.md)|  
 |Track all direct modifications that users make to data in the database to identify the origin of errors and data changes.|[Logging Changes in Dynamics 365, Business edition](across-log-changes.md)|  
 |Support your setup decisions with recommendations for selected fields that are known to potentially cause the solution to be inefficient if set up incorrectly|[Set Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)|  
-|Expose pages, codeunits, and queries as web services.|[How to: Publish a Web Service](across-how-publish-web-service.md)|  
-|Set up an SMTP server to enable e-mail communication in and out of Dynamics 365, Business edition| [How to: Set Up Email Manually or Using the Assisted Setup](madeira-how-setup-email.md)|  
+|Expose pages, codeunits, and queries as web services.|[Publish a Web Service](across-how-publish-web-service.md)|  
+|Set up an SMTP server to enable e-mail communication in and out of Dynamics 365, Business edition| [Set Up Email Manually or Using the Assisted Setup](madeira-how-setup-email.md)|  
 |Enter single or recurring requests to run reports or codeunits.|[Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)|  
 |Manage, delete, or compress documents|[Manage Documents](admin-manage-documents.md)|  
 |Set up a new business unit using templates|[Creating New Companies in [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)|  

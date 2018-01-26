@@ -15,7 +15,7 @@ ms.date: 01/25/2018
 ms.author: edupont
 
 ---
-# How to: Enable Application of Ledger Entries in Different Currencies
+# Enable Application of Ledger Entries in Different Currencies
 If you purchase from a vendor in one currency and submit payment in another currency, you can apply the payment to the purchase.
 
 Likewise, if you sell to a customer in one currency and receive payment in another currency, you can apply the payment to the sales invoice.

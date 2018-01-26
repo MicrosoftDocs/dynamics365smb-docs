@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Calculate and Post Withholding Tax Settlements
+# Calculate and Post Withholding Tax Settlements
 You can use the **Calc. and Post WHT Settlement** window to calculate and post the withholding tax (WHT).  
 
 You can close WHT entries that are open or not settled and transfer the corresponding amount to the WHT settlement account.  
@@ -48,6 +48,6 @@ The sum of all withheld amounts is reported as a truncated whole number to the A
 
 ## See Also  
  [Withholding Tax](withholding-tax.md)   
- [How to: Set Up Withholding Tax](how-to-set-up-withholding-tax.md)   
- [How to: Set Up Revenue Types for Withholding Tax](how-to-set-up-revenue-types-for-withholding-tax.md)   
- [How to: View Withholding Tax Entries](how-to-view-withholding-tax-entries.md)
+ [Set Up Withholding Tax](how-to-set-up-withholding-tax.md)   
+ [Set Up Revenue Types for Withholding Tax](how-to-set-up-revenue-types-for-withholding-tax.md)   
+ [View Withholding Tax Entries](how-to-view-withholding-tax-entries.md)

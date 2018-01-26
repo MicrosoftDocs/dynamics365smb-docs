@@ -15,10 +15,10 @@
     ms.author: sgroespe
 
 ---
-# How to: Make Basic UI Changes
+# Make Basic UI Changes
 As basic types of UI personalization, you can change the size and position of any window, the width of columns and the height of column headers, and you can change the sorting of data in columns.  
   
- You can cancel your basic UI changes by opening the **Reset User-Specified Settings** window from your Role Center. For more information, see [How to: Cancel Basic UI Changes and File Handling Decisions](../how-to-cancel-basic-ui-changes-and-file-handling-decisions.md).  
+ You can cancel your basic UI changes by opening the **Reset User-Specified Settings** window from your Role Center. For more information, see [Cancel Basic UI Changes and File Handling Decisions](../how-to-cancel-basic-ui-changes-and-file-handling-decisions.md).  
   
  You perform the main types of UI personalization in the **Customize** window. For more information, see PERSONALIZATION Personalize the User Interface.  
   
@@ -41,8 +41,8 @@ As basic types of UI personalization, you can change the size and position of an
   
 ## See Also  
  PERSONALIZATION Personalize the User Interface   
- [How to: Cancel Basic UI Changes and File Handling Decisions](../how-to-cancel-basic-ui-changes-and-file-handling-decisions.md)   
- [How to: Specify How to Handle External Files and Automation Objects](../how-to-specify-how-to-handle-external-files-and-automation-objects.md)   
+ [Cancel Basic UI Changes and File Handling Decisions](../how-to-cancel-basic-ui-changes-and-file-handling-decisions.md)   
+ [Specify How to Handle External Files and Automation Objects](../how-to-specify-how-to-handle-external-files-and-automation-objects.md)   
  DELETEPERSONALIZATION Reset User-Specified Settings   
  [Sorting](../sorting.md)   
  [Customize the User Interface](../customize-the-user-interface.md)   

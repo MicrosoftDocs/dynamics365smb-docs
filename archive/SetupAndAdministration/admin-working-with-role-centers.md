@@ -49,8 +49,8 @@ A Role Center is a home page in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/
 ## See Also  
  [Customize the User Interface](../customize-the-user-interface.md)   
  [Profiles and Role Centers](../profiles-and-role-centers.md)   
- [How to: Create a Profile](../how-to-create-a-profile.md)   
- [How to: Assign a User to a Profile](../how-to-assign-a-user-to-a-profile.md)   
- [How to: Open Microsoft Dynamics NAV in Configuration Mode](../how-to-open-microsoft-dynamics-nav-in-configuration-mode.md)   
- [How to: Work with the BASIC Permission Set](../how-to-work-with-the-basic-permission-set.md)   
+ [Create a Profile](../how-to-create-a-profile.md)   
+ [Assign a User to a Profile](../how-to-assign-a-user-to-a-profile.md)   
+ [Open Microsoft Dynamics NAV in Configuration Mode](../how-to-open-microsoft-dynamics-nav-in-configuration-mode.md)   
+ [Work with the BASIC Permission Set](../how-to-work-with-the-basic-permission-set.md)   
  [Security Overview](../Security%20Overview.md)

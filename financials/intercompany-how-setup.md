@@ -15,7 +15,7 @@ ms.date: 06/20/2017
 ms.author: sgroespe
 
 ---
-# How to: Set Up Intercompany
+# Set Up Intercompany
 To send a transaction (such as a sales journal line) from one company and have the corresponding transaction (such as a purchase journal line) automatically created in the partner company, the companies involved must agree on a common chart of accounts and set of dimensions for use on intercompany transactions. The intercompany chart of accounts can be, for example, a simplified version of the parent company's chart of accounts. Each company maps their full chart of accounts to the shared intercompany chart of accounts, and each company maps their dimensions to the intercompany dimensions.  
 
 You must also set up an intercompany partner code for each partner company, which is agreed upon by all of the companies, and then assign them to customer and vendor cards respectively by filling in the **Intercompany Partner Code** field.  
@@ -36,7 +36,7 @@ If you will make intercompany sales transactions that include resources, you mus
 ## To set up intercompany vendors and intercompany customers
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.
 2. Alternatively, access the vendor from the **Vendor No.** field in the **Intercompany Partner** window.
-3. Open the card for a vendor that is an intercompany partner. For more information, see [How to: Register New Vendors](purchasing-how-register-new-vendors.md).
+3. Open the card for a vendor that is an intercompany partner. For more information, see [Register New Vendors](purchasing-how-register-new-vendors.md).
 4. In the **Intercompany Partner Code** field, select the relevant intercompany partner code.
 5. Repeat steps 1 through 4 for customers.
 

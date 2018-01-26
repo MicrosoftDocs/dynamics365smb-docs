@@ -25,12 +25,12 @@ Before you can start using electronic banking for domiciliations, you must enter
 
 - Domiciliation number - This is a unique code obtained from the bank which identifies the domiciliation agreement between you, your customer, and the bank. The contract contains details regarding payment frequency, bank account numbers, and amounts. When you send your payments to the bank, the bank will use the domiciliation number to identify all parties involved.  
 
-- Preferred bank account - The preferred bank account will be suggested as a default bank account on all domiciliation suggestions for that customer. If necessary, you can change the bank account before posting the domiciliation suggestions. For more information, see [How to: Generate Domiciliation Suggestions](how-to-generate-domiciliation-suggestions.md).  
+- Preferred bank account - The preferred bank account will be suggested as a default bank account on all domiciliation suggestions for that customer. If necessary, you can change the bank account before posting the domiciliation suggestions. For more information, see [Generate Domiciliation Suggestions](how-to-generate-domiciliation-suggestions.md).  
 
 ## See Also  
  [Belgian Electronic Banking](belgian-electronic-banking.md)   
- [How to: Set Up Domiciliations](how-to-set-up-domiciliations.md)   
- [How to: Generate Domiciliation Suggestions](how-to-generate-domiciliation-suggestions.md)   
- [How to: Test Domiciliations](how-to-test-domiciliations.md)   
- [How to: Edit and Delete Domiciliation Lines](how-to-edit-and-delete-domiciliation-lines.md)   
- [How to: Export and Post Domiciliations](how-to-export-and-post-domiciliations.md)
+ [Set Up Domiciliations](how-to-set-up-domiciliations.md)   
+ [Generate Domiciliation Suggestions](how-to-generate-domiciliation-suggestions.md)   
+ [Test Domiciliations](how-to-test-domiciliations.md)   
+ [Edit and Delete Domiciliation Lines](how-to-edit-and-delete-domiciliation-lines.md)   
+ [Export and Post Domiciliations](how-to-export-and-post-domiciliations.md)

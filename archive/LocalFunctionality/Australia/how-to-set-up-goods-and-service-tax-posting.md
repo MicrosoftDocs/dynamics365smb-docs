@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Goods and Service Tax Posting
+# Set Up Goods and Service Tax Posting
 Goods and services tax (GST) is the tax that is applied on most goods and services. The GST that is paid and received during a period is reported in the Business Activity Statement (BAS) that has to be submitted to the Australian Taxation Office (ATO).  
 
 To set up posting details for GST, you must define the posting groups, rate of GST, and the accounts to which GST is to be posted. You can set up this information for a particular combination business posting groups and product posting groups.  
@@ -42,5 +42,5 @@ You must set up GST posting before you generate the BAS report.
 3.  Choose the **OK** button.  
 
 ## See Also  
- [How to: Report BAS Information](how-to-report-bas-information.md)  
- [How to: Print Goods and Service Tax Settlement Reports](how-to-print-goods-and-service-tax-settlement-reports.md)
+ [Report BAS Information](how-to-report-bas-information.md)  
+ [Print Goods and Service Tax Settlement Reports](how-to-print-goods-and-service-tax-settlement-reports.md)

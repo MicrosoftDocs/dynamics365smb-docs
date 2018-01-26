@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Shop Calendars
+# Set Up Shop Calendars
 A work center or machine calendar specifies the working days and hours, shifts, holidays, and absences that determine the center’s gross available capacity, measured in time, according to its defined efficiency and capacity values.
 
 As a foundation for calculating a specific work or machine center calendar, you must first set up one or more general shop calendars. A shop calendar defines a standard work week according to start and end times of each working day and the work shift relation. In addition, the shop calendar defines the fixed holidays during a year.  
@@ -104,8 +104,8 @@ The calculated work center calendar will now define when and how much capacity i
 The capacity of the selected day has now decreased by the recorded absence time.  
 
 ## See Also  
-[How to: Set Up Base Calendars](across-how-to-assign-base-calendars.md)  
-[How to: Set Up Work Centers and Machine Centers](production-how-to-set-up-work-and-machine-centers.md)  
+[Set Up Base Calendars](across-how-to-assign-base-calendars.md)  
+[Set Up Work Centers and Machine Centers](production-how-to-set-up-work-and-machine-centers.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

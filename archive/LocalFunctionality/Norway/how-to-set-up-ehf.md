@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up EHF
+# Set Up EHF
 You must define a location for storing Elektronisk Handelsformat (EHF) files when you create electronic documents such as invoices or credit memos. You must also define payment methods and set up relevant customers for EHF.  
 
 ## To set up EHF file locations for sales and receivables  
@@ -46,5 +46,5 @@ You must define a location for storing Elektronisk Handelsformat (EHF) files whe
 3.  Choose the **OK** button.  
 
 ## See Also  
- [How to: Set Up Customers for EHF](how-to-set-up-customers-for-ehf.md)   
+ [Set Up Customers for EHF](how-to-set-up-customers-for-ehf.md)   
  [EHF Electronic Invoicing in Norway](ehf-electronic-invoicing-in-norway.md)

@@ -15,12 +15,12 @@ ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---
-# How to: Create Incoming Document Records
+# Create Incoming Document Records
 In the **Incoming Documents** window, you can use different functions to review expense receipts, manage OCR tasks, and convert incoming document files, manually or automatically, to the relevant documents or journal lines. The external files can be attached at any process stage, including to posted documents and to the resulting vendor, customer, and general ledger entries.
 
 To record an external document in [!INCLUDE[d365fin](includes/d365fin_md.md)], you must first create or complete an incoming document record. You can do this manually, or you can take a photo of the external document and then create the incoming document record with the image file attached.
 
-Before you can use the Incoming Documents feature, you must perform the required setup. For more information, see [How to: Set Up Incoming Documents](across-how-setup-income-documents.md).
+Before you can use the Incoming Documents feature, you must perform the required setup. For more information, see [Set Up Incoming Documents](across-how-setup-income-documents.md).
 
 ## To approve or reject an incoming document
 If you do want to allow users to create invoices or general journal lines from incoming document records unless they are approved, you can set up approvers who must approve the records before they can be processed.

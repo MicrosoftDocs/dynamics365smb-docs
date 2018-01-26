@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Open Microsoft Dynamics NAV in Configuration Mode
+# Open Microsoft Dynamics NAV in Configuration Mode
 To configure a profile, for example to customize the profile’s user interface, you must open the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/nav_windows_md.md)]--> in configuration mode.  
   
 ### To open the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/nav_windows_md.md)]--> in configuration mode  
@@ -42,5 +42,5 @@ To configure a profile, for example to customize the profile’s user interface,
   
 ## See Also  
  [Configure the User Interface](../configure-the-user-interface.md)   
- [How to: Create a Profile](../how-to-create-a-profile.md)   
- [How to: Assign a User to a Profile](../how-to-assign-a-user-to-a-profile.md)
+ [Create a Profile](../how-to-create-a-profile.md)   
+ [Assign a User to a Profile](../how-to-assign-a-user-to-a-profile.md)

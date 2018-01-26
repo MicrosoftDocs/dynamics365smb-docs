@@ -26,8 +26,8 @@ The following table describes a sequence of tasks, with links to the topics that
 
 | To | See |
 | --- | --- |
-| Register new employees or edit records for existing employees, and attach related information, such as contracts and articles. |[How to: Register Employees](hr-how-register-employees.md) |
-| Record employees' absence and view absence statistics by various filters. |[How to: Manage Employee Absence](hr-how-manage-absence.md) |
+| Register new employees or edit records for existing employees, and attach related information, such as contracts and articles. |[Register Employees](hr-how-register-employees.md) |
+| Record employees' absence and view absence statistics by various filters. |[Manage Employee Absence](hr-how-manage-absence.md) |
 
 ## See Also
 [Finance](finance.md)  

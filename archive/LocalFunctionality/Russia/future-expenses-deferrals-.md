@@ -31,8 +31,8 @@ To account for future period expenses, you must:
 - Create and post purchase invoices for the future expense.  
 
 ## See Also  
- [How to: Create Future Expense Journals](how-to-create-future-expense-journals.md)   
- [How to: Create and Post a Purchase Invoice on a Future Expense](how-to-create-and-post-a-purchase-invoice-on-a-future-expense.md)   
- [How to: Set Up a Future Expense Card](how-to-set-up-a-future-expense-card.md)   
- [How to: Set Up Future Expenses in a Depreciation Book](how-to-set-up-future-expenses-in-a-depreciation-book.md)   
- [How to: Calculate Future Period Expenses Depreciation](how-to-calculate-future-period-expenses-depreciation.md)
+ [Create Future Expense Journals](how-to-create-future-expense-journals.md)   
+ [Create and Post a Purchase Invoice on a Future Expense](how-to-create-and-post-a-purchase-invoice-on-a-future-expense.md)   
+ [Set Up a Future Expense Card](how-to-set-up-a-future-expense-card.md)   
+ [Set Up Future Expenses in a Depreciation Book](how-to-set-up-future-expenses-in-a-depreciation-book.md)   
+ [Calculate Future Period Expenses Depreciation](how-to-calculate-future-period-expenses-depreciation.md)

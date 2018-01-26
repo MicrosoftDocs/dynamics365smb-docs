@@ -38,9 +38,9 @@ The CFDI file is an XML file that contains:
 >  You will be submitting the electronic invoices to a PAC, which is an authorized service provider appointed by the Mexican tax authorities (SAT).  
 
 ## Getting Started  
-Before you can use [!INCLUDE[navnow](../../includes/navnow_md.md)] for electronic invoicing, you must obtain the appropriate certification, digital stamp, and control numbers from the tax authorities. You must install the certificate on the computer where the CFDI files will be generated. For more information, see [How to: Set Up Electronic Invoicing](how-to-set-up-electronic-invoicing.md). For information about SAT certificates and keys, see the [Servicio de Administracíon Tributaria](http://go.microsoft.com/fwlink/?LinkId=242772) website.
+Before you can use [!INCLUDE[navnow](../../includes/navnow_md.md)] for electronic invoicing, you must obtain the appropriate certification, digital stamp, and control numbers from the tax authorities. You must install the certificate on the computer where the CFDI files will be generated. For more information, see [Set Up Electronic Invoicing](how-to-set-up-electronic-invoicing.md). For information about SAT certificates and keys, see the [Servicio de Administracíon Tributaria](http://go.microsoft.com/fwlink/?LinkId=242772) website.
 
-You also must specify the web services that you will use to communicate with the PAC in order to obtain digital stamps. For more information, see [How to: Set Up PAC Web Services](how-to-set-up-pac-web-services.md).  
+You also must specify the web services that you will use to communicate with the PAC in order to obtain digital stamps. For more information, see [Set Up PAC Web Services](how-to-set-up-pac-web-services.md).  
 
 > [!IMPORTANT]  
 >  SAT has certified more than one PAC in Mexico, and you must obtain the appropriate information to communicate with the PAC of your choice.  
@@ -55,7 +55,7 @@ When you send an electronic invoice or credit memo to your customer, [!INCLUDE[n
 
 If you also want to print the documents, the documents will include a Quick Response (QR) bar code and other information that identifies the related electronic invoice. This information makes the printed document computer-readable and provides a link between the electronic document and the printed document.  
 
-For more information, see [How to: Generate Electronic Invoices](how-to-generate-electronic-invoices.md).  
+For more information, see [Generate Electronic Invoices](how-to-generate-electronic-invoices.md).  
 
 ## Communication Component  
 The [!INCLUDE[navnow](../../includes/navnow_md.md)] component for electronic invoicing deploys in a library assembly, Microsoft.Dynamics.NAV.MX.dll, which is installed automatically when you install the Microsoft Dynamics NAV Windows client. The component handles the communication with the PAC web services and also generates the QR codes that are included in the printed documents. For examples of how to use the Microsoft.Dynamics.NAV.MX.dll assembly, see codeunit 10145 **E-Invoice Mgt.** and codeunit 10147 **E-Invoice Object Factory**.  
@@ -72,6 +72,6 @@ The [!INCLUDE[navnow](../../includes/navnow_md.md)] component for electronic inv
 The PAC returns an XML document that has the original string, but this file also includes a section for the digital stamp. In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can export the XML files for documents that have a digital stamp and learn more about the data that goes into each XML element.  
 
 ## See Also  
- [How to: Set Up Electronic Invoicing](how-to-set-up-electronic-invoicing.md)   
- [How to: Set Up PAC Web Services](how-to-set-up-pac-web-services.md)   
- [How to: Generate Electronic Invoices](how-to-generate-electronic-invoices.md)
+ [Set Up Electronic Invoicing](how-to-set-up-electronic-invoicing.md)   
+ [Set Up PAC Web Services](how-to-set-up-pac-web-services.md)   
+ [Generate Electronic Invoices](how-to-generate-electronic-invoices.md)

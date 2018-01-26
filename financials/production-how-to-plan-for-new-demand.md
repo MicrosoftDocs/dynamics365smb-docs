@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Plan for New Demand Order by Order
+# Plan for New Demand Order by Order
 This planning task can be performed in the **Order Planning** window, which displays all new demand along with availability information and suggestions for supply. It provides the visibility and tools needed to effectively plan demand from sales lines and component lines and then create different types of supply orders directly.  
 
 You can enter the **Order Planning** window in two ways depending on your focus: From an order that you want to plan for specifically or in batch mode because you want to plan for all and any new demand.  

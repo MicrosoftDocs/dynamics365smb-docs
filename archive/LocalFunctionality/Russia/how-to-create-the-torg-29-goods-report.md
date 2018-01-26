@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Create the TORG-29 Goods Report
+# Create the TORG-29 Goods Report
 The TORG-29 report shows the item documents that you can use to submit for receipts and shipments for a location.  
 
 When you run the report for a location, the **Last Goods Report No.** and **Last Goods Report Date** fields in the **Location Card** window are updated to ensure consistent reporting.  

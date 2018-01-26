@@ -20,8 +20,8 @@
 The following topics describe local functionality that is unique to the Norwegian version of [!INCLUDE[navnow](../../includes/navnow_md.md)]  
 
 ## In This Section  
-  [How to: Apply General Ledger Entries in Closed Periods](how-to-apply-general-ledger-entries-in-closed-periods.md)  
-  [How to: Import Payroll Transactions](how-to-import-payroll-transactions.md)  
+  [Apply General Ledger Entries in Closed Periods](how-to-apply-general-ledger-entries-in-closed-periods.md)  
+  [Import Payroll Transactions](how-to-import-payroll-transactions.md)  
   [EHF Electronic Invoicing in Norway](ehf-electronic-invoicing-in-norway.md)  
   [Electronic Banking in Norway](electronic-banking-in-norway.md)  
   [Electronic Payments to Vendors in Norway](electronic-payments-to-vendors-in-norway.md)  

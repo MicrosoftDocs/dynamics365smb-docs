@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Import and Reconcile Bank Statements
+# Import and Reconcile Bank Statements
 Banks provide electronic bank statements for all your financial interactions. You can import these statements into the bank or giro journals.  
 
 The import bank statement is supported by the following protocols:  

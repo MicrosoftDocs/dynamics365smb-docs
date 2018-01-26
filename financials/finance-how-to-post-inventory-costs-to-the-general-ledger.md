@@ -14,12 +14,12 @@ ms.date: 07/05/2017
 ms.author: sgroespe
 
 ---
-# How to: Reconcile Inventory Costs with the General Ledger
+# Reconcile Inventory Costs with the General Ledger
 When you post inventory transactions, such as sales shipments, purchase invoices, or inventory adjustments, the changed item costs are recorded in item value entries. To reflect this change of inventory value in your financial books, the inventory costs are automatically posted to the related inventory accounts in the general ledger. For each inventory transaction that you post, the appropriate values are posted to the inventory account, adjustment account, and COGS account in the general ledger.
 
 Automatic cost posting is defined by the **Automatic Cost Posting** field in the **Inventory Setup** window.
 
-Even though inventory costs are automatically posted to the general ledger, it is still necessary to ensure that the costs of goods are forwarded to the related outbound sales transaction, especially in situations where you sell goods before you invoice the purchase of those goods. This is referred to as cost adjustment. Item costs are automatically adjusted when you post item transactions, but you can also adjust item costs manually. For more information, see [How to: Adjust Item Costs](inventory-how-adjust-item-costs.md).
+Even though inventory costs are automatically posted to the general ledger, it is still necessary to ensure that the costs of goods are forwarded to the related outbound sales transaction, especially in situations where you sell goods before you invoice the purchase of those goods. This is referred to as cost adjustment. Item costs are automatically adjusted when you post item transactions, but you can also adjust item costs manually. For more information, see [Adjust Item Costs](inventory-how-adjust-item-costs.md).
 
 ## To post inventory costs manually
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") ico, enter **Post Inventory Cost to G/L**, and then choose the related link.

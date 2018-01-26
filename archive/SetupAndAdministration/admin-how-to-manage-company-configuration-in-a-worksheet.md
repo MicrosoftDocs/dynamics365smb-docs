@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Manage Company Configuration in a Worksheet
+# Manage Company Configuration in a Worksheet
 The configuration worksheet is the central location in which you can plan, track, and perform your configuration work. You can create a worksheet for each company that you are working with or create a standard configuration worksheet that can be used for configuring multiple identical companies.  
   
  Before you start, make sure that you are on the ADD INCLUDE<!--[!INCLUDE[rim](../../includes/how-to-change-role-centers.md). Choose the RapidStart Profile ID.  
@@ -107,7 +107,7 @@ The configuration worksheet is the central location in which you can plan, track
   
 6.  You can also remove tables. To modify the resulting list of tables, select a table to remove, and on the **Home** tab, choose **Delete**.  
   
- Use the next procedure to specify which table fields to include. After you make this specification, you can export the table into Excel, and use the table structure as a template for gathering customer data. For more information, see [How to: Create a Configuration Template](../how-to-create-a-configuration-template.md).  
+ Use the next procedure to specify which table fields to include. After you make this specification, you can export the table into Excel, and use the table structure as a template for gathering customer data. For more information, see [Create a Configuration Template](../how-to-create-a-configuration-template.md).  
   
 ### To specify a set of fields and records for a configuration table  
   
@@ -157,4 +157,4 @@ The configuration worksheet is the central location in which you can plan, track
 ## See Also  
  Config. Worksheet   
  Get Config. Tables   
- [How to: Create a Configuration Package](../how-to-create-a-configuration-package.md)
+ [Create a Configuration Package](../how-to-create-a-configuration-package.md)

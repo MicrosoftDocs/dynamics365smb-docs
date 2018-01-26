@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Delete Cost Budget Entries
+# Delete Cost Budget Entries
 You use the **Delete Cost Budget Entries** batch job to cancel cost budget entries from the cost budget register.  
 
 To prevent any gaps in the cost budget entries and cost register entries, you cannot delete a single entry or a batch of entries in the middle of the list of register entries.  

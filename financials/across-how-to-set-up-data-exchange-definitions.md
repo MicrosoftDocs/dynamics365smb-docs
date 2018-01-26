@@ -13,10 +13,10 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Data Exchange Definitions
+# Set Up Data Exchange Definitions
 You can set up [!INCLUDE[d365fin](includes/d365fin_md.md)] to exchange data in specific tables with data on external files, for example to send and receive electronic documents, import and export bank data or other data, such as payroll, currency exchange rates, and item catalogues. For more information, see [Exchanging Data Electronically](across-data-exchange.md).  
 
-As preparation for creating a data exchange definition for a data file or stream, you can use the related XML schema to define which data elements to include on the **Column Definitions** FastTab. See step 6 in the “To describe the formatting of lines and columns in the file” section. For more information, see the [How to: Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
+As preparation for creating a data exchange definition for a data file or stream, you can use the related XML schema to define which data elements to include on the **Column Definitions** FastTab. See step 6 in the “To describe the formatting of lines and columns in the file” section. For more information, see the [Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
 You normally set up data exchange definitions in the **Data Exchange Definition** window. However, when you set up a data exchange definition for the service of refreshing currency exchange rates, you start the process in the simplified **Exch. Rate Update Setup Card** window.  
 
@@ -77,7 +77,7 @@ Creating a data exchange definition involves two tasks:
 
 5. Repeat step 4 to create a line for every type of file data that you want to export.  
 
-     Proceed to describe the formatting of columns in the data file by filling the fields on the **Column Definitions** FastTab as described in the table below. You can use the structure file, such as an .XSD file, for the data file to prefill the FastTab with the relevant elements. For more information, see [How to: Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
+     Proceed to describe the formatting of columns in the data file by filling the fields on the **Column Definitions** FastTab as described in the table below. You can use the structure file, such as an .XSD file, for the data file to prefill the FastTab with the relevant elements. For more information, see [Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
 6. On the **Column Definitions** FastTab, choose **Get File Structure**.  
 7. In the **Get File Structure** window, select the related structure file, and then choose the **OK** button. The lines on the **Column Definitions** FastTab are filled according to the structure of the data file.  
@@ -129,7 +129,7 @@ Creating a data exchange definition involves two tasks:
     |**Target Field Caption**|Only visible when the **Use as Intermediate Table** check box is selected.<br /><br /> Specify the name of the field in the target table that the value in the **Column Caption** field is mapped to, when you are using an intermediate table for data import.|  
     |**Optional**|Only visible when the **Use as Intermediate Table** check box is selected.<br /><br /> Specify if the map should be skipped if the field is empty. If you do not select this check box, then an export error will occur if the field is empty.|  
 
- The data exchange definition is now ready to be enabled for users. For more information, see [How to: Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md), [How to: Set Up SEPA Credit Transfer](finance-how-to-set-up-sepa-credit-transfer.md), [How to: Set Up SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md), and [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
+ The data exchange definition is now ready to be enabled for users. For more information, see [Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Set Up SEPA Credit Transfer](finance-how-to-set-up-sepa-credit-transfer.md), [Set Up SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md), and [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
     When you have created the data exchange definition for a specific data file, you can export the data exchange definition as an XML file that can be used to quickly enable import of the data file in question. This is described in the following procedure.  
 
@@ -150,9 +150,9 @@ Creating a data exchange definition involves two tasks:
 
 ## See Also  
 [Setting Up Data Exchange](across-set-up-data-exchange.md)  
-[How to: Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
-[How to: Set Up SEPA Credit Transfer](finance-how-to-set-up-sepa-credit-transfer.md)  
-[How to: Set Up SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)  
+[Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
+[Set Up SEPA Credit Transfer](finance-how-to-set-up-sepa-credit-transfer.md)  
+[Set Up SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)  
 [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Incoming Documents](across-income-documents.md)  
 [General Business Functionality](ui-across-business-areas.md)  

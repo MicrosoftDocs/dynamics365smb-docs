@@ -131,7 +131,7 @@ The functions executed from the window are the same as those for the **Ingoing C
 To print an outgoing cash order window after it has been posted; you can run a report that prints the same window from check ledger entries using the **Print** action. It has no parameters. Before printing, the report ensures that this is really an outgoing cash order, and not an ingoing cash order or bank payment.  
 
 ## Cash Order Journal CO-3 Report  
-The **Cash Order Journal CO-3** report shows the register of posted ingoing and outgoing cash orders during some reporting period in the unified standard printing window that is certified by Russian accounting legislation. For more information, see [How to: Print the Cash Order Journal CO-3 Report](how-to-print-the-cash-order-journal-co-3-report.md).  
+The **Cash Order Journal CO-3** report shows the register of posted ingoing and outgoing cash orders during some reporting period in the unified standard printing window that is certified by Russian accounting legislation. For more information, see [Print the Cash Order Journal CO-3 Report](how-to-print-the-cash-order-journal-co-3-report.md).  
 
 ## Cash Additional Sheet Reports  
 The **Cash Additional Sheet** and **Cash Additional Sheet (Curr.)** reports show the unified standard printing windows for the cash booking register for one operational day of the cash account. These reports are usually printed every day, and their numbering continues according to the value of the **Last Cash Report Page No.** field in the corresponding cash account card. The reports increase that number by one and use this number as a page number of the report (but only if the report parameter Repeat Printing is not selected). They can only be printed per day.  
@@ -151,13 +151,13 @@ The parameters of the reports are listed in the following table.
 |Repeat printing|Select this field to ensure that the printing process does not increase the value of the **Last Cash Report Page No.** field in the corresponding cash account card and that the report is printed with this number (indicated in the cash account card). This serves repeated printing.|  
 
 ## Cash Report CO-4  
-The **Cash Report CO-4** report shows mandatory daily cash transactions in standard format as required by Russian accounting legislation. For more information, see[How to: Print the Cash Report CO-4 Report](how-to-print-the-cash-report-co-4-report.md).  
+The **Cash Report CO-4** report shows mandatory daily cash transactions in standard format as required by Russian accounting legislation. For more information, see[Print the Cash Report CO-4 Report](how-to-print-the-cash-report-co-4-report.md).  
 
 ## See Also  
  [Bank Management](bank-management.md)   
- [How to: Create Cash Account Cards](how-to-create-cash-account-cards.md)   
- [How to: Print the Cash Order Journal CO-3 Report](how-to-print-the-cash-order-journal-co-3-report.md)   
- [How to: Print the Cash Report CO-4 Report](how-to-print-the-cash-report-co-4-report.md)   
- [How to: Print the Ingoing Cash Order Report](how-to-print-the-ingoing-cash-order-report.md)   
- [How to: Print the Cash Register (Month) Report](assetId:///10a26052-053a-408e-9015-9ef26ebb2b8d)   
- [How to: Print the Outgoing Cash Order Report](how-to-print-the-outgoing-cash-order-report.md)
+ [Create Cash Account Cards](how-to-create-cash-account-cards.md)   
+ [Print the Cash Order Journal CO-3 Report](how-to-print-the-cash-order-journal-co-3-report.md)   
+ [Print the Cash Report CO-4 Report](how-to-print-the-cash-report-co-4-report.md)   
+ [Print the Ingoing Cash Order Report](how-to-print-the-ingoing-cash-order-report.md)   
+ [Print the Cash Register (Month) Report](assetId:///10a26052-053a-408e-9015-9ef26ebb2b8d)   
+ [Print the Outgoing Cash Order Report](how-to-print-the-outgoing-cash-order-report.md)

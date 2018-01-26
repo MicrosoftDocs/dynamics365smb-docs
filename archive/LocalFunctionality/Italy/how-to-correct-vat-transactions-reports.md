@@ -16,10 +16,10 @@
     ms.author: sgroespe
 
 ---
-# How to: Correct VAT Transactions Reports
+# Correct VAT Transactions Reports
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Reports**, and then choose the related link.  
-2.  Create a new report. For more information, see [How to: Create Electronic VAT Transactions Reports](how-to-create-electronic-vat-transactions-reports.md).  
+2.  Create a new report. For more information, see [Create Electronic VAT Transactions Reports](how-to-create-electronic-vat-transactions-reports.md).  
 3.  In the new report, change the **VAT Report Type** field to **Corrective** or **Cancellation**. In the **Original Report No.** field, select the report that you want to correct from the list of available reports. The **Start Date** and **End Date** fields are copied from the original report.  
 
     > [!NOTE]  
@@ -44,4 +44,4 @@
 7.  Choose the **Mark as Submitted** action to finalize the report. The **Status** field is updated to Submitted.  
 
 ## See Also  
- [How to: Export VAT Transactions Reports](how-to-export-vat-transactions-reports.md)
+ [Export VAT Transactions Reports](how-to-export-vat-transactions-reports.md)

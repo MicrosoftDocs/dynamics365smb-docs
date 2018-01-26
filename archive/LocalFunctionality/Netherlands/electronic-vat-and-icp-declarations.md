@@ -58,6 +58,6 @@ The electronic VAT and ICP declarations contain contact information about the ta
 
 ## See Also  
  [Electronic Tax Declarations](electronic-tax-declarations.md)   
- [How to: Set Up VAT Categories](how-to-set-up-vat-categories.md)   
- [How to: Create Electronic VAT and ICP Declarations](how-to-create-electronic-vat-and-icp-declarations.md)   
- [How to: Process Response Messages from Tax Authorities](how-to-process-response-messages-from-tax-authorities.md)
+ [Set Up VAT Categories](how-to-set-up-vat-categories.md)   
+ [Create Electronic VAT and ICP Declarations](how-to-create-electronic-vat-and-icp-declarations.md)   
+ [Process Response Messages from Tax Authorities](how-to-process-response-messages-from-tax-authorities.md)

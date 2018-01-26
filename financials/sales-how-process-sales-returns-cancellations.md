@@ -13,13 +13,13 @@ ms.date: 09/08/2016
 ms.author: sgroespe
 
 ---
-# How to: Process Sales Returns or Cancellations
+# Process Sales Returns or Cancellations
 If a customer wants to return items or be reimbursed for items or services that you have sold and received payment for, you must create and post a sales credit memo that specifies the requested change. To include the correct sales invoice information, you can create the sales credit memo directly from the posted sales invoice or you can create a new sales credit memo with copied invoice information.
 
 If you need more control of the sales return process, such as warehouse documents for the item handling or better overview when receiving items from multiple sales documents with one sales return, then you can create sales return orders. A sales return order automatically issues the related sales credit memo and other return-related documents, such as a replacement sales order, if needed. For more information, see the "To create a sales return order based on one or more a posted sales documents" section.
 
 > [!NOTE]  
->   If a posted sales invoice has not yet been paid, then you can use the **Correct** or **Cancel** functions on the posted sales invoice to reverse transactions. These functions work only for unpaid invoices, and they do not support partial returns or cancellations. For more information, see [How to: Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md).
+>   If a posted sales invoice has not yet been paid, then you can use the **Correct** or **Cancel** functions on the posted sales invoice to reverse transactions. These functions work only for unpaid invoices, and they do not support partial returns or cancellations. For more information, see [Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md).
 
 A return or reimbursement may relate to only some of the items or services on the original sales invoice. In that case, you must edit information on the lines on the sales credit memo or sales return order. When you post the sales credit memo or sales return order, the sales documents that are affected by the change are reversed and a refund payment can be created for the customer. For more information, see [Making Payments](payables-make-payments.md).  
 
@@ -61,7 +61,7 @@ For more information, see [Design Details: Inventory Costing](design-details-inv
     After you create or edit sales credit memo lines, and the single or multiple applications are specified, you can post the sales credit memo.   
 8. Choose the **Post and Send** action.  
 
-The **Post and Send Confirmation** dialog box opens showing the preferred sending method for the customer. You can change the sending method by choosing the lookup button for the **Send Document** to field. For more information, see [How to: Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).  
+The **Post and Send Confirmation** dialog box opens showing the preferred sending method for the customer. You can change the sending method by choosing the lookup button for the **Send Document** to field. For more information, see [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).  
 
 The posted sales documents that you applied the credit memo to are now reversed, and a refund payment can be created for the customer. The sales credit memo is removed and replaced with a new document in the list of posted sales credit memos.
 
@@ -131,7 +131,7 @@ You may decide to compensate a customer for an item that you have sold them by r
 1. In the **Sales Return Order** window for an active return process, on an empty line, make a negative entry for the replacement item by inserting a negative amount in the **Quantity** field.  
 2. Choose the **Move Negative Lines** action.
 3. In the **Move Negative Sales Lines** window, fill in the fields as necessary.
-4. Choose the **OK** button. The negative line for the replacement item is deleted from the sales return order and inserted in a new **Sales Order** window. For more information, see [How to: Sell Products](sales-how-sell-products.md).
+4. Choose the **OK** button. The negative line for the replacement item is deleted from the sales return order and inserted in a new **Sales Order** window. For more information, see [Sell Products](sales-how-sell-products.md).
 
 ## To create return-related documents from a sales return order
 You can have replacement sales orders, purchase return orders, and replacement purchase orders created automatically during the sales return process. This is useful, for example, in situations where you want to handle items with warranties provided by vendors.
@@ -149,7 +149,7 @@ You can post this increased cost as an item charge in a credit memo or a return 
 
 1. Open the **Sales Return Order** window for an active return process.
 2. On a new line, in the **Type** field, select **Charge (Item)**.  
-3. Fill in the fields as for any item charge line. For more information, see [How to: Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md).  
+3. Fill in the fields as for any item charge line. For more information, see [Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md).  
 
 When you post the sales return order, the restock charge is added to the relevant sales entry amount. In this way, you can maintain accurate inventory valuation.  
 
@@ -165,7 +165,7 @@ You can post this reduced price as an item charge in a credit memo or a return o
      You may want to create a special item charge number to cover sales allowances.  
 6.  In the **Quantity** field, enter **1**.  
 7.  In the **Unit Price** field, enter the amount of the sales allowance.  
-8.  Assign the sales allowance as an item charge to the items in the posted shipment. For more information, see [How to: Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md). When you have assigned the allowance, return to the **Sales Credit Memo** window.  
+8.  Assign the sales allowance as an item charge to the items in the posted shipment. For more information, see [Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md). When you have assigned the allowance, return to the **Sales Credit Memo** window.  
 
 When you post the sales return order, the sales allowance is added to the relevant sales entry amount. In this way, you can maintain accurate inventory valuation.
 
@@ -214,5 +214,5 @@ Alternatively, delete individual sales return orders manually.
 ## See Also
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  
-[How to: Send Documents by Email](ui-how-send-documents-email.md)  
+[Send Documents by Email](ui-how-send-documents-email.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

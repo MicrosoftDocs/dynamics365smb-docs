@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Post Capacities
+# Post Capacities
 In the capacity journal, you post consumed capacities that are not assigned to the production order. For example, maintenance work must be assigned to capacity, but not to a production order.  
 
 ## To post capacities  

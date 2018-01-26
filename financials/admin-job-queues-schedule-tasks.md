@@ -48,7 +48,7 @@ You set up this use of the job queue in the **Sales & Receivables Setup** window
 >  If you set up a job that will post and print documents, and the printer displays a dialog box, such as a request for credentials or a warning about low printer ink, your document is posted but not printed. The corresponding job queue entry eventually times out and the **Status** field is set to **Error**. Accordingly, we recommend that you do not use a printer setup that requires interaction with the display of printer dialog boxes in conjunction with background posting.  
 
 ## Use the My Job Queue Part
-The **My Job Queue** part shows the job queues entries that a user has started, but which are not yet finished. By default, the part is not visible, so you have to add it to your Role Center. For more information, see [How to: Change Role Centers](change-role.md).  
+The **My Job Queue** part shows the job queues entries that a user has started, but which are not yet finished. By default, the part is not visible, so you have to add it to your Role Center. For more information, see [Change Role Centers](change-role.md).  
 
 In this part, you can see those documents that are being processed or that are queued for which your ID is specified in the **Assigned User ID** field. The part helps you keep track of all job queue entries, including those related to background posting. The part can tell you at a glance whether there has been an error in the posting of a document or if there are errors in a job queue entry. The part also lets you cancel a document posting if it is not running.  
 

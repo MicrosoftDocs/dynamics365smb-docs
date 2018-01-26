@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Purchase and Release Undepreciable Fixed Assets
+# Purchase and Release Undepreciable Fixed Assets
 After posting the fixed assets, you must create a fixed asset release act of the fixed asset and post it. If you open the **Fixed Asset Card** window for that fixed asset, you can see that in the corresponding lines, the depreciation for operation contains a zero, and the book value also contains a zero.  
 
 The posting of the fixed asset release act results in two fixed asset operations in the operation depreciation book. The first is the fixed asset operation with the acquisition cost and quantity posted. The second is the fixed asset operation with the acquisition on disposal posted with the same cost and quantity, but with the sign reversed for both. The fixed asset is released and disposed in amount and quantity in this depreciation book, which is integrated with the general ledger. The book value and quantity of the fixed asset are zero, and there is no depreciation operation. According to this depreciation book, the fixed asset is fully disposed without depreciation.  
@@ -41,6 +41,6 @@ The following procedures show how to create a purchase order and a release order
 3.  Choose the **OK** button.  
 
 ## See Also  
- [How to: Set Up a Quantity Book](how-to-set-up-a-quantity-book.md)   
+ [Set Up a Quantity Book](how-to-set-up-a-quantity-book.md)   
  [Undepreciable Fixed Assets](undepreciable-fixed-assets.md)   
- [How to: Set Up Undepreciable Fixed Assets](how-to-set-up-undepreciable-fixed-assets.md)   
+ [Set Up Undepreciable Fixed Assets](how-to-set-up-undepreciable-fixed-assets.md)   

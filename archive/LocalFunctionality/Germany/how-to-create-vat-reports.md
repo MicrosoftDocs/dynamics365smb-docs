@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Create VAT Reports
+# Create VAT Reports
 You can configure different types of VAT reports based on requirements. Then, when you have to submit a VAT report, you can create it in the **VAT Report** window and then export it in electronic format that conforms to the ELMA5 format requirements.  
 
 ## To create a VAT report  
@@ -69,5 +69,5 @@ After you create the VAT report, you have to submit it to the tax authorities.
 4.  Choose the **Mark as Submitted** action.  
 
 ## See Also  
- [How to: Correct VAT Reports](how-to-correct-vat-reports.md)   
- [How to: Set Up VAT Reports](how-to-set-up-vat-reports.md)
+ [Correct VAT Reports](how-to-correct-vat-reports.md)   
+ [Set Up VAT Reports](how-to-set-up-vat-reports.md)

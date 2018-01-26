@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: View Duplicate Physical Inventory Order Lines
+# View Duplicate Physical Inventory Order Lines
 If you create physical inventory order lines manually, or if you change automatically created lines, you must make sure that there are no duplicate lines. You can create a list of duplicate physical inventory order lines.  
 
 The combination of the Item No., Variant Code, Location Code, and Bin Code fields in the inventory order lines should exist only one time for a physical inventory order. This is verified when assigning physical inventory recording lines to physical inventory order lines.  
@@ -30,6 +30,6 @@ The combination of the Item No., Variant Code, Location Code, and Bin Code field
 Any duplicate physical inventory order lines are displayed.  
 
 ## See Also  
- [How to: Enter Physical Inventory Orders](how-to-enter-physical-inventory-orders.md)   
- [How to: Finish a Physical Inventory Recording](how-to-finish-a-physical-inventory-recording.md)   
+ [Enter Physical Inventory Orders](how-to-enter-physical-inventory-orders.md)   
+ [Finish a Physical Inventory Recording](how-to-finish-a-physical-inventory-recording.md)   
  [Physical Inventory Recording - Counting Physical Inventory](physical-inventory-recording-counting-physical-inventory.md)

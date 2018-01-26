@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Automatic Payments and Automatic Bills
+# Set Up Automatic Payments and Automatic Bills
 In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can manage automatic payments and bills.  
 
 To use automatic payments and automatic bills, you must set up the relevant information.  

@@ -32,7 +32,7 @@ You can make domestic payments and international payments using the designated f
 ### Direct Debit Files  
 You can create a payment proposal to collect payment from customer bank accounts. You can edit payment proposals manually to add or remove invoices, or to change collection amounts. After processing a proposed payment batch, you can transfer electronic direct debit files to the bank. If an error occurs in the direct debit file while importing into the banking software, you can make a copy of the direct debit file to resubmit to the bank.  
 
-You can only collect payments domestically at this time. For more information, see [How to: Create Proposals](how-to-create-proposals.md).  
+You can only collect payments domestically at this time. For more information, see [Create Proposals](how-to-create-proposals.md).  
 
 ### Bank Statement Import  
 You can import bank statements from supported bank software, and reconcile them with incoming and outgoing payments. You can also reconcile bank charges and interest earned.  
@@ -50,4 +50,4 @@ Bank account numbers are validated by ensuring that they are either 9 or 10 digi
 ## See Also  
  [Telebanking](telebanking.md)   
  [Cash\-Bank\-Giro](cash-bank-giro.md)   
- [How to: Import and Reconcile Bank Statements](how-to-import-and-reconcile-bank-statements.md)
+ [Import and Reconcile Bank Statements](how-to-import-and-reconcile-bank-statements.md)

@@ -29,7 +29,7 @@ The more dimensions you use, the more detailed reports you can base your busines
 * The kind of customer who bought it  
 
 ## Analyzing by Dimensions
-The Dimensions functionality plays an important role in business intelligence, such as when defining analysis views. For more information, see [How to: Analyze Data by Dimensions](bi-how-analyze-data-dimension.md).
+The Dimensions functionality plays an important role in business intelligence, such as when defining analysis views. For more information, see [Analyze Data by Dimensions](bi-how-analyze-data-dimension.md).
 
 > [!TIP]
 > As a quick way to analyze transactional data by dimensions, you can filter totals in the chart of accounts and entries in all **Entries** windows by dimensions. Look for the **Set Dimension Filter** action.
@@ -170,5 +170,5 @@ In a ledger entry window, you can see whether there are global dimensions for th
 ## See Also
 [Business Intelligence](bi.md)  
 [Finance](finance.md)  
-[How to: Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)  
+[Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

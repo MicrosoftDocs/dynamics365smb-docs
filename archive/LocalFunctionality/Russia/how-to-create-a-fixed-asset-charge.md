@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Create a Fixed Asset Charge
+# Create a Fixed Asset Charge
 The following procedure shows how to create a new fixed asset charge.  
 
 ## To create a fixed asset charge  

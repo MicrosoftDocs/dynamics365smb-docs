@@ -15,7 +15,7 @@
     ms.author: bholtorf
 
 ---
-# How to: Settle Purchase Invoices Promptly
+# Settle Purchase Invoices Promptly
 If you need to pay the vendor by cash or check, you can post the payment when you post the invoice.  
   
 ### To settle purchase invoices promptly  

@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Enter Custom Declarations Information
+# Enter Custom Declarations Information
 Use the following procedure to enter custom declaration information.  
 
 ## To enter custom declarations information  
@@ -36,4 +36,4 @@ Use the following procedure to enter custom declaration information.
 3.  Choose the **OK** button.  
 
 ## See Also  
-[How to: Print the Factura-Invoice](how-to-print-the-factura-invoice.md)
+[Print the Factura-Invoice](how-to-print-the-factura-invoice.md)

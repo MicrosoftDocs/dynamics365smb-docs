@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Create Recurring Orders
+# Create Recurring Orders
 The create recurring orders process will find all of the recurring orders based on the options selected in the **Create Recurring Orders** window and will create the new sales orders. This is a periodic activity that you must run regularly.  
 
 ## To create recurring orders  
@@ -33,6 +33,6 @@ The create recurring orders process will find all of the recurring orders based 
 
 ## See Also  
  [Recurring Orders](recurring-orders.md)   
- [How to: Set Up Recurring Groups](how-to-set-up-recurring-groups.md)   
- [How to: Set Up Recurring Orders](how-to-set-up-recurring-orders.md)   
- [How to: Create Blanket Sales Orders](../../sales-how-to-create-blanket-sales-orders.md)
+ [Set Up Recurring Groups](how-to-set-up-recurring-groups.md)   
+ [Set Up Recurring Orders](how-to-set-up-recurring-orders.md)   
+ [Create Blanket Sales Orders](../../sales-how-to-create-blanket-sales-orders.md)

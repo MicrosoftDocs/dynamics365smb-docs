@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: View Posted Tax Credit Memos
+# View Posted Tax Credit Memos
 You can use the **Posted Sales Tax Credit Memo** window and **Posted Purch. Tax Credit Memo** window to view details of sales tax credit memos and purchase tax credit memos that have been posted.  
 
 The following procedure describes how to view posted sales tax credit memos, but the same steps also apply for viewing posted purchase tax credit memos.  
@@ -37,5 +37,5 @@ The following procedure describes how to view posted sales tax credit memos, but
 3.  Choose the **OK** button.  
 
 ## See Also  
- [How to: View Posted Tax Invoices](how-to-view-posted-tax-invoices.md)   
- [How to: View Withholding Tax Entries](how-to-view-withholding-tax-entries.md) 
+ [View Posted Tax Invoices](how-to-view-posted-tax-invoices.md)   
+ [View Withholding Tax Entries](how-to-view-withholding-tax-entries.md) 

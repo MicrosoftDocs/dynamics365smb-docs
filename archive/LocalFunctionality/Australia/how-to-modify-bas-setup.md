@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Modify BAS Setup
+# Modify BAS Setup
 To complete the Business Activity Statement (BAS) setup, you must map fuel tax credits to general ledger accounts. Do not map an account for field 7C if you only have a fuel tax credit that the ATO owes you and you do not owe anything to ATO. In this case, you can consider mapping only field 7D.  
 
 ## To modify and map BAS Setup for the fuel tax credit fields  
@@ -31,5 +31,5 @@ To complete the Business Activity Statement (BAS) setup, you must map fuel tax c
 
 ## See Also  
  [BAS Fuel Tax Credits](bas-fuel-tax-credits.md)   
- [How to: Set Up BAS XML Fields](how-to-set-up-bas-xml-fields.md)   
+ [Set Up BAS XML Fields](how-to-set-up-bas-xml-fields.md)   
  [Business Activity Statements](business-activity-statements.md)

@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Vendors for Automatic Payment Suggestions
+# Set Up Vendors for Automatic Payment Suggestions
 You can set up each vendor so that unpaid invoices from that vendor are automatically included in payment suggestions. For each vendor, you must decide whether you want to automatically generate payment suggestions. If you do not want to generate payment suggestions for a vendor, you should not select the **Suggest Payments** check box. This way the outstanding ledger entries for the vendor will not be included in payment suggestions.  
 
 ## To set up a vendor to be included in the payment suggestion batch  
@@ -32,10 +32,10 @@ You can set up each vendor so that unpaid invoices from that vendor are automati
 ## See Also  
  [Belgian Electronic Banking](belgian-electronic-banking.md)   
  [Belgian Electronic Payments](belgian-electronic-payments.md)   
- [How to: Set Up Electronic Banking](how-to-set-up-electronic-banking.md)   
- [How to: Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md)   
- [How to: Generate Payment Suggestions](how-to-generate-payment-suggestions.md)   
- [How to: Create Payment Journal Templates and Batches](how-to-create-payment-journal-templates-and-batches.md)   
- [How to: Test Electronic Payments](how-to-test-electronic-payments.md)   
- [How to: Manage Electronic Payment Lines](how-to-manage-electronic-payment-lines.md)   
- [How to: Print Payment Files](how-to-print-payment-files.md)
+ [Set Up Electronic Banking](how-to-set-up-electronic-banking.md)   
+ [Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md)   
+ [Generate Payment Suggestions](how-to-generate-payment-suggestions.md)   
+ [Create Payment Journal Templates and Batches](how-to-create-payment-journal-templates-and-batches.md)   
+ [Test Electronic Payments](how-to-test-electronic-payments.md)   
+ [Manage Electronic Payment Lines](how-to-manage-electronic-payment-lines.md)   
+ [Print Payment Files](how-to-print-payment-files.md)

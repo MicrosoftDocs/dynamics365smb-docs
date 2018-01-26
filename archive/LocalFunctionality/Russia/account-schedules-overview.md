@@ -36,7 +36,7 @@ Account schedules are set up in the **Account Schedule Names** window and the **
 > - **G/L Account Entries Analysis** report  
 
 ## See Also  
- [How to: Import and Export Account Schedules](how-to-import-and-export-account-schedules.md)   
- [How to: Define an Account Schedule Extension](how-to-define-an-account-schedule-extension.md)   
- [How to: Define an Account Schedule Constant](how-to-define-an-account-schedule-constant.md)  
- [How to: Work with Account Schedules](../../bi-how-work-account-schedule.md)
+ [Import and Export Account Schedules](how-to-import-and-export-account-schedules.md)   
+ [Define an Account Schedule Extension](how-to-define-an-account-schedule-extension.md)   
+ [Define an Account Schedule Constant](how-to-define-an-account-schedule-constant.md)  
+ [Work with Account Schedules](../../bi-how-work-account-schedule.md)

@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Limits for Due Dates
+# Set Limits for Due Dates
 You can modify payment terms to have limits for the maximum number of days that can be between a delivery and the corresponding payment.  
 
 Legal limits for the gap between delivery and payment determine how due dates are calculated. For example, if you create a payment term that will be used for sales to the public sector, the **Max. No. of Days till Due Date** field for that payment term must be set to 30 days.  

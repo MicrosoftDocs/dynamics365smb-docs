@@ -15,7 +15,7 @@ ms.date: 01/25/2018
 ms.author: sgroespe
 
 ---
-# How to: Purchase Items for a Sale
+# Purchase Items for a Sale
 From sales orders and sales invoices, you can use functions to quickly create purchase documents for missing item quantities that are required by the sale. You can use two different functions depending on the document type.
 |Function|Description|
 |--------|-----------|
@@ -39,7 +39,7 @@ To create a purchase order for each unavailable item quantity on the sales order
 5. Choose the **OK** button.
 
     A purchase order is created for each vendor of items on the sales order, including any quantity changes that you made in the **Create Purchase Orders** window.
-7. Proceed to process the purchase order or orders, for example, by editing or adding purchase order lines. For more information, see [How to: Record Purchases](purchasing-how-record-purchases.md).
+7. Proceed to process the purchase order or orders, for example, by editing or adding purchase order lines. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 
 
 ## To create a purchase invoice from a sales order or sales invoice
@@ -56,11 +56,11 @@ To create a single purchase invoice for one or more lines on a sales document by
 6. In the list of vendors that appears, select the vendor that you want to buy all the items from, and then choose the **OK** button.
 
     A purchase invoice is created that contains one, more, or all the lines on the sales invoice.
-7. Proceed to process the purchase invoice, for example, by editing or adding purchase invoice lines. For more information, see [How to: Record Purchases](purchasing-how-record-purchases.md).
+7. Proceed to process the purchase invoice, for example, by editing or adding purchase invoice lines. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 
 ## See Also
 [Purchasing](purchasing-manage-purchasing.md)  
-[How to: Record Purchases](purchasing-how-record-purchases.md)  
-[How to: Invoice Sales](sales-how-invoice-sales.md)  
-[How to: Register New Vendors](purchasing-how-register-new-vendors.md)  
+[Record Purchases](purchasing-how-record-purchases.md)  
+[Invoice Sales](sales-how-invoice-sales.md)  
+[Register New Vendors](purchasing-how-register-new-vendors.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

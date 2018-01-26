@@ -13,12 +13,12 @@
     ms.author: sgroespe
 
 ---
-# How to: Send Electronic Documents
+# Send Electronic Documents
 The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] supports sending electronic invoices and credit memos in the PEPPOL format, which is supported by the largest document exchange service providers. A document exchange service provider dispatches electronic documents between trading partners. To provide support for other electronic document formats, you use the data exchange framework.  
 
- In the generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)], a document exchange service is preconfigured and ready to be set up for your company. For more information, see [How to: Set Up a Document Exchange Service](across-how-to-set-up-a-document-exchange-service.md).  
+ In the generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)], a document exchange service is preconfigured and ready to be set up for your company. For more information, see [Set Up a Document Exchange Service](across-how-to-set-up-a-document-exchange-service.md).  
 
- To send a sales invoice as an electronic PEPPOL document, you select the **Electronic Document** option in the **Post and Send** dialog box from where you can also set up the customer’s default document sending profile. First, you must set up various master data, such as company information, customers, items, and units of measure. These are used to identify the business partners and items when converting data in fields in [How to: Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md).  
+ To send a sales invoice as an electronic PEPPOL document, you select the **Electronic Document** option in the **Post and Send** dialog box from where you can also set up the customer’s default document sending profile. First, you must set up various master data, such as company information, customers, items, and units of measure. These are used to identify the business partners and items when converting data in fields in [Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md).  
 
 ### To send an electronic sales invoice  
 
@@ -46,10 +46,10 @@ The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] supports send
     >  You can also send a posted sales invoice as an electronic document. The procedure is the same as described in this topic for non-posted sales documents. In the **Posted Sales Invoice** window, on the **Actions** tab, in the **General** group, choose **Activity Log** to view the status of the electronic document. For more information, see **Activity Log**.  
 
 ## See Also  
-[How to: Invoice Sales](sales-how-invoice-sales.md)  
-[How to: Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md)  
-[How to: Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
-[How to: Set Up a Document Exchange Service](across-how-to-set-up-a-document-exchange-service.md)  
-[How to: Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md)  
+[Invoice Sales](sales-how-invoice-sales.md)  
+[Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md)  
+[Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
+[Set Up a Document Exchange Service](across-how-to-set-up-a-document-exchange-service.md)  
+[Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md)  
 [Exchanging Data Electronically](across-data-exchange.md)  
 [General Business Functionality](ui-across-business-areas.md)  

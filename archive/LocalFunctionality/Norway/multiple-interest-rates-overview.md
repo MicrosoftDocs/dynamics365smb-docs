@@ -22,7 +22,7 @@ For each finance charge term code, you can specify multiple interest rates so th
 ## Creating Finance Charges  
 When you create a finance charge memo, the memo lines show the finance charges with different interest rates for each time period. For finance charge terms, you can define descriptions for each term, and you can define a description that is used when multiple interest rates are used.  
 
-To use multiple interest rates, you must first define a finance charge term, and you must then add multiple interest rate lines to the terms. For more information, see [How to: Set Up Multiple Interest Rates](how-to-set-up-multiple-interest-rates.md).  
+To use multiple interest rates, you must first define a finance charge term, and you must then add multiple interest rate lines to the terms. For more information, see [Set Up Multiple Interest Rates](how-to-set-up-multiple-interest-rates.md).  
 
 If no multiple interest rates exist, [!INCLUDE[navnow](../../includes/navnow_md.md)] will use the interest rate and period that is defined in the **Finance Charge Terms** window for the whole period of calculation.  
 
@@ -30,4 +30,4 @@ If no multiple interest rates exist, [!INCLUDE[navnow](../../includes/navnow_md.
  Multiple interest rates are used for different periods for delayed payments in trade transactions. For example, a government specifies the maximum interest to be levied for a consumer. This interest rate can be changed twice a year on 01 January and 01 July. The interest rate between businesses (B2B) is agreed by the parties and there is no limit to that customer group. The announced rate is usually four percent more than the normal bank interest.  
 
 ## See Also  
- [How to: Collect Outstanding Balances](../../receivables-collect-outstanding-balances.md)
+ [Collect Outstanding Balances](../../receivables-collect-outstanding-balances.md)

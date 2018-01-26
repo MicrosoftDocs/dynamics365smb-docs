@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Undepreciable Fixed Assets
+# Set Up Undepreciable Fixed Assets
 You need to create or select a card for the fixed asset that should be repaid. The following procedure shows how to open the fixed asset card.  
 
 ## To set up an undepreciable fixed asset  
@@ -26,6 +26,6 @@ You need to create or select a card for the fixed asset that should be repaid. T
 3.  Choose the **OK** button.  
 
 ## See Also  
- [How to: Set Up a Quantity Book](how-to-set-up-a-quantity-book.md)   
+ [Set Up a Quantity Book](how-to-set-up-a-quantity-book.md)   
  [Undepreciable Fixed Assets](undepreciable-fixed-assets.md)   
  [Fixed Assets](../../fa-manage.md)

@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Combine Receipts on a Single Invoice
+# Combine Receipts on a Single Invoice
 If you want to invoice more than one purchase receipt at a time, you can use the **Combine Receipts** function.  
 
 Before you can create a combined purchase receipt, more than one receipt from the same vendor in the same currency must be posted. In other words, you must have filled in two or more purchase orders and posted them as received, but not invoiced.  
@@ -24,7 +24,7 @@ When purchase receipts are combined on an invoice and posted, then a posted purc
 
 ## To combine receipts  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoices**, and then choose the related link.  
-2. Choose the **New** action. For more information, see [How to: Record Purchases](purchasing-how-record-purchases.md).  
+2. Choose the **New** action. For more information, see [Record Purchases](purchasing-how-record-purchases.md).  
 3. On the **Lines** FastTab, choose the **Get Receipt Lines** action.  
 4. Select multiple receipt lines that you want to include in the invoice.  
 

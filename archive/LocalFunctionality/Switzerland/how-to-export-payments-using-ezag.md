@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Export Payments Using EZAG
+# Export Payments Using EZAG
 You can generate a file for electronic payment using the Elektronischer Zahlungsauftrag (EZAG) method, and export it for the bank to use for the payments.  
 
 ## To export payments using EZAG  
@@ -36,6 +36,6 @@ You can generate a file for electronic payment using the Elektronischer Zahlungs
 
 ## See Also  
  [Swiss Electronic Payments Using DTA](swiss-electronic-payments-using-dta.md)   
- [How to: Suggest DTA Payment for Vendors](how-to-suggest-dta-payment-for-vendors.md)   
- [How to: Verify a List of Vendors for DTA Payments](how-to-verify-a-list-of-vendors-for-dta-payments.md)   
- [How to: Submit DTA Payments](how-to-submit-dta-payments.md) 
+ [Suggest DTA Payment for Vendors](how-to-suggest-dta-payment-for-vendors.md)   
+ [Verify a List of Vendors for DTA Payments](how-to-verify-a-list-of-vendors-for-dta-payments.md)   
+ [Submit DTA Payments](how-to-submit-dta-payments.md) 

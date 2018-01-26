@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Create Service Orders
+# Create Service Orders
 You can use the **Service Order** window to create documents where you enter information about a service, such as repairs and maintenance, on service items by customer request.  
   
 When creating a service order, you only have to fill in a few fields. Some fields are optional and many are automatically filled in when you fill in related fields.  
@@ -75,7 +75,7 @@ If you need to be sure that an item is available for a service order, you can re
 5. On the **Reservation** page, choose **Reserve from Current Line**. 
 
 ## To insert lines based on standard service codes  
-If you have set up standard service codes and assigned them to service item groups, you can insert the standard lines linked to the standard service codes on service documents. For more information, see [How to: Set Up Standard Service Codes](service-how-setup-service-coding.md).   
+If you have set up standard service codes and assigned them to service item groups, you can insert the standard lines linked to the standard service codes on service documents. For more information, see [Set Up Standard Service Codes](service-how-setup-service-coding.md).   
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Orders**, and then choose the related link.  
 2. Create a new service order.  
@@ -102,7 +102,7 @@ Service orders are not deleted automatically, however, if the total quantity on 
 
 ## See Also  
 [Service Posting](service-service-posting.md)  
-[How to: Post a Service Order](service-how-to-post-service-orders.md)  
+[Post a Service Order](service-how-to-post-service-orders.md)  
 [Setting Up Service Management](service-setup-service.md)  
-[How to: Work on Service Tasks](service-how-to-work-on-service-tasks.md)  
-[How to: Allocate Resources](service-how-to-allocate-resources.md)  
+[Work on Service Tasks](service-how-to-work-on-service-tasks.md)  
+[Allocate Resources](service-how-to-allocate-resources.md)  

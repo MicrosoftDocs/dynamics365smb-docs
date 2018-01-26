@@ -14,7 +14,7 @@ ms.date: 05/12/2017
 ms.author: solsen
 
 ---
-# How to: View Test Reports Before Posting
+# View Test Reports Before Posting
 When you are ready to post a document, such as an order, invoice, or a credit memo, you can test the document to ensure that no issues exist that will block the posting.
 
 > [!NOTE]  

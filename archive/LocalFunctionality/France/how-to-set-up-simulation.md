@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Simulation
+# Set Up Simulation
 You can create and post simulation entries to the general ledger without affecting the real accounting.  
 
 Before you can start to use the simulation functionality, you must set up a source code and a number series, and you must add this information to a general journal template.  
@@ -38,6 +38,6 @@ Before you can start to use the simulation functionality, you must set up a sour
 Now you can create simulation entries using the general journal.  
 
 ## See Also  
- [How to: Create Simulation Entries](how-to-create-simulation-entries.md)   
- [How to: Delete Simulation Entries](how-to-delete-simulation-entries.md)   
- [How to: Transfer Simulation Entries](how-to-transfer-simulation-entries.md)
+ [Create Simulation Entries](how-to-create-simulation-entries.md)   
+ [Delete Simulation Entries](how-to-delete-simulation-entries.md)   
+ [Transfer Simulation Entries](how-to-transfer-simulation-entries.md)

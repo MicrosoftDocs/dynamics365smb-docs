@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Create and Submit Sales VAT Advance Notifications
+# Create and Submit Sales VAT Advance Notifications
 In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can submit the sales VAT advance notification file electronically to the ELSTER portal. You can transmit the sales VAT advance notification file to the tax authorities after you have verified the calculated tax amount and the base amount.  
 
 ## To create an XML document for sales VAT advance notification  
@@ -44,4 +44,4 @@ The XML file is transmitted to ELSTER.
 
 ## See Also  
  [Electronic Submission of Sales VAT Advance Notifications to ELSTER](electronic-submission-of-sales-vat-advance-notifications-to-elster.md)   
- [How to: Set Up Sales VAT Advance Notifications for ELSTER](how-to-set-up-sales-vat-advance-notifications-for-elster.md)
+ [Set Up Sales VAT Advance Notifications for ELSTER](how-to-set-up-sales-vat-advance-notifications-for-elster.md)

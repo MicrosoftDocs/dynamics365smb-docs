@@ -9,11 +9,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 10/16/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 
 ---
-# How to: Manage Users and Permissions
+# Manage Users and Permissions
 To add users in [!INCLUDE[d365fin](includes/d365fin_md.md)], your company's Office 365 administrator must first create the users in the Office 365 Admin Center. For more information, see [Add Users to Office 365 for business](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc)
 
 Once users are created in Office 365, they can be imported into the **Users** window by using the **Get Users from Office 365** action. Users are assigned permission sets depending on the plan assigned to the User in Office 365.
@@ -25,9 +25,6 @@ A permission set is a collection of permissions for specific objects in the data
 You can add users to user groups. This makes it easier to assign the same permission sets to multiple users.
 
 Administrators can use the **User Setup** window to define periods of time during which specified users are able to post, and also specify if the system logs the amount of time users are logged on.
-
-> [!NOTE]  
->   This functionality requires that your experience is set to Suite. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
 ## To assign permissions to a user
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Users**, and then choose the related link.
@@ -51,7 +48,7 @@ You can set up users groups to help you manage permission sets for groups of use
 8. In the **User Group Permission Sets** window, on a new line, fill in the fields as necessary by selecting from existing permission sets.
 
 ## To set up user time constraints
-Administrators can define periods of time during which specified users are able to post, and also specify if the system logs the amount of time users are logged on. Administrators can also assign responsibility centers to users. For more information, see [How to: Work with Responsibility Centers](inventory-responsibility-centers.md).
+Administrators can define periods of time during which specified users are able to post, and also specify if the system logs the amount of time users are logged on. Administrators can also assign responsibility centers to users. For more information, see [Work with Responsibility Centers](inventory-responsibility-centers.md).
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **User Setup**, and then choose the related link.
 2. In the **User Setup** window opens, choose the **New** action.

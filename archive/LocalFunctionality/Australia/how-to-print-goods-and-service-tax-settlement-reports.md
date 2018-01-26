@@ -16,11 +16,11 @@
     ms.author: sgroespe
 
 ---
-# How to: Print Goods and Service Tax Settlement Reports
+# Print Goods and Service Tax Settlement Reports
 You must submit a periodic report of goods and services tax (GST) settlement. You can create this settlement from the **BAS Calc. Schedule List** window.  
 
 > [!IMPORTANT]  
->  Before you calculate the GST settlement, you must export the business activity statement (BAS). For more information, see [How to: Export Business Activity Statements](how-to-export-business-activity-statements.md).  
+>  Before you calculate the GST settlement, you must export the business activity statement (BAS). For more information, see [Export Business Activity Statements](how-to-export-business-activity-statements.md).  
 
 ### To print a goods and service tax settlement  
 
@@ -46,6 +46,6 @@ You must submit a periodic report of goods and services tax (GST) settlement. Yo
 5.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 
 ## See Also  
- [How to: Print Goods and Services Tax Sales and Purchase Reports](how-to-print-goods-and-services-tax-sales-and-purchase-reports.md)   
- [How to: Set Up Goods and Service Tax Posting](how-to-set-up-goods-and-service-tax-posting.md)   
+ [Print Goods and Services Tax Sales and Purchase Reports](how-to-print-goods-and-services-tax-sales-and-purchase-reports.md)   
+ [Set Up Goods and Service Tax Posting](how-to-set-up-goods-and-service-tax-posting.md)   
  [Business Activity Statements](business-activity-statements.md)

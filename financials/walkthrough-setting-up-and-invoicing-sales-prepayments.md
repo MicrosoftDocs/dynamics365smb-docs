@@ -124,7 +124,7 @@ Susan creates the prepayment invoice and sends it to the customer.
 
     The **Prepayment %** field on the line with item **1100** contains **40**. This is the percentage you entered in the **Sales Prepayment Percentages** window for item **1100** and customer **20000**.  
 
-    For more information, see [How to: Set Up Prepayments](finance-set-up-prepayments.md).  
+    For more information, see [Set Up Prepayments](finance-set-up-prepayments.md).  
 8. Choose the **Statistics** action.  
 9. On the **Prepayment** FastTab, the **Prepmt. Line Amount Excl. VAT** field contains **1,560**. If you create a prepayment invoice for the order now, then this is the amount that is displayed on the invoice.  
 

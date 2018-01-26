@@ -16,10 +16,10 @@
     ms.author: sgroespe
 
 ---
-# How to: Post Payment Slips
+# Post Payment Slips
 You must post payment slips to complete a payment transaction and to create the related financial data. You can post a payment slip if the payment slip's **Action Type** is set to **Ledger**.  
 
-Before you post a payment slip, you must create the payment slip. For more information, see [How to: Create Payment Slips](how-to-create-payment-slips.md).  
+Before you post a payment slip, you must create the payment slip. For more information, see [Create Payment Slips](how-to-create-payment-slips.md).  
 
 ## To post a payment slip  
 
@@ -32,10 +32,10 @@ The payment slip is posted.
 
 ## See Also  
  [Payment Management](payment-management.md)   
- [How to: Set Up Payment Classes](how-to-set-up-payment-classes.md)   
- [How to: Set Up Payment Statuses](how-to-set-up-payment-statuses.md)   
- [How to: Set Up Payment Steps](how-to-set-up-payment-steps.md)   
- [How to: Set Up Payment Addresses](how-to-set-up-payment-addresses.md)   
- [How to: Create Payment Slips](how-to-create-payment-slips.md)   
- [How to: Export or Import Payment Management Setup Parameters](how-to-export-or-import-payment-management-setup-parameters.md)   
- [How to: Archive Payment Slips](how-to-archive-payment-slips.md)
+ [Set Up Payment Classes](how-to-set-up-payment-classes.md)   
+ [Set Up Payment Statuses](how-to-set-up-payment-statuses.md)   
+ [Set Up Payment Steps](how-to-set-up-payment-steps.md)   
+ [Set Up Payment Addresses](how-to-set-up-payment-addresses.md)   
+ [Create Payment Slips](how-to-create-payment-slips.md)   
+ [Export or Import Payment Management Setup Parameters](how-to-export-or-import-payment-management-setup-parameters.md)   
+ [Archive Payment Slips](how-to-archive-payment-slips.md)

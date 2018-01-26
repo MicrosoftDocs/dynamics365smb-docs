@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Export VAT Statements in Text Format
+# Export VAT Statements in Text Format
 You can export a VAT statement in text format and then submit it electronically to the tax authorities.  
 
 For more information, see the [Spanish Tax Agency](http://go.microsoft.com/fwlink/?LinkID=238181) website.  
@@ -50,5 +50,5 @@ You can now submit the VAT statement to the tax authorities.
 
 ## See Also  
  [VAT Reports](vat-reports.md)   
- [How to: Create Templates for Telematic VAT Statements in Text File Format](how-to-create-templates-for-telematic-vat-statements-in-text-file-format.md)   
- [How to: Export VAT Statements in XML Format](how-to-export-vat-statements-in-xml-format.md)
+ [Create Templates for Telematic VAT Statements in Text File Format](how-to-create-templates-for-telematic-vat-statements-in-text-file-format.md)   
+ [Export VAT Statements in XML Format](how-to-export-vat-statements-in-xml-format.md)

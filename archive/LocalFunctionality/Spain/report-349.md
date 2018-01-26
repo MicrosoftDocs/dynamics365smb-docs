@@ -21,7 +21,7 @@ You must submit a periodic report of trade with other EU countries/regions to th
 
 In [!INCLUDE[navnow](../../includes/navnow_md.md)], the Report 349 declaration is based on VAT entries that are filtered by the EU country/region codes. You must create a 349 declaration and then submit the file to the [Spanish Tax Agency](http://go.microsoft.com/fwlink/?LinkId=238181) website or on CD-ROM.  
 
-When you create a Report 349 declaration that includes credit memos, the entries will display in the **Customer/Vendor Warnings 349** window so that you can include them as corrections to invoices. You must make the appropriate changes to the lines in the **Customer/Vendor Warnings 349** window before you can submit the declaration. For more information, [How to: Create Report 349](how-to-create-report-349.md).  
+When you create a Report 349 declaration that includes credit memos, the entries will display in the **Customer/Vendor Warnings 349** window so that you can include them as corrections to invoices. You must make the appropriate changes to the lines in the **Customer/Vendor Warnings 349** window before you can submit the declaration. For more information, [Create Report 349](how-to-create-report-349.md).  
 
 ## Delivery Operation Codes  
 The **Report 349** declaration must specify separate operation codes for the delivery of goods to other EU countries/regions. You can set up separate VAT product posting groups for each type of export delivery. Then, when you apply a VAT posting group to an item that is sold, [!INCLUDE[navnow](../../includes/navnow_md.md)] stores the delivery operation code, and the transaction is included in the quarterly 349 declaration.  
@@ -51,4 +51,4 @@ Then, when you create a sales order, you must make sure that you select the corr
 When you post the sales invoice, [!INCLUDE[navnow](../../includes/navnow_md.md)] saves the delivery operation code in the **VAT Entry** table, and then, when you create the Report 349 declaration, the VAT amount is included in the section for the appropriate delivery operation code.  
 
 ## See Also  
- [How to: Create Report 349](how-to-create-report-349.md)
+ [Create Report 349](how-to-create-report-349.md)

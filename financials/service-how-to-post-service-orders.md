@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Post Service Orders and Credit Memos
+# Post Service Orders and Credit Memos
 When you have created a service order, filled in all the necessary information and made any modifications, you can post the service order. The order must contain at least one service item line and one service line before you can post it. Should the order contain more than one service line, all the lines are posted at one time.  
 
 If you have a large number of service orders, you can save time by using a batch job to post them at the same time. You can run the batch job from any service order.
@@ -129,4 +129,4 @@ The following procedure describes shipment posting directly from a service order
   
 ## See Also  
 [Posting in Service Management](service-service-posting.md)  
-[How to: Create a Service Order](service-how-to-create-service-orders.md)  
+[Create a Service Order](service-how-to-create-service-orders.md)  

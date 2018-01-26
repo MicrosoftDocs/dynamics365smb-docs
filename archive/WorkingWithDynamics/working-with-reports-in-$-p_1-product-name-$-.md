@@ -22,10 +22,10 @@ A report in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/nav_dev_long_md.md)]
   
 |**To**|**See**|  
 |------------|-------------|  
-|Run reports limited to a certain set of data, sort report data, or save reports for later use.|[How to: View and Print Reports](../FullExperience/how-to-view-and-print-reports.md)|  
-|Run a test report showing all journal lines and error messages before posting.|[How to: View Test Reports Before Posting](../FullExperience/how-to-view-test-reports-before-posting.md)|  
-|Schedule a report to run at a specific date and time by using the Job Queue feature.|[How to: Schedule a Report to Run](../FullExperience/how-to-schedule-a-report-to-run.md)|  
+|Run reports limited to a certain set of data, sort report data, or save reports for later use.|[View and Print Reports](../FullExperience/how-to-view-and-print-reports.md)|  
+|Run a test report showing all journal lines and error messages before posting.|[View Test Reports Before Posting](../FullExperience/how-to-view-test-reports-before-posting.md)|  
+|Schedule a report to run at a specific date and time by using the Job Queue feature.|[Schedule a Report to Run](../FullExperience/how-to-schedule-a-report-to-run.md)|  
   
 ## See Also  
  [Working with Product Name](../FullExperience/working-with-$-p_1-product-name-$-.md)   
- [How to: Run Batch Jobs](../FullExperience/how-to-run-batch-jobs.md)
+ [Run Batch Jobs](../FullExperience/how-to-run-batch-jobs.md)

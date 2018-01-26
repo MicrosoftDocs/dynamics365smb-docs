@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Print Periodic VAT Reports
+# Print Periodic VAT Reports
 The VAT reporting feature enables you to print VAT transaction details. You must send the following VAT reports to the Belgian tax authorities:  
 
 - Monthly/Quarterly declaration  
@@ -64,4 +64,4 @@ The VAT reporting feature enables you to print VAT transaction details. You must
 
 ## See Also  
  [Belgian VAT](belgian-vat.md)   
- [How to: Set Up Non-Deductible VAT](how-to-set-up-non-deductible-vat.md)
+ [Set Up Non-Deductible VAT](how-to-set-up-non-deductible-vat.md)

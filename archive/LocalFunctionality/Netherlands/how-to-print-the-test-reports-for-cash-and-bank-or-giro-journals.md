@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Print the Test Reports for Cash and Bank or Giro Journals
+# Print the Test Reports for Cash and Bank or Giro Journals
 You can use the **CBG Posting - Test** report to edit the statement lines and see the effect of posting before you post cash journals and bank or giro journals.  
 
 This report displays the statement lines of a cash journal and bank journal or giro journal. For more information, see CBG Statement Line Table and Bank-Giro Journal Window.  
@@ -27,7 +27,7 @@ This report displays the statement lines of a cash journal and bank journal or g
 2.  In the **Cash Journal** window, choose the **Test Report** action.  
 3.  To include the information on applied entries for the statement lines, select the **Show Applied Entries** check box.  
 
-    For more information, see [How to: Apply and Unapply General Ledger Entries](how-to-apply-and-unapply-general-ledger-entries.md).  
+    For more information, see [Apply and Unapply General Ledger Entries](how-to-apply-and-unapply-general-ledger-entries.md).  
 
 4.  On the **CBG Statement** FastTab, select the appropriate filters.  
 
@@ -48,5 +48,5 @@ This report displays the statement lines of a cash journal and bank journal or g
 7.  Choose the **Print** button to print the report or choose the **Preview** button to view it in on the screen.  
 
 ## See Also  
- [How to: Apply and Unapply General Ledger Entries](how-to-apply-and-unapply-general-ledger-entries.md)   
+ [Apply and Unapply General Ledger Entries](how-to-apply-and-unapply-general-ledger-entries.md)   
  [Cash-Bank-Giro](cash-bank-giro.md)

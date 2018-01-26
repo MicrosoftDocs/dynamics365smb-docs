@@ -20,7 +20,7 @@ The warehouse activity of moving items within the warehouse is performed in diff
 
 While in one warehouse location, items may need to be moved between bins to support the daily warehouse activities involved in keeping items flowing through the warehouse. Some movements happen in direct relation to internal operations, such as a production order that needs components delivered or end items put away. Other movements happen as mere warehouse space optimization or as ad-hoc movements to and from operations.
 
-Moving items to other locations affects the item ledger entries and must therefore be done by transfer order. For more information, see [How to: Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md).  
+Moving items to other locations affects the item ledger entries and must therefore be done by transfer order. For more information, see [Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md).  
 
 Additional movement tasks are to periodically replenish picking bins or shop floor bins and to modify bin content information.  
 
@@ -28,12 +28,12 @@ Additional movement tasks are to periodically replenish picking bins or shop flo
 
 |**To**|**See**|  
 |------------|-------------|  
-|Move items between bins in basic warehouse configurations at any time and without source documents.|[How to: Move Items in Basic Warehouse Configurations](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)|
-|Use the warehouse movement worksheet to move items in advanced warehouse configurations, both for source documents and ad hoc.|[How to: Move Items in Advanced Warehouse Configurations](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
-|Bring component items to internal operations in basic warehouse configurations as requested by source documents for those operations.|[How to: Move Components to an Operation Area in Basic Warehouse Configurations](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)|
-|Plan which bins to fill or empty to maintain an efficient flow, such as emptying a bulk storage area before a large receipt.|[How to: Plan Warehouse Movements in Worksheets](warehouse-how-to-plan-warehouse-movements-in-worksheets.md)|
-|Update the frequency at which bins, such as picking bins, must be replenished as a result of demand fluctuations.|[How to: Calculate Bin Replenishment](warehouse-how-to-calculate-bin-replenishment.md)|
-|Restructure your warehouse with new bin codes and new bin characteristics and potentially move them around.|[How to: Restructure Warehouses](warehouse-how-to-restructure-warehouses.md)|  
+|Move items between bins in basic warehouse configurations at any time and without source documents.|[Move Items in Basic Warehouse Configurations](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)|
+|Use the warehouse movement worksheet to move items in advanced warehouse configurations, both for source documents and ad hoc.|[Move Items in Advanced Warehouse Configurations](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
+|Bring component items to internal operations in basic warehouse configurations as requested by source documents for those operations.|[Move Components to an Operation Area in Basic Warehouse Configurations](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)|
+|Plan which bins to fill or empty to maintain an efficient flow, such as emptying a bulk storage area before a large receipt.|[Plan Warehouse Movements in Worksheets](warehouse-how-to-plan-warehouse-movements-in-worksheets.md)|
+|Update the frequency at which bins, such as picking bins, must be replenished as a result of demand fluctuations.|[Calculate Bin Replenishment](warehouse-how-to-calculate-bin-replenishment.md)|
+|Restructure your warehouse with new bin codes and new bin characteristics and potentially move them around.|[Restructure Warehouses](warehouse-how-to-restructure-warehouses.md)|  
 
 ## See Also  
 [Warehouse Management](warehouse-manage-warehouse.md)  

@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Import and Export Account Schedules
+# Import and Export Account Schedules
 [!INCLUDE[navnow](../../includes/navnow_md.md)] enables you to import and export account schedules into other companies and databases.  
 
 ## To import and export account schedules  
@@ -28,4 +28,4 @@
 >  When you import account schedules, all existing records with primary key values that are equal to imported values will be deleted.  
 
 ## See Also  
- [How to: Work with Account Schedules](../../bi-how-work-account-schedule.md)
+ [Work with Account Schedules](../../bi-how-work-account-schedule.md)

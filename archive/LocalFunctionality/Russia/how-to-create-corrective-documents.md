@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Create Corrective Documents
+# Create Corrective Documents
 In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can create corrective invoices and credit memos to reflect a change in the invoiced amount or quantity.  
 
  You can also create revision documents if you discover a mistake in an issued invoice or credit memo.  
@@ -35,7 +35,7 @@ In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can create corrective in
     Some fields are filled in automatically when you select a customer. Other fields you must fill in manually. You must make sure that the values of fields such as **Prices Including VAT** and **Currency Code**, relevant dimensions, and so on are the same in the corrective document as in the original invoice.  
 
     > [!NOTE]  
-    >  On the **Invoicing** tab, fill in the **Agreement No.** field if you have set up an agreement. For more information, see [How to: Set Up Customer and Vendor Agreements](how-to-set-up-customer-and-vendor-agreements.md).  
+    >  On the **Invoicing** tab, fill in the **Agreement No.** field if you have set up an agreement. For more information, see [Set Up Customer and Vendor Agreements](how-to-set-up-customer-and-vendor-agreements.md).  
 
 3.  On the **VAT** FastTab, fill in the fields as described in the following table.  
 

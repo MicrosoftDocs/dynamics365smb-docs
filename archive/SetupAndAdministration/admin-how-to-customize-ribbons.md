@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Customize Ribbons
+# Customize Ribbons
 By opening the **Customize Ribbon** window from any page that has a ribbon, you can customize the ribbon to optimize it for your work processes and preferences. For example, if you frequently use the **Dimensions** window, you can add the **Dimensions** action to the **Process** actions group. You can also remove actions that you never use for better overview.  
   
  ![Customize ribbon dialog for selecting actions](../media/rtc_customizeribbon.png "RTC_CustomizeRibbon")  
@@ -105,16 +105,16 @@ By opening the **Customize Ribbon** window from any page that has a ribbon, you 
 -   In the **Customize** window, choose **Restore Defaults**, and then choose the **OK** button.  
   
     > [!NOTE]  
-    >  All customization of ribbons that you have ever made for this page under your current user logon or since you last used the **Restore Defaults** button are canceled. The layout of the ribbon on the page is reset to the default configuration for your profile. For more information, see [How to: Cancel UI Personalization](../how-to-cancel-ui-personalization.md).  
+    >  All customization of ribbons that you have ever made for this page under your current user logon or since you last used the **Restore Defaults** button are canceled. The layout of the ribbon on the page is reset to the default configuration for your profile. For more information, see [Cancel UI Personalization](../how-to-cancel-ui-personalization.md).  
   
 ## See Also  
  [Ribbon](../ribbon.md)   
  PERSONALIZATION Personalize the User Interface   
- [How to: Define Promoted Action Categories Captions for the Ribbon](../How%20to:%20Define%20Promoted%20Action%20Categories%20Captions%20for%20the%20Ribbon.md)   
+ [Define Promoted Action Categories Captions for the Ribbon](../How%20to:%20Define%20Promoted%20Action%20Categories%20Captions%20for%20the%20Ribbon.md)   
  [Troubleshooting: Removing Promoted Actions in Home Tab](../troubleshooting-removing-promoted-actions-in-home-tab.md)   
- [How to: Customize FastTabs](../how-to-customize-fasttabs.md)   
- [How to: Customize FactBoxes](../how-to-customize-factboxes.md)   
- [How to: Cancel UI Personalization](../how-to-cancel-ui-personalization.md)   
+ [Customize FastTabs](../how-to-customize-fasttabs.md)   
+ [Customize FactBoxes](../how-to-customize-factboxes.md)   
+ [Cancel UI Personalization](../how-to-cancel-ui-personalization.md)   
  Delete User Personalization   
  [Customize the User Interface](../customize-the-user-interface.md)   
  [Working with Product Name](../working-with-$-p_1-product-name-$-.md)   

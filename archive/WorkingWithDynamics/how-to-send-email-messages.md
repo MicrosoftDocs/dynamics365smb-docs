@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Send Email Messages
+# Send Email Messages
 When ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> is integrated with an email system, you can choose the button on the right side of the **E-Mail** field to open a window in which you can create and send a message.  
   
 ### To send an email message  
@@ -36,7 +36,7 @@ When ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> is integr
 4.  After you have composed the message, choose the **Send** button.  
   
 > [!TIP]  
->  If you want to record and share your email interactions in the **Interaction Log Entries** window, you can set up email logging. For more information, see [How to: Run Email Logging](../FullExperience/how-to-run-email-logging.md).  
+>  If you want to record and share your email interactions in the **Interaction Log Entries** window, you can set up email logging. For more information, see [Run Email Logging](../FullExperience/how-to-run-email-logging.md).  
   
 ## See Also  
- [How to: Run Email Logging](../FullExperience/how-to-run-email-logging.md)
+ [Run Email Logging](../FullExperience/how-to-run-email-logging.md)

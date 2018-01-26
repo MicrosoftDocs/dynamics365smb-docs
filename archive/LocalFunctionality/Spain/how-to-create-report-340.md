@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Create Report 340
+# Create Report 340
 Report 340 includes all sales invoices and purchase invoices posted by a company during a given period. The report also includes the operation codes with related taxes and payments in cash.  
 
 This report is generated in a format approved by the tax authorities. You should submit this report on a monthly or quarterly basis, depending on the size of your company.  

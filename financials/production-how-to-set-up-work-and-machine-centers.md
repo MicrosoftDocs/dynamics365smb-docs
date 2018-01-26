@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Work Centers and Machine Centers
+# Set Up Work Centers and Machine Centers
 The program distinguishes between three types of capacities. These are arranged hierarchically. Each level contains the subordinate levels.  
 
 The top level is the work center group. Work centers are assigned to the work center groups. Every work center can only belong to one work center group.
@@ -24,7 +24,7 @@ You can assign various machine centers to every work center. A machine center ma
 
 The planned capacity of a work center consists of the availability of the corresponding machine centers and the additional planned availability of the work center. The planned availability of the work center group is, therefore, the sum of all corresponding availabilities of the machine centers and work centers.  
 
-The availability is stored in calendar entries. Before you set up work or machine centers, you must set up shop calendars. For more information, see [How to: Create Shop Calendars](production-how-to-create-work-center-calendars.md).  
+The availability is stored in calendar entries. Before you set up work or machine centers, you must set up shop calendars. For more information, see [Create Shop Calendars](production-how-to-create-work-center-calendars.md).  
 
 ## To set up a work center
 The following primarily describes how to set up a work center. The steps to set up a machine center calendar are similar except for the **Routing Setup** FastTab.  
@@ -33,7 +33,7 @@ The following primarily describes how to set up a work center. The steps to set 
 2.  Choose the **New** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  In the **Work Center Group** field, select the higher-level resource grouping that the work center is organized under, if relevant. Choose the **New** action in the drop-down list.  
-5.  Select the **Blocked** field if you want to prevent the work center from being used in any processing. This means that output cannot be posted for an item that is produced at the work center. For more information, see [How to: Post Production Output](production-how-to-post-output-quantity.md).
+5.  Select the **Blocked** field if you want to prevent the work center from being used in any processing. This means that output cannot be posted for an item that is produced at the work center. For more information, see [Post Production Output](production-how-to-post-output-quantity.md).
 6.  In the **Direct Unit Cost** field, enter the cost of producing one unit of measure at this work center, excluding any other cost elements. This cost is often referred to as the *direct labor rate*.  
 7.  In the **Indirect Cost %** field, enter the general operation costs of using the work center as a percentage of the direct unit cost. This percentage amount is added to the direct cost in the calculation of the unit cost.  
 8.  In the **Overhead Rate** field, enter any non-operational costs, for example maintenance expenses, of the work center as an absolute amount.  
@@ -64,7 +64,7 @@ The following primarily describes how to set up a work center. The steps to set 
 13.  In the **Capacity** field, define whether the work center has more than one machine or person working at the same time. If your [!INCLUDE[d365fin](includes/d365fin_md.md)] installation does not include the Machine Center functionality, then the value in this field must be **1**.  
 14.  In the **Efficiency** field, enter the percentage of the expected standard output that this work center actually outputs. If you enter **100**, it means that the work center has an actual output that is the same as the standard output.  
 15. Select the **Consolidated Calendar** check box if you are also using machine centers. This ensures that calendar entries are rolled up from machine center calendars.  
-16.  In the **Shop Calendar Code** field, select a shop calendar. For more information, see [How to: Create Shop Calendars](production-how-to-create-work-center-calendars.md).  
+16.  In the **Shop Calendar Code** field, select a shop calendar. For more information, see [Create Shop Calendars](production-how-to-create-work-center-calendars.md).  
 17.  In the **Queue Time** field, specify a fixed time span that must pass before assigned work can begin at this work center. Note that queue time is added to other non-productive time elements such as wait time and move time that you may define on routing lines using this work center.  
 
 ## Example - Different Machine Centers Assigned to a Work Center
@@ -95,7 +95,7 @@ When planning with capacity-constrained resources, the system ensures that no re
 > In case of operation splitting, the setup time is only assigned once because it is assumed that some manual adjustment is done to optimize the schedule.
 
 ## See Also  
-[How to: Create Shop Calendars](production-how-to-create-work-center-calendars.md)  
+[Create Shop Calendars](production-how-to-create-work-center-calendars.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)    
 [Planning](production-planning.md)   

@@ -32,5 +32,5 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> contains field
  The FlowFilter function allows you to temporarily limit which entries in the other tables should be included in the calculation. You do this by defining a FlowFilter in the window in which the result of the calculation will be displayed (for example, the result of the calculation for the **Balance** field will appear on the **Customer** card). The filter will be used in the ledger entry table (in this case the **Customer Ledger Entry** table), when the ledger entries are calculated.  
   
 ## See Also  
- [How to: Set Filters](../FullExperience/how-to-set-filters.md)   
+ [Set Filters](../FullExperience/how-to-set-filters.md)   
  [Enter Criteria in Filters](../FullExperience/enter-criteria-in-filters.md)

@@ -15,7 +15,7 @@
     ms.author: bholtorf
 
 ---
-# How to: Lend and Receive Loaners
+# Lend and Receive Loaners
 You can lend customers loaners to temporarily replace service items that you have received for servicing.  
   
 ## To lend a loaner item    
@@ -43,4 +43,4 @@ You can use the **General Service Comment Sheet** window to register comments on
 5. In the **Comment** field, enter a comment. You can enter a maximum of 80 characters. If you need to enter additional text, go to the next line. You can fill in as many lines as necessary.  
   
 ## See Also  
-[How to: Set Up a Loaner Program](service-how-setup-loaner-program.md)   
+[Set Up a Loaner Program](service-how-setup-loaner-program.md)   

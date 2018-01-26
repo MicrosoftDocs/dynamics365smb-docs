@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Work with Payment Tolerances and Payment Discount Tolerances
+# Work with Payment Tolerances and Payment Discount Tolerances
 You can set up a payment tolerance to close an invoice when the payment does not fully cover the amount on the invoice. You can set up a payment discount tolerance to grant a payment discount after the payment discount date has passed.  
 
 You can use payment tolerances so that every outstanding amount has a set maximum allowed payment tolerance. If the payment tolerance is met, then the payment amount is analyzed. If the payment amount is an underpayment, then the outstanding amount is fully closed by the underpayment. A detailed ledger entry is posted to the payment entry so that no remaining amount is left on the applied invoice entry. If the payment amount is an overpayment, then a new detailed ledger entry is posted to the payment entry so that no remaining amount is left on the payment entry.

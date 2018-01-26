@@ -15,10 +15,10 @@
     ms.author: sgroespe
 
 ---
-# How to: View Archived Workflow Step Instances
+# View Archived Workflow Step Instances
 All completed workflow step instances are saved in the **Archived Workflow Step Instances** window.  
 
- In the **Workflow** window, you create a workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code. For more information, see [How to: Create Workflows](across-how-to-create-workflows.md).  
+ In the **Workflow** window, you create a workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code. For more information, see [Create Workflows](across-how-to-create-workflows.md).  
 
 ## To view archived workflow step instances  
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Workflows**, and then choose the related link.  
@@ -31,9 +31,9 @@ All completed workflow step instances are saved in the **Archived Workflow Step 
 The **Archived Workflow Step Instances** window opens showing all archived workflow step instances. In the **Workflow Code** field, you can see which workflow the archived workflow step instance belonged to.  
 
 ## See Also  
- [How to: Delete Workflows](across-how-to-delete-workflows.md)   
- [How to: Create Workflows](across-how-to-create-workflows.md)   
- [How to: Enable Workflows](across-how-to-enable-workflows.md)   
+ [Delete Workflows](across-how-to-delete-workflows.md)   
+ [Create Workflows](across-how-to-create-workflows.md)   
+ [Enable Workflows](across-how-to-enable-workflows.md)   
  [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Setting Up Workflows](across-set-up-workflows.md)   
  [Using Workflows](across-use-workflows.md)   

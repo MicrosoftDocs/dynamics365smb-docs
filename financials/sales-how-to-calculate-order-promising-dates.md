@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Calculate Order Promising Dates
+# Calculate Order Promising Dates
 A company must be able to inform their customers of order delivery dates. The **Order Promising Lines** window enables you to do this from a sales order line.  
 
 Based on an item’s known and expected availability dates, [!INCLUDE[d365fin](includes/d365fin_md.md)] instantly calculates shipment and delivery dates, which can then be promised to the customer.  
@@ -71,7 +71,7 @@ Based on new dates and times, all related dates are calculated according to the 
 
 The order processor finishes the CTP process by accepting the dates. This means that a planning line and a reservation entry are created for the item before the calculated dates to ensure that the order is fulfilled.  
 
-In addition to the external order promising that you can perform in the **Order Promising Lines** window, you can also promise internal or external delivery dates for bill-of-material items. For more information, see [How to: View the Availability of Items](inventory-how-availability-overview.md).
+In addition to the external order promising that you can perform in the **Order Promising Lines** window, you can also promise internal or external delivery dates for bill-of-material items. For more information, see [View the Availability of Items](inventory-how-availability-overview.md).
 
 ## To set up order promising  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Order Promising Setup**, and then choose the related link.  

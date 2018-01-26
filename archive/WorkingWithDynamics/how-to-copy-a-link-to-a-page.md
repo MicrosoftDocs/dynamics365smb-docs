@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Copy a Link to a Page
+# Copy a Link to a Page
 All pages have a **Copy Link to Page** action that you can use to save a link to a specific page in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->. You can then share these pages across your company. The link text is the same as the page header text.  
   
 > [!WARNING]  
@@ -37,4 +37,4 @@ All pages have a **Copy Link to Page** action that you can use to save a link to
   
 ## See Also  
  [Integrating with Microsoft OneNote](../FullExperience/integrating-with-microsoft-onenote.md)   
- [How to: Set up OneNote Integration for a Group of Users](../FullExperience/how-to-set-up-onenote-integration-for-a-group-of-users.md)
+ [Set up OneNote Integration for a Group of Users](../FullExperience/how-to-set-up-onenote-integration-for-a-group-of-users.md)

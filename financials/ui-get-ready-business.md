@@ -46,7 +46,7 @@ Use the arrows to collapse part of the page and make more room to show specific 
 Under **Company Settings** you can view and edit setup information about the current company, much of this was prefilled if you completed the **Set Up Company** assisted setup when signing up for [!INCLUDE[d365fin](includes/d365fin_md.md)]. If you want to change the company logo, contact information, bank settings, or tax information, you can do it from this window.    
 
 ## Adding Users and Permissions
-If you need to add more users, this is done from Office 365 Admin Center. For more information, see [Add Users to Office 365 for business](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Once users are created in Office 365, they can be imported into the **Users** window by using the **Get Users from Office 365** action. You can then proceed to assign permissions to users and to organize them in user groups. For more information, see [How to: Manage Users and Permissions](ui-how-users-permissions.md).  
+If you need to add more users, this is done from Office 365 Admin Center. For more information, see [Add Users to Office 365 for business](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Once users are created in Office 365, they can be imported into the **Users** window by using the **Get Users from Office 365** action. You can then proceed to assign permissions to users and to organize them in user groups. For more information, see [Manage Users and Permissions](ui-how-users-permissions.md).  
 
 ## Getting Help
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] you will find tooltips that can help guide you through the various business processes. In each tooltip you will find a link called **Learn More** that takes you to product Help. The question mark in the upper right corner also points you to product Help.
@@ -56,4 +56,4 @@ Based on your migrated data, you can now proceed to create new sales or purchase
 ## See Also
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[How to: Manage Users and Permissions](ui-how-users-permissions.md)
+[Manage Users and Permissions](ui-how-users-permissions.md)

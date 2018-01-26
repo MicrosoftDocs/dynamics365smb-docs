@@ -93,5 +93,5 @@ At some point, you might want to undo all the personalization changes that you h
 
 ## See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[How to: Change the Role Center](change-role.md)  
+[Change the Role Center](change-role.md)  
 [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)  

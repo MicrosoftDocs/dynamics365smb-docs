@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Alternate Depreciation Methods
+# Set Up Alternate Depreciation Methods
 Alternate depreciation methods include the following:  
 
 - Anticipated depreciation.  
@@ -51,8 +51,8 @@ You must create depreciation tables to set up these depreciation methods.
 6.  Choose the **OK** button.  
 
 ## See Also  
- [How to: Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md)   
+ [Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md)   
  [Italian Fixed Assets](italian-fixed-assets.md)   
- [How to: Create Multiple Fixed Asset Cards](how-to-create-multiple-fixed-asset-cards.md)   
- [How to: Set Up Compressed Depreciation of Fixed Assets](how-to-set-up-compressed-depreciation-of-fixed-assets.md)   
- [How to: Print Depreciation Book Reports](how-to-print-depreciation-book-reports.md)
+ [Create Multiple Fixed Asset Cards](how-to-create-multiple-fixed-asset-cards.md)   
+ [Set Up Compressed Depreciation of Fixed Assets](how-to-set-up-compressed-depreciation-of-fixed-assets.md)   
+ [Print Depreciation Book Reports](how-to-print-depreciation-book-reports.md)

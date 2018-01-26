@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Plan Picks in Worksheets
+# Plan Picks in Worksheets
 If your warehouse is set up to require both pick and shipment processing, the warehouse can choose to operate so that the lines on shipment documents are not automatically transformed into pick instructions, but are made available instead to the pick worksheet.  
 
 > [!NOTE]  
@@ -32,7 +32,7 @@ If you sort by due date, you can choose to delete from the worksheet all lines e
 >   
 >  For more information, see “Handling Assemble-to-Order Items in Warehouse Shipments” in Warehouse Shipment.  
 >   
->  For information about picking components for assembly orders generally, including situations where the assembly item is not due on a sales shipment, see [How to: Pick for Assembly or Production in Advanced Warehouse Configurations](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
+>  For information about picking components for assembly orders generally, including situations where the assembly item is not due on a sales shipment, see [Pick for Assembly or Production in Advanced Warehouse Configurations](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
 ## To plan picks in the worksheet  
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Pick Worksheet**, and then choose the related link.  

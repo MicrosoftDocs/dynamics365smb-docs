@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map
-ms.date: 06/06/2017
+ms.date: 01/25/2018
 ms.author: edupont
 ---
 # Managing Customers and Sales Created in Dynamics 365 for Sales
@@ -21,10 +21,6 @@ When your application is set up to integrate with Dynamics 365 for Sales, you ha
 For example, the sales person in Dynamics 365 for Sales can use the price lists from [!INCLUDE[d365fin](includes/d365fin_md.md)] when they create a sales order. When they add the item to the sales order line in Dynamics 365 for Sales, they are also able to see the inventory level (availability) of the item from [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Conversely, order processors in [!INCLUDE[d365fin](includes/d365fin_md.md)] can handle the special characteristics of sales orders transferred automatically or manually from Dynamics 365 for Sales, such as automatically create and post valid sales order lines for items or resources that were entered in Sales as write-in products. For more information, see the "Handling Special Sales Order Data" section.  
-
-
-> [!NOTE]  
->   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).  
 
 ## Setting up the connection
 From Home, you can access the **Dynamics 365 for Sales Connection Setup** assisted setup guide that helps you set up the connection. Once that is done, you will have a seamless coupling of Dynamics 365 for Sales records with [!INCLUDE[d365fin](includes/d365fin_md.md)] records.  
@@ -41,7 +37,7 @@ To import an existing Dynamics 365 for Sales solution, the setup guide uses an a
 * System Administrator  
 * Solution Customizer  
 
-For more information, see [Create users and assign Microsoft Dynamics 365, Business edition (online) security roles](https://technet.microsoft.com/library/jj191623.aspx) on techNet and [How to: Manage Users and Permissions](ui-how-users-permissions.md).  
+For more information, see [Create users and assign Microsoft Dynamics 365, Business edition (online) security roles](https://technet.microsoft.com/library/jj191623.aspx) on techNet and [Manage Users and Permissions](ui-how-users-permissions.md).  
 
 This account is only used during the setup. Once the solution is imported into [!INCLUDE[d365fin](includes/d365fin_md.md)], the account is no longer needed.
 
@@ -89,7 +85,7 @@ If the item description on the original sales order is very long, then an additi
 [Relationship Management](marketing-relationship-management.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)  
-[How to: Manage Users and Permissions](ui-how-users-permissions.md)    
+[Manage Users and Permissions](ui-how-users-permissions.md)    
 [Onboard your organization and users to Dynamics 365, Business edition (online)](https://www.microsoft.com/en-US/Dynamics/crm-customer-center/onboard-your-organization-and-users-to-dynamics-365-online.aspx)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

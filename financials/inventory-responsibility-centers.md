@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Work with Responsibility Centers
+# Work with Responsibility Centers
 Responsibility centers provide the ability to handle administrative centers. A responsibility center can be a cost center, a profit center, an investment center, or other company-defined administrative center. Examples of responsibility centers are a sales office, a purchasing department for several locations, and a plant planning office. Using this functionality, for example, companies can set up user-specific views of sales and purchase documents related exclusively to a particular responsibility center.  
 
 Using multiple locations together with responsibility centers provides the ability to manage business operations in the most flexible, yet optimal way.

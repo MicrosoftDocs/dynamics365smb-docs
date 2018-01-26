@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Create a Custom Report Layout
+# Create a Custom Report Layout
 By default, a report will have a built-in report layout, which can be either an RDLC report layout or Word report layout, or both. You cannot modify built-in layouts. However, you can create your own custom layouts that enable you to change the appearance of report when it is viewed, printed or saved. You can create multiple custom report layouts for the same report, and then switch the layout that is used by a report as needed.  
   
  To create a custom layout, you can either make a copy of an existing custom layout or add a new custom layout, which in most cases is based on a built-in layout. When you add a new custom layout, you can choose to add an RDLC report layout type, Word report layout type, or both. The new custom layout will automatically be based on the built-in layout for the report if one is available. If there is no built-in layout for the type, then a new blank layout is a created, which you will have to modify and design from scratch. For more information about RDLC and Word report layouts, built-in and custom layouts, and more, see [About Report Layouts](../FullExperience/about-report-layouts.md).  
@@ -52,9 +52,9 @@ By default, a report will have a built-in report layout, which can be either an 
   
 6.  By default, the **Company Name** field is blank, which means that the custom layout will be available for the report in all companies. To make the custom layout available in a specific company only, on the **Home** tab, in the **Manage** group, choose **Edit**, and then set the **Company Name** field to the company that you want.  
   
- The custom layout has been created. You can now modify the custom layout as needed. For more information, see [How to: Modify a Custom Report Layout](../FullExperience/how-to-modify-a-custom-report-layout.md).  
+ The custom layout has been created. You can now modify the custom layout as needed. For more information, see [Modify a Custom Report Layout](../FullExperience/how-to-modify-a-custom-report-layout.md).  
   
- For information about how to make the custom layout the current layout for the report, see [How to: Change Which Layout is Currently Used on a Report](../FullExperience/how-to-change-which-layout-is-currently-used-on-a-report.md).  
+ For information about how to make the custom layout the current layout for the report, see [Change Which Layout is Currently Used on a Report](../FullExperience/how-to-change-which-layout-is-currently-used-on-a-report.md).  
   
 ## See Also  
  [Managing Report Layouts From the Microsoft Dynamics NAV Clients](../FullExperience/managing-report-layouts-from-the-microsoft-dynamics-nav-clients.md)   

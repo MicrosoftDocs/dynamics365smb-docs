@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Define an Account Schedule Constant
+# Define an Account Schedule Constant
 [!INCLUDE[navnow](../../includes/navnow_md.md)] enables you to define a constant for an account schedule line. Constants are useful if an account schedule value does not change.  
 
 ## To define an account schedule constant  
@@ -27,6 +27,6 @@
 4.  In the **Totaling Type** field, select **Constant**, and then enter a constant value in the **Totaling** field.  
 
 ## See Also  
- [How to: Work with Account Schedules](../../bi-how-work-account-schedule.md)   
+ [Work with Account Schedules](../../bi-how-work-account-schedule.md)   
  [Account Schedules Overview](account-schedules-overview.md)   
- [How to: Define an Account Schedule Extension](how-to-define-an-account-schedule-extension.md)
+ [Define an Account Schedule Extension](how-to-define-an-account-schedule-extension.md)

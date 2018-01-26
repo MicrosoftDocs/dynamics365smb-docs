@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up 340 Reports for Small Businesses
+# Set Up 340 Reports for Small Businesses
 Use the following procedure to set up your business to report on a cash basis, that is, Cash Accounting Criteria (CAC). If you have not already done so, you can set up posting groups for cash-based VAT accounting for purchases and sales.  
 
 When you file a report 340, any transaction lines that are associated with unrealized VAT are assumed to have taken place under cash accounting.  
@@ -33,4 +33,4 @@ After VAT posting is set up to handle unrealized VAT, any printed sales order, p
 6.  On the **Sales** and **Purchase** FastTabs, specify general ledger accounts for the various **VAT Unreal. Account** fields.  
 
 ## See Also  
-[How to: Report VAT to Tax Authorities](../../finance-how-report-vat.md)
+[Report VAT to Tax Authorities](../../finance-how-report-vat.md)

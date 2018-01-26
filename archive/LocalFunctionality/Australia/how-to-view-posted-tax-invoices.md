@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: View Posted Tax Invoices
+# View Posted Tax Invoices
 In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can use the **Posted Sales Tax Invoice** window and the **Posted Purchase Tax Invoice** window to view the details of posted sales tax invoices and posted purchase tax invoices.  
 
 The following procedure describes how to view the posted sales tax invoice, but the same steps also apply to viewing posted purchase tax invoices.  
@@ -37,4 +37,4 @@ The following procedure describes how to view the posted sales tax invoice, but 
 3.  Choose the **OK** button.  
 
 ## See Also  
- [How to: View Posted Tax Credit Memos](how-to-view-posted-tax-credit-memos.md) 
+ [View Posted Tax Credit Memos](how-to-view-posted-tax-credit-memos.md) 

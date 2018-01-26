@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Make Windows Editable
+# Make Windows Editable
 ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> lets you work with windows in three different modes: View, Edit, and New. The mode appears in the window caption, before the window name. For example, **View - Customer Card - 10000 The Cannon Group PLC**.  
   
  This topic describes how to switch from view mode to edit mode.  
@@ -39,6 +39,6 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> lets you work 
  You can now edit data on an existing line or insert a new line.  
   
 ## See Also  
- [How to: Create New Lines and New Cards](../FullExperience/how-to-create-new-lines-and-new-cards.md)   
- [How to: Enter Data](../FullExperience/how-to-enter-data.md)   
+ [Create New Lines and New Cards](../FullExperience/how-to-create-new-lines-and-new-cards.md)   
+ [Enter Data](../FullExperience/how-to-enter-data.md)   
  [Keyboard Shortcuts](../FullExperience/keyboard-shortcuts.md)

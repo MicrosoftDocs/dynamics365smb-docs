@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Payment Classes
+# Set Up Payment Classes
 To use payment management, you must set up payment classes to define operation types, such as bills of exchange, electronic payments, or checks.  
 
 ## To set up a payment class  
@@ -40,10 +40,10 @@ To use payment management, you must set up payment classes to define operation t
 
 ## See Also  
  [Payment Management](payment-management.md)   
- [How to: Set Up Payment Statuses](how-to-set-up-payment-statuses.md)   
- [How to: Set Up Payment Steps](how-to-set-up-payment-steps.md)   
- [How to: Set Up Payment Addresses](how-to-set-up-payment-addresses.md)   
- [How to: Export or Import Payment Management Setup Parameters](how-to-export-or-import-payment-management-setup-parameters.md)   
- [How to: Create Payment Slips](how-to-create-payment-slips.md)   
- [How to: Post Payment Slips](how-to-post-payment-slips.md)   
- [How to: Archive Payment Slips](how-to-archive-payment-slips.md)
+ [Set Up Payment Statuses](how-to-set-up-payment-statuses.md)   
+ [Set Up Payment Steps](how-to-set-up-payment-steps.md)   
+ [Set Up Payment Addresses](how-to-set-up-payment-addresses.md)   
+ [Export or Import Payment Management Setup Parameters](how-to-export-or-import-payment-management-setup-parameters.md)   
+ [Create Payment Slips](how-to-create-payment-slips.md)   
+ [Post Payment Slips](how-to-post-payment-slips.md)   
+ [Archive Payment Slips](how-to-archive-payment-slips.md)

@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Export GDPdU Data
+# Export GDPdU Data
 You can export financial data and tax data according to the process for data access and testability of digital documents (GDPdU). You can also select various options to be included in an XML file.  
 
  If there is no data to export, [!INCLUDE[navnow](../../includes/navnow_md.md)] creates empty files.  

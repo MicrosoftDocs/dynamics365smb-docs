@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Print Remittance Advice
+# Print Remittance Advice
 You can print remittance advice before posting a payment journal and after posting a payment. This advice displays vendor invoice numbers, which helps vendors to perform reconciliations.  
 
 ## To print remittance advice  

@@ -16,8 +16,8 @@
     ms.author: sgroespe
 
 ---
-# How to: Create Payment Slips
-You can create payments slips to manage vendor and customer payments. Before you create payment slips, you must set up payment classes. For more information, see [How to: Set Up Payment Classes](how-to-set-up-payment-classes.md).  
+# Create Payment Slips
+You can create payments slips to manage vendor and customer payments. Before you create payment slips, you must set up payment classes. For more information, see [Set Up Payment Classes](how-to-set-up-payment-classes.md).  
 
 The following procedure describes how to create payment slips for vendor payments, but the same steps also apply to creating payment slips for customer payments.  
 
@@ -121,10 +121,10 @@ After you create a payment slip, you can generate payment files and send them to
 
 ## See Also  
  [Payment Management](payment-management.md)   
- [How to: Set Up Payment Classes](how-to-set-up-payment-classes.md)   
- [How to: Set Up Payment Statuses](how-to-set-up-payment-statuses.md)   
- [How to: Set Up Payment Steps](how-to-set-up-payment-steps.md)   
- [How to: Set Up Payment Addresses](how-to-set-up-payment-addresses.md)   
- [How to: Post Payment Slips](how-to-post-payment-slips.md)   
- [How to: Archive Payment Slips](how-to-archive-payment-slips.md)   
- [How to: Export or Import Payment Management Setup Parameters](how-to-export-or-import-payment-management-setup-parameters.md)
+ [Set Up Payment Classes](how-to-set-up-payment-classes.md)   
+ [Set Up Payment Statuses](how-to-set-up-payment-statuses.md)   
+ [Set Up Payment Steps](how-to-set-up-payment-steps.md)   
+ [Set Up Payment Addresses](how-to-set-up-payment-addresses.md)   
+ [Post Payment Slips](how-to-post-payment-slips.md)   
+ [Archive Payment Slips](how-to-archive-payment-slips.md)   
+ [Export or Import Payment Management Setup Parameters](how-to-export-or-import-payment-management-setup-parameters.md)

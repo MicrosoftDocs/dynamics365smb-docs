@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Basic Warehouses with Operations Areas
+# Set Up Basic Warehouses with Operations Areas
 If internal operation areas such as production or assembly exist in basic warehouse configurations where locations use the **Bin Mandatory** setup field and possibly the **Require Pick** and **Require Put-away** setup fields, then you can use the following basic warehouse documents to record your warehouse activities for internal operation areas:  
 
 - **Inventory Movement** window.  
@@ -62,9 +62,9 @@ This flow chart shows how the **Bin Code** field on production order component l
 ![Bin flow chart](media/binflow.png "BinFlow")    
 
 ## To define a default bin structure in the assembly area
-Components for assembly orders cannot be picked or posted with inventory picks. Instead, use the **Inventory Movement** window. For more information, see [How to: Move Components to an Operation Area in Basic Warehousing](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+Components for assembly orders cannot be picked or posted with inventory picks. Instead, use the **Inventory Movement** window. For more information, see [Move Components to an Operation Area in Basic Warehousing](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
-When picking and shipping sales line quantities that are assembled to the order, you must follow certain rules when creating the inventory pick lines. For more information, see the “Handling Assemble-to-Order Items in Inventory Picks” section in [How to: Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md).
+When picking and shipping sales line quantities that are assembled to the order, you must follow certain rules when creating the inventory pick lines. For more information, see the “Handling Assemble-to-Order Items in Inventory Picks” section in [Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md).
 
 For more information, see [Assembly Management](assembly-assemble-items.md).
 
@@ -106,7 +106,7 @@ The value in this field is automatically inserted in the Bin Code field on sales
 
 If the **Asm.-to-Order Shpt. Bin Code** is blank, then the **From-Assembly Bin Code** field is used instead. If both setup fields are blank, then the last used bin with content is used in the **Bin Code** field on sales order lines.
 
-The same bin code is in turn copied to the **Bin Code** field on the inventory pick line that manages the shipment of the assemble-to-order quantity. For more information, see the “Handling Assemble-to-Order Items in Inventory Picks” section in [How to: Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md).
+The same bin code is in turn copied to the **Bin Code** field on the inventory pick line that manages the shipment of the assemble-to-order quantity. For more information, see the “Handling Assemble-to-Order Items in Inventory Picks” section in [Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md).
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.
 2. Open the Location you want to set up.
@@ -119,7 +119,7 @@ Quantities in dedicated bins can still be reserved. Accordingly, the quantities 
 
 For example, is a work center is set up with a bin code in the **To-Production Bin Code** field. Production order component lines with that bin code require that forward-flushed components are placed there. However, until the components are consumed from that bin, other component demands may pick or consume from that bin because they are still considered available bin contents. To make sure that bin content is only available to component demand that uses that to-production bin, you must select the **Dedicated** field on the line for that bin code in the **Bins** window that you open from the location card.
 
-Making a bin dedicated provides similar functionality to using bin types, which is only available in advanced warehousing. For more information, see [How to: Set Up Bin Types](warehouse-how-to-set-up-bin-types.md).
+Making a bin dedicated provides similar functionality to using bin types, which is only available in advanced warehousing. For more information, see [Set Up Bin Types](warehouse-how-to-set-up-bin-types.md).
 
 > [!Caution]
 > Items in dedicated bins are not protected when they are picked and consumed as production components with the Inventory Pick window.

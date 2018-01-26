@@ -21,4 +21,4 @@
 
 ## See Also  
 [Finland Local Functionality](finland-local-functionality.md)  
-[How to: Report VAT to Tax Authorities](../../finance-how-report-vat.md)
+[Report VAT to Tax Authorities](../../finance-how-report-vat.md)

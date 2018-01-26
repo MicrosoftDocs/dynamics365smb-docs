@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: View Notes and Notifications
+# View Notes and Notifications
 ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> enables you and your colleagues to attach notes to records in the application. For example, if your colleague wants to give you extra information about a sales order that is not covered by the fields on the sales order page, they can write a note and send it to you as a notification on your Role Center.  
   
  When you read the notification on your Role Center, you can open the sales order just by double-clicking the note.  
@@ -46,5 +46,5 @@ ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> enables you an
   
 ## See Also  
  NOTES Write Notes   
- [How to: Create Notes and Notifications](../FullExperience/how-to-create-notes-and-notifications.md)   
- [How to: Delete Notes and Notifications](../FullExperience/how-to-delete-notes-and-notifications.md)
+ [Create Notes and Notifications](../FullExperience/how-to-create-notes-and-notifications.md)   
+ [Delete Notes and Notifications](../FullExperience/how-to-delete-notes-and-notifications.md)

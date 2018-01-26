@@ -27,11 +27,11 @@ You can set up and use workflows that connect business-process tasks performed b
 
 |**To**|**See**|  
 |------------|-------------|  
-|Set a workflow to start when the first entry-point event occurs.|[How to: Enable Workflows](across-how-to-enable-workflows.md)|  
-|Request approval of a task, as an approver, accept, decline, or delegate approvals, and send or view approval notifications.|[How to: Use Approval Workflows](across-how-use-approval-workflows.md)|  
-|Create workflow steps that restrict a certain record type from being used before a certain event occurs, for example that the record is approved.|[How to: Restrict and Allow Usage of a Record](across-how-to-restrict-and-allow-usage-of-a-record.md)|  
-|View workflow step instances of status Completed.|[How to: View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md)|  
-|Delete a workflow that you are sure will no longer be used.|[How to: Delete Workflows](across-how-to-delete-workflows.md)|  
+|Set a workflow to start when the first entry-point event occurs.|[Enable Workflows](across-how-to-enable-workflows.md)|  
+|Request approval of a task, as an approver, accept, decline, or delegate approvals, and send or view approval notifications.|[Use Approval Workflows](across-how-use-approval-workflows.md)|  
+|Create workflow steps that restrict a certain record type from being used before a certain event occurs, for example that the record is approved.|[Restrict and Allow Usage of a Record](across-how-to-restrict-and-allow-usage-of-a-record.md)|  
+|View workflow step instances of status Completed.|[View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md)|  
+|Delete a workflow that you are sure will no longer be used.|[Delete Workflows](across-how-to-delete-workflows.md)|  
 
 ## See Also  
 [Setting Up Workflows](across-set-up-workflows.md)   

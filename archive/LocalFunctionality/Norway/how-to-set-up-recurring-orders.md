@@ -16,8 +16,8 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Recurring Orders
-After you create a recurring group, you can set up recurring orders on the blanket sales order by adding the group to the order. For more information, see [How to: Create Blanket Sales Orders](how-to-set-up-recurring-groups.md).  
+# Set Up Recurring Orders
+After you create a recurring group, you can set up recurring orders on the blanket sales order by adding the group to the order. For more information, see [Create Blanket Sales Orders](how-to-set-up-recurring-groups.md).  
 
 ## To set up a recurring order  
 
@@ -41,6 +41,6 @@ After you create a recurring group, you can set up recurring orders on the blank
 
 ## See Also  
  [Recurring Orders](recurring-orders.md)   
- [How to: Set Up Recurring Groups](how-to-set-up-recurring-groups.md)   
- [How to: Create Recurring Orders](how-to-create-recurring-orders.md)   
- [How to: Work with Blanket Sales Orders](../../sales-how-to-create-blanket-sales-orders.md)
+ [Set Up Recurring Groups](how-to-set-up-recurring-groups.md)   
+ [Create Recurring Orders](how-to-create-recurring-orders.md)   
+ [Work with Blanket Sales Orders](../../sales-how-to-create-blanket-sales-orders.md)

@@ -88,14 +88,14 @@ When you post credit memos, you must update the **Refers to Period** field to sp
 
  To prepare your data for these reports, you must set up VAT posting to include VAT transaction report amounts. When a transaction such as posting a sales invoice is made that uses this VAT posting setup, [!INCLUDE[navnow](../../includes/navnow_md.md)] checks if the transaction meets the threshold amounts. The check is based on document lines because a document can contain lines that must be included in the VAT transaction report and lines that must be excluded. The VAT transaction reports must only contain the lines that must be submitted, so [!INCLUDE[navnow](../../includes/navnow_md.md)] compares amounts against the threshold for each line instead of for a document.  
 
- You must submit a VAT transactions report electronically to the tax authorities. For more information, see [How to: Create Electronic VAT Transactions Reports](how-to-create-electronic-vat-transactions-reports.md).  
+ You must submit a VAT transactions report electronically to the tax authorities. For more information, see [Create Electronic VAT Transactions Reports](how-to-create-electronic-vat-transactions-reports.md).  
 
 ## See Also  
 [Set Up VAT](../../finance-setup-vat.md)   
-[How to: Record VAT](../../finance-how-report-vat.md)  
- [How to: Prepare for VAT Transactions Reports](how-to-prepare-for-vat-transactions-reports.md)   
- [How to: Create Electronic VAT Transactions Reports](how-to-create-electronic-vat-transactions-reports.md)   
- [How to: Submit VAT Statements](how-to-submit-vat-statements.md)   
- [How to: Update VAT Transactions Data](how-to-update-vat-transactions-data.md)   
- [How to: Report Trade with Customers and Vendors in Blacklist Countries-Regions](how-to-report-trade-with-customers-and-vendors-in-blacklist-countries-regions.md)   
+[Record VAT](../../finance-how-report-vat.md)  
+ [Prepare for VAT Transactions Reports](how-to-prepare-for-vat-transactions-reports.md)   
+ [Create Electronic VAT Transactions Reports](how-to-create-electronic-vat-transactions-reports.md)   
+ [Submit VAT Statements](how-to-submit-vat-statements.md)   
+ [Update VAT Transactions Data](how-to-update-vat-transactions-data.md)   
+ [Report Trade with Customers and Vendors in Blacklist Countries-Regions](how-to-report-trade-with-customers-and-vendors-in-blacklist-countries-regions.md)   
  [Italy Local Functionality](italy-local-functionality.md)

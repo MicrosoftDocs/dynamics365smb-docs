@@ -102,7 +102,7 @@ If you are using the fixed assets in [!INCLUDE[d365fin](includes/d365fin_md.md)]
     Enable general ledger integration by following the next steps. First, make sure that general ledger integration is disabled for all depreciation books, then post the opening entries, and finally, turn on general ledger integration.  
 4. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Books**, and then choose the related link.  
 5. Select the relevant depreciation book. On the **Home** tab, in the **Manage** group, choose **Edit** to open the **Depreciation Book Card** window.
-6. On the **Integration** FastTab, make sure all fields are blank by clearing all check marks. If you have more than one depreciation book, turn on general ledger integration for each one.  
+6. On the **Integration** FastTab, make sure all fields are blank by clearing all check marks. If you have more than one depreciation book, turn off general ledger integration for each one.  
 7. In the fixed asset journal, enter the following lines for each asset:
    * A line with the acquisition cost.
    * A line with the accumulated depreciation to the end of the previous fiscal year.

@@ -1,6 +1,6 @@
 ---
 title: Manage users and roles | Microsoft Docs
-description: Learn how to manage users and Role Centers in Dynamics 365, Business edition.
+description: Learn how to manage users and Role Centers in Finance and Operations, Business edition.
 author: edupont04
 
 ms.service: dynamics365-financials
@@ -13,7 +13,7 @@ ms.date: 09/01/2017
 ms.author: edupont
 
 ---
-# Users, Profiles, and Role Centers in Dynamics 365, Business edition
+# Users, Profiles, and Role Centers in Finance and Operations, Business edition
 The people in your company who have access to [!INCLUDE[d365fin](includes/d365fin_md.md)] are all assigned a *profile* that gives them access to a *Role Center*. As an administrator, you can assign and change profiles in [!INCLUDE[d365fin](includes/d365fin_md.md)], and you can add and remove users as part of your [!INCLUDE[d365fin](includes/d365fin_md.md)] subscription.  
 
 ## Adding Users

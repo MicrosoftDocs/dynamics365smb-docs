@@ -13,7 +13,7 @@ ms.date: 09/14/2017
 ms.author: edupont
 
 ---
-# Accountant Portal for Dynamics 365, Business edition
+# Accountant Portal for Finance and Operations, Business edition
 This application provides a dashboard with summary data for each client of an accountant. The portal displays financial KPIs as well as a direct link to the client’s financial application.  
 
 The dashboard is a highly specialized Role Center for a better overview of your clients.  
@@ -24,7 +24,7 @@ When you first install the extension, a sample company helps you get started. Yo
 ## Installing the Extension
 When you install the extension in your [!INCLUDE[d365fin](includes/d365fin_md.md)], you will be asked if you want to use it now. If you do, then you must sign out and sign in again, because the extension replaces your current Role Center and adds permissions to your user profile.  
 
-For more information, see [Accountant Experiences in Dynamics 365, Business edition ](finance-accounting.md).  
+For more information, see [Accountant Experiences in Finance and Operations, Business edition ](finance-accounting.md).  
 
 > [!NOTE]  
 >  The current version of the extension requires that your clients use [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -35,5 +35,5 @@ This extension will be deprecated in a few months. We recommend that you do not 
 For more information, see [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index.md).  
 
 ## See Also
-[Accountant Experiences in Dynamics 365, Business edition ](finance-accounting.md)  
+[Accountant Experiences in Finance and Operations, Business edition ](finance-accounting.md)  
 [Finance](finance.md)  

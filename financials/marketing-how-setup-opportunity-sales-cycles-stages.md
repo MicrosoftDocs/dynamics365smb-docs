@@ -1,6 +1,6 @@
 ---
 title: Set Up Opportunity Sales Cycles and Cycle Stages| Microsoft Docs
-description: Describes how to define sales stages, from initial contact to closing, to create a sales cycle and assign it to opportunities in Dynamics 365, Business edition.
+description: Describes how to define sales stages, from initial contact to closing, to create a sales cycle and assign it to opportunities in Finance and Operations, Business edition.
 author: SorenGP
 
 ms.service: dynamics365-financials

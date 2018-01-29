@@ -1,6 +1,6 @@
 ---
-title: Use Dynamics 365, Business edition on Your Mobile Device| Microsoft Docs
-description: You can view and edit your Dynamics 365, Business edition data on your phone or tablet.
+title: Use Finance and Operations, Business edition on Your Mobile Device| Microsoft Docs
+description: You can view and edit your Finance and Operations, Business edition data on your phone or tablet.
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 
@@ -14,7 +14,7 @@ ms.date: 06/02/2017
 ms.author: solsen
 ---
 
-# Getting Dynamics 365, Business edition for Finance and Operations on Your Mobile Device
+# Getting Finance and Operations, Business edition for Finance and Operations on Your Mobile Device
 Access your [!INCLUDE[d365fin](includes/d365fin_md.md)] data from your mobile device. You can navigate through your business data, use features such as send to Excel or Office 365, view up-to-date charts and KPIs, email sales quotes and invoices, and shoot and attach pictures with your camera. Follow the steps below to download the app and get started.
 
 ## To get the app on my mobile device

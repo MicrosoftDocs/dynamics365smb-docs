@@ -1,6 +1,6 @@
 ---
     title: Walkthrough - Picking and Shipping in Basic Warehouse Configurations | Microsoft Docs
-    description: In Dynamics 365, Business edition, the outbound processes for picking and shipping can be performed in four ways using different functionalities depending on the warehouse complexity level.
+    description: In Finance and Operations, Business edition, the outbound processes for picking and shipping can be performed in four ways using different functionalities depending on the warehouse complexity level.
     author: SorenGP
 
     ms.service: dynamics365-financials

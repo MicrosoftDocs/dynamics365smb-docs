@@ -1,6 +1,6 @@
 ---
 title: Assign User Permissions and Create or Modify Permission Sets | Microsoft Docs
-description: Describes how add Office 365 users to Dynamics 365, Business edition, and then assign permissions, access rights, and security settings.
+description: Describes how add Office 365 users to Finance and Operations, Business edition, and then assign permissions, access rights, and security settings.
 author: SorenGP
 
 ms.service: dynamics365-financials

@@ -1,6 +1,6 @@
 ---
     title: How to Set Up Declaration Types
-    description: In [!INCLUDE[navnow](../../includes/navnow_md.md)], there are two types of declaration.
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], there are two types of declaration.
 
     services: project-madeira 
     documentationcenter: ''
@@ -17,7 +17,7 @@
 
 ---
 # Set Up Declaration Types
-In [!INCLUDE[navnow](../../includes/navnow_md.md)], there are two types of declaration:  
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], there are two types of declaration:  
 
 - Simplified declaration  
 - Extended declaration  

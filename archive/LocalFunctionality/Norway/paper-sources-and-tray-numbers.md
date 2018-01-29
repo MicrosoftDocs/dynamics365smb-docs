@@ -19,7 +19,7 @@
 # Paper Sources and Tray Numbers
 When printing Norwegian sales documents, you can set up different tray numbers and paper sources on the first, last, and other pages.  
 
-[!INCLUDE[navnow](../../includes/navnow_md.md)] uses the following standard tray numbers and paper sources.  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] uses the following standard tray numbers and paper sources.  
 
 |Tray number|Paper source|  
 |-----------------|------------------|  

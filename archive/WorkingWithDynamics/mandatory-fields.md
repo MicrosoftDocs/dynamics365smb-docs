@@ -1,6 +1,6 @@
 ---
     title: Mandatory Fields | Microsoft Docs
-    description: When you enter data on pages in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, certain fields are marked with a red asterisk. The red asterisk means that the field must be filled to complete a certain process that uses the field, such as posting a transaction that uses the value in the field.
+    description: When you enter data on pages in ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]-->, certain fields are marked with a red asterisk. The red asterisk means that the field must be filled to complete a certain process that uses the field, such as posting a transaction that uses the value in the field.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # Mandatory Fields
-When you enter data on pages in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->, certain fields are marked with a red asterisk. The red asterisk means that the field must be filled to complete a certain process that uses the field, such as posting a transaction that uses the value in the field.  
+When you enter data on pages in ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]-->, certain fields are marked with a red asterisk. The red asterisk means that the field must be filled to complete a certain process that uses the field, such as posting a transaction that uses the value in the field.  
   
  Even though the field contains a red asterisk, you are not forced to fill the field before you continue to other fields or close the page. The red asterisk only serves as a reminder that you will be blocked from completing a certain process.  
   

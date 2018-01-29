@@ -34,7 +34,7 @@ In the **Assisted Setup** window, you will find the following with the **Basic**
 | Set Up Office Add-Ins |Sets up the ability to use and launch [!INCLUDE[d365fin](includes/d365fin_md.md)] from Outlook. |
 | Set Up Approval Workflow |Sets up the ability to automatically notify an approver when a user tries to create or change certain values on documents, journal lines, or cards, such as an amount above a specified limit. |
 | Set Up Email Logging |Sets up the capability to log email correspondence in [!INCLUDE[d365fin](includes/d365fin_md.md)] to follow up on interactions. |
-| Set Up Finance and Operations, Business edition Connector |Sets up a connection to Dynamics 365 for Sales which allows you to synchronize data such as contacts and sales order information. |
+| Set Up the Finance and Operations, Business edition Connector |Sets up a connection to Dynamics 365 for Sales which allows you to synchronize data such as contacts and sales order information. |
 
 When you have run an assisted setup, it is marked as **Completed**. To run the assisted setup, you choose the three dots also called the context menu, and then you select **Start Setup**.
 

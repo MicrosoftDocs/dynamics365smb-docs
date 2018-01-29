@@ -40,22 +40,21 @@ Getting insights into your Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin
 - While your dataset will be scheduled to refreshed daily, you can change the refresh schedule or try refreshing it on demand using **Refresh Now**.
 
 ## System Requirements
-
 To import your [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] data into Power BI, you need to have permissions to the web services used to retrieve data. The web services required for each content pack include:
 
-**Microsoft Finance and Operations, Business edition for Finance and Operations – CRM**
+**Microsoft Dynamics 365 – CRM**
 - SalesOpportunities
 
-**Microsoft Finance and Operations, Business edition for Finance and Operations – Sales**
+**Microsoft Dynamics 365 – Sales**
 - ItemSalesbyCustomer
 - Power_BI_Item_Purchase_List
 - Power_BI_Item_Sales_List
 - SalesDashboard
 
-**Microsoft Finance and Operations, Business edition for Finance and Operations – Finance**
+**Microsoft Dynamics 3645 – Finance**
 - PowerBIFinance
 
-**Microsoft Finance and Operations, Business edition for Finance and Operations – Jobs**
+**Microsoft Dynamics 365 for Finance and Operations, Business edition – Jobs**
 - Job List
 - Job Planning Lines
 - Job Task Lines

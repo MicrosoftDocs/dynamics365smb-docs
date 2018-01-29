@@ -1,6 +1,6 @@
 ---
 title: 'Set Up the GetAddress.io UK Postcodes Extension | Microsoft Docs'
-description: Describes the general functionality you use to interact with data in Dynamics 365, Business edition, such as entering values, sorting data, and changing views.
+description: Describes the general functionality you use to interact with data in Finance and Operations, Business edition, such as entering values, sorting data, and changing views.
 author: bholtorf
 ms.service: dynamics365-financials
 ms.topic: article

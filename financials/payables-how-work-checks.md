@@ -1,6 +1,6 @@
 ---
 title: Issue, Print, Cancel, and Void Checks| Microsoft Docs
-description: Describes how to issue checks using the payment journal, print checks, and void or view check ledger entries in Dynamics 365, Business edition.  
+description: Describes how to issue checks using the payment journal, print checks, and void or view check ledger entries in Finance and Operations, Business edition.  
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

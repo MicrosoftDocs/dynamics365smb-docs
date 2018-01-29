@@ -1,6 +1,6 @@
 ---
 title: Assigning and managing tasks| Microsoft Docs
-description: Learn how to assign tasks to users, including your accountant, in Dynamics 365, Business edition 
+description: Learn how to assign tasks to users, including your accountant, in Finance and Operations, Business edition 
 author: edupont04
 
 ms.service: dynamics365-financials

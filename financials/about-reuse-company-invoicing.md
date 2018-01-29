@@ -1,6 +1,6 @@
 ---
-title: Use Invoicing and Dynamics 365, Business edition | Microsoft Docs
-description: Workaround for accessing Microsoft Invoicing when you have signed up for Dynamics 365, Business edition.
+title: Use Invoicing and Finance and Operations, Business edition | Microsoft Docs
+description: Workaround for accessing Microsoft Invoicing when you have signed up for Dynamics 365 for Finance and Operations, Business edition.
 author: edupont04
 
 ms.service: dynamics365-financials
@@ -13,7 +13,7 @@ ms.date: 11/22/2017
 ms.author: edupont
 
 ---
-# Using the same Office 365 Account in [!INCLUDE[d365fin](includes/d365fin_md.md)] and Microsoft Invoicing
+# Using the same Office 365 Account in [!INCLUDE[d365fin](includes/d365fin_long_md.md)] and Microsoft Invoicing
 When you sign up for a trial with [!INCLUDE[d365fin](includes/d365fin_md.md)], you can move to a 30-day evaluation phase, you can start a subscription, or you can stop using [!INCLUDE[d365fin](includes/d365fin_md.md)]. In all cases, if you log into the Office Portal, you might see a tile called **Business center** and click it. This is part of the Office 365 Business Premium subscription, so not everyone will see that tile in the Office Portal.  
 
 If you do access the Business center, you will see a section called **Invoicing**. If you access that section, you will see a message that you cannot access Microsoft Invoicing because your account is used in [!INCLUDE[d365fin](includes/d365fin_md.md)].  

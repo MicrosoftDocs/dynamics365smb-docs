@@ -1,6 +1,6 @@
 ---
     title: Australia Local Functionality
-    description: The following topics describe the local functionality in the Australian version of [!INCLUDE[navnow](../../includes/navnow_md.md)].
+    description: The following topics describe the local functionality in the Australian version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
 	  services: project-madeira 
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # Australia Local Functionality
-The following topics describe local functionality that is unique to the Australian version of [!INCLUDE[navnow](../../includes/navnow_md.md)].  
+The following topics describe local functionality that is unique to the Australian version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## In This Section  
   [Australian Business Numbers and Adjustment Notes](australian-business-numbers-and-adjustment-notes.md)  
@@ -34,4 +34,4 @@ The following topics describe local functionality that is unique to the Australi
   [Create Check Installments](how-to-create-check-installments.md)
 
 ## See Also
-[Working with [!INCLUDE[navnow](../../includes/navnow_md.md)]](../../ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  

@@ -1,6 +1,6 @@
 ---
     title: How to Send Email Messages | Microsoft Docs
-    description: When ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> is integrated with an email system, you can choose the button on the right side of the **E-Mail** field to open a window in which you can create and send a message.
+    description: When ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> is integrated with an email system, you can choose the button on the right side of the **E-Mail** field to open a window in which you can create and send a message.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # Send Email Messages
-When ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> is integrated with an email system, you can choose the button on the right side of the **E-Mail** field to open a window in which you can create and send a message.  
+When ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> is integrated with an email system, you can choose the button on the right side of the **E-Mail** field to open a window in which you can create and send a message.  
   
 ### To send an email message  
   

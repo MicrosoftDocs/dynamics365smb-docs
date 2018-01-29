@@ -1,6 +1,6 @@
 ---
     title: How to Import CODA Statements
-    description: When you receive a CODA statement from your bank, you must import it into [!INCLUDE[navnow](../../includes/navnow_md.md)].
+    description: When you receive a CODA statement from your bank, you must import it into [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
 
     services: project-madeira 
     documentationcenter: ''
@@ -17,7 +17,7 @@
 
 ---
 # Import CODA Statements
-When you receive a CODA statement from your bank, you must import it into [!INCLUDE[navnow](../../includes/navnow_md.md)]. For more information, see [Set Up Bank Accounts for CODA](how-to-set-up-bank-accounts-for-coda.md).  
+When you receive a CODA statement from your bank, you must import it into [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. For more information, see [Set Up Bank Accounts for CODA](how-to-set-up-bank-accounts-for-coda.md).  
 
 ## To import a CODA statement  
 

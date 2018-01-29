@@ -17,7 +17,7 @@
 
 ---
 # Edit Document Amounts in Purchase Invoices and Credit Memos
-[!INCLUDE[navnow](../../includes/navnow_md.md)] lets you easily edit document amounts in purchase invoices and credit memos.  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] lets you easily edit document amounts in purchase invoices and credit memos.  
 
 ## To edit document amounts  
 

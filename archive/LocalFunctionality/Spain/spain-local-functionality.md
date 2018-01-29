@@ -1,6 +1,6 @@
 ---
     title: Spain Local Functionality
-    description: The following topics describe the local functionality in the Spanish version of [!INCLUDE[navnow](../../includes/navnow_md.md)].
+    description: The following topics describe the local functionality in the Spanish version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
 
     services: project-madeira 
     documentationcenter: ''
@@ -17,7 +17,7 @@
 
 ---
 # Spain Local Functionality
-The following topics describe local functionality that is unique to the Spanish version of [!INCLUDE[navnow](../../includes/navnow_md.md)].  
+The following topics describe local functionality that is unique to the Spanish version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## In This Section  
   [Calculating Due Dates](calculating-due-dates.md)  
@@ -41,4 +41,4 @@ The following topics describe local functionality that is unique to the Spanish 
   [Report 349](report-349.md)  
 
 ## See Also
-[Working with [!INCLUDE[navnow](../../includes/navnow_md.md)]](../../ui-work-product.md)
+[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)

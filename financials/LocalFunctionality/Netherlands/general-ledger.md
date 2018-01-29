@@ -1,13 +1,8 @@
 ---
     title: General Ledger
-<<<<<<< HEAD:financials/LocalFunctionality/Netherlands/general-ledger.md
-    description: Special general ledger functionality exists for the Dutch version of Dynamics 365, Business edition.
+    description: Special general ledger functionality exists for the Dutch version of Finance and Operations, Business edition.
     services: project-madeira
-=======
-    description: Special general ledger functionality exists for the Dutch version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
-
-    services: project-madeira 
->>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Netherlands/general-ledger.md
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 

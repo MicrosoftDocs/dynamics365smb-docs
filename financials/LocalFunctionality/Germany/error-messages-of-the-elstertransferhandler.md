@@ -1,13 +1,7 @@
 ---
     title: Error Messages of the ElsterTransferHandler
-<<<<<<< HEAD:financials/LocalFunctionality/Germany/error-messages-of-the-elstertransferhandler.md
-    description: When Dynamics 365, Business edition submits sales VAT advance notifications, errors can occur.
+    description: When Finance and Operations, Business edition submits sales VAT advance notifications, errors can occur.
     services: project-madeira
-=======
-    description: When [!INCLUDE[d365fin](../../includes/d365fin_md.md)] submits sales VAT advance notifications, errors can occur.
-
-    services: project-madeira 
->>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Germany/error-messages-of-the-elstertransferhandler.md
     documentationcenter: ''
     author: SorenGP
 

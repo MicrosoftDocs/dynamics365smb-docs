@@ -1,13 +1,8 @@
 ---
     title: How to Submit Vendor Payments Electronically in SEPA ISO 20022 Payment Format
-<<<<<<< HEAD:financials/LocalFunctionality/Netherlands/how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format.md
-    description: In Dynamics 365, Business edition, you can create and submit Single Euro Payments Area (SEPA) ISO 20022 vendor payments electronically.
-    services: project-madeira
-=======
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create and submit Single Euro Payments Area (SEPA) ISO 20022 vendor payments electronically.
+    description: In Finance and Operations, Business edition, you can create and submit Single Euro Payments Area (SEPA) ISO 20022 vendor payments electronically.
 
-    services: project-madeira 
->>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Netherlands/how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format.md
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -21,11 +16,7 @@
     ms.author: sgroespe
 
 ---
-<<<<<<< HEAD:financials/LocalFunctionality/Netherlands/how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format.md
-# How to: Submit Vendor Payments Electronically in SEPA ISO 20022 Payment Format
-=======
 # Submit Vendor Payments Electronically in SEPA ISO 20022 Payment Format
->>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Netherlands/how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format.md
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create and submit Single Euro Payments Area (SEPA) ISO 20022 vendor payments electronically.  
 
 Before you can create and submit SEPA vendor payments, you must enable SEPA payments. For more information, see [Activate SEPA Payments](how-to-activate-sepa-payments.md).  

@@ -1,13 +1,7 @@
 ---
     title: Electronic Submission of Sales VAT Advance Notifications to ELSTER
-<<<<<<< HEAD:financials/LocalFunctionality/Germany/electronic-submission-of-sales-vat-advance-notifications-to-elster.md
-    description: In Dynamics 365, Business edition, you can electronically submit tax documents and VAT statements, such as the sales VAT advance notification, to the tax authorities.
+    description: In Finance and Operations, Business edition, you can electronically submit tax documents and VAT statements, such as the sales VAT advance notification, to the tax authorities.
     services: project-madeira
-=======
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can electronically submit tax documents and VAT statements, such as the sales VAT advance notification, to the tax authorities.
-
-    services: project-madeira 
->>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Germany/electronic-submission-of-sales-vat-advance-notifications-to-elster.md
     documentationcenter: ''
     author: SorenGP
 
@@ -27,11 +21,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can electronically sub
 ## Sales VAT Advance Notifications  
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] creates an XML document containing tax and base amounts, along with company information. You can validate the data before submitting it to the tax authorities. You can set up the XML document using the layout that is defined in the tax authorities' style sheet. You can then transmit the XML document to the tax authorities' Elektronische Steuererklärungen (ELSTER) online portal interface.  
 
-<<<<<<< HEAD:financials/LocalFunctionality/Germany/electronic-submission-of-sales-vat-advance-notifications-to-elster.md
 You must first set up [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to be able to submit sales VAT advance notifications to the ELSTER online portal. For more information, see [How to: Set Up Sales VAT Advance Notifications for ELSTER](how-to-set-up-sales-vat-advance-notifications-for-elster.md). You can later create and transmit the sales VAT advance notification. For more information, see [How to: Create and Submit Sales VAT Advance Notifications](how-to-create-and-submit-sales-vat-advance-notifications.md).
-=======
-You must first set up [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to be able to submit sales VAT advance notifications to the ELSTER online portal. For more information, see [Set Up Sales VAT Advance Notifications for ELSTER](how-to-set-up-sales-vat-advance-notifications-for-elster.md). You can later create and transmit the sales VAT advance notification. For more information, see [Create and Submit Sales VAT Advance Notifications](how-to-create-and-submit-sales-vat-advance-notifications.md).
->>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Germany/electronic-submission-of-sales-vat-advance-notifications-to-elster.md
 
 The tax authorities' server processes the submitted XML document, and sends an XML document in response. This response document displays codes and descriptions for errors that occurred during the processing of the submitted XML document. The XML documents are encrypted during transmission. For more information, see the [ELSTER online portal](http://go.microsoft.com/fwlink/?LinkId=155998).  
 

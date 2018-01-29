@@ -1,13 +1,7 @@
 ---
     title: How to Generate Delivery Reminders
-<<<<<<< HEAD:financials/LocalFunctionality/Austria/how-to-generate-delivery-reminders.md
-    description: In Dynamics 365, Business edition, you can create delivery reminders when a purchase has not been delivered as expected.
+    description: In Finance and Operations, Business edition, you can create delivery reminders when a purchase has not been delivered as expected.
     services: project-madeira
-=======
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create delivery reminders when a purchase has not been delivered as expected.
-
-    services: project-madeira 
->>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Austria/how-to-generate-delivery-reminders.md
     documentationcenter: ''
     author: SorenGP
 
@@ -21,10 +15,6 @@
     ms.author: sgroespe
 
 ---
-<<<<<<< HEAD:financials/LocalFunctionality/Austria/how-to-generate-delivery-reminders.md
-# How to: Generate Delivery Reminders
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create delivery reminders when a purchase has not been delivered as expected. You can generate delivery reminders for all overdue deliveries, or you can create a single delivery reminder manually. For more information, see [How to: Create Delivery Reminders Manually](how-to-create-delivery-reminders-manually.md).  
-=======
 # Generate Delivery Reminders
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create delivery reminders when a purchase has not been delivered as expected. You can generate delivery reminders for all overdue deliveries, or you can create a single delivery reminder manually. For more information, see [Create Delivery Reminders Manually](how-to-create-delivery-reminders-manually.md).  
 >>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Austria/how-to-generate-delivery-reminders.md

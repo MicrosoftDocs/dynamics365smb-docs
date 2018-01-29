@@ -1,13 +1,8 @@
 ---
     title: How to Set Up VAT Reports
-<<<<<<< HEAD:financials/LocalFunctionality/Germany/how-to-set-up-vat-reports.md
-    description: Information from various invoice types is used to feed data into the EU Sales List report. To file a VAT report under the ELMA5 system from Dynamics 365, Business edition, you need to set up report parameters.
-    services: project-madeira
-=======
-    description: Information from various invoice types is used to feed data into the EU Sales List report. To file a VAT report under the ELMA5 system from [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you need to set up report parameters.
+    description: Information from various invoice types is used to feed data into the EU Sales List report. To file a VAT report under the ELMA5 system from Finance and Operations, Business edition, you need to set up report parameters.
 
-    services: project-madeira 
->>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Germany/how-to-set-up-vat-reports.md
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -21,11 +16,7 @@
     ms.author: sgroespe
 
 ---
-<<<<<<< HEAD:financials/LocalFunctionality/Germany/how-to-set-up-vat-reports.md
-# How to: Set Up VAT Reports
-=======
 # Set Up VAT Reports
->>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Germany/how-to-set-up-vat-reports.md
 Information from various invoice types is used to feed data into the EU Sales List report. To file a VAT report under the ELMA5 system from [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you need to set up report parameters.  
 
 ## To set up a VAT report  

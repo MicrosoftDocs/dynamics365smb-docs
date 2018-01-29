@@ -1,13 +1,7 @@
 ---
     title: How to Create and Submit Sales VAT Advance Notifications
-<<<<<<< HEAD:financials/LocalFunctionality/Germany/how-to-create-and-submit-sales-vat-advance-notifications.md
-    description: In Dynamics 365, you can submit the sales VAT advance notification file electronically to the ELSTER portal. You can transmit the sales VAT advance notification file to the tax authorities after you have verified the calculated tax amount and the base amount.
+    description: In Finance and Operations, Business edition, you can submit the sales VAT advance notification file electronically to the ELSTER portal. You can transmit the sales VAT advance notification file to the tax authorities after you have verified the calculated tax amount and the base amount.
     services: project-madeira
-=======
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can submit the sales VAT advance notification file electronically to the ELSTER portal. You can transmit the sales VAT advance notification file to the tax authorities after you have verified the calculated tax amount and the base amount.
-
-    services: project-madeira 
->>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Germany/how-to-create-and-submit-sales-vat-advance-notifications.md
     documentationcenter: ''
     author: SorenGP
 
@@ -21,11 +15,9 @@
     ms.author: sgroespe
 
 ---
-<<<<<<< HEAD:financials/LocalFunctionality/Germany/how-to-create-and-submit-sales-vat-advance-notifications.md
 # How to: Create and Submit Sales VAT Advance Notifications
-=======
+
 # Create and Submit Sales VAT Advance Notifications
->>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Germany/how-to-create-and-submit-sales-vat-advance-notifications.md
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can submit the sales VAT advance notification file electronically to the ELSTER portal. You can transmit the sales VAT advance notification file to the tax authorities after you have verified the calculated tax amount and the base amount.  
 
 ## To create an XML document for sales VAT advance notification  

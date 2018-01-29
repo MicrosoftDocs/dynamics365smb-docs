@@ -1,13 +1,8 @@
 ---
     title: Austria Local Functionality
-<<<<<<< HEAD:financials/LocalFunctionality/Austria/austria-local-functionality.md
-    description: The following topics describe the local functionality in the Austrian version of Dynamics 365, Business edition.
-    services: project-madeira
-=======
     description: The following topics describe the local functionality in the Austrian version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
 
-    services: project-madeira 
->>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Austria/austria-local-functionality.md
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 

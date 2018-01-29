@@ -1,13 +1,7 @@
 ---
     title: Enhanced Document Management
-<<<<<<< HEAD:financials/LocalFunctionality/Austria/enhanced-document-management.md
-    description: In Dynamics 365, Business edition, you can archive documents and track work across archived and non-archived documents.
+    description: In Finance and Operations, Business edition, you can archive documents and track work across archived and non-archived documents.
     services: project-madeira
-=======
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can archive documents and track work across archived and non-archived documents.
-
-    services: project-madeira 
->>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Austria/enhanced-document-management.md
     documentationcenter: ''
     author: SorenGP
 

@@ -1,13 +1,8 @@
 ---
     title: How to Set Up Sales VAT Advance Notifications for ELSTER
-<<<<<<< HEAD:financials/LocalFunctionality/Germany/how-to-set-up-sales-vat-advance-notifications-for-elster.md
-    description: In Dynamics 365, Business edition, to submit valid sales VAT advance notifications to the ELSTER portal, you must perform certain setup.
-    services: project-madeira
-=======
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], to submit valid sales VAT advance notifications to the ELSTER portal, you must perform certain setup.
+    description: In Finance and Operations, Business edition, to submit valid sales VAT advance notifications to the ELSTER portal, you must perform certain setup.
 
-    services: project-madeira 
->>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Germany/how-to-set-up-sales-vat-advance-notifications-for-elster.md
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -21,11 +16,7 @@
     ms.author: sgroespe
 
 ---
-<<<<<<< HEAD:financials/LocalFunctionality/Germany/how-to-set-up-sales-vat-advance-notifications-for-elster.md
-# How to: Set Up Sales VAT Advance Notifications for ELSTER
-=======
 # Set Up Sales VAT Advance Notifications for ELSTER
->>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Germany/how-to-set-up-sales-vat-advance-notifications-for-elster.md
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], to submit valid sales VAT advance notifications to the ELSTER portal, you must set up the following:  
 
 - The company registration information and tax office information.  

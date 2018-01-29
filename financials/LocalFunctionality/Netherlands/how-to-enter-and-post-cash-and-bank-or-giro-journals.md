@@ -1,13 +1,7 @@
 ---
     title: How to Enter and Post Cash and Bank or Giro Journals
-<<<<<<< HEAD:financials/LocalFunctionality/Netherlands/how-to-enter-and-post-cash-and-bank-or-giro-journals.md
-    description: In Dynamics 365, Business edition, you can use the cash and bank journals to enter the transactions that affect the cash and bank accounts by using **Cash Book** and **Bank Book**.
+    description: In Finance and Operations, Business edition, you can use the cash and bank journals to enter the transactions that affect the cash and bank accounts by using **Cash Book** and **Bank Book**.
     services: project-madeira
-=======
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the cash and bank journals to enter the transactions that affect the cash and bank accounts by using **Cash Book** and **Bank Book**.
-
-    services: project-madeira 
->>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Netherlands/how-to-enter-and-post-cash-and-bank-or-giro-journals.md
     documentationcenter: ''
     author: SorenGP
 
@@ -25,7 +19,6 @@
 # How to: Enter and Post Cash and Bank or Giro Journals
 =======
 # Enter and Post Cash and Bank or Giro Journals
->>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Netherlands/how-to-enter-and-post-cash-and-bank-or-giro-journals.md
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the cash and bank journals to enter the transactions that affect the cash and bank accounts by using **Cash Book** and **Bank Book**.  
 
 You can enter increases or decreases to the cash account in the **Cash Journals**. For example, you can use this journal for paying out petty cash or receiving transfers from a different bank account.  

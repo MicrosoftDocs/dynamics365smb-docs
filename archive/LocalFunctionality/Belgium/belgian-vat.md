@@ -36,5 +36,5 @@ You are also required to provide a printed statement detailing the VAT transacti
 
 ## See Also  
  [Belgium Local Functionality](belgium-local-functionality.md)   
- [How to: Print Periodic VAT Reports](how-to-print-periodic-vat-reports.md)   
- [How to: Set Up Non-Deductible VAT](how-to-set-up-non-deductible-vat.md)
+ [Print Periodic VAT Reports](how-to-print-periodic-vat-reports.md)   
+ [Set Up Non-Deductible VAT](how-to-set-up-non-deductible-vat.md)

@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Correct VAT Reports
+# Correct VAT Reports
 If you have to submit a corrective VAT report or delete a submitted VAT report, you must create a new VAT report. According to the legislation, a corrective report must be submitted within a month of the initial report.  
 
 When you create a corrective report, the report will contain two line types per corrected line. In one line type, Cancellation, the base value of the VAT is reported as a cancellation. All other information remains the same, and cannot be edited. On a new line, Correction type, you can make corrections as needed to the VAT amount. The **Suggest Lines** action, however, will suggest the correct amount based on the filters and posted documents. You cannot correct or modify the **VAT Registration No.** Each period being corrected needs its own corrective report.  
@@ -45,7 +45,7 @@ The **Suggest Lines** action recalculates the values to report. The **Correct Li
 
 ## To correct a VAT report  
 
-1.  Create a new VAT report. For more information, see [How to: Create VAT Reports](how-to-create-vat-reports.md).  
+1.  Create a new VAT report. For more information, see [Create VAT Reports](how-to-create-vat-reports.md).  
 2.  Fill in the fields in the **General** FastTab, and set the **VAT Report Type** field to Corrective.  
 3.  In the **Original Report No.** field, select the report that you want to correct. You can only select reports of type Standard that have been marked as Submitted.  
 4.  Create your correction VAT report line entries.  
@@ -58,4 +58,4 @@ The **Suggest Lines** action recalculates the values to report. The **Correct Li
 6.  Continue with the VAT report creation process, and release the report.  
 
 ## See Also  
- [How to: Set Up VAT Reports](how-to-set-up-vat-reports.md)
+ [Set Up VAT Reports](how-to-set-up-vat-reports.md)

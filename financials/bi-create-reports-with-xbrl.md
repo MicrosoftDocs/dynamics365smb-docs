@@ -15,7 +15,7 @@ ms.date: 08/16/2017
 ms.author: sgroespe
 
 ---
-# How to: Create Reports with XBRL
+# Create Reports with XBRL
 XBRL, which stands for eXtensible Business Reporting Language, is an XML-based language for tagging financial data, and enabling businesses to efficiently and accurately process and share their data. The XBRL initiative enables global financial reporting by numerous ERP software companies and international accounting organizations. The goal of the initiative is to provide a standard for the uniform reporting of financial information for banks, investors, and government authorities. Such business reporting can include:  
 
  • Financial statements  

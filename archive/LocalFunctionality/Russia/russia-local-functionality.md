@@ -29,7 +29,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], there are Russian-specific
 |[Bank Management](bank-management.md)|Enables you to create bank directory structures to keep bank reference information in one location, create budget classifications, and print and post required documents.|  
 |[Fixed Assets](fixed-assets.md)|Enables you to manage depreciation and maintenance costs, track the movement of fixed assets, manage the sale or disposal of fixed assets, and generate various reports and statistics.|  
 |[General Ledger Correspondence](general-ledger-correspondence.md)|Enables you to create, view, and print account turnover information.|  
-|[How to: Set Up Responsible Employees and Advance Statements](how-to-set-up-responsible-employees-and-advance-statements.md)|Enables you to print and view information about payments made to and from employees.|  
+|[Set Up Responsible Employees and Advance Statements](how-to-set-up-responsible-employees-and-advance-statements.md)|Enables you to print and view information about payments made to and from employees.|  
 |[Inventory](inventory.md)|Enables you to set up and manage your inventory including item documents, item and inventory acts, and general ledger turnover.|  
 |[Payables and Receivables](payables-and-receivables.md)|Enables you to manage your payables and receivables reports, prepayments, agreements, and cards.|  
 |[Statutory Reports](statutory-reports.md)|Enables you to import and export data for electronic tax reporting and other documents required by law.|  

@@ -22,15 +22,15 @@ In the **Posting** group on a sales document, you can choose between the followi
   
 -   **Test Report**  
   
--   **Post and Send** for more information, see [How to: Set Up Document Sending Profiles](../FullExperience/how-to-set-up-document-sending-profiles.md).  
+-   **Post and Send** for more information, see [Set Up Document Sending Profiles](../FullExperience/how-to-set-up-document-sending-profiles.md).  
   
 -   **Post and Print**  
   
--   **Post and Email** For more information, see [How to: Send Documents by Email](../FullExperience/how-to-send-documents-by-email.md).  
+-   **Post and Email** For more information, see [Send Documents by Email](../FullExperience/how-to-send-documents-by-email.md).  
   
 -   **Post Batch**  
   
--   **Preview Posting** for more information, see [How to: Preview Posting Results](../FullExperience/how-to-preview-posting-results.md).  
+-   **Preview Posting** for more information, see [Preview Posting Results](../FullExperience/how-to-preview-posting-results.md).  
   
  When you have completed all the lines and entered all the information on the sales order, you can post it. This creates a shipment and an invoice.  
   
@@ -51,6 +51,6 @@ In the **Posting** group on a sales document, you can choose between the followi
   
 ## See Also  
  Sales Order   
- [How to: Post Sales Orders](../FullExperience/how-to-post-sales-orders.md)   
+ [Post Sales Orders](../FullExperience/how-to-post-sales-orders.md)   
  Batch Post Sales Orders   
- [How to: Preview Posting Results](../FullExperience/how-to-preview-posting-results.md)
+ [Preview Posting Results](../FullExperience/how-to-preview-posting-results.md)

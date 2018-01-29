@@ -1,7 +1,13 @@
 ---
     title: How to Set Up Reports for VAT and Intrastat
+<<<<<<< HEAD:financials/LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md
     description: In Dynamics 365, Business edition, you can specify which reports to use to create the documents that you must submit to the authorities, such as the VAT statement and the Intrastat form.
     services: project-madeira
+=======
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can specify which reports to use to create the documents that you must submit to the authorities, such as the VAT statement and the Intrastat form.
+
+    services: project-madeira 
+>>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md
     documentationcenter: ''
     author: SorenGP
 
@@ -15,7 +21,11 @@
     ms.author: sgroespe
 
 ---
+<<<<<<< HEAD:financials/LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md
 # How to: Set Up Reports for VAT and Intrastat
+=======
+# Set Up Reports for VAT and Intrastat
+>>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can specify which reports to use to create the documents that you must submit to the authorities, such as the VAT statement and the Intrastat form.  
 
 ### To set up reports for VAT  
@@ -51,5 +61,10 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can specify which repo
 4.  Choose the **OK** button.  
 
 ## See Also  
+<<<<<<< HEAD:financials/LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md
 [How to: Export and Print Intrastat Reports](how-to-export-and-print-intrastat-reports.md)  
 [VAT Reporting](vat-reporting.md)
+=======
+[Export and Print Intrastat Reports](how-to-export-and-print-intrastat-reports.md)  
+[VAT Reporting](vat-reporting.md) 
+>>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md

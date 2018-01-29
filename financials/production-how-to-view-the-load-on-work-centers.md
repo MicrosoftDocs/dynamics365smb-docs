@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: View Load on Work and Machine Centers
+# View Load on Work and Machine Centers
 In the **Work Center Card** and **Machine Center Card** windows, you can view the shop floor load as a result of planned and released production orders.    
 
 ## To view the load on work centers  

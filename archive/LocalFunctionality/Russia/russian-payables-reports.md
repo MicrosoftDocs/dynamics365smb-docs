@@ -231,4 +231,4 @@ On the **Options** FastTab, you can specify the format options listed in the fol
 
 ## See Also  
  [Russian Receivables Reports](russian-receivables-reports.md)   
- [How to: Set Up Customer and Vendor Agreements](how-to-set-up-customer-and-vendor-agreements.md)
+ [Set Up Customer and Vendor Agreements](how-to-set-up-customer-and-vendor-agreements.md)

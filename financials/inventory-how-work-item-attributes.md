@@ -15,13 +15,13 @@ ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---
-# How to: Work with Item Attributes
+# Work with Item Attributes
 When customers inquire about an item, either in correspondence or in an integrated web shop, they may ask or search according to characteristics, such as height and model year. To provide this customer service, you can assign item attribute values of different types to your items, which can then be used when searching for items.
 
-You can also assign item attributes to item categories, which then apply to the items that use the item categories. For more information, see [How to: Categorize Item](inventory-how-categorize-items.md).
+You can also assign item attributes to item categories, which then apply to the items that use the item categories. For more information, see [Categorize Item](inventory-how-categorize-items.md).
 
 > [!Tip]  
-> If you attach pictures to items, the Image Analyzer extension can detect attributes in the image, and suggest the attributes so you can decide whether to assign them. The extension is ready to go. You just need to enable it. For more information, see [The Image Analyzer Extension for Microsoft Dynamics 365, Business edition ](ui-extensions-image-analyzer.md).
+> If you attach pictures to items, the Image Analyzer extension can detect attributes in the image, and suggest the attributes so you can decide whether to assign them. The extension is ready to go. You just need to enable it. For more information, see [The Image Analyzer Extension for Microsoft Finance and Operations, Business edition ](ui-extensions-image-analyzer.md).
 
 ## To create item attributes
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Attributes**, and then choose the related link.
@@ -54,7 +54,7 @@ You can also assign item attributes to item categories, which then apply to the 
 6. Repeat steps 4 and 5 for all item attributes that you want to assign to the item category.
 
 > [!NOTE]  
->   Item attributes for parent item categories will be inherited to child item categories. This is indicated by the **Inherited From** field on the **Attributes** FastTab. For more information, see [How to: Categorize Items](inventory-how-categorize-items.md).
+>   Item attributes for parent item categories will be inherited to child item categories. This is indicated by the **Inherited From** field on the **Attributes** FastTab. For more information, see [Categorize Items](inventory-how-categorize-items.md).
 
 ## To filter by item attributes
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.
@@ -74,7 +74,7 @@ You can also assign item attributes to item categories, which then apply to the 
 The items in the **Items** window are filtered by the specified item attribute values.
 
 ## See Also
-[How to: Categorize Items](inventory-how-categorize-items.md)    
-[How to: Register New Items](inventory-how-register-new-items.md)  
+[Categorize Items](inventory-how-categorize-items.md)    
+[Register New Items](inventory-how-register-new-items.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -27,5 +27,5 @@ When you apply a finance charge term with interest on arrears to a customer or v
 After you run the report, if a customer owes interest on arrears, the information about the amount of interest on arrears to pay is added to the customer statement.  
 
 ## See Also  
- [How to: Set Up Interest on Arrears](how-to-set-up-interest-on-arrears.md)   
+ [Set Up Interest on Arrears](how-to-set-up-interest-on-arrears.md)   
   [Italy Local Functionality](italy-local-functionality.md)

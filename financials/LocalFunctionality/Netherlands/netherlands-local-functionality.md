@@ -1,7 +1,13 @@
 ---
     title: Netherlands Local Functionality
+<<<<<<< HEAD:financials/LocalFunctionality/Netherlands/netherlands-local-functionality.md
     description: The following topics describe the local functionality in the Dutch version of Dynamics 365, Business edition.
     services: project-madeira
+=======
+    description: The following topics describe the local functionality in the Dutch version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
+
+    services: project-madeira 
+>>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Netherlands/netherlands-local-functionality.md
     documentationcenter: ''
     author: SorenGP
 

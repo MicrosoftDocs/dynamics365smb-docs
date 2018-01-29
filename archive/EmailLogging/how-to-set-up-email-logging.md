@@ -15,11 +15,11 @@
     ms.author: bholtorf
 
 ---
-# How to: Set Up Email Logging
+# Set Up Email Logging
 You set up email logging in the **Marketing Setup** window. Setup requires an email account that has a valid email address on Exchange. It also requires that you use public folders. This enables you to share and log information and email in a company.  
   
 > [!NOTE]  
->  Consider creating a domain user email account that is not tied to specific individual. If you do this, you will also have to add the domain account to [!INCLUDE[d365fin](includes/d365fin_md.md)] as a Windows user who has the relevant permission set. For more information, see [How to: Manage Users and Permissions](ui-how-users-permissions.md).  
+>  Consider creating a domain user email account that is not tied to specific individual. If you do this, you will also have to add the domain account to [!INCLUDE[d365fin](includes/d365fin_md.md)] as a Windows user who has the relevant permission set. For more information, see [Manage Users and Permissions](ui-how-users-permissions.md).  
   
 To set up email logging you will need a CRONUS International Ltd. demonstration database. You must also have configured public folders on your Exchange Server. For more information about configuring public folders in Exchange Server, see [Public folders](http://go.microsoft.com/fwlink/?LinkId=526140).  
   
@@ -68,7 +68,7 @@ To use email logging, you must be connected to Microsoft Exchange Server and hav
   
 ### To set up Microsoft Dynamics NAV Server  
 1. Open Microsoft Dynamics NAV Server Administration tool.  
-2. Create a new server instance that uses a user account for the service account. The user account must have an account on an Exchange Server. <!--For more information, see [How to: Create a Microsoft Dynamics NAV Server Instance](../How%20to:%20Create%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md).-->  
+2. Create a new server instance that uses a user account for the service account. The user account must have an account on an Exchange Server. <!--For more information, see [Create a Microsoft Dynamics NAV Server Instance](../How%20to:%20Create%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md).-->  
   
 <!--> [!NOTE]  
    >  The user must have sufficient <!-- ADD INCLUDE [!INCLUDE[navnow](includes/demolong_md.md)]-->.  

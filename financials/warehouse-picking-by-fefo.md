@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Enable Picking Items by FEFO
+# Enable Picking Items by FEFO
 First-Expired-First-Out (FEFO) is a sorting method that ensures that the oldest items, those with the earliest expiration dates, are picked first.  
 
  This functionality only works when the following criteria are met:  
@@ -41,8 +41,8 @@ First-Expired-First-Out (FEFO) is a sorting method that ensures that the oldest 
 
 ## See Also  
 [Picking Items](warehouse-pick-items.md)   
-[How to: Pick Items for Warehouse Shipment](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
-[How to: Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md)   
+[Pick Items for Warehouse Shipment](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
+[Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md)   
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

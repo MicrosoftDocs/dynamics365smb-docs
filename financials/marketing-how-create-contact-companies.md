@@ -15,7 +15,7 @@ ms.date: 06/06/2017
 ms.author: jswymer
 
 ---
-# How to: Create Contact Companies
+# Create Contact Companies
 You can create a contact for each new company you interact with, for example, a customer, vendor, prospective customer, bank, law firm, consultant, and so on.
 
 There are two ways to create a contact:
@@ -55,5 +55,5 @@ If you have already set up a number of customers, vendors, and bank accounts, yo
 [Assign Business Relations to a Contact](marketing-business-relations.md#AssignBusRelContact)  
 [Assign Industry Groups to a Contact](marketing-industry-groups.md#AssignIndustryGroupContact)  
 [Assign Mailing Groups to a Contact](marketing-mailing-groups.md#AssignMailGroupContact)  
-[How to: Create Contact Persons](marketing-create-contact-persons.md)  
-[Working with Dynamics 365, Business edition](ui-work-product.md)
+[Create Contact Persons](marketing-create-contact-persons.md)  
+[Working with Finance and Operations, Business edition](ui-work-product.md)

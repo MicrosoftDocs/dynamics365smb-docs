@@ -29,17 +29,17 @@ You can set up [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to combine paym
 When a proposal has been agreed upon, it should be processed into a payment history.  
 
 > [!NOTE]  
->  In general, for any open vendor and customer ledger entries, a proposal can be generated if it meets a number of criteria. For more information, see [How to: Create Proposals](how-to-create-proposals.md).  
+>  In general, for any open vendor and customer ledger entries, a proposal can be generated if it meets a number of criteria. For more information, see [Create Proposals](how-to-create-proposals.md).  
 
 ## Payment Histories  
 A payment history is nothing more than a proposal except for the fact that data on a payment history cannot be modified. The payment or collection data is ready to be exported and forwarded to the bank.  
 
- For more information, see [How to: Create and Export Payment History](how-to-create-and-export-payment-history.md).  
+ For more information, see [Create and Export Payment History](how-to-create-and-export-payment-history.md).  
 
 ## Bank Statements  
  For all your financial interactions through your bank, the bank can send you electronic bank statements. These statements can be imported into the Bank/Giro Journals. If you want, you can have [!INCLUDE[d365fin](../../includes/d365fin_md.md)] automatically reconcile these statements during this import process and determine whether a statement can be applied to open ledger entries for the relevant vendor/customer.  
 
- For more information, see [How to: Import and Reconcile Bank Statements](how-to-import-and-reconcile-bank-statements.md).  
+ For more information, see [Import and Reconcile Bank Statements](how-to-import-and-reconcile-bank-statements.md).  
 
 ## Exchange Protocols  
  For both exporting and importing, a number of protocols have been defined. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] supports the following protocols:  
@@ -53,7 +53,7 @@ A payment history is nothing more than a proposal except for the fact that data 
 - SEPA CAMT  
 
 ## See Also  
- [How to: Invoice Sales](../../sales-how-invoice-sales.md)   
- [How to: Record Purchases](../../purchasing-how-record-purchases.md)   
- [How to: Create Proposals](how-to-create-proposals.md)   
- [How to: Create and Export Payment History](how-to-create-and-export-payment-history.md)
+ [Invoice Sales](../../sales-how-invoice-sales.md)   
+ [Record Purchases](../../purchasing-how-record-purchases.md)   
+ [Create Proposals](how-to-create-proposals.md)   
+ [Create and Export Payment History](how-to-create-and-export-payment-history.md)

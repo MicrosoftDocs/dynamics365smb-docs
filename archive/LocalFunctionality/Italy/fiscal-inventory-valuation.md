@@ -2,7 +2,7 @@
     title: Fiscal Inventory Valuation
     description: You must submit an annual report that shows the monetary value of inventory items for the fiscal year.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -26,7 +26,7 @@ You must submit an annual report that shows the monetary value of inventory item
 - Discrete LIFO cost  
 
 ## Fiscal Inventory Valuation in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]  
-Initially, you must set up the fiscal inventory valuation for all cost types in the **Item Costing Setup** window and the **Item Card** window. For more information, see [How to: Set Up Fiscal Inventory Valuation](how-to-set-up-fiscal-inventory-valuation.md).  
+Initially, you must set up the fiscal inventory valuation for all cost types in the **Item Costing Setup** window and the **Item Card** window. For more information, see [Set Up Fiscal Inventory Valuation](how-to-set-up-fiscal-inventory-valuation.md).  
 
 When you set up [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you must enter the inventory item ledger entries for the first year in order to calculate the item’s valuation. You can do this in the Before Start Item Cost window.  
 
@@ -44,5 +44,5 @@ After you set up the discrete LIFO cost calculation, you can post sales and purc
 
 ## See Also  
  [Italy Local Functionality](italy-local-functionality.md)   
- [How to: Set Up Fiscal Inventory Valuation](how-to-set-up-fiscal-inventory-valuation.md)   
- [How to: Set Up Initial Item Costs](how-to-set-up-initial-item-costs.md)
+ [Set Up Fiscal Inventory Valuation](how-to-set-up-fiscal-inventory-valuation.md)   
+ [Set Up Initial Item Costs](how-to-set-up-initial-item-costs.md)

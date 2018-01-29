@@ -15,7 +15,7 @@ ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---
-# How to: Set Up Fixed Asset Maintenance
+# Set Up Fixed Asset Maintenance
 To manage fixed asset maintenance, you must first set up some general maintenance information, a posting account for maintenance costs, and maintenance codes for types of work, such as Routine Service or Repair.
 
 ## To set up general maintenance information
@@ -38,7 +38,7 @@ To post maintenance costs, you must first enter an account number in the **FA Po
 2. Fill in the **Maintenance Expense Account** field for each posting group.
 
 > [!NOTE]  
->   To define that maintenance costs are allocated to departments or projects, set up an allocation keys. For more information, see [How to: Set Up General Fixed Assets Features](fa-how-setup-general.md).
+>   To define that maintenance costs are allocated to departments or projects, set up an allocation keys. For more information, see [Set Up General Fixed Assets Features](fa-how-setup-general.md).
 
 ## See Also
 [Setting Up Fixed Assets](fa-setup.md)  

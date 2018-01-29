@@ -14,10 +14,10 @@ ms.date: 08/08/2017
 ms.author: sgroespe
 
 ---
-# How to: Make Offers
-You create a sales quote to record your offer to a customer to sell certain products on certain delivery and payment terms. You can send the sales quote to the customer to communicate the offer. You can email the document as a PDF attachment. You can also have the email body prefilled with a summary of the quote. For more information, see [How to: Send Documents by Email](ui-how-send-documents-email.md).
+# Make Offers
+You create a sales quote to record your offer to a customer to sell certain products on certain delivery and payment terms. You can send the sales quote to the customer to communicate the offer. You can email the document as a PDF attachment. You can also have the email body prefilled with a summary of the quote. For more information, see [Send Documents by Email](ui-how-send-documents-email.md).
 
-While you negotiate with the customer, you can change and resend the sales quote as much as needed. When the customer accepts the quote, you convert the sales quote to a sales invoice or a sales order in which you process the sale. For more information, see [How to: Invoice Sales](sales-how-invoice-sales.md) or [How to: Sell Products](sales-how-sell-products.md).
+While you negotiate with the customer, you can change and resend the sales quote as much as needed. When the customer accepts the quote, you convert the sales quote to a sales invoice or a sales order in which you process the sale. For more information, see [Invoice Sales](sales-how-invoice-sales.md) or [Sell Products](sales-how-sell-products.md).
 
 You can fill customer fields on the sales quote in two ways depending on whether the customer is already registered. See steps 2 and 3 in the following procedure.
 
@@ -29,7 +29,7 @@ On the Home page,  choose the **Sales Quote** action.
 3. In the **Customer** field, enter the name of the new customer.
 4. In the dialog box about registering the new customer, choose the **Yes** button.
 5. In the **Select a template for a new customer** window, choose a template to base the new customer card on, and then choose the **OK** button.
-6. A new customer card displays the information on the selected customer template. Fill in the remaining fields. For more information, see [How to: Register New Customers](sales-how-register-new-customers.md).  
+6. A new customer card displays the information on the selected customer template. Fill in the remaining fields. For more information, see [Register New Customers](sales-how-register-new-customers.md).  
 7. When you have completed the customer card, choose the **OK** button to return to the **Sales Quote** window.
 
    Several fields on the sales quote are now filled with information that you specified on the new customer card.  
@@ -43,7 +43,7 @@ If you have set up recurring sales lines for the customer, such as a monthly rep
 
  You leave the **No.** field empty in the following cases:
  -If the line is for a comment. Write the comment in the **Description** field.
- -If the line is for a nonstock item. Choose the **Select Nonstock Items** action. For more information, see [How to: Work With Nonstock Items](inventory-how-work-nonstock-items.md).
+ -If the line is for a nonstock item. Choose the **Select Nonstock Items** action. For more information, see [Work With Nonstock Items](inventory-how-work-nonstock-items.md).
 
 11. In the **Quantity** field, enter how many units of the product, charge, or transaction that the line will record for the customer.
 
@@ -63,13 +63,13 @@ If you have set up recurring sales lines for the customer, such as a monthly rep
 
     If you have set up invoice discounts for the customer, then the specified percentage value is automatically inserted in the **Invoice Discount %** field if the criteria are met, and the related amount is inserted in the **Inv. Discount Amount Excl. Tax** field. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).
 15. When the sales quote lines are completed, choose the **Send by Email** action.
-16. In the **Send Email** window, fill in any remaining fields and review the embedded sales quote. For more information, see [How to: Send Documents by Email](ui-how-send-documents-email.md).
+16. In the **Send Email** window, fill in any remaining fields and review the embedded sales quote. For more information, see [Send Documents by Email](ui-how-send-documents-email.md).
 17. If the customer accepts the quote, choose the **Make Invoice** or the **Make Order** action.
 
-The sales quote is removed from the database. A sales invoice or a sales order is created based on the information in the sales quote in which you can process the sale. In the **Quote No.** field on the sales invoice or sales order, you can see the number of the sales quote that it was made from. For more information, see [How to: Invoice Sales](sales-how-invoice-sales.md) or [How to: Sell Products](sales-how-sell-products.md).
+The sales quote is removed from the database. A sales invoice or a sales order is created based on the information in the sales quote in which you can process the sale. In the **Quote No.** field on the sales invoice or sales order, you can see the number of the sales quote that it was made from. For more information, see [Invoice Sales](sales-how-invoice-sales.md) or [Sell Products](sales-how-sell-products.md).
 
 ## See Also
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  
-[How to: Send Documents by Email](ui-how-send-documents-email.md)  
+[Send Documents by Email](ui-how-send-documents-email.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

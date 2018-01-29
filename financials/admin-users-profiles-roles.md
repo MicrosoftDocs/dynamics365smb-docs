@@ -1,6 +1,6 @@
 ---
 title: Manage users and roles | Microsoft Docs
-description: Learn how to manage users and Role Centers in Dynamics 365, Business edition.
+description: Learn how to manage users and Role Centers in Finance and Operations, Business edition.
 author: edupont04
 
 ms.service: dynamics365-financials
@@ -13,11 +13,11 @@ ms.date: 09/01/2017
 ms.author: edupont
 
 ---
-# Users, Profiles, and Role Centers in Dynamics 365, Business edition
+# Users, Profiles, and Role Centers in Finance and Operations, Business edition
 The people in your company who have access to [!INCLUDE[d365fin](includes/d365fin_md.md)] are all assigned a *profile* that gives them access to a *Role Center*. As an administrator, you can assign and change profiles in [!INCLUDE[d365fin](includes/d365fin_md.md)], and you can add and remove users as part of your [!INCLUDE[d365fin](includes/d365fin_md.md)] subscription.  
 
 ## Adding Users
-To add users in [!INCLUDE[d365fin](includes/d365fin_md.md)], your company's Office 365 administrator must first create the users in the Office 365 Admin Center. For more information, see [How to: Manage Users and Permissions](ui-how-users-permissions.md).  
+To add users in [!INCLUDE[d365fin](includes/d365fin_md.md)], your company's Office 365 administrator must first create the users in the Office 365 Admin Center. For more information, see [Manage Users and Permissions](ui-how-users-permissions.md).  
 
 ## Profiles
 Profiles are collections of [!INCLUDE[d365fin](includes/d365fin_md.md)] users who share the same Role Center. A Role Center is a type of page on which you can place different parts. Each part is a container in which you can host other pages or pre-defined system parts, such as an Outlook part or parts for adding tasks, notifications, or notes.  
@@ -37,6 +37,6 @@ The administrator configures the user interface for multiple users by customizin
 Users personalize the user interface of their personal version by customizing the user interface under their own user logon. This personalization can be deleted by the administrator.  
 
 ## See Also  
-[How to: Manage Users and Permissions](ui-how-users-permissions.md)  
+[Manage Users and Permissions](ui-how-users-permissions.md)  
 <!-- [Customize the User Interface](../customize-the-user-interface.md)   
  [Security Overview](../Security%20Overview.md)-->

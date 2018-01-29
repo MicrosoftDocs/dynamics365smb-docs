@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Clean Up and Process Data
+# Clean Up and Process Data
 In some cases, you may want to clean up customer data and process it before you apply it to the database. To do that, you can customize report 8621 to fix issues, such as:  
 
 - Convert dates and decimals to the format required by the regional settings on a user's computer.  
@@ -30,5 +30,5 @@ After you modify the batch job, use the following procedure to process the data.
 3.  To apply the mapping that you have set up, choose the **Apply Data** action.  
 
 ## See Also  
- [How to: Map Customer Data](../how-to-map-customer-data.md)   
- [How to: Apply Customer Data](../how-to-apply-customer-data.md)
+ [Map Customer Data](../how-to-map-customer-data.md)   
+ [Apply Customer Data](../how-to-apply-customer-data.md)

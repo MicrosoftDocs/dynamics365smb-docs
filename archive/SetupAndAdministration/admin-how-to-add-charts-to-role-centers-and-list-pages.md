@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Add Charts to Role Centers and List Pages
+# Add Charts to Role Centers and List Pages
 When you have complex information, you may want to view a visual representation of the data to help see trends and make decisions. For example, you may want to monitor the balances per bank account for your company in a chart.  
   
  You use the chart pane to visually show data from a list on the following types of pages:  
@@ -46,11 +46,11 @@ When you have complex information, you may want to view a visual representation 
 >  By default, the chart pane is hidden because it can slow down performance. You should only show the chart when you must have the information.  
   
 ## See Also  
- [How to: Create Generic Charts](../How%20to:%20Create%20Generic%20Charts.md)   
+ [Create Generic Charts](../How%20to:%20Create%20Generic%20Charts.md)   
  PERSONALIZATION Personalize the User Interface   
- [How to: Customize FastTabs](../how-to-customize-fasttabs.md)   
- [How to: Customize FactBoxes](../how-to-customize-factboxes.md)   
- [How to: Customize Ribbons](../how-to-customize-ribbons.md)   
+ [Customize FastTabs](../how-to-customize-fasttabs.md)   
+ [Customize FactBoxes](../how-to-customize-factboxes.md)   
+ [Customize Ribbons](../how-to-customize-ribbons.md)   
  [Customize the User Interface](../customize-the-user-interface.md)   
  [Working with Product Name](../working-with-$-p_1-product-name-$-.md)   
  [Learn About the RoleTailored Design](../learn-about-the-roletailored-design.md)

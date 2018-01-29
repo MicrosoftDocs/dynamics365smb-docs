@@ -26,9 +26,9 @@ At the end of accounting periods, monthly, yearly or other, a sequence of cost c
 |View the inventory value of selected production orders in your WIP (work in process) inventory, such as the quantities and values of consumption, capacity usage, and output in ongoing production orders.|**Inventory Valuation - WIP** report|  
 |View the inventory value of selected items, including their actual and expected cost on the date specified.|**Invt. Valuation - Cost Spec.** report|  
 |Use a report to analyze the reasons for cost variances or to gain insight into the cost shares of sold items (COGS).|**Cost Shares Breakdown** report|  
-|Periodically post the value entries of item transactions from the inventory ledger to the related G/L accounts to reconcile the two ledgers.|[How to: Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
-|Use one window to audit the reconciliation between the inventory ledger and the general ledger.|[How to: Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
-|Determine the WIP amount that needs to be posted to balance sheet accounts for period-end reporting.|[How to: Monitor Job Progress and Performance](projects-how-monitor-progress-performance.md)|
+|Periodically post the value entries of item transactions from the inventory ledger to the related G/L accounts to reconcile the two ledgers.|[Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
+|Use one window to audit the reconciliation between the inventory ledger and the general ledger.|[Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
+|Determine the WIP amount that needs to be posted to balance sheet accounts for period-end reporting.|[Monitor Job Progress and Performance](projects-how-monitor-progress-performance.md)|
 
 ## See Also  
 [Setting Up Inventory Valuation and Costing](finance-set-up-inventory-valuation-and-costing.md)  

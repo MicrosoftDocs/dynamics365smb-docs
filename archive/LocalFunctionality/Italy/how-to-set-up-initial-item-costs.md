@@ -2,7 +2,7 @@
     title: How to Set Up Initial Item Costs
     description: When you set up [!INCLUDE[d365fin](../../includes/d365fin_md.md)] in your organization.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Initial Item Costs
+# Set Up Initial Item Costs
 When you set up [!INCLUDE[d365fin](../../includes/d365fin_md.md)] in your organization.  
 
 In the **Before Start Item Cost** window, you can enter information about inventory items, such as component costs, routing costs, and overhead costs.  
@@ -32,4 +32,4 @@ The entries in this window will be used to calculate the average year cost. For 
 
 ## See Also  
  [Fiscal Inventory Valuation](fiscal-inventory-valuation.md)   
- [How to: Set Up Fiscal Inventory Valuation](how-to-set-up-fiscal-inventory-valuation.md)   
+ [Set Up Fiscal Inventory Valuation](how-to-set-up-fiscal-inventory-valuation.md)   

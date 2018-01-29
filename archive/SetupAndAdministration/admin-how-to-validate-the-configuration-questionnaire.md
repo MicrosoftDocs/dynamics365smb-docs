@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Validate the Configuration Questionnaire
+# Validate the Configuration Questionnaire
 It is important to validate the setup questionnaire before you apply it to the [!INCLUDE[d365fin](includes/d365fin_md.md)] format. It is also a way to make sure that data formatting is preserved during the import from Excel.  
   
  A common validation task is to check that text strings are not entered into date fields. This review process is necessary because the format of the answer in the questionnaire is not validated automatically when the **Apply Answers** function is run.  
@@ -38,4 +38,4 @@ It is important to validate the setup questionnaire before you apply it to the [
  After you have completed your validation, your data is ready to be applied to the database.  
   
 ## See Also  
- [How to: Apply Answers from the Configuration Questionnaire](../how-to-apply-answers-from-the-configuration-questionnaire.md)
+ [Apply Answers from the Configuration Questionnaire](../how-to-apply-answers-from-the-configuration-questionnaire.md)

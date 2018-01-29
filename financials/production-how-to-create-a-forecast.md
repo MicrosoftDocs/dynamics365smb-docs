@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Create a Production Forecast
+# Create a Production Forecast
 You can create sales and production forecasts with the **Production Forecast** window.  
 
 Forecasting functionality is used to create anticipated demand; actual demand is created from sales and production orders. During creation of the Master Production Schedule (MPS), the forecast is netted against the sales and production orders. The *Component* option on the forecast determines which type of requirements to take into consideration in the netting process. If the forecast is for a sales item, only sales orders net the forecast. If it is for components, only dependent demand from production order components net the forecast.  

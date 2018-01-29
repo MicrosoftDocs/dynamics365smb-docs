@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Submit VAT Statements
+# Submit VAT Statements
 Companies must pay VAT for most purchased goods and services. VAT can be deducted if the goods and services that are purchased by a company are used in the production of its income.  
 
 You must submit periodic VAT statements to the tax authorities to list transactions that include VAT with amounts over a specific threshold. Before you submit your VAT statement, you should review the VAT statement, and then settle and post the VAT transactions.  
@@ -46,4 +46,4 @@ After you calculate and post the VAT settlement, VAT amounts are transferred to 
 The exported file can now be submitted to the tax authorities.  
 
 ## See Also  
- [How to: Report VAT to Tax Authorities](../../finance-how-report-vat.md)
+ [Report VAT to Tax Authorities](../../finance-how-report-vat.md)

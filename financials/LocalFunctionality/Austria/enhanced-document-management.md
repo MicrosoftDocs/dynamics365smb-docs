@@ -1,7 +1,13 @@
 ---
     title: Enhanced Document Management
+<<<<<<< HEAD:financials/LocalFunctionality/Austria/enhanced-document-management.md
     description: In Dynamics 365, Business edition, you can archive documents and track work across archived and non-archived documents.
     services: project-madeira
+=======
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can archive documents and track work across archived and non-archived documents.
+
+    services: project-madeira 
+>>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Austria/enhanced-document-management.md
     documentationcenter: ''
     author: SorenGP
 
@@ -49,5 +55,5 @@ You can select a document line within a document type, and view and retrieve the
 - Posted invoices  
 
 ## See Also  
- [How to: Create Blanket Sales Orders](../../sales-how-to-create-blanket-sales-orders.md)   
- [How to: Track Document Lines](how-to-track-document-lines.md)
+ [Create Blanket Sales Orders](../../sales-how-to-create-blanket-sales-orders.md)   
+ [Track Document Lines](how-to-track-document-lines.md)

@@ -2,7 +2,7 @@
     title: How to Define an Account Schedule Extension
     description: Russian enhancements enable you to define an extension for an account schedule line. Extensions are useful if you want to filter the data of your general ledger accounts.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Define an Account Schedule Extension
+# Define an Account Schedule Extension
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] enables you to define an extension for an account schedule line. Extensions are useful if you want to filter the data of your general ledger accounts.  
 
 ## To define an account schedule extension  
@@ -29,6 +29,6 @@
 Based on your selections, the account schedule information is filtered from the entry tables, and then new amounts are calculated for the specified account schedule line.  
 
 ## See Also  
- [How to: Work with Account Schedules](../../bi-how-work-account-schedule.md)   
+ [Work with Account Schedules](../../bi-how-work-account-schedule.md)   
  [Account Schedules Overview](account-schedules-overview.md)   
- [How to: Define an Account Schedule Constant](how-to-define-an-account-schedule-constant.md)
+ [Define an Account Schedule Constant](how-to-define-an-account-schedule-constant.md)

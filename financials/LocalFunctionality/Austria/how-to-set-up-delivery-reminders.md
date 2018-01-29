@@ -1,7 +1,13 @@
 ---
     title: How to Set Up Delivery Reminders
+<<<<<<< HEAD:financials/LocalFunctionality/Austria/how-to-set-up-delivery-reminders.md
     description: In Dynamics 365, Business edition, you can use purchase delivery reminders to remind vendors about overdue deliveries.
     services: project-madeira
+=======
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use purchase delivery reminders to remind vendors about overdue deliveries.
+
+    services: project-madeira 
+>>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Germany/how-to-set-up-delivery-reminders.md
     documentationcenter: ''
     author: SorenGP
 
@@ -15,7 +21,11 @@
     ms.author: sgroespe
 
 ---
+<<<<<<< HEAD:financials/LocalFunctionality/Austria/how-to-set-up-delivery-reminders.md
 # How to: Set Up Delivery Reminders
+=======
+# Set Up Delivery Reminders
+>>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Germany/how-to-set-up-delivery-reminders.md
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use purchase delivery reminders to remind vendors about overdue deliveries. To create delivery reminders for vendors, you must set up base data for delivery reminder creation and number series for the delivery reminders in the **Purchases & Payables Setup** window.  
 
 ## To set up delivery reminders  
@@ -40,6 +50,6 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use purchase deliv
 
 ## See Also  
  [Delivery Reminders](delivery-reminders.md)   
- [How to: Set Up Delivery Reminder Terms, Levels, and Text](how-to-set-up-delivery-reminder-terms-levels-and-text.md)   
- [How to: Assign Delivery Reminder Codes to Vendors](how-to-assign-delivery-reminder-codes-to-vendors.md)   
- [How to: Create Delivery Reminders Manually](how-to-create-delivery-reminders-manually.md)
+ [Set Up Delivery Reminder Terms, Levels, and Text](how-to-set-up-delivery-reminder-terms-levels-and-text.md)   
+ [Assign Delivery Reminder Codes to Vendors](how-to-assign-delivery-reminder-codes-to-vendors.md)   
+ [Create Delivery Reminders Manually](how-to-create-delivery-reminders-manually.md)

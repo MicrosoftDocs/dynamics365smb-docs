@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Customize FastTabs
+# Customize FastTabs
 FastTabs help organize information about pages into simple, manageable groups. You can customize FastTabs on pages so that they support your workflow. For example, you may want to show fewer FastTabs or hide specific fields on FastTabs. You can also promote the most important fields to be included in the FastTab headers when the FastTabs are collapsed.  
   
  You can peform the following tasks to customize FastTabs on pages:  
@@ -96,14 +96,14 @@ FastTabs help organize information about pages into simple, manageable groups. Y
 -   In the Customize window, choose the **Restore Defaults** button, and then choose the **OK** button.  
   
     > [!NOTE]  
-    >  All customization of FastTabs that you have ever made for this page under your current user logon or since you last used the **Restore Defaults** button are canceled. The layout of FastTabs on the page is reset to the default configuration for your profile. For more information, see [How to: Cancel UI Personalization](../how-to-cancel-ui-personalization.md).  
+    >  All customization of FastTabs that you have ever made for this page under your current user logon or since you last used the **Restore Defaults** button are canceled. The layout of FastTabs on the page is reset to the default configuration for your profile. For more information, see [Cancel UI Personalization](../how-to-cancel-ui-personalization.md).  
   
 ## See Also  
  PERSONALIZATION Personalize the User Interface   
- [How to: Customize Ribbons](../how-to-customize-ribbons.md)   
- [How to: Customize FactBoxes](../how-to-customize-factboxes.md)   
- [How to: Specify When UI Elements Are Removed](../How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md)   
- [How to: Cancel UI Personalization](../how-to-cancel-ui-personalization.md)   
+ [Customize Ribbons](../how-to-customize-ribbons.md)   
+ [Customize FactBoxes](../how-to-customize-factboxes.md)   
+ [Specify When UI Elements Are Removed](../How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md)   
+ [Cancel UI Personalization](../how-to-cancel-ui-personalization.md)   
  Delete User Personalization   
  [Customize the User Interface](../customize-the-user-interface.md)   
  [Working with Product Name](../working-with-$-p_1-product-name-$-.md)   

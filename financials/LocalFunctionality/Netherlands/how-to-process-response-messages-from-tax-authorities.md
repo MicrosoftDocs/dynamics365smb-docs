@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Process Response Messages from Tax Authorities
+# Process Response Messages from Tax Authorities
 When you submit a VAT or ICP declaration to the tax authorities electronically, they will process the declaration and send you a message in response.  
 
 You can import the response into [!INCLUDE[d365fin](../../includes/d365fin_md.md)] by using the **Receive Response Messages** batch job. The response message will contain the status of the declaration.  
@@ -46,5 +46,11 @@ You can import the response into [!INCLUDE[d365fin](../../includes/d365fin_md.md
 
 ## See Also  
  [Electronic VAT and ICP Declarations](electronic-vat-and-icp-declarations.md)   
+<<<<<<< HEAD:financials/LocalFunctionality/Netherlands/how-to-process-response-messages-from-tax-authorities.md
  [How to: Set Up VAT Categories](how-to-set-up-vat-categories.md)   
  [How to: Create Electronic VAT and ICP Declarations](how-to-create-electronic-vat-and-icp-declarations.md)   
+=======
+ [Set Up VAT Categories](how-to-set-up-vat-categories.md)   
+ [Create Electronic VAT and ICP Declarations](how-to-create-electronic-vat-and-icp-declarations.md)   
+ 
+>>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Netherlands/how-to-process-response-messages-from-tax-authorities.md

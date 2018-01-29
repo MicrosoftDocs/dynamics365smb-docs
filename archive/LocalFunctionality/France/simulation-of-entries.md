@@ -20,7 +20,7 @@
 Functionality to simulate posted entries before posting is described in the below topics.
 
 ## In This Section
-[How to: Set Up Simulation](how-to-set-up-simulation.md)  
-[How to: Create Simulation Entries](how-to-create-simulation-entries.md)  
-[How to: Delete Simulation Entries](how-to-delete-simulation-entries.md)  
-[How to: Transfer Simulation Entries](how-to-transfer-simulation-entries.md)  
+[Set Up Simulation](how-to-set-up-simulation.md)  
+[Create Simulation Entries](how-to-create-simulation-entries.md)  
+[Delete Simulation Entries](how-to-delete-simulation-entries.md)  
+[Transfer Simulation Entries](how-to-transfer-simulation-entries.md)  

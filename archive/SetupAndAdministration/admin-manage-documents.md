@@ -27,5 +27,5 @@ A central role, such as the application administrator, must regularly deal with 
 |Compress or combine entries so that they take up less space in the database.|[Date Compress with Batch Jobs](../date-compress-with-batch-jobs.md)|  
   
 ## See Also  
- [How to: Delete Fixed Assets](../how-to-delete-fixed-assets.md)   
- [How to: Delete Insurance Cards](../how-to-delete-insurance-cards.md)
+ [Delete Fixed Assets](../how-to-delete-fixed-assets.md)   
+ [Delete Insurance Cards](../how-to-delete-insurance-cards.md)

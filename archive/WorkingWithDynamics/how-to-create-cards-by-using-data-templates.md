@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Create Cards by Using Data Templates
+# Create Cards by Using Data Templates
 Cards hold master data that represent business accounts such as items, vendors, and customers. For example, an item card displays the necessary information to store, maintain, and trade the item.  
   
  Each card can be based on a data template, which has different characteristics of a business account. For example, item cards can be based on a Wholesale template or a Production template.  
@@ -35,4 +35,4 @@ Cards hold master data that represent business accounts such as items, vendors, 
  The fields on the item card are now filled with the default template values. You can now make any necessary edits.  
   
 ## See Also  
- [How to: Use a Configuration Template on a Record](../FullExperience/how-to-use-a-configuration-template-on-a-record.md)
+ [Use a Configuration Template on a Record](../FullExperience/how-to-use-a-configuration-template-on-a-record.md)

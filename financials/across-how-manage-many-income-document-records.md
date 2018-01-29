@@ -15,7 +15,7 @@ ms.date: 06/02/2016
 ms.author: sgroespe
 
 ---
-# How to: Manage Many Incoming Document Records
+# Manage Many Incoming Document Records
 As you create or process incoming document records, the number of lines in the **Incoming Documents** window may grow to an extent where you lose overview. Therefore, you can set incoming document records to Processed to remove them from the default view. When you choose the **Show All** action, you can view both processed and unprocessed records.
 
 > [!NOTE]  

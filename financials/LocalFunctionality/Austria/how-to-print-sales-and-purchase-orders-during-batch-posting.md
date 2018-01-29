@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Print Sales and Purchase Orders During Batch Posting
+# Print Sales and Purchase Orders During Batch Posting
 After sales orders and purchase orders are batch posted, you can print the corresponding posted documents.  
 
 The following procedure describes how to print sales orders, but the same steps also apply to purchase orders.  
@@ -29,4 +29,4 @@ The following procedure describes how to print sales orders, but the same steps 
 5.  To batch post and print the sales orders, choose the **OK** button.  
 
 ## See Also  
-[How to: Invoice Sales](../../sales-how-invoice-sales.md)
+[Invoice Sales](../../sales-how-invoice-sales.md)

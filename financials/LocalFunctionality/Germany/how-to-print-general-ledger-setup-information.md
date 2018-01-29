@@ -1,7 +1,13 @@
 ---
     title: How to Print General Ledger Setup Information
+<<<<<<< HEAD:financials/LocalFunctionality/Germany/how-to-print-general-ledger-setup-information.md
     description: Before you use Dynamics 365, Business edition in the daily business, you can run the **G/L Setup Information** report to display the master data that you have set up.
     services: project-madeira
+=======
+    description: Before you use [!INCLUDE[d365fin](../../includes/d365fin_md.md)] in the daily business, you can run the **G/L Setup Information** report to display the master data that you have set up.
+
+    services: project-madeira 
+>>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Germany/how-to-print-general-ledger-setup-information.md
     documentationcenter: ''
     author: SorenGP
 
@@ -15,7 +21,11 @@
     ms.author: sgroespe
 
 ---
+<<<<<<< HEAD:financials/LocalFunctionality/Germany/how-to-print-general-ledger-setup-information.md
 # How to: Print General Ledger Setup Information
+=======
+# Print General Ledger Setup Information
+>>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Germany/how-to-print-general-ledger-setup-information.md
 Before you use [!INCLUDE[d365fin](../../includes/d365fin_md.md)] in the daily business, you can run the **G/L Setup Information** report to display the master data that you have set up. You can look over this master data so that you have a baseline to compare to, and then verify that you have set up posting groups correctly, for example.  
 
 ## To print general ledger setup information  

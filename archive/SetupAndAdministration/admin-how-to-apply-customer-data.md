@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Apply Customer Data
+# Apply Customer Data
 When you have all imported data migration records that are valid and have no errors, you can apply the records to the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.  
 
 ## To apply customer data  
@@ -28,4 +28,4 @@ The customer’s company database is now set up and basic data is imported. Your
 
 ## See Also  
  [Administration in the Development Environment](../Administration%20in%20the%20Development%20Environment.md)   
- [How to: Clean Up and Process Data](../how-to-clean-up-and-process-data.md)
+ [Clean Up and Process Data](../how-to-clean-up-and-process-data.md)

@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Data Exports for GDPdU
+# Set Up Data Exports for GDPdU
 You must set up data export record sources to be able to export Grundsätze zum Datenzugriff und zur Prüfkbarkeit digtaler Unterlagen (GDPdU) data. For each data export type, you must define one or more record sources, where each source is a table from which you want to export data.  
 
 ## To set up a GDPdU data export  
@@ -166,4 +166,4 @@ In this example, you set multiple filter definitions for the same table.
 
 ## See Also  
  [Process for Data Access and Testability of Digital Documents (GDPdU)](process-for-data-access-and-testability-of-digital-documents-gdpdu-.md)   
- [How to: Export GDPdU Data](how-to-export-gdpdu-data.md)
+ [Export GDPdU Data](how-to-export-gdpdu-data.md)

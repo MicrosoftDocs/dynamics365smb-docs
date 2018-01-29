@@ -15,7 +15,7 @@ ms.date: 01/25/2018
 ms.author: edupont
 
 ---
-# How to: Update Currency Exchange Rates
+# Update Currency Exchange Rates
 You must set up a code for each currency you use if you buy or sell in currencies other than your local currency, have receivables or payables in other currencies, or record G/L transactions in different currencies.  
 
 As companies operate in increasingly more countries/regions, it becomes more important that they be able to review or report financials in more than one currency. The program supports use of multiple currencies. Within the program, your general ledger is set up using your local currency (LCY), and another currency is set up as an additional currency, with a current exchange rate assigned.  

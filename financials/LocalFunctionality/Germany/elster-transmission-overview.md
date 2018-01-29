@@ -1,7 +1,13 @@
 ---
     title: ELSTER Transmission Overview
+<<<<<<< HEAD:financials/LocalFunctionality/Germany/elster-transmission-overview.md
     description: When a user submits a sales VAT advance notification from Dynamics 365 to the Elektronische Steuererklärungen (ELSTER) online portal, the Microsoft.Dynamics.ElsterTransferHandler assembly processes the document and then transmits it to ELSTER.
     services: project-madeira
+=======
+    description: When a user submits a sales VAT advance notification from [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to the Elektronische Steuererklärungen (ELSTER) online portal, the Microsoft.Dynamics.ElsterTransferHandler assembly processes the document and then transmits it to ELSTER.
+
+    services: project-madeira 
+>>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Germany/elster-transmission-overview.md
     documentationcenter: ''
     author: SorenGP
 
@@ -24,7 +30,7 @@ When a user submits a sales VAT advance notification from [!INCLUDE[d365fin](../
 2.  After this document has been created successfully it is extended with configuration information (proxy server, certificates, and so forth) which is needed by Microsoft.Dynamics.ElsterTransferHandler.  
 3.  The complete document is handed over to Microsoft.Dynamics.ElsterTransferHandler. The assembly further processes the data (encryption, compression, signature) and sends it to one of the servers of the OFD.  
 
-    You can specify the servers of the OFD in the **Electronic VAT Decl. Setup** window. For more information, see [How to: Set Up Sales VAT Advance Notifications for ELSTER](how-to-set-up-sales-vat-advance-notifications-for-elster.md)  
+    You can specify the servers of the OFD in the **Electronic VAT Decl. Setup** window. For more information, see [Set Up Sales VAT Advance Notifications for ELSTER](how-to-set-up-sales-vat-advance-notifications-for-elster.md)  
 
 4.  The data is received and processed by the server of the OFD and a response document is sent back.  
 5.  The response document is received, decrypted, and decompressed by Microsoft.Dynamics.ElsterTransferHandler and returned as an XML document to [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. You can then view the responses in the **VAT Transmission Log Entries** window.  
@@ -54,4 +60,4 @@ The identity of the sender is determined by mapping the certificate to a registe
 ## See Also  
  [Error Messages of the ElsterTransferHandler](error-messages-of-the-elstertransferhandler.md)   
  [Electronic Submission of Sales VAT Advance Notifications to ELSTER](electronic-submission-of-sales-vat-advance-notifications-to-elster.md)   
- [How to: Set Up Sales VAT Advance Notifications for ELSTER](how-to-set-up-sales-vat-advance-notifications-for-elster.md)
+ [Set Up Sales VAT Advance Notifications for ELSTER](how-to-set-up-sales-vat-advance-notifications-for-elster.md)

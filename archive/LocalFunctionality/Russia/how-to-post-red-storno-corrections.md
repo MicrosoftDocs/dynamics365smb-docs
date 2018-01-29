@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Post Red Storno Corrections
+# Post Red Storno Corrections
 You can set up inventory to use the same column for original and corrective postings. This is often referred to as *red storno*. You can use red storno posting to post the following inventory entries:  
 
 - Corrective entries in the item journal.  

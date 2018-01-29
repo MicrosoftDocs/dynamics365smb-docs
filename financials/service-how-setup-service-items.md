@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Service Items and Service Item Components
+# Set Up Service Items and Service Item Components
 To work with service items, you must set up the following
 
 * Service item groups. 
@@ -59,5 +59,5 @@ You can set up service shelves that identify where you store your service items.
 2. Fill in the fields as necessary.
 
 ## See Also
-[How to: Set Up Codes for Standard Services](service-how-setup-service-coding.md)   
-[How to: Set Up Troubleshooting](service-how-setup-troubleshooting.md)
+[Set Up Codes for Standard Services](service-how-setup-service-coding.md)   
+[Set Up Troubleshooting](service-how-setup-troubleshooting.md)

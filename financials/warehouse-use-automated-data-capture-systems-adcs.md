@@ -13,7 +13,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Enable Automated Data Capture Systems (ADCS)
+# Enable Automated Data Capture Systems (ADCS)
 You can use your automatic data capture system (ADCS) to register the movement of items in the warehouse and to register some journal activities, such as quantity adjustments in the warehouse item journal and physical inventories.  
 
 To use ADCS, you must give each item stored in the warehouse an item identifier. You must also set up miniforms, handheld functions, data exchanges, and specify settings for fields that control ADCS. You specify whether to use ADCS on the location card of a warehouse.
@@ -52,7 +52,7 @@ Each warehouse item that you want to use with ADCS must be assigned an identifie
 8.  To review the information, choose the **Identifier Code** field to open the **Item Identifiers** window.
 
 ## To add an ADCS user  
-You can add any user as a user of an Automated Data Capture System (ADCS). When you do this, the user must also provide a password. Optionally, you can also provide a connection that identifies the ADCS user as a warehouse employee. The ADCS user password can be different from the Windows logon password of the user. For more information, see [How to: Manage Users and Permissions](ui-how-users-permissions.md).
+You can add any user as a user of an Automated Data Capture System (ADCS). When you do this, the user must also provide a password. Optionally, you can also provide a connection that identifies the ADCS user as a warehouse employee. The ADCS user password can be different from the Windows logon password of the user. For more information, see [Manage Users and Permissions](ui-how-users-permissions.md).
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **ADCS Users**, and then choose the related link.  
 2. Choose the **New** action.  
@@ -61,7 +61,7 @@ You can add any user as a user of an Automated Data Capture System (ADCS). When 
 
 ### To specify that a warehouse employee is an ADCS user  
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Warehouse Employees**, and then choose the related link.  
-2.  If needed, add a new warehouse employee. For more information, see [How to: Set Up Warehouse Employees](warehouse-how-to-set-up-warehouse-employees.md).  
+2.  If needed, add a new warehouse employee. For more information, see [Set Up Warehouse Employees](warehouse-how-to-set-up-warehouse-employees.md).  
 3.  Choose the **Edit List** action.  
 4.  Select a warehouse employee from the list. In the **ADCS User** field, choose the drop-down arrow, and then select the name of an ADCS user from the list.  
 

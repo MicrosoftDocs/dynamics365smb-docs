@@ -56,7 +56,7 @@ If no errors occur, then the updates is applied to the report layouts. If errors
   
  The most typical problem occurs when a field that is used on the layout has been removed from the report dataset. In this case, you will see a line in the error message that states that an item has been removed. To fix this issue, you will have to modify the layout and remove the field in question.  
   
- For more information, see [How to: Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md#ModifyCustomLayout).  
+ For more information, see [Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md#ModifyCustomLayout).  
   
  After you modify the layout, try to update the layout again.  
   

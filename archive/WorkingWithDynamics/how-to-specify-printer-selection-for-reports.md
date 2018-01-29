@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Specify Printer Selection for Reports
+# Specify Printer Selection for Reports
 You can set up reports so that they must be printed on a specific printer from the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/nav_windows_md.md)]-->. The following are some uses of printer selection:  
   
 -   You can print reports on special company letterhead.  

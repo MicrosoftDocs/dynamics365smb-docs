@@ -2,7 +2,7 @@
     title: How to Set Up BAS XML Fields
     description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you must define setup names for XML fields in the Business Activity Statement (BAS). You can group the required BAS XML field IDs under one setup name.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up BAS XML Fields
+# Set Up BAS XML Fields
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you must define setup names for XML fields in the Business Activity Statement (BAS). You can group the required BAS XML field IDs under one setup name.  
 
 ## To set up BAS XML fields  
@@ -33,5 +33,4 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you must define setup name
 
 ## See Also  
  [BAS Fuel Tax Credits](bas-fuel-tax-credits.md)   
- [How to: Set Up BAS XML Fields]()   
  [Business Activity Statements](business-activity-statements.md)

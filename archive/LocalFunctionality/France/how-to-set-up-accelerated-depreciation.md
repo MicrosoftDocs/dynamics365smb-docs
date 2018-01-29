@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Accelerated Depreciation
+# Set Up Accelerated Depreciation
 To use the accelerated depreciation calculation, you must set up the following depreciation books for fixed assets:  
 
 - The accounting depreciation book (integrated with the general ledger).  
@@ -41,7 +41,7 @@ To use the accelerated depreciation calculation, you must set up the following d
 
 4.  On the **Integration** FastTab, select the **Derogatory** check box to integrate accelerated depreciation with the general ledger.  
 
-    For more information, see [How to: Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md).  
+    For more information, see [Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md).  
 
 5.  Choose the **OK** button.  
 
@@ -58,7 +58,7 @@ To use the accelerated depreciation calculation, you must set up the following d
 
 4.  In the **Derogatory Calculation** field, select the accounting depreciation book code to indicate that this is a tax depreciation book to calculate derogatory depreciation.  
 
-    For more information, see [How to: Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md).  
+    For more information, see [Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md).  
 
 5.  Choose the **OK** button.  
 
@@ -66,5 +66,5 @@ The **Used with Derogatory Book** field in the accounting depreciation book is u
 
 ## See Also  
  [Accelerated Depreciation](accelerated-depreciation.md)   
- [How to: Calculate Accelerated Depreciation](how-to-calculate-accelerated-depreciation.md)   
-[How to: Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md)
+ [Calculate Accelerated Depreciation](how-to-calculate-accelerated-depreciation.md)   
+[Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md)

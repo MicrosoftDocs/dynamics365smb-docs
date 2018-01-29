@@ -275,5 +275,5 @@ The next time the tax auditors request new data, Cassie and Sean can collaborate
 
 ## See Also  
  [Process for Data Access and Testability of Digital Documents (GDPdU)](process-for-data-access-and-testability-of-digital-documents-gdpdu-.md)   
- [How to: Set Up Data Exports for GDPdU](how-to-set-up-data-exports-for-gdpdu.md)   
- [How to: Export GDPdU Data](how-to-export-gdpdu-data.md)
+ [Set Up Data Exports for GDPdU](how-to-set-up-data-exports-for-gdpdu.md)   
+ [Export GDPdU Data](how-to-export-gdpdu-data.md)

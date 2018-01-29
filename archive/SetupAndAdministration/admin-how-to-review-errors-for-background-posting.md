@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Review Errors for Background Posting
+# Review Errors for Background Posting
 Errors for background posting are easy to determine. [!INCLUDE[d365fin](includes/d365fin_md.md)] provides several options for you to access this information.  
   
 ### To view an error from a sales or purchase document  
@@ -36,9 +36,9 @@ Errors for background posting are easy to determine. [!INCLUDE[d365fin](includes
   
 ### To view an error from the My Job Queue part  
   
-1.  Add the **My Job Queue** part to your role center. For more information, see [How to: Use My Job Queue Part](../how-to-use-my-job-queue-part.md).  
+1.  Add the **My Job Queue** part to your role center. For more information, see [Use My Job Queue Part](../how-to-use-my-job-queue-part.md).  
   
 2.  If an entry has the status **Error**, choose **Show Error**. The error message is displayed.  
   
 ## See Also  
- [How to: Check Job Queues Entries](../how-to-check-job-queues-entries.md)
+ [Check Job Queues Entries](../how-to-check-job-queues-entries.md)

@@ -62,4 +62,4 @@ There are three depreciation methods that are unique to Russia that can be used 
 
 ## See Also  
  [Depreciation Bonus](depreciation-bonus.md)   
- [How to: Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md)
+ [Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md)

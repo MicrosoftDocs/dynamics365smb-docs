@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Create Custom Company Configuration Packages
+# Create Custom Company Configuration Packages
 As you grow your business, you will likely come to rely on a set of company types that you use with most of your customers. You can streamline your implementation process by turning these types into company configuration packages that are available for reuse.  
   
  In general, create a configuration package per functional area, for example, create a package for your manufacturing functionality. That lets you apply and set up new areas in a company as you need them  
@@ -52,7 +52,7 @@ As you grow your business, you will likely come to rely on a set of company type
   
 1.  Create a new ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/How%20to:%20Create%20Databases.md).  
   
-2.  Create a new company for the industry or solution template. For more information, see [How to: Create a New Company](../how-to-create-a-new-company.md).  
+2.  Create a new company for the industry or solution template. For more information, see [Create a New Company](../how-to-create-a-new-company.md).  
   
 3.  Setup the new company in the way you need. Fill in all required setup tables.  
   
@@ -67,4 +67,4 @@ As you grow your business, you will likely come to rely on a set of company type
 8.  Export your package as a .rapidstart file.  
   
 ## See Also  
- [How to: Create Configuration Questionnaires](../how-to-create-configuration-questionnaires.md)
+ [Create Configuration Questionnaires](../how-to-create-configuration-questionnaires.md)

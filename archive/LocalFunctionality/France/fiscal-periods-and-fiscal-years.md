@@ -21,10 +21,10 @@ A fiscal year is typically divided into 12 monthly fiscal periods. In [!INCLUDE[
 
 To close a fiscal year, you must close the accounting periods within that year.  
 
-You can only reopen a closed accounting period if the period falls within an open fiscal year. For more information, see [How to: Close Years](how-to-close-years.md). You cannot reopen a closed fiscal year.  
+You can only reopen a closed accounting period if the period falls within an open fiscal year. For more information, see [Close Years](how-to-close-years.md). You cannot reopen a closed fiscal year.  
 
 ## Closing Fiscal Periods and Fiscal Years  
-After a fiscal year is complete, you must close the accounting periods within that fiscal year. This is to ensure that general ledger entries are not posted for that period. For more information, see [How to: Fiscally Close Accounting Periods](how-to-fiscally-close-years.md).  
+After a fiscal year is complete, you must close the accounting periods within that fiscal year. This is to ensure that general ledger entries are not posted for that period. For more information, see [Fiscally Close Accounting Periods](how-to-fiscally-close-years.md).  
 
 A fiscal year can be closed if all of the following criteria are met:  
 
@@ -46,11 +46,11 @@ At the end of the year, you must do the following:
 - Close the fiscal year using the **Fiscally Close Year** function.  
 
 ## See Also  
- [How to: Post the Year-End Closing Entry](how-to-post-the-year-end-closing-entry.md)   
- [How to: Fiscally Close Accounting Periods](how-to-fiscally-close-accounting-periods.md)   
+ [Post the Year-End Closing Entry](how-to-post-the-year-end-closing-entry.md)   
+ [Fiscally Close Accounting Periods](how-to-fiscally-close-accounting-periods.md)   
  [Closing Years and Periods](../../year-close-years-periods.md)   
- [How to: Post the Year-End Closing Entry](how-to-post-the-year-end-closing-entry.md)   
- [How to: Fiscally Close Years](how-to-fiscally-close-years.md)   
- [How to: Reopen Accounting Periods](how-to-reopen-accounting-periods.md)   
- [How to: Close Income Statement Accounts](how-to-close-income-statement-accounts.md)   
+ [Post the Year-End Closing Entry](how-to-post-the-year-end-closing-entry.md)   
+ [Fiscally Close Years](how-to-fiscally-close-years.md)   
+ [Reopen Accounting Periods](how-to-reopen-accounting-periods.md)   
+ [Close Income Statement Accounts](how-to-close-income-statement-accounts.md)   
  [France Local Functionality](france-local-functionality.md)

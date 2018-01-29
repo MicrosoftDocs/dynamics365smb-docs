@@ -49,5 +49,5 @@ The following procedure shows how to process a normalization function.
  [Tax Registers](tax-registers.md)   
  [Tax Differences](assetId:///e42ca8e7-1cee-4fb8-9f71-e596f29cabc3)   
  [Tax Difference Registers](tax-difference-registers.md)   
- [How to: Set Up Norm Jurisdictions](how-to-set-up-norm-jurisdictions.md)   
- [How to: Post Tax Differences](how-to-post-tax-differences.md)
+ [Set Up Norm Jurisdictions](how-to-set-up-norm-jurisdictions.md)   
+ [Post Tax Differences](how-to-post-tax-differences.md)

@@ -15,7 +15,7 @@ ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---
-# How to: Set Up Incoming Documents
+# Set Up Incoming Documents
 If you create general journal lines from incoming document records, you must specify in the **Incoming Documents Setup** window which journal template and batch to use.
 
 If you do not want users to create invoices or general journal lines from incoming document records unless the documents are first approved, you must set up approvers in the **Incoming Document Approvers** window.
@@ -38,7 +38,7 @@ When the Incoming Documents feature is set up, you can use different functions t
 When approvers have been set up in the **Incoming Document Approvers** window, only those users can approve an incoming document if the **Require Approval To Create** check box in the **Incoming Documents Setup** window is selected.
 
 > [!NOTE]  
->   This approval setup is not related to approval workflows. For more information, see [How to: Use Approval Workflows](across-how-use-approval-workflows.md).
+>   This approval setup is not related to approval workflows. For more information, see [Use Approval Workflows](across-how-use-approval-workflows.md).
 
 ## To set up an OCR service
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **OCR Service Setup**, and then choose the related link.

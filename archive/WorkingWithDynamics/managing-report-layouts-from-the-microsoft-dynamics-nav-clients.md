@@ -24,11 +24,11 @@ A report layout controls content and format of the report, including which data 
   
 -   [About Report Layouts](../FullExperience/about-report-layouts.md)  
   
--   [How to: See Which Report Layouts are Used on Reports](../FullExperience/how-to-see-which-report-layouts-are-used-on-reports.md)  
+-   [See Which Report Layouts are Used on Reports](../FullExperience/how-to-see-which-report-layouts-are-used-on-reports.md)  
   
--   [How to: Create a Custom Report Layout](../FullExperience/how-to-create-a-custom-report-layout.md)  
+-   [Create a Custom Report Layout](../FullExperience/how-to-create-a-custom-report-layout.md)  
   
--   [How to: Modify a Custom Report Layout](../FullExperience/how-to-modify-a-custom-report-layout.md)  
+-   [Modify a Custom Report Layout](../FullExperience/how-to-modify-a-custom-report-layout.md)  
   
 ## See Also  
  [Custom XML Part Overview for Word Report Layouts](../FullExperience/custom-xml-part-overview-for-word-report-layouts.md)

@@ -29,7 +29,7 @@ The more dimensions you use, the more detailed reports you can base your busines
 * The kind of customer who bought it  
 
 ## Analyzing by Dimensions
-The Dimensions functionality plays an important role in business intelligence, such as when defining analysis views. For more information, see [How to: Analyze Data by Dimensions](bi-how-analyze-data-dimension.md).
+The Dimensions functionality plays an important role in business intelligence, such as when defining analysis views. For more information, see [Analyze Data by Dimensions](bi-how-analyze-data-dimension.md).
 
 > [!TIP]
 > As a quick way to analyze transactional data by dimensions, you can filter totals in the chart of accounts and entries in all **Entries** windows by dimensions. Look for the **Set Dimension Filter** action.
@@ -85,7 +85,7 @@ To avoid posting entries with contradictory or irrelevant dimensions, you can bl
     |Field|Description|
     |----------------------------------|---------------------------------------|  
     |**No limitation**|This dimension combination has no restrictions. All dimensions values are allowed.|  
-    |**Limit**|This dimension combination has restrictions depending on which dimension values that you enter. You must define the limitations in the **Dimension Value Combination** window.|  
+    |**Limited**|This dimension combination has restrictions depending on which dimension values that you enter. You must define the limitations in the **Dimension Value Combination** window.|  
     |**Blocked**|This dimension combination is not allowed.|  
 
 3.  If you selected the **Limited** option, you must define which combinations of dimension values are blocked. To do this, choose the field to define the dimension combination.  
@@ -99,17 +99,14 @@ To avoid posting entries with contradictory or irrelevant dimensions, you can bl
 >  To show the name of the dimensions instead of the code, select the **Show Column Name** field.
 
 ### Getting an Overview of Dimensions used Multiple Times
-The **Default Dimensions-Multiple** specifies how a group of accounts use dimensions and dimension values. You can do this by highlighting multiple accounts and then specifying default dimensions and dimension values for all the accounts you have highlighted in the account list. When you specify default dimensions for the highlighted accounts, the program will suggest these dimensions and dimension values whenever one of these accounts is used, for example on a journal line. This makes entry posting easier for the user, as the program fills out the dimension fields automatically. However, the dimension values the program suggests can be changed on, for example, a journal line.
+The **Default Dimensions-Multiple** window specifies how a group of accounts use dimensions and dimension values. You can do this by highlighting multiple accounts and then specifying default dimensions and dimension values for all the accounts you have highlighted in the account list. When you specify default dimensions for the highlighted accounts, the program will suggest these dimensions and dimension values whenever one of these accounts is used, for example on a journal line. This makes entry posting easier for the user, as the dimension fields are filled in automatically. However, the dimension values that are suggested can be changed on, for example, a journal line.
 
-The window contains the following fields:
+The **Default Dimensions-Multiple** window contains the following fields:
 |Field|Description|
 |----------------------------------|---------------------------------------|  
 |**Dimension Code**|Shows all dimensions that have been defined as default dimensions on one or more of the highlighted accounts. By choosing the field, you can see a list of all available dimensions. If you select a dimension, the selected dimension will be defined as a default dimension for all highlighted accounts.|
-|Dimension Value Code|Shows either a single dimension value or the term (Conflict). If a dimension value is shown in the field, then all highlighted accounts have the same default dimension value for a dimension. If the term (Conflict) is shown in the field, then not all of the highlighted accounts have the same default dimension value for a dimension. By choosing the field, you can see a list of all available dimension values for a dimension. If you select a dimension value, the selected dimension value will be defined as a default dimension value for all highlighted accounts.|
-|Value Posting|Shows either a single value posting rule or the term (Conflict). If a value posting rule is shown in the field, then all highlighted accounts have the same value posting rule for a dimension value. If the term (Conflict) is shown in the field, then not all of the highlighted accounts have the same value posting rule for a dimension value. By choosing the Value Posting field, you can see a list of value posting rules. If you select a value posting rule, it will be applied for all highlighted accounts.|
-
-### Translating the Names of Dimensions
-When you create a dimension, and especially a shortcut dimension, what you're actually creating is a custom field or column heading. If your business is international, you can provide translations for the name of the dimension. Documents that include the dimension will use the translated name, where applicable.   
+|**Dimension Value Code**|Shows either a single dimension value or the term (Conflict). If a dimension value is shown in the field, then all highlighted accounts have the same default dimension value for a dimension. If the term (Conflict) is shown in the field, then not all of the highlighted accounts have the same default dimension value for a dimension. By choosing the field, you can see a list of all available dimension values for a dimension. If you select a dimension value, the selected dimension value will be defined as a default dimension value for all highlighted accounts.|
+|**Value Posting**|Shows either a single value posting rule or the term (Conflict). If a value posting rule is shown in the field, then all highlighted accounts have the same value posting rule for a dimension value. If the term (Conflict) is shown in the field, then not all of the highlighted accounts have the same value posting rule for a dimension value. By choosing the Value Posting field, you can see a list of value posting rules. If you select a value posting rule, it will be applied for all highlighted accounts.|
 
 ### Example of Dimension Setup
 Let's say that your company wants to track transactions based on organizational structure and geographic locations. To do that, you can set up two dimensions in the **Dimensions** window:
@@ -173,5 +170,5 @@ In a ledger entry window, you can see whether there are global dimensions for th
 ## See Also
 [Business Intelligence](bi.md)  
 [Finance](finance.md)  
-[How to: Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)  
+[Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

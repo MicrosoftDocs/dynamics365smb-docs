@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Verify a List of Vendors for DTA Payments
+# Verify a List of Vendors for DTA Payments
 The DatenTrägerAustausch (DTA) payment journal report displays information for each payment line. You can also view comments in the comments column. The report includes information about the number of postings, the highest posting amount, and the total amount in local and foreign currencies.  
 
 ## To verify a list of vendors for DTA payments  
@@ -31,11 +31,11 @@ The DatenTrägerAustausch (DTA) payment journal report displays information for 
 
 5.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 
-You can edit or delete the payments in the payment journal. You can print the DTA journal multiple times to verify corrected payments, and then post the payment journal when it is accurate. For more information, see [How to: Suggest DTA Payment for Vendors](how-to-suggest-dta-payment-for-vendors.md) .  
+You can edit or delete the payments in the payment journal. You can print the DTA journal multiple times to verify corrected payments, and then post the payment journal when it is accurate. For more information, see [Suggest DTA Payment for Vendors](how-to-suggest-dta-payment-for-vendors.md) .  
 
 ## See Also  
  [Swiss Electronic Payments Using DTA](swiss-electronic-payments-using-dta.md)   
- [How to: Suggest DTA Payment for Vendors](how-to-suggest-dta-payment-for-vendors.md)   
- [How to: Submit DTA Payments](how-to-submit-dta-payments.md)   
- [How to: Export Payments Using EZAG](how-to-export-payments-using-ezag.md)   
+ [Suggest DTA Payment for Vendors](how-to-suggest-dta-payment-for-vendors.md)   
+ [Submit DTA Payments](how-to-submit-dta-payments.md)   
+ [Export Payments Using EZAG](how-to-export-payments-using-ezag.md)   
  [Making Payments](../../payables-make-payments.md)

@@ -428,10 +428,10 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
 ## See Also  
  [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md)   
- [How to: Assemble Items](assembly-how-to-assemble-items.md)   
- [How to: Pick Items for Warehouse Shipment](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
- [How to: Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md)   
- [How to: Assemble Items](assembly-how-to-assemble-items.md)   
+ [Assemble Items](assembly-how-to-assemble-items.md)   
+ [Pick Items for Warehouse Shipment](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
+ [Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md)   
+ [Assemble Items](assembly-how-to-assemble-items.md)   
  [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)   
  [Design Details: Internal Warehouse Flows](design-details-internal-warehouse-flows.md)   
  [Design Details: Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md)   

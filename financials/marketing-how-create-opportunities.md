@@ -1,6 +1,6 @@
 ---
 title: Create Sales Opportunities| Microsoft Docs
-description: Describes how to create opportunities from a salesperson or a contact in Dynamics 365, Business edition.
+description: Describes how to create opportunities from a salesperson or a contact in Finance and Operations, Business edition.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -15,12 +15,12 @@ ms.date: 06/06/2017
 ms.author: jswymer
 
 ---
-# How to: Create Sales Opportunities
+# Create Sales Opportunities
 You can create opportunities for the sales opportunities you have on your contacts. All opportunities must be assigned to a salesperson or purchaser and must have a contact.
 
 You can create opportunities from the **Opportunity List** window. But you typically will create opportunities from the specific contact or salespeople.
 
-Before you can create opportunities, you must set up opportunity sales cycles. For more information see [How to: Set Up Opportunity Sales Cycles and Stages](marketing-how-setup-opportunity-sales-cycles-stages.md).
+Before you can create opportunities, you must set up opportunity sales cycles. For more information see [Set Up Opportunity Sales Cycles and Stages](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## To create an opportunity from a salesperson
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Salespeople**, and then choose the related link.
@@ -41,4 +41,4 @@ Before you can create opportunities, you must set up opportunity sales cycles. F
 ## See Also
 [Sales](sales-manage-sales.md)  
 [Creating and Managing Contacts](marketing-contacts.md)  
-[Working with Dynamics 365, Business edition](ui-work-product.md)
+[Working with Finance and Operations, Business edition](ui-work-product.md)

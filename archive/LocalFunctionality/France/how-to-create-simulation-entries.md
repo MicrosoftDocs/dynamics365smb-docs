@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Create Simulation Entries
+# Create Simulation Entries
 When you have set up simulation of general ledger entries, you can create simulation entries.  
 
 ## To create simulation entries  
@@ -30,6 +30,6 @@ When you have set up simulation of general ledger entries, you can create simula
 7.  Select the most recent register, and then choose the **General Ledger** action.  
 
 ## See Also  
- [How to: Set Up Simulation](how-to-set-up-simulation.md)   
- [How to: Transfer Simulation Entries](how-to-transfer-simulation-entries.md)   
- [How to: Delete Simulation Entries](how-to-delete-simulation-entries.md)
+ [Set Up Simulation](how-to-set-up-simulation.md)   
+ [Transfer Simulation Entries](how-to-transfer-simulation-entries.md)   
+ [Delete Simulation Entries](how-to-delete-simulation-entries.md)

@@ -1,7 +1,13 @@
 ---
     title: How to Upgrade a .DTD Definition File
+<<<<<<< HEAD:financials/LocalFunctionality/Germany/how-to-upgrade-a-.dtd-definition-file.md
     description: You can explicitly validate a .dtd file after you import one in order to address upgrade issues. This is useful when you have an existing setup that needs to be updated to reflect the current version of Dynamics 365.
     services: project-madeira
+=======
+    description: You can explicitly validate a .dtd file after you import one in order to address upgrade issues. This is useful when you have an existing setup that needs to be updated to reflect the current version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
+
+    services: project-madeira 
+>>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Germany/how-to-upgrade-a-.dtd-definition-file.md
     documentationcenter: ''
     author: SorenGP
 
@@ -15,7 +21,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Upgrade a .DTD Definition File
+# Upgrade a .DTD Definition File
 You can explicitly validate a .dtd file after you import one in order to address upgrade issues. This is useful when you have an existing setup that needs to be updated to reflect the current version of Microsoft Dynamics NAV.  
 
 ## To upgrade and validate a .dtd file  
@@ -26,4 +32,4 @@ You can explicitly validate a .dtd file after you import one in order to address
 4.  Select a file to import, and then choose the **Validate** action.  
 
 ## See Also  
- [How to: Set Up Data Exports for GDPdU](how-to-set-up-data-exports-for-gdpdu.md)
+ [Set Up Data Exports for GDPdU](how-to-set-up-data-exports-for-gdpdu.md)

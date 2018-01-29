@@ -2,7 +2,7 @@
     title: How to Calculate Accelerated Depreciation
     description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you calculate periodic depreciation for fixed assets by using the **Calculate Depreciation** batch job. The fixed asset depreciation book that is linked to the fixed asset defines the depreciation method, the starting date for depreciation, and the fixed asset posting group that is used in the batch job.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -16,12 +16,12 @@
     ms.author: sgroespe
 
 ---
-# How to: Calculate Accelerated Depreciation
+# Calculate Accelerated Depreciation
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you calculate periodic depreciation for fixed assets by using the **Calculate Depreciation** batch job. The fixed asset depreciation book that is linked to the fixed asset defines the depreciation method, the starting date for depreciation, and the fixed asset posting group that is used in the batch job.  
 
 If a fixed asset depreciation book is integrated with the general ledger, then it is called an *accounting depreciation book*. If a fixed asset depreciation book is not integrated with the general ledger, then it is called a *tax depreciation book*.  
 
-You can only calculate the accelerated depreciation for fixed assets that have an accounting depreciation book and a tax depreciation book. For more information about setting up tax depreciation books and accounting depreciation books for fixed assets, see [How to: Set Up Accelerated Depreciation](how-to-set-up-accelerated-depreciation.md).  
+You can only calculate the accelerated depreciation for fixed assets that have an accounting depreciation book and a tax depreciation book. For more information about setting up tax depreciation books and accounting depreciation books for fixed assets, see [Set Up Accelerated Depreciation](how-to-set-up-accelerated-depreciation.md).  
 
 Entries are transferred to the fixed asset general journal when you select an accounting depreciation book in the batch job. Entries are transferred to the fixed asset journal when you select the tax depreciation book.  
 
@@ -48,6 +48,6 @@ The accelerated depreciation for the fixed asset is calculated.
 
 ## See Also  
  [Accelerated Depreciation](accelerated-depreciation.md)   
- [How to: Set Up Accelerated Depreciation](how-to-set-up-accelerated-depreciation.md)   
- [How to: Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md)  
+ [Set Up Accelerated Depreciation](how-to-set-up-accelerated-depreciation.md)   
+ [Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md)  
  [Fixed Assets](../../fa-manage.md)

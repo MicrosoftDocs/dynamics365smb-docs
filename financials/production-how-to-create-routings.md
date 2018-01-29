@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Create Routings
+# Create Routings
 Manufacturing companies use routings to visualize and direct the manufacturing process.
 
 The routing is the basis of process scheduling, capacity scheduling, scheduled assignment of material needs, and manufacturing documents.  
@@ -24,8 +24,8 @@ As for production BOMs, the routings are assigned to the manufacturing end item.
 
 Before you can set up a routing, the following must be in place:  
 
-- Item cards are created for parent items that take part in manufacturing. For more information, see [How to: Register New Items](inventory-how-register-new-items.md).
-- Production resources are set up. For more information, see [How to: Set Up Work Centers and Machine Centers](production-how-to-set-up-work-and-machine-centers.md).
+- Item cards are created for parent items that take part in manufacturing. For more information, see [Register New Items](inventory-how-register-new-items.md).
+- Production resources are set up. For more information, see [Set Up Work Centers and Machine Centers](production-how-to-set-up-work-and-machine-centers.md).
 
 ## To create a routing  
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Routings**, and then choose the related link.  
@@ -49,13 +49,13 @@ Before you can set up a routing, the following must be in place:
 12.  Continue to fill in lines for all operations involved in producing the item in question.  
 13.  To copy lines from an existing routing, choose the **Copy Routing** action to select existing lines.  
 14. Certify the routing.  
-15. You can now attach the new routing to the card of the production item in question, by filling in the **Routing No.** field. For more information, see [How to: Register New Items](inventory-how-register-new-items.md).  
+15. You can now attach the new routing to the card of the production item in question, by filling in the **Routing No.** field. For more information, see [Register New Items](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
 >  Remember also to recalculate the item’s standard cost from the **Item** card: Choose the **Manufacturing** action, select the **Calc. Standard Cost** action, and then select the **All Levels** action.  
 
 ## To create routing links
-You can create routing links to connect components to specific operations in order to retain their relationship even though the production BOM or routing is modified. It also facilitates just-in-time flushing of components, namely when the specific linked operation starts, not when the complete production order is released. For more information see [How to: Flush Components According to Operation Output](production-how-to-flush-components-according-to-operation-output.md).  
+You can create routing links to connect components to specific operations in order to retain their relationship even though the production BOM or routing is modified. It also facilitates just-in-time flushing of components, namely when the specific linked operation starts, not when the complete production order is released. For more information see [Flush Components According to Operation Output](production-how-to-flush-components-according-to-operation-output.md).  
 
 Another important benefit is that linked components and operations are displayed in a logical process structure when you use the **Production Journal** window for output and consumption posting.  
 
@@ -76,14 +76,14 @@ Another important benefit is that linked components and operations are displayed
 
     Routing link codes are now assigned to operations. Next, you must create the actual link by assigning the same codes to specific components in the relevant production BOM.  
 
-6.  Open the **Production BOM** that contains the components that you want to link to the above operations. For more information, see [How to: Create Production BOMs](production-how-to-create-production-boms.md).
+6.  Open the **Production BOM** that contains the components that you want to link to the above operations. For more information, see [Create Production BOMs](production-how-to-create-production-boms.md).
 7.  Make sure the BOM status is **Under Development**.  
 8.  On the relevant production BOM line, in the **Routing Link Code** field, select the code that you have just assigned to the relevant operation.  
 9. Proceed to add routing link codes to other components according to the unique operations where they are used.  
 10. Set the production BOM status to **Certified**.  
 
     > [!NOTE]  
-    >  To enable the routing links on an existing production order, you must refresh the productio1n order. For more information, see [How to: Create Production Orders](production-how-to-create-production-orders.md).  
+    >  To enable the routing links on an existing production order, you must refresh the productio1n order. For more information, see [Create Production Orders](production-how-to-create-production-orders.md).  
 
 The selected components will now be linked to the selected operations when you create or refresh a production order using the production BOM and routing in question. This is visible in the **Prod. Order Components** window under the production order, and here you can also remove and add the defined routing link codes at any time.
 
@@ -115,7 +115,7 @@ The version principle enables you to manage several versions of a routing. The s
 The time validity of the version is specified by the **Starting Date** field.  
 
 ## See Also  
-[How to: Create Production BOMs](production-how-to-create-production-boms.md)  
+[Create Production BOMs](production-how-to-create-production-boms.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)    
 [Planning](production-planning.md)   

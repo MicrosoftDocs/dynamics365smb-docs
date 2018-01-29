@@ -85,6 +85,6 @@ Ken is now ready to assign the column layout to the account schedule name.
 3.  Choose the **Print** action to print the cash flow forecast.  
 
 ## See Also  
- [How to: Work with Account Schedules](bi-how-work-account-schedule.md)   
+ [Work with Account Schedules](bi-how-work-account-schedule.md)   
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

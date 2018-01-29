@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Compare Bank Cash Flow
+# Compare Bank Cash Flow
 You can use the **Bank Detail Cashflow Compare** report to compare the flow of cash in a particular bank for a specified period.  
 
  The report displays the following details:  
@@ -44,5 +44,5 @@ The debit and credit amounts are displayed in the local currency. You can also v
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 
 ## See Also  
- [How to: Create Check Installments](how-to-create-check-installments.md)   
+ [Create Check Installments](how-to-create-check-installments.md)   
  [Australia Local Functionality](australia-local-functionality.md)

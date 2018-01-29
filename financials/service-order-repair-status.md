@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Statuses for Service Orders and Repairs
+# Set Up Statuses for Service Orders and Repairs
 You must set up repair status options that identify the progress of repair and maintenance of service items in service orders. You must set up at least nine repair status options that identify situations or actions taken when servicing service items.  
 
 You can set the priority level for service order status options. There four priorities are High, Medium High, Medium Low, and Low.  

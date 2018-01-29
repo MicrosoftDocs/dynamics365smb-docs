@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Post LSV+ Payments
+# Post LSV+ Payments
 You can post payments after you have received Lastschrift Verfahren (LSV+) payment advice from the bank.  
 
 ## To post LSV+ payments  
@@ -43,6 +43,6 @@ You can post payments after you have received Lastschrift Verfahren (LSV+) payme
 
 ## See Also  
  [Swiss Electronic Payments Using LSV+](swiss-electronic-payments-using-lsv-.md)   
- [How to: Process an LSV Collection](how-to-process-an-lsv-collection.md)   
- [How to: Close an LSV Collection](how-to-close-an-lsv-collection.md)   
- [How to: Export Payments Using LSV](how-to-export-payments-using-lsv.md) 
+ [Process an LSV Collection](how-to-process-an-lsv-collection.md)   
+ [Close an LSV Collection](how-to-close-an-lsv-collection.md)   
+ [Export Payments Using LSV](how-to-export-payments-using-lsv.md) 

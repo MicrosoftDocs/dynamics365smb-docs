@@ -1,6 +1,6 @@
 ---
 title: Transfer Data from a QuickBooks App  | Microsoft Docs
-description: You can migrate data such as customers, vendors, inventory items, and G/L accounts from QuickBooks apps to Dynamics 365, Business edition.
+description: You can migrate data such as customers, vendors, inventory items, and G/L accounts from QuickBooks apps to Finance and Operations, Business edition.
 documentationcenter: ''
 author: bholtorf
 
@@ -16,7 +16,7 @@ ms.author: bholtorf
 ---
 
 
-# Changing from a QuickBooks App to Microsoft Dynamics 365, Business edition
+# Changing from a QuickBooks App to Microsoft Finance and Operations, Business edition
 More and more growing businesses are changing from finance apps like QuickBooks Desktop and QuickBooks Online, which are designed for startups and other small businesses, to [!INCLUDE[d365fin](includes/d365fin_md.md)], which also supports larger, more complex organizations. 
 
 As they transition, companies typically want to bring their business data with them so they don't start from scratch. To help transfer data, [!INCLUDE[d365fin](includes/d365fin_md.md)] offers built-in extensions that migrate data such as customers, vendors, inventory items, and general ledger accounts. The following extensions are installed and ready to go as an integrated part of the **Data Migration** assisted setup guide:
@@ -34,4 +34,4 @@ If you are ready to get started now, choose the ![Search for Page or Report](med
 
 ## See Also
 [Importing Business Data from Other Finance Systems](upload-data.md)  
-[Customizing Dynamics 365, Business edition Using Extensions](ui-extensions.md)   
+[Customizing Finance and Operations, Business edition Using Extensions](ui-extensions.md)   

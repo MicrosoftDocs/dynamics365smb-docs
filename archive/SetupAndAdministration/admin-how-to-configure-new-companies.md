@@ -15,10 +15,10 @@
     ms.author: sgroespe
 
 ---
-# How to: Configure New Companies
+# Configure New Companies
 You can configure and customize a new company that you have created. To fine tune your implementation, you proceed in three phases to complete your configuration. In the first phase, you import the configuration package, which is a .rapidstart file that you have saved. The file contains configuration information. In the second phase, you modify the configuration information, and then apply it to your new company. In the final phase, you review and fix errors.  
   
- The following procedures assume that you have created and saved a configuration package. For more information, see [How to: Create a Configuration Package](../how-to-create-a-configuration-package.md).  
+ The following procedures assume that you have created and saved a configuration package. For more information, see [Create a Configuration Package](../how-to-create-a-configuration-package.md).  
   
 > [!NOTE]  
 >  Before implementing the following procedures, make sure that you have initialized and opened your new company and are on the ADD INCLUDE<!--[!INCLUDE[rim](../../includes/how-to-change-role-centers.md). Choose the RapidStart Profile ID.  
@@ -82,7 +82,7 @@ You can configure and customize a new company that you have created. To fine tun
   
 3.  Fix errors and add missing related tables to the worksheet.  
   
-4.  Add the tables to the existing configuration package, or create a new package that only contains the new tables. For more information, see [How to: Create a Configuration Package](../how-to-create-a-configuration-package.md).  
+4.  Add the tables to the existing configuration package, or create a new package that only contains the new tables. For more information, see [Create a Configuration Package](../how-to-create-a-configuration-package.md).  
   
 5.  Reopen the new company for which you are implementing the configuration.  
   
@@ -95,5 +95,5 @@ You can configure and customize a new company that you have created. To fine tun
   
 ## See Also  
  [Apply Configuration to New Companies](../apply-configuration-to-new-companies.md)   
- [How to: Copy Data to New Companies](../how-to-copy-data-to-new-companies.md)   
+ [Copy Data to New Companies](../how-to-copy-data-to-new-companies.md)   
  [Configure the User Interface](../configure-the-user-interface.md)

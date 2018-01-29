@@ -15,7 +15,7 @@ ms.date: 03/29/2017
 ms.author: jswymer
 
 ---
-# How to: Post the Year-End Closing Entry
+# Post the Year-End Closing Entry
 After you use the **Close Income Statement** batch job to generate the year-end closing entry or entries, you must open the journal you specified in the batch job, and then review and post the entries.
 
 ## To post the year end closing entry
@@ -28,7 +28,7 @@ After you use the **Close Income Statement** batch job to generate the year-end 
 >   If an error is detected, an error message is displayed. If the posting is successful, the posted entries are removed from the journal. After posting is complete, an entry is posted to each income statement account so that its balance becomes zero and the year's result is transferred to the balance sheet.
 
 ## See Also
-[How to: Close Accounting Periods](year-close-account-periods.md)  
+[Close Accounting Periods](year-close-account-periods.md)  
 [Closing Books](year-close-books.md)  
 [Close Income Statement](year-close-income-statement.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

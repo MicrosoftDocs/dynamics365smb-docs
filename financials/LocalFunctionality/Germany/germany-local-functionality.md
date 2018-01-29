@@ -1,13 +1,8 @@
 ---
     title: Germany Local Functionality
-<<<<<<< HEAD:financials/LocalFunctionality/Germany/germany-local-functionality.md
-    description: The following topics describe the local functionality in the German version of Dynamics 365, Business edition.
-    services: project-madeira
-=======
-    description: The following topics describe the local functionality in the German version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
+    description: The following topics describe the local functionality in the German version of Finance and Operations, Business edition.
 
-    services: project-madeira 
->>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Germany/germany-local-functionality.md
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 

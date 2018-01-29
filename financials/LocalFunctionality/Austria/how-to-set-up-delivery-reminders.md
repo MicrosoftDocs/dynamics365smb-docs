@@ -1,13 +1,8 @@
 ---
     title: How to Set Up Delivery Reminders
-<<<<<<< HEAD:financials/LocalFunctionality/Austria/how-to-set-up-delivery-reminders.md
-    description: In Dynamics 365, Business edition, you can use purchase delivery reminders to remind vendors about overdue deliveries.
-    services: project-madeira
-=======
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use purchase delivery reminders to remind vendors about overdue deliveries.
+    description: In Finance and Operations, Business edition, you can use purchase delivery reminders to remind vendors about overdue deliveries.
 
-    services: project-madeira 
->>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Germany/how-to-set-up-delivery-reminders.md
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -21,11 +16,7 @@
     ms.author: sgroespe
 
 ---
-<<<<<<< HEAD:financials/LocalFunctionality/Austria/how-to-set-up-delivery-reminders.md
-# How to: Set Up Delivery Reminders
-=======
 # Set Up Delivery Reminders
->>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Germany/how-to-set-up-delivery-reminders.md
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use purchase delivery reminders to remind vendors about overdue deliveries. To create delivery reminders for vendors, you must set up base data for delivery reminder creation and number series for the delivery reminders in the **Purchases & Payables Setup** window.  
 
 ## To set up delivery reminders  

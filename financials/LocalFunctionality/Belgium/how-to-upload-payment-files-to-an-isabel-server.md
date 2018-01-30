@@ -17,6 +17,9 @@
 
 ---
 # Upload Payment Files to an Isabel Server
+> [!Note]
+> [!INCLUDE[onprem_only](../../includes/onprem_only_md.md)]
+
 Payment files can be uploaded using the **IBS Logs** window. The **Upload Integration Mode** and **Download Integration Mode** fields in the **Electronic Banking Setup** window must be set to **Attended** to upload payment files.  
 
 > [!NOTE]  

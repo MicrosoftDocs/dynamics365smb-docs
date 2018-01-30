@@ -15,12 +15,12 @@ ms.date: 03/29/2017
 ms.author: sgroespe
 
 ---
-# How to: Register New Vendors
+# Register New Vendors
 Vendors provide the products that you sell. Each vendor that you purchase from must be registered as a vendor card.
 
 Before you can register new vendors, you must set up various purchase codes that you can select from when you fill vendor cards. When all of the required master data is created, you can perform additional configuration of the vendor, such as prioritize the vendor for payment purposes and list items that the vendor and other vendors can supply. Another group of setup tasks for vendors is to record your agreements concerning discounts, prices, and payment methods. For more information, see [Setting Up Purchasing](purchasing-setup-purchasing.md).
 
-Vendor cards hold the information that is required to buy products from the vendor. For more information, see [How to: Record Purchases](purchasing-how-record-purchases.md) and [How to: Register New Items](inventory-how-register-new-items.md).
+Vendor cards hold the information that is required to buy products from the vendor. For more information, see [Record Purchases](purchasing-how-record-purchases.md) and [Register New Items](inventory-how-register-new-items.md).
 
 > [!NOTE]  
 >   If vendor templates exist for different vendor types, then a window appears when you create a new vendor card from where you can select an appropriate template. If only one vendor template exists, then new vendor cards always use that template.
@@ -51,5 +51,5 @@ If you want to use this vendor card as a template when you create new vendor car
 
 ## See Also
 [Purchasing](purchasing-manage-purchasing.md)  
-[How to: Record Purchases](purchasing-how-record-purchases.md)   
+[Record Purchases](purchasing-how-record-purchases.md)   
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

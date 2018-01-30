@@ -15,12 +15,12 @@ ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---
-# How to: Acquire Fixed Assets
+# Acquire Fixed Assets
 For each fixed asset, you must set up a card containing information about the asset. You can set up buildings or production equipment as a main asset with a component list, and you can group them in various ways, such as by class, department, or location. A depreciation book must be set up and assigned to each fixed asset before you can acquire it.
 
 When a fixed asset is set up and a depreciation book assigned, you must acquire the fixed asset. To acquire a fixed asset, you record its acquisition cost in the relevant G/L account, bank account, or vendor by posting an acquisition transaction from the **Fixed Asset G/L Journal** window. You can use the **Assisted Fixed Asset Acquisition** window to create and post the required general journal lines automatically.
 
-The salvage value is the residual value of a fixed asset when it can no longer be used. You can post the salvage value at the same time as you post the acquisition cost. For more information, see [How to: Depreciate or Amortize Fixed Assets](fa-how-depreciate-amortize.md).
+The salvage value is the residual value of a fixed asset when it can no longer be used. You can post the salvage value at the same time as you post the acquisition cost. For more information, see [Depreciate or Amortize Fixed Assets](fa-how-depreciate-amortize.md).
 
 Indexation is used to adjust values for general price-level changes. The **Index Fixed Assets** batch job can be used to calculate the acquisition costs at replacement costs.
 
@@ -30,7 +30,7 @@ The following procedure describes how to create a fixed asset and then acquire i
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Fixed Assets**, and then choose the related link.  
 2. Choose the **New** action, and then fill in the fields on the **General** FastTab as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. On the **Depreciation Book** FastTab, fill in the fields as necessary. This step assigns a depreciation book to the fixed asset.  
-4. If you need to assign more than one depreciation book to the fixed asset, choose the **Add More Depreciation Books** action. For more information, see the "To assign a depreciation book to a fixed asset" section in [How to: Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md).
+4. If you need to assign more than one depreciation book to the fixed asset, choose the **Add More Depreciation Books** action. For more information, see the "To assign a depreciation book to a fixed asset" section in [Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md).
 
     When all fields required to acquire a fixed asset are filled in, the **You are ready to acquire the fixed asset. Acquire** notification appears at the top of the page.
 5. Choose the **Acquire** action in the notification.
@@ -66,7 +66,7 @@ The following procedure describes how to acquire a fixed asset manually by creat
 4. Choose the **Post** action.  
 
 > [!TIP]  
->   If you fill in the **Insurance No.** field in the fixed asset G/L journal when you post an acquisition cost, then [!INCLUDE[d365fin](includes/d365fin_md.md)] will also post the acquisition cost of the fixed asset to the insurance coverage ledger. For more information, see [How to: Insure Fixed Assets](fa-how-insure.md).
+>   If you fill in the **Insurance No.** field in the fixed asset G/L journal when you post an acquisition cost, then [!INCLUDE[d365fin](includes/d365fin_md.md)] will also post the acquisition cost of the fixed asset to the insurance coverage ledger. For more information, see [Insure Fixed Assets](fa-how-insure.md).
 
 ## To cancel an acquisition cost posting for one fixed asset
 If you make an error when posting an acquisition cost, you can remove the entry with the **Cancel FA Entries** batch job and then post the correct acquisition entry. The erroneous entries are transferred to the **FA Error Ledger Entries** window.

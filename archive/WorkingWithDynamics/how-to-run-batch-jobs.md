@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Run Batch Jobs
+# Run Batch Jobs
 A batch job is a routine that processes data in batches, for example the **Adjust Exchange Rates** batch job. There are batch jobs that perform periodic accounting activities, such as closing the income statement at the end of a fiscal year and reporting Intrastat information. Many batch jobs do calculation work, such as calculation of finance charges, exchange rate adjustment, and calculation of unit prices.  
   
  A batch job is like a report, except the batch job uses the result of its work to update information directly, instead of printing the results.  
@@ -41,5 +41,5 @@ A batch job is a routine that processes data in batches, for example the **Adjus
 4.  Choose the **OK** button to start the batch job. If you do not want to run the batch job now, choose the **Cancel** button to close the window.  
   
 ## See Also  
- [How to: Set Filters](../FullExperience/how-to-set-filters.md)   
+ [Set Filters](../FullExperience/how-to-set-filters.md)   
  [Enter Criteria in Filters](../FullExperience/enter-criteria-in-filters.md)

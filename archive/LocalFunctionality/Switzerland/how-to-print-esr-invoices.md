@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Print ESR Invoices
+# Print ESR Invoices
 You can print an Einzahlungsschein mit Referenznummer (ESR) payment slip in the following ways:  
 
 - As part of the sales invoice ESR.  
@@ -47,4 +47,4 @@ You can also reprint the sales invoice ESR report or sales ESR coupon report.
 
 ## See Also  
  [Swiss Electronic Payments Using ESR](swiss-electronic-payments-using-esr.md)   
- [How to: Import ESR Payments](how-to-import-esr-payments.md)
+ [Import ESR Payments](how-to-import-esr-payments.md)

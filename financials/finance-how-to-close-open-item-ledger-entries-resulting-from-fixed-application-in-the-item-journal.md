@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal
+# Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal
 You can use the **Applies-from Entry** field in the **Item Journal** window to create a fixed application between an inbound transaction and the original outbound transaction. For example, to correct the outbound transaction or to process its return. For more information, see Applies-from Entry.  
 
 > [!IMPORTANT]  
@@ -31,8 +31,8 @@ The following procedure shows how to close such entries by performing two correc
 2.  Use the **Applies-to Entry** field to post a negative adjustment. This closes the original corrective positive entry with a fixed application.  
 
 ## See Also  
-[ How to: Remove and Reapply Item Ledger Entries](finance-how-to-remove-and-reapply-item-entries.md)  
- [How to: Process Sales Returns and Cancellations](sales-how-process-sales-returns-cancellations.md)   
+[ Remove and Reapply Item Ledger Entries](finance-how-to-remove-and-reapply-item-entries.md)  
+ [Process Sales Returns and Cancellations](sales-how-process-sales-returns-cancellations.md)   
  [Setting Up Inventory Valuation and Costing](finance-set-up-inventory-valuation-and-costing.md)   
  [Managing Inventory Costs](finance-manage-inventory-costs.md)   
  [Design Details: Costing Methods](design-details-costing-methods.md)

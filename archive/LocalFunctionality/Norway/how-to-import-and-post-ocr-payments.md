@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Import and Post OCR Payments
+# Import and Post OCR Payments
 Before you can receive optical character recognition (OCR) payments, you must make the following preparations:  
 
 - Set up a cash receipt journal template to balance OCR transactions according to the document number, instead of the document type.  
@@ -48,7 +48,7 @@ The OCR payment files are posted to the cash receipt journal.
 
 ## See Also  
  [Electronic Banking in Norway](electronic-banking-in-norway.md)   
- [How to: Set Up KID Numbers on Sales Documents](how-to-set-up-kid-numbers-on-sales-documents.md)   
- [How to: Set Up OCR Payments](how-to-set-up-ocr-payments.md)   
- [How to: Work With General Journals](../../ui-work-general-journals.md)   
- [How to: Print the OCR Journal - Test Report](how-to-print-the-ocr-journal-test-report.md)
+ [Set Up KID Numbers on Sales Documents](how-to-set-up-kid-numbers-on-sales-documents.md)   
+ [Set Up OCR Payments](how-to-set-up-ocr-payments.md)   
+ [Work With General Journals](../../ui-work-general-journals.md)   
+ [Print the OCR Journal - Test Report](how-to-print-the-ocr-journal-test-report.md)

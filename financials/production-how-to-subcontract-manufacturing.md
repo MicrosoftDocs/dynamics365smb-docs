@@ -13,7 +13,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Subcontract Manufacturing
+# Subcontract Manufacturing
 Subcontracting selected operations to vendor is common in many manufacturing companies. Subcontracting can be a rare occurrence or can be an integral part of all production processes.
 
 The program provides several tools for managing subcontract work:  
@@ -37,12 +37,12 @@ Subcontract work centers can be used for operations on routings in the same way 
 
 You can set up a routing that uses an outside work center as a standard operational step. Alternatively, you can modify the routing for a particular production order to include an outside operation. This might be needed in an emergency such as a server not working correctly, or during a temporary period of higher demand, where the work generally performed in-house must be sent to a subcontractor.  
 
-For more information, see [How to: Create Routings](production-how-to-create-routings.md).  
+For more information, see [Create Routings](production-how-to-create-routings.md).  
 
 ## Subcontracting Worksheet  
 Once you have calculated the subcontracting worksheet, the relevant document, in this case a purchase order, is created.  
 
-# How to: Calculate Subcontracting Worksheets and Create Subcontract Purchase Orders
+# Calculate Subcontracting Worksheets and Create Subcontract Purchase Orders
 The **Subcontracting Worksheet** window functions like the **Planning Worksheet** by calculating the needed supply, in this case purchase orders, which you review in the worksheet and then create with the **Carry Out Action Message** function.  
 
 > [!NOTE]  

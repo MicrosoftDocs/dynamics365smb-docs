@@ -28,13 +28,13 @@ The following table describes a sequence of tasks, with links to the topics that
 
 | To | See |
 | --- | --- |
-| Provide information about a contact person. |[How to: Create Contact Persons](marketing-how-create-contact-persons.md) |
-| Set up an alternate address for a contact. |[How to: Assign Alternative Addresses](marketing-how-assign-alternate-address.md) |
-| Describe the business relationship of a company contact. |[How to: Set Up Job Responsibilities on Contacts](marketing-job-responsibilities.md) |
-| Describe the organizational level of your contacts. |[How to: Set Up Organizational Levels for Contact Persons](marketing-organizational-levels.md) |
+| Provide information about a contact person. |[Create Contact Persons](marketing-how-create-contact-persons.md) |
+| Set up an alternate address for a contact. |[Assign Alternative Addresses](marketing-how-assign-alternate-address.md) |
+| Describe the business relationship of a company contact. |[Set Up Job Responsibilities on Contacts](marketing-job-responsibilities.md) |
+| Describe the organizational level of your contacts. |[Set Up Organizational Levels for Contact Persons](marketing-organizational-levels.md) |
 | Assign mailing groups your contacts |[Assigning Mailing Groups to a Contact](marketing-mailing-groups.md) |
 
 ## See Also
 [Creating Contact Companies](marketing-create-contact-companies.md)  
 [Creating and Managing Contacts]()  
-[Working with Dynamics 365, Business edition](ui-work-product.md)
+[Working with Finance and Operations, Business edition](ui-work-product.md)

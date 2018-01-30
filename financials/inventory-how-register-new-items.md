@@ -14,14 +14,14 @@ ms.date: 08/31/2017
 ms.author: sgroespe
 
 ---
-# How to: Register New Items
+# Register New Items
 Items, among other products, are the basis of your business, the goods or services that you trade in. Each item must be registered as an item card.
 
 Item cards hold the information that is required to buy, store, sell, deliver, and account for items.
 
-The item card can be of type **Inventory** or **Service** to specify if the item is a physical unit or a labor time unit. Apart from some fields that relate to the physical aspects of an item, all fields on an item card function in the same way for inventory items and services. For more information about selling an item, see [How to: Sell Products](sales-how-sell-products.md) or [How to: Invoice Sales](sales-how-invoice-sales.md).
+The item card can be of type **Inventory** or **Service** to specify if the item is a physical unit or a labor time unit. Apart from some fields that relate to the physical aspects of an item, all fields on an item card function in the same way for inventory items and services. For more information about selling an item, see [Sell Products](sales-how-sell-products.md) or [Invoice Sales](sales-how-invoice-sales.md).
 
-An item can be structured as a parent item with underlying child items in a bill of materials (BOM). In [!INCLUDE[d365fin](includes/d365fin_md.md)], a bill of material can be either an assembly BOM or a production BOM, depending on its use. For more information, see [How to: Work with Bills of Material](inventory-how-work-BOMs.md).
+An item can be structured as a parent item with underlying child items in a bill of materials (BOM). In [!INCLUDE[d365fin](includes/d365fin_md.md)], a bill of material can be either an assembly BOM or a production BOM, depending on its use. For more information, see [Work with Bills of Material](inventory-how-work-BOMs.md).
 
 > [!NOTE]  
 >   If item templates exist for different item types, then a window appears when you create a new item card from where you can select an appropriate template. If only one item template exists, then new item cards always use that template.

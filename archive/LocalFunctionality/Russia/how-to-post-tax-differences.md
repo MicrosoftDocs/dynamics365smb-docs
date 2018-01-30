@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Post Tax Differences
+# Post Tax Differences
 The **Tax Difference Journal** is used to create and post tax difference transactions. Tax differences are variations in tax amounts caused by the different rules for recognizing income and expenses between entries for book accounting and tax accounting.  
 
 You can use the **Tax Difference Journal** window to manually create tax difference journal entries or you can modify existing entries created by periodic tax difference calculation activities. When you post the **Tax Difference Journal** window, tax differences entries are posted to the selected posting groups.  
@@ -66,4 +66,4 @@ You can use the **Tax Difference Journal** window to manually create tax differe
  [Tax Accounting](tax-accounting.md)   
  [Tax Reports](assetId:///e42ca8e7-1cee-4fb8-9f71-e596f29cabc3)   
  [Tax Registers](tax-registers.md)   
- [How to: Create Tax Registers](how-to-create-tax-registers.md)
+ [Create Tax Registers](how-to-create-tax-registers.md)

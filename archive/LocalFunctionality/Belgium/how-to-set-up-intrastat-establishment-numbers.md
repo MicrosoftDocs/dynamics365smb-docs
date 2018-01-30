@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Intrastat Establishment Numbers
+# Set Up Intrastat Establishment Numbers
 The Intrastat establishment number is a company identification number that is printed on the Intrastat declaration.  
 
 ## To set up an Intrastat establishment number  
@@ -27,7 +27,7 @@ The Intrastat establishment number is a company identification number that is pr
   
 ## See Also  
  [Belgian Intrastat Reporting](belgian-intrastat-reporting.md)   
- [How to: Set Up Declaration Types](how-to-set-up-declaration-types.md)   
- [How to: Set Up Belgian Tariff Numbers](how-to-set-up-belgian-tariff-numbers.md)   
- [How to: Export Intrastat Third-Party Declararations](how-to-export-intrastat-third-party-declararations.md)   
- [How to: Print the Intrastat Form Report](how-to-print-the-intrastat-form-report.md)
+ [Set Up Declaration Types](how-to-set-up-declaration-types.md)   
+ [Set Up Belgian Tariff Numbers](how-to-set-up-belgian-tariff-numbers.md)   
+ [Export Intrastat Third-Party Declararations](how-to-export-intrastat-third-party-declararations.md)   
+ [Print the Intrastat Form Report](how-to-print-the-intrastat-form-report.md)

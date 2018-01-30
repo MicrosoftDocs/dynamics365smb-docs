@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Create Check Installments
+# Create Check Installments
 You can create check installments for post-dated checks. You can define the number of installments that a payment will be divided into, the percent of interest, and the period in which the checks will be created.  
 
 ## To create a check installment  

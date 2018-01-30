@@ -165,12 +165,11 @@ If you have set up the automatic cost adjustment to apply to postings that occur
 If you have set up the automatic cost adjustment to apply to postings that occur within a day or a week from the current work date, then the automatic cost adjustment does not run, and the cost of the purchase is not forwarded to the sale until you run the **Adjust Cost - Item Entries** batch job.  
 
 ## See Also
-[How to: Adjust Item Costs](inventory-how-adjust-item-costs.md)  
-[Design Details: Posting Date on Adjustment Value Entry](design-details-inventory-adjustment-value-entry-posting-date.md)  
-[Design Details: Inventory Costing](design-details-inventory-costing.md)  
-[Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md)  
-[Design Details: Inventory Posting](design-details-inventory-posting.md)  
-[Design Details: Variance](design-details-variance.md)  
+[Adjust Item Costs](inventory-how-adjust-item-costs.md)   
+[Design Details: Inventory Costing](design-details-inventory-costing.md)   
+[Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md)   
+[Design Details: Inventory Posting](design-details-inventory-posting.md)   
+[Design Details: Variance](design-details-variance.md)   
 [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)   
 [Design Details: Production Order Posting](design-details-production-order-posting.md)  
 [Managing Inventory Costs](finance-manage-inventory-costs.md)  

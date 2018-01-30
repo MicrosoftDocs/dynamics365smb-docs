@@ -15,7 +15,7 @@
     ms.author: bholtorf
 
 ---
-# How to: Set Up a Loaner Program
+# Set Up a Loaner Program
 Sometimes you must provide a customer a loaner item for use when your customer service team makes a repair. In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can set up a loaner program, loan items to your customers, and track receipts when customers return the items. Additionally, you can add comments about loaners in one of two ways:  
   
 * Enter a note or comment about the loaner itself.  
@@ -29,7 +29,7 @@ Sometimes you must provide a customer a loaner item for use when your customer s
 5. In the **Unit of Measure Code** field, choose the relevant unit of measure.  
   
 ## See Also
-[How to: Lend and Receive Loaners](service-how-to-lend-receive-loaners.md)  
+[Lend and Receive Loaners](service-how-to-lend-receive-loaners.md)  
 [Setting Up Service Management](service-setup-service.md)  
 [Delivering Service](service-deliver-service.md)  
 

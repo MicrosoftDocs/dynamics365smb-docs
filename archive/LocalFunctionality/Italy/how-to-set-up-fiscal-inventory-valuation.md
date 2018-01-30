@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Fiscal Inventory Valuation
+# Set Up Fiscal Inventory Valuation
 To use fiscal inventory valuation, you must set up inventory valuation methods.  
 
 ## To set up fiscal inventory valuation for item costing  

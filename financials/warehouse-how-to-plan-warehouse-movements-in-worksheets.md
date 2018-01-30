@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Plan Warehouse Movements in Worksheets
+# Plan Warehouse Movements in Worksheets
 Plan movements in the worksheet using a bin replenishment function or manually planning the lines that you want to create as movement instructions.  
 
 ## To calculate a replenishment movement  

@@ -41,5 +41,5 @@ If you do not specify a requested delivery date on the sales order line, or if t
 
 ## See Also  
  [Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)   
- [How to: Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)  
+ [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

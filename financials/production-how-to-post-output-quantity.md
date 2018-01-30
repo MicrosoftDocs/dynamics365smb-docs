@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Batch Post Output and Run Times
+# Batch Post Output and Run Times
 The output quantity represents the work progress in the form of the finished quantity.  
 
 > [!NOTE]
@@ -26,7 +26,7 @@ The output quantity represents the work progress in the form of the finished qua
 2. Fill in the fields with the production order data and the output data. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. If the operation has been completed, select the **Finished** field.  
 
-    If the warehouse location where the items should be put away uses bins but does not require put-away processing,  assign a bin code to the journal line to specify where the items should be placed in the warehouse. For more information, see [How to: Put Away Production or Assembly Output](warehouse-how-to-put-away-production-output.md).  
+    If the warehouse location where the items should be put away uses bins but does not require put-away processing,  assign a bin code to the journal line to specify where the items should be placed in the warehouse. For more information, see [Put Away Production or Assembly Output](warehouse-how-to-put-away-production-output.md).  
 
 4. Choose the **Post** acto post the operations. The output quantity will be posted. The item is now available for shipping.  
 

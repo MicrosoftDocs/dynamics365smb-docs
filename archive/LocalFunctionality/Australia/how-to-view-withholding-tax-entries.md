@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: View Withholding Tax Entries
+# View Withholding Tax Entries
 You can view entries that have been posted with withholding tax (WHT) for a specified general ledger register.  
 
 In the **WHT Entry** window, you can view details about the withholding tax, such as the base amount, the calculated WHT amount, the WHT calculation method, and the unrealized WHT amount.  
@@ -30,6 +30,6 @@ You can view the posted WHT entries in the **WHT Entry** window.
 
 ## See Also  
  [Withholding Tax](withholding-tax.md)   
- [How to: Set Up Revenue Types for Withholding Tax](how-to-set-up-revenue-types-for-withholding-tax.md)   
- [How to: Set Up Withholding Tax](how-to-set-up-withholding-tax.md)   
- [How to: Calculate and Post Withholding Tax Settlements](how-to-calculate-and-post-withholding-tax-settlements.md)
+ [Set Up Revenue Types for Withholding Tax](how-to-set-up-revenue-types-for-withholding-tax.md)   
+ [Set Up Withholding Tax](how-to-set-up-withholding-tax.md)   
+ [Calculate and Post Withholding Tax Settlements](how-to-calculate-and-post-withholding-tax-settlements.md)

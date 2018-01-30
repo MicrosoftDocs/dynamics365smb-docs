@@ -15,7 +15,7 @@ ms.date: 07/04/2017
 ms.author: sgroespe
 
 ---
-# How to: Monitor Job Progress and Performance
+# Monitor Job Progress and Performance
 As a job progresses, materials, resources, and other expenses are consumed and must be posted to the job. Work in Process (WIP) is a feature that enables you to estimate the financial value of jobs in the general ledger while the jobs are ongoing. In many cases, you might post expenses for a job before invoicing a job. When only expenses have been posted, your financial statement will be inaccurate. For more information, see [Understanding WIP Methods](projects-understanding-wip.md).
 
 To track the value in the general ledger, you can calculate WIP and post the value to the general ledger.
@@ -46,7 +46,7 @@ You can create a job WIP method that reflects the needs of your organization. Af
 When you create a new job, you must specify which job WIP method that applies. In some cases, which Job WIP method that you can use has been set up for you as a default.
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.
-2. Choose the **New** action. For more information, see [How to: Create Jobs](projects-how-create-jobs.md).  
+2. Choose the **New** action. For more information, see [Create Jobs](projects-how-create-jobs.md).  
 3. In the **Job Card** window, in the **WIP Method** field, select a WIP method from the list. If a default method has been defined, you can select another option if needed.  
 
 ## To calculate WIP

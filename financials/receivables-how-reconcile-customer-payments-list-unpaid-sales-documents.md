@@ -14,7 +14,7 @@ ms.date: 09/08/2017
 ms.author: sgroespe
 
 ---
-# How to: Reconcile Customer Payments Manually From a List of Unpaid Sales Documents
+# Reconcile Customer Payments Manually From a List of Unpaid Sales Documents
 When your customers have made payments to your electronic bank account, you must apply each amount paid to the related sales document and then post the payment to update the customer, general ledger, and bank ledger entries.
 
 > [!NOTE]  
@@ -172,7 +172,7 @@ Proceed to record an undocumented payment.
 1. Choose the **General Journal** action.  
 
     The **General Journal** window opens with one line prefilled with the balancing account of the journal batch that is set up in the **Payment Registration Setup** window.  
-2. Fill in the remaining fields on the general journal line, such as the amount and the customer number or other information from the bank statement. For more information, see [How to: Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md).  
+2. Fill in the remaining fields on the general journal line, such as the amount and the customer number or other information from the bank statement. For more information, see [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md).  
 
 You can either post the journal line to update the total on the balancing account. Alternatively, you can leave the journal line unposted, and perhaps append it with a note that the payment needs more analysis.  
 

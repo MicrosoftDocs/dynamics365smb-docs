@@ -15,12 +15,12 @@ ms.date: 08/03/2017
 ms.author: sgroespe
 
 ---
-# How to: Reverse Postings
+# Reverse Postings
 To undo an erroneous journal posting, you select the entry and create a reverse entry (entries identical to the original entry but with opposite sign in the amount field) with the same document number and posting date as the original entry. After reversing an entry, you must make the correct entry.
 
 You can only reverse entries that are posted from a general journal line. An entry can only be reversed once.
 
-For more information about posting from a general journal, see [How to: Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md).
+For more information about posting from a general journal, see [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md).
 
 If you have made an incorrect negative quantity posting, such as a purchase order with the wrong number of items and posted it as received but not invoiced, then you can undo the posting.
 
@@ -64,7 +64,7 @@ You can reverse entries from all **Ledger Entries** windows. The following proce
 8.  Correct the entry in the **Quantity** field and post the purchase return order again.  
 
 ## See Also
-[How to: Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)  
+[Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)  
 [Working with General Journals](ui-work-general-journals.md)  
 [Finance](finance.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

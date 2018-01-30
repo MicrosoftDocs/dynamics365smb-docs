@@ -28,4 +28,4 @@ In order to communicate electronically using Digipoort with the Dutch government
 You will have to import the certificates that you receive into the Windows Certificate store. This is a change from prior releases, in which you stored your certificates in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## See Also  
-[How to: Set Up Certificates for use with Digipoort](how-to-set-up-certificates-for-use-with-digipoort.md)
+[Set Up Certificates for use with Digipoort](how-to-set-up-certificates-for-use-with-digipoort.md)

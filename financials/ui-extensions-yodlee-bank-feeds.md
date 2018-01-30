@@ -27,7 +27,7 @@ The Envestnet Yodlee Bank Feeds service provides the following benefits:
 * Supports manual as well as automatic bank feeds.
 * Enables outsourcing of payment reconciliation to an accountant by providing access to bank statements.
 
-For more information, see [How to: Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md).
+For more information, see [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md).
 
 ## See Also
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions ](ui-extensions.md)    

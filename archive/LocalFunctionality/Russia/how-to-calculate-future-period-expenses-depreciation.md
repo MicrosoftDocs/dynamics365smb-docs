@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Calculate Future Period Expenses Depreciation
+# Calculate Future Period Expenses Depreciation
 The following procedure shows how to calculate future period expenses depreciation.  
 
 ## To calculate future period expenses depreciation  
@@ -28,8 +28,8 @@ The following procedure shows how to calculate future period expenses depreciati
 5.  Post the created lines with the calculated depreciation amounts.  
 
 ## See Also  
- [How to: Set Up a Future Expense Card](how-to-set-up-a-future-expense-card.md)   
+ [Set Up a Future Expense Card](how-to-set-up-a-future-expense-card.md)   
  [Future Expenses (Deferrals)](future-expenses-deferrals-.md)   
- [How to: Create Future Expense Journals](how-to-create-future-expense-journals.md)   
- [How to: Set Up Future Expenses in a Depreciation Book](how-to-set-up-future-expenses-in-a-depreciation-book.md)   
- [How to: Create and Post a Purchase Invoice on a Future Expense](how-to-create-and-post-a-purchase-invoice-on-a-future-expense.md)
+ [Create Future Expense Journals](how-to-create-future-expense-journals.md)   
+ [Set Up Future Expenses in a Depreciation Book](how-to-set-up-future-expenses-in-a-depreciation-book.md)   
+ [Create and Post a Purchase Invoice on a Future Expense](how-to-create-and-post-a-purchase-invoice-on-a-future-expense.md)

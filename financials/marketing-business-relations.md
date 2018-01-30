@@ -1,6 +1,6 @@
 ---
 title: Define Business Relation Codes on Contacts| Microsoft Docs
-description: Use business relations in Dynamics 365, Business edition to help with marketing and to indicate the business relationship you have with your  prospects, clients, and customers, for example, a bank or service supplier.
+description: Use business relations in Finance and Operations, Business edition to help with marketing and to indicate the business relationship you have with your  prospects, clients, and customers, for example, a bank or service supplier.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -42,7 +42,7 @@ Repeat these steps to assign as many business relations as you want. You can als
 
 The number of business relations you have assigned to the contact is displayed in the **No. of Business Relations** field in the **Segmentation** section in the **Contact** window.
 
-After you have assigned business relations to your contacts, you can use this information to select contacts for your segments. For more information, see [How to: Add Contacts to Segments](marketing-add-contact-segment.md).
+After you have assigned business relations to your contacts, you can use this information to select contacts for your segments. For more information, see [Add Contacts to Segments](marketing-add-contact-segment.md).
 
 ## See Also
 [Creating Contact Companies](marketing-create-contact-companies.md)  

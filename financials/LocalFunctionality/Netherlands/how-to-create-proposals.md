@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Create Proposals
+# Create Proposals
 Proposals can be generated manually or automatically based on either vendor or customer ledger entries.  
 
 > [!IMPORTANT]  
@@ -67,7 +67,7 @@ Proposals can be generated manually or automatically based on either vendor or c
 6.  If you want to view or adjust the proposal's detail lines, choose the **Detail Information** action. To return to the proposal, close the **Proposal Detail Line** window.  
 
 ## See Also  
- [How to: Register New Customers](../../sales-how-register-new-customers.md)   
- [How to: Invoice Sales](../../sales-how-invoice-sales.md)   
- [How to: Record Purchases](../../purchasing-how-record-purchases.md)   
- [How to: Create and Export Payment History](how-to-create-and-export-payment-history.md)
+ [Register New Customers](../../sales-how-register-new-customers.md)   
+ [Invoice Sales](../../sales-how-invoice-sales.md)   
+ [Record Purchases](../../purchasing-how-record-purchases.md)   
+ [Create and Export Payment History](how-to-create-and-export-payment-history.md)

@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Calculate Tax Differences
+# Calculate Tax Differences
 Tax differences are variations in tax amounts caused by the different rules for recognizing income and expenses between entries for book accounting and tax accounting.  
 
 ## To calculate tax differences  
@@ -41,5 +41,5 @@ The tax differences for the period are calculated. You can view the tax differen
  [Tax Accounting](tax-accounting.md)   
  [Tax Reports](assetId:///e42ca8e7-1cee-4fb8-9f71-e596f29cabc3)   
  [Tax Registers](tax-registers.md)   
- [How to: Create Tax Registers](how-to-create-tax-registers.md)   
+ [Create Tax Registers](how-to-create-tax-registers.md)   
  [Tax Differences](tax-differences.md)

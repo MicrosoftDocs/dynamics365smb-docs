@@ -2,7 +2,7 @@
     title: How to Edit Document Amounts in Purchase Invoices and Credit Memos
     description: You can easily edit document amounts in purchase invoices and credit memos.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Edit Document Amounts in Purchase Invoices and Credit Memos
+# Edit Document Amounts in Purchase Invoices and Credit Memos
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] lets you easily edit document amounts in purchase invoices and credit memos.  
 
 ## To edit document amounts  
@@ -26,5 +26,5 @@
 3.  The value entered in the **Doc. Amount Incl. VAT** field is divided on the invoice lines according to how it was defined in the standard vendor purchase code scheme in the **Standard Purchase Code** table. Accept the proposal and post the invoice or credit memo.  
 
 ## See Also  
-[How to: Create Recurring Sales and Purchase Lines](../../sales-how-work-standard-lines.md)   
+[Create Recurring Sales and Purchase Lines](../../sales-how-work-standard-lines.md)   
 [Belgium Local Functionality](belgium-local-functionality.md)

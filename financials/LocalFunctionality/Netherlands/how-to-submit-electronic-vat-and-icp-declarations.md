@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Submit Electronic VAT and ICP Declarations
+# Submit Electronic VAT and ICP Declarations
 With the eXtensible Business Reporting Language (XBRL) reporter, you can submit the Intracommunautaire Leveringen (ICP) declaration or the VAT declaration in the required XML format. When it is submitted, the file is sent to the tax authorities as defined in the Elec. Tax Declaration Setup Window.  
 
 The XBRL reporter ensures that all account numbers that are imported from [!INCLUDE[d365fin](../../includes/d365fin_md.md)] are mapped to the XBRL elements in a report. The XBRL reporter also displays a list of errors of unmapped elements or accounts.  
@@ -43,4 +43,4 @@ To submit electronic VAT and ICP declarations to the tax authorities, you can us
 The electronic declaration is submitted to the tax authorities.  
 
 ## See Also  
-[How to: Create Reports with XBRL](../../bi-create-reports-with-xbrl.md)
+[Create Reports with XBRL](../../bi-create-reports-with-xbrl.md)

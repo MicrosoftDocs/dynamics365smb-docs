@@ -15,7 +15,7 @@ ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---
-# How to: Set Up Fixed Asset Depreciation
+# Set Up Fixed Asset Depreciation
  You can use various methods of depreciation for preparing financial statements and income tax returns. Many large corporations use straight-line depreciation in their financial statements because this generally permits reporting higher earnings. For income tax purposes, however, many businesses use an accelerated depreciation method. For more information, see [Depreciation Methods](fa-depreciation-methods.md).
 
  When you have created the relevant depreciation books, you must assign one or more depreciation books to each fixed asset. A depreciation book that is assigned to a fixed asset is referred to as a fixed asset depreciation book. Accordingly, the window for assigned depreciation books is called **FA Depreciation Books**.

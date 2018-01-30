@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Define Tax Registers
+# Define Tax Registers
 Tax registers are used to track and manage taxable profits and losses in accordance with Russian tax accounting principles. You can use the **Tax Register Card** window to define how tax registers calculate taxable profits and losses and record the results.  
 
 ## To define tax registers  
@@ -59,5 +59,5 @@ Tax registers are used to track and manage taxable profits and losses in accorda
 ## See Also  
  [Tax Accounting](tax-accounting.md)   
   [Tax Registers](tax-registers.md)   
- [How to: Create Tax Registers](how-to-create-tax-registers.md)   
+ [Create Tax Registers](how-to-create-tax-registers.md)   
  [Tax Differences](tax-differences.md)

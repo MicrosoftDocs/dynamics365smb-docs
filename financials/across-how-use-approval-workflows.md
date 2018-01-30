@@ -10,11 +10,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 08/24/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 
 ---
-# How to: Use Approval Workflows
+# Use Approval Workflows
 When a record, such as a purchase document or a customer card, needs to be approved by someone in your organization, you send an approval request as part of a workflow. Based on how the workflow is set up, the appropriate approver is then notified that the record requires their approval.
 
 You set up approval workflows in the **Workflow** window. For more information, see [Setting Up Workflows](across-set-up-workflows.md).

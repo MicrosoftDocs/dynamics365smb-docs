@@ -1,8 +1,8 @@
 ---
     title: How to Block Inventory Items for Sales or Purchases
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], an item can be marked as blocked for sales, blocked for purchase, or blocked for all purposes.
+    description: In Finance and Operations, Business edition, an item can be marked as blocked for sales, blocked for purchase, or blocked for all purposes.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Block Inventory Items for Sales or Purchases
+# Block Inventory Items for Sales or Purchases
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], an item can be marked as blocked for sales, blocked for purchase, or blocked for all purposes.  
 
 The following table illustrates what occurs when items are blocked.  
@@ -49,6 +49,6 @@ You will receive an error message if you try to do the following:
 
 ## See Also  
  [Swiss Inventory Management](swiss-inventory-management.md)   
- [How to: Block Shipment for Negative Inventory](how-to-block-shipment-for-negative-inventory.md)   
- [How to: Copy Existing Items to New Items](how-to-copy-existing-items-to-new-items.md)   
- [How to: Deactivate Item Cost Tracking](how-to-deactivate-item-cost-tracking.md)
+ [Block Shipment for Negative Inventory](how-to-block-shipment-for-negative-inventory.md)   
+ [Copy Existing Items to New Items](how-to-copy-existing-items-to-new-items.md)   
+ [Deactivate Item Cost Tracking](how-to-deactivate-item-cost-tracking.md)

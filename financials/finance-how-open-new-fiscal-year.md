@@ -13,7 +13,7 @@ ms.date: 07/17/2017
 ms.author: edupont
 
 ---
-# How to: Open a New Fiscal Year and Create Accounting Periods
+# Open a New Fiscal Year and Create Accounting Periods
 Before you can post in a fiscal year, you must open the fiscal year and define its accounting periods.  
 
 For many companies, the fiscal year does not coincide with the calendar year. Fiscal periods can be measured in other units of time, such as months or quarters. You can use the **Create Fiscal Year** window to set up the accounting periods that suit your business needs. However,   
@@ -30,7 +30,7 @@ The accounting periods are added to the page with the **Starting Date** and **Na
 
 
 ## See Also
-[How to: Specify Posting Periods](finance-how-specify-posting-periods.md)  
-[How to: Post the Year-End Closing Entry](year-how-post-year-end-close-entry.md)  
+[Specify Posting Periods](finance-how-specify-posting-periods.md)  
+[Post the Year-End Closing Entry](year-how-post-year-end-close-entry.md)  
 [Finance](finance.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

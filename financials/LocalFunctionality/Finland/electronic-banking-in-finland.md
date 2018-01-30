@@ -1,6 +1,6 @@
 ---
     title: Electronic Banking in Finland
-    description: The Dynamics 365, Business edition electronic banking feature allows you to process electronic customer and vendor payments. This feature supports domestic payments (LM03) and foreign payments (LUM2) for transferring electronic bank payments. To export or import electronic payments, you must first set up bank reference files to determine how payment files are processed.
+    description: The Finance and Operations, Business edition electronic banking feature allows you to process electronic customer and vendor payments. This feature supports domestic payments (LM03) and foreign payments (LUM2) for transferring electronic bank payments. To export or import electronic payments, you must first set up bank reference files to determine how payment files are processed.
 
     services: project-madeira
     documentationcenter: ''
@@ -42,6 +42,6 @@ To send electronic bank payments to vendors, you can export domestic or foreign 
 
 ## See Also  
  [Finland Local Functionality](finland-local-functionality.md)   
- [How to: Set Up Bank Reference Files](how-to-set-up-bank-reference-files.md)   
- [How to: Generate Payment Files](how-to-generate-payment-files.md)   
- [How to: Disregard Payment Discounts](how-to-disregard-payment-discounts.md)   
+ [Set Up Bank Reference Files](how-to-set-up-bank-reference-files.md)   
+ [Generate Payment Files](how-to-generate-payment-files.md)   
+ [Disregard Payment Discounts](how-to-disregard-payment-discounts.md)   

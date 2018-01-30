@@ -1,8 +1,8 @@
 ---
     title: How to Set Up Tax Accounting
-    description: Tax accounting lets you apply rules for recognizing income and expenses that follow your local tax laws. You can activate tax accounting features in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] by setting up tax registers.
+    description: Tax accounting lets you apply rules for recognizing income and expenses that follow your local tax laws. You can activate tax accounting features in Finance and Operations, Business edition by setting up tax registers.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Tax Accounting
+# Set Up Tax Accounting
 Tax accounting lets you apply rules for recognizing income and expenses that follow your local tax laws. You can activate tax accounting features in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] by setting up tax registers.  
 
 ## To activate tax accounting  
@@ -42,11 +42,11 @@ Tax accounting lets you apply rules for recognizing income and expenses that fol
 5.  Select the **Create Data for Printing Forms** check box to enable detailed tax register entry information to be printed on reports and forms.  
 6.  Choose the **Close** button to close the window and save your entries.  
 
-For more information about how to set up and customize tax registers, see [How to: Create Tax Registers](how-to-create-tax-registers.md).  
+For more information about how to set up and customize tax registers, see [Create Tax Registers](how-to-create-tax-registers.md).  
 
 ## See Also  
  [Tax Accounting](tax-accounting.md)   
  [Tax Reports](assetId:///e42ca8e7-1cee-4fb8-9f71-e596f29cabc3)   
  [Tax Registers](tax-registers.md)   
- [How to: Create Tax Registers](how-to-create-tax-registers.md)   
+ [Create Tax Registers](how-to-create-tax-registers.md)   
  [Tax Differences](tax-differences.md)

@@ -42,5 +42,5 @@ If you change the order date on the header, then that date is copied to the **Or
 
 ## See Also  
  [Date Calculation for Sales](sales-date-calculation-for-sales.md)   
- [How to: Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)  
+ [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

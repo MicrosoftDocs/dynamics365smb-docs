@@ -12,7 +12,7 @@ ms.date: 07/17/2017
 ms.author: edupont
 
 ---
-# How to: Define Accounting Periods for Straight-Line Depreciation of Fixed Assets
+# Define Accounting Periods for Straight-Line Depreciation of Fixed Assets
 You can define 13 accounting periods to calculate straight line depreciation. You must calculate depreciation daily and distribute across the relevant periods. You can also define these accounting periods in the **FA - Projected Value** report.  
 
 > [!NOTE]  
@@ -33,4 +33,4 @@ You can define 13 accounting periods to calculate straight line depreciation. Yo
 
 ## See Also  
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)   
-[How to: Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md)  
+[Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md)  

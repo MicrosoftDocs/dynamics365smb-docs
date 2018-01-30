@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Delete Invoiced Service Orders
+# Delete Invoiced Service Orders
 Orders are usually deleted automatically after having been fully invoiced. When an invoice is posted, a corresponding entry is created in the **Posted Service Invoices** window. The posted document can be viewed in the **Posted Service Invoice** window.  
   
  Service orders are not deleted automatically, however, if the total quantity on the order has been posted not from the service order itself, but from the **Service Invoice** window. Then you may need to delete invoiced orders that were not deleted. You can do this by running the **Delete Invoiced Service Orders** batch job.  
@@ -29,4 +29,4 @@ Orders are usually deleted automatically after having been fully invoiced. When 
 3.  Choose the **OK** button.  
   
 ## See Also  
- [How to: View Additional Information About Posted Service Documents](../how-to-view-additional-information-about-posted-service-documents.md)
+ [View Additional Information About Posted Service Documents](../how-to-view-additional-information-about-posted-service-documents.md)

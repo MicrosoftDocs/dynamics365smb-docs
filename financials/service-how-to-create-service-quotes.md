@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Create Service Quotes
+# Create Service Quotes
 You can think of service quotes as the basis for service orders. In fact, they are almost identical. They both contain information such as who the customer is, the type of order, the item that needs service, billing and shipping information, and information about the actual service work.
  
 You can use a service quote as a preliminary draft for a service order, and then convert the quote to a service order.  
@@ -34,7 +34,7 @@ You can use a service quote as a preliminary draft for a service order, and then
 7. Register estimated costs on the service lines.  
   
 ## See Also  
-[How to: Create Service Orders](service-how-to-create-service-orders.md)  
-[How to: Work on Service tasks](service-how-to-work-on-service-tasks.md)  
+[Create Service Orders](service-how-to-create-service-orders.md)  
+[Work on Service tasks](service-how-to-work-on-service-tasks.md)  
 
  

@@ -1,8 +1,8 @@
 ---
     title: How to Print General Ledger Setup Information
-    description: Before you use [!INCLUDE[d365fin](../../includes/d365fin_md.md)] in the daily business, you can run the **G/L Setup Information** report to display the master data that you have set up.
+    description: Before you use Finance and Operations, Business edition in the daily business, you can run the **G/L Setup Information** report to display the master data that you have set up.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Print General Ledger Setup Information
+# Print General Ledger Setup Information
 Before you use [!INCLUDE[d365fin](../../includes/d365fin_md.md)] in the daily business, you can run the **G/L Setup Information** report to display the master data that you have set up. You can look over this master data so that you have a baseline to compare to, and then verify that you have set up posting groups correctly, for example.  
 
 ## To print general ledger setup information  

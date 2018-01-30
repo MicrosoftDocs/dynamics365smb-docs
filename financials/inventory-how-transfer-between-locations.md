@@ -11,11 +11,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: move, warehouse
-ms.date: 06/02/2017
+ms.date: 01/25/2018
 ms.author: SorenGP
 
 ---
-# How to: Transfer Inventory Between Locations
+# Transfer Inventory Between Locations
 You can transfer inventory items between locations by creating transfer orders. Alternatively, you can use the item reclassification journal.
 
 With transfer orders, you ship the outbound transfer from one location and receive the inbound transfer at the other location. This allows you to manage the involved warehouse activities and provides more certainty that inventory quantities are updated correctly.
@@ -25,7 +25,7 @@ With the reclassification journal, you simply fill in the **Location Code** and 
 > [!NOTE]  
 >   If you have items recorded in your inventory without a location code, for example from a time when you only had one warehouse, then you cannot transfer those items using transfer orders. Instead, you must use the reclassification journal to reclassify the items from a blank location code to an actual location code.  For more information, see step 3 in the "To transfer items with the item reclassification journal" section.
 
-To transfer items, locations and transfer routes must be set up. For more information, see [How to: Set Up Locations](inventory-how-setup-locations.md).
+To transfer items, locations and transfer routes must be set up. For more information, see [Set Up Locations](inventory-how-setup-locations.md).
 
 ## To transfer items with a transfer order
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Transfer orders**, and then choose the related link.
@@ -56,7 +56,7 @@ To transfer items, locations and transfer routes must be set up. For more inform
 
 ## See Also
 [Manage Inventory](inventory-manage-inventory.md)  
-[How to: Set Up Locations](inventory-how-setup-locations.md)  
+[Set Up Locations](inventory-how-setup-locations.md)  
 
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)  

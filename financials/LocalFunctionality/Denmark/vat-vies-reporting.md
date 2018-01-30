@@ -23,4 +23,4 @@ Danish companies must submit VAT declarations for trade of goods or services wit
 
 ## See Also  
 [Denmark Local Functionality](denmark-local-functionality.md)  
- [How to: Print VAT Reconciliation Reports](how-to-print-vat-reconciliation-reports.md)    
+ [Print VAT Reconciliation Reports](how-to-print-vat-reconciliation-reports.md)    

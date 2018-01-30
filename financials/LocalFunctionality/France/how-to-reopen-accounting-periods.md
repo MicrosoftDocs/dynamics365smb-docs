@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Reopen Accounting Periods
+# Reopen Accounting Periods
 When a single fiscal period has been fiscally closed it might be necessary to reopen it to post general ledger entries.  
 
 > [!NOTE]  
@@ -34,6 +34,6 @@ When a single fiscal period has been fiscally closed it might be necessary to re
 When the period is reopened, the **Fiscally Closed** field is cleared, and the **Period Reopened Date** field is updated for the period.  
 
 ## See Also  
- [How to: Close Years](how-to-close-years.md)   
- [How to: Fiscally Close Years](how-to-fiscally-close-years.md)   
- [How to: Fiscally Close Accounting Periods](how-to-fiscally-close-accounting-periods.md)
+ [Close Years](how-to-close-years.md)   
+ [Fiscally Close Years](how-to-fiscally-close-years.md)   
+ [Fiscally Close Accounting Periods](how-to-fiscally-close-accounting-periods.md)

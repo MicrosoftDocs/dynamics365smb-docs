@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up VAT Ledgers
+# Set Up VAT Ledgers
 VAT ledgers are used to store details about VAT in transactions that involve goods and services in Russia or goods imported into Russia. You can create and store different kinds of VAT ledgers. For example, you can create VAT ledgers for:  
 
 - Sales to different groups of customers.  
@@ -52,8 +52,8 @@ To use VAT ledgers, you must specify the relevant number series.
 Now, you can create VAT ledgers for purchases and sales.  
 
 ## See Also  
- [How to: Report VAT to Tax Authorities](../../finance-how-report-vat.md)  
- [How to: Register VAT on Purchase Orders](how-to-register-vat-on-purchase-orders.md)   
- [How to: Prepare VAT Entries for Posting](how-to-prepare-vat-entries-for-posting.md)   
- [How to: Create VAT Ledgers](how-to-create-vat-ledgers.md)   
- [How to: Create Additional Sheets](how-to-create-additional-sheets.md)
+ [Report VAT to Tax Authorities](../../finance-how-report-vat.md)  
+ [Register VAT on Purchase Orders](how-to-register-vat-on-purchase-orders.md)   
+ [Prepare VAT Entries for Posting](how-to-prepare-vat-entries-for-posting.md)   
+ [Create VAT Ledgers](how-to-create-vat-ledgers.md)   
+ [Create Additional Sheets](how-to-create-additional-sheets.md)

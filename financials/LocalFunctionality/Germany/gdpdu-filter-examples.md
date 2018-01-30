@@ -79,4 +79,4 @@ In this example, you set multiple filter definitions for the same table.
 - Customers that have Net Change (LCY) <> 0 on the day before the start date.  
 
 ## See Also  
- [How to: Set Up Data Exports for GDPdU](how-to-set-up-data-exports-for-gdpdu.md)
+ [Set Up Data Exports for GDPdU](how-to-set-up-data-exports-for-gdpdu.md)

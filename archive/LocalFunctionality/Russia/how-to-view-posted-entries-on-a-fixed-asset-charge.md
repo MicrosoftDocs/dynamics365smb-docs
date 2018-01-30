@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: View Posted Entries on a Fixed Asset Charge
+# View Posted Entries on a Fixed Asset Charge
 You can view all posted fixed asset entries for each fixed asset charge code. The following procedure shows how to view the posted entries.  
 
 ## To view a posted entry on a fixed asset charge  
@@ -24,4 +24,4 @@ You can view all posted fixed asset entries for each fixed asset charge code. Th
 - Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA Ledger Entries**, and then choose the related link.  
 
 ## See Also  
-[How to: Create a Fixed Asset Charge](how-to-create-a-fixed-asset-charge.md)   
+[Create a Fixed Asset Charge](how-to-create-a-fixed-asset-charge.md)   

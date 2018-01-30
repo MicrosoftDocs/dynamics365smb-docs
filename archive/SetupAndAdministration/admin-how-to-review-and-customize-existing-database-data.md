@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Review and Customize Existing Database Data
+# Review and Customize Existing Database Data
 As you create a configuration package for a solution, you can view and customize the available database data to suit your customer needs. The database table has to have an associated page.  
   
 ### To customize data in the database  
@@ -32,4 +32,4 @@ As you create a configuration package for a solution, you can view and customize
 3.  Review the available information. Modify it as necessary by deleting records that are not relevant or by adding new ones.  
   
 ## See Also  
- [How to: Manage Company Configuration in a Worksheet](../how-to-manage-company-configuration-in-a-worksheet.md)
+ [Manage Company Configuration in a Worksheet](../how-to-manage-company-configuration-in-a-worksheet.md)

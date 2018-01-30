@@ -1,6 +1,7 @@
 ---
     title: General Ledger
-    description: Special general ledger functionality exists for the Dutch version of Dynamics 365, Business edition.
+    description: Special general ledger functionality exists for the Dutch version of Finance and Operations, Business edition.
+
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -19,6 +20,6 @@
 General ledger functionality for the Netherlands is described in the below topics.
 
 ## In This Section
-[How to: How to: Apply Customer Payments Manually](../../receivables-how-apply-sales-transactions-manually.md)  
+[Apply Customer Payments Manually](../../receivables-how-apply-sales-transactions-manually.md)  
 [Required Descriptions in G-L Entry](required-descriptions-in-g-l-entry.md)  
-[How to: Create an Audit File for the Tax Authority](how-to-create-an-audit-file-for-the-tax-authority.md)
+[Create an Audit File for the Tax Authority](how-to-create-an-audit-file-for-the-tax-authority.md)

@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Tax Authority-Fund Cards
+# Set Up Tax Authority-Fund Cards
 The Tax Authority or Fund card enables you to compile a list of different tax authorities.  
 
 The functionality of the Tax Authority or Fund card is the same as that of the Vendor card.  

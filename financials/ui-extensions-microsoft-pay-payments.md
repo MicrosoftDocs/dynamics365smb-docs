@@ -27,7 +27,7 @@ The Microsoft Pay extension provides the following benefits:
 - The Microsoft Pay link can be embedded automatically on every invoice document or by the user.
 - Because this functionality is built as an extension, it gives you full control to enable it when and if your business processes require it.
 
-Enabling payment service extensions is free in [!INCLUDE[d365fin](includes/d365fin_md.md)], however, you will need to contact the payment service to get an account. For more information, see [How to: Enable Customer Payment Through Payment Services](sales-how-enable-payment-service-extensions.md).
+Enabling payment service extensions is free in [!INCLUDE[d365fin](includes/d365fin_md.md)], however, you will need to contact the payment service to get an account. For more information, see [Enable Customer Payment Through Payment Services](sales-how-enable-payment-service-extensions.md).
 
 ## See Also
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  

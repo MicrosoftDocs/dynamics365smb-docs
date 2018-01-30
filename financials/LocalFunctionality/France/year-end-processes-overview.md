@@ -1,6 +1,10 @@
 ---
     title: Year End Processes Overview
+<<<<<<< HEAD:financials/LocalFunctionality/France/year-end-processes-overview.md
     description: Year end closing in Dynamics 365, Business edition involves three steps.
+=======
+    description: Year end closing in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] involves three steps.
+>>>>>>> refs/remotes/origin/master:archive/LocalFunctionality/France/year-end-processes-overview.md
 
     services: project-madeira
     documentationcenter: ''
@@ -19,9 +23,9 @@
 # Year End Processes Overview
 Year end closing in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] involves three steps:  
 
-1.  Closing the fiscal year. For more information, see [How to: Fiscally Close Accounting Periods](how-to-fiscally-close-accounting-periods.md).  
+1.  Closing the fiscal year. For more information, see [Fiscally Close Accounting Periods](how-to-fiscally-close-accounting-periods.md).  
 2.  Generating a year-end closing entry using the **Close Income Statement** option along with the offsetting equity account entries. For more information, see [Posting the year-end closing entry](how-to-post-the-year-end-closing-entry.md).  
-3.  Fiscally closing the fiscal year. For more information, see [How to: Fiscally Close Accounting Periods](how-to-fiscally-close-accounting-periods.md).  
+3.  Fiscally closing the fiscal year. For more information, see [Fiscally Close Accounting Periods](how-to-fiscally-close-accounting-periods.md).  
 
 According to the French law *NF Logiciel compatibilité informatisée* the system has to refuse the creation of a third open fiscal year, so only two open fiscal years are allowed at the same time.  
 

@@ -15,7 +15,7 @@ ms.date: 06/06/2017
 ms.author: jswymer
 
 ---
-# How to: Process Sales Opportunities
+# Process Sales Opportunities
 After you create an opportunity, there are several features for managing the opportunity and moving it through to completion.
 
 ## To view opportunities

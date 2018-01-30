@@ -18,6 +18,8 @@
 # View and Print Reports
 In Finance and Operations, Business edition, there are many predefined reports that you can find in different ways:  
 
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], there are many predefined reports that you can find in different ways:  
+
 -   Some pages contain a **Reports** menu with reports related to the page, and reports may also be accessed from the ribbon.  
 
 -   You can find reports for each department in the **Departments** menu.  

@@ -18,7 +18,9 @@
 # View Notes and Notifications
 Finance and Operations, Business edition enables you and your colleagues to attach notes to records in the application. For example, if your colleague wants to give you extra information about a sales order that is not covered by the fields on the sales order page, they can write a note and send it to you as a notification on your Role Center.  
 
- When you read the notification on your Role Center, you can open the sales order just by double-clicking the note.  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] enables you and your colleagues to attach notes to records in the application. For example, if your colleague wants to give you extra information about a sales order that is not covered by the fields on the sales order page, they can write a note and send it to you as a notification on your Role Center.  
+
+When you read the notification on your Role Center, you can open the sales order just by double-clicking the note.  
 
 ### To open a record from a notification  
 
@@ -45,6 +47,5 @@ Finance and Operations, Business edition enables you and your colleagues to atta
  A window opens to display the full text of the note.  
 
 ## See Also  
- NOTES Write Notes   
  [Create Notes and Notifications](../FullExperience/how-to-create-notes-and-notifications.md)   
  [Delete Notes and Notifications](../FullExperience/how-to-delete-notes-and-notifications.md)

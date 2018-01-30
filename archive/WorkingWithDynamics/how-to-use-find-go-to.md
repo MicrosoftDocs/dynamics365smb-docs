@@ -19,6 +19,8 @@
 # Use Find-Go to
 In Finance and Operations, Business edition you can search in data by using the **Find** mechanism. Find searches on all types of pages that have data, except in chart pages. You specify the field you want to search in and the string you want to search for. Find is also available from the action strip.  
 
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] you can search in data by using the **Find** mechanism. Find searches on all types of pages that have data, except in chart pages. You specify the field you want to search in and the string you want to search for. Find is also available from the action strip.  
+
 > [!IMPORTANT]  
 >  On card pages the same type of Find functionality is also available, but due to the nature of cards, the functionality is named Go to. You use **Find** and **Go to** in the exact same way.  
 

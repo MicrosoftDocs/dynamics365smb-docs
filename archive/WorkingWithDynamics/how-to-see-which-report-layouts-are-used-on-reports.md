@@ -18,6 +18,8 @@
 # See Which Report Layouts are Used on Reports
 You can see which report layouts are used on Finance and Operations, Business edition reports from the **Report Layout Selection** window. From this window, you can change layout that is used on a report, create new custom layouts, or make variations of existing custom layouts.  
 
+You can see which report layouts are used on [!INCLUDE[d365fin](../../includes/d365fin_md.md)] reports from the **Report Layout Selection** window. From this window, you can change layout that is used on a report, create new custom layouts, or make variations of existing custom layouts.  
+
 ### To see the report layouts are set up on reports  
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Report Layout Selection**, and then choose the related link.  

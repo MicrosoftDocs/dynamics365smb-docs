@@ -18,7 +18,7 @@
 # Make Windows Editable
 Finance and Operations, Business edition lets you work with windows in three different modes: View, Edit, and New. The mode appears in the window caption, before the window name. For example, **View - Customer Card - 10000 The Cannon Group PLC**.  
 
- This topic describes how to switch from view mode to edit mode.  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] lets you work with windows in three different modes: View, Edit, and New. The mode appears in the window caption, before the window name. For example, **View - Customer Card - 10000 The Cannon Group PLC**.  
 
 ### To edit a card or document  
 

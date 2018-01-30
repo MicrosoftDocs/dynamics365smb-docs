@@ -18,6 +18,8 @@
 # Send Email Messages
 When Finance and Operations, Business edition is integrated with an email system, you can choose the button on the right side of the **E-Mail** field to open a window in which you can create and send a message.  
 
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] is integrated with an email system, you can choose the button on the right side of the **E-Mail** field to open a window in which you can create and send a message.  
+
 ### To send an email message  
 
 1.  To open a new email message window, use one of the following methods:  

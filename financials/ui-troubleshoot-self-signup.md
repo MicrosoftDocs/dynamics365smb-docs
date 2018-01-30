@@ -1,6 +1,6 @@
 ---
 title: Ways to Troubleshoot or Work Around Issues with Self-Service Sign-Up | Microsoft Docs
-description: Learn about the most common reasons why you may not be able to complete the signup to Dynamics 365 Business edition , and ways to work around them.
+description: Learn about the most common reasons why you may not be able to complete the signup to Finance and Operations, Business edition , and ways to work around them.
 author: SusanneWindfeldPedersen
 
 ms.service: dynamics365-financials
@@ -15,7 +15,7 @@ ms.author: solsen
 # Troubleshooting Self-Service Sign-Up
 Signing up for [!INCLUDE[d365fin](includes/d365fin_md.md)] is easy and can be done very quickly. You can create a free account even if you are an existing organization. This article addresses issues that you may have during signup.
 
-## What email address can I use with Dynamics 365?
+## What email address can I use with Finance and Operations, Business edition?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] requires that you use a work, or school, email address to sign up. [!INCLUDE[d365fin](includes/d365fin_md.md)] does not support email addresses provided by consumer email services or telecommunication providers. This includes outlook.com, hotmail.com, gmail.com, and others.
 
 If you try to sign up with a personal email address, you will get a message indicating to use a work or school email address.

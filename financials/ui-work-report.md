@@ -63,9 +63,9 @@ The saved settings entry called **Last used options and filters** is always avai
 >As an administrator, you can create and manage the saved settings for reports for all users. For more information, see [Managing Saved Settings on Reports](reports-saving-reusing-settings.md).
 
 ## Changing the layout and look of a report
-A report layout controls what is shown on a report, how it is arranged, and how it is styled. If you want to switch to a different layout, see [How to: Change Which Layout is Currently Used on a Report](ui-how-change-layout-currently-used-report.md). Or, if you want to customize your own report layout, see [How to: Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md).
+A report layout controls what is shown on a report, how it is arranged, and how it is styled. If you want to switch to a different layout, see [Change Which Layout is Currently Used on a Report](ui-how-change-layout-currently-used-report.md). Or, if you want to customize your own report layout, see [Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md).
 
 ## See Also
 [Specify Printer Selection for Reports](ui-specify-printer-selection-reports.md)  
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  
-[Working with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

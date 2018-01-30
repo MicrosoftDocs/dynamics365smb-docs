@@ -1,6 +1,6 @@
 ---
     title: Depreciation Methods
-    description: There are three depreciation methods that are unique to Russia that can be used in [!INCLUDE[navnow](../../includes/navnow_md.md)].
+    description: There are three depreciation methods that are unique to Russia that can be used in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
 
     services: project-madeira 
     documentationcenter: ''
@@ -17,7 +17,7 @@
 
 ---
 # Depreciation Methods
-There are three depreciation methods that are unique to Russia that can be used in [!INCLUDE[navnow](../../includes/navnow_md.md)].  
+There are three depreciation methods that are unique to Russia that can be used in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 - Straight-line method **(SL-RU)**  
 - Non-linear method **(DB/SL-RU)**  
@@ -62,4 +62,4 @@ There are three depreciation methods that are unique to Russia that can be used 
 
 ## See Also  
  [Depreciation Bonus](depreciation-bonus.md)   
- [How to: Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md)
+ [Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md)

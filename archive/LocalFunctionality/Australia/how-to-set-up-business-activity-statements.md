@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Business Activity Statements
+# Set Up Business Activity Statements
 You must set up a Business Activity Statement (BAS) to generate a BAS report. BAS setup includes the following:  
 
 -   Goods and Services Tax (GST) posting setup.  
@@ -38,7 +38,7 @@ You must set up a Business Activity Statement (BAS) to generate a BAS report. BA
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**XML Field ID**|The name for the BAS field, as it appears in the XML file.|  
-    |**Field No.**|The internal [!INCLUDE[navnow](../../includes/navnow_md.md)] number that corresponds to the field label number in the XML file.|  
+    |**Field No.**|The internal [!INCLUDE[d365fin](../../includes/d365fin_md.md)] number that corresponds to the field label number in the XML file.|  
     |**Field Label No.**|This value is replicated from the XML file received from the Australian Tax Office (ATO). It refers to the relevant section of the BAS, as described in the BAS instructions from the ATO. **Note:**  The value in this field is updated when you select a value in the **Field No.** field.|  
     |**Field Description**|This is the description for the value in the **Field Label No.** field. **Note:**  The value in this field is updated when you select a value in the **Field No.** field.|  
 
@@ -62,6 +62,6 @@ You must set up a Business Activity Statement (BAS) to generate a BAS report. BA
 
 ## See Also  
  [Business Activity Statements](business-activity-statements.md)   
- [How to: Export Business Activity Statements](how-to-export-business-activity-statements.md)   
- [How to: Calculate Goods and Services Tax on Prepayments](how-to-calculate-goods-and-services-tax-on-prepayments.md)   
- [How to: Print Goods and Services Tax Sales and Purchase Reports](how-to-print-goods-and-services-tax-sales-and-purchase-reports.md)
+ [Export Business Activity Statements](how-to-export-business-activity-statements.md)   
+ [Calculate Goods and Services Tax on Prepayments](how-to-calculate-goods-and-services-tax-on-prepayments.md)   
+ [Print Goods and Services Tax Sales and Purchase Reports](how-to-print-goods-and-services-tax-sales-and-purchase-reports.md)

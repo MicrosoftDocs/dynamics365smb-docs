@@ -15,7 +15,7 @@ ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---
-# How to: Set Up Fixed Asset Insurance
+# Set Up Fixed Asset Insurance
 To manage fixed asset insurance coverage, you must first set up some general insurance information and an insurance card per policy.
 
 ## To set up general insurance information

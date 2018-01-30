@@ -1,6 +1,6 @@
 ---
     title: How to Create Corrective Documents
-    description: In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can create corrective invoices and credit memos to reflect a change in the invoiced amount or quantity.
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create corrective invoices and credit memos to reflect a change in the invoiced amount or quantity.
 
     services: project-madeira 
     documentationcenter: ''
@@ -16,8 +16,8 @@
     ms.author: sgroespe
 
 ---
-# How to: Create Corrective Documents
-In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can create corrective invoices and credit memos to reflect a change in the invoiced amount or quantity.  
+# Create Corrective Documents
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create corrective invoices and credit memos to reflect a change in the invoiced amount or quantity.  
 
  You can also create revision documents if you discover a mistake in an issued invoice or credit memo.  
 
@@ -35,7 +35,7 @@ In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can create corrective in
     Some fields are filled in automatically when you select a customer. Other fields you must fill in manually. You must make sure that the values of fields such as **Prices Including VAT** and **Currency Code**, relevant dimensions, and so on are the same in the corrective document as in the original invoice.  
 
     > [!NOTE]  
-    >  On the **Invoicing** tab, fill in the **Agreement No.** field if you have set up an agreement. For more information, see [How to: Set Up Customer and Vendor Agreements](how-to-set-up-customer-and-vendor-agreements.md).  
+    >  On the **Invoicing** tab, fill in the **Agreement No.** field if you have set up an agreement. For more information, see [Set Up Customer and Vendor Agreements](how-to-set-up-customer-and-vendor-agreements.md).  
 
 3.  On the **VAT** FastTab, fill in the fields as described in the following table.  
 
@@ -83,7 +83,7 @@ The following procedure describes how to create a revision for a posted sales in
     |**Corrective Doc. Type**|Choose **Revision** to make this a revision document.|  
     |**Corrected Doc. Type**|Specify if the original document was an invoice or a credit memo.|  
     |**Corrected Doc. No.**|Specify the original document.<br /><br /> Depending on the value of the **Corrected Doc. Type** field, you can select a posted invoice or a posted credit memo.|  
-    |**Revision No.**|Specify a revision number.<br /><br /> The revision number is not used by [!INCLUDE[navnow](../../includes/navnow_md.md)], but it is included in the printed document.|  
+    |**Revision No.**|Specify a revision number.<br /><br /> The revision number is not used by [!INCLUDE[d365fin](../../includes/d365fin_md.md)], but it is included in the printed document.|  
 
 6.  Make the relevant changes to the document lines.  
 7.  Post the document.  

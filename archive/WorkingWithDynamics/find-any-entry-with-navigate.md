@@ -46,7 +46,7 @@ Shows the number and type of entries that have the same document number or posti
   
 |ADD INCLUDE<!--[!INCLUDE[bp_tablefield](../../includes/bp_tabledescription_md.md)]-->|  
 |---------------------------------|---------------------------------------|  
-|**Document No.**|Enter the document numbers on which you require additional information. You can insert a filter if you want ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> to search for a certain interval of document numbers.|  
+|**Document No.**|Enter the document numbers on which you require additional information. You can insert a filter if you want ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> to search for a certain interval of document numbers.|  
 |**Posting Date**|Enter the posting date on which the document you are searching for was posted. You can insert a date filter if the documents that you are searching for were posted in a certain time interval.|  
   
 ### Find by Business Contact  
@@ -56,7 +56,7 @@ Shows the number and type of entries that have the same document number or posti
 |---------------------------------|---------------------------------------|  
 |**Business Contact Type**|Select one of the options: <Blank>, **Vendor**, or **Customer**. <Blank> is the default value. Select **Vendor** or **Customer** when you want to search for vendor or customer documents.|  
 |**Business Contact No.**|Select the number of the vendor or customer who assigned a number to the invoice that you are searching for.|  
-|**Document No.**|Enter the document number assigned by the vendor.<br /><br /> ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> will show all ledger entries that contain this document number.|  
+|**Document No.**|Enter the document number assigned by the vendor.<br /><br /> ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> will show all ledger entries that contain this document number.|  
   
 ### Find by Item Reference  
  On the **Item Reference** FastTab, you can enter the lot number or serial number, or you can filter on the lot number or serial number that you want to search for. This option is useful if you want to see where a specific item tracking number was used, what vendor it came from, or what customer it was sold to.  

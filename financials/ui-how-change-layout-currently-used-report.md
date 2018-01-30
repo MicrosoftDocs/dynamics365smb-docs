@@ -15,7 +15,7 @@ ms.date: 03/29/2017
 ms.author: jswymer
 
 ---
-# How to: Change Which Layout is Currently Used on a Report
+# Change Which Layout is Currently Used on a Report
 A report can be set up with more than one report layout, which you can then switch among as needed.
 
 Depending on the layouts that are available for a report, you can choose to use a built-in RDLC report layout, a built-in Word report layout, or a custom layout. For more information about RDLC and Word report layouts, built-in and custom layouts, and more, see [Manage Report Layouts](ui-manage-report-layouts.md).

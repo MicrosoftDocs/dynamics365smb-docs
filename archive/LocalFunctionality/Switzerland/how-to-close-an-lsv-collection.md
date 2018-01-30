@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Close an LSV Collection
+# Close an LSV Collection
 You must close Lastschrift Verfahren (LSV+) collections to write LSV files that can be sent to the bank for payment collection. When you close a collection, the collection is complete, and the postings in the LSV journal are combined.  
 
 When the collection is complete, the current collection number is assigned in the LSV journal, based on the last collection. This LSV number is transferred to the customer entries for all outstanding invoices. The collection file can be reconstructed at any time using the LSV number. The **On Hold** field is also populated with **LSV** in the customer entries to avoid the duplication of open entries. For more information, see the **LSV Journal** table and the **Cust. Ledger Entry** table. You can also reopen a closed collection.  
@@ -47,6 +47,6 @@ When the collection is complete, the current collection number is assigned in th
 
 ## See Also  
  [Swiss Electronic Payments Using LSV+](swiss-electronic-payments-using-lsv-.md)   
- [How to: Process an LSV Collection](how-to-process-an-lsv-collection.md)   
- [How to: Post LSV+ Payments](how-to-post-lsv-payments.md)   
- [How to: Export Payments Using LSV](how-to-export-payments-using-lsv.md)
+ [Process an LSV Collection](how-to-process-an-lsv-collection.md)   
+ [Post LSV+ Payments](how-to-post-lsv-payments.md)   
+ [Export Payments Using LSV](how-to-export-payments-using-lsv.md)

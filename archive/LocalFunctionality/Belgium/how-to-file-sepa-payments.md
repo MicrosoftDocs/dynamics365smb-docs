@@ -1,6 +1,6 @@
 ---
     title: How to File SEPA Payments
-    description: In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can use Single Euro Payments Area (SEPA) credit transfers to file SEPA payments with the bank.
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use Single Euro Payments Area (SEPA) credit transfers to file SEPA payments with the bank.
 
     services: project-madeira 
     documentationcenter: ''
@@ -16,8 +16,8 @@
     ms.author: sgroespe
 
 ---
-# How to: File SEPA Payments
-In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can use Single Euro Payments Area (SEPA) credit transfers to file SEPA payments with the bank.  
+# File SEPA Payments
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use Single Euro Payments Area (SEPA) credit transfers to file SEPA payments with the bank.  
 
 SEPA unifies payment methods in participating European countries/regions, which makes international payments as easy to process as domestic payments. European citizens and companies can make and receive payments in euros, whether within or across national borders, with the same basic conditions, rights, and obligations, regardless of location.  
 
@@ -45,6 +45,6 @@ Before you can file a SEPA payment you must complete the following administratio
 3.  Choose the **OK** button.  
 
 ## See Also  
- [How to: Set Up Export Protocols](how-to-set-up-export-protocols.md)   
- [How to: File Non-Euro SEPA Payments](how-to-file-non-euro-sepa-payments.md)   
- [How to: Activate SEPA Payments](how-to-activate-sepa-payments.md)
+ [Set Up Export Protocols](how-to-set-up-export-protocols.md)   
+ [File Non-Euro SEPA Payments](how-to-file-non-euro-sepa-payments.md)   
+ [Activate SEPA Payments](how-to-activate-sepa-payments.md)

@@ -27,14 +27,14 @@ When you have set up manufacturing, you can plan and execute production orders. 
 |**To**|**See**|  
 |------------|-------------|  
 |Configure the manufacturing features, such as defining shop floor work hours and selecting planning principles.|The **Manufacturing Setup** page.|  
-|Define a standard working week in the manufacturing department in terms of starting and ending times of each work day and related work shift.|[How to: Create Shop Calendars](production-how-to-create-work-center-calendars.md)|  
-|Organize fixed values and requirements of production resources as work centers or machine centers to govern their output of production performed.|[How to: Set Up Work Centers and Machine Centers](production-how-to-set-up-work-and-machine-centers.md)|
-|Organize production operations in the required order and assign them to work or machine centers with the required work times.|[How to: Create Routings](production-how-to-create-routings.md)|
-|Organize production components or subassemblies under a produced parent item and certify the BOM for execution at work centers.|[How to: Create Production BOMs](production-how-to-create-production-boms.md)|
-|Make sure that the right component quantity is available when produced items are stocked in one unit of measure but produced in another.|[How to: Work With Manufacturing Batch Units of Measure](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)|  
-|Define families of production items with similar manufacturing processes to save consumption. For example, four pieces of the same item can be produced from one sheet and 10 pieces of another, different, item at the same time.|[How to: Work With Production Families](production-how-work-family.md)|
-|Use standard tasks to simplify the creation of routings by quickly attaching extra information to recurring operations.|[How to: Set Up Standard Routing Lines](production-how-set-up-standard-routing-lines.md)|  
-|Prepare work centers and routings to represent subcontracted production operations.|[How to: Subcontract Manufacturing](production-how-to-subcontract-manufacturing.md)|  
+|Define a standard working week in the manufacturing department in terms of starting and ending times of each work day and related work shift.|[Create Shop Calendars](production-how-to-create-work-center-calendars.md)|  
+|Organize fixed values and requirements of production resources as work centers or machine centers to govern their output of production performed.|[Set Up Work Centers and Machine Centers](production-how-to-set-up-work-and-machine-centers.md)|
+|Organize production operations in the required order and assign them to work or machine centers with the required work times.|[Create Routings](production-how-to-create-routings.md)|
+|Organize production components or subassemblies under a produced parent item and certify the BOM for execution at work centers.|[Create Production BOMs](production-how-to-create-production-boms.md)|
+|Make sure that the right component quantity is available when produced items are stocked in one unit of measure but produced in another.|[Work With Manufacturing Batch Units of Measure](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)|  
+|Define families of production items with similar manufacturing processes to save consumption. For example, four pieces of the same item can be produced from one sheet and 10 pieces of another, different, item at the same time.|[Work With Production Families](production-how-work-family.md)|
+|Use standard tasks to simplify the creation of routings by quickly attaching extra information to recurring operations.|[Set Up Standard Routing Lines](production-how-set-up-standard-routing-lines.md)|  
+|Prepare work centers and routings to represent subcontracted production operations.|[Subcontract Manufacturing](production-how-to-subcontract-manufacturing.md)|  
 
 ## See Also
 [Manufacturing](production-manage-manufacturing.md)    

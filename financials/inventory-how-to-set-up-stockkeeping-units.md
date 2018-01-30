@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Stockkeeping Units
+# Set Up Stockkeeping Units
 You can use stockkeeping units to record information about your items for a specific location or a specific variant code.  
 
  Stockkeeping units are a supplement to item cards. They do not replace them, although they are related to them. Stockkeeping units allow you to differentiate information about an item for a specific location, such as a warehouse or distribution center, or a specific variant, such as different shelf numbers and different replenishment information, for the same item.  
@@ -34,7 +34,7 @@ To create several stockkeeping units for an item, use the **Create Stockkeeping 
 >  The information on the **Stockkeeping Unit** card has priority over the **Item** card.  
 
 ## See Also  
-[How to: Register New Items](inventory-how-register-new-items.md)  
+[Register New Items](inventory-how-register-new-items.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Inventory](inventory-manage-inventory.md)  

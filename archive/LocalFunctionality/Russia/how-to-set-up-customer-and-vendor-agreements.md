@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Customer and Vendor Agreements
+# Set Up Customer and Vendor Agreements
 The customer and vendor agreements feature provides the following:  
 
 - A list of agreements for customers and vendors.  

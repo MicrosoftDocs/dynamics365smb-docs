@@ -15,11 +15,11 @@ ms.date: 08/01/2017
 ms.author: sgroespe
 
 ---
-# How to: Correct or Cancel Unpaid Sales Invoices
+# Correct or Cancel Unpaid Sales Invoices
 You can correct or cancel a posted sales invoice. This is useful if you make a mistake or if the customer requests a change.
 
 > [!NOTE]  
->   After a posted sales invoice has been partially or fully paid, you cannot correct or cancel it from the posted sales invoice itself. Instead, you must manually create a sales credit memo to void the sale and reimburse the customer, optionally managed with a sales return order. For more information, see [How to: Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md).
+>   After a posted sales invoice has been partially or fully paid, you cannot correct or cancel it from the posted sales invoice itself. Instead, you must manually create a sales credit memo to void the sale and reimburse the customer, optionally managed with a sales return order. For more information, see [Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md).
 
 In the **Posted Sales Invoice** window, you can choose the **Correct** action or the **Cancel** action to perform the actions that are described in the following table.
 
@@ -56,5 +56,5 @@ When you correct or cancel a posted sales invoice, the corrective sales credit m
 ## See Also
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  
-[How to: Send Documents by Email](ui-how-send-documents-email.md)  
+[Send Documents by Email](ui-how-send-documents-email.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -1,6 +1,6 @@
 ---
 title: Relationship Management| Microsoft Docs
-description: The relationship management features in Dynamics 365 support your sales efforts and let you access information about contacts and prospects so you can serve customers efficiently.
+description: The relationship management features in Finance and Operations, Business edition support your sales efforts and let you access information about contacts and prospects so you can serve customers efficiently.
 services: project-madeira
 documentationcenter: ''
 author: jswymer

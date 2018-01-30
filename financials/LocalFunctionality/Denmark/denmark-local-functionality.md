@@ -22,7 +22,7 @@ The following topics describe the local functionality in the Danish version of [
 [Payments and Reconciliations (DK) Extension](../../ui-extensions-payments-reconciliation-formats-dk.md)  
 [FIK Details in the Payment Reconciliation Journal](fik-details-in-the-payment-reconciliation-journal.md)  
 [VAT-VIES Reporting](vat-vies-reporting.md)  
-[How to: Print VAT Reconciliation Reports](how-to-print-vat-reconciliation-reports.md)
+[Print VAT Reconciliation Reports](how-to-print-vat-reconciliation-reports.md)
 
 ## See Also
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)   

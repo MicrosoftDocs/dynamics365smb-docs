@@ -27,7 +27,7 @@ Some information about contact companies is identical to the information about t
 
 When you modify one of these fields on the contact company card, the program will automatically modify the field on the contact person card (unless you have manually modified the field on the contact person card).
 
-For more information, see [How to: Create Contact Persons](marketing-how-create-contact-persons.md).
+For more information, see [Create Contact Persons](marketing-how-create-contact-persons.md).
 
 ## Using Predefined Defaults on New Contacts
 You can decide that the application automatically assigns a specific language code, territory code, salesperson code, and country/region code as defaults to each new contact you create. You can also enter a default sales cycle code that the program automatically assigns to each new opportunity you create.
@@ -49,7 +49,7 @@ For more information, see [Synchronizing Contacts with Customers, Vendors and Ba
 ## Assigning a Number Series to Contacts and Opportunities
 You can set up a number series for contacts and opportunities. If you have set up a number series for contacts, when you create a contact, and press Enter in the No. field on the contact card, the program automatically enters the next available contact number.
 
-For more information about number series, see [How to: Create Number Series](ui-create-number-series.md).
+For more information about number series, see [Create Number Series](ui-create-number-series.md).
 
 ## Searching for Duplicate Contacts when Contacts are Created
 You can choose to have the program automatically search for duplicates each time you create a contact company, or you can choose to search manually after you have created contacts. You can also choose to have the program update the search strings automatically each time you modify contact information or create a contact. You can decide the search hit percentage, that is, the percentage of identical strings two contacts must have for the program to consider them as duplicates.

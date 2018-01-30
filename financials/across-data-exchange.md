@@ -1,6 +1,6 @@
 ---
-    title: Electronic documents in Dynamics 365 Business edition   | Microsoft Docs
-    description: Introduction to sending and receiving electronic documents in Dynamics 365.
+    title: Electronic documents in Finance and Operations, Business edition   | Microsoft Docs
+    description: Introduction to sending and receiving electronic documents in Finance and Operations, Business edition.
     author: SorenGP
 
     ms.service: dynamics365-financials
@@ -54,7 +54,7 @@ The following table describes a sequence of tasks, with links to the topics that
 
 ## See Also  
 [About the Data Exchange Framework](across-about-the-data-exchange-framework.md)  
-[How to: Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
+[Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Setting Up Data Exchange](across-set-up-data-exchange.md)  
 [Exchanging Data](across-exchange-data.md)  
 [Incoming Documents](across-income-documents.md)  

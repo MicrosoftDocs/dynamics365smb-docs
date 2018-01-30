@@ -1,6 +1,6 @@
 ---
     title: Enter Criteria in Filters | Microsoft Docs
-    description: When you enter criteria, you can use all the numbers and letters that you can normally use in the field. In addition, you can use special symbols to further filter the results. For information on how to use the Quick Filter, see [How to: Use Quick Filter on Pages](../FullExperience/how-to-use-quick-filter-on-pages.md).
+    description: When you enter criteria, you can use all the numbers and letters that you can normally use in the field. In addition, you can use special symbols to further filter the results. For information on how to use the Quick Filter, see [Use Quick Filter on Pages](../FullExperience/how-to-use-quick-filter-on-pages.md).
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,10 +16,10 @@
 
 ---
 # Enter Criteria in Filters
-When you enter criteria, you can use all the numbers and letters that you can normally use in the field. In addition, you can use special symbols to further filter the results. For information on how to use the Quick Filter, see [How to: Use Quick Filter on Pages](../FullExperience/how-to-use-quick-filter-on-pages.md).  
+When you enter criteria, you can use all the numbers and letters that you can normally use in the field. In addition, you can use special symbols to further filter the results. For information on how to use the Quick Filter, see [Use Quick Filter on Pages](../FullExperience/how-to-use-quick-filter-on-pages.md).  
   
 ## Symbols  
- The following tables show the symbols which can be used in filters in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->.  
+ The following tables show the symbols which can be used in filters in ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]-->.  
   
 > [!IMPORTANT]  
 >  There may be instances where field values contain these symbols and you want to filter on them. To do this, you must include the filter expression that contains the symbol in quotation marks (''). For example, if you want to filter on records that start with the text *S&R*, the filter expression is **'S&R*'**.  
@@ -113,6 +113,6 @@ When you enter criteria, you can use all the numbers and letters that you can no
 |>50&<100|Include records with numbers that are greater than 50 and less than 100 (numbers 51 through 99).|  
   
 ## See Also  
- [How to: Set Filters](../FullExperience/how-to-set-filters.md)   
+ [Set Filters](../FullExperience/how-to-set-filters.md)   
  [Sorting](../FullExperience/sorting.md)   
  [Keyboard Shortcuts](../FullExperience/keyboard-shortcuts.md)

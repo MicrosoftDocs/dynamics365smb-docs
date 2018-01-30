@@ -16,8 +16,8 @@
     ms.author: sgroespe
 
 ---
-# How to: Declare VAT-VIES Tax
-[!INCLUDE[navnow](../../includes/navnow_md.md)] includes the VAT-VIES declaration report, which you can use to submit information about sales transactions with other European Union (EU) countries/regions to the customs and tax authorities' list system. The report displays information in the same format that is used in the customs and tax authorities' declaration list.  
+# Declare VAT-VIES Tax
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] includes the VAT-VIES declaration report, which you can use to submit information about sales transactions with other European Union (EU) countries/regions to the customs and tax authorities' list system. The report displays information in the same format that is used in the customs and tax authorities' declaration list.  
 
 Depending on the volume of sales of goods or services to other EU countries/regions, you must submit monthly, bi-monthly, or quarterly declarations. If your company has sales of more than 100,000 euros per quarter, you must submit a monthly declaration. If your company has sales of less than 100,000 euros per quarter, you must submit a quarterly declaration. For more information, see the [BZSt website](http://go.microsoft.com/fwlink/?LinkId=204368).  
 

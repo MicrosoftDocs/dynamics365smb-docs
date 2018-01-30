@@ -1,6 +1,6 @@
 ---
     title: How to Export Electronic Payments
-    description: In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can export payment journal entries into a file format according to four different payment standards. You must use the following windows to export according to the different payment standards.
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can export payment journal entries into a file format according to four different payment standards. You must use the following windows to export according to the different payment standards.
 
     services: project-madeira 
     documentationcenter: ''
@@ -16,8 +16,8 @@
     ms.author: sgroespe
 
 ---
-# How to: Export Electronic Payments
-In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can export payment journal entries into a file format according to four different payment standards. You must use the following windows to export according to the different payment standards.  
+# Export Electronic Payments
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can export payment journal entries into a file format according to four different payment standards. You must use the following windows to export according to the different payment standards.  
 
 |Payment standard|Window to export from|  
 |----------------------|---------------------------|  
@@ -90,7 +90,7 @@ In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can export payment journ
     >  You can only post the payment order after you have successfully exported the electronic payments.  
 
     > [!NOTE]  
-    >  In the generic version of [!INCLUDE[navnow](../../includes/navnow_md.md)], the **Payment Journal** window is used in a similar way to export electronic payments in the SEPA Credit Transfer format. For more information, see [How to: Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
+    >  In the generic version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the **Payment Journal** window is used in a similar way to export electronic payments in the SEPA Credit Transfer format. For more information, see [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
 ## To export electronic payments from the Cartera module  
 
@@ -112,5 +112,5 @@ In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can export payment journ
 ## See Also  
  [Electronic Payments – AEB N34.1](electronic-payments-aeb-n341.md)   
  Export Electronic Payments   
- [How to: Set Up Bank Accounts for Electronic Payments](how-to-set-up-bank-accounts-for-electronic-payments.md)   
- [How to: Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+ [Set Up Bank Accounts for Electronic Payments](how-to-set-up-bank-accounts-for-electronic-payments.md)   
+ [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)

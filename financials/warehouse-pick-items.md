@@ -31,15 +31,15 @@ The following table describes a sequence of tasks, with links to the topics that
 
 |**To**|**See**|
 |------------|-------------|  
-|Post the shipment of items directly in the outbound order document because no warehouse features exist. (Works the same for sales orders, outbound transfer orders, and return shipments.)|[How to: Ship Items](warehouse-how-ship-items.md)|  
-|Pick items order by order and post the shipment in the same activity, in a basic warehouse configuration.|[How to: Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md)|
-|Pick items for multiple orders in an advanced warehouse configuration.|[How to: Pick Items with Warehouse Picks](warehouse-how-to-pick-items-for-warehouse-shipment.md)|  
-|Pick components for production or assembly in a basic or an advanced warehouse configuration.|[How to: Pick for Production or Assembly](warehouse-how-to-pick-for-production.md)|  
-|Plan optimized pick instructions for a number of shipments rather than have warehouse workers act directly on posted shipments.|[How to: Plan Picks in Worksheets](warehouse-how-to-plan-picks-in-worksheets.md)|  
-|Pick items technically for a special purpose, such as a production unit in need of extra components, in such a way that the items do not technically leave the warehouse.|[How to: Pick and Put Away Without a Source Document](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
+|Post the shipment of items directly in the outbound order document because no warehouse features exist. (Works the same for sales orders, outbound transfer orders, and return shipments.)|[Ship Items](warehouse-how-ship-items.md)|  
+|Pick items order by order and post the shipment in the same activity, in a basic warehouse configuration.|[Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md)|
+|Pick items for multiple orders in an advanced warehouse configuration.|[Pick Items with Warehouse Picks](warehouse-how-to-pick-items-for-warehouse-shipment.md)|  
+|Pick components for production or assembly in a basic or an advanced warehouse configuration.|[Pick for Production or Assembly](warehouse-how-to-pick-for-production.md)|  
+|Plan optimized pick instructions for a number of shipments rather than have warehouse workers act directly on posted shipments.|[Plan Picks in Worksheets](warehouse-how-to-plan-picks-in-worksheets.md)|  
+|Pick items technically for a special purpose, such as a production unit in need of extra components, in such a way that the items do not technically leave the warehouse.|[Pick and Put Away Without a Source Document](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
 |Understand how to automatically pick items according to their expiration date, for example perishable goods.|[Picking By FEFO](warehouse-picking-by-fefo.md)|
-|Split a pick line into multiple lines, for example because there are not enough items to take from in the designated bin.|[How to: Split Warehouse Activity Lines](warehouse-how-to-split-warehouse-activity-lines.md)|
-|Get immediate access to picks that are assigned to you as a warehouse worker.|[How to: Find Your Warehouse Assignments](warehouse-how-to-find-your-warehouse-assignments.md)|  
+|Split a pick line into multiple lines, for example because there are not enough items to take from in the designated bin.|[Split Warehouse Activity Lines](warehouse-how-to-split-warehouse-activity-lines.md)|
+|Get immediate access to picks that are assigned to you as a warehouse worker.|[Find Your Warehouse Assignments](warehouse-how-to-find-your-warehouse-assignments.md)|  
 
 ## See Also  
 [Warehouse Management](warehouse-manage-warehouse.md)  

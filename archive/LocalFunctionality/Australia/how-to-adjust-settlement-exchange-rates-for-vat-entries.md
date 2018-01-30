@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Adjust Settlement Exchange Rates for VAT Entries
+# Adjust Settlement Exchange Rates for VAT Entries
 You can use the **Adjust Settlement Exch. Rates** batch job to settle VAT entries according to the government exchange rate as defined in the **Currency Exchange Rate** table.  
 
 ## To adjust settlement exchange rates for VAT  

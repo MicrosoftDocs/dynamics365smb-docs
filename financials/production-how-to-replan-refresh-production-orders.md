@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Replan or Refresh Production Orders Directly
+# Replan or Refresh Production Orders Directly
 The **Replan** function on production orders is typically used after you have added or changed components that constitute underlying production orders. The function calculates changes made to components and routings lines, and it includes items on lower production BOM levels for which it may generate new production orders.  
 
 Based on the changes you have made to the components and routing lines, the Replan function calculates and plans for any new demand for the production order.  
@@ -64,7 +64,7 @@ You can either insert the production order lines manually or use the function th
 If you have amended production order lines, components, or routing lines, you must also refresh the information on the production order. In the following procedure, the components are calculated for a firm planned production order. The steps are similar for routing lines.
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Firm Planned Prod. Order**, and then choose the related link.  
-2.  Choose the **New** action. For more information, see [How to: Create Production orders](production-how-to-create-production-orders.md).  
+2.  Choose the **New** action. For more information, see [Create Production orders](production-how-to-create-production-orders.md).  
 3.  Choose the **Refresh** action.
 4. In the **Refresh Production Order** window, select one of the following options:
 

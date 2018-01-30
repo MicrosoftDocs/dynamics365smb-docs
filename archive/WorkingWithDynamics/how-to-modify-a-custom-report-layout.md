@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Modify a Custom Report Layout
+# Modify a Custom Report Layout
 This topic describes how to modify a custom layout that is available for a ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/nav_web_md.md)]--> client, you can only modify a report layout by exporting and importing the report layout as a file.  
   
  There two different report layout types: Word report layouts and RDLC report layouts. You modify Word report layouts by using Microsoft Word and RDLC report layouts by using SQL Server Report Builder.  
@@ -81,7 +81,7 @@ This topic describes how to modify a custom layout that is available for a ADD I
 10. In the **Import Microsoft Office Template** dialog box, select the report layout document that you modified, and then choose **Open**.  
   
 ##  <a name="MakeChangesToLayout"></a> Making Changes to the Report Layout  
- When modifying Word report layouts, you can make general formatting and layout changes, such as changing text font, adding and modifying a table, or removing a data field, by using the basic editing features of Word, like you do with any Word document. However, adding data fields from a ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> report dataset is a more advanced and requires some knowledge of the report dataset.  
+ When modifying Word report layouts, you can make general formatting and layout changes, such as changing text font, adding and modifying a table, or removing a data field, by using the basic editing features of Word, like you do with any Word document. However, adding data fields from a ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> report dataset is a more advanced and requires some knowledge of the report dataset.  
   
  Making changes to RDLC report layouts is more advanced than Word report layouts. For more information about modifying an RDLC report layout, see [Designing RDLC Report Layouts](../FullExperience/Designing%20RDLC%20Report%20Layouts.md).  
   
@@ -93,7 +93,7 @@ This topic describes how to modify a custom layout that is available for a ADD I
   
          If you are designing a Word report layout from scratch or adding new data fields, then start by adding a table that includes rows and columns that will eventually hold the data fields.  
   
-    -   For information about adding fields for data, labels, data, and images, see [How to: Add Fields to a Word Report Layout](../FullExperience/how-to-add-fields-to-a-word-report-layout.md).  
+    -   For information about adding fields for data, labels, data, and images, see [Add Fields to a Word Report Layout](../FullExperience/how-to-add-fields-to-a-word-report-layout.md).  
   
     -   For information about removing a label or data field, see [Removing Label and Data Fields in Word Layouts](../WorkingWithDynamics/how-to-modify-a-custom-report-layout.md#RemoveField).  
   
@@ -118,6 +118,6 @@ This topic describes how to modify a custom layout that is available for a ADD I
 ## See Also  
  [Managing Report Layouts From the Microsoft Dynamics NAV Clients](../FullExperience/managing-report-layouts-from-the-microsoft-dynamics-nav-clients.md)   
  [About Report Layouts](../FullExperience/about-report-layouts.md)   
- [How to: Create a Custom Report Layout](../FullExperience/how-to-create-a-custom-report-layout.md)   
- [How to: Add Fields to a Word Report Layout](../FullExperience/how-to-add-fields-to-a-word-report-layout.md)   
- [How to: Create a Custom Report Layout](../FullExperience/how-to-create-a-custom-report-layout.md)
+ [Create a Custom Report Layout](../FullExperience/how-to-create-a-custom-report-layout.md)   
+ [Add Fields to a Word Report Layout](../FullExperience/how-to-add-fields-to-a-word-report-layout.md)   
+ [Create a Custom Report Layout](../FullExperience/how-to-create-a-custom-report-layout.md)

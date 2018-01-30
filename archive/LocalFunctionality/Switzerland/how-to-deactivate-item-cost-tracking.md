@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Deactivate Item Cost Tracking
+# Deactivate Item Cost Tracking
 When inventory is not tracked for an item, the item cost does not need to be tracked, and an item ledger entry does not need to be created.  
 
 You can deactivate item cost tracking for an item. Generally, item cost tracking should be deactivated for consumable items, such as waste paper products and for services that are counted as items, such as flat rate parking fees. Item cost tracking should be deactivated on items for which tracking could be misleading. Items for which item cost tracking has been deactivated are excluded from reservation, availability check, item tracking, and material planning systems.  
@@ -36,4 +36,4 @@ You can deactivate item cost tracking for an item. Generally, item cost tracking
 
 ## See Also  
  [Swiss Inventory Management](swiss-inventory-management.md)   
- [How to: Block Inventory Items for Sales or Purchases](how-to-block-inventory-items-for-sales-or-purchases.md)
+ [Block Inventory Items for Sales or Purchases](how-to-block-inventory-items-for-sales-or-purchases.md)

@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up OCR Payments
+# Set Up OCR Payments
 You can process electronic payments from customers according to a predefined payment ID. This is often referred to as an optical character recognition (OCR) payment. The payment ID is used with electronic payment transactions. Customers can refer to this ID when they make payments. The payment ID is also used to identify imported payment transactions and automatically apply imported payment data.  
 
 ## To set up OCR payments  
@@ -48,7 +48,7 @@ You can process electronic payments from customers according to a predefined pay
 
 ## See Also  
  [Electronic Banking in Norway](electronic-banking-in-norway.md)   
- [How to: Set Up KID Numbers on Sales Documents](how-to-set-up-kid-numbers-on-sales-documents.md)   
- [How to: Import and Post OCR Payments](how-to-import-and-post-ocr-payments.md)   
- [How to: Print the OCR Journal - Test Report](how-to-print-the-ocr-journal-test-report.md)   
+ [Set Up KID Numbers on Sales Documents](how-to-set-up-kid-numbers-on-sales-documents.md)   
+ [Import and Post OCR Payments](how-to-import-and-post-ocr-payments.md)   
+ [Print the OCR Journal - Test Report](how-to-print-the-ocr-journal-test-report.md)   
  

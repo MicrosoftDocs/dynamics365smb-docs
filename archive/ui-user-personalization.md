@@ -1,6 +1,6 @@
 ---
 title: Personalizing the Way Information is Displayed for a User Account | Microsoft Docs
-description: Describes how to customize the look and feel of Dynamics 365 for your user account.
+description: Describes how to customize the look and feel of Finance and Operations, Business edition for your user account.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -93,5 +93,5 @@ At some point, you might want to undo all the personalization changes that you h
 
 ## See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[How to: Change the Role Center](change-role.md)  
+[Change the Role Center](change-role.md)  
 [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)  

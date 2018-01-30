@@ -15,7 +15,7 @@ ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---
-# How to: Transfer Bank Funds
+# Transfer Bank Funds
 You may sometimes need to transfer an amount from one bank account to another. To do this, you must post the a transaction in the general journal. The task varies depending on whether the bank accounts use the same currency or different currencies.
 
 ## To post a transfer between bank accounts with the same currency code

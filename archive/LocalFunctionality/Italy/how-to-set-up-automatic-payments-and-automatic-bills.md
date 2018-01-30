@@ -1,6 +1,6 @@
 ---
     title: How to Set Up Automatic Payments and Automatic Bills
-    description: In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can manage automatic payments and bills.
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can manage automatic payments and bills.
 
     services: project-madeira 
     documentationcenter: ''
@@ -16,8 +16,8 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Automatic Payments and Automatic Bills
-In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can manage automatic payments and bills.  
+# Set Up Automatic Payments and Automatic Bills
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can manage automatic payments and bills.  
 
 To use automatic payments and automatic bills, you must set up the relevant information.  
 

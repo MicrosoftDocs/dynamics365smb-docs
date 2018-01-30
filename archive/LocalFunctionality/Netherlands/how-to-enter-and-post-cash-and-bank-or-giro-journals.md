@@ -1,6 +1,6 @@
 ---
     title: How to Enter and Post Cash and Bank or Giro Journals
-    description: In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can use the cash and bank journals to enter the transactions that affect the cash and bank accounts by using **Cash Book** and **Bank Book**.
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the cash and bank journals to enter the transactions that affect the cash and bank accounts by using **Cash Book** and **Bank Book**.
 
     services: project-madeira 
     documentationcenter: ''
@@ -16,8 +16,8 @@
     ms.author: sgroespe
 
 ---
-# How to: Enter and Post Cash and Bank or Giro Journals
-In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can use the cash and bank journals to enter the transactions that affect the cash and bank accounts by using **Cash Book** and **Bank Book**.  
+# Enter and Post Cash and Bank or Giro Journals
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the cash and bank journals to enter the transactions that affect the cash and bank accounts by using **Cash Book** and **Bank Book**.  
 
 You can enter increases or decreases to the cash account in the **Cash Journals**. For example, you can use this journal for paying out petty cash or receiving transfers from a different bank account.  
 
@@ -80,4 +80,4 @@ You can apply the payments from customers to the open invoices from accounts rec
 The entries are posted to the general ledger. For more information, see General Ledger Entries.  
 
 ## See Also  
- [How to: Print the Test Reports for Cash and Bank or Giro Journals](how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md)
+ [Print the Test Reports for Cash and Bank or Giro Journals](how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md)

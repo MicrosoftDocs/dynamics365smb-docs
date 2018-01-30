@@ -1,6 +1,6 @@
 ---
     title: How to Set Up Reports for VAT and Intrastat
-    description: In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can specify which reports to use to create the documents that you must submit to the authorities, such as the VAT statement and the Intrastat form.
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can specify which reports to use to create the documents that you must submit to the authorities, such as the VAT statement and the Intrastat form.
 
     services: project-madeira 
     documentationcenter: ''
@@ -16,8 +16,8 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Reports for VAT and Intrastat
-In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can specify which reports to use to create the documents that you must submit to the authorities, such as the VAT statement and the Intrastat form.  
+# Set Up Reports for VAT and Intrastat
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can specify which reports to use to create the documents that you must submit to the authorities, such as the VAT statement and the Intrastat form.  
 
 ### To set up reports for VAT  
 
@@ -52,5 +52,5 @@ In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can specify which report
 4.  Choose the **OK** button.  
 
 ## See Also  
-[How to: Export and Print Intrastat Reports](how-to-export-and-print-intrastat-reports.md)  
+[Export and Print Intrastat Reports](how-to-export-and-print-intrastat-reports.md)  
 [VAT Reporting](vat-reporting.md) 

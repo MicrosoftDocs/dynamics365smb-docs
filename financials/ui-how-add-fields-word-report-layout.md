@@ -15,7 +15,7 @@
     ms.author: jswymer
 
 ---
-# How to: Add Fields to a Word Report Layout
+# Add Fields to a Word Report Layout
 A report dataset can consist of fields that display labels, data, and images. This topic describes the procedure for adding fields of a report dataset to an existing Word report layout for a report. You add fields by using the Word custom XML part for the report and adding content controls that map to the fields of the report dataset. Adding fields requires that you have some knowledge of the report's dataset so that you can identify the fields that you want to add to the layout.  
   
 > [!NOTE]  
@@ -25,15 +25,15 @@ A report dataset can consist of fields that display labels, data, and images. Th
   
 1.  If not already open, then open the Word report layout document in Word.  
   
-     For more information, see [How to: Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md).  
+     For more information, see [Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md).  
   
 2.  Show the **Developer** tab in the ribbon of Microsoft Word.  
   
-     By default, the **Developer** tab is not shown in the ribbon. For more information, see [How to: Show the Developer Tab on the Ribbon](http://go.microsoft.com/fwlink/?LinkID=389631).  
+     By default, the **Developer** tab is not shown in the ribbon. For more information, see [Show the Developer Tab on the Ribbon](http://go.microsoft.com/fwlink/?LinkID=389631).  
   
 3.  On the **Developer** tab, choose **XML Mapping Pane**.  
   
-4.  In the **XML Mapping** pane, in the **Custom XML Part** dropdown list, choose the custom XML part for ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> report, which is typically last in the list. The name of the custom XML part has the following format:  
+4.  In the **XML Mapping** pane, in the **Custom XML Part** dropdown list, choose the custom XML part for ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> report, which is typically last in the list. The name of the custom XML part has the following format:  
   
      urn:microsoft-dynamics-nav/reports/*report_name*/*ID*  
   
@@ -76,7 +76,7 @@ A report dataset can consist of fields that display labels, data, and images. Th
  Images align in the top-left corner of the content control and resize automatically in proportion to fit the boundary of the content control.  
   
 > [!IMPORTANT]  
->  You can only add images that have a format that is supported by Word, such as .bmp, .jpeg, and .png file types. If you add an image that has a format that is not supported by Word, you will get an error when you run the report from the ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> client.  
+>  You can only add images that have a format that is supported by Word, such as .bmp, .jpeg, and .png file types. If you add an image that has a format that is not supported by Word, you will get an error when you run the report from the ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> client.  
   
 #### To add an image  
   
@@ -103,7 +103,7 @@ The following table provides a simplified overview of the XML of a custom XML pa
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Closing element.|  
   
 ### Custom XML Part in Word  
- In Word, you open the custom XML part in the **XML Mapping** pane, and then use the pane to map elements to content controls in the Word document. The **XML Mapping** pane is accessible from the **Developer** tab (for more information, see [How to: Show the Developer Tab on the Ribbon](http://go.microsoft.com/fwlink/?LinkID=389631)).  
+ In Word, you open the custom XML part in the **XML Mapping** pane, and then use the pane to map elements to content controls in the Word document. The **XML Mapping** pane is accessible from the **Developer** tab (for more information, see [Show the Developer Tab on the Ribbon](http://go.microsoft.com/fwlink/?LinkID=389631)).  
   
  The elements in the **XML Mapping** pane appear in a structure that is similar to the XML source. Label fields are grouped under a common **Labels** element and data item and columns are arranged in a hierarchal structure that corresponds to the XML source, with columns listed in alphabetical order. Elements are identified by their name as defined by the Name property in Report Dataset Designer in ADD INCLUDE<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->.  
   
@@ -120,4 +120,4 @@ The following table provides a simplified overview of the XML of a custom XML pa
 -   The language of the label that is displayed when you run the report depends on the language setting of the report object. <!--OnPrem For more information, see [Multiple Document Languages](../FullExperience/Viewing%20the%20Application%20in%20Different%20Languages.md).-->  
   
 ## See Also  
- [How to: Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md)   
+ [Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md)   

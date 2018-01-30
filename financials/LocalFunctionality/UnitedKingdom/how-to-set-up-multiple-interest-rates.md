@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Multiple Interest Rates
+# Set Up Multiple Interest Rates
 You can calculate finance charges with multiple interest rates for a specific period. The interest calculation is similar for all financial charges, with variation only in the rate of interest for a specific period.  
 
 For example, you can charge customers accordingly if they pay late.  
@@ -41,4 +41,4 @@ For example, you can charge customers accordingly if they pay late.
 
 ## See Also  
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)  
-[How to: Collect Outstanding Balances](../../receivables-collect-outstanding-balances.md)   
+[Collect Outstanding Balances](../../receivables-collect-outstanding-balances.md)   

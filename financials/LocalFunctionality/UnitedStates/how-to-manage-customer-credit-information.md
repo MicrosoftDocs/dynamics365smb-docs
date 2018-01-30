@@ -1,6 +1,6 @@
 ---
     title: How to Manage Customer Credit Information | Microsoft Docs
-    description: In Dynamics 365, you can add comments to customer credit information. You can also hold and block customers with bad credit before shipping or invoicing occurs.
+    description: In Finance and Operations, Business edition, you can add comments to customer credit information. You can also hold and block customers with bad credit before shipping or invoicing occurs.
     author: SorenGP
 
     ms.service: dynamics365-financials
@@ -13,7 +13,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Manage Customer Credit Information
+# Manage Customer Credit Information
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can add comments to customer credit information. You can also hold and block customers with bad credit before shipping or invoicing occurs.  
 
 ## To add comments to customer credit information  

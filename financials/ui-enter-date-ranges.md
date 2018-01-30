@@ -1,6 +1,6 @@
 ---
-title: Setting date ranges in Dynamics 365 Business edition  | Microsoft Docs
-description: Learn about getting a report to show data from specific time periods using date ranges in Dynamics 365 Business edition .
+title: Setting date ranges in Finance and Operations, Business edition  | Microsoft Docs
+description: Learn about getting a report to show data from specific time periods using date ranges in Finance and Operations, Business edition .
 documentationcenter: ''
 author: edupont04
 
@@ -14,7 +14,7 @@ ms.date: 05/29/2017
 ms.author: edupont
 
 ---
-# Entering Date Ranges in Dynamics 365 Business edition 
+# Entering Date Ranges in Finance and Operations, Business edition 
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
 
 ![Setting a date range in the request page for the Customer Top 10 list](./media/ui-enter-date-ranges/customer-top10-list.png)

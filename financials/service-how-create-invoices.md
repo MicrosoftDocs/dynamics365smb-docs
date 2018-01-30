@@ -15,7 +15,7 @@
     ms.author: bholtorf
 
 ---
-# How to: Create Service Invoices or Credit Memos
+# Create Service Invoices or Credit Memos
 Ease in invoicing your service orders is a key feature of [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can send an invoice to your customers at any time, or create invoices periodically.  
   
 To create an invoice directly, you can use the **Service Contract** window. You can also set up your system so that a service technician in the field can create an invoice for service that is not connected to a contract or order.  
@@ -95,6 +95,6 @@ A service credit memo document is typically used when a customer returns an item
 4. On the credit memo lines, enter information about the items that have been returned or removed, or the compensation that will be given to the customer.  
 
 ## See Also
-[How to: Post Service Invoices](service-how-to-post-service-orders.md)  
+[Post Service Invoices](service-how-to-post-service-orders.md)  
 [Setting Up Service Management](service-setup-service.md)  
 [Service Posting](service-service-posting.md)  

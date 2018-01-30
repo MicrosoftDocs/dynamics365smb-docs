@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Specify Posting Periods
+# Specify Posting Periods
 When you specify posting periods, you limit the period in which posting is allowed.  
 
 ## To specify posting periods  

@@ -1,6 +1,6 @@
 ---
     title: How to Generate Domiciliation Suggestions
-    description: After you have set up domiciliations, you can start generating domiciliation suggestions. In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can only create domiciliation suggestions for domestic customers.
+    description: After you have set up domiciliations, you can start generating domiciliation suggestions. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can only create domiciliation suggestions for domestic customers.
 
     services: project-madeira 
     documentationcenter: ''
@@ -16,8 +16,8 @@
     ms.author: sgroespe
 
 ---
-# How to: Generate Domiciliation Suggestions
-After you have set up domiciliations, you can start generating domiciliation suggestions. In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can only create domiciliation suggestions for domestic customers.  
+# Generate Domiciliation Suggestions
+After you have set up domiciliations, you can start generating domiciliation suggestions. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can only create domiciliation suggestions for domestic customers.  
 
 ## To generate domiciliation suggestions  
 
@@ -39,12 +39,12 @@ After you have set up domiciliations, you can start generating domiciliation sug
 When the batch job is finished, the domiciliation journal contains all open customer ledger entries that match the filters.  
 
 > [!NOTE]  
->  The domiciliation suggestions will only include customers who have a Domiciliation number set up. For more information, see [How to: Set Up Domiciliations](how-to-set-up-domiciliations.md).  
+>  The domiciliation suggestions will only include customers who have a Domiciliation number set up. For more information, see [Set Up Domiciliations](how-to-set-up-domiciliations.md).  
 
 ## See Also  
  [Belgian Electronic Banking](belgian-electronic-banking.md)   
  [Direct Debit Using Domiciliation](direct-debit-using-domiciliation.md)   
- [How to: Set Up Domiciliations](how-to-set-up-domiciliations.md)   
- [How to: Test Domiciliations](how-to-test-domiciliations.md)   
- [How to: Edit and Delete Domiciliation Lines](how-to-edit-and-delete-domiciliation-lines.md)   
- [How to: Export and Post Domiciliations](how-to-export-and-post-domiciliations.md)
+ [Set Up Domiciliations](how-to-set-up-domiciliations.md)   
+ [Test Domiciliations](how-to-test-domiciliations.md)   
+ [Edit and Delete Domiciliation Lines](how-to-edit-and-delete-domiciliation-lines.md)   
+ [Export and Post Domiciliations](how-to-export-and-post-domiciliations.md)

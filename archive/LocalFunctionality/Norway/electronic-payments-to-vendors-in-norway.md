@@ -17,7 +17,7 @@
 
 ---
 # Electronic Payments to Vendors in Norway
-[!INCLUDE[navnow](../../includes/navnow_md.md)] includes Norwegian enhancements for automatically making payments to vendors. This reduces errors that occur from manual data entry. You can use this functionality to perform the following operations:  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] includes Norwegian enhancements for automatically making payments to vendors. This reduces errors that occur from manual data entry. You can use this functionality to perform the following operations:  
 
 - Search invoices that are due based on different conditions.  
 - Send payments to the bank.  
@@ -34,8 +34,8 @@ The following steps show how electronic payments are processed:
 
 1.  The payment proposal is run in the electronic payments feature and transferred to the bank by using the bank’s software.  
 2.  The bank's software receives the payments and transfers payments to the bank.  
-3.  The bank receives the payments and sends the first-time return receipt to [!INCLUDE[navnow](../../includes/navnow_md.md)] using the bank's software.  
-4.  The bank executes the payments and sends the settlement return (second-time return receipt) to [!INCLUDE[navnow](../../includes/navnow_md.md)] using the bank's software where the payments are posted.  
+3.  The bank receives the payments and sends the first-time return receipt to [!INCLUDE[d365fin](../../includes/d365fin_md.md)] using the bank's software.  
+4.  The bank executes the payments and sends the settlement return (second-time return receipt) to [!INCLUDE[d365fin](../../includes/d365fin_md.md)] using the bank's software where the payments are posted.  
 
 ## Vendor Payment Requirements  
 If the payment transactions do not fulfill the requirements, an error message appears and you cannot create a payment file for transfers to the bank. The following criteria must be met when you process payments to vendors:  
@@ -48,18 +48,18 @@ If the payment transactions do not fulfill the requirements, an error message ap
 
 ## See Also  
  [Norway Local Functionality](norway-local-functionality.md)   
- [How to: Set Up Remittance Agreements](how-to-set-up-remittance-agreements.md)   
- [How to: Create Remittance Accounts](how-to-create-remittance-accounts.md)   
- [How to: Set Up Vendors for Remittance](how-to-set-up-vendors-for-remittance.md)   
+ [Set Up Remittance Agreements](how-to-set-up-remittance-agreements.md)   
+ [Create Remittance Accounts](how-to-create-remittance-accounts.md)   
+ [Set Up Vendors for Remittance](how-to-set-up-vendors-for-remittance.md)   
  [Recipient Reference Codes](recipient-reference-codes.md)   
- [How to: Create Remittance Suggestions](how-to-create-remittance-suggestions.md)   
- [How to: Create Manual Remittance Payments](how-to-create-manual-remittance-payments.md)   
- [How to: Set Up Payment Line Information](how-to-set-up-payment-line-information.md)   
- [How to: Test Remittance Payments](how-to-test-remittance-payments.md)   
- [How to: Export Remittance Payments](how-to-export-remittance-payments.md)   
+ [Create Remittance Suggestions](how-to-create-remittance-suggestions.md)   
+ [Create Manual Remittance Payments](how-to-create-manual-remittance-payments.md)   
+ [Set Up Payment Line Information](how-to-set-up-payment-line-information.md)   
+ [Test Remittance Payments](how-to-test-remittance-payments.md)   
+ [Export Remittance Payments](how-to-export-remittance-payments.md)   
  [Types of Payment Returns Files](types-of-payment-returns-files.md)   
- [How to: Import Payment Return Data](how-to-import-payment-return-data.md)   
- [How to: Delete Remittance Payment Orders](how-to-delete-remittance-payment-orders.md)   
+ [Import Payment Return Data](how-to-import-payment-return-data.md)   
+ [Delete Remittance Payment Orders](how-to-delete-remittance-payment-orders.md)   
  [Remittance Errors](remittance-errors.md)   
- [How to: View Remittance Error Codes](how-to-view-remittance-error-codes.md)   
- [How to: Cancel Payments](how-to-cancel-payments.md)
+ [View Remittance Error Codes](how-to-view-remittance-error-codes.md)   
+ [Cancel Payments](how-to-cancel-payments.md)

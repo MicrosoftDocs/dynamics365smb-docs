@@ -15,7 +15,7 @@ ms.date: 03/29/2017
 ms.author: sgroespe
 
 ---
-# The PayPal Payments Standard Extension to Dynamics 365 Business edition 
+# The PayPal Payments Standard Extension to Finance and Operations, Business edition 
 Customers continuously require higher customer service, both in terms of product quality but also in terms of delivery and payment options. The PayPal Payments Standard service helps you increase your customer service.
 
 As an alternative to collecting payments through bank transfer or credit cards, you can offer your customers to pay you through their PayPal account. When you send a sales invoice or sales order by email, there is a PayPal link in the email body and in the attached PDF document. When the customer chooses the link, the service page for their PayPal account appears showing the payment details for the sale. The customer can then pay the invoice as any other PayPal payment.
@@ -30,7 +30,7 @@ The PayPal Payments Standard service provides the following benefits:
 * The PayPal Payments Standard service does not involve monthly fees or setup fees.
 * Because it is an extension, you can easily enable the PayPal Payment Standard service when and if your business requires it.  
 
-For more information, see [How to: Enable Customer Payment Through PayPal](sales-how-enable-payment-service-extensions.md).
+For more information, see [Enable Customer Payment Through PayPal](sales-how-enable-payment-service-extensions.md).
 
 ## See Also
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  

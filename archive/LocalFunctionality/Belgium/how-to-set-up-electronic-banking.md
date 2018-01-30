@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Electronic Banking
+# Set Up Electronic Banking
 With electronic banking, you can make electronic payments to domestic, international, SEPA, and non-Euro SEPA vendors and customers.  
 
 Your company subscribes to an eBanking contract with the bank to maintain a certain bank account or several bank accounts. The company also subscribes to Isabel to send payment files to and receive bank statement files from the bank electronically. Therefore, the company receives smartcards linked to the eBanking contract. The smartcards are secured by PIN codes.  
@@ -28,7 +28,7 @@ When uploading to or downloading files from the IBS platform, you will insert th
 Before you can use electronic banking, you must set up the following information:  
 
 - Electronic banking setup.  
-- IBLC/BLWI codes - For more information, see [How to: Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md).  
+- IBLC/BLWI codes - For more information, see [Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md).  
 - Preferred bank accounts (optional).  
 
 ## To set up electronic banking  
@@ -86,10 +86,10 @@ Optionally, you can assign bank accounts to each customer and vendor. This helps
  [Isabel website](http://go.microsoft.com/fwlink/?LinkId=210323)   
  [Belgian Electronic Banking](belgian-electronic-banking.md)   
  [Belgian Electronic Payments](belgian-electronic-payments.md)   
- [How to: Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md)   
- [How to: Set Up Vendors for Automatic Payment Suggestions](how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
- [How to: Generate Payment Suggestions](how-to-generate-payment-suggestions.md)   
- [How to: Create Payment Journal Templates and Batches](how-to-create-payment-journal-templates-and-batches.md)   
- [How to: Test Electronic Payments](how-to-test-electronic-payments.md)   
- [How to: Manage Electronic Payment Lines](how-to-manage-electronic-payment-lines.md)   
- [How to: Print Payment Files](how-to-print-payment-files.md)
+ [Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md)   
+ [Set Up Vendors for Automatic Payment Suggestions](how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
+ [Generate Payment Suggestions](how-to-generate-payment-suggestions.md)   
+ [Create Payment Journal Templates and Batches](how-to-create-payment-journal-templates-and-batches.md)   
+ [Test Electronic Payments](how-to-test-electronic-payments.md)   
+ [Manage Electronic Payment Lines](how-to-manage-electronic-payment-lines.md)   
+ [Print Payment Files](how-to-print-payment-files.md)

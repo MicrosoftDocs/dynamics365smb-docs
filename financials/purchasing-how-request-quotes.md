@@ -14,13 +14,13 @@ ms.date: 08/08/2017
 ms.author: sgroespe
 
 ---
-# How to: Request Quotes
+# Request Quotes
 A purchase quote can be used as a preliminary draft for a purchase order, and the order can then be converted to a purchase invoice or an order.
 
 
 ## To create a purchase quote
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Quotes**, and then choose the related link.
-2. Create a new document, in the same way as you make a purchase order. For more information, see [How to: Record Purchases](purchasing-how-record-purchases.md).
+2. Create a new document, in the same way as you make a purchase order. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 
 ## To convert a purchase quote to a purchase order
 When you have accepted the vendor's quote, you can convert it to a purchase invoice or order to process the purchase.
@@ -32,5 +32,5 @@ The purchase quote is removed from the database. A purchase invoice or a purchas
 ## See Also
 [Purchasing](purchasing-manage-purchasing.md)  
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  
-[How to: Send Documents by Email](ui-how-send-documents-email.md)  
+[Send Documents by Email](ui-how-send-documents-email.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

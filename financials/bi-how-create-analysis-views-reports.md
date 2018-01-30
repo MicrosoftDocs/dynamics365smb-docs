@@ -11,11 +11,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 06/16/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 
 ---
-#  How to: Create Analysis Reports
+#  Create Analysis Reports
 Sales managers need to analyze turnover, gross profit and other key sales performance indicators on a regular basis. Purchasers, are more interested in the dynamics of purchase volumes, vendors' performance and purchase prices. Whereas logistics/inventory managers need information on inventory turnover, analysis of inventory movement, and statistics on inventory value.  
 
 You can use analysis reports to create customized reports based on records of your posted transactions, for example, sales, purchases, transfers and inventory adjustments. In a customizable report, the source data, which is derived from the item ledger (with associated value entries), can be combined, compared and presented in meaningful user-defined ways. In this sense, the analysis report is very similar to a PivotTable report in Microsoft Excel.  
@@ -24,7 +24,7 @@ You can create your personalized report that focuses on your key accounts in ter
 
 The analysis report consists of the objects that you want to analyze, such as customers, customer groups, sales people and so on, represented as lines, and the analysis parameters, that is, the way you want to analyze the object, represented as columns, such as profit calculations, periodic comparisons of sales amounts and volumes or periodic comparisons of actual and budgeted figures.
 
-In addition to analysis reports, you can create and view similar information in analysis views, which are based on dimensions. For more information, see [How to: Analyze Data by Dimensions](bi-how-analyze-data-dimension.md).
+In addition to analysis reports, you can create and view similar information in analysis views, which are based on dimensions. For more information, see [Analyze Data by Dimensions](bi-how-analyze-data-dimension.md).
 
 ## Example  
 You can set up lines like these:  
@@ -37,9 +37,6 @@ Then you can set up columns like these:
 - Sales Current Month  
 - Sales Last Month  
 - Sales in Pct. of last Month  
-
-> [!NOTE]  
->   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
 ## Setting Up Line and Column Layouts  
  In the **Analysis Report** window, you can view different line and column layouts according to what you have set up. You set up your lines or line templates in the **Analysis Line Templates** window. In this window, you can define the name of the report and the objects you want to show in the lines of your report. You set up your columns in the **Analysis Column Templates** window. In this window, you can define the name of the column template and the analysis parameters that you want to show in the report as columns. In the **Analysis Column Templates** window, each line represents a column in your report. Note that analysis lines and analysis columns are independent from each other.  

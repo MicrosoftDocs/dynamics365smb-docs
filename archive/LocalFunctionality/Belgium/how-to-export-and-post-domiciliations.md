@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Export and Post Domiciliations
+# Export and Post Domiciliations
 You can submit domiciliations to your bank by exporting the data to a file. When you export to a file, you can choose to automatically post the lines to the general ledger.  
 
 Depending on setup of the **SEPA Direct Debit Exp. Format** field in the **Bank Account Card** window, the **File Domiciliations** action opens either of these request pages:  
@@ -71,7 +71,7 @@ Depending on setup of the **SEPA Direct Debit Exp. Format** field in the **Bank 
 
 ## See Also  
  [Direct Debit Using Domiciliation](direct-debit-using-domiciliation.md)   
- [How to: Set Up Domiciliations](how-to-set-up-domiciliations.md)   
- [How to: Generate Domiciliation Suggestions](how-to-generate-domiciliation-suggestions.md)   
- [How to: Test Domiciliations](how-to-test-domiciliations.md)   
- [How to: Edit and Delete Domiciliation Lines](how-to-edit-and-delete-domiciliation-lines.md)
+ [Set Up Domiciliations](how-to-set-up-domiciliations.md)   
+ [Generate Domiciliation Suggestions](how-to-generate-domiciliation-suggestions.md)   
+ [Test Domiciliations](how-to-test-domiciliations.md)   
+ [Edit and Delete Domiciliation Lines](how-to-edit-and-delete-domiciliation-lines.md)

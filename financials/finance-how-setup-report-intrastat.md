@@ -81,7 +81,7 @@ The batch job retrieves all the item entries in the statistics period and insert
 > [!IMPORTANT]  
 >  The batch job retrieves only the entries that contain a country/region code for which an Intrastat code has been entered on the **Countries/Regions** page. Therefore, you must enter Intrastat codes for the country/region codes for which you will run the batch job.  
 
-### How to: Report Intrastat on a form or a file
+### Report Intrastat on a form or a file
 To get the information that is required on the Intrastat form from the statistical authorities, you must print the **Intrastat – Form** report. Before you can do this, you must prepare the Intrastat journal and fill it in. If you have both sales and purchase transactions, you must complete a separate form for each type, so that you must print the report two times.  
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat Journals**, and then choose the related link.  
@@ -91,7 +91,7 @@ To get the information that is required on the Intrastat form from the statistic
 5. On the **Intrastat Jnl. Line** FastTab, add a **Type** filter and then specify whether this is a **Receipt** or a **Shipment**.  
 6. Choose **Send to** to print the report.  
 
-### How to: Report Intrastat in a file
+### Report Intrastat in a file
 You can submit the Intrastat report as a file. Before creating the file, you can print a checklist that contains the same information that will be in the file.  
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat Journal**, and then choose the related link.  
@@ -102,7 +102,7 @@ You can submit the Intrastat report as a file. Before creating the file, you can
 6. Choose **Save**.  
 7. Browse to the location where you want to save the file, enter the file name, and then choose **Save**.
 
-## How to: Reorganize Intrastat Journals
+## Reorganize Intrastat Journals
 Because you must submit an Intrastat report every month, and you create a new journal batch for each report, you will eventually have many journal batches. The journal lines are not deleted automatically. You may want to reorganize the journal batch names periodically. You do this by deleting the journal batches that you no longer need. The journal lines in these batches are also deleted.  
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat Journals**, and then choose the related link.  

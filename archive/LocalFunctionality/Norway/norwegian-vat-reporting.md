@@ -17,7 +17,7 @@
 
 ---
 # Norwegian VAT Reporting
-[!INCLUDE[navnow](../../includes/navnow_md.md)] ../../includes Norwegian enhancements that allow you to calculate and report VAT to the Norwegian tax authorities.  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] ../../includes Norwegian enhancements that allow you to calculate and report VAT to the Norwegian tax authorities.  
 
 This topic shows the typical steps that you should follow when reporting Norwegian VAT.  
 

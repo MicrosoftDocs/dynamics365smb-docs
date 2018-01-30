@@ -288,6 +288,6 @@ Then you must create various purchase, production, and sales transactions with t
  This completes the walkthrough of how to use the **Navigate** window for defects management in integration with the **Item Tracing** window.  
 
 ## See Also
-[How to: Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)  
-[How to: Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)  
+[Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)  
+[Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)  
 [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  

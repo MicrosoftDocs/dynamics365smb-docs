@@ -1,1 +1,1 @@
-<blockquote STYLE="background: #81BEF7;border-left:None"><b>ADVANCED</b><br />This functionality is only available with the Advanced experience. For more information, see [Customizing Your Dynamics 365 Business edition  Experience](../ui-experiences.md) </blockquote>
+<blockquote STYLE="background: #81BEF7;border-left:None"><b>ADVANCED</b><br />This functionality is only available with the Advanced experience. For more information, see [Customizing Your Finance and Operations, Business edition  Experience](../ui-experiences.md) </blockquote>

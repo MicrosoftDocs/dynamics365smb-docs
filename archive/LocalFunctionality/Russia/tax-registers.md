@@ -1,6 +1,6 @@
 ---
     title: Tax Registers
-    description: In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can set up tax registers to track and manage taxable profits and losses in accordance with Russian tax accounting principles.
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can set up tax registers to track and manage taxable profits and losses in accordance with Russian tax accounting principles.
 
     services: project-madeira 
     documentationcenter: ''
@@ -17,7 +17,7 @@
 
 ---
 # Tax Registers
-In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can set up tax registers to track and manage taxable profits and losses in accordance with Russian tax accounting principles. Tax registers allow you to group taxable transactions into logical categories and apply tax accounting rules for the recognition of revenue and expenditures.  
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can set up tax registers to track and manage taxable profits and losses in accordance with Russian tax accounting principles. Tax registers allow you to group taxable transactions into logical categories and apply tax accounting rules for the recognition of revenue and expenditures.  
 
 ## Types of Tax Registers  
 There are two types of tax registers that are used for tracking taxable profits and losses.  
@@ -28,7 +28,7 @@ There are two types of tax registers that are used for tracking taxable profits 
 |Create Tax Registers|Creates the tax registers that you define using the **Tax Register Setup** window.|  
 
 ## See Also  
- [How to: Set Up Tax Accounting](how-to-set-up-tax-accounting.md)   
- [How to: Create Tax Registers](how-to-create-tax-registers.md)   
- [How to: Set Up Tax Register Sections](how-to-set-up-tax-register-sections.md)   
+ [Set Up Tax Accounting](how-to-set-up-tax-accounting.md)   
+ [Create Tax Registers](how-to-create-tax-registers.md)   
+ [Set Up Tax Register Sections](how-to-set-up-tax-register-sections.md)   
  [Tax Differences](tax-differences.md)

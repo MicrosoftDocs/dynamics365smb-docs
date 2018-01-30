@@ -1,6 +1,6 @@
 ---
     title: Custom XML Part Overview for Word Report Layouts | Microsoft Docs
-    description: Word report layouts are built on *custom XML parts*. A custom XML part is structured XML that represents the dataset of a ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> client.
+    description: Word report layouts are built on *custom XML parts*. A custom XML part is structured XML that represents the dataset of a ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> client.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # Custom XML Part Overview for Word Report Layouts
-Word report layouts are built on *custom XML parts*. A custom XML part is structured XML that represents the dataset of a ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> client.  
+Word report layouts are built on *custom XML parts*. A custom XML part is structured XML that represents the dataset of a ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> client.  
   
 ## XML Structure of Custom XML Part  
  A custom XML part for a ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/nav_dev_long_md.md)]-->.  
@@ -33,7 +33,7 @@ Word report layouts are built on *custom XML parts*. A custom XML part is struct
 |`..</DataItem1>`<br /><br /> `</NavWordReportXmlPart>`|Closing element.|  
   
 ## Custom XML Part in Word  
- In Word, you open the custom XML part in the **XML Mapping** pane, and then use the pane to map elements to content controls in the Word document. The **XML Mapping** pane is accessible from the **Developer** tab (for more information, see [How to: Show the Developer Tab on the Ribbon](http://go.microsoft.com/fwlink/?LinkID=389631)).  
+ In Word, you open the custom XML part in the **XML Mapping** pane, and then use the pane to map elements to content controls in the Word document. The **XML Mapping** pane is accessible from the **Developer** tab (for more information, see [Show the Developer Tab on the Ribbon](http://go.microsoft.com/fwlink/?LinkID=389631)).  
   
  The elements in the **XML Mapping** pane appear in a structure that is similar to the XML source. Label fields are grouped under a common **Labels** element and data item and columns are arranged in a hierarchal structure that corresponds to the XML source, with columns listed in alphabetical order. Elements are identified by their name as defined by the Name property in Report Dataset Designer in ADD INCLUDE<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->.  
   
@@ -49,11 +49,11 @@ Word report layouts are built on *custom XML parts*. A custom XML part is struct
   
 -   The language of the label that is displayed when you run the report depends on the language setting of the report object. For more information, see [Multiple Document Languages](../FullExperience/Viewing%20the%20Application%20in%20Different%20Languages.md).  
   
- For information about how to open the custom XML part in Word and add fields, see [How to: Add Fields to a Word Report Layout](../FullExperience/how-to-add-fields-to-a-word-report-layout.md).  
+ For information about how to open the custom XML part in Word and add fields, see [Add Fields to a Word Report Layout](../FullExperience/how-to-add-fields-to-a-word-report-layout.md).  
   
 ## See Also  
  [Managing Report Layouts From the Microsoft Dynamics NAV Clients](../FullExperience/managing-report-layouts-from-the-microsoft-dynamics-nav-clients.md)   
  [About Report Layouts](../FullExperience/about-report-layouts.md)   
- [How to: Create a Custom Report Layout](../FullExperience/how-to-create-a-custom-report-layout.md)   
- [How to: Add Fields to a Word Report Layout](../FullExperience/how-to-add-fields-to-a-word-report-layout.md)   
- [How to: Modify a Custom Report Layout](../FullExperience/how-to-modify-a-custom-report-layout.md)
+ [Create a Custom Report Layout](../FullExperience/how-to-create-a-custom-report-layout.md)   
+ [Add Fields to a Word Report Layout](../FullExperience/how-to-add-fields-to-a-word-report-layout.md)   
+ [Modify a Custom Report Layout](../FullExperience/how-to-modify-a-custom-report-layout.md)

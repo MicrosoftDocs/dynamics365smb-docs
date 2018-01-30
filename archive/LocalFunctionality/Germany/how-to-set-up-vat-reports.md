@@ -1,6 +1,6 @@
 ---
     title: How to Set Up VAT Reports
-    description: Information from various invoice types is used to feed data into the EU Sales List report. To file a VAT report under the ELMA5 system from [!INCLUDE[navnow](../../includes/navnow_md.md)], you need to set up report parameters.
+    description: Information from various invoice types is used to feed data into the EU Sales List report. To file a VAT report under the ELMA5 system from [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you need to set up report parameters.
 
     services: project-madeira 
     documentationcenter: ''
@@ -16,8 +16,8 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up VAT Reports
-Information from various invoice types is used to feed data into the EU Sales List report. To file a VAT report under the ELMA5 system from [!INCLUDE[navnow](../../includes/navnow_md.md)], you need to set up report parameters.  
+# Set Up VAT Reports
+Information from various invoice types is used to feed data into the EU Sales List report. To file a VAT report under the ELMA5 system from [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you need to set up report parameters.  
 
 ## To set up a VAT report  
 
@@ -26,7 +26,7 @@ Information from various invoice types is used to feed data into the EU Sales Li
 
     If the field is left blank, users must create a corrective VAT report instead.  
 
-3.  Select the **Export Cancellation Lines** check box if you want to include information about cancellation lines when you export data for the VAT report of EU sales. For more information, see [How to: Correct VAT Reports](how-to-correct-vat-reports.md).  
+3.  Select the **Export Cancellation Lines** check box if you want to include information about cancellation lines when you export data for the VAT report of EU sales. For more information, see [Correct VAT Reports](how-to-correct-vat-reports.md).  
 4.  On the **Numbering** FastTab, specify the number series that will be used for standard VAT reports. This will be the default numbering series that is used on any VAT Report that you then create.  
 
     Depending on the requirements, you can use the same number series for all VAT reports, or separate number series for each type of VAT report.
@@ -38,4 +38,4 @@ Information from various invoice types is used to feed data into the EU Sales Li
 
 ## See Also  
  [VAT Reporting](vat-reporting.md)   
- [How to: Create VAT Reports](how-to-create-vat-reports.md)
+ [Create VAT Reports](how-to-create-vat-reports.md)

@@ -1,6 +1,6 @@
 ---
-title: Set up email in Dynamics 365 Business edition | Microsoft Docs
-description: Describes how to use the company's SMTP server to send and receive email messages within Dynamics 365, or alternatively how to use the email server settings created with the Office 365 subscription.
+title: Set up email in Finance and Operations, Business edition | Microsoft Docs
+description: Describes how to use the company's SMTP server to send and receive email messages within Finance and Operations, Business edition, or alternatively how to use the email server settings created with the Office 365 subscription.
 documentationcenter: ''
 author: edupont04
 
@@ -14,7 +14,7 @@ ms.date: 06/02/2017
 ms.author: edupont
 
 ---
-# How to: Set Up Email Manually or Using the Assisted Setup
+# Set Up Email Manually or Using the Assisted Setup
 To send and receive emails from within [!INCLUDE[d365fin](includes/d365fin_md.md)], you must fill in the fields in the **SMTP Mail Setup** window.
 
 > [!NOTE]  
@@ -32,7 +32,7 @@ You can either set email up manually or you can get help by using the **Email Se
 ## See Also  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[How to: Send Documents by Email](ui-how-send-documents-email.md)  
+[Send Documents by Email](ui-how-send-documents-email.md)  
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as Your Business Inbox in Outlook](madeira-outlook.md)  
 [Getting [!INCLUDE[d365fin](includes/d365fin_md.md)] on My Mobile Device](install-mobile-app.md)

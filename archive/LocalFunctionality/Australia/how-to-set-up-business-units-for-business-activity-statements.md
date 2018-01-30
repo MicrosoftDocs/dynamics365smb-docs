@@ -1,6 +1,6 @@
 ---
     title: How to Set Up Business Units for Business Activity Statements
-    description: In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can consolidate the financial statements of various companies into one financial statement.
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can consolidate the financial statements of various companies into one financial statement.
 
     services: project-madeira 
     documentationcenter: ''
@@ -16,8 +16,8 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Business Units for Business Activity Statements
-In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can consolidate the financial statements of various companies into one financial statement.  
+# Set Up Business Units for Business Activity Statements
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can consolidate the financial statements of various companies into one financial statement.  
 
 You must set up a consolidation company to perform the consolidation. In this company, the total amounts for all accounts in the group, from both the parent company and subsidiaries are added together. You must also indicate the general ledger accounts in the consolidated company to which the total should be transferred.  
 
@@ -56,4 +56,4 @@ You must set up information in the **General Ledger Setup** window before you ca
 
 ## See Also  
  [Business Activity Statements](business-activity-statements.md)   
- [How to: Set Up Business Activity Statements](how-to-set-up-business-activity-statements.md)
+ [Set Up Business Activity Statements](how-to-set-up-business-activity-statements.md)

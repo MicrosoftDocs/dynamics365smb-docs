@@ -17,7 +17,7 @@
 
 ---
 # Belgian VAT
-[!INCLUDE[navnow](../../includes/navnow_md.md)] ../../includes Belgium enhancements to VAT reporting feature that enables you to print VAT transaction details. You must send the following reports to the Belgian tax authorities:  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] ../../includes Belgium enhancements to VAT reporting feature that enables you to print VAT transaction details. You must send the following reports to the Belgian tax authorities:  
 
 -   Monthly/Quarterly declaration - This report is used to create monthly or quarterly VAT declarations, depending on your company revenue.  
 
@@ -36,5 +36,5 @@ You are also required to provide a printed statement detailing the VAT transacti
 
 ## See Also  
  [Belgium Local Functionality](belgium-local-functionality.md)   
- [How to: Print Periodic VAT Reports](how-to-print-periodic-vat-reports.md)   
- [How to: Set Up Non-Deductible VAT](how-to-set-up-non-deductible-vat.md)
+ [Print Periodic VAT Reports](how-to-print-periodic-vat-reports.md)   
+ [Set Up Non-Deductible VAT](how-to-set-up-non-deductible-vat.md)

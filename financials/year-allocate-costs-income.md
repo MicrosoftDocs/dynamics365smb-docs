@@ -14,7 +14,7 @@ ms.date: 06/07/2017
 ms.author: sgroespe
 
 ---
-# How to: Allocate Costs and Income
+# Allocate Costs and Income
 You can allocate an entry in a general journal to several different accounts when you post the journal. The allocation can be made by three different methods:
 
 * Quantity

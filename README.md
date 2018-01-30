@@ -4,7 +4,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
 # dynamics365smb-docs-pr
-Welcome to the repository for user assistance content for Dynamics 365 for Financials! Financials is aimed at small and midsized businesses, and the repo is private. The public repo is here: https://github.com/MicrosoftDocs/dynamics365smb-docs.
+Welcome to the repository for user assistance content for Dynamics 365 for Finance and Operations, Business edition! This product is aimed at small and midsized businesses, and the repo is private. The public repo is here: https://github.com/MicrosoftDocs/dynamics365smb-docs.
 If you have any questions, please contact us through the navua alias.  
 
 
@@ -242,7 +242,12 @@ The TOC structure of the TOC file is as follows:
 All fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] have tooltips. Therefore, do not document fields in Help. To refer readers to the tooltips, use this standard phrase where relevant:    
 "Choose a field to read a short description of the field or link to more information."
 
-### File naming
+### Topic Titles
+- Use imperative verb form for step-based topics ("Pay vendors").
+- Use gerund verb form for conceptual, non-step topics. ("Paying Vendors")
+- Use nouns for highest-level topics. ("Sales")
+
+### File Naming
 
 #### Rules
 - No spaces or punctuation characters. Use hyphens to separate the words in the file name.
@@ -250,34 +255,21 @@ All fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] have tooltips. Therefo
 - No more than 80 characters - this is a publishing system limit
 - Use action verbs that are specific such as develop, buy, build, troubleshoot. No -ing words.
 - No small words - don't include a, and, the, in, or, etc.
-- Country-specific article file names are prefixed with the country code. Example: "ca-" for Canada.
 - All files must be in markdown and use the .md file extension.
 
 #### Examples
 
 |Topic title |Naming  |
 |------------|--------|
-|How to: Select a Company|ui-how-select-company.md|
+|Select a Company|ui-how-select-company.md|
 |Enter Criteria in Filters|ui-enter-criteria-filters.md|
 |Troubleshooting: Record Locked by Another User|ui-troubleshoot-record-locked-another-user.md|
 |Changing Role Center|ui-change-role-center.md|
-|||
+|Sales|sales-manage-sales.md|
 |Set Up Currencies|finance-setup-currencies.md|
-|How to: Set Up Purchasers|purchases-how-setup-purchasers.md|
+|Set Up Purchasers|purchases-how-setup-purchasers.md|
 |Understanding Session Timeouts|admin-understand-session-timeouts.md|
 |Manage Data Encryption|admin-manage-data-encryption.md|
-|||
-|How to: Work With GIFI Codes in Canada|ca-finance-work-GiFI-codes.md|
-
-Naming consists of the following elements: ```<country prefix>-<category prefix>-<topic title>.<extension>```
 
 ### Country-specific content
-To simplify content localization and translation, country-specific articles live in the same folder ```/articles``` as the articles for the generic product. We distinguish country-specific article file names by a country prefix.
-
-To give readers the impression that the content library is truly country-specific, while maintaining the simple file structure, we integrate country-specific articles in a subtle way by following these guidelines:
-
-- Prefix article file names with the country code. Example: ```ca-``` for Canada.
-- End article titles with ```in <country>```. Example: "How to: Work With GIFI Codes in Canada".
-- Link to country-specific content from generic content whenever relevant. The more you link to and from country-specific content, the more integrated it will feel. As for all other links, the link name must be the same as the title of the target article.
-- In navigation tables; the To/See tables in top-level topics, create rows for country-specific references at the bottom of the table. Prefix the text in the **To** column with ```<country>:``` Example: "Canada: How to: Work With GIFI Codes in Canada".
-- Do not create TOC entries for country-specific content. TOC entries will make the content library appear less country-specific.
+To simplify content localization and translation, country-specific articles live in country-specific folders. The TOC entries live under the "Local Functionality" parent node.

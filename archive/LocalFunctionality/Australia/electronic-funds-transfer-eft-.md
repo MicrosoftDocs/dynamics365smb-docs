@@ -19,8 +19,8 @@
 # Electronic Funds Transfer (EFT)
 You can pay vendors using the electronic funds transfer (EFT) system in Australia.  
 
-## Setting up Electronic Funds Transfer in [!INCLUDE[navnow](../../includes/navnow_md.md)]  
- [!INCLUDE[navnow](../../includes/navnow_md.md)] can export EFT files that you can then upload to your bank’s website for additional processing. To submit EFT files, you must set up the following information:  
+## Setting up Electronic Funds Transfer in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]  
+ [!INCLUDE[d365fin](../../includes/d365fin_md.md)] can export EFT files that you can then upload to your bank’s website for additional processing. To submit EFT files, you must set up the following information:  
 
 -   You must add EFT information to the bank account or bank accounts that you will use to pay vendors electronically. The EFT-specific fields are on the **Transfer** FastTab in the Bank Account Card window.  
 
@@ -29,4 +29,4 @@ You can pay vendors using the electronic funds transfer (EFT) system in Australi
  When you have set up bank accounts and vendors, you can create EFT file that are based on entries in the payment journal. For more information, see Create EFT File. When you create an EFT file, an entry is made in the **EFT Register** table. In the EFT Register window, you can drill down to see the vendor ledger entries for the EFT file. In the Payment Journal window, you can also import existing EFT register entries to the payment journal by using the **Transfer EFT Register** batch job.
 
 ## See Also  
-[How to: Export Payments to a Bank File](../..(payables-how-export-payments-bank-file.md)
+[Export Payments to a Bank File](../..(payables-how-export-payments-bank-file.md)

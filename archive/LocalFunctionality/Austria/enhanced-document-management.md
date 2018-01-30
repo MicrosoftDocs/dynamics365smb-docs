@@ -1,6 +1,6 @@
 ---
     title: Enhanced Document Management
-    description: In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can archive documents and track work across archived and non-archived documents.
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can archive documents and track work across archived and non-archived documents.
 
     services: project-madeira 
     documentationcenter: ''
@@ -17,7 +17,7 @@
 
 ---
 # Enhanced Document Management
-In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can archive documents and track work across archived and non-archived documents.  
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can archive documents and track work across archived and non-archived documents.  
 
 ## Archiving Documents  
  You can use enhanced archive document management to:  
@@ -50,5 +50,5 @@ You can select a document line within a document type, and view and retrieve the
 - Posted invoices  
 
 ## See Also  
- [How to: Create Blanket Sales Orders](../../sales-how-to-create-blanket-sales-orders.md)   
- [How to: Track Document Lines](how-to-track-document-lines.md)
+ [Create Blanket Sales Orders](../../sales-how-to-create-blanket-sales-orders.md)   
+ [Track Document Lines](how-to-track-document-lines.md)

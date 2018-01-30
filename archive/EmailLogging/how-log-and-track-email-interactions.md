@@ -15,7 +15,7 @@
     ms.author: bholtorf
 
 ---
-# How to: Log and Track Email Interactions
+# Log and Track Email Interactions
 Email logging is designed to capture interactions between senders and the recipients on the **To:** line of email messages. It captures the interactions that have been successfully concluded; interactions that are in a postponed state are not tracked.  
   
 Email logging uses Exchange Web Services to access an Exchange server. It uses a specified mail folder on the Exchange Server, called the queue folder. After an email message is retrieved from the queue folder, it is copied to another folder, called a storage folder. The email interaction is logged in the **Interaction Log Entry** table in [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can view the entries in the **Interaction Log Entries** window.  
@@ -44,7 +44,7 @@ For more information about the steps that you can take to make your application 
 ## To run email logging
 Email logging can be used to capture email activities between salespersons and contacts. Both persons must have valid email addresses that are registered on the respective salesperson and contact cards.  
 
- You can create email messages in Outlook, or in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [How to: Send Documents by Email](ui-how-send-documents-email.md).  
+ You can create email messages in Outlook, or in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Send Documents by Email](ui-how-send-documents-email.md).  
 
 > [!IMPORTANT]  
 >  The interaction template associated with email logging must have the following characteristics:  
@@ -114,7 +114,7 @@ To resolve this issue, the administrator has to log all mails again to restore t
 ### Upgrades to Job Queue Functionality Require Changes in Your Email Logging Implementation  
 Job queue categories have been introduced in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Accordingly, to upgrade email logging, you will have to update your implementation to reflect this change.  
 
-For more information, see [How to: Set Up Job Queues](../how-to-create-job-queue-categories.md).  
+For more information, see [Set Up Job Queues](../how-to-create-job-queue-categories.md).  
 
 ### Error when viewing mail based on interaction log entries  
 **Description**: An error may appear when you want to view a logged email in the **Interaction Log Entries** window. The error occurs when [!INCLUDE[d365fin](includes/d365fin_md.md)] attempts to open the corresponding email in Microsoft Outlook.  
@@ -123,4 +123,4 @@ For more information, see [How to: Set Up Job Queues](../how-to-create-job-queue
 
 ## See Also  
 [Walkthrough: Logging Email Interactions in the Database](walkthrough-logging-email-interactions-in-the-database.md)   
-[How to: Set Up Email Logging](how-to-set-up-email-logging.md)   
+[Set Up Email Logging](how-to-set-up-email-logging.md)   

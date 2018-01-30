@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Copy Data to New Companies
+# Copy Data to New Companies
 You can copy commonly used values from an existing company to a new one, as long as both companies are in the same database. For example, if you have a standard list of symptom codes that is common to all your service management implementations, you can copy the codes easily from one company to another.  
   
 ### To copy data to a new company using ADD INCLUDE<!--[!INCLUDE[rim](../../includes/rim_md.md)]-->  

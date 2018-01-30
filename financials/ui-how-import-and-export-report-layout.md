@@ -15,7 +15,7 @@
     ms.author: jswymer
 
 ---
-# How to: Import and Export a Report or Document Layout
+# Import and Export a Report or Document Layout
 You can import and export an existing custom report layout as a file to and from a location on your computer and network. For example, you can export a report layout, and then send the file to another person to modify. That person can then make the modifications to layout and return the file to you so that you can import it back.  
   
 > [!IMPORTANT]  
@@ -48,6 +48,6 @@ You can import and export an existing custom report layout as a file to and from
  The original custom report layout is replaced with the imported report layout.  
   
 ## See Also  
- [How to: Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md)   
+ [Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md)   
  [Managing Report and Document Layouts](ui-manage-report-layouts.md)  
  [Working with Reports](ui-work-report.md)    

@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Cost Objects
+# Set Up Cost Objects
 Cost objects are projects, products, or services of a company. The chart of cost objects is similar to the dimension information for the general ledger. You can set up the chart of cost objects in the following ways:  
 
 * Transfer dimension values in the general ledger to the chart of cost objects. You can make any necessary adjustments after the transfer.  

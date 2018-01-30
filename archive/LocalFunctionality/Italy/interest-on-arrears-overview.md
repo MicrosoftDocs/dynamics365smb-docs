@@ -1,6 +1,6 @@
 ---
     title: Interest on Arrears Overview
-    description: In [!INCLUDE[navnow](../../includes/navnow_md.md)], finance charge terms can include interest on arrears if you have amounts outstanding from customers or amounts outstanding for vendors.
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], finance charge terms can include interest on arrears if you have amounts outstanding from customers or amounts outstanding for vendors.
 
     services: project-madeira 
     documentationcenter: ''
@@ -17,7 +17,7 @@
 
 ---
 # Interest on Arrears Overview
-In [!INCLUDE[navnow](../../includes/navnow_md.md)], finance charge terms can include interest on arrears if you have amounts outstanding from customers or amounts outstanding for vendors.  
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], finance charge terms can include interest on arrears if you have amounts outstanding from customers or amounts outstanding for vendors.  
 
 ## Calculating Interest on Arrears  
 For each finance charge term, you can define how the interest is calculated, and you can define different interest rates for different periods.  
@@ -27,5 +27,5 @@ When you apply a finance charge term with interest on arrears to a customer or v
 After you run the report, if a customer owes interest on arrears, the information about the amount of interest on arrears to pay is added to the customer statement.  
 
 ## See Also  
- [How to: Set Up Interest on Arrears](how-to-set-up-interest-on-arrears.md)   
+ [Set Up Interest on Arrears](how-to-set-up-interest-on-arrears.md)   
   [Italy Local Functionality](italy-local-functionality.md)

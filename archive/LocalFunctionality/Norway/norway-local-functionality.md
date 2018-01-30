@@ -1,6 +1,6 @@
 ---
     title: Norway Local Functionality
-    description: The following topics describe the local functionality in the Norwegian version of [!INCLUDE[navnow](../../includes/navnow_md.md)].
+    description: The following topics describe the local functionality in the Norwegian version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
 
     services: project-madeira 
     documentationcenter: ''
@@ -17,11 +17,11 @@
 
 ---
 # Norway Local Functionality
-The following topics describe local functionality that is unique to the Norwegian version of [!INCLUDE[navnow](../../includes/navnow_md.md)]  
+The following topics describe local functionality that is unique to the Norwegian version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)]  
 
 ## In This Section  
-  [How to: Apply General Ledger Entries in Closed Periods](how-to-apply-general-ledger-entries-in-closed-periods.md)  
-  [How to: Import Payroll Transactions](how-to-import-payroll-transactions.md)  
+  [Apply General Ledger Entries in Closed Periods](how-to-apply-general-ledger-entries-in-closed-periods.md)  
+  [Import Payroll Transactions](how-to-import-payroll-transactions.md)  
   [EHF Electronic Invoicing in Norway](ehf-electronic-invoicing-in-norway.md)  
   [Electronic Banking in Norway](electronic-banking-in-norway.md)  
   [Electronic Payments to Vendors in Norway](electronic-payments-to-vendors-in-norway.md)  
@@ -31,4 +31,4 @@ The following topics describe local functionality that is unique to the Norwegia
   [Multiple Interest Rates Overview](multiple-interest-rates-overview.md)  
 
 ## See Also
-[Working with [!INCLUDE[navnow](../../includes/navnow_md.md)]](../../ui-work-product.md)    
+[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)    

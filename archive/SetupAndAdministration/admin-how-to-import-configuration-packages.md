@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Import Configuration Packages
+# Import Configuration Packages
 When you create a new company, you can import company settings for the new company. You import the settings from a .rapidstart file, which delivers the package contents in a compressed format. A corresponding set of default data migration tables are imported. The data set contains master data tables and the setup data tables. Your first task in data migration is to evaluate if the default migration setup meets the needs of the new company.  
 
 > [!NOTE]  
@@ -52,7 +52,7 @@ When you create a new company, you can import company settings for the new compa
  If the selection of tables does not meet your needs, you can create one or more new data migration files. If the files are sufficient, you can continue with the data migration using .xls or .xml files.  
 
 ## See Also  
- [How to: Create and Modify the Migration Tables List](../how-to-create-and-modify-the-migration-tables-list.md)   
- [How to: Import Customer Data](../how-to-import-customer-data.md)   
- [How to: Create and Modify the Migration Tables List](../how-to-create-and-modify-the-migration-tables-list.md)   
- [How to: Create a Configuration Package](../how-to-create-a-configuration-package.md)
+ [Create and Modify the Migration Tables List](../how-to-create-and-modify-the-migration-tables-list.md)   
+ [Import Customer Data](../how-to-import-customer-data.md)   
+ [Create and Modify the Migration Tables List](../how-to-create-and-modify-the-migration-tables-list.md)   
+ [Create a Configuration Package](../how-to-create-a-configuration-package.md)

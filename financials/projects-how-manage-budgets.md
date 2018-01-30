@@ -15,10 +15,10 @@ ms.date: 06/06/2017
 ms.author: sgroespe
 
 ---
-# How to: Manage Job Budgets
+# Manage Job Budgets
 You can set up a budget for each job. The budget is used to plan the resources that you allocate to a job. The budget can be either general with few entries or it can contain more entries that are divided into activity levels. You can then compare the budgeted amounts with the actual usage as recorded in the job journal. By monitoring differences between actual usage and budgeted usage, you can control an ongoing project and improve the quality of future jobs by reducing the risk of underestimating costs.
 
-The following procedure describes how to estimate budgeted costs during planning. For information about recording budgeted versus actual job prices and costs, see [How to: Record Usage for Jobs](projects-how-record-job-usage.md).  
+The following procedure describes how to estimate budgeted costs during planning. For information about recording budgeted versus actual job prices and costs, see [Record Usage for Jobs](projects-how-record-job-usage.md).  
 
 ## <a name="JobBudgetCosts"></a> To estimate the budgeted costs for a job
 When a customer wants to know the price of a job that will be invoiced based on usage, you must have to determine the budgeted costs for the job. You use the **Job Task Lines** window to do this.
@@ -44,7 +44,7 @@ For the **Line Type** field, refer to the following information.
 
 In the **Job Card** window, you can now see a summary of the total budgeted costs, budgeted price, billable cost and billable price for each task.
 
-For information about recording budgeted versus actual job prices and costs, see [How to: Record Usage for Jobs](projects-how-record-job-usage.md).
+For information about recording budgeted versus actual job prices and costs, see [Record Usage for Jobs](projects-how-record-job-usage.md).
 
 ## See Also
 [Project Management](projects-manage-projects.md)  

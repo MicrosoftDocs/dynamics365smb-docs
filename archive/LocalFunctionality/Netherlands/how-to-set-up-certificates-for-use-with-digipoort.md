@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Certificates for use with Digipoort
+# Set Up Certificates for use with Digipoort
 The following procedure assumes that you have obtained the certificates from the government. If you have not, take the following steps to obtain the certificates.  
 
 - Obtain a PKIoverheid certificate for the company if you do not have one already. A list of certificate providers can be found here: [http://www.logius.nl/producten/toegang/pkioverheid/aansluiten/toegetreden-csps](http://www.logius.nl/producten/toegang/pkioverheid/aansluiten/toegetreden-csps).  
@@ -27,14 +27,14 @@ The following procedure assumes that you have obtained the certificates from the
 
 After you register and log on to the official site, you can download the digiport server certificates from this site: <[https://aansluiten.procesinfrastructuur.nl/site/documentatie/certificaten](https://aansluiten.procesinfrastructuur.nl/site/documentatie/certificaten)>.  
 
-Next, you have to install the certificates. The certificates have to be installed on the server. Later, you will use the common name (CN) of the certificates in [!INCLUDE[navnow](../../includes/navnow_md.md)].  
+Next, you have to install the certificates. The certificates have to be installed on the server. Later, you will use the common name (CN) of the certificates in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 > [!NOTE]  
 >  In the Digipoort implementation you install certificates on the server. Users who need to be able to communicate with tax authorities via Digipoort will need access to the private key of the personal certificate on the server.  
 
 ## To install the certificates  
 
-1.  Open the **Windows Certificate Console** to import the certificates that you have obtained from the government. For more information, see [How to: Use the Certificates Console](http://social.technet.microsoft.com/wiki/contents/articles/2167.how-to-use-the-certificates-console.aspx).  
+1.  Open the **Windows Certificate Console** to import the certificates that you have obtained from the government. For more information, see [Use the Certificates Console](http://social.technet.microsoft.com/wiki/contents/articles/2167.how-to-use-the-certificates-console.aspx).  
 2.  Import the two certificates. For more information, [To import a certificate](http://social.technet.microsoft.com/wiki/contents/articles/2167.how-to-use-the-certificates-console.aspx#To_import_certificates).  
 
     **Personal Certificate**  

@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Create Electronic VAT Transactions Reports
+# Create Electronic VAT Transactions Reports
 You must create a list of transactions that include VAT with amounts over the current threshold on or before the specified occurrence date. You submit this report to the tax authorities.  
 
 ## To create a VAT transactions report  
@@ -31,11 +31,11 @@ You must create a list of transactions that include VAT with amounts over the cu
     |**Other**|The VAT entries that resulted in this line are not associated with a special contract, such as ongoing maintenance or other exceptions.|  
 
     > [!TIP]  
-    >  In [!INCLUDE[navnow](../../includes/navnow_md.md)], the contract that the tax authorities are looking for can be blanket orders or service contracts. To identify if the VAT report line belongs to a blanket order or service contract, you can drill down to see the underlying VAT entries from the **Amount** field.  
+    >  In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the contract that the tax authorities are looking for can be blanket orders or service contracts. To identify if the VAT report line belongs to a blanket order or service contract, you can drill down to see the underlying VAT entries from the **Amount** field.  
 
 Credit memos are included in the VAT transaction report if the customer or vendor is from a country/region that is outside the EU and not black-listed. For more information, see [Italian VAT](italian-vat.md).  
 
-Now that you have created the VAT report, you must submit it to the tax authorities. For more information, see [How to: Export VAT Transactions Reports](how-to-export-vat-transactions-reports.md).  
+Now that you have created the VAT report, you must submit it to the tax authorities. For more information, see [Export VAT Transactions Reports](how-to-export-vat-transactions-reports.md).  
 
 ## See Also  
  [Italian VAT](italian-vat.md)

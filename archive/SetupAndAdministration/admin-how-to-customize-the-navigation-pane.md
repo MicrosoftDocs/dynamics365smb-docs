@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Customize the Navigation Pane
+# Customize the Navigation Pane
 You can customize the navigation pane with the **Customize Navigation Pane** window.  
   
 > [!NOTE]  
@@ -72,7 +72,7 @@ You can customize the navigation pane with the **Customize Navigation Pane** win
 2.  Use the **Move Up** and **Move Down** buttons to position the link.  
   
 ## Restoring Default Settings  
- If you want to cancel all the changes that you have made (and saved) to the navigation pane, you can do this in the **Customize Navigation Pane** dialog box. All the customization of the navigation pane that you have ever made under your current user logon or since you last used the **Restore Defaults** button are canceled. The navigation pane is reset to the default configuration for your profile. For more information, see [How to: Cancel UI Personalization](../how-to-cancel-ui-personalization.md).  
+ If you want to cancel all the changes that you have made (and saved) to the navigation pane, you can do this in the **Customize Navigation Pane** dialog box. All the customization of the navigation pane that you have ever made under your current user logon or since you last used the **Restore Defaults** button are canceled. The navigation pane is reset to the default configuration for your profile. For more information, see [Cancel UI Personalization](../how-to-cancel-ui-personalization.md).  
   
 #### To restore default settings  
   
@@ -82,9 +82,9 @@ You can customize the navigation pane with the **Customize Navigation Pane** win
   
 ## See Also  
  PERSONALIZATION Personalize the User Interface   
- [How to: Add Department Links to the Role Center](../how-to-add-department-links-to-the-role-center.md)   
- [How to: Customize Ribbons](../how-to-customize-ribbons.md)   
- [How to: Specify When UI Elements Are Removed](../How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md)   
+ [Add Department Links to the Role Center](../how-to-add-department-links-to-the-role-center.md)   
+ [Customize Ribbons](../how-to-customize-ribbons.md)   
+ [Specify When UI Elements Are Removed](../How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md)   
  [Customize the User Interface](../customize-the-user-interface.md)   
  [Working with Product Name](../working-with-$-p_1-product-name-$-.md)   
  [Learn About the RoleTailored Design](../learn-about-the-roletailored-design.md)

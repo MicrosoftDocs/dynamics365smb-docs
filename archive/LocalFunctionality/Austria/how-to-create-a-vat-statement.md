@@ -16,8 +16,8 @@
     ms.author: sgroespe
 
 ---
-# How to: Create a VAT Statement
-[!INCLUDE[navnow](../../includes/navnow_md.md)] allows you to submit a periodic report of VAT transactions. The VAT statement is submitted as a FDF file that corresponds with an editable PDF file from the tax authorities.  
+# Create a VAT Statement
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] allows you to submit a periodic report of VAT transactions. The VAT statement is submitted as a FDF file that corresponds with an editable PDF file from the tax authorities.  
 
 > [!IMPORTANT]  
 >  You must fill in detailed information about your company address in the Company Information window before you create the VAT statement. This includes information about street, building, floor, and room number. This information is included in the FDF file.  

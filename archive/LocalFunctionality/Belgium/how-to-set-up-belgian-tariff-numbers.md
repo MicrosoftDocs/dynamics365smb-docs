@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Belgian Tariff Numbers
+# Set Up Belgian Tariff Numbers
 The Belgian customs and tax authorities have established an 8-digit item code for various tariff items.  
 
 ### To set up tariff numbers  
@@ -35,7 +35,7 @@ The Belgian customs and tax authorities have established an 8-digit item code fo
   
 ## See Also  
  [Belgian Intrastat Reporting](belgian-intrastat-reporting.md)   
- [How to: Set Up Declaration Types](how-to-set-up-declaration-types.md)   
- [How to: Set Up Intrastat Establishment Numbers](how-to-set-up-intrastat-establishment-numbers.md)   
- [How to: Export Intrastat Third-Party Declararations](how-to-export-intrastat-third-party-declararations.md)   
- [How to: Print the Intrastat Form Report](how-to-print-the-intrastat-form-report.md)
+ [Set Up Declaration Types](how-to-set-up-declaration-types.md)   
+ [Set Up Intrastat Establishment Numbers](how-to-set-up-intrastat-establishment-numbers.md)   
+ [Export Intrastat Third-Party Declararations](how-to-export-intrastat-third-party-declararations.md)   
+ [Print the Intrastat Form Report](how-to-print-the-intrastat-form-report.md)

@@ -1,6 +1,6 @@
 ---
     title: Design Details | Microsoft Docs
-    description: This content contains detailed technical information about complex application features in Dynamics 365.
+    description: This content contains detailed technical information about complex application features in Finance and Operations, Business edition.
     author: SorenGP
 
     ms.service: dynamics365-financials

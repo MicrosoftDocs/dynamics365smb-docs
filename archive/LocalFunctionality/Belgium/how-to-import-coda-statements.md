@@ -1,6 +1,6 @@
 ---
     title: How to Import CODA Statements
-    description: When you receive a CODA statement from your bank, you must import it into [!INCLUDE[navnow](../../includes/navnow_md.md)].
+    description: When you receive a CODA statement from your bank, you must import it into [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
 
     services: project-madeira 
     documentationcenter: ''
@@ -16,8 +16,8 @@
     ms.author: sgroespe
 
 ---
-# How to: Import CODA Statements
-When you receive a CODA statement from your bank, you must import it into [!INCLUDE[navnow](../../includes/navnow_md.md)]. For more information, see [How to: Set Up Bank Accounts for CODA](how-to-set-up-bank-accounts-for-coda.md).  
+# Import CODA Statements
+When you receive a CODA statement from your bank, you must import it into [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. For more information, see [Set Up Bank Accounts for CODA](how-to-set-up-bank-accounts-for-coda.md).  
 
 ## To import a CODA statement  
 
@@ -25,13 +25,13 @@ When you receive a CODA statement from your bank, you must import it into [!INCL
 2.  Select the bank account, and then choose **Import CODA File** action.  
 3.  Enter the name of the file to import and then choose the **OK** button.  
 
-This imports the CODA statement. Next, you must process the CODA statement lines. For more information, see [How to: Apply CODA Statements](how-to-apply-coda-statements.md).  
+This imports the CODA statement. Next, you must process the CODA statement lines. For more information, see [Apply CODA Statements](how-to-apply-coda-statements.md).  
 
 ## See Also  
  [CODA Bank Statements](coda-bank-statements.md)   
- [How to: Set Up Bank Accounts for CODA](how-to-set-up-bank-accounts-for-coda.md)   
- [How to: Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md)   
- [How to: Apply CODA Statements](how-to-apply-coda-statements.md)   
- [How to: Create Financial Journals](how-to-create-financial-journals.md)   
- [How to: Automatically Transfer and Post CODA Statements](how-to-automatically-transfer-and-post-coda-statements.md)   
- [How to: Manually Transfer and Post CODA Statements](how-to-manually-transfer-and-post-coda-statements.md)
+ [Set Up Bank Accounts for CODA](how-to-set-up-bank-accounts-for-coda.md)   
+ [Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md)   
+ [Apply CODA Statements](how-to-apply-coda-statements.md)   
+ [Create Financial Journals](how-to-create-financial-journals.md)   
+ [Automatically Transfer and Post CODA Statements](how-to-automatically-transfer-and-post-coda-statements.md)   
+ [Manually Transfer and Post CODA Statements](how-to-manually-transfer-and-post-coda-statements.md)

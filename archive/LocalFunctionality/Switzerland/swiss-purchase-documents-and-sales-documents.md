@@ -16,7 +16,7 @@
 
 ---
 # Swiss Purchase Documents and Sales Documents
-[!INCLUDE[navnow](../../includes/navnow_md.md)] includes Swiss enhancements to purchase documents and sales documents. This includes the following:  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] includes Swiss enhancements to purchase documents and sales documents. This includes the following:  
 
 - Enhanced posting descriptions for general ledger entries, customer ledger entries, and vendor ledger entries. For more information, see the G/L Entry table, the Cust. Ledger Entry table, and the Vendor Ledger Entry table.  
 - The ability to have subtitles, subtotals, and begin and end totals in sales quotes and sales orders.  
@@ -40,8 +40,8 @@ For purchase invoices and sales invoices, the invoice amount is reduced by the d
 In the **Sales & Receivables Setup** window, the **Shipment on Ship and Invoice** field is used to turn off printing of additional shipment documents for purchase invoices and sales invoices. When you post an order, a posted shipment and a posted invoice are automatically created. If the printed invoice is also used as a shipment document, additional shipment documentation does not need to be printed. You can turn off printing of additional shipment documents for purchase invoices and sales invoices by clearing the **Shipment on Ship and Invoice** field in the **Sales & Receivables Setup** window. For more information, see the Sales & Receivables Setup table.  
 
 ## See Also  
- [How to: Set Up Automatic Archiving of Documents in Switzerland](how-to-set-up-automatic-archiving-of-documents-in-switzerland.md)   
- [How to: Import Swiss Post Codes](how-to-import-swiss-post-codes.md)   
- [How to: Print an Inventory Picking List from a Sales Order](how-to-print-an-inventory-picking-list-from-a-sales-order.md)   
- [How to: Print Sales and Purchase Orders During Batch Posting](how-to-print-sales-and-purchase-orders-during-batch-posting.md)   
+ [Set Up Automatic Archiving of Documents in Switzerland](how-to-set-up-automatic-archiving-of-documents-in-switzerland.md)   
+ [Import Swiss Post Codes](how-to-import-swiss-post-codes.md)   
+ [Print an Inventory Picking List from a Sales Order](how-to-print-an-inventory-picking-list-from-a-sales-order.md)   
+ [Print Sales and Purchase Orders During Batch Posting](how-to-print-sales-and-purchase-orders-during-batch-posting.md)   
  [Switzerland Local Functionality](switzerland-local-functionality.md)

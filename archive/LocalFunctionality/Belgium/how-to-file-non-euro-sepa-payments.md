@@ -1,6 +1,6 @@
 ---
     title: How to File Non-Euro SEPA Payments
-    description: In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can file non-euro SEPA payments with the bank. This is useful when you make payments to other countries that do not use SEPA and for currencies other than the euro.
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can file non-euro SEPA payments with the bank. This is useful when you make payments to other countries that do not use SEPA and for currencies other than the euro.
 
     services: project-madeira 
     documentationcenter: ''
@@ -16,8 +16,8 @@
     ms.author: sgroespe
 
 ---
-# How to: File Non-Euro SEPA Payments
-In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can file non-euro SEPA payments with the bank. This is useful when you make payments to other countries that do not use SEPA and for currencies other than the euro.  
+# File Non-Euro SEPA Payments
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can file non-euro SEPA payments with the bank. This is useful when you make payments to other countries that do not use SEPA and for currencies other than the euro.  
 
 Before you can file a non-euro SEPA payment you must complete the following administration tasks:  
 
@@ -43,6 +43,6 @@ Before you can file a non-euro SEPA payment you must complete the following admi
 3.  Choose the **OK** button.  
 
 ## See Also  
- [How to: File SEPA Payments](how-to-file-sepa-payments.md)   
- [How to: Activate SEPA Payments](how-to-activate-sepa-payments.md)   
+ [File SEPA Payments](how-to-file-sepa-payments.md)   
+ [Activate SEPA Payments](how-to-activate-sepa-payments.md)   
  [SEPA Payments](sepa-payments.md)

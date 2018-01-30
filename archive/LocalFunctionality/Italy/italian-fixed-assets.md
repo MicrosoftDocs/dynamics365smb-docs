@@ -34,7 +34,7 @@ Reduced depreciation allows companies that can prove that an asset’s use is le
 ## See Also  
  [Fixed Assets](../../fa-manage.md)     
  [Italy Local Functionality](italy-local-functionality.md)   
- [How to: Set Up Alternate Depreciation Methods](how-to-set-up-alternate-depreciation-methods.md)   
- [How to: Create Multiple Fixed Asset Cards](how-to-create-multiple-fixed-asset-cards.md)   
- [How to: Set Up Compressed Depreciation of Fixed Assets](how-to-set-up-compressed-depreciation-of-fixed-assets.md)   
- [How to: Print Depreciation Book Reports](how-to-print-depreciation-book-reports.md)
+ [Set Up Alternate Depreciation Methods](how-to-set-up-alternate-depreciation-methods.md)   
+ [Create Multiple Fixed Asset Cards](how-to-create-multiple-fixed-asset-cards.md)   
+ [Set Up Compressed Depreciation of Fixed Assets](how-to-set-up-compressed-depreciation-of-fixed-assets.md)   
+ [Print Depreciation Book Reports](how-to-print-depreciation-book-reports.md)

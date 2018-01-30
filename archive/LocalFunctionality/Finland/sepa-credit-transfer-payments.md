@@ -21,4 +21,4 @@
 
 ## See Also  
  [Finland Local Functionality](finland-local-functionality.md)   
- [How to: Set Up Bank Reference Files](how-to-set-up-bank-reference-files.md)
+ [Set Up Bank Reference Files](how-to-set-up-bank-reference-files.md)

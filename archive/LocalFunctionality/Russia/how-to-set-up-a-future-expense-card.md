@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up a Future Expense Card
+# Set Up a Future Expense Card
 To account for future period expenses you have to set up a future expense card.  
 
 ## To set up a future expense card  
@@ -43,5 +43,5 @@ To account for future period expenses you have to set up a future expense card.
 
 ## See Also  
  [Future Expenses (Deferrals)](future-expenses-deferrals-.md)   
- [How to: Create Future Expense Journals](how-to-create-future-expense-journals.md)   
- [How to: Set Up Future Expenses in a Depreciation Book](how-to-set-up-future-expenses-in-a-depreciation-book.md)
+ [Create Future Expense Journals](how-to-create-future-expense-journals.md)   
+ [Set Up Future Expenses in a Depreciation Book](how-to-set-up-future-expenses-in-a-depreciation-book.md)

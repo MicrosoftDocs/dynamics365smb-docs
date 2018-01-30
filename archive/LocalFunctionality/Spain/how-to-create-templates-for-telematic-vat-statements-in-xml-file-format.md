@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Create Templates for Telematic VAT Statements in XML File Format
+# Create Templates for Telematic VAT Statements in XML File Format
 In order to submit VAT statements electronically, you must create templates to generate the required files. You can submit files in text format and in XML format. This procedure describes how to create templates for XML files.  
 
 For more information, see the [Spanish Tax Agency](http://go.microsoft.com/fwlink/?LinkID=238181) website.  
@@ -52,5 +52,5 @@ For more information, see the [Spanish Tax Agency](http://go.microsoft.com/fwlin
 This creates the template. Now, you can create a file that you can then submit to the tax authorities.  
 
 ## See Also  
- [How to: Export VAT Statements in XML Format](how-to-export-vat-statements-in-xml-format.md)   
- [How to: Create Templates for Telematic VAT Statements in Text File Format](how-to-create-templates-for-telematic-vat-statements-in-text-file-format.md)
+ [Export VAT Statements in XML Format](how-to-export-vat-statements-in-xml-format.md)   
+ [Create Templates for Telematic VAT Statements in Text File Format](how-to-create-templates-for-telematic-vat-statements-in-text-file-format.md)

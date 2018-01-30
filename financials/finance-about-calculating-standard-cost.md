@@ -48,7 +48,7 @@ The following key cost elements make up the total direct cost of a finished proc
 -   Direct material cost represents an invoiced amount for purchased raw materials or the processing cost of a subassembly.  
 -   Indirect material cost, or *overhead*, can represent elements such as inventory carrying costs for the finished item after it is produced.  
 
-The setup of the material cost for purchased items that affect direct and indirect cost depends on the costing method that you have selected for the specified item. You set up cost information for either costing method on the item card. For more information, see [How to: Register New Items](inventory-how-register-new-items.md).
+The setup of the material cost for purchased items that affect direct and indirect cost depends on the costing method that you have selected for the specified item. You set up cost information for either costing method on the item card. For more information, see [Register New Items](inventory-how-register-new-items.md).
 
 The cost of scrap (production only) is an additional factor to consider when you calculate the total material cost. When a certain amount of raw material is scrapped when you assemble or produce an item, it generally causes an increase in the quantity of components that are required to produce this item. This increases the material cost of the components that are consumed when producing a parent item. You set up scrap cost for materials on either the production BOM or routing.  
 
@@ -94,12 +94,12 @@ To update or calculate the standard cost of assembly items, use the function fro
 The process of updating or calculating standard costs typically consists of the following tasks:  
 
 1.  Updating costs at the component and capacity levels. For more information, see the **Suggest Item Standard Cost** and **Suggest Capacity Standard Cost** batch jobs.  
-2.  Consolidating and rolling up the component and capacity costs to calculate the total assembly or manufacturing cost of the items. For more information, see For more information, see the "To calculate the standard cost of an assembly item" section in [How to: Work with Bills of Material](inventory-how-work-BOMs.md).  
+2.  Consolidating and rolling up the component and capacity costs to calculate the total assembly or manufacturing cost of the items. For more information, see For more information, see the "To calculate the standard cost of an assembly item" section in [Work with Bills of Material](inventory-how-work-BOMs.md).  
 3.  Implementing the standard costs that are entered when you run the previous batch jobs. The standard costs do not take effect until they are implemented. For more information, see the **Implement Standard Cost Changes** batch job.  
-4.  Implementing the changes to update the **Unit Cost** field on the item card and perform inventory revaluation. For more information, see [How to: Revalue Inventory](inventory-how-revalue-inventory.md).
+4.  Implementing the changes to update the **Unit Cost** field on the item card and perform inventory revaluation. For more information, see [Revalue Inventory](inventory-how-revalue-inventory.md).
 
 ## See Also  
  [Design Details: Costing Methods](design-details-costing-methods.md)   
- [How to: Work with Bills of Material](inventory-how-work-BOMs.md)   
- [How to: Update Standard Costs](finance-how-to-update-standard-costs.md)   
+ [Work with Bills of Material](inventory-how-work-BOMs.md)   
+ [Update Standard Costs](finance-how-to-update-standard-costs.md)   
  [Design Details: Inventory Costing](design-details-inventory-costing.md)

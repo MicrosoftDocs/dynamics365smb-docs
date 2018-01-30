@@ -1,6 +1,6 @@
 ---
 title: Set up SEPA Direct Debit | Microsoft Docs
-description: Learn how to set up SEPA Direct Debit in Dynamics 365, Business edition .
+description: Learn how to set up SEPA Direct Debit in Finance and Operations, Business edition .
 author: SorenGP
 
 ms.service: dynamics365-financials
@@ -13,10 +13,10 @@ ms.date: 08/21/2017
 ms.author: sgroespe
 
 ---
-# How to: Set Up SEPA Direct Debit
+# Set Up SEPA Direct Debit
 From the **Direct Debit Collections** window, you can export instructions to your electronic bank to perform a direct debit collection from the customer’s bank account to your bank account. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the SEPA direct debit format, but in your country/region,other formats for electronic payments may be available.  
 
-To enable export of a bank file formats that are not supported out of the box in [!INCLUDE[d365fin](includes/d365fin_md.md)] , you can set up a data exchange definition by using the data exchange framework. For more information, see [How to: Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).  
+To enable export of a bank file formats that are not supported out of the box in [!INCLUDE[d365fin](includes/d365fin_md.md)] , you can set up a data exchange definition by using the data exchange framework. For more information, see [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).  
 
 Before you can process customer payments electronically by exporting direct debit instructions in the SEPA Direct Debit format, you must perform the following setup steps:  
 
@@ -68,10 +68,10 @@ Before you can process customer payments electronically by exporting direct debi
 
 6.  Repeat steps 1 through 5 for all customers that you want to set up for SEPA direct debits.  
 
- The direct-debit mandate is automatically inserted in the **Direct Debit Mandate ID** field when you create a sales invoice for the customer that you selected in step 2. For more information, see [How to: Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md).  
+ The direct-debit mandate is automatically inserted in the **Direct Debit Mandate ID** field when you create a sales invoice for the customer that you selected in step 2. For more information, see [Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md).  
 
 ## See Also  
 [Collecting Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  
-[How to: Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md)
-[How to: Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)
+[Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md)
+[Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)
 [Exchanging Data Electronically](across-data-exchange.md)

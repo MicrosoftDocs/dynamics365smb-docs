@@ -2,7 +2,7 @@
     title: How to Set Up Corrective Invoicing
     description: You can create corrective invoices and corrective credit memos to reflect changes in quantity and amounts after the items were shipped or received.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Corrective Invoicing
+# Set Up Corrective Invoicing
 You can create corrective invoices and corrective credit memos to reflect changes in quantity and amounts after the items were shipped or received. First, you must set up [!INCLUDE[d365fin](../../includes/d365fin_md.md)] with prerequisites.  
 
 ## To set up number series for corrective documents  

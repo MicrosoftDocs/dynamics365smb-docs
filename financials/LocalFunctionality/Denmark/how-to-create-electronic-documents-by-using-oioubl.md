@@ -15,8 +15,8 @@
     ms.author: sgroespe
 
 ---
-# How to: Create Electronic Documents by Using OIOUBL
-When you sell goods or services to a customer in the public sector, you must submit documents electronically. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create electronic documents for invoices, credit memos, reminders, and finance charge memos. Before you can create the electronic documents, you must have set up file locations and information about the customers. For more information, see [How to: Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md).  
+# Create Electronic Documents by Using OIOUBL
+When you sell goods or services to a customer in the public sector, you must submit documents electronically. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create electronic documents for invoices, credit memos, reminders, and finance charge memos. Before you can create the electronic documents, you must have set up file locations and information about the customers. For more information, see [Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md).  
 
 ## Creating Electronic Documents  
 Electronic documents can only be created after a document has been posted or issued. The following sections describe how to post a sales invoice with the required information and then create an electronic sales invoice, but the same procedure applies to sales credit memos, reminders, finance charge memos, service invoices, and service credit memos.  
@@ -53,6 +53,6 @@ An XML file is created and stored at the location that was defined in the **Sale
 
 ## See Also  
 [Denmark Local Functionality](denmark-local-functionality.md)  
- [How to: Set Up OIOUBL](how-to-set-up-oioubl.md)   
- [How to: Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md)   
+ [Set Up OIOUBL](how-to-set-up-oioubl.md)   
+ [Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md)   
  [OIOUBL Electronic Invoicing Overview](oioubl-electronic-invoicing-overview.md)

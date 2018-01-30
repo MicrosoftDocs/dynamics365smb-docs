@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Export Protocols
+# Set Up Export Protocols
 Before you can use electronic banking, you must set up export protocols. Export protocols define the file format that is generated when you export payment history to be processed by the bank. Each line contains an export protocol identified by a code and a description. You can set up as many export protocols as necessary. You must set up an export protocol for domestic payments, international payments, SEPA payments, and non-Euro SEPA payments.  
 
  With export protocols, you can assign the codeunit that defines the check that should be performed before exporting the payment lines to a file and the report that defines the payment format. For example, you might have an export protocol named **DOM1**. This export protocol contains the **Check Domestic Payments** check codeunit and the **File Domestic Payments** report. Each export protocol has both a check codeunit and a matching report, as shown in the following table.  
@@ -52,5 +52,5 @@ Before you can use electronic banking, you must set up export protocols. Export 
 
 ## See Also  
  [Belgian Electronic Payments](belgian-electronic-payments.md)   
- [How to: Create Payment Journal Templates and Batches](how-to-create-payment-journal-templates-and-batches.md)   
- [How to: Test Electronic Payments](how-to-test-electronic-payments.md)
+ [Create Payment Journal Templates and Batches](how-to-create-payment-journal-templates-and-batches.md)   
+ [Test Electronic Payments](how-to-test-electronic-payments.md)

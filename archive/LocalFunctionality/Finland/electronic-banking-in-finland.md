@@ -42,6 +42,6 @@ To send electronic bank payments to vendors, you can export domestic or foreign 
 
 ## See Also  
  [Finland Local Functionality](finland-local-functionality.md)   
- [How to: Set Up Bank Reference Files](how-to-set-up-bank-reference-files.md)   
- [How to: Generate Payment Files](how-to-generate-payment-files.md)   
- [How to: Disregard Payment Discounts](how-to-disregard-payment-discounts.md)   
+ [Set Up Bank Reference Files](how-to-set-up-bank-reference-files.md)   
+ [Generate Payment Files](how-to-generate-payment-files.md)   
+ [Disregard Payment Discounts](how-to-disregard-payment-discounts.md)   

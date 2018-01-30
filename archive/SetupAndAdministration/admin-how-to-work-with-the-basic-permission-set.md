@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Work with the BASIC Permission Set
+# Work with the BASIC Permission Set
 When a user creates a new database, that user is assigned only one permission set automatically: the SUPER permission set. As you create and define permission sets in a new database and companies, remember to always assign the BASIC permission set, which grants users access to required system tables and other fundamental tables, to all users.  
   
  The BASIC permission set primarily functions as a prerequisite to open the client and show all pages.  
@@ -65,6 +65,6 @@ When a user creates a new database, that user is assigned only one permission se
 ## See Also  
  [Security Overview](../Security%20Overview.md)   
  [Managing Permissions and Permission Sets](../Managing%20Permissions%20and%20Permission%20Sets.md)   
- [How to: Create or Modify Permission Sets](../How%20to:%20Create%20or%20Modify%20Permission%20Sets.md)   
+ [Create or Modify Permission Sets](../How%20to:%20Create%20or%20Modify%20Permission%20Sets.md)   
  [Customize the User Interface](../customize-the-user-interface.md)   
  [Removing Elements from the User Interface According to Permissions](../removing-elements-from-the-user-interface-according-to-permissions.md)

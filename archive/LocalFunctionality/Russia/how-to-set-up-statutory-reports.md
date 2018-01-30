@@ -2,7 +2,7 @@
     title: How to Set Up Statutory Reports
     description: The Russian federal tax authorities require companies to submit statutory reports in electronic formats such as XML or as Microsoft Excel documents. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you must set up the templates, formats, XML schemas, and other prerequisites so that you can generate the required files.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Statutory Reports
+# Set Up Statutory Reports
 The Russian federal tax authorities require companies to submit statutory reports in electronic formats such as XML or as Microsoft Excel documents. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you must set up the templates, formats, XML schemas, and other prerequisites so that you can generate the required files.  
 
 After you have set up a report and specified the required information, you can export the report to Excel, and then print the report.  
@@ -85,8 +85,8 @@ Next, you must define each statutory report.
 
         This creates a copy of the existing report with the tables and XML element lines. Now, you can make the appropriate changes as described earlier in this section.  
 
-You can now use the defined statutory reports to generate and submit reports to the authorities. For more information, see [How to: Create Statutory Report Data](how-to-create-statutory-report-data.md).  
+You can now use the defined statutory reports to generate and submit reports to the authorities. For more information, see [Create Statutory Report Data](how-to-create-statutory-report-data.md).  
 
 ## See Also  
  [Statutory Reports](statutory-reports.md)   
- [How to: Create Statutory Report Data](how-to-create-statutory-report-data.md)
+ [Create Statutory Report Data](how-to-create-statutory-report-data.md)

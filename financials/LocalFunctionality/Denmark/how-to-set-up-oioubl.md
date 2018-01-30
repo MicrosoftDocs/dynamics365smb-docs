@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up OIOUBL
+# Set Up OIOUBL
 You must define a location for storing Offentlig Information Online UBL (OIOUBL) files when you create electronic documents such as invoices or credit memos. You must also define payment methods, payment terms, and item charges, and you must set up relevant customers for OIOUBL.  
 
 ## To set up OIOUBL file locations for sales and receivables  
@@ -83,9 +83,9 @@ Next, you must categorize your item charges.
 
 You must also make sure that the OIOUBL Country-Region Code field is filled in for Denmark in the **Countries/Regions** window.  
 
-Finally, you must specify EAN numbers and account codes for the relevant customers. For more information, see [How to: Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md).  
+Finally, you must specify EAN numbers and account codes for the relevant customers. For more information, see [Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md).  
 
 ## See Also  
 [Denmark Local Functionality](denmark-local-functionality.md)  
 [OIOUBL Electronic Invoicing Overview](oioubl-electronic-invoicing-overview.md)   
-[How to: Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md)   
+[Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md)   

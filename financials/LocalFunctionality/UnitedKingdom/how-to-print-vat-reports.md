@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Print VAT Reports
+# Print VAT Reports
 You can use the following reports for VAT reporting:  
 
 -   **Day Book VAT Entry** – Displays the daily total for VAT entries for a specific period.  

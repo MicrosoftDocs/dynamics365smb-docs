@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up IBLC-BLWI Transaction Codes
+# Set Up IBLC-BLWI Transaction Codes
 In order to process electronic payments, you must set up transaction codes according to the requirements of the Belgian-Luxembourg Exchange Institute. These are international identification codes for the different types of payment transactions. The IBLC/BLWI codes are used only for international payments.  
 
 ## To set up IBLC/BLWI transaction codes  
@@ -28,5 +28,5 @@ In order to process electronic payments, you must set up transaction codes accor
 
 ## See Also  
  [Belgian Electronic Banking](belgian-electronic-banking.md)   
- [How to: Set Up Electronic Banking](how-to-set-up-electronic-banking.md)   
- [How to: Set Up Bank Accounts for CODA](how-to-set-up-bank-accounts-for-coda.md)
+ [Set Up Electronic Banking](how-to-set-up-electronic-banking.md)   
+ [Set Up Bank Accounts for CODA](how-to-set-up-bank-accounts-for-coda.md)

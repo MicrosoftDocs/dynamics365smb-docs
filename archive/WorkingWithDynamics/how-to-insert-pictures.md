@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Insert Pictures
+# Insert Pictures
 If you have a digitalized picture, which is picture file in .BMP format, you can insert it in most card windows, such as the item card or the employee card. The **Picture** field is not included in the standard layout of some card windows, but it can be inserted with the Design facilities. The following procedure describes how to insert pictures for items, but the same steps also apply to all card windows.  
   
 ### To insert a picture  

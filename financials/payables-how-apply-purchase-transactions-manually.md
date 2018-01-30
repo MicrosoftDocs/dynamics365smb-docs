@@ -15,7 +15,7 @@ ms.date: 06/15/2017
 ms.author: sgroespe
 
 ---
-# How to: Reconcile Vendor Payments Manually
+# Reconcile Vendor Payments Manually
 When you send a payment or receive a refund from a vendor, you must decide whether to apply the payment or refund to one or more open entries. You can specify the exact amount that you want to apply to the payment receipt or refund, and then only partially apply vendor ledger entries. You must apply all vendor ledger entries to obtain correct vendor statistics and reports of the account statements and finance charges.
 
 > [!NOTE]  
@@ -89,7 +89,7 @@ You can also apply vendor payments, and customer payments, after the payments ap
 ## To apply vendor ledger entries in different currencies to one another
 If you buy from a vendor in one currency and make payment in another currency, you can still apply the invoice to the payment.
 
-If you apply an entry (Entry 1) in one currency to an entry (Entry 2) in a different currency, the posting date on Entry 1 is used to find the relevant exchange rate to convert amounts on Entry 2. The relevant exchange rate is found in the **Currency Exchange Rates** window. In that case, you must enable application of vendor ledger entries in different currencies. For more information, see [How to: Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md)
+If you apply an entry (Entry 1) in one currency to an entry (Entry 2) in a different currency, the posting date on Entry 1 is used to find the relevant exchange rate to convert amounts on Entry 2. The relevant exchange rate is found in the **Currency Exchange Rates** window. In that case, you must enable application of vendor ledger entries in different currencies. For more information, see [Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md)
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journal**, and then choose the related link.
 2. Open the journal you want, and fill in the first empty journal line using a currency code.

@@ -66,5 +66,5 @@ The following table lists the fields in [!INCLUDE[d365fin](includes/d365fin_md.m
 ## See Also  
 [Setting Up Data Exchange](across-set-up-data-exchange.md)  
 [Exchanging Data Electronically](across-data-exchange.md)
-[How to: Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md)   
+[Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md)   
 [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   

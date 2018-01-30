@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Apply General Ledger Entries
+# Apply General Ledger Entries
 You apply general ledger entries to justify ledger balances on asset and liability accounts. For example, you can apply transactions on the bill of exchange accounts to get a clear picture of which bills make up the balance of the account.  
 
 ## To apply general ledger entries  
@@ -33,4 +33,4 @@ This effectuates the application by setting the Letter and Letter Date fields.
 >  Applied entries will be identified by the same three-letter combination and the same date. Balanced entries will be assigned only uppercase letters, and unbalanced entries will be assigned only lowercase letters.  
 
 ## See Also  
- [How to: Unapply General Ledger Entries](how-to-unapply-general-ledger-entries.md)
+ [Unapply General Ledger Entries](how-to-unapply-general-ledger-entries.md)

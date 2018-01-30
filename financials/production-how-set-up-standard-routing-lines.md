@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Standard Routing Lines
+# Set Up Standard Routing Lines
 The use of standard tasks simplifies the creation and maintenance of routings. They allow you to quickly attach extra information to recurring operations.
 
 ## To set up a standard task
@@ -31,8 +31,8 @@ The use of standard tasks simplifies the creation and maintenance of routings. T
 3. Select a relevant routing line, choose the **Operations** action, and then choose the **Tools**, **Personnel**, **Description**, or **Tools** action.
 
 ## See Also  
-[How to: Create Routings](production-how-to-create-routings.md)  
-[How to: Create Production BOMs](production-how-to-create-production-boms.md)     
+[Create Routings](production-how-to-create-routings.md)  
+[Create Production BOMs](production-how-to-create-production-boms.md)     
 [Setting Up Manufacturing](production-configure-production-processes.md)   
 [Manufacturing](production-manage-manufacturing.md)    
 [Planning](production-planning.md)   

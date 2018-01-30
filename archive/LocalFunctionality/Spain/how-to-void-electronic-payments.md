@@ -2,7 +2,7 @@
     title: How to Void Electronic Payments
     description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can void the exported payment file. By voiding the file, the entire payment journal from which the file was created, will be deleted.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Void Electronic Payments
+# Void Electronic Payments
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can void the exported payment file. By voiding the file, the entire payment journal from which the file was created, will be deleted.  
 
 ## To void electronic payments  
@@ -38,5 +38,5 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can void the exported 
     |**Payment Order No.**|Specify the payment order number from which the payments will be voided.|  
 
 ## See Also  
- [How to: Set Up Bank Accounts for Electronic Payments](how-to-set-up-bank-accounts-for-electronic-payments.md)   
- [How to: Pay Vendors by Using Electronic Payments](how-to-pay-vendors-by-using-electronic-payments.md)
+ [Set Up Bank Accounts for Electronic Payments](how-to-set-up-bank-accounts-for-electronic-payments.md)   
+ [Pay Vendors by Using Electronic Payments](how-to-pay-vendors-by-using-electronic-payments.md)

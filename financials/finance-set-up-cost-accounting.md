@@ -22,10 +22,10 @@ Before you start working with cost accounting, you must perform setup tasks.
 
 |To|See|  
 |--------|---------|  
-|Create the chart of cost types.|[How to: Set Up Cost Types](finance-how-to-set-up-cost-types.md)|  
+|Create the chart of cost types.|[Set Up Cost Types](finance-how-to-set-up-cost-types.md)|  
 |Learn about the connection between the cost type and the general ledger account.|[Defining the Relationship Between Cost Types and General Ledger Accounts](finance-defining-the-relationship-between-cost-types-and-general-ledger-accounts.md)|  
-|Create the chart of cost centers.|[How to: Set Up Cost Centers](finance-how-to-set-up-cost-centers.md)|  
-|Create the chart of cost objects.|[How to: Set Up Cost Objects](finance-how-to-set-up-cost-objects.md)|  
+|Create the chart of cost centers.|[Set Up Cost Centers](finance-how-to-set-up-cost-centers.md)|  
+|Create the chart of cost objects.|[Set Up Cost Objects](finance-how-to-set-up-cost-objects.md)|  
 
 ## See Also  
 [Accounting for Costs](finance-manage-cost-accounting.md)  

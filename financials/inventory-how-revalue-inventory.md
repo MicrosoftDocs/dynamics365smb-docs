@@ -15,7 +15,7 @@ ms.date: 08/07/2017
 ms.author: sgroespe
 
 ---
-# How to: Revalue Inventory
+# Revalue Inventory
 If you want to appreciate or depreciate an item or a specific item ledger entry, you must use the revaluation journal.
 
 ## To revalue inventory

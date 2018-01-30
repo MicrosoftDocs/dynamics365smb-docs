@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Configure New Companies using a Cmdlet
+# Configure New Companies using a Cmdlet
 In a number of scenarios, you may want to load and import a configuration package without involving your users or using the RapidStart Services user interface. You can do so by using a Windows PowerShell cmdlet. Scenarios where this may be useful include:  
 
 -   Performing data import across multiple [!INCLUDE[d365fin](includes/d365fin_md.md)] installations without opening each of installation manually.  
@@ -43,4 +43,4 @@ In a number of scenarios, you may want to load and import a configuration packag
 
 ## See Also  
  [Microsoft Dynamics NAV Windows PowerShell Cmdlets](../Microsoft%20Dynamics%20NAV%20Windows%20PowerShell%20Cmdlets.md)   
- [How to: Configure New Companies](../how-to-configure-new-companies.md)
+ [Configure New Companies](../how-to-configure-new-companies.md)

@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Archive Payment Slips
+# Archive Payment Slips
 When a payment slip has been processed, you can separate it from the active payment slips by archiving it.  
 
 You can archive the payment slip by using the following methods:  
@@ -43,13 +43,13 @@ You can archive the payment slip by using the following methods:
 The payment slips are archived.  
 
 > [!NOTE]  
->  This batch job will only archive payment slips that have the **Archiving Authorized** check box selected in the **Payment Status** window. For more information, see [How to: Set Up Payment Statuses](how-to-set-up-payment-statuses.md).  
+>  This batch job will only archive payment slips that have the **Archiving Authorized** check box selected in the **Payment Status** window. For more information, see [Set Up Payment Statuses](how-to-set-up-payment-statuses.md).  
 
 ## See Also  
  [Payment Management](payment-management.md)   
- [How to: Set Up Payment Classes](how-to-set-up-payment-classes.md)   
- [How to: Set Up Payment Statuses](how-to-set-up-payment-statuses.md)   
- [How to: Set Up Payment Steps](how-to-set-up-payment-steps.md)   
- [How to: Set Up Payment Addresses](how-to-set-up-payment-addresses.md)   
- [How to: Create Payment Slips](how-to-create-payment-slips.md)   
- [How to: Post Payment Slips](how-to-post-payment-slips.md)
+ [Set Up Payment Classes](how-to-set-up-payment-classes.md)   
+ [Set Up Payment Statuses](how-to-set-up-payment-statuses.md)   
+ [Set Up Payment Steps](how-to-set-up-payment-steps.md)   
+ [Set Up Payment Addresses](how-to-set-up-payment-addresses.md)   
+ [Create Payment Slips](how-to-create-payment-slips.md)   
+ [Post Payment Slips](how-to-post-payment-slips.md)

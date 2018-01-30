@@ -31,6 +31,6 @@ In the tax accounting module, the following synthetic registers of the Profit Ta
 
 ## See Also  
  [Tax Accounting](tax-accounting.md)   
- [How to: Set Up Tax Register Sections](how-to-set-up-tax-register-sections.md)   
- [How to: Create Tax Registers](how-to-create-tax-registers.md)   
+ [Set Up Tax Register Sections](how-to-set-up-tax-register-sections.md)   
+ [Create Tax Registers](how-to-create-tax-registers.md)   
  [Tax Differences](tax-differences.md)

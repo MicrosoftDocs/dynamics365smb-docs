@@ -26,9 +26,9 @@ Posting represents the accounting action of recording business transactions in t
 |------------|-------------|  
 |Learn about posting purchase documents.|[About Posting Purchases](../FullExperience/about-posting-purchases.md)|  
 |Learn about posting sales documents.|[About Posting Sales](../FullExperience/about-posting-sales.md)|  
-|Learn about posting general journals.|[How to: Fill and Post General Journals](../FullExperience/how-to-fill-and-post-general-journals.md)|  
-|Preview, in a window, the entries that will be created when you post.|[How to: Preview Posting Results](../FullExperience/how-to-preview-posting-results.md)|  
-|Preview, in a report, the entries that will be created when you post.|[How to: View Test Reports Before Posting](../FullExperience/how-to-view-test-reports-before-posting.md)|  
+|Learn about posting general journals.|[Fill and Post General Journals](../FullExperience/how-to-fill-and-post-general-journals.md)|  
+|Preview, in a window, the entries that will be created when you post.|[Preview Posting Results](../FullExperience/how-to-preview-posting-results.md)|  
+|Preview, in a report, the entries that will be created when you post.|[View Test Reports Before Posting](../FullExperience/how-to-view-test-reports-before-posting.md)|  
   
 ## See Also  
  [Working with Product Name](../FullExperience/working-with-$-p_1-product-name-$-.md)   

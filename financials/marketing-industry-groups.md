@@ -15,7 +15,7 @@ ms.date: 06/06/2017
 ms.author: jswymer
 
 ---
-# How to: Set Up Industry Groups for Contact Companies
+# Set Up Industry Groups for Contact Companies
 You use industry groups to indicate the type of industry to which your contacts belong, for example, the retail industry or the automobile industry.
 
 Using industry groups on contacts is a two-step process. First, you define the industry group code. You only have to perform this step one time for each industry group. Once you have an industry group code, you can start to assign the code to contact companies.
@@ -40,7 +40,7 @@ Repeat these steps to assign as many industry groups as you want. You can also a
 
 The number of industry groups that you have assigned to the contact is displayed in the **No. of Industry Groups** field in the **Segmentation** section in the **Contact** window.
 
-After you have assigned industry groups to your contacts, you can use this information to select contacts for your segments. For more information, see [How to: Add Contacts to Segments](marketing-add-contact-segment.md).
+After you have assigned industry groups to your contacts, you can use this information to select contacts for your segments. For more information, see [Add Contacts to Segments](marketing-add-contact-segment.md).
 
 ## See Also
 [Creating Contact Companies](marketing-create-contact-companies.md)  

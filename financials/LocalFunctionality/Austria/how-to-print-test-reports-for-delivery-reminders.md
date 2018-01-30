@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Print Test Reports for Delivery Reminders
+# Print Test Reports for Delivery Reminders
 After you have created delivery reminders and made any needed modifications, you can either print the test reports or issue the delivery reminders.  
 
 A test report is a document that lets you review and modify a delivery reminder before you issue it.  
@@ -29,5 +29,5 @@ A test report is a document that lets you review and modify a delivery reminder 
 
 ## See Also  
  [Delivery Reminders](delivery-reminders.md)   
- [How to: Generate Delivery Reminders](how-to-generate-delivery-reminders.md)   
- [How to: Issue Delivery Reminders](how-to-issue-delivery-reminders.md)
+ [Generate Delivery Reminders](how-to-generate-delivery-reminders.md)   
+ [Issue Delivery Reminders](how-to-issue-delivery-reminders.md)

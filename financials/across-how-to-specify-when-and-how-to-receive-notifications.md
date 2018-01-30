@@ -14,12 +14,12 @@
     ms.date: 07/01/2017
     ms.author: sgroespe
 ---
-# How to: Specify When and How to Receive Notifications
+# Specify When and How to Receive Notifications
 When you set up users in approval workflows, you must specify in the **Notification Setup** and **Notification Schedule** windows how and when each user receives notifications about approval workflow steps. Individual users can also change their notification setup by choosing the **Change Notification Settings** button on any notification.  
 
- Before you can set up an approval user’s notification preferences, you must set the user up as an approval user. For more information, [How to: Set Up Approval Users](across-how-to-set-up-approval-users.md).  
+ Before you can set up an approval user’s notification preferences, you must set the user up as an approval user. For more information, [Set Up Approval Users](across-how-to-set-up-approval-users.md).  
 
- You define the layout and content of notifications by setting up notification templates. For more information, see [How to: Manage Notification Templates](across-how-to-manage-notification-templates.md).  
+ You define the layout and content of notifications by setting up notification templates. For more information, see [Manage Notification Templates](across-how-to-manage-notification-templates.md).  
 
  Many approval workflow steps are about notifying users that an event has occurred that they must act on. For example, on one workflow step, the event can be that User 1 requests approval of a new record. The related response is that a notification is sent to User 2, the approver. On the next workflow step, the event can be that User 2 approves the record. The related response is that a notification is sent to User 3 to start a process with the approved record. For workflow steps that are about approval, each notification is tied to an approval entry. For more information, see [Workflow](across-workflow.md).  
 
@@ -54,8 +54,8 @@ When you set up users in approval workflows, you must specify in the **Notificat
 2.  In the **Notification Setup** window, change your notification preferences as described in the previous procedure.  
 
 ## See Also  
- [How to: Set Up Approval Users](across-how-to-set-up-approval-users.md)   
- [How to: Manage Notification Templates](across-how-to-manage-notification-templates.md)   
+ [Set Up Approval Users](across-how-to-set-up-approval-users.md)   
+ [Manage Notification Templates](across-how-to-manage-notification-templates.md)   
  [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)   
  [Setting Up Workflows](across-set-up-workflows.md)   
  [Using Workflows](across-use-workflows.md)

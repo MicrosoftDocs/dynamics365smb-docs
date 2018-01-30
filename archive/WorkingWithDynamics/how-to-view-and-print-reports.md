@@ -15,7 +15,11 @@
     ms.author: sgroespe
 
 ---
+<<<<<<< HEAD
 # How to: View and Print Reports
+=======
+# View and Print Reports
+>>>>>>> refs/remotes/origin/Update13
 In ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]-->, there are many predefined reports that you can find in different ways:  
   
 -   Some pages contain a **Reports** menu with reports related to the page, and reports may also be accessed from the ribbon.  
@@ -40,7 +44,7 @@ In ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]-->, there ar
   
     -   Under the **Limit totals to** heading, you can enter FlowFilters.  
   
-     For more information, see [How to: Set Filters](../FullExperience/enter-criteria-in-filters.md).  
+     For more information, see [Set Filters](../FullExperience/enter-criteria-in-filters.md).  
   
 ## Sorting Data  
  Some reports let you control the sort order of the data in the report. If the report contains a **Sorting** section in one of the FastTabs with filters, you can sort records in ascending or descending order, for example, numerically or alphabetically.  

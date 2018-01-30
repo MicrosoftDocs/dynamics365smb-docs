@@ -107,7 +107,7 @@ To keep an email logging system running at all times, you must use it together w
 
 ### To set up Microsoft Dynamics NAV Server  
 1. Open <!--[!INCLUDE[d365fin](includes/nav_admin.md.md)]-->.  
-2. Create a new server instance called EMAIL. <!--For more information, see [How to: Create a Microsoft Dynamics NAV Server Instance](../How%20to:%20Create%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md).-->To prevent collisions with the default server port settings, set port information as follows.  
+2. Create a new server instance called EMAIL. <!--For more information, see [Create a Microsoft Dynamics NAV Server Instance](../How%20to:%20Create%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md).-->To prevent collisions with the default server port settings, set port information as follows.  
 
     |Port|Setting|  
     |----------|-------------|  

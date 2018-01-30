@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Print a VAT Reconciliation Report
+# Print a VAT Reconciliation Report
 The **VAT Reconciliation** report shows the reconciliation settlement for the base amount and the VAT amount for general ledger accounts. These amounts are grouped by different VAT types.  
 
 ## To print the VAT reconciliation report  
@@ -33,4 +33,4 @@ The **VAT Reconciliation** report shows the reconciliation settlement for the ba
 
 ## See Also  
  [Norway Local Functionality](norway-local-functionality.md)   
- [How to: Report VAT to Tax Authorities](../../finance-how-report-vat.md)
+ [Report VAT to Tax Authorities](../../finance-how-report-vat.md)

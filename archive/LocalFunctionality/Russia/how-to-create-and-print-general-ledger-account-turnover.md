@@ -2,7 +2,7 @@
     title: How to Create and Print General Ledger Account Turnover
     description: Russian enhancements enable you to create general ledger account turnover information in the **G/L Account Turnover** window.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Create and Print General Ledger Account Turnover
+# Create and Print General Ledger Account Turnover
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] enables you to create general ledger account turnover information in the **G/L Account Turnover** window.  
 
  You can then verify this information in the following reports:  

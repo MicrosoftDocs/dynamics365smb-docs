@@ -20,7 +20,7 @@ In the **Posting** group on a purchase document, you can choose between the foll
   
 -   **Post**  
   
--   **Preview Posting** for more information, see [How to: Preview Posting Results](../FullExperience/how-to-preview-posting-results.md).  
+-   **Preview Posting** for more information, see [Preview Posting Results](../FullExperience/how-to-preview-posting-results.md).  
   
 -   **Post and Print**  
   
@@ -60,7 +60,7 @@ In the **Posting** group on a purchase document, you can choose between the foll
   
 ## See Also  
  Purchase Order   
- [How to: Post Purchase Orders](../FullExperience/how-to-post-purchase-orders.md)   
- [How to: Post Purchase Invoices](../FullExperience/how-to-post-purchase-invoices.md)   
- [How to: Preview Posting Results](../FullExperience/how-to-preview-posting-results.md)   
+ [Post Purchase Orders](../FullExperience/how-to-post-purchase-orders.md)   
+ [Post Purchase Invoices](../FullExperience/how-to-post-purchase-invoices.md)   
+ [Preview Posting Results](../FullExperience/how-to-preview-posting-results.md)   
  Batch Post Purchase Orders

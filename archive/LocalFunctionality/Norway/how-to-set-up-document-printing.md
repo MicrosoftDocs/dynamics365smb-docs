@@ -2,7 +2,7 @@
     title: How to Set Up Document Printing
     description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can print the sales reports that use the required giro specifications by using different paper types and paper trays.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Document Printing
+# Set Up Document Printing
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can print the sales reports that use the required giro specifications by using different paper types and paper trays.  
 
 When you use tray numbers and paper sources for Norwegian sales documents, you must consider how the printer and printer driver interpret this information. You may have to specify other tray numbers for your specific printer.  
@@ -56,4 +56,4 @@ The Norwegian version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)] conta
 ## See Also  
  [Paper Sources and Tray Numbers](paper-sources-and-tray-numbers.md)   
  [Norwegian Giro and OCR-B Font](norwegian-giro-and-ocr-b-font.md)   
- [How to: Set Up KID Numbers on Sales Documents](how-to-set-up-kid-numbers-on-sales-documents.md)
+ [Set Up KID Numbers on Sales Documents](how-to-set-up-kid-numbers-on-sales-documents.md)

@@ -15,12 +15,12 @@
     ms.author: sgroespe
 
 ---
-# How to: Specify How to Handle External Files and Automation Objects
+# Specify How to Handle External Files and Automation Objects
 When [!INCLUDE[d365fin](includes/d365fin_md.md)] receives an external file, you are presented with a dialog box. In addition to selecting what to do with the file, you can decide how to treat that file type next time it is received.  
   
  When [!INCLUDE[d365fin](includes/d365fin_md.md)] is required to run an automation object, you are presented with a dialog box. You can decide whether that type of object should always or never be able to run.  
   
- You can cancel your decisions for handling files and automation objects by opening the **Reset User-Specified Settings** window from your Role Center. For more information, see [How to: Cancel Basic UI Changes and File Handling Decisions](../how-to-cancel-basic-ui-changes-and-file-handling-decisions.md).  
+ You can cancel your decisions for handling files and automation objects by opening the **Reset User-Specified Settings** window from your Role Center. For more information, see [Cancel Basic UI Changes and File Handling Decisions](../how-to-cancel-basic-ui-changes-and-file-handling-decisions.md).  
   
 ### To specify how to handle external files  
   
@@ -38,8 +38,8 @@ When [!INCLUDE[d365fin](includes/d365fin_md.md)] receives an external file, you 
   
 ## See Also  
  PERSONALIZATION Personalize the User Interface   
- [How to: Cancel Basic UI Changes and File Handling Decisions](../how-to-cancel-basic-ui-changes-and-file-handling-decisions.md)   
- [How to: Make Basic UI Changes](../how-to-make-basic-ui-changes.md)   
+ [Cancel Basic UI Changes and File Handling Decisions](../how-to-cancel-basic-ui-changes-and-file-handling-decisions.md)   
+ [Make Basic UI Changes](../how-to-make-basic-ui-changes.md)   
  DELETEPERSONALIZATION Reset User-Specified Settings   
  [Customize the User Interface](../customize-the-user-interface.md)   
  [Working with Product Name](../working-with-$-p_1-product-name-$-.md)   

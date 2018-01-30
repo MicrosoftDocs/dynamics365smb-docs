@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Ignore Discounts in General Ledger Accounts
+# Ignore Discounts in General Ledger Accounts
 Some general ledger accounts do not accept payment discounts or invoice discounts. You can ignore the discounts for these general ledger accounts.  
 
 ## To ignore discounts in general ledger accounts  

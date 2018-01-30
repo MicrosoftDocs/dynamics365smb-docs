@@ -22,5 +22,10 @@ Cash/Bank/Giro helps you posting both cash and bank/giro transactions into the s
 
 ## See Also  
  [Telebanking](telebanking.md)   
+<<<<<<< HEAD:financials/LocalFunctionality/Netherlands/cash-bank-giro.md
  [How to: Print the Test Reports for Cash and Bank or Giro Journals](how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md)   
  [How to: Enter and Post Cash and Bank or Giro Journals](how-to-enter-and-post-cash-and-bank-or-giro-journals.md)
+=======
+ [Print the Test Reports for Cash and Bank or Giro Journals](how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md)   
+ [Enter and Post Cash and Bank or Giro Journals](how-to-enter-and-post-cash-and-bank-or-giro-journals.md)
+>>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Netherlands/cash-bank-giro.md

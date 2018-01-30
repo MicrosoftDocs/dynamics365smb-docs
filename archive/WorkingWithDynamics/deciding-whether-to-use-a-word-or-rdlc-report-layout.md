@@ -24,5 +24,5 @@ A report layout can be based on either a Word document or RDLC file. Deciding on
   
 ## See Also  
  [Managing Report Layouts From the Microsoft Dynamics NAV Clients](../FullExperience/managing-report-layouts-from-the-microsoft-dynamics-nav-clients.md)   
- [How to: Create a Custom Report Layout](../FullExperience/how-to-create-a-custom-report-layout.md)   
- [How to: Change Which Layout is Currently Used on a Report](../FullExperience/how-to-change-which-layout-is-currently-used-on-a-report.md)
+ [Create a Custom Report Layout](../FullExperience/how-to-create-a-custom-report-layout.md)   
+ [Change Which Layout is Currently Used on a Report](../FullExperience/how-to-change-which-layout-is-currently-used-on-a-report.md)

@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Disable Personalization
+# Disable Personalization
 You can disable personalization for all users by modifying the profile. When you disable personalization for a profile, all users of that profile cannot personalize their user interface.  
   
 ### To disable personalization  
@@ -28,6 +28,6 @@ You can disable personalization for all users by modifying the profile. When you
   
 ## See Also  
  PERSONALIZATION Personalize the User Interface   
- [How to: Cancel UI Personalization](../how-to-cancel-ui-personalization.md)   
+ [Cancel UI Personalization](../how-to-cancel-ui-personalization.md)   
  [Configure the User Interface](../configure-the-user-interface.md)   
  [Manage Profiles](../manage-profiles.md)

@@ -54,7 +54,7 @@ Production orders are automatically reserved and tracked to their source when:
 -   Created from the **Order Planning** window  
 -   Using the **Replan** function on production orders  
 
-For more information, see [How to: Track Relations Between Demand and Supply](production-how-track-demand-supply.md).
+For more information, see [Track Relations Between Demand and Supply](production-how-track-demand-supply.md).
 
 Production orders created through other means are not automatically reserved and tracked.   
 

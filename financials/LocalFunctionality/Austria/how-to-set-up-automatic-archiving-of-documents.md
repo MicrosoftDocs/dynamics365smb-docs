@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Automatic Archiving of Documents
+# Set Up Automatic Archiving of Documents
 You can set up automatic archiving of sales documents and purchase documents—such as quotes, blanket orders, and orders—before you delete documents.  
 
 The following procedure describes how to set up automatic archiving of sales documents, but the same steps apply to purchase documents.  
@@ -35,7 +35,14 @@ The following procedure describes how to set up automatic archiving of sales doc
 
 ## See Also  
  [Enhanced Document Management](enhanced-document-management.md)   
+<<<<<<< HEAD:financials/LocalFunctionality/Austria/how-to-set-up-automatic-archiving-of-documents.md
  [How to: Archive Blanket Orders](how-to-archive-blanket-orders.md)   
  [How to: Create an Order from an Archived Blanket Order](how-to-create-an-order-from-an-archived-blanket-order.md)   
  [How to: Delete Archived Blanket Orders](how-to-delete-archived-blanket-orders.md)   
  [How to: Track Document Lines](how-to-track-document-lines.md)
+=======
+ [Archive Blanket Orders](how-to-archive-blanket-orders.md)   
+ [Create an Order from an Archived Blanket Order](how-to-create-an-order-from-an-archived-blanket-order.md)   
+ [Delete Archived Blanket Orders](how-to-delete-archived-blanket-orders.md)   
+ [Track Document Lines](how-to-track-document-lines.md) 
+>>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Austria/how-to-set-up-automatic-archiving-of-documents.md

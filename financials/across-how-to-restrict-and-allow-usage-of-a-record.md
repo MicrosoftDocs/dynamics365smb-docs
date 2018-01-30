@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Restrict and Allow Usage of a Record
+# Restrict and Allow Usage of a Record
 If you want to restrict a record from being used in certain activities, for example, until the record has been approved, you can incorporate two workflow responses in a workflow that controls the usage of the record. One workflow response will restrict usage of the record as defined by the workflow event and conditions. Another workflow response will allow usage of the record as defined by the workflow event and conditions. Two responses exist in the generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] for this purpose: **Restrict usage of a record.** and **Allow usage of a record.**.
 
 > [!NOTE]  
@@ -28,7 +28,7 @@ The following procedure describes how to restrict purchase orders from being pos
 
 ## To create a workflow step that restricts posting of unapproved purchase orders  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Workflows**, and then choose the related link.  
-2. In the **Workflows** window, create a new workflow named Purchase Order Approval Workflow. For more information, see [How to: Create Workflows](across-how-to-create-workflows.md).  
+2. In the **Workflows** window, create a new workflow named Purchase Order Approval Workflow. For more information, see [Create Workflows](across-how-to-create-workflows.md).  
 3. Choose the **Copy From Workflow Template** action.  
 4. Choose the **Source Workflow Code** field, and then, in the **Workflow Templates** window, choose the Purchase Invoice Approval Workflow workflow template.  
 
@@ -37,5 +37,5 @@ The following procedure describes how to restrict purchase orders from being pos
 6. Proceed to edit, delete, or add other workflow steps to fit a business process that begins by restricting unapproved purchase orders from being posted.  
 
 ## See Also  
-[How to: Create Workflows](across-how-to-create-workflows.md)   
+[Create Workflows](across-how-to-create-workflows.md)   
 [Workflow](across-workflow.md)   

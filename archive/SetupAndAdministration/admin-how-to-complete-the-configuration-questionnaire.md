@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Complete the Configuration Questionnaire
+# Complete the Configuration Questionnaire
 You use the setup questionnaire to structure and document a detailed discussion about the customer’s specific needs. You also use it to collect setup data from the customer to configure the relevant [!INCLUDE[d365fin](includes/d365fin_md.md)] setup tables, such as the general ledger, inventory, and customers.  
   
 > [!NOTE]  
@@ -60,6 +60,6 @@ You use the setup questionnaire to structure and document a detailed discussion 
 4.  Choose the **OK** button to close the questionnaire.  
   
 ## See Also  
- [How to: Create a New Company](../how-to-create-a-new-company.md)   
- [How to: Validate the Configuration Questionnaire](../how-to-validate-the-configuration-questionnaire.md)   
- [How to: Create Configuration Questionnaires](../how-to-create-configuration-questionnaires.md)
+ [Create a New Company](../how-to-create-a-new-company.md)   
+ [Validate the Configuration Questionnaire](../how-to-validate-the-configuration-questionnaire.md)   
+ [Create Configuration Questionnaires](../how-to-create-configuration-questionnaires.md)

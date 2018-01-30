@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Pick and Put Away Without a Source Document
+# Pick and Put Away Without a Source Document
 After items have been put away and before they are picked to fulfill the needs of a production order or shipment, they are stored in the warehouse as part of available inventory.  
 
 Situations can arise where items must be taken out of the warehouse pick bins temporarily, perhaps to serve as demonstration models in a sales presentation. These items are still owned by the company and are part of inventory, but they are not available for picking. They are registered in a special purpose bin that you create for this purpose; technically, the items are in the warehouse, but physically, they could be in a conference or demonstration room.  

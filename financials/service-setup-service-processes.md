@@ -15,7 +15,7 @@
     ms.author: bholtorf
 
 ---
-# How to: Configure Service Processes
+# Configure Service Processes
 The following are some examples of the settings that you can apply to service management processes:  
   
 * Some overall settings for various processes, such as warnings, next service calculations for service items, the starting fee to assess, the fault reporting level to use, and so on.  
@@ -29,9 +29,9 @@ The following are some examples of the settings that you can apply to service ma
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## See Also  
-[How to: Set Up Fault Reporting](service-how-setup-fault-reporting.md)  
-[How to: Set Up Resource Allocation](service-how-setup-resource-allocation.md)  
-[How to: Set Up Codes for Standard Services](service-how-setup-service-coding.md)  
-[How to: Set Up Additional Costs for Services](service-how-setup-service-costs-pricing.md)  
-[How to: Set Up Troubleshooting](service-how-setup-troubleshooting.md)  
+[Set Up Fault Reporting](service-how-setup-fault-reporting.md)  
+[Set Up Resource Allocation](service-how-setup-resource-allocation.md)  
+[Set Up Codes for Standard Services](service-how-setup-service-coding.md)  
+[Set Up Additional Costs for Services](service-how-setup-service-costs-pricing.md)  
+[Set Up Troubleshooting](service-how-setup-troubleshooting.md)  
 [Service Management](service-service.md)  

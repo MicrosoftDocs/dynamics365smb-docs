@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Create an Audit File for the Tax Authority
+# Create an Audit File for the Tax Authority
 During an examination of the books for a fiscal year, a tax inspector can ask for data about the basis transactions from the general ledger for that fiscal year. Basis transactions usually are processed via journal entries. That is the reason why the journal entries are the basis for the audit file.  
 
  The tax authority stimulates companies to use the audit file but it is not prescribed.  
@@ -39,4 +39,4 @@ When you run the report, you must specify the name and location of the exported 
 
 ## See Also  
  [Electronic VAT and ICP Declarations](electronic-vat-and-icp-declarations.md)   
- [How to: Submit Electronic VAT and ICP Declarations](how-to-submit-electronic-vat-and-icp-declarations.md)
+ [Submit Electronic VAT and ICP Declarations](how-to-submit-electronic-vat-and-icp-declarations.md)

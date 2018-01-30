@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Revenue Types for Withholding Tax
+# Set Up Revenue Types for Withholding Tax
 Revenue types are used to categorize withholding tax (WHT) entries and are used for WHT certificates.  
 
 You can use the **WHT Revenue Types** window to set up the revenue types for withholding tax.  
@@ -36,6 +36,6 @@ You can use the **WHT Revenue Types** window to set up the revenue types for wit
 
 ## See Also  
  [Withholding Tax](withholding-tax.md)   
- [How to: Set Up Withholding Tax](how-to-set-up-withholding-tax.md)   
- [How to: View Withholding Tax Entries](how-to-view-withholding-tax-entries.md)   
- [How to: Calculate and Post Withholding Tax Settlements](how-to-calculate-and-post-withholding-tax-settlements.md)
+ [Set Up Withholding Tax](how-to-set-up-withholding-tax.md)   
+ [View Withholding Tax Entries](how-to-view-withholding-tax-entries.md)   
+ [Calculate and Post Withholding Tax Settlements](how-to-calculate-and-post-withholding-tax-settlements.md)

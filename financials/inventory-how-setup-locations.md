@@ -15,7 +15,7 @@ ms.date: 01/25/2018
 ms.author: SorenGP
 
 ---
-# How to: Set Up Locations
+# Set Up Locations
 If you buy, store, or sell items at more than one place or warehouse, you must set each location up with a location card and define transfer routes.
 
 You can then create document lines for a specific location, view availability by location, and transfer inventory between locations. For more information, see [Manage Inventory](inventory-manage-inventory.md).
@@ -35,11 +35,11 @@ You can then create document lines for a specific location, view availability by
 3. Choose the **New** action.
 4. In the **Location Card** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-You can now transfer inventory items between two locations. For more information, see [How to: Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md).    
+You can now transfer inventory items between two locations. For more information, see [Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md).    
 
 ## See Also
 [Manage Inventory](inventory-manage-inventory.md)  
-[How to: Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)    
+[Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)    
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)  
 [General Business Functionality](ui-across-business-areas.md)

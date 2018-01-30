@@ -41,13 +41,13 @@ You can use your [!INCLUDE[d365fin](includes/d365fin_md.md)] data as part of a w
 
    Alternatively, create a new web service URL in [!INCLUDE[d365fin](includes/d365fin_md.md)] by using the **Create Data Set** action in the **Web Services** page, using the **Set Up Reporting** Assisted Setup guide, or by choosing the **Edit in Excel** action in any lists.
 
-At this point, you have successfully connected to your Dynamics 365, Business edition data and are ready to begin building your flow. For more information, see the [Flow documentation](https://flow.microsoft.com/documentation/getting-started/).
+At this point, you have successfully connected to your Finance and Operations, Business edition data and are ready to begin building your flow. For more information, see the [Flow documentation](https://flow.microsoft.com/documentation/getting-started/).
 
 For troubleshooting your Microsoft Flow, see [Troubleshooting Integration with Microsoft Flow](across-troubleshooting-how-use-financials-data-source-flow.md).
 
 ## See Also
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Importing Business Data from Other Finance Systems](upload-data.md)  
-[How to: Manage Users and Permissions](ui-how-users-permissions.md)    
+[Manage Users and Permissions](ui-how-users-permissions.md)    
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finance](finance.md)  

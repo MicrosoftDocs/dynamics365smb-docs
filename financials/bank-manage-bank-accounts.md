@@ -27,8 +27,8 @@ The following table describes a sequence of tasks, with links to the topics that
 | To | See |
 | --- | --- |
 | Reconcile bank accounts in connection with payment processing in the **Payment Reconciliation Journal** window. |[Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
-| Reconcile bank accounts, including check ledger entries, as a separate task in the **Bank Acc. Reconciliation** window. |[How to: Reconcile Bank Accounts Separately](bank-how-reconcile-bank-accounts-separately.md) |
-| Post transfers between bank accounts in the same currency or in different currencies. |[How to: Transfer Bank Funds](bank-how-transfer-bank-funds.md) |
+| Reconcile bank accounts, including check ledger entries, as a separate task in the **Bank Acc. Reconciliation** window. |[Reconcile Bank Accounts Separately](bank-how-reconcile-bank-accounts-separately.md) |
+| Post transfers between bank accounts in the same currency or in different currencies. |[Transfer Bank Funds](bank-how-transfer-bank-funds.md) |
 
 ## See Also
 [Setting Up Banking](bank-setup-banking.md)  

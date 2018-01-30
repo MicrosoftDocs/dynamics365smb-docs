@@ -26,10 +26,10 @@ Finance-related purchase setup, such as payment methods and currencies, are cove
 
 | To | See |
 | --- | --- |
-| Create a vendor card for each vendor that you purchase from|[How to: Register New Vendors](purchasing-how-register-new-vendors.md) |
-| Enter the different discounts and special prices that vendors grant you depending on item, quantities, and/or date |[How to: Record Purchase Price, Discount, and Payment Agreements](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
-| Prioritize vendors |[How to: Prioritize Vendors](purchasing-how-prioritize-vendors.md) |
-| Set up purchasers |[How to: Set Up Purchasers](purchasing-how-setup-purchasers.md) |
+| Create a vendor card for each vendor that you purchase from|[Register New Vendors](purchasing-how-register-new-vendors.md) |
+| Enter the different discounts and special prices that vendors grant you depending on item, quantities, and/or date |[Record Purchase Price, Discount, and Payment Agreements](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
+| Prioritize vendors |[Prioritize Vendors](purchasing-how-prioritize-vendors.md) |
+| Set up purchasers |[Set Up Purchasers](purchasing-how-setup-purchasers.md) |
 
 ## See Also
 [Purchasing](purchasing-manage-purchasing.md)  

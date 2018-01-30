@@ -1,6 +1,6 @@
 ---
     title: How to Set Up Reports for VAT and Intrastat
-    description: In Dynamics 365, Business edition, you can specify which reports to use to create the documents that you must submit to the authorities, such as the VAT statement and the Intrastat form.
+    description: In Finance and Operations, Business edition, you can specify which reports to use to create the documents that you must submit to the authorities, such as the VAT statement and the Intrastat form.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Reports for VAT and Intrastat
+# Set Up Reports for VAT and Intrastat
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can specify which reports to use to create the documents that you must submit to the authorities, such as the VAT statement and the Intrastat form.  
 
 ### To set up reports for VAT  
@@ -51,5 +51,10 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can specify which repo
 4.  Choose the **OK** button.  
 
 ## See Also  
+<<<<<<< HEAD:financials/LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md
 [How to: Export and Print Intrastat Reports](how-to-export-and-print-intrastat-reports.md)  
 [VAT Reporting](vat-reporting.md)
+=======
+[Export and Print Intrastat Reports](how-to-export-and-print-intrastat-reports.md)  
+[VAT Reporting](vat-reporting.md)
+>>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md

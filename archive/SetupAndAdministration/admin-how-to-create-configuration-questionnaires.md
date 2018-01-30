@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Create Configuration Questionnaires
+# Create Configuration Questionnaires
 You can use a questionnaire to help you determine the scope and needs of configuration. You can create a new questionnaire, or modify an existing questionnaire by adding new questions or question areas.  
 
  You can create questionnaires for setup-type tables only. For example you can use the tool to provide information to the following windows:  
@@ -77,4 +77,4 @@ You can use a questionnaire to help you determine the scope and needs of configu
 12. Choose the **Close** button.  
 
 ## See Also  
- [How to: Complete the Configuration Questionnaire](../how-to-complete-the-configuration-questionnaire.md)
+ [Complete the Configuration Questionnaire](../how-to-complete-the-configuration-questionnaire.md)

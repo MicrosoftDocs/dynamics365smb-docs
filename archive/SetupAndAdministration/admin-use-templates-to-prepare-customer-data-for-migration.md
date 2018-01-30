@@ -31,7 +31,7 @@ After you import and apply setup data in the new database, you can start migrati
  However, you can create a template structure for and apply it to any table in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
   
 > [!TIP]  
->  You can also use data templates for daily operations to create new records that are based on templates. These data templates only work for the supported master data tables. For more information, see [How to: Create Cards by Using Data Templates](../how-to-create-cards-by-using-data-templates.md).  
+>  You can also use data templates for daily operations to create new records that are based on templates. These data templates only work for the supported master data tables. For more information, see [Create Cards by Using Data Templates](../how-to-create-cards-by-using-data-templates.md).  
   
  When you import customer data, such as for items, from a file, the mandatory field data that you have specified is taken from the linked data template. When you create a new item, you only enter general information such as item name, description, and price and then collect the rest of the mandatory field data from a selected data template.  
   
@@ -41,10 +41,10 @@ After you import and apply setup data in the new database, you can start migrati
   
 |**To**|**See**|  
 |------------|-------------|  
-|Evaluate configuration data templates and determine whether they meet the customer's needs.|[How to: Select a Configuration Template](../how-to-select-a-configuration-template.md)|  
-|Create new customized templates if the default templates do not meet the customer's needs.|[How to: Create a Configuration Template](../how-to-create-a-configuration-template.md)|  
-|Create a record that is based on a configuration data template.|[How to: Create a Record from a  Configuration Template](../how-to-create-a-record-from-a-configuration-template.md)|  
-|Use a configuration data template on a record.|[How to: Use a Configuration Template on a Record](../how-to-use-a-configuration-template-on-a-record.md)|  
+|Evaluate configuration data templates and determine whether they meet the customer's needs.|[Select a Configuration Template](../how-to-select-a-configuration-template.md)|  
+|Create new customized templates if the default templates do not meet the customer's needs.|[Create a Configuration Template](../how-to-create-a-configuration-template.md)|  
+|Create a record that is based on a configuration data template.|[Create a Record from a  Configuration Template](../how-to-create-a-record-from-a-configuration-template.md)|  
+|Use a configuration data template on a record.|[Use a Configuration Template on a Record](../how-to-use-a-configuration-template-on-a-record.md)|  
   
 ## See Also  
  [Migrate Customer Data](../migrate-customer-data.md)   

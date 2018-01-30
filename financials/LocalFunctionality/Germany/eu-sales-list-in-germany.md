@@ -22,10 +22,14 @@ In order to increase security, all types of taxes and tax reports must be submit
 
 ## Implementation in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]  
  [!INCLUDE[d365fin](../../includes/d365fin_md.md)] and then submit it to the processing agency (ZIVIT).
+<<<<<<< HEAD:financials/LocalFunctionality/Germany/eu-sales-list-in-germany.md
 
+=======
+ 
+>>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Germany/eu-sales-list-in-germany.md
 > [!IMPORTANT]  
 >  The ability to submit a VAT report in an XML format is not supported. However, you can make a submission of fewer than 1000 records in a .csv file. For this, you can use the Elster Online portal, and use the VAT – VIES Declaration Disk batch job, report 88.
 
 ## See Also  
 [BZSt Online Portal](http://www.bzst.de)   
-[How to: Create VAT Reports](how-to-create-vat-reports.md)
+[Create VAT Reports](how-to-create-vat-reports.md)

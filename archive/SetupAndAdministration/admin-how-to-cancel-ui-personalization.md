@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Cancel UI Personalization
+# Cancel UI Personalization
 If you want to cancel all UI customization that you have ever made for a page under your current user logon or since you last canceled UI customizations, you can use the **Delete User Personalization** window. The layout of the page for which you delete your personalization is then reset to the default configuration for your profile.  
 
  If you only want to cancel UI customization that you have made to a specific UI area on a page, such as the ribbon, you can use the **Restore Defaults** button in the **Customize** window. The layout of the specific UI area on that page is then reset to the default configuration for your profile.  
@@ -38,7 +38,7 @@ If you want to cancel all UI customization that you have ever made for a page un
 >  All customization of the UI area that you have ever made for the page under your current user logon or since you last used the **Restore Defaults** button are canceled. The layout of the UI area on the page is reset to the default configuration for your profile, as configured by the administrator or as installed with Microsoft Dynamics NAV.  
 
 ## See Also  
- [How to: Cancel UI Configuration](../how-to-cancel-ui-configuration.md)   
+ [Cancel UI Configuration](../how-to-cancel-ui-configuration.md)   
  [Working with Product Name](../working-with-$-p_1-product-name-$-.md)   
  [Learn About the RoleTailored Design](../learn-about-the-roletailored-design.md)   
  [Customize the User Interface](../customize-the-user-interface.md)

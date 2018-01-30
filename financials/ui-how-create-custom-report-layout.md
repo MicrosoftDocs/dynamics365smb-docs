@@ -15,7 +15,7 @@ ms.date: 03/29/2017
 ms.author: jswymer
 
 ---
-# How to: Create and Modify a Custom Report or Document Layout
+# Create and Modify a Custom Report or Document Layout
 By default, a report will have a built-in report layout, which can be either an RDLC report layout or Word report layout, or both. You cannot modify built-in layouts. However, you can create your own custom layouts that enable you to change the appearance of report when it is viewed, printed or saved. You can create multiple custom report layouts for the same report, and then switch the layout that is used by a report as needed.
 
 > [!NOTE]  
@@ -85,12 +85,12 @@ If you are designing a Word report layout from scratch or adding new data fields
 2.  Delete the remaining text as needed.  
 
 ### Adding data fields
-Adding data fields from a report dataset is a more advanced and requires some knowledge of the report dataset. For information about adding fields for data, labels, data, and images, see [How to: Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md).  
+Adding data fields from a report dataset is a more advanced and requires some knowledge of the report dataset. For information about adding fields for data, labels, data, and images, see [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md).  
 
 
 ## See Also
 [Managing Report Layouts](ui-manage-report-layouts.md)  
-[How to: Change Which Layout is Currently Used on a Report](ui-how-change-layout-currently-used-report.md)  
-[How to: Import and Export a Custom Report or Document Layout](ui-how-import-and-export-report-layout.md)  
+[Change Which Layout is Currently Used on a Report](ui-how-change-layout-currently-used-report.md)  
+[Import and Export a Custom Report or Document Layout](ui-how-import-and-export-report-layout.md)  
 [Working with Reports](ui-work-report.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Print the Ingoing Cash Order Report
+# Print the Ingoing Cash Order Report
 The **Cash Ingoing Order CO-1** report prints the Ingoing Cash Order form, which is a standard format required by Russian accounting legislation.  
 
 ## To print the ingoing cash order report  

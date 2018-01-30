@@ -22,4 +22,4 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] removing a promoted action in the
  Remove the action, apply changes, add the action again, and then apply changes. Or, remove the action, add it again in same session, and then apply changes. Remove duplicate instances and apply changes.  
   
 ## See Also  
- [How to: Customize Ribbons](../how-to-customize-ribbons.md)
+ [Customize Ribbons](../how-to-customize-ribbons.md)

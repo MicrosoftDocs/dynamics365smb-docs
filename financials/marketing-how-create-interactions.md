@@ -1,6 +1,6 @@
 ---
 title: Create Interactions on Contacts and Segments| Microsoft Docs
-description: Describes how to create interactions for communication that you have with your contacts and segments in Dynamics 365, Business edition, for example, direct mail.
+description: Describes how to create interactions for communication that you have with your contacts and segments in Finance and Operations, Business edition, for example, direct mail.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -15,7 +15,7 @@ ms.date: 06/15/2017
 ms.author: jswymer
 
 ---
-# How to: Create Interactions on Contacts and Segments
+# Create Interactions on Contacts and Segments
 You can create interactions to record all the interactions and communications you have with your contacts and segments, for example, direct mail.
 
 Before you create interactions, you must set up interaction templates. For more information, see  [Set Up Interaction Templates](marketing-interactions.md).
@@ -50,4 +50,4 @@ If you have selected the **Create Follow-up Segment** check box, a new segment i
 [Managing Contacts](marketing-contacts.md)  
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
 [Setting Up Relationship Management](marketing-setup-marketing.md)  
-[Working with Dynamics 365, Business edition](ui-work-product.md)
+[Working with Finance and Operations, Business edition](ui-work-product.md)

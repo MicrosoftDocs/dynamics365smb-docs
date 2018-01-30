@@ -2,7 +2,7 @@
     title: How to Create and Print a Swiss VAT Statement
     description: Based on the information that you have specified in the **VAT Posting Setup** window, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] can automatically create a new VAT Statement Setup for realized VAT reporting. Before proceeding with the procedures in this topic, make sure that you have set up VAT posting setup with values specified for the sales and purchase cipher fields.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Create and Print a Swiss VAT Statement
+# Create and Print a Swiss VAT Statement
 Based on the information that you have specified in the **VAT Posting Setup** window, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] can automatically create a new VAT Statement Setup for realized VAT reporting. Before proceeding with the procedures in this topic, make sure that you have set up VAT posting setup with values specified for the sales and purchase cipher fields.  
 
 ## To set up a Swiss VAT statement template  

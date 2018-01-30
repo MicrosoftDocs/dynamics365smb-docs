@@ -29,14 +29,14 @@ The following table describes a sequence of tasks, with links to the topics that
 |**To**|**See**|  
 |------------|-------------|  
 |Understand how production orders work.|[About Production Orders](production-about-production-orders.md)|
-|Create production orders manually.|[How to: Create Production Orders](production-how-to-create-production-orders.md)|
-|Outsource all or selected operations in a production order to a subcontractor.|[How to: Subcontract Manufacturing](production-how-to-subcontract-manufacturing.md)|
-|Record and post production output along with material and time consumption for a single released production order line.|[How to: Post Consumption and Output for One Released Production Order Line](production-how-to-register-consumption-and-output.md)|  
-|Batch post the quantity of components used per operation in a journal that can processes multiple planned production orders.|[How to: Batch Post Consumption](production-how-to-post-consumption.md)|
-|Post the quantity of finished items and the time spent per operation in a journal that can processes multiple released production orders.|[How to: Batch Post Output and Run Times](production-how-to-post-output-quantity.md)|  
-|Post the number of items produced in each finished operation which do not qualify as finished output, but as scrapped material.|[How to: Post Scrap](production-how-to-post-scrap.md)|
-|View the shop floor load as a result of planned and released production orders.|[How to: View the Load in Work and Machine Centers](production-how-to-view-the-load-on-work-centers.md)|      
-|Use the **Capacity Journal** window to post consumed capacities that are not assigned to a production order, such as maintenance work.|[How to: Post Capacities](production-how-to-post-capacities.md)|  
+|Create production orders manually.|[Create Production Orders](production-how-to-create-production-orders.md)|
+|Outsource all or selected operations in a production order to a subcontractor.|[Subcontract Manufacturing](production-how-to-subcontract-manufacturing.md)|
+|Record and post production output along with material and time consumption for a single released production order line.|[Post Consumption and Output for One Released Production Order Line](production-how-to-register-consumption-and-output.md)|  
+|Batch post the quantity of components used per operation in a journal that can processes multiple planned production orders.|[Batch Post Consumption](production-how-to-post-consumption.md)|
+|Post the quantity of finished items and the time spent per operation in a journal that can processes multiple released production orders.|[Batch Post Output and Run Times](production-how-to-post-output-quantity.md)|  
+|Post the number of items produced in each finished operation which do not qualify as finished output, but as scrapped material.|[Post Scrap](production-how-to-post-scrap.md)|
+|View the shop floor load as a result of planned and released production orders.|[View the Load in Work and Machine Centers](production-how-to-view-the-load-on-work-centers.md)|      
+|Use the **Capacity Journal** window to post consumed capacities that are not assigned to a production order, such as maintenance work.|[Post Capacities](production-how-to-post-capacities.md)|  
 |Calculate and adjust the cost of finished production items and consumed components for financial reconciliation.|[About Finished Production Order Costs](finance-about-finished-production-order-costs.md)|  
 
 ## See Also  

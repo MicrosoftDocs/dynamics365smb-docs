@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Delivery Reminder Terms, Levels, and Text
+# Set Up Delivery Reminder Terms, Levels, and Text
 To create delivery reminders, you must set up the following:  
 
 - Delivery reminder terms  
@@ -67,7 +67,7 @@ The following procedure describes how to set up beginning text messages, but the
 
 ## See Also  
  [Delivery Reminders](delivery-reminders.md)   
- [How to: Set Up Delivery Reminders](how-to-set-up-delivery-reminders.md)   
- [How to: Assign Delivery Reminder Codes to Vendors](how-to-assign-delivery-reminder-codes-to-vendors.md)   
- [How to: Create Delivery Reminders Manually](how-to-create-delivery-reminders-manually.md)   
- [How to: Issue Delivery Reminders](how-to-issue-delivery-reminders.md)
+ [Set Up Delivery Reminders](how-to-set-up-delivery-reminders.md)   
+ [Assign Delivery Reminder Codes to Vendors](how-to-assign-delivery-reminder-codes-to-vendors.md)   
+ [Create Delivery Reminders Manually](how-to-create-delivery-reminders-manually.md)   
+ [Issue Delivery Reminders](how-to-issue-delivery-reminders.md)

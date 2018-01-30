@@ -13,7 +13,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Create Service Items
+# Create Service Items
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], the term "service item" refers to equipment or items that require service. When you create a service order, you specify the items that need service. In the order, you can link a service item to an item in inventory or a service item group.    
 
 When you receive an item that needs service, you can register it as a service item. There are several ways to do so. For example, you can create a service item on the **Service Items** page, or as part of another process, such as when working with a service order.   
@@ -55,6 +55,6 @@ The following procedure shows how to create service items when you ship items on
     A service line of type **Cost** is inserted with the starting fee. The starting fee applies to the selected service item.
 
 ## See Also  
-[How to: Set Up Service Items and Service Item Components](service-how-setup-service-items.md)  
+[Set Up Service Items and Service Item Components](service-how-setup-service-items.md)  
 [Setting Up Service Management](service-setup-service.md)  
 [Service Management](service-service.md)  

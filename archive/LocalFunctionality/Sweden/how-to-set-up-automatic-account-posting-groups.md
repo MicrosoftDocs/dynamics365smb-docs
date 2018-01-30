@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Automatic Account Posting Groups
+# Set Up Automatic Account Posting Groups
 To use automatic account codes, you must create an automatic account posting group.  
 
 ## To set up automatic account posting groups  

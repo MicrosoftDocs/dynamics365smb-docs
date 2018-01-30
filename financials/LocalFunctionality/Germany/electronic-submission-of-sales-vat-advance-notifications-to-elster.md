@@ -1,6 +1,6 @@
 ---
     title: Electronic Submission of Sales VAT Advance Notifications to ELSTER
-    description: In Dynamics 365, Business edition, you can electronically submit tax documents and VAT statements, such as the sales VAT advance notification, to the tax authorities.
+    description: In Finance and Operations, Business edition, you can electronically submit tax documents and VAT statements, such as the sales VAT advance notification, to the tax authorities.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -45,7 +45,7 @@ You must then list the users and the friendly names of the certificates in the *
 
 If you use a proxy server to submit the ELSTER documents, you must specify the settings in the **Electronic VAT Decl. Setup** window.  
 
-For more information, see [How to: Set Up Sales VAT Advance Notifications for ELSTER](how-to-set-up-sales-vat-advance-notifications-for-elster.md).  
+For more information, see [Set Up Sales VAT Advance Notifications for ELSTER](how-to-set-up-sales-vat-advance-notifications-for-elster.md).  
 
 ## Certificates and Style Sheets  
 Your company must register at the ELSTER online portal so that you can acquire the necessary certificates. If you have already registered, you do not have to register again.  
@@ -69,6 +69,6 @@ In the **Sales VAT Adv. Notification List** window, you can create and submit sa
 After you have submitted a document to ELSTER, an entry is made in the **VAT Transmission Log Entries** window. When the ELSTER online portal processed the submitted document, errors can occur, and [!INCLUDE[d365fin](../../includes/d365fin_md.md)] displays an error message that is based on the error code from ELSTER. In most cases, the error is caused by problems with the user-specific certificate or with network connectivity. For more information, see [Error Messages of the ElsterTransferHandler and ELSTER Transmission Overview](error-messages-of-the-elstertransferhandler.md).
 
 ## See Also  
- [How to: Set Up Sales VAT Advance Notifications for ELSTER](how-to-set-up-sales-vat-advance-notifications-for-elster.md)   
- [How to: Create and Submit Sales VAT Advance Notifications](how-to-create-and-submit-sales-vat-advance-notifications.md)   
+ [Set Up Sales VAT Advance Notifications for ELSTER](how-to-set-up-sales-vat-advance-notifications-for-elster.md)   
+ [Create and Submit Sales VAT Advance Notifications](how-to-create-and-submit-sales-vat-advance-notifications.md)   
  [ELSTER online portal](http://go.microsoft.com/fwlink/?LinkId=155998)

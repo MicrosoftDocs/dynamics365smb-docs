@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Publish a Web Service
+# Publish a Web Service
 Web services are a lightweight way to make application functionality available to a variety of external systems and users. In [!INCLUDE[d365fin](includes/d365fin_md.md)] objects as web services, they are immediately available on the network.  
 
  You can set up a web service in the Windows client or in the Web client. You must then publish the web service so that it is available to service requests over the network. Users can discover web services by pointing a browser at the computer that is running Dynamics NAV Server and requesting a list of available services. When you publish a web service, it is immediately available over the network for authenticated users. All authorized users can access metadata for web services, but only users who have sufficient Dynamics NAV permissions can access actual data.

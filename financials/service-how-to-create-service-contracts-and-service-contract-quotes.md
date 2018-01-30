@@ -15,7 +15,7 @@
     ms.author: bholtorf
 
 ---
-# How to: Work with Service Contracts and Service Contract Quotes
+# Work with Service Contracts and Service Contract Quotes
 You can create a service contract either manually or from a service contract quote. You can use a service contract quote as a forerunner of a service contract, in which your company makes an offer to the customer and obtains customer approval before you can convert it to a service contract. The procedures for creating either a service contract or service contract quote are similar.  
   
 ## To create a service contract or service contract quote  
@@ -195,6 +195,6 @@ You may need to cancel a service contract when the contract has expired or has b
 You can file service contracts and contract quotes at any time to record and archive a copy of the contract or contract quote. [!INCLUDE[d365fin](includes/d365fin_md.md)] files service contracts automatically when you convert contract quotes to service contracts or cancel service contracts. You can file a contract or quote yourself by choosing the **File Contract** action on the **Service Contracts** or **Service Contract Quotes** pages. If you want to view your archived contracts of quotes by searching for **Filed Contracts**.
 
 ## See Also  
-[How to: Set Up Service Contracts](service-how-setup-service-contracts.md)  
+[Set Up Service Contracts](service-how-setup-service-contracts.md)  
 [Service Management](service-service.md)  
-[How to: Convert Service Contracts that Include VAT Amounts](service-how-to-convert-service-contracts.md)  
+[Convert Service Contracts that Include VAT Amounts](service-how-to-convert-service-contracts.md)  

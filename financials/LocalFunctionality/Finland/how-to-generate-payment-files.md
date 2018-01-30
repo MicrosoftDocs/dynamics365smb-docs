@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Generate Payment Files
+# Generate Payment Files
 To send electronic payments to vendors, you must first generate a payment file for domestic or foreign payments.  
 
 ## To generate a payment file  
@@ -29,5 +29,5 @@ To send electronic payments to vendors, you must first generate a payment file f
 
 ## See Also  
  [Electronic Banking in Finland](electronic-banking-in-finland.md)   
- [How to: Set Up Bank Reference Files](how-to-set-up-bank-reference-files.md)   
- [How to: Disregard Payment Discounts](how-to-disregard-payment-discounts.md) 
+ [Set Up Bank Reference Files](how-to-set-up-bank-reference-files.md)   
+ [Disregard Payment Discounts](how-to-disregard-payment-discounts.md) 

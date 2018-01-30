@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up and Create Letters of Attorney
+# Set Up and Create Letters of Attorney
 The letter of attorney feature enables you to create and print a Letter of Attorney, and to also print a journal of Letters of Attorney.  
 
 Set up numbering for open and released Letters of Attorney. Numbers for open documents are generated after a new document is created. Numbers for released documents are generated after a document is printed. This number is documented in the printing form of the document and in the Letter of Attorney journal.  
@@ -56,4 +56,4 @@ The following procedure shows how to create a Letter of Attorney.
 2.  Choose the **OK** button.  
 
 ## See Also  
- [How to: Set Up Responsible Employees and Advance Statements](how-to-set-up-responsible-employees-and-advance-statements.md)
+ [Set Up Responsible Employees and Advance Statements](how-to-set-up-responsible-employees-and-advance-statements.md)

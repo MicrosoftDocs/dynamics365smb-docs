@@ -13,7 +13,7 @@ ms.date: 07/01/2017
 ms.author: sgroespe
 
 ---
-# How to: Change VAT Setup in Journals
+# Change VAT Setup in Journals
 You can add VAT setup information to journal lines if needed. If you enter items without VAT, you do not need to remove VAT setup information manually.  
 
 ## To change VAT setup in journals  

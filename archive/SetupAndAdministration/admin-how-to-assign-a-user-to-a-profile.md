@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Assign a User to a Profile
+# Assign a User to a Profile
 You use the **User Personalization** page to assign a user to a profile.  
   
 ## Assigning a User to a Profile  
@@ -30,7 +30,7 @@ You use the **User Personalization** page to assign a user to a profile.
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**User ID**|Choose the **AssistEdit** button to view all available user logins, select the relevant user, and then choose the **OK** button.<br /><br /> For more information, see [How to: Create Microsoft Dynamics NAV Users](../How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).|  
+    |**User ID**|Choose the **AssistEdit** button to view all available user logins, select the relevant user, and then choose the **OK** button.<br /><br /> For more information, see [Create Microsoft Dynamics NAV Users](../How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).|  
     |**Profile ID**|select a profile ID that you have already created. Choose the **AssistEdit** button to view all available profiles.|  
     |**Language ID**|Select the appropriate language ID, or leave this field blank.|  
     |**Company**|Select a company from the **Companies** window.|  
@@ -43,5 +43,5 @@ You use the **User Personalization** page to assign a user to a profile.
 ## See Also  
  [Working with Role Centers](../working-with-role-centers.md)   
  [Profiles and Role Centers](../profiles-and-role-centers.md)   
- [How to: Create a Profile](../how-to-create-a-profile.md)   
- [How to: Create Microsoft Dynamics NAV Users](../How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md)
+ [Create a Profile](../how-to-create-a-profile.md)   
+ [Create Microsoft Dynamics NAV Users](../How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md)

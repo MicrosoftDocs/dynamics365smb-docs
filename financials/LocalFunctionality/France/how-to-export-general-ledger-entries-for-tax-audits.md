@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Export General Ledger Entries for Tax Audits
+# Export General Ledger Entries for Tax Audits
 The standard audit file for tax purposes records key business information (transactions and ledger postings) into a file in a specified common format for audit purposes. In France, you are required to provide the government with this information in a standard audit file beginning in January 2014. This applies to companies for both corporate tax and VAT audit purposes.  
 
 In general, the report is designed to provide information on account types that include posted entries.  
@@ -52,4 +52,4 @@ When you create the report, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] so
 The report will have the following name: <taxpayername>FEC<YYYYMMDD>  
 
 ## See Also  
- [How to: Close Years](how-to-close-years.md)
+ [Close Years](how-to-close-years.md)

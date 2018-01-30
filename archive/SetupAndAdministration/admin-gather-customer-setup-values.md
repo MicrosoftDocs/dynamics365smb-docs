@@ -29,8 +29,8 @@ You use the setup questionnaire to help reduce your implementation workload by s
   
 |**To**|**See**|  
 |------------|-------------|  
-|Review, export, and complete the setup questionnaire.|[How to: Complete the Configuration Questionnaire](../how-to-complete-the-configuration-questionnaire.md)|  
-|Validate the responses that are provided by the customer.|[How to: Validate the Configuration Questionnaire](../how-to-validate-the-configuration-questionnaire.md)|  
+|Review, export, and complete the setup questionnaire.|[Complete the Configuration Questionnaire](../how-to-complete-the-configuration-questionnaire.md)|  
+|Validate the responses that are provided by the customer.|[Validate the Configuration Questionnaire](../how-to-validate-the-configuration-questionnaire.md)|  
 |Transfer answers from the setup questionnaire to setup tables in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-apply-answers-from-the-configuration-questionnaire.md)|  
   
 ## See Also  

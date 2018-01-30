@@ -38,4 +38,4 @@ Before creating **Report 347**, the following file format restrictions will be c
 
 ## See Also  
  [Spain Local Functionality](spain-local-functionality.md)   
- [How to: Create Report 347](how-to-create-report-347.md)
+ [Create Report 347](how-to-create-report-347.md)

@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Include Company Registration Numbers on Sales Reports and Purchase Reports
+# Include Company Registration Numbers on Sales Reports and Purchase Reports
 When generating certain sales reports and purchase reports, you can print registration numbers on the reports.  
 
 ## To print company registration numbers on sales reports  
@@ -32,4 +32,4 @@ When generating certain sales reports and purchase reports, you can print regist
 4.  Choose the **OK** button.  
 
 ## See Also  
-[How to: Register New Vendors](../../purchasing-how-register-new-vendors.md)
+[Register New Vendors](../../purchasing-how-register-new-vendors.md)

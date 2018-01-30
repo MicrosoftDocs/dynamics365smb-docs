@@ -15,7 +15,7 @@ ms.date: 06/28/2017
 ms.author: sgroespe
 
 ---
-# How to: Record and Reimburse Employees' Expenses
+# Record and Reimburse Employees' Expenses
 [!INCLUDE[d365fin](includes/d365fin_md.md)] supports transactions for employee in a similar way as for vendors. Accordingly, employee posting groups exist to make sure that employee ledger entries are posted to the relevant accounts in the general ledger.
 
 > [!NOTE]  
@@ -43,11 +43,11 @@ You reimburse employees by posting payments to their bank account in the **Payme
 5. Choose the **Post** action to register the reimbursement.  
 
 ## To reconcile reimbursements with employee ledger entries
-You apply employee payments to their related open employee ledger entries in the same way as you do for vendor payments, for example in the **Payment Reconciliation Journal** window, based on the related bank statement entries. For more information, see [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md). Alternatively, you can apply manually in the **Employee Ledger Entries** window. For more information, see the related [How to: Reconcile Vendor Payments Manually](payables-how-apply-purchase-transactions-manually.md).  
+You apply employee payments to their related open employee ledger entries in the same way as you do for vendor payments, for example in the **Payment Reconciliation Journal** window, based on the related bank statement entries. For more information, see [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md). Alternatively, you can apply manually in the **Employee Ledger Entries** window. For more information, see the related [Reconcile Vendor Payments Manually](payables-how-apply-purchase-transactions-manually.md).  
 
 ## See Also
-[How to: Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)  
+[Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)  
 [Working with General Journals](ui-work-general-journals.md)  
-[How to: Reverse Postings](finance-how-reverse-journal-posting.md)  
+[Reverse Postings](finance-how-reverse-journal-posting.md)  
 [Finance](finance.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

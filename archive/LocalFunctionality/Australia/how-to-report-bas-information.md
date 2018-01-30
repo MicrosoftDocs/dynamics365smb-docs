@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Report BAS Information
+# Report BAS Information
 You need to report the Business Activity Statement (BAS) calculation information for goods and services tax (GST). The **C** and **D** fields on the **Totals** FastTab in the **BAS Calculation Sheet** window are used for fuel tax credits.  
 
 ## To report BAS information and calculate the GST settlement  
@@ -34,5 +34,5 @@ You need to report the Business Activity Statement (BAS) calculation information
 
 ## See Also  
  [BAS Fuel Tax Credits](bas-fuel-tax-credits.md)   
- [How to: Set Up BAS XML Fields](how-to-set-up-bas-xml-fields.md)   
+ [Set Up BAS XML Fields](how-to-set-up-bas-xml-fields.md)   
  [Business Activity Statements](business-activity-statements.md)

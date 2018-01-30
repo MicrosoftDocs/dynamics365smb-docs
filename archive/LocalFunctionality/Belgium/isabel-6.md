@@ -32,4 +32,4 @@ To set up your system to work with Isabel, complete the following:
 ## See Also  
  [Isabel website](http://go.microsoft.com/fwlink/?LinkId=210323)   
  [Belgian Electronic Banking](belgian-electronic-banking.md)   
- [How to: Set Up Electronic Banking](how-to-set-up-electronic-banking.md)
+ [Set Up Electronic Banking](how-to-set-up-electronic-banking.md)

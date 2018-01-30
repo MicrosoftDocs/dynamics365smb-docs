@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Bank Reference Files
+# Set Up Bank Reference Files
 To process electronic payments, you must first set up bank reference files to determine how payment data should be imported or exported.  
 
 ## To set up a bank reference file  
@@ -57,5 +57,5 @@ To process electronic payments, you must first set up bank reference files to de
 
 ## See Also  
  [Electronic Banking in Finland](electronic-banking-in-finland.md)   
- [How to: Generate Payment Files](how-to-generate-payment-files.md)   
- [How to: Disregard Payment Discounts](how-to-disregard-payment-discounts.md)
+ [Generate Payment Files](how-to-generate-payment-files.md)   
+ [Disregard Payment Discounts](how-to-disregard-payment-discounts.md)

@@ -14,7 +14,7 @@ ms.date: 03/30/2017
 ms.author: sgroespe
 
 ---
-# How to: Send Documents by Email
+# Send Documents by Email
 To communicate the contents of business documents quickly to your business partners, such as the payment information on sales documents to customers, you can use the Report Layout feature to define document-specific content that gets inserted in email bodies automatically. For more information, see [Managing Report and Document Layouts](ui-manage-report-layouts.md).
 
 To enable emails from within [!INCLUDE[d365fin](includes/d365fin_md.md)], start the **Set Up Email** assisted setup on the Home page.
@@ -36,7 +36,7 @@ The following procedure describes how to set the **Sales - Invoice** report up t
 
     Report layouts define both the style and the content of the email body, including the standard text that precedes the core document information in the email body. You can see all available report layouts if you choose the **Select from full list** button in the drop-down list.
 6. To view or edit the layout that the email body is based on, select the layout in the **Custom Report Layouts** window, and then choose the **Edit Layout** action.
-7. If you want to offer customers to pay for sales electronically, you can set up the related payment service, such as PayPal, and then have the PayPal information and hyperlink inserted in the email body as well. For more information, see [How to: Enable Customer Payments Through PayPal](sales-how-enable-payment-service-extensions.md).
+7. If you want to offer customers to pay for sales electronically, you can set up the related payment service, such as PayPal, and then have the PayPal information and hyperlink inserted in the email body as well. For more information, see [Enable Customer Payments Through PayPal](sales-how-enable-payment-service-extensions.md).
 8. Choose the **OK** button.
 
 Now, when you choose, for example, the **Send** action in the **Posted Sales Invoice** window, the email body will contain the document information of report 1306 preceded by styled standard text according to the report layout that you selected in step 5.
@@ -46,7 +46,7 @@ The following procedure describes how to send a posted sales invoice as an email
 ## To send documents by email
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Sales Invoices**, and then choose the related link.
 2. Select the relevant posted sales invoice, and then choose the **Send** action. The **Send Document to** window opens.
-3. In the **Email** field, select **Yes (Prompt for Settings)**. For more information, see [How to: Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
+3. In the **Email** field, select **Yes (Prompt for Settings)**. For more information, see [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
 4. Choose the **OK** button. The **Send Email** window opens.
 5. In the **To:** field, enter a valid email address. The default value is the customer email address.
 6. In the **Subject** field, enter a descriptive subject text. The default value is the customer name and invoice number.
@@ -57,10 +57,10 @@ The following procedure describes how to send a posted sales invoice as an email
 9. Choose the **OK** button to send the email message.
 
 > [!NOTE]  
->   If you do not want to specify email settings each time you email a document, you can select the **Yes (Use Default Settings)** option in the **Email** field in the **Send Document to** window. In that case, the **Send Email** window will not open. See Step 4. For more information, see [How to: Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
+>   If you do not want to specify email settings each time you email a document, you can select the **Yes (Use Default Settings)** option in the **Email** field in the **Send Document to** window. In that case, the **Send Email** window will not open. See Step 4. For more information, see [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
 
 ## See Also
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  
-[How to: Set up Email](madeira-how-setup-email.md)  
-[How to: Invoice Sales](sales-how-invoice-sales.md)  
+[Set up Email](madeira-how-setup-email.md)  
+[Invoice Sales](sales-how-invoice-sales.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Open a New Fiscal Year
+# Open a New Fiscal Year
 Before you can post in a fiscal year, you must open the fiscal year and define its accounting periods.  
 
 ## To open a new fiscal year  
@@ -35,8 +35,8 @@ After the last period in the fiscal year, an accounting period is inserted with 
 >  In concordance with French law no more than two open fiscal years are allowed.  
 
 ## See Also  
- [How to: Specify Posting Periods](how-to-specify-posting-periods.md)   
- [How to: Close Years](how-to-close-years.md)   
- [How to: Post the Year-End Closing Entry](how-to-post-the-year-end-closing-entry.md)   
- [How to: Fiscally Close Years](how-to-fiscally-close-years.md)   
+ [Specify Posting Periods](how-to-specify-posting-periods.md)   
+ [Close Years](how-to-close-years.md)   
+ [Post the Year-End Closing Entry](how-to-post-the-year-end-closing-entry.md)   
+ [Fiscally Close Years](how-to-fiscally-close-years.md)   
  [Fiscal Periods and Fiscal Years](fiscal-periods-and-fiscal-years.md)

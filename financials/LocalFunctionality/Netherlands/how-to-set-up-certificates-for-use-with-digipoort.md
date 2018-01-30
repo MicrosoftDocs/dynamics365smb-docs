@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Certificates for use with Digipoort
+# Set Up Certificates for use with Digipoort
 The following procedure assumes that you have obtained the certificates from the government. If you have not, take the following steps to obtain the certificates.  
 
 - Obtain a PKIoverheid certificate for the company if you do not have one already. A list of certificate providers can be found here: [http://www.logius.nl/producten/toegang/pkioverheid/aansluiten/toegetreden-csps](http://www.logius.nl/producten/toegang/pkioverheid/aansluiten/toegetreden-csps).  
@@ -33,7 +33,7 @@ Next, you have to install the certificates. The certificates have to be installe
 
 ## To install the certificates  
 
-1.  Open the **Windows Certificate Console** to import the certificates that you have obtained from the government. For more information, see [How to: Use the Certificates Console](http://social.technet.microsoft.com/wiki/contents/articles/2167.how-to-use-the-certificates-console.aspx).  
+1.  Open the **Windows Certificate Console** to import the certificates that you have obtained from the government. For more information, see [Use the Certificates Console](http://social.technet.microsoft.com/wiki/contents/articles/2167.how-to-use-the-certificates-console.aspx).  
 2.  Import the two certificates. For more information, [To import a certificate](http://social.technet.microsoft.com/wiki/contents/articles/2167.how-to-use-the-certificates-console.aspx#To_import_certificates).  
 
     **Personal Certificate**  

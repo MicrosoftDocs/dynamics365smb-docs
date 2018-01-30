@@ -64,4 +64,4 @@ When finishing the physical inventory order the program will calculate for the i
 
 ## See Also  
  [Physical Inventory Order Lines With Item Tracking Lines](physical-inventory-order-lines-with-item-tracking-lines.md)  
- [How to: Work with Serial and Lot Numbers](../../inventory-how-work-item-tracking.md)
+ [Work with Serial and Lot Numbers](../../inventory-how-work-item-tracking.md)

@@ -25,4 +25,4 @@ In Iceland, in accordance with legislation, [!INCLUDE[d365fin](../../includes/d3
 - Purchase credit memos  
 
 ## See Also  
-[How to: Invoice Sales](../../sales-how-invoice-sales.md)
+[Invoice Sales](../../sales-how-invoice-sales.md)

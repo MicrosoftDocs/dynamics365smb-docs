@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Norm Jurisdictions
+# Set Up Norm Jurisdictions
 Norm jurisdictions are based on Russian tax laws that define a variety of tax rates. Norm jurisdictions are used to calculate taxable profits and losses in tax accounting. You can use the **Norm Jurisdictions** window to set up and define norm jurisdictions that can be used when you calculate tax differences.  
 
 ## To set up norm jurisdictions  
@@ -52,4 +52,4 @@ The norm jurisdiction that you set up is now available for use in calculating ta
  [Tax Accounting](tax-accounting.md)   
  [Tax Reports](assetId:///e42ca8e7-1cee-4fb8-9f71-e596f29cabc3)   
  [Tax Registers](tax-registers.md)   
- [How to: Create Tax Registers](how-to-create-tax-registers.md)
+ [Create Tax Registers](how-to-create-tax-registers.md)

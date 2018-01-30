@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Print Depreciation Book Reports
+# Print Depreciation Book Reports
 The **Depreciation Book** is a fiscal report that is sorted by year and item class. The **Depreciation Book** report shows changes in fixed asset stock in a given year by item class, rather than by the individual items. The **Depreciation Book** report is run after the depreciation method has been set up and assets have been entered.  
 
 ## To print depreciation book reports  
@@ -38,6 +38,6 @@ The **Depreciation Book** is a fiscal report that is sorted by year and item cla
 
 ## See Also  
  [Italian Fixed Assets](italian-fixed-assets.md)   
- [How to: Create Multiple Fixed Asset Cards](how-to-create-multiple-fixed-asset-cards.md)   
- [How to: Set Up Compressed Depreciation of Fixed Assets](how-to-set-up-compressed-depreciation-of-fixed-assets.md)  
- [How to: Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md)
+ [Create Multiple Fixed Asset Cards](how-to-create-multiple-fixed-asset-cards.md)   
+ [Set Up Compressed Depreciation of Fixed Assets](how-to-set-up-compressed-depreciation-of-fixed-assets.md)  
+ [Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md)

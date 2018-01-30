@@ -47,7 +47,7 @@ You can make your [!INCLUDE[d365fin](includes/d365fin_md.md)] data available as 
    > [!NOTE]  
 >    Once you have successfully connected to [!INCLUDE[d365fin](includes/d365fin_md.md)], you will not be prompted again for the OData URL, username, or password.
 
-At this point, you have successfully connected to your Dynamics 365, Business edition data and are ready to begin building your PowerApp. For more information, see the [PowerApps documentation](https://powerapps.microsoft.com/tutorials/getting-started/).
+At this point, you have successfully connected to your Finance and Operations, Business edition data and are ready to begin building your PowerApp. For more information, see the [PowerApps documentation](https://powerapps.microsoft.com/tutorials/getting-started/).
 
 ## See Also
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

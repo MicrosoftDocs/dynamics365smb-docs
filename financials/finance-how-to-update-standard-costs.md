@@ -15,13 +15,13 @@ ms.date: 08/09/2017
 ms.author: sgroespe
 
 ---
-# How to: Update Standard Costs
+# Update Standard Costs
 You must periodically update the standard costs of components and roll the new costs up to the parent item. The process typically consists of the following four steps:  
 
 1.  Update costs at the component and capacity levels. For more information, see the **Suggest Item Standard Cost** batch job.  
 2.  Consolidate and roll up the component and capacity costs to calculate the total manufacturing or assembly cost of the items.  
 3.  Implement the standard costs that are entered when you run the previous batch jobs. The standard costs do not take effect until they are implemented. For more information, see Implement Standard Cost Changes.  
-4.  Implement the changes to update the **Unit Cost** field on the item card and perform inventory revaluation. For more information, see [How to: Revalue Inventory](inventory-how-revalue-inventory.md).  
+4.  Implement the changes to update the **Unit Cost** field on the item card and perform inventory revaluation. For more information, see [Revalue Inventory](inventory-how-revalue-inventory.md).  
 
 For more information, see [About Calculating Standard Cost](finance-about-calculating-standard-cost.md).  
 ## To update standard costs  

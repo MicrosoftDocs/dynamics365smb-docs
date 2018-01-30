@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Export Intrastat Third-Party Declararations
+# Export Intrastat Third-Party Declararations
 In Belgium, you must have a third-party declarant fill out the Intrastat declaration. The third-party declarant must be an external person or company.  
 
 ## To export the third-party declaration  
@@ -37,7 +37,7 @@ The file will be created in the directory that you indicated. Next, the declarat
 
 ## See Also  
  [Belgian Intrastat Reporting](belgian-intrastat-reporting.md)   
- [How to: Set Up Declaration Types](how-to-set-up-declaration-types.md)   
- [How to: Set Up Belgian Tariff Numbers](how-to-set-up-belgian-tariff-numbers.md)   
- [How to: Set Up Intrastat Establishment Numbers](how-to-set-up-intrastat-establishment-numbers.md)   
- [How to: Print the Intrastat Form Report](how-to-print-the-intrastat-form-report.md)
+ [Set Up Declaration Types](how-to-set-up-declaration-types.md)   
+ [Set Up Belgian Tariff Numbers](how-to-set-up-belgian-tariff-numbers.md)   
+ [Set Up Intrastat Establishment Numbers](how-to-set-up-intrastat-establishment-numbers.md)   
+ [Print the Intrastat Form Report](how-to-print-the-intrastat-form-report.md)

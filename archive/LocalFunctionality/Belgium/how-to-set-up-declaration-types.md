@@ -1,8 +1,8 @@
 ---
     title: How to Set Up Declaration Types
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], there are two types of declaration.
+    description: In Finance and Operations, Business edition, there are two types of declaration.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Declaration Types
+# Set Up Declaration Types
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], there are two types of declaration:  
 
 - Simplified declaration  
@@ -34,7 +34,7 @@ When using the extended declaration, you will also need to set up an Incoterm in
 
 ## See Also  
  [Belgian Intrastat Reporting](belgian-intrastat-reporting.md)   
- [How to: Set Up Belgian Tariff Numbers](how-to-set-up-belgian-tariff-numbers.md)   
- [How to: Set Up Intrastat Establishment Numbers](how-to-set-up-intrastat-establishment-numbers.md)   
- [How to: Export Intrastat Third-Party Declararations](how-to-export-intrastat-third-party-declararations.md)   
- [How to: Print the Intrastat Form Report](how-to-print-the-intrastat-form-report.md)
+ [Set Up Belgian Tariff Numbers](how-to-set-up-belgian-tariff-numbers.md)   
+ [Set Up Intrastat Establishment Numbers](how-to-set-up-intrastat-establishment-numbers.md)   
+ [Export Intrastat Third-Party Declararations](how-to-export-intrastat-third-party-declararations.md)   
+ [Print the Intrastat Form Report](how-to-print-the-intrastat-form-report.md)

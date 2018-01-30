@@ -15,7 +15,7 @@ ms.date: 07/07/2017
 ms.author: sgroespe
 
 ---
-# How to: Manage the Intercompany Inbox and Outbox
+# Manage the Intercompany Inbox and Outbox
 All of the intercompany transactions that you receive electronically from your intercompany partners are listed in the intercompany Inbox.  
 
 ## Organizing the Inbox  

@@ -40,5 +40,5 @@ When you enter a new line in a journal, the VAT percentages and VAT amounts for 
 
 ## See Also  
  [VAT Rates for Switzerland](vat-rates-for-switzerland.md)   
- [How to: Create and Print a Swiss VAT Statement](how-to-create-and-print-a-swiss-vat-statement.md)   
+ [Create and Print a Swiss VAT Statement](how-to-create-and-print-a-swiss-vat-statement.md)   
  [Switzerland Local Functionality](switzerland-local-functionality.md)   

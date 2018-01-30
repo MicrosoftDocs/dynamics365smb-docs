@@ -14,7 +14,7 @@ ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---
-# How to: Use OCR to Turn PDF and Image Files into Electronic Documents
+# Use OCR to Turn PDF and Image Files into Electronic Documents
 From PDF or image files that you receive from your trading partners, you can have an external OCR service (Optical Character Recognition) generate electronic documents that can be converted to document records in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For example, when you receive an invoice in PDF format from your vendor, you can send it to the OCR service from the **Incoming Documents** window. This is described in the first procedure.
 
 As an alternative to sending the file from the **Incoming Documents** window, you can send the file to the OCR service by email. Then, when you receive the electronic document back, a related incoming document record is created automatically. This is described in the second procedure.
@@ -23,11 +23,11 @@ After some seconds, you receive the file back from the OCR service as an electro
 
 Because OCR is based on optical recognition, it is likely that the OCR service will interpret characters in your PDF or image files wrongly when it first processes a certain vendor’s documents, for example. It may not interpret the company logo as the vendor’s name or it may misinterpret the total amount on a receipt because of its layout. To avoid these errors going forward, you can correct the errors in a separate version of the **Incoming Document** window. Then you send the corrections back to the OCR service to train it to interpret the specific characters correctly next time it processes a PDF or image document for the same vendor. For more information, see the "To train the OCR service to avoid errors" section.
 
-The traffic of files to and from the OCR service is processed by a dedicated job queue entry, which are created automatically when you enable the related service connection. For more information, see [How to: Set Up Incoming Documents](across-how-setup-income-documents.md).
+The traffic of files to and from the OCR service is processed by a dedicated job queue entry, which are created automatically when you enable the related service connection. For more information, see [Set Up Incoming Documents](across-how-setup-income-documents.md).
 
 ## To send a PDF or image file to the OCR service from the **Incoming Documents** window
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Incoming Documents**, and then choose the related link.
-2. Create a new incoming document record and attach the file. For more information, see [How to: Create Incoming Document Records](across-how-create-income-document-records.md).  
+2. Create a new incoming document record and attach the file. For more information, see [Create Incoming Document Records](across-how-create-income-document-records.md).  
 3. In the **Incoming Documents** window, select one or more lines, and then choose the **Send to Job Queue** action.
 
     The value in the **OCR Status** field changes to **Ready**. The attached PDF or image file is sent to the OCR service by the job queue according to the schedule, provided that no errors exist.
@@ -38,10 +38,10 @@ The value in the **OCR Status** field changes to **Sent**, provided that no erro
 ## To send a PDF or image file to the OCR service by email
 From your email application, you can send an email to the OCR service provider with the PDF or image file attached. For information about the email address to send to, see the OCR service provider’s web site.
 
-Because no incoming document record exists for the file, a new record will be created automatically in the **Incoming Documents** window when you receive the resulting electronic document from the OCR service. For more information, see [How to: Create Incoming Document Records](across-how-create-income-document-records.md).
+Because no incoming document record exists for the file, a new record will be created automatically in the **Incoming Documents** window when you receive the resulting electronic document from the OCR service. For more information, see [Create Incoming Document Records](across-how-create-income-document-records.md).
 
 > [!NOTE]  
->   If you work on a tablet or phone, you can send the file to the OCR service as soon as you have taken a photo of the document, or you can create an incoming document directly. For more information, see the "To create incoming document records by taking a photo" section in [How to: Create Incoming Document Records](across-how-create-income-document-records.md).
+>   If you work on a tablet or phone, you can send the file to the OCR service as soon as you have taken a photo of the document, or you can create an incoming document directly. For more information, see the "To create incoming document records by taking a photo" section in [Create Incoming Document Records](across-how-create-income-document-records.md).
 
 ## To receive the resulting electronic document from the OCR service.
 The electronic document that is created by the OCR service from the PDF or image file is automatically received into the **Incoming Documents** window by the job queue entry that is set up when you enable the OCR service.
@@ -52,7 +52,7 @@ If you are not using a job queue, or you want to receive a finished OCR document
 >   If the OCR service is set up to require manual verification of processed documents, then the **OCR Status** field will contain **Awaiting Verification**. In that case, perform the following steps to log in to the OCR service website to manually verify an OCR document.
 
 1. In the **OCR Status** field, choose the **Awaiting Verification** hyperlink. Alternatively, choose the **Awaiting Verification** tile on the Home page.
-2. On the OCR service website, log in using the credentials of your OCR service account. These are the credentials you also used when setting up the service. For more information, see the "To set up an OCR service" section in [How to: Set Up Incoming Documents](across-how-setup-income-documents.md).
+2. On the OCR service website, log in using the credentials of your OCR service account. These are the credentials you also used when setting up the service. For more information, see the "To set up an OCR service" section in [Set Up Incoming Documents](across-how-setup-income-documents.md).
 
     If you access the website from the **OCR Status** field, the document in question is displayed immediately after your sign in. If you access the website by choosing the tile on the Home page, on the first OCR service page that opens, you must choose the **Start** button on the **Verify** tab or double-click the document that you want to verify.
 
@@ -91,7 +91,7 @@ In addition to mapping to a vendor account or G/L accounts, you can also map to 
 6. In the **Credit Acc. No.** field, enter the credit-type G/L account that will be inserted on resulting purchase document or journal line of type G/L Account.
 
     > [!NOTE]
-    > Do not use the **Bal. Source Type** and **Bal. Source No.** fields in connection with incoming documents. They are used for automatic payment reconciliation only. For more information, see [How to: Map Text on Recurring Payments to Accounts for Automatic Reconciliation](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
+    > Do not use the **Bal. Source Type** and **Bal. Source No.** fields in connection with incoming documents. They are used for automatic payment reconciliation only. For more information, see [Map Text on Recurring Payments to Accounts for Automatic Reconciliation](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 
 7. Repeat steps 2 through 5 for all text on incoming documents that you want to automatically create documents for.
 

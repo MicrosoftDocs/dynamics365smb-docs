@@ -16,10 +16,10 @@
     ms.author: sgroespe
 
 ---
-# How to: Manually Transfer and Post CODA Statements
+# Manually Transfer and Post CODA Statements
 After you have applied and processed all CODA statement lines, you can manually transfer the CODA statement lines to a financial journal. The financial journal lets you enter a starting balance and an ending balance and automatically calculate the difference between the two balances. Posting is not allowed if the statement line amounts do not balance with the statement ending balance.  
 
-For information about how to automatically transfer statements, see [How to: Automatically Transfer and Post CODA Statements](how-to-automatically-transfer-and-post-coda-statements.md).  
+For information about how to automatically transfer statements, see [Automatically Transfer and Post CODA Statements](how-to-automatically-transfer-and-post-coda-statements.md).  
 
 ## To manually transfer and post statement lines  
 
@@ -32,7 +32,7 @@ For information about how to automatically transfer statements, see [How to: Aut
 ## See Also  
  [Belgian Electronic Banking](belgian-electronic-banking.md)   
  [CODA Bank Statements](coda-bank-statements.md)   
- [How to: Import CODA Statements](how-to-import-coda-statements.md)   
- [How to: Apply CODA Statements](how-to-apply-coda-statements.md)   
- [How to: Create Financial Journals](how-to-create-financial-journals.md)   
- [How to: Automatically Transfer and Post CODA Statements](how-to-automatically-transfer-and-post-coda-statements.md)
+ [Import CODA Statements](how-to-import-coda-statements.md)   
+ [Apply CODA Statements](how-to-apply-coda-statements.md)   
+ [Create Financial Journals](how-to-create-financial-journals.md)   
+ [Automatically Transfer and Post CODA Statements](how-to-automatically-transfer-and-post-coda-statements.md)

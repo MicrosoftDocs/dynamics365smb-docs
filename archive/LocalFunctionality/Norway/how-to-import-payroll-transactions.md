@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Import Payroll Transactions
+# Import Payroll Transactions
 You can import payroll transactions into a general journal from two external payroll solutions: Huldt & Lillevik and Hogia. You can then use the general journal to post the imported payroll transactions to general ledger accounts or bank accounts. To import payroll transactions, you must first set up payroll integration.  
 
 ## To set up payroll integration  

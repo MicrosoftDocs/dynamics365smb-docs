@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Map Customer Data
+# Map Customer Data
 You can map values from an existing ERP system into your [!INCLUDE[d365fin](includes/d365fin_md.md)] already has.  
   
  In the procedures that follow, you should review in advance which values you want to retain during the migration process. To perform the following procedures, you will need data migration files (.xls) that you have exported from ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-export-migration-tables.md).  
@@ -28,7 +28,7 @@ You can map values from an existing ERP system into your [!INCLUDE[d365fin](incl
   
 3.  For the fields for which you want [!INCLUDE[d365fin](includes/d365fin_md.md)] to permit additional values during migration, select the **Create Missing Codes** check box.  
   
-4.  Import the customer data. For more information, see [How to: Import Customer Data](../how-to-import-customer-data.md).  
+4.  Import the customer data. For more information, see [Import Customer Data](../how-to-import-customer-data.md).  
   
 ### To map values to be used during import to [!INCLUDE[d365fin](includes/d365fin_md.md)]  
   
@@ -42,7 +42,7 @@ You can map values from an existing ERP system into your [!INCLUDE[d365fin](incl
   
 4.  In the **Old Value** field, enter the value that you want to change. In the **New Value** field, enter the value that you want the old value to be changed to. Choose the **OK** button.  
   
-5.  Import the customer data. For more information, see [How to: Import Customer Data](../how-to-import-customer-data.md). In the **No. of Package Errors** field, see if there are any errors reported. If there are, drill down to see the errors. The **Config. Package Records** window opens.  
+5.  Import the customer data. For more information, see [Import Customer Data](../how-to-import-customer-data.md). In the **No. of Package Errors** field, see if there are any errors reported. If there are, drill down to see the errors. The **Config. Package Records** window opens.  
   
 6.  On the **Home** tab, in the **Process** group, choose **Show Error**. You will receive the following error: **<option> is not a valid option. Valid options are <valid option list>**. Choose the **OK** button.  
   
@@ -51,6 +51,6 @@ You can map values from an existing ERP system into your [!INCLUDE[d365fin](incl
 ## See Also  
  Config. Field Mapping   
  Config. Field Mapping   
- [How to: Apply Customer Data](../how-to-apply-customer-data.md)   
- [How to: Clean Up and Process Data](../how-to-clean-up-and-process-data.md)   
+ [Apply Customer Data](../how-to-apply-customer-data.md)   
+ [Clean Up and Process Data](../how-to-clean-up-and-process-data.md)   
  Config. Package - Process

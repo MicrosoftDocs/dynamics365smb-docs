@@ -10,24 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
-ms.date: 08/08/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 
 ---
-# How to: Record Purchases
+# Record Purchases
 You create a purchase invoice or purchase order to record the cost of purchases and to track accounts payable. If you need to control an inventory, purchase invoices and purchase orders are also used to dynamically update inventory levels so that you can minimize your inventory costs and provide better customer service. The purchasing costs, including service expenses, and inventory values that result from posting purchase invoices or orders contribute to profit figures and other financial KPIs on your Home page.
 
 > [!NOTE]  
->   You must use purchase orders if your purchasing process requires that you record partial receipts of an order quantity, for example, because the full quantity was not available at the vendor. If you sell items by delivering directly from your vendor to your customer, as a drop shipment, then you must also use purchase orders. For more information, see [How to: Make Drop Shipments](sales-how-drop-shipment.md). In all other aspects, purchase orders work the same way as purchase invoices. The following procedure is based on a purchase invoice. The steps are similar for a purchase order.
+>   You must use purchase orders if your purchasing process requires that you record partial receipts of an order quantity, for example, because the full quantity was not available at the vendor. If you sell items by delivering directly from your vendor to your customer, as a drop shipment, then you must also use purchase orders. For more information, see [Make Drop Shipments](sales-how-drop-shipment.md). In all other aspects, purchase orders work the same way as purchase invoices. The following procedure is based on a purchase invoice. The steps are similar for a purchase order.
 
 When you receive the inventory items, or when the purchased service is completed, you post the purchase invoice or order to update inventory and financial records and to activate payment to the vendor according to the payment terms. For more information, see [Making Payments](payables-make-payments.md).
 
 > [!CAUTION]  
 >   Do not post a purchase invoice until you receive the items and know the final cost of the purchase, including any additional charges. Otherwise, your inventory value and profit figures may be skewed.
 
-You can easily correct or cancel a posted purchase invoice before you pay the vendor. This is useful if you want to correct a typing mistake or if you want to change the purchase early in the order process. For more information, see [How to: Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). If you have already paid for items on the posted purchase invoice, then you must create a purchase credit memo to reverse the purchase. For more information, see [How to: Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md).
+You can easily correct or cancel a posted purchase invoice before you pay the vendor. This is useful if you want to correct a typing mistake or if you want to change the purchase early in the order process. For more information, see [Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). If you have already paid for items on the posted purchase invoice, then you must create a purchase credit memo to reverse the purchase. For more information, see [Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md).
 
-Items can be type **Inventory** or **Service**. For more information, see [How to: Register New Items](inventory-how-register-new-items.md). The purchase invoice process is the same for both item types.
+Items can be type **Inventory** or **Service**. For more information, see [Register New Items](inventory-how-register-new-items.md). The purchase invoice process is the same for both item types.
 
 You can fill vendor fields on the purchase invoice in two ways depending on whether the vendor is already registered.
 
@@ -40,7 +40,7 @@ You can fill vendor fields on the purchase invoice in two ways depending on whet
 4. In the dialog box about registering the new vendor, choose the **Yes** button.
 5. In the **Select a template for a new vendor** window, choose a template to base the new vendor card on, and then choose the **OK** button.
 6. A new vendor card opens, prefilled with the information on the selected vendor template. The **Name** field is prefilled with the new vendor’s name that you entered on the purchase invoice.
-7. Proceed to fill in the remaining fields on the vendor card. For more information, see [How to: Register New Vendors](purchasing-how-register-new-vendors.md).  
+7. Proceed to fill in the remaining fields on the vendor card. For more information, see [Register New Vendors](purchasing-how-register-new-vendors.md).  
 8. When you have completed the vendor card, choose the **OK** button to return to the **Purchase Invoice** window.
 
     Several fields in the **Purchase Invoice** window are filled with information that you specified on the new vendor card.
@@ -70,8 +70,8 @@ The purchase is now reflected in inventory and financial records, and the vendor
 ## See Also
 [Purchasing](purchasing-manage-purchasing.md)  
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  
-[How to: Request Quotes](purchasing-how-request-quotes.md)  
-[How to: Purchase Items for a Sale](purchasing-how-purchase-products-sale.md)  
-[How to: Register New Vendors](purchasing-how-register-new-vendors.md)  
-[How to: Prepare Drop Shipments](sales-how-drop-shipment.md)  
+[Request Quotes](purchasing-how-request-quotes.md)  
+[Purchase Items for a Sale](purchasing-how-purchase-products-sale.md)  
+[Register New Vendors](purchasing-how-register-new-vendors.md)  
+[Prepare Drop Shipments](sales-how-drop-shipment.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

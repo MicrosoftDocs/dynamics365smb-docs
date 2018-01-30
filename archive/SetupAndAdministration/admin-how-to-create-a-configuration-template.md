@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Create a Configuration Package
+# Create a Configuration Package
 When you configure a new company, table relations are recognized and processed. Data is imported and applied in the correct order. Dimension tables are also imported if they are included in the configuration package.  
   
  To help your customer use the configuration package, you may want to add a questionnaire or a set of questionnaires to the package. The questionnaire can help the customer in understanding the various setup options. Typically, questionnaires are created for the major setup tables within ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-create-configuration-questionnaires.md).  
@@ -109,8 +109,8 @@ When you configure a new company, table relations are recognized and processed. 
 5.  Choose the **OK** button.  
   
 ## See Also  
- [How to: Assign a Configuration Package](../how-to-assign-a-configuration-package.md)   
+ [Assign a Configuration Package](../how-to-assign-a-configuration-package.md)   
  Copy Package   
  Get Package Tables   
- [How to: Manage Company Configuration in a Worksheet](../how-to-manage-company-configuration-in-a-worksheet.md)   
- [How to: Import Configuration Packages](../how-to-import-configuration-packages.md)
+ [Manage Company Configuration in a Worksheet](../how-to-manage-company-configuration-in-a-worksheet.md)   
+ [Import Configuration Packages](../how-to-import-configuration-packages.md)

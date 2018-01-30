@@ -15,8 +15,8 @@
     ms.author: bholtorf
 
 ---
-# How to: Create Electronic Documents in an OIOUBL Format
-When you sell goods or services to a customer in the public sector, you must submit sales documents to the customer electronically in an Offentlig Information Online - Universal Business Language format. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the OIOUBL extension makes it easy to do that for sales and service invoices, credit memos, and reminders (which include finance charge memos). For more information, see [The OIOUBL Extension for Electronic Invoicing in Denmark](ui-extensions-oioubl.md).
+# Create Electronic Documents by Using OIOUBL
+When you sell goods or services to a customer in the public sector, you must submit documents electronically. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create electronic documents for invoices, credit memos, reminders, and finance charge memos. Before you can create the electronic documents, you must have set up file locations and information about the customers. For more information, see [Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md).  
 
 You can create an electronic document after you post the sales or service document. The following sections describe how to post a sales invoice with the required information and then create an electronic sales invoice, but the same procedure applies to sales and service credit memos and reminders.  
 
@@ -24,10 +24,10 @@ You can create an electronic document after you post the sales or service docume
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Invoices**, and then choose the related link.  
 2.  Open the sales invoice that you want to post.  
 3.  Make sure that the **External Document No.** field contains the document number that the customer supplied. OIOUBL electronic documents require this number.
-  
+
     > [!Note]  
     > For service documents, you must fill in the **Your Reference** field.  
-  
+
 4.  On the **Invoicing** FastTab, fill in the **GLN** and **OIOUBL Account Code** fields.  
 
     For reminders and finance charge memos, the fields are on the **Posting** FastTab.  
@@ -46,6 +46,6 @@ An XML file is created and stored at the location that was defined in the **Sale
 
 ## See Also  
 [Denmark Local Functionality](denmark-local-functionality.md)  
-[How to: Set Up the OIOUBL Extension](how-to-set-up-oioubl.md)  
-[The OIOUBL Extension for Electronic Invoicing in Denmark](ui-extensions-oioubl.md)  
-
+ [Set Up OIOUBL](how-to-set-up-oioubl.md)   
+ [Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md)   
+ [OIOUBL Electronic Invoicing Overview](oioubl-electronic-invoicing-overview.md)

@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Post a Negative Entry
+# Post a Negative Entry
 You can use the **Correction** field to post a negative debit instead of a credit, or to post a negative credit instead of a debit on an account. To meet legal requirements, this field is visible by default in all journals. The **Debit Amount** and **Credit Amount** fields include both the original entry, and the corrected entry. These fields have no effect on the account balance.  
 
 ## To post a negative entry  
@@ -27,5 +27,5 @@ You can use the **Correction** field to post a negative debit instead of a credi
 5.  To post the journal, choose the **Post** action, and then choose the **Yes** button.  
 
 ## See Also  
-[How to: Reverse Postings](../../finance-how-reverse-journal-posting.md)  
+[Reverse Postings](../../finance-how-reverse-journal-posting.md)  
 [Germany Local Functionality](germany-local-functionality.md)

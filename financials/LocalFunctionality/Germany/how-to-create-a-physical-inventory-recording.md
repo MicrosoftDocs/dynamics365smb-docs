@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Create a Physical Inventory Recording
+# Create a Physical Inventory Recording
 After you have created a physical inventory order and its lines you can create a new physical inventory recording for taking the inventory.  
 
 You can create a physical inventory recording manually if it is not necessary to use physical inventory lists or if the physical inventory data will be taken by a scanner. You can also create a physical inventory recording manually even if the related physical recording order does not contain any line. After finishing the physical inventory, the required physical inventory order lines are created automatically. This may be useful, for instance, in the case of a permanent physical inventory.  
@@ -49,7 +49,7 @@ However, in most cases, you use a batch job to record inventory. Based on the ph
 
 You can use the printed physical inventory recording to update the actual quantity of the item available in the specified location. To complete the recording process, the **Recorded** check box must be selected for all physical inventory recording lines.  
 
-To show that you have finished the physical inventory recording, you have to set the **Status** on the inventory recording header to **Finished**. For more information, see [How to: Finish a Physical Inventory Recording](how-to-finish-a-physical-inventory-recording.md).  
+To show that you have finished the physical inventory recording, you have to set the **Status** on the inventory recording header to **Finished**. For more information, see [Finish a Physical Inventory Recording](how-to-finish-a-physical-inventory-recording.md).  
 
 ## To complete a physical inventory recording  
 
@@ -65,10 +65,10 @@ To show that you have finished the physical inventory recording, you have to set
     |**Date Recorded**|The date on which the physical inventory was recorded.|  
     |**Time Recorded**|The time at which the physical inventory was recorded.|  
 
- You can now finish the physical inventory recording. For more information, see [How to: Finish a Physical Inventory Recording](how-to-finish-a-physical-inventory-recording.md).  
+ You can now finish the physical inventory recording. For more information, see [Finish a Physical Inventory Recording](how-to-finish-a-physical-inventory-recording.md).  
 
 ## See Also  
  [Physical Inventory Recording - Counting Physical Inventory](physical-inventory-recording-counting-physical-inventory.md)   
- [How to: Enter Physical Inventory Orders](how-to-enter-physical-inventory-orders.md)   
- [How to: Calculate Quantity On Hand for a Physical Inventory Order](how-to-calculate-quantity-on-hand-for-a-physical-inventory-order.md)   
- [How to: Finish a Physical Inventory Recording](how-to-finish-a-physical-inventory-recording.md)
+ [Enter Physical Inventory Orders](how-to-enter-physical-inventory-orders.md)   
+ [Calculate Quantity On Hand for a Physical Inventory Order](how-to-calculate-quantity-on-hand-for-a-physical-inventory-order.md)   
+ [Finish a Physical Inventory Recording](how-to-finish-a-physical-inventory-recording.md)

@@ -11,17 +11,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff
-ms.date: 06/06/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 
 ---
-# How to: Use Resources for Jobs
-You record the usage of resources in the job journal to keep track of costs, prices, and the work types that are linked to jobs. For more information, see [How to: Record Usage for Jobs](projects-how-record-job-usage.md).
+# Use Resources for Jobs
+You record the usage of resources in the job journal to keep track of costs, prices, and the work types that are linked to jobs. For more information, see [Record Usage for Jobs](projects-how-record-job-usage.md).
 
 You can also post the usage of a resource in a resource journal. Entries posted in a resource journal have no effect on the general ledger.
 
 ## To assign resources to jobs
-You assign resources to jobs by creating job planning lines for the job. For more information, see [How to: Create Jobs](projects-how-create-jobs.md).
+You assign resources to jobs by creating job planning lines for the job. For more information, see [Create Jobs](projects-how-create-jobs.md).
 
 ## To record resource usage for a job
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Journals**, and then choose the related link.

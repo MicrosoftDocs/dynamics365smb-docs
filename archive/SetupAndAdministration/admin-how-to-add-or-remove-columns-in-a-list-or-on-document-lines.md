@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Add or Remove Columns in a List or on Document Lines
+# Add or Remove Columns in a List or on Document Lines
 To get a better overview of the information that you need, you can customize list pages and card pages by adding or removing columns in the grids.  
   
 > [!NOTE]  
@@ -36,14 +36,14 @@ To get a better overview of the information that you need, you can customize lis
 -   In the **Customize** window, choose **Restore Defaults**, and then choose the **OK** button.  
   
     > [!NOTE]  
-    >  All customization of columns that you have ever made for this page under your current user logon or since you last used the **Restore Defaults** button are canceled. The layout of columns on the page is reset to the default configuration for your profile. For more information, see [How to: Cancel UI Personalization](../how-to-cancel-ui-personalization.md).  
+    >  All customization of columns that you have ever made for this page under your current user logon or since you last used the **Restore Defaults** button are canceled. The layout of columns on the page is reset to the default configuration for your profile. For more information, see [Cancel UI Personalization](../how-to-cancel-ui-personalization.md).  
   
 ## See Also  
  PERSONALIZATION Personalize the User Interface   
- [How to: Customize Ribbons](../how-to-customize-ribbons.md)   
- [How to: Customize FactBoxes](../how-to-customize-factboxes.md)   
- [How to: Specify When UI Elements Are Removed](../How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md)   
- [How to: Cancel UI Personalization](../how-to-cancel-ui-personalization.md)   
+ [Customize Ribbons](../how-to-customize-ribbons.md)   
+ [Customize FactBoxes](../how-to-customize-factboxes.md)   
+ [Specify When UI Elements Are Removed](../How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md)   
+ [Cancel UI Personalization](../how-to-cancel-ui-personalization.md)   
  Delete User Personalization   
  [Customize the User Interface](../customize-the-user-interface.md)   
  [Working with Product Name](../working-with-$-p_1-product-name-$-.md)   

@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Base Calendars
+# Set Up Base Calendars
 You can assign a base calendar to your company and its business partners, such as customers, vendors, or locations. Delivery and receipt dates on future sales order, purchase order, transfer order, and production order lines are calculated according to the calendar’s specified working days. The main task in setting up a new base calendar is to specify and define the non-working days that you want to apply.  
 
 ## To set up a base calendar  

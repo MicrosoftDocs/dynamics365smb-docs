@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Vendor Prepayments
+# Set Up Vendor Prepayments
 Prepayments are advance payments on purchase orders that are paid before the final invoice is issued. For example, you may be required by a vendor to prepay 20 percent of the invoice amount on a manufactured item. Prepayments allow you track and record advance payments on purchase invoices.  
 
 ## To set up vendor prepayments  

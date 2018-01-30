@@ -1,6 +1,6 @@
 ---
     title: How to Set Up Operation Codes
-    description: You can add as many operation codes as you want to the table. However, the operation codes C, D, and I already exist in Dynamics 365, Business edition
+    description: You can add as many operation codes as you want to the table. However, the operation codes C, D, and I already exist in Finance and Operations, Business edition.
 
     services: project-madeira
     documentationcenter: ''
@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Operation Codes
+# Set Up Operation Codes
 You can add as many operation codes as you want to the table. However, the operation codes C, D, and I already exist in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. For example, Credit Memos always have the operation code D. You cannot set up these values in the table because they are system-created codes. If you try to add them, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] will return an error.  
 
 ## To set up operation codes  
@@ -45,4 +45,4 @@ You can add as many operation codes as you want to the table. However, the opera
 When you add an operation code to the general product posting group, that association is in turn applied to the items that have that general product posting group.  
 
 ## See Also  
- [How to: Create Report 340](how-to-create-report-340.md)
+ [Create Report 340](how-to-create-report-340.md)

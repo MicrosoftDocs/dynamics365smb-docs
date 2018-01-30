@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Enter CCC Codes
+# Enter CCC Codes
 Código Cuenta Cliente (CCC) is a unique bank account identification code. The following component fields make up the 20-digit (Spain) or 21-digit (Portugal) bank CCC code structure.  
 
 If you change the CCC code structure, the **CCC No.** field updates automatically. Similarly, if you change the **CCC No.** field, the CCC code structure updates automatically.  

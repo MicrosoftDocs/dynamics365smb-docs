@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Future Expenses in a Depreciation Book
+# Set Up Future Expenses in a Depreciation Book
 To depreciate a future expense, you have to set up future period expenses in a depreciation book.  
 
 ## To set up future expenses in a depreciation book  
@@ -64,4 +64,4 @@ To depreciate a future expense, you have to set up future period expenses in a d
 ## See Also  
  [Fixed Assets](../../fa-manage.md)     
  [Future Expenses (Deferrals)](future-expenses-deferrals-.md)   
- [How to: Create Future Expense Journals](how-to-create-future-expense-journals.md)
+ [Create Future Expense Journals](how-to-create-future-expense-journals.md)

@@ -29,5 +29,5 @@ You can print the following local VAT reports.
 
 ## See Also  
 [How To: Report VAT to the Tax Authorities](../../finance-how-report-vat.md)  
-[How to: Work with VAT on Sales and Purchases](../../finance-work-with-vat.md)  
-[How to: Set Up Reports for VAT and Intrastat](how-to-set-up-reports-for-vat-and-intrastat.md)
+[Work with VAT on Sales and Purchases](../../finance-work-with-vat.md)  
+[Set Up Reports for VAT and Intrastat](how-to-set-up-reports-for-vat-and-intrastat.md)

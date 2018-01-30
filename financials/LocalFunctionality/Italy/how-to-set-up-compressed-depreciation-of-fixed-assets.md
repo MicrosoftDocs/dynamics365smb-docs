@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Compressed Depreciation of Fixed Assets
+# Set Up Compressed Depreciation of Fixed Assets
 You can compress fixed asset depreciation into subclasses and choose to display only the total sum by subclass. You can choose to post only the depreciation totals of assets that are grouped by category. This is particularly important for companies that have multiple fixed assets divided into many individual items.  
 
 When you calculate depreciation, one line is generated for each fixed asset. For example, posting depreciations for 100 assets generates 100 lines that are posted to both the general ledger and fixed asset ledger entries.  
@@ -33,8 +33,8 @@ When you calculate depreciation, one line is generated for each fixed asset. For
 4.  Choose the **OK** button.  
 
 ## See Also  
- [How to: Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md)   
+ [Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md)   
  [Italian Fixed Assets](italian-fixed-assets.md)   
- [How to: Set Up Alternate Depreciation Methods](how-to-set-up-alternate-depreciation-methods.md)   
- [How to: Create Multiple Fixed Asset Cards](how-to-create-multiple-fixed-asset-cards.md)   
- [How to: Print Depreciation Book Reports](how-to-print-depreciation-book-reports.md)
+ [Set Up Alternate Depreciation Methods](how-to-set-up-alternate-depreciation-methods.md)   
+ [Create Multiple Fixed Asset Cards](how-to-create-multiple-fixed-asset-cards.md)   
+ [Print Depreciation Book Reports](how-to-print-depreciation-book-reports.md)

@@ -1,6 +1,6 @@
 ---
     title: France Local Functionality
-    description: The following topics describe the local functionality in the French version of Dynamics 365, Business edition.
+    description: The following topics describe the local functionality in the French version of Finance and Operations, Business edition.
 
     services: project-madeira
     documentationcenter: ''

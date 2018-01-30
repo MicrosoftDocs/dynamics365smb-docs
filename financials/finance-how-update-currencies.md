@@ -11,10 +11,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: multiple currencies
-ms.date: 01/19/2018
+ms.date: 01/25/2018
+ms.author: edupont
 
 ---
-# How to: Update Currency Exchange Rates
+# Update Currency Exchange Rates
 You must set up a code for each currency you use if you buy or sell in currencies other than your local currency, have receivables or payables in other currencies, or record G/L transactions in different currencies.  
 
 As companies operate in increasingly more countries/regions, it becomes more important that they be able to review or report financials in more than one currency. The program supports use of multiple currencies. Within the program, your general ledger is set up using your local currency (LCY), and another currency is set up as an additional currency, with a current exchange rate assigned.  
@@ -38,7 +39,6 @@ Several reports in the General Ledger application area are based on G/L entries.
 
 ## To set up a currency exchange rate service
 You can use an external service to keep your currency exchange rates up to date, such as FloatRates.
->>>>>>> refs/remotes/origin/Update15
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Currency Exchange Rate Services**, and then choose the related link.
 2. Choose the **New** action.

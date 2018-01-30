@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Validate Customer Data
+# Validate Customer Data
 Customer data must be validated before you apply the records to the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.  
   
 > [!NOTE]  
@@ -38,4 +38,4 @@ Customer data must be validated before you apply the records to the [!INCLUDE[d3
  You are now ready to apply the customer’s data to the database.  
   
 ## See Also  
- [How to: Apply Customer Data](../how-to-apply-customer-data.md)
+ [Apply Customer Data](../how-to-apply-customer-data.md)

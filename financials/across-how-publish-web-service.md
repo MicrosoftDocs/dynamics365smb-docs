@@ -13,7 +13,7 @@ ms.date: 11/22/2017
 ms.author: edupont
 
 ---
-# How to: Publish a Web Service
+# Publish a Web Service
 Web services are a lightweight way to make application functionality available to a variety of external systems and users. [!INCLUDE[d365fin](includes/d365fin_md.md)] includes an number of objects that are exposed as web services by default due to integration with other Microsoft services, but you can also add other web services.  
 
 You can set up a web service in the Windows client or in the Web client. You must then publish the web service so that it is available to service requests over the network. Users can discover web services by pointing a browser at the server location and requesting a list of available services. When you publish a web service, it is immediately available over the network for authenticated users. All authorized users can access metadata for web services, but only users who have sufficient permissions can access actual data.

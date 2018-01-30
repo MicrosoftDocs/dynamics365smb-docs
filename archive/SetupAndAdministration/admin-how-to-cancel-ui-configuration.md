@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Cancel UI Configuration
+# Cancel UI Configuration
 You can cancel UI customizations that you have made as configuration for a profile in three ways:  
 
 -   Cancel all UI customization that you have made for a profile by using the **Clear Configured Pages** button in the **Profile Card** window.  
@@ -60,8 +60,8 @@ The UI customization for the profile of the particular UI area on the particular
  [Configure the User Interface](../configure-the-user-interface.md)   
  PERSONALIZATION Personalize the User Interface   
  Delete Profile Configuration   
- [How to: Cancel UI Personalization](../how-to-cancel-ui-personalization.md)   
+ [Cancel UI Personalization](../how-to-cancel-ui-personalization.md)   
  Delete User Personalization   
- [How to: Disable Personalization](../how-to-disable-personalization.md)   
+ [Disable Personalization](../how-to-disable-personalization.md)   
  [Customize the User Interface](../customize-the-user-interface.md)   
  [Manage Profiles](../manage-profiles.md)

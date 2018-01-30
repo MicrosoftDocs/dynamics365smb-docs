@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 08/09/2017
+ms.date: 01/25/2018
 ms.author: SorenGP
 
 ---
@@ -26,8 +26,8 @@ The following table describes a sequence of tasks, with links to the topics that
 
 | To | See |
 | --- | --- |
-| Register new employees or edit records for existing employees, and attach related information, such as contracts and articles. |[How to: Register Employees](hr-how-register-employees.md) |
-| Record employees' absence and view absence statistics by various filters. |[How to: Manage Employee Absence](hr-how-manage-absence.md) |
+| Register new employees or edit records for existing employees, and attach related information, such as contracts and articles. |[Register Employees](hr-how-register-employees.md) |
+| Record employees' absence and view absence statistics by various filters. |[Manage Employee Absence](hr-how-manage-absence.md) |
 
 ## See Also
 [Finance](finance.md)  

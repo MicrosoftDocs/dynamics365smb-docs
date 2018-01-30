@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Print Intrastat Reports for Italy
+# Print Intrastat Reports for Italy
 You can print monthly and quarterly Intrastat reports and submit them to the authorities on a diskette by running the **Intrastat Make Disk Tax Auth** batch job. Information regarding the receipt and the delivery of goods is included automatically.  
 
 The following Intrastat reports are available:  
@@ -50,4 +50,4 @@ The following Intrastat reports are available:
 3.  Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.  
 
 ## See Also  
- [How to: Set Up Journal Templates and Batches](how-to-set-up-journal-templates-and-batches.md)
+ [Set Up Journal Templates and Batches](how-to-set-up-journal-templates-and-batches.md)

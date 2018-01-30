@@ -15,8 +15,8 @@ ms.date: 03/29/2017
 ms.author: sgroespe
 
 ---
-# How to: Review or Apply Payments Manually After Automatic Application
-For each journal line representing a payment in the **Payment Reconciliation Journal** window, you can open the **Payment Application** window to see all candidate open entries for the payment and view detailed information for each entry about the data matching that a payment application is based on. Here, you can manually apply payments or reapply payments that were applied automatically to a wrong entry. For more information about automatic application, see [How to: Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
+# Review or Apply Payments Manually After Automatic Application
+For each journal line representing a payment in the **Payment Reconciliation Journal** window, you can open the **Payment Application** window to see all candidate open entries for the payment and view detailed information for each entry about the data matching that a payment application is based on. Here, you can manually apply payments or reapply payments that were applied automatically to a wrong entry. For more information about automatic application, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
 
 > [!IMPORTANT]  
 >   When the bank account that you are reconciling payments for is set up for the local currency, then the **Payment Application** window will show all open entries in the local currency, including open entries for documents that were originally invoiced in foreign currencies. Payments applied to entries with converted currencies may therefore be posted with different amounts than on the original document because of the potentially different exchange rates used by the bank and [!INCLUDE[d365fin](includes/d365fin_md.md)] respectively.
@@ -36,7 +36,7 @@ Any gains-and-loss adjustment required due to currency conversions is not handle
 
 ## To review or apply payments after automatic application
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Reconciliation Journals**, and then choose the related link.
-2. Open the payment reconciliation journal for a bank account that you want to reconcile payments for. For more information, see [How to: Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
+2. Open the payment reconciliation journal for a bank account that you want to reconcile payments for. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
 3. In the **Payment Reconciliation Journal** window, select a payment that you want to review or manually apply to one or more open entries, and then choose the **Apply Manually** action.
 4. Select the **Applied** check box on the line for the open entry that you want to apply the payment to.
 5. The payment amount, which is also shown in the **Transaction Amount** field in the **Payment Application** window, is inserted in the **Applied Amount** field, but you can modify the field, for example if you want to apply the amount to several open entries.

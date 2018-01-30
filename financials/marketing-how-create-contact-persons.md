@@ -15,7 +15,7 @@ ms.date: 06/06/2017
 ms.author: jswymer
 
 ---
-# How to: Create Contact Persons
+# Create Contact Persons
 You can create a contact card for each contact who works for the companies you interact with. For each contact company you can enter as many contact persons as you want. You can also create contact cards for the persons that you want to record as independent.
 
 > [!TIP]  
@@ -36,7 +36,7 @@ You can create a contact card for each contact who works for the companies you i
 ## See Also
 [Setting Up Relationship Management](marketing-setup-marketing.md)  
 [Assigning Mailing Groups to a Contact](marketing-mailing-groups.md#AssignMailGroupContact)  
-[How to: Set Up Job Responsibilities on Contacts](marketing-job-responsibilities.md)  
-[How to: Set Up Organizational Levels for Contact Persons](marketing-organizational-levels.md)  
+[Set Up Job Responsibilities on Contacts](marketing-job-responsibilities.md)  
+[Set Up Organizational Levels for Contact Persons](marketing-organizational-levels.md)  
 [Synchronizing Contacts With Customers, Vendors, and Bank Accounts](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
-[Working with Dynamics 365, Business edition](ui-work-product.md)  
+[Working with Finance and Operations, Business edition](ui-work-product.md)  

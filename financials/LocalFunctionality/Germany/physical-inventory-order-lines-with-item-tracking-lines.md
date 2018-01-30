@@ -55,9 +55,9 @@ Item tracking lines are used to enter serial numbers and lot numbers for physica
  You can have the program to print the item tracking lines optional when printing the report Phys. Invt. Order Diff. List for the inventory order lines.  
 
 ## See Also  
- [How to: Enter Physical Inventory Orders](how-to-enter-physical-inventory-orders.md)   
- [How to: Calculate Quantity On Hand for a Physical Inventory Order](how-to-calculate-quantity-on-hand-for-a-physical-inventory-order.md)   
+ [Enter Physical Inventory Orders](how-to-enter-physical-inventory-orders.md)   
+ [Calculate Quantity On Hand for a Physical Inventory Order](how-to-calculate-quantity-on-hand-for-a-physical-inventory-order.md)   
  [Physical Inventory Recording - Counting Physical Inventory](physical-inventory-recording-counting-physical-inventory.md)   
- [How to: Finish a Physical Inventory Recording](how-to-finish-a-physical-inventory-recording.md)   
- [How to: Finish a Physical Inventory Order](how-to-finish-a-physical-inventory-order.md)   
- [How to: Analyze Physical Inventory Differences](how-to-analyze-physical-inventory-differences.md)
+ [Finish a Physical Inventory Recording](how-to-finish-a-physical-inventory-recording.md)   
+ [Finish a Physical Inventory Order](how-to-finish-a-physical-inventory-order.md)   
+ [Analyze Physical Inventory Differences](how-to-analyze-physical-inventory-differences.md)

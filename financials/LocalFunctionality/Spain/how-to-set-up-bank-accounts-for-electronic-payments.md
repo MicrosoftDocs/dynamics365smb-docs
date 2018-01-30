@@ -1,6 +1,6 @@
 ---
     title: How to Set Up Bank Accounts for Electronic Payments
-    description: In Dynamics 365, Business edition, you can set up bank accounts to make electronic payments.
+    description: In Finance and Operations, Business edition, you can set up bank accounts to make electronic payments.
 
     services: project-madeira
     documentationcenter: ''
@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Bank Accounts for Electronic Payments
+# Set Up Bank Accounts for Electronic Payments
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can set up bank accounts to make electronic payments.  
 
 ## To set up bank accounts for electronic payments  

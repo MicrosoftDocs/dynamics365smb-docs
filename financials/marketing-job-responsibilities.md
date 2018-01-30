@@ -15,7 +15,7 @@ ms.date: 06/06/2017
 ms.author: jswymer
 
 ---
-# How to: Set Up Job Responsibilities for Contact Persons
+# Set Up Job Responsibilities for Contact Persons
 You can add information about the job responsibilities of contact persons to indicate what the contact person is responsible for within their company, for example, IT, management, or production. You can use this information when entering information about your contacts.
 
 Using job responsibilities on contacts is a two-step process. First, you define the job responsibility code. You only have to perform this step one time for each job responsibility. Once you have a job responsibility code, you can start to assign the code to contact persons.
@@ -37,7 +37,7 @@ Repeat these steps to assign as many job responsibilities as you want. You can a
 
 The number of job responsibilities you have assigned to the contact is displayed in the **No. of Job Responsibilities** field in the **Segmentation** section in the **Contact** window.
 
-After you have assigned job responsibilities to your contacts, you can use this information to select contacts for your segments. For more information, see [How to: Add Contacts to Segments](marketing-add-contact-segment.md).
+After you have assigned job responsibilities to your contacts, you can use this information to select contacts for your segments. For more information, see [Add Contacts to Segments](marketing-add-contact-segment.md).
 
 ## See Also
 [Creating Contact Persons](marketing-create-contact-persons.md)  

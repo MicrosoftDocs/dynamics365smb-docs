@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up VAT Categories
+# Set Up VAT Categories
 To use the electronic VAT declaration, you must set up a VAT category code for all XML elements in the electronic VAT declaration.  
 
 You must set up all of the possible category and subcategory combinations that represent an XML element in the electronic VAT declaration. Then, you can map the VAT statement data directly to an XML element.  
@@ -43,4 +43,4 @@ You can now map the VAT statement data directly to an XML element.
 
 ## See Also  
  [Electronic VAT and ICP Declarations](electronic-vat-and-icp-declarations.md)   
- [How to: Create Electronic VAT and ICP Declarations](how-to-create-electronic-vat-and-icp-declarations.md)
+ [Create Electronic VAT and ICP Declarations](how-to-create-electronic-vat-and-icp-declarations.md)

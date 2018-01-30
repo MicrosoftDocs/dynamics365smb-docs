@@ -2,7 +2,7 @@
     title: How to View and Print Account Turnover Information
     description: Russian enhancements enable you to view account turnover information in correspondence with other accounts.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: View and Print Account Turnover Information
+# View and Print Account Turnover Information
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] enables you to view account turnover information in correspondence with other accounts.  
 
 ## To view account turnover information  

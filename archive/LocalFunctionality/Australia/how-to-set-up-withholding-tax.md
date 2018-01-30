@@ -16,7 +16,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Withholding Tax
+# Set Up Withholding Tax
 Withholding tax (WHT) is the tax withheld by a company when it makes a payment to a vendor, in which the full amount owed to the vendor is reduced by the tax withheld. The withheld tax is then remitted to the Australian Taxation Office (ATO) when the next Business Activity Statement (BAS) is submitted.  
 
 If a supplier without an Australian Business Number (ABN) provides an invoice, a withholding tax amount must be withheld if the total amount of the invoice is more than the threshold amount.  
@@ -62,7 +62,7 @@ The following procedure describes how to set up product posting groups for WHT, 
     |**Bal. Payable Account Type**|Specifies the type of balancing account for purchase WHT transactions.|  
     |**Bal. Payable Account No.**|Specifies the account number or bank name for purchase WHT transactions. This is based on the type selected in the **Bal. Payable Account Type** field.|  
     |**WHT Report Line No. Series**|Specifies the number series for the WHT report line.|  
-    |**Revenue Type**|Specifies the revenue type. For more information, see [How to: Set Up Revenue Types for Withholding Tax](how-to-set-up-revenue-types-for-withholding-tax.md).|  
+    |**Revenue Type**|Specifies the revenue type. For more information, see [Set Up Revenue Types for Withholding Tax](how-to-set-up-revenue-types-for-withholding-tax.md).|  
     |**Purch. WHT Adj. Account No.**|Specifies the account number which to post purchase credit memo adjustments.|  
     |**Sales WHT Adj. Account No.**|Specifies the account number to post sales credit memo adjustments.|  
     |**Sequence**|Specifies the sequence in which the withholding tax posting setup information must be displayed in reports.|  
@@ -70,8 +70,8 @@ The following procedure describes how to set up product posting groups for WHT, 
 3.  Choose the **OK** button.  
 
 ## See Also  
- [How to: Set Up Revenue Types for Withholding Tax](how-to-set-up-revenue-types-for-withholding-tax.md)   
- [How to: View Withholding Tax Entries](how-to-view-withholding-tax-entries.md)   
- [How to: Calculate and Post Withholding Tax Settlements](how-to-calculate-and-post-withholding-tax-settlements.md)   
+ [Set Up Revenue Types for Withholding Tax](how-to-set-up-revenue-types-for-withholding-tax.md)   
+ [View Withholding Tax Entries](how-to-view-withholding-tax-entries.md)   
+ [Calculate and Post Withholding Tax Settlements](how-to-calculate-and-post-withholding-tax-settlements.md)   
  [Withholding Tax](withholding-tax.md)   
  [Australian Taxation Office (ATO)](http://www.ato.gov.au/)

@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Reserve Items
+# Reserve Items
 You can reserve items for sales orders, purchase orders, service orders, assembly orders, and production orders. You can reserve items on inventory or inbound on open document or journal lines. You perform the work in the **Reservation** window.
 
 Each line in the **Reservation** window, which you open to reserve items, displays information about one type of line (sales, purchase, journal) or inventory entry. The lines describe how many items are available to be reserved from each type of line or entry.
@@ -77,14 +77,14 @@ Sometimes, you may want to cancel an item reservation.
 4.  Confirm the subsequent message, by choosing the **OK** button.  
 
 ## To reserve a specific serial or lot number  
-From outbound documents for item-tracked items, such as sales orders or production component lists, you can reserve specific serial or lot numbers. This may be relevant, for example, if you need production components from a specific lot to ensure consistency with earlier production batches, or because a customer has requested a specific serial number. For more information, see [How to: Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md).
+From outbound documents for item-tracked items, such as sales orders or production component lists, you can reserve specific serial or lot numbers. This may be relevant, for example, if you need production components from a specific lot to ensure consistency with earlier production batches, or because a customer has requested a specific serial number. For more information, see [Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md).
 
 This is referred to as a specific reservation, because you reserve from the quantity of  Item X that belongs to Lot X. If you simply reserve from quantities of Item X, then it is a normal, non-specific, reservation. For more information, see [Design Details - Item Tracking and Reservations](design-details-item-tracking-and-reservations.md).
 
 The following procedure is based on a sales order.    
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then select the related link.  
 2. Create a sales order line for an item-tracked item.  
-3. Assign serial and lot numbers to the sales order line. For more information, see [How to: Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md).
+3. Assign serial and lot numbers to the sales order line. For more information, see [Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md).
 4. On the sales order line, choose the **Reserve** action.  
 5. Choose the **Yes** button to reserve specific serial or lot numbers.  
 6. In the   **Item Tracking List** window, select the serial and lot number combination that you have just assigned.  
@@ -95,5 +95,5 @@ The following procedure is based on a sales order.
 [Inventory](inventory-manage-inventory.md)  
 [Design Details: Reservation, Order Tracking, and Action Messaging](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Design Details - Item Tracking and Reservations](design-details-item-tracking-and-reservations.md)  
-[How to: Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)  
+[Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

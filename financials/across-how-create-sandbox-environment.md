@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
 
-# How to: Create a Sandbox Environment
+# Create a Sandbox Environment
 A sandbox environment (Preview) is a non-production instance of [!INCLUDE[d365fin](includes/d365fin_md.md)]. Isolated from production, a sandbox environment is the place to safely explore, learn, demo, develop, and test the service without the risk of affecting the data and settings of your production environment.
 
 ## To create a sandbox environment
@@ -40,7 +40,7 @@ In the sandbox environment, a brand-new tenant has been created. This tenant is 
 > [!NOTE]  
 >  Resetting the sandbox environment will remove it completely, and then create it again with the default demonstration data.  
 
-8.	To switch between your production and sandbox environments, you can use the Dynamics 365, Business edition app launcher.
+8.	To switch between your production and sandbox environments, you can use the Finance and Operations, Business edition app launcher.
 ![Sandbox Dynamics365 Menu](./media/across-sandbox/sandbox-dynamics365-menu.png)
 
 9.	It is possible for an administrator or another user to limit or even block access for some users to the sandbox environment. This can be done by using the standard security features of the product, such as the User card, User Groups, and Permission Sets.

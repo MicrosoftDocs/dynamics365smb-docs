@@ -1,6 +1,6 @@
 ---
     title: How to Create New Lines and New Cards | Microsoft Docs
-    description: ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> lets you work with windows in three different modes: view, edit, and new. The mode appears in the window caption, before the window name. For example, **View - Customer Card - 10000 The Cannon Group PLC**.
+    description: Finance and Operations, Business edition lets you work with windows in three different modes: view, edit, and new. The mode appears in the window caption, before the window name. For example, **View - Customer Card - 10000 The Cannon Group PLC**.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -15,23 +15,21 @@
     ms.author: sgroespe
 
 ---
-# How to: Create New Lines and New Cards
-ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> lets you work with windows in three different modes: view, edit, and new. The mode appears in the window caption, before the window name. For example, **View - Customer Card - 10000 The Cannon Group PLC**.  
-  
- This topic describes how to create a new line in a window, and how to open a window in New mode.  
-  
+# Create New Lines and New Cards
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] lets you work with windows in three different modes: view, edit, and new. The mode appears in the window caption, before the window name. For example, **View - Customer Card - 10000 The Cannon Group PLC**.  
+
 ### To create a new line in a list or document  
-  
+
 -   If the window contains a **New** button in the ribbon, choose **New**. Otherwise, choose **Actions**, and then choose **New**.  
-  
+
 ### To create a new card or document  
-  
+
 1.  Open the list of cards or documents, or open an existing card or document.  
-  
+
 2.  If the window contains a **New** button in the ribbon, choose **New**. Otherwise, choose **Actions**, and then choose **New**.  
-  
+
 ## See Also  
- [How to: Enter Data](../FullExperience/how-to-enter-data.md)   
+ [Enter Data](../FullExperience/how-to-enter-data.md)   
  [Keyboard Shortcuts](../FullExperience/keyboard-shortcuts.md)   
- [How to: Make Windows Editable](../FullExperience/how-to-make-windows-editable.md)   
- [How to: Create Cards by Using Data Templates](../FullExperience/how-to-create-cards-by-using-data-templates.md)
+ [Make Windows Editable](../FullExperience/how-to-make-windows-editable.md)   
+ [Create Cards by Using Data Templates](../FullExperience/how-to-create-cards-by-using-data-templates.md)

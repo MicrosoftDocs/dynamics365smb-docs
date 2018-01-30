@@ -22,9 +22,9 @@ The following table provides an overview of tasks that you typically perform to 
 
 | To | See |
 | --- | --- |
-| Specify system-wide and user-specific posting date ranges. Depending on your business needs, you may want to restrict user posting date ranges at the start of the period-end process or after it. |[How to: Specify Posting Periods](finance-how-specify-posting-periods.md) |
+| Specify system-wide and user-specific posting date ranges. Depending on your business needs, you may want to restrict user posting date ranges at the start of the period-end process or after it. |[Specify Posting Periods](finance-how-specify-posting-periods.md) |
 | Get an overview of activities that are commonly performed at the end of a period, such as posting all documents and journals, or running account schedules. |[Closing Periods](year-how-complete-period-end-processes.md) |
-| Update currency exchange rates and adjust the exchange rates of posted customer, vendor, and bank account entries. |[How to: Update Currency Exchange Rates](finance-how-update-currencies.md) |
+| Update currency exchange rates and adjust the exchange rates of posted customer, vendor, and bank account entries. |[Update Currency Exchange Rates](finance-how-update-currencies.md) |
 | Allocate costs and income among accounts and dimensions. |[Allocating Costs and Income](year-allocate-costs-income.md) |
 | Prepare to report value-added tax amounts that you have collected for sales to the tax authorities' web service. |[How To: Report VAT to Tax Authorities](finance-how-report-vat.md)|
 | Print reports to verify general ledger, customer, vendor and bank account balances before closing a period. |[Preparing Pre-Closing Reports](year-prepare-preclose-reports.md) |
@@ -32,5 +32,5 @@ The following table provides an overview of tasks that you typically perform to 
 | Print reports that can assist you in creating financial statements. |[Preparing Closing Statements](year-prepare-close-statement.md) |
 
 ## See Also
-[How to: Open a New Fiscal Year](finance-how-open-new-fiscal-year.md)  
+[Open a New Fiscal Year](finance-how-open-new-fiscal-year.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

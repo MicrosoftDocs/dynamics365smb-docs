@@ -37,7 +37,7 @@ General ledger entries are not transferred if:
 
 ## See Also  
 [Accounting for Costs](finance-manage-cost-accounting.md)  
- [How to: Transfer General Ledger Entries to Cost Entries](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)   
+ [Transfer General Ledger Entries to Cost Entries](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)   
  [Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)   
  [About Cost Accounting](finance-about-cost-accounting.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

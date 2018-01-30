@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Manage Notification Templates
+# Manage Notification Templates
 Notifications are sent to workflow users to notify them about steps they must make or to inform them about the status of workflow steps. You set up who receives notification and when by setting up approval users, the users’ notification schedule, and the involved workflow responses to define the notification recipient. For more information, see [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md).  
 
  Notifications are based on templates that define the content and layout of the notification. You can export the content of a notification template, edit it, and then import into the same or a new notification template. This is described in the following procedures.  
@@ -72,9 +72,9 @@ Parameter values are automatically inserted in notifications according to the no
 
 ## See Also  
  [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)   
- [How to: Set up Email](madeira-how-setup-email.md)   
- [How to: Set Up Workflow Users](across-how-to-set-up-workflow-users.md)   
- [How to: Set Up Approval Users](across-how-to-set-up-approval-users.md)   
- [How to: Create Workflows](across-how-to-create-workflows.md)   
+ [Set up Email](madeira-how-setup-email.md)   
+ [Set Up Workflow Users](across-how-to-set-up-workflow-users.md)   
+ [Set Up Approval Users](across-how-to-set-up-approval-users.md)   
+ [Create Workflows](across-how-to-create-workflows.md)   
  [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)   
  [Workflow](across-workflow.md)   

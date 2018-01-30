@@ -24,6 +24,6 @@ Automatic account codes can be used to automate postings related to payroll over
 You can also use automatic account codes to trigger cost or revenue allocations across different dimensions. For example, you can set up an automatic account group to divide total expenses across three departments when posting an invoice.  
 
 ## See Also  
- [How to: Set Up Automatic Account Posting Groups](how-to-set-up-automatic-account-posting-groups.md)   
+ [Set Up Automatic Account Posting Groups](how-to-set-up-automatic-account-posting-groups.md)   
  [Setting Up Posting Groups](../../finance-posting-groups.md)  
  [Working with General Journals](../../ui-work-general-journals.md)

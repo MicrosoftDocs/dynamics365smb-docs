@@ -15,7 +15,7 @@ ms.date: 06/06/2017
 ms.author: jswymer
 
 ---
-# How to: Link Contacts With Customers, Vendors, and Bank Accounts
+# Link Contacts With Customers, Vendors, and Bank Accounts
 If you have contact and either a customer, vendor, or bank account for the same company, you can link the two entities. Linking the two entities enables you to synchronize data that is common so that it is the same in both places.
 
 ## Link a Contact to an Existing Customer, Vendor, or Bank Account

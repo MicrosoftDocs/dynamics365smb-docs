@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Calculate Quantity On Hand for a Physical Inventory Order
+# Calculate Quantity On Hand for a Physical Inventory Order
 After you have created the physical inventory order and after you have entered the physical inventory order lines, you must have the program calculate the field Qty. Expected (Base) for every physical inventory order line.  
 
 If [!INCLUDE[d365fin](../../includes/d365fin_md.md)] created this physical inventory order lines automatically, you could decide in the request page for the batch job whether to calculate the expected quantity or not. If you have created the physical inventory order lines manually or if you changed them in the meantime, you have to calculate the expected quantities manually. You can calculate quantities in two ways as described in the following section.  
@@ -37,9 +37,9 @@ If [!INCLUDE[d365fin](../../includes/d365fin_md.md)] has already calculated the 
 You must calculate the expected quantities for all physical inventory order lines of a physical inventory order before you can set the Status field to **Finished**. This is because [!INCLUDE[d365fin](../../includes/d365fin_md.md)] compares the expected and the recorded quantities and calculates the differences for posting.  
 
 ## See Also  
- [How to: Enter Physical Inventory Orders](how-to-enter-physical-inventory-orders.md)   
+ [Enter Physical Inventory Orders](how-to-enter-physical-inventory-orders.md)   
  [Physical Inventory Recording - Counting Physical Inventory](physical-inventory-recording-counting-physical-inventory.md)   
- [How to: Finish a Physical Inventory Order](how-to-finish-a-physical-inventory-order.md)   
- [How to: Finish a Physical Inventory Recording](how-to-finish-a-physical-inventory-recording.md)   
+ [Finish a Physical Inventory Order](how-to-finish-a-physical-inventory-order.md)   
+ [Finish a Physical Inventory Recording](how-to-finish-a-physical-inventory-recording.md)   
  [Physical Inventory Order Lines With Item Tracking Lines](physical-inventory-order-lines-with-item-tracking-lines.md)  
- [How to: Count, Adjust, and Reclassify Inventory](../../inventory-how-count-adjust-reclassify.md)
+ [Count, Adjust, and Reclassify Inventory](../../inventory-how-count-adjust-reclassify.md)

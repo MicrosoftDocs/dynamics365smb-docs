@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Export or Import Profiles
+# Export or Import Profiles
 You can export a profile, for example to reuse UI configurations in other [!INCLUDE[d365fin](includes/d365fin_md.md)] databases.  
   
  You can quickly implement UI configurations for a profile by importing an XML file that holds the configured profile.  

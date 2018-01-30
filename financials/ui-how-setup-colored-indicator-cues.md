@@ -15,7 +15,7 @@ ms.date: 03/29/2017
 ms.author: solsen
 
 ---
-# How to: Set Up a Colored Indicator on Cues
+# Set Up a Colored Indicator on Cues
 You can set up Cues that appear on the **Home** page to include an indicator that changes color based on the data values in the Cues.
 
 The indicator appears as a colored bar along the top border of the Cue tile. It provides a visual signal of the status of the Cue's activity, which can indicate favorable or unfavorable conditions to prompt the user to take action. For example, if a Cue displays ongoing sales invoices, you can set up the indicator to appear green (favorable) when total number of ongoing sales invoices is below 10, and appears red (unfavorable) when the total is greater than 20.

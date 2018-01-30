@@ -91,5 +91,5 @@ After receiving electronic bank statements from our bank we can import them by r
 The bank statement containing our payment to Hernandez Ortiz will be sent to us by our bank, ABN. Therefore, we should chose **OFFICE NET EXTRA** as the appropriate import protocol.  
 
 ## See Also  
- [How to: Create Proposals](how-to-create-proposals.md)   
- [How to: Create and Export Payment History](how-to-create-and-export-payment-history.md)
+ [Create Proposals](how-to-create-proposals.md)   
+ [Create and Export Payment History](how-to-create-and-export-payment-history.md)

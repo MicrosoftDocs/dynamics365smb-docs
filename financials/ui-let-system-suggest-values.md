@@ -1,6 +1,6 @@
 ---
 title: Setting Up Suggested Field Values | Microsoft Docs
-description: To avoid manual calculations and complete tasks quickly and accurately, you can set up automatic data entry so that Dynamics 365, Business edition fills in selected fields.
+description: To avoid manual calculations and complete tasks quickly and accurately, you can set up automatic data entry so that Finance and Operations, Business edition fills in selected fields.
 author: SorenGP
 
 ms.service: dynamics365-financials
@@ -28,7 +28,7 @@ When, for example, you are entering general journal lines for multiple expenses 
 For information about how to set up a personal general journal batch, for example, for expense handling, see [Working with General Journals](ui-work-general-journals.md).
 
 ## The **Automatically Fill Date Received** field in the **Payment Registration** window
-The **Payment Registration** window shows outstanding incoming payments as lines that represent sales documents where an amount is due for payment. For more information about applying customer payments, see [How to: Reconcile Customer Payments Manually From a List of Unpaid Sales Documents](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
+The **Payment Registration** window shows outstanding incoming payments as lines that represent sales documents where an amount is due for payment. For more information about applying customer payments, see [Reconcile Customer Payments Manually From a List of Unpaid Sales Documents](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
 
 You main actions in the window are to fill in the **Payment Made** check box and the **Date Received** field. You can set [!INCLUDE[d365fin](includes/d365fin_md.md)] up to automatically enter work date in the **Date Received** field when you select the **Payment Made** check box.
 

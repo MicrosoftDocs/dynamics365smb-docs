@@ -16,7 +16,7 @@ ms.author: edupont
 
 ---
 # Finance
-[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] includes a standard configuration of most financial processes, but you can change the configuration to suit your business. For more information, see [Setting Up Finance](finance-setup-finance.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] includes a standard configuration of most financial processes, but you can change the configuration to suit your business. For more information, see [Setting Up Finance](finance-setup-finance.md).
 
 The default configuration includes a chart of accounts and standard posting groups that make the process of assigning default general ledger posting accounts to customers, vendors, and items more efficient.  
 
@@ -33,19 +33,19 @@ The following table describes a sequence of tasks, with links to the topics that
 |Manage inventory and manufacturing costs, report costs, and reconcile costs with the general ledger.|[Managing Inventory Costs](finance-manage-inventory-costs.md)|
 | Understand the general ledger and the chart of accounts. |[Understanding the General Ledger and the COA](finance-general-ledger.md) |
 | Add dimensions for richer business intelligence. |[Working with Dimensions](finance-dimensions.md) |
-| Create budgets to forecast different financial activities and assign dimensions for business intelligence purposes. |[How to: Create Budgets](finance-how-create-budgets.md) |
-|Record income or expenses directly in the general ledger without posting dedicated business documents.|[How to: Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)|
-|Post reversing entries to undo value postings in the general journal or quantity postings on purchase and sales documents. |[How to: Reverse Postings](finance-how-reverse-journal-posting.md)|
-|Allocate an entry in a general journal to several different accounts when you post the journal. |[How to: Allocate Costs and Income](year-allocate-costs-income.md) |
-| Assign extra costs, such as freight and physical handling that you incur during trade, to the involved items so that the cost is reflected in inventory valuation. |[How to: Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md) |
-|Post employees' personal expenses for business-related activities and reimburse employees by making payment to their bank account.|[How to: Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)|
-| Recognize revenues and expenses in other periods than when the transactions were posted. |[How to: Defer Revenues and Expenses](finance-how-defer-revenue-expenses.md)|
-|Learn how to use additional currencies and update currency exchange rates automatically. |[How to: Update Currency Exchange Rates](finance-how-update-currencies.md)|
-| Import salary transactions from your payroll provider into the general ledger. |[How to: Import Payroll Transactions](finance-how-import-payroll-transactions.md)|
+| Create G/L budgets to forecast different financial activities and assign dimensions for business intelligence purposes. |[Create G/L Budgets](finance-how-create-budgets.md) |
+|Record income or expenses directly in the general ledger without posting dedicated business documents.|[Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)|
+|Post reversing entries to undo value postings in the general journal or quantity postings on purchase and sales documents. |[Reverse Postings](finance-how-reverse-journal-posting.md)|
+|Allocate an entry in a general journal to several different accounts when you post the journal. |[Allocate Costs and Income](year-allocate-costs-income.md) |
+| Assign extra costs, such as freight and physical handling that you incur during trade, to the involved items so that the cost is reflected in inventory valuation. |[Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md) |
+|Post employees' personal expenses for business-related activities and reimburse employees by making payment to their bank account.|[Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)|
+| Recognize revenues and expenses in other periods than when the transactions were posted. |[Defer Revenues and Expenses](finance-how-defer-revenue-expenses.md)|
+|Learn how to use additional currencies and update currency exchange rates automatically. |[Update Currency Exchange Rates](finance-how-update-currencies.md)|
+| Import salary transactions from your payroll provider into the general ledger. |[Import Payroll Transactions](finance-how-import-payroll-transactions.md)|
 | Monitor the flow of cash in and out of your business. |[Analyzing Cash Flows in Your Company](finance-analyze-cash-flow.md) |
 | Work with financial statements and overviews in Excel. |[Analyzing Financial Statements in Excel](finance-analyze-excel.md) |
 | Prepare to close a fiscal year or period. |[Closing Years and Periods](year-close-years-periods.md) |
-|Prepare a report that lists VAT from sales, and submit the report to tax authorities in the EU. | [How to: Report VAT to Tax Authorities](finance-how-report-vat.md)|
+|Prepare a report that lists VAT from sales, and submit the report to tax authorities in the EU. | [Report VAT to Tax Authorities](finance-how-report-vat.md)|
 
 ## See Also
 [Setting Up Finance](finance-setup-finance.md)  

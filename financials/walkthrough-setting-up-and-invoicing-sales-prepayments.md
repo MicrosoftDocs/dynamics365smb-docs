@@ -1,8 +1,6 @@
 ---
     title: Walkthrough - Setting Up and Invoicing Sales Prepayments | Microsoft Docs
-    description: Prepayments are payments that are invoiced and posted to a sales or purchase prepayment order before final invoicing. You may require a deposit before you manufacture items to order, or you may require payment before you ship items to a customer. You use the prepayments functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)] to invoice and collect deposits that are required from customers or remit deposits to vendors. Thus, you can make sure that all payments are posted against an invoice.
-    services: project-madeira
-    documentationcenter: ''
+    description: Prepayments are payments that are invoiced and posted to a sales or purchase prepayment order before final invoicing. You may require a deposit before you manufacture items to order, or you may require payment before you ship items to a customer. You use the prepayments functionality in Finance and Operations, Business edition to invoice and collect deposits that are required from customers or remit deposits to vendors. Thus, you can make sure that all payments are posted against an invoice.
     author: SorenGP
 
     ms.service: dynamics365-financials
@@ -126,7 +124,7 @@ Susan creates the prepayment invoice and sends it to the customer.
 
     The **Prepayment %** field on the line with item **1100** contains **40**. This is the percentage you entered in the **Sales Prepayment Percentages** window for item **1100** and customer **20000**.  
 
-    For more information, see [How to: Set Up Prepayments](finance-set-up-prepayments.md).  
+    For more information, see [Set Up Prepayments](finance-set-up-prepayments.md).  
 8. Choose the **Statistics** action.  
 9. On the **Prepayment** FastTab, the **Prepmt. Line Amount Excl. VAT** field contains **1,560**. If you create a prepayment invoice for the order now, then this is the amount that is displayed on the invoice.  
 

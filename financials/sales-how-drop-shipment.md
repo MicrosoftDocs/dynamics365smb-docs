@@ -11,11 +11,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct shipment
-ms.date: 03/29/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 
 ---
-# How to: Make Drop Shipments
+# Make Drop Shipments
 A drop shipment is the shipment of items from one of your vendors directly to one of your customers.
 
 When a sales order is marked for drop shipment, and you create a purchase order specifying the customer in the **Sell-to Customer No.** field, you can link the two documents and thereby instruct the vendor to ship directly to the customer.
@@ -23,16 +23,13 @@ When a sales order is marked for drop shipment, and you create a purchase order 
 ## To create a sales order for drop shipment
 To prepare a drop shipment, you create a sales order for an item as normal, except you must indicate on the sales line that the sale requires drop shipment.
 
-1. Create a sales order for an item. For more information, see [How to: Sell Products](sales-how-sell-products.md).
-2. On the sales order line for the drop shipment, select the **Drop Shipment** check box. Use the **Choose Columns** function if the field is not visible. For more information, see [User Personalization](ui-user-personalization.md).
-
-> [!NOTE]  
->   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
+1. Create a sales order for an item. For more information, see [Sell Products](sales-how-sell-products.md).
+2. On the sales order line for the drop shipment, select the **Drop Shipment** check box. Use the **Choose Columns** function if the field is not visible. For more information, see [Personalizing Your Workspace](ui-personalization-user.md).
 
 ## To create the purchase order for drop shipment
 To prepare a drop shipment for the item to be sold, you create a purchase order as normal, except you must indicate on the purchase order that it must be shipped to your customer, not to yourself.
 
-1. Create a purchase order. Do not fill any fields on the lines. For more information, see [How to: Record Purchases](purchasing-how-record-purchases.md).
+1. Create a purchase order. Do not fill any fields on the lines. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 2. In the **Sell-to Customer No.** field, select the customer that you are selling to.
 3. Choose the **Drop Shipments** action, and then choose the **Get Sales Order** action.
 4. In the **Sales List** window, select the sales order that you prepared in the "To create a sales order for drop shipment" section.
@@ -55,9 +52,9 @@ After the vendor ships the items, you can post the sales order as shipped. You c
 5. Choose either the **Ship** option to invoice later, or the **Ship and Invoice** option to invoice immediately.
 
 ## See Also
-[How to: Create Special Orders](sales-how-to-create-special-orders.md)|  
-[How to: Sell Products](sales-how-sell-products.md)  
-[How to: Record Purchases](purchasing-how-record-purchases.md)  
+[Create Special Orders](sales-how-to-create-special-orders.md)|  
+[Sell Products](sales-how-sell-products.md)  
+[Record Purchases](purchasing-how-record-purchases.md)  
 [Sales](sales-manage-sales.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -22,9 +22,9 @@ If you are an accountant with several clients, you can use [!INCLUDE[d365acc](in
 
 You can get access to [!INCLUDE[d365acc](includes/d365acc_md.md)] by signing up from [Dynamics 365 — Accountant Hub on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants). It's free of charge, and it's quick to get started and add your clients to the dashboard. For more information, see [Get Started with Accountant Hub](get-started.md).  
 
-In the current version of [!INCLUDE[d365acc](includes/d365acc_md.md)], you can add clients who use [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] to run their business.  
+In the current version of [!INCLUDE[d365acc](includes/d365acc_md.md)], you can add clients who use [!INCLUDE[d365fin](includes/d365fin_long_md.md)] to run their business.  
 
 ## See Also
-[Microsoft Dynamics 365 documentation](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
+[Microsoft Dynamics 365 Documentation](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
 [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
 [Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=828707)  

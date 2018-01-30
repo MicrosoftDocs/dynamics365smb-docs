@@ -1,4 +1,4 @@
-fhow-register-new-customers---
+---
     title: How to Set Up Customers for OIOUBL | Microsoft Docs
     description: To create Offentlig Information Online UBL (OIOUBL) documents for customers in the public sector, you must add OIOUBL information to the relevant customers.
     services: project-madeira
@@ -15,10 +15,10 @@ fhow-register-new-customers---
     ms.author: sgroespe
 
 ---
-# How to: Set Up Customers for OIOUBL
+# Set Up Customers for OIOUBL
 To create Offentlig Information Online UBL (OIOUBL) documents for customers in the public sector, you must add OIOUBL information to the relevant customers.  
 
- This topic only describes fields that apply to OIOUBL. For more information, see [How to: Register New Customers](../../sales-how-register-new-customers.md).  
+ This topic only describes fields that apply to OIOUBL. For more information, see [Register New Customers](../../sales-how-register-new-customers.md).  
 
 ### To set up customers for OIOUBL  
 
@@ -37,8 +37,8 @@ To create Offentlig Information Online UBL (OIOUBL) documents for customers in t
 
 ## See Also  
 [Denmark Local Functionality](denmark-local-functionality.md)  
- [How to: Register New Customers](../../sales-how-register-new-customers.md)   
- [How to: Set Up OIOUBL](how-to-set-up-oioubl.md)   
- [How to: Create Electronic Documents by Using OIOUBL](how-to-create-electronic-documents-by-using-oioubl.md)   
- [OIOUBL Electronic Invoicing Overview](oioubl-electronic-invoicing-overview.md)   
- [EAN Location Number](ean-location-number.md)
+[Register New Customers](../../sales-how-register-new-customers.md)   
+[Set Up OIOUBL](how-to-set-up-oioubl.md)   
+[Create Electronic Documents by Using OIOUBL](how-to-create-electronic-documents-by-using-oioubl.md)   
+[OIOUBL Electronic Invoicing Overview](oioubl-electronic-invoicing-overview.md)   
+[EAN Location Number](ean-location-number.md)

@@ -26,14 +26,14 @@ The following table describes a sequence of tasks, with links to the topics that
 
 | To | See |
 | --- | --- |
-| Set up a contact for a new company, either from scratch or from a customer, vendor, or bank account. |[How to: Create Contact Companies](marketing-how-create-contact-companies.md) |
+| Set up a contact for a new company, either from scratch or from a customer, vendor, or bank account. |[Create Contact Companies](marketing-how-create-contact-companies.md) |
 | Synchronize information in contacts with common information in customers, vendors, and bank accounts |[Synchronizing Contacts With Customers, Vendors, and Bank Accounts](marketing-synchronize-contacts-customers-vendors-bank-accounts.md) |
 | Describe the business relationship of a company contact. |[Setting Up Business Relations on Contacts Companies](marketing-business-relations.md) |
-| Place a contact company in the appropriate industry group, for example, retail. |[How to: Set Up Industry Groups on Contact Companies](marketing-industry-groups.md) |
-| Set up the mailing groups that you can use to identify groups of contacts that you want to receive the same information. |[How to: Set Up Mailing Groups on Contact Companies](marketing-mailing-groups.md) |
-| Set up an alternate address for a contact. |[How to: Assign Alternative Addresses to a Contact](marketing-how-assign-alternate-address.md) |
-| Assign Web sources (search engines and Web sites) to your contacts to indicate where on the Internet you intend to search for information about the contacts. |[How to: Set Up Web Sources on Contacts](marketing-web-sources.md) |
+| Place a contact company in the appropriate industry group, for example, retail. |[Set Up Industry Groups on Contact Companies](marketing-industry-groups.md) |
+| Set up the mailing groups that you can use to identify groups of contacts that you want to receive the same information. |[Set Up Mailing Groups on Contact Companies](marketing-mailing-groups.md) |
+| Set up an alternate address for a contact. |[Assign Alternative Addresses to a Contact](marketing-how-assign-alternate-address.md) |
+| Assign Web sources (search engines and Web sites) to your contacts to indicate where on the Internet you intend to search for information about the contacts. |[Set Up Web Sources on Contacts](marketing-web-sources.md) |
 
 ## See Also
 [Creating Contact Persons](marketing-create-contact-persons.md)   
-[Working with Dynamics 365](ui-work-product.md)
+[Working with Finance and Operations, Business edition](ui-work-product.md)

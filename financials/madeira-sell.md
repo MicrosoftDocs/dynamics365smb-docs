@@ -1,6 +1,6 @@
 ---
-title: Selling Dynamics 365 Business edition | Microsoft Docs
-description: Find out how you can expand your business opportunities and become a Microsoft partner and Dynamics 365 Business edition  reseller.   
+title: Selling Finance and Operations, Business edition | Microsoft Docs
+description: Find out how you can expand your business opportunities and become a Microsoft partner and Finance and Operations, Business edition  reseller.   
 services: project-madeira
 documentationcenter: ''
 author: edupont04
@@ -18,7 +18,7 @@ ms.author: edupont
 # Become a Reseller of [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Expand your business opportunity with [!INCLUDE[d365fin](includes/d365fin_md.md)]!  
 
-If you specialize in Cloud solutions, Office 365, SharePoint, industry solutions, analytics, ERP, CRM, accounting software, and/or business process optimization software/services, Dynamics 365 is a new opportunity.   
+If you specialize in Cloud solutions, Office 365, SharePoint, industry solutions, analytics, ERP, CRM, accounting software, and/or business process optimization software/services, Finance and Operations, Business edition is a new opportunity.   
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] can help you differentiate and deepen customer relationships by giving you the capability to deliver an end-to-end business management solution that’s connecting people and processes like never before, embedded within familiar Microsoft Office tools that small and medium businesses use every day.  
 

@@ -28,14 +28,14 @@ The following table describes a sequence of tasks, with links to the topics that
 
 |**To**|**See**|  
 |------------|-------------|  
-|Post the receipt of items directly from the inbound order document and thereby record the put away, because no warehouse configuration exists.|[How to: Receive Items](warehouse-how-receive-items.md)|  
-|Put items away order by order and post the receipt in the same activity, in a basic warehouse configuration.|[How to: Put Items Away with Inventory Put-aways](warehouse-how-to-put-items-away-with-inventory-put-aways.md)|  
-|Put items away for multiple orders in an advanced warehouse configuration.|[How to: Put Items Away with Warehouse Put-aways](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)|  
-|Put produced or assembled items away in a basic or an advanced warehouse configuration.|[How to: Put Away Production or Assembly Output](warehouse-how-to-put-away-production-output.md)|
-|Plan optimized put-away instructions for a number of posted warehouse receipts rather than have warehouse workers act directly on receipts.|[How to: Plan Put-aways in Worksheets](warehouse-how-to-plan-put-aways-in-worksheets.md)|  
-|Put back items that were picked technically with an internal pick, for example for a production order that did not consume the expected quantity.|[How to: Pick and Put Away Without a Source Document](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
-|Split a put-away line to place part of the put-away quantity in available bins because the designated bin is filled up.|[How to: Split Warehouse Activity Lines](warehouse-how-to-split-warehouse-activity-lines.md)|
-|Get immediate access to put-aways that are assigned to you as a warehouse worker.|[How to: Find Your Warehouse Assignments](warehouse-how-to-find-your-warehouse-assignments.md)|    
+|Post the receipt of items directly from the inbound order document and thereby record the put away, because no warehouse configuration exists.|[Receive Items](warehouse-how-receive-items.md)|  
+|Put items away order by order and post the receipt in the same activity, in a basic warehouse configuration.|[Put Items Away with Inventory Put-aways](warehouse-how-to-put-items-away-with-inventory-put-aways.md)|  
+|Put items away for multiple orders in an advanced warehouse configuration.|[Put Items Away with Warehouse Put-aways](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)|  
+|Put produced or assembled items away in a basic or an advanced warehouse configuration.|[Put Away Production or Assembly Output](warehouse-how-to-put-away-production-output.md)|
+|Plan optimized put-away instructions for a number of posted warehouse receipts rather than have warehouse workers act directly on receipts.|[Plan Put-aways in Worksheets](warehouse-how-to-plan-put-aways-in-worksheets.md)|  
+|Put back items that were picked technically with an internal pick, for example for a production order that did not consume the expected quantity.|[Pick and Put Away Without a Source Document](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
+|Split a put-away line to place part of the put-away quantity in available bins because the designated bin is filled up.|[Split Warehouse Activity Lines](warehouse-how-to-split-warehouse-activity-lines.md)|
+|Get immediate access to put-aways that are assigned to you as a warehouse worker.|[Find Your Warehouse Assignments](warehouse-how-to-find-your-warehouse-assignments.md)|    
 
 ## See Also  
 [Warehouse Management](warehouse-manage-warehouse.md)  

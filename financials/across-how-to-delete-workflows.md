@@ -15,13 +15,13 @@
     ms.author: sgroespe
 
 ---
-# How to: Delete Workflows
+# Delete Workflows
 If you are certain that a workflow is no longer being used, you can delete it. All workflow step instances that are defined in the workflow must have status **Completed**.  
 
 > [!CAUTION]  
 >  When you delete a workflow, all information in the workflow will be lost.  
 
- In the **Workflow** window, you create a workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code. For more information, see [How to: Create Workflows](across-how-to-create-workflows.md).  
+ In the **Workflow** window, you create a workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code. For more information, see [Create Workflows](across-how-to-create-workflows.md).  
 
 ## To delete a workflow  
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Workflows**, and then choose the related link.  
@@ -31,9 +31,9 @@ If you are certain that a workflow is no longer being used, you can delete it. A
 5.  In the **Workflow** window, choose the **Delete** action.  
 
 ## See Also  
- [How to: Create Workflows](across-how-to-create-workflows.md)   
- [How to: Enable Workflows](across-how-to-enable-workflows.md)   
- [How to: View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md)   
+ [Create Workflows](across-how-to-create-workflows.md)   
+ [Enable Workflows](across-how-to-enable-workflows.md)   
+ [View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md)   
  [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Setting Up Workflows](across-set-up-workflows.md)   
  [Using Workflows](across-use-workflows.md)   

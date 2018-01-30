@@ -14,10 +14,10 @@ ms.date: 06/02/2017
 ms.author: edupont
 
 ---
-# Logging Changes in Dynamics 365 Business edition 
+# Logging Changes in Finance and Operations, Business edition 
 You can enable the change log in [!INCLUDE[d365fin](includes/d365fin_md.md)] so you have a history of activities. The log is based on changes that are made to data in the tables that you track. In the change log, entries are chronologically ordered and show changes that are made to the fields on the specified tables. The change log collects all changes that are made to the table.  
 
-## Working with the change log
+## Working with the Change Log
 A common problem in many financial systems is to locate the origin of errors and changes in data. It could be anything from an incorrect customer telephone number to an incorrect posting to the general ledger. The change log lets you track all direct modifications a user makes to data in the database. You must specify each table and field that you want the system to log, and then you must activate the change log.  
 
 You activate and deactivate the change log in the **Change Log Setup** window. When you activate or deactivate the change log, this activity is logged, so you can always see which user deactivated or reactivated the change log. This cannot be turned off.  
@@ -30,5 +30,5 @@ After you have set up the change log, activated it, and made a change to data, y
 [Changing Basic Settings](ui-change-basic-settings.md)  
 [Sorting](ui-sorting.md)  
 [Using Search for Page or Report](ui-search.md)  
-[How to: Manage Users and Permissions](ui-how-users-permissions.md)    
+[Manage Users and Permissions](ui-how-users-permissions.md)    
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

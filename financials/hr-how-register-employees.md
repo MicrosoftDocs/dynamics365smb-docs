@@ -15,7 +15,7 @@ ms.date: 08/11/2017
 ms.author: SorenGP
 
 ---
-# How to: Register Employees
+# Register Employees
 To use the Human Resources functionality, you must first register each employee by creating a card with all the core and related information.
 
 You can modify an employee's details at any time. Keeping up-to-date records about your employees simplifies personnel tasks. For example, if an employee's address changes, you register this on the employee card.
@@ -23,7 +23,7 @@ You can modify an employee's details at any time. Keeping up-to-date records abo
 The following procedures describe how to create an initial employee card and how to assign two types of employee details to an employee. In addition, you can assign various other related information, such as qualifications and causes of inactivity. You assign employee information either by choosing a field or an action in the **Employee Card** window.
 
 > [!NOTE]  
-> You can reimburse employees for their expenses during business activities. For this purpose, you must fill in the fields on the **Payments** FastTab in the **Employee Card** window. For more information, see [How to: Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md).
+> You can reimburse employees for their expenses during business activities. For this purpose, you must fill in the fields on the **Payments** FastTab in the **Employee Card** window. For more information, see [Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md).
 
 ## To set up an employee
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Employees**, and then choose the related link.
@@ -53,7 +53,7 @@ You can use alternate addresses to keep track of your employees’ location, for
 5. Repeat step 4 for each alternate address.
 
 ## See Also
-[How to: Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)  
+[Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)  
 [Finance](finance.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)

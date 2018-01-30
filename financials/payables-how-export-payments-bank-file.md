@@ -15,19 +15,19 @@ ms.date: 06/28/2017
 ms.author: sgroespe
 
 ---
-# How to: Export Payments to a Bank File
+# Export Payments to a Bank File
 When you are ready to make payments to your vendors, or reimbursements to your employees, you can export a file with the payment information on the lines in the **Payment Journal** window. You can then upload the file to your bank to process the related money transfers.
 
-In the generic version of [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], a global provider of services to convert bank data to any file format that your bank requires is set up and connected. In North American versions, the same service can be used to send payment files as electronic funds transfer (EFT), however with a slightly different process. See step 6 in the "To export payments to a bank file" section.    
+In the generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)], a global provider of services to convert bank data to any file format that your bank requires is set up and connected. In North American versions, the same service can be used to send payment files as electronic funds transfer (EFT), however with a slightly different process. See step 6 in the "To export payments to a bank file" section.    
 
 > [!NOTE]  
->   Before you can export payment files from the payment journal, you must specify the electronic format for the involved bank account, and you must enable the bank data conversion service. For more information, see [How to: Set Up Bank Accounts](bank-how-setup-bank-accounts.md) and [How to: Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md). In addition, you must select the **Allow Payment Export** check box in the **General Journal Batches** window. For more information, see [Working with General Journals](ui-work-general-journals.md).  
+>   Before you can export payment files from the payment journal, you must specify the electronic format for the involved bank account, and you must enable the bank data conversion service. For more information, see [Set Up Bank Accounts](bank-how-setup-bank-accounts.md) and [Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md). In addition, you must select the **Allow Payment Export** check box in the **General Journal Batches** window. For more information, see [Working with General Journals](ui-work-general-journals.md).  
 
 You use the **Credit Transfer Registers** window to view the payment files that have been exported from the payment journal. From this window, you can also re-export payment files in case of technical errors or file changes. Note, however, that exported EFT files are not shown in this window and cannot be re-exported.  
 
 ## To export payments to a bank file
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.
-2. Fill payment journal lines, for example, by using the **Suggest Vendor Payments** function. For more information, see [How to: Suggest Vendor Payments](payables-how-suggest-vendor-payments.md).
+2. Fill payment journal lines, for example, by using the **Suggest Vendor Payments** function. For more information, see [Suggest Vendor Payments](payables-how-suggest-vendor-payments.md).
 3. Fill in the fields on the payment journal lines as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
@@ -58,7 +58,7 @@ The following describes a work-around for exporting electronic refund payments.
 
 > [!CAUTION]  
 >   The resulting payment journal lines cannot be posted, deleted, or voided.
-1. Set up the customer as a vendor. Name it "Customer X for Refunds", for example. For more information, see [How to: Register New Vendors](purchasing-how-register-new-vendors.md).
+1. Set up the customer as a vendor. Name it "Customer X for Refunds", for example. For more information, see [Register New Vendors](purchasing-how-register-new-vendors.md).
 2. On the payment journal line for the customer, set the **Account Type** field to **Customer**, and the **Document Type** field to **Refund**.
 3. Perform the normal steps for payment export as described in the "To export payments to a bank file" section.
 

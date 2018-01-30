@@ -13,7 +13,7 @@ ms.date: 09/08/2017
 ms.author: sgroespe
 
 ---
-# How to: Collect Outstanding Balances
+# Collect Outstanding Balances
 Managing receivables includes checking whether amounts due are paid on time. If customers have overdue payments, you can begin by sending the Customer Statement report as a reminder. Alternatively, you can issue reminders.
 
 You can use reminders to remind customers about overdue amounts. You can also use reminders to calculate finance charges, such as interest or fees and include them on the reminder. Use finance charge memos if you want to debit customers for interest or fees without reminding them of overdue amounts.  
@@ -94,7 +94,7 @@ If you create more reminders than you have defined levels for, the conditions fo
 
 For example, if you write **You owe %9 %7 due on %2.**, then the resulting reminder will contain the following text: **You owe USD 1.200,50 due on 02-02-2014.**.
 
-After you have set up the reminder terms, with additional levels and text, enter one of the codes on each of the customer cards. For more information, see [How to: Register New Customers](sales-how-register-new-customers.md).
+After you have set up the reminder terms, with additional levels and text, enter one of the codes on each of the customer cards. For more information, see [Register New Customers](sales-how-register-new-customers.md).
 
 ## To create a reminder automatically
 A reminder is similar to an invoice. When you create a reminder, a reminder header as well as one or more reminder lines must be filled in. You can use a function to create reminders for all customers automatically.

@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Remove and Reapply Item Ledger Entries
+# Remove and Reapply Item Ledger Entries
 In the **Application Worksheet** window, you can view and manually change certain item application entries that are created automatically during inventory transactions.  
 
 When you post a transaction where items are moved in or out of inventory, an item application is created between each inventory increase and inventory decrease. These applications determine the flow of costs from the goods that are received in inventory to the cost of goods going out of inventory. Because of the way the unit cost is calculated, an incorrect item application could lead to a skewed average cost and a skewed unit cost. For more information, see Design Details: Item Application.
@@ -26,7 +26,7 @@ The following scenarios might require that you undo an application or reapply it
 - You have made an incorrect fixed application.
 - You have to return an item to which a sale has already been applied.
 
-If possible, use a document to reapply an item ledger entry. For example, if you must make a purchase return of an item to which a sale has already been applied, you can reapply by creating and posting the purchase return document by using the correct application in the **Appl.-to Item Entry** field on the purchase return line. You can use the **Get Posted Document Lines to Reverse** function or the **Copy Document** function in the purchase return document to make this easier. When you post the document, the item ledger entry is automatically reapplied. For more information, see [How to: Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md).
+If possible, use a document to reapply an item ledger entry. For example, if you must make a purchase return of an item to which a sale has already been applied, you can reapply by creating and posting the purchase return document by using the correct application in the **Appl.-to Item Entry** field on the purchase return line. You can use the **Get Posted Document Lines to Reverse** function or the **Copy Document** function in the purchase return document to make this easier. When you post the document, the item ledger entry is automatically reapplied. For more information, see [Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md).
 
 If you cannot use a document to reapply, such as when you have to correct a fixed application, then use the **Application Worksheet** window to correct an application.
 
@@ -71,8 +71,8 @@ If you cannot use a document to reapply, such as when you have to correct a fixe
 6.  If the **Automatic Cost Adjustment** field in the **Inventory Setup** is set to **Always**, then the cost adjustment batch job is automatically run after you make a reapplication. Otherwise, run the **Adjust Cost - Item Entries** batch job to make sure that all costs are up to date.  
 
 ## See Also  
-[How to: Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
- [How to: Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md)  
+[Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
+ [Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md)  
  [Managing Inventory Costs](finance-manage-inventory-costs.md)   
  [Design Details: Item Application](design-details-item-application.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

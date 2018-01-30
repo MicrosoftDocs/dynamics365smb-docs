@@ -1,6 +1,6 @@
 ---
 title: Manage Customers Using Dynamics 365 for Sales| Microsoft Docs
-description: You can use Dynamics 365 for Sales from inside Dynamics 365 Business edition  to map data and have seamless integration and synchronization in the lead-to-cash process.
+description: You can use Dynamics 365 for Sales from inside Finance and Operations, Business edition  to map data and have seamless integration and synchronization in the lead-to-cash process.
 documentationcenter: ''
 author: edupont04
 
@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map
-ms.date: 06/06/2017
+ms.date: 01/25/2018
 ms.author: edupont
 ---
 # Managing Customers and Sales Created in Dynamics 365 for Sales
@@ -20,8 +20,7 @@ When your application is set up to integrate with Dynamics 365 for Sales, you ha
 
 For example, the sales person in Dynamics 365 for Sales can use the price lists from [!INCLUDE[d365fin](includes/d365fin_md.md)] when they create a sales order. When they add the item to the sales order line in Dynamics 365 for Sales, they are also able to see the inventory level (availability) of the item from [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-> [!NOTE]  
->   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).  
+Conversely, order processors in [!INCLUDE[d365fin](includes/d365fin_md.md)] can handle the special characteristics of sales orders transferred automatically or manually from Dynamics 365 for Sales, such as automatically create and post valid sales order lines for items or resources that were entered in Sales as write-in products. For more information, see the "Handling Special Sales Order Data" section.  
 
 ## Setting up the connection
 From Home, you can access the **Dynamics 365 for Sales Connection Setup** assisted setup guide that helps you set up the connection. Once that is done, you will have a seamless coupling of Dynamics 365 for Sales records with [!INCLUDE[d365fin](includes/d365fin_md.md)] records.  
@@ -37,14 +36,14 @@ To import an existing Dynamics 365 for Sales solution, the setup guide uses an a
 * System Administrator  
 * Solution Customizer  
 
-For more information, see [Create users and assign Microsoft Dynamics 365 (online) security roles](https://technet.microsoft.com/library/jj191623.aspx) on techNet and [How to: Manage Users and Permissions](ui-how-users-permissions.md).  
+For more information, see [Create users and assign Microsoft Finance and Operations, Business edition (online) security roles](https://technet.microsoft.com/library/jj191623.aspx) on techNet and [Manage Users and Permissions](ui-how-users-permissions.md).  
 
 This account is only used during the setup. Once the solution is imported into [!INCLUDE[d365fin](includes/d365fin_md.md)], the account is no longer needed.
 
-### Setting up the user account for synchronization
-The integration relies on a shared user account. So in your Office 365 subscription, you must create a dedicated user that will be used for synchronization between the two services. This account must already be a valid user in Dynamics 365 for Sales, but you do not have to assign security roles to the account because the setup guide will do that for you. You must specify this user account one or more times in the setup guide, depending how much synchronization you want to enable. For more information, see [Create users and assign Microsoft Dynamics 365 (online) security roles](https://technet.microsoft.com/library/jj191623.aspx) on techNet.
+### Setting Up the User Account for Synchronization
+The integration relies on a shared user account. So in your Office 365 subscription, you must create a dedicated user that will be used for synchronization between the two services. This account must already be a valid user in Dynamics 365 for Sales, but you do not have to assign security roles to the account because the setup guide will do that for you. You must specify this user account one or more times in the setup guide, depending how much synchronization you want to enable. For more information, see [Create users and assign Microsoft Finance and Operations, Business edition (online) security roles](https://technet.microsoft.com/library/jj191623.aspx) on techNet.
 
-If you choose to enable *item availability*, the integration user account must have a web services access key. This is a two-step thing in the [!INCLUDE[d365fin](includes/d365fin_md.md)] page for that user account, you must choose the **Change Web Service Key** button; and in the Dynamics 365 Connection setup guide, you must specify that user as the OData web service user.
+If you choose to enable *item availability*, the integration user account must have a web services access key. This is a two-step thing in the [!INCLUDE[d365fin](includes/d365fin_md.md)] page for that user account, you must choose the **Change Web Service Key** button; and in the Dynamics 365 for Sales Connection setup guide, you must specify that user as the OData web service user.
 
 If you choose to enable *sales order integration*, you must specify a user that can handle this synchronization - the integration user or another user account.
 
@@ -72,13 +71,13 @@ At the end of the assisted setup guide, you can choose the **Run Full Synchroniz
 
 To check the progress of individual jobs in a full synchronization, drill down on the **Job Queue Entry Status**, **To Int. Table Job Status**, or **From Int. Table Job Status** field in the **CRM Full Synch. Review** window.
 
-From the **Dynamics 365 Connection Setup** window, you can get details about full synchronization at any time. From here, you can also open the **Integration Table Mappings** window to see details about the tables in Dynamics 365 Business edition and in the Dynamics 365 for Sales solution that must be synchronized.
+From the **Dynamics 365 for Sales Connection Setup** window, you can get details about full synchronization at any time. From here, you can also open the **Integration Table Mappings** window to see details about the tables in Finance and Operations, Business edition and in the Dynamics 365 for Sales solution that must be synchronized.
 
 ## See Also
 [Relationship Management](marketing-relationship-management.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)  
-[How to: Manage Users and Permissions](ui-how-users-permissions.md)    
-[Onboard your organization and users to Dynamics 365 (online)](https://www.microsoft.com/en-US/Dynamics/crm-customer-center/onboard-your-organization-and-users-to-dynamics-365-online.aspx)  
+[Manage Users and Permissions](ui-how-users-permissions.md)    
+[Onboard your organization and users to Finance and Operations, Business edition (online)](https://www.microsoft.com/en-US/Dynamics/crm-customer-center/onboard-your-organization-and-users-to-dynamics-365-online.aspx)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

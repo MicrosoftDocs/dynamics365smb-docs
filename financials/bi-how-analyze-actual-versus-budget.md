@@ -11,19 +11,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 06/01/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 
 ---
-# How to: Analyze Actual Amounts Versus Budgeted Amounts
+# Analyze Actual Amounts Versus Budgeted Amounts
 As a part of gathering, analyzing, and sharing your company data, you view actual amounts compared to budgeted amounts for all accounts and for several periods.
 
-To analyze budgeted amounts, you must first create budgets. For more information, see [How to: Create Budgets](finance-how-create-budgets.md).
+To analyze budgeted amounts, you must first create G(L budgets. For more information, see [Create G/L Budgets](finance-how-create-budgets.md).
 
-> [!NOTE]  
->   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
-
-## To view a budget
+## To view a G/L budget
 In a budget with dimensions, you can filter the entries and see specific budgets.
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Budgets**, and then choose the related link.
@@ -64,8 +61,8 @@ Instead of viewing the actual and budgeted amounts for all accounts within a sin
 4. To see a specification of an amount shown, choose the field.  
 
 ## See Also
-[Business Intelligence](bi.md)
-[How to: Work with Account Schedules](bi-how-work-account-schedule.md)  
+[Business Intelligence](bi.md)  
+[Work with Account Schedules](bi-how-work-account-schedule.md)  
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  

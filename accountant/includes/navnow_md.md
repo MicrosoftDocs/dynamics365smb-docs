@@ -1,1 +1,1 @@
-Dynamics 365 (on-premises)
+Dynamics 365 for Finance and Operations, Business edition (on-premises)

@@ -14,13 +14,13 @@ ms.date: 08/15/2017
 ms.author: SorenGP
 
 ---
-# How to: View the Availability of Items
+# View the Availability of Items
 From the context of a business task, you can get advanced information about when and where an item is available, such as when talking to a customer about a delivery date.
 
 You can view the availability of all items per location, and you can view the availability of each item by event, by period, or by location. An event is any scheduled item transaction, such as a sales shipment or an inbound transfer receipt.
 
 > [!NOTE]  
->   Availability views by location require that you maintain inventory at more than one location. For more information, see [How to: Set Up Locations](inventory-how-setup-locations.md).
+>   Availability views by location require that you maintain inventory at more than one location. For more information, see [Set Up Locations](inventory-how-setup-locations.md).
 
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], availability figures are shown in two different fields, each with a different definition:
 
@@ -31,7 +31,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], availability figures are shown i
 >   The projected available balance is especially relevant to view in the **Item Availability by Periods** and **Item Availability by Event** windows as they contain the date dimension.  
 
 > [!NOTE]  
->   The following procedures describe how to view advanced availability information from the items list and item card. You can also access the information from sales document lines, for the item on the line. For more information, see [How to: Sell Products](sales-how-sell-products.md).
+>   The following procedures describe how to view advanced availability information from the items list and item card. You can also access the information from sales document lines, for the item on the line. For more information, see [Sell Products](sales-how-sell-products.md).
 
 ## To view the availability of an item according to when it will be received or shipped
 You view the availability of an item according to scheduled item transactions in the **Availability by Event** window.
@@ -111,9 +111,9 @@ If one or more assembly components are not available, then this is reflected in 
 ## See Also
 [Manage Inventory](inventory-manage-inventory.md)  
 [Assembly Management](assembly-assemble-items.md)  
-[How to: Work with Bills of Materials](inventory-how-work-BOMs.md)    
-[How to: Set Up Locations](inventory-how-setup-locations.md)  
-[How to: Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)  
-[How to: Sell Products](sales-how-sell-products.md)      
-[Working with Dynamics 365](ui-work-product.md)  
+[Work with Bills of Materials](inventory-how-work-BOMs.md)    
+[Set Up Locations](inventory-how-setup-locations.md)  
+[Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)  
+[Sell Products](sales-how-sell-products.md)      
+[Working with Finance and Operations, Business edition](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)

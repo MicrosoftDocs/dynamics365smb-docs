@@ -1,6 +1,6 @@
 ---
-title: Overview of Tasks to Set Up Dynamics 365 Business edition | Microsoft Docs
-description: Outlines tasks to set up, initialize, and configure Dynamics 365 Business edition to suit your needs.
+title: Overview of Tasks to Set Up Finance and Operations, Business edition | Microsoft Docs
+description: Outlines tasks to set up, initialize, and configure Finance and Operations, Business edition to suit your needs.
 author: edupont04
 
 ms.service: dynamics365-financials
@@ -13,7 +13,7 @@ ms.date: 09/01/2017
 ms.author: edupont
 
 ---
-# Setting Up [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] includes standard configurations for most business processes, but you can change the configuration to suit the needs of company.
 
 For example, your chart of accounts is prefilled with a number of posting accounts ready for use. You can, of course, change the chart of accounts to suit your needs. For more information, see [Finance](finance.md).
@@ -34,17 +34,17 @@ Some functionality, either general or for specific business processes, can be se
 |Define the general rules and values for warehouse processes and the specific handling at each location.|[Setting Up Warehouse Management](warehouse-setup-warehouse.md)|
 |Prepare production BOMs and routings to define how end items are produced, and prepare machine or work centers to perform the required operations.|[Setting Up Manufacturing](production-configure-production-processes.md)|
 | Set up unique identification codes for records, such as cards, documents, and journal lines, to track them in the system. |[Creating Number Series](ui-create-number-series.md) |
-| Set up the **SMTP Mail Setup** window to send and receive emails from documents within [!INCLUDE[d365fin](includes/d365fin_md.md)]. |[How to: Set up Email](madeira-how-setup-email.md) |
-| Set up unique identification codes. |[How to: Create Number Series](ui-create-number-series.md) |
+| Set up the **SMTP Mail Setup** window to send and receive emails from documents within [!INCLUDE[d365fin](includes/d365fin_md.md)]. |[Set up Email](madeira-how-setup-email.md) |
+| Set up unique identification codes. |[Create Number Series](ui-create-number-series.md) |
 
-Some areas require you to be an administrator in your [!INCLUDE[d365fin](includes/d365fin_md.md)] subscription. For more information, see [Setup and Administration in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](admin-setup-and-administration.md).  
+Some areas require you to be an administrator in your [!INCLUDE[d365fin](includes/d365fin_md.md)] subscription. For more information, see [Setup and Administration in [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-setup-and-administration.md).  
 
 ## See Also
 [Finance](finance.md)  
-[Sales](sales-manage-sales.md)
+[Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Inventory](inventory-manage-inventory.md)    
-[Project Management](projects-manage-projects.md)
+[Project Management](projects-manage-projects.md)  
 [Fixed Assets](fa-manage.md)    
 [Assembly Management](assembly-assemble-items.md)  
 [Manufacturing](production-manage-manufacturing.md)  

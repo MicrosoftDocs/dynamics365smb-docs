@@ -108,6 +108,6 @@ You can use the **Service Credit Memo Statistics** window to get a statistical o
 * General information about the customer, such as the customer's credit limit and balance on the account.  
 
 ## See Also  
-[How to: Create Service Orders](service-how-to-create-service-orders.md)   
-[How to: Create Service Items](service-how-to-create-service-items.md)   
+[Create Service Orders](service-how-to-create-service-orders.md)   
+[Create Service Items](service-how-to-create-service-items.md)   
 [Planning Service](service-plan-service.md)  

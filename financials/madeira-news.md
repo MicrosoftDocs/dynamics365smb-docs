@@ -1,6 +1,6 @@
 ---
-title: What's New in Dynamics 365 Business edition | Microsoft Docs
-description: Describes the latest news and updates for Dynamics 365 Business edition .
+title: What's New in Finance and Operations, Business edition | Microsoft Docs
+description: Describes the latest news and updates for Finance and Operations, Business edition .
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -18,18 +18,18 @@ ms.author: sgroespe
 # What's New in Dynamics 365 for Finance and Operations, Business edition
 Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]! If you haven't already, then sign up for a trial, let us walk you through the basics of what you can do with [!INCLUDE[d365fin](includes/d365fin_md.md)], and then try things out on your own for a while. When you are ready, you can open a blank company and set things up for yourself.  
 
-On a regular basis, we will update [!INCLUDE[d365fin](includes/d365fin_md.md)] with additional capabilities in the core application and with new [extensions](ui-extensions.md). For an overview of what is coming and what is currently available, see the [Dynamics 365 Roadmap](https://roadmap.dynamics.com/) - and remember to filter for [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+On a regular basis, we will update [!INCLUDE[d365fin](includes/d365fin_md.md)] with additional capabilities in the core application and with new [extensions](ui-extensions.md). For an overview of what is coming and what is currently available, see the [Finance and Operations, Business edition Roadmap](https://roadmap.dynamics.com/) - and remember to filter for [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-On this page, you can see which areas became available while we were still in preview. Going forward, find the updates in the [Dynamics 365 Roadmap](https://roadmap.dynamics.com/).
+On this page, you can see which areas became available while we were still in preview. Going forward, find the updates in the [Finance and Operations, Business edition Roadmap](https://roadmap.dynamics.com/).
 
 ## November 2016 Launch of [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 As announced on the blog, we're now a service that you use in your business. But this update also adds new capabilities and a new extension.
 
 ### Project management
-If you switch to the Suite experience, you can manage projects and work with resources, time sheets, and jobs. When you first log in as a Project Manager role, an assisted setup guide will help you set up how your projects are managed. You can work with the sample accounts, jobs, resources, and so on in the demonstration company to get familiar with the functionality. For more information, see [Managing Projects](projects-manage-projects.md).
+You can manage projects and work with resources, time sheets, and jobs. When you first log in as a Project Manager role, an assisted setup guide will help you set up how your projects are managed. You can work with the sample accounts, jobs, resources, and so on in the demonstration company to get familiar with the functionality. For more information, see [Managing Projects](projects-manage-projects.md).
 
 ### Fixed assets
-If you switch to the Suite experience, you can manage fixed assets, including depreciation and insurance. A standard setup is provided, but you can modify it if anytime you want. You can register purchases of fixed assets in dedicated fixed asset G/L journals where you can also dispose of fixed assets. The right accounting entries are created automatically. For more information, see [Fixed Assets](fa-manage.md).
+You can manage fixed assets, including depreciation and insurance. A standard setup is provided, but you can modify it if anytime you want. You can register purchases of fixed assets in dedicated fixed asset G/L journals where you can also dispose of fixed assets. The right accounting entries are created automatically. For more information, see [Fixed Assets](fa-manage.md).
 
 ### New extension for migrating data from Dynamics GP
 If your business uses Dynamics GP today, you can use an assisted setup guide to migrate master records to [!INCLUDE[d365fin](includes/d365fin_md.md)]. You must have exported your existing customers, vendors, inventory items, and accounts using the export data functionality in Dynamics GP. The Dynamics GP Data Migration extension automatically maps the exported data so that you can quickly get  your existing data into your new company in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md).
@@ -48,17 +48,17 @@ This update of [!INCLUDE[d365fin](includes/d365fin_md.md)] added new capabilitie
 
 ### More flexibility in your sales processes
 This update adds more flexibility in what you sell:
-- You can now set up nonstock items - items that you offer to customers but do not maintain inventory for. For more information, see [How to: Work with Nonstock Items](inventory-how-work-nonstock-items.md).
-- You can now mark an item for drop shipment on a sales order and immediately create a purchase order for the item. This way, you can sell an item to a customer, purchase it from the vendor, and have it shipped directly from your vendor to your customer. For more information, see [How to: Purchase Items for a Sale](purchasing-how-purchase-products-sale.md).
+- You can now set up nonstock items - items that you offer to customers but do not maintain inventory for. For more information, see [Work with Nonstock Items](inventory-how-work-nonstock-items.md).
+- You can now mark an item for drop shipment on a sales order and immediately create a purchase order for the item. This way, you can sell an item to a customer, purchase it from the vendor, and have it shipped directly from your vendor to your customer. For more information, see [Purchase Items for a Sale](purchasing-how-purchase-products-sale.md).
 
 ### Categorize items in your inventory
-With this update, you can create a hierarchy of item categories and assign item attributes to each item category. For more information, see [How to: Categorize Items](inventory-how-categorize-items.md).
+With this update, you can create a hierarchy of item categories and assign item attributes to each item category. For more information, see [Categorize Items](inventory-how-categorize-items.md).
 
 ### Send purchase orders to vendors
-Now you can enter purchase orders within [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [How to: Record Purchases](purchasing-how-record-purchases.md).
+Now you can enter purchase orders within [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 
 ### Better quality incoming documents
-You can now easily correct errors in the scanned documents before you receive the resulting document - this way, you'll train the service to avoid the errors going forward. For more information, see [How to: Use OCR to Turn PDF and Image Files into Electronic Document](across-how-use-ocr-pdf-images-files.md).
+You can now easily correct errors in the scanned documents before you receive the resulting document - this way, you'll train the service to avoid the errors going forward. For more information, see [Use OCR to Turn PDF and Image Files into Electronic Document](across-how-use-ocr-pdf-images-files.md).
 
 ## August 2016 Update
 This update of [!INCLUDE[d365fin](includes/d365fin_md.md)] added new capabilities as [announced on the blog](https://community.dynamics.com/business/b/financials/archive/2016/08/29/new-and-updated-capabilities-in-the-august-update-of-project-quot-madeira-quot).
@@ -89,7 +89,7 @@ The Outlook add-in now extends to the Outlook calendar. From a calendar appointm
 [!INCLUDE[d365fin](includes/d365fin_md.md)] extensions are now available in the AppSource marketplace at [AppSource.microsoft.com](https://appsource.microsoft.com/). You will be able to search and find extensions in the marketplace. You will be able to view information, including marketing material, screenshots, videos and links to additional details. For more information, see [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md).  
 
 ### Shipping agents and item attributes
-You can add attributes to your inventory items that make it really easy to find the right product that your customer wants. For more information, see [How to: Work with Item Attributes](inventory-how-work-item-attributes.md).  
+You can add attributes to your inventory items that make it really easy to find the right product that your customer wants. For more information, see [Work with Item Attributes](inventory-how-work-item-attributes.md).  
 
 ### New extensions made available
 With this update, you can choose between even more extensions in the **Extension Management** window.
@@ -125,4 +125,4 @@ Key scenarios to try out on your own:
 ## See Also
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Dynamics 365 Roadmap](https://roadmap.dynamics.com/)  
+[Finance and Operations, Business edition Roadmap](https://roadmap.dynamics.com/)  

@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Enable Automatic Breaking Bulk with Directed Put-away and Pick
+# Enable Automatic Breaking Bulk with Directed Put-away and Pick
 For locations that use directed put-away and pick, [!INCLUDE[d365fin](includes/d365fin_md.md)] can, in various situations, automatically breakbulk, that is, break a larger unit of measure into smaller units of measure, when it creates warehouse instructions that fulfill the needs of source documents, production orders, or internal picks and put-aways. To breakbulk sometimes also means gathering smaller units of measure, if necessary, to meet outbound requests by breaking the larger unit of measure on the source document or production order into the smaller units of measure that are available in the warehouse.   
 
 ## Breakbulking in Picks  

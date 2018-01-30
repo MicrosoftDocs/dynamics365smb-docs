@@ -15,7 +15,7 @@ ms.date: 06/06/2017
 ms.author: jswymer
 
 ---
-# How to: Set Up Alternative Addresses for Contacts
+# Set Up Alternative Addresses for Contacts
 You can assign an alternate address where your contacts are sometimes sent mail and information, for example, their summer cottage. You can also assign one or several date ranges to each alternate address you have entered for your contacts to specify when each address is valid.
 
 ## To assign an alternate address
@@ -37,4 +37,4 @@ Repeat these steps to assign as many date ranges as you want.
 
 ## See Also
 [Create Contact Companies](marketing-create-contact-companies.md)  
-[Working with Dynamics 365](ui-work-product.md)
+[Working with Finance and Operations, Business edition](ui-work-product.md)

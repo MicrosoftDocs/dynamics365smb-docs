@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Print Checks for APACS
+# Print Checks for APACS
 The Association for Payment Clearing Services (APACS) specification defines a standard layout for fields on checks. The **Check** report uses this specification.  
 
 ## To print checks for APACS  

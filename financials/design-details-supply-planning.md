@@ -1,8 +1,6 @@
 ---
     title: Design Details - Supply Planning | Microsoft Docs
-    description: This topic provides an overview of the the concepts and principles that are used within the Supply Planning features in [!INCLUDE[d365fin](includes/d365fin_md.md)].
-    services: project-madeira
-    documentationcenter: ''
+    description: This topic provides an overview of the the concepts and principles that are used within the Supply Planning features in Finance and Operations, Business edition.
     author: SorenGP
 
     ms.service: dynamics365-financials

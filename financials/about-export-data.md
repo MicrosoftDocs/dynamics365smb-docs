@@ -1,6 +1,6 @@
 ---
 title: Export Your Financials Data to Excel| Microsoft Docs
-description: You can export your financial reports and business intelligence data from Dynamics 365 Business edition  to Excel, or open your Financials data in Excel.
+description: You can export your financial reports and business intelligence data from Finance and Operations, Business edition  to Excel, or open your Financials data in Excel.
 services: project-madeira
 documentationcenter: ''
 author: edupont04
@@ -16,7 +16,7 @@ ms.author: edupont
 
 ---
 # Exporting Your Business Data to Excel
-If you want to work with your data from [!INCLUDE[d365fin](includes/d365fin_md.md)] in Excel, you can open all lists in Excel and work with it there. Similarly, if you want to cancel your subscription for [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], you can export your data to Excel so that you can take it with you.
+If you want to work with your data from [!INCLUDE[d365fin](includes/d365fin_md.md)] in Excel, you can open all lists in Excel and work with it there. Similarly, if you want to cancel your subscription for [!INCLUDE[d365fin](includes/d365fin_md.md)], you can export your data to Excel so that you can take it with you.
 
 ## Opening Lists in Excel
 You can open data in Excel from any journal, list, or worksheet. You just open the page that you want, and then choose **Open in Excel**. For example, open the list of customers (search for **Customers**), and then choose **Open in Excel**. Your browser will prompt you to open or save the generated Excel workbook.  
@@ -56,11 +56,11 @@ We recommend that you also consider exporting data from the following pages:
 * Salespeople  
 
 > [!NOTE]  
->   If you have set up more than one company in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], you must export the relevant data from each company.
+>   If you have set up more than one company in [!INCLUDE[d365fin](includes/d365fin_md.md)], you must export the relevant data from each company.
 
 ## See Also
-[Canceling Your Subscription for [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](madeira-cancel.md)  
+[Canceling Your Subscription for [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md)  
 [Importing Business Data from Other Finance Systems](upload-data.md)  
 [Finance](finance.md)  
 [General Business Functionality](ui-across-business-areas.md)  
-[Working with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Post Scrap Manually
+# Post Scrap Manually
 If scrap is produced during processing, it can be entered in the output journal. 
 
 > [!NOTE]

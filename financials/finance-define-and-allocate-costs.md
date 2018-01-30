@@ -34,7 +34,7 @@ The following table describes a sequence of tasks, with links to the topics that
 
 |To|See|  
 |--------|---------|  
-|Set up allocation source and its targets.|[How to: Set Up Allocation Source and Targets](finance-how-to-set-up-allocation-source-and-targets.md)|  
+|Set up allocation source and its targets.|[Set Up Allocation Source and Targets](finance-how-to-set-up-allocation-source-and-targets.md)|  
 |Set up various filters for dynamic allocation bases.|[Setting Filters for Dynamic Allocation Bases](finance-setting-filters-for-dynamic-allocation-bases.md)|  
 |See an example of how to define a static allocation.|[Scenario Example: Defining Static Allocations Based on Allocation Ratio](finance-scenario-example-defining-static-allocations-based-on-allocation-ratio.md)|  
 |See an example of how to define a dynamic allocation.|[Scenario Example: Defining Dynamic Allocations Based on Items Sold](finance-scenario-example-defining-dynamic-allocations-based-on-items-sold.md)|  

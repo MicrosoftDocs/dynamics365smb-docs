@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Create Production Orders from Sales Orders
+# Create Production Orders from Sales Orders
 You can create production orders for produced items directly from sales orders.  
 
 ## To create a production order from a sales order  
@@ -27,7 +27,7 @@ You can create production orders for produced items directly from sales orders.
 5.  Select the status and order type.  
 6.  Choose the **Yes** button to create the production order.
 
-You can also choose to make a project production order. For more information, see [How to: Plan Project Orders](production-how-to-plan-project-orders.md).   
+You can also choose to make a project production order. For more information, see [Plan Project Orders](production-how-to-plan-project-orders.md).   
 
 ## See Also  
 [Setting Up Manufacturing](production-configure-production-processes.md)  

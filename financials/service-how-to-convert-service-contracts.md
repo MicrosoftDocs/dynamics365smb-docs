@@ -13,13 +13,13 @@
     ms.author: sgroespe
 
 ---
-# How to: Convert Service Contracts that Include VAT Amounts
+# Convert Service Contracts that Include VAT Amounts
 Because the VAT rate change tool cannot convert service contracts, these contracts must be converted manually. This topic describes several alternative methods that you can use for service contract conversion.  
 
 > [!NOTE]  
 >  This topic provides a high-level workflow.  
 
- The following procedure describes how to correct an invoice for a prepaid service contact that has been created a year in advance.  
+ The following procedure describes how to correct an invoice for a prepaid service contract that has been created a year in advance.  
 
 > [!NOTE]  
 >  For this example, you must change your work date to 01.01.2017.  
@@ -43,7 +43,7 @@ The following procedure describes how to create a credit memo that only includes
 2. Add a new line to the VAT posting setup.  
 
 ### To create contract expiration dates in contract lines  
-The following procedure describes how to create new contracts by working with contact expiration dates in service contract lines.  
+The following procedure describes how to create new contracts by working with contract expiration dates in service contract lines.  
 
 1. In the **Service Contract** window, set the contract expiration date to **30.06.2017**.  
 2. Choose the **Create Credit Memo** action to automatically create a credit memo for July 2017 to December 2017.  
@@ -52,7 +52,7 @@ The following procedure describes how to create new contracts by working with co
 ### To create a new credit memo  
 The following procedure describes how to create a new credit memo using the **Get Prepaid Contract Entries** batch job. Entries that you do not want to correct from January 2017 to June 2017 will be deleted.  
 
-1. Run the VAT rate change tool on July 1, 2017. The general product posting group or the VAT product posting group is changed. For more information, see [How to: Work with VAT on Sales and Purchases](finance-work-with-vat.md).  
+1. Run the VAT rate change tool on July 1, 2017. The general product posting group or the VAT product posting group is changed. For more information, see [Work with VAT on Sales and Purchases](finance-work-with-vat.md).  
 2. After running the VAT rate change tool, enter a contract expiration date for the service contract. You can now delete the service contract line and create a new line that is identical to the old one.  
 3. Create a new invoice for the period of January 2017 to December 2012 using the new VAT rate.  
 4. To create another credit memo, in the **Service Credit Memos** window, choose **New** to create a new service credit memo.  
@@ -60,7 +60,7 @@ The following procedure describes how to create a new credit memo using the **Ge
 6. After the conversion is complete, VAT and service ledger entries will be correct.  
 
 ## See Also  
-[How to: Work with Service Contracts and Service Contract Quotes](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+[Work with Service Contracts and Service Contract Quotes](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Finance](finance.md)  
-[How to: Report VAT to Tax Authorities](finance-how-report-vat.md)  
-[How to: Work with VAT on Sales and Purchases](finance-work-with-vat.md)  
+[Report VAT to Tax Authorities](finance-how-report-vat.md)  
+[Work with VAT on Sales and Purchases](finance-work-with-vat.md)  

@@ -1,6 +1,6 @@
 ---
 title: Updating Currency Exchange Rates| Microsoft Docs
-description: To use multiple currencies in your business, you can set up a code for each currency and use an external exchange rate service, such as Yahoo.
+description: To use multiple currencies in your business, you can set up a code for each currency and use an external exchange rate service, such as FloatRates.
 services: project-madeira
 documentationcenter: ''
 author: edupont04
@@ -10,12 +10,12 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: multiple currencies, Yahoo
-ms.date: 07/02/2017
+ms.search.keywords: multiple currencies
+ms.date: 01/25/2018
 ms.author: edupont
 
 ---
-# How to: Update Currency Exchange Rates
+# Update Currency Exchange Rates
 You must set up a code for each currency you use if you buy or sell in currencies other than your local currency, have receivables or payables in other currencies, or record G/L transactions in different currencies.  
 
 As companies operate in increasingly more countries/regions, it becomes more important that they be able to review or report financials in more than one currency. The program supports use of multiple currencies. Within the program, your general ledger is set up using your local currency (LCY), and another currency is set up as an additional currency, with a current exchange rate assigned.  
@@ -37,11 +37,8 @@ Using an additional reporting currency can assist the reporting process for a co
 
 Several reports in the General Ledger application area are based on G/L entries. To display the financial data in the report in the additional reporting currency, you simply select the **Show in Add.-Currency** field in the relevant G/L report window.  
 
-> [!NOTE]  
->   This functionality requires that your experience is set to **Suite**. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
-
 ## To set up a currency exchange rate service
-You can use an external service to keep your currency exchange rates up to date. The Yahoo Currency Exchange Rates service is preinstalled and ready to enable.
+You can use an external service to keep your currency exchange rates up to date, such as FloatRates.
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Currency Exchange Rate Services**, and then choose the related link.
 2. Choose the **New** action.

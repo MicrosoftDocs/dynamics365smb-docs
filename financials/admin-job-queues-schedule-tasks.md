@@ -48,7 +48,7 @@ You set up this use of the job queue in the **Sales & Receivables Setup** window
 >  If you set up a job that will post and print documents, and the printer displays a dialog box, such as a request for credentials or a warning about low printer ink, your document is posted but not printed. The corresponding job queue entry eventually times out and the **Status** field is set to **Error**. Accordingly, we recommend that you do not use a printer setup that requires interaction with the display of printer dialog boxes in conjunction with background posting.  
 
 ## Use the My Job Queue Part
-The **My Job Queue** part shows the job queues entries that a user has started, but which are not yet finished. By default, the part is not visible, so you have to add it to your Role Center. For more information, see [How to: Change Role Centers](change-role.md).  
+The **My Job Queue** part shows the job queues entries that a user has started, but which are not yet finished. By default, the part is not visible, so you have to add it to your Role Center. For more information, see [Change Role Centers](change-role.md).  
 
 In this part, you can see those documents that are being processed or that are queued for which your ID is specified in the **Assigned User ID** field. The part helps you keep track of all job queue entries, including those related to background posting. The part can tell you at a glance whether there has been an error in the posting of a document or if there are errors in a job queue entry. The part also lets you cancel a document posting if it is not running.  
 
@@ -64,5 +64,5 @@ When a job queue is activated manually, it is run with the credentials of the us
 The job queue entry record has many fields whose purpose is to carry parameters into a codeunit that you have specified to be run with a job queue. This also means that codeunits that are to be run via the job queue must be specified with the Job Queue Entry record as a parameter in the **OnRun** trigger. This helps provide an extra level of security, as this prevents users from running random codeunits via the job queue. If the user must pass parameters to a report, the only way to do this is by wrapping the report execution into a codeunit, which then parses the input parameters and enters them into the report before executing it.  
 
 ## See Also  
-[Setup and Administration in Dynamics 365 for Financials](admin-setup-and-administration.md)  
-[Setting Up Dynamics 365 for Financials](setup.md)  
+[Setup and Administration in Finance and Operations, Business edition](admin-setup-and-administration.md)  
+[Setting Up Finance and Operations, Business edition](setup.md)  

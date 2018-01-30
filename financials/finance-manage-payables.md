@@ -18,7 +18,7 @@ ms.author: bholtorf
 
 ---
 # Managing Payables
-[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] has what you need to effectively manage accounts payable.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] has what you need to effectively manage accounts payable.  
 
 ## Payments
 It's easy to prioritize payments, account for penalties for overdue payments, and handle discounts for early payments.
@@ -42,7 +42,7 @@ If you wait to post payments until after your bank confirms that it has processe
 
 * In a payment journal with suggested payment lines, sort on either the **Exported to Payment File** or **Total Exported Amount** columns, and then delete payment suggestions for open invoices for which payments have already been made and you do not want to make payments for.
 
-    **Note** You might have to add these columns to the list. For more information, see [User Personalization](ui-user-personalization.md).  
+    **Note** You might have to add these columns to the list. For more information, see [Personalizing Your Workspace](ui-personalization-user.md).  
 * Alternatively, on the **Suggest Vendor Payments** batch job, where you specify the payments to include in the payment journal, you can specify not to insert journal lines for payments that have already been exported by choosing the **Skip Exported Payments** check box.
 
 ## See Also

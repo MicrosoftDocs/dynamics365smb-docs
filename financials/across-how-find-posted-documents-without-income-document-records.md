@@ -15,7 +15,7 @@ ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---
-# How to: Find Posted Documents without Incoming Document Records
+# Find Posted Documents without Incoming Document Records
 From the **Chart of Accounts** and **General Ledger Entries** windows, you can use a search function to find general ledger entries for posted purchase and sales documents that do not have incoming document records and then centrally link to existing records or create new ones with attached document files.
 
 ## To find posted documents without incoming document records
@@ -31,10 +31,10 @@ The **Posted Documents without Incoming Document** window opens showing posted p
 2. In the **Incoming Documents** window, select the incoming document record that you want to connect to posted document found, and then choose the **OK** button.
 3. In the **Posted Documents without Incoming Document** window, the selected incoming document record is now connected to the posted document, as you can see in the **Incoming Document Files** FactBox.
 
-If a relevant incoming document record does not exist in the **Incoming Documents** window, then you can create it. For more information, see [How to: Create Incoming Document Records](across-how-create-income-document-records.md).
+If a relevant incoming document record does not exist in the **Incoming Documents** window, then you can create it. For more information, see [Create Incoming Document Records](across-how-create-income-document-records.md).
 
 ## See Also
 [Process Incoming Documents](across-process-income-documents.md)  
 [Incoming Documents](across-income-documents.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Working with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

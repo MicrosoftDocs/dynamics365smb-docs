@@ -1,6 +1,6 @@
 ---
 title: Use Excel to import data into Financials| Microsoft Docs
-description: Use the default configuration package to add customer data in Excel and import the data back into Dynamics 365 Business edition .
+description: Use the default configuration package to add customer data in Excel and import the data back into Finance and Operations, Business edition .
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article

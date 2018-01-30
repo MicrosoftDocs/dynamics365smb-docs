@@ -1,5 +1,5 @@
 ---
-    title: Set Up Service Contractss | Microsoft Docs
+    title: Set Up Service Contracts | Microsoft Docs
     description: Learn how to set up service contracts.
     services: project-madeira
     documentationcenter: ''
@@ -16,7 +16,7 @@
 
 ---
 
-# How to: Set Up Service Contracts
+# Set Up Service Contracts
 Before you can work with contracts, you must set up the following: 
 
 * **Service contract groups**, which gather service contracts that are related in some way.

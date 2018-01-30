@@ -13,7 +13,7 @@ ms.date: 09/04/2017
 ms.author: sgroespe
 
 ---
-# How to: Work with Bills of Material
+# Work with Bills of Material
 You use bills of materials (BOMs) to structure parent items that must be assembled or produced by resources or machine centers from components. An assembly BOM can also be used to sell a parent item as a kit consisting of its components.
 
 ## Assembly BOMs or Production BOMs
@@ -25,9 +25,9 @@ Assembly BOMs are described in this topic.
 
 You use production orders for making end items from components in a complex process that requires a production routing and work or machine centers, which represent production capacities. For example, a production process could be to cut steel plates in one operation, weld them in the next operation, and paint the end item in the last operation. For more information, see [Manufacturing](production-manage-manufacturing.md).  
 
-A production BOM is the master data that defines a production item and the components that go into it. for assembly items, the production BOM must be certified and assigned to the production item before it can be used in a production order. When you enter the production item on a production order line, either manually or by refreshing the order, then the production BOM content becomes the production order components. For more information, see [How to: Create Production BOMs](production-how-to-create-production-boms.md).  
+A production BOM is the master data that defines a production item and the components that go into it. for assembly items, the production BOM must be certified and assigned to the production item before it can be used in a production order. When you enter the production item on a production order line, either manually or by refreshing the order, then the production BOM content becomes the production order components. For more information, see [Create Production BOMs](production-how-to-create-production-boms.md).  
 
-The concept of resources in production is much more advanced than in assembly management. Work centers and machine centers function as resources, and production steps are represented by operations that are assigned to resources in production routings. For more information, see [How to: Create Routings](production-how-to-create-routings.md).
+The concept of resources in production is much more advanced than in assembly management. Work centers and machine centers function as resources, and production steps are represented by operations that are assigned to resources in production routings. For more information, see [Create Routings](production-how-to-create-routings.md).
 
 Both assembly orders and production orders may be linked directly to sales orders. However, you can only use assembly orders to customize the end item directly for a customer request with the sales order.
 
@@ -38,13 +38,13 @@ Assembly BOMs usually contain items but can also contain one or more resources t
 
 Assembly BOMs can have multiple levels, which means that a component on the assembly BOM can be an assembly item itself. In that case, the **Assembly BOM** field on the assembly BOM line contains **Yes**.
 
-Special requirements apply to items on assembly BOMs with regards to availability. For more information, see the "To see the availability of an item by its use in assembly BOMs" section in [How to: View the Availability of Items](inventory-how-availability-overview.md).
+Special requirements apply to items on assembly BOMs with regards to availability. For more information, see the "To see the availability of an item by its use in assembly BOMs" section in [View the Availability of Items](inventory-how-availability-overview.md).
 
 There are two parts to creating an assembly BOM:
 - Setting up a new item
 - Defining the BOM structure of the assembly item.
 
-1. Set up a new item. For more information, see [How to: Register New Items](inventory-how-register-new-items.md).
+1. Set up a new item. For more information, see [Register New Items](inventory-how-register-new-items.md).
 
     Proceed to enter components or resources on the assembly BOM.  
 2. In the **Item Card** window for an assembly item, choose the **Assembly** action, and then choose the **Assembly BOM** action.
@@ -76,7 +76,7 @@ All fields on the sales invoice line for the assembly item are cleared except fo
 ## To calculate the standard cost of an assembly item
 You calculate the unit cost of an assembly item by rolling up the unit cost of each component and resource in the item’s assembly BOM.
 
-You can also calculate and update the standard cost for one or many items in the **Standard Cost Worksheet** window. For more information, see [How to: Update Standard Costs](finance-how-to-update-standard-costs.md).  
+You can also calculate and update the standard cost for one or many items in the **Standard Cost Worksheet** window. For more information, see [Update Standard Costs](finance-how-to-update-standard-costs.md).  
 
 The unit cost of an assembly BOM always equals the total of the unit costs of its components, including other assembly BOMs, and any resources.
 
@@ -96,7 +96,7 @@ The unit cost of an assembly BOM always equals the total of the unit costs of it
 The costs of the items that make up the assembly BOM are copied from the component item cards. The cost of each item is multiplied by the quantity, and the total cost is shown in the **Unit Cost** field on the item card.
 
 ## See Also
-[How to: Register New Items](inventory-how-register-new-items.md)  
-[How to: View the Availability of Items](inventory-how-availability-overview.md)     
+[Register New Items](inventory-how-register-new-items.md)  
+[View the Availability of Items](inventory-how-availability-overview.md)     
 [Inventory](inventory-manage-inventory.md)  
-[Working with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

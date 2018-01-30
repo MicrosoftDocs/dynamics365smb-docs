@@ -1,6 +1,6 @@
 ---
     title: How to Print VAT Reconciliation Reports | Microsoft Docs
-    description: In Dynamics 365, Business edition, you can use the **VAT Reconciliation** report to view a list of general ledger accounts with their base amounts and VAT amounts. These amounts are grouped by VAT type to help with VAT settlement reconciliation.
+    description: In Finance and Operations, Business edition, you can use the **VAT Reconciliation** report to view a list of general ledger accounts with their base amounts and VAT amounts. These amounts are grouped by VAT type to help with VAT settlement reconciliation.
     author: SorenGP
 
     ms.service: dynamics365-financials

@@ -1,6 +1,6 @@
 ---
     title: Set up data exchange | Microsoft Docs
-    description: Set up the data exchange framework in Dynamics 365, Business edition .
+    description: Set up the data exchange framework in Finance and Operations, Business edition .
     author: SorenGP
 
     ms.service: dynamics365-financials

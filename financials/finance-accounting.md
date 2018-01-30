@@ -1,6 +1,6 @@
 ---
 title: Financials accountant experience | Microsoft Docs
-description: Learn about the accountant portal for Dynamics 365, Business edition and the Accountant Role Center that supports internal and external accountants in the client company.
+description: Learn about the accountant portal for Finance and Operations, Business edition and the Accountant Role Center that supports internal and external accountants in the client company.
 author: edupont04
 
 ms.service: dynamics365-financials

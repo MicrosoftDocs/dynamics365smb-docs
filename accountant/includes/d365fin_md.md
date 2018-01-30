@@ -1,1 +1,1 @@
-Dynamics 365, Business edition
+Finance and Operations, Business edition

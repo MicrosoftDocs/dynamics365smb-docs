@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map
-ms.date: 06/06/2017
+ms.date: 01/25/2018
 ms.author: edupont
 ---
 # Managing Customers and Sales Created in Dynamics 365 for Sales

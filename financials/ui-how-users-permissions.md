@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 10/16/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 
 ---

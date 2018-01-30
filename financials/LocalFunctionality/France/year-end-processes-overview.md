@@ -1,10 +1,6 @@
 ---
     title: Year End Processes Overview
-<<<<<<< HEAD:financials/LocalFunctionality/France/year-end-processes-overview.md
-    description: Year end closing in Dynamics 365, Business edition involves three steps.
-=======
-    description: Year end closing in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] involves three steps.
->>>>>>> refs/remotes/origin/master:archive/LocalFunctionality/France/year-end-processes-overview.md
+    description: Year end closing in Finance and Operations, Business edition involves three steps.
 
     services: project-madeira
     documentationcenter: ''

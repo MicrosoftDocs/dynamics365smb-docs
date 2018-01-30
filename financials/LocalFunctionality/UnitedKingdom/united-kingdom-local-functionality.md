@@ -17,7 +17,6 @@ ms.author: edupont
 The following topics describe local functionality that is unique to the United Kingdom version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## In This Section  
-[Multiple Interest Rates Overview](multiple-interest-rates-overview.md)  
 [Enter Statutory Information](how-to-enter-statutory-information.md)  
 [Set Up the GetAddress.io UK Postcodes Extension](uk-setup-postal-code-service.md)  
 [Set Up a Posting Date Warning](how-to-set-up-a-posting-date-warning.md)  

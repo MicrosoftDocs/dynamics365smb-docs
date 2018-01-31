@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 01/31/2018
     ms.author: sgroespe
 
 ---
@@ -29,6 +29,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use electronic ban
 - Process direct debits with domiciliations  
 
 ## See Also  
- [Belgian Electronic Payments](belgian-electronic-payments.md)   
- [CODA Bank Statements](coda-bank-statements.md)   
- [Direct Debit Using Domiciliation](direct-debit-using-domiciliation.md)
+[Belgium Local Functionality](belgium-local-functionality.md)  
+[Belgian Electronic Payments](belgian-electronic-payments.md)  
+[CODA Bank Statements](coda-bank-statements.md)  
+[Direct Debit Using Domiciliation](direct-debit-using-domiciliation.md)

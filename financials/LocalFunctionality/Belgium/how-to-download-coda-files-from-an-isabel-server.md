@@ -17,6 +17,9 @@
 
 ---
 # Download CODA Files from an Isabel Server
+> [!Note]
+> [!INCLUDE[onprem_only](../../includes/onprem_only_md.md)]
+
 CODA files can be downloaded manually or in attended mode.  
 
 To manually download CODA files, log  on to the Isabel server and select the files that you want to download. The downloaded files can then be imported from the **Bank Account** table. For more information, see [Import CODA Statements](how-to-import-coda-statements.md).  

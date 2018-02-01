@@ -1,4 +1,4 @@
----
+
 title: Welcome | Microsoft Docs
 description: Outlines the assisted setup guides, videos, help topics, and pages and windows to use to get ready for doing business in Finance and Operations, Business edition .
 documentationcenter: ''
@@ -58,3 +58,6 @@ Based on your migrated data, you can now proceed to create new sales or purchase
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Manage Users and Permissions](ui-how-users-permissions.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]

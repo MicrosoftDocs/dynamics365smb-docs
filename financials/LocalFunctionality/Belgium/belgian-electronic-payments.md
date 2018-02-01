@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 01/31/2018
     ms.author: sgroespe
 
 ---
@@ -45,12 +45,13 @@ You must correct all errors before you can post the electronic payment lines. Yo
 For more information, see [Manage Electronic Payment Lines](how-to-manage-electronic-payment-lines.md).  
 
 ## See Also  
- [Belgian Electronic Banking](belgian-electronic-banking.md)   
- [Set Up Electronic Banking](how-to-set-up-electronic-banking.md)   
- [Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md)   
- [Set Up Vendors for Automatic Payment Suggestions](how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
- [Generate Payment Suggestions](how-to-generate-payment-suggestions.md)   
- [Create Payment Journal Templates and Batches](how-to-create-payment-journal-templates-and-batches.md)   
- [Test Electronic Payments](how-to-test-electronic-payments.md)   
- [Manage Electronic Payment Lines](how-to-manage-electronic-payment-lines.md)   
- [Print Payment Files](how-to-print-payment-files.md)
+[Belgium Local Functionality](belgium-local-functionality.md)  
+[Belgian Electronic Banking](belgian-electronic-banking.md)   
+[Set Up Electronic Banking](how-to-set-up-electronic-banking.md)   
+[Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md)   
+[Set Up Vendors for Automatic Payment Suggestions](how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
+[Generate Payment Suggestions](how-to-generate-payment-suggestions.md)   
+[Create Payment Journal Templates and Batches](how-to-create-payment-journal-templates-and-batches.md)   
+[Test Electronic Payments](how-to-test-electronic-payments.md)   
+[Manage Electronic Payment Lines](how-to-manage-electronic-payment-lines.md)   
+[Print Payment Files](how-to-print-payment-files.md)

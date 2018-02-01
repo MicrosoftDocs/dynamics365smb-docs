@@ -18,7 +18,7 @@ ms.author: jswymer
 # Closing Years and Periods
 At the end of a fiscal year, there are a number of administrative tasks that you have to perform, like making sure all documents and journals are posted, making sure currency data are up-to-date, closing the books, and more. The actual tasks will depend your company.
 
-The following table provides an overview of tasks that you typically perform to close a year and period. 
+The following table provides an overview of tasks that you typically perform to close a year and period.
 
 | To | See |
 | --- | --- |
@@ -34,3 +34,6 @@ The following table provides an overview of tasks that you typically perform to 
 ## See Also
 [Open a New Fiscal Year](finance-how-open-new-fiscal-year.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]

@@ -16,7 +16,7 @@ ms.author: jswymer
 ---
 # Customizing Finance and Operations, Business edition
 <!--NAV # Customizing Dynamics NAV -->
-There are different ways to customize the application to give you and your colleagues access to the features, functionality, and data that you need most, in a manner that bests suits your daily work. Those who see the changes will depend on what you do, as described in this table. 
+There are different ways to customize the application to give you and your colleagues access to the features, functionality, and data that you need most, in a manner that bests suits your daily work. Those who see the changes will depend on what you do, as described in this table.
 
 | What you can do    |  Description  |  Who sees the changes  |  More information  |
 |-----|---------------|---------|-------|
@@ -24,7 +24,8 @@ There are different ways to customize the application to give you and your colle
 |Change the Experience|A single setting, the *Experience* setting, determines how much of the core functionality is available. Currently, there are two levels: Basic and Suite.|All users in a specific company.|[Configuring the Finance and Operations, Business edition Experience for a Company](ui-experiences.md)|
 |Personalize your workspace|Change the layout and content of your pages.|Only you.|[Personalizing Your Workspace](ui-personalization-user.md)|
 
-## See Also 
+## See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]

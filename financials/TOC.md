@@ -376,5 +376,6 @@
 ## [Denmark](LocalFunctionality/Denmark/denmark-local-functionality.md)
 ## [Germany](LocalFunctionality/Germany/germany-local-functionality.md)
 ## [Netherlands](LocalFunctionality/Netherlands/netherlands-local-functionality.md)
+## [Switzerland](LocalFunctionality/Switzerland/switzerland-local-functionality.md)
 ## [United Kingdom](LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.md)
 ## [United States](LocalFunctionality/UnitedStates/united-states-local-functionality.md)

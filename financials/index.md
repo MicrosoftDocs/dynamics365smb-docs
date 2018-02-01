@@ -80,4 +80,4 @@ If you are an accountant, you can sign up for [!INCLUDE[d365acc_long](includes/d
 [Microsoft Dynamics 365 for Finance and Operations, Business edition](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## Get [training!](https://docs.microsoft.com/en-us/dynamics365/get-started/training/)
+## [!INCLUDE[d365fin](includes/training_link_md.md)]

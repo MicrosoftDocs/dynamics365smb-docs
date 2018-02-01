@@ -25,13 +25,12 @@ Conversely, order processors in [!INCLUDE[d365fin](includes/d365fin_md.md)] can 
 ## Setting up the connection
 From Home, you can access the **Dynamics 365 for Sales Connection Setup** assisted setup guide that helps you set up the connection. Once that is done, you will have a seamless coupling of Dynamics 365 for Sales records with [!INCLUDE[d365fin](includes/d365fin_md.md)] records.  
 
-
 > [!NOTE]  
 >   The following explains the assisted setup, but you can perform the same tasks manually in the **Dynamics 365 for Sales Connection Setup** window.
 
 In the assisted setup guide, you can choose which data to synchronize between the two services. You can also specify that you want to import your existing Dynamics 365 for Sales solution. In that case, you must specify an administrative user account.
 
-### Setting Up the User Account for Importing the Solution
+### Setting up the user account for importing the solution
 To import an existing Dynamics 365 for Sales solution, the setup guide uses an administrative account. This account must be a valid user in Dynamics 365 for Sales with the following security roles:
 
 * System Administrator  
@@ -48,7 +47,7 @@ If you choose to enable *item availability*, the integration user account must h
 
 If you choose to enable *sales order integration*, you must specify a user that can handle this synchronization - the integration user or another user account.
 
-### Coupling Records
+### Coupling records
 In the assisted setup guide, you can choose to synchronize between the two services. But later, you can also set up synchronization of specific types of data. This is referred to as *coupling*, and this section provides recommendations for what you must take into consideration.
 
 For example, if you want to see Dynamics 365 for Sales accounts as customers in [!INCLUDE[d365fin](includes/d365fin_md.md)], you must couple the two types of records. It is not very complicated - you open the **Customer List** window in [!INCLUDE[d365fin](includes/d365fin_md.md)], and there is an action in the ribbon to couple this data with Dynamics 365 for Sales. Then you specify which [!INCLUDE[d365fin](includes/d365fin_md.md)] customers match which accounts in Dynamics 365 for Sales.
@@ -67,19 +66,12 @@ In certain areas, the functionality relies on you couple certain sets of data be
 
 Dynamics 365 for Sales sales orders depends on additional information like customers, units of measure, currencies, customer price groups, items and/or resources. In order for Dynamics 365 for Sales sales orders to work seamlessly, you must couple customers, units of measure, currencies, customer price groups, items and/or resources first.
 
-### Synchronizing Records Fully
+### Synchronizing records fully
 At the end of the assisted setup guide, you can choose the **Run Full Synchronization** action to start synchronizing all [!INCLUDE[d365fin](includes/d365fin_md.md)] records with all related records in the connected Dynamics 365 for Sales solution. In the **CRM Full Synch. Review** window, you choose the **Start** action. The synchronization then begins to execute jobs according to dependencies. For example, currency records are synchronized before customer records. The full synchronization may take a long time and will therefore run in the background so that you can continue to work in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 To check the progress of individual jobs in a full synchronization, drill down on the **Job Queue Entry Status**, **To Int. Table Job Status**, or **From Int. Table Job Status** field in the **CRM Full Synch. Review** window.
 
 From the **Dynamics 365 for Sales Connection Setup** window, you can get details about full synchronization at any time. From here, you can also open the **Integration Table Mappings** window to see details about the tables in Finance and Operations, Business edition and in the Dynamics 365 for Sales solution that must be synchronized.
-
-## Handling Special Sales Order Data
-Sales orders in Dynamics 365 for Sales will be transferred to [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically if you select the **Automatically Create Sales Orders** check box in the **Microsoft Dynamics 365 for Sales Connection Setup** window. On such sales orders, the **Name** field on the original order is transferred and mapped to the **External Document Number** field on the sales order in [!INCLUDE[d365fin](includes/d365fin_md.md)].
-
-This can also work if the original sales order contains write-in products, meaning items or resources that are not registered in either product. In that case, you must fill in the **Write-in Product Type** and **Write-in Product No.** fields in the **Sales & Receivables Setup** window, so that such non-registered product sales are mapped to a specified item/resource number for financial analysis.
-
-If the item description on the original sales order is very long, then an additional sales order line of type Comment is created to hold the full text on the sales order in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## See Also
 [Relationship Management](marketing-relationship-management.md)  
@@ -88,4 +80,5 @@ If the item description on the original sales order is very long, then an additi
 [Manage Users and Permissions](ui-how-users-permissions.md)    
 [Onboard your organization and users to Finance and Operations, Business edition (online)](https://www.microsoft.com/en-US/Dynamics/crm-customer-center/onboard-your-organization-and-users-to-dynamics-365-online.aspx)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]

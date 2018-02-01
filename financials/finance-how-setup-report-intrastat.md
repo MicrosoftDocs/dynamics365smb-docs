@@ -111,5 +111,3 @@ Because you must submit an Intrastat report every month, and you create a new jo
 
 ## See Also
 [Financial Management](finance.md)
-
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]

@@ -71,5 +71,3 @@ Choose the  amount in any of the total fields to see the inventory report entrie
 [Sales](sales-manage-sales.md)    
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
-
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]

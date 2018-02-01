@@ -17,6 +17,9 @@
 
 ---
 # Set Up Electronic Banking
+> [!Note]
+> [!INCLUDE[onprem_only](../../includes/onprem_only_md.md)]
+
 With electronic banking, you can make electronic payments to domestic, international, SEPA, and non-Euro SEPA vendors and customers.  
 
 Your company subscribes to an eBanking contract with the bank to maintain a certain bank account or several bank accounts. The company also subscribes to Isabel to send payment files to and receive bank statement files from the bank electronically. Therefore, the company receives smartcards linked to the eBanking contract. The smartcards are secured by PIN codes.  

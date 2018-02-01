@@ -27,6 +27,9 @@ Entering the correct setup values from the start is important to the success of 
 -   [Setup Best Practices: Costing Method](setup-best-practices-costing-method.md)  
 
 ## See Also  
- [Design Details: Supply Planning](design-details-supply-planning.md)   
- [Design Details: Costing Methods](design-details-costing-methods.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Design Details: Supply Planning](design-details-supply-planning.md)   
+[Design Details: Costing Methods](design-details-costing-methods.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]

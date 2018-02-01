@@ -17,6 +17,9 @@
 
 ---
 # Archive IBS Log Entries
+> [!Note]
+> [!INCLUDE[onprem_only](../../includes/onprem_only_md.md)]
+
 IBS log lines that have a process status of **Processed** can be archived. IBS logs contain information about electronic banking files that are created during Isabel electronic bank transfers.  
 
 Isabel is a third-party software program that is frequently used in Belgium to manage and transfer electronic banking files. Isabel currently supports bank transactions, such as SEPA credit transfers, automated bank orders, and CODA files.  

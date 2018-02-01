@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 12/20/2017
+ms.date: 06/02/2017
 ms.author: edupont
 
 ---
@@ -42,11 +42,6 @@ The [!INCLUDE[d365fin](includes/d365fin_md.md)] Document Links add-in gives you 
 For example, if you receive an email message that mentions the text *S-QUO100*, [!INCLUDE[d365fin](includes/d365fin_md.md)] identifies that as a sales quote, and so you can open this document in Outlook. In Outlook, choose the **Document Links** button immediately above the body of the email message. In the Outlook Web App, choose the *S-QUO1001* text in the body of the email message.  
 
 In the Document Links add-in, you can modify and take actions with the document, just like you can in [!INCLUDE[d365fin](includes/d365fin_md.md)].
-
-## Creating Quotes or Invoices from Your Emails
-If the add-in is open when you read an incoming email, [!INCLUDE[d365fin](includes/d365fin_md.md)] will scan the email and recognize that the sender is a customer who is asking for a quote on 10 items, for example. [!INCLUDE[d365fin](includes/d365fin_md.md)] then creates that quote for you right there and then in Outlook.  
-
-The line items are created by comparing the items and services mentioned in the email message to the item list in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For example, when you create a new sales quote in the Outlook add-in, the add-in will review the email text to see if any of your products and services are mentioned in the email. If so, the add-in will suggest the items and quantities to be added automatically to the sales quote, saving the user time from manually keying in the data.  
 
 ## Adding the Add-ins Manually
 In some cases, the add-ins do not get added automatically to Outlook. Even if you or a colleague ran the assisted setup guide on behalf of the company, [!INCLUDE[d365fin](includes/d365fin_md.md)] might not show up in Outlook. If you experience this issue, you can add the [!INCLUDE[d365fin](includes/d365fin_md.md)] add-ins manually.  

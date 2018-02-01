@@ -371,6 +371,7 @@
 
 # Local Functionality
 ## [Austria](LocalFunctionality/Austria/austria-local-functionality.md)
+## [Belgium](LocalFunctionality/Belgium/belgium-local-functionality.md)
 ## [Canada](LocalFunctionality/Canada/canada-local-functionality.md)
 ## [Denmark](LocalFunctionality/Denmark/denmark-local-functionality.md)
 ## [Finland](LocalFunctionality/Finland/finland-local-functionality.md)

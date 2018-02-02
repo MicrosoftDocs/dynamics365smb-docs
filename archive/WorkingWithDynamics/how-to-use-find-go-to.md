@@ -16,7 +16,7 @@
 
 ---
 <<<<<<< HEAD
-# How to: Use Find-Go to
+# Use Find-Go to
 =======
 # Use Find-Go to
 >>>>>>> refs/remotes/origin/Update13

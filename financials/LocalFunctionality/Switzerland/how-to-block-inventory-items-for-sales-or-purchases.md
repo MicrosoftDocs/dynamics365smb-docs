@@ -1,6 +1,6 @@
 ---
     title: How to Block Inventory Items for Sales or Purchases
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], an item can be marked as blocked for sales, blocked for purchase, or blocked for all purposes.
+    description: An item can be marked as blocked for sales, blocked for purchase, or blocked for all purposes.
 
     services: project-madeira
     documentationcenter: ''
@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 02/02/2018
     ms.author: sgroespe
 
 ---
@@ -31,7 +31,7 @@ The following table illustrates what occurs when items are blocked.
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
 2.  Select the item that you want to block, and then choose the **Edit** action.  
-3.  To block the selected item for sales transactions, on the **Invoicing** FastTab, select the **Sale blocked** check box.  
+3.  To block the selected item for sales transactions, on the **Prices & Sales** FastTab, select the **Sale blocked** check box.  
 4.  Choose the **OK** button.  
 
 ## To block inventory items for purchase  

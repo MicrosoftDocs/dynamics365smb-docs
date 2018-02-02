@@ -52,7 +52,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can specify which repo
 
 ## See Also  
 <<<<<<< HEAD:financials/LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md
-[How to: Export and Print Intrastat Reports](how-to-export-and-print-intrastat-reports.md)  
+[Export and Print Intrastat Reports](how-to-export-and-print-intrastat-reports.md)  
 [VAT Reporting](vat-reporting.md)
 =======
 [Export and Print Intrastat Reports](how-to-export-and-print-intrastat-reports.md)  

@@ -16,7 +16,7 @@
 
 ---
 <<<<<<< HEAD
-# How to: Create New Lines and New Cards
+# Create New Lines and New Cards
 =======
 # Create New Lines and New Cards
 >>>>>>> refs/remotes/origin/Update13

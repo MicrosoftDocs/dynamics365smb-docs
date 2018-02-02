@@ -16,7 +16,7 @@
 
 ---
 <<<<<<< HEAD
-# How to: Send Email Messages
+# Send Email Messages
 =======
 # Send Email Messages
 >>>>>>> refs/remotes/origin/Update13

@@ -15,6 +15,12 @@
     ms.author: sgroespe
 
 ---
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+# Create New Lines and New Cards
+=======
+>>>>>>> refs/remotes/origin/Update14
 # Create New Lines and New Cards
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] lets you work with windows in three different modes: view, edit, and new. The mode appears in the window caption, before the window name. For example, **View - Customer Card - 10000 The Cannon Group PLC**.  
 

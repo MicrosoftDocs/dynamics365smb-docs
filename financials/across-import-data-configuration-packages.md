@@ -64,4 +64,5 @@ After the customer data has been entered in Excel, you import the data into [!IN
 [QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)  
 [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]

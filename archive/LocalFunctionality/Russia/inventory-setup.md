@@ -2,7 +2,7 @@
     title: Inventory Setup
     description: As part of inventory management, you can set up inventory to assign item charges on purchases from foreign countries/regions based on weight or volume, and to use the same column for original and corrective postings.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 

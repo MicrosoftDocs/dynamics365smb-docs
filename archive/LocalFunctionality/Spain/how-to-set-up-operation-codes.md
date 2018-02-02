@@ -2,7 +2,7 @@
     title: How to Set Up Operation Codes
     description: You can add as many operation codes as you want to the table. However, the operation codes C, D, and I already exist in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 

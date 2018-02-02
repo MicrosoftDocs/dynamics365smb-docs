@@ -16,7 +16,11 @@
     ms.author: sgroespe
 
 ---
+<<<<<<< HEAD
 # Release, Track, and Write-Off Fixed Assets
+=======
+# Release, Track, and Write-Off Fixed Assets
+>>>>>>> refs/remotes/origin/Update13
 You can manage your fixed assets utilizing the fixed assets acts features in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. Fixed assets acts allow you to release, track, and write-off the fixed assets of your organization.  
 
 The first step to managing your fixed assets is to set up fixed assets numbering and source codes.  

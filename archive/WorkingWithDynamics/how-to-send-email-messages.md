@@ -15,7 +15,11 @@
     ms.author: sgroespe
 
 ---
+<<<<<<< HEAD
 # Send Email Messages
+=======
+# Send Email Messages
+>>>>>>> refs/remotes/origin/Update13
 When ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> is integrated with an email system, you can choose the button on the right side of the **E-Mail** field to open a window in which you can create and send a message.  
   
 ### To send an email message  

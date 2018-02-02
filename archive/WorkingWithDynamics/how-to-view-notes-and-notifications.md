@@ -15,7 +15,11 @@
     ms.author: sgroespe
 
 ---
+<<<<<<< HEAD
 # View Notes and Notifications
+=======
+# View Notes and Notifications
+>>>>>>> refs/remotes/origin/Update13
 ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> enables you and your colleagues to attach notes to records in the application. For example, if your colleague wants to give you extra information about a sales order that is not covered by the fields on the sales order page, they can write a note and send it to you as a notification on your Role Center.  
   
  When you read the notification on your Role Center, you can open the sales order just by double-clicking the note.  

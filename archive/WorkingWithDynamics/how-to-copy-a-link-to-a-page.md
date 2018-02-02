@@ -15,7 +15,11 @@
     ms.author: sgroespe
 
 ---
+<<<<<<< HEAD
 # Copy a Link to a Page
+=======
+# Copy a Link to a Page
+>>>>>>> refs/remotes/origin/Update13
 All pages have a **Copy Link to Page** action that you can use to save a link to a specific page in ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]-->. You can then share these pages across your company. The link text is the same as the page header text.  
   
 > [!WARNING]  

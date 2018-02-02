@@ -2,7 +2,7 @@
     title: How to Create and Print General Ledger Account Turnover
     description: Russian enhancements enable you to create general ledger account turnover information in the **G/L Account Turnover** window.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 

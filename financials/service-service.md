@@ -42,3 +42,6 @@ The following table describes a sequence of tasks, with links to the topics that
 [Managing Receivables](receivables-manage-receivables.md)   
 [Jobs](projects-how-create-jobs.md)   
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] ](index.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]

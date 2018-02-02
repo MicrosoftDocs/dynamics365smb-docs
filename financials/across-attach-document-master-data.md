@@ -20,6 +20,6 @@ You can attach pictures, documents, or images to items, customers, vendors, jobs
 
 
 ## See Also
-[How to: Register New Customers](sales-how-register-new-customers.md)  
-[How to: Register New Vendors](purchasing-how-register-new-vendors.md)  
-[How to: Register New Items](inventory-how-register-new-items.md)  
+[Register New Customers](sales-how-register-new-customers.md)  
+[Register New Vendors](purchasing-how-register-new-vendors.md)  
+[Register New Items](inventory-how-register-new-items.md)  

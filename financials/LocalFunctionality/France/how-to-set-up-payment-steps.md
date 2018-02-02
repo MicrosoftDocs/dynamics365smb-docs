@@ -16,8 +16,8 @@
     ms.author: sgroespe
 
 ---
-# How to: Set Up Payment Steps
-To use payment management, you must set up steps for payment documents and define payment steps for each payment status. For example, "Creation of documents," "Documents created,” and "Creation of payments." For more information, see [How to: Set Up Payment Statuses](how-to-set-up-payment-statuses.md).  
+# Set Up Payment Steps
+To use payment management, you must set up steps for payment documents and define payment steps for each payment status. For example, "Creation of documents," "Documents created,” and "Creation of payments." For more information, see [Set Up Payment Statuses](how-to-set-up-payment-statuses.md).  
 
 ## To set up payment steps  
 
@@ -36,7 +36,7 @@ To use payment management, you must set up steps for payment documents and defin
     |**Next Status Name**|The name of the status selected in the **Next Status** field. This field cannot be modified.|  
     |**Action Type**|The type of action to be performed by this step. <br /><br /> **Ledger:** If you specify **Ledger**, you must define the additional ledger information in the **Payment Step Ledger** window.<br /><br /> **Report:** If you specify **Report**, you specify which report in the **Report No.** field.<br /><br /> **File:**<br /><br /> * If you specify **File**, you specify the type of file in the **Export Type** field: **Report** or **XMLPort**.<br /><br /> * For SEPA Credit Transfer files, specify **XMLport**, and then set the **Export No.** field to 1000.<br /><br /> * For SEPA Direct Debit files, specify **XMLport**, and then set the **Export No.** field to 1010.|  
     |**Report No.**|The identification number for the report. This field is available if the **Action Type** field is set to **Report**.|  
-    |**Export Type**|The export type for the file. This field is available if the **Action Type** field is set to **File**.<br /><br /> For example, see [How to: Export Payments](how-to-export-payments.md).|  
+    |**Export Type**|The export type for the file. This field is available if the **Action Type** field is set to **File**.<br /><br /> For example, see [Export Payments](how-to-export-payments.md).|  
     |**Export No.**|The identification code for the selected export type. This field is available if the **Action Type** field is set to **File**.|  
     |**Verify Lines RIB**|Select to verify that the Relevé d'Identité Bancaire (RIB) key value specified on the payment slip line has been correctly reported.|  
     |**Verify Due Date**|Select to verify that the due date on the billing and payment line has been correctly reported.|  
@@ -78,9 +78,9 @@ If the action type of the payment step is **Ledger**, you must set up additional
 
 ## See Also  
  [Payment Management](payment-management.md)   
- [How to: Set Up Payment Classes](how-to-set-up-payment-classes.md)   
- [How to: Set Up Payment Addresses](how-to-set-up-payment-addresses.md)   
- [How to: Create Payment Slips](how-to-create-payment-slips.md)   
- [How to: Post Payment Slips](how-to-post-payment-slips.md)   
- [How to: Archive Payment Slips](how-to-archive-payment-slips.md)   
- [How to: Export or Import Payment Management Setup Parameters](how-to-export-or-import-payment-management-setup-parameters.md)
+ [Set Up Payment Classes](how-to-set-up-payment-classes.md)   
+ [Set Up Payment Addresses](how-to-set-up-payment-addresses.md)   
+ [Create Payment Slips](how-to-create-payment-slips.md)   
+ [Post Payment Slips](how-to-post-payment-slips.md)   
+ [Archive Payment Slips](how-to-archive-payment-slips.md)   
+ [Export or Import Payment Management Setup Parameters](how-to-export-or-import-payment-management-setup-parameters.md)

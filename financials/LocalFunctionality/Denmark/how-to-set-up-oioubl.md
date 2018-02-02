@@ -53,7 +53,7 @@ You can use the **Offentlig kunde (OIOXML)** customer template to apply standard
 
 6. In the **Payment Terms** field, choose the terms under which you expect the customer to pay.
 
-For more information about how to set up a customer, see [How to: Register New Customers](../../sales-how-register-new-customers.md).
+For more information about how to set up a customer, see [Register New Customers](../../sales-how-register-new-customers.md).
 
 ## To set up item charges  
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Charges**, and then choose the related link.  

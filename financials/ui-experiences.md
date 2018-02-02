@@ -31,7 +31,7 @@ The following table lists the experiences that are currently available.
 | **Essential** |Shows all actions and fields for all common business functionality.|
 
 > [!NOTE]  
-> With the Sandbox option, you can select the **Advanced** experience, which gives access to all possible business functionality, including Manufacturing and Service Management. For more information, see [How to: Create a Sandbox Environment](across-how-create-sandbox-environment.md).
+> With the Sandbox option, you can select the **Advanced** experience, which gives access to all possible business functionality, including Manufacturing and Service Management. For more information, see [Create a Sandbox Environment](across-how-create-sandbox-environment.md).
 
 ## See also
 [Creating New Companies](about-new-company.md)  

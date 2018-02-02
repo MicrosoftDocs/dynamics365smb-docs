@@ -2,7 +2,7 @@
     title: How to Create Corrective Documents
     description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create corrective invoices and credit memos to reflect a change in the invoiced amount or quantity.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 

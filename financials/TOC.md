@@ -2,6 +2,7 @@
 ## [Minimum Requirements](financials-requirements.md)
 ## [Frequently Asked Questions](across-faq.md)
 ## [Overview of Business Functionality](madeira-business-functionality.md)
+## [Trying Out a Preview Version](across-preview.md)
 ## [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
 ## [Importing Business Data from Other Finance Systems](upload-data.md)
 ## [Changing from a QuickBooks App to Microsoft Finance and Operations, Business edition](across-quickbooks-to-business-edition.md)
@@ -369,7 +370,12 @@
 ## [Design Details: General Journal Post Line](design-details-general-journal-post-line.md)
 
 # Local Functionality
+## [Austria](LocalFunctionality/Austria/austria-local-functionality.md)
+## [Belgium](LocalFunctionality/Belgium/belgium-local-functionality.md)
 ## [Canada](LocalFunctionality/Canada/canada-local-functionality.md)
 ## [Denmark](LocalFunctionality/Denmark/denmark-local-functionality.md)
+## [Germany](LocalFunctionality/Germany/germany-local-functionality.md)
+## [Netherlands](LocalFunctionality/Netherlands/netherlands-local-functionality.md)
+## [Switzerland](LocalFunctionality/Switzerland/switzerland-local-functionality.md)
 ## [United Kingdom](LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.md)
 ## [United States](LocalFunctionality/UnitedStates/united-states-local-functionality.md)

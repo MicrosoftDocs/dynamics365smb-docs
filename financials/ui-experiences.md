@@ -1,6 +1,6 @@
 ---
 title: Choosing the User Experience to Show or Hide Advanced Features | Microsoft Docs
-description: Learn what the Basic and Essentials user experience tiers mean for the user interface, application areas, and your company.
+description: Learn what the Basic and Essential user experience tiers mean for the user interface, application areas, and your company in Dynamics 365 Business edition.
 documentationcenter: ''
 author: edupont04
 
@@ -9,8 +9,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: essentials, basic, user interface, application area, experience
-ms.date: 01/24/2018
+ms.search.keywords: Essential, Basic, user interface, application area
+ms.date: 01/19/2018
 ms.author: edupont
 
 ---
@@ -21,16 +21,20 @@ ms.author: edupont
 The user experience determines how much of the core functionality is available when you and your colleagues use [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can choose the user experience for your company in the **Company Information** window, in the **Experience** field.
 
 > [!NOTE]  
-> This setting applies to all users in your company. Users can customize thier own experience even further by changing page layouts and content. For more information, see [Personalizing Your Workspace and Pages](ui-personalization-user.md).  
+> This setting applies to all users in your company. Users can customize their own experience even further by changing page layouts and content. For more information, see [Personalizing Your Workspace and Pages](ui-personalization-user.md).  
 
 The following table lists the experiences that are currently available.
 
 | Experience | Impact on User Interface |
 | --- | --- |
-| Basic |Shows only core actions and fields within the most common business functionality, such as sales, purchasing, inventory, and finance. |
-| Suite |Shows all actions and fields for all available business functionality.|
+| **Basic** |Shows only core actions and fields within the most common business functionality, such as sales, purchasing, inventory, and finance. |
+| **Essential** |Shows all actions and fields for all common business functionality.|
+
+> [!NOTE]  
+> With the Sandbox option, you can select the **Advanced** experience, which gives access to all possible business functionality, including Manufacturing and Service Management. For more information, see [How to: Create a Sandbox Environment](across-how-create-sandbox-environment.md).
 
 ## See also
+[Creating New Companies](about-new-company.md)  
 [Changing Basic Settings](ui-change-basic-settings.md)  
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

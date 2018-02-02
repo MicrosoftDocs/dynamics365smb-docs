@@ -2,7 +2,7 @@
     title: How to Import and Export Account Schedules
     description: Russian enhancements enable you to import and export account schedules into other companies and databases.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 

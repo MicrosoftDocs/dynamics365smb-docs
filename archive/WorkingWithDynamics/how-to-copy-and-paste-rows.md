@@ -15,7 +15,11 @@
     ms.author: sgroespe
 
 ---
+<<<<<<< HEAD
+# How to: Copy and Paste Rows
+=======
 # Copy and Paste Rows
+>>>>>>> refs/remotes/origin/Update13
 You can use the shortcut menu to copy and paste rows from ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> to save time entering data.  
   
 ### To copy and paste rows  

@@ -15,7 +15,11 @@
     ms.author: sgroespe
 
 ---
+<<<<<<< HEAD
+# How to: View and Print Reports
+=======
 # View and Print Reports
+>>>>>>> refs/remotes/origin/Update13
 In ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]-->, there are many predefined reports that you can find in different ways:  
   
 -   Some pages contain a **Reports** menu with reports related to the page, and reports may also be accessed from the ribbon.  

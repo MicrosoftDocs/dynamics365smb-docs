@@ -16,7 +16,7 @@
 
 ---
 <<<<<<< HEAD
-# How to: View Notes and Notifications
+# View Notes and Notifications
 =======
 # View Notes and Notifications
 >>>>>>> refs/remotes/origin/Update13

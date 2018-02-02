@@ -16,7 +16,7 @@
 
 ---
 <<<<<<< HEAD:financials/LocalFunctionality/Netherlands/how-to-enter-and-post-cash-and-bank-or-giro-journals.md
-# How to: Enter and Post Cash and Bank or Giro Journals
+# Enter and Post Cash and Bank or Giro Journals
 =======
 # Enter and Post Cash and Bank or Giro Journals
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the cash and bank journals to enter the transactions that affect the cash and bank accounts by using **Cash Book** and **Bank Book**.  

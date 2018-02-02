@@ -16,7 +16,7 @@
 
 ---
 <<<<<<< HEAD:financials/LocalFunctionality/Germany/how-to-declare-vat-vies-tax.md
-# How to: Declare VAT-VIES Tax
+# Declare VAT-VIES Tax
 =======
 # Declare VAT-VIES Tax
 >>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Germany/how-to-declare-vat-vies-tax.md

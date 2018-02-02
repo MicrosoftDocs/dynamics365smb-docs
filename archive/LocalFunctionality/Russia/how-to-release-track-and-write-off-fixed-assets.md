@@ -17,7 +17,7 @@
 
 ---
 <<<<<<< HEAD
-# How to: Release, Track, and Write-Off Fixed Assets
+# Release, Track, and Write-Off Fixed Assets
 =======
 # Release, Track, and Write-Off Fixed Assets
 >>>>>>> refs/remotes/origin/Update13

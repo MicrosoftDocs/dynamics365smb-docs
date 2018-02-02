@@ -166,7 +166,7 @@ If you have set up the automatic cost adjustment to apply to postings that occur
 
 ## See Also
 <<<<<<< HEAD
-[How to: Adjust Item Costs](inventory-how-adjust-item-costs.md)  
+[Adjust Item Costs](inventory-how-adjust-item-costs.md)  
 [Design Details: Posting Date on Adjustment Value Entry](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  
 [Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md)  

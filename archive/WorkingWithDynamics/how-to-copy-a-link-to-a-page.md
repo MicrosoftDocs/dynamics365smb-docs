@@ -16,7 +16,7 @@
 
 ---
 <<<<<<< HEAD
-# How to: Copy a Link to a Page
+# Copy a Link to a Page
 =======
 # Copy a Link to a Page
 >>>>>>> refs/remotes/origin/Update13

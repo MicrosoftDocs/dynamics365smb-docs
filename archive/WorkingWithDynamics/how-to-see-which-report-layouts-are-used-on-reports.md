@@ -16,7 +16,7 @@
 
 ---
 <<<<<<< HEAD
-# How to: See Which Report Layouts are Used on Reports
+# See Which Report Layouts are Used on Reports
 =======
 # See Which Report Layouts are Used on Reports
 >>>>>>> refs/remotes/origin/Update13

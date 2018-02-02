@@ -16,7 +16,7 @@
 
 ---
 <<<<<<< HEAD
-# How to: Copy and Paste Rows
+# Copy and Paste Rows
 =======
 # Copy and Paste Rows
 >>>>>>> refs/remotes/origin/Update13

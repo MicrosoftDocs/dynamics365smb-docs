@@ -1,8 +1,8 @@
 ---
     title: Spain Local Functionality
-    description: The following topics describe the local functionality in the Spanish version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
+    description: The following topics describe the local functionality in the Spanish version of Finance and Operations, Business edition.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -42,3 +42,6 @@ The following topics describe local functionality that is unique to the Spanish 
 
 ## See Also
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)
+
+## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](../../includes/training_link_md.md)]

@@ -1,6 +1,6 @@
 ---
     title: Italy Local Functionality
-    description: The following topics describe the local functionality in the Italian version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
+    description: The following topics describe the local functionality in the Italian version of Finance and Operations, Business edition.
 
     services: project-madeira
     documentationcenter: ''
@@ -34,3 +34,6 @@ The following topics describe local functionality that is unique to the Italian 
 
 ## See Also
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
+
+## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](../../includes/training_link_md.md)]

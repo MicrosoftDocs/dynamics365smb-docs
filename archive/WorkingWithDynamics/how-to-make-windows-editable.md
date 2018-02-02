@@ -16,7 +16,7 @@
 
 ---
 <<<<<<< HEAD
-# How to: Make Windows Editable
+# Make Windows Editable
 =======
 # Make Windows Editable
 >>>>>>> refs/remotes/origin/Update13

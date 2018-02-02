@@ -16,7 +16,7 @@
 
 ---
 <<<<<<< HEAD
-# How to: View and Print Reports
+# View and Print Reports
 =======
 # View and Print Reports
 >>>>>>> refs/remotes/origin/Update13

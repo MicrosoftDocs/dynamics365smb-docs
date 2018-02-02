@@ -32,11 +32,11 @@ The following procedure describes how to create sales orders from archived blank
 ## See Also  
  [Enhanced Document Management](enhanced-document-management.md)   
 <<<<<<< HEAD:financials/LocalFunctionality/Austria/how-to-create-an-order-from-an-archived-blanket-order.md
- [How to: Set Up Automatic Archiving of Documents](how-to-set-up-automatic-archiving-of-documents.md)   
- [How to: Archive Blanket Orders](how-to-archive-blanket-orders.md)   
- [How to: Delete Archived Blanket Orders](how-to-delete-archived-blanket-orders.md)   
- [How to: Track Document Lines](how-to-track-document-lines.md)  
- [How to: Create Blanket Sales Orders](../../sales-how-to-create-blanket-sales-orders.md)
+ [Set Up Automatic Archiving of Documents](how-to-set-up-automatic-archiving-of-documents.md)   
+ [Archive Blanket Orders](how-to-archive-blanket-orders.md)   
+ [Delete Archived Blanket Orders](how-to-delete-archived-blanket-orders.md)   
+ [Track Document Lines](how-to-track-document-lines.md)  
+ [Create Blanket Sales Orders](../../sales-how-to-create-blanket-sales-orders.md)
 =======
  [Set Up Automatic Archiving of Documents](how-to-set-up-automatic-archiving-of-documents.md)   
  [Archive Blanket Orders](how-to-archive-blanket-orders.md)   

@@ -16,7 +16,7 @@
 
 ---
 <<<<<<< HEAD:financials/LocalFunctionality/Austria/how-to-create-a-vat-statement.md
-# How to: Create a VAT Statement
+# Create a VAT Statement
 =======
 # Create a VAT Statement
 >>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Austria/how-to-create-a-vat-statement.md

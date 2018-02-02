@@ -26,7 +26,7 @@ Fuel tax credits provide companies with a credit for the fuel tax (excise or cus
 
 For more information on fuel tax credits, see [Fuel Tax Credits](http://www.ato.gov.au/businesses/content.aspx?menuid=0&doc=/content/76594.htm&page=2&H2).  
 
-In this release, support has been added to [!INCLUDE[navnow](../../includes/navnow_md.md)] for two fields, which track and report fuel tax credits to the Australian Tax office (ATO).  
+In this release, support has been added to [!INCLUDE[d365fin](../../includes/d365fin_md.md)] for two fields, which track and report fuel tax credits to the Australian Tax office (ATO).  
 
 -   7C – Fuel Tax Credit Over Claim  
 -   7D – Fuel Tax Credit

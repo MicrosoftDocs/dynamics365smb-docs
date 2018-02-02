@@ -1,6 +1,6 @@
 ---
     title: Fixed Asset Charges
-    description: In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can use fixed asset charges to include additional charges on the purchase of fixed assets in the fixed asset acquisition cost.
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use fixed asset charges to include additional charges on the purchase of fixed assets in the fixed asset acquisition cost.
 
     services: project-madeira 
     documentationcenter: ''
@@ -17,7 +17,7 @@
 
 ---
 # Fixed Asset Charges
-In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can use fixed asset charges to include additional charges on the purchase of fixed assets in the fixed asset acquisition cost. For more information, see [Create a Fixed Asset Charge](how-to-create-a-fixed-asset-charge.md).  
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use fixed asset charges to include additional charges on the purchase of fixed assets in the fixed asset acquisition cost. For more information, see [Create a Fixed Asset Charge](how-to-create-a-fixed-asset-charge.md).  
 
 You can change the fixed asset acquisition cost in the following scenarios:  
 

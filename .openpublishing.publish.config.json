@@ -40,7 +40,7 @@
   "notification_subscribers": [
     "edupont@microsoft.com",
     "solsen@microsoft.com",
-    "sgroespe@microsoft.com"
+    "sgroespe@microsoft"
   ],
   "branches_to_filter": [],
   "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/dynamics365smb-docs",

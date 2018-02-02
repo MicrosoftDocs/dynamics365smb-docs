@@ -62,22 +62,22 @@ Thinking about subscribing? You can easily change from the demonstration company
 To create a company to try things out, go to the **My Settings** menu in the top right corner, and change the company to **My Company**. Sign out of [!INCLUDE[d365fin](includes/d365fin_md.md)] and then sign in again to apply the change. An assisted setup guide will help you provide basic information about your company. When that's done, explore the Home page and find the **Assisted Setup** action.  
 
 ## Ready to subscribe?
-Each time you sign in during the trial period, a notification in a blue bar at the top displays the time remaining. If you decide to subscribe, use the link in the notification to get in touch with Microsoft. You can also contact the [!INCLUDE[d365fin](includes/d365fin_md.md)] Sales team at [Microsoft Finance and Operations, Business edition ](https://go.microsoft.com/fwlink/?linkid=828707).  
+Each time you sign in during the trial period, a notification in a blue bar at the top displays the time remaining. If you decide to subscribe, use the link in the notification to get in touch with Microsoft. You can also contact the [!INCLUDE[d365fin](includes/d365fin_md.md)] Sales team](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 ## Other Finance and Operations, Business edition apps
-Navigate to content about the other Finance and Operations, Business edition apps by choosing the [Finance and Operations, Business edition](https://docs.microsoft.com/dynamics365) link in the blue banner at the top of this page. You can also learn more at the [Finance and Operations, Business edition website](https://www.microsoft.com/en-us/dynamics365/).  
+Navigate to content about the other Finance and Operations, Business edition apps by choosing the [Finance and Operations, Business edition](https://docs.microsoft.com/dynamics365) link in the blue banner at the top of this page. You can also learn more at the [Dynamics 365 for Finance and Operations, Business edition website](https://www.microsoft.com/en-us/dynamics365/).  
 
 If you are an accountant, you can sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] and have seamless integration with [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).
 
 ## See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Finance](finance.md)  
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as my Business Inbox in Outlook](madeira-outlook.md)  
 [Getting [!INCLUDE[d365fin](includes/d365fin_md.md)] on Your Mobile Device](install-mobile-app.md)  
-[Microsoft Finance and Operations, Business edition documentation](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
-[roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
+[Dynamics 365 Documentation](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
+[Finance and Operations, Business edition Roadmap](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
 [Microsoft Dynamics 365 for Finance and Operations, Business edition](https://go.microsoft.com/fwlink/?linkid=828707)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]

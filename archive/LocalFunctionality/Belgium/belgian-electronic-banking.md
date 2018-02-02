@@ -19,7 +19,7 @@
 # Belgian Electronic Banking
 Electronic banking allows you to electronically exchange data with Belgian financial institutions. Data can be exchanged either on disk, by modem, or via Interbanks Standards Association Belgium (Isabel). This way you can benefit from a faster processing time and avoid errors caused by manual data entry or processing.  
 
-In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can use electronic banking to perform the following functions:  
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use electronic banking to perform the following functions:  
 
 - Send electronic payments  
 - Process bank statements with CODA  

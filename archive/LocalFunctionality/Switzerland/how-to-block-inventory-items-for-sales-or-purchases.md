@@ -1,6 +1,6 @@
 ---
     title: How to Block Inventory Items for Sales or Purchases
-    description: In [!INCLUDE[navnow](../../includes/navnow_md.md)], an item can be marked as blocked for sales, blocked for purchase, or blocked for all purposes.
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], an item can be marked as blocked for sales, blocked for purchase, or blocked for all purposes.
 
     services: project-madeira 
     documentationcenter: ''
@@ -17,7 +17,7 @@
 
 ---
 # Block Inventory Items for Sales or Purchases
-In [!INCLUDE[navnow](../../includes/navnow_md.md)], an item can be marked as blocked for sales, blocked for purchase, or blocked for all purposes.  
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], an item can be marked as blocked for sales, blocked for purchase, or blocked for all purposes.  
 
 The following table illustrates what occurs when items are blocked.  
 

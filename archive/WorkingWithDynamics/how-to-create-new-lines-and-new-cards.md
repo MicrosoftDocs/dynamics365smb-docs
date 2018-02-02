@@ -1,6 +1,6 @@
 ---
     title: How to Create New Lines and New Cards | Microsoft Docs
-    description: ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> lets you work with windows in three different modes: view, edit, and new. The mode appears in the window caption, before the window name. For example, **View - Customer Card - 10000 The Cannon Group PLC**.
+    description: ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> lets you work with windows in three different modes: view, edit, and new. The mode appears in the window caption, before the window name. For example, **View - Customer Card - 10000 The Cannon Group PLC**.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # Create New Lines and New Cards
-ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> lets you work with windows in three different modes: view, edit, and new. The mode appears in the window caption, before the window name. For example, **View - Customer Card - 10000 The Cannon Group PLC**.  
+ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> lets you work with windows in three different modes: view, edit, and new. The mode appears in the window caption, before the window name. For example, **View - Customer Card - 10000 The Cannon Group PLC**.  
   
  This topic describes how to create a new line in a window, and how to open a window in New mode.  
   

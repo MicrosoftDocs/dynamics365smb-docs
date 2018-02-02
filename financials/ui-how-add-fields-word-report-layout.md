@@ -33,7 +33,7 @@ A report dataset can consist of fields that display labels, data, and images. Th
   
 3.  On the **Developer** tab, choose **XML Mapping Pane**.  
   
-4.  In the **XML Mapping** pane, in the **Custom XML Part** dropdown list, choose the custom XML part for ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> report, which is typically last in the list. The name of the custom XML part has the following format:  
+4.  In the **XML Mapping** pane, in the **Custom XML Part** dropdown list, choose the custom XML part for ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> report, which is typically last in the list. The name of the custom XML part has the following format:  
   
      urn:microsoft-dynamics-nav/reports/*report_name*/*ID*  
   
@@ -76,7 +76,7 @@ A report dataset can consist of fields that display labels, data, and images. Th
  Images align in the top-left corner of the content control and resize automatically in proportion to fit the boundary of the content control.  
   
 > [!IMPORTANT]  
->  You can only add images that have a format that is supported by Word, such as .bmp, .jpeg, and .png file types. If you add an image that has a format that is not supported by Word, you will get an error when you run the report from the ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> client.  
+>  You can only add images that have a format that is supported by Word, such as .bmp, .jpeg, and .png file types. If you add an image that has a format that is not supported by Word, you will get an error when you run the report from the ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> client.  
   
 #### To add an image  
   

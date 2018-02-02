@@ -1,6 +1,6 @@
 ---
     title: How to Create Corrective Documents
-    description: In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can create corrective invoices and credit memos to reflect a change in the invoiced amount or quantity.
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create corrective invoices and credit memos to reflect a change in the invoiced amount or quantity.
 
     services: project-madeira 
     documentationcenter: ''
@@ -17,7 +17,7 @@
 
 ---
 # Create Corrective Documents
-In [!INCLUDE[navnow](../../includes/navnow_md.md)], you can create corrective invoices and credit memos to reflect a change in the invoiced amount or quantity.  
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create corrective invoices and credit memos to reflect a change in the invoiced amount or quantity.  
 
  You can also create revision documents if you discover a mistake in an issued invoice or credit memo.  
 
@@ -83,7 +83,7 @@ The following procedure describes how to create a revision for a posted sales in
     |**Corrective Doc. Type**|Choose **Revision** to make this a revision document.|  
     |**Corrected Doc. Type**|Specify if the original document was an invoice or a credit memo.|  
     |**Corrected Doc. No.**|Specify the original document.<br /><br /> Depending on the value of the **Corrected Doc. Type** field, you can select a posted invoice or a posted credit memo.|  
-    |**Revision No.**|Specify a revision number.<br /><br /> The revision number is not used by [!INCLUDE[navnow](../../includes/navnow_md.md)], but it is included in the printed document.|  
+    |**Revision No.**|Specify a revision number.<br /><br /> The revision number is not used by [!INCLUDE[d365fin](../../includes/d365fin_md.md)], but it is included in the printed document.|  
 
 6.  Make the relevant changes to the document lines.  
 7.  Post the document.  

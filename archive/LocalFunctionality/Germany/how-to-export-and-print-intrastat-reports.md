@@ -18,7 +18,7 @@
 # Export and Print Intrastat Reports
 Intrastat reporting is required throughout the European Union (EU) and must follow local requirements, such as specific formats and files. All companies in the EU must report their trade with other EU countries. The movement of goods must be reported to the statistics authorities (Statistisches Bundesamt) every month, and a report must be delivered to the tax authorities.  
 
- For Intrastat reporting, you must provide paper reports and files, which must be in ASCII format for Germany. [!INCLUDE[navnow](../../includes/navnow_md.md)] includes reports and batch jobs that generate all of the information that must be sent to the German tax authorities. This information automatically includes both receipt and delivery of goods. The Intrastat file contains information from the lines in the **Intrastat** journal.  
+ For Intrastat reporting, you must provide paper reports and files, which must be in ASCII format for Germany. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] includes reports and batch jobs that generate all of the information that must be sent to the German tax authorities. This information automatically includes both receipt and delivery of goods. The Intrastat file contains information from the lines in the **Intrastat** journal.  
 
 ## To print the German Intrastat checklist  
 

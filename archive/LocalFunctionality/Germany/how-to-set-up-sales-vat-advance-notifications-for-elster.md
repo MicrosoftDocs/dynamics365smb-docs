@@ -1,6 +1,6 @@
 ---
     title: How to Set Up Sales VAT Advance Notifications for ELSTER
-    description: In [!INCLUDE[navnow](../../includes/navnow_md.md)], to submit valid sales VAT advance notifications to the ELSTER portal, you must perform certain setup.
+    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], to submit valid sales VAT advance notifications to the ELSTER portal, you must perform certain setup.
 
     services: project-madeira 
     documentationcenter: ''
@@ -17,7 +17,7 @@
 
 ---
 # Set Up Sales VAT Advance Notifications for ELSTER
-In [!INCLUDE[navnow](../../includes/navnow_md.md)], to submit valid sales VAT advance notifications to the ELSTER portal, you must set up the following:  
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], to submit valid sales VAT advance notifications to the ELSTER portal, you must set up the following:  
 
 - The company registration information and tax office information.  
 - The number series for sales VAT advance notification.  

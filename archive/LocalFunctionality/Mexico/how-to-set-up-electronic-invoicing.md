@@ -2,7 +2,7 @@
     title: How to Set Up Electronic Invoicing
     description: Before you can send electronic documents, you must set up [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to ensure that the tax identification number (RFC), personal identification number (CURP), and state inscription IDs are available for your company and all your customers and vendors.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 

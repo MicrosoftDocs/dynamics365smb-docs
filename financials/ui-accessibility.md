@@ -16,7 +16,9 @@ ms.author: edupont
 # Accessibility and Keyboard Shortcuts in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 This topic provides information about the features that make [!INCLUDE[d365fin](includes/d365fin_md.md)] readily available to people with disabilities. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the following accessibility features:  
 
--   Keyboard shortcuts  
+-   Keyboard shortcuts
+
+    For more information, see [Keyboard Shortcuts](keyboard-shortcuts.md)
 
 -   Navigation  
 
@@ -26,6 +28,7 @@ This topic provides information about the features that make [!INCLUDE[d365fin](
 
 -   Support for common assistive technologies  
 
+<!-- moved to separate article
 ##  <a name="Keyboard"></a> Keyboard Shortcuts in the browser
  [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the keyboard shortcuts that are supported by most web browsers. The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.  
 
@@ -38,6 +41,8 @@ This topic provides information about the features that make [!INCLUDE[d365fin](
 |To open a drop-down list or look up a value for a field.|Alt+Down Arrow|  
 |To move focus to the next element outside the list.|Ctrl + Enter|  
 |To see the transactions that resulted in a calculated value in a field.|Alt+Right Arrow|  
+
+-->
 
 ##  <a name="Navigation"></a> Navigation  
  You can navigate between the tabs and actions in the ribbon, elements in the navigation pane, and other controls on [!INCLUDE[d365fin](includes/d365fin_md.md)] pages and reports using the keyboard. To move the focus from one tab, action, or control to another, press the Tab key to move forward. Press Shift+Tab to move backward.  

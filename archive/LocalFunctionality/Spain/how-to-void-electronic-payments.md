@@ -2,7 +2,7 @@
     title: How to Void Electronic Payments
     description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can void the exported payment file. By voiding the file, the entire payment journal from which the file was created, will be deleted.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 

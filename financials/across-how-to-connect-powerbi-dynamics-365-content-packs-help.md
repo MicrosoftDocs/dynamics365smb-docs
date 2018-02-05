@@ -42,25 +42,25 @@ Getting insights into your Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin
 ## System Requirements
 To import your [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] data into Power BI, you need to have permissions to the web services used to retrieve data. The web services required for each content pack include:
 
-**Microsoft Dynamics 365, Business edition for Finance and Operations – CRM**
+**Microsoft Dynamics 365 for Finance and Operations, Business edition – CRM**
 - SalesOpportunities
 - ExcelTemplateViewCompany
 
-**Microsoft Dynamics 365, Business edition for Finance and Operations – Sales**
+**Microsoft Dynamics 365 for Finance and Operations, Business edition – Sales**
 - ItemSalesbyCustomer
 - SalesDashboard
 - ExcelTemplateViewCompany
 
-**Microsoft Dynamics 365, Business edition for Finance and Operations – Finance**
+**Microsoft Dynamics 365 for Finance and Operations, Business edition – Finance**
 - PowerBIFinance
 - ExcelTemplateViewCompany
 
-**Microsoft Dynamics 365, Business edition for Finance and Operations – Jobs**
+**Microsoft Dynamics 365 for Finance and Operations, Business edition – Jobs**
 - Job List
 - Job Planning Lines
 - Job Task Lines
 
-**Microsoft Dynamics 365, Business edition for Finance and Operations – Customers List**
+**Microsoft Dynamics 365 for Finance and Operations, Business edition – Customers List**
 - ItemSalesbyCustomer
 - Power_BI_Item_Purchase_List
 - Power_BI_Item_Sales_List
@@ -68,7 +68,7 @@ To import your [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] data int
 - Power_BI_Customer_List
 - ExcelTemplateViewCompany
 
-**Microsoft Dynamics 365, Business edition for Finance and Operations – Items List**
+**Microsoft Dynamics 365 for Finance and Operations, Business edition – Items List**
 - ItemSalesbyCustomer
 - Power_BI_Item_Purchase_List
 - Power_BI_Item_Sales_List
@@ -76,7 +76,7 @@ To import your [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] data int
 - SalesDashboard
 - ExcelTemplateViewCompany
 
-**Microsoft Dynamics 365, Business edition for Finance and Operations – Vendors List**
+**Microsoft Dynamics 365 for Finance and Operations, Business edition – Vendors List**
 - ItemSalesbyCustomer
 - Power_BI_Item_Purchase_List
 - Power_BI_Item_Sales_List

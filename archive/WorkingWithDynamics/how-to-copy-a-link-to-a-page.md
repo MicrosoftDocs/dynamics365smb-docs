@@ -1,6 +1,6 @@
 ---
     title: How to Copy a Link to a Page | Microsoft Docs
-    description: All pages have a **Copy Link to Page** action that you can use to save a link to a specific page in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->. You can then share these pages across your company. The link text is the same as the page header text.
+    description: All pages have a **Copy Link to Page** action that you can use to save a link to a specific page in ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]-->. You can then share these pages across your company. The link text is the same as the page header text.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -15,8 +15,12 @@
     ms.author: sgroespe
 
 ---
+<<<<<<< HEAD
 # Copy a Link to a Page
-All pages have a **Copy Link to Page** action that you can use to save a link to a specific page in ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->. You can then share these pages across your company. The link text is the same as the page header text.  
+=======
+# Copy a Link to a Page
+>>>>>>> refs/remotes/origin/Update13
+All pages have a **Copy Link to Page** action that you can use to save a link to a specific page in ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]-->. You can then share these pages across your company. The link text is the same as the page header text.  
   
 > [!WARNING]  
 >  Some page links are longer than 255 characters, which is the maximum length for the Windows **Run** menu. A link longer than 255 characters cannot be run from the **Run** menu.  
@@ -31,7 +35,7 @@ All pages have a **Copy Link to Page** action that you can use to save a link to
   
 4.  Paste the copied link in the new document.  
   
- If your text editor supports clickable hyperlinks, then the text of the pasted link is **Customers**. Select the link to open ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->. The **Customers** window opens in a separate window.  
+ If your text editor supports clickable hyperlinks, then the text of the pasted link is **Customers**. Select the link to open ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]-->. The **Customers** window opens in a separate window.  
   
  If your text editor does not support clickable hyperlinks, then the text of the pasted link is the URL to the **Customers** page.  
   

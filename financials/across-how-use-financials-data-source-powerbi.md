@@ -1,5 +1,5 @@
 ---
-title: Setup Reporting for Dynamics 365, Business edition in Power BI | Microsoft Docs
+title: Setup Reporting for Finance and Operations, Business edition in Power BI | Microsoft Docs
 description: You can make your Financials data available as a data source in Power BI and build powerful reports of the state of your business.
 author: edupont04
 
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 12/19/2017
+ms.date: 12/21/2017
 ms.author: edupont
 
 ---
@@ -31,7 +31,7 @@ You can make your [!INCLUDE[d365fin](includes/d365fin_md.md)] data available as 
 > [!NOTE]  
 > Once you have successfully connected to [!INCLUDE[d365fin](includes/d365fin_md.md)], you will not be prompted again to sign in.
 
-Once the data is loaded it will appear in the right navigation on the page. At this point, you have successfully connected to your Dynamics 365, Business edition data and are ready to begin building your Power BI report. For more information, see the [Power BI documentation](https://powerbi.microsoft.com/documentation/powerbi-landing-page/).
+Once the data is loaded it will appear in the right navigation on the page. At this point, you have successfully connected to your Finance and Operations, Business edition data and are ready to begin building your Power BI report. For more information, see the [Power BI documentation](https://powerbi.microsoft.com/documentation/powerbi-landing-page/).
 
 ## See Also
 [Business Intelligence](bi.md)  

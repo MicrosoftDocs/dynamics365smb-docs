@@ -1,6 +1,6 @@
 ---
 title: Financials accountant experience | Microsoft Docs
-description: Learn about the accountant portal for Dynamics 365, Business edition and the Accountant Role Center that supports internal and external accountants in the client company.
+description: Learn about the accountant portal for Finance and Operations, Business edition and the Accountant Role Center that supports internal and external accountants in the client company.
 author: edupont04
 
 ms.service: dynamics365-financials
@@ -35,4 +35,4 @@ If you are an accountant with several clients, you can use [!INCLUDE[d365acc_lon
 [Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md)  
 [Invite Your External Accountant to Your [!INCLUDE[d365fin](includes/d365fin_md.md)]](finance-invite-external-accountant.md)  
 [Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index)  
-[Financials for Accountants on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
+[Dynamics 365 - Accountant Hub on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  

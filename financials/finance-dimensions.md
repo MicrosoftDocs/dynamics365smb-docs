@@ -85,7 +85,7 @@ To avoid posting entries with contradictory or irrelevant dimensions, you can bl
     |Field|Description|
     |----------------------------------|---------------------------------------|  
     |**No limitation**|This dimension combination has no restrictions. All dimensions values are allowed.|  
-    |**Limit**|This dimension combination has restrictions depending on which dimension values that you enter. You must define the limitations in the **Dimension Value Combination** window.|  
+    |**Limited**|This dimension combination has restrictions depending on which dimension values that you enter. You must define the limitations in the **Dimension Value Combination** window.|  
     |**Blocked**|This dimension combination is not allowed.|  
 
 3.  If you selected the **Limited** option, you must define which combinations of dimension values are blocked. To do this, choose the field to define the dimension combination.  

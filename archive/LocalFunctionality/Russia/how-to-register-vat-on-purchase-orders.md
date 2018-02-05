@@ -1,8 +1,8 @@
 ---
     title: How to Register VAT on Purchase Orders
-    description: In Russia, organizations are required to keep a journal of received and issued VAT invoices. [!INCLUDE[navnow](../../includes/navnow_md.md)] enables you to register VAT on purchase orders so that the information is tracked in the VAT invoices journal.
+    description: In Russia, organizations are required to keep a journal of received and issued VAT invoices. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] enables you to register VAT on purchase orders so that the information is tracked in the VAT invoices journal.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -17,7 +17,7 @@
 
 ---
 # Register VAT on Purchase Orders
-In Russia, organizations are required to keep a journal of received and issued VAT invoices. [!INCLUDE[navnow](../../includes/navnow_md.md)] enables you to register VAT on purchase orders so that the information is tracked in the VAT invoices journal.  
+In Russia, organizations are required to keep a journal of received and issued VAT invoices. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] enables you to register VAT on purchase orders so that the information is tracked in the VAT invoices journal.  
 
 ## To register VAT on a purchase order  
 

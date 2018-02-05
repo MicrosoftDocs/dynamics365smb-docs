@@ -1,6 +1,6 @@
 ---
     title: Design Details | Microsoft Docs
-    description: This content contains detailed technical information about complex application features in Dynamics 365, Business edition.
+    description: This content contains detailed technical information about complex application features in Finance and Operations, Business edition.
     author: SorenGP
 
     ms.service: dynamics365-financials
@@ -33,3 +33,6 @@ This content contains detailed technical information about complex application f
  [Warehouse Management](warehouse-manage-warehouse.md)   
  [Setting Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+
+ ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+ ## [!INCLUDE[d365fin](includes/training_link_md.md)]

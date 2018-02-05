@@ -2,7 +2,7 @@
     title: How to Define an Account Schedule Constant
     description: Russian enhancements enable you to define a constant for an account schedule line. Constants are useful if an account schedule value does not change.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -17,7 +17,7 @@
 
 ---
 # Define an Account Schedule Constant
-[!INCLUDE[navnow](../../includes/navnow_md.md)] enables you to define a constant for an account schedule line. Constants are useful if an account schedule value does not change.  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] enables you to define a constant for an account schedule line. Constants are useful if an account schedule value does not change.  
 
 ## To define an account schedule constant  
 

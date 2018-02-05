@@ -2,7 +2,7 @@
     title: How to Set Up Vendors for Remittance
     description: Norwegian enhancements include automatically making payments to vendors. This reduces errors that occur from manual data entry. To pay vendors using the remittance system, you must set up vendor information.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -17,7 +17,7 @@
 
 ---
 # Set Up Vendors for Remittance
-[!INCLUDE[navnow](../../includes/navnow_md.md)] includes Norwegian enhancements for automatically making payments to vendors. This reduces errors that occur from manual data entry. To pay vendors using the remittance system, you must set up vendor information.  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] includes Norwegian enhancements for automatically making payments to vendors. This reduces errors that occur from manual data entry. To pay vendors using the remittance system, you must set up vendor information.  
 
 ## To set up a vendor for remittance  
 

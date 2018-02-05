@@ -1,6 +1,6 @@
 ---
-title: Import Your Legacy Business Data into Dynamics 365, Business edition | Microsoft Docs
-description: You can migrate data for customers, vendors, and inventory, for example, from Excel, QuickBooks, or Dynamics GP, into Dynamics 365, Business edition.
+title: Import Your Legacy Business Data into Finance and Operations, Business edition | Microsoft Docs
+description: You can migrate data for customers, vendors, and inventory, for example, from Excel, QuickBooks, or Dynamics GP, into Finance and Operations, Business edition.
 author: edupont04
 
 ms.service: dynamics365-financials
@@ -43,4 +43,5 @@ For more information, see [QuickBooks Desktop Data Migration](ui-extensions-quic
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)   
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]

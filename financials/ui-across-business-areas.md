@@ -1,6 +1,6 @@
 ---
 title: Using General Functionality Across Business Areas | Microsoft Docs
-description: Learn about the functionality and features that are used across business areas in Dynamics 365, Business edition .
+description: Learn about the functionality and features that are used across business areas in Finance and Operations, Business edition .
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -40,3 +40,6 @@ The following table lists these general business areas with links to topics that
 
 ## See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]

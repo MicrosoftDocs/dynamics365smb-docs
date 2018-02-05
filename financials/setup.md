@@ -1,6 +1,6 @@
 ---
-title: Overview of Tasks to Set Up Dynamics 365, Business edition | Microsoft Docs
-description: Outlines tasks to set up, initialize, and configure Dynamics 365, Business edition to suit your needs.
+title: Overview of Tasks to Set Up Finance and Operations, Business edition | Microsoft Docs
+description: Outlines tasks to set up, initialize, and configure Finance and Operations, Business edition to suit your needs.
 author: edupont04
 
 ms.service: dynamics365-financials
@@ -54,4 +54,5 @@ Some areas require you to be an administrator in your [!INCLUDE[d365fin](include
 [Creating New Companies in [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
 [Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]

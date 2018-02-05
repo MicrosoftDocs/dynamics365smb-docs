@@ -1,6 +1,6 @@
 ---
     title: Exchange Data | Microsoft Docs
-    description: You can exchange data between Dynamics 365, Business edition and external files or streams in connection with common business tasks, such as sending and receiving electronic documents and importing and exporting bank files.
+    description: You can exchange data between Finance and Operations, Business edition and external files or streams in connection with common business tasks, such as sending and receiving electronic documents and importing and exporting bank files.
     author: SorenGP
 
     ms.service: dynamics365-financials

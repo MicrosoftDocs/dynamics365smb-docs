@@ -1,6 +1,6 @@
----
+
 title: Welcome | Microsoft Docs
-description: Outlines the assisted setup guides, videos, help topics, and pages and windows to use to get ready for doing business in Dynamics 365, Business edition .
+description: Outlines the assisted setup guides, videos, help topics, and pages and windows to use to get ready for doing business in Finance and Operations, Business edition .
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 
@@ -21,7 +21,7 @@ To help you get ready for doing business, you can visit the **Business Assistanc
 On the Home page, at the bottom of the navigation pane, you will find the **Setup and Extensions** menu. Expand the **Home** button to see the navigation pane. Here you have access to a list of assisted setup that can help you get started. Once you have migrated data such as vendors, customers, and items from your existing financial system, you are ready to begin. But depending on your needs, consider if the other assisted setup can help you. If an area is not covered by an assisted setup, choose the **Manual Setup** action to access setup windows where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
 > [!NOTE]  
->   The list of setup guides, extensions, and services that are available differ depending on the user experience you choose for your company. The **Basic** experience gives access to fewer than the **Suite** experience does. The first time you sign in, you use the Basic experience. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
+>   The list of setup guides, extensions, and services that are available differ depending on the user experience you choose for your company. The **Basic** experience gives access to fewer than the **Essential** experience does. The first time you sign in, you use the Basic experience. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
 In the **Assisted Setup** window, you will find the following with the **Basic** experience:
 
@@ -34,7 +34,7 @@ In the **Assisted Setup** window, you will find the following with the **Basic**
 | Set Up Office Add-Ins |Sets up the ability to use and launch [!INCLUDE[d365fin](includes/d365fin_md.md)] from Outlook. |
 | Set Up Approval Workflow |Sets up the ability to automatically notify an approver when a user tries to create or change certain values on documents, journal lines, or cards, such as an amount above a specified limit. |
 | Set Up Email Logging |Sets up the capability to log email correspondence in [!INCLUDE[d365fin](includes/d365fin_md.md)] to follow up on interactions. |
-| Set Up Dynamics 365, Business edition Connector |Sets up a connection to Dynamics 365 for Sales which allows you to synchronize data such as contacts and sales order information. |
+| Set Up the Finance and Operations, Business edition Connector |Sets up a connection to Dynamics 365 for Sales which allows you to synchronize data such as contacts and sales order information. |
 
 When you have run an assisted setup, it is marked as **Completed**. To run the assisted setup, you choose the three dots also called the context menu, and then you select **Start Setup**.
 
@@ -57,3 +57,6 @@ Based on your migrated data, you can now proceed to create new sales or purchase
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Manage Users and Permissions](ui-how-users-permissions.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]

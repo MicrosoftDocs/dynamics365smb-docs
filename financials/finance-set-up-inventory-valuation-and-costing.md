@@ -35,5 +35,5 @@ The following table describes a sequence of tasks, with links to the topics that
 
 ## See Also  
 [Managing Inventory Costs](finance-manage-inventory-costs.md)  
-[Working with Dynamics 365, Business edition](ui-work-product.md)  
+[Working with Finance and Operations, Business edition](ui-work-product.md)  
 [Finance](finance.md)  

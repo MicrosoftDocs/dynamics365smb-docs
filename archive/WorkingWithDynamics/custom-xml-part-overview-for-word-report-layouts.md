@@ -1,6 +1,6 @@
 ---
     title: Custom XML Part Overview for Word Report Layouts | Microsoft Docs
-    description: Word report layouts are built on *custom XML parts*. A custom XML part is structured XML that represents the dataset of a ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> client.
+    description: Word report layouts are built on *custom XML parts*. A custom XML part is structured XML that represents the dataset of a ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> client.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # Custom XML Part Overview for Word Report Layouts
-Word report layouts are built on *custom XML parts*. A custom XML part is structured XML that represents the dataset of a ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> client.  
+Word report layouts are built on *custom XML parts*. A custom XML part is structured XML that represents the dataset of a ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> client.  
   
 ## XML Structure of Custom XML Part  
  A custom XML part for a ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/nav_dev_long_md.md)]-->.  

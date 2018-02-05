@@ -1,8 +1,8 @@
 ---
     title: How to Set Up Operation Codes
-    description: You can add as many operation codes as you want to the table. However, the operation codes C, D, and I already exist in [!INCLUDE[navnow](../../includes/navnow_md.md)].
+    description: You can add as many operation codes as you want to the table. However, the operation codes C, D, and I already exist in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -17,7 +17,7 @@
 
 ---
 # Set Up Operation Codes
-You can add as many operation codes as you want to the table. However, the operation codes C, D, and I already exist in [!INCLUDE[navnow](../../includes/navnow_md.md)]. For example, Credit Memos always have the operation code D. You cannot set up these values in the table because they are system-created codes. If you try to add them, [!INCLUDE[navnow](../../includes/navnow_md.md)] will return an error.  
+You can add as many operation codes as you want to the table. However, the operation codes C, D, and I already exist in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. For example, Credit Memos always have the operation code D. You cannot set up these values in the table because they are system-created codes. If you try to add them, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] will return an error.  
 
 ## To set up operation codes  
 

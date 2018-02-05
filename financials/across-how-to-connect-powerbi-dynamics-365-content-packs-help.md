@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 01/29/2018
+ms.date: 02/05/2018
 ms.author: solsen
 
 ---
@@ -42,22 +42,50 @@ Getting insights into your Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin
 ## System Requirements
 To import your [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] data into Power BI, you need to have permissions to the web services used to retrieve data. The web services required for each content pack include:
 
-**Microsoft Dynamics 365 for Finance and Operations – CRM**
+**Microsoft Dynamics 365, Business edition for Finance and Operations – CRM**
 - SalesOpportunities
+- ExcelTemplateViewCompany
 
-**Microsoft Dynamics 365 for Finance and Operations – Sales**
+**Microsoft Dynamics 365, Business edition for Finance and Operations – Sales**
+- ItemSalesbyCustomer
+- SalesDashboard
+- ExcelTemplateViewCompany
+
+**Microsoft Dynamics 365, Business edition for Finance and Operations – Finance**
+- PowerBIFinance
+- ExcelTemplateViewCompany
+
+**Microsoft Dynamics 365, Business edition for Finance and Operations – Jobs**
+- Job List
+- Job Planning Lines
+- Job Task Lines
+
+**Microsoft Dynamics 365, Business edition for Finance and Operations – Customers List**
 - ItemSalesbyCustomer
 - Power_BI_Item_Purchase_List
 - Power_BI_Item_Sales_List
 - SalesDashboard
+- Power_BI_Customer_List
+- ExcelTemplateViewCompany
 
-**Microsoft Dynamics 365 for Finance and Operations – Finance**
-- PowerBIFinance
+**Microsoft Dynamics 365, Business edition for Finance and Operations – Items List**
+- ItemSalesbyCustomer
+- Power_BI_Item_Purchase_List
+- Power_BI_Item_Sales_List
+- Items
+- SalesDashboard
+- ExcelTemplateViewCompany
 
-**Microsoft Dynamics 365 for Finance and Operations – Jobs**
-- Job List
-- Job Planning Lines
-- Job Task Lines
+**Microsoft Dynamics 365, Business edition for Finance and Operations – Vendors List**
+- ItemSalesbyCustomer
+- Power_BI_Item_Purchase_List
+- Power_BI_Item_Sales_List
+- Items
+- SalesDashboard
+- Power_BI_Customer_List
+- ItemSalesbyCustomer
+- Power_BI_Vendor_List
+- ExcelTemplateViewCompany
 
 ## Web Services
 An easy way to find the web services is to search for web services in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. In the list make sure the Publish box is marked for the web services listed above.

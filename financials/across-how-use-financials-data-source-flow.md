@@ -25,9 +25,6 @@ You can use your [!INCLUDE[d365fin](includes/d365fin_md.md)] data as part of a w
 2. Choose **My Flows** from the ribbon at the top of the page.
 3. In the **My Flows** window, choose the **Create from blank** option.
 4. From the list of available triggers, select one of the [!INCLUDE[d365fin](includes/d365fin_md.md)] triggers available:  
-    *When a record is created*,  
-    *When a record is deleted*,  
-    *When a record is modified*,  
     *When a customer approval is requested*,  
     *When a general journal batch approval is requested*,  
     *When a general journal line approval is requested*,  
@@ -35,11 +32,7 @@ You can use your [!INCLUDE[d365fin](includes/d365fin_md.md)] data as part of a w
     *When a purchase document approval is requested*,  
     *When a sales document approval is requested*, or  
     *When a vendor aproval is requested*.
-5. Flow will prompt you for the information that is required to connect to your [!INCLUDE[d365fin](includes/d365fin_md.md)] data. If you selected one of the following triggers: *When a record is created*, *When a record is modified*, or *When a record is deleted*, you must select a company name and table name. With any other trigger, only the company name is required to connect.
-
-   Flow will show a list of companies and tables that are available from [!INCLUDE[d365fin](includes/d365fin_md.md)]. These tables, or end points, represent all the web services that you have published from [!INCLUDE[d365fin](includes/d365fin_md.md)].
-
-   Alternatively, create a new web service URL in [!INCLUDE[d365fin](includes/d365fin_md.md)] by using the **Create Data Set** action in the **Web Services** page, using the **Set Up Reporting** Assisted Setup guide, or by choosing the **Edit in Excel** action in any lists.
+5. Flow will prompt you to select a company within your [!INCLUDE[d365fin](includes/d365fin_md.md)] tenant. Because each step in the Flow is independent of the next, you may be required to define the company multiple times when using a [!INCLUDE[d365fin](includes/d365fin_md.md)] template.
 
 At this point, you have successfully connected to your Finance and Operations, Business edition data and are ready to begin building your flow. For more information, see the [Flow documentation](https://flow.microsoft.com/documentation/getting-started/).
 

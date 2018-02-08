@@ -99,7 +99,10 @@ A common mistake is to enter the company display name instead of the company nam
 ### Incorrect User Name and Password  
 The user name and password used to connect will be the same as what is used to connect to your Microsoft Office 365 account.  
 
-The content packs also require that you have a Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] account.  Once you enter your credentials, we will auto discover any Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] tenants you have access to.  If you do not have a licensed or trial Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] account, you will receive an error message.
+The content packs also require that you have a Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] account. Once you enter your credentials, we will auto discover any Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] tenants you have access to. If you do not have a licensed or trial Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] account, you will receive an error message.
+
+### The Key Didn't Match Any Rows in the Table
+If you enter a non valid company name during the connection process, you may get the error message "The key didn't match any rows in the table". Provide the correct company name and try connecting again.
 
 ## See Also
 [Get started with Power BI](https://docs.microsoft.com/en-us/power-bi/service-get-started)  

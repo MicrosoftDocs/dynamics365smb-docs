@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 02/20/2018
     ms.author: sgroespe
 
 ---
@@ -24,7 +24,7 @@ The following topics describe local functionality that is unique to the German v
   [Process for Data Access and Testability of Digital Documents (GDPdU)](process-for-data-access-and-testability-of-digital-documents-gdpdu-.md)  
   [Physical Inventory Documents](physical-inventory-documents.md)  
   [VAT Reporting](vat-reporting.md)  
-  [ELSTER Transmission Overview](elster-transmission-overview.md)
+  [ELSTER Transmission Overview](elster-transmission-overview.md)  
   [Electronic Submission of Sales VAT Advance Notifications to ELSTER](electronic-submission-of-sales-vat-advance-notifications-to-elster.md)  
   [Currency Exchange Rates](currency-exchange-rates.md)  
   [Print General Ledger Setup Information](how-to-print-general-ledger-setup-information.md)  

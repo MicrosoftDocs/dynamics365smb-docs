@@ -1,6 +1,6 @@
 ---
-    title: How to Export GDPdU Data
-    description: You can export financial data and tax data according to the process for data access and testability of digital documents (GDPdU). You can also select various options to be included in an XML file.
+    title: How to Export Data for a Digital Audit
+    description: You can export financial data and tax data according to the process for digital audits (GoBD/GDPdU), which is based on German tax law. You can also select various options to be included in an XML file.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -11,20 +11,20 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 02/23/2018
     ms.author: sgroespe
 
 ---
-# Export GDPdU Data
-You can export financial data and tax data according to the process for data access and testability of digital documents (GDPdU). You can also select various options to be included in an XML file.  
+# Export Data for a Digital Audit
+You can export financial data and tax data according to the process for digital audits (GoBD/GDPdU). You can also select various options to be included in an XML file.  
 
- If there is no data to export, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] creates empty files.  
+If there is no data to export, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] creates empty files.  
 
-### To export GDPdU data  
+### To export data for a digital audit
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Export Business Data**, and then choose the related link.  
 
-2.  In the **GDPdU Export** window, on the **Options** FastTab, fill in the fields as described in the following table.  
+2.  In the **Data Export** window, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Option|Description|  
     |----------------------------------|---------------------------------------|  
@@ -32,7 +32,7 @@ You can export financial data and tax data according to the process for data acc
     |**Ending Date**|Specifies the end date for the data export.|  
     |**Include Closing Date**|Specifies if the data export must include the closing date for the period.|  
 
-3.  On the **Data Export Record Definition** FastTab, select the appropriate filters to identify the data export and data export record type. For more information, see [Process for Data Access and Testability of Digital Documents (GDPdU)](process-for-data-access-and-testability-of-digital-documents-gdpdu-.md).  
+3.  On the **Data Export Record Definition** FastTab, select the appropriate filters to identify the data export and data export record type. For more information, see [Process for Digital Audits (GoBD/GDPdU)](process-for-digital-audits.md).  
 
 4.  To export the data, choose the **OK** button.  
 
@@ -42,4 +42,4 @@ You can export financial data and tax data according to the process for data acc
  You will be notified when the export completes. If you cancel the export, or if you close the window, you will also be notified that the export has completed, but the log folder will be empty. However, depending on your configuration, some files may have been exported, but the export might not be complete.  
 
 ## See Also  
- [Process for Data Access and Testability of Digital Documents (GDPdU)](process-for-data-access-and-testability-of-digital-documents-gdpdu-.md)
+[Process for Digital Audits (GoBD/GDPdU)](process-for-digital-audits.md)

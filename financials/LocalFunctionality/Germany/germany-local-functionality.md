@@ -31,7 +31,6 @@ The following topics describe local functionality that is unique to the German v
   [Set Up Reports for VAT and Intrastat](how-to-set-up-reports-for-vat-and-intrastat.md)  
   [Post a Negative Entry](how-to-post-a-negative-entry.md)  
   [Copy Existing Items to New Items](how-to-copy-existing-items-to-new-items.md)  
-  [Block Shipment for Negative Inventory](how-to-block-shipment-for-negative-inventory.md)  
   [Include Company Registration Numbers on Sales Reports and Purchase Reports](how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md)  
   [Export and Print Intrastat Reports](how-to-export-and-print-intrastat-reports.md)  
   [Print Sales and Purchase Orders During Batch Posting](how-to-print-sales-and-purchase-orders-during-batch-posting.md)  

@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 02/23/2018
     ms.author: sgroespe
 
 ---
@@ -22,8 +22,8 @@ In Belgium, you must have a third-party declarant fill out the Intrastat declara
 ## To export the third-party declaration  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat Journals**, and then choose the related link.  
-2.  Choose the **Make Diskette** action.  
-3.  On the **Options** FastTab, fill in the fields as described in the following table.  
+2.  Choose the **Create File** action.  
+3.  Fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

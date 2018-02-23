@@ -49,10 +49,10 @@ This field determines how the amount on the journal line is treated after postin
 | --- | --- |
 |Fixed|The amount on the journal line will remain after posting.|
 |Variable|The amount on the journal line will be deleted after posting.|
-|Balance|The posted amount on the account on the line will be allocated among the accounts specified for the line in the Gen. Jnl. Allocation table. The balance on the account will thus be set to zero. Remember to fill in the **Allocation %** field in the **Allocations** window. Choose the **Allocations** action.)|
+|Balance|The posted amount on the account on the line will be allocated among the accounts specified for the line in the Gen. Jnl. Allocation table. The balance on the account will thus be set to zero. Remember to fill in the **Allocation %** field in the **Allocations** window. For more information, see the "Allocating Recurring Journal Amounts to Several Accounts" section.|
 |Reversing Fixed|The amount on the journal line will remain after posting, and a balancing entry will be posted on the next day.|
 |Reversing Variable|The amount on the journal line will be deleted after posting, and a balancing entry will be posted on the next day.|
-|Reversing Balance|The posted amount on the account on the line will be allocated among the accounts specified for the line in the Gen. Jnl. Allocation table. The balance on the account will thus be set to zero. A balancing entry is posted on the next day.|
+|Reversing Balance|The posted amount on the account on the line will be allocated among the accounts specified for the line in the **Allocations** window. The balance on the account will be set to zero, and a balancing entry is posted on the next day.|
 
 > [!NOTE]  
 >  The VAT fields can be filled in on either the recurring journal line or on the allocation journal line but not on both. That is, they can be filled in in the **Allocations** window only if the corresponding lines in the recurring journal are not filled in.
@@ -77,7 +77,7 @@ The advantage of using the field is that the line will not be deleted from the j
 If the field is blank, the line will be posted every time you post until it is deleted from the journal.
 
 ### Allocating Recurring Journal Amounts to Several Accounts
-In the **Recurring General Journal** window, you can choose the **Allocations** action to see or manage how amounts on the recurring journal line are allocated to several accounts and dimensions. That is, the allocation is a balancing account line to the recurring journal line.
+In the **Recurring General Journal** window, you can choose the **Allocations** action to see or manage how amounts on the recurring journal line are allocated to several accounts and dimensions. Note that an allocation functions as balancing account line to the recurring journal line.
 
 Just as in a recurring journal, you need to enter an allocation only once. The allocation will remain in the allocation journal after posting, so you do not need to enter amounts and allocations every time you post the recurring journal line.
 

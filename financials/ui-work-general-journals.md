@@ -37,7 +37,7 @@ If you have set up default balancing accounts for the journal batches on the **G
 > [!NOTE]  
 >   VAT is calculated separately for the main account and the balancing account, so they can use different VAT percentage rates.
 
-## Working with Recurring journals
+## Working with Recurring Journals
 A recurring journal is a general journal with specific fields for managing transactions that you post frequently with few or no changes, such as rent, subscriptions, electricity, and heat. Using these fields for recurring transactions, you can post both fixed and variable amounts. You can also specify automatic reversal entries for the day after the posting date. You can also use allocation keys to divide the recurring entries among various accounts. For more information, see the "Allocating Recurring Journal Amounts to Several Accounts" section.
 
 With a recurring journal, entries that will be posted regularly need to be typed in only once. That is, the accounts, dimensions and dimension values and so on that you enter will be remain in the journal after posting. If any adjustments are necessary, you can make them with each posting.
@@ -60,7 +60,7 @@ This field determines how the amount on the journal line is treated after postin
 ### Recurring Frequency field
 This field determines how often the entry on the journal line will be posted. It is a date formula field, and it must be filled in for recurring journal lines. For more information, see the "Using Date Formulas" section in [Entering Data](ui-enter-data.md).
 
-#### Example
+#### Examples
 If the journal line must be posted every month, enter "1M". After every posting, the date in the **Posting Date** field will be updated to the same date in the next month.
 
 If you want to post an entry on the last day of every month, you can do one of the following:

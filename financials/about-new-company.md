@@ -30,7 +30,7 @@ The setup wizard offers three templates:
 -   **Create New - No Data**  
     This creates a blank company without setup data.  
 
-If you want to get started easily with a new company, choose **Production - Setup Data Only** and then import your own business data, such as customers, items, and vendors. Choose the **New** template if you want to set everything up from scratch. In that case, you can use the **Company Setup** assisted setup wizard to help you get started with essential setup data.  
+If you want to get started easily with a new company, choose **Production - Setup Data Only** and then import your own business data, such as customers, items, and vendors. Choose the **New** template if you want to set everything up from scratch. In that case, you can use the **Company Setup** assisted setup guide to help you get started with essential setup data.  
 
 > [!NOTE]  
 >   When you create a new company, it takes a few minutes before you can access it in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The setup status in the **Companies** window shows when the new company is ready for you. Then, you can switch to the new company by using **My Settings**.  
@@ -42,14 +42,10 @@ When you sign in to a new company, the **Company Setup** wizard runs automatical
 
 For example, your company address is included in invoices and other documents, your bank information is used in payments, and the costing method is used to calculate prices as well as inventory valuation.  
 
-<<<<<<< HEAD
-Once you have the basics in place, you can set up remaining core areas. Then, you are ready to add business data, such as customers and vendors. For more information, see [Setting Up Dynamics 365, Business edition ](setup.md).
-=======
-Once you have the basics in place, you can set up remaining core areas. Then, you are ready to add business data, such as customers and vendors. For more information, see [Setting Up Finance and Operations, Business edition ](setup.md).  
->>>>>>> refs/remotes/origin/Update13
+Once you have the basics in place, you can set up remaining core areas. Then, you are ready to add business data, such as customers and vendors. For more information, see [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 ## See Also
-[Setting Up Finance and Operations, Business edition ](setup.md)  
+[Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Importing Business Data from Other Finance Systems](upload-data.md)  
 [Changing Basic Settings](ui-change-basic-settings.md)  
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

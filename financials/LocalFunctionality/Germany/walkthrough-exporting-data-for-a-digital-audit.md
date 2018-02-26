@@ -274,6 +274,6 @@ When the tax auditors import Cassie’s files into their software, they can read
 The next time the tax auditors request new data, Cassie and Sean can collaborate to create a new data export.  
 
 ## See Also  
- [Process for Digital Audits](process-for-data-access-and-testability-of-digital-documents-gdpdu.md)   
+ [Process for Digital Audits](process-for-digital-audits.md)   
  [Set Up Data Exports for Digital Audits](how-to-set-up-data-exports-for-gdpdu.md)   
  [Export Data for a Digital Audit](how-to-export-data-for-a-digital-audit.md)

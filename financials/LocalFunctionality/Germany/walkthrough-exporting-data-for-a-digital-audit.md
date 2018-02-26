@@ -1,6 +1,6 @@
 ---
     title: Walkthrough - Exporting Data for a Digital Audit
-    description: You can export business data for auditing purposes according to the process for digital audits (GoBD/GDPdU). The following walkthrough describes the end-to-end process, but it is an example only.
+    description: You can export business data for auditing purposes according to the process for digital audits (GoBD/GDPdU), which is based on German tax law. The following walkthrough describes the end-to-end process, but it is an example only.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -274,7 +274,6 @@ When the tax auditors import Cassie’s files into their software, they can read
 The next time the tax auditors request new data, Cassie and Sean can collaborate to create a new data export.  
 
 ## See Also  
- [Process for Digital Audits](process-for-digital-audits.md)   
- [Set Up Data Exports for Digital Audits](how-to-set-up-data-exports-for-digital-audits.md)   
- [Export Data for a Digital Audit](how-to-export-data-for-a-digital-audit.md) 
- 
+ [Process for Digital Audits](process-for-data-access-and-testability-of-digital-documents-gdpdu.md)   
+ [Set Up Data Exports for Digital Audits](how-to-set-up-data-exports-for-gdpdu.md)   
+ [Export Data for a Digital Audit](how-to-export-data-for-a-digital-audit.md)

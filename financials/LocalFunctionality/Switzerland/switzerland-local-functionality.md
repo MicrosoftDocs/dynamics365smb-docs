@@ -22,11 +22,11 @@ The following topics describe local functionality that is unique to the Swiss ve
 ## In This Section  
  [Enhanced Document Management](enhanced-document-management.md)  
  [Swiss Electronic Payments](swiss-electronic-payments.md)  
-  [Swiss Value Added Tax](swiss-value-added-tax.md)  
-  [Swiss Inventory Management](swiss-inventory-management.md)  
-  [Swiss General Ledger Accounts](swiss-general-ledger-accounts.md)  
-  [Swiss Purchase Documents and Sales Documents](swiss-purchase-documents-and-sales-documents.md)  
-  [Print General Ledger Setup Information](how-to-print-general-ledger-setup-information.md)
+ [Swiss Value Added Tax](swiss-value-added-tax.md)  
+ [Swiss Inventory Management](swiss-inventory-management.md)  
+ [Swiss General Ledger Accounts](swiss-general-ledger-accounts.md)  
+ [Swiss Purchase Documents and Sales Documents](swiss-purchase-documents-and-sales-documents.md)  
+ [Print General Ledger Setup Information](how-to-print-general-ledger-setup-information.md)
 
 ## See Also
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md) 

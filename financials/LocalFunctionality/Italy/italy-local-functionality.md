@@ -29,8 +29,8 @@ The following topics describe local functionality that is unique to the Italian 
   [Set Up Company Information](how-to-set-up-company-information.md)  
   [Define Debit and Credit Amounts](how-to-define-debit-and-credit-amounts.md)  
   [Close a Fiscal Year](how-to-close-a-fiscal-year.md)  
-  [Reversing Journal Entries](reversing-journal-entries.md)
-  [Set Up Payment Terms](how-to-set-up-payment-terms.md)
+  [Reversing Journal Entries](reversing-journal-entries.md)  
+  [Set Up Payment Terms](how-to-set-up-payment-terms.md)  
   [Set Up Automatic Payments and Automatic Bills](how-to-set-up-automatic-payments-and-automatic-bills.md)    
   [Italian Subcontracting](italian-subcontracting.md)  
 

@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/02/2017
+ms.date: 02/23/2018
 ms.author: sgroespe
 
 ---
@@ -37,8 +37,55 @@ If you have set up default balancing accounts for the journal batches on the **G
 > [!NOTE]  
 >   VAT is calculated separately for the main account and the balancing account, so they can use different VAT percentage rates.
 
-## Working with Recurring journals
-A recurring journal is a general journal with specific fields for managing transactions that you post frequently with few or no changes. Using these fields for recurring transactions, you can post both fixed and variable amounts. You can also specify automatic reversal entries for the day after the posting date and use allocation keys with the recurring entries.
+## Working with Recurring Journals
+A recurring journal is a general journal with specific fields for managing transactions that you post frequently with few or no changes, such as rent, subscriptions, electricity, and heat. Using these fields for recurring transactions, you can post both fixed and variable amounts. You can also specify automatic reversal entries for the day after the posting date. You can also use allocation keys to divide the recurring entries among various accounts. For more information, see the "Allocating Recurring Journal Amounts to Several Accounts" section.
+
+With a recurring journal, entries that will be posted regularly need to be typed in only once. That is, the accounts, dimensions and dimension values and so on that you enter will be remain in the journal after posting. If any adjustments are necessary, you can make them with each posting.
+
+### Recurring Method field
+This field determines how the amount on the journal line is treated after posting. For example, if you will use the same amount every time you post the line, you can let the amount remain. If you will use the same accounts and text on the line but the amount will vary every time you post, you can choose to delete the amount after posting.
+
+| To | See |
+| --- | --- |
+|Fixed|The amount on the journal line will remain after posting.|
+|Variable|The amount on the journal line will be deleted after posting.|
+|Balance|The posted amount on the account on the line will be allocated among the accounts specified for the line in the Gen. Jnl. Allocation table. The balance on the account will thus be set to zero. Remember to fill in the **Allocation %** field in the **Allocations** window. For more information, see the "Allocating Recurring Journal Amounts to Several Accounts" section.|
+|Reversing Fixed|The amount on the journal line will remain after posting, and a balancing entry will be posted on the next day.|
+|Reversing Variable|The amount on the journal line will be deleted after posting, and a balancing entry will be posted on the next day.|
+|Reversing Balance|The posted amount on the account on the line will be allocated among the accounts specified for the line in the **Allocations** window. The balance on the account will be set to zero, and a balancing entry is posted on the next day.|
+
+> [!NOTE]  
+>  The VAT fields can be filled in on either the recurring journal line or on the allocation journal line but not on both. That is, they can be filled in in the **Allocations** window only if the corresponding lines in the recurring journal are not filled in.
+
+### Recurring Frequency field
+This field determines how often the entry on the journal line will be posted. It is a date formula field, and it must be filled in for recurring journal lines. For more information, see the "Using Date Formulas" section in [Entering Data](ui-enter-data.md).
+
+#### Examples
+If the journal line must be posted every month, enter "1M". After every posting, the date in the **Posting Date** field will be updated to the same date in the next month.
+
+If you want to post an entry on the last day of every month, you can do one of the following:
+
+- Post the first entry on the last day of a month by entering 1D+1M-1D (1 day + 1 month - 1 day). With this formula, the posting date is calculated correctly regardless of how many days there are in the month.
+
+- Post the first entry on any arbitrary day of a month by entering 1M+CM. With this formula, the posting date will be after one full month + the remaining days of the current month.
+
+### Expiration Date field
+This field determines the date on which the line will be posted for the last time. The line will not be posted after this date.
+
+The advantage of using the field is that the line will not be deleted from the journal immediately and you can always replace the present expiration date with a later one so that you can use the line further into the future.
+
+If the field is blank, the line will be posted every time you post until it is deleted from the journal.
+
+### Allocating Recurring Journal Amounts to Several Accounts
+In the **Recurring General Journal** window, you can choose the **Allocations** action to see or manage how amounts on the recurring journal line are allocated to several accounts and dimensions. Note that an allocation functions as balancing account line to the recurring journal line.
+
+Just as in a recurring journal, you need to enter an allocation only once. The allocation will remain in the allocation journal after posting, so you do not need to enter amounts and allocations every time you post the recurring journal line.
+
+If the recurring method in the recurring journal is set to **Balance** or **Reversing Balance**, then any dimension value codes in the recurring journal are disregarded when the account is set to zero. So if you allocate a recurring line to various dimension values in the **Allocations** window, then only one reversing entry will be created. Therefore, if you allocate a recurring journal line that contains a dimension value code, then you must not enter the same code in the **Allocations** window. If you do, the dimension values will be incorrect.
+
+####Example: Allocating Rent Payments to Different Departments
+You pay rent every month, so you have entered the rent amount on the cash account on a recurring journal line. In the **Allocations** window, you can divide the expense among several departments (Department dimension) according to the number of square feet that each one occupies. The calculation is based on the allocation percentage on each line. You can enter various accounts on different allocation lines (if rent will also be divided among several accounts), or you can enter the same account but with various dimension value codes for the Department dimension on each line.
+
 
 ## Working with Standard Journals
 When you have created journal lines which you know you are likely to create again later, you can save them as a standard journal before you post the journal. This functionality applies to item journals and general journals.

@@ -1,6 +1,6 @@
-
+---
 title: Welcome | Microsoft Docs
-description: Outlines the assisted setup guides, videos, help topics, and pages and windows to use to get ready for doing business in Finance and Operations, Business edition .
+description: Outlines the assisted setup guides, videos, help topics, and pages and windows to use to get ready for doing business in Finance and Operations, Business edition.
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 
@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
-ms.date: 03/21/2017
+ms.date: 02/19/2018
 ms.author: solsen
 ---
 # Getting Ready for Doing Business

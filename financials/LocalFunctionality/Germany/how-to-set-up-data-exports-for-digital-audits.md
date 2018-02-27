@@ -1,6 +1,6 @@
 ---
     title: Set Up Data Exports for a Digital Audit
-    description: You must set up data export record sources to be able to export data for a digital audit.
+    description: You must set up data export record sources to be able to export Grundsätze zum Datenzugriff und zur Prüfkbarkeit digtaler Unterlagen (GDPdU) data. For each data export type, you must define one or more record sources, where each source is a table from which you want to export data.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -11,14 +11,14 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 02/23/2018
+    ms.date: 07/01/2017
     ms.author: sgroespe
 
 ---
 # Set Up Data Exports for a Digital Audit
-You must set up data export record sources to be able to export data for a digital audit. For each data export type, you must define one or more record sources, where each source is a table from which you want to export data.  
+You must set up data export record sources to be able to export Grundsätze zum Datenzugriff und zur Prüfkbarkeit digtaler Unterlagen (GDPdU) data. For each data export type, you must define one or more record sources, where each source is a table from which you want to export data.  
 
-## To set up a data export  
+## To set up a GDPdU data export  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Data Exports**, and then choose the related link.  
 2.  Choose the **New** action.  

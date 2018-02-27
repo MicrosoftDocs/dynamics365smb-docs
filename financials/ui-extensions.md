@@ -59,6 +59,7 @@ Microsoft provides the following extensions:
 * [Image Analyzer](ui-extensions-image-analyzer.md)
 * [Payments and Reconciliations (DK)](ui-extensions-payments-reconciliation-formats-dk.md)
 * [C5 Data Migration](ui-extensions-c5-data-migration.md)
+* []()
 
 > [!NOTE]  
 >  New extensions are not available in AppSource immediately after we announce an update. You can keep an eye out for the extensions at [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).

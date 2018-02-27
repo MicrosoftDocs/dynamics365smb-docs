@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 02/27/2018
     ms.author: sgroespe
 
 ---
@@ -29,3 +29,6 @@ The following topics describe local functionality that is unique to the Swiss ve
 
 ## See Also
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)
+
+## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](../../includes/training_link_md.md)]

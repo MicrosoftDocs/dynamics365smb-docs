@@ -15,10 +15,12 @@ ms.author: bholtorf
 
 ---
 
-# How To: Work with the Consolidated Trial Balance Report
-If you have more than one company in [!INCLUDE[d365fin](includes/d365fin_md.md)], the Consolidated Trial Balance Report on the Accountant Role Center can give you an overview of the financial health of your overall business.  
+# Consolidating Financial Data from Multiple Companies
+If you have more than one company in [!INCLUDE[d365fin](includes/d365fin_md.md)], the Consolidated Trial Balance report on the Accountant Role Center can give you an overview of the financial health of your overall business.  
 
-The report combines general ledger (G/L) entries from each of your companies in a new company that you create to contain the consolidated data. This company is typically referred to as the "consolidated company." The consolidated company is just a container for the consolidated data, and does not have any live business data. The companies that you include in the consolidated company become **Business Units** in the report.
+The report combines general ledger entries from each of your companies in a new company that you create to contain the consolidated data. This company is typically referred to as the "consolidated company". The consolidated company is just a container for the consolidated data, and does not have any live business data. The companies that you include in the consolidated company become **Business Units** in the report.
+
+Consolidating financial data may especially be relevant in connection with intercompany processes. For more information, see [Managing Intercompany Transactions](intercompany-manage.md).
 
 You can consolidate:  
 
@@ -116,7 +118,7 @@ After you have tested the data, you can transfer it to the consolidated company.
 3. Fill in the required fields.  
 4. In the **Where** field, choose **Company Name**, and then choose the consolidated company in the **is** field.  
 
-## To export data from Dynamics NAV and import it in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## To export and import consolidated data between databases
 If data for a business unit is in another database, you must export the data to a file before you can include it in the consolidation. Each company must be exported separately. For this purpose, use the **Export Consolidation** batch job.  
 
 After you run the batch job, all entries in general ledger accounts are processed. For every combination of selected dimensions and date, the contents of the entries' **Amount** fields are totaled and exported. The next combination of selected dimensions and date with the same account number is processed, then the combinations in the next account number are processed, and so on.  
@@ -129,5 +131,6 @@ The exported entries contain the following fields: **Account No.**, **Posting Da
 4. The XML files also contain the currency exchange rates in the consolidation period. These rates are included in a separate section at the beginning of the file.
 
 ## See Also
+[Managing Intercompany Transactions](intercompany-manage.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Exporting Your Business Data to Excel](about-export-data.md)

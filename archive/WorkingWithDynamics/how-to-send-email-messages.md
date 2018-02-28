@@ -15,6 +15,12 @@
     ms.author: sgroespe
 
 ---
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+# Send Email Messages
+=======
+>>>>>>> refs/remotes/origin/Update14
 # Send Email Messages
 When Finance and Operations, Business edition is integrated with an email system, you can choose the button on the right side of the **E-Mail** field to open a window in which you can create and send a message.  
 

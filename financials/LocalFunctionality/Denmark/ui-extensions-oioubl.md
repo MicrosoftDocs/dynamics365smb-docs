@@ -30,9 +30,9 @@ By default, the OIOUBL extension is installed in [!INCLUDE[d365fin](../../includ
 * Set up payment methods, payment terms, and item charges.
 * Set up customers for OIOUBL by specifying an account code, the OILUBL profile to use to exchange documents, and the customer's Geographic Location Number (GLN).
 
-For more information, see [How to: Set Up the OIOUBL Extension](how-to-set-up-oioubl.md).  
+For more information, see [Set Up the OIOUBL Extension](how-to-set-up-oioubl.md).  
 
 ## See Also  
 [Denmark Local Functionality](denmark-local-functionality.md)  
-[How to: Set Up the OIOUBL Extension](how-to-set-up-oioubl.md)  
-[How to: Create Electronic Documents in an OIOUBL Format](how-to-create-electronic-documents-by-using-oioubl.md)  
+[Set Up the OIOUBL Extension](how-to-set-up-oioubl.md)  
+[Create Electronic Documents in an OIOUBL Format](how-to-create-electronic-documents-by-using-oioubl.md)  

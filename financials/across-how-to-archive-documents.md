@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Archive Documents
+# Archive Documents
 You can archive sales and purchase orders, quotes, return orders, and blanket orders, and you can use the archived document to recreate the document that it was archived from.
 
 ## To set up automatic document archiving  
@@ -56,7 +56,7 @@ The following procedure describes how to delete archived sales orders. The steps
 3.  Choose the **OK** button.
 
 ## See Also
-[How to: Track Document Lines](across-how-to-track-document-lines.md)  
+[Track Document Lines](across-how-to-track-document-lines.md)  
 [Sales](sales-manage-sales.md)  
 [General Business Functionality](ui-across-business-areas.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -1,6 +1,6 @@
 ---
     title: Italy Local Functionality
-    description: The following topics describe the local functionality in the Italian version of Dynamics 365, Business edition.
+    description: The following topics describe the local functionality in the Italian version of Finance and Operations, Business edition.
 
     services: project-madeira
     documentationcenter: ''
@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 02/28/2018
     ms.author: sgroespe
 
 ---
@@ -30,6 +30,8 @@ The following topics describe local functionality that is unique to the Italian 
   [Define Debit and Credit Amounts](how-to-define-debit-and-credit-amounts.md)  
   [Close a Fiscal Year](how-to-close-a-fiscal-year.md)  
   [Reversing Journal Entries](reversing-journal-entries.md)  
+  [Set Up Payment Terms](how-to-set-up-payment-terms.md)  
+  [Set Up Automatic Payments and Automatic Bills](how-to-set-up-automatic-payments-and-automatic-bills.md)    
   [Italian Subcontracting](italian-subcontracting.md)  
 
 ## See Also

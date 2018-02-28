@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# How to: Track Document Lines
+# Track Document Lines
 You can view documents that are related to sales order lines and purchase order lines, including from archived order lines. Related documents that you can track include quotes, shipments, receipts, and blanket orders. This helps you to identify documents used to process orders.  
 
 ## To track documents related to a sales order line

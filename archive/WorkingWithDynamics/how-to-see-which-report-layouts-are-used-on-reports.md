@@ -15,6 +15,12 @@
     ms.author: sgroespe
 
 ---
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+# See Which Report Layouts are Used on Reports
+=======
+>>>>>>> refs/remotes/origin/Update14
 # See Which Report Layouts are Used on Reports
 You can see which report layouts are used on Finance and Operations, Business edition reports from the **Report Layout Selection** window. From this window, you can change layout that is used on a report, create new custom layouts, or make variations of existing custom layouts.  
 

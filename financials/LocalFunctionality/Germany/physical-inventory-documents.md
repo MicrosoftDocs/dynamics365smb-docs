@@ -48,5 +48,4 @@ You can use Navigate to view the inventory ledger entries and other related ledg
  [Enter Physical Inventory Orders](how-to-enter-physical-inventory-orders.md)   
  [Create a Physical Inventory Recording](how-to-create-a-physical-inventory-recording.md)   
  [Post Physical Inventory Orders](how-to-post-physical-inventory-orders.md)   
- [Block Shipment for Negative Inventory](how-to-block-shipment-for-negative-inventory.md)   
  [Germany Local Functionality](germany-local-functionality.md)

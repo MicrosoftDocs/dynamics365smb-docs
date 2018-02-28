@@ -90,6 +90,12 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can export payment jou
     >  You can only post the payment order after you have successfully exported the electronic payments.  
 
     > [!NOTE]  
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    >  In the generic version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the **Payment Journal** window is used in a similar way to export electronic payments in the SEPA Credit Transfer format. For more information, see [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
+=======
+>>>>>>> refs/remotes/origin/Update14
     >  In the generic version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the **Payment Journal** window is used in a similar way to export electronic payments in the SEPA Credit Transfer format. For more information, see [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
 ## To export electronic payments from the Cartera module  

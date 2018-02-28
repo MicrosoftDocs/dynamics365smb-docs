@@ -15,6 +15,12 @@
     ms.author: sgroespe
 
 ---
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+# View and Print Reports
+=======
+>>>>>>> refs/remotes/origin/Update14
 # View and Print Reports
 In Finance and Operations, Business edition, there are many predefined reports that you can find in different ways:  
 

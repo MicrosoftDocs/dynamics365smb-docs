@@ -2,7 +2,7 @@
     title: Russia Local Functionality
     description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to calculate VAT due based on Russian VAT rates and regulations.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -40,3 +40,6 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], there are Russian-specific
  [Russian Chart of Accounts](russian-chart-of-accounts.md)   
  [Russian Receivables Reports](russian-receivables-reports.md)   
  [Russian Payables Reports](russian-payables-reports.md)
+
+ ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
+ ## [!INCLUDE[d365fin](../../includes/training_link_md.md)]

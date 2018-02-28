@@ -157,6 +157,7 @@
 ### [Set Up Intercompany](intercompany-how-setup.md)
 ### [Work with Intercompany Documents and Journals](intercompany-how-work-documents-journals.md)
 ### [Manage the Intercompany Inbox and Outbox](intercompany-how-manage-intercompany-inbox.md)
+## [Consolidating Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)
 ## [Accounting for Costs](finance-manage-cost-accounting.md)
 ### [Terminology in Cost Accounting](finance-terminology-in-cost-accounting.md)
 ### [About Cost Accounting](finance-about-cost-accounting.md)

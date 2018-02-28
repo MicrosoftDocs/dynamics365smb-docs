@@ -28,7 +28,6 @@ The following topics describe local functionality that is unique to the German v
   [Currency Exchange Rates](currency-exchange-rates.md)  
   [Print General Ledger Setup Information](how-to-print-general-ledger-setup-information.md)  
   [Set Up Reports for VAT and Intrastat](how-to-set-up-reports-for-vat-and-intrastat.md)  
-  [Post a Negative Entry](how-to-post-a-negative-entry.md)  
   [Copy Existing Items to New Items](how-to-copy-existing-items-to-new-items.md)  
   [Include Company Registration Numbers on Sales Reports and Purchase Reports](how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md)  
   [Export and Print Intrastat Reports](how-to-export-and-print-intrastat-reports.md)  

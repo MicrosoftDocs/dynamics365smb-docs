@@ -9,12 +9,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: Denmark, local, DK, Danish
-    ms.date: 11/23/2017
+    ms.date: 02/27/2018
     ms.author: bholtorf
 
 ---
 # Denmark Local Functionality
-The following topics describe the local functionality in the Danish version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)] in Denmark.  
+The following topics describe the local functionality in the Danish version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## In This Section  
 [OIOUBL Electronic Invoicing Overview](oioubl-electronic-invoicing-overview.md)  

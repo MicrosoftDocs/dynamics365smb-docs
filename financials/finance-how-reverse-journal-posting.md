@@ -66,7 +66,7 @@ You can reverse entries from all **Ledger Entries** windows. The following proce
 ## To post a negative entry  
 You can use the **Correction** field to post a negative debit instead of a credit, or to post a negative credit instead of a debit on an account. To meet legal requirements, this field is visible by default in all journals. The **Debit Amount** and **Credit Amount** fields include both the original entry, and the corrected entry. These fields have no effect on the account balance.  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journals**, and then choose the related link  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journals**, and then choose the related link  
 2.  In the **Batch Name** field, select the required batch name.  
 3.  Enter information into the relevant fields.  
 4.  In the journal line that you want to activate for negative entries, select the **Correction** check box.  

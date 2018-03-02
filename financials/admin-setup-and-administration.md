@@ -28,12 +28,11 @@ The following table describes a sequence of tasks, with links to the topics that
 |------------|-------------|  
 |Add users, manage permissions and access to data, assign roles.|[Understanding Profiles and Role Centers](admin-users-profiles-roles.md)|  
 |Assign permissions to users, modify permission sets, and group users per permissions.|[Managing Users and Permissions](ui-how-users-permissions.md)|
-|Track all direct modifications that users make to data in the database to identify the origin of errors and data changes.|[Logging Changes in Finance and Operations, Business edition](across-log-changes.md)|  
-|Expose pages, codeunits, and queries as web services.|[Publish a Web Service](across-how-publish-web-service.md)|  
-
-|Enter single or recurring requests to run reports or codeunits.|[Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)|  
-|Manage, delete, or compress documents|[Manage Documents](admin-manage-documents.md)|  
-|Set up a new business unit using templates|[Creating New Companies in [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)|  
+|Set up a new business unit using templates|[Creating New Companies](about-new-company.md)|
+|Track all direct modifications that users make to data in the database to identify the origin of errors and data changes.|[Logging Changes](across-log-changes.md)|  
+|Enter single or recurring requests to run reports or codeunits.|[Using Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)|  
+|Manage, delete, or compress documents|[Deleting Documents](admin-manage-documents.md)|  
+|Expose pages, codeunits, and queries as web services.|[Publishing a Web Service](across-how-publish-web-service.md)|  
 
 ## See Also
 [Business Functionality](madeira-business-functionality.md)  

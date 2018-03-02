@@ -133,9 +133,10 @@
 # [Administration](admin-setup-and-administration.md)
 ## [Understanding Profiles, and Role Centers](admin-users-profiles-roles.md)
 ## [Managing Users and Permissions](ui-how-users-permissions.md)
-## [Logging Changes](across-log-changes.md)
 ## [Creating New Companies](about-new-company.md)
+## [Logging Changes](across-log-changes.md)
 ## [Using Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)
+## [Deleting Documents](admin-manage-documents.md)
 ## [Publishing a Web Service](across-how-publish-web-service.md)
 
 # [Finance](finance.md)

@@ -34,7 +34,7 @@ The following table lists some of the general functionality with links to topics
 | Modify the colored indicator on cues. |[Setting Up a Colored Indicator on Cues](ui-how-setup-colored-indicator-cues.md) |
 |Preview, print, or save reports.|[Working with Reports](ui-work-report.md)|
 | Schedule a report to run at a specific date and time. |[Scheduling a Report to Run](ui-work-report.md#ScheduleReport) |
-| Manage different types of report layouts. |[Managing Report Layouts](ui-manage-report-layouts.md) |
+| Manage the content and format of reports and documents, including which data fields of a report dataset appear on the report and how they are arranged, text style, images, and more.|[Managing Report and Document Layouts](ui-manage-report-layouts.md) |
 | Learn how to work with general journals, which are used to post to general ledger accounts and other accounts such as bank, customer, vendor, and fixed assets accounts. |[Working with General Journals](ui-work-general-journals.md) |
 |Understand how the computer locale affects the user interface and the Help site and how to change the language.|[Changing Language and Locale](about-locale-language.md)|
 |Learn about features and capabilities that make [!INCLUDE[d365fin](includes/d365fin_md.md)] readily available to people with disabilities.|[Accessibility and Keyboard Shortcuts](ui-accessibility.md)|

@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 08/21/2017
+ms.date: 03/02/2018
 ms.author: solsen
 
 ---
@@ -20,26 +20,21 @@ ms.author: solsen
 
 To support those business area-specific tasks, you can use a variety of general business functionality, such as defining extended text for document lines and organizing connecting business tasks in workflows.
 
-
-
 The following table lists these general business areas with links to topics that describe them.
 
 | To | See |
 | --- | --- |
+| Communicate the contents of business documents quickly to your business partners, such as the payment information on sales documents to customers. |[Sending Documents by Email](ui-how-send-documents-email.md) |
 | Set up standard text codes so you can extend standard text by adding extra lines, and set up conditions for use of the extra lines. |[Define Extended Text](ui-how-define-ext-text.md) |
-| Learn how to work with general journals, which are used to post to general ledger accounts and other accounts such as bank, customer, vendor, and fixed assets accounts. |[Working with General Journals](ui-work-general-journals.md) |
-| Communicate the contents of business documents quickly to your business partners, such as the payment information on sales documents to customers. |[Send Documents by Email](ui-how-send-documents-email.md) |
-| Schedule a report to run at a specific date and time. |[Scheduling a Report to Run](ui-work-report.md#ScheduleReport) |
-| Manage different types of report layouts. |[Managing Report Layouts](ui-manage-report-layouts.md) |
-| Track users' activities.|[Logging Changes in Financials](across-log-changes.md)|
-|Assign permissions to users, modify permission sets, and group users per permissions.|[Manage Users and Permissions](ui-how-users-permissions.md)|
-| Change [!INCLUDE[d365fin](includes/d365fin_md.md)] by installing extensions that add functionality, changes behavior, or gives you access to new online services. |[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md) |
-|Set up and use workflows that connect tasks performed by different users or by the system, such as automatic posting. Requesting and granting approval to create or post documents are typical workflow steps.|[Workflow](across-workflow.md)|
+|Create tasks to remind you of work to be done. You can create tasks for yourself, but you can also assign tasks to others or be assigned a task by someone else in your organization.|[Defining User Tasks](across-user-tasks.md)|
+|Let the system help you complete tasks quicker and more correctly by prefilling fields or complete lines with data that you would otherwise have to calculate and enter yourself.|[Letting Finance and Operations, Business edition Suggest Values](ui-let-system-suggest-values.md)| 
 |Record external documents in Financials, including their file attachments, and then manually create the related documents or automatically convert the files to electronic documents.|[Incoming Documents](across-income-documents.md)|
+|Set up and use workflows that connect tasks performed by different users or by the system, such as automatic posting. Requesting and granting approval to create or post documents are typical workflow steps.|[Workflow](across-workflow.md)|
 | Set up data exchange definitions to you can send and receive electronic documents. |[Exchanging Data Electronically](across-data-exchange.md) |
 
 ## See Also
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Administration](admin-setup-and-administration.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
 ## [!INCLUDE[d365fin](includes/training_link_md.md)]

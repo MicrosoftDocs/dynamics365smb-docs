@@ -29,7 +29,7 @@ The following table lists some of the general functionality with links to topics
 | Learn about how to sort data. |[Sorting Data](ui-sorting.md) |
 | View or process data in specific date ranges. |[Entering Date Ranges](ui-enter-date-ranges.md) |
 | See which fields must be filled in. |[Detecting Mandatory Fields](ui-mandatory-fields.md) |
-| Change which fields and actions are shown in the user interface to fit your company's business processes. |[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md) |
+| Change which fields and actions are shown in the user interface to fit your company's business processes. |[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md) |
 | Change how you view lists of, for example, customers, vendors, or items. |[Displaying Lists in Different Ways](across-display-lists-different-views.md) |
 | Modify the colored indicator on cues. |[Setting Up a Colored Indicator on Cues](ui-how-setup-colored-indicator-cues.md) |
 |Preview, print, or save reports.|[Working with Reports](ui-work-report.md)|

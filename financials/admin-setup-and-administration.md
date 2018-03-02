@@ -29,6 +29,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Add users, manage permissions and access to data, assign roles.|[Understanding Profiles and Role Centers](admin-users-profiles-roles.md)|  
 |Assign permissions to users, modify permission sets, and group users per permissions.|[Managing Users and Permissions](ui-how-users-permissions.md)|
 |Set up a new business unit using templates|[Creating New Companies](about-new-company.md)|
+| Change which fields and actions are shown in the user interface to fit your company's business processes. |[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md) |
 |Track all direct modifications that users make to data in the database to identify the origin of errors and data changes.|[Logging Changes](across-log-changes.md)|  
 |Enter single or recurring requests to run reports or codeunits.|[Using Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)|  
 |Manage, delete, or compress documents|[Deleting Documents](admin-manage-documents.md)|  

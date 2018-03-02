@@ -36,7 +36,7 @@ Some functionality, either general or for specific business processes, can be se
 |Read best practices for setting items up for up inventory costing and supply planning.|[Setting Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)|
 |Set up an SMTP server to enable e-mail communication in and out of [!INCLUDE[d365fin](includes/d365fin_md.md)]| [Setting Up Email Manually or Using the Assisted Setup](madeira-how-setup-email.md)|
 | Set up unique identification codes for records, such as cards, documents, and journal lines, to track them in the system. |[Creating Number Series](ui-create-number-series.md) |
-|Set up and assign a base calendar to your company and its business partners, such as customers, vendors, or locations. Delivery and receipt dates on future sales order, purchase order, transfer order, and production order lines are then calculated according to the calendar’s specified working days.|[Set Up Base Calendars](across-how-to-assign-base-calendars.md)|  
+|Set up and assign a base calendar to your company and its business partners, such as customers, vendors, or locations. Delivery and receipt dates on future sales order, purchase order, transfer order, and production order lines are then calculated according to the calendar’s specified working days.|[Setting Up Base Calendars](across-how-to-assign-base-calendars.md)|  
 
 Some areas require you to be an administrator in your [!INCLUDE[d365fin](includes/d365fin_md.md)] subscription. For more information, see [Administration](admin-setup-and-administration.md).  
 

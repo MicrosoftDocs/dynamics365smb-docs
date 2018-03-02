@@ -134,7 +134,7 @@
 ## [Understanding Profiles, and Role Centers](admin-users-profiles-roles.md)
 ## [Managing Users and Permissions](ui-how-users-permissions.md)
 ## [Creating New Companies](about-new-company.md)
-## [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)
+## [Customizing Finance and Operations, Business edition](ui-customizing-overview.md)
 ## [Logging Changes](across-log-changes.md)
 ## [Using Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)
 ## [Deleting Documents](admin-manage-documents.md)

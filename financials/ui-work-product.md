@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/29/2017
+ms.date: 03/02/2018
 ms.author: solsen
 
 ---
@@ -23,20 +23,27 @@ The following table lists some of the general functionality with links to topics
 
 | To | See |
 | --- | --- |
-| Read about including symbols and special characters when searching for data. |[Entering Criteria in Filters](ui-enter-criteria-filters.md) |
-| See which fields must be filled in. |[Mandatory Fields](ui-mandatory-fields.md) |
-| Use Search to look for a specific page or report. |[Using Search for Page or Report](ui-search.md) |
-| Learn about how to sort data. |[Sorting](ui-sorting.md) |
+| Change basic settings such as company, work date, and Role Center. |[Changing Basic Settings](ui-change-basic-settings.md) |
+| Find a specific page or report. |[Using Search for Page or Report](ui-search.md) |
+| Filter data in views, reports, or functions by using special symbols and characters. |[Entering Criteria in Filters](ui-enter-criteria-filters.md) |
+| Learn about how to sort data. |[Sorting Data](ui-sorting.md) |
+| View or process data in specific date ranges. |[Entering Date Ranges](ui-enter-date-ranges.md) |
+| See which fields must be filled in. |[Detecting Mandatory Fields](ui-mandatory-fields.md) |
+| Change which fields and actions are shown in the user interface to fit your company's business processes. |[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md) |
 | Change how you view lists of, for example, customers, vendors, or items. |[Displaying Lists in Different Ways](across-display-lists-different-views.md) |
-| Modify the colored indicator on cues. |[Set Up a Colored Indicator on Cues](ui-how-setup-colored-indicator-cues.md) |
-| Change basic settings such as company or work date. |[Changing Basic Settings](ui-change-basic-settings.md) |
-| Change the Role Center, and the related Home page, to fit your role. |[Change the Role Center](change-role.md) |
-| Change which fields and actions are shown in the user interface to fit your company's business processes. |[Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md) |
-| Get reports to show data from specific date ranges. |[Entering Date Ranges in Finance and Operations, Business edition ](ui-enter-date-ranges.md) |
+| Modify the colored indicator on cues. |[Setting Up a Colored Indicator on Cues](ui-how-setup-colored-indicator-cues.md) |
+|Preview, print, or save reports.|[Working with Reports](ui-work-report.md)|
+| Schedule a report to run at a specific date and time. |[Scheduling a Report to Run](ui-work-report.md#ScheduleReport) |
+| Manage the content and format of reports and documents, including which data fields of a report dataset appear on the report and how they are arranged, text style, images, and more.|[Managing Report and Document Layouts](ui-manage-report-layouts.md) |
+| Learn how to work with general journals, which are used to post to general ledger accounts and other accounts such as bank, customer, vendor, and fixed assets accounts. |[Working with General Journals](ui-work-general-journals.md) |
+|Understand how the computer locale affects the user interface and the Help site and how to change the language.|[Changing Language and Locale](about-locale-language.md)|
+|Learn about features and capabilities that make [!INCLUDE[d365fin](includes/d365fin_md.md)] readily available to people with disabilities.|[Accessibility and Keyboard Shortcuts](ui-accessibility.md)|
+|Watch videos on selected functionality to help you get started.|[Videos on Common Tasks](across-videos.md)|  
 
 ## See Also
+[Getting Started](index.md)  
+[Setting Up Finance and Operations, Business edition](setup.md)  
 [General Business Functionality](ui-across-business-areas.md)  
-[Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
 ## [!INCLUDE[d365fin](includes/training_link_md.md)]

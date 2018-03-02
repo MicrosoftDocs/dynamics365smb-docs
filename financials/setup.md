@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 09/01/2017
+ms.date: 03/02/2018
 ms.author: edupont
 
 ---
@@ -33,13 +33,15 @@ Some functionality, either general or for specific business processes, can be se
 | Configure how to insure, maintain, and depreciate fixed assets, and how you record the costs of fixed assets in your company books. |[Setting Up Fixed Assets](fa-setup.md) |
 |Define the general rules and values for warehouse processes and the specific handling at each location.|[Setting Up Warehouse Management](warehouse-setup-warehouse.md)|
 |Prepare production BOMs and routings to define how end items are produced, and prepare machine or work centers to perform the required operations.|[Setting Up Manufacturing](production-configure-production-processes.md)|
+|Read best practices for setting items up for up inventory costing and supply planning.|[Setting Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)|
+|Set up an SMTP server to enable e-mail communication in and out of [!INCLUDE[d365fin](includes/d365fin_md.md)]| [Setting Up Email Manually or Using the Assisted Setup](madeira-how-setup-email.md)|
 | Set up unique identification codes for records, such as cards, documents, and journal lines, to track them in the system. |[Creating Number Series](ui-create-number-series.md) |
-| Set up the **SMTP Mail Setup** window to send and receive emails from documents within [!INCLUDE[d365fin](includes/d365fin_md.md)]. |[Set up Email](madeira-how-setup-email.md) |
-| Set up unique identification codes. |[Create Number Series](ui-create-number-series.md) |
+|Set up and assign a base calendar to your company and its business partners, such as customers, vendors, or locations. Delivery and receipt dates on future sales order, purchase order, transfer order, and production order lines are then calculated according to the calendar’s specified working days.|[Setting Up Base Calendars](across-how-to-assign-base-calendars.md)|  
 
-Some areas require you to be an administrator in your [!INCLUDE[d365fin](includes/d365fin_md.md)] subscription. For more information, see [Setup and Administration in [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-setup-and-administration.md).  
+Some areas require you to be an administrator in your [!INCLUDE[d365fin](includes/d365fin_md.md)] subscription. For more information, see [Administration](admin-setup-and-administration.md).  
 
 ## See Also
+[Administration](admin-setup-and-administration.md)  
 [Finance](finance.md)  
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  

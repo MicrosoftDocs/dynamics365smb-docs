@@ -96,4 +96,4 @@ You can configure and customize a new company that you have created. To fine tun
 ## See Also  
  [Apply Configuration to New Companies](admin-apply-configuration-to-new-companies.md)   
  [Copy Data to New Companies](admin-how-to-copy-data-to-new-companies.md)   
- [Configure the User Interface](admin-configure-the-user-interface.md)
+ [Configure the User Interface]

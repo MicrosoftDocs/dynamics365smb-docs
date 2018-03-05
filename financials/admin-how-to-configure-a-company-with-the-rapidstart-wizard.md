@@ -52,4 +52,4 @@ In the following procedure, you have provided the customer with the configuratio
  At this point, you have configured the company, and applied data to it.  
 
 ## See Also  
- [Create a New Company](admin-how-to-create-a-new-company.md)
+ [Changing Basic Settings](ui-change-basic-settings.md)

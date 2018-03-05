@@ -1,6 +1,6 @@
 ---
     title: How to Map Customer Data | Microsoft Docs
-    description: You can map values from an existing ERP system into your [!INCLUDE[d365fin](includes/d365fin_md.md)] already has.
+    description: You can map values from an existing ERP system into your Business Central already has.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -55,6 +55,6 @@ how-to-import-customer-data.md).
      To apply the mapping that you have set up, on the **Home** tab, in the **Process** group, choose **Apply Data.**  
 
 ## See Also  
-  
+
  [Apply Customer Data](admin-how-to-apply-customer-data.md)   
  [Clean Up and Process Data](admin-how-to-clean-up-and-process-data.md)   

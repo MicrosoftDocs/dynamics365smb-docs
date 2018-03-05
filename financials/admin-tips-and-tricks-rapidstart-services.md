@@ -1,5 +1,5 @@
 ---
-    title: Tips and Tricks: RapidStart Services | Microsoft Docs
+    title: Tips and Tricks - RapidStart Services | Microsoft Docs
     description: When you configure companies using RapidStart Services, there are some tips and tricks that you can take advantage of to help your implementation go smoothly.
     services: project-madeira
     documentationcenter: ''
@@ -36,5 +36,5 @@ We recommend that you migrate opening balances in steps, in the following order.
 4.  Migrate open fixed asset entries.  
 
 ## See Also  
-[Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart)  
+[Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)

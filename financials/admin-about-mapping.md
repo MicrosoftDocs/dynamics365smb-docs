@@ -1,6 +1,6 @@
 ---
     title: About Mapping | Microsoft Docs
-    description: When you apply data that you have imported from Excel or from a RapidStart package, Business Central treats and handles the mapping depends on table relations:
+    description: When you apply data that you have imported from Excel or from a RapidStart package, Business Central treats and handles the mapping depends on table relations.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

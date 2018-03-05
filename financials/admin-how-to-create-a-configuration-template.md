@@ -18,7 +18,7 @@
 # Create a Configuration Package
 When you configure a new company, table relations are recognized and processed. Data is imported and applied in the correct order. Dimension tables are also imported if they are included in the configuration package.  
 
-To help your customer use the configuration package, you may want to add a questionnaire or a set of questionnaires to the package. The questionnaire can help the customer in understanding the various setup options. Typically, questionnaires are created for the major setup tables within Microsoft Dynamics NAV, when a customer may require additional guidance about how to select an appropriate setting. For more information, see [Create Configuration Questionnaires].
+To help your customer use the configuration package, you may want to add a questionnaire or a set of questionnaires to the package. The questionnaire can help the customer in understanding the various setup options. Typically, questionnaires are created for the major setup tables within [!INCLUDE[d365fin](includes/d365fin_md.md)], when a customer may require additional guidance about how to select an appropriate setting. For more information, see [Create Configuration Questionnaires].
 
  Make sure that you are on the RapidStart Services Implementer Role Center.  
 
@@ -110,7 +110,5 @@ To help your customer use the configuration package, you may want to add a quest
 
 ## See Also  
  [Assign a Configuration Package](admin-how-to-assign-a-configuration-package.md)   
- Copy Package   
- Get Package Tables   
- [Manage Company Configuration in a Worksheet](admin-how-to-manage-company-configuration-in-a-worksheet.md)   
+  [Manage Company Configuration in a Worksheet](admin-how-to-manage-company-configuration-in-a-worksheet.md)   
  [Import Configuration Packages](admin-how-to-import-configuration-packages.md)

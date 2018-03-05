@@ -1,6 +1,6 @@
 ---
     title: About Data Tables | Microsoft Docs
-    description: Business Central data tables come in two basic types: Master and Setup. When you are setting up a company configuration, you can use these types to focus your configuration strategy.
+    description: Business Central data tables come in two basic types. Master and Setup. When you are setting up a company configuration, you can use these types to focus your configuration strategy.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

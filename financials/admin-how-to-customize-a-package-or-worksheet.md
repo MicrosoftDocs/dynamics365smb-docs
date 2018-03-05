@@ -1,6 +1,6 @@
 ---
     title: How to Customize a Package or Worksheet | Microsoft Docs
-    description: Use the configuration worksheet to gather together and categorize the information that you want to use to configure a new company, and arrange tables in a logical way. Formatting in the worksheet is based on a simple hierarchy: areas contain groups, which in turn contain tables.
+    description: Use the configuration worksheet to gather together and categorize the information that you want to use to configure a new company, and arrange tables in a logical way. Formatting in the worksheet is based on a simple hierarchy. Areas contain groups, which in turn contain tables.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -32,7 +32,7 @@ Use the configuration worksheet to gather together and categorize the informatio
 
 4.  In the **Line Type** field, choose **Table**. In the **Table ID** field, select the table you want to include in the worksheet.  
 
- Now you can assign the tables to specific configuration packages that you have created or plan to create. For more information, see [Assign a Configuration Package](admin-/how-to-assign-a-configuration-package.md).  
+ Now you can assign the tables to specific configuration packages that you have created or plan to create. For more information, see [Assign a Configuration Package](admin-how-to-assign-a-configuration-package.md).  
 
 ### To work with promoted tables  
 

@@ -34,5 +34,5 @@ The following table describes the sequence of tasks with links to topics that de
 |Transfer answers from the setup questionnaire to setup tables in [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Apply Answers from the Configuration Questionnaire](admin-how-to-apply-answers-from-the-configuration-questionnaire.md)|  
 
 ## See Also  
-[Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart)  
+[Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)

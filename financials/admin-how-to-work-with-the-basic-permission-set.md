@@ -1,6 +1,6 @@
 ---
     title: How to Work with the BASIC Permission Set | Microsoft Docs
-    description: When a user creates a new database, that user is assigned only one permission set automatically: the SUPER permission set. As you create and define permission sets in a new database and companies, remember to always assign the BASIC permission set, which grants users access to required system tables and other fundamental tables, to all users.
+    description: When a user creates a new database, that user is assigned only one permission set automatically.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -57,6 +57,6 @@ When a user creates a new database, that user is assigned only one permission se
 
 9. On the **Home** tab, in the **Process** group, choose **Apply Package**.  
 
-You can also modify permission sets directly in the Microsoft Dynamics NAV Windows client. For more information, see How to: Create or Modify Permission Sets. In addition, if you are upgrading from an earlier version of Microsoft Dynamics NAV, you can upgrade permissions and roles as part of the upgrade process. For more information, see Upgrading Data Common to All Companies.
+You can also modify permission sets directly in the Microsoft Dynamics NAV Windows client. For more information, see How to: Create or Modify Permission Sets. In addition, if you are upgrading from an earlier version of [!INCLUDE[d365fin](includes/d365fin_md.md)], you can upgrade permissions and roles as part of the upgrade process. For more information, see Upgrading Data Common to All Companies.
 
 ## See Also  

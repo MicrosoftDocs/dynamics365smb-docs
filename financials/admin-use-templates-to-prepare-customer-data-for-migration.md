@@ -44,5 +44,5 @@ The following table describes the sequence of tasks with links to topics that de
 |Use a configuration data template on a record.|[Use a Configuration Template on a Record](admin-how-to-use-a-configuration-template-on-a-record.md)|  
 
 ## See Also  
-[Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart)  
+[Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)

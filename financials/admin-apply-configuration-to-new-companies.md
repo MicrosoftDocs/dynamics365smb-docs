@@ -25,7 +25,7 @@ After you have created a configuration package, the next step is to deploy the p
 |Create a new company in the ***|  
 |Import and apply a configuration package to a new company.|[Configure New Companies](admin-how-to-configure-new-companies.md)|  
 |Help a customer complete their own configuration.|[Configure a Company with the RapidStart Wizard](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md)|  
-|Apply journal entries.|[Create Journal Opening Balances](admin-how-to-create-journal-opening-balances.md)|  
+|Apply journal entries.||  
 
 ## See Also  
  [Set Up Company Configuration](admin-set-up-company-configuration.md)

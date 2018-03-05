@@ -19,7 +19,7 @@
 When you select an existing data template, you must evaluate whether the template that you created for the new company are sufficient for the customer. Review the provided fields and values to determine which templates are appropriate for a new company.  
 
 > [!TIP]  
->  You can also use data templates to create new records quickly. Use them for faster and more accurate data creation. For more information, see [Create Cards by Using Data Templates](admin-how-to-create-cards-by-using-data-templates.md).  
+>  You can also use data templates to create new records quickly. Use them for faster and more accurate data creation. For more information, see [Register New Items](inventory-how-register-new-items.md).
 
 ### To select a data template  
 

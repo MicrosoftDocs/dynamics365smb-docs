@@ -1,6 +1,6 @@
 ---
     title: How to Configure New Companies using a Cmdlet | Microsoft Docs
-    description: In a number of scenarios, you may want to load and import a configuration package without involving your users or using the RapidStart Services user interface. You can do so by using a Windows PowerShell cmdlet. Scenarios where this may be useful include:
+    description: In a number of scenarios, you may want to load and import a configuration package without involving your users or using the RapidStart Services user interface. You can do so by using a Windows PowerShell cmdlet.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

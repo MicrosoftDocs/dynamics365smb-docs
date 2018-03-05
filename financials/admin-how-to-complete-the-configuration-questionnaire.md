@@ -60,6 +60,6 @@ You use the setup questionnaire to structure and document a detailed discussion 
 4.  Choose the **OK** button to close the questionnaire.  
 
 ## See Also  
- [Create a New Company](admin-how-to-create-a-new-company.md)   
+ [Changing Basic Settings](ui-change-basic-settings.md)   
  [Validate the Configuration Questionnaire](admin-how-to-validate-the-configuration-questionnaire.md)   
  [Create Configuration Questionnaires](admin-how-to-create-configuration-questionnaires.md)

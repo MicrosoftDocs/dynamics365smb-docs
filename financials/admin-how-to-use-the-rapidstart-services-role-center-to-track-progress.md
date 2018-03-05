@@ -40,5 +40,5 @@ In the **Configuration Areas** part, [!INCLUDE[d365fin](includes/d365fin_md.md)]
 2. To see a list of tables with a particular status, select the appropriate filtered view.  
 
 ## See Also  
-[Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart)  
+[Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)

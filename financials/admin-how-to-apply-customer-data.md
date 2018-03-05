@@ -27,5 +27,5 @@ When you have all imported data migration records that are valid and have no err
 The customer’s company database is now set up and basic data is imported. Your next steps in the implementation process are to train users, define processes, create additional data, customize reports, and so on.  
 
 ## See Also  
- [Administration in the Development Environment](admin-Administration%20in%20the%20Development%20Environment.md)   
+ [Administration in the Development Environment]   
  [Clean Up and Process Data](admin-how-to-clean-up-and-process-data.md)

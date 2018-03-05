@@ -1,5 +1,5 @@
 ---
-    title: Troubleshooting: RapidStart Services | Microsoft Docs
+    title: Troubleshooting - RapidStart Services | Microsoft Docs
     description: This topic describes some common problems that you may see when you use RapidStart Services.
     services: project-madeira
     documentationcenter: ''

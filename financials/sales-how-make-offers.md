@@ -22,7 +22,7 @@ While you negotiate with the customer, you can change and resend the sales quote
 You can fill customer fields on the sales quote in two ways depending on whether the customer is already registered. See steps 2 and 3 in the following procedure.
 
 ## To create a sales quote
-On the Home page,  choose the **Sales Quote** action.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Quotes**, and then choose the related link.
 2. In the **Customer** field, enter the name of an existing customer.
 
    Other fields in the **Sales Quote** window contain standard information of the selected customer. If the customer is not registered, follow these steps:

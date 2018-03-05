@@ -30,7 +30,7 @@ The Microsoft Pay, PayPal Payments Standard, and WorldPay Payments Standard exte
 6. Close the window.  
 
 ## To select a payment service on a sales invoice
-1. On the Home page, choose **Sales Invoices**.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Invoices**, and then choose the related link.  
 2. Open the sales invoice that you want to pay by using the payment service.  
 3. In the **Payment Service** field, choose the payment service.  
 

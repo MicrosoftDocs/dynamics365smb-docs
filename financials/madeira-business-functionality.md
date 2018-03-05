@@ -18,7 +18,7 @@ ms.author: sgroespe
 # Business Functionality
 [!INCLUDE[d365fin](includes/d365fin_md.md)] provides functionality for common business processes in small and mid-sized companies, mainly within wholesale and professional services. However, more complex processes, such as assembly, manufacturing, service, and directed warehouse management are also supported.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] includes standard configurations for most business processes, but you can change the configuration to suit your business' needs. From your Home page, you can access assisted setup guides that help you configure certain scenarios and add features to [!INCLUDE[d365fin](includes/d365fin_md.md)]. Several areas of business functionality must be set up manually. For more information, see [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] includes standard configurations for most business processes, but you can change the configuration to suit your business' needs. From your Role Center, you can access assisted setup guides that help you configure certain scenarios and add features to [!INCLUDE[d365fin](includes/d365fin_md.md)]. Several areas of business functionality must be set up manually. For more information, see [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
 The following table describes a sequence of tasks, with links to the topics that describe them.
 

@@ -96,7 +96,7 @@ With this update, you can choose between even more extensions in the **Extension
 For more information, see [[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensions by Other Providers](ui-extensions-other.md).  
 
 ### Manage your customer relationships using Microsoft Dynamics 365 for Sales from inside [!INCLUDE[d365fin](includes/d365fin_md.md)]
-We have added a new assisted setup guide to the Business Manager home page that guides you through the setup process to connect to Dynamics 365 for Sales. Once that is done, you will have a seamless coupling of Dynamics 365 for Sales records with [!INCLUDE[d365fin](includes/d365fin_md.md)] records. For more information, see [Manage your customer relationships using Microsoft Dynamics 365 for Sales from inside [!INCLUDE[d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
+We have added a new assisted setup guide to the Business Manager Role Center that guides you through the setup process to connect to Dynamics 365 for Sales. Once that is done, you will have a seamless coupling of Dynamics 365 for Sales records with [!INCLUDE[d365fin](includes/d365fin_md.md)] records. For more information, see [Manage your customer relationships using Microsoft Dynamics 365 for Sales from inside [!INCLUDE[d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
 
 ## May 2016 Update
 This update of [!INCLUDE[d365fin](includes/d365fin_md.md)] added new capabilities as [announced on the blog](https://community.dynamics.com/business/b/financials/archive/2016/06/01/new-and-updated-capabilities-in-the-first-update-of-project-quot-madeira-quot).  

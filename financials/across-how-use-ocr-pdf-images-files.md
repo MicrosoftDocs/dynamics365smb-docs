@@ -51,16 +51,12 @@ If you are not using a job queue, or you want to receive a finished OCR document
 > [!NOTE]  
 >   If the OCR service is set up to require manual verification of processed documents, then the **OCR Status** field will contain **Awaiting Verification**. In that case, perform the following steps to log in to the OCR service website to manually verify an OCR document.
 
-1. In the **OCR Status** field, choose the **Awaiting Verification** hyperlink. Alternatively, choose the **Awaiting Verification** tile on the Home page.
+1. In the **OCR Status** field, choose the **Awaiting Verification** hyperlink.
 2. On the OCR service website, log in using the credentials of your OCR service account. These are the credentials you also used when setting up the service. For more information, see the "To set up an OCR service" section in [Set Up Incoming Documents](across-how-setup-income-documents.md).
-
-    If you access the website from the **OCR Status** field, the document in question is displayed immediately after your sign in. If you access the website by choosing the tile on the Home page, on the first OCR service page that opens, you must choose the **Start** button on the **Verify** tab or double-click the document that you want to verify.
 
     Information for the OCR document is displayed, showing both the source content of the PDF or image file and the resulting OCR field values.
 3. Review the various field values and manually edit or enter values in fields that the OCR service has tagged as uncertain.
 4. Choose the **OK** button. The OCR process is completed and the resulting electronic document is sent to the **Incoming Documents** window in [!INCLUDE[d365fin](includes/d365fin_md.md)],  according to the job queue schedule.
-
-    If you access the website by choosing the tile on the Home page, then any other OCR document to be verified is automatically displayed on the website.
 5. Repeat step 4 for any other OCR document to be verified.
 
 Now you can proceed to create document records for the received electronic documents in [!INCLUDE[d365fin](includes/d365fin_md.md)], manually or automatically. For more information, see the next procedure. You can also connect the new incoming document record to existing posted or non-posted document so that the source file is easy to access from [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Process Incoming Documents](across-process-income-documents.md).

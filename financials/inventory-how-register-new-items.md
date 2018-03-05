@@ -29,7 +29,7 @@ An item can be structured as a parent item with underlying child items in a bill
 If you purchase the same item from more than one vendor, you can connect those vendors to the item card. The vendors will then appear in the **Item Vendor Catalog** window, so that you can easily select an alternate vendor.
 
 ## To create a new item card
-1. On the Home page, choose the **Items** action to open the list of existing items.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
 2. In the **Items** window, choose the **New** action.
 
     If only one item template exists, then a new item card opens with some fields filled with information from the template.

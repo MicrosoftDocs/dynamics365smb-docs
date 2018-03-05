@@ -36,7 +36,7 @@ Items can be both inventory items and services, denoted by the **Item - Inventor
 You can fill customer fields on the sales order in two ways depending on whether the customer is already registered. See steps 2 and 3 in the following procedure.
 
 ## To create a sales order
-1. On the Home page,  choose the **Sales Order** action.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link. 
 2. In the **Customer** field, enter the name of an existing customer.
 
     Other fields in the **Sales Order** window are now filled with the standard information of the selected customer. If the customer is not registered, then follow these steps:

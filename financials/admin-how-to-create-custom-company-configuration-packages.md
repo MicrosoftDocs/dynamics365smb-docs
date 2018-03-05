@@ -49,5 +49,5 @@ To see a complete list of setup tables, Choose the ![Search for Page or Report](
 9.  Export your package as a .rapidstart file.  
 
 ## See Also  
-[Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart)  
+[Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)

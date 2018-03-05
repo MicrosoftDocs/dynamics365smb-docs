@@ -36,5 +36,5 @@ The following table describes the sequence of tasks with links to topics that de
 |Apply validated customer information to the [!INCLUDE[d365fin](includes/d365fin_md.md)] databas.|[Apply Customer Data](admin-how-to-apply-customer-data.md)|  
 
 ## See Also  
-[Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart)  
+[Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)

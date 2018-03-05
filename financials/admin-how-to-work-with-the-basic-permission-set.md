@@ -22,11 +22,6 @@ When a user creates a new database, that user is assigned only one permission se
 
  The BASIC permission set and permissions, as well as other permission sets, are provided in an XML file, examples of which are included with the [!INCLUDE[d365fin](includes/d365fin_md.md)]. If you want to extend them with new permission sets or permissions, you can modify them.  
 
-> [!NOTE]  
->  Another prerequisite permission set is the FOUNDATION permission set.  
->   
->  If you want to use the UI Elements Removal feature to automatically remove UI elements according to user permissions, it is recommended that you use the FOUNDATION permission set together with the relevant application permission sets. For more information, see [Removing Elements from the User Interface According to Permissions](admin-removing-elements-from-the-user-interface-according-to-permissions.md).  
-
 ## Modifying the BASIC Permission Set with Default Permissions  
  Before beginning the following procedure, you have to install [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 

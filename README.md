@@ -264,7 +264,7 @@ All fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] have tooltips. Therefo
 |Select a Company|ui-how-select-company.md|
 |Enter Criteria in Filters|ui-enter-criteria-filters.md|
 |Troubleshooting: Record Locked by Another User|ui-troubleshoot-record-locked-another-user.md|
-|Changing Role Center|ui-change-role-center.md|
+[Changing Basic Settings](ui-change-basic-settings.md)
 |Sales|sales-manage-sales.md|
 |Set Up Currencies|finance-setup-currencies.md|
 |Set Up Purchasers|purchases-how-setup-purchasers.md|

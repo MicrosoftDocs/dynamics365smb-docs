@@ -30,5 +30,5 @@ After you modify the batch job, use the following procedure to process the data.
 3.  To apply the mapping that you have set up, choose the **Apply Data** action.  
 
 ## See Also  
- [Map Customer Data](../how-to-map-customer-data.md)   
- [Apply Customer Data](../how-to-apply-customer-data.md)
+ [Map Customer Data](admin-how-to-map-customer-data.md)   
+ [Apply Customer Data](admin-how-to-apply-customer-data.md)

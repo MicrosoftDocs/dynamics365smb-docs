@@ -1,6 +1,6 @@
 ---
     title: How to Apply Answers from the Configuration Questionnaire | Microsoft Docs
-    description: After you have imported and validated information from a setup questionnaire, you can transfer, or apply the setup data to the corresponding tables in the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.
+    description: After you have imported and validated information from a setup questionnaire, you can transfer, or apply the setup data to the corresponding tables in the Business Central database.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -54,4 +54,4 @@ After you have imported and validated information from a setup questionnaire, yo
  You have now configured setup with the customer’s business information and rules.  
 
 ## See Also  
- [Gather Customer Setup Values](../gather-customer-setup-values.md)
+ [Gather Customer Setup Values](admin-gather-customer-setup-values.md)

@@ -18,7 +18,7 @@ Central administration tasks are usually performed by one role in the company. T
 
 Entering the correct setup values from the start is important to the success of any new business software. [!INCLUDE[d365fin](includes/d365fin_md.md)] includes a number of setup guides that help you set up core data. For more information, see [Setting Up Finance and Operations, Business edition](setup.md).
 
-<!--Whether you use [!INCLUDE[rim](../../includes/rim_md.md)] to implement setup values or you manually enter them in the new company, you can support your setup decisions with some general recommendations for selected setup fields that are known to potentially cause the solution to be inefficient if defined incorrectly.-->  
+Whether you use RapidStart Services to implement setup values or you manually enter them in the new company, you can support your setup decisions with some general recommendations for selected setup fields that are known to potentially cause the solution to be inefficient if defined incorrectly.  
 
 A super user or an administrator can set up the Data Exchange Framework to enable users to export and import data in bank and payroll files, for example for various cash management processes.  
 
@@ -33,7 +33,8 @@ The following table describes a sequence of tasks, with links to the topics that
 |Track all direct modifications that users make to data in the database to identify the origin of errors and data changes.|[Logging Changes](across-log-changes.md)|  
 |Enter single or recurring requests to run reports or codeunits.|[Using Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)|  
 |Manage, delete, or compress documents|[Deleting Documents](admin-manage-documents.md)|  
-|Expose pages, codeunits, and queries as web services.|[Publishing a Web Service](across-how-publish-web-service.md)|  
+|Expose pages, codeunits, and queries as web services.|[Publishing a Web Service](across-how-publish-web-service.md)|
+|Shorten deployment times, improve quality of implementation, introduce a repeatable approach to implementations, and enhance productivity by automating and simplifying recurring setup tasks.|[Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart)|  
 
 ## See Also
 [Business Functionality](madeira-business-functionality.md)  

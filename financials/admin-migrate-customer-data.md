@@ -1,6 +1,6 @@
 ---
     title: Migrate Customer Data | Microsoft Docs
-    description: You can migrate existing customer data from an existing ERP system to ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/rimlong_md.md)]-->. You can use Excel .xlsx files as the data carrier. You can also manually move the data by entering it directly into the company.
+    description: You can migrate existing customer data from an existing ERP system to Business Central using RapidStart Services . You can use Excel .xlsx files as the data carrier. You can also manually move the data by entering it directly into the company.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

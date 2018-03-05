@@ -41,7 +41,7 @@ You can use a questionnaire to help you determine the scope and needs of configu
 -   Warehouse Setup  
 
 > [!NOTE]  
->  To see a complete list of setup tables, Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Setup**, and then choose the related link. To determine the scope of migration of records data, use migration functionality. For more information, see [Migrating Customer Data](../migrate-customer-data.md).  
+>  To see a complete list of setup tables, Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Setup**, and then choose the related link. To determine the scope of migration of records data, use migration functionality. For more information, see [Migrating Customer Data](admin-migrate-customer-data.md).  
 
 ### To create a custom configuration questionnaire  
 
@@ -77,4 +77,4 @@ You can use a questionnaire to help you determine the scope and needs of configu
 12. Choose the **Close** button.  
 
 ## See Also  
- [Complete the Configuration Questionnaire](../how-to-complete-the-configuration-questionnaire.md)
+ [Complete the Configuration Questionnaire](admin-how-to-complete-the-configuration-questionnaire.md)

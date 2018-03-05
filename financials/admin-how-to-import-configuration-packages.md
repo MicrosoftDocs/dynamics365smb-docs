@@ -23,7 +23,7 @@ When you create a new company, you can import company settings for the new compa
 
  The RapidStart Services migration tools can be applied to any table. Use the migration tools for fast and accurate data transfer.  
 
- Before you start, make sure that you are on the ADD INCLUDE<!--[!INCLUDE[rim](../../includes/how-to-change-role-centers.md). Choose the RapidStart Profile ID.  
+ Before you start, make sure that you are on the RapidStart Services Implementer Role Center.
 
 > [!IMPORTANT]  
 >  When exporting and importing configuration packages between two company databases, the databases should have the same schema to make sure that all data is transferred successfully. This means that the databases should have the same table and field structure, in which the tables have the same primary keys and fields have the same IDs and data types.  
@@ -52,7 +52,7 @@ When you create a new company, you can import company settings for the new compa
  If the selection of tables does not meet your needs, you can create one or more new data migration files. If the files are sufficient, you can continue with the data migration using .xls or .xml files.  
 
 ## See Also  
- [Create and Modify the Migration Tables List](../how-to-create-and-modify-the-migration-tables-list.md)   
- [Import Customer Data](../how-to-import-customer-data.md)   
- [Create and Modify the Migration Tables List](../how-to-create-and-modify-the-migration-tables-list.md)   
- [Create a Configuration Package](../how-to-create-a-configuration-package.md)
+ [Create and Modify the Migration Tables List](admin-how-to-create-and-modify-the-migration-tables-list.md)   
+ [Import Customer Data](admin-how-to-import-customer-data.md)   
+ [Create and Modify the Migration Tables List](admin-how-to-create-and-modify-the-migration-tables-list.md)   
+ [Create a Configuration Package](admin-how-to-create-a-configuration-package.md)

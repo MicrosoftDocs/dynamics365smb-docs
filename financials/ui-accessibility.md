@@ -45,7 +45,7 @@ This topic provides information about the features that make [!INCLUDE[d365fin](
 -->
 
 ##  <a name="Navigation"></a> Navigation  
- You can navigate between the tabs and actions in the ribbon, elements in the navigation pane, and other controls on [!INCLUDE[d365fin](includes/d365fin_md.md)] pages and reports using the keyboard. To move the focus from one tab, action, or control to another, press the Tab key to move forward. Press Shift+Tab to move backward.  
+ You can navigate between the tabs and actions in the ribbon, elements in the navigation bar, and other controls on [!INCLUDE[d365fin](includes/d365fin_md.md)] pages and reports using the keyboard. To move the focus from one tab, action, or control to another, press the Tab key to move forward. Press Shift+Tab to move backward.  
 
  By using the tab order, you can also switch between the main browser window and dialog boxes that request confirmation, for example, or the login window.  
 

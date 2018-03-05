@@ -18,7 +18,10 @@ ms.author: solsen
 When you sign up for the [!INCLUDE[d365fin](includes/d365fin_md.md)] preview you get access to a demonstration company. The demonstration company contains sample data, but you can create your own sales documents, for example, or set up a bank account.  
 
 ## Get to know [!INCLUDE[d365fin](includes/d365fin_md.md)]
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], some things will be familiar to you, and other things might be unfamiliar. In the demonstration company, visual guides explain core functionality, and help you try out daily tasks like creating a sales invoice and viewing a report. If you leave a guide, for example, to explore [!INCLUDE[d365fin](includes/d365fin_md.md)] on your own, but want to return to it, go back to the Home page and launch the Getting Started tour.  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], some things will be familiar to you, and other things might be unfamiliar. In the demonstration company, visual guides explain core functionality, and help you try out daily tasks like creating a sales invoice and viewing a report. If you leave a guide, for example, to explore [!INCLUDE[d365fin](includes/d365fin_md.md)] on your own, but want to return to it, go back to the Role Center home page and launch the Getting Started tour.
+
+> [!TIP]  
+> You can get back to the Role Center home page by selecting the company name in the upper left corner.
 
 For some quick, nice-to-know tricks, see:  
 
@@ -30,10 +33,12 @@ For more information, see [Working with [!INCLUDE[d365fin](includes/d365fin_md.m
 
 When you are ready to start working and you want to look at some of the business processes that [!INCLUDE[d365fin](includes/d365fin_md.md)] supports, see [Business Functionality](madeira-business-functionality.md). For an overview of current capabilities and what is coming, take a look at our roadmap at [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
 
-## The Home pages
-Home pages use a role-centric design to give you fast access to the business process and intelligence tools that you need to do your job. For example, an accountant can monitor payments and approvals, and view finance performance charts. Check out the various Home pages by choosing the **Settings** icon ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") in the top right corner,  choosing **My Settings**, and then the Role Center to explore. Sign in again to apply the change. For more information, see [Changing Basic Settings](ui-change-basic-settings.md).  
+## The Role Center home pages
+The Role Center home pages use a role-centric design to give you fast access to the business process and intelligence tools that you need to do your job. For example, an accountant can monitor payments and approvals, and view finance performance charts. Check out the various Role Center home pages by choosing the **Settings** icon ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") in the top right corner,  choosing **My Settings**, and then the Role Center to explore. Sign in again to apply the change. For more information, see [Changing Basic Settings](ui-change-basic-settings.md).
 
-Each Home page provides a **Setup and Extensions** button. Here you have access to a list of assisted setup that can help you get started by setting selected areas up quickly. If an area is not covered by an assisted setup, choose the **Manual Setup** action to access setup windows where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+
+
+Each Role Center home page provides a **Setup and Extensions** button. Here you have access to a list of assisted setup that can help you get started by setting selected areas up quickly. If an area is not covered by an assisted setup, choose the **Manual Setup** action to access setup windows where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 > [!NOTE]  
 >   The list of setup guides, extensions, and services that are available differ depending on the user experience you choose for your company. The **Basic** experience gives access to fewer than the **Essential** experience does. The first time you sign in, you use the Basic experience. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).  
@@ -59,7 +64,7 @@ In the **Assisted Setup** window, you will find the following with the **Essenti
 ## Trying things out in your own company
 Thinking about subscribing? You can easily change from the demonstration company, and create and work in a company of your own. This is a great way to start toward a subscription. Setups for finances are provided; you just need to create or import your customers, vendors, and the products or services that you sell. After that, you're ready to post invoices and use business intelligence tools to analyze your business. You can use your company for free for a 30-day trial period. If you subscribe to [!INCLUDE[d365fin](includes/d365fin_md.md)] during that time, you're already up and running. You can continue with the work you did during the trial.  
 
-To create a company to try things out, go to the **My Settings** menu in the top right corner, and change the company to **My Company**. Sign out of [!INCLUDE[d365fin](includes/d365fin_md.md)] and then sign in again to apply the change. An assisted setup guide will help you provide basic information about your company. When that's done, explore the Home page and find the **Assisted Setup** action.  
+To create a company to try things out, go to the **My Settings** menu in the top right corner, and change the company to **My Company**. Sign out of [!INCLUDE[d365fin](includes/d365fin_md.md)] and then sign in again to apply the change. An assisted setup guide will help you provide basic information about your company. When that's done, explore the Role Center home page and find the **Assisted Setup** action.  
 
 ## Ready to subscribe?
 Each time you sign in during the trial period, a notification in a blue bar at the top displays the time remaining. If you decide to subscribe, use the link in the notification to get in touch with Microsoft. You can also contact the [!INCLUDE[d365fin](includes/d365fin_md.md)] Sales team](https://go.microsoft.com/fwlink/?linkid=828707).  

@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.date: 07/14/2017
+ms.date: 03/02/2018
 ms.author: edupont
 
 ---
@@ -45,6 +45,7 @@ For example, your company address is included in invoices and other documents, y
 Once you have the basics in place, you can set up remaining core areas. Then, you are ready to add business data, such as customers and vendors. For more information, see [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 ## See Also
+[Customizing Finance and Operations, Business edition](ui-customizing-overview.md)  
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Importing Business Data from Other Finance Systems](upload-data.md)  
 [Changing Basic Settings](ui-change-basic-settings.md)  

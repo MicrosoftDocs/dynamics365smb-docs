@@ -55,4 +55,4 @@ When you create a new company, you can import company settings for the new compa
  [Create and Modify the Migration Tables List](admin-how-to-create-and-modify-the-migration-tables-list.md)   
  [Import Customer Data](admin-how-to-import-customer-data.md)   
  [Create and Modify the Migration Tables List](admin-how-to-create-and-modify-the-migration-tables-list.md)   
- [Create a Configuration Package](admin-how-to-create-a-configuration-package.md)
+ [Prepare a Configuration Package](admin-how-to-prepare-a-configuration-package.md)

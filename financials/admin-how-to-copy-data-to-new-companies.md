@@ -24,7 +24,7 @@ You can copy commonly used values from an existing company to a new one, as long
 
 2.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Worksheet**, and then choose the related link.  
 
-3.  On the **Actions** tab, in the **Functions** group, choose **Copy Data from Company**.  
+3.  On the **Actions** tab, in the **Functions** group, choose **Copy Data Company**.  
 
 4.  In the **Copy Company Data** window, choose a company to copy from in the **Copy From** field. Choose the **OK** button.  
 

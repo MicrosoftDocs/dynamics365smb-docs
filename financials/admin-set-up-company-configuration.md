@@ -30,13 +30,9 @@ The following table describes the sequence of tasks with links to topics that de
 
 |**To**|**See**|  
 |------------|-------------|  
-|Plan a configuration.|[Manage Company Configuration in a Worksheet](admin-how-to-manage-company-configuration-in-a-worksheet.md)|  
-|Create configuration package.|[Create a Configuration Package](admin-how-to-create-a-configuration-package.md)|  
-|Gather and categorize the information that you want to use to configure a new company and arrange tables in a logical way in the **Configuration Worksheet** window.|[Customize a Package or Worksheet](admin-how-to-customize-a-package-or-worksheet.md)|  
-|Assign your defined tables to configuration packages in the **Configuration Worksheet** window.|[Assign a Configuration Package](admin-how-to-assign-a-configuration-package.md)|  
-|Modify configuration data.|[Review and Customize Existing Database Data](admin-how-to-review-and-customize-existing-database-data.md)|  
-|Modify permission sets with default permissions using RapidStart Services.|[Work with the BASIC Permission Set](admin-how-to-work-with-the-basic-permission-set.md)|  
-|Create a new company and copy data to a production environment.|[Copy Data from Test Environment to Production Environment](admin-how-to-copy-data-from-test-environment-to-production-environment.md)|  
+|Plan a company configuration by filling in the configuration worksheet.|[Manage Company Configuration in a Worksheet](admin-how-to-manage-company-configuration-in-a-worksheet.md)|  
+|Create a configuration package, customize a package, assign tables to a package, review or edit existing customer data, create the new company and then move test data to the production environment.|[Prepare a Configuration Package](admin-how-to-prepare-a-configuration-package.md)|  
+|Modify permission sets with default permissions using RapidStart Services.|[Modify Permission Sets with Default Permissions Using RapidStart](admin-how-to-modify-permission-set-with rapid-start.md)|  
 
 ## See Also  
 [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  

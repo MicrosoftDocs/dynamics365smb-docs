@@ -41,4 +41,4 @@ Users can start to use the new functionality immediately.
 [Apply Configurations to New Companies](admin-apply-configuration-to-new-companies.md)  
 [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)  
-[Microsoft Dynamics NAV Windows PowerShell Cmdlets](-dynamics-nav/microsoft-dynamics-nav-windows-powershell-cmdlets)
+[Microsoft Dynamics NAV Windows PowerShell Cmdlets](/dynamics-nav/microsoft-dynamics-nav-windows-powershell-cmdlets)

@@ -22,7 +22,7 @@ After you have created a configuration package, the next step is to deploy the p
 
 |**To**|**See**|  
 |------------|-------------|  
-|Create a new company in which to perform a customer implementation.|[Create a New Company](admin-how-create-new-company.md)|  
+|Create a new company in which to perform a customer implementation.|[Create a New Company](admin-how-to-create-a-new-company.md)|  
 |Import and apply a configuration package to a new company.|[Configure New Companies](admin-how-to-configure-new-companies.md)|  
 |Help a customer complete their own configuration.|[Configure a Company with the RapidStart Wizard](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md)|
 |Load and import a configuration package without involving your users or using the RapidStart Services user interface.|[Configure New Companies using a Cmdlet](admin-how-to-configure-new-companies-using-a-cmdlet.md)|

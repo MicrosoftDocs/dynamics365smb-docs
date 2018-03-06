@@ -16,7 +16,7 @@ ms.author: bholtorf
 ---
 
 # The Essential Business Insights Extension for Finance and Operations, Business edition
-The Essential Business Insights extension finds interesting business facts in your company data and displays them as newspaper-like headlines in Role Centers. Depending on what the extension finds in the data, the insights are from the last week, month, or three months. 
+The Essential Business Insights extension finds interesting business facts in your company data and displays them as newspaper-like headlines in Role Centers. Depending on what the extension finds in the data, the insights are from the last week, month, or three months from the current date. 
 
 If you want to take a closer look at an insight, you can choose it to go to its source. For example, if you want details about the largest sales invoice that was posted last week, you can choose the insight to display the invoice.
 

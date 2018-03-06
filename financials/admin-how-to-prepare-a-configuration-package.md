@@ -30,7 +30,7 @@ Make sure that you are on the RapidStart Services Implementer Role Center. For m
 ## To create a configuration package  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Packages**, and then choose the related link.  
 2. Choose the **New** action.  
-3. On the **General** FastTab, fill in the fields as appropriate. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]  
+3. On the **General** FastTab, fill in the fields as appropriate. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. To exclude the configuration questionnaires, configuration templates, and configuration worksheet tables from the package, select the **Exclude Configuration Tables** check box. Otherwise, these tables will be added to the list of package tables automatically when you export the package.  
 5. Choose the **Get Tables** action. The **Get Package Tables** batch job window opens.  
 6. Choose the **Select Tables** field. The **Config. Selection** window opens.  

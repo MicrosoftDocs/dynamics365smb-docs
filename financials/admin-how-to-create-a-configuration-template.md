@@ -109,6 +109,5 @@ To help your customer use the configuration package, you may want to add a quest
 5.  Choose the **OK** button.  
 
 ## See Also  
- [Assign a Configuration Package](admin-how-to-assign-a-configuration-package.md)   
-  [Manage Company Configuration in a Worksheet](admin-how-to-manage-company-configuration-in-a-worksheet.md)   
+ [Manage Company Configuration in a Worksheet](admin-how-to-manage-company-configuration-in-a-worksheet.md)   
  [Import Configuration Packages](admin-how-to-import-configuration-packages.md)

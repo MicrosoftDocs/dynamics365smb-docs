@@ -37,6 +37,7 @@ You can use the following components to speed the setup of a new company:
 |------------|-------------|  
 |Set up the main user interface RapidStart Services.|[Use the RapidStart Services Role Center to Track Progress](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md)|  
 |Create a new company and import basic setup data and templates.|[Set Up Company Configuration](admin-set-up-company-configuration.md)|  
+|Deploy the configured package to your customer for implementation.|[Apply Configurations to New Companies](admin-apply-configuration-to-new-companies.md)|
 |Define and validate your customer’s system setup values for company information, fixed assets, general ledger, inventory, manufacturing, purchases and payables, relationship management, service management, sales and receivables, and warehouse.|[Gather Customer Setup Values](admin-gather-customer-setup-values.md)|  
 |Configure core master data records that are based on templates to prepare to migrate existing customer data.|[Use Templates to Prepare Customer Data for Migration](admin-use-templates-to-prepare-customer-data-for-migration.md)|  
 |Define tables and fields, validate existing customer data, and migrate data into the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.|[Migrate Customer Data](admin-migrate-customer-data.md)|  

@@ -37,7 +37,7 @@ Another approach would be to create a package that includes the tables that defi
 
 To see a complete list of setup tables, Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Setup**, and then choose the related link.  
 
-## To create a company package  
+## To create a custom company configuration package  
 1.  Create a new [!INCLUDE[d365fin](includes/d365fin_md.md)]. ***NOT POSSIBLE Link to help for "Creating a New Tenant"***.   
 2.  Create a new company for the industry or solution template. For more information, see [Changing Basic Settings](ui-change-basic-settings.md).  
 3.  Setup the new company in the way you need. Fill in all required setup tables.  

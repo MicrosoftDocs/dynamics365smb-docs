@@ -96,3 +96,5 @@ Optionally, you can assign bank accounts to each customer and vendor. This helps
  [Test Electronic Payments](how-to-test-electronic-payments.md)   
  [Manage Electronic Payment Lines](how-to-manage-electronic-payment-lines.md)   
  [Print Payment Files](how-to-print-payment-files.md)
+ [Summarizing Payment Lines and General Journal Lines](summarizing-payment-lines-and-general-journal-lines.md)
+ 

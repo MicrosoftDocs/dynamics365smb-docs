@@ -25,9 +25,9 @@ The following table describes the insights that this extension provides for each
 |Role Center|Questions the Insights Answer|
 |----|-----|
 |Default|Displays a greeting, and link to product information.|
-|Business Manager|<li> What was the most popular item last week, month, or last three months, and how many did we sell?<br><li> What was the largest sale order and invoice last week, month, or last three months?<br><li> Who, or what, was the busiest resource, and what were the bookings?<br><li> Have sales gone up or down in the last week, month, or three months, compared to the same period last year?</li><br> |
-|Accountant| What was the largest sale order and invoice last week, month, or last three months? |
-|Order Processor| What was the largest sale order and invoice last week, month, or last three months?|
+|Business Manager|<li> What was the most popular item last week, month, or last three months, and how many did we sell?<br><li> What was the largest sale order last week, month, or last three months?<br><li> Who, or what, was the busiest resource, and what were the bookings?<br><li> Have sales gone up in the last week, month, or three months, compared to the same period last year?<br><li> What was the biggest sales invoice we posted last week, month, or last three months, and to which customer did we send the bill?</li> |
+|Accountant|<li> What was the largest sales order and posted invoice last week, month, or last three months?<br><li> Have sales gone up in the last week, month, or three months, compared to the same period last year? |
+|Order Processor| What was the largest sale order and posted invoice last week, month, or last three months?|
 |Relationship Manager| What was the largest invoiced amount, and to which customer did we send the bill?|
 |Team Member| Displays a greeting, and link to product information.|
 |Project Manager| Displays a greeting, and link to product information.|

@@ -1,6 +1,6 @@
 ---
     title: Migrate Customer Data | Microsoft Docs
-    description: You can migrate existing customer data from an existing ERP system to Business Central using RapidStart Services . You can use Excel .xlsx files as the data carrier. You can also manually move the data by entering it directly into the company.
+    description: You can migrate existing customer data from an existing ERP system to Business Central using RapidStart Services. You can use Excel .xlsx files as the data carrier. You can also manually move the data by entering it directly into the company.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -11,29 +11,214 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 03/05/2018
+    ms.date: 03/07/2018
     ms.author: sgroespe
 
 ---
-# Migrating Customer Data
+# Migrate Customer Data
 You can migrate existing customer data from an existing ERP system to [!INCLUDE[d365fin](includes/d365fin_md.md)] using the data migration tools of RapidStart Services. You can use Excel .xlsx files as the data carrier. You can also manually move the data by entering it directly into the company.
 
-The **Migration Overview** window and the **Configuration worksheet** provide access to the functions and views to perform all the tasks that relate to data migration. We recommend that you migrate one table at a time, to handle dependencies in your data. In migration, you will also touch the master data tables, which contain information about customers, vendors, items, contacts, and the general ledger.  
+The **Migration Overview** and **Configuration Worksheet** windows provide access to the functions and views to perform all the tasks that relate to data migration. We recommend that you migrate one table at a time, to handle dependencies in your data. In migration, you will also touch the master data tables, which contain information about customers, vendors, items, contacts, and the general ledger.  
 
 > [!WARNING]  
 >  The **Apply Template** function overwrites existing data in a record. If this function is used in master data migration, it will overwrite the imported data when you create records.  
 
-The following table describes the sequence of tasks with links to topics that describe them.
+# To import configuration packages
+When you create a new company, you can import company settings for the new company. You import the settings from a .rapidstart file, which delivers the package contents in a compressed format. A corresponding set of default data migration tables are imported. The data set contains master data tables and the setup data tables. Your first task in data migration is to evaluate if the default migration setup meets the needs of the new company.
 
-|**To**|**See**|  
-|------------|-------------|  
-|Evaluate default data migration files and determine whether they meet the customer's needs.|[Import Configuration Packages](admin-how-to-import-configuration-packages.md)|  
-|Create new customized migration files if the default migration files do not meet the customer's needs.|[Create and Modify the Migration Tables List](admin-how-to-create-and-modify-the-migration-tables-list.md)|  
-|Export necessary migration files.|[Export Migration Tables](admin-how-to-export-migration-tables.md)|  
-|Automatically or manually capture customer information.|[Migrate Customer Data](admin-how-to-migrate-customer-data.md)|  
-|Import customer information into the [!INCLUDE[d365fin](includes/d365fin_md.md)] company.|[Import Customer Data](admin-how-to-import-customer-data.md)|  
-|Validate customer information and resolve errors before applying customer information to the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.|[Validate Customer Data](admin-how-to-validate-customer-data.md)|  
-|Apply validated customer information to the [!INCLUDE[d365fin](includes/d365fin_md.md)] databas.|[Apply Customer Data](admin-how-to-apply-customer-data.md)|  
+> [!NOTE]  
+>  You cannot rename a file that is not already a RapidStart Services configuration package as a .rapidstart configuration package file and then try to import it. If you try to do so, you will receive an error message.  
+
+The RapidStart Services migration tools can be applied to any table. Use the migration tools for fast and accurate data transfer.  
+
+ Before you start, make sure that you are on the RapidStart Services Implementer Role Center.
+
+> [!IMPORTANT]  
+>  When exporting and importing configuration packages between two company databases, the databases should have the same schema to make sure that all data is transferred successfully. This means that the databases should have the same table and field structure, in which the tables have the same primary keys and fields have the same IDs and data types.  
+>   
+>  You can import a configuration package that has been exported from a database that has a different schema than that target database. However, any tables or fields in the configuration package that are missing in the target database will not be imported. Tables that have different primary keys and fields that have different data types will also not be successfully imported. For example, if the configuration pack includes table **50000 Customer** that has primary key **Code20** and the database to which you import the pack includes table **50000 Customer Bank Account** that has the primary key **Code20 + Code 20**, data will not be imported.  
+
+1. Open the new company.  
+2. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Packages**, and then choose the related link.  
+3. Choose the **Import Package** action. Navigate to the .rapidstart package file that you want to import, and then choose the **Open** action. During import, the package contents are decompressed and the package record is created.  
+
+    When the import is complete, you can see the number of configuration tables that have been imported in the **No. of Tables** field.  
+4. To review the list of configuration tables, choose the **View** action.  
+5. To apply the package, choose the **Apply Package** action.  
+
+    > [!NOTE]  
+    >  The data migration information is based on configuration templates, if you specify one. You must update the template first to change the list of fields.  
+
+6.  To review the field selections, select a table, and then, on the **Lines** tab, choose the **Fields** action. Compare and review the number of fields that are available to the number of fields whose data has been applied.  
+
+If the selection of tables does not meet your needs, you can create one or more new data migration files. If the files are sufficient, you can continue with the data migration using .xls or .xml files.
+
+## To create a data migration file
+You can create new data migration files and customize them to support your business. Note that a file can only be used to migrate a field that has its **FieldClass** property set to **Normal**.  
+
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Package**, and then choose the related link.  
+2. Select and open the package that you want to use to migrate data, and then choose the **Get Tables** action. The **Get Package Table** window opens.  
+3. In the **TableID** field, enter a table number or select a table from the list, for example, table 18, **Customer**. The **Table Name** field is automatically filled in.  
+4. Select the new migration table, and then, on the **Tables** tab, choose the **Fields** action. The **Migration Fields** window opens.  
+5. Clear the **Include Field** check box for any field that you do not want to import, and then choose the **Set Included** or the **Clear Included** action.  
+
+> [!IMPORTANT]  
+>  If the **Include Field** check box is selected by default, that field is part of the primary key. The selection should not be cleared, or errors will be introduced and the record cannot be imported.  
+
+> [!IMPORTANT]  
+>  If you include a field that has a relationship with another table, the **Validate Field** check box is automatically selected. Validation can result in the update of other fields in this and other tables and is executed in the order of the field number.  
+
+A new migration table is created.  
+
+## To export data migration files
+When you have determined the tables for which you want to transfer customer data, you export the files.  
+
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Packages**, and then choose the related link.  
+2. Select and open the package that you want to use for export.
+3. Select the table or tables that you want to export, and then choose the **Export to Excel** action.
+4. Save the exported Excel file.  
+5. Repeat this procedure for all the relevant data migration tables. If you select multiple tables at the same time, the export of their data is into a common workbook.  
+
+If the table is empty, the resulting data migration file contains empty cells for the fields you selected when you chose or created migration tables for your new company. If the selected data migration table contains data, it will be exported.  
+
+## To map values to be used during import
+When you apply data that you have imported from Excel or from a RapidStart package, [!INCLUDE[d365fin](includes/d365fin_md.md)] treats and handles the mapping depends on table relations:  
+
+- If you define a mapping directly for a field in a table, then [!INCLUDE[d365fin](includes/d365fin_md.md)] uses it.  
+
+- If the field has a relation to another table, [!INCLUDE[d365fin](includes/d365fin_md.md)] searches for the mapping defined for the primary key field in the related table. The related table, however, must be part of the configuration package.  
+
+- If mapping information is defined in both places, for the field directly and for the primary key in the related table, then [!INCLUDE[d365fin](includes/d365fin_md.md)] will search for the mapping in both places.  
+
+- If the same mappings are defined directly for a field and in the related table, but have different new values, the mapping that is defined directly for the field takes priority over the mapping that is defined for the table that the field is referencing.  
+
+In the following procedures, you should review in advance which values you want to retain during the migration process. To perform the following procedures, you need data migration files (.xlsx) that you have exported from [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see the "To export data migration files" section.
+
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Packages**, and then choose the related link.
+2. Open the package for the company in question.  
+3. Select the table for which you want to map values, and then, on the **Tables** tab, choose the **Fields** action.  
+4. For each field that you want to map, choose the **Mapping** action.  
+5. In the **Old Value** field, enter the value that you want to change. In the **New Value** field, enter the value that you want the old value to be changed to. Choose the **OK** button.  
+6. Import the customer data. For more information, see the "To import customer data" section.
+7. In the **No. of Package Errors** field, see if there are any errors reported. If there are, drill down to see the errors. The **Config. Package Records** window opens.
+8. Choose the **Show Error** action. You will receive the following error: **<option> is not a valid option. Valid options are <valid option list>**. Choose the **OK** button.  
+9. To apply the mapping that you have set up, choose the **Apply Data** action.  
+
+### Mapping Example  
+The following example illustrates how [!INCLUDE[d365fin](includes/d365fin_md.md)] implements mapping definitions.  
+
+1. Create a configuration table that has a **Salesperson/Purchaser** table. Define a mapping for the **Code** field.  
+2. Add additional tables to the package, for example, **Customer** and **Vendor**. These tables both reference the **Salesperson/Purchaser** table through the **Salesperson Code** and **Purchaser Code** fields respectively.  
+3. When you apply data, the mapping that you provided for the **Code** field in the the **Salesperson/Purchaser** table will also be considered during the processing of the **Salesperson Code** and **Purchaser Code** fields.
+
+## To add additional values to [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Packages**, and then choose the related link.  
+2. Select the table for which you want to add additional values, and then, on the **Tables** tab, choose the **Fields** action.  
+3. For the fields for which you want [!INCLUDE[d365fin](includes/d365fin_md.md)] to permit additional values during migration, select the **Create Missing Codes** check box.  
+4. Import the customer data. For more information, see the "To import customer data" section.
+
+# Clean Up and Process Data
+In some cases, you may want to clean up customer data and process it before you apply it to the database. To do that, you can customize report 8621 to fix issues, such as:  
+
+- Convert dates and decimals to the format required by the regional settings on a user's computer.  
+- Remove leading/trailing spaces or special characters.  
+
+After you modify the batch job, use the following procedure to process the data.  
+
+## To clean up and process data before applying data  
+
+1.  Open the configuration package for the company.  
+2.  On the **Tables** FastTab, choose the **Process Data** action.  
+3.  To apply the mapping that you have set up, choose the **Apply Data** action.
+
+# Map Customer Data
+You can map values from an existing ERP system into your [!INCLUDE[d365fin](includes/d365fin_md.md)] already has.  
+
+In the procedures that follow, you should review in advance which values you want to retain during the migration process. To perform the following procedures, you will need data migration files (.xls) that you have exported from Microsoft Dynamics NAV. For more information, see [Export Migration Tables].
+
+
+
+### To add additional values to [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+
+1.  Open the configuration package for the company.  
+
+2.  Select the table for which you want to add additional values, and on the **Tables** FastTab, choose **Table**, and then choose **Fields**.  
+
+3.  For the fields for which you want [!INCLUDE[d365fin](includes/d365fin_md.md)] to permit additional values during migration, select the **Create Missing Codes** check box.  
+
+4.  Import the customer data. For more information, see [Import Customer Data].
+
+
+
+how-to-import-customer-data.md).  
+
+### To map values to be used during import to [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+
+1.  Open the configuration package for the company.  
+
+2.  Select the table for which you want to map values, and on the **Tables** FastTab, choose **Table**, and then choose **Fields**.  
+
+3.  For each field that you want to map, on the **Home** tab, in the **Process** group, choose **Mapping**.  
+
+     For more information on how mapping works, see [About Mapping](admin-about-mapping.md).  
+
+4.  In the **Old Value** field, enter the value that you want to change. In the **New Value** field, enter the value that you want the old value to be changed to. Choose the **OK** button.  
+
+5.  Import the customer data. For more information, see [Import Customer Data](admin-how-to-import-customer-data.md). In the **No. of Package Errors** field, see if there are any errors reported. If there are, drill down to see the errors. The **Config. Package Records** window opens.  
+
+6.  On the **Home** tab, in the **Process** group, choose **Show Error**. You will receive the following error: **<option> is not a valid option. Valid options are <valid option list>**. Choose the **OK** button.  
+
+     To apply the mapping that you have set up, on the **Home** tab, in the **Process** group, choose **Apply Data.**
+
+     # Import Customer Data
+     After the customer data has been entered in the data migration files in Excel, you import the files into [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+
+     ### To import customer data  
+
+     1.  Open the **Migration Overview** window.  
+
+     2.  Select the table for which you want to import data.  
+
+     3.  You can import the date into a table from Excel.  
+
+          On the **Tables** FastTab, choose Excel, and then choose **Import from Excel** and save the file.  
+
+     4.  Locate and open the file that you want from which you want to import data to [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+
+      Data from the file is imported into the configuration package tables. In the **No. of Package Records** field, you can see the number of records that have been imported. In addition, you can see the number of migration errors.  
+
+      # Validate Customer Data
+      Customer data must be validated before you apply the records to the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.  
+
+      > [!NOTE]  
+      >  In most cases, invalid data is not created in the database. However, the application can occasionally be blocked if an imported migration table contains errors.  
+
+      ### To validate customer data  
+
+      1.  In the **Migration Overview** window, review the **No. of Migration Errors** field to see whether any errors occurred during import.  
+
+      2.  If there are errors, select the migration table and on the **Tables** FastTab, choose **Table**, and then choose **Errors**. The **Invalid** check box is selected for each record that has an error.  
+
+      3.  To review errors, select a line and on the **Home** tab choose **Show Error**.  
+
+           The **Error Text** field contains the reason for the error. The **Field Caption** field contains the caption of the field that contains the error.  
+
+      4.  To correct an error or otherwise make an update, close the **Migration Data Errors** window. On the **Navigate** tab, choose **Migration Record**. The **Migration Record** window opens. Select the record with the error and make the correction.  
+
+           After you make a correction, the record is removed from the list of records in the **Migration Data Errors** window.  
+
+       You are now ready to apply the customer’s data to the database.  
+
+       # Apply Customer Data
+       When you have all imported data migration records that are valid and have no errors, you can apply the records to the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.  
+
+       ## To apply customer data  
+
+       1.  Open the **Configuration Packages** window.  
+       2.  Select the table for the data migration file that you want to apply to the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.  
+       3.  Choose the **Apply Data** action. You can see the number of database records that have been created in the **No. of Database Records** field. Verify that the correct records have been created. Choose the link in the **No. of Database Records**.  
+
+       The customer’s company database is now set up and basic data is imported. Your next steps in the implementation process are to train users, define processes, create additional data, customize reports, and so on.
 
 ## See Also  
 [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  

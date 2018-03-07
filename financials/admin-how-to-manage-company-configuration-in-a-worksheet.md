@@ -76,7 +76,7 @@ The following procedures demonstrate how to add and customize table information 
 
 7. To delete tables in the resulting list of tables, select a table to remove, and then choose the **Delete** action.  
 
-Use the next procedure to specify which table fields to include. After you make this specification, you can export the table to Excel, and use the table structure as a template for gathering customer data. For more information, see [Create a Configuration Template](admin-how-to-create-a-configuration-template.md).  
+Use the next procedure to specify which table fields to include. After you make this specification, you can export the table to Excel, and use the table structure as a template for gathering customer data. For more information, see [Prepare Customer Data Migration](admin-use-templates-to-prepare-customer-data-for-migration.md).  
 
 ## To specify a set of fields and records for a configuration table  
 1. Select a table in the list of configuration tables, and then chose the **Edit List** action.  

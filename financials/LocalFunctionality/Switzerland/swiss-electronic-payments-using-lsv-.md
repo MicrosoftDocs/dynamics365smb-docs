@@ -2,7 +2,7 @@
     title: Swiss Electronic Payments Using LSV+
     description: The Lastschrift Verfahren (LSV+)—or direct debit—electronic payment method, an improved version of LSV, allows companies to retrieve payments directly from its customers’ bank accounts. To retrieve customer payments, you must send an LSV file to the bank, and the bank will collect the payments requested in the file.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -41,6 +41,5 @@ You can download payment credit transactions in Einzahlungsschein mit Referenznu
  [Post LSV+ Payments](how-to-post-lsv-payments.md)   
  [Export Payments Using LSV](how-to-export-payments-using-lsv.md)   
  [Swiss Electronic Payments](swiss-electronic-payments.md)   
- [Swiss Electronic Payments Using DTA](swiss-electronic-payments-using-dta.md)   
  [Swiss Electronic Payments Using ESR](swiss-electronic-payments-using-esr.md)   
  [Making Payments](../../payables-make-payments.md)

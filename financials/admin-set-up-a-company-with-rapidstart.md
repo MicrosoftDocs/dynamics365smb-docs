@@ -39,12 +39,10 @@ You can use the following components to speed the setup of a new company:
 |Create a new company and import basic setup data and templates.|[Set Up Company Configuration](admin-set-up-company-configuration.md)|  
 |Deploy the configured package to your customer for implementation.|[Apply Configurations to New Companies](admin-apply-configuration-to-new-companies.md)|
 |Define and validate your customer’s setup values for all core areas, such as company information, general ledger, inventory, sales, or manufacturing.|[Gather Customer Setup Values](admin-gather-customer-setup-values.md)|  
-|Configure core master data records using templates to prepare to migrate existing customer data.|[Use Templates to Prepare Customer Data Migration](admin-use-templates-to-prepare-customer-data-for-migration.md)|  
+|Configure core master data records using templates to prepare to migrate existing customer data.|[Prepare Customer Data Migration](admin-use-templates-to-prepare-customer-data-for-migration.md)|  
 |Define tables and fields, validate existing customer data, and migrate data into the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.|[Migrate Customer Data](admin-migrate-customer-data.md)|  
 |Find solutions to known issues in the RapidStart Services toolkit.|[Tips and Tricks: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)|  
 |Create customized views in the RapidStart Services toolkit.|[Create Custom Company Configuration Packages](admin-how-to-create-custom-company-configuration-packages.md)|  
-
-In addition, Microsoft provides partners with the SureStep methodology to help with the full spectrum of activities that you must have to complete a customer implementation. For more information, [Drive Down the Number of Deployment Days for Microsoft Dynamics NAV](http://go.microsoft.com/fwlink/?LinkId=255256) (requires PartnerSource account).  
 
 ## See Also  
 [Set Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)   

@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 03/05/2018
+    ms.date: 03/07/2018
     ms.author: sgroespe
 
 ---
@@ -46,16 +46,16 @@ You can use a questionnaire to help you determine the scope and needs of configu
 >  To see a complete list of setup tables, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Setup**, and then choose the related link. To determine the scope of migration of records data, use migration functionality. For more information, see [Migrating Customer Data](admin-migrate-customer-data.md).  
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Questionnaire**, and choose the related link.  
-2. On the **Home** tab, choose **New**. The **Config. Questionnaire** window opens.  
+2. Choose the **New** action. The **Config. Questionnaire** window opens.  
 3. Provide a code and description.  
-4. On the **Home** tab, in the **Process** group, choose **Questions Areas**. The **Question Areas** window opens.  
-5. On the **Home** tab, choose **New**. The **Question Area** window opens.  
-6. In the **Code** field, enter a code for the question area.  
-7. In the **Table ID** field, choose the ID of the table for which you want to collect information. The **Table Name** field is automatically filled in.  
-8.  Optionally, in the **Description** field, enter a description. In general, the description should describe the type of information that is being collected.  
-9. On the **Home** tab, choose **Update Questions**. Each field in the table is added to the questionnaire with a question mark following its label. You can rephrase the label to make it clear how the question should be answered. For example, if a field is called "Name," you could edit it to state "What is the name of <data being collected>." You can also provide additional information, for example, prescriptive guidance, in the **Reference** field. You can also use this field to provide a url address of a page that provides additional information.  
+4. Choose the **Questions Areas** action. The **Question Areas** window opens.  
+5. Choose the **New** action. The **Question Area** window opens.  
+6. In the **Table ID** field, choose the ID of the table for which you want to collect information. The **Table Name** field is automatically filled in.  
+7. Choose the **Update Questions** action. Each field in the table is added to the questionnaire with a question mark following its label.
 
-    As needed, you can also delete questions that you do not want to include in the questionnaire.  
+    You can rephrase the label to make it clear how the question should be answered. For example, if a field is called "Name," you could edit it to state "What is the name of <data being collected>." You can also provide additional information, for example, prescriptive guidance, in the **Reference** field. You can also use this field to provide a URL of a page that provides additional information.  
+
+    You can also delete any questions that you do not want to include in the questionnaire.  
 
     > [!NOTE]  
     >  The **Answer Option** field describes the type and format of the answer of the data that is appropriate. The **Answer** field contains user-supplied information.  
@@ -64,7 +64,62 @@ You can use a questionnaire to help you determine the scope and needs of configu
 
 10. Choose the **OK** button to close the window.  
 11. Repeat these steps to add additional question areas.  
-12. Choose the **Close** button.  
+12. Choose the **Close** button.
+
+## To complete the configuration questionnaire
+You use the setup questionnaire to structure and document a detailed discussion about the customer’s specific needs. You also use it to collect setup data from the customer to configure the relevant [!INCLUDE[d365fin](includes/d365fin_md.md)] setup tables, such as the general ledger, inventory, and customers.  
+
+> [!NOTE]  
+>  You can also create your own setup questionnaire to meet your needs.  
+
+1. Open the company  for which you want to complete the questionnaire.
+2. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Questionnaire**, and then choose the related link.  
+3. Select the questionnaire for the company, and then choose the **Export to Excel** action, optionally the **Export to XML** action.
+4. Have the customer complete the configuration questionnaire by entering the answers in the Excel workbook. There are worksheets for each of the question areas that have been created for the questionnaire. Save the file.  
+5. Choose the **Import from Excel** action, and select the .xlsx file that you have saved.  
+6. Choose **Question Areas** action to begin the process of validating and applying the answers to the setup questionnaire.  
+
+You can now review the completed setup questionnaire before applying the data to the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.  
+
+## To complete a questionnaire from the configuration worksheet  
+The following procedure provides an alternative way of accessing configuration questionnaires. It assumes that the configuration package that you have been provided includes questionnaires.  
+
+1. After you import a configuration package, open the configuration worksheet.  
+2. For each table for which there is a question area, choose the **Questions** action. The questionnaire page opens.  
+3. Answer the questions, and then choose the **Apply Answers** action.  
+4. Choose the **OK** button to close the questionnaire.
+
+## To validate the configuration questionnaire
+It is important to validate the setup questionnaire before you apply it to the [!INCLUDE[d365fin](includes/d365fin_md.md)] format. It is also a way to make sure that data formatting is preserved during the import from Excel.  
+
+ A common validation task is to check that text strings are not entered into date fields. This review process is necessary because the format of the answer in the questionnaire is not validated automatically when the **Apply Answers** function is run.  
+
+> [!NOTE]  
+>  In general, validation of the setup questionnaire is a manual process only. However, there are checks for regional formatting inconsistencies. In addition, you will have errors if the structure of your [!INCLUDE[d365fin](includes/d365fin_md.md)] database does not match the structure of the migration database.  
+
+1. In the **Configuration Questionnaire** window, select the relevant questionnaire, and then choose the **Question Areas** action.  
+2. Select a **Question Area**, and then choose the **Edit** action.  
+3. For each question, validate that the value in the **Answer** field corresponds to the format provided in the **Answer Option** field. For example, validate that the address of a company is in text format.  
+4. If you find errors, you can troubleshoot and make corrections in Excel by exporting the questionnaire, and then importing it again. Alternatively, you can also correct errors directly in [!INCLUDE[d365fin](includes/d365fin_md.md)] as you review the answers in the **Question Areas** window.  
+5. Repeat these steps for each question area.  
+
+When you have completed your validation, your data is ready to be applied to the database.  
+
+## To apply answers from the setup questionnaire
+After you have imported and validated information from a setup questionnaire, you can transfer, or apply the setup data to the corresponding tables in the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.  
+
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Questionnaire**, and then choose the related link. The **Setup Questionnaire** window opens.  
+2. Select a configuration questionnaire from the list, and then choose the **Edit List** action.  
+3. You can apply answers in one of two ways.  
+
+- To apply the whole questionnaire, choose the **Apply Answers** action.  
+- To apply answers for a specific **Question Area** only, choose the **Question Areas** action, select a **Question Area** in the list, and then choose the **Edit** action. Then choose the **Apply Answers** action.  
+
+### To verify that answers have been applied successfully  
+1. Check setup windows for the various functional areas of [!INCLUDE[d365fin](includes/d365fin_md.md)]. To locate the window, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter the name of the setup window, and then choose the related link.  
+2. Verify that the fields have been populated with the correct data from the various question areas in the setup questionnaire.  
+
+You have now configured setup with the customer’s business information and rules.
 
 ## See Also  
 [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  

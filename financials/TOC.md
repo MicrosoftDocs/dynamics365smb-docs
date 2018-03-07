@@ -145,7 +145,7 @@
 ### [Set Up Company Configuration](admin-set-up-company-configuration.md)
 ### [Apply Configurations to New Companies](admin-apply-configuration-to-new-companies.md)
 ### [Gather Customer Setup Data](admin-gather-customer-setup-values.md)
-### [Use Templates to Prepare Customer Data Migration](admin-use-templates-to-prepare-customer-data-for-migration.md)
+### [Prepare Customer Data Migration](admin-use-templates-to-prepare-customer-data-for-migration.md)
 ### [Migrate Customer Data](admin-migrate-customer-data.md)
 ### [Tips and Tricks: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 ### [Create Custom Company Configuration Packages](admin-how-to-create-custom-company-configuration-packages.md)

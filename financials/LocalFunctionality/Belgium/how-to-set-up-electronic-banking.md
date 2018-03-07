@@ -32,7 +32,6 @@ Before you can use electronic banking, you must set up the following information
 
 - Electronic banking setup.  
 - IBLC/BLWI codes - For more information, see [Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md).  
-- Preferred bank accounts (optional).  
 
 ## To set up electronic banking  
 
@@ -73,17 +72,6 @@ Before you can use electronic banking, you must set up the following information
 6.  Choose the **OK** button.  
 
 Optionally, you can assign bank accounts to each customer and vendor. This helps make electronic payments simpler. The following procedure explains how to assign preferred bank accounts to customers, but the same steps also apply to vendors.  
-
-## To add a preferred bank account to a customer  
-
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.  
-2.  Select a customer, and then choose the **Edit** action.  
-3.  On the **Payments** FastTab, enter the **Preferred Bank Account**, and then choose the **OK** button.  
-
-    > [!NOTE]  
-    >  For all payments, use one bank account for each customer or vendor.  
-
-4.  Choose the **OK** button.  
 
 ## See Also  
  [Isabel website](http://go.microsoft.com/fwlink/?LinkId=210323)   

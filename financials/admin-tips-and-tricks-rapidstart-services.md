@@ -37,4 +37,5 @@ We recommend that you migrate opening balances in steps, in the following order.
 
 ## See Also  
 [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+
 [Administration](admin-setup-and-administration.md)

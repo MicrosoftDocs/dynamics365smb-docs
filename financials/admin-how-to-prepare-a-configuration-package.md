@@ -54,16 +54,13 @@ Specify which fields are included in the package. By default, all fields are inc
 ### To filter and review your dataset  
 1. To filter to a certain set of records to include in the package, on the **Lines** tab, choose the **Filters** action, and then specify the appropriate filter values.  
 2. On the package card, on the **Lines** tab, choose the **Export to Excel** action.  
-
-    Confirm the messages that enable the export of data to Excel. The named .xlsx file opens. Review the records that have been exported.  
-3. Close Excel.  
+3. Confirm the messages that enable the export of data to Excel. The named .xlsx file opens. Review the records that have been exported.  
+4. Close Excel.  
 
 ### To include a template for application to a table  
 For certain tables, such a table that will contain master data, you can specify a template to apply to the data. The template can include the required fields that you want to apply to all master data and that you never want to vary. For example, you can create a template that can be used with customer data. The template can contain all the required fields, which then enables consistent import of standardized information. Information that cannot be standardized, such as customer name, is then treated when you do an import of customer data.
 
-1. In the **Config. Package Card** window, select a table, and then choose the **Data Template** field.  
-
-    A list of templates is displayed that are based on the table.  
+1. In the **Config. Package Card** window, select a table, and then choose the **Data Template** field. A list of templates based on the table is displayed.
 2. Select a template, and then choose the **OK** button.  
 
 After the package is complete, following the next procedure to save the package to a file. You can then give the package to a customer or partner to use.
@@ -114,15 +111,13 @@ After you have defined the tables that you want to treat as part of your configu
 ## To review or customize existing database data
 As you create a configuration package for a solution, you can view and customize the available database data to suit your customer needs. The database table has to have an associated page.  
 
-1, Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Worksheet**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Worksheet**, and then choose the related link.
 2. In the configuration worksheet, identify the tables whose data that you want to view or customize.  
 
     > [!NOTE]  
     >  Make sure that each table has a page ID assigned to it. For standard [!INCLUDE[d365fin](includes/d365fin_md.md)] tables, this value is automatically filled in. For custom tables, you must provide the ID.
 
-3. Choose the **Database Data** action.  
-
-    The window for the related page opens.  
+3. Choose the **Database Data** action. The window for the related page opens.
 4. Review the available information. Modify it as necessary by deleting records that are not relevant or by adding new ones.    
 
 ## To copy data from a test environment to a production environment  
@@ -132,10 +127,7 @@ After you have vetted and tested all your setup information, you can proceed wit
 2. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Worksheet**, and then choose the related link.  
 3. Choose the **Copy Data from the Company** action.  
 4. In the **Copy Company Data** window, choose the **Copy From** field. The **Companies** window opens.  
-5. Select the company from which you want to copy data, and then choose the **OK** button.  
-
-    A list of tables selected on the configuration worksheet opens. Only tables that contain records are included in this list.  
-
+5. Select the company from which you want to copy data, and then choose the **OK** button. A list of tables selected on the configuration worksheet opens. Only tables that contain records are included in this list.
 6. Select the tables that you want to copy data from, and then choose the **Copy Data** action. In the **Copy Company Data** window, choose the **OK** button.  
 
 ## See Also  

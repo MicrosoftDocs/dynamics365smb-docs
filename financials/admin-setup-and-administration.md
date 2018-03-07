@@ -34,6 +34,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Enter single or recurring requests to run reports or codeunits.|[Using Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)|  
 |Manage, delete, or compress documents|[Deleting Documents](admin-manage-documents.md)|  
 |Expose pages, codeunits, and queries as web services.|[Publishing a Web Service](across-how-publish-web-service.md)|
+|Transfer business data, such as customers, vendors, and items into a new company using Excel and simplified RapidStart functionality.|[Importing Data from Legacy Accounting Software using a Configuration Package](across-import-data-configuration-packages.md)|
 |Shorten deployment times, improve quality of implementation, introduce a repeatable approach to implementations, and enhance productivity by automating and simplifying recurring setup tasks.|[Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)|  
 
 ## See Also

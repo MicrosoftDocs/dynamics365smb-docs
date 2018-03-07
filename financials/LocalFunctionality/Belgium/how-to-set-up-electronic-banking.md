@@ -71,8 +71,6 @@ Before you can use electronic banking, you must set up the following information
 
 6.  Choose the **OK** button.  
 
-Optionally, you can assign bank accounts to each customer and vendor. This helps make electronic payments simpler. The following procedure explains how to assign preferred bank accounts to customers, but the same steps also apply to vendors.  
-
 ## See Also  
  [Isabel website](http://go.microsoft.com/fwlink/?LinkId=210323)   
  [Belgian Electronic Banking](belgian-electronic-banking.md)   

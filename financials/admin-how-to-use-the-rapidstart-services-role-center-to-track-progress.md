@@ -1,5 +1,5 @@
 ---
-    title: How to Use the RapidStart Services Role Center to Track Progress | Microsoft Docs
+    title: How to Use the RapidStart Services Role Implementer Center | Microsoft Docs
     description: When you use RapidStart Services, we recommend that you track your work and use the RapidStart Services Implementer Role Center as it provides the correct context for your configuration work.
     services: project-madeira
     documentationcenter: ''
@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# Use the RapidStart Services Role Center to Track Progress
+# Use the RapidStart Services Implementer Role Center
 When you use RapidStart Services, we recommend that you track your work and use the RapidStart Services Implementer Role Center as it provides the correct context for your configuration work. For more information, see the "To change Role Center" section in [Changing Basic Settings](ui-change-basic-settings.md).
 
 As you continue with your work, you can assign each table the status that reflects where you are in the process. [!INCLUDE[d365fin](includes/d365fin_md.md)] then keeps track of the table status in the **Activities** part on the Role Center.  

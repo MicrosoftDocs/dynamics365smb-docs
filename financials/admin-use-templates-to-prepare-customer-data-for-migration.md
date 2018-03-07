@@ -1,5 +1,5 @@
 ---
-    title: Use Templates to Prepare Customer Data for Migration | Microsoft Docs
+    title: Use Templates to Prepare Customer Data Migration | Microsoft Docs
     description: After you import and apply setup data in the new database, you can start migrating the customer’s existing master data, such as item and customer numbers and names. To make sure that this data is created quickly and accurately in the new company, you should use templates to structure the data.
     services: project-madeira
     documentationcenter: ''
@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# Use Templates to Prepare Customer Data for Migration
+# Use Templates to Prepare Customer Data Migration
 After you import and apply setup data in the new database, you can start migrating the customer’s existing master data, such as item and customer numbers and names. To make sure that this data is created quickly and accurately in the new company, you should use templates to structure the data.  
 
 Typically, you create data templates for the following master data tables:  

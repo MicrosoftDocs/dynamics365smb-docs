@@ -27,7 +27,7 @@ Before you start, make sure that you are on the RapidStart Services Implementer 
 
     The new company does not contain information about journal opening balances.  
 
-2. Open the configuration worksheet, and import existing data about customers, items, vendors, and the general ledger. For more information, see [Migrate Customer Data](admin-how-to-migrate-customer-data.md).  
+2. Open the configuration worksheet, and import existing data about customers, items, vendors, and the general ledger. For more information, see [Migrate Customer Data](admin-migrate-customer-data.md).  
 3. Choose, for example, the **Create G/L Journal Lines** action.  
 4. Fill in the **Options** FastTab as appropriate, and set filters as needed. For example, in the **Journal Template** field, enter a name.  
 5. Choose the **OK** button. The records are now in the journal, but the amounts are empty.  

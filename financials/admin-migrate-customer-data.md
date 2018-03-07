@@ -117,108 +117,75 @@ The following example illustrates how [!INCLUDE[d365fin](includes/d365fin_md.md)
 3. For the fields for which you want [!INCLUDE[d365fin](includes/d365fin_md.md)] to permit additional values during migration, select the **Create Missing Codes** check box.  
 4. Import the customer data. For more information, see the "To import customer data" section.
 
-# Clean Up and Process Data
-In some cases, you may want to clean up customer data and process it before you apply it to the database. To do that, you can customize report 8621 to fix issues, such as:  
+## To clean up and process data before applying data
+In some cases, you may want to clean up customer data and process it before you apply it to the database. To do that, you can use the **Config. Package - Process** batch job to fix issues, such as:  
 
 - Convert dates and decimals to the format required by the regional settings on a user's computer.  
 - Remove leading/trailing spaces or special characters.  
 
-After you modify the batch job, use the following procedure to process the data.  
+When you have run the batch job, use the following procedure to process the data.  
 
-## To clean up and process data before applying data  
+1. Open the configuration package for the company.  
+2. Choose the **Process Data** action.  
+3. To apply the mapping that you have set up, choose the **Apply Data** action.
 
-1.  Open the configuration package for the company.  
-2.  On the **Tables** FastTab, choose the **Process Data** action.  
-3.  To apply the mapping that you have set up, choose the **Apply Data** action.
+## To migrate customer data
+When you have exported a migration table, your next step is to enter the customer’s legacy data. To simplify your tasks, you can take advantage of the XML manipulation tools that are built into Excel. You can also use Excel built-in functions to help with data formatting and to put data in the correct cell.
 
-# Map Customer Data
-You can map values from an existing ERP system into your [!INCLUDE[d365fin](includes/d365fin_md.md)] already has.  
+For assistance with XML, enable the **Developer** tab of the Excel ribbon, and then choose the **Source** action to see the XML schema of your migration table as represented in Excel.
 
-In the procedures that follow, you should review in advance which values you want to retain during the migration process. To perform the following procedures, you will need data migration files (.xls) that you have exported from Microsoft Dynamics NAV. For more information, see [Export Migration Tables].
+The following procedure is based on an Excel worksheet that you have created for migration. For more information, see the How to: Export Migration Tables.
 
+> [!IMPORTANT]  
+> Do not change the columns in the Excel worksheets. If they are moved, changed, or deleted, the worksheet cannot be imported into [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
+1. In Excel, open the exported data file. There is a worksheet with the name of the table.
+2. Rename Sheet1 to indicate that the worksheet will be used to transform the data. Copy the header row without its formatting from the exported table to the new worksheet.
+3. On a third worksheet, copy all your customer data. Rename the sheet to be called e.g. Legacy Data.
 
-### To add additional values to [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+    Either you or the customer must fill out the data worksheet that contains the legacy data.
 
-1.  Open the configuration package for the company.  
+4. Make an Excel formula to map data in the transformation worksheet between the fields in the exported worksheet and customer legacy data.
+5. When you have mapped all of the data, copy the range of data onto the table worksheet.
+6. Save the file and make sure that you do not change the file type.
 
-2.  Select the table for which you want to add additional values, and on the **Tables** FastTab, choose **Table**, and then choose **Fields**.  
+You are now ready to import the data migration files that contain customer legacy data into Microsoft Dynamics NAV.
 
-3.  For the fields for which you want [!INCLUDE[d365fin](includes/d365fin_md.md)] to permit additional values during migration, select the **Create Missing Codes** check box.  
+## To import customer data
+When the customer data has been entered in the data migration files in Excel, you import the files into [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-4.  Import the customer data. For more information, see [Import Customer Data].
+1. Open the **Config. Package Card** window.
+2. Select the table for which you want to import data, and then, on the **Tables** tab, choose the **Import from Excel** action.
+3. Locate and open the file that you want from which you want to import data to [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
+Data from the file is imported into the configuration package tables. In the **No. of Package Records** field, you can see the number of records that have been imported. In addition, you can see the number of migration errors.
 
+## To validate customer data
+Customer data must be validated before you apply the records to the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.  
 
-how-to-import-customer-data.md).  
+> [!NOTE]  
+>  In most cases, invalid data is not created in the database. However, the application can occasionally be blocked if an imported migration table contains errors.  
 
-### To map values to be used during import to [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+1. In the **Migration Overview** window, review the **No. of Migration Errors** field to see whether any errors occurred during import.  
+2. If there are errors, select the migration table, and then, on the **Tables** tab, choose the **Errors** action. The **Invalid** check box is selected for each record that has an error.  
+3. To review errors, select a line, and then choose the **Show Error** action.  
 
-1.  Open the configuration package for the company.  
+    The **Error Text** field contains the reason for the error. The **Field Caption** field contains the caption of the field that contains the error.  
+4.  To correct an error or otherwise make an update, in the **Migration Overview** window, choose the **Migration Record** action, and then, in the **Migration Record** window, correct the record with the error.  
 
-2.  Select the table for which you want to map values, and on the **Tables** FastTab, choose **Table**, and then choose **Fields**.  
+When you make a correction, the record is removed from the list of records in the **Migration Data Errors** window.  
 
-3.  For each field that you want to map, on the **Home** tab, in the **Process** group, choose **Mapping**.  
+You are now ready to apply the customer’s data to the database.  
 
-     For more information on how mapping works, see [About Mapping](admin-about-mapping.md).  
+## To apply customer data
+When you have imported all data migration records that are valid and have no errors, you can apply the records to the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.  
 
-4.  In the **Old Value** field, enter the value that you want to change. In the **New Value** field, enter the value that you want the old value to be changed to. Choose the **OK** button.  
+1. Open the **Configuration Packages** window.  
+2. Select the table for the data migration file that you want to apply, and then choose the **Apply Data** action.
 
-5.  Import the customer data. For more information, see [Import Customer Data](admin-how-to-import-customer-data.md). In the **No. of Package Errors** field, see if there are any errors reported. If there are, drill down to see the errors. The **Config. Package Records** window opens.  
+You can see the number of database records that have been created in the **No. of Database Records** field. You can verify that the correct records have been created by choosing the link in the **No. of Database Records** field.  
 
-6.  On the **Home** tab, in the **Process** group, choose **Show Error**. You will receive the following error: **<option> is not a valid option. Valid options are <valid option list>**. Choose the **OK** button.  
-
-     To apply the mapping that you have set up, on the **Home** tab, in the **Process** group, choose **Apply Data.**
-
-     # Import Customer Data
-     After the customer data has been entered in the data migration files in Excel, you import the files into [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-
-     ### To import customer data  
-
-     1.  Open the **Migration Overview** window.  
-
-     2.  Select the table for which you want to import data.  
-
-     3.  You can import the date into a table from Excel.  
-
-          On the **Tables** FastTab, choose Excel, and then choose **Import from Excel** and save the file.  
-
-     4.  Locate and open the file that you want from which you want to import data to [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-
-      Data from the file is imported into the configuration package tables. In the **No. of Package Records** field, you can see the number of records that have been imported. In addition, you can see the number of migration errors.  
-
-      # Validate Customer Data
-      Customer data must be validated before you apply the records to the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.  
-
-      > [!NOTE]  
-      >  In most cases, invalid data is not created in the database. However, the application can occasionally be blocked if an imported migration table contains errors.  
-
-      ### To validate customer data  
-
-      1.  In the **Migration Overview** window, review the **No. of Migration Errors** field to see whether any errors occurred during import.  
-
-      2.  If there are errors, select the migration table and on the **Tables** FastTab, choose **Table**, and then choose **Errors**. The **Invalid** check box is selected for each record that has an error.  
-
-      3.  To review errors, select a line and on the **Home** tab choose **Show Error**.  
-
-           The **Error Text** field contains the reason for the error. The **Field Caption** field contains the caption of the field that contains the error.  
-
-      4.  To correct an error or otherwise make an update, close the **Migration Data Errors** window. On the **Navigate** tab, choose **Migration Record**. The **Migration Record** window opens. Select the record with the error and make the correction.  
-
-           After you make a correction, the record is removed from the list of records in the **Migration Data Errors** window.  
-
-       You are now ready to apply the customer’s data to the database.  
-
-       # Apply Customer Data
-       When you have all imported data migration records that are valid and have no errors, you can apply the records to the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.  
-
-       ## To apply customer data  
-
-       1.  Open the **Configuration Packages** window.  
-       2.  Select the table for the data migration file that you want to apply to the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.  
-       3.  Choose the **Apply Data** action. You can see the number of database records that have been created in the **No. of Database Records** field. Verify that the correct records have been created. Choose the link in the **No. of Database Records**.  
-
-       The customer’s company database is now set up and basic data is imported. Your next steps in the implementation process are to train users, define processes, create additional data, customize reports, and so on.
+The customer’s company database is now set up and basic data is imported. Your next steps in the implementation process are to train users, define processes, create additional data, customize reports, and so on.
 
 ## See Also  
 [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  

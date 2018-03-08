@@ -16,12 +16,9 @@
 
 ---
 # Migrate Customer Data
-You can migrate existing customer data from an existing ERP system to [!INCLUDE[d365fin](includes/d365fin_md.md)] using the data migration tools of RapidStart Services. You can use Excel .xlsx files as the data carrier. You can also manually move the data by entering it directly into the company.
+You can migrate existing customer data from an existing ERP system to [!INCLUDE[d365fin](includes/d365fin_md.md)] using the data migration tools of RapidStart Services. You can use Excel files as the data carrier. You can also manually move the data by entering it directly in the company.
 
-The **Migration Overview** and **Configuration Worksheet** windows provide access to the functions and views to perform all the tasks that relate to data migration. We recommend that you migrate one table at a time, to handle dependencies in your data. In migration, you will also touch the master data tables, which contain information about customers, vendors, items, contacts, and the general ledger.  
-
-> [!WARNING]  
->  The **Apply Template** function overwrites existing data in a record. If this function is used in master data migration, it will overwrite the imported data when you create records.  
+The **Migration Overview** and **Config. Worksheet** windows provide access to the functions and views to perform all the tasks that relate to data migration. We recommend that you migrate one table at a time, to handle dependencies in your data. In migration, you will also touch the master data tables, which contain information about customers, vendors, items, contacts, and the general ledger.  
 
 # To import configuration packages
 When you create a new company, you can import company settings for the new company. You import the settings from a .rapidstart file, which delivers the package contents in a compressed format. A corresponding set of default data migration tables are imported. The data set contains master data tables and the setup data tables. Your first task in data migration is to evaluate if the default migration setup meets the needs of the new company.
@@ -29,14 +26,14 @@ When you create a new company, you can import company settings for the new compa
 > [!NOTE]  
 >  You cannot rename a file that is not already a RapidStart Services configuration package as a .rapidstart configuration package file and then try to import it. If you try to do so, you will receive an error message.  
 
-The RapidStart Services migration tools can be applied to any table. Use the migration tools for fast and accurate data transfer.  
-
- Before you start, make sure that you are on the RapidStart Services Implementer Role Center.
+Before you start, make sure that you are on the RapidStart Services Implementer Role Center.
 
 > [!IMPORTANT]  
 >  When exporting and importing configuration packages between two company databases, the databases should have the same schema to make sure that all data is transferred successfully. This means that the databases should have the same table and field structure, in which the tables have the same primary keys and fields have the same IDs and data types.  
 >   
->  You can import a configuration package that has been exported from a database that has a different schema than that target database. However, any tables or fields in the configuration package that are missing in the target database will not be imported. Tables that have different primary keys and fields that have different data types will also not be successfully imported. For example, if the configuration pack includes table **50000 Customer** that has primary key **Code20** and the database to which you import the pack includes table **50000 Customer Bank Account** that has the primary key **Code20 + Code 20**, data will not be imported.  
+>  You can import a configuration package that has been exported from a database that has a different schema than that target database. However, any tables or fields in the configuration package that are missing in the target database will not be imported.
+>   
+> Tables that have different primary keys and fields that have different data types will also not be successfully imported. For example, if the configuration pack includes table **50000 Customer** that has primary key **Code20** and the database to which you import the pack includes table **50000 Customer Bank Account** that has the primary key **Code20 + Code 20**, data will not be imported.  
 
 1. Open the new company.  
 2. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Packages**, and then choose the related link.  
@@ -51,7 +48,7 @@ The RapidStart Services migration tools can be applied to any table. Use the mig
 
 6.  To review the field selections, select a table, and then, on the **Lines** tab, choose the **Fields** action. Compare and review the number of fields that are available to the number of fields whose data has been applied.  
 
-If the selection of tables does not meet your needs, you can create one or more new data migration files. If the files are sufficient, you can continue with the data migration using .xls or .xml files.
+If the selection of tables does not meet your needs, you can create one or more new data migration files. If the files are sufficient, you can continue with the data migration using Excel or XML files.
 
 ## To create a data migration file
 You can create new data migration files and customize them to support your business. Note that a file can only be used to migrate a field that has its **FieldClass** property set to **Normal**.  
@@ -64,14 +61,13 @@ You can create new data migration files and customize them to support your busin
 
 > [!IMPORTANT]  
 >  If the **Include Field** check box is selected by default, that field is part of the primary key. The selection should not be cleared, or errors will be introduced and the record cannot be imported.  
-
-> [!IMPORTANT]  
+>
 >  If you include a field that has a relationship with another table, the **Validate Field** check box is automatically selected. Validation can result in the update of other fields in this and other tables and is executed in the order of the field number.  
 
 A new migration table is created.  
 
 ## To export data migration files
-When you have determined the tables for which you want to transfer customer data, you export the files.  
+When you have determined the tables that you want to transfer customer data to, you export the files.  
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Packages**, and then choose the related link.  
 2. Select and open the package that you want to use for export.
@@ -82,7 +78,7 @@ When you have determined the tables for which you want to transfer customer data
 If the table is empty, the resulting data migration file contains empty cells for the fields you selected when you chose or created migration tables for your new company. If the selected data migration table contains data, it will be exported.  
 
 ## To map values to be used during import
-When you apply data that you have imported from Excel or from a RapidStart package, [!INCLUDE[d365fin](includes/d365fin_md.md)] treats and handles the mapping depends on table relations:  
+When you apply data that you have imported from Excel or from a RapidStart package, [!INCLUDE[d365fin](includes/d365fin_md.md)] treats and handles the mapping based on table relations:  
 
 - If you define a mapping directly for a field in a table, then [!INCLUDE[d365fin](includes/d365fin_md.md)] uses it.  
 
@@ -142,14 +138,11 @@ The following procedure is based on an Excel worksheet that you have created for
 1. In Excel, open the exported data file. There is a worksheet with the name of the table.
 2. Rename Sheet1 to indicate that the worksheet will be used to transform the data. Copy the header row without its formatting from the exported table to the new worksheet.
 3. On a third worksheet, copy all your customer data. Rename the sheet to be called e.g. Legacy Data.
-
-    Either you or the customer must fill out the data worksheet that contains the legacy data.
-
 4. Make an Excel formula to map data in the transformation worksheet between the fields in the exported worksheet and customer legacy data.
 5. When you have mapped all of the data, copy the range of data onto the table worksheet.
 6. Save the file and make sure that you do not change the file type.
 
-You are now ready to import the data migration files that contain customer legacy data into Microsoft Dynamics NAV.
+You are now ready to import the data migration files that contain customer legacy data into [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## To import customer data
 When the customer data has been entered in the data migration files in Excel, you import the files into [!INCLUDE[d365fin](includes/d365fin_md.md)].

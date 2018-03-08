@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# Prepare Customer Data Migration
+# Prepare to Migrate Customer Data
 After you import and apply setup data in the new database, you can start migrating the customer’s existing master data, such as item and customer numbers and names. To make sure that this data is created quickly and accurately in the new company, you should use templates to structure the data.  
 
 Typically, you create data templates for the following master data tables:  
@@ -35,18 +35,18 @@ When you import customer data, such as for items, from a file, the mandatory fie
 When you create a new master data record, such as a customer card, some fields are mandatory and must be filled in. You can group most mandatory fields, such as posting groups and payment terms, to make creating master data records easier and more stable. For example, you can group mandatory fields for table 18, **Customer**, as **Domestic**, **Foreign**, or **Export** types.
 
 ## To select a data template
-When you select an existing data template, you must evaluate whether the template that you created for the new company are sufficient for the customer. Review the provided fields and values to determine which templates are appropriate for a new company.  
+When you select an existing data template, you must evaluate if the templates that you created for the new company are sufficient for the customer. Review the provided fields and values to determine which templates are appropriate for a new company.  
 
 > [!TIP]  
 >  You can also use data templates to create new records quickly. Use them for faster and more accurate data creation. For more information, see [Register New Items](inventory-how-register-new-items.md).
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Templates**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Templates**, and then choose the related link.  
 2. In the **Config. Template List** window, select a data template from the list, and then choose the **Edit** action.  
 
 If the default templates do not meet your needs, you can create new templates or add fields to an existing template. If the default templates are sufficient, you can use them to create records based on master data templates.
 
 ## To create a data template
-You can create a new data template if the default templates do not the needs of your new company. If you are creating more than one, you may find it useful to adopt a naming convention for the Code field.
+You can create a new data template if the default templates do not the needs of your new company. If you are creating more than one, you may find it useful to adopt a naming convention for the **Code** field.
 
 Each template consists of a header and lines. When you create a template, you can specify which fields to always apply to data of a certain type. For example, you can create different customer templates to apply to different customer types. When you create the customer using a template, you can use template data to prepopulate certain fields.
 
@@ -71,22 +71,19 @@ Each template consists of a header and lines. When you create a template, you ca
 ## To export to a template in Excel
 You can create an Excel workbook to serve as a template that is based on the structure of an existing database table quickly. You can then use the template to gather together customer data in a consistent format for later import into [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. Open the configuration worksheet.
-2. Add a table to the list, or select an existing table.
-3. Define the fields from the table that you want to include in the template. For more information, see [Manage Company Configuration in a Worksheet](admin-how-to-manage-company-configuration-in-a-worksheet.md).
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Worksheet**, and then choose the related link.
+2. Add a table to the list, or select an existing table. For more information, see [Manage Company Configuration in a Worksheet](admin-how-to-manage-company-configuration-in-a-worksheet.md).
+3. Define the fields from the table that you want to include in the template.
 4. Choose the **Export to Template** action.
-5. Name and save the .xlsx file. The Excel workbook is automatically opened.
+5. Name and save the Excel file. The Excel workbook is automatically opened.
+
+You can now enter customer data in the Excel worksheet. If you have exported multiple tables, each table will be on its own worksheet. Save the workbook before you continue with the next procedure.
 
 > [!NOTE]  
-> You can now enter customer data in the Excel worksheet. If you have exported multiple tables, each table will be on its own worksheet. Save the workbook before you continue with the next procedure.
-
-> You may encounter the following error when you run an English version of Excel, but have your regional settings configured for a non-English language: "Old format or invalid type library."
-
-> To fix this error, make sure that the language pack for the non-English language is installed.
+> You may encounter the following error when you run an English version of Excel, but have your regional settings configured for a non-English language: "Old format or invalid type library." To fix this error, make sure that the language pack for the non-English language is installed.
 
 ## To import from a template in Excel
-1. Open the configuration worksheet.
-2. Choose the **Import from Template** action.
+1. In the **Config. Worksheet** window, choose the **Import from Template** action.
 3. Navigate to the template worksheet that you have created, and then choose the **Open** action.
 4. To add the collected customer data to the database, choose the **Apply Data** action.
 
@@ -103,12 +100,15 @@ The following steps illustrate how to create an item card from an item data temp
 2. Select the **Item** template, and then choose the **Edit** action. For more information, see the "To create a data template" section.
 3. Choose the **Create Instance** action. An item card is created.  
 4. Choose the **OK** button.  
-5. To review the new item card, Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
+5. To review the new item card, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
 6. Open the new item card.  
 7. Expand various FastTabs, and verify that the information was created correctly on them.  
 
 ## To use a configuration template on a record
 You can apply a data template to any record that is in [!INCLUDE[d365fin](includes/d365fin_md.md)] and use this technique to change or modify a record. However, when you do this, you overwrite existing values in the record with those of the template. Consequently, you should be careful when you apply a template to existing records.
+
+> [!WARNING]  
+>  The **Apply Template** function overwrites existing data in a record. If this function is used in master data migration, it will overwrite the imported data when you create records.
 
 The following procedure is based on a new customer card.  
 

@@ -27,10 +27,10 @@ In a number of scenarios, you may want to load and import a configuration packag
 2. Place the package on a computer where you will run the cmdlet.  
 3. Open the [!INCLUDE[d365fin](includes/d365fin_md.md)] administration shell.  
 4. Enter **Invoke-NAVCodeUnit**, and specify information similar to the following example.  
-```  
-Invoke-NAVCodeunit -Tenant Default -CompanyName "CRONUS International Ltd." -CodeunitId 8620 -MethodName ImportRapidStartPackage -Argument "C:TEMPRS_CONFIG.rapidstart" -ServerInstance DynamicsNAV71  
+    ```  
+    Invoke-NAVCodeunit -Tenant Default -CompanyName "CRONUS International Ltd." -CodeunitId 8620 -MethodName ImportRapidStartPackage -Argument "C:TEMPRS_CONFIG.rapidstart" -ServerInstance DynamicsNAV71  
 
-```
+    ```
 The cmdlet imports the package into each company. Users can start to use the new functionality immediately.  
 
 ## See Also  

@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 01/25/2018
+ms.date: 03/08/2018
 ms.author: sgroespe
 
 ---
@@ -18,11 +18,9 @@ To add users in [!INCLUDE[d365fin](includes/d365fin_md.md)], your company's Offi
 
 Once users are created in Office 365, they can be imported into the **Users** window by using the **Get Users from Office 365** action. Users are assigned permission sets depending on the plan assigned to the User in Office 365.
 
-You can then proceed to assign permission sets to the users to define which database objects, and thereby which UI elements, they have access to, and in which companies.
+You can then proceed to assign permission sets to the users to define which database objects, and thereby which UI elements, they have access to, and in which companies. You can add users to user groups. This makes it easier to assign the same permission sets to multiple users.
 
 A permission set is a collection of permissions for specific objects in the database. All users must be assigned one or more permission sets before they can access [!INCLUDE[d365fin](includes/d365fin_md.md)]. A number of predefined permission sets are provided by default. You can use these permission sets as already defined, modify the default permission sets, or create additional permission sets.
-
-You can add users to user groups. This makes it easier to assign the same permission sets to multiple users.
 
 Administrators can use the **User Setup** window to define periods of time during which specified users are able to post, and also specify if the system logs the amount of time users are logged on.
 
@@ -39,8 +37,8 @@ You can set up users groups to help you manage permission sets for groups of use
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **User Groups**, and then choose the related link.
 2. Alternatively, in the **Users** window, choose the **User Groups** action.
 3. In the **User Group** window, choose the **User Group Members** action.
-6. In the **User Group Members** window, on a new line, fill in the fields as necessary by selecting from existing users.
-7. To add new or additional permission sets, in the **User Group** window, choose the **User Group Permission Sets** action.
+6. In the **User Group Members** window, choose the **Add Users** action.
+7. To add new or additional permission sets, in the **User Groups** window, choose the **User Group Permission Sets** action.
 8. In the **User Group Permission Sets** window, on a new line, fill in the fields as necessary by selecting from existing permission sets.
 
 ## To set up user time constraints

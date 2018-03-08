@@ -31,8 +31,7 @@ The following table describes a sequence of tasks with links to topics that desc
 |**To**|**See**|  
 |------------|-------------|  
 |Plan a company configuration by filling in the configuration worksheet.|[Manage Company Configuration in a Worksheet](admin-how-to-manage-company-configuration-in-a-worksheet.md)|  
-|Create a configuration package, customize a package, assign tables to a package, review or edit existing customer data, create the new company and then move test data to the production environment.|[Prepare a Configuration Package](admin-how-to-prepare-a-configuration-package.md)|  
-|Modify permission sets with default permissions using RapidStart Services.|[Modify Permission Sets with Default Permissions Using RapidStart](admin-how-to-modify-permission-set-with rapid-start.md)|  
+|Create a configuration package, customize a package, assign tables to a package, review or edit existing customer data, create the new company and then move test data to the production environment.|[Prepare a Configuration Package](admin-how-to-prepare-a-configuration-package.md)| 
 
 ## See Also  
 [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  

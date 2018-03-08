@@ -1,6 +1,6 @@
 ---
     title: How to Copy a Link to a Page | Microsoft Docs
-    description: All pages have a **Copy Link to Page** action that you can use to save a link to a specific page in Finance and Operations, Business edition. You can then share these pages across your company. The link text is the same as the page header text.
+    description: All pages have a **Copy Link to Page** action that you can use to save a link to a specific page in Business Central. You can then share these pages across your company. The link text is the same as the page header text.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

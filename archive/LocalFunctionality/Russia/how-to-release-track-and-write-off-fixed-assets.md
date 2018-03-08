@@ -1,6 +1,6 @@
 ---
     title: How to Release, Track, and Write-Off Fixed Assets
-    description: You can manage your fixed assets utilizing the fixed assets acts features in Finance and Operations, Business edition. Fixed assets acts allow you to release, track, and write-off the fixed assets of your organization.
+    description: You can manage your fixed assets utilizing the fixed assets acts features in Business Central. Fixed assets acts allow you to release, track, and write-off the fixed assets of your organization.
 
     services: project-madeira
     documentationcenter: ''

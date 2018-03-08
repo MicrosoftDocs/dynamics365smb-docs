@@ -1,6 +1,6 @@
 ---
     title: How to Create Additional Sheets
-    description: In Finance and Operations, Business edition, you can create additional sheets based on VAT purchase ledgers and VAT sales ledgers.
+    description: In Business Central, you can create additional sheets based on VAT purchase ledgers and VAT sales ledgers.
 
     services: project-madeira
     documentationcenter: ''

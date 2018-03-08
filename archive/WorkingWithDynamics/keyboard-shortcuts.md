@@ -1,6 +1,6 @@
 ---
     title: Keyboard Shortcuts | Microsoft Docs
-    description: The following table provides an overview of shortcut key combinations in Finance and Operations, Business edition.
+    description: The following table provides an overview of shortcut key combinations in Business Central.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # Keyboard Shortcuts
-The following table provides an overview of shortcut key combinations in Finance and Operations, Business edition.  
+The following table provides an overview of shortcut key combinations in Business Central.  
 
 |**ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/nav_windows_md.md)]-->**|**Action**|  
 |-----------------------------------|----------------|  

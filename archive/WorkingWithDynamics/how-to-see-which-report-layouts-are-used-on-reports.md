@@ -1,6 +1,6 @@
 ---
     title: How to See Which Report Layouts are Used on Reports | Microsoft Docs
-    description: You can see which report layouts are used on Finance and Operations, Business edition reports from the **Report Layout Selection** window. From this window, you can change layout that is used on a report, create new custom layouts, or make variations of existing custom layouts.
+    description: You can see which report layouts are used on Business Central reports from the **Report Layout Selection** window. From this window, you can change layout that is used on a report, create new custom layouts, or make variations of existing custom layouts.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -22,7 +22,7 @@
 =======
 >>>>>>> refs/remotes/origin/Update14
 # See Which Report Layouts are Used on Reports
-You can see which report layouts are used on Finance and Operations, Business edition reports from the **Report Layout Selection** window. From this window, you can change layout that is used on a report, create new custom layouts, or make variations of existing custom layouts.  
+You can see which report layouts are used on Business Central reports from the **Report Layout Selection** window. From this window, you can change layout that is used on a report, create new custom layouts, or make variations of existing custom layouts.  
 
 You can see which report layouts are used on [!INCLUDE[d365fin](../../includes/d365fin_md.md)] reports from the **Report Layout Selection** window. From this window, you can change layout that is used on a report, create new custom layouts, or make variations of existing custom layouts.  
 

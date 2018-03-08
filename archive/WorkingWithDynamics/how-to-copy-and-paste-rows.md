@@ -1,6 +1,6 @@
 ---
     title: How to Copy and Paste Rows | Microsoft Docs
-    description: You can use the shortcut menu to copy and paste rows from Finance and Operations, Business edition to save time entering data.
+    description: You can use the shortcut menu to copy and paste rows from Business Central to save time entering data.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -31,7 +31,7 @@ You can use the shortcut menu to copy and paste rows from ADD INCLUDE<!--[!INCLU
 2.  Open the shortcut menu again and then choose **Paste Rows** to insert the copied rows.  
 
     > [!IMPORTANT]  
-    >  When pasting into Finance and Operations, Business edition, the lines are validated and upon encountering the first erroneous line, the paste command is stopped. An error message is displayed, after which you can fix the error and continue to paste in lines.  
+    >  When pasting into Business Central, the lines are validated and upon encountering the first erroneous line, the paste command is stopped. An error message is displayed, after which you can fix the error and continue to paste in lines.  
     >   
     >  You paste rows directly where your cursor is located. If you paste into an empty line, any existing subsequent lines will be moved after the pasted lines. If you paste into an existing line or lines, this will be overwritten.  
 

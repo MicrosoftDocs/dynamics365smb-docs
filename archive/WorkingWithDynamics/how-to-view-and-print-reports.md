@@ -1,6 +1,6 @@
 ---
     title: How to View and Print Reports | Microsoft Docs
-    description: In Finance and Operations, Business edition, there are many predefined reports that you can find in different ways:
+    description: In Business Central, there are many predefined reports that you can find in different ways:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -22,7 +22,7 @@
 =======
 >>>>>>> refs/remotes/origin/Update14
 # View and Print Reports
-In Finance and Operations, Business edition, there are many predefined reports that you can find in different ways:  
+In Business Central, there are many predefined reports that you can find in different ways:  
 
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], there are many predefined reports that you can find in different ways:  
 

@@ -38,11 +38,7 @@ You can set up users groups to help you manage permission sets for groups of use
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **User Groups**, and then choose the related link.
 2. Alternatively, in the **Users** window, choose the **User Groups** action.
-3. In the **User Groups** window, select an existing user group that you want to copy, and then choose the **Copy User Group** action.
-4. In the **New User Group Code** field, specify the name of the new user group, and then choose the **OK** button.
-
-    As an alternative to copying, you can choose the New action to create a new line for an empty user group, which you then fill in manually.
-5. To add new or additional users, in the **User Group** window, choose the **User Group Members** action.
+3. In the **User Group** window, choose the **User Group Members** action.
 6. In the **User Group Members** window, on a new line, fill in the fields as necessary by selecting from existing users.
 7. To add new or additional permission sets, in the **User Group** window, choose the **User Group Permission Sets** action.
 8. In the **User Group Permission Sets** window, on a new line, fill in the fields as necessary by selecting from existing permission sets.

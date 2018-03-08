@@ -16,7 +16,7 @@
 
 ---
 # Use the RapidStart Services Implementer Role Center
-When you use RapidStart Services, we recommend that you track your work and use the RapidStart Services Implementer Role Center as it provides the correct context for your configuration work. For more information, see the "To change Role Center" section in [Changing Basic Settings](ui-change-basic-settings.md).
+When you use RapidStart Services, we recommend that you use the RapidStart Services Implementer Role Center as it provides the correct context for your configuration work. For more information, see the "To change Role Center" section in [Changing Basic Settings](ui-change-basic-settings.md).
 
 As you continue with your work, you can assign each table the status that reflects where you are in the process. [!INCLUDE[d365fin](includes/d365fin_md.md)] then keeps track of the table status in the **Activities** part on the Role Center.  
 
@@ -33,11 +33,11 @@ When you return to the Role Center, the tiles in the **Activities** part are upd
 ## To track the status of a configuration project  
 - Open the RapidStart Services Role Center.  
 
-In the **Configuration Areas** part, [!INCLUDE[d365fin](includes/d365fin_md.md)] tracks the completion statistics for the areas and groups that you have set up in your configuration. If you have not set up any groups or areas, this part has no data.  
+In the **Configuration Areas** part, completion statistics are shown for the areas and groups that you have set up. If you have not set up any groups or areas, this part has no data.  
 
 ## To see a filtered view of table status  
 1. Choose the **Tables** action.  
-2. To see a list of tables with a particular status, select the appropriate filtered view.  
+2. Select the appropriate filtered view.  
 
 ## See Also  
 [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  

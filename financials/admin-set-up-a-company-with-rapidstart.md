@@ -20,7 +20,7 @@ You can set up a new company in [!INCLUDE[d365fin](includes/d365fin_md.md)] with
 
 RapidStart Services helps you gain an overview of the setup process of your new company by providing a worksheet in which you can set up the tables often involved in the configuration process of new companies. As you do this, you can create a questionnaire to guide your customers through the collection of setup information. Your customers have the option of using the questionnaire to set up application areas, or they can open the setup page directly and do the setup there. Most importantly, RapidStart Services helps you, as a customer, prepare the company with default setup data that you can fine-tune and customize. Lastly, when you use RapidStart Services, you can configure and migrate existing customer data, such as a list of customers or items, into the new company.
 
-You can use the following components to speed the setup of a new company:  
+You can use the following components to speed up your company setup:  
 
 -   Configuration wizard  
 -   Configuration worksheet  
@@ -31,7 +31,7 @@ You can use the following components to speed the setup of a new company:
 > [!Note]  
 >  There are areas of [!INCLUDE[d365fin](includes/d365fin_md.md)] that you must set up manually. These include adding users, setting up accounting periods, and setting up dimensions for business intelligence. For more information, see [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
- The following table describes the sequence of tasks with links to topics that describe them.
+ The following table describes a sequence of tasks with links to topics that describe them.
 
 |**To**|**See**|  
 |------------|-------------|  
@@ -45,5 +45,6 @@ You can use the following components to speed the setup of a new company:
 |Create customized views in the RapidStart Services toolkit.|[Create Custom Company Configuration Packages](admin-how-to-create-custom-company-configuration-packages.md)|  
 
 ## See Also  
+[Administration](admin-setup-and-administration.md)  
+[Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Set Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)   
-[Administration](admin-setup-and-administration.md)

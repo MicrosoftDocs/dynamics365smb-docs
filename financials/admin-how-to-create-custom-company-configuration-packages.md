@@ -39,7 +39,7 @@ To see a complete list of setup tables, Choose the ![Search for Page or Report](
 
 ## To create a custom company configuration package  
 1.  Create a new [!INCLUDE[d365fin](includes/d365fin_md.md)]. ***NOT POSSIBLE Link to help for "Creating a New Tenant"***.   
-2.  Create a new company for the industry or solution template. For more information, see [Changing Basic Settings](ui-change-basic-settings.md).  
+2.  Create a new company for the industry or solution template. For more information, see [Create a New Company](admin-how-to-create-a-new-company.md).  
 3.  Setup the new company in the way you need. Fill in all required setup tables.  
 4.  Open the new company.
 5. Open the **Configuration Worksheet** window.  

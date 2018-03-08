@@ -1,6 +1,6 @@
 ---
     title: How to Set Up Initial Item Costs
-    description: When you set up Finance and Operations, Business edition in your organization.
+    description: When you set up Business Central in your organization.
 
     services: project-madeira
     documentationcenter: ''

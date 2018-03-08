@@ -35,4 +35,4 @@ The contact information is transferred from the **Contact** card to the **Bank A
 [Synchronizing Contacts With Customers, Vendors, and Bank Accounts](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
 [Link Contacts to Existing Customers, Vendors, or Bank Accounts](marketing-how-link-contact.md)  
 [Assign Business Relations to a Contact](marketing-business-relations.md#AssignBusRelContact)  
-[Working with Finance and Operations, Business edition](ui-work-product.md)
+[Working with Business Central](ui-work-product.md)

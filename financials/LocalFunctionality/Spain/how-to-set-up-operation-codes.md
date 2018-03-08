@@ -1,6 +1,6 @@
 ---
     title: How to Set Up Operation Codes
-    description: You can add as many operation codes as you want to the table. However, the operation codes C, D, and I already exist in Finance and Operations, Business edition.
+    description: You can add as many operation codes as you want to the table. However, the operation codes C, D, and I already exist in Business Central.
 
     services: project-madeira
     documentationcenter: ''

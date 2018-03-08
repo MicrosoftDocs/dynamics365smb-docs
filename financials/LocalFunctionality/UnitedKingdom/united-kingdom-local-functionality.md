@@ -1,6 +1,6 @@
 ---
 title: United Kingdom Local Functionality | Microsoft Docs
-description: Get an overview of local functionality in the United Kingdom version of Finance and Operations, Business edition.
+description: Get an overview of local functionality in the United Kingdom version of Business Central.
 author: edupont04
 
 ms.service: dynamics365-financials

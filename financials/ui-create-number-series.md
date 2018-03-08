@@ -1,6 +1,6 @@
 ---
 title: 'Create Number Series | Microsoft Docs'
-description: Learn how to set up number series that assign unique ID codes to accounts and documents in Finance and Operations, Business edition .
+description: Learn how to set up number series that assign unique ID codes to accounts and documents in Business Central .
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 

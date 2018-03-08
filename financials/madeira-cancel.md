@@ -1,6 +1,6 @@
 ---
-title: Cancelling Finance and Operations, Business edition | Microsoft Docs
-description: Describes how to remove or delete your Finance and Operations, Business edition experience.
+title: Cancelling Business Central | Microsoft Docs
+description: Describes how to remove or delete your Business Central experience.
 author: edupont04
 
 ms.service: dynamics365-financials

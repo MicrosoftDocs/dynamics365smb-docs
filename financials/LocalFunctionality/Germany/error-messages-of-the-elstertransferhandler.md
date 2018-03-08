@@ -1,6 +1,6 @@
 ---
     title: Error Messages of the ElsterTransferHandler
-    description: When Finance and Operations, Business edition submits sales VAT advance notifications, errors can occur.
+    description: When Business Central submits sales VAT advance notifications, errors can occur.
 
     services: project-madeira
     documentationcenter: ''

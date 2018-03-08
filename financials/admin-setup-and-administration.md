@@ -1,6 +1,6 @@
 ---
-title: Administrative tasks in Finance and Operations, Business edition | Microsoft Docs
-description: Some tasks in Finance and Operations, Business edition requires central administration and setup. See what they are and learn what to do.
+title: Administrative tasks in Business Central | Microsoft Docs
+description: Some tasks in Business Central requires central administration and setup. See what they are and learn what to do.
 author: edupont04
 
 ms.service: dynamics365-financials
@@ -16,7 +16,7 @@ ms.author: edupont
 # Administration
 Central administration tasks are usually performed by one role in the company. The scope of these tasks can depend on the company's size and the administrator's job responsibilities. These tasks can include managing database synchronization of job and email queues, setting up users, customizing the user interface, and managing encryption keys.  
 
-Entering the correct setup values from the start is important to the success of any new business software. [!INCLUDE[d365fin](includes/d365fin_md.md)] includes a number of setup guides that help you set up core data. For more information, see [Setting Up Finance and Operations, Business edition](setup.md).
+Entering the correct setup values from the start is important to the success of any new business software. [!INCLUDE[d365fin](includes/d365fin_md.md)] includes a number of setup guides that help you set up core data. For more information, see [Setting Up Business Central](setup.md).
 
 <!--Whether you use [!INCLUDE[rim](../../includes/rim_md.md)] to implement setup values or you manually enter them in the new company, you can support your setup decisions with some general recommendations for selected setup fields that are known to potentially cause the solution to be inefficient if defined incorrectly.-->  
 

@@ -1,6 +1,6 @@
 ---
     title: How to Set Up Automatic Payments and Automatic Bills
-    description: In Finance and Operations, Business edition, you can manage automatic payments and bills.
+    description: In Business Central, you can manage automatic payments and bills.
 
     services: project-madeira
     documentationcenter: ''

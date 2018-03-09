@@ -30,6 +30,7 @@ The following topics describe local functionality that is unique to the United K
 [Print VAT Audit Reports](how-to-print-vat-audit-reports.md)  
 [Print VAT Reports](how-to-print-vat-reports.md)  
 [Set Up Reverse Charges on VAT](how-to-set-up-reverse-charges-on-vat.md)  
+[The GetAddress.io UK Postcodes Extension](../../ui-extensions-getaddressio.md)
 
 ## See Also
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  

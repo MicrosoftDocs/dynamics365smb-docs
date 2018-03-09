@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 03/06/2018
     ms.author: sgroespe
 
 ---
@@ -25,8 +25,6 @@
 
 ## Managing Item Details  
 Companies can have different warehouses for different product categories. In such cases, you must use the default location code retrieved from the item card. When you define a location code for an item, it is transferred to the sales lines and item journals as a default item location code. For more information, see the Sales Line and the Item Journal Line table.  
-
-You can provide an item description with up to 50 characters, and a tariff number with up to 15 characters. For more information, see the Item Card window.  
 
 Additional information, such as customer number, ship-to address code, and customer sales person code, is stored in item ledger entries. This information helps you to create customized reporting criteria, such as revenue per customer, and item or sales provisions for sales people. For more information, see the Item Ledger Entry table.  
 

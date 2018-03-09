@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 02/23/2018
+    ms.date: 03/05/2018
     ms.author: sgroespe
 
 ---
@@ -30,8 +30,7 @@ Before you export the file, it's a good idea to preview the report. For more inf
     |---------------------------------|---------------------------------------|  
     |**Nihil declaration**|Select if you do not have any trade transactions with European Union (EU) countries/regions and want to send an empty declaration.|  
     |**Enterprise No./VAT Reg. No.**|Enter the enterprise or VAT registration number.|  
-    |**Directory**|Enter the directory which the file will be saved to.|  
-
+    
 4.  Choose the **OK** button.  
 
 Next, submit the declaration to the OneGate portal.  

@@ -17,6 +17,7 @@
 ## [Bulk Invoicing for Microsoft Bookings](finance-bookings.md)
 ## [Customizing Finance and Operations, Business edition Using Extensions](ui-extensions.md)
 ## [Importing Business Data from Other Finance Systems](upload-data.md)
+## [Importing Data from Legacy Accounting Software using a Configuration Package](across-import-data-configuration-packages.md)
 ## [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)
 ### [Use the RapidStart Services Implementer Role Center](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md)
 ### [Set Up Company Configuration](admin-set-up-company-configuration.md)
@@ -147,7 +148,6 @@
 ## [Using Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)
 ## [Deleting Documents](admin-manage-documents.md)
 ## [Publishing a Web Service](across-how-publish-web-service.md)
-## [Importing Data from Legacy Accounting Software using a Configuration Package](across-import-data-configuration-packages.md)
 
 # [Finance](finance.md)
 ## [Managing Receivables](receivables-manage-receivables.md)

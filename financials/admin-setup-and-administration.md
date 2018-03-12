@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 03/02/2018
+ms.date: 03/12/2018
 ms.author: edupont
 
 ---
@@ -20,7 +20,10 @@ Entering the correct setup values from the start is important to the success of 
 
 Whether you use RapidStart Services to implement setup values or you manually enter them in the new company, you can support your setup decisions with some general recommendations for selected setup fields that are known to potentially cause the solution to be inefficient if defined incorrectly.  
 
-A super user or an administrator can set up the Data Exchange Framework to enable users to export and import data in bank and payroll files, for example for various cash management processes.  
+A super user or an administrator can set up the Data Exchange Framework to enable users to export and import data in bank and payroll files, for example for various cash management processes.
+
+> [!NOTE]
+> You can set up a new company in [!INCLUDE[d365fin](includes/d365fin_md.md)] with RapidStart Services, which is a tool designed to shorten deployment times, improve quality of implementation, introduce a repeatable approach to implementations, and enhance productivity by automating and simplifying recurring tasks. For more information, see ## [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
 The following table describes a sequence of tasks, with links to the topics that describe them.   
 
@@ -35,8 +38,6 @@ The following table describes a sequence of tasks, with links to the topics that
 |Enter single or recurring requests to run reports or codeunits.|[Using Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)|  
 |Manage, delete, or compress documents|[Deleting Documents](admin-manage-documents.md)|  
 |Expose pages, codeunits, and queries as web services.|[Publishing a Web Service](across-how-publish-web-service.md)|
-|Transfer business data, such as customers, vendors, and items into a new company using Excel and simplified RapidStart functionality.|[Importing Data from Legacy Accounting Software using a Configuration Package](across-import-data-configuration-packages.md)|
-|Shorten deployment times, improve quality of implementation, introduce a repeatable approach to implementations, and enhance productivity by automating and simplifying recurring setup tasks.|[Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)|  
 
 ## See Also
 [Business Functionality](madeira-business-functionality.md)  

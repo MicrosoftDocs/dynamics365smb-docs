@@ -28,7 +28,6 @@
 ### [Migrate Customer Data](admin-migrate-customer-data.md)
 ### [Tips and Tricks: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 
-
 # [Working with Business Central](ui-work-product.md)
 ## [Changing Basic Settings](ui-change-basic-settings.md)
 ## [Using Search for Page or Report](ui-search.md)

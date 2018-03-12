@@ -20,12 +20,12 @@ If there is a lock icon in the **Personalizing** bar when you open a page (as sh
 
 This is because we changed the way personalization works behind the scenes since the last time that you personalized the page. Unfortunately, the old way and new of doing things do not work together.
 
-The page currently includes the last personalization changes that you made. If you want to continue personalizing the page, then you can choose the lock icon and then **Unlock**. Just be aware that if you choose to unlock the page, the current personalization of the page will be cleared, and you will have to start from scratch. 
+The page currently includes the last personalization changes that you made. If you want to continue personalizing the page, then you can choose the lock icon and then **Unlock**. Just be aware that if you choose to unlock the page, the current personalization of the page will be cleared, and you will have to start from scratch.
 
 
 ## See Also
 [Personalizing Your Workspace](ui-personalization-manage.md)  
 [Managing Personalization](ui-personalization-manage.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Change the Role Center](change-role.md)  
+[Changing Basic Settings](ui-change-basic-settings.md)  
 [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)  

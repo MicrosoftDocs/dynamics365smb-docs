@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 02/27/2018
     ms.author: sgroespe
 
 ---
@@ -34,5 +34,5 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can export the Intrast
  [Set Up Intrastat Establishment Numbers](how-to-set-up-intrastat-establishment-numbers.md)   
  [Export Intrastat Third-Party Declararations](how-to-export-intrastat-third-party-declararations.md)   
  [Print the Intrastat Form Report](how-to-print-the-intrastat-form-report.md)   
-[Set Up Intrastat Reporting](../../finance-how-setup-report-intrastat.md)  
- [Print the Intrastat Form Report](how-to-print-the-intrastat-form-report.md)
+ [Set Up Intrastat Reporting](../../finance-how-setup-report-intrastat.md)  
+

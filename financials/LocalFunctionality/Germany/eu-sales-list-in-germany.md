@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 03/02/2018
     ms.author: sgroespe
 
 ---
@@ -20,16 +20,10 @@ In Germany, the German EU sales list is submitted to the "Bundeszentralamt für 
 
 In order to increase security, all types of taxes and tax reports must be submitted under an authentication method. Beginning in January 1, 2013, it has become mandatory that you make submissions with authentication. To do so, you sign in with your BZSt number and private key using your pass phrase on the ELMA5 communications server. ELMA5 is designed to handle the transmission of large datasets of more than 1000 records. Following successful login, you can upload the data transfer in an interactive way. You can also set up the transfer to be automatic.  
 
-## Implementation in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]  
- [!INCLUDE[d365fin](../../includes/d365fin_md.md)] and then submit it to the processing agency (ZIVIT).
-<<<<<<< HEAD:financials/LocalFunctionality/Germany/eu-sales-list-in-germany.md
-
-=======
- 
->>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Germany/eu-sales-list-in-germany.md
-> [!IMPORTANT]  
->  The ability to submit a VAT report in an XML format is not supported. However, you can make a submission of fewer than 1000 records in a .csv file. For this, you can use the Elster Online portal, and use the VAT – VIES Declaration Disk batch job, report 88.
-
 ## See Also  
 [BZSt Online Portal](http://www.bzst.de)   
-[Create VAT Reports](how-to-create-vat-reports.md)
+[Create VAT Reports](how-to-create-vat-reports.md)  
+[How to: Set Up VAT-VIES Reports](how-to-set-up-vat-reports.md)  
+[How to: Create VAT-VIES Reports](how-to-create-vat-reports.md)  
+[How to: Correct VAT-VIES Reports](how-to-correct-vat-reports.md)  
+[Declare VAT-VIES Tax](how-to-declare-vat-vies-tax.md)  

@@ -15,7 +15,7 @@ ms.author: sgroespe
 
 ---
 # Record Purchases
-You create a purchase invoice or purchase order to record the cost of purchases and to track accounts payable. If you need to control an inventory, purchase invoices and purchase orders are also used to dynamically update inventory levels so that you can minimize your inventory costs and provide better customer service. The purchasing costs, including service expenses, and inventory values that result from posting purchase invoices or orders contribute to profit figures and other financial KPIs on your Home page.
+You create a purchase invoice or purchase order to record the cost of purchases and to track accounts payable. If you need to control an inventory, purchase invoices and purchase orders are also used to dynamically update inventory levels so that you can minimize your inventory costs and provide better customer service. The purchasing costs, including service expenses, and inventory values that result from posting purchase invoices or orders contribute to profit figures and other financial KPIs on your Role Center.
 
 > [!NOTE]  
 >   You must use purchase orders if your purchasing process requires that you record partial receipts of an order quantity, for example, because the full quantity was not available at the vendor. If you sell items by delivering directly from your vendor to your customer, as a drop shipment, then you must also use purchase orders. For more information, see [Make Drop Shipments](sales-how-drop-shipment.md). In all other aspects, purchase orders work the same way as purchase invoices. The following procedure is based on a purchase invoice. The steps are similar for a purchase order.
@@ -32,7 +32,7 @@ Items can be type **Inventory** or **Service**. For more information, see [Regis
 You can fill vendor fields on the purchase invoice in two ways depending on whether the vendor is already registered.
 
 ## To create a purchase invoice
-1. On the Home page, choose the **Purchase Invoice** action.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoices**, and then choose the related link.  
 2. In the **Vendor** field, enter the name of an existing vendor.
 
     Other fields in the **Purchase Invoice** window are now filled with the standard information of the selected vendor. If the vendor is not registered, then follow these steps:

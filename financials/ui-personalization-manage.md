@@ -17,7 +17,7 @@ ms.author: jswymer
 ---
 # Managing Personalization as an Administrator
 <!--NAV in the Web client-->
-Users can personalize their workspace to suit their own preferences. As an administrator, you can control and manage personalization by disabling the ability for users to personalize pages and clearing any page personalizations that users have made. 
+Users can personalize their workspace to suit their own preferences. As an administrator, you can control and manage personalization by disabling the ability for users to personalize pages and clearing any page personalizations that users have made.
 
 ## Disable personalization for a profile
 You can prevent all users that belong to a specific profile from being able to personalize their pages.
@@ -27,15 +27,15 @@ You can prevent all users that belong to a specific profile from being able to p
 
 ## Clear user personalizations
 
-Clearing page personalization changes the page back to its original layout before any personalization was made. There are two ways to clear the personalizations that users have made to pages: using the **Delete User Personalization** page and using the **User Personalization Card** page. 
+Clearing page personalization changes the page back to its original layout before any personalization was made. There are two ways to clear the personalizations that users have made to pages: using the **Delete User Personalization** page and using the **User Personalization Card** page.
 
 ### Clear user personalizations by using the Delete User Personalization page
 
-The **Delete User Personalization** page enables you to clear personalizations on a per-page basis for each user individually. 
+The **Delete User Personalization** page enables you to clear personalizations on a per-page basis for each user individually.
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Delete User Personalization**, and then choose the related link.
 
-    The page lists all the pages that have been personalized and the user it belongs to. 
+    The page lists all the pages that have been personalized and the user it belongs to.
 
     >[!NOTE]
     > A check mark in the **Legacy Personalization** columns indicates that the personalization was done in an older version of [!INCLUDE[d365fin](includes/d365fin_md.md)], which handled personalization different than it does now. Users who try to personalize these pages are locked from doing so unless they choose to unlock the page. For more information, see [Why a page is locked from personalizing](ui-personalization-locked.md).
@@ -50,7 +50,7 @@ The **User Personalization Card** page enables you to clear the personalization 
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **User Personalization**, and then choose the related link.
 
-    The **User Personalization** page lists all users who potentially have personalized pages. If you cannot find a user in the list, this means that they do not have any personalized pages. 
+    The **User Personalization** page lists all users who potentially have personalized pages. If you cannot find a user in the list, this means that they do not have any personalized pages.
 
 2. Select the user from the list, and then choose the **Edit** action.
 
@@ -61,5 +61,5 @@ The **User Personalization Card** page enables you to clear the personalization 
 ## See Also
 [Personalizing Your Workspace](ui-personalization-user.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Change the Role Center](change-role.md)  
+[Changing Basic Settings](ui-change-basic-settings.md)  
 [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)  

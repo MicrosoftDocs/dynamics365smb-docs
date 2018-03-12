@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 03/07/2018
     ms.author: sgroespe
 
 ---
@@ -24,7 +24,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], there are two types of dec
 
 The type of declaration depends on the amount of shipped or received goods. To determine the type of declaration that you should use, see the [National Bank of Belgium](http://go.microsoft.com/fwlink/?LinkId=163064) web site.  
 
-When using the extended declaration, you will also need to set up an Incoterm in Intrastat Declaration for each shipping method. For more information, see [Incoterm in Intrastat Decl. Field](ms-its:be_lf_a.chm::/T_10_11300.htm).  
+When using the extended declaration, you will also need to set up an Incoterm in Intrastat Declaration for each shipping method. If you do not see the **Incoterm in Intrastat Decl.** on the **Shipment Method** page, you may need to customize the page and add the field. 
 
 ## To set up declaration types  
 

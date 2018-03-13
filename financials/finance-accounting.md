@@ -19,7 +19,7 @@ Any business must do its books and sign off on the accounting. Some businesses e
 ## Accountant Role Center
 The Role Center is a dashboard with activity tiles that show you real-time key figures and give you quick access to data. In the ribbon at the top of the window, you have access to more actions, such as opening the most commonly used financial reports and statements in Excel. In the navigation pane to the left, you can quickly switch between the lists you use most often. If you expand the **Home** menu in the navigation pane, you will see other areas, such as **Posted Documents** with the various types of documents that the company has posted.  
 
-If you are new to [!INCLUDE[d365fin](includes/d365fin_md.md)], you can launch a list of videos right from your Home page. You can also launch a **Getting Started** tour that points out key areas.  
+If you are new to [!INCLUDE[d365fin](includes/d365fin_md.md)], you can launch a list of videos right from your Role Center. You can also launch a **Getting Started** tour that points out key areas.  
 
 ## Accountant Hub
 If you are an accountant with several clients, you can use [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] for a better overview of your clients. From there, you can access each client's tenant in [!INCLUDE[d365fin](includes/d365fin_md.md)] and use the Accountant Role Center as described above. For more information see [Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  

@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 03/29/2017
+ms.date: 03/02/2018
 ms.author: solsen
 
 ---
@@ -23,9 +23,13 @@ The Role Center represents the Home page, a starting page that is designed for t
 
 In the center you find the Activities tiles. Activities show current data and can be clicked or tapped for easy access to the selected document. The Key Performance Indicators can be set up to display a selected chart for a visual representation of, for example, cash flow or income and expenses.
 
-You can also build up a list of Favorite Customers on the Home page for accounts that you do business with often or need to pay special attention to. Use the arrows to collapse part of the page and make more room to show specific data. At the top of the Home page you will find all of the actions that can be applied to the current content. This too can be collapsed and you only need to click or tap within the collapsed area to view it again.
+You can also build up a list of favorite customers on the Home page for accounts that you do business with often or need to pay special attention to. Use the arrows to collapse part of the page and make more room to show specific data. At the top of the Home page you will find all of the actions that can be applied to the current content. This too can be collapsed and you only need to choose the collapsed area to view it again.
 
-The default Role Center is **Business Manager**, but you can select another Role Center that fits your needs better. For more information, see [Change the Role Center](change-role.md).
+### To change Role Center
+The default Role Center is **Business Manager**, but you can select another Role Center that fits your needs better.
+1. In the top right corner, choose the **Settings** icon ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center"), and then choose **My Settings**.
+2. In the **My Settings** window, in the **Role Center** field, select the Role Center that you want to set as the standard. For example, select **Accountant**.
+3. Choose the **OK** button.
 
 ## Company
 A company functions as a container for data in [!INCLUDE[d365fin](includes/d365fin_md.md)]. There can be multiple companies in a database, but only one can be selected at a time.
@@ -52,5 +56,4 @@ Choose this link to view or change the notifications that you get about certain 
 
 ## See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Change the Role Center](change-role.md)  
 [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)  

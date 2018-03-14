@@ -1,0 +1,1 @@
+<blockquote STYLE="background: #81BEF7;border-left:None"><b>ADVANCED</b><br />This functionality is only available with the Advanced experience. For more information, see [Customizing Your Business Central Experience](../ui-experiences.md) </blockquote>

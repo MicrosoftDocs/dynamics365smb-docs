@@ -21,7 +21,6 @@
 
 - Maintain the foreign currency balances of a bank account in the general ledger.  
 - Sort general ledger account numbers in the **Chart of Accounts** window.  
-- Prevent use of the incorrect positive or negative signs for the amounts entered manually in the journals.  
 - Preview the effects that posting general journals would have on the balances of certain general ledger accounts before actually posting them.  
 
 ## General Ledger Accounts and General Journals  
@@ -37,11 +36,6 @@ The data type is set to text for the general ledger account number or account co
 - 1176  
 - 119.0  
 - 1190  
-
-## Correcting Positive and Negative Signs in General Journals  
-When you manually enter amounts in the journal, the positive and negative signs for the amounts are automatically checked. Depending on the account type and the document type, incorrect signs are automatically corrected, and a message is displayed. For more information, see [General Journal Line Table](assetId:///5308c791-0964-41d9-bc54-fd87e815d1be).  
-
-The amounts for customer invoices, vendor credit memos, and payments must be positive. The amounts for vendor invoices, customer credit memos, and payments must be negative.  
 
 ## Viewing Temporary Balances in General Journals  
 Before posting a general journal you can preview the effect that posting would have on the balances of certain general ledger accounts. You can open a statistics window that shows the balances of the accounts, and the balances of the active lines that included the unposted values for the current journal. For more information, see [View Temporary Balances in General Ledger Journals](how-to-view-temporary-balances-in-general-ledger-journals.md).  

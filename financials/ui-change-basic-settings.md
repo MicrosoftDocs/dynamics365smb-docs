@@ -21,7 +21,7 @@ In the **My Settings** window, you can see and change basic settings for [!INCLU
 ## Role Center
 The Role Center represents the home page, a starting page that is designed for the needs of the role. The Role Center provides you with an overview of the business, reflecting the information, tasks, and priorities of your role. 
 
-Along the top of the Role Center, you see a navigation bar that gives you easy access to typical entities for the role, such as customers, vendors, items, and so on.
+Along the top of the Role Center, you see the navigation that gives you easy access to typical entities for the role, such as customers, vendors, items, and so on.
 
 Whats appears in the main content area will depend on the specific Role Center. For example, on most Role Centers, you can find the Activities tiles that show current data and can be clicked or tapped for easy access to the selected document. Key Performance Indicators can be set up to display a selected chart for a visual representation of, for example, cash flow or income and expenses. Some Role Centers enable you to build a list of favorite entities, like customers and vendors, or show the Report Inbox.
 

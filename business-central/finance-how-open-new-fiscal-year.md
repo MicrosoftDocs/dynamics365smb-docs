@@ -3,7 +3,7 @@ title: Create accounting periods and fiscal years| Microsoft Docs
 description: You must open a fiscal year and define accounting periods, before you can post in a fiscal year.
 author: edupont04
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

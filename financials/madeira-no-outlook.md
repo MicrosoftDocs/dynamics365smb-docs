@@ -23,6 +23,6 @@ You can send documents such as invoices as email using your business email addre
 
 ## See Also
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Using Finance and Operations, Business edition as your Business Inbox in Outlook](admin-outlook.md)  
+[Using Finance and Operations, Business edition as your Business Inbox in Outlook](medeira-outlook.md)  
 [Getting Finance and Operations, Business edition on my Mobile Device](install-mobile-app.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)

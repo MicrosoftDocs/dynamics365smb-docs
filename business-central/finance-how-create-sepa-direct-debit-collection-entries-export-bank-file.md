@@ -3,7 +3,7 @@
     description: Create a direct-debit collection, which holds information about the customer’s bank account, the affected sales invoices, and the direct-debit mandate.
     author: SorenGP
 
-    ms.service: dynamics365-financials
+    ms.service: dynamics365-business-central
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na

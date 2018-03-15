@@ -3,7 +3,7 @@ title: Using the Accountant Portal | Microsoft Docs
 description: Provides information about the Accountant Portal extension.
 author: edupont04
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

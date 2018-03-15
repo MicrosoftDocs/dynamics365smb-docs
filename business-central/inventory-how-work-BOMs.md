@@ -4,7 +4,7 @@ description: You create an assembly BOM or production BOM to specify the compone
 documentationcenter: ''
 author: SorenGP
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

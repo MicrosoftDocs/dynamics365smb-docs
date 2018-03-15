@@ -4,7 +4,7 @@ description: You can use Business Central as your business inbox in Outlook beca
 documentationcenter: ''
 author: edupont04
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na

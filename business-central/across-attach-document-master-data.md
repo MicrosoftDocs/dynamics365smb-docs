@@ -3,7 +3,7 @@ title: Attach files to master data | Microsoft Docs
 description: Add pictures, documents, or images to customers, vendors and other master records, and let them be attached to invoices as well.
 author: edupont04
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

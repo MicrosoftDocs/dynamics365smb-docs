@@ -3,7 +3,7 @@ title: Financials accountant experience | Microsoft Docs
 description: Learn about the accountant portal for Business Central and the Accountant Role Center that supports internal and external accountants in the client company.
 author: edupont04
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

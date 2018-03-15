@@ -3,7 +3,7 @@ title: Add your external accountant to your Financials | Microsoft Docs
 description: Learn how you can invite your external accountant to your Business Central .
 author: edupont04
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

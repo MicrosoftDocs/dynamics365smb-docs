@@ -3,7 +3,7 @@
     description: There are many general functions that help you enter data  in a quick and easy way. The general functions for entering data are described in this topic.
     author: jswymer
 
-    ms.service: dynamics365-financials
+    ms.service: dynamics365-business-central
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na

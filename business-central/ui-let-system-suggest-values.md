@@ -3,7 +3,7 @@ title: Setting Up Suggested Field Values | Microsoft Docs
 description: To avoid manual calculations and complete tasks quickly and accurately, you can set up automatic data entry so that Business Central fills in selected fields.
 author: SorenGP
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -2,7 +2,7 @@
 title: Use Excel to import data into Financials| Microsoft Docs
 description: Use the default configuration package to add customer data in Excel and import the data back into Business Central .
 author: edupont04
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@ title: Submit VAT Reports to Tax Authorities| Microsoft Docs
 description: Learn how to prepare reports that lists VAT from sales during a period, or from sales and purchases, and submit the report to a tax authority.
 author: bholtorf
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

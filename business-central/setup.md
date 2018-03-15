@@ -3,7 +3,7 @@ title: Overview of Tasks to Set Up Business Central | Microsoft Docs
 description: Outlines tasks to set up, initialize, and configure Business Central to suit your needs.
 author: edupont04
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

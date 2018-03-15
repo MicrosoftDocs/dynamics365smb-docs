@@ -3,7 +3,7 @@ title: Set Up Special Sales Prices and Discounts for Customers | Microsoft Docs
 description: Describes how to define the alternate pricing and discount agreements that you want to apply to sales documents when selling to different customers.
 author: SorenGP
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@ title: Minimum requirements for using Business Central| Microsoft Docs
 description: Learn about the minimum system and version requirements for using Business Central.
 author: edupont04
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na

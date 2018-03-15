@@ -3,7 +3,7 @@
     description: The **Planning** FastTab in the **Manufacturing Setup** window contains several fields that define global rules for supply planning.
     author: SorenGP
 
-    ms.service: dynamics365-financials
+    ms.service: dynamics365-business-central
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na

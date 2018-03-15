@@ -38,6 +38,6 @@ You set up different aspects of workflow notifications in the following places:
  [Create Workflows](across-how-to-create-workflows.md)   
  [Manage Notification Templates](across-how-to-manage-notification-templates.md)   
  [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)   
- [Set up Email](admin-how-setup-email.md)   
+ [Set up Email](madeira-how-setup-email.md)   
  [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Workflow](across-workflow.md)   

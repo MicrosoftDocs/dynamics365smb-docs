@@ -3,7 +3,7 @@
     description: This topic describes how dimension set entries are stored and posted in Dynamcis 365.
     author: SorenGP
 
-    ms.service: dynamics365-financials
+    ms.service: dynamics365-business-central
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na

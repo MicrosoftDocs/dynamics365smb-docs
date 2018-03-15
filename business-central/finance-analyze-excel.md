@@ -3,7 +3,7 @@ title: Work with financial overviews in Excel | Microsoft Docs
 description: Learn about how you can open the financial statements in Microsoft Excel from Business Central  for better analysis.
 author: edupont04
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

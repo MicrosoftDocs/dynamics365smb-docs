@@ -3,7 +3,7 @@ title: Cancelling Business Central | Microsoft Docs
 description: Describes how to remove or delete your Business Central experience.
 author: edupont04
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

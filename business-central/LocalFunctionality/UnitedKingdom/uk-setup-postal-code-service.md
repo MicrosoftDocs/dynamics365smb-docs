@@ -2,7 +2,7 @@
 title: 'Set Up the GetAddress.io UK Postcodes Extension | Microsoft Docs'
 description: Describes the general functionality you use to interact with data in Business Central, such as entering values, sorting data, and changing views.
 author: bholtorf
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

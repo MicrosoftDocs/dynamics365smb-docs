@@ -4,7 +4,7 @@ description: Describes how to create a sales offer or a request for proposal (RF
 documentationcenter: ''
 author: SorenGP
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@ title: Assigning and managing tasks| Microsoft Docs
 description: Learn how to assign tasks to users, including your accountant, in Business Central 
 author: edupont04
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

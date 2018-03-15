@@ -3,7 +3,7 @@
     description: This topic provides an overview of the the concepts and principles that are used within the Supply Planning features in Business Central.
     author: SorenGP
 
-    ms.service: dynamics365-financials
+    ms.service: dynamics365-business-central
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na

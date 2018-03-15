@@ -3,7 +3,7 @@ title: Remind or Fine Customers of Overdue Payments| Microsoft Docs
 description: Describes how to send a reminder to a customer about a payment that is due and add charges, or fees to the payment because of the delay.
 author: SorenGP
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

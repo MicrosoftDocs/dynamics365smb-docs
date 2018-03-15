@@ -3,7 +3,7 @@ title: Meet Business Central | Microsoft Docs
 description: Learn about capabilities and work scenarios in Business Central, a business management solution for small and mid-sized organizations.
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na

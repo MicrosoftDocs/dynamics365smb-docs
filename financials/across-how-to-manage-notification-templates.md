@@ -72,7 +72,7 @@ Parameter values are automatically inserted in notifications according to the no
 
 ## See Also  
  [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)   
- [Set up Email](admin-how-setup-email.md)   
+ [Set up Email](madeira-how-setup-email.md)   
  [Set Up Workflow Users](across-how-to-set-up-workflow-users.md)   
  [Set Up Approval Users](across-how-to-set-up-approval-users.md)   
  [Create Workflows](across-how-to-create-workflows.md)   

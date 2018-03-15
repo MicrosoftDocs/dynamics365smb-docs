@@ -4,7 +4,7 @@ Description: You can activate a user log so that you have a history of any chang
 documentationcenter: ''
 author: edupont04
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na

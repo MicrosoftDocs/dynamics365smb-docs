@@ -7,7 +7,7 @@ author: bholtorf
 manager: edupont
 editor: ''
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.workload: na
 ms.tgt_pltfrm: na
 ms.devlang: na

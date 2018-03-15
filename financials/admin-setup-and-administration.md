@@ -39,7 +39,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Expose pages, codeunits, and queries as web services.|[Publishing a Web Service](across-how-publish-web-service.md)|
 
 ## See Also
-[Business Functionality](across-business-functionality.md)  
+[Business Functionality](madeira-business-functionality.md)  
 [General Business Functionality](ui-across-business-areas.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  

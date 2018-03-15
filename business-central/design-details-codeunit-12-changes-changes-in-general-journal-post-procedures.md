@@ -3,7 +3,7 @@
     description: The following changes have been implemented in this release of Business Central.
     author: SorenGP
 
-    ms.service: dynamics365-financials
+    ms.service: dynamics365-business-central
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na

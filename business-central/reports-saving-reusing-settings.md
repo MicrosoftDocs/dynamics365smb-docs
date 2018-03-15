@@ -3,7 +3,7 @@ title: Apply and Modify Saved Settings on Reports | Microsoft Docs
 description: Describes using predefined options and filters to customize a report, and to generate the correct data.
 author: jswymer
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

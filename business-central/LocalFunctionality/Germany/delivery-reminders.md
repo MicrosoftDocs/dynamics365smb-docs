@@ -1,12 +1,12 @@
 ---
     title: Delivery Reminders
     description: Delivery reminders are used to track overdue vendor shipments, and to remind vendors about overdue deliveries.
-    ms.service: dynamics365-financials
+    ms.service: dynamics365-business-central
     documentationcenter: ''
     author: SorenGP
     services: project-madeira
 
-    ms.service: dynamics365-financials
+    ms.service: dynamics365-business-central
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na

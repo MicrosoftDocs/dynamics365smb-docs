@@ -9,7 +9,7 @@
 ## [Changing from a QuickBooks App to Microsoft Business Central](across-quickbooks-to-business-edition.md)
 ## [Getting Business Central on Your Mobile Device](install-mobile-app.md)
 ## [Using Business Central as Your Business Inbox in Outlook](admin-outlook.md)
-## [Using Business Central Without Outlook](product-no-outlook.md)
+## [Using Business Central Without Outlook](admin-no-outlook.md)
 ## [Enabling Your Business Data for Power BI](admin-powerbi.md)
 ## [Connecting PowerBI to Business Central Content Packs](across-how-to-connect-powerbi-dynamics-365-content-packs-help.md)
 ## [Using Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md)

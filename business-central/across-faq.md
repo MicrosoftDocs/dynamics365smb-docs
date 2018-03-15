@@ -45,7 +45,7 @@ Did you read about a new capability in the roadmap or on our blog recently? In t
 ## See Also
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as Your Business Inbox in Outlook](admin-outlook.md)  
-[Using [!INCLUDE[d365fin](includes/d365fin_md.md)] without Outlook](product-no-outlook.md)  
+[Using [!INCLUDE[d365fin](includes/d365fin_md.md)] without Outlook](admin-no-outlook.md)  
 [Changing Basic Settings](ui-change-basic-settings.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

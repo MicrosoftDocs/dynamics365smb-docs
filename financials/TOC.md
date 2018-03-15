@@ -8,7 +8,7 @@
 ## [Changing from a QuickBooks App to Microsoft Finance and Operations, Business edition](across-quickbooks-to-business-edition.md)
 ## [Getting Finance and Operations, Business edition on Your Mobile Device](install-mobile-app.md)
 ## [Using Finance and Operations, Business edition as Your Business Inbox in Outlook](madeira-outlook.md)
-## [Using Finance and Operations, Business edition Without Outlook](madeira-no.outlook.md)
+## [Using Finance and Operations, Business edition Without Outlook](madeira-no-outlook.md)
 ## [Enabling Your Business Data for Power BI](madeira-powerbi.md)
 ## [Connecting PowerBI to Finance and Operations, Business edition Content Packs](across-how-to-connect-powerbi-dynamics-365-content-packs-help.md)
 ## [Using Finance and Operations, Business edition in an Automated Workflow](across-how-use-financials-data-source-flow.md)

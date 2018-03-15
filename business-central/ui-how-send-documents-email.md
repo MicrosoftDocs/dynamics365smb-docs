@@ -61,6 +61,6 @@ The following procedure describes how to send a posted sales invoice as an email
 
 ## See Also
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  
-[Set up Email](madeira-how-setup-email.md)  
+[Set up Email](admin-how-setup-email.md)  
 [Invoice Sales](sales-how-invoice-sales.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

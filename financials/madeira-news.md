@@ -83,7 +83,7 @@ This update of [!INCLUDE[d365fin](includes/d365fin_md.md)] added new capabilitie
 This update adds actions to the vendor dashboard in the Outlook add-in so you can work directly with attachments to the associated email. You use the actions to send the email attachments directly to the **Incoming Documents** list, send the documents to the OCR service, and send an approval request for the incoming document. For more information, see [Manage Incoming Documents](across-income-documents.md).
 
 ### Create invoices in your Outlook calendar
-The Outlook add-in now extends to the Outlook calendar. From a calendar appointment, you can open the [!INCLUDE[d365fin](includes/d365fin_md.md)] add-in and get an overview for the customer associated with the appointment. Then, you can create and send an invoice for the services provided in the meeting - all of this happening right there in the Outlook calendar. For more information, see [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as your Business Inbox in Outlook](madeira-outlook.md).  
+The Outlook add-in now extends to the Outlook calendar. From a calendar appointment, you can open the [!INCLUDE[d365fin](includes/d365fin_md.md)] add-in and get an overview for the customer associated with the appointment. Then, you can create and send an invoice for the services provided in the meeting - all of this happening right there in the Outlook calendar. For more information, see [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as your Business Inbox in Outlook](admin-outlook.md).  
 
 ### AppSource marketplace for extensions
 [!INCLUDE[d365fin](includes/d365fin_md.md)] extensions are now available in the AppSource marketplace at [AppSource.microsoft.com](https://appsource.microsoft.com/). You will be able to search and find extensions in the marketplace. You will be able to view information, including marketing material, screenshots, videos and links to additional details. For more information, see [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md).  
@@ -115,9 +115,9 @@ In April 2016, we launched the preview of [!INCLUDE[d365fin](includes/d365fin_md
 
 Key scenarios to try out on your own:  
 
-- [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as your Business Inbox in Outlook](madeira-no-outlook.md)  
+- [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as your Business Inbox in Outlook](product-no-outlook.md)  
 - [Getting [!INCLUDE[d365fin](includes/d365fin_md.md)] on Your Mobile Device](install-mobile-app.md)  
-- [Enabling Your Business Data for Power BI](madeira-powerbi.md)  
+- [Enabling Your Business Data for Power BI](admin-powerbi.md)  
 - [Changing Basic Settings](ui-change-basic-settings.md)  
 
 

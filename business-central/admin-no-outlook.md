@@ -23,6 +23,6 @@ You can send documents such as invoices as email using your business email addre
 
 ## See Also
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Using Business Central as your Business Inbox in Outlook](madeira-outlook.md)  
+[Using Business Central as your Business Inbox in Outlook](admin-outlook.md)  
 [Getting Business Central on my Mobile Device](install-mobile-app.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)

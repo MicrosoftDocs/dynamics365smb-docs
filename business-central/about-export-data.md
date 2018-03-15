@@ -59,7 +59,7 @@ We recommend that you also consider exporting data from the following pages:
 >   If you have set up more than one company in [!INCLUDE[d365fin](includes/d365fin_md.md)], you must export the relevant data from each company.
 
 ## See Also
-[Canceling Your Subscription for [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md)  
+[Canceling Your Subscription for [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md)  
 [Importing Business Data from Other Finance Systems](upload-data.md)  
 [Finance](finance.md)  
 [General Business Functionality](ui-across-business-areas.md)  

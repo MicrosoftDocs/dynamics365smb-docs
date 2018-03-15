@@ -38,6 +38,6 @@ One of the license types for [!INCLUDE[d365fin](includes/d365fin_md.md)] is the 
 
 ## See Also
 [Finance](finance.md)  
-[Set Up Email Manually or Using the Assisted Setup](madeira-how-setup-email.md)  
+[Set Up Email Manually or Using the Assisted Setup](admin-how-setup-email.md)  
 [Accountant Experiences in Business Central ](finance-accounting.md)  
 [Business Central for Accountants on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  

@@ -1,8 +1,6 @@
 ---
 title: Business Functionality Supported by Business Central | Microsoft Docs
-Description: Provides a feature overview of all the business functions and departments that are supported by application areas, such as Finance, Inventory, and Project Management.
-services: project-madeira
-documentationcenter: ''
+description: Provides a feature overview of all the business functions and departments that are supported by application areas, such as Finance, Inventory, and Project Management.
 author: SorenGP
 
 ms.service: dynamics365-business-central

@@ -1,5 +1,8 @@
 ---
 title: Responding to Requests About Personal Data
+description: You must respond to data subject requests.
+author: bholtorf
+
 ms.author: bholtorf
 ms.custom: na
 ms.date: 03/13/2018
@@ -7,8 +10,6 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2018"
-author: bholtorf
 ---
 
 # Responding to Requests About Personal Data  
@@ -25,7 +26,7 @@ The following table provides examples of the types of requests you can respond t
 |Requests for deletion|A data subject can request that you delete their personal data. There are several ways to delete personal data using the customization capabilities, but the decision and implementation is your responsibility. In some cases, you may choose to directly edit your data, for example deleting a contact and then running the Delete Canceled Interaction batch job to delete interactions for the contact. <br><br> **Note:** If you have specified a date in the **Allow Document Deletion Before** field on the **Sales & Receivables Setup** or **Purchases & Payables Setup** pages, you might need to change the date so that you can delete posted sales and purchase documents that you have printed and that have posting dates on or before that date.|
 |Requests for correction|A data subject can request that you correct inaccurate personal data. There are several ways to do so. In some cases, you can export lists to Excel to quickly bulk-edit multiple records, and then import the updated data. For more information, see [Exporting your Business Data to Excel](https://docs.microsoft.com/en-us/dynamics-nav-app/about-export-data). You can also manually edit fields that contain personal data, such as editing information about a customer in the Customer card. However, transaction records such as general, customer, and tax ledger entries are essential to the integrity of the enterprise resource planning system. If you store personal data in business transaction records, consider using the customization capabilities to modify such personal data.|
 
-## Restrict Data Processing for a Data Subject 
+## Restrict Data Processing for a Data Subject
 A data subject can request that you temporarily stop processing their personal data. To honor such requests, you can mark their record as blocked due to privacy to stop processing their data. When a record is marked as blocked, you cannot create new transactions that use that record. For example, you cannot create a new invoice for a customer when either the customer or the salesperson is blocked. To mark a data subject as blocked, open the card for the data subject, for example the Customer, Vendor, or Contact cards, and choose the **Privacy Blocked** check box. You may need to choose **Show More** to display the field.
 
 ## Handling Data About Minors
@@ -38,4 +39,3 @@ If a contact person's age is below the age of legal consent according to the law
 [Classifying Data](https://docs.microsoft.com/en-us/dynamics-nav/classifying-data)  
 [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)  
 [Exporting your Business Data to Excel](https://docs.microsoft.com/en-us/dynamics-nav-app/about-export-data)  
-

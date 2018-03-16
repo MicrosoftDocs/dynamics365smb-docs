@@ -20,7 +20,7 @@ You can migrate existing customer data from an existing ERP system to [!INCLUDE[
 
 The **Migration Overview** and **Config. Worksheet** windows provide access to the functions and views to perform all the tasks that relate to data migration. We recommend that you migrate one table at a time, to handle dependencies in your data. In migration, you will also touch the master data tables, which contain information about customers, vendors, items, contacts, and the general ledger.  
 
-# To import configuration packages
+## To import configuration packages
 When you create a new company, you can import company settings for the new company. You import the settings from a .rapidstart file, which delivers the package contents in a compressed format. A corresponding set of default data migration tables are imported. The data set contains master data tables and the setup data tables. Your first task in data migration is to evaluate if the default migration setup meets the needs of the new company.
 
 > [!NOTE]  

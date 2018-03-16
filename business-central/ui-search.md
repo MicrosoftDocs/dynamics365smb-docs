@@ -1,5 +1,5 @@
 ---
-title: Finding Pages or Reports Using the Search for Page or Report Function | Microsoft Docs
+title: Find Pages or Reports Using the Search button | Microsoft Docs
 description: To find pages and reports in Business Central , you can use the Search for Page or Report feature.
 services: project-madeira
 documentationcenter: ''

@@ -1,5 +1,5 @@
 ---
-    title: Walkthrough - Receiving and Putting Away in Advanced Warehouse Configurations | Microsoft Docs
+    title: Receiving and Putting Away in Advanced Warehousing | Microsoft Docs
     description: In Business Central, the inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.
     author: SorenGP
 

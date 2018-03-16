@@ -2,6 +2,7 @@
     title: Design Details | Microsoft Docs
     description: This content contains detailed technical information about complex application features in Business Central.
     author: SorenGP
+    documentationcenter: ''
 
     ms.service: dynamics365-business-central
     ms.topic: article

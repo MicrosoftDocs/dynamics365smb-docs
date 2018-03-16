@@ -1,5 +1,5 @@
 ---
-title: Add Extra Lines to Define Extended Text for an Item Description | Microsoft Docs
+title: Add Extra Lines to Define Extended Item Descriptions | Microsoft Docs
 description: You can add extra lines to extend the standard text that describes an item.
 services: project-madeira
 documentationcenter: ''

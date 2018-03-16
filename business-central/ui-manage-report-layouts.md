@@ -1,5 +1,5 @@
 ---
-title: Working with Custom and Built-In Layouts for Reports and Documents | Microsoft Docs
+title: Custom and Built-In Layouts for Reports and Documents | Microsoft Docs
 description: Use report layouts to customize documents, for example, to personalize the font, logo, or page settings of PDF files you send to customers.
 services: project-madeira
 documentationcenter: ''

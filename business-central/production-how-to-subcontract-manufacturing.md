@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 09/04/2017
+    ms.date: 03/16/2018
     ms.author: sgroespe
 
 ---
@@ -39,10 +39,9 @@ You can set up a routing that uses an outside work center as a standard operatio
 
 For more information, see [Create Routings](production-how-to-create-routings.md).  
 
-## Subcontracting Worksheet  
+## Calculate Subcontracting Worksheets and Create Subcontract Purchase Orders  
 Once you have calculated the subcontracting worksheet, the relevant document, in this case a purchase order, is created.  
 
-# Calculate Subcontracting Worksheets and Create Subcontract Purchase Orders
 The **Subcontracting Worksheet** window functions like the **Planning Worksheet** by calculating the needed supply, in this case purchase orders, which you review in the worksheet and then create with the **Carry Out Action Message** function.  
 
 > [!NOTE]  

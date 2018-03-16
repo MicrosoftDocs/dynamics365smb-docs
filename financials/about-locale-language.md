@@ -18,9 +18,6 @@ ms.author: edupont
 
 For example, if you are Canadian, you can see the user interface in English and in French, but it is still the Canadian version of [!INCLUDE[d365fin](includes/d365fin_md.md)] in all other aspects. It is not the same as, say, [!INCLUDE[d365fin](includes/d365fin_md.md)] in the United Kingdom.  
 
-> [!NOTE]  
->  Changing the language is currently not supported in [!INCLUDE[d365fin](includes/d365fin_md.md)].
-
 Changing the texts that are stored as application data is not part of the multilanguage capability. This is an application design issue. Examples of such texts are the names of items in the inventory or the comments for a customer. In other words, these types of text are not translated.  
 
 > [!NOTE]  

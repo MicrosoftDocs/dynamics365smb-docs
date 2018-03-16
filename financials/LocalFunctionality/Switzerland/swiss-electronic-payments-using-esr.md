@@ -2,7 +2,7 @@
     title: Swiss Electronic Payments Using ESR
     description: The Einzahlungsschein mit Referenznummer (ESR) electronic payment method is an electronic debtor service that allows the customer to bill open invoices in Swiss Francs (CHF) and Euros (EUR), and to post incoming payments efficiently.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -42,6 +42,5 @@ When you set up number series for invoices, you must follow these guidelines:
  [Swiss Electronic Payments](swiss-electronic-payments.md)   
  [Print ESR Invoices](how-to-print-esr-invoices.md)   
  [Import ESR Payments](how-to-import-esr-payments.md)   
- [Swiss Electronic Payments Using DTA](swiss-electronic-payments-using-dta.md)   
  [Swiss Electronic Payments Using LSV+](swiss-electronic-payments-using-lsv-.md)   
  [Making Payments](../../payables-make-payments.md)

@@ -2,7 +2,7 @@
     title: Swiss Electronic Payments Using LSV+
     description: The Lastschrift Verfahren (LSV+)—or direct debit—electronic payment method, an improved version of LSV, allows companies to retrieve payments directly from its customers’ bank accounts. To retrieve customer payments, you must send an LSV file to the bank, and the bank will collect the payments requested in the file.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 03/06/2018
     ms.author: sgroespe
 
 ---
@@ -21,7 +21,7 @@ The Lastschrift Verfahren (LSV+)—or direct debit—electronic payment method, 
 
 The LSV+ method is a direct debit principle with right of objection. Business Direct Debit (BDD) is a direct debit system without right of objection. The file format to be sent to the bank is the same for LSV+ and BDD.  
 
-Before using the LSV module, you must define the settings in the **LSV Setup** window. For more information, see the LSV Setup table.  
+Before using the LSV module, you must define the settings in the **LSV Setup** window.
 
 ## Automatic ESR Processing  
 You can download payment credit transactions in Einzahlungsschein mit Referenznummer (ESR) file format from the bank. You can receive processed LSV payments in the ESR file if the ESR reference number is integrated with the LSV+ system. If LSV+ payments are included in your imported LSV files, the related LSV journal lines are closed automatically. Automatic ESR processing is performed only for payments that use Swiss Francs (CHF), and requires that you do the following:  
@@ -41,6 +41,5 @@ You can download payment credit transactions in Einzahlungsschein mit Referenznu
  [Post LSV+ Payments](how-to-post-lsv-payments.md)   
  [Export Payments Using LSV](how-to-export-payments-using-lsv.md)   
  [Swiss Electronic Payments](swiss-electronic-payments.md)   
- [Swiss Electronic Payments Using DTA](swiss-electronic-payments-using-dta.md)   
  [Swiss Electronic Payments Using ESR](swiss-electronic-payments-using-esr.md)   
  [Making Payments](../../payables-make-payments.md)

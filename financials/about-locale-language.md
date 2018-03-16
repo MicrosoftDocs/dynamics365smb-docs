@@ -9,11 +9,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture
-ms.date: 09/01/2017
+ms.date: 02/03/2018
 ms.author: edupont
 
 ---
-# Language and Locale
+# Changing Language and Locale
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is supported in a number of markets and available in the languages that those markets require. This is a result of support for multiple languages at runtime in combination with support for legal requirements in the supported markets. This means that [!INCLUDE[d365fin](includes/d365fin_md.md)] can present itself in different languages. You can change the language that is used to display texts, and the change is immediate, once you have been automatically signed out and in again. The setting applies to you and not to everyone else in your company.  
 
 For example, if you are Canadian, you can see the user interface in English and in French, but it is still the Canadian version of [!INCLUDE[d365fin](includes/d365fin_md.md)] in all other aspects. It is not the same as, say, [!INCLUDE[d365fin](includes/d365fin_md.md)] in the United Kingdom.  
@@ -36,7 +36,15 @@ You can change the locale in the browser tab that you are using to work in [!INC
 
 To change the locale, go to the **My Settings** window. For more information, see [Changing Basic Settings](ui-change-basic-settings.md).  
 
+## Languages of the [!INCLUDE[d365fin](includes/d365fin_md.md)] Help
+The Help content for the core functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)] publishes to the Microsoft Docs site and available in a number of different languages. If you access the docs from inside [!INCLUDE[d365fin](includes/d365fin_md.md)], the content will display in your language. If a particular page is not available in your language yet, it will be shown in English.
+
+### How Do I Change the Language?
+It's simple - scroll to the bottom of the browser window and choose the globe symbol in the bottom left corner.
+
+> [!NOTE]  
+> The list shows all languages that are supported by the Microsoft Docs site. [!INCLUDE[d365fin](includes/d365fin_md.md)] is available in a limited number of countries/regions, but the Help content is made available in more languages. However, the Help content is not available in all languages that the Microsoft Docs site supports.
+
 ## See Also  
-[Languages of the Docs](about-languages.md)  
 [Changing Basic Settings](ui-change-basic-settings.md)  
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

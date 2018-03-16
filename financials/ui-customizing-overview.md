@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalize, add-in, extend, customize
-ms.date: 01/19/2018
+ms.date: 02/28/2018
 ms.author: jswymer
 
 ---
@@ -21,11 +21,7 @@ There are different ways to customize the application to give you and your colle
 | What you can do    |  Description  |  Who sees the changes  |  More information  |
 |-----|---------------|---------|-------|
 |Install an extension|Extensions are like small applications that add functionality, change behavior, provide access to new online services, and more. For example, Microsoft provides an extension that provides integration with PayPal Payments Standard.|All users in all companies.|[Customizing Using Extensions](ui-extensions.md)|
-<<<<<<< HEAD
-|Change the Experience|A single setting, the *Experience* setting, determines how much of the core functionality is available. Currently, there are two levels: Basic and Essential.|All users in a specific company.|[Configuring the Dynamics 365, Business edition Experience for a Company](ui-experiences.md)|
-=======
-|Change the Experience|A single setting, the *Experience* setting, determines how much of the core functionality is available. Currently, there are two levels: Basic and Suite.|All users in a specific company.|[Configuring the Finance and Operations, Business edition Experience for a Company](ui-experiences.md)|
->>>>>>> refs/remotes/origin/Update13
+|Change the Experience|A single setting, the *Experience* setting, determines how much of the core functionality is available. Currently, there are two levels: Basic and Essential.|All users in a specific company.|[Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)|
 |Personalize your workspace|Change the layout and content of your pages.|Only you.|[Personalizing Your Workspace](ui-personalization-user.md)|
 
 ## See Also

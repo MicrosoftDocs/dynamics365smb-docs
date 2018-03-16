@@ -12,14 +12,15 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 02/23/2018
+    ms.date: 03/05/2018
     ms.author: sgroespe
 
 ---
 # Export Intrastat Third-Party Declarations
-In Belgium, you must have a third-party declarant fill out the Intrastat declaration. The third-party declarant must be an external person or company.  
+In Belgium, you must have a third-party declarant fill out the Intrastat declaration. The third-party declarant must be an external person or company. 
 
 ## To export the third-party declaration  
+Before you export the file, it's a good idea to preview the report. For more information, see [Print the Intrastat Form Report](how-to-print-the-intrastat-form-report.md).  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat Journals**, and then choose the related link.  
 2.  Choose the **Create File** action.  
@@ -29,11 +30,10 @@ In Belgium, you must have a third-party declarant fill out the Intrastat declara
     |---------------------------------|---------------------------------------|  
     |**Nihil declaration**|Select if you do not have any trade transactions with European Union (EU) countries/regions and want to send an empty declaration.|  
     |**Enterprise No./VAT Reg. No.**|Enter the enterprise or VAT registration number.|  
-    |**Directory**|Enter the directory which the file will be saved to.|  
-
+    
 4.  Choose the **OK** button.  
 
-The file will be created in the directory that you indicated. Next, the declaration must be submitted to the OneGate portal.  
+Next, submit the declaration to the OneGate portal.  
 
 ## See Also  
  [Belgian Intrastat Reporting](belgian-intrastat-reporting.md)   

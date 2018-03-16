@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 12/21/2017
+ms.date: 03/16/2018
 ms.author: sgroespe
 
 ---
@@ -159,13 +159,15 @@ You must set up a code representing each finance charge calculation. Then you ca
 
 Finance charges can be calculated using either the average daily balance method or the balance due method.
 
-With the balance due method, the finance charge is simply a percentage of the overdue amount:  
+* Balance due method
 
-    Balance Due method - Finance Charge = Overdue Amount x (Interest Rate / 100)
+    The finance charge is simply a percentage of the overdue amount:  
+    *Balance Due method* - *Finance Charge* = *Overdue Amount* x *(Interest Rate / 100)*
 
-With the average daily balance method, the number of days the payment is overdue is taken into account:  
+*   Average daily balance method
 
-    Average Daily Balance method - Finance Charge = Overdue Amount x (Days Overdue / Interest Period) x (Interest Rate/100)
+    The number of days the payment is overdue is taken into account:  
+    *Average Daily Balance method* - *Finance Charge* = *Overdue Amount* x *(Days Overdue / Interest Period)* x *(Interest Rate/100)*
 
 In addition, each code in the Finance Charge Terms table is linked to a subtable, the Finance Charge Text table. For each set of finance charge terms, you can define a beginning and/or an ending text to be included on the finance charge memo.
 

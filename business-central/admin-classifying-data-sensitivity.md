@@ -1,5 +1,8 @@
 ---
 title: "Classifying Data Sensitivity"
+description: You must specify which type of data you store about people so that you can respond to data subject requests.
+author: bholtorf
+
 ms.author: bholtorf
 ms.custom: na
 ms.date: 03/09/2018
@@ -7,8 +10,6 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2018"
-author: bholtorf
 ---
 
 # Classifying Data Sensitivity
@@ -18,7 +19,7 @@ As a customer, you can add a second level of classification by specifying sensit
 
 > [!Important]
 > Microsoft is providing this Data Sensitivity Classification feature as a matter of convenience only. It's your responsibility to classify the data appropriately and comply with any laws and regulations that are applicable to you. Microsoft disclaims all responsibility towards any claims related to your classification of the data.  
-  
+
 The following table describes data sensitivity levels you can assign.
 
 |Sensitivity|Description|
@@ -32,7 +33,7 @@ The following table describes data sensitivity levels you can assign.
 Classifying the sensitivity of a large number of fields one-by-one would take a long time. To help speed up the process, we provide tools that you can use to bulk classify the sensitivity of fields, and then fine-tune classifications for specific fields. You can find tools on the Data Classification worksheet, which is available on the Administration of users, user groups, and permissions Role Center. You must be a system administrator to use the worksheet.
 
 > [!Important]
-> When you open the Data Classification worksheet for the first time, it will be empty. You must run the Data Classification guide to generate the list of fields. To start the guide, choose the **Set Up Data Classifications** action. 
+> When you open the Data Classification worksheet for the first time, it will be empty. You must run the Data Classification guide to generate the list of fields. To start the guide, choose the **Set Up Data Classifications** action.
 
 For example, the Data Classification worksheet lets you do things like:  
 

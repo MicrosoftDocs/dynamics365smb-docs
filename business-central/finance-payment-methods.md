@@ -1,8 +1,6 @@
 ---
 title: Set Up Payment Methods| Microsoft Docs
-Description: You use payment methods, for example, check, bank transfer, cash, or PayPal, to define how an invoice will be paid.
-services: project-madeira
-documentationcenter: ''
+description: You use payment methods, for example, check, bank transfer, cash, or PayPal, to define how an invoice will be paid.
 author: edupont04
 
 ms.service: dynamics365-business-central

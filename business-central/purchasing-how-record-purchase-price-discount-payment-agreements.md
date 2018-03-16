@@ -1,5 +1,5 @@
 ---
-title: Set Up Special and Alternate Pricing and Discounts for Vendors | Microsoft Docs'
+title: Special and Alternate Vendor Pricing and Discounts | Microsoft Docs'
 description: You can define different or alternate prices and discount agreements and apply them to purchase documents for vendors.
 services: project-madeira
 documentationcenter: ''
@@ -81,7 +81,7 @@ Before you can do this, you must have already set up the necessary accounts for 
 |**Line Discounts**|Subtracted|Posted separately|  
 |**No Discounts**|Subtracted|Subtracted|  
 
-# Purchase Invoice Discounts and Service Charges
+## Purchase Invoice Discounts and Service Charges
 If you have fixed terms for invoice discounts with any vendors, you can enter them for those vendors. Then the discount will be calculated when you fill in a purchase invoice.  
 
  Before you can use invoice discounts with purchases, you must specify the vendors that offer you the discounts.  

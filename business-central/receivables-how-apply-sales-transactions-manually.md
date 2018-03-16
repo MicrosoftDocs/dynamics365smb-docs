@@ -1,5 +1,5 @@
 ---
-title: Apply Customer Ledger Entries to Manually Reconcile Customer Payments | Microsoft Docs
+title: Apply Customer Ledger Entries to Reconcile Payments | Microsoft Docs
 description: Describes how to apply customer cash receipts or refunds to one or more open customer ledger entries and reconcile customer payments.
 author: SorenGP
 

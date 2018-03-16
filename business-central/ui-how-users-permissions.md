@@ -1,5 +1,5 @@
 ---
-title: Assign User Permissions and Create or Modify Permission Sets | Microsoft Docs
+title: Assign or Edit User Permissions  | Microsoft Docs
 description: Describes how add Office 365 users to Business Central, and then assign permissions, access rights, and security settings.
 author: SorenGP
 

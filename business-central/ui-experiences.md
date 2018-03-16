@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 01/24/2018
+ms.date: 03/16/2018
 ms.author: edupont
 
 ---
@@ -29,6 +29,7 @@ The following table lists the experiences that are currently available.
 | --- | --- |
 | **Basic** |Shows only core actions and fields within the most common business functionality, such as sales, purchasing, inventory, and finance. |
 | **Essential** |Shows all actions and fields for all common business functionality.|
+| **Premium** |Shows all actions and fields for all business functionality, including Manufacturing and Service Management.|
 
 > [!NOTE]  
 > With the Sandbox option, you can select the **Advanced** experience, which gives access to all possible business functionality, including Manufacturing and Service Management. For more information, see [Create a Sandbox Environment](across-how-create-sandbox-environment.md).

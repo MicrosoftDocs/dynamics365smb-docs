@@ -1,5 +1,5 @@
 ---
-title: Use Purchase Credit Memos to Process Returns or Cancellations | Microsoft Docs
+title: Process Returns or Cancellations | Microsoft Docs
 description: Explains how to create and post a purchase credit memo when you want to return items to a vendor or cancel purchased services.
 services: project-madeira
 documentationcenter: ''

@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 01/31/2018
+    ms.date: 03/16/2018
     ms.author: sgroespe
 
 ---
@@ -48,7 +48,6 @@ For more information, see [Manage Electronic Payment Lines](how-to-manage-electr
 [Belgium Local Functionality](belgium-local-functionality.md)  
 [Belgian Electronic Banking](belgian-electronic-banking.md)   
 [Set Up Electronic Banking](how-to-set-up-electronic-banking.md)   
-[Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md)   
 [Set Up Vendors for Automatic Payment Suggestions](how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
 [Generate Payment Suggestions](how-to-generate-payment-suggestions.md)   
 [Create Payment Journal Templates and Batches](how-to-create-payment-journal-templates-and-batches.md)   

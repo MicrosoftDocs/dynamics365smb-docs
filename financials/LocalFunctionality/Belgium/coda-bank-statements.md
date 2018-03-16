@@ -47,8 +47,7 @@ When you have applied all statement lines to a general ledger account or to a ma
 ## See Also  
  [Belgian Electronic Banking](belgian-electronic-banking.md)   
  [Set Up Bank Accounts for CODA](how-to-set-up-bank-accounts-for-coda.md)   
- [Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md)   
- [Import CODA Statements](how-to-import-coda-statements.md)   
+  [Import CODA Statements](how-to-import-coda-statements.md)   
  [Apply CODA Statements](how-to-apply-coda-statements.md)   
  [Create Financial Journals](how-to-create-financial-journals.md)   
  [Automatically Transfer and Post CODA Statements](how-to-automatically-transfer-and-post-coda-statements.md)   

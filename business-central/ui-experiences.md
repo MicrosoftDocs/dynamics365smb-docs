@@ -15,7 +15,7 @@ ms.author: edupont
 
 ---
 # Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience
-[!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to help you run your business, regardless which line of business you are in. At the core of [!INCLUDE[d365fin](includes/d365fin_md.md)], you find financial reporting and sales and purchasing processes. You add experiences to that according to your business needs by adding extensions from AppSource or by changing the Experience setting for your company. For more information, see [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md), or the *Choosing a User Experience* section below.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to help you run your business, regardless which line of business you are in. At the core of [!INCLUDE[d365fin](includes/d365fin_md.md)], you find financial reporting and sales and purchasing processes. You add experiences to that according to your business needs by adding extensions from AppSource or by changing the Experience setting for your company. For more information, see [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md), or the "Choosing a User Experience to Show or Hide Features" section below.
 
 ## Choosing a User Experience to Show or Hide Features
 The user experience determines how much of the core functionality is available when you and your colleagues use [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can choose the user experience for your company in the **Company Information** window, in the **Experience** field.
@@ -32,7 +32,7 @@ The following table lists the experiences that are currently available.
 | **Premium** |Shows all actions and fields for all business functionality, including Manufacturing and Service Management.|
 
 > [!NOTE]  
-> With the Sandbox option, you can select the **Advanced** experience, which gives access to all possible business functionality, including Manufacturing and Service Management. For more information, see [Create a Sandbox Environment](across-how-create-sandbox-environment.md).
+> The experiences that you can select from [!INCLUDE[d365fin](includes/d365fin_md.md)] depend on your solution license, business plan. For more information about the Essential and Premium plans, see [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/) on Microsoft the Dynamics 365 marketing site. 
 
 ## See also
 [Creating New Companies](about-new-company.md)  

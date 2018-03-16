@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 09/08/2017
+ms.date: 03/16/2018
 ms.author: sgroespe
 
 ---
@@ -56,12 +56,13 @@ When you have decided which customers are eligible for invoice discounts, enter 
 > [!NOTE]  
 >   Invoice discount codes are represented by existing customer cards. This enables you to quickly assign invoice discount terms to customers by picking the name of another customer who will have the same terms.
 
-    Proceed to set up new the sales invoice discount terms.
-4. In the **Customer Card** window, choose the **Invoice Discounts** action. The **Cust. Invoice Discounts** window opens.
-5. In the **Currency Code** field, enter the code for a currency that the invoice discount terms on the line applies to. Leave the field blank to set up invoice discount terms in USD.
-6. In the **Minimum Amount** field, enter the minimum amount that an invoice must have to be eligible for the discount.
-7. In the **Discount %** field, enter the invoice discount as a percentage of the invoice amount.
-8. Repeat steps 5 through 7 for each currency that the customer will receive a different invoice discount for.
+Proceed to set up new the sales invoice discount terms.
+
+1. In the **Customer Card** window, choose the **Invoice Discounts** action. The **Cust. Invoice Discounts** window opens.
+2. In the **Currency Code** field, enter the code for a currency that the invoice discount terms on the line applies to. Leave the field blank to set up invoice discount terms in USD.
+3. In the **Minimum Amount** field, enter the minimum amount that an invoice must have to be eligible for the discount.
+4. In the **Discount %** field, enter the invoice discount as a percentage of the invoice amount.
+5. Repeat steps 5 through 7 for each currency that the customer will receive a different invoice discount for.
 
 The invoice discount is now set up and assigned to the customer in question. When you select the customer code in the **Invoice Disc. Code** field on other customer cards, the same invoice discount is assigned to those customers.
 

@@ -1,18 +1,16 @@
 ---
-    title: How to Configure New Companies using a Cmdlet | Microsoft Docs
-    description: In a number of scenarios, you may want to load and import a configuration package without involving your users or using the RapidStart Services user interface. You can do so by using a Windows PowerShell cmdlet.
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
+title: How to Configure New Companies using a Cmdlet | Microsoft Docs
+description: In a number of scenarios, you may want to load and import a configuration package without involving your users or using the RapidStart Services user interface. You can do so by using a Windows PowerShell cmdlet.
+author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 03/06/2018
-    ms.author: sgroespe
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.date: 03/06/2018
+ms.author: sgroespe
 
 ---
 # Configure New Companies using a Cmdlet
@@ -27,7 +25,7 @@ In a number of scenarios, you may want to load and import a configuration packag
 2. Place the package on a computer where you will run the cmdlet.  
 3. Open the [!INCLUDE[d365fin](includes/d365fin_md.md)] administration shell.  
 4. Enter **Invoke-NAVCodeUnit**, and specify information similar to the following example.  
-    ```  
+    ```powershell  
     Invoke-NAVCodeunit -Tenant Default -CompanyName "CRONUS International Ltd." -CodeunitId 8620 -MethodName ImportRapidStartPackage -Argument "C:TEMPRS_CONFIG.rapidstart" -ServerInstance DynamicsNAV71  
 
     ```

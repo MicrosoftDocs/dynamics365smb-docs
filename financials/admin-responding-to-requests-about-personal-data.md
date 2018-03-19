@@ -12,7 +12,7 @@ author: bholtorf
 ---
 
 # Responding to Requests About Personal Data  
-Data subjects can request several types of actions regarding their personal data. If you have classified the sensitivity of your data, and are sure they are correct, an administrator can respond to requests by using the Data Classification worksheet on the **Manage Users, User Groups, and Permissions** Role Center or, if you are using the Windows client, in the **IT Manager** Role Center. For more information about classifying data and classifying data sensitivity, see [Classifying Data](/dynamics-nav/classifying-data) and [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md).
+Data subjects can request several types of actions regarding their personal data. If you have classified the sensitivity of your data, and are sure they are correct, an administrator can respond to requests by using the Data Classification worksheet on the **Manage Users, User Groups, and Permissions** Role Center or, if you are using the Windows client, in the **IT Manager** Role Center. For more information about classifying data and classifying data sensitivity, see [Classifying Data](/dynamics-nav/classifying-data.md) and [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md).
 
 The following table provides examples of the types of requests you can respond to.
 

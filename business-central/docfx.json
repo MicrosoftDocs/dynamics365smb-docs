@@ -4,14 +4,17 @@
       {
         "files": [
           "**/*.md",
-          "**/**.yml"
+          "**/*.yml"
         ],
         "exclude": [
           "**/obj/**",
           "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
           "README.md",
           "LICENSE",
-          "LICENSE-CODE"
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
         ]
       }
     ],
@@ -24,7 +27,9 @@
         ],
         "exclude": [
           "**/obj/**",
-          "**/includes/**"
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**"
         ]
       }
     ],
@@ -35,10 +40,12 @@
       "uhfHeaderId": "MSDocsHeader-Dynamics365",
       "titleSuffix": "Business Central",
       "breadcrumb_path": "/dynamics365/business-central/breadcrumb/toc.json",
-      "ms.service": "dynamics365-business-central"
-      },
+      "ms.service": "dynamics365-business-central",
+      "extendBreadcrumb": true
+    },
     "fileMetadata": {},
     "template": [],
-    "dest": "d365businesscentral"
+    "dest": "d365businesscentral",
+    "markdownEngineName": "markdig"
   }
 }

@@ -101,27 +101,6 @@ You can print the following bank reconciliation reports:
 5. Choose the **Print** button to print the report. Choose the **Preview** button to view it on the screen.  
 
 ## See Also  
- [How to: Reconcile Bank Accounts by Using Bank Statements](../Topic/How%20to:%20Reconcile%20Bank%20Accounts%20by%20Using%20Bank%20Statements.md)   
- [How to: Post a Bank Reconciliation](../Topic/How%20to:%20Post%20a%20Bank%20Reconciliation.md)   
- [\($ N\_10124 Bank Rec. List $\)](../Topic/\($%20N_10124%20Bank%20Rec.%20List%20$\).md)   
- [\($ N\_370 Bank Account Card $\)](assetId:///c44f01ce-a89a-441e-a543-1a1e951edcaa)   
- [\($ T\_270 Bank Account $\)](assetId:///859a3a4a-835d-4443-9715-a8d79d986654)   
- [\($ R\_10407 Bank Rec. Test Report $\)](../Topic/\($%20R_10407%20Bank%20Rec.%20Test%20Report%20$\).md)   
- [\($ R\_10409 Bank Account \- Reconcile $\)](../Topic/\($%20R_10409%20Bank%20Account%20-%20Reconcile%20$\).md)
-
-
-## See Also  
- [How to: Print Bank Reconciliation Reports](../Topic/How%20to:%20Print%20Bank%20Reconciliation%20Reports.md)   
- [How to: Reconcile Bank Accounts by Using Bank Statements](../Topic/How%20to:%20Reconcile%20Bank%20Accounts%20by%20Using%20Bank%20Statements.md)   
- [\($ N\_370 Bank Account Card $\)](assetId:///c44f01ce-a89a-441e-a543-1a1e951edcaa)   
- [\($ T\_270 Bank Account $\)](assetId:///859a3a4a-835d-4443-9715-a8d79d986654)   
- [\($ T\_17 G\/L Entry $\)](assetId:///2b5b8281-fbfa-4b7f-a154-a9ec61afadfe)   
- [\($ N\_10120 Bank Rec.Worksheet $\)](../Topic/\($%20N_10120%20Bank%20Rec.Worksheet%20$\).md)   
- [\($ R\_10407 Bank Rec. Test Report $\)](../Topic/\($%20R_10407%20Bank%20Rec.%20Test%20Report%20$\).md)   
- [\($ T\_10123 Posted Bank Rec. Header $\)](../Topic/\($%20T_10123%20Posted%20Bank%20Rec.%20Header%20$\).md)
-
-
-## See Also  
 [Reconcile Bank Accounts Separately](../../bank-how-reconcile-bank-accounts-separately.md)
 
 ## See Also  

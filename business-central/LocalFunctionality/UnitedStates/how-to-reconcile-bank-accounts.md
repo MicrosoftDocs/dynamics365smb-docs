@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 16/03/2018
+    ms.date: 03/20/2018
     ms.author: sgroespe
 
 ---
@@ -20,7 +20,7 @@
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] provides the **Bank Rec. Worksheet**, which you can use to reconcile bank account ledger entries with bank statements.
 
 > [!NOTE]  
-> In the North American version, you can also use the standard bank reconciliation functionality. For more information, see [Reconcile Bank Accounts Separately](../../bank-how-reconcile-bank-accounts-separately.md).
+> This topic describes the North American bank reconciliation functionality. You can also use the standard functionality. For more information, see [Reconcile Bank Accounts Separately](../../bank-how-reconcile-bank-accounts-separately.md).
 
 ## To reconcile bank accounts with bank statements  
 

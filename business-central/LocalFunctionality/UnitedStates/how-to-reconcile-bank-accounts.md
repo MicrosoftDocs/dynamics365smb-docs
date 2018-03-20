@@ -24,7 +24,7 @@
 
 ## To reconcile bank accounts with bank statements  
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Account Reconciliations**, and then choose the related link.
+1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Account Reconciliations**, and then choose the related link.
 2. Choose the **New** action.  
 3. On the **General** FastTab, fill in the required fields as described in the following table.  
 
@@ -53,7 +53,7 @@
 ## To post a bank reconciliation
 You can post bank reconciliation if you have reconciled the bank accounts in the **Bank Rec. Worksheet** window. After the bank reconciliation has been posted, a bank account statement is created, and can be viewed from the relevant bank account card.  
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Account Reconciliations**, and then choose the related link.
+1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Account Reconciliations**, and then choose the related link.
 2. Select the bank account reconciliation that you want to post, and then choose the **Edit** action.  
 
     > [!NOTE]  
@@ -66,7 +66,7 @@ When the bank reconciliation is posted, all of the related files are posted to t
 
 ## To view the posted bank account reconciliations  
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.
+1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.
 2. Select the bank account that you want to view the posted reconciliations for, and then choose the **Statements** action.  
 3. Choose the **Close** button.  
 
@@ -77,7 +77,7 @@ You can print the following bank reconciliation reports:
 
 -  **Bank Account – Reconcile** - Displays the reconciliation details for each bank account. This report lists deposits, withdrawals, and adjustments for a bank account.  
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Account Reconciliations**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Account Reconciliations**, and then choose the related link.  
 2. Choose the **Bank Rec. Test Report** action.  
 3.  On the **Options** FastTab, fill in the fields as described in the following table.  
 
@@ -94,7 +94,7 @@ You can print the following bank reconciliation reports:
 5. Choose the **Print** button to print the report. Choose the **Preview** button to view it on the screen.  
 
 ## To print a bank reconciliation report  
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Account Reconciliations**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Account Reconciliations**, and then choose the related link.  
 2. Choose the **Bank Account – Reconcile** action.  
 3. To print each bank account on a new page, select the **New Page per Bank Account** check box.  
 4. On the **Bank Account** FastTab, select the appropriate filters.  

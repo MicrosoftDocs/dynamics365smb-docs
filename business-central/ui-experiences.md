@@ -32,7 +32,7 @@ The following table lists the experiences that are currently available.
 | **Premium** |Shows all actions and fields for all business functionality, including Manufacturing and Service Management.|
 
 > [!NOTE]  
-> The experiences that you can select from in [!INCLUDE[d365fin](includes/d365fin_md.md)] depend on your solution license, called a plan. For information about the **Essential** and **Premium** plans, see [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/) on the Microsoft Dynamics 365 marketing site. 
+> The experiences that you can select from in [!INCLUDE[d365fin](includes/d365fin_md.md)] depend on your solution license, called a plan. For information about the **Essential** and **Premium** plans, see [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) on the Microsoft Dynamics 365 marketing site. 
 
 ## See also
 [Creating New Companies](about-new-company.md)  

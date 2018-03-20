@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 03/08/2018
+ms.date: 03/16/2018
 ms.author: sgroespe
 
 ---
@@ -32,7 +32,7 @@ Any permission sets that are already assigned to the user are displayed in the *
 4. On the **User Permission Sets** FastTab, on a new line, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To group users in user groups
-You can set up users groups to help you manage permission sets for groups of users in your company. You can use a function to copy all permission sets from an existing user group to your new user group. User group members are not copied.
+You can set up users groups to help you manage permission sets for groups of users in your company.
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **User Groups**, and then choose the related link.
 2. Alternatively, in the **Users** window, choose the **User Groups** action.
@@ -40,6 +40,17 @@ You can set up users groups to help you manage permission sets for groups of use
 6. In the **User Group Members** window, choose the **Add Users** action.
 7. To add new or additional permission sets, in the **User Groups** window, choose the **User Group Permission Sets** action.
 8. In the **User Group Permission Sets** window, on a new line, fill in the fields as necessary by selecting from existing permission sets.
+
+## To copy a user group and all its permission sets
+To quickly define a new user group, you can copy all permission sets from an existing user group to your new user group.
+
+The user group members are not copied to the new user group. You must add them manually afterwards.
+
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **User Groups**, and then choose the related link.
+2. Select the user group that you want to copy, and then choose the **Copy User Group** action.
+3. In the **New User Group Code** field, enter a name for the group, and then choose the **OK** button.
+
+The new user group is added to the **User Groups** window. Proceed to add users. For more information, see the "To group users in user groups" section.
 
 ## To set up user time constraints
 Administrators can define periods of time during which specified users are able to post, and also specify if the system logs the amount of time users are logged on. Administrators can also assign responsibility centers to users. For more information, see [Work with Responsibility Centers](inventory-responsibility-centers.md).

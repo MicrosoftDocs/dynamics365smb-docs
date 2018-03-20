@@ -1,18 +1,18 @@
 ---
-    title: How to Enter Data in Fields| Microsoft Docs
-    description: There are many general functions that help you enter data  in a quick and easy way. The general functions for entering data are described in this topic.
-    author: jswymer
+title: How to Enter Data in Fields| Microsoft Docs
+description: There are many general functions that help you enter data  in a quick and easy way. The general functions for entering data are described in this topic.
+author: jswymer
 
-    ms.service: dynamics365-business-central
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 09/19/2017
-    ms.author: jswymer
-
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.date: 09/19/2017
+ms.author: jswymer
 ---
+
 # Entering Data
 There are many general functions that help you enter data  in a quick and easy way. The general functions for entering data are described in this article.  
 
@@ -68,7 +68,7 @@ Even though the field contains a red asterisk, you are not forced to fill the fi
 
 -   If you enter 12/4, the field is calculated to 3.  
 
-# Entering Negative Numbers
+## Entering Negative Numbers
 You can enter negative numbers in two ways. The number -20.5 can be entered as:  
 
 -   -20.5  

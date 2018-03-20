@@ -1,5 +1,5 @@
 # [Getting Started](index.md)
-## [Minimum Requirements](financials-requirements.md)
+## [Minimum Requirements](product-requirements.md)
 ## [Frequently Asked Questions](across-faq.md)
 ## [Videos on Common Tasks](across-videos.md)
 ## [Overview of Business Functionality](madeira-business-functionality.md)

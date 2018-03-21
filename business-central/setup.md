@@ -57,7 +57,7 @@ Some areas require you to be an administrator in your [!INCLUDE[d365fin](include
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Setup and Administration in [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-setup-and-administration.md)  
 [Creating New Companies in [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
-[Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
+[Getting Started](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
 ## [!INCLUDE[d365fin](includes/training_link_md.md)]

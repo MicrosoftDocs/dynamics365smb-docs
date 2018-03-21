@@ -65,6 +65,6 @@ For troubleshooting your Microsoft Flow, see [Troubleshooting Integration with M
 [Importing Business Data from Other Finance Systems](upload-data.md)  
 [Manage Users and Permissions](ui-how-users-permissions.md)   
 [Manage [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Workflows]()  
-[Approval User Setup]()  
+[Approval User Setup](across-how-to-set-up-approval-users.md)  
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finance](finance.md)  

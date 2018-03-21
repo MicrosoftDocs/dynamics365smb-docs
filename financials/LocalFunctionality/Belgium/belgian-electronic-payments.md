@@ -4,7 +4,7 @@
 
     services: project-madeira 
     documentationcenter: ''
-    author: SorenGP
+    author: bholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article
@@ -12,8 +12,8 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 03/16/2018
-    ms.author: sgroespe
+    ms.date: 03/21/2018
+    ms.author: bholtorf
 
 ---
 # Belgian Electronic Payments

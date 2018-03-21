@@ -1,7 +1,7 @@
 ---
     title: How to Print Payment Files
     description: After you have printed a test report and corrected all errors, you can print the payment journal lines to a payment file.
-
+    redirect_url: belgian-electronic-payments
     services: project-madeira 
     documentationcenter: ''
     author: SorenGP
@@ -49,7 +49,5 @@ In the payment journal, the **Status** field on the exported lines will be set t
  [Belgian Electronic Payments](belgian-electronic-payments.md)   
  [Set Up Electronic Banking](how-to-set-up-electronic-banking.md)   
  [Set Up Vendors for Automatic Payment Suggestions](how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
- [Generate Payment Suggestions](how-to-generate-payment-suggestions.md)   
  [Create Payment Journal Templates and Batches](how-to-create-payment-journal-templates-and-batches.md)   
- [Test Electronic Payments](how-to-test-electronic-payments.md)   
- [Manage Electronic Payment Lines](how-to-manage-electronic-payment-lines.md)
+ 

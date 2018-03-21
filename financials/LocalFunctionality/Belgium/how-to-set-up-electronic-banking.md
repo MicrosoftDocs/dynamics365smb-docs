@@ -71,10 +71,8 @@ When uploading to or downloading files from the IBS platform, you will insert th
  [Belgian Electronic Banking](belgian-electronic-banking.md)   
  [Belgian Electronic Payments](belgian-electronic-payments.md)   
  [Set Up Vendors for Automatic Payment Suggestions](how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
- [Generate Payment Suggestions](how-to-generate-payment-suggestions.md)   
  [Create Payment Journal Templates and Batches](how-to-create-payment-journal-templates-and-batches.md)   
- [Test Electronic Payments](how-to-test-electronic-payments.md)   
- [Manage Electronic Payment Lines](how-to-manage-electronic-payment-lines.md)   
- [Print Payment Files](how-to-print-payment-files.md)
- [Summarizing Payment Lines and General Journal Lines](summarizing-payment-lines-and-general-journal-lines.md)
+ [Summarizing Payment Lines and General Journal Lines](summarizing-payment-lines-and-general-journal-lines.md)  
+ [Set Up Export Protocols](how-to-set-up-export-protocols.md)  
+   
  

@@ -1,8 +1,7 @@
 ---
 title: Use Business Central on Your Mobile Device| Microsoft Docs
 description: You can view and edit your Business Central data on your phone or tablet.
-documentationcenter: ''
-author: SusanneWindfeldPedersen
+author: edupont04
 
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,8 +9,8 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: phone, tablet
-ms.date: 06/02/2017
-ms.author: solsen
+ms.date: 03/21/2018
+ms.author: edupont
 ---
 
 # Getting Business Central on Your Mobile Device

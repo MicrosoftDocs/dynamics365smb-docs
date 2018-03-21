@@ -1,6 +1,6 @@
 ---
     title: How to Export Electronic Payments
-    description: In Finance and Operations, Business edition, you can export payment journal entries into a file format according to four different payment standards. You must use the following windows to export according to the different payment standards.
+    description: In Business Central, you can export payment journal entries into a file format according to four different payment standards. You must use the following windows to export according to the different payment standards.
 
     services: project-madeira
     documentationcenter: ''

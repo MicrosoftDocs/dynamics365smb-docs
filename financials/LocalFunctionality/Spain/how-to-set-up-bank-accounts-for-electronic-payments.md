@@ -1,6 +1,6 @@
 ---
     title: How to Set Up Bank Accounts for Electronic Payments
-    description: In Finance and Operations, Business edition, you can set up bank accounts to make electronic payments.
+    description: In Business Central, you can set up bank accounts to make electronic payments.
 
     services: project-madeira
     documentationcenter: ''

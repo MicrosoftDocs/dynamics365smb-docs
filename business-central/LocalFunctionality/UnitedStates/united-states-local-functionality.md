@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/11/2017
+    ms.date: 03/20/2018
     ms.author: sgroespe
 
 ---
@@ -23,6 +23,7 @@ The following topics describe local functionality that is unique to the United S
   [Reporting Transactions as 1099 Liable in the US](tax-1099.md)  
   [Manage Customer Credit Information](how-to-manage-customer-credit-information.md)  
   [Create Deposits](how-to-create-deposits.md)  
+  [Reconcile Bank Accounts](how-to-reconcile-bank-accounts.md)  
   [Print Troubleshooting Reports](how-to-print-troubleshooting-reports.md)
 
 ## See Also

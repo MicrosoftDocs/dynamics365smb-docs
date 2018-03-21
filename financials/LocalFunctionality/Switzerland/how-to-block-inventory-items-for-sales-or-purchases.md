@@ -1,6 +1,6 @@
 ---
     title: How to Block Inventory Items for Sales or Purchases
-    description: In Finance and Operations, Business edition, an item can be marked as blocked for sales, blocked for purchase, or blocked for all purposes.
+    description: In Business Central, an item can be marked as blocked for sales, blocked for purchase, or blocked for all purposes.
 
     services: project-madeira
     documentationcenter: ''

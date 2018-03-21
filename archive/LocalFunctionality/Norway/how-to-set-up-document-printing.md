@@ -1,6 +1,6 @@
 ---
     title: How to Set Up Document Printing
-    description: In Finance and Operations, Business edition, you can print the sales reports that use the required giro specifications by using different paper types and paper trays.
+    description: In Business Central, you can print the sales reports that use the required giro specifications by using different paper types and paper trays.
 
     services: project-madeira
     documentationcenter: ''

@@ -1,6 +1,6 @@
 ---
     title: How to Set Up Reports for VAT and Intrastat
-    description: In Finance and Operations, Business edition, you can specify which reports to use to create the documents that you must submit to the authorities, such as the VAT statement and the Intrastat form.
+    description: In Business Central, you can specify which reports to use to create the documents that you must submit to the authorities, such as the VAT statement and the Intrastat form.
 
     services: project-madeira
     documentationcenter: ''

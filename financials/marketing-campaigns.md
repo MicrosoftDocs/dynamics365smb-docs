@@ -1,6 +1,6 @@
 ---
-title: Set Up Marketing Campaigns in Finance and Operations, Business edition| Microsoft Docs
-description: Describes how you can set up and conduct marketing campaigns in Finance and Operations, Business edition to help you identify and attract prospects and retain customers.
+title: Set Up Marketing Campaigns in Business Central| Microsoft Docs
+description: Describes how you can set up and conduct marketing campaigns in Business Central to help you identify and attract prospects and retain customers.
 author: SorenGP
 
 ms.service: dynamics365-financials
@@ -45,4 +45,4 @@ Campaigns are conducted by salespeople, and you must create activities to repres
 [Managing Contacts](marketing-contacts.md)  
 [Managing Segments](marketing-segments.md)  
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
-[Working with Finance and Operations, Business edition](ui-work-product.md)  
+[Working with Business Central](ui-work-product.md)  

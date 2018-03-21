@@ -1,6 +1,6 @@
 ---
     title: Italy Local Functionality
-    description: The following topics describe the local functionality in the Italian version of Finance and Operations, Business edition.
+    description: The following topics describe the local functionality in the Italian version of Business Central.
 
     services: project-madeira
     documentationcenter: ''

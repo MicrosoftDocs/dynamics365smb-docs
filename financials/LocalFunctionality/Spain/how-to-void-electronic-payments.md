@@ -1,6 +1,6 @@
 ---
     title: How to Void Electronic Payments
-    description: In Finance and Operations, Business edition, you can void the exported payment file. By voiding the file, the entire payment journal from which the file was created, will be deleted.
+    description: In Business Central, you can void the exported payment file. By voiding the file, the entire payment journal from which the file was created, will be deleted.
 
     services: project-madeira
     documentationcenter: ''

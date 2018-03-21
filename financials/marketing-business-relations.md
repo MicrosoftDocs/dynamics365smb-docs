@@ -1,6 +1,6 @@
 ---
 title: Define Business Relation Codes on Contacts| Microsoft Docs
-description: Use business relations in Finance and Operations, Business edition to help with marketing and to indicate the business relationship you have with your  prospects, clients, and customers, for example, a bank or service supplier.
+description: Use business relations in Business Central to help with marketing and to indicate the business relationship you have with your  prospects, clients, and customers, for example, a bank or service supplier.
 services: project-madeira
 documentationcenter: ''
 author: jswymer

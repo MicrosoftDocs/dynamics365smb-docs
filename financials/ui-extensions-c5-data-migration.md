@@ -16,7 +16,7 @@ ms.author: bholtorf
 
 ---
 
-# The C5 Data Migration Extension for Finance and Operations, Business edition
+# The C5 Data Migration Extension for Business Central
 This extension makes it easy to migrate customers, vendors, items, and your general ledger accounts from Microsoft Dynamcis C5 2012 to [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can also migrate historical entries for general ledger accounts.
 
 > [!Note]

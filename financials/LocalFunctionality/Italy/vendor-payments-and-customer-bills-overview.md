@@ -1,6 +1,6 @@
 ---
     title: Vendor Payments and Customer Bills Overview
-    description: In Finance and Operations, Business edition, you can manage automatic bills to customers and from vendors.
+    description: In Business Central, you can manage automatic bills to customers and from vendors.
 
     services: project-madeira
     documentationcenter: ''

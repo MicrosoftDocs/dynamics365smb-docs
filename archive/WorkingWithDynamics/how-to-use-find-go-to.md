@@ -1,7 +1,7 @@
 
 ---
     title: How to Use Find-Go to | Microsoft Docs
-    description: In Finance and Operations, Business edition you can search in data by using the **Find** mechanism. Find searches on all types of pages that have data, except in chart pages. You specify the field you want to search in and the string you want to search for. Find is also available from the action strip.
+    description: In Business Central you can search in data by using the **Find** mechanism. Find searches on all types of pages that have data, except in chart pages. You specify the field you want to search in and the string you want to search for. Find is also available from the action strip.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -23,7 +23,7 @@
 =======
 >>>>>>> refs/remotes/origin/Update14
 # Use Find-Go to
-In Finance and Operations, Business edition you can search in data by using the **Find** mechanism. Find searches on all types of pages that have data, except in chart pages. You specify the field you want to search in and the string you want to search for. Find is also available from the action strip.  
+In Business Central you can search in data by using the **Find** mechanism. Find searches on all types of pages that have data, except in chart pages. You specify the field you want to search in and the string you want to search for. Find is also available from the action strip.  
 
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] you can search in data by using the **Find** mechanism. Find searches on all types of pages that have data, except in chart pages. You specify the field you want to search in and the string you want to search for. Find is also available from the action strip.  
 

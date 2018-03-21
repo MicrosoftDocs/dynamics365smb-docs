@@ -1,6 +1,6 @@
 ---
     title: Sweden Local Functionality
-    description: The following topics describe the local functionality in the Swedish version of Finance and Operations, Business edition.
+    description: The following topics describe the local functionality in the Swedish version of Business Central.
 
     services: project-madeira
     documentationcenter: ''

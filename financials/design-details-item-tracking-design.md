@@ -1,6 +1,6 @@
 ---
     title: Design Details - Item Tracking Design | Microsoft Docs
-    description: This topic describes the design behind item tracking in Finance and Operations, Business edition.
+    description: This topic describes the design behind item tracking in Business Central.
     author: SorenGP
 
     ms.service: dynamics365-financials

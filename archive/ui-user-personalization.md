@@ -1,6 +1,6 @@
 ---
 title: Personalizing the Way Information is Displayed for a User Account | Microsoft Docs
-description: Describes how to customize the look and feel of Finance and Operations, Business edition for your user account.
+description: Describes how to customize the look and feel of Business Central for your user account.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

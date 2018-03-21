@@ -1,6 +1,6 @@
 ---
     title: Design Details - Searching for Dimension Combinations | Microsoft Docs
-    description: When you close a window after you edit a set of dimensions, Finance and Operations, Business edition evaluates whether the edited set of dimensions exists. If the set does not exist, a new set is created and the dimension combination ID is returned.
+    description: When you close a window after you edit a set of dimensions, Business Central evaluates whether the edited set of dimensions exists. If the set does not exist, a new set is created and the dimension combination ID is returned.
     author: SorenGP
 
     ms.service: dynamics365-financials

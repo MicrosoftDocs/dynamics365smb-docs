@@ -1,6 +1,6 @@
 ---
     title: How to Manage Electronic Payment Lines
-    description: You can have Finance and Operations, Business edition suggest payments automatically and then you can add more payments manually. You can also edit or delete suggested payments.
+    description: You can have Business Central suggest payments automatically and then you can add more payments manually. You can also edit or delete suggested payments.
 
     services: project-madeira
     documentationcenter: ''

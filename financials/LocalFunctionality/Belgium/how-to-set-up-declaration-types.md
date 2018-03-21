@@ -1,6 +1,6 @@
 ---
     title: How to Set Up Declaration Types
-    description: In Finance and Operations, Business edition, there are two types of declaration.
+    description: In Business Central, there are two types of declaration.
 
     services: project-madeira
     documentationcenter: ''

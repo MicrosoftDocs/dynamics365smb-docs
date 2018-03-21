@@ -1,6 +1,6 @@
 ---
     title: How to Create Delivery Reminders Manually
-    description: In Finance and Operations, Business edition, you can create delivery reminders when a purchase has not been delivered as expected.
+    description: In Business Central, you can create delivery reminders when a purchase has not been delivered as expected.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

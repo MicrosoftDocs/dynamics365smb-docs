@@ -1,5 +1,5 @@
 ---
-title: How Do I Videos on Using Finance and Operations, Business edition | Microsoft Docs
+title: How Do I Videos on Using Business Central | Microsoft Docs
 description: Provides access to getting-started videos that illustrate how to do common tasks.
 services: project-madeira
 documentationcenter: ''

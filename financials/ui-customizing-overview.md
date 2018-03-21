@@ -1,6 +1,6 @@
 ---
-title: Customizing Finance and Operations, Business edition | Microsoft Docs
-description: Learn about adding functionality and customizing Finance and Operations, Business edition.
+title: Customizing Business Central | Microsoft Docs
+description: Learn about adding functionality and customizing Business Central.
 documentationcenter: ''
 author: edupont04
 
@@ -14,7 +14,7 @@ ms.date: 03/12/2018
 ms.author: jswymer
 
 ---
-# Customizing Finance and Operations, Business edition
+# Customizing Business Central
 <!--NAV # Customizing Dynamics NAV -->
 There are different ways to customize the application to give you and your colleagues access to the features, functionality, and data that you need most, in a manner that bests suits your daily work. Those who see the changes will depend on what you do, as described in this table.
 

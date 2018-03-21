@@ -19,11 +19,11 @@ ms.author: solsen
 In the **My Settings** window, you can see and change basic settings for [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## Role Center
-The Role Center represents the Home page, a starting page that is designed for the needs of the role. On the Home page, you have an overview of the business. To the left you see a navigation bar that gives you easy access to customers, vendors, items, and so on.
+The Role Center represents the home page, a starting page that is designed for the needs of the role. The Role Center provides you with an overview of the business, reflecting the information, tasks, and priorities of your role. 
 
-In the center you find the Activities tiles. Activities show current data and can be clicked or tapped for easy access to the selected document. The Key Performance Indicators can be set up to display a selected chart for a visual representation of, for example, cash flow or income and expenses.
+Along the top of the Role Center, you see the navigation that gives you easy access to typical entities for the role, such as customers, vendors, items, and so on.
 
-You can also build up a list of favorite customers on the Home page for accounts that you do business with often or need to pay special attention to. Use the arrows to collapse part of the page and make more room to show specific data. At the top of the Home page you will find all of the actions that can be applied to the current content. This too can be collapsed and you only need to choose the collapsed area to view it again.
+Whats appears in the main content area will depend on the specific Role Center. For example, on most Role Centers, you can find the Activities tiles that show current data and can be clicked or tapped for easy access to the selected document. Key Performance Indicators can be set up to display a selected chart for a visual representation of, for example, cash flow or income and expenses. Some Role Centers enable you to build a list of favorite entities, like customers and vendors, or show the Report Inbox.
 
 ### To change Role Center
 The default Role Center is **Business Manager**, but you can select another Role Center that fits your needs better.
@@ -37,7 +37,7 @@ A company functions as a container for data in [!INCLUDE[d365fin](includes/d365f
 The default company is called CRONUS and contains demonstration data only.
 
 > [!TIP]  
->   If you want to display a different name for your company in the application (such as on the Home page), set the **Name** field on the **Company Information** page or the **Display Name** field on the **Companies** page.  
+>   If you want to display a different name for your company in the application (such as on the Role Center home page), set the **Name** field on the **Company Information** page or the **Display Name** field on the **Companies** page.  
 
 ## Work Date
 The default work date is usually today's date. You may have to temporarily change the work date to be able to perform tasks, such as completing transactions for a date that is not the current date.

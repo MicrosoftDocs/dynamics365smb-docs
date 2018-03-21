@@ -61,7 +61,7 @@ For more information, see the [Flow Documentation](https://docs.microsoft.com/en
 For troubleshooting your Microsoft Flow, see [Troubleshooting Integration with Microsoft Flow](across-troubleshooting-how-use-financials-data-source-flow.md).
 
 ## See Also
-[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Getting Started](product-get-started.md)  
 [Importing Business Data from Other Finance Systems](upload-data.md)  
 [Manage Users and Permissions](ui-how-users-permissions.md)   
 [Manage [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Workflows]()  

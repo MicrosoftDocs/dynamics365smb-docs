@@ -58,7 +58,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] you will find tooltips that can h
 Based on your migrated data, you can now proceed to create new sales or purchase documents. Use the **My Company** section of your **Home** page to quickly create a new sales quote, sales invoice, sales order, purchase invoice, or payment registration.
 
 ## See Also
-[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Getting Started](product-get-started.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Manage Users and Permissions](ui-how-users-permissions.md)
 

@@ -114,7 +114,7 @@ If you see an "Oops" error dialog after you pass the authentication dialog, this
 
 ## See Also
 [Business Intelligence](bi.md)  
-[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Getting Started](product-get-started.md)  
 [Migrate Business Data from Other Finance Systems](upload-data.md)  
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as a PowerApps Data Source](across-how-use-financials-data-source-powerapps.md)  

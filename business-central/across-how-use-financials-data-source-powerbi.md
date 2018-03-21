@@ -35,7 +35,7 @@ Once the data is loaded it will appear in the right navigation on the page. At t
 
 ## See Also
 [Business Intelligence](bi.md)  
-[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Getting Started](product-get-started.md)  
 [Importing Business Data from Other Finance Systems](upload-data.md)  
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)   
 [Finance](finance.md)  

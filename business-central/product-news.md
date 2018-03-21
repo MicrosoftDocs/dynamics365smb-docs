@@ -25,7 +25,7 @@ Discover the latest updates to our business applications, as well as a host of n
 
 
 ## See Also
-[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Getting Started](product-get-started.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Business Central Roadmap](https://roadmap.dynamics.com/)  
 [Dynamics 365 Community](https://community.dynamics.com/business/)  

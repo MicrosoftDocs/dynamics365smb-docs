@@ -28,6 +28,6 @@ Send feedback at [https://community.dynamics.com/business](https://community.dyn
 If you're interested in learning more about becoming a [!INCLUDE[d365fin](includes/d365fin_md.md)] reseller, contact us at [d365-smb@microsoft.com](mailto:d365-smb@microsoft.com).  
 
 ## See Also
-[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Getting Started](product-get-started.md)  
 [Migrate Business Data from Other Finance Systems](upload-data.md)  
 [https://appsource.microsoft.com](https://appsource.microsoft.com/en-us/?product=project-madeira)  

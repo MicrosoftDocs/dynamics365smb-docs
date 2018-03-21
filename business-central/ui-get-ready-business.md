@@ -38,12 +38,12 @@ In the **Assisted Setup** window, you will find the following with the **Basic**
 
 When you have run an assisted setup, it is marked as **Completed**. To run the assisted setup, you choose the three dots also called the context menu, and then you select **Start Setup**.
 
-## Role Center Home Page
-On the Role Center home page, you have an overview of the business. To the left you see a navigation bar that gives you easy access to customers, vendors, items, and so on. In the center you find the **Activities** tiles. **Activities** show current data and can be clicked or tapped for easy access to the selected document. The **Key Performance Indicators** can be set up to display a selected chart for a visual representation of, for example, cash flow or income and expenses. You can also build up a list of **Favorite Customers** on the Role Center home page for accounts that you do business with often or need to pay special attention to.
-Use the arrows to collapse part of the page and make more room to show specific data. At the top of the Role Center home page you will find all of the actions that can be applied to the current content. This too can be collapsed and you only need to click or tap within the collapsed area to view it again.
+## Role Center
+On the Role Center, you have an overview of the business. To the left you see a navigation bar that gives you easy access to customers, vendors, items, and so on. In the center you find the **Activities** tiles. **Activities** show current data and can be clicked or tapped for easy access to the selected document. The **Key Performance Indicators** can be set up to display a selected chart for a visual representation of, for example, cash flow or income and expenses. You can also build up a list of **Favorite Customers** on the Role Center for accounts that you do business with often or need to pay special attention to.
+Use the arrows to collapse part of the page and make more room to show specific data. At the top of the Role Center you will find all of the actions that can be applied to the current content. This too can be collapsed and you only need to click or tap within the collapsed area to view it again.
 
 > [!TIP]  
-> You can get back to the Role Center home page by selecting the company name in the upper left corner.
+> You can get back to the Role Center by selecting the company name in the upper left corner.
 
 ## Company Information
 Under **Company Settings** you can view and edit setup information about the current company, much of this was prefilled if you completed the **Set Up Company** assisted setup when signing up for [!INCLUDE[d365fin](includes/d365fin_md.md)]. If you want to change the company logo, contact information, bank settings, or tax information, you can do it from this window.    
@@ -58,7 +58,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] you will find tooltips that can h
 Based on your migrated data, you can now proceed to create new sales or purchase documents. Use the **My Company** section of your **Home** page to quickly create a new sales quote, sales invoice, sales order, purchase invoice, or payment registration.
 
 ## See Also
-[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Getting Started](product-get-started.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Manage Users and Permissions](ui-how-users-permissions.md)
 

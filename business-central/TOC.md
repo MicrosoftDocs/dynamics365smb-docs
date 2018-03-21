@@ -1,4 +1,5 @@
-# [Getting Started](index.md)
+# [Welcome to Business Central](index.md)
+# [Getting Started](product-get-started.md)
 ## [Minimum Requirements](product-requirements.md)
 ## [Frequently Asked Questions](across-faq.md)
 ## [Videos on Common Tasks](across-videos.md)

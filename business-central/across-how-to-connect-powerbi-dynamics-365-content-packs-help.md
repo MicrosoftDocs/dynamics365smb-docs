@@ -107,7 +107,7 @@ If you enter a non valid company name during the connection process, you may get
 [Get started with Power BI](https://docs.microsoft.com/en-us/power-bi/service-get-started)  
 [Power BI - Basic Concepts](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts)
 [Business Intelligence](bi.md)  
-[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Getting Started](product-get-started.md)  
 [Importing Business Data from Other Finance Systems](upload-data.md)  
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finance](finance.md)  

@@ -21,4 +21,4 @@ The list of the extensions by other companies grows each month. So keep an eye o
 
 ## See Also
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
-[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Getting Started](product-get-started.md)  

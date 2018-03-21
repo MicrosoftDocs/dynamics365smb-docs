@@ -50,7 +50,7 @@ You can make your [!INCLUDE[d365fin](includes/d365fin_md.md)] data available as 
 At this point, you have successfully connected to your Business Central data and are ready to begin building your PowerApp. For more information, see the [PowerApps documentation](https://powerapps.microsoft.com/tutorials/getting-started/).
 
 ## See Also
-[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Getting Started](product-get-started.md)  
 [Importing Business Data from Other Finance Systems](upload-data.md)  
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finance](finance.md)  

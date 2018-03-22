@@ -48,7 +48,7 @@ If you have set up recurring sales lines for the customer, such as a monthly rep
 11. In the **Quantity** field, enter how many units of the product, charge, or transaction that the line will record for the customer.
 
     > [!NOTE]  
->   If the item is of type **Item - Service** or **Resource**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.  
+    >   If the item is of type **Item - Service** or **Resource**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.  
 
     The value in the **Line Amount** field is calculated as *Unit Price* x *Quantity*.  
 

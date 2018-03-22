@@ -79,7 +79,7 @@ When you fill in journal lines to post to a depreciation book, you can duplicate
 5. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA Journals**, and then choose the related link.  
 
     > [!NOTE]  
->   The **Fixed Asset Journal** window contains new lines for different depreciation books according to the duplication list.  
+    >   The **Fixed Asset Journal** window contains new lines for different depreciation books according to the duplication list.  
 6. Review or edit the lines, and then choose the **Post** action.  
 
     > [!NOTE]  

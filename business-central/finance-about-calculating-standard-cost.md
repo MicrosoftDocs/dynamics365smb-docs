@@ -1,8 +1,6 @@
 ---
     title: About Calculating Standard Cost | Microsoft Docs
     description: A standard cost system determines inventory unit cost based on some reasonable historical or expected cost. Studies of past and estimated future cost data can then provide the basis for standard costs.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -77,7 +75,7 @@ To calculate standard capacity cost, you have to establish the standard time rat
 You set up the rates for each time type for each machine or work center on an individual routing.  
 
 > [!NOTE]  
-    >  While run time rates apply for each item unit that is produced, the setup time rates apply for each lot. Therefore, you must prorate the routing setup time for each operation over the lot size. You specify the lot size in the corresponding field on the **Ordering** FastTab of the item card.  
+>  While run time rates apply for each item unit that is produced, the setup time rates apply for each lot. Therefore, you must prorate the routing setup time for each operation over the lot size. You specify the lot size in the corresponding field on the **Ordering** FastTab of the item card.  
 
 To specify setup time on the routing for planning but not include this expense in the standard cost calculation, clear the **Cost Incl. Setup** field in the **Manufacturing Setup** window.  
 

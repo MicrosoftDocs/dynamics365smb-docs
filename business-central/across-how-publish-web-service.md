@@ -59,4 +59,4 @@ https://localhost:7048/server/OData/Customer?company='CRONUS International Ltd.'
 ```  
 
 ## See Also  
-[Setup and Administration](admin-setup-and-administration.md)  
+[Administration](admin-setup-and-administration.md)  

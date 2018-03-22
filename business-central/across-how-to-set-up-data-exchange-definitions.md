@@ -129,9 +129,9 @@ Creating a data exchange definition involves two tasks:
     |**Target Field Caption**|Only visible when the **Use as Intermediate Table** check box is selected.<br /><br /> Specify the name of the field in the target table that the value in the **Column Caption** field is mapped to, when you are using an intermediate table for data import.|  
     |**Optional**|Only visible when the **Use as Intermediate Table** check box is selected.<br /><br /> Specify if the map should be skipped if the field is empty. If you do not select this check box, then an export error will occur if the field is empty.|  
 
- The data exchange definition is now ready to be enabled for users. For more information, see [Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Set Up SEPA Credit Transfer](finance-how-to-set-up-sepa-credit-transfer.md), [Set Up SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md), and [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
+The data exchange definition is now ready to be enabled for users. For more information, see [Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Set Up SEPA Credit Transfer](finance-how-to-set-up-sepa-credit-transfer.md), [Set Up SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md), and [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
-    When you have created the data exchange definition for a specific data file, you can export the data exchange definition as an XML file that can be used to quickly enable import of the data file in question. This is described in the following procedure.  
+When you have created the data exchange definition for a specific data file, you can export the data exchange definition as an XML file that can be used to quickly enable import of the data file in question. This is described in the following procedure.  
 
 ### To export a data exchange definition as an XML file for use by others  
 1. In the **Search** box, enter **Data Exchange Definitions**, and then choose the related link.  

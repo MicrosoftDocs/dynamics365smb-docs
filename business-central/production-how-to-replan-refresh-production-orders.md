@@ -1,8 +1,6 @@
 ---
     title: How to Replan or Refresh Production Orders Directly| Microsoft Docs
     description: The production order lines contain the items that are to be produced in the production order.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -30,7 +28,7 @@ The Refresh function calculates changes made to a production order header and do
 You can either insert the production order lines manually or use the function that calculates the production order lines from the header.  
 
 > [!NOTE]
- If you use the Refresh function to recalculate production order lines, the old production order lines are deleted and new lines are calculated.  
+> If you use the Refresh function to recalculate production order lines, the old production order lines are deleted and new lines are calculated.  
 
 ## To replan a production order  
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Firm Planned Prod. Orders**, and then choose the related link.  

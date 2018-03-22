@@ -1,8 +1,6 @@
 ---
 title: Setting Up Unrealized Value Added Tax | Microsoft Docs
 description: If you're using cash-based accounting, you can specify how to handle unrealized VAT for sales and purchases.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 
 ms.service: dynamics365-business-central
@@ -46,7 +44,7 @@ To use accounts for unrealized VAT, follow these steps:
 7. In the **Purch. VAT Unreal. Account** field, enter the general ledger account for unrealized purchase VAT.
 
     > [!NOTE]  
->   The VAT amount will be posted to this account, and stay there until the customer payment is posted. The amount is then transferred to the account for purchase VAT.
+    >   The VAT amount will be posted to this account, and stay there until the customer payment is posted. The amount is then transferred to the account for purchase VAT.
 
 ## See Also
 [Setting Up Value Added Tax](finance-setup-vat.md)

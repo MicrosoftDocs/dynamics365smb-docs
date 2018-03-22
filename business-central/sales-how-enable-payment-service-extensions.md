@@ -1,9 +1,8 @@
 ---
 title: Enable Customer Payments Through Payment Services| Microsoft Docs
 description: Make it easier for customers to pay their invoices by enabling payment services.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
+
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -35,7 +34,7 @@ The Microsoft Pay, PayPal Payments Standard, and WorldPay Payments Standard exte
 3. In the **Payment Service** field, choose the payment service.  
 
     > [!NOTE]  
->   The **Payment Service** field is available only if you've enabled the payment service.  
+    >   The **Payment Service** field is available only if you've enabled the payment service.  
 
 ## See Also  
 [Setting Up Sales](sales-setup-sales.md)  

@@ -49,7 +49,7 @@ The following procedure explains how to create an insurance journal line manuall
 4. Choose the **Post** action.  
 
     > [!NOTE]  
->   The entries from an insurance journal are only posted to the insurance coverage ledger.  
+    >   The entries from an insurance journal are only posted to the insurance coverage ledger.  
 
 ## To update the insurance value of a fixed asset
 You can use the **Index Insurance** batch job to update the value of the fixed assets that are covered.  
@@ -58,7 +58,7 @@ You can use the **Index Insurance** batch job to update the value of the fixed a
 2. Fill in the fields as necessary.
 
     > [!NOTE]  
->   In the **Index Figure** field, you enter a decrease of 5%, for example, as 95, whereas you enter an increase of 2% as 102.  
+    >   In the **Index Figure** field, you enter a decrease of 5%, for example, as 95, whereas you enter an increase of 2% as 102.  
 3. Choose the **OK** button.  
 
    The batch job calculates the new amount as a percentage of the total value insured, as stated in the **Insurance Statistics** window, and then creates a line in the insurance journal.  

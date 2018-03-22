@@ -86,7 +86,7 @@ When you have created a miniform, the next steps are to create functions and to 
 
 ### To add support for a function key  
 1.  Add code similar to the following example to the.xsl file for the plug-in. This creates a function for the **F6** key. The key sequence information can be obtained from the device manufacturer.  
-    ```  
+    ```xml  
     <xsl:template match="Function[.='F6']">  
       <Function Key1="27" Key2="91" Key3="49" Key4="55" Key5="126" Key6="0"><xsl:value-of select="."/></Function>  
     </xsl:template>  

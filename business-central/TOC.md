@@ -1,5 +1,6 @@
-# [Getting Started](index.md)
-## [Minimum Requirements](financials-requirements.md)
+# [Welcome to Business Central](index.md)
+# [Getting Started](product-get-started.md)
+## [Minimum Requirements](product-requirements.md)
 ## [Frequently Asked Questions](across-faq.md)
 ## [Videos on Common Tasks](across-videos.md)
 ## [Overview of Business Functionality](across-business-functionality.md)
@@ -348,6 +349,7 @@
 ## [Delivering Service](service-deliver-service.md)
 
 # [General Business Functionality](ui-across-business-areas.md)
+## [Track Document Lines](across-how-to-track-document-lines.md)
 ## [Sending Documents by Email](ui-how-send-documents-email.md)
 ## [Adding Extended Item Text](ui-how-define-ext-text.md)
 ## [Defining User Tasks](across-user-tasks.md)

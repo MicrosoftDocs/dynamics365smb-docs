@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 03/02/2018
+ms.date: 03/20/2018
 ms.author: solsen
 
 ---
@@ -24,6 +24,7 @@ The following table lists these general business areas with links to topics that
 
 | To | See |
 | --- | --- |
+|View ongoing, posted, or archived documents that are related to sales and purchase order lines.|[Track Document Lines](across-how-to-track-document-lines.md)|
 | Communicate the contents of business documents quickly to your business partners, such as the payment information on sales documents to customers. |[Sending Documents by Email](ui-how-send-documents-email.md) |
 | Set up standard text codes so you can extend standard text by adding extra lines, and set up conditions for use of the extra lines. |[Defining Extended Text](ui-how-define-ext-text.md) |
 |Create tasks to remind you of work to be done. You can create tasks for yourself, but you can also assign tasks to others or be assigned a task by someone else in your organization.|[Defining User Tasks](across-user-tasks.md)|

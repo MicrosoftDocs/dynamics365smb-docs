@@ -42,4 +42,4 @@ The following table describes a sequence of tasks, with links to the topics that
 
 ## See also
 [Service Management](service-service.md)  
-[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Getting Started](product-get-started.md)  

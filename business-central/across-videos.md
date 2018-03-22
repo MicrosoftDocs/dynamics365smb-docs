@@ -44,4 +44,4 @@ Just to mention a few examples, the videos we are updating will show how to:
 * Set up email and send documents directly from [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 
 ## See Also
-[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)
+[Getting Started](product-get-started.md)

@@ -1,8 +1,6 @@
 ---
 title: Correct or Cancel a Posted Sales Invoice | Microsoft Docs
 description: Describes how to correct, undo, or cancel a posted sales invoice and apply a sales credit memo.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -35,7 +33,7 @@ When you correct or cancel a posted sales invoice, the corrective sales credit m
 2. Select the posted sales invoice that you want to correct.
 
     > [!NOTE]  
->   If the **Canceled** check box is selected, then you cannot correct the posted sales invoice because it has already been corrected or canceled.
+    >   If the **Canceled** check box is selected, then you cannot correct the posted sales invoice because it has already been corrected or canceled.
 3. In the **Posted Sales Invoice** window, choose the **Correct** action.  
 4. A new sales invoice with the same information is created where you can make the correction. The **Canceled** field on the initial posted sales invoice is changed to **Yes**.
 
@@ -47,7 +45,7 @@ When you correct or cancel a posted sales invoice, the corrective sales credit m
 2. Select the posted sales invoice that you want to cancel.
 
     > [!NOTE]  
->   If the **Canceled** check box is selected, then you cannot cancel the posted sales invoice because it has already been canceled or corrected.
+    >   If the **Canceled** check box is selected, then you cannot cancel the posted sales invoice because it has already been canceled or corrected.
 3. In the **Posted Sales Invoice** window, choose the **Cancel** action.
 
     A sales credit memo is automatically created and posted to void the initial posted sales invoice. The **Canceled** field on the initial posted sales invoice is changed to **Yes**.

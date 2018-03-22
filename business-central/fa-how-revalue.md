@@ -30,7 +30,7 @@ Indexation is used to adjust multiple fixed asset values, for example per genera
 4. Choose the **Insert FA Bal. Account** action. A second journal line is created for the balancing account that is set up for appreciation posting.
 
     > [!NOTE]  
->   Step 4 only works if you have set up the following: In the **FA Posting Group Card** window for the posting group of the fixed asset, the **Appreciation Account** field contains the general ledger debit account and the **Appreciation Bal. Account** field contains the general ledger account to which you want to post balancing entries for appreciation. For more information, see the "To set up fixed asset posting groups" section in [Set Up General Fixed Asset Information](fa-how-setup-general.md).  
+    >   Step 4 only works if you have set up the following: In the **FA Posting Group Card** window for the posting group of the fixed asset, the **Appreciation Account** field contains the general ledger debit account and the **Appreciation Bal. Account** field contains the general ledger account to which you want to post balancing entries for appreciation. For more information, see the "To set up fixed asset posting groups" section in [Set Up General Fixed Asset Information](fa-how-setup-general.md).  
 5. Choose the **Post** action.
 
 ## To post a write-down from the fixed asset G/L journal
@@ -40,7 +40,7 @@ Indexation is used to adjust multiple fixed asset values, for example per genera
 4. Choose the **Insert FA Bal. Account** action. A second journal line is created for the balancing account that is set up for write-down posting.
 
     > [!NOTE]  
->   Step 4 only works if you have set up the following: In the **FA Posting Group Card** window for the posting group of the fixed asset, the **Write-Down Account** field contains the general ledger credit account and the **Write-Down Expense Account** field contains the general ledger debit account to which you want to post balancing entries for write-downs. For more information, see the "To set up fixed asset posting groups" section in [Set Up General Fixed Asset Information](fa-how-setup-general.md).
+    >   Step 4 only works if you have set up the following: In the **FA Posting Group Card** window for the posting group of the fixed asset, the **Write-Down Account** field contains the general ledger credit account and the **Write-Down Expense Account** field contains the general ledger debit account to which you want to post balancing entries for write-downs. For more information, see the "To set up fixed asset posting groups" section in [Set Up General Fixed Asset Information](fa-how-setup-general.md).
 5. Choose the **Post** action.
 
 ## To perform general revaluation of fixed assets
@@ -56,10 +56,10 @@ Indexation is used to adjust multiple fixed asset values, for example per genera
 6. Check the created entries, and then choose the **Post** action to post the journal.
 
     > [!TIP]  
->   If the index figures are for simulation purposes only, you can create a special depreciation book to store them in. Then these entries will not affect any of the other depreciation books.
+    >   If the index figures are for simulation purposes only, you can create a special depreciation book to store them in. Then these entries will not affect any of the other depreciation books.
 
-   ## To post additional acquisition costs
-   You post additional acquisition cost for a fixed asset in the same way as you post the original acquisition cost: from a purchase invoice or from a fixed asset journal. For more information, see [Acquire Fixed Assets](fa-how-acquire.md).  
+## To post additional acquisition costs
+You post additional acquisition cost for a fixed asset in the same way as you post the original acquisition cost: from a purchase invoice or from a fixed asset journal. For more information, see [Acquire Fixed Assets](fa-how-acquire.md).  
 
 If depreciation has already been calculated for the fixed asset, select the **Depr. Acquisition Cost** check box to have the additional acquisition cost less the salvage value depreciated in proportion to the amount by which the previously acquired fixed asset has already been depreciated. This ensures that the depreciation period is not changed.  
 
@@ -116,5 +116,5 @@ If you did not select the **Depr. until FA Posting Date** check box, the asset w
 [Fixed Assets](fa-manage.md)  
 [Setting Up Fixed Assets](fa-setup.md)  
 [Finance](finance.md)  
-[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Getting Started](product-get-started.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

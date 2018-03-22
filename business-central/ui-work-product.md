@@ -41,7 +41,7 @@ The following table lists some of the general functionality with links to topics
 |Watch videos on selected functionality to help you get started.|[Videos on Common Tasks](across-videos.md)|  
 
 ## See Also
-[Getting Started](index.md)  
+[Getting Started](product-get-started.md)  
 [Setting Up Business Central](setup.md)  
 [General Business Functionality](ui-across-business-areas.md)  
 

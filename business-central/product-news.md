@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: news
-ms.date: 03/16/2018
+ms.date: 03/20/2018
 ms.author: edupont
 
 ---
@@ -21,10 +21,11 @@ On a regular basis, we will update [!INCLUDE[d365fin](includes/d365fin_md.md)] w
 On this page, you can see links to release notes, but find the latest updates in the [Business Central Roadmap](https://roadmap.dynamics.com/).
 
 ## Dynamics 365 Spring ‘18 release notes
-Discover the latest updates to our business applications, as well as a host of new capabilities for building your own applications and extensions on top of our platform. [Download](https://aka.ms/businessappsreleasenotes) the Dynamics 365 Spring ’18 release notes.
+Discover the latest updates to our business applications, as well as a host of new capabilities for building your own applications and extensions on top of our platform. You can find a summary of new features across all Dynamics 365 apps and the platform in the Spring '18 release notes [here](https://aka.ms/businessappsreleasenotes).
 
 
 ## See Also
-[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Getting Started](product-get-started.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Business Central Roadmap](https://roadmap.dynamics.com/)  
+[Dynamics 365 Community](https://community.dynamics.com/business/)  

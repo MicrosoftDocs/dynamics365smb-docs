@@ -1,16 +1,16 @@
 ---
-    title: Set up data exchange | Microsoft Docs
-    description: Set up the data exchange framework in Business Central .
-    author: SorenGP
+title: Set up data exchange | Microsoft Docs
+description: Set up the data exchange framework in Business Central.
+author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 08/21/2017
-    ms.author: sgroespe
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.date: 08/21/2017
+ms.author: sgroespe
 
 ---
 # Setting Up Data Exchange

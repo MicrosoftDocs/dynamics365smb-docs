@@ -1,30 +1,29 @@
 ---
-    title: How to Set Up Certificates for use with Digipoort
-    description: Information about Digipoort certificates.
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
+title: How to Set Up Certificates for use with Digipoort
+description: Information about Digipoort certificates.
+author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.date: 07/01/2017
+ms.author: sgroespe
 
 ---
+
 # Set Up Certificates for use with Digipoort
 The following procedure assumes that you have obtained the certificates from the government. If you have not, take the following steps to obtain the certificates.  
 
 - Obtain a PKIoverheid certificate for the company if you do not have one already. A list of certificate providers can be found here: [http://www.logius.nl/producten/toegang/pkioverheid/aansluiten/toegetreden-csps](http://www.logius.nl/producten/toegang/pkioverheid/aansluiten/toegetreden-csps).  
 
-- Obtain a **Digipoort Service certificate**, which can be obtained at the Dutch Tax Administration website: <[https://aansluiten.procesinfrastructuur.nl](https://aansluiten.procesinfrastructuur.nl)>.  
+- Obtain a **Digipoort Service certificate**, which can be obtained at the Dutch Tax Administration website: [https://aansluiten.procesinfrastructuur.nl](https://aansluiten.procesinfrastructuur.nl).  
 
-- Register a user of Digipoort, which can be done here: <[https://aansluiten.procesinfrastructuur.nl/site/registratie/nieuw](https://aansluiten.procesinfrastructuur.nl/site/registratie/nieuw)>.  
+- Register a user of Digipoort, which can be done here: [https://aansluiten.procesinfrastructuur.nl/site/registratie/nieuw](https://aansluiten.procesinfrastructuur.nl/site/registratie/nieuw).  
 
-After you register and log on to the official site, you can download the digiport server certificates from this site: <[https://aansluiten.procesinfrastructuur.nl/site/documentatie/certificaten](https://aansluiten.procesinfrastructuur.nl/site/documentatie/certificaten)>.  
+After you register and log on to the official site, you can download the digiport server certificates from this site: [https://aansluiten.procesinfrastructuur.nl/site/documentatie/certificaten](https://aansluiten.procesinfrastructuur.nl/site/documentatie/certificaten).  
 
 Next, you have to install the certificates. The certificates have to be installed on the server. Later, you will use the common name (CN) of the certificates in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 

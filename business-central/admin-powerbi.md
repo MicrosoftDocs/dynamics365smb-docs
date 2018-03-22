@@ -97,7 +97,7 @@ If you get a "login failed" error when you log in to the dashboard, using your [
 * The [!INCLUDE[d365fin](includes/d365fin_md.md)] instance that you are trying to connect to does not have a valid SSL certificate. In this case you'll see a more detailed error message ("unable to establish trusted SSL relationship").
 
     > [!NOTE]  
->   Self-signed certificates are not supported.  
+    >   Self-signed certificates are not supported.  
 
 **"Oops"**  
 If you see an "Oops" error dialog after you pass the authentication dialog, this is most frequently caused by a problem connecting to the data for the content pack.
@@ -114,7 +114,7 @@ If you see an "Oops" error dialog after you pass the authentication dialog, this
 
 ## See Also
 [Business Intelligence](bi.md)  
-[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Getting Started](product-get-started.md)  
 [Migrate Business Data from Other Finance Systems](upload-data.md)  
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as a PowerApps Data Source](across-how-use-financials-data-source-powerapps.md)  

@@ -1,8 +1,6 @@
 ---
 title: Set Up FA Depreciation| Microsoft Docs
 description: You specify in a depreciation book how you want fixed assets to be depreciated or written-down.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -65,7 +63,7 @@ For each depreciation book, you must set up how you want [!INCLUDE[d365fin](incl
     > [!NOTE]  
     >   You cannot insert or delete lines in the **FA Posting Type Setup** window. You can only modify the existing lines.
 
-    We recommend that you do not change the setup for depreciation books for entries that have already been posted. Changes will not affect the entries that are already posted, which would make depreciation book statistics misleading.
+We recommend that you do not change the setup for depreciation books for entries that have already been posted. Changes will not affect the entries that are already posted, which would make depreciation book statistics misleading.
 
 ## To set up default templates and batches for fixed asset depreciation
 For each depreciation book, you define a default setup of templates and batches. You use these defaults to duplicate lines from one journal to another, create journal lines using the **Calculate Depreciation** or **Index Fixed Assets** batch jobs, duplicate acquisition costs in the insurance journal.  

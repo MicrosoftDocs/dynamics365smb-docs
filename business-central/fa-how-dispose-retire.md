@@ -1,8 +1,6 @@
 ---
 title: Dispose or Retire FA| Microsoft Docs
 description: You must post a disposal value when you scrap, sell, or retire a fixed asset.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -31,7 +29,7 @@ When you sell or otherwise dispose of a fixed asset, the disposal value must be 
     >   Step 4 only works if you have set up the following: In the **FA Posting Group Card** window for the posting group of the fixed asset, the **Disposal Account** field contains the general ledger debit account and the **Disposal Bal. Account** field contains the general ledger account to which you want to post balancing entries for appreciation. For more information, see the "To set up fixed asset posting groups" section in [Set Up General Fixed Asset Information](fa-how-setup-general.md).  
 5. Choose the **Post** action.  
 
-    If you sell or dispose of part of a fixed asset, you must split up the asset before you can record the disposal transaction. For more information, see [Transfer, Split, or Combine Fixed Assets](fa-how-trans-split-combine.md).  
+If you sell or dispose of part of a fixed asset, you must split up the asset before you can record the disposal transaction. For more information, see [Transfer, Split, or Combine Fixed Assets](fa-how-trans-split-combine.md).  
 
 ## To view disposal ledger entries
 When you sell or dispose of a fixed asset, the disposal value is posted to the general ledger where you can view the result.  

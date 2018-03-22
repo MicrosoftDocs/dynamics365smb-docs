@@ -1,8 +1,6 @@
 ---
 title: Depreciate or Amortize FA| Microsoft Docs
 description: You must define how you will write-down, depreciate, or amortize each of your fixed assets.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -83,7 +81,7 @@ When you fill in journal lines to post to a depreciation book, you can duplicate
 6. Review or edit the lines, and then choose the **Post** action.  
 
     > [!NOTE]  
->   Another way to duplicate an entry in a separate book is to enter a depreciation book code in the **Duplicate in Depreciation Book** field when you fill in a journal line.  
+    >   Another way to duplicate an entry in a separate book is to enter a depreciation book code in the **Duplicate in Depreciation Book** field when you fill in a journal line.  
 
 You can copy entries from one depreciation book to another by using the **Copy Depreciation Book** batch job. The batch job creates journal lines in the journal batch that you have specified in the **FA Journal Setup** window for the depreciation book that you want to copy to. For more information, see the following procedure.  
 

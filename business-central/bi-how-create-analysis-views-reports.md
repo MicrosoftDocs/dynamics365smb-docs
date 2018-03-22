@@ -1,8 +1,6 @@
 ---
 title: Create Analysis Reports| Microsoft Docs
 description: Describes how to create new analysis reports for sales, purchases, and inventory, and set up analysis templates.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -66,8 +64,7 @@ A template contains a set of lines each representing the analysis columns that y
 
     > [!NOTE]  
     >   To define a column, you must fill in the **Analysis Type Codes** field for all column types except **Formula**. Set up the analysis type codes in the **Analysis Types** window.  
-
-    **Note**. In the **Ledger Entry Type** field, if you select **Item Entries**, the actual figures from the item ledger entry are copied. If you select **Item Budget Entries**, the budgeted figures from the budget are copied.  
+    Also, in the **Ledger Entry Type** field, if you select **Item Entries**, the actual figures from the item ledger entry are copied. If you select **Item Budget Entries**, the budgeted figures from the budget are copied.  
 5.  Choose the **OK** button to save your changes.  
 
 ## To set up analysis line templates  

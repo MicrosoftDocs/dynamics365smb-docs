@@ -2,7 +2,7 @@
 title: 'Create Number Series | Microsoft Docs'
 description: Learn how to set up number series that assign unique ID codes to accounts and documents in Business Central .
 documentationcenter: ''
-author: SusanneWindfeldPedersen
+author: SorenGP
 
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,8 +10,8 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
-ms.date: 06/02/2017
-ms.author: solsen
+ms.date: 03/23/2018
+ms.author: sgroespe
 
 ---
 # Create Number Series
@@ -26,6 +26,22 @@ You typically set up your number series to automatically insert the next consecu
 
 If you want to use more than one number series code for one type of master data - for example, if you want to use different number series for different categories of items - you can use number series relationships.
 
+## Behavior of the No. field on Ducuments
+On sales and purchase documents, the **No.** can be filled automatically, from a number series, manually, or it can be set up to be invisible.
+
+The **No.** field can be filled in three ways:
+
+1. If only one number series for the type of document exists where the **Default Nos.** field is selected and the **Manual Nos.** field is not selected, then the field is automatically filled with the next number in the series, and the No. field will not be visible on the sales document.
+
+    > [!NOTE]  
+    > If the number series does not function, for example because it has run out of numbers, then the No. field will be visible and you can manually enter a number or resolve the issues in the **No. Series List** window.
+
+2. f more than one number series for the type of sales document exist, and the Default Nos. field is not selected for the number series that is currently assigned, choose the No. field. In the No. Series List window, select the number series you want to use, and then choose OK. The next number in the series is inserted in the No. field.
+
+3. If you have not set up a number series for the type of sales document, or if the **Manual Nos.** field is selected for the number series, then you can enter a number manually. You can enter a maximum of 20 characters, both numbers and letters.
+
+When you open a new sales or purchase document for which no number series exists, the relevant **No. Series Setup** window opens so that you can set up a number series for that type of sales document before you proceed to fill the new sales document.
+
 ## To create a new number series
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **No. Series**, and then choose the related link.
 2. Choose the **New** action.
@@ -33,7 +49,7 @@ If you want to use more than one number series code for one type of master data 
 
 **TIP**: To allow manual entry of a number on new cards or documents, deselect the **Default Nos.** check box and select the **Manual Nos.** check box.
 
-Now when you create a new card or document that is set up to use the number series in question, you can manually fill in the **No.** field with any value.  
+Now when you create a new card or document that is set up to use the number series in question, you can manually fill in the **No.** field with any value.
 
 ## To set up where a number series is used
 The following procedure shows how to set number series up for the Sales area. The steps are similar for other areas.
@@ -52,6 +68,18 @@ If you have set up more than one number series code for the same kind of basic i
 5. Close the window.
 
 Now when you set up something that requires a number, you can use the relationships you created to select among the related number series.
+
+## To enable manual number entry on cards
+If you do not want the **No.** field on item, customer, or vendor cards to be filled in automatically from a number series, you can  
+select the **Manual Nos.** check box during number series setup or, during daily work, from the card in question. The following procedure is based on an item card.
+
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.
+2. Open an item card.
+3. In the **No.** field, choose the AssistEdit button.
+4. In the **No. Series List** window, on the number series line for the relevant item template, select the **Manual Nos.** check box.
+5. To disable automatic numbering completely, deselect the **Default Nos.** check box. If you leave it selected, a number is automatically inserted, but you can edit it.
+
+The **No.** field on item cards using the template in question will now be empty until you manually fill in a number.
 
 ## See Also
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  

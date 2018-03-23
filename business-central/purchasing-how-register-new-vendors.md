@@ -50,6 +50,7 @@ If you want to use this vendor card as a template when you create new vendor car
    The vendor template is added to the list of vendor templates, so that you can use it to create new vendor cards.
 
 ## See Also
+[Create Number Series](ui-create-number-series)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Record Purchases](purchasing-how-record-purchases.md)   
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

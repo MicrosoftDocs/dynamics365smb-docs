@@ -70,7 +70,7 @@ If you purchase the same item from more than one vendor, you must enter informat
 The vendors will now appear in the **Item Vendor Catalog** window, which you open from the item card, so that you can easily select an alternate vendor.
 
 ## See Also
-[Create Number Series](ui-create-number-series)  
+[Create Number Series](ui-create-number-series.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Sales](sales-manage-sales.md)  

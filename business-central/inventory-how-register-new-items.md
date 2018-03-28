@@ -70,7 +70,8 @@ If you purchase the same item from more than one vendor, you must enter informat
 The vendors will now appear in the **Item Vendor Catalog** window, which you open from the item card, so that you can easily select an alternate vendor.
 
 ## See Also
-  [Inventory](inventory-manage-inventory.md)  
-  [Purchasing](purchasing-manage-purchasing.md)  
-  [Sales](sales-manage-sales.md)  
-  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Create Number Series](ui-create-number-series)  
+[Inventory](inventory-manage-inventory.md)  
+[Purchasing](purchasing-manage-purchasing.md)  
+[Sales](sales-manage-sales.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

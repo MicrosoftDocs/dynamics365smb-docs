@@ -1,8 +1,6 @@
 ---
 title: Count, Adjust, and Reclassify Inventory| Microsoft Docs
 description: Describes how to perform physical counting, make negative or positive adjustments, and how to change information, such as location or lot number, on item ledger entries or warehouse entries.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -95,7 +93,7 @@ Employees can now proceed to count inventory and record any discrepancies on the
     The related fields are updated accordingly.
 
     > [!NOTE]  
->   If the physical count reveals differences that are caused by items posted with incorrect location codes, do not enter the differences in the physical inventory journal. Instead, use the reclassification journal or a transfer order to redirect the items to the correct locations. For more information, see Item Reclass. Journal or Create Transfer Orders.
+    >   If the physical count reveals differences that are caused by items posted with incorrect location codes, do not enter the differences in the physical inventory journal. Instead, use the reclassification journal or a transfer order to redirect the items to the correct locations. For more information, see Item Reclass. Journal or Create Transfer Orders.
 
 2. To adjust the calculated quantities to the actual counted quantities, choose the **Post** action.
 

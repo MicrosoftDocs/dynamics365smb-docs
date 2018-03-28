@@ -1,8 +1,6 @@
 ---
 title: Set Up Item Attributes and Assign Them to Items| Microsoft Docs
 description: Describes how to set up item attribute values, for example, that can be used as search words, and assign them to items and item categories.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -63,7 +61,7 @@ You can also assign item attributes to item categories, which then apply to the 
 4. In the **Value** field, choose the lookup button and select an attribute value to filter items by.
 
     > [!NOTE]  
->   You can only select values directly for item attributes that have fixed values, such as Color. For item attributes that have variable values, such as Width, you must specify the item attribute value by first selecting a condition. See step 5.
+    >   You can only select values directly for item attributes that have fixed values, such as Color. For item attributes that have variable values, such as Width, you must specify the item attribute value by first selecting a condition. See step 5.
 5. In the **Value** field for a variable item attribute, choose the lookup button.
 6. In the **Specify Filter Value** window, in the **Condition** field, choose the drop-down arrow and select a condition.
 7. In the **Value** field, enter an attribute value to filter items by.

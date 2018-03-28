@@ -44,4 +44,4 @@ If you use both Invoicing and [!INCLUDE[d365fin](includes/d365fin_md.md)], the d
 
 ## See Also
 [Frequently Asked Questions](across-faq.md)  
-[Setup and Administration](admin-setup-and-administration.md)  
+[Administration](admin-setup-and-administration.md)  

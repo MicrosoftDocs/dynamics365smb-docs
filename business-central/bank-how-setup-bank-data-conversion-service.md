@@ -1,8 +1,6 @@
 ---
 title: Set Up Bank Data Conversion| Microsoft Docs
 description: You can set up bank accounts to keep track of transactions and import or export bank feeds, such as Yodlee.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -34,11 +32,11 @@ To import or export bank files, you must set up your own bank account and your v
 2. The **Bank Data Conv. Service Setup** window opens with three fields prefilled with relevant URLs of the provider of bank data conversion service.
 
     > [!NOTE]  
->   In the CRONUS International Ltd. demonstration database, the User Name and Password fields are prefilled with demonstration logon information, which you will replace with your company’s actual information as you sign up for the bank data conversion service.
+    >   In the CRONUS International Ltd. demonstration database, the User Name and Password fields are prefilled with demonstration logon information, which you will replace with your company’s actual information as you sign up for the bank data conversion service.
 3. In the **Sign-up URL** field, choose the browser button to open the service provider’s sign-up page.  
 4. On the sign-up page of the bank data service provider, enter the user name and password for your company’s subscription to the service, and then complete the sign-up process as instructed by the service provider.
 
-    Your company is now signed up for the bank data conversion service. Proceed to enter the user name and password that you specified for the service in the related setup fields in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+  Your company is now signed up for the bank data conversion service. Proceed to enter the user name and password that you specified for the service in the related setup fields in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 5. In the **Bank Data Conv. Service Setup** window, in the User **Name** field, enter the same value that you entered as logon name on the service provider’s page in step 4.
 6. In the **Password** field, enter the same value that you entered in the **Password** field on the service provider’s page in step 4.
 

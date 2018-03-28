@@ -27,11 +27,11 @@ There are eight methods of depreciation available:
 * Manual  
 
   > [!NOTE]  
->   Use this method for assets that are not subject to depreciation, for example, land. You must enter depreciation in the fixed asset G/L journal. The **Calculate Depreciation** batch job omits fixed assets that use this depreciation method.  
+  >   Use this method for assets that are not subject to depreciation, for example, land. You must enter depreciation in the fixed asset G/L journal. The **Calculate Depreciation** batch job omits fixed assets that use this depreciation method.  
 * Half-Year Convention  
 
   > [!NOTE]  
->    When you use this method, a fixed asset is depreciated by the same amount each year.  
+  >    When you use this method, a fixed asset is depreciated by the same amount each year.  
 
 ## Straight-Line Depreciation
 When you use the straight-line method, you must specify one of the following options in the fixed asset depreciation book:  

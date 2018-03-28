@@ -38,18 +38,17 @@ The **No.** field can be filled in three ways:
 
 2. If more than one number series for the type of document or card exist, and the **Default Nos.** check box is not selected for the number series that is currently assigned, then the **No.** field is visible, and you can look up to the **No. Series List** window and select the number series you want to use. The next number in the series is then inserted in the **No.** field.
 
-3. If you have not set up a number series for the type of document or card, or if the **Manual Nos.** field is selected for the number series, then you can enter a number manually. You can enter a maximum of 20 characters, both numbers and letters.
+3. If you have not set up a number series for the type of document or card, or if the **Manual Nos.** field is selected for the number series, then the **No.** field is visible and you must enter any number manually. You can enter a maximum of 20 characters, both numbers and letters.
 
 When you open a new document or card that a number series exists for, then the relevant **No. Series Setup** window opens so that you can set up a number series for that type of document or card before you proceed with other data entry.
+
+> [!NOTE]  
+> If you need to enable manual numbering on, for example, new item cards that have been created with a data migration process that has hidden the **No.** by default, then go to the **Inventory Setup** window and choose the **Item Nos.** field to open and set the related number series to **Manual Nos.**.
 
 ## To create a new number series
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **No. Series**, and then choose the related link.
 2. Choose the **New** action.
 3. On the new line, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-**TIP**: To allow manual entry of a number on new cards or documents, deselect the **Default Nos.** check box and select the **Manual Nos.** check box.
-
-Now when you create a new card or document that is set up to use the number series in question, you can manually fill in the **No.** field with any value.
 
 ## To set up where a number series is used
 The following procedure shows how to set number series up for the Sales area. The steps are similar for other areas.
@@ -68,17 +67,6 @@ If you have set up more than one number series code for the same kind of basic i
 5. Close the window.
 
 Now when you set up something that requires a number, you can use the relationships you created to select among the related number series.
-
-## To enable manual number entry on cards
-If you do not want the **No.** field on item, customer, or vendor cards to be filled in automatically from a number series, you can select the **Manual Nos.** check box during number series setup or, during daily work, from the card in question. The following procedure is based on an item card.
-
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.
-2. Open an item card.
-3. In the **No.** field, choose the AssistEdit button.
-4. In the **No. Series List** window, on the number series line for the relevant item template, select the **Manual Nos.** check box.
-5. To disable automatic numbering completely, deselect the **Default Nos.** check box. If you leave it selected, a number is automatically inserted, but you can edit it.
-
-The **No.** field on item cards using the template in question will now be empty until you manually fill in a number.
 
 ## See Also
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  

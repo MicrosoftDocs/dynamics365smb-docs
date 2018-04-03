@@ -79,6 +79,7 @@ You can fill customer fields on the sales order in two ways depending on whether
 
    If you have set up recurring sales lines for the customer, such as a monthly replenishment order, then you can insert these lines on the order by choosing the **Get Recurring Sales Lines** action.  
 17. On the **Lines** FastTab, in the **Type** field, select what type of product, charge, or transaction that you will post for the customer with the sales line.
+
 18. In the **No.** field, select a record to post according to the value in the **Type** field.
 
     You leave the **No.** field empty in the following cases:

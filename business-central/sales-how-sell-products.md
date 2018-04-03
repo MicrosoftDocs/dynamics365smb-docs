@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade
-ms.date: 01/12/2018
+ms.date: 04/03/2018
 ms.author: sgroespe
 
 ---
@@ -71,7 +71,8 @@ You can fill customer fields on the sales order in two ways depending on whether
 14. A new customer card displays the information on the selected customer template. Fill in the remaining fields. For more information, see [Register New Customers](sales-how-register-new-customers.md).  
 15. When you have completed the customer card, choose the **OK** button to return to the **Sales Order** window.
 
-   Several fields on the sales Order are now filled with information that you specified on the new customer card.  
+   Several fields on the sales order are now filled with information that you specified on the new customer card.
+
 16. Fill in the remaining fields in the **Sales Order** window as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
    You are now ready to fill in the sales order lines for products that you are selling to the customer or for any transaction with the customer that you want to record in a G/L account.   
@@ -81,8 +82,9 @@ You can fill customer fields on the sales order in two ways depending on whether
 18. In the **No.** field, select a record to post according to the value in the **Type** field.
 
     You leave the **No.** field empty in the following cases:
-    -If the line is for a comment. Write the comment in the **Description** field.
-    -If the line is for a nonstock item. Choose the **Select Nonstock Items** action. For more information, see [Work With Nonstock Items](inventory-how-work-nonstock-items.md).
+
+    * If the line is for a comment. Write the comment in the **Description** field.
+    * If the line is for a nonstock item. Choose the **Select Nonstock Items** action. For more information, see [Work With Nonstock Items](inventory-how-work-nonstock-items.md).
 
 19. In the **Quantity** field, enter how many units of the product, charge, or transaction that the line will record for the customer.  
 

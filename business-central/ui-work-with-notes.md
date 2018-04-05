@@ -13,7 +13,7 @@
     ms.author: jswymer
 
 ---
-# Adding and Viewing Notes on Records
+# Add and View Notes on Records
  You <!--OnPrem and your colleagues -->can add notes to records in the application. Many windows, particularly those that display a list of records, such as the **Sales Orders** window, include the **Notes** action or the **Notes** FactBox. <!--OnPremNotes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->
 
 <!--OnPrem

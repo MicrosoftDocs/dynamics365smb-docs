@@ -43,8 +43,7 @@ Most of the shortcuts are the same no matter whether the operating system is Win
 >[!Note]
 >In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
 
-
-|Press these keys<br />(in macOS)|To do this in a list view |To do this in a list view |Remarks|
+|Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |Remarks|
 |-----------------|-------|-------|-------|
 |Up Arrow|Move in the same column to the field in the row above.| Move in the same column to the tile in the row above.  |  | 
 |Down Arrow|Move in the same column to the field in the row below. |Move in the same column to the tile in the row below. | |
@@ -68,6 +67,25 @@ Most of the shortcuts are the same no matter whether the operating system is Win
 |Shift+Page Up<br />(Shift+Fn+Up Arrow)|Extend the selection of rows to include all visible rows above the current selection of rows.|Not applicable||
 |Shift+Page Down<br />(Shift+Fn+Down Arrow)|Extend the selection of rows to include all all visible rows below the current selection of rows.|Not applicable||
 |Ctrl+Enter|Move focus to the next element outside the list.|Move focus to the next element outside the list.||
+
+## Keyboard Shortcuts in the Calendar for Setting Dates (Date Picker)
+When setting a date field, you can either enter the date manually or open a calendar (date picker) that lets you select the date you want. The following table describes the keyboard shortcuts for the calendar.
+
+|Press these keys<br />(in macOS)|To do this|
+|-----------------|-------|
+|Page Up|Move to the previous month.|  
+|Page Down|Move to the next month.|
+|Crtl+Page Up|Move to the previous year.|
+|Crtl+Page Down|Move to the next year.|
+|Ctrl+Home|Open the calendar if closed.|
+|Ctrl+Home<br />(Cmd+Home)|Move to the current month, current day.|
+|Ctrl+Left Arrow<br />(Cmd+Left Arrow)|Move to the previous day.|
+|Ctrl+Right Arrow<br />(Cmd+Right Arrow)|Move to the next day.|
+|Ctrl+Up Arrow<br />(Cmd+Up Arrow)|Move to the previous week, same day of the week.|
+|Ctrl+Down Arrow<br />(Cmd+Down Arrow)|Move to the next week, same day of the week.|
+|Enter|Select the focused date.|
+|Ctrl+End<br />(Cmd+End)|Close the calendar and delete current the date.|
+|Esc|Close the datepicker without selection, keep current date.|
 
 <!--
 ## Keyboard shortcuts in list (shown as tiles) 

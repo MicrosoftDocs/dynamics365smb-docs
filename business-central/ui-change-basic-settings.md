@@ -16,7 +16,7 @@ ms.author: solsen
 
 ---
 # Changing Basic Settings
-In the **My Settings** window, you can see and change basic settings for [!INCLUDE[d365fin](includes/d365fin_md.md)]. The change that you make will only affect your workspace; not the workspaces of others.  
+In the **My Settings** window, you can see and change basic settings for [!INCLUDE[d365fin](includes/d365fin_md.md)]. The changes that you make will only affect your workspace; not the workspaces of other users.  
 
 ## Role Center
 The Role Center represents the home page, a starting screen that is designed for the needs of a specific role in an organization. Depending on your role, the Role Center gives you an overview of the business, your department, or your personal tasks. It also helps you navigate to your daily tasks and find work that is assigned to you.
@@ -53,9 +53,9 @@ The **Region** setting determines how dates, times, numbers, and currencies are 
 
 
 ## Language
-Changes display language. This field appears only when there is more than one language to choose from. 
+Changes the display language. This field appears only when there is more than one language to choose from. 
 
-The initial language is either determined by the administrator or by your browser settings when you sign up for [!INCLUDE[d365fin](includes/d365fin_md.md)]. The language that you set will be used on all devices that you sign in from, such as a phone and tablet. 
+The initial language is either determined by the administrator or by your browser settings when you sign up for [!INCLUDE[d365fin](includes/d365fin_md.md)]. The language that you set will be used on all devices that you sign in from, such as a phone or tablet. 
 
 ## Changing When I Receive Notifications
 Choose this link to view or change the notifications that you get about certain events or changes in status, such as when you are about to invoice a customer who has an overdue balance, or the available inventory is lower than the quantity you are about to sell. For more information, see [Smart Notifications](ui-smart-notifications.md).

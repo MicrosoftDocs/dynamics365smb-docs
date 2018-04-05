@@ -54,20 +54,21 @@ You can fill customer fields on the sales invoice in two ways depending on wheth
    Several fields on the sales invoice are now filled with information that you specified on the new customer card.  
 8. Fill in the remaining fields in the **Sales Invoice** window as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-You are now ready to fill in the sales invoice lines for products that you are selling to the customer or for any transaction with the customer that you want to record in a G/L account.   
+    You are now ready to fill in the sales invoice lines for products that you are selling to the customer or for any transaction with the customer that you want to record in a G/L account.   
 
-If you have set up recurring sales lines for the customer, such as a monthly replenishment order, then you can insert these lines on the order by choosing the **Get Recurring Sales Lines** action.  
+    If you have set up recurring sales lines for the customer, such as a monthly replenishment order, then you can insert these lines on the order by choosing the **Get Recurring Sales Lines** action.  
 9. On the **Lines** FastTab, in the **Type** field, select what type of product, charge, or transaction that you will post for the customer with the sales line.
 10. In the **No.** field, select a record to post according to the value in the **Type** field.
 
- You leave the **No.** field empty in the following cases:
- -If the line is for a comment. Write the comment in the **Description** field.
- -If the line is for a nonstock item. Choose the **Select Nonstock Items** action. For more information, see [Work With Nonstock Items](inventory-how-work-nonstock-items.md).
+    You leave the **No.** field empty in the following cases:
+
+    * If the line is for a comment. Write the comment in the **Description** field.
+    * If the line is for a nonstock item. Choose the **Select Nonstock Items** action. For more information, see [Work With Nonstock Items](inventory-how-work-nonstock-items.md).
 
 11. In the **Quantity** field, enter how many units of the product, charge, or transaction that the line will record for the customer.  
 
     > [!NOTE]  
->   If the item is of type **Service**, or the **Type** field contains **Resource**, then the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.  
+    >   If the item is of type **Service**, or the **Type** field contains **Resource**, then the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.  
 
     The value in the **Line Amount** field is calculated as *Unit Price* x *Quantity*.  
 

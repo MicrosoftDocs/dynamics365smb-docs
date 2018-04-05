@@ -1,8 +1,6 @@
 ---
 title: Using General Journals to Post Directly to G/L| Microsoft Docs
 description: Learn about using general journals to post financial transactions to general ledger accounts and other accounts, such as bank and vendor accounts.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -123,7 +121,7 @@ When you have finished saving the standard item journal, the Item Journal window
     If you did not check the **Save Unit Amount** field when you used the **Save as Standard Item Journal** function job, then the **Unit Amount** field on lines that are inserted from the standard journal is automatically filled with the item’s current value, copied from the **Unit Cost** field on the item card.
 
     > [!NOTE]  
->   If you selected the **Save Unit Amount** or **Save Quantity** fields, you should now make sure the inserted values are correct for this particular inventory adjustment before you post the item journal.
+    >   If you selected the **Save Unit Amount** or **Save Quantity** fields, you should now make sure the inserted values are correct for this particular inventory adjustment before you post the item journal.
 
     If the inserted item journal lines contain saved unit amounts that you do not want to post, you can quickly adjust it to the current value of the item as follows.
 

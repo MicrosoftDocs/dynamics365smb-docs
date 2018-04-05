@@ -49,12 +49,12 @@ You can fill vendor fields on the purchase invoice in two ways depending on whet
     You are now ready to fill in the purchase invoice lines with inventory items or services that you have purchased from the vendor.
 
     > [!NOTE]  
->   If you have set up recurring purchase lines for the vendor, such as a monthly replenishment order, then you can insert these lines on the invoice by choosing the **Get Recurring Purchase Lines** action.
+    >   If you have set up recurring purchase lines for the vendor, such as a monthly replenishment order, then you can insert these lines on the invoice by choosing the **Get Recurring Purchase Lines** action.
 10. On the **Lines** FastTab, in the **Item No.** field, enter the number of an inventory item or service.
 11. In the **Quantity** field, enter the number of items to be purchased.
 
     > [!NOTE]  
->   For items of type **Service**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.
+    >   For items of type **Service**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.
 
     The **Line Amount** field is updated to show the value in the **Direct Unit Cost** field multiplied by the value in the **Quantity** field.
 
@@ -62,7 +62,7 @@ You can fill vendor fields on the purchase invoice in two ways depending on whet
 12. In the **Invoice Discount Amount** field, enter an amount that should be deducted from the value shown in the **Total Incl. Tax** field at the bottom of the invoice.
 
     > [!NOTE]  
->   If you have set up invoice discounts for the vendor, then the specified percentage value is automatically inserted in the **Vendor Invoice Discount %** field if the criteria are met, and the related amount is inserted in the **Invoice Discount Amount** field.
+    >   If you have set up invoice discounts for the vendor, then the specified percentage value is automatically inserted in the **Vendor Invoice Discount %** field if the criteria are met, and the related amount is inserted in the **Invoice Discount Amount** field.
 13. When you receive the purchased items or services, choose **Post**.
 
 The purchase is now reflected in inventory and financial records, and the vendor payment is activated. The purchase invoice is removed from the list of purchase invoices and replaced with a new document in the list of posted purchase invoices.

@@ -1,8 +1,6 @@
 ---
 title: Export Payments to an Electronic Payment File| Microsoft Docs
 description: To make vendor payments, you enable a bank data conversion service, export a bank file, and upload the file to your electronic bank to transfer the funds.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -39,12 +37,12 @@ You use the **Credit Transfer Registers** window to view the payment files that 
     Any error messages will be shown in the **Payment File Errors** FactBox where you can also choose an error message to see detailed information. You must resolve all errors before the payment file can be exported.
 
     > [!TIP]  
->   When you use the bank data conversion service, a common error message states that the bank account number does not have the length that your bank requires. To avoid or resolve the error, you must remove the value in the **IBAN** field in the **Bank Account Card** window and then, in the **Bank Account No.** field, enter a bank account number in the format that your bank requires.
+    >   When you use the bank data conversion service, a common error message states that the bank account number does not have the length that your bank requires. To avoid or resolve the error, you must remove the value in the **IBAN** field in the **Bank Account Card** window and then, in the **Bank Account No.** field, enter a bank account number in the format that your bank requires.
 
 6. In the **Save As** window, specify the location that the file is exported to, and then choose **Save**.
 
     > [!NOTE]  
->   If you are using EFT, save the resulting vendor remittance form as a Word document or select to have it emailed directly to the vendor. The payments are now added to the **Generate EFT File** window from where you can generate multiple payment orders together to save transmission cost. For more information, see the following steps.
+    >   If you are using EFT, save the resulting vendor remittance form as a Word document or select to have it emailed directly to the vendor. The payments are now added to the **Generate EFT File** window from where you can generate multiple payment orders together to save transmission cost. For more information, see the following steps.
 7. In the **Payment Journal** window, choose the **Generate EFT File** action.
 
     In the **Generate EFT File** window, all payments set up for EFT that you have exported from the payment journal for a specified bank account but not yet generated are listed on the **Lines** FastTab.

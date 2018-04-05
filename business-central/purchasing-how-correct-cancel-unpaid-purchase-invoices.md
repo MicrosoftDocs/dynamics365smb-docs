@@ -1,8 +1,6 @@
 ---
 title: Amend or Cancel Unpaid Purchase Invoices | Microsoft Docs
 description: Explains how to correct, cancel, or undo a posted purchase invoice and automatically create a purchase credit memo.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -27,7 +25,7 @@ In the **Posted Purchase Invoice** window, you can choose the **Correct** button
 2. Select the posted purchase invoice that you want to correct.  
 
     > [!NOTE]  
->   If the **Canceled** check box is selected, then you cannot correct the posted purchase invoice because it has already been corrected or canceled.
+    >   If the **Canceled** check box is selected, then you cannot correct the posted purchase invoice because it has already been corrected or canceled.
 3. In the **Posted Purchase Invoice** window, choose **Correct**.
 
     A new purchase invoice with the same information is created where you can make the correction. For more information, see [Record Purchases](purchasing-how-record-purchases.md). The **Canceled** field on the initial posted purchase invoice is changed to **Yes**.
@@ -40,7 +38,7 @@ In the **Posted Purchase Invoice** window, you can choose the **Correct** button
 2. Select the posted purchase invoice that you want to cancel.
 
     > [!NOTE]  
->   If the **Canceled** check box is selected, then you cannot cancel the posted purchase invoice because it has already been canceled or corrected.
+    >   If the **Canceled** check box is selected, then you cannot cancel the posted purchase invoice because it has already been canceled or corrected.
 3. In the **Posted Purchase Invoice** window, choose **Cancel**.
 
     A purchase credit memo is automatically created and posted to void the initial posted purchase invoice. The **Canceled** field on the initial posted purchase invoice is changed to **Yes**.

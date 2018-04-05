@@ -22,6 +22,8 @@ The keyboard shortcuts are supported by most web browsers; however the behavior 
 
 The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.
 
+ Most of the shortcuts are the same no matter whether the operating system is Windows or macOS; however, there are some shortcuts that are different for macOS than Windows. These are indicated in parantheses in the tables in the sections that follow.
+
 ##  <a name="Keyboard"></a> General Keyboard Shortcuts
 The following table describes keyboard shortcuts for navigating and accessing different elements of a page, such as actions, drop-down lists, lookups, and more. For details about keyboard shortcuts for navigating records once you get inside a list, see the next section. 
 
@@ -38,10 +40,8 @@ The following table describes keyboard shortcuts for navigating and accessing di
 
 The following table describes the keyboard shortcuts that you can use in a list page. The shortcut action is slightly different depending on whether the page is shown in the list view or tile view.
 
-Most of the shortcuts are the same no matter whether the operating system is Windows or macOS; however, there are some shortcuts that are different for macOS than Windows. These are indicated in parantheses in the table as well.
-
->[!Note]
->In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
+> [!Note]
+> In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
 
 |Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |Remarks|
 |-----------------|-------|-------|-------|
@@ -58,7 +58,7 @@ Most of the shortcuts are the same no matter whether the operating system is Win
 |Ctrl+End<br />(Fn+Ctrl+Right Arrow)|Select the last row in the list; focus moves to first actionable field in row|Move to the first tile in last row in the list||
 |Ctrl+Click<br />(Cmd+Click)|Extend the selection of rows to include the row that you click.|Not applicable||
 |Shift+Click|Extend the selection of rows to include the row that you click and all the rows in between.|Not applicable|You can use this after using Ctrl+Up Arrow or Ctrl+Up Down to expand your selection.|
-|Ctrl+Up Arrow<br />(Ctrl+Cmd+up Arrow )|Move focus to the row above and keep the current row selected .|Not applicable||
+|Ctrl+Up Arrow<br />(Ctrl+Cmd+up Arrow )|Move focus to the row above and keep the current row selected.|Not applicable||
 |Ctrl+Down Arrow<br />(Ctrl+Cmd+Down Arrow )|Move focus to the row below and keep the current row selected.|Not applicable||
 |Ctrl+Space Bar<br />(Ctrl+Cmd+Space )|Extend the selection of rows to included the focused row.|Not applicable|You can use this after using Ctrl+Up Arrow or Ctrl+Up Down to expand your selection.|
 |Ctrl+A|Select all rows.|Not applicable||
@@ -75,8 +75,8 @@ When setting a date field, you can either enter the date manually or open a cale
 |-----------------|-------|
 |Page Up|Move to the previous month.|  
 |Page Down|Move to the next month.|
-|Crtl+Page Up|Move to the previous year.|
-|Crtl+Page Down|Move to the next year.|
+|Crtl+Page Up|Move to the previous year. (Only works in Internet Explorer)|
+|Crtl+Page Down|Move to the next year. (Only works in Internet Explorer)|
 |Ctrl+Home|Open the calendar if closed.|
 |Ctrl+Home<br />(Cmd+Home)|Move to the current month, current day.|
 |Ctrl+Left Arrow<br />(Cmd+Left Arrow)|Move to the previous day.|

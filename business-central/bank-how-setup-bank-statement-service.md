@@ -33,7 +33,7 @@ After you enable the bank feed service, you must link a bank account to the onli
 When the bank feed service is enabled, you can set a bank account up to automatically import new bank statements into the **Payment Reconciliation Journal** window every two hour. Transactions for payments that have already been posted as applied and/or reconciled in the **Payment Reconciliation Journal** window will not be imported. For more information, see the “To enable automatic import of bank statements” section.
 
 > [!NOTE]  
->   If you use the Set Up Company assisted setup, some of the steps in the following procedures happen automatically when you get to the company bank account setup. For more information, see [Getting Started](product-get-started.md).
+> If you use the Set Up Company assisted setup, some of the steps in the following procedures happen automatically when you get to the company bank account setup. For more information, see [Getting Started](product-get-started.md).
 
 ## To enable the bank feed service
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.
@@ -47,14 +47,14 @@ The bank feed service will be enabled when you link a bank account to its relate
 2. Select the relevant bank account, and then choose the **Create New Linked Bank Account**. The **Bank Account Linking** window opens after a few moments.
 
     > [!NOTE]  
-    >   This window shows the actual web page of the Envestnet Yodlee Bank Feeds service. Terminology and functionality in the window may not match instructions provided in this topic.  
+    > This window shows the actual web page of the Envestnet Yodlee Bank Feeds service. Terminology and functionality in the window may not match instructions provided in this topic.  
 3. In the **Online Bank Account Linking** window, in the **Link Account** pane, use the Search function to find the bank where you have one or more online bank accounts.
 4. Choose the bank name. The **Log In** pane opens.
 5. Enter the username and password that you use to log on to the online bank, and then choose the **Next** button.  
 6. The bank feed service prepares to link the first online bank account at the specified bank to a new bank account in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
     > [!NOTE]  
-    >   If you have more than one online bank account at the bank, you must create additional bank accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)] for them. See steps 8 through 10.  
+    > If you have more than one online bank account at the bank, you must create additional bank accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)] for them. See steps 8 through 10.  
 
     After the process completes, the bank name will appear in the **My Accounts** pane on the **Linked** tab. The number in brackets indicates how many online bank accounts were linked.  
 7. Choose the **OK** button.
@@ -88,7 +88,7 @@ In the **Bank Account List** window, the **Linked** check box is selected.
 2. Select the line for a linked bank account that you want to unlink from its related online bank account, and the choose the **Unlink Online Bank Account** action.
 
 > [!NOTE]  
->   If you choose **Yes** on the confirmation dialog, the link to the online bank account is removed, and the log-in details are cleared. To link the bank account to the online bank account again, you must log on to the bank again. For more information, see the “To link a bank account to an online bank account“ section.
+> If you choose **Yes** on the confirmation dialog, the link to the online bank account is removed, and the log-in details are cleared. To link the bank account to the online bank account again, you must log on to the bank again. For more information, see the “To link a bank account to an online bank account“ section.
 
 ## To update bank account linking
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.
@@ -102,13 +102,13 @@ If issues exist for any of the linked bank accounts in the **Bank Account List**
 3. In the **Automatic Bank Statement Import Setup** window, in the **Number of Days Included** field, specify how far back in time to get new bank transactions for.
 
     > [!NOTE]  
-    >   It is recommended that you set this value to 7 days or more.  
+    > It is recommended that you set this value to 7 days or more.  
 4. Select the **Enabled** check box.  
 
 Every hour, the **Payment Reconciliation Journal** window will display new payments that are made on the online bank account.
 
 > [!NOTE]  
->   Transactions for payments that have already been posted as applied and/or reconciled in the **Payment Reconciliation Journal** window will not be imported.
+> Transactions for payments that have already been posted as applied and/or reconciled in the **Payment Reconciliation Journal** window will not be imported.
 
 ## See Also
 [Setting Up Banking](bank-setup-banking.md)  

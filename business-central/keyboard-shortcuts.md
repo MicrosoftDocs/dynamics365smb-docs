@@ -68,7 +68,7 @@ Most of the shortcuts are the same no matter whether the operating system is Win
 |Shift+Page Down<br />(Shift+Fn+Down Arrow)|Extend the selection of rows to include all all visible rows below the current selection of rows.|Not applicable||
 |Ctrl+Enter|Move focus to the next element outside the list.|Move focus to the next element outside the list.||
 
-## Keyboard Shortcuts in the Calendar for Setting Dates (Date Picker)
+## Keyboard Shortcuts in the Calendar (Date Picker)
 When setting a date field, you can either enter the date manually or open a calendar (date picker) that lets you select the date you want. The following table describes the keyboard shortcuts for the calendar.
 
 |Press these keys<br />(in macOS)|To do this|
@@ -85,7 +85,7 @@ When setting a date field, you can either enter the date manually or open a cale
 |Ctrl+Down Arrow<br />(Cmd+Down Arrow)|Move to the next week, same day of the week.|
 |Enter|Select the focused date.|
 |Ctrl+End<br />(Cmd+End)|Close the calendar and delete current the date.|
-|Esc|Close the datepicker without selection, keep current date.|
+|Esc|Close the calendar without a selection, keep current date.|
 
 <!--
 ## Keyboard shortcuts in list (shown as tiles) 

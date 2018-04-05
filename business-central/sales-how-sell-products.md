@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade
-ms.date: 01/12/2018
+ms.date: 04/03/2018
 ms.author: sgroespe
 
 ---
@@ -79,9 +79,10 @@ You can fill customer fields on the sales order in two ways depending on whether
 
    If you have set up recurring sales lines for the customer, such as a monthly replenishment order, then you can insert these lines on the order by choosing the **Get Recurring Sales Lines** action.  
 17. On the **Lines** FastTab, in the **Type** field, select what type of product, charge, or transaction that you will post for the customer with the sales line.
+
 18. In the **No.** field, select a record to post according to the value in the **Type** field.
 
-You leave the **No.** field empty in the following cases:
+    You leave the **No.** field empty in the following cases:
 
     * If the line is for a comment. Write the comment in the **Description** field.
     * If the line is for a nonstock item. Choose the **Select Nonstock Items** action. For more information, see [Work With Nonstock Items](inventory-how-work-nonstock-items.md).

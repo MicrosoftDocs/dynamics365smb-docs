@@ -1,8 +1,6 @@
 ---
 title: Create a Sales Order and Sell Products | Microsoft Docs
 description: Describes how to create a sales order to record your agreement with a customer to sell or trade products under specific terms.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade
-ms.date: 01/12/2018
+ms.date: 04/03/2018
 ms.author: sgroespe
 
 ---
@@ -36,7 +34,7 @@ Items can be both inventory items and services, denoted by the **Item - Inventor
 You can fill customer fields on the sales order in two ways depending on whether the customer is already registered. See steps 2 and 3 in the following procedure.
 
 ## To create a sales order
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link. 
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.
 2. In the **Customer** field, enter the name of an existing customer.
 
     Other fields in the **Sales Order** window are now filled with the standard information of the selected customer. If the customer is not registered, then follow these steps:
@@ -58,7 +56,7 @@ You can fill customer fields on the sales order in two ways depending on whether
 10. In the **Quantity** field, enter the number of items to be sold.
 
     > [!NOTE]  
->   For items of type Service, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.
+    >   For items of type Service, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.
 
     The **Line Amount** field is updated to show the value in the **Unit Price** field multiplied by the value in the **Quantity** field.
 
@@ -73,23 +71,25 @@ You can fill customer fields on the sales order in two ways depending on whether
 14. A new customer card displays the information on the selected customer template. Fill in the remaining fields. For more information, see [Register New Customers](sales-how-register-new-customers.md).  
 15. When you have completed the customer card, choose the **OK** button to return to the **Sales Order** window.
 
-   Several fields on the sales Order are now filled with information that you specified on the new customer card.  
+    Several fields on the sales order are now filled with information that you specified on the new customer card.
 16. Fill in the remaining fields in the **Sales Order** window as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-   You are now ready to fill in the sales order lines for products that you are selling to the customer or for any transaction with the customer that you want to record in a G/L account.   
+    You are now ready to fill in the sales order lines for products that you are selling to the customer or for any transaction with the customer that you want to record in a G/L account.   
 
-   If you have set up recurring sales lines for the customer, such as a monthly replenishment order, then you can insert these lines on the order by choosing the **Get Recurring Sales Lines** action.  
+    If you have set up recurring sales lines for the customer, such as a monthly replenishment order, then you can insert these lines on the order by choosing the **Get Recurring Sales Lines** action.  
 17. On the **Lines** FastTab, in the **Type** field, select what type of product, charge, or transaction that you will post for the customer with the sales line.
+
 18. In the **No.** field, select a record to post according to the value in the **Type** field.
 
     You leave the **No.** field empty in the following cases:
-    -If the line is for a comment. Write the comment in the **Description** field.
-    -If the line is for a nonstock item. Choose the **Select Nonstock Items** action. For more information, see [Work With Nonstock Items](inventory-how-work-nonstock-items.md).
+
+    * If the line is for a comment. Write the comment in the **Description** field.
+    * If the line is for a nonstock item. Choose the **Select Nonstock Items** action. For more information, see [Work With Nonstock Items](inventory-how-work-nonstock-items.md).
 
 19. In the **Quantity** field, enter how many units of the product, charge, or transaction that the line will record for the customer.  
 
     > [!NOTE]  
->   If the item is of type **Item - Service** or **Resource**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line. For more information, see [Set Up Item Units of Measure](inventory-how-setup-units-of-measure.md).
+    >   If the item is of type **Item - Service** or **Resource**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line. For more information, see [Set Up Item Units of Measure](inventory-how-setup-units-of-measure.md).
 
     The value in the **Line Amount** field is calculated as *Unit Price* x *Quantity*.  
 

@@ -47,4 +47,4 @@ It's simple - scroll to the bottom of the browser window and choose the globe sy
 
 ## See Also  
 [Changing Basic Settings](ui-change-basic-settings.md)  
-[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Getting Started](product-get-started.md)  

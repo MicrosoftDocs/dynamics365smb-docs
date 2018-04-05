@@ -1,4 +1,4 @@
----
+﻿---
 title: Using the Accountant Portal | Microsoft Docs
 description: Provides information about the Accountant Portal extension.
 author: edupont04
@@ -32,7 +32,7 @@ For more information, see [Accountant Experiences in Business Central ](finance-
 ## Using the extension
 This extension will be deprecated in a few months. We recommend that you do not install this extension but sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] at [Financials for Accountants on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants) instead.
 
-For more information, see [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index.md).  
+For more information, see [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).  
 
 ## See Also
 [Accountant Experiences in Business Central ](finance-accounting.md)  

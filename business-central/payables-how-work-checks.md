@@ -1,8 +1,6 @@
 ---
 title: Issue, Print, Cancel, and Void Checks| Microsoft Docs
 description: Describes how to issue checks using the payment journal, print checks, and void or view check ledger entries in Business Central.  
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -34,7 +32,7 @@ Your printer must be correctly set up with the check forms, and you must define 
    * **Manual Check**: Select this option if you have created a check manually and want to create a corresponding check ledger entry for this amount. By using this option, you cannot print checks from [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can only select **Manual Check** if the **Bal. Account Type** or the **Account Type** is **Bank Account**.
 
      > [!NOTE]  
->   You must print computer checks before you post the related journal lines.
+     >   You must print computer checks before you post the related journal lines.
 4. In case of computer checks, choose **Print Check**.
 5. In the **Check** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 6. Choose the **Print** button.

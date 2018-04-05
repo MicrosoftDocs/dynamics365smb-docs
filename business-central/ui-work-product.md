@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/02/2018
+ms.date: 04/05/2018
 ms.author: solsen
 
 ---
@@ -29,6 +29,7 @@ The following table lists some of the general functionality with links to topics
 | Learn about how to sort data. |[Sorting Data](ui-sorting.md) |
 | View or process data in specific date ranges. |[Entering Date Ranges](ui-enter-date-ranges.md) |
 | See which fields must be filled in. |[Detecting Mandatory Fields](ui-mandatory-fields.md) |
+| Add notes to records to communicate details to yourself or to colleagues. Notes appear in the **Notes** FactBox and can be edited by anyone.|[Adding and Viewing Notes on Records](ui-work-with-notes.md)|
 | Change which fields and actions are shown in the user interface to fit your company's business processes. |[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md) |
 | Change how you view lists of, for example, customers, vendors, or items. |[Displaying Lists in Different Ways](across-display-lists-different-views.md) |
 | Modify the colored indicator on cues. |[Setting Up a Colored Indicator on Cues](ui-how-setup-colored-indicator-cues.md) |
@@ -41,7 +42,7 @@ The following table lists some of the general functionality with links to topics
 |Watch videos on selected functionality to help you get started.|[Videos on Common Tasks](across-videos.md)|  
 
 ## See Also
-[Getting Started](index.md)  
+[Getting Started](product-get-started.md)  
 [Setting Up Business Central](setup.md)  
 [General Business Functionality](ui-across-business-areas.md)  
 

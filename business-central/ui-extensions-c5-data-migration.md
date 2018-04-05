@@ -128,4 +128,4 @@ You can stop migrating data by choosing **Stop All Migrations**. If you do, all 
 
 ## See Also
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
-[Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
+[Getting Started](product-get-started.md) 

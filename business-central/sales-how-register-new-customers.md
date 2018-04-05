@@ -50,6 +50,7 @@ If you want to use this customer card as a template when you create new customer
 The customer template is added to the list of customer templates, so that you can use it to create new customer cards.
 
 ## See Also
+[Create Number Series](ui-create-number-series.md)  
 [Sales](sales-manage-sales.md)    
 [Setting Up Sales](sales-setup-sales.md)    
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -1,8 +1,6 @@
 ---
 title: Purchase Items for a Sale by Creating Purchase Invoices | Microsoft Docs
 description: From a sales invoice, to purchase products, you can create a purchase invoice for a vendor or supplier.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -35,7 +33,7 @@ To create a purchase order for each unavailable item quantity on the sales order
 4. To purchase another quantity than the unavailable sales quantity, edit the value in the **Quantity to Purchase** field.
 
     > [!NOTE]  
->   You can also change the **Quantity to Purchase** field on grayed lines even though they represent fully available sales quantities.
+    >   You can also change the **Quantity to Purchase** field on grayed lines even though they represent fully available sales quantities.
 5. Choose the **OK** button.
 
     A purchase order is created for each vendor of items on the sales order, including any quantity changes that you made in the **Create Purchase Orders** window.

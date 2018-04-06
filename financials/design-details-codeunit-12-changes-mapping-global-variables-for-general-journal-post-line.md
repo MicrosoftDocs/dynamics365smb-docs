@@ -1,6 +1,6 @@
 ---
     title: Design Details - Codeunit 12 Changes in Mapping Global Variables for General Journal Post Line | Microsoft Docs
-    description: The following changes have been implemented in this release of Finance and Operations, Business edition.
+    description: The following changes have been implemented in this release of Business Central.
     author: SorenGP
 
     ms.service: dynamics365-financials

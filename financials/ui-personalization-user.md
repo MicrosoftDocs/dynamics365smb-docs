@@ -24,6 +24,7 @@ Depending on the type of page and what it includes, you can:
 -   Add, move, and remove fields.
 -   Add, move, and remove columns in a list.
 -   Change the freeze pane of columns in a list. The freeze pane locks one or more columns to the left side of a list so that are always present, even when you scroll horizontally.
+-   Adjust the width of columns in a list.
 -   Move and remove Cues (tiles).
 -   Move and remove parts. Parts are subdivisions or areas on a page that contain things like multiple fields, another page, a chart, or tiles.  
 
@@ -53,6 +54,7 @@ Depending on the type of page and what it includes, you can:
         <tr><td>Remove something</td><td>Select the arrowhead, and choose <b>Remove</b>. </td></tr>
         <tr><td>Add a field or column</td><td>In the <b>Personalizing</b> banner, choose <b>More</b>, and then choose <b>Field</b>.<br /></br>The <b>Add Field to Page</b> pane opens on the right. It lists the fields that you can add to the page. Fields marked as <b>Placed</b> are already on the page. Fields marked as <b>Ready</b> are not currently on the page.<br /></br>To add a field, drag it from the pane to the location that you want it. The location is indicated by either a thick horizontal or vertical line.</td></tr>
         <tr><td>Change the freeze pane in a list to another column</td><td>Select the arrowhead of the column that you want as the last column of the freeze pane, and then choose <b>Set Freeze Pane</b>.<br /><br/>If you want to set the freeze pane back to its original designed location, select the arrowhead for the current freeze pane column, and choose <b>Clear Freeze Pane</b>. Note: You cannot remove this freeze pane.</td></tr>
+        <tr><td>Change the width of a column</td><td>In the table header row, drag the column's right border. <br /><br />To maximize the column width to fit the longest line of text in the column, double-click the right border.</td></tr>
       </table>
 
     > [!IMPORTANT]  

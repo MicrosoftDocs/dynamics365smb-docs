@@ -1,6 +1,6 @@
 ---
-title: Setting date ranges in Finance and Operations, Business edition  | Microsoft Docs
-description: Learn about getting a report to show data from specific time periods using date ranges in Finance and Operations, Business edition .
+title: Setting date ranges in Business Central  | Microsoft Docs
+description: Learn about getting a report to show data from specific time periods using date ranges in Business Central .
 documentationcenter: ''
 author: edupont04
 

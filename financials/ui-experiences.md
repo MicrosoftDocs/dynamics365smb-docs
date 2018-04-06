@@ -1,6 +1,6 @@
 ---
 title: Choosing the User Experience to Show or Hide Advanced Features | Microsoft Docs
-description: Learn what the Basic and Essential user experience tiers mean for the user interface, application areas, and your company in Dynamics 365 Business edition.
+description: Learn what the Basic and Essential user experience tiers mean for the user interface, application areas, and your company.
 documentationcenter: ''
 author: edupont04
 
@@ -9,8 +9,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Essential, Basic, user interface, application area
-ms.date: 01/19/2018
+ms.search.keywords: essential, basic, user interface, application area, experience
+ms.date: 01/24/2018
 ms.author: edupont
 
 ---

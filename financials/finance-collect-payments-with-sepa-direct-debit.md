@@ -1,5 +1,5 @@
 ---
-    title: SEPA Direct Debit in Finance and Operations, Business edition | Microsoft Docs
+    title: SEPA Direct Debit in Business Central | Microsoft Docs
     description: You can collect payments directly from the customer’s bank account according to the SEPA format.
     author: SorenGP
 

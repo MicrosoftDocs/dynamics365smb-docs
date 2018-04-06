@@ -1,6 +1,7 @@
 ---
     title: How to Set Up Standard Sales or Purchase Lines
-    description: In Finance and Operations, Business edition, you can specify how the standard sales or purchase codes will be entered when you are creating the specified sales or purchase documents.
+    description: In Business Central, you can specify how the standard sales or purchase codes will be entered when you are creating the specified sales or purchase documents.
+
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

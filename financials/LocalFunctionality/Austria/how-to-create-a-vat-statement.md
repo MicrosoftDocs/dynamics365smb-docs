@@ -15,11 +15,7 @@
     ms.author: sgroespe
 
 ---
-<<<<<<< HEAD:financials/LocalFunctionality/Austria/how-to-create-a-vat-statement.md
 # Create a VAT Statement
-=======
-# Create a VAT Statement
->>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Austria/how-to-create-a-vat-statement.md
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] allows you to submit a periodic report of VAT transactions. The VAT statement is submitted as a FDF file that corresponds with an editable PDF file from the tax authorities.  
 
 > [!IMPORTANT]  

@@ -1,6 +1,6 @@
 ---
 title: Using the QuickBooks Migration Extension | Microsoft Docs
-description: Describes how to use the extension to import customers, vendors, items, and accounts from QuickBooks Desktop to Finance and Operations, Business edition.
+description: Describes how to use the extension to import customers, vendors, items, and accounts from QuickBooks Desktop to Business Central.
 author: edupont04
 
 ms.service: dynamics365-financials
@@ -13,7 +13,7 @@ ms.date: 03/29/2017
 ms.author: edupont
 
 ---
-# The QuickBooks Data Migration Extension for Finance and Operations, Business edition
+# The QuickBooks Data Migration Extension for Business Central
 This extension makes it easy to migrate customers, vendors, items, and accounts from QuickBooks to [!INCLUDE[d365fin](includes/d365fin_md.md)]. If your business uses QuickBooks today, you can export the relevant information and then open an assisted setup guide to upload the data to [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 For more information, see [Importing Business Data from Other Finance Systems](upload-data.md).
 

@@ -1,6 +1,6 @@
 ---
     title: Design Details - Average Cost | Microsoft Docs
-    description: The average cost of an item is calculated with a periodic weighted average, based on the average cost period that is set up in Finance and Operations, Business edition.
+    description: The average cost of an item is calculated with a periodic weighted average, based on the average cost period that is set up in Business Central.
     author: SorenGP
 
     ms.service: dynamics365-financials

@@ -1,6 +1,6 @@
 ---
 title: Multilanguage and Localization | Microsoft Docs
-description: Learn how language and locale influence your experience in Finance and Operations, Business edition.
+description: Learn how language and locale influence your experience in Business Central.
 author: edupont04
 
 ms.service: dynamics365-financials
@@ -17,9 +17,6 @@ ms.author: edupont
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is supported in a number of markets and available in the languages that those markets require. This is a result of support for multiple languages at runtime in combination with support for legal requirements in the supported markets. This means that [!INCLUDE[d365fin](includes/d365fin_md.md)] can present itself in different languages. You can change the language that is used to display texts, and the change is immediate, once you have been automatically signed out and in again. The setting applies to you and not to everyone else in your company.  
 
 For example, if you are Canadian, you can see the user interface in English and in French, but it is still the Canadian version of [!INCLUDE[d365fin](includes/d365fin_md.md)] in all other aspects. It is not the same as, say, [!INCLUDE[d365fin](includes/d365fin_md.md)] in the United Kingdom.  
-
-> [!NOTE]  
->  Changing the language is currently not supported in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Changing the texts that are stored as application data is not part of the multilanguage capability. This is an application design issue. Examples of such texts are the names of items in the inventory or the comments for a customer. In other words, these types of text are not translated.  
 

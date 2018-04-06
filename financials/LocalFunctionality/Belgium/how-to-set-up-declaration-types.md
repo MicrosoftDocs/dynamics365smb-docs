@@ -1,6 +1,6 @@
 ---
     title: How to Set Up Declaration Types
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], there are two types of declaration.
+    description: In Business Central, there are two types of declaration.
 
     services: project-madeira
     documentationcenter: ''

@@ -1,6 +1,6 @@
 ---
 title: Add your external accountant to your Financials | Microsoft Docs
-description: Learn how you can invite your external accountant to your Finance and Operations, Business edition .
+description: Learn how you can invite your external accountant to your Business Central .
 author: edupont04
 
 ms.service: dynamics365-financials
@@ -39,5 +39,5 @@ One of the license types for [!INCLUDE[d365fin](includes/d365fin_md.md)] is the 
 ## See Also
 [Finance](finance.md)  
 [Set Up Email Manually or Using the Assisted Setup](madeira-how-setup-email.md)  
-[Accountant Experiences in Finance and Operations, Business edition ](finance-accounting.md)  
-[Finance and Operations, Business edition for Accountants on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
+[Accountant Experiences in Business Central ](finance-accounting.md)  
+[Business Central for Accountants on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  

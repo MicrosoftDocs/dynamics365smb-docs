@@ -1,7 +1,6 @@
 ---
     title: Austria Local Functionality
-    description: The following topics describe the local functionality in the Austrian version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
-
+    description: The following topics describe the local functionality in the Austrian version of Business Central.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -21,9 +20,7 @@ The following topics describe local functionality that is unique to the Austrian
 
 ## In This Section  
 
-[Enhanced Document Management](enhanced-document-management.md)  
 [VAT Reporting](vat-reporting.md)  
-[Report VAT to Tax Authorities](../../finance-how-report-vat.md)  
 [Update Currency Exchange Rates](../../finance-how-update-currencies.md)  
 [Print General Ledger Setup Information](how-to-print-general-ledger-setup-information.md)  
 [Copy Existing Items to New Items](how-to-copy-existing-items-to-new-items.md)  

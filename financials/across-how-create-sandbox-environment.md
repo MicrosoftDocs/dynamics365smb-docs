@@ -40,7 +40,7 @@ In the sandbox environment, a brand-new tenant has been created. This tenant is 
 > [!NOTE]  
 >  Resetting the sandbox environment will remove it completely, and then create it again with the default demonstration data.  
 
-8.	To switch between your production and sandbox environments, you can use the Finance and Operations, Business edition app launcher.
+8.	To switch between your production and sandbox environments, you can use the Business Central app launcher.
 ![Sandbox Dynamics365 Menu](./media/across-sandbox/sandbox-dynamics365-menu.png)
 
 9.	It is possible for an administrator or another user to limit or even block access for some users to the sandbox environment. This can be done by using the standard security features of the product, such as the User card, User Groups, and Permission Sets.

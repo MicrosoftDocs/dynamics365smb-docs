@@ -1,6 +1,6 @@
 ---
     title: How to Generate Delivery Reminders
-    description: In ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/how-to-create-delivery-reminders-manually.md).
+    description: In Business Central, you can create delivery reminders when a purchase has not been delivered as expected. You can generate delivery reminders for all overdue deliveries, or you can create a single delivery reminder manually.
 
     services: project-madeira
     documentationcenter: ''

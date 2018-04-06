@@ -1,9 +1,9 @@
 ---
-    title: How to Create Electronic Documents by Using OIOUBL | Microsoft Docs
-    description: When you sell goods or services to a customer in the public sector, you must submit documents electronically.
+    title: Create Electronic Documents in an OIOUBL format | Microsoft Docs
+    description: When you sell goods or services to a customer in the Danish public sector, you must submit documents electronically. This topic describes how to do that.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: bholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article
@@ -11,43 +11,36 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 09/08/2017
-    ms.author: sgroespe
+    ms.date: 01/04/2018
+    ms.author: bholtorf
 
 ---
 # Create Electronic Documents by Using OIOUBL
 When you sell goods or services to a customer in the public sector, you must submit documents electronically. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create electronic documents for invoices, credit memos, reminders, and finance charge memos. Before you can create the electronic documents, you must have set up file locations and information about the customers. For more information, see [Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md).  
 
-## Creating Electronic Documents  
-Electronic documents can only be created after a document has been posted or issued. The following sections describe how to post a sales invoice with the required information and then create an electronic sales invoice, but the same procedure applies to sales credit memos, reminders, finance charge memos, service invoices, and service credit memos.  
+You can create an electronic document after you post the sales or service document. The following sections describe how to post a sales invoice with the required information and then create an electronic sales invoice, but the same procedure applies to sales and service credit memos and reminders.  
 
-### To post a sales invoice  
-
+## To post a sales invoice  
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Invoices**, and then choose the related link.  
 2.  Open the sales invoice that you want to post.  
-3.  On the **General** FastTab, make sure that the **External Document No.** field contains the document number that the customer supplied.  
+3.  Make sure that the **External Document No.** field contains the document number that the customer supplied. OIOUBL electronic documents require this number.
 
-    > [!IMPORTANT]  
-    >  This is required if you want to create an electronic invoice.  
+    > [!Note]  
+    > For service documents, you must fill in the **Your Reference** field.  
 
-    For service documents, you must fill in the **Your Reference** field on the **General** FastTab.  
-
-4.  On the **Invoicing** FastTab, make sure that the following fields have values:  
-
-    -   **EAN No.**  
-    -   **Account Code**  
-    -   **Payment Channel**  
+4.  On the **Invoicing** FastTab, fill in the **GLN** and **OIOUBL Account Code** fields.  
 
     For reminders and finance charge memos, the fields are on the **Posting** FastTab.  
 
 5.  Post the invoice.  
 
-### To create an electronic sales invoice  
+## To create an electronic sales invoice  
+After you post a document, you can create an electronic invoice in an OIOUBL format. The following steps describe the process for posted sales invoices, but the process is the same for other documents.
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Sales Invoices**, and then choose the related link.  
 2.  Open the relevant posted sales invoice.  
-3.  Choose the **Create Electronic Invoice** action.  
-4.  Optionally, in the **Create Electronic Invoices** window, set additional filters, and then choose the **OK** button.  
+3.  Choose the **Create Electronic <*document type*>** action.  
+4.  Optionally, in the **Create Electronic <*document type*>** window, set additional filters, and then choose the **OK** button.  
 
 An XML file is created and stored at the location that was defined in the **Sales & Receivables Setup** window. You can now submit the document to the customer.  
 

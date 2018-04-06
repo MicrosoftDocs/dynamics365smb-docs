@@ -52,12 +52,16 @@ This walkthrough demonstrates the process of planning supply orders to fulfill n
  The standard CRONUS demonstration company currently has lots of unplanned demand. During the different planning tasks in this walkthrough, you will have to deviate from the realistic business flow by ignoring demand with close due dates and instead use demand with later due dates.  
 
 ## Using the Order Planning Window  
- The **Order Planning** window can be accessed from several different locations on the **Departments** menu in the navigation pane:  
+
+<!-- 
+The **Order Planning** window can be accessed from several different locations on the **Departments** menu in the navigation pane:  
 
 -   Manufacturing, Planning  
 -   Sales & Marketing, Order Processing  
 -   Purchase, Planning  
--   In addition, you can open this window for a specific production order by choosing **Planning** on the **Navigate** tab in the **Order** group.  
+-   In addition, you can open this window for a specific production order by choosing **Planning** on the **Navigate** tab in the **Order** group.
+
+-->  
 
 ### To use the Order Planning window  
 

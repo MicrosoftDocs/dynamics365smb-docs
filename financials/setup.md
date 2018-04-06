@@ -1,6 +1,6 @@
 ---
-title: Overview of Tasks to Set Up Finance and Operations, Business edition | Microsoft Docs
-description: Outlines tasks to set up, initialize, and configure Finance and Operations, Business edition to suit your needs.
+title: Overview of Tasks to Set Up Business Central | Microsoft Docs
+description: Outlines tasks to set up, initialize, and configure Business Central to suit your needs.
 author: edupont04
 
 ms.service: dynamics365-financials

@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 08/10/2017
+ms.date: 12/20/2017
 ms.author: edupont
 
 ---

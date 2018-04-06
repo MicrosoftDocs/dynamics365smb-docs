@@ -46,11 +46,5 @@ You can import the response into [!INCLUDE[d365fin](../../includes/d365fin_md.md
 
 ## See Also  
  [Electronic VAT and ICP Declarations](electronic-vat-and-icp-declarations.md)   
-<<<<<<< HEAD:financials/LocalFunctionality/Netherlands/how-to-process-response-messages-from-tax-authorities.md
  [Set Up VAT Categories](how-to-set-up-vat-categories.md)   
- [Create Electronic VAT and ICP Declarations](how-to-create-electronic-vat-and-icp-declarations.md)   
-=======
- [Set Up VAT Categories](how-to-set-up-vat-categories.md)   
- [Create Electronic VAT and ICP Declarations](how-to-create-electronic-vat-and-icp-declarations.md)   
- 
->>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Netherlands/how-to-process-response-messages-from-tax-authorities.md
+ [Create Electronic VAT and ICP Declarations](how-to-create-electronic-vat-and-icp-declarations.md)

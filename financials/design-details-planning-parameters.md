@@ -1,6 +1,6 @@
 ---
     title: Design Details - Planning Parameters | Microsoft Docs
-    description: This topic describes the different planning parameters that you can use in Finance and Operations, Business edition.
+    description: This topic describes the different planning parameters that you can use in Business Central.
     author: SorenGP
 
     ms.service: dynamics365-financials

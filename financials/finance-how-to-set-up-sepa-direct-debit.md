@@ -1,6 +1,6 @@
 ---
 title: Set up SEPA Direct Debit | Microsoft Docs
-description: Learn how to set up SEPA Direct Debit in Finance and Operations, Business edition .
+description: Learn how to set up SEPA Direct Debit in Business Central .
 author: SorenGP
 
 ms.service: dynamics365-financials

@@ -1,7 +1,7 @@
 ---
     title: ELSTER Transmission Overview
-    description: When a user submits a sales VAT advance notification from Dynamics 365 to the Elektronische Steuererklärungen (ELSTER) online portal, the Microsoft.Dynamics.ElsterTransferHandler assembly processes the document and then transmits it to ELSTER.
-    services: project-madeira
+    description: When a user submits a sales VAT advance notification from Business Central to the Elektronische Steuererklärungen (ELSTER) online portal, the Microsoft.Dynamics.ElsterTransferHandler assembly processes the document and then transmits it to ELSTER.
+
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

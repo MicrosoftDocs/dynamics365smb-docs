@@ -69,12 +69,6 @@ To show that you have finished the physical inventory recording, you have to set
 
 ## See Also  
  [Physical Inventory Recording - Counting Physical Inventory](physical-inventory-recording-counting-physical-inventory.md)   
-<<<<<<< HEAD:financials/LocalFunctionality/Germany/how-to-create-a-physical-inventory-recording.md
  [Enter Physical Inventory Orders](how-to-enter-physical-inventory-orders.md)   
  [Calculate Quantity On Hand for a Physical Inventory Order](how-to-calculate-quantity-on-hand-for-a-physical-inventory-order.md)   
  [Finish a Physical Inventory Recording](how-to-finish-a-physical-inventory-recording.md)
-=======
- [Enter Physical Inventory Orders](how-to-enter-physical-inventory-orders.md)   
- [Calculate Quantity On Hand for a Physical Inventory Order](how-to-calculate-quantity-on-hand-for-a-physical-inventory-order.md)   
- [Finish a Physical Inventory Recording](how-to-finish-a-physical-inventory-recording.md) 
->>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Germany/how-to-create-a-physical-inventory-recording.md

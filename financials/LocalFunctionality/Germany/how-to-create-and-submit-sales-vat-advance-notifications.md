@@ -1,6 +1,6 @@
 ---
     title: How to Create and Submit Sales VAT Advance Notifications
-    description: In Finance and Operations, Business edition, you can submit the sales VAT advance notification file electronically to the ELSTER portal. You can transmit the sales VAT advance notification file to the tax authorities after you have verified the calculated tax amount and the base amount.
+    description: In Business Central, you can submit the sales VAT advance notification file electronically to the ELSTER portal. You can transmit the sales VAT advance notification file to the tax authorities after you have verified the calculated tax amount and the base amount.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -15,8 +15,6 @@
     ms.author: sgroespe
 
 ---
-# Create and Submit Sales VAT Advance Notifications
-
 # Create and Submit Sales VAT Advance Notifications
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can submit the sales VAT advance notification file electronically to the ELSTER portal. You can transmit the sales VAT advance notification file to the tax authorities after you have verified the calculated tax amount and the base amount.  
 

@@ -1,6 +1,6 @@
 ---
 title: Manage users and roles | Microsoft Docs
-description: Learn how to manage users and Role Centers in Finance and Operations, Business edition.
+description: Learn how to manage users and Role Centers in Business Central.
 author: edupont04
 
 ms.service: dynamics365-financials

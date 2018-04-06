@@ -1,6 +1,6 @@
 ---
-    title: Electronic documents in Finance and Operations, Business edition   | Microsoft Docs
-    description: Introduction to sending and receiving electronic documents in Finance and Operations, Business edition.
+    title: Electronic documents in Business Central   | Microsoft Docs
+    description: Introduction to sending and receiving electronic documents in Business Central.
     author: SorenGP
 
     ms.service: dynamics365-financials

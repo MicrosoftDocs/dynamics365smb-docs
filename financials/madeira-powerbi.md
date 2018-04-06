@@ -1,6 +1,6 @@
 ---
-title: Finance and Operations, Business edition and Power BI Content Packs| Microsoft Docs
-description: Getting insight, business intelligence, and KPIs from your Finance and Operations, Business edition data is easy with Power BI and the Finance and Operations, Business edition content packs.
+title: Business Central and Power BI Content Packs| Microsoft Docs
+description: Getting insight, business intelligence, and KPIs from your Business Central data is easy with Power BI and the Business Central content packs.
 author: edupont04
 
 ms.service: dynamics365-financials
@@ -20,9 +20,9 @@ Microsoft has published the following content packs:
 
 | App | Description |
 | --- | --- |
-| Microsoft Finance and Operations, Business edition | Provides a dashboard with key financial data over time, such as earnings versus expenses, operating margin, and cash cycle.|
-| Microsoft Finance and Operations, Business edition - CRM | Provides a dashboard with key data about sales opportunities and contacts.  |
-| Microsoft Finance and Operations, Business edition - Sales | Provides a dashboard with key data about sales and inventory. |
+| Microsoft Business Central | Provides a dashboard with key financial data over time, such as earnings versus expenses, operating margin, and cash cycle.|
+| Microsoft Business Central - CRM | Provides a dashboard with key data about sales opportunities and contacts.  |
+| Microsoft Business Central - Sales | Provides a dashboard with key data about sales and inventory. |
 
 ## Using the Dashboards
 Each content pack provides reports that you can drill into:
@@ -40,7 +40,7 @@ The content packs are preconfigured to work with data from the demonstration com
 ## Accessing [!INCLUDE[d365fin](includes/d365fin_md.md)] in Power BI
 To see your [!INCLUDE[d365fin](includes/d365fin_md.md)] data in Power BI, you must have the following:  
 
-* Access to [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Finance and Operations, Business edition](http://go.microsoft.com/fwlink/?LinkID=759714).  
+* Access to [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Business Central](http://go.microsoft.com/fwlink/?LinkID=759714).  
 * Access to Power BI. For more information, see [Power BI](https://powerbi.microsoft.com).
 
 On the Power BI site, you can find additional information about [connecting to services with content packs for Power BI](http://go.microsoft.com/fwlink/?LinkID=760850).  

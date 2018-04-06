@@ -1,6 +1,7 @@
 ---
     title: Electronic Submission of Sales VAT Advance Notifications to ELSTER
-    description: In Finance and Operations, Business edition, you can electronically submit tax documents and VAT statements, such as the sales VAT advance notification, to the tax authorities.
+    description: In Business Central, you can electronically submit tax documents and VAT statements, such as the sales VAT advance notification, to the tax authorities.
+
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

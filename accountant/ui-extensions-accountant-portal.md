@@ -13,7 +13,7 @@ ms.date: 10/23/2017
 ms.author: edupont
 
 ---
-# Accountant Portal for Dynamics 365 for Finance and Operations, Business edition
+# Accountant Portal for Dynamics 365 Business Central
 This application provides a portal with summary data for each client of an accountant. The portal displays financial KPIs as well as a direct link to the client’s financial application.  
 
 The portal includes a highly specialized Role Center that serves as a dashboard for a better overview of your clients.  

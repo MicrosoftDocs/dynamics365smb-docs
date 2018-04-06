@@ -30,12 +30,13 @@ If you are used to working with contacts in [!INCLUDE[d365fin](includes/d365fin_
 
 In the **Contacts** list, you can synchronize contacts in two ways:
 
-> - **Sync with Office 365**  
+* **Sync with Office 365**
 
-    This action synchronizes all changes from [!INCLUDE[d365fin](includes/d365fin_md.md)] to Office 365 since the previous synchronization, based on the last modified date. Any new contacts from Office 365 will be synchronized back to [!INCLUDE[d365fin](includes/d365fin_md.md)] as well. This is typically faster than doing a full sync.  
-> - **Full Sync with Office 365**
+  This action synchronizes all changes from [!INCLUDE[d365fin](includes/d365fin_md.md)] to Office 365 since the previous synchronization, based on the last modified date. Any new contacts from Office 365 will be synchronized back to [!INCLUDE[d365fin](includes/d365fin_md.md)] as well. This is typically faster than doing a full sync.  
+  
+* **Full Sync with Office 365**
 
-    This action synchronizes all contacts in both directions regardless of the last sync date and last modified date.  
+  This action synchronizes all contacts in both directions regardless of the last sync date and last modified date.  
 
 In both cases, contacts are only synchronized from Outlook if they have the required fields filled in. The required fields to synchronize to Office 365 are **Name**, **Email address** and they must be of type Person. [!INCLUDE[d365fin](includes/d365fin_md.md)] is the master of the contact information, so the [!INCLUDE[d365fin](includes/d365fin_md.md)] contact information will be saved in the event of duplicates.  
 

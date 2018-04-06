@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 07/12/2017
+ms.date: 04/06/2018
 ms.author: jswymer
 ---
 
@@ -18,11 +18,11 @@ This article provides an overview of some of the shortcut key combinations that 
 ## Overview
 The keyboard shortcuts aide accessibility and can make it easier and more efficient to navigate to different areas and elements on a page.
 
-The keyboard shortcuts are supported by most web browsers; however the behavior may vary slightly.
+The keyboard shortcuts are supported by most web browsers; however, the behavior may vary slightly.
 
 The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.
 
- Most of the shortcuts are the same no matter whether the operating system is Windows or macOS; however, there are some shortcuts that are different for macOS than Windows. These are indicated in parantheses in the tables in the sections that follow.
+Most of the shortcuts are the same no matter whether the operating system is Windows or macOS; however, there are some shortcuts are different for macOS. These are indicated in parantheses in the tables in the sections that follow.
 
 ##  <a name="Keyboard"></a> General Keyboard Shortcuts
 The following table describes keyboard shortcuts for navigating and accessing different elements of a page, such as actions, drop-down lists, lookups, and more. For details about keyboard shortcuts for navigating records once you get inside a list, see the next section. 
@@ -34,6 +34,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Enter|Enable or access the element or control that is in focus.|   
 |Alt+Down Arrow|Open a drop-down list or look up a value for a field.|    
 |Alt+Right Arrow|See the transactions that resulted in a calculated value in a field.|  
+|Esc|Close the current page or drop-down.|
 
 
 ## Keyboard Shortcuts in Lists
@@ -60,7 +61,7 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Shift+Click|Extend the selection of rows to include the row that you click and all the rows in between.|Not applicable|You can use this after using Ctrl+Up Arrow or Ctrl+Up Down to expand your selection.|
 |Ctrl+Up Arrow<br />(Ctrl+Cmd+up Arrow )|Move focus to the row above and keep the current row selected.|Not applicable||
 |Ctrl+Down Arrow<br />(Ctrl+Cmd+Down Arrow )|Move focus to the row below and keep the current row selected.|Not applicable||
-|Ctrl+Space Bar<br />(Ctrl+Cmd+Space )|Extend the selection of rows to included the focused row.|Not applicable|You can use this after using Ctrl+Up Arrow or Ctrl+Up Down to expand your selection.|
+|Ctrl+Space Bar<br />(Ctrl+Cmd+Space )|Extend the selection of rows to include the focused row.|Not applicable|You can use this after using Ctrl+Up Arrow or Ctrl+Up Down to expand your selection.|
 |Ctrl+A|Select all rows.|Not applicable||
 |Shift+Up Arrow|Extend the selection of rows to include the row above.|Not applicable||
 |Shift+Down Arrow|Extend the selection of rows to include the row below.|Not applicable||
@@ -75,8 +76,6 @@ When setting a date field, you can either enter the date manually or open a cale
 |-----------------|-------|
 |Page Up|Move to the previous month.|  
 |Page Down|Move to the next month.|
-|Crtl+Page Up|Move to the previous year. (Only works in Internet Explorer)|
-|Crtl+Page Down|Move to the next year. (Only works in Internet Explorer)|
 |Ctrl+Home|Open the calendar if closed.|
 |Ctrl+Home<br />(Cmd+Home)|Move to the current month, current day.|
 |Ctrl+Left Arrow<br />(Cmd+Left Arrow)|Move to the previous day.|

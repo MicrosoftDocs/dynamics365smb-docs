@@ -91,7 +91,6 @@ Scenarios with alternative A or B represent the following:
 - **A** In this case, the payment discount tolerance warning has been turned off OR the user has the warning on and has selected to allow the late payment discount (Post the Balance as Payment Tolerance).  
 - **B** In this case, the user has the warning on and has selected not to allow the late payment discount (Leave the Balance as Remaining Amount).  
 
-[!div class="mx-tdBreakAll"]  
 |—|Inv.|Pmt. Disc.|Max Pmt. Tol.|Pmt. Disc. Date|Pmt. Disc. Tol. Date|Payment Date|Pmt.|Tolerance Type|All Entries closed|Pmt. Disc. Tol. GL/CL|Pmt. Tol. G/L|  
 |-------|----------|----------------|-----------------------|---------------------|--------------------------|------------------|----------|--------------------|------------------------|------------------------------|----------------------------|  
 |1|1,000|20|5|01/15/03|01/20/03|<=01/15/03|985|Pmt.Tol.|Yes|0|-5|  
@@ -162,8 +161,6 @@ Scenarios with alternative A, B, C, or D represent the following:
 - **B** In this case, the user has the warning on and has selected not to allow the late payment discount on any invoice.  
 - **C** - In this case, the user has the warning on and has selected to allow the late payment discount on the first invoice but not the second.  
 - **D** - In this case, the user has the warning on and has selected not to allow the late payment discount on the first invoice but allowed it on the second.  
-
-[!div class="mx-tdBreakAll"]  
 
 |—|Inv.|Pmt Disc.|Max Pmt. Tol.|Pmt. Disc. Date|Pmt. Disc. Tol. Date|Payment Date|Pmt|Tolerance Type|All Entries closed|Pmt. Disc. Tol. GL/CL|Pmt. Tol. G/L|  
 |-------|----------|---------------|-------------------|---------------------|--------------------------|------------------|---------|--------------------|------------------------|------------------------------|------------------------|  

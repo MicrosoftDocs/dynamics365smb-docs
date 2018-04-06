@@ -82,6 +82,13 @@ If you migrate accounts, the following data is also migrated:
 > [!Note]
 > If there are open transactions that use foreign currencies, the exchange rates for those currencies are also migrated. Other exchange rates are not migrated.
 
+**Chart of Accounts**  
+* Standard dimensions: Department, Cost Center, Purpose  
+* Historical G/L transactions  
+
+> [!Note]
+> Historical G/L transactions are treated a little differently. When you migrate data you set a **Current Period** parameter. This parameter specifies how to process G/L transactions. Transactions after this date are migrated individually. Transactions before this date are aggregated per account and migrated as a single amount. For example, let's say there are transactions in 2015, 2016, 2017, 2018, and you specify January 01, 2017 in the Current Period field. For each account, amounts for transactions on or before December 31, 2106, will be aggregated in a single general journal line for each G/L account. All trascations after this date will be migrated individually.
+
 ## To migrate data
 There are just a few steps to export data from C5, and import it in [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
@@ -97,6 +104,13 @@ Use the **Data Migration Overview** page to monitor the success of the migration
 
 > [!Note]
 > While you are waiting for the results of the migration, you must refresh the page to display the results.
+
+## How to Avoid Double-Posting
+To help avoid double-posting to the general ledger, the following balance accounts are used for open transactions:  
+  
+* For vendors, we use the A/P account from the vendor posting group.  
+* For customers, we use the A/R account from the customer posting group.  
+* For items, we create a general posting setup where the adjustment account is the account specified as the inventory account on the inventory posting setup.  
 
 ## Correcting Errors
 If something goes wrong and an error occurs, the **Status** field will show **Completed with Errors**, and the **Error Count** field will show how many. To view a list of the errors, you can open the **Data Migration Errors** page by choosing:  
@@ -115,13 +129,12 @@ On the **Data Migration Errors** page, to fix an error you can choose an error m
 ## Verifying Data After Migrating
 One way to verify that your data migrated correctly is to look at the following pages in C5 and [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-|Microsoft Dynamcis C5 2012 | [!INCLUDE[d365fin](includes/d365fin_md.md)]|
-|-----|-----|
-|Customer Entries| General Journals|
-|Vendor Entries| General Journals|
-|Item Entries| Item Journals|
-
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], the batch for the migrated data is named **C5MIGRATE**.
+|Microsoft Dynamcis C5 2012 | [!INCLUDE[d365fin](includes/d365fin_md.md)]| Batch Job to Use |
+|-----|-----|-----|
+|Customer Entries| General Journals| CUSTMIGR |
+|Vendor Entries| General Journals| VENDMIGR|
+|Item Entries| Item Journals| ITEMMIGR |
+|G/L Entries| General Journals| GLACMIGR |
 
 ## Stopping Data Migration
 You can stop migrating data by choosing **Stop All Migrations**. If you do, all pending migrations are also stopped.

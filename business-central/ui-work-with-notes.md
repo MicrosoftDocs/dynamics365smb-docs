@@ -13,8 +13,8 @@
     ms.author: jswymer
 
 ---
-# Adding and Viewing Notes on Records
- You <!--OnPrem and your colleagues -->can add notes to records in the application. Many windows, particularly those that display a list of records, such as the **Sales Orders** window, or details about a specific record include the **Notes** action or **Notes** FactBox. **Notes** is where you can write notes about a record to yourself<!--OnPrem or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->
+# Add and View Notes on Records
+ You <!--OnPrem and your colleagues -->can add notes to records in the application. Many windows, particularly those that display a list of records, such as the **Sales Orders** window, include the **Notes** action or the **Notes** FactBox. <!--OnPremNotes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->
 
 <!--OnPrem
 > [!NOTE]  
@@ -22,14 +22,14 @@
 
 ## To work with notes on a record
 
-1.  Open a list of records, such as the **Sales Orders** page, or a card, such as the **Sales Order** window.  
+1.  Open a list of records, such as the **Sales Orders** window, or a card, such as the **Sales Order** window.  
 
     <!-- If **Notes** is not visible on the page, then you can customize the page to display the Notes FactBox. -->
 
 2.  Choose the **Notes** action to open the **Notes** window. This window displays any current notes on the record. From here, you can do the following:
 
-    -   To view or edit the note, choose **...** and then **Edit**. You can also do this from the **Notes** FactBox if it available on the page.
-    -   To add or note, choose **+new**, and the ype your message in the **Note** box. You can enter a maximum of 30 lines of text in the note.
+    -   To view or edit the note, choose **...** and then **Edit**. You can also do this from the **Notes** FactBox if it is available on the page.
+    -   To add a note, choose the **+new** action, and then type your message in the **Note** box. You can enter a maximum of 30 lines of text in the note.
 
 <!-- 5.  In the **To** field, enter a user ID (your own or someone else’s) to indicate who the note is for.  
 
@@ -37,7 +37,7 @@
 
      If **Notify** is selected, the note will be sent as a notification to the user's **My Notifications** on the Role Center.  -->
 
-3.  Choose **OK**.  
+3.  Choose the **OK** button.  
 
 ## See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

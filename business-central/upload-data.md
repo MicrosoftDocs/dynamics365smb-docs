@@ -23,14 +23,6 @@ From the Role Center, you can start an assisted setup guide that helps you trans
 > [!NOTE]  
 > For larger implementation work, you can use RapidStart Services for [!INCLUDE[d365fin](includes/d365fin_md.md)], which is an extensive toolkit for setting up new solutions based on customers' business requirements and setup data. RapidStart Services also offers functionality for import of business data. For more information, see [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md).  
 
-## Importing Data from QuickBooks Desktop, QuickBooks Online, or Dynamics GP
-If your business uses QuickBooks or Dynamics GP today, you can export the relevant information to a file. You can then open the assisted setup guide to transfer the data.
-For example, if your file includes customers and vendors, you can choose to transfer only the customer data. You can then transfer the rest of the information later.  
-
-The assisted setup includes an option to change the default configuration of the transfer, but we recommend that you only enter this advanced setup if you are familiar with database tables. In the vast majority of businesses, the default mapping from QuickBooks or Dynamics GP to [!INCLUDE[d365fin](includes/d365fin_md.md)] will transfer the information that you want.  
-
-For more information, see [QuickBooks Desktop Data Migration](ui-extensions-quickbooks-data-migration.md), [QuickBooks Online Data Migration](ui-extensions-quickbooks-online-data-migration.md), or [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md).  
-
 ## Importing Data from Configuration Packages
 [!INCLUDE[d365fin](includes/d365fin_md.md)] includes a configuration package that you can export to Excel and set up your data there. Then, you can import the data from Excel again. The package consists of 27 tables, including master data such as customers, vendors, items, and accounts, other basic setup tables such as shipping methods, and transactions tables such as sales header and lines.  
 
@@ -44,6 +36,7 @@ For more information, see [QuickBooks Desktop Data Migration](ui-extensions-quic
 [QuickBooks Desktop Data Migration](ui-extensions-quickbooks-data-migration.md)  
 [QuickBooks Online Data Migration](ui-extensions-quickbooks-online-data-migration.md)  
 [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)  
+[Using the Dynamics C5 Data Migration Extension](ui-extensions-c5-data-migration.md)  
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)   
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)
 

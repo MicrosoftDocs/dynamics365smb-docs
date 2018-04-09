@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/07/2017
+ms.date: 04/09/2018
 ms.author: sgroespe
 
 ---
@@ -23,7 +23,7 @@ The Microsoft Pay extension provides the following benefits:
 - Customer payments appear faster on your bank account.
 - Customers have more ways to pay invoices.
 - Microsoft Pay offers a trustworthy payment service, which customers prefer to entering credit card information on unknown web sites.
-- Microsoft Pay offers multiple ways of handling payments, including credit card processing, WePay, PayPal, and other sources.
+- Microsoft Pay offers multiple ways of handling payments, including credit card processing, such as PayPal and other sources.
 - The Microsoft Pay link can be embedded automatically on every invoice document or by the user.
 - Because this functionality is built as an extension, it gives you full control to enable it when and if your business processes require it.
 

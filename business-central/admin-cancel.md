@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 04/09/2018
+ms.date: 04/11/2018
 ms.author: edupont
 
 ---
@@ -31,7 +31,7 @@ If you signed up for the free trial and do not want to continue with [!INCLUDE[d
 To close your account, currently you must contact the [!INCLUDE[d365fin](includes/d365fin_md.md)] Cancelation team by sending an email message at cancel-madeira@microsoft.com. You must include the name of your [!INCLUDE[d365fin](includes/d365fin_md.md)] tenant in the message so that we can identify you. The easiest way to do that is to copy the URL from your [!INCLUDE[d365fin](includes/d365fin_md.md)] home page.  
 
 ## Unsubscribing from [!INCLUDE[d365fin](includes/d365fin_md.md)] without Office 365
-If you signed up for [!INCLUDE[d365fin](includes/d365fin_md.md)] using a non-Office 365 business account, you do not have an Office 365 administrator. Instead, you must unsubscribe by contacting the [!INCLUDE[d365fin](includes/d365fin_md.md)] Cancelation team. Currently, you must contact the team by sending an email message at cancel-madeira@microsoft.com. You must include the name of your [!INCLUDE[d365fin](includes/d365fin_md.md)] tenant in the message so that we can identify you. The easiest way to do that is to copy the URL from your [!INCLUDE[d365fin](includes/d365fin_md.md)] home page.  
+If you signed up for [!INCLUDE[d365fin](includes/d365fin_md.md)] using a non-Office 365 business account, you do not have an Office 365 administrator. Instead, you must unsubscribe by contacting the [!INCLUDE[d365fin](includes/d365fin_md.md)] Cancelation team by sending an email message at cancel-madeira@microsoft.com. You must include the name of your [!INCLUDE[d365fin](includes/d365fin_md.md)] tenant in the message so that we can identify you. The easiest way to do that is to copy the URL from your [!INCLUDE[d365fin](includes/d365fin_md.md)] home page.  
 
 ## Resetting your [!INCLUDE[d365fin](includes/d365fin_md.md)] experience
 If you have added data to your [!INCLUDE[d365fin](includes/d365fin_md.md)] free trial, and you want to start over with a fresh experience, you can create a new company and then reset the first company. If you open the **Companies** page, you can create a copy of your current company, sign out and then sign into your new company, and then reset the original company.  

@@ -9,6 +9,7 @@
 ## [Importing Business Data from Other Finance Systems](upload-data.md)
 ## [Changing from a QuickBooks App to Microsoft Business Central](across-quickbooks-to-business-edition.md)
 ## [Getting Business Central on Your Mobile Device](install-mobile-app.md)
+## [Synchronize with Contacts in Microsoft Outlook](admin-synchronize-outlook-contacts.md)
 ## [Using Business Central as Your Business Inbox in Outlook](admin-outlook.md)
 ## [Using Business Central Without Outlook](admin-no-outlook.md)
 ## [Enabling Your Business Data for Power BI](admin-powerbi.md)

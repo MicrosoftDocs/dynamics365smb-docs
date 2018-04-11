@@ -1,6 +1,6 @@
 ---
 title: Using the C5 Data Migration Extension | Microsoft Docs
-description: Use this extension to migrate customers, vendors, items, and general ledger accounts from Microsoft Dynamics C5 2012 to Financials.
+description: Use this extension to migrate customers, vendors, items, and general ledger accounts from Microsoft Dynamics C5 2012 to Business Central.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 11/21/2017
+ms.date: 04/09/208
 ms.author: bholtorf
 
 ---
@@ -22,7 +22,7 @@ This extension makes it easy to migrate customers, vendors, items, and your gene
 > [!Note]
 > The company in [!INCLUDE[d365fin](includes/d365fin_md.md)] must not contain any data. Additionally, after you start a migration, do not create customers, vendors, items, or accounts until the migration finishes.
 
-##What Data is Migrated?
+## What Data is Migrated?
 The following data is migrated for each entity:
 
 **Customers**

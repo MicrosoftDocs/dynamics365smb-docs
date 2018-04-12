@@ -34,9 +34,9 @@ Bring your [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] services to Mic
 **Individual Apps** – where you bring your industry expertise to market.  
 **Packaged Consulting Services** – where you bring ready-made packaged engagements to market.
 
-The new development tools enable to you to build extensions v2.0. If you want to familiarize yourself with the new tools or learn more about extensions 2.0, have a look at [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
+The new development tools enable to you to build extensions for [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] users. If you want to familiarize yourself with the new tools or learn about extensions 2.0, have a look at [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
 
-Find more information on apps and consulting services that are currently available, take a look at [Microsoft AppSource]( (https://appsource.microsoft.com/en-us/marketplace/consulting-services?country=US&page=1)).
+Find information on apps and consulting services that are currently available on [Microsoft AppSource](https://appsource.microsoft.com/en-us/marketplace/consulting-services?country=US&page=1).
 
 To help business users get started quickly, Microsoft has added a catalog of consulting services offerings for solutions based on [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], Power BI, and PowerApps to AppSource. Learn more about the [Consulting Services](/dynamics-nav/developer/readiness/readiness-consulting).
 
@@ -72,12 +72,6 @@ The Ready to Go program is designed to support you in bringing your Microsoft [!
 - [Microsoft Collaborate platform](http://aka.ms/Collaborate)
 
 Learn more on how you can build a [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] offering in the [Ready to Go program](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go) details. If you have questions or feedback about the **Ready to Go** program offering, you can [contact us](mailto:dyn365bep@microsoft.com). 
-
-
-
-
-
-
 
 ## See Also
 [Getting Started](product-get-started.md)  

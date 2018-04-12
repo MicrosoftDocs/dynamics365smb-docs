@@ -16,7 +16,7 @@ ms.author: sgroespe
 
 ---
 # Setting Up Project Management
-Before you can use [!INCLUDE[d365fin](includes/d365fin_md.md)] to manage projects, you must set up resources, time sheets, and jobs.
+Before you can use [!INCLUDE [d365fin](includes/d365fin_md.md)] to manage projects, you must set up resources, time sheets, and jobs.
 
 Then you can create jobs and schedule resources for projects as well as manage budgets and track machine and employee hours with time sheets. For more information, see [Managing Projects](projects-manage-projects.md).  
 

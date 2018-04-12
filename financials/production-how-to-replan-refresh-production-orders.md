@@ -30,7 +30,7 @@ The Refresh function calculates changes made to a production order header and do
 You can either insert the production order lines manually or use the function that calculates the production order lines from the header.  
 
 > [!NOTE]
- If you use the Refresh function to recalculate production order lines, the old production order lines are deleted and new lines are calculated.  
+>  If you use the Refresh function to recalculate production order lines, the old production order lines are deleted and new lines are calculated.  
 
 ## To replan a production order  
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Firm Planned Prod. Orders**, and then choose the related link.  
@@ -63,19 +63,21 @@ You can either insert the production order lines manually or use the function th
 ## To refresh a production order  
 If you have amended production order lines, components, or routing lines, you must also refresh the information on the production order. In the following procedure, the components are calculated for a firm planned production order. The steps are similar for routing lines.
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Firm Planned Prod. Order**, and then choose the related link.  
-2.  Choose the **New** action. For more information, see [Create Production orders](production-how-to-create-production-orders.md).  
-3.  Choose the **Refresh** action.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Firm Planned Prod. Order**, and then choose the related link.  
+2. Choose the **New** action. For more information, see [Create Production orders](production-how-to-create-production-orders.md).  
+3. Choose the **Refresh** action.
 4. In the **Refresh Production Order** window, select one of the following options:
 
-    |Option|Description|  
-    |----------------------------------|---------------|---------------------------------------|  
-    |**Scheduling Direction**|**Forward**|Scheduling starts from the starting date and proceeds forward to the finishing date. You must fill in the starting date to use this option.|  
-    ||**Backward**|Scheduling starts from the ending date and proceeds backward to the starting date.|  
-    |**Calculate**|**Lines**|Select this field to calculate the production order lines.|  
-    ||**Routings**|This field has no influence on calculating the production lines.|  
-    ||**Component Need**|This field has no influence on calculating the production lines.|  
-    |**Warehouse**|**Create Inbound Request**|This field has no influence on calculating the production lines.|  
+
+   |          Option          |        Description         |
+   |--------------------------|----------------------------|
+   | **Scheduling Direction** |        **Forward**         |
+   |                          |        **Backward**        |
+   |      **Calculate**       |         **Lines**          |
+   |                          |        **Routings**        |
+   |                          |     **Component Need**     |
+   |      **Warehouse**       | **Create Inbound Request** |
+
 
 5. Choose the **OK** button to confirm your selection. Now the production order lines are calculated.
 

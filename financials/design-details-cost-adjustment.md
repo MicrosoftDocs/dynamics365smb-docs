@@ -33,7 +33,7 @@ Inventory costs must be adjusted before the related value entries can be reconci
 ## Detecting the Adjustment  
 The task of detecting if cost adjustment should occur is primarily performed by the Item Jnl.-Post Line routine, while the task of calculating and generating cost adjustment entries is performed by the **Adjust Cost – Item Entries** batch job.  
 
-To be able to forward costs, the detection mechanism determines which sources have changed in costs and to which destination these costs should be forwarded. The following three detection functions exist in [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
+To be able to forward costs, the detection mechanism determines which sources have changed in costs and to which destination these costs should be forwarded. The following three detection functions exist in [!INCLUDE [d365fin](includes/d365fin_md.md)]:  
 
 * Item Application Entry  
 * Average Cost Adjustment Entry Point  
@@ -73,7 +73,7 @@ It is good practice to run the cost adjustment automatically when you post becau
 
 Because it is important to keep the unit cost of an item up to date, it is recommend that you run the **Adjust Cost - Item Entries** batch job as often as possible, during nonworking hours. Alternatively, use automatic cost adjustment. This ensures that the unit cost is updated for items daily.  
 
-Regardless if you run the cost adjustment manually or automatically, the adjustment process and its consequences are the same. [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates the value of the inbound transaction and forwards that cost to any outbound transactions, such as sales or consumptions, which have been applied to the inbound transaction. The cost adjustment creates value entries that contain adjustment amounts and amounts that compensate for rounding.  
+Regardless if you run the cost adjustment manually or automatically, the adjustment process and its consequences are the same. [!INCLUDE [d365fin](includes/d365fin_md.md)] calculates the value of the inbound transaction and forwards that cost to any outbound transactions, such as sales or consumptions, which have been applied to the inbound transaction. The cost adjustment creates value entries that contain adjustment amounts and amounts that compensate for rounding.  
 
 The new adjustment and rounding value entries have the posting date of the related invoice. Exceptions are if the value entries fall in a closed accounting period or inventory period or if the posting date is earlier than the date in the **Allow Posting From** field in the **General Ledger Setup** window. If this occurs, the batch job assigns the posting date as the first date of the next open period.  
 
@@ -178,9 +178,9 @@ If you have set up the automatic cost adjustment to apply to postings that occur
 [Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md)   
 [Design Details: Inventory Posting](design-details-inventory-posting.md)   
 [Design Details: Variance](design-details-variance.md)   
->>>>>>> refs/remotes/origin/Update13
-[Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)   
-[Design Details: Production Order Posting](design-details-production-order-posting.md)  
-[Managing Inventory Costs](finance-manage-inventory-costs.md)  
-[Finance](finance.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+> > > > > > > refs/remotes/origin/Update13
+> > > > > > > [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)   
+> > > > > > > [Design Details: Production Order Posting](design-details-production-order-posting.md)  
+> > > > > > > [Managing Inventory Costs](finance-manage-inventory-costs.md)  
+> > > > > > > [Finance](finance.md)  
+> > > > > > > [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

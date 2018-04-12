@@ -16,7 +16,7 @@
 
 ---
 # Set Up Company Configuration
-The implementation process begins with the Microsoft partner. The partner is responsible for thinking through the configuration details and creating a package that a customer can easily apply. Before you create a new company, you should plan how it will be configured. You must consider basic setup data and the types of data that your [!INCLUDE[d365fin](includes/d365fin_md.md)] solution will require. You bundle all of this information in configuration packages.
+The implementation process begins with the Microsoft partner. The partner is responsible for thinking through the configuration details and creating a package that a customer can easily apply. Before you create a new company, you should plan how it will be configured. You must consider basic setup data and the types of data that your [!INCLUDE [d365fin](includes/d365fin_md.md)] solution will require. You bundle all of this information in configuration packages.
 
 RapidStart Services also provides you with the tools that you will use to migrate your legacy data, such as customers and vendors.  
 
@@ -24,7 +24,7 @@ We recommend that you create configuration packages with most of the setup table
 
 The configuration packages are built on a preconfigured company. After you have set up a company that meets your needs, you can create a configuration package that contains relevant data from this company. You can then use it when you create a new company that is to be configured in the same way.  
 
-To facilitate the import of master data, such as customer and vendor information, you can use configuration templates. Configuration templates contain a set of default settings that are automatically assigned to the records imported into [!INCLUDE[d365fin](includes/d365fin_md.md)].
+To facilitate the import of master data, such as customer and vendor information, you can use configuration templates. Configuration templates contain a set of default settings that are automatically assigned to the records imported into [!INCLUDE [d365fin](includes/d365fin_md.md)].
 
 The following table describes a sequence of tasks with links to topics that describe them.
 

@@ -88,7 +88,7 @@ The flow of items between bins at a company location centers on picking componen
 ## Flushing Production Components in the Warehouse  
  If set up on the item card, components picked with warehouse picks are posted as consumed by the production order when the warehouse pick is registered. By using the **Pick + Forward** method and the **Pick + Backward** flushing method, the pick registration triggers the related consumption posting when the first operation starts or when the last operation finishes, respectively.  
 
- Consider the following scenario based on the [!INCLUDE[d365fin](includes/d365fin_md.md)] demonstration database, WHITE location.  
+ Consider the following scenario based on the [!INCLUDE [d365fin](includes/d365fin_md.md)] demonstration database, WHITE location.  
 
  A production order for 15 PCS of item LS-100 exists. Some of the items on the component list must be flushed manually in a consumption journal, and other items on the list can be picked and flushed automatically using the **Pick + Backward** flushing method.  
 
@@ -97,22 +97,22 @@ The flow of items between bins at a company location centers on picking componen
 
  The following steps describe the involved actions by different users and the related response:  
 
-1.  The shop floor supervisor releases the production order. Items with **Forward** flushing method and no routing link code are deducted from the open shop floor bin.  
-2.  The shop floor supervisor chooses the **Create Warehouse Pick** button on the production order. A warehouse pick document is created pick for items with **Manual**, **Pick + Backward**, and **Pick + Forward** flushing methods. These items are placed in the To-Production bin.  
-3.  The warehouse manager assigns the picks to a warehouse worker.  
-4.  The warehouse worker picks the items from appropriate bins and places them in the To-Production bin or in the bin specified on the warehouse pick, which may be a work center or machine center bin.  
-5.  The warehouse worker registers the pick. The quantity is subtracted from the pick bins and added to the consumption bin. The **Qty. Picked** field on the component list for all picked items is updated.  
+1. The shop floor supervisor releases the production order. Items with **Forward** flushing method and no routing link code are deducted from the open shop floor bin.  
+2. The shop floor supervisor chooses the **Create Warehouse Pick** button on the production order. A warehouse pick document is created pick for items with **Manual**, **Pick + Backward**, and **Pick + Forward** flushing methods. These items are placed in the To-Production bin.  
+3. The warehouse manager assigns the picks to a warehouse worker.  
+4. The warehouse worker picks the items from appropriate bins and places them in the To-Production bin or in the bin specified on the warehouse pick, which may be a work center or machine center bin.  
+5. The warehouse worker registers the pick. The quantity is subtracted from the pick bins and added to the consumption bin. The **Qty. Picked** field on the component list for all picked items is updated.  
 
-    > [!NOTE]  
-    >  Only the quantity that is picked can be consumed.  
+   > [!NOTE]  
+   >  Only the quantity that is picked can be consumed.  
 
-6.  The machine operator informs the production manager that the end items are finished.  
-7.  The shop floor supervisor uses the consumption journal or production journal to post the consumption of component items that use either **Manual** flushing method or **Forward** or **Pick + Forward** flushing methods together with routing link codes.  
-8.  The production manager posts the output of the production order and changes status to **Finished**. The quantity of component items that use **Backward** flushing method is deducted from the open shop floor bin, and the quantity of component items that use **Pick + Backward** flushing method is deducted from the To-Production bin.  
+6. The machine operator informs the production manager that the end items are finished.  
+7. The shop floor supervisor uses the consumption journal or production journal to post the consumption of component items that use either **Manual** flushing method or **Forward** or **Pick + Forward** flushing methods together with routing link codes.  
+8. The production manager posts the output of the production order and changes status to **Finished**. The quantity of component items that use **Backward** flushing method is deducted from the open shop floor bin, and the quantity of component items that use **Pick + Backward** flushing method is deducted from the To-Production bin.  
 
- The following illustration shows when the **Bin Code** field on the component list is filled according to your location or machine/work center setup.  
+   The following illustration shows when the **Bin Code** field on the component list is filled according to your location or machine/work center setup.  
 
- ![Bin flow chart](media/binflow.png "BinFlow")  
+   ![Bin flow chart](media/binflow.png "BinFlow")  
 
 ## See Also  
  [Design Details: Warehouse Management](design-details-warehouse-management.md)

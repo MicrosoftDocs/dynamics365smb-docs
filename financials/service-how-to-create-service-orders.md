@@ -48,7 +48,7 @@ You can automatically create service orders for the maintenance of service items
 ## To convert a service quote to a service order
 When a customer has accepted a service quote, you convert it to a service order. The quote is deleted and a new service order is set up with the same description as the service quote. The response date and time are recalculated for the service order and the status is set to **Pending**. The repair status of the service items in the order are changed to **Initial**.  
   
-[!INCLUDE[d365fin](includes/d365fin_md.md)] searches for allocation entries for all the service items in the service quote that have the status **Active**. If it finds such allocation entries, their allocation status is updated to **Reallocation Needed**. When you reallocate the service items in the service order, the status of the allocation entries registered for the quote are updated to **Finished**.   
+[!INCLUDE [d365fin](includes/d365fin_md.md)] searches for allocation entries for all the service items in the service quote that have the status **Active**. If it finds such allocation entries, their allocation status is updated to **Reallocation Needed**. When you reallocate the service items in the service order, the status of the allocation entries registered for the quote are updated to **Finished**.   
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Contract Quotes**, and then choose the related link.  
 2. Choose the service quote to convert to a service order.  

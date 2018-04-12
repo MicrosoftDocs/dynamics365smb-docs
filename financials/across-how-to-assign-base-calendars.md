@@ -102,12 +102,12 @@ Base calendars are assigned to your own company, customers, vendors, locations, 
 2.  Open the **Customer** card for whom you will assign a base calendar.  
 3.  On the **Shipping** FastTab, in the **Base Calendar Code** field, select the base calendar that you want to assign.  
 
-> [!IMPORTANT]  
->  -   If you do not assign a base calendar to a company, all dates are calculated as working days.  
-> -   If you enter a blank location on an order line, all dates are calculated as working days.  
-> -   Any base calendar defined for the vendor or the location affects how the dates are calculated and rounded to working days.
-
-> [!NOTE]  
+> [!IMPORTANT]
+> - If you do not assign a base calendar to a company, all dates are calculated as working days.  
+>   -   If you enter a blank location on an order line, all dates are calculated as working days.  
+>   -   Any base calendar defined for the vendor or the location affects how the dates are calculated and rounded to working days.
+> 
+> [!NOTE]
 >  Before you can make customized calendar entries, you must first assign a base calendar to the company.  
 
 ## See Also

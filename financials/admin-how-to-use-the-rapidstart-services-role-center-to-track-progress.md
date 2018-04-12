@@ -18,7 +18,7 @@
 # Use the RapidStart Services Implementer Role Center
 When you use RapidStart Services, we recommend that you use the RapidStart Services Implementer Role Center as it provides the correct context for your configuration work. For more information, see the "To change Role Center" section in [Changing Basic Settings](ui-change-basic-settings.md).
 
-As you continue with your work, you can assign each table the status that reflects where you are in the process. [!INCLUDE[d365fin](includes/d365fin_md.md)] then keeps track of the table status in the **Activities** part on the Role Center.  
+As you continue with your work, you can assign each table the status that reflects where you are in the process. [!INCLUDE [d365fin](includes/d365fin_md.md)] then keeps track of the table status in the **Activities** part on the Role Center.  
 
 By default, when you add a table to the configuration worksheet, its status is set to blank. This means that configuration of the table has not begun. This is reflected in the **Not Started** count in the **Activities** tile.  
 

@@ -16,9 +16,9 @@ ms.author: sgroespe
 
 ---
 # Project Management
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can perform common project management tasks, such as configuring a job and scheduling a resource, as well as providing the information needed to manage budgets and monitor progress. You can track machine and employee hours on the project by using time sheets. As a project manager, you have a good overview, not only of individual jobs, but also of the allocation of employees, machinery and other resources being used in all projects.
+In [!INCLUDE [d365fin](includes/d365fin_md.md)], you can perform common project management tasks, such as configuring a job and scheduling a resource, as well as providing the information needed to manage budgets and monitor progress. You can track machine and employee hours on the project by using time sheets. As a project manager, you have a good overview, not only of individual jobs, but also of the allocation of employees, machinery and other resources being used in all projects.
 
-Before you can use [!INCLUDE[d365fin](includes/d365fin_md.md)] to manage projects, you must set up resources, time sheets, and jobs. For more information, see [Setting Up Project Management](projects-setup-projects.md).  
+Before you can use [!INCLUDE [d365fin](includes/d365fin_md.md)] to manage projects, you must set up resources, time sheets, and jobs. For more information, see [Setting Up Project Management](projects-setup-projects.md).  
 
 The following table describes a sequence of tasks, with links to the topics that describe them.
 
@@ -42,5 +42,5 @@ The following table describes a sequence of tasks, with links to the topics that
 [Finance](finance.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+## [!INCLUDE [d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE [d365fin](includes/training_link_md.md)]

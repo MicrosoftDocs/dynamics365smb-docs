@@ -16,16 +16,16 @@ ms.author: bholtorf
 
 ---
 # Visit Our Video Library
-To help you get started quickly, we're building up a library of "how to" videos that illustrate how to complete various processes in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Just to mention a few examples, the library contains videos that show how to:  
+To help you get started quickly, we're building up a library of "how to" videos that illustrate how to complete various processes in [!INCLUDE [d365fin](includes/d365fin_md.md)]. Just to mention a few examples, the library contains videos that show how to:  
 
-* Migrate business data from another finance app into [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+* Migrate business data from another finance app into [!INCLUDE [d365fin](includes/d365fin_md.md)]  
 * Set up dimensions so you can track and analyze various documents and entities
-* Connect [!INCLUDE[d365fin](includes/d365fin_md.md)] with Microsoft Dynamics 365 for Sales
+* Connect [!INCLUDE [d365fin](includes/d365fin_md.md)] with Microsoft Dynamics 365 for Sales
 * Set up approval workflows  
-* Use Power BI with [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-* Set up email and send documents directly from [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+* Use Power BI with [!INCLUDE [d365fin](includes/d365fin_md.md)]  
+* Set up email and send documents directly from [!INCLUDE [d365fin](includes/d365fin_md.md)]  
 
-You can access the videos in several ways. If you're already working in [!INCLUDE[d365fin](includes/d365fin_md.md)], there are two ways to get to the library:
+You can access the videos in several ways. If you're already working in [!INCLUDE [d365fin](includes/d365fin_md.md)], there are two ways to get to the library:
 
 * From the **Business Manager** and **Accountant** Role Centers by choosing the **Product Videos** tile.  
 * From the **Business Manager** Role Center, by choosing **Business Assistance**, and then **Show Setup and Help Resources**.  

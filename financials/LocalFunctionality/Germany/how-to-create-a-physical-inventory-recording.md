@@ -53,19 +53,19 @@ To show that you have finished the physical inventory recording, you have to set
 
 ## To complete a physical inventory recording  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Phys. Inventory Recording**, and then choose the related link.  
-2.  Select the physical inventory recording that you want to complete, and then choose the **Edit** action.  
-3.  In the **Phys. Invt. Recording** window, on the **Lines** FastTab, in the **Quantity** field for each line, enter the actual item quantity.  
-4.  Select the **Recorded** check box for each line.  
-5.  On the **General** FastTab, fill in the fields as described in the following table.  
+1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Phys. Inventory Recording**, and then choose the related link.  
+2. Select the physical inventory recording that you want to complete, and then choose the **Edit** action.  
+3. In the **Phys. Invt. Recording** window, on the **Lines** FastTab, in the **Quantity** field for each line, enter the actual item quantity.  
+4. Select the **Recorded** check box for each line.  
+5. On the **General** FastTab, fill in the fields as described in the following table.  
 
-    |Field|Description|  
-    |---------------------------------|---------------------------------------|  
-    |**Person Recorded**|The person who recorded the inventory.|  
-    |**Date Recorded**|The date on which the physical inventory was recorded.|  
-    |**Time Recorded**|The time at which the physical inventory was recorded.|  
+   |Field|Description|  
+   |---------------------------------|---------------------------------------|  
+   |**Person Recorded**|The person who recorded the inventory.|  
+   |**Date Recorded**|The date on which the physical inventory was recorded.|  
+   |**Time Recorded**|The time at which the physical inventory was recorded.|  
 
- You can now finish the physical inventory recording. For more information, see [Finish a Physical Inventory Recording](how-to-finish-a-physical-inventory-recording.md).  
+   You can now finish the physical inventory recording. For more information, see [Finish a Physical Inventory Recording](how-to-finish-a-physical-inventory-recording.md).  
 
 ## See Also  
  [Physical Inventory Recording - Counting Physical Inventory](physical-inventory-recording-counting-physical-inventory.md)   

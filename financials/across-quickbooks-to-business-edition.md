@@ -17,9 +17,9 @@ ms.author: bholtorf
 
 
 # Changing from a QuickBooks App to Microsoft Finance and Operations, Business edition
-More and more growing businesses are changing from finance apps like QuickBooks Desktop and QuickBooks Online, which are designed for startups and other small businesses, to [!INCLUDE[d365fin](includes/d365fin_md.md)], which also supports larger, more complex organizations. 
+More and more growing businesses are changing from finance apps like QuickBooks Desktop and QuickBooks Online, which are designed for startups and other small businesses, to [!INCLUDE [d365fin](includes/d365fin_md.md)], which also supports larger, more complex organizations. 
 
-As they transition, companies typically want to bring their business data with them so they don't start from scratch. To help transfer data, [!INCLUDE[d365fin](includes/d365fin_md.md)] offers built-in extensions that migrate data such as customers, vendors, inventory items, and general ledger accounts. The following extensions are installed and ready to go as an integrated part of the **Data Migration** assisted setup guide:
+As they transition, companies typically want to bring their business data with them so they don't start from scratch. To help transfer data, [!INCLUDE [d365fin](includes/d365fin_md.md)] offers built-in extensions that migrate data such as customers, vendors, inventory items, and general ledger accounts. The following extensions are installed and ready to go as an integrated part of the **Data Migration** assisted setup guide:
 
 * QuickBooks Data Migration 
 * QuickBooks Online Data Migration

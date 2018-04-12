@@ -83,7 +83,7 @@ The following procedure describes how to post the items, resource hours, and or 
 The service is posted as consumed either partially or fully, depending on the value in the **Qty. to Consume** field, and the relevant ledger entries are created. In addition,previously posted service shipment documents are updated chronologically with the consumed quantities. The relevant quantities will be updated on the service lines of the order.  
 
 ## To post shipments from service orders  
-After specifying the details of a service, you can adjust and post the quantities of items used, time spent, and costs incurred. As a result, [!INCLUDE[d365fin](includes/d365fin_md.md)] makes the necessary changes to reflect the new state of your inventory and current status of the specific order processing.  
+After specifying the details of a service, you can adjust and post the quantities of items used, time spent, and costs incurred. As a result, [!INCLUDE [d365fin](includes/d365fin_md.md)] makes the necessary changes to reflect the new state of your inventory and current status of the specific order processing.  
   
 The following procedure shows how to post shipment of service line items in locations that are not set up to require warehouse handling.  
 
@@ -95,7 +95,7 @@ The following procedure shows how to post shipment of service line items in loca
   
 4. Choose **Actions**, **Posting**, **Post**. In the window that appears, choose **Ship**.  
   
-[!INCLUDE[d365fin](includes/d365fin_md.md)] creates ledger entries (in the warranty ledger, item ledger, service ledger, or G/L), produces the posted service shipment document, and updates the relevant fields on the service lines of the service order.  
+[!INCLUDE [d365fin](includes/d365fin_md.md)] creates ledger entries (in the warranty ledger, item ledger, service ledger, or G/L), produces the posted service shipment document, and updates the relevant fields on the service lines of the service order.  
   
 If the location is set up to require warehouse handling, then the shipping and moving of service line items function in the same ways as for other source documents. The only difference is that service line items can be consumed either externally or internally and therefore require two different release functions.  
   
@@ -109,11 +109,11 @@ You can cancel the consumption on the service orders. For example, because it wa
 3. Choose **Actions**, choose **Shipment**, and then choose **Service Shipment Lines**.  
 4. Choose the lines that contain the incorrect consumption, and then choose the **Undo Consumption** action.  
   
- A balancing service shipment line is inserted with negative values in the quantity fields for the selected lines.  
+   A balancing service shipment line is inserted with negative values in the quantity fields for the selected lines.  
   
-> [!NOTE]  
+> [!NOTE]
 >  You cannot undo service consumption if:  
-
+> 
 >    * The service order has been closed.  
 >    * It has been posted to the Jobs area, so there are job ledger entries linked to it.  
   

@@ -47,9 +47,9 @@ You can also define warehouse class codes, if the warehouse carries items that n
 You are now ready to set up zones, if you want to operate zones in your warehouse. Using zones reduces the number of fields you need to fill in when you set up your bins, because bins created within zones inherit several properties from the zone. Zones can also make it easier for new or temporary employees to orient themselves in your warehouse. Note that flow is controlled by bins, therefore it is possible to operate with bins and only one zone.  
 
 ## To set up a zone in your warehouse  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.  
-2.  Select the location where you want to set up zone and open the location card, and then choose the **Zones** action.  
-3.  In the **Zones** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.  
+2. Select the location where you want to set up zone and open the location card, and then choose the **Zones** action.  
+3. In the **Zones** window, fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 When you change a zone parameter, all bins created thereafter in that zone will have the new characteristics, but the original bins will not be changed.  
 

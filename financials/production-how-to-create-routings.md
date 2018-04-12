@@ -28,26 +28,26 @@ Before you can set up a routing, the following must be in place:
 - Production resources are set up. For more information, see [Set Up Work Centers and Machine Centers](production-how-to-set-up-work-and-machine-centers.md).
 
 ## To create a routing  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Routings**, and then choose the related link.  
-2.  Choose the **New** action.  
-3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4.  In the **Type** field, select **Serial** to calculate the production routing according to the value in the **Operation No.** field.   
-    Select **Parallel** to calculate the operations according to the value in the **Next Operation No.** field.  
-5.  To edit the routing, set the **Status** field to **New** or **Under Development**. To activate it, set the **Status** field to **Certified**.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Routings**, and then choose the related link.  
+2. Choose the **New** action.  
+3. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. In the **Type** field, select **Serial** to calculate the production routing according to the value in the **Operation No.** field.   
+   Select **Parallel** to calculate the operations according to the value in the **Next Operation No.** field.  
+5. To edit the routing, set the **Status** field to **New** or **Under Development**. To activate it, set the **Status** field to **Certified**.  
 
-    Proceed to fill in the routing lines.
-6.  In the **Operation No.** field, enter the number of the first operation, for example,  **10**.  
-7.  In the **Type** field, specify which kind of resource is used, for example, **Work Center**.  
-8.  In the **No.** field, select the resource to be used, or type it in the field.  
-9.  In the **Routing Link Code** field, enter a code to connect the component to a specific operation. For more information, see the "To create routing links" section.
-10.  In the **Run Time** and **Setup Time** fields, enter the process times needed to perform the operation.  
+   Proceed to fill in the routing lines.
+6. In the **Operation No.** field, enter the number of the first operation, for example,  **10**.  
+7. In the **Type** field, specify which kind of resource is used, for example, **Work Center**.  
+8. In the **No.** field, select the resource to be used, or type it in the field.  
+9. In the **Routing Link Code** field, enter a code to connect the component to a specific operation. For more information, see the "To create routing links" section.
+10. In the **Run Time** and **Setup Time** fields, enter the process times needed to perform the operation.  
 
     > [!NOTE]  
     >  Setup time is calculated per production order, whereas run time is calculated per produced item.  
 
-11.  In the **Concurrent Capacities** field, specify how many units of the selected resource are used to perform the operation. For example, two people allocated to one packing operation will halve the run time.  
-12.  Continue to fill in lines for all operations involved in producing the item in question.  
-13.  To copy lines from an existing routing, choose the **Copy Routing** action to select existing lines.  
+11. In the **Concurrent Capacities** field, specify how many units of the selected resource are used to perform the operation. For example, two people allocated to one packing operation will halve the run time.  
+12. Continue to fill in lines for all operations involved in producing the item in question.  
+13. To copy lines from an existing routing, choose the **Copy Routing** action to select existing lines.  
 14. Certify the routing.  
 15. You can now attach the new routing to the card of the production item in question, by filling in the **Routing No.** field. For more information, see [Register New Items](inventory-how-register-new-items.md).  
 

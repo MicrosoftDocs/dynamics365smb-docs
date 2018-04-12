@@ -39,29 +39,29 @@ These setup options are default settings that manage how sales and assembly orde
 In this procedure, you create and process an assembly order for items that are assembled to stock, which means without a linked sales order. The steps include initiating the assembly order, handling potential component availability issues, and partially posting assembly item output.
 
 ## To assemble an item  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Assembly Orders**, and then choose the related link.  
-2.  Choose the **New** action. The **New Assembly Order** window opens.  
-3.  Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4.  In the **Item No.** field, select the assembly item that you want to process. The field is filtered to show only items that are set up for assembly, which means that they have assembly BOMs assigned.  
-5.  In the **Quantity** field, enter how many units of the item that you want assembled.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Assembly Orders**, and then choose the related link.  
+2. Choose the **New** action. The **New Assembly Order** window opens.  
+3. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. In the **Item No.** field, select the assembly item that you want to process. The field is filtered to show only items that are set up for assembly, which means that they have assembly BOMs assigned.  
+5. In the **Quantity** field, enter how many units of the item that you want assembled.  
 
-    > [!NOTE]  
-    >  If one or more components are not available to fulfill the entered assembly item quantity on the defined due date, then the **Assembly Availability** window automatically opens to provide detailed information about how many assembly items can be assembled based on component availability. For more information, see [View the Availability of Items](inventory-how-availability-overview.md). When you close the window, the assembly order is created with availability alerts on the affected component lines.  
+   > [!NOTE]  
+   >  If one or more components are not available to fulfill the entered assembly item quantity on the defined due date, then the **Assembly Availability** window automatically opens to provide detailed information about how many assembly items can be assembled based on component availability. For more information, see [View the Availability of Items](inventory-how-availability-overview.md). When you close the window, the assembly order is created with availability alerts on the affected component lines.  
 
-    The assembly order lines are automatically filled with the contents of the assembly BOM and with line quantities according to the assembly order header.  
+   The assembly order lines are automatically filled with the contents of the assembly BOM and with line quantities according to the assembly order header.  
 
-    > [!NOTE]  
-    >  If the **Assembly Availability** window opened when you filled in the assembly order header, then each affected assembly order line contains a **Yes** in the **Avail. Warning** field with a link to detailed availability information. For more information, see Check Availability. You can resolve a component availability issue by postponing the starting date, replacing the component with another item, or selecting an available substitution if one is defined.  
+   > [!NOTE]  
+   >  If the **Assembly Availability** window opened when you filled in the assembly order header, then each affected assembly order line contains a **Yes** in the **Avail. Warning** field with a link to detailed availability information. For more information, see Check Availability. You can resolve a component availability issue by postponing the starting date, replacing the component with another item, or selecting an available substitution if one is defined.  
 
-6.  In the **Quantity to Assemble** field, enter how many units of the assembly item that you want to post as output the next time that you post the assembly order. This quantity can be lower than the value in the **Quantity** field to reflect a partial output posting.  
+6. In the **Quantity to Assemble** field, enter how many units of the assembly item that you want to post as output the next time that you post the assembly order. This quantity can be lower than the value in the **Quantity** field to reflect a partial output posting.  
 
-    > [!NOTE]  
-    >  To make sure that component consumption posting matches the assembly item output posting, the quantity fields in the assembly order lines automatically adjust to the value that you enter in the **Quantity to Assemble** field.  
-7.  On assembly order lines of type **Item** or **Resource**, in the **Quantity to Consume** field, specify how many units you want to post as consumed the next time that you post the assembly order. By default, the expected quantity to consume according to the assembly BOM and the assembly order header quantity is inserted, but you can increase or decrease it, such as to reflect an overconsumption of components or that extra resources were used.  
-8.  When you are ready to partially or fully post, choose the **Post** action.  
+   > [!NOTE]  
+   >  To make sure that component consumption posting matches the assembly item output posting, the quantity fields in the assembly order lines automatically adjust to the value that you enter in the **Quantity to Assemble** field.  
+7. On assembly order lines of type **Item** or **Resource**, in the **Quantity to Consume** field, specify how many units you want to post as consumed the next time that you post the assembly order. By default, the expected quantity to consume according to the assembly BOM and the assembly order header quantity is inserted, but you can increase or decrease it, such as to reflect an overconsumption of components or that extra resources were used.  
+8. When you are ready to partially or fully post, choose the **Post** action.  
 
-    > [!NOTE]  
-    >  If warnings are still present in any of the assembly order lines, then the posting is blocked. A message about which component or components are not in inventory is displayed.  
+   > [!NOTE]  
+   >  If warnings are still present in any of the assembly order lines, then the posting is blocked. A message about which component or components are not in inventory is displayed.  
 
 After posting succeeds, the assembly item is posted as output to the location code and potential bin code that are defined on the assembly order. For manually created assembly orders, the location may be copied from the **Default Location for Orders** setup field. For assemble-to-order flows, the location code may be copied from the sales order line.  
 

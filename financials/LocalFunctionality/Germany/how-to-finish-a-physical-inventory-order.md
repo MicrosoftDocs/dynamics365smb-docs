@@ -23,7 +23,7 @@ It is only possible to finish the physical inventory order if the following is t
 - For all related physical inventory recordings, the Status field is set to **Finished**.  
 - In all physical inventory order lines, the quantity expected has been calculated.  
 
-    [!INCLUDE[d365fin](../../includes/d365fin_md.md)] shows this by setting a check mark in the field **Qty. Exp. Calculated** of the physical inventory order line.  
+    [!INCLUDE [d365fin](../../includes/d365fin_md.md)] shows this by setting a check mark in the field **Qty. Exp. Calculated** of the physical inventory order line.  
 
 - Every physical inventory order line has been counted by at least one inventory recording line.  
 

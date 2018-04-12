@@ -29,7 +29,7 @@ The following procedure describes how to fill in and send an intercompany sales 
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.  
 2. Choose **New** to create a new sales order. For more information, see [Sell Products](sales-how-sell-products.md).  
-3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Make sure the customer is an intercompany partner.
 5. To send the sales order before you post it, choose the **Send IC Sales Order** action.
 

@@ -29,7 +29,7 @@ The following illustration outlines typical warehouse flows.
 ![Overview of warehouse processes](media/design_details_warehouse_management_overview.png "design_details_warehouse_management_overview")  
 
 ## Basic or Advanced Warehousing  
-Warehouse functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)] can be implemented in different complexity levels, depending on a company’s processes and order volume. The main difference is that activities are performed order-by-order in basic warehousing when they are consolidated for multiple orders in advanced warehousing.  
+Warehouse functionality in [!INCLUDE [d365fin](includes/d365fin_md.md)] can be implemented in different complexity levels, depending on a company’s processes and order volume. The main difference is that activities are performed order-by-order in basic warehousing when they are consolidated for multiple orders in advanced warehousing.  
 
  To differentiate between the different complexity levels, this documentation refers to two general denominations, Basic and Advanced Warehousing. This simple differentiation covers several different complexity levels as defined by product granules and location setup, each supported by different UI documents. For more information, see [Design Details: Warehouse Setup](design-details-warehouse-setup.md).  
 
@@ -67,7 +67,7 @@ Warehouse functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)] can be im
 For more information about each document, see the respective window topics.  
 
 ### Terminology  
-To align with the financial concepts of purchases and sales, [!INCLUDE[d365fin](includes/d365fin_md.md)] warehouse documentation refers to the following terms for item flow in the warehouse.  
+To align with the financial concepts of purchases and sales, [!INCLUDE [d365fin](includes/d365fin_md.md)] warehouse documentation refers to the following terms for item flow in the warehouse.  
 
 |Term|Description|  
 |----------|---------------------------------------|  

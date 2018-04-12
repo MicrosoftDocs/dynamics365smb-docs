@@ -33,7 +33,7 @@ You can fill customer fields on the sales quote in two ways depending on whether
 7. When you have completed the customer card, choose the **OK** button to return to the **Sales Quote** window.
 
    Several fields on the sales quote are now filled with information that you specified on the new customer card.  
-8. Fill in the remaining fields in the **Sales Quote** window as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+8. Fill in the remaining fields in the **Sales Quote** window as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 You are now ready to fill in the sales order lines for products that you are selling to the customer or for any transaction with the customer that you want to record in a G/L account.   
 
@@ -41,27 +41,27 @@ If you have set up recurring sales lines for the customer, such as a monthly rep
 9. On the **Lines** FastTab, in the **Type** field, select what type of product, charge, or transaction that you will post for the customer with the sales line.
 10. In the **No.** field, select a record to post according to the value in the **Type** field.
 
- You leave the **No.** field empty in the following cases:
- -If the line is for a comment. Write the comment in the **Description** field.
- -If the line is for a nonstock item. Choose the **Select Nonstock Items** action. For more information, see [Work With Nonstock Items](inventory-how-work-nonstock-items.md).
+   You leave the **No.** field empty in the following cases:
+   -If the line is for a comment. Write the comment in the **Description** field.
+   -If the line is for a nonstock item. Choose the **Select Nonstock Items** action. For more information, see [Work With Nonstock Items](inventory-how-work-nonstock-items.md).
 
 11. In the **Quantity** field, enter how many units of the product, charge, or transaction that the line will record for the customer.
 
-    > [!NOTE]  
->   If the item is of type **Item - Service** or **Resource**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.  
+   > [!NOTE]  
+   >   If the item is of type **Item - Service** or **Resource**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.  
 
-    The value in the **Line Amount** field is calculated as *Unit Price* x *Quantity*.  
+   The value in the **Line Amount** field is calculated as *Unit Price* x *Quantity*.  
 
-    The price and line amounts are with or without sales tax, depending on what you selected in the **Prices Including Tax** field on the customer card.  
+   The price and line amounts are with or without sales tax, depending on what you selected in the **Prices Including Tax** field on the customer card.  
 12. If you want to give a discount, enter a percentage in the **Line Discount %** field. The value in the **Line Amount** field updates accordingly.  
 
-    If special item prices are set up on the **Sales Prices and Sales Line Discounts** FastTab on the customer or item card, the price and amount on the sales line automatically update if the price criteria is met. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).  
+   If special item prices are set up on the **Sales Prices and Sales Line Discounts** FastTab on the customer or item card, the price and amount on the sales line automatically update if the price criteria is met. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).  
 13. Repeat steps 9 through 12 for every product you want to offer the customer.  
 
-    The totals under the lines are automatically calculated as you create or modify lines.  
+   The totals under the lines are automatically calculated as you create or modify lines.  
 14. In the **Invoice Discount Amount** field, enter an amount that should be deducted from the value shown in the **Total Incl. Tax** field.
 
-    If you have set up invoice discounts for the customer, then the specified percentage value is automatically inserted in the **Invoice Discount %** field if the criteria are met, and the related amount is inserted in the **Inv. Discount Amount Excl. Tax** field. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).
+   If you have set up invoice discounts for the customer, then the specified percentage value is automatically inserted in the **Invoice Discount %** field if the criteria are met, and the related amount is inserted in the **Inv. Discount Amount Excl. Tax** field. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).
 15. When the sales quote lines are completed, choose the **Send by Email** action.
 16. In the **Send Email** window, fill in any remaining fields and review the embedded sales quote. For more information, see [Send Documents by Email](ui-how-send-documents-email.md).
 17. If the customer accepts the quote, choose the **Make Invoice** or the **Make Order** action.

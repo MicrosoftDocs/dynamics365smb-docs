@@ -18,15 +18,15 @@
 # Manage Company Configuration in a Worksheet
 The configuration worksheet is the central location in which you can plan, track, and perform your configuration work. You can create a worksheet for each company that you are working with or create a standard configuration worksheet that can be used for configuring multiple identical companies.  
 
-The first step in preparing a configuration package is to select a company that you have already set up and modified to suit most of your solution needs. This company serves as the baseline for your configuration work on new companies. In the worksheet, you designate the tables that you want your configuration to control and handle. Since most tables in [!INCLUDE[d365fin](includes/d365fin_md.md)] have relationships and dependencies to other tables, you should also include those related tables as necessary. Together, these tables will then serve as the structure around which you will build a new company. Subsequent steps help you package and then deploy your configuration.  
+The first step in preparing a configuration package is to select a company that you have already set up and modified to suit most of your solution needs. This company serves as the baseline for your configuration work on new companies. In the worksheet, you designate the tables that you want your configuration to control and handle. Since most tables in [!INCLUDE [d365fin](includes/d365fin_md.md)] have relationships and dependencies to other tables, you should also include those related tables as necessary. Together, these tables will then serve as the structure around which you will build a new company. Subsequent steps help you package and then deploy your configuration.  
 
 To aide you in tracking and reviewing your work, use the **Config. Package Table** FactBox to see information about records. Use the **Config. Related Tables** FactBox to monitor table relationships.  
 
 The following procedures demonstrate how to add and customize table information for your configuration.  
 
 ## To open the configuration worksheet  
-1.  In [!INCLUDE[d365fin](includes/d365fin_md.md)], open the company that is the baseline for configuration, and then open its RapidStart Services Implementer Role Center.  
-2.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Worksheet**, and then choose the related link.  
+1. In [!INCLUDE [d365fin](includes/d365fin_md.md)], open the company that is the baseline for configuration, and then open its RapidStart Services Implementer Role Center.  
+2. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Worksheet**, and then choose the related link.  
 
 ## To add a table to the worksheet  
 1.  In the **Config. Worksheet** window, choose the **Edit List** action.  
@@ -52,15 +52,17 @@ The following procedures demonstrate how to add and customize table information 
 1. Choose the **Get Tables** action. The **Get Config. Tables** batch job window opens.  
 2. On the **Options** FastTab, specify the types of tables that you want to add to the configuration, as described in the following table.
 
-    |Option|Description|  
-    |----------------------------------|---------------------------------------|  
-    |**Include with Data Only**|Select the check box to include only those tables that contain data. For example, you may want to include a table that already defines the typical payment terms that your solution supports.|  
-    |**Include Related Tables**|Select the check box to include all related tables. To add a subset of related tables, see step 3 in this procedure.|  
-    |**Include Dimension Tables**|Select the check box to include dimension tables.|  
-    |**Include Licensed Tables Only**|Select the check box to include only those tables for which the license under which you are creating the worksheet allows you access.|
+
+   |              Option              |                                                                                          Description                                                                                          |
+   |----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+   |    **Include with Data Only**    | Select the check box to include only those tables that contain data. For example, you may want to include a table that already defines the typical payment terms that your solution supports. |
+   |    **Include Related Tables**    |                                     Select the check box to include all related tables. To add a subset of related tables, see step 3 in this procedure.                                      |
+   |   **Include Dimension Tables**   |                                                                       Select the check box to include dimension tables.                                                                       |
+   | **Include Licensed Tables Only** |                             Select the check box to include only those tables for which the license under which you are creating the worksheet allows you access.                             |
+
 
 3. On the **Object** FastTab, set filters as appropriate to specify the types of tables you want to include or exclude.  
-4. Choose the **OK** button. [!INCLUDE[d365fin](includes/d365fin_md.md)] tables are added to the worksheet. Each entry in the list has a line of type **Table**.  
+4. Choose the **OK** button. [!INCLUDE [d365fin](includes/d365fin_md.md)] tables are added to the worksheet. Each entry in the list has a line of type **Table**.  
 5. To remove duplicate table information that can result from using the **Get Tables** action, choose the **Delete Duplicate Lines** action. This will remove duplicate tables that have the same package code.  
 6. You can add tables to the worksheet that are related to a table you have selected. Review the information in the **Related Tables** FactBox to see whether there are missing tables. To add related tables for a specific table, select the table in the list, and then choose the **Get Related Tables** action.  
 
@@ -95,7 +97,7 @@ The following procedure describes how to add area and group designations, after 
 4. In the **Line Type** field, choose **Group**. In the **Name** field, enter a name for the area. The group name is automatically indented.  
 5. To move tables to the appropriate category, select a table to move, and then choose the **Move Up** or **Move Down** action. Alternatively, you can delete a worksheet line and insert the table again in the required location.  
 
-Some [!INCLUDE[d365fin](includes/d365fin_md.md)] tables are standard and the data in these is not likely to change from implementation to implementation. Consequently, to help your customer focus, you can remove these tables from the worksheet after you have included them in the configuration package. Once added, the tables remain part of the configuration package.  
+Some [!INCLUDE [d365fin](includes/d365fin_md.md)] tables are standard and the data in these is not likely to change from implementation to implementation. Consequently, to help your customer focus, you can remove these tables from the worksheet after you have included them in the configuration package. Once added, the tables remain part of the configuration package.  
 
 ## To remove a standard table in the worksheet  
 After you have added all necessary tables to a configuration package, determine which tables will not require customer attention.  

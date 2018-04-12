@@ -22,11 +22,11 @@ Backdated transactions or cost adjustments often affect balances and stock valua
 
  To make sure that all transaction entries in a closed period are final, the following conditions must be met before an inventory period can close:  
 
--   All outbound item ledger entries in the period must be closed (no negative inventory).  
--   All item costs in the period must be adjusted.  
--   All released and finished production orders in the period must be cost adjusted.  
+- All outbound item ledger entries in the period must be closed (no negative inventory).  
+- All item costs in the period must be adjusted.  
+- All released and finished production orders in the period must be cost adjusted.  
 
- When you close an inventory period, an inventory period entry is created by using the number of the last item register that falls in the inventory period. In addition, the time, date, and user code of the user closing the period are recorded in the inventory period entry. By using this information with the last item register for the previous period, you can see which inventory transactions were posted in the inventory period. It is also possible to reopen inventory periods if you need to post in a closed period. When you reopen an inventory period, an inventory period entry is created.  
+  When you close an inventory period, an inventory period entry is created by using the number of the last item register that falls in the inventory period. In addition, the time, date, and user code of the user closing the period are recorded in the inventory period entry. By using this information with the last item register for the previous period, you can see which inventory transactions were posted in the inventory period. It is also possible to reopen inventory periods if you need to post in a closed period. When you reopen an inventory period, an inventory period entry is created.  
 
 ## See Also  
  [Design Details: Inventory Costing](design-details-inventory-costing.md)

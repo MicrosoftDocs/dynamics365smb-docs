@@ -21,7 +21,7 @@ The use of standard tasks simplifies the creation and maintenance of routings. T
 ## To set up a standard task
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Standard Tasks**, and then choose the related link.
 2. Choose the **New** action.
-3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Choose the **Tools**, **Personnel**, **Description**, or **Tools** action.
 5. In the window that opens, describe the standard task in question.
 

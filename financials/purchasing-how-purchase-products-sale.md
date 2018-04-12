@@ -17,6 +17,7 @@ ms.author: sgroespe
 ---
 # Purchase Items for a Sale
 From sales orders and sales invoices, you can use functions to quickly create purchase documents for missing item quantities that are required by the sale. You can use two different functions depending on the document type.
+
 |Function|Description|
 |--------|-----------|
 |**Create Purchase Orders**|From a sales order, this function creates a purchase order for each vendor of items on the sales order. You can edit the purchase quantity before you create the purchase orders. Only unavailable sales quantities are suggested.
@@ -35,11 +36,11 @@ To create a purchase order for each unavailable item quantity on the sales order
 4. To purchase another quantity than the unavailable sales quantity, edit the value in the **Quantity to Purchase** field.
 
     > [!NOTE]  
->   You can also change the **Quantity to Purchase** field on grayed lines even though they represent fully available sales quantities.
+   >   You can also change the **Quantity to Purchase** field on grayed lines even though they represent fully available sales quantities.
 5. Choose the **OK** button.
 
     A purchase order is created for each vendor of items on the sales order, including any quantity changes that you made in the **Create Purchase Orders** window.
-7. Proceed to process the purchase order or orders, for example, by editing or adding purchase order lines. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
+6. Proceed to process the purchase order or orders, for example, by editing or adding purchase order lines. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 
 
 ## To create a purchase invoice from a sales order or sales invoice

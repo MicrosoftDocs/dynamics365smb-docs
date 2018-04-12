@@ -22,11 +22,11 @@ Before you can work with contracts, you must set up the following:
 * **Service contract groups**, which gather service contracts that are related in some way.
 * **Service contract account groups**, which are used to group the service contract accounts together for service invoices created for service contracts. You assign these groups to service contracts.  
 * **Contract templates** that define contract layouts of contracts that include the most commonly used service contract details. When you create service contract quotes, you can create them by using templates. When you create a contract quote, the fields automatically contain the contents of the template fields.
-* **Customer templates** that let you create quotes for contacts or potential customers who are not registered as customers in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+* **Customer templates** that let you create quotes for contacts or potential customers who are not registered as customers in [!INCLUDE [d365fin](includes/d365fin_md.md)].  
 
 ## To set up a service contract group  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Contract Groups**, and then choose the related link.  
-2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Choose the **Disc. on Contr. Orders Only** check box if you want contract or service discounts to be valid only for contract service orders, such as maintenance.  
 
 ## To set up a service contract account group  

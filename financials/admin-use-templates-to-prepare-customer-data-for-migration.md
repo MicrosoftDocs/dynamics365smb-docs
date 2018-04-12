@@ -25,7 +25,7 @@ Typically, you create data templates for the following master data tables:
 -   **Item**  
 -   **Vendor**  
 
-However, you can create a template structure for and apply it to any table in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+However, you can create a template structure for and apply it to any table in [!INCLUDE [d365fin](includes/d365fin_md.md)].  
 
 > [!TIP]  
 >  You can also use data templates for daily operations to create new records that are based on templates. These data templates only work for the supported master data tables. For more information, see, for example, [Register New Items](inventory-how-register-new-items.md).  
@@ -60,16 +60,16 @@ Each template consists of a header and lines. When you create a template, you ca
 2. Select a field, and then choose the **OK** button. The **Field Caption** field is filled in with the field name.
 3. In the **Default Value** field, enter an appropriate value. In some cases, you may want to use a value that is not a value that is available in the database. In that case, you can select the **Skip Relation Check** check box, to make it possible to apply data without error.
 
-    > [!TIP]  
-    > Since the **Default Value** field does not have a look up to the corresponding [!INCLUDE[d365fin](includes/d365fin_md.md)] field options, you copy and paste the value that you want from the related page into the template.
+   > [!TIP]
+   > Since the **Default Value** field does not have a look up to the corresponding [!INCLUDE [d365fin](includes/d365fin_md.md)] field options, you copy and paste the value that you want from the related page into the template.
+   > 
+   > Select the **Mandatory** check box. The check box is informational only. It tells you that information must be entered in the field by the user, but no business logic is enforced. For example, you cannot invoice and post an order if posting groups have not been set up. Since posting groups are required, you can select the **Mandatory** check box for those fields.
 
-    > Select the **Mandatory** check box. The check box is informational only. It tells you that information must be entered in the field by the user, but no business logic is enforced. For example, you cannot invoice and post an order if posting groups have not been set up. Since posting groups are required, you can select the **Mandatory** check box for those fields.
-
-3. In the **Reference** field, enter information about the field as needed.
-4. Choose the **OK** button
+4. In the **Reference** field, enter information about the field as needed.
+5. Choose the **OK** button
 
 ## To export to a template in Excel
-You can create an Excel workbook to serve as a template that is based on the structure of an existing database table quickly. You can then use the template to gather together customer data in a consistent format for later import into [!INCLUDE[d365fin](includes/d365fin_md.md)].
+You can create an Excel workbook to serve as a template that is based on the structure of an existing database table quickly. You can then use the template to gather together customer data in a consistent format for later import into [!INCLUDE [d365fin](includes/d365fin_md.md)].
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Worksheet**, and then choose the related link.
 2. Add a table to the list, or select an existing table. For more information, see [Manage Company Configuration in a Worksheet](admin-how-to-manage-company-configuration-in-a-worksheet.md).
@@ -105,7 +105,7 @@ The following steps illustrate how to create an item card from an item data temp
 7. Expand various FastTabs, and verify that the information was created correctly on them.  
 
 ## To use a configuration template on a record
-You can apply a data template to any record that is in [!INCLUDE[d365fin](includes/d365fin_md.md)] and use this technique to change or modify a record. However, when you do this, you overwrite existing values in the record with those of the template. Consequently, you should be careful when you apply a template to existing records.
+You can apply a data template to any record that is in [!INCLUDE [d365fin](includes/d365fin_md.md)] and use this technique to change or modify a record. However, when you do this, you overwrite existing values in the record with those of the template. Consequently, you should be careful when you apply a template to existing records.
 
 > [!WARNING]  
 >  The **Apply Template** function overwrites existing data in a record. If this function is used in master data migration, it will overwrite the imported data when you create records.

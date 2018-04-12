@@ -20,7 +20,7 @@ Notifications are sent to workflow users to notify them about steps they must ma
 
  Notifications are based on templates that define the content and layout of the notification. You can export the content of a notification template, edit it, and then import into the same or a new notification template. This is described in the following procedures.  
 
- The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] contains three notification templates, one for notifying about approval requests, one for notifying about new records, and one for notifying about overdue approval requests. The three predefined notification templates support **Email** and **Note** as notification method. To view the content of the three notification templates, see the “Content of the Notification Templates” section in this topic.
+ The generic version of [!INCLUDE [d365fin](includes/d365fin_md.md)] contains three notification templates, one for notifying about approval requests, one for notifying about new records, and one for notifying about overdue approval requests. The three predefined notification templates support **Email** and **Note** as notification method. To view the content of the three notification templates, see the “Content of the Notification Templates” section in this topic.
 
 ## To create a new notification template  
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Notification Templates**, and then choose the related link.  

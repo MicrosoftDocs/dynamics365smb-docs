@@ -20,7 +20,7 @@ To use ADCS, you must give each item stored in the warehouse an item identifier.
 
 Based on the needs of your warehouse, you define the amount of information displayed in the miniform setup for the particular handheld device. The following are examples of information that you can display:  
 
-- Data from tables within [!INCLUDE[d365fin](includes/d365fin_md.md)], such as a list of pick documents from which the user can select.  
+- Data from tables within [!INCLUDE [d365fin](includes/d365fin_md.md)], such as a list of pick documents from which the user can select.  
 - Text information.  
 - Messages to show confirmations or errors about activities performed and registered by the handheld device user.
 
@@ -85,15 +85,15 @@ To implement or change the functionality of a miniform function, you must create
 When you have created a miniform, the next steps are to create functions and to associate functionality for various keyboard inputs.  
 
 ### To add support for a function key  
-1.  Add code similar to the following example to the.xsl file for the plug-in. This creates a function for the **F6** key. The key sequence information can be obtained from the device manufacturer.  
-    ```  
-    <xsl:template match="Function[.='F6']">  
-      <Function Key1="27" Key2="91" Key3="49" Key4="55" Key5="126" Key6="0"><xsl:value-of select="."/></Function>  
-    </xsl:template>  
+1. Add code similar to the following example to the.xsl file for the plug-in. This creates a function for the **F6** key. The key sequence information can be obtained from the device manufacturer.  
+   ```  
+   <xsl:template match="Function[.='F6']">  
+     <Function Key1="27" Key2="91" Key3="49" Key4="55" Key5="126" Key6="0"><xsl:value-of select="."/></Function>  
+   </xsl:template>  
 
-    ```  
-2.  In the [!INCLUDE[d365fin](includes/d365fin_md.md)] development environment, open table 7702 and add a code representing the new key. In this example, create a key that is named **F6**.  
-3.  Add C/AL code to the relevant function of the miniform-specific codeunit to handle the function key.  
+   ```  
+2. In the [!INCLUDE [d365fin](includes/d365fin_md.md)] development environment, open table 7702 and add a code representing the new key. In this example, create a key that is named **F6**.  
+3. Add C/AL code to the relevant function of the miniform-specific codeunit to handle the function key.  
 
 ### To customize miniform functions  
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Miniforms**, and then choose the related link.  
@@ -101,7 +101,7 @@ When you have created a miniform, the next steps are to create functions and to 
 3.  Choose the **Functions** action.  
 4.  In the **Function Code** drop-down list, select a code to represent the function that you want to associate with the miniform. For example, you can select ESC, which associates functionality with the press of the ESC key.  
 
-In the [!INCLUDE[d365fin](includes/d365fin_md.md)] development environment, edit the code for the **Handling Codeunit** field to create or modify code to perform the required action or response.
+In the [!INCLUDE [d365fin](includes/d365fin_md.md)] development environment, edit the code for the **Handling Codeunit** field to create or modify code to perform the required action or response.
 
 For more information, see [Configuring an Automated Data Capture System](/dynamics-nav/Configuring-Automated-Data-Capture-System) in the developer and IT-pro help.
 

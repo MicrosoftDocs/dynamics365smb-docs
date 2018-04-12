@@ -15,7 +15,7 @@
 ---
 
 # Allocate Resources
-The key element to service management is the people who supply service. You can set up [!INCLUDE[d365fin](includes/d365fin_md.md)] to assign the appropriate people to the appropriate jobs. Assignments can be based on service zones where the people are located or where the service occurs. In addition, you can group resources together when responding to service requests. For more information, see [Set Up Resource Allocation](service-how-setup-resource-allocation.md).
+The key element to service management is the people who supply service. You can set up [!INCLUDE [d365fin](includes/d365fin_md.md)] to assign the appropriate people to the appropriate jobs. Assignments can be based on service zones where the people are located or where the service occurs. In addition, you can group resources together when responding to service requests. For more information, see [Set Up Resource Allocation](service-how-setup-resource-allocation.md).
 
 You can allocate resources, for example, technicians, by using the **Dispatch Board**, or from a service order. You can use resource availability to allocate resources to perform the service tasks in the orders or quotes.
 
@@ -47,7 +47,7 @@ You may often need to see the list of service orders or service quotes that meet
 
      The **Status** field is automatically set to **Active**.  
 
- Repeat these steps for each date that you want to allocate the resource to the service task.  
+   Repeat these steps for each date that you want to allocate the resource to the service task.  
 
 > [!NOTE]  
 >  For a service item in a service order, there can only be **Active** allocation entries with one resource or resource group at a time.  
@@ -91,14 +91,14 @@ If the resource allocated to a service task cannot accomplish the work, it means
 4. Select the allocation entry with the service task you want to reallocate a resource to.  
 5. In the **Resource No.** field, select the relevant resource. It overwrites the resource number already in the field.  
 6. Press Enter. The **Reallocation Entry Reasons** dialog box opens, asking whether you want to reallocate this entry. Fill in the **Reason Code** field if appropriate and choose the **Yes** button to confirm the reallocation.  
-7.  Fill in the **Allocation Date** and **Allocated Hours** fields. The entry now contains the new resource and its status is **Active**.  
+7. Fill in the **Allocation Date** and **Allocated Hours** fields. The entry now contains the new resource and its status is **Active**.  
 
-    > [!NOTE]  
-    >  The old entry still exists but the status is updated in the following ways:  
-    >   
-    >  * If service was started while the allocation was **Active**, that is, if the repair status of the service item in the entry was changed to **In Process**, the allocation status changes from **Reallocation Needed** to **Finished**.  
-    > * If service was not started while the allocation was **Active**, the allocation status changes from **Reallocation Needed** to **Canceled**.  
-    > * If you are reallocating a service order that you have converted from a quote, the status of the allocation entries registered for the quote always changes to **Finished** when you reallocate the service items in the service order.  
+   > [!NOTE]
+   >  The old entry still exists but the status is updated in the following ways:  
+   > 
+   > * If service was started while the allocation was **Active**, that is, if the repair status of the service item in the entry was changed to **In Process**, the allocation status changes from **Reallocation Needed** to **Finished**.  
+   >   * If service was not started while the allocation was **Active**, the allocation status changes from **Reallocation Needed** to **Canceled**.  
+   >   * If you are reallocating a service order that you have converted from a quote, the status of the allocation entries registered for the quote always changes to **Finished** when you reallocate the service items in the service order.  
 
 ## To register resource hours  
 When working on service items in service orders, you need to register the resource hours used for the service. The following procedure shows how to register the resource hours in the **Service Item Worksheet** window.  
@@ -109,7 +109,7 @@ If the same resource works on all the service items in the service order, you ca
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Tasks**, and then choose the related link.
 2. Select the line that includes the relevant service item, and then choose the **Item Worksheet** action.  
-3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To assign a resource to all service items in an order
 If the same resource, for example a technician, works on all the service items in the service order, you can register the total resource hours for one service item only and then split the resource line to divide the resource hours onto the resource lines for the other service items.  
@@ -134,7 +134,7 @@ You can cancel resource allocations for service tasks without reallocating the t
 5. In the **Reason Code** field, select the appropriate reason code.  
 6. Choose **Yes** to confirm the cancellation.  
 
-  > [!NOTE]  
+   > [!NOTE]  
     > In the **Status** field, the **Reallocation Needed** option is automatically selected. If the repair status of the service item in the entry is **Initial**, the repair status is changed to **Referred**, that is, no service has been started. If the repair status is **In Process**, it is changed to **Partly Serviced**, that is, some service has been completed.
 
 ## See Also

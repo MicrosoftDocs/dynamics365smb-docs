@@ -17,7 +17,7 @@
 
 ---
 # Switzerland Local Functionality
-The following topics describe local functionality that is unique to the Swiss version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+The following topics describe local functionality that is unique to the Swiss version of [!INCLUDE [d365fin](../../includes/d365fin_md.md)].  
 
 ## In This Section  
  [Enhanced Document Management](enhanced-document-management.md)  
@@ -31,5 +31,5 @@ The following topics describe local functionality that is unique to the Swiss ve
 ## See Also
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)
 
-## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](../../includes/training_link_md.md)]
+## [!INCLUDE [d365fin](../../includes/free_trial_md.md)]  
+## [!INCLUDE [d365fin](../../includes/training_link_md.md)]

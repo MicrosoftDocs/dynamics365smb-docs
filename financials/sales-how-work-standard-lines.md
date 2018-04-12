@@ -23,7 +23,7 @@ The following procedure shows how to work with standard sales lines. It works in
 ## To set up standard sales lines  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Standard Sales Codes**, and then choose the related link.  
 2. In the **Standard Sales Lines** window, choose the **New** action.  
-3. On the **General** FastTab, fill the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. On the **General** FastTab, fill the fields as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. On the **Lines** FastTab, enter information in the fields to prepare sales lines that reflect the standard lines that you expect to use as recurring lines on sales documents.  
 
 ## To insert standard sales lines on a sales invoice

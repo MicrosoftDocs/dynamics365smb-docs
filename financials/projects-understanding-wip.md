@@ -16,7 +16,7 @@ ms.author: sgroespe
 
 ---
 # Understanding WIP Methods
-[!INCLUDE[d365fin](includes/d365fin_md.md)] supports the following methods of calculating and recording the value of work in process.
+[!INCLUDE [d365fin](includes/d365fin_md.md)] supports the following methods of calculating and recording the value of work in process.
 
 | WIP Method | Calculation Formula | Calculation Description |
 | --- | --- | --- |

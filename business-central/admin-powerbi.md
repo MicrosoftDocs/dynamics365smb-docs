@@ -16,6 +16,8 @@ ms.author: edupont
 # Enabling Your Business Data for Power BI
 Getting insights into your [!INCLUDE[d365fin](includes/d365fin_md.md)] data is easy with Power BI and the [!INCLUDE[d365fin](includes/d365fin_md.md)] content packs. Power BI retrieves your data and then builds an out-of-the-box dashboard and reports based on that data.  
 
+You must have a valid account with Dynamics 365 and with Power BI. Also, you must download [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) if you wish to create your own Power BI reports. Power BI content packs require permissions to the tables where data is retrieved from.
+
 Microsoft has published the following content packs:
 
 | App | Description |
@@ -37,84 +39,128 @@ The content packs are preconfigured to work with data from the demonstration com
 > [!NOTE]  
 >   You can also build your own reports and dashboards in Power BI based on your [!INCLUDE[d365fin](includes/d365fin_md.md)] data. For more information, see [Connecting Your Business Data to Power BI](across-how-use-financials-data-source-powerbi.md).  
 
-## Accessing [!INCLUDE[d365fin](includes/d365fin_md.md)] in Power BI
-To see your [!INCLUDE[d365fin](includes/d365fin_md.md)] data in Power BI, you must have the following:  
+## How to Connect
+1. Select **Get Data** at the bottom of the left navigation pane.  
+![Navigating to Get Data](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
-* Access to [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Business Central](http://go.microsoft.com/fwlink/?LinkID=759714).  
-* Access to Power BI. For more information, see [Power BI](https://powerbi.microsoft.com).
+You may also get starting from within Dynamics 365 Business Edition. From the role center, navigate to **Report Selection** in the Power BI Role Center part. Select either **Service** or **My Organization** from the ribbon. When either of these actions are selected, you will be taken to either the Organization gallery in Power BI or to the services library in Power BI, which will also be filtered to only display content packs related to [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
 
-On the Power BI site, you can find additional information about [connecting to services with content packs for Power BI](http://go.microsoft.com/fwlink/?LinkID=760850).  
+2. In the **Services** box, select **Get**. This will open a window with the **AppSource** and **Apps for Power BI apps**.  
+![Choose content packs from online services](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)
+3. Select **Apps** from the **Apps for Power BI apps** tab, choose the **Microsoft Dynamics 365 Business Central** content pack that you want to use, and then select **Get it now**.  
+![Select Dynamics 365 Business Central and select Get it now](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-dynamics365-for-financials-get-it-now.png)
+4. When prompted, enter the name of *your company* in [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)]. This is not the display name. The company name can be found on the 'Companies' page within your [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)] kvinstance.  
+![Select Dynamics 365 Business Central and select Get it now](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-connect-to-d365-finance-and-operations-crm.png)
+5. Once connected, a dashboard, report and dataset will automatically be loaded into your Power BI workspace. When completed, the tiles will update with data from your [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)] company.
+![Select Dynamics 365 Business Central  and select Get it now](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
-To access your [!INCLUDE[d365fin](includes/d365fin_md.md)] data in Power BI, on the connection page, you must specify the following information:
+## What Now?
 
-| Field | Description |
-| --- | --- |
-| **OData Feed URL** |The OData URL so Power BI can access data from your company, such as https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('My%2Business'). |
-| **Authentication method** |Choose **Basic**. |
-| **User name** |Your name as it displays for your account in [!INCLUDE[d365fin](includes/d365fin_md.md)], such as *John Smith*. |
-| **Password** |This is the web service access key for your user account in [!INCLUDE[d365fin](includes/d365fin_md.md)]. |
+- Try [asking a question in the Q&A box](https://docs.microsoft.com/en-us/power-bi/service-q-and-a) at the top of the dashboard.
+- [Change the tiles](https://docs.microsoft.com/en-us/power-bi/service-dashboard-edit-tile) in the dashboard.  
+- [Select a tile](https://docs.microsoft.com/en-us/power-bi/service-dashboard-tiles) to open the underlying report.  
+- While your dataset will be scheduled to refreshed daily, you can change the refresh schedule or try refreshing it on demand using **Refresh Now**.
 
-This means that you must get 2 pieces of information from [!INCLUDE[d365fin](includes/d365fin_md.md)]: The *OData URL* and the *web service access key* for your user account.  
+## System Requirements
+To import your [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] data into Power BI, you need to have permissions to the web services used to retrieve data. The web services required for each content pack include:
 
-### Getting the URL
-When you add [!INCLUDE[d365fin](includes/d365fin_md.md)] to Power BI, you must specify a URL so Power BI can access data from your company. On the connection page, the URL is referred to as the **OData Feed URL**, and it must have the following format:
+## Role Center Reports
 
-         https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')  
-In this example, *mybusiness* is the name of your [!INCLUDE[d365fin](includes/d365fin_md.md)] service, and *CRONUS US* is the name of the demonstration company with *%20* representing the space in the name.   
-To get the URL, in [!INCLUDE[d365fin](includes/d365fin_md.md)], search for and open the **Web Services** window. This window lists the web services that are currently available, and you can copy the link from the **OData URL** field for one of the default OData web services.  
+**Microsoft Dynamics 365 Business Central – CRM**
+- Sales Opportunities
+- Excel Template View Company
+- Power BI Report Labels
 
-### Getting the user name and the web service access key
-In order to use data from [!INCLUDE[d365fin](includes/d365fin_md.md)] in Power BI, in the **Connect to Financials** window, you must specify a user name and a password. The user name is your name as it displays for your account in [!INCLUDE[d365fin](includes/d365fin_md.md)] so that Power BI can log in to [!INCLUDE[d365fin](includes/d365fin_md.md)]. The password is the web service access key that is set up for your user account in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+**Microsoft Dynamics 365 Business Central – Finance**
+- PowerBIFinance
+- Excel Template View Company
+- Power BI Report Labels
 
-To find this information, in [!INCLUDE[d365fin](includes/d365fin_md.md)], search for the **Users** window, and then open the card for your user account. On the **General** FastTab, copy the content of the **User Name** field, and on the **Web Service Access** FastTab, copy the contents of the **Web Service Access Key** field. If the **Web Service Access Key** field is blank, in the ribbon, choose **Change Web Service Access Key**, choose the **Key Never Expires** field, and then choose the OK button. You can then copy the key.  
+**Microsoft Dynamics 365 Business Central – Jobs**
+- Job List
+- Job Planning Lines
+- Job Task Lines
+- Power BI Report Labels
+- Excel Template View Company
 
-## Getting Data from [!INCLUDE[d365fin](includes/d365fin_md.md)]
-The [!INCLUDE[d365fin](includes/d365fin_md.md)] dashboard shows the most typical reports that you will want to use to track your business. The data is extracted from your [!INCLUDE[d365fin](includes/d365fin_md.md)] company using web services to read live data. In [!INCLUDE[d365fin](includes/d365fin_md.md)], the **Web Services** window lists the web services that have been set up for you.
+**Microsoft Dynamics 365 Business Central - Sales**
+- Sales Dashboard
+- Excel Template View Company
+- Power BI Report Labels
 
-> [!NOTE]  
->   If you change the name of any of these web services, the data will not show up in Power BI.  
-If you want to add use other data in Power BI, you must find the tables in [!INCLUDE[d365fin](includes/d365fin_md.md)], expose them as web services, and then add them to the content pack. This is an advanced scenario, and we recommend that you start with the data that is already available in Power BI.  
+## List Page Reports 
+
+**Microsoft Dynamics 365 Business Central – Customers List**
+- Item Sales by Customer
+- Power BI Item Purchase List
+- Power BI Item Sales List
+- Sales Dashboard
+- Power BI Customer List
+- ExcelTemplateViewCompany
+- Power BI Report Labels 
+
+**Microsoft Dynamics 365 Business Central - General Ledger Entries List**
+- Power BI GL Amount List
+- Power BI GL Budgeted Amount
+- ExcelTemplateViewCompany
+- Power BI Report Labels
+
+**Microsoft Dynamics 365 Business Central – Items List**
+- Item Sales by Customer
+- Power BI Item Purchase List
+- Power BI Item Sales List
+- Sales Dashboard
+- ExcelTemplateViewCompany
+- Power BI Report Labels
+
+**Microsoft Dynamics 365 Business Central – Jobs List**
+- Power BI Jobs List
+- ExcelTemplateViewCompany
+- Power BI Report Labels
+
+**Microsoft Dynamics 365 Business Central – Purchase Invoices List**
+- Power BI Purchase List
+- ExcelTemplateViewCompany
+- Power BI Report Labels
+
+**Microsoft Dynamics 365 Business Central – Sales Orders List**
+- Power BI Sales List
+- ExcelTemplateViewCompany
+- Power BI Report Labels
+
+
+**Microsoft Dynamics 365 Business Central – Vendors List**
+- Power BI Item Purchase List
+- Power BI Item Sales List
+- Power BI Vendor List
+- ExcelTemplateViewCompany
+- Power BI Report Labels
+
+## Web Services
+An easy way to find the web services is to search for web services in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. In the list make sure the Publish box is marked for the web services listed above.
 
 ## Troubleshooting
-The Power BI dashboard relies on the published web services that are listed above, and it will show data from the demonstration company or your own company if you import data from your current finance solution. However, if something goes wrong, this section provides a workaround for the most typical issues.  
+The Power BI dashboard relies on the published web services that are listed above, and it will show data from the demonstration company or your own company if you import data from your current finance solution. However, if something goes wrong, this section provides a workaround for the most typical issues.
 
-**"Parameter validation failed, please make sure all parameters are valid"**  
-If you see this error after you enter your [!INCLUDE[d365fin](includes/d365fin_md.md)] URL, make sure the following requirements are satisfied:  
+### Incorrect Company Name  
+A common mistake is to enter the company display name instead of the company name. To find the company name search for **Companies**. Then use the **Name** field when entering your company name.
 
-* The URL follows exactly this pattern:
+### Incorrect User Name and Password  
+The user name and password used to connect will be the same as what is used to connect to your Microsoft Office 365 account.  
 
-    https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')  
-* Delete any text after the company name in parenthesis  
-* Make sure there are no trailing forward slash at the end of the URL.  
-* Make sure that it is a secure connection as indicated by the URL starting with *https*.  
+The content packs also require that you have a Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] account. Once you enter your credentials, we will auto discover any Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] tenants you have access to. If you do not have a licensed or trial Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] account, you will receive an error message.
 
-**"Login failed"**  
-If you get a "login failed" error when you log in to the dashboard, using your [!INCLUDE[d365fin](includes/d365fin_md.md)] credentials, then this can be caused by one of the following issues:
-
-* The account you are using does not have permissions to read the [!INCLUDE[d365fin](includes/d365fin_md.md)] data from your account.
-
-    Verify your user account in [!INCLUDE[d365fin](includes/d365fin_md.md)], and make sure that you have used the right web service access key as the password, and then try again.  
-* The [!INCLUDE[d365fin](includes/d365fin_md.md)] instance that you are trying to connect to does not have a valid SSL certificate. In this case you'll see a more detailed error message ("unable to establish trusted SSL relationship").
-
-    > [!NOTE]  
-    >   Self-signed certificates are not supported.  
-
-**"Oops"**  
-If you see an "Oops" error dialog after you pass the authentication dialog, this is most frequently caused by a problem connecting to the data for the content pack.
-
-* Verify that the URL follows the pattern that was specified earlier:
-
-    `https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')`  
-* A common mistake is to specify the full URL for a specific web service:
-
-    `https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')/powerbifinance`
-* Or you might have forgotten to specify the company name:
-
-    `https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/`
+### The Key Didn't Match Any Rows in the Table
+If you enter a non-valid company name during the connection process, you may get the error message "The key didn't match any rows in the table". Provide the correct company name and try connecting again.
 
 ## See Also
+[Get started with Power BI](https://docs.microsoft.com/en-us/power-bi/service-get-started)  
+[Power BI - Basic Concepts](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts)  
 [Business Intelligence](bi.md)  
 [Getting Started](product-get-started.md)  
+[Importing Business Data from Other Finance Systems](upload-data.md)  
+[Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Finance](finance.md)  
 [Migrate Business Data from Other Finance Systems](upload-data.md)  
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as a PowerApps Data Source](across-how-use-financials-data-source-powerapps.md)  

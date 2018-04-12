@@ -20,8 +20,7 @@ Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] is a business ma
 
 There are plenty of benefits of using [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] as a platform for App builders, which includes:
 
-* Get started with confidence through a seamless onboarding experience
-* Leverage the [!INCLUDE[d365fin](includes/d365fin_md.md)] brand – a brand that millions of users know and trust  
+* Get started with confidence through a seamless onboarding experience 
 * Use Microsoft’s Go-To-Market services
 * Customize your app listing page 
 * Connect directly with decision-makers and reach more customers
@@ -37,7 +36,7 @@ Bring your [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] services to Mic
 
 Find more information on apps and consulting services that are currently available on [Microsoft AppSource]( (https://appsource.microsoft.com/en-us/marketplace/consulting-services?country=US&page=1)).
 
-To help business users get started quickly, Microsoft has added a catalog of consulting services offerings for solutions based on Dynamics 365 Business Central, Power BI, and PowerApps to AppSource. Learn more about the [Consulting Services](/dynamics-nav/developer/readiness/readiness-consulting).
+To help business users get started quickly, Microsoft has added a catalog of consulting services offerings for solutions based on [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], Power BI, and PowerApps to AppSource. Learn more about the [Consulting Services](/dynamics-nav/developer/readiness/readiness-consulting).
 
 ## Choosing which services to offer with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] 
 
@@ -48,13 +47,13 @@ To help business users get started quickly, Microsoft has added a catalog of con
 Create an app that is specialized within a specific industry. With [Embed app](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-embed-apps), you can extend and customize the existing [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] application and enrich the end-user experience with an industry specific functionality using the new and modern development tools and Extensions version 2.0. Learn more about the [Development of a Vertical Solution](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-vertical).
 
 ### Development of a horizontal solution
-Extend the experience and capability of Dynamics 365 Business Central by creating an [Add-on app](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-add-on-apps) which integrates into user experience of Dynamics 365 Business Central. Build an interface based on how you want your data to flow between Dynamics 365 Business Central and your services. Learn more about the [Development of a Horizontal Solution](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-horizontal). 
+Extend the experience and capability of [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] by creating an [Add-on app](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-add-on-apps) which integrates into user experience of [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]. Build an interface based on how you want your data to flow between [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] and your services. Learn more about the [Development of a Horizontal Solution](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-horizontal). 
 
 ### Development of a localization solution
-Comply with local regulatory capabilities by developing for Dynamics 365 Business Central, which adapts functional areas to the requirements of the local market along with [Dynamics 365 Translation Service](/dynamics365/unified-operations/dev-itpro/lifecycle-services/translation-service-overview). Align the core capabilities of local legal requirement and extend existing functionality to successfully compete on your local market. Learn more about the [Development of a Localization Solution](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization).
+Comply with local regulatory capabilities by developing for [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], which adapts functional areas to the requirements of the local market along with [Dynamics 365 Translation Service](/dynamics365/unified-operations/dev-itpro/lifecycle-services/translation-service-overview). Align the core capabilities of local legal requirement and extend existing functionality to successfully compete on your local market. Learn more about the [Development of a Localization Solution](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization).
 
 ### Reseller solution
-Since every business is unique, with [Customizing Tenants](/dynamics-nav/developer/readiness/readiness-customizing-tenants), you can match how you work including your streamlined processes, your terminology, and how your employees or departments connect and collaborate. Additionally, you can choose to resell and adjust Dynamics 365 Business Central to the individual needs of your customers by providing [Consulting Services](/dynamics-nav/developer/readiness/readiness-consulting). Or, use Microsoft Flow, Power Apps, and Power BI to create [Customized Workflows](/dynamics-nav/developer/readiness/readiness-no-code), apps and business insight reports without having to write any code. Learn more about [Dynamics 365 Reseller (VARs)](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller). 
+Since every business is unique, with [Customizing Tenants](/dynamics-nav/developer/readiness/readiness-customizing-tenants), you can match how you work with your streamlined processes, your terminology, and how your employees or departments connect and collaborate. Additionally, you can choose to resell and adjust [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] to the individual needs of your customers by providing [Consulting Services](/dynamics-nav/developer/readiness/readiness-consulting). Or, use Microsoft Flow, Power Apps, and Power BI to create [Customized Workflows](/dynamics-nav/developer/readiness/readiness-no-code), apps and business insight reports without having to write any code. Learn more about [Dynamics 365 Reseller (VARs)](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller). 
 
 ## Where do I learn more?
 To learn more about the Microsoft AppSource consulting services offerings, select the following links: 
@@ -64,13 +63,13 @@ To learn more about the Microsoft AppSource consulting services offerings, selec
 [Partner Nomination Form](https://appsource.microsoft.com/en-us/partners/list-consulting-service)  
 
 ## The Ready to Go program
-The Ready to Go program is designed to support you in bringing your Microsoft [!INCLUDE[d365_bus_central_md](../includes/d365_bus_central_md.md)] offers into Microsoft Appsource. The program holds: 
+The Ready to Go program is designed to support you in bringing your Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] offers into Microsoft Appsource. The program holds: 
 
 - [Online learning](http://aka.ms/ReadyToGoOnlineLearning)
 - [Training and workshops](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go#the-ready-to-go-coaching)
 - [Microsoft Collaborate platform](http://aka.ms/Collaborate)
 
-Learn more on how you can build a Dynamics 365 Business Central offering in the [Ready to Go program](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go) details. If you have questions or feedback about the **Ready to Go** program offering, you can [contact us](mailto:dyn365bep@microsoft.com). 
+Learn more on how you can build a [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] offering in the [Ready to Go program](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go) details. If you have questions or feedback about the **Ready to Go** program offering, you can [contact us](mailto:dyn365bep@microsoft.com). 
 
 <!--
 

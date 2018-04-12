@@ -16,7 +16,7 @@ ms.author: edupont
 
 ---
 # Extending [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] is a business management solution that helps companies connect their financials, sales, service, and operations to streamline business processes, improve customer interactions, and make better decisions. [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] is available in the cloud and to users across various multiple types of devices, which is always up-to-date. With this modern business platform you can easily and quickly tailor, extend, and build applications so they fit your specific needs — with little to no code development.
+Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] is a business management solution that helps companies connect their financials, sales, service, and operations to streamline business processes, improve customer interactions, and make better decisions. [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] is available in the cloud and to users across various multiple types of devices, which is always up-to-date. With this modern business platform you can easily and quickly tailor, extend, and build applications so they fit your specific needs — with little to no code development.  
 
 There are plenty of benefits of using [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] as a platform for App builders, which includes:
 
@@ -34,7 +34,9 @@ Bring your [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] services to Mic
 **Individual Apps** – where you bring your industry expertise to market.  
 **Packaged Consulting Services** – where you bring ready-made packaged engagements to market.
 
-Find more information on apps and consulting services that are currently available on [Microsoft AppSource]( (https://appsource.microsoft.com/en-us/marketplace/consulting-services?country=US&page=1)).
+The new development tools enable to you to build extensions v2.0. If you want to familiarize yourself with the new tools or learn more about extensions 2.0, have a look at [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
+
+Find more information on apps and consulting services that are currently available, take a look at [Microsoft AppSource]( (https://appsource.microsoft.com/en-us/marketplace/consulting-services?country=US&page=1)).
 
 To help business users get started quickly, Microsoft has added a catalog of consulting services offerings for solutions based on [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], Power BI, and PowerApps to AppSource. Learn more about the [Consulting Services](/dynamics-nav/developer/readiness/readiness-consulting).
 
@@ -71,53 +73,11 @@ The Ready to Go program is designed to support you in bringing your Microsoft [!
 
 Learn more on how you can build a [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] offering in the [Ready to Go program](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go) details. If you have questions or feedback about the **Ready to Go** program offering, you can [contact us](mailto:dyn365bep@microsoft.com). 
 
-<!--
 
-## Bring your [!INCLUDE[d365fin](includes/d365fin_md.md)] app into AppSource:
 
-+ Create your accounts  
-We want you to have access to all the necessary tools! You must have a Microsoft Partner Network ID, a Developer account, and a PSBC account.
-For more information about how you can get your accounts in place, get the [Create your accounts.pdf](https://go.microsoft.com/fwlink/?linkid=841514) document from the Download Center.
 
-+ Engage with us about your app idea  
-Share your [!INCLUDE[d365fin](includes/d365fin_md.md)] app idea with us on Microsoft AppSource! After submitting your idea, we will engage with you and provide you with everything you need to start working on your app.
-For more information about all the steps, get the [Engage with us about your app idea document.pdf](https://go.microsoft.com/fwlink/?linkid=841515) document from the Download Center.
 
-+ Develop the technical aspects of your app    
-After you have set up your own app development environment, you can develop your app.
-For more information about everything you need to know about how to develop the technical aspects of your [!INCLUDE[d365fin](includes/d365fin_md.md)] app, get the [Develop the technical aspects of your app.pdf](https://go.microsoft.com/fwlink/?linkid=841516) document from the Download Center.
 
-+ Develop the marketing aspects of your app  
-Simply listing your app's features and functionality will not convert prospects to buyers. For more information about how to best market your app in the AppSource marketplace, get the [Develop the marketing aspects of your app.pdf](https://go.microsoft.com/fwlink/?linkid=841518) from the Download Center.
-
-+ Publish your app  
-Before we publish, we will collaborate with you to ensure that your app stands out on Microsoft AppSource and on your own landing page! We need to validate your app to ensure it is marketed well, trustworthy, and up to date.
-For more information about the validation process and how to publish your app, get the [Publish your app.pdf](https://go.microsoft.com/fwlink/?linkid=841517) document from the Download Center.
-
-## Learn more about extensions v2.0
-The new development tools, which enable to you to build extensions v2.0, are currently in preview and will be enabled in the Business Central  service soon. If you already want to familiarize yourself with the new tools or learn more about extensions 2.0, have a look at [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps). 
-
-## Need help?
-If you would like some coaching, you can contact an app subject matter expert from the following list:
-
-* Cloud Ready Software, [http://cloud-ready-software.com](http://cloud-ready-software.com/)  
-* Dynamics App Alliance, [http://dynamicsappalliance.com​](http://dynamicsappalliance.com/​)
-
-Partners in​ this list:
-
-* Are listed alphabetically  
-* Are assisting or have assisted a minimum of three partners with bringing apps into Microsoft AppSource  
-* Have a packaged service available (and listed on their website) about the app guidance that they provide  
-
-If you believe you should be listed as an app service partner, don't hesitate to reach out to [d365-smb@microsoft.com​](mailto:d365-smb@microsoft.com​).
-
-## Questions?
-This [FAQ](https://go.microsoft.com/fwlink/?linkid=841520) responds to the most common questions you might have about apps for [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]. If you have further questions, don't hesitate to contact your local Microsoft representative or email [d365-smb@microsoft.com](mailto:d365-smb@microsoft.com​).
-
-## Further Resources
-Please find further resources for app development on our [DLP topic page](https://mbspartner.microsoft.com/BFI/Topic/76) DLP topic page. Some selected ones are available below:
--	[User Registration and Subsequent Billing ](http://download.microsoft.com/download/3/2/0/320D0286-8810-4A8F-B7DD-523ED87D441B/FAQ on apps for Dynamics 365 for Financials.pdf)
--->
 
 ## See Also
 [Getting Started](product-get-started.md)  

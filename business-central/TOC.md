@@ -13,7 +13,6 @@
 ## [Using Business Central as Your Business Inbox in Outlook](admin-outlook.md)
 ## [Using Business Central Without Outlook](admin-no-outlook.md)
 ## [Enabling Your Business Data for Power BI](admin-powerbi.md)
-## [Connecting PowerBI to Business Central Content Packs](across-how-to-connect-powerbi-dynamics-365-content-packs-help.md)
 ## [Using Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md)
 ## [Using Business Central as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)
 ## [Connecting to Your Business Central Data to Build a Business App Using PowerApps](across-how-use-financials-data-source-powerapps.md)

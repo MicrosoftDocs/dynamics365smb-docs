@@ -32,7 +32,7 @@ A fiscal year can be closed if all of the following criteria are met:
 
 - The fiscal year has been closed using the **Close Year** function in the **Accounting Periods** window. For more information, see [Closing Years and Periods](../../year-close-years-periods.md).  
 
-- All of the unposted journal lines and simulation entries for the year have been posted or deleted.  
+- All the unposted journal lines for the year have been posted or deleted.  
 
 - All closing entries are up to date.  
 

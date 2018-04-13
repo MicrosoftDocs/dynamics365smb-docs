@@ -38,4 +38,4 @@ If a contact person's age is below the age of legal consent according to the law
 ## See Also
 [Classifying Data](https://docs.microsoft.com/en-us/dynamics-nav/classifying-data)  
 [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)  
-[Exporting your Business Data to Excel](https://docs.microsoft.com/en-us/dynamics-nav-app/about-export-data)  
+[Exporting your Business Data to Excel](about-export-data.md)  

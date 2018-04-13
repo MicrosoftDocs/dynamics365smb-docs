@@ -1,8 +1,8 @@
 ---
     title: How to Print General Ledger Reports
-    description: General ledger reports meet financial accounting standards, and they contain information about ledger entries, simulation entries, customer entries, vendor entries, and bank entries.
+    description: General ledger reports meet financial accounting standards, and they contain information about ledger entries, customer entries, vendor entries, and bank entries.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -17,7 +17,7 @@
 
 ---
 # Print General Ledger Reports
-General ledger reports meet financial accounting standards, and they contain information about ledger entries, simulation entries, customer entries, vendor entries, and bank entries.  
+General ledger reports meet financial accounting standards, and they contain information about ledger entries, customer entries, vendor entries, and bank entries.  
 
 ## To print general ledger reports  
 

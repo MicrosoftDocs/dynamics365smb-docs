@@ -2,7 +2,7 @@
     title: How to Fiscally Close Accounting Periods
     description: When a fiscal period is complete, you can fiscally close the period to make sure that no more general ledger entries can be posted.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -18,9 +18,6 @@
 ---
 # Fiscally Close Accounting Periods
 When a fiscal period is complete, you can fiscally close the period to make sure that no more general ledger entries can be posted.  
-
-> [!NOTE]  
->  When a period is being closed, any simulation entries that may exist are found and deleted.  
 
 ## To fiscally close accounting periods  
 

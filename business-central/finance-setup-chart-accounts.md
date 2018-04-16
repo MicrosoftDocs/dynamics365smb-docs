@@ -1,8 +1,6 @@
 ---
-title: Setting Up the Chart of Accounts| Microsoft Docs
+title: Set up the Chart of Accounts
 description: You change the default accounts in the chart of accounts (COA), and you can add new accounts.
-services: project-madeira
-documentationcenter: ''
 author: edupont04
 
 ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: COA, cha of acc
-ms.date: 06/02/2017
+ms.date: 04/16/2018
 ms.author: edupont
 
 ---
@@ -36,6 +34,7 @@ From the chart of accounts, you can open each G/L account and add or change sett
 [Managing Bank Accounts](bank-manage-bank-accounts.md)  
 [Working with Dimensions](finance-dimensions.md)  
 [Importing from Other Finance Systems](upload-data.md)  
+[Work with Account Schedules](bi-how-work-account-schedule.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

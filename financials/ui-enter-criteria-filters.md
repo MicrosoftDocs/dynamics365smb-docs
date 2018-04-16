@@ -61,12 +61,12 @@ You can add filters to all pages by using the Quick Filter. The Quick Filter is 
     <TD>All records that start with the text <b>Man</b>.</TD>
   </TR>
   <TR>
-    <TD>'man'</TD>
+    <TD>&#39;man&#39;</TD>
     <TD>An exact text and case sensitive.</TD>
     <TD>All records that match <b>man</b> exactly.</TD>
   </TR>
   <TR>
-    <TD>@man* </TD>
+    <TD><xref href="man*" data-throw-if-not-resolved="False" data-raw-source="@man*"></xref> </TD>
     <TD>Starts with and case insensitive.</TD>
     <TD>All records that start with <b>man</b>.</TD>
   </TR>
@@ -84,18 +84,18 @@ You can add filters to all pages by using the Quick Filter. The Quick Filter is 
 You can add a filter on one or more columns in a list. Filtering on columns is more flexible and enhanced than the Quick Filter. 
 
 ### To add a filter on a column
-1.  Before you add a filter, choose ![Show as list](media/ui_show_as_list_icon.png "Show as list arrow left") icon to change to the list view.
+1. Before you add a filter, choose ![Show as list](media/ui_show_as_list_icon.png "Show as list arrow left") icon to change to the list view.
 2. Choose the downwards arrow in the column heading, and then choose **Filter**.
 3. Do one of the following: 
-  -  Choose *...* next to the box to select a value from a list.
-  -  Enter filter criteria in the box. See the next section for details.
+   -  Choose *...* next to the box to select a value from a list.
+   -  Enter filter criteria in the box. See the next section for details.
 4. Choose the **OK** button.
 
 ## Filter criteria and symbols
 When you enter criteria, you can use all the numbers and letters that you can normally use in the field. In addition, you can use special symbols to further filter the results. The following tables show the symbols which can be used in filters.  
   
-> [!IMPORTANT]  
->  There may be instances where field values contain these symbols and you want to filter on them. To do this, you must include the filter expression that contains the symbol in quotation marks (''). For example, if you want to filter on records that start with the text *S&R*, the filter expression is **'S&R*'**.  
+> [!IMPORTANT]
+>  There may be instances where field values contain these symbols and you want to filter on them. To do this, you must include the filter expression that contains the symbol in quotation marks (''). For example, if you want to filter on records that start with the text *S&R*, the filter expression is <strong>'S&R*'</strong>.  
   
 ### (..) Interval  
   

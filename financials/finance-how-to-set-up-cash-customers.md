@@ -19,13 +19,13 @@
 You cannot create an invoice without a customer number. This is true, even if you make a cash sale and do not have anything to record in a customer account.  
 
 ## To set up a cash customer  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customer**, and then choose the related link.  
-2.  Create a new **Customer** card. For more information, see [Register New Customers](sales-how-register-new-customers.md).
-3.  In the **No.** field, enter **Cash**, for example.  
-4.  In the **Name** field, enter **Cash Sale**, for example.  
-5.  On the **Invoicing** FastTab, fill in the **Customer Posting Group** and the **Gen. Bus. Posting Group** fields.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customer**, and then choose the related link.  
+2. Create a new **Customer** card. For more information, see [Register New Customers](sales-how-register-new-customers.md).
+3. In the **No.** field, enter **Cash**, for example.  
+4. In the **Name** field, enter **Cash Sale**, for example.  
+5. On the **Invoicing** FastTab, fill in the **Customer Posting Group** and the **Gen. Bus. Posting Group** fields.  
 
- Now you have set up a customer that contains sufficient information for invoicing.  
+   Now you have set up a customer that contains sufficient information for invoicing.  
 
 > [!NOTE]  
 >  You may have chosen a posting group that is also used for domestic credit sales. If you want to maintain separate data on cash sales, for example, with a special sales or receivables account, you can set up an extra posting group for this purpose.  

@@ -34,7 +34,7 @@ On a payment reconciliation journal line where the payment has been set to posti
 4. In the **Mapping Text** field, enter any text that occurs on payments that you want to post to specified accounts without applying to an open entry. You can enter up to 50 characters.
 
     > [!NOTE]  
->   If no other payments exist with the mapping text in question, then the text-to-account mapping will occur even when only a part of the text on the payment exists as a mapping text.
+   >   If no other payments exist with the mapping text in question, then the text-to-account mapping will occur even when only a part of the text on the payment exists as a mapping text.
 5. In the **Vendor No.** field, enter the vendor that the payments will be posted to.
 6. In the **Bal. Source Type** field, specify if the payment will be posted to a general ledger account or to a customer or vendor account.
 7. In the **Bal. Source No.** field, specify the account that the payment will be posted to, depending on your selection in the **Bal. Source Type** field.
@@ -53,7 +53,7 @@ To always post fuel expenses incurred at Shell gas stations to the general ledge
 | --- | --- | --- | --- | --- |
 | Shell |BLANK |8510 |G/L Account |BLANK |
 
-> [!TIP]  
+> [!TIP]
 >   For more information about how to work with fields and columns, see [Working with [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md). For more information about how to find specific pages, see [Search](ui-search.md).
 
 ## See Also

@@ -30,7 +30,7 @@ This walkthrough describes the following tasks:
 ### Prerequisites  
 To complete this walkthrough, you will need:  
 
-- [!INCLUDE[d365fin](includes/d365fin_md.md)] installed.  
+- [!INCLUDE [d365fin](includes/d365fin_md.md)] installed.  
 - The cash flow worksheet lines are registered.  
 
 ## Roles  
@@ -57,19 +57,20 @@ After an account schedule name is set up, Ken defines each line that appears in 
 
 ### To set up account schedule lines  
 
-1.  In the **Account Schedule Names** window, select the new **Forecast** account schedule name that you have created. On the **Home** tab, in the **Process** group, choose **Edit Account Schedule**.  
-2.  In the **Account Schedule** window, enter each line exactly as shown in the following table.  
+1. In the **Account Schedule Names** window, select the new **Forecast** account schedule name that you have created. On the **Home** tab, in the **Process** group, choose **Edit Account Schedule**.  
+2. In the **Account Schedule** window, enter each line exactly as shown in the following table.  
 
-    > [!NOTE]  
-    >  Using the **Insert CF Accounts** function, you can quickly mark the cash flow accounts from the chart of cash flow accounts and copy them to account schedule lines.  
+   > [!NOTE]  
+   >  Using the **Insert CF Accounts** function, you can quickly mark the cash flow accounts from the chart of cash flow accounts and copy them to account schedule lines.  
 
-    |Row No.|Description|Totaling Type|Totaling|Row Type|Amount Type|Show|  
-    |-------|-----------|-------------|--------|--------|---  ------|----|
-    |C10|Amount|Net Change|Entries|Net Amount|Always|  
-    |C20|Amount until Date|Balance at Date|Entries|Net Amount|Always|  
-    |C30|Entire Fiscal Year|Entire Fiscal Year|Entries|Net Amount|Always|  
+   | Row No. |    Description     |   Totaling Type    | Totaling |  Row Type  | Amount Type | Show |
+   |---------|--------------------|--------------------|----------|------------|-------------|------|
+   |   C10   |       Amount       |     Net Change     | Entries  | Net Amount |   Always    |      |
+   |   C20   | Amount until Date  |  Balance at Date   | Entries  | Net Amount |   Always    |      |
+   |   C30   | Entire Fiscal Year | Entire Fiscal Year | Entries  | Net Amount |   Always    |      |
 
-4.  Choose the **OK** button.  
+
+3. Choose the **OK** button.  
 
 ## Assigning the Column Layout to the Account Schedule Name  
 Ken is now ready to assign the column layout to the account schedule name.  

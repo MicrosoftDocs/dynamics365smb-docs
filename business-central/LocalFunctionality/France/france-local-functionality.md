@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 07/01/2017
+ms.date: 04/12/2017
 ms.author: sgroespe
 ---
 
@@ -20,8 +20,7 @@ The following topics describe local functionality that is unique to the French v
 [General Ledger](general-ledger.md)  
 [Fiscal Periods and Fiscal Years](fiscal-periods-and-fiscal-years.md)  
 [Accelerated Depreciation](accelerated-depreciation.md)  
-[Payment Management](payment-management.md)  
-[Simulation of Entries](simulation-of-entries.md)  
+[Payment Management](payment-management.md)
 
 ## See Also
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)     

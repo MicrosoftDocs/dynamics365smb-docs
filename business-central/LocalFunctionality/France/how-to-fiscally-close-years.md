@@ -2,7 +2,7 @@
     title: How to Fiscally Close Years
     description: When a fiscal year is complete, you must fiscally close the periods that it comprises to make sure that no more general ledger entries can be posted.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -22,7 +22,7 @@ When a fiscal year is complete, you must fiscally close the periods that it comp
 Before fiscal closing is allowed the following must be done:  
 
 - The fiscal year has been closed first. For more information, see [Close Years](how-to-close-years.md).  
-- All journal lines that are not posted and all simulation entries for the year are either posted or deleted before the year is fiscally closed.
+- All journal lines that are not posted for the year are either posted or deleted before the year is fiscally closed.
 - All closing entries are up-to-date.  
 
 ## To fiscally close years  

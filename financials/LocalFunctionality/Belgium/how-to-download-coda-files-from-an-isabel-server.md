@@ -18,7 +18,7 @@
 ---
 # Download CODA Files from an Isabel Server
 > [!Note]
-> [!INCLUDE[onprem_only](../../includes/onprem_only_md.md)]
+> [!INCLUDE [onprem_only](../../includes/onprem_only_md.md)]
 
 CODA files can be downloaded manually or in attended mode.  
 

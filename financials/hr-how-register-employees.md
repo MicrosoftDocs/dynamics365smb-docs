@@ -28,7 +28,7 @@ The following procedures describe how to create an initial employee card and how
 ## To set up an employee
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Employees**, and then choose the related link.
 2. Choose the **New** action.
-3. In the **Employee Card** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. In the **Employee Card** window, fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To insert a picture of an employee
 If you have a picture of an employee in .bmp format, you can insert it on the employee card.

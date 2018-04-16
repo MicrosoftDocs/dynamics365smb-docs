@@ -18,7 +18,7 @@
 # General Journal Post Line Overview
 Codeunit 12, **Gen. Jnl.-Post Line**, is the major application object for general ledger posting and is the only place to insert general ledger, VAT, and customer and vendor ledger entries. This codeunit is also used for all Apply, Unapply and Reverse operations.  
   
-While the codeunit has been improved in each release over the last ten years, its architecture remained essentially unchanged. The codeunit became very large, with approximately 7,600 code lines. With this release of [!INCLUDE[d365fin](includes/d365fin_md.md)], the architecture is changed and the codeunit has been made simpler and more maintainable. This documentation introduces the changes and provides information that you will need for upgrade.  
+While the codeunit has been improved in each release over the last ten years, its architecture remained essentially unchanged. The codeunit became very large, with approximately 7,600 code lines. With this release of [!INCLUDE [d365fin](includes/d365fin_md.md)], the architecture is changed and the codeunit has been made simpler and more maintainable. This documentation introduces the changes and provides information that you will need for upgrade.  
   
 ## Old Architecture  
 The old architecture had the following features:  
@@ -32,7 +32,7 @@ The old architecture had the following features:
 * Posting, Apply, Unapply, Reverse, Payment Discount and Tolerance, and Exchange Rate Adjustment were married together in codeunit 12 using a long list of global variables.  
   
 ### New Architecture  
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], codeunit 12 has had the following improvements:  
+In [!INCLUDE [d365fin](includes/d365fin_md.md)], codeunit 12 has had the following improvements:  
   
 * Codeunit 12 has been refactored into smaller procedures (all less than 100 code lines).  
 * Standardized patterns for the search of general ledger accounts have been implemented by using helper functions from Posting Group tables.  

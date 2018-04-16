@@ -32,7 +32,7 @@ Assembly items are characterized by their replenishment system and the assembly 
 -   Creating an assembly BOM that lists the assembly components and the resource that go into the assembly item.  
 
 ### Selling Customized Assembly Items  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] provides the flexibility to enter both an inventory quantity and an assemble-to-order quantity on one sales order line. This section covers the following tasks:  
+[!INCLUDE [d365fin](includes/d365fin_md.md)] provides the flexibility to enter both an inventory quantity and an assemble-to-order quantity on one sales order line. This section covers the following tasks:  
 
 -   Creating a pure ATO sales order line where the full quantity is unavailable and must be assembled before shipment.  
 -   Customizing ATO items.  
@@ -74,8 +74,8 @@ This walkthrough demonstrates tasks that are performed by the following user rol
 ## Prerequisites  
 Before you can perform the tasks in the walkthrough, you must do the following:  
 
--   Install [!INCLUDE[d365fin](includes/d365fin_md.md)].  
--   Make yourself a warehouse employee at WHITE location by following these steps:  
+- Install [!INCLUDE [d365fin](includes/d365fin_md.md)].  
+- Make yourself a warehouse employee at WHITE location by following these steps:  
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Warehouse Employees**, and then choose the related link.  
 2.  Choose the **User ID** field, and select your own user account in the **Users** window.  
@@ -205,35 +205,37 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
 ### Selling the Assembly Items  
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.  
-2.  On the **Home** tab, in the **Manage** group, choose **New**.  
-3.  Create two sales order lines for customer 62000, The Device Shop, on the work date with the following information.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.  
+2. On the **Home** tab, in the **Manage** group, choose **New**.  
+3. Create two sales order lines for customer 62000, The Device Shop, on the work date with the following information.  
 
-    |**Type**|**Description**|**Quantity**|Qty. to Assemble to Order|Shipment Date|  
-    |--------------|---------------------|------------------|-------------------------------|-------------------|  
-    |Item|Kit B – Pro PC|3|3|January 23|  
-    |Item|Kit A – Basic PC|15|5|January 27|  
+   |**Type**|**Description**|**Quantity**|Qty. to Assemble to Order|Shipment Date|  
+   |--------------|---------------------|------------------|-------------------------------|-------------------|  
+   |Item|Kit B – Pro PC|3|3|January 23|  
+   |Item|Kit A – Basic PC|15|5|January 27|  
 
-    > [!NOTE]  
-    >  The following availability issue exists for the sales order line for Kit B:  
-    >   
-    >  -   Assembly component 80210 is not available. This means that the three specified units of Kit B cannot be assembled, indicated by **0** in the **Able to Assemble** field in the **Assembly Availability** window.  
-    >   
-    >  The following availability issue exists for the sales order line for Kit A:  
-    >   
-    >  -   The ten units of Kit A are not available. This indicates to the planning system that the quantity must be assembled to inventory.  
+   > [!NOTE]
+   >  The following availability issue exists for the sales order line for Kit B:  
+   > 
+   > - Assembly component 80210 is not available. This means that the three specified units of Kit B cannot be assembled, indicated by **0** in the **Able to Assemble** field in the **Assembly Availability** window.  
+   > 
+   >   The following availability issue exists for the sales order line for Kit A:  
+   > 
+   > - The ten units of Kit A are not available. This indicates to the planning system that the quantity must be assembled to inventory.  
 
-    Next, customize the sales order.  
+   Next, customize the sales order.  
 
-4.  Select the sales order line for three units of Kit B.  
-5.  On the **Lines** FastTab, choose **Line**, choose **Assemble to Order**, and then choose **Assemble-to-Order Lines**.  
-6.  In the **Assemble-to-Order Lines** window, on the assembly order line for item 80014, enter **2** in the **Quantity per** field.  
-7.  On the assembly order line for item 80210, choose the **No.** field, and then select item 80209 instead.  
-8.  Create a new assembly order line with the following information.  
+4. Select the sales order line for three units of Kit B.  
+5. On the **Lines** FastTab, choose **Line**, choose **Assemble to Order**, and then choose **Assemble-to-Order Lines**.  
+6. In the **Assemble-to-Order Lines** window, on the assembly order line for item 80014, enter **2** in the **Quantity per** field.  
+7. On the assembly order line for item 80210, choose the **No.** field, and then select item 80209 instead.  
+8. Create a new assembly order line with the following information.  
 
-    |Type|No.|Quantity per|  
-    |----------|---------|------------------|  
-    |Item|80203|1|  
+
+   | Type |  No.  | Quantity per |
+   |------|-------|--------------|
+   | Item | 80203 |      1       |
+
 
 9. Close the **Assemble-to-Order Lines** window.  
 

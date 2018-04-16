@@ -65,10 +65,10 @@ A template contains a set of lines each representing the analysis columns that y
 4. In the **Analysis Columns** window, fill in the fields to specify the columns that you want to include in your analysis report.  
 
     > [!NOTE]  
->   To define a column, you must fill in the **Analysis Type Codes** field for all column types except **Formula**. Set up the analysis type codes in the **Analysis Types** window.  
+   >   To define a column, you must fill in the **Analysis Type Codes** field for all column types except **Formula**. Set up the analysis type codes in the **Analysis Types** window.  
 
     **Note**. In the **Ledger Entry Type** field, if you select **Item Entries**, the actual figures from the item ledger entry are copied. If you select **Item Budget Entries**, the budgeted figures from the budget are copied.  
-5.  Choose the **OK** button to save your changes.  
+5. Choose the **OK** button to save your changes.  
 
 ## To set up analysis line templates  
 The following procedure is based on analysis reports for sales. The steps are similar for purchase and inventory analysis reports.
@@ -92,7 +92,7 @@ You use analysis reports to analyze the dynamics of your sales according to key 
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Analysis Reports**, and then choose the related link.  
 2. In the **Analysis Report Sale** window, choose the **New** action.
-3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Choose the **Edit Analysis Report** action.
 5. In the **Sales Analysis Report** window, choose the **Show Matrix** action  
 

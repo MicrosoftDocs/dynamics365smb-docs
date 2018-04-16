@@ -35,7 +35,7 @@ An insurance policy for a fixed asset must be represented by an insurance card.
 When you receive information about changes in the coverage amount, you must enter the new information in the **Insurance Card** window to ensure that you analyze insurance policy coverage correctly.  
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insurance**, and then choose the related link.
-2. Choose the **New** action to create a new card for an insurance policy. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Choose the **New** action to create a new card for an insurance policy. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Alternatively, select the insurance policy that you want to change, and then choose the **Edit** action.
 
 ## To assign a fixed asset to an insurance policy by posting from the insurance journal
@@ -49,7 +49,7 @@ The following procedure explains how to create an insurance journal line manuall
 4. Choose the **Post** action.  
 
     > [!NOTE]  
->   The entries from an insurance journal are only posted to the insurance coverage ledger.  
+   >   The entries from an insurance journal are only posted to the insurance coverage ledger.  
 
 ## To update the insurance value of a fixed asset
 You can use the **Index Insurance** batch job to update the value of the fixed assets that are covered.  
@@ -58,7 +58,7 @@ You can use the **Index Insurance** batch job to update the value of the fixed a
 2. Fill in the fields as necessary.
 
     > [!NOTE]  
->   In the **Index Figure** field, you enter a decrease of 5%, for example, as 95, whereas you enter an increase of 2% as 102.  
+   >   In the **Index Figure** field, you enter a decrease of 5%, for example, as 95, whereas you enter an increase of 2% as 102.  
 3. Choose the **OK** button.  
 
    The batch job calculates the new amount as a percentage of the total value insured, as stated in the **Insurance Statistics** window, and then creates a line in the insurance journal.  
@@ -66,7 +66,7 @@ You can use the **Index Insurance** batch job to update the value of the fixed a
 5. Open the relevant insurance journal, review the created values, and then post them to the insurance coverage ledger.  
 
 ## To monitor insurance coverage
-[!INCLUDE[d365fin](includes/d365fin_md.md)] provides dedicated reports and statistics windows for use in analyzing insurance policies and whether your fixed assets are over- or under-insured.  
+[!INCLUDE [d365fin](includes/d365fin_md.md)] provides dedicated reports and statistics windows for use in analyzing insurance policies and whether your fixed assets are over- or under-insured.  
 
 ### Overview of Insurance Policies
 To get an overview of your insurance policies, preview or print the **Insurance - List** report. The report shows all the policies and the most important fields from the insurance cards.  

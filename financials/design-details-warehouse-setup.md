@@ -14,7 +14,7 @@
 
 ---
 # Design Details: Warehouse Setup
-Warehouse functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)] contains different levels of complexity, as defined by license permissions in the offered granules. The level of complexity in a warehouse solution is largely defined by the bin setup on location cards, which in turn is license-controlled so that access to bin setup fields is defined by the license. In addition, the application objects in the license govern which UI document to use for the supported warehouse activities.  
+Warehouse functionality in [!INCLUDE [d365fin](includes/d365fin_md.md)] contains different levels of complexity, as defined by license permissions in the offered granules. The level of complexity in a warehouse solution is largely defined by the bin setup on location cards, which in turn is license-controlled so that access to bin setup fields is defined by the license. In addition, the application objects in the license govern which UI document to use for the supported warehouse activities.  
 
 The following warehouse-related granules exist:  
 
@@ -31,7 +31,7 @@ The following warehouse-related granules exist:
 
 For more information about each granule, see [[!INCLUDE[d365fin](includes/d365fin_md.md)] Price Sheets](http://go.microsoft.com/fwlink/?LinkId=238341) (requires PartnerSource account).  
 
-The following table shows which granules are required to define different warehouse complexity levels, which UI documents support each level, and which location codes reflect these levels in the [!INCLUDE[d365fin](includes/d365fin_md.md)] demonstration database.  
+The following table shows which granules are required to define different warehouse complexity levels, which UI documents support each level, and which location codes reflect these levels in the [!INCLUDE [d365fin](includes/d365fin_md.md)] demonstration database.  
 
 |Complexity Level|Description|UI Document|CRONUS Location|Minimum Granule Requirement|  
 |----------------------|---------------------------------------|-----------------|---------------------------------|---------------------------------|  
@@ -45,7 +45,7 @@ The following table shows which granules are required to define different wareho
 For examples of how the UI documents are used per warehouse complexity level, see [Design Details: Inbound Warehouse Flow](design-details-outbound-warehouse-flow.md).  
 
 ## Bin and Bin Content  
-A bin is a storage device designed to contain discrete parts. It is the smallest container unit in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Item quantities in bins are referred to as bin content. A lookup from the **Item** field or **Bin Code** field on any warehouse-related document line displays the calculated availability of the item in the bin.  
+A bin is a storage device designed to contain discrete parts. It is the smallest container unit in [!INCLUDE [d365fin](includes/d365fin_md.md)]. Item quantities in bins are referred to as bin content. A lookup from the **Item** field or **Bin Code** field on any warehouse-related document line displays the calculated availability of the item in the bin.  
 
 A bin content can be given a property of Fixed, Dedicated, or Default to define how the bin content can be used. Bins with none of these properties are referred to as floating bins.  
 

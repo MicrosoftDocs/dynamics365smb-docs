@@ -21,8 +21,8 @@ Static allocation method is based on a definite value, such as square meters use
 
 This topic describes how to define three new allocation target cost objects for the allocation source PROD cost center using the established allocation ratio 5:2:4. The three target cost objects are ACCESSO, PAINT, and FITTINGS.  
 
-> [!NOTE]  
->  The example uses the demo data in the [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+> [!NOTE]
+>  The example uses the demo data in the [!INCLUDE [d365fin](includes/d365fin_md.md)].  
 
 ## To define the allocation source PROD cost center on the General FastTab  
 
@@ -52,8 +52,8 @@ This topic describes how to define three new allocation target cost objects for 
 14. On the third line, in the **Base** field, select **Static** to use the static allocation method.  
 15. On the third line, in the **Share** field, enter the allocation ratio **4**.  
 
-> [!IMPORTANT]  
->  [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically calculates the **Percent** field using a percentage rate that is dependent on all three allocation ratios that are entered in the **Share** field for all three lines.  
+> [!IMPORTANT]
+>  [!INCLUDE [d365fin](includes/d365fin_md.md)] automatically calculates the **Percent** field using a percentage rate that is dependent on all three allocation ratios that are entered in the **Share** field for all three lines.  
 
 ## See Also  
 [Set Up Allocation Source and Targets](finance-how-to-set-up-allocation-source-and-targets.md)   

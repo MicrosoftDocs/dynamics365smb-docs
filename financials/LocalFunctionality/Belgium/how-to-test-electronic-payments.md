@@ -18,7 +18,7 @@
 ---
 # Test Electronic Payments
 > [!Note]
-> [!INCLUDE[onprem_only](../../includes/onprem_only_md.md)]
+> [!INCLUDE [onprem_only](../../includes/onprem_only_md.md)]
 
 After you have set up electronic banking and generated payment suggestions, you can test the payment journal lines for errors before posting them.  
 

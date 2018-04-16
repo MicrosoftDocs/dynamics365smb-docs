@@ -29,10 +29,10 @@ The following procedure describes how to invoice a prepayment for a sales orders
     On the **Prepayment** FastTab, the **Prepayment %** field will be filled in automatically if there is a default prepayment percentage on the customer card. You can change the contents of the field. The prepayment percentage is only copied from the header to lines that do not copy the default prepayment percentage from the item.  
 
     If the **Compress Prepayment** field is selected, lines will be combined on the invoice if:  
-    - They have the same general ledger account for prepayments as determined by the general posting setup.  
-    - They have the same dimensions.  
+   - They have the same general ledger account for prepayments as determined by the general posting setup.  
+   - They have the same dimensions.  
 
-    Leave the field blank if you want to specify a prepayment invoice with one line for each sales order line that has a prepayment percentage.  
+     Leave the field blank if you want to specify a prepayment invoice with one line for each sales order line that has a prepayment percentage.  
 
 3. Fill in the sales lines.  
 
@@ -52,8 +52,8 @@ The following procedure describes how to invoice a prepayment for a sales orders
 
 You can issue additional prepayment invoices for the order. To do this, increase the prepayment amount on one or more lines, adjust the document date if necessary, and post the prepayment invoice. A new invoice will be created for the difference between the prepayment amounts invoiced so far and the new prepayment amount.  
 
-> [!NOTE]  
->  If you are located in North America, you cannot change the prepayment percentage after the prepayment invoice has been posted. This is prevented in the North American version of [!INCLUDE[d365fin](includes/d365fin_md.md)] because the calculation of sales tax will otherwise be incorrect.  
+> [!NOTE]
+>  If you are located in North America, you cannot change the prepayment percentage after the prepayment invoice has been posted. This is prevented in the North American version of [!INCLUDE [d365fin](includes/d365fin_md.md)] because the calculation of sales tax will otherwise be incorrect.  
 
  When you are ready to post the rest of the invoice, post it as you would post any invoice, and the prepayment amount will automatically be deducted from the amount due.  
 

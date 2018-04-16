@@ -26,7 +26,7 @@ The **Status** field in the **Service Order** window and the service item repair
 * The service order status that each repair status is linked to. For more information, see Service Order Status.  
 * The level of priority of each service order status option. For more information, see Priority.  
   
- When you convert a service quote to a service order, the repair status of each service item is changed in the order to **Initial** and the service order status is changed to **Pending**.  
+  When you convert a service quote to a service order, the repair status of each service item is changed in the order to **Initial** and the service order status is changed to **Pending**.  
   
 ## Specifying Service Order Status for Repair Status  
 Each repair status is linked to a particular service order status. The options for the service order status are as follows: **Pending**, **In Process**, **On Hold**, and **Finished**. The repair status options are as follows: **Initial**, **In Process**, **Referred**, **Partly Serviced**, **Quote Finished**, **Waiting for Customer**, **Spare Part Ordered**, **Spare Part Received**, and **Finished**.  

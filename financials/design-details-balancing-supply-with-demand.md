@@ -27,21 +27,21 @@ Imagine that each inventory profile contains a string of demand events (sorted b
   
      If the timing of the supply is not suitable, perhaps the supply can be rescheduled as follows:  
   
-    1.  If the supply is placed earlier than the demand, perhaps the supply can be rescheduled out so that inventory is as low as possible.  
-    2.  If the supply is placed later than the demand, perhaps the supply can be rescheduled in. Otherwise, the system will suggest new supply.  
-    3.  If the supply meets the demand on the date, the planning system can proceed to investigate whether the quantity of the supply can cover the demand.  
+   1. If the supply is placed earlier than the demand, perhaps the supply can be rescheduled out so that inventory is as low as possible.  
+   2. If the supply is placed later than the demand, perhaps the supply can be rescheduled in. Otherwise, the system will suggest new supply.  
+   3. If the supply meets the demand on the date, the planning system can proceed to investigate whether the quantity of the supply can cover the demand.  
   
-     Once the timing is in place, the adequate quantity to be supplied can be calculated as follows:  
+      Once the timing is in place, the adequate quantity to be supplied can be calculated as follows:  
   
-    1.  If the supply quantity is less than the demand, it is possible that the supply quantity could be increased (or not, if limited by a maximum quantity policy).  
-    2.  If the supply quantity is greater than the demand, it is possible that the supply quantity can be decreased (or not, if limited by a minimum quantity policy).  
+   4. If the supply quantity is less than the demand, it is possible that the supply quantity could be increased (or not, if limited by a maximum quantity policy).  
+   5. If the supply quantity is greater than the demand, it is possible that the supply quantity can be decreased (or not, if limited by a minimum quantity policy).  
   
-     At this point, either of these two situations exists:  
+      At this point, either of these two situations exists:  
   
-    1.  The current demand can be covered, in which case it can be closed and planning for the next demand can start.  
-    2.  The supply has reached its maximum, leaving some of the demand quantity uncovered. In this case, the planning system can close the current supply and proceed to the next one.  
+   6. The current demand can be covered, in which case it can be closed and planning for the next demand can start.  
+   7. The supply has reached its maximum, leaving some of the demand quantity uncovered. In this case, the planning system can close the current supply and proceed to the next one.  
   
- The procedure starts all over with the next demand and the current supply or vice versa. The current supply might be able to cover this next demand as well, or the current demand has not yet been fully covered.  
+   The procedure starts all over with the next demand and the current supply or vice versa. The current supply might be able to cover this next demand as well, or the current demand has not yet been fully covered.  
   
 ## Rules Concerning Actions for Supply Events  
 When the planning system performs a top-down calculation in which supply must fulfill demand, the demand is taken as a given, that is, it lies outside the control of the planning system. However, the supply side can be managed. Therefore, the planning system will suggest creating new supply orders, rescheduling existing ones, and/or changing the order quantity. If an existing supply order becoming superfluous, the planning system will suggest that the user cancels it.  

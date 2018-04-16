@@ -47,16 +47,16 @@ The system must keep a constant control of item availability in the warehouse, s
 
  It should be possible to reserve all items in inventory, except those that have started outbound processing. Accordingly, the quantity that is available to reserve is defined as the quantity on all documents and all bin types, except the following outbound quantities:  
 
--   Quantity on unregistered pick documents  
--   Quantity in shipment bins  
--   Quantity in to-production bins  
--   Quantity in open shop floor bins  
--   Quantity in to-assembly bins  
--   Quantity in adjustment bins  
+- Quantity on unregistered pick documents  
+- Quantity in shipment bins  
+- Quantity in to-production bins  
+- Quantity in open shop floor bins  
+- Quantity in to-assembly bins  
+- Quantity in adjustment bins  
 
- The result is displayed in the **Total Available Quantity** field in the **Reservation** window.  
+  The result is displayed in the **Total Available Quantity** field in the **Reservation** window.  
 
- On a reservation line, the quantity that cannot be reserved, because it is allocated in the warehouse, is displayed in the **Qty. Allocated in Warehouse** field in the **Reservation** window.  
+  On a reservation line, the quantity that cannot be reserved, because it is allocated in the warehouse, is displayed in the **Qty. Allocated in Warehouse** field in the **Reservation** window.  
 
 ### Calculating the Quantity Available to Reserve  
  The quantity available to reserve is calculated as follows:  

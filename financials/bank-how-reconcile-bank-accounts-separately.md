@@ -16,7 +16,7 @@ ms.author: sgroespe
 
 ---
 # Reconcile Bank Accounts Separately
-To reconcile bank accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)] with statements received from the bank, you must fill in the lines in the **Bank Acc. Reconciliation** window.
+To reconcile bank accounts in [!INCLUDE [d365fin](includes/d365fin_md.md)] with statements received from the bank, you must fill in the lines in the **Bank Acc. Reconciliation** window.
 
 > [!NOTE]  
 >   You can also reconcile bank accounts in the **Payment Reconciliation Journal** window. Any open bank account ledger entries related to the applied customer or vendor ledger entries will be closed when you choose the **Post Payments and Reconcile Bank Account** action. This means that the bank account is automatically reconciled for payments that you post with the journal. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
@@ -73,7 +73,7 @@ When the value in the **Total Balance** field in the **Bank Statement Lines** pa
 5. To remove a match, select the bank statement line, and then choose the **Remove Match** action.
 
 ## To create missing ledger entries to match bank transactions with
-Sometimes a bank statement contain amounts for interest or fees charged. Such bank transactions cannot be matched because no related ledger entries exist in [!INCLUDE[d365fin](includes/d365fin_md.md)]. You must then post a journal line for each transaction to create a related ledger entry that it can be matched with.
+Sometimes a bank statement contain amounts for interest or fees charged. Such bank transactions cannot be matched because no related ledger entries exist in [!INCLUDE [d365fin](includes/d365fin_md.md)]. You must then post a journal line for each transaction to create a related ledger entry that it can be matched with.
 
 1. In the **Bank Acc. Reconciliation** window, choose the **Transfer to General Journal** action.  
 2. In the **Trans. Bank Rec. to Gen. Jnl.** window, specify which general journal to use, and then choose the **OK** button.

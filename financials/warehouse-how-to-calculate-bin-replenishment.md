@@ -34,14 +34,14 @@ Finally, if you have defined your bulk storage bins with a bin type action **Put
 
 The next time you calculate bin replenishment, the suggestions that you have deleted will be recreated, if they are still valid at that time.  
 
-> [!NOTE]  
+> [!NOTE]
 >  If the following conditions are met for an item:  
->   
->  -   The item has an expiration date, and  
-> -   The **Pick According to FEFO** field on the location card is selected, and  
-> -   You use the **Calculate Bin Replenishment** functionality  
->   
->  then the **From Zone** and **From Bin** fields will be blank because the algorithm to calculate from where to move the items is triggered only when you activate the **Create Movement** function.  
+> 
+> - The item has an expiration date, and  
+>   -   The **Pick According to FEFO** field on the location card is selected, and  
+>   -   You use the **Calculate Bin Replenishment** functionality  
+> 
+>   then the **From Zone** and **From Bin** fields will be blank because the algorithm to calculate from where to move the items is triggered only when you activate the **Create Movement** function.  
 
 ## See Also  
 [Warehouse Management](warehouse-manage-warehouse.md)  

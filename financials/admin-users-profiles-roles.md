@@ -14,19 +14,19 @@ ms.author: edupont
 
 ---
 # Understanding Users, Profiles, and Role Centers
-The people in your company who have access to [!INCLUDE[d365fin](includes/d365fin_md.md)] are all assigned a *profile* that gives them access to a *Role Center*. As an administrator, you can assign and change profiles in [!INCLUDE[d365fin](includes/d365fin_md.md)], and you can add and remove users as part of your [!INCLUDE[d365fin](includes/d365fin_md.md)] subscription.  
+The people in your company who have access to [!INCLUDE [d365fin](includes/d365fin_md.md)] are all assigned a *profile* that gives them access to a *Role Center*. As an administrator, you can assign and change profiles in [!INCLUDE [d365fin](includes/d365fin_md.md)], and you can add and remove users as part of your [!INCLUDE [d365fin](includes/d365fin_md.md)] subscription.  
 
 ## Adding Users
-To add users in [!INCLUDE[d365fin](includes/d365fin_md.md)], your company's Office 365 administrator must first create the users in the Office 365 Admin Center. For more information, see [Managing Users and Permissions](ui-how-users-permissions.md).  
+To add users in [!INCLUDE [d365fin](includes/d365fin_md.md)], your company's Office 365 administrator must first create the users in the Office 365 Admin Center. For more information, see [Managing Users and Permissions](ui-how-users-permissions.md).  
 
 ## Profiles
-Profiles are collections of [!INCLUDE[d365fin](includes/d365fin_md.md)] users who share the same Role Center. A Role Center is a type of page on which you can place different parts. Each part is a container in which you can host other pages or pre-defined system parts, such as an Outlook part or parts for adding tasks, notifications, or notes.  
+Profiles are collections of [!INCLUDE [d365fin](includes/d365fin_md.md)] users who share the same Role Center. A Role Center is a type of page on which you can place different parts. Each part is a container in which you can host other pages or pre-defined system parts, such as an Outlook part or parts for adding tasks, notifications, or notes.  
 
-> [!NOTE]  
->  In the current version of [!INCLUDE[d365fin](includes/d365fin_md.md)], you cannot add, edit, or delete profiles.  
+> [!NOTE]
+>  In the current version of [!INCLUDE [d365fin](includes/d365fin_md.md)], you cannot add, edit, or delete profiles.  
 
 ## Configuration and Personalization
-The concept of UI customization in [!INCLUDE[d365fin](includes/d365fin_md.md)] is divided in two:  
+The concept of UI customization in [!INCLUDE [d365fin](includes/d365fin_md.md)] is divided in two:  
 
 -   Configuration, performed by the administrator  
 

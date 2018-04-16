@@ -21,7 +21,7 @@ To understand how the planning system works, it is necessary to understand the p
 - Any demand will be met by sufficient supply.  
 - Any supply serves a purpose.  
 
- Generally, these goals are achieved by balancing supply with demand.  
+  Generally, these goals are achieved by balancing supply with demand.  
 
 ## In This Section  
 [Design Details: Demand and Supply](design-details-demand-and-supply.md)  

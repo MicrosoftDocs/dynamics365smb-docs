@@ -14,20 +14,20 @@ ms.author: edupont
 
 ---
 # Design Details: Posting Date on Adjustment Value Entry
-This article provides guidance for users of the Inventory Costing functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The specific article is providing guidance in how the **Adjust Cost - Item Entries** batch job identifies and assigns a posting date to the value entries that the batch job is about to create.  
+This article provides guidance for users of the Inventory Costing functionality in [!INCLUDE [d365fin](includes/d365fin_md.md)]. The specific article is providing guidance in how the **Adjust Cost - Item Entries** batch job identifies and assigns a posting date to the value entries that the batch job is about to create.  
 
 First the concept of the process is reviewed, how the batch job identifies and assigns the Posting Date to the Value Entry to be created. Thereafter there are some scenarios shared that we in the support team come across from time to time and finally there is a summary of the concepts used from version 3.0.  
 
 ## The Concept  
 From version 5.0, the **Adjust Cost – Item Entries** batch job assigns a posting date to the value entry it is about to create in the following steps:  
 
-1.  Initially the Posting Date of the entry to be created is the same date as the entry it adjusts.  
+1. Initially the Posting Date of the entry to be created is the same date as the entry it adjusts.  
 
-2.  The Posting Date is validated against Inventory Periods and/or General Ledger Setup.  
+2. The Posting Date is validated against Inventory Periods and/or General Ledger Setup.  
 
-3.  Assignment of Posting Date; If the initial Posting Date is not within allowed posting date range the batch job will assign an allowed Posting Date from either General Ledger Setup or Inventory Period. If both Inventory Periods and allowed posting dates in General Ledger Setup are defined, the later date of the two will be assigned to the Adjustment Value Entry.  
+3. Assignment of Posting Date; If the initial Posting Date is not within allowed posting date range the batch job will assign an allowed Posting Date from either General Ledger Setup or Inventory Period. If both Inventory Periods and allowed posting dates in General Ledger Setup are defined, the later date of the two will be assigned to the Adjustment Value Entry.  
 
- Let’s review this process more in practice. Assume we have an Item Ledger Entry of Sale. The item was shipped on September 5th, 2013 and it was invoiced the day after.  
+   Let’s review this process more in practice. Assume we have an Item Ledger Entry of Sale. The item was shipped on September 5th, 2013 and it was invoiced the day after.  
 
 ![Item Ledger Entry: Date format: YYYY MM DD](media/helene/TechArticleAdjustcost1.png "TechArticleAdjustcost1")  
 
@@ -97,77 +97,77 @@ The **Adjust Cost – Item Entries** batch job determines if the initial Posting
 
  Inventory setup:  
 
--   Automatic Cost Posting = Yes  
+- Automatic Cost Posting = Yes  
 
--   Automatic Cost Adjustment=Always  
+- Automatic Cost Adjustment=Always  
 
--   Average Cost Calc. Type=item  
+- Average Cost Calc. Type=item  
 
--   Average Cost Period=Day  
+- Average Cost Period=Day  
 
- General Ledger Setup:  
+  General Ledger Setup:  
 
--   Allow Posting From = January 1st, 2014  
+- Allow Posting From = January 1st, 2014  
 
--   Allow Posting To = empty  
+- Allow Posting To = empty  
 
- User Setup:  
+  User Setup:  
 
--   Allow Posting From = December 1st, 2013.  
+- Allow Posting From = December 1st, 2013.  
 
--   Allow Posting to = empty  
+- Allow Posting to = empty  
 
 ##### To test the scenario  
 
-1.  Create item TEST:  
+1. Create item TEST:  
 
-     Base unit of measure = PCS  
+    Base unit of measure = PCS  
 
-     Costing Method = Average  
+    Costing Method = Average  
 
-     Select optional posting groups.  
+    Select optional posting groups.  
 
-2.  Open Item Journal, create and post a line as follows:  
+2. Open Item Journal, create and post a line as follows:  
 
-     Posting Date = December 15th, 2013  
+    Posting Date = December 15th, 2013  
 
-     Item = TEST  
+    Item = TEST  
 
-     Entry Type = Purchase  
+    Entry Type = Purchase  
 
-     Quantity = 100  
+    Quantity = 100  
 
-     Unit Amount = 10  
+    Unit Amount = 10  
 
-3.  Open Item Journal, create and post a line as follows:  
+3. Open Item Journal, create and post a line as follows:  
 
-     Date = December 20th, 2013  
+    Date = December 20th, 2013  
 
-     Item = TEST  
+    Item = TEST  
 
-     Entry Type = Negative Adjustment  
+    Entry Type = Negative Adjustment  
 
-     Quantity = 2  
+    Quantity = 2  
 
-4.  Open Item Journal, create and post a line as follows:  
+4. Open Item Journal, create and post a line as follows:  
 
-     Date = January 15th, 2014  
+    Date = January 15th, 2014  
 
-     Item = TEST  
+    Item = TEST  
 
-     Entry Type = Negative Adjustment  
+    Entry Type = Negative Adjustment  
 
-     Quantity = 3  
+    Quantity = 3  
 
-5.  Open Revaluation Journal, create and post a line as follows:  
+5. Open Revaluation Journal, create and post a line as follows:  
 
-     Item = TEST  
+    Item = TEST  
 
-     Applies-to Entry = select Purchase entry posted at step 2. The Posting Date of the revaluation will be the same as the entry it adjusts.  
+    Applies-to Entry = select Purchase entry posted at step 2. The Posting Date of the revaluation will be the same as the entry it adjusts.  
 
-     Unit Cost Revalued = 40  
+    Unit Cost Revalued = 40  
 
- The following Item Ledger and Value Entries have been posted:  
+   The following Item Ledger and Value Entries have been posted:  
 
 ![Adjust cost &#45;Item entries data](media/helene/TechArticleAdjustcost9.png "TechArticleAdjustcost9")
 
@@ -196,123 +196,123 @@ The **Adjust Cost – Item Entries** batch job determines if the initial Posting
 
  Inventory setup:  
 
--   Automatic Cost Posting = Yes  
+- Automatic Cost Posting = Yes  
 
--   Automatic Cost Adjustment=Always  
+- Automatic Cost Adjustment=Always  
 
--   Average Cost Calc. Type=item  
+- Average Cost Calc. Type=item  
 
--   Average Cost Period=Day  
+- Average Cost Period=Day  
 
- General Ledger Setup:  
+  General Ledger Setup:  
 
--   Allow Posting From = December 1st, 2013.  
+- Allow Posting From = December 1st, 2013.  
 
--   Allow Posting To = empty  
+- Allow Posting To = empty  
 
- User Setup:  
+  User Setup:  
 
--   Allow Posting From = December 1st, 2013.  
+- Allow Posting From = December 1st, 2013.  
 
--   Allow Posting to = empty  
+- Allow Posting to = empty  
 
 ##### To test the scenario  
 
-1.  Create item charge:  
+1. Create item charge:  
 
-     Base unit of measure = PCS  
+    Base unit of measure = PCS  
 
-     Costing Method = Average  
+    Costing Method = Average  
 
-     Select optional posting groups.  
+    Select optional posting groups.  
 
-2.  Create new purchase order  
+2. Create new purchase order  
 
-     Buy-from Vendor No.: 10000  
+    Buy-from Vendor No.: 10000  
 
-     Posting Date = December 15th, 2013  
+    Posting Date = December 15th, 2013  
 
-     Vendor Invoice No.: 1234  
+    Vendor Invoice No.: 1234  
 
-     On the purchase order line:  
+    On the purchase order line:  
 
-     Item = CHARGE  
+    Item = CHARGE  
 
-     Quantity = 1  
+    Quantity = 1  
 
-     Direct Unit Cost = 100  
+    Direct Unit Cost = 100  
 
-     Post Receive and Invoice.  
+    Post Receive and Invoice.  
 
-3.  Create new sales order:  
+3. Create new sales order:  
 
-     Sell-to Customer No.: 10000  
+    Sell-to Customer No.: 10000  
 
-     Posting Date = December 16th, 2013  
+    Posting Date = December 16th, 2013  
 
-     On the sales order line:  
+    On the sales order line:  
 
-     Item = CHARGE  
+    Item = CHARGE  
 
-     Quantity = 1  
+    Quantity = 1  
 
-     Unit Price = 135  
+    Unit Price = 135  
 
-     Post Ship and Invoice.  
+    Post Ship and Invoice.  
 
-4.  General Ledger Setup:  
+4. General Ledger Setup:  
 
-     Allow Posting From = January 1st, 2014  
+    Allow Posting From = January 1st, 2014  
 
-     Allow Posting To = blank  
+    Allow Posting To = blank  
 
-5.  Create new purchase order:  
+5. Create new purchase order:  
 
-     Buy-from Vendor No.: 10000  
+    Buy-from Vendor No.: 10000  
 
-     Posting Date = January 2nd, 2014  
+    Posting Date = January 2nd, 2014  
 
-     Vendor Invoice No.: 2345  
+    Vendor Invoice No.: 2345  
 
-     On the purchase order line:  
+    On the purchase order line:  
 
-     Item Charge = JB-FREIGHT  
+    Item Charge = JB-FREIGHT  
 
-     Quantity = 1  
+    Quantity = 1  
 
-     Direct Unit Cost = 3  
+    Direct Unit Cost = 3  
 
-     Assign Item Charge to Purchase Receipt from step 2.  
+    Assign Item Charge to Purchase Receipt from step 2.  
 
-     Post Receipt and Invoice.  
+    Post Receipt and Invoice.  
 
-     ![Adjust cost &#45;Item entries data](media/helene/TechArticleAdjustcost11.png "TechArticleAdjustcost11")
+    ![Adjust cost &#45;Item entries data](media/helene/TechArticleAdjustcost11.png "TechArticleAdjustcost11")
 
-6.  On work date January 3rd a purchase invoice arrives, containing an additional item charge to the purchase made in step 2. This invoice has document date December 30th and is therefore posted with Posting Date December 30th, 2013.  
+6. On work date January 3rd a purchase invoice arrives, containing an additional item charge to the purchase made in step 2. This invoice has document date December 30th and is therefore posted with Posting Date December 30th, 2013.  
 
-     Create new purchase order:  
+    Create new purchase order:  
 
-     Buy-from Vendor No.: 10000  
+    Buy-from Vendor No.: 10000  
 
-     Posting Date = December 30th, 2013  
+    Posting Date = December 30th, 2013  
 
-     Vendor Invoice No.: 3456  
+    Vendor Invoice No.: 3456  
 
-     On the purchase order line:  
+    On the purchase order line:  
 
-     Item Charge = JB-FREIGHT  
+    Item Charge = JB-FREIGHT  
 
-     Quantity = 1  
+    Quantity = 1  
 
-     Direct Unit Cost = 2  
+    Direct Unit Cost = 2  
 
-     Assign Item Charge to Purchase Receipt from step 2  
+    Assign Item Charge to Purchase Receipt from step 2  
 
-     Post Receipt and Invoice.  
+    Post Receipt and Invoice.  
 
    ![Adjust cost &#45;Item entries data](media/helene/TechArticleAdjustcost12.png "TechArticleAdjustcost12")
 
- Inventory Valuation report is printed as of Date December 31st , 2013  
+   Inventory Valuation report is printed as of Date December 31st , 2013  
 
 ![Adjust cost &#45;Item entries data](media/helene/TechArticleAdjustcost13.png "TechArticleAdjustcost13")
 

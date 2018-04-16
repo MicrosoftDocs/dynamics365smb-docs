@@ -18,9 +18,9 @@
 # Work on Service Tasks
 After you have created a service order or service quote, registered service item lines, and allocated resources to the service items in the order or quote, you can start repairing and maintaining the service items.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] features a **Service Tasks** window that gives an overview of all the service items that need attention. Think of it as your service dashboard where you can see what orders are pending, look for and register spare parts, and keep your inventory up-to-date.  
+[!INCLUDE [d365fin](includes/d365fin_md.md)] features a **Service Tasks** window that gives an overview of all the service items that need attention. Think of it as your service dashboard where you can see what orders are pending, look for and register spare parts, and keep your inventory up-to-date.  
   
-To track changes and get a graphical view of your service business, use [!INCLUDE[d365fin](includes/d365fin_md.md)] statistics tools for quick, automatically generated charting and analysis.  
+To track changes and get a graphical view of your service business, use [!INCLUDE [d365fin](includes/d365fin_md.md)] statistics tools for quick, automatically generated charting and analysis.  
   
 ## To work on a service task  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Tasks**, and then choose the related link. 
@@ -55,7 +55,7 @@ When working on service items in service orders, you may need to use spare parts
 5. In the **No.** field, choose the relevant spare part.  
 6. In the **Quantity** field, enter the quantity of items you want to use.  
   
- You can use a similar procedure to register the spare parts on the **Service Lines** page, which you can open from the **Service Order** page.  
+   You can use a similar procedure to register the spare parts on the **Service Lines** page, which you can open from the **Service Order** page.  
   
 ## To register spare parts from a service order  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Orders**, and then choose the related link.  
@@ -96,8 +96,8 @@ After repairing a service item, you can register both the fault code and the res
 2. Choose the line that includes the relevant service item, and then choose the **Item Worksheet** action.  
 3. On the **Service Item Worksheet** page, choose **Fault/Resol. Codes Relationships**. The **Fault/Resolution Codes Relationships** window opens.  
   
-  >  [!Note]
-  >  Filters are set on the relationships that are shown in the window by copying the service item group and the fault codes from the **Service Item Worksheet** window.  
+   > [!Note]
+   >  Filters are set on the relationships that are shown in the window by copying the service item group and the fault codes from the **Service Item Worksheet** window.  
   
 4. Fill out the line. Choose the combination of fault and resolution codes, and then choose **OK** to copy it to the service item. If an appropriate combination cannot be found, you can create a new combination in the window.  
 

@@ -11,6 +11,7 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/03/2018
 ms.author: solsen
+redirect_url: admin-powerbi
 
 ---
 # Connecting Power BI to Dynamics 365 Business Central Content Packs

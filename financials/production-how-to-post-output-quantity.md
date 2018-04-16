@@ -23,7 +23,7 @@ The output quantity represents the work progress in the form of the finished qua
 
 ## To post output quantities for one or more production order lines
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Output Journal**, and then choose the related link.  
-2. Fill in the fields with the production order data and the output data. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Fill in the fields with the production order data and the output data. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. If the operation has been completed, select the **Finished** field.  
 
     If the warehouse location where the items should be put away uses bins but does not require put-away processing,  assign a bin code to the journal line to specify where the items should be placed in the warehouse. For more information, see [Put Away Production or Assembly Output](warehouse-how-to-put-away-production-output.md).  

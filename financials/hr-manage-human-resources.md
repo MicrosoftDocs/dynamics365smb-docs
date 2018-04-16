@@ -16,7 +16,7 @@ ms.author: SorenGP
 
 ---
 # Manage Human Resources
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can keep detailed records of your employees. You can register and maintain employee information, such as employment contracts, confidential information, qualifications, and employee contacts.
+In [!INCLUDE [d365fin](includes/d365fin_md.md)], you can keep detailed records of your employees. You can register and maintain employee information, such as employment contracts, confidential information, qualifications, and employee contacts.
 
 You can also register employee absences, which allows you to analyze registered absences as necessary.
 

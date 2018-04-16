@@ -14,7 +14,7 @@
 
 ---
 # Manage Customer Credit Information
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can add comments to customer credit information. You can also hold and block customers with bad credit before shipping or invoicing occurs.  
+In [!INCLUDE [d365fin](../../includes/d365fin_md.md)], you can add comments to customer credit information. You can also hold and block customers with bad credit before shipping or invoicing occurs.  
 
 ## To add comments to customer credit information  
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Credit Management**, and then choose the related link.  
@@ -38,15 +38,16 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can add comments to cu
     >  You must have the proper security clearance to add or remove holds on individual sales orders using the **On Hold** field.  
 
 ## To block a sales order for a customer  
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.  
-2.  Select a customer, and then choose the **Edit** action.  
-3.  On the **General** FastTab, in the **Blocked** field, select one of the following options:  
+1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.  
+2. Select a customer, and then choose the **Edit** action.  
+3. On the **General** FastTab, in the **Blocked** field, select one of the following options:  
 
-    -   **<Blank>** – Transaction is allowed for this customer.  
-    -   **Ship** – New orders and new shipments cannot be created for this customer. Existing shipments not yet invoiced can be invoiced.  
-    -   **Invoice** – New orders, new shipments, and new invoices cannot be created for this customer. Existing shipments not yet invoiced cannot be invoiced.  
-    -   **All** – No transaction is allowed for this customer, including payments.  
-4.  Choose the **OK** button.  
+   - **<Blank>** – Transaction is allowed for this customer.  
+   - **Ship** – New orders and new shipments cannot be created for this customer. Existing shipments not yet invoiced can be invoiced.  
+   - **Invoice** – New orders, new shipments, and new invoices cannot be created for this customer. Existing shipments not yet invoiced cannot be invoiced.  
+   - **All** – No transaction is allowed for this customer, including payments.  
+
+4. Choose the **OK** button.  
 
 ## See Also  
 [Canada Local Functionality](canada-local-functionality.md)  

@@ -38,7 +38,7 @@ You use item charge numbers to distinguish between the different kinds of item c
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Charges**, and then choose the related link.
 2. In the **Item Charges** window, choose the **New** action to create a new line.
-3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To assign an item charge directly to the purchase invoice for the item
 If you know the item charge at the time when you post a purchase invoice for the item, follow this procedure.
@@ -49,7 +49,7 @@ If you know the item charge at the time when you post a purchase invoice for the
 4. On a new line, in the **Type** field, select **Charge (Item)**.
 5. In the **Quantity** field, enter the units of the item charge that you have been invoiced for.
 6. In the **Direct Unit Cost** field, enter the amount of the item charge.
-7. Fill in the remaining fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+7. Fill in the remaining fields as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     In the following steps, you will perform the actual assignment. Until the item charge is fully assigned, the value in the **Qty. to Assign** field is in red font.
 8. On the **Lines** tab, choose the **Item Charge Assignment** action.

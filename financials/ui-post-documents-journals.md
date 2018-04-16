@@ -17,7 +17,7 @@ ms.author: solsen
 # Post Documents and Journals
 Posting represents the accounting action of recording business transactions in the various company ledgers.
 
-Practically every document and journal in [!INCLUDE[d365fin](includes/d365fin_md.md)] offers a **Posting** group from which you can choose between different posting actions, such as **Post**, **Preview Posting**, **Post and Send**, **Post and Email**.
+Practically every document and journal in [!INCLUDE [d365fin](includes/d365fin_md.md)] offers a **Posting** group from which you can choose between different posting actions, such as **Post**, **Preview Posting**, **Post and Send**, **Post and Email**.
 
 The following table describes related tasks, with links to the topics that describe them.
 

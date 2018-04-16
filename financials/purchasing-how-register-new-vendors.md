@@ -32,7 +32,7 @@ Vendor cards hold the information that is required to buy products from the vend
     If more than one vendor template exists, then a window opens from which you can select a vendor template. In that case, follow the next two steps.
 3. In the **Select a template for a new vendor** window, choose the template that you want to use for the new vendor card.
 4. Choose the **OK** button. A new vendor card opens with some fields filled with information from the template.
-5. Proceed to fill or change fields on the vendor card as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Proceed to fill or change fields on the vendor card as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   If you do not know the invoicing address that will be used for every invoice from a vendor, do not fill in the **Pay-to** field. Instead, choose the pay-to vendor number after you have set up a purchase quote, order, or invoice header.
@@ -43,7 +43,7 @@ If you want to use this vendor card as a template when you create new vendor car
 
 ## To save the vendor card as a template
 1. In the **Vendor Card** window, choose the **Save as Template** action. The **Vendor Template** window opens showing the vendor card as a template.
-2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. To reuse dimensions in templates, choose the **Dimensions** action. The **Dimension Templates** window opens showing any dimension codes that are set up for the vendor.
 4. Edit or enter dimension codes that will apply to new vendor cards created by using the template.
 5. When you have completed the new vendor template, choose the **OK** button.  

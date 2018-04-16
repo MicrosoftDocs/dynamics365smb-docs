@@ -22,7 +22,7 @@ The portal includes a highly specialized Role Center that serves as a dashboard 
 When you first install the extension, a sample company helps you get started. You can delete the sample company at any time.  
 
 ## Installing the Extension
-When you add the extension to your [!INCLUDE[d365fin](includes/d365fin_md.md)], it replaces your current Role Center and adds permissions to your user profile. As a result, you must sign out and sign in a couple of times.  
+When you add the extension to your [!INCLUDE [d365fin](includes/d365fin_md.md)], it replaces your current Role Center and adds permissions to your user profile. As a result, you must sign out and sign in a couple of times.  
 
 ## See Also
 [Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](index.md)  

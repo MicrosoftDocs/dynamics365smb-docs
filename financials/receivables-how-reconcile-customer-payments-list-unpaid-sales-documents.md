@@ -53,17 +53,17 @@ Payments entries are posted to general ledger, bank, and customer accounts. Each
 2. Select the **Payment Made** check box on the lines that represent posted documents for the same customer for which a lump payment has been made.  
 
     > [!NOTE]  
->   The customer in the **Name** field must be the same on all lines that will be posted as a lump payment.  
+   >   The customer in the **Name** field must be the same on all lines that will be posted as a lump payment.  
 
     If the **Auto Fill Date Received** check box is selected in the **Payment Registration Setup** window, then the work date is filled in the **Date Received** field.  
 3. In the **Date Received** field, enter the date when the payment was made. This date may be different from the work date.  
 
     > [!NOTE]  
->   This date must be the same on all lines that will be posted as a lump payment.  
+   >   This date must be the same on all lines that will be posted as a lump payment.  
 4. In the **Amount Received** field, enter amounts on multiple lines that sum up to the lump payment amount.  
 
     > [!TIP]  
->   Try to post as many full payments as possible with the lump amount. Enter amounts that are the same as the amount in the **Remaining Amount** field on as many lines as possible.  
+   >   Try to post as many full payments as possible with the lump amount. Enter amounts that are the same as the amount in the **Remaining Amount** field on as many lines as possible.  
 5. Repeat steps 2-4 for other lines that represent posted documents for the same customer for which a lump payment has been made.  
 6. Choose the **Post As Lump Payment** action. The entered payment information is posted for documents represented by lines where the **Payment Made** check box is selected.  
 
@@ -71,7 +71,7 @@ Payment entries are posted to general ledger, bank, and customer accounts. Each 
 
 If a payment in the bank is not represented by line in the **Payment Registration** window, it may be because the related document has not yet been posted. In that case, you can use a search function to quickly find the document and post it to process the payment. For more information, see the "To find a specific sales document that is not fully invoiced" section.  
 
-If a payment in the bank is not represented by any document in [!INCLUDE[d365fin](includes/d365fin_md.md)], then you can open a prefilled general journal from the **Payment Registration** window to post the payment directly to the balancing account without applying the payment to a document. Alternatively, you may want to record the payment in the journal until the origin of the payment has been resolved. For more information, see the "To record or post a payment without a related document" section.  
+If a payment in the bank is not represented by any document in [!INCLUDE [d365fin](includes/d365fin_md.md)], then you can open a prefilled general journal from the **Payment Registration** window to post the payment directly to the balancing account without applying the payment to a document. Alternatively, you may want to record the payment in the journal until the origin of the payment has been resolved. For more information, see the "To record or post a payment without a related document" section.  
 
 ## To process customer payments with discounts manually
 If you have agreed on a payment discount with your customer, then the payment amounts can be lower than the invoice amounts if payment occurs before the agreed discount date.  
@@ -100,7 +100,7 @@ The following procedures explains four different ways to post discounted payment
 3. In the **Date Received** field, enter a payment date that is after the date in the **Pmt. Discount Date** field. Date fields change to red font, and an error message is shown at the bottom of the window.
 
     > [!TIP]  
->   If you want to make an exception and grant the discount even though the payment is late, follow these steps:
+   >   If you want to make an exception and grant the discount even though the payment is late, follow these steps:
 4. Choose the **Details** action.  
 5. In the **Payment Registration Details** window, in the **Pmt. Discount Date** field on the **Payment Discount** FastTab, enter a date that is after the date in the **Date Received** field in the **Payment Registration** window.  
 
@@ -149,7 +149,7 @@ The following procedure explains how to find a specific document by using both s
 3. In the **Document Search** window, enter a search value in the **Document No.** field.  
 
     > [!NOTE]  
->   The value that you enter in this field is enclosed in hidden wildcard characters. This means that the function searches for all document numbers that contain the entered value.    
+   >   The value that you enter in this field is enclosed in hidden wildcard characters. This means that the function searches for all document numbers that contain the entered value.    
 4. In the **Amount** field, enter the specific amount that exists on the document that you want to find.  
 5. In the **Amount Tolerance %** field, enter a percentage value to define the range of amounts that you want to search to find the open document.  
 
@@ -160,10 +160,10 @@ The Search function searches among documents that are not fully invoiced based o
 
 If one or more documents match the criteria, then the **Document Search Result** window opens to display lines that represent those documents. Each line contains a document number, description, and amount so that you can easily find a specific document, for example based on information on your bank statement.  
 
-If a payment in the bank is not represented by any document in [!INCLUDE[d365fin](includes/d365fin_md.md)], then you can open a prefilled general journal from the **Payment Registration** window to post the payment directly to the balancing account without applying the payment to a document. Alternatively, you may want to record the payment in the journal until the origin of the payment has been resolved.  
+If a payment in the bank is not represented by any document in [!INCLUDE [d365fin](includes/d365fin_md.md)], then you can open a prefilled general journal from the **Payment Registration** window to post the payment directly to the balancing account without applying the payment to a document. Alternatively, you may want to record the payment in the journal until the origin of the payment has been resolved.  
 
 ## To record or post a payment without a related document
-If a payment in the bank is not represented by any document [!INCLUDE[d365fin](includes/d365fin_md.md)], then you can open a prefilled general journal line from the **Payment Registration** window to post the payment directly to the balancing account without applying the payment to a document. Alternatively, you may want to record the payment in the journal until the origin of the payment has been clarified.  
+If a payment in the bank is not represented by any document [!INCLUDE [d365fin](includes/d365fin_md.md)], then you can open a prefilled general journal line from the **Payment Registration** window to post the payment directly to the balancing account without applying the payment to a document. Alternatively, you may want to record the payment in the journal until the origin of the payment has been clarified.  
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Registration**, and then choose the related link.  
 

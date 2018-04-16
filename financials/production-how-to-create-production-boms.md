@@ -18,7 +18,7 @@
 # Create Production BOMs
 A production bill of material (BOM) holds master data that describes the components and subassemblies used in the production of a parent item. Once a production order is created for that parent item, its production BOM will govern the calculation of material requirements as represented in the **Prod. Order Components** window.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  also support assembly BOMs. You use assembly orders for making end items from components in a simple process that can be performed by one or more basic resources, which are not machine or work centers, or without any resources. For example, an assembly process could be to pick two wine bottles and one coffee sack and then pack them as a gift item. For more information, see the "Assembly BOMs or Production BOMs" section in [Work with Bills of Material](inventory-how-work-BOMs.md).  
+[!INCLUDE [d365fin](includes/d365fin_md.md)]  also support assembly BOMs. You use assembly orders for making end items from components in a simple process that can be performed by one or more basic resources, which are not machine or work centers, or without any resources. For example, an assembly process could be to pick two wine bottles and one coffee sack and then pack them as a gift item. For more information, see the "Assembly BOMs or Production BOMs" section in [Work with Bills of Material](inventory-how-work-BOMs.md).  
 
 Before you can set up a routing, the following must be in place:  
 
@@ -28,22 +28,22 @@ Before you can set up a routing, the following must be in place:
 ## To create a production BOM  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Production BOM**, and then choose the related link.  
 2. Choose the **New** action.  
-3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. To edit the BOM, set the **Status** field to **New** or **Under Development**. To activate it, set the **Status** field to **Certified**.  
 
     Proceed to fill in the production BOM lines.
 5. In the **Type** field, select whether the item on this BOM line is an ordinary item or a production BOM. If the item on the line is a production BOM, then it must already exist as a certified production BOM.  
-6.  In the **No.** field, look up and select the item or production BOM in question, or type it in the field.  
-7.  In the **Quantity Per** field, enter how many units of the item go into the parent item, for example, 4 wheels for 1 car.  
-8.  In the **Scrap %** field you can enter a fixed percentage of components that are scrapped during production. When the components are ready to be consumed in a released production order, this percentage will be added to the expected quantity in the **Consumption Quantity** field in a production journal. For more information, see [Register Consumption and Output](production-how-to-register-consumption-and-output.md).  
+6. In the **No.** field, look up and select the item or production BOM in question, or type it in the field.  
+7. In the **Quantity Per** field, enter how many units of the item go into the parent item, for example, 4 wheels for 1 car.  
+8. In the **Scrap %** field you can enter a fixed percentage of components that are scrapped during production. When the components are ready to be consumed in a released production order, this percentage will be added to the expected quantity in the **Consumption Quantity** field in a production journal. For more information, see [Register Consumption and Output](production-how-to-register-consumption-and-output.md).  
 
-    > [!NOTE]  
-    >  This scrap percentage represents components that are scrapped during production when picking from inventory, whereas the scrap percentage on routing lines represents scrapped output before putting on inventory.  
+   > [!NOTE]  
+   >  This scrap percentage represents components that are scrapped during production when picking from inventory, whereas the scrap percentage on routing lines represents scrapped output before putting on inventory.  
 
-9.  In the **Routing Link Code** field, enter a code to connect the component to a specific operation. For more information, see the "To create routing links" section in [Create Routings](production-how-to-create-routings.md).
+9. In the **Routing Link Code** field, enter a code to connect the component to a specific operation. For more information, see the "To create routing links" section in [Create Routings](production-how-to-create-routings.md).
 10. To copy lines from an existing production BOM, choose the **Copy BOM** action to select existing lines.  
-11.  Certify the production BOM.  
-12.  You can now attach the new production BOM to the card of the parent item in question. For more information, see [Register New Items](inventory-how-register-new-items.md).  
+11. Certify the production BOM.  
+12. You can now attach the new production BOM to the card of the parent item in question. For more information, see [Register New Items](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
 >  To recalculate the item’s standard cost from the item card, choose the **Manufacturing** action, and then choose the **Calc. Standard Cost** action.  

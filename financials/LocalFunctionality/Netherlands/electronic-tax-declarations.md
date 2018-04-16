@@ -33,7 +33,7 @@ When the tasks stated above are finished the application can create and submit V
 For each electronic declaration the tax authorities will send a response message. These messages must be received from the server of the tax authorities and processed.  
 
 ## Response Message from the Tax Authorities  
-The tax authorities will send a response message to inform the company about the status of their electronic declarations. The first step is to import the response messages from the tax authorities in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. The second step is processing the response messages.  
+The tax authorities will send a response message to inform the company about the status of their electronic declarations. The first step is to import the response messages from the tax authorities in [!INCLUDE [d365fin](../../includes/d365fin_md.md)]. The second step is processing the response messages.  
 
 The response message must be linked to the related electronic tax declaration.
 

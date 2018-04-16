@@ -14,7 +14,7 @@
 
 ---
 # Design Details
-This content contains detailed technical information about complex application features in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+This content contains detailed technical information about complex application features in [!INCLUDE [d365fin](includes/d365fin_md.md)].  
 
  Design details content is aimed at implementers, developers, and super users who need deeper insight to implement, customize, or set up the features in question.  
 
@@ -34,5 +34,5 @@ This content contains detailed technical information about complex application f
  [Setting Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
- ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- ## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ ## [!INCLUDE [d365fin](includes/free_trial_md.md)]  
+ ## [!INCLUDE [d365fin](includes/training_link_md.md)]

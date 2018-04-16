@@ -16,13 +16,13 @@ ms.author: sgroespe
 
 ---
 # Delivering Service
-[!INCLUDE[d365fin](includes/d365fin_md.md)] provides features to help you deliver service according to the contracts that you have created and the service orders that you have committed to fulfilling. Your service technicians or dispatcher will find outstanding service orders easy to locate when they use the **Dispatch Board**. At a glance, the **Dispatch Board** shows which orders are in progress and which orders are complete.  
+[!INCLUDE [d365fin](includes/d365fin_md.md)] provides features to help you deliver service according to the contracts that you have created and the service orders that you have committed to fulfilling. Your service technicians or dispatcher will find outstanding service orders easy to locate when they use the **Dispatch Board**. At a glance, the **Dispatch Board** shows which orders are in progress and which orders are complete.  
   
 Another way to review pending service orders is to use the **Service Tasks** window. In this view of your service obligations, you can see where in your service workflow an order is and change that status to reflect interactions with your customer.  
   
 The following table describes a sequence of tasks, with links to the topics that describe them.   
 
-A service management application must interface with a customer request for service. That service request usually is translated into a service order. [!INCLUDE[d365fin](includes/d365fin_md.md)] provides tools to create an order both directly in response to a customer request or as part of the contract process, if that is how your application is set up.  
+A service management application must interface with a customer request for service. That service request usually is translated into a service order. [!INCLUDE [d365fin](includes/d365fin_md.md)] provides tools to create an order both directly in response to a customer request or as part of the contract process, if that is how your application is set up.  
   
 If needed, you can manage a loaner program for your customers. You can also determine your pricing structure, put service pricing offerings into logical groupings, and create price adjustments.  
   

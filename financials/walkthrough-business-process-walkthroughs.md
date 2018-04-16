@@ -18,7 +18,7 @@
 # Business Process Walkthroughs
 This selection of walkthroughs provides step-by-step, end-to-end business processes that you can perform using the CRONUS International Ltd. demonstration company. The walkthroughs consist of multiple procedures, some of which would normally be performed by one user, while others incorporate several different user roles. In order to simulate the working environment, some of the walkthroughs contain setup steps necessary to complete the exercises as described. These steps can provide insight into the kind of information users need to share with their company's IT professionals.  
 
- The walkthroughs are complete scenarios, and should be performed from beginning to end for the greatest benefit. Many are based on [!INCLUDE[d365fin](includes/d365fin_md.md)] demonstrations, and enable you to try those procedures yourself, at your own pace.  
+ The walkthroughs are complete scenarios, and should be performed from beginning to end for the greatest benefit. Many are based on [!INCLUDE [d365fin](includes/d365fin_md.md)] demonstrations, and enable you to try those procedures yourself, at your own pace.  
 
  To avoid having to log in as many different profiles, navigation steps in the walkthroughs are based on department menus and not on the Role Centers.  
 
@@ -40,5 +40,5 @@ This selection of walkthroughs provides step-by-step, end-to-end business proces
 ## See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+## [!INCLUDE [d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE [d365fin](includes/training_link_md.md)]

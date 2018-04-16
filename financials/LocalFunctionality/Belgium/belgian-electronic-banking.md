@@ -18,11 +18,11 @@
 ---
 # Belgian Electronic Banking
 > [!Note]
-> [!INCLUDE[onprem_only](../../includes/onprem_only_md.md)]
+> [!INCLUDE [onprem_only](../../includes/onprem_only_md.md)]
 
 Electronic banking allows you to electronically exchange data with Belgian financial institutions, either on disk or via Interbanks Standards Association Belgium (Isabel). This speeds up processing time and helps avoid errors caused by manual data entry or processing.  
 
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use electronic banking to perform the following functions:  
+In [!INCLUDE [d365fin](../../includes/d365fin_md.md)], you can use electronic banking to perform the following functions:  
 
 - Send electronic payments  
 - Process bank statements with CODA  

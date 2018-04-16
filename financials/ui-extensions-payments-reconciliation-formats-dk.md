@@ -50,13 +50,13 @@ There are a few steps to get started.
   
 Additionally, you must assign vendors to a domestic **Gen. Bus. Posting Group** and a **Vendor Posting Group**. The Country/Region setting for the vendor must be Denmark (DK). For more information, see [Setting Up Posting Groups](finance-posting-groups.md).  
   
-### To allow [!INCLUDE[d365fin](includes/d365fin_md.md)] to export payment data
+### To allow [!INCLUDE [d365fin](includes/d365fin_md.md)] to export payment data
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journal**, and then choose the related link.  
 2. In the **Edit Payment Journal** window, choose the **Bank** batch.  
 3. Choose the **Allow Payment Export** check box.  
 
 ### To specify a payment method for a vendor
-The following table shows the combinations of FIK and GIRO payment methods that [!INCLUDE[d365fin](includes/d365fin_md.md)] supports.
+The following table shows the combinations of FIK and GIRO payment methods that [!INCLUDE [d365fin](includes/d365fin_md.md)] supports.
 
 ||Type 01 | Type 04 | Type 71 | Type 73 |
 |----|---|---|---|---|
@@ -79,8 +79,8 @@ The following table shows the combinations of FIK and GIRO payment methods that 
 3. Create an invoice. The **Payment Method** and **Vendor Number** fields are filled in based on settings on the Vendor card. You can change them if you want.
 4. In the **Payment Reference** field, enter the 15-digit number from the vendor invoice.  
   
-    > [!Tip]
-    > You only have to add the last 11 digits of the number. [!INCLUDE[d365fin](includes/d365fin_md.md)] will add four zeros to the beginning of the number.  
+   > [!Tip]
+   > You only have to add the last 11 digits of the number. [!INCLUDE [d365fin](includes/d365fin_md.md)] will add four zeros to the beginning of the number.  
   
 5. Post the invoice.
 

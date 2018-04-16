@@ -49,7 +49,7 @@ For contracts that are not detailed, the invoiced amount is calculated as follow
 3. Choose the **Make Contract** action.  
 4. If the starting date of the contract is before the beginning of the next invoice period, you are asked if you want to create an invoice for the starting period of the contract. Choose **Yes**.  
   
- The service invoice is posted to the service account of the contract, even if the contract is prepaid. 
+   The service invoice is posted to the service account of the contract, even if the contract is prepaid. 
 
 ## To create contract service credit memos
 You can use a contract service credit memo when a customer cancels a prepaid service contract or removes a service item from a prepaid contract. You can also use it to correct an erroneous service invoice.  
@@ -67,9 +67,9 @@ You can use a contract service credit memo when a customer cancels a prepaid ser
 5. Fill in the **Posting Date** and **Document Date** fields.  
 6. On the credit memo lines, enter information about the items that have been returned or removed, or the allowance that will be sent. You can also use the **Get Prepaid Contract Entries** batch job.  
   
- To automatically create a credit memo when contract lines are removed from a service contract, in the **Service Contract** window, on the **Invoice Details** FastTab, select the **Automatic Credit Memos** check box.  
+   To automatically create a credit memo when contract lines are removed from a service contract, in the **Service Contract** window, on the **Invoice Details** FastTab, select the **Automatic Credit Memos** check box.  
   
- To manually create a credit memo when contract lines are removed from a service contract, in the **Service Contract** window, on the **Actions** tab, in the **Functions** group, choose **Credit Memo**.  
+   To manually create a credit memo when contract lines are removed from a service contract, in the **Service Contract** window, on the **Actions** tab, in the **Functions** group, choose **Credit Memo**.  
 
 ## Updating and evaluating contracts
 Sometimes you have to change the terms of a contract after it has been created. In most cases, you open the relevant contract in the **Service Contract** window, and change it as necessary.  
@@ -124,7 +124,7 @@ You can add contract discounts on services for contract quotes and service contr
 2. Choose the quote to add discounts for.  
 3. Choose the **Service Discounts** action. The **Contract/Service Discounts** window opens.  
 4. To create a new contract discount, choose the **New** action.  
-5. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
+5. Fill in the fields on the line as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
   
 > [!Tip]  
 >  To add contract discounts directly to a service contract, perform similar steps from the **Service Contract** window.  
@@ -192,7 +192,7 @@ You may need to cancel a service contract when the contract has expired or has b
 6. If there are unposted invoices, credit memos, or opened prepaid entries for the contract, a confirmation message will appear. In the message box, choose **No** to return to the contract and post the documents, or **Yes** to continue the cancellation process.  
 
 ## Filing a service contract or contract quote  
-You can file service contracts and contract quotes at any time to record and archive a copy of the contract or contract quote. [!INCLUDE[d365fin](includes/d365fin_md.md)] files service contracts automatically when you convert contract quotes to service contracts or cancel service contracts. You can file a contract or quote yourself by choosing the **File Contract** action on the **Service Contracts** or **Service Contract Quotes** pages. If you want to view your archived contracts of quotes by searching for **Filed Contracts**.
+You can file service contracts and contract quotes at any time to record and archive a copy of the contract or contract quote. [!INCLUDE [d365fin](includes/d365fin_md.md)] files service contracts automatically when you convert contract quotes to service contracts or cancel service contracts. You can file a contract or quote yourself by choosing the **File Contract** action on the **Service Contracts** or **Service Contract Quotes** pages. If you want to view your archived contracts of quotes by searching for **Filed Contracts**.
 
 ## See Also  
 [Set Up Service Contracts](service-how-setup-service-contracts.md)  

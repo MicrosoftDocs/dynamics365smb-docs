@@ -16,7 +16,7 @@ ms.author: solsen
 
 ---
 # Changing Basic Settings
-In the **My Settings** window, you can see and change basic settings for [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+In the **My Settings** window, you can see and change basic settings for [!INCLUDE [d365fin](includes/d365fin_md.md)].  
 
 ## Role Center
 The Role Center represents the Home page, a starting page that is designed for the needs of the role. On the Home page, you have an overview of the business. To the left you see a navigation bar that gives you easy access to customers, vendors, items, and so on.
@@ -32,7 +32,7 @@ The default Role Center is **Business Manager**, but you can select another Role
 3. Choose the **OK** button.
 
 ## Company
-A company functions as a container for data in [!INCLUDE[d365fin](includes/d365fin_md.md)]. There can be multiple companies in a database, but only one can be selected at a time.
+A company functions as a container for data in [!INCLUDE [d365fin](includes/d365fin_md.md)]. There can be multiple companies in a database, but only one can be selected at a time.
 
 The default company is called CRONUS and contains demonstration data only.
 

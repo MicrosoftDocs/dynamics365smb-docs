@@ -24,24 +24,24 @@ The **Suggest Lines** action recalculates the values to report. The **Correct Li
 
 **Example corrections scenarios**  
 
-1.  If you post additional VAT entries after you submit the Standard report in the report period, choose **Suggest Lines** in the **Process** group to get the updated amounts.  
+1. If you post additional VAT entries after you submit the Standard report in the report period, choose **Suggest Lines** in the **Process** group to get the updated amounts.  
 
-    > [!NOTE]  
-    >  If you manually changed the amount for a customer or vendor, this amount will be overwritten when additional VAT entries are posted. Update the amount accordingly.  
+   > [!NOTE]  
+   >  If you manually changed the amount for a customer or vendor, this amount will be overwritten when additional VAT entries are posted. Update the amount accordingly.  
 
-2.  If you want to change the amount of a report line that has already been submitted and no new VAT entries are posted, choose the  **Correct Lines** action. In the **VAT Report Lines** window, select the lines that you want to correct, and then choose the **OK** button.  
+2. If you want to change the amount of a report line that has already been submitted and no new VAT entries are posted, choose the  **Correct Lines** action. In the **VAT Report Lines** window, select the lines that you want to correct, and then choose the **OK** button.  
 
-    For each entry, two lines are displayed: Cancellation and Correction. You can now change the amount on the Correction line.  
+   For each entry, two lines are displayed: Cancellation and Correction. You can now change the amount on the Correction line.  
 
-    > [!NOTE]  
-    >  The **Correct Lines** action will not suggest the amount based in VAT entries. If you have new VAT entries for the customer or vendor, instead use the **Suggest Lines** action.  
+   > [!NOTE]  
+   >  The **Correct Lines** action will not suggest the amount based in VAT entries. If you have new VAT entries for the customer or vendor, instead use the **Suggest Lines** action.  
 
-3.  If you used the wrong filters, for example, the wrong VAT product posting group, choose the **Suggest Lines** action, and then set filters as needed.  
+3. If you used the wrong filters, for example, the wrong VAT product posting group, choose the **Suggest Lines** action, and then set filters as needed.  
 
-    **Suggest Lines** will create entries to account for the difference between the filters.  
+   **Suggest Lines** will create entries to account for the difference between the filters.  
 
-    > [!NOTE]  
-    >  If the updated filters exclude a customer or vendor, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] creates a Cancellation line for the previous reported amount and a Correction entry with amount 0.
+   > [!NOTE]
+   >  If the updated filters exclude a customer or vendor, [!INCLUDE [d365fin](../../includes/d365fin_md.md)] creates a Cancellation line for the previous reported amount and a Correction entry with amount 0.
 
 ## To correct a VAT report  
 

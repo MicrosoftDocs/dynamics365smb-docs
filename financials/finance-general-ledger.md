@@ -16,7 +16,7 @@ ms.author: edupont
 
 ---
 # Understanding the General Ledger and the COA
-The general ledger stores your financial data, and the chart of accounts shows the accounts that all general ledger entries are posted to. [!INCLUDE[d365fin](includes/d365fin_md.md)] includes a standard chart of accounts that is ready to support your business.
+The general ledger stores your financial data, and the chart of accounts shows the accounts that all general ledger entries are posted to. [!INCLUDE [d365fin](includes/d365fin_md.md)] includes a standard chart of accounts that is ready to support your business.
 
 ## General Ledger Setup and General Posting Setup
 The setup of the general ledger is at the core of financial processes because it defines how you post data.  

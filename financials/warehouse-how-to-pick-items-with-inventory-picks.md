@@ -18,9 +18,9 @@
 # Pick Items with Inventory Picks
 When your location is set up to require pick processing but not shipment processing, you use the **Inventory Pick** window to record and post picking and shipping information for your source documents. The outbound source document can be a sales order, a purchase return order, an outbound transfer order, or a production order whose components are ready to be picked.
 
-> [!NOTE]  
+> [!NOTE]
 > Components for assembly orders cannot be picked or posted with inventory picks. Instead, use the **Inventory Movement** window. For more information, see [Move Components to an Operation Area in Basic Warehousing](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
-
+> 
 >  When picking and shipping sales line quantities that are assembled to the order, you must follow certain rules when creating the inventory pick lines. For more information, see the “Handling Assemble-to-Order Items in Inventory Picks” section.  
 
 You can create an inventory pick in three ways:  
@@ -87,7 +87,7 @@ The **Inventory Pick** window is also used to pick and ship for sales where item
 
 Items to be shipped are not physically present in a bin until they are assembled and posted as output to a bin in the assembly area. This means that picking assemble-to-order items for shipment follows a special flow. From a bin, warehouse workers take the assembly items to the shipping dock and then post the inventory pick. The posted inventory pick then posts the assembly output, the component consumption, and the sales shipment.
 
-You can set up [!INCLUDE[d365fin](includes/d365fin_md.md)] to automatically create an inventory movement when the inventory pick for the assembly item is created. To enable this, you must select the **Create Movements Automatically** field in the **Assembly Setup** window. For more information, see [Move Components to an Operation Area in Basic Warehousing](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+You can set up [!INCLUDE [d365fin](includes/d365fin_md.md)] to automatically create an inventory movement when the inventory pick for the assembly item is created. To enable this, you must select the **Create Movements Automatically** field in the **Assembly Setup** window. For more information, see [Move Components to an Operation Area in Basic Warehousing](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
 Inventory pick lines for sales items are created in different ways depending on whether none, some, or all of the sales line quantities are assembled to order.
 

@@ -16,7 +16,7 @@ ms.author: bholtorf
 ---
 
 # Consolidating Financial Data from Multiple Companies
-If you have more than one company in [!INCLUDE[d365fin](includes/d365fin_md.md)], the Consolidated Trial Balance report on the Accountant Role Center can give you an overview of the financial health of your overall business.  
+If you have more than one company in [!INCLUDE [d365fin](includes/d365fin_md.md)], the Consolidated Trial Balance report on the Accountant Role Center can give you an overview of the financial health of your overall business.  
 
 The report combines general ledger entries from each of your companies in a new company that you create to contain the consolidated data. This company is typically referred to as the "consolidated company". The consolidated company is just a container for the consolidated data, and does not have any live business data. The companies that you include in the consolidated company become **Business Units** in the report.
 
@@ -38,7 +38,7 @@ Depending on the complexity of your businesses, there are two ways to set up the
 If your consolidation is straightforward, for example because you wholly-own the business units to consolidate, the **Company Consolidation** assisted setup guide will help you through the following steps:
 
 * Choose whether to create a new consolidated company, or whether to consolidate the data in a company that you have already created for the consolidation. The company should not contain transactions.
-* Preview the results. [!INCLUDE[d365fin](includes/d365fin_md.md)] verifies that the master data and transactions can be successfully transferred to the consolidated company.
+* Preview the results. [!INCLUDE [d365fin](includes/d365fin_md.md)] verifies that the master data and transactions can be successfully transferred to the consolidated company.
 
 To use the assisted setup guide, follow these steps:
 
@@ -48,7 +48,7 @@ To use the assisted setup guide, follow these steps:
 ## To do an advanced consolidation setup
 If you need more advanced settings for your consolidation, you can set up consolidation manually. For example, if you have companies that you own only partially, or you have companies that you don’t want to include in the consolidation. You set up the consolidated company in the say way that you set up other companies. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md).  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] lets you set up a list of companies to consolidate, verify the accounting data before you consolidate it, import files, and generate consolidation reports.  
+[!INCLUDE [d365fin](includes/d365fin_md.md)] lets you set up a list of companies to consolidate, verify the accounting data before you consolidate it, import files, and generate consolidation reports.  
 
 1. Sign in to the consolidated company.
 2. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Business Units**, and then choose the related link.  
@@ -101,7 +101,7 @@ If you do not want to include a business unit in the consolidation, you can excl
 If you own only part of a company, you can include a percentage of each transaction that corresponds to the percentage of the company you own. For example, if you own 70% of the company, consolidation will include $70 of an invoice for $100. To specify the percentage of the company you own, go to the business unit card, and enter the percentage in the **Consolidation %** field.  
 
 ### To test the data before you consolidate
-You can test your data before you transfer it to the consolidated company. [!INCLUDE[d365fin](includes/d365fin_md.md)] looks for differences in the information in the business units and the consolidated company. For example, whether account numbers or dimension codes are different. You must correct errors before you can run the report. You can test the database or, if you are importing data from an XML file, you can test the file.   
+You can test your data before you transfer it to the consolidated company. [!INCLUDE [d365fin](includes/d365fin_md.md)] looks for differences in the information in the business units and the consolidated company. For example, whether account numbers or dimension codes are different. You must correct errors before you can run the report. You can test the database or, if you are importing data from an XML file, you can test the file.   
 
 1. Open the consolidated company.  
 2. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Business Units**, and then choose the related link.  

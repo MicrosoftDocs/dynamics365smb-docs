@@ -68,7 +68,7 @@ After the warehouse shipment is posted, various fields on the sales order line a
 
 > [!NOTE]
 > In combination scenarios, in which a part of the quantity must first be assembled and another must be shipped from inventory, two warehouse shipment lines are created. One is for the assemble-to-order quantity, and one is for the inventory quantity.
-
+> 
 > In that case, the assemble-to-order quantity is handled as described in this topic, and the inventory quantity is handled as any other regular warehouse shipment line. For more information about combination scenarios, see [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md).
 
 ## See Also  

@@ -1,8 +1,6 @@
 ---
     title: Assign Serial and Lot Numbers to Items for Tracking | Microsoft Docs
     description: You can add serial numbers and lot numbers to any outbound or inbound document, and its posted item tracking entries are displayed in the related item ledger entries.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/22/2017
+    ms.date: 04/17/2018
     ms.author: sgroespe
 
 ---
@@ -57,6 +55,10 @@ An item tracking code reflects the different considerations a company has regard
 2. Choose the **New** action.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. On the **Serial No.** and the **Lot No.** FastTabs, define policies of item tracking by serial and lot numbers respectively.  
+
+> [!NOTE]  
+>   If you want to track specific items or specific lots throughout their lifetime, you must choose the **SN Specific Tracking** and **Lot Specific Tracking** fields, respectively. As a result, when handling an outbound unit of an item with this item tracking code, you must always specify which existing serial number or which existing lot number to handle. This means that when selling a unit of the item, it must be applied against a specific pool of serial numbers or a specific lot number in inventory. Or in other words, a serial number or lot number assigned to the item when entering into inventory must follow that item type out of inventory.  
+As this particular setup field covers all possible transactions with the item, the individual inbound/outbound fields will also be selected. However, the individual inbound/outbound fields have nothing to do with application across inventory - they merely define your company's work flow concerning when to assign item tracking numbers.  
 
 ### To set up expiration rules for serial or lot numbers  
 For some items you might want to set up specific expiration dates and rules in the item tracking code. This functionality allows you to keep track of when specific serial numbers and lot numbers expire.

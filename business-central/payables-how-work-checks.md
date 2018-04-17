@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 04/10/2018
+ms.date: 04/17/2018
 ms.author: sgroespe
 
 ---
@@ -20,8 +20,8 @@ The following procedure shows how to pay a vendor with a computer checks by appl
 
 You can pay with two types of checks. For both types, the **Bal. Account Type** or the **Account Type** field must contain **Bank Account**.
 
-    * **Computer Check**: Select this option if you want to print a check for the amount on the payment journal line. You must print the checks before you can post the journal lines. You can only select **Computer Check** if
-    * **Manual Check**: Select this option if you have created a check manually and want to create a corresponding check ledger entry for this amount. By using this option, you cannot print the check.
+- **Computer Check**: Select this option if you want to print a check for the amount on the payment journal line. You must print the checks before you can post the journal lines. You can only select **Computer Check** if
+- **Manual Check**: Select this option if you have created a check manually and want to create a corresponding check ledger entry for this amount. By using this option, you cannot print the check.
 
 > [!NOTE]  
 > To make sure that your bank only clears validated checks and amounts, you can send them a file that contains vendor, check, and payment information. For more information, see [Export a Positive Pay file](finance-how-positive-pay.md).
@@ -48,8 +48,8 @@ You can have payment lines filled in automatically by using the **Suggest Vendor
 
 Fully applied vendor ledger entries and bank ledger entries are created.
 
-    > [!NOTE]  
->   If you want to print and pay checks in more than one currency from different bank accounts, you must run the **Print Check** batch job separately for each currency and specify the appropriate bank account.
+> [!NOTE]  
+> If you want to print and pay checks in more than one currency from different bank accounts, you must run the **Print Check** batch job separately for each currency and specify the appropriate bank account.
 
 ## To cancel printed checks that are not posted
 You can cancel non-posted checks after they have been printed by using the **Void Check** action in the **Payment Journal** window.
@@ -64,6 +64,11 @@ When check payment have been posted, you can only cancel (void) checks from the 
 3. In the **Check Ledger Entries** window, choose the **Void Check** action.
 4. Select the **Void Check Only** check box.
 5. Choose the **OK** button.
+
+## To view a summary of posted checks
+If you want to review posted checks, for example to verify multiple checks paid to one vendor, you can use the **Bank Account - Check Details** report.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Account - Check Details**, and then choose the related link.
+2. Set filters as relevant, and then choose the **Preview** button.
 
 ## See Also
 [Managing Payables](payables-manage-payables.md)  

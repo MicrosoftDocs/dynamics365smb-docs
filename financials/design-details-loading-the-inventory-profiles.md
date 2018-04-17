@@ -24,15 +24,15 @@ To sort out the many sources of demand and supply, the planning system organizes
 
  In general, the planning system considers all supply orders after the planning starting date as subject to change in order to fulfill demand. However, as soon as a quantity is posted from a supply order, it can no longer be changed by the planning system. Accordingly, the following different orders cannot be replanned:  
 
--   Released production orders where consumption or output has been posted.  
+- Released production orders where consumption or output has been posted.  
 
--   Assembly orders where consumption or output has been posted.  
+- Assembly orders where consumption or output has been posted.  
 
--   Transfer orders where shipment has been posted.  
+- Transfer orders where shipment has been posted.  
 
--   Purchase orders where receipt has been posted.  
+- Purchase orders where receipt has been posted.  
 
- Apart from loading demand and supply types, certain types are loaded with attention to special rules and dependencies that are described in the following.  
+  Apart from loading demand and supply types, certain types are loaded with attention to special rules and dependencies that are described in the following.  
 
 ## Item Dimensions are Separated  
  The supply plan must be calculated per combination of the item dimensions, such as variant and location. However, there is no reason to calculate any theoretical combination. Only those combinations that carry a demand and/or supply need to be calculated.  

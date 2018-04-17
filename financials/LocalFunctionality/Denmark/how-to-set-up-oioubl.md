@@ -20,29 +20,31 @@ You must define a location for storing Offentlig Information Online UBL (OIOUBL)
 
 ## To set up OIOUBL file locations for sales and receivables  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales & Receivables Setup**, and then choose the related link.  
-2.  In the **Sales & Receivables Setup** window, on the **OIOUBL** FastTab, in the **Output Paths** section, fill in the fields as described in the following table.  
+1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales & Receivables Setup**, and then choose the related link.  
+2. In the **Sales & Receivables Setup** window, on the **OIOUBL** FastTab, in the **Output Paths** section, fill in the fields as described in the following table.  
 
-    |Field|Description|  
-    |---------------------------------|---------------------------------------|  
-    |**Invoice Path**|The path and name of the folder where you want to store the OIOUBL files for sales invoices.|  
-    |**Cr. Memo Path**|The path and name of the folder where you want to store the OIOUBL files for sales credit memos.|  
-    |**Reminder Path**|The path and name of the folder where you want to store the OIOUBL files for reminders.|  
-    |**Fin. Chrg. Memo Path**|The path and name of the folder where you want to store the OIOUBL files for finance charge memos.|  
 
-3.  In the **Default OIOUBL Profile Code** field, select the profile that most of your public sector customers use.  
+   |          Field           |                                            Description                                             |
+   |--------------------------|----------------------------------------------------------------------------------------------------|
+   |     **Invoice Path**     |    The path and name of the folder where you want to store the OIOUBL files for sales invoices.    |
+   |    **Cr. Memo Path**     |  The path and name of the folder where you want to store the OIOUBL files for sales credit memos.  |
+   |    **Reminder Path**     |      The path and name of the folder where you want to store the OIOUBL files for reminders.       |
+   | **Fin. Chrg. Memo Path** | The path and name of the folder where you want to store the OIOUBL files for finance charge memos. |
 
-    When you select a profile, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] updates open sales documents and service documents with the specified profile.  
 
-    1.  To create a new profile, choose the **Default OIOUBL Profile Code** field, and then choose **New**.  
-    2.  In the **OIOUBL Profile List** window, fill in the fields as described in the following table.  
+3. In the **Default OIOUBL Profile Code** field, select the profile that most of your public sector customers use.  
 
-        |Field|Description|  
-        |---------------------------------|---------------------------------------|  
-        |**Code**|Specifies the code for the OIOUBL profile.|  
-        |**Profile ID**|Specifies the profile that you want to support in the electronic documents that you send to customers in the Danish public sector, such as **Procurement-BilSim-1.0**.|  
+   When you select a profile, [!INCLUDE [d365fin](../../includes/d365fin_md.md)] updates open sales documents and service documents with the specified profile.  
 
-4.  Choose the **OK** button.  
+   1.  To create a new profile, choose the **Default OIOUBL Profile Code** field, and then choose **New**.  
+   2.  In the **OIOUBL Profile List** window, fill in the fields as described in the following table.  
+
+       |Field|Description|  
+       |---------------------------------|---------------------------------------|  
+       |**Code**|Specifies the code for the OIOUBL profile.|  
+       |**Profile ID**|Specifies the profile that you want to support in the electronic documents that you send to customers in the Danish public sector, such as **Procurement-BilSim-1.0**.|  
+
+4. Choose the **OK** button.  
 
 > [!IMPORTANT]  
 >  External document numbers are required for OIOUBL documents even if you did not select the **Ext. Doc. No. Mandatory** field on the **General** FastTab. If the document does not have an external document number, you will receive an error message.  
@@ -62,18 +64,20 @@ You must define a location for storing Offentlig Information Online UBL (OIOUBL)
 You must also add an OIOUBL payment channel to the payment methods that you use for electronic invoices. You must also set a code for the relevant payment terms.  
 
 ## To set up payment methods and payments terms  
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Methods**, and then choose the related link.  
-2.  In the **Payment Methods** window, for each payment method that you will use for electronic invoices, in the **Payment Channel** field, select a payment channel. The following table describes the options.  
+1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Methods**, and then choose the related link.  
+2. In the **Payment Methods** window, for each payment method that you will use for electronic invoices, in the **Payment Channel** field, select a payment channel. The following table describes the options.  
 
-    |Option|Description|  
-    |-------------------------------------|---------------------------------------|  
-    |**Payment Slip**|The payment is made by using a payment slip, such as giro or an FI card (Fællesindbetalingskort). **Important:**  This payment channel is not supported in the standard version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].|  
-    |**Account Transfer**|The payment is made by transfer from the customer’s bank account.|  
-    |**National Clearing**|The payment is made by transfer from the customer’s bank account and is processed by a clearing house.|  
-    |**Direct Debit**|The payment is made by using the unified bank payment service (PBS).|  
 
-3.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Terms**, and then choose the related link.  
-4.  In the **Payment Terms** window, for each payment term that you will use for electronic invoices, in the **OIOXML Code** field, select a code. For more information, see OIOUBL Code.  
+   |        Option         |                                                                                                              Description                                                                                                               |
+   |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+   |   **Payment Slip**    | The payment is made by using a payment slip, such as giro or an FI card (Fællesindbetalingskort). **Important:**  This payment channel is not supported in the standard version of [!INCLUDE [d365fin](../../includes/d365fin_md.md)]. |
+   | **Account Transfer**  |                                                                                   The payment is made by transfer from the customer’s bank account.                                                                                    |
+   | **National Clearing** |                                                                 The payment is made by transfer from the customer’s bank account and is processed by a clearing house.                                                                 |
+   |   **Direct Debit**    |                                                                                  The payment is made by using the unified bank payment service (PBS).                                                                                  |
+
+
+3. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Terms**, and then choose the related link.  
+4. In the **Payment Terms** window, for each payment term that you will use for electronic invoices, in the **OIOXML Code** field, select a code. For more information, see OIOUBL Code.  
 
 Next, you must categorize your item charges.  
 

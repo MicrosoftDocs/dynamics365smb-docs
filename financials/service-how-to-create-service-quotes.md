@@ -26,8 +26,8 @@ You can use a service quote as a preliminary draft for a service order, and then
 3. In the **No.** field, enter a number for the service quote. Alternatively, if you have set up a number series for service quotes in the **Service Mgt. Setup** window, you can press Enter to select the next available service quote number.  
 4. In the **Customer No.**  field, select the relevant customer from the list.  
 
-  > [!Note]  
-  >  The customer fields are filled in automatically with information from the **Customer** card. If a **Customer** card does not exist for the customer, and you have set up a customer template, you can create the customer from the service quote. Fill in the relevant fields, and then choose the **Create Customer** action.  
+   > [!Note]  
+   >  The customer fields are filled in automatically with information from the **Customer** card. If a **Customer** card does not exist for the customer, and you have set up a customer template, you can create the customer from the service quote. Fill in the relevant fields, and then choose the **Create Customer** action.  
   
 5. Depending on the settings on the **Mandatory Fields** FastTab in the **Service Mgt. Setup** window, you may need to fill in the **Service Order Type** field and the **Salesperson Code** field.  
 6. Fill in the service item lines.  

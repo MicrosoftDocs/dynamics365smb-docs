@@ -14,7 +14,7 @@ ms.author: edupont
 
 ---
 # Design Details: Known Item Application Issue
-This article addresses an issue where the inventory level is zero although open item ledger entries exist in  [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+This article addresses an issue where the inventory level is zero although open item ledger entries exist in  [!INCLUDE [d365fin](includes/d365fin_md.md)].  
 
 The article starts by listing typical symptoms of the issue, followed by the basics of item application to support the described reasons for this issue. At the end of the article is a workaround to address such open item ledger entries.  
 
@@ -37,15 +37,15 @@ The article starts by listing typical symptoms of the issue, followed by the bas
 ## Basics of Item Application  
  An item application entry is created for every inventory transaction to link the cost recipient to its cost source so that the cost can be forwarded according to the costing method. For more information, see [Design Details: Item Application](design-details-item-application.md).  
 
--   For an inbound item ledger entry, the item application entry is created when the item ledger entry is created.  
+- For an inbound item ledger entry, the item application entry is created when the item ledger entry is created.  
 
--   For an outbound item ledger entry, the item application entry is created when the item ledger entry is posted, IF there is an open inbound item ledger entry with available quantity that it can apply to. If there is no open inbound item ledger entry that it can apply to, then the outbound item ledger entry remains open until an inbound item ledger entry that it can apply to is posted.  
+- For an outbound item ledger entry, the item application entry is created when the item ledger entry is posted, IF there is an open inbound item ledger entry with available quantity that it can apply to. If there is no open inbound item ledger entry that it can apply to, then the outbound item ledger entry remains open until an inbound item ledger entry that it can apply to is posted.  
 
- There are two types of item application:  
+  There are two types of item application:  
 
--   Quantity Application  
+- Quantity Application  
 
--   Cost Application  
+- Cost Application  
 
 ### Quantity Application  
  Quantity applications are made for all inventory transactions and are created automatically, or manually in special processes. When made manually, quantity applications are referred to as fixed application.  
@@ -64,10 +64,12 @@ Cost applications are only created for inbound transactions where the **Appl.-fr
 
 The following diagram shows how cost applications are made.  
 
-|Entry No.|Posting Date|Entry Type|Document Type|Document No.|Item No.|Location Code|Quantity|Cost Amount (Actual)|Invoiced Quantity|Remaining Quantity|Open|  
-|---------|------------|----------|-------------|------------|--------|-------------|--------|------------------------|-----------------|------------------|----|  
-|333|01/28/2018|Sale|Sales Shipment|102043|TEST|BLUE|-1|-10|-1|-1|Yes|  
-|334|01/28/2018|Sale|Sales Shipment|102043|TEST|BLUE|1|10|1|1|Yes|  
+
+| Entry No. | Posting Date | Entry Type | Document Type  | Document No. | Item No. | Location Code | Quantity | Cost Amount (Actual) | Invoiced Quantity | Remaining Quantity | Open |
+|-----------|--------------|------------|----------------|--------------|----------|---------------|----------|----------------------|-------------------|--------------------|------|
+|    333    |  01/28/2018  |    Sale    | Sales Shipment |    102043    |   TEST   |     BLUE      |    -1    |         -10          |        -1         |         -1         | Yes  |
+|    334    |  01/28/2018  |    Sale    | Sales Shipment |    102043    |   TEST   |     BLUE      |    1     |          10          |         1         |         1          | Yes  |
+
 <!--![Why is inventory zero 3](media/helene/TechArticleInventoryZero3.png "Whyisinventoryzero\_3")-->
 
  Notice above that inbound item ledger 3 (Sales Return) is a cost recipient for the original outbound item ledger entry 2 (Sale).  
@@ -84,11 +86,11 @@ The following diagram shows how cost applications are made.
 ## Reasons for the Issue  
  The issue with zero inventory although open item ledger entries exist can be caused by the following scenarios:  
 
--   Scenario 1: A shipment and invoice is posted although the item is not available. The posting is then exact-cost reversed with a sales credit memo.  
+- Scenario 1: A shipment and invoice is posted although the item is not available. The posting is then exact-cost reversed with a sales credit memo.  
 
--   Scenario 2: A shipment is posted although the item is not available. The posting is then undone with the Undo Shipment function.  
+- Scenario 2: A shipment is posted although the item is not available. The posting is then undone with the Undo Shipment function.  
 
- The following diagram illustrates how item applications are made in both scenarios.  
+  The following diagram illustrates how item applications are made in both scenarios.  
 
 ![Why is inventory zero 6](media/helene/TechArticleInventoryZero6.png "Whyisinventoryzero\_6")  
 
@@ -101,16 +103,17 @@ The following diagram shows how cost applications are made.
 
  For scenario 1, identify the issue as follows:  
 
--   In the **Posted Sales Credit Memo** or **Posted Return Receipt** window, look up from the **Appl.\-from Item Entry** field to see if the field is populated, and in that case to which item ledger entry the return receipt is cost applied.  
+- In the **Posted Sales Credit Memo** or **Posted Return Receipt** window, look up from the **Appl.\-from Item Entry** field to see if the field is populated, and in that case to which item ledger entry the return receipt is cost applied.  
 
- For scenario 2, identify the issue in either of the following ways:  
+  For scenario 2, identify the issue in either of the following ways:  
 
--   Look for an open outbound item ledger entry and an inbound item ledger entry with same number in the **Document No.** field, and Yes in the **Correction** field. See the following example of such an item ledger entry situation.  
+- Look for an open outbound item ledger entry and an inbound item ledger entry with same number in the **Document No.** field, and Yes in the **Correction** field. See the following example of such an item ledger entry situation.  
 
-|Entry No.|Posting Date|Entry Type|Document Type|Document No.|Item No.|Location Code|Quantity|Cost Amount (Actual)|Invoiced Quantity|Remaining Quantity|Open|Correction|  
-|---------|------------|----------|-------------|------------|--------|-------------|--------|------------------------|-----------------|------------------|----|---------|
-|333|01/28/2018|Sale|Sales Shipment|102043|TEST|BLUE|-1|-10|-1|-1|Yes|No|  
-|334|01/28/2018|Sale|Sales Shipment|102043|TEST|BLUE|1|10|1|1|Yes|**Yes**|  
+| Entry No. | Posting Date | Entry Type | Document Type  | Document No. | Item No. | Location Code | Quantity | Cost Amount (Actual) | Invoiced Quantity | Remaining Quantity | Open | Correction |
+|-----------|--------------|------------|----------------|--------------|----------|---------------|----------|----------------------|-------------------|--------------------|------|------------|
+|    333    |  01/28/2018  |    Sale    | Sales Shipment |    102043    |   TEST   |     BLUE      |    -1    |         -10          |        -1         |         -1         | Yes  |     No     |
+|    334    |  01/28/2018  |    Sale    | Sales Shipment |    102043    |   TEST   |     BLUE      |    1     |          10          |         1         |         1          | Yes  |  **Yes**   |
+
 <!--![Why is inventory zero 7](media/helene/TechArticleInventoryZero7.png "Whyisinventoryzero\_7")-->
 
 -   In the **Posted Sales Shipment** window, look up from the **Appl.-from Item Entry** field to see if the field is populated, and in that case to which item ledger entry the return receipt is cost applied.  
@@ -120,33 +123,35 @@ The following diagram shows how cost applications are made.
 
  For both scenarios, identify the involved cost application as follows:  
 
-1.  Open the **Item Application Entry** table.  
+1. Open the **Item Application Entry** table.  
 
-2.  Filter on the **Item Ledger Entry No.** field using the number of the Sales Return item ledger entry.  
+2. Filter on the **Item Ledger Entry No.** field using the number of the Sales Return item ledger entry.  
 
-3.  Analyze the item application entry, taking note of the following:  
+3. Analyze the item application entry, taking note of the following:  
 
-     If the **Outbound Item Entry No.** field is populated for an inbound item ledger entry (positive quantity), then it means that the inbound item ledger entry is the cost recipient of the outbound item ledger entry.  
+    If the **Outbound Item Entry No.** field is populated for an inbound item ledger entry (positive quantity), then it means that the inbound item ledger entry is the cost recipient of the outbound item ledger entry.  
 
-     See the following example of an item application entry.  
+    See the following example of an item application entry.  
 
-     |Entry No.|Item Ledger Entry No.|Inbound Item Entry No.|Outbound Item Entry No.|Quantity|Posting Date|Cost Application|  
-     |---------|---------------------|----------------------|-----------------------|--------|------------|----------------|  
-     |299|334|334|333|1|01/28/2018|Yes|  
-<!--![Why is inventory zero 8](media/helene/TechArticleInventoryZero8.png "Whyisinventoryzero\_8")  -->
 
- Notice above that inbound item ledger entry 334 is cost applied to outbound item ledger entry 333.  
+   | Entry No. | Item Ledger Entry No. | Inbound Item Entry No. | Outbound Item Entry No. | Quantity | Posting Date | Cost Application |
+   |-----------|-----------------------|------------------------|-------------------------|----------|--------------|------------------|
+   |    299    |          334          |          334           |           333           |    1     |  01/28/2018  |       Yes        |
+
+   <!--![Why is inventory zero 8](media/helene/TechArticleInventoryZero8.png "Whyisinventoryzero\_8")  -->
+
+   Notice above that inbound item ledger entry 334 is cost applied to outbound item ledger entry 333.  
 
 ## Workaround for the Issue  
  In the **Item Journal** window, post the following lines for the item in question:  
 
--   A positive adjustment to close the open outbound item ledger entry.  
+- A positive adjustment to close the open outbound item ledger entry.  
 
--   A negative adjustment with the same quantity.  
+- A negative adjustment with the same quantity.  
 
-     This adjustment balances the inventory increase caused by the positive adjustment and closes the open inbound item ledger entry.  
+   This adjustment balances the inventory increase caused by the positive adjustment and closes the open inbound item ledger entry.  
 
- The result is that inventory is zero and all item ledger entries are closed.  
+  The result is that inventory is zero and all item ledger entries are closed.  
 
 ## See Also  
 [Design Details: Item Application](design-details-item-application.md)   

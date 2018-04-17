@@ -47,7 +47,7 @@ In other words, it assumes that the plan for the past is executed according to t
 For more information, see [Design Details: Dealing with Orders Before the Planning Starting Date](design-details-dealing-with-orders-before-the-planning-starting-date.md).  
 
 ## Dynamic Order Tracking (Pegging)  
-Dynamic Order Tracking, with its simultaneous creation of action messages in the planning worksheet, is not a part of the supply planning system in [!INCLUDE[d365fin](includes/d365fin_md.md)]. This feature links, in real-time, the demand and the quantities that could cover them, whenever a new demand or supply is created or changed.  
+Dynamic Order Tracking, with its simultaneous creation of action messages in the planning worksheet, is not a part of the supply planning system in [!INCLUDE [d365fin](includes/d365fin_md.md)]. This feature links, in real-time, the demand and the quantities that could cover them, whenever a new demand or supply is created or changed.  
 
 For example, if the user enters or changes a sales order, the dynamic order tracking system will instantly and search for an appropriate supply to cover the demand. This could be from inventory or from an expected supply order (such as a purchase order or a production order). When a supply source is found, the system creates a link between the demand and the supply, and displays it in view-only windows that are accessed from the involved document lines. When appropriate supply cannot be found, the dynamic order tracking system creates action messages in the planning worksheet with supply plan suggestions reflecting the dynamic balancing. Accordingly, the dynamic order tracking system offers a very basic planning system that can be of help both to the planner and other roles in the internal supply chain.  
 
@@ -79,7 +79,7 @@ For more information, see Order Tracking Links during Planning in [Design Detail
 ## Sequence and Priority in Planning  
 When establishing a plan, the sequence of the calculations is important to get the job done within a reasonable timeframe. In addition, the prioritization of requirements and resources play an important role in obtaining the best results.  
 
-The planning system in [!INCLUDE[d365fin](includes/d365fin_md.md)] is demand-driven. High-level items should be planned before low-level items, because the plan for high-level items might generate additional demand for the lower-level items. This means, for example, that retail locations should be planned before distribution centers are planned, because the plan for a retail location may include additional demand from the distribution center. On a detailed balancing level, this also means that a sales order should not trigger a new supply order if an already released supply order is can cover the sales order. Likewise, a supply carrying a specific lot number should not be allocated to cover a generic demand if another demand requires this specific lot.  
+The planning system in [!INCLUDE [d365fin](includes/d365fin_md.md)] is demand-driven. High-level items should be planned before low-level items, because the plan for high-level items might generate additional demand for the lower-level items. This means, for example, that retail locations should be planned before distribution centers are planned, because the plan for a retail location may include additional demand from the distribution center. On a detailed balancing level, this also means that a sales order should not trigger a new supply order if an already released supply order is can cover the sales order. Likewise, a supply carrying a specific lot number should not be allocated to cover a generic demand if another demand requires this specific lot.  
 
 ### Item Priority / Low-Level Code  
 In a manufacturing environment, the demand for a finished, sellable item will result in derived demand for components that comprise the finished item. The bill-of-material structure controls the component structure and can cover several levels of semi-finished items. Planning an item at one level will cause derived demand for components at the next level, and so on. Eventually, this will result in derived demand for purchased items. Consequently, the planning system plans for items in order of their ranking in the total BOM hierarchy, starting with finished saleable items at the top level and continuing down through the product structure to the lower level items (according to the low-level code).  
@@ -126,12 +126,12 @@ The reason for selecting items for planning is a matter of system performance. I
 
 The full list of reasons for assigning an item for planning is provided in [Design Details: Planning Assignment Table](design-details-planning-assignment-table.md).  
 
-The planning options in [!INCLUDE[d365fin](includes/d365fin_md.md)] are:  
+The planning options in [!INCLUDE [d365fin](includes/d365fin_md.md)] are:  
 
 -   Calculate Regenerative Plan – Calculates all selected items, whether it is necessary or not.  
 -   Calculate Net Change Plan – Calculates only those selected items that have had some change in their demand-supply pattern and, therefore, have been assigned for planning.  
 
-Some users believe that net change planning should be performed on the fly, for example, when sales orders are entered. However, this could be confusing because dynamic order tracking and action messaging are also calculated on the fly. Besides, [!INCLUDE[d365fin](includes/d365fin_md.md)] offers real-time available-to-promise control, which provides pop–up warnings when entering sales orders if the demand cannot be fulfilled under the present supply plan.  
+Some users believe that net change planning should be performed on the fly, for example, when sales orders are entered. However, this could be confusing because dynamic order tracking and action messaging are also calculated on the fly. Besides, [!INCLUDE [d365fin](includes/d365fin_md.md)] offers real-time available-to-promise control, which provides pop–up warnings when entering sales orders if the demand cannot be fulfilled under the present supply plan.  
 
 In addition to these considerations, the planning system only plans for those items that the user has prepared with appropriate planning parameters. Otherwise, it is assumed that the user will plan the items manually or semi-automatically by using the Order Planning feature.  
 
@@ -260,13 +260,13 @@ The field can be manually set by the user, however, in some cases it will be set
 For more information about how this field is used, see [Design Details: Transfers in Planning](design-details-transfers-in-planning.md).  
 
 ## Order Planning  
-The basic supply planning tool represented by the **Order Planning** window is designed for manual decision making. It does not consider any planning parameters and is therefore not discussed further in this document. For more information on the Order Planning feature, refer to Help in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+The basic supply planning tool represented by the **Order Planning** window is designed for manual decision making. It does not consider any planning parameters and is therefore not discussed further in this document. For more information on the Order Planning feature, refer to Help in [!INCLUDE [d365fin](includes/d365fin_md.md)].  
 
 > [!NOTE]  
 >  It is not advisable to use Order Planning if the company already uses the planning or requisition worksheets. Supply orders created through the **Order Planning** window may be changed or deleted during the automated planning runs. This is because the automated planning run uses planning parameters and these may not be considered by the user who made the manual plan in the Order Planning window.  
 
 ##  Finite Loading  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] is a standard ERP system, not a dispatching or shop floor control system. It plans for a feasible utilization of resources by providing a rough-cut schedule, but it does not automatically create and maintain detailed schedules based on priorities or optimization rules.  
+[!INCLUDE [d365fin](includes/d365fin_md.md)] is a standard ERP system, not a dispatching or shop floor control system. It plans for a feasible utilization of resources by providing a rough-cut schedule, but it does not automatically create and maintain detailed schedules based on priorities or optimization rules.  
 
 The intended use of the Capacity-Constrained Resource feature is 1): to avoid overload of specific resources and 2): to ensure that no capacity is left unallocated if it could increase the turn-around time of a production order. The feature includes no facilities or options to prioritize or optimize operations as one would expect to find in a dispatching system. However, it can provide rough-cut capacity information useful to identify bottlenecks and to avoid overloading resources.  
 
@@ -277,7 +277,7 @@ When planning with capacity-constrained resources, the system ensures that no re
 
 Dampener time can be added to resources to minimize operation splitting. This enables the system to schedule load on the last possible day by exceeding the critical load percent slightly if this can reduce the number of operations that are split.  
 
-This completes the outline of central concepts relating to supply planning in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The following sections investigate these concepts deeper and place them in the context of the core planning procedures, balancing demand and supply as well as the use of reordering policies.  
+This completes the outline of central concepts relating to supply planning in [!INCLUDE [d365fin](includes/d365fin_md.md)]. The following sections investigate these concepts deeper and place them in the context of the core planning procedures, balancing demand and supply as well as the use of reordering policies.  
 
 ## See Also  
 [Design Details: Transfers in Planning](design-details-transfers-in-planning.md)   

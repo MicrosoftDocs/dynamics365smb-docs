@@ -25,9 +25,9 @@ Applying temporary general ledger entries allows companies to work with temporar
 - Financial transaction transfers from one system to another in which part of the information temporarily resides on the original system.  
 - Transactions for which you have issued a sales invoice to a customer but have not yet received the corresponding purchase invoice from the vendor.  
 
- When the ledger entries have been processed, you can use the apply entries function to update the posted ledger entries and the posting account type.  
+  When the ledger entries have been processed, you can use the apply entries function to update the posted ledger entries and the posting account type.  
 
- You can unapply the applied general ledger entries and then open the closed entries to make changes.  
+  You can unapply the applied general ledger entries and then open the closed entries to make changes.  
 
 ## To apply general ledger entries  
 

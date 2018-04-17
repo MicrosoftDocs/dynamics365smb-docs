@@ -34,22 +34,22 @@ If no errors occur, then the updates is applied to the report layouts. If errors
 
 ## To test custom report layout updates  
   
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Report Layout Selection**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Report Layout Selection**, and then choose the related link.  
   
-2.  In the **Report Layout Selection** window, choose the **Test Layout Updates** action.  
+2. In the **Report Layout Selection** window, choose the **Test Layout Updates** action.  
   
- Chnages to the report layouts are tested but not applied to the actual report layouts. A **Report Layout Update Log** window appears that provides the status a potential updates for each report layout. If there are errors for a report layout, you can access the report layout directly for editing from the message to fix any issues. For more information, see [Fixing Errors](ui-update-report-layouts.md#FixErrors).  
+   Chnages to the report layouts are tested but not applied to the actual report layouts. A **Report Layout Update Log** window appears that provides the status a potential updates for each report layout. If there are errors for a report layout, you can access the report layout directly for editing from the message to fix any issues. For more information, see [Fixing Errors](ui-update-report-layouts.md#FixErrors).  
   
 ##  <a name="UpdateLimitations"></a> Limitations of the Custom Report Layout Update  
  There are several types of changes that the automatic update can apply to custom report layouts, for example, a field that is used in the layout has been removed from the report data set. However, the automatic update cannot handle the following changes to a report dataset.  
   
-1.  Deleted fields, labels, or data items.  
+1. Deleted fields, labels, or data items.  
   
-2.  Duplicate field names in the report layout after a field has been renamed in the dataset. This should be treated as a design error.  
+2. Duplicate field names in the report layout after a field has been renamed in the dataset. This should be treated as a design error.  
   
-3.  Upgrade scenarios where there are multiple iterations of a report layout that causes multiple rename actions on the same fields, labels or data items.  
+3. Upgrade scenarios where there are multiple iterations of a report layout that causes multiple rename actions on the same fields, labels or data items.  
   
- If the update process detects any one of these issues, the update cannot be applied. You will have to fix the issues manually, for example by editing the report layout in Word, or programmatically by using upgrade codeunits.  
+   If the update process detects any one of these issues, the update cannot be applied. You will have to fix the issues manually, for example by editing the report layout in Word, or programmatically by using upgrade codeunits.  
   
 ##  <a name="FixErrors"></a> Fixing Errors  
  If you get an error message when you update or test report layout updates, you most likely will have to modify the report layout to fix the problem. Read the error message to help determine the cause of the problem.  

@@ -26,19 +26,20 @@ You can set up and use workflows that connect business-process tasks performed b
 
  The following table describes a sequence of tasks, with links to the topics that describe them.  
 
-|**To**|**See**|  
-|------------|-------------|  
-|Set up workflow users and user groups.|[Set Up Workflow Users](across-how-to-set-up-workflow-users.md)|  
-|Set up workflow users who take part in approval workflows.|[Set Up Approval Users](across-how-to-set-up-approval-users.md)|  
-|Specify how workflow users are notified of workflow steps, including approval requests.|[Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)|  
-|Specify when users receive notifications and whether to aggregate notifications in a period to minimize the number of notifications.|[Specify When and How to Receive Notifications](across-how-to-specify-when-and-how-to-receive-notifications.md)|  
-|Set up the layout and general content of new workflow notifications emails, or export, modify, and reimport existing templates.|[Manage Notification Templates](across-how-to-manage-notification-templates.md)|  
-|Set up an SMTP server to enable email communication in and out of [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Set up Email](madeira-how-setup-email.md)|
-|Specify the different steps of a workflow by connection workflow events with workflow responses.|[Create Workflows](across-how-to-create-workflows.md)|  
-|Use workflow templates to create new workflows.|[Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)|  
-|Share workflows with other [!INCLUDE[d365fin](includes/d365fin_md.md)] databases.|[Export and Import Workflows](across-how-to-export-and-import-workflows.md)|  
-|Learn how to set up a workflow for approving sales documents by following an end-to-end procedure.|[Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
-|Add support for a business scenario that requires new workflow events or responses by customizing the application code.|[Walkthrough: Implementing New Workflow Events and Responses](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)|  
+
+|                                                                **To**                                                                |                                                                 **See**                                                                  |
+|--------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+|                                                Set up workflow users and user groups.                                                |                                     [Set Up Workflow Users](across-how-to-set-up-workflow-users.md)                                      |
+|                                      Set up workflow users who take part in approval workflows.                                      |                                     [Set Up Approval Users](across-how-to-set-up-approval-users.md)                                      |
+|                       Specify how workflow users are notified of workflow steps, including approval requests.                        |                             [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)                             |
+| Specify when users receive notifications and whether to aggregate notifications in a period to minimize the number of notifications. |             [Specify When and How to Receive Notifications](across-how-to-specify-when-and-how-to-receive-notifications.md)              |
+|   Set up the layout and general content of new workflow notifications emails, or export, modify, and reimport existing templates.    |                             [Manage Notification Templates](across-how-to-manage-notification-templates.md)                              |
+|            Set up an SMTP server to enable email communication in and out of [!INCLUDE [d365fin](includes/d365fin_md.md)]            |                                                [Set up Email](madeira-how-setup-email.md)                                                |
+|                   Specify the different steps of a workflow by connection workflow events with workflow responses.                   |                                          [Create Workflows](across-how-to-create-workflows.md)                                           |
+|                                           Use workflow templates to create new workflows.                                            |                  [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)                   |
+|                          Share workflows with other [!INCLUDE [d365fin](includes/d365fin_md.md)] databases.                          |                               [Export and Import Workflows](across-how-to-export-and-import-workflows.md)                                |
+|                  Learn how to set up a workflow for approving sales documents by following an end-to-end procedure.                  |    [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)    |
+|       Add support for a business scenario that requires new workflow events or responses by customizing the application code.        | [Walkthrough: Implementing New Workflow Events and Responses](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses) |
 
 ## See Also  
  [Using Workflows](across-use-workflows.md)   

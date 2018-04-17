@@ -27,11 +27,11 @@ There are eight methods of depreciation available:
 * Manual  
 
   > [!NOTE]  
->   Use this method for assets that are not subject to depreciation, for example, land. You must enter depreciation in the fixed asset G/L journal. The **Calculate Depreciation** batch job omits fixed assets that use this depreciation method.  
+  >   Use this method for assets that are not subject to depreciation, for example, land. You must enter depreciation in the fixed asset G/L journal. The **Calculate Depreciation** batch job omits fixed assets that use this depreciation method.  
 * Half-Year Convention  
 
   > [!NOTE]  
->    When you use this method, a fixed asset is depreciated by the same amount each year.  
+  >    When you use this method, a fixed asset is depreciated by the same amount each year.  
 
 ## Straight-Line Depreciation
 When you use the straight-line method, you must specify one of the following options in the fixed asset depreciation book:  
@@ -229,7 +229,7 @@ In the **Depreciation Table** window, you can set up user-defined depreciation m
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Tables**, and then choose the related link.  
 2. In the **Depreciation Table List** window, choose the **New** action.  
-3. **Depreciation Table Card** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. **Depreciation Table Card** window, fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### Example - User-defined Depreciation
 You use a depreciation method that allows you to depreciate assets in an accelerated manner for income tax purposes.  

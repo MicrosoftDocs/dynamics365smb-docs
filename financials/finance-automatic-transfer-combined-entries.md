@@ -24,8 +24,8 @@ In cost accounting, you can transfer general ledger entries to a cost type by us
 |Day|General ledger entries with the same posting date are transferred as one entry to the corresponding cost type.|  
 |Month|All general ledger entries in the same calendar month are transferred as one entry to the corresponding cost type.|  
 
-> [!IMPORTANT]  
->  If you have selected the **Auto Transfer from G/L** check box in the **Cost Accounting Setup** window, [!INCLUDE[d365fin](includes/d365fin_md.md)] updates the cost accounting after every posting in the general ledger. Combined entries are not possible.  
+> [!IMPORTANT]
+>  If you have selected the **Auto Transfer from G/L** check box in the **Cost Accounting Setup** window, [!INCLUDE [d365fin](includes/d365fin_md.md)] updates the cost accounting after every posting in the general ledger. Combined entries are not possible.  
 
 ## See Also  
  [Transfer General Ledger Entries to Cost Entries](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)   

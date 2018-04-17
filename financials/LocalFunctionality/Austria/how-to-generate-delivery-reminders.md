@@ -16,7 +16,7 @@
 
 ---
 # Generate Delivery Reminders
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create delivery reminders when a purchase has not been delivered as expected. You can generate delivery reminders for all overdue deliveries, or you can create a single delivery reminder manually. For more information, see [Create Delivery Reminders Manually](how-to-create-delivery-reminders-manually.md).  
+In [!INCLUDE [d365fin](../../includes/d365fin_md.md)], you can create delivery reminders when a purchase has not been delivered as expected. You can generate delivery reminders for all overdue deliveries, or you can create a single delivery reminder manually. For more information, see [Create Delivery Reminders Manually](how-to-create-delivery-reminders-manually.md).  
 >>>>>>> refs/remotes/origin/Update13:archive/LocalFunctionality/Austria/how-to-generate-delivery-reminders.md
 
 > [!NOTE]  

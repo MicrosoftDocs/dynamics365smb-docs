@@ -43,7 +43,7 @@ After you have created finance charge memos and made any needed modifications, y
 
 ## To send the Customer Statement report
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customer Statement**, and then choose the related link.
-2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Under **Output Options**, select how to send the report to the customer.
 
 > [!NOTE]  

@@ -42,7 +42,7 @@ If you change the annual amount of the service contract or contract quote, you m
     * Line Discount % = Line Discount Amount / Line Value * 100.  
     * Profit = Line Amount - Line Cost.  
 
- The steps are repeated for each contract line.  
+   The steps are repeated for each contract line.  
 
 #### Example  
 The **Allow Unbalanced Amounts** check box is not selected in the service contract that contains three contract lines with such information.  
@@ -110,11 +110,12 @@ The **Line Amount** field value is updated on each contract line using the follo
 
 Finally, the contract lines will contain this data.  
 
-|Item|Line Cost|Line Value|Line Discount %|Line Discount Amount|Line Amount|Profit|  
-|----------|---------------|----------------|---------------------|--------------------------|-----------------|------------|  
-|Item 1|15.00|17.00|11.41|1.94|15.06|0.06|  
-|Item 2|20.00|23.00|8.65|1.99|21.01|1.01|  
-|Item 3|24.00|27.00|11.37|3.07|23.93|-0.07|  -   Line Discount % = Line Discount Amount / Line Value * 100  
+
+|  Item  | Line Cost | Line Value | Line Discount % | Line Discount Amount | Line Amount | Profit |
+|--------|-----------|------------|-----------------|----------------------|-------------|--------|
+| Item 1 |   15.00   |   17.00    |      11.41      |         1.94         |    15.06    |  0.06  |
+| Item 2 |   20.00   |   23.00    |      8.65       |         1.99         |    21.01    |  1.01  |
+| Item 3 |   24.00   |   27.00    |      11.37      |         3.07         |    23.93    | -0.07  |
 
 #### Example  
 The **Allow Unbalanced Amounts** check box is not selected in the service contract that contains three contract lines with such information.  

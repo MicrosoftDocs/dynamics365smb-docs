@@ -17,7 +17,7 @@ ms.author: bholtorf
 ---
 
 # Set Up Unrealized VAT for Cash-Based Accounting
-If you're using cash-based accounting methods, you can set up [!INCLUDE[d365fin](includes/d365fin_md.md)] to handle unrealized VAT.
+If you're using cash-based accounting methods, you can set up [!INCLUDE [d365fin](includes/d365fin_md.md)] to handle unrealized VAT.
 
 ## To use general ledger accounts for unrealized VAT
 You can choose to have VAT amounts calculated and posted to a temporary general ledger account when an invoice is posted, and then posted to the correct general ledger account and included in VAT statements when the actual payment of the invoice is posted. Before you can do this, you must complete the VAT posting setup.
@@ -42,11 +42,11 @@ To use accounts for unrealized VAT, follow these steps:
 6. In the **Sales VAT Unreal. Account** field, choose the account for unrealized sales VAT.
 
     > [!NOTE]  
->   The VAT amount will be posted to this account, and stay there until the customer payment is posted. The amount is then transferred to the account for sales VAT.
+   >   The VAT amount will be posted to this account, and stay there until the customer payment is posted. The amount is then transferred to the account for sales VAT.
 7. In the **Purch. VAT Unreal. Account** field, enter the general ledger account for unrealized purchase VAT.
 
     > [!NOTE]  
->   The VAT amount will be posted to this account, and stay there until the customer payment is posted. The amount is then transferred to the account for purchase VAT.
+   >   The VAT amount will be posted to this account, and stay there until the customer payment is posted. The amount is then transferred to the account for purchase VAT.
 
 ## See Also
 [Setting Up Value Added Tax](finance-setup-vat.md)

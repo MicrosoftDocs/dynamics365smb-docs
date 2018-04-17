@@ -23,7 +23,7 @@ The following procedures assume that you have created and saved a configuration 
 The following procedures assume that you have initialized and opened your new company and that you are using the RapidStart Services Implementer Role Center.
 
 ## To import a configuration package  
-1. Open the new company in the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.  
+1. Open the new company in the [!INCLUDE [d365fin](includes/d365fin_md.md)] database.  
 2. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Packages**, and then select the related link.  
 3. Choose the **Import Package** action.  
 4. Navigate to the location where you have saved the .rapidstart configuration package file, and then choose the **Open** button.  

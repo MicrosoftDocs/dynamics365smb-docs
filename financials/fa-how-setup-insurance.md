@@ -19,10 +19,10 @@ ms.author: sgroespe
 To manage fixed asset insurance coverage, you must first set up some general insurance information and an insurance card per policy.
 
 ## To set up general insurance information
-To use the insurance features in [!INCLUDE[d365fin](includes/d365fin_md.md)], you must set up some general insurance information.  
+To use the insurance features in [!INCLUDE [d365fin](includes/d365fin_md.md)], you must set up some general insurance information.  
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA Setups**, and then choose the related link.  
-2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## To set up insurance types
 You can group your insurance policies into categories, such as insurance against theft or fire insurance. The insurance types are used on the insurance card.
@@ -38,7 +38,7 @@ You may accumulate information about each insurance policy on the insurance card
 3. Fill in the fields as necessary.
 
 ## To set up insurance journal templates
-[!INCLUDE[d365fin](includes/d365fin_md.md)] automatically creates an insurance journal template the first time that you open the **Insurance Journal** window, but you can set up additional journal templates. For more information, see [Working with General Journals](ui-work-general-journals.md).  
+[!INCLUDE [d365fin](includes/d365fin_md.md)] automatically creates an insurance journal template the first time that you open the **Insurance Journal** window, but you can set up additional journal templates. For more information, see [Working with General Journals](ui-work-general-journals.md).  
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Insurance Journal Templates**, and then choose the related link.  
 2. Fill in the fields as necessary.

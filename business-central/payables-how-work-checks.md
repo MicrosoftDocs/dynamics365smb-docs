@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 04/10/2018
+ms.date: 04/17/2018
 ms.author: sgroespe
 
 ---
@@ -64,6 +64,11 @@ When check payment have been posted, you can only cancel (void) checks from the 
 3. In the **Check Ledger Entries** window, choose the **Void Check** action.
 4. Select the **Void Check Only** check box.
 5. Choose the **OK** button.
+
+## To view a summary of posted checks
+If you want to review posted checks, for example to verify multiple checks paid to one vendor, you can use the **Bank Account - Cheque Details** report.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Account - Cheque Details**, and then choose the related link.
+2. Set filters as relevant, and then choose the **Preview** button.
 
 ## See Also
 [Managing Payables](payables-manage-payables.md)  

@@ -48,8 +48,8 @@ You can have payment lines filled in automatically by using the **Suggest Vendor
 
 Fully applied vendor ledger entries and bank ledger entries are created.
 
-    > [!NOTE]  
->   If you want to print and pay checks in more than one currency from different bank accounts, you must run the **Print Check** batch job separately for each currency and specify the appropriate bank account.
+> [!NOTE]  
+> If you want to print and pay checks in more than one currency from different bank accounts, you must run the **Print Check** batch job separately for each currency and specify the appropriate bank account.
 
 ## To cancel printed checks that are not posted
 You can cancel non-posted checks after they have been printed by using the **Void Check** action in the **Payment Journal** window.
@@ -66,8 +66,8 @@ When check payment have been posted, you can only cancel (void) checks from the 
 5. Choose the **OK** button.
 
 ## To view a summary of posted checks
-If you want to review posted checks, for example to verify multiple checks paid to one vendor, you can use the **Bank Account - Cheque Details** report.
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Account - Cheque Details**, and then choose the related link.
+If you want to review posted checks, for example to verify multiple checks paid to one vendor, you can use the **Bank Account - Check Details** report.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Account - Check Details**, and then choose the related link.
 2. Set filters as relevant, and then choose the **Preview** button.
 
 ## See Also

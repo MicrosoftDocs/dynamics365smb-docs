@@ -68,4 +68,4 @@ You can register employee absences on a daily basis or at some other interval th
 [Manage Human Resources](hr-manage-human-resources.md)  
 [Finance](finance.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Changing Which Features are Displayed] Experience](ui-experiences.md)
+[Changing Which Features are Displayed](ui-experiences.md)

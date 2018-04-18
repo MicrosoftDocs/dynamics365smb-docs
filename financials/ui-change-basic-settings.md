@@ -56,4 +56,4 @@ Choose this link to view or change the notifications that you get about certain 
 
 ## See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Changing Which Features are Displayed] Experience](ui-experiences.md)  
+[Changing Which Features are Displayed](ui-experiences.md)  

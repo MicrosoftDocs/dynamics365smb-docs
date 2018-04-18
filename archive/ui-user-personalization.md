@@ -94,4 +94,4 @@ At some point, you might want to undo all the personalization changes that you h
 ## See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Changing Basic Settings](ui-change-basic-settings.md)  
-[Changing Which Features are Displayed] Experience](ui-experiences.md)  
+[Changing Which Features are Displayed](ui-experiences.md)  

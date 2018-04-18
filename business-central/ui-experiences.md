@@ -14,7 +14,7 @@ ms.date: 04/17/2018
 ms.author: edupont
 
 ---
-# Changing Which Features are Displayed in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# Changing Which Features are Displayed
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to help you run your business, regardless which line of business you are in. At the core of [!INCLUDE[d365fin](includes/d365fin_md.md)], you find financial reporting and sales and purchasing processes. You add experiences to that according to your business needs by adding extensions from AppSource or by changing the Experience setting for your company. For more information, see [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md), or the "Choosing a User Experience to Show or Hide Features" section below.
 
 ## Choosing a User Experience to Show or Hide Features
@@ -66,14 +66,13 @@ Accordingly, certain differences currently exist between [!INCLUDE[d365fin](incl
 ## How to Get Dynamics NAV UI in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 If you want your [!INCLUDE[d365fin](includes/d365fin_md.md)] solution to have the same UI experience as your previous on-premise Dynamics NAV solution, then you can surface the #Advanced controls, through an extension.
 
-> [!NOTE]  
-> If you chose to surface all #Advanced controls, then you will also loose the UI simplifications that are made the standardversion of [!INCLUDE[d365fin](includes/d365fin_md.md)].
-
 The procedure for extending the application areas list and adding it to an experience is found here: [Extending Application Areas](https://docs.microsoft.com/en-us/dynamics-nav/developer/devenv-extending-application-areas).
 
 > [!TIP]  
 > Since the application area that you want to use, #Advanced , is already in the list, you can skip the "Add a new application area in the Application Area Setup Table” step and go straight to step two, "Enable the application Area in the OnInstallAppPerCompany."
 
+> [!NOTE]  
+> If you chose to surface all #Advanced controls, then you will also loose the UI simplifications that are made the standardversion of [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## See also
 [Creating New Companies](about-new-company.md)  

@@ -36,7 +36,7 @@ The following table describes a sequence of tasks, with links to the topics that
 
 ## See Also
 [Setting Up Project Management](projects-setup-projects.md)  
-[Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)      
+[Changing Which Features are Displayed] Experience](ui-experiences.md)      
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)    
 [Finance](finance.md)  

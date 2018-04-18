@@ -21,7 +21,7 @@ There are different ways to customize the application to give you and your colle
 | What you can do    |  Description  |  Who sees the changes  |  More information  |
 |-----|---------------|---------|-------|
 |Install an extension|Extensions are like small applications that add functionality, change behavior, provide access to new online services, and more. For example, Microsoft provides an extension that provides integration with PayPal Payments Standard.|All users in all companies.|[Customizing Using Extensions](ui-extensions.md)|
-|Change the experience|The **Experience** setting determines how much of the functionality is displayed in the user interface. Choose between Basic, Essential, and Premium.|All users in a specific company.|[Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)|
+|Change the experience|The **Experience** setting determines how much of the functionality is displayed in the user interface. Choose between Basic, Essential, and Premium.|All users in a specific company.|[Changing Which Features are Displayed in [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-experiences.md)|
 |Personalize your workspace|Change the layout and content of your pages.|Only you.|[Personalizing Your Workspace](ui-personalization-user.md)|
 
 ## See Also

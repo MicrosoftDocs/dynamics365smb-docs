@@ -10,11 +10,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 04/16/2018
+ms.date: 04/17/2018
 ms.author: edupont
 
 ---
-# Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience
+# Changing Which Features are Displayed
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to help you run your business, regardless which line of business you are in. At the core of [!INCLUDE[d365fin](includes/d365fin_md.md)], you find financial reporting and sales and purchasing processes. You add experiences to that according to your business needs by adding extensions from AppSource or by changing the Experience setting for your company. For more information, see [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md), or the "Choosing a User Experience to Show or Hide Features" section below.
 
 ## Choosing a User Experience to Show or Hide Features
@@ -55,6 +55,24 @@ All new information about the users’ plans and their assigned user groups are 
 You can now proceed to select the new experience.
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.
 2. In the **Company Information** window, on the **User Experience** FastTab, select Premium  in the **Experience** field.
+
+## Business Central versus Dynamics NAV – Differences in UI
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], the Application Areas system and the Experience options enable you to show/hide relevant parts of the product according to the purchased plan (Essential or Premium) and according to business needs (application areas reflect features).
+
+The UI for [!INCLUDE[d365fin](includes/d365fin_md.md)] is also generally simplified so that it is now different from the Dynamics NAV UI. For example, fields that are not commonly used, such as **Fax No.**, have been removed, and on ribbons on lists and cards, duplicate actions are removed and the most-used actions are promoted. A few complete features, such as Comments, are currently being optimized for the web client and are, therefore, not available in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+Accordingly, certain differences currently exist between [!INCLUDE[d365fin](includes/d365fin_md.md)] and Dynamics NAV because selected fields and actions are hidden. A detailed list of features not currently surfaced in the UI will be added to this topic soon. The controls in question currently have the #Advanced application area tag.
+
+## How to Get Dynamics NAV UI in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+If you want your [!INCLUDE[d365fin](includes/d365fin_md.md)] solution to have the same UI experience as your previous on-premise Dynamics NAV solution, you can take steps to surface the #Advanced controls, through an extension.
+
+> [!NOTE]  
+> If you chose to surface all #Advanced controls, then you will also loose the UI simplifications that are made the standardversion of [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+The procedure for extending the application areas list and adding it to an experience is found here: [Extending Application Areas](https://docs.microsoft.com/en-us/dynamics-nav/developer/devenv-extending-application-areas).
+
+> [!TIP]  
+> Since the application area that you want to use, #Advanced , is already in the list, you can skip the "Add a new application area in the Application Area Setup Table” step and go straight to step two, "Enable the application Area in the OnInstallAppPerCompany."
 
 ## See also
 [Creating New Companies](about-new-company.md)  

@@ -45,12 +45,14 @@ Did you read about a new capability in the roadmap or on our blog recently? In t
 ## Why are some UI elements that I used in Dynamics NAV not visible in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], the Application Areas system and the Experience options enable you to show/hide relevant parts of the product according to the purchased plan (Essential or Premium) and according to your business needs.
 
-The UI for [!INCLUDE[d365fin](includes/d365fin_md.md)] is also generally simplified so that it is now different from the Dynamics NAV UI. For example, fields that are not commonly used, such as **Fax No.**, have been removed, and on ribbons on lists and cards, duplicate actions are removed and the most-used actions are promoted. A few complete features, such as Comments, are currently being optimized for the web client and are, therefore, not available in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Accordingly, certain differences currently exist between [!INCLUDE[d365fin](includes/d365fin_md.md)] and Dynamics NAV because selected UI elements are hidden. The controls in question currently have the #Advanced application area tag.
+The UI for [!INCLUDE[d365fin](includes/d365fin_md.md)] is also generally simplified so that it is now different from the Dynamics NAV UI. For example, fields that are not commonly used, such as **Fax No.**, have been removed, and on ribbons on lists and cards, duplicate actions are removed and the most-used actions are promoted. A few complete features, such as Comments, are currently being optimized for the web client and are, therefore, not available in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+Accordingly, certain differences currently exist between [!INCLUDE[d365fin](includes/d365fin_md.md)] and Dynamics NAV because selected UI elements are hidden. The controls in question currently have the #Advanced application area tag.
 
 If you want your [!INCLUDE[d365fin](includes/d365fin_md.md)] solution to contain the same UI elements as your Dynamics NAV solution, you must take a couple of steps in the development environment to surface the #Advanced controls, through an extension. For more information, see [Extending Application Areas](https://docs.microsoft.com/en-us/dynamics-nav/developer/devenv-extending-application-areas).
 
 > [!NOTE]  
-> If you chose to surface all #Advanced controls, then you will also loose the UI simplifications that are made the standard version of [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> If you chose to surface all #Advanced controls, then you will also lose the UI simplifications that are made in the standard version of [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## See Also
 [Getting Started](product-get-started.md)  

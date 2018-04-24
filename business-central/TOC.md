@@ -28,6 +28,7 @@
 ### [Gather Customer Setup Data](admin-gather-customer-setup-values.md)
 ### [Prepare to Migrate Customer Data](admin-use-templates-to-prepare-customer-data-for-migration.md)
 ### [Migrate Customer Data](admin-migrate-customer-data.md)
+### [Configuring the API Templates](admin-configuring-api-template.md)
 ### [Tips and Tricks: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 
 # [Working with Business Central](ui-work-product.md)

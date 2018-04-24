@@ -8,7 +8,6 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2018"
 ms.assetid: a0ac492d-e3c8-4a76-87b4-b469e08c58e7
 ms.author: solsen
 caps.latest.revision: 18
@@ -21,6 +20,8 @@ For example, if a configuration template is defined for the Item entity, when a 
 
 ## Set up the entity template
 To use templates with the API library, you must first set up and define properties for the templates. You can setup these templates in the [Configuration Templates](admin-use-templates-to-prepare-customer-data-for-migration.md) page. 
+
+![Configure template header](media/api-setup-create.png)  
 
 ## Assign the template to an API
 

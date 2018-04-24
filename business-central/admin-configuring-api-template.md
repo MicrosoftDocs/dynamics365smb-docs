@@ -39,9 +39,9 @@ This is the page for the API to which the template will be applied. The **Page I
 ![Edit API template](media/api-setup-edit-list.png)
 
 ## See Also
-[API Documentation](dynamics-nav/fin-graph)  
-[Developing Connect Apps for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]](dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  
-[Enabling the APIs](dynamics-nav/enabling-apis-for-dynamics-nav)  
-[Endpoints for the APIs](dynamics-nav/endpoints-apis-for-dynamics)  
+[API Documentation](/dynamics-nav/fin-graph)  
+[Developing Connect Apps for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  
+[Enabling the APIs](/dynamics-nav/enabling-apis-for-dynamics-nav)  
+[Endpoints for the APIs](/dynamics-nav/endpoints-apis-for-dynamics)  
 [Setting Up a Company with RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)

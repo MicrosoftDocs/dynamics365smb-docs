@@ -76,7 +76,7 @@ You can fill customer fields on the sales invoice in two ways depending on wheth
 12. If you want to give a discount, enter a percentage in the **Line Discount %** field. The value in the **Line Amount** field updates accordingly.  
 
     If special item prices are set up on the **Sales Prices and Sales Line Discounts** FastTab on the customer or item card, the price and amount on the sales line automatically update if the price criteria is met. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).  
-13. Repeat steps 9 through 12 for every product or charge you want to sell to the customer.  
+13. Repeat steps 9 through 12 for every product or charge that you want to invoice the customer for.  
 
     The totals under the lines are automatically calculated as you create or modify lines.  
 14. In the **Invoice Discount Amount** field, enter an amount that should be deducted from the value shown in the **Total Incl. Tax** field.

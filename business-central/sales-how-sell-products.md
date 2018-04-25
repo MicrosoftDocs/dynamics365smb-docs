@@ -65,7 +65,7 @@ You can fill customer fields on the sales order in two ways depending on whether
 
     If you have set up special item prices on the **Sales Prices and Sales Line Discounts** FastTab on the customer or item card, then the price and amount on the quote line are automatically updated if the agreed price criteria are met. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).
 12. To add a comment about the quote line that the customer can see on the printed sales quote, write a text in the **Description** field on an empty line.  
-13. Repeat steps 9 through 12 for every item that you want to offer to the customer.
+13. Repeat steps 9 through 12 for every item that you want to sell to the customer.
 
     The totals under the lines are automatically calculated as you create or modify lines.
 14. A new customer card displays the information on the selected customer template. Fill in the remaining fields. For more information, see [Register New Customers](sales-how-register-new-customers.md).  

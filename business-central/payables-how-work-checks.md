@@ -52,10 +52,10 @@ Fully applied vendor ledger entries and bank ledger entries are created.
 > If you want to print and pay checks in more than one currency from different bank accounts, you must run the **Print Check** batch job separately for each currency and specify the appropriate bank account.
 
 ## To refund a customer with a computer check
-The following describes a work-around for creating a check to a customer for a refund. Because the payment journal only supports vendors as recipients of payments, you must first create a virtual vendor card that represents the customer.
+The following describes a work-around for creating a check to a customer for a refund.
 
 > [!CAUTION]  
->   The resulting payment journal lines cannot be posted, deleted, or voided.
+>   The resulting payment journal lines cannot be posted, deleted, or voided. However, the check can be issued.
 1. Set up the customer as a vendor. Name it "Customer X for Refunds", for example. For more information, see [Register New Vendors](purchasing-how-register-new-vendors.md).
 2. On the payment journal line for the customer, set the **Account Type** field to **Customer**, and the **Document Type** field to **Refund**.
 3. Perform the normal steps for payment export as described in the "To pay a vendor invoice with a computer check" section.

@@ -32,8 +32,8 @@ Your printer must be correctly set up with the check forms, and you must define 
 The following describes how to pay a vendor by check. The steps are similar to refund a customer by check.
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.
-2. Fill in the payment journal lines. For more information, see [Post Payments and Refunds](payables-how-post-payments-refunds.md).
-3. In the **Payment Method Code** field, select CHECK.
+2. Fill in the payment journal lines. For more information, see [Record Payments and Refunds](payables-how-post-payments-refunds.md).
+3. In the **Payment Method Code** field, select **Check**.
 4. In the **Bank Payment Type** field, select **Computer Check**.
 5. Choose the **Print Check** action.
 6. In the **Check** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -67,6 +67,7 @@ If you want to review posted checks, for example to verify multiple checks paid 
 2. Set filters as relevant, and then choose the **Preview** button.
 
 ## See Also
+[Making Payments](payables-make-payments.md)  
 [Managing Payables](payables-manage-payables.md)  
 [Setting Up Banking](bank-setup-banking.md)  
 [Export a Positive Pay file](finance-how-positive-pay.md)  

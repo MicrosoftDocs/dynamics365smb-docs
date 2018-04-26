@@ -27,7 +27,7 @@ You use the **Credit Transfer Registers** window to view the payment files that 
 The following describes how to pay a vendor by check. The steps are similar to refund a customer by check.
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.
-2. Fill in the payment journal lines. For more information, see [Post Payments and Refunds](payables-how-post-payments-refunds.md).
+2. Fill in the payment journal lines. For more information, see [Record Payments and Refunds](payables-how-post-payments-refunds.md).
 
 > [!NOTE]  
 >   If you are using EFT, you must select either **Electronic Payment** or **Electronic Payment–IAT** in the **Bank Payment Type** field. Different file export services and their formats require different setup values in the **Bank Account Card** and **Vendor Bank Account Card** windows. You will be informed about wrong or missing setup values as you try to export the file.
@@ -72,6 +72,7 @@ You can re-export payment files from the **Credit Transfer Registers** window. B
 2. Select a payment export that you want to re-export, and then choose the **Reexport Payment to File** action.
 
 ## See Also
+[Making Payments](payables-make-payments.md)  
 [Payables](payables-manage-payables.md)  
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

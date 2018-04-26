@@ -29,36 +29,23 @@ You can pay with two types of checks. For both types, the **Bal. Account Type** 
 Your printer must be correctly set up with the check forms, and you must define which check layout to use. For more information, see [Define Check Layouts](finance-how-define-check-layouts.md)
 
 ## To pay a vendor invoice with a computer check
-You can have payment lines filled in automatically by using the **Suggest Vendor Payments** function. Alternatively, if you know who to pay, you can fill in the **Vendor No.** and **Applies-to Doc No.** fields manually.  
+The following describes how to pay a vendor by check. The steps are similar to refund a customer by check.
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.
-2. Fill in the journal with the relevant payment or payments, for example by using the **Suggest Vendor Payments** function. All applies-to information is then also entered on the payment lines. For more information, see [Suggest Vendor Payments](payables-how-suggest-vendor-payments.md).
-3. Alternatively, if you know who to pay, in the **Account No.** field, select the vendor in question.
-4. In the **Payment Method Code** field, select CHECK.
-5. For manual entry, choose the **Applies-to Doc No.** field, and then, in the **Apply Vendor Entries** window, select the relevant invoice, and then choose the **OK** button.
-
-    Many fields, such as the **Amount** field, are now filled in with information from the selected invoice.
-6. In the **Bank Payment Type** field, select **Computer Check**.
-7. Choose **Print Check** action.
-8. In the **Check** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-9. Choose the **Send to** button, select the **PDF Document** option, and then choose the **OK** button.
+2. Fill in the payment journal lines. For more information, see [Post Payments and Refunds](payables-how-post-payments-refunds.md).
+3. In the **Payment Method Code** field, select CHECK.
+4. In the **Bank Payment Type** field, select **Computer Check**.
+5. Choose the **Print Check** action.
+6. In the **Check** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+7. Choose the **Send to** button, select the **PDF Document** option, and then choose the **OK** button.
 
     The physical checks can now be brought to the bank for processing. Proceed to post the payment as applied to the vendor and thereby paid in the system.
-10. Choose the **Post** action.
+8. Choose the **Post** action.
 
 Fully applied vendor ledger entries and bank ledger entries are created.
 
 > [!NOTE]  
 > If you want to print and pay checks in more than one currency from different bank accounts, you must run the **Print Check** batch job separately for each currency and specify the appropriate bank account.
-
-## To refund a customer with a computer check
-The following describes a work-around for creating a check to a customer for a refund.
-
-> [!CAUTION]  
->   The resulting payment journal lines cannot be posted, deleted, or voided. However, the check can be issued.
-1. Set up the customer as a vendor. Name it "Customer X for Refunds", for example. For more information, see [Register New Vendors](purchasing-how-register-new-vendors.md).
-2. On the payment journal line for the customer, set the **Account Type** field to **Customer**, and the **Document Type** field to **Refund**.
-3. Perform the normal steps for payment export as described in the "To pay a vendor invoice with a computer check" section.
 
 ## To cancel printed checks that are not posted
 You can cancel non-posted checks after they have been printed by using the **Void Check** action in the **Payment Journal** window.

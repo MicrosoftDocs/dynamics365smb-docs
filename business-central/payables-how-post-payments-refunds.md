@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, customer refund, creditor, debt, balance due, AP
-ms.date: 04/26/2018
+ms.date: 04/30/2018
 ms.author: sgroespe
 
 ---
 # Record Payments and Refunds
 In the **Payment Journal** window, you record payments that you make to vendors and refunds that you make to customers. When you post a payment journal line, the paid amount is recorded on the specified system bank account. You must then take steps to perform the actual money transfer from the related bank account.
 
-If you fill in the **Applies-to Doc. No.** field with the invoice or credit memo that must be paid, then the document in question is set to paid when you post. This is referred to as "applied". As an alternative to applying during payment posting, you can use the **Apply Vendor Entries** and **Apply Customer Entries** window after you have made the payment posting. For more information, see, for example, [Reconcile Vendor Payments Manually](payables-how-apply-purchase-transactions-manually.md).
+If you fill in the **Applies-to Doc. No.** field with the invoice or credit memo that must be paid or refunded, then the document in question is set to paid when you post the journal. This is referred to as "applied". As an alternative to applying during payment posting, you can use the **Apply Vendor Entries** and **Apply Customer Entries** window after you have made the payment posting. For more information, see, for example, [Reconcile Vendor Payments Manually](payables-how-apply-purchase-transactions-manually.md).
 
 The **Suggest Vendor Payments** function can help you fill payment journal lines automatically according to vendor prioritization and due dates. For more information, see [Suggest Vendor Payments](payables-how-suggest-vendor-payments.md). With this function, the **Applies-to Doc. No.** field is always filled in.
 
@@ -25,7 +25,7 @@ In addition to recording that the payment is made, you can also use the **Paymen
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.
 2. Open the journal batch that is dedicated to payments.
 3. If you know who to pay or refund, fill in the fields manually. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. To also apply the payment to the related invoice or credit memo, choose the **Applies-to Doc No.** field, in the **Apply Vendor Entries** window, select the relevant invoice, and then choose the **OK** button.
+4. To also apply the payment to the related invoice or credit memo, choose the **Applies-to Doc No.** field, in the **Apply Vendor Entries** window, select the relevant invoice or credit memo, and then choose the **OK** button.
 
     Many fields, such as the **Amount** and **Due Date** fields, are now filled in with information from the selected document.
 5. Alternatively, use the **Suggest Vendor Payments** function. All the applies-to information and amounts are then also entered on the journal lines. For more information, see [Suggest Vendor Payments](payables-how-suggest-vendor-payments.md).

@@ -1,31 +1,12 @@
 {
   "need_generate_pdf": true,
-  "need_generate_intellisense": false,
   "docsets_to_publish": [
-    {
-      "docset_name": "financialssmb",
-      "build_source_folder": "financials",
-      "build_output_subfolder": "financialssmb",
-      "locale": "en-us",
-      "monikers": [],
-      "moniker_groups": [],
-      "open_to_public_contributors": false,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes",
-      "version": 0
-    },
     {
       "docset_name": "d365accountant",
       "build_source_folder": "accountant",
       "build_output_subfolder": "d365accountant",
       "locale": "en-us",
       "monikers": [],
-      "moniker_groups": [],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
@@ -34,6 +15,40 @@
       },
       "build_entry_point": "docs",
       "template_folder": "_themes",
+      "moniker_groups": [],
+      "version": 0
+    },
+    {
+      "docset_name": "d365businesscentral",
+      "build_source_folder": "business-central",
+      "build_output_subfolder": "d365businesscentral",
+      "locale": "en-us",
+      "monikers": [],
+      "moniker_ranges": [],
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes"
+    },
+    {
+      "docset_name": "financialssmb",
+      "build_source_folder": "financials",
+      "build_output_subfolder": "financialssmb",
+      "locale": "en-us",
+      "monikers": [],
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes",
+      "moniker_groups": [],
       "version": 0
     }
   ],
@@ -57,7 +72,8 @@
     {
       "path_to_root": "_themes.pdf",
       "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
-      "branch": "master"
+      "branch": "master",
+      "branch_mapping": {}
     }
   ],
   "branch_target_mapping": {
@@ -71,6 +87,7 @@
     ]
   },
   "need_generate_pdf_url_template": true,
+  "need_generate_intellisense": false,
   "Targets": {
     "Pdf": {
       "template_folder": "_themes.pdf"

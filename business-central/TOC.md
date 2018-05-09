@@ -28,7 +28,6 @@
 ### [Gather Customer Setup Data](admin-gather-customer-setup-values.md)
 ### [Prepare to Migrate Customer Data](admin-use-templates-to-prepare-customer-data-for-migration.md)
 ### [Migrate Customer Data](admin-migrate-customer-data.md)
-### [Configuring the API Templates](admin-configuring-api-template.md)
 ### [Tips and Tricks: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 
 # [Working with Business Central](ui-work-product.md)
@@ -155,6 +154,7 @@
 ## [Using Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)
 ## [Deleting Documents](admin-manage-documents.md)
 ## [Publishing a Web Service](across-how-publish-web-service.md)
+## [Configuring API Templates](admin-configuring-api-template.md)
 
 # [Finance](finance.md)
 ## [Managing Receivables](receivables-manage-receivables.md)

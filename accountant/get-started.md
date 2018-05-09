@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 11/10/2017
+ms.date: 05/09/2018
 ms.author: edupont
 ---
 # Get Started with [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
@@ -54,7 +54,7 @@ You can see more information about your clients' data by choosing the name of th
 Technically, you have now logged into your client's [!INCLUDE [d365fin](includes/d365fin_md.md)], and data you see is live data. If you want to take a closer look at the data, such as an overdue purchase invoice, choose the link, and you are taken to the client company.  
 
 > [!TIP]
->  You can launch predefined Excel workbooks from the **Reports** tab in the ribbon. These Excel workbooks are designed as ready-to-print key financial statements and reports, but you can also modify them to fit your needs. For more information, see [Analyzing Financial Statements in Microsoft Excel](/dynamics365/financials/finance-analyze-excel?toc=/dynamics365/accountants/toc.json) in the Help for [!INCLUDE [d365fin](includes/d365fin_md.md)].  
+>  You can launch predefined Excel workbooks from the **Reports** tab in the ribbon. These Excel workbooks are designed as ready-to-print key financial statements and reports, but you can also modify them to fit your needs. For more information, see [Analyzing Financial Statements in Microsoft Excel](/dynamics365/business-central/finance-analyze-excel?toc=/dynamics365/accountants/toc.json) in the Help for [!INCLUDE [d365fin](includes/d365fin_md.md)].  
 
 Otherwise, close the details pane and continue to the next client.  
 
@@ -79,6 +79,6 @@ When you have completed a task, simply mark it as completed.
 ## See Also
 [Add Clients to Your Dashboard in [!INCLUDE[d365acc](includes/d365acc_md.md)]](add-client.md)  
 [Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](index.md)  
-[Analyzing Financial Statements in Microsoft Excel](/dynamics365/financials/finance-analyze-excel?toc=/dynamics365/accountants/toc.json)   
-[Accountant Experiences in [!INCLUDE[d365fin](includes/d365fin_md.md)]](/dynamics365/financials/finance-accounting?toc=/dynamics365/accountants/toc.json)  
+[Analyzing Financial Statements in Microsoft Excel](/dynamics365/business-central/finance-analyze-excel?toc=/dynamics365/accountants/toc.json)   
+[Accountant Experiences in [!INCLUDE[d365fin](includes/d365fin_md.md)]](/dynamics365/business-central/finance-accounting?toc=/dynamics365/accountants/toc.json)  
 [Dynamics 365 — Accountant Hub on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  

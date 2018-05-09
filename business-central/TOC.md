@@ -296,6 +296,7 @@
 ## [Managing Segments](marketing-segments.md)
 ## [Recording Interactions](marketing-interactions.md)
 ## [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)
+## [Use Profile Questionnaires to Classify Business Contacts](marketing-create-contact-profile-questionnaire.md)
 ## [Managing Customers and Sales Created in Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)
 
 # [Human Resources](hr-manage-human-resources.md)

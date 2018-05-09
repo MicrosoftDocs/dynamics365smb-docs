@@ -10,8 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
-ms:assetid: 6068fbc0-3276-4a37-b677-f7ae60189418
-ms.date: 04/30/2018
+ms.date: 05/09/2018
 ---
 
 # Use Profile Questionnaires to Classify Business Contacts
@@ -19,26 +18,20 @@ You can set up profile questionnaires that you want to use when entering informa
 
 You can also run the questionnaire to answer some of the questions based on contact, customer, or vendor data automatically.  
 
-## To set up a profile questionnaire
+## To add a profile questionnaire
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Questionnaire Setup**, and then choose the related link.  
+2.  On the **Home** tab, in the **New** group, choose **New**.  
+3.  Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-1.  In the **Search** box, enter **Questionnaire Setup**, and then choose the related link. The **Profile Questionnaire** window opens.
-
-2.  On the **Home** tab, in the **New** group, choose **New**.
-
-3.  Fill in the **Code** and other fields on the line.
-
-4.  To add questions, on the **Home** tab, in the **Process** group, choose **Edit Questionnaire Setup**. The **Profile Questionnaire Setup** window opens.
-
-5.  On the first empty line, in the **Type** field, choose **Question** and type your question in the **Description** field. Fill in the other fields on this line.
-
-6.  On the next empty line, in the **Type** field, choose **Answer** and type your answer in the **Description** field.
-
-7.  In the **Priority** field, select the priority. In the **From Value** and **To Value** fields, define a point range. Contacts that receive points within the defined range will get the answer.
+## To add questions to a profile questionnaire
+1.  Choose the relevant profile questionnaire, and then on the **Home** tab, in the **Process** group, choose **Edit Questionnaire Setup**.  
+2.  On the first empty line, in the **Type** field, choose **Question** and type your question in the **Description** field. Fill in the other fields on this line.  
+3.  On the next empty line, in the **Type** field, choose **Answer** and type your answer in the **Description** field.  
+4.  In the **Priority** field, select the priority. In the **From Value** and **To Value** fields, define a point range. Contacts that receive points within the defined range will get the answer.  
 
 Repeat these steps to enter all the questions and answers within the profile questionnaire.
 
-After you have created a questionnaire, you need to create contact ratings to classify your contacts. You can also set up questions that are rated automatically based on information in the contact card.  
-
+After you have created a questionnaire, you must create contact ratings to classify your contacts. You can also set up questions that are rated automatically based on information in the contact card.  
 
 > [!NOTE]
 > If you enter a question that is automatically answered, choose <STRONG>Line</STRONG>, and then choose <STRONG>Question Details</STRONG>, to enter the criteria to automatically answer the question.
@@ -134,13 +127,30 @@ To do this, fill in the **Profile Questionnaire Setup** window as follows:
 </table>
 
 Then fill in the **Profile Question Details** window as follows:
-
-1.  Set the **Customer Class. Field** field to select the *Sales (LCY)*.  
-
-2.  Set the **Classification Method** field to *Defined Value*.  
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Field</strong></th>
+<th><strong>Value</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Customer Classification Field</strong></td>
+<td><emphasis>Sales (LCY)</emphasis></td>
+</tr>
+<tr>
+<td><strong>Classification Method</strong></td>
+<td><emphasis>Defined Value</emphasis></td>
+</tr>
+</tbody>
+</table>
 
 When you assign the profile questionnaire containing this question to a contact, the program automatically enters the relevant answer for this contact on the profile lines of the contact card.
-
 
 ## See Also
 [Creating Contact Persons](marketing-create-contact-persons.md)  

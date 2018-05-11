@@ -18,7 +18,7 @@ This page points you to topics that can help you learn about the new features in
 
 On a regular basis, we will update [!INCLUDE[d365fin](includes/d365fin_md.md)] with additional capabilities in the core application and with new [extensions](ui-extensions.md).  
 
-[!include [release notes](/includes/release-notes.md)]
+[!include [release notes](includes/release-notes.md)]
 
 ## Check the Business Central Blog
 We also talk about new capabilities on [the Business Central blog](https://community.dynamics.com/business/b/financials/), including when they are made available, and if there are special considerations.  

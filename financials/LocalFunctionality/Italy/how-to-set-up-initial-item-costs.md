@@ -1,11 +1,9 @@
 ---
     title: How to Set Up Initial Item Costs
     description: When you set up Business Central in your organization.
-
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -17,12 +15,11 @@
 
 ---
 # Set Up Initial Item Costs
-When you set up [!INCLUDE[d365fin](../../includes/d365fin_md.md)] in your organization.  
+When you set up [!INCLUDE [d365fin](../../includes/d365fin_md.md)] in your organization.  
 
 In the **Before Start Item Cost** window, you can enter information about inventory items, such as component costs, routing costs, and overhead costs.  
 
 ## To set up initial item costs  
-
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Before Start Item Cost**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  Enter information into the required fields. This includes the **Starting Date**, **Purchase Quantity**, **Purchase Amount**, **Production Quantity**, and **Production Amount** fields.  

@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 11/17/2017
+ms.date: 04/26/2018
 ms.author: sgroespe
 
 ---
@@ -28,14 +28,15 @@ The following table describes a sequence of tasks, with links to the topics that
 
 | To | See |
 | --- | --- |
-|Use the **Payment Journal** window, which is a based on the general journal, to post payments to vendors or employees.|[Working with General Journals](ui-work-general-journals.md)|
-| Use a function to suggest vendor payments according to selected criteria, such as due date, discount eligibility, and your liquidity. |[Suggest Vendor Payments](payables-how-suggest-vendor-payments.md) |
-|Reimburse employees for personal expenses during business activities by making payment to their bank account.|[Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)|
-| Issue checks for vendor payments, either as print-outs or as computer checks. Void checks before or after posting. |[Work With Checks](payables-how-work-checks.md) |
+|Understand basic functions of the **Payment Journal** window, which is a based on the general journal, to prepare to post payments to vendors or employees.|[Working with General Journals](ui-work-general-journals.md)|
+|Post payments to vendors and refunds to customers and optionally apply the payments to the related unpaid invoices/credit memos to close them as paid.|[Record Payments and Refunds](payables-how-post-payments-refunds.md)|
+| Use a function in the **Payment Journal** window to suggest vendor payments according to selected criteria, such as due date, discount eligibility, and your liquidity. |[Suggest Vendor Payments](payables-how-suggest-vendor-payments.md) |
+| Issue checks for vendor payments or customer refunds, either as print-outs or as computer checks. Void checks before or after posting. |[Make Check Payments](payables-how-work-checks.md) |
+|Make electronic payments by exporting payments to a bank file that you upload to your bank for processing, including EFT (electronic funds transfer) in North America. |[Make Electronic Payments](payables-how-export-payments-bank-file.md)|
+|Make electronic payments according to the EU SEPA Credit Transfer standard.|[Making Payments with Bank Data Conversion Service or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|
 | Pay the vendor by cash or check, and post the payment when you post the invoice. |[Settle Purchase Invoices Promptly](finance-how-to-settle-purchase-invoices-promptly.md) |
+|Reimburse employees for personal expenses during business activities by making payment to their bank account.|[Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)|
 | Make sure that your bank only clears validated checks and amounts by sending them a file that contains vendor, check, and payment information. |[Export a Positive Pay file](finance-how-positive-pay.md) |
-|Export payments from the **Payment Journal** window to a bank file that you upload to your bank for processing, including EFT (electronic funds transfer) in North America. |[Export Payments to a Bank File](payables-how-export-payments-bank-file.md)|
-|Make electronic payments according to the EU SEPA Credit Transfer standard.|[Making Payments with Bank Data Conversion Service or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|    
 
 ## See Also
 [Managing Payables](payables-manage-payables.md)  

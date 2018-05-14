@@ -65,7 +65,7 @@ When your intercompany partners send you intercompany transactions, the transact
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intercompany Inbox Transactions**, and then choose the related link.  
 2. In the **Intercompany Inbox Transactions** window, select a line, and then choose an action, such as **Accept**, to process the line.
-3. In the **Complete IC Inbox Action** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. In the **Complete IC Inbox Action** window, fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Choose the **OK** button.  
 
 For lines that you processed with the **Accept** action, document or journal lines will be created in your company. Open each document or journal, make any necessary changes, and then post them.  

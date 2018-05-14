@@ -1,11 +1,9 @@
 ---
     title: How to Close Years
     description: When a fiscal year is over, you must close the periods that it comprises.
-
     services: project-madeira 
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -20,7 +18,6 @@
 When a fiscal year is over, you must close the periods that it comprises.  
 
 ## To close a year  
-
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Accounting Periods**, and then choose the relevant link.  
 2.  Choose the **Close Year** action.  
 

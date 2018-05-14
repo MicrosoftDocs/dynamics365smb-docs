@@ -1,11 +1,9 @@
 ---
     title: How to Print General Ledger Reports
     description: General ledger reports meet financial accounting standards, and they contain information about ledger entries, simulation entries, customer entries, vendor entries, and bank entries.
-
     services: project-madeira 
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -20,7 +18,6 @@
 General ledger reports meet financial accounting standards, and they contain information about ledger entries, simulation entries, customer entries, vendor entries, and bank entries.  
 
 ## To print general ledger reports  
-
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger**, and then choose the relevant link.  
 2.  Choose the **Reports and Analysis** action, choose the **France** action, and then choose one of the following reports.  
 

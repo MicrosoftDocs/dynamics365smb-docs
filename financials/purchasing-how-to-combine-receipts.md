@@ -33,7 +33,7 @@ When purchase receipts are combined on an invoice and posted, then a posted purc
 
 ## To remove open purchase orders after combined receipt posting  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Delete Invoiced Purchase Orders**, and select the related link.  
-2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
+2. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 3. Choose the **OK** button.  
 
 Alternatively, delete the individual orders manually.

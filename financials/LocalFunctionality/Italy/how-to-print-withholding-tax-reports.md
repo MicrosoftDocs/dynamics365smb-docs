@@ -1,11 +1,9 @@
 ---
     title: How to Print Withholding Tax Reports
     description: The **Withholding Taxes** report displays a list of withholding taxes that are payable to the government.
-
     services: project-madeira 
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na

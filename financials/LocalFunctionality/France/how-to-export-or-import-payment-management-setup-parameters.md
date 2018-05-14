@@ -1,11 +1,9 @@
 ---
     title: How to Export or Import Payment Management Setup Parameters
     description: You can export or import payment management setup parameters to an external disk so that you can use the same parameters for another company with similar requirements.
-
     services: project-madeira 
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -28,7 +26,6 @@ You can use the following formats to export payment setup parameters:
 You can select these formats when you set up the payment status for your payment class. For more information, see [Set Up Payment Classes](how-to-set-up-payment-classes.md).  
 
 ## To export or import payment management setup parameters  
-
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Slip Setup**, and then choose the relevant link.  
 2.  In the **Payment Class** window, choose the **Export Parameters** action.  
 

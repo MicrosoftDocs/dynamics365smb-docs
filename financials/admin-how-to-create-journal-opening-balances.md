@@ -16,7 +16,7 @@
 
 ---
 # Create Journal Opening Balances
-[!INCLUDE[d365fin](includes/d365fin_md.md)] includes several batch jobs that are provided to help in the transfer of legacy account balances to a newly configured company. You can easily transfer this data with the customer journal, the vendor journal, the item journal, or the G/L journal.
+[!INCLUDE [d365fin](includes/d365fin_md.md)] includes several batch jobs that are provided to help in the transfer of legacy account balances to a newly configured company. You can easily transfer this data with the customer journal, the vendor journal, the item journal, or the G/L journal.
 
 The first step is to create a configuration package that includes the setup tables for those journals. The following procedure assumes that this step is completed. For more information, see [Set Up Company Configuration](admin-set-up-company-configuration.md). This procedure describes the subsequent steps, which include applying the package that is provided by a partner.  
 

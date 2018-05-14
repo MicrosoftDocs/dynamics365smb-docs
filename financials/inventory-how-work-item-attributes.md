@@ -26,7 +26,7 @@ You can also assign item attributes to item categories, which then apply to the 
 ## To create item attributes
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Attributes**, and then choose the related link.
 2. In the **Item Attributes** window, choose the **New** action.
-3. In the **Item Attribute** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. In the **Item Attribute** window, fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   If you select **Option** in the **Type** field, then you can choose the **Item Attribute Values** action to create values for the item attribute. For more information, see the "To create values for item attributes of type Option" section.  
@@ -34,7 +34,7 @@ You can also assign item attributes to item categories, which then apply to the 
 ## To create values for item attributes of type Option
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Attributes**, and then choose the related link.
 2. In the **Item Attributes** window, select an item attribute of type **Option** that you want to create values for, and then choose the **Item Attribute Values** action.
-3. In the **Item Attribute Values** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. In the **Item Attribute Values** window, fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To assign item attributes to items
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.
@@ -63,7 +63,7 @@ You can also assign item attributes to item categories, which then apply to the 
 4. In the **Value** field, choose the lookup button and select an attribute value to filter items by.
 
     > [!NOTE]  
->   You can only select values directly for item attributes that have fixed values, such as Color. For item attributes that have variable values, such as Width, you must specify the item attribute value by first selecting a condition. See step 5.
+   >   You can only select values directly for item attributes that have fixed values, such as Color. For item attributes that have variable values, such as Width, you must specify the item attribute value by first selecting a condition. See step 5.
 5. In the **Value** field for a variable item attribute, choose the lookup button.
 6. In the **Specify Filter Value** window, in the **Condition** field, choose the drop-down arrow and select a condition.
 7. In the **Value** field, enter an attribute value to filter items by.

@@ -1,11 +1,9 @@
 ---
     title: How to Fiscally Close Accounting Periods
     description: When a fiscal period is complete, you can fiscally close the period to make sure that no more general ledger entries can be posted.
-
     services: project-madeira 
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -23,7 +21,6 @@ When a fiscal period is complete, you can fiscally close the period to make sure
 >  When a period is being closed, any simulation entries that may exist are found and deleted.  
 
 ## To fiscally close accounting periods  
-
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Accounting Periods**, and then choose the relevant link.  
 2.  In the **Accounting Periods** window, choose the **Close Fiscal Period** action.  
 

@@ -1,11 +1,9 @@
 ---
     title: How to Delete Simulation Entries
     description: You can create and post simulation entries to the general ledger without affecting the real accounting, and you can delete the simulated entries.
-
     services: project-madeira 
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na

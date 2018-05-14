@@ -29,10 +29,10 @@ To transfer items, locations and transfer routes must be set up. For more inform
 
 ## To transfer items with a transfer order
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Transfer orders**, and then choose the related link.
-2. In the **Transfer Order** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. In the **Transfer Order** window, fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
->   If you have filled in the **In-Transit Code**, **Shipping Agent Code**, and **Shipping Agent Service** fields in the **Trans. Route Spec.** window when you set up the transfer route, then the corresponding fields on the transfer order are filled in automatically.
+   >   If you have filled in the **In-Transit Code**, **Shipping Agent Code**, and **Shipping Agent Service** fields in the **Trans. Route Spec.** window when you set up the transfer route, then the corresponding fields on the transfer order are filled in automatically.
 
     When you fill in the **Shipping Agent Service** field, the receipt date at the transfer-to location is calculated by adding the shipping time of the shipping agent service to the shipment date.
 
@@ -46,11 +46,11 @@ To transfer items, locations and transfer routes must be set up. For more inform
 
 ## To transfer items with the item reclassification journal
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Reclass. Journals**, and then choose the related link.
-2. In the **Item Reclass. Journal** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. In the **Item Reclass. Journal** window, fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. In the **Location Code** field, enter the location where the items are currently stored.
 
     > [!NOTE]  
->   To transfer items that have no location code, leave the **Location Code** field blank.
+   >   To transfer items that have no location code, leave the **Location Code** field blank.
 4. In the **New Location Code** field, enter the location that you want to transfer the items to.
 5. Choose the **Post** action.
 
@@ -59,5 +59,5 @@ To transfer items, locations and transfer routes must be set up. For more inform
 [Set Up Locations](inventory-how-setup-locations.md)  
 
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)  
+[Changing Which Features are Displayed](ui-experiences.md)  
 [General Business Functionality](ui-across-business-areas.md)

@@ -16,7 +16,7 @@ ms.author: sgroespe
 
 ---
 # Work With Checks
-You can issue electronic and manual checks in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Both methods use the payment journal to issue checks to vendors. You can also void checks and view check ledger entries.
+You can issue electronic and manual checks in [!INCLUDE [d365fin](includes/d365fin_md.md)]. Both methods use the payment journal to issue checks to vendors. You can also void checks and view check ledger entries.
 
 The process of issuing checks suggests payments, creates ledger entries, and prints the computer checks.
 
@@ -31,12 +31,12 @@ Your printer must be correctly set up with the check forms, and you must define 
 3. In the **Bank Payment Type** field on journal lines for payment that you want to make with checks, select one of the following options:
 
    * **Computer Check**: Select this option if you want to print a check for the amount on the payment journal line. You must print the checks before you can post the journal lines. You can only select **Computer Check** if the **Bal. Account Type** or the **Account Type** is **Bank Account**.
-   * **Manual Check**: Select this option if you have created a check manually and want to create a corresponding check ledger entry for this amount. By using this option, you cannot print checks from [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can only select **Manual Check** if the **Bal. Account Type** or the **Account Type** is **Bank Account**.
+   * **Manual Check**: Select this option if you have created a check manually and want to create a corresponding check ledger entry for this amount. By using this option, you cannot print checks from [!INCLUDE [d365fin](includes/d365fin_md.md)]. You can only select **Manual Check** if the **Bal. Account Type** or the **Account Type** is **Bank Account**.
 
      > [!NOTE]  
->   You must print computer checks before you post the related journal lines.
+     >   You must print computer checks before you post the related journal lines.
 4. In case of computer checks, choose **Print Check**.
-5. In the **Check** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. In the **Check** window, fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 6. Choose the **Print** button.
 
 > [!NOTE]  

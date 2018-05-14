@@ -14,7 +14,7 @@
 
 ---
 # Denmark Local Functionality
-The following topics describe the local functionality in the Danish version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+The following topics describe the local functionality in the Danish version of [!INCLUDE [d365fin](../../includes/d365fin_md.md)].  
 
 ## In This Section  
 [The OIOUBL Extension for Electronic Invoicing](ui-extensions-oioubl.md)  
@@ -28,5 +28,5 @@ The following topics describe the local functionality in the Danish version of [
 ## See Also
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)   
 
-## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](../../includes/training_link_md.md)]
+## [!INCLUDE [d365fin](../../includes/free_trial_md.md)]  
+## [!INCLUDE [d365fin](../../includes/training_link_md.md)]

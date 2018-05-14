@@ -1,11 +1,9 @@
 ---
     title: Italian Subcontracting
     description: Companies contracted for production often outsource the production of components to subcontractors.
-
     services: project-madeira 
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na

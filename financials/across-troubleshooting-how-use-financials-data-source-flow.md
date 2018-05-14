@@ -15,12 +15,12 @@ ms.author: solsen
 
 ---
 # Troubleshooting Integration with Microsoft Flow - Request URL Too Long
-You can use your [!INCLUDE[d365fin](includes/d365fin_md.md)] data as part of a workflow in Microsoft Flow.  
+You can use your [!INCLUDE [d365fin](includes/d365fin_md.md)] data as part of a workflow in Microsoft Flow.  
 
-> [!NOTE]  
->   You must have a valid account with [!INCLUDE[d365fin](includes/d365fin_md.md)] and with Flow.  
+> [!NOTE]
+>   You must have a valid account with [!INCLUDE [d365fin](includes/d365fin_md.md)] and with Flow.  
 
-If you are creating a Microsoft Flow using the [!INCLUDE[d365fin](includes/d365fin_md.md)] connector, you may receive an error message stating that the requsted URL is too long after creating the flow, such as the following: **RequestUriTooLong**.
+If you are creating a Microsoft Flow using the [!INCLUDE [d365fin](includes/d365fin_md.md)] connector, you may receive an error message stating that the requsted URL is too long after creating the flow, such as the following: **RequestUriTooLong**.
 
 ## Cause
 For a flow to trigger, it looks for changes in your data. When determining if your data has changed, the connectors compare the cached data to the new data requested from the source.  

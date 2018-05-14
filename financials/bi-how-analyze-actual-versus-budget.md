@@ -25,7 +25,7 @@ In a budget with dimensions, you can filter the entries and see specific budgets
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Budgets**, and then choose the related link.
 2. In the **G/L Budgets** window, open the budget that you want to view.  
-3. At the top of the window, fill in the fields as necessary to define what is shown. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. At the top of the window, fill in the fields as necessary to define what is shown. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   If you have selected **Period** in either the **Show as Lines** or the **Show as Columns** field, then you must fill in the **View by** field. If you have not selected **Period** in either the **Show as Lines** or **Show as Columns** field, then enter the appropriate period in **Date Filter** field.  
@@ -37,7 +37,7 @@ In a budget with dimensions, you can filter the entries and see specific budgets
 >   If you want to modify the budget, you can modify the budget entries. Choose an amount to view the underlying general ledger budget entries.
 
 ## To view actual and budgeted amounts for all accounts  
-You can view general ledger budgets and compare them with actual figures in several areas of [!INCLUDE[d365fin](includes/d365fin_md.md)].
+You can view general ledger budgets and compare them with actual figures in several areas of [!INCLUDE [d365fin](includes/d365fin_md.md)].
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Chart of Accounts**, and then choose the related link.  
 2. In the **Chart of Accounts** window, choose the **G/L Balance/Budget** action.

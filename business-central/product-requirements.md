@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 09/22/2017
+ms.date: 04/17/2018
 ms.author: edupont
 
 ---
@@ -32,6 +32,9 @@ Before you access [!INCLUDE[d365fin](includes/d365fin_md.md)], we recommend that
 **Outlook applications:** To use [!INCLUDE[d365fin](includes/d365fin_md.md)] as your business inbox in Outlook, you will need Outlook 2013 or later, Outlook Web App, OWA for iPhone, OWA for iPad, or OWA for Android.  
 **Browsers:** When using [!INCLUDE[d365fin](includes/d365fin_md.md)] as your business inbox in the Outlook Web App (OWA), the add-in requires that your computer is running one of the listed supported browsers that are listed earlier in this article.  
 **Platforms:** When using the [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook Add-In in OWA for iPhone, OWA for iPad, and OWA for Android, the add-in requires that your mobile device is running one of the listed supported mobile devices for [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+
+## Excel
+**Edit in Excel:** To use the Excel add-in to make changes in Excel and push the changes back into [!INCLUDE[d365fin](includes/d365fin_md.md)], you need Excel 2016 or later. For more information, see [Analyzing Financial Statements in Microsoft Excel](finance-analyze-excel.md).  
 
 ## See Also
 [Getting Started](product-get-started.md)  

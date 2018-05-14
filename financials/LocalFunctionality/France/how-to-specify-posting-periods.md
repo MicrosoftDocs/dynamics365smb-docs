@@ -1,11 +1,9 @@
 ---
     title: How to Specify Posting Periods
     description: When you specify posting periods, you limit the period in which posting is allowed.
-
     services: project-madeira 
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -20,7 +18,6 @@
 When you specify posting periods, you limit the period in which posting is allowed.  
 
 ## To specify posting periods  
-
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Setup**, and then choose the related link.  
 2.  In the **General Ledger Setup** window, on the **General** tab, in the **Allow Posting From** field, specify the start date of the posting period.  
 3.  In the **Allow Posting To** field, specify the end date of the posting period.  

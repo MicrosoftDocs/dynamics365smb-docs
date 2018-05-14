@@ -23,7 +23,7 @@ You can then create document lines for a specific location, view availability by
 ## To create a location card
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.
 2. Choose the **New** action.
-3. In the **Location Card** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. In the **Location Card** window, fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Repeat steps 2 and 3 for every location where you want to keep inventory.
 
 > [!NOTE]  
@@ -33,7 +33,7 @@ You can then create document lines for a specific location, view availability by
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Transfer Routes**, and then choose the related link.
 2. Alternatively, from any **Location Card** window, choose the **Transfer Routes** action.
 3. Choose the **New** action.
-4. In the **Location Card** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. In the **Location Card** window, fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 You can now transfer inventory items between two locations. For more information, see [Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md).    
 
@@ -41,5 +41,5 @@ You can now transfer inventory items between two locations. For more information
 [Manage Inventory](inventory-manage-inventory.md)  
 [Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)    
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)  
+[Changing Which Features are Displayed](ui-experiences.md)  
 [General Business Functionality](ui-across-business-areas.md)

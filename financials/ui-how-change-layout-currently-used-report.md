@@ -30,8 +30,8 @@ Depending on the layouts that are available for a report, you can choose to use 
    * Custom, uses a custom layout on the report.  
      You can see which custom layouts are available for the report in the Report Layouts Part FactBox. If there are no custom layouts for the report, then you will have to create one first. If you choose this option, go to the next procedure to specify the custom layout that you want to use.
 
-    > [!NOTE]  
-    >   If you choose **RDLC (built-in)** or **Word (built-in)** and you get an error message that the report does not have a layout of the specified type, then you must choose another layout option or create a custom report layout of the type that you want to use.
+     > [!NOTE]  
+     >   If you choose **RDLC (built-in)** or **Word (built-in)** and you get an error message that the report does not have a layout of the specified type, then you must choose another layout option or create a custom report layout of the type that you want to use.
 
 If you selected a built-in RDLC or Word report layout, then no further action is required and the layout will be used the next time the report is run.
 

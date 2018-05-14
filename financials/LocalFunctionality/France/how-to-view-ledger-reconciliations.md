@@ -1,11 +1,9 @@
 ---
     title: How to View Ledger Reconciliations
     description: Two reports can help you reconcile general ledger entries with customer ledger entries and vendor ledger entries.
-
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -22,7 +20,6 @@
 The following procedure applies to viewing reconciliation between the general ledger and the customer ledger, but the same steps apply to reconciliation with the vendor ledger.  
 
 ## To view general ledger reconciliation with the customer ledger  
-
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger**, and then choose the related link in **General Ledger**.  
 2.  Choose the **Reports** action, choose the **France** action, and then choose the **GL/Cust. Ledger Reconciliation** action.  
 3.  In the **GL/Cust. Ledger Reconciliation** window, set the appropriate filters.  

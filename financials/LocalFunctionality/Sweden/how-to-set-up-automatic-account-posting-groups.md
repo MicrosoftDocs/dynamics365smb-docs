@@ -1,11 +1,9 @@
 ---
     title: How to Set Up Automatic Account Posting Groups
     description: To use automatic account codes, you must create an automatic account posting group.
-
     services: project-madeira 
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -20,7 +18,6 @@
 To use automatic account codes, you must create an automatic account posting group.  
 
 ## To set up automatic account posting groups  
-
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Auto. Acc. Groups**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  On the **General** FastTab, fill in the fields as described in the following table.  

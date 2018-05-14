@@ -1,11 +1,9 @@
 ---
     title: How to Fiscally Close Years
     description: When a fiscal year is complete, you must fiscally close the periods that it comprises to make sure that no more general ledger entries can be posted.
-
     services: project-madeira 
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -26,7 +24,6 @@ Before fiscal closing is allowed the following must be done:
 - All closing entries are up-to-date.  
 
 ## To fiscally close years  
-
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Accounting Periods**, and then choose the relevant link.  
 2.  On the **Navigate** tab, in the **Fiscal Closing** group, choose the **Fiscally Close Year** check box.  
 

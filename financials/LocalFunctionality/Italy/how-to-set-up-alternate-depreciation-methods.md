@@ -1,11 +1,9 @@
 ---
     title: How to Set Up Alternate Depreciation Methods
     description: Alternate depreciation methods include anticipated depreciation, accelerated depreciation, and reduced depreciation.
-
     services: project-madeira 
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -26,7 +24,6 @@ Alternate depreciation methods include the following:
 You must create depreciation tables to set up these depreciation methods.  
 
 ## To set up alternate depreciation methods  
-
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Tables**, and then choose the related link.  
 2.  In the **Depreciation Table List** window, choose the **New** action.  
 3.  On the **General** FastTab, fill in the fields as described in the following table.  

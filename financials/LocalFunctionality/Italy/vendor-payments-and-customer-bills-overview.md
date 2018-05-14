@@ -1,11 +1,9 @@
 ---
     title: Vendor Payments and Customer Bills Overview
     description: In Business Central, you can manage automatic bills to customers and from vendors.
-
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -17,7 +15,7 @@
 
 ---
 # Vendor Payments and Customer Bills Overview
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can manage automatic bills to customers and from vendors.  
+In [!INCLUDE [d365fin](../../includes/d365fin_md.md)], you can manage automatic bills to customers and from vendors.  
 
 In addition, the bill pay feature supports the issuance of payment in many formats, including SEPA Credit Transfer, SEPA Direct Debit, and Italian bill formats.  
 

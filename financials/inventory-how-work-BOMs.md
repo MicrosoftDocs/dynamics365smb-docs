@@ -48,7 +48,7 @@ There are two parts to creating an assembly BOM:
 
     Proceed to enter components or resources on the assembly BOM.  
 2. In the **Item Card** window for an assembly item, choose the **Assembly** action, and then choose the **Assembly BOM** action.
-3. In the **Assembly BOM** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. In the **Assembly BOM** window, fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To view the components of an assembly item indented according to the BOM structure
 From the **Assembly BOM** window, you can open a separate window that shows the components and any resources indented according to their BOM position under the assembly item.

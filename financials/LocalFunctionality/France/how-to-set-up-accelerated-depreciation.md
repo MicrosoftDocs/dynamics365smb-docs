@@ -1,11 +1,9 @@
 ---
     title: How to Set Up Accelerated Depreciation
     description: To use the accelerated depreciation calculation, you must set up depreciation books for fixed assets.
-
     services: project-madeira 
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -26,7 +24,6 @@ To use the accelerated depreciation calculation, you must set up the following d
 >  When you post an acquisition, depreciation, or disposal for the accounting depreciation book, the transaction is duplicated and posted in the tax depreciation book when the fixed asset journal is posted.  
 
 ## To set up the accounting depreciation book  
-
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Books**, and then choose the relevant link.  
 2.  In the **Depreciation Book List** window, choose ¨the **New** action.  
 3.  On the **General** FastTab, fill in the required fields as described in the following table.  

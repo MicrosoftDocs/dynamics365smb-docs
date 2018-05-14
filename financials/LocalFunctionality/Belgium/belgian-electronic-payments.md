@@ -17,21 +17,22 @@
 
 ---
 # Belgian Electronic Payments
-In the electronic banking module in [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can make domestic, international, SEPA, and non-Euro SEPA electronic payments.  
+In the electronic banking module in [!INCLUDE [d365fin](../../includes/d365fin_md.md)], you can make domestic, international, SEPA, and non-Euro SEPA electronic payments.  
 
-|Electronic payment|Description|  
-|------------------------|---------------------------------------|  
-|Domestic|These payments are in the local currency (LCY) and are processed by a local financial institution for beneficiaries who have accounts that have a local financial institution. The validity of the bank account numbers will be verified by [!INCLUDE[d365fin](../../includes/d365fin_md.md)].|  
-|International|These payments are either in foreign currencies or in LCY and are processed by a local financial institution for beneficiaries who have accounts that have foreign financial institutions. The validity of the bank account numbers will not be verified by [!INCLUDE[d365fin](../../includes/d365fin_md.md)].|  
-|SEPA|These payments are in euro and are processed in countries/regions that accept SEPA payments. The validity of the bank account numbers will be verified by [!INCLUDE[d365fin](../../includes/d365fin_md.md)].|  
-|Non-Euro SEPA|These payments are in currency other than euro and made to a country/region outside the European Economic Association (EEA). The validity of the bank account numbers will be verified by [!INCLUDE[d365fin](../../includes/d365fin_md.md)].|  
 
- In electronic banking, because the standard for electronic payments is different for countries/regions, electronic payments created in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] can only be processed by financial institutions in Belgium. For international payments, the local financial institutions will then have to process the payment with the foreign institutions.  
+| Electronic payment |                                                                                                                                                   Description                                                                                                                                                   |
+|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|      Domestic      |         These payments are in the local currency (LCY) and are processed by a local financial institution for beneficiaries who have accounts that have a local financial institution. The validity of the bank account numbers will be verified by [!INCLUDE [d365fin](../../includes/d365fin_md.md)].         |
+|   International    | These payments are either in foreign currencies or in LCY and are processed by a local financial institution for beneficiaries who have accounts that have foreign financial institutions. The validity of the bank account numbers will not be verified by [!INCLUDE [d365fin](../../includes/d365fin_md.md)]. |
+|        SEPA        |                                                  These payments are in euro and are processed in countries/regions that accept SEPA payments. The validity of the bank account numbers will be verified by [!INCLUDE [d365fin](../../includes/d365fin_md.md)].                                                  |
+|   Non-Euro SEPA    |                                  These payments are in currency other than euro and made to a country/region outside the European Economic Association (EEA). The validity of the bank account numbers will be verified by [!INCLUDE [d365fin](../../includes/d365fin_md.md)].                                  |
+
+ In electronic banking, because the standard for electronic payments is different for countries/regions, electronic payments created in [!INCLUDE [d365fin](../../includes/d365fin_md.md)] can only be processed by financial institutions in Belgium. For international payments, the local financial institutions will then have to process the payment with the foreign institutions.  
 
 > [!NOTE]  
 >  Credit memos cannot be processed separately because payments must not have a negative balance. To process a credit memo, the credit memo must be added to one or more invoices by summarizing payments.  
 
-Before you can make electronic payments, you must set up use electronic banking in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+Before you can make electronic payments, you must set up use electronic banking in [!INCLUDE [d365fin](../../includes/d365fin_md.md)].  
 
 ## Generate Payment Suggestions
 After you have set up electronic banking, you can start generating payment suggestions. You can do this in the payment journal.  

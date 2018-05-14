@@ -1,11 +1,9 @@
 ---
     title: How to Reverse Preliminary Invoices by Using Inward Registration
     description: Reverse an inward registration if you want to cancel it, for example, because you do not need the preliminary purchase invoice.
-
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -20,7 +18,6 @@
 Reverse an inward registration if you want to cancel it, for example, because you do not need the preliminary purchase invoice. For more information, see Inward Registration.  
 
 ## To reverse a preliminary invoice  
-
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoices**, and then choose the related link.  
 2.  Select an invoice that has been posted using inward registration.  
 3.  Choose the **Inward Registration** action.  

@@ -1,11 +1,9 @@
 ---
     title: Simulation of Entries
     description: Functionality for France includes the ability to simulate posted entries before posting.
-
     services: project-madeira 
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na

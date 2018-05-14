@@ -14,7 +14,7 @@
 
 ---
 # Design Details: Average Cost
-The average cost of an item is calculated with a periodic weighted average, based on the average cost period that is set up in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+The average cost of an item is calculated with a periodic weighted average, based on the average cost period that is set up in [!INCLUDE [d365fin](includes/d365fin_md.md)].  
 
  The valuation date is set automatically.  
 
@@ -39,12 +39,12 @@ The average cost of an item is calculated with a periodic weighted average, base
 
  The average cost of a transaction is calculated when the item’s cost is adjusted. For more information, see [Design Details: Cost Adjustment](design-details-cost-adjustment.md). A cost adjustment uses the entries in the **Avg. Cost Adjmt. Entry Point** table to identify which items (or items, locations, and variants) to calculate average costs for. For each entry with a cost that has not been adjusted, the cost adjustment uses the following to determine the average cost:  
 
--   Determines the cost of the item at the start of the average cost period.  
--   Adds the sum of the inbound costs that were posted during the average cost period. These include purchases, sales returns, positive adjustments, and production and assembly outputs.  
--   Subtracts the sum of the costs of any outbound transactions that were fixed-applied to receipts in the average cost period. These typically include purchase returns and negative outputs.  
--   Divides by the total inventory quantity for the end of the average cost period, excluding inventory decreases that are being valued.  
+- Determines the cost of the item at the start of the average cost period.  
+- Adds the sum of the inbound costs that were posted during the average cost period. These include purchases, sales returns, positive adjustments, and production and assembly outputs.  
+- Subtracts the sum of the costs of any outbound transactions that were fixed-applied to receipts in the average cost period. These typically include purchase returns and negative outputs.  
+- Divides by the total inventory quantity for the end of the average cost period, excluding inventory decreases that are being valued.  
 
- The calculated average cost is then applied to the inventory decreases for the item (or item, location, and variant) with posting dates in the average cost period. If any inventory increases exist that were fixed applied to inventory decreases in the average cost period, then the calculated average cost is forwarded from the increase to the decrease.  
+  The calculated average cost is then applied to the inventory decreases for the item (or item, location, and variant) with posting dates in the average cost period. If any inventory increases exist that were fixed applied to inventory decreases in the average cost period, then the calculated average cost is forwarded from the increase to the decrease.  
 
 ### Example: Average Cost Period = Day  
  The following example shows the effect of calculating the average cost based on an average cost period of one day. The **Average Cost Calc. Type** field in the **Inventory Setup** window is set to **Item**.  

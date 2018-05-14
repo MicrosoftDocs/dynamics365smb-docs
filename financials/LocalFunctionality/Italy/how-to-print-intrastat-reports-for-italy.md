@@ -1,11 +1,9 @@
 ---
     title: How to Print Intrastat Reports for Italy
-    description: You can print monthly and quarterly Intrastat reports and submit them to the authorities on a diskette by running the **Intrastat Make Disk Tax Auth** batch job. Information regarding the receipt and the delivery of goods is included automatically.
-
+    description: You can print monthly and quarterly Intrastat reports and submit them to the authorities on a diskette by running the Intrastat Make Disk Tax Auth batch job. 
     services: project-madeira 
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -25,7 +23,6 @@ The following Intrastat reports are available:
 - **Intrastat - Form** report  
 
 ## To print quarterly or monthly reports  
-
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat Journals**, and then choose the related link.  
 2.  Select the required journal batch.  
 3.  To open the **Intrastat - Monthly** report or the **Intrastat - Quarterly** report, choose the **Monthly Report** action or the **Quarterly Report** action.  

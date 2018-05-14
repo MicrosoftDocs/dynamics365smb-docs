@@ -36,7 +36,7 @@ When you convert a service quote to a service order, the service order, the serv
 * There is a search for allocation entries for all the service items in the service order that have the status **Active**. If such allocation entries are found, their allocation status is changed from **Active** to **Reallocation Needed**.  
   
 ## Canceling Allocations  
-When you cancel an allocation for a service item, [!INCLUDE[d365fin](includes/d365fin_md.md)] updates the allocation status of the corresponding allocation entry from **Active** to **Reallocation Needed**.
+When you cancel an allocation for a service item, [!INCLUDE [d365fin](includes/d365fin_md.md)] updates the allocation status of the corresponding allocation entry from **Active** to **Reallocation Needed**.
 
 The repair status of the service item in the allocation entry is updated in the following ways:  
   

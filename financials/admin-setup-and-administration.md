@@ -23,7 +23,7 @@ Whether you use RapidStart Services to implement setup values or you manually en
 A super user or an administrator can set up the Data Exchange Framework to enable users to export and import data in bank and payroll files, for example for various cash management processes.
 
 > [!NOTE]
-> You can set up a new company in [!INCLUDE[d365fin](includes/d365fin_md.md)] with RapidStart Services, which is a tool designed to shorten deployment times, improve quality of implementation, introduce a repeatable approach to implementations, and enhance productivity by automating and simplifying recurring tasks. For more information, see ## [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+> You can set up a new company in [!INCLUDE [d365fin](includes/d365fin_md.md)] with RapidStart Services, which is a tool designed to shorten deployment times, improve quality of implementation, introduce a repeatable approach to implementations, and enhance productivity by automating and simplifying recurring tasks. For more information, see ## [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
 The following table describes a sequence of tasks, with links to the topics that describe them.   
 
@@ -46,5 +46,5 @@ The following table describes a sequence of tasks, with links to the topics that
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+## [!INCLUDE [d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE [d365fin](includes/training_link_md.md)]

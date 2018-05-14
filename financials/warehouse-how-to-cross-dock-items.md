@@ -54,21 +54,21 @@ The program does not keep separate records about items that have been cross-dock
 >  Cross-docking is only possible if your location is set up to require warehouse receive and put-away processing.  
 
 ## To cross-dock items without viewing the opportunities  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Warehouse Receipts**, and then choose the related link.  
-2.  Create a warehouse receipts for an item that has arrived and can perhaps be cross-docked. For more information, see [Receive Items](warehouse-how-receive-items.md).  
-3.  Fill in the **Qty. to Receive** field, and then choose the **Calculate Cross-Dock** action.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Warehouse Receipts**, and then choose the related link.  
+2. Create a warehouse receipts for an item that has arrived and can perhaps be cross-docked. For more information, see [Receive Items](warehouse-how-receive-items.md).  
+3. Fill in the **Qty. to Receive** field, and then choose the **Calculate Cross-Dock** action.  
 
-    Outbound source documents requesting the items that are scheduled to leave the warehouse within the date formula time period are identified.  [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates quantities so that you can cross-dock as much as possible and avoid having to put items away, without piling up too many items in the cross-dock area. The value in the **Qty. to Cross-Dock** field is thus the sum of all the outbound lines requesting the item within the look-ahead period minus the quantity of the items that have already been placed in the cross-dock area, or it is the value in the **Qty. to Receive** field on the receipt line, whichever is smaller. You cannot cross-dock more than you have received.  
+   Outbound source documents requesting the items that are scheduled to leave the warehouse within the date formula time period are identified.  [!INCLUDE [d365fin](includes/d365fin_md.md)] calculates quantities so that you can cross-dock as much as possible and avoid having to put items away, without piling up too many items in the cross-dock area. The value in the **Qty. to Cross-Dock** field is thus the sum of all the outbound lines requesting the item within the look-ahead period minus the quantity of the items that have already been placed in the cross-dock area, or it is the value in the **Qty. to Receive** field on the receipt line, whichever is smaller. You cannot cross-dock more than you have received.  
 
-4.  If you want to cross-dock the quantity as suggested, post the receipt. You can also decide to change the quantity to cross-dock to a higher or lower value and then post the receipt.  
+4. If you want to cross-dock the quantity as suggested, post the receipt. You can also decide to change the quantity to cross-dock to a higher or lower value and then post the receipt.  
 
-    The amounts to be cross-docked now appear as lines in the put-away instruction, assuming the **Use Put-away Worksheet** field is cleared. The quantities not cross-docked also become lines in the put-away instruction.  
+   The amounts to be cross-docked now appear as lines in the put-away instruction, assuming the **Use Put-away Worksheet** field is cleared. The quantities not cross-docked also become lines in the put-away instruction.  
 
-    If you have bins, the cross-docked items have been assigned to the default cross-dock bin defined on the location card.  
+   If you have bins, the cross-docked items have been assigned to the default cross-dock bin defined on the location card.  
 
-5.  Delete the **Take** and **Place** lines for items that are not going to be cross-docked at all.  
-6.  Print the put-away instruction for the remaining lines, and place the quantities of the receipt that need to be stored in the appropriate bins or in the appropriate area of the warehouse. Place the cross-dock items in the area or bin designated for them by warehouse policy. Sometimes, warehouse policy might require that you to just leave them in the receiving area.  
-7.  To register the cross-docked items as being put-away and available for picking, choose the **Register** action.  
+5. Delete the **Take** and **Place** lines for items that are not going to be cross-docked at all.  
+6. Print the put-away instruction for the remaining lines, and place the quantities of the receipt that need to be stored in the appropriate bins or in the appropriate area of the warehouse. Place the cross-dock items in the area or bin designated for them by warehouse policy. Sometimes, warehouse policy might require that you to just leave them in the receiving area.  
+7. To register the cross-docked items as being put-away and available for picking, choose the **Register** action.  
 
 ## To cross-dock items after viewing the opportunities  
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Warehouse Receipts**, and then choose the related link.  

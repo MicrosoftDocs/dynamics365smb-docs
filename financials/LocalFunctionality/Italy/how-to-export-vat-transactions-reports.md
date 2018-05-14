@@ -1,11 +1,9 @@
 ---
     title: How to Export VAT Transactions Reports
     description: After you create a report, you can release it, and then export it for the authorities.
-
     services: project-madeira 
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -22,7 +20,6 @@ After you create a report, you can release it, and then export it for the author
 It is only possible to change the lines and fields when the document has the status Open. In the Released status, only the receipt no. is available for change. In the Submitted status, all fields are locked.  
 
 ## To export and submit a VAT transaction report  
-
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Reports**, and then choose the related link.  
 2.  Select an existing report or create a new report:  
 
@@ -36,7 +33,7 @@ It is only possible to change the lines and fields when the document has the sta
 
 4.  Choose the **Release** action. The **Status** field is updated to Released.  
 
-    [!INCLUDE[d365fin](../../includes/d365fin_md.md)] validates that the VAT report is valid and ready for submission. If the validation fails, the errors are shown in the **VAT Report Error Log** window so that you can make the appropriate changes.  
+    [!INCLUDE [d365fin](../../includes/d365fin_md.md)] validates that the VAT report is valid and ready for submission. If the validation fails, the errors are shown in the **VAT Report Error Log** window so that you can make the appropriate changes.  
 
     After you release a VAT report, you cannot edit it. If you have to change the report after it is released, you have to first reopen it. Choose the **Reopen** action.  
 

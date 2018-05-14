@@ -1,11 +1,9 @@
 ---
     title: How to Create Payment Slips
     description: You can create payments slips to manage vendor and customer payments. Before you create payment slips, you must set up payment classes.
-
     services: project-madeira 
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -22,7 +20,6 @@ You can create payments slips to manage vendor and customer payments. Before you
 The following procedure describes how to create payment slips for vendor payments, but the same steps also apply to creating payment slips for customer payments.  
 
 ## To create a payment slip for vendors  
-
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Slips**, and then choose the relevant link.  
 2.  Choose the **New** action.  
 3.  In the **Payment Slip** window, choose a field to open the **Payment Class List** window.  

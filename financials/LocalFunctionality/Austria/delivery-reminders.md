@@ -38,7 +38,7 @@ You can create delivery reminders manually or automatically. You can use the **C
 
 You can also track documents in relation to purchase order lines and sales order lines.  
 
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] provides the following reports:  
+[!INCLUDE [d365fin](../../includes/d365fin_md.md)] provides the following reports:  
 
 - **Issued Delivery Reminder** - To view the delivery reminders for vendors.  
 - **Delivery Reminder - Test** - To verify the delivery reminders before you issue them.  

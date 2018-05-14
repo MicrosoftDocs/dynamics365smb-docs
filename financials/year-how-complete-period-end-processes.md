@@ -16,7 +16,7 @@ ms.author: jswymer
 
 ---
 # Overview of Tasks to Close Accounting Periods
-[!INCLUDE[d365fin](includes/d365fin_md.md)] does not force you to close periods, however, there are many period-end (month-end) activities that you can do. This topic provides an overview of optional processes and activities for closing periods.  
+[!INCLUDE [d365fin](includes/d365fin_md.md)] does not force you to close periods, however, there are many period-end (month-end) activities that you can do. This topic provides an overview of optional processes and activities for closing periods.  
 
 ## General Ledger
 * Specify system-wide and user-specific posting periods.  

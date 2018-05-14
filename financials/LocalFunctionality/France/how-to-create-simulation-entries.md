@@ -1,11 +1,9 @@
 ---
     title: How to Create Simulation Entries
     description: When you have set up simulation of general ledger entries, you can create simulation entries.
-
     services: project-madeira 
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -20,7 +18,6 @@
 When you have set up simulation of general ledger entries, you can create simulation entries.  
 
 ## To create simulation entries  
-
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journal**, and then choose the relevant link.  
 2.  Select the general journal template which has been set up for the Simulation functionality.  
 3.  Select a general journal batch in the **Batch Name** field.  

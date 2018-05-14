@@ -17,7 +17,7 @@
 
 ---
 # Set Up Standard Sales or Purchase Lines
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can specify how the standard sales or purchase codes will be entered when you are creating the specified sales or purchase documents.  
+In [!INCLUDE [d365fin](../../includes/d365fin_md.md)], you can specify how the standard sales or purchase codes will be entered when you are creating the specified sales or purchase documents.  
 
 The following procedure describes how to set up a standard sales line, but the same steps apply to setting up standard purchase lines in the **Purchases & Payables Setup** window.  
 

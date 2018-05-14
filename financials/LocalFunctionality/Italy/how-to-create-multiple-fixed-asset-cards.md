@@ -1,11 +1,9 @@
 ---
     title: How to Create Multiple Fixed Asset Cards
     description: You can create multiple fixed asset cards automatically during purchase invoice posting.
-
     services: project-madeira 
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -20,7 +18,6 @@
 You can create multiple fixed asset cards automatically during purchase invoice posting. For example, if your company purchases 200 computers of the same kind from the same vendor, you do not have to manually create a fixed asset card for each computer; the fixed asset cards can be created automatically.  
 
 ## To create multiple fixed asset cards  
-
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Fixed Assets**, and then choose the related link.  
 2.  Choose the **Lists** action, and then choose the **Fixed Assets** action.  
 3.  In the **Fixed Asset List** window, choose the **New** action.  

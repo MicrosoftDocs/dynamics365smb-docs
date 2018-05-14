@@ -22,7 +22,7 @@ A common problem in many financial systems is to locate the origin of errors and
 
 You activate and deactivate the change log in the **Change Log Setup** window. When you activate or deactivate the change log, this activity is logged, so you can always see which user deactivated or reactivated the change log. This cannot be turned off.  
 
-In the **Change Log Setup** window, if you choose the **Tables** action, you can specify which tables you want to track changes for, and which changes to track. [!INCLUDE[d365fin](includes/d365fin_md.md)] also tracks a number of system tables.
+In the **Change Log Setup** window, if you choose the **Tables** action, you can specify which tables you want to track changes for, and which changes to track. [!INCLUDE [d365fin](includes/d365fin_md.md)] also tracks a number of system tables.
 
 After you have set up the change log, activated it, and made a change to data, you can view and filter the changes in the **Change Log Entries** window. If you want to delete entries, you can do that in the **Delete Change Log Entries** window, where you can set filters based on dates and time.  
 

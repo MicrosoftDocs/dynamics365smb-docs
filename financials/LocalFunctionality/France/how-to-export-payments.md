@@ -1,11 +1,9 @@
 ---
     title: How to Export Payments
     description: The Payment Management module allows you to export your payments electronically via a text file or XMLport.
-
     services: project-madeira 
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -20,7 +18,6 @@
 The Payment Management module allows you to export your payments electronically via a text file or XMLport.  
 
 ## To export payments  
-
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Slip Setup**, and then choose the relevant link.  
 2.  In the **Payment Class** window, select a payment class, and then choose the **Steps** action.  
 3.  In the **Payment Step** window, fill in the **Name** field.  

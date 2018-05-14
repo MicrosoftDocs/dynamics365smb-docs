@@ -1,10 +1,9 @@
 ---
-title: Personalizing Pages in Financials | Microsoft Docs
+title: Personalizing Pages in Business Central | Microsoft Docs
 description: Learn how to customize the user interface to suit your way of working.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
-
 ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
@@ -29,23 +28,22 @@ Depending on the type of page and what it includes, you can:
 -   Move and remove parts. Parts are subdivisions or areas on a page that contain things like multiple fields, another page, a chart, or tiles.  
 
 ## To personalize a page
-
 1. In the upper-right corner, select the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, and then **Personalize**.
 
     The **Personalizing** banner appears at the top to indicate that you can start making changes.
 
     ![Personalize mode](media/ui_personalize_mode_small.png "Personalize mode")
 
-2.  Go to a page that you want to personalize.
+2. Go to a page that you want to personalize.
 
-    If you see a lock icon in the banner, see [Why the page is locked](ui-personalization-locked.md) for more details.
+   If you see a lock icon in the banner, see [Why the page is locked](ui-personalization-locked.md) for more details.
 
-3.  Point to an area that you want to personalize, such as a field or column header in a list. Anything that you can personalize is immediately highlighted with an arrow or border.
-<!--
-    -  If a component can be personalized, an arrow head (![Personalization indicator arrow left](media/ui_personalize_arrow_left.png "Personalization indicator arrow left") or ![Personalization indicator arrow down](media/ui_personalize_arrow_down.png "Personalization indicator arrow down")) appears.
-    -   If the component is a part, the extent of the part is indicated by a border.
-    -   The freeze pane in a list is indicated by a vertical line along the entire right-side of the last column of the freeze pane.
-    -->
+3. Point to an area that you want to personalize, such as a field or column header in a list. Anything that you can personalize is immediately highlighted with an arrow or border.
+   <!--
+   -  If a component can be personalized, an arrow head (![Personalization indicator arrow left](media/ui_personalize_arrow_left.png "Personalization indicator arrow left") or ![Personalization indicator arrow down](media/ui_personalize_arrow_down.png "Personalization indicator arrow down")) appears.
+   -   If the component is a part, the extent of the part is indicated by a border.
+   -   The freeze pane in a list is indicated by a vertical line along the entire right-side of the last column of the freeze pane.
+   -->
 
 4.  Use this table to help make changes:
         <table>
@@ -57,10 +55,10 @@ Depending on the type of page and what it includes, you can:
         <tr><td>Change the width of a column</td><td>In the table header row, drag the column's right border. <br /><br />To maximize the column width to fit the longest line of text in the column, double-click the right border.</td></tr>
       </table>
 
-    > [!IMPORTANT]  
-    >   You cannot make changes to a list if the list is shown as tiles. You must first switch the page to the list view by selecting the ![Show as list](media/ui_show_as_list_icon.png "Show as list arrow left") icon.
+   > [!IMPORTANT]  
+   >   You cannot make changes to a list if the list is shown as tiles. You must first switch the page to the list view by selecting the ![Show as list](media/ui_show_as_list_icon.png "Show as list arrow left") icon.
 
-5.  You can continue to make changes on the same page or move to another page. Your changes are automatically saved as you make them. When you are done, in the **Personalizing** banner, choose **Done**.
+5. You can continue to make changes on the same page or move to another page. Your changes are automatically saved as you make them. When you are done, in the **Personalizing** banner, choose **Done**.
 
 ## Clear personalization to change a page back to its original layout
 At some point, you might want to undo all the personalization changes that you have made to a page over time so that page looks like it did originally. To do this, in the **Personalizing** banner, choose **More**, and then **Clear personalization**.
@@ -76,4 +74,4 @@ To help you better understand personalization, here are some pointers.
 [Managing Personalization](ui-personalization-manage.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Changing Basic Settings](ui-change-basic-settings.md)  
-[Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)  
+[Changing Which Features are Displayed](ui-experiences.md)  

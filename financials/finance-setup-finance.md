@@ -16,7 +16,7 @@ ms.author: edupont
 
 ---
 # Setting Up Finance
-To help you get going quickly, [!INCLUDE[d365fin](includes/d365fin_md.md)] includes standard configurations for most financial processes. If you need to change the configurations to suit your business, go right ahead. For example, from the Role Center, you can use an assisted setup guide to set up sales tax rate for your location.  
+To help you get going quickly, [!INCLUDE [d365fin](includes/d365fin_md.md)] includes standard configurations for most financial processes. If you need to change the configurations to suit your business, go right ahead. For example, from the Role Center, you can use an assisted setup guide to set up sales tax rate for your location.  
 
 However, there are some things you need to set up yourself. For example, if you want to use dimensions as a basis for business intelligence.  
 
@@ -43,5 +43,5 @@ The following table describes a sequence of tasks, with links to the topics that
 [Analyzing Cash Flow in Your Company](finance-analyze-cash-flow.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+## [!INCLUDE [d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE [d365fin](includes/training_link_md.md)]

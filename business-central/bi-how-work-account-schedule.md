@@ -1,9 +1,7 @@
 ---
-title: Work with Account Schedules| Microsoft Docs
-description: Describes how to use account schedules to create various views and report for analyzing financials performance data.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+title: Build financial reports using account schedules
+description: Describes how to use account schedules to create various views and report for analyzing financial performance data.
+author: edupont04
 
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,8 +9,8 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 01/25/2018
-ms.author: sgroespe
+ms.date: 04/16/2018
+ms.author: edupont
 
 ---
 # Work with Account Schedules
@@ -68,7 +66,98 @@ You can use an account schedule to create a statement comparing general ledger f
 8. On the **Dimension Filters** FastTab, set the budget filter to the desired filter name.  
 9. Choose the **OK** button.  
 
-Now you can copy and paste your budget statement into a spreadsheet.
+Now you can copy and paste your budget statement into a spreadsheet.  
+
+## Comparing Accounting Periods using Period Formulas
+Your account schedule can compare the results of different accounting periods, such as this month versus same month last year. To do that, you add a column with the **Comparison Period Formula** field, and then set that field to a period formula.  
+
+An accounting period does not have to match the calendar, but each fiscal year must have the same number of accounting periods, even though each period can be different in length.   
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] uses the period formula to calculate the amount from the comparison period in relation to the period represented by the date filter on the report request. The comparison period is based on the period of the start date of the date filter. The abbreviations for period specifications are:
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Abbreviation</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>P</p></td>
+<td><p>Period</p></td>
+</tr>
+<tr class="even">
+<td><p>LP</p></td>
+<td><p>Last period of a fiscal year, half-year or quarter.</p></td>
+</tr>
+<tr class="odd">
+<td><p>CP</p></td>
+<td><p>Current period of a fiscal year, half-year or quarter.</p></td>
+</tr>
+<tr class="even">
+<td><p>FY</p></td>
+<td><p>Fiscal year. For example, FY[1..3] denotes first quarter of the current fiscal year</p></td>
+</tr>
+</tbody>
+</table>
+
+Examples of formulas:
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Formula</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>&lt;Blank&gt;</p></td>
+<td><p>Current period</p></td>
+</tr>
+<tr class="even">
+<td><p>-1P</p></td>
+<td><p>Previous period</p></td>
+</tr>
+<tr class="odd">
+<td><p>-1FY[1..LP]</p></td>
+<td><p>Entire previous fiscal year</p></td>
+</tr>
+<tr class="even">
+<td><p>-1FY</p></td>
+<td><p>Current period in previous fiscal year</p></td>
+</tr>
+<tr class="odd">
+<td><p>-1FY[1..3]</p></td>
+<td><p>First quarter of previous fiscal year</p></td>
+</tr>
+<tr class="even">
+<td><p>-1FY[1..CP]</p></td>
+<td><p>From the beginning of previous fiscal year to current period in previous fiscal year, inclusive</p></td>
+</tr>
+<tr class="odd">
+<td><p>-1FY[CP..LP]</p></td>
+<td><p>From current period in previous fiscal year to last period of previous fiscal year, inclusive</p></td>
+</tr>
+</tbody>
+</table>
+
+If you want to calculate by regular time periods, you must enter a formula in the **Comparison Date Formula** field instead.
+
+> [!NOTE]
+> It is not always transparent which periods you are comparing because you can set a date filter on a report that spans different dates than the accounting periods that are reflected in the data in the chart of accounts. For example, you create an account schedule where you want to compare this period with the same period last year, so you set the **Comparison Date Period Filter** field to *-1FY*. Then, you run the report on February 28th and set the date filter to January and February. As a result, the account schedule compares January and February this year to January last year, which is the only completed accounting period of the two for last year.  
+
 
 ## See Also
 [Business Intelligence](bi.md)  

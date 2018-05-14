@@ -1,11 +1,9 @@
 ---
     title: Year End Processes Overview
     description: Year end closing in Business Central involves three steps.
-
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -17,7 +15,7 @@
 
 ---
 # Year End Processes Overview
-Year end closing in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] involves three steps:  
+Year end closing in [!INCLUDE [d365fin](../../includes/d365fin_md.md)] involves three steps:  
 
 1.  Closing the fiscal year. For more information, see [Fiscally Close Accounting Periods](how-to-fiscally-close-accounting-periods.md).  
 2.  Generating a year-end closing entry using the **Close Income Statement** option along with the offsetting equity account entries. For more information, see [Posting the year-end closing entry](how-to-post-the-year-end-closing-entry.md).  

@@ -4,7 +4,6 @@
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -16,13 +15,12 @@
 
 ---
 # Create Delivery Reminders Manually
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create delivery reminders when a purchase has not been delivered as expected. You can create a single delivery reminder manually, or you can generate delivery reminders for all overdue deliveries. For more information, see [Generate Delivery Reminders](how-to-generate-delivery-reminders.md).
+In [!INCLUDE [d365fin](../../includes/d365fin_md.md)], you can create delivery reminders when a purchase has not been delivered as expected. You can create a single delivery reminder manually, or you can generate delivery reminders for all overdue deliveries. For more information, see [Generate Delivery Reminders](how-to-generate-delivery-reminders.md).
 
 > [!NOTE]
 > To create delivery reminders, you must set up the delivery reminder properties. For more information, see [Set Up Delivery Reminders](how-to-set-up-delivery-reminders.md).
 
 ## To create a delivery reminder manually  
-
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Delivery Reminder**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  In the **Delivery Reminder** window, on the **General** FastTab, fill in the fields as described in the following table.  

@@ -23,17 +23,17 @@ When the collection is complete, the current collection number is assigned in th
 
 ## To close an LSV collection  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **LSV Journal List**, and then choose the related link.  
-2.  Select the required journal line, and then choose the **Modify Posting Date** action. This will modify the value in the **Credit Date** field by using the value suggested during the LSV collection.  
-3.  In the **New Date** field, enter the new date.  
-4.  Choose the **Close Collection* action*.  
+1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **LSV Journal List**, and then choose the related link.  
+2. Select the required journal line, and then choose the **Modify Posting Date** action. This will modify the value in the **Credit Date** field by using the value suggested during the LSV collection.  
+3. In the **New Date** field, enter the new date.  
+4. Choose the **Close Collection* action*.  
 
-    > [!NOTE]  
-    >  The fields on the **Options** FastTab for the **LSV Close Collection** batch job cannot be modified, and correspond to the selected journal line.  
+   > [!NOTE]  
+   >  The fields on the **Options** FastTab for the **LSV Close Collection** batch job cannot be modified, and correspond to the selected journal line.  
 
-5.  Choose the **OK** button.  
+5. Choose the **OK** button.  
 
-    In the **LSV Journal List** window, the value in the **LSV Status** field is changed from **Edit** to **Released**. The journal lines can no longer be modified.  
+   In the **LSV Journal List** window, the value in the **LSV Status** field is changed from **Edit** to **Released**. The journal lines can no longer be modified.  
 
 ## To reopen an LSV collection  
 

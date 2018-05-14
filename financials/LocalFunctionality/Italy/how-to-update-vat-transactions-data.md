@@ -1,11 +1,9 @@
 ---
     title: How to Update VAT Transactions Data
     description: Before you create the first VAT transaction report, you should prepare the existing data by running the **Update VAT Transaction Data** report.
-
     services: project-madeira 
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -25,7 +23,6 @@ You can run the **Update VAT Transaction Data** report as a test before you chan
 >  Before you run the **Update VAT Transaction Data** report, you should activate the change log in the **Change Log Setup** window. Also, you should enable logging for modifications to the **Include in VAT Transac. Report** field on the **VAT Entry** table.  
 
 ## To update VAT transaction data  
-
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Update VAT Transaction Data**, and then choose the related link.  
 2.  Optionally, on the **VAT Entry** FastTab, set the appropriate filters.  
 3.  On the **Options** FastTab, fill in the fields as described in the following table.  

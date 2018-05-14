@@ -18,7 +18,7 @@ ms.author: bholtorf
 
 ---
 # Managing Payables
-[!INCLUDE[d365fin](includes/d365fin_md.md)] has what you need to effectively manage accounts payable.  
+[!INCLUDE [d365fin](includes/d365fin_md.md)] has what you need to effectively manage accounts payable.  
 
 ## Payments
 It's easy to prioritize payments, account for penalties for overdue payments, and handle discounts for early payments.
@@ -28,10 +28,10 @@ You can record payments in a general journal, and then print checks before posti
 You can apply payments to close invoices when you post the payment, or after you post the payment. The **Application Method** specified for the vendor (on the **Vendor Card**) determines whether you apply the payment manually, or automatically. You can always apply transactions manually. However, if the application method for the vendor is **Apply to Oldest**, and you do not specify a document to apply the payment to, the payment is applied to the oldest open entry for the vendor.
 
 ## Suggest Vendor Payments
-[!INCLUDE[d365fin](includes/d365fin_md.md)] can suggest various payments to vendors, such as payments that will be due soon, or payments where a discount is available. The payment suggestion can consider an amount that you specify as available funds for payment, and eligibility for payment discounts.
+[!INCLUDE [d365fin](includes/d365fin_md.md)] can suggest various payments to vendors, such as payments that will be due soon, or payments where a discount is available. The payment suggestion can consider an amount that you specify as available funds for payment, and eligibility for payment discounts.
 
 ## Issue Checks
-[!INCLUDE[d365fin](includes/d365fin_md.md)] lets you issue checks to vendors manually and electronically. You do both in the **Payment Journals** window, where you can also void checks and view check ledger entries.
+[!INCLUDE [d365fin](includes/d365fin_md.md)] lets you issue checks to vendors manually and electronically. You do both in the **Payment Journals** window, where you can also void checks and view check ledger entries.
 
 ## Export Payments to a Bank File
 When you are ready to pay a vendor, from the **Payment Journal** window you can export a file with the payment information from the journal lines. You can then upload the file to your electronic bank to process the money transfers.

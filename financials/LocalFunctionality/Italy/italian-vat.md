@@ -1,11 +1,9 @@
 ---
     title: Italian VAT
     description: Companies must pay VAT to the state for most purchased goods and services. VAT can be deducted if the goods or services purchased by a company are used in the production of its income.
-
     services: project-madeira 
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -19,7 +17,7 @@
 # Italian VAT
 Companies must pay VAT to the state for most purchased goods and services. VAT can be deducted if the goods or services purchased by a company are used in the production of its income.  
 
- In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can define periodic VAT reports in the **VAT Report** window. You can fill in the lines based on VAT entries, and then export the VAT report to the appropriate authorities.  
+ In [!INCLUDE [d365fin](../../includes/d365fin_md.md)], you can define periodic VAT reports in the **VAT Report** window. You can fill in the lines based on VAT entries, and then export the VAT report to the appropriate authorities.  
 
 ## VAT Codes and Rates  
  VAT codes and rates must be set up even though some transactions are not subject to VAT rates. There are also many VAT-liable operations that are subject to a zero VAT rate by provision of the law.  
@@ -57,7 +55,7 @@ Companies must pay VAT to the state for most purchased goods and services. VAT c
 |FN - Customers invoices, when customer is non-resident|Yes|  
 |SE - Vendor invoices, when vendor is non-resident|Yes **Note:**  The purchase of services is assumed, but differentiation between service and goods is left for the user to implement.|  
 
- [!INCLUDE[d365fin](../../includes/d365fin_md.md)] does not report the following types of transactions:  
+ [!INCLUDE [d365fin](../../includes/d365fin_md.md)] does not report the following types of transactions:  
 
 - Prepayment invoices, because the total amount will be reported at the time of the final invoice.  
 
@@ -74,11 +72,11 @@ Document lines contain a field to indicate if the line must be included in the V
 
 When you post credit memos, you must update the **Refers to Period** field to specify the relevant period. The VAT transaction reports will include credit memos where the **Refers to Period** field is set to **Current Calendar Year** or **Previous Calendar Year**.  
 
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] adds credit memos to the VAT reports in different ways depending on the application status and the value of the **Refers to Period** field. The following table describes the scenarios.  
+[!INCLUDE [d365fin](../../includes/d365fin_md.md)] adds credit memos to the VAT reports in different ways depending on the application status and the value of the **Refers to Period** field. The following table describes the scenarios.  
 
 |Scenario|Impact|  
 |--------------|------------|  
-|A credit memo is applied to a single invoice.<br /><br /> The **Refers to Period** field is set to **Current Calendar Year**.|The **Invoice No.** field will be set to the document number of the invoice.<br /><br /> The **Invoice Date** field will be set to the date that is specified in the **Operation Occurred Date** field<br /><br /> [!INCLUDE[d365fin](../../includes/d365fin_md.md)] will deduct the credit memo amount from the amount of the original invoice. If the resulting amount is above the threshold, both the invoice and credit memo will be included in the VAT transactions report. If the resulting amount is below the threshold, neither invoice or credit memo will be included in the VAT transactions report.|  
+|A credit memo is applied to a single invoice.<br /><br /> The **Refers to Period** field is set to **Current Calendar Year**.|The **Invoice No.** field will be set to the document number of the invoice.<br /><br /> The **Invoice Date** field will be set to the date that is specified in the **Operation Occurred Date** field<br /><br /> [!INCLUDE [d365fin](../../includes/d365fin_md.md)] will deduct the credit memo amount from the amount of the original invoice. If the resulting amount is above the threshold, both the invoice and credit memo will be included in the VAT transactions report. If the resulting amount is below the threshold, neither invoice or credit memo will be included in the VAT transactions report.|  
 |A credit memo is applied to multiple invoices, or it is not applied.<br /><br /> The **Refers to Period** field is set to **Current Calendar Year**.|The **Invoice Date** field will be set to the last day of the year that is specified in the **Operation Occurred Date** field. For example, if the **Operation Occurred Date** field is **07-11-11**, the **Invoice Date** field will be set to **31-12-11**.<br /><br /> Only the credit memo will be included in the VAT transactions report.|  
 |A credit memo is applied to multiple invoices, or it is not applied.<br /><br /> The **Refers to Period** field is set to **Previous Calendar Year**.|The **Invoice Date** field will be set to the last day of the year before the date that is specified in the **Operation Occurred Date** field. For example, if the **Operation Occurred Date** field is **07-11-11**, the **Invoice Date** field will be set to **31-12-10**.<br /><br /> Only the credit memo will be included in the VAT transactions report.|  
 
@@ -86,7 +84,7 @@ When you post credit memos, you must update the **Refers to Period** field to sp
 
  Transactions with reverse charges are not included in the VAT transaction reports. Transactions with prepayments are also not included in the VAT transaction reports.  
 
- To prepare your data for these reports, you must set up VAT posting to include VAT transaction report amounts. When a transaction such as posting a sales invoice is made that uses this VAT posting setup, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] checks if the transaction meets the threshold amounts. The check is based on document lines because a document can contain lines that must be included in the VAT transaction report and lines that must be excluded. The VAT transaction reports must only contain the lines that must be submitted, so [!INCLUDE[d365fin](../../includes/d365fin_md.md)] compares amounts against the threshold for each line instead of for a document.  
+ To prepare your data for these reports, you must set up VAT posting to include VAT transaction report amounts. When a transaction such as posting a sales invoice is made that uses this VAT posting setup, [!INCLUDE [d365fin](../../includes/d365fin_md.md)] checks if the transaction meets the threshold amounts. The check is based on document lines because a document can contain lines that must be included in the VAT transaction report and lines that must be excluded. The VAT transaction reports must only contain the lines that must be submitted, so [!INCLUDE [d365fin](../../includes/d365fin_md.md)] compares amounts against the threshold for each line instead of for a document.  
 
  You must submit a VAT transactions report electronically to the tax authorities. For more information, see [Create Electronic VAT Transactions Reports](how-to-create-electronic-vat-transactions-reports.md).  
 

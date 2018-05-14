@@ -1,11 +1,9 @@
 ---
     title: France Local Functionality
     description: The following topics describe the local functionality in the French version of Business Central.
-
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -17,7 +15,7 @@
 
 ---
 # France Local Functionality
-The following topics describe local functionality that is unique to the French version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+The following topics describe local functionality that is unique to the French version of [!INCLUDE [d365fin](../../includes/d365fin_md.md)].  
 
 ## In This Section  
   [General Ledger](general-ledger.md)  
@@ -27,7 +25,7 @@ The following topics describe local functionality that is unique to the French v
   [Simulation of Entries](simulation-of-entries.md)  
 
 ## See Also
-[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)     
+[Working with [!INCLUDE [d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)     
 
-## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](../../includes/training_link_md.md)]
+## [!INCLUDE [d365fin](../../includes/free_trial_md.md)]  
+## [!INCLUDE [d365fin](../../includes/training_link_md.md)]

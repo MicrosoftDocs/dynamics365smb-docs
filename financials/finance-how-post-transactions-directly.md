@@ -16,7 +16,7 @@ ms.author: sgroespe
 
 ---
 # Post Transactions Directly to the General Ledger
-Most financial transactions are posted to the general ledger through dedicated business documents, such as purchase invoices and sales orders. For business activities that are not represented by a document in [!INCLUDE[d365fin](includes/d365fin_md.md)], such as smaller expenses or cash receipts, you can create the related transactions by posting journal lines in the **General Journal** window.
+Most financial transactions are posted to the general ledger through dedicated business documents, such as purchase invoices and sales orders. For business activities that are not represented by a document in [!INCLUDE [d365fin](includes/d365fin_md.md)], such as smaller expenses or cash receipts, you can create the related transactions by posting journal lines in the **General Journal** window.
 
 A typical use of the general journal is to post employees' expenditure of own money during business activities, for later reimbursement. For more information, see [Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md).
 
@@ -27,7 +27,7 @@ Unlike for entries that are posted with documents, which require a credit memo p
 ## To post a transaction directly to a general ledger account
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journals**, and then choose the related link.
 2. Open the relevant general journal batch. For more information, see [Working with General Journals](ui-work-general-journals.md).
-3. On a new journal line, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]    
+3. On a new journal line, fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]    
 4. Repeat step 3 for all the separate transactions that you want to post.
 
     > [!TIP]  

@@ -31,14 +31,21 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "searchScope": ["Financials"],
+      "searchScope": [
+        "Financials"
+      ],
       "uhfHeaderId": "MSDocsHeader-Dynamics365",
+<<<<<<< HEAD
       "titleSuffix": "Business Central",
+=======
+      "titleSuffix": "Finance and Operations, Business",
+>>>>>>> refs/remotes/origin/master
       "breadcrumb_path": "/dynamics365/financials/breadcrumb/toc.json",
       "ms.service": "dynamics365-financials"
-      },
+    },
     "fileMetadata": {},
     "template": [],
-    "dest": "financialssmb"
+    "dest": "financialssmb",
+    "markdownEngineName": "markdig"
   }
 }

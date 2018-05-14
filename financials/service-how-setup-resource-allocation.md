@@ -17,7 +17,7 @@
 ---
 
 # Set Up Resource Allocation
-To ensure that a service task is performed well, it's important to find a resource who is qualified to do the work. You can set up [!INCLUDE[d365fin](includes/d365fin_md.md)] so that it's easy to allocate someone who has the right skills for the job. In [!INCLUDE[d365fin](includes/d365fin_md.md)], we call this _resource allocation_. You can allocate resources based on their skill, availability, or whether they are in the same service zone as the customer. 
+To ensure that a service task is performed well, it's important to find a resource who is qualified to do the work. You can set up [!INCLUDE [d365fin](includes/d365fin_md.md)] so that it's easy to allocate someone who has the right skills for the job. In [!INCLUDE [d365fin](includes/d365fin_md.md)], we call this *resource allocation*. You can allocate resources based on their skill, availability, or whether they are in the same service zone as the customer. 
 
 To use resource allocation, you must set up:  
   
@@ -27,7 +27,7 @@ To use resource allocation, you must set up:
 
 ## To set up skills
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Skills**, and then choose the related link.  
-2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## To assign skills to service items and resources
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Items** or **Resources**, and then choose the related link.  
@@ -38,7 +38,7 @@ To use resource allocation, you must set up:
 
 ## To set up zones
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Zones**, and then choose the related link.  
-2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## To assign zones to customers and resources 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers** or **Resources**, and then choose the related link.  

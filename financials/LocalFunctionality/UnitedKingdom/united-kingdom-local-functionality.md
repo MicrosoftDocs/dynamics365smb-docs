@@ -14,7 +14,7 @@ ms.author: edupont
 
 ---
 # United Kingdom Local Functionality
-The following topics describe local functionality that is unique to the United Kingdom version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+The following topics describe local functionality that is unique to the United Kingdom version of [!INCLUDE [d365fin](../../includes/d365fin_md.md)].  
 
 ## In This Section  
 [Enter Statutory Information](how-to-enter-statutory-information.md)  
@@ -35,5 +35,5 @@ The following topics describe local functionality that is unique to the United K
 ## See Also
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
 
-## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](../../includes/training_link_md.md)]
+## [!INCLUDE [d365fin](../../includes/free_trial_md.md)]  
+## [!INCLUDE [d365fin](../../includes/training_link_md.md)]

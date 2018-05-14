@@ -30,18 +30,18 @@ Make sure that you are on the RapidStart Services Implementer Role Center. For m
 ## To create a configuration package  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Packages**, and then choose the related link.  
 2. Choose the **New** action.  
-3. On the **General** FastTab, fill in the fields as appropriate. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. On the **General** FastTab, fill in the fields as appropriate. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. To exclude the configuration questionnaires, configuration templates, and configuration worksheet tables from the package, select the **Exclude Configuration Tables** check box. Otherwise, these tables will be added to the list of package tables automatically when you export the package.  
 5. Choose the **Get Tables** action. The **Get Package Tables** batch job window opens.  
 6. Choose the **Select Tables** field. The **Config. Selection** window opens.  
 7. Choose the **Select All** action to add all tables to the package, or select the **Selected** check box for each table in the list that you want to add.
-8. Choose the **OK** button. The count of tables that you have selected is indicated in the **Select Tables** field. Specify additional options, and then choose the **OK** button. [!INCLUDE[d365fin](includes/d365fin_md.md)] tables are added to the lines of the **Config. Package** window.  
+8. Choose the **OK** button. The count of tables that you have selected is indicated in the **Select Tables** field. Specify additional options, and then choose the **OK** button. [!INCLUDE [d365fin](includes/d365fin_md.md)] tables are added to the lines of the **Config. Package** window.  
 
     > [!NOTE]  
     >  You can also do this in the configuration worksheet. Select the tables you want to include in the package, and then choose the **Assign Package** action.
 
 9. To select the fields that you want to include from a table, select the table, and then, on the **Lines** tab, choose the **Fields** action.
-Specify which fields are included in the package. By default, all fields are included.
+   Specify which fields are included in the package. By default, all fields are included.
 
     - To select just the fields you want to include, choose the **Clear Included** action. To add all fields, choose the **Set Included** action.  
     - To specify that the field data should not be validated, clear the **Validate Field** check box for the field.  
@@ -114,8 +114,8 @@ As you create a configuration package for a solution, you can view and customize
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Worksheet**, and then choose the related link.
 2. In the configuration worksheet, identify the tables whose data that you want to view or customize.  
 
-    > [!NOTE]  
-    >  Make sure that each table has a page ID assigned to it. For standard [!INCLUDE[d365fin](includes/d365fin_md.md)] tables, this value is automatically filled in. For custom tables, you must provide the ID.
+   > [!NOTE]
+   >  Make sure that each table has a page ID assigned to it. For standard [!INCLUDE [d365fin](includes/d365fin_md.md)] tables, this value is automatically filled in. For custom tables, you must provide the ID.
 
 3. Choose the **Database Data** action. The window for the related page opens.
 4. Review the available information. Modify it as necessary by deleting records that are not relevant or by adding new ones.    

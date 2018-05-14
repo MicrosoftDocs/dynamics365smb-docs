@@ -17,7 +17,7 @@ ms.author: edupont
 A central role, such as the application administrator, must regularly deal with accumulating historic documents by deleting or compressing them.  
 
 ## Delete Documents
-In certain situations, you may need to delete invoiced purchase orders that have not been deleted. [!INCLUDE[d365fin](includes/d365fin_md.md)] checks that you have fully invoiced the deleted purchase orders. You cannot delete orders that you have not fully invoiced and received.  
+In certain situations, you may need to delete invoiced purchase orders that have not been deleted. [!INCLUDE [d365fin](includes/d365fin_md.md)] checks that you have fully invoiced the deleted purchase orders. You cannot delete orders that you have not fully invoiced and received.  
 
 Return orders are usually deleted after they are invoiced. When you post an invoice, it is transferred to the **Posted Purchase Credit Memo** window. If you selected the **Return Shipment on Credit Memo** check box in the **Purchases & Payable Setup** window, then the invoice is transferred to the **Posted Return Shipment** window. You can delete the documents using the **Delete Invd Purch. Ret. Orders** batch job. Before deleting, the batch job checks if the purchase return orders are fully shipped and invoiced.  
 

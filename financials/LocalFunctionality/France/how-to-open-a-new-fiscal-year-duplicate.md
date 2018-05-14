@@ -1,11 +1,9 @@
 ---
     title: How to Open a New Fiscal Year
     description: Before you can post in a fiscal year, you must open the fiscal year and define its accounting periods.
-
     services: project-madeira 
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -20,7 +18,6 @@
 Before you can post in a fiscal year, you must open the fiscal year and define its accounting periods.  
 
 ## To open a new fiscal year  
-
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Accounting Periods**, and then choose the relevant link.  
 2.  Choose the **Create Year** action.  
 3.  On the **Options** FastTab, define the structure of the fiscal year. The fiscal year is usually 12 periods of one month each, but you can also divide it in other ways.  

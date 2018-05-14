@@ -36,12 +36,12 @@ You can also view our "how to" videos, plus a lot of other content, on the YouTu
 ## Content that is Coming Soon
 Just to mention a few examples, the videos we are updating will show how to:  
 
-* Migrate business data from another finance app into [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+* Migrate business data from another finance app into [!INCLUDE [d365fin](includes/d365fin_md.md)]  
 * Set up dimensions so you can track and analyze various documents and entities
-* Connect [!INCLUDE[d365fin](includes/d365fin_md.md)] with Microsoft Dynamics 365 for Sales
+* Connect [!INCLUDE [d365fin](includes/d365fin_md.md)] with Microsoft Dynamics 365 for Sales
 * Set up approval workflows  
-* Use Power BI with [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-* Set up email and send documents directly from [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+* Use Power BI with [!INCLUDE [d365fin](includes/d365fin_md.md)]  
+* Set up email and send documents directly from [!INCLUDE [d365fin](includes/d365fin_md.md)]  
 
 ## See Also
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)

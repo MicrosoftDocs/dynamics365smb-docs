@@ -26,7 +26,7 @@ When a customer wants to know the price of a job that will be invoiced based on 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.  
 2. Open a relevant job.
 3. Select a task line of type Posting, and then choose the **Job Planning Lines** action.
-4. On a new line, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]   
+4. On a new line, fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]   
 
 For the **Line Type** field, refer to the following information.  
 

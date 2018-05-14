@@ -33,12 +33,12 @@ Clearing page personalization changes the page back to its original layout befor
 
 The **Delete User Personalization** page enables you to clear personalizations on a per-page basis for each user individually.
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Delete User Personalization**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Delete User Personalization**, and then choose the related link.
 
-    The page lists all the pages that have been personalized and the user it belongs to.
+   The page lists all the pages that have been personalized and the user it belongs to.
 
-    >[!NOTE]
-    > A check mark in the **Legacy Personalization** columns indicates that the personalization was done in an older version of [!INCLUDE[d365fin](includes/d365fin_md.md)], which handled personalization different than it does now. Users who try to personalize these pages are locked from doing so unless they choose to unlock the page. For more information, see [Why a page is locked from personalizing](ui-personalization-locked.md).
+   > [!NOTE]
+   > A check mark in the **Legacy Personalization** columns indicates that the personalization was done in an older version of [!INCLUDE [d365fin](includes/d365fin_md.md)], which handled personalization different than it does now. Users who try to personalize these pages are locked from doing so unless they choose to unlock the page. For more information, see [Why a page is locked from personalizing](ui-personalization-locked.md).
 
 2. Select the entry that you want to delete, and then choose the **Delete** action.
 
@@ -62,4 +62,4 @@ The **User Personalization Card** page enables you to clear the personalization 
 [Personalizing Your Workspace](ui-personalization-user.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Changing Basic Settings](ui-change-basic-settings.md)  
-[Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)  
+[Changing Which Features are Displayed](ui-experiences.md)  

@@ -15,7 +15,7 @@ ms.author: sgroespe
 
 ---
 # Working with General Journals
-Most financial transactions are posted to the general ledger through dedicated business documents, such as purchase invoices and sales orders. For business activities that are not represented by a document in [!INCLUDE[d365fin](includes/d365fin_md.md)], such as smaller expenses or cash receipts, you can create the related transactions by posting journal lines in the **General Journal** window. For more information, see [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md).
+Most financial transactions are posted to the general ledger through dedicated business documents, such as purchase invoices and sales orders. For business activities that are not represented by a document in [!INCLUDE [d365fin](includes/d365fin_md.md)], such as smaller expenses or cash receipts, you can create the related transactions by posting journal lines in the **General Journal** window. For more information, see [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md).
 
 For example, you can post employees' expenditure of own money on business-related expenses, for later reimbursement. For more information, see [Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md).
 
@@ -28,7 +28,7 @@ There are several general journal templates. Each journal template is represente
 
 For each journal template, you can set up your own personal journal as a journal batch. For example, you can define your own journal batch for the payment journal that has your personal layout and settings. The following tip is an example of how to personalize a journal.
 
-> [!TIP]  
+> [!TIP]
 > If you select the **Suggest Balancing Amount** check box on the line for your batch in the **General Journal Batches** window, then the **Amount** field on, for example, general journal lines for the same document number is automatically prefilled with the value that is required to balance the document. For more information, see [Letting [!INCLUDE[d365fin](includes/d365fin_md.md)] Suggest Values](ui-let-system-suggest-values.md).
 
 ## Understanding Main Accounts and Balancing Accounts
@@ -83,7 +83,7 @@ Just as in a recurring journal, you need to enter an allocation only once. The a
 
 If the recurring method in the recurring journal is set to **Balance** or **Reversing Balance**, then any dimension value codes in the recurring journal are disregarded when the account is set to zero. So if you allocate a recurring line to various dimension values in the **Allocations** window, then only one reversing entry will be created. Therefore, if you allocate a recurring journal line that contains a dimension value code, then you must not enter the same code in the **Allocations** window. If you do, the dimension values will be incorrect.
 
-####Example: Allocating Rent Payments to Different Departments
+#### Example: Allocating Rent Payments to Different Departments
 You pay rent every month, so you have entered the rent amount on the cash account on a recurring journal line. In the **Allocations** window, you can divide the expense among several departments (Department dimension) according to the number of square feet that each one occupies. The calculation is based on the allocation percentage on each line. You can enter various accounts on different allocation lines (if rent will also be divided among several accounts), or you can enter the same account but with various dimension value codes for the Department dimension on each line.
 
 
@@ -123,12 +123,12 @@ When you have finished saving the standard item journal, the Item Journal window
     If you did not check the **Save Unit Amount** field when you used the **Save as Standard Item Journal** function job, then the **Unit Amount** field on lines that are inserted from the standard journal is automatically filled with the item’s current value, copied from the **Unit Cost** field on the item card.
 
     > [!NOTE]  
->   If you selected the **Save Unit Amount** or **Save Quantity** fields, you should now make sure the inserted values are correct for this particular inventory adjustment before you post the item journal.
+   >   If you selected the **Save Unit Amount** or **Save Quantity** fields, you should now make sure the inserted values are correct for this particular inventory adjustment before you post the item journal.
 
     If the inserted item journal lines contain saved unit amounts that you do not want to post, you can quickly adjust it to the current value of the item as follows.
 
-6. Select the item journal lines you want to adjust, and then choose the **Recalculate Unit Amount** action. This will update the Unit Amount field with the current unit cost of the item.
-7. Choose the **post** action.
+5. Select the item journal lines you want to adjust, and then choose the **Recalculate Unit Amount** action. This will update the Unit Amount field with the current unit cost of the item.
+6. Choose the **post** action.
 
 ## To renumber document numbers in journals
 To make sure that you do not receive posting errors because of the document number order, you can use the **Renumber Document Numbers** function before you post a journal.

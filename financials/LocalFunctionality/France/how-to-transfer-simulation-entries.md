@@ -1,11 +1,9 @@
 ---
     title: How to Transfer Simulation Entries
     description: When you have created and posted simulation entries to the general ledger, you can transfer the simulation entries into real accounting entries.
-
     services: project-madeira 
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -23,7 +21,6 @@ When you have created and posted simulation entries to the general ledger, you c
 >  You transfer simulated entries to the general ledger but create new general journal entries that must be posted manually, and delete the original simulation entries.  
 
 ## To transfer simulation entries  
-
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Simulation Registers**, and then choose the related link.  
 2.  Select the simulation register that you want to transfer, and then choose the **Transfer** action.  
 3.  Select the general journal template and general journal batch that you want to transfer the entries to, and then choose the **OK** button.  

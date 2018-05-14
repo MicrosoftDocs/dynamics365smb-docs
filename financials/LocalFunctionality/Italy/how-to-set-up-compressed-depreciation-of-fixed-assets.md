@@ -1,11 +1,9 @@
 ---
     title: How to Set Up Compressed Depreciation of Fixed Assets
     description: You can compress fixed asset depreciation into subclasses and choose to display only the total sum by subclass.
-
     services: project-madeira 
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -22,7 +20,6 @@ You can compress fixed asset depreciation into subclasses and choose to display 
 When you calculate depreciation, one line is generated for each fixed asset. For example, posting depreciations for 100 assets generates 100 lines that are posted to both the general ledger and fixed asset ledger entries.  
 
 ## To set up compressed depreciation of fixed assets  
-
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Books**, and then choose the related link.  
 2.  In the **Depreciation Book List** window, select the relevant depreciation book, and then choose the **Edit** action.  
 3.  To post only the depreciation totals of assets that are grouped by category, in the **Depreciation Book Card** window, on the **General** FastTab, select the **Compress Depreciation** check box.  

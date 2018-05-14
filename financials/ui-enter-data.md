@@ -71,14 +71,14 @@ Even though the field contains a red asterisk, you are not forced to fill the fi
 # Entering Negative Numbers
 You can enter negative numbers in two ways. The number -20.5 can be entered as:  
 
--   -20.5  
+- -20.5  
 
-    or
--   20.5-  
+  or
+- 20.5-  
 
- In both cases, the amount will be recorded in as -20.5.  
+  In both cases, the amount will be recorded in as -20.5.  
 
- If the last character of the expression is a **+** or a **-**, the entire expression will be recorded with that sign. An example, **10-20+** will result in 10 and not -10.  
+  If the last character of the expression is a **+** or a **-**, the entire expression will be recorded with that sign. An example, **10-20+** will result in 10 and not -10.  
 
 ## Entering Dates and Times
 You can enter dates and times in all the fields that are specifically assigned to dates (date fields). You can enter dates with or without separators.
@@ -89,15 +89,15 @@ You can enter dates and times in all the fields that are specifically assigned t
 ### Entering Dates  
  In a date field you can enter two, four, six, or eight digits:  
 
--   If you enter only two digits, this is interpreted as the day, and it will add the month and the year of the work date.  
+- If you enter only two digits, this is interpreted as the day, and it will add the month and the year of the work date.  
 
--   If you enter four digits, this is interpreted as the day and the month, and it will add the year of the work date.  
+- If you enter four digits, this is interpreted as the day and the month, and it will add the year of the work date.  
 
--   If the date you want to enter is in the range 01/01/1930 through 12/31/2029, you can enter the year with two digits; otherwise, enter the year with four digits.  
+- If the date you want to enter is in the range 01/01/1930 through 12/31/2029, you can enter the year with two digits; otherwise, enter the year with four digits.  
 
- You can also enter a date as a weekday followed by a week number and, optionally, a year (for example, Mon25 or mon25 means Monday in week 25).  
+  You can also enter a date as a weekday followed by a week number and, optionally, a year (for example, Mon25 or mon25 means Monday in week 25).  
 
- Instead of entering a specific date, you can enter one of two codes.  
+  Instead of entering a specific date, you can enter one of two codes.  
 
 |Code|Result|  
 |--------------|----------------|  
@@ -198,13 +198,13 @@ You can enter dates and times in all the fields that are specifically assigned t
 
  Here are some examples of how date formulas can be used:  
 
--   The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.  
+- The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.  
 
--   The date formula in the Grace Period field for a specified reminder level determines the period of time that must pass from the due date (or from the date of the previous reminder) before a reminder will be created.  
+- The date formula in the Grace Period field for a specified reminder level determines the period of time that must pass from the due date (or from the date of the previous reminder) before a reminder will be created.  
 
--   The date formula in the Due Date Calculation field determines how to calculate the due date on the reminder.  
+- The date formula in the Due Date Calculation field determines how to calculate the due date on the reminder.  
 
- The date calculation formula can contain a maximum of 20 characters, both numbers and letters. You can use the following letters, which are abbreviations for time specifications.  
+  The date calculation formula can contain a maximum of 20 characters, both numbers and letters. You can use the following letters, which are abbreviations for time specifications.  
 
 |||  
 |-|-|  

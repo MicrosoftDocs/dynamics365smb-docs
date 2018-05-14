@@ -1,11 +1,9 @@
 ---
     title: How to Set Up Payment Classes
     description: To use payment management, you must set up payment classes to define operation types, such as bills of exchange, electronic payments, or checks.
-
     services: project-madeira 
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -20,7 +18,6 @@
 To use payment management, you must set up payment classes to define operation types, such as bills of exchange, electronic payments, or checks.  
 
 ## To set up a payment class  
-
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Slip Setup**, and then choose the relevant link.  
 2.  In the **Payment Class** window, choose the **New** action.  
 3.  Fill in the fields as described in the following table.  

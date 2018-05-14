@@ -44,10 +44,9 @@ To setup VAT registration numbers, follow these steps:
 2. Choose the country or region, and then choose the **VAT Reg. No. Formats** action.
 3. In the **Formats** field, define the format by entering one or more of the following characters:  
 
-    |----|----|
-    | # | Requires a single-digit number. |
-    | @ | Requires a letter. This is not case-sensitive. |
-    | ? | Allows any character. |
+* # - Requires a single-digit number.
+* @ - Requires a letter. This is not case-sensitive.
+* ? - Allows any character.
 
     > [!Tip]
     > You can use other characters as long as they are always present in the country or region format. For example, if you need to include a period or a hyphen between sets of numbers, you can define the format as ##.####.### or @@-###-###.  

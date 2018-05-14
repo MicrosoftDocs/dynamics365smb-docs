@@ -1,11 +1,9 @@
 ---
     title: Italy Local Functionality
     description: The following topics describe the local functionality in the Italian version of Business Central.
-
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -17,7 +15,7 @@
 
 ---
 # Italy Local Functionality
-The following topics describe local functionality that is unique to the Italian version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+The following topics describe local functionality that is unique to the Italian version of [!INCLUDE [d365fin](../../includes/d365fin_md.md)].  
 
 ## In This Section  
   [Vendor Payments and Customer Bills Overview](vendor-payments-and-customer-bills-overview.md)  
@@ -35,7 +33,7 @@ The following topics describe local functionality that is unique to the Italian 
   [Italian Subcontracting](italian-subcontracting.md)  
 
 ## See Also
-[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
+[Working with [!INCLUDE [d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
 
-## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](../../includes/training_link_md.md)]
+## [!INCLUDE [d365fin](../../includes/free_trial_md.md)]  
+## [!INCLUDE [d365fin](../../includes/training_link_md.md)]

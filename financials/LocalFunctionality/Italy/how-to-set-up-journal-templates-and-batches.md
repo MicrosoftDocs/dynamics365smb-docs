@@ -1,11 +1,9 @@
 ---
     title: How to Set Up Journal Templates and Batches
     description: All European Union (EU) companies must submit Intrastat reports to the customs office, detailing their trade with other EU countries/regions for the current year.
-
     services: project-madeira 
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -22,7 +20,6 @@ All European Union (EU) companies must submit Intrastat reports to the customs o
 You can print Intrastat reports in the **Intrastat Jnl. Batches** window based on Intrastat journal entries. You can manually place entries into the journal, or use a batch job to place the entries there. Before you can do this, you must set up Intrastat journal templates and batches.  
 
 ## To set up Intrastat journal templates  
-
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat Journal Templates**, and then choose the related link.  
 2.  To create a new Intrastat journal template, choose the **New** action.  
 3.  In the **Intrastat Journal Templates** window, fill in the fields as described in the following table.  
@@ -35,7 +32,6 @@ You can print Intrastat reports in the **Intrastat Jnl. Batches** window based o
 4.  Choose the **OK** button.  
 
 ## To set up Intrastat journal batches  
-
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat Journal Templates**, and then choose the related link.  
 2.  To open the **Intrastat Jnl. Batches** window, select the required template, and then choose the **Batches** action.  
 3.  Fill in the fields as described in the following table.  

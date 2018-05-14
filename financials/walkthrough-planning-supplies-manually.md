@@ -33,13 +33,13 @@ This walkthrough demonstrates the process of planning supply orders to fulfill n
 -   Sales Order Processor  
 
 ## Prerequisites  
- Before you begin this walkthrough, you must install the [!INCLUDE[d365fin](includes/d365fin_md.md)]. The following modifications must be made to the database:  
+ Before you begin this walkthrough, you must install the [!INCLUDE [d365fin](includes/d365fin_md.md)]. The following modifications must be made to the database:  
 
--   Delete all existing sales orders for bicycles.  
--   Create one sales order for 10 bicycles at BLUE location.  
--   Delete all planned and firm planned production orders. Do not delete started orders with entries that are already posted.  
+- Delete all existing sales orders for bicycles.  
+- Create one sales order for 10 bicycles at BLUE location.  
+- Delete all planned and firm planned production orders. Do not delete started orders with entries that are already posted.  
 
- As a rule, use the suggested data in this walkthrough because this data has the necessary records.  
+  As a rule, use the suggested data in this walkthrough because this data has the necessary records.  
 
 ## Story  
  Eduardo, the Production Planner of a small manufacturing company, is about to plan production and purchase orders to fulfill new sales demand.  
@@ -92,30 +92,30 @@ The **Order Planning** window can be accessed from several different locations o
 
 ### To plan a purchase order to fulfill component need in production  
 
-1.  Expand the first line (choose the + symbol).  
-2.  Choose the first demand line, with item **LSU-15**, and then choose the **Show Document** action.  
-3.  Close the opened production order to return to the **Order Planning** window.  
-4.  In the **Replenishment System** field, select **Purchase**.  
+1. Expand the first line (choose the + symbol).  
+2. Choose the first demand line, with item **LSU-15**, and then choose the **Show Document** action.  
+3. Close the opened production order to return to the **Order Planning** window.  
+4. In the **Replenishment System** field, select **Purchase**.  
 
-     The default value is from the item card, or SKU card, but you can change it to one of the following options:  
+    The default value is from the item card, or SKU card, but you can change it to one of the following options:  
 
-    -   **Purchase** – To create a purchase order.  
-    -   **Transfer** – To create a transfer order.  
-    -   **Prod. Order** – To create a production order.  
+   -   **Purchase** – To create a purchase order.  
+   -   **Transfer** – To create a transfer order.  
+   -   **Prod. Order** – To create a production order.  
 
-5.  In the **Supply From** field, select one of the following options according to the selected replenishment system:  
+5. In the **Supply From** field, select one of the following options according to the selected replenishment system:  
 
-    -   **Vendor** – For purchases  
-    -   **Location** – For transfers  
+   - **Vendor** – For purchases  
+   - **Location** – For transfers  
 
      If the field is not filled in, an error message will display when you try to create the supply orders.  
 
-    > [!NOTE]  
-    >  If the components have a default vendor number set up on the item cards, the lines will be preset.  
+   > [!NOTE]  
+   >  If the components have a default vendor number set up on the item cards, the lines will be preset.  
 
-6.  Choose the **Supply From**  field.  
-7.  In the **Item Vendor Catalogue** window, choose the **New** action, and then select vendor **30000**.  
-8.  Choose the **OK** button to return to the **Order Planning** window.  
+6. Choose the **Supply From**  field.  
+7. In the **Item Vendor Catalogue** window, choose the **New** action, and then select vendor **30000**.  
+8. Choose the **OK** button to return to the **Order Planning** window.  
 9. Copy vendor **30000** to the other lines for loudspeaker components on this production order.  
 
      You are now ready to create a purchase order.  
@@ -160,22 +160,22 @@ The **Order Planning** window can be accessed from several different locations o
 
 ### To plan multilevel production to fulfill sales demand  
 
-1.  Select the planning line with sales demand for order **1001**, created earlier as prerequisite data.  
+1. Select the planning line with sales demand for order **1001**, created earlier as prerequisite data.  
 
-     This demand is a sales line, but the item has a defined replenishment system of **Prod. Order**. Proceed to add an extra bell to the component need of each bicycle.  
+    This demand is a sales line, but the item has a defined replenishment system of **Prod. Order**. Proceed to add an extra bell to the component need of each bicycle.  
 
-2.  Choose the **Components** action to open the **Planning Components** window.  
-3.  On the line with the Bell item, change the **Quantity per** field from **1** to **2**.  
-4.  In the **Order Planning** window, consider your planning alternatives. In this case, you have no alternative means of supply, no transfer, substitute, or later delivery. You must create the suggested supply order, a production order.  
-5.  Choose the **Make Orders** action to create the production order.  
+2. Choose the **Components** action to open the **Planning Components** window.  
+3. On the line with the Bell item, change the **Quantity per** field from **1** to **2**.  
+4. In the **Order Planning** window, consider your planning alternatives. In this case, you have no alternative means of supply, no transfer, substitute, or later delivery. You must create the suggested supply order, a production order.  
+5. Choose the **Make Orders** action to create the production order.  
 
-     In the **Order Planning** window, notice that the planning line for sales order **1001** no longer exists and that the initial sales demand has been covered.  
+    In the **Order Planning** window, notice that the planning line for sales order **1001** no longer exists and that the initial sales demand has been covered.  
 
-6.  Close the **Order Planning** window.  
+6. Close the **Order Planning** window.  
 
-     Now, you could choose to stay in this view and complete all the planning tasks. Instead, you will now take on the Production Planner role by going to the production order that you just created and access the **Order Planning** window.  
+    Now, you could choose to stay in this view and complete all the planning tasks. Instead, you will now take on the Production Planner role by going to the production order that you just created and access the **Order Planning** window.  
 
- As a production planner you now must plan a specific production order.  
+   As a production planner you now must plan a specific production order.  
 
 ### To plan a specific production order  
 

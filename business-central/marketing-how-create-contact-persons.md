@@ -1,8 +1,6 @@
 ---
 title: Create Contact Persons| Microsoft Docs
 description: Describes how to create a contact card for each new person or prospect you interact with or have a business relationship with.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 
 ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 05/09/2018
 ms.author: jswymer
 
 ---
@@ -39,4 +37,5 @@ You can create a contact card for each contact who works for the companies you i
 [Set Up Job Responsibilities on Contacts](marketing-job-responsibilities.md)  
 [Set Up Organizational Levels for Contact Persons](marketing-organizational-levels.md)  
 [Synchronizing Contacts With Customers, Vendors, and Bank Accounts](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
+[Use Profile Questionnaires to Classify Business Contacts](marketing-create-contact-profile-questionnaire.md)  
 [Working with Business Central](ui-work-product.md)  

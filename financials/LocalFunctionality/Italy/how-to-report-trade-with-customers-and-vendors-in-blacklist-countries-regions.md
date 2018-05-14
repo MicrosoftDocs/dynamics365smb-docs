@@ -1,11 +1,9 @@
 ---
     title: How to Report Trade with Customers and Vendors in Blacklist Countries-Regions
     description: You must submit a periodic report of transactions with customers and vendors in certain countries/regions that the Italian government has identified in a blacklist.
-
     services: project-madeira 
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -27,7 +25,6 @@ On a monthly or quarterly basis, you must generate the blacklist communication r
 Before you can submit the periodic report, you must set up [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## To update the relevant countries/regions  
-
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Countries/Regions**, and then choose the related link.  
 2.  Choose the relevant country/region, and then select the **Blacklisted** check box.  
 
@@ -39,7 +36,6 @@ Before you can submit the periodic report, you must set up [!INCLUDE[d365fin](..
 For a list of relevant countries/regions and codes, see the [Italian Revenue Agency](http://go.microsoft.com/fwlink/?LinkID=206524).  
 
 ## To specify the current threshold amount  
-
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Posting Setup**, and then choose the related link.  
 2.  In the **VAT Posting Setup** window, choose the **Blacklist Comm. Amount** action.  
 3.  In the **Blacklist Comm. Amounts** window, fill in the fields as described in the following table.  
@@ -58,7 +54,6 @@ For a list of relevant countries/regions and codes, see the [Italian Revenue Age
 Depending on the size and type of company, you must generate and submit a report of transactions with vendors in blacklisted countries/regions on a monthly or quarterly basis. A suggested mapping of transactions to [!INCLUDE[d365fin](../../includes/d365fin_md.md)] accounts is provided in the following procedure, based on Spesometro 2013.  
 
 ### To set up the template to create the list of Blacklist transactions  
-
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Blacklist Communication**, and then choose the related link.  
 2.  In the **Name** field, select the relevant VAT statement name.  
 3.  Fill in the lines with the relevant information as described in the following table.  
@@ -87,7 +82,6 @@ Depending on the size and type of company, you must generate and submit a report
 The printed report includes all transactions that meet threshold requirements. It does not include those transactions that do not.  
 
 ### To create and print the list of transactions  
-
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Blacklist Communication**, and then choose the related link.  
 2.  In the **Name** field, select the relevant VAT statement name.  
 3.  Fill in the lines with the relevant information. See the procedure for setting up the Blacklist template.  
@@ -112,7 +106,6 @@ The printed report includes all transactions that meet threshold requirements. I
     >  The printed report includes all transactions that meet threshold requirements. It does not include those transactions that do not.  
 
 ### To preview and export the list of transactions  
-
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Blacklist Communication**, and then choose the related link.  
 2.  In the **Name** field, select the relevant VAT statement name.  
 3.  Fill in the lines with the relevant information. See the procedure for setting up the Blacklist template.  

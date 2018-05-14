@@ -16,7 +16,7 @@
 
 ---
 # Assembly Management
-To support companies that supply products to their customers by combining components in simple processes without the need of manufacturing functionality, [!INCLUDE[d365fin](includes/d365fin_md.md)] includes features to assemble items that integrate with existing features, such as sales, planning, reservations, and warehousing.  
+To support companies that supply products to their customers by combining components in simple processes without the need of manufacturing functionality, [!INCLUDE [d365fin](includes/d365fin_md.md)] includes features to assemble items that integrate with existing features, such as sales, planning, reservations, and warehousing.  
 
  An assembly item is defined as a sellable item that contains an assembly BOM. For more information, see [Work with Bills of Material](inventory-how-work-BOMs.md).
 
@@ -49,5 +49,5 @@ The following table describes a sequence of tasks, with links to the topics that
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+## [!INCLUDE [d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE [d365fin](includes/training_link_md.md)]

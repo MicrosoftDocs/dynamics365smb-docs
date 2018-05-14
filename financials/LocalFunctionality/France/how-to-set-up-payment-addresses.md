@@ -1,11 +1,9 @@
 ---
     title: How to Set Up Payment Addresses
     description: To use payment management, you must set up payment addresses that will be used for vendors and customers at the time of settlement. The payment address can differ from the default address.
-
     services: project-madeira 
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -22,7 +20,6 @@ To use payment management, you must set up payment addresses that will be used f
 The following procedure describes how to set up a payment address for a vendor, but the same steps apply to setting up a payment address for a customer.  
 
 ## To set up a payment address  
-
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the relevant link.  
 2.  Select a vendor, and then choose the **Edit** action.  
 3.  Choose the **Payment Addresses** action.  

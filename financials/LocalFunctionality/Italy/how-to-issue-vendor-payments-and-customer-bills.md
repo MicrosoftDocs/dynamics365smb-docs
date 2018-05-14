@@ -1,11 +1,9 @@
 ---
     title: How to Issue Vendor Payments and Customer Bills
     description: The vendor and customer bill pay feature supports SEPA-based formats in addition to Italian file formats.
-
     services: project-madeira 
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -29,7 +27,6 @@ The vendor and customer bill pay feature supports SEPA-based formats in addition
 In addition, there must be a posted purchased invoice against which you can send a payment.  
 
 ## To issue payment to a vendor  
-
 1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.  
 2. Select the vendor to which you want to send payment. On the **Payment** FastTab, in the **Payment Method Code** field, choose the **TRASFBANC** option.
 3. Choose the **Bank Accounts** action.  

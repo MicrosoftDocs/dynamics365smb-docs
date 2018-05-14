@@ -26,7 +26,7 @@ The following procedure assumes that you have obtained the certificates from the
 
 After you register and log on to the official site, you can download the digiport server certificates from this site: <[https://aansluiten.procesinfrastructuur.nl/site/documentatie/certificaten](https://aansluiten.procesinfrastructuur.nl/site/documentatie/certificaten)>.  
 
-Next, you have to install the certificates. The certificates have to be installed on the server. Later, you will use the common name (CN) of the certificates in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+Next, you have to install the certificates. The certificates have to be installed on the server. Later, you will use the common name (CN) of the certificates in [!INCLUDE [d365fin](../../includes/d365fin_md.md)].  
 
 > [!NOTE]  
 >  In the Digipoort implementation you install certificates on the server. Users who need to be able to communicate with tax authorities via Digipoort will need access to the private key of the personal certificate on the server.  

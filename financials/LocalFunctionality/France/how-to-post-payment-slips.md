@@ -1,11 +1,9 @@
 ---
     title: How to Post Payment Slips
-    description: You must post payment slips to complete a payment transaction and to create the related financial data. You can post a payment slip if the payment slip's **Action Type** is set to **Ledger**.
-
+    description: You must post payment slips to complete a payment transaction and to create the related financial data. 
     services: project-madeira 
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -22,7 +20,6 @@ You must post payment slips to complete a payment transaction and to create the 
 Before you post a payment slip, you must create the payment slip. For more information, see [Create Payment Slips](how-to-create-payment-slips.md).  
 
 ## To post a payment slip  
-
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Slips**, and then choose the relevant link.  
 2.  Select a payment slip, and then choose the **Edit** action.  
 3.  In the **Payment Slip** window, choose the **Post** action.  

@@ -1,10 +1,9 @@
 ---
     title: How to Create and Submit Sales VAT Advance Notifications
-    description: In Business Central, you can submit the sales VAT advance notification file electronically to the ELSTER portal. You can transmit the sales VAT advance notification file to the tax authorities after you have verified the calculated tax amount and the base amount.
+    description: In Business Central, you can submit the sales VAT advance notification file electronically to the ELSTER portal. 
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -16,10 +15,9 @@
 
 ---
 # Create and Submit Sales VAT Advance Notifications
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can submit the sales VAT advance notification file electronically to the ELSTER portal. You can transmit the sales VAT advance notification file to the tax authorities after you have verified the calculated tax amount and the base amount.  
+In [!INCLUDE [d365fin](../../includes/d365fin_md.md)], you can submit the sales VAT advance notification file electronically to the ELSTER portal. You can transmit the sales VAT advance notification file to the tax authorities after you have verified the calculated tax amount and the base amount.  
 
 ## To create an XML document for sales VAT advance notification  
-
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Vat Advanced Notification List**, and then choose the related link.  
 2.  In the **Sales Vat Advanced Notification List** window, choose the **New** action.  
 3.  In the **Sales VAT Adv. Notif. Card** window, fill in the fields as described in the following table.  
@@ -35,7 +33,6 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can submit the sales V
 7.  Choose the **OK** button.  
 
 ## To submit an XML document for sales VAT advance notification  
-
 1.  In the **Sales VAT Advance Notification List** window, select the document that you want to submit to ELSTER.  
 2.  Choose the **Transmit XML-File** action.  
 

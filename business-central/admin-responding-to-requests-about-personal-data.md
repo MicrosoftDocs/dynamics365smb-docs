@@ -32,7 +32,7 @@ A data subject can request that you temporarily stop processing their personal d
 ## Handling Data Subject Requests While in Trial
 If you signed up for [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] from the [Trials](https://trials.dynamics.com/) page, and you have not moved out of this trial experience, then your process for handling data subject requests is different from that of paid users. For technical reasons, you do not have the administrative tools to export personal data, for example. To export data as a result of a data subject request, you must go to the [Work and School Privacy page in the Azure Portal](https://portal.azure.com#blade/Microsoft_AAD_IAM/GDPRViralBlade). Here, you can export data and download the package.
 
-You can also close your account, but in that case, we recommend that you make sure that you have exported all data first since deleting your account means that you loose access to [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+You can also close your account, but in that case, we recommend that you make sure that you have exported all data first since deleting your account means that you lose access to [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## Handling Data About Minors
 If a contact person's age is below the age of legal consent according to the laws in your region, you can indicate that by choosing the **Minor** check box on the **Contact** card. When you do, the **Privacy Blocked** check box is automatically selected. When you receive consent from the minor's parent or legal guardian, you can choose the **Parental Consent Received** check box to unblock the contact. Though you can process personal data for minors, you cannot use the profiling functionality in Microsoft Dynamics 365 for Sales.

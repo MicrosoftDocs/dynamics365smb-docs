@@ -4,7 +4,6 @@ description: Learn how to change some of the basic settings in Financials, for e
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
-
 ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
@@ -16,14 +15,14 @@ ms.author: solsen
 
 ---
 # Changing Basic Settings
-In the **My Settings** window, you can see and change basic settings for [!INCLUDE [d365fin](includes/d365fin_md.md)].  
+In the **My Settings** window, you can see and change basic settings for [!INCLUDE [d365fin](includes/d365fin_md.md)]. The change that you make will only affect your workspace; not the workspaces of others.  
 
 ## Role Center
-The Role Center represents the home page, a starting page that is designed for the needs of the role. The Role Center provides you with an overview of the business, reflecting the information, tasks, and priorities of your role. 
+The Role Center represents the home page, a starting screen that is designed for the needs of a specific role in an organization. Depending on your role, the Role Center gives you an overview of the business, your department, or your personal tasks. It also helps you navigate to your daily tasks and find work that is assigned to you.
 
-Along the top of the Role Center, you see the navigation that gives you easy access to typical entities for the role, such as customers, vendors, items, and so on.
+-   At the top, the navigation allows you to switch between customers, vendors, items, and other important lists of information. Similarly, actions allow you to initiate tasks, such as create a new sales invoice, directly from the Role Center.
 
-Whats appears in the main content area will depend on the specific Role Center. For example, on most Role Centers, you can find the Activities tiles that show current data and can be clicked or tapped for easy access to the selected document. Key Performance Indicators can be set up to display a selected chart for a visual representation of, for example, cash flow or income and expenses. Some Role Centers enable you to build a list of favorite entities, like customers and vendors, or show the Report Inbox.
+-   In the center, you find **Activities**. Activities show current data and can be clicked or tapped to view more detailed information. Key Performance Indicators can be set up to display a selected chart for a visual representation of, for example, cash flow or income and expenses. You can also build up a list of favorite customers on the home page for accounts that you do business with often or need to pay special attention to.
 
 ### To change Role Center
 The default Role Center is **Business Manager**, but you can select another Role Center that fits your needs better.
@@ -49,11 +48,16 @@ The default work date is usually today's date. You may have to temporarily chang
 >   The work date is only changed until you close the company or until the date changes. If you open a different company or open the same company the next day and still have to use a different work date, then you must set the work date again.
 
 ## Region
-The **Region** setting determines how dates, times, numbers, and currencies are shown or formatted.   
+The **Region** setting determines how dates, times, numbers, and currencies are shown or formatted.  
+
+## Language
+Changes display language. This field appears only when there is more than one language to choose from. 
+
+The initial language is either determined by the administrator or by your browser settings when you sign up for [!INCLUDE [d365fin](includes/d365fin_md.md)]. The language that you set will be used on all devices that you sign in from, such as a phone and tablet. 
 
 ## Changing When I Receive Notifications
 Choose this link to view or change the notifications that you get about certain events or changes in status, such as when you are about to invoice a customer who has an overdue balance, or the available inventory is lower than the quantity you are about to sell. For more information, see [Smart Notifications](ui-smart-notifications.md).
 
 ## See Also
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE [d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Changing Which Features are Displayed](ui-experiences.md)  

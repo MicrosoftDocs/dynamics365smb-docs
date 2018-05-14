@@ -27,7 +27,7 @@ A company who use [!INCLUDE [d365fin](includes/d365fin_md.md)] can invite you to
 
 As a result, you will receive email from your client with links to their [!INCLUDE [d365fin](includes/d365fin_md.md)]. The first link is an invitation to get access to their company - open the link and accept the steps that adds you to your client's [!INCLUDE [d365fin](includes/d365fin_md.md)]. The second link is for adding this client to your dashboard in [!INCLUDE [d365acc](includes/d365acc_md.md)] as described above.  
 
-When you have accepted the invitation, you are logged in and can access the client's financial data from the **Accountant** Role Center. For more information, see [Accountant Experiences in [!INCLUDE[d365fin](includes/d365fin_md.md)]](/dynamics365/financials/finance-accounting?toc=/dynamics365/accountants/toc.json).  
+When you have accepted the invitation, you are logged in and can access the client's financial data from the **Accountant** Role Center. For more information, see [Accountant Experiences in [!INCLUDE[d365fin](includes/d365fin_md.md)]](/dynamics365/business-central/finance-accounting?toc=/dynamics365/accountants/toc.json).  
 
 ## See Also
 [Get Started with [!INCLUDE[d365acc](includes/d365acc_md.md)]](get-started.md)  

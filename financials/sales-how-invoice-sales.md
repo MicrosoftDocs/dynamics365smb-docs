@@ -36,7 +36,7 @@ You can even create directly paid invoices for non-registered customers by first
 
 You can easily correct or cancel a posted sales invoice before it is paid. For example, this is useful if you want to correct a typing mistake or if the customer requests a change early in the order process. For more information, see [Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md). If the posted sales invoice is paid, then you must create a sales credit memo to reverse the sale. For more information, see [Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md).
 
-Items can be both inventory items and services, denoted by the **Inventory** and **Service** types on the item card. The sales invoice process is the same for both item types. For more information, see [Register New Items](inventory-how-register-new-items.md).
+Items can be both inventory items and services, denoted by the **Inventory** or **Service** type on the item card. The sales invoice process is the same for both item types. For more information, see [Register New Items](inventory-how-register-new-items.md).
 
 You can fill customer fields on the sales invoice in two ways depending on whether the customer is already registered. See steps 2 and 3 in the following procedure.
 

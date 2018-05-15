@@ -20,7 +20,7 @@ You can add a client by using the **Clients** window, which you can open by choo
 
 ![Add a client](./media/accountant-add-client/manage-client.png)
 
-The data in the card for each client is specified by you, and you can change it as needed. However, the **Client URL** field is critical - this is how you can access each client's [!INCLUDE [d365fin](includes/d365fin_md.md)]. Use the **Validate Client URL** action in the ribbon to test that you entered the right link. The URL that you must enter points at the client's [!INCLUDE [d365fin](includes/d365fin_md.md)], such as *<https://businesscentral.dynamics.com/mybusiness?redirectedfromsignup=1>*, where *mybusiness* is the name of your client's tenant in [d365fin](includes/d365fin_md.md)].  
+The data in the card for each client is specified by you, and you can change it as needed. However, the **Client URL** field is critical - this is how you can access each client's [!INCLUDE [d365fin](includes/d365fin_md.md)]. Use the **Validate Client URL** action in the ribbon to test that you entered the right link. The URL that you must enter points at the client's [!INCLUDE [d365fin](includes/d365fin_md.md)], such as *<https://businesscentral.dynamics.com/mybusiness?redirectedfromsignup=1>*, where *mybusiness* is the name of your client's tenant in [!INCLUDE [d365fin](includes/d365fin_md.md)].  
 
 This URL is then used when you choose the **Go To Company** menu item in the [!INCLUDE [d365acc](includes/d365acc_md.md)] dashboard.  
 

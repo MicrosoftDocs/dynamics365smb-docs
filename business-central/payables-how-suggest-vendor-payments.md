@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 04/10/2018
+ms.date: 05/15/2018
 ms.author: sgroespe
 
 ---
@@ -20,7 +20,8 @@ In the **Payment Journal** window, you can use the **Suggest Vendor Payments** b
 
 To benefit fully from payment suggestions, you must first prioritize your vendors. For more information, see [Prioritize Vendors](purchasing-how-prioritize-vendors.md).  
 
-Vendor entries that are not **On Hold** are not included.  
+> [!NOTE]  
+> Vendor ledger entries that are **On Hold** are not included in the batch job.  
 
 > [!IMPORTANT]  
 >   If you want to take advantage of payment discounts, and have entered an available amount, the amount will be used for:  

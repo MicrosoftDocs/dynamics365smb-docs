@@ -20,12 +20,12 @@ You can add a client by using the **Clients** window, which you can open by choo
 
 ![Add a client](./media/accountant-add-client/manage-client.png)
 
-The data in the card for each client is specified by you, and you can change it as needed. However, the **Client URL** field is critical - this is how you can access each client's [!INCLUDE [d365fin](includes/d365fin_md.md)]. Use the **Validate Client URL** action in the ribbon to test that you entered the right link. The URL that you must enter points at the client's [!INCLUDE [d365fin](includes/d365fin_md.md)] and includes their domain address. For example, if they have specified a domain such as MyBusiness.com, then the link to their [!INCLUDE [d365fin](includes/d365fin_md.md)] is ```<https://businesscentral.dynamics.com/*mybusiness.com*?redirectedfromsignup=1>```.  
+The data in the card for each client is specified by you, and you can change it as needed. However, the **Client URL** field is critical - this is how you can access each client's [!INCLUDE [d365fin](includes/d365fin_md.md)]. Use the **Validate Client URL** action in the ribbon to test that you entered the right link. The URL that you must enter points at the client's [!INCLUDE [d365fin](includes/d365fin_md.md)] and includes their domain address. For example, if they have specified a domain such as MyBusiness.com, then the link to their [!INCLUDE [d365fin](includes/d365fin_md.md)] is *https://businesscentral.dynamics.com/mybusiness.com?redirectedfromsignup=1*.  
 
 > [!NOTE]
->  Before the May 2018 update, the URL that you specified had a different format. With the May 2018 update, the format is *<https://businesscentral.dynamics.com/mybusiness.com?redirectedfromsignup=1>*
+>  Before the May 2018 update, the URL that you specified had a different format with the client's company name at the beginning. With the May 2018 update, the format is ```https://businesscentral.dynamics.com/clientdomain?redirectedfromsignup=1```, where ```clientdomain``` represents the domain of your client.  
 
-The client URL is then used when you choose the **Go To Company** menu item in the [!INCLUDE [d365acc](includes/d365acc_md.md)] dashboard.  
+The client URL is used when you choose the **Go To Company** menu item in the [!INCLUDE [d365acc](includes/d365acc_md.md)] dashboard.  
 
 ### Get invited to a client's [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)]
 A company who use [!INCLUDE [d365fin](includes/d365fin_md.md)] can invite you to [!INCLUDE [d365fin](includes/d365fin_md.md)] as their external accountant. To get invited, you must give them the email that you use with [!INCLUDE [d365acc](includes/d365acc_md.md)], such as <em>me@accountant.com</em>. Your client's administrator can then add you to their system by running the **Invite External Accountant** wizard.  

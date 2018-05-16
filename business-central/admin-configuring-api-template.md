@@ -18,7 +18,7 @@ ms.author: solsen
 # Configuring API Templates
 The API library for [!INCLUDE[d365fin_md](includes/d365fin_md.md)] provides a simplified representation of the underlying entities. All the properties in the application are not exposed through the associated API. The **API Setup** window allows you to define templates that are used to populate empty properties on an entity when you create a POST action through the API. 
 
-For example, if a configuration template is defined for the item entity, when a new item record is created through the items API, any properties for the new item that are not defined in the API call will be populated from the selected template. If, for example, no value is defined for the **Gen. Prod. Posting Group** through the API, but a value is defined in the selected template, then the posting group value defined in the template will be applied to the new item. 
+For example, if a configuration template is defined for the item entity, when a new item record is created through the items API, any properties for the new item that are not defined in the API call will be populated from the selected template. If, for example, no value is defined for the **Gen. Prod. Posting Group** field through the API, but a value is defined in the selected template, then the posting group value defined in the template will be applied to the new item. 
 
 ## Setting up the Entity Template
 To use templates with the API library, you must first set up and define properties for the templates. You can set up these templates in the **Configuration Templates** window. For more information, see [Prepare to Migrate Customer Data](admin-use-templates-to-prepare-customer-data-for-migration.md). 
@@ -33,9 +33,9 @@ If there is more than one template selected for an API (Page ID), the templates 
 When each template is applied, field values defined in the template are only applied to fields that have not already had a value defined, either explicitly in the API, or in a previously applied template in the order. 
 3. Select a **Page ID** value.  
 This is the page for the API to which the template will be applied. The **Page ID** lookup provides a list of all APIs available in the library.
-4. Select a **Template Code**.  
-The **Template Code** is the code for the template that was defined in the **Configuration Templates** window. The template values defined are applied to the API. 
-5. Select the **Conditions** for which the template should be applied.  
+4. Select a value in the **Template Code** field.  
+The template code is the code for the template that was defined in the **Configuration Templates** window. The template values defined are applied to the API. 
+5. In the **Conditions** field, specify which template should be applied.  
 The defined template is applied to a new record created through the API if, and only if, the conditions defined in the **Conditions** field are met by the values already defined for the new instance of the entity.
 
 ## See Also

@@ -11,15 +11,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 05/09/2018
+ms.date: 05/15/2018
 ms.author: sgroespe
 
 ---
 # Reconcile Bank Accounts Separately
-To reconcile bank accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)] with statements received from the bank, you begin by filling in the left-hand pane in the **Bank Acc. Reconciliation** window with bank statement information that you then match (reconcile) with bank account entries. A smart way to fill in bank statement lines is by importing a bank statement file or feed.
+To reconcile bank accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)] with statements received from the bank, you begin by filling in the left-hand pane in the **Bank Acc. Reconciliation** window with bank statement information that you then match (reconcile) with bank account ledger entries in the right-hand pane. A smart way to fill in bank statement lines is by importing a bank statement file or feed.
 
 > [!NOTE]  
-> In North American versions, you can also perform this work in the **Bank Rec. Worksheet** window, which is better suited for checks and deposits but does not offer import of bank statement files. To use this window in stead of the **Bank Acc. Reconciliation** window, deselect the **Bank Recon. with Auto. Match** field in the **General Ledger Setup** window.
+> In North American versions, you can also perform this work in the **Bank Rec. Worksheet** window, which is better suited for checks and deposits but does not offer import of bank statement files. To use this window instead of the **Bank Acc. Reconciliation** window, deselect the **Bank Recon. with Auto. Match** field in the **General Ledger Setup** window. For more information, see the "Reconcile Bank Accounts" section under United States Local Functionality.
 
 > [!TIP]  
 > You can also reconcile bank accounts in the **Payment Reconciliation Journal** window. Any open bank account ledger entries related to the applied customer or vendor ledger entries will be closed when you choose the **Post Payments and Reconcile Bank Account** action. This means that the bank account is automatically reconciled for payments that you post with the journal. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).

@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 02/21/2018
+    ms.date: 05/17/2018
     ms.author: sgroespe
 
 ---
@@ -22,6 +22,7 @@ The following topics describe local functionality that is unique to the Dutch ve
 ## In This Section  
   [CMR Notes](cmr-notes.md)  
   [Dutch Electronic Banking](dutch-electronic-banking.md)  
+  [Enter and Post Cash and Bank/Giro Journals](how-to-enter-and-post-cash-and-bank-or-giro-journals.md)  
   [Electronic Tax Declarations](electronic-tax-declarations.md)  
   [General Ledger](general-ledger.md)  
   [Single EURO Payments Area (SEPA)](single-euro-payments-area-sepa-.md)  

@@ -66,7 +66,7 @@ Microsoft provides the following extensions:
 ## See Also
 [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)  
 [Enable Customer Payment Through PayPal](sales-how-enable-payment-service-extensions.md)  
-[Migrating Business Data from Other Finance Systems](upload-data.md)  
+[Migrating Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Setting Up the GetAddress.io UK Postal Code extension](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensions by Other Providers](ui-extensions-other.md)  
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

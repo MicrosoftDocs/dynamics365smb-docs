@@ -19,7 +19,7 @@ ms.author: sgroespe
 The **Payment Reconciliation Journal** window specifies payments, either incoming or outgoing, that have been recorded as transactions on your online bank account and that you can apply to their related open customer, vendor, and bank account ledger entries. The lines in the journal are filled by importing a bank statement as a bank feed or file.
 
 > [!NOTE]
-> The window offers automatic matching functionality that applies payments to their related open entries based on a matching of text on a bank statement line (journal line) with text on one or more open entries. Note that you can always overwrite these suggested applications, and you can choose to not use automatic application at all. For more information, see step 7.
+> The window offers automatic matching functionality that applies payments to their related open entries based on a matching of text on a bank statement line (journal line) with text on one or more open entries. Note that you can overwrite the suggested automatic applications, and you can choose to not use automatic application at all. For more information, see step 7.
 
 A payment reconciliation journal is related to one bank account in [!INCLUDE[d365fin](includes/d365fin_md.md)] that reflects the online bank account where the payment transactions are recorded. Any open bank account ledger entries related to the applied customer or vendor ledger entries will be closed when you choose the **Post Payments and Reconcile Bank Account** action. This means that the bank account is automatically reconciled for payments that you post with the journal.
 

@@ -38,7 +38,7 @@ The following table describes a sequence of tasks, with links to the topics that
 [Finance](finance.md)    
 [Using Financials as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
 [Closing Fiscal Periods](year-close-years-periods.md)  
-[Importing from Other Finance Systems](upload-data.md)  
+[Importing Data from Other Finance Systems](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

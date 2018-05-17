@@ -33,5 +33,5 @@ For more information, read about the extension that suits your QuickBooks app:
 If you are ready to get started now, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Assisted Setup**, and then choose the related link. Choose **Migrate business data**, and then follow the steps in the guide.
 
 ## See Also
-[Importing Business Data from Other Finance Systems](upload-data.md)  
+[Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Customizing Finance and Operations, Business edition Using Extensions](ui-extensions.md)   

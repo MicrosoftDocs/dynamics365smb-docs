@@ -16,7 +16,7 @@
 ## [Connecting to Your Finance and Operations, Business edition Data to Build a Business App Using PowerApps](across-how-use-financials-data-source-powerapps.md)
 ## [Bulk Invoicing for Microsoft Bookings](finance-bookings.md)
 ## [Customizing Finance and Operations, Business edition Using Extensions](ui-extensions.md)
-## [Importing Business Data from Other Finance Systems](upload-data.md)
+## [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)
 ## [Importing Data from Legacy Accounting Software using a Configuration Package](across-import-data-configuration-packages.md)
 ## [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)
 ### [Use the RapidStart Services Implementer Role Center](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md)

@@ -47,6 +47,6 @@ Once you have the basics in place, you can set up remaining core areas. Then, yo
 ## See Also
 [Customizing Finance and Operations, Business edition](ui-customizing-overview.md)  
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Importing Business Data from Other Finance Systems](upload-data.md)  
+[Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Changing Basic Settings](ui-change-basic-settings.md)  
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

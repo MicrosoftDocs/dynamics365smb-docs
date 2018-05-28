@@ -1,7 +1,7 @@
 ---
     title: How to Test Electronic Payments
     description: After you have set up electronic banking and generated payment suggestions, you can test the payment journal lines for errors before posting them.
-
+    redirect_url: belgian-electronic-payments
     services: project-madeira 
     documentationcenter: ''
     author: SorenGP
@@ -46,5 +46,4 @@ You can view any errors in the **Export Check Error Logs** window.
 ## See Also  
  [Belgian Electronic Payments](belgian-electronic-payments.md)   
  [Set Up Vendors for Automatic Payment Suggestions](how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
- [Generate Payment Suggestions](how-to-generate-payment-suggestions.md)   
- [Print Payment Files](how-to-print-payment-files.md)
+

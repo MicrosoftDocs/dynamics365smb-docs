@@ -56,4 +56,4 @@ If you have already set up a number of customers, vendors, and bank accounts, yo
 [Assign Industry Groups to a Contact](marketing-industry-groups.md#AssignIndustryGroupContact)  
 [Assign Mailing Groups to a Contact](marketing-mailing-groups.md#AssignMailGroupContact)  
 [Create Contact Persons](marketing-create-contact-persons.md)  
-[Working with Finance and Operations, Business edition](ui-work-product.md)
+[Working with Business Central](ui-work-product.md)

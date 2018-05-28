@@ -1,7 +1,7 @@
 ---
     title: General Ledger
-    description: Special general ledger functionality exists for the Dutch version of Finance and Operations, Business edition.
-    services: project-madeira
+    description: Special general ledger functionality exists for the Dutch version of Business Central.
+
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

@@ -1,6 +1,6 @@
 ---
     title: Keyboard Shortcuts | Microsoft Docs
-    description: The following table provides an overview of shortcut key combinations in the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/nav_windows_md.md)]-->.
+    description: The following table provides an overview of shortcut key combinations in Business Central.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,8 +16,8 @@
 
 ---
 # Keyboard Shortcuts
-The following table provides an overview of shortcut key combinations in the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/nav_windows_md.md)]-->.  
-  
+The following table provides an overview of shortcut key combinations in Business Central.  
+
 |**ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/nav_windows_md.md)]-->**|**Action**|  
 |-----------------------------------|----------------|  
 |Right Arrow|Move to the next field or character|  
@@ -108,7 +108,7 @@ The following table provides an overview of shortcut key combinations in the ADD
 |Alt+Right Arrow|Go to the next window in the navigation history|  
 |Alt+Enter|Move to the field below without opening the drop-down menu|  
 |Alt+Tab|Toggle between open windows|  
-  
+
 ## See Also  
  [Keyboard Shortcuts in the Development Environment](../FullExperience/Keyboard%20Shortcuts%20in%20the%20Development%20Environment.md)   
  [Working with Product Name](../FullExperience/working-with-$-p_1-product-name-$-.md)

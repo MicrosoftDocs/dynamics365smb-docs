@@ -21,7 +21,7 @@ When customers inquire about an item, either in correspondence or in an integrat
 You can also assign item attributes to item categories, which then apply to the items that use the item categories. For more information, see [Categorize Item](inventory-how-categorize-items.md).
 
 > [!Tip]  
-> If you attach pictures to items, the Image Analyzer extension can detect attributes in the image, and suggest the attributes so you can decide whether to assign them. The extension is ready to go. You just need to enable it. For more information, see [The Image Analyzer Extension for Microsoft Finance and Operations, Business edition ](ui-extensions-image-analyzer.md).
+> If you attach pictures to items, the Image Analyzer extension can detect attributes in the image, and suggest the attributes so you can decide whether to assign them. The extension is ready to go. You just need to enable it. For more information, see [The Image Analyzer Extension for Microsoft Business Central ](ui-extensions-image-analyzer.md).
 
 ## To create item attributes
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Attributes**, and then choose the related link.

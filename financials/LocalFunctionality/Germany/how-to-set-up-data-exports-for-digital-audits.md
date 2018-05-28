@@ -40,8 +40,7 @@ You must add record definitions to the data export. Each record definition repre
     |---------------------------------|---------------------------------------|  
     |**Data Export Code**|Select the data export code.<br /><br /> If no data export code exists, you can create a new one.|  
     |**Description**|Specify the description for the record definition.|  
-    |**Export Path**|Specify the path where the exported files will be stored.|  
-
+    
     Next, you must add the relevant .dtd file that is required according to the GDPdU, such as **gdpdu-01-08-2002.dtd**. If you must import a new DTD file to replace an existing file, you must first export the existing DTD file.  
 
 3.  Choose the **Import** action.  

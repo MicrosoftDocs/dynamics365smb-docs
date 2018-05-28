@@ -1,9 +1,8 @@
 ---
-title: Extensions for Finance and Operations, Business edition  Provided by Other Companies | Microsoft Docs
-description: Lists the apps and extensions to customize Finance and Operations, Business edition  provided by other companies.
+title: Extensions for Business Central  Provided by Other Companies | Microsoft Docs
+description: Lists the apps and extensions to customize Business Central  provided by other companies.
 documentationcenter: ''
 author: edupont04
-
 ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na

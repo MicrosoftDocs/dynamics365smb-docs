@@ -1,6 +1,6 @@
 ---
 title: Work with financial overviews in Excel | Microsoft Docs
-description: Learn about how you can open the financial statements in Microsoft Excel from Finance and Operations, Business edition  for better analysis.
+description: Learn about how you can open the financial statements in Microsoft Excel from Business Central  for better analysis.
 author: edupont04
 
 ms.service: dynamics365-financials
@@ -41,4 +41,4 @@ With the add-in, you can get fresh data from [!INCLUDE [d365fin](includes/d365fi
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
-[Working with Finance and Operations, Business edition](ui-work-product.md)  
+[Working with Business Central](ui-work-product.md)  

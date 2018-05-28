@@ -18,9 +18,11 @@ This article provides an overview of some of the shortcut key combinations that 
 ## Overview
 The keyboard shortcuts aide accessibility and can make it easier and more efficient to navigate to different areas and elements on a page.
 
-The keyboard shortcuts are supported by most web browsers; however the behavior may vary slightly.
+The keyboard shortcuts are supported by most web browsers; however, the behavior may vary slightly.
 
 The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.
+
+Most of the shortcuts are the same no matter whether the operating system is Windows or macOS; however, there are some shortcuts are different for macOS. These are indicated in parantheses in the tables in the sections that follow.
 
 ##  <a name="Keyboard"></a> General Keyboard Shortcuts
 The following table describes keyboard shortcuts for navigating and accessing different elements of a page, such as actions, drop-down lists, lookups, and more. For details about keyboard shortcuts for navigating records once you get inside a list, see the next section.
@@ -32,17 +34,15 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Enter|Enable or access the element or control that is in focus.|   
 |Alt+Down Arrow|Open a drop-down list or look up a value for a field.|    
 |Alt+Right Arrow|See the transactions that resulted in a calculated value in a field.|  
+|Esc|Close the current page or drop-down.|
 
 
 ## Keyboard Shortcuts in Lists
 
 The following table describes the keyboard shortcuts that you can use in a list page. The shortcut action is slightly different depending on whether the page is shown in the list view or tile view.
 
-Most of the shortcuts are the same no matter whether the operating system is Windows or macOS; however, there are some shortcuts that are different for macOS than Windows. These are indicated in parantheses in the table as well.
-
->[!Note]
->In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
-
+> [!Note]
+> In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
 
 |Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |Remarks|
 |-----------------|-------|-------|-------|
@@ -59,15 +59,32 @@ Most of the shortcuts are the same no matter whether the operating system is Win
 |Ctrl+End<br />(Fn+Ctrl+Right Arrow)|Select the last row in the list; focus moves to first actionable field in row|Move to the first tile in last row in the list||
 |Ctrl+Click<br />(Cmd+Click)|Extend the selection of rows to include the row that you click.|Not applicable||
 |Shift+Click|Extend the selection of rows to include the row that you click and all the rows in between.|Not applicable|You can use this after using Ctrl+Up Arrow or Ctrl+Up Down to expand your selection.|
-|Ctrl+Up Arrow<br />(Ctrl+Cmd+up Arrow )|Move focus to the row above and keep the current row selected .|Not applicable||
+|Ctrl+Up Arrow<br />(Ctrl+Cmd+up Arrow )|Move focus to the row above and keep the current row selected.|Not applicable||
 |Ctrl+Down Arrow<br />(Ctrl+Cmd+Down Arrow )|Move focus to the row below and keep the current row selected.|Not applicable||
-|Ctrl+Space Bar<br />(Ctrl+Cmd+Space )|Extend the selection of rows to included the focused row.|Not applicable|You can use this after using Ctrl+Up Arrow or Ctrl+Up Down to expand your selection.|
+|Ctrl+Space Bar<br />(Ctrl+Cmd+Space )|Extend the selection of rows to include the focused row.|Not applicable|You can use this after using Ctrl+Up Arrow or Ctrl+Up Down to expand your selection.|
 |Ctrl+A|Select all rows.|Not applicable||
 |Shift+Up Arrow|Extend the selection of rows to include the row above.|Not applicable||
 |Shift+Down Arrow|Extend the selection of rows to include the row below.|Not applicable||
 |Shift+Page Up<br />(Shift+Fn+Up Arrow)|Extend the selection of rows to include all visible rows above the current selection of rows.|Not applicable||
 |Shift+Page Down<br />(Shift+Fn+Down Arrow)|Extend the selection of rows to include all all visible rows below the current selection of rows.|Not applicable||
 |Ctrl+Enter|Move focus to the next element outside the list.|Move focus to the next element outside the list.||
+
+## Keyboard Shortcuts in the Calendar (Date Picker)
+When setting a date field, you can either enter the date manually or open a calendar (date picker) that lets you select the date you want. The following table describes the keyboard shortcuts for the calendar.
+
+|Press these keys<br />(in macOS)|To do this|
+|-----------------|-------|
+|Page Up|Move to the previous month.|  
+|Page Down|Move to the next month.|
+|Ctrl+Home|Open the calendar if closed.|
+|Ctrl+Home<br />(Cmd+Home)|Move to the current month, current day.|
+|Ctrl+Left Arrow<br />(Cmd+Left Arrow)|Move to the previous day.|
+|Ctrl+Right Arrow<br />(Cmd+Right Arrow)|Move to the next day.|
+|Ctrl+Up Arrow<br />(Cmd+Up Arrow)|Move to the previous week, same day of the week.|
+|Ctrl+Down Arrow<br />(Cmd+Down Arrow)|Move to the next week, same day of the week.|
+|Enter|Select the focused date.|
+|Ctrl+End<br />(Cmd+End)|Close the calendar and delete current the date.|
+|Esc|Close the calendar without a selection, keep current date.|
 
 <!--
 ## Keyboard shortcuts in list (shown as tiles)

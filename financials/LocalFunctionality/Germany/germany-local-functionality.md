@@ -1,6 +1,6 @@
 ---
     title: Germany Local Functionality
-    description: The following topics describe the local functionality in the German version of Finance and Operations, Business edition.
+    description: The following topics describe the local functionality in the German version of Business Central.
 
     services: project-madeira
     documentationcenter: ''
@@ -20,7 +20,6 @@
 The following topics describe local functionality that is unique to the German version of [!INCLUDE [d365fin](../../includes/d365fin_md.md)].  
 
 ## In This Section  
-  [Enhanced Document Management](enhanced-document-management.md)  
   [Process for Digital Audits](process-for-digital-audits.md)  
   [Physical Inventory Documents](physical-inventory-documents.md)  
   [VAT Reporting](vat-reporting.md)  

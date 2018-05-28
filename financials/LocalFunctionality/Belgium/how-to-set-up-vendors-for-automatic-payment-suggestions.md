@@ -33,7 +33,6 @@ You can set up each vendor so that unpaid invoices from that vendor are automati
  [Belgian Electronic Banking](belgian-electronic-banking.md)   
  [Belgian Electronic Payments](belgian-electronic-payments.md)   
  [Set Up Electronic Banking](how-to-set-up-electronic-banking.md)   
- [Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md)   
  [Generate Payment Suggestions](how-to-generate-payment-suggestions.md)   
  [Create Payment Journal Templates and Batches](how-to-create-payment-journal-templates-and-batches.md)   
  [Test Electronic Payments](how-to-test-electronic-payments.md)   

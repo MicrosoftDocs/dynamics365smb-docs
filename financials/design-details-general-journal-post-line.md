@@ -1,6 +1,6 @@
 ---
     title: Design Details - General Journal Post Line | Microsoft Docs
-    description: This topic provides insight into the concepts and principles that are used to redesign the general journal posting line feature in Finance and Operations, Business edition.
+    description: This topic provides insight into the concepts and principles that are used to redesign the general journal posting line feature in Business Central.
     author: SorenGP
 
     ms.service: dynamics365-financials

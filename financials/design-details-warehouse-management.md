@@ -1,6 +1,6 @@
 ---
     title: Design Details - Warehouse Management | Microsoft Docs
-    description: This topic provides an overview of the design, concepts, and principles behind the Warehouse Management features in Finance and Operations, Business edition.
+    description: This topic provides an overview of the design, concepts, and principles behind the Warehouse Management features in Business Central.
     author: SorenGP
 
     ms.service: dynamics365-financials

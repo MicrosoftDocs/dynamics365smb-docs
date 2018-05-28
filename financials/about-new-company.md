@@ -1,6 +1,6 @@
 ---
 title: Create new companies using an assisted setup guide | Microsoft Docs
-description: It's easy to create a new, blank company in Finance and Operations, Business edition. An assisted setup guide helps you through the steps, and you can import your existing business data.
+description: It's easy to create a new, blank company in Business Central. An assisted setup guide helps you through the steps, and you can import your existing business data.
 author: edupont04
 
 ms.service: dynamics365-financials
@@ -45,7 +45,7 @@ For example, your company address is included in invoices and other documents, y
 Once you have the basics in place, you can set up remaining core areas. Then, you are ready to add business data, such as customers and vendors. For more information, see [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 ## See Also
-[Customizing Finance and Operations, Business edition](ui-customizing-overview.md)  
+[Customizing Business Central](ui-customizing-overview.md)  
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Changing Basic Settings](ui-change-basic-settings.md)  

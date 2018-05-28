@@ -1,0 +1,71 @@
+﻿Merge remote-tracking branch 'refs/remotes/origin/master' into Update15
+
+# Conflicts:
+#	financials/LocalFunctionality/Spain/calculating-due-dates.md
+#	financials/LocalFunctionality/Spain/cartera-module.md
+#	financials/LocalFunctionality/Spain/corrective-invoices.md
+#	financials/LocalFunctionality/Spain/electronic-payments-aeb-n34.1.md
+#	financials/LocalFunctionality/Spain/electronic-payments-aeb-n341.md
+#	financials/LocalFunctionality/Spain/equivalence-charges-ec-.md
+#	financials/LocalFunctionality/Spain/how-to-create-report-340.md
+#	financials/LocalFunctionality/Spain/how-to-create-report-347.md
+#	financials/LocalFunctionality/Spain/how-to-create-report-349.md
+#	financials/LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-text-file-format.md
+#	financials/LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-xml-file-format.md
+#	financials/LocalFunctionality/Spain/how-to-enter-ccc-codes.md
+#	financials/LocalFunctionality/Spain/how-to-enter-nace-codes.md
+#	financials/LocalFunctionality/Spain/how-to-export-account-schedules-to-asc-format.md
+#	financials/LocalFunctionality/Spain/how-to-export-electronic-payments.md
+#	financials/LocalFunctionality/Spain/how-to-export-vat-statements-in-text-format.md
+#	financials/LocalFunctionality/Spain/how-to-export-vat-statements-in-xml-format.md
+#	financials/LocalFunctionality/Spain/how-to-ignore-discounts-in-general-ledger-accounts.md
+#	financials/LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md
+#	financials/LocalFunctionality/Spain/how-to-pay-vendors-by-using-electronic-payments.md
+#	financials/LocalFunctionality/Spain/how-to-post-and-print-all-transactions-for-a-period.md
+#	financials/LocalFunctionality/Spain/how-to-print-account-book-reports.md
+#	financials/LocalFunctionality/Spain/how-to-print-intrastat-reports.md
+#	financials/LocalFunctionality/Spain/how-to-print-sales-and-purchase-invoice-books.md
+#	financials/LocalFunctionality/Spain/how-to-set-limits-for-due-dates.md
+#	financials/LocalFunctionality/Spain/how-to-set-up-340-reports-for-small-businesses.md
+#	financials/LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md
+#	financials/LocalFunctionality/Spain/how-to-set-up-bank-accounts-for-electronic-payments.md
+#	financials/LocalFunctionality/Spain/how-to-set-up-bank-ccc-codes.md
+#	financials/LocalFunctionality/Spain/how-to-set-up-operation-codes.md
+#	financials/LocalFunctionality/Spain/how-to-set-up-payment-days-and-non-payment-periods.md
+#	financials/LocalFunctionality/Spain/how-to-void-electronic-payments.md
+#	financials/LocalFunctionality/Spain/payments-cartera-module.md
+#	financials/LocalFunctionality/Spain/payments-in-cash.md
+#	financials/LocalFunctionality/Spain/receivables-cartera-module.md
+#	financials/LocalFunctionality/Spain/report-340.md
+#	financials/LocalFunctionality/Spain/report-347.md
+#	financials/LocalFunctionality/Spain/report-349.md
+#	financials/LocalFunctionality/Spain/spain-local-functionality.md
+#	financials/LocalFunctionality/Spain/transaction-numbers.md
+#	financials/LocalFunctionality/Spain/vat-reports.md
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Committer: Brent Holtorf <bholtorf@microsoft.com>
+#
+# On branch Update15
+# Your branch is up-to-date with 'origin/Update15'.
+#
+# All conflicts fixed but you are still merging.
+#
+# Changes to be committed:
+#	new file:   business-central/LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md
+#	modified:   business-central/LocalFunctionality/UnitedStates/united-states-local-functionality.md
+#	modified:   business-central/TOC.md
+#	modified:   business-central/breadcrumb/toc.yml
+#	modified:   business-central/docfx.json
+#	renamed:    business-central/financials-requirements.md -> business-central/product-requirements.md
+#	modified:   business-central/ui-across-business-areas.md
+#
+

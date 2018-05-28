@@ -1,6 +1,6 @@
 ---
     title: United States Local Functionality | Microsoft Docs
-    description: The following topics describe the local functionality in the United States version of Finance and Operations, Business edition.
+    description: The following topics describe the local functionality in the United States version of Business Central.
     author: SorenGP
 
     ms.service: dynamics365-financials

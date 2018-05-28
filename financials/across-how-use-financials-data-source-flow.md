@@ -34,7 +34,7 @@ You can use your [!INCLUDE [d365fin](includes/d365fin_md.md)] data as part of a 
     *When a vendor aproval is requested*.
 5. Flow will prompt you to select a company within your [!INCLUDE [d365fin](includes/d365fin_md.md)] tenant. Because each step in the Flow is independent of the next, you may be required to define the company multiple times when using a [!INCLUDE [d365fin](includes/d365fin_md.md)] template.
 
-At this point, you have successfully connected to your Finance and Operations, Business edition data and are ready to begin building your flow. For more information, see the [Flow documentation](https://flow.microsoft.com/documentation/getting-started/).
+At this point, you have successfully connected to your Business Central data and are ready to begin building your flow. For more information, see the [Flow documentation](https://flow.microsoft.com/documentation/getting-started/).
 
 For troubleshooting your Microsoft Flow, see [Troubleshooting Integration with Microsoft Flow](across-troubleshooting-how-use-financials-data-source-flow.md).
 

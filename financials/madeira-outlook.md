@@ -1,8 +1,7 @@
 ---
-title: Using Finance and Operations, Business edition with Outlook| Microsoft Docs
+title: Using Business Central with Outlook| Microsoft Docs
 description: This service has deep integration with Office 365 enabling you to manage all your business interactions and mail with customers and vendors directly in Outlook.
 author: edupont04
-
 ms.service: dynamics365-financials
 ms.topic: get-started-article
 ms.devlang: na
@@ -13,13 +12,13 @@ ms.date: 06/02/2017
 ms.author: edupont
 
 ---
-# Using Finance and Operations, Business edition as your Business Inbox in Outlook
+# Using Business Central as your Business Inbox in Outlook
 [!INCLUDE [d365fin](includes/d365fin_md.md)] introduces the ability to manage business interactions with your customers and vendors, directly in Microsoft Outlook. With the [!INCLUDE [d365fin](includes/d365fin_md.md)] Outlook add-ins, you can see financial data related to customers and vendors, as well as create and send financial documents, such as quotes and invoices.  
 
 ## Getting the Add-in
 In [!INCLUDE [d365fin](includes/d365fin_md.md)], one of the steps in the Getting Started assisted setup is the **Run your business within Office 365** window. In that window, when you choose the **Set up in Outlook** button, you must specify your Office 365 user name and password. The [!INCLUDE [d365fin](includes/d365fin_md.md)] add-ins are then automatically added to your Outlook.  
 
-Then, when you open Outlook, you will see an email message from Finance and Operations, Business edition Admin. The new add-in is added to the Outlook ribbon, and in Outlook Web Access, you can see it in the add-in ribbon, immediately above the body of the email message. The add-in itself will be updated periodically, and you'll get notified that a new version is ready for you in Outlook.  
+Then, when you open Outlook, you will see an email message from Business Central Admin. The new add-in is added to the Outlook ribbon, and in Outlook Web Access, you can see it in the add-in ribbon, immediately above the body of the email message. The add-in itself will be updated periodically, and you'll get notified that a new version is ready for you in Outlook.  
 
 Some companies using Office 365 restrict users’ permissions to deploy add-ins. So you must make sure that you have an Office 365 subscription that includes email and allows you to deploy add-ins. If you want to try out the add-in anyway, you can [try Office 365 for free](https://products.office.com/try).  
 
@@ -53,7 +52,7 @@ Similarly in the Outlook desktop client, you can verify that [!INCLUDE [d365fin]
 In both cases, if [!INCLUDE [d365fin](includes/d365fin_md.md)] is still not available, you have to get the add-in manifest files. For more information, please contact your Office 365 administrator.
 
 ## See Also
-[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Welcome to [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Finance](finance.md)  
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  

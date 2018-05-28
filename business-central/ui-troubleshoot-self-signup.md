@@ -1,4 +1,4 @@
----
+﻿---
 title: Troubleshoot Issues with Self-Service Sign-Up | Microsoft Docs
 description: Learn about the most common reasons why you may not be able to complete the signup to Business Central , and ways to work around them.
 author: SusanneWindfeldPedersen
@@ -38,7 +38,7 @@ In many cases, registering for [!INCLUDE[d365fin](includes/d365fin_md.md)] can b
 *	Europe:
   *	Austria
   *	Belgium
-	* Denmark
+  *	Denmark
   *	Germany
   *	Finland
   *	France

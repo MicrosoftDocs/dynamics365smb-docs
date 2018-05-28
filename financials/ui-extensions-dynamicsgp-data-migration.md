@@ -13,13 +13,8 @@ ms.date: 03/29/2017
 ms.author: edupont
 
 ---
-<<<<<<< HEAD
-# The Dynamics GP Data Migration Extension for Business Central 
-This extension makes it easy to migrate customers, vendors, inventory items, and accounts from Dynamics GP to [!INCLUDE[d365fin](includes/d365fin_md.md)]. If your business uses Dynamics GP today, you can export the relevant master records and then open an assisted setup guide to add the data to [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Migrate Business Data from Other Finance Systems](upload-data.md).
-=======
-# The Dynamics GP Data Migration Extension for Finance and Operations, Business edition 
+# The Dynamics GP Data Migration Extension for Finance and Operations, Business edition
 This extension makes it easy to migrate customers, vendors, inventory items, and accounts from Dynamics GP to [!INCLUDE [d365fin](includes/d365fin_md.md)]. If your business uses Dynamics GP today, you can export the relevant master records and then open an assisted setup guide to add the data to [!INCLUDE [d365fin](includes/d365fin_md.md)]. For more information, see [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md).
->>>>>>> master
 
 ## Exporting Data from Dynamics GP
 You must have exported some or all of your existing customers, vendors, inventory items, and accounts to a file, using the Dynamics GP functionality for data export. For the purposes of [!INCLUDE [d365fin](includes/d365fin_md.md)], you can export the following types of data:

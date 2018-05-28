@@ -31,10 +31,5 @@ The exported data is saved as an IIF file that you can then upload to [!INCLUDE 
 The QuickBooks Data Migration extension is installed and ready to go as an integrated part of the Data Migration assisted setup guide. If you are ready to get started now, and have exported your data from QuickBooks, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Assisted Setup**, and then choose the related link. Choose **Migrate business data**, and then follow the steps in the guide.  
 
 ## See Also
-<<<<<<< HEAD
 [Importing Business Data from Other Finance Systems](upload-data.md)  
 [Customizing [!INCLUDE [d365fin](includes/d365fin_md.md)] Using Extensions ](ui-extensions.md)  
-=======
-[Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
-[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions ](ui-extensions.md)  
->>>>>>> master

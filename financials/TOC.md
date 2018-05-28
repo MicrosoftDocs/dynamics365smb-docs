@@ -16,13 +16,8 @@
 ## [Using Business Central as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)
 ## [Connecting to Your Business Central Data to Build a Business App Using PowerApps](across-how-use-financials-data-source-powerapps.md)
 ## [Bulk Invoicing for Microsoft Bookings](finance-bookings.md)
-<<<<<<< HEAD
-## [Customizing Business Central Using Extensions](ui-extensions.md)
-## [Importing Business Data from Other Finance Systems](upload-data.md)
-=======
 ## [Customizing Finance and Operations, Business edition Using Extensions](ui-extensions.md)
 ## [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)
->>>>>>> master
 ## [Importing Data from Legacy Accounting Software using a Configuration Package](across-import-data-configuration-packages.md)
 ## [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)
 ### [Use the RapidStart Services Implementer Role Center](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md)

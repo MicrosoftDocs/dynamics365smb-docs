@@ -35,7 +35,7 @@ From the chart of accounts, you can open each G/L account and add or change sett
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
 [Managing Bank Accounts](bank-manage-bank-accounts.md)  
 [Working with Dimensions](finance-dimensions.md)  
-[Importing from Other Finance Systems](upload-data.md)  
+[Importing Data from Other Finance Systems](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE [d365fin](includes/free_trial_md.md)]

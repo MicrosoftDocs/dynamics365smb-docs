@@ -61,7 +61,7 @@ The default configuration package supports the following tables:
 After the customer data has been entered in Excel, you import the data into [!INCLUDE [d365fin](includes/d365fin_md.md)]. In the **Configuration Packages** window, you import the data from the Excel file, and you can validate that the data is consistent with [!INCLUDE [d365fin](includes/d365fin_md.md)] before you apply the package.
 
 ## See Also
-[Importing Business Data from Other Finance Systems](upload-data.md)  
+[Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)  
 [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)  

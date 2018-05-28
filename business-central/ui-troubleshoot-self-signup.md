@@ -35,23 +35,20 @@ In many cases, registering for [!INCLUDE[d365fin](includes/d365fin_md.md)] can b
 ## Regional Availability
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is currently available in the following markets:
 
-*	Europe:
-  *	Austria
-  *	Belgium
-  *	Denmark
-  *	Germany
-  *	Finland
-  *	France
-  *	Italy
-  *	Netherlands
-  *	Spain
-  *	Sweden
-  *	Switzerland
-  *	United Kingdom
-*	North America:
-  *	Canada
-  *	United States
-
+| Europe | North America |
+| --- | --- |
+| Austria | Canada |
+| Belgium | United States |
+| Denmark | |
+| Germany | |
+| Finland | |
+| France | |
+| Italy | |
+| Netherlands | |
+| Spain | |
+| Sweden | |
+| Switzerland | |
+| United Kingdom | |
 
 ## See Also
 [Welcome to [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  

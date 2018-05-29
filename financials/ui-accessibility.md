@@ -2,7 +2,6 @@
 title: Assistive features
 description: Keyboard shortcuts and other assistive features.
 author: edupont04
-
 ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na

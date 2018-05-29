@@ -1,6 +1,6 @@
 ---
-title: Set up email in Finance and Operations, Business edition | Microsoft Docs
-description: Describes how to use the company's SMTP server to send and receive email messages within Finance and Operations, Business edition, or alternatively how to use the email server settings created with the Office 365 subscription.
+title: Set up email in Business Central | Microsoft Docs
+description: Describes how to use the company's SMTP server to send and receive email messages within Business Central, or alternatively how to use the email server settings created with the Office 365 subscription.
 documentationcenter: ''
 author: edupont04
 

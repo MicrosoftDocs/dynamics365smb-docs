@@ -1,6 +1,6 @@
 ---
-title: Customize Dynamics 365 for Finance and Operations, Business edition | Microsoft Docs
-description: Build, showcase, and promote your apps and extensions for Finance and Operations, Business edition .
+title: Customize Dynamics 365 Business Central | Microsoft Docs
+description: Build, showcase, and promote your apps and extensions for Business Central .
 services: project-madeira
 documentationcenter: ''
 author: edupont04
@@ -45,7 +45,7 @@ There are plenty of benefits of using [!INCLUDE [d365fin_long](includes/d365fin_
   For more information about the validation process and how to publish your app, get the [Publish your app.pdf](https://go.microsoft.com/fwlink/?linkid=841517) document from the Download Center.
 
 ## Learn more about extensions v2.0
-The new development tools, which enable to you to build extensions v2.0, are currently in preview and will be enabled in the Finance and Operations, Business edition  service soon. If you already want to familiarize yourself with the new tools or learn more about extensions 2.0, have a look at [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
+The new development tools, which enable to you to build extensions v2.0, are currently in preview and will be enabled in the Business Central  service soon. If you already want to familiarize yourself with the new tools or learn more about extensions 2.0, have a look at [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
 
 ## Need help?
 If you would like some coaching, you can contact an app subject matter expert from the following list:

@@ -1,6 +1,6 @@
 ---
-title: What's New in Finance and Operations, Business edition | Microsoft Docs
-description: Describes the latest news and updates for Finance and Operations, Business edition .
+title: What's New in Business Central | Microsoft Docs
+description: Describes the latest news and updates for Business Central .
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -15,12 +15,12 @@ ms.date: 06/02/2017
 ms.author: sgroespe
 
 ---
-# What's New in Dynamics 365 for Finance and Operations, Business edition
+# What's New in Dynamics 365 Business Central
 Welcome to [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)]! If you haven't already, then sign up for a trial, let us walk you through the basics of what you can do with [!INCLUDE [d365fin](includes/d365fin_md.md)], and then try things out on your own for a while. When you are ready, you can open a blank company and set things up for yourself.  
 
-On a regular basis, we will update [!INCLUDE [d365fin](includes/d365fin_md.md)] with additional capabilities in the core application and with new [extensions](ui-extensions.md). For an overview of what is coming and what is currently available, see the [Finance and Operations, Business edition Roadmap](https://roadmap.dynamics.com/) - and remember to filter for [!INCLUDE [d365fin](includes/d365fin_md.md)].  
+On a regular basis, we will update [!INCLUDE [d365fin](includes/d365fin_md.md)] with additional capabilities in the core application and with new [extensions](ui-extensions.md). For an overview of what is coming and what is currently available, see the [Business Central Roadmap](https://roadmap.dynamics.com/) - and remember to filter for [!INCLUDE [d365fin](includes/d365fin_md.md)].  
 
-On this page, you can see which areas became available while we were still in preview. Going forward, find the updates in the [Finance and Operations, Business edition Roadmap](https://roadmap.dynamics.com/).
+On this page, you can see which areas became available while we were still in preview. Going forward, find the updates in the [Business Central Roadmap](https://roadmap.dynamics.com/).
 
 ## November 2016 Launch of [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)]
 As announced on the blog, we're now a service that you use in your business. But this update also adds new capabilities and a new extension.
@@ -93,16 +93,16 @@ You can add attributes to your inventory items that make it really easy to find 
 
 ### New extensions made available
 With this update, you can choose between even more extensions in the **Extension Management** window.
-For more information, see [[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensions by Other Providers](ui-extensions-other.md).  
+For more information, see [[!INCLUDE [d365fin](includes/d365fin_md.md)] Extensions by Other Providers](ui-extensions-other.md).  
 
 ### Manage your customer relationships using Microsoft Dynamics 365 for Sales from inside [!INCLUDE [d365fin](includes/d365fin_md.md)]
-We have added a new assisted setup guide to the Business Manager Role Center that guides you through the setup process to connect to Dynamics 365 for Sales. Once that is done, you will have a seamless coupling of Dynamics 365 for Sales records with [!INCLUDE [d365fin](includes/d365fin_md.md)] records. For more information, see [Manage your customer relationships using Microsoft Dynamics 365 for Sales from inside [!INCLUDE[d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
+We have added a new assisted setup guide to the Business Manager Role Center that guides you through the setup process to connect to Dynamics 365 for Sales. Once that is done, you will have a seamless coupling of Dynamics 365 for Sales records with [!INCLUDE [d365fin](includes/d365fin_md.md)] records. For more information, see [Manage your customer relationships using Microsoft Dynamics 365 for Sales from inside [!INCLUDE [d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
 
 ## May 2016 Update
 This update of [!INCLUDE [d365fin](includes/d365fin_md.md)] added new capabilities as [announced on the blog](https://community.dynamics.com/business/b/financials/archive/2016/06/01/new-and-updated-capabilities-in-the-first-update-of-project-quot-madeira-quot).  
 
 ### New extensions made available
-Check out the **Extension Management** window: The update adds new extensions, including Sana Commerce for [!INCLUDE [d365fin](includes/d365fin_md.md)] that provides B2B Commerce capabilities, and ChargeLogic Payments that provides payment and credit card processing capabilities. The extensions are not installed automatically for you, but the **Extension Management** window will help you install the extensions that you want to use. For more information, see [[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensions by Other Providers](ui-extensions-other.md).  
+Check out the **Extension Management** window: The update adds new extensions, including Sana Commerce for [!INCLUDE [d365fin](includes/d365fin_md.md)] that provides B2B Commerce capabilities, and ChargeLogic Payments that provides payment and credit card processing capabilities. The extensions are not installed automatically for you, but the **Extension Management** window will help you install the extensions that you want to use. For more information, see [[!INCLUDE [d365fin](includes/d365fin_md.md)] Extensions by Other Providers](ui-extensions-other.md).  
 
 ### Filter on unprocessed incoming documents
 We have also changed some core functionality in this month's update: The list of incoming documents is now filtered to show only entries that have not been used to create posted documents with. For more information, see [Manage Incoming Documents](across-income-documents.md).  
@@ -125,4 +125,4 @@ Key scenarios to try out on your own:
 ## See Also
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Finance and Operations, Business edition Roadmap](https://roadmap.dynamics.com/)  
+[Business Central Roadmap](https://roadmap.dynamics.com/)  

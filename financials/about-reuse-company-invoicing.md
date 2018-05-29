@@ -1,6 +1,6 @@
 ---
-title: Use Invoicing and Finance and Operations, Business edition | Microsoft Docs
-description: Workaround for accessing Microsoft Invoicing when you have signed up for Dynamics 365 for Finance and Operations, Business edition.
+title: Use Invoicing and Business Central | Microsoft Docs
+description: Workaround for accessing Microsoft Invoicing when you have signed up for Dynamics 365 Business Central.
 author: edupont04
 
 ms.service: dynamics365-financials

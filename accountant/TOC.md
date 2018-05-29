@@ -1,4 +1,4 @@
 # [Welcome to Dynamics 365 — Accountant Hub](index.md)
-## [Get Started](get-started.md)
-## [Add Clients to Your Dashboard](add-client.md)
+## [Get started](get-started.md)
+## [Add clients to your dashboard](add-client.md)
 ## [Troubleshooting](troubleshooting.md)

@@ -1,6 +1,6 @@
 ---
-title: Invoice your bookings in Finance and Operations, Business edition | Microsoft Docs
-description: 'Learn how you can do bulk invoicing from Microsoft Bookings in Finance and Operations, Business edition .'
+title: Invoice your bookings in Business Central | Microsoft Docs
+description: 'Learn how you can do bulk invoicing from Microsoft Bookings in Business Central .'
 author: edupont04
 
 ms.service: dynamics365-financials

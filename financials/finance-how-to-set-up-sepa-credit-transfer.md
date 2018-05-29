@@ -1,6 +1,6 @@
 ---
     title: Set up SEPA credit transfer | Microsoft Docs
-    description: Learn how to set up SEPA credit transfer in Finance and Operations, Business edition .
+    description: Learn how to set up SEPA credit transfer in Business Central .
     author: SorenGP
 
     ms.service: dynamics365-financials

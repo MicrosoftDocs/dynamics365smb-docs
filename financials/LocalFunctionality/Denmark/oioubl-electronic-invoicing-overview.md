@@ -43,5 +43,4 @@ For more information, see the entry on OIOUBL profiles in the frequently asked q
 [Denmark Local Functionality](denmark-local-functionality.md)  
  [Set Up OIOUBL](how-to-set-up-oioubl.md)   
  [Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md)   
- [Create Electronic Documents by Using OIOUBL](how-to-create-electronic-documents-by-using-oioubl.md)   
- [EAN Location Number](ean-location-number.md)
+ [Create Electronic Documents by Using OIOUBL](how-to-create-electronic-documents-by-using-oioubl.md)  

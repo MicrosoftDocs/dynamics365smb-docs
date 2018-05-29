@@ -55,4 +55,4 @@ If you assign a bank account to the payment journal template, the bank account w
 ## See Also  
  [Belgian Electronic Payments](belgian-electronic-payments.md)   
  [Set Up Electronic Banking](how-to-set-up-electronic-banking.md)   
- [Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md)
+ 

@@ -1,1 +1,1 @@
-Finance and Operations, Business edition
+Business Central

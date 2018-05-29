@@ -1,6 +1,6 @@
 ---
     title: Fixed Asset Charges
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use fixed asset charges to include additional charges on the purchase of fixed assets in the fixed asset acquisition cost.
+    description: In Business Central, you can use fixed asset charges to include additional charges on the purchase of fixed assets in the fixed asset acquisition cost.
 
     services: project-madeira
     documentationcenter: ''

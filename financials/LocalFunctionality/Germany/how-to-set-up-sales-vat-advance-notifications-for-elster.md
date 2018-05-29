@@ -1,6 +1,6 @@
 ---
     title: How to Set Up Sales VAT Advance Notifications for ELSTER
-    description: In Finance and Operations, Business edition, to submit valid sales VAT advance notifications to the ELSTER portal, you must perform certain setup.
+    description: In Business Central, to submit valid sales VAT advance notifications to the ELSTER portal, you must perform certain setup.
 
     services: project-madeira
     documentationcenter: ''

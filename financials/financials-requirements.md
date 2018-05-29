@@ -1,6 +1,6 @@
 ---
-title: Minimum requirements for using Finance and Operations, Business edition| Microsoft Docs
-description: Learn about the minimum system and version requirements for using Finance and Operations, Business edition.
+title: Minimum requirements for using Business Central| Microsoft Docs
+description: Learn about the minimum system and version requirements for using Business Central.
 author: edupont04
 
 ms.service: dynamics365-financials

@@ -1,5 +1,6 @@
 # [Welcome to Business Central](index.md)
 # [Getting Started](product-get-started.md)
+## [What's New](product-news.md)
 ## [Minimum Requirements](product-requirements.md)
 ## [Frequently Asked Questions](across-faq.md)
 ## [Videos on Common Tasks](across-videos.md)
@@ -28,7 +29,6 @@
 ### [Gather Customer Setup Data](admin-gather-customer-setup-values.md)
 ### [Prepare to Migrate Customer Data](admin-use-templates-to-prepare-customer-data-for-migration.md)
 ### [Migrate Customer Data](admin-migrate-customer-data.md)
-### [Configuring the API Templates](admin-configuring-api-template.md)
 ### [Tips and Tricks: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 
 # [Working with Business Central](ui-work-product.md)
@@ -155,6 +155,7 @@
 ## [Using Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)
 ## [Deleting Documents](admin-manage-documents.md)
 ## [Publishing a Web Service](across-how-publish-web-service.md)
+## [Configuring API Templates](admin-configuring-api-template.md)
 
 # [Finance](finance.md)
 ## [Managing Receivables](receivables-manage-receivables.md)
@@ -296,6 +297,7 @@
 ## [Managing Segments](marketing-segments.md)
 ## [Recording Interactions](marketing-interactions.md)
 ## [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)
+## [Use Profile Questionnaires to Classify Business Contacts](marketing-create-contact-profile-questionnaire.md)
 ## [Managing Customers and Sales Created in Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)
 
 # [Human Resources](hr-manage-human-resources.md)

@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 04/17/2018
+ms.date: 04/25/2018
 ms.author: sgroespe
 
 ---
@@ -29,22 +29,18 @@ You can pay with two types of checks. For both types, the **Bal. Account Type** 
 Your printer must be correctly set up with the check forms, and you must define which check layout to use. For more information, see [Define Check Layouts](finance-how-define-check-layouts.md)
 
 ## To pay a vendor invoice with a computer check
-You can have payment lines filled in automatically by using the **Suggest Vendor Payments** function. Alternatively, if you know who to pay, you can fill in the **Vendor No.** and **Applies-to Doc No.** fields manually.  
+The following describes how to pay a vendor by check. The steps are similar to refund a customer by check.
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.
-2. Fill in the journal with the relevant payment or payments, for example by using the **Suggest Vendor Payments** function. All applies-to information is then also entered on the payment lines. For more information, see [Suggest Vendor Payments](payables-how-suggest-vendor-payments.md).
-3. Alternatively, if you know who to pay, in the **Account No.** field, select the vendor in question.
-4. In the **Payment Method Code** field, select CHECK.
-5. For manual entry, choose the **Applies-to Doc No.** field, and then, in the **Apply Vendor Entries** window, select the relevant invoice, and then choose the **OK** button.
-
-    Many fields, such as the **Amount** field, are now filled in with information from the selected invoice.
-6. In the **Bank Payment Type** field, select **Computer Check**.
-7. Choose **Print Check** action.
-8. In the **Check** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-9. Choose the **Send to** button, select the **PDF Document** option, and then choose the **OK** button.
+2. Fill in the payment journal lines. For more information, see [Record Payments and Refunds](payables-how-post-payments-refunds.md).
+3. In the **Payment Method Code** field, select **Check**.
+4. In the **Bank Payment Type** field, select **Computer Check**.
+5. Choose the **Print Check** action.
+6. In the **Check** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+7. Choose the **Send to** button, select the **PDF Document** option, and then choose the **OK** button.
 
     The physical checks can now be brought to the bank for processing. Proceed to post the payment as applied to the vendor and thereby paid in the system.
-10. Choose the **Post** action.
+8. Choose the **Post** action.
 
 Fully applied vendor ledger entries and bank ledger entries are created.
 
@@ -71,6 +67,7 @@ If you want to review posted checks, for example to verify multiple checks paid 
 2. Set filters as relevant, and then choose the **Preview** button.
 
 ## See Also
+[Making Payments](payables-make-payments.md)  
 [Managing Payables](payables-manage-payables.md)  
 [Setting Up Banking](bank-setup-banking.md)  
 [Export a Positive Pay file](finance-how-positive-pay.md)  

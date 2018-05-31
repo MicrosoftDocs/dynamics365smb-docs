@@ -4,7 +4,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
 # dynamics365smb-docs-pr
-Welcome to the repository for user assistance content for Dynamics 365 for Finance and Operations, Business edition! This product is aimed at small and midsized businesses, and the repo is private. The public repo is here: https://github.com/MicrosoftDocs/dynamics365smb-docs.
+Welcome to the repository for user assistance content for Dynamics 365 Business Central! This product is aimed at small and midsized businesses, and the repo is private. The public repo is here: https://github.com/MicrosoftDocs/dynamics365smb-docs.
 If you have any questions, please contact us through the navua alias.  
 
 

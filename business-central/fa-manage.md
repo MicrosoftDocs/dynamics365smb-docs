@@ -1,10 +1,9 @@
 ---
 title: Manage Fixed Assets| Microsoft Docs
-description: Learn about the fixed assets functionality in Financials and get an overview of how to work with fixed assets.
+description: Learn about the fixed assets functionality and get an overview of how to work with fixed assets.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na

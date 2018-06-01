@@ -41,10 +41,6 @@ You can use account categories to change the layout of your financial statements
 > [!NOTE]  
 > If you did not assign a default column layout to the account schedule, you must set the columns up manually.
 
-### To copy an existing account schedule
-1. In the **Account Schedule** window, select an account schedule, and then choose the **Copy Account Schedule** action.
-2. In the **Copy Account Schedule** window, fill in the fields as necessary, and then choose the **OK** button.
-
 ### To create a column that calculates percentages  
 Sometimes you may want to include a column in an account schedule to calculate percentages of a total. For example, if you have a number of rows that break down sales by dimension, you may want a column to indicate the percentage of total sales that each row represents.
 

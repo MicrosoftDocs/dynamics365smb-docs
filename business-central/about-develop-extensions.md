@@ -1,6 +1,6 @@
 ---
 title: Customize Dynamics 365 Business Central | Microsoft Docs
-description: Build, showcase, and promote your apps and extensions for Business Central .
+description: Build, showcase, and promote your apps and extensions for Business Central.
 services: project-madeira
 documentationcenter: ''
 author: edupont04

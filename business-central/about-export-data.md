@@ -1,6 +1,6 @@
 ---
-title: Export Your Financials Data to Excel| Microsoft Docs
-description: You can export your financial reports and business intelligence data from Business Central  to Excel, or open your Financials data in Excel.
+title: Export Your Business Central Data to Excel| Microsoft Docs
+description: You can export your financial reports and business intelligence data from Business Central  to Excel, or open your data in Excel.
 services: project-madeira
 documentationcenter: ''
 author: edupont04

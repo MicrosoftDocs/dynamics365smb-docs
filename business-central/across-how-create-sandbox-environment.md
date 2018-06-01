@@ -27,7 +27,7 @@ You must have a subscription to [!INCLUDE[d365fin](includes/d365fin_md.md)] to b
 3. Select **Create**.  
   Another tab in your browser will open for finishing the setup of your sandbox environment.
 > [!NOTE]  
->  If you have pop-up blocker enabled in your browser, change it to allow URLs from the *.financials.dynamics.com address.   
+>  If you have pop-up blocker enabled in your browser, change it to allow URLs from the *.businesscentral.dynamics.com address.   
 
 4. When the sandbox environment is ready, you will be redirected to sandbox environment's Welcome wizard.
 ![Sandbox Welcome Wizard](./media/across-sandbox/sandbox-wizard.png)

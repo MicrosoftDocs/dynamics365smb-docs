@@ -1,6 +1,6 @@
 ---
 title: Manage Bank Accounts| Microsoft Docs
-description: You must regularly reconcile bank ledger entries in Financials with the related bank transactions in your bank accounts.
+description: You must regularly reconcile bank ledger entries with the related bank transactions in your bank accounts.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

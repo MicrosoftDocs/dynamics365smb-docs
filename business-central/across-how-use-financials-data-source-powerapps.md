@@ -1,6 +1,6 @@
 ---
 title: Use Your Data to Create an App| Microsoft Docs
-description: You can make your Financials data available as a data source and specify an OData URL of your web services to build a business app using PowerApps.
+description: You can make your Business Central data available as a data source and specify an OData URL of your web services to build a business app using PowerApps.
 services: project-madeira
 documentationcenter: ''
 author: edupont04
@@ -15,7 +15,7 @@ ms.date: 06/02/2017
 ms.author: edupont
 
 ---
-# Connecting to Your Financials Data to Build a Business App Using PowerApps
+# Connecting to Your Business Central Data to Build a Business App Using PowerApps
 You can make your [!INCLUDE[d365fin](includes/d365fin_md.md)] data available as a data source in PowerApps.  
 
 > [!NOTE]  

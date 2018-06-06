@@ -72,11 +72,31 @@ To report VAT to a tax authority electronically, you need to connect [!INCLUDE[d
     >   For the EC Sales List report, you can review the transactions included in the report lines before you submit the report. To do that, choose the line, and then choose the **Show VAT Entries** action.  
 4. To validate and prepare the report for submission, choose the **Release** action.  
 
-    >  [!NOTE]  
+    > [!NOTE]  
     >   [!INCLUDE[d365fin](includes/d365fin_md.md)] validates whether the report is set up correctly. If the validation fails, the errors display under **Errors and Warnings** so that you know what to fix. Typically, if the message is about a missing setting in [!INCLUDE[d365fin](includes/d365fin_md.md)], you can click the message to open the page that contains the information to correct.  
 5. To submit the report, choose the **Submit** action.  
 
 After you submit the report, [!INCLUDE[d365fin](includes/d365fin_md.md)] monitors the service and keeps a record of your communications. The **Status** field indicates where the report is in the process. For example, when the authorities process your report, the status of the report changes to **Succeeded**. If the tax authority found mistakes in the report you submitted, the status of the report will be **Failed**. You can view the errors under **Errors and Warnings**, correct them, and then submit the report again. To view a list of all your EC Sales List reports, go to the **EC Sales List Reports** page.  
+
+<!--## How to define and preview VAT statements
+VAT statements let you calculate your VAT settlement amount for a certain period, for example, a quarter. After you define a VAT statement, you can preview it to make sure it meets your needs. 
+
+To define a VAT statement, follow these steps:
+
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Statements**, and then choose the related link.  
+2. Choose the **Name** field, and then choose **New** on the **VAT Statement Names** page. 
+3. Fill in the required fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!Tip]
+> You can filter the information that the statement will include, depending on what you choose in the **Type** field. **Account Totaling** is useful when you want the VAT from a specific account.
+**VAT Entry Totaling** gets VAT from the accounts assigned to the selections in the **Gen. Posting Type**, **VAT Bus. Posting Group**, and/or the **VAT Prod. Posting Group** fields. For more information, see [Setting Up Value-Added Tax](finance-setup-vat). **Row Totaling** lets you enter a value or quick filter criteria in the **Row Totaling** field. For more information, see [Searching, filtering, and Sorting Data](ui-enter-criteria-filters.md). **Description** is often used to add a note to the statement. For example, you could use it as a heading when you've used row totaling.
+
+To preview the VAT statement, follow these steps:
+
+1. Choose **Preview**.
+2. Enter a date filter to limit the statement to a specific period. For more information about how to customize the page to show the date filter, see [Searching, filtering, and Sorting Data](ui-enter-criteria-filters.md).
+3. You can select various options to specify the type of VAT entries to include in the statement.
+4. On the lines where the **Type** field contains **VAT Entry Totaling** you can see a list of VAT entries by choosing the amount in the **Column Amount** field. --> 
 
 ## Viewing communications with your tax authority
 In some countries, you exchange messages with the tax authority when you submit reports. You can view the first and the last message you sent or received by choosing the **Download Submission Message** and **Download Response Message** actions.  
@@ -87,10 +107,10 @@ If you use another method to submit the report, for example by exporting the XML
 ## VAT settlement
 Periodically, you must remit the net VAT to the tax authorities. If you need to settle VAT frequently, you can run the **Calc. and Post VAT Settlement** batch job to close the open VAT entries and transfer purchase and sales VAT amounts to the VAT settlement account.
 
-When you transfer VAT amounts to the settlement account, the purchase VAT account is credited, and the sales VAT account is debited with the amounts calculated for the specified period. The net amount is credited or debited, if the purchase VAT amount is larger, to the VAT settlement account. You can post the settlement immediately or print a test report first.
+When you transfer VAT amounts to the settlement account, the purchase VAT account is credited, and the sales VAT account is debited with the amounts calculated for the specified period. The net amount is credited or debited, if the purchase VAT amount is larger, to the VAT settlement account. You can post the settlement immediately or print a test report first.  
 
->    [!NOTE]  
->    When you use the **Calc. and Post VAT Settlement** batch job, if you don't specify a **VAT Bus. Posting Group** and a **VAT Prod. Posting group**, entries with all business posting groups and product posting group codes are included.
+> [!Note]
+> When you use the **Calc. and Post VAT Settlement** batch job, if you don't specify a **VAT Bus. Posting Group** and a **VAT Prod. Posting group**, entries with all business posting groups and product posting group codes are included.
 
 ## Configuring your own VAT reports
 You can use the EC Sales List report out-of-the-box, however, you can also create your own reports. This requires that you create a few codeunits. If you need help with that, contact a Microsoft Partner.  
@@ -103,13 +123,13 @@ The following table describes the codeunits that you must create for your report
 |Content | Control the format of the report. For example, whether it is XML or JSON. The format to use depends on the requirements of your tax authority's web service. |
 |Submission | Control how, and when, you submit the report based on the requirements of your tax authority. |
 |Response Handler | Handle the return from the tax authority. For example, it might send an email message to your company's contact person. |
-|Cancel | Send a cancellation of a VAT report that was submitted earlier to your tax authority. |
+|Cancel | Send a cancellation of a VAT report that was submitted earlier to your tax authority. |  
 
-> [!NOTE]  
->   When you create codeunits for the report, pay attention to the value in the **VAT Report Version** field. This field must reflect the version of the report that is, or was, required by the tax authority. For example, you might enter **2017** in the field to indicate that the report conforms to the requirements that were in place that year. To find the current version, contact your tax authority.  
-
+> [!Note]
+> When create codeunits for the report, pay attention to the value in the **VAT Report Version** field. This field must reflect the version of the report that is, or was, required by the tax authority. For example, you might enter **2017** in the field to indicate that the report conforms to the requirements that were in place that year. To find the current version, contact your tax authority.
+ 
 ## See also
 [Setting Up to Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md)  
 [Work with VAT on Sales and Purchases](finance-work-with-vat.md)  
 [Setting Up Sales](sales-setup-sales.md)  
-[Invoice Sales](sales-setup-sales.md)  
+[Invoice Sales](sales-how-invoice-sales.md)  

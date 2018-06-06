@@ -2,14 +2,13 @@
 title: About Setting Up Value-Added Tax | Microsoft Docs
 description: Make sure that you correctly calculate, post, and report on VAT for sales and purchases.
 author: bholtorf
-
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/20/2017
+ms.date: 05/06/2018
 ms.author: bholtorf
 
 ---
@@ -44,9 +43,9 @@ To setup VAT registration numbers, follow these steps:
 2. Choose the country or region, and then choose the **VAT Reg. No. Formats** action.
 3. In the **Formats** field, define the format by entering one or more of the following characters:  
 
-* # - Requires a single-digit number.
-* @ - Requires a letter. This is not case-sensitive.
-* ? - Allows any character.
+* **#** Requires a single-digit number.  
+* **@** Requires a letter. This is not case-sensitive.  
+* **?** Allows any character.  
 
     > [!Tip]
     > You can use other characters as long as they are always present in the country or region format. For example, if you need to include a period or a hyphen between sets of numbers, you can define the format as ##.####.### or @@-###-###.  
@@ -162,8 +161,7 @@ You can view the VAT Registration log on the Customer, Vendor, or Contact cards,
 
 Our service can also save you time when you create a customer or vendor. If you know the customer's VAT number, you can enter it in the **VAT Registration No.** field on the Customer or Vendor cards, and we will fill out the customer name for you. Some countries also provide company addresses in a structured format. In those countries, we fill in the address too.  
 
-> [!NOTE]  
-> There are a couple of things to note about the VIES VAT Number Validation service:
+There are a couple of things to note about the VIES VAT Number Validation service:
 
 * The service uses the http protocol, which means that data transferred through the service is not encrypted.  
 * You may experience downtime for this service for which Microsoft is not responsible. The service is part of a broad EU network of national VAT registers.

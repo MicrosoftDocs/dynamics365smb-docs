@@ -44,4 +44,4 @@ You can set up and use workflows that connect business-process tasks performed b
  [Using Workflows](across-use-workflows.md)   
  [Workflow](across-workflow.md)   
  [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
- [Working with Financials](ui-work-product.md)
+ [Working with Business Central](ui-work-product.md)

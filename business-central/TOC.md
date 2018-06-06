@@ -52,6 +52,7 @@
 ## [Setting Up Finance](finance-setup-finance.md)
 ### [Defining Payment Methods](finance-payment-methods.md)
 ### [Setting Up Posting Groups](finance-posting-groups.md)
+### [Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md)
 ### [Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 ### [Open a New Fiscal Year](finance-how-open-new-fiscal-year.md)
 ### [Setting Up Value-Added Tax](finance-setup-vat.md)
@@ -226,7 +227,7 @@
 
 # [Business Intelligence](bi.md)
 ## [Analyze Actual Amounts Versus Budgeted Amounts](bi-how-analyze-actual-versus-budget.md)
-## [Work with Account Schedules](bi-how-work-account-schedule.md)
+## [Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md)
 ## [Set Up and Publish KPI Web Services Based on Account Schedules](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 ## [Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)
 ## [Create Analysis Reports](bi-how-create-analysis-views-reports.md)

@@ -39,7 +39,7 @@ For more information, see [Using Designer](https://docs.microsoft.com/en-us/dyna
 3.	Choose **Create**. A tab will open where you can finish setting up your sandbox.
 
     > [!Note]
-    > If pop-up blocker is enabled in your browser, change it to allow URLs from the *.financials.dynamics.com* address.  
+    > If pop-up blocker is enabled in your browser, change it to allow URLs from the *.businesscentral.dynamics.com* address.  
 
 4.	When the sandbox is ready, a Welcome page will display.  
 5.	If you want to read about scenarios that you can try in a sandbox, such as how to develop extensions, choose the **Learn more** link. Otherwise, choose **Close** to continue to the Role Center of your [!INCLUDE[d365fin](includes/d365fin_md.md)] sandbox instance.  

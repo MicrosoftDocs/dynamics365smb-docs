@@ -30,7 +30,7 @@ For more information, see [Accountant Experiences in Business Central ](finance-
 >  The current version of the extension requires that your clients use [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## Using the extension
-This extension will be deprecated in a few months. We recommend that you do not install this extension but sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] at [Financials for Accountants on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants) instead.
+This extension will be deprecated in a few months. We recommend that you do not install this extension but sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] at [Business Central for Accountants on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants) instead.
 
 For more information, see [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).  
 

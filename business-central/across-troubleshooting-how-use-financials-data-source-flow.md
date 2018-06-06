@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting Integration with Microsoft Flow| Microsoft Docs
-description: Troubleshoot how you can make your Financials data available as a data source and specify an OData URL of your web services to build an automated workflow.
+description: Troubleshoot how you can make your Business Central data available as a data source and specify an OData URL of your web services to build an automated workflow.
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 

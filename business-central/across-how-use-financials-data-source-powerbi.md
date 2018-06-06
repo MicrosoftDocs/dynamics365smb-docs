@@ -1,8 +1,7 @@
 ---
 title: Setup Reporting for Business Central in Power BI | Microsoft Docs
-description: You can make your Financials data available as a data source in Power BI and build powerful reports of the state of your business.
+description: Make your data available as a data source in Power BI and build powerful reports of the state of your business.
 author: edupont04
-
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na

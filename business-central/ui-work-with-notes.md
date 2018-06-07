@@ -30,7 +30,7 @@
 1.  Open a list of records, such as the **Sales Orders** window, or a card, such as the **Sales Order** window.  
 
     <!-- If **Notes** is not visible on the page, then you can customize the page to display the Notes FactBox. -->
-
+<!--
 2.  Choose the **Notes** action to open the **Notes** window. This window displays any current notes on the record. From here, you can do the following:
 
     -   To view or edit the note, choose **...** and then **Edit**. You can also do this from the **Notes** FactBox if it is available on the page.
@@ -41,7 +41,7 @@
 6.  Select the **Notify** field if you want to send a notification to the user in the **To** field.
 
      If **Notify** is selected, the note will be sent as a notification to the user's **My Notifications** on the Role Center.  -->
-
+<!--OnPrem
 3.  Choose the **OK** button.  -->
 ## See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

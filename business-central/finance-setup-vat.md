@@ -125,7 +125,7 @@ To define a VAT statement, follow these steps:
 
 > [!Tip]
 > You can filter the information that the statement will include, depending on what you choose in the **Type** field. **Account Totaling** is useful when you want the VAT from a specific account.
-**VAT Entry Totaling** gets VAT from the accounts assigned to the selections in the **Gen. Posting Type**, **VAT Bus. Posting Group**, and/or the **VAT Prod. Posting Group** fields. For more information, see [Setting Up Value-Added Tax](finance-setup-vat). **Row Totaling** lets you enter a value or quick filter criteria in the **Row Totaling** field. For more information, see [Searching, filtering, and Sorting Data](ui-enter-criteria-filters.md). **Description** is often used to add a note to the statement. For example, you could use it as a heading when you've used row totaling.
+**VAT Entry Totaling** gets VAT from the accounts assigned to the selections in the **Gen. Posting Type**, **VAT Bus. Posting Group**, and/or the **VAT Prod. Posting Group** fields. **Row Totaling** lets you enter a value or quick filter criteria in the **Row Totaling** field. For more information, see [Searching, filtering, and Sorting Data](ui-enter-criteria-filters.md). **Description** is often used to add a note to the statement. For example, you could use it as a heading when you've used row totaling.
 
 To preview the VAT statement, follow these steps:
 
@@ -139,7 +139,7 @@ You set up a VAT clause to describe information about the type of VAT that is be
 
 If needed, you can also specify how to translate VAT clauses to other languages. Then, when you create and print a sales document that contains a VAT identifier, the document will include the translated VAT clause. The language code specified on the Customer card determines the language.
 
-You can modify or delete a VAT clause, and your modifications will be reflected in a generated report. However, [!INCLUDE[d365fin](includes/d365fin_md.md)] does not keep a history of the change. On the report, the VAT clause descriptions are printed and displayed for all lines in the report alongside the VAT amount and the VAT base amount. If a VAT clause has not been defined for any lines on the sales document, then the whole section is omitted when the report is printed.
+You can modify or delete a VAT clause, and your modifications will be reflected in a generated report. However, [!INCLUDE[d365fin](includes/d365fin_md.md)]does not keep a history of the change. On the report, the VAT clause descriptions are printed and displayed for all lines in the report alongside the VAT amount and the VAT base amount. If a VAT clause has not been defined for any lines on the sales document, then the whole section is omitted when the report is printed.
 
 ### To set up VAT clauses
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Clauses**, and then choose the related link.  

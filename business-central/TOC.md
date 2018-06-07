@@ -36,7 +36,6 @@
 ## [Sorting Data](ui-sorting.md)
 ## [Entering Date Ranges](ui-enter-date-ranges.md)
 ## [Detecting Mandatory Fields](ui-mandatory-fields.md)
-## [Add and View Notes on Records](ui-work-with-notes.md)
 ## [Customizing Business Central](ui-customizing-overview.md)
 ## [Displaying Lists in Different Ways](across-display-lists-different-views.md)
 ## [Setting Up a Colored Indicator on Cues](ui-how-setup-colored-indicator-cues.md)

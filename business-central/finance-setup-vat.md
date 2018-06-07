@@ -111,6 +111,29 @@ The following sections describe how to assign VAT posting groups to individual e
 * On the **Resource** card, expand the **Invoicing** FastTab.  
 3. Choose the VAT product posting group.  
 
+## Setting up VAT statement templates and VAT statement names
+Tax authorities can, and do, change their requirements for posting VAT. **VAT statement templates** and **VAT statement names** can help you prepare for upcoming changes and make a smooth transition to the new requirements. You can use VAT statement templates to define the fields to include in your VAT statement, which in turn define the calculations, and you can create a new VAT statement template when requirements change. For example, one template might calculate VAT for this year based on the current requirements, and another might calculate VAT based on requirements for next year. Templates are also a way to keep a history of VAT statement formats, for example, so that you can look back to see how you calculated VAT in previous years.
+
+## How to define and preview VAT statements
+VAT statements let you calculate your VAT settlement amount for a certain period, for example, a quarter. After you define a VAT statement, you can preview it to make sure it meets your needs. 
+
+To define a VAT statement, follow these steps:
+
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Statements**, and then choose the related link.  
+2. Choose the **Name** field, and then choose **New** on the **VAT Statement Names** page. 
+3. Fill in the required fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!Tip]
+> You can filter the information that the statement will include, depending on what you choose in the **Type** field. **Account Totaling** is useful when you want the VAT from a specific account.
+**VAT Entry Totaling** gets VAT from the accounts assigned to the selections in the **Gen. Posting Type**, **VAT Bus. Posting Group**, and/or the **VAT Prod. Posting Group** fields. For more information, see [Setting Up Value-Added Tax](finance-setup-vat). **Row Totaling** lets you enter a value or quick filter criteria in the **Row Totaling** field. For more information, see [Searching, filtering, and Sorting Data](ui-enter-criteria-filters.md). **Description** is often used to add a note to the statement. For example, you could use it as a heading when you've used row totaling.
+
+To preview the VAT statement, follow these steps:
+
+1. Choose **Preview**.
+2. Enter a date filter to limit the statement to a specific period. For more information about how to customize the page to show the date filter, see [Searching, filtering, and Sorting Data](ui-enter-criteria-filters.md).
+3. You can select various options to specify the type of VAT entries to include in the statement.
+4. On the lines where the **Type** field contains **VAT Entry Totaling** you can see a list of VAT entries by choosing the amount in the **Column Amount** field.   
+
 ## To set up clauses to explain the use of non-standard VAT rates
 You set up a VAT clause to describe information about the type of VAT that is being applied. The information may be required by government regulation. After you set up a VAT clause, and associate it with a VAT posting setup, the VAT clause is displayed on printed sales documents that use the VAT posting setup group.
 

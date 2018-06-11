@@ -27,7 +27,6 @@ The following table lists the experiences that are currently available.
 
 | Experience | Impact on User Interface |
 | --- | --- |
-| **Basic** |Shows only core actions and fields within the most common business functionality, such as sales, purchasing, inventory, and finance. |
 | **Essential** |Shows all actions and fields for all common business functionality.|
 | **Premium** |Shows all actions and fields for all business functionality, including Manufacturing and Service Management.|
 

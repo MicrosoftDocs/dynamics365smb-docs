@@ -1,6 +1,6 @@
 ---
-title: How to Connect Power BI to Finance and Operations, Business edition | Microsoft Docs
-description: Getting insight, business intelligence, and KPIs from your Finance and Operations, Business edition data is easy with Power BI and the Finance and Operations, Business edition content packs.
+title: How to Connect Power BI to Business Central | Microsoft Docs
+description: Getting insight, business intelligence, and KPIs from your Business Central data is easy with Power BI and the Business Central content packs.
 author: SusanneWindfeldPedersen
 
 ms.service: dynamics365-financials
@@ -13,24 +13,24 @@ ms.date: 02/05/2018
 ms.author: solsen
 
 ---
-# Connecting Power BI to Finance and Operations, Business edition Content Packs
-Getting insights into your Microsoft [!INCLUDE [d365fin_long_md](includes/d365fin_long_md.md)] data is easy with Power BI and the Microsoft [!INCLUDE [d365fin_long_md](includes/d365fin_long_md.md)] content packs. Power BI retrieves your data then builds an out-of-the-box dashboard and reports based on that data.
+# Connecting Power BI to Business Central Content Packs
+Getting insights into your Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] data is easy with Power BI and the Microsoft [!INCLUDE [d365fin_long_md](includes/d365fin_long_md.md)] content packs. Power BI retrieves your data then builds an out-of-the-box dashboard and reports based on that data.
 
 > [!NOTE]  
->  You must have a valid account with Dynamics 365 and with Power BI. Also, you must download [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/).  
+>  You must have a valid account with [!INCLUDE[d365fin](includes/d365fin_md.md)] and with Power BI. Also, you must download [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/).  
 >  Power BI content packs require permissions to the tables where data is retrieved from. More details on the requirements are described below.  
 
 ## How to Connect
 1. Select **Get Data** at the bottom of the left navigation pane.  
    ![Navigating to Get Data](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 2. In the **Services** box, select **Get**. This will open a window with the **AppSource** and **Apps for Power BI apps**.  
-   ![Choose content packs from online services](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)
-3. Select **Apps** from the **Apps for Power BI apps** tab, and choose the **Microsoft Dynamics 365 for Finance and Operations** content pack that you want to use, and then select **Get it now**.  
-   ![Select Dynamics 365 for Finance and Operations, Business edition and select Get it now](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-dynamics365-for-financials-get-it-now.png)
-4. When prompted, enter the name of *your company* in [!INCLUDE [d365fin_md](includes/d365fin_long_md.md)]. This is not the display name.  
-   ![Select Dynamics 365 for Finance and Operations, Business edition and select Get it now](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-connect-to-d365-finance-and-operations-crm.png)
+![Choose content packs from online services](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)
+3. Select **Apps** from the **Apps for Power BI apps** tab, and choose the **Microsoft Dynamics 365 Business Central** content pack that you want to use, and then select **Get it now**.  
+![Select Dynamics 365 Business Central and select Get it now](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-dynamics365-for-financials-get-it-now.png)
+4. When prompted, enter the name of *your company* in [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)]. This is not the display name.  
+![Select Dynamics 365 Business Central and select Get it now](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-connect-to-d365-finance-and-operations-crm.png)
 5. Once connected, a dashboard, report and dataset will automatically be loaded into your Power BI workspace. When completed, the tiles will update with data from your account.
-   ![Select Dynamics 365 for Finance and Operations, Business edition  and select Get it now](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
+![Select Dynamics 365 Business Central  and select Get it now](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
 ## What Now?
 
@@ -42,25 +42,25 @@ Getting insights into your Microsoft [!INCLUDE [d365fin_long_md](includes/d365fi
 ## System Requirements
 To import your [!INCLUDE [d365fin_long_md](includes/d365fin_long_md.md)] data into Power BI, you need to have permissions to the web services used to retrieve data. The web services required for each content pack include:
 
-**Microsoft Dynamics 365 for Finance and Operations, Business edition – CRM**
+**Microsoft Dynamics 365 Business Central – CRM**
 - SalesOpportunities
 - ExcelTemplateViewCompany
 
-**Microsoft Dynamics 365 for Finance and Operations, Business edition – Sales**
+**Microsoft Dynamics 365 Business Central – Sales**
 - ItemSalesbyCustomer
 - SalesDashboard
 - ExcelTemplateViewCompany
 
-**Microsoft Dynamics 365 for Finance and Operations, Business edition – Finance**
+**Microsoft Dynamics 365 Business Central – Finance**
 - PowerBIFinance
 - ExcelTemplateViewCompany
 
-**Microsoft Dynamics 365 for Finance and Operations, Business edition – Jobs**
+**Microsoft Dynamics 365 Business Central – Jobs**
 - Job List
 - Job Planning Lines
 - Job Task Lines
 
-**Microsoft Dynamics 365 for Finance and Operations, Business edition – Customers List**
+**Microsoft Dynamics 365 Business Central – Customers List**
 - ItemSalesbyCustomer
 - Power_BI_Item_Purchase_List
 - Power_BI_Item_Sales_List
@@ -68,7 +68,7 @@ To import your [!INCLUDE [d365fin_long_md](includes/d365fin_long_md.md)] data in
 - Power_BI_Customer_List
 - ExcelTemplateViewCompany
 
-**Microsoft Dynamics 365 for Finance and Operations, Business edition – Items List**
+**Microsoft Dynamics 365 Business Central – Items List**
 - ItemSalesbyCustomer
 - Power_BI_Item_Purchase_List
 - Power_BI_Item_Sales_List
@@ -76,7 +76,7 @@ To import your [!INCLUDE [d365fin_long_md](includes/d365fin_long_md.md)] data in
 - SalesDashboard
 - ExcelTemplateViewCompany
 
-**Microsoft Dynamics 365 for Finance and Operations, Business edition – Vendors List**
+**Microsoft Dynamics 365 Business Central – Vendors List**
 - ItemSalesbyCustomer
 - Power_BI_Item_Purchase_List
 - Power_BI_Item_Sales_List
@@ -109,7 +109,7 @@ If you enter a non valid company name during the connection process, you may get
 [Power BI - Basic Concepts](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts)
 [Business Intelligence](bi.md)  
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Importing Business Data from Other Finance Systems](upload-data.md)  
+[Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finance](finance.md)  
 [Setup Reporting for [!INCLUDE[d365fin](includes/d365fin_md.md)] in Power BI](across-how-use-financials-data-source-powerbi.md)  

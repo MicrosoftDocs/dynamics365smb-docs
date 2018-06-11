@@ -1,6 +1,6 @@
 ---
 title: Export Your Financials Data to Excel| Microsoft Docs
-description: You can export your financial reports and business intelligence data from Finance and Operations, Business edition  to Excel, or open your Financials data in Excel.
+description: You can export your financial reports and business intelligence data from Business Central  to Excel, or open your Financials data in Excel.
 services: project-madeira
 documentationcenter: ''
 author: edupont04
@@ -60,7 +60,7 @@ We recommend that you also consider exporting data from the following pages:
 
 ## See Also
 [Canceling Your Subscription for [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md)  
-[Importing Business Data from Other Finance Systems](upload-data.md)  
+[Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Finance](finance.md)  
 [General Business Functionality](ui-across-business-areas.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

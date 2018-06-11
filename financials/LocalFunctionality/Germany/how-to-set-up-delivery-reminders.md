@@ -1,6 +1,8 @@
 ---
     title: How to Set Up Delivery Reminders
-    description: In Finance and Operations, Business edition, you can use purchase delivery reminders to remind vendors about overdue deliveries.
+    description: In Business Central, you can use purchase delivery reminders to remind vendors about overdue deliveries.
+
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 

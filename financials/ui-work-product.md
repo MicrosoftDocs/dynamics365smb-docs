@@ -1,6 +1,6 @@
 ---
-title: Working with the General Functionality in Finance and Operations, Business edition  | Microsoft Docs
-description: Describes the general functionality you use to interact with data in Finance and Operations, Business edition, such as entering values, sorting data, and changing views.
+title: Working with the General Functionality in Business Central  | Microsoft Docs
+description: Describes the general functionality you use to interact with data in Business Central, such as entering values, sorting data, and changing views.
 services: ''
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -43,7 +43,7 @@ The following table lists some of the general functionality with links to topics
 
 ## See Also
 [Getting Started](index.md)  
-[Setting Up Finance and Operations, Business edition](setup.md)  
+[Setting Up Business Central](setup.md)  
 [General Business Functionality](ui-across-business-areas.md)  
 
 ## [!INCLUDE [d365fin](includes/free_trial_md.md)]  

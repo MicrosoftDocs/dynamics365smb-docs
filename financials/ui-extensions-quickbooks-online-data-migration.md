@@ -1,6 +1,6 @@
 ---
 title: Using the QuickBooks Migration Extension | Microsoft Docs
-description: Describes how to use the extension to migrate customers, vendors, items, and accounts from QuickBooks Online to Finance and Operations, Business edition.
+description: Describes how to use the extension to migrate customers, vendors, items, and accounts from QuickBooks Online to Business Central.
 author: bholtorf
 
 ms.service: dynamics365-financials
@@ -14,7 +14,7 @@ ms.author: bholtorf
 
 ---
 
-# The QuickBooks Online Data Migration Extension for Finance and Operations, Business edition
+# The QuickBooks Online Data Migration Extension for Business Central
 This extension is included in the **Data Migration** assisted setup guide to help you migrate important business data from QuickBooks Online to [!INCLUDE [d365fin](includes/d365fin_md.md)]. For example, this is useful when your business is growing, and you've decided to upgrade your business management app by starting to use [!INCLUDE [d365fin](includes/d365fin_md.md)].
 
 ## What data can I import from QuickBooks Online?
@@ -60,5 +60,5 @@ There are a few things in particular that you should do:
 * Verify the beginning balances for accounts in the general ledger. QuickBooks Online does not store the current balance for all accounts, so you might need to correct beginning balances.
 
 ## See Also
-[Importing Business Data from Other Finance Systems](upload-data.md)  
+[Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  

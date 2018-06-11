@@ -2,7 +2,7 @@
     title: How to Print an Inventory Picking List from a Sales Order
     description: You can print an inventory picking list directly from a sales order.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -36,6 +36,5 @@ The picking list includes only those items with a shipping quantity greater than
 
 ## See Also  
  [Swiss Purchase Documents and Sales Documents](swiss-purchase-documents-and-sales-documents.md)   
- [Set Up Automatic Archiving of Documents in Switzerland](how-to-set-up-automatic-archiving-of-documents-in-switzerland.md)   
  [Import Swiss Post Codes](how-to-import-swiss-post-codes.md)   
  [Print Sales and Purchase Orders During Batch Posting](how-to-print-sales-and-purchase-orders-during-batch-posting.md)

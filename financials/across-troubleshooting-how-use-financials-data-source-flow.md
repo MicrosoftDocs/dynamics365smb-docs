@@ -44,7 +44,7 @@ For example, if the table that you are using as a data source has 4,000 records,
 ## See Also
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] in an Automated Workflow](across-how-use-financials-data-source-flow.md)  
 [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Importing Business Data from Other Finance Systems](upload-data.md)  
+[Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Manage Users and Permissions](ui-how-users-permissions.md)    
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finance](finance.md)  

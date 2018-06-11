@@ -39,7 +39,7 @@ For more information, see the [Power BI documentation](https://powerbi.microsoft
 ## See Also
 [Business Intelligence](bi.md)  
 [Getting Started](product-get-started.md)  
-[Importing Business Data from Other Finance Systems](upload-data.md)  
+[Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)   
 [Finance](finance.md)  
 [Connecting Power BI to [!INCLUDE[d365fin](includes/d365fin_md.md)]](across-how-to-connect-powerbi-dynamics-365-content-packs-help.md)  

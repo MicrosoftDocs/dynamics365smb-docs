@@ -1,6 +1,6 @@
 ---
     title: How to Set Up Validation of Purchase Amounts
-    description: In Finance and Operations, Business edition, you can activate the **Check Doc. Total Amounts** function to validate the total amount of purchase documents before posting a purchase invoice and purchase credit memo.
+    description: In Business Central, you can activate the **Check Doc. Total Amounts** function to validate the total amount of purchase documents before posting a purchase invoice and purchase credit memo.
 
     services: project-madeira
     documentationcenter: ''

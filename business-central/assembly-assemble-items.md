@@ -10,7 +10,7 @@
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
-    ms.search.keywords:
+    ms.search.keywords: kit, kitting
     ms.date: 09/26/2017
     ms.author: sgroespe
 

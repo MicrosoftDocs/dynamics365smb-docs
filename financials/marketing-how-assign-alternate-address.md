@@ -37,4 +37,4 @@ Repeat these steps to assign as many date ranges as you want.
 
 ## See Also
 [Create Contact Companies](marketing-create-contact-companies.md)  
-[Working with Finance and Operations, Business edition](ui-work-product.md)
+[Working with Business Central](ui-work-product.md)

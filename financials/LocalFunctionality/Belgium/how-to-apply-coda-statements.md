@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 03/16/2018
     ms.author: sgroespe
 
 ---
@@ -60,7 +60,6 @@ Statement amounts can be applied to outstanding ledger entries by:
 ## See Also  
  [CODA Bank Statements](coda-bank-statements.md)   
  [Set Up Bank Accounts for CODA](how-to-set-up-bank-accounts-for-coda.md)   
- [Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md)   
  [Import CODA Statements](how-to-import-coda-statements.md)   
  [Create Financial Journals](how-to-create-financial-journals.md)   
  [Automatically Transfer and Post CODA Statements](how-to-automatically-transfer-and-post-coda-statements.md)   

@@ -88,7 +88,7 @@ To import your [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] data int
 - Excel Template View Company
 - Power BI Report Labels
 
-## List Page Reports 
+## List Page Reports
 
 **Microsoft Dynamics 365 Business Central – Customers List**
 - Item Sales by Customer
@@ -97,7 +97,7 @@ To import your [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] data int
 - Sales Dashboard
 - Power BI Customer List
 - ExcelTemplateViewCompany
-- Power BI Report Labels 
+- Power BI Report Labels
 
 **Microsoft Dynamics 365 Business Central - General Ledger Entries List**
 - Power BI GL Amount List
@@ -158,9 +158,9 @@ If you enter a non-valid company name during the connection process, you may get
 [Power BI - Basic Concepts](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts)  
 [Business Intelligence](bi.md)  
 [Getting Started](product-get-started.md)  
-[Importing Business Data from Other Finance Systems](upload-data.md)  
+[Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Migrate Business Data from Other Finance Systems](upload-data.md)  
+[Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as a PowerApps Data Source](across-how-use-financials-data-source-powerapps.md)  
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] in Microsoft Flow](across-how-use-financials-data-source-flow.md)   

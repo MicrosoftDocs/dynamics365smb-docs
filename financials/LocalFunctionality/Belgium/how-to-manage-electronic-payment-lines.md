@@ -1,7 +1,7 @@
 ---
     title: How to Manage Electronic Payment Lines
-    description: You can have [!INCLUDE[d365fin](../../includes/d365fin_md.md)] suggest payments automatically and then you can add more payments manually. You can also edit or delete suggested payments.
-
+    description: You can have Business Central suggest payments automatically and then you can add more payments manually. You can also edit or delete suggested payments.
+    redirect_url: belgian-electronic-payments
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -33,5 +33,4 @@ You can have [!INCLUDE [d365fin](../../includes/d365fin_md.md)] suggest payments
 
 ## See Also  
  [Belgian Electronic Payments](belgian-electronic-payments.md)   
- [Generate Payment Suggestions](how-to-generate-payment-suggestions.md)   
- [Test Electronic Payments](how-to-test-electronic-payments.md)
+ 

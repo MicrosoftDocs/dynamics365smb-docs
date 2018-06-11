@@ -33,4 +33,4 @@ The following table describes a sequence of tasks, with links to the topics that
 ## See Also
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
 [Setting Up Relationship Management](marketing-setup-marketing.md)  
-[Working with Finance and Operations, Business edition](ui-work-product.md)  
+[Working with Business Central](ui-work-product.md)  

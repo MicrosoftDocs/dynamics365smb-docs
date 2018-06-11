@@ -51,6 +51,6 @@ At this point, you have successfully connected to your Business Central data and
 
 ## See Also
 [Getting Started](product-get-started.md)  
-[Importing Business Data from Other Finance Systems](upload-data.md)  
+[Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finance](finance.md)  

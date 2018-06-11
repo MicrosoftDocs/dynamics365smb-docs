@@ -70,6 +70,7 @@ The content is styled using a Markdown syntax as described below. You don't have
 
 ### General info:
 [Getting started with writing and formatting on GitHub](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
+We have a template that you can use to create new files from. It's located in the root of the repo.
 
 ### Authoring tools:
 If you want to work locally, you can edit using any text editor. Just save the file as a .md type. Here are a couple good tools that provide you with some nice features, such as Preview.  
@@ -85,8 +86,8 @@ title: 'Short title with a couple of buzzwords for the feature. Not the same as 
 description: 'A longer description that identifies the topic in search results.'
 author: MyGitHubAccount
 ms.author: MyDomainAccount
-ms-service: dynamics365-financials
-ms.topic: article
+ms-service: dynamics365-busienss-central
+ms.topic: conceptual
 ms.search.keywords:keyword1, keyword2
 ms.date: MM/DD/YYYY
 
@@ -264,7 +265,7 @@ All fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] have tooltips. Therefo
 |Select a Company|ui-how-select-company.md|
 |Enter Criteria in Filters|ui-enter-criteria-filters.md|
 |Troubleshooting: Record Locked by Another User|ui-troubleshoot-record-locked-another-user.md|
-[Changing Basic Settings](ui-change-basic-settings.md)
+|Changing Basic Settings|ui-change-basic-settings.md|
 |Sales|sales-manage-sales.md|
 |Set Up Currencies|finance-setup-currencies.md|
 |Set Up Purchasers|purchases-how-setup-purchasers.md|

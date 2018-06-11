@@ -34,6 +34,7 @@ The following topics describe local functionality that is unique to the German v
   [Print Sales and Purchase Orders During Batch Posting](how-to-print-sales-and-purchase-orders-during-batch-posting.md)  
   [Print Vendor Payments List Reports](how-to-print-vendor-payments-list-reports.md)  
   [EU Sales List in Germany](eu-sales-list-in-germany.md)  
+  [Certification of Business Central for German market (document is in German)](https://go.microsoft.com/fwlink/?linkid=875256) 
 
 ## See Also
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  

@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/18/2017
+    ms.date: 06/08/2018
     ms.author: sgroespe
 
 ---
@@ -33,12 +33,8 @@ You use an external service provider to exchange electronic documents with your 
     |**Token**|Enter the 3-legged OAuth key for the token. This is provided by the document exchange service provider.|  
     |**Token Secret**|Enter the secret that protects the token. This is provided by the document exchange service provider.|  
 
-> [!NOTE]  
->  It is recommended that you protect the logon information that you enter in the **VAN Service Setup** window. You can encrypt data on the server by generating new or importing existing encryption keys that you enable on the server instance that connects to the database. This is described in the following procedure.  
-
-## To encrypt your logon information  
-1. In the **VAN Service Setup** window, choose the **Encryption Management** action.  
-2. In the **Data Encryption Management** window, enable encryption of your data. <!--For more information, see [Manage Data Encryption](../manage-data-encryption.md).-->  
+    > [!NOTE]  
+    > You login data is automatically encrypted.
 
 ## See Also  
 [Setting Up Data Exchange](across-set-up-data-exchange.md)  

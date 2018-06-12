@@ -1,5 +1,5 @@
 ---
-title: Personalizing Pages in Financials | Microsoft Docs
+title: Personalizing Pages | Microsoft Docs
 description: Learn how to customize the user interface to suit your way of working.
 services: project-madeira
 documentationcenter: ''

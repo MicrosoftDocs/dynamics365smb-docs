@@ -1,5 +1,5 @@
 ---
-title: Financials accountant experience | Microsoft Docs
+title: Business Central accountant experience | Microsoft Docs
 description: Learn about the accountant portal for Business Central and the Accountant Role Center that supports internal and external accountants in the client company.
 author: edupont04
 

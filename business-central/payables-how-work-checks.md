@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 04/25/2018
+ms.date: 06/06/2018
 ms.author: sgroespe
 
 ---
@@ -27,6 +27,8 @@ You can pay with two types of checks. For both types, the **Bal. Account Type** 
 > To make sure that your bank only clears validated checks and amounts, you can send them a file that contains vendor, check, and payment information. For more information, see [Export a Positive Pay file](finance-how-positive-pay.md).
 
 Your printer must be correctly set up with the check forms, and you must define which check layout to use. For more information, see [Define Check Layouts](finance-how-define-check-layouts.md)
+
+You can print up to 10 invoices on a page for a check stub. If a check applies to more than 10 invoices, when you print the stub we void the check on the first page and print the word VOID on the check. We then print the remainder of the invoices and the total check amount on the second page. 
 
 ## To pay a vendor invoice with a computer check
 The following describes how to pay a vendor by check. The steps are similar to refund a customer by check.

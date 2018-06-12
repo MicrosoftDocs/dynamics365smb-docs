@@ -17,7 +17,7 @@
 ---
 
 # Viewing Service Statistics
-Financials can provide some statistics that you can use to analyze service documents and determine how well you are managing your service processes. You can analyze service contracts, items, quotes, orders, invoices, and credit memos by choosing the **Statistics** action. For service items and contracts, you can also use the **Service Item Trendscape** or **Contract Trendscape** to view a summary of service ledger entries for a specific service item.   
+You can use statistics to analyze service documents and determine how well you are managing your service processes. You can analyze service contracts, items, quotes, orders, invoices, and credit memos by choosing the **Statistics** action. For service items and contracts, you can also use the **Service Item Trendscape** or **Contract Trendscape** to view a summary of service ledger entries for a specific service item.   
 
 ## Viewing Statistics for Service Orders
 The service order statistics feature gives you a quick overview of the contents of the entire service order, the details on the specific service lines, and information related to invoicing, shipping and consuming, and the customer's balance.  

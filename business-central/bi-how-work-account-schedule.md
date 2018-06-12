@@ -42,7 +42,8 @@ You can use account categories to change the layout of your financial statements
 > If you did not assign a default column layout to the account schedule, you must set the columns up manually.
 
 ### To copy an existing account schedule
-1. In the **Account Schedule** window, select an account schedule, and then choose the **Copy Account Schedule** action.
+The account schedules in the standard version of [!INCLUDE[d365fin](includes/d365fin_md.md)] are the basis of the standard financial reports, which may not suit the needs of your business. To quickly create your own financial reports, you can start by copying an existing account schedule.
+1. In the **Account Schedules** window, select an account schedule, and then choose the **Copy Account Schedule** action.
 2. In the **Copy Account Schedule** window, fill in the fields as necessary, and then choose the **OK** button.
 
 ### To create a column that calculates percentages  

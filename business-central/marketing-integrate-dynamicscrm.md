@@ -1,6 +1,6 @@
 ---
-title: Manage Customers Using Sales| Microsoft Docs
-description: You can use Sales from inside Business Central  to map data and have seamless integration and synchronization in the lead-to-cash process.
+title: Manage Customers Using Dynamics 365 for Sales| Microsoft Docs
+description: You can use Dynamics 365 for Sales from inside Business Central  to map data and have seamless integration and synchronization in the lead-to-cash process.
 documentationcenter: ''
 author: edupont04
 
@@ -13,8 +13,8 @@ ms.search.keywords: integration, synchronize, map
 ms.date: 06/19/2018
 ms.author: edupont
 ---
-# Managing Customers and Sales Created in Sales
-If you use Sales (Sales) for customer engagement, you can use [!INCLUDE[d365fin](includes/d365fin_md.md)] for order processing and finances and have seamless integration in the lead-to-cash process.
+# Managing Customers and Sales Created in Dynamics 365 for Sales
+If you use Dynamics 365 for Sales (Sales) for customer engagement, you can use [!INCLUDE[d365fin](includes/d365fin_md.md)] for order processing and finances and have seamless integration in the lead-to-cash process.
 
 When your application is set up to integrate with Sales, you have access to Sales data from [!INCLUDE[d365fin](includes/d365fin_md.md)] and the other way around in some cases. This integration enables you to work with and synchronize data types that are common to both services, such as customers, contacts, and sales information, and keep the data up to date in both locations.  
 
@@ -28,10 +28,10 @@ Sales entities, such as accounts, are integrated with equivalent [!INCLUDE[d365f
 The following table lists the [!INCLUDE[d365fin](includes/d365fin_md.md)] record types (tables) and corresponding Sales entities that can be synchronized out-of-the-box.
 
 |[!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales|Synchronization Direction|Default Filter|
-|-------------------------------------------|----------------------|-------------------------|--------------|
+|-------------------------------------------|-----|-------------------------|--------------|
 |Salesperson/Purchaser|User|Sales -> Business Central|Sales contact filter: **Status** is **No**, **User Licensed** is **Yes**, Integration user mode is **No**|
 |Customer|Account|Business Central -> Sales and Sales -> Business Central|Sales account filter: **Relationship Type** is **Customer** and **Status** is **Active**.|
-|Contact|Contact|Business Central -> Sales and Sales -> Business Central|Business Central contact filter: **Type** is **Person** and the contact is assigned to a company. Sales contact filter: Contact is assigned to a company and the parent customer type is **Account**|
+|Contact|Contact|Business Central -> Sales and Sales -> Business Central|Business Central contact filter: **Type** is **Person** and the contact is assigned to a company. Sales contact filter: The contact is assigned to a company and the parent customer type is **Account**|
 |Currency|Transaction Currency|Business Central -> Sales| |
 |Unit of Measure|Unit Group|Business Central -> Sales| |
 |Item|Product|Business Central -> Sales and Sales -> Business Central|Sales contact filter: **Product Type** is **Sales Inventory**|
@@ -50,8 +50,9 @@ Three tables in [!INCLUDE[d365fin](includes/d365fin_md.md)] are mapped to the op
 The records in the table that are not linked to the options that exist in Sales will be skipped during synchronization. This means that the **Option** field will be blank in Sales.
 
 The following table shows the mappings for the **Option** field in the **Account** entity.
+
 |Business Central table|Option Field in the Account Entity in Sales|
-|----------------------|------------------------------------|
+|----------------------|-------------------------------------------|
 |Payment Terms|Payment Terms|
 |Shipment Method|Address 1: Freight Terms|
 |Shipping Agent|Address 1: Shipping Method|
@@ -59,6 +60,7 @@ The following table shows the mappings for the **Option** field in the **Account
 ### Synchronization Rules
 The following table describes rules that control the synchronization between Sales entities and Business Central tables.
 
+|-------|-----|
 |General|Modifications to data in Sales that are performed by the Sales connection account are ignored. The changes will not be synchronized. Therefore, it is a recommended that you do not modify data by using the Sales connection account.|
 |Customers|Before a customer can be synchronized to an account, the salesperson that is assigned to customer must be coupled to a user in Sales. Therefore, when you are running the CUSTOMERS - Dynamics 365 for Sales synchronization job and you set it up to create new records, make sure that you synchronize salespeople with Sales users before you synchronize customers with Sales accounts. <br />- The CUSTOMERS - Dynamics 365 for Sales synchronization job only synchronizes Sales accounts that have the relationship type Customer.|
 |Contacts|Only contacts in Sales that are associated with an account will be created in Business Central. Salesperson Code defines the owner of the coupled entity in Sales.|

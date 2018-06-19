@@ -66,7 +66,7 @@ You can fill customer fields on the sales invoice in two ways depending on wheth
     You leave the **No.** field empty in the following cases:
 
     * If the line is for a comment. Write the comment in the **Description** field.
-    * If the line is for a nonstock item. Choose the **Select Nonstock Items** action. For more information, see [Work With Nonstock Items](inventory-how-work-nonstock-items.md).
+    * If the line is for a catalog item. Choose the **Select Catalog Items** action. For more information, see [Work With Catalog Items](inventory-how-work-catalog-items.md).
 
 11. In the **Quantity** field, enter how many units of the product, charge, or transaction that the line will record for the customer.  
 

@@ -24,7 +24,7 @@ Please find the detailed list of [Cloud compliance offerings for Business Centra
 If you are interested in the complete list of compliance offerings from Microsoft, see [this page](https://www.microsoft.com/en-us/trustcenter/compliance/complianceofferings).
 
 ## See Also  
-[Compliance](compliance.md)  
+[Compliance](compliance-overview.md)  
 [Application Compliance](compliance-application-compliance.md)  
 [Certifications](compliance-certifications.md)  
 

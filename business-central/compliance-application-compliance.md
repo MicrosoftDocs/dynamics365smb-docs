@@ -84,7 +84,7 @@ Microsoft is building localized versions of Business Central for some countries.
 > **Basel II: Implications for Reporting and Analysis**  
 > Basel II, developed by the Bank for International Settlements, helps ensure safety and security in the financial system in three key areas: minimum capital requirements, supervisory review process, and market discipline. Although the accord applies to financial institutions and does not target small and mid-sized businesses, Basel II may have some implications for these organizations in reporting  and analysis.
 
-[Compliance](compliance.md)  
+[Compliance](compliance-overview.md)  
 [Service Compliance](compliance-service-compliance.md)  
 [Certifications](compliance-certifications.md)  
 

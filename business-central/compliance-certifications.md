@@ -29,8 +29,8 @@ In some countries accounting software must be certified to comply with local tax
 Business Central as a cloud service also has achieved certifications like ISO 27001 and more. For a complete list of these certifications, see [this page (PDF)](https://aka.ms/d365-compliance-list).
 
 ## See Also  
-[Compliance](compliance.md)  
-[Application Compliance](complianbce-application-compliance.md)  
+[Compliance](compliance-overview.md)  
+[Application Compliance](compliance-application-compliance.md)  
 [Service Compliance](compliance-service-compliance.md)  
 
  ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

@@ -23,6 +23,7 @@ If you are a developer and want to know how about classifyig data , see [this pa
 If you want to learn more about GDPR from a broader Dynamics 365 perspective, please see [this list of whitepapers](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/).
 
 ## Accounting processes and controls to aid compliance
+## Accounting processes and controls to aid compliance  
 Companies face increasing financial accounting challenges each year. Depending on industry, markets, geographic location, and financing needs, an organization may be subject to local generally accepted accounting principles (GAAP) and one or more of:
 
 - The Sarbanes-Oxley Act (SOX), a U.S. law passed in 2002 to protect investors by improving the accuracy and reliability of corporate disclosures. 
@@ -32,9 +33,9 @@ Companies face increasing financial accounting challenges each year. Depending o
 ## Good practices with technology
 Compliance depends not only on accurate information and appropriate accounting processes, but also on the people who set up and administer those processes. An effective business management solution can facilitate compliance by helping to manage valid and accessible information through transparent processes that have been set up in compliance with industry and regulatory standards.
 
-## Realize the benefits of an integrated business management solution
+## Realize the benefits of an integrated business management solution  
 Business Central delivers real-time, integrated operational and financial information from across your organization, so you can:
-- Track	financial data through custom account schedules	for cash flow, revenues, balance sheets, fixed assets, capital structure, key performance indicators, and more. 
+- Track financial data through custom account schedules	for cash flow, revenues, balance sheets, fixed assets, capital structure, key performance indicators, and more. 
 - Help safeguard accuracy with role-based security and configurable application controls that prevent invalid or duplicate data entry. 
 - Quickly and easily generate financial	reports	in accordance with applicable regulatory standards.
 - Maintain comprehensive audit trails with drill-down and drill-around functionality and change logs.
@@ -61,7 +62,7 @@ Deliver integrated information, aligned processes, and easy-to-use tools to help
 ### Comply quickly with discovery requests and  reporting demands
 - Save time	when you create	standard reports that use common business parameters and criteria to satisfy typical reporting needs, ranging from order summaries to aging accounts receivable.
 - Perform complex reviews with basic or	advanced business analytics functionality.
-- Create reports and displays using	an interface similar to that of the familiar Microsoft Office Outlook®.
+- Create reports and displays using	an interface similar to that of the familiar Microsoft Office Outlook.
 - Speed	transmission of	financial information to customers, shareholders, regulatory agencies, and the public with XML-based XBRL documents that support the exchange of financial information across different software and technologies, including the Internet.
 
 ### Help ensure clear audit trails

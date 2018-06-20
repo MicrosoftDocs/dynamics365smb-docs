@@ -1,18 +1,17 @@
 ---
-    title: Australia Local Functionality
-    description: The following topics describe the local functionality in the Australian version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
-	  services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
+title: Australia Local Functionality
+description: The following topics describe the local functionality in the Australian version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
+services: project-madeira
+documentationcenter: ''
+author: SorenGP
+ms.service: dynamics365-financials
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.date: 07/01/2017
+ms.author: sgroespe
 
 ---
 # Australia Local Functionality

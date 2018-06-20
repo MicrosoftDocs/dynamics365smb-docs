@@ -1,8 +1,6 @@
 ---
 title: Set Up Intercompany Transaction Posting| Microsoft Docs
 description: Create your intercompany vendors and customers as so-called intercompany partners, and set up an intercompany chart of accounts.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 06/20/2017
+ms.date: 06/07/2018
 ms.author: sgroespe
 
 ---
@@ -48,20 +46,20 @@ If your company is the parent company and has the defining intercompany chart of
 If your company is a subsidiary company and you receive an XML file containing the common intercompany chart of accounts, follow the ""To Import the intercompany chart of accounts"" procedure.  
 
 ### To set up the defining intercompany chart of accounts
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **IC Chart of Accounts**, and then choose the related link.
-2. In the **IC Chart of Accounts** window, enter each account on a line in the window.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intercompany Chart of Accounts**, and then choose the related link.
+2. In the **Intercompany Chart of Accounts** window, enter each account on a line in the window.  
 3. If your intercompany chart of accounts will be identical or similar to your regular chart of accounts, you can fill in the window automatically by choosing the **Copy from Chart of Accounts** action. You can edit the new lines as needed.
 
 ### To export an intercompany chart of accounts
 To allow your intercompany partners to import the defining chart of accounts, you must export it to a file.      
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **IC Chart of Accounts**, and then choose the related link.
-2. In the **IC Chart of Accounts** window, choose the **Export** action, and then choose the **Save** button.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intercompany Chart of Accounts**, and then choose the related link.
+2. In the **Intercompany Chart of Accounts** window, choose the **Export** action, and then choose the **Save** button.
 3. Specify the file name and the location where you want to save the XML file, and then choose the **Save** button.  
 
 ### To import the intercompany chart of accounts  
 When a file exists for the defining intercompany chart of accounts, intercompany partners can import it to make sure they have the same accounts.  
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **IC Chart of Accounts**, and then choose the related link.  
-2. In the **IC Chart of Accounts** window, choose the **Import** action.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intercompany Chart of Accounts**, and then choose the related link.  
+2. In the **Intercompany Chart of Accounts** window, choose the **Import** action.  
 3. Select the file name and location of the XML file, and then choose the **Open** button.  
 
 The **IC Chart of Accounts** window is filled with new or edited G/L account lines according to the intercompany chart of accounts in the file. Any existing, unrelated lines in the window remain unchanged.
@@ -71,7 +69,7 @@ When you have defined or imported the intercompany chart of accounts that you an
 
 If the accounts in the intercompany chart of accounts have the same numbers as the corresponding accounts in the chart of accounts, you can map the accounts automatically.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **IC Chart of Accounts**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intercompany Chart of Accounts**, and then choose the related link.  
 2. Select the lines that you want to map automatically, and then choose the **Map to Acc. with Same No** action.  
 3. For each intercompany general ledger account that was not mapped automatically, fill in the **Map-to G/L Acc. No.** field.  
 
@@ -85,15 +83,15 @@ Then, when you enter a general ledger account in the **Bal. Account No.** field 
 3. Repeat step 3 for each account that you often enter in the **Bal. Account No.** field on a line in an intercompany journal or document.
 
 ## To set up intercompany dimensions
-If you and your intercompany partners want to be able to exchange transactions with dimensions linked to them, then you must agree on the dimensions that all of you will use. For example, the parent company of the group creates a simplified version of their own set of dimensions, exports these intercompany dimensions into an XML file and distributes it to each of the companies in the group. Each of the subsidiaries then imports the XML file into the **intercompany Dimensions** window and maps the intercompany dimensions to the dimensions in their own **Dimensions** window.  
+If you and your intercompany partners want to be able to exchange transactions with dimensions linked to them, then you must agree on the dimensions that all of you will use. For example, the parent company of the group creates a simplified version of their own set of dimensions, exports these intercompany dimensions into an XML file and distributes it to each of the companies in the group. Each of the subsidiaries then imports the XML file into the **Intercompany Dimensions** window and maps the intercompany dimensions to the dimensions in their own **Dimensions** window.  
 
 If your company is the parent company and has the defining set of intercompany dimensions that your group will use as a common reference, follow the "To define the intercompany dimensions" procedure.
 
 If your company is a subsidiary company and you receive an XML file containing the intercompany dimensions that your group will use as a common reference, follow the "To import intercompany dimensions" procedure.
 
 ### To define the intercompany dimensions
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **intercompany Dimensions**, and then choose the related link.  
-2. In the **intercompany Dimensions** window, enter each dimension on a line in the window.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intercompany Dimensions**, and then choose the related link.  
+2. In the **Intercompany Dimensions** window, enter each dimension on a line in the window.
 
     If your intercompany dimensions will be similar or identical to your company dimensions, you can fill in the window automatically by using the **Copy from Dimensions** function, and then you can edit the resulting lines.  
 3. To export the intercompany dimensions to an XML file for distribution to your partner companies, choose the **Export** action.  
@@ -101,22 +99,22 @@ If your company is a subsidiary company and you receive an XML file containing t
 
 ### To import the intercompany dimensions  
 When a file exists for the defining intercompany dimensions, intercompany partners can import it to make sure they have the same dimensions.  
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **intercompany Dimensions**, and then choose the related link.  
-2. In the **intercompany Dimensions** window, choose the **Import** action.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intercompany Dimensions**, and then choose the related link.  
+2. In the **Intercompany Dimensions** window, choose the **Import** action.  
 3. Specify the file name and location of the XML file, and then choose the **Open** button.  
 
-The lines in the **intercompany Dimensions** window and the **intercompany Dimension Values** window are imported.  
+The lines in the **Intercompany Dimensions** window and the **Intercompany Dimension Values** window are imported.  
 
 ### To map intercompany dimensions to your company's dimensions
-When you have defined or imported the dimensions that you and your intercompany partners have agreed to use, you must associate each of the intercompany dimensions with one of your company's dimensions, and vice versa. In the **intercompany Dimensions** window, you specify how intercompany dimensions on incoming transactions will be translated into dimensions from your company's list of dimensions. In the **Dimensions** window, you specify how your dimensions will be translated into intercompany dimensions on outgoing transactions.
+When you have defined or imported the dimensions that you and your intercompany partners have agreed to use, you must associate each of the intercompany dimensions with one of your company's dimensions, and vice versa. In the **Intercompany Dimensions** window, you specify how intercompany dimensions on incoming transactions will be translated into dimensions from your company's list of dimensions. In the **Dimensions** window, you specify how your dimensions will be translated into intercompany dimensions on outgoing transactions.
 
 If any of the intercompany dimensions have the same code as the corresponding dimensions in your company's list of dimensions, then you can have the program automatically map the dimensions, then you can map the accounts automatically.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **intercompany Dimensions**, and then choose the related link.
-2. In the **intercompany Dimensions** window, select the lines that you want to automatically map, and then choose the **Map to Dim. with Same Code** action.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intercompany Dimensions**, and then choose the related link.
+2. In the **Intercompany Dimensions** window, select the lines that you want to automatically map, and then choose the **Map to Dim. with Same Code** action.
 3. For each intercompany dimension that is not mapped automatically, fill in the **Map-to Dimension Code** field.
-4. Choose the **intercompany Dimension Values** action.
-5. In the **intercompany Dimension Values** window, fill in the **Map-to Dimension Value Code** field.
+4. Choose the **Intercompany Dimension Values** action.
+5. In the **Intercompany Dimension Values** window, fill in the **Map-to Dimension Value Code** field.
 
     Proceed to map dimensions to intercompany dimensions by performing similar steps.
 6. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Dimensions**, and then choose the related link.

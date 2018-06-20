@@ -22,10 +22,8 @@ Business Central supports data privacy initiatives like the General Data Protect
 If you are a developer and want to know how about classifyig data , see [this page](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).
 If you want to learn more about GDPR from a broader Dynamics 365 perspective, please see [this list of whitepapers](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/).
 
-## Accounting processes and controls to aid compliance
 ## Accounting processes and controls to aid compliance  
-Companies face increasing financial accounting challenges each year. Depending on industry, markets, geographic location, and financing needs, an organization may be subject to local generally accepted accounting principles (GAAP) and one or more of:
-
+Companies face increasing financial accounting challenges each year. Depending on industry, markets, geographic location, and financing needs, an organization may be subject to local generally accepted accounting principles (GAAP) and one or more of: 
 - The Sarbanes-Oxley Act (SOX), a U.S. law passed in 2002 to protect investors by improving the accuracy and reliability of corporate disclosures. 
 - The International Financial Reporting Standards section of the European Union’s International Accounting Standards (IAS/IFRS), which went into effect in 2005 and sets forth international accounting standards for recognition, measurement, consolidation, and reporting. 
 - The New Basel Accord (Basel II), enacted in 2006 to address issues of financial institution risk and to promote greater stability in the overall financial system.

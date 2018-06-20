@@ -27,7 +27,6 @@ An algorithm provided by the local tax office ensures that the number is in a va
 2.  Select the required company or vendor.  
 3.  Expand the **Registration** FastTab.  
 4.  In the **IRD No.** field, enter the New Zealand Inland Revenue Number.  
-<!--5.  In the **ABN Division Part No.** field, enter the division part number of the ABN, if applicable. LOOK FOR THIS FIELD NAME IN OTHER TOPICS AND DELETE IT. ALSO LOOK FOR THE IRD NO FIELD IN STEP 4. -->  
 5.  Choose the **OK** button.  
 
 ## See Also  

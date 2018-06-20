@@ -15,7 +15,7 @@
 
 ---
 # Tax
-For information about tax in new Zealand, see the following topics:  
+For information about tax in New Zealand, see the following topics:  
 
 [Set Up Withholding Tax](how-to-set-up-withholding-tax.md)  
 [Set Up Vendors Without IRD for Calculating the Withholding Tax](how-to-set-up-vendors-without-abn-for-calculating-the-withholding-tax.md)  
@@ -30,4 +30,4 @@ For information about tax in new Zealand, see the following topics:
 [View Posted Tax Credit Memos](how-to-view-posted-tax-credit-memos.md)
 
 ## See Also
-[New Zealand Local Functionality]new-zealand-local-functionality.md)  
+[New Zealand Local Functionality](new-zealand-local-functionality.md)  

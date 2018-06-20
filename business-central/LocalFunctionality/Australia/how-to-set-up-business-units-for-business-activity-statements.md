@@ -1,6 +1,6 @@
 ---
     title: How to Set Up Business Units for Business Activity Statements
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can consolidate the financial statements of various companies into one financial statement.
+    description: Describes how to consolidate the financial statements of various companies into one financial statement.
     services: project-madeira
     documentationcenter: ''
     author: bholtorf
@@ -28,8 +28,8 @@ You can use the **BAS Business Units** window to set up the following:
 You must set up information in the **General Ledger Setup** window before you can set up business units.  
 
 ## To set up general ledger for a business activity statement  
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Setup**, and then choose the related link.  
-2.  Fill in the required fields as described in the following table.  
+1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Setup**, and then choose the related link.  
+2. Fill in the required fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -39,8 +39,8 @@ You must set up information in the **General Ledger Setup** window before you ca
 3.  Choose the **OK** button.  
 
 ## To set a business unit for a business activity statement  
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **BAS Business Units**, and then choose the related link.  
-2.  Fill in the fields as described in the following table.  
+1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **BAS Business Units**, and then choose the related link.  
+2. Fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -48,8 +48,8 @@ You must set up information in the **General Ledger Setup** window before you ca
     |**Document No.**|Specify the BAS document number that has to be consolidated. This field is associated with the **BAS Version** field.|  
     |**BAS Version**|Specify the BAS version number in which the transaction was included. This field is associated with the **Document No.** field.|  
 
-3.  Choose the **OK** button.  
+3. Choose the **OK** button.  
 
 ## See Also  
-[New Zealand Local Functionality](new-zealand-local-functionality.md)   
+[Australian Local Functionality](australia-local-functionality.md)   
 

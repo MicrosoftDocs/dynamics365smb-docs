@@ -37,4 +37,4 @@ You must submit a periodic report of goods and services tax (GST) settlement. Yo
 
 ## See Also  
 [Set Up Goods and Service Tax Posting](how-to-set-up-goods-and-service-tax-posting.md)   
-[New Zealand Local Functionality](new-zealand-local-functionality.md)
+[Australian Local Functionality](australia-local-functionality.md)  

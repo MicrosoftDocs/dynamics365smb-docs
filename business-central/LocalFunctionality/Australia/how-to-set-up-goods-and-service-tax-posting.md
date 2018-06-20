@@ -1,18 +1,16 @@
 ---
     title: How to Set Up Goods and Service Tax Posting
-    description: Goods and services tax (GST) is the tax that is applied on most goods and services. The GST that is paid and received during a period is reported in the Business Activity Statement (BAS) that has to be submitted to the Australian Taxation Office (ATO).
-
+    description: Describes the steps to start applying goods and services tax (GST) to goods and services.
     services: project-madeira 
     documentationcenter: ''
     author: SorenGP
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 06/20/2018
     ms.author: sgroespe
 
 ---
@@ -24,9 +22,8 @@ To set up posting details for GST, you must define the posting groups, rate of G
 You must set up GST posting before you generate the BAS report.  
 
 ## To set up goods and sales tax posting  
-
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Posting Setup**, and then choose the related link.  
-2.  Fill in the fields as described in the following table.  
+1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Posting Setup**, and then choose the related link.  
+2. Fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -42,5 +39,5 @@ You must set up GST posting before you generate the BAS report.
 3.  Choose the **OK** button.  
 
 ## See Also  
- [Report BAS Information](how-to-report-bas-information.md)  
- [Print Goods and Service Tax Settlement Reports](how-to-print-goods-and-service-tax-settlement-reports.md)
+[Australian Local Functionality](australia-local-functionality.md)
+[Print Goods and Service Tax Settlement Reports](how-to-print-goods-and-service-tax-settlement-reports.md)

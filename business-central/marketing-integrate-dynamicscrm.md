@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map
-ms.date: 06/19/2018
+ms.date: 06/20/2018
 ms.author: edupont
 ---
 # Managing Customers and Sales Created in Dynamics 365 for Sales
@@ -51,7 +51,7 @@ The records in the table that are not linked to the options that exist in Sales 
 
 The following table shows the mappings for the **Option** field in the **Account** entity.
 
-|Business Central table|Option Field in the Account Entity in Sales|
+|Business Central Table|Option Field in the Account Entity in Sales|
 |----------------------|-------------------------------------------|
 |Payment Terms|Payment Terms|
 |Shipment Method|Address 1: Freight Terms|
@@ -63,7 +63,7 @@ The following table describes rules that control the synchronization between Sal
 > [!NOTE]  
 > Modifications to data in Sales that are performed by the Sales connection account are ignored. The changes will not be synchronized. Therefore, it is recommended that you do not modify data by using the Sales connection account.
 
-|Table|Rule|
+|Business Central Table|Rule|
 |-----|----|
 |Customers|Before a customer can be synchronized to an account, the salesperson that is assigned to the customer must be coupled to a user in Sales. Therefore, when you run the CUSTOMERS - Dynamics 365 for Sales synchronization job and you set it up to create new records, make sure that you synchronize salespeople with Sales users before you synchronize customers with Sales accounts. <br /> <br />The CUSTOMERS - Dynamics 365 for Sales synchronization job only synchronizes Sales accounts that have the relationship type Customer.|
 |Contacts|Only contacts in Sales that are associated with an account will be created in Business Central. The Salesperson Code value defines the owner of the coupled entity in Sales.|

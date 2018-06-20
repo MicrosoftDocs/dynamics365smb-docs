@@ -21,10 +21,17 @@ The following topics describe local functionality that is unique to the New Zeal
 
 ## In This Section  
 [Addresses](addresses.md)  
+[Tax](tax.md)
 [Calculating Distribution Amounts](calculating-distribution-amounts.md)  
 [Determine Sales Price by Cost Plus Percentage](how-to-determine-sales-price-by-cost-plus-percentage.md)  
 [Print Deposit Slip Reports](how-to-print-deposit-slip-reports.md)  
-[Print Bank Account Reconciliation Reports](how-to-print-bank-account-reconciliation-reports.md)
+[Print Bank Account Reconciliation Reports](how-to-print-bank-account-reconciliation-reports.md)  
+[Electronic Funds Transfer](electronic-funds-transfer-eft-.md)  
+[Compare Bank Cash Flow](how-to-compare-bank-cash-flow.md)  
+[Print Income Statements](how-to-print-income-statements.md)  
+[Print Balance Sheet Reports](how-to-print-balance-sheet-reports.md)  
+[Create Check Installments](how-to-create-check-installments.md)  
+[New Zealand Inland Revenue Department Numbers and Adjustment Notes](new-zealand-business-numbers-and-adjustment-notes.md)  
 
 ## See Also
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)

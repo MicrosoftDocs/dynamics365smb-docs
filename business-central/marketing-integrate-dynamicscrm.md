@@ -49,21 +49,21 @@ Three tables in [!INCLUDE[d365fin](includes/d365fin_md.md)] are mapped to the op
 
 The records in the table that are not linked to the options that exist in Sales will be skipped during synchronization. This means that the **Option** field will be blank in Sales.
 
-The following table shows the mappings for the **Option** field in the **Account** entity.
+The following table shows mappings from Business Central tables for the **Option** field in the **Account** entity.
 
-|Business Central Table|Option Field in the Account Entity in Sales|
+|Table|Option Field in the Account Entity in Sales|
 |----------------------|-------------------------------------------|
 |Payment Terms|Payment Terms|
 |Shipment Method|Address 1: Freight Terms|
 |Shipping Agent|Address 1: Shipping Method|
 
 ### Synchronization Rules
-The following table describes rules that control the synchronization between Sales entities and Business Central tables.
+The following table describes rules that control the synchronization between Business Central tables and Sales entities.
 
 > [!NOTE]  
 > Modifications to data in Sales that are performed by the Sales connection account are ignored. The changes will not be synchronized. Therefore, it is recommended that you do not modify data by using the Sales connection account.
 
-|Business Central Table|Rule|
+|Table|Rule|
 |-----|----|
 |Customers|Before a customer can be synchronized to an account, the salesperson that is assigned to the customer must be coupled to a user in Sales. Therefore, when you run the CUSTOMERS - Dynamics 365 for Sales synchronization job and you set it up to create new records, make sure that you synchronize salespeople with Sales users before you synchronize customers with Sales accounts. <br /> <br />The CUSTOMERS - Dynamics 365 for Sales synchronization job only synchronizes Sales accounts that have the relationship type Customer.|
 |Contacts|Only contacts in Sales that are associated with an account will be created in Business Central. The Salesperson Code value defines the owner of the coupled entity in Sales.|

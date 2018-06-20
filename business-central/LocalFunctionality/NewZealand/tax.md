@@ -1,26 +1,24 @@
 ---
-    title: Australian Tax
-    description: Tax functionality in Australia is described in several topics.
-
+    title: New Zealand Tax
+    description: Tax functionality in New Zealand is described in several topics.
     services: project-madeira 
     documentationcenter: ''
-    author: SorenGP
-
+    author: bholtorf
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
+    ms.date: 06/20/2018
+    ms.author: bholtorf
 
 ---
 # Tax
-For information about tax in Australia, see the following topics:  
+For information about tax in new Zealand, see the following topics:  
 
 [Set Up Withholding Tax](how-to-set-up-withholding-tax.md)  
-[Set Up Vendors Without ABN for Calculating the Withholding Tax](how-to-set-up-vendors-without-abn-for-calculating-the-withholding-tax.md)  
+[Set Up Vendors Without IRD for Calculating the Withholding Tax](how-to-set-up-vendors-without-abn-for-calculating-the-withholding-tax.md)  
 [Set Up Revenue Types for Withholding Tax](how-to-set-up-revenue-types-for-withholding-tax.md)    
 [Calculate and Post Withholding Tax Settlements](how-to-calculate-and-post-withholding-tax-settlements.md)  
 [View Withholding Tax Entries](how-to-view-withholding-tax-entries.md)  
@@ -32,4 +30,4 @@ For information about tax in Australia, see the following topics:
 [View Posted Tax Credit Memos](how-to-view-posted-tax-credit-memos.md)
 
 ## See Also
-[Australia Local Functionality](australia-local-functionality.md)  
+[New Zealand Local Functionality]new-zealand-local-functionality.md)  

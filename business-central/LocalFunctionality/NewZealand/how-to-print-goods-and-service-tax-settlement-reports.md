@@ -1,6 +1,6 @@
 ---
     title: How to Print Goods and Service Tax Settlement Reports
-    description: Describes how to print a periodic goods and services tax (GST) settlement.
+    description: Describes how to prepare and submit a periodic goods and services tax (GST) settlement.
     services: project-madeira 
     documentationcenter: ''
     author: bholtorf
@@ -32,9 +32,9 @@ You must submit a periodic report of goods and services tax (GST) settlement. Yo
     |**Post**|Select to post the withholding tax settlement entries.|  
     |**Inter Company**|Select if the posting is inter company.|  
 
-3. On the **BAS Calculation Sheet** FastTab, select the appropriate filters.  
-4. Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.  
+4. On the **BAS Calculation Sheet** FastTab, select the appropriate filters.  
+5. Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.  
 
 ## See Also  
 [Set Up Goods and Service Tax Posting](how-to-set-up-goods-and-service-tax-posting.md)   
-[New Zealand Local Functionality](new-zealand-local-functionality.md)
+

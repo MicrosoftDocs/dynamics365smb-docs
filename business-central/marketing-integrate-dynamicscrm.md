@@ -42,9 +42,9 @@ The following table lists the [!INCLUDE[d365fin](includes/d365fin_md.md)] record
 |Sales Invoice Header|Invoice|Business Central -> Sales| |
 |Sales Invoice Line|Invoice Product|Business Central -> Sales| |
 
-The Sales entities and [!INCLUDE[d365fin](includes/d365fin_md.md)] tables that are synchronized are defined by table mapping entries in table 5335, Integration Table Mapping. You can view the mappings and set up filters from page 5335, Integration Table Mappings. The mapping between the fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] records and the fields in Sales entities are defined by field mapping entries in table 5336, Integration Field Mapping, and with additional mapping logic.
+The Sales entities and [!INCLUDE[d365fin](includes/d365fin_md.md)] tables that are synchronized are defined by table mapping entries in table 5335, **Integration Table Mapping**. You can view the mappings and set up filters from page 5335, **Integration Table Mappings**. The mapping between the fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] records and the fields in Sales entities are defined by field mapping entries in table 5336, **Integration Field Mapping**, and with additional mapping logic.
 
-### Field Mappings for the Sales Account Option
+### Field Mapping for the Sales Account Option
 Three tables in [!INCLUDE[d365fin](includes/d365fin_md.md)] are mapped to the option fields of the **Account** entity.   
 
 The records in the table that are not linked to the options that exist in Sales will be skipped during synchronization. This means that the **Option** field will be blank in Sales.
@@ -65,17 +65,17 @@ The following table describes rules that control the synchronization between Sal
 
 |Table|Rule|
 |-----|----|
-|Customers|- Before a customer can be synchronized to an account, the salesperson that is assigned to customer must be coupled to a user in Sales. Therefore, when you run the CUSTOMERS - Dynamics 365 for Sales synchronization job and you set it up to create new records, make sure that you synchronize salespeople with Sales users before you synchronize customers with Sales accounts. <br />- The CUSTOMERS - Dynamics 365 for Sales synchronization job only synchronizes Sales accounts that have the relationship type Customer.|
-|Contacts|Only contacts in Sales that are associated with an account will be created in Business Central. Salesperson Code defines the owner of the coupled entity in Sales.|
+|Customers|Before a customer can be synchronized to an account, the salesperson that is assigned to the customer must be coupled to a user in Sales. Therefore, when you run the CUSTOMERS - Dynamics 365 for Sales synchronization job and you set it up to create new records, make sure that you synchronize salespeople with Sales users before you synchronize customers with Sales accounts. <br /> <br />The CUSTOMERS - Dynamics 365 for Sales synchronization job only synchronizes Sales accounts that have the relationship type Customer.|
+|Contacts|Only contacts in Sales that are associated with an account will be created in Business Central. The Salesperson Code value defines the owner of the coupled entity in Sales.|
 |Currencies|Currencies are coupled to transaction currencies in Sales based on ISO codes. Only currencies that have a standard ISO code will be coupled and synchronized with transaction currencies.|
-|Units of Measure|Units of measure are synchronized with unit groups in Sales. There can be only one unit of measure defined in the unit group.|
+|Units of Measure|Units of measure are synchronized with unit groups in Sales. There can only be one unit of measure defined in the unit group.|
 |Items|When synchronizing items with Sales products, Business Central automatically creates a price list in Sales. To avoid synchronization errors, you should not modify this price list manually.|
-|Salespersons|Salespersons are coupled to system users in Sales. The user must be enabled and licensed and must not be the integration user. This is the first table that must be synchronized because it is used in customers, contacts, opportunities, and sales invoices.|
-|Resources|Resources are synchronized with Sales products that have product type Services.|
+|Salespersons|Salespersons are coupled to system users in Sales. The user must be enabled and licensed and must not be the Integration user. Note, that this is the first table that must be synchronized because it is used in customers, contacts, opportunities, and sales invoices.|
+|Resources|Resources are synchronized with Sales products that have product type Service.|
 |Customer Price Groups|Customer price groups are synchronized with Sales price lists.|
-|Sales Prices|Sales prices that have sales type Customer Price Group and sales code defined are synchronized with Sales Price List lines|
-|Opportunities|Opportunities are synchronized with Sales opportunities. Salesperson Code defines the owner of the coupled entity in Sales.|
-|Posted Sales Invoices|Posted sales invoices are synchronized with sales invoices. Before an invoice can be synchronized, it is better to synchronize all other entities that can participate in the invoice, from salespersons to price lists. Salesperson Code in the invoice header defines the owner of the coupled entity in Sales.|
+|Sales Prices|Sales prices that have sales type Customer Price Group and have a sales code defined are synchronized with Sales price list lines|
+|Opportunities|Opportunities are synchronized with Sales opportunities. The Salesperson Code value defines the owner of the coupled entity in Sales.|
+|Posted Sales Invoices|Posted sales invoices are synchronized with sales invoices. Before an invoice can be synchronized, it is better to synchronize all other entities that can participate in the invoice, from salespersons to price lists. The Salesperson Code value in the invoice header defines the owner of the coupled entity in Sales.|
 
 ## Setting Up the Connection
 From Home, you can access the **Microsoft Dynamics 365 Connection Setup** assisted setup guide that helps you set up the connection. Once that is done, you will have a seamless coupling of Sales records with [!INCLUDE[d365fin](includes/d365fin_md.md)] records.  

@@ -70,9 +70,9 @@ The following table describes rules that control the synchronization between Sal
 |Salespersons|Salespersons are coupled to system users in Sales. The user must be enabled and licensed and must not be the integration user. This is the first table that must be synchronized because it is used in customers, contacts, opportunities, and sales invoices.|
 |Resources|Resources are synchronized with Sales products that have product type Services.|
 |Customer Price Groups|Customer price groups are synchronized with Sales price lists.|
-|Sales Prices|Sales prices that have sales type Customer Price Group and not blank sales code are synchronized with Sales price list lines|
+|Sales Prices|Sales prices that have sales type Customer Price Group and sales code defined are synchronized with Sales Price List lines|
 |Opportunities|Opportunities are synchronized with Sales opportunities. Salesperson Code defines the owner of the coupled entity in Sales.|
-|Posted sales invoices|Posted sales invoices are synchronized with sales invoices. Before an invoice can be synchronized, it is better to synchronize all other entities that can participate in the invoice, from salespersons to price lists. Salesperson Code in the invoice header defines the owner of the coupled entity in Sales.|
+|Posted Sales Invoices|Posted sales invoices are synchronized with sales invoices. Before an invoice can be synchronized, it is better to synchronize all other entities that can participate in the invoice, from salespersons to price lists. Salesperson Code in the invoice header defines the owner of the coupled entity in Sales.|
 
 ## Setting Up the Connection
 From Home, you can access the **Microsoft Dynamics 365 Connection Setup** assisted setup guide that helps you set up the connection. Once that is done, you will have a seamless coupling of Sales records with [!INCLUDE[d365fin](includes/d365fin_md.md)] records.  

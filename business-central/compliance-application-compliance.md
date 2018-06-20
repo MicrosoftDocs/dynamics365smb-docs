@@ -15,13 +15,12 @@
 
 ---
 # Application Compliance
-This content contains information about application compliacne in relation to [!INCLUDE[d365fin](includes/d365fin_md.md)], like the International Financial Reporting Standards, local functionality, GDPR and more. Confidence in a business management solution is key to running an efficient business and this section describes how Business Central is able to provide you with confidence so you can focus on the business.
+This content contains information about application compliacne in relation to [!INCLUDE[d365fin](includes/d365fin_md.md)], like the International Financial Reporting Standards, local functionality, GDPR and more. Confidence in a business management solution is key to running an efficient business and this section describes how Business Central is able to provide you with confidence so you can focus on running the business.
 
 ## Data Privacy  
-Business Central supports data privacy initiatives like the General Data Protection Regulation (GDPR) that went into effect on May 25th 2018. Read more about [how Business Central supports GDPR here](https://docs.microsoft.com/en-us/dynamics365/business-central/admin-responding-to-requests-about-personal-data).  
+Business Central supports data privacy initiatives like the General Data Protection Regulation (GDPR) that went into effect on May 25th 2018. Read more about [how Business Central supports GDPR](https://docs.microsoft.com/en-us/dynamics365/business-central/admin-responding-to-requests-about-personal-data).
 If you are a developer and want to know how about classifyig data , see [this page](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).
 If you want to learn more about GDPR from a broader Dynamics 365 perspective, please see [this list of whitepapers](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/).
-
 
 ## Accounting processes and controls to aid compliance
 Companies face increasing financial accounting challenges each year. Depending on industry, markets, geographic location, and financing needs, an organization may be subject to local generally accepted accounting principles (GAAP) and one or more of:
@@ -34,7 +33,7 @@ Companies face increasing financial accounting challenges each year. Depending o
 Compliance depends not only on accurate information and appropriate accounting processes, but also on the people who set up and administer those processes. An effective business management solution can facilitate compliance by helping to manage valid and accessible information through transparent processes that have been set up in compliance with industry and regulatory standards.
 
 ## Realize the benefits of an integrated business management solution
-Microsoft Dynamics® 365 Business Central delivers real-time, integrated operational and financial information from across your organization, so you can:
+Business Central delivers real-time, integrated operational and financial information from across your organization, so you can:
 - Track	financial data through custom account schedules	for cash flow, revenues, balance sheets, fixed assets, capital structure, key performance indicators, and more. 
 - Help safeguard accuracy with role-based security and configurable application controls that prevent invalid or duplicate data entry. 
 - Quickly and easily generate financial	reports	in accordance with applicable regulatory standards.
@@ -71,13 +70,18 @@ Deliver integrated information, aligned processes, and easy-to-use tools to help
 - Look up database changes,	including previous and revised	data, in the solution’s	Change	Log.
 - Increase	audit trail	transparency and usability,	and	speed information access for third-party auditors with drill-down, look-up, filtering, register, and navigation
 
+## Compliance and local functionality
+Microsoft is building localized versions of Business Central for some countries. These localizations primarily focus on regulatory features in the tax and financial area but can sometimes involve other parts of the application. If you want to see what is built in localized country versions of Business Central, see **Local Functionality** and choose a country from the menu.
+
 > [!NOTE]  
 >  **Sarbanes-Oxley: Validating Data and Processes**  
 > The Sarbanes-Oxley Act establishes standards for all U.S. public company boards, management, and public accounting firms, including evaluation and disclosure	of	the	adequacy	of	the	company’s	internal	controls over financial reporting. Documenting and testing critical manual and automated controls represents a huge commitment of time and resources for companies. Business Central is especially suited for subsidiaries of larger organizations, and can help support small to midsized businesses in complying with Sarbanes-Oxley.
 
+> [!NOTE]  
 > **IAS/IFRS: Recognition and  Measurement Standards**  
 > Depending on the local GAAPs currently in use, one of the major recognition and measurement changes for IAS/IFRS is extended use of fair-value principles instead of historical cost. Business Central can help companies calculate fair-value and net present value (NPV) concepts, which are focused on current and expected cash flow streams rather than historical purchase price. On the reporting side, it can provide segment reporting by business unit and geographical location.
 
+> [!NOTE]  
 > **Basel II: Implications for Reporting and Analysis**  
 > Basel II, developed by the Bank for International Settlements, helps ensure safety and security in the financial system in three key areas: minimum capital requirements, supervisory review process, and market discipline. Although the accord applies to financial institutions and does not target small and mid-sized businesses, Basel II may have some implications for these organizations in reporting  and analysis.
 

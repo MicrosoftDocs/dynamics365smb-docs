@@ -15,7 +15,7 @@
 
 ---
 # Application Compliance
-This content contains information about application compliacne in relation to [!INCLUDE[d365fin](includes/d365fin_md.md)], like the International Financial Reporting Standards, local functionality, GDPR and more. Confidence in a business management solution is key to running an efficient business and this section describes how Business Central is able to provide you with confidence so you can focus on the business.
+This content contains information about application compliacne in relation to [!INCLUDE[d365fin](includes/d365fin_md.md)], such as the International Financial Reporting Standards, local functionality, GDPR and more. Confidence in a business management solution is key to running an efficient business and this section describes how Business Central is able to provide you with confidence so you can focus on the business.
 
 ## Data Privacy  
 Business Central supports data privacy initiatives like the General Data Protection Regulation (GDPR) that went into effect on May 25th 2018. Read more about [how Business Central supports GDPR here](https://docs.microsoft.com/en-us/dynamics365/business-central/admin-responding-to-requests-about-personal-data).  
@@ -34,7 +34,7 @@ Companies face increasing financial accounting challenges each year. Depending o
 Compliance depends not only on accurate information and appropriate accounting processes, but also on the people who set up and administer those processes. An effective business management solution can facilitate compliance by helping to manage valid and accessible information through transparent processes that have been set up in compliance with industry and regulatory standards.
 
 ## Realize the benefits of an integrated business management solution
-Microsoft Dynamics® 365 Business Central delivers real-time, integrated operational and financial information from across your organization, so you can:
+Microsoft Dynamics 365 Business Central delivers real-time, integrated operational and financial information from across your organization, so you can:
 - Track	financial data through custom account schedules	for cash flow, revenues, balance sheets, fixed assets, capital structure, key performance indicators, and more. 
 - Help safeguard accuracy with role-based security and configurable application controls that prevent invalid or duplicate data entry. 
 - Quickly and easily generate financial	reports	in accordance with applicable regulatory standards.
@@ -62,7 +62,7 @@ Deliver integrated information, aligned processes, and easy-to-use tools to help
 ### Comply quickly with discovery requests and  reporting demands
 - Save time	when you create	standard reports that use common business parameters and criteria to satisfy typical reporting needs, ranging from order summaries to aging accounts receivable.
 - Perform complex reviews with basic or	advanced business analytics functionality.
-- Create reports and displays using	an interface similar to that of the familiar Microsoft Office Outlook®.
+- Create reports and displays using	an interface similar to that of the familiar Microsoft Office Outlook.
 - Speed	transmission of	financial information to customers, shareholders, regulatory agencies, and the public with XML-based XBRL documents that support the exchange of financial information across different software and technologies, including the Internet.
 
 ### Help ensure clear audit trails

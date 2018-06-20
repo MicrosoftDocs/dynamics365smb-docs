@@ -18,7 +18,8 @@
 This content contains information about application compliacne in relation to [!INCLUDE[d365fin](includes/d365fin_md.md)], like the International Financial Reporting Standards, local functionality, GDPR and more. Confidence in a business management solution is key to running an efficient business. With Business Central companies are empowered to streamline business processes while consistently and cost-efficiently complying with increasing regulation and reporting requirements. 
 
 ## Data Privacy  
-Business Central supports data privacy initiatives like the General Data Protection Regulation (GDPR) that went into effect on May 25th 2018. Read more about [how Business Central supports GDPR](https://docs.microsoft.com/en-us/dynamics365/business-central/admin-responding-to-requests-about-personal-data).
+Business Central supports data privacy initiatives like the General Data Protection Regulation (GDPR) that went into effect on May 25th 2018. Read more about [how Business Central supports GDPR](https://docs.microsoft.com/en-us/dynamics365/business-central/admin-responding-to-requests-about-personal-data).  
+
 If you are a developer and want to know how about classifyig data , see [this page](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).
 If you want to learn more about GDPR from a broader Dynamics 365 perspective, please see [this list of whitepapers](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/).
 

@@ -15,7 +15,7 @@
 
 ---
 # Application Compliance
-This content contains information about application compliacne in relation to [!INCLUDE[d365fin](includes/d365fin_md.md)], like the International Financial Reporting Standards and more. Confidence in a business management solution is key to running an efficient business and this section describes how Business Central is able to provide you with confidence so you can focus on the business.
+This content contains information about application compliacne in relation to [!INCLUDE[d365fin](includes/d365fin_md.md)], like the International Financial Reporting Standards, local functionality, GDPR and more. Confidence in a business management solution is key to running an efficient business and this section describes how Business Central is able to provide you with confidence so you can focus on the business.
 
 ## Data Privacy  
 Business Central supports data privacy initiatives like the General Data Protection Regulation (GDPR) that went into effect on May 25th 2018. Read more about [how Business Central supports GDPR here](https://docs.microsoft.com/en-us/dynamics365/business-central/admin-responding-to-requests-about-personal-data).  

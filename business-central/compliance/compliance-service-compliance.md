@@ -15,7 +15,7 @@
 
 ---
 # Service Compliance
-This content contains information about service compliance in relation to [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+This content contains information about service compliance in relation to [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
 
 Business Central is a cloud service with a global reach and scale running on one of the World's largest hyperscale infrastructures, Microsoft Azure, with datacenters in regions all over the World. Running a cloud service also imposes the need to conform to certain standards in security and compliance, so from a service perspective Business Central lives up to the strict requirements in several ISO and industry specific certifications.
 
@@ -28,5 +28,5 @@ If you are interested in the complete list of compliance offerings from Microsof
 [Application Compliance](compliance-application-compliance.md)  
 [Certifications](compliance-certifications.md)  
 
- ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- ## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
+ ## [!INCLUDE[d365fin](../includes/training_link_md.md)]

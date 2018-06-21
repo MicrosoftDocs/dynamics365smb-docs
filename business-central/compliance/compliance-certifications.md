@@ -15,9 +15,9 @@
 
 ---
 # Certifications  
-This content contains information about certifications in relation to [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+This content contains information about certifications in relation to [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
 
-## Country certifications and accreditations 
+## Country certifications and accreditations
 In some countries accounting software must be certified to comply with local tax regulatives and financial requirements. Some countries excersice this as a yearly recurring requirement and others as a one-off requirement to comply with. Below is a list of the current countries in which Business Central has achieved certifications. Note that only some countries have this requirement.  
 - Germany [(link to certification in German)](https://www.bdo.de/de-de/themen/softwarebescheinungen/bdo/microsoft-dynamics-365-business-central)
 
@@ -33,5 +33,5 @@ Business Central as a cloud service also has achieved certifications like ISO 27
 [Application Compliance](compliance-application-compliance.md)  
 [Service Compliance](compliance-service-compliance.md)  
 
- ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- ## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
+ ## [!INCLUDE[d365fin](../includes/training_link_md.md)]

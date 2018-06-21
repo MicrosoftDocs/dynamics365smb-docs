@@ -406,7 +406,7 @@
 ## [United Kingdom](LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.md)
 ## [United States](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 
-# [Compliance](compliance-overview.md)
-## [Application Compliance](compliance-application-compliance.md)
-## [Service Compliance](compliance-service-compliance.md)
-## [Certifications](compliance-certifications.md)
+# [Compliance](complicance/compliance-overview.md)
+## [Application Compliance](complicance/compliance-application-compliance.md)
+## [Service Compliance](complicance/compliance-service-compliance.md)
+## [Certifications](complicance/compliance-certifications.md)

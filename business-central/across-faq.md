@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 04/19/2018
+ms.date: 06/22/2018
 ms.author: edupont
 
 ---
@@ -34,7 +34,7 @@ Yes, but depending on how you signed up to [!INCLUDE[d365fin](includes/d365fin_m
 If you have questions about [!INCLUDE[d365fin](includes/d365fin_md.md)] that you can't find an answer for in this documentation, you can ask the Business Central  community. For more information, see [Dynamics 365 Business Central community](https://community.dynamics.com/business). Also, our Support team post tips and tricks. For more information, see [Dynamics 365 Business Central Support Blog](https://blogs.msdn.microsoft.com/dyn365finsupport).  
 
 ## Is it possible to extend my 30-day “New Company” trial period?
-Yes. If you want to extend your trial, you should contact Microsoft at 1-888-477-7989 (US) or 1-800-741-9206 (Canada). NOTE:  It may take up to 2 business days to complete the trial extension process.  
+Yes. If you want to extend your trial, you should contact Microsoft at 1-800-865-9408. NOTE:  It may take up to 2 business days to complete the trial extension process.  
 
 ## Our administrator has moved me to another plan to give me another role, but I still see the same Role Center in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 This is a bit complicated, but it looks like your administrator didn't change your Role Center and assign user groups that match the new license. Essentially, your access to [!INCLUDE[d365fin](includes/d365fin_md.md)] is determined by the type of plan (license) that you have - this sets permissions and your default Role Center page. You can change your Role Center manually in My Settings, but if you are moved to another plan, such as moving you from the Business plan to the Team Members plan, you might see the old Home because your permissions were not changed.  
@@ -47,9 +47,9 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], the Application Areas system and
 
 These capabilities have been used to simplify the UI in the standard version of [!INCLUDE[d365fin](includes/d365fin_md.md)]. For example, fields that are not commonly used, such as **Fax No.**, have been removed, and on ribbons on lists and cards, duplicate actions are removed and the most-used actions are promoted. A few complete features, such as Comments, are currently being optimized for the web client and are, therefore, not available in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Accordingly, certain UI elements that are visible in the standard version of Dynamics NAV are not visible in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The controls in question currently have the #Advanced application area tag. 
+Accordingly, certain UI elements that are visible in the standard version of Dynamics NAV are not visible in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The controls in question currently have the #Advanced application area tag.
 
-If you want your [!INCLUDE[d365fin](includes/d365fin_md.md)] solution to contain the same UI elements as your Dynamics NAV solution, you must take a couple of steps in the development environment to surface the #Advanced controls, through an extension. For more information, see [Extending Application Areas](https://docs.microsoft.com/en-us/dynamics-nav/developer/devenv-extending-application-areas).
+If you want your [!INCLUDE[d365fin](includes/d365fin_md.md)] solution to contain the same UI elements as your Dynamics NAV solution, you must take a couple of steps in the development environment to surface the #Advanced controls, through an extension. For more information, see [Extending Application Areas](/dynamics365/dev-itpro/developer/devenv-extending-application-areas).
 
 ## See Also
 [Getting Started](product-get-started.md)  

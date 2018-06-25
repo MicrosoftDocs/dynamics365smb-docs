@@ -37,12 +37,10 @@ When you are ready to start working and you want to look at some of the business
 ## The Role Centers
 The Role Center window is based on a role-centric design to give you fast access to the business process and intelligence tools that you need to do your job. For example, an accountant can monitor payments and approvals, and view finance performance charts. Check out the various Role Center by choosing the **Settings** icon ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") in the top right corner,  choosing **My Settings**, and then the Role Center to explore. Sign in again to apply the change. For more information, see [Changing Basic Settings](ui-change-basic-settings.md).
 
-
-
 Each Role Center provides a **Setup and Extensions** button. Here you have access to a list of assisted setup that can help you get started by setting selected areas up quickly. If an area is not covered by an assisted setup, choose the **Manual Setup** action to access setup windows where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 > [!NOTE]  
->   The list of setup guides, extensions, and services that are available differ depending on the user experience you choose for your company. The **Basic** experience gives access to fewer than the **Essential** experience does. The first time you sign in, you use the Basic experience. For more information, see [Changing Which Features are Displayed](ui-experiences.md).  
+>   The list of setup guides, extensions, and services that are available differ depending on the user experience you choose for your company. The **Essential** experience gives access to fewer than the **Premium** experience does. The first time you sign in, you use the Essential experience. For more information, see [Changing Which Features are Displayed](ui-experiences.md).  
 
 In the **Assisted Setup** window, you will find the following with the **Essential** experience:
 

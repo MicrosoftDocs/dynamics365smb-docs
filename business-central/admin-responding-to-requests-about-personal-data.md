@@ -43,6 +43,11 @@ On the Work and School Privacy page, you can also close your account. However, w
 
 You can still mark people as blocked due to privacy and export, edit, or delete transactions as explained elsewhere in this article.  
 
+## Exporting Data from Tables not Classified by Data Subject
+If you have a situation where you have to export data that is not classified in a way so that it gets automatically exported, such as data from the Profile Answers table, you must do the following: 
+-	Consider if you really want or have to export this supplemental data that is unrelated to the contact, meaning that it has no direct relationship to it 
+-	Add this table and relationship manually to the Rapid Start package and export it directly from the Rapid Start package – that’s why we generate a Rapid Start package for you, so that you can tweak it in situations such as this.
+
 ## Handling Data About Minors
 If a contact person's age is below the age of legal consent according to the laws in your region, you can indicate that by choosing the **Minor** check box on the **Contact** card. When you do, the **Privacy Blocked** check box is automatically selected. When you receive consent from the minor's parent or legal guardian, you can choose the **Parental Consent Received** check box to unblock the contact. Though you can process personal data for minors, you cannot use the profiling functionality in Microsoft Dynamics 365 for Sales.
 

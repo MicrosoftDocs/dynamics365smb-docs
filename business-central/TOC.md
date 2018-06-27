@@ -405,3 +405,8 @@
 ## [Switzerland](LocalFunctionality/Switzerland/switzerland-local-functionality.md)
 ## [United Kingdom](LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.md)
 ## [United States](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
+
+# [Compliance](compliance/compliance-overview.md)
+## [Application Compliance](compliance/compliance-application-compliance.md)
+## [Service Compliance](compliance/compliance-service-compliance.md)
+## [Certifications](compliance/compliance-certifications.md)

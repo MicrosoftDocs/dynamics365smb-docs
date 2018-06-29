@@ -48,4 +48,4 @@ The following table describes a sequence of tasks, with links to the topics that
 [Getting Started](product-get-started.md)    
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 

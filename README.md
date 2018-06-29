@@ -53,7 +53,35 @@ The general flow is as follows:
    ```
 
 4. Wait for a moment and your changes will be automatically published to staging.
-> If you don't have the permission to push to this repo, fork it to your own account and use pull request to submit your changes back.
+
+If you don't have the permission to push to this repo, fork it to your own account and use pull request to submit your changes back.
+
+### Using GitHub Desktop
+The new version of GitHub Desktop is optimized for cloning master branches directly and instead of creating pull requests, just keep syncing the branch upwards. We work through forks. A fork is needed, when you do not have permissions to sync directly to upstream master, but have to go through a pull request. We like to use the pull requests because they also give an overview of what needs to be reviewed and they can, if necessary, be closed or reverted. This means that the new process of working is a bit more manual than before. Below the necessary steps are described.
+
+**Installing and setting up GitHub Desktop**
+
+1.	The new GitHub Desktop can be fetched and downloaded from https://desktop.github.com/.
+2.	In GitHub Desktop, choose File, clone repository and then choose the needed repositories:
+a.	dynamics365smb-devitpro (current developer repo for business-central)
+b.	navdevitpro-content-pr (old developer repo, still used for on-prem NAV)
+c.	dynamics365smb-docs-pr (current application repo for business-central)
+
+**Push changes to MicrosoftDocs\master**
+1.	Commit changes that are in the local changelist (this is committed to your local master)
+2.	Push to origin (button - this pushes the change to your fork)
+3.	Under Branch, choose Create Pull Request to push your fork changes to the MicrosoftDocs\master. This opens in GitHub.
+4.	In GitHub compare the changes, you are pushing from your head fork to the base fork. If it looks okay, choose Create Pull Request.
+5.	In the Open a Pull Request window, choose Create Pull Request.
+6.	Validation happens as usual. Pull Request will be merged after being reviewed by someone from UA as usual.
+
+**Pull changes from MicrosoftDocs\master to get other peoples change and keep the fork up-to-date – remote syncing**
+1.	Under Branch, choose Merge into current branch
+2.	Make sure the default branch shows as your working branch in your fork, such as master
+3.	Choose the branch in the parent repo that you want to get updates from, such as Upstream\master or Upstream\mybranch
+4.	On the History tab, you should now be able to see all the changes that were done
+5.	The button now changes to Push to origin (your master branch on the fork), push to update and everything is up-to-date
+
 
 ## Validation and Preview
 

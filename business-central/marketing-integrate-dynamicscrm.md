@@ -143,4 +143,4 @@ If the item description on the original sales order is very long, then an additi
 [Onboard your organization and users to Dynamics 365  (online)](/dynamics365/customer-engagement/admin/onboard-your-organization-and-users-to-dynamics-365-online)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 

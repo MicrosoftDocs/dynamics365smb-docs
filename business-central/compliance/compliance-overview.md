@@ -28,4 +28,4 @@ In this section you can read more about our approach to compliance from and appl
 |See information about different certifications related to Business Central. Here you will find information about general certifications and country specific certifications.|[Certifications](compliance-certifications.md)|  
 
  ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
- ## [!INCLUDE[d365fin](../includes/training_link_md.md)]
+ 

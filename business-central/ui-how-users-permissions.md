@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 06/26/2018
+ms.date: 06/29/2018
 ms.author: sgroespe
 
 ---
@@ -38,7 +38,7 @@ You can set up users groups to help you manage permission sets for groups of use
 
 When users or user groups are created, you must assign permission sets to each to define which object a user can access. First, you must organize the relevant permissions in permission sets.  
 
-## To create or a edit a permission set
+## To create or edit a permission set
 Permission sets function as containers of permissions, so that you can easily manage multiple permissions in one record. When you have created a permission set, you must add the actual permissions. For more information, see the "To create or edit permissions" section.
 
 > [!NOTE]  
@@ -52,12 +52,12 @@ Permission sets function as containers of permissions, so that you can easily ma
 When you create new permission sets, you can use a copy function to quickly carry all the permissions of another permission set to a new permission set.
 
 > [!NOTE]  
-> If a System permission set that you have copied is changed, you will be notified, so that you can consider if the changes are relevant to copy or write into your new permission set.
+> If a System permission set that you have copied is changed, you will be notified (depending on your selection), so that you can consider if the changes are relevant to copy or write into your user-defined permission set.
 
 1. In the **Permission Sets** window, select the line for a permission set that you want to copy, and then choose the **Copy Permission Set** action.
-2. In the
+2. In the **Copy Permission Set** window, specify the name of the new permission set, and then choose the **OK** button.
 
-The new permission set, containing all the permissions of the copied permission set, is added as a new line in the **Permission Sets** window. Note that the lines are sorted ****Chet? alphabetically.
+The new permission set, containing all the permissions of the copied permission set, is added as a new line in the **Permission Sets** window. Note that the lines are sorted alphabetically within each type.
 
 ## To create or edit permissions
 1. In the **Permission Sets** window, select the line for a permission set, and then choose the **Permissions** action.

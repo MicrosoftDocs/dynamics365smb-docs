@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 08/31/2017
+ms.date: 06/29/2018
 ms.author: sgroespe
 
 ---
@@ -19,7 +19,7 @@ Items, among other products, are the basis of your business, the goods or servic
 
 Item cards hold the information that is required to buy, store, sell, deliver, and account for items.
 
-The item card can be of type **Inventory** or **Service** to specify if the item is a physical unit or a labor time unit. Apart from some fields that relate to the physical aspects of an item, all fields on an item card function in the same way for inventory items and services. For more information about selling an item, see [Sell Products](sales-how-sell-products.md) or [Invoice Sales](sales-how-invoice-sales.md).
+The item card can be of type **Inventory**, **Service**, and **Non-Inventory** to specify if the item is a physical inventory unit, a labor time unit, or a physical unit that is not kept on inventory. Apart from some fields that relate to the physical aspects of an item, all fields on an item card function in the same way for inventory items and services. For more information about selling an item, see [Sell Products](sales-how-sell-products.md) or [Invoice Sales](sales-how-invoice-sales.md).
 
 An item can be structured as a parent item with underlying child items in a bill of materials (BOM). In [!INCLUDE[d365fin](includes/d365fin_md.md)], a bill of material can be either an assembly BOM or a production BOM, depending on its use. For more information, see [Work with Bills of Material](inventory-how-work-BOMs.md).
 

@@ -2,7 +2,7 @@
     title: Swiss Inventory Management
     description: Swiss enhancements include special inventory management features.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -21,7 +21,7 @@
 
 - Detailed reporting.  For more information, see the Inventory - Sales Statistics report and the Inventory - List report.  
 - The ability to track an invoice with multiple shipments.  
-- Including an item card location code as the default location code for sales lines and item journals. For more information, see [Set Up Locations](../../inventory-how-setup-locations.md). 
+- Including an item card location code as the default location code for sales lines and item journals. For more information, see [Set Up Locations](../../inventory-how-setup-locations.md).
 
 ## Managing Item Details  
 Companies can have different warehouses for different product categories. In such cases, you must use the default location code retrieved from the item card. When you define a location code for an item, it is transferred to the sales lines and item journals as a default item location code. For more information, see the Sales Line and the Item Journal Line table.  
@@ -33,7 +33,6 @@ If multiple shipments have been posted for a customer, then you can create a com
 
 ## See Also  
  [Block Inventory Items for Sales or Purchases](how-to-block-inventory-items-for-sales-or-purchases.md)   
- [Copy Existing Items to New Items](how-to-copy-existing-items-to-new-items.md)   
- [Deactivate Item Cost Tracking](how-to-deactivate-item-cost-tracking.md)   
+ [Copy Existing Items to New Items](how-to-copy-existing-items-to-new-items.md)  
  [Switzerland Local Functionality](switzerland-local-functionality.md)   
  [Set Up Locations](../../inventory-how-setup-locations.md)

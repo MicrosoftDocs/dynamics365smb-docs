@@ -49,5 +49,4 @@ You will receive an error message if you try to do the following:
 
 ## See Also  
  [Swiss Inventory Management](swiss-inventory-management.md)   
- [Copy Existing Items to New Items](how-to-copy-existing-items-to-new-items.md)   
- [Deactivate Item Cost Tracking](how-to-deactivate-item-cost-tracking.md)
+ [Copy Existing Items to New Items](how-to-copy-existing-items-to-new-items.md) 

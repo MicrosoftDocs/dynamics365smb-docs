@@ -34,4 +34,4 @@ Business Central as a cloud service also has achieved certifications like ISO 27
 [Service Compliance](compliance-service-compliance.md)  
 
  ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
- ## [!INCLUDE[d365fin](../includes/training_link_md.md)]
+ 

@@ -233,7 +233,7 @@
 ## [Create Reports with XBRL](bi-create-reports-with-xbrl.md)
 
 # [Sales](sales-manage-sales.md)
-## [Make Offers](sales-how-make-offers.md)
+## [Make Sales Quotes](sales-how-make-offers.md)
 ## [Invoice Sales](sales-how-invoice-sales.md)
 ## [Sell Products](sales-how-sell-products.md)
 ## [Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)

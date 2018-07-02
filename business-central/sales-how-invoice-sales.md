@@ -24,7 +24,7 @@ There are a couple of scenarios where you must use a sales order instead of a sa
 
 In all other aspects, sales orders and sales invoices work in the same way. For more information, see [Sell Products](sales-how-sell-products.md).
 
-You can negotiate with the customer by first creating a sales quote, which you can convert to a sales invoice when you agree on the sale. For more information, see [Make Offers](sales-how-make-offers.md).
+You can negotiate with the customer by first creating a sales quote, which you can convert to a sales invoice when you agree on the sale. For more information, see [Make Sales Quotes](sales-how-make-offers.md).
 
 If the customer decides to buy, you post the sales invoice to create the related quantity and value entries. When you post the sales invoice, you can also email the document as a PDF attachment. You can have the email body prefilled with a summary of the invoice and payment information, such as a link to PayPal. For more information, see [Send Documents by Email](ui-how-send-documents-email.md).
 

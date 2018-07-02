@@ -37,7 +37,8 @@ In many cases, registering for [!INCLUDE[d365fin](includes/d365fin_md.md)] can b
 
 | Europe | North America |
 | --- | --- |
-| Austria | Canada |
+| Australia | Canada |
+| Austria | |
 | Belgium | United States |
 | Denmark | |
 | Germany | |
@@ -45,6 +46,7 @@ In many cases, registering for [!INCLUDE[d365fin](includes/d365fin_md.md)] can b
 | France | |
 | Italy | |
 | Netherlands | |
+| New Zealand | |
 | Spain | |
 | Sweden | |
 | Switzerland | |

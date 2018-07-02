@@ -25,6 +25,9 @@ You can pay vendors using the electronic funds transfer (EFT) system in Australi
 
 When you have set up bank accounts and vendors, you can create EFT file that are based on entries in the payment journal. When you create an EFT file, an entry is made in the **EFT Register** table. On the EFT Register page you can drill down to see the vendor ledger entries for the EFT file. On the Payment Journal page, you can also import existing EFT register entries to the payment journal by using the **Transfer EFT Register** batch job.
 
+> [!NOTE]  
+> Electronic Funds Transfer (EFT) uses posted and not yet posted payments as base for withholding tax amounts calculation and applied inovoices as reference for withholding tax amounts calculation. Payments that are not applied to any invoice can be exported to EFT file only when they have Skip WHT flag set to Yes. Otherwise they cannot be exported to EFT file. During export of EFT file, Payment Journal lines are no longer deleted and cannot be deleted as long as they have reference to **EFT Register**. To remove the link between **EFT Register** and Payment Journal lines, click **Cancel Export** action either in **EFT Register** page or on Payment Journal page.       
+
 ## See Also  
 [Export Payments to a Bank File](../../payables-how-export-payments-bank-file.md)  
 [Australia Local Functionality](australia-local-functionality.md)

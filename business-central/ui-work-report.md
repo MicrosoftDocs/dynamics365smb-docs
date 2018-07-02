@@ -22,14 +22,30 @@ You can find reports in the **Reports** tab on selected pages, or you can use se
 
 
 ## Specifying the data to include in the report
-When you open a report, you are presented with a page that let's you specify information (options and filters) that determines what to include in the report. For example, depending on the report, you can specify a date range, a specific record such as a customer, or sorting order. Here is an example of a report options page:
+When you open a report, you are typically presented with a page that let's you specify information (options and filters) that determines what to include in the report. For example, depending on the report, you can specify a date range, a specific record such as a customer, or sorting order. Here is an example of a report options page:
 
 ![Report options](media/report_options.png "Report options")
 
-The **Options** section contains general settings displayed in the report.
+### Using Saved Settings
+A report page might include the **Saved Settings** section that contains one or more entries in the **Use default value from** box. The entries in this box are called *Saved settings*. A saved setting is basically a predefined group of options and filters that you can apply to the report before previewing or sending the report to a file. The saved settings entry called **Last used options and filters** is always available. This entry sets the report to use options and filters that were used the last time you looked at the report.
+
+Using saved settings is a fast and reliable way to consistently generate reports that contain the correct data. After you set the **Use default value from** box to a saved settings entry, you can change any of the options and filters before previewing or saving the report. The changes that you make will not be saved to the saved settings entry you selected, but they will be saved to the **Last used options and filters**.
+
+>[!NOTE]
+>If you are an administrator, you can create and manage the saved settings for reports for all users. For more information, see [Managing Saved Settings on Reports](reports-saving-reusing-settings.md).
+
+### Setting Options and Filters
+If you want to further limit or pin-point the data that is included in a report, you can set additional options and filters.
+
+Filters enable you display data based on a specific criteria. Filters are grouped by the entity to which they belong, such as **Customer** in the above illustration. You define a filter by setting the **Where** box to field, and then adding the criteria in the **is:** box. For example, the illustration above will create a report for the customer whose **No.** field is equal to **01121212**.
+
+You can add additional filters by using the **Add** boxes. 
+
+Depending on the field, you can specify a filter to be an exact match, partial match, range of values, and more. For more information, see  
 
 
-If you want to limit the data that is included in the report, you can set filters. You can enter criteria in the suggested filters or add more filters.
+
+
 
 There is a FastTab for each table that is used in the report. There may be two types of filters available for each table:
 
@@ -38,6 +54,8 @@ Under the Show results heading, you can enter table filters.
 Under the Limit totals to heading, you can enter FlowFilters.
 
 For more information, see How to: Set Filters and Enter Criteria in Filters.
+
+
 
 ## Previewing a report
 Choose **Preview** to see the report in the Internet browser. Point to an area of the report to show the menu bar.  
@@ -70,14 +88,6 @@ You can schedule a report when you open a report. You choose the **Schedule** ac
 
 ## <a name="PrintReport"></a>Printing a Report
 You can print a report from the **Print** button on the options page that appears when you open the report or from the menu bar in Preview.
-
-## Using Saved Settings
-A report can include one or more entries in the **Use default value from** box. The entries in this box are called *Saved settings*. A saved setting is basically a predefined group of options and filters that you can apply to the report before previewing or sending the report to a file. The saved settings entry called **Last used options and filters** is always available. This entry sets the report to use options and filters that were used the last time you looked at the report.
-
-Using saved settings is a fast and reliable way to consistently generate reports that contain the correct data. After you set the **Use default value from** box to a saved settings entry, you can change any of the options and filters before previewing or saving the report. The changes that you make will not be saved to the saved settings entry you selected, but they will be saved to the **Last used options and filters**.
-
->[!NOTE]
->If you are an administrator, you can create and manage the saved settings for reports for all users. For more information, see [Managing Saved Settings on Reports](reports-saving-reusing-settings.md).
 
 ## Changing the layout and look of a report
 A report layout controls what is shown on a report, how it is arranged, and how it is styled. If you want to switch to a different layout, see [Change Which Layout is Currently Used on a Report](ui-how-change-layout-currently-used-report.md). Or, if you want to customize your own report layout, see [Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md).

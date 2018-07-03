@@ -22,11 +22,11 @@ You can find reports in the **Reports** tab on selected pages, or you can use se
 
 
 ## Specifying the data to include in the report
-When you open a report, you are typically presented with a page where you set various options and filters that determine what to include in the report. For example, this lets you create a report for a specific customer, a certain date range, or sort the order of information in the report. Here is an example of a report options page:
+When you open a report, you are typically presented with a page where you set various options and filters that determine what to include in the report. This page is called the report request page. For example, the report request page lets you create a report for a specific customer, a certain date range, or sort the order of information in the report. Here is an example of a report request page:
 
 ![Report options](media/report_options.png "Report options")
 
-### Using Saved Settings
+### <a name="SavedSettings"></a>Using Saved Settings
 A report page might include the **Saved Settings** section that contains one or more entries in the **Use default value from** box. The entries in this box are called *saved settings*. A saved setting is basically a predefined group of options and filters that you can apply to the report before previewing or sending the report to a file. The saved settings entry called **Last used options and filters** is always available. This entry sets the report to use options and filters that were used the last time you looked at the report.
 
 Using saved settings is a fast and reliable way to consistently generate reports that contain the correct data. After you set the **Use default value from** box to a saved settings entry, you can change any of the options and filters before previewing or saving the report. The changes that you make will not be saved to the saved settings entry you selected, but they will be saved to the **Last used options and filters**.

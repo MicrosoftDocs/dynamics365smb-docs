@@ -14,10 +14,11 @@ ms.author: jswymer
 
 ---
 # Managing Saved Settings on Reports
-Depending on the report that is run, you might be presented with a page that lets you to set certain options and filters for changing the data that is included in the generated report. This page is known as the report request page. A report can include one or more *saved settings* that you can apply to the report from the request page. *Saved settings* are basically predefined options and filters. Using saved settings is a fast and reliable way to consistently generate reports that contain the correct data.
+When running a reports, users are typically presented with a page that lets them set certain options and filters for changing the data that is included in the generated report. This page is called the report request page. A report can include one or more *saved settings* that you can apply to the report from the request page. *Saved settings* are basically predefined options and filters. Using saved settings is a fast and reliable way to consistently generate reports that contain the correct data. For more information about how saved settings are used, see [Using Saved Settings](ui-work-report.md#SavedSettings).
 
-You can see the saved settings that are available to you for a report in **Saved Settings** section of the report request page.  
+If you have the proper permissions, you can view, create, and modify the saved settings for all reports for all users in company. You can assign saved settings for a report to individual users or all users in the company.
 
+<!-- 
 ## Apply saved settings to a report
 1. Open the report.
 
@@ -26,18 +27,26 @@ You can see the saved settings that are available to you for a report in **Saved
 
    The **Saved Settings** section only appears if the report has been run before or if there are existing saved settings entries. The saved settings entry called **Last used options and filters** is always available. These settings are the option and filter values that were used the last time you ran the report.
 
+-->
+
 ## Create and modify saved settings for all users
-If you have the proper permissions, you can view, create, and modify the saved settings for all reports for all users in company. You can assign saved settings for a report to individual users or all users in the company.
+You manage saved settings from page **1506 Reports Settings**. There are two ways to open this page:
+-   Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Report Settings**, and then choose the related link.
+-   Open a report, choose the lookup next to the **Used default values from:** box, choose **Select from full list**.
 
-You manage saved settings from page 1506 **Reports Settings**. To open this page, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Report Settings**, and then choose the related link.
+The page displays all the existing save settings entries for all users. If there is a user name in the **Assigned to** column, then only that user can use the saved settings for the associated report. If there is a check mark in the **Share with all users** column, all users can use the saved settings for the report.
 
-From the **Report Settings** page, you can create a new settings from scratch or you can make a copy and modify existing settings. To modify the options and filters for a settings, choose the **Edit** action.
+From the **Report Settings** page, you can:
+-   Choose **New** to create a new saved settings entry from scratch.
+-   Select a saved settings entry from the list, and choose **Copy** to create a copy.
+-   Select a saved settings entry from the list, and choose **Edit** to modify an saved settings entry.
 
-> [!NOTE]
-> The saved settings feature on reports is only relevant when the [SaveValues property](https://docs.microsoft.com/en-us/dynamics-nav/savevalues-property) of the request options page is set to `Yes`. The **SaveValues** property is set in the development environment.  
 
 > [!Important]
-> If you create a saved settings item for all users, and it has the same name as an existing saved settings for a specific user, then that user will not be able to use the saved settings that is assigned to everyone.  In the Saved Settings field on the report request page, the user will see two saved settings options with the same name. However, no matter which option he chooses, the user-specific saved settings will be used.
+> Consider the name that you give a saved settings entry. If you create a saved settings item for all users, and you give it the same name as an existing saved settings for a specific user, then that user will not be able to use the saved settings that is assigned to everyone.  Under **Saved Settings** on the report request page, the user will see two saved settings entries with the same name. However, no matter which option he chooses, the user-specific saved settings will be used.
+
+> [!NOTE]
+> The saved settings feature is available only on reports where [SaveValues property](https://docs.microsoft.com/en-us/dynamics-nav/savevalues-property) of the report's request page is set to `Yes`. The **SaveValues** property is set in the development environment.  
 
 ## See Also
 [Working with Reports](ui-work-report.md)  

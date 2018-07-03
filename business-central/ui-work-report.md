@@ -37,11 +37,11 @@ Using saved settings is a fast and reliable way to consistently generate reports
 ### Setting Options and Filters
 If you want to further limit or pin-point the data that is included in a report, you can set additional options and filters.
 
-Filters enable you display data based on a specific criteria. Filters are grouped by the entity to which they belong, such as **Customer** in the illustration above. You define a filter by setting the **Where** box to field, and then adding the criteria in the **is:** box. The For example, in the illustration above, there is a single filter that will create report for the customer whose **No.** is equal to **01121212**.
+Filters enable you display data based on a specific criteria. Filters are grouped by the entity to which they belong, such as **Customer** in the illustration above. You define a filter by setting the **Where** box to the field that you want to filter on, and then adding the criteria in the **is:** box. For example, in the illustration above, there is a single filter that will create report for the customer whose **No.** is equal to **01121212**.
 
 You can add more filters by setting the **Add** boxes. When you have more than one filter, only results that meet the criteria for all filters will be included in the report.
 
-Depending on what type field you are filtering, you can specify the filter criteria to look for an exact match, partial match, range of values, and more. For help about filter criteria, see:
+Depending on what type field you are filtering, you can specify the filter criteria to look for an exact match, partial match, range of values, and more. For help about how to set up filters, see:
 -   [Searching, Filtering, and Sorting Data](ui-enter-criteria-filters.md)
 -   [Entering Date Ranges ](ui-enter-date-ranges.md)
 

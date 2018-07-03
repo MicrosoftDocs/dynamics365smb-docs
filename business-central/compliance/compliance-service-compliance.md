@@ -29,4 +29,4 @@ If you are interested in the complete list of compliance offerings from Microsof
 [Certifications](compliance-certifications.md)  
 
  ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
- ## [!INCLUDE[d365fin](../includes/training_link_md.md)]
+ 

@@ -22,12 +22,12 @@ You can find reports in the **Reports** tab on selected pages, or you can use se
 
 
 ## Specifying the data to include in the report
-When you open a report, you are typically presented with a page that let's you specify information (options and filters) that determines what to include in the report. For example, depending on the report, you can specify a date range, a specific record such as a customer, or sorting order. Here is an example of a report options page:
+When you open a report, you are typically presented with a page where you set various options and filters that determine what to include in the report. For example, this lets you create a report for a specific customer, a certain date range, or sort the order of information in the report. Here is an example of a report options page:
 
 ![Report options](media/report_options.png "Report options")
 
 ### Using Saved Settings
-A report page might include the **Saved Settings** section that contains one or more entries in the **Use default value from** box. The entries in this box are called *Saved settings*. A saved setting is basically a predefined group of options and filters that you can apply to the report before previewing or sending the report to a file. The saved settings entry called **Last used options and filters** is always available. This entry sets the report to use options and filters that were used the last time you looked at the report.
+A report page might include the **Saved Settings** section that contains one or more entries in the **Use default value from** box. The entries in this box are called *saved settings*. A saved setting is basically a predefined group of options and filters that you can apply to the report before previewing or sending the report to a file. The saved settings entry called **Last used options and filters** is always available. This entry sets the report to use options and filters that were used the last time you looked at the report.
 
 Using saved settings is a fast and reliable way to consistently generate reports that contain the correct data. After you set the **Use default value from** box to a saved settings entry, you can change any of the options and filters before previewing or saving the report. The changes that you make will not be saved to the saved settings entry you selected, but they will be saved to the **Last used options and filters**.
 
@@ -37,25 +37,13 @@ Using saved settings is a fast and reliable way to consistently generate reports
 ### Setting Options and Filters
 If you want to further limit or pin-point the data that is included in a report, you can set additional options and filters.
 
-Filters enable you display data based on a specific criteria. Filters are grouped by the entity to which they belong, such as **Customer** in the above illustration. You define a filter by setting the **Where** box to field, and then adding the criteria in the **is:** box. For example, the illustration above will create a report for the customer whose **No.** field is equal to **01121212**.
+Filters enable you display data based on a specific criteria. Filters are grouped by the entity to which they belong, such as **Customer** in the illustration above. You define a filter by setting the **Where** box to field, and then adding the criteria in the **is:** box. The For example, in the illustration above, there is a single filter that will create report for the customer whose **No.** is equal to **01121212**.
 
-You can add additional filters by using the **Add** boxes. 
+You can add more filters by setting the **Add** boxes. When you have more than one filter, only results that meet the criteria for all filters will be included in the report.
 
-Depending on the field, you can specify a filter to be an exact match, partial match, range of values, and more. For more information, see  
-
-
-
-
-
-There is a FastTab for each table that is used in the report. There may be two types of filters available for each table:
-
-Under the Show results heading, you can enter table filters.
-
-Under the Limit totals to heading, you can enter FlowFilters.
-
-For more information, see How to: Set Filters and Enter Criteria in Filters.
-
-
+Depending on what type field you are filtering, you can specify the filter criteria to look for an exact match, partial match, range of values, and more. For help about filter criteria, see:
+-   [Searching, Filtering, and Sorting Data](ui-enter-criteria-filters.md)
+-   [Entering Date Ranges ](ui-enter-date-ranges.md)
 
 ## Previewing a report
 Choose **Preview** to see the report in the Internet browser. Point to an area of the report to show the menu bar.  

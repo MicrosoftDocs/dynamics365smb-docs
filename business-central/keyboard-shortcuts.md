@@ -44,6 +44,8 @@ The following table describes the keyboard shortcuts that you can use in a list 
 > [!Note]
 > In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
 
+### Navigate between rows and columns
+
 |Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |Remarks|
 |-----------------|-------|-------|-------|
 |Up Arrow|Move in the same column to the field in the row above.| Move in the same column to the tile in the row above.  |  | 
@@ -55,6 +57,9 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Page Up<br />(Fn+up Arrow)|Move in the same column to the uppermost visible row.|Move in the same column to the uppermost visible row.||
 |Page Down<br />(Fn+down Arrow)|Move in the same column to lowermost visible row.|Move in the same column to the lowermost visible row.||
 |Enter<br />(Fn+down Arrow)|Open the record that is associated with the field|Opens the record.| Only relevant if a card page is associated with the record.|
+|Ctrl+Enter|Move focus to the next element outside the list.|Move focus to the next element outside the list.||
+
+### Select, copy and paste rows
 |Ctrl+Home<br />(Fn+Ctrl+Left Arrow)|Select the first row in the list; focus moves to the first actionable field in row|Move to the tile in first row in the list||
 |Ctrl+End<br />(Fn+Ctrl+Right Arrow)|Select the last row in the list; focus moves to first actionable field in row|Move to the first tile in last row in the list||
 |Ctrl+Click<br />(Cmd+Click)|Extend the selection of rows to include the row that you click.|Not applicable||
@@ -67,7 +72,6 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Shift+Down Arrow|Extend the selection of rows to include the row below.|Not applicable||
 |Shift+Page Up<br />(Shift+Fn+Up Arrow)|Extend the selection of rows to include all visible rows above the current selection of rows.|Not applicable||
 |Shift+Page Down<br />(Shift+Fn+Down Arrow)|Extend the selection of rows to include all all visible rows below the current selection of rows.|Not applicable||
-|Ctrl+Enter|Move focus to the next element outside the list.|Move focus to the next element outside the list.||
 |Ctrl+C<br />|Copy the selected rows to the Clipboard.|Not applicable||
 |Ctrl+V<br />|Paste the selected rows from the Clipboard into the current page or document.|Not applicable||
 

@@ -56,7 +56,6 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Page Down<br />(Fn+down Arrow)|Move in the same column to lowermost visible row.|Move in the same column to the lowermost visible row.||
 |Enter<br />(Fn+down Arrow)|Open the record that is associated with the field|Opens the record.| Only relevant if a card page is associated with the record.|
 |Ctrl+Home<br />(Fn+Ctrl+Left Arrow)|Select the first row in the list; focus moves to the first actionable field in row|Move to the tile in first row in the list||
-|Ctrl+Home<br />(Fn+Ctrl+Left Arrow)|Select the first row in the list; focus moves to the first actionable field in row|Move to the tile in first row in the list||
 |Ctrl+End<br />(Fn+Ctrl+Right Arrow)|Select the last row in the list; focus moves to first actionable field in row|Move to the first tile in last row in the list||
 |Ctrl+Click<br />(Cmd+Click)|Extend the selection of rows to include the row that you click.|Not applicable||
 |Shift+Click|Extend the selection of rows to include the row that you click and all the rows in between.|Not applicable|You can use this after using Ctrl+Up Arrow or Ctrl+Up Down to expand your selection.|

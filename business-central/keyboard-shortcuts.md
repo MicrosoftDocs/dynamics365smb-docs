@@ -60,6 +60,8 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Ctrl+Enter|Move focus to the next element outside the list.|Move focus to the next element outside the list.||
 
 ### Select, copy and paste rows
+|Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |Remarks|
+|-----------------|-------|-------|-------|
 |Ctrl+Home<br />(Fn+Ctrl+Left Arrow)|Select the first row in the list; focus moves to the first actionable field in row|Move to the tile in first row in the list||
 |Ctrl+End<br />(Fn+Ctrl+Right Arrow)|Select the last row in the list; focus moves to first actionable field in row|Move to the first tile in last row in the list||
 |Ctrl+Click<br />(Cmd+Click)|Extend the selection of rows to include the row that you click.|Not applicable||

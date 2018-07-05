@@ -102,5 +102,5 @@ The following example shows how you can use a minus sign to indicate a date in t
 
 ## See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)  
 [Entering Criteria in Filters ](ui-enter-criteria-filters.md)  
-[General Business Functionality](ui-across-business-areas.md)

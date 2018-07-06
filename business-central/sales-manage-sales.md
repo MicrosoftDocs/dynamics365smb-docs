@@ -34,7 +34,7 @@ The following table describes a sequence of tasks, with links to the topics that
 
 | To | See |
 | --- | --- |
-| Create a sales quote where you offer products on negotiable terms before converting the quote to a sales invoice. |[Make Offers](sales-how-make-offers.md) |
+| Create a sales quote where you offer products on negotiable terms before converting the quote to a sales invoice. |[Make Sales Quotes](sales-how-make-offers.md) |
 | Create a sales invoice to record your agreement with a customer to sell products on certain delivery and payment terms. |[Invoice Sales](sales-how-invoice-sales.md) |
 | Process a sales order that involves partial shipping or drop shipment. |[Sell Products](sales-how-sell-products.md) |
 |Set up standard sales or purchase lines that you can quickly insert on documents, for example, for recurring replenishment orders.|[Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)|  
@@ -57,4 +57,4 @@ The following table describes a sequence of tasks, with links to the topics that
 [General Business Functionality](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 

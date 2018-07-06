@@ -18,7 +18,7 @@ Depending on the report that is run, you might be presented with a page that let
 
 You can see the saved settings that are available to you for a report in **Saved Settings** section of the report request page.  
 
-## To apply saved settings to a report
+## Apply saved settings to a report
 1. Open the report.
 
    The report request page appears.    
@@ -26,7 +26,7 @@ You can see the saved settings that are available to you for a report in **Saved
 
    The **Saved Settings** section only appears if the report has been run before or if there are existing saved settings entries. The saved settings entry called **Last used options and filters** is always available. These settings are the option and filter values that were used the last time you ran the report.
 
-## Administer saved report settings for users
+## Create and modify saved settings for all users
 If you have the proper permissions, you can view, create, and modify the saved settings for all reports for all users in company. You can assign saved settings for a report to individual users or all users in the company.
 
 You manage saved settings from page 1506 **Reports Settings**. To open this page, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Report Settings**, and then choose the related link.

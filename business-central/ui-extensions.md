@@ -73,4 +73,4 @@ Microsoft provides the following extensions:
 [Getting Started](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 

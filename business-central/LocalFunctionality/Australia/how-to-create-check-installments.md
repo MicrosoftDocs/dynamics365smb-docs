@@ -1,19 +1,17 @@
 ---
     title: How to Create Check Installments
-    description: You can create check installments for post-dated checks. You can define the number of installments that a payment will be divided into, the percent of interest, and the period in which the checks will be created.
-
+    description: Describes how to create check installments for post-dated checks, define the number of installments that a payment will be divided into, the percent of interest, and the period in which the checks will be created.
     services: project-madeira 
     documentationcenter: ''
-    author: SorenGP
-
+    author: bholtorf
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
+    ms.date: 05/29/2018
+    ms.author: bholtorf
 
 ---
 # Create Check Installments
@@ -36,3 +34,6 @@ You can create check installments for post-dated checks. You can define the numb
 6.  Choose the **OK** button.  
 
      The installment checks are created and displayed in the **Post Dated Checks-Purchases** window.
+
+## See Also
+[Australia Local Functionality](australia-local-functionality.md)

@@ -45,4 +45,4 @@ The following table lists some of the general functionality with links to topics
 [General Business Functionality](ui-across-business-areas.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 

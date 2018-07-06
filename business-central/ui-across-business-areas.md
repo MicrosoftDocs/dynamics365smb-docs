@@ -38,4 +38,4 @@ The following table lists these general business areas with links to topics that
 [Administration](admin-setup-and-administration.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 

@@ -59,7 +59,7 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Enter<br />(Fn+down Arrow)|Open the record that is associated with the field|Opens the record.| Only relevant if a card page is associated with the record.|
 |Ctrl+Enter|Move focus to the next element outside the list.|Move focus to the next element outside the list.||
 
-### Select, copy and paste rows
+### Select, copy and paste
 |Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |Remarks|
 |-----------------|-------|-------|-------|
 |Ctrl+Home<br />(Fn+Ctrl+Left Arrow)|Select the first row in the list; focus moves to the first actionable field in row|Move to the tile in first row in the list||
@@ -76,6 +76,7 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Shift+Page Down<br />(Shift+Fn+Down Arrow)|Extend the selection of rows to include all all visible rows below the current selection of rows.|Not applicable||
 |Ctrl+C<br />|Copy the selected rows to the Clipboard.|Not applicable||
 |Ctrl+V<br />|Paste the selected rows from the Clipboard into the current page or document.|Not applicable||
+|F8|Copy the value of field in the same column in the row above, and paste it in the current row.||You can only do this editable lists. Using this shortcut followed by a Tab lets you quickly fill out fields in line items that need the same value as the row above.|
 
 ## Keyboard Shortcuts in the Calendar (Date Picker)
 When setting a date field, you can either enter the date manually or open a calendar (date picker) that lets you select the date you want. The following table describes the keyboard shortcuts for the calendar.

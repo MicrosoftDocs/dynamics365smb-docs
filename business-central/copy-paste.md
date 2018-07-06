@@ -14,6 +14,8 @@ ms.author: jswymer
 
 # Copying and Pasting Data
 
+You can copy and paste text within the by selecting text. Press CTRL+C to copy and CTRL+V to paste (Windows), or press cmd+C cmd+V (Mac).
+
 ## How do I copy data
 
 

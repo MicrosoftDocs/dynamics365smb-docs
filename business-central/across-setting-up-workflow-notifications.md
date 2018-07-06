@@ -22,7 +22,7 @@ Many workflow responses are about notifying a user that an event has occurred th
 >  The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] supports notifications as email and as internal notes.  
 
 > [!IMPORTANT]  
->  All workflow notifications are sent through a job queue. Make sure that the job queue in your installation is set up to handle workflow notifications, and that the **Start Automatically From NAS** check box is selected. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
+>  All workflow notifications are sent through a job queue. Make sure that the job queue in your installation is set up to handle workflow notifications, and that the **Start Automatically From Server** check box is selected. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
 
 You set up different aspects of workflow notifications in the following places:  
 

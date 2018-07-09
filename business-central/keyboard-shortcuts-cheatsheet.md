@@ -14,11 +14,11 @@ ms.author: jswymer
 
 # PC keyboard shortcut cheat sheet
 
-#### Navigate and select rows
+**Navigate and select rows**
 |||
 |--|--|
 |Ctrl + A|Select all|
-|Home/End|Go to first/ last field|
+|Home/End|Go to first/ last field|** <br/>
 |Ctrl+Home/End|Go to first/last row|
 |Ctrl+Up/Down|Navigate without losing selection|
 |Ctrl+Space|Toggle row selection|
@@ -26,7 +26,7 @@ ms.author: jswymer
 |Shift+Ctrl+Home/End|Extend selection to first/last row|
 |Ctrl+Enter|Focus out of the list|
 
-#### Search, filter, and sort
+**Search, filter, and sort**
 |||
 |--|--|
 |F3|Toggle search|

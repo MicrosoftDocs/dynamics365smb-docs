@@ -18,6 +18,33 @@ You can copy and paste text within the by selecting text. Press CTRL+C to copy a
 
 ## How do I copy data
 
+## How do I copy rows?
+To copy a single row, simply select it, and press Ctrl+C.one or more rows and press Ctrl + C on your keyboard. Paste using Ctrl + V.
+
+Q. What can I Copy & Paste?
+A. Copy one or more rows in Business Central to the same list, or to any list with identical columns.
+Copy one or more rows in Business Central and paste into Excel or other applications.
+Copy one or more rows in Excel and paste into a Business Central list.
+Copy the value of an individual field in Business Central and paste anywhere.
+
+Q. Can I Paste rows into an Outlook email or OneNote?
+A. Yes. This is pasted as a nicely-formatted table that preserves indentation, numeric alignment and coloring, just as you would see in Business Central.
+
+Q. Does Copy & Paste work with tiles?
+A. No. The list must be viewed as rows for you to Copy & Paste.
+
+Q. In which lists can I copy rows?
+A. You can copy rows in any kind of list, including worksheets, FactBoxes, or embedded on a page. The list must be editable to paste any rows. In some pages, the application may prevent pasting of rows to certain tables. Contact your administrator or application developer to set the PasteIsValid property on the source table.
+
+Q. On which clients is Copy & Paste available?
+A. Copy & Paste are available in the browser or Windows 10 desktop app for Business Central.
+
+Q. What is the maximum rows that can be copied?
+A. You can copy as many rows as you have scrolled into view. For example, to copy all 1000 rows in a page, you must first scroll to the bottom of the page and wait for the rows to appear before copying. The maximum number of rows you can copy is only limited by the memory of your device.
+
+Q. Must I have the exact same columns when pasting?
+A. Yes, Whether you are copying from Business Central, from Excel, or from some other tabular source, the copied rows must have the exact matching columns, no more no less.
+
 
 ## Exactly what can I copy and paste?
 -   Copy one or more rows in Business Central to the same list, or to any list with identical columns.

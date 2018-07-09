@@ -13,10 +13,9 @@ ms.author: jswymer
 ---
 
 # Copying and Pasting in [!INCLUDE[d365fin](includes/d365fin_md.md)]
-You can copy rows or field on a page, and paste them into the same page, another page, or even an external document like Microsoft Excel and Word. 
-In short, you press CTRL+C (cmd+C in in macOS) on your keyboard to copy and CTRL+V (cmd+V in macOS) to paste.
+You can copy one or more rows in a list or a single field on a page, and then paste what you copied into the same page, another page, or an external document (like Microsoft Excel and Word). In short, to copy, you press CTRL+C (cmd+C in in macOS) on your keyboard. To paste, you press CTRL+V (cmd+V in macOS).
 
-There are several other keyboard shortcuts for copying and pasting that help you save time when entering data. For more information about these, see [Keyboard Shortcuts](keyboard-shortcuts.md#CopyRows).
+There are several other keyboard shortcuts for copying and pasting that help you save time when entering data. For more information about these shorcuts, see [Keyboard Shortcuts](keyboard-shortcuts.md#CopyRows).
 
 This article will try to answer some questions you might have about copying and pasting.  
 

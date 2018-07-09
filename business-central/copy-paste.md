@@ -16,7 +16,7 @@ ms.author: jswymer
 You can copy rows or field on a page, and paste them into the same page, another page, or even an external document like Microsoft Excel and Word. 
 In short, you press CTRL+C (cmd+C in in macOS) on your keyboard to copy and CTRL+V (cmd+V in macOS) to paste.
 
-There are several other keyboard shortcuts for copying and pasting that help you save time when entering data. For more information about these, see [Keyboard Shortcuts](keyboard-shortcuts.md#XopyRows).
+There are several other keyboard shortcuts for copying and pasting that help you save time when entering data. For more information about these, see [Keyboard Shortcuts](keyboard-shortcuts.md#CopyRows).
 
 This article will try to answer some questions you might have about copying and pasting.  
 

@@ -30,7 +30,7 @@ To copy a single row, simply select it, and press Ctrl+C.
 
 If you want to copy more rows, you can two things:
 -   Select another row and press Ctrl+Click or press Shift+Click to select all rows in between.
--   Select ![Show more options](media/show-more-options-icon.png "Show more options icon") in the first column of a row, choose **Select More**, and then set the check box next to each row that you want to copy. 
+-   Select ![Show more options](media/show-more-options-icon.png "Show more options icon") in the first column of a row, choose **Select More**, set the check box next to each row that you want to copy, and then press Ctrl+C.
 
 ## Can I paste rows into an Outlook email or OneNote?
 Yes. This is pasted as a nicely-formatted table that preserves indentation, numeric alignment and coloring, just as you would see in [!INCLUDE[d365fin](includes/d365fin_md.md)].

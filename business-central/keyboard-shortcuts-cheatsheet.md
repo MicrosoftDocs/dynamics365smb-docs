@@ -14,10 +14,7 @@ ms.author: jswymer
 
 # PC keyboard shortcut cheat sheet
 
-##  <a name="Keyboard"></a> General Keyboard Shortcuts
-The following table describes keyboard shortcuts for navigating and accessing different elements of a page, such as actions, drop-down lists, lookups, and more. For details about keyboard shortcuts for navigating records once you get inside a list, see the next section.
-
-### Navigate and select rows
+#### Navigate and select rows
 |||
 |--|--|
 |Ctrl + A|Select all|
@@ -29,7 +26,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Shift+Ctrl+Home/End|Extend selection to first/last row|
 |Ctrl+Enter|Focus out of the list|
 
-### Search, filter, and sort
+#### Search, filter, and sort
 |||
 |--|--|
 |F3|Toggle search|

@@ -32,6 +32,10 @@ If you want to copy more rows, you can two things:
 -   Select another row and press Ctrl+Click or press Shift+Click to select all rows in between.
 -   Select ![Show more options](media/show-more-options-icon.png "Show more options icon") in the first column of a row, choose **Select More**, set the check box next to each row that you want to copy, and then press Ctrl+C.
 
+## How do I paste rows?
+Select an empty row, and press Crtl+V. If you paste on a row that is not empty, the existing row will be overwritten.
+<!-- Rows are pasted directly where your cursor is located. If you paste into an empty line, any existing subsequent lines will be moved after the pasted lines. If you paste into an existing line or lines, this will be overwritten.-->
+
 ## Can I paste rows into an Outlook email or OneNote?
 Yes. This is pasted as a nicely-formatted table that preserves indentation, numeric alignment and coloring, just as you would see in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
@@ -50,11 +54,8 @@ You can copy as many rows as you have scrolled into view. For example, to copy a
 ## Do I have the exact same number of columns when pasting rows?
 Yes. Whether you are copying from [!INCLUDE[d365fin](includes/d365fin_md.md)], from Excel, or from some other table source, the rows that you paste must have the exact matching columns - no more no less.
 
-## How do I paste rows?
-Rows are pasted directly where your cursor is located. If you paste into an empty line, any existing subsequent lines will be moved after the pasted lines. If you paste into an existing line or lines, this will be overwritten.
-
 ## Why do I get errors when pasting rows 
-When pasting into [!INCLUDE[d365fin](includes/d365fin_md.md)], each row is checked to make sure that values in each column are valid. If a column contains a value that is not valid, the pasting is stopped, and an error message is displayed. To avoid this, make sure that the columns have valid value before you paste them. ix the error and continue to paste in lines.
+When pasting into [!INCLUDE[d365fin](includes/d365fin_md.md)], each row is checked to make sure that values in each column are valid. If a column contains a value that is not valid, the pasting is stopped, and an error message is displayed. To avoid this, make sure that the columns have valid values before you paste them. ix the error and continue to paste in lines.
 
 
 ## See also

@@ -14,7 +14,8 @@ ms.author: jswymer
 
 # PC keyboard shortcut cheat sheet
 
-**Navigate and select rows**<br />
+**Navigate and select rows**
+
 |||
 |--|--|
 |Ctrl + A|Select all|
@@ -26,7 +27,8 @@ ms.author: jswymer
 |Shift+Ctrl+Home/End|Extend selection to first/last row|
 |Ctrl+Enter|Focus out of the list|
 
-**Search, filter, and sort**<br />
+**Search, filter, and sort**
+
 |||
 |--|--|
 |F3|Toggle search|

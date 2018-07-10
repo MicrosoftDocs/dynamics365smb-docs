@@ -77,8 +77,8 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Shift+Page Up<br />(Shift+Fn+Up Arrow)|Extend the selection of rows to include all visible rows above the current selection of rows.|Not applicable||
 |Shift+Page Down<br />(Shift+Fn+Down Arrow)|Extend the selection of rows to include all all visible rows below the current selection of rows.|Not applicable||
 |Ctrl+C<br />|Copy the selected rows to the Clipboard.|Not applicable||
-|Ctrl+V<br />|Paste the selected rows from the Clipboard into the current page or document.|Not applicable||
-|F8|Copy the value of field in the same column in the row above, and paste it in the current row.||You can only do this editable lists. Using this shortcut followed by a Tab lets you quickly fill out fields in line items that need the same value as the row above.|
+|Ctrl+V<br />|Paste the selected rows from the Clipboard into the current page or external document, like Microsoft Excel or Outlook email.|Not applicable||You can only do this editable lists.|
+|F8|Copy the field in the same column of the row above, and paste it into the current row.||You can only do this editable lists. Using this shortcut followed by a Tab lets you quickly fill out fields in line items that need the same value as the row above.|
 
 ## Keyboard Shortcuts in the Calendar (Date Picker)
 When setting a date field, you can either enter the date manually or open a calendar (date picker) that lets you select the date you want. The following table describes the keyboard shortcuts for the calendar.

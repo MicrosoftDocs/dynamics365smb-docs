@@ -28,9 +28,9 @@ This article will try to answer some questions you might have about copying and 
 ## How do I copy rows?
 To copy a single row, simply select it, and press Ctrl+C.
 
-If you want to copy more rows, you can two things:
+If you want to copy more rows, you can:
 -   Select another row and press Ctrl+Click or press Shift+Click to select all rows in between.
--   Select ![Show more options](media/show-more-options-icon.png "Show more options icon") in the first column of a row, choose **Select More**, set the check box next to each row that you want to copy, and then press Ctrl+C.
+-   Select ![Show more options](media/show-more-options-icon.png "Show more options icon") in the first column of a row, choose **Select More**, select the check box next to each row that you want to copy, and then press Ctrl+C.
 
 ## How do I paste rows?
 Select an empty row, and press Crtl+V. If you paste on a row that is not empty, the existing row will be overwritten.
@@ -42,8 +42,10 @@ Yes. This is pasted as a nicely-formatted table that preserves indentation, nume
 ## Does copy and paste work with tiles?
 No. The list must be viewed as rows (List View) for you to copy and paste.
 
-## In which lists can I copy rows?
-You can copy rows in any kind of list, including worksheets, FactBoxes, or list that are embedded on a page (like lines of a sales order). However, the list must be editable to paste any rows. In some pages, the application may prevent you from pasting of rows because of the way the page's source table is set up. Contact your administrator or application developer to change the [PasteIsValid property](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-pasteisvalid-property) on the source table.
+## In which lists can I copy and paste rows?
+You can copy rows in any kind of list, including worksheets, FactBoxes, or list that are embedded on a page (like lines of a sales order). However, to paste rows, the list must be editable.
+
+In some pages, the application design may prevent you from pasting of rows. Contact your administrator or application developer to change the [Editable property](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-editable-property) on the page or [PasteIsValid property](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-pasteisvalid-property) on the source table.
 
 ## On which clients is copy and paste available?
 Copy and paste are available in the browser or the [!INCLUDE[d365fin](includes/d365fin_md.md)] app for Windows 10.

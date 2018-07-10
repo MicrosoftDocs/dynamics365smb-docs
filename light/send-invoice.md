@@ -4,24 +4,24 @@ description: Learn how to create and send invoices to existing or new customers.
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: landing-page
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/29/2018
+ms.date: 07/10/2018
 ms.author: edupont
 
 ---
-# Send an invoice to a new customer in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# Send an invoice to a new customer in [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
 You create an invoice to record your agreement with a customer to sell certain products on certain delivery and payment terms. You can easily create a new invoice for a customer that you haven’t registered yet by tapping New Invoice from the Invoicing tab.  
 
 ## To create a new invoice
-1. In [!INCLUDE[d365fin](includes/d365fin_md.md)], on the Home page, tap **New invoice**.
-2. Enter the customer’s name, email address and invoice details. If this is a new customer, they are automatically added to [!INCLUDE[d365fin](includes/d365fin_md.md) based on the information that you add. You'll add a few details the first time that you won't have to after this customer is registered in the business apps.  
+1. In [!INCLUDE[d365inv](includes/d365inv.md)], on the Home page, tap **New invoice**.
+2. Enter the customer’s name, email address and invoice details. If this is a new customer, they are automatically added to [!INCLUDE[d365inv](includes/d365inv.md) based on the information that you add. You'll add a few details the first time that you won't have to after this customer is registered in the business apps.  
 3. Under Line Items choose the quantity, enter the unit price and add sales tax if its applicable in your region. The invoice will update with the total cost.  
 4. When you're ready to send the invoice, click Send, and your invoice is finalized and sent. The invoice is attached to the email that gets sent. You can also save the PDF file to your computer, print it, and email it to your customer. You can also add up to 5 other files to the email that gets sent, such as pictures or related documents.  
 
-When your customer then pays the invoice, you must mark the invoice as paid in [!INCLUDE[d365fin](includes/d365fin_md.md).
+When your customer then pays the invoice, you must mark the invoice as paid in [!INCLUDE[d365inv](includes/d365inv.md).
 
 ## To mark an invoice as paid
 1. Go to the Invoices list.  
@@ -29,3 +29,8 @@ When your customer then pays the invoice, you must mark the invoice as paid in [
 3. Choose Mark as Paid.  
 4. Enter the amount you've received.  
 5. Close the invoice.  
+
+## See also
+[Send an estimate to a customer](send-estimate.md)  
+[How can I delete an invoice?](about-troubleshooting#how-can-i-delete-an-invoice)  
+[Troubleshooting](about-troubleshooting.md)  

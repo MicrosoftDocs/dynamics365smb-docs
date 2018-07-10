@@ -13,7 +13,7 @@ ms.author: jswymer
 ---
 
 # Copying and Pasting in [!INCLUDE[d365fin](includes/d365fin_md.md)]
-You can copy one or more rows in a list or a single field on a page, and then paste what you copied into the same page, another page, or an external document (like Microsoft Excel and Word). In short, to copy, you press CTRL+C (cmd+C in in macOS) on your keyboard. To paste, you press CTRL+V (cmd+V in macOS).
+You can copy one or more rows from a list or a single field on a page, and then paste what you copied into the same page, another page, or an external document (like Microsoft Excel and Outlook email). In short, to copy, you press CTRL+C (cmd+C in in macOS) on your keyboard. To paste, you press CTRL+V (cmd+V in macOS).
 
 There are several other keyboard shortcuts for copying and pasting that help you save time when entering data. For more information about these shorcuts, see [Keyboard Shortcuts](keyboard-shortcuts.md#CopyRows).
 
@@ -42,7 +42,7 @@ No. The list must be viewed as rows (List View) for you to copy and paste.
 You can copy rows in any kind of list, including worksheets, FactBoxes, or list that are embedded on a page (like lines of a sales order). However, the list must be editable to paste any rows. In some pages, the application may prevent you from pasting of rows because of the way the page's source table is set up. Contact your administrator or application developer to change the [PasteIsValid property](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-pasteisvalid-property) on the source table.
 
 ## On which clients is copy and paste available?
-Copy and paste are available in the browser or Windows 10 desktop app for Business Central.
+Copy and paste are available in the browser or the [!INCLUDE[d365fin](includes/d365fin_md.md)] app for Windows 10.
 
 ## What is the maximum rows that can be copied?
 You can copy as many rows as you have scrolled into view. For example, to copy all 1000 rows in a page, you must first scroll to the bottom of the page and wait for the rows to appear before copying. The maximum number of rows you can copy is only limited by the memory of your device.
@@ -50,7 +50,7 @@ You can copy as many rows as you have scrolled into view. For example, to copy a
 ## Do I have the exact same number of columns when pasting rows?
 Yes. Whether you are copying from [!INCLUDE[d365fin](includes/d365fin_md.md)], from Excel, or from some other table source, the rows that you paste must have the exact matching columns - no more no less.
 
-## Where and how are rows pasted?
+## How do I paste rows?
 Rows are pasted directly where your cursor is located. If you paste into an empty line, any existing subsequent lines will be moved after the pasted lines. If you paste into an existing line or lines, this will be overwritten.
 
 ## Why do I get errors when pasting rows 

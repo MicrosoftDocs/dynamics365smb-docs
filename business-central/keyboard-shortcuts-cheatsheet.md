@@ -19,7 +19,7 @@ ms.author: jswymer
 |||
 |--|--|
 |Ctrl + A|Select all|
-|Home/End|Go to first/ last field|** <br/>
+|Home/End|Go to first/ last field|
 |Ctrl+Home/End|Go to first/last row|
 |Ctrl+Up/Down|Navigate without losing selection|
 |Ctrl+Space|Toggle row selection|
@@ -28,6 +28,17 @@ ms.author: jswymer
 |Ctrl+Enter|Focus out of the list|
 
 **Search, filter, and sort**
+
+|||
+|--|--|
+|F3|Toggle search|
+|Shift+F3|Toggle filter pane|
+|Ctrl+Shift+F3|Toggle totals filters|
+|Alt+F3|Filter to cell value|
+|Alt+Shift+F3|Add field to filter|
+|Ctrl+Alt+Shift+F3|Reset filters|
+
+**Report preview**
 
 |||
 |--|--|

@@ -13,7 +13,7 @@ ms.author: jswymer
 ---
 
 # Copying and Pasting in [!INCLUDE[d365fin](includes/d365fin_md.md)]
-You can copy one or more rows from a list or a single field on a page, and then paste what you copied into the same page, another page, or an external document (like Microsoft Excel and Outlook email). In short, to copy, you press CTRL+C (cmd+C in in macOS) on your keyboard. To paste, you press CTRL+V (cmd+V in macOS).
+You can copy one or more rows from a list or a single field on a page, and then paste what you copied into the same page, another page, or an external document (like Microsoft Excel and Outlook email). In short, to copy, you press CTRL+C (cmd+C in macOS) on your keyboard. To paste, you press CTRL+V (cmd+V in macOS).
 
 There are several other keyboard shortcuts for copying and pasting that help you save time when entering data. For more information about these shorcuts, see [Keyboard Shortcuts](keyboard-shortcuts.md#CopyRows).
 
@@ -26,14 +26,16 @@ This article will try to answer some questions you might have about copying and 
 -   Copy the value of an individual field in [!INCLUDE[d365fin](includes/d365fin_md.md)] and paste it anywhere.
 
 ## How do I copy rows?
-To copy a single row, simply select it, and press Ctrl+C.
+To copy a single row, select it, and press Ctrl+C.
 
 If you want to copy more rows, you can:
--   Select another row and press Ctrl+Click or press Shift+Click to select all rows in between.
+-   press Ctrl+Click on another row or press Shift+Click to select the row and all rows in between.
 -   Select ![Show more options](media/show-more-options-icon.png "Show more options icon") in the first column of a row, choose **Select More**, select the check box next to each row that you want to copy, and then press Ctrl+C.
 
 ## How do I paste rows?
-Select an empty row, and press Crtl+V. If you paste on a row that is not empty, the existing row will be overwritten.
+Select an empty row, and press Crtl+V.
+
+If you want to replace existing rows, select the rows and paste on a row that is not empty, the existing row will be overwritten.
 <!-- Rows are pasted directly where your cursor is located. If you paste into an empty line, any existing subsequent lines will be moved after the pasted lines. If you paste into an existing line or lines, this will be overwritten.-->
 
 ## Can I paste rows into an Outlook email or OneNote?
@@ -57,7 +59,7 @@ You can copy as many rows as you have scrolled into view. For example, to copy a
 Yes. Whether you are copying from [!INCLUDE[d365fin](includes/d365fin_md.md)], from Excel, or from some other table source, the rows that you paste must have the exact matching columns - no more no less.
 
 ## Why do I get errors when pasting rows 
-When pasting into [!INCLUDE[d365fin](includes/d365fin_md.md)], each row is checked to make sure that values in each column are valid. If a column contains a value that is not valid, the pasting is stopped, and an error message is displayed. To avoid this, make sure that the columns have valid values before you paste them. ix the error and continue to paste in lines.
+When pasting into [!INCLUDE[d365fin](includes/d365fin_md.md)], each row is checked to make sure that values in each column are valid. If a column contains a value that is not valid, the pasting is stopped, and an error message is displayed. To avoid this, make sure that the columns have valid values before you paste them.
 
 
 ## See also

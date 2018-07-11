@@ -53,8 +53,10 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |-----------------|-------|-------|-------|
 |Up Arrow|Move in the same column to the field in the row above.| Move in the same column to the tile in the row above.  |  | 
 |Down Arrow|Move in the same column to the field in the row below. |Move in the same column to the tile in the row below. | |
-|Right Arrow|Move in the same row to the next field to the right.| Move in the same row to the next tile to the right. |This does not pertain when the list editable. In an editable list, the right arrow moves the cursor within the field only.|
-|Left Arrow|Move in the same row to the previous field to the left. | Move in the same row to the previous tile to the left. |This does not pertain when the list editable. In an editable list, the left arrow moves the cursor within the field only.|
+|Right Arrow|In a view-only list, move in the same row to the next field to the right.<br /><br />In an editable list, move to the right within the current field.| Move in the same row to the next tile to the right. ||
+|Left Arrow|In a view-only list, move in the same row to the previous field to the left. <br /><br />In an editable list, move to the left within the current field.| Move in the same row to the previous tile to the left. ||
+|Tab|In editable list, move in the same row to the next field to the right.|Not applicable||
+|Shift+Tab|In editable list, move in the same row to the previous field to the left. | Not applicable ||
 |Home<br />(Fn+Left Arrow)|Move to the first field in the row.|Move to the first tile in the row.||
 |End<br />(Fn+right Arrow)|Move to the last field in the row.|Move to the last tile in the row.||
 |Page Up<br />(Fn+up Arrow)|Move in the same column to the uppermost visible row.|Move to the first tile in the the uppermost visible row.||
@@ -66,7 +68,7 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |Remarks|
 |-----------------|-------|-------|-------|
 |Ctrl+Home<br />(Fn+Ctrl+Left Arrow)|Select the first row in the list; focus moves to the first field in row|Move to the first tile in first row ||
-|Ctrl+End<br />(Fn+Ctrl+Right Arrow)|Select the last row in the list; focus moves to first field in row|Move to the first tile in last row||
+|Ctrl+End<br />(Fn+Ctrl+Right Arrow)|Select the last row in the list; focus moves to the last field in row|Move to the last tile in last row||
 |Ctrl+Click<br />(Cmd+Click)|Extend the selection of rows to include the row that you click.|Not applicable||
 |Shift+Click|Extend the selection of rows to include the row that you click and all the rows in between.|Not applicable|You can use this after using Ctrl+Up Arrow or Ctrl+Up Down to expand your selection.|
 |Ctrl+Up Arrow<br />(Ctrl+Cmd+up Arrow )|Move focus to the row above and keep the current row selected.|Not applicable||

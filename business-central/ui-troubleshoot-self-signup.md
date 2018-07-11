@@ -33,7 +33,9 @@ In many cases, registering for [!INCLUDE[d365fin](includes/d365fin_md.md)] can b
 | If your Office 365 account is registered to a supported country, and you are signing up for [!INCLUDE[d365fin](includes/d365fin_md.md)] while in a different country, you receive a message like the following during signup:<br /><br />**That didn't work, we don't support your country or region yet.**| Your organization's Office 365 subscription is registered to a specific country in the Office 365 administration portal. The signup experience for [!INCLUDE[d365fin](includes/d365fin_md.md)] uses the language and locale that your current browser uses, and as a result, you can get the error message even though you are in a supported country. Ask your IT administrator to verify the country that is specified in the organization profile in the [Office 365 administration portal](https://portal.office.com/adminportal/home#/companyprofile). You may have to use a different account for [!INCLUDE[d365fin](includes/d365fin_md.md)].|
 
 ## Regional Availability
-[!INCLUDE[d365fin](includes/d365fin_md.md)] is currently available in the following markets:
+For a list of currently supported markets, see the [International availability of Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/availability) deck and the [Local Functionality](about-localization.md) landing page.
+
+<!-- [!INCLUDE[d365fin](includes/d365fin_md.md)] is currently available in the following markets:
 
 | Europe | North America |
 | --- | --- |
@@ -51,7 +53,9 @@ In many cases, registering for [!INCLUDE[d365fin](includes/d365fin_md.md)] can b
 | Sweden | |
 | Switzerland | |
 | United Kingdom | |
+-->
 
 ## See Also
 [Welcome to [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Local Functionality](about-localization.md)  

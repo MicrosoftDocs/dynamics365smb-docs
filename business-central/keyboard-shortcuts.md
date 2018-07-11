@@ -24,7 +24,7 @@ The keyboard shortcuts are supported by most web browsers; however, the behavior
 
 The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.
 
-Most of the shortcuts are the same no matter whether the operating system is Windows or macOS; however, there are some shortcuts are different for macOS. These are indicated in parantheses in the tables in the sections that follow.
+Most of the shortcuts are the same no matter whether the operating system is Windows or macOS; however, there are some shortcuts that differ for macOS. These are indicated in parantheses in the tables in the sections that follow.
 
 ##  <a name="Keyboard"></a> General Keyboard Shortcuts
 The following table describes keyboard shortcuts for navigating and accessing different elements of a page, such as actions, drop-down lists, lookups, and more. For details about keyboard shortcuts for navigating records once you get inside a list, see the next section.
@@ -32,7 +32,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Press these keys|To do this|  
 |----------------|-----------|  
 |Tab|Move focus to the next control or element on a page, such as actions, buttons, fields, or list headings.|
-|Shift+Tab|Move focus to the previous control or element on a page, such as buttons, fields, or list headings.|   
+|Shift+Tab|Move focus to the previous control or element on a page, such as actions, buttons, fields, or list headings.|   
 |Enter|Enable or access the element or control that is in focus.|   
 |Alt+Down Arrow|Open a drop-down list or look up a value for a field.|    
 |Alt+Right Arrow|See the transactions that resulted in a calculated value in a field.|  
@@ -55,33 +55,33 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Down Arrow|Move in the same column to the field in the row below. |Move in the same column to the tile in the row below. | |
 |Right Arrow|In a view-only list, move in the same row to the next field to the right.<br /><br />In an editable list, move to the right within the current field.| Move in the same row to the next tile to the right. ||
 |Left Arrow|In a view-only list, move in the same row to the previous field to the left. <br /><br />In an editable list, move to the left within the current field.| Move in the same row to the previous tile to the left. ||
-|Tab|In editable list, move in the same row to the next field to the right.|Not applicable||
-|Shift+Tab|In editable list, move in the same row to the previous field to the left. | Not applicable ||
+|Tab|In editable list, move in the same row to the next field to the right.|Not applicable.||
+|Shift+Tab|In editable list, move in the same row to the previous field to the left. | Not applicable. ||
 |Home<br />(Fn+Left Arrow)|Move to the first field in the row.|Move to the first tile in the row.||
 |End<br />(Fn+right Arrow)|Move to the last field in the row.|Move to the last tile in the row.||
 |Page Up<br />(Fn+up Arrow)|Move in the same column to the uppermost visible row.|Move to the first tile in the the uppermost visible row.||
 |Page Down<br />(Fn+down Arrow)|Move in the same column to lowermost visible row.|Move in the last tile in the lowermost visible row.||
-|Enter<br />(Fn+down Arrow)|Open the record that is associated with the field|Opens the record.| Only relevant if a card page is associated with the record.|
+|Enter<br />(Fn+down Arrow)|Open the record that is associated with the field.|Opens the record.| Only relevant if a card page is associated with the record.|
 |Ctrl+Enter|Move focus to the next element outside the list.|Move focus to the next element outside the list.||
 
 ### <a name="CopyRows"></a>Select, copy and paste
 |Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |Remarks|
 |-----------------|-------|-------|-------|
-|Ctrl+Home<br />(Fn+Ctrl+Left Arrow)|Select the first row in the list; focus moves to the first field in row|Move to the first tile in first row ||
-|Ctrl+End<br />(Fn+Ctrl+Right Arrow)|Select the last row in the list; focus moves to the last field in row|Move to the last tile in last row||
-|Ctrl+Click<br />(Cmd+Click)|Extend the selection of rows to include the row that you click.|Not applicable||
-|Shift+Click|Extend the selection of rows to include the row that you click and all the rows in between.|Not applicable|You can use this after using Ctrl+Up Arrow or Ctrl+Up Down to expand your selection.|
-|Ctrl+Up Arrow<br />(Ctrl+Cmd+up Arrow )|Move focus to the row above and keep the current row selected.|Not applicable||
-|Ctrl+Down Arrow<br />(Ctrl+Cmd+Down Arrow )|Move focus to the row below and keep the current row selected.|Not applicable||
-|Ctrl+Space Bar<br />(Ctrl+Cmd+Space )|Extend the selection of rows to include the focused row.|Not applicable|You can use this after using Ctrl+Up Arrow or Ctrl+Up Down to expand your selection.|
-|Ctrl+A|Select all rows.|Not applicable||
-|Shift+Up Arrow|Extend the selection of rows to include the row above.|Not applicable||
-|Shift+Down Arrow|Extend the selection of rows to include the row below.|Not applicable||
-|Shift+Page Up<br />(Shift+Fn+Up Arrow)|Extend the selection of rows to include all visible rows above the current selection of rows.|Not applicable||
-|Shift+Page Down<br />(Shift+Fn+Down Arrow)|Extend the selection of rows to include all all visible rows below the current selection of rows.|Not applicable||
-|Ctrl+C<br />(Cmd+C)|Copy the selected rows to the Clipboard.|Not applicable||
-|Ctrl+V<br />(Cmd+V)|Paste the selected rows from the Clipboard into the current page or external document, like Microsoft Excel or Outlook email.|Not applicable|You can only do this editable lists.|
-|F8|Copy the field in the same column of the row above, and paste it into the current row.|Not applicable|You can only do this editable lists. Using this shortcut followed by a Tab lets you quickly fill out fields in line items that you want to have the same value as the row above.|
+|Ctrl+Home<br />(Fn+Ctrl+Left Arrow)|Select the first row in the list; focus moves to the first field in row.|Move to the first tile in first row. ||
+|Ctrl+End<br />(Fn+Ctrl+Right Arrow)|Select the last row in the list; focus moves to the last field in row.|Move to the last tile in last row.||
+|Ctrl+Click<br />(Cmd+Click)|Extend the selection of rows to include the row that you click.|Not applicable.||
+|Shift+Click|Extend the selection of rows to include the row that you click and all the rows in between.|Not applicable.|You can use this after using Ctrl+Up Arrow or Ctrl+Up Down to expand your selection.|
+|Ctrl+Up Arrow<br />(Ctrl+Cmd+Up Arrow)|Move focus to the row above and keep the current row selected.|Not applicable.||
+|Ctrl+Down Arrow<br />(Ctrl+Cmd+Down Arrow)|Move focus to the row below and keep the current row selected.|Not applicable.||
+|Ctrl+Space Bar<br />(Ctrl+Cmd+Space )|Extend the selection of rows to include the focused row.|Not applicable.|You can use this after using Ctrl+Up Arrow or Ctrl+Down Arrow to expand your selection.|
+|Ctrl+A|Select all rows.|Not applicable.||
+|Shift+Up Arrow|Extend the selection of rows to include the row above.|Not applicable.||
+|Shift+Down Arrow|Extend the selection of rows to include the row below.|Not applicable.||
+|Shift+Page Up<br />(Shift+Fn+Up Arrow)|Extend the selection of rows to include all visible rows above the current selection of rows.|Not applicable.||
+|Shift+Page Down<br />(Shift+Fn+Down Arrow)|Extend the selection of rows to include all all visible rows below the current selection of rows.|Not applicable.||
+|Ctrl+C<br />(Cmd+C)|Copy the selected rows to the Clipboard.|Not applicable.||
+|Ctrl+V<br />(Cmd+V)|Paste the selected rows from the Clipboard into the current page or external document, like Microsoft Excel or Outlook email.|Not applicable.|You can only do this editable lists.|
+|F8|Copy the field in the same column of the row above, and paste it into the current row.|Not applicable.|You can only do this in editable lists. Using this shortcut followed by a Tab lets you quickly fill out fields in line items that you want to have the same value as the row above.|
 
 ## Keyboard Shortcuts in the Calendar (Date Picker)
 When setting a date field, you can either enter the date manually or open a calendar (date picker) that lets you select the date you want. The following table describes the keyboard shortcuts for the calendar.

@@ -42,9 +42,10 @@ The following table describes keyboard shortcuts for navigating and accessing di
 ## Keyboard Shortcuts in Lists
 
 The following table describes the keyboard shortcuts that you can use in a list page. The shortcut action is slightly different depending on whether the page is shown in the list view or tile view.
-
+<!-- 
 > [!Note]
 > In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
+-->
 
 ### Navigate between rows and columns
 

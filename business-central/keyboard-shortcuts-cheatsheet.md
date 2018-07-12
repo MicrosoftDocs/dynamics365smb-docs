@@ -41,10 +41,9 @@ ms.author: jswymer
 **Report preview**
 
 |||
-|--|--|
-|F3|Toggle search|
-|Shift+F3|Toggle filter pane|
-|Ctrl+Shift+F3|Toggle totals filters|
-|Alt+F3|Filter to cell value|
-|Alt+Shift+F3|Add field to filter|
-|Ctrl+Alt+Shift+F3|Reset filters|
+|-----------------|-------|
+|Up/Down|Scroll up and down the page|  
+|Right/Left|Scroll to the right/left |
+|Ctrl+0 (zero)|Fit page in window |
+|Ctrl+Home/End|Go to the first/last page|
+|Page Up/Down|Go to the previous/next page|

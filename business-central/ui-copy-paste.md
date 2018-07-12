@@ -33,7 +33,7 @@ If you want to copy more rows, you can:
 -   Select ![Show more options](media/show-more-options-icon.png "Show more options icon") in the first column of a row, choose **Select More**, select the check box next to each row that you want to copy, and then press Ctrl+C.
 
 ## How do I paste rows?
-Select an empty row, and press Crtl+V. If you want to replace existing rows, select the rows and press Crtl+V. In this case, you cannot paste more rows than you have selected.
+Select an empty row, and press Crtl+V. If you want to replace existing rows, select the rows and press Crtl+V. In this case, you can only paste the same number of rows that you selected.
 
 <!-- Rows are pasted directly where your cursor is located. If you paste into an empty line, any existing subsequent lines will be moved after the pasted lines. If you paste into an existing line or lines, this will be overwritten.-->
 

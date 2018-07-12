@@ -27,7 +27,7 @@ When you open a report, you are typically presented with a page where you set va
 ![Report options](media/report_options.png "Report options")
 
 ### <a name="SavedSettings"></a>Using Saved Settings
-A report page might include the **Saved Settings** section that contains one or more entries in the **Use default value from** box. The entries in this box are called *saved settings*. A saved setting is basically a predefined group of options and filters that you can apply to the report before previewing or sending the report to a file. The saved settings entry called **Last used options and filters** is always available. This entry sets the report to use options and filters that were used the last time you looked at the report.
+With some reports, depending on how they are designed, the report page might include the **Saved Settings** section that contains one or more entries in the **Use default value from** box. The entries in this box are called *saved settings*. A saved setting is basically a predefined group of options and filters that you can apply to the report before previewing or sending the report to a file. The saved settings entry called **Last used options and filters** is always available. This entry sets the report to use options and filters that were used the last time you looked at the report.
 
 Using saved settings is a fast and reliable way to consistently generate reports that contain the correct data. After you set the **Use default value from** box to a saved settings entry, you can change any of the options and filters before previewing or saving the report. The changes that you make will not be saved to the saved settings entry you selected, but they will be saved to the **Last used options and filters**.
 

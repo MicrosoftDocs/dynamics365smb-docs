@@ -12,7 +12,7 @@ ms.date: 05/18/2018
 ms.author: jswymer
 ---
 
-# PC keyboard shortcut cheat sheet
+# PC keyboard shortcut quick reference
 
 **Navigate and select rows**
 

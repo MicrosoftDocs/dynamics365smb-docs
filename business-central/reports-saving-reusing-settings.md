@@ -30,7 +30,7 @@ If you have the proper permissions, you can view, create, and modify the saved s
 -->
 
 ## Create and modify saved settings for all users
-You manage saved settings from page **1506 Reports Settings**. There are two ways to open this page:
+You manage saved settings from page **1560 Reports Settings**. There are two ways to open this page:
 -   Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Report Settings**, and then choose the related link.
 -   Open a report, choose the lookup next to the **Used default values from:** box, choose **Select from full list**.
 

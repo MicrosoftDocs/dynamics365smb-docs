@@ -3,7 +3,7 @@
 ## [Troubleshooting](about-troubleshooting.md)
 ## [Set up your business information](set-up-business-profile.md)
 ### [Add value added tax (VAT) to your invoices](add-vat.md)
-### [US tax rates in [!INCLUDE[d365inv](includes/d365inv.md)]](use-sales-tax.md)
+### [US tax rates in [!INCLUDE[d365inv](includes/d365inv.md)]](us-sales-tax.md)
 ### [Define the default email message](customize-email.md)
 ## [Add products or services](add-items.md)
 ## [Notify your accountant](notify-accountant.md)

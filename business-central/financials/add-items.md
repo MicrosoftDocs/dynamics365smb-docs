@@ -25,14 +25,16 @@ Products are the basis of your business, the goods or services that you trade in
 
     You can also add new units:  
 
-    1. Click the arrow  next to the **Price is per** box.  
+    1. Click the arrow next to the **Price is per** box.  
     2. On the **Select a unit** page, click the ellipses in the upper right, and then choose **Edit List**.  
 
-    You can add or delete rows, or edit the existing values. For example, you can enter code = 16 oz. and a description = Large cup.
+        You can add or delete rows, or edit the existing values. For example, you can enter code = 16 oz. and a description = Large cup.  
+
     3. Click OK when you're done editing the list.
 
 Choose X to close the window (data is saved continuously).
 
 ## See also
+
 [Send an invoice to a new customer](send-invoice.md)  
 [Troubleshooting](about-troubleshooting.md)  

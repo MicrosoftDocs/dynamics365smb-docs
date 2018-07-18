@@ -41,7 +41,7 @@ When you are ready, choose the Close button. You can come back to the Setting pa
 > Talk to your accountant before you change the numbers for invoices or estimates. If you have already sent invoices, for example, adding a new number sequence can be problematic later.  
 
 ## See also
-[US tax rates in [!INCLUDE[d365inv](includes/d365inv.md)]](use-sales-tax.md)  
+[US tax rates in [!INCLUDE[d365inv](includes/d365inv.md)]](us-sales-tax.md)  
 [Add value added tax (VAT) to your invoices](add-vat.md)  
 [Send an invoice to a new customer](send-invoice.md)  
 [Troubleshooting](about-troubleshooting.md)  

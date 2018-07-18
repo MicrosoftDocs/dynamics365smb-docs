@@ -1,10 +1,10 @@
 ---
-title: US tax rates
+title: US tax rates | Invoicing
 description: Learn about how to add sales tax in Invoicing.
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

@@ -1,10 +1,10 @@
 ---
-title: New estimate
+title: New estimate | Invoicing
 description: Learn how to create and send estimates to your customers. If they accept the offer, you can easily turn the quote into an invoice.
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: landing-page
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

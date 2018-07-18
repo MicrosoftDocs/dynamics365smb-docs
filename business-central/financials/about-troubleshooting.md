@@ -1,10 +1,10 @@
 ---
-title: Get yourself unblocked
+title: Get yourself unblocked | Invoicing
 description: Learn how you can get yourself unblocked or figure out how to do something.
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: landing-page
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

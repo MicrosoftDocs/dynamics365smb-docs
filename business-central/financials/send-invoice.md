@@ -1,5 +1,5 @@
 ---
-title: New invoice
+title: New invoice | Invoicing
 description: Learn how to create and send invoices to existing or new customers.
 author: edupont04
 

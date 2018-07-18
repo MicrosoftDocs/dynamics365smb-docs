@@ -1,5 +1,5 @@
 ---
-title: Meet Microsoft Invoicing
+title: Meet Microsoft Invoicing | Invoicing
 description: Learn about capabilities and work scenarios in Invoicing, a business management solution for smaller organizations.
 author: edupont04
 

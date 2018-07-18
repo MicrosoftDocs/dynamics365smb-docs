@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/10/2018
+ms.date: 07/18/2018
 ms.author: edupont
 
 ---
@@ -26,11 +26,17 @@ When your customer then pays the invoice, you must mark the invoice as paid in [
 ## To mark an invoice as paid
 1. Go to the Invoices list.  
 2. Open the invoice you want to mark paid.  
-3. Choose Mark as Paid.  
+3. Choose **Mark as Paid**.  
 4. Enter the amount you've received.  
 5. Close the invoice.  
+ 
+## Tax on invoices
+Tax is calculated automatically based on the information that you specify. That means that you must make sure that you set up the right tax information in Settings, and that you have chosen the right tax rates for the customer or the items that you are selling. Depending on your country, the tax can be sales tax or value-added tax, for example.
+
+For more information, see [Set up your business information](set-up-business-profile.md).
 
 ## See also
 [Send an estimate to a customer](send-estimate.md)  
 [How can I delete an invoice?](about-troubleshooting#how-can-i-delete-an-invoice)  
+[Set up your business information](set-up-business-profile.md)  
 [Troubleshooting](about-troubleshooting.md)  

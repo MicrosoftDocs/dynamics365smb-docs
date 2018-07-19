@@ -29,8 +29,7 @@ To sort a list, you can either choose a column heading text to toggle between as
 
 ## Searching
 <!--## Searching by using the Quick Filter -->
-Searching provides a quick way to reduce the number of records that display in a list by   
-When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
+Searching provides a quick way to reduce the number of records that display in a list to only those that you are interested in. When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
 
 You can add filters to all pages by using the Quick Filter. The Quick Filter is enabled by choosing the magnifier icon in the top right corner of a page. This filtering type is used for a fast entry of criteria.
 

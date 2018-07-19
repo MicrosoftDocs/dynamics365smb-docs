@@ -37,6 +37,6 @@ For more information, see [Set up your business information](set-up-business-pro
 
 ## See also
 [Send an estimate to a customer](send-estimate.md)  
-[How can I delete an invoice?](about-troubleshooting#how-can-i-delete-an-invoice)  
+[How can I delete an invoice?](about-troubleshooting.md#how-can-i-delete-an-invoice)  
 [Set up your business information](set-up-business-profile.md)  
 [Troubleshooting](about-troubleshooting.md)  

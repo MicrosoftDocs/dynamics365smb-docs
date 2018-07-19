@@ -1,24 +1,23 @@
 ---
 title: Searching Data and Entering Filter Criteria | Microsoft Docs
 description: Describes how to work with filters, such as the Quick Filter, to refine the results you get when you search for data.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
-
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter
-ms.date: 03/29/2017
-ms.author: solsen
+ms.date: 07/17/2018
+ms.author: jswymer
 
 ---
 # Searching, Filtering, and Sorting Data
-There are a few things that you can do that will help you find, pinpoint, and scan records in a list. These include sorting, searching and filtering.
+There are a few things that you can do that will help you scan, find, and limit records in a list. These include sorting, searching and filtering.
 
+<!-- 
 When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
+-->
 
 ## Sorting
 Sorting makes it easy for you to get a quick overview of your data. If you have many customers, for example, you can choose to sort them by **Customer No.**, **Customer Posting Group**, **Currency Code**, **Country Region Code**, or **Sales Tax Registration No.** to get the overview you need.
@@ -28,14 +27,26 @@ To sort a list, you can either choose a column heading text to toggle between as
 > [!NOTE]  
 >   Sorting is not supported images, BLOB fields, FlowFilters, and fields that do not belong to a table.  
 
-## Searching by using the Quick Filter
-You can add filters to all pages by using the Quick Filter. The Quick Filter is enabled by choosing the magnifier icon in the top right corner of a page. This filtering type is used for a fast entry of criteria.
+## Searching
+<!--## Searching by using the Quick Filter -->
+At the top of each list page, there is a ![Search list](media/ui-search/search-list.png "Search list icon") **Search** icon that provides a quick and easy way to display only those records that contain the data that you are interested in seeing.
 
-> [!IMPORTANT]  
->   The Quick Filter provides an easy access to filter data by entering plain text, but does also provide a lot of search criteria options. Depending on whether you enter plain text or text including symbols, the Quick Filter behaves differently.  
+To search, select the icon, and then in the box, type what you are looking for. You can enter plain text, numbers, and characters.
+
+  
+
+<!--
+In search criteria you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.-->
+
+<!--
+The Quick Filter provides an easy access to filter data by entering plain text, but does also provide a lot of search criteria options. Depending on whether you enter plain text or text including symbols, the Quick Filter behaves differently.  
 
 * If you enter plain text in the search criteria, the search criteria is interpreted as a case insensitive search that contains certain text.  
 * If you enter text including symbols in the search criteria, the search criteria is interpreted exactly as you entered it, and the search is case sensitive.
+-->
+
+
+When filtering text data, Excel doesn't distinguish between uppercase and lowercase characters.
 
 ### Quick filter criteria
 <!-- html syntax because symbols conflict with MarkDown syntax -->

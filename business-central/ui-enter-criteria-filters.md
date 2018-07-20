@@ -56,6 +56,8 @@ The Quick Filter provides an easy access to filter data by entering plain text, 
 -->
 
 <!-- html syntax because symbols conflict with MarkDown syntax -->
+
+
 <TABLE>
   <TR>
     <TH>Search Criteria</TH>

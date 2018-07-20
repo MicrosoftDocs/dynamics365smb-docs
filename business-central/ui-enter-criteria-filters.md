@@ -33,13 +33,16 @@ At the top of each list page, there is a ![Search list](media/ui-search/search-l
 
 To search, simply select the search icon, and then in the box, type the text that you are looking for. You can enter letters, numbers, and characters.
 
-In general, search goes across all columns in all rows to find fields that include the text that you provide. It does not distinguish between uppercase and lowercase characters (in other words, case insensitive). However, there are a couple special characters that you can use to make a more exact search. T 
+### Fine-tune the search
+In general, search goes across all columns in all rows to find fields that include the text that you provide. It does not distinguish between uppercase and lowercase characters (in other words, case insensitive). However, there are a couple special characters that you can use to make a more exact search.
 
-- Placing **\*** after the search text will find field values that start with the search text and have the same case. Placing **\*** before the search text will find field values the end with the search text that has the same case. 
+- Placing `*` after the search text will find field values that start with the search text and have the same case. Placing `*` before the search text will find field values the end with the search text that has the same case. 
 
-- Placing search text between single quotes **'** (for example, **'man'**) will find only field values that match the entire text and have the same case.
+- Placing the search text between two `'` (for example, `man`) will find only field values that match the entire text and have the same case.
 
-- When using these special characters, of you want to make the search case insensitive, place **@** before the search text.  will make the search case insenstive. But when you use these characters, the search becomes case sensitive unless you prefix the search text with **@**. The following table will help explain this though examples.
+- When using these special characters, if you want to make the search case insensitive, place **@** before the search text. 
+
+The following table will help explain the search through examples.
    
 
 <!--
@@ -60,14 +63,9 @@ The Quick Filter provides an easy access to filter data by entering plain text, 
     <TH>Returns...</TH>
   </TR>
   <TR>
-    <TD>man</TD>
+    <TD>`man`<br />or <br />`Man`</TD>
     <TD>@&#42;man&#42;</TD>
-    <TD>All records that contain the text <b>man</b> and case insensitive.</TD>
-  </TR>
-  <TR>
-    <TD>se</TD>
-    <TD>@&#42;se&#42;</TD>
-    <TD>All records that contain the text <b>se</b> and case insensitive.</TD>
+    <TD>All records that contain the text <b>man</b>, regardless of the case.</TD>
   </TR>
   <TR>
     <TD>Man&#42;</TD>

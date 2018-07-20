@@ -22,7 +22,7 @@ When you want to search for data, such as customer names, addresses, or product 
 ## Sorting
 Sorting makes it easy for you to get a quick overview of your data. If you have many customers, for example, you can choose to sort them by **Customer No.**, **Customer Posting Group**, **Currency Code**, **Country Region Code**, or **Sales Tax Registration No.** to get the overview you need.
 
-To sort a list, you can either choose a column heading text to toggle between ascending and descending order, or choose the small downs arrow in the column heading, and then choose **Ascending** or **Descending**.  
+To sort a list, you can either choose a column heading text to toggle between ascending and descending order, or choose the small down arrow in the column heading, and then choose **Ascending** or **Descending**.  
 
 > [!NOTE]  
 >   Sorting is not supported images, BLOB fields, FlowFilters, and fields that do not belong to a table.  
@@ -38,7 +38,7 @@ In general, search goes across all columns in all rows to find fields that inclu
 
 But there are a couple special characters, specifically `'` and `*`, that you can use to make a more exact search:
 
-- Placing the search text between `''` (for example, `man`) will find only field values that match the entire text and case.
+- Placing the search text between single quotes`''` (for example, `'man'`) will find only field values that match the entire text and case.
 - Placing `*` after the search text will find field values that start with the text, matching the case. Placing `*` before the search text will find field values the end with the text, matching the case. 
 - When using these special characters, if you want to make the search case insensitive, place **@** before the search text. 
 

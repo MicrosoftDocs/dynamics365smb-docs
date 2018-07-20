@@ -33,49 +33,14 @@ At the top of each list page, there is a ![Search list](media/ui-search/search-l
 
 To search, simply select the search icon, and then in the box, type the text that you are looking for. You can enter letters, numbers, and characters.
 
-In general, search goes across all columns in all rows to find the text that you provide, and does not distinguish between uppercase and lowercase characters.
+In general, search goes across all columns in all rows to find fields that include the text that you provide. It does not distinguish between uppercase and lowercase characters (in other words, case insensitive). However, there are a couple special characters that you can use to make a more exact search. T 
 
-However, there are a couple special characters, specifically **\*** and **'**, which you can use to make a more exact search. But when you use these characters, the search becomes case sensitive unless you prefix the search text with **@**. The following table will help explain this though examples.
+- Placing **\*** after the search text will find field values that start with the search text and have the same case. Placing **\*** before the search text will find field values the end with the search text that has the same case. 
+
+- Placing search text between single quotes **'** (for example, **'man'**) will find only field values that match the entire text and have the same case.
+
+- When using these special characters, of you want to make the search case insensitive, place **@** before the search text.  will make the search case insenstive. But when you use these characters, the search becomes case sensitive unless you prefix the search text with **@**. The following table will help explain this though examples.
    
-<TABLE>
-  <TR>
-    <TH>To find</TH>
-    <TH>Interpreted as...</TH>
-    <TH>Returns...</TH>
-  </TR>
-  <TR>
-    <TD>All records that contain the text <b>can</b>; regardless of case.</TD>
-    <TD>man</TD>
-    <TD>@&#42;man&#42;</TD>
-
-  </TR>
-  <TR>
-    <TD>se</TD>
-    <TD>@&#42;se&#42;</TD>
-    <TD>All records that contain the text <b>se</b> and case insensitive.</TD>
-  </TR>
-  <TR>
-    <TD>Man&#42;</TD>
-    <TD>Starts with <b>Man</b> and case sensitive.</TD>
-    <TD>All records that start with the text <b>Man</b>.</TD>
-  </TR>
-  <TR>
-    <TD>'man'</TD>
-    <TD>An exact text and case sensitive.</TD>
-    <TD>All records that match <b>man</b> exactly.</TD>
-  </TR>
-  <TR>
-    <TD>@man* </TD>
-    <TD>Starts with and case insensitive.</TD>
-    <TD>All records that start with <b>man</b>.</TD>
-  </TR>
-    <TR>
-    <TD>@&#42;man</TD>
-    <TD>Ends with and case insensitive.</TD>
-    <TD>All records that end with <b>man</b>.</TD>
-  </TR>
-</TABLE>
-  
 
 <!--
 In search criteria you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.-->

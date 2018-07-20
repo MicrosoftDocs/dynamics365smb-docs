@@ -34,11 +34,12 @@ At the top of each list page, there is a ![Search list](media/ui-search/search-l
 To search, simply select the search icon, and then in the box, type the text that you are looking for. You can enter letters, numbers, and characters.
 
 ### Fine-tune the search
-In general, search goes across all columns in all rows to find fields that include the text that you provide. It does not distinguish between uppercase and lowercase characters (in other words, case insensitive). However, there are a couple special characters that you can use to make a more exact search.
+In general, search goes across all columns in all rows to find fields that include the text that you provide. It does not distinguish between uppercase and lowercase characters (in other words, case insensitive). 
 
-- Placing `*` after the search text will find field values that start with the search text and have the same case. Placing `*` before the search text will find field values the end with the search text that has the same case. 
+There are a couple special characters (`''` and `*`) that you can use to make a more exact search:
 
-- Placing the search text between two `'` (for example, `man`) will find only field values that match the entire text and have the same case.
+- Placing the search text between `''` (for example, `man`) will find only field values that match the entire text, including case.
+- Placing `*` after the search text will find field values that start with the text, including case. Placing `*` before the search text will find field values the end with the text, including case. 
 
 - When using these special characters, if you want to make the search case insensitive, place **@** before the search text. 
 
@@ -55,44 +56,13 @@ The Quick Filter provides an easy access to filter data by entering plain text, 
 * If you enter text including symbols in the search criteria, the search criteria is interpreted exactly as you entered it, and the search is case sensitive.
 -->
 
-<!-- html syntax because symbols conflict with MarkDown syntax -->
-
-
-<TABLE>
-  <TR>
-    <TH>Search Criteria</TH>
-    <TH>Interpreted as...</TH>
-    <TH>Returns...</TH>
-  </TR>
-  <TR>
-    <TD>`man`<br />or <br />`Man`</TD>
-    <TD>@&#42;man&#42;</TD>
-    <TD>All records that contain the text <b>man</b>, regardless of the case.</TD>
-  </TR>
-  <TR>
-    <TD>Man&#42;</TD>
-    <TD>Starts with <b>Man</b> and case sensitive.</TD>
-    <TD>All records that start with the text <b>Man</b>.</TD>
-  </TR>
-  <TR>
-    <TD>'man'</TD>
-    <TD>An exact text and case sensitive.</TD>
-    <TD>All records that match <b>man</b> exactly.</TD>
-  </TR>
-  <TR>
-    <TD>@man* </TD>
-    <TD>Starts with and case insensitive.</TD>
-    <TD>All records that start with <b>man</b>.</TD>
-  </TR>
-    <TR>
-    <TD>@&#42;man</TD>
-    <TD>Ends with and case insensitive.</TD>
-    <TD>All records that end with <b>man</b>.</TD>
-  </TR>
-</TABLE>
-
-> [!NOTE]  
->   You cannot use a wildcard when filtering on enumeration fields, such as the **Status** field on sales orders. To enter a filter for this type of field, you can enter the numeric value as a filtering parameter. For example, in the **Status** field on a sales order that has the values **Open**, **Released**, **Pending Approval**, and **Pending Prepayment**, use the values **0**, **1**, **2**, and **3** to filter for these options. 
+|Search Criteria|Interpreted as...|Finds...|
+|---------------|----------------|----------|
+|`man`<br />or <br />`Man`|Contains the text; case insensitive|All records with fields that contain the text **man**, regardless of the case.|
+|`'Man'`|Entire text match; case sensitive.|All records with fields that only contain **Man** exactly.|
+|`Man*`|Starts with the text; case sensitive.|All records with fields that start with the text <b>Man</b> exactly.|
+|`@Man*`|Starts with the text; case insensitive.|All records with fields that start with **man**, regardless of the case.|
+|`@*man`|Ends with the text; case insensitive.|All records that end with **man**, regardless of the case.|
 
 ## Searching by using column Filters
 You can add a filter on one or more columns in a list. Filtering on columns is more flexible and enhanced than the Quick Filter. 
@@ -107,7 +77,12 @@ You can add a filter on one or more columns in a list. Filtering on columns is m
 
 ## Filter criteria and symbols
 When you enter criteria, you can use all the numbers and letters that you can normally use in the field. In addition, you can use special symbols to further filter the results. The following tables show the symbols which can be used in filters.  
-  
+
+> [!NOTE]  
+>   You cannot use a wildcard when filtering on enumeration fields, such as the **Status** field on sales orders. To enter a filter for this type of field, you can enter the numeric value as a filtering parameter. For example, in the **Status** field on a sales order that has the values **Open**, **Released**, **Pending Approval**, and **Pending Prepayment**, use the values **0**, **1**, **2**, and **3** to filter for these options. 
+
+
+
 > [!IMPORTANT]  
 >  There may be instances where field values contain these symbols and you want to filter on them. To do this, you must include the filter expression that contains the symbol in quotation marks (''). For example, if you want to filter on records that start with the text *S&R*, the filter expression is **'S&R*'**.  
   

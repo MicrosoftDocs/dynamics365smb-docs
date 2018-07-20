@@ -39,7 +39,7 @@ In general, search goes across all columns in all rows to find fields that inclu
 But there are a couple special characters (`''` and `*`) that you can use to make a more exact search:
 
 - Placing the search text between `''` (for example, `man`) will find only field values that match the entire text and case.
-- Placing `*` after the search text will find field values that start with the text, including case. Placing `*` before the search text will find field values the end with the text, including case. 
+- Placing `*` after the search text will find field values that start with the text, matching the case. Placing `*` before the search text will find field values the end with the text, matching the case. 
 - When using these special characters, if you want to make the search case insensitive, place **@** before the search text. 
 
 The following table will help explain the search through examples.

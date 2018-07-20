@@ -76,7 +76,7 @@ The Quick Filter provides an easy access to filter data by entering plain text, 
 ## Filtering
 Filtering provides an more advanced and versatile way of controlling which records display in a list. Unlike search, which works across columns, filtering is column-based. It enables you to display records for specific accounts or customers, dates, amounts, and other information by specifying criteria for fields in a column. Only records that match the criteria are displayed. If you specify criteria for multiple fields, then records must match all criteria will be displayed.
 
-## Filter directly from a column heading
+### Filter directly from a column heading
 You can add or clear a filter directly from the column heading in a list.
 
 To add a filter, do one of the following:
@@ -89,8 +89,9 @@ To add a filter, do one of the following:
 
   This will open the filter pane on the left, where you can add the filter criteria for the field associated with the column. For more information, see [Filter citeria](#FilterCriteria).
 
-Focus on a If you are focused on a field er on a focused value 
+Columns that aready have filters are indicated by the ![Filter icon](media/ui-search/filter-icon.png "Filter icon") in the column heading. To remove a filter, seletc the columns heading, then choose **Clear Filter**.
 
+### Filtering from the filter pane
 
 ### Tips for improving filter results
 

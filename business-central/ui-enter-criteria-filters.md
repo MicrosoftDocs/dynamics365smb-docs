@@ -29,14 +29,14 @@ To sort a list, you can either choose a column heading text to toggle between as
 
 ## Searching
 <!--## Searching by using the Quick Filter -->
-At the top of each list page, there is a ![Search list](media/ui-search/search-list.png "Search list icon") **Search** icon that provides a quick and easy way to reduce the rows in a list and display only those records that contain the data that you are interested in seeing.
+At the top of each list page, there is a ![Search list](media/ui-search/search-list.png "Search list icon") **Search** icon that provides a quick and easy way to reduce the records in a list and display only those records that contain the data that you are interested in seeing.
 
 To search, simply select the search icon, and then in the box, type the text that you are looking for. You can enter letters, numbers, and characters.
 
 ### Fine-tune the search
 In general, search goes across all columns in all rows to find fields that include the text that you provide. It does not distinguish between uppercase and lowercase characters (in other words, case insensitive). 
 
-But there are a couple special characters (`''` and `*`) that you can use to make a more exact search:
+But there are a couple special characters, specifically `'` and `*`, that you can use to make a more exact search:
 
 - Placing the search text between `''` (for example, `man`) will find only field values that match the entire text and case.
 - Placing `*` after the search text will find field values that start with the text, matching the case. Placing `*` before the search text will find field values the end with the text, matching the case. 
@@ -67,14 +67,47 @@ The Quick Filter provides an easy access to filter data by entering plain text, 
 
 |Search Criteria|Finds...|
 |---------------|----------|
-|`man`<br />or <br />`Man`|All records with fields that contain the text **man**, regardless of the case. For example, **Manchester**, **manual**, or **Hartman**. |
-|`'Man'`|All records with fields that contain only **Man** exactly.|
-|`Man*`|All records with fields that start with the text <b>Man</b> exactly. For example, **Manchester** but not **manchester** or **Hartman**.|
+|`man`<br />or <br />`Man`|All records with fields that contain the text **man**, regardless of the case. For example, **Manchester**, **manual**, or **Sportsman**. |
+|`'Man'`|All records with fields that contain only **Man**, exactly as it is entered.|
+|`Man*`|All records with fields that start with the text <b>Man</b> exactly as it is entered. For example, **Manchester** but not **manchester** or **Sportman**.|
 |`@Man*`|All records with fields that start with **man**, regardless of the case. For example, **Manchester** and **manual**, but not **Hartman**.|
-|`@*man`|All records that end with **man**, regardless of the case. For example **Hartman**, but not **Manchester** or **manual**.|
+|`@*man`|All records that end with **man**, regardless of the case. For example **Sportsman**, but not **Manchester** or **manual**.|
 
-## Searching by using column Filters
+## Filtering
+Filtering provides an more advanced and versatile way of controlling which records display in a list. Unlike search, which works across columns, filtering is column-based. It enables you to display records for specific accounts or customers, dates, amounts, and other information by specifying criteria for fields in a column. Only records that match the criteria are displayed. If you specify criteria for multiple fields, then records must match all criteria will be displayed.
+
+## Filter directly from a column heading
+You can add or clear a filter directly from the column heading in a list.
+
+To add a filter, do one of the following:
+
+- Move focus to a field that contains a value that you want to filter on. In in the column heading for the field, choose the down arrow, and then **Filter on This Value**.
+
+  This will display only records that have the same value as the focused field. 
+
+- In the column heading, and choose **Filter...**.
+
+  This will open the filter pane on the left, where you can add the filter criteria for the field associated with the column. For more information, see [Filter citeria](#FilterCriteria).
+
+Focus on a If you are focused on a field er on a focused value 
+
+
+### Tips for improving filter results
+
+To improve your filter results, consider the following strategies:
+
+- Understand where and how filters persist. Filters are page dependent. If you apply a filter on one list and switch to a different list, then the filter is not applied there. The filter persists on the list where you set it until you clear it or specify new criteria.
+
+- Only enter meaningful filters. For example, you can specify an interval that does not exist and cannot be verified. To enter meaningful filters, you must know the sorting rules that are used.
+
+- Check your filters by occasionally opening the filter pane. In the Application menu, choose Customize, and then choose Filter Pane to see an overview of all filters that have been applied. To remove all filters on a page, choose the page title drop-down arrow, and then choose Clear Filter. Note that this also cancels a default list view, such as that set for Sales Orders - Open.
+
+The following procedures show the different filtering methods for filtering data that uses the CRONUS International Ltd. demonstration database.
+
+
+<!--
 You can add a filter on one or more columns in a list. Filtering on columns is more flexible and enhanced than the Quick Filter. 
+-->
 
 ### To add a filter on a column
 1.  Before you add a filter, choose ![Show as list](media/ui_show_as_list_icon.png "Show as list arrow left") icon to change to the list view.
@@ -84,7 +117,7 @@ You can add a filter on one or more columns in a list. Filtering on columns is m
   -  Enter filter criteria in the box. See the next section for details.
 4. Choose the **OK** button.
 
-## Filter criteria and symbols
+## <a name="FilterCriteria"> </a>Filter criteria and symbols
 When you enter criteria, you can use all the numbers and letters that you can normally use in the field. In addition, you can use special symbols to further filter the results. The following tables show the symbols which can be used in filters.  
 
 > [!NOTE]  

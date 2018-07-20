@@ -36,11 +36,10 @@ To search, simply select the search icon, and then in the box, type the text tha
 ### Fine-tune the search
 In general, search goes across all columns in all rows to find fields that include the text that you provide. It does not distinguish between uppercase and lowercase characters (in other words, case insensitive). 
 
-There are a couple special characters (`''` and `*`) that you can use to make a more exact search:
+But there are a couple special characters (`''` and `*`) that you can use to make a more exact search:
 
-- Placing the search text between `''` (for example, `man`) will find only field values that match the entire text, including case.
+- Placing the search text between `''` (for example, `man`) will find only field values that match the entire text and case.
 - Placing `*` after the search text will find field values that start with the text, including case. Placing `*` before the search text will find field values the end with the text, including case. 
-
 - When using these special characters, if you want to make the search case insensitive, place **@** before the search text. 
 
 The following table will help explain the search through examples.
@@ -55,6 +54,7 @@ The Quick Filter provides an easy access to filter data by entering plain text, 
 * If you enter plain text in the search criteria, the search criteria is interpreted as a case insensitive search that contains certain text.  
 * If you enter text including symbols in the search criteria, the search criteria is interpreted exactly as you entered it, and the search is case sensitive.
 -->
+<!--
 
 |Search Criteria|Interpreted as...|Finds...|
 |---------------|----------------|----------|
@@ -63,6 +63,15 @@ The Quick Filter provides an easy access to filter data by entering plain text, 
 |`Man*`|Starts with the text; case sensitive.|All records with fields that start with the text <b>Man</b> exactly.|
 |`@Man*`|Starts with the text; case insensitive.|All records with fields that start with **man**, regardless of the case.|
 |`@*man`|Ends with the text; case insensitive.|All records that end with **man**, regardless of the case.|
+-->
+
+|Search Criteria|Finds...|
+|---------------|----------|
+|`man`<br />or <br />`Man`|All records with fields that contain the text **man**, regardless of the case. For example, **Manchester**, **manual**, or **Hartman**. |
+|`'Man'`|All records with fields that contain only **Man** exactly.|
+|`Man*`|All records with fields that start with the text <b>Man</b> exactly. For example, **Manchester** but not **manchester** or **Hartman**.|
+|`@Man*`|All records with fields that start with **man**, regardless of the case. For example, **Manchester** and **manual**, but not **Hartman**.|
+|`@*man`|All records that end with **man**, regardless of the case. For example **Hartman**, but not **Manchester** or **manual**.|
 
 ## Searching by using column Filters
 You can add a filter on one or more columns in a list. Filtering on columns is more flexible and enhanced than the Quick Filter. 

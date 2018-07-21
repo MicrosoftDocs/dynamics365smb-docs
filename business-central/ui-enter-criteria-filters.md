@@ -36,9 +36,9 @@ To search, simply select the search icon, and then in the box, type the text tha
 ### Fine-tune the search
 In general, search goes across all columns in all rows to find fields that include the text that you provide. It does not distinguish between uppercase and lowercase characters (in other words, case insensitive). 
 
-But there are a couple special characters, specifically `'` and `*`, that you can use to make a more exact search:
+But there are a couple special characters that you can use to make a more exact search:
 
-- Placing the search text between single quotes`''` (for example, `'man'`) will find only field values that match the entire text and case.
+- To find only field values that match the entire text and case exactly, place the search text between single quotes`''` (for example, `'man'`).  
 - Placing `*` after the search text will find field values that start with the text, matching the case. Placing `*` before the search text will find field values the end with the text, matching the case. 
 - When using these special characters, if you want to make the search case insensitive, place **@** before the search text. 
 
@@ -81,7 +81,7 @@ You can add or clear a filter directly from the column heading in a list.
 
 To add a filter, do one of the following:
 
-- Move focus to a field that contains a value that you want to filter on. In in the column heading for the field, choose the down arrow, and then **Filter on This Value**.
+- Move focus to a field that contains a value that you want to filter on. Go to the column heading, choose the down arrow, and then **Filter on This Value**.
 
   This will display only records that have the same value as the focused field. 
 

@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 07/01/2017
+ms.date: 07/23/2018
 ms.author: sgroespe
 
 ---
@@ -25,31 +25,6 @@ The following procedure assumes that you have obtained the certificates from the
 
 After you register and log on to the official site, you can download the digiport server certificates from this site: [https://aansluiten.procesinfrastructuur.nl/site/documentatie/certificaten](https://aansluiten.procesinfrastructuur.nl/site/documentatie/certificaten).  
 
-Next, you have to install the certificates. The certificates have to be installed on the server. Later, you will use the common name (CN) of the certificates in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
-
-> [!NOTE]  
->  In the Digipoort implementation you install certificates on the server. Users who need to be able to communicate with tax authorities via Digipoort will need access to the private key of the personal certificate on the server.  
-
-## To install the certificates  
-
-1.  Open the **Windows Certificate Console** to import the certificates that you have obtained from the government. For more information, see [Use the Certificates Console](http://social.technet.microsoft.com/wiki/contents/articles/2167.how-to-use-the-certificates-console.aspx).  
-2.  Import the two certificates. For more information, [To import a certificate](http://social.technet.microsoft.com/wiki/contents/articles/2167.how-to-use-the-certificates-console.aspx#To_import_certificates).  
-
-    **Personal Certificate**  
-
-    1.  In the **Personal** section, choose the **Import** action. Make sure to set proper permissions to the private key.  
-    2.  Complete the **Certificate Import Wizard**.  
-
-    **Service Certificate**  
-
-    1.  In the **Trusted Publishers** section, choose the **Import** action  
-    2.  Complete the **Certificate Import Wizard**.  
-
-3.  Grant read permissions to the certificate for the user who is doing the submission.  
-
-    Right-click the certificate, choose the **All Tasks** action, and then choose the **Manage Private Keys** action. Select the user and in the **Permissions** box, select the **Allow Read** check box.  
-
-4.  Close the **Console** window.  
-
 ## See Also  
- [Digipoort Overview](digipoort-overview.md)
+[Electronic VAT and ICP Declarations](electronic-vat-and-icp-declarations.md)  
+[Digipoort Overview](digipoort-overview.md)

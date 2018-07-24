@@ -38,5 +38,4 @@ During an examination of the books for a fiscal year, a tax inspector can ask fo
 When you run the report, you must specify the name and location of the exported file. The default file name is **audit.xaf**, but you can change that. The file extension must be .xaf.  
 
 ## See Also  
- [Electronic VAT and ICP Declarations](electronic-vat-and-icp-declarations.md)   
- [Submit Electronic VAT and ICP Declarations](how-to-submit-electronic-vat-and-icp-declarations.md)
+ [Electronic VAT and ICP Declarations](electronic-vat-and-icp-declarations.md)

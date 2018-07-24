@@ -38,15 +38,13 @@ When electronic declarations are set up, you can begin to declare VAT and ICP to
 
 Currently, there are two sets of URLs that are provided by the Dutch Tax Administration. These are subject to change, however, and you should check the administration’s website regularly for updates.  
 
-**Production Use**  
+    **Production Use**
+        -Digipoort Delivery URL: https://www.procesinfrastructuur.nl/wus/2.0/aanleverservice/1.2
+        -Digipoort Status URL: https://www.procesinfrastructuur.nl/wus/2.0/statusinformatieservice/1.2  
 
-    -Digipoort Delivery URL: https://www.procesinfrastructuur.nl/wus/2.0/aanleverservice/1.2  
-    -Digipoort Status URL: https://www.procesinfrastructuur.nl/wus/2.0/statusinformatieservice/1.2  
-
-**Testing Use**  
-
-    -Digipoort Delivery URL: https://preprod.procesinfrastructuur.nl/wus/2.0/aanleverservice/1.2  
-    -Digipoort Status URL: https://preprod.procesinfrastructuur.nl/wus/2.0/statusinformatieservice/1.2  
+    **Testing Use**
+        -Digipoort Delivery URL: https://preprod.procesinfrastructuur.nl/wus/2.0/aanleverservice/1.2
+        -Digipoort Status URL: https://preprod.procesinfrastructuur.nl/wus/2.0/statusinformatieservice/1.2  
 
 ## See Also  
  [Submitting Electronic VAT and ICP Declarations](electronic-vat-and-icp-declarations.md)  

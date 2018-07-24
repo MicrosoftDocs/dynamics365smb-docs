@@ -20,7 +20,7 @@ To create electronic VAT and ICP declarations and communicate with the tax autho
 
 When electronic declarations are set up, you can begin to declare VAT and ICP to the tax authorities. For more information, see [Submitting Electronic VAT and ICP Declarations](electronic-vat-and-icp-declarations.md).  
 
-## To set up electronic tax declarations  
+## To set up electronic declarations  
 
 1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Elec. Tax Declaration Setup**, and then choose the related link.  
 2. In the **Elec. Tax Declaration Setup** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
@@ -40,14 +40,14 @@ Currently, there are two sets of URLs that are provided by the Dutch Tax Adminis
 
 **Production Use**  
 
-    - Digipoort Delivery URL: https://www.procesinfrastructuur.nl/wus/2.0/aanleverservice/1.2  
-    - Digipoort Status URL: https://www.procesinfrastructuur.nl/wus/2.0/statusinformatieservice/1.2  
+    -Digipoort Delivery URL: https://www.procesinfrastructuur.nl/wus/2.0/aanleverservice/1.2  
+    -Digipoort Status URL: https://www.procesinfrastructuur.nl/wus/2.0/statusinformatieservice/1.2  
 
 **Testing Use**  
 
-    - Digipoort Delivery URL: https://preprod.procesinfrastructuur.nl/wus/2.0/aanleverservice/1.2  
-    - Digipoort Status URL: https://preprod.procesinfrastructuur.nl/wus/2.0/statusinformatieservice/1.2  
+    -Digipoort Delivery URL: https://preprod.procesinfrastructuur.nl/wus/2.0/aanleverservice/1.2  
+    -Digipoort Status URL: https://preprod.procesinfrastructuur.nl/wus/2.0/statusinformatieservice/1.2  
 
 ## See Also  
- [Electronic VAT and ICP Declarations](electronic-vat-and-icp-declarations.md)  
+ [Submitting Electronic VAT and ICP Declarations](electronic-vat-and-icp-declarations.md)  
  [Netherlands Local Functionality](netherlands-local-functionality.md)

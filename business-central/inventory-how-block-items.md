@@ -23,21 +23,21 @@ The following table illustrates what occurs when items are blocked.
 
 |Option|Description|  
 |--------------------|------------|  
-|**Sale Blocked**|You cannot enter the item in a sales document or in a sales item journal.|  
-|**Purchase Blocked**|You cannot enter the item in a purchase document, in a purchase item journal, or in purchase planning processes.|  
+|**Sales Blocked**|You cannot enter the item in a sales document or in a sales item journal.|  
+|**Purchasing Blocked**|You cannot enter the item in a purchase document, in a purchase item journal, or in purchase planning processes.|  
 |**Blocked**|You cannot use the item for any item transaction. For more information about blocking an item for all purposes, see Item Card.|  
 
 ## To block an item from being entered on sales lines  
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
-2.  Select the item that you want to block, and then select the **Sale Blocked** check box.  
+2.  Select the item that you want to block, and then select the **Sales Blocked** check box.  
 
 If you try to enter the item on a sales document or journal line, you will now get an error message that the item is blocked.
 
 ## To block an item from being entered on purchase lines  
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
-2.  Select the item that you want to block, and then select the **Purchase Blocked** check box.  
+2.  Select the item that you want to block, and then select the **Purchasing Blocked** check box.  
 
 If you try to enter the item on a purchase document or journal line, you will now get an error message that the item is blocked.
 

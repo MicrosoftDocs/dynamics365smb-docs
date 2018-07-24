@@ -44,7 +44,7 @@ Before you can send electronic declarations to the tax authorities you must perf
 
     - Register a user of Digipoort, which can be done here: [https://aansluiten.procesinfrastructuur.nl/site/registratie/nieuw](https://aansluiten.procesinfrastructuur.nl/site/registratie/nieuw).  
 
-2. Enter general data and personal data received from the tax authorities in the **Elec. Tax Declaration Setup** window. For more information, see [Set Up Electronic VAT and ICP Declarations](how-to-set-up-electronic-vat-and-icp-declarations.md).
+2. Enter general data and personal data received from the tax authorities in the **Elec. Tax Declaration Setup** window. For more information, see [Setting Up Electronic VAT and ICP Declarations](how-to-set-up-electronic-vat-and-icp-declarations.md).
 
 3. Set up a VAT category code for all XML elements in the electronic VAT declaration. For more information, see [Set Up VAT Categories](how-to-set-up-vat-categories.md).
 
@@ -64,11 +64,11 @@ With the XBRL reporter, you can submit the Intracommunautaire Leveringen (ICP) d
 1. In the **Elec. Tax Declaration Card** window, choose the **Submit Electronic Tax Declaration** action.
 2. Fill in the fields as described in the following table.
 
-|Field|Description|  
-|---------------------------------|---------------------------------------|  
-|** Client Certificate**|Select the **PKIoverheid** certificate for the company.|  
-|**Client Certificate Password**|Enter the password that encrypts the client certificate.|
-|**Service Certificate**|Select the **Digipoort Service** certificate.|
+    |Field|Description|  
+    |---------------------------------|---------------------------------------|  
+    |**Client Certificate**|Select the **PKIoverheid** certificate for the company.|  
+    |**Client Certificate Password**|Enter the password that encrypts the client certificate.|
+    |**Service Certificate**|Select the **Digipoort Service** certificate.|
 
 3. Choose the **OK** button.  
 
@@ -77,7 +77,7 @@ The electronic declaration is submitted to the tax authorities.
 > [!NOTE]  
 > If there are no intra-community deliveries in the declaration period, then an electronic ICP declaration is created without XML elements for the deliveries. If you submit such a declaration, an error message will be displayed.
 
-### To import a response message from the tax authorities
+## To import a response message from the tax authorities
 For each electronic declaration, the tax authorities will send a response message. These messages must be received from the server of the tax authorities
 and be processed. The first step is to import the response message into [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
 
@@ -85,16 +85,16 @@ and be processed. The first step is to import the response message into [!INCLUD
 2. Choose the **Receive Response Messages** action.  
 3. On the **Options** FastTab, fill in the fields as described in the following table.  
 
-|Field|Description|  
-|---------------------------------|---------------------------------------|  
-|** Client Certificate**|Select the **PKIoverheid** certificate for the company.|  
-|**Client Certificate Password**|Enter the password that encrypts the client certificate.|
-|**Service Certificate**|Select the **Digipoort Service** certificate.|  
+    |Field|Description|  
+    |---------------------------------|---------------------------------------|  
+    |**Client Certificate**|Select the **PKIoverheid** certificate for the company.|  
+    |**Client Certificate Password**|Enter the password that encrypts the client certificate.|
+    |**Service Certificate**|Select the **Digipoort Service** certificate.|  
 
 4. Choose the **OK** button.
 
-## To process a response message from the tax Authorities
-When a response message is imported, it must be processed by validating its content against the related electronic declaration. If no errors were found in the electronic declaration and the data has been processed by the tax authorities, then the **Status** field in the **Elec. Tax Declaration Header** table is changed to **Acknowledgement**.
+## To process a response message from the tax authorities
+When a response message is imported, it must be processed by validating its content against the related electronic declaration. If no errors are found in the electronic declaration and the data has been processed by the tax authorities, then the **Status** field in the **Elec. Tax Declaration Card** window is changed to **Acknowledgement**.
 
 1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Elec. Tax Decl. Response Msgs.**, and then choose the related link.  
 2. Choose the **Process Response Messages** action.  
@@ -105,7 +105,7 @@ When a response message is imported, it must be processed by validating its cont
 4. To export a message or attachment, choose the **Export Response Message** action or the **Export Response Attachment** action.
 
 ## See Also  
-[Set Up Electronic VAT and ICP Declarations](how-to-set-up-electronic-vat-and-icp-declarations.md)  
+[Setting Up Electronic VAT and ICP Declarations](how-to-set-up-electronic-vat-and-icp-declarations.md)  
 [Set Up VAT Categories](how-to-set-up-vat-categories.md)  
 [Create Reports with XBRL](../../bi-create-reports-with-xbrl.md)  
 [Netherlands Local Functionality](netherlands-local-functionality.md)

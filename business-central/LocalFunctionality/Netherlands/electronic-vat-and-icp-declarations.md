@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/24/2018
+    ms.date: 07/25/2018
     ms.author: sgroespe
 
 ---
@@ -31,8 +31,6 @@ You can submit the VAT declarations and ICP declarations in the following ways:
 
 - Create an electronic declaration and submit the encrypted file through file through the Digipoort channel to the Dutch tax office. Digipoort is the electronic post office provided by the Dutch government for companies. It provides the common infrastructure for the communication of information between companies and the government, including VAT declarations. The reports are in the eXtensible Business Reporting Language (XBRL) format. For more information, see [Create Reports with XBRL](../../bi-create-reports-with-xbrl.md).
 
-To create electronic VAT and ICP declarations and communicate with the tax authorities, you must first set up general information about electronic tax declarations. For more information, see [Setting Up Electronic VAT and ICP Declarations](how-to-set-up-electronic-vat-and-icp-declarations.md).
-
 ## To prepare for electronic declaration
 Before you can send electronic declarations to the tax authorities you must perform the following tasks:
 
@@ -40,9 +38,9 @@ Before you can send electronic declarations to the tax authorities you must perf
 
     - Obtain a PKIoverheid certificate for the company if you do not have one already. A list of certificate providers can be found here: [http://www.logius.nl/producten/toegang/pkioverheid/aansluiten/toegetreden-csps](http://www.logius.nl/producten/toegang/pkioverheid/aansluiten/toegetreden-csps).  
 
-    - Obtain a **Digipoort Service certificate**, which can be obtained at the Dutch Tax Administration website: [https://aansluiten.procesinfrastructuur.nl](https://aansluiten.procesinfrastructuur.nl).  
+    - Register a user of Digipoort, which can be done here: [https://aansluiten.procesinfrastructuur.nl/site/registratie/nieuw](https://aansluiten.procesinfrastructuur.nl/site/registratie/nieuw).
 
-    - Register a user of Digipoort, which can be done here: [https://aansluiten.procesinfrastructuur.nl/site/registratie/nieuw](https://aansluiten.procesinfrastructuur.nl/site/registratie/nieuw).  
+    - Obtain a **Digipoort Service certificate**, which can be obtained at the Dutch Tax Administration website: [https://aansluiten.procesinfrastructuur.nl](https://aansluiten.procesinfrastructuur.nl).
 
 2. Enter general data and personal data received from the tax authorities in the **Elec. Tax Declaration Setup** window. For more information, see [Setting Up Electronic VAT and ICP Declarations](how-to-set-up-electronic-vat-and-icp-declarations.md).
 

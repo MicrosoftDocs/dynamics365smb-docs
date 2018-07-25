@@ -31,11 +31,14 @@ First-Expired-First-Out (FEFO) is a sorting method that ensures that the oldest 
 
 > [!NOTE]  
 > If some serial/lot-numbered items use specific tracking, then those are respected first and under them, the remaining, non-specific, serial/lot numbers are listed according to FEFO.
+
 > If two serial/lot-numbered items have the same expiration date, then the program selects the item with the lowest serial or lot number.
+
 > When picking serial/lot-numbered items in locations set up for directed put-away and pick, only quantities on bins of type *Pick* are picked according to FEFO.  
+
 > To enable movements according to FEFO, either in the **Inventory Movement** window or the **Movement Worksheet** window, you must leave the **From Bin** field empty.  
+
 > If the **Strict Expiration Posting** field is selected, then only items that are not expired will be included in the pick. This applies even if you are not using Pick according to FEFO.
-> [!NOTE]  
 
 ## See Also  
 [Picking Items](warehouse-pick-items.md)   

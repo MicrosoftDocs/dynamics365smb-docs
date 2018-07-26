@@ -12,4 +12,6 @@
     - name: Accountant Hub
       tocHref: /dynamics365/accountants/
       topicHref: /dynamics365/accountants/index
-
+    - name: Invoicing
+      tocHref: /dynamics365/invoicing/
+      topicHref: /dynamics365/invoicing/index

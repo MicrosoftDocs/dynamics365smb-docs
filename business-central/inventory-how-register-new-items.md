@@ -19,7 +19,7 @@ Items, among other products, are the basis of your business, the goods or servic
 
 Item cards hold the information that is required to buy, store, sell, deliver, and account for items.
 
-The item card can be of type **Inventory**, **Service**, and **Non-Inventory** to specify if the item is a physical inventory unit, a labor time unit, or a physical unit that is not part of inventory calculations. For more information, see [About Item Types](inventory-about-item-types.md).
+The item card can be of type **Inventory**, **Service**, or **Non-Inventory** to specify if the item is a physical inventory unit, a labor time unit, or a physical unit that is not tracked in inventory. For more information, see [About Item Types](inventory-about-item-types.md).
 
 An item can be structured as a parent item with underlying child items in a bill of materials (BOM). In [!INCLUDE[d365fin](includes/d365fin_md.md)], a bill of material can be either an assembly BOM or a production BOM, depending on its use. For more information, see [Work with Bills of Material](inventory-how-work-BOMs.md).
 

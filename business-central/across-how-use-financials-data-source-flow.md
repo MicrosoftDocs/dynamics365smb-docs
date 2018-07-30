@@ -56,7 +56,7 @@ At this point, you have successfully connected to your Business Central data and
 11. Flow will prompt you to select a company within your [!INCLUDE[d365fin_md](includes/d365fin_md.md)] tenant. Because each step in the flow is independent of the next, you may be required to define the company multiple times when using a [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Flow template.
 
 > [!NOTE]  
-> The [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Flow template integrates with the core workflow engine in [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. This means that each time you use one of these templates to create a flow, a corresponding workflow is created within [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. For more information, see [Workflow](across-workflow.md).
+> The [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Flow template integrates with the core workflow engine in [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. This means that each time you use one of these templates to create a flow, a corresponding workflow is created within [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Also, the person creating the flow must be set up as an approver in the Assisted Setup guide. For more information, see [Workflow](across-workflow.md).
 
 For more information, see the [Flow Documentation](https://docs.microsoft.com/en-us/flow/getting-started).
 

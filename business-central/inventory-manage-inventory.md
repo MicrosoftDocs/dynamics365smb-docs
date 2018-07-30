@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 09/08/2017
+ms.date: 07/23/2018
 ms.author: sgroespe
 ---
 
@@ -42,6 +42,7 @@ Even though inventory costs are automatically posted to the general ledger, it i
 |Reserve inventory or inbound items for sales orders, purchase orders, service orders, assembly orders, or production orders.|[Reserve Items](inventory-how-to-reserve-items.md)|
 |Assign serial numbers or lot numbers to any outbound or inbound document or journal line, for example to track items in case of recalls.|[Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)|
 |Find where any serial or lot number was used in its supply chain, for example in recall situations.|[Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)|
+|Block items from being entered on sales or purchase lines or from being posted in any transaction.|[Block Items](inventory-how-block-items.md)|
 |Manage business operations in sales offices, a purchasing departments, or plant planning offices across multiple locations.|[Work with Responsibility Centers](inventory-responsibility-centers.md)|
 
 ## See Also  
@@ -52,4 +53,3 @@ Even though inventory costs are automatically posted to the general ledger, it i
 [General Business Functionality](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 

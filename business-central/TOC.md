@@ -233,7 +233,7 @@
 ## [Create Reports with XBRL](bi-create-reports-with-xbrl.md)
 
 # [Sales](sales-manage-sales.md)
-## [Make Offers](sales-how-make-offers.md)
+## [Make Sales Quotes](sales-how-make-offers.md)
 ## [Invoice Sales](sales-how-invoice-sales.md)
 ## [Sell Products](sales-how-sell-products.md)
 ## [Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)
@@ -266,6 +266,7 @@
 ## [Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)
 ## [Reserve Items](inventory-how-to-reserve-items.md)
 ## [Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)
+## [Block Items](inventory-how-block-items.md)
 ## [Work with Responsibility Centers](inventory-responsibility-centers.md)
 
 # [Project Management](projects-manage-projects.md)
@@ -390,7 +391,8 @@
 ## [Design Details: Item Tracking](design-details-item-tracking.md)
 ## [Design Details: General Journal Post Line](design-details-general-journal-post-line.md)
 
-# Local Functionality
+# [Local Functionality](about-localization.md)
+## [Australia](LocalFunctionality/Australia/australia-local-functionality.md)  
 ## [Austria](LocalFunctionality/Austria/austria-local-functionality.md)
 ## [Belgium](LocalFunctionality/Belgium/belgium-local-functionality.md)
 ## [Canada](LocalFunctionality/Canada/canada-local-functionality.md)
@@ -400,6 +402,7 @@
 ## [Germany](LocalFunctionality/Germany/germany-local-functionality.md)
 ## [Italy](LocalFunctionality/Italy/italy-local-functionality.md)
 ## [Netherlands](LocalFunctionality/Netherlands/netherlands-local-functionality.md)
+## [New Zealand](LocalFunctionality/NewZealand/new-zealand-local-functionality.md)  
 ## [Spain](LocalFunctionality/Spain/spain-local-functionality.md)
 ## [Sweden](LocalFunctionality/Sweden/sweden-local-functionality.md)
 ## [Switzerland](LocalFunctionality/Switzerland/switzerland-local-functionality.md)

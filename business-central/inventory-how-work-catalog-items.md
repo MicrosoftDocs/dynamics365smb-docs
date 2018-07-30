@@ -1,6 +1,6 @@
 ---
 title: Create and Manage Catalog Items| Microsoft Docs
-description: Describes how to trade non-inventoriable items or items that are not maintained in your inventory.
+description: Describes how to trade in items that are in your vendors list of items but not in your own list of items.
 documentationcenter: ''
 author: SorenGP
 
@@ -27,7 +27,7 @@ You can offer certain items to your customers for their convenience, which you d
 A catalog item typically has the item number of the vendor who supplies it. To enable conversion of a catalog item card to a normal item card, you must first set up how vendor item numbering is converted to your own item numbering.   
 
 > [!Important]
-> Catalog items are not to be mistaken with non-inventory items, which are regular items of that carry the type **Non-Inventory** to keep them out of availability and costing calculations, for example, because they are only used internally and has a low cost. For more information, see [About Item Types](inventory-about-item-types.md).
+> Catalog items are not to be mistaken with non-inventory items, which are regular items that are given the type **Non-Inventory** to keep them out of availability and costing calculations, for example, because they are only used internally and have a low cost. For more information, see [About Item Types](inventory-about-item-types.md).
 
 ## To create a catalog item
 Catalog item cards have much less information than normal item cards because you only use them to offer on quotes and in other ways. For that reason, they must be converted to normal item cards before you can post sales transactions for them.

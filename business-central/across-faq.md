@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 06/28/2018
+ms.date: 07/20/2018
 ms.author: edupont
 
 ---
@@ -46,6 +46,10 @@ Did you read about a new capability in the roadmap or on our blog recently? In t
 Yes, you can. But currently, you have to ask your reselling partner. If you don't know who that is, find a Business Central partner [here](https://www.microsoft.com/en-us/solution-providers/search).  
 
 If you have access to Microsoft CustomerSource, you can get access to the Imagine Academy site with  eLearning material. For more information on how to get access, see the [Microsoft Dynamics 365 training](/dynamics365/get-started/training/index#dynamics-365-customers) page.  
+
+## Is [!INCLUDE[d365fin](includes/d365fin_md.md)] available in my country?
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] is available in a limited number of markets, but new countries are added through Microsoft-led localization or through partner-led localization on a quarterly basis. For more information, see [Countries and Translations Supported](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
 ## Why are some UI elements that I used in Dynamics NAV not visible in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], the Application Areas system and the Experience options enable you to show/hide relevant parts of the product according to the purchased plan (Essential or Premium) and according to your business needs.

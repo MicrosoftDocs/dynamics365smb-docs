@@ -36,11 +36,12 @@ To search, simply select the search icon, and then in the box, type the text tha
 ### Fine-tune the search
 In general, search goes across all columns in all rows to find fields that include the text that you provide. It does not distinguish between uppercase and lowercase characters (in other words, case insensitive). 
 
-But there are a couple special characters that you can use to make a more exact search:
+But there are a couple special characters that you can use to make a more exact search: 
 
-- To find only field values that match the entire text and case exactly, place the search text between single quotes`''` (for example, `'man'`).  
-- Placing `*` after the search text will find field values that start with the text, matching the case. Placing `*` before the search text will find field values the end with the text, matching the case. 
-- When using these special characters, if you want to make the search case insensitive, place **@** before the search text. 
+- Place the search text between single quotes `''` (for example, `'man'`) to find only field values that match the entire text and case exactly,.  
+- Place `*` after the search text (for example `man*`) to find field values that start with a certain text and match the case. 
+- Place `*` before the search text to find field values the end with a certain text and match the case. 
+- When using these special characters, if you want to make the search case insensitive, place **@** before the search text (for example `@man*`). 
 
 The following table will help explain the search through examples.
    

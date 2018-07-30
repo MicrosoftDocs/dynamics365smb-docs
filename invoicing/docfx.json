@@ -41,7 +41,7 @@
       "feedback_product_url": "https://experience.dynamics.com/ideas/list/?forum=e288ef32-82ed-e611-8101-5065f38b21f1",
       "searchScope": ["Invoicing"],
       "uhfHeaderId": "MSDocsHeader-Dynamics365",
-      "titleSuffix": "Invoicing",
+      "titleSuffix": "Microsoft Invoicing",
       "breadcrumb_path": "/dynamics365/invoicing/breadcrumb/toc.json",
       "ms.service": "dynamics365-business-central",
       "extendBreadcrumb": true

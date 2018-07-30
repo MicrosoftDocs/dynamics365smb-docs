@@ -10,20 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: non-inventoriable
-ms.date: 06/02/2017
+ms.date: 07/30/2018
 ms.author: sgroespe
 
 ---
 # Work with Catalog Items
-You can offer certain items to your customers for their convenience, which you do not want to maintain in inventory until you start selling them. When you want to start maintaining such items in inventory, you can convert them to normal item cards in two ways.
+You can offer certain items to your customers for their convenience, which you do not want to manage in your system until you start selling them. When you want to start managing such items in your system, you can convert them to normal item cards in two ways.
 
 * From a catalog item card, create a new item card based on a template.
-* From a sales order line of type **Item** with an empty **No* field, select a catalog item. An item card is automatically created for the catalog item.
+* From a sales order line of type **Item** with an empty **No** field, select a catalog item. An item card is then automatically created for the catalog item.
 
 > [!NOTE]  
->   You cannot select a catalog item from the **Sales Invoice** window. You can select a catalog item from the **Sales Quote** window, but the catalog item will not be converted to a normal item when you use the **Make Order** function.
+> You cannot select a catalog item from the **Sales Invoice** window.<br /><br />
+> You can select a catalog item from the **Sales Quote** window, but the catalog item will not be converted to a normal item when you use the **Make Order** function.
 
 A catalog item typically has the item number of the vendor who supplies it. To enable conversion of a catalog item card to a normal item card, you must first set up how vendor item numbering is converted to your own item numbering.   
+
+> [!Important]
+> Catalog items are not to be mistaken with non-inventory items, which are managed item that carry the type **Non-Inventory** to keep it out of availability and costing calculations, for example, because it is used internally used and has a low cost. For more information, see [About Item Types](inventory-about-item-types.md).
 
 ## To create a catalog item
 Catalog item cards have much less information than normal item cards because you only use them to offer on quotes and in other ways. For that reason, they must be converted to normal item cards before you can post sales transactions for them.

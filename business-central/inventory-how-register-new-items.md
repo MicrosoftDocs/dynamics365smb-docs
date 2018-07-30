@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 07/02/2018
+ms.date: 07/30/2018
 ms.author: sgroespe
 
 ---
@@ -19,14 +19,16 @@ Items, among other products, are the basis of your business, the goods or servic
 
 Item cards hold the information that is required to buy, store, sell, deliver, and account for items.
 
-The item card can be of type **Inventory**, **Service**, and **Non-Inventory** to specify if the item is a physical inventory unit, a labor time unit, or a physical unit that is not kept on inventory. Apart from some fields that relate to the physical aspects of an item, all fields on an item card function in the same way for inventory and non-inventory items and services. For more information about buying and selling items, see [Record Purchases](purchasing-how-record-purchases.md) and [Sell Products](sales-how-sell-products.md).
+The item card can be of type **Inventory**, **Service**, and **Non-Inventory** to specify if the item is a physical inventory unit, a labor time unit, or a physical unit that is not part of inventory calculations. For more information, see [About Item Types](inventory-about-item-types.md).
 
 An item can be structured as a parent item with underlying child items in a bill of materials (BOM). In [!INCLUDE[d365fin](includes/d365fin_md.md)], a bill of material can be either an assembly BOM or a production BOM, depending on its use. For more information, see [Work with Bills of Material](inventory-how-work-BOMs.md).
 
-> [!NOTE]  
->   If item templates exist for different item types, then a window appears when you create a new item card from where you can select an appropriate template. If only one item template exists, then new item cards always use that template.
-
 If you purchase the same item from more than one vendor, you can connect those vendors to the item card. The vendors will then appear in the **Item Vendor Catalog** window, so that you can easily select an alternate vendor.
+
+Items that you offer to your customers but you do not want manage in your system until you start selling them can be set up as catalog items. Catalog items are not to be mistaken with regular items of type **Non-Inventory**. For more information, see [Work with Catalog Items](inventory-how-work-catalog-items.md).  
+
+> [!NOTE]  
+> If item templates exist for different item types, then a window appears when you create a new item card from where you can select an appropriate template. If only one item template exists, then new item cards always use that template.
 
 ## To create a new item card
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  

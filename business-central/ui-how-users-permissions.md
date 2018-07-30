@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 06/29/2018
+ms.date: 07/30/2018
 ms.author: sgroespe
 
 ---
@@ -42,7 +42,8 @@ When users or user groups are created, you must assign permission sets to each t
 Permission sets function as containers of permissions, so that you can easily manage multiple permissions in one record. When you have created a permission set, you must add the actual permissions. For more information, see the "To create or edit permissions" section.
 
 > [!NOTE]  
-> A [!INCLUDE[d365fin](includes/d365fin_md.md)] solution typically contains a number of predefined permission sets that are added by Microsoft or by your software provider. These permission sets are of type **System** or **Extension**. You cannot create or edit these types of permission sets or the permissions within them. However, you can copy them to define your own permission sets and permissions. Permission sets that users create, from new or as copies, are of type **User-Defined** and can be edited.
+> A [!INCLUDE[d365fin](includes/d365fin_md.md)] solution typically contains a number of predefined permission sets that are added by Microsoft or by your software provider. These permission sets are of type **System** or **Extension**. You cannot create or edit these types of permission sets or the permissions within them. However, you can copy them to define your own permission sets and permissions. <br /><br />
+Permission sets that users create, from new or as copies, are of type **User-Defined** and can be edited.
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Permission Sets**, and then choose the related link.
 2. To create a new permission set, choose the **New** action.

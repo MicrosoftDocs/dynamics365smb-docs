@@ -21,22 +21,20 @@ In the **Type** on the **Item Card** window, for can select what the item is use
 |Oprion|Description|
 |------|-----------|
 |Inventory|A physical unit, such as a bicycle, for full business support.|
-|Service|A labor time unit, such as a hair cut, for limited business support.|
 |Non-Inventory|A physical unit, such as a bolt, for limited business support, for example, because it is used internally and has a low cost.|
+|Service|A labor time unit, such as a hair cut, for limited business support.|
 
 The **Inventory** type involves full tracking of inventory quantity and value. Therefore, all item transaction types are supported and items of type Inventory can be used with all item-handling features.
 
 The **Service** and **Non-Inventory** types do not involve tracking of inventory quantity and value. Therefore, only selected item transaction types and features are supported.
-
-*****Non-Inventory and services items don’t track inventory qty and/or value, means they also don’t support Locations (including SKU and WMS), planning and reservations, revaluation and physical inventory count.
 
 The three item types support the following features respectively.
 
 |Item Type|Sales|Purchasing|Job Consumption|Service Consumption|Assembly Output|Assemply Consumption|Production Output|Production Consumption|Location Transfer|Warehousing|Reservation|Item Tracking|Planning|Inventory|Costing|Physical Counting|Revaluation|
 |---------|---------|-----|----------|---------------|-------------------|---------------|--------------------|-----------------|----------------------|-|-|-|-|-|-|-|-|
 |Inventory|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
-|Service||Yes|Yes|Yes|No|No|No|No|No|No|No|No|No|No|No|No|No|No|
 |Non-Inventory|Yes|Yes|Yes|Yes|No|Yes|No|Yes|No|No|No|No|No|No|No|No|No|
+|Service|Yes|Yes|Yes|Yes|No|No|No|No|No|No|No|No|No|No|No|No|No|
 
 > [!NOTE]
 > Items that you offer to your customers but you do not want manage in your system until you start selling them can be set up as catalog items. Catalog items are not to be mistaken with regular items of type **Non-Inventory**. For more information, see [Work with Catalog Items](inventory-how-work-catalog-items.md).

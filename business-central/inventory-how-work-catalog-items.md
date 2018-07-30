@@ -27,7 +27,7 @@ You can offer certain items to your customers for their convenience, which you d
 A catalog item typically has the item number of the vendor who supplies it. To enable conversion of a catalog item card to a normal item card, you must first set up how vendor item numbering is converted to your own item numbering.   
 
 > [!Important]
-> Catalog items are not to be mistaken with non-inventory items, which are managed item that carry the type **Non-Inventory** to keep it out of availability and costing calculations, for example, because it is used internally used and has a low cost. For more information, see [About Item Types](inventory-about-item-types.md).
+> Catalog items are not to be mistaken with non-inventory items, which are regular items of that carry the type **Non-Inventory** to keep them out of availability and costing calculations, for example, because they are only used internally and has a low cost. For more information, see [About Item Types](inventory-about-item-types.md).
 
 ## To create a catalog item
 Catalog item cards have much less information than normal item cards because you only use them to offer on quotes and in other ways. For that reason, they must be converted to normal item cards before you can post sales transactions for them.

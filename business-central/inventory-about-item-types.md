@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 07/30/2018
+ms.date: 07/31/2018
 ms.author: sgroespe
 
 ---
@@ -30,17 +30,17 @@ The **Service** and **Non-Inventory** types do not involve tracking of inventory
 
 The three item types support the following features respectively.
 
-|Item Type|Sales|Purchasing|Job Consumption|Service Consumption|Assembly Output|Assemply Consumption|Production Output|Production Consumption|Location Transfer|Physical Counting|Inventory Revaluation|Inventory Costing|Item Tracking|Reservation|Warehousing|Planning|
-|---------|---------|-----|----------|---------------|-------------------|---------------|--------------------|-----------------|----------------------|-|-|-|-|-|-|-|-|
-|Inventory|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
-|Non-Inventory|Yes|Yes|Yes|Yes|No|Yes|No|Yes|No|No|No|No|No|No|No|No|No|
-|Service|Yes|Yes|Yes|Yes|No|No|No|No|No|No|No|No|No|No|No|No|No|
+|Item Type|Sales|Purchasing|Job Consumption|Service Consumption|Assembly Consumption|Assemply Output|Production Consumption|Production Output|Location Transfer|Physical Counting|Inventory Revaluation|Inventory Costing|Item Tracking|Reservation|Warehousing|Planning|
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+|Inventory|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
+|Non-Inventory|Yes|Yes|Yes|Yes|Yes|No|Yes|No|No|No|No|No|No|No|No|No|
+|Service|Yes|Yes|Yes|Yes|No|No|No|No|No|No|No|No|No|No|No|No|
 
 > [!NOTE]
 > Items that you offer to your customers but you do not want manage in your system until you start selling them can be set up as catalog items. Catalog items are not to be mistaken with regular items of type Non-Inventory. For more information, see [Work with Catalog Items](inventory-how-work-catalog-items.md).
 
 > [!NOTE]
-> Customers' items that you perform service on, such as a printer, are called service items. Service items have nothing to do with regular or catalog items. However, service components can be regular items of type Non-Inventory or Service. For more information, see [Set Up Service Items and Service Item Components](service-how-setup-service-items.md). 
+> Customers' items that you perform service on, such as a printer, are called service items. Service items have nothing to do with regular or catalog items. However, service components can be regular items of type Non-Inventory or Service. For more information, see [Set Up Service Items and Service Item Components](service-how-setup-service-items.md).
 
 ## See Also
 [Register New Items](inventory-how-register-new-items.md)  

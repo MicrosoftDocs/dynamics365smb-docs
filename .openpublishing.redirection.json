@@ -1,0 +1,51 @@
+{
+  "redirections": [
+    {
+      "source_path": "financials/financials-requirements.md",
+      "redirect_url": "/dynamics365/business-central/product-requirements",
+      "redirect_document_id": true
+     },
+    {
+      "source_path": "financials/madeira-business-functionality.md",
+      "redirect_url": "/dynamics365/business-central/across-business-functionality",
+      "redirect_document_id": true
+     },
+    {
+      "source_path": "financials/madeira-cancel.md",
+      "redirect_url": "/dynamics365/business-central/admin-cancel",
+      "redirect_document_id": true
+     },
+    {
+      "source_path": "financials/madeira-how-setup-email.md",
+      "redirect_url": "/dynamics365/business-central/admin-how-setup-email",
+      "redirect_document_id": true
+     },
+    {
+      "source_path": "financials/madeira-news.md",
+      "redirect_url": "/dynamics365/business-central/product-news",
+      "redirect_document_id": true
+     },
+    {
+      "source_path": "financials/madeira-no-outlook.md",
+      "redirect_url": "/dynamics365/business-central/admin-no-outlook",
+      "redirect_document_id": true
+     },
+    {
+      "source_path": "financials/madeira-outlook.md",
+      "redirect_url": "/dynamics365/business-central/admin-outlook",
+      "redirect_document_id": true
+     },
+    {
+      "source_path": "financials/madeira-powerbi.md",
+      "redirect_url": "/dynamics365/business-central/admin-powerbi",
+      "redirect_document_id": true
+     },
+    {
+      "source_path": "financials/madeira-sell.md",
+      "redirect_url": "/dynamics365/business-central/product-sell",
+      "redirect_document_id": true
+     }    
+
+    ]
+
+}

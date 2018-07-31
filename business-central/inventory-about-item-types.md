@@ -30,10 +30,10 @@ The **Service** and **Non-Inventory** types do not involve tracking of inventory
 
 The three item types support the following features respectively.
 
-|Item Type|Sales|Purchasing|Job Consumption|Service Consumption|Assembly Consumption|Assemply Output|Production Consumption|Production Output|Location Transfer|Physical Counting|Inventory Revaluation|Inventory Costing|Item Tracking|Reservation|Warehousing|Planning|
+|Item Type|Sales|Purchasing|Job Consumption|Service Consumption|Assembly Consumption|Production Consumption|Assemply Output|Production Output|Location Transfer|Physical Counting|Inventory Revaluation|Inventory Costing|Item Tracking|Reservation|Warehousing|Planning|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 |Inventory|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
-|Non-Inventory|Yes|Yes|Yes|Yes|Yes|No|Yes|No|No|No|No|No|No|No|No|No|
+|Non-Inventory|Yes|Yes|Yes|Yes|Yes|Yes|Yes|No|No|No|No|No|No|No|No|No|
 |Service|Yes|Yes|Yes|Yes|No|No|No|No|No|No|No|No|No|No|No|No|
 
 > [!NOTE]

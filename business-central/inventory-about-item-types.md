@@ -34,7 +34,7 @@ The three item types support the following features respectively.
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 |Inventory|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
 |Non-Inventory|Yes|Yes|Yes|Yes|Yes|Yes|Yes|No|No|No|No|No|No|No|No|No|
-|Service|Yes|Yes|Yes|Yes|No|No|No|No|No|No|No|No|No|No|No|No|
+|Service|Yes|Yes|Yes|No|No|No|No|No|No|No|No|No|No|No|No|No|
 
 > [!NOTE]
 > Items that you offer to your customers but you do not want manage in your system until you start selling them can be set up as catalog items. Catalog items are not to be mistaken with regular items of type Non-Inventory. For more information, see [Work with Catalog Items](inventory-how-work-catalog-items.md).

@@ -29,7 +29,7 @@ This article answers common questions you might have about copying and pasting.
 To copy a single row, select it, and press Ctrl+C.
 
 If you want to copy more rows, you can:
--   Press Ctrl+Click on another row or press Shift+Click to select the row and all rows in between. See [Keyboard Shortcuts](keyboard-shortcuts.md#CopyRows) for more mouse and keyboard combinations to select more rows.
+-   Press Ctrl+Click on another row or press Shift+Click to select the row and all rows in between. See [Keyboard Shortcuts](keyboard-shortcuts.md#CopyRows) for more mouse and keyboard combinations for selecting rows.
 -   Select ![Show more options](media/show-more-options-icon.png "Show more options icon") in the first column of a row, choose **Select More**, select the check box next to each row that you want to copy, and then press Ctrl+C.
 
 ## How do I paste rows?

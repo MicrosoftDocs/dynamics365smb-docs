@@ -17,7 +17,7 @@ You can copy one or more rows from a list or a single field on a page, and then 
 
 There are several other keyboard shortcuts for copying and pasting that help you save time when entering data. For more information about these, see [Keyboard Shortcuts](keyboard-shortcuts.md#CopyRows).
 
-This article will try to answer some questions you might have about copying and pasting.  
+This article answers common questions you might have about copying and pasting.  
 
 ## What can I copy and paste?
 -   Copy one or more rows in [!INCLUDE[d365fin](includes/d365fin_md.md)] to the same list, or to any list with identical columns.
@@ -29,7 +29,7 @@ This article will try to answer some questions you might have about copying and 
 To copy a single row, select it, and press Ctrl+C.
 
 If you want to copy more rows, you can:
--   Press Ctrl+Click on another row or press Shift+Click to select the row and all rows in between.
+-   Press Ctrl+Click on another row or press Shift+Click to select the row and all rows in between. See [Keyboard Shortcuts](keyboard-shortcuts.md#CopyRows) for more mouse and keyboard combinations for selecting rows.
 -   Select ![Show more options](media/show-more-options-icon.png "Show more options icon") in the first column of a row, choose **Select More**, select the check box next to each row that you want to copy, and then press Ctrl+C.
 
 ## How do I paste rows?
@@ -51,10 +51,10 @@ In some pages, the application design may prevent you from pasting of rows. Cont
 ## On which clients is copy and paste available?
 Copy and paste are available in the browser or the [!INCLUDE[d365fin](includes/d365fin_md.md)] app for Windows 10.
 
-## What is the maximum number rows that can be copied?
+## What is the maximum number of rows that can be copied?
 You can copy as many rows as you have scrolled into view. For example, to copy all 1000 rows in a page, you must first scroll to the bottom of the page and wait for the rows to appear before copying. The maximum number of rows you can copy is only limited by the memory of your device.
 
-## Do I have the exact same number of columns when pasting rows?
+## Must I have the exact same number of columns when pasting rows?
 Yes. Whether you are copying from [!INCLUDE[d365fin](includes/d365fin_md.md)], from Excel, or from some other table source, the rows that you paste must have the exact matching columns - no more no less.
 
 ## Why do I get errors when pasting rows? 

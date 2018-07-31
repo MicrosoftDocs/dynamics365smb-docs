@@ -12,7 +12,7 @@ ms.date: 07/17/2018
 ms.author: jswymer
 
 ---
-# Searching, Filtering, and Sorting Data
+# Sorting, Searching, and Filtering Lists
 There are a few things that you can do that will help you scan, find, and limit records in a list. These include sorting, searching and filtering.
 
 <!-- 
@@ -22,71 +22,94 @@ When you want to search for data, such as customer names, addresses, or product 
 ## Sorting
 Sorting makes it easy for you to get a quick overview of your data. If you have many customers, for example, you can choose to sort them by **Customer No.**, **Customer Posting Group**, **Currency Code**, **Country Region Code**, or **Sales Tax Registration No.** to get the overview you need.
 
-To sort a list, you can either choose a column heading text to toggle between ascending and descending order, or choose the small downs arrow in the column heading, and then choose **Ascending** or **Descending**.  
+To sort a list, you can either choose a column heading text to toggle between ascending and descending order, or choose the small down arrow in the column heading, and then choose **Ascending** or **Descending**.  
 
 > [!NOTE]  
 >   Sorting is not supported images, BLOB fields, FlowFilters, and fields that do not belong to a table.  
 
 ## Searching
 <!--## Searching by using the Quick Filter -->
-Searching provides a quick way to reduce the number of records that display in a list to only those that you are interested in. When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
+At the top of each list page, there is a ![Search list](media/ui-search/search-list.png "Search list icon") **Search** icon that provides a quick and easy way to reduce the records in a list and display only those records that contain the data that you are interested in seeing.
 
-You can add filters to all pages by using the Quick Filter. The Quick Filter is enabled by choosing the magnifier icon in the top right corner of a page. This filtering type is used for a fast entry of criteria.
+To search, simply select the search icon, and then in the box, type the text that you are looking for. You can enter letters, numbers, and characters.
 
-> [!IMPORTANT]  
->   The Quick Filter provides an easy access to filter data by entering plain text, but does also provide a lot of search criteria options. Depending on whether you enter plain text or text including symbols, the Quick Filter behaves differently.  
+### Fine-tune the search
+In general, search goes across all columns in all rows to find fields that include the text that you provide. It does not distinguish between uppercase and lowercase characters (in other words, case insensitive). 
+
+But there are a few special characters that you can use to make a more exact search: 
+
+- To find only field values that match the entire text and case exactly, place the search text between single quotes `''` (for example, `'man'`).  
+- To find field values that start with certain text and match the case, place `*` after the search text (for example `man*`). 
+- To find field values that end with a certain text and match the case, place `*` before the search text (for example `*man`). 
+- When using these special characters, if you want to make the search case insensitive, place **@** before the search text (for example `@man*`). 
+
+The following table will help explain the search through examples.
+   
+
+<!--
+In search criteria you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.-->
+
+<!--
+The Quick Filter provides an easy access to filter data by entering plain text, but does also provide a lot of search criteria options. Depending on whether you enter plain text or text including symbols, the Quick Filter behaves differently.  
 
 * If you enter plain text in the search criteria, the search criteria is interpreted as a case insensitive search that contains certain text.  
 * If you enter text including symbols in the search criteria, the search criteria is interpreted exactly as you entered it, and the search is case sensitive.
+-->
+<!--
+
+|Search Criteria|Interpreted as...|Finds...|
+|---------------|----------------|----------|
+|`man`<br />or <br />`Man`|Contains the text; case insensitive|All records with fields that contain the text **man**, regardless of the case.|
+|`'Man'`|Entire text match; case sensitive.|All records with fields that only contain **Man** exactly.|
+|`Man*`|Starts with the text; case sensitive.|All records with fields that start with the text <b>Man</b> exactly.|
+|`@Man*`|Starts with the text; case insensitive.|All records with fields that start with **man**, regardless of the case.|
+|`@*man`|Ends with the text; case insensitive.|All records that end with **man**, regardless of the case.|
+-->
+
+|Search Criteria|Finds...|
+|---------------|----------|
+|`man`<br />or <br />`Man`|All records with fields that contain the text **man**, regardless of the case. For example, **Manchester**, **manual**, or **Sportsman**. |
+|`'Man'`|All records with fields that contain only **Man**, matching the case.|
+|`Man*`|All records with fields that start with the text <b>Man</b>, matching the case. For example, **Manchester** but not **manual** or **Sportsman**.|
+|`@Man*`|All records with fields that start with **man**, regardless of the case. For example, **Manchester** and **manual**, but not **Sportsman**.|
+|`@*man`|All records that end with **man**, regardless of the case. For example **Sportsman**, but not **Manchester** or **manual**.|
+
+## Filtering
+Filtering provides an more advanced and versatile way of controlling which records display in a list. Unlike search, which works across columns, filtering is column-based. It enables you to display records for specific accounts or customers, dates, amounts, and other information by specifying criteria for fields in a column. Only records that match the criteria are displayed. If you specify criteria for multiple fields, then records must match all criteria will be displayed.
+
+### Filter directly from a column heading
+You can add or clear a filter directly from the column heading in a list.
+
+To add a filter, do one of the following:
+
+- Move focus to a field that contains a value that you want to filter on. Go to the column heading, choose the down arrow, and then **Filter on This Value**.
+
+  This will display only records that have the same value as the focused field. 
+
+- In the column heading, and choose **Filter...**.
+
+  This will open the filter pane on the left, where you can add the filter criteria for the field associated with the column. For more information, see [Filter citeria](#FilterCriteria).
+
+Columns that aready have filters are indicated by the ![Filter icon](media/ui-search/filter-icon.png "Filter icon") in the column heading. To remove a filter, seletc the columns heading, then choose **Clear Filter**.
+
+### Filtering from the filter pane
+
+### Tips for improving filter results
+
+To improve your filter results, consider the following strategies:
+
+- Understand where and how filters persist. Filters are page dependent. If you apply a filter on one list and switch to a different list, then the filter is not applied there. The filter persists on the list where you set it until you clear it or specify new criteria.
+
+- Only enter meaningful filters. For example, you can specify an interval that does not exist and cannot be verified. To enter meaningful filters, you must know the sorting rules that are used.
+
+- Check your filters by occasionally opening the filter pane. In the Application menu, choose Customize, and then choose Filter Pane to see an overview of all filters that have been applied. To remove all filters on a page, choose the page title drop-down arrow, and then choose Clear Filter. Note that this also cancels a default list view, such as that set for Sales Orders - Open.
+
+The following procedures show the different filtering methods for filtering data that uses the CRONUS International Ltd. demonstration database.
 
 
-When filtering text data, Excel doesn't distinguish between uppercase and lowercase characters.
-
-### Quick filter criteria
-<!-- html syntax because symbols conflict with MarkDown syntax -->
-<TABLE>
-  <TR>
-    <TH>Search Criteria</TH>
-    <TH>Interpreted as...</TH>
-    <TH>Returns...</TH>
-  </TR>
-  <TR>
-    <TD>man</TD>
-    <TD>@&#42;man&#42;</TD>
-    <TD>All records that contain the text <b>man</b> and case insensitive.</TD>
-  </TR>
-  <TR>
-    <TD>se</TD>
-    <TD>@&#42;se&#42;</TD>
-    <TD>All records that contain the text <b>se</b> and case insensitive.</TD>
-  </TR>
-  <TR>
-    <TD>Man&#42;</TD>
-    <TD>Starts with <b>Man</b> and case sensitive.</TD>
-    <TD>All records that start with the text <b>Man</b>.</TD>
-  </TR>
-  <TR>
-    <TD>'man'</TD>
-    <TD>An exact text and case sensitive.</TD>
-    <TD>All records that match <b>man</b> exactly.</TD>
-  </TR>
-  <TR>
-    <TD>@man* </TD>
-    <TD>Starts with and case insensitive.</TD>
-    <TD>All records that start with <b>man</b>.</TD>
-  </TR>
-    <TR>
-    <TD>@&#42;man</TD>
-    <TD>Ends with and case insensitive.</TD>
-    <TD>All records that end with <b>man</b>.</TD>
-  </TR>
-</TABLE>
-
-> [!NOTE]  
->   You cannot use a wildcard when filtering on enumeration fields, such as the **Status** field on sales orders. To enter a filter for this type of field, you can enter the numeric value as a filtering parameter. For example, in the **Status** field on a sales order that has the values **Open**, **Released**, **Pending Approval**, and **Pending Prepayment**, use the values **0**, **1**, **2**, and **3** to filter for these options. 
-
-## Searching by using column Filters
+<!--
 You can add a filter on one or more columns in a list. Filtering on columns is more flexible and enhanced than the Quick Filter. 
+-->
 
 ### To add a filter on a column
 1.  Before you add a filter, choose ![Show as list](media/ui_show_as_list_icon.png "Show as list arrow left") icon to change to the list view.
@@ -96,9 +119,14 @@ You can add a filter on one or more columns in a list. Filtering on columns is m
   -  Enter filter criteria in the box. See the next section for details.
 4. Choose the **OK** button.
 
-## Filter criteria and symbols
+## <a name="FilterCriteria"> </a>Filter criteria and symbols
 When you enter criteria, you can use all the numbers and letters that you can normally use in the field. In addition, you can use special symbols to further filter the results. The following tables show the symbols which can be used in filters.  
-  
+
+> [!NOTE]  
+>   You cannot use a wildcard when filtering on enumeration fields, such as the **Status** field on sales orders. To enter a filter for this type of field, you can enter the numeric value as a filtering parameter. For example, in the **Status** field on a sales order that has the values **Open**, **Released**, **Pending Approval**, and **Pending Prepayment**, use the values **0**, **1**, **2**, and **3** to filter for these options. 
+
+
+
 > [!IMPORTANT]  
 >  There may be instances where field values contain these symbols and you want to filter on them. To do this, you must include the filter expression that contains the symbol in quotation marks (''). For example, if you want to filter on records that start with the text *S&R*, the filter expression is **'S&R*'**.  
   
@@ -189,6 +217,7 @@ When you enter criteria, you can use all the numbers and letters that you can no
 |5999&#124;8100..8490|Include any records with the number 5999 or a number from the interval 8100 through 8490.|  
 |..1299&#124;1400..|Include records with a number less than or equal to 1299 or a number equal to 1400 or greater (all numbers except 1300 through 1399).|  
 |>50&<100|Include records with numbers that are greater than 50 and less than 100 (numbers 51 through 99).|  
+ 
  
 ## See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

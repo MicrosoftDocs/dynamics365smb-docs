@@ -4,7 +4,6 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    redirect_url: warehouse-manage-warehouse
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -12,6 +11,7 @@
     ms.search.keywords:
     ms.date: 09/18/2017
     ms.author: sgroespe
+    ms.redirect_url: warehouse-manage-warehouse
 
 ---
 # Enable Automated Data Capture Systems (ADCS)

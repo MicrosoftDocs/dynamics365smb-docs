@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 09/18/2017
+    ms.date: 08/01/2018
     ms.author: sgroespe
     ms.redirect_url: warehouse-manage-warehouse
 

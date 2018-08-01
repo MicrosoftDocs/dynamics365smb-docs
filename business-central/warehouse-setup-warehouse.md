@@ -36,7 +36,7 @@ A company's distribution strategy is reflected in the configuration of its wareh
 |Define when and how items in warehouse locations are counted for maintenance or financial reporting purposes.|[Count, Adjust, or Reclassify Inventory](inventory-how-count-adjust-reclassify.md)|
 |Enable warehouse workers to break a larger unit of measure into smaller units of measure to fulfill the needs of source documents.|[Enable Automatic Breaking Bulk with Directed Put-away and Pick](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)|  
 |Set up the warehouse to automatically suggest items to be picked that expire first.|[Enable Picking by FEFO](warehouse-picking-by-fefo.md)|
-|Integrate bar code readers to your warehouse management solution.|[Use Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)|  
+<!-- |Integrate bar code readers to your warehouse management solution.|[Use Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)| -->  
 |Get tips on how to reorganize locations, bins, or zones to obtain more efficient warehouse activities.|[Restructure Warehouses](warehouse-how-to-restructure-warehouses.md)|  
 
 ## See Also  

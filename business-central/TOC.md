@@ -110,7 +110,6 @@
 ### [Count, Adjust, or Reclassify Inventory](inventory-how-count-adjust-reclassify.md)
 ### [Enable Automatic Breaking Bulk with Directed Put-away and Pick](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)
 ### [Enable Picking by FEFO](warehouse-picking-by-fefo.md)
-### <!-- [Enable Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md) -->
 ### [Restructure Warehouses](warehouse-how-to-restructure-warehouses.md)
 ## [Setting Up Manufacturing](production-configure-production-processes.md)
 ### [Create Work Center Calendars](production-how-to-create-work-center-calendars.md)

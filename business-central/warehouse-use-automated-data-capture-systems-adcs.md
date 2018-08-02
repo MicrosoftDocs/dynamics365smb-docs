@@ -11,8 +11,7 @@
     ms.search.keywords:
     ms.date: 08/01/2018
     ms.author: sgroespe
-    redirect_url: warehouse-manage-warehouse
-
+    redirect_url: /dynamics365/business-central/warehouse-manage-warehouse
 ---
 # Enable Automated Data Capture Systems (ADCS)
 You can use your automatic data capture system (ADCS) to register the movement of items in the warehouse and to register some journal activities, such as quantity adjustments in the warehouse item journal and physical inventories.  

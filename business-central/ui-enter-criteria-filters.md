@@ -89,11 +89,9 @@ Filtering provides an more advanced and versatile way of controlling which recor
 
       This will open the filter pane on the left, where you can add the filter criteria for the field associated with the column. For more information, see [Filter citeria](#FilterCriteria).
 
-    - If the list is displayed with the Role Center, choose the down arrow near the page title in the navigation bar above the list, and then choose **Show filter pane**.
+    - If the list is displayed within the Role Center, choose the down arrow near the page title in the navigation bar above the list, and then choose **Show filter pane**.
 
-      ![Show filter pane](media/open-filter-pane.png "Show filter pane")
-
-3. In the filter pane, enter the filter criteria the field box that displays or choose **Filter...** to add a new filter on a field. 
+      ![Show filter pane](media/open-filter-pane.png "Show filter pane") 
 
 > [!TIP]
 > Columns that aready have filters are indicated by the ![Filter icon](media/ui-search/filter-icon.png "Filter icon") in the column heading. To remove a filter, select the columns heading, then choose **Clear Filter**.
@@ -103,19 +101,25 @@ The filter pane enables you to set filters on one or more fields. The following 
 
 ![Filter pane overview ](media/filter-pane-overview.png "Filter icon")
 
-A filter pane is divided in three areas: **Views**, **Filter list by**, and Filter total by.
+A filter pane is divided in three sections: **Views**, **Filter list by**, and **Filter totals by**.
 
 - **Views**
 
-  Views are variations of the list that have been preconfigured with filters. To switch the view, simply select another link. You can temporarily change the filters on a view, but the changes will not be saved.
+  Views are variations of the list that have been preconfigured with filters. To switch the view, simply select another link. You can temporarily change the filters on a view, but the changes will not be saved. Note that not all lists include views.
 
 - **Filter list by**
 
-  The **Filter list by** section is where you add filters on specific fields. To add a filter, select **+ Filter...**, select the field that you want to filter, and then add the filter criteria in the box.
+  The **Filter list by** section is where you add filters on specific fields. To add a filter, select **+ Filter**, select the field that you want to filter, and then add the filter criteria in the box.
 
 - **Filter totals by**
 
-  The **Filter totals by** section enables you to filter on 
+  The **Filter totals by** section is where you  can add filters on fields that are calculated from different tables, such as amounts and quantities. For example, for sales orders it lets you see total amounts for a specific period of time or from a specific warehouse. The filters that you can choose from are predefined.
+
+  To add a filter, select **+ Filter**, and select the filter, and then add the crtiria in the box. 
+
+  > [!TIP]
+  > Filters in the **Filter totals by** section are controlled by FlowFilters in the page design. For more inforamation, see [FlowFilters](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview)
+
 
 
 

@@ -120,7 +120,7 @@ A filter pane is divided in three sections: **Views**, **Filter list by**, and *
 
   The **Filter totals by** section is where you  can add filters on fields that are calculated from different tables, such as amounts and quantities. For example, for sales orders it lets you see total amounts for a specific period of time or from a specific warehouse. The filters that you can choose from are predefined.
 
-  To add a filter, select **+ Filter**, and select the filter, and then add the crtiria in the box. 
+  To add a filter, select **+ Filter**, and select the filter, and then add the criteria in the box. 
 
   > [!NOTE]
   > Filters in the **Filter totals by** section are controlled by FlowFilters in the page design. For more inforamation, see [FlowFilters](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview)

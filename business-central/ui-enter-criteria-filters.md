@@ -43,7 +43,7 @@ But there are a few special characters that you can use to make a more exact sea
 - To find field values that end with a certain text and match the case, place `*` before the search text (for example `*man`). 
 - When using these special characters, if you want to make the search case insensitive, place **@** before the search text (for example `@man*`). 
 
-The following table will help explain the search through examples.
+The following table explains the search by giving you examples.
    
 
 <!--
@@ -90,6 +90,10 @@ You can add or clear a filter directly from the column heading in a list.
 
       This will open the filter pane on the left, where you can add the filter criteria for the field associated with the column. For more information, see [Filter citeria](#FilterCriteria).
 
+    - If the list is displayed with the Role Center, choose the down arrow near the page title in the navigation bar above the list, and then choose **Show filter pane**.
+
+      ![Show filter pane](media/open-filter-pane.png "Show filter pane")
+
 Columns that aready have filters are indicated by the ![Filter icon](media/ui-search/filter-icon.png "Filter icon") in the column heading. To remove a filter, select the columns heading, then choose **Clear Filter**.
 
 ### Filtering from the filter pane
@@ -117,7 +121,7 @@ You can add a filter on one or more columns in a list. Filtering on columns is m
 -->
 
 ### To add a filter on a column
-
+1. To open the filter pane, 
 2. Choose the downwards arrow in the column heading, and then choose **Filter**.
 3. Do one of the following: 
   -  Choose *...* next to the box to select a value from a list.
@@ -129,8 +133,6 @@ When you enter criteria, you can use all the numbers and letters that you can no
 
 > [!NOTE]  
 >   You cannot use a wildcard when filtering on enumeration fields, such as the **Status** field on sales orders. To enter a filter for this type of field, you can enter the numeric value as a filtering parameter. For example, in the **Status** field on a sales order that has the values **Open**, **Released**, **Pending Approval**, and **Pending Prepayment**, use the values **0**, **1**, **2**, and **3** to filter for these options. 
-
-
 
 > [!IMPORTANT]  
 >  There may be instances where field values contain these symbols and you want to filter on them. To do this, you must include the filter expression that contains the symbol in quotation marks (''). For example, if you want to filter on records that start with the text *S&R*, the filter expression is **'S&R*'**.  
@@ -201,7 +203,7 @@ When you enter criteria, you can use all the numbers and letters that you can no
 |-----------------------|-----------------------|  
 |@man*|Text that starts with man and is case insensitive.|  
   
-### (*) An indefinite number of unknown characters  
+### (*) An indefinite number of unknown characters 
   
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  

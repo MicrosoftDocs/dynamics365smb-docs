@@ -86,9 +86,7 @@ When setting a date field, you can either enter the date manually or open a cale
 |Ctrl+End<br />(Cmd+End)|Close the calendar and delete current the date.|
 |Esc|Close the calendar without a selection, keep current date.|
 
-
 ## Keyboard Shortcuts in the Report Preview
-
 |Press these keys<br />(in macOS)|To do this|
 |-----------------|-------|
 |Down Arrow|Scroll down the page.|  
@@ -100,6 +98,19 @@ When setting a date field, you can either enter the date manually or open a cale
 |Ctrl+End<br />(Cmd+Home)|Go to the last page of the report.|
 |Page Down<br />(Fn+Down Arrow)|Go to the next page of the report.|
 |Page Upbr />(Fn+Up Arrow)|Go to the previous page of the report.|
+
+## <a name="KeyboardFilter"></a> Keyboard Shortcuts for Searching and Filtering Lists
+
+
+|Press these keys<br />(in macOS)|To do this|
+|-----------------|-------|
+|F3|Activate the search box, so that you can start typing your search text.|  
+|Shift+F3|Opens and closes the filter pane. If the filter pane is not open, F3 opens it and focuses on the **+ Filter** action under **Filter list by**, which lets you just hit Enter to start adding a field filter. If the filter pane is open, F3 closes it but does not clear any filters that you have added.|
+|Shift+Ctrl+F3|Opens and closes the filter pane. If the filter pane is not open, F3 opens it and focuses on the **+ Filter** action indder **Filter total by**, which lets you just hit Enter to start adding a totals filter. If the filter pane is open, F3 closes it but does not clear any filters that you have added.  |
+|Alt+F3| |
+|Shift+Alt+F3||
+|Ctrl+Shift+Alt+F3||
+|Ctrl+Enter||
 
 
 <!--

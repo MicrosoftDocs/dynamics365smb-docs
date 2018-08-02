@@ -77,6 +77,9 @@ The Quick Filter provides an easy access to filter data by entering plain text, 
 |`@Man*`|All records with fields that start with **man**, regardless of the case. For example, **Manchester** and **manual**, but not **Sportsman**.|
 |`@*man`|All records that end with **man**, regardless of the case. For example **Sportsman**, but not **Manchester** or **manual**.|
 
+> [!TIP]
+> You can press F3 to activate and deactivate the search box. For for information see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter). 
+
 ## Filtering
 Filtering provides an more advanced and versatile way of controlling which records display in a list. Unlike search, which works across columns, filtering is column-based. It enables you to display records for specific accounts or customers, dates, amounts, and other information by specifying criteria for fields of a column. Only records that match the criteria are displayed. If you specify criteria for multiple fields, then only records that match all criteria will be displayed.
 
@@ -96,8 +99,7 @@ Filtering provides an more advanced and versatile way of controlling which recor
 
       ![Show filter pane](media/open-filter-pane.png "Show filter pane") 
 
-> [!TIP]
-> Columns that aready have filters are indicated by the ![Filter icon](media/ui-search/filter-icon.png "Filter icon") in the column heading. To remove a filter, select the columns heading, then choose **Clear Filter**.
+Columns that aready have filters are indicated by the ![Filter icon](media/ui-search/filter-icon.png "Filter icon") in the column heading. To remove a filter, select the columns heading, then choose **Clear Filter**.
 
 ### Working in the filter pane
 The filter pane enables you to set filters on one or more fields. The following figure shows an example filter pane for a Sales Quotes list.
@@ -120,7 +122,7 @@ A filter pane is divided in three sections: **Views**, **Filter list by**, and *
 
   To add a filter, select **+ Filter**, and select the filter, and then add the crtiria in the box. 
 
-  > [!TIP]
+  > [!NOTE]
   > Filters in the **Filter totals by** section are controlled by FlowFilters in the page design. For more inforamation, see [FlowFilters](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview)
 
 

@@ -80,23 +80,25 @@ Filtering provides an more advanced and versatile way of controlling which recor
 ### Filter directly from a column heading
 You can add or clear a filter directly from the column heading in a list. 
 
-To add a filter, do one of the following:
+1.  Before you add a filter, choose ![Show as list](media/ui_show_as_list_icon.png "Show as list arrow left") icon to change to the list view.
+2. To add a filter, do one of the following:
+    - Move focus to a field that contains a value that you want to filter on. Go to the column heading, choose the down arrow, and then **Filter on This Value**.
 
-- Move focus to a field that contains a value that you want to filter on. Go to the column heading, choose the down arrow, and then **Filter on This Value**.
+      This will display only records that have the same value as the focused field. 
 
-  This will display only records that have the same value as the focused field. 
+    - In the column heading, and choose **Filter...**.
 
-- In the column heading, and choose **Filter...**.
+      This will open the filter pane on the left, where you can add the filter criteria for the field associated with the column. For more information, see [Filter citeria](#FilterCriteria).
 
-  This will open the filter pane on the left, where you can add the filter criteria for the field associated with the column. For more information, see [Filter citeria](#FilterCriteria).
-
-Columns that aready have filters are indicated by the ![Filter icon](media/ui-search/filter-icon.png "Filter icon") in the column heading. To remove a filter, seletc the columns heading, then choose **Clear Filter**.
+Columns that aready have filters are indicated by the ![Filter icon](media/ui-search/filter-icon.png "Filter icon") in the column heading. To remove a filter, select the columns heading, then choose **Clear Filter**.
 
 ### Filtering from the filter pane
-The 
+The filter pane enables you to set filter on multiple fields. 
 
 
 
+
+<!-- 
 ### Tips for improving filter results
 
 To improve your filter results, consider the following strategies:
@@ -108,14 +110,14 @@ To improve your filter results, consider the following strategies:
 - Check your filters by occasionally opening the filter pane. In the Application menu, choose Customize, and then choose Filter Pane to see an overview of all filters that have been applied. To remove all filters on a page, choose the page title drop-down arrow, and then choose Clear Filter. Note that this also cancels a default list view, such as that set for Sales Orders - Open.
 
 The following procedures show the different filtering methods for filtering data that uses the CRONUS International Ltd. demonstration database.
-
+-->
 
 <!--
 You can add a filter on one or more columns in a list. Filtering on columns is more flexible and enhanced than the Quick Filter. 
 -->
 
 ### To add a filter on a column
-1.  Before you add a filter, choose ![Show as list](media/ui_show_as_list_icon.png "Show as list arrow left") icon to change to the list view.
+
 2. Choose the downwards arrow in the column heading, and then choose **Filter**.
 3. Do one of the following: 
   -  Choose *...* next to the box to select a value from a list.

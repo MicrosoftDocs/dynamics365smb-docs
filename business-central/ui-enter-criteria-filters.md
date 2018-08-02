@@ -36,14 +36,17 @@ To search, simply select the search icon, and then in the box, type the text tha
 ### Fine-tune the search
 In general, search goes across all columns in all rows to find fields that include the text that you provide. It does not distinguish between uppercase and lowercase characters (in other words, case insensitive). 
 
-But there are a few special characters that you can use to make a more exact search: 
+However, you make a more exact search by using the following special characters:
 
-- To find only field values that match the entire text and case exactly, place the search text between single quotes `''` (for example, `'man'`).  
+- To find only field values that match the entire text and case exactly, place the search text between single quotes `''` (for example, `'man'`).
+
 - To find field values that start with a certain text and match the case, place `*` after the search text (for example `man*`). 
-- To find field values that end with a certain text and match the case, place `*` before the search text (for example `*man`). 
-- When using these special characters, if you want to make the search case insensitive, place **@** before the search text (for example `@man*`). 
 
-The following table explains the search by giving you examples.
+- To find field values that end with a certain text and match the case, place `*` before the search text (for example `*man`).
+
+- When using  `''` or `*`, the search is case sensitive. If you want to make the search case insensitive, place `@` before the search text (for example `@man*`). 
+
+The following table provides some examples to explain how you can use the search.
    
 
 <!--
@@ -75,7 +78,7 @@ The Quick Filter provides an easy access to filter data by entering plain text, 
 |`@*man`|All records that end with **man**, regardless of the case. For example **Sportsman**, but not **Manchester** or **manual**.|
 
 ## Filtering
-Filtering provides an more advanced and versatile way of controlling which records display in a list. Unlike search, which works across columns, filtering is column-based. It enables you to display records for specific accounts or customers, dates, amounts, and other information by specifying criteria for fields of a column. Only records that match the criteria are displayed. If you specify criteria for multiple fields, then records must match all criteria will be displayed.
+Filtering provides an more advanced and versatile way of controlling which records display in a list. Unlike search, which works across columns, filtering is column-based. It enables you to display records for specific accounts or customers, dates, amounts, and other information by specifying criteria for fields of a column. Only records that match the criteria are displayed. If you specify criteria for multiple fields, then only records that match all criteria will be displayed.
 
 ### Add filters on fields
 
@@ -97,15 +100,15 @@ Filtering provides an more advanced and versatile way of controlling which recor
 > Columns that aready have filters are indicated by the ![Filter icon](media/ui-search/filter-icon.png "Filter icon") in the column heading. To remove a filter, select the columns heading, then choose **Clear Filter**.
 
 ### Working in the filter pane
-The filter pane enables you to set filters on one or more fields. The following figure shows an example filter pane for a Sales Quotes lis
+The filter pane enables you to set filters on one or more fields. The following figure shows an example filter pane for a Sales Quotes list.
 
 ![Filter pane overview ](media/filter-pane-overview.png "Filter icon")
 
-A filter pane is divided in three sections: **Views**, **Filter list by**, and **Filter totals by**.
+A filter pane is divided in three sections: **Views**, **Filter list by**, and **Filter totals by**:
 
 - **Views**
 
-  Views are variations of the list that have been preconfigured with filters. To switch the view, simply select another link. You can temporarily change the filters on a view, but the changes will not be saved. Note that not all lists include views.
+  Some lists will include the **Views** section. Views are variations of the list that have been preconfigured with filters. To switch the view, simply select another link. You can temporarily change the filters on a view, but the changes will not be saved.
 
 - **Filter list by**
 
@@ -119,10 +122,6 @@ A filter pane is divided in three sections: **Views**, **Filter list by**, and *
 
   > [!TIP]
   > Filters in the **Filter totals by** section are controlled by FlowFilters in the page design. For more inforamation, see [FlowFilters](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview)
-
-
-
-
 
 
 <!-- 
@@ -156,8 +155,6 @@ You can add a filter on one or more columns in a list. Filtering on columns is m
 ## <a name="FilterCriteria"> </a>Filter criteria and symbols
 When you enter criteria, you can use all the numbers and letters that you can normally use in the field. In addition, you can use special symbols to further filter the results. The following tables show the symbols which can be used in filters.  
 
-> [!NOTE]  
->   You cannot use a wildcard when filtering on enumeration fields, such as the **Status** field on sales orders. To enter a filter for this type of field, you can enter the numeric value as a filtering parameter. For example, in the **Status** field on a sales order that has the values **Open**, **Released**, **Pending Approval**, and **Pending Prepayment**, use the values **0**, **1**, **2**, and **3** to filter for these options. 
 
 > [!IMPORTANT]  
 >  There may be instances where field values contain these symbols and you want to filter on them. To do this, you must include the filter expression that contains the symbol in quotation marks (''). For example, if you want to filter on records that start with the text *S&R*, the filter expression is **'S&R*'**.  
@@ -235,6 +232,9 @@ When you enter criteria, you can use all the numbers and letters that you can no
 |*Co*|Text that contains "Co" and is case sensitive.|  
 |*Co|Text that ends with "Co" and is case sensitive.|  
 |Co*|Text that begins with "Co" and is case sensitive.|  
+
+> [!NOTE]  
+>   You cannot use * when filtering on option (enumeration) fields, such as the **Status** field on sales orders. To enter a filter for this type of field, you can enter the numeric value as a filtering parameter. For example, in the **Status** field on a sales order that has the values **Open**, **Released**, **Pending Approval**, and **Pending Prepayment**, use the values **0**, **1**, **2**, and **3** to filter for these options. 
   
 ### (?) One unknown character  
   

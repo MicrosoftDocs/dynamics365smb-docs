@@ -39,7 +39,7 @@ In general, search goes across all columns in all rows to find fields that inclu
 But there are a few special characters that you can use to make a more exact search: 
 
 - To find only field values that match the entire text and case exactly, place the search text between single quotes `''` (for example, `'man'`).  
-- To find field values that start with certain text and match the case, place `*` after the search text (for example `man*`). 
+- To find field values that start with a certain text and match the case, place `*` after the search text (for example `man*`). 
 - To find field values that end with a certain text and match the case, place `*` before the search text (for example `*man`). 
 - When using these special characters, if you want to make the search case insensitive, place **@** before the search text (for example `@man*`). 
 
@@ -75,10 +75,10 @@ The Quick Filter provides an easy access to filter data by entering plain text, 
 |`@*man`|All records that end with **man**, regardless of the case. For example **Sportsman**, but not **Manchester** or **manual**.|
 
 ## Filtering
-Filtering provides an more advanced and versatile way of controlling which records display in a list. Unlike search, which works across columns, filtering is column-based. It enables you to display records for specific accounts or customers, dates, amounts, and other information by specifying criteria for fields in a column. Only records that match the criteria are displayed. If you specify criteria for multiple fields, then records must match all criteria will be displayed.
+Filtering provides an more advanced and versatile way of controlling which records display in a list. Unlike search, which works across columns, filtering is column-based. It enables you to display records for specific accounts or customers, dates, amounts, and other information by specifying criteria for fields of a column. Only records that match the criteria are displayed. If you specify criteria for multiple fields, then records must match all criteria will be displayed.
 
 ### Filter directly from a column heading
-You can add or clear a filter directly from the column heading in a list.
+You can add or clear a filter directly from the column heading in a list. 
 
 To add a filter, do one of the following:
 
@@ -93,6 +93,9 @@ To add a filter, do one of the following:
 Columns that aready have filters are indicated by the ![Filter icon](media/ui-search/filter-icon.png "Filter icon") in the column heading. To remove a filter, seletc the columns heading, then choose **Clear Filter**.
 
 ### Filtering from the filter pane
+The 
+
+
 
 ### Tips for improving filter results
 

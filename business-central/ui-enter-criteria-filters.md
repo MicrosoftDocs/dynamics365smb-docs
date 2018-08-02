@@ -77,16 +77,15 @@ The Quick Filter provides an easy access to filter data by entering plain text, 
 ## Filtering
 Filtering provides an more advanced and versatile way of controlling which records display in a list. Unlike search, which works across columns, filtering is column-based. It enables you to display records for specific accounts or customers, dates, amounts, and other information by specifying criteria for fields of a column. Only records that match the criteria are displayed. If you specify criteria for multiple fields, then records must match all criteria will be displayed.
 
-### Filter directly from a column heading
-You can add or clear a filter directly from the column heading in a list. 
+### Add filters on fields
 
-1.  Before you add a filter, choose ![Show as list](media/ui_show_as_list_icon.png "Show as list arrow left") icon to change to the list view.
+1.  Before you add filters, choose ![Show as list](media/ui_show_as_list_icon.png "Show as list arrow left") icon to change to the list view.
 2. To add a filter, do one of the following:
     - Move focus to a field that contains a value that you want to filter on. Go to the column heading, choose the down arrow, and then **Filter on This Value**.
 
       This will display only records that have the same value as the focused field. 
 
-    - In the column heading, and choose **Filter...**.
+    - In a column heading, choose the down arrow, and then choose **Filter...**.
 
       This will open the filter pane on the left, where you can add the filter criteria for the field associated with the column. For more information, see [Filter citeria](#FilterCriteria).
 
@@ -94,10 +93,30 @@ You can add or clear a filter directly from the column heading in a list.
 
       ![Show filter pane](media/open-filter-pane.png "Show filter pane")
 
-Columns that aready have filters are indicated by the ![Filter icon](media/ui-search/filter-icon.png "Filter icon") in the column heading. To remove a filter, select the columns heading, then choose **Clear Filter**.
+3. In the filter pane, enter the filter criteria the field box that displays or choose **Filter...** to add a new filter on a field. 
 
-### Filtering from the filter pane
-The filter pane enables you to set filter on multiple fields. 
+> [!TIP]
+> Columns that aready have filters are indicated by the ![Filter icon](media/ui-search/filter-icon.png "Filter icon") in the column heading. To remove a filter, select the columns heading, then choose **Clear Filter**.
+
+### Working in the filter pane
+The filter pane enables you to set filters on one or more fields. The following figure shows an example filter pane for a Sales Quotes lis
+
+![Filter pane overview ](media/filter-pane-overview.png "Filter icon")
+
+A filter pane is divided in three areas: **Views**, **Filter list by**, and Filter total by.
+
+- **Views**
+
+  Views are variations of the list that have been preconfigured with filters. To switch the view, simply select another link. You can temporarily change the filters on a view, but the changes will not be saved.
+
+- **Filter list by**
+
+  The **Filter list by** section is where you add filters on specific fields. To add a filter, select **+ Filter...**, select the field that you want to filter, and then add the filter criteria in the box.
+
+- **Filter totals by**
+
+  The **Filter totals by** section enables you to filter on 
+
 
 
 
@@ -118,7 +137,7 @@ The following procedures show the different filtering methods for filtering data
 
 <!--
 You can add a filter on one or more columns in a list. Filtering on columns is more flexible and enhanced than the Quick Filter. 
--->
+
 
 ### To add a filter on a column
 1. To open the filter pane, 
@@ -127,6 +146,8 @@ You can add a filter on one or more columns in a list. Filtering on columns is m
   -  Choose *...* next to the box to select a value from a list.
   -  Enter filter criteria in the box. See the next section for details.
 4. Choose the **OK** button.
+
+-->
 
 ## <a name="FilterCriteria"> </a>Filter criteria and symbols
 When you enter criteria, you can use all the numbers and letters that you can normally use in the field. In addition, you can use special symbols to further filter the results. The following tables show the symbols which can be used in filters.  

@@ -4,6 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
+    redirect_url: warehouse-manage-warehouse
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na

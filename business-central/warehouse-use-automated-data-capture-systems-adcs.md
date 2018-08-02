@@ -9,8 +9,8 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
 ms.date: 08/01/2018
-redirect_url: warehouse-manage-warehouse
 ms.author: sgroespe
+redirect_url: warehouse-manage-warehouse
 
 ---
 # Enable Automated Data Capture Systems (ADCS)

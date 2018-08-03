@@ -170,10 +170,10 @@ You can set filters on dates, times and datetimes containing a start value and o
 
 |**Meaning**|**Sample expression (Date)**|**Entries included**|
 |-----------|---------------------|--------------------|
-|`Equal to`|12 15 00|Only those posted on 12 15 00.|
-|`Interval`|12 15 00..01 15 01<br /><br /> ..12 15 00|Those posted on dates between and including 12 15 00 and 01 15 01.<br /><br /> Those posted on 12 15 00 or earlier.|
-|`Either/or`|12 15 00&#124;12 16 00|Those posted on either 12 15 00 or 12 16 00. If there are entries posted on both days, they will all be displayed.|
-|`Combination`|12 15 00&#124;12 01 00..12 10 00<br /><br />..12 14 00&#124;12 30 00..|Entries posted either on 12 15 00 or on dates between and including 12 01 00 and 12 10 00.<br /><br />Entries posted on 12 14 00 or earlier, or entries posted on 12 30 00 or later, that is, all entries except those posted on dates between and including 12 15 00 and 12 29 00.|
+|Equal to|12 15 00|Only those posted on 12 15 00.|
+|Interval|12 15 00..01 15 01<br /><br /> ..12 15 00|Those posted on dates between and including 12 15 00 and 01 15 01.<br /><br /> Those posted on 12 15 00 or earlier.|
+|Either/or|12 15 00&#124;12 16 00|Those posted on either 12 15 00 or 12 16 00. If there are entries posted on both days, they will all be displayed.|
+|Combination|12 15 00&#124;12 01 00..12 10 00<br /><br />..12 14 00&#124;12 30 00..|Entries posted either on 12 15 00 or on dates between and including 12 01 00 and 12 10 00.<br /><br />Entries posted on 12 14 00 or earlier, or entries posted on 12 30 00 or later, that is, all entries except those posted on dates between and including 12 15 00 and 12 29 00.|
 
 You can use any of the valid formats in date range filters. For example, `mon14 3..t 4p` applied on a datetime field results in a filter from 3 AM on Monday in week 14 of the current work date year, inclusive, until today at 4PM, inclusive.
 

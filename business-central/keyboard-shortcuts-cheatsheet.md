@@ -49,11 +49,12 @@ ms.author: jswymer
 |Page Up/Down|Go to the previous/next page|
 
 **Searching and filtering lists**
+
 |||
 |-----------------|-------|
-|F3|Activates the search box.|  
+|F3|Activates the search box|
 |Shift+F3|Opens and closes the filter pane focused on column filters|
-|Ctrl+Shift+F3|Opens and closes the filter pane focused on totals filters  |
+|Ctrl+Shift+F3|Opens and closes the filter pane focused on totals filters|
 |Alt+F3|Applies a column filter on the selected field value|
 |Shift+Alt+F3|Opens the filter pane and adds a filter on selected column |
 |Ctrl+Shift+Alt+F3|Resets filters|

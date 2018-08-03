@@ -15,7 +15,7 @@ ms.author: jswymer
 ---
 
 # Enter Dates and Times
-There are various places throughout the application where you can enter dates and times in fields. For example, on a sales order, you can set the shipment date. When filtering lists or report data, you can enter dates and times to pinpoint only the data that you are interested in. To make data entry faster an more efficient, there are various ways that you can enter dates and times.
+There are various places throughout the application where you can enter dates and times in fields. For example, on a sales order, you can set the shipment date. When filtering lists or report data, you can enter dates and times to pinpoint only the data that you are interested in. To make data entry faster, there are various ways that you can enter dates and times.
 
 ## Check your region and language settings
 The **My Settings** page specifies the **Region** and **Language** that you are using in the application. These settings influence how you enter dates and times. 

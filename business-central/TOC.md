@@ -35,6 +35,7 @@
 ## [Entering Criteria in Filters](ui-enter-criteria-filters.md)
 ## [Sorting Data](ui-sorting.md)
 ## [Entering Date Ranges](ui-enter-date-ranges.md)
+## [Copying and Pasting](ui-copy-paste.md)
 ## [Detecting Mandatory Fields](ui-mandatory-fields.md)
 ## [Customizing Business Central](ui-customizing-overview.md)
 ## [Displaying Lists in Different Ways](across-display-lists-different-views.md)

@@ -86,4 +86,4 @@ If you are an accountant, you can sign up for [!INCLUDE[d365acc_long](includes/d
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 

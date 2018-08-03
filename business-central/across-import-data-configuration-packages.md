@@ -75,4 +75,4 @@ The default configuration package supports the following tables:
 [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 

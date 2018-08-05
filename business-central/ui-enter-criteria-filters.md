@@ -252,21 +252,33 @@ When you enter criteria, you can use all the numbers and letters that you can no
 |`>50&<100`|Include records with numbers that are greater than 50 and less than 100 (numbers 51 through 99).|  
  
 ### (%me or %userid) Records assigned to you
+
+Use `%me` or `%userid` in the fields that contain the user ID, such as **Assigned to User ID** field, to display all records that are assigned to you.
+
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`%me`<br />or<br />`%userid`|Records the are assigned to your user account. |  
 
 ### (%mycustomers) Customers in My Customers
+
+Use `%mycustomers` in the **No** field for customers to display all customers that ar included in the **My Customers** list of your Role Center.
+
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`%mycustomers`|Customers in the **My Customers** of your Role Center. |  
 
 ### (%myitems) Items in My Items
+
+Use `%myitems` in the **No** field for items to display all items that ar included in the **My Items** list of your Role Center.
+
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`%myitems`|Items in the **My Items** of your Role Center. |  
 
 ### (%myvendors) Vendora in My Vendors
+
+Use `%myvendors` in the **No** field for vendors to display all vendors that ar included in the **My Vendors** list of your Role Center.
+
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`%myvendors`|Venders in the **My Vendors** of your Role Center. |  

@@ -36,7 +36,7 @@ To search, simply select the search icon, and then in the box, type the text tha
 ### Fine-tune the search
 In general, search goes across all columns in all rows to find fields that include the text that you provide. It does not distinguish between uppercase and lowercase characters (in other words, case insensitive). 
 
-However, you make a more exact search by using the following special characters:
+However, you can make a more exact search by using the following special characters:
 
 - To find only field values that match the entire text and case exactly, place the search text between single quotes `''` (for example, `'man'`).
 

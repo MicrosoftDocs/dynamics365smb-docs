@@ -42,7 +42,7 @@ Filters enable you display data based on a specific criteria. Filters are groupe
 You can add more filters by setting the **Add** boxes. When you have more than one filter, only results that meet the criteria for all filters will be included in the report.
 
 Depending on what type field you are filtering, you can specify the filter criteria to look for an exact match, partial match, range of values, and more. For help about how to set up filters, see:
--   [Searching, Filtering, and Sorting Data](ui-enter-criteria-filters.md)
+-   [Filtering](ui-enter-criteria-filters.md#FilterCriteria)
 -   [Entering Date Ranges ](ui-enter-date-ranges.md)
 
 ## Previewing a report

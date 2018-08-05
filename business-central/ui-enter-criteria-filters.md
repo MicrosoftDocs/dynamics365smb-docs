@@ -251,6 +251,25 @@ When you enter criteria, you can use all the numbers and letters that you can no
 |`..1299|1400..`|Include records with a number less than or equal to 1299 or a number equal to 1400 or greater (all numbers except 1300 through 1399).|  
 |`>50&<100`|Include records with numbers that are greater than 50 and less than 100 (numbers 51 through 99).|  
  
- 
+### (%me or %userid) Records assigned to you
+|Sample Expression|Records Displayed|  
+|-----------------------|-----------------------|  
+|`%me`<br />or<br />`%userid`|Records the are assigned to your user account. |  
+
+### (%mycustomers) Customers in My Customers
+|Sample Expression|Records Displayed|  
+|-----------------------|-----------------------|  
+|`%mycustomers`|Customers in the **My Customers** of your Role Center. |  
+
+### (%myitems) Items in My Items
+|Sample Expression|Records Displayed|  
+|-----------------------|-----------------------|  
+|`%myitems`|Items in the **My Items** of your Role Center. |  
+
+### (%myvendors) Vendora in My Vendors
+|Sample Expression|Records Displayed|  
+|-----------------------|-----------------------|  
+|`%myvendors`|Venders in the **My Vendors** of your Role Center. |  
+
 ## See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

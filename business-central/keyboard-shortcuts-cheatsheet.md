@@ -12,7 +12,8 @@ ms.date: 05/18/2018
 ms.author: jswymer
 ---
 
-# PC keyboard shortcut quick reference
+# PC keyboard shortcuts quick reference
+
 
 **Navigate and select rows**
 
@@ -31,7 +32,7 @@ ms.author: jswymer
 
 |||
 |--|--|
-|F3|Toggle search|
+|F3|Toggle search box|
 |Shift+F3|Toggle filter pane|
 |Ctrl+Shift+F3|Toggle totals filters|
 |Alt+F3|Filter to cell value|

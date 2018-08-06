@@ -81,7 +81,7 @@ The Quick Filter provides an easy access to filter data by entering plain text, 
 > You can press F3 to activate and deactivate the search box. For for information see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter). 
 
 ## Filtering
-Filtering provides an more advanced and versatile way of controlling which records display in a list. Unlike search, which works across columns, filtering is column-based. It enables you to display records for specific accounts or customers, dates, amounts, and other information by specifying criteria for fields of a column. Only records that match the criteria are displayed. If you specify criteria for multiple fields, then only records that match all criteria will be displayed.
+Filtering provides a more advanced and versatile way of controlling which records display in a list. Unlike search, which works across columns, filtering is column-based. It enables you to display records for specific accounts or customers, dates, amounts, and other information by specifying criteria for fields of a column. Only records that match the criteria are displayed. If you specify criteria for multiple fields, then only records that match all criteria will be displayed.
 
 ### Add filters on fields
 
@@ -93,13 +93,13 @@ Filtering provides an more advanced and versatile way of controlling which recor
 
     - In a column heading, choose the down arrow, and then choose **Filter...**.
 
-      This will open the filter pane on the left, where you can add the filter criteria for the field associated with the column. For more information, see [Filter citeria](#FilterCriteria).
+      This will open the filter pane on the left, where you can add the filter criteria for the field associated with the column. For more information, see [Filter criteria](#FilterCriteria).
 
     - If the list is displayed within the Role Center, choose the down arrow near the page title in the navigation bar above the list, and then choose **Show filter pane**.
 
       ![Show filter pane](media/open-filter-pane.png "Show filter pane") 
 
-Columns that aready have filters are indicated by the ![Filter icon](media/ui-search/filter-icon.png "Filter icon") in the column heading. To remove a filter, select the columns heading, then choose **Clear Filter**.
+Columns that already have filters are indicated by the ![Filter icon](media/ui-search/filter-icon.png "Filter icon") in the column heading. To remove a filter, select the columns heading, then choose **Clear Filter**.
 
 ### Working in the filter pane
 The filter pane enables you to set filters on one or more fields. The following figure shows an example filter pane for a Sales Quotes list.
@@ -118,12 +118,12 @@ A filter pane is divided in three sections: **Views**, **Filter list by**, and *
 
 - **Filter totals by**
 
-  The **Filter totals by** section is where you  can add filters on fields that are calculated from different tables, such as amounts and quantities. For example, for sales orders it lets you see total amounts for a specific period of time or from a specific warehouse. The filters that you can choose from are predefined.
+  The **Filter totals by** section is where you  can add filters on fields that are calculated from different tables, such as amounts and quantities. For example, for sales orders it lets you see total amounts for a specific period or from a specific warehouse. The filters that you can choose from are predefined.
 
   To add a filter, select **+ Filter**, and select the filter, and then add the criteria in the box. 
 
   > [!NOTE]
-  > Filters in the **Filter totals by** section are controlled by FlowFilters in the page design. For more inforamation, see [FlowFilters](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview)
+  > Filters in the **Filter totals by** section are controlled by FlowFilters in the page design. For more information, see [FlowFilters](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview)
 
 
 <!-- 
@@ -261,7 +261,7 @@ Use `%me` or `%userid` in the fields that contain the user ID, such as **Assigne
 
 ### (%mycustomers) Customers in My Customers
 
-Use `%mycustomers` in the **No** field for customers to display all customers that ar included in the **My Customers** list of your Role Center.
+Use `%mycustomers` in the **No** field for customers to display all customers that are included in the **My Customers** list of your Role Center.
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
@@ -269,7 +269,7 @@ Use `%mycustomers` in the **No** field for customers to display all customers th
 
 ### (%myitems) Items in My Items
 
-Use `%myitems` in the **No** field for items to display all items that ar included in the **My Items** list of your Role Center.
+Use `%myitems` in the **No** field for items to display all items that are included in the **My Items** list of your Role Center.
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
@@ -277,7 +277,7 @@ Use `%myitems` in the **No** field for items to display all items that ar includ
 
 ### (%myvendors) Vendora in My Vendors
 
-Use `%myvendors` in the **No** field for vendors to display all vendors that ar included in the **My Vendors** list of your Role Center.
+Use `%myvendors` in the **No** field for vendors to display all vendors that are included in the **My Vendors** list of your Role Center.
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  

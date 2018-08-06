@@ -390,7 +390,7 @@
 ## [Design Details: Item Tracking](design-details-item-tracking.md)
 ## [Design Details: General Journal Post Line](design-details-general-journal-post-line.md)
 
-# [Local Functionality](about-localization,md)
+# [Local Functionality](about-localization.md)
 ## [Australia](LocalFunctionality/Australia/australia-local-functionality.md)  
 ## [Austria](LocalFunctionality/Austria/austria-local-functionality.md)
 ## [Belgium](LocalFunctionality/Belgium/belgium-local-functionality.md)

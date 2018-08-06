@@ -18,7 +18,7 @@ ms.author: edupont
 
 For a list of currently supported markets, see the [International availability of Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/availability) deck.  
 
-## Local Functionality
+## Regional Availability and Local Functionality
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is currently available in the following markets:
 
 | Region | Country | More information |
@@ -43,6 +43,7 @@ For a list of currently supported markets, see the [International availability o
 |        | Australia | [Australia Local Functionality](localfunctionality/australia/australia-local-functionality.md) |
 |        | New Zealand | [New Zealand Local Functionality](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
+<!--For Microsoft-led localization, the links go to overviews of the local functionality in the Business Central docs. For partner-led localization, the links go to AppSource. -->
 
 ## See Also
 [Getting Started](product-get-started.md)  

@@ -28,7 +28,7 @@ The **My Settings** page specifies the **Region** and **Language** that you are 
 The following sections describe how you can enter dates, times, datetimes, durations, date ranges, and how you use date formulas.
 -->
 ## Entering Dates
-In a date field, you can enter a date using the standard format for your region setting. Different regions can use different separators bewteen the days, months and years. For example some regions use dashes (mm-dd-yyyy) and others use forward slashes (mm/dd/yyyy). However, you can use any separators, even a space, and the date will automatically be changed to use separators that match your region.
+In a date field, you can enter a date using the standard format for your region setting. Different regions can use different separators between the days, months and years. For example, some regions use dashes (mm-dd-yyyy) and others use forward slashes (mm/dd/yyyy). However, you can use any separators, even a space, and the date will automatically be changed to use separators that match your region.
 
 Alternatively, you can use any of the date formats that are described in the following sections.
 

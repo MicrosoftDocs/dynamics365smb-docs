@@ -32,10 +32,10 @@ ms.author: jswymer
 |||
 |--|--|
 |F3|Toggle search|
-|Shift+F3|Toggle filter pane|
-|Ctrl+Shift+F3|Toggle totals filters|
-|Alt+F3|Filter to cell value|
-|Alt+Shift+F3|Add field to filter|
+|Shift+F3|Toggle filter pane; focus on field filters|
+|Ctrl+Shift+F3|Toggle totals filters: focus on totals filters|
+|Alt+F3|Filter to selected cell value|
+|Shift+Alt+F3|Add filter on selected field|
 |Ctrl+Alt+Shift+F3|Reset filters|
 
 **Report preview**
@@ -48,6 +48,7 @@ ms.author: jswymer
 |Ctrl+Home/End|Go to the first/last page|
 |Page Up/Down|Go to the previous/next page|
 
+<!-- 
 **Searching and filtering lists**
 
 |||
@@ -58,3 +59,4 @@ ms.author: jswymer
 |Alt+F3|Applies a column filter on the selected field value|
 |Shift+Alt+F3|Opens the filter pane and adds a filter on selected column |
 |Ctrl+Shift+Alt+F3|Resets filters|
+-->

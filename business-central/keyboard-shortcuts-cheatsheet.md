@@ -34,7 +34,7 @@ ms.author: jswymer
 |F3|Toggle search|
 |Shift+F3|Toggle filter pane; focus on field filters|
 |Ctrl+Shift+F3|Toggle totals filters: focus on totals filters|
-|Alt+F3|Filter to selected cell value|
+|Alt+F3|Filter on selected cell value|
 |Shift+Alt+F3|Add filter on selected field|
 |Ctrl+Alt+Shift+F3|Reset filters|
 

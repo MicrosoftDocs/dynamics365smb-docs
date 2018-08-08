@@ -31,8 +31,7 @@ The following table describes the settings that you can specify.
 |**Payments**|The payment terms describe how quickly you want to get paid. Choose the button next to the field to change the value. You can add new terms to the list.|
 |**Payment instructions**|Define the different ways your customers can pay you. For each invoice, you can choose the payment method that works best for that document.|
 |**Tax rates**|Tax rates are needed so that your invoices can include tax. Add a default tax rate and, optionally, more. Check with your accountant if you're not sure.|
-|**Payment services**|If you prefer online payments, you can connect [!INCLUDE[d365inv](includes/d365inv.md)] to Microsoft Pay.< /br>
-In the current version of [!INCLUDE[d365inv](includes/d365inv.md)], Microsoft Pay is not supported.|
+|**Payment services**|If you prefer online payments, you can connect [!INCLUDE[d365inv](includes/d365inv.md)] to Microsoft Pay. However, in the current version of [!INCLUDE[d365inv](includes/d365inv.md)], Microsoft Pay is not supported. The next update will add Microsoft Pay.|
 |**Share**|Send the list of existing invoices to yourself or another email.|
 
 When you are ready, choose the Close button. You can come back to the Setting page at any time.  

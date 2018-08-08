@@ -25,7 +25,7 @@ If you enable the extension a **Payments Predicted to be Late** tile is availabl
   
 * **Is Late** - Indicates whether the payment for the invoice is predicted to be late.
 * **Confidence** - Indicates how reliable you should consider the prediction to be. **High** means that the prediction is at least 90% sure, **Medium** is between 80 and 90%, and **Low** is below 80%.
-* **Confidence %** - Shows the actual percentage behind the confidence rating. By default, this column is not displayed, but you can add it if you want. For more information, see [Personalizing Your Workspace](ui-personalization-master.md).
+* **Confidence %** - Shows the actual percentage behind the confidence rating. By default, this column is not displayed, but you can add it if you want. For more information, see [Personalizing Your Workspace](ui-personalization-user.md).
 
 > [!Tip]
 > The Customer Ledger Entries page also shows a FactBox on the right. While you are reviewing predictions, the information in the **Customer Details** section can be helpful. When you choose the invoice in the list, the section shows information about the customer. It also let's you take immediate action. For example, if a customer frequently pays late, you can open the Customer card from the FactBox and block sales to the customer.

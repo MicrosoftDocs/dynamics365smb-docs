@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/18/2018
+ms.date: 08/08/2018
 ms.author: edupont
 
 ---
@@ -26,6 +26,9 @@ The logo that is printed on your invoices comes from your Office 365 business pr
 
 ## How can I change the email account that sends the invoices?
 You can do that in the Settings for [!INCLUDE[d365inv](includes/d365inv.md)]. By default, invoices are sent from your Office 365 email address, but you can change that to any email account, including your personal email address. For more information, see [Set up your business information](set-up-business-profile.md).  
+
+## Why can't I see the number on my invoice?
+The number is generated when you send the invoice. Until then, it does not have a number. You can see the expected next number in the **Settings** page.  
 
 ## Can I change the design of my invoice?
 Not yet. We're working on this feature and will update our content as soon as it's available.  

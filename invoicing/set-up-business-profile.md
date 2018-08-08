@@ -8,13 +8,13 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/18/2018
+ms.date: 08/08/2018
 ms.author: edupont
 
 ---
 # Set up your business information in [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
 
-For the invoices to include your business address and other important information, you can define this in the **Setting** page. Here, you can upload your logo, specify your tax details, add links to your social network accounts, and make other general customizations.  
+For the invoices to include your business address and other important information, you can define this in the **Settings** page. Here, you can upload your logo, specify your tax details, add links to your social network accounts, and make other general customizations.  
 
 ## To add your business information
 

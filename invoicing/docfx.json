@@ -1,0 +1,54 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.gif"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/dynamics365smb-docs",
+      "feedback_product_url": "https://experience.dynamics.com/ideas/list/?forum=e288ef32-82ed-e611-8101-5065f38b21f1",
+      "searchScope": ["Invoicing"],
+      "uhfHeaderId": "MSDocsHeader-Dynamics365",
+      "titleSuffix": "Microsoft Invoicing",
+      "breadcrumb_path": "/dynamics365/invoicing/breadcrumb/toc.json",
+      "ms.service": "dynamics365-business-central",
+      "extendBreadcrumb": true
+    },
+    "fileMetadata": {},
+    "template": [],
+    "dest": "d365smbinvoicing",
+    "markdownEngineName": "markdig"
+  }
+}

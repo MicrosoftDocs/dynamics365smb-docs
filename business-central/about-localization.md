@@ -18,8 +18,8 @@ ms.author: edupont
 
 For a list of currently supported markets, see the [International availability of Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/availability) deck.  
 
-## Regional Availability and Local Functionality
-[!INCLUDE[d365fin](includes/d365fin_md.md)] is currently available in the following markets:
+## Local Functionality
+To learn about the local functionality for each country, choose the related link:
 
 | Region | Country | More information |
 | --- | --- |--- |
@@ -43,9 +43,11 @@ For a list of currently supported markets, see the [International availability o
 |        | Australia | [Australia Local Functionality](localfunctionality/australia/australia-local-functionality.md) |
 |        | New Zealand | [New Zealand Local Functionality](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
-<!--For Microsoft-led localization, the links go to overviews of the local functionality in the Business Central docs. For partner-led localization, the links go to AppSource. -->
+### Other Countries
+[!INCLUDE[d365fin](includes/d365fin_md.md)] is also available in other markets through localization apps. If a Microsoft partner has developed a localization app for your country, you can find it in [AppSource](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/).
 
 ## See Also
 [Getting Started](product-get-started.md)  
+[Compliance](compliance/compliance-overview.md)  
 [International availability of Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/availability)  
-[Compliance](compliance-overview.md)  
+[Development of a Localization Solution](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  

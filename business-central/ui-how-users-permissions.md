@@ -20,7 +20,9 @@ Once users are created in Office 365, they can be imported into the **Users** wi
 
 You can then proceed to assign permission sets to the users to define which database objects, and thereby which UI elements, they have access to, and in which companies. You can add users to user groups. This makes it easier to assign the same permission sets to multiple users.
 
-A permission set is a collection of permissions for specific objects in the database. All users must be assigned one or more permission sets before they can access [!INCLUDE[d365fin](includes/d365fin_md.md)]. From the **User Card** window, you can open the **Effective Permissions** window to see which permissions the user has and through which permission sets they are granted. Here you can also change permission details for permission sets of type User-Defined. For more information, see the "To view or edit a users permissions" section.
+A permission set is a collection of permissions for specific objects in the database. All users must be assigned one or more permission sets before they can access [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+From the **User Card** window, you can open the **Effective Permissions** window to see which permissions the user has and through which permission sets they are granted. Here you can also change permission details for permission sets of type **User-Defined**. For more information, see the "To view or edit a user's permissions" section.
 
 Administrators can use the **User Setup** window to define periods of time during which specified users are able to post, and also specify if the system logs the amount of time users are logged on.
 

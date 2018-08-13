@@ -9,12 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 05/24/2018
+ms.date: 07/30/2018
 ms.author: sgroespe
 
 ---
 # Manage Users and Permissions
-To add users in [!INCLUDE[d365fin](includes/d365fin_md.md)], your company's Office 365 administrator must first create the users in the Office 365 Admin Center. For more information, see [Add Users to Office 365 for business](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc)
+To add users in [!INCLUDE[d365fin](includes/d365fin_md.md)], your company's Office 365 administrator must first create the users in the Office 365 Admin Center. For more information, see [Add Users to Office 365 for business](https://aka.ms/CreateOffice365Users).
+
+For detailed information about licensing, see [Microsoft Dynamics 365 Business Central Licensing Guide](https://aka.ms/BusinessCentralLicensing).
 
 Once users are created in Office 365, they can be imported into the **Users** window by using the **Get Users from Office 365** action. Users are assigned permission sets depending on the plan assigned to the user in Office 365.
 
@@ -26,22 +28,70 @@ Administrators can use the **User Setup** window to define periods of time durin
 
 Another system that defines what users can access is the Experience setting. For more information, see [Changing Which Features are Displayed](ui-experiences.md).
 
-## To assign permissions to a user
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Users**, and then choose the related link.
-2. Select the user that you want to assign permission to.
-Any permission sets that are already assigned to the user are displayed in the **Permission Sets** FactBox.
-3. Choose the **Edit** action to open the **User Card** window.
-4. On the **User Permission Sets** FastTab, on a new line, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-## To group users in user groups
+## To group users in a user group
 You can set up users groups to help you manage permission sets for groups of users in your company.
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **User Groups**, and then choose the related link.
 2. Alternatively, in the **Users** window, choose the **User Groups** action.
 3. In the **User Group** window, choose the **User Group Members** action.
-6. In the **User Group Members** window, choose the **Add Users** action.
-7. To add new or additional permission sets, in the **User Groups** window, choose the **User Group Permission Sets** action.
-8. In the **User Group Permission Sets** window, on a new line, fill in the fields as necessary by selecting from existing permission sets.
+4. In the **User Group Members** window, choose the **Add Users** action.
+
+When users or user groups are created, you must assign permission sets to each to define which object a user can access. First, you must organize the relevant permissions in permission sets.  
+
+## To create or edit a permission set
+Permission sets function as containers of permissions, so that you can easily manage multiple permissions in one record. When you have created a permission set, you must add the actual permissions. For more information, see the "To create or edit permissions" section.
+
+> [!NOTE]  
+> A [!INCLUDE[d365fin](includes/d365fin_md.md)] solution typically contains a number of predefined permission sets that are added by Microsoft or by your software provider. These permission sets are of type **System** or **Extension**. You cannot create or edit these types of permission sets or the permissions within them. However, you can copy them to define your own permission sets and permissions. <br /><br />
+Permission sets that users create, from new or as copies, are of type **User-Defined** and can be edited.
+
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Permission Sets**, and then choose the related link.
+2. To create a new permission set, choose the **New** action.
+3. On the new line, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+### To copy a permission set
+When you create new permission sets, you can use a copy function to quickly carry all the permissions of another permission set to a new permission set.
+
+> [!NOTE]  
+> If a System permission set that you have copied is changed, you will be notified (depending on your selection), so that you can consider if the changes are relevant to copy or write into your user-defined permission set.
+
+1. In the **Permission Sets** window, select the line for a permission set that you want to copy, and then choose the **Copy Permission Set** action.
+2. In the **Copy Permission Set** window, specify the name of the new permission set, and then choose the **OK** button.
+
+The new permission set, containing all the permissions of the copied permission set, is added as a new line in the **Permission Sets** window. Note that the lines are sorted alphabetically within each type.
+
+## To create or edit permissions
+1. In the **Permission Sets** window, select the line for a permission set, and then choose the **Permissions** action.
+2. In the **Permissions** window, create a new line or edit the fields on an existing line.
+
+For each of the five user actions, Read, Insert, Modify, Delete, Execute, you can select one of the following three permission options:
+
+|Option|Decsription|
+|------|-----------|
+|Blank|The user cannot perform the action on the object in question.|
+|**Yes**|The user can perform the action on the object in question.|
+|**Indirect**|The user can perform the action on the object in question but only through another related object that the user has full access to.|
+
+## To assign permission sets to users or user groups
+You can assign permissions to users in two ways:
+- Define permission sets on a user's user card.
+- Select the check box for a user, on a column, for a related permission set, on a row, in the **Permission Set by User** matrix window.
+    With this method, you can also assign permissions sets to user groups.
+
+### To assign a permission set on a user card
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Users**, and then choose the related link.
+2. Select the user that you want to assign permission to.
+Any permission sets that are already assigned to the user are displayed in the **Permission Sets** FactBox.
+3. Choose the **Edit** action to open the **User Card** window.
+4. On the **User Permission Sets** FastTab, on a new line, fill in the fields as necessary. For more information, see the "To create or edit a permission set" section.
+
+### To assign a permission set in the **Permission Set by User** window  
+The following procedure explains how to assign permission sets to a user in the **Permission Set by User** window. The steps are similar in the **Permission Set by User Group** window.
+
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Users**, and then choose the related link.
+2. In the **Users** window, select the relevant user, and then choose the **Permission Set by User** action.
+3. In the **Permission Set by User** window, select the **[user name]** check box on a line for the relevant permission set to assign the set to the user.
+4. Select the **All Users** check box to assign the permission set to all users.
 
 ## To copy a user group and all its permission sets
 To quickly define a new user group, you can copy all permission sets from an existing user group to your new user group.

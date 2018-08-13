@@ -9,24 +9,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 07/30/2018
+ms.date: 08/13/2018
 ms.author: sgroespe
 
 ---
-# Manage Users and Permissions
+# Managing Users and Permissions
 To add users in [!INCLUDE[d365fin](includes/d365fin_md.md)], your company's Office 365 administrator must first create the users in the Office 365 Admin Center. For more information, see [Add Users to Office 365 for business](https://aka.ms/CreateOffice365Users).
 
-For detailed information about licensing, see [Microsoft Dynamics 365 Business Central Licensing Guide](https://aka.ms/BusinessCentralLicensing).
-
-Once users are created in Office 365, they can be imported into the **Users** window by using the **Get Users from Office 365** action. Users are assigned permission sets depending on the plan assigned to the user in Office 365.
+Once users are created in Office 365, they can be imported into the **Users** window in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Users are assigned permission sets depending on the plan assigned to the user in Office 365. For detailed information about licensing, see [Microsoft Dynamics 365 Business Central Licensing Guide](https://aka.ms/BusinessCentralLicensing).
 
 You can then proceed to assign permission sets to the users to define which database objects, and thereby which UI elements, they have access to, and in which companies. You can add users to user groups. This makes it easier to assign the same permission sets to multiple users.
 
-A permission set is a collection of permissions for specific objects in the database. All users must be assigned one or more permission sets before they can access [!INCLUDE[d365fin](includes/d365fin_md.md)]. A number of predefined permission sets are provided by default.  
+A permission set is a collection of permissions for specific objects in the database. All users must be assigned one or more permission sets before they can access [!INCLUDE[d365fin](includes/d365fin_md.md)]. From the **User Card** window, you can open the **Effective Permissions** window to see which permissions the user has and through which permission sets they are granted. Here you can also change permission details for permission sets of type User-Defined. For more information, see the "To view or edit a users permissions" section.
 
 Administrators can use the **User Setup** window to define periods of time during which specified users are able to post, and also specify if the system logs the amount of time users are logged on.
 
 Another system that defines what users can access is the Experience setting. For more information, see [Changing Which Features are Displayed](ui-experiences.md).
+
+## To add a user in Business Central
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Users**, and then choose the related link.
+2. Choose the **Get Users from Office 365** action.
+
+Any new user that has been created for your Office 365 subscription will be added in the **Users** window.
 
 ## To group users in a user group
 You can set up users groups to help you manage permission sets for groups of users in your company.
@@ -36,7 +40,26 @@ You can set up users groups to help you manage permission sets for groups of use
 3. In the **User Group** window, choose the **User Group Members** action.
 4. In the **User Group Members** window, choose the **Add Users** action.
 
-When users or user groups are created, you must assign permission sets to each to define which object a user can access. First, you must organize the relevant permissions in permission sets.  
+When users or user groups are created, you must assign permission sets to each to define which object a user can access. First, you must organize the relevant permissions in permission sets.
+
+## To copy a user group and all its permission sets
+To quickly define a new user group, you can copy all permission sets from an existing user group to your new user group.
+
+The user group members are not copied to the new user group. You must add them manually afterwards.
+
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **User Groups**, and then choose the related link.
+2. Select the user group that you want to copy, and then choose the **Copy User Group** action.
+3. In the **New User Group Code** field, enter a name for the group, and then choose the **OK** button.
+
+The new user group is added to the **User Groups** window. Proceed to add users. For more information, see the "To group users in user groups" section.  
+
+## To set up user time constraints
+Administrators can define periods of time during which specified users are able to post, and also specify if the system logs the amount of time users are logged on. Administrators can also assign responsibility centers to users. For more information, see [Work with Responsibility Centers](inventory-responsibility-centers.md).
+
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **User Setup**, and then choose the related link.
+2. In the **User Setup** window opens, choose the **New** action.
+3. In the **User ID** field, enter the ID of a user, or choose the field to see all current Windows users in the system.
+4. Fill in the fields as necessary.
 
 ## To create or edit a permission set
 Permission sets function as containers of permissions, so that you can easily manage multiple permissions in one record. When you have created a permission set, you must add the actual permissions. For more information, see the "To create or edit permissions" section.
@@ -93,24 +116,20 @@ The following procedure explains how to assign permission sets to a user in the 
 3. In the **Permission Set by User** window, select the **[user name]** check box on a line for the relevant permission set to assign the set to the user.
 4. Select the **All Users** check box to assign the permission set to all users.
 
-## To copy a user group and all its permission sets
-To quickly define a new user group, you can copy all permission sets from an existing user group to your new user group.
+## To view or edit a user's permissions
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Users**, and then choose the related link.
+2. Open the card of the relevant user.
+3. Choose the **Effective Permissions** action.
 
-The user group members are not copied to the new user group. You must add them manually afterwards.
+    The **Permissions** section lists all the database objects that the user has access to and how. You cannot edit this section.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **User Groups**, and then choose the related link.
-2. Select the user group that you want to copy, and then choose the **Copy User Group** action.
-3. In the **New User Group Code** field, enter a name for the group, and then choose the **OK** button.
+    The **By Permission Set** section shows the assigned permission sets through which the permissions are granted to the user. For each row that you select in the **Permissions** section, the **By Permission Set** section shows which permission set or sets that the permission is granted through. In this section, you can edit the value in each of the five access type fields, **Read Permission**, **Insert Permission**, **Modify Permission**, **Delete Permission**, **Execute Permission**.   
 
-The new user group is added to the **User Groups** window. Proceed to add users. For more information, see the "To group users in user groups" section.
+    > [!NOTE]  
+    > Only permission sets of type User-Defined can be edited.
 
-## To set up user time constraints
-Administrators can define periods of time during which specified users are able to post, and also specify if the system logs the amount of time users are logged on. Administrators can also assign responsibility centers to users. For more information, see [Work with Responsibility Centers](inventory-responsibility-centers.md).
+4. To edit a permission set, in the **By Permission Set** section, on the line for a relevant permission set of type User-Defined, choose a permission type field and select a different value. For more information, see the "To create or edit permissions" section.   
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **User Setup**, and then choose the related link.
-2. In the **User Setup** window opens, choose the **New** action.
-3. In the **User ID** field, enter the ID of a user, or choose the field to see all current Windows users in the system.
-4. Fill in the fields as necessary.
 
 ## See Also
 [Getting Ready for Doing Business](ui-get-ready-business.md)  

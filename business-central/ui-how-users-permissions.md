@@ -87,7 +87,7 @@ The new permission set, containing all the permissions of the copied permission 
 1. In the **Permission Sets** window, select the line for a permission set, and then choose the **Permissions** action.
 2. In the **Permissions** window, create a new line or edit the fields on an existing line.
 
-For each of the five user actions, Read, Insert, Modify, Delete, Execute, you can select one of the following three permission options:
+In each of the five access type fields, **Read Permission**, **Insert Permission**, **Modify Permission**, **Delete Permission**, and **Execute Permission**, you can select one of the following three permission options:
 
 |Option|Decsription|
 |------|-----------|
@@ -126,9 +126,9 @@ The following procedure explains how to assign permission sets to a user in the 
     The **By Permission Set** section shows the assigned permission sets through which the permissions are granted to the user. For each row that you select in the **Permissions** section, the **By Permission Set** section shows which permission set or sets that the permission is granted through. In this section, you can edit the value in each of the five access type fields, **Read Permission**, **Insert Permission**, **Modify Permission**, **Delete Permission**, **Execute Permission**.   
 
     > [!NOTE]  
-    > Only permission sets of type User-Defined can be edited.
+    > Only permission sets of type **User-Defined** can be edited.
 
-4. To edit a permission set, in the **By Permission Set** section, on the line for a relevant permission set of type User-Defined, choose a permission type field and select a different value. For more information, see the "To create or edit permissions" section.   
+4. To edit a permission set, in the **By Permission Set** section, on the line for a relevant permission set of type **User-Defined**, choose a permission type field and select a different value. For more information, see the "To create or edit permissions" section.   
 
 
 ## See Also

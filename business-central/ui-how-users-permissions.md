@@ -126,9 +126,9 @@ The following procedure explains how to assign permission sets to a user in the 
 2. Open the card of the relevant user.
 3. Choose the **Effective Permissions** action.
 
-    The **Permissions** section lists all the database objects that the user has access. You cannot edit this section.
+    The **Permissions** part lists all the database objects that the user has access. You cannot edit this section.
 
-    The **By Permission Set** section shows the assigned permission sets through which the permissions are granted to the user, the source and type of the permission set, and to which extend the different access types are permitted.
+    The **By Permission Set** part shows the assigned permission sets through which the permissions are granted to the user, the source and type of the permission set, and to which extend the different access types are permitted.
 
     For each row that you select in the **Permissions** section, the **By Permission Set** section shows which permission set or sets that the permission is granted through. In this section, you can edit the value in each of the five access type fields, **Read Permission**, **Insert Permission**, **Modify Permission**, **Delete Permission**, **Execute Permission**.   
 

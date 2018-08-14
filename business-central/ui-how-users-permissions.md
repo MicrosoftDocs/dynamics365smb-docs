@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 08/13/2018
+ms.date: 08/14/2018
 ms.author: sgroespe
 
 ---
@@ -42,7 +42,7 @@ You can set up users groups to help you manage permission sets for groups of use
 3. In the **User Group** window, choose the **User Group Members** action.
 4. In the **User Group Members** window, choose the **Add Users** action.
 
-When users or user groups are created, you must assign permission sets to each to define which object a user can access. First, you must organize the relevant permissions in permission sets.
+When users or user groups are created, you must assign permission sets to each to define which object a user can access. First, you must organize the relevant permissions in permission sets. For more information, see the "To create or edit a permission set" section.
 
 ## To copy a user group and all its permission sets
 To quickly define a new user group, you can copy all permission sets from an existing user group to your new user group.

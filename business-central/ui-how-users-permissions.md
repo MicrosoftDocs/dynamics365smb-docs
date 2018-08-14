@@ -91,11 +91,14 @@ The new permission set, containing all the permissions of the copied permission 
 
 In each of the five access type fields, **Read Permission**, **Insert Permission**, **Modify Permission**, **Delete Permission**, and **Execute Permission**, you can select one of the following three permission options:
 
-|Option|Decsription|
+|Option|Description|Ranking|
 |------|-----------|
-|Blank|The user cannot perform the action on the object in question.|
-|**Yes**|The user can perform the action on the object in question.|
-|**Indirect**|The user can perform the action on the object in question but only through another related object that the user has full access to.|
+|**Yes**|The user can perform the action on the object in question.|Highest|
+|**Indirect**|The user can perform the action on the object in question but only through another related object that the user has full access to.|Second highest|
+|Blank|The user cannot perform the action on the object in question.|Lowest|
+
+> [!NOTE]  
+> When you edit a permission and thereby the related permission set, the changes will also apply to other users that have the permission set assigned.
 
 ## To assign permission sets to users or user groups
 You can assign permissions to users in two ways:
@@ -123,15 +126,22 @@ The following procedure explains how to assign permission sets to a user in the 
 2. Open the card of the relevant user.
 3. Choose the **Effective Permissions** action.
 
-    The **Permissions** section lists all the database objects that the user has access to and how. You cannot edit this section.
+    The **Permissions** section lists all the database objects that the user has access. You cannot edit this section.
 
-    The **By Permission Set** section shows the assigned permission sets through which the permissions are granted to the user. For each row that you select in the **Permissions** section, the **By Permission Set** section shows which permission set or sets that the permission is granted through. In this section, you can edit the value in each of the five access type fields, **Read Permission**, **Insert Permission**, **Modify Permission**, **Delete Permission**, **Execute Permission**.   
+    The **By Permission Set** section shows the assigned permission sets through which the permissions are granted to the user, the source and type of the permission set, and to which extend the different access types are permitted.
+
+    For each row that you select in the **Permissions** section, the **By Permission Set** section shows which permission set or sets that the permission is granted through. In this section, you can edit the value in each of the five access type fields, **Read Permission**, **Insert Permission**, **Modify Permission**, **Delete Permission**, **Execute Permission**.   
 
     > [!NOTE]  
-    > Only permission sets of type **User-Defined** can be edited.
+    > Only permission sets of type **User-Defined** can be edited.<br /><br />
+    > Permission sets of source **Entitlement** originate from the license file. Permission values in an Entitlement permission set overrule values in permission sets of other sources and types. Any value in a non-Entitlement permission set that has a higher value than the related value in an Entitlement permission set will be surrounded by brackets to indicate that it is not effective, as it is overruled by the Entitlement permission set. For en explanation of ranking, see the "To create or edit permissions" section.  
 
-4. To edit a permission set, in the **By Permission Set** section, on the line for a relevant permission set of type **User-Defined**, choose a permission type field and select a different value. For more information, see the "To create or edit permissions" section.   
+4. To edit a permission set, in the **By Permission Set** section, on the line for a relevant permission set of type **User-Defined**, choose one of the five access type fields and select a different value. For information about the values, see the "To create or edit permissions" section.
 
+5. To edit individual permissions within the permission set, choose the value in the **Permission Set** field to open the **Permissions** window. For more information, see the "To create or edit permissions" section.  
+
+> [!NOTE]  
+> When you edit a permission set, the changes will also apply to other users that have the permission set assigned.
 
 ## See Also
 [Getting Ready for Doing Business](ui-get-ready-business.md)  

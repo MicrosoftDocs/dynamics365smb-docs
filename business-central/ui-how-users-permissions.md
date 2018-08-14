@@ -134,9 +134,9 @@ The following procedure explains how to assign permission sets to a user in the 
 
     > [!NOTE]  
     > Only permission sets of type **User-Defined** can be edited.<br /><br />
-    > Permission sets of source **Entitlement** originate from the license file. Permission values in an Entitlement permission set overrule values in permission sets of other sources and types. Any value in a non-Entitlement permission set that has a higher ranking than the related value in an Entitlement permission set will be surrounded by brackets to indicate that it is not effective, as it is overruled by the Entitlement permission set. For en explanation of ranking, see the "To create or edit permissions" section.  
+    > Rows of source Entitlement originate from the subscription plan. The permission values of the entitlement overrule values in other permission sets if they have a higher ranking. A value in a non-entitlement permission set that has a higher ranking than the related value in the entitlement will be surrounded by brackets to indicate that it is not effective as it is overruled by the entitlement. For en explanation of ranking, see the "To create or edit permissions" section.  
 
-4. To edit a permission set, in the **By Permission Set** section, on the line for a relevant permission set of type **User-Defined**, choose one of the five access type fields and select a different value. For information about the values, see the "To create or edit permissions" section.
+4. To edit a permission set, in the **By Permission Set** section, on the line for a relevant permission set of type **User-Defined**, choose one of the five access type fields and select a different value.
 
 5. To edit individual permissions within the permission set, choose the value in the **Permission Set** field to open the **Permissions** window. For more information, see the "To create or edit permissions" section.  
 

@@ -103,7 +103,7 @@ In each of the five access type fields, **Read Permission**, **Insert Permission
 ## To assign permission sets to users or user groups
 You can assign permissions to users in two ways:
 - Define permission sets on a user's user card.
-- Select the check box for a user, on a column, for a related permission set, on a row, in the **Permission Set by User** matrix window.
+- Select the check box for a user, on a column, for a related permission set, on a row, in the **Permission Set by User** window.
     With this method, you can also assign permissions sets to user groups.
 
 ### To assign a permission set on a user card
@@ -126,7 +126,7 @@ The following procedure explains how to assign permission sets to a user in the 
 2. Open the card of the relevant user.
 3. Choose the **Effective Permissions** action.
 
-    The **Permissions** part lists all the database objects that the user has access. You cannot edit this section.
+    The **Permissions** part lists all the database objects that the user has access to. You cannot edit this section.
 
     The **By Permission Set** part shows the assigned permission sets through which the permissions are granted to the user, the source and type of the permission set, and to which extend the different access types are permitted.
 
@@ -145,6 +145,7 @@ The following procedure explains how to assign permission sets to a user in the 
 
 ## See Also
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
+[Changing Which Features are Displayed](ui-experiences.md)   
 [Administration](admin-setup-and-administration.md)  
-[Getting Started](product-get-started.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Add Users to Office 365 for business](https://aka.ms/CreateOffice365Users)  
+[Microsoft Dynamics 365 Business Central Licensing Guide](https://aka.ms/BusinessCentralLicensing)

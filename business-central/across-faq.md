@@ -55,9 +55,9 @@ If you have access to Microsoft CustomerSource, you can get access to the Imagin
 
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], the Application Areas system and the Experience options enable you to show/hide relevant parts of the product according to the purchased plan (Essential or Premium) and according to your business needs.
 
-These capabilities have been used to simplify the UI in the standard version of [!INCLUDE[d365fin](includes/d365fin_md.md)]. For example, fields that are not commonly used, such as **Fax No.**, have been removed, and on ribbons on lists and cards, duplicate actions are removed and the most-used actions are promoted. A few complete features, such as Comments, are currently being optimized for the web client and are, therefore, not available in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+These capabilities have been used to simplify the UI in the standard version of [!INCLUDE[d365fin](includes/d365fin_md.md)]. For example, on some list and card ribbons, duplicate actions are removed and the most-used actions are promoted. A few complete features, such as Comments, are currently being optimized for the web client and are, therefore, not available in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Accordingly, certain UI elements that are visible in the standard version of Dynamics NAV are not visible in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The controls in question currently have the #Advanced application area tag.
+Accordingly, about 400 UI elements that are visible in the standard version of Dynamics NAV are not visible in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The controls in question currently have the #Advanced application area tag.
 
 If you want your [!INCLUDE[d365fin](includes/d365fin_md.md)] solution to contain the same UI elements as your Dynamics NAV solution, you must take a couple of steps in the development environment to surface the #Advanced controls, through an extension. For more information, see [Extending Application Areas](/dynamics365/dev-itpro/developer/devenv-extending-application-areas).
 

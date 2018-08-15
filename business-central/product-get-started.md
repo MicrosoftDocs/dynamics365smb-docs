@@ -1,7 +1,7 @@
 ﻿---
 title: Getting Started | Microsoft Docs
 description: Learn about capabilities and work scenarios in Business Central, a business management solution for small and mid-sized organizations.
-author: SusanneWindfeldPedersen
+author: edupont04
 
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -9,17 +9,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 03/21/2018
-ms.author: solsen
+ms.date: 06/20/2018
+ms.author: edupont
 
 ---
 # Getting Started with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)] is a business management solution for small and mid-sized organizations that automates and streamlines business processes and helps you manage your business. Signing up is easy, and you can migrate existing business data from your legacy system.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] is a business management solution for small and mid-sized organizations that automates and streamlines business processes and helps you manage your business. Signing up is easy, and you can migrate existing business data from your legacy system. To help you with your subscription, find a [!INCLUDE[d365fin](includes/d365fin_md.md)] partner [here](https://www.microsoft.com/en-us/solution-providers/search).  
 
 When you sign up for the [!INCLUDE[d365fin](includes/d365fin_md.md)] preview you get access to a demonstration company. The demonstration company contains sample data, but you can create your own sales documents, for example, or set up a bank account.  
 
 ## Get to know [!INCLUDE[d365fin](includes/d365fin_md.md)]
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], some things will be familiar to you, and other things might be unfamiliar. In the demonstration company, visual guides explain core functionality, and help you try out daily tasks like creating a sales invoice and viewing a report. If you leave a guide, for example, to explore [!INCLUDE[d365fin](includes/d365fin_md.md)] on your own, but want to return to it, go back to the Role Center and launch the Getting Started tour.
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], some things will be familiar to you, and other things might be unfamiliar. In the demonstration company, visual guides explain core functionality, and help you try out daily tasks like creating a sales invoice and viewing a report. If you leave a guide, for example, to explore [!INCLUDE[d365fin](includes/d365fin_md.md)] on your own, but want to return to it, go back to the Role Center and launch the Getting Started tour. If you want more assistance, you can find a [!INCLUDE[d365fin](includes/d365fin_md.md)] partner [here](https://www.microsoft.com/en-us/solution-providers/search).  
 
 > [!TIP]  
 > You can get back to the Role Center by selecting the company name in the upper left corner.
@@ -67,8 +67,10 @@ Thinking about subscribing? You can easily change from the demonstration company
 
 To create a company to try things out, go to the **My Settings** menu in the top right corner, and change the company to **My Company**. Sign out of [!INCLUDE[d365fin](includes/d365fin_md.md)] and then sign in again to apply the change. An assisted setup guide will help you provide basic information about your company. When that's done, explore the Role Center and find the **Assisted Setup** action.  
 
+Alternatively, find a [!INCLUDE[d365fin](includes/d365fin_md.md)] partner [here](https://www.microsoft.com/en-us/solution-providers/search).
+
 ## Ready to subscribe?
-Each time you sign in during the trial period, a notification in a blue bar at the top displays the time remaining. If you decide to subscribe, use the link in the notification to get in touch with Microsoft. You can also contact the [[!INCLUDE[d365fin](includes/d365fin_md.md)] Sales team](https://go.microsoft.com/fwlink/?linkid=828707).  
+Each time you sign in during the trial period, a notification in a blue bar at the top displays the time remaining. If you decide to subscribe, find a [!INCLUDE[d365fin](includes/d365fin_md.md)] partner [here](https://www.microsoft.com/en-us/solution-providers/search). You can also contact the [[!INCLUDE[d365fin](includes/d365fin_md.md)] Sales team](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 ## Other Dynamics 365 apps
 Navigate to content about the other Dynamics 365 apps by choosing the [Dynamics 365](https://docs.microsoft.com/dynamics365) link in the blue banner at the top of this page. You can also learn more at the [Dynamics 365 Business Central website](https://dynamics.microsoft.com/en-us/business-central/overview/).  
@@ -86,4 +88,4 @@ If you are an accountant, you can sign up for [!INCLUDE[d365acc_long](includes/d
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 

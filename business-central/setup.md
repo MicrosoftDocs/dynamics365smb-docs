@@ -60,4 +60,4 @@ Some areas require you to be an administrator in your [!INCLUDE[d365fin](include
 [Getting Started](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 

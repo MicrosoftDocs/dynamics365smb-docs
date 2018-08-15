@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox
-ms.date: 01/05/2018
+ms.date: 06/28/2018
 ms.author: bholtorf
 
 ---
@@ -39,7 +39,7 @@ For more information, see [Using Designer](https://docs.microsoft.com/en-us/dyna
 3.	Choose **Create**. A tab will open where you can finish setting up your sandbox.
 
     > [!Note]
-    > If pop-up blocker is enabled in your browser, change it to allow URLs from the *.financials.dynamics.com* address.  
+    > If pop-up blocker is enabled in your browser, change it to allow URLs from the *.businesscentral.dynamics.com* address.  
 
 4.	When the sandbox is ready, a Welcome page will display.  
 5.	If you want to read about scenarios that you can try in a sandbox, such as how to develop extensions, choose the **Learn more** link. Otherwise, choose **Close** to continue to the Role Center of your [!INCLUDE[d365fin](includes/d365fin_md.md)] sandbox instance.  
@@ -63,6 +63,6 @@ For more information, see [Using Designer](https://docs.microsoft.com/en-us/dyna
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] provides tools that you can use to implement your own add-on and embed functionality to add new industry-specific end-to-end experiences or integrate third-party solutions. For example, you can use an API to build a connected app to exchange data between [!INCLUDE[d365fin](includes/d365fin_md.md)] and your payroll app. Connect apps can also make use of extensions to create pages to be used for setup, configuration, or to support app-specific features. For more information, see [Developing Apps for [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://aka.ms/getstartedwithapps).
 
-##See Also
+## See Also
 [Getting Started](product-get-started.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

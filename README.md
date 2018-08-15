@@ -3,70 +3,48 @@
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
-# dynamics365smb-docs-pr
-Welcome to the repository for user assistance content for Dynamics 365 for Finance and Operations, Business edition! This product is aimed at small and midsized businesses, and the repo is private. The public repo is here: https://github.com/MicrosoftDocs/dynamics365smb-docs.
-If you have any questions, please contact us through the navua alias.  
+# dynamics365smb-docs
+Welcome to the repository for user assistance content for Dynamics 365 Business Central! This product is aimed at small and midsized businesses. This repo enables you to take the Business Central help and customize it to suit your application. It also provides a way for you to actively contribute to the current Business Central content.  
 
+The content is available as markdown files (.md), where each file represents an article in the help. You can edit these markdown files, and then convert them to HTML files for application.
+
+There are different repos in GitHub for the source content and each of the languages that Microsoft translates to. The *nav-content* repo contains the content in English (US). If you want access to the content in other languages, navigate to the relevant repo - the names follow this pattern: *dynamics365smb-docs.<language>-<country>*, such as [dynamics365smb-docs.da-DK](https://github.com/MicrosoftDocs/dynamics365smb-docs.da-DK) for the Danish version.
+
+**NOTE**: Microsoft accepts pull requests to the *dynamics365smb-docs* repo only, not the language-specific repos. If you have feedback about translations, you can report a GitHub issue in the relevant repo.
 
 ======================================
-## Getting started with Open Publishing
+If you have any questions, please contact the Dynamics NAV User Assistance (UA) team at nav-olh@microsoft.com.
 
-Start contributing to the repo docs using the following steps:
+## Getting Started
 
-## Set up your account
-1. Get a GitHub account
-2. Link it to your work account at https://repos.opensource.microsoft.com/
-3. Join the MicrosoftDocs org at https://repos.opensource.microsoft.com/MicrosoftDocs
-4. Join the Everyone team here: https://repos.opensource.microsoft.com/microsoftdocs/teams/everyone
+1. Fork this repo
 
-For more information, see [Open Source at Microsoft docs](https://docs.opensource.microsoft.com/github/).
+    You cannot work directly in the dynamics365smb-docs repo, so the first thing you need to do is create a fork of the repo under your GitHub account. A fork basically is copy of this repo that lets you work freely on the content without affecting the dynamics365smb-docs repo. For more information, see [Fork a Repo] (https://help.github.com/articles/fork-a-repo/)
+
+2.  Install GitHub Desktop (optional) and clone your forked repo.
+
+    GitHub Desktop makes is easy to work and collaborate with repos locally from your own desktop. For more information, see [GitHub Desktop](https://desktop.github.com/).   
+
+2. Get hold of your favorite MarkDown editor, and start making changes.
+
+    The help content is stored in the articles folder of the repo. Articles use a syntax for formatting text called GitHub Flavored Markdown. To learn more about working with markdown, see [Getting started with writing and formatting on GitHub](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/).
+
 
 ### Contributing
-Unless you are an UA writer, you do not have write access to the master repo MicrosoftDocs/dynamics365smb-docs-pr. Any changes that you make must go through UA first. This means that to make changes, you must commit the changes, and then create a pull request to include the changes. A writer (UA) will then review the pull request and pull the content into the master repo.
 
-There are a few ways to work with the repo:
-- You can edit directly in the MicrosoftDocs/dynamics365smb-docs-pr repo on GitHub.com.
+A benefit of GitHub is the ability for you to contribute to the core content that the Microsoft team provides in the dynamics365smb-docs repo. For example, you might have a new article that you think would be beneficial or you might have a correction to an existing article. If you would like to contribute to the dynamics365smb-docs repo, you create what is called a *pull request* from your repo to the dynamics365smb-docs repo. The Microsoft team will then review the request and include the changes as appropriate.
 
-    This is the quickest way and is good for tech-review and small edits.
-- You can fork the repo and then work in the fork.
+For example, to create a pull request to the dynamics365smb-docs repo by using GitHub Desktop, do the following:
 
-    When you are done in the fork you commit your changes and make a pull request to the master repo. UA will then pick up the changes as needed. This method is good for making changes to existing articles or creating new articles when you cannot get your changes done right away and you want to save them as a work in progress.
-- Work locally by downloading the GitHub Desktop application from here: [https://desktop.github.com/](https://desktop.github.com/).
+1.  Commit the changes to your repo that you want to include in the pull request.
+2.  Choose **Sync** to push the changes up to your repo on GitHub.
+3.  When the sync is completed, choose **Pull Request**, make sure that the pull request points at the *live* branch, and then choose send **Pull Request**.
 
-    This lets you clone the repo on your machine. You can then make changes, sync with the master repo on GitHub, and create a Pull Request. This is useful for working on new content that stretches over a few sessions. This is how UA works.
-
-The general flow is as follows:
-
-1. Make changes to an existing file or add a new one.
-2. Commit proposed changes.
-3. Create Pull Request to have the changes included in the master repo.
-
-### Working in a fork
-
-1. Fork the repo using a browser window or Git Shell. Here is the address of the repo: https://github.com/MicrosoftDocs/dynamics365smb-docs-pr
-2. Clone your fork so you have a local copy, and then edit the Markdown files using your favorite Markdown editor, such as Atom.io or Visual Studio Code.
-3. Commit and push your changes using GitHub Desktop or Git Shell. Here is the command for Git Shell:
-   ```
-   git add -u
-   git commit -m "update doc"
-   git push
-   ```
-
-4. Wait for a moment and your changes will be automatically published to staging.
-> If you don't have the permission to push to this repo, fork it to your own account and use pull request to submit your changes back.
-
-## Validation and Preview
-
-You can build and preview your content in local to discover and fix problems early, before pushing your changes to the GitHub repo:
-
-1. To validate your changes, just run `..openpublishing.build.ps1` under the root of the repo.
-2. To preview your changes:
-   * Run `..openpublishing.build.ps1 -parameters:targets=serve` under the root of the repo.
-   * Open `http://localhost:8080` in your browser.
-
+**NOTE**: Microsoft accepts pull requests to the dynamics365smb-docs repo only, not the language-specific repos. If you have feedback about translations, you can report a GitHub issue in the relevant repo.
 
 ## Authoring in Markdown
-The content is styled using a Markdown syntax as described below. You don't have to worry too much about the Markdown syntax, because it will go through UA.
+
+The content is styled using a Markdown syntax as described below..
 
 ### General info:
 [Getting started with writing and formatting on GitHub](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
@@ -84,16 +62,13 @@ All topics must start with a YAML header with the following set of attributes.
 title: 'Short title with a couple of buzzwords for the feature. Not the same as your heading for the topic. | Microsoft Docs'
 description: 'A longer description that identifies the topic in search results.'
 author: MyGitHubAccount
-ms.author: MyDomainAccount
-ms-service: dynamics365-financials
+ms-service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords:keyword1, keyword2
 ms.date: MM/DD/YYYY
 
 ---
 ```
-
-The author attribute is used for the GitHub association, while the ms.author attribute is used in OPS and SkyEye. Remember to specify your own accounts...
 
 The ms.date tag must be updated to the date when you make the change. The ms.date property must follow the US date format of MM/DD/YYYY.
 

@@ -1,6 +1,6 @@
 ---
 title: Customize Dynamics 365 Business Central | Microsoft Docs
-description: Build, showcase, and promote your apps and extensions for Business Central .
+description: Build, showcase, and promote your apps and extensions for Business Central.
 services: project-madeira
 documentationcenter: ''
 author: edupont04
@@ -79,4 +79,4 @@ Learn more on how you can build a [!INCLUDE[d365fin_long](includes/d365fin_long_
 [https://appsource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365-for-financials&page=1)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 

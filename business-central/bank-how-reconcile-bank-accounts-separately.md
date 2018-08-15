@@ -11,15 +11,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 06/02/2017
+ms.date: 05/15/2018
 ms.author: sgroespe
 
 ---
 # Reconcile Bank Accounts Separately
-To reconcile bank accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)] with statements received from the bank, you must fill in the lines in the **Bank Acc. Reconciliation** window.
+To reconcile bank accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)] with statements received from the bank, you begin by filling in the left-hand pane in the **Bank Acc. Reconciliation** window with bank statement information that you then match (reconcile) with bank account ledger entries in the right-hand pane. A smart way to fill in bank statement lines is by importing a bank statement file or feed.
 
 > [!NOTE]  
->   You can also reconcile bank accounts in the **Payment Reconciliation Journal** window. Any open bank account ledger entries related to the applied customer or vendor ledger entries will be closed when you choose the **Post Payments and Reconcile Bank Account** action. This means that the bank account is automatically reconciled for payments that you post with the journal. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
+> In North American versions, you can also perform this work in the **Bank Rec. Worksheet** window, which is better suited for checks and deposits but does not offer import of bank statement files. To use this window instead of the **Bank Acc. Reconciliation** window, deselect the **Bank Recon. with Auto. Match** field in the **General Ledger Setup** window. For more information, see the "Reconcile Bank Accounts" section under United States Local Functionality.
+
+> [!TIP]  
+> You can also reconcile bank accounts in the **Payment Reconciliation Journal** window. Any open bank account ledger entries related to the applied customer or vendor ledger entries will be closed when you choose the **Post Payments and Reconcile Bank Account** action. This means that the bank account is automatically reconciled for payments that you post with the journal. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
 
 To enable import of bank statements as bank feeds, you must first set up and enable the Envestnet Yodlee Bank Feed service, and then link your bank accounts to the related online bank accounts. For more information, see [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md).
 
@@ -54,6 +57,8 @@ When the value in the **Total Balance** field in the **Bank Statement Lines** pa
 5. Choose the **OK** button.
 
 ## To match bank statement lines with bank account ledger entries automatically
+The window offers automatic matching functionality that applies payments to their related open entries based on a matching of text on a bank statement line (left pane) with text on one or more bank account ledger entries (right pane). Note that you can overwrite the suggested automatic applications, and you can choose to not use automatic application at all. For more information, see the next procedure.
+
 1. In the **Bank Acc. Reconciliation** window, choose the **Match Automatically**. **The Match Bank Entries** window opens.
 2. In the **Transaction Date Tolerance (Days)** field, specify the span of days before and after the bank account ledger entry posting date within which the function will search for matching transaction dates in the bank statement.
 
@@ -80,6 +85,7 @@ Sometimes a bank statement contain amounts for interest or fees charged. Such ba
 
     The **General Journal** window opens containing new journal lines for any banks statement lines with missing ledger entries.
 3. Complete the journal line with relevant information, such as the balancing account. For more information, see [Working with General Journals](ui-work-general-journals.md).  
+4. To review the result of posting before you post, choose the **Test Report** action. The **Bank Account Statement** report opens and shows the same fields as at the header of the **Bank Acc. Reconciliation** window.
 4. Choose the **Post** action.
 
     When the entry is posted, proceed to match the bank transaction with to it.

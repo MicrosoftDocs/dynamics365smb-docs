@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
-ms.date: 06/19/2017
+ms.date: 06/12/2018
 ms.author: bholtorf
 
 ---
@@ -24,8 +24,8 @@ Image Analyzer is free in [!INCLUDE[d365fin](includes/d365fin_md.md)], but there
 
 After you enable the extension, Image Analyzer runs each time you import an image to an item or contact person. You will see the attributes, confidence level, and details right away, and can decide what to do with each attribute. If you imported images before you enabled the Image Analyzer extension, you must go to the item or contact cards and choose the **Analyze Picture** action.  
 
->   [!NOTE]  
->   By enabling this extension you agree that Microsoft may store your data and use it to improve Microsoft services, such as making the Computer Vision API better. To help protect your privacy, we take steps to make your data anonymous and keep it secure. We will not publish your data or let other people use it. You can remove the image from the item in [!INCLUDE[d365fin](includes/d365fin_md.md)], however, the Computer Vision API will still have the image in its de-identified form. For more information, see [Microsoft Trust Center](https://go.microsoft.com/fwlink/?linkid=851463).
+## Privacy Notice 
+This extension uses the Computer Vision API from Microsoft Cognitive Services, which may have varying levels of compliance commitments than [!INCLUDE[d365fin](includes/d365fin_md.md)]. When you enable the Image Analyzer extension, Customer Data such as a contact image or an item image will be sent to the Computer Vision API. By installing this extension you agree for this limited set of data to be sent to the Computer Vision API. Note that you may disable, as well as uninstall, the Image Analyzer extension at any time to discontinue use of this functionality. For more information, see [Microsoft Trust Center](https://go.microsoft.com/fwlink/?linkid=851463).
 
 ## Requirements
 There are a few requirements for the images:
@@ -33,9 +33,6 @@ There are a few requirements for the images:
 * Image formats: JPEG, PNG, GIF, BMP  
 * Maximum file size: Less than 4 MB  
 * Image dimensions: Greater than 50 x 50 pixels  
-
-## Blacklisting suggested attributes
-If the analysis suggests an attribute that you do not want to see you can blacklist the attribute. Use caution, however. Blacklisted attributes are not suggested for other items or contact persons either. If you regret blacklisting an attribute, you can choose **Blacklisted Attributes**, and then delete the attribute from the list.
 
 ## To enable Image Analyzer
 The Image Analyzer extension is built-in to [!INCLUDE[d365fin](includes/d365fin_md.md)]. You just need to turn it on.
@@ -48,8 +45,8 @@ The Image Analyzer extension is built-in to [!INCLUDE[d365fin](includes/d365fin_
 * Open an item or contact card. In the notification bar, choose **Analyze Images**, and then follow the steps in the assisted setup guide.  
 * Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Connections**, and then choose **Image Analysis Setup**. Choose the **Enable Image Analyzer** check box, and then complete the steps in the assisted setup guide.  
 
->   [!TIP]  
->   The **Image Analysis Setup** page is also where you can change the degree of confidence for attribute suggestions. For example, if you want to require a greater degree of confidence, you can enter a higher percentage.
+    > [!TIP]  
+    > The **Image Analysis Setup** page is also where you can change the degree of confidence for attribute suggestions. For example, if you want to require a greater degree of confidence, you can enter a higher percentage.
 
 ## To analyze an image of an item
 The following steps describe how to analyze an image that was imported before you enabled the Image Analyzer extension.  
@@ -58,8 +55,8 @@ The following steps describe how to analyze an image that was imported before yo
 2. Choose the item, and then choose the **Analyze Picture** action.  
 3. The **Image Analyzer Attributes** page displays the detected attributes, the confidence level, and other details about the attribute. Use the **Action to perform** options to specify what to do with the attribute.  
 
->   [!TIP]  
->   You can add the name of the attribute to the item description by choosing **Add to item description**. For example, this can be useful for quickly adding detail.  
+    > [!TIP]  
+    > You can add the name of the attribute to the item description by choosing **Add to item description**. For example, this can be useful for quickly adding detail.  
 
 ## To analyze a picture of a contact person
 The following steps describe how to analyze an image that was imported before you enabled the Image Analyzer extension.  
@@ -68,14 +65,17 @@ The following steps describe how to analyze an image that was imported before yo
 2. Choose the contact person, and then choose the **Analyze Picture** action.  
 3. On the **Profile Questionnaire** FastTab, review the suggestions, and make corrections if needed.  
 
+## Blacklisting suggested attributes
+If the analysis suggests an attribute that you do not want to see you can blacklist the attribute. Use caution, however. Blacklisted attributes are not suggested for other items or contact persons either. If you regret blacklisting an attribute, you can choose **Blacklisted Attributes**, and then delete the attribute from the list.
+
 ## To use your own account for the Computer Vision API
 You can also use your own account for the Computer Vision API, for example, if you want to analyze more images than we allow.  
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Image Analyzer Setup**, and then choose the related link.  
 2. Enter the **API URI** and **API Key** that you received for Computer Vision API.  
 
->   [!NOTE]  
->   You must add **/analyze** at the end of the API URI, if it isn't already there. For example: ```https://cronus.api.cognitive.microsoft.com/vision/v1.0/analyze```.
+    > [!NOTE]  
+    > You must add **/analyze** at the end of the API URI, if it isn't already there. For example: ```https://cronus.api.cognitive.microsoft.com/vision/v1.0/analyze```.
 
 ## To see how many analyses you have left in the current period
 You can view the number of analyses you've done, and how many you can still do, in the current period.  

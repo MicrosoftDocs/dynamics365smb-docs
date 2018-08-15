@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting Integration with Microsoft Flow| Microsoft Docs
-description: Troubleshoot how you can make your Financials data available as a data source and specify an OData URL of your web services to build an automated workflow.
+description: Troubleshoot how you can make your Business Central data available as a data source and specify an OData URL of your web services to build an automated workflow.
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 
@@ -44,7 +44,7 @@ For example, if the table that you are using as a data source has 4,000 records,
 ## See Also
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] in an Automated Workflow](across-how-use-financials-data-source-flow.md)  
 [Getting Started](product-get-started.md)  
-[Importing Business Data from Other Finance Systems](upload-data.md)  
+[Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Manage Users and Permissions](ui-how-users-permissions.md)    
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finance](finance.md)  

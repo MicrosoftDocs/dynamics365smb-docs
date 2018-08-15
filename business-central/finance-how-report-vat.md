@@ -72,7 +72,7 @@ To report VAT to a tax authority electronically, you need to connect [!INCLUDE[d
     >   For the EC Sales List report, you can review the transactions included in the report lines before you submit the report. To do that, choose the line, and then choose the **Show VAT Entries** action.  
 4. To validate and prepare the report for submission, choose the **Release** action.  
 
-    >  [!NOTE]  
+    > [!NOTE]  
     >   [!INCLUDE[d365fin](includes/d365fin_md.md)] validates whether the report is set up correctly. If the validation fails, the errors display under **Errors and Warnings** so that you know what to fix. Typically, if the message is about a missing setting in [!INCLUDE[d365fin](includes/d365fin_md.md)], you can click the message to open the page that contains the information to correct.  
 5. To submit the report, choose the **Submit** action.  
 
@@ -87,10 +87,10 @@ If you use another method to submit the report, for example by exporting the XML
 ## VAT settlement
 Periodically, you must remit the net VAT to the tax authorities. If you need to settle VAT frequently, you can run the **Calc. and Post VAT Settlement** batch job to close the open VAT entries and transfer purchase and sales VAT amounts to the VAT settlement account.
 
-When you transfer VAT amounts to the settlement account, the purchase VAT account is credited, and the sales VAT account is debited with the amounts calculated for the specified period. The net amount is credited or debited, if the purchase VAT amount is larger, to the VAT settlement account. You can post the settlement immediately or print a test report first.
+When you transfer VAT amounts to the settlement account, the purchase VAT account is credited, and the sales VAT account is debited with the amounts calculated for the specified period. The net amount is credited or debited, if the purchase VAT amount is larger, to the VAT settlement account. You can post the settlement immediately or print a test report first.  
 
->    [!NOTE]  
->    When you use the **Calc. and Post VAT Settlement** batch job, if you don't specify a **VAT Bus. Posting Group** and a **VAT Prod. Posting group**, entries with all business posting groups and product posting group codes are included.
+> [!Note]
+> When you use the **Calc. and Post VAT Settlement** batch job, if you don't specify a **VAT Bus. Posting Group** and a **VAT Prod. Posting group**, entries with all business posting groups and product posting group codes are included.
 
 ## Configuring your own VAT reports
 You can use the EC Sales List report out-of-the-box, however, you can also create your own reports. This requires that you create a few codeunits. If you need help with that, contact a Microsoft Partner.  
@@ -103,13 +103,13 @@ The following table describes the codeunits that you must create for your report
 |Content | Control the format of the report. For example, whether it is XML or JSON. The format to use depends on the requirements of your tax authority's web service. |
 |Submission | Control how, and when, you submit the report based on the requirements of your tax authority. |
 |Response Handler | Handle the return from the tax authority. For example, it might send an email message to your company's contact person. |
-|Cancel | Send a cancellation of a VAT report that was submitted earlier to your tax authority. |
+|Cancel | Send a cancellation of a VAT report that was submitted earlier to your tax authority. |  
 
-> [!NOTE]  
->   When you create codeunits for the report, pay attention to the value in the **VAT Report Version** field. This field must reflect the version of the report that is, or was, required by the tax authority. For example, you might enter **2017** in the field to indicate that the report conforms to the requirements that were in place that year. To find the current version, contact your tax authority.  
-
+> [!Note]
+> When create codeunits for the report, pay attention to the value in the **VAT Report Version** field. This field must reflect the version of the report that is, or was, required by the tax authority. For example, you might enter **2017** in the field to indicate that the report conforms to the requirements that were in place that year. To find the current version, contact your tax authority.
+ 
 ## See also
 [Setting Up to Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md)  
 [Work with VAT on Sales and Purchases](finance-work-with-vat.md)  
 [Setting Up Sales](sales-setup-sales.md)  
-[Invoice Sales](sales-setup-sales.md)  
+[Invoice Sales](sales-how-invoice-sales.md)  

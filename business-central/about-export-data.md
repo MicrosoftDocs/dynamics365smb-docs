@@ -1,8 +1,6 @@
 ---
-title: Export Your Financials Data to Excel| Microsoft Docs
-description: You can export your financial reports and business intelligence data from Business Central  to Excel, or open your Financials data in Excel.
-services: project-madeira
-documentationcenter: ''
+title: Export Your Business Central Data to Excel| Microsoft Docs
+description: You can export your financial reports and business intelligence data from Business Central  to Excel, or open your data in Excel.
 author: edupont04
 
 ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 06/02/2017
+ms.date: 08/13/2018
 ms.author: edupont
 
 ---
@@ -22,6 +20,9 @@ If you want to work with your data from [!INCLUDE[d365fin](includes/d365fin_md.m
 You can open data in Excel from any journal, list, or worksheet. You just open the page that you want, and then choose **Open in Excel**. For example, open the list of customers (search for **Customers**), and then choose **Open in Excel**. Your browser will prompt you to open or save the generated Excel workbook.  
 
 Each list includes a number of columns, and the export to Excel will include any columns that are in your current view. If you want to add or remove columns before you open the list in Excel, you simply open the shortcut menu for any column and then specify which columns that you want to see. This list of columns is different for most lists, and it reflects the structure in the database where your data is stored. If you are not sure what type of data a certain column contains, you can add it to your view and then decide if you want to remove it again.  
+
+### Edit Data in Excel
+Your [!INCLUDE[d365fin](includes/d365fin_md.md)] experience includes an add-in for Excel so you can edit data in Excel. For more information, see [Analyzing Financial Statements in Microsoft Excel](finance-analyze-excel.md).  
 
 ## Exporting Data to Other Finance Systems
 If you decide to cancel your subscription for [!INCLUDE[d365fin](includes/d365fin_md.md)], you can export your data to Excel and take it with you to your next finance system.  
@@ -60,7 +61,8 @@ We recommend that you also consider exporting data from the following pages:
 
 ## See Also
 [Canceling Your Subscription for [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md)  
-[Importing Business Data from Other Finance Systems](upload-data.md)  
+[Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
+[Analyzing Financial Statements in Microsoft Excel](finance-analyze-excel.md)  
 [Finance](finance.md)  
 [General Business Functionality](ui-across-business-areas.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

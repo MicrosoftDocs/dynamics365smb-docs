@@ -16,12 +16,16 @@
     ms.author: sgroespe
 
 ---
-# Enter and Post Cash and Bank or Giro Journals
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the cash and bank journals to enter the transactions that affect the cash and bank accounts by using **Cash Book** and **Bank Book**.  
+# Enter and Post Cash and Bank/Giro Journals
+The cash journal and the bank/giro journal help you post transactions into the system in an easier and more direct way than using the general journal.  
 
-You can enter increases or decreases to the cash account in the **Cash Journals**. For example, you can use this journal for paying out petty cash or receiving transfers from a different bank account.  
+In conjunction with Telebanking, they allow you to import electronic bank statements into the **Bank/Giro Journal** window. The system can automatically reconcile these statements during the import process and determine whether a statement can be applied to open ledger entries for the relevant vendor/customer.
 
-The **Bank/Giro Journal** records the inflow or outflow of the cash to a specific bank account. This journal forms the basis for bank reconciliation. The layout of this journal resembles the paper bank statement, so you can transpose the required fields from the paper statement to the journal, or you can import an electronic bank statement file. The transactions can be customer payments or vendor payments.  
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the cash and bank journals to enter the transactions that affect the cash and bank accounts by using the **Cash Book** and **Bank Book** types.  
+
+You can enter increases or decreases to the cash account in the **Cash Journal** window. For example, you can use this journal for paying out petty cash or receiving transfers from a different bank account.  
+
+The **Bank/Giro Journal** window records the inflow or outflow of the cash to a specific bank account. This journal forms the basis for bank reconciliation. The layout of this journal resembles the paper bank statement, so you can transpose the required fields from the paper statement to the journal, or you can import an electronic bank statement file. The transactions can be customer payments or vendor payments.  
 
 You can apply the payments from customers to the open invoices from accounts receivables. You can also enter general ledger transactions to capture miscellaneous amounts, such as bank charges or interest income. VAT codes can also be applied to these transaction lines. You can define a journal for every bank account.  
 
@@ -80,4 +84,7 @@ You can apply the payments from customers to the open invoices from accounts rec
 The entries are posted to the general ledger. For more information, see General Ledger Entries.  
 
 ## See Also  
- [Print the Test Reports for Cash and Bank or Giro Journals](how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md)
+ [Print the Test Reports for Cash and Bank or Giro Journals](how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md)  
+ [Telebanking](telebanking.md)   
+ [Enter and Post Cash and Bank or Giro Journals](how-to-enter-and-post-cash-and-bank-or-giro-journals.md)  
+ [Applying Payments Automatically and Reconcile Bank Accounts](../../receivables-apply-payments-auto-reconcile-bank-accounts.md)

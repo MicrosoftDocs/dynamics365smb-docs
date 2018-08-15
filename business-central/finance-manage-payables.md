@@ -1,19 +1,18 @@
 ---
 title: Managing Accounts Payable| Microsoft Docs
-description: Overview of how Financials helps you manage accounts payable (AP), including vendor payments, creditors, debt, and balance due.
+description: Overview of how to manage accounts payable (AP), including vendor payments, creditors, debt, and balance due.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
 manager: edupont
 editor: ''
-
 ms.service: dynamics365-business-central
 ms.workload: na
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 06/02/2017
+ms.date: 06/01/2018
 ms.author: bholtorf
 
 ---
@@ -38,7 +37,7 @@ When you are ready to pay a vendor, from the **Payment Journal** window you can 
 
 If you do not want to post a payment journal line for an exported payment, for example because you are waiting for the bank to confirm the transaction, just delete the journal line. Later, when you create a payment journal line to pay the remaining amount on the invoice, the **Total Exported Amount** field shows how much of the payment amount has already been exported. Also, you can find detailed information about the exported total by choosing the **Credit Transfer Reg. Entries** button.
 
-If you wait to post payments until after your bank confirms that it has processed transactions, there are two ways to avoid accidently re-exporting payments for open documents:  
+If you wait to post payments until after your bank confirms that it has processed transactions, there are two ways to avoid accidentally re-exporting payments for open documents:  
 
 * In a payment journal with suggested payment lines, sort on either the **Exported to Payment File** or **Total Exported Amount** columns, and then delete payment suggestions for open invoices for which payments have already been made and you do not want to make payments for.
 

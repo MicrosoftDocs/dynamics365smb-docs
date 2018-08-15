@@ -2,7 +2,7 @@
     title: How to Deactivate Item Cost Tracking
     description: When inventory is not tracked for an item, the item cost does not need to be tracked, and an item ledger entry does not need to be created.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -35,5 +35,4 @@ You can deactivate item cost tracking for an item. Generally, item cost tracking
 4.  Choose the **OK** button.  
 
 ## See Also  
- [Swiss Inventory Management](swiss-inventory-management.md)   
- [Block Inventory Items for Sales or Purchases](how-to-block-inventory-items-for-sales-or-purchases.md)
+ [Swiss Inventory Management](swiss-inventory-management.md)

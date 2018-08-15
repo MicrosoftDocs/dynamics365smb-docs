@@ -1,6 +1,6 @@
 ---
 title: Use Your Data to Create an App| Microsoft Docs
-description: You can make your Financials data available as a data source and specify an OData URL of your web services to build a business app using PowerApps.
+description: You can make your Business Central data available as a data source and specify an OData URL of your web services to build a business app using PowerApps.
 services: project-madeira
 documentationcenter: ''
 author: edupont04
@@ -15,7 +15,7 @@ ms.date: 06/02/2017
 ms.author: edupont
 
 ---
-# Connecting to Your Financials Data to Build a Business App Using PowerApps
+# Connecting to Your Business Central Data to Build a Business App Using PowerApps
 You can make your [!INCLUDE[d365fin](includes/d365fin_md.md)] data available as a data source in PowerApps.  
 
 > [!NOTE]  
@@ -31,7 +31,7 @@ You can make your [!INCLUDE[d365fin](includes/d365fin_md.md)] data available as 
 5. In the list of available connections, choose **Dynamics 365 Business Central**.
 6. PowerApps will display a connection page that prompts you for the information that is required to connect to your [!INCLUDE[d365fin](includes/d365fin_md.md)] data. To connect, you must specify an OData URL, username, password, and company name.
 
-   For the *OData URL*, you can copy the OData V4 URL of any of the web services that are listed in the **Web Services** page in [!INCLUDE[d365fin](includes/d365fin_md.md)], such as `https://mycompany.financials.dynamics.com:7048/MS/ODataV4/`.  
+   For the *OData URL*, you can copy the OData V4 URL of any of the web services that are listed in the **Web Services** page in [!INCLUDE[d365fin](includes/d365fin_md.md)], such as `https://mycompany.businesscentral.dynamics.com:7048/MS/ODataV4/`.  
 
    For the *Company Name*, use the name that is shown in the **Name** field in the **Company Information** window in [!INCLUDE[d365fin](includes/d365fin_md.md)]. If your [!INCLUDE[d365fin](includes/d365fin_md.md)] contains multiple companies, choose the relevant company name from the list in the **Companies** window. In both cases, make sure that the name that you specify in the PowerApps wizard matches exactly the text shown in [!INCLUDE[d365fin](includes/d365fin_md.md)], such as `My Company`.
 
@@ -51,6 +51,6 @@ At this point, you have successfully connected to your Business Central data and
 
 ## See Also
 [Getting Started](product-get-started.md)  
-[Importing Business Data from Other Finance Systems](upload-data.md)  
+[Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finance](finance.md)  

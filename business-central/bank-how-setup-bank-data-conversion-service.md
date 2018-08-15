@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 06/02/2017
+ms.date: 06/08/2018
 ms.author: sgroespe
 
 ---
@@ -40,11 +40,8 @@ To import or export bank files, you must set up your own bank account and your v
 5. In the **Bank Data Conv. Service Setup** window, in the User **Name** field, enter the same value that you entered as logon name on the service provider’s page in step 4.
 6. In the **Password** field, enter the same value that you entered in the **Password** field on the service provider’s page in step 4.
 
-## To encrypt your login information
-It is recommended that you protect the logon information that you enter in the **Bank Data Conv. Service Setup** window. You can encrypt data on the [!INCLUDE[d365fin](includes/d365fin_md.md)] server by generating new or importing existing encryption keys that you enable on the [!INCLUDE[d365fin](includes/d365fin_md.md)] server instance that connects to the database.
-
-1. In the **Bank Data Conv. Service Setup** window, choose the **Encryption Management** action.
-2. In the **Data Encryption Management** window, enable encryption of your data.
+> [!NOTE]  
+> You login data is automatically encrypted.
 
 ## To view or update the list of currently supported bank data formats
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Data Conv. Service Setup** , and then choose the related link.

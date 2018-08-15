@@ -1,6 +1,6 @@
 ---
 title: Display Custom Power BI Reports| Microsoft Docs
-description: You can use Power BI reports to gain additional insight into data in lists in Financials.
+description: You can use Power BI reports to gain additional insight into data in lists.
 services: project-madeira
 documentationcenter: ''
 author: edupont04

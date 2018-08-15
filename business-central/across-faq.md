@@ -8,7 +8,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
+ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan, application area, experience
 ms.date: 08/15/2018
 ms.author: edupont
 

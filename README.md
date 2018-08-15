@@ -8,7 +8,7 @@ Welcome to the repository for user assistance content for Dynamics 365 Business 
 
 The content is available as markdown files (.md), where each file represents an article in the help. You can edit these markdown files, and then convert them to HTML files for application.
 
-There are different repos in GitHub for the source content and each of the languages that Microsoft translates to. The *nav-content* repo contains the content in English (US). If you want access to the content in other languages, navigate to the relevant repo - the names follow this pattern: *dynamics365smb-docs.<language>-<country>*, such as [dynamics365smb-docs.da-DK](https://github.com/MicrosoftDocs/dynamics365smb-docs.da-DK) for the Danish version.
+There are different repos in GitHub for the source content and each of the languages that Microsoft translates to. The *dynamics365smb-docs* repo contains the content in English (US). If you want access to the content in other languages, navigate to the relevant repo - the names follow this pattern: `dynamics365smb-docs.<language>-<country>`, such as [dynamics365smb-docs.da-DK](https://github.com/MicrosoftDocs/dynamics365smb-docs.da-DK) for the Danish version.
 
 **NOTE**: Microsoft accepts pull requests to the *dynamics365smb-docs* repo only, not the language-specific repos. If you have feedback about translations, you can report a GitHub issue in the relevant repo.
 

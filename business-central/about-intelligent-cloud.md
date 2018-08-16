@@ -11,38 +11,38 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 08/16/2018
-ms.author: edupont
+ms.author: bmeier
 
 ---
 
 # Your access to the Intelligent Cloud with [!INCLUDE[prodlong](includes/prodlong.md)]
 
-While [!INCLUDE[prodshort](includes/prodshort.md)] is a cloud-first service, we will continue to ensure that customers that need to run their workloads on premises or on the intelligent edge connected to the cloud, can do so. With [!INCLUDE[prodshort](includes/prodshort.md)], once the customer signs up for the service in the cloud, they have the option to deploy it locally to their own choice of hardware. While they are running on their own hardware, the customer will have a tenant in the cloud, and the data from the customers hardware will be replicated to the cloud for Intelligent Cloud scenarios. At all times we’ll keep the customer informed of their “Cloud Ready” status so when they’re ready to transition to the cloud completely it’s a simple step.
+While [!INCLUDE[prodshort](includes/prodshort.md)] is a cloud-first service, those customers who need to run their workloads fully on premises or on the intelligent edge connected to the cloud can do so.  
 
-We welcome these customers running their workloads on Dynamics NAV, Dynamics GP and Dynamics SL into the  [!INCLUDE[prodshort](includes/prodshort.md)] fold. This is done through the same Intelligent Cloud / Intelligent Edge scenarios as for [!INCLUDE[prodshort](includes/prodshort.md)] on premise. Each NAV, GP or SL tenant will have a [!INCLUDE[prodshort](includes/prodshort.md)] cloud tenant they can synchronize their data to. When they use this, we invoke our Intelligent Cloud scenarios of Machine Learning, Power BI, Flow and others to drive suggested actions. This helps the customer understand further the value of
-Business Central and over time, while Microsoft continues to support their NAV, GP and SL deployments, these customers can choose when they want to transition to  [!INCLUDE[prodshort](includes/prodshort.md)], as a perfect match for their businesses. Dynamics GP and Dynamics SL will continue to receive product improvements and updates, but the most benefit to these customers comes from upgrading to  [!INCLUDE[prodshort](includes/prodshort.md)]. There are migration tools available within  [!INCLUDE[prodshort](includes/prodshort.md)] and AppSource, and also partners that specialize in upgrading Dynamics GP and Dynamics SL customers to [!INCLUDE[prodshort](includes/prodshort.md)].
+When a customer signs up for [!INCLUDE[prodshort](includes/prodshort.md)], they can choose the default, cloud deployment solution, or they can choose to deploy it locally to their own choice of hardware. While they are running on their own hardware, the customer will have a tenant in the cloud, and the data from the customers hardware will be replicated to the cloud for Intelligent Cloud scenarios. At all times we’ll keep the customer informed of their *Cloud Ready* status so when they’re ready to transition to the cloud completely it’s a simple step.
+
+We welcome these customers running their workloads on Dynamics NAV, Dynamics GP and Dynamics SL into the [!INCLUDE[prodshort](includes/prodshort.md)] fold. This is done through the same Intelligent Cloud / Intelligent Edge scenarios as for [!INCLUDE[prodshort](includes/prodshort.md)] on-premises. Each Dynamics NAV, Dynamics GP, or Dynamics SL tenant that enables the Intelligent Edge will have a [!INCLUDE[prodshort](includes/prodshort.md)] cloud tenant they can synchronize their data to. When they use this, we invoke our Intelligent Cloud scenarios of Machine Learning, Power BI, Flow, and others to drive suggested actions. This helps the customer understand further the value of [!INCLUDE[prodshort](includes/prodshort.md)], and over time, while Microsoft continues to support their Dynamics NAV, Dynamics GP, and Dynamics SL solutions, these customers can choose when they want to transition to  [!INCLUDE[prodshort](includes/prodshort.md)] as a perfect match for their businesses. Dynamics GP and Dynamics SL will continue to receive product improvements and updates, but the most benefit to these customers comes from upgrading to [!INCLUDE[prodshort](includes/prodshort.md)]. There are migration tools available within  [!INCLUDE[prodshort](includes/prodshort.md)] and AppSource, and also partners that specialize in upgrading Dynamics GP and Dynamics SL customers to [!INCLUDE[prodshort](includes/prodshort.md)].
 
 ## Making your purchase decision
 
 When making a [!INCLUDE[prodshort](includes/prodshort.md)] purchase decision, you will have the option of
 making a purchase through CSP or through DPL. If you want to make a CSP purchase but your partner is not a CSP partner, it is recommended the partner work with a Master VAR that is a CSP partner.
 
-Users may also get started by going through the viral signup process and decide to purchase a license after the 30-day trial expires.  
+Users may also get started by going through the viral sign-up process and decide to purchase a license after the 30-day trial expires.  
 
 ### License purchased in CSP
 
 Various service plans or offers are available in CSP to purchase [!INCLUDE[prodshort](includes/prodshort.md)]. Refer to [fwdlink] for additional information.  
 
-[!INCLUDE[prodshort](includes/prodshort.md)] – this is a ‘dual rights’ license, named user, subscription
-based offer that provides you with the flexibility to configure a cloud tenant, on-premise installation, or an Intelligent Cloud environment that enables you to use your [!INCLUDE[prodshort](includes/prodshort.md)] cloud tenant in conjunction with your [!INCLUDE[prodshort](includes/prodshort.md)] (on-premises) installation.
+-  |R[!INCLUDE[prodshort](includes/prodshort.md)]
 
-The cloud environment is setup through CSP and the on-premises offer is set up using Order Central to obtain the FLF file. The initial purchase will be made in CSP, the order information will automatically sync with Order Central.  
+  This is a ‘dual rights’ license, named user, subscription based offer that provides you with the flexibility to configure a cloud tenant, on-premise installation, or an Intelligent Cloud environment that enables you to use your [!INCLUDE[prodshort](includes/prodshort.md)] cloud tenant in conjunction with your [!INCLUDE[prodshort](includes/prodshort.md)] (on-premises) installation.
+  The cloud environment is set up through CSP, and the on-premises offer is set up using Order Central to obtain the FLF file. The initial purchase will be made in CSP, the order information will automatically sync with Order Central.
+  This is ideal for customers that want a full cloud solution to run their business or customers that want ownership of an on-premises installation but want to take advantage of the growing services and value available in the cloud.
+-  Intelligent Cloud Add-in
 
-This is ideal for customers that want a full cloud solution to run their business or customers that want ownership of an on-premises installation but want to take advantage of the growing services and value available in the cloud.  
-
-Intelligent Cloud Add-in – this is premium license for a Business Central cloud solution run and managed in Microsoft Service. This is a named user, subscription-based offer, that will be available for users that have purchased their on-premises software through DPL.
-
-This is ideal for customers that want to maintain ownership of an on-premises installation but want to take advantage of the growing services and value available in the cloud as well as switch from a BREP model (CAPEX) to CSP model (COPEX).
+  This is a premium license for a [!INCLUDE[prodshort](includes/prodshort.md)] cloud solution run and managed in Microsoft Service. This is a named user, subscription-based offer, that will be available for users that have purchased their on-premises software through DPL. 
+  This is ideal for customers that want to maintain ownership of an on-premises installation but want to take advantage of the growing services and value available in the cloud as well as switch from a BREP model (CAPEX) to CSP model (COPEX).
 
 ### License purchased through DPL
 
@@ -56,69 +56,59 @@ This section will provide the steps required to configure your Intelligent Cloud
 
 There are a few key points that need to be understood before proceeding with the setup.
 
--   It is always a best practice to test this configuration in your Sandbox environment before making changes to a production tenant. See [fwdlink] on how to setup your [!INCLUDE[prodshort](includes/prodshort.md)] Sandbox tenant.
-
--   Any existing data in your [!INCLUDE[prodshort](includes/prodshort.md)] tenant will be overwritten with data from your on-premises solution, or source, once the data replication process is run. If you do not want data in your [!INCLUDE[prodshort](includes/prodshort.md)] cloud tenant to be overwritten, do not configure the Intelligent Cloud environment.
-
--   All users that do not belong to the ‘SUPER’ user group will be automatically reassigned to the Intelligent Cloud user group. This will limit them to read only access within the [!INCLUDE[prodshort](includes/prodshort.md)] tenant. See more below.
-
--   Several stored procedures will be added to the SQL server you define. These stored procedures are required to replicate date from your SQL server to the Azure SQL server associated with your [!INCLUDE[prodshort](includes/prodshort.md)] tenant.
-
--   With the initial release of the [!INCLUDE[prodshort](includes/prodshort.md)] Intelligent cloud, the amount of data that can be replicated for any tenant will be limited to 150GB. If your database is larger than 150GB, try reducing the number of companies you are replicating data for. Additional options for databases exceeding 150GB will be available in future updates.  
-
--   Before setting up your Intelligent Cloud environment, ensure that at least 1 user in the system is assigned to the ‘SUPER’ user group and has SUPER permissions. This is the only user that will be allowed to make changes in the [!INCLUDE[prodshort](includes/prodshort.md)] tenant.  
-
--   No changes will be made to users or data in your on-premises solution.
+- It is always a best practice to test this configuration in your Sandbox environment before making changes to a production tenant. See [fwdlink] on how to setup your [!INCLUDE[prodshort](includes/prodshort.md)] Sandbox tenant.
+- Any existing data in your [!INCLUDE[prodshort](includes/prodshort.md)] tenant will be overwritten with data from your on-premises solution, or source, once the data replication process is run. If you do not want data in your [!INCLUDE[prodshort](includes/prodshort.md)] cloud tenant to be overwritten, do not configure the Intelligent Cloud environment.
+- All users that do not belong to the ‘SUPER’ user group will be automatically reassigned to the Intelligent Cloud user group. This will limit them to read only access within the [!INCLUDE[prodshort](includes/prodshort.md)] tenant. See more below.
+- Several stored procedures will be added to the SQL server you define. These stored procedures are required to replicate date from your SQL server to the Azure SQL server associated with your [!INCLUDE[prodshort](includes/prodshort.md)] tenant.
+- With the initial release of the [!INCLUDE[prodshort](includes/prodshort.md)] Intelligent cloud, the amount of data that can be replicated for any tenant will be limited to 150GB. If your database is larger than 150GB, try reducing the number of companies you are replicating data for. Additional options for databases exceeding 150GB will be available in future updates.  
+- Before setting up your Intelligent Cloud environment, ensure that at least 1 user in the system is assigned to the ‘SUPER’ user group and has SUPER permissions. This is the only user that will be allowed to make changes in the [!INCLUDE[prodshort](includes/prodshort.md)] tenant.  
+- No changes will be made to users or data in your on-premises solution.
 
 To begin configuring your Intelligent Cloud environment, navigate to the assisted setup page and launch the **Set Up Intelligent Cloud** assisted setup wizard. If you are using [!INCLUDE[prodshort](includes/prodshort.md)] (on-premises) you may also launch the wizard from your on-premises solution. You will automatically be redirected to your [!INCLUDE[prodshort](includes/prodshort.md)] online tenant to continue the configuration process.  
 
 ### Intelligent Cloud Assisted Setup
---------------------------------
 
-Welcome and Consent Page – this page will provide an overview of what the wizard will do. You will be asked to agree to the displayed warning message before you can continue to the next step.
+The assisted setup guide consists of up to 6 pages that take you through the process of connecting your solution to the Intelligent Cloud.  
 
-Product selection – this will be your source, or on-premises, solution that you are replicating data from. All supported sources will appear in the this drop down. If you don’t see your product, navigate to the **Manage Extensions** page and verify the Intelligent Cloud extension for that product is installed.  
+1.   Welcome and Consent page
 
-SQL Connection – if the product you selected requires a SQL connection this page will be presented. Other source applications may require different information to connect to them. This page will display the connection information based upon the product you had chosen on the previous page. This is defined from the installed extensions for the product you have selected.
+     This page will provide an overview of what the wizard will do. You will be asked to agree to the displayed warning message before you can continue to the next step.
 
->   *SQL Connection:* There will be 2 options for SQL: SQL Server, which is your
->   locally installed SQL Instance or Azure SQL.
+2.   Product selection
 
->   *SQL Connection string***:** If you had chosen SQL Server for your SQL
->   Connection, you will be required to enter the connection string to your SQL
->   Server. This information can be found [fwdlink]. This is an example of what
->   this connection string would look like.
+     On this page, specify your source, or on-premises, solution that you are replicating data from. All supported sources will appear in the this drop down. If you don’t see your product, navigate to the **Manage Extensions** page and verify the Intelligent Cloud extension for that product is installed.
 
->   Server=tcp:{ServerName},1433;Initial Catalog={DatabaseName};Persist Security
->   Info=False;User
->   ID={UserName};Password={Password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True;Connection
->   Timeout=30;
+3.   SQL Connection
+     If the product you selected requires a SQL connection, this page will be presented. Other source applications may require different information to connect to them. This page will display the connection information based on the product that you specified in the previous page. This is defined from the installed extensions for the product you have selected.
 
->   *Integration runtime name***:** This is the service that will be used to
->   replicate the data from the defined source to your Business Central cloud
->   tenant.
+     *SQL Connection* There will be 2 options for SQL: SQL Server, which is your locally installed SQL Server instance or Azure SQL.
 
->   **Note**: The Integration Runtime Service is not required if your data
->   source is Azure SQL.
+     *SQL Connection string*: If you had chosen SQL Server for your SQL Connection, you will be required to enter the connection string to your SQL Server. This information can be found [fwdlink]. This is an example of what this connection string would look like:
+```
+     Server=tcp:{ServerName},1433;Initial Catalog={DatabaseName};Persist Security
+     Info=False;User
+     ID={UserName};Password={Password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True;Connection
+     Timeout=30;
+```
+     *Integration runtime name*: This is the service that will be used to
+     replicate the data from the defined source to your Business Central cloud
+     tenant.
 
->   If you are a hosting partner you may have multiple tenants running on the
->   same Integration runtime service. Each tenant will be isolated in their own
->   data pipeline. To add tenants to an existing integration runtime service,
->   enter the name of the existing integration runtime service into this field.
->   The integration runtime name can be found on the Microsoft Integration
->   Runtime Manager. To create a new runtime service, leave the field empty and
->   select Next.
+>    [!NOTE]  
+>    The Integration Runtime Service is not required if your data source is Azure SQL.
 
->   Once you select Next, a new replication pipeline will be created in the
->   Azure service. This should take less than a minute to complete.
+>    If you are a hosting partner you may have multiple tenants running on the same Integration runtime service. Each tenant will be isolated in their own data pipeline. To add tenants to an existing integration runtime service, enter the name of the existing integration runtime service into this field. The integration runtime name can be found on the Microsoft Integration Runtime Manager. To create a new runtime service, leave the field empty, and then choose the Next button. Once you choose Next, a new replication pipeline will be created in the Azure service. This should take less than a minute to complete.
 
-Self-Hosted Integration Runtime (SHIR): This is the service will allow access to the Azure replication services to your on-premises SQL Database during the replication process. Follow the instructions on this page to install the Self Hosted Integration Service (SHIR) to a local machine.  
+4.   Self-Hosted Integration Runtime (SHIR): This is the service will allow access to the Azure replication services to your on-premises SQL Database during the replication process. Follow the instructions on this page to install the Self Hosted Integration Service (SHIR) to a local machine.  
+5.   Company Selection:
 
-Company Selection: You will be provided with a list of companies from your on-premises solution, or source. Select the companies you would like to replicate data for. If the company does not exist in your [!INCLUDE[prodshort](includes/prodshort.md)] tenant, it will be created. This process may take several minutes depending on the number of companies that need to be created.  
+     You will be provided with a list of companies from your on-premises solution, or source. Select the companies you would like to replicate data for. If the company does not exist in your [!INCLUDE[prodshort](includes/prodshort.md)] tenant, it will be created. This process may take several minutes depending on the number of companies that need to be created.
 
-Enable & Scheduling Replication: The final page in the wizard allows you to enable the replication process and create a schedule for when the data replication should occur. These settings are also available within your [!INCLUDE[prodshort](includes/prodshort.md)] tenant on the **Intelligent Cloud Management** page. You have the option to schedule replication daily or weekly. We recommend that you schedule your data replication for off-peak business hours.
+6.   Enable & Scheduling Replication
+     The final page in the wizard allows you to enable the replication process and create a schedule for when the data replication should occur. These settings are also available within your [!INCLUDE[prodshort](includes/prodshort.md)] tenant on the **Intelligent Cloud Management** page. You have the option to schedule replication daily or weekly. We recommend that you schedule your data replication for off-peak business hours.
 
-**Note:** Depending on the amount of data and your connection speed, a full replication could take several hours to complete. Subsequent replications will complete more quickly as only changed data is replicating.  
+> [!NOTE]  
+>   Depending on the amount of data and your connection speed, a full replication could take several hours to complete. Subsequent replications will complete more quickly as only changed data is replicating.  
 
 ## Adding Tenant to an Exiting Runtime Service or Updating Companies
 

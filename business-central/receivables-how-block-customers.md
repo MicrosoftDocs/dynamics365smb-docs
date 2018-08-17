@@ -17,13 +17,15 @@
 
 ---
 # Block Customers
-You can block a customer, for example because of insolvency, so that the customer cannot be added to sales documents or so that no transactions can be posted for the customer.  
+You can block a customer, for example because of insolvency, so that the customer cannot be added to sales documents or so that no transactions can be posted for the customer.
+
+In addition to blocking a customer, you can set receivable transactions for the customer to be on hold in connection with reminders. For more information, see [Collect Outstanding Balances](receivables-collect-outstanding-balances.md).   
 
 The following table describes the different blocking options.  
 
 |Option|Description|  
 |--------------------|------------|  
-|**Blankd**|Transactions are allowed for this customer.|
+|**Blank**|Transactions are allowed for this customer.|
 |**Ship**|New orders and new shipments cannot be created for this customer. Existing shipments not yet invoiced can be invoiced.|  
 |**Invoice**|New orders, new shipments, and new invoices cannot be created for this customer. Existing shipments not yet invoiced cannot be invoiced.|  
 |**All**|No transaction is allowed for this customer, including payments.|  
@@ -35,4 +37,5 @@ The following table describes the different blocking options.
 
 ## See Also  
 [Register New Customers](sales-how-register-new-customers.md)  
+[Collect Outstanding Balances](receivables-collect-outstanding-balances.md)  
 [Managing Receivables](receivables-manage-receivables.md)  

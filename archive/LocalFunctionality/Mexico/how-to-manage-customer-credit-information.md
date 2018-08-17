@@ -13,7 +13,7 @@
     ms.search.keywords:
     ms.date: 08/11/2017
     ms.author: sgroespe
-    redirect_url: receivables-how-block-customers
+    redirect_url: ../../receivables-how-block-customers
 
 ---
 # Manage Customer Credit Information

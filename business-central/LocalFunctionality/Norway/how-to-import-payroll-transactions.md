@@ -14,38 +14,17 @@ ms.author: edupont
 
 ---
 # Import Payroll Transactions
-You can import payroll transactions into a general journal from the leading Norwegian payroll solution,  Huldt & Lillevik Lønn - Visma. You can then use the general journal to post the imported payroll transactions to general ledger accounts or bank accounts. To import payroll transactions, you must first set up payroll integration.  
+You can import payroll transactions into a general journal from the leading Norwegian payroll solution, Huldt & Lillevik Lønn - Visma. You can then use the general journal to post the imported payroll transactions to general ledger accounts or bank accounts. To import payroll transactions, you must first set up payroll integration.  
 
-## To set up payroll integration  
-
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payroll Integration Setup**, and then choose the related link.  
-2.  On the **General** FastTab, fill in the fields as described in the following table.  
-
-    |Field|Description|  
-    |---------------------------------|---------------------------------------|  
-    |**Payroll System**|Select a payroll system.|  
-    |**File Name**|Enter the full path of the file.|  
-    |**Save Payroll File**|Select to save the payroll file.|  
-    |**Import Department and Project**|Select to import department and project information.|  
-    |**Journal Template Name**|Select the name of the journal template.|  
-    |**Journal Name**|Select a journal to receive the imported payroll transactions.|  
-    |**Post to**|Select the account type to post the payroll transactions to. Account types include **G/L Account** and **Bank Account**.|  
-
-3.  Choose the **OK** button.  
+> [!NOTE]  
+>  To import payroll transactions, your [!INCLUDE[prodshort](../../includes/prodshort.md)] must include the **Payroll Data Definitions (NO)** extension. If you are not sure if you have this extension, please talk to your administrator.  
 
 ## To import payroll transactions  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journals**, and then choose the related link.  
-2.  Choose the **Import Payroll** action.  
-3.  On the **Options** FastTab, fill in the fields as described in the following table.  
-
-    |Field|Description|  
-    |---------------------------------|---------------------------------------|  
-    |**Posting Date**|Select a payroll system.|  
-    |**Document text**|Enter the full path of the file.|  
-    |**File Name**|Specify the file name for the payroll file.|  
-
-4.  Choose the **OK** button.  
+2.  Choose the journal to use, and then use the **Import Payroll File** action to import the data file from the payroll service provider.  
+3.  Choose the **OK** button.  
 
 ## See Also  
- [Norway Local Functionality](norway-local-functionality.md)
+[The Payroll Data Definitions (NO) Extension](ui-extensions-payroll-data-definitions-no.md)  
+[Norway Local Functionality](norway-local-functionality.md)  

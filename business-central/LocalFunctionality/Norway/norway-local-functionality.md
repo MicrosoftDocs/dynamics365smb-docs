@@ -1,6 +1,6 @@
 ---
 title: Norway Local Functionality
-description: The following topics describe the local functionality in the Norwegian version of Busincess Central.
+description: The following topics describe the local functionality in the Norwegian version of Business Central.
 author: edupont04
 
 ms.service: dynamics365-business-central
@@ -14,10 +14,11 @@ ms.author: edupont
 
 ---
 # Norway Local Functionality
-The following topics describe local functionality that is unique to the Norwegian version of [!INCLUDE[prodshort](../../includes/prodshort.md)]  
+The following topics describe local functionality that is unique to the Norwegian version of [!INCLUDE[prodshort](../../includes/prodshort.md)].  
 
 ## In This Section  
 [Import Payroll Transactions](how-to-import-payroll-transactions.md)  
+[The Payroll Data Definitions (NO) Extension](ui-extensions-payroll-data-definitions-no.md)  
 <!--
   [Apply General Ledger Entries in Closed Periods](how-to-apply-general-ledger-entries-in-closed-periods.md)  
 
@@ -30,4 +31,4 @@ The following topics describe local functionality that is unique to the Norwegia
  -->
 
 ## See Also
-[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)    
+[Working with [!INCLUDE[prodshort](../../includes/prodshort.md)]](../../ui-work-product.md)    

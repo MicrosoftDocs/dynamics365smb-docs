@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Node Name="" DisplayName="Help" Page="product-get-started.html">
+  <Node Name="" DisplayName="Getting Started" Page="across-get-started.html">
+    <Node Name="" DisplayName="Overview of Business Functionality" Page="across-business-functionality.html"/>
+    <Node Name="" DisplayName="Importing Business Data from Other Finance Systems" Page="upload-data.html"/>
+    <Node Name="" DisplayName="Getting Business Central on Your Mobile Device" Page="install-mobile-app.html"/>
+    <Node Name="" DisplayName="Synchronize with Contacts in Microsoft Outlook" Page="admin-synchronize-outlook-contacts.html"/>
+    <Node Name="" DisplayName="Using Business Central as Your Business Inbox in Outlook" Page="admin-outlook.html"/>
+    <Node Name="" DisplayName="Enabling Your Business Data for Power BI" Page="admin-powerbi.html"/>
+    <Node Name="" DisplayName="Using Business Central as a Power BI Data Source" Page="across-how-use-financials-data-source-powerbi.html"/>
+    <Node Name="" DisplayName="Customizing Business Central Using Extensions" Page="ui-extensions.html"/>
+  </Node>
+  <Node Name="" DisplayName="Tips and Tricks" Page="ui-work-product.html">
+    <Node Name="" DisplayName="Working with Business Central" Page="ui-work-product.html"/>
+    <Node Name="" DisplayName="Using Search for Page or Report" Page="ui-search.html"/>
+    <Node Name="" DisplayName="Changing Basic Settings" Page="ui-change-basic-settings.html"/>
+    <Node Name="" DisplayName="How to: Change the Role Center" Page="change-role.html"/>
+    <Node Name="" DisplayName="Customizing Business Central" Page="ui-customizing-overview.html"/>
+    <Node Name="" DisplayName="Letting Business Central Suggest Values" Page="ui-let-system-suggest-values.html"/>
+    <Node Name="" DisplayName="Printing a Report" Page="ui-work-report.html"/>
+    <Node Name="" DisplayName="Videos on Common Tasks" Page="across-videos.html"/>
+  </Node>
+  <Node Name="" DisplayName="Setting Up Business Central" Page="setup.html">
+    <Node Name="" DisplayName="Setup and Administration" Page="admin-setup-and-administration.html">
+      <Node Name="" DisplayName="Logging Changes" Page="across-log-changes.html"/>
+      <Node Name="" DisplayName="Creating New Companies" Page="about-new-company.html"/>
+      <Node Name="" DisplayName="Users, Profiles, and Role Centers" Page="admin-users-profiles-roles.html"/>
+      <Node Name="" DisplayName="How to: Manage Users and Permissions" Page="ui-how-users-permissions.html"/>
+      <Node Name="" DisplayName="Using Job Queues to Schedule Tasks" Page="admin-job-queues-schedule-tasks.html"/>
+      <Node Name="" DisplayName="How to: Publish a Web Service" Page="across-how-publish-web-service.html"/>
+    </Node>
+    <Node Name="" DisplayName="Setting Up Finance" Page="finance-setup-finance.html">
+      <Node Name="" DisplayName="Defining Payment Methods" Page="finance-payment-methods.html"/>
+      <Node Name="" DisplayName="Setting Up Posting Groups" Page="finance-posting-groups.html"/>
+      <Node Name="" DisplayName="How to: Work with Payment Tolerances and Payment Discount Tolerances" Page="finance-payment-tolerance-and-payment-discount-tolerance.html"/>
+      <Node Name="" DisplayName="How to: Open a New Fiscal Year" Page="finance-how-open-new-fiscal-year.html"/>
+      <Node Name="" DisplayName="Setting Up Value-Added Tax" Page="finance-setup-vat.html"/>
+      <Node Name="" DisplayName="How to: Update Currency Exchange Rates" Page="finance-how-update-currencies.html"/>
+      <Node Name="" DisplayName="Setting Up the Chart of Accounts" Page="finance-setup-chart-accounts.html"/>
+      <Node Name="" DisplayName="Setting Up Cash Flow Analysis" Page="finance-setup-cash-flow-analyses.html"/>
+      <Node Name="" DisplayName="How to: Set Up Cash Customers" Page="finance-how-to-set-up-cash-customers.html"/>
+      <Node Name="" DisplayName="How to: Set Up Intrastat Reporting" Page="finance-how-setup-report-intrastat.html"/>
+      <Node Name="" DisplayName="How To: Work with the Consolidated Trial Balance Report" Page="accross-how-consolidated-company-reporting.html"/>
+    </Node>
+    <Node Name="" DisplayName="Setting Up Banking" Page="bank-setup-banking.html">
+      <Node Name="" DisplayName="How to: Set Up Bank Accounts" Page="bank-how-setup-bank-accounts.html"/>
+      <Node Name="" DisplayName="How to: Set Up the Bank Data Conversion Service" Page="bank-how-setup-bank-data-conversion-service.html"/>
+    </Node>
+    <Node Name="" DisplayName="Setting Up Sales" Page="sales-setup-sales.html">
+      <Node Name="" DisplayName="How to: Register New Customers" Page="sales-how-register-new-customers.html"/>
+      <Node Name="" DisplayName="How to: Enable Customer Payments Through Payment Services" Page="sales-how-enable-payment-service-extensions.html"/>
+      <Node Name="" DisplayName="How to: Record Special Sales Prices and Discounts" Page="sales-how-record-sales-price-discount-payment-agreements.html"/>
+      <Node Name="" DisplayName="How to: Set Up Salespeople" Page="sales-how-setup-salespeople.html"/>
+      <Node Name="" DisplayName="How to: Set Up Document Sending Profiles" Page="sales-how-setup-document-send-profiles.html"/>
+      <Node Name="" DisplayName="How to: Send Documents by Email" Page="ui-how-send-documents-email.html"/>
+      <Node Name="" DisplayName="How to: Verify VAT Registration Numbers" Page="sales-how-to-verify-vat-registration-numbers.html"/>
+      <Node Name="" DisplayName="How to: Set Up Shipping Agents" Page="sales-how-to-set-up-shipping-agents.html"/>
+    </Node>
+    <Node Name="" DisplayName="Setting Up Purchasing" Page="purchasing-setup-purchasing.html">
+      <Node Name="" DisplayName="How to: Register New Vendors" Page="purchasing-how-register-new-vendors.html"/>
+      <Node Name="" DisplayName="How to: Record Special Purchase Prices and Discounts" Page="purchasing-how-record-purchase-price-discount-payment-agreements.html"/>
+      <Node Name="" DisplayName="How to: Prioritize Vendors" Page="purchasing-how-prioritize-vendors.html"/>
+      <Node Name="" DisplayName="How to: Set Up Purchasers" Page="purchasing-how-setup-purchasers.html"/>
+    </Node>
+    <Node Name="" DisplayName="Setting Up Inventory" Page="inventory-setup-inventory.html">
+      <Node Name="" DisplayName="How to: Set Up General Inventory Information" Page="inventory-how-setup-general.html"/>
+      <Node Name="" DisplayName="How to: Work with Responsibility Centers" Page="inventory-responsibility-centers.html"/>
+      <Node Name="" DisplayName="How to: Set Up Locations" Page="inventory-how-setup-locations.html"/>
+      <Node Name="" DisplayName="How to: Register New Items" Page="inventory-how-register-new-items.html"/>
+      <Node Name="" DisplayName="How to: Set Up Stockkeeping Units" Page="inventory-how-to-set-up-stockkeeping-units.html"/>
+      <Node Name="" DisplayName="How to: Categorize Items" Page="inventory-how-categorize-items.html"/>
+    </Node>
+    <Node Name="" DisplayName="Setting Up Project Management" Page="projects-setup-projects.html">
+      <Node Name="" DisplayName="How to: Set Up Resources" Page="projects-how-setup-resources.html"/>
+      <Node Name="" DisplayName="How to: Set Up Time Sheets" Page="projects-how-setup-time-sheets.html"/>
+      <Node Name="" DisplayName="How to: Set Up Jobs" Page="projects-how-setup-jobs.html"/>
+    </Node>
+    <Node Name="" DisplayName="Setting Up Fixed Assets" Page="fa-setup.html">
+      <Node Name="" DisplayName="How to: Set Up General Fixed Assets Information" Page="fa-how-setup-general.html"/>
+      <Node Name="" DisplayName="How to: Set Up Fixed Asset Depreciation" Page="fa-how-setup-depreciation.html"/>
+      <Node Name="" DisplayName="How to: Set Up Fixed Asset Insurance" Page="fa-how-setup-insurance.html"/>
+      <Node Name="" DisplayName="How to: Set Up Fixed Asset Maintenance" Page="fa-how-setup-maintenance.html"/>
+    </Node>
+    <Node Name="" DisplayName="Setting Up Warehouse Management" Page="warehouse-setup-warehouse.html">
+      <Node Name="" DisplayName="Design Details: Warehouse Overview" Page="design-details-warehouse-overview.html"/>
+      <Node Name="" DisplayName="How to: Set Up Bin Types" Page="warehouse-how-to-set-up-bin-types.html"/>
+      <Node Name="" DisplayName="How to: Create Bins" Page="warehouse-how-to-create-individual-bins.html"/>
+      <Node Name="" DisplayName="How to: Create Bin Contents" Page="warehouse-how-to-set-up-bin-contents.html"/>
+      <Node Name="" DisplayName="How to: Set Up Put-away Templates" Page="warehouse-how-to-set-up-put-away-templates.html"/>
+      <Node Name="" DisplayName="How to: Set Up Warehouse Employees" Page="warehouse-how-to-set-up-warehouse-employees.html"/>
+      <Node Name="" DisplayName="How to: Set Up Locations to Use Bins" Page="warehouse-how-to-set-up-locations-to-use-bins.html"/>
+      <Node Name="" DisplayName="How to: Convert Existing Locations to Warehouse Locations" Page="warehouse-how-to-convert-existing-locations-to-warehouse-locations.html"/>
+      <Node Name="" DisplayName="How to: Set Up Basic Warehouses with Operations Areas" Page="warehouse-how-to-set-up-basic-warehouses-with-operations-areas.html"/>
+      <Node Name="" DisplayName="How to: Set Up Items and Locations for Directed Put-away and Pick" Page="warehouse-how-to-set-up-items-for-directed-put-away-and-pick.html"/>
+      <Node Name="" DisplayName="How to: Count, Adjust, or Reclassify Inventory" Page="inventory-how-count-adjust-reclassify.html"/>
+      <Node Name="" DisplayName="How to: Enable Automatic Breaking Bulk with Directed Put-away and Pick" Page="warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.html"/>
+      <Node Name="" DisplayName="How to: Enable Picking by FEFO" Page="warehouse-picking-by-fefo.html"/>
+      <Node Name="" DisplayName="How to: Enable Automated Data Capture Systems (ADCS)" Page="warehouse-use-automated-data-capture-systems-adcs.html"/>
+      <Node Name="" DisplayName="How to: Restructure Warehouses" Page="warehouse-how-to-restructure-warehouses.html"/>
+    </Node>
+    <Node Name="" DisplayName="Setting Up Manufacturing" Page="production-configure-production-processes.html">
+      <Node Name="" DisplayName="How to: Create Work Center Calendars" Page="production-how-to-create-work-center-calendars.html"/>
+      <Node Name="" DisplayName="How to: Set Up Work Centers and Machine Centers" Page="production-how-to-set-up-work-and-machine-centers.html"/>
+      <Node Name="" DisplayName="How to: Create Routings" Page="production-how-to-create-routings.html"/>
+      <Node Name="" DisplayName="How to: Create Production BOMs" Page="production-how-to-create-production-boms.html"/>
+      <Node Name="" DisplayName="Enable Flushing of Components According to Operation Output" Page="production-how-to-flush-components-according-to-operation-output.html"/>
+      <Node Name="" DisplayName="How to: Work With Manufacturing Batch Units of Measure" Page="production-how-to-use-the-manufacturing-batch-unit-of-measure.html"/>
+      <Node Name="" DisplayName="How to: Work With Production Families" Page="production-how-work-family.html"/>
+      <Node Name="" DisplayName="How to: Set Up Standard Routing Lines" Page="production-how-set-up-standard-routing-lines.html"/>
+      <Node Name="" DisplayName="How to: Subcontract Manufacturing" Page="production-how-to-subcontract-manufacturing.html"/>
+    </Node>
+    <Node Name="" DisplayName="Setting Up Service Management" Page="service-setup-service.html">
+      <Node Name="" DisplayName="How to: Set Up Standard Service Codes" Page="service-how-setup-service-coding.html"/>
+      <Node Name="" DisplayName="How to: Configure Service Processes" Page="service-setup-service-processes.html"/>
+      <Node Name="" DisplayName="How to: Set Up Fault Reporting" Page="service-how-setup-fault-reporting.html"/>
+      <Node Name="" DisplayName="How to: Set Up Service Offerings" Page="service-how-setup-service-offerings.html"/>
+      <Node Name="" DisplayName="How to: Set Up Troubleshooting" Page="service-how-setup-troubleshooting.html"/>
+      <Node Name="" DisplayName="How to: Set Up Resource Allocation" Page="service-how-setup-resource-allocation.html"/>
+      <Node Name="" DisplayName="How to: Set Up Pricing and Additional Costs for Services" Page="service-how-setup-service-costs-pricing.html"/>
+      <Node Name="" DisplayName="How to: Set Up Service Items and Service Item Components" Page="service-how-setup-service-items.html"/>
+      <Node Name="" DisplayName="How to: Set Up Work Hours and Service Hours" Page="service-how-setup-work-service-hours.html"/>
+      <Node Name="" DisplayName="How to: Set Up Statuses for Service Orders and Repairs" Page="service-order-repair-status.html"/>
+      <Node Name="" DisplayName="How to: Set Up a Loaner Program" Page="service-how-setup-loaner-program.html"/>
+      <Node Name="" DisplayName="How to: Set Up Service Contracts" Page="service-how-setup-service-contracts.html"/>
+    </Node>
+    <Node Name="" DisplayName="Depreciation Methods" Page="fa-depreciation-methods.html"/>
+    <Node Name="" DisplayName="How to: Set up Email" Page="madeira-how-setup-email.html"/>
+    <Node Name="" DisplayName="How to: Create Number Series" Page="ui-create-number-series.html"/>
+    <Node Name="" DisplayName="How to: Set Up Extended Item Text" Page="ui-how-define-ext-text.html"/>
+    <Node Name="" DisplayName="How to: Set Up Base Calendars" Page="across-how-to-assign-base-calendars.html"/>
+    <Node Name="" DisplayName="Setting Up Complex Application Areas Using Best Practices" Page="set-up-complex-application-areas-using-best-practices.html">
+      <Node Name="" DisplayName="Setup Best Practices: Supply Planning" Page="setup-best-practices-supply-planning.html"/>
+      <Node Name="" DisplayName="Setup Best Practices: Costing Methods" Page="setup-best-practices-costing-method.html"/>
+    </Node>
+  </Node>
+  <Node Name="" DisplayName="Finance" Page="finance.html">
+    <Node Name="" DisplayName="Managing Receivables" Page="receivables-manage-receivables.html">
+      <Node Name="" DisplayName="Applying Payments Automatically and Reconcile Bank Accounts" Page="receivables-apply-payments-auto-reconcile-bank-accounts.html"/>
+      <Node Name="" DisplayName="How to: Reconcile Customer Payments Manually From a List of Unpaid Sales Documents" Page="receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.html"/>
+      <Node Name="" DisplayName="How to: How to: Apply Customer Payments Manually" Page="receivables-how-apply-sales-transactions-manually.html"/>
+      <Node Name="" DisplayName="How to: Collect Outstanding Balances" Page="receivables-collect-outstanding-balances.html"/>
+      <Node Name="" DisplayName="How to: Use Item Charges to Account for Additional Trade Costs" Page="payables-how-assign-item-charges.html"/>
+      <Node Name="" DisplayName="How to: Work with Payment Tolerances and Payment Discount Tolerances" Page="finance-payment-tolerance-and-payment-discount-tolerance.html"/>
+    </Node>
+    <Node Name="" DisplayName="Managing Payables" Page="payables-manage-payables.html">
+      <Node Name="" DisplayName="Making Payments" Page="payables-make-payments.html"/>
+      <Node Name="" DisplayName="Apply Payments Automatically and Reconcile Bank Accounts" Page="receivables-apply-payments-auto-reconcile-bank-accounts.html"/>
+      <Node Name="" DisplayName="How to: How to: Reconcile Vendor Payments Manually" Page="payables-how-apply-purchase-transactions-manually.html"/>
+      <Node Name="" DisplayName="How to: Use Item Charges to Account for Additional Trade Costs" Page="payables-how-assign-item-charges.html"/>
+    </Node>
+    <Node Name="" DisplayName="Invoicing Prepayments" Page="finance-invoice-prepayments.html">
+      <Node Name="" DisplayName="How to: Set Up Prepayments" Page="finance-set-up-prepayments.html"/>
+      <Node Name="" DisplayName="How to: Create Prepayment Invoices" Page="finance-how-to-create-prepayment-invoices.html"/>
+      <Node Name="" DisplayName="How to: Correct Prepayments" Page="finance-how-to-correct-prepayments.html"/>
+    </Node>
+    <Node Name="" DisplayName="Managing Bank Accounts" Page="bank-manage-bank-accounts.html">
+      <Node Name="" DisplayName="Applying Payments Automatically and Reconcile Bank Accounts" Page="receivables-apply-payments-auto-reconcile-bank-accounts.html"/>
+      <Node Name="" DisplayName="How to: Reconcile Bank Accounts Separately" Page="bank-how-reconcile-bank-accounts-separately.html"/>
+      <Node Name="" DisplayName="How to: Transfer Bank Funds" Page="bank-how-transfer-bank-funds.html"/>
+    </Node>
+    <Node Name="" DisplayName="Managing Intercompany Transactions" Page="intercompany-manage.html">
+      <Node Name="" DisplayName="How to: Set Up Intercompany" Page="intercompany-how-setup.html"/>
+      <Node Name="" DisplayName="How to: Work with Intercompany Documents and Journals" Page="intercompany-how-work-documents-journals.html"/>
+      <Node Name="" DisplayName="How to: Manage the Intercompany Inbox and Outbox" Page="intercompany-how-manage-intercompany-inbox.html"/>
+    </Node>
+    <Node Name="" DisplayName="Accounting for Costs" Page="finance-manage-cost-accounting.html">
+      <Node Name="" DisplayName="Terminology in Cost Accounting" Page="finance-terminology-in-cost-accounting.html"/>
+      <Node Name="" DisplayName="About Cost Accounting" Page="finance-about-cost-accounting.html"/>
+      <Node Name="" DisplayName="Setting Up Cost Accounting" Page="finance-set-up-cost-accounting.html"/>
+      <Node Name="" DisplayName="Transferring and Posting Cost Entries" Page="finance-transfer-and-post-cost-entries.html"/>
+      <Node Name="" DisplayName="Defining and Allocating Costs" Page="finance-define-and-allocate-costs.html"/>
+      <Node Name="" DisplayName="Creating Cost Budgets" Page="finance-create-cost-budgets.html"/>
+    </Node>
+    <Node Name="" DisplayName="Managing Inventory Costs" Page="finance-manage-inventory-costs.html">
+      <Node Name="" DisplayName="About Inventory Costing" Page="finance-learn-about-costing.html"/>
+      <Node Name="" DisplayName="Setting Up Inventory Valuation and Costing" Page="finance-set-up-inventory-valuation-and-costing.html"/>
+      <Node Name="" DisplayName="How to: Revalue Inventory" Page="inventory-how-revalue-inventory.html"/>
+      <Node Name="" DisplayName="How to: Adjust Item Costs" Page="inventory-how-adjust-item-costs.html"/>
+      <Node Name="" DisplayName="How to: Handle Inventory and Manufacturing Costs" Page="finance-handle-inventory-and-manufacturing-costs.html"/>
+      <Node Name="" DisplayName="How to: Update Standard Costs" Page="finance-how-to-update-standard-costs.html"/>
+      <Node Name="" DisplayName="Reporting Costs and Reconciling with the General Ledger" Page="finance-report-costs-and-reconcile-with-the-general-ledger.html"/>
+      <Node Name="" DisplayName="Design Details: Inventory Costing" Page="design-details-inventory-costing.html"/>
+    </Node>
+    <Node Name="" DisplayName="Understanding the General Ledger and the COA" Page="finance-general-ledger.html"/>
+    <Node Name="" DisplayName="Working with Dimensions" Page="finance-dimensions.html"/>
+    <Node Name="" DisplayName="How to: Create Budgets" Page="finance-how-create-budgets.html"/>
+    <Node Name="" DisplayName="How to: Post Transactions Directly to the General Ledger" Page="finance-how-post-transactions-directly.html"/>
+    <Node Name="" DisplayName="How to: Reverse Postings" Page="finance-how-reverse-journal-posting.html"/>
+    <Node Name="" DisplayName="How to: Allocate Costs and Income" Page="year-allocate-costs-income.html"/>
+    <Node Name="" DisplayName="How to: Use Item Charges to Account for Additional Trade Costs" Page="payables-how-assign-item-charges.html"/>
+    <Node Name="" DisplayName="How to: Record and Reimburse Employees' Expenses" Page="finance-how-record-reimburse-employee-expenses.html"/>
+    <Node Name="" DisplayName="How to: Defer Revenues and Expenses" Page="finance-how-defer-revenue-expenses.html"/>
+    <Node Name="" DisplayName="How to: Import Payroll Transactions" Page="finance-how-import-payroll-transactions.html"/>
+    <Node Name="" DisplayName="How to: Report VAT to Tax Authorities" Page="finance-how-report-vat.html"/>
+    <Node Name="" DisplayName="How to: Work with VAT on Sales and Purchases" Page="finance-work-with-vat.html"/>
+    <Node Name="" DisplayName="How to: Convert Service Contracts that Include VAT Amounts" Page="service-how-to-convert-service-contracts.html"/>
+    <Node Name="" DisplayName="Analyzing Financial Statements in Excel" Page="finance-analyze-excel.html"/>
+    <Node Name="" DisplayName="Analyzing Cash Flows in Your Company" Page="finance-analyze-cash-flow.html"/>
+    <Node Name="" DisplayName="Closing Years and Periods" Page="year-close-years-periods.html">
+      <Node Name="" DisplayName="How to: Specify Posting Periods" Page="finance-how-specify-posting-periods.html"/>
+      <Node Name="" DisplayName="Closing Periods" Page="year-how-complete-period-end-processes.html"/>
+      <Node Name="" DisplayName="How to: Update Currency Exchange Rates" Page="finance-how-update-currencies.html"/>
+      <Node Name="" DisplayName="How to: Allocate Costs and Income" Page="year-allocate-costs-income.html"/>
+      <Node Name="" DisplayName="How To: Report VAT to the Tax Authorities" Page="finance-how-report-vat.html"/>
+      <Node Name="" DisplayName="Preparing Pre-Closing Reports" Page="year-prepare-preclose-reports.html"/>
+      <Node Name="" DisplayName="Closing Books" Page="year-close-books.html"/>
+      <Node Name="" DisplayName="Preparing Closing Statements" Page="year-prepare-close-statement.html"/>
+    </Node>
+  </Node>
+  <Node Name="" DisplayName="Business Intelligence" Page="bi.html">
+    <Node Name="" DisplayName="How to: Analyze Actual Amounts Versus Budgeted Amounts" Page="bi-how-analyze-actual-versus-budget.html"/>
+    <Node Name="" DisplayName="How to: Work with Account Schedules" Page="bi-how-work-account-schedule.html"/>
+    <Node Name="" DisplayName="How to: Set Up and Publish KPI Web Services Based on Account Schedules" Page="bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.html"/>
+    <Node Name="" DisplayName="How to: Analyze Data by Dimensions" Page="bi-how-analyze-data-dimension.html"/>
+    <Node Name="" DisplayName="How to: Create Analysis Reports" Page="bi-how-create-analysis-views-reports.html"/>
+    <Node Name="" DisplayName="How to: Create Reports with XBRL" Page="bi-create-reports-with-xbrl.html"/>
+  </Node>
+  <Node Name="" DisplayName="Sales" Page="sales-manage-sales.html">
+    <Node Name="" DisplayName="How to: Make Offers" Page="sales-how-make-offers.html"/>
+    <Node Name="" DisplayName="How to: Invoice Sales" Page="sales-how-invoice-sales.html"/>
+    <Node Name="" DisplayName="How to: Sell Products" Page="sales-how-sell-products.html"/>
+    <Node Name="" DisplayName="How to: Create Recurring Sales and Purchase Lines" Page="sales-how-work-standard-lines.html"/>
+    <Node Name="" DisplayName="How to: Make Drop Shipments" Page="sales-how-drop-shipment.html"/>
+    <Node Name="" DisplayName="How to: Create Special Orders" Page="sales-how-to-create-special-orders.html"/>
+    <Node Name="" DisplayName="How to: Correct or Cancel Unpaid Sales Invoices" Page="sales-how-correct-cancel-sales-invoice.html"/>
+    <Node Name="" DisplayName="How to: Process Sales Returns or Cancellations" Page="sales-how-process-sales-returns-cancellations.html"/>
+    <Node Name="" DisplayName="How to: Work with Blanket Sales Orders" Page="sales-how-to-create-blanket-sales-orders.html"/>
+    <Node Name="" DisplayName="How to: Combine Shipments on a Single Invoice" Page="sales-how-to-combine-shipments-on-a-single-invoice.html"/>
+    <Node Name="" DisplayName="How to: Calculate Order Promising Dates" Page="sales-how-to-calculate-order-promising-dates.html"/>
+    <Node Name="" DisplayName="How to: Track Packages" Page="sales-how-track-packages.html"/>
+  </Node>
+  <Node Name="" DisplayName="Purchasing" Page="purchasing-manage-purchasing.html">
+    <Node Name="" DisplayName="How to: Record Purchases" Page="purchasing-how-record-purchases.html"/>
+    <Node Name="" DisplayName="How to: Request Quotes" Page="purchasing-how-request-quotes.html"/>
+    <Node Name="" DisplayName="How to: Purchase Items for a Sale" Page="purchasing-how-purchase-products-sale.html"/>
+    <Node Name="" DisplayName="How to: Correct or Cancel Unpaid Purchase Invoices" Page="purchasing-how-correct-cancel-unpaid-purchase-invoices.html"/>
+    <Node Name="" DisplayName="How to: Combine Receipts on a Single Invoice" Page="purchasing-how-to-combine-receipts.html"/>
+    <Node Name="" DisplayName="How to: Process Purchase Returns or Cancellations" Page="purchasing-how-process-purchase-returns-cancellations.html"/>
+    <Node Name="" DisplayName="Date Calculation for Purchases" Page="purchasing-date-calculation-for-purchases.html"/>
+  </Node>
+  <Node Name="" DisplayName="Inventory" Page="inventory-manage-inventory.html">
+    <Node Name="" DisplayName="How to: Register New Items" Page="inventory-how-register-new-items.html"/>
+    <Node Name="" DisplayName="How to: Work with Bills of Material" Page="inventory-how-work-BOMs.html"/>
+    <Node Name="" DisplayName="How to: Categorize Items" Page="inventory-how-categorize-items.html"/>
+    <Node Name="" DisplayName="How to: Work with Item Attributes" Page="inventory-how-work-item-attributes.html"/>
+    <Node Name="" DisplayName="How to: Work with Nonstock Items" Page="inventory-how-work-nonstock-items.html"/>
+    <Node Name="" DisplayName="How to: Count, Adjust, and Reclassify Inventory" Page="inventory-how-count-adjust-reclassify.html"/>
+    <Node Name="" DisplayName="How to: View the Availability of Items" Page="inventory-how-availability-overview.html"/>
+    <Node Name="" DisplayName="How to: Transfer Inventory Between Locations" Page="inventory-how-transfer-between-locations.html"/>
+    <Node Name="" DisplayName="How to: Reserve Items" Page="inventory-how-to-reserve-items.html"/>
+    <Node Name="" DisplayName="How to: Work with Serial and Lot Numbers" Page="inventory-how-work-item-tracking.html"/>
+    <Node Name="" DisplayName="How to: Work with Responsibility Centers" Page="inventory-responsibility-centers.html"/>
+  </Node>
+  <Node Name="" DisplayName="Project Management" Page="projects-manage-projects.html">
+    <Node Name="" DisplayName="How to: Create Jobs" Page="projects-how-create-jobs.html"/>
+    <Node Name="" DisplayName="How to: Use Resources for Jobs" Page="projects-how-use-resources.html"/>
+    <Node Name="" DisplayName="How to: Use Time Sheets for Jobs" Page="projects-how-use-time-sheets.html"/>
+    <Node Name="" DisplayName="How to: Manage Job Budgets" Page="projects-how-manage-budgets.html"/>
+    <Node Name="" DisplayName="How to: Record Usage for Jobs" Page="projects-how-record-job-usage.html"/>
+    <Node Name="" DisplayName="How to: Manage Job Supplies" Page="projects-how-manage-project-supplies.html"/>
+    <Node Name="" DisplayName="Understanding WIP Methods" Page="projects-understanding-wip.html"/>
+    <Node Name="" DisplayName="How to: Monitor Job Progress and Performance" Page="projects-how-monitor-progress-performance.html"/>
+    <Node Name="" DisplayName="How to: Invoice Jobs" Page="projects-how-invoice-jobs.html"/>
+  </Node>
+  <Node Name="" DisplayName="Fixed Assets" Page="fa-manage.html">
+    <Node Name="" DisplayName="How to: Acquire Fixed Assets" Page="fa-how-acquire.html"/>
+    <Node Name="" DisplayName="How to: Maintain Fixed Assets" Page="fa-how-maintain.html"/>
+    <Node Name="" DisplayName="How to: Insure Fixed Assets" Page="fa-how-insure.html"/>
+    <Node Name="" DisplayName="How to: Transfer, Split, or Combine Fixed Assets" Page="fa-how-trans-split-combine.html"/>
+    <Node Name="" DisplayName="How to: Revalue Fixed Assets" Page="fa-how-revalue.html"/>
+    <Node Name="" DisplayName="How to: Depreciate or Amortize Fixed Assets" Page="fa-how-depreciate-amortize.html"/>
+    <Node Name="" DisplayName="How to: Dispose of or Retire Fixed Assets" Page="fa-how-dispose-retire.html"/>
+    <Node Name="" DisplayName="How to: Manage Budgets for Fixed Assets" Page="fa-how-manage-budgets.html"/>
+  </Node>
+  <Node Name="" DisplayName="Relationship Management" Page="marketing-relationship-management.html">
+    <Node Name="" DisplayName="Setting Up Relationship Management" Page="marketing-setup-marketing.html"/>
+    <Node Name="" DisplayName="Managing Contacts" Page="marketing-contacts.html"/>
+    <Node Name="" DisplayName="Managing Segments" Page="marketing-segments.html"/>
+    <Node Name="" DisplayName="Recording Interactions" Page="marketing-interactions.html"/>
+    <Node Name="" DisplayName="Managing Sales Opportunities" Page="marketing-manage-sales-opportunities.html"/>
+    <Node Name="" DisplayName="Managing Customers and Sales Created in Dynamics 365 for Sales" Page="marketing-integrate-dynamicscrm.html"/>
+  </Node>
+  <Node Name="" DisplayName="Human Resources" Page="hr-manage-human-resources.html">
+    <Node Name="" DisplayName="How to: Register Employees" Page="hr-how-register-employees.html"/>
+    <Node Name="" DisplayName="How to: Manage Employee Absence" Page="hr-how-manage-absence.html"/>
+  </Node>
+  <Node Name="" DisplayName="Planning" Page="production-planning.html">
+    <Node Name="" DisplayName="About Planning Functionality" Page="production-about-planning-functionality.html"/>
+    <Node Name="" DisplayName="How to: Subcontract Manufacturing" Page="production-how-to-subcontract-manufacturing.html"/>
+    <Node Name="" DisplayName="Planning With or Without Locations" Page="production-planning-with-without-locations.html"/>
+    <Node Name="" DisplayName="How to: Create a Forecast" Page="production-how-to-create-a-forecast.html"/>
+    <Node Name="" DisplayName="How to: Create Production Orders from Sales Orders" Page="production-how-to-create-production-orders-from-sales-orders.html"/>
+    <Node Name="" DisplayName="How to: Plan Project Orders" Page="production-how-to-plan-project-orders.html"/>
+    <Node Name="" DisplayName="How to: Plan for New Demand Order by Order" Page="production-how-to-plan-for-new-demand.html"/>
+    <Node Name="" DisplayName="How to: Run Full Planning, MPS or MRP" Page="production-how-to-run-mps-and-mrp.html"/>
+    <Node Name="" DisplayName="How to: Replan or Refresh Production Orders Directly" Page="production-how-to-replan-refresh-production-orders.html"/>
+    <Node Name="" DisplayName="How to: Track Relations Between Demand and Supply" Page="production-how-track-demand-supply.html"/>
+    <Node Name="" DisplayName="How to: Modify Planning Suggestions in a Graphical View" Page="production-how-to-modify-planning-suggestions-in-a-graphical-view.html"/>
+  </Node>
+  <Node Name="" DisplayName="Assembly Management" Page="assembly-assemble-items.html">
+    <Node Name="" DisplayName="Understanding Assemble to Order and Assemble to Stock" Page="assembly-assemble-to-order-or-assemble-to-stock.html"/>
+    <Node Name="" DisplayName="How to: Quote an Assemble-to-Order Sale" Page="assembly-how-to-quote-an-assemble-to-order-sale.html"/>
+    <Node Name="" DisplayName="How to: Assemble Items" Page="assembly-how-to-assemble-items.html"/>
+    <Node Name="" DisplayName="How to: Sell Items Assembled to Order" Page="assembly-how-to-sell-items-assembled-to-order.html"/>
+    <Node Name="" DisplayName="How to: Sell Inventory Items in Assemble-to-Order Flows" Page="assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.html"/>
+    <Node Name="" DisplayName="How to: Sell Assemble-to-Order Items and Inventory Items Together" Page="assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.html"/>
+    <Node Name="" DisplayName="How to: Undo Assembly Posting" Page="assembly-how-to-undo-assembly-posting.html"/>
+    <Node Name="" DisplayName="How to: Work with Bills of Material" Page="inventory-how-work-BOMs.html"/>
+    <Node Name="" DisplayName="Design Details: Assembly Order Posting" Page="design-details-assembly-order-posting.html"/>
+  </Node>
+  <Node Name="" DisplayName="Manufacturing" Page="production-manage-manufacturing.html">
+    <Node Name="" DisplayName="About Production Orders" Page="production-about-production-orders.html"/>
+    <Node Name="" DisplayName="How to: Create Production Orders" Page="production-how-to-create-production-orders.html"/>
+    <Node Name="" DisplayName="How to: Subcontract Manufacturing" Page="production-how-to-subcontract-manufacturing.html"/>
+    <Node Name="" DisplayName="How to: Post Consumption and Output for One Released Production Order Line" Page="production-how-to-register-consumption-and-output.html"/>
+    <Node Name="" DisplayName="How to: Batch Post Consumption" Page="production-how-to-post-consumption.html"/>
+    <Node Name="" DisplayName="How to: Batch Post Output and Run Times" Page="production-how-to-post-output-quantity.html"/>
+    <Node Name="" DisplayName="How to: Post Scrap" Page="production-how-to-post-scrap.html"/>
+    <Node Name="" DisplayName="How to: View the Load in Work and Machine Centers" Page="production-how-to-view-the-load-on-work-centers.html"/>
+    <Node Name="" DisplayName="How to: Post Capacities" Page="production-how-to-post-capacities.html"/>
+    <Node Name="" DisplayName="About Finished Production Order Costs" Page="finance-about-finished-production-order-costs.html"/>
+  </Node>
+  <Node Name="" DisplayName="Warehouse Management" Page="warehouse-manage-warehouse.html">
+    <Node Name="" DisplayName="How to: Receive Items" Page="warehouse-how-receive-items.html"/>
+    <Node Name="" DisplayName="How to: Cross-Dock Items" Page="warehouse-how-to-cross-dock-items.html"/>
+    <Node Name="" DisplayName="Putting Items Away" Page="warehouse-put-away-items.html"/>
+    <Node Name="" DisplayName="Moving Items" Page="warehouse-move-items.html"/>
+    <Node Name="" DisplayName="Picking Items" Page="warehouse-pick-items.html"/>
+    <Node Name="" DisplayName="How to: Ship Items" Page="warehouse-how-ship-items.html"/>
+  </Node>
+  <Node Name="" DisplayName="Service Management" Page="service-service.html">
+    <Node Name="" DisplayName="Planning Service" Page="service-plan-service.html"/>
+    <Node Name="" DisplayName="Fulfilling Service Contracts" Page="service-fulfill-service-contracts.html"/>
+    <Node Name="" DisplayName="Delivering Service" Page="service-deliver-service.html"/>
+  </Node>
+  <Node Name="" DisplayName="General Business Functionality" Page="ui-across-business-areas.html">
+    <Node Name="" DisplayName="How to: Set Up Extended Item Text" Page="ui-how-define-ext-text.html"/>
+    <Node Name="" DisplayName="Working with General Journals" Page="ui-work-general-journals.html"/>
+    <Node Name="" DisplayName="How to: Send Documents by Email" Page="ui-how-send-documents-email.html"/>
+    <Node Name="" DisplayName="Working with Reports" Page="ui-work-report.html"/>
+    <Node Name="" DisplayName="Managing Report and Document Layouts" Page="ui-manage-report-layouts.html"/>
+    <Node Name="" DisplayName="Logging Changes in Business Central" Page="across-log-changes.html"/>
+    <Node Name="" DisplayName="How to: Manage Users and Permissions" Page="ui-how-users-permissions.html"/>
+    <Node Name="" DisplayName="Customizing Business Central Using Extensions" Page="ui-extensions.html"/>
+    <Node Name="" DisplayName="Incoming Documents" Page="across-income-documents.html">
+      <Node Name="" DisplayName="How to: Set Up Incoming Documents" Page="across-how-setup-income-documents.html"/>
+      <Node Name="" DisplayName="Processing Incoming Documents" Page="across-process-income-documents.html"/>
+    </Node>
+    <Node Name="" DisplayName="Workflow" Page="across-workflow.html">
+      <Node Name="" DisplayName="Setting Up Workflows" Page="across-set-up-workflows.html"/>
+      <Node Name="" DisplayName="Using Workflows" Page="across-use-workflows.html"/>
+    </Node>
+    <Node Name="" DisplayName="Exchanging Data Electronically" Page="across-data-exchange.html">
+      <Node Name="" DisplayName="About the Data Exchange Framework" Page="across-about-the-data-exchange-framework.html"/>
+      <Node Name="" DisplayName="Setting Up Data Exchange" Page="across-set-up-data-exchange.html"/>
+      <Node Name="" DisplayName="Exchanging Data" Page="across-exchange-data.html"/>
+    </Node>
+    <Node Name="" DisplayName="Defining User Tasks" Page="across-user-tasks.html"/>
+  </Node>
+  <Node Name="" DisplayName="Business Process Walkthroughs" Page="walkthrough-business-process-walkthroughs.html">
+    <Node Name="" DisplayName="Walkthrough: Conducting a Sales Campaign" Page="walkthrough-conducting-a-sales-campaign.html"/>
+    <Node Name="" DisplayName="Walkthrough: Setting Up and Invoicing Sales Prepayments" Page="walkthrough-setting-up-and-invoicing-sales-prepayments.html"/>
+    <Node Name="" DisplayName="Walkthrough: Setting Up and Using a Purchase Approval Workflow" Page="walkthrough-setting-up-and-using-a-purchase-approval-workflow.html"/>
+    <Node Name="" DisplayName="Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations" Page="walkthrough-picking-and-shipping-in-basic-warehousing.html"/>
+    <Node Name="" DisplayName="Walkthrough: Receiving and Putting Away in advanced warehouse configurations" Page="walkthrough-receiving-and-putting-away-in-advanced-warehousing.html"/>
+    <Node Name="" DisplayName="Walkthrough: Walkthrough: Planning Supplies Manually" Page="walkthrough-planning-supplies-manually.html"/>
+    <Node Name="" DisplayName="Walkthrough: Walkthrough: Planning Supplies Automatically" Page="walkthrough-planning-supplies-automatically.html"/>
+    <Node Name="" DisplayName="Walkthrough: Selling, Assembling, and Shipping Kits" Page="walkthrough-selling-assembling-and-shipping-kits.html"/>
+    <Node Name="" DisplayName="Walkthrough: Walkthrough: Managing Projects with Jobs" Page="walkthrough-managing-projects-with-jobs.html"/>
+    <Node Name="" DisplayName="Walkthrough: Walkthrough: Calculating Work in Process for a Job" Page="walkthrough-calculating-work-in-process-for-a-job.html"/>
+    <Node Name="" DisplayName="Walkthrough: Picking and Shipping in Basic Warehouse Configurations" Page="walkthrough-picking-and-shipping-in-basic-warehousing.html"/>
+    <Node Name="" DisplayName="Walkthrough: Tracing Serial/Lot Numbers" Page="walkthrough-tracing-serial-lot-numbers.html"/>
+  </Node>
+  <Node Name="" DisplayName="Design Details" Page="design-details-application-design.html">
+    <Node Name="" DisplayName="Design Details: Dimension Set Entries" Page="design-details-dimension-set-entries.html"/>
+    <Node Name="" DisplayName="Design Details: Supply Planning" Page="design-details-supply-planning.html"/>
+    <Node Name="" DisplayName="Design Details: Inventory Costing" Page="design-details-inventory-costing.html"/>
+    <Node Name="" DisplayName="Design Details: Warehouse Management" Page="design-details-warehouse-management.html"/>
+    <Node Name="" DisplayName="Design Details: Item Tracking" Page="design-details-item-tracking.html"/>
+    <Node Name="" DisplayName="Design Details: General Journal Post Line" Page="design-details-general-journal-post-line.html"/>
+  </Node>
+  <Node Name="" DisplayName="Local Functionality" Page="index.html">
+    <Node Name="" DisplayName="Australia" Page="LocalFunctionality/Australia/australia-local-functionality.html"/>
+    <Node Name="" DisplayName="Austria" Page="LocalFunctionality/Austria/austria-local-functionality.html"/>
+    <Node Name="" DisplayName="Belgium" Page="LocalFunctionality/Belgium/belgium-local-functionality.html"/>
+    <Node Name="" DisplayName="Canada" Page="LocalFunctionality/Canada/canada-local-functionality.html"/>
+    <Node Name="" DisplayName="Denmark" Page="LocalFunctionality/Denmark/denmark-local-functionality.html"/>
+    <Node Name="" DisplayName="Finland" Page="LocalFunctionality/Finland/finland-local-functionality.html"/>
+    <Node Name="" DisplayName="France" Page="LocalFunctionality/France/france-local-functionality.html"/>
+    <Node Name="" DisplayName="Germany" Page="LocalFunctionality/Germany/germany-local-functionality.html"/>
+    <Node Name="" DisplayName="Iceland" Page="LocalFunctionality/Iceland/iceland-local-functionality.html"/>
+    <Node Name="" DisplayName="Italy" Page="LocalFunctionality/Italy/italy-local-functionality.html"/>
+    <Node Name="" DisplayName="Mexico" Page="LocalFunctionality/Mexico/mexico-local-functionality.html"/>
+    <Node Name="" DisplayName="Netherlands" Page="LocalFunctionality/Netherlands/netherlands-local-functionality.html"/>
+    <Node Name="" DisplayName="New Zealand" Page="LocalFunctionality/NewZealand/new-zealand-local-functionality.html"/>
+    <Node Name="" DisplayName="Norway" Page="LocalFunctionality/Norway/norway-local-functionality.html"/>
+    <Node Name="" DisplayName="Russia" Page="LocalFunctionality/Russia/russia-local-functionality.html"/>
+    <Node Name="" DisplayName="Spain" Page="LocalFunctionality/Spain/spain-local-functionality.html"/>
+    <Node Name="" DisplayName="Sweden" Page="LocalFunctionality/Sweden/sweden-local-functionality.html"/>
+    <Node Name="" DisplayName="Switzerland" Page="LocalFunctionality/Switzerland/switzerland-local-functionality.html"/>
+    <Node Name="" DisplayName="Unites Kingdom" Page="LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.html"/>
+    <Node Name="" DisplayName="United States" Page="LocalFunctionality/UnitedStates/united-states-local-functionality.html"/>
+  </Node>
+</Node>

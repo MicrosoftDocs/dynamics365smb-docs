@@ -1,11 +1,9 @@
 ---
-    title: How to Manage Customer Credit Information
+    title: How to Manage Customer Credit Information | Microsoft Docs
     description: In Business Central, you can add comments to customer credit information. You can also hold and block customers with bad credit before shipping or invoicing occurs.
-
-
     author: SorenGP
 
-    ms.service: dynamics365-financials
+    ms.service: dynamics365-business-central
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -52,6 +50,6 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can add comments to cu
 4.  Choose the **OK** button.  
 
 ## See Also  
-[Mexico Local Functionality](mexico-local-functionality.md)  
+[Canada Local Functionality](canada-local-functionality.md)  
 [Finance](../../finance.md)  
 [Setting Up Finance](../../finance.md)

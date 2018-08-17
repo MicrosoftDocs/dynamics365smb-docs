@@ -22,7 +22,6 @@ The following topics describe local functionality that is unique to the Canadian
 [Set Up Use Tax and Purchase Tax](how-to-set-up-use-tax-and-purchase-tax.md)  
 [Set Up Unrealized Sales Tax and Sales Payment Discounts](how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
 [Reporting Sales Tax in Canada](ca-sales-tax.md)  
-[Manage Customer Credit Information](how-to-manage-customer-credit-information.md)  
 [Create Deposits](how-to-create-deposits.md)  
 [Print Troubleshooting Reports](how-to-print-troubleshooting-reports.md)
 
@@ -30,4 +29,3 @@ The following topics describe local functionality that is unique to the Canadian
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)   
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
- 

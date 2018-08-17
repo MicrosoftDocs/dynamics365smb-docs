@@ -34,6 +34,7 @@ The following table describes a sequence of tasks, with links to the topics that
 
 | To | See |
 | --- | --- |
+|Create a customer card for each customer that you sell to.|[Register New Customers](sales-how-register-new-customers.md)|
 | Create a sales quote where you offer products on negotiable terms before converting the quote to a sales invoice. |[Make Sales Quotes](sales-how-make-offers.md) |
 | Create a sales invoice to record your agreement with a customer to sell products on certain delivery and payment terms. |[Invoice Sales](sales-how-invoice-sales.md) |
 | Process a sales order that involves partial shipping or drop shipment. |[Sell Products](sales-how-sell-products.md) |
@@ -57,4 +58,3 @@ The following table describes a sequence of tasks, with links to the topics that
 [General Business Functionality](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 

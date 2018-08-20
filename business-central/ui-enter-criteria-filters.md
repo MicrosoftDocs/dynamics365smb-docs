@@ -91,7 +91,7 @@ You can add a filter on one or more columns in a list. Filtering on columns is m
   -  Enter filter criteria in the box. See the next section for details.
 4. Choose the **OK** button.
 
-## Filter criteria and symbols
+## <a name="FilterCriteria"> </a>Filter criteria and symbols
 When you enter criteria, you can use all the numbers and letters that you can normally use in the field. In addition, you can use special symbols to further filter the results. The following tables show the symbols which can be used in filters.  
   
 > [!IMPORTANT]  

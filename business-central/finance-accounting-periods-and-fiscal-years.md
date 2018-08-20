@@ -58,10 +58,10 @@ Closing the fiscal year is one of the tasks for closing the books. After you clo
 Although a fiscal year is closed, you can still post general ledger entries to it. When you do, the entries are marked as posted to a closed fiscal year and the **Prior Year Entry** check box is selected. By default, the check box is not displayed on the page, but you can add it. The next steps are to close the income statement accounts and transfer the year's results to an account in the balance sheet. Repeat these steps each time you post entries to a closed fiscal year.
 
 ## See Also
-[Closing the Books](year-close-books.md)
-[Closing Years and Periods](year-close-years-periods.md)
-[How to Work with Account Schedules](bi-how-work-account-schedule.md)
-[Print Balance Sheet and Income Statement Reports](../../sweden/how-to-print-balance-sheet-and-income-statement-reports )
+[Closing the Books](year-close-books.md)  
+[Closing Years and Periods](year-close-years-periods.md)  
+[How to Work with Account Schedules](bi-how-work-account-schedule.md)  
+  
 
 
 

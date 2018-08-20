@@ -215,6 +215,7 @@
 ## [Analyzing Financial Statements in Excel](finance-analyze-excel.md)
 ## [Analyzing Cash Flows in Your Company](finance-analyze-cash-flow.md)
 ## [Closing Years and Periods](year-close-years-periods.md)
+### [Working with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)
 ### [Specify Posting Periods](finance-how-specify-posting-periods.md)
 ### [Closing Periods](year-how-complete-period-end-processes.md)
 ### [Update Currency Exchange Rates](finance-how-update-currencies.md)

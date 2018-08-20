@@ -20,7 +20,7 @@ Accounting periods, which are also known as reporting periods, are periods of ti
 
 For many companies the fiscal year does not align with the calendar year. For example, the fiscal year might end on June 30th rather than December 31st. For newly created companies, the fiscal might actually be longer than 12 months. 
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] only requires accounting periods only if you want to close an income statement, or run data compression tasks. <!-- what is a data compression task?-->
+[!INCLUDE[d365fin](includes/d365fin_md.md)] only requires accounting periods only if you want to close an income statement, or run data compression tasks. 
 
 You can use accounting periods in reporting. For example, when you are reviewing posted entries in the **Balance/Budget** page where the reporting interval can be specified. One of the options you may specify to report by accounting period. You can also build an account schedule that compares results for different accounting periods.
 
@@ -53,16 +53,13 @@ Closing the fiscal year is one of the tasks for closing the books. After you clo
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Accounting Periods**, and then choose the related link.  
 2. Choose the **Close Year** action.  
-  
-    > [!Note]
-    >   If more than one fiscal year is open, [!INCLUDE[d365fin](includes/d365fin_md.md)] will choose the close the year that has the earliest start date. <!--Did I get that right?-->
 
 ## Posting Entries to a Closed Fiscal Year
-Although a fiscal year is closed, you can still post general ledger entries to it. When you do, the entries are marked as posted to a closed fiscal year and the **Prior Year Entry** check box is selected. <!--where do they see this?--> The next steps are to close the income statement accounts and transfer the year's results to an account in the balance sheet. Repeat these steps each time you post entries to a closed fiscal year.
+Although a fiscal year is closed, you can still post general ledger entries to it. When you do, the entries are marked as posted to a closed fiscal year and the **Prior Year Entry** check box is selected. By default, the check box is not displayed on the page, but you can add it. The next steps are to close the income statement accounts and transfer the year's results to an account in the balance sheet. Repeat these steps each time you post entries to a closed fiscal year.
 
 ## See Also
-[](year-close-books.md)
-[](year-close-years-periods.md)
+[Closing the Books](year-close-books.md)
+[Closing Years and Periods](year-close-years-periods.md)
 [How to Work with Account Schedules](bi-how-work-account-schedule.md)
 [Print Balance Sheet and Income Statement Reports](../../sweden/how-to-print-balance-sheet-and-income-statement-reports )
 

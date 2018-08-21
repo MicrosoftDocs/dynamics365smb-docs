@@ -7,7 +7,7 @@
 ## [Overview of Business Functionality](across-business-functionality.md)
 ## [Trying Out a Preview Version](across-preview.md)
 ## [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
-## [Your access to the Intelligent Cloud](about-intelligent-cloud.md)
+## [Your Access to the Intelligent Cloud](about-intelligent-cloud.md)
 ## [Changing from a QuickBooks App to Microsoft Business Central](across-quickbooks-to-business-edition.md)
 ## [Getting Business Central on Your Mobile Device](install-mobile-app.md)
 ## [Synchronize with Contacts in Microsoft Outlook](admin-synchronize-outlook-contacts.md)

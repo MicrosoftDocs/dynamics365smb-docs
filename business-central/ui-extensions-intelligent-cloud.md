@@ -17,9 +17,9 @@ ms.author: edupont
 
 # Business Central Intelligent Cloud Extension
 
-This extension will take you through the process to configure and manage your Intelligent Cloud environment. Once your Intelligent Cloud environment is configured, you will be able to manage data replications from your on-premises solution to your [!INCLUDE[prodshort](includes/prodshort.md)] cloud tenant. This extension will work in conjunction with a data replication extension available for your specific on-premises solution. For more information, see [Business Central Intelligent Cloud]().
+This extension will take you through the process to configure and manage your Intelligent Cloud environment. Once your Intelligent Cloud environment is configured, you will be able to manage data replications from your on-premises solution to your [!INCLUDE[prodshort](includes/prodshort.md)] cloud tenant. This extension will work in conjunction with a data replication extension available for your specific on-premises solution. For more information, see [Your Access to the Intelligent Cloud](about-intelligent-cloud.md).  
 
 ## See Also
 
-[Your access to the Intelligent Cloud](about-intelligent-cloud.md)  
+[Your Access to the Intelligent Cloud](about-intelligent-cloud.md)  
 [Data Replication extension](ui-extensions-data-replication.md)  

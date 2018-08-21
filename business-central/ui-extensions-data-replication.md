@@ -23,5 +23,5 @@ This extension must be used in conjunction with the **Business Central Intellige
 
 ## See Also
 
-[Your access to the Intelligent Cloud](about-intelligent-cloud.md)  
+[Your Access to the Intelligent Cloud](about-intelligent-cloud.md)  
 [Business Central Intelligent Cloud extension](ui-extensions-intelligent-cloud.md)  

@@ -17,7 +17,7 @@ ms.author: sgroespe
 You can correct or cancel a posted purchase invoice. This is useful if you want to correct a typing mistake, or if you want to change the purchase early in the order process.
 
 > [!Note]
-> This functionality is not possible on posted purchase invoices that are posted from purchase orders.
+> This functionality is not possible on posted purchase invoices that are posted from purchase orders. To correct or cancel such a posted purchase invoice with slightly more steps, see [Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md).
 
 If you have already paid for products on the posted purchase invoice, you cannot correct or cancel it from the posted purchase invoice itself. Instead, you must manually create a purchase credit memo to reverse the purchase, optionally managed with a purchase return order. For more information, see [Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md).
 

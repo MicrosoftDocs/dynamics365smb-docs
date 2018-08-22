@@ -1,7 +1,7 @@
 ---
 title: Payroll Data Definitions (NO) | Microsoft Docs
 description: This extension makes it easy to exchange data with payroll service provider in Norway.
-author: ivkoleti
+author: edupont04
 manager: edupont04
 
 ms.service: dynamics365-business-central

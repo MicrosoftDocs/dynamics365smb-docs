@@ -38,7 +38,7 @@ When you have set up time sheets, you can create time sheets for resources, assi
 
 ## To assign a time sheet administrator
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **User Setup**, and then choose the related link.  
-2. Add a new user if the user list does not include the person who you want to be the time sheet administrator. For more information, see [Manage Users and Permissions](ui-how-users-permissions.md).
+2. Add a new user if the user list does not include the person who you want to be the time sheet administrator. For more information, see [Managing Users and Permissions](ui-how-users-permissions.md).
 3. Select a user to be a time sheet administrator, and then select the **Time Sheet Admin.** check box.  
 
 > [!TIP]  

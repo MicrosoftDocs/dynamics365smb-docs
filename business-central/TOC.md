@@ -356,9 +356,10 @@
 ## [Delivering Service](service-deliver-service.md)
 
 # [General Business Functionality](ui-across-business-areas.md)
+## [Add Comments to Cards and Documents](across-how-use-comments.md)
 ## [Track Document Lines](across-how-to-track-document-lines.md)
-## [Sending Documents by Email](ui-how-send-documents-email.md)
-## [Adding Extended Item Text](ui-how-define-ext-text.md)
+## [Send Documents by Email](ui-how-send-documents-email.md)
+## [Add Extended Item Text](ui-how-define-ext-text.md)
 ## [Defining User Tasks](across-user-tasks.md)
 ## [Letting Business Central Suggest Values](ui-let-system-suggest-values.md)
 ## [Incoming Documents](across-income-documents.md)

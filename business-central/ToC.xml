@@ -3,24 +3,24 @@
   <Node Name="" DisplayName="Getting Started" Page="across-get-started.html">
     <Node Name="" DisplayName="Overview of Business Functionality" Page="across-business-functionality.html"/>
     <Node Name="" DisplayName="Importing Business Data from Other Finance Systems" Page="upload-data.html"/>
-    <Node Name="" DisplayName="Getting Dynamics NAV on Your Mobile Device" Page="install-mobile-app.html"/>
+    <Node Name="" DisplayName="Getting Business Central on Your Mobile Device" Page="install-mobile-app.html"/>
     <Node Name="" DisplayName="Synchronize with Contacts in Microsoft Outlook" Page="admin-synchronize-outlook-contacts.html"/>
-    <Node Name="" DisplayName="Using Dynamics NAV as Your Business Inbox in Outlook" Page="admin-outlook.html"/>
+    <Node Name="" DisplayName="Using Business Central as Your Business Inbox in Outlook" Page="admin-outlook.html"/>
     <Node Name="" DisplayName="Enabling Your Business Data for Power BI" Page="admin-powerbi.html"/>
-    <Node Name="" DisplayName="Using Dynamics NAV as a Power BI Data Source" Page="across-how-use-financials-data-source-powerbi.html"/>
-    <Node Name="" DisplayName="Customizing Dynamics NAV Using Extensions" Page="ui-extensions.html"/>
+    <Node Name="" DisplayName="Using Business Central as a Power BI Data Source" Page="across-how-use-financials-data-source-powerbi.html"/>
+    <Node Name="" DisplayName="Customizing Business Central Using Extensions" Page="ui-extensions.html"/>
   </Node>
   <Node Name="" DisplayName="Tips and Tricks" Page="ui-work-product.html">
-    <Node Name="" DisplayName="Working with Dynamics NAV" Page="ui-work-product.html"/>
+    <Node Name="" DisplayName="Working with Business Central" Page="ui-work-product.html"/>
     <Node Name="" DisplayName="Using Search for Page or Report" Page="ui-search.html"/>
     <Node Name="" DisplayName="Changing Basic Settings" Page="ui-change-basic-settings.html"/>
     <Node Name="" DisplayName="How to: Change the Role Center" Page="change-role.html"/>
-    <Node Name="" DisplayName="Customizing Dynamics NAV" Page="ui-customizing-overview.html"/>
-    <Node Name="" DisplayName="Letting Dynamics NAV Suggest Values" Page="ui-let-system-suggest-values.html"/>
+    <Node Name="" DisplayName="Customizing Business Central" Page="ui-customizing-overview.html"/>
+    <Node Name="" DisplayName="Letting Business Central Suggest Values" Page="ui-let-system-suggest-values.html"/>
     <Node Name="" DisplayName="Printing a Report" Page="ui-work-report.html"/>
     <Node Name="" DisplayName="Videos on Common Tasks" Page="across-videos.html"/>
   </Node>
-  <Node Name="" DisplayName="Setting Up Dynamics NAV" Page="setup.html">
+  <Node Name="" DisplayName="Setting Up Business Central" Page="setup.html">
     <Node Name="" DisplayName="Setup and Administration" Page="admin-setup-and-administration.html">
       <Node Name="" DisplayName="Logging Changes" Page="across-log-changes.html"/>
       <Node Name="" DisplayName="Creating New Companies" Page="about-new-company.html"/>
@@ -339,9 +339,9 @@
     <Node Name="" DisplayName="How to: Send Documents by Email" Page="ui-how-send-documents-email.html"/>
     <Node Name="" DisplayName="Working with Reports" Page="ui-work-report.html"/>
     <Node Name="" DisplayName="Managing Report and Document Layouts" Page="ui-manage-report-layouts.html"/>
-    <Node Name="" DisplayName="Logging Changes in Dynamics NAV" Page="across-log-changes.html"/>
+    <Node Name="" DisplayName="Logging Changes in Business Central" Page="across-log-changes.html"/>
     <Node Name="" DisplayName="How to: Manage Users and Permissions" Page="ui-how-users-permissions.html"/>
-    <Node Name="" DisplayName="Customizing Dynamics NAV Using Extensions" Page="ui-extensions.html"/>
+    <Node Name="" DisplayName="Customizing Business Central Using Extensions" Page="ui-extensions.html"/>
     <Node Name="" DisplayName="Incoming Documents" Page="across-income-documents.html">
       <Node Name="" DisplayName="How to: Set Up Incoming Documents" Page="across-how-setup-income-documents.html"/>
       <Node Name="" DisplayName="Processing Incoming Documents" Page="across-process-income-documents.html"/>

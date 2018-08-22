@@ -161,6 +161,7 @@
 ### [Reconcile Customer Payments Manually From a List of Unpaid Sales Documents](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 ### [Apply Customer Payments Manually](receivables-how-apply-sales-transactions-manually.md)  
 ### [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)
+### [Block Customers](receivables-how-block-customers.md)
 ### [Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)
 ### [Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 ## [Managing Payables](payables-manage-payables.md)
@@ -233,6 +234,7 @@
 ## [Create Reports with XBRL](bi-create-reports-with-xbrl.md)
 
 # [Sales](sales-manage-sales.md)
+## [Register New Customers](sales-how-register-new-customers.md)
 ## [Make Sales Quotes](sales-how-make-offers.md)
 ## [Invoice Sales](sales-how-invoice-sales.md)
 ## [Sell Products](sales-how-sell-products.md)

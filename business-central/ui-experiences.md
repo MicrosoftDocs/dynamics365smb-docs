@@ -1,6 +1,6 @@
 ---
 title: Choosing the User Experience to Show or Hide Advanced Features | Microsoft Docs
-description: Learn what the Basic and Essential user experience tiers mean for the user interface, application areas, and your company.
+description: Learn what the Essential and Premium user experience tiers mean for the user interface, application areas, and your company.
 documentationcenter: ''
 author: edupont04
 

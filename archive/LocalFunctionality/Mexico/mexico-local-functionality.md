@@ -26,7 +26,6 @@ The following topics describe local functionality that is unique to the Mexican 
 [Electronic Invoicing](electronic-invoicing.md)  
 [Tax Identification Types for Mexico](tax-identification-types-for-mexico.md)  
 [VAT Recalculation](vat-recalculation.md)  
-[Manage Customer Credit Information](how-to-manage-customer-credit-information.md)  
 [Create Deposits](how-to-create-deposits.md)  
 [Print Troubleshooting Reports](how-to-print-troubleshooting-reports.md)
 

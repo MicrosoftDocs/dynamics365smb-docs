@@ -342,6 +342,7 @@
     <Node Name="" DisplayName="Logging Changes in Business Central" Page="across-log-changes.html"/>
     <Node Name="" DisplayName="How to: Manage Users and Permissions" Page="ui-how-users-permissions.html"/>
     <Node Name="" DisplayName="Customizing Business Central Using Extensions" Page="ui-extensions.html"/>
+>>>>>>> origin/Fall-2018
     <Node Name="" DisplayName="Incoming Documents" Page="across-income-documents.html">
       <Node Name="" DisplayName="How to: Set Up Incoming Documents" Page="across-how-setup-income-documents.html"/>
       <Node Name="" DisplayName="Processing Incoming Documents" Page="across-process-income-documents.html"/>

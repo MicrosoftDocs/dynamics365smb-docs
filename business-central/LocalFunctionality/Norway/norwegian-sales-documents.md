@@ -27,4 +27,3 @@ The following reports are available:
 
 ## See Also  
 [Norwegian Giro and OCR-B Font](norwegian-giro-and-ocr-b-font.md)   
-[Paper Sources and Tray Numbers](paper-sources-and-tray-numbers.md)

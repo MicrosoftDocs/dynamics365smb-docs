@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/01/2018
+    ms.date: 08/22/2018
     ms.author: sgroespe
 
 ---
@@ -37,7 +37,7 @@ A company's distribution strategy is reflected in the configuration of its wareh
 |Enable warehouse workers to break a larger unit of measure into smaller units of measure to fulfill the needs of source documents.|[Enable Automatic Breaking Bulk with Directed Put-away and Pick](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)|  
 |Set up the warehouse to automatically suggest items to be picked that expire first.|[Enable Picking by FEFO](warehouse-picking-by-fefo.md)|
 |Get tips on how to reorganize locations, bins, or zones to obtain more efficient warehouse activities.|[Restructure Warehouses](warehouse-how-to-restructure-warehouses.md)|
-<!-- |Integrate bar code readers to your warehouse management solution.|[Use Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)| -->  
+|Integrate bar code readers to your warehouse management solution.|[Use Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)|
 
 ## See Also  
 [Warehouse Management](warehouse-manage-warehouse.md)  

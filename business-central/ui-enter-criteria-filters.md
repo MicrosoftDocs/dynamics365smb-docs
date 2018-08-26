@@ -98,7 +98,7 @@ The filter pane displays the current filters for a list, and enables you to set 
 
 ![Filter pane overview ](media/filter-pane-overview.png "Filter icon")
 
-To display the filter pane, use the **Shift + F3** keyboard shortcut. For lists within the Role Center, you can also choose the down arrow near the page title in the navigation bar above the list, and then choose **Show filter pane**.
+To display the filter pane, use the **Shift+F3** keyboard shortcut. For lists within the Role Center, you can also choose the down arrow near the page title in the navigation bar above the list, and then choose **Show filter pane**.
 
 ![Show filter pane](media/open-filter-pane.png "Show filter pane")
 
@@ -135,10 +135,10 @@ Columns that already have filters are indicated by the ![Filter icon](media/ui-s
 
 ### Entering filter criteria without the filter pane
 You can specify simple filters directly within the list without having to use the filter pane.
-With any field selected on a row, use the **Alt + F3** keyboard shortcut to display only the records having that same value. You can then select another field and use the same shortcut again to continue refining your filters. If the selected field is already filtered, using **Alt + F3** will clear that filter.
+With any field selected on a row, use the **Alt+F3** keyboard shortcut to display only the records having that same value. You can then select another field and use the same shortcut again to continue refining your filters. If the selected field is already filtered, using **Alt+F3** will clear that filter.
 
 > [!TIP]
-> Accelerate finding and analyzing your data by using combinations of keyboard shortcuts. For example, select a field, use **Shift + Alt + F3** to add that field to the filter pane, type the filter criteria, use **Ctrl + Enter** to return to the rows, select another field, and use **Alt + F3** to filter to that value.
+> Accelerate finding and analyzing your data by using combinations of keyboard shortcuts. For example, select a field, use **Shift+Alt+F3** to add that field to the filter pane, type the filter criteria, use **Ctrl+Enter** to return to the rows, select another field, and use **Alt+F3** to filter to that value.
 For more information see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
 
 

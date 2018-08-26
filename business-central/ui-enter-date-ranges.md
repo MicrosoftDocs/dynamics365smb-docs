@@ -40,9 +40,9 @@ To work more productively with dates and times, you can use any of the methods o
 ### Picking dates from the calendar
 Any field displaying a calendar icon can be set using the calendar date picker. To display the calendar date picker, activate the calendar icon or press the Ctrl + Home keyboard shortcut in the field.
 
-<INSERT IMAGE OF CALENDAR ICON>
+![Date fields](media/ui-date-field.png "Example of a date field")
 
-See also [Keyboard Shortcuts in the calendar date picker](keyboard-shortcuts.md)
+See also [Keyboard Shortcuts in the calendar date picker](keyboard-shortcuts.md#calendarshortcuts)
 
 ### Today
 Enter the word for `today`, in the language set by **Language** setting, that will set the date to the current date. Instead of entering the entire word, you can enter part of the word, starting from the beginning, such as `t` or `tod`, as long as it is not also the start of another word.

@@ -16,7 +16,7 @@ ms.author: jswymer
 There are a few things that you can do that will help you scan, find, and limit records in a list. These include sorting, searching and filtering. You can apply some or all of these simultaneously to quickly find or analyze your data.
 
 > [!TIP]
-> When viewing your data as tiles, you can search and use basic filtering. To use the full set of powerful features for sorting, searching and filtering, choose the ![Show as list](media/ui_show_as_list_icon.png "Show as list arrow left") icon to show as list.
+> When viewing your data as tiles, you can search and use basic filtering. To use the full set of powerful features for sorting, searching and filtering, choose the ![Show as list](media/ui_show_as_list_icon.png "Show as list arrow left") icon to show as a list.
 
 <!-- 
 When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
@@ -84,12 +84,12 @@ The Quick Filter provides an easy access to filter data by entering plain text, 
 > You can press F3 to activate and deactivate the search box. For more information see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
 
 ## Filtering
-Filtering provides a more advanced and versatile way of controlling which records display in a list. There are two major differences between searching and filtering, described in the table below.
+Filtering provides a more advanced and versatile way of controlling which records display in a list. There are two major differences between searching and filtering, as described in the table below.
 
 || **Searching** | **Filtering** |
 |--|----------|------------|
 | **Applicable fields** | Searches across all fields that are visible on the page. | Filters one or more fields individually, selecting from any field on the table, including fields that are not visible on the page. |
-| **Matching** | Displays records with fields that match the search text irrespective of casing or placement of that text. | Displays records where the field matches the filter exactly and is case sensitive, unless special filter symbols are entered.
+| **Matching** | Displays records with fields that match the search text, irrespective of casing or placement of that text. | Displays records where the field matches the filter exactly and is case sensitive, unless special filter symbols are entered.
 
 Filtering enables you to display records for specific accounts or customers, dates, amounts, and other information by specifying filter criteria. Only records that match the criteria are displayed. If you specify criteria for multiple fields, then only records that match all criteria will be displayed.
 

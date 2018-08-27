@@ -70,7 +70,7 @@ The word for 'workdate', in the language set by **Language** setting, will set t
 
 If you have not defined a work date, the current date will be used as the work date. You may want to use a work date if you have many transactions with a date other than today's date.
 
-See also [Changing Basic Settings, such as the Work Date](ui-change-basic-settings#work-date)
+See also [Changing Basic Settings, such as the Work Date](ui-change-basic-settings.md#work-date)
 
 ### Closing Date
 When you close a fiscal year, you can use closing dates to indicate that an entry is a closing entry. A closing date technically is between two dates, for example between Dec 31 and Jan 1.

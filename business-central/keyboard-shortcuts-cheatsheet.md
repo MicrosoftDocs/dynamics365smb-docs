@@ -12,7 +12,8 @@ ms.date: 05/18/2018
 ms.author: jswymer
 ---
 
-# PC keyboard shortcut quick reference
+# PC keyboard shortcuts quick reference
+
 
 **Navigate and select rows**
 

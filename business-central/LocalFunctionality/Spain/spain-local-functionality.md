@@ -32,7 +32,6 @@ The following topics describe local functionality that is unique to the Spanish 
   [Export Account Schedules to ASC Format](how-to-export-account-schedules-to-asc-format.md)  
   [Print Account Book Reports](how-to-print-account-book-reports.md)  
   [Print Sales and Purchase Invoice Books](how-to-print-sales-and-purchase-invoice-books.md)  
-  [Print Intrastat Reports](how-to-print-intrastat-reports.md)  
   [Set Up and Close Income Statement Balances](how-to-set-up-and-close-income-statement-balances.md)  
   [Set Up Payment Days and Non-Payment Periods](how-to-set-up-payment-days-and-non-payment-periods.md)  
   [VAT Reports](vat-reports.md)  
@@ -44,4 +43,3 @@ The following topics describe local functionality that is unique to the Spanish 
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
- 

@@ -23,7 +23,6 @@ The following topics describe local functionality that is unique to the United K
 [Change VAT Setup in Journals](how-to-change-vat-setup-in-journals.md)  
 [Define Accounting Periods for Straight Line Depreciation of Fixed Assets](how-to-define-accounting-periods-for-straight-line-depreciation-of-fixed-assets.md)  
 [Enter External Document Numbers](how-to-enter-external-document-numbers.md)  
-[Localize Intrastat Reporting](how-to-localize-intrastat-reporting.md)  
 [Print Checks for APACS](how-to-print-checks-for-apacs.md)  
 [Print Remittance Advice](how-to-print-remittance-advice.md)  
 [Print Direct Sales and Purchase Details Reports](how-to-print-direct-sales-and-purchase-details-reports.md)  
@@ -36,4 +35,3 @@ The following topics describe local functionality that is unique to the United K
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
- 

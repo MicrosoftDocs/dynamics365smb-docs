@@ -339,15 +339,9 @@
     <Node Name="" DisplayName="How to: Send Documents by Email" Page="ui-how-send-documents-email.html"/>
     <Node Name="" DisplayName="Working with Reports" Page="ui-work-report.html"/>
     <Node Name="" DisplayName="Managing Report and Document Layouts" Page="ui-manage-report-layouts.html"/>
-<<<<<<< HEAD
-    <Node Name="" DisplayName="Logging Changes in Dynamics NAV" Page="across-log-changes.html"/>
-    <Node Name="" DisplayName="How to: Manage Users and Permissions" Page="ui-how-users-permissions.html"/>
-    <Node Name="" DisplayName="Customizing Dynamics NAV Using Extensions" Page="ui-extensions.html"/>
-=======
     <Node Name="" DisplayName="Logging Changes in Business Central" Page="across-log-changes.html"/>
     <Node Name="" DisplayName="How to: Manage Users and Permissions" Page="ui-how-users-permissions.html"/>
     <Node Name="" DisplayName="Customizing Business Central Using Extensions" Page="ui-extensions.html"/>
->>>>>>> master
     <Node Name="" DisplayName="Incoming Documents" Page="across-income-documents.html">
       <Node Name="" DisplayName="How to: Set Up Incoming Documents" Page="across-how-setup-income-documents.html"/>
       <Node Name="" DisplayName="Processing Incoming Documents" Page="across-process-income-documents.html"/>

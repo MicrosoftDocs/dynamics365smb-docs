@@ -1,7 +1,7 @@
 ---
 title: Payroll Data Definitions (NO) | Microsoft Docs
 description: This extension makes it easy to exchange data with payroll service provider in Norway.
-author: ivkoleti
+author: edupont04
 manager: edupont04
 
 ms.service: dynamics365-business-central
@@ -11,10 +11,10 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
 ms.date: 08/17/2018
-ms.author: ivkoleti
+ms.author: edupont
 ---
 
-# The Payroll Data Definitions (NO) Extension 
+# The Payroll Data Definitions (NO) Extension
 
 If your business uses the Huldt & Lillevik Lønn - Visma payroll service provider in Norway, the **Payroll Data Definitions (NO)** extension can help you quickly and accurately register payroll transactions from these providers. The extension contains data exchange definitions that enable you to import payroll transactions in files that the providers send to you. For more information about data exchange definitions, see [Set Up Data Exchange Definitions](../../across-how-to-set-up-data-exchange-definitions.md).   
 

@@ -310,4 +310,4 @@ Use `%myvendors` in the vendor **No** field to display all records for vendors t
 
 ## See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-[Common questions about Searching and Filtering](ui-search-filter-faq.md)
+[Common questions about Searching and Filtering](ui-search-filter-faq.md)  

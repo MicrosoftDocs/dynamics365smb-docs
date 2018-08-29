@@ -26,4 +26,4 @@ The following reports are available:
 - **Finance Charge Memo**  
 
 ## See Also  
-[Norwegian Giro and OCR-B Font](norwegian-giro-and-ocr-b-font.md)  
+[Norwegian Giro and OCR-B Font](norwegian-giro-and-ocr-b-font.md)   

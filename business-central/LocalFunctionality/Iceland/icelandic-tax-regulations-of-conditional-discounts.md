@@ -14,8 +14,12 @@
     ms.search.keywords:
     ms.date: 07/01/2017
     ms.author: sgroespe
+    redirect_url: http://www.microsoft.com
 
 ---
+
+<!-- This topic is retired and redirects -->
+
 # Icelandic Tax Regulations of Conditional Discounts
 In Iceland, it is a legal requirement to issue a credit memo if a conditional discount has been given.  
 

@@ -16,7 +16,7 @@
 
 ---
 # Norwegian Sales Documents
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] supports sales documents such as include sales invoices, sales credit memos, reminders, and finance charge memos. This document set is based on international reports. Standard reports are also available, but they do not contain any settings that are specific to Norway. For example, you cannot print Norwegian giro.  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] supports sales documents such as include sales invoices, sales credit memos, reminders, and finance charge memos. This document set is based on international reports. Standard reports are also available, but they do not contain any settings that are specific to Norway. For example, you cannot print Norwegian giro in this set of reports.  
 
 The following reports are available:  
 

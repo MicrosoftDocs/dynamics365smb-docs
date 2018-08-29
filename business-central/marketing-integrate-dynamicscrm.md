@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map
-ms.date: 06/20/2018
+ms.date: 07/02/2018
 ms.author: edupont
 ---
 # Managing Customers and Sales Created in Dynamics 365 for Sales
@@ -21,6 +21,9 @@ When your application is set up to integrate with Sales, you have access to Sale
 For example, the sales person in Sales can use the price lists from [!INCLUDE[d365fin](includes/d365fin_md.md)] when they create a sales order. When they add the item to the sales order line in Sales, they are also able to see the inventory level (availability) of the item from [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Conversely, order processors in [!INCLUDE[d365fin](includes/d365fin_md.md)] can handle the special characteristics of sales orders transferred automatically or manually from Sales, such as automatically create and post valid sales order lines for items or resources that were entered in Sales as write-in products. For more information, see the "Handling Special Sales Order Data" section.
+
+> [!IMPORTANT]  
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] integrates with Dynamics 365 for Sales only. Other applications or solutions within Dynamics 365 that change the standard workflow or data model in Sales, for example Project Service Automation, may break the integration between [!INCLUDE[d365fin](includes/d365fin_md.md)] and Sales.
 
 ## Standard Sales Entity Mapping for Synchronization
 Sales entities, such as accounts, are integrated with equivalent [!INCLUDE[d365fin](includes/d365fin_md.md)] record types, such as customers. To work with Sales data, you set up mappings, called couplings, between [!INCLUDE[d365fin](includes/d365fin_md.md)] records and Sales entity records. For example, you set up a coupling between a specific customer in [!INCLUDE[d365fin](includes/d365fin_md.md)]  and a corresponding account in Sales.
@@ -91,7 +94,7 @@ To import an existing Sales solution, the setup guide uses an administrative acc
 * System Administrator  
 * Solution Customizer  
 
-For more information, see [Create users in Microsoft Dynamics 365 (online) and assign  security roles](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles) and [Manage Users and Permissions](ui-how-users-permissions.md).  
+For more information, see [Create users in Microsoft Dynamics 365 (online) and assign  security roles](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles) and [Managing Users and Permissions](ui-how-users-permissions.md).  
 
 This account is only used during the setup. Once the solution is imported into [!INCLUDE[d365fin](includes/d365fin_md.md)], the account is no longer needed.
 
@@ -139,8 +142,7 @@ If the item description on the original sales order is very long, then an additi
 [Relationship Management](marketing-relationship-management.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Changing Which Features are Displayed](ui-experiences.md)  
-[Manage Users and Permissions](ui-how-users-permissions.md)    
+[Managing Users and Permissions](ui-how-users-permissions.md)    
 [Onboard your organization and users to Dynamics 365  (online)](/dynamics365/customer-engagement/admin/onboard-your-organization-and-users-to-dynamics-365-online)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]

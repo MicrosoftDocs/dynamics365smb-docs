@@ -9,12 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supply planning, sales demand, replenish
-ms.date: 06/19/2018
+ms.date: 08/22/2018
 ms.author: sgroespe
 
 ---
 # Purchase Items for a Sale
-From sales orders and sales invoices, you can use functions to quickly create purchase documents for missing item quantities that are required by the sale. You can use two different functions depending on the document type.  
+From sales orders and sales invoices, you can use functions to quickly create purchase documents for missing item quantities that are required by the sale. You can use two different functions depending on the document type.
+
+> [!Note]
+> This functionality is for replenishing sales items into your own inventory. To purchase items for direct delivery from your vendor to your customer, you must create a drop shipment. For more information, see [Make Drop Shipments](sales-how-drop-shipment.md).   
 
 |Function|Description|
 |--------|-----------|

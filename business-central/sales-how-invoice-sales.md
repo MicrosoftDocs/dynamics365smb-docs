@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 04/30/2018
+ms.date: 06/29/2018
 ms.author: sgroespe
 
 ---
@@ -24,7 +24,7 @@ There are a couple of scenarios where you must use a sales order instead of a sa
 
 In all other aspects, sales orders and sales invoices work in the same way. For more information, see [Sell Products](sales-how-sell-products.md).
 
-You can negotiate with the customer by first creating a sales quote, which you can convert to a sales invoice when you agree on the sale. For more information, see [Make Offers](sales-how-make-offers.md).
+You can negotiate with the customer by first creating a sales quote, which you can convert to a sales invoice when you agree on the sale. For more information, see [Make Sales Quotes](sales-how-make-offers.md).
 
 If the customer decides to buy, you post the sales invoice to create the related quantity and value entries. When you post the sales invoice, you can also email the document as a PDF attachment. You can have the email body prefilled with a summary of the invoice and payment information, such as a link to PayPal. For more information, see [Send Documents by Email](ui-how-send-documents-email.md).
 
@@ -36,7 +36,7 @@ You can even create directly-paid invoices for non-registered customers by first
 
 You can easily correct or cancel a posted sales invoice before it is paid. For example, this is useful if you want to correct a typing mistake or if the customer requests a change early in the order process. For more information, see [Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md). If the posted sales invoice is paid, then you must create a sales credit memo to reverse the sale. For more information, see [Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md).
 
-Items can be both inventory items and services, denoted by the **Inventory** or **Service** type on the item card. The sales invoice process is the same for both item types. For more information, see [Register New Items](inventory-how-register-new-items.md).
+The item card can be of type **Inventory**, **Service**, and **Non-Inventory** to specify if the item is a physical inventory unit, a labor time unit, or a physical unit that is not kept on inventory. For more information, see [Register New Items](inventory-how-register-new-items.md). The sales invoice process is the same for all three item types.
 
 You can fill customer fields on the sales invoice in two ways depending on whether the customer is already registered. See steps 2 and 3 in the following procedure.
 
@@ -66,7 +66,7 @@ You can fill customer fields on the sales invoice in two ways depending on wheth
     You leave the **No.** field empty in the following cases:
 
     * If the line is for a comment. Write the comment in the **Description** field.
-    * If the line is for a nonstock item. Choose the **Select Nonstock Items** action. For more information, see [Work With Nonstock Items](inventory-how-work-nonstock-items.md).
+    * If the line is for a catalog item. Choose the **Select Catalog Items** action. For more information, see [Work With Catalog Items](inventory-how-work-catalog-items.md).
 
 11. In the **Quantity** field, enter how many units of the product, charge, or transaction that the line will record for the customer.  
 

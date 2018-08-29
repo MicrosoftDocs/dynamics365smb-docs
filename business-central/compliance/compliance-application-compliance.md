@@ -91,4 +91,4 @@ Microsoft is building localized versions of Business Central for some countries.
 [Certifications](compliance-certifications.md)  
 
  ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
- ## [!INCLUDE[d365fin](../includes/training_link_md.md)]
+ 

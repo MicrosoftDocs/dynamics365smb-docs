@@ -281,7 +281,7 @@ Use `%me` or `%userid` when filtering fields that contain the user ID, such as *
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
-|`%me`<br />or<br />`%userid`|Records the are assigned to your user account. |  
+|`%me`<br />or<br />`%userid`|Records that are assigned to your user account. |  
 
 ### (%mycustomers) Customers in My Customers
 
@@ -305,9 +305,10 @@ Use `%myvendors` in the vendor **No** field to display all records for vendors t
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
-|`%myvendors`|Venders in the **My Vendors** on your Role Center. |  
+|`%myvendors`|Vendors in the **My Vendors** on your Role Center. |  
 
 
 ## See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-[Common questions about Searching and Filtering](ui-search-filter-faq.md)  
+
+[Common questions about Searching and Filtering](ui-search-filter-faq.md)

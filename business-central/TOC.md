@@ -141,6 +141,7 @@
 ## [Setting Up Email](admin-how-setup-email.md)
 ## [Creating Number Series](ui-create-number-series.md)
 ## [Setting Up Base Calendars](across-how-to-assign-base-calendars.md)
+## [Your Access to the Intelligent Cloud](about-intelligent-cloud.md)
 
 # [Administration](admin-setup-and-administration.md)
 ## [Understanding Profiles, and Role Centers](admin-users-profiles-roles.md)

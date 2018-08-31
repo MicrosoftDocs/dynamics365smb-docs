@@ -26,6 +26,7 @@ This extension makes it easy to migrate customers, vendors, items, and your gene
 The following data is migrated for each entity:
 
 **Customers**
+* Contacts  
 * Location
 * Country
 * Customer dimensions (department, center, purpose)
@@ -43,6 +44,7 @@ If you migrate accounts, the following data is also migrated:
 * Open transactions (customer ledger entries)
 
 **Vendors**
+* Contacts
 * Location
 * Country
 * Vendor dimensions (department, center, purpose)
@@ -71,6 +73,7 @@ If you migrate accounts, the following data is also migrated:
 * Units of measure
 * Item tracking code
 * Customer price group
+* Assembly BOMs
 
 If you migrate accounts, the following data is also migrated:
 
@@ -118,7 +121,9 @@ If something goes wrong and an error occurs, the **Status** field will show **Co
 * The number in the **Error Count** field for the entity.  
 * The entity, and then the **Show Errors** action.  
 
-On the **Data Migration Errors** page, to fix an error you can choose an error message, then choose **Edit Record** to open a page that shows the migrated data for the entity. After you fix one or more errors, you can choose **Migrate** to migrate only the entities you fixed, without having to completely restart the migration.  
+On the **Data Migration Errors** page, to fix an error you can choose an error message, and then choose **Edit Record** to view the migrated data for the entity. If you have several errors to fix, you can choose **Bulk-Fix Errors** to edit the entities in a list. You still need to open individual records if the error was caused by a related entry though. For example, a vendor will not be migrated if an email address one of their contacts has an invalid format.
+
+After you fix one or more errors, you can choose **Migrate** to migrate only the entities you fixed, without having to completely restart the migration.  
 
 > [!Tip]
 > If you have fixed more than one error, you can use the **Select More** feature to select multiple lines to migrate. Alternatively, if there are errors that are not important to fix, you can choose them and then choose **Skip Selections**.

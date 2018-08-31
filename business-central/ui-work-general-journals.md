@@ -1,27 +1,35 @@
 ---
 title: Using General Journals to Post Directly to G/L| Microsoft Docs
-description: Learn about using general journals to post financial transactions to general ledger accounts and other accounts, such as bank and vendor accounts.
-author: SorenGP
+description: Learn about using journals to post financial transactions to general ledger accounts and other accounts, such as bank and vendor accounts.
+author: edupont04
 
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/23/2018
-ms.author: sgroespe
+ms.date: 08/31/2018
+ms.author: edupont
 
 ---
 # Working with General Journals
-Most financial transactions are posted to the general ledger through dedicated business documents, such as purchase invoices and sales orders. For business activities that are not represented by a document in [!INCLUDE[d365fin](includes/d365fin_md.md)], such as smaller expenses or cash receipts, you can create the related transactions by posting journal lines in the **General Journal** window. For more information, see [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md).
 
-For example, you can post employees' expenditure of own money on business-related expenses, for later reimbursement. For more information, see [Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md).
+Most financial transactions are posted to the general ledger through dedicated business documents, such as purchase invoices and sales orders. But you can also process business activities such as purchasing, paying, or refunding employee expenses by posting journal lines in the various journals in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+
+Most journals are based on the *General Journal*, and you can process all transactions in the **General Journal** window. For more information, see [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md).  
+
+For example, you can use post employees' expenditure of own money on business-related expenses, for later reimbursement. For more information, see [Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md).
+
+But in many cases, you will want to use the journals that are optimized for specific types of transactions, such as the **Payment Journal** for registering payments. For more information, see [Record Payments and Refunds in the Payment Journal](payables-how-post-payments-refunds.md).  
 
 You use general journals to post financial transactions directly to general ledger accounts and other accounts, such as bank, customer, vendor, and employee accounts. Posting with a general journal always creates entries on general ledger accounts. This is true even when, for example, you post a journal line to a customer account, because an entry is posted to a general ledger receivables account through a posting group.
+
+The general journal only shows a limited number of fields in the journal line by default. If you want to see additional fields, such as the **Balancing General product Posting Group** field, choose the **Page** action in the navigation bar, and then choose **Show more columns**. To hide the additional fields again, choose **Show fewer columns**.  
 
 The information that you enter in a journal is temporary and can be changed while it is in the journal. When you post the journal, the information is transferred to entries on individual accounts, where it cannot be changed. You can, however, unapply posted entries, and you can post reversing or correcting entries. For more information, see [Reverse Postings](finance-how-reverse-journal-posting.md).
 
 ## Using Journal Templates and Batches
+
 There are several general journal templates. Each journal template is represented by a dedicated window with particular functions and the fields that are required to support those functions, such as the **Payment Reconciliation Journal** window to process bank payments and the **Payment Journal** window to pay your vendors or reimburse your employees. For more information, see [Make Payments](payables-make-payments.md) and [Reconcile Customer Payments Manually](receivables-how-apply-sales-transactions-manually.md).
 
 For each journal template, you can set up your own personal journal as a journal batch. For example, you can define your own journal batch for the payment journal that has your personal layout and settings. The following tip is an example of how to personalize a journal.

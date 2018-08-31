@@ -29,7 +29,8 @@ Unlike for entries that are posted with documents, which require a credit memo p
 2. Open the relevant general journal batch. For more information, see [Working with General Journals](ui-work-general-journals.md).
 3. On a new journal line, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]    
 
-    [!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]> 
+    > [!TIP]
+    > [!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]
 4. Repeat step 3 for all the separate transactions that you want to post.
 
     > [!TIP]  

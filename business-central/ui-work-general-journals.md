@@ -24,7 +24,7 @@ But in many cases, you will want to use the journals that are optimized for spec
 
 You use general journals to post financial transactions directly to general ledger accounts and other accounts, such as bank, customer, vendor, and employee accounts. Posting with a general journal always creates entries on general ledger accounts. This is true even when, for example, you post a journal line to a customer account, because an entry is posted to a general ledger receivables account through a posting group.
 
-The general journal only shows a limited number of fields in the journal line by default. If you want to see additional fields, such as the **Balancing General product Posting Group** field, choose the **Page** action in the navigation bar, and then choose **Show more columns**. To hide the additional fields again, choose **Show fewer columns**.  
+[!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]>  
 
 The information that you enter in a journal is temporary and can be changed while it is in the journal. When you post the journal, the information is transferred to entries on individual accounts, where it cannot be changed. You can, however, unapply posted entries, and you can post reversing or correcting entries. For more information, see [Reverse Postings](finance-how-reverse-journal-posting.md).
 
@@ -89,9 +89,8 @@ Just as in a recurring journal, you need to enter an allocation only once. The a
 
 If the recurring method in the recurring journal is set to **Balance** or **Reversing Balance**, then any dimension value codes in the recurring journal are disregarded when the account is set to zero. So if you allocate a recurring line to various dimension values in the **Allocations** window, then only one reversing entry will be created. Therefore, if you allocate a recurring journal line that contains a dimension value code, then you must not enter the same code in the **Allocations** window. If you do, the dimension values will be incorrect.
 
-####Example: Allocating Rent Payments to Different Departments
+#### Example: Allocating Rent Payments to Different Departments
 You pay rent every month, so you have entered the rent amount on the cash account on a recurring journal line. In the **Allocations** window, you can divide the expense among several departments (Department dimension) according to the number of square feet that each one occupies. The calculation is based on the allocation percentage on each line. You can enter various accounts on different allocation lines (if rent will also be divided among several accounts), or you can enter the same account but with various dimension value codes for the Department dimension on each line.
-
 
 ## Working with Standard Journals
 When you have created journal lines which you know you are likely to create again later, you can save them as a standard journal before you post the journal. This functionality applies to item journals and general journals.

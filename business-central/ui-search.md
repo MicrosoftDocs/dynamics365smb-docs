@@ -28,5 +28,8 @@ When you start typing characters, a drop-down list shows page names containing t
 > [!NOTE]  
 >   The **Search for Page or Report** function does not search through data, such as customer names, addresses, or transactions. Instead, you can search for data in list pages by choosing the magnifier symbol in the right corner of the list header. The search applies only to the list you are viewing. For more information, see [Entering Criteria in Filters](ui-enter-criteria-filters.md).
 
+
+<!-- Update the include to "Tell me what you want to do. -->
+
 ## See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

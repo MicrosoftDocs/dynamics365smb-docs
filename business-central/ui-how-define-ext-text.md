@@ -10,11 +10,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/02/2018
+ms.date: 08/22/2018
 ms.author: solsen
 
 ---
-# Adding Extended Item Text
+# Add Extended Item Text
 You can extend a standard text for items by adding extra lines, and you can set up conditions for use of the extra lines. You do this from item cards.
 
 ## To define extended text for an item description

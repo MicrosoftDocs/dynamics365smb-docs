@@ -106,7 +106,7 @@ Within a given SKU, the requested or available date represents the highest prior
 
 For more information, see [Design Details: Prioritizing Orders](design-details-prioritizing-orders.md).  
 
-## Production Forecasts and Blanket Orders  
+## Demand Forecasts and Blanket Orders  
 Forecasts and blanket orders both represent anticipated demand. The blanket order, which covers a customer’s intended purchases over a specific period of time, acts to lessen the uncertainty of the overall forecast. The blanket order is a customer-specific forecast on top of the unspecified forecast as illustrated below.  
 
 ![](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "NAV_APP_supply_planning_1_forecast_and_blanket")  

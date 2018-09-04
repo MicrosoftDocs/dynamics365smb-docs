@@ -72,7 +72,7 @@ The following order modifiers exist on the item or SKU card:
 Global planning setup fields on the **Manufacturing Setup** window include:  
 
 -   Dynamic Low-Level Code  
--   Current Production Forecast  
+-   Current Demand Forecast  
 -   Use Forecast on Locations  
 -   Default Safety Lead Time  
 -   Blank Overflow Level  

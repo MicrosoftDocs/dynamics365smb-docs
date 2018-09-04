@@ -15,10 +15,11 @@ ms.date: 09/04/2018
 ms.author: jswymer
 
 ---
-# Using Search to Find Things
+
+# Using Search to Find Things  
 This topic describes various ways to look for things in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-##Find Pages, Reports, Actions, and Documentation 
+## Find Pages, Reports, Actions, and Documentation 
 When you need help finding a page, report, an article in our documentation, or an action on the page that is open, use the ![Tell me what you want to do](media/ui-search/search.png "Search for Page or Report") icon to search for it by name.
 
 When you start typing characters, [!INCLUDE[d365fin](includes/d365fin_md.md)] immediately displays matches in a drop-down list. Results in the list change as you type more characters. The second column in the drop-down list indicates where to find the pages. 

@@ -1,6 +1,6 @@
 ---
-title: Find Pages or Reports Using the Search button | Microsoft Docs
-description: To find pages and reports in Business Central , you can use the Search for Page or Report feature.
+title: Using Search | Microsoft Docs
+description: This topic describes how to use search to find actions, pages, reports, documentation, and data.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -10,12 +10,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: find
-ms.date: 03/29/2017
+ms.search.keywords: find, search
+ms.date: 09/04/2018
 ms.author: jswymer
 
 ---
-# Using Search
+# Using Search to Find Things
+This topic describes various ways to look for things in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ##Find Pages, Reports, Actions, and Documentation 
 When you need help finding a page, report, an article in our documentation, or an action on the page that is open, use the ![Tell me what you want to do](media/ui-search/search.png "Search for Page or Report") icon to search for it by name.
@@ -29,16 +30,16 @@ The **On current page** section lists the actions on the page you have open that
 > The list includes only actions that are available in the Navigation Bar at the top of the page. Actions on FasTabs are not included.  
 
 ### Find a Page or a Task
-The **Go to Pages and Tasks** section lists other pages that might be useful for your search topic.  
+The **Go to Pages and Tasks** section lists other pages that might be useful for your search topic.   
 
 > [!NOTE]  
 >   The available pages and reports depend on the user experience you choose for your company. The **Essential** experience gives access to fewer than the **Premium** experience does. The first time you sign in, you use the Essential experience. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
-### Find a report or a chart
-The **Go to Reports and Analysis** offers access to details about the subject of your search.  
+### Find a Report or a Chart
+The **Go to Reports and Analysis** section offers access to details about the subject of your search.  
 
 ### Find Information in the Help
-**Documentation** shows articles from the [!INCLUDE[d365fin](includes/d365fin_md.md)] documentation.  
+Under **Documentation** you will see articles from the [!INCLUDE[d365fin](includes/d365fin_md.md)] documentation that describe concepts and provide step-by-step guidance for completing tasks related to your search.  
 
 ## Searching for Data
 <!--Need to verify this section-->

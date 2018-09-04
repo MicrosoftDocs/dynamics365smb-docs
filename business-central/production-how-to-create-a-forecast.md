@@ -45,7 +45,7 @@ As the component forecast is designed to define options for a parent item, the c
  The forecast period is valid from its starting date until the date the next forecast starts. The time interval window gives you multiple choices to insert the demand at a specific date in a period. It is therefore recommended not to change the forecast period scope unless you want to move all forecast entries to the starting date of this period.  
 
 ## Forecast by Locations  
-It can be stated in the manufacturing setup if. Note, though, that if location-based forecasts are viewed in isolation, the overall forecast may not be representative.
+It can be stated in the manufacturing setup if you want filter forecast according to location when calculating a plan. Note, though, that if location-based forecasts are viewed in isolation, the overall forecast may not be representative.
 
 ## To create a demand forecast
 

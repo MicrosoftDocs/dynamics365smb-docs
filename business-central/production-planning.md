@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 09/14/2017
+    ms.date: 09/04/2018
     ms.author: sgroespe
 
 ---
@@ -34,7 +34,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Get a brief introduction to how the planning system can be used to detect and prioritize demand and suggest a balanced supply plan.|[About Planning Functionality](production-about-planning-functionality.md)|
 |Understand how all aspects of the planning system works and how to adjust the algorithms to meet planning requirements in different environments.|[Design Details: Supply Planning](design-details-supply-planning.md)|
 |Learn how the planning logic differentiates between demand at locations according to the SKU setup and demand without location codes.|[Planning With or Without Locations](production-planning-with-without-locations.md)|
-|Forecast production demand presented by expected sales and production orders.|[Create a Demand Forecast](production-how-to-create-a-forecast.md)|  
+|Forecast demand presented by expected sales and production components.|[Create a Demand Forecast](production-how-to-create-a-forecast.md)|  
 |Create one-to-one production orders automatically from a sales order to cover the exact demand of that sales order line.|[Create Production Orders from Sales Orders](production-how-to-create-production-orders-from-sales-orders.md)|
 |Create a project production order directly from a multiline sales order representing a production project.|[Plan Project Orders](production-how-to-plan-project-orders.md)|
 |Use the **Order Planning** window to manually plan for sales or production demand one production BOM level at a time.|[Plan for New Demand Order by Order](production-how-to-plan-for-new-demand.md)|

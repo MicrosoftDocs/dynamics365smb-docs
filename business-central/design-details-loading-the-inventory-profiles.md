@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 09/04/2018
     ms.author: sgroespe
 
 ---
@@ -78,7 +78,7 @@ To sort out the many sources of demand and supply, the planning system organizes
  Safety stock is an inventory quantity set aside to compensate for uncertainties in demand during the replenishment lead time. However, it may be consumed if it is necessary to take from it to fulfill a demand. In that case, the planning system will ensure that the safety stock is quickly replaced by suggesting a supply order to replenish the safety stock quantity on the date it is consumed. This planning line will display an Exception warning icon explaining to the planner that the safety stock has been partly or fully consumed by means of an exception order for the missing quantity.  
 
 ## Forecast Demand is Reduced by Sales Orders  
- The production forecast expresses anticipated future demand. While actual demand is entered, typically as sales orders for produced items, it consumes the forecast.  
+ The demand forecast expresses anticipated future demand. While actual demand is entered, typically as sales orders for produced items, it consumes the forecast.  
 
  The forecast itself is not actually reduced by sales orders; it remains the same. However, the forecast quantities used in the planning calculation are reduced (by the sales order quantities) before the remaining quantity, if any, enters the demand inventory profile. When the planning system examines actual sales during a period, both open sales orders and item ledger entries from shipped sales are included, unless they are derived from a blanket order.  
 

@@ -32,7 +32,7 @@ The following procedure describes how to print or reprint the **G/L Book - Print
     |**Starting Date**|Enter the first date in the period from which posted entries will be shown.|  
     |**Ending Date**|Enter the last date in the period from which posted entries will be shown.|  
     |**From Progressive No.**|Specifies the progressive number for the report.|  
-    |**Print Company Information**|Select to print company information on the report.<br /><br /> The remaining fields are populated based on the **Company Information** window.|  
+    |**Print Company Information**|Select to print company information on the report.<br /><br /> The remaining fields are populated based in the **Company Information** window.|  
 
     When you print the report, you will be reminded to update the **General Ledger Setup** window with the page number on the last page.  
 

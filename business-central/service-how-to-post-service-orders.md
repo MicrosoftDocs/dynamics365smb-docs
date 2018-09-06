@@ -26,7 +26,7 @@ If you have a large number of service orders, you can save time by using a batch
 ## To post a service order    
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Orders**, and then choose the related link.  
 2. Open the relevant service order.  
-3. On the **Service Order** window, choose one of the following actions.  
+3. In the **Service Order** window, choose one of the following actions.  
   
     |**Action**|**Result**|  
     |------------------|----------------|  

@@ -35,7 +35,7 @@ You assign service item groups to items on the **Item** card, and to service ite
 7. If you want to register the items in the group as service items when they are sold, select the **Create Service Item** field.  
 
 ## To set up service item components
-A service item can consist of several components, which can be replaced with spare parts when the item is serviced. These components are set up on the **Service Item Component List** window. Additionally, if you want to set up components for service items that are BOMs, you can copy the BOM items and create them as service item components.
+A service item can consist of several components, which can be replaced with spare parts when the item is serviced. These components are set up in the **Service Item Component List** window. Additionally, if you want to set up components for service items that are BOMs, you can copy the BOM items and create them as service item components.
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Items**, and then choose the related link.
 2. Open the service item for which you want to set up components.  

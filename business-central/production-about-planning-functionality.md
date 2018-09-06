@@ -69,7 +69,7 @@ The following order modifiers exist on the item or SKU card:
 -   Maximum Order Quantity  
 -   Order Multiple  
 
-Global planning setup fields on the **Manufacturing Setup** window include:  
+Global planning setup fields in the **Manufacturing Setup** window include:  
 
 -   Dynamic Low-Level Code  
 -   Current Demand Forecast  

@@ -71,7 +71,7 @@ After you fill in the Intrastat journal, you can print the **Checklist** report 
 
 ### To fill in Intrastat journals  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat Journal** and then choose the related link.  
-2. On the **Intrastat Journal** window, in the **Batch Name** field, choose the relevant journal batch, and then choose **OK**.  
+2. In the **Intrastat Journal** window, in the **Batch Name** field, choose the relevant journal batch, and then choose **OK**.  
 3. Choose the **Suggest Lines** action. The **Starting Date** and **Ending Date** fields will already contain the dates specified for the statistics period on the journal batch.  
 4. In the **Cost Regulation %** field, you can enter a percentage to cover transport and insurance. If you enter a percentage, the content of the **Statistical Value** field in the journal is proportionally higher.  
 5. Choose **OK** to start the batch job.  
@@ -79,13 +79,13 @@ After you fill in the Intrastat journal, you can print the **Checklist** report 
 The batch job retrieves all the item entries in the statistics period and inserts them as lines in the Intrastat journal. You can edit the lines if needed.  
 
 > [!IMPORTANT]  
->  The batch job retrieves only the entries that contain a country/region code for which an Intrastat code has been entered on the **Countries/Regions** window. Therefore, you must enter Intrastat codes for the country/region codes for which you will run the batch job.  
+>  The batch job retrieves only the entries that contain a country/region code for which an Intrastat code has been entered in the **Countries/Regions** window. Therefore, you must enter Intrastat codes for the country/region codes for which you will run the batch job.  
 
 ### Report Intrastat on a form or a file
 To get the information that is required on the Intrastat form from the statistical authorities, you must print the **Intrastat – Form** report. Before you can do this, you must prepare the Intrastat journal and fill it in. If you have both sales and purchase transactions, you must complete a separate form for each type, so that you must print the report two times.  
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat Journals**, and then choose the related link.  
-2. On the **Intrastat Journal** window, choose the relevant journal batch in the **Batch Name** field.  
+2. In the **Intrastat Journal** window, choose the relevant journal batch in the **Batch Name** field.  
 3. If you have not already done this, fill in the journal manually or choose **Suggest Lines**.  
 4. Choose the **Prints Intrastat Journal** action.  
 5. On the **Intrastat Jnl. Line** FastTab, add a **Type** filter and then specify whether this is a **Receipt** or a **Shipment**.  

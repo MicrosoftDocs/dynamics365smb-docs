@@ -31,7 +31,7 @@
 
 # [Working with Business Central](ui-work-product.md)
 ## [Changing Basic Settings](ui-change-basic-settings.md)
-## [Using Search for Page or Report](ui-search.md)
+## [Using Search](ui-search.md)
 ## [Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md)
 ## [Entering Date Ranges](ui-enter-date-ranges.md)
 ## [Copying and Pasting](ui-copy-paste.md)

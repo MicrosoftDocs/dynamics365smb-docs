@@ -163,7 +163,7 @@ You can add a filter on one or more columns in a list. Filtering on columns is m
 ### To add a filter on a column
 1. To open the filter pane, 
 2. Choose the downwards arrow in the column heading, and then choose **Filter**.
-3. Do one of the following: 
+3. Do one of the following:
   -  Choose *...* next to the box to select a value from a list.
   -  Enter filter criteria in the box. See the next section for details.
 4. Choose the **OK** button.
@@ -189,55 +189,55 @@ When you enter criteria, you can use all the numbers and letters that you can no
 |`22..23`|From 22-current month-current year 0:00:00 until 23-current month-current year 23:59:59|  
   
 ### (&#124;) Either/or  
-  
+
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`1200|1300`|Numbers with 1200 or 1300|  
   
 ### (<>) Not equal to  
-  
+
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`<>0`|All numbers except 0<br /><br /> The SQL Server Option allows you to combine this symbol with a wild card expression. For example, <>A* meaning not equal to any text that starts with A.|  
   
 ### (>) Greater than  
-  
+
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`>1200`|Numbers greater than 1200|  
   
 ### (>=) Greater than or equal to  
-  
+
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`>=1200`|Numbers greater than or equal to 1200|  
   
 ### (<) Less than  
-  
+
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`<1200`|Numbers less than 1200|  
   
 ### (<=) Less than or equal to  
-  
+
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`<=1200`|Numbers less than or equal to 1200|  
   
 ### (&) And  
-  
+
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`>200&<1200`|Numbers greater than 200 and less than 1200|  
   
 ### ('') An exact character match  
-  
+
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`'man'`|Text that matches man exactly and is case sensitive.|  
   
 ### (@) Case insensitive  
-  
+
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`@man*`|Text that starts with man and is case insensitive.|  
@@ -254,13 +254,13 @@ When you enter criteria, you can use all the numbers and letters that you can no
 >   You cannot use `*` when filtering on option (enumeration) fields, such as the **Status** field on sales orders. To enter a filter for this type of field, you can enter the numeric value as a filtering parameter. For example, in the **Status** field on a sales order that has the values **Open**, **Released**, **Pending Approval**, and **Pending Prepayment**, use the values `0`, `1`, `2`, and `3` to filter for these options. 
   
 ### (?) One unknown character  
-  
+
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`Hans?n`|Text such as Hansen or Hanson|  
   
 ### Combined format expressions  
-  
+
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`5999|8100..8490`|Include any records with the number 5999 or a number from the interval 8100 through 8490.|  

@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 09/06/2017
+    ms.date: 09/04/2018
     ms.author: sgroespe
 
 ---
@@ -72,7 +72,7 @@ The following order modifiers exist on the item or SKU card:
 Global planning setup fields on the **Manufacturing Setup** window include:  
 
 -   Dynamic Low-Level Code  
--   Current Production Forecast  
+-   Current Demand Forecast  
 -   Use Forecast on Locations  
 -   Default Safety Lead Time  
 -   Blank Overflow Level  

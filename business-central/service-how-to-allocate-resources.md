@@ -32,7 +32,7 @@ You may often need to see the list of service orders or service quotes that meet
 6. To get a list of documents that belong to a certain contract, customer, or zone, fill in the **Contract Filter/Customer Filter/Zone Filter** field and press **Enter**.  
 7. Choose a line that corresponds to a service order or service quote, and then choose the **Show Document** action.  
 
-    The **Service Order** or **Service Quote** page opens, and you can work with the document. To return to the **Dispatch Board** page, choose **OK**.
+    The **Service Order** or **Service Quote** window opens, and you can work with the document. To return to the **Dispatch Board** window, choose **OK**.
 
 ## To allocate a resource using resource or resource group availability    
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Dispatch Board**, and choose the related link.  

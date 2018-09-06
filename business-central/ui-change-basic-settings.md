@@ -37,7 +37,7 @@ A company functions as a container for data in [!INCLUDE[d365fin](includes/d365f
 The default company is called CRONUS and contains demonstration data only.
 
 > [!TIP]  
->   If you want to display a different name for your company in the application (such as on the Role Center), set the **Name** field on the **Company Information** page or the **Display Name** field on the **Companies** page.  
+>   If you want to display a different name for your company in the application (such as on the Role Center), set the **Name** field on the **Company Information** window or the **Display Name** field on the **Companies** window.  
 
 ## Work Date
 The default work date is usually today's date. You may have to temporarily change the work date to be able to perform tasks, such as completing transactions for a date that is not the current date.

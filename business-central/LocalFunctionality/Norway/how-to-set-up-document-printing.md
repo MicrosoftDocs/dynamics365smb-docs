@@ -54,6 +54,5 @@ The Norwegian version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)] conta
 6.  Choose the **OK** button.  
 
 ## See Also  
- [Paper Sources and Tray Numbers](paper-sources-and-tray-numbers.md)   
- [Norwegian Giro and OCR-B Font](norwegian-giro-and-ocr-b-font.md)   
+  [Norwegian Giro and OCR-B Font](norwegian-giro-and-ocr-b-font.md)   
  [Set Up KID Numbers on Sales Documents](how-to-set-up-kid-numbers-on-sales-documents.md)

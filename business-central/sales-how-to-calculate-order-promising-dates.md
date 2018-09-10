@@ -88,7 +88,7 @@ In addition to the external order promising that you can perform in the **Order 
     For example, "3w" indicates that the offset time is three weeks. To indicate the current period, prefix to any of these codes with the letter “c”. For example, if you want the offset time to be the current month, enter **cm**.  
 3. Enter a number series in the **Order Promising Nos.** field by selecting a line from the list in the **No. Series** window.  
 4. Enter an order promising template in the **Order Promising Template** field by selecting a line from the list in the **Req. Worksheet Template List** window.  
-5. Enter a requisition worksheet in the **Order Promising Worksheet** field by selecting a line from the list on the **Req. Wksh. Names** window.
+5. Enter a requisition worksheet in the **Order Promising Worksheet** field by selecting a line from the list in the **Req. Wksh. Names** window.
 
 ### To enter inbound warehouse handling time in the inventory setup window  
 If you want to include warehouse handling time in the order promising calculation on the purchase line, you can set it up as a default for the inventory and for your location.    

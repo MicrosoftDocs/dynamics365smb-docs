@@ -37,7 +37,7 @@ A company functions as a container for data in [!INCLUDE[d365fin](includes/d365f
 The default company is called CRONUS and contains demonstration data only.
 
 > [!TIP]  
->   If you want to display a different name for your company in the application (such as on the Role Center), set the **Name** field on the **Company Information** page or the **Display Name** field on the **Companies** page.  
+>   If you want to display a different name for your company in the application (such as on the Role Center), set the **Name** field in the **Company Information** window or the **Display Name** field in the **Companies** window.  
 
 ## <a name="work-date"></a>Work Date
 The default work date is usually today's date. You may have to temporarily change the work date to be able to perform tasks, such as completing transactions for a date that is not the current date.
@@ -55,7 +55,7 @@ The **Region** setting determines how dates, times, numbers, and currencies are 
 ## <a name="language"></a> Language
 Changes the display language. This field appears only when there is more than one language to choose from. 
 
-The initial language is either determined by the administrator or by your browser settings when you sign up for [!INCLUDE[d365fin](includes/d365fin_md.md)]. The language that you set will be used on all devices that you sign in from, such as a phone or tablet. 
+The initial language is either determined by the administrator or by your browser settings when you sign up for [!INCLUDE[d365fin](includes/d365fin_md.md)]. The language that you set will be used on all devices that you sign in from, such as a phone or tablet.
 
 ## Changing When I Receive Notifications
 Choose this link to view or change the notifications that you get about certain events or changes in status, such as when you are about to invoice a customer who has an overdue balance, or the available inventory is lower than the quantity you are about to sell. For more information, see [Smart Notifications](ui-smart-notifications.md).

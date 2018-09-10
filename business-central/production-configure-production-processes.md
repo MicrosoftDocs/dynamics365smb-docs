@@ -26,7 +26,7 @@ When you have set up manufacturing, you can plan and execute production orders. 
 
 |**To**|**See**|  
 |------------|-------------|  
-|Configure the manufacturing features, such as defining shop floor work hours and selecting planning principles.|The **Manufacturing Setup** page.|  
+|Configure the manufacturing features, such as defining shop floor work hours and selecting planning principles.|The **Manufacturing Setup** window.|  
 |Define a standard working week in the manufacturing department in terms of starting and ending times of each work day and related work shift.|[Create Shop Calendars](production-how-to-create-work-center-calendars.md)|  
 |Organize fixed values and requirements of production resources as work centers or machine centers to govern their output of production performed.|[Set Up Work Centers and Machine Centers](production-how-to-set-up-work-and-machine-centers.md)|
 |Organize production operations in the required order and assign them to work or machine centers with the required work times.|[Create Routings](production-how-to-create-routings.md)|

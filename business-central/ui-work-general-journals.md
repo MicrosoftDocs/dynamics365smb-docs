@@ -38,7 +38,7 @@ For each journal template, you can set up your own personal journal as a journal
 > If you select the **Suggest Balancing Amount** check box on the line for your batch in the **General Journal Batches** window, then the **Amount** field on, for example, general journal lines for the same document number is automatically prefilled with the value that is required to balance the document. For more information, see [Letting [!INCLUDE[d365fin](includes/d365fin_md.md)] Suggest Values](ui-let-system-suggest-values.md).
 
 ## Understanding Main Accounts and Balancing Accounts
-If you have set up default balancing accounts for the journal batches on the **General Journals** page, the balancing account will be filled in automatically when you fill in the **Account No.** field. Otherwise, fill in both the **Account No.** field and the **Bal. Account No.** field manually. A positive amount in the **Amount** field is debited to the main account and credited to the balancing account. A negative amount is credited to the main account and debited to the balancing account.
+If you have set up default balancing accounts for the journal batches in the **General Journals** window, the balancing account will be filled in automatically when you fill in the **Account No.** field. Otherwise, fill in both the **Account No.** field and the **Bal. Account No.** field manually. A positive amount in the **Amount** field is debited to the main account and credited to the balancing account. A negative amount is credited to the main account and debited to the balancing account.
 
 > [!NOTE]  
 >   VAT is calculated separately for the main account and the balancing account, so they can use different VAT percentage rates.
@@ -146,7 +146,7 @@ This function also works on filtered views.
 
 Any renumbering of document numbers will respect related applications, such as a payment application that has been made from the document on the journal line to a vendor account. Accordingly, the **Applies-to ID** and **Applies-to Doc. No.** fields on the affected ledger entries may be updated.
 
-The following procedure is based on the **General Journal** window, but applies to all other journals that are based on the general journal, such as the **Payment Journal** window.
+The following procedure is based in the **General Journal** window, but applies to all other journals that are based on the general journal, such as the **Payment Journal** window.
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journals**, and then choose the related link.
 2. When you are ready to post the journal, choose the **Renumber Document Numbers** action.

@@ -117,7 +117,7 @@ If you want to copy sales prices, such as an individual customer's sales prices 
 3.  On the **Sales Prices** FastTab, fill in the **Sales Type** and **Sales Code** fields with the original sales prices you want to copy.  
 4.  In the top section of the request window, fill in the **Sales Type** and **Sales Code** with the type and name you want the sales prices copied to.  
 5.  If you want the batch job to create new prices, select the **Create New Prices** field.  
-6.  Choose the **OK** button to fill in the lines on the **Sales Price Worksheet** window with the suggested new prices, indicating that they are valid for the selected **Sales Type**.  
+6.  Choose the **OK** button to fill in the lines in the **Sales Price Worksheet** window with the suggested new prices, indicating that they are valid for the selected **Sales Type**.  
 
 > [!NOTE]  
 >  This batch job only creates suggestions and it does not implement the suggested changes. If you are satisfied with the suggestions and want to implement them, that is insert them in the **Sales Prices** table, you can use the **Implement Price Changes** batch job, which is found on the **Actions** tab, in the **Functions** group, in the **Sales Price Worksheet** window.

@@ -39,7 +39,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Create a project production order directly from a multiline sales order representing a production project.|[Plan Project Orders](production-how-to-plan-project-orders.md)|
 |Use the **Order Planning** window to manually plan for sales or production demand one production BOM level at a time.|[Plan for New Demand Order by Order](production-how-to-plan-for-new-demand.md)|
 |Use the **Planning Worksheet** window to run both the MPS and MRP options to automatically create either a high-level or detailed supply plan at all item levels.|[Run Full Planning, MPS or MRP](production-how-to-run-mps-and-mrp.md)|
-|Run the requisition worksheet to automatically create a detailed supply plan to cover demand for items that are replenished by purchase or transfer only.|**Requisition Worksheet** page|  
+|Run the requisition worksheet to automatically create a detailed supply plan to cover demand for items that are replenished by purchase or transfer only.|**Requisition Worksheet** window|  
 |Initiate or update a production order as rough-scheduled operations in the master production schedule.|[Replan or Refresh Production Orders Directly](production-how-to-replan-refresh-production-orders.md)|
 |Recalculate work or machine center calendars due to planning changes.|"To calculate a work center calendar" section in [Set Up Shop Calendars](production-how-to-create-work-center-calendars.md)|
 |Track the order demand (tracked quantity), forecast, blanket sales order, or planning parameter (untracked quantity) that has given rise to the planning line in question.|[Track Relations Between Demand and Supply](production-how-track-demand-supply.md)|

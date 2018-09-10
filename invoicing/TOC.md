@@ -2,6 +2,7 @@
 ## Get started
 ### [Troubleshooting](about-troubleshooting.md)
 ### [Set up your business information](set-up-business-profile.md)
+### [Export data](export-data.md)
 #### [Add value added tax (VAT) to your invoices](add-vat.md)
 #### [US tax rates in Invoicing](us-sales-tax.md)
 #### [Define the default email message](customize-email.md)

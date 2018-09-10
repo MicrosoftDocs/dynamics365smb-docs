@@ -24,7 +24,7 @@ The following table lists some of the general functionality with links to topics
 | --- | --- |
 | Change basic settings such as company, work date, and Role Center. |[Changing Basic Settings](ui-change-basic-settings.md) |
 | Find a specific page or report. |[Using Search for Page or Report](ui-search.md) |
-| Filter data in views, reports, or functions by using special symbols and characters. |[Entering Criteria in Filters](ui-enter-criteria-filters.md) |
+| Filter data in views, reports, or functions by using special symbols and characters. |[Searching, Filtering, and Sorting Data](ui-enter-criteria-filters.md) |
 | Learn about how to sort data. |[Sorting Data](ui-sorting.md) |
 | View or process data in specific date ranges. |[Entering Date Ranges](ui-enter-date-ranges.md) |
 | See which fields must be filled in. |[Detecting Mandatory Fields](ui-mandatory-fields.md) |

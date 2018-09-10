@@ -83,7 +83,7 @@ You can invoice the customer for services provided on different service orders. 
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Invoices**, and then choose the related link.  
 2. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Choose the **Get Shipment Lines** action. The **Get Service Shipment Lines** page displays all lines that are shipped but not invoiced for the customer.  
+3. Choose the **Get Shipment Lines** action. The **Get Service Shipment Lines** window displays all lines that are shipped but not invoiced for the customer.  
 4. Choose the lines for the service to invoice, and then choose **OK** to add the service shipment lines to the invoice.  
 
 ## To create a service credit memo  

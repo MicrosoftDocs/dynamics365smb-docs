@@ -36,7 +36,7 @@ You manage saved settings from page **1560 Reports Settings**. There are two way
 
 The page displays all the existing save settings entries for all users. If there is a user name in the **Assigned to** column, only that user can use the saved settings for the associated report. If there is a check mark in the **Share with all users** column, all users can use the saved settings for the report.
 
-From the **Report Settings** page, you can:
+From the **Report Settings** window, you can:
 -   Choose **New** to create a new saved settings entry from scratch.
 -   Select a saved settings entry from the list, and choose **Copy** to create a copy.
 -   Select a saved settings entry from the list, and choose **Edit** to modify a saved settings entry.

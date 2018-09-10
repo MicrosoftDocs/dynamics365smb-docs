@@ -27,7 +27,7 @@ If you have made an incorrect negative quantity posting, such as a purchase orde
 If you have made an incorrect positive quantity posting, such as a purchase return order with the wrong number of items and posted it as shipped but not invoiced, then you can undo the posting.   
 
 ## To reverse the journal posting of a general ledger entry
-You can reverse entries from all **Ledger Entries** windows. The following procedure is based on the **General Ledger Entries** window.
+You can reverse entries from all **Ledger Entries** windows. The following procedure is based in the **General Ledger Entries** window.
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Entries**, and then choose the related link.
 2. Select the entry that you want to reverse, and then choose the **Reverse Transaction** action. Note that is must originate from a journal posting.
 3. In the **Reverse Transaction Entries** window, select the relevant entry, and then choose the **Reverse** action.

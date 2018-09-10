@@ -46,7 +46,7 @@ To import or export bank files, you must set up your own bank account and your v
 ## To view or update the list of currently supported bank data formats
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Data Conv. Service Setup** , and then choose the related link.
 2. In the **Bank Data Conv. Service Setup** window, choose the **Bank Name - Data Conversion List** action to open the list of bank names representing bank data formats that are supported by the conversion service.
-3. In the **Bank Name - Data Conversion List** page, choose the **Update Bank Name List** action.
+3. In the **Bank Name - Data Conversion List** window, choose the **Update Bank Name List** action.
 
 The list of bank data formats that are supported by the bank data conversion service is now updated. This is the list of bank names, filtered by the country/region, that you can select from in the **Bank Name - Data Conversion** field in the **Bank Account Card** window.
 

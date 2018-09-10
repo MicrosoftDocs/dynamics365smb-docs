@@ -26,8 +26,8 @@ You use the following windows to create and analyze cost budgets. Choose the ![S
 |--------|---------|  
 |Transfer budgets from the general ledger.|**Copy G-L Budget to Cost Acctg.** batch job|  
 |Copy cost budgets.|**Copy Cost Budget** batch job|  
-|Allocate budgets.|**Cost Allocation** page|  
-|See cost budget registers and cost budget entries.|**Cost Budget Registers** page|  
+|Allocate budgets.|**Cost Allocation** window|  
+|See cost budget registers and cost budget entries.|**Cost Budget Registers** window|  
 |Print cost budget comparisons using various reports.|**Cost Acctg. Balance-Budget** report<br /><br /> **Cost Acctg. Statement-Budget** report<br /><br /> **Cost Budget by Cost Center** report<br /><br /> **Cost Budget by Cost Object** report|  
 
 ## See Also  

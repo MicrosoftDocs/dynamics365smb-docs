@@ -21,8 +21,11 @@ Once users are created in Office 365, they can be imported into the **Users** wi
 You can then proceed to assign permission sets to the users to define which database objects, and thereby which UI elements, they have access to, and in which companies. You can add users to user groups. This makes it easier to assign the same permission sets to multiple users.
 
 A permission set is a collection of permissions for specific objects in the database. All users must be assigned one or more permission sets before they can access [!INCLUDE[d365fin](includes/d365fin_md.md)].
+<<<<<<< HEAD
 
 From the **User Card** window, you can open the **Effective Permissions** window to see which permissions the user has and through which permission sets they are granted. Here you can also change permission details for permission sets of type **User-Defined**. For more information, see the "To view or edit a user's permissions" section.
+=======
+>>>>>>> origin/Fall-2018
 
 Administrators can use the **User Setup** window to define periods of time during which specified users are able to post, and also specify if the system logs the amount of time users are logged on.
 
@@ -121,6 +124,7 @@ The following procedure explains how to assign permission sets to a user in the 
 3. In the **Permission Set by User** window, select the **[user name]** check box on a line for the relevant permission set to assign the set to the user.
 4. Select the **All Users** check box to assign the permission set to all users.
 
+<<<<<<< HEAD
 ## To view or edit a user's permissions
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Users**, and then choose the related link.
 2. Open the card of the relevant user.
@@ -143,6 +147,8 @@ The following procedure explains how to assign permission sets to a user in the 
 > [!NOTE]  
 > When you edit a permission set, the changes will also apply to other users that have the permission set assigned.
 
+=======
+>>>>>>> origin/Fall-2018
 ## See Also
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Changing Which Features are Displayed](ui-experiences.md)   

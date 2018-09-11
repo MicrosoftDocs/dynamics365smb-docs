@@ -35,13 +35,13 @@ Various service plans or offers are available in CSP to purchase [!INCLUDE[prods
 
 - [!INCLUDE[prodshort](includes/prodshort.md)]
 
-      This is a ‘dual rights’ license, named user, subscription based offer that provides you with the flexibility to configure a cloud tenant, on-premise installation, or an Intelligent Cloud environment that enables you to use your [!INCLUDE[prodshort](includes/prodshort.md)] cloud tenant in conjunction with your [!INCLUDE[prodshort](includes/prodshort.md)] on-premises installation.  
-      The cloud environment is set up through CSP, and the on-premises offer is set up using Order Central to obtain the FLF file. The initial purchase will be made in CSP, the order information will automatically sync with Order Central.  
-      This is ideal for customers that want a full cloud solution to run their business or customers that want ownership of an on-premises installation but want to take advantage of the growing services and value available in the cloud.  
+    This is a ‘dual rights’ license, named user, subscription based offer that provides you with the flexibility to configure a cloud tenant, on-premise installation, or an Intelligent Cloud environment that enables you to use your [!INCLUDE[prodshort](includes/prodshort.md)] cloud tenant in conjunction with your [!INCLUDE[prodshort](includes/prodshort.md)] on-premises installation.  
+    The cloud environment is set up through CSP, and the on-premises offer is set up using Order Central to obtain the FLF file. The initial purchase will be made in CSP, the order information will automatically sync with Order Central.  
+    This is ideal for customers that want a full cloud solution to run their business or customers that want ownership of an on-premises installation but want to take advantage of the growing services and value available in the cloud.  
 - Intelligent Cloud Add-in
 
-      This is a premium license for a [!INCLUDE[prodshort](includes/prodshort.md)] cloud solution run and managed in Microsoft Service. This is a named user, subscription-based offer, that will be available for users that have purchased their on-premises software through DPL.  
-      This is ideal for customers that want to maintain ownership of an on-premises installation but want to take advantage of the growing services and value available in the cloud as well as switch from a BREP model (CAPEX) to CSP model (COPEX).  
+   This is a premium license for a [!INCLUDE[prodshort](includes/prodshort.md)] cloud solution run and managed in Microsoft Service. This is a named user, subscription-based offer, that will be available for users that have purchased their on-premises software through DPL.  
+   This is ideal for customers that want to maintain ownership of an on-premises installation but want to take advantage of the growing services and value available in the cloud as well as switch from a BREP model (CAPEX) to CSP model (COPEX).  
 
 ### License purchased through DPL
 

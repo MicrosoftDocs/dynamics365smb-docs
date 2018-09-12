@@ -23,7 +23,7 @@ No. Actions in parts, such as the Sales Lines part or FactBoxes, are not display
 If the user does not have AcessByPermissions then actions are not displayed. However, pages and reports appear in the results but require that the user has permission to access them. A message will display if the user does not have permission to view the object.
  
 ### Does Tell Me display content from my customizations or installed third-party extensions?
-Actions, pages, and reports that originate from extensions are picked up by Tell Me, but custom help documentation is not. For technical information about how to make custom pages and reports discoverable, see []().
+Actions, pages, and reports that originate from extensions are picked up by Tell Me, but custom help documentation is not. For technical information about how to make custom pages and reports discoverable, see [Adding Pages and Reports to Search](devenv-al-menusuite-functionality.md).
  
 ### What makes this different from what was previously known as Page Search?
 Page Search has evolved into Tell Me to help you get work done quickly. Page Search could only help you navigate to pages or reports. At a technical level, Tell Me is no longer based on the legacy MenuSuite concept.

@@ -94,7 +94,7 @@ To import an existing Sales solution, the setup guide uses an administrative acc
 * System Administrator  
 * Solution Customizer  
 
-For more information, see [Create users in Microsoft Dynamics 365 (online) and assign  security roles](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles) and [Manage Users and Permissions](ui-how-users-permissions.md).  
+For more information, see [Create users in Microsoft Dynamics 365 (online) and assign  security roles](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles) and [Managing Users and Permissions](ui-how-users-permissions.md).  
 
 This account is only used during the setup. Once the solution is imported into [!INCLUDE[d365fin](includes/d365fin_md.md)], the account is no longer needed.
 
@@ -142,7 +142,7 @@ If the item description on the original sales order is very long, then an additi
 [Relationship Management](marketing-relationship-management.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Changing Which Features are Displayed](ui-experiences.md)  
-[Manage Users and Permissions](ui-how-users-permissions.md)    
+[Managing Users and Permissions](ui-how-users-permissions.md)    
 [Onboard your organization and users to Dynamics 365  (online)](/dynamics365/customer-engagement/admin/onboard-your-organization-and-users-to-dynamics-365-online)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

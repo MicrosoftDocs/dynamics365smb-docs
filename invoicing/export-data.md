@@ -8,33 +8,57 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/10/2018
+ms.date: 09/12/2018
 ms.author: edupont
 
 ---
 # Export or delete data from [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
 
-If you want to delete a contact or customer from [!INCLUDE[d365inv](includes/d365inv.md)], it's easy to do.
+If you want to delete a contact or customer from [!INCLUDE[d365inv](includes/d365inv.md)], it's easy to do.  
 
-## To delete an existing contact
+## To delete an existing customer
 
-1. On your Home page, click **Customers** to open the **Customers** list.
-2. Find the contact, and then click the name to open its details.
-3. Click the Delete icon.
+1. On your Home page, click **Customers** to open the list of customers.
+2. Find the contact, and then click the name to open the details.
+3. Click the **Delete** action.
+
+> [!NOTE]
+> If you have already sent them an invoice, you cannot delete the customer. Instead, [!INCLUDE[d365inv](includes/d365inv.md)] can mark the customer as blocked for further business. That means that you cannot send them new invoices, for example.  
 
 If the contact has not been added as a customer, you can add them by creating a draft invoice.
 
-## To add a contact as a customer
+## To add a contact as a customer and then delete the customer
 
 1. On your Home page, click **New Invoice**
 2. In the **Customer Name** field, start typing the contact’s name.
 3. Select your contact from the look-up, and then tab out.
 4. Delete the draft invoice that was just created.
-5. Follow the steps for deleting the contact as described above.
+5. Follow the steps for deleting the customer as described above.
 
-## Requests for deletion
+## Responding to Requests About Personal Data
 
-Under the General Data Protection Regulation (GDPR), EU residents have the right to request the export, deletion and modification of their personal data. This is known as a *Data Subject Request*. If a contact or customer ask you to be deleted as part of a data subject request, you can follow the same steps as outlined above.  
+Data subjects can request several types of actions regarding their personal data. For example, under the General Data Protection Regulation (GDPR), EU residents have the right to request the export, deletion, and modification of their personal data. This is known as a *Data Subject Request*.  
+
+### Requests for deletion
+
+A data subject can request that you delete their personal data. If a contact or customer asks you to be deleted in the context of a data subject request, you can follow the steps that are outlined above.  
+
+### Requests for exporting privacy data
+
+A data subject can make a data portability request, meaning, in part, that you must export the data subject's personal data from your systems and provide it in in a structured, commonly used format.  If a contact or customer asks you to send them their information from [!INCLUDE[d365inv](includes/d365inv.md)], you can email yourself their contact information.  
+
+#### To export privacy data
+
+1. On your Home page, click **Customers** to open the list of customers.
+2. Find the relevant customer, and then click the name to open the details.
+3. Expand the **Privacy** tab, and then click **Export customer privacy data**.
+4. In the **Export customer data** page, verify that you are about to send the email to yourself, and then click OK.
+
+The email that you receive includes an Excel book with information about the customer, including invoices that you have sent them. Depending on the original request, you can choose to delete part of the information before you forward the email to the customer.  
+
+### Requests for correction
+
+A data subject can request that you correct inaccurate personal data. If a contact or customer asks you to update the information about them in [!INCLUDE[d365inv](includes/d365inv.md)], you can do that in the customer details.  
 
 ## See also
 

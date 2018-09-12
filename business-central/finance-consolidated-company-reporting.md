@@ -79,8 +79,8 @@ The following table describes the exchange rate methods you can use for accounts
 To specify exchange rates for business units, follow these steps:
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Business Units**, and then choose the related link.  
-2. On the **Business Unit List** page, choose the business unit, and then choose the **Average Rate (Manual)** action.   
-3. On the **Change Exchange Rate** page, the contents of the **Relational Exch. Rate** field have been copied from the **Currency Exchange Rate** table, but you can modify them. Close the page.  
+2. In the **Business Unit List** window, choose the business unit, and then choose the **Average Rate (Manual)** action.   
+3. In the **Change Exchange Rate** window, the contents of the **Relational Exch. Rate** field have been copied from the **Currency Exchange Rate** table, but you can modify them. Close the page.  
 4. Choose the **Closing Rate** action.  
 5. In the **Relational Exch. Rate Amount** field, enter the exchange rate.
 

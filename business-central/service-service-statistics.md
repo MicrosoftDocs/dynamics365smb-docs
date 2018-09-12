@@ -90,7 +90,7 @@ A contract gain or loss entry is generated when a contract quote is converted to
 ## Viewing Statistics for Posted Service Documents
 The service statistics feature lets you gain a statistical overview of the contents of posted service documents, such as a posted shipment, posted invoice, and posted credit memo.  
 
-The statistical information is displayed in the statistics window for the corresponding posted service document. You can open the relevant statistics window from posted service shipment, posted service invoice, or posted service credit memo documents. For each of these document types, on the **Home** tab, in the **Process** group, choose **Statistics**. For example, from the **Posted Service Invoices** window, on the **Home** tab, in the **Process** group, choose **Statistics**.  
+The statistical information is displayed in the statistics window for the corresponding posted service document. You can open the relevant statistics window from posted service shipment, posted service invoice, or posted service credit memo documents. For each of these document types, in the **Home** tab, in the **Process** group, choose **Statistics**. For example, from the **Posted Service Invoices** window, on the **Home** tab, in the **Process** group, choose **Statistics**.  
 
 ### Posted Service Shipment Statistics  
 The **Service Shipment Statistics** window provides an overview of a posted service shipment. This includes information about the physical contents of the shipment, such as quantity of the shipped items, resource hours or costs, and weight and volume of the shipped items.  

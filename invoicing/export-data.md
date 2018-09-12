@@ -18,9 +18,9 @@ If you want to delete a contact or customer from [!INCLUDE[d365inv](includes/d36
 
 ## To delete an existing customer
 
-1. On your Home page, click **Customers** to open the list of customers.
-2. Find the contact, and then click the name to open the details.
-3. Click the **Delete** action.
+1. On your Home page, choose **Customers** to open the list of customers.
+2. Find the contact, and then choose the name to open the details.
+3. Choose the **Delete** action.
 
 > [!NOTE]
 > If you have already sent them an invoice, you cannot delete the customer. Instead, [!INCLUDE[d365inv](includes/d365inv.md)] can mark the customer as blocked for further business. That means that you cannot send them new invoices, for example.  
@@ -29,7 +29,7 @@ If the contact has not been added as a customer, you can add them by creating a 
 
 ## To add a contact as a customer and then delete the customer
 
-1. On your Home page, click **New Invoice**
+1. On your Home page, choose **New Invoice**
 2. In the **Customer Name** field, start typing the contact’s name.
 3. Select your contact from the look-up, and then tab out.
 4. Delete the draft invoice that was just created.
@@ -49,10 +49,10 @@ A data subject can make a data portability request, meaning, in part, that you m
 
 #### To export privacy data
 
-1. On your Home page, click **Customers** to open the list of customers.
-2. Find the relevant customer, and then click the name to open the details.
-3. Expand the **Privacy** tab, and then click **Export customer privacy data**.
-4. In the **Export customer data** page, verify that you are about to send the email to yourself, and then click OK.
+1. On your Home page, choose **Customers** to open the list of customers.
+2. Find the relevant customer, and then choose the name to open the details.
+3. Expand the **Privacy** tab, and then choose **Export customer privacy data**.
+4. In the **Export customer data** page, verify that you are about to send the email to yourself, and then choose the OK button.
 
 The email that you receive includes an Excel book with information about the customer, including invoices that you have sent them. Depending on the original request, you can choose to delete part of the information before you forward the email to the customer.  
 

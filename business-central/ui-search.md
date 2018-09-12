@@ -1,6 +1,6 @@
 ---
-title: Find Pages or Reports Using the Search button | Microsoft Docs
-description: To find pages and reports in Business Central , you can use the Search for Page or Report feature.
+title: Finding Features and Information | Microsoft Docs
+description: This topic describes how to use search to find actions, pages, reports, documentation, and data.
 author: SusanneWindfeldPedersen
 
 ms.service: dynamics365-business-central
@@ -9,8 +9,8 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 03/29/2017
-ms.author: jswymer
+ms.date: 09/12/2018
+ms.author: bholtorf
 
 ---
 # Using Tell Me to Find Features and Information  
@@ -46,3 +46,9 @@ Under **Documentation** you will see articles from the [!INCLUDE[d365fin](includ
 
 ## Searching for Data
 The **Tell me what you want to do** function does not search for data, such as customer names, addresses, or transactions. Instead, you can search for data in list pages by choosing the ![Search list](media/ui-search/search-list.png "Search list icon") **Search** icon in the left corner of the list header. The search applies only to the list you are viewing. For more information, see [Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md).
+
+## Questions?
+We have shown Tell Me to a range of stakeholders, noted the questions that they had in common, and turned our notes into a list frequently asked questions. If you are interested, see [Tell Me FAQ](ui-search-faq.md).
+
+## See Also
+[Working with Business Central](ui-work-product.md)

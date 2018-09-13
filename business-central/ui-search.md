@@ -16,7 +16,7 @@ ms.author: bholtorf
 # Using Tell Me to Find Features and Information  
 This topic describes various ways that Tell Me can help you quickly find an action, page, report, or learn how to do something in [!INCLUDE[d365fin](includes/d365fin_md.md)] if you are unsure.  
 
-> [!VIDEO https://www.youtube.com/embed/ha9Ft0FdUDA]
+> [!VIDEO https://www.youtube.com/embed/W8egYiS445o]
 
 ## Find Pages, Reports, Actions, and Documentation 
 When you need help finding a page, report, an article in our documentation, or an action on the page that is open, use the ![Tell me what you want to do](media/ui-search/search.png "Search for Page or Report") **Tell me what you want to do** icon to search for it by name. You can also use ALT+Q to start using Tell Me.

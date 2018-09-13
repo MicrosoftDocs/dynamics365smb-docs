@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 09/14/2017
+    ms.date: 09/04/2018
     ms.author: sgroespe
 
 ---
@@ -34,12 +34,12 @@ The following table describes a sequence of tasks, with links to the topics that
 |Get a brief introduction to how the planning system can be used to detect and prioritize demand and suggest a balanced supply plan.|[About Planning Functionality](production-about-planning-functionality.md)|
 |Understand how all aspects of the planning system works and how to adjust the algorithms to meet planning requirements in different environments.|[Design Details: Supply Planning](design-details-supply-planning.md)|
 |Learn how the planning logic differentiates between demand at locations according to the SKU setup and demand without location codes.|[Planning With or Without Locations](production-planning-with-without-locations.md)|
-|Forecast production demand presented by expected sales and production orders.|[Create a Production Forecast](production-how-to-create-a-forecast.md)|  
+|Forecast demand presented by expected sales and production components.|[Create a Demand Forecast](production-how-to-create-a-forecast.md)|  
 |Create one-to-one production orders automatically from a sales order to cover the exact demand of that sales order line.|[Create Production Orders from Sales Orders](production-how-to-create-production-orders-from-sales-orders.md)|
 |Create a project production order directly from a multiline sales order representing a production project.|[Plan Project Orders](production-how-to-plan-project-orders.md)|
 |Use the **Order Planning** window to manually plan for sales or production demand one production BOM level at a time.|[Plan for New Demand Order by Order](production-how-to-plan-for-new-demand.md)|
 |Use the **Planning Worksheet** window to run both the MPS and MRP options to automatically create either a high-level or detailed supply plan at all item levels.|[Run Full Planning, MPS or MRP](production-how-to-run-mps-and-mrp.md)|
-|Run the requisition worksheet to automatically create a detailed supply plan to cover demand for items that are replenished by purchase or transfer only.|**Requisition Worksheet** page|  
+|Run the requisition worksheet to automatically create a detailed supply plan to cover demand for items that are replenished by purchase or transfer only.|**Requisition Worksheet** window|  
 |Initiate or update a production order as rough-scheduled operations in the master production schedule.|[Replan or Refresh Production Orders Directly](production-how-to-replan-refresh-production-orders.md)|
 |Recalculate work or machine center calendars due to planning changes.|"To calculate a work center calendar" section in [Set Up Shop Calendars](production-how-to-create-work-center-calendars.md)|
 |Track the order demand (tracked quantity), forecast, blanket sales order, or planning parameter (untracked quantity) that has given rise to the planning line in question.|[Track Relations Between Demand and Supply](production-how-track-demand-supply.md)|
@@ -56,4 +56,3 @@ The following table describes a sequence of tasks, with links to the topics that
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 

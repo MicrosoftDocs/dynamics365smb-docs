@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
-ms.date: 08/15/2017
+ms.date: 08/23/2018
 ms.author: bholtorf
 
 ---
@@ -64,7 +64,13 @@ All items that you buy or sell must have a commodity code.
 
 ### To set up transport methods
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Transport Methods**, and then choose the related link.  
-2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+### To make shipment method mandatory
+In some countries, such as Spain and UK, the authorities require that Intrastat reports include the shipment method for purchases or sales over a certain threshold. In the **Intrastat Setup** window, you can select to make **Shipment Method** a mandatory field in the **Intrastat Journal** window.
+
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat Setup**, and then choose the related link.
+2. Select the **Shipment Method Mandatory** check box.
 
 ## To Report Intrastat
 After you fill in the Intrastat journal, you can print the **Checklist** report to make sure that that all information in the journal is correct. Afterward, you can print an Intrastat report as a form, or create a file to submit to the tax authority in your country/region.  

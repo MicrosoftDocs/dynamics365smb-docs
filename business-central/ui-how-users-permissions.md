@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 09/10/2018
+ms.date: 09/13/2018
 ms.author: sgroespe
 
 ---
@@ -21,6 +21,8 @@ Once users are created in Office 365, they can be imported into the **Users** wi
 You can then proceed to assign permission sets to the users to define which database objects, and thereby which UI elements, they have access to, and in which companies. You can add users to user groups. This makes it easier to assign the same permission sets to multiple users.
 
 A permission set is a collection of permissions for specific objects in the database. All users must be assigned one or more permission sets before they can access [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+From the **User Card** window, you can open the **Effective Permissions** window to see which permissions the user has and through which permission sets they are granted. Here you can also change permission details for permission sets of type **User-Defined**. For more information, see the "To view or edit a user's permissions" section.
 
 Administrators can use the **User Setup** window to define periods of time during which specified users are able to post, and also specify if the system logs the amount of time users are logged on.
 
@@ -118,6 +120,28 @@ The following procedure explains how to assign permission sets to a user in the 
 2. In the **Users** window, select the relevant user, and then choose the **Permission Set by User** action.
 3. In the **Permission Set by User** window, select the **[user name]** check box on a line for the relevant permission set to assign the set to the user.
 4. Select the **All Users** check box to assign the permission set to all users.
+
+## To view or edit a user's permissions
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Users**, and then choose the related link.
+2. Open the card of the relevant user.
+3. Choose the **Effective Permissions** action.
+
+    The **Permissions** part lists all the database objects that the user has access to. You cannot edit this section.
+
+    The **By Permission Set** part shows the assigned permission sets through which the permissions are granted to the user, the source and type of the permission set, and to which extend the different access types are permitted.
+
+    For each row that you select in the **Permissions** section, the **By Permission Set** section shows which permission set or sets that the permission is granted through. In this section, you can edit the value in each of the five access type fields, **Read Permission**, **Insert Permission**, **Modify Permission**, **Delete Permission**, **Execute Permission**.   
+
+    > [!NOTE]  
+    > Only permission sets of type **User-Defined** can be edited.<br /><br />
+    > Rows of source Entitlement originate from the subscription plan. The permission values of the entitlement overrule values in other permission sets if they have a higher ranking. A value in a non-entitlement permission set that has a higher ranking than the related value in the entitlement will be surrounded by brackets to indicate that it is not effective as it is overruled by the entitlement. For an explanation of ranking, see the "To create or edit permissions" section.  
+
+4. To edit a permission set, in the **By Permission Set** part, on the line for a relevant permission set of type **User-Defined**, choose one of the five access type fields and select a different value.
+
+5. To edit individual permissions within the permission set, choose the value in the **Permission Set** field to open the **Permissions** window. Follow the steps described in the "To create or edit permissions" section.  
+
+> [!NOTE]  
+> When you edit a permission set, the changes will also apply to other users that have the permission set assigned.
 
 ## See Also
 [Getting Ready for Doing Business](ui-get-ready-business.md)  

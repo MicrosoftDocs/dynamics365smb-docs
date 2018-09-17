@@ -66,14 +66,15 @@ All items that you buy or sell must have a commodity code.
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Transport Methods**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### To make shipment method mandatory
-In some countries, such as Spain and UK, the authorities require that Intrastat reports include the shipment method for purchases or sales over a certain threshold. In the **Intrastat Setup** window, you can select to make **Shipment Method** a mandatory field in the **Intrastat Journal** window.
+### To set up which Intrastat report fields are mandatory
+In some countries, such as Spain and UK, the authorities require that Intrastat reports include, for example, the shipment method for purchases or some other values when sales is over a certain threshold. In the **Intrastat Setup** window, you can select to make **Intrastat Checkist Setup** to set mandatory fields in the **Intrastat Journal** window.
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat Setup**, and then choose the related link.
-2. Select the **Shipment Method Mandatory** check box.
+2. Chooes the **Intrastat Checklist Setup** action.
+3. In the **Intrastat Checklist Setup** window, click in the **Field Name** to pick Intrastat report field you want to make mandatory. 
 
 ## To Report Intrastat
-After you fill in the Intrastat journal, you can print the **Checklist** report to make sure that that all information in the journal is correct. Afterward, you can print an Intrastat report as a form, or create a file to submit to the tax authority in your country/region.  
+After you fill in the Intrastat journal, you can run the **Checklist report** action to make sure that that all information in the journal is correct. Mandatory fields you have set in **Intrastat Checklist Setup** window that are missing values, will be shown in Errors and warning factbox on **Intrastat Journal** window. Afterward, you can print an Intrastat report as a form, or create a file to submit to the tax authority in your country/region.  
 
 ### To fill in Intrastat journals  
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat Journal** and then choose the related link.  

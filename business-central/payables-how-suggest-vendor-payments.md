@@ -25,10 +25,9 @@ To benefit fully from payment suggestions, you must first prioritize your vendor
 
 > [!IMPORTANT]  
 >   If you want to take advantage of payment discounts, and have entered an available amount, the amount will be used for:  
-
-* Prioritized overdue vendor entries first in order of priority.  
-* Overdue vendor entries that are not prioritized.  
-* Open vendor entries that qualify for payment discounts, arranged by vendor number.  
+    * Prioritized overdue vendor entries first in order of priority.   
+    * Overdue vendor entries that are not prioritized.  
+    * Open vendor entries that qualify for payment discounts, arranged by vendor number.  
 
 ## To use the Suggest Vendor Payments function
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.  

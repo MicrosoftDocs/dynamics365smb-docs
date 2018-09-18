@@ -42,10 +42,14 @@ If you choose to create a new chart of accounts, you will get an additional acco
 
 You will need to download the excel workbook and map a new account number to each account number within the excel spreadsheet, each account will be required to have its own number, or the migration will error.  Once the workbook has been completed you can continue walking through the migration wizard by importing the excel workbook you just updated.  The wizard will validate that each row has a unique Account Number and that no rows have an empty new account number in them.
 With the change to the mapping of the chart of account options the user will also notice a change to the type of data that comes across into the general journal for the account numbers.  
+
 •	If you choose to use the existing account numbers, we will bring over the beginning balance of the main segment (new account number) as a summation of the main account number at the time of the migration.  
 •	If you choose to create new account numbers, we will bring over 2 “years” worth of summary information based on the fiscal periods you have setup within Dynamics GP.
+
 Previously on Customers and Vendors we migrated a summary transaction for the customer/vendor balance within Dynamics GP.  Now we will be bringing in the detail open transactions for customers and vendors at the time of the migration.  What does this mean?  If your customer has 3 outstanding transactions within the receivables module we will bring those transactions into Business Central with the outstanding amount as the document amount.  This is the same for the payables module for vendors.
+
 Inventory items will be brought into the system with the cost valuation method that was selected when the company setup wizard was run.  Service items will automatically be assigned the FIFO valuation method.   Currently we bring in the Quantity on Hand for the items at the time of migration.  This quantity is brought into the blank location.  
+
 The last option you will see within the Data Migration wizard for Dynamics GP is the ability to specify your posting option.  This option will allow you to choose to automatically post all the transactions in the general journals as soon as the migration moves the data into Business Central or you can choose to post manually meaning all the transactions will sit in batches inside the General Journal page so you can verify the information before you post.  This option is visible on the Chart of Accounts options page.
 
 

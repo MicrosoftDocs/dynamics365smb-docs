@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 03/29/2017
+ms.date: 09/19/2018
 ms.author: edupont
 
 ---
@@ -37,20 +37,20 @@ Within the migration wizard you now can choose how you want your Dynamics GP cha
 
 If you choose to use the existing chart of accounts, the accounts will be set up as the main account segment from Dynamics GP and the additional segments will be setup as dimensions within [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-If you choose to create a new chart of accounts, you will get an additional account info page in the wizard that gives you the ability to download the workbook and import the workbook to change your accounts.
+If you choose to create a new chart of accounts, you will get an additional account information page in the wizard so that you can download the workbook, make the relevant changes, and then import the workbook again to change your accounts.  
 
+You will have to download the Excel workbook and map a new account number to each account number in the Excel spreadsheet. Each account will be required to have its own number, or the migration will error. When you have completed the mapping, you can continue through the migration wizard by importing the Excel workbook that you just updated. The wizard will validate that each row has a unique account number and that no rows have an empty new account number in them.  
 
-You will need to download the excel workbook and map a new account number to each account number within the excel spreadsheet, each account will be required to have its own number, or the migration will error.  Once the workbook has been completed you can continue walking through the migration wizard by importing the excel workbook you just updated.  The wizard will validate that each row has a unique Account Number and that no rows have an empty new account number in them.
-With the change to the mapping of the chart of account options the user will also notice a change to the type of data that comes across into the general journal for the account numbers.  
+With the change to the mapping of the chart of account options, you will also note a change to the type of data that comes across into the general journal for the account numbers.  
 
-•	If you choose to use the existing account numbers, we will bring over the beginning balance of the main segment (new account number) as a summation of the main account number at the time of the migration.  
-•	If you choose to create new account numbers, we will bring over 2 “years” worth of summary information based on the fiscal periods you have setup within Dynamics GP.
+- If you choose to use the existing account numbers, we will bring over the beginning balance of the main segment (new account number) as a summation of the main account number at the time of the migration.  
+- If you choose to create new account numbers, we will bring summary information for the equivalent of two fiscal years based on the fiscal periods you have set up in Dynamics GP.
 
-Previously on Customers and Vendors we migrated a summary transaction for the customer/vendor balance within Dynamics GP.  Now we will be bringing in the detail open transactions for customers and vendors at the time of the migration.  What does this mean?  If your customer has 3 outstanding transactions within the receivables module we will bring those transactions into Business Central with the outstanding amount as the document amount.  This is the same for the payables module for vendors.
+In erlier versions of [!INCLUDE[d365fin](includes/d365fin_md.md)], the wizard migrated a summary transaction for the customer/vendor balance in Dynamics GP. Now we bring in the detailed open transactions for customers and vendors at the time of the migration. What does this mean? If your customer has 3 outstanding transactions registered in the Receivables module, the wizard brings those transactions into [!INCLUDE[d365fin](includes/d365fin_md.md)] with the outstanding amount as the document amount. This is the same for the Payables module for vendors.  
 
-Inventory items will be brought into the system with the cost valuation method that was selected when the company setup wizard was run.  Service items will automatically be assigned the FIFO valuation method.   Currently we bring in the Quantity on Hand for the items at the time of migration.  This quantity is brought into the blank location.  
+Inventory items are imported with the cost valuation method that was selected when the company setup wizard was run. Service items are automatically assigned the FIFO valuation method. Currently we bring in the Quantity on Hand for the items at the time of migration.  This quantity is brought into the blank location.  
 
-The last option you will see within the Data Migration wizard for Dynamics GP is the ability to specify your posting option.  This option will allow you to choose to automatically post all the transactions in the general journals as soon as the migration moves the data into Business Central or you can choose to post manually meaning all the transactions will sit in batches inside the General Journal page so you can verify the information before you post.  This option is visible on the Chart of Accounts options page.
+The last option you see in the Data Migration wizard for Dynamics GP is the ability to specify your posting option. This setting specifies if you want to automatically post all transactions in the general journals as soon as the migration moves the data into [!INCLUDE[d365fin](includes/d365fin_md.md)], or if you want to post manually so that all transactions will sit in batches inside the General Journal page so you can verify the information before you post. This option is visible on the Chart of Accounts options page.
 
 
 ## See Also

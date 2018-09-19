@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 09/10/2018
+ms.date: 09/19/2018
 ms.author: sgroespe
 
 ---
@@ -85,6 +85,7 @@ When you create new permission sets, you can use a copy function to quickly carr
 
 1. In the **Permission Sets** window, select the line for a permission set that you want to copy, and then choose the **Copy Permission Set** action.
 2. In the **Copy Permission Set** window, specify the name of the new permission set, and then choose the **OK** button.
+3. Select the **Notify on Changed Permission Set** check box if you want to maintain a link between the original and the copied permission sets. The link is then used to notify you if the name or content of the original permission set changes in a future version that the solution is upgraded to later.
 
 The new permission set, containing all the permissions of the copied permission set, is added as a new line in the **Permission Sets** window. Note that the lines are sorted alphabetically within each type.
 

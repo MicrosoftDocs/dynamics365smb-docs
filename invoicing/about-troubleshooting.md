@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 08/08/2018
+ms.date: 09/12/2018
 ms.author: edupont
 
 ---
@@ -22,7 +22,7 @@ You might have noticed that there isn't a Save button in [!INCLUDE[d365inv](incl
 When you open an invoice, an estimate, or other pages in [!INCLUDE[d365inv](includes/d365inv.md)], there's an X in the top right corner. Choose the X to close the window. For the mobile app, it depends on your mobile device, but in many cases, you can use the Back button on your mobile device to return to the Home screen.  
 
 ## Where do I change the logo?
-The logo that is printed on your invoices comes from your Office 365 business profile. For more information, see [Set up your business information](set-up-business-profile.md).  
+You can do that in the Settings for [!INCLUDE[d365inv](includes/d365inv.md)]. The picture that you upload in Settings is then printed on your invoices. For more information, see [Set up your business information](set-up-business-profile.md).  
 
 ## How can I change the email account that sends the invoices?
 You can do that in the Settings for [!INCLUDE[d365inv](includes/d365inv.md)]. By default, invoices are sent from your Office 365 email address, but you can change that to any email account, including your personal email address. For more information, see [Set up your business information](set-up-business-profile.md).  

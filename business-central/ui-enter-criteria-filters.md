@@ -142,34 +142,6 @@ With any field selected on a row, use the **Alt+F3** keyboard shortcut to displa
 For more information see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
 
 
-<!-- 
-### Tips for improving filter results
-
-To improve your filter results, consider the following strategies:
-
-- Understand where and how filters persist. Filters are page dependent. If you apply a filter on one list and switch to a different list, then the filter is not applied there. The filter persists on the list where you set it until you clear it or specify new criteria.
-
-- Only enter meaningful filters. For example, you can specify an interval that does not exist and cannot be verified. To enter meaningful filters, you must know the sorting rules that are used.
-
-- Check your filters by occasionally opening the filter pane. In the Application menu, choose Customize, and then choose Filter Pane to see an overview of all filters that have been applied. To remove all filters on a page, choose the page title drop-down arrow, and then choose Clear Filter. Note that this also cancels a default list view, such as that set for Sales Orders - Open.
-
-The following procedures show the different filtering methods for filtering data that uses the CRONUS International Ltd. demonstration database.
--->
-
-<!--
-You can add a filter on one or more columns in a list. Filtering on columns is more flexible and enhanced than the Quick Filter. 
-
-
-### To add a filter on a column
-1. To open the filter pane, 
-2. Choose the downwards arrow in the column heading, and then choose **Filter**.
-3. Do one of the following:
-  -  Choose *...* next to the box to select a value from a list.
-  -  Enter filter criteria in the box. See the next section for details.
-4. Choose the **OK** button.
-
--->
-
 ## <a name="FilterCriteria"> </a>Filter criteria and symbols
 When you enter criteria, you can use all the numbers and letters that you can normally use in the field. In addition, you can use special symbols to further filter the results. The following tables show the symbols which can be used in filters. For dates and times, you can also refer to [Working with Calendar Dates and Times](ui-enter-date-ranges.md) for more detailed information.
 

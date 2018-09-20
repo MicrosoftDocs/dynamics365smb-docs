@@ -1,6 +1,6 @@
 ---
 title: Choosing the User Experience to Show or Hide Advanced Features | Microsoft Docs
-description: Learn what the Basic and Essential user experience tiers mean for the user interface, application areas, and your company.
+description: Learn what the Essential and Premium user experience tiers mean for the user interface, application areas, and your company.
 documentationcenter: ''
 author: edupont04
 
@@ -27,7 +27,6 @@ The following table lists the experiences that are currently available.
 
 | Experience | Impact on User Interface |
 | --- | --- |
-| **Basic** |Shows only core actions and fields within the most common business functionality, such as sales, purchasing, inventory, and finance. |
 | **Essential** |Shows all actions and fields for all common business functionality.|
 | **Premium** |Shows all actions and fields for all business functionality, including Manufacturing and Service Management.|
 

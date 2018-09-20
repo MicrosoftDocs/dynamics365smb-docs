@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 08/29/2018
+ms.date: 09/12/2018
 ms.author: sgroespe
 
 ---
@@ -25,7 +25,7 @@ In all other aspects, sales orders and sales invoices work in the same way. For 
 
 You can negotiate with the customer by first creating a sales quote, which you can convert to a sales invoice when you agree on the sale. For more information, see [Make Sales Quotes](sales-how-make-offers.md).
 
-If the customer decides to buy, you post the sales invoice to create the related quantity and value entries. When you post the sales invoice, you can also email the document as a PDF attachment. You can have the email body prefilled with a summary of the invoice and payment information, such as a link to PayPal. For more information, see [Send Documents by Email](ui-how-send-documents-email.md). When the customer then pays the invoice, you can register that payment in different ways, depending on the size and preferred workflows of your organization. For more information, see the [Register Payments](#register-payments) section.  
+If the customer decides to buy, you post the sales invoice to create the related quantity and value entries. When you post the sales invoice, you can also email the document as a PDF attachment. You can have the email body prefilled with a summary of the invoice and payment information, such as a link to PayPal. For more information, see [Send Documents by Email](ui-how-send-documents-email.md). When the customer then pays the invoice, you can register that payment in different ways, depending on the size and preferred workflows of your organization. For more information, see the [Registering Payments](#register-payments) section.  
 
 
 You can easily correct or cancel a posted sales invoice before it is paid. For example, this is useful if you want to correct a typing mistake or if the customer requests a change early in the order process. For more information, see [Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md). If the posted sales invoice is paid, then you must create a sales credit memo to reverse the sale. For more information, see [Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md).
@@ -85,11 +85,11 @@ The **Post and Send Confirmation** dialog box displays the customer's preferred 
 
 The related item and customer ledger entries are now created in your system, and the sales invoice is output as a PDF document. The sales invoice is removed from the list of sales invoices and replaced with a new document in the list of posted sales invoices.  
 
-## Register payments
+## Registering payments
 
 Depending on your business needs, you can get paid and register that payment in different ways: manually, automatically, and through payment services.  
 
-You can process the payments straight from the customer card or the customer ledger entries. Use the **Register Customer Payments** function to get an overview of unpaid invoices for that customer. Then, mark the invoice as paid partially or in full. This payment reconciliation processes your customer payments by matching amounts received on your bank account with the related unpaid sales invoices, and then posts the payments. For more information, see [To reconcile payments individually](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents#to-reconcile-payments-individually).  
+You can process the payments straight from the customer card or the customer ledger entries. Use the **Register Customer Payments** function to get an overview of unpaid invoices for that customer. Then, mark the invoice as paid partially or in full. This payment reconciliation processes your customer payments by matching amounts received on your bank account with the related unpaid sales invoices, and then posts the payments. For more information, see [To reconcile payments individually]((receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-register-customer-payments-individually).  
 
 In business environments where the customer pays some time after delivery, according to the payment term, a posted sales invoice remains open (unpaid) until the Accounts Receivable department verifies that payment is received and applies the payment to the posted sales invoice. This can be done manually or automatically. For more information, see [Reconcile Customer Payments Manually](receivables-how-apply-sales-transactions-manually.md) and [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).  
 

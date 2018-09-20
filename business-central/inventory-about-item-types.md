@@ -37,7 +37,7 @@ The three item types support the following features respectively.
 |Service|Yes|Yes|Yes|No|No|No|No|No|No|No|No|No|No|No|No|No|
 
 > [!NOTE]
-> Items that you offer to your customers but you do not want manage in your system until you start selling them can be set up as catalog items. Catalog items are not to be mistaken with regular items of type Non-Inventory. For more information, see [Work with Catalog Items](inventory-how-work-catalog-items.md).
+> Items that you offer to your customers but you do not want manage in your system until you start selling them can be set up as catalog items. Catalog items are not to be mistaken with regular items of type Non-Inventory. For more information, see [Work with Catalog Items](inventory-how-work-nonstock-items.md).
 
 > [!NOTE]
 > Customers' items that you perform service on, such as a printer, are called service items. Service items have nothing to do with regular or catalog items. However, service components can be regular items. For more information, see [Set Up Service Items and Service Item Components](service-how-setup-service-items.md).

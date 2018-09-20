@@ -40,7 +40,7 @@ A purchase order created as a special order for a sales order is respected by th
 >  You cannot use the special order functionality if the item is already reserved. Therefore, for items that are sold on special orders, make sure the **Reserve** field on the item card is not set to **Always**.  
 
 ## See Also  
-[Work with Catalog Items](inventory-how-work-catalog-items.md)  
+[Work with Catalog Items](inventory-how-work-nonstock-items.md)  
 [Sales](sales-manage-sales.md)  
 [Make Drop Shipments](sales-how-drop-shipment.md)   
 [Design Details: Reordering Policies](design-details-reservation-order-tracking-and-action-messaging.md)  

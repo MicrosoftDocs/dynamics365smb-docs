@@ -15,7 +15,6 @@ ms.author: jswymer
 
 ---
 # Customizing Business Central
-<!--NAV # Customizing Dynamics NAV -->
 There are different ways to customize the application to give you and your colleagues access to the features, functionality, and data that you need most, in a manner that bests suits your daily work. Those who see the changes will depend on what you do, as described in this table.
 
 | What you can do    |  Description  |  Who sees the changes  |  More information  |
@@ -28,4 +27,3 @@ There are different ways to customize the application to give you and your colle
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 

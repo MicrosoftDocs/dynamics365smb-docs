@@ -10,15 +10,12 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 07/19/2018
+ms.date: 09/20/2018
 ms.author: sgroespe
 
 ---
 # Track Packages
 A number of shipping agents provide services on the Internet that allow you to track parcels you have handed over to the agent. If you use one or more of these shipping agents, you can set up certain basic information and use the automatic tracking feature from posted shipments. For more information, see [Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md).  
-
-> [!NOTE]
-> This capability is currently not available in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Why are some UI elements that I used in Dynamics NAV not visible in Business Central?](https://docs.microsoft.com/en-us/dynamics365/business-central/across-faq#why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-) in the FAQ.
 
 ## To track a package
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Sales Shipment**, and then choose the related link.

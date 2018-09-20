@@ -58,7 +58,7 @@ If you also want to print the documents, the documents will include a Quick Resp
 For more information, see [Generate Electronic Invoices](how-to-generate-electronic-invoices.md).  
 
 ## Communication Component  
-The [!INCLUDE[d365fin](../../includes/d365fin_md.md)] component for electronic invoicing deploys in a library assembly, Microsoft.Dynamics.NAV.MX.dll, which is installed automatically when you install the Microsoft Dynamics NAV Windows client. The component handles the communication with the PAC web services and also generates the QR codes that are included in the printed documents. For examples of how to use the Microsoft.Dynamics.NAV.MX.dll assembly, see codeunit 10145 **E-Invoice Mgt.** and codeunit 10147 **E-Invoice Object Factory**.  
+The [!INCLUDE[d365fin](../../includes/d365fin_md.md)] component for electronic invoicing deploys in a library assembly, Microsoft.Dynamics.NAV.MX.dll, which is installed automatically when you install the [!INCLUDE[d365fin](../../includes/d365fin_md.md)] windows client. The component handles the communication with the PAC web services and also generates the QR codes that are included in the printed documents. For examples of how to use the Microsoft.Dynamics.NAV.MX.dll assembly, see codeunit 10145 **E-Invoice Mgt.** and codeunit 10147 **E-Invoice Object Factory**.  
 
  When you generate an electronic document to request a stamp, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] creates an XML document and sends it to the PAC for processing. The original XML document contains the same information as the original string field that is shown on the printed document. The original string includes the following information:  
 

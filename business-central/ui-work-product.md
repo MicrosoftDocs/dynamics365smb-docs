@@ -9,7 +9,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/057/2018
+ms.date: 09/20/2018
 ms.author: solsen
 
 ---
@@ -50,4 +50,3 @@ Here's a short video about how to get around in [!INCLUDE[d365fin](includes/d365
 [General Business Functionality](ui-across-business-areas.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 

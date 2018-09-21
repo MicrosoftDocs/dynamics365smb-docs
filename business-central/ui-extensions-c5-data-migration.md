@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 04/09/208
+ms.date: 09/20/2018
 ms.author: bholtorf
 
 ---
@@ -110,7 +110,7 @@ Use the **Data Migration Overview** window to monitor the success of the migrati
 
 ## How to Avoid Double-Posting
 To help avoid double-posting to the general ledger, the following balance accounts are used for open transactions:  
-  
+
 * For vendors, we use the A/P account from the vendor posting group.  
 * For customers, we use the A/R account from the customer posting group.  
 * For items, we create a general posting setup where the adjustment account is the account specified as the inventory account on the inventory posting setup.  
@@ -146,4 +146,4 @@ You can stop migrating data by choosing **Stop All Migrations**. If you do, all 
 
 ## See Also
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
-[Getting Started](product-get-started.md) 
+[Getting Started](product-get-started.md)

@@ -41,7 +41,7 @@ When the value in the **Total Balance** field in the **Bank Statement Lines** pa
 >   If bank statement lines relate to check ledger entries, then you cannot use the matching functions. Instead, you must choose the **Apply Entries** action, and then select the relevant check ledger entry to match the bank statement line with.
 
 ## To fill bank reconciliation lines by importing a bank statement
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Account Reconciliation**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Account Reconciliation**, and then choose the related link.
 2. Choose the **New** action.
 3. In the **Bank Account No.** field, select the relevant bank account. The bank account ledger entries that exist on the bank account appear in the **Bank Account Ledger Entries** pane.
 4. In the **Statement Date** field, enter the date of the statement from the bank.

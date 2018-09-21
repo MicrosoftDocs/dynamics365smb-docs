@@ -29,7 +29,7 @@ When you open a posted sales document, a notification will display at the top of
 
 To enable the extension manually, follow these steps:
   
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Connections**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Connections**, and then choose the related link.  
 2. Choose the **Late Payment Prediction Setup** option, and then fill in the fields as necessary. 
 
 ## Viewing All Payment Predictions
@@ -58,7 +58,7 @@ We do, however, offer an easier way for you to create and use your own predictiv
   
 If you create your own model in Azure Machine Learning Studio, without using the tools in [!INCLUDE[d365fin](includes/d365fin_md.md)], you must provide your credentials so that [!INCLUDE[d365fin](includes/d365fin_md.md)] can access the model. There are a couple of steps to do that:
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Late Payment Prediction Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Late Payment Prediction Setup**, and then choose the related link.  
 2. Choose the **Use My Azure Subscription** check box.  
 3. In the **Selected Model** field, choose **My Model**.  
 4. On the **My Model Credentials** FastTab, enter the API URL and API key for your model.  

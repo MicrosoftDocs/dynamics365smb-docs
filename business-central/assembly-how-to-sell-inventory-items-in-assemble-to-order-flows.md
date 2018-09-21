@@ -31,7 +31,7 @@ Similar functionality is available when you are selling assembly items from inve
 In this procedure, you replace assemble-to-order quantities with inventory quantities on a sales order line. The steps include detecting that availability exists, deducting that quantity from the linked assembly order, and then reserving the inventory quantity to make sure that it is picked and shipped for the order.  
 
 ## To sell inventory items in assemble-to-order flows  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2.  Create a sales order. For more information, see [Sell Products](sales-how-sell-products.md).  
 3.  On a sales order line for an assemble-to-order item, in the **Quantity** field, enter the demanded quantity.  
 4.  In the **Sales Line Details** FactBox, determine if all or some of the demanded quantity is available.  

@@ -43,9 +43,9 @@ You can use a questionnaire to help you determine the scope and needs of configu
 -   Warehouse Setup  
 
 > [!NOTE]  
->  To see a complete list of setup tables, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Setup**, and then choose the related link. To determine the scope of migration of records data, use migration functionality. For more information, see [Migrating Customer Data](admin-migrate-customer-data.md).  
+>  To see a complete list of setup tables, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Setup**, and then choose the related link. To determine the scope of migration of records data, use migration functionality. For more information, see [Migrating Customer Data](admin-migrate-customer-data.md).  
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Questionnaire**, and choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Questionnaire**, and choose the related link.  
 2. Choose the **New** action. The **Config. Questionnaire** window opens.  
 3. Choose the **Questions Areas** action. The **Question Areas** window opens.  
 4. Choose the **New** action. The **Config. Question Area** window opens.  
@@ -68,7 +68,7 @@ You use the configuration questionnaire to structure and document a detailed dis
 >  You can also create your own configuration questionnaire to meet your needs.  
 
 1. Open the company that you want to complete the questionnaire for.
-2. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Questionnaire**, and then choose the related link.  
+2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Questionnaire**, and then choose the related link.  
 3. Select the questionnaire for the company, and then choose the **Export to Excel** action, optionally the **Export to XML** action.
 4. Have the customer complete the configuration questionnaire by entering the answers in the Excel workbook. There are worksheets for each of the question areas that have been created for the questionnaire.   
 5. Choose the **Import from Excel** action, and select the .xlsx file with the customer's answers.  
@@ -101,7 +101,7 @@ When you have completed your validation, the data is ready to be applied to the 
 ## To apply answers from the configuration questionnaire
 After you have imported and validated information from a configuration questionnaire, you can transfer, or apply the setup data to the corresponding tables in the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.  
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Questionnaire**, and then choose the related link. The **Config. Questionnaire** window opens.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Questionnaire**, and then choose the related link. The **Config. Questionnaire** window opens.  
 2. Select a configuration questionnaire from the list, and then choose the **Edit List** action.  
 3. You can apply answers in one of two ways.  
 
@@ -109,7 +109,7 @@ After you have imported and validated information from a configuration questionn
 - To apply answers for a specific **Question Area** only, choose the **Question Areas** action, select a **Question Area** in the list, and then choose the **Apply Answers** action.  
 
 ### To verify that answers have been applied successfully  
-1. Check setup windows for the various functional areas of [!INCLUDE[d365fin](includes/d365fin_md.md)]. To locate the window, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter the name of the setup window, and then choose the related link.  
+1. Check setup windows for the various functional areas of [!INCLUDE[d365fin](includes/d365fin_md.md)]. To locate the window, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter the name of the setup window, and then choose the related link.  
 2. Verify that the fields have been populated with the correct data from the various question areas in the configuration questionnaire.  
 
 You have now configured setup with the customer’s business information and rules.

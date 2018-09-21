@@ -32,7 +32,7 @@ The item card can be of type **Inventory**, **Service**, and **Non-Inventory** t
 You can fill vendor fields on the purchase invoice in two ways depending on whether the vendor is already registered.
 
 ## To create a purchase invoice
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoices**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.  
 2. In the **Vendor** field, enter the name of an existing vendor.
 
     Other fields in the **Purchase Invoice** window are now filled with the standard information of the selected vendor. If the vendor is not registered, then follow these steps:

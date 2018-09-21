@@ -58,7 +58,7 @@ A campaign is any kind of activity that involves several contacts. An important 
 
 ### To set up a campaign  
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Campaigns**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Campaigns**, and then choose the related link.  
 2.  Choose the **New** action to create a new campaign. On the campaign card, press Enter to have a campaign number automatically inserted.  
 3.  In the **Description** field, enter a description for the campaign, for example, **FUTURUS trade show**.  
 4.  Choose the **Status Code** field, and select a status code from the list that opens in the **Campaign Status** window.  
@@ -144,11 +144,11 @@ A campaign is any kind of activity that involves several contacts. An important 
 
 9. The attachments are sent. When the process is done, choose the **OK** button for the message that states that the segment has been logged.  
 
-     The letters are automatically printed and the segment is logged. Because the segment has been logged, it is no longer in the list of segments but is moved to the list of logged segments. To see that list, Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Logged Segments**, and then choose the related link.  
+     The letters are automatically printed and the segment is logged. Because the segment has been logged, it is no longer in the list of segments but is moved to the list of logged segments. To see that list, Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Logged Segments**, and then choose the related link.  
 
 10. After the segment is logged, each letter that is sent is recorded as an interaction, which you can view in the log.  
 
-     Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Interaction Log Entries**, and then choose the related link. There is an entry for each sent letter.  
+     Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Interaction Log Entries**, and then choose the related link. There is an entry for each sent letter.  
 
 ### To send an email message to a contact  
 
@@ -161,7 +161,7 @@ A campaign is any kind of activity that involves several contacts. An important 
 7.  Select the **Create Follow-up Segment** check box.  
 8.  Choose the **OK** button.  
 
-     The letters are automatically sent by email, and the segment is logged. Because the segment has been logged, it is no longer in the list of segments but is saved in the list of logged segments. To see that list, Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Logged Segments**, and then choose the related link.  
+     The letters are automatically sent by email, and the segment is logged. Because the segment has been logged, it is no longer in the list of segments but is saved in the list of logged segments. To see that list, Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Logged Segments**, and then choose the related link.  
 
 ## Registering Campaign Responses  
  During the next couple of weeks, the prospective customers respond to the letter. The marketing manager wants to keep track of the responses and record these interactions.  

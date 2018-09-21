@@ -19,7 +19,7 @@ ms.author: sgroespe
 You may sometimes need to transfer an amount from one bank account to another. To do this, you must post the a transaction in the general journal. The task varies depending on whether the bank accounts use the same currency or different currencies.
 
 ## To post a transfer between bank accounts with the same currency code
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journal**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journal**, and then choose the related link.
 2. On a journal line, fill in the **Posting Date** and **Document No.** fields.
 3. In the **Account Type** field, select **Bank Account**.
 4. In the **Account No.** field, select the bank from which you want to transfer the funds.
@@ -31,7 +31,7 @@ You may sometimes need to transfer an amount from one bank account to another. T
 ## To post a transfer between bank accounts with different currency codes
 To transfer funds between bank accounts that use different currencies, you must post two general journal lines.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journal**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journal**, and then choose the related link.
 2. Create two journal lines, and fill in the **Posting Date** and **Document No.** fields.
 3. On the first journal line, in the **Type** field, select **Bank Account**.
 4. In the **Account No.** field, select the bank account from which you want to transfer the funds.

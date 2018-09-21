@@ -26,7 +26,7 @@ Vendor cards hold the information that is required to buy products from the vend
 >   If vendor templates exist for different vendor types, then a window appears when you create a new vendor card from where you can select an appropriate template. If only one vendor template exists, then new vendor cards always use that template.
 
 ## To create a new vendor card
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.  
 2. In the **Vendors** window, Choose **New**.
 
     If more than one vendor template exists, then a window opens from which you can select a vendor template. In that case, follow the next two steps.

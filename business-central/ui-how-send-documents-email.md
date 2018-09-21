@@ -28,7 +28,7 @@ If the **Email** field in the **Send Document to** window is set to **Yes (Promp
 The following procedure describes how to set the **Sales - Invoice** report up to be used for document-specific email bodies when you email posted sales invoices.
 
 ## To set up a document-specific email body for sales invoices
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Report Selections Sales**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Selections Sales**, and then choose the related link.
 2. In the **Report Selection - Sales** window, in the **Usage** field, select **Invoice**.
 3. On a new line, in the **Report ID** field, select, for example, standard report 1306.
 4. Select the **Use for Email Body** check box.
@@ -44,7 +44,7 @@ Now, when you choose, for example, the **Send** action in the **Posted Sales Inv
 The following procedure describes how to send a posted sales invoice as an email message with the document attached as a PDF file and with a document-specific email body.
 
 ## To send documents by email
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Sales Invoices**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, and then choose the related link.
 2. Select the relevant posted sales invoice, and then choose the **Send** action. The **Send Document to** window opens.
 3. In the **Email** field, select **Yes (Prompt for Settings)**. For more information, see [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
 4. Choose the **OK** button. The **Send Email** window opens.

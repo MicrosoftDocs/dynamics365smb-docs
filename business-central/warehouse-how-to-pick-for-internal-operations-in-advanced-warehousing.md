@@ -38,7 +38,7 @@ To create pick requests, both for pull and for push scenarios, the source docume
 |Assembly Order|Change status to Released.|  
 
 ## To pick components using the pick worksheet  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Pick Worksheet**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Pick Worksheet**, and then choose the related link.  
 2.  Choose the **Get Warehouse Documents** action, and then select the component lines from the released production order.  
 3.  Inspect the lines, sort them to ensure an efficient picking round, and combine them with other worksheet lines if necessary to make best use of employee time.  
 4.  Choose the **Create Pick** action.  

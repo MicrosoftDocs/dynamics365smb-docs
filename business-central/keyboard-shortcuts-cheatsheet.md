@@ -19,14 +19,31 @@ ms.author: jswymer
 
 |||
 |--|--|
-|Ctrl + A|Select all|
-|Home/End|Go to first/ last field|
+|Ctrl+A|Select all|
+|Home/End|Go to first/last field|
 |Ctrl+Home/End|Go to first/last row|
 |Ctrl+Up/Down|Navigate without losing selection|
 |Ctrl+Space|Toggle row selection|
 |Shift+Up/Down|Extend selection|
 |Shift+Ctrl+Home/End|Extend selection to first/last row|
 |Ctrl+Enter|Focus out of the list|
+
+**Copy and paste**
+
+|||
+|--|--|
+|Ctrl+A|Select all|
+|Ctrl+Home/End|Select the first/last row in the list|
+|Home/End|Go to first/ last field|
+|Ctrl/Shift+Click|Add the row(s) to the selection |
+|Ctrl+Up/Down|Move focus to row above/below|
+|Ctrl+Space|Extend the selection to include focused row|
+|Shift+Up/Down|Add row above/below to selection|
+|Shift+Page Up/Down|Add all visible rows above/below current selection|
+|Ctrl+C|Copy rows|
+|Ctrl+V|Paste the rows|
+|F8|Copy field above into current row|
+
 
 **Search, filter, and sort**
 

@@ -52,7 +52,7 @@ If you have access to Microsoft CustomerSource, you can get access to the Imagin
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is available in a limited number of markets, but new countries are added through Microsoft-led localization or through partner-led localization on a quarterly basis. For more information, see [Countries and Translations Supported](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
 ## Why does Help describe functionality that I cannot access?
-If your Experience setting in the **Company Information** window is set to **Essential**, then several UI elements are not visible to you. For more information, see [Changing Which Features are Displayed](ui-experiences.md). However, all feature descriptions in this documentation assumes the **Premium** experience, meaning the descriptions cover the full scope of UI elements. Therefore, users with the **Essential** experience may in some topics read about functionality and UI elements that are not visible in their user interface. 
+If your Experience setting in the **Company Information** window is set to **Essential**, then several UI elements are not visible to you. For more information, see [Changing Which Features are Displayed](ui-experiences.md). However, all feature descriptions in this documentation assume the **Premium** experience, meaning the descriptions cover the full scope of UI elements. Therefore, users with the **Essential** experience may in some topics read about functionality and UI elements that are not visible in their user interface. 
 
 ## See Also
 [Getting Started](product-get-started.md)  

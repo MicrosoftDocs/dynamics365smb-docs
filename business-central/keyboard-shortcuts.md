@@ -31,6 +31,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 
 |Press these keys|To do this|  
 |----------------|-----------|  
+|Alt+Q|Open **Tell me what you want to do** box that can help you find a page, a report, an action on the current page, or an article in the documentation.|
 |Tab|Move focus to the next control or element on a page, such as actions, buttons, fields, or list headings.|
 |Shift+Tab|Move focus to the previous control or element on a page, such as actions, buttons, fields, or list headings.|   
 |Enter|Enable or access the element or control that is in focus.|   

@@ -21,7 +21,7 @@ A report can be set up with more than one report layout, which you can then swit
 Depending on the layouts that are available for a report, you can choose to use a built-in RDLC report layout, a built-in Word report layout, or a custom layout. For more information about RDLC and Word report layouts, built-in and custom layouts, and more, see [Manage Report Layouts](ui-manage-report-layouts.md).
 
 ## To change the layout that is used on a report
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Report Layout Selection**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.  
    The **Report Layout Selection** window lists all the reports that are available for the company that is specified in the Company field at the top of the window. The Selected Layout field specifies the layout that is currently used on the report.
 2. Set the **Company** field at the top of the window to the company that includes the report.
 3. To change the layout that is used by a report, in the row for the report in the list, set the **Selected Layout** field to one of the following options:

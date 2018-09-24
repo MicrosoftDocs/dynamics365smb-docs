@@ -20,7 +20,7 @@ When a fiscal year is over, you must close the periods that comprise it. To do t
 
 ## To run the Close Income Statement batch job
 1. Close the fiscal year. The fiscal year must closed before the batch job can be run. For more information, see [Close Accounting Periods](year-close-account-periods.md).
-2. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Close Income Statement**, and then choose the related link.
+2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Close Income Statement**, and then choose the related link.
 3. Choose the **OK** button to run the batch job.
 
 ## About the Close Income Statement Batch Job

@@ -33,7 +33,7 @@ The payment journal is a general journal that is optimized for making payments. 
 
 ## To make payments in the payment journal 
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
 2. Open the journal batch that is dedicated to payments.
 3. If you know who to pay or refund, fill in the fields manually. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. To also apply the payment to the related invoice or credit memo, choose the **Applies-to Doc No.** field, in the **Apply Vendor Entries** window, select the relevant invoice or credit memo, and then choose the **OK** button.

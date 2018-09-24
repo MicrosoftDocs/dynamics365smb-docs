@@ -26,7 +26,7 @@ The following procedures demonstrate how to add and customize table information 
 
 ## To open the configuration worksheet  
 1.  In [!INCLUDE[d365fin](includes/d365fin_md.md)], open the company that is the baseline for configuration, and then open its RapidStart Services Implementer Role Center.  
-2.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Worksheet**, and then choose the related link.  
+2.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.  
 
 ## To add a table to the worksheet  
 1.  In the **Config. Worksheet** window, choose the **Edit List** action.  

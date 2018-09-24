@@ -31,7 +31,7 @@ Items that you offer to your customers but you do not want manage in your system
 > If item templates exist for different item types, then a window appears when you create a new item card from where you can select an appropriate template. If only one item template exists, then new item cards always use that template.
 
 ## To create a new item card
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2. In the **Items** window, choose the **New** action.
 
     If only one item template exists, then a new item card opens with some fields filled with information from the template.
@@ -62,7 +62,7 @@ The item template is added to the list of item templates, so that you can use it
 ## To set up multiple vendors for an item  
 If you purchase the same item from more than one vendor, you must enter information about each vendor of the item, such as prices, lead time, discounts, and so on.  
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2.  Select the relevant item, and then choose the **Edit** action.  
 3.  Choose the **Vendors** action.  
 4.  Choose the **Vendor No.** field, and then select the vendor that you want to set up for the item.  

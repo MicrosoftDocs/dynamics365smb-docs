@@ -45,14 +45,14 @@ You can then define which specific functions and windows within the experience t
 When you have made a change to users plans in Office 365 Admin Center, such as assigned more users to the Premium plan, you must reflect the change in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 1. Sign is as an administrator.
-2. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Users**, and then choose the related link.
+2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
 3. In the **Users** window, choose the **Refresh all User Groups** action.
 
 All new information about the users’ plans and their assigned user groups are now updated according to the plan changes.
 
 ### To select the Premium experience
 You can now proceed to select the new experience.
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.
 2. In the **Company Information** window, on the **User Experience** FastTab, select Premium  in the **Experience** field.
 
 ## Help Assumes Premium Experience

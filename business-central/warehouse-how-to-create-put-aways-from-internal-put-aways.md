@@ -32,13 +32,13 @@ The **Internal Put-aways** enables you to perform put-aways without having to re
 >  When the location uses directed put-away and pick, and therefore uses bin types, you cannot manually move items in or out of a bin of bin type RECEIVE, because items that are in a RECEIVE-type bin must be registered as being put away before they are part of available inventory.  
 
 ## To create an internal pick  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Whse. Internal Pick**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Whse. Internal Pick**, and then choose the related link.  
 2.  Fill in the **No.** field and the **To Bin Code** field on the **General** FastTab. The **To Bin Code** field specifies the bin from which you want to get the items. For production purposes, this bin would be the inbound production bin or the open shop bin. For other purposes, choose a To Bin Code of a bin type that is not used for picking, most likely a staging, shipping or special purpose bin.  
 3.  Select an item in the **Item No.** field, and fill in the quantities you want to pick.  
 4. Choose the **Create Pick** action. A warehouse pick instruction is now ready for a warehouse employee to perform.  
 
 ## To create an internal put-away  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Whse. Internal Put-away**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Whse. Internal Put-away**, and then choose the related link.  
 2.  Fill in the **No.** and **From Bin Code** fields on the **General** FastTab. The **From Bin Code** field specifies the bin where the items being returned to the warehouse, perhaps from production, are located.  
 3.  Fill in the item numbers and quantities on the lines.  
 4.  Choose the **Create Put-away** action. A warehouse put-away instruction is now ready for a warehouse employee to perform.  

@@ -51,14 +51,14 @@ To complete this walkthrough, you will need:
 -   CRONUS International Ltd. installed.  
 -   To make yourself a warehouse employee at SILVER location by following these steps:  
 
-    1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Warehouse Employees**, and then choose the related link.  
+    1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
     2.  Choose the **User ID** field, and select your own user account in the **Users** window.  
     3.  In the **Location Code** field, enter SILVER.  
     4.  Select the **Default** field.  
 
 -   Make item LS-81 available at SILVER location by following these steps:  
 
-    1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Journals**, and then choose the related link.  
+    1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journals**, and then choose the related link.  
     2.  Open the default journal, and then create two item journal lines with the following information about the work date (January 23).  
 
         |Entry Type|Item Number|Location Code|Bin Code|Quantity|  
@@ -75,7 +75,7 @@ Ellen, the warehouse manager at CRONUS, sets up SILVER warehouse for basic pick 
 The setup of the **Location Card** window defines the company’s warehouse flows.  
 
 ### To set up the location  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
 2.  Open the SILVER location card.  
 3.  Select the **Require Pick** check box.  
 
@@ -83,7 +83,7 @@ The setup of the **Location Card** window defines the company’s warehouse flow
 Sales orders are the most common type of outbound source document.  
 
 ### To create the sales order  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  Create a sales order for customer 10000 on the work date (January 23) with the following sales order line.  
 
@@ -101,7 +101,7 @@ Sales orders are the most common type of outbound source document.
 In the **Inventory Pick** window, you can manage all outbound warehouse activities for a specific source document, such as a sales order.  
 
 ### To pick and ship items  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Inventory Picks**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Picks**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  Select the **Source Document** field, and then select **Sales Order**.  
 4.  Select the **Source No.** field, select the line for the sale to customer 10000, and then choose the **OK** button.  

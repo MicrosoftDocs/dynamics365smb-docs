@@ -1,8 +1,6 @@
 ---
 title: Finding Features and Information | Microsoft Docs
 description: This topic describes how to use search to find actions, pages, reports, documentation, and data.
-services: project-madeira
-documentationcenter: ''
 author: SusanneWindfeldPedersen
 
 ms.service: dynamics365-business-central
@@ -10,14 +8,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: find, search
-ms.date: 09/11/2018
+ms.search.keywords: find
+ms.date: 09/12/2018
 ms.author: bholtorf
 
 ---
-
 # Using Tell Me to Find Features and Information  
-This topic describes various ways that Tell Me can help you quickly find an action, page, report, or learn how to do something in [!INCLUDE[d365fin](includes/d365fin_md.md)] if you are unsure.
+This topic describes various ways that Tell Me can help you quickly find an action, page, report, or learn how to do something in [!INCLUDE[d365fin](includes/d365fin_md.md)] if you are unsure.  
+
+> [!VIDEO https://www.youtube.com/embed/W8egYiS445o]
 
 ## Find Pages, Reports, Actions, and Documentation 
 When you need help finding a page, report, an article in our documentation, or an action on the page that is open, use the ![Tell me what you want to do](media/ui-search/search.png "Search for Page or Report") **Tell me what you want to do** icon to search for it by name. You can also use ALT+Q to start using Tell Me.
@@ -48,5 +47,8 @@ Under **Documentation** you will see articles from the [!INCLUDE[d365fin](includ
 ## Searching for Data
 The **Tell me what you want to do** function does not search for data, such as customer names, addresses, or transactions. Instead, you can search for data in list pages by choosing the ![Search list](media/ui-search/search-list.png "Search list icon") **Search** icon in the left corner of the list header. The search applies only to the list you are viewing. For more information, see [Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md).
 
+## Questions?
+We have shown Tell Me to a range of stakeholders, noted the questions that they had in common, and turned our notes into a list frequently asked questions. If you are interested, see [Tell Me FAQ](ui-search-faq.md).
+
 ## See Also
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with Business Central](ui-work-product.md)

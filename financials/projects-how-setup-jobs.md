@@ -25,23 +25,23 @@ On the individual job cards, you must set up prices for job items, job resources
 2. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
->   The **Apply Usage Link** check box is rather complex and is therefore explained in the following section.
+>   The **Apply Usage Link by Default** check box is rather complex and is therefore explained in the following section.
 
 ## To set up job usage tracking
 When you are executing a job, you might want to know how your usage is tracking against your plan. To easily do this, you can create a link between your job planning lines and the actual usage. This lets you track your costs and to easily see at how much work remains to be done. By default, the job planning line type is **Budget**, but using the line type **Both Budget and Billable** has similar effects.
 
-If you select the **Apply Usage Link** check box, then you can review information on the job planning line. You can set the quantity of the resource, item, or general ledger account and then indicate what quantity you want to transfer to the job journal. The **Remaining Quantity** field on the job planning line will tell you what remains to be transferred and posted to the job journal.
+If you select the **Apply Usage Link by Default** check box, then you can review information on the job planning line. You can set the quantity of the resource, item, or general ledger account and then indicate what quantity you want to transfer to the job journal. The **Remaining Quantity** field on the job planning line will tell you what remains to be transferred and posted to the job journal.
 
-When the **Apply Usage Link** check box is selected, and the job planning line type is **Billable**, the Financial creates a job planning line of type **Budget** after you post the journal line.
+When the **Apply Usage Link by Default** check box is selected, and the job planning line type is **Billable**, the Financial creates a job planning line of type **Budget** after you post the journal line.
 
 > [!NOTE]  
->   If the **Apply Usage Link** check box on the job card is selected, and the **Line Type** field on the job journal line is blank, then new job planning lines of line type **Budget** are created when you post job journal lines. If the **Apply Usage Link** check box on the job card is not selected, and the **Line Type** field on the job journal line is blank, then no job planning lines are created when you post job journal lines. For more information, see [Record Usage for Jobs](projects-how-record-job-usage.md).
+>   If the **Apply Usage Link by Default** check box on the job card is selected, and the **Line Type** field on the job journal line is blank, then new job planning lines of line type **Budget** are created when you post job journal lines. If the **Apply Usage Link by Default** check box on the job card is not selected, and the **Line Type** field on the job journal line is blank, then no job planning lines are created when you post job journal lines. For more information, see [Record Usage for Jobs](projects-how-record-job-usage.md).
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs Setup**, and then choose the related link.
-2. Select or deselect the **Apply Usage Link** check box.
+2. Select or deselect the **Apply Usage Link by Default** check box.
 
 > [!NOTE]  
->   You can make a different setting of the **Apply Usage Link** check box on the individual job cards. In that case, the setting for that job overrides the general default described above.
+>   You can make a different setting of the **Apply Usage Link by Default** check box on the individual job cards. In that case, the setting for that job overrides the general default described above.
 
 ## To set up prices for job resources
 You can set up specific prices for resources for a job. You use the **Job Resource Prices** window to do this.

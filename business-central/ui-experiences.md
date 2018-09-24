@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 07/31/2018
+ms.date: 09/24/2018
 ms.author: edupont
 
 ---
@@ -54,6 +54,9 @@ All new information about the users’ plans and their assigned user groups are 
 You can now proceed to select the new experience.
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.
 2. In the **Company Information** window, on the **User Experience** FastTab, select Premium  in the **Experience** field.
+
+## Help Assumes Premium Experience
+All feature descriptions in user documentation for [!INCLUDE[d365fin](includes/d365fin_md.md)] assumes the **Premium** experience, meaning the descriptions cover the full scope of UI elements. Therefore, users with the **Essential** experience may in some topics read about functionality and UI elements that are not visible in their user interface.
 
 ## See also
 [Creating New Companies](about-new-company.md)  

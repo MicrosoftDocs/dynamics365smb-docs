@@ -2,7 +2,7 @@
     title: EHF Electronic Invoicing in Norway
     description: Companies must send sales invoices and credit memos to the Norwegian public sector electronically in the Elektronisk Handelsformat (EHF) based on Universal Business Language (UBL).
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -22,7 +22,7 @@ Companies must send sales invoices and credit memos to the Norwegian public sect
 For more information on EHF electronic invoicing, see [EHF Implementation Guide: Invoice and Credit Note](http://www.nets.eu/no-nb/support/Test%20og%20Implementering/eFaktura%20B2B%20Utsteder/Documents/Imp%20guide%20eng.pdf) and [EHF Invoice](http://www.anskaffelser.no/ehf-formater-innhold/pages-english/ehf-invoice).  
 
 ## Implementation in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]  
- The current requirements for sending electronic invoices are based on the Universal Business Language (UBL) version 2.1 standard. For more information, see the [OASIS UBL](http://go.microsoft.com/fwlink/?LinkId=212593) website. The generated XML documents can then be sent to the customer.  
+ The current requirements for sending electronic invoices are based on the Universal Business Language (UBL) version 2.1 standard. For more information, see the https://aka.ms/OasisUblSite web site. The generated XML documents can then be sent to the customer.  
 
  To send documents electronically, you must assign European Article Numbering (EAN) location numbers and account codes to the relevant customers in the **Customer Card** window. For more information, see [Set Up Customers for EHF](how-to-set-up-customers-for-ehf.md). These numbers are included when you create documents, and post or issue them. After the documents have been posted or issued, you can create electronic versions to be sent to the customer.  
 

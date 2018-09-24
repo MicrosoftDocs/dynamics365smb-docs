@@ -21,10 +21,10 @@ ms.author: jswymer
 |Alt+Q|Open **Tell me what you want to do**|Ctrl+A|Select all|
 |Tab|Move focus to the next control|Home/End|Go to first/last field|
 |Shift+Tab|Move focus to the previous control|Ctrl+Home/End|Go to first/last row|   
-|Alt+Down Arrow|Open a drop-down or look up|Ctrl+Up/Down|Navigate without losing selection|Ctrl+Space|Toggle row selection|
-|Alt+Right Arrow|See the transactions for calculated value|Shift+Ctrl+Home/End|Extend selection to first/last row|  
-|Esc|Close the current page or drop-down.|Ctrl+Enter|Focus out of the list|
-
+|Alt+Down Arrow|Open a drop-down or look up|Ctrl+Up/Down|Navigate without losing selection|
+|Alt+Right Arrow|See the transactions for calculated value|Ctrl+Space|Toggle row selection| 
+|Esc|Close the current page or drop-down.|Shift+Ctrl+Home/End|Extend selection to first/last row| 
+|||Ctrl+Enter|Focus out of the list|
 **Navigate and select rows**
 
 |||

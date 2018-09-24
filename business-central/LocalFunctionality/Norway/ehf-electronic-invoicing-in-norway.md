@@ -12,14 +12,14 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 09/24/2017
     ms.author: sgroespe
 
 ---
 # EHF Electronic Invoicing in Norway
 Companies must send sales invoices and credit memos to the Norwegian public sector electronically in the Elektronisk Handelsformat (EHF) based on Universal Business Language (UBL). If a company does not send these documents electronically, the authorities can deny payment. The standard supported format for electronic exchange between parties is the Ehandel.no format.  
 
-For more information on EHF electronic invoicing, see [EHF Implementation Guide: Invoice and Credit Note](http://www.nets.eu/no-nb/support/Test%20og%20Implementering/eFaktura%20B2B%20Utsteder/Documents/Imp%20guide%20eng.pdf) and [EHF Invoice](http://www.anskaffelser.no/ehf-formater-innhold/pages-english/ehf-invoice).  
+For more information on EHF electronic invoicing, see [E-Procurement](https://www.anskaffelser.no/public-procurement-information-english).  
 
 ## Implementation in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]  
  The current requirements for sending electronic invoices are based on the Universal Business Language (UBL) version 2.1 standard. For more information, see the https://aka.ms/OasisUblSite web site. The generated XML documents can then be sent to the customer.  

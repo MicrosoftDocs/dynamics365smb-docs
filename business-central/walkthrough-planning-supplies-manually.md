@@ -65,7 +65,7 @@ The **Order Planning** window can be accessed from several different locations o
 
 ### To use the Order Planning window  
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Order Planning**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Order Planning**, and then choose the related link.  
 
      When the **Order Planning** window first opens, a plan must be calculated to show the new demand since it was last calculated.  
 
@@ -223,7 +223,7 @@ The **Order Planning** window can be accessed from several different locations o
 
      The message indicates that all required items are now supplied. Verify the firm planned production orders that are created.  
 
-13. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Firm Planned Prod. Orders**, and then choose the related link.  
+13. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Orders**, and then choose the related link.  
 
      In the **Firm Planned Prod. Orders** window review how start times and end times of individual orders are scheduled according to the product structure. The lowest-level components are produced first. Therefore, you must plan multilevel orders as demonstrated in this planning workflow.  
 

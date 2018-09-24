@@ -26,7 +26,7 @@ Not all report dataset changes can be automatically updated in the report layout
   
 ## To update one or more custom report layouts  
   
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Report Layouts**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.  
   
 2.  In the **Report Layouts** window, if you want to update a specific report, select the layout from the list, and then choose the **Update Layout** action. Or, if you want to update all custom report layouts for the company, choose the **Update All Layouts** action.  
 
@@ -34,7 +34,7 @@ If no errors occur, then the updates is applied to the report layouts. If errors
 
 ## To test custom report layout updates  
   
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Report Layout Selection**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.  
   
 2.  In the **Report Layout Selection** window, choose the **Test Layout Updates** action.  
   

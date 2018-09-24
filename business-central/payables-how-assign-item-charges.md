@@ -36,14 +36,14 @@ For both purchase and sales documents, you can assign an item charge in two ways
 ## To set up item charge numbers
 You use item charge numbers to distinguish between the different kinds of item charges that are used in your company.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Charges**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Charges**, and then choose the related link.
 2. In the **Item Charges** window, choose the **New** action to create a new line.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To assign an item charge directly to the purchase invoice for the item
 If you know the item charge at the time when you post a purchase invoice for the item, follow this procedure.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoices**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.
 2. Create a new purchase invoice. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 3. Make sure the purchase invoice has one or more lines of type Item.
 4. On a new line, in the **Type** field, select **Charge (Item)**.

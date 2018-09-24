@@ -29,7 +29,7 @@ Administrators can use the **User Setup** window to define periods of time durin
 Another system that defines what users can access is the Experience setting. For more information, see [Changing Which Features are Displayed](ui-experiences.md).
 
 ## To add a user in Business Central
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Users**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
 2. Choose the **Get Users from Office 365** action.
 
 Any new user that has been created for your Office 365 subscription will be added in the **Users** window.
@@ -37,7 +37,7 @@ Any new user that has been created for your Office 365 subscription will be adde
 ## To group users in a user group
 You can set up users groups to help you manage permission sets for groups of users in your company.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **User Groups**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Groups**, and then choose the related link.
 2. Alternatively, in the **Users** window, choose the **User Groups** action.
 3. In the **User Group** window, choose the **User Group Members** action.
 4. In the **User Group Members** window, choose the **Add Users** action.
@@ -49,7 +49,7 @@ To quickly define a new user group, you can copy all permission sets from an exi
 
 The user group members are not copied to the new user group. You must add them manually afterwards.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **User Groups**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Groups**, and then choose the related link.
 2. Select the user group that you want to copy, and then choose the **Copy User Group** action.
 3. In the **New User Group Code** field, enter a name for the group, and then choose the **OK** button.
 
@@ -58,7 +58,7 @@ The new user group is added to the **User Groups** window. Proceed to add users.
 ## To set up user time constraints
 Administrators can define periods of time during which specified users are able to post, and also specify if the system logs the amount of time users are logged on. Administrators can also assign responsibility centers to users. For more information, see [Work with Responsibility Centers](inventory-responsibility-centers.md).
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **User Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Setup**, and then choose the related link.
 2. In the **User Setup** window opens, choose the **New** action.
 3. In the **User ID** field, enter the ID of a user, or choose the field to see all current Windows users in the system.
 4. Fill in the fields as necessary.
@@ -70,7 +70,7 @@ Permission sets function as containers of permissions, so that you can easily ma
 > A [!INCLUDE[d365fin](includes/d365fin_md.md)] solution typically contains a number of predefined permission sets that are added by Microsoft or by your software provider. These permission sets are of type **System** or **Extension**. You cannot create or edit these types of permission sets or the permissions within them. However, you can copy them to define your own permission sets and permissions. <br /><br />
 Permission sets that users create, from new or as copies, are of type **User-Defined** and can be edited.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Permission Sets**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Permission Sets**, and then choose the related link.
 2. To create a new permission set, choose the **New** action.
 3. On the new line, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -108,7 +108,7 @@ You can assign permissions to users in two ways:
     With this method, you can also assign permissions sets to user groups.
 
 ### To assign a permission set on a user card
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Users**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
 2. Select the user that you want to assign permission to.
 Any permission sets that are already assigned to the user are displayed in the **Permission Sets** FactBox.
 3. Choose the **Edit** action to open the **User Card** window.
@@ -117,13 +117,13 @@ Any permission sets that are already assigned to the user are displayed in the *
 ### To assign a permission set in the **Permission Set by User** window  
 The following procedure explains how to assign permission sets to a user in the **Permission Set by User** window. The steps are similar in the **Permission Set by User Group** window.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Users**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
 2. In the **Users** window, select the relevant user, and then choose the **Permission Set by User** action.
 3. In the **Permission Set by User** window, select the **[user name]** check box on a line for the relevant permission set to assign the set to the user.
 4. Select the **All Users** check box to assign the permission set to all users.
 
 ## To view or edit a user's permissions
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Users**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
 2. Open the card of the relevant user.
 3. Choose the **Effective Permissions** action.
 

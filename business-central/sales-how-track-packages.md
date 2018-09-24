@@ -18,7 +18,7 @@ ms.author: sgroespe
 A number of shipping agents provide services on the Internet that allow you to track parcels you have handed over to the agent. If you use one or more of these shipping agents, you can set up certain basic information and use the automatic tracking feature from posted shipments. For more information, see [Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md).  
 
 ## To track a package
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Sales Shipment**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipment**, and then choose the related link.
 2. Open the relevant shipment.
 3. In the **Package Tracking No.** field, enter the package number you have received from the shipping agent.
 4. Choose the **Track Package** action.

@@ -19,13 +19,13 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], the term "service item" refers t
 When you receive an item that needs service, you can register it as a service item. There are several ways to do so. For example, you can create a service item in the **Service Items** window, or as part of another process, such as when working with a service order.   
 
 ## To create a service item  
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Items**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Items**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## To create service items within a service order  
 When you receive items for service that you want to register as service items, you can create them as service items in the **Service Order** or **Service Quote** windows.  
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Orders**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Orders**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Choose the **Create Service Item** action.  
 
@@ -36,7 +36,7 @@ When you ship items by posting either service orders or service invoices, the sh
 
 The following procedure shows how to create service items when you ship items on service orders.  
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Orders**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Orders**, and then choose the related link.  
 2. Open the relevant service order.  
 3. Choose the **Post** or **Post and Print** action.  
 4. Choose the **Ship** or **Ship and Invoice** action.  
@@ -48,7 +48,7 @@ The following procedure shows how to create service items when you ship items on
 >  If an item is a BOM and you have not exploded the BOM, a service item is created for it based on the service item group condition and, optionally, the serial numbers condition.  
 
 ## To insert a starting fee for a service item
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Tasks**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Tasks**, and then choose the related link.
 2. Choose the **Item Worksheet** action.
 3. Choose the service line, and then choose **Actions**, choose **Functions**, and then choose **Insert Starting Fee** action.  
 

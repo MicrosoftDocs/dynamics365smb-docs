@@ -26,7 +26,7 @@ The following warehouse-related granules exist:
 -   Warehouse Shipment (4210)  
 -   Warehouse Management Systems (4620)  
 -   Internal Picks and Put-aways (4630)  
--   <!-- Automated Data Capture System (4640) -->  
+-   Automated Data Capture System (4640) 
 -   Bin Setup (4660)  
 
 For more information about each granule, see [[!INCLUDE[d365fin](includes/d365fin_md.md)] Price Sheets](http://go.microsoft.com/fwlink/?LinkId=238341) (requires PartnerSource account).  

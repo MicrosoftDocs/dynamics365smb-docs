@@ -24,7 +24,7 @@ If you are certain that a workflow is no longer being used, you can delete it. A
  In the **Workflow** window, you create a workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code. For more information, see [Create Workflows](across-how-to-create-workflows.md).  
 
 ## To delete a workflow  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Workflows**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.  
 2.  Select the workflow that you want to delete.  
 3.  Choose the **Delete** action.  
 4.  Alternatively, open the workflow that you want to delete.  

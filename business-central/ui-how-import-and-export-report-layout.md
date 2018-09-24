@@ -23,7 +23,7 @@ You can import and export an existing custom report layout as a file to and from
   
 ### To export a report layout to a file  
   
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Report Layout Selection**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.  
   
 2.  Select the row for the report that contains the custom report layout that you want to export, and then on the **Home** tab, in the **Process** group, choose **Custom Layouts**.  
   
@@ -37,7 +37,7 @@ You can import and export an existing custom report layout as a file to and from
   
      A Word report layout file must have the .docx file type extension. An RDLC report layout file must have the .rdlc or .rdl file type extension.  
   
-2.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Report Layout Selection**, and then choose the related link.  
+2.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.  
   
 3.  Select the row for the report to which you want to import the report layout, and then on the **Home** tab, in the **Process** group, choose **Custom Layouts**.  
   

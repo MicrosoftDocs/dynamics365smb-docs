@@ -20,7 +20,7 @@ To account for salary payments and related transactions, you must import and pos
 >   To use this functionality, an extension for payroll import must be installed and enabled. The Ceridian Payroll and the Quickbooks Payroll File Import extensions are pre-installed in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md).
 
 ## To import a payroll file
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journals**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.
 2. In the relevant general journal batch, choose the **Import Payroll Transactions** action. An assisted setup guide opens.
 3. Follow the steps in the **Import Payroll Transactions** window.
 

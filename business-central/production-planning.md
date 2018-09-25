@@ -16,6 +16,9 @@
 
 ---
 # Planning
+> [!NOTE]
+> Functionality described in this topic and sub topics is only visible in the user interface if you have the **Premium** experience. For more information, see [Changing Which Features are Displayed](ui-experiences.md).
+
 The production operations required to transform inputs into finished goods must be planned daily or weekly depending on the volume and nature of the products. [!INCLUDE[d365fin](includes/d365fin_md.md)] offers features to supply for anticipated and actual demand from sale, assembly, and production as well as features for distribution planning using stockkeeping units and location transfers.
 
 > [!NOTE]

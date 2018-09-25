@@ -162,6 +162,7 @@
 ### [Reconcile Customer Payments Manually From a List of Unpaid Sales Documents](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 ### [Apply Customer Payments Manually](receivables-how-apply-sales-transactions-manually.md)  
 ### [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)
+### [Predicting Late Payments](ui-extensions-late-payment-prediction.md)
 ### [Block Customers](receivables-how-block-customers.md)
 ### [Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)
 ### [Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)

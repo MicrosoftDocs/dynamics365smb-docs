@@ -12,14 +12,13 @@ There are different repos in GitHub for the source content and each of the langu
 
 **NOTE**: Microsoft accepts pull requests to the *dynamics365smb-docs* repo only, not the language-specific repos. If you have feedback about translations, you can report a GitHub issue in the relevant repo.
 
-======================================
 For guidance about extending and customizing the Microsoft-provided content for Business Central, see [Configuring the Help Experience for Dynamics 365 Business Central](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/deployment/configure-help). If you have any questions, you can contact the Dynamics SMB Content Experience (UA) team at nav-olh@microsoft.com.
 
 ## Getting Started
 
 1. Fork this repo
 
-    You cannot work directly in the dynamics365smb-docs repo, so the first thing you need to do is create a fork of the repo under your GitHub account. A fork basically is copy of this repo that lets you work freely on the content without affecting the dynamics365smb-docs repo. For more information, see [Fork a Repo] (https://help.github.com/articles/fork-a-repo/)
+    You cannot work directly in the dynamics365smb-docs repo, so the first thing you need to do is create a fork of the repo under your GitHub account. A fork basically is copy of this repo that lets you work freely on the content without affecting the dynamics365smb-docs repo. For more information, see [Fork a Repo](https://help.github.com/articles/fork-a-repo/).
 
 2.  Install GitHub Desktop (optional) and clone your forked repo.
 

@@ -4,16 +4,16 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
 # dynamics365smb-docs
-Welcome to the repository for user assistance content for Dynamics 365 Business Central! This product is aimed at small and midsized businesses. This repo enables you to take the Business Central help and customize it to suit your application. It also provides a way for you to actively contribute to the current Business Central content.  
+Welcome to the repository for user assistance content for Dynamics 365 Business Central! This product is aimed at small and midsized businesses. This repo enables you to take the Business Central Help and customize it to suit your application. It also provides a way for you to actively contribute to the current Business Central content.  
 
 The content is available as markdown files (.md), where each file represents an article in the help. You can edit these markdown files, and then convert them to HTML files for application.
 
-There are different repos in GitHub for the source content and each of the languages that Microsoft translates to. The *dynamics365smb-docs* repo contains the content in English (US). If you want access to the content in other languages, navigate to the relevant repo - the names follow this pattern: `dynamics365smb-docs.<language>-<country>`, such as [dynamics365smb-docs.da-DK](https://github.com/MicrosoftDocs/dynamics365smb-docs.da-DK) for the Danish version.
+There are different repos in GitHub for the source content and each of the languages that Microsoft translates to. The *dynamics365smb-docs* repo contains the content in English (US). If you want access to the content in other languages, navigate to the relevant repo - the names follow this pattern: `dynamics365smb-docs-pr.<language>-<country>`, such as [dynamics365smb-docs-pr.da-DK](https://github.com/MicrosoftDocs/dynamics365smb-docs-pr.da-DK) for the Danish version.
 
 **NOTE**: Microsoft accepts pull requests to the *dynamics365smb-docs* repo only, not the language-specific repos. If you have feedback about translations, you can report a GitHub issue in the relevant repo.
 
 ======================================
-If you have any questions, please contact the Dynamics NAV User Assistance (UA) team at nav-olh@microsoft.com.
+For guidance about extending and customizing the Microsoft-provided content for Business Central, see [Configuring the Help Experience for Dynamics 365 Business Central](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/deployment/configure-help). If you have any questions, you can contact the Dynamics SMB Content Experience (UA) team at nav-olh@microsoft.com.
 
 ## Getting Started
 
@@ -41,6 +41,9 @@ For example, to create a pull request to the dynamics365smb-docs repo by using G
 3.  When the sync is completed, choose **Pull Request**, make sure that the pull request points at the *live* branch, and then choose send **Pull Request**.
 
 **NOTE**: Microsoft accepts pull requests to the dynamics365smb-docs repo only, not the language-specific repos. If you have feedback about translations, you can report a GitHub issue in the relevant repo.
+
+You can also find tips an tricks in the general contribution guide for the Docs site at [https://docs.microsoft.com/en-us/contribute/](https://docs.microsoft.com/en-us/contribute/).
+
 
 ## Authoring in Markdown
 
@@ -214,7 +217,7 @@ The TOC structure of the TOC file is as follows:
 ```
 
 ### Standard Phrases
-All fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] have tooltips. Therefore, do not document fields in Help. To refer readers to the tooltips, use this standard phrase where relevant:    
+All fields in Business Central have tooltips. Therefore, do not document fields in Help. To refer readers to the tooltips, use this standard phrase where relevant:    
 "Choose a field to read a short description of the field or link to more information."
 
 ### Topic Titles
@@ -239,7 +242,7 @@ All fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] have tooltips. Therefo
 |Select a Company|ui-how-select-company.md|
 |Enter Criteria in Filters|ui-enter-criteria-filters.md|
 |Troubleshooting: Record Locked by Another User|ui-troubleshoot-record-locked-another-user.md|
-[Changing Basic Settings](ui-change-basic-settings.md)
+|Changing Basic Settings|ui-change-basic-settings.md|
 |Sales|sales-manage-sales.md|
 |Set Up Currencies|finance-setup-currencies.md|
 |Set Up Purchasers|purchases-how-setup-purchasers.md|

@@ -1,7 +1,6 @@
 ---
 title: Customize Dynamics 365 Business Central | Microsoft Docs
 description: Build, showcase, and promote your apps and extensions for Business Central.
-services: project-madeira
 documentationcenter: ''
 author: edupont04
 
@@ -11,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 04/12/2018
+ms.date: 09/26/2018
 ms.author: edupont
 
 ---
@@ -68,7 +67,7 @@ To learn more about the Microsoft AppSource consulting services offerings, selec
 The Ready to Go program is designed to support you in bringing your Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] offers into Microsoft Appsource. The program holds: 
 
 - [Online learning](http://aka.ms/ReadyToGoOnlineLearning)
-- [Training and workshops](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go#Element2)
+- [Training and workshops](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go)
 - [Microsoft Collaborate platform](http://aka.ms/Collaborate)
 
 Learn more on how you can build a [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] offering in the [Ready to Go program](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go) details. If you have questions or feedback about the **Ready to Go** program offering, you can [contact us](mailto:dyn365bep@microsoft.com). 

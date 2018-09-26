@@ -19,7 +19,7 @@
 After you have set up your bins, you can set up the bin contents. In other words, you can set up the items you want to store in any given bin and set the rules that govern filling the bin with a particular item. You can do this manually in the **Bin Contents** window or automatically with the **Create Bin Content Worksheet** window.
 
 ## To create bin content manually  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
 2.  Select the location where you want to set up bin contents,  and then choose the **Bins** action.  
 3.  Select the bin where you want to set up contents, and then choose the **Contents** action.  
 4.  For each item that you want to store in the bin, fill in a line in the **Bin Contents** window with the appropriate information. Some of the fields are filled in already with information about the bin.  
@@ -37,7 +37,7 @@ If you select the **Fixed** field, you are fixing the item to the bin, meaning t
 ## To create bin content with a worksheet  
 When you have created your bins, you can create the bin content that you want for each bin in the bin content creation worksheet.
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bin Content Creation Worksheet**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bin Content Creation Worksheet**, and then choose the related link.  
 2.  On the worksheet header, in the **Name** field, select the worksheet of the location where you want to create bin contents.  
 3.  In the **Bin Code** field, select the code of the bin for which you want to define bin content.   
 

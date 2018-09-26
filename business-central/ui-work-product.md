@@ -9,7 +9,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/057/2018
+ms.date: 09/20/2018
 ms.author: solsen
 
 ---
@@ -39,10 +39,14 @@ The following table lists some of the general functionality with links to topics
 |Learn about features and capabilities that make [!INCLUDE[d365fin](includes/d365fin_md.md)] readily available to people with disabilities.|[Accessibility and Keyboard Shortcuts](ui-accessibility.md)|
 |Watch videos on selected functionality to help you get started.|[Videos on Common Tasks](across-videos.md)|  
 
+## Getting Around in Business Central
+Here's a short video about how to get around in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+> [!VIDEO https://www.youtube.com/embed/zqz03iMihx0]
+
 ## See Also
 [Getting Started](product-get-started.md)  
 [Setting Up Business Central](setup.md)  
 [General Business Functionality](ui-across-business-areas.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 

@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/18/2018
+ms.date: 09/12/2018
 ms.author: edupont
 
 ---
@@ -24,7 +24,7 @@ When you first start using [!INCLUDE[d365inv](includes/d365inv.md)], your invoic
 4. When you are ready, choose the OK button.  
 
 > [!TIP]  
-> This text serves as a template for the emails. In the greeting, the name of your customer will automatically be inserted if you keep the format of *Hello \<\Customer\>\*.  
+> This text serves as a template for the emails. In the greeting, the name of your customer will automatically be inserted if you keep the format of `Hello <Customer>`.  
 
 ## See also
 [Send an invoice to a new customer](send-invoice.md)  

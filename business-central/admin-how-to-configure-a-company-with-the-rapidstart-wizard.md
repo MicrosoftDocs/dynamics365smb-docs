@@ -37,7 +37,7 @@ In the following procedure, you have provided the customer with the configuratio
     >  Only change your Role Center after you have completed configuration of the company. If you have more setup details to consider and modify, first use the configuration worksheet to continue your work. Then, return to the wizard to update your Role Center profile, or choose the **Complete Setup** action.
 
 7. Choose the **OK** button.  
-8. To verify that the configuration information has been applied to the new company, Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.
+8. To verify that the configuration information has been applied to the new company, Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.
 
 The **Company Information** window contains information that you have specified.   
 

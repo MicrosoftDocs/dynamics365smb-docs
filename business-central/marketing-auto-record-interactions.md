@@ -25,7 +25,7 @@ You can set up the application to automatically record interactions for sales, p
 * Call your contacts, if you have a TAPI-compliant telephone and the correct installation.
 
 To set up the automatic recording of these interactions, you specify interaction templates for these documents and actions by using the **Interaction Template Setup** window.  
-To open the **Interaction Template Setup** window, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Interaction Template Setup**, and then choose the related link.
+To open the **Interaction Template Setup** window, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Interaction Template Setup**, and then choose the related link.
 
 ## See Also
 [Recording Interactions With Contacts](marketing-interactions.md)  

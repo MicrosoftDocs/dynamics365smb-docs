@@ -51,7 +51,7 @@ If you need more advanced settings for your consolidation, you can set up consol
 [!INCLUDE[d365fin](includes/d365fin_md.md)] lets you set up a list of companies to consolidate, verify the accounting data before you consolidate it, import files, and generate consolidation reports.  
 
 1. Sign in to the consolidated company.
-2. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Business Units**, and then choose the related link.  
+2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Business Units**, and then choose the related link.  
 3. Choose **New**, and then fill in the required fields.  
 
 If your business unit uses a foreign currency, you must specify the exchange rate to use in the consolidation. You must also enter consolidation information about the business unit's general ledger accounts. These processes are described in the following sections.
@@ -59,7 +59,7 @@ If your business unit uses a foreign currency, you must specify the exchange rat
 ### To prepare general ledger accounts for consolidation
 If the chart of accounts in the business unit differs from the consolidated company, you must prepare general ledger accounts for consolidation. You can specify the accounts to post debits and credits to, and the method to use to translate currencies in the consolidated company. For example, this is useful if you frequently run the report.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Chart of Accounts**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
 2. Open the card for the account, and then fill in the fields on the **Consolidation** FastTab.
 
 ### To specify exchange rates for consolidations
@@ -78,7 +78,7 @@ The following table describes the exchange rate methods you can use for accounts
 
 To specify exchange rates for business units, follow these steps:
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Business Units**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Business Units**, and then choose the related link.  
 2. In the **Business Unit List** window, choose the business unit, and then choose the **Average Rate (Manual)** action.   
 3. In the **Change Exchange Rate** window, the contents of the **Relational Exch. Rate** field have been copied from the **Currency Exchange Rate** table, but you can modify them. Close the page.  
 4. Choose the **Closing Rate** action.  
@@ -104,7 +104,7 @@ If you own only part of a company, you can include a percentage of each transact
 You can test your data before you transfer it to the consolidated company. [!INCLUDE[d365fin](includes/d365fin_md.md)] looks for differences in the information in the business units and the consolidated company. For example, whether account numbers or dimension codes are different. You must correct errors before you can run the report. You can test the database or, if you are importing data from an XML file, you can test the file.   
 
 1. Open the consolidated company.  
-2. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Business Units**, and then choose the related link.  
+2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Business Units**, and then choose the related link.  
 3. Do one of the following:  
 
     * To test a file, choose the **Test File** action, enter the name of the file to test, and then choose **Print**.  

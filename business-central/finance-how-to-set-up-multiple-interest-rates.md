@@ -22,11 +22,11 @@ Multiple interest rates are used for different periods for delayed payments in t
 When you create finance charge terms and reminder terms, for delayed payment penalty, you can specify multiple interest rates so that the penalty fee is calculated from different interest rates in different periods. For more information, see [Collect Outstanding Balances](receivables-collect-outstanding-balances.md).
 
 ## To set up multiple interest rates  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Finance Charge Terms**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Finance Charge Terms**, and then choose the related link.  
 2.  In the **Finance Charge Terms** window, select the required finance term, and then choose the **Interest Rates** action.  
 3.  Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Choose the **OK** button.  
-5.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Reminder Terms**, and then choose the related link.  
+5.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminder Terms**, and then choose the related link.  
 6.  In the **Reminder Terms** window, select the required reminder term, and then choose the **Levels** action.  
 7.  In the **Reminder Levels** window, select the **Calculate Interest** field.  
 

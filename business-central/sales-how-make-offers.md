@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 08/08/2017
+ms.date: 09/14/2018
 ms.author: sgroespe
 
 ---
@@ -22,7 +22,7 @@ While you negotiate with the customer, you can change and resend the sales quote
 You can fill customer fields on the sales quote in two ways depending on whether the customer is already registered. See steps 2 and 3 in the following procedure.
 
 ## To create a sales quote
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Quotes**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Quotes**, and then choose the related link.
 2. In the **Customer** field, enter the name of an existing customer.
 
    Other fields in the **Sales Quote** window contain standard information of the selected customer. If the customer is not registered, follow these steps:
@@ -35,15 +35,16 @@ You can fill customer fields on the sales quote in two ways depending on whether
    Several fields on the sales quote are now filled with information that you specified on the new customer card.  
 8. Fill in the remaining fields in the **Sales Quote** window as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-You are now ready to fill in the sales order lines for products that you are selling to the customer or for any transaction with the customer that you want to record in a G/L account.   
+    You are now ready to fill in the sales order lines for products that you are selling to the customer or for any transaction with the customer that you want to record in a G/L account.   
 
-If you have set up recurring sales lines for the customer, such as a monthly replenishment order, then you can insert these lines on the order by choosing the **Get Recurring Sales Lines** action.  
+    If you have set up recurring sales lines for the customer, such as a monthly replenishment order, then you can insert these lines on the order by choosing the **Get Recurring Sales Lines** action.  
+
 9. On the **Lines** FastTab, in the **Type** field, select what type of product, charge, or transaction that you will post for the customer with the sales line.
 10. In the **No.** field, select a record to post according to the value in the **Type** field.
 
- You leave the **No.** field empty in the following cases:
- -If the line is for a comment. Write the comment in the **Description** field.
- -If the line is for a nonstock item. Choose the **Select Nonstock Items** action. For more information, see [Work With Nonstock Items](inventory-how-work-nonstock-items.md).
+    You leave the **No.** field empty in the following cases:
+    - If the line is for a comment. Write the comment in the **Description** field.
+    - If the line is for a catalog item. Choose the **Select Catalog Items** action. For more information, see [Work With Catalog Items](inventory-how-work-nonstock-items.md).
 
 11. In the **Quantity** field, enter how many units of the product, charge, or transaction that the line will record for the customer.
 
@@ -56,12 +57,16 @@ If you have set up recurring sales lines for the customer, such as a monthly rep
 12. If you want to give a discount, enter a percentage in the **Line Discount %** field. The value in the **Line Amount** field updates accordingly.  
 
     If special item prices are set up on the **Sales Prices and Sales Line Discounts** FastTab on the customer or item card, the price and amount on the sales line automatically update if the price criteria is met. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).  
-13. Repeat steps 9 through 12 for every product you want to offer the customer.  
+13. Repeat steps 9 through 12 for every product you want to offer the customer.
 
     The totals under the lines are automatically calculated as you create or modify lines.  
 14. In the **Invoice Discount Amount** field, enter an amount that should be deducted from the value shown in the **Total Incl. Tax** field.
 
     If you have set up invoice discounts for the customer, then the specified percentage value is automatically inserted in the **Invoice Discount %** field if the criteria are met, and the related amount is inserted in the **Inv. Discount Amount Excl. Tax** field. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).
+
+    > [!TIP]
+    > To have the **Quote Valid Until Date** filled in automatically with a certain number of days after quote creation, you can fill in the **Quote Validity Calculation** field in the **Sales & Receivables** window. 
+
 15. When the sales quote lines are completed, choose the **Send by Email** action.
 16. In the **Send Email** window, fill in any remaining fields and review the embedded sales quote. For more information, see [Send Documents by Email](ui-how-send-documents-email.md).
 17. If the customer accepts the quote, choose the **Make Invoice** or the **Make Order** action.

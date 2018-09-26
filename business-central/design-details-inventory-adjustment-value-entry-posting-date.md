@@ -356,13 +356,7 @@ The **Adjust Cost – Item Entries** batch job determines if the initial Posting
 ### From version 5.0:  
  There is no longer a posting date to be stated in the request form of the Post Inventory Cost to G/L batch job. The G/L entry is created with the same Posting Date as the related value entry. In order to complete the batch job the allowed posting date range must allow the Posting Date of the created G/L entry. If not, the allowed posting date range must be temporarily re-opened by changing or removing the dates in the Allow Posting From and To fields in the General Ledger Setup. To avoid reconciliation issues it is required that Posting Date of the G/L Entry corresponds to the Posting Date of the Value Entry.  
 
- The batch job scans Table 5811 - Post Value Entry to G/L, to identify the Value Entries in scope for posting to General Ledger. After successful run the table is emptied.  
-
- Any feedback to how this process and documentation can be further developed is very welcome.  
-
- Helene Holmin  
-
- Dynamics NAV Escalation Engineer  
+ The batch job scans Table 5811 - Post Value Entry to G/L, to identify the Value Entries in scope for posting to General Ledger. After successful run the table is emptied.
 
 ## See Also  
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  

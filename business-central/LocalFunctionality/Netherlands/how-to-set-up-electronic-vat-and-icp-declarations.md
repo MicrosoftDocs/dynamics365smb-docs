@@ -36,16 +36,6 @@ When electronic declarations are set up, you can begin to declare VAT and ICP to
 5. In the **Digipoort Delivery URL** field, specify the URL for the production version of the Digipoort Aanlever service. For more information, see [http://www.logius.nl/producten/gegevensuitwisseling/digipoort](http://www.logius.nl/producten/gegevensuitwisseling/digipoort).  
 6. In the **Digipoort Status URL** field, specify the URL for the status information that is coming from the Digipoort Statusinformatie service. For more information, see [Electronic VAT and ICP Declarations](electronic-vat-and-icp-declarations.md).
 
-Currently, there are two sets of URLs that are provided by the Dutch Tax Administration. These are subject to change, however, and you should check the administration’s website regularly for updates.  
-
-### Production Use
-- Digipoort Delivery URL: https://www.procesinfrastructuur.nl/wus/2.0/aanleverservice/1.2
-- Digipoort Status URL: https://www.procesinfrastructuur.nl/wus/2.0/statusinformatieservice/1.2  
-
-### Testing Use
-- Digipoort Delivery URL: https://preprod.procesinfrastructuur.nl/wus/2.0/aanleverservice/1.2
-- Digipoort Status URL: https://preprod.procesinfrastructuur.nl/wus/2.0/statusinformatieservice/1.2  
-
 ## See Also  
  [Submitting Electronic VAT and ICP Declarations](electronic-vat-and-icp-declarations.md)  
  [Netherlands Local Functionality](netherlands-local-functionality.md)

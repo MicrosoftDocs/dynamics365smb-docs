@@ -25,7 +25,7 @@ This execution task is performed in the **Production Journal** window. The journ
 >  Components without routing link codes are listed first in the journal.  
 
 ## To register consumption and output  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon enter **Released Prod. Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon enter **Released Prod. Orders**, and then choose the related link.  
 2.  Open a released production order line that is ready for registration, and then on the **Lines** FastTab, choose the **Line** action, and then choose the **Production Journal** action.  
 
     The **Production Journal** window opens showing journal lines for the production order line according to the **Prod. Order Component** and **Prod. Order Routing** windows. These lines originate from the production BOM and routing assigned to the item that is being produced. For more information, see [Create Production BOMs](production-how-to-create-routings.md).  

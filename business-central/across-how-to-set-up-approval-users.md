@@ -29,7 +29,7 @@ Before you can create workflows that involve approval steps, you must set up the
 >  To define that an approval request is not approved until multiple equal approvers have approved it, regardless of a hirarchy, set up a flat workflow user group. For approver type, **Workflow User Group**, set up approvers in the **Workflow User Groups** window and assign the same number to each approver in the **Sequence No.** field. For more information, see [Set Up Workflow Users](across-how-to-set-up-workflow-users.md).  
 
 ## To set up an approval user  
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Approval User Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Approval User Setup**, and then choose the related link.  
 2. Create a new line in the **Approval User Setup** window, and then fill the fields as described in the following table.  
 
     |Field|Description|  

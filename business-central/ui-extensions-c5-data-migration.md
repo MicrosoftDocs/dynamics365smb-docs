@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 04/09/208
+ms.date: 09/20/2018
 ms.author: bholtorf
 
 ---
@@ -96,7 +96,7 @@ If you migrate accounts, the following data is also migrated:
 There are just a few steps to export data from C5, and import it in [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
 1. In C5, use the **Export Database** feature to export the data. Then send the export folder to a compressed (zipped) folder.  
-2. In [!INCLUDE[d365fin](includes/d365fin_md.md)], choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Data Migration**, and then choose **Data Migration**.  
+2. In [!INCLUDE[d365fin](includes/d365fin_md.md)], choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Migration**, and then choose **Data Migration**.  
 3. Complete the steps in the assisted setup guide. Make sure to choose **Import from Microsoft Dynamcis C5 2012** as the data source.  
 
 > [!Note]
@@ -110,7 +110,7 @@ Use the **Data Migration Overview** window to monitor the success of the migrati
 
 ## How to Avoid Double-Posting
 To help avoid double-posting to the general ledger, the following balance accounts are used for open transactions:  
-  
+
 * For vendors, we use the A/P account from the vendor posting group.  
 * For customers, we use the A/R account from the customer posting group.  
 * For items, we create a general posting setup where the adjustment account is the account specified as the inventory account on the inventory posting setup.  
@@ -146,4 +146,4 @@ You can stop migrating data by choosing **Stop All Migrations**. If you do, all 
 
 ## See Also
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
-[Getting Started](product-get-started.md) 
+[Getting Started](product-get-started.md)

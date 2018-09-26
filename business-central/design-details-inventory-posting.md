@@ -29,7 +29,7 @@ Each inventory transaction, such as a purchase receipt or a sales shipment, post
 
  At regular intervals, value entries that are created in the inventory ledger are posted to the general ledger to reconcile the two ledgers for financial control reasons. For more information, see [Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md).  
 
- ![Entry flow between inventory and G&#47;L](media/design_details_inventory_costing_1_entry_flow.png "design_details_inventory_costing_1_entry_flow")  
+ ![Entry flow when reconciling inventory with G/L](media/design_details_inventory_costing_1_entry_flow.png "Entry flow when reconciling inventory with G/L")  
 
 ## Example  
  The following example shows how item ledger entries, value entries, and item application entries result in general ledger entries.  

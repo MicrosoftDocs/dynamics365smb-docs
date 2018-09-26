@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 09/19/2018
+ms.date: 09/26/2018
 ms.author: sgroespe
 
 ---
@@ -96,7 +96,7 @@ In each of the five access type fields, **Read Permission**, **Insert Permission
 |------|-----------|
 |**Yes**|The user can perform the action on the object in question.|Highest|
 |**Indirect**|The user can perform the action on the object in question but only through another related object that the user has full access to.|Second highest|
-|Blank|The user cannot perform the action on the object in question.|Lowest|
+|**Blank**|The user cannot perform the action on the object in question.|Lowest|
 
 > [!NOTE]  
 > When you edit a permission and thereby the related permission set, the changes will also apply to other users that have the permission set assigned.

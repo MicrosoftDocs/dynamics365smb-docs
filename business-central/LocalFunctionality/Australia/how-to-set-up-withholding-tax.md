@@ -74,4 +74,4 @@ The following procedure describes how to set up product posting groups for WHT, 
  [View Withholding Tax Entries](how-to-view-withholding-tax-entries.md)   
  [Calculate and Post Withholding Tax Settlements](how-to-calculate-and-post-withholding-tax-settlements.md)   
  [Withholding Tax](withholding-tax.md)   
- [Australian Taxation Office (ATO)](http://www.ato.gov.au/)
+ [Australian Taxation Office (ATO)](https://www.ato.gov.au/)

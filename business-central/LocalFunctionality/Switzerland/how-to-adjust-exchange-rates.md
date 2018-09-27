@@ -26,7 +26,7 @@ You can run this batch job as often as you like, however make sure that you alwa
 > [!NOTE]  
 >  When using a report currency, make sure that the **VAT Exchange Rate Adjustment** field in the **General Ledger Setup** window is set to **No Adjustment**.  
 
-For more information about VAT and foreign currencies, see the [ESTV](http://go.microsoft.com/fwlink/?LinkId=285999) website.  
+For more information about VAT and foreign currencies, see the [ESTV](https://go.microsoft.com/fwlink/?LinkId=285999) website.  
 
 ## To adjust an exchange rate  
 

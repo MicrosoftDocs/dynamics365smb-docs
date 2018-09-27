@@ -38,7 +38,7 @@ The CFDI file is an XML file that contains:
 >  You will be submitting the electronic invoices to a PAC, which is an authorized service provider appointed by the Mexican tax authorities (SAT).  
 
 ## Getting Started  
-Before you can use [!INCLUDE[d365fin](../../includes/d365fin_md.md)] for electronic invoicing, you must obtain the appropriate certification, digital stamp, and control numbers from the tax authorities. You must install the certificate on the computer where the CFDI files will be generated. For more information, see [Set Up Electronic Invoicing](how-to-set-up-electronic-invoicing.md). For information about SAT certificates and keys, see the [Servicio de Administracíon Tributaria](http://go.microsoft.com/fwlink/?LinkId=242772) website.
+Before you can use [!INCLUDE[d365fin](../../includes/d365fin_md.md)] for electronic invoicing, you must obtain the appropriate certification, digital stamp, and control numbers from the tax authorities. You must install the certificate on the computer where the CFDI files will be generated. For more information, see [Set Up Electronic Invoicing](how-to-set-up-electronic-invoicing.md). For information about SAT certificates and keys, see the [Servicio de Administracíon Tributaria](https://go.microsoft.com/fwlink/?LinkId=242772) website.
 
 You also must specify the web services that you will use to communicate with the PAC in order to obtain digital stamps. For more information, see [Set Up PAC Web Services](how-to-set-up-pac-web-services.md).  
 

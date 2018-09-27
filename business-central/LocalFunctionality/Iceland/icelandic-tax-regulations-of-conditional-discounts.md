@@ -14,7 +14,7 @@
     ms.search.keywords:
     ms.date: 07/01/2017
     ms.author: sgroespe
-    redirect_url: http://www.microsoft.com
+    redirect_url: https://www.microsoft.com
 
 ---
 

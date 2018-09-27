@@ -59,7 +59,7 @@ This detection function is used in conversion scenarios, production and assembly
 
 The Order Level function is used to detect adjustments in assembly posting. The following graphic shows the adjustment entry structure:  
 
-![Adjustment entry structure](media/design_details_assembly_posting_3.png "design_details_assembly_posting_3")  
+![Flow of entries in cost adjustment](media/design_details_assembly_posting_3.png "Flow of entries in cost adjustment")  
 
 For more information, see [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md).  
 

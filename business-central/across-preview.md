@@ -35,7 +35,7 @@ For more information, see [Using Designer](https://docs.microsoft.com/en-us/dyna
 
 ### To create a sandbox environment
 1.	Sign in to your production or preview instance of [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-2.	Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sandbox Environment**, and then choose the related link.
+2.	Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sandbox Environment**, and then choose the related link.
 3.	Choose **Create**. A tab will open where you can finish setting up your sandbox.
 
     > [!Note]

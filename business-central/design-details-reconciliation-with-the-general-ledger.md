@@ -80,16 +80,16 @@ The following table shows how the work center is set up on the work center card.
     1. The interim accounts are cleared. (Sale)  
     2. Cost of goods sold (COGS) is posted. (Sale)  
 
-        ![Results of sale posting to G&#47;L accounts](media/design_details_inventory_costing_3_gl_posting_sales.png "design_details_inventory_costing_3_GL_posting_sales")  
+        ![Results of sales posting to GL accounts](media/design_details_inventory_costing_3_gl_posting_sales.png "Results of sales posting to GL accounts")  
 5. The user posts consumption of 150 links, which is the number of links used to produce one chain. (Consumption, Material)  
 
-    ![Results of material posting to G&#47;L accounts](media/design_details_inventory_costing_3_gl_posting_material.png "design_details_inventory_costing_3_GL_posting_material")  
+    ![Results of material posting to GL accounts](media/design_details_inventory_costing_3_gl_posting_material.png "Results of material posting to GL accounts")  
 6. The work center used 60 minutes to produce the chain. The user posts the conversion cost. (Consumption, Capacity)  
 
     1. The direct costs are posted. (Consumption, Capacity)  
     2. The indirect costs are calculated and posted. (Consumption, Capacity)  
 
-        ![Results of capacity posting to G&#47;L accounts](media/design_details_inventory_costing_3_gl_posting_capacity.png "design_details_inventory_costing_3_GL_posting_capacity")  
+        ![Results of capacity posting to GL accounts](media/design_details_inventory_costing_3_gl_posting_capacity.png "Results of capacity posting to GL accounts")  
 7. The user posts the expected cost of one chain. (Output)  
 8. The user finishes the production order and runs the **Adjust Cost - Item Entries** batch job. (Output)  
 
@@ -98,7 +98,7 @@ The following table shows how the work center is set up on the work center card.
     3. The indirect cost (overhead) is transferred from the indirect cost account to the inventory account. (Output)  
     4. This results in a variance amount of LCY 157.00. Variances are only calculated for standard-cost items. (Output)  
 
-        ![Results of output posting to G&#47;L accounts](media/design_details_inventory_costing_3_gl_posting_output.png "design_details_inventory_costing_3_GL_posting_output")  
+        ![Results of output posting to GL accounts](media/design_details_inventory_costing_3_gl_posting_output.png "Results of output posting to GL accounts")  
 
         > [!NOTE]  
         >  For the sake of simplicity, only one variance account is shown. In reality, five different accounts exist:  
@@ -111,7 +111,7 @@ The following table shows how the work center is set up on the work center card.
 
 9. The user revalues the chain from LCY 150.00 to LCY 140.00. (Adjustment/Revaluation/Rounding/Transfer)  
 
-    ![Results of adjustment posting to G&#47;L accounts](media/design_details_inventory_costing_3_gl_posting_adjustment.png "design_details_inventory_costing_3_GL_posting_adjustment")  
+    ![Results of adjustment posting to GL accounts](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Results of adjustment posting to GL accounts")  
 
 For more information about the relationship between the account types and the different types of value entries, see [Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md).  
 

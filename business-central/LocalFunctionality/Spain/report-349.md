@@ -19,7 +19,7 @@
 # Report 349
 You must submit a periodic report of trade with other EU countries/regions to the tax authorities. In Spain, this Report 349 is part of the EU intra-community VAT Information Exchange System (VIES).  
 
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the Report 349 declaration is based on VAT entries that are filtered by the EU country/region codes. You must create a 349 declaration and then submit the file to the [Spanish Tax Agency](http://go.microsoft.com/fwlink/?LinkId=238181) website or on CD-ROM.  
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the Report 349 declaration is based on VAT entries that are filtered by the EU country/region codes. You must create a 349 declaration and then submit the file to the [Spanish Tax Agency](https://go.microsoft.com/fwlink/?LinkId=238181) website or on CD-ROM.  
 
 When you create a Report 349 declaration that includes credit memos, the entries will display in the **Customer/Vendor Warnings 349** window so that you can include them as corrections to invoices. You must make the appropriate changes to the lines in the **Customer/Vendor Warnings 349** window before you can submit the declaration. For more information, [Create Report 349](how-to-create-report-349.md).  
 

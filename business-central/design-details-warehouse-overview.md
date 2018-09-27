@@ -26,7 +26,7 @@ When item postings occur outside the warehouse module, a default adjustment bin 
 
 The following illustration outlines typical warehouse flows.  
 
-![Overview of warehouse processes](media/design_details_warehouse_management_overview.png "design_details_warehouse_management_overview")  
+![Overview of warehouse processes](media/design_details_warehouse_management_overview.png "Overview of warehouse processes")  
 
 ## Basic or Advanced Warehousing  
 Warehouse functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)] can be implemented in different complexity levels, depending on a company’s processes and order volume. The main difference is that activities are performed order-by-order in basic warehousing when they are consolidated for multiple orders in advanced warehousing.  

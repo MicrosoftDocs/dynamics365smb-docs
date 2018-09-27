@@ -21,7 +21,7 @@ You can think of service quotes as the basis for service orders. In fact, they a
 You can use a service quote as a preliminary draft for a service order, and then convert the quote to a service order.  
   
 ## To create a service quote  
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Quotes**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Quotes**, and then choose the related link.  
 2. Create a new service quote.  
 3. In the **No.** field, enter a number for the service quote. Alternatively, if you have set up a number series for service quotes in the **Service Mgt. Setup** window, you can press Enter to select the next available service quote number.  
 4. In the **Customer No.**  field, select the relevant customer from the list.  

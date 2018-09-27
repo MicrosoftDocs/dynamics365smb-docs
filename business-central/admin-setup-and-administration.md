@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 0/07/2018
+ms.date: 09/20/2018
 ms.author: edupont
 
 ---
@@ -48,4 +48,3 @@ The following table describes a sequence of tasks, with links to the topics that
 [Getting Started](product-get-started.md)    
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 

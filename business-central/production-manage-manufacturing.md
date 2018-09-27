@@ -16,6 +16,9 @@
 
 ---
 # Manufacturing
+> [!NOTE]
+> Functionality described in this topic and sub topics is only visible in the user interface if you have the **Premium** experience. For more information, see [Changing Which Features are Displayed](ui-experiences.md).
+
 When demand is planned for and the materials have been issued according to production BOMs, then the actual production operations can start and be executed in the sequence defined by the production order routing.  
 
 An important part of executing production, from a system point of view, is to post production output to the database to report progress and to update inventory with the finished items. Output posting can be done manually, by filling and posting journal lines after production operations. Or, it can be done automatically with the use of backward flushing. In that case material consumption is automatically posted along with output when the production order changes to finished.  
@@ -47,4 +50,3 @@ The following table describes a sequence of tasks, with links to the topics that
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 

@@ -35,7 +35,7 @@ A system precondition for picking, or moving, components for source documents is
 ## To pick components in basic warehouse configurations
 In basic warehouse configurations where the location is set up to use picking only, you can pick components for production activities with the **Inventory Pick** window. For more information, see [Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md).
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Inventory Picks**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Picks**, and then choose the related link.  
 2.  To access the production order components, choose the **Get Source Documents** action, and then select the released production order.  
 3.  Perform the pick, and then record the actual picking information in the **Qty. Picked** field.  
 4.  When the lines are ready for posting, choose the **Post** action. The posting creates the necessary warehouse entries and posts the consumption of the items.  
@@ -86,7 +86,7 @@ To create pick requests, both for pull and for push scenarios, the source docume
 
 ## To pick components using the pick worksheet  
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Pick Worksheet**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Pick Worksheet**, and then choose the related link.  
 2.  Choose the **Get Warehouse Documents** action, and then select the component lines from the released production order.  
 3.  Inspect the lines, sort them to ensure an efficient picking round, and combine them with other worksheet lines if necessary to make best use of employee time.  
 4.  Choose the **Create Pick** action.  

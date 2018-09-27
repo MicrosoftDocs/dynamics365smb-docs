@@ -22,7 +22,7 @@ When you close a window after you edit a set of dimensions, [!INCLUDE[d365fin](i
 ### Example 1  
  The following diagram represents a search tree with six dimension sets. Only the distinguishing dimension set entry is displayed in the diagram.  
 
- ![Dimension tree structure](media/nav2013_dimension_tree.png "NAV2013_Dimension_Tree")  
+ ![Example of dimension tree structure](media/nav2013_dimension_tree.png "Example of dimension tree structure")  
 
  The following table describes a complete list of dimension set entries that make up each dimension set.  
 
@@ -41,7 +41,7 @@ When you close a window after you edit a set of dimensions, [!INCLUDE[d365fin](i
 
  First, [!INCLUDE[d365fin](includes/d365fin_md.md)] also updates the **Dimension Set Tree Node** table to make sure that the search tree looks like the following diagram. Thus dimension set 7 becomes a child of the dimension set 5.  
 
- ![NAV2013&#95;Dimension&#95;Tree&#95;Example 2](media/nav2013_dimension_tree_example2.png "NAV2013_Dimension_Tree_Example2")  
+ ![Example of dimension tree structure in NAV 2013](media/nav2013_dimension_tree_example2.png "Example of dimension tree structure in NAV 2013")  
 
 ### Finding Dimension Set ID  
  At a conceptual level, **Parent ID**, **Dimension**, and **Dimension Value**, in the search tree, are combined and used as the primary key because [!INCLUDE[d365fin](includes/d365fin_md.md)] traverses the tree in the same order as the dimension entries. The GET function (record) is used to search for dimension set ID. The following code example shows how to find the dimension set ID when there are three dimension values.  

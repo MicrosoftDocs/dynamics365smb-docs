@@ -20,7 +20,7 @@ The following topics describe the local functionality in the Danish version of [
 [The OIOUBL Extension for Electronic Invoicing](ui-extensions-oioubl.md)  
 [Set Up OIOUBL Electronic Invoicing](how-to-set-up-oioubl.md)  
 [Create Electronic Documents in an OIOUBL Format](how-to-create-electronic-documents-by-using-oioubl.md)  
-[Payments and Reconciliations (DK) Extension](../../ui-extensions-payments-reconciliation-formats-dk.md)  
+[The Payments and Reconciliations (DK) Extension](../../ui-extensions-payments-reconciliation-formats-dk.md)  
 [FIK Details in the Payment Reconciliation Journal](fik-details-in-the-payment-reconciliation-journal.md)  
 [VAT-VIES Reporting](vat-vies-reporting.md)  
 [Print VAT Reconciliation Reports](how-to-print-vat-reconciliation-reports.md)  
@@ -30,4 +30,3 @@ The following topics describe the local functionality in the Danish version of [
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)   
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
- 

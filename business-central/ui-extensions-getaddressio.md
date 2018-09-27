@@ -13,7 +13,7 @@ ms.date: 04/20/2017
 ms.author: bholtorf
 ---
 
-# The GetAddress.io UK Postcodes Extension to Microsoft Business Central
+# The GetAddress.io UK Postcodes Extension
 The GetAddress.io UK Postcodes extension can save time and prevent mistakes when you enter addresses for entities like customers, vendors, bank accounts, and employees. For example, when you're creating a customer, you just choose a postcode and [!INCLUDE[d365fin](includes/d365fin_md.md)] shows a list of addresses. Pick the address you want, and presto, the address fields are filled out.  
 
 ##To use the GetAddress.io UK Postcodes extension when you enter an address
@@ -29,4 +29,4 @@ The GetAddress.io UK Postcodes extension can save time and prevent mistakes when
 
 
 ## See Also
-[Set up the GetAddress.io UK Postal Code extension](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
+[Set Up the GetAddress.io UK Postal Code Extension](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)

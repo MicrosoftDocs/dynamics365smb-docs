@@ -22,7 +22,7 @@ Companies in the European Union (EU) are required to report trade with other cou
 - Simplified declaration  
 - Extended declaration  
 
-To determine the type of declaration that you should use, visit the [National Bank of Belgium](http://go.microsoft.com/fwlink/?LinkId=163064) Web site.  
+To determine the type of declaration that you should use, visit the [National Bank of Belgium](https://aka.ms/BelgianNationalBank) web site.  
 
 ## Submitting the Intrastat Report  
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can export the Intrastat declarations to a file that you can then submit to the OneGate portal. For more information, see [Export Intrastat Third-Party Declararations](how-to-export-intrastat-third-party-declararations.md).  
@@ -35,4 +35,3 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can export the Intrast
  [Export Intrastat Third-Party Declararations](how-to-export-intrastat-third-party-declararations.md)   
  [Print the Intrastat Form Report](how-to-print-the-intrastat-form-report.md)   
  [Set Up Intrastat Reporting](../../finance-how-setup-report-intrastat.md)  
-

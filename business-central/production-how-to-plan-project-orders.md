@@ -20,12 +20,12 @@ This planning task starts from a sales order and uses the **Sales Order Planning
 
 ## To create a project production order  
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2.  Select the sales order that represents the production project, and then choose the **Planning** action.  
 4.  In the **Sales Order Planning** window, choose  the **Create Prod. Order** action.  
 5.  In the **Create Order from Sales** window, in the **Order Type** field, select **Project Order**.  
 6.  Choose the **Yes** button.  
-7.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Production Orders**, and then choose the related link.
+7.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Production Orders**, and then choose the related link.
 8. Open the production order just created.  
 
     Notice that the **Source Type** field of the production order contains **Sales Header** and the order has multiple lines, one for each sales line item that must be produced.  

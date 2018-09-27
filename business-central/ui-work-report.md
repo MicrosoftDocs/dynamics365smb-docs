@@ -16,9 +16,9 @@ ms.author: jswymer
 
 ---
 # Working with Reports
-A report gathers information based on a specified set of criteria, and organizes and presents the information in an easy-to-read, printable format. There are many reports that you can access throughout the application. The reports typically provide information relative to the context of the page you are on. For example, the **Customer** page includes reports for the top 10 customers and the sales statistics, and more.
+A report gathers information based on a specified set of criteria, and organizes and presents the information in an easy-to-read, printable format. There are many reports that you can access throughout the application. The reports typically provide information relative to the context of the page you are on. For example, the **Customer** window includes reports for the top 10 customers and the sales statistics, and more.
 
-You can find reports in the **Reports** tab on selected pages, or you can use search ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") to find reports by name.
+You can find reports in the **Reports** tab on selected pages, or you can use search ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") to find reports by name.
 
 
 ## Specifying the data to include in the report

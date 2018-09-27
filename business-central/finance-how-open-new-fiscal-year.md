@@ -19,7 +19,7 @@ Before you can post in a fiscal year, you must open the fiscal year and define i
 For many companies, the fiscal year does not coincide with the calendar year. Fiscal periods can be measured in other units of time, such as months or quarters. You can use the **Create Fiscal Year** window to set up the accounting periods that suit your business needs. However,   
 
 ## To open a new fiscal year
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Accounting Periods**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Accounting Periods**, and then choose the related link.
 2. In the **Accounting Periods** window, choose the **Create Year** action.
 3. Fill in the fields to define the structure of the fiscal year.
 

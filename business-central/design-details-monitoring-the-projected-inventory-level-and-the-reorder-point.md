@@ -46,7 +46,7 @@ The following sequence describes how the projected inventory level is determined
 
 The following shows a graphical illustration of this principle:  
 
-![](media/nav_app_supply_planning_2_projected_inventory.png "NAV_APP_supply_planning_2_projected_inventory")  
+![Determining the Projected Inventory Level](media/nav_app_supply_planning_2_projected_inventory.png "Determining the Projected Inventory Level")  
 
 1. Supply **Sa** of 4 (fixed) closes Demand **Da** of -3.  
 2. CloseDemand: Create a decrease reminder of -3 (not shown).  

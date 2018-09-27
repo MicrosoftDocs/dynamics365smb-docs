@@ -83,14 +83,14 @@ A contract gain or loss entry is generated when a contract quote is converted to
 |**Contract Gain/Loss (Reasons)**|To view the contract gain/loss by reason code.|  
 |**Contract Gain/Loss (Resp.Ctr)**|To view the contract gain/loss by responsibility center.|  
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter the name of the page to display, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter the name of the page to display, and then choose the related link.  
 2. Fill in the filter criteria you want to apply. For example, in the **Contract Gain/Loss (Reasons)** window, choose a value for **Reason Code Filter**.  
 3. Choose the **Show Matrix** action.
 
 ## Viewing Statistics for Posted Service Documents
 The service statistics feature lets you gain a statistical overview of the contents of posted service documents, such as a posted shipment, posted invoice, and posted credit memo.  
 
-The statistical information is displayed in the statistics window for the corresponding posted service document. You can open the relevant statistics window from posted service shipment, posted service invoice, or posted service credit memo documents. For each of these document types, on the **Home** tab, in the **Process** group, choose **Statistics**. For example, from the **Posted Service Invoices** window, on the **Home** tab, in the **Process** group, choose **Statistics**.  
+The statistical information is displayed in the statistics window for the corresponding posted service document. You can open the relevant statistics window from posted service shipment, posted service invoice, or posted service credit memo documents. For each of these document types, in the **Home** tab, in the **Process** group, choose **Statistics**. For example, from the **Posted Service Invoices** window, on the **Home** tab, in the **Process** group, choose **Statistics**.  
 
 ### Posted Service Shipment Statistics  
 The **Service Shipment Statistics** window provides an overview of a posted service shipment. This includes information about the physical contents of the shipment, such as quantity of the shipped items, resource hours or costs, and weight and volume of the shipped items.  

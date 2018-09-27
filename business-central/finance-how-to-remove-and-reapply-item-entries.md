@@ -39,7 +39,7 @@ If you cannot use a document to reapply, such as when you have to correct a fixe
     - The application worksheet cannot make an application in the following situation: If there is not enough quantity on stock to apply, the application worksheet cannot make an application when you are trying to apply an inventory decrease entry without item tracking information to an inventory increase entry with item tracking information.
 
 ## To remove an item application by using the Application Worksheet  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Application Worksheet**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Application Worksheet**, and then choose the related link.  
 2.  The **Application Worksheet** window opens displaying existing item ledger entries for all items.  
 3.  Enter filters on the **General** FastTab to make it easier to find the item ledger entry for which you want to change the application.  
 4.  Select the item ledger entry, and then choose the **Applied Entries** action. The **View Applied Entries – Applied Entries** window opens to show the item ledger entry or entries that are currently applied to the selected entry.  
@@ -55,7 +55,7 @@ If you cannot use a document to reapply, such as when you have to correct a fixe
 >  **You cannot perform this action because entries for item <item> are unapplied in the Application Worksheet by user <user>.**  
 
 ## To reapply an item application by using the Application Worksheet  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Application Worksheet**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Application Worksheet**, and then choose the related link.  
 2.  The **Application Worksheet** window opens displaying existing item ledger entries for all items.  
 3.  To reapply entries that were removed since the worksheet was opened, select the item ledger entry that you want to reapply. On the **Actions** tab, in the **Functions** group, choose **Reapply**.  
 

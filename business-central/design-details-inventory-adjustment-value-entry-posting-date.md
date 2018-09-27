@@ -29,7 +29,7 @@ From version 5.0, the **Adjust Cost – Item Entries** batch job assigns a posti
 
  Let’s review this process more in practice. Assume we have an Item Ledger Entry of Sale. The item was shipped on September 5th, 2013 and it was invoiced the day after.  
 
-![Item Ledger Entry: Date format: YYYY MM DD](media/helene/TechArticleAdjustcost1.png "TechArticleAdjustcost1")  
+![State of item ledger entries in the scenario](media/helene/TechArticleAdjustcost1.png "State of item ledger entries in the scenario")  
 
 Below, the first Value Entry (379) represents the shipment and carry the same Posting Date as the parent Item ledger Entry.  
 
@@ -37,7 +37,7 @@ The second Value Entry (381) represents the invoice.
 
  The third Value Entry (391) is an Adjustment of the invoicing Value Entry (381)  
 
- ![Item Ledger Entry: Date format: YYYY MM DD](media/helene/TechArticleAdjustcost2.png "TechArticleAdjustcost2")  
+ ![State of value entries in the scenario](media/helene/TechArticleAdjustcost2.png "State of value entries in the scenario")  
 
  Step 1: Adjustment Value Entry to be created is assigned same Posting Date as the entry it adjusts, illustrated above by Value entry 391.  
 
@@ -49,13 +49,13 @@ The **Adjust Cost – Item Entries** batch job determines if the initial Posting
 
  Inventory Periods:  
 
-![Adjust cost &#45;Item entries data](media/helene/TechArticleAdjustcost3.png "TechArticleAdjustcost3")
+![Inventory periods in the scenario](media/helene/TechArticleAdjustcost3.png "Inventory periods in the scenario")
 
  First allowed posting date is the first day in the first open period. September 1st, 2013.  
 
  General Ledger Setup:  
 
-![Adjust cost &#45;Item entries data](media/helene/TechArticleAdjustcost4.png "TechArticleAdjustcost4")
+![G/L Setup in the scenario](media/helene/TechArticleAdjustcost4.png "G/L Setup in the scenario")
 
  First allowed posting date is the date stated in field Allow Posting From: September 10th, 2013.  
 
@@ -65,7 +65,7 @@ The **Adjust Cost – Item Entries** batch job determines if the initial Posting
 
  The initial assigned Posting Date was September 6th as illustrated in step 1. However, in the 2nd step the Adjust Cost – Item entries batch job identifies that earliest allowed Posting Date is September 10th and thereby assigns September 10th to the Adjustment Value Entry, below.  
 
- ![Adjust cost &#45;Item entries data](media/helene/TechArticleAdjustcost5.png "TechArticleAdjustcost5")
+ ![State of value entries in the scenario 2](media/helene/TechArticleAdjustcost5.png "State of value entries in the scenario 2")
 
  We have now reviewed the concept for assigning Posting Dates to Value Entries created by the Adjust Cost - Item entries batch job.  
 
@@ -78,15 +78,15 @@ The **Adjust Cost – Item Entries** batch job determines if the initial Posting
 
  In the previous section, describing the concept of assigning posting dates, the intention of the Adjust Cost – Item entries batch job is to create a Value Entry with Posting Date September 10th.  
 
-![Adjust cost &#45;Item entries data](media/helene/TechArticleAdjustcost6.png "TechArticleAdjustcost6")
+![Error message about posting date](media/helene/TechArticleAdjustcost6.png "Error message about posting date")
 
  We follow up on the User Setup:  
 
-![Adjust cost &#45;Item entries data](media/helene/TechArticleAdjustcost7.png "TechArticleAdjustcost7")
+![User's allowed posting dates setup](media/helene/TechArticleAdjustcost7.png "User's allowed posting dates setup")
 
  The user in this case has an allowed posting date range from September 11th to September 30th and is thereby not allowed to post the Adjustment Value Entry with Posting Date September 10th.  
 
-![Adjust cost &#45;Item entries data](media/helene/TechArticleAdjustcost8.png "TechArticleAdjustcost8")
+![Overview of involved posting date setup](media/helene/TechArticleAdjustcost8.png "Overview of involved posting date setup")
 
  Knowledge Base article [952996](https://mbs2.microsoft.com/Knowledgebase/kbdisplay.aspx?WTNTZSMNWUKNTMMYXUPYZQPOUXNXSPSYOQQYYMLUQLOYYMWP) discusses additional scenarios related to mentioned error message.  
 
@@ -169,9 +169,9 @@ The **Adjust Cost – Item Entries** batch job determines if the initial Posting
 
  The following Item Ledger and Value Entries have been posted:  
 
-![Adjust cost &#45;Item entries data](media/helene/TechArticleAdjustcost9.png "TechArticleAdjustcost9")
+![Overview of resulting item ledger and value entries 1](media/helene/TechArticleAdjustcost9.png "Overview of resulting item ledger and value entries 1")
 
- ![Adjust cost &#45;Item entries data](media/helene/TechArticleAdjustcost10.png "TechArticleAdjustcost10")
+ ![Overview of resulting item ledger and value entries 2](media/helene/TechArticleAdjustcost10.png "Overview of resulting item ledger and value entries 2")
 
  The Adjust Cost – Item entries batch job has recognized a change in cost and adjusted the Negative Adjustments.  
 
@@ -286,7 +286,7 @@ The **Adjust Cost – Item Entries** batch job determines if the initial Posting
 
      Post Receipt and Invoice.  
 
-     ![Adjust cost &#45;Item entries data](media/helene/TechArticleAdjustcost11.png "TechArticleAdjustcost11")
+     ![Overview of resulting item ledger and value entries 3](media/helene/TechArticleAdjustcost11.png "Overview of resulting item ledger and value entries 3")
 
 6.  On work date January 3rd a purchase invoice arrives, containing an additional item charge to the purchase made in step 2. This invoice has document date December 30th and is therefore posted with Posting Date December 30th, 2013.  
 
@@ -310,11 +310,11 @@ The **Adjust Cost – Item Entries** batch job determines if the initial Posting
 
      Post Receipt and Invoice.  
 
-   ![Adjust cost &#45;Item entries data](media/helene/TechArticleAdjustcost12.png "TechArticleAdjustcost12")
+   ![Overview of resulting item ledger and value entries 4](media/helene/TechArticleAdjustcost12.png "Overview of resulting item ledger and value entries 4")
 
  Inventory Valuation report is printed as of Date December 31st , 2013  
 
-![Adjust cost &#45;Item entries data](media/helene/TechArticleAdjustcost13.png "TechArticleAdjustcost13")
+![Content of the Inventory Valuation report](media/helene/TechArticleAdjustcost13.png "Content of the Inventory Valuation report")
 
  **Summary of scenario:**  
 
@@ -351,18 +351,12 @@ The **Adjust Cost – Item Entries** batch job determines if the initial Posting
 
  In version 3 and 4 the batch job scans all value entries to detect if there are any value entries where Cost Amount (Actual) differs from Cost Posted to G/L. If there is a difference detected the differing amount will be posted in a G/L entry. If expected cost posting is used corresponding fields are processed in the same way.  
 
-![Adjust cost &#45;Item entries data](media/helene/TechArticleAdjustcost14.png "TechArticleAdjustcost14")
+![Actual cost versus expected cost](media/helene/TechArticleAdjustcost14.png "Actual cost versus expected cost")
 
 ### From version 5.0:  
  There is no longer a posting date to be stated in the request form of the Post Inventory Cost to G/L batch job. The G/L entry is created with the same Posting Date as the related value entry. In order to complete the batch job the allowed posting date range must allow the Posting Date of the created G/L entry. If not, the allowed posting date range must be temporarily re-opened by changing or removing the dates in the Allow Posting From and To fields in the General Ledger Setup. To avoid reconciliation issues it is required that Posting Date of the G/L Entry corresponds to the Posting Date of the Value Entry.  
 
- The batch job scans Table 5811 - Post Value Entry to G/L, to identify the Value Entries in scope for posting to General Ledger. After successful run the table is emptied.  
-
- Any feedback to how this process and documentation can be further developed is very welcome.  
-
- Helene Holmin  
-
- Dynamics NAV Escalation Engineer  
+ The batch job scans Table 5811 - Post Value Entry to G/L, to identify the Value Entries in scope for posting to General Ledger. After successful run the table is emptied.
 
 ## See Also  
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  

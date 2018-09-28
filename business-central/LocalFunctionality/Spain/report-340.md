@@ -17,7 +17,7 @@
 
 ---
 # Report 340
-The **Report 340** report contains information about invoices and taxes that were issued or received by your company in a given period. The report is generated in a format that is approved by the tax authorities. This report should be submitted in the company’s monthly or quarterly liquidation period, depending on the size of the company. This file can be uploaded to the Spanish Tax Agency website or submitted on CD-ROM. For more information, see the [Spanish Tax Agency](http://www.aeat.es) website. If the number of operations exceeds 1,000,000, the report can be submitted electronically.  
+The **Report 340** report contains information about invoices and taxes that were issued or received by your company in a given period. The report is generated in a format that is approved by the tax authorities. This report should be submitted in the company’s monthly or quarterly liquidation period, depending on the size of the company. This file can be uploaded to the Spanish Tax Agency website or submitted on CD-ROM. For more information, see the [Spanish Tax Agency](https://www.aeat.es) website. If the number of operations exceeds 1,000,000, the report can be submitted electronically.  
 
 ## Reporting Requirements for Entrepreneurs and Small Companies  
 The reporting requirements for entrepreneurs and small businesses are modified to support businesses that use the cash accounting criteria (CAC).  

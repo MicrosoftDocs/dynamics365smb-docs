@@ -28,7 +28,7 @@ The costing method determines if an actual or a budgeted value is capitalized an
 
  The following image shows how costs flow through the inventory for each costing method.  
 
- ![Costing methods](media/design_details_inventory_costing_7_costing_methods.png "design_details_inventory_costing_7_costing_methods")  
+ ![Costing methods](media/design_details_inventory_costing_7_costing_methods.png "Costing methods")  
 
  Costing methods differ in the way that they value inventory decreases and if they use actual cost or standard cost as the valuation base. The following table explains the different characteristics. (The LIFO method is excluded, as it is very similar to the FIFO method.)  
 

@@ -18,7 +18,7 @@
 # Design Details: Central Concepts of the Planning System
 The planning functions are contained in a batch job that first selects the relevant items and period to plan for. Then, according to each item’s low-level code (BOM position), the batch job calls a code unit, which calculates a supply plan by balancing supply-demand sets and suggesting possible actions for the user to take. The suggested actions appear as lines in the planning worksheet or the requisition worksheet.  
 
-![Planning Worksheet](media/NAV_APP_supply_planning_1_planning_worksheet.png "NAV_APP_supply_planning_1_planning_worksheet")  
+![Contents of the Planning Worksheet window](media/NAV_APP_supply_planning_1_planning_worksheet.png "Contents of the Planning Worksheet window")  
 
 The planner of a company, such as a purchaser or a production planner is presumed to be the user of the planning system. The planning system assists the user by performing the extensive but rather straightforward calculations of a plan. The user can then concentrate on solving the more difficult problems, such as when things differ from normal.  
 
@@ -53,7 +53,7 @@ For example, if the user enters or changes a sales order, the dynamic order trac
 
 Accordingly, Dynamic Order Tracking can be considered a tool that assists the user in assessing whether to accept supply order suggestions. From the supply side, a user can see which demand has created the supply, and from the demand side, which supply should cover the demand.  
 
-![](media/NAV_APP_supply_planning_1_dynamic_order_tracking.png "NAV_APP_supply_planning_1_dynamic_order_tracking")  
+![Example of dynamic order tracking](media/NAV_APP_supply_planning_1_dynamic_order_tracking.png "Example of dynamic order tracking")  
 
 For more information, see [Design Details: Reservation, Order Tracking, and Action Messaging](design-details-reservation-order-tracking-and-action-messaging.md).  
 
@@ -66,11 +66,11 @@ The planning system deals with the entire supply-demand pattern of an item throu
 
 Dynamic Order Tracking establishes links between demand and supply when data is entered, on a first-come/first-served basis. This may lead to some disorder in priorities. For example, a sales order entered first, with a due date next month, may be linked to the supply in inventory, while the next sales order due tomorrow may cause an action message to create a new purchase order to cover it, as illustrated below.  
 
-![](media/NAV_APP_supply_planning_1_dynamic_order_tracking_graph.png "NAV_APP_supply_planning_1_dynamic_order_tracking_graph")  
+![Example of order tracking in supply planning 1](media/NAV_APP_supply_planning_1_dynamic_order_tracking_graph.png "Example of order tracking in supply planning 1")  
 
 In contrast, the planning system deals with all demand and supply for a particular item, in prioritized order according to due dates and order types, that is, on a first-needed/first-served basis. It deletes all order tracking links that were created dynamically and reestablishes them according to due date priority. When the planning system has run, it has solved all imbalances between demand and supply, as illustrated below for the same data.  
 
-![](media/NAV_APP_supply_planning_1_planning_graph.png "NAV_APP_supply_planning_1_planning_graph")  
+![Example of order tracking in supply planning 2](media/NAV_APP_supply_planning_1_planning_graph.png "Example of order tracking in supply planning 2")  
 
 After the planning run, no action messages remain in the Action Message Entry table, because they have been replaced by the suggested actions in the planning worksheet  
 
@@ -84,7 +84,7 @@ The planning system in [!INCLUDE[d365fin](includes/d365fin_md.md)] is demand-dri
 ### Item Priority / Low-Level Code  
 In a manufacturing environment, the demand for a finished, sellable item will result in derived demand for components that comprise the finished item. The bill-of-material structure controls the component structure and can cover several levels of semi-finished items. Planning an item at one level will cause derived demand for components at the next level, and so on. Eventually, this will result in derived demand for purchased items. Consequently, the planning system plans for items in order of their ranking in the total BOM hierarchy, starting with finished saleable items at the top level and continuing down through the product structure to the lower level items (according to the low-level code).  
 
-![](media/NAV_APP_supply_planning_1_BOM_planning.png "NAV_APP_supply_planning_1_BOM_planning")  
+![Planning for bills of material](media/NAV_APP_supply_planning_1_BOM_planning.png "Planning for bills of material")  
 
 The figures illustrates in which sequence the system makes suggestions for supply orders at the top level and, assuming that the user will accept these suggestions, for any lower-level items as well.  
 
@@ -97,7 +97,7 @@ This is supported with the use of SKUs, where individual planning parameters can
 
 In principle, any item can be handled at any location, but the program’s approach to the location concept is quite strict. For example, a sales order at one location cannot be fulfilled by some quantity on stock at another location. The quantity on stock must first be transferred to the location specified on the sales order.  
 
-![](media/NAV_APP_supply_planning_1_SKU_planning.png "NAV_APP_supply_planning_1_SKU_planning")  
+![Planning for stockkeeping units](media/NAV_APP_supply_planning_1_SKU_planning.png "Planning for stockkeeping units")  
 
 For more information, see [Design Details: Transfers in Planning](design-details-transfers-in-planning.md).  
 
@@ -109,7 +109,7 @@ For more information, see [Design Details: Prioritizing Orders](design-details-p
 ## Demand Forecasts and Blanket Orders  
 Forecasts and blanket orders both represent anticipated demand. The blanket order, which covers a customer’s intended purchases over a specific period of time, acts to lessen the uncertainty of the overall forecast. The blanket order is a customer-specific forecast on top of the unspecified forecast as illustrated below.  
 
-![](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "NAV_APP_supply_planning_1_forecast_and_blanket")  
+![Planning with forecasts](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Planning with forecasts")  
 
 For more information, see the “Forecast Demand is Reduced by Sales Orders” section in [Design Details: Loading the Inventory Profiles](design-details-loading-the-inventory-profiles.md).  
 
@@ -198,7 +198,7 @@ However, the planning system will still include reserved quantities in the proje
 
 The following illustration shows how reservations can hinder the most feasible plan.  
 
-![](media/NAV_APP_supply_planning_1_reservations.png "NAV_APP_supply_planning_1_reservations")  
+![Planning with reservations](media/NAV_APP_supply_planning_1_reservations.png "Planning with reservations")  
 
 For more information, see [Design Details: Reservation, Order Tracking, and Action Messaging](design-details-reservation-order-tracking-and-action-messaging.md).  
 
@@ -213,7 +213,7 @@ The warning information is shown in the **Untracked Planning Elements** window, 
 -   Exception  
 -   Attention  
 
-![](media/NAV_APP_supply_planning_1_warnings.png "NAV_APP_supply_planning_1_warnings")  
+![Warnings in the planning worksheet](media/NAV_APP_supply_planning_1_warnings.png "Warnings in the planning worksheet")  
 
 ### Emergency  
 The emergency warning is displayed in two situations:  
@@ -250,7 +250,7 @@ In the Calculate Plan request page, the user can select the **Stop and Show Firs
 
 If the field is not selected, the Calculate Plan batch job will continue until it has completed. Errors will not interrupt the batch job. If one or more errors exist, the program will display a message after completion saying how many items are affected by errors. The **Planning Error Log** window then opens to provide more details about the error and to provide links to the affected documents or setup cards.  
 
-![](media/NAV_APP_supply_planning_1_error_log.png "NAV_APP_supply_planning_1_error_log")  
+![Error messages in the planning worksheet](media/NAV_APP_supply_planning_1_error_log.png "Error messages in the planning worksheet")  
 
 ## Planning Flexibility  
 It is not always practical to plan an existing supply order, such as when production has started or extra people are hired on a specific day to do the job. To indicate whether an existing order can be changed by the planning system, all supply order lines have a Planning Flexibility field with two options: Unlimited or None. If the field is set to None, the planning system will not try to change the supply order line.  

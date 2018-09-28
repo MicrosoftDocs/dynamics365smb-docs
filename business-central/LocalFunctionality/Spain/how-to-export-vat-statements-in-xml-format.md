@@ -19,7 +19,7 @@
 # Export VAT Statements in XML Format
 You can export a VAT statement in XML format and then submit it electronically to the tax authorities.  
 
-For more information, see the [Spanish Tax Agency](http://go.microsoft.com/fwlink/?LinkID=238181) website.  
+For more information, see the [Spanish Tax Agency](https://go.microsoft.com/fwlink/?LinkID=238181) website.  
 
 ## To export a VAT statement in XML format  
 

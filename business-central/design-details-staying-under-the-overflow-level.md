@@ -20,7 +20,7 @@ When using the Maximum Qty. and Fixed Reorder Qty. policies, the planning system
 
 *Attention: The projected inventory [xx] is higher than the overflow level [xx] on the Due Date [xx].*  
 
-![Inventory overflow level](media/supplyplanning_2_overflow1_new.png "supplyplanning_2_overflow1_new")  
+![Inventory overflow level](media/supplyplanning_2_overflow1_new.png "Inventory overflow level")  
 
 ##  Calculating the Overflow Level  
 The overflow level is calculated in different ways depending on planning setup.  
@@ -96,7 +96,7 @@ In this scenario, a customer changes a sales order from 70 to 40 pieces between 
 ### Resulting Planning Lines  
  One planning line (warning) is created to reduce the purchase with 30 from 90 to 60 to keep the projected inventory on 100 according to the overflow level.  
 
-![Plan according to overflow level](media/nav_app_supply_planning_2_overflow2.png "nav_app_supply_planning_2_overflow2")  
+![Plan according to overflow level](media/nav_app_supply_planning_2_overflow2.png "Plan according to overflow level")  
 
 > [!NOTE]  
 >  Without the Overflow feature, no warning is created if the projected inventory level is above maximum inventory. This could cause a superfluous supply of 30.  

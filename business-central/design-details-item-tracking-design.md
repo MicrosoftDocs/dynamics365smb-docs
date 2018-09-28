@@ -26,7 +26,7 @@ With the addition of serial or lot numbers, the reservation system handles perma
 
 The following diagram outlines the design of item tracking functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-![Item tracking design](media/design_details_item_tracking_design.png "design_details_item_tracking_design")  
+![Example of item tracking flow](media/design_details_item_tracking_design.png "Example of item tracking flow")  
 
 The central posting object is redesigned to handle the unique subclassification of a document line in the form of serial or lot numbers, and special relation tables are added to create the one-to-many relations between posted documents and their split item ledger entries and value ledger entries.  
 

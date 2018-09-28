@@ -59,7 +59,7 @@ This topic provides information about the features that make [!INCLUDE[d365fin](
 [!INCLUDE[d365fin](includes/d365fin_md.md)] supports various assistive technologies, such as high contrast, screen readers, and voice recognition software. Some assistive technologies may not work well with certain elements in [!INCLUDE[d365fin](includes/d365fin_md.md)] pages.  
 
 ## For more accessibility information  
-You can find additional information about accessibility with Microsoft products and assistive technologies on the [Microsoft Accessibility](http://go.microsoft.com/fwlink/?LinkId=262160) site.
+You can find additional information about accessibility with Microsoft products and assistive technologies on the [Microsoft Accessibility](https://go.microsoft.com/fwlink/?LinkId=262160) site.
 
 ## See Also
 [Getting Started](product-get-started.md)  

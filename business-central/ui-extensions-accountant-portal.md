@@ -13,7 +13,7 @@ ms.date: 10/01/2018
 ms.author: edupont
 
 ---
-# Accountant Portal for Business Central
+# The Accountant Portal for Business Central Extension
 This application provides a dashboard with summary data for each client of an accountant. The portal displays financial KPIs as well as a direct link to the client’s financial application.  
 
 The dashboard is a highly specialized Role Center for a better overview of your clients.  

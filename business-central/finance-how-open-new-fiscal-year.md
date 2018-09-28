@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting year, fiscal period  
-ms.date: 07/17/2017
+ms.date: 10/01/2018
 ms.author: edupont
 
 ---

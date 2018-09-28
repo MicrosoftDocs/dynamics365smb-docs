@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
-    ms.date: 08/22/2017
+    ms.date: 10/01/2018
     ms.author: bholtorf
 
 ---

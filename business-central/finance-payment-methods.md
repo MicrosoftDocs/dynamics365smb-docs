@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, bank transfer, cash, PayPal
-ms.date: 06/15/2017
+ms.date: 10/01/2018
 ms.author: edupont
 
 ---

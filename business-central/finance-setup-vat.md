@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 05/06/2018
+ms.date: 10/01/2018
 ms.author: bholtorf
 
 ---

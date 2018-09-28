@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 09/04/2018
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -43,7 +43,7 @@ With each planned method, [!INCLUDE[d365fin](includes/d365fin_md.md)] generates 
 >  The Get Action Messages Plan function can be run between regenerative and net change planning runs to obtain an immediate view of the effect of schedule changes, but it is not intended as a replacement of full regenerative or net change planning processes.  
 
 ## To calculate the planning worksheet  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Planning Worksheets**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheets**, and then choose the related link.  
 2.  Choose the **Calculate Regenerative Plan** action to open the **Calculate Plan** window.  
 3.  On the **Options** FastTab, fill in the fields as described in the following table.  
 

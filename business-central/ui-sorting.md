@@ -8,9 +8,9 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/07/2017
+ms.date: 10/01/2018
 ms.author: solsen
-
+redirect_url: ui-enter-criteria-filters
 ---
 # Sorting
 The sorting function makes it easy for you to get a quick overview of your data. If you have many customers, for example, you can choose to sort them by **Customer No.**, **Customer Posting Group**, **Currency Code**, **Country Region Code**, or **Sales Tax Registration No.** to get the overview you need.

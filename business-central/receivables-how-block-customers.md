@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/17/2018
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -31,7 +31,7 @@ The following table describes the different blocking options.
 |**All**|No transaction is allowed for this customer, including payments.|  
 
 ## To block a customer  
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Select a customer, and then choose the **Edit** action.
 3. Fill in the **Blocked** field with one of the options described above.
 

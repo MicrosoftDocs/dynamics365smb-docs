@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: getaddress.io, postcodes, extension
-ms.date: 03/05/2018
+ms.date: 10/01/2018
 ms.author: bholtorf
 
 ---
@@ -34,6 +34,6 @@ The GetAddress.io UK Postcodes extension uses the getAddress API to find address
 
 ## See Also
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)  
-[GetAddress.io UK Postcodes](../../ui-extensions-getaddressio.md)  
+[The GetAddress.io UK Postcodes Extension](../../ui-extensions-getaddressio.md)  
 [Customizing [!INCLUDE[d365fin](../../includes/d365fin_md.md)] Using Extensions](../../ui-extensions.md)  
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  

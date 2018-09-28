@@ -11,14 +11,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 03/02/2018
+ms.date: 10/01/2018
 ms.author: solsen
 
 ---
 # Changing Basic Settings
-In the **My Settings** window, you can see and change basic settings for [!INCLUDE[d365fin](includes/d365fin_md.md)]. The changes that you make will only affect your workspace; not the workspaces of other users.  
+In the [**My Settings**](https://businesscentral.dynamics.com?page=9176 "Go directly to your user settings page in Business Central") window, you can see and change basic settings for [!INCLUDE[d365fin](includes/d365fin_md.md)]. The changes that you make will only affect your workspace; not the workspaces of other users.  
 
-## Role Center
+## <a name="role-center"></a> Role Center
 The Role Center represents the home page, a starting screen that is designed for the needs of a specific role in an organization. Depending on your role, the Role Center gives you an overview of the business, your department, or your personal tasks. It also helps you navigate to your daily tasks and find work that is assigned to you.
 
 -   At the top, the navigation allows you to switch between customers, vendors, items, and other important lists of information. Similarly, actions allow you to initiate tasks, such as create a new sales invoice, directly from the Role Center.
@@ -31,7 +31,7 @@ The default Role Center is **Business Manager**, but you can select another Role
 2. In the **My Settings** window, in the **Role Center** field, select the Role Center that you want to set as the standard. For example, select **Accountant**.
 3. Choose the **OK** button.
 
-## Company
+## <a name="company"></a>Company
 A company functions as a container for data in [!INCLUDE[d365fin](includes/d365fin_md.md)]. There can be multiple companies in a database, but only one can be selected at a time.
 
 The default company is called CRONUS and contains demonstration data only.
@@ -39,7 +39,7 @@ The default company is called CRONUS and contains demonstration data only.
 > [!TIP]  
 >   If you want to display a different name for your company in the application (such as on the Role Center), set the **Name** field in the **Company Information** window or the **Display Name** field in the **Companies** window.  
 
-## Work Date
+## <a name="work-date"></a>Work Date
 The default work date is usually today's date. You may have to temporarily change the work date to be able to perform tasks, such as completing transactions for a date that is not the current date.
 
 > [!TIP]  
@@ -48,12 +48,12 @@ The default work date is usually today's date. You may have to temporarily chang
 > [!IMPORTANT]  
 >   The work date is only changed until you close the company or until the date changes. If you open a different company or open the same company the next day and still have to use a different work date, then you must set the work date again.
 
-## Region
+## <a name="region"></a> Region
 The **Region** setting determines how dates, times, numbers, and currencies are shown or formatted.   
 
 
-## Language
-Changes the display language. This field appears only when there is more than one language to choose from.
+## <a name="language"></a> Language
+Changes the display language. This field appears only when there is more than one language to choose from. 
 
 The initial language is either determined by the administrator or by your browser settings when you sign up for [!INCLUDE[d365fin](includes/d365fin_md.md)]. The language that you set will be used on all devices that you sign in from, such as a phone or tablet.
 

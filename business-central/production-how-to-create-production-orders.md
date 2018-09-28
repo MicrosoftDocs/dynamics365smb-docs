@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 09/07/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -23,7 +23,7 @@ Production orders are typically created automatically by a planning function to 
 In the following procedure, a firm planned production order is created. You can also create production orders with a different status.  
 
 ## To create a production order header  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Firm Planned Prod. Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Orders**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  In the **No.** field, insert the next number in the series.  
 4.  In the **Source Type** field, select the source of the production order.

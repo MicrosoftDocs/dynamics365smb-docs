@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/12/2018
+ms.date: 10/01/2018
 ms.author: edupont
 
 ---
@@ -56,7 +56,7 @@ You may also get starting from within Dynamics 365 Business Edition. From the ro
 
 ## What Now?
 
-- Try [asking a question in the Q&A box](https://docs.microsoft.com/en-us/power-bi/service-q-and-a) at the top of the dashboard.
+- Try [asking a question in the Q&A box](https://docs.microsoft.com/en-us/power-bi/service-q-and-a-tips) at the top of the dashboard.
 - [Change the tiles](https://docs.microsoft.com/en-us/power-bi/service-dashboard-edit-tile) in the dashboard.  
 - [Select a tile](https://docs.microsoft.com/en-us/power-bi/service-dashboard-tiles) to open the underlying report.  
 - While your dataset will be scheduled to refreshed daily, you can change the refresh schedule or try refreshing it on demand using **Refresh Now**.
@@ -166,4 +166,3 @@ If you enter a non-valid company name during the connection process, you may get
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] in Microsoft Flow](across-how-use-financials-data-source-flow.md)   
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 

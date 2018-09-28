@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 11/22/2017
+ms.date: 10/01/2018
 ms.author: edupont
 
 ---
@@ -27,7 +27,7 @@ So you will have to log into [!INCLUDE[d365fin](includes/d365fin_md.md)] and ren
 
 ### To rename your company
 1.	Sign in to your [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-2.	Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Companies**, and then choose the related link.  
+2.	Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Companies**, and then choose the related link.  
 3.	In the **Companies** window, choose the **Edit List** button.  
 4.  Change the name of the *My Company* entry to something else.  
 

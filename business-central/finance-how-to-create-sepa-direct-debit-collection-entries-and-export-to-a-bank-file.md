@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: direct-debit, collection, payment, sepa
-    ms.date: 08/21/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -20,7 +20,7 @@ To instruct the bank to transfer the payment amount from the customer’s bank a
 >  To collect payments using SEPA Direct Debit, the currency on the sales invoice must be EURO.  
 
 ### To create a direct-debit collection  
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Direct Debit Collections**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Direct Debit Collections**, and then choose the related link.  
 2. In the **Direct Debit Collections** window, on the **Home** tab, in the **New** group, choose **Create Direct Debit Collection**.  
 3. In the **Create Direct Debit Collection** window, fill in the fields as described in the following table.  
 

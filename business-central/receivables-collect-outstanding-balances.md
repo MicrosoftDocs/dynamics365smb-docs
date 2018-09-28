@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 07/05/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 
 ---
@@ -45,7 +45,7 @@ After you have created finance charge memos and made any needed modifications, y
 When you set up finance charge terms and reminder terms, for delayed payment penalty, you can specify multiple interest rates so that the penalty fee is calculated from different interest rates in different periods. If multiple interest rates are not set up, then the interest rate and period that is defined in the **Finance Charge Terms** and **Reminder Terms** windows for the whole period of calculation will be used. For more information, see [Set Up Multiple Interest Rates](finance-how-to-set-up-multiple-interest-rates.md).  
 
 ## To send the Customer Statement report
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customer Statement**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer Statement**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Under **Output Options**, select how to send the report to the customer.
 
@@ -55,7 +55,7 @@ When you set up finance charge terms and reminder terms, for delayed payment pen
 ## To set up reminder terms
 If customers have overdue payments, you must decide when and how to send them a reminder. In addition, you may want to debit their accounts for interest or fees. You can set up any number of reminder terms. For each reminder terms code, you can define an unlimited number of reminder levels.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Reminder Terms**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminder Terms**, and then choose the related link.  
 2. Fill in the fields as necessary.  
 3. To use more than one combination of reminder terms, set up a code for each one.
 
@@ -64,7 +64,7 @@ The first time a reminder is created for a customer, the setting from level 1 is
 
 If you create more reminders than you have defined levels for, the conditions for the highest level will be used. You can create as many reminders as are allowed by the **Max. No of Reminders** field in the reminder terms.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Reminder Terms**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminder Terms**, and then choose the related link.  
 2. In the **Reminder Terms** window, select the line with the terms you want to set up levels for, and then choose **Levels** action.  
 3. Fill in the fields as necessary.  
 
@@ -105,7 +105,7 @@ After you have set up the reminder terms, with additional levels and text, enter
 ## To create a reminder automatically
 A reminder is similar to an invoice. When you create a reminder, a reminder header as well as one or more reminder lines must be filled in. You can use a function to create reminders for all customers automatically.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Reminders**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminders**, and then choose the related link.
 2. In the **Reminder** window, choose the **Create Reminders** action.
 3. In the **Create Reminders** window, fill in the fields to define how and to whom the reminders are created.
 4. Choose the **OK** button.
@@ -113,7 +113,7 @@ A reminder is similar to an invoice. When you create a reminder, a reminder head
 ## To create a reminder manually
 In the **Reminder** window, you can fill in the **General** FastTab manually and then have the lines filled in automatically.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Reminders**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminders**, and then choose the related link.
 2. Choose the **New** action.
 3. On the **General** FastTab, fill in the fields as necessary.
 4. Choose the **Suggest Reminder Lines** action.
@@ -128,7 +128,7 @@ In the **Reminder** window, you can fill in the **General** FastTab manually and
 ## To replace reminder texts  
 There are several ways you can determine the text that appears on the printed reminder. In some cases, you may want to replace the beginning and ending texts that have been defined for the current level with those from a different level.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Reminders**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminders**, and then choose the related link.
 2. Open the relevant reminder, and then choose the **Update Reminder Text** action.
 3. In the **Update Reminder Text** window, enter the required level in the **Reminder Level** field.
 3. Choose the **OK** button to update the beginning and ending texts.
@@ -150,7 +150,7 @@ If the **Post Interest** or the **Post Additional Fee** check boxes are selected
 
 In addition, issuing the reminder may result in VAT entries.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Reminders**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminders**, and then choose the related link.
 2. Select the relevant reminder, and then choose the **Issue** action.
 3. In the **Issue Reminders** window, fill in the fields as necessary.
 4. Choose the **OK** button
@@ -174,7 +174,7 @@ Finance charges can be calculated using either the average daily balance method 
 
 In addition, each code in the Finance Charge Terms table is linked to a subtable, the Finance Charge Text table. For each set of finance charge terms, you can define a beginning and/or an ending text to be included on the finance charge memo.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Finance Charge Terms**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Finance Charge Terms**, and then choose the related link.  
 2. Fill in the fields as necessary.  
 3. To use more than one combination of finance charge terms, set up a code for each one.
 
@@ -204,7 +204,7 @@ In addition, each code in the Finance Charge Terms table is linked to a subtable
 ## To create a finance charge memo manually  
 A finance charge memo is similar to an invoice. You can fill in a header manually and have the lines filled in for you, or you can create finance charge memos for all customers automatically.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Finance Charge Memos**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Finance Charge Memos**, and then choose the related link.  
 2. Choose the **New** action, and then fill in the fields as necessary.  
 3. Choose **Suggest Fin. Charge Memo Lines** action.
 4. In the **Suggest Finance Charge Memo Lines** window, set a filter on the **Cust. Ledger Entry** FastTab if you want to create finance charge memos only for specific entries.  
@@ -213,7 +213,7 @@ A finance charge memo is similar to an invoice. You can fill in a header manuall
 ## To update finance charge memo texts  
 In some cases, you may want to modify the beginning and ending text that you have set up for the finance charge terms. If you do this at a time when you have created, but not yet issued, finance charge memos, you can update the memos with the modified text.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Finance Charge Memo**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Finance Charge Memo**, and then choose the related link.  
 2. open the finance charge memo that you want to change text for, and then choose the **Update Finance Charge Text** action.
 3. In the **Update Finance Charge Text** window, you can set a filter if you want to update several memos.
 4. Choose the **OK** button to update the beginning and ending texts.  
@@ -233,7 +233,7 @@ If the **Post Interest** or the **Post Additional Fee** check boxes are selected
 
 In addition, issuing the finance charge memo may result in VAT entries.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Finance Charge Memos**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Finance Charge Memos**, and then choose the related link.
 2. Select the relevant memo, and then choose the **Issue** action.
 3. In the **Issue Finance Charge Memos** window, fill in the fields as necessary.
 4. Choose the **OK** button
@@ -242,7 +242,7 @@ The finance charge memo is either printed for sent to an specified email as a PD
 
 ## To view reminder and finance charge entries  
 When you issue a reminder, a reminder entry is created in the **Reminder/Fin. Charge Entries** window for each reminder line that contains a customer ledger entry. You can then get an overview of the created reminder entries for a specific customer.    
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
 2. Open the relevant customer card, and then choose the **Ledger Entries** action.
 3. In the **Customer Ledger Entries** window, select the line with the ledger entry you want to see the reminder entries for, and then choose the **Reminder/Fin. Charge Entries** action.
 

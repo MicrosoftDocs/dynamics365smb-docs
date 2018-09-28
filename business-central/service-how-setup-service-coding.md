@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: service, service item, service order, repairs, maintenance
-    ms.date: 08/22/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -23,12 +23,12 @@ When you perform typical service, you often have to create service documents tha
 >  You can use the same concept to create lines on sales and purchase documents. For more information, see [Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md).    
   
 ## To set up a standard service code    
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Standard Service Codes**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Standard Service Codes**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Fill in the service lines linked to this service code.  
 
 ## To assign a standard service code to a service item group
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service item Groups**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service item Groups**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Fill in the service lines linked to this service code.  
 

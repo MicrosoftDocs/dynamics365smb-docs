@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 11/17/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -37,7 +37,7 @@ The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] supports rece
 
 ### To receive and convert an electronic invoice to a purchase invoice  
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Incoming Documents**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Documents**, and then choose the related link.  
 
 2.  Select the line for the incoming document record that represents a new incoming electronic invoice, and then, on the **Home** tab, in the **Manage** group, choose **Edit**.  
 

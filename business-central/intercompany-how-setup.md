@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 06/07/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 
 ---
@@ -23,16 +23,16 @@ If you create or receive intercompany lines with items, you can either use your 
 If you will make intercompany sales transactions that include resources, you must fill in the **IC Partner Purch. G/L Acc. No.** field on the resource card for each relevant resource. This is the number of the intercompany general ledger account that the amount for this resource will be posted to in your partner's company. For more information, see  
 
 ## To set up companies for intercompany transactions
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.  
 2. In the **Company Information** window, fill in the **Intercompany Partner Code**, **Intercompany Inbox Type**. and **Intercompany Inbox Details** fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To set intercompany partners
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intercompany Partners**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Partners**, and then choose the related link.
 2. Choose the **New** action.
 3. In the **Intercompany Partner** window, fill in the fields as necessary.
 
 ## To set up intercompany vendors and intercompany customers
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
 2. Alternatively, access the vendor from the **Vendor No.** field in the **Intercompany Partner** window.
 3. Open the card for a vendor that is an intercompany partner. For more information, see [Register New Vendors](purchasing-how-register-new-vendors.md).
 4. In the **Intercompany Partner Code** field, select the relevant intercompany partner code.
@@ -46,19 +46,19 @@ If your company is the parent company and has the defining intercompany chart of
 If your company is a subsidiary company and you receive an XML file containing the common intercompany chart of accounts, follow the ""To Import the intercompany chart of accounts"" procedure.  
 
 ### To set up the defining intercompany chart of accounts
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intercompany Chart of Accounts**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Chart of Accounts**, and then choose the related link.
 2. In the **Intercompany Chart of Accounts** window, enter each account on a line in the window.  
 3. If your intercompany chart of accounts will be identical or similar to your regular chart of accounts, you can fill in the window automatically by choosing the **Copy from Chart of Accounts** action. You can edit the new lines as needed.
 
 ### To export an intercompany chart of accounts
 To allow your intercompany partners to import the defining chart of accounts, you must export it to a file.      
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intercompany Chart of Accounts**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Chart of Accounts**, and then choose the related link.
 2. In the **Intercompany Chart of Accounts** window, choose the **Export** action, and then choose the **Save** button.
 3. Specify the file name and the location where you want to save the XML file, and then choose the **Save** button.  
 
 ### To import the intercompany chart of accounts  
 When a file exists for the defining intercompany chart of accounts, intercompany partners can import it to make sure they have the same accounts.  
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intercompany Chart of Accounts**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Chart of Accounts**, and then choose the related link.  
 2. In the **Intercompany Chart of Accounts** window, choose the **Import** action.  
 3. Select the file name and location of the XML file, and then choose the **Open** button.  
 
@@ -69,7 +69,7 @@ When you have defined or imported the intercompany chart of accounts that you an
 
 If the accounts in the intercompany chart of accounts have the same numbers as the corresponding accounts in the chart of accounts, you can map the accounts automatically.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intercompany Chart of Accounts**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Chart of Accounts**, and then choose the related link.  
 2. Select the lines that you want to map automatically, and then choose the **Map to Acc. with Same No** action.  
 3. For each intercompany general ledger account that was not mapped automatically, fill in the **Map-to G/L Acc. No.** field.  
 
@@ -78,7 +78,7 @@ When you create an intercompany sales or purchase line to send as an outgoing tr
 
 Then, when you enter a general ledger account in the **Bal. Account No.** field on an intercompany line with **Intercompany Partner** in the **Account Type** field, the **IC Partner G/L Account** field is automatically filled in.  
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Chart of Accounts**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
 2. On the line for a G/L account that is used for intercompany transactions, in the **Default IC Partner G/L Account** field, enter the intercompany general ledger account that your partner will post to when you post to the general ledger account on the line.  
 3. Repeat step 3 for each account that you often enter in the **Bal. Account No.** field on a line in an intercompany journal or document.
 
@@ -90,7 +90,7 @@ If your company is the parent company and has the defining set of intercompany d
 If your company is a subsidiary company and you receive an XML file containing the intercompany dimensions that your group will use as a common reference, follow the "To import intercompany dimensions" procedure.
 
 ### To define the intercompany dimensions
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intercompany Dimensions**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Dimensions**, and then choose the related link.  
 2. In the **Intercompany Dimensions** window, enter each dimension on a line in the window.
 
     If your intercompany dimensions will be similar or identical to your company dimensions, you can fill in the window automatically by using the **Copy from Dimensions** function, and then you can edit the resulting lines.  
@@ -99,7 +99,7 @@ If your company is a subsidiary company and you receive an XML file containing t
 
 ### To import the intercompany dimensions  
 When a file exists for the defining intercompany dimensions, intercompany partners can import it to make sure they have the same dimensions.  
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intercompany Dimensions**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Dimensions**, and then choose the related link.  
 2. In the **Intercompany Dimensions** window, choose the **Import** action.  
 3. Specify the file name and location of the XML file, and then choose the **Open** button.  
 
@@ -110,14 +110,14 @@ When you have defined or imported the dimensions that you and your intercompany 
 
 If any of the intercompany dimensions have the same code as the corresponding dimensions in your company's list of dimensions, then you can have the program automatically map the dimensions, then you can map the accounts automatically.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intercompany Dimensions**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Dimensions**, and then choose the related link.
 2. In the **Intercompany Dimensions** window, select the lines that you want to automatically map, and then choose the **Map to Dim. with Same Code** action.
 3. For each intercompany dimension that is not mapped automatically, fill in the **Map-to Dimension Code** field.
 4. Choose the **Intercompany Dimension Values** action.
 5. In the **Intercompany Dimension Values** window, fill in the **Map-to Dimension Value Code** field.
 
     Proceed to map dimensions to intercompany dimensions by performing similar steps.
-6. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Dimensions**, and then choose the related link.
+6. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Dimensions**, and then choose the related link.
 7. In the **Dimensions** window, select the lines that you want to automatically map, and then choose the **Map to IC Dim. with Same Code** action.
 8. For each intercompany dimension that is not mapped automatically, fill in the **Map-to IC Dimension Value Code** field.
 9. Choose the **Dimension Values** action.

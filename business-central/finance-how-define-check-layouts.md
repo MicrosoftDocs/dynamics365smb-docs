@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 06/15/2017
+ms.date: 10/01/2018
 ms.author: edupont
 
 ---
@@ -21,7 +21,7 @@ You can design your checks to conform with the standards set by the local author
 Checks are designed to print in both the United States and Canadian check image formats in either a check-stub-check format or a stub-stub-check format.
 
 ## To define check layouts
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Report Selections Bank Account**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Selections Bank Account**, and then choose the related link.
 2. In the **Report Selection - Bank Acc.** window, in the **Usage** field, select **Check**.
 3. Select one of the following report IDs.
 

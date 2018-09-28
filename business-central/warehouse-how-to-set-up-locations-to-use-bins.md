@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 09/23/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -24,7 +24,7 @@ To use the bin functionality at a location, you first activate the functionality
 >  Before you can specify bin codes on the location card, the bin codes must be created. For more information, see [Create Bins](warehouse-how-to-create-individual-bins.md).  
 
 ## To set up a location to use bins  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
 2.  Select the location where you want to use bins.  
 3.  Choose the **Edit** action.  
 4.  On the **Warehouse** FastTab, select the **Bin Mandatory** check box.  

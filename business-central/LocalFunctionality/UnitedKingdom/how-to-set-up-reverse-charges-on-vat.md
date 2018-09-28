@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 07/17/2017
+ms.date: 10/01/2018
 ms.author: edupont
 
 ---
@@ -17,7 +17,7 @@ ms.author: edupont
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use reverse charge VAT accounting for a specific range of items to prevent Missing Trader Intercommunity Fund Fraud (MTIC), also known as carousel fraud. This feature is supplemented by the **Reverse Charge Sales List** report. The VAT accounting changes will affect companies trading in electronic goods and integrated circuit devices, such as mobile telephones, microprocessors, and central processing units. These goods will apply to reverse charges.
 
 > [!IMPORTANT]  
->  Legislative information may be subject to change by HM Revenue & Customs (HMRC). For more information, see the [HMRC website](http://www.hmrc.gov.uk/index.htm).  
+>  Legislative information may be subject to change by HM Revenue & Customs (HMRC). For more information, see the [HMRC website](https://www.hmrc.gov.uk/index.htm).  
 
 ## To reverse charges on VAT  
 

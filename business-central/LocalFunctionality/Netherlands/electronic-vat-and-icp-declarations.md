@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/25/2018
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -27,7 +27,7 @@ For a transaction to qualify for ICP, it is required that the merchandise have c
 
 You can submit the VAT declarations and ICP declarations in the following ways:  
 
-- Log on to the website of the Dutch tax office and enter the information manually. For more information, see the [website](http://go.microsoft.com/fwlink/?LinkID=223151) of the Dutch tax office.  
+- Log on to the website of the Dutch tax office and enter the information manually. For more information, see the [website](https://go.microsoft.com/fwlink/?LinkID=223151) of the Dutch tax office.  
 
 - Create an electronic declaration and submit the encrypted file through file through the Digipoort channel to the Dutch tax office. Digipoort is the electronic post office provided by the Dutch government for companies. It provides the common infrastructure for the communication of information between companies and the government, including VAT declarations. The reports are in the eXtensible Business Reporting Language (XBRL) format. For more information, see [Create Reports with XBRL](../../bi-create-reports-with-xbrl.md).
 
@@ -36,7 +36,7 @@ Before you can send electronic declarations to the tax authorities you must perf
 
 1. Ensure that you have obtained the certificates from the government. If you have not, take the following steps to obtain the certificates:
 
-    - Obtain a PKIoverheid certificate for the company if you do not have one already. A list of certificate providers can be found here: [http://www.logius.nl/producten/toegang/pkioverheid/aansluiten/toegetreden-csps](http://www.logius.nl/producten/toegang/pkioverheid/aansluiten/toegetreden-csps).  
+    - Obtain a PKIoverheid certificate for the company if you do not have one already. A list of certificate providers can be found here: [https://www.logius.nl/producten/toegang/pkioverheid/aansluiten/toegetreden-csps](https://www.logius.nl/producten/toegang/pkioverheid/aansluiten/toegetreden-csps).  
 
     - Register a user of Digipoort, which can be done here: [https://aansluiten.procesinfrastructuur.nl/site/registratie/nieuw](https://aansluiten.procesinfrastructuur.nl/site/registratie/nieuw).
 

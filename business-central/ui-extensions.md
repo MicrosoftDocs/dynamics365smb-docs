@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 07/09/2018
+ms.date: 10/01/2018
 ms.author: edupont
 
 ---
@@ -21,7 +21,7 @@ When you first launch [!INCLUDE[d365fin](includes/d365fin_md.md)], some extensio
 For example, Microsoft provides an extension that provides integration with PayPal Payments Standard. This extension is installed by default.
 But if another extension is made available that offers integration with another payment service, you can install the new extension and then choose which of the two services to use.  
 
-You manage the extensions in the **Extension Management** window. You can access this window from Home. Alternatively, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") in the top right corner, enter **Extension**, and then choose the related link.  
+You manage the extensions in the **Extension Management** window. You can access this window from Home. Alternatively, choose the **Search for Page or Report** icon ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") in the top right corner, enter **Extension**, and then choose the related link.  
 
 > [!NOTE]  
 >   If you think you should have access to an extension but you cannot find its functionality, check the **Extension Management** window - if the extension is not listed there, you can install it as described in the following section.  
@@ -60,6 +60,7 @@ Microsoft provides the following extensions:
 * [Payments and Reconciliations (DK)](ui-extensions-payments-reconciliation-formats-dk.md)  
 * [C5 Data Migration](ui-extensions-c5-data-migration.md)  
 * [Essential Business Insights](ui-extensions-essential-business-insights.md)  
+* [Late Payment Predictions](ui-extensions-late-payment-prediction.md  )
 
 > [!NOTE]  
 >  New extensions are not available in AppSource immediately after we announce an update. You can keep an eye out for the extensions at [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).

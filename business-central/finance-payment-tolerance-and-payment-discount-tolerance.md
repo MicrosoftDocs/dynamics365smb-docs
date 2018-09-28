@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/10/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -40,13 +40,13 @@ For more information, see the "To enable or disable payment tolerance warning" s
 Tolerance on days and amounts allows you to close an invoice even though the payment does not fully cover the amount on the invoice, whether this is because the due date for the payment discount has been exceeded, goods have been deducted or because of a minor error. This also applies to refunds and credit memos.  
 
 To set up tolerance you have to set up various tolerance accounts, specify both payment discount tolerance and payment tolerance posting methods and then run the **Change Payment Tolerance** batch job.  
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Posting Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Posting Setup**, and then choose the related link.  
 2. In the **General Posting Setup** window, set up a debit and a credit sales payment tolerance account and a debit and a credit purchase payment tolerance account.  
-3. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customer Posting Groups**, and then choose the related link.    
+3. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer Posting Groups**, and then choose the related link.    
 4. In the **Customer Posting Groups** window, set up a debit and a credit payment tolerance account. For more information, see [Setting Up Posting Groups](finance-posting-groups.md).  
-5. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendor Posting Setup**, and then choose the related link.  
+5. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendor Posting Setup**, and then choose the related link.  
 6. In the **Vendor Posting Groups** window, set up a debit and a credit payment tolerance account.  
-7. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Setup**, and then choose the related link.  
+7. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
 8. Open the **General Ledger Setup** window.  
 9. On the **Application** FastTab, fill in the **Pmt. Disc. Tolerance Posting**, **Payment Discount Grace Period** and **Payment Tolerance Posting** fields.   
 10. Choose the **Change Payment Tolerance** action.
@@ -64,7 +64,7 @@ To set up tolerance you have to set up various tolerance accounts, specify both 
 
 ## To enable or disable payment tolerance warnings
 The payment tolerance warning appears when you post an application that has a balance in the allowed tolerance. You can then choose how you want to post and document the balance.    
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
 2. In the **General Ledger Setup** window, on the **Application** FastTab, select the **Payment Tolerance Warning** check box to activate the warning. To deactivate the warning, clear the check box.  
 
 > [!NOTE]  
@@ -73,7 +73,7 @@ The payment tolerance warning appears when you post an application that has a ba
 ## To block payment tolerance for customers  
 The default setting for payment tolerance is allowed. To disallow a certain customer or vendor payment tolerance you need to block tolerance on the respective customer or vendor card. The following describes how to do it for a customer. The steps are similar for a vendor.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customer** or **Vendor**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer** or **Vendor**, and then choose the related link.  
 2. On the **Payments** FastTab, select the **Block Payment Tolerance** check box.  
 
 > [!NOTE]  
@@ -120,7 +120,7 @@ Remaining Amount per
 
 Normal Application Rules  
 
-![Single payment tolerance rules &#40;before 03&#47;15&#41;](media/singlePmtTolRules(Pre1503).gif "singlePmtTolRules(Pre1503)")  
+![Single payment tolerance rules 1](media/singlePmtTolRules(Pre1503).gif "Single payment tolerance rules 1")  
 
 (1) If payment falls in these ranges, all application entries can be closed with or without tolerance.  
 
@@ -131,7 +131,7 @@ Remaining Amount per
 
 Normal Application Rules  
 
-![Single payment tolerance rules &#40;grace period&#41;](media/singlePmtTolRules(GracePeriod).gif "singlePmtTolRules(GracePeriod)")  
+![Single payment tolerance rules 2](media/singlePmtTolRules(GracePeriod).gif "Single payment tolerance rules 2")  
 
 (1) If payment falls in these ranges, all application entries can be closed with or without tolerance.  
 
@@ -142,7 +142,7 @@ Remaining Amount per
 
 Normal Application Rules  
 
-![Single payment tolerance rules &#40;before 01&#47;20&#41;](media/singlePmtTolRules(Post0120).gif "singlePmtTolRules(Post0120)")  
+![Single payment tolerance rules 3](media/singlePmtTolRules(Post0120).gif "Single payment tolerance rules 3")  
 
 (1) If payment falls in these ranges, all application entries can be closed with or without tolerance.  
 
@@ -203,7 +203,7 @@ Remaining Amount per
 
 Normal Application Rules  
 
-![Multiple payment tolerance rules &#40;before 03&#47;15&#41;](media/multiplePmtTolRules(Pre1503).gif "multiplePmtTolRules(Pre1503)")  
+![Multiple payment tolerance rules 1](media/multiplePmtTolRules(Pre1503).gif "Multiple payment tolerance rules 1")  
 
 (1) If payment falls in these ranges, all application entries can be closed with or without tolerance.  
 
@@ -214,7 +214,7 @@ Remaining Amount per
 
 Normal Application Rules  
 
-![Multiple payment tolerance rules &#40;grace period&#41;](media/multiplePmtTolRules(GracePeriodInv1).gif "multiplePmtTolRules(GracePeriodInv1)")  
+![Multiple payment tolerance rules 2](media/multiplePmtTolRules(GracePeriodInv1).gif "Multiple payment tolerance rules 2")  
 
 (1) If payment falls in these ranges, all application entries can be closed with or without tolerance.  
 
@@ -225,7 +225,7 @@ Remaining Amount per
 
 Normal Application Rules  
 
-![Multiple payment tolerance rules &#40;grace period&#41;](media/multiplePmtTolRules(GracePeriodInv1-2).gif "multiplePmtTolRules(GracePeriodInv1-2)")  
+![Multiple payment tolerance rules 3](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Multiple payment tolerance rules 3")  
 
 (1) If payment falls in these ranges, all application entries can be closed with or without tolerance.  
 
@@ -236,7 +236,7 @@ Remaining Amount per
 
 Normal Application Rules  
 
-![Multiple payment tolerance rules &#40;grace period&#41;](media/multiplePmtTolRules(GracePeriodInv2).gif "multiplePmtTolRules(GracePeriodInv2)")  
+![Multiple payment tolerance rules 4](media/multiplePmtTolRules(GracePeriodInv2).gif "Multiple payment tolerance rules 4")  
 
 (1) If payment falls in these ranges, all application entries can be closed with or without tolerance.  
 
@@ -247,7 +247,7 @@ Remaining Amount per
 
 Normal Application Rules  
 
-![Multiple payment tolerance rules &#40;after 01&#47;22&#41;](media/multiplePmtTolRules(Post0122).gif "multiplePmtTolRules(Post0122)")  
+![Multiple payment tolerance rules 5](media/multiplePmtTolRules(Post0122).gif "Multiple payment tolerance rules 5")  
 
 (1) If payment falls in these ranges, all application entries can be closed with or without tolerance.  
 

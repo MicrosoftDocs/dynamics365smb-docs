@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 
 ---
@@ -30,7 +30,7 @@ The following table describes a number of reports that may be useful in this pro
 | Print an account schedule to analyze figures in general ledger accounts or compare actual general ledger entries with general ledger budget entries. |Account Schedule |
 | Check whether customer and vendor ledger entries balance with corresponding general ledger entries. |Reconcile Cust. and Vend. Accs |
 
-To see a report, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, type the name as it appears in the table, and then choose the related link.
+To see a report, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, type the name as it appears in the table, and then choose the related link.
 
 ## See Also
 [Closing Years and Periods](year-close-years-periods.md)  

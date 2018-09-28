@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 09/14/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 
 ---

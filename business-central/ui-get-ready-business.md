@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
-ms.date: 02/19/2018
+ms.date: 10/01/2018
 ms.author: solsen
 ---
 # Getting Ready for Doing Business

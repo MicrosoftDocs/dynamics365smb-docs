@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 08/27/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 
 ---

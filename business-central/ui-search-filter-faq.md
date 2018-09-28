@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
-ms.date: 08/26/2018
+ms.date: 10/01/2018
 ms.author: mikebc
 ---
 

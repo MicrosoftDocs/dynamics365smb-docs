@@ -44,7 +44,7 @@ At Microsoft, we're constantly listening to feedback from our diverse community 
 
 ## Can I do anything about the "Searching for rows is taking too long" message?
 
-There is a time-limit on how a long a search operation can take. First, try changing the search or filter criteria and try again. If you are using [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, contact your system administrator, because an administrator can increase the time-limit for searches.
+There is a time-limit on how a long a search operation can take. First, try changing the search and try again. If you are using [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, contact your system administrator, because an administrator can increase the time-limit for searches.
 
 As an on-premises administrator, you increase the time-limit on searches by changing the **Search Timeout** setting of [!INCLUDE[prodshort](includes/prodshort.md)] server. For more information, see [Configuring Business Central Server](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance?#Database) in the Business Central Developer and IT Pro Help.
 

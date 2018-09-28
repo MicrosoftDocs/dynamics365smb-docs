@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -24,28 +24,20 @@ The reorder point expresses the anticipated demand during the lead time of the i
 
  In the following illustration, supply D represents an emergency order to adjust for negative inventory.  
 
- ![](media/nav_app_supply_planning_2_negative_inventory.png "NAV_APP_supply_planning_2_negative_inventory")  
+ ![Emergency planning suggestion to avoid negative inventory](media/nav_app_supply_planning_2_negative_inventory.png "Emergency planning suggestion to avoid negative inventory")  
 
 1.  Supply **A**, initial projected inventory, is below reorder point.  
-
 2.  A new forward-scheduled supply is created (**C**).  
 
      (Quantity = Maximum Inventory – Projected Inventory Level)  
-
 3.  Supply **A** is closed by demand **B**, which is not fully covered.  
 
      (Demand **B** could try to schedule Supply C in but that will not happen according to the time-bucket concept.)  
-
 4.  New supply (**D**) is created to cover the remaining quantity on Demand **B**.  
-
 5.  Demand **B** is closed (creating a reminder to the projected inventory).  
-
 6.  The new supply **D** is closed.  
-
 7.  Projected Inventory is checked; reorder point has not been crossed.  
-
 8.  Supply **C** is closed (no more demand exists).  
-
 9. Final check: No outstanding inventory level reminders exist.  
 
 > [!NOTE]  

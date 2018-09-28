@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 09/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -51,7 +51,7 @@ To complete this walkthrough, you will need:
 -   CRONUS International Ltd. installed.  
 -   To make yourself a warehouse employee at WHITE location by following these steps:  
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Warehouse Employees**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
 2.  Choose the **User ID** field, and select your own user account in the **Users** window.  
 3.  In the **Location Code** field, enter WHITE.  
 4.  Select the **Default** field.  
@@ -64,7 +64,7 @@ The setup of the **Location Card** window defines the company’s warehouse flow
 
 ### To review the location setup  
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
 2.  Open the WHITE location card.  
 3.  Note on the **Warehouse** FastTab that the **Directed Put-away and Pick** check box is selected.  
 
@@ -79,7 +79,7 @@ Purchase orders are the most common type of inbound source document.
 
 ### To create the purchase orders  
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  Create a purchase order for vendor 10000 on the work date (January 23) with the following purchase order lines.  
 
@@ -110,7 +110,7 @@ Purchase orders are the most common type of inbound source document.
 In the **Warehouse Receipt** window, you can manage multiple inbound orders for source documents, such as a purchase order.  
 
 ### To receive the items  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Warehouse Receipts**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Receipts**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  In the **Location Code** field, enter WHITE.  
 4.  Choose the **Use Filters to Get Src. Docs.** action.  
@@ -128,7 +128,7 @@ In the **Warehouse Receipt** window, you can manage multiple inbound orders for 
 In the **Warehouse Put-away** window, you can manage put-aways for a specific warehouse receipt document covering multiple source documents. Like all warehouse activity documents, each item on the warehouse put-away is represented by a Take line and a Place line. In the following procedure, the bin code on the Take lines is the default receiving bin at WHITE location, W-08-0001.  
 
 ### To put the items away  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Put-Aways**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Put-Aways**, and then choose the related link.  
 2.  Select the only warehouse put-away document in the list, and then on the **Home** tab, in the **Manage** group, choose **Edit**.  
 
     The warehouse put-away document opens with a total of eight Take or Place lines for the four purchase order lines.

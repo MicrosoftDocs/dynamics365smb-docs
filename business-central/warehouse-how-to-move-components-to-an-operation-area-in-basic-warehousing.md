@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/16/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -45,7 +45,7 @@ Alternatively, a warehouse worker can create it by pointing to the released asse
 This procedure shows how to create an inventory movement from the **Inventory Movement** window by referencing a released assembly order as a source document. The procedure is the same when you move components for production orders and service orders.  
 
 ## To move components to an operation area in basic warehouse configurations  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Inventory Movement**, and choose the relevant link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Movement**, and choose the relevant link.  
 2.  On the **General** FastTab, fill in the **No.** field. You can press the Enter key  to select from the number series.  
 3.  In the **Location Code** field, enter the location where the movement occurs.  
 4.  Choose the **Get Source Documents** action. Alternatively, fill in the **Source Document** field, and then choose the **AssistEdit** button in the **Source No.** field.  

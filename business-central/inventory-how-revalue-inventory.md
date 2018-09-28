@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: costing, inventory cost, value entries
-ms.date: 08/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 
 ---
@@ -19,7 +19,7 @@ ms.author: sgroespe
 If you want to appreciate or depreciate an item or a specific item ledger entry, you must use the revaluation journal.
 
 ## To revalue inventory
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Revaluation Journal**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Revaluation Journal**, and then choose the related link.
 2. Choose the **Calculate Inventory Value** action.
 3. In the **Calculate Inventory Value** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Choose the **OK** button.

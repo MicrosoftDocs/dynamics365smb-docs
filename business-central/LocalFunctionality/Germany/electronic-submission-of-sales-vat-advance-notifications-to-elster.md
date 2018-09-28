@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -24,12 +24,12 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can electronically sub
 
 You must first set up [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to be able to submit sales VAT advance notifications to the ELSTER online portal. For more information, see [Set Up Sales VAT Advance Notifications for ELSTER](how-to-set-up-sales-vat-advance-notifications-for-elster.md). You can later create and transmit the sales VAT advance notification. For more information, see [Create and Submit Sales VAT Advance Notifications](how-to-create-and-submit-sales-vat-advance-notifications.md).
 
-The tax authorities' server processes the submitted XML document, and sends an XML document in response. This response document displays codes and descriptions for errors that occurred during the processing of the submitted XML document. The XML documents are encrypted during transmission. For more information, see the [ELSTER online portal](http://go.microsoft.com/fwlink/?LinkId=155998).  
+The tax authorities' server processes the submitted XML document, and sends an XML document in response. This response document displays codes and descriptions for errors that occurred during the processing of the submitted XML document. The XML documents are encrypted during transmission. For more information, see the [ELSTER online portal](https://go.microsoft.com/fwlink/?LinkId=155998).  
 
 ## Architectural Overview  
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] includes an interface to the ELSTER portal, the Microsoft.Dynamics.ElsterTransferHandler.dll assembly. The assembly manages the communication with the ELSTER portal and installs when you install the [!INCLUDE[d365fin](../../includes/d365fin_md.md)] Windows client. For more information, see [ELSTER Transmission Overview](elster-transmission-overview.md).
 
-The ELSTER portal has requirements for computers that will submit documents. This includes a software certificate that you must acquire for each user who will submit documents to ELSTER. You must verify your installation against the information that is available on [ELSTER online portal](http://go.microsoft.com/fwlink/?LinkId=155998). The following section describes installation considerations for your [!INCLUDE[d365fin](../../includes/d365fin_md.md)] implementation.  
+The ELSTER portal has requirements for computers that will submit documents. This includes a software certificate that you must acquire for each user who will submit documents to ELSTER. You must verify your installation against the information that is available on [ELSTER online portal](https://go.microsoft.com/fwlink/?LinkId=155998). The following section describes installation considerations for your [!INCLUDE[d365fin](../../includes/d365fin_md.md)] implementation.  
 
 ### Installation Considerations  
 The Microsoft.Dynamics.ElsterTransferHandler.dll assembly installs as part of the installation of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
@@ -62,7 +62,7 @@ The personal .pfx certificate is required to clearly identify the user who submi
 
 You must also download all relevant style sheets that the tax authorities make available. This includes the ustva.xsl style sheet that you must specify in the **Sales VAT Adv. Notif. Card** window, but the tax authorities may require additional style sheets that must be located in the same folder as the ustva.xsl style sheet.  
 
-For more information, see the [ELSTER online portal](http://go.microsoft.com/fwlink/?LinkId=155998)  
+For more information, see the [ELSTER online portal](https://go.microsoft.com/fwlink/?LinkId=155998)  
 
 ## Transmissions  
 In the **Sales VAT Adv. Notification List** window, you can create and submit sales VAT advance notifications. When you create a document, you can preview it before submitting it to the ELSTER portal. The documents that are created are based on the XML stylesheets that are published at the ELSTER portal, and on the certificate and other information that you have set up in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
@@ -72,4 +72,4 @@ After you have submitted a document to ELSTER, an entry is made in the **VAT Tra
 ## See Also  
  [Set Up Sales VAT Advance Notifications for ELSTER](how-to-set-up-sales-vat-advance-notifications-for-elster.md)   
  [Create and Submit Sales VAT Advance Notifications](how-to-create-and-submit-sales-vat-advance-notifications.md)   
- [ELSTER online portal](http://go.microsoft.com/fwlink/?LinkId=155998)
+ [ELSTER online portal](https://go.microsoft.com/fwlink/?LinkId=155998)

@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -25,7 +25,7 @@ As you work on a service order, you will want to update it's status so that you 
 ## To set up default service hours  
 You use the **Default Service Hours** window to set up the usual service working hours in your company. These service hours are used to calculate the response date and time for service orders and quotes and to send response time warnings. The default service hours are used for service contracts unless you specify special service hours for a contract.  
   
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Default Service Hours**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Default Service Hours**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
   
 > [!IMPORTANT]  
@@ -34,7 +34,7 @@ You use the **Default Service Hours** window to set up the usual service working
 ## To set up work-hour templates
 You can use the **Work-Hour Template** window to set up templates that contain the typical working hours in your company. For example, you can create templates for full time technicians and part time technicians. You can use work-hour templates when you add capacity to resources.  
   
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Work Hour Templates**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Work Hour Templates**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
   
 > [!Note]
@@ -45,7 +45,7 @@ You can use the **Service Hours** window to set up specific service hours for th
   
 If you do not set up specific service hours for the service contract, the default service hours for service contracts are used.  
   
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Contracts**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Contracts**, and then choose the related link.  
 2. Open the service contract you want to set up specific service hours for, and choose **Service Hours**.  
 4. To set up service hours based on default service hours, choose the **Copy Default Service Hours** action.  
 5. Edit the fields in the service hours entries. Insert or delete entries to set up the service hours for the contract. Note that the fields **Day**, **Starting Time** and **Ending Time** are required for each line.  

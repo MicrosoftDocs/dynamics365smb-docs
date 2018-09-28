@@ -11,12 +11,12 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 04/09/208
+ms.date: 10/01/2018
 ms.author: bholtorf
 
 ---
 
-# The C5 Data Migration Extension for Business Central
+# The C5 Data Migration Extension
 This extension makes it easy to migrate customers, vendors, items, and your general ledger accounts from Microsoft Dynamcis C5 2012 to [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can also migrate historical entries for general ledger accounts.
 
 > [!Note]
@@ -26,6 +26,7 @@ This extension makes it easy to migrate customers, vendors, items, and your gene
 The following data is migrated for each entity:
 
 **Customers**
+* Contacts  
 * Location
 * Country
 * Customer dimensions (department, center, purpose)
@@ -43,6 +44,7 @@ If you migrate accounts, the following data is also migrated:
 * Open transactions (customer ledger entries)
 
 **Vendors**
+* Contacts
 * Location
 * Country
 * Vendor dimensions (department, center, purpose)
@@ -71,6 +73,7 @@ If you migrate accounts, the following data is also migrated:
 * Units of measure
 * Item tracking code
 * Customer price group
+* Assembly BOMs
 
 If you migrate accounts, the following data is also migrated:
 
@@ -93,32 +96,34 @@ If you migrate accounts, the following data is also migrated:
 There are just a few steps to export data from C5, and import it in [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
 1. In C5, use the **Export Database** feature to export the data. Then send the export folder to a compressed (zipped) folder.  
-2. In [!INCLUDE[d365fin](includes/d365fin_md.md)], choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Data Migration**, and then choose **Data Migration**.  
+2. In [!INCLUDE[d365fin](includes/d365fin_md.md)], choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Migration**, and then choose **Data Migration**.  
 3. Complete the steps in the assisted setup guide. Make sure to choose **Import from Microsoft Dynamcis C5 2012** as the data source.  
 
 > [!Note]
 > Companies often add fields to customize C5 for their specific line of business. [!INCLUDE[d365fin](includes/d365fin_md.md)] does not migrate data from custom fields. Also, migration will fail if you have more than 10 custom fields.
 
 ## Viewing the Status of the Migration
-Use the **Data Migration Overview** page to monitor the success of the migration. The page shows information such as the number of entities that the migration will include, the status of the migration, and the number of items that have been migrated and whether they were successfull. It also shows the number of errors, lets you investigate what went wrong and, when possible, makes it easy to go to the entity to fix the issues. For more information, see the next section in this topic.  
+Use the **Data Migration Overview** window to monitor the success of the migration. The page shows information such as the number of entities that the migration will include, the status of the migration, and the number of items that have been migrated and whether they were successfull. It also shows the number of errors, lets you investigate what went wrong and, when possible, makes it easy to go to the entity to fix the issues. For more information, see the next section in this topic.  
 
 > [!Note]
 > While you are waiting for the results of the migration, you must refresh the page to display the results.
 
 ## How to Avoid Double-Posting
 To help avoid double-posting to the general ledger, the following balance accounts are used for open transactions:  
-  
+
 * For vendors, we use the A/P account from the vendor posting group.  
 * For customers, we use the A/R account from the customer posting group.  
 * For items, we create a general posting setup where the adjustment account is the account specified as the inventory account on the inventory posting setup.  
 
 ## Correcting Errors
-If something goes wrong and an error occurs, the **Status** field will show **Completed with Errors**, and the **Error Count** field will show how many. To view a list of the errors, you can open the **Data Migration Errors** page by choosing:  
+If something goes wrong and an error occurs, the **Status** field will show **Completed with Errors**, and the **Error Count** field will show how many. To view a list of the errors, you can open the **Data Migration Errors** window by choosing:  
 
 * The number in the **Error Count** field for the entity.  
 * The entity, and then the **Show Errors** action.  
 
-On the **Data Migration Errors** page, to fix an error you can choose an error message, then choose **Edit Record** to open a page that shows the migrated data for the entity. After you fix one or more errors, you can choose **Migrate** to migrate only the entities you fixed, without having to completely restart the migration.  
+In the **Data Migration Errors** window, to fix an error you can choose an error message, and then choose **Edit Record** to view the migrated data for the entity. If you have several errors to fix, you can choose **Bulk-Fix Errors** to edit the entities in a list. You still need to open individual records if the error was caused by a related entry though. For example, a vendor will not be migrated if an email address one of their contacts has an invalid format.
+
+After you fix one or more errors, you can choose **Migrate** to migrate only the entities you fixed, without having to completely restart the migration.  
 
 > [!Tip]
 > If you have fixed more than one error, you can use the **Select More** feature to select multiple lines to migrate. Alternatively, if there are errors that are not important to fix, you can choose them and then choose **Skip Selections**.
@@ -141,4 +146,4 @@ You can stop migrating data by choosing **Stop All Migrations**. If you do, all 
 
 ## See Also
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
-[Getting Started](product-get-started.md) 
+[Getting Started](product-get-started.md)

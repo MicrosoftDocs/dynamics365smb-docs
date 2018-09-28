@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/24/2018
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -33,18 +33,8 @@ When electronic declarations are set up, you can begin to declare VAT and ICP to
     You cannot combine tax information for ICP declarations. ICP declarations must always be submitted individually.<br /><br />
     For each subsidiary company an electronic ICP declaration can be created and submitted to the tax authorities. These electronic ICP declarations must contain the VAT registration number of the subsidiary company and the value of the **Fiscal Entity No.** field in the **Company Information** window of the holding company.
 
-5. In the **Digipoort Delivery URL** field, specify the URL for the production version of the Digipoort Aanlever service. For more information, see [http://www.logius.nl/producten/gegevensuitwisseling/digipoort](http://www.logius.nl/producten/gegevensuitwisseling/digipoort).  
+5. In the **Digipoort Delivery URL** field, specify the URL for the production version of the Digipoort Aanlever service. For more information, see [https://www.logius.nl/producten/gegevensuitwisseling/digipoort](https://www.logius.nl/producten/gegevensuitwisseling/digipoort).  
 6. In the **Digipoort Status URL** field, specify the URL for the status information that is coming from the Digipoort Statusinformatie service. For more information, see [Electronic VAT and ICP Declarations](electronic-vat-and-icp-declarations.md).
-
-Currently, there are two sets of URLs that are provided by the Dutch Tax Administration. These are subject to change, however, and you should check the administration’s website regularly for updates.  
-
-### Production Use
-- Digipoort Delivery URL: https://www.procesinfrastructuur.nl/wus/2.0/aanleverservice/1.2
-- Digipoort Status URL: https://www.procesinfrastructuur.nl/wus/2.0/statusinformatieservice/1.2  
-
-### Testing Use
-- Digipoort Delivery URL: https://preprod.procesinfrastructuur.nl/wus/2.0/aanleverservice/1.2
-- Digipoort Status URL: https://preprod.procesinfrastructuur.nl/wus/2.0/statusinformatieservice/1.2  
 
 ## See Also  
  [Submitting Electronic VAT and ICP Declarations](electronic-vat-and-icp-declarations.md)  

@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 
 ---
@@ -21,7 +21,7 @@ You can assign an alternate address where your contacts are sometimes sent mail 
 ## To assign an alternate address
 1. Open the contact.
 2. Choose the **Alternative Address** action, and then choose **Card**. The **Contact Alt. Address List** window opens.
-3. Enter a new alternate address and fill in the fields on the **Contact Alternative Address** window.
+3. Enter a new alternate address and fill in the fields in the **Contact Alternative Address** window.
 
 Repeat these steps to assign as many alternate addresses as you want. For each alternate address you may want to specify one or several date ranges.
 

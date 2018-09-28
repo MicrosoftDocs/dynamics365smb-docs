@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 
 ---
@@ -28,7 +28,7 @@ The following procedures describe how to prepare to allocate costs in a recurrin
 
 ## To set up allocation keys
 You can allocate an entry in a recurring general journal to several different accounts when you post the journal. The allocation can be made by quantity, percentage, or amount.
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Recurring General Journal**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Recurring General Journal**, and then choose the related link.
 2. Choose the **Batch Name** field to open the **General Journal Batches** window.
 3. You can either modify allocations on an existing batch in the list or create a new batch with allocations.
    * To create a new batch, choose the **New** action, and go to the next step.
@@ -43,7 +43,7 @@ You can allocate an entry in a recurring general journal to several different ac
 11. Post the journal.
 
 ## To change an allocation key that has already been set up
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Recurring General Journal**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Recurring General Journal**, and then choose the related link.
 2. In the **Recurring General Journal** window, select the journal with the allocation.
 3. Choose the line with the allocation, and then choose **Allocations** action.
 4. Change the relevant fields, and then choose the **OK** button.

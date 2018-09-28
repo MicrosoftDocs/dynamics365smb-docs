@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 09/06/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -19,7 +19,7 @@
 In the **Work Center Card** and **Machine Center Card** windows, you can view the shop floor load as a result of planned and released production orders.    
 
 ## To view the load on work centers  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Work Centers**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Work Centers**, and then choose the related link.  
 2.  Open the relevant **Work Center** card from the list, and then choose the **Load** action.  
 
 Use the **View by** and **View as** fields on the **Options** FastTab to select the required period.  

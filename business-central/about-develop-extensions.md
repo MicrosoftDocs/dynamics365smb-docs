@@ -1,7 +1,6 @@
 ---
 title: Customize Dynamics 365 Business Central | Microsoft Docs
 description: Build, showcase, and promote your apps and extensions for Business Central.
-services: project-madeira
 documentationcenter: ''
 author: edupont04
 
@@ -11,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 04/12/2018
+ms.date: 10/01/2018
 ms.author: edupont
 
 ---
@@ -34,7 +33,7 @@ Bring your [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] services to Mic
 **Individual Apps** – where you bring your industry expertise to market.  
 **Packaged Consulting Services** – where you bring ready-made packaged engagements to market.
 
-The new development tools enable to you to build extensions for [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] users. If you want to familiarize yourself with the new tools or learn about extensions 2.0, have a look at [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
+The new development tools enable to you to build extensions for [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] users. If you want to familiarize yourself with the new tools or learn about extensions 2.0, have a look at [aka.ms/GetStartedWithApps](https://aka.ms/GetStartedWithApps).  
 
 Find information on apps and consulting services that are currently available on [Microsoft AppSource](https://appsource.microsoft.com/en-us/marketplace/consulting-services?country=US&page=1).
 
@@ -67,9 +66,9 @@ To learn more about the Microsoft AppSource consulting services offerings, selec
 ## The Ready to Go Program
 The Ready to Go program is designed to support you in bringing your Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] offers into Microsoft Appsource. The program holds: 
 
-- [Online learning](http://aka.ms/ReadyToGoOnlineLearning)
-- [Training and workshops](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go#the-ready-to-go-coaching)
-- [Microsoft Collaborate platform](http://aka.ms/Collaborate)
+- [Online learning](https://aka.ms/ReadyToGoOnlineLearning)
+- [Training and workshops](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go)
+- [Microsoft Collaborate platform](https://aka.ms/Collaborate)
 
 Learn more on how you can build a [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] offering in the [Ready to Go program](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go) details. If you have questions or feedback about the **Ready to Go** program offering, you can [contact us](mailto:dyn365bep@microsoft.com). 
 

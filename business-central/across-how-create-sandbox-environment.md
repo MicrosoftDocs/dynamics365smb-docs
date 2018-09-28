@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 08/18/2017
+ms.date: 10/01/2018
 ms.author: solsen
 
 ---
@@ -22,7 +22,7 @@ A sandbox environment (Preview) is a non-production instance of [!INCLUDE[d365fi
 You must have a subscription to [!INCLUDE[d365fin](includes/d365fin_md.md)] to be able to create a sandbox environment. There can only be one sandbox environment per subscription.
 
 1. Sign in to your production instance of the [!INCLUDE[d365fin](includes/d365fin_md.md)] service.
-2. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sandbox Environment**, and then choose the related link.
+2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sandbox Environment**, and then choose the related link.
 ![Sandbox Environment Setup](./media/across-sandbox/sandbox-environment-setup.png)
 3. Select **Create**.  
   Another tab in your browser will open for finishing the setup of your sandbox environment.
@@ -36,7 +36,7 @@ You must have a subscription to [!INCLUDE[d365fin](includes/d365fin_md.md)] to b
 6. At the top of the Role Center, a notification appears to inform you that this is a sandbox environment. You can also see the type of the environment in the title bar of the client.
 ![Sandbox RoleCenter Notification](./media/across-sandbox/sandbox-rolecenter-notification.png)  
 In the sandbox environment, a brand-new tenant has been created. This tenant is loaded with default demonstration data for the CRONUS company. No data is copied or otherwise transferred from the production environment during the sandbox creation.
-7.	At any time, you can return to the **Sandbox Environment** page, and reset the sandbox environment.
+7.	At any time, you can return to the **Sandbox Environment** window, and reset the sandbox environment.
 > [!NOTE]  
 >  Resetting the sandbox environment will remove it completely, and then create it again with the default demonstration data.  
 
@@ -54,7 +54,7 @@ In a sandbox environment, you will find the in-client designer feature enabled, 
 ![In-client Designer](./media/across-sandbox/sandbox-inclient-designer.png)
 
 ### Enable the advanced user experience
-It is possible to enable and try the advanced (full) functionality of [!INCLUDE[d365fin](includes/d365fin_md.md)] in a sandbox tenant by setting the **Experience** field on the **Company Information** page.
+It is possible to enable and try the advanced (full) functionality of [!INCLUDE[d365fin](includes/d365fin_md.md)] in a sandbox tenant by setting the **Experience** field in the **Company Information** window.
 
 ![Sandbox Environment Advanced](./media/across-sandbox/sandbox-advanced.png)
 

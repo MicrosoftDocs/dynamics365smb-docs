@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct shipment
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 
 ---
@@ -45,14 +45,15 @@ You can now instruct the vendor to ship the items to your customer, for example,
 ## To post a drop shipment
 After the vendor ships the items, you can post the sales order as shipped. You can also post the purchase order, but only with the **Receive** option until the sales order has been invoiced.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales orders**, and then choose the related link.
-2. Open the sales order that you created in the "To create a sales order for a drop shipment" section.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
+2. Open the sales order that you created in the "To create a sales order for drop shipment" section.
 3. In the **Qty. to Ship** field, specify how many of the order quantity to ship, the full or a partial order quantity.
 4. Choose the **Post** or **Post and Send** action.
 5. Choose either the **Ship** option to invoice later, or the **Ship and Invoice** option to invoice immediately.
 
 ## See Also
-[Create Special Orders](sales-how-to-create-special-orders.md)|  
+[Create Special Orders](sales-how-to-create-special-orders.md)  
+[Purchase Items for a Sale](purchasing-how-purchase-products-sale.md)  
 [Sell Products](sales-how-sell-products.md)  
 [Record Purchases](purchasing-how-record-purchases.md)  
 [Sales](sales-manage-sales.md)  

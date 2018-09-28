@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -23,7 +23,7 @@ Notifications are sent to workflow users to notify them about steps they must ma
  The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] contains three notification templates, one for notifying about approval requests, one for notifying about new records, and one for notifying about overdue approval requests. The three predefined notification templates support **Email** and **Note** as notification method. To view the content of the three notification templates, see the “Content of the Notification Templates” section in this topic.
 
 ## To create a new notification template  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Notification Templates**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Notification Templates**, and then choose the related link.  
 2.  In the **Notification Templates** window, choose the **New** action.  
 3.  Fill the fields as described in the following table.  
 
@@ -36,7 +36,7 @@ Notifications are sent to workflow users to notify them about steps they must ma
     |**Default**|Specify if the notification template will be used by default.|  
 
 ## To modify a notification template  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Notification Templates**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Notification Templates**, and then choose the related link.  
 2.  In the **Notification Templates** window, select the notification template that you want to modify.  
 3.  Choose the **Export Template Content** action.  
 4.  In the **Export File** window, choose the **Save** button, and then name and save the HTML file in an appropriate location.  

@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 09/06/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -25,7 +25,7 @@ Order tracking shows how sales orders, production orders, and purchase orders ar
 
 The following describes how to track linked items on a firm planned production order. The steps are similar for all other order types, and from planning worksheet lines.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Firm Planned Prod. Order**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Order**, and then choose the related link.
 2. Open the relevant firm planned production order from the list.
 3. On the **Lines** FastTab, choose the **Functions** action, and then choose the **Order Tracking** action.
 

@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 
 ---
@@ -43,7 +43,7 @@ If you want to examine the forecast, in addition to forecast entries, you can al
 ## To view a cash flow worksheet
 1. Search for **Cash Flow Forecasts**, and then choose the related link.  
 2. Choose a cash flow forecast, and then choose the **Cash Flow Worksheet** action.  
-3. On the **Cash Flow Worksheet** page, choose the **Suggest Worksheet Lines** action.  
+3. In the **Cash Flow Worksheet** window, choose the **Suggest Worksheet Lines** action.  
 
 ## See Also
 [Setting Up Finance](finance-setup-finance.md)  

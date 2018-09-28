@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 03/06/2018
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -28,7 +28,7 @@ Make sure that you are on the RapidStart Services Implementer Role Center. For m
 >  You can import a configuration package that has been exported from a database that has a different schema than that target database. However, any tables or fields in the configuration package that are missing in the target database will not be imported. Tables with different primary keys and fields with different data types will also not successfully import. For example, if the configuration pack includes table **50000, Customer** that has primary key **Code20** and the database to which you import the pack includes table **50000, Customer Bank Account** that has the primary key **Code20 + Code 20**, then data will not be imported.  
 
 ## To create a configuration package  
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Packages**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Packages**, and then choose the related link.  
 2. Choose the **New** action.  
 3. On the **General** FastTab, fill in the fields as appropriate. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. To exclude the configuration questionnaires, configuration templates, and configuration worksheet tables from the package, select the **Exclude Configuration Tables** check box. Otherwise, these tables will be added to the list of package tables automatically when you export the package.  
@@ -75,7 +75,7 @@ You can save the file with a name that is meaningful to you, but you cannot chan
 ### To copy a configuration package  
 After you have created a package that meets most of your needs, you can use it as a basis for creating similar packages. This can speed up implementation time and enhances the repeatability of RapidStart Services.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Packages**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Packages**, and then choose the related link.  
 2. Select a package from the list, and then choose the **Copy Package** action.  
 3. In the **New Package Code** field, enter a code for the new package.  
 4. Select the **Copy Data** check box if you also want to copy database data from the existing package.  
@@ -84,7 +84,7 @@ After you have created a package that meets most of your needs, you can use it a
 ## To customize a configuration package
 Use the configuration worksheet to gather and categorize the information that you want to use to configure a new company, and arrange tables in a logical way. Formatting in the worksheet is based on a simple hierarchy: Areas contain groups, which in turn contain tables. Areas and groups are optional, but are necessary to enable an overview of the configuration process on the RapidStart Services Role Center.
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Worksheet**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.  
 2.  In the **Line Type** field, choose **Area**. In the **Name** field, enter a descriptive name.  
 3.  In the **Line Type** field, choose **Group**. In the **Name** field, enter a descriptive name.  
 4.  In the **Line Type** field, choose **Table**. In the **Table ID** field, select the table you want to include in the worksheet.  
@@ -101,7 +101,7 @@ After you have defined the tables that you want to treat as part of your configu
 > [!NOTE]  
 >  You can also create a package directly, and add tables to it. For more information, see the "To create a configuration package" section.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Worksheet**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.
 2. In the configuration worksheet, select a line or group of lines that you want to assign to a configuration package, and then choose the **Assign Package** action.  
 3.  Select a package from the list, or choose the **New** action to create a new package, and then choose the **OK** button.  
 
@@ -111,7 +111,7 @@ After you have defined the tables that you want to treat as part of your configu
 ## To review or customize existing database data
 As you create a configuration package for a solution, you can view and customize the available database data to suit your customer needs. The database table must have an associated page.  
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Worksheet**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.
 2. In the configuration worksheet, identify the tables whose data that you want to view or customize.  
 
     > [!NOTE]  
@@ -124,7 +124,7 @@ As you create a configuration package for a solution, you can view and customize
 After you have vetted and tested all your setup information, you can proceed to copy data to your production environment. You create a new company in the same database.
 
 1. Open and initialize the new company.  
-2. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Worksheet**, and then choose the related link.  
+2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.  
 3. Choose the **Copy Data from the Company** action.  
 4. In the **Copy Company Data** window, choose the **Copy From** field. The **Companies** window opens.  
 5. Select the company from which you want to copy data, and then choose the **OK** button. A list of tables selected on the configuration worksheet opens. Only tables that contain records are included in this list.

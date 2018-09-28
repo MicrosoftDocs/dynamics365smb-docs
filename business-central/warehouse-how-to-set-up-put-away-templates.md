@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/23/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -21,7 +21,7 @@ With directed put-away and pick functionality, the most appropriate bin for your
 You can set up a number of put-away templates and select one of them to govern put-aways in general in your warehouse. You can also select a put-away template for any item or stockkeeping unit that might have special put-away requirements.  
 
 ## To set up put-away templates  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Put-away Templates**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Put-away Templates**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  Enter a code that is the unique identifier of the template you are about to create.  
 4.  Enter a short description, if you wish.  

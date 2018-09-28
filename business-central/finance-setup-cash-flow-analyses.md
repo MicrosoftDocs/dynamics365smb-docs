@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 
 ---
@@ -26,7 +26,7 @@ If you want some help to decide what to do with your cash, have a look at the ch
 This topic describes where the data in the charts comes from and, if necessary, what to do to start using the charts.  
 
 ## The Cash Cycle and Income & Expense charts
-The **Cash Cycle** and **Income & Expense** charts are ready to go, based on the Chart of Accounts and account schedules. The accounts are where the data comes from, and account schedules calculate the relationship between sales and receivables. Some accounts and account schedules are provided. You can use them as-is, change them, and add new ones. If you add G/L accounts to your chart of accounts, for example, by importing them from QuickBooks, you'll need to map to the accounts on the **Account Schedules** page for the following account schedule names:  
+The **Cash Cycle** and **Income & Expense** charts are ready to go, based on the Chart of Accounts and account schedules. The accounts are where the data comes from, and account schedules calculate the relationship between sales and receivables. Some accounts and account schedules are provided. You can use them as-is, change them, and add new ones. If you add G/L accounts to your chart of accounts, for example, by importing them from QuickBooks, you'll need to map to the accounts in the **Account Schedules** window for the following account schedule names:  
 
 | Account Schedule Name | Where it's used |
 | --- | --- |
@@ -63,14 +63,14 @@ To use the assisted setup guide:
 
 1. In the Accountant Role Center, under the **Cash Flow Forecast** chart, choose the **Open Assisted Setup** action.  
 2. Fill in the fields in each step of the guide.  
-3. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Flow Forecast**, and then choose the related link.
+3. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Flow Forecast**, and then choose the related link.
 4. In the **Cash Flow Forecast** window, choose the **Recalculate Forecast** action.  
 
 To use a manual process:  
 
 1. In the Accountant Role Center, search for **Cash Flow Setup**, and then choose the related link.  
 2. Expand the **Cortana Intelligence** FastTab, and then choose the **Cortana Intelligence Enabled** check box.  
-3. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Flow Forecast**, and then choose the related link.
+3. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Flow Forecast**, and then choose the related link.
 4. In the **Cash Flow Forecast** window, choose the **Recalculate Forecast** action.  
 
 > [!TIP]  
@@ -84,7 +84,7 @@ You can also create your own predictive web service based on a public model name
 3. Use your Microsoft account to sign up for a workspace, and then copy the model.  
 4. Run the model, and publish it as a web service.  
 5. Make a note of the API URL and API key. You will use these credentials for a cash flow setup.  
-6. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Flow Setup**, and then choose the related link.  
+6. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Flow Setup**, and then choose the related link.  
 7. Expand the **Cortana Intelligence** FastTab, and then fill in the fields.  
 
 ## See Also

@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: getaddress.io, postcodes, extension
-ms.date: 03/05/2018
+ms.date: 10/01/2018
 ms.author: bholtorf
 
 ---

@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/10/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -120,7 +120,7 @@ Remaining Amount per
 
 Normal Application Rules  
 
-![Single payment tolerance rules &#40;before 03&#47;15&#41;](media/singlePmtTolRules(Pre1503).gif "singlePmtTolRules(Pre1503)")  
+![Single payment tolerance rules 1](media/singlePmtTolRules(Pre1503).gif "Single payment tolerance rules 1")  
 
 (1) If payment falls in these ranges, all application entries can be closed with or without tolerance.  
 
@@ -131,7 +131,7 @@ Remaining Amount per
 
 Normal Application Rules  
 
-![Single payment tolerance rules &#40;grace period&#41;](media/singlePmtTolRules(GracePeriod).gif "singlePmtTolRules(GracePeriod)")  
+![Single payment tolerance rules 2](media/singlePmtTolRules(GracePeriod).gif "Single payment tolerance rules 2")  
 
 (1) If payment falls in these ranges, all application entries can be closed with or without tolerance.  
 
@@ -142,7 +142,7 @@ Remaining Amount per
 
 Normal Application Rules  
 
-![Single payment tolerance rules &#40;before 01&#47;20&#41;](media/singlePmtTolRules(Post0120).gif "singlePmtTolRules(Post0120)")  
+![Single payment tolerance rules 3](media/singlePmtTolRules(Post0120).gif "Single payment tolerance rules 3")  
 
 (1) If payment falls in these ranges, all application entries can be closed with or without tolerance.  
 
@@ -203,7 +203,7 @@ Remaining Amount per
 
 Normal Application Rules  
 
-![Multiple payment tolerance rules &#40;before 03&#47;15&#41;](media/multiplePmtTolRules(Pre1503).gif "multiplePmtTolRules(Pre1503)")  
+![Multiple payment tolerance rules 1](media/multiplePmtTolRules(Pre1503).gif "Multiple payment tolerance rules 1")  
 
 (1) If payment falls in these ranges, all application entries can be closed with or without tolerance.  
 
@@ -214,7 +214,7 @@ Remaining Amount per
 
 Normal Application Rules  
 
-![Multiple payment tolerance rules &#40;grace period&#41;](media/multiplePmtTolRules(GracePeriodInv1).gif "multiplePmtTolRules(GracePeriodInv1)")  
+![Multiple payment tolerance rules 2](media/multiplePmtTolRules(GracePeriodInv1).gif "Multiple payment tolerance rules 2")  
 
 (1) If payment falls in these ranges, all application entries can be closed with or without tolerance.  
 
@@ -225,7 +225,7 @@ Remaining Amount per
 
 Normal Application Rules  
 
-![Multiple payment tolerance rules &#40;grace period&#41;](media/multiplePmtTolRules(GracePeriodInv1-2).gif "multiplePmtTolRules(GracePeriodInv1-2)")  
+![Multiple payment tolerance rules 3](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Multiple payment tolerance rules 3")  
 
 (1) If payment falls in these ranges, all application entries can be closed with or without tolerance.  
 
@@ -236,7 +236,7 @@ Remaining Amount per
 
 Normal Application Rules  
 
-![Multiple payment tolerance rules &#40;grace period&#41;](media/multiplePmtTolRules(GracePeriodInv2).gif "multiplePmtTolRules(GracePeriodInv2)")  
+![Multiple payment tolerance rules 4](media/multiplePmtTolRules(GracePeriodInv2).gif "Multiple payment tolerance rules 4")  
 
 (1) If payment falls in these ranges, all application entries can be closed with or without tolerance.  
 
@@ -247,7 +247,7 @@ Remaining Amount per
 
 Normal Application Rules  
 
-![Multiple payment tolerance rules &#40;after 01&#47;22&#41;](media/multiplePmtTolRules(Post0122).gif "multiplePmtTolRules(Post0122)")  
+![Multiple payment tolerance rules 5](media/multiplePmtTolRules(Post0122).gif "Multiple payment tolerance rules 5")  
 
 (1) If payment falls in these ranges, all application entries can be closed with or without tolerance.  
 

@@ -10,11 +10,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 09/19/2018
+ms.date: 10/01/2018
 ms.author: edupont
 
 ---
-# The Dynamics GP Data Migration Extension for Business Central 
+# The Dynamics GP Data Migration Extension 
 This extension makes it easy to migrate customers, vendors, inventory items, general ledger accounts, open payables and open receivables transactions from Dynamics GP to [!INCLUDE[prodshort](includes/prodshort.md)]. If your business uses Dynamics GP today, you can export the relevant records and then open an assisted setup guide to add the data to [!INCLUDE[prodshort](includes/prodshort.md)]. For more information, see [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md).
 
 ## Exporting Data from Dynamics GP
@@ -27,7 +27,7 @@ You must have exported some or all of your existing customers, vendors, inventor
 
 When the export file is created you will have a zip file that contains several txt files that will be determined by what you selected during the export data process.  There will also be additional txt files that are generated that contain supporting information needed for setup within your new [!INCLUDE[prodshort](includes/prodshort.md)] company.
 
-The Dynamics GP Data Migration extension automatically maps the exported data so that your data is quickly available to you in your new [!INCLUDE[prodshort](includes/prodshort.md)] company. 
+The Dynamics GP Data Migration extension automatically maps the exported data so that your data is quickly available to you in your new [!INCLUDE[prodshort](includes/prodshort.md)] company.
 
 ## What's New in the October 2018 Release
 

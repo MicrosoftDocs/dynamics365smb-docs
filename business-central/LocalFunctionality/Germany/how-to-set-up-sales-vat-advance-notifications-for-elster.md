@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -24,7 +24,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], to submit valid sales VAT 
 - The user authentication for the tax authorities.  
 - The VAT statement.  
 
-You must also download components from the ELSTER portal. For more information, see the [ELSTER online portal](http://go.microsoft.com/fwlink/?LinkId=155998).  
+You must also download components from the ELSTER portal. For more information, see the [ELSTER online portal](https://go.microsoft.com/fwlink/?LinkId=155998).  
 
 ## To set up company information  
 
@@ -42,16 +42,16 @@ You must also download components from the ELSTER portal. For more information, 
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**HTTP Server URL 1**|Specifies a server of the Oberfinanzdirektion (OFD), such as **http://datenannahme1.elster.de/Elster2/EMS**.|  
-    |**HTTP Server URL 2**|Specifies a server of the OFD, such as **http://datenannahme2.elster.de/Elster2/EMS**.|  
-    |**HTTP Server URL 3**|Specifies a server of the OFD, such as **http://datenannahme3.elster.de/Elster2/EMS**.|  
-    |**HTTP Server URL 4**|Specifies a server of the OFD, such as **http://datenannahme4.elster.de/Elster2/EMS**.|  
+    |**HTTP Server URL 1**|Specifies a server of the Oberfinanzdirektion (OFD), such as **https://datenannahme1.elster.de/Elster2/EMS**.|  
+    |**HTTP Server URL 2**|Specifies a server of the OFD, such as **https://datenannahme2.elster.de/Elster2/EMS**.|  
+    |**HTTP Server URL 3**|Specifies a server of the OFD, such as **https://datenannahme3.elster.de/Elster2/EMS**.|  
+    |**HTTP Server URL 4**|Specifies a server of the OFD, such as **https://datenannahme4.elster.de/Elster2/EMS**.|  
 
     Now you must specify the users who can submit documents to the ELSTER portal.  
 
 5.  Choose the **Certificates** action.  
 
-    For more information about ELSTER certificates, see the [ELSTER online portal](http://go.microsoft.com/fwlink/?LinkId=155998).  
+    For more information about ELSTER certificates, see the [ELSTER online portal](https://go.microsoft.com/fwlink/?LinkId=155998).  
 
     1.  In the **Certificates** window, in the **User ID** field, specify the user who you want to authorize to submit documents to ELSTER.  
     2.  Choose the **Upload Elster Certificate** action, and then specify the certificate file, such as Coala2019.pem.cer.  

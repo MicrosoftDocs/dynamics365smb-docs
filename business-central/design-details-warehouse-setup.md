@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/22/2018
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -29,7 +29,7 @@ The following warehouse-related granules exist:
 -   Automated Data Capture System (4640) 
 -   Bin Setup (4660)  
 
-For more information about each granule, see [[!INCLUDE[d365fin](includes/d365fin_md.md)] Price Sheets](http://go.microsoft.com/fwlink/?LinkId=238341) (requires PartnerSource account).  
+For more information about each granule, see [[!INCLUDE[d365fin](includes/d365fin_md.md)] Price Sheets](https://go.microsoft.com/fwlink/?LinkId=238341) (requires PartnerSource account).  
 
 The following table shows which granules are required to define different warehouse complexity levels, which UI documents support each level, and which location codes reflect these levels in the [!INCLUDE[d365fin](includes/d365fin_md.md)] demonstration database.  
 

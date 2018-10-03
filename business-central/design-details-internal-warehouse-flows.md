@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 09/23/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -112,7 +112,7 @@ The flow of items between bins at a company location centers on picking componen
 
  The following illustration shows when the **Bin Code** field on the component list is filled according to your location or machine/work center setup.  
 
- ![Bin flow chart](media/binflow.png "BinFlow")  
+ ![Overview of when/how the Bin Code field is filled in](media/binflow.png "Overview of when/how the Bin Code field is filled in")  
 
 ## See Also  
  [Design Details: Warehouse Management](design-details-warehouse-management.md)

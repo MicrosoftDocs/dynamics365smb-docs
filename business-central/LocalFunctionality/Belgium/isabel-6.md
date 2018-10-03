@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -23,13 +23,13 @@ To upload or download the bank files, you will have to set up your environment t
 
 To set up your system to work with Isabel, complete the following:  
 
-- Install the Isabel security components. For more information, see the download area on the [Isabel website](http://go.microsoft.com/fwlink/?LinkId=210323).  
+- Install the Isabel security components. For more information, see the download area on the [Isabel website](https://go.microsoft.com/fwlink/?LinkId=210323).  
 
 - Install the COM wrapper that is manufactured by the Isabel organization. This wrapper is included with the Isabel GO 6.20 package.  
 
 - Register the COM wrapper on your computer. At the command prompt, locate the CIS.dll and then execute the **regsvr32 CISComWrapper.dll** command.  
 
 ## See Also  
- [Isabel website](http://go.microsoft.com/fwlink/?LinkId=210323)   
+ [Isabel website](https://go.microsoft.com/fwlink/?LinkId=210323)   
  [Belgian Electronic Banking](belgian-electronic-banking.md)   
  [Set Up Electronic Banking](how-to-set-up-electronic-banking.md)

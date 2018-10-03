@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 01/04/2018
+    ms.date: 10/01/2018
     ms.author: bholtorf
 
 ---
@@ -20,9 +20,9 @@ When you sell goods or services to customers in the Danish public sector, you mu
 
 The OIOUBL extension in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] makes it easy to generate these XML documents for posted sales and service invoices, credit memos, and issued reminders (which include finance charge memos).  
 
-The current requirements for sending electronic invoices are based on UBL version 2.0 standard. For more information, see the [OASIS UBL](http://go.microsoft.com/fwlink/?LinkId=212593) website. 
+The current requirements for sending electronic invoices are based on UBL version 2.0 standard. For more information, see the https://aka.ms/OasisUblSite web site.
 
-For more information about OIOUBL in general, see the website for [Online OIOUBL Documentation](http://www.oioubl.info), and the [Frequently Asked Questions](https://www.digst.dk/It-loesninger/NemHandel/Spoergsmaal-og-svar.aspx) page on the Digitaliseringsstyrelsen website.  
+For more information about OIOUBL in general, see the website for [Online OIOUBL Documentation](https://www.oioubl.info), and the [Frequently Asked Questions](https://digst.dk/it-loesninger/nemhandel/anvendelse/send-en-e-faktura/spoergsmaal-og-svar/) page on the Digitaliseringsstyrelsen website.  
 
 ## Getting Started with the OIOUBL Extension  
 By default, the OIOUBL extension is installed in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. However, there are a few things to do before you can use the extension:

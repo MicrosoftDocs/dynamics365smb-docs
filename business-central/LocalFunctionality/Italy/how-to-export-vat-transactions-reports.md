@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -44,7 +44,7 @@ It is only possible to change the lines and fields when the document has the sta
 6.  Select the **Detailed Export** check box, depending on your needs. The field controls whether to export the data in detailed format or in aggregate. If aggregate, lines are further grouped by VAT registration number or fiscal code.  
 7.  Choose the **OK** button.
 
-    The VAT report is exported as a .ccf file. You can now submit the report to the tax authorities by using the tool from the Italian Revenue Agency. Use the guidelines provided by the authority. For more information, see the [Italian Revenue Agency](http://go.microsoft.com/fwlink/?LinkID=206524).  
+    The VAT report is exported as a .ccf file. You can now submit the report to the tax authorities by using the tool from the Italian Revenue Agency. Use the guidelines provided by the authority. For more information, see the [Italian Revenue Agency](https://go.microsoft.com/fwlink/?LinkID=206524).  
 
     After you receive a response from the tax authorities, you must update the VAT report.  
 

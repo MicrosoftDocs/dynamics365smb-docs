@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/21/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -88,8 +88,8 @@ Creating a data exchange definition involves two tasks:
     |**Column No.**|Specify the number that reflects the column’s position on the line in the file.<br /><br /> For XML files, specify the number that reflects the type of element in the file that contains the data.|  
     |**Name**|Specify the name of the column.<br /><br /> For XML files, specify the markup that marks the data to be exchanged.|  
     |**Data Type**|Specify if the data to be exchanged is of type **Text**, **Date**, or **Decimal**.|  
-    |**Data Format**|Specify the format of the data, if any. For example, **MM-dd-yyyy** if the data type is **Date**. **Note:**  For export, specify the data format according to [!INCLUDE[d365fin](includes/d365fin_md.md)]. For import, specify the data format according to the .NET Framework. For more information, see [Standard Date and Time Format Strings](http://go.microsoft.com/fwlink/?LinkID=323466).|  
-    |**Data Formatting Culture**|Specify the culture of the data format, if any. For example, **en-US** if the data type is **Decimal** to make sure that comma is used as the .000 separator, according to the US format. For more information, see [Standard Date and Time Format Strings](http://go.microsoft.com/fwlink/?LinkID=323466). **Note:**  This field is only relevant for import.|  
+    |**Data Format**|Specify the format of the data, if any. For example, **MM-dd-yyyy** if the data type is **Date**. **Note:**  For export, specify the data format according to [!INCLUDE[d365fin](includes/d365fin_md.md)]. For import, specify the data format according to the .NET Framework. For more information, see [Standard Date and Time Format Strings](https://go.microsoft.com/fwlink/?LinkID=323466).|  
+    |**Data Formatting Culture**|Specify the culture of the data format, if any. For example, **en-US** if the data type is **Decimal** to make sure that comma is used as the .000 separator, according to the US format. For more information, see [Standard Date and Time Format Strings](https://go.microsoft.com/fwlink/?LinkID=323466). **Note:**  This field is only relevant for import.|  
     |**Length**|Specify the length of the fixed-width line that holds the column if the data file is of type **Fixed Text**.|  
     |**Description**|Enter a description of the column, for information.|  
     |**Path**|Specify the position of the element in the related XML schema.|  

@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 07/31/2018
+ms.date: 10/01/2018
 ms.author: edupont
 
 ---
@@ -54,6 +54,9 @@ All new information about the users’ plans and their assigned user groups are 
 You can now proceed to select the new experience.
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.
 2. In the **Company Information** window, on the **User Experience** FastTab, select Premium  in the **Experience** field.
+
+## Help Assumes Premium Experience
+All feature descriptions in user documentation for [!INCLUDE[d365fin](includes/d365fin_md.md)] assume the **Premium** experience, meaning the descriptions cover the full scope of UI elements. A text note is inserted in high-level help topics for the Manufacturing and Service Managements feature areas stating that they require the **Premium** experience.
 
 ## See also
 [Creating New Companies](about-new-company.md)  

@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 08/26/2018
+ms.date: 10/01/2018
 ms.author: jswymer
 
 ---
@@ -18,7 +18,7 @@ There are a few things that you can do that will help you scan, find, and limit 
 > [!TIP]
 > When viewing your data as tiles, you can search and use basic filtering. To use the full set of powerful features for sorting, searching and filtering, choose the ![Show as list](media/ui_show_as_list_icon.png "Show as list arrow left") icon to show as a list.
 
-<!-- 
+<!--
 When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
 -->
 
@@ -43,14 +43,14 @@ However, you can make a more exact search by using the following special charact
 
 - To find only field values that match the entire text and case exactly, place the search text between single quotes `''` (for example, `'man'`).
 
-- To find field values that start with a certain text and match the case, place `*` after the search text (for example `man*`). 
+- To find field values that start with a certain text and match the case, place `*` after the search text (for example `man*`).
 
 - To find field values that end with a certain text and match the case, place `*` before the search text (for example `*man`).
 
-- When using  `''` or `*`, the search is case sensitive. If you want to make the search case insensitive, place `@` before the search text (for example `@man*`). 
+- When using  `''` or `*`, the search is case sensitive. If you want to make the search case insensitive, place `@` before the search text (for example `@man*`).
 
 The following table provides some examples to explain how you can use the search.
-   
+
 
 <!--
 In search criteria you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.-->
@@ -116,10 +116,10 @@ A filter pane is divided in three sections: **Views**, **Filter list by**, and *
 
   Some lists that display calculated fields, such as amounts and quantities, will include the **Filter totals by** section where you can adjust various dimensions that influence calculations. For example, you can quickly analyze your chart of accounts by filtering amounts to a specific period, or you can view the totals for sales orders only from a specific warehouse.
 
-  To add a filter, select **+ Filter**, select one of the predefined dimensions, and then add the filter criteria in the box. 
+  To add a filter, select **+ Filter**, select one of the predefined dimensions, and then add the filter criteria in the box.
 
   > [!NOTE]
-  > Filters in the **Filter totals by** section are controlled by FlowFilters in the page design. For technical information, see [FlowFilters](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview)
+  > Filters in the **Filter totals by** section are controlled by FlowFilters in the page design. For technical information, see [FlowFilters](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
 
 
 ### Entering filter criteria in the filter pane
@@ -147,9 +147,9 @@ When you enter criteria, you can use all the numbers and letters that you can no
 
 > [!IMPORTANT]  
 >  There may be instances where field values contain these symbols and you want to filter on them. To do this, you must include the filter expression that contains the symbol in quotation marks (''). For example, if you want to filter on records that start with the text *S&R*, the filter expression is `'S&R*'`.  
-  
+
 ### (..) Interval
-  
+
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`1100..2100`|Numbers 1100 through 2100|  
@@ -159,63 +159,63 @@ When you enter criteria, you can use all the numbers and letters that you can no
 |`..23`|From the beginning date until 23-current month-current year 23:59:59|  
 |`23..`|From 23-current month-current year 0:00:00 until the end of time|  
 |`22..23`|From 22-current month-current year 0:00:00 until 23-current month-current year 23:59:59|  
-  
+
 ### (&#124;) Either/or  
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`1200|1300`|Numbers with 1200 or 1300|  
-  
+
 ### (<>) Not equal to  
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`<>0`|All numbers except 0<br /><br /> The SQL Server Option allows you to combine this symbol with a wild card expression. For example, <>A* meaning not equal to any text that starts with A.|  
-  
+
 ### (>) Greater than  
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`>1200`|Numbers greater than 1200|  
-  
+
 ### (>=) Greater than or equal to  
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`>=1200`|Numbers greater than or equal to 1200|  
-  
+
 ### (<) Less than  
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`<1200`|Numbers less than 1200|  
-  
+
 ### (<=) Less than or equal to  
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`<=1200`|Numbers less than or equal to 1200|  
-  
+
 ### (&) And  
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`>200&<1200`|Numbers greater than 200 and less than 1200|  
-  
+
 ### ('') An exact character match  
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`'man'`|Text that matches man exactly and is case sensitive.|  
-  
+
 ### (@) Case insensitive  
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`@man*`|Text that starts with man and is case insensitive.|  
-  
-### (*) An indefinite number of unknown characters 
-  
+
+### (*) An indefinite number of unknown characters
+
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`*Co*`|Text that contains "Co" and is case sensitive.|  
@@ -223,14 +223,14 @@ When you enter criteria, you can use all the numbers and letters that you can no
 |`Co*`|Text that begins with "Co" and is case sensitive.|  
 
 > [!NOTE]  
->   You cannot use `*` when filtering on option (enumeration) fields, such as the **Status** field on sales orders. To enter a filter for this type of field, you can enter the numeric value as a filtering parameter. For example, in the **Status** field on a sales order that has the values **Open**, **Released**, **Pending Approval**, and **Pending Prepayment**, use the values `0`, `1`, `2`, and `3` to filter for these options. 
-  
+>   You cannot use `*` when filtering on option (enumeration) fields, such as the **Status** field on sales orders. To enter a filter for this type of field, you can enter the numeric value as a filtering parameter. For example, in the **Status** field on a sales order that has the values **Open**, **Released**, **Pending Approval**, and **Pending Prepayment**, use the values `0`, `1`, `2`, and `3` to filter for these options.
+
 ### (?) One unknown character  
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`Hans?n`|Text such as Hansen or Hanson|  
-  
+
 ### Combined format expressions  
 
 |Sample Expression|Records Displayed|  
@@ -244,9 +244,9 @@ When you enter criteria, you can use all the numbers and letters that you can no
 When entering filter criteria, you can also type words that have special meaning, called filter tokens. After entering the token word, the word is replaced by the value or values that it represents. This makes filtering easier by reducing the need to navigate to other pages to look up values you want to add to your filter. The tables below describe some of the tokens you can type as filter criteria.
 
 > [!TIP]
-> Your organization may use custom tokens. To learn about the complete set of tokens available to you or to add more custom tokens, talk to your administrator. For technical information see [Adding Filter Tokens](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens.md)
+> Your organization may use custom tokens. To learn about the complete set of tokens available to you or to add more custom tokens, talk to your administrator. For technical information see [Adding Filter Tokens](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens)
 
- 
+
 ### (%me or %userid) Records assigned to you
 
 Use `%me` or `%userid` when filtering fields that contain the user ID, such as **Assigned to User ID** field, to display all records that are assigned to you.
@@ -281,5 +281,5 @@ Use `%myvendors` in the vendor **No** field to display all records for vendors t
 
 
 ## See Also
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Common questions about Searching and Filtering](ui-search-filter-faq.md)

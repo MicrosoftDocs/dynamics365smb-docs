@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
-ms.date: 10/01/2018
+ms.date: 10/03/2018
 ms.author: sgroespe
 
 ---
@@ -18,6 +18,8 @@ You can add extra information to G/L accounts, customers cards, or sales orders 
 Practically all cards and document have a **Comments** action, which opens the **Comment Sheet** window where you can write or read comments. On documents, you can also add comments to individual lines.
 
 Comments on ongoing documents are transferred to the related posted document. For example, a comment on a sales order is transferred to a resulting posted sales shipment.
+
+In addition, you can specify if you want comments to be transferred from one type of document to another resulting type of document, such as from a sales order to a sales invoice. You do this in the **Sales & Receivables** and the **Purchases & Payables** windows respectively.
 
 > [!NOTE]
 > Comments are not printed or output to reports or externally-facing documents.

@@ -15,7 +15,7 @@ ms.author: jswymer
 # Keyboard Shortcuts
 This article provides an overview of some of the shortcut key combinations that you can use when you are working with [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
 
-[Print-friendly keyboard shortcut cheatsheet](keyboard-shortcuts-cheatsheet.md)
+[Print-friendly keyboard shortcut reference](keyboard-shortcuts-cheatsheet.md)
 
 ## Overview
 The keyboard shortcuts aide accessibility and can make it easier and more efficient to navigate to different areas and elements on a page.
@@ -32,6 +32,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Press these keys|To do this|  
 |----------------|-----------|  
 |Alt+Q|Open **Tell me what you want to do** box that can help you find a page, a report, an action on the current page, or an article in the documentation.|
+|Alt+Up Arrow|Show tooltip for a field or a column header of a table. If the field has validation errors, press "Alt+Up Arrow" to show the validation error. Press "Esc" or "Alt+Up Arrow" to close the tooltip.|
 |Tab|Move focus to the next control or element on a page, such as actions, buttons, fields, or list headings.|
 |Shift+Tab|Move focus to the previous control or element on a page, such as actions, buttons, fields, or list headings.|   
 |Enter|Enable or access the element or control that is in focus.|   

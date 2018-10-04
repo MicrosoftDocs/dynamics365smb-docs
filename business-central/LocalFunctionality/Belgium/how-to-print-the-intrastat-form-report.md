@@ -1,8 +1,8 @@
 ---
     title: How to Print the Intrastat Form Report
-    description: The **Intrastat - Form** report must be used for reporting to Intrastat. In Belgium, you must report the movement of goods to the statistics authorities every month, and the report must be sent to the tax authorities.
+    description: The Intrastat - Form report must be used for reporting to Intrastat. In Belgium, you must report the movement of goods to the statistics authorities every month, and the report must be sent to the tax authorities.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -39,7 +39,7 @@ Before you print the **Intrastat - Form** report, you can also print the **Intra
     |**Message**|Enter a message to be printed on the Intrastat declaration, such as "regular declaration" or "replacement declaration".|  
 
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
-  
+
 ## See Also  
  [Belgian Intrastat Reporting](belgian-intrastat-reporting.md)   
  [Set Up Declaration Types](how-to-set-up-declaration-types.md)   

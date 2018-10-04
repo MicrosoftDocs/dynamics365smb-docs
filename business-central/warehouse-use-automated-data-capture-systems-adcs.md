@@ -15,7 +15,7 @@ ms.author: sgroespe
 # Use Automated Data Capture Systems (ADCS)
 
 > [!NOTE]
-> In the standard version of [!INCLUDE[d365fin](includes/d365fin_md.md)], ADCS only works in on-premise deployments. Hownever, a Microsoft partner can make it work in online deployments by using PowerApps or similar.
+> In the standard version of [!INCLUDE[d365fin](includes/d365fin_md.md)], ADCS only works in on-premise deployments. However, a Microsoft partner can make it work in online deployments by using PowerApps or similar.
 
 You can use your automatic data capture system (ADCS) to register the movement of items in the warehouse and to register some journal activities, such as quantity adjustments in the warehouse item journal and physical inventories.  
 

@@ -15,7 +15,7 @@ ms.author: jswymer
 # Keyboard Shortcuts
 This article provides an overview of some of the shortcut key combinations that you can use when you are working with [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
 
-[Print-friendly keyboard shortcut cheatsheet](keyboard-shortcuts-cheatsheet.md)
+[Print-friendly keyboard shortcut reference](keyboard-shortcuts-cheatsheet.md)
 
 ## Overview
 The keyboard shortcuts aide accessibility and can make it easier and more efficient to navigate to different areas and elements on a page.

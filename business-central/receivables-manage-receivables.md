@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 10/01/2018
+ms.date: 10/02/2018
 ms.author: sgroespe
 
 ---
@@ -28,7 +28,7 @@ Other windows exist where you can either apply payments or reconcile bank accoun
 * The **Payment Registration** window, where you can manually apply payments received as cash, check, or bank transaction against a generated list of unpaid sales documents. Note that this functionality is available only for sales documents. Here, you cannot apply outgoing payments, and you cannot reconcile bank accounts.
 * The **Cash Receipt Journal** window, where you manually post receipts to the relevant general ledger, customer, or other account by entering a payment line. You can either apply the receipt or refund to one or more open entries before you post the cash receipt journal, or from the customer ledger entries. Here, you cannot reconcile bank accounts.  
 
-Another part of managing receivables is to collect outstanding balances, including finance charges, and issue reminders. [!INCLUDE[d365fin](includes/d365fin_md.md)] offers ways to do those things as well. For more information, see [Collect Outstanding Balances](receivables-collect-outstanding-balances.md).  
+Other aspects of managing receivables include to collect outstanding balances, including finance charges and reminders, and to set bank accounts up to allow customers' payments to be withdrawn from their account automatically.
 
 The following table describes a sequence of tasks, with links to the topics that describe them.  
 
@@ -39,6 +39,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Post cash receipts or refunds for customers in the cash receipt journal and apply to customer ledger entries, either from the journal or from posted ledger entries. |[Reconcile Customer Payments Manually](receivables-how-apply-sales-transactions-manually.md) |
 | Remind customers of overdue amounts, calculate interest and finance charges, and manage accounts receivable. |[Collect Outstanding Balances](receivables-collect-outstanding-balances.md) |
 | Predict when payments will be made late for sales documents. | [The Late Payment Prediction Extension](ui-extensions-late-payment-prediction.md) |
+|With your customer’s consent, collect payments directly from the customer’s bank account according, in the Euro currency only.|[Collecting Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)|
 |Block a customer from being entered on documents or from posting, for example because of insolvency.|[Block Customers](receivables-how-block-customers.md)|
 |Ensure that you know the cost of shipped items by assigning added item costs, such as freight, physical handling, insurance, and transportation that you incur after selling.|[Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)|
 |Set up a tolerance by which the system closes an invoice even though the payment, including any discount, does not fully cover the amount on the invoice.|[Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)|

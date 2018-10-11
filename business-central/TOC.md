@@ -511,7 +511,7 @@
 ### [Set Up EU Third-Party Purchase Transactions](LocalFunctionality/Sweden/how-to-set-up-eu-third-party-purchase-transactions.md)
 
 ## [Switzerland](LocalFunctionality/Switzerland/switzerland-local-functionality.md)
-### [Balance]](LocalFunctionality/Switzerland/balance.md)
+### [Balance](LocalFunctionality/Switzerland/balance.md)
 ### [Delivery Reminders](LocalFunctionality/Switzerland/delivery-reminders.md)
 ### [How to Adjust Exchange Rates](LocalFunctionality/Switzerland/how-to-adjust-exchange-rates.md)
 ### [How to Assign Delivery Codes to Vendors](LocalFunctionality/Switzerland/how-to-assign-delivery-reminder-codes-to-vendors.md)

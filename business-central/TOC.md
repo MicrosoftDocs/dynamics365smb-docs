@@ -400,6 +400,7 @@
 ## [Design Details: General Journal Post Line](design-details-general-journal-post-line.md)
 
 # [Local Functionality](about-localization.md)
+
 ## [Australia](LocalFunctionality/Australia/australia-local-functionality.md)
 ### [Addresses](LocalFunctionality/Australia/addresses.md)
 ### [Adjust Settlement Exchange Rates for VAT Entries](LocalFunctionality/Australia/how-to-adjust-settlement-exchange-rates-for-vat-entries.md)  
@@ -419,11 +420,26 @@
 ### [Set Up Business Units for Business Activity Statements](LocalFunctionality/Australia/how-to-set-up-business-units-for-business-activity-statements.md)
 ### [Set Up Goods and Service Tax Posting](LocalFunctionality/Australia/how-to-set-up-goods-and-service-tax-posting.md)
 ### [Set Up Revenue Types for Withholding Tax](LocalFunctionality/Australia/how-to-set-up-revenue-types-for-withholding-tax.md)
-### [Set Up Vendors Without ABN for Calculating the Withholding Tax](LocalFunctionality/Australia/Set Up Revenue Types for Withholding Tax.md)
-### [Set Up Withholding Tax](LocalFunctionality/Australia/Set Up Vendors Without ABN for Calculating the Withholding Tax.md)
+### [Set Up Vendors Without ABN for Calculating the Withholding Tax](LocalFunctionality/Australia/how-to-set-up-vendors-without-abn-for-calculating-the-withholding-tax.md)
+### [Set Up Withholding Tax](LocalFunctionality/Australia/how-to-view-withholding-tax-entries.md)
 ### [Tax](LocalFunctionality/Australia/tax.md)
 ### [Withholding Tax](LocalFunctionality/Australia/withholding-tax.md)
+
 ## [Austria](LocalFunctionality/Austria/austria-local-functionality.md)
+### [Assign Delivery Reminder Codes to Vendors](LocalFunctionality/Austria/how-to-assign-delivery-reminder-codes-to-vendors.md)
+### [Copy Existing Items to New Items](LocalFunctionality/Austria/how-to-copy-existing-items-to-new-items.md)
+### [Create a VAT Statement](LocalFunctionality/Austria/how-to-create-a-vat-statement.md)
+### [Create Delivery Reminders Manually](LocalFunctionality/Austria/how-to-create-delivery-reminders-manually.md)
+### [Delivery Reminders](LocalFunctionality/Austria/delivery-reminders.md)
+### [Generate Delivery Reminders](LocalFunctionality/Austria/how-to-generate-delivery-reminders.md)
+### [Print General Ledger Setup Information](LocalFunctionality/Austria/how-to-print-general-ledger-setup-information.md)  
+### [Print Sales and Purchase Orders During Batch Posting](LocalFunctionality/Austria/how-to-print-sales-and-purchase-orders-during-batch-posting.md)  
+### [Print Test Reports for Delivery Reminders](LocalFunctionality/Austria/how-to-print-test-reports-for-delivery-reminders.md)
+### [Print Vendor Payments List Reports](LocalFunctionality/Austria/how-to-print-vendor-payments-list-reports.md)
+### [Set Up Delivery Reminders](LocalFunctionality/Austria/how-to-set-up-delivery-reminders.md)
+### [Set Up Delivery Reminder Terms, Levels, and Text](LocalFunctionality/Austria/how-to-set-up-delivery-reminder-terms-levels-and-text.md)
+### [VAT Reporting](LocalFunctionality/Austria/vat-reporting.md)
+
 ## [Belgium](LocalFunctionality/Belgium/belgium-local-functionality.md)
 ## [Canada](LocalFunctionality/Canada/canada-local-functionality.md)
 ## [Denmark](LocalFunctionality/Denmark/denmark-local-functionality.md)
@@ -464,7 +480,7 @@
 ### [Set Up Use Tax and Purchase Tax](LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md)  
 ### [Set Up Unrealized Sales Tax and Sales Payment Discounts](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
 ### [US Sales Tax](LocalFunctionality/UnitedStates/us-sales-tax.md)
-  
+
 # [Compliance](compliance/compliance-overview.md)
 ## [Application Compliance](compliance/compliance-application-compliance.md)
 ## [Service Compliance](compliance/compliance-service-compliance.md)

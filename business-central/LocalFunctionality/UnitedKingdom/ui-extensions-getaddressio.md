@@ -29,4 +29,4 @@ The GetAddress.io UK Postcodes extension can save time and prevent mistakes when
 
 
 ## See Also
-[Set Up the GetAddress.io UK Postal Code Extension](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
+[Set Up the GetAddress.io UK Postal Code Extension](uk-setup-postal-code-service.md)

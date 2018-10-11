@@ -461,7 +461,7 @@
 ### [Export and Post Domiciliations](LocalFunctionality/Belgium/how-to-export-and-post-domiciliations.md)
 ### [Export Intrastat Third-Party Declarations](LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations.md)
 ### [File Non-Euro SEPA Payments](LocalFunctionality/Belgium/how-to-file-non-euro-sepa-payments.md)
-### [File SEPA Payments](LocalFunctionality/Belgium/File Non-Euro SEPA Payments.md)
+### [File SEPA Payments](LocalFunctionality/Belgium/how-to-file-sepa-payments.md)
 ### [Generate Domiciliation Suggestions](LocalFunctionality/Belgium/how-to-generate-domiciliation-suggestions.md)
 ### [Generate Payment Suggestions](LocalFunctionality/Belgium/how-to-generate-payment-suggestions.md)
 ### [Isabel 6](LocalFunctionality/Belgium/isabel-6.md)

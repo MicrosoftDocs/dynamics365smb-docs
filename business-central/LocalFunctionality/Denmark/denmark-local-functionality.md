@@ -25,7 +25,7 @@ The following topics describe the local functionality in the Danish version of [
 [Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md)
 [Set Up OIOUBL Electronic Invoicing](how-to-set-up-oioubl.md)  
 [The OIOUBL Extension for Electronic Invoicing](ui-extensions-oioubl.md)  
-[The Payments and Reconciliations (DK) Extension](../../ui-extensions-payments-reconciliation-formats-dk.md)  
+[The Payments and Reconciliations (DK) Extension](../ui-extensions-payments-reconciliation-formats-dk.md)  
 [VAT-VIES Reporting](vat-vies-reporting.md) 
 
 ## See Also

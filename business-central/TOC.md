@@ -491,6 +491,15 @@
 ### [Upload Payment Files to an Isabel Server](LocalFunctionality/Belgium/how-to-upload-payment-files-to-an-isabel-server.md)
 
 ## [Canada](LocalFunctionality/Canada/canada-local-functionality.md)
+### [Create Deposits](LocalFunctionality/Canada/how-to-create-deposits.md)  
+### [Manage Customer Credit Information](LocalFunctionality/Canada/how-to-manage-customer-credit-information.md)
+### [Print Troubleshooting Reports](LocalFunctionality/Canada/how-to-print-troubleshooting-reports.md)
+### [Reporting Sales Tax and Goods/Services Tax in Canada](LocalFunctionality/Canada/sales-tax-goods-services.md)
+### [Set Up Use Tax and Purchase Tax](LocalFunctionality/Canada/how-to-set-up-use-tax-and-purchase-tax.md)
+### [Reporting Sales Tax in Canada](LocalFunctionality/Canada/ca-sales-tax.md)
+### [Set Up Unrealized Sales Tax and Sales Payment Discounts](LocalFunctionality/Canada/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
+### [Work With GIFI Codes](LocalFunctionality/Canada/work-gifi-codes.md)  
+
 ## [Denmark](LocalFunctionality/Denmark/denmark-local-functionality.md)
 ## [Finland](LocalFunctionality/Finland/finland-local-functionality.md)
 ## [France](LocalFunctionality/France/france-local-functionality.md)

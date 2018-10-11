@@ -24,7 +24,7 @@ The following topics describe local functionality that is unique to the United S
 [Reporting Sales Tax in the US](us-sales-tax.md)  
 [Reporting Transactions as 1099 Liable in the US](tax-1099.md)  
 [Set Up Use Tax and Purchase Tax](how-to-set-up-use-tax-and-purchase-tax.md)  
-[Set Up Unrealized Sales Tax and Sales Payment Discounts] (how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
+[Set Up Unrealized Sales Tax and Sales Payment Discounts](how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
 [US Sales Tax](us-sales-tax.md)  
 
 ## See Also

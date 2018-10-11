@@ -505,7 +505,7 @@
 
 ## [Sweden](LocalFunctionality/Sweden/sweden-local-functionality.md)
 ### [Automatic Account Codes](LocalFunctionality/Sweden/automatic-account-codes.md)  
-### [](LocalFunctionality/Sweden/how-to-set-up-automatic-account-posting-groups.md)
+### [Set Up Automatic Account Posting Groups](LocalFunctionality/Sweden/how-to-set-up-automatic-account-posting-groups.md)
 ### [Import and Export Data in Standard Import Export Format](LocalFunctionality/Sweden/how-to-import-and-export-data-in-standard-import-export-format.md)  
 ### [Print Balance Sheet and Income Statement Reports](LocalFunctionality/Sweden/how-to-print-balance-sheet-and-income-statement-reports.md)  
 ### [Set Up EU Third-Party Purchase Transactions](LocalFunctionality/Sweden/how-to-set-up-eu-third-party-purchase-transactions.md)
@@ -556,8 +556,8 @@
 ### [Print VAT Reports](LocalFunctionality/UnitedKingdom/how-to-print-vat-reports.md)
 ### [Set Up Reverse Charges on VAT](LocalFunctionality/UnitedKingdom/how-to-set-up-reverse-charges-on-vat.md)
 ### [Set Up a Posting Date Warning](LocalFunctionality/UnitedKingdom/how-to-set-up-a-posting-date-warning.md)
-### [Set Up the GetAddress.io UK Postcodes Extension](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
 ### [The GetAddress.io UK Postcodes Extension](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
+### [Set Up the GetAddress.io UK Postcodes Extension](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
 
 ## [United States](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 ### [Create Deposits](LocalFunctionality/UnitedStates/how-to-create-deposits.md)  

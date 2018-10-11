@@ -39,7 +39,7 @@ The following topics describe local functionality that is unique to the Dutch ve
 [Set Up Electronic VAT and ICP Declarations](how-to-set-up-electronic-vat-and-icp-declarations.md)
 [Set Up Standard Sales or Purchase Lines](how-to-set-up-standard-sales-or-purchase-lines.md)
 [Set Up Validation of Purchase Amounts](how-to-set-up-validation-of-purchase-amounts.md)
-[Single EURO Payments Area (SEPA)](single-euro-payments-area-sepa-.md)  
+[Single Euro Payments Area (SEPA)](single-euro-payments-area-sepa-.md)  
 [Submitting Electronic VAT and ICP Declarations](electronic-vat-and-icp-declarations.md)  
 [Submit Vendor Payments Electronically in SEPA ISO 20022 Payment Format](how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format.md)
 [Payment Scenarios](payment-scenarios.md)
@@ -48,7 +48,7 @@ The following topics describe local functionality that is unique to the Dutch ve
 [Payment Scenario 3 - Foreign Payment (LCY  to FCY)](payment-scenario-3-foreign-payment-lcy-to-fcy-.md)
 [Required Descriptions in G/L Entries](required-descriptions-in-g-l-entry.md)
 [Single Euro Payments Area (SEPA)](single-euro-payments-area-sepa-.md)
-[Telebanking](LocalFunctionality/Netherlands/telebanking.md)
+[Telebanking](telebanking.md)
 
 ## See Also
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  

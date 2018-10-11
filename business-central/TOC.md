@@ -509,6 +509,8 @@
 ## [Mexico](LocalFunctionality/Mexico/mexico-local-functionality.md)
 ## [Netherlands](LocalFunctionality/Netherlands/netherlands-local-functionality.md)
 ## [New Zealand](LocalFunctionality/NewZealand/new-zealand-local-functionality.md)  
+### [](LocalFunctionality/NewZealand/)
+
 ## [Norway](LocalFunctionality/Norway/norway-local-functionality.md)
 ### [Apply General Ledger Entries in Closed Periods](LocalFunctionality/Norway/how-to-apply-general-ledger-entries-in-closed-periods.md)
 ### [EHF Electronic Invoicing in Norway](LocalFunctionality/Norway/ehf-electronic-invoicing-in-norway.md)

@@ -441,6 +441,16 @@
 ### [VAT Reporting](LocalFunctionality/Austria/vat-reporting.md)
 
 ## [Belgium](LocalFunctionality/Belgium/belgium-local-functionality.md)
+### [Belgian Electronic Banking](belgian-electronic-banking.md)  
+### [Belgian Intrastat Reporting](belgian-intrastat-reporting.md)  
+### [Belgian VAT](belgian-vat.md)  
+[Enterprise Numbers and Branch Numbers](enterprise-numbers-and-branch-numbers.md)  
+[Set the Work Date as the Posting Date](how-to-set-the-work-date-as-the-posting-date.md)  
+[Create Financial Journals](how-to-create-financial-journals.md)  
+[Export to Accon](how-to-export-to-accon.md)  
+[Apply and Unapply General Ledger Entries](how-to-apply-and-unapply-general-ledger-entries.md)  
+[Limit the Posting Period](how-to-limit-the-posting-period.md)
+
 ## [Canada](LocalFunctionality/Canada/canada-local-functionality.md)
 ## [Denmark](LocalFunctionality/Denmark/denmark-local-functionality.md)
 ## [Finland](LocalFunctionality/Finland/finland-local-functionality.md)
@@ -468,7 +478,7 @@
 ### [Set Up Reverse Charges on VAT](LocalFunctionality/UnitedKingdom/how-to-set-up-reverse-charges-on-vat.md)
 ### [Set Up a Posting Date Warning](LocalFunctionality/UnitedKingdom/how-to-set-up-a-posting-date-warning.md)
 ### [Set Up the GetAddress.io UK Postcodes Extension](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
-### [The GetAddress.io UK Postcodes Extension](../../ui-extensions-getaddressio.md)
+### [The GetAddress.io UK Postcodes Extension](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
 
 ## [United States](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 ### [Create Deposits](LocalFunctionality/UnitedStates/how-to-create-deposits.md)  

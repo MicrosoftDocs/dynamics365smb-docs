@@ -467,7 +467,13 @@
 ## [New Zealand](LocalFunctionality/NewZealand/new-zealand-local-functionality.md)  
 ## [Norway](LocalFunctionality/Norway/norway-local-functionality.md)
 ## [Spain](LocalFunctionality/Spain/spain-local-functionality.md)
+
 ## [Sweden](LocalFunctionality/Sweden/sweden-local-functionality.md)
+### [Automatic Account Codes](LocalFunctionality/Sweden/automatic-account-codes.md)  
+### [](LocalFunctionality/Sweden/how-to-set-up-automatic-account-posting-groups.md)
+### [Import and Export Data in Standard Import Export Format](LocalFunctionality/Sweden/how-to-import-and-export-data-in-standard-import-export-format.md)  
+### [Print Balance Sheet and Income Statement Reports](LocalFunctionality/Sweden/how-to-print-balance-sheet-and-income-statement-reports.md)  
+### [Set Up EU Third-Party Purchase Transactions](LocalFunctionality/Sweden/how-to-set-up-eu-third-party-purchase-transactions.md)
 
 ## [Switzerland](LocalFunctionality/Switzerland/switzerland-local-functionality.md)
 ### [Balance]](LocalFunctionality/Switzerland/balance.md)

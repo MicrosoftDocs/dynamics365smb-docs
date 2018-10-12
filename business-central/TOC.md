@@ -509,7 +509,7 @@
 ### [Set Up Customers for OIOUBL](LocalFunctionality/Denmark/how-to-set-up-customers-for-oioubl.md)
 ### [Set Up OIOUBL Electronic Invoicing](LocalFunctionality/Denmark/how-to-set-up-oioubl.md)  
 ### [The OIOUBL Extension for Electronic Invoicing](LocalFunctionality/Denmark/ui-extensions-oioubl.md)  
-### [The Payments and Reconciliations (DK) Extension](../../ui-extensions-payments-reconciliation-formats-dk.md)  
+### [The Payments and Reconciliations (DK) Extension](../ui-extensions-payments-reconciliation-formats-dk.md)  
 ### [VAT-VIES Reporting](LocalFunctionality/Denmark/vat-vies-reporting.md)  
 
 ## [Finland](LocalFunctionality/Finland/finland-local-functionality.md)
@@ -762,7 +762,6 @@
 ### [Payroll Data Definitions](LocalFunctionality/Norway/ui-extensions-payroll-data-definitions-no.md)
 
 ## [Spain](LocalFunctionality/Spain/spain-local-functionality.md)
-### [Calculating Due Dates](../../calculating-due-dates.md)  
 ### [Cartera Module](LocalFunctionality/Spain/cartera-module.md)  
 ### [Cash Payments](LocalFunctionality/Spain/payments-in-cash.md)
 ### [Corrective Invoices](LocalFunctionality/Spain/corrective-invoices.md)

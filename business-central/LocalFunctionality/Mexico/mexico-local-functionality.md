@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/12/2018
     ms.author: sgroespe
 
 ---
@@ -22,13 +22,13 @@ The following topics describe local functionality that is unique to the Mexican 
 ## In This Section  
 [Create Deposits](how-to-create-deposits.md)  
 [Electronic Invoicing](electronic-invoicing.md)  
-[Generate Electronic Invoices](how-to-generate-electronic-invoices.md)
-[Manage Customer Credit Information](how-to-manage-customer-credit-information.md)
-[Mexico Sales Tax](mexico-sales-tax.md)
-[Print Troubleshooting Reports](how-to-print-troubleshooting-reports.md)
+[Generate Electronic Invoices](how-to-generate-electronic-invoices.md)  
+[Manage Customer Credit Information](how-to-manage-customer-credit-information.md)  
+[Mexico Sales Tax](mexico-sales-tax.md)  
+[Print Troubleshooting Reports](how-to-print-troubleshooting-reports.md)  
 [Reporting Sales Tax in Mexico](mexico-sales-tax.md)  
-[Set Up Electronic Invoicing](how-to-set-up-electronic-invoicing.md)
-[Set Up PAC Web Services](how-to-set-up-pac-web-services.md)
+[Set Up Electronic Invoicing](how-to-set-up-electronic-invoicing.md)  
+[Set Up PAC Web Services](how-to-set-up-pac-web-services.md)  
 [Set Up Use Tax and Purchase Tax](how-to-set-up-use-tax-and-purchase-tax.md)  
 [Set Up Unrealized Sales Tax and Sales Payment Discounts](how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
 [Tax Identification Types for Mexico](tax-identification-types-for-mexico.md)  

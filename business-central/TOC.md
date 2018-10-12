@@ -503,7 +503,7 @@
 ## [Denmark](LocalFunctionality/Denmark/denmark-local-functionality.md)
 ### [Create Electronic Documents in an OIOUBL Format](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md)
 ### [FIK Details in the Payment Reconciliation Journal](LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal.md)
-### [Overview of OIOUBL Electronic Invoicing](LocalFunctionality/Denmark/oioubl-electronic-invoicing-overview.md)]
+### [Overview of OIOUBL Electronic Invoicing](LocalFunctionality/Denmark/oioubl-electronic-invoicing-overview.md)
 ### [Print VAT Reconciliation Reports](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ### [Payroll Data Definitions (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md) 
 ### [Set Up Customers for OIOUBL](LocalFunctionality/Denmark/how-to-set-up-customers-for-oioubl.md)

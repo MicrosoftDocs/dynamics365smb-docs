@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 10/01/2018
+ms.date: 10/15/2018
 ms.author: sgroespe
 
 ---
@@ -25,6 +25,15 @@ The following procedure shows how to work with standard sales lines. It works in
 2. In the **Standard Sales Lines** window, choose the **New** action.  
 3. On the **General** FastTab, fill the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. On the **Lines** FastTab, enter information in the fields to prepare sales lines that reflect the standard lines that you expect to use as recurring lines on sales documents.  
+
+## To assign standard sales lines to a customers
+Assign one or more standard sales lines to a customer so that they are available to insert on sales documents for that customer.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
+2. Open the card for a relevant customer.
+3. Choose the **Recurring Sales Lines** action.
+4. In the **Recurring Sales Lines** window, select codes for the recurring sales lines that you want to be able to insert on sales documents for the customer.
+5. Fill in the additional fields to define when, how, and where the recurring sales lines are to be used. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To insert standard sales lines on a sales invoice
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Invoices**, and then choose the related link.

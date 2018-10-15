@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: Denmark, local, DK, Danish
-    ms.date: 10/01/2018
+    ms.date: 10/12/2018
     ms.author: bholtorf
 
 ---
@@ -17,14 +17,16 @@
 The following topics describe the local functionality in the Danish version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## In This Section  
-[The OIOUBL Extension for Electronic Invoicing](ui-extensions-oioubl.md)  
-[Set Up OIOUBL Electronic Invoicing](how-to-set-up-oioubl.md)  
 [Create Electronic Documents in an OIOUBL Format](how-to-create-electronic-documents-by-using-oioubl.md)  
-[The Payments and Reconciliations (DK) Extension](../../ui-extensions-payments-reconciliation-formats-dk.md)  
 [FIK Details in the Payment Reconciliation Journal](fik-details-in-the-payment-reconciliation-journal.md)  
-[VAT-VIES Reporting](vat-vies-reporting.md)  
+[Overview of OIOUBL Electronic Invoicing](oioubl-electronic-invoicing-overview.md)  
 [Print VAT Reconciliation Reports](how-to-print-vat-reconciliation-reports.md)  
 [Payroll Data Definitions (DK)](ui-extensions-payroll-data-definitions-dk.md)  
+[Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md)  
+[Set Up OIOUBL Electronic Invoicing](how-to-set-up-oioubl.md)  
+[The OIOUBL Extension for Electronic Invoicing](ui-extensions-oioubl.md)  
+[The Payments and Reconciliations (DK) Extension](../../ui-extensions-payments-reconciliation-formats-dk.md)  
+[VAT-VIES Reporting](vat-vies-reporting.md)  
 
 ## See Also
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)   

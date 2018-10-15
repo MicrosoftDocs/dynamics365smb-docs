@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 10/01/2018
+ms.date: 10/11/2018
 ms.author: sgroespe
 
 ---
@@ -24,9 +24,10 @@ The following table lists these general business areas with links to topics that
 
 | To | See |
 | --- | --- |
-|Add extra information to accounts, customers cards, or sales orders to communicate agreements, such as a special price or delivery method, to other users.|[Add Comments to Cards and Documents](across-how-use-comments.md)| 
+|Add extra information to accounts, customers cards, or sales orders to communicate agreements, such as a special price or delivery method, to other users.|[Add Comments to Cards and Documents](across-how-use-comments.md)|
 |View ongoing, posted, or archived documents that are related to sales and purchase order lines.|[Track Document Lines](across-how-to-track-document-lines.md)|
 | Communicate the contents of business documents quickly to your business partners, such as the payment information on sales documents to customers. |[Send Documents by Email](ui-how-send-documents-email.md) |
+|Archive sales and purchase orders, quotes, return orders, and blanket orders, and you use the archived document to recreate the document that it was archived from.|[Archive Documents](across-how-to-archive-documents.md)|
 | Set up standard text codes so you can extend standard text by adding extra lines, and set up conditions for use of the extra lines. |[Add Extended Item Text](ui-how-define-ext-text.md) |
 |Create tasks to remind you of work to be done. You can create tasks for yourself, but you can also assign tasks to others or be assigned a task by someone else in your organization.|[Defining User Tasks](across-user-tasks.md)|
 |Let the system help you complete tasks quicker and more correctly by prefilling fields or complete lines with data that you would otherwise have to calculate and enter yourself.|[Letting Business Central Suggest Values](ui-let-system-suggest-values.md)|

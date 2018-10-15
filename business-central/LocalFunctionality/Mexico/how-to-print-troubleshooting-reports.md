@@ -5,7 +5,7 @@
 
     author: SorenGP
 
-    ms.service: dynamics365-financials
+    ms.service: dynamics365-business-central
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na

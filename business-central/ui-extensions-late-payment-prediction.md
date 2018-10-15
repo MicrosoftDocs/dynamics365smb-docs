@@ -3,7 +3,7 @@ title: Predict Late Payments for Sales Documents | Microsoft Docs
 description: Use our predictive model to predict whether an invoice will be paid on time.
 author: bholtorf
 
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

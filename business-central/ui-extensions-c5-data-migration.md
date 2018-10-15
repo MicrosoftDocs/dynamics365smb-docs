@@ -99,9 +99,6 @@ There are just a few steps to export data from C5, and import it in [!INCLUDE[d3
 2. In [!INCLUDE[d365fin](includes/d365fin_md.md)], choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Migration**, and then choose **Data Migration**.  
 3. Complete the steps in the assisted setup guide. Make sure to choose **Import from Microsoft Dynamcis C5 2012** as the data source.  
 
-> [!Note]
-> Companies often add fields to customize C5 for their specific line of business. [!INCLUDE[d365fin](includes/d365fin_md.md)] does not migrate data from custom fields. Also, migration will fail if you have more than 10 custom fields.
-
 ## Viewing the Status of the Migration
 Use the **Data Migration Overview** window to monitor the success of the migration. The page shows information such as the number of entities that the migration will include, the status of the migration, and the number of items that have been migrated and whether they were successfull. It also shows the number of errors, lets you investigate what went wrong and, when possible, makes it easy to go to the entity to fix the issues. For more information, see the next section in this topic.  
 

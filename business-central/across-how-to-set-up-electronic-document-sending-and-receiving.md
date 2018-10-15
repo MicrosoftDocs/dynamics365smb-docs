@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/04/2018
     ms.author: sgroespe
 
 ---
@@ -125,8 +125,8 @@ The topic contains the following procedures:
     You can now receive the electronic document by starting the data conversion process in the **Incoming Documents** window. For more information, see [Receive and Convert Electronic Documents](purchasing-how-to-receive-and-convert-electronic-documents.md).  
 
 ### To set up the G/L account to use on new purchase invoice lines for non-identifiable items and non-items  
-1. In the **Search** box, enter **Purchases & Payables**, and then choose the related link.  
-2. On the **Data Exchange** FastTab, fill the field as described in the following table.  
+1. In the **Search** box, enter **Purchases & Payables Setup**, and then choose the related link.  
+2. On the **Default Accounts** FastTab, fill the field as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan, application area, experience
-ms.date: 10/01/2018
+ms.date: 10/15/2018
 ms.author: edupont
 
 ---
@@ -21,6 +21,8 @@ This section contains answers to frequently asked questions about signing up for
 
 If you try to sign up with a personal email address, you will get a message indicating to use a work or school email address. For more information, see [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md).  
 
+If you want to deploy [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises, then you can use other authentication methods. For more information, see [Deployment of Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/deployment).  
+
 ## Do I have to buy Office 365?
 No. But if you want to experience [!INCLUDE[d365fin](includes/d365fin_md.md)] as fully integrated with Office 365, you can sign up for a 1-month free trial of Office 365 [here](https://products.office.com/try).  
 
@@ -31,10 +33,13 @@ No. But if you want to experience [!INCLUDE[d365fin](includes/d365fin_md.md)] as
 Yes, but depending on how you signed up to [!INCLUDE[d365fin](includes/d365fin_md.md)], your data can be deleted or preserved. For more information, see [Canceling [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md).  
 
 ## Where do I go if I have questions?
-If you have questions about [!INCLUDE[d365fin](includes/d365fin_md.md)] that you can't find an answer for in this documentation, you can ask the Business Central  community. For more information, see [Dynamics 365 Business Central community](https://community.dynamics.com/business). Also, our Support team post tips and tricks. For more information, see [Dynamics 365 Business Central Support Blog](https://blogs.msdn.microsoft.com/dyn365finsupport).  
+If you have questions about [!INCLUDE[d365fin](includes/d365fin_md.md)] that you can't find an answer for in this documentation, you can ask the Business Central community. For more information, see [Dynamics 365 Business Central community](https://community.dynamics.com/business). Also, our Support team post tips and tricks. For more information, see [Dynamics 365 Business Central Support Blog](https://blogs.msdn.microsoft.com/dyn365finsupport).  
 
 ## Is it possible to extend my 30-day “New Company” trial period?
-Yes. If you want to extend your trial, you should contact Microsoft at 1-800-865-9408. NOTE:  It may take up to 2 business days to complete the trial extension process.  
+Yes. If you want to extend your trial, you should contact Microsoft in your country or region. To find the right phone number, see the list in [CustomerSource](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-news/Support_Telephone#linkc). The list refers to phone numbers for Dynamics CRM Online, but the same numbers apply to all Dynamics 365 apps.  
+
+> [!NOTE]
+> It may take up to 2 business days to complete the trial extension process.  
 
 ## Our administrator has moved me to another plan to give me another role, but I still see the same Role Center in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 This is a bit complicated, but it looks like your administrator didn't change your Role Center and assign user groups that match the new license. Essentially, your access to [!INCLUDE[d365fin](includes/d365fin_md.md)] is determined by the type of plan (license) that you have - this sets permissions and your default Role Center page. You can change your Role Center manually in My Settings, but if you are moved to another plan, such as moving you from the Business plan to the Team Members plan, you might see the old Home because your permissions were not changed.  

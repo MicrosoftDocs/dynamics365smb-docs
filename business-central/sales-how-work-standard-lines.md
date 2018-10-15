@@ -26,6 +26,9 @@ The following procedure shows how to work with standard sales lines. It works in
 3. On the **General** FastTab, fill the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. On the **Lines** FastTab, enter information in the fields to prepare sales lines that reflect the standard lines that you expect to use as recurring lines on sales documents.  
 
+> [!NOTE]
+> You cannot define prices on standard sales lines because prices, discounts, etc. are calculated on the actual sales documents after you insert the standard sales lines.
+
 ## To assign standard sales lines to a customers
 Assign one or more standard sales lines to a customer so that they are available to insert on sales documents for that customer.
 
@@ -35,7 +38,8 @@ Assign one or more standard sales lines to a customer so that they are available
 4. In the **Recurring Sales Lines** window, select codes for the recurring sales lines that you want to be able to insert on sales documents for the customer.
 5. Fill in the additional fields to define when, how, and where the recurring sales lines are to be used. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## To insert standard sales lines on a sales invoice
+## To insert recurring sales lines on a sales invoice
+If recurring sales lines exist for the customer, you can insert them on all types of sales documents, such as a sales invoice. If you have activated the notification in question, you will be informed if recurring sales lines exist.
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Invoices**, and then choose the related link.
 2. Open the sales invoice that you want to insert one or more standard sales lines on.
 3. Choose the **Get Recurring Sales Lines** action.

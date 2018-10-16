@@ -18,7 +18,7 @@ ms.author: solsen
 You can use your [!INCLUDE[d365fin](includes/d365fin_md.md)] data as part of a workflow in Microsoft Flow.
 
 > [!NOTE]
-> In addition to Microsoft Flow, you can use the Workflow functionality within [!INCLUDE[d365fin](includes/d365fin_md.md)]. Note that although they are two separate workflow systems, any Flow template that you create with Microsoft Flow is added to the list of workflow templates within [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Workflow](across-workflow).  
+> In addition to Microsoft Flow, you can use the Workflow functionality within [!INCLUDE[d365fin](includes/d365fin_md.md)]. Note that although they are two separate workflow systems, any Flow template that you create with Microsoft Flow is added to the list of workflow templates within [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Workflow](across-workflow.md).  
 
 > [!NOTE]  
 >   You must have a valid account with [!INCLUDE[d365fin](includes/d365fin_md.md)] and with Flow.  

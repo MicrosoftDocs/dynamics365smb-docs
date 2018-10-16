@@ -37,32 +37,30 @@ You can use account categories to change the layout of your financial statements
 ## To create a new account schedule  
 You use account schedules to analyze figures in general ledger accounts or to compare general ledger entries with general ledger budget entries. For example, you can view the general ledger entries as percentages of the budget entries.
 
+The account schedules in the standard version of [!INCLUDE[d365fin](includes/d365fin_md.md)] are the basis of the standard financial reports, which may not suit the needs of your business. To quickly create your own financial reports, you can start by copying an existing account schedule. See step 3 below.
+
 The **Acc. Schedule Overview** window is where you preview the financial report that the account schedule defines. In the following, it is important to understand that what you set up as account schedule rows and columns can only be seen and validated in the **Acc. Schedule Overview** window, which you open from an account schedule by choosing the **Overview** action. The **Account Schedule** window itself is only a setup area.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedules**, and then choose the related link.  
 2. In the **Account Schedules** window, choose the **New** action to create a new account schedule name.
-3. Fill in the fields as necessary. In the **Default Column Layout** field select an existing layout. You can edit it later if you want.
+3. Alternatively, choose the **Copy Account Schedule** action, fill in the two fields, and then choose the **OK** button.
+4. Fill in the fields as necessary. In the **Default Column Layout** field select an existing layout. You can edit it later if you want.
 
     You use column layouts to define columns for different parameters by which the financial data on the rows are shown. For example, you can design a column layout to compare net change and balance for the same period this year and last year, with four columns. For more information, see the "To edit a column layout" section.
 
-4. Choose the **Edit Account Schedule** action.
-5. Create a row for each financial element that you want to appear in the report, such as one row for current assets and another row for fixed assets. For inspiration, see existing account schedules in the CRONUS demonstration company.
-6. Choose the **Overview** action to see the resulting financial report.
-7. In the **Acc. Schedule Overview** window, in the **Column Layout Name** field, select another column layout to see the financial data by other parameters.
-6. Choose the **OK** button.
+5. Choose the **Edit Account Schedule** action.
+6. Create a row for each financial element that you want to appear in the report, such as one row for current assets and another row for fixed assets. For inspiration, see existing account schedules in the CRONUS demonstration company.
+7. Choose the **Overview** action to see the resulting financial report.
+8. In the **Acc. Schedule Overview** window, in the **Column Layout Name** field, select another column layout to see the financial data by other parameters.
+9. Choose the **OK** button.
 
-You have now defined the basis of the account schedule, the rows of financial data to be displayed, and an existing layout of columns to show the data on the rows per different parameters. If the default column layout that you selected in step 3 does not suit your purpose, follow the next procedure.
+You have now defined the basis of the account schedule, the rows of financial data to be displayed, and an existing layout of columns to show the data on the rows per different parameters. If the default column layout that you selected in step 4 does not suit your purpose, follow the next procedure.
 
-### To copy an existing account schedule
-The account schedules in the standard version of [!INCLUDE[d365fin](includes/d365fin_md.md)] are the basis of the standard financial reports, which may not suit the needs of your business. To quickly create your own financial reports, you can start by copying an existing account schedule.
-1. In the **Account Schedules** window, select an account schedule, and then choose the **Copy Account Schedule** action.
-2. In the **Copy Account Schedule** window, fill in the fields as necessary, and then choose the **OK** button.
-
-### To edit a column layouts
+### To edit a column layout
 You use column layouts to define what columns should be included in the resulting report. For example, you can design a layout to compare net change and balance for the same period this year and last year.
 
 > [!NOTE]
-> A printed/previewed/saved version of an account schedule can display a maximum of five columns. If there are more than five columns in an account schedule, only the first five are printed, previewed, saved as file. If the account schedule is only meant for analysis in the **Acc. Schedule Overview** window, then you can create as many columns as you want.
+> A printed/previewed/saved version of an account schedule can display a maximum of five columns. If the account schedule is only meant for analysis in the **Acc. Schedule Overview** window, you can create as many columns as you want.
 
 1. In the **Account Schedules** window, select the relevant account schedule, and then choose the **Edit Column Layout Setup** action.
 2. In the **Column Layouts** window, create a row for each column by which financial data is shown in the financial report. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]

@@ -34,9 +34,10 @@ You can use account categories to change the layout of your financial statements
 4. Choose the **Edit Account Schedule** action.
 5. In the **Account Schedule** window, fill in the fields as necessary.  
 
-    When you have created a new account schedule and set up the rows, you must set up columns. You can either set them up manually or assign a predefined column layout to your account schedule.
+    When you have created a new account schedule and set up the rows, you must set up columns. You can either set them up manually or assign a predefined column layout to your account schedule. In the **Column Layout** window, you define each layout by setting up both the visible columns that will appear in the reports and the intermediary columns that are used for calculation only.
+
 6. Choose the **Edit Column Layout Setup** action.
-7. In the **Column Layout** window, fill in the fields as necessary.
+7. In the **Column Layout** window, fill in the fields as necessary. 
 
 > [!NOTE]  
 > If you did not assign a default column layout to the account schedule, you must set the columns up manually.

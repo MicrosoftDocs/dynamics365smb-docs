@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2018
+ms.date: 10/16/2018
 ms.author: edupont
 
 ---
@@ -22,30 +22,55 @@ You access these two reports, for example, with the **Financials Statements** ac
 
 Setting up account schedules requires an understanding of the financial data in the chart of accounts. For example, you can view general ledger entries as percentages of budget entries. This requires that budgets are created. For more information, see [Create G/L Budgets](finance-how-create-budgets.md).
 
-## Account Categories and Account Schedules
+## Account Schedules
+Account schedules are used to arrange accounts listed in the chart of accounts in ways suited for presentation of information about those accounts. You can set up various layouts to define the information that you want to extract from the chart of accounts. One of the main functions of account schedules is to provide a place for calculations that cannot be made directly in the chart of accounts, such as creating subtotals for groups of accounts, which can be included in new totals and can then be used in other totals. For example, users can create account schedules to calculate profit margins on such dimensions as departments or customer groups. In addition, general ledger entries and general ledger budget entries can be filtered, for example, by net change or debit amount.
+
+You can also compare two or more account schedules and column layouts by using formulas. This kind of comparison provides the ability to:
+
+* Create customized financial reports.
+* Create as many account schedules as needed, each with a unique name.
+* Set up various report layouts and print the reports with the current figures.
+
+## Account Categories
 You can use account categories to change the layout of your financial statements. After you set up your account categories in the **G/L Account Categories** window, and you choose the **Generate Account Schedules** action, the underlying account schedules for the core financial reports are updated. The next time you run one of these reports, such as the Balance Statement report, new totals and subentries are added, based on your changes. For more information, see The "Account Categories" section in [Understanding the General Ledger and the COA](finance-general-ledger.md).  
 
-## To create new account schedules  
- You use account schedules to analyze figures in general ledger accounts or to compare general ledger entries with general ledger budget entries. For example, you can view the general ledger entries as percentages of the budget entries.
+## To create a new account schedule  
+You use account schedules to analyze figures in general ledger accounts or to compare general ledger entries with general ledger budget entries. For example, you can view the general ledger entries as percentages of the budget entries.
+
+The **Acc. Schedule Overview** window is where you preview the financial report that the account schedule defines. In the following, it is important to understand that what you set up as account schedule rows and columns can only be seen and validated in the **Acc. Schedule Overview** window, which you open from an account schedule by choosing the **Overview** action. The **Account Schedule** window itself is only a setup area.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedules**, and then choose the related link.  
-2. In the **Account Schedule Names** window, choose the **New** action to create a new account schedule name.
-3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. In the **Account Schedules** window, choose the **New** action to create a new account schedule name.
+3. Fill in the fields as necessary. In the **Default Column Layout** field select an existing layout. You can edit it later if you want.
+
+    You use column layouts to define columns for different parameters by which the financial data on the rows are shown. For example, you can design a column layout to compare net change and balance for the same period this year and last year, with four columns. For more information, see the "To edit a column layout" section.
+
 4. Choose the **Edit Account Schedule** action.
-5. In the **Account Schedule** window, fill in the fields as necessary.  
+5. Create a row for each financial element that you want to appear in the report, such as one row for current assets and another row for fixed assets. For inspiration, see existing account schedules in the CRONUS demonstration company.
+6. Choose the **Overview** action to see the resulting financial report.
+7. In the **Acc. Schedule Overview** window, in the **Column Layout Name** field, select another column layout to see the financial data by other parameters.
+6. Choose the **OK** button.
 
-    When you have created a new account schedule and set up the rows, you must set up columns. You can either set them up manually or assign a predefined column layout to your account schedule. In the **Column Layout** window, you define each layout by setting up both the visible columns that will appear in the reports and the intermediary columns that are used for calculation only.
-
-6. Choose the **Edit Column Layout Setup** action.
-7. In the **Column Layout** window, fill in the fields as necessary. 
-
-> [!NOTE]  
-> If you did not assign a default column layout to the account schedule, you must set the columns up manually.
+You have now defined the basis of the account schedule, the rows of financial data to be displayed, and an existing layout of columns to show the data on the rows per different parameters. If the default column layout that you selected in step 3 does not suit your purpose, follow the next procedure.
 
 ### To copy an existing account schedule
 The account schedules in the standard version of [!INCLUDE[d365fin](includes/d365fin_md.md)] are the basis of the standard financial reports, which may not suit the needs of your business. To quickly create your own financial reports, you can start by copying an existing account schedule.
 1. In the **Account Schedules** window, select an account schedule, and then choose the **Copy Account Schedule** action.
 2. In the **Copy Account Schedule** window, fill in the fields as necessary, and then choose the **OK** button.
+
+### To edit a column layouts
+You use column layouts to define what columns should be included in the resulting report. For example, you can design a layout to compare net change and balance for the same period this year and last year.
+
+> [!NOTE]
+> A printed/previewed/saved version of an account schedule can display a maximum of five columns. If there are more than five columns in an account schedule, only the first five are printed, previewed, saved as file. If the account schedule is only meant for analysis in the **Acc. Schedule Overview** window, then you can create as many columns as you want.
+
+1. In the **Account Schedules** window, select the relevant account schedule, and then choose the **Edit Column Layout Setup** action.
+2. In the **Column Layouts** window, create a row for each column by which financial data is shown in the financial report. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Choose the **OK** button.
+4. Open the **Acc. Schedule Overview** window from time to time to verify that the new column layout works as intended.
+
+> [!NOTE]
+> The columns that you define on each row represent columns 3 and up in the **Acc. Schedule Overview** window. The first two columns, **Row No.** and **Description**, are fixed.  
 
 ### To create a column that calculates percentages  
 Sometimes you may want to include a column in an account schedule to calculate percentages of a total. For example, if you have a number of rows that break down sales by dimension, you may want a column to indicate the percentage of total sales that each row represents.
@@ -71,7 +96,7 @@ You can use an account schedule to create a statement comparing general ledger f
 
     The accounts are now inserted into your account schedule. If you want you can also change the column layout.  
 7. Choose the **Overview** action.  
-8. On the **Dimension Filters** FastTab, set the budget filter to the desired filter name.  
+8. In the **Acc. Schedule Overview** window, on the **Dimension Filters** FastTab, set the budget filter to the desired filter name.  
 9. Choose the **OK** button.  
 
 Now you can copy and paste your budget statement into a spreadsheet.  
@@ -82,7 +107,6 @@ Your account schedule can compare the results of different accounting periods, s
 An accounting period does not have to match the calendar, but each fiscal year must have the same number of accounting periods, even though each period can be different in length.   
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] uses the period formula to calculate the amount from the comparison period in relation to the period represented by the date filter on the report request. The comparison period is based on the period of the start date of the date filter. The abbreviations for period specifications are:
-
 
 <table>
 <colgroup>

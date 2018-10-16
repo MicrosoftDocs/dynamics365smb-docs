@@ -18,6 +18,7 @@ The following topics describe local functionality that is unique to the United S
 
 ## In This Section  
 [Create Deposits](how-to-create-deposits.md)  
+[Export a Positive Pay File](../finance-how-positive-pay.md)
 [How to Manage Customer Credit Information](how-to-manage-customer-credit-information.md)  
 [Print Troubleshooting Reports](how-to-print-troubleshooting-reports.md)  
 [Reconcile Bank Accounts](how-to-reconcile-bank-accounts.md)  

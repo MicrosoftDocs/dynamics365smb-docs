@@ -35,7 +35,7 @@ Because you can post different payment types to different balancing accounts, yo
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Register Customer Payments**, and then choose the related link.  
 
-    The **Register Customer Payments** window shows all posted documents for which a payment can be registered. The window can also be opened from the **Customers** list and the customer card where it is automatically filtered for the specified customer.  
+    The **Register Customer Payments** window shows all posted documents for which a payment can be registered. The window can also be opened from the **Customers** and **Customer Card** windows where it is automatically filtered for the specified customer.  
 2. Select the **Payment Made** check box on the line that represents the posted document for which a payment has been made.
 
     If the **Auto Fill Date Received** check box is selected in the **Payment Registration Setup** window, then the work date is entered in the **Date Received** field.  

@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
-ms.date: 10/01/2018
+ms.date: 10/17/2018
 ms.author: sgroespe
 
 ---
@@ -34,8 +34,8 @@ Because you can post different payment types to different balancing accounts, yo
 ## To register customer payments individually
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Register Customer Payments**, and then choose the related link.  
- 
-    The **Register Customer Payments** page shows all posted documents for which a payment can be registered. The same page is also available from the **Customers** list and the customer card where it is automatically filtered for the specified customer.  
+
+    The **Register Customer Payments** window shows all posted documents for which a payment can be registered. The window can also be opened from the **Customers** list and the customer card where it is automatically filtered for the specified customer.  
 2. Select the **Payment Made** check box on the line that represents the posted document for which a payment has been made.
 
     If the **Auto Fill Date Received** check box is selected in the **Payment Registration Setup** window, then the work date is entered in the **Date Received** field.  

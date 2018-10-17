@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/16/2018
     ms.author: sgroespe
 
 ---
@@ -24,8 +24,8 @@ You can set up and use workflows that connect business-process tasks performed b
 
  If a business scenario requires a workflow event or response that is not supported, a Microsoft partner must implement them by customizing the application code. For more information, see [Walkthrough: Implementing New Workflow Events and Responses](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses) in the developer and IT-pro help.
 
-> [!NOTE]  
-> Workflows can also be initiated from Microsoft Flow. For more information, see [Using Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md).  
+ > [!NOTE]
+ > In addition to the Workflow functionality within [!INCLUDE[d365fin](includes/d365fin_md.md)], you can integrate to Microsoft Flow to define workflows for events in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Note that although they are two separate workflow systems, any Flow template that you create with Microsoft Flow is added to the list of workflow templates within [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Using Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md).  
 
  The following table describes a sequence of tasks, with links to the topics that describe them.  
 

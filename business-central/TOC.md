@@ -162,7 +162,7 @@
 ## [Managing Receivables](receivables-manage-receivables.md)
 ###[Applying Payments Automatically and Reconcile Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ### [Reconcile Customer Payments Manually From a List of Unpaid Sales Documents](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
-### [Apply Customer Payments Manually](receivables-how-apply-sales-transactions-manually.md)  
+### [Reconcile Customer Payments Manually](receivables-how-apply-sales-transactions-manually.md)  
 ### [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)
 ### [Predicting Late Payments](ui-extensions-late-payment-prediction.md)
 ### [Collecting Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)

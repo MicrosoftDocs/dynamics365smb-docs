@@ -157,7 +157,7 @@
 ## [Deleting Documents](admin-manage-documents.md)
 ## [Publishing a Web Service](across-how-publish-web-service.md)
 ## [Configuring API Templates](admin-configuring-api-template.md)
-## [Managing Data Encryption](admin-manage-data-encryption)
+## [Managing Data Encryption](admin-manage-data-encryption.md)
 
 # [Finance](finance.md)
 ## [Managing Receivables](receivables-manage-receivables.md)

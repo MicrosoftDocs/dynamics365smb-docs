@@ -157,7 +157,7 @@
 ## [Deleting Documents](admin-manage-documents.md)
 ## [Publishing a Web Service](across-how-publish-web-service.md)
 ## [Configuring API Templates](admin-configuring-api-template.md)
-## [Encrypting Data in Business Central (in Developer and IT-Pro Help)](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data)
+## [Managing Data Encryption](admin-manage-data-encryption)
 
 # [Finance](finance.md)
 ## [Managing Receivables](receivables-manage-receivables.md)

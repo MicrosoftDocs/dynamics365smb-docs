@@ -1,6 +1,6 @@
 ---
 title: Assign or Edit User Permissions  | Microsoft Docs
-description: Describes how add Office 365 users to Business Central, and then assign permissions, access rights, and security settings.
+description: Describes how to add Office 365 users to Business Central, and then assign permissions, access rights, and security settings.
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 10/01/2018
+ms.date: 10/24/2018
 ms.author: sgroespe
 
 ---
@@ -145,8 +145,9 @@ The following procedure explains how to assign permission sets to a user in the 
 > When you edit a permission set, the changes will also apply to other users that have the permission set assigned.
 
 ## See Also
+[Understanding Users, Profiles, and Role Centers](admin-users-profiles-roles.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
-[Changing Which Features are Displayed](ui-experiences.md)   
+[Changing Which Features are Displayed](ui-experiences.md)  
 [Administration](admin-setup-and-administration.md)  
 [Add Users to Office 365 for business](https://aka.ms/CreateOffice365Users)  
 [Microsoft Dynamics 365 Business Central Licensing Guide](https://aka.ms/BusinessCentralLicensing)

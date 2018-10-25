@@ -5,11 +5,8 @@ author: edupont04
 
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: profiles, users
-ms.date: 10/01/2018
+ms.date: 10/24/2018
 ms.author: edupont
 
 ---
@@ -24,6 +21,11 @@ Access to functionality is managed through *user groups* and *profiles*. As an a
 To add users in [!INCLUDE[d365fin](includes/d365fin_md.md)] online, your company's Office 365 administrator must first create the users in the Office 365 Admin Center. For more information, see [Add Users to Office 365 for business](https://aka.ms/CreateOffice365Users).
 
 Then, the administrator can assign permissions to each user and groups of users. For more information, see [Managing Users and Permissions](ui-how-users-permissions.md).  
+
+The most powerful permissions that a user can have is the SUPER permission set. Each company must have at least one user with this permission set, but it is a best practice to give each user permissions that match their work needs in [!INCLUDE[prodshort](includes/prodshort.md)] and not more than that. This helps ensure that users only have access to data that is relevant to their work, for example.  
+
+> [!TIP]
+> It's a best practice to make sure that the Office 365 administrator also has the SUPER permission set in [!INCLUDE[prodshort](includes/prodshort.md)] because that makes many administrative tasks easier, including setting up integration with other apps.
 
 ### Users of on-premises deployments
 

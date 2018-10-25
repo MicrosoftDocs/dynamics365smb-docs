@@ -38,5 +38,5 @@ If a payment term must be paid in one installment, you must still specify how th
 The **Payment Nos.** field in the **Payment Terms** window is updated. The payment terms that you set here will be a reference for automatic due date calculation for documents that you post for relevant customers and vendors.  
 
 ## See Also  
- [How to: Set Up Automatic Payments and Automatic Bills](how-to-set-up-automatic-payments-and-automatic-bills.md)   
+ [Set Up Automatic Payments and Automatic Bills](how-to-set-up-automatic-payments-and-automatic-bills.md)   
  [Italy Local Functionality](italy-local-functionality.md)   

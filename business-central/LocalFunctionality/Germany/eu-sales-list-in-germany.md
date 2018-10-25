@@ -21,7 +21,7 @@ In order to increase security, all types of taxes and tax reports must be submit
 ## See Also  
 [BZSt Online Portal](https://www.bzst.de)   
 [Create VAT Reports](how-to-create-vat-reports.md)  
-[How to: Set Up VAT-VIES Reports](how-to-set-up-vat-reports.md)  
-[How to: Create VAT-VIES Reports](how-to-create-vat-reports.md)  
-[How to: Correct VAT-VIES Reports](how-to-correct-vat-reports.md)  
+[Set Up VAT-VIES Reports](how-to-set-up-vat-reports.md)  
+[Create VAT-VIES Reports](how-to-create-vat-reports.md)  
+[Correct VAT-VIES Reports](how-to-correct-vat-reports.md)  
 [Declare VAT-VIES Tax](how-to-declare-vat-vies-tax.md)  

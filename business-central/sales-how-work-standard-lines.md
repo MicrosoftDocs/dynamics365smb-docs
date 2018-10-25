@@ -11,14 +11,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 10/15/2018
+ms.date: 10/24/2018
 ms.author: sgroespe
 
 ---
 # Create Recurring Sales and Purchase Lines
 If you often need to create sales and purchase lines with similar information, you can set up standard lines that you can then insert on recurring sales and purchase documents, for example, for recurring replenishment orders.  
 
-The following procedure shows how to work with standard sales lines. It works in a similar way for standard purchase lines.  
+The following procedures show how to work with standard sales lines on a sales invoice. It works in a similar way for all other sales documents and for all purchase documents.  
 
 ## To set up standard sales lines  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Standard Sales Lines**, and then choose the related link.  

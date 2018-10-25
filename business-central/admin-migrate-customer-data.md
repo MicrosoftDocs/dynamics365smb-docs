@@ -130,7 +130,7 @@ When you have exported a migration table, your next step is to enter the custome
 
 For assistance with XML, enable the **Developer** tab of the Excel ribbon, and then choose the **Source** action to see the XML schema of your migration table as represented in Excel.
 
-The following procedure is based on an Excel worksheet that you have created for migration. For more information, see the How to: Export Migration Tables.
+The following procedure is based on an Excel worksheet that you have created for migration. For more information, see the "To export data migration files" section.
 
 > [!IMPORTANT]  
 > Do not change the columns in the Excel worksheets. If they are moved, changed, or deleted, the worksheet cannot be imported into [!INCLUDE[d365fin](includes/d365fin_md.md)].

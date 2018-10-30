@@ -12,7 +12,7 @@ ms.date: 10/01/2018
 ms.author: jswymer
 ---
 
-# PC Keyboard shortcuts quick reference
+# Keyboard shortcuts quick reference
 
 ||||  
 |----------------|-----------|----------------| 

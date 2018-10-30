@@ -38,9 +38,9 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Enter|Enable or access the element or control that is in focus.|   
 |Alt+Down Arrow|Open a drop-down list or look up a value for a field.|    
 |Alt+Right Arrow|See the transactions that resulted in a calculated value in a field.|  
-|Esc|Close the current page or drop-down.|
-|F5|Refresh the data on the current page.|Use this to ensure that the data on the page is update with any changes that others have made while you are working.|
+|F5|Refresh the data on the current page.|Use this to ensure that the data on the page is up-to-date with any changes that others have made while you are working.|
 |Ctrl+F5|Reload the [!INCLUDE[prodshort](includes/prodshort.md)] application.|This is similar to selecting refresh/reload in the browser.|
+|Esc|Close the current page or drop-down.|
 
 
 ## Keyboard Shortcuts in Lists

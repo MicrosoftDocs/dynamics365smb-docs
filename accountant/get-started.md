@@ -5,11 +5,8 @@ author: edupont04
 
 ms.service: dynamics365-accountant
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 05/15/2018
+ms.date: 11/05/2018
 ms.author: edupont
 ---
 # Get started with [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
@@ -59,7 +56,7 @@ Technically, you have now logged into your client's [!INCLUDE [d365fin](includes
 Otherwise, close the details pane and continue to the next client.  
 
 ## Assigned tasks
-In your client's [!INCLUDE [d365fin](includes/d365fin_md.md)], you can assign tasks to yourself and others, and others can assign tasks to you. Your dashboard in [!INCLUDE [d365acc](includes/d365acc_md.md)] gives you an overview of assigned tasks for each client, and you can also access a list of all assigned tasks by choosing **My User Tasks** in the left navigation.  
+In your client's [!INCLUDE [d365fin](includes/d365fin_md.md)], you can assign tasks to yourself and others, and others can assign tasks to you. Your dashboard in [!INCLUDE [d365acc](includes/d365acc_md.md)] gives you an overview of assigned tasks for each client, and you can also access a list of all assigned tasks by choosing **My User Tasks** ont he **Home** page.  
 
 In the client company, you also have cues that call out tasks assigned to you in this particular client.
 

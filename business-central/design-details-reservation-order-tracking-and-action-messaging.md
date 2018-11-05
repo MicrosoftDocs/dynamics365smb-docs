@@ -61,7 +61,7 @@ The reservations system is comprehensive and includes the interrelated and paral
 
  The following table shows when and which modifications may occur:  
 
-|User action|System reaction|  
+|User Action|System Reaction|  
 |-----------------|---------------------|  
 |Decreasing the reserved quantity|The related quantity fields are updated.|  
 |Changing date fields|The related date fields are updated.<br /><br /> **Note:** If the due date on a demand is changed to precede the shipment date or due date of the supply, then the reservation is canceled.|  
@@ -120,7 +120,8 @@ The reservations system is comprehensive and includes the interrelated and paral
  The following scenario shows which order tracking entries are created in the **Reservation Entry** table as results of various order network changes.  
 
  Assume the following data for two items that are set up for order tracking.  
-
+|||
+|--|--|
 |Item 1|Name|“Component”|  
 ||Availability|100 units in RED location<br /><br />- 30 units of LOTA<br />- 70 units of LOTB|  
 |Item 2|Name|“Produced Item”|  

@@ -78,7 +78,7 @@ The reservations system is comprehensive and includes the interrelated and paral
 
 -   A multilevel production order where the **Manufacturing Policy** field of the involved parent and child items is set to **Make-to-Order**. The planning system creates reservations between the parent production order and the underlying production orders to ensure that they are processed together. Such a reservation binding overrides the item’s default costing and application method.  
 
--   A production, assembly, or purchase order where the **Reordering Policy** field of the involved item is set to **Order**. The planning system creates reservations between the demand and the planned supply to ensure that the specific supply is created. For more information, see [Design Details: Order](../Topic/Design%20Details:%20Order.md).  
+-   A production, assembly, or purchase order where the **Reordering Policy** field of the involved item is set to **Order**. The planning system creates reservations between the demand and the planned supply to ensure that the specific supply is created. For more information, see [Design Details: Order](design-details-order.md).  
 
 -   A production order created from a sales order with the **Sales Order Planning** function is linked to the sales order with an automatic reservation.  
 
@@ -137,7 +137,7 @@ The reservations system is comprehensive and includes the interrelated and paral
 
  The following order tracking entries exist in the **Reservation Entry** table based on the data in the table.  
 
- ![Order tracking entries in Reservation Entry table](../media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
+ ![Order tracking entries in Reservation Entry table](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
 
 ### Entry Numbers 8 and 9  
  For the component need for LOTA and LOTB respectively, order tracking links are created from the demand in table 5407, **Prod. Order Component**, to the supply in table 32, **Item Ledger Entry**. The **Reservation Status** field contains **Tracking** to indicate that these entries are dynamic order tracking links between supply and demand.  
@@ -155,7 +155,7 @@ The reservations system is comprehensive and includes the interrelated and paral
 
  Now the following order tracking entries exist in the **Reservation Entry** table.  
 
- ![Order tracking entries in Reservation Entry table](../media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
+ ![Order tracking entries in Reservation Entry table](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
 ### Entry Numbers 8 and 9  
  Order tracking entries for the two lots of the component reflecting demand in table 5407 are changed from a reservation status of **Tracking** to **Surplus**. The reason is that the supplies that they were linked to before, in table 32, have been used by the shipment of the transfer order.  
@@ -169,7 +169,7 @@ The reservations system is comprehensive and includes the interrelated and paral
 
  Now the following order tracking entries exist in the **Reservation Entry** table.  
 
- ![Order tracking entries in Reservation Entry table](../media/supply_planning_RTAM_3.png "supply_planning_RTAM_3")  
+ ![Order tracking entries in Reservation Entry table](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3")  
 
  The order tracking entries are now similar to the first point in the scenario, before the transfer order was posted as shipped only, except entries for the component are now of reservation status **Surplus**. This is because the component need is still at RED location, reflecting that the **Location Code** field on the production order component line contains **RED** as set up in the **Components at Location** setup field. The supply that was allocated to this demand before has been transferred to BLUE location and can now not be fully tracked unless the component need on the production order line is changed to BLUE location.  
 
@@ -177,14 +177,14 @@ The reservations system is comprehensive and includes the interrelated and paral
 
  Now the following order tracking entries exist in the **Reservation Entry** table.  
 
- ![Order tracking entries in Reservation Entry table](../media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
+ ![Order tracking entries in Reservation Entry table](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
 
 ### Entry Numbers 21 and 22  
  Since the component need has been changed to BLUE location, and the supply is available as item ledger entries at BLUE location, all order tracking entries for the two lot numbers are now fully tracked, indicated by the reservation status of **Tracking**.  
 
  The **Lot No.** field is now filled in the order tracking entry for table 5407, because the lot numbers were assigned to the production order component lines.  
 
- For more examples of order tracking entries in the **Reservation Entry** table, see the “Reservation Entry Table” white paper on [PartnerSource](http://go.microsoft.com/fwlink/?LinkId=258348).  
+ For more examples of order tracking entries in the **Reservation Entry** table, see the “Reservation Entry Table” white paper on [PartnerSource](http://go.microsoft.com/fwlink/?LinkId=258348) (requires login).
 
 ## Action Messaging  
  When the order tracking system detects an imbalance in the order network, it automatically creates an action message to notify the user. Action messages are system-generated calls for user action that specify the details of the imbalance and the suggestions about how to restore balance to the order network. They are displayed as planning lines in the **Planning Worksheet** window when you choose **Get Action Messages**. In addition, action messages are displayed on planning lines that are generated by the planning run to reflect the planning system’s suggestions about how to restore balance to the order network. In both cases, the suggestions are run on the order network, when you choose **Carry Out Action Messages**.  

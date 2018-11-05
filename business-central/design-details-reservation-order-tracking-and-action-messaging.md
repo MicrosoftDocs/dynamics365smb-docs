@@ -121,18 +121,12 @@ The reservations system is comprehensive and includes the interrelated and paral
 
  Assume the following data for two items that are set up for order tracking.  
 
-||Name|“Component”|  
-|-|----------|-----------------|  
-|Item 1|Availability|100 units in RED location<br /><br /> -   30 units of LOTA<br />-   70 units of LOTB|  
-
-||Name|“Produced Item”|  
-|-|----------|---------------------|  
-|Item 2|Production BOM|1 qty. per of “Component”|  
+|Item 1|Name|“Component”|  
+||Availability|100 units in RED location<br /><br />- 30 units of LOTA<br />- 70 units of LOTB|  
+|Item 2|Name|“Produced Item”|  
+||Production BOM|1 qty. per of “Component”|  
 ||Demand|Sale for 100 units at BLUE location|  
 ||Supply|Released production order (generated with the **Sales Order Planning** function for the sale of 100 units)|  
-
-||Name|“Component”|  
-|-|----------|-----------------|  
 |Manufacturing Setup|Components at Location|RED|  
 
  The following order tracking entries exist in the **Reservation Entry** table based on the data in the table.  

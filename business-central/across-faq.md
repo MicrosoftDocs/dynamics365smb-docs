@@ -5,11 +5,8 @@ author: edupont04
 
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan, application area, experience
-ms.date: 10/15/2018
+ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan, application area, experience, support
+ms.date: 11/05/2018
 ms.author: edupont
 
 ---
@@ -48,13 +45,21 @@ This is a bit complicated, but it looks like your administrator didn't change yo
 Did you read about a new capability in the roadmap or on our blog recently? In that case, your [!INCLUDE[d365fin](includes/d365fin_md.md)] might not have been upgraded to the latest version yet. If the capability is published as an extension in AppSource, then there is a delay between the extension being announced and its availability in AppSource.  
 
 ## Can I get training in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-Yes, you can. But currently, you have to ask your reselling partner. If you don't know who that is, find a Business Central partner [here](https://www.microsoft.com/en-us/solution-providers/search).  
+Yes, you can. But currently, you have to ask your reselling partner. If you don't know who that is, find a Business Central partner [here](https://go.microsoft.com/fwlink/?linkid=2038145).  
 
 If you have access to Microsoft CustomerSource, you can get access to the Imagine Academy site with  eLearning material. For more information on how to get access, see the [Microsoft Dynamics 365 training](/dynamics365/get-started/training/index#dynamics-365-customers) page.  
 
 ## Is [!INCLUDE[d365fin](includes/d365fin_md.md)] available in my country?
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is available in a limited number of markets, but new countries are added through Microsoft-led localization or through partner-led localization on a quarterly basis. For more information, see [Countries and Translations Supported](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
+
+## How do I get technical support for [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] is sold through partners, and you should contact your reselling partner to get help with technical problems. If your [!INCLUDE[d365fin](includes/d365fin_md.md)] partner then cannot resolve the problem, they will raise a support ticket with Microsoft.  
+
+If you have signed up for a trial and have not yet purchased [!INCLUDE[d365fin](includes/d365fin_md.md)], you do not have a reselling partner, and you cannot contact the Microsoft support team.  
+
+You can find a Business Central partner on the [https://www.microsoft.com/solution-providers/search](https://go.microsoft.com/fwlink/?linkid=2038145) page.  
 
 ## Why does Help describe functionality that I cannot access?
 If your Experience setting in the **Company Information** window is set to **Essential**, then UI elements for the Manufacturing and Service Management features are not visible to you because they require the **Premium** experience. A text note is inserted in high-level help topics for these feature areas. For more information, see [Changing Which Features are Displayed](ui-experiences.md).    

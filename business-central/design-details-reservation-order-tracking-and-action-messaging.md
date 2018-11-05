@@ -125,12 +125,11 @@ The reservations system is comprehensive and includes the interrelated and paral
 |-|-|-|
 ||Availability|100 units in RED location<br /><br />- 30 units of LOTA<br />- 70 units of LOTB|  
 |Item 2|Name|“Produced Item”|
-|-|-|-|  
 ||Production BOM|1 qty. per of “Component”|  
 ||Demand|Sale for 100 units at BLUE location|  
 ||Supply|Released production order (generated with the **Sales Order Planning** function for the sale of 100 units)|  
-|Manufacturing Setup|Components at Location|RED|
-|-|-|-|
+
+In the **Manufacturing Setup** window, the **Components at Location** field is set to **RED**.
 
  The following order tracking entries exist in the **Reservation Entry** table based on the data in the table.  
 

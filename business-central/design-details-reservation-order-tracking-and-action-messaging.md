@@ -193,7 +193,7 @@ The reservations system is comprehensive and includes the interrelated and paral
 
  The following table shows the action messages that exist.  
 
-|Action message|[!INCLUDE[bp_tabledescription](../Token/bp_tabledescription_md.md)]|  
+|Action message|Description|  
 |--------------------|---------------------------------------|  
 |**Change Qty.**|Changes the quantity on an existing supply order to cover a changed or new demand.|  
 |**Reschedule**|Reschedules the due date on an existing order.|  

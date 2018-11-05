@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 11/05/2018
     ms.author: sgroespe
 
 ---
@@ -29,7 +29,7 @@ Forming production families reduces the scrap quantity because what would normal
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Families**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## To produce based on a production familily
+## To produce based on a production family
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Orders**, and then choose the related link.
 2. Create a new production order. For more information, see [Create Production orders](production-how-to-create-production-orders.md).
 3. In the **Source Type** field, select **Family**.  

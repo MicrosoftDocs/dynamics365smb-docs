@@ -73,7 +73,7 @@ Enter the word for `today`, in the language set by **Language** setting, that wi
 
 ### Period
 
-To filter on a specific accounting period in a date field, use the letter `p`, or the word `period`, followed by a number that identifies the accounting period, like `p2` or `period4`. The accounting period is relative to the fiscal year of the current work date that set in your Role Center. For example, if the work date is **03/21/20**, then `p1`, or just `p`, filters on the first accounting period of the fiscal year 2020 (such as `01/01/20..01/31/20`). `p15` filters on the fifteenth accounting period from the start of fiscal year 2020 (such as `03/01/21..03/31/21`).
+To filter on a specific accounting period. in a date field enter the letter `p`, or the word `period`, followed by a number that identifies the accounting period, like `p2` or `period4`. The accounting period is relative to the fiscal year of the current work date that set in your Role Center. For example, if the work date is **03/21/20**, then `p1`, or just `p`, filters on the first accounting period of the fiscal year 2020 (such as `01/01/20..01/31/20`). `p15` filters on the fifteenth accounting period from the start of fiscal year 2020 (such as `03/01/21..03/31/21`).
 
 
 ### Current work date

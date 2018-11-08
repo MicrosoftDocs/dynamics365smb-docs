@@ -107,7 +107,7 @@ The following table contains examples of dates using all the formats. It assumes
 |`11`|work date year.work date month.11.|
 |`1112`|work date year.11.12.|
 |`t` or `today`|today's date|
-|`p1..p4`|date range that includes the second, third, and fourth accounting period, such as `01/01/20..04/30/20`|
+|`p4`|date range that includes the fourth accounting period, such as `04/30/20`|
 |`w` or `workdate`|the working date|
 |`m` or `Monday`|Monday of the work date week|
 |`tu` or `Tuesday`|Tuesday of the work date week|
@@ -122,7 +122,7 @@ On lists, totals and reports, you can set filters on dates, times and datetimes 
 
 |**Meaning**|**Sample expression (Date)**|**Data included in the filter**|
 |-----------|---------------------|--------------------|
-|Interval|`12 15 00..01 15 01`  \n`..12 15 00`|Records with dates between and including 12 15 00 and 01 15 01.  \nRecords with dates of 12 15 00 or earlier.|
+|Interval|`12 15 00..01 15 01`<br /><br />`..12 15 00`<br /><br />`p1..p4`|Records with dates between and including 12 15 00 and 01 15 01.<br /><br />Records with dates of 12 15 00 or earlier.<br /><br />Date range that includes the second, third, and fourth accounting periods, such as `01/01/20..04/30/20`.|
 |Either/or|`12 15 00|12 16 00`|Records with dates of either 12 15 00 or 12 16 00. If there are records with dates on both days, they will all be displayed.|
 |Combination|`12 15 00|12 01 00..12 10 00`  \n`..12 14 00|12 30 00..`|Records with dates of 12 15 00 or on dates between and including 12 01 00 and 12 10 00.  \nRecords with dates of 12 14 00 or earlier, or dates of 12 30 00 or later, that is, all records except those with dates between and including 12 15 00 and 12 29 00.|
 

@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 11/08/2018
     ms.author: sgroespe
 
 ---
@@ -32,7 +32,7 @@ You can set up and use workflows that connect business-process tasks performed b
 |Set up workflow users who take part in approval workflows.|[Set Up Approval Users](across-how-to-set-up-approval-users.md)|  
 |Specify how workflow users are notified of workflow steps, including approval requests.|[Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)|  
 |Specify when users receive notifications and whether to aggregate notifications in a period to minimize the number of notifications.|[Specify When and How to Receive Notifications](across-how-to-specify-when-and-how-to-receive-notifications.md)|  
-|Set up the layout and general content of new workflow notifications emails, or export, modify, and reimport existing templates.|[Manage Notification Templates](across-how-to-manage-notification-templates.md)|  
+|Customize the content of the email notification by modifying report 1320, Notification Email.|[Create and Modify a Custom Report or Document Layout](business-central/ui-how-create-custom-report-layout.md)|  
 |Set up an SMTP server to enable email communication in and out of [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Set up Email](admin-how-setup-email.md)|
 |Specify the different steps of a workflow by connection workflow events with workflow responses.|[Create Workflows](across-how-to-create-workflows.md)|  
 |Use workflow templates to create new workflows.|[Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)|  

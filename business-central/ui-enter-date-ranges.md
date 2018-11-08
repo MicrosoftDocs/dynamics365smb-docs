@@ -73,7 +73,7 @@ Enter the word for `today`, in the language set by **Language** setting, that wi
 
 ### Period
 
-To filter on a specific accounting period in a date field, use the letter `p`, or the word `period`, followed by a number that identifies the accounting period, like `p2` or `period4`. The accounting period is relative to the fiscal year of the current work date that set in your Role Center. For example, if the work date is **03/21/20**, then `p1`, or just `p`, filters on the first accounting period of the fiscal year 2020 (such as `01/01/20..01/31/20`). `p15` filters on the fifteenth accounting period from the start of fiscal year 2020 (such as `03/01/21..03/31/21`). 
+To filter on a specific accounting period in a date field, use the letter `p`, or the word `period`, followed by a number that identifies the accounting period, like `p2` or `period4`. The accounting period is relative to the fiscal year of the current work date that set in your Role Center. For example, if the work date is **03/21/20**, then `p1`, or just `p`, filters on the first accounting period of the fiscal year 2020 (such as `01/01/20..01/31/20`). `p15` filters on the fifteenth accounting period from the start of fiscal year 2020 (such as `03/01/21..03/31/21`).
 
 
 ### Current work date
@@ -107,7 +107,7 @@ The following table contains examples of dates using all the formats. It assumes
 |`11`|work date year.work date month.11.|
 |`1112`|work date year.11.12.|
 |`t` or `today`|today's date|
-|`p2` or `period2`|date range that defines the second accounting period, such as `03/01/20..03/31/20`|
+|`p1..p4`|date range that includes the second, third, and fourth accounting period, such as `01/01/20..04/30/20`|
 |`w` or `workdate`|the working date|
 |`m` or `Monday`|Monday of the work date week|
 |`tu` or `Tuesday`|Tuesday of the work date week|

@@ -1,6 +1,6 @@
 ---
 title: Assign or Edit User Permissions  | Microsoft Docs
-description: Describes how add Office 365 users to Business Central, and then assign permissions, access rights, and security settings.
+description: Describes how to add Office 365 users to Business Central, and then assign permissions, access rights, and security settings.
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 10/01/2018
+ms.date: 11/08/2018
 ms.author: sgroespe
 
 ---
@@ -63,7 +63,7 @@ Administrators can define periods of time during which specified users are able 
 3. In the **User ID** field, enter the ID of a user, or choose the field to see all current Windows users in the system.
 4. Fill in the fields as necessary.
 
-## To create or edit a permission set
+## To create or modify a permission set
 Permission sets function as containers of permissions, so that you can easily manage multiple permissions in one record. When you have created a permission set, you must add the actual permissions. For more information, see the "To create or edit permissions" section.
 
 > [!NOTE]  
@@ -86,7 +86,9 @@ When you create new permission sets, you can use a copy function to quickly carr
 
 The new permission set, containing all the permissions of the copied permission set, is added as a new line in the **Permission Sets** window. Note that the lines are sorted alphabetically within each type.
 
-## To create or edit permissions
+## To create or modify permissions manually
+This procedure explains how to add or edit permissions manually. You can also have a permission sets generated automatically from your actions in the UI. For more information, see the "To create or modify permission sets by recording your actions" section.
+
 1. In the **Permission Sets** window, select the line for a permission set, and then choose the **Permissions** action.
 2. In the **Permissions** window, create a new line or edit the fields on an existing line.
 
@@ -97,6 +99,26 @@ In each of the five access type fields, **Read Permission**, **Insert Permission
 |**Yes**|The user can perform the action on the object in question.|Highest|
 |**Indirect**|The user can perform the action on the object in question but only through another related object that the user has full access to.|Second highest|
 |**Blank**|The user cannot perform the action on the object in question.|Lowest|
+
+### Example - Indirect Permission
+You can assign an indirect permission to use an object only through another object.
+For example, a user can have permission to run codeunit 80, Sales-Post. The Sales-Post codeunit performs many tasks, including modifying table 37, Sales Line. When the user posts a sales document, the Sales-Post codeunit, [!INCLUDE[d365fin](includes/d365fin_md.md)] checks if the user has permission to modify theSales Line table. If not, the codeunit cannot complete its tasks, and the user receives an error message. If so, the codeunit runs successfully.
+
+However, the user does not need to have full access to the Sales Line table to run the codeunit. If the user has indirect permission for the Sales Line table, then the Sales-Post codeunit runs successfully. When a user has indirect permission, that user can only modify the Sales Line table by running the Sales-Post codeunit or another object that has permission to modify the Sales Line table. The user can only modify the Sales Line table when doing so from supported application areas. The user cannot run the feature inadvertently or maliciously by other methods.
+
+## To create or modify permission sets by recording your actions
+1.	Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Permission Sets**, and then choose the related link.
+2.	Alternatively, in the **Users** window, choose the **Permission Sets** action.
+3.	In the **Permission Sets** window, choose the **New** Action.
+4.	On a new line, fill in the fields as necessary.
+5.	Choose the **Permissions** action.
+6.	In the **Permissions** window, choose the **Record Permissions** action, and then choose the **Start** action.
+
+    This starts a recording process that captures all your action in the user interface.
+7.	Go to the various windows and activities in [!INCLUDE[d365fin](includes/d365fin_md.md)] that you want users with this permission set to access. You must carry out the tasks that you want to record permissions for.
+8.	When you want to finish the recording, return to the **Permissions** window, and then choose the **Stop** action.
+9.	Choose the **Yes** button to add the recorded permissions to the new permission set.
+10.	For each object in the recorded list, specify if users are able to insert, modify, or delete records in the recorded tables.
 
 > [!NOTE]  
 > When you edit a permission and thereby the related permission set, the changes will also apply to other users that have the permission set assigned.
@@ -122,7 +144,7 @@ The following procedure explains how to assign permission sets to a user in the 
 3. In the **Permission Set by User** window, select the **[user name]** check box on a line for the relevant permission set to assign the set to the user.
 4. Select the **All Users** check box to assign the permission set to all users.
 
-## To view or edit a user's permissions
+## To get an overview of a user's permissions
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
 2. Open the card of the relevant user.
 3. Choose the **Effective Permissions** action.
@@ -145,8 +167,9 @@ The following procedure explains how to assign permission sets to a user in the 
 > When you edit a permission set, the changes will also apply to other users that have the permission set assigned.
 
 ## See Also
+[Understanding Users, Profiles, and Role Centers](admin-users-profiles-roles.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
-[Changing Which Features are Displayed](ui-experiences.md)   
+[Changing Which Features are Displayed](ui-experiences.md)  
 [Administration](admin-setup-and-administration.md)  
 [Add Users to Office 365 for business](https://aka.ms/CreateOffice365Users)  
 [Microsoft Dynamics 365 Business Central Licensing Guide](https://aka.ms/BusinessCentralLicensing)

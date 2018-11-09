@@ -22,11 +22,11 @@ If your business uses the Danløn, Dataløn, Lønservice, Multiløn, or Proløn 
 ## Getting Started
 The first step is to map the types of payroll transactions to the general ledger accounts that you want to post them to in Business Central. For example, you might want to post retirement plan contributions to an account named Pension, and the taxes paid on the contributions to an account named Pension Tax. This happens outside of Business Central, for example, you might use an Excel worksheet to visualize the mapping. Work with the payroll service provider to ensure that the file they export contains the mapping. Typically, you can find information about how to configure export files on the provider's website.
 
-After you install the extension, the next step is to specify the format for the payroll data file from the payroll service provider. To do that, go to the **General Ledger Setup** window and choose the provider in the **Payroll Trans. Import Format** field. 
+After you install the extension, the next step is to specify the format for the payroll data file from the payroll service provider. To do that, go to the **General Ledger Setup** window and choose the provider in the **Payroll Trans. Import Format** field.
 
-## How to: Import a payroll file
+## To import a payroll file
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journals**, and then choose the related link.  
-2.  Choose the journal to use, and then use the **Import Payroll File** action to import the data file from the payroll service provider. 
+2.  Choose the journal to use, and then use the **Import Payroll File** action to import the data file from the payroll service provider.
 
 ## See Also
 [Denmark Local Functionality](denmark-local-functionality.md)  

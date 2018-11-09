@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 10/01/2018
+ms.date: 10/15/2018
 ms.author: sgroespe
 
 ---
@@ -33,7 +33,7 @@ The three item types support the following features respectively.
 |Item Type|Sales|Purchasing|Job Consumption|Service Consumption|Assembly Consumption|Production Consumption|Assemply Output|Production Output|Location Transfer|Physical Counting|Inventory Revaluation|Inventory Costing|Item Tracking|Reservation|Warehousing|Planning|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 |Inventory|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
-|Non-Inventory|Yes|Yes|Yes|Yes|Yes|Yes|Yes|No|No|No|No|No|No|No|No|No|
+|Non-Inventory|Yes|Yes|Yes|Yes|Yes|Yes|No|No|No|No|No|No|No|No|No|No|
 |Service|Yes|Yes|Yes|No|No|No|No|No|No|No|No|No|No|No|No|No|
 
 > [!NOTE]

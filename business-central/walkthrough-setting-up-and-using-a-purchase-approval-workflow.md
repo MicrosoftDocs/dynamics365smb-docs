@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/16/2018
+    ms.date: 11/08/2018
     ms.author: sgroespe
 
 ---
@@ -61,18 +61,15 @@ When logged in as yourself, set Alicia up as an approval user whose approver is 
     |ALICIA|YOU||  
 
 ### Setting Up Notifications  
-Specify how and when you are notified of approval requests.  
+In this walkthrough, the user is notified by internal note about requests to approve. Approval notification can also be by email. For more information, see [Specify When and How to Receive Notifications](across-how-to-specify-when-and-how-to-receive-notifications.md). 
 
 #### To set up how and when you are notified  
 1.  In the **Approval User Setup** window, select the line for yourself, and then choose the **Notification Setup** action.  
-2.  In the **Notification Setup** window, in the **Notification Type** field, enter **Approval**.  
-3.  Choose the **Notification Template Code** field, and then choose the **Advanced** button.  
-4.  In the **Notification Templates** window, choose the **Edit List** action.  
-5.  On the line for the APPROVAL template, in the **Notification Method** field, select **Note**.  
-6.  Choose the **OK** button.  
-7.  In the **Notification Setup** window, choose the **Notification Schedule** action.  
-8.  In the **Notification Schedule** window, in the **Occurence** field, select **Instantly**.  
-9. Choose the **OK** button.  
+2.  In the **Notification Setup** window, in the **Notification Type** field, choose **Approval**.  
+3.  In the **Notification Method** field, choose **Note**.  
+6.  In the **Notification Setup** window, choose the **Notification Schedule** action.  
+7.  In the **Notification Schedule** window, in the **Occurence** field, select **Instantly**.  
+8. Choose the **OK** button.  
 
 ## Creating the Approval Workflow  
  Create the purchase order approval workflow by copying the steps from the Purchase Order Approval Workflow workflow template. Leave the existing workflow steps unchanged, and then enable the workflow.  

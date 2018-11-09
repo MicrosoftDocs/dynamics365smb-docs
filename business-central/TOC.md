@@ -6,6 +6,7 @@
 ## [Videos on Common Tasks](across-videos.md)
 ## [Overview of Business Functionality](across-business-functionality.md)
 ## [Trying Out a Preview Version](across-preview.md)
+## [Extending a Trial Version](admin-extend-trial.md)
 ## [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
 ## [Your Access to the Intelligent Cloud](about-intelligent-cloud.md)
 ## [Changing from a QuickBooks App to Microsoft Business Central](across-quickbooks-to-business-edition.md)

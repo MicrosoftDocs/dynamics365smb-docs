@@ -192,6 +192,8 @@
 ### [Creating Cost Budgets](finance-create-cost-budgets.md)
 ## [Managing Inventory Costs](finance-manage-inventory-costs.md)
 ### [About Inventory Costing](finance-learn-about-costing.md)
+### [About Calculating Standard Cost](finance-about-calculating-standard-cost.md)
+### [Work with Inventory Periods](finance-how-to-work-with-inventory-periods.md)
 ### [Setting Up Inventory Valuation and Costing](finance-set-up-inventory-valuation-and-costing.md)
 ### [Revalue Inventory](inventory-how-revalue-inventory.md)
 ### [Adjust Item Costs](inventory-how-adjust-item-costs.md)

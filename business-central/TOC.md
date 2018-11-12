@@ -274,6 +274,7 @@
 ## [Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)
 ## [Reserve Items](inventory-how-to-reserve-items.md)
 ## [Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)
+## [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)
 ## [Block Items](inventory-how-block-items.md)
 ## [Work with Responsibility Centers](inventory-responsibility-centers.md)
 
@@ -394,7 +395,7 @@
 
 # [Design Details](design-details-application-design.md)
 ## [Design Details: Dimension Set Entries](design-details-dimension-set-entries.md)
-### [Dimension Set Entries Overview](design-details-dimension-set-entries-overview.md)  
+### [Design Details: Dimension Set Entries Overview](design-details-dimension-set-entries-overview.md)  
 ### [Design Details: Searching for Dimension Combinations](design-details-searching-for-dimension-combinations.md)  
 ### [Design Details: Table Structure](design-details-table-structure.md)  
 ### [Design Details: Codeunit 408 Dimension Management](design-details-codeunit-408-dimension-management.md)  
@@ -447,8 +448,8 @@
 ### [General Journal Post Line Overview](design-details-general-journal-post-line-overview.md)  
 ### [Design Details: Posting Interface Structure](design-details-posting-interface-structure.md)  
 ### [Design Details: Posting Engine Structure](design-details-posting-engine-structure.md)  
-### [Codeunit 12 Changes: Mapping Global Variables for General Journal Post ### Line](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)  
-[Codeunit 12 Changes: Changes in General Journal Post Procedures](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
+### [Design Details: Codeunit 12 Changes: Mapping Global Variables for General Journal Post Line](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)  
+### [Design Details: Codeunit 12 Changes: Changes in General Journal Post Procedures](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
 
 # [Local Functionality](about-localization.md)
 

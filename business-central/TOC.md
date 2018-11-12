@@ -194,7 +194,6 @@
 ### [About Inventory Costing](finance-learn-about-costing.md)
 ### [About Calculating Standard Cost](finance-about-calculating-standard-cost.md)
 ### [Work with Inventory Periods](finance-how-to-work-with-inventory-periods.md)
-### [About Calculating Standard Cost](finance-about-calculating-standard-cost.md)
 ### [Setting Up Inventory Valuation and Costing](finance-set-up-inventory-valuation-and-costing.md)
 ### [Revalue Inventory](inventory-how-revalue-inventory.md)
 ### [Adjust Item Costs](inventory-how-adjust-item-costs.md)

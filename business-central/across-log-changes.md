@@ -17,9 +17,10 @@ ms.author: edupont
 You can enable the change log in [!INCLUDE[d365fin](includes/d365fin_md.md)] so you have a history of activities. The log is based on changes that are made to data in the tables that you track. In the **Change Log Entries** window, entries are chronologically ordered and show changes that are made to the fields on the specified tables. The change log collects all changes that are made to the table.
 
 > [!Important]
-> A user's changes are not visible in the **Change Log Entries** until the user's session is restarted, which happens in the following cases:<br /><br />
-> * The session expired and was refreshed.<br />
-> * The user selected another company or Role Center.<br />
+> A user's changes are not visible in the **Change Log Entries** until the user's session is restarted, which happens in the following cases:
+<br />
+> * The session expired and was refreshed.
+> * The user selected another company or Role Center.
 > * The user signed out and back in.
 
 ## Working with the Change Log

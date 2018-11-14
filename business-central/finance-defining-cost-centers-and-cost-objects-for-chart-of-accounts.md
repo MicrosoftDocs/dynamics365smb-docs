@@ -13,6 +13,7 @@
     ms.search.keywords:
     ms.date: 10/01/2018
     ms.author: sgroespe
+    redirect_url: finance-set-up-cost-accounting
 
 ---
 # Defining Cost Centers and Cost Objects for Chart of Accounts

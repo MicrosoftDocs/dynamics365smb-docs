@@ -16,7 +16,16 @@
 
 ---
 # Setting Up Cost Accounting
-Before you start working with cost accounting, you must perform setup tasks.  
+Before you start working with cost accounting, you must perform setup tasks.
+
+## Balances Between Cost Type, Cost Center, and Cost Object
+When you set up cost accounting, you must make sure that all entries are assigned to a cost type as well as a cost center or a cost object. The means that each cost entry must have a cost type assigned and a cost center code or a cost object assigned. This rule ensures that each cost entry appears in either the cost centers or the cost objects, but never in both places.  
+
+By doing this, you create the following accounting equation:  
+
+*Cost Type Balance* = *Cost Center Balance* + *Cost Object Balance*  
+
+When you print the chart of cost type, the chart of cost centers, and the chart of cost objects reports, you can analyze this relationship.
 
 ## Setting Up Cost Types
 The chart of cost types is similar to the chart of accounts in the general ledger. You can set up the chart of cost types in the following ways:  
@@ -144,6 +153,28 @@ You can set up and maintain cost objects in either the **Cost Object Card** card
 
 > [!IMPORTANT]  
 >  If you have entered definitions in the **Total From/To** fields for **End-Total** cost objects before you run the indent function, then you must enter them again. The function overwrites the values in all **End-Total** fields.
+
+## Defining Cost Centers and Cost Objects for Chart of Accounts
+You can automatically transfer the expense and income entries from the general ledger to cost accounting either for each general ledger posting or with a batch job. When you do the transfer, [!INCLUDE[d365fin](includes/d365fin_md.md)] only transfers the entries that are already linked to a cost center or a cost object. To establish a meaningful transfer, you must ensure that the cost centers and cost objects are correctly defined.  
+
+### Defining Default Dimension Values for General Ledger Accounts  
+For each general ledger account, you can define default dimension values in the **Default Dimension** table. The following example shows how to define that there should always be a DEPARTMENT cost center, but never be a PROJECT cost object when posting to a general ledger account.  
+
+|**Dimension Code**|**Value Posting**|  
+|------------------------------------------|-----------------------------------------|  
+|Department|Code Mandatory|  
+|Project|No Code|  
+
+### Defining Dimension Values for Overhead Costs and Direct Costs  
+ You can transfer overhead costs to a cost center and direct costs to a cost object. The following table shows the optimal combination of the dimension setup values.  
+
+|Transfer To|Cost Center Posting|Cost Object Posting|  
+|-----------------|-------------------------|-------------------------|  
+|Cost Center|Code Mandatory|No Code|  
+|Cost Object|No Code|Code Mandatory|  
+
+> [!NOTE]  
+>  To make sure that the predefined cost center and cost object that you set up in the general ledger are automatically carried over to cost accounting, select the **Check G/L Postings** check box in the Cost Accounting Setup window.
 
 ## See Also  
 [Accounting for Costs](finance-manage-cost-accounting.md)  

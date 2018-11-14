@@ -18,8 +18,8 @@ You can enable the change log in [!INCLUDE[d365fin](includes/d365fin_md.md)] so 
 
 > [!Important]
 > A user's changes are not visible in the **Change Log Entries** until the user's session is restarted, which happens in the following cases:<br /><br />
--The session expired and was refreshed.
--The user selected another company or Role Center.
+-The session expired and was refreshed.<br />
+-The user selected another company or Role Center.<br />
 -The user signed out and back in.
 
 ## Working with the Change Log

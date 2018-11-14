@@ -18,11 +18,15 @@ You can enable the change log in [!INCLUDE[d365fin](includes/d365fin_md.md)] so 
 
 > [!Important]
 > A user's changes are not visible in the **Change Log Entries** until the user's session is restarted, which happens in the following cases:<br /><br />
--The session expired and was refreshed.<br />
--The user selected another company or Role Center.<br />
--The user signed out and back in.
+> -The session expired and was refreshed.<br />
+> -The user selected another company or Role Center.<br />
+> -The user signed out and back in.
 
 ## Working with the Change Log
+-The session expired and was refreshed.
+-The user selected another company or Role Center.
+-The user signed out and back in.
+
 A common problem in many financial systems is to locate the origin of errors and changes in data. It could be anything from an incorrect customer telephone number to an incorrect posting to the general ledger. The change log lets you track all direct modifications a user makes to data in the database. You must specify each table and field that you want the system to log, and then you must activate the change log.  
 
 You activate and deactivate the change log in the **Change Log Setup** window. When a user activates or deactivates the change log, this activity is logged, so you can always see which user deactivated or reactivated the change log.

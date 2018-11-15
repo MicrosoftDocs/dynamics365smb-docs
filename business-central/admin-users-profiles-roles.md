@@ -41,6 +41,8 @@ Profiles are collections of [!INCLUDE[d365fin](includes/d365fin_md.md)] users wh
 >  In the current version of [!INCLUDE[d365fin](includes/d365fin_md.md)] online, you cannot add, edit, or delete profiles.  
 
 
+
+
 ## Configuration and Personalization
 <!--The concept of UI customization in [!INCLUDE[d365fin](includes/d365fin_md.md)] is divided in two:  
 

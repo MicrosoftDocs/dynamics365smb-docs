@@ -184,7 +184,14 @@
 ## [Managing Receivables](receivables-manage-receivables.md)
 ###[Applying Payments Automatically and Reconcile Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ### [Reconcile Customer Payments Manually From a List of Unpaid Sales Documents](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
+### [Reconcile Customer Payments Manually](receivables-how-apply-sales-transactions-manually.md)
+### [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)
+### [The Late Payment Prediction Extension](ui-extensions-late-payment-prediction.md)
+### [Collecting Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)
+### [Block Customers](receivables-how-block-customers.md)
 ### [Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)
+### [Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
+
 ## [Managing Payables](payables-manage-payables.md)
 ### [Making Payments](payables-make-payments.md)
 ### [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
@@ -192,18 +199,22 @@
 ### [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md)
 ### [Reconcile Payments That Cannot be Applied Automatically](receivables-how-reconcile-payments-cannot-apply-auto.md)
 ### [Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)
+
 ## [Invoicing Prepayments](finance-invoice-prepayments.md)
 ### [Set Up Prepayments](finance-set-up-prepayments.md)
 ### [Create Prepayment Invoices](finance-how-to-create-prepayment-invoices.md)
 ### [Correct Prepayments](finance-how-to-correct-prepayments.md)
+
 ## [Managing Bank Accounts](bank-manage-bank-accounts.md)
 ### [Applying Payments Automatically and Reconcile Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ### [Reconcile Bank Accounts Separately](bank-how-reconcile-bank-accounts-separately.md)  
 ### [Transfer Bank Funds](bank-how-transfer-bank-funds.md)
+
 ## [Managing Intercompany Transactions](intercompany-manage.md)
 ### [Set Up Intercompany](intercompany-how-setup.md)
 ### [Work with Intercompany Documents and Journals](intercompany-how-work-documents-journals.md)
 ### [Manage the Intercompany Inbox and Outbox](intercompany-how-manage-intercompany-inbox.md)
+
 ## [Accounting for Costs](finance-manage-cost-accounting.md)
 ### [Terminology in Cost Accounting](finance-terminology-in-cost-accounting.md)
 ### [About Cost Accounting](finance-about-cost-accounting.md)
@@ -211,6 +222,7 @@
 ### [Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)
 ### [Defining and Allocating Costs](finance-define-and-allocate-costs.md)
 ### [Creating Cost Budgets](finance-create-cost-budgets.md)
+
 ## [Managing Inventory Costs](finance-manage-inventory-costs.md)
 ### [About Inventory Costing](finance-learn-about-costing.md)
 ### [About Calculating Standard Cost](finance-about-calculating-standard-cost.md)
@@ -222,6 +234,7 @@
 ### [Update Standard Costs](finance-how-to-update-standard-costs.md)
 ### [Reporting Costs and Reconciling with the General Ledger](finance-report-costs-and-reconcile-with-the-general-ledger.md)
 ### [Design Details: Inventory Costing](design-details-inventory-costing.md)
+
 ## [Closing Years and Periods](year-close-years-periods.md)
 ### [Specify Posting Periods](finance-how-specify-posting-periods.md)
 ### [Closing Periods](year-how-complete-period-end-processes.md)
@@ -234,6 +247,7 @@
 ### [Close Accounting Periods](year-close-account-periods.md)
 ### [Close Income Statement Accounts](year-close-income-statement.md)
 ### [Post the Year-End Closing Entry](year-how-post-year-end-close-entry.md)
+
 ## [Accountant Experiences in Business Central](finance-accounting.md)
 ### [Inviting Your External Accountant to Your Business Central](finance-invite-external-accountant.md)  
 ## [Understanding the General Ledger and the COA](finance-general-ledger.md)

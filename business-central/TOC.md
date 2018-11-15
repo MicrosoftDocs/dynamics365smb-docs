@@ -76,17 +76,23 @@
 ### [Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md)
 ### [Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 ### [Open a New Fiscal Year](finance-how-open-new-fiscal-year.md)
-### [Setting Up Value-Added Tax](finance-setup-vat.md)
+### [Setting Up Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md)
+### [Set Up Unrealized VAT for Cash-Based Accounting](finance-setup-unrealized-vat.md)
+### [Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md)
 ### [Update Currency Exchange Rates](finance-how-update-currencies.md)
+### [Set Up Multiple Interest Rates](finance-how-to-set-up-multiple-interest-rates.md)
+### [Set Up Invoice Rounding](finance-set-up-invoice-rounding.md)
 ### [Setting Up the Chart of Accounts](finance-setup-chart-accounts.md)
 ### [Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md)
 ### [Set Up Cash Customers](finance-how-to-set-up-cash-customers.md)
 ### [Set Up and Report Intrastat](finance-how-setup-report-intrastat.md)
 ### [Consolidating Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)
+
 ## [Setting Up Banking](bank-setup-banking.md)
 ### [Set Up Bank Accounts](bank-how-setup-bank-accounts.md)
 ### [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)
 ### [Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md)
+
 ## [Setting Up Sales](sales-setup-sales.md)
 ### [Register New Customers](sales-how-register-new-customers.md)
 ### [Enable Customer Payments Through Payment Services](sales-how-enable-payment-service-extensions.md)
@@ -95,11 +101,13 @@
 ### [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md)
 ### [Send Documents by Email](ui-how-send-documents-email.md)
 ### [Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md)
+
 ## [Setting Up Purchasing](purchasing-setup-purchasing.md)
 ### [Register New Vendors](purchasing-how-register-new-vendors.md)
 ### [Record Special Purchase Prices and Discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md)
 ### [Prioritize Vendors](purchasing-how-prioritize-vendors.md)
 ### [Set Up Purchasers](purchasing-how-setup-purchasers.md)
+
 ## [Setting Up Inventory](inventory-setup-inventory.md)
 ### [Set Up General Inventory Information](inventory-how-setup-general.md)
 ### [Work with Responsibility Centers](inventory-responsibility-centers.md)
@@ -109,16 +117,19 @@
 ### [Set Up Item Units of Measure](inventory-how-setup-units-of-measure.md)
 ### [Set Up Stockkeeping Units](inventory-how-to-set-up-stockkeeping-units.md)
 ### [Categorize Items](inventory-how-categorize-items.md)
+
 ## [Setting Up Project Management](projects-setup-projects.md)
 ### [Set Up Resources](projects-how-setup-resources.md)
 ### [Set Up Time Sheets](projects-how-setup-time-sheets.md)
 ### [Set Up Jobs](projects-how-setup-jobs.md)
+
 ## [Setting Up Fixed Assets](fa-setup.md)
 ### [Set Up General Fixed Assets Information](fa-how-setup-general.md)
 ### [Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md)
 ### [Define Depreciation Methods](fa-depreciation-methods.md)
 ### [Set Up Fixed Asset Insurance](fa-how-setup-insurance.md)
 ### [Set Up Fixed Asset Maintenance](fa-how-setup-maintenance.md)
+
 ## [Setting Up Warehouse Management](warehouse-setup-warehouse.md)
 ### [Design Details: Warehouse Overview](design-details-warehouse-overview.md)
 ### [Set Up Bin Types](warehouse-how-to-set-up-bin-types.md)
@@ -135,6 +146,7 @@
 ### [Enable Picking by FEFO](warehouse-picking-by-fefo.md)
 ### [Enable Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)
 ### [Restructure Warehouses](warehouse-how-to-restructure-warehouses.md)
+
 ## [Setting Up Manufacturing](production-configure-production-processes.md)
 ### [Create Work Center Calendars](production-how-to-create-work-center-calendars.md)
 ### [Set Up Work Centers and Machine Centers](production-how-to-set-up-work-and-machine-centers.md)
@@ -145,6 +157,7 @@
 ### [Work With Production Families](production-how-work-family.md)
 ### [Set Up Standard Routing Lines](production-how-set-up-standard-routing-lines.md)
 ### [Subcontract Manufacturing](production-how-to-subcontract-manufacturing.md)
+
 ## [Setting Up Service Management](service-setup-service.md)
 ### [Set Up Standard Service Codes](service-how-setup-service-coding.md)
 ### [Configure Service Processes](service-setup-service-processes.md)
@@ -158,6 +171,7 @@
 ### [Set Up Statuses for Service Orders and Repairs](service-order-repair-status.md)
 ### [Set Up a Loaner Program](service-how-setup-loaner-program.md)
 ### [Set Up Service Contracts](service-how-setup-service-contracts.md)
+
 ## [Setting Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)
 ### [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)
 ### [Setup Best Practices: Costing Methods](setup-best-practices-costing-method.md)
@@ -200,6 +214,7 @@
 ### [Reconcile Payments That Cannot be Applied Automatically](receivables-how-reconcile-payments-cannot-apply-auto.md)
 ### [Making Payments with Bank Data Conversion Service or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 ### [Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)
+### [Settle Purchase Invoices Promptly](finance-how-to-settle-purchase-invoices-promptly.md)
 
 ## [Invoicing Prepayments](finance-invoice-prepayments.md)
 ### [Set Up Prepayments](finance-set-up-prepayments.md)
@@ -233,6 +248,7 @@
 ### [Adjust Item Costs](inventory-how-adjust-item-costs.md)
 ### [Handle Inventory and Manufacturing Costs](finance-handle-inventory-and-manufacturing-costs.md)
 ### [Update Standard Costs](finance-how-to-update-standard-costs.md)
+### [Remove and Reapply Item Ledger Entries](finance-how-to-remove-and-reapply-item-entries.md)
 ### [Reporting Costs and Reconciling with the General Ledger](finance-report-costs-and-reconcile-with-the-general-ledger.md)
 ### [Design Details: Inventory Costing](design-details-inventory-costing.md)
 

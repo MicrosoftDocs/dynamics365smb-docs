@@ -29,6 +29,7 @@ The following table describes a sequence of tasks within accounts payable, with 
 | Apply vendor payments automatically to unpaid purchase invoices by importing a bank statement file. |[Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
 | Apply vendor payments to unpaid purchase invoices manually. |[Reconcile Vendor Payments Manually](payables-how-apply-purchase-transactions-manually.md) |
 |Ensure correct inventory valuation by assigning added item costs, such as freight, physical handling, insurance, and transportation that you incur when purchasing.|[Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)|
+|If you need to pay the vendor by cash or check, you can post the payment when you post the invoice.|[Settle Purchase Invoices Promptly](finance-how-to-settle-purchase-invoices-promptly.md)|
 
 ## See Also
 [Purchasing](purchasing-manage-purchasing.md)  

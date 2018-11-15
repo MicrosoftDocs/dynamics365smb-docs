@@ -13,7 +13,6 @@ ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
 ms.date: 11/15/2018
 ms.author: sgroespe
-redirect_url: finance-collect-payments-with-sepa-direct-debit
 
 ---
 # Managing Receivables

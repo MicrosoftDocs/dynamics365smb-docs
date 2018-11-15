@@ -40,6 +40,7 @@ Profiles are collections of [!INCLUDE[d365fin](includes/d365fin_md.md)] users wh
 > [!NOTE]  
 >  In the current version of [!INCLUDE[d365fin](includes/d365fin_md.md)] online, you cannot add, edit, or delete profiles.  
 
+
 ## Configuration and Personalization
 <!--The concept of UI customization in [!INCLUDE[d365fin](includes/d365fin_md.md)] is divided in two:  
 
@@ -48,6 +49,7 @@ Profiles are collections of [!INCLUDE[d365fin](includes/d365fin_md.md)] users wh
 -   Personalization, performed by users  
 
 The administrator configures the user interface for multiple users by customizing the user interface for a profile that the users are assigned to.  -->
+
 Users personalize the user interface of their personal version by customizing the user interface under their own user logon. This personalization can be deleted by the administrator. For more information, see [Personalizing Your Workspace](ui-personalization-user.md).  
 
 ## See Also  

@@ -198,6 +198,7 @@
 ### [Reconcile Vendor Payments Manually](payables-how-apply-purchase-transactions-manually.md)
 ### [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md)
 ### [Reconcile Payments That Cannot be Applied Automatically](receivables-how-reconcile-payments-cannot-apply-auto.md)
+### [Making Payments with Bank Data Conversion Service or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 ### [Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)
 
 ## [Invoicing Prepayments](finance-invoice-prepayments.md)

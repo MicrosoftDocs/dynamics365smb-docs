@@ -55,7 +55,7 @@ Profiles are collections of [!INCLUDE[d365fin](includes/d365fin_md.md)] users wh
 The procedure for modifying an existing profile is the same, except you select an existing profile in the **Profile List** page instead of choosing the **New** action.  
 
 
-### Copying a profile
+### Copy a profile
 Copying a profile can save you time if you want to use similar settings on a profile and you only want to change a few settings.
 
 1.  Open the profile that you want to copy, and then choose the **Copy Profile** action.
@@ -68,7 +68,7 @@ Copying a profile can save you time if you want to use similar settings on a pro
     - **Tenant** to make the new profile available to just the current tenant database.
 4. Choose the **OK** button when done.
 
-### <a name="ExportImportProfile"></a>Exporting and importing profiles
+### <a name="ExportImportProfile"></a>Export and import profiles
 
 You can export and import profiles as XML files to and from the a [!INCLUDE[d365fin](includes/d365fin_md.md)] database. Exporting and importing a profile can save you time when configuring the user interface because you reuse an existing profile configuration instead of having to configure a profile from scratch. If you have a profile that is configured in a [!INCLUDE[d365fin](includes/d365fin_md.md)] database and you would like to reuse all or some of the same profile configurations in another database, you can export the profile to an XML file. Then, you can import the profile XML file into the other database.
 

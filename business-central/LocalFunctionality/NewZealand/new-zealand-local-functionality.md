@@ -1,17 +1,13 @@
 ---
-    title: New Zealand Local Functionality
-    description: The following topics describe the local functionality in the New Zealand version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
-    services: project-madeira
-    documentationcenter: ''
-    author: bholtorf
-    ms.service: dynamics365-business-central
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: New Zealand, local functionality
-    ms.date: 10/12/2018
-    ms.author: bholtorf
+title: New Zealand Local Functionality
+description: The following topics describe the local functionality in the New Zealand version of Business Central.
+author: bholtorf
+
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords: New Zealand, local functionality
+ms.date: 10/12/2018
+ms.author: bholtorf
 
 ---
 # New Zealand Local Functionality

@@ -1,6 +1,6 @@
 ---
     title: How to Manage Notification Templates | Microsoft Docs
-    description: Notifications are sent to workflow users to notify them about steps they must make or to inform them about the status of workflow steps. You set up who receives notification and when by setting up approval users, the users’ notification schedule, and the involved workflow responses to define the notification recipient. For more information, see [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md).
+    description: Notifications are sent to workflow users to notify them about steps they must make or to inform them about the status of workflow steps. You set up who receives notification and when by setting up approval users, the users’ notification schedule, and the involved workflow responses to define the notification recipient.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -11,8 +11,9 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 11/08/2018
     ms.author: sgroespe
+    redirect_url: across-how-to-specify-when-and-how-to-receive-notifications
 
 ---
 # Manage Notification Templates

@@ -11,6 +11,7 @@
     ms.search.keywords: sepa, credit, transfer, payment,
     ms.date: 10/01/2018
     ms.author: sgroespe
+    redirect_url: finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer
 
 ---
 # Set Up SEPA Credit Transfer
@@ -54,8 +55,6 @@ Before you can process payment electronically by exporting payment files in the 
 1. In the **Search** box, enter **Payment Methods**, and then choose the related link.  
 2. In the **Payment Methods** window, select the payment method that is used to export payments from, and then choose the **Pmt. Export Line Definition** field.  
 3. In the **Pmt. Export Line Definitions** window, select the code that you specified in the **Code** field on the **Line Definitions** FastTab in step 4 in the “To describe the formatting of lines and columns in the file” section in the [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md) procedure.  
-
-    The direct-debit mandate is automatically inserted in the **Direct Debit Mandate ID** field when you create a sales invoice for the customer that you selected in step 2. For more information, see [Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md).  
 
 ## See Also  
 [Collecting Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  

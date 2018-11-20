@@ -13,6 +13,7 @@
     ms.search.keywords:
     ms.date: 10/01/2018
     ms.author: sgroespe
+    redirect_url: design-details-balancing-demand-and-supply
 
 ---
 # Design Details: The Concept of Balancing in Brief

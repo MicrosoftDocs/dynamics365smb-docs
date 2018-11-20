@@ -13,6 +13,7 @@
     ms.search.keywords:
     ms.date: 10/01/2018
     ms.author: sgroespe
+    redirect_url: design-details-handling-reordering-policies
 
 ---
 # Design Details: The Role of the Time Bucket

@@ -1,8 +1,6 @@
 ---
 title: Australia Local Functionality
-description: The following topics describe the local functionality in the Australian version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
-services: project-madeira
-documentationcenter: ''
+description: The following topics describe the local functionality in the Australian version of Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article

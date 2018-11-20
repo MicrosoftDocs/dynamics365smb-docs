@@ -1,19 +1,13 @@
 ---
-    title: How to Create Payment Journal Templates and Batches
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], payment suggestions are generated and posted in payment journals. The structure of the payment journal is similar to the structure of other journal types.
+title: How to Create Payment Journal Templates and Batches
+description: In the Belgian version of Business Central, payment suggestions are generated and posted in payment journals. The structure of the payment journal is similar to the structure of other journal types.
+author: SorenGP
 
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-business-central
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 10/01/2018
-    ms.author: sgroespe
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 10/01/2018
+ms.author: sgroespe
 
 ---
 # Create Payment Journal Templates and Batches

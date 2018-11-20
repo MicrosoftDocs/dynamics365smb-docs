@@ -1,18 +1,13 @@
 ---
-    title: How to Post a Negative Entry
-    description: You can use the **Correction** field to post a negative debit instead of a credit, or to post a negative credit instead of a debit on an account. To meet legal requirements, this field is visible by default in all journals. The **Debit Amount** and **Credit Amount** fields include both the original entry, and the corrected entry.
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
+title: How to Post a Negative Entry
+description: You can use the Correction field to post a negative debit instead of a credit, or to post a negative credit instead of a debit on an account. To meet legal requirements in Germany, this field is visible by default in all journals. The Debit Amount and Credit Amount fields include both the original entry, and the corrected entry.
+author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 10/01/2018
-    ms.author: sgroespe
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 10/01/2018
+ms.author: sgroespe
 
 ---
 # Post a Negative Entry

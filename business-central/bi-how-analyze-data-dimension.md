@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2018
+ms.date: 11/13/2018
 ms.author: sgroespe
 
 ---
@@ -35,13 +35,14 @@ An analysis by dimensions displays a selected combination of dimensions. You can
 ## To analyze by dimensions
 You can use the **Analysis by Dimensions** matrix to view the amounts in your general ledger by using the analysis views that you have already set up. You fill in the **Analysis by Dimensions** window to define what will be shown in the matrix, and then you choose the **Show Matrix** action to view the matrix.  
 
-- The leftmost columns contain information based on what you have selected in the **Show as Lines** field in the header.  
-- The rightmost columns contain information based on to what you have selected in the **Show as Columns** field in the header.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Analysis Views**, and then choose the related link.  
+2. Select the relevant analysis view,  and then choose the **Analysis by Dimensions** action.
+3. In the **Analysis by Dimensions** window, fill in the fields to define which data is shown and how.
+4. Choose the **Show Matrix** action to open the respective matrix window for the defined analysis view.
+5. To see a specification of an amount shown in the matrix window, choose the amount to drill down.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Analysis by Dimensions**, and then choose the related link.  
-2. Select the relevant analysis view,  and then choose the **Edit Analysis View** action.
-3. At the top of the **Analysis by Dimensions** window, fill in the fields to define what is shown.
-4. 5. To see a specification of an amount shown in the matrix window, choose the amount.  
+- The leftmost columns contain information based on what you have selected in the **Show as Lines** field in the header.  
+- The rightmost columns contain information based on to what you have selected in the **Show as Columns** field in the header.
 
 > [!IMPORTANT]  
 >   You cannot select a period length shorter than the period specified for the date compression on the **Analysis View** card. The **Next Set** and **Previous Set** commands are inactive if you have selected **Period** in either the **Show as Lines** or the **Show as Columns** field.  
@@ -57,10 +58,11 @@ The amounts that are displayed in the **Analysis by Dimensions** window give you
 
 The following procedure is for updating an analysis view from the **Analysis by Dimensions** window. The steps are similar from the **Analysis View Card** and the **Analysis View List** windows.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Analysis by Dimensions**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Analysis Views**, and then choose the related link.
+2. Select the relevant analysis view,  and then choose the **Analysis by Dimensions** action.
 2. In the **Analysis by Dimensions** window, choose the **Analysis View Code** field.  
 3. Select the line with the relevant analysis view.  
-4. Choose the **Update** action.  
+4. In the **Analysis Views** window, select the analysis view, and then choose the **Update** action.  
 
 > [!TIP]  
 >   If you select the **Update on Posting** check box on an analysis view card, the view is automatically updated when an involved transaction is posted.

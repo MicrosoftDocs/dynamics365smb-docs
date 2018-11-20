@@ -13,6 +13,7 @@
     ms.search.keywords:
     ms.date: 07/01/2017
     ms.author: sgroespe
+    redirect_url: finance-set-up-cost-accounting
 
 ---
 # Automatic Transfer and Combined Entries
@@ -28,8 +29,5 @@ In cost accounting, you can transfer general ledger entries to a cost type by us
 >  If you have selected the **Auto Transfer from G/L** check box in the **Cost Accounting Setup** window, [!INCLUDE [d365fin](includes/d365fin_md.md)] updates the cost accounting after every posting in the general ledger. Combined entries are not possible.  
 
 ## See Also  
- [Transfer General Ledger Entries to Cost Entries](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)   
- [Criteria for Transferring General Ledger Entries to Cost Entries](finance-criteria-for-transferring-general-ledger-entries-to-cost-entries.md)   
- [Results of the Transfer](finance-results-of-the-transfer.md)   
- [Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)   
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -39,6 +39,5 @@ For each general ledger account, you can define default dimension values in the 
 
 ## See Also  
 [Accounting for Costs](finance-manage-cost-accounting.md)  
-[Set Up Cost Centers](finance-how-to-set-up-cost-centers.md)   
-[Set Up Cost Objects](finance-how-to-set-up-cost-objects.md)  
+[Setting Up Cost Accounting](finance-set-up-cost-accounting.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

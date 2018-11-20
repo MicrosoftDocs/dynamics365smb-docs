@@ -11,8 +11,9 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: cost types, general ledger
-    ms.date: 10/01/2018
+    ms.date: 11/13/2018
     ms.author: sgroespe
+    redirect_url: finance-transfer-and-post-cost-entries
 
 ---
 # Defining the Relationship Between Cost Types and General Ledger Accounts

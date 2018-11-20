@@ -1,23 +1,17 @@
 ---
-    title: Summarizing Payment Lines and General Journal Lines
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] handles several types of transactions in the same way.
+title: Summarizing Payment Lines and General Journal Lines
+description: Business Central summarizes payment lines and journal lines.
+author: SorenGP
 
-    services: project-madeira 
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-business-central
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 10/01/2018
-    ms.author: sgroespe
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 10/01/2018
+ms.author: sgroespe
 
 ---
 # Summarizing Payment Lines and General Journal Lines
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] handles the following types of transactions in the same way:  
+Business Central summarizes payment lines and journal line across the following types of payments:  
 
 - Domestic payments  
 - International payments  
@@ -65,4 +59,4 @@ The EndToEndId in the SEPA message is taken from the payment message and can be 
 ## See Also  
  [Set Up Electronic Banking](how-to-set-up-electronic-banking.md)   
  [Setting Up Finance](../../finance-setup-finance.md)  
- [Record Purchases](../../purchasing-how-record-purchases.md) 
+ [Record Purchases](../../purchasing-how-record-purchases.md)

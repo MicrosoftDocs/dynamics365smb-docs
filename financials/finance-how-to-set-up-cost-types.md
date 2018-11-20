@@ -53,7 +53,7 @@ The chart of cost types is similar to the chart of accounts in the general ledge
 
 ## See Also  
 [Accounting for Costs](finance-manage-cost-accounting.md)  
-[Defining the Relationship Between Cost Types and General Ledger Accounts](finance-defining-the-relationship-between-cost-types-and-general-ledger-accounts.md)   
+[Setting Up Cost Accounting](finance-set-up-cost-accounting.md)   
 [Defining Cost Centers and Cost Objects for Chart of Accounts](finance-defining-cost-centers-and-cost-objects-for-chart-of-accounts.md)   
 [Balances Between Cost Type, Cost Center, and Cost Object](finance-balances-between-cost-type-cost-center-and-cost-object.md)   
 [Setting Up Cost Accounting](finance-set-up-cost-accounting.md)   

@@ -13,6 +13,7 @@
     ms.search.keywords:
     ms.date: 10/01/2018
     ms.author: sgroespe
+    redirect_url: finance-define-and-allocate-costs
 
 ---
 # Scenario Example: Defining Dynamic Allocations Based on Items Sold
@@ -42,8 +43,6 @@ This topic shows an example of how to define allocations by using the dynamic al
     >  [!INCLUDE[d365fin](includes/d365fin_md.md)] uses the previous years’ sales figures to calculate a share of 1596.50 LCY with 100 percent for the IT EQUIPMENT packages. This means that all of the items sold last year will be allocated to the cost object IT EQUIPMENT.  
 
 ## See Also  
- [Setting Filters for Dynamic Allocation Bases](finance-setting-filters-for-dynamic-allocation-bases.md)   
- [Set Up Allocation Source and Targets](finance-how-to-set-up-allocation-source-and-targets.md)   
- [Defining and Allocating Costs](finance-define-and-allocate-costs.md)   
- [Terminology in Cost Accounting](finance-terminology-in-cost-accounting.md)   
- [About Cost Accounting](finance-about-cost-accounting.md)
+[Defining and Allocating Costs](finance-define-and-allocate-costs.md)  
+[Terminology in Cost Accounting](finance-terminology-in-cost-accounting.md)   
+[About Cost Accounting](finance-about-cost-accounting.md)

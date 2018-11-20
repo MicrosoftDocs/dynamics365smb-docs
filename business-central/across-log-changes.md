@@ -9,17 +9,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user log, user activity, tracking
-ms.date: 10/01/2018
+ms.date: 11/14/2018
 ms.author: edupont
 
 ---
 # Logging Changes in Business Central
-You can enable the change log in [!INCLUDE[d365fin](includes/d365fin_md.md)] so you have a history of activities. The log is based on changes that are made to data in the tables that you track. In the change log, entries are chronologically ordered and show changes that are made to the fields on the specified tables. The change log collects all changes that are made to the table.  
+You can enable the change log in [!INCLUDE[d365fin](includes/d365fin_md.md)] so you have a history of activities. The log is based on changes that are made to data in the tables that you track. In the **Change Log Entries** window, entries are chronologically ordered and show changes that are made to the fields on the specified tables. The change log collects all changes that are made to the table.
+
+> [!Important]
+> A user's changes are not visible in the **Change Log Entries** until the user's session is restarted, which happens in the following cases:
+<br />
+> * The session expired and was refreshed.
+> * The user selected another company or Role Center.
+> * The user signed out and back in.
 
 ## Working with the Change Log
 A common problem in many financial systems is to locate the origin of errors and changes in data. It could be anything from an incorrect customer telephone number to an incorrect posting to the general ledger. The change log lets you track all direct modifications a user makes to data in the database. You must specify each table and field that you want the system to log, and then you must activate the change log.  
 
-You activate and deactivate the change log in the **Change Log Setup** window. When you activate or deactivate the change log, this activity is logged, so you can always see which user deactivated or reactivated the change log. This cannot be turned off.  
+You activate and deactivate the change log in the **Change Log Setup** window. When a user activates or deactivates the change log, this activity is logged, so you can always see which user deactivated or reactivated the change log.
 
 In the **Change Log Setup** window, if you choose the **Tables** action, you can specify which tables you want to track changes for, and which changes to track. [!INCLUDE[d365fin](includes/d365fin_md.md)] also tracks a number of system tables.
 

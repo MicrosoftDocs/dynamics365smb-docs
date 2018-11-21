@@ -68,8 +68,6 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Enter<br />(Fn+down Arrow)|Open the record that is associated with the field.|Opens the record.| Only relevant if a card page is associated with the record.|
 |Ctrl+Enter|Move focus to the next element outside the list.|Move focus to the next element outside the list.||
 
-We also support Ctrl+F5 which reloads the Business Central application, similar to pressing Refresh in the browser itself.||
-
 ### <a name="CopyRows"></a>Select, copy and paste
 |Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |Remarks|
 |-----------------|-------|-------|-------|

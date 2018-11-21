@@ -51,7 +51,7 @@ This walkthrough demonstrates the process of planning supply orders to fulfill n
 ## Setting Up the Sample Data  
  The standard CRONUS demonstration company currently has lots of unplanned demand. During the different planning tasks in this walkthrough, you will have to deviate from the realistic business flow by ignoring demand with close due dates and instead use demand with later due dates.  
 
-## Using the Order Planning Window  
+## Using the Order Planning Page  
 
 <!-- 
 The **Order Planning** page can be accessed from several different locations on the **Departments** menu in the navigation pane:  

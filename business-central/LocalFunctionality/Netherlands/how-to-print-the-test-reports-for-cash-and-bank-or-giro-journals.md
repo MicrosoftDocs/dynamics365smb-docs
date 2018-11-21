@@ -13,7 +13,7 @@ ms.author: sgroespe
 # Print the Test Reports for Cash and Bank or Giro Journals
 You can use the **CBG Posting - Test** report to edit the statement lines and see the effect of posting before you post cash journals and bank or giro journals.  
 
-This report displays the statement lines of a cash journal and bank journal or giro journal. For more information, see CBG Statement Line Table and Bank-Giro Journal Window.  
+This report displays the statement lines of a cash journal and bank journal or giro journal. For more information, see CBG Statement Line Table and Bank-Giro Journal Page.  
 
 ## To print the test report for cash journal  
 

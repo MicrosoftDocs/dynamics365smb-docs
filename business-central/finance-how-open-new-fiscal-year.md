@@ -11,6 +11,7 @@ ms.workload: na
 ms.search.keywords: accounting year, fiscal period  
 ms.date: 07/17/2017
 ms.author: edupont
+redirect_url: finance-accounting-periods-and-fiscal-years
 
 ---
 # Open a New Fiscal Year and Create Accounting Periods

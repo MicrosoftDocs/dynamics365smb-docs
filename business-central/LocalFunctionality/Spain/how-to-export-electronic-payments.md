@@ -17,7 +17,7 @@ ms.author: sgroespe
 # Export Electronic Payments
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can export payment journal entries into a file format according to four different payment standards. You must use the following pages to export according to the different payment standards.  
 
-|Payment standard|Window to export from|  
+|Payment standard|Page to export from|  
 |----------------------|---------------------------|  
 |AEB N34|**Payment Orders**|  
 |AEB N34.1|**Payment Orders**|  

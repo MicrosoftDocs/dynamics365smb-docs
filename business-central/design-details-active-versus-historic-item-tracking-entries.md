@@ -59,4 +59,4 @@ When parts of a document line quantity are posted, only that particular quantity
 
 ## See Also  
  [Design Details: Item Tracking](design-details-item-tracking.md)   
- [Design Details: Item Tracking Lines Window](design-details-item-tracking-lines-page.md)
+ [Design Details: Item Tracking Lines Page](design-details-item-tracking-lines-page.md)

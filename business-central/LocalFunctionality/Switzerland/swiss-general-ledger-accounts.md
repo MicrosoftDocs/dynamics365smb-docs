@@ -24,14 +24,14 @@
 - Preview the effects that posting general journals would have on the balances of certain general ledger accounts before actually posting them.  
 
 ## General Ledger Accounts and General Journals  
-Companies often have different bank accounts for foreign currencies, and have a general ledger account for each bank account. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can set up currency code and foreign currency balance information in the **Chart of Accounts** page. This allows you to maintain the original foreign currency balance of a bank account. For more information, see [Chart of Accounts Window](assetId:///fa407624-b670-44b6-8397-91aa606e4c39) and [G/L Account Table](assetId:///a65c2b09-9bb2-43db-8c53-c047bfc49777).  
+Companies often have different bank accounts for foreign currencies, and have a general ledger account for each bank account. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can set up currency code and foreign currency balance information in the **Chart of Accounts** page. This allows you to maintain the original foreign currency balance of a bank account. For more information, see [Chart of Accounts Page](assetId:///fa407624-b670-44b6-8397-91aa606e4c39) and [G/L Account Table](assetId:///a65c2b09-9bb2-43db-8c53-c047bfc49777).  
 
 For example, a company has two bank accounts: one for local currency (LCY) and one for euros (EUR). You must create a general ledger account for each bank account. For the EUR account, define the currency code as **EUR** and post journals in EUR or LCY.  
 
 When the exchange rate for EUR and LCY changes, you can update and adjust the local currency balance for the EUR general ledger account using the adjust exchange rates batch job. This batch job creates and posts currency adjustment entries to the general ledger and updates the LCY balance.  
 
 ## Data Type for General Ledger Accounts  
-The data type is set to text for the general ledger account number or account code to support the sorting requirements for the standardized Swiss Kontenrahmen Käfer (KMU) common chart of accounts. For more information, see [Chart of Accounts Window](assetId:///fa407624-b670-44b6-8397-91aa606e4c39). The account numbers list is sorted based on the text data type. The KMU chart of accounts contains the following account numbers:  
+The data type is set to text for the general ledger account number or account code to support the sorting requirements for the standardized Swiss Kontenrahmen Käfer (KMU) common chart of accounts. For more information, see [Chart of Accounts Page](assetId:///fa407624-b670-44b6-8397-91aa606e4c39). The account numbers list is sorted based on the text data type. The KMU chart of accounts contains the following account numbers:  
 
 - 1176  
 - 119.0  

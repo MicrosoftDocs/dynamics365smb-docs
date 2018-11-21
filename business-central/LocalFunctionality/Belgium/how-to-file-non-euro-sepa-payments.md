@@ -1,19 +1,13 @@
 ---
-    title: How to File Non-Euro SEPA Payments
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can file non-euro SEPA payments with the bank. This is useful when you make payments to other countries that do not use SEPA and for currencies other than the euro.
+title: How to File Non-Euro SEPA Payments
+description: In the Belgian version of Business Central, you can file non-euro SEPA payments with the bank. This is useful when you make payments to other countries that do not use SEPA and for currencies other than the euro.
+author: SorenGP
 
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-business-central
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 10/01/2018
-    ms.author: sgroespe
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 10/01/2018
+ms.author: sgroespe
 
 ---
 # File Non-Euro SEPA Payments
@@ -36,7 +30,7 @@ Before you can file a non-euro SEPA payment you must complete the following admi
     |**Journal Template Name**|Specify the general journal template for the non-euro SEPA payment report.|  
     |**Journal Batch**|Specify the general journal batch for the non-euro SEPA payment report.|  
     |**Post General Journal Lines**|Specify if you want to transfer the payment lines to the general ledger.|  
-    |**Include Dimensions**|Enter the dimensions that you want to include in the non-euro SEPA payment report. The option is only available if the **Summarize Gen. Jnl. Lines** field in the **Electronic Banking Setup** window is selected.|  
+    |**Include Dimensions**|Enter the dimensions that you want to include in the non-euro SEPA payment report. The option is only available if the **Summarize Gen. Jnl. Lines** field in the **Electronic Banking Setup** page is selected.|  
     |**Execution Date**|Enter an execution date if you want an execution date that differs from the posting date on the payment lines.|  
     |**File Name**|Enter the name of the file, including the drive and folder, to which you want to print the report.|  
 

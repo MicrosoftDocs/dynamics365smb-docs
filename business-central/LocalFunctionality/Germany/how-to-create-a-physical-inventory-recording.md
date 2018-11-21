@@ -27,7 +27,7 @@ However, in most cases, you use a batch job to record inventory. Based on the ph
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Phys. Inventory Order**, and then choose the related link.  
 2.  Select the physical inventory order that you want to create an inventory recording for, and then choose the **Edit** action.  
 3.  To create a physical inventory recording, choose the **Make New Recording** action.  
-4.  In the **Make New Phys. Invt. Recording** window, on the **Options** FastTab, fill in the fields as described in the following table.  
+4.  In the **Make New Phys. Invt. Recording** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -35,17 +35,17 @@ However, in most cases, you use a batch job to record inventory. Based on the ph
     |**Recording Without Order Permit**|Select to generate a new physical inventory recording line.|  
 
 5.  Choose the **OK** button to start the batch job.  
-6.  Choose the **Recordings** action. The physical inventory recording window appears. Select the new created physical inventory recording.  
+6.  Choose the **Recordings** action. The physical inventory recording page appears. Select the new created physical inventory recording.  
 
     You can now print a physical inventory list based on the data on the current physical inventory recording.  
 
 7.  Choose the **Physical Inventory Recording** action.  
-8.  In the **Phys. Invt. Recording** window, set the appropriate filters, and then choose the **Print** button or choose the **Preview** button.  
+8.  In the **Phys. Invt. Recording** page, set the appropriate filters, and then choose the **Print** button or choose the **Preview** button.  
 
     Optionally, you can use the Copy Phys. Invt. Rec. Line batch job to record serial numbers or lot numbers.  
 
-9. In the **Phys. Inventory Recording** window, select the physical inventory recording line, choose **Functions**, and then choose **Copy Line**.  
-10. In the **Copy Phys. Invt. Rec. Line** window, specify the number of copies to make of the selected line, and then choose the **OK** button.  
+9. In the **Phys. Inventory Recording** page, select the physical inventory recording line, choose **Functions**, and then choose **Copy Line**.  
+10. In the **Copy Phys. Invt. Rec. Line** page, specify the number of copies to make of the selected line, and then choose the **OK** button.  
 
 You can use the printed physical inventory recording to update the actual quantity of the item available in the specified location. To complete the recording process, the **Recorded** check box must be selected for all physical inventory recording lines.  
 
@@ -55,7 +55,7 @@ To show that you have finished the physical inventory recording, you have to set
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Phys. Inventory Recording**, and then choose the related link.  
 2.  Select the physical inventory recording that you want to complete, and then choose the **Edit** action.  
-3.  In the **Phys. Invt. Recording** window, on the **Lines** FastTab, in the **Quantity** field for each line, enter the actual item quantity.  
+3.  In the **Phys. Invt. Recording** page, on the **Lines** FastTab, in the **Quantity** field for each line, enter the actual item quantity.  
 4.  Select the **Recorded** check box for each line.  
 5.  On the **General** FastTab, fill in the fields as described in the following table.  
 

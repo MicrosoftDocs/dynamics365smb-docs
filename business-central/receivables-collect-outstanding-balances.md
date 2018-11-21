@@ -19,7 +19,7 @@ Managing receivables includes checking whether amounts due are paid on time. If 
 You can use reminders to remind customers about overdue amounts. You can also use reminders to calculate finance charges, such as interest or fees and include them on the reminder. Use finance charge memos if you want to debit customers for interest or fees without reminding them of overdue amounts.
 
 ## Reminders
-Before you can create reminders, you must set up reminder terms and assign them to your customers. Each reminder term has predefined reminder levels. Each reminder level includes rules about when the reminder will be issued, for example, how many days after the invoice due date or the date of the previous reminder. The contents of the **Finance Charge Terms** window determines whether interest is calculated on the reminder.  
+Before you can create reminders, you must set up reminder terms and assign them to your customers. Each reminder term has predefined reminder levels. Each reminder level includes rules about when the reminder will be issued, for example, how many days after the invoice due date or the date of the previous reminder. The contents of the **Finance Charge Terms** page determines whether interest is calculated on the reminder.  
 
 You can periodically run the **Create Reminders** batch job to create reminders for all customers with overdue balances, or you can manually create a reminder for a specific customer and have the lines calculated and filled in automatically.  
 
@@ -42,7 +42,7 @@ After you create the finance charge memos, you can modify them. The text that ap
 After you have created finance charge memos and made any needed modifications, you can either print test reports or issue the finance charge memos, typically as email.
 
 ## Multiple Interest rates
-When you set up finance charge terms and reminder terms, for delayed payment penalty, you can specify multiple interest rates so that the penalty fee is calculated from different interest rates in different periods. If multiple interest rates are not set up, then the interest rate and period that is defined in the **Finance Charge Terms** and **Reminder Terms** windows for the whole period of calculation will be used. For more information, see [Set Up Multiple Interest Rates](finance-how-to-set-up-multiple-interest-rates.md).  
+When you set up finance charge terms and reminder terms, for delayed payment penalty, you can specify multiple interest rates so that the penalty fee is calculated from different interest rates in different periods. If multiple interest rates are not set up, then the interest rate and period that is defined in the **Finance Charge Terms** and **Reminder Terms** pages for the whole period of calculation will be used. For more information, see [Set Up Multiple Interest Rates](finance-how-to-set-up-multiple-interest-rates.md).  
 
 ## To send the Customer Statement report
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer Statement**, and then choose the related link.
@@ -65,19 +65,19 @@ The first time a reminder is created for a customer, the setting from level 1 is
 If you create more reminders than you have defined levels for, the conditions for the highest level will be used. You can create as many reminders as are allowed by the **Max. No of Reminders** field in the reminder terms.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminder Terms**, and then choose the related link.  
-2. In the **Reminder Terms** window, select the line with the terms you want to set up levels for, and then choose **Levels** action.  
+2. In the **Reminder Terms** page, select the line with the terms you want to set up levels for, and then choose **Levels** action.  
 3. Fill in the fields as necessary.  
 
-    For each reminder level, you can specify individual conditions, which can include additional fees in both LCY and in foreign currency. You can define many additional fees in foreign currencies for each code in the **Reminder Levels** window.
+    For each reminder level, you can specify individual conditions, which can include additional fees in both LCY and in foreign currency. You can define many additional fees in foreign currencies for each code in the **Reminder Levels** page.
 4. Choose the **Currencies** action.
-5. In the **Currencies for Reminder Levels** window, define for each reminder level code and corresponding reminder level number a currency code and an additional fee.
+5. In the **Currencies for Reminder Levels** page, define for each reminder level code and corresponding reminder level number a currency code and an additional fee.
 
     > [!NOTE]  
-    > When you create reminders in a foreign currency, the foreign currency conditions that you set up here will be used to create reminders. If there are no foreign currency reminder conditions set up, the LCY reminder conditions that are set up in the **Reminder Levels** window will be used and then converted to the relevant currency.
+    > When you create reminders in a foreign currency, the foreign currency conditions that you set up here will be used to create reminders. If there are no foreign currency reminder conditions set up, the LCY reminder conditions that are set up in the **Reminder Levels** page will be used and then converted to the relevant currency.
 
     For each reminder level, you can specify text that will be printed before (**Beginning Text**) or after (**Ending Text**) on the entries on the reminder.
 
-6. Choose the **Beginning Text** or **Ending Text** actions respectively, and fill in the **Reminder Text** window.
+6. Choose the **Beginning Text** or **Ending Text** actions respectively, and fill in the **Reminder Text** page.
 7. To automatically insert related values in the resulting reminder text, enter the following placeholders in the **Text** field .  
 
 |Placeholder|Value|  
@@ -106,12 +106,12 @@ After you have set up the reminder terms, with additional levels and text, enter
 A reminder is similar to an invoice. When you create a reminder, a reminder header as well as one or more reminder lines must be filled in. You can use a function to create reminders for all customers automatically.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminders**, and then choose the related link.
-2. In the **Reminder** window, choose the **Create Reminders** action.
-3. In the **Create Reminders** window, fill in the fields to define how and to whom the reminders are created.
+2. In the **Reminder** page, choose the **Create Reminders** action.
+3. In the **Create Reminders** page, fill in the fields to define how and to whom the reminders are created.
 4. Choose the **OK** button.
 
 ## To create a reminder manually
-In the **Reminder** window, you can fill in the **General** FastTab manually and then have the lines filled in automatically.
+In the **Reminder** page, you can fill in the **General** FastTab manually and then have the lines filled in automatically.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminders**, and then choose the related link.
 2. Choose the **New** action.
@@ -130,21 +130,21 @@ There are several ways you can determine the text that appears on the printed re
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminders**, and then choose the related link.
 2. Open the relevant reminder, and then choose the **Update Reminder Text** action.
-3. In the **Update Reminder Text** window, enter the required level in the **Reminder Level** field.
+3. In the **Update Reminder Text** page, enter the required level in the **Reminder Level** field.
 3. Choose the **OK** button to update the beginning and ending texts.
 
 ## To issue a reminder
 After you have created reminders and made any needed modifications, you can either print test reports or issue the reminders.
 
-When you issue a reminder, the data is transferred to a separate window for issued reminders. At the same time, reminder entries are posted. If interest or an additional fee has been calculated, entries are posted to the customer ledger and the general ledger.
+When you issue a reminder, the data is transferred to a separate page for issued reminders. At the same time, reminder entries are posted. If interest or an additional fee has been calculated, entries are posted to the customer ledger and the general ledger.
 
-When a reminder is issued, the entries are posted according to your specifications in the **Reminder Terms** window. This specification determines whether interest and/or additional fees are posted to the customer's account and the general ledger. Setup in the **Customer Posting Groups** window determines which accounts are posted to.
+When a reminder is issued, the entries are posted according to your specifications in the **Reminder Terms** page. This specification determines whether interest and/or additional fees are posted to the customer's account and the general ledger. Setup in the **Customer Posting Groups** page determines which accounts are posted to.
 
-For each customer ledger entry on the finance charge memo, an entry is created in the **Reminder/Fin. Charge Entries** window.
+For each customer ledger entry on the finance charge memo, an entry is created in the **Reminder/Fin. Charge Entries** page.
 
-If the **Post Interest** or the **Post Additional Fee** check boxes are selected in the **Reminder Terms** window, then the following entries are also created:
+If the **Post Interest** or the **Post Additional Fee** check boxes are selected in the **Reminder Terms** page, then the following entries are also created:
 
-- One entry in the **Cust. Ledger Entries** window
+- One entry in the **Cust. Ledger Entries** page
 - One receivables entry in the relevant G/L account
 - One interest and/or one additional fee entry in the relevant G/L account
 
@@ -152,7 +152,7 @@ In addition, issuing the reminder may result in VAT entries.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminders**, and then choose the related link.
 2. Select the relevant reminder, and then choose the **Issue** action.
-3. In the **Issue Reminders** window, fill in the fields as necessary.
+3. In the **Issue Reminders** page, fill in the fields as necessary.
 4. Choose the **OK** button
 
 The reminder is either printed for sent to an specified email as a PDF attachment.
@@ -178,15 +178,15 @@ In addition, each code in the Finance Charge Terms table is linked to a subtable
 2. Fill in the fields as necessary.  
 3. To use more than one combination of finance charge terms, set up a code for each one.
 
-    For each finance charge term, you can specify individual conditions, which can include additional fees in both LCY and in foreign currency. You can define many additional fees in foreign currencies for each code in the **Finance Charge Terms** window.
+    For each finance charge term, you can specify individual conditions, which can include additional fees in both LCY and in foreign currency. You can define many additional fees in foreign currencies for each code in the **Finance Charge Terms** page.
 4. Choose the **Currencies** action.
-5. In the **Currencies for Fin. Chrg. Terms** window, define for each term a currency code and an additional fee.
+5. In the **Currencies for Fin. Chrg. Terms** page, define for each term a currency code and an additional fee.
 
     > [!NOTE]  
-    > When you create finance charges in a foreign currency, the foreign currency conditions that you set up here will be used to create finance charge memos. If there are no foreign currency finance charge conditions set up, then the LCY finance charge conditions that are set up in the **Finance Charge Terms** window will be used and then converted to the relevant currency.
+    > When you create finance charges in a foreign currency, the foreign currency conditions that you set up here will be used to create finance charge memos. If there are no foreign currency finance charge conditions set up, then the LCY finance charge conditions that are set up in the **Finance Charge Terms** page will be used and then converted to the relevant currency.
 
     For each finance charge term, you can specify text that will be printed before (**Beginning Text**) or after (**Ending Text**) on the entries on the finance charge memo.  
-6. Choose the **Beginning Text** or **Ending Text** actions respectively, and fill in the **Finance Charge Text** window.
+6. Choose the **Beginning Text** or **Ending Text** actions respectively, and fill in the **Finance Charge Text** page.
 7. To automatically insert related values in the resulting finance charge text, enter the following placeholders in the **Text** field.
 
 |Placeholder|Value|  
@@ -207,7 +207,7 @@ A finance charge memo is similar to an invoice. You can fill in a header manuall
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Finance Charge Memos**, and then choose the related link.  
 2. Choose the **New** action, and then fill in the fields as necessary.  
 3. Choose **Suggest Fin. Charge Memo Lines** action.
-4. In the **Suggest Finance Charge Memo Lines** window, set a filter on the **Cust. Ledger Entry** FastTab if you want to create finance charge memos only for specific entries.  
+4. In the **Suggest Finance Charge Memo Lines** page, set a filter on the **Cust. Ledger Entry** FastTab if you want to create finance charge memos only for specific entries.  
 5.  Choose the **OK** button to start the batch job.  
 
 ## To update finance charge memo texts  
@@ -215,19 +215,19 @@ In some cases, you may want to modify the beginning and ending text that you hav
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Finance Charge Memo**, and then choose the related link.  
 2. open the finance charge memo that you want to change text for, and then choose the **Update Finance Charge Text** action.
-3. In the **Update Finance Charge Text** window, you can set a filter if you want to update several memos.
+3. In the **Update Finance Charge Text** page, you can set a filter if you want to update several memos.
 4. Choose the **OK** button to update the beginning and ending texts.  
 
 ## To issue finance charge memos
 After you have created finance charge memos and made any needed modifications, you can either print test reports or issue the finance charge memos.
 
-When a reminder is issued, the entries are posted according to your specifications in the **Finance Charge Terms** window. This specification determines whether interest and/or additional fees are posted to the customer's account and the general ledger. Setup in the **Customer Posting Groups** window determines which accounts are posted to.
+When a reminder is issued, the entries are posted according to your specifications in the **Finance Charge Terms** page. This specification determines whether interest and/or additional fees are posted to the customer's account and the general ledger. Setup in the **Customer Posting Groups** page determines which accounts are posted to.
 
-For each customer ledger entry on the finance charge memo, an entry is created in the **Reminder/Fin. Charge Entries** window.
+For each customer ledger entry on the finance charge memo, an entry is created in the **Reminder/Fin. Charge Entries** page.
 
-If the **Post Interest** or the **Post Additional Fee** check boxes are selected in the **Finance Charge Terms** window, then the following entries are also created:
+If the **Post Interest** or the **Post Additional Fee** check boxes are selected in the **Finance Charge Terms** page, then the following entries are also created:
 
-- One entry in the **Cust. Ledger Entries** window
+- One entry in the **Cust. Ledger Entries** page
 - One receivables entry in the relevant G/L account
 - One interest and/or one additional fee entry in the relevant G/L account
 
@@ -235,16 +235,16 @@ In addition, issuing the finance charge memo may result in VAT entries.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Finance Charge Memos**, and then choose the related link.
 2. Select the relevant memo, and then choose the **Issue** action.
-3. In the **Issue Finance Charge Memos** window, fill in the fields as necessary.
+3. In the **Issue Finance Charge Memos** page, fill in the fields as necessary.
 4. Choose the **OK** button
 
 The finance charge memo is either printed for sent to an specified email as a PDF attachment.
 
 ## To view reminder and finance charge entries  
-When you issue a reminder, a reminder entry is created in the **Reminder/Fin. Charge Entries** window for each reminder line that contains a customer ledger entry. You can then get an overview of the created reminder entries for a specific customer.    
+When you issue a reminder, a reminder entry is created in the **Reminder/Fin. Charge Entries** page for each reminder line that contains a customer ledger entry. You can then get an overview of the created reminder entries for a specific customer.    
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
 2. Open the relevant customer card, and then choose the **Ledger Entries** action.
-3. In the **Customer Ledger Entries** window, select the line with the ledger entry you want to see the reminder entries for, and then choose the **Reminder/Fin. Charge Entries** action.
+3. In the **Customer Ledger Entries** page, select the line with the ledger entry you want to see the reminder entries for, and then choose the **Reminder/Fin. Charge Entries** action.
 
 ## See Also
 [Managing Receivables](receivables-manage-receivables.md)  

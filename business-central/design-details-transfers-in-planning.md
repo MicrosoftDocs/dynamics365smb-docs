@@ -29,7 +29,7 @@ A transfer order looks much like any other order in the program. However, behind
 
 One fundamental aspect that makes transfers in planning different from purchase and production orders is that a transfer line represents demand and supply at the same time. The outbound part, which is shipped from the old location, is demand. The inbound part, which is to be received at the new location, is supply at that location.  
 
-![Content of the Transfer Order window](media/nav_app_supply_planning_7_transfers3.png "Content of the Transfer Order window")  
+![Content of the Transfer Order page](media/nav_app_supply_planning_7_transfers3.png "Content of the Transfer Order page")  
 
 This means that when the system manipulates the supply side of the transfer, it must make a similar change on the demand side.  
 
@@ -60,7 +60,7 @@ The transfer level code is an internal field which is automatically calculated a
 
 The transfer level code will be 0 for SKUs with replenishment system Purchase or Prod. Order and will be -1 for the first transfer level, -2 for the second and so on. In the transfer chain described above, the levels would therefore be -1 for RED and -2 for GREEN, as shown in the following illustration.  
 
-![Content of SKU Card window](media/nav_app_supply_planning_7_transfers6.gif "Content of SKU Card window")  
+![Content of SKU Card page](media/nav_app_supply_planning_7_transfers6.gif "Content of SKU Card page")  
 
 When updating a SKU, the planning system will detect if SKUs with replenishment system Transfer are set up with circular references.  
 
@@ -131,7 +131,7 @@ In this example, it means that:
 * Ending Date + Inbound Handling = Receipt Date  
 
 ## Safety Lead Time  
-The Default Safety Lead Time field in the Manufacturing Setup window and the related Safety Lead Time field on the item card will not be taken into account in the calculation of a transfer order. However, the safety lead time will still influence the total plan like it will affect the replenishment order (purchase or production) in the beginning of the transfer chain when the items are put on the location from which they will be transferred.  
+The Default Safety Lead Time field in the Manufacturing Setup page and the related Safety Lead Time field on the item card will not be taken into account in the calculation of a transfer order. However, the safety lead time will still influence the total plan like it will affect the replenishment order (purchase or production) in the beginning of the transfer chain when the items are put on the location from which they will be transferred.  
 
 ![Elements of the transfer due date](media/nav_app_supply_planning_7_transfers14.png "Elements of the transfer due date")  
 

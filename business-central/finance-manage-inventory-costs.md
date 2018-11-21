@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 11/12/2018
+    ms.date: 11/15/2018
     ms.author: sgroespe
 
 ---
@@ -32,7 +32,8 @@ The following table describes a sequence of tasks, with links to the topics that
 |Adjust item costs, either automatically or manually, to forward cost changes from inbound entries to their related outbound entries.|[Adjust Item Costs](inventory-how-adjust-item-costs.md)|
 |Use special costing functions for every-day item transactions in the item operations.|[Handling Inventory and Manufacturing Costs](finance-handle-inventory-and-manufacturing-costs.md)|  
 |Periodically update the standard costs of components, in assembly or production BOMs, and roll the new costs up to the parent item.|[Update Standard Costs](finance-how-to-update-standard-costs.md)|
-|Perform period-end control and reporting tasks, such calculate the value of inventory and post costs to the general ledger.|[Reporting Costs and Reconciling with the General Ledger](finance-report-costs-and-reconcile-with-the-general-ledger.md)|  
+|View and manually change certain item application entries that are created automatically during inventory transactions.|[Remove and Reapply Item Ledger Entries](finance-how-to-remove-and-reapply-item-entries.md)|
+|Perform period-end control and reporting tasks, such calculate the value of inventory and post costs to the general ledger.|[Reporting Costs and Reconciling with the General Ledger](finance-report-costs-and-reconcile-with-the-general-ledger.md)|
 |Learn about all mechanisms in the costing system.|[Design Details: Inventory Costing](design-details-inventory-costing.md)|  
 
 ## See Also  

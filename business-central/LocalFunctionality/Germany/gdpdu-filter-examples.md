@@ -27,7 +27,7 @@ End Date = 12/31/2013
 ## Setting Up Export Record Source Examples  
 
 ### Period Field No.  
-In the **Data Export Record Source** window, the set up is as described in the following table.  
+In the **Data Export Record Source** page, the set up is as described in the following table.  
 
 |Table No.|Table Name|Period Field No.|Period Field Name|Table Filter|  
 |---------------|----------------|----------------------|-----------------------|------------------|  

@@ -11,18 +11,19 @@
     ms.search.keywords:
     ms.date: 10/01/2018
     ms.author: sgroespe
+    redirect_url: finance-collect-payments-with-sepa-direct-debit
 
 ---
 # Post SEPA Direct Debit Payment Receipts
 When a direct debit collection is successfully processed by your bank, you can proceed to post receipt of the payment for the involved sales invoices. For more information, see [Create SEPA Direct Debit Collection Entries and Export to a Bank File](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md).  
 
-You can post the payment receipt directly from the **Direct Debit Collections** window or the **Direct Debit Collect. Entries** window. Alternatively, you can relay the work to another user by preparing the related journal lines.  
+You can post the payment receipt directly from the **Direct Debit Collections** page or the **Direct Debit Collect. Entries** page. Alternatively, you can relay the work to another user by preparing the related journal lines.  
 
-## To post a direct-debit payment receipt from the Direct Debit Collections window  
+## To post a direct-debit payment receipt from the Direct Debit Collections page  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Direct Debit Collections**, and then choose the related link.  
 2. Select a line for a direct debit collection that has been exported to a bank file and successfully processed by the bank. For more information, see [Create SEPA Direct Debit Collection Entries and Export to a Bank File](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md).  
 3. Choose the **Post Payment Receipts** action.  
-4. In the **Post Direct Debit Collection** window, fill in the fields as described in the following table.  
+4. In the **Post Direct Debit Collection** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

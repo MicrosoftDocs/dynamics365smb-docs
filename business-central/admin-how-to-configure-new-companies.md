@@ -34,7 +34,7 @@ All the tables that you have designated for inclusion in the new company are imp
 ## To apply package data  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then select the related link.  
 2. Select a table that you want to modify data for, and then choose the **Apply Data** action. Choose the **Yes** button to confirm the application.
-3. To confirm that the data is now in the database and that the application has succeeded, return to the **Config. Worksheet** window and choose the **Database Data** action.  
+3. To confirm that the data is now in the database and that the application has succeeded, return to the **Config. Worksheet** page and choose the **Database Data** action.  
 
 > [!NOTE]  
 >  After you apply data, you can only see it in the database. It is no longer in the package.  
@@ -42,9 +42,9 @@ All the tables that you have designated for inclusion in the new company are imp
 ## To modify and apply package data  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then select the related link.  
 2. Select a table that you want to modify data for, and then choose the **Package Data** action.  
-3. In the **Config. Package Records** window, make your modifications. For example, you can delete options that do not apply.  
+3. In the **Config. Package Records** page, make your modifications. For example, you can delete options that do not apply.  
 4. Choose the **Apply Data** action, and then choose the **OK** button.  
-5. To confirm that the data is now in the database and that the application has succeeded, return to the **Config. Worksheet** window and choose the **Database Data** action.  
+5. To confirm that the data is now in the database and that the application has succeeded, return to the **Config. Worksheet** page and choose the **Database Data** action.  
 
 ## To locate and identify a configuration error  
 There are certain types of errors that may occur when you apply data to a database. The most common error is that required related tables were not included. You fix such errors in the configuration worksheet.
@@ -54,7 +54,7 @@ There are certain types of errors that may occur when you apply data to a databa
 
     Any table that has errors is highlighted. The number of package errors is displayed in the **No. of Package Errors** field.  
 
-3. Choose the **No. of Package Errors** field to open the **Config. Package Records** window, which lists the records with errors.  
+3. Choose the **No. of Package Errors** field to open the **Config. Package Records** page, which lists the records with errors.  
 
 ### To fix an error  
 1. Open the company that is based on your configuration package.  

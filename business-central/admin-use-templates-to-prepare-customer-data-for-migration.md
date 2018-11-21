@@ -41,7 +41,7 @@ When you select an existing data template, you must evaluate if the templates th
 >  You can also use data templates to create new records quickly. Use them for faster and more accurate data creation. For more information, see [Register New Items](inventory-how-register-new-items.md).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Templates**, and then choose the related link.  
-2. In the **Configuration Templates** window, select a data template from the list, and then choose the **Edit** action.  
+2. In the **Configuration Templates** page, select a data template from the list, and then choose the **Edit** action.  
 
 If the default templates do not meet your needs, you can create new templates or add fields to an existing template. If the default templates are sufficient, you can use them to create records based on master data templates.
 
@@ -53,22 +53,22 @@ Each template consists of a header and lines. When you create a template, you ca
 ### To copy an existing data template
 You can quickly create a new data template by copying information from an existing data template, which you then edit.
 
-1. Open the **Configuration Templates** window.
+1. Open the **Configuration Templates** page.
 2. Choose the **New** action.
 3. Fill in the **Code** field.
 4. Choose the **Copy Config. Template** action.
-5. In the **Configuration Templatesd** window, select an existing template to copy, and then choose the **OK** button.
+5. In the **Configuration Templatesd** page, select an existing template to copy, and then choose the **OK** button.
 
 The table ID, table name, and lines of the existing data template are inserted in the new template.
 
 ### To create a data template header manually
-1. Open the **Configuration Templates** window.
+1. Open the **Configuration Templates** page.
 2. Choose the **New** action.
 3. Fill in the **Code** field.
 3. In the **Table ID** field, enter the table to which this template applies. The **Table Name** field is automatically filled in when the **Table ID** field is set.
 
 ### To create a data template line manually
-1. On the first line, select the **Field Name** field. The **Field List** window displays the list of fields in the table.
+1. On the first line, select the **Field Name** field. The **Field List** page displays the list of fields in the table.
 2. Select a field, and then choose the **OK** button. The **Field Caption** field is filled in with the field name.
 3. In the **Default Value** field, enter an appropriate value. In some cases, you may want to use a value that is not a value that is available in the database. In that case, you can select the **Skip Relation Check** check box, to make it possible to apply data without error.
 
@@ -97,7 +97,7 @@ You can now enter customer data in the Excel worksheet. If you have exported mul
 > You may encounter the following error when you run an English version of Excel, but have your regional settings configured for a non-English language: "Old format or invalid type library." To fix this error, make sure that the language pack for the non-English language is installed.
 
 ## To import from a template in Excel
-1. In the **Configuration Worksheet** window, and then choose the **Import from Template** action.
+1. In the **Configuration Worksheet** page, and then choose the **Import from Template** action.
 3. Navigate to the template worksheet that you have created, and then choose the **Open** action.
 4. To add the collected customer data to the database, choose the **Apply Data** action.
 
@@ -127,8 +127,8 @@ You can apply a data template to any record that is in [!INCLUDE[d365fin](includ
 The following procedure is based on a new customer card.  
 
 1. Create a customer. For more information, see [Register New Customers](sales-how-register-new-customers.md).
-2. In the **Customer Card** window, choose the **Apply Template** action.  
-3. In the **Customer Templates** window, select one of the templates, and then choose the **OK** button.  
+2. In the **Customer Card** page, choose the **Apply Template** action.  
+3. In the **Customer Templates** page, select one of the templates, and then choose the **OK** button.  
 
 The default values from the chosen customer template are inserted on the customer card.
 

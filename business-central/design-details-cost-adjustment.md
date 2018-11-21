@@ -67,7 +67,7 @@ For more information, see [Design Details: Assembly Order Posting](design-detail
 Cost adjustment can be performed in two ways:  
 
 * Manually, by running the **Adjust Cost - Item Entries** batch job. You can run this batch job either for all items or for only certain items or item categories. This batch job runs a cost adjustment for the items in inventory for which an inbound transaction has been made, such as a purchase. For items that use the average costing method, the batch job also makes an adjustment if any outbound transactions are created.  
-* Automatically, by adjusting costs every time that you post an inventory transaction, and when you finish a production order. The cost adjustment is only run for the specific item or items affected by the posting. This is set up when you select the **Automatic Cost Adjustment** check box in the **Inventory Setup** window.  
+* Automatically, by adjusting costs every time that you post an inventory transaction, and when you finish a production order. The cost adjustment is only run for the specific item or items affected by the posting. This is set up when you select the **Automatic Cost Adjustment** check box in the **Inventory Setup** page.  
 
 It is good practice to run the cost adjustment automatically when you post because unit costs are more frequently updated and therefore more accurate. The disadvantage is that the performance of the database can be affected by running the cost adjustment so often.  
 
@@ -75,7 +75,7 @@ Because it is important to keep the unit cost of an item up to date, it is recom
 
 Regardless if you run the cost adjustment manually or automatically, the adjustment process and its consequences are the same. [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates the value of the inbound transaction and forwards that cost to any outbound transactions, such as sales or consumptions, which have been applied to the inbound transaction. The cost adjustment creates value entries that contain adjustment amounts and amounts that compensate for rounding.  
 
-The new adjustment and rounding value entries have the posting date of the related invoice. Exceptions are if the value entries fall in a closed accounting period or inventory period or if the posting date is earlier than the date in the **Allow Posting From** field in the **General Ledger Setup** window. If this occurs, the batch job assigns the posting date as the first date of the next open period.  
+The new adjustment and rounding value entries have the posting date of the related invoice. Exceptions are if the value entries fall in a closed accounting period or inventory period or if the posting date is earlier than the date in the **Allow Posting From** field in the **General Ledger Setup** page. If this occurs, the batch job assigns the posting date as the first date of the next open period.  
 
 ## Adjust Cost - Item Entries Batch Job  
 When you run the **Adjust Cost - Item Entries** batch job, you have the option to run the batch job for all items or for only certain items or categories.  
@@ -139,7 +139,7 @@ Later, you post a related purchase item charge for 2.00 LCY invoiced on 02-10-20
 |01-15-20|[COGS Account]|7290||2.00|8|  
 
 ## Automatic Cost Adjustment  
-To set up cost adjustment to run automatically when you post an inventory transaction, use the **Automatic Cost Adjustment** field in the **Inventory Setup** window. This field enables you to select how far back in time from the current work date that you want automatic cost adjustment to be performed. The following options exist.  
+To set up cost adjustment to run automatically when you post an inventory transaction, use the **Automatic Cost Adjustment** field in the **Inventory Setup** page. This field enables you to select how far back in time from the current work date that you want automatic cost adjustment to be performed. The following options exist.  
 
 |Option|Description|  
 |----------------------------------|---------------------------------------|  

@@ -40,7 +40,7 @@ The following procedure describes how to invoice a prepayment for a sales orders
 4. If you want to apply one prepayment percentage to the entire order, change the **Prepayment %** field on the header after filling in the lines.  
 5. To view the total prepayment amount, choose the **Statistics** action.
 
-    If you want to adjust the total prepayment amount for the order, you can change the contents of the **Prepayment Amount** field in the **Sales Order Statistics** window.  
+    If you want to adjust the total prepayment amount for the order, you can change the contents of the **Prepayment Amount** field in the **Sales Order Statistics** page.  
 
     If the **Prices Including VAT** field is selected, the **Prepayment Amount Incl. VAT** field is editable.  
 

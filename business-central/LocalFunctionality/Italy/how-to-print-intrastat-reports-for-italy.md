@@ -1,19 +1,13 @@
 ---
-    title: How to Print Intrastat Reports for Italy
-    description: You can print monthly and quarterly Intrastat reports and submit them to the authorities on a diskette by running the **Intrastat Make Disk Tax Auth** batch job. Information regarding the receipt and the delivery of goods is included automatically.
+title: How to Print Intrastat Reports for Italy
+description: You can print monthly and quarterly Intrastat reports and submit them to the authorities in the Italian version of Business Central. Information regarding the receipt and the delivery of goods is included automatically.
+author: SorenGP
 
-    services: project-madeira 
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-business-central
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 10/01/2018
-    ms.author: sgroespe
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 10/01/2018
+ms.author: sgroespe
 
 ---
 # Print Intrastat Reports for Italy
@@ -31,7 +25,7 @@ The following Intrastat reports are available:
 3.  To open the **Intrastat - Monthly** report or the **Intrastat - Quarterly** report, choose the **Monthly Report** action or the **Quarterly Report** action.  
 4.  On the **Intrastat Jnl. Line** FastTab, select the appropriate filters.  
 5.  Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.  
-6.  In the **Intrastat Journal** window, to save the report details to a diskette, on the **Actions** tab, in the **Print** group, choose **Make Diskette**.  
+6.  In the **Intrastat Journal** page, to save the report details to a diskette, on the **Actions** tab, in the **Print** group, choose **Make Diskette**.  
 
     > [!NOTE]  
     >  Before you print, you can select the path and file name. If you do not specify this information, the file will be named **scambi.cee** and will print to the root of the C drive.  

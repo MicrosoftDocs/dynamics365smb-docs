@@ -41,29 +41,29 @@ To calculate how much time a resource can spend on jobs, their capacity must fir
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resources**, and then choose the related link.
 2. Open the relevant resource card, and then choose the **Resource Capacity** action.
-3. In the **Resource Capacity** window, in the **View By** field, specify the length of the period, such as **Day**, that is shown on columns on the **Resource Capacity Matrix** FastTab.
+3. In the **Resource Capacity** page, in the **View By** field, specify the length of the period, such as **Day**, that is shown on columns on the **Resource Capacity Matrix** FastTab.
 4. For each resource on a line, specify for each period on the columns the number of hours that the resource is available.
 5. Alternatively, to detail the resource's weekly capacity within a starting and ending date, choose the **Set Capacity** action.
-6. In the **Resource Capacity Settings** window, fill in the fields as necessary.
-7. Choose the **Update Capacity** action. The **Resource Capacity** window is updated with the entered capacity.
-8. Close the window.
+6. In the **Resource Capacity Settings** page, fill in the fields as necessary.
+7. Choose the **Update Capacity** action. The **Resource Capacity** page is updated with the entered capacity.
+8. Close the page.
 
 ## To set up alternate resource costs
 In addition to the cost specified on the resource card, you can set up alternate costs for each resource. For example, if you pay an employee a higher hourly rate for overtime, you can set up a resource cost for the overtime rate. The alternate cost that you set up for the resource will override the cost on the resource card when you use the resource in the resource journal.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resources**, and then choose the related link.  
 2. Select the resource for that you want to set up one or more alternate costs for, and then choose the **Costs** action.  
-3. In the **Resource Costs** window, fill in the fields on a line as necessary.  
+3. In the **Resource Costs** page, fill in the fields on a line as necessary.  
 4. Repeat step 3 for each alternate resource cost that you want to set up.
 
-**Note**. To set up resource costs that will apply to all resources and resource groups, open the **Resource Costs** window and fill in the fields.
+**Note**. To set up resource costs that will apply to all resources and resource groups, open the **Resource Costs** page and fill in the fields.
 
 ## To set up alternate resource prices
 In addition to price specified on the resource card, you can set up alternate prices for each resource. These alternate prices can be conditional. They can depend on whether the resource is used with a specific job or work type.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resources**, and then choose the related link.
 2. Select the resource for that you want to set up one or more alternate prices for, and then choose the **Prices** action.
-3. In the **Resource Prices** window, fill in the fields on a line as necessary.
+3. In the **Resource Prices** page, fill in the fields on a line as necessary.
 4. Repeat step 3 for each alternate resource price that you want to set up.
 
 ## See Also

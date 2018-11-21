@@ -25,7 +25,7 @@ For more information, see the [Spanish Tax Agency](https://go.microsoft.com/fwli
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Statement**, and then choose the appropriate link.  
 2.  Select the required VAT statement, and then choose the **Design XML file** action.  
-3.  In the **XML Transference Format** window, fill in the fields as described in the following table.  
+3.  In the **XML Transference Format** page, fill in the fields as described in the following table.  
 
     > [!IMPORTANT]  
     >  The values for the fields are determined by the tax authorities.  

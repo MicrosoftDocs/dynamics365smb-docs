@@ -43,7 +43,7 @@ In the following procedures, the first four describe how to enable SEPA payments
 ## To set up a SEPA ISO 20022 export protocol  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Export Protocols**, and then choose the related link.  
-2.  In the **Export Protocols** window, choose the **New** action.  
+2.  In the **Export Protocols** page, choose the **New** action.  
 3.  Fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -65,7 +65,7 @@ In the following procedures, the first four describe how to enable SEPA payments
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Transaction Modes**, and then choose the related link.  
 2.  Select the transaction mode that you want to enable for SEPA, and then choose the **Edit** action.  
-3.  In the **Transaction Mode Card** window, on the **Paym. Proposal** FastTab, in the **Export Protocol** field, select the SEPA export protocol that you have created, such as **SEPA ISO20022**.  
+3.  In the **Transaction Mode Card** page, on the **Paym. Proposal** FastTab, in the **Export Protocol** field, select the SEPA export protocol that you have created, such as **SEPA ISO20022**.  
 4.  Choose the **OK** button.  
 
 ## To verify vendor payment transaction modes for SEPA  

@@ -25,7 +25,7 @@ Notifications are sent to workflow users to notify them about steps they must ma
 
 ## To create a new notification template  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Notification Templates**, and then choose the related link.  
-2.  In the **Notification Templates** window, choose the **New** action.  
+2.  In the **Notification Templates** page, choose the **New** action.  
 3.  Fill the fields as described in the following table.  
 
     |Field|Description|  
@@ -38,9 +38,9 @@ Notifications are sent to workflow users to notify them about steps they must ma
 
 ## To modify a notification template  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Notification Templates**, and then choose the related link.  
-2.  In the **Notification Templates** window, select the notification template that you want to modify.  
+2.  In the **Notification Templates** page, select the notification template that you want to modify.  
 3.  Choose the **Export Template Content** action.  
-4.  In the **Export File** window, choose the **Save** button, and then name and save the HTML file in an appropriate location.  
+4.  In the **Export File** page, choose the **Save** button, and then name and save the HTML file in an appropriate location.  
 5.  Right-click the file, choose **Open with**, and then choose the relevant program.  
 
     > [!NOTE]  
@@ -48,14 +48,14 @@ Notifications are sent to workflow users to notify them about steps they must ma
 6.  Edit the content of the notification template by adding, changing, or removing parameter variables to define the content that you want, and then save it. For more information, see the “Content of the Notification Templates” section.  
 
     Proceed to import the modified content back into the same or a new notification template.  
-7.  To modify the notification template that you exported, in the **Notification Templates** window, select the template that you selected in step 2.  
+7.  To modify the notification template that you exported, in the **Notification Templates** page, select the template that you selected in step 2.  
 
     Alternatively, to import the modified template content into a new notification template, follow the “To create a new notification template” procedure, and then select the new notification template.  
 8.  Choose the **Import Template Content** action.  
 9. If you are modifying an existing notification template, choose the **Yes** button on the message about overwriting the existing template.  
-10. In the **Select a file to import** window, choose the HTML file that you modified in step 6, and then choose the **Open** button.  
+10. In the **Select a file to import** page, choose the HTML file that you modified in step 6, and then choose the **Open** button.  
 
-The existing or new notification template in the **Notification Templates** window is now updated with the modified content.  
+The existing or new notification template in the **Notification Templates** page is now updated with the modified content.  
 
 ### Content of the Notification Templates  
 The three notification template types, **New Record**, **Approval**, and **Overdue**, have different content.  

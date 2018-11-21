@@ -26,7 +26,7 @@ The relationship management area enables you to record all the interactions you 
 
 ##  Setting up Interaction Templates
 Before you can create and record interactions, you must set up interaction templates. When creating interactions, you must specify the interaction templates they are based on. An interaction template is a model that defines the basic characteristics of an interaction.
-You set up an interaction template in the **Interaction Templates** window.
+You set up an interaction template in the **Interaction Templates** page.
 
 After you have entered information about the interaction template, you can create an attachment, for example, a Microsoft Word document. Repeat the steps to set up as many interaction templates as you want.  
 
@@ -37,13 +37,13 @@ There are two ways of recording interactions:
 * You can automatically record interactions when you perform actions in the application, for example, when you print an invoice, or quote. For more information, see [Automatically Record Interactions with Contacts](marketing-auto-record-interactions.md).
 
 ## Viewing and Managing Recorded Interactions
-You can view all the recorded interactions that have not been deleted in the **Interaction Log Entries** window. You can open this window by:
+You can view all the recorded interactions that have not been deleted in the **Interaction Log Entries** page. You can open this page by:
 
 * Using the **Search for Page or Report** icon to search on **Interaction Log Entries**.
 * Choosing the **Interaction Log Entries** action on a contact or segment.
-  The **Interaction Log Entry** window contains the interactions you create manually and the interactions that the application records automatically.
+  The **Interaction Log Entry** page contains the interactions you create manually and the interactions that the application records automatically.
 
-In this window, you can:
+In this page, you can:
 
 * View the status of interactions.
 * Mark interactions as canceled.

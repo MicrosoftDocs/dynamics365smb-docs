@@ -1,6 +1,6 @@
 ---
     title: How to Specify When and How to Receive Notifications | Microsoft Docs
-    description: When you set up users in approval workflows, you must specify in the Notification Setup and Notification Schedule windows how and when each user receives notifications about approval workflow steps. Individual users can also change their notification setup by choosing the Change Notification Settings button on any notification.
+    description: When you set up users in approval workflows, you must specify in the Notification Setup and Notification Schedule pages how and when each user receives notifications about approval workflow steps. Individual users can also change their notification setup by choosing the Change Notification Settings button on any notification.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -15,7 +15,7 @@
     ms.author: sgroespe
 ---
 # Specify When and How to Receive Notifications
-When you set up users in approval workflows, you must specify in the **Notification Setup** and **Notification Schedule** windows how and when each user receives notifications about approval workflow steps. Individual users can also change their notification setup by choosing the **Change Notification Settings** button on any notification.  
+When you set up users in approval workflows, you must specify in the **Notification Setup** and **Notification Schedule** pages how and when each user receives notifications about approval workflow steps. Individual users can also change their notification setup by choosing the **Change Notification Settings** button on any notification.  
 
  Before you can set up an approval user’s notification preferences, you must set the user up as an approval user. For more information, [Set Up Approval Users](across-how-to-set-up-approval-users.md).  
 
@@ -27,7 +27,7 @@ When you set up users in approval workflows, you must specify in the **Notificat
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Approval User Setup**, and then choose the related link.  
 2.  Select the line for the user that you want to set up notification preferences for, and then choose the **Notification Setup** action.  
-3.  In the **Notification Setup** window, fill the fields as described in the following table.  
+3.  In the **Notification Setup** page, fill the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -39,7 +39,7 @@ When you set up users in approval workflows, you must specify in the **Notificat
     You have now specified how the user receives notifications. Proceed to specify when the user receives notifications.  
 
 4.  Choose the **Notification Schedule** action.  
-5.  In the **Notification Schedule** window, fill the fields as described in the following table.  
+5.  In the **Notification Schedule** page, fill the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -52,7 +52,7 @@ When you set up users in approval workflows, you must specify in the **Notificat
 
 ## Change when and how you receive notifications  
 1.  On one of the notifications that you have received, either as email or note, choose the **Change Notification Settings** button.  
-2.  In the **Notification Setup** window, change your notification preferences as described in the previous procedure.  
+2.  In the **Notification Setup** page, change your notification preferences as described in the previous procedure.  
 
 ## See Also  
  [Set Up Approval Users](across-how-to-set-up-approval-users.md)   

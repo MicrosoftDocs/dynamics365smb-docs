@@ -27,7 +27,7 @@ You can import and export an existing custom report layout as a file to and from
   
 2.  Select the row for the report that contains the custom report layout that you want to export, and then on the **Home** tab, in the **Process** group, choose **Custom Layouts**.  
   
-3.  In the **Report Layouts** window, select the report layout that you want to export to a file, and then on the **Home** tab, in the **Process** group, choose **Export Layout**.  
+3.  In the **Report Layouts** page, select the report layout that you want to export to a file, and then on the **Home** tab, in the **Process** group, choose **Export Layout**.  
   
 4.  In the **Export File** dialog box, choose **Save**, and then save the file to a location on your computer or network.  
   
@@ -41,7 +41,7 @@ You can import and export an existing custom report layout as a file to and from
   
 3.  Select the row for the report to which you want to import the report layout, and then on the **Home** tab, in the **Process** group, choose **Custom Layouts**.  
   
-4.  In the **Report Layouts** window, select the report layout to which you want to import the file, and then on the **Home** tab, in the **Process** group, choose **Import Layout**.  
+4.  In the **Report Layouts** page, select the report layout to which you want to import the file, and then on the **Home** tab, in the **Process** group, choose **Import Layout**.  
   
 5.  In the **Import** dialog box, select the document that defines the report layout, and then choose **Open**.  
   

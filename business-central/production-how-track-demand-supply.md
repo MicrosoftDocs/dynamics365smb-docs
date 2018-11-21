@@ -32,12 +32,12 @@ The following describes how to track linked items on a firm planned production o
 The lines in the **Order Tracking** display the documents that are related to the current production order line.
 
 ## Untracked Planning Elements
-The **Untracked Planning Elements** window opens when you choose the **Untracked Qty.** field in the **order Planning** window. It serves two purposes:
+The **Untracked Planning Elements** page opens when you choose the **Untracked Qty.** field in the **order Planning** page. It serves two purposes:
 
-1. To hold information about untracked quantities displayed when the user looks up from the Order Tracking window to see untracked quantities.
-2. To hold warning messages displayed when the user chooses the **Warning** icon in the **Planning Worksheet** window.
+1. To hold information about untracked quantities displayed when the user looks up from the Order Tracking page to see untracked quantities.
+2. To hold warning messages displayed when the user chooses the **Warning** icon in the **Planning Worksheet** page.
 
-The window contains entries which account for an untracked surplus quantity in order tracking network. These entries are generated during the planning run and explain where the untracked surplus quantity in the order tracking lines came from. This untracked surplus can come from:
+The page contains entries which account for an untracked surplus quantity in order tracking network. These entries are generated during the planning run and explain where the untracked surplus quantity in the order tracking lines came from. This untracked surplus can come from:
 
 - Production forecast
 - Blanket orders

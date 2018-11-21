@@ -1,19 +1,13 @@
 ---
-    title: Norwegian VAT Codes
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], VAT processing information can be easily set up using standard Norwegian VAT codes.
+title: Norwegian VAT Codes
+description: In the Norwegian version of Business Central, VAT processing information can be easily set up using standard Norwegian VAT codes.
+author: SorenGP
 
-    services: project-madeira 
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-business-central
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 10/01/2018
-    ms.author: sgroespe
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 10/01/2018
+ms.author: sgroespe
 
 ---
 # Norwegian VAT Codes
@@ -35,7 +29,7 @@ Typically, you enter the **VAT Bus. Posting Group** and **VAT Prod. Posting Grou
 If you want to use only the **VAT Code** field when you specify the VAT handling process, you can assign a VAT code in the **VAT Posting Setup** table, and use this code instead of the posting group fields. The VAT code can be used as a shortcut in the **VAT Posting Setup** table and at the same time, you can use standard Norwegian VAT codes.  
 
 ## Set Up of Norwegian VAT Codes  
-You must create the Norwegian VAT codes in the **VAT Codes** window. Then assign the VAT codes in the **VAT Posting Setup** table, using the **VAT Code** field. For more information, see [Use One VAT Code in Journals](how-to-use-one-vat-code-in-journals.md).  
+You must create the Norwegian VAT codes in the **VAT Codes** page. Then assign the VAT codes in the **VAT Posting Setup** table, using the **VAT Code** field. For more information, see [Use One VAT Code in Journals](how-to-use-one-vat-code-in-journals.md).  
 
 ## Use of VAT Codes  
 When you specify a VAT code, you can select the VAT posting setup information for this code. This information will be used in journals or on document lines when you specify the VAT setup information. If you use the VAT code in these cases, the posting group fields are used with the information from the corresponding VAT posting setup information.  

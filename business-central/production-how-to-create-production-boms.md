@@ -1,6 +1,6 @@
 ---
     title: How to Create Production BOMs | Microsoft Docs
-    description: A production BOM holds master data that describes the components and subassemblies used in the production of a parent item. Once a production order is created for that parent item, its production BOM will govern the calculation of material requirements as represented in the **Prod. Order Components** window.
+    description: A production BOM holds master data that describes the components and subassemblies used in the production of a parent item. Once a production order is created for that parent item, its production BOM will govern the calculation of material requirements as represented in the **Prod. Order Components** page.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # Create Production BOMs
-A production bill of material (BOM) holds master data that describes the components and subassemblies used in the production of a parent item. Once a production order is created for that parent item, its production BOM will govern the calculation of material requirements as represented in the **Prod. Order Components** window.
+A production bill of material (BOM) holds master data that describes the components and subassemblies used in the production of a parent item. Once a production order is created for that parent item, its production BOM will govern the calculation of material requirements as represented in the **Prod. Order Components** page.
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)]  also support assembly BOMs. You use assembly orders for making end items from components in a simple process that can be performed by one or more basic resources, which are not machine or work centers, or without any resources. For example, an assembly process could be to pick two wine bottles and one coffee sack and then pack them as a gift item. For more information, see the "Assembly BOMs or Production BOMs" section in [Work with Bills of Material](inventory-how-work-BOMs.md).  
 

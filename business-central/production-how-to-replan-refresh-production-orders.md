@@ -37,7 +37,7 @@ You can either insert the production order lines manually or use the function th
 4.  Add a component, which is a produced item or subassembly.  
 5.  From the production order, choose the **Replan** action.  
 
-    In the **Replan Production Order** window, proceed to define how and what to replan.  
+    In the **Replan Production Order** page, proceed to define how and what to replan.  
 6.  In the **Scheduling Direction** field, select one of the following options.  
 
     |Option|Description|  
@@ -64,7 +64,7 @@ If you have amended production order lines, components, or routing lines, you mu
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Order**, and then choose the related link.  
 2.  Choose the **New** action. For more information, see [Create Production orders](production-how-to-create-production-orders.md).  
 3.  Choose the **Refresh** action.
-4. In the **Refresh Production Order** window, select one of the following options:
+4. In the **Refresh Production Order** page, select one of the following options:
 
     |Option|Description|  
     |----------------------------------|---------------|---------------------------------------|  

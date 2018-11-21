@@ -32,7 +32,7 @@ The more dimensions you use, the more detailed reports you can base your busines
 The Dimensions functionality plays an important role in business intelligence, such as when defining analysis views. For more information, see [Analyze Data by Dimensions](bi-how-analyze-data-dimension.md).
 
 > [!TIP]
-> As a quick way to analyze transactional data by dimensions, you can filter totals in the chart of accounts and entries in all **Entries** windows by dimensions. Look for the **Set Dimension Filter** action.
+> As a quick way to analyze transactional data by dimensions, you can filter totals in the chart of accounts and entries in all **Entries** pages by dimensions. Look for the **Set Dimension Filter** action.
 
 ## Dimension Sets
 A dimension set is a unique combination of dimension values. It is stored as dimension set entries in the database. Each dimension set entry represents a single dimension value. The dimension set is identified by a common dimension set ID that is assigned to each dimension set entry that belongs to the dimension set.  
@@ -40,7 +40,7 @@ A dimension set is a unique combination of dimension values. It is stored as dim
 When you create a journal line, document header, or document line, you can specify a combination of dimension values. Instead of explicitly storing each dimension value in the database, a dimension set ID is assigned to the journal line, document header, or document line to specify the dimension set.  
 
 ## Setting Up Dimensions
-You can define the dimensions and dimension values to categorize journals and documents, such as sales orders and purchase orders. You set up dimensions in the **Dimensions** window, where you create one line for each dimension, such as *Project*, *Department*, *Area*, and *Salesperson*.
+You can define the dimensions and dimension values to categorize journals and documents, such as sales orders and purchase orders. You set up dimensions in the **Dimensions** page, where you create one line for each dimension, such as *Project*, *Department*, *Area*, and *Salesperson*.
 
 You also set up values for dimensions. For example, values might be departments in your company. Dimension values can be set up in a hierarchical structure similar to the chart of accounts, so that data can be broken down into various levels of granularity, and subsets of dimension values can be totaled. You can define as many dimensions and dimension values as you need, and everyone in your company can use them.
 
@@ -53,7 +53,7 @@ You can also set up some global and shortcut dimensions:
 You can assign a default dimension for a specific account. The dimension will be copied to the journal or document when you enter the account number on a line, but you can delete or change the code on the line if appropriate. You can also make a dimension required for posting an entry with a specific type of account.  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Dimensions**, and then choose the related link.  
-2.  In the **Dimensions** window, select the relevant dimension, and then choose the **Account Type Default Dim** action.  
+2.  In the **Dimensions** page, select the relevant dimension, and then choose the **Account Type Default Dim** action.  
 4.  Fill in a line for each new default dimension that you want to set up. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]  
@@ -69,7 +69,7 @@ You can assign a default dimension for a specific account. The dimension will be
 Different account types, such as a customer account and an item account, can have different default dimensions set up. As a result, an entry can have more than one default dimension proposed for a dimension. To avoid such conflicts, you can apply priority rules to the different sources.  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Default Dimension Priorities**, and then choose the related link.  
-2.  In the **Default Dimension Priorities** window, in the **Source Code** field, enter the source code for the entry table to which default dimension priorities will apply.  
+2.  In the **Default Dimension Priorities** page, in the **Source Code** field, enter the source code for the entry table to which default dimension priorities will apply.  
 3.  Fill in a line for each default dimension priority that you want for the selected source code.
 4.  Repeat the procedure for each source code for which you want to set up default dimension priorities.  
 
@@ -80,12 +80,12 @@ Different account types, such as a customer account and an item account, can hav
 To avoid posting entries with contradictory or irrelevant dimensions, you can block or limit specific combinations of two dimensions. A blocked dimension combination means that you cannot post both dimensions on the same entry regardless of what the dimension values are. A limited dimension combination lets you post both dimensions to the same entry, but only for certain combinations of dimension values.
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Dimension Combinations**, and then choose the related link.  
-2.  In the **Dimension Combinations** window, choose the field of the dimension combination and select one of the following options.  
+2.  In the **Dimension Combinations** page, choose the field of the dimension combination and select one of the following options.  
 
     |Field|Description|
     |----------------------------------|---------------------------------------|  
     |**No limitation**|This dimension combination has no restrictions. All dimensions values are allowed.|  
-    |**Limited**|This dimension combination has restrictions depending on which dimension values that you enter. You must define the limitations in the **Dimension Value Combination** window.|  
+    |**Limited**|This dimension combination has restrictions depending on which dimension values that you enter. You must define the limitations in the **Dimension Value Combination** page.|  
     |**Blocked**|This dimension combination is not allowed.|  
 
 3.  If you selected the **Limited** option, you must define which combinations of dimension values are blocked. To do this, choose the field to define the dimension combination.  
@@ -99,9 +99,9 @@ To avoid posting entries with contradictory or irrelevant dimensions, you can bl
 >  To show the name of the dimensions instead of the code, select the **Show Column Name** field.
 
 ### Getting an Overview of Dimensions used Multiple Times
-The **Default Dimensions-Multiple** window specifies how a group of accounts use dimensions and dimension values. You can do this by highlighting multiple accounts and then specifying default dimensions and dimension values for all the accounts you have highlighted in the account list. When you specify default dimensions for the highlighted accounts, the program will suggest these dimensions and dimension values whenever one of these accounts is used, for example on a journal line. This makes entry posting easier for the user, as the dimension fields are filled in automatically. However, the dimension values that are suggested can be changed on, for example, a journal line.
+The **Default Dimensions-Multiple** page specifies how a group of accounts use dimensions and dimension values. You can do this by highlighting multiple accounts and then specifying default dimensions and dimension values for all the accounts you have highlighted in the account list. When you specify default dimensions for the highlighted accounts, the program will suggest these dimensions and dimension values whenever one of these accounts is used, for example on a journal line. This makes entry posting easier for the user, as the dimension fields are filled in automatically. However, the dimension values that are suggested can be changed on, for example, a journal line.
 
-The **Default Dimensions-Multiple** window contains the following fields:
+The **Default Dimensions-Multiple** page contains the following fields:
 |Field|Description|
 |----------------------------------|---------------------------------------|  
 |**Dimension Code**|Shows all dimensions that have been defined as default dimensions on one or more of the highlighted accounts. By choosing the field, you can see a list of all available dimensions. If you select a dimension, the selected dimension will be defined as a default dimension for all highlighted accounts.|
@@ -109,7 +109,7 @@ The **Default Dimensions-Multiple** window contains the following fields:
 |**Value Posting**|Shows either a single value posting rule or the term (Conflict). If a value posting rule is shown in the field, then all highlighted accounts have the same value posting rule for a dimension value. If the term (Conflict) is shown in the field, then not all of the highlighted accounts have the same value posting rule for a dimension value. By choosing the Value Posting field, you can see a list of value posting rules. If you select a value posting rule, it will be applied for all highlighted accounts.|
 
 ### Example of Dimension Setup
-Let's say that your company wants to track transactions based on organizational structure and geographic locations. To do that, you can set up two dimensions in the **Dimensions** window:
+Let's say that your company wants to track transactions based on organizational structure and geographic locations. To do that, you can set up two dimensions in the **Dimensions** page:
 
 * **AREA**  
 * **DEPARTMENT**  
@@ -145,27 +145,27 @@ For **DEPARTMENT**, you add the following dimension values:
 | PROD |Production |Standard |
 | SALES |Sales |Standard |
 
-With this set up, you then add your two dimensions as the two global dimensions in the **General Ledger Setup** window. This means that you can use AREA and DEPARTMENT as filters for general ledger entries, as well as on all reports and account schedules. Both global dimensions are also automatically available for use on entry lines and document headers as shortcut dimensions.  
+With this set up, you then add your two dimensions as the two global dimensions in the **General Ledger Setup** page. This means that you can use AREA and DEPARTMENT as filters for general ledger entries, as well as on all reports and account schedules. Both global dimensions are also automatically available for use on entry lines and document headers as shortcut dimensions.  
 
 ## Using Dimensions
-In a document such as a sales order, you can add dimension information for both an individual document line and the document itself. For example, in the **Sales Order** window, you can enter dimension values for the first two shortcut dimensions on the individual sales lines, and you can add more dimension information if you choose the **Dimensions** button.  
+In a document such as a sales order, you can add dimension information for both an individual document line and the document itself. For example, in the **Sales Order** page, you can enter dimension values for the first two shortcut dimensions on the individual sales lines, and you can add more dimension information if you choose the **Dimensions** button.  
 
 If you work in a journal instead, you can add dimension information to an entry in the same way, if you have set up shortcut dimensions as fields directly on journal lines.  
 
 You can set up default dimensions for accounts or account types, so that dimensions and dimension values are filled in automatically.
 
-## To view global dimensions in ledger entry windows  
-Global dimensions are always company\-defined and company-named. To see the global dimensions for your company, open the **General Ledger Setup** window.  
+## To view global dimensions in ledger entry pages  
+Global dimensions are always company\-defined and company-named. To see the global dimensions for your company, open the **General Ledger Setup** page.  
 
-In a ledger entry window, you can see whether there are global dimensions for the entries. The two global dimensions differ from the rest of your dimensions because you can use them as filters anywhere in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+In a ledger entry page, you can see whether there are global dimensions for the entries. The two global dimensions differ from the rest of your dimensions because you can use them as filters anywhere in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
-2.  In the **Chart of Accounts** window, choose the **Ledger Entries** action.  
-3.  To see only the entries that are relevant, set one or more filters on the window.  
+2.  In the **Chart of Accounts** page, choose the **Ledger Entries** action.  
+3.  To see only the entries that are relevant, set one or more filters on the page.  
 4.  To see all the dimensions for an entry, select the entry, and then choose the **Dimensions** action.  
 
 > [!NOTE]  
->  The **Ledger Entry Dimensions** window displays the dimensions for one ledger entry at a time. As you scroll through the ledger entries, the content in the **Ledger Entry Dimensions** window changes accordingly.  
+>  The **Ledger Entry Dimensions** page displays the dimensions for one ledger entry at a time. As you scroll through the ledger entries, the content in the **Ledger Entry Dimensions** page changes accordingly.  
 
 ## See Also
 [Business Intelligence](bi.md)  

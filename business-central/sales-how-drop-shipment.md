@@ -32,7 +32,7 @@ To prepare a drop shipment for the item to be sold, you create a purchase order 
 1. Create a purchase order. Do not fill any fields on the lines. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 2. In the **Sell-to Customer No.** field, select the customer that you are selling to.
 3. Choose the **Drop Shipments** action, and then choose the **Get Sales Order** action.
-4. In the **Sales List** window, select the sales order that you prepared in the "To create a sales order for drop shipment" section.
+4. In the **Sales List** page, select the sales order that you prepared in the "To create a sales order for drop shipment" section.
 5. Choose the **OK** button.
 
 The line information from the sales order is inserted on the purchase order line(s).

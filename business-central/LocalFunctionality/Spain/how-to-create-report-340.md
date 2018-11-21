@@ -24,7 +24,7 @@ This report is generated in a format approved by the tax authorities. You should
 ## To create Report 340  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Make 340 Declaration**, and then choose the related link.  
-2.  In the **Make 340 Declaration** window, on the **Options** FastTab, fill in the fields as described in the following table.  
+2.  In the **Make 340 Declaration** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

@@ -86,7 +86,7 @@ The following shows a graphical illustration of this principle:
      In case of B, the reorder point is reached and a new order is created.
 
 ## The Role of the Time Bucket
-The purpose of the time bucket is to collect demand events within the time window in order to make a joint supply order.  
+The purpose of the time bucket is to collect demand events within the time page in order to make a joint supply order.  
 
 For reordering policies that use a reorder point, you can define a time bucket. This ensures that demand within the same time period is accumulated before checking the impact on the projected inventory and whether the reorder point has been passed. If the reorder point is passed, a new supply order is scheduled forward from the end of the period defined by the time bucket. The time buckets begin on the planning starting date.  
 
@@ -136,7 +136,7 @@ Planning Line Quantity = Current Supply Quantity – (Projected Inventory – Ov
 -   If the planning line quantity is equal to or lower than 0, then the action message is Cancel  
 
 #### Composing the Warning Message  
-In case of overflow, the **Untracked Planning Elements** window displays a warning message with the following information:  
+In case of overflow, the **Untracked Planning Elements** page displays a warning message with the following information:  
 
 -   The projected inventory level that triggered the warning  
 -   The calculated overflow level  
@@ -232,7 +232,7 @@ Supply orders that are created specifically to meet a reorder point is excluded 
 The order modifiers, Minimum Order Quantity, Maximum Order Quantity, and Order Multiple, should not play a big role when the fixed reorder quantity policy is used. However, the planning system still takes these modifiers into account and will decrease the quantity to the specified maximum order quantity (and create two or more supplies in order to reach the total order quantity), increase the order to the specified minimum order quantity, or round the order quantity up to meet a specified order multiple.  
 
 #### Combines with Calendars  
-Before suggesting a new supply order to meet a reorder point, the planning system checks if the order is scheduled for a non-working day, according to any calendars that are defined in the **Base Calendar Code** field in the **Company Information** and **Location Card** windows.  
+Before suggesting a new supply order to meet a reorder point, the planning system checks if the order is scheduled for a non-working day, according to any calendars that are defined in the **Base Calendar Code** field in the **Company Information** and **Location Card** pages.  
 
 If the scheduled date is a non-working day, the planning system moves the order forward to the nearest working date. This may result in an order that meets a reorder point but does not meet some specific demand. For such unbalanced demand, the planning system creates an extra supply.  
 
@@ -256,7 +256,7 @@ The system will ensure that the projected inventory at least reaches the reorder
 Depending on the setup, it may be best to combine the Maximum Quantity policy with order modifiers to ensure a minimum order quantity or round it to an integer number of purchase units of measure, or split it into more lots as defined by the maximum order quantity.  
 
 ### Combines with Calendars  
-Before suggesting a new supply order to meet a reorder point, the planning system checks if the order is scheduled for a non-working day, according to any calendars that are  defined in the **Base Calendar Code** field in the **Company Information** and **Location Card** windows.  
+Before suggesting a new supply order to meet a reorder point, the planning system checks if the order is scheduled for a non-working day, according to any calendars that are  defined in the **Base Calendar Code** field in the **Company Information** and **Location Card** pages.  
 
 If the scheduled date is a non-working day, the planning system moves the order forward to the nearest working date. This may result in an order that meets a reorder point but does not meet some specific demand. For such unbalanced demand, the planning system creates an extra supply.
 

@@ -18,7 +18,7 @@ Payment methods define how an invoice will be paid. You can set up any number of
 Payment methods are linked to vendors in order to specify how an invoice from the specific vendor must be paid.
 
 ## To set up a payment methods
-Several typical payment methods are already defined in [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can define new payment methods in the **Payment Methods** window, which you can find with the search function or open from the **Payment Method** field on an a vendor or customer card.
+Several typical payment methods are already defined in [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can define new payment methods in the **Payment Methods** page, which you can find with the search function or open from the **Payment Method** field on an a vendor or customer card.
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Methods**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 

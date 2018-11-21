@@ -31,7 +31,7 @@ For more information, see the [Spanish Tax Agency](https://go.microsoft.com/fwli
     >   
     >  In the standard version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the VAT statement name for the 320 telematic statement is of the type **One Column Report**.  
 
-4.  In the **Telematic VAT Declaration** window, on the **Options** FastTab, fill in the fields as described in the following table.  
+4.  In the **Telematic VAT Declaration** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -43,7 +43,7 @@ For more information, see the [Spanish Tax Agency](https://go.microsoft.com/fwli
 
     Optionally, select additional filters.  
 6.  Choose the **OK** button.  
-7.  In the **Transference Format** window, verify that the VAT statement is set up as required, and then choose the **OK** button.  
+7.  In the **Transference Format** page, verify that the VAT statement is set up as required, and then choose the **OK** button.  
 8.  Choose the **Open** button or choose the **Save** button.  
 
 You can now submit the VAT statement to the tax authorities.  

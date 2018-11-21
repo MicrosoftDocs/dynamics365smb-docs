@@ -1,6 +1,6 @@
 ---
     title: Design Details - The Role of the Time Bucket | Microsoft Docs
-    description: The purpose of the time bucket is to collect demand events within the time window in order to make a joint supply order.
+    description: The purpose of the time bucket is to collect demand events within the time page in order to make a joint supply order.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -17,7 +17,7 @@
 
 ---
 # Design Details: The Role of the Time Bucket
-The purpose of the time bucket is to collect demand events within the time window in order to make a joint supply order.  
+The purpose of the time bucket is to collect demand events within the time page in order to make a joint supply order.  
 
  For reordering policies that use a reorder point, you can define a time bucket. This ensures that demand within the same time period is accumulated before checking the impact on the projected inventory and whether the reorder point has been passed. If the reorder point is passed, a new supply order is scheduled forward from the end of the period defined by the time bucket. The time buckets begin on the planning starting date.  
 

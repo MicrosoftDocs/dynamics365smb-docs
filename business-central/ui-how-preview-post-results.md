@@ -21,8 +21,8 @@ On every document and journal that can be posted, you can choose the **Preview P
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.
 2. Create a purchase invoice. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 3. Choose **Preview Posting**.
-4. In the **Posting Preview** window, select **G/L Entry**, and then choose **Show Related Entries**.  
-   The **G/L Entries Preview** window shows which entries will be created when you post the purchase invoice.
+4. In the **Posting Preview** page, select **G/L Entry**, and then choose **Show Related Entries**.  
+   The **G/L Entries Preview** page shows which entries will be created when you post the purchase invoice.
 
 ## See Also
 [Post Documents and Journals](ui-post-documents-journals.md)  

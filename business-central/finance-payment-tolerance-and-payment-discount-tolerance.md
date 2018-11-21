@@ -41,16 +41,16 @@ Tolerance on days and amounts allows you to close an invoice even though the pay
 
 To set up tolerance you have to set up various tolerance accounts, specify both payment discount tolerance and payment tolerance posting methods and then run the **Change Payment Tolerance** batch job.  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Posting Setup**, and then choose the related link.  
-2. In the **General Posting Setup** window, set up a debit and a credit sales payment tolerance account and a debit and a credit purchase payment tolerance account.  
+2. In the **General Posting Setup** page, set up a debit and a credit sales payment tolerance account and a debit and a credit purchase payment tolerance account.  
 3. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer Posting Groups**, and then choose the related link.    
-4. In the **Customer Posting Groups** window, set up a debit and a credit payment tolerance account. For more information, see [Setting Up Posting Groups](finance-posting-groups.md).  
+4. In the **Customer Posting Groups** page, set up a debit and a credit payment tolerance account. For more information, see [Setting Up Posting Groups](finance-posting-groups.md).  
 5. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendor Posting Setup**, and then choose the related link.  
-6. In the **Vendor Posting Groups** window, set up a debit and a credit payment tolerance account.  
+6. In the **Vendor Posting Groups** page, set up a debit and a credit payment tolerance account.  
 7. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
-8. Open the **General Ledger Setup** window.  
+8. Open the **General Ledger Setup** page.  
 9. On the **Application** FastTab, fill in the **Pmt. Disc. Tolerance Posting**, **Payment Discount Grace Period** and **Payment Tolerance Posting** fields.   
 10. Choose the **Change Payment Tolerance** action.
-11. In the **Change Payment Tolerance** window, fill in the **Payment Tolerance %** and **Max Payment Tolerance Amount** fields, and then choose the **OK** button.
+11. In the **Change Payment Tolerance** page, fill in the **Payment Tolerance %** and **Max Payment Tolerance Amount** fields, and then choose the **OK** button.
 
 > [!IMPORTANT]  
 >  You have now set up tolerance for local currency only. If you want [!INCLUDE[d365fin](includes/d365fin_md.md)] to handle tolerance on payments, credit memos, and refunds in a foreign currency, you must run the **Change Payment Tolerance** batch job with a value in the **Currency Code** field.  
@@ -65,10 +65,10 @@ To set up tolerance you have to set up various tolerance accounts, specify both 
 ## To enable or disable payment tolerance warnings
 The payment tolerance warning appears when you post an application that has a balance in the allowed tolerance. You can then choose how you want to post and document the balance.    
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
-2. In the **General Ledger Setup** window, on the **Application** FastTab, select the **Payment Tolerance Warning** check box to activate the warning. To deactivate the warning, clear the check box.  
+2. In the **General Ledger Setup** page, on the **Application** FastTab, select the **Payment Tolerance Warning** check box to activate the warning. To deactivate the warning, clear the check box.  
 
 > [!NOTE]  
->  The default option for the **Payment Tolerance Warning** window is **Leave the Balance as Remaining Amount**. The default option for the **Pmt. Disc. Tolerance Warning** window the is **Do Not Accept the Late Payment Discount**.
+>  The default option for the **Payment Tolerance Warning** page is **Leave the Balance as Remaining Amount**. The default option for the **Pmt. Disc. Tolerance Warning** page the is **Do Not Accept the Late Payment Discount**.
 
 ## To block payment tolerance for customers  
 The default setting for payment tolerance is allowed. To disallow a certain customer or vendor payment tolerance you need to block tolerance on the respective customer or vendor card. The following describes how to do it for a customer. The steps are similar for a vendor.
@@ -82,7 +82,7 @@ The default setting for payment tolerance is allowed. To disallow a certain cust
 ## Example 1 - Tolerance Calculations for a Single Document
 The following are some example scenarios showing the expected tolerance calculations and postings occurring in different situations.  
 
-The **G/L Setup** window contains the following setup:
+The **G/L Setup** page contains the following setup:
 - Payment Discount Grace Period: 5D  
 - Max Payment Tolerance: 5  
 
@@ -151,7 +151,7 @@ Normal Application Rules
 ## Example 2 - Tolerance Calculations for Multiple Documents
 The following are some example scenarios showing the expected tolerance calculations and postings occurring in different situations. The examples are limited to being only those scenarios that result in all entries in the application being closed.  
 
-The **G/L Setup** window contains the following setup:
+The **G/L Setup** page contains the following setup:
 - Payment Discount Grace Period 5D  
 - Max Payment Tolerance 5  
 

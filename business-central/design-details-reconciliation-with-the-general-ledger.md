@@ -31,7 +31,7 @@ The posting dates of the general ledger entries are set to the posting date of t
 When you run the **Post Inventory Cost to G/L** batch job, you might receive errors because of missing setup or incompatible dimension setup. If the batch job encounters errors in the dimension setup, it overrides these errors and uses the dimensions of the value entry. For other errors, the batch job does not post the value entries and lists them at the end of the report in a section titled, **Skipped Entries**. To post these entries, you must first fix the errors. To see a list of errors before you run the batch job, you can run the **Post Invt. Cost to G/L - Test** report. This report lists all of the errors that are encountered during a test posting. You can fix the errors, and then run the inventory cost posting batch job without skipping any entries.  
 
 ## Automatic Cost Posting  
-To set up cost posting to the general ledger to run automatically when you post an inventory transaction, select the **Automatic Cost Posting** check box in the **Inventory Setup** window. The posting date of the general ledger entry is the same as the posting date of the item ledger entry.  
+To set up cost posting to the general ledger to run automatically when you post an inventory transaction, select the **Automatic Cost Posting** check box in the **Inventory Setup** page. The posting date of the general ledger entry is the same as the posting date of the item ledger entry.  
 
 ## Account Types  
 During reconciliation, inventory values are posted to the inventory account in the balance sheet. The same amount, but with the reverse sign, is posted to the relevant balancing account. Usually the balancing account is an income statement account. However, when you post direct cost related to consumption or output, the balancing account is a balance sheet account. The type of the item ledger entry and value entry determines which general ledger account to post to.  
@@ -41,7 +41,7 @@ The entry type indicates which general ledger account to post to. This is determ
 ### Example  
 The following example shows a bike chain that is manufactured from purchased links. This example shows how the various general ledger account types are used in a typical scenario.  
 
-The **Expected Cost Posting to G/L** check box in the **Inventory Setup** window is selected, and the following setup is defined.  
+The **Expected Cost Posting to G/L** check box in the **Inventory Setup** page is selected, and the following setup is defined.  
 
 The following table shows how the link is set up on the item card.  
 

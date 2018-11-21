@@ -1,6 +1,6 @@
 ---
 title: Setting Up Reports to Print on Specific Printers | Microsoft Docs
-description: Learn about specifying a printer for a report and using the Printer Selections window.
+description: Learn about specifying a printer for a report and using the Printer Selections page.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -28,7 +28,7 @@ You can set up reports so that they must be printed on a specific printer. The f
 - You can print reports on different paper sizes.
 - You can print reports on the default printer of a specified employee.
 
-You use the **Printer Selections** window to set different values to obtain different output. If you set a specific printer selection, then it takes precedence over a more general printer selection. For example, you can set a printer selection that has values in the **User ID**, **Report ID**, and **Printer Name** fields. This printer selection takes precedence over a printer selection that has blank entries in the **User ID** or **Report ID** fields.
+You use the **Printer Selections** page to set different values to obtain different output. If you set a specific printer selection, then it takes precedence over a more general printer selection. For example, you can set a printer selection that has values in the **User ID**, **Report ID**, and **Printer Name** fields. This printer selection takes precedence over a printer selection that has blank entries in the **User ID** or **Report ID** fields.
 
 The following table describes the combination of values to specify when you set up printer selections for a report.
 

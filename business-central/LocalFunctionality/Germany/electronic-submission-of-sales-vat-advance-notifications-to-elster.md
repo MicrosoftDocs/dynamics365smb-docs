@@ -42,9 +42,9 @@ ELSTER requires certificates to identify the company and the person who submits 
 - The public certificate of the tax authorities.  
 - A personal .pfx certificate for that user.  
 
-You must then list the users and the friendly names of the certificates in the **Certificates** window. For more information about how to install a certificate and how to find the friendly name, see the Help for the operating system.  
+You must then list the users and the friendly names of the certificates in the **Certificates** page. For more information about how to install a certificate and how to find the friendly name, see the Help for the operating system.  
 
-If you use a proxy server to submit the ELSTER documents, you must specify the settings in the **Electronic VAT Decl. Setup** window.  
+If you use a proxy server to submit the ELSTER documents, you must specify the settings in the **Electronic VAT Decl. Setup** page.  
 
 For more information, see [Set Up Sales VAT Advance Notifications for ELSTER](how-to-set-up-sales-vat-advance-notifications-for-elster.md).  
 
@@ -60,14 +60,14 @@ The public certificate of the tax authorities is available for download from the
 
 The personal .pfx certificate is required to clearly identify the user who submits the documents to the tax authorities. The personal certificate contains a digital signature that is included in the transmitted XML files. The name of the user who submitted the files is also included.  
 
-You must also download all relevant style sheets that the tax authorities make available. This includes the ustva.xsl style sheet that you must specify in the **Sales VAT Adv. Notif. Card** window, but the tax authorities may require additional style sheets that must be located in the same folder as the ustva.xsl style sheet.  
+You must also download all relevant style sheets that the tax authorities make available. This includes the ustva.xsl style sheet that you must specify in the **Sales VAT Adv. Notif. Card** page, but the tax authorities may require additional style sheets that must be located in the same folder as the ustva.xsl style sheet.  
 
 For more information, see the [ELSTER online portal](https://go.microsoft.com/fwlink/?LinkId=155998)  
 
 ## Transmissions  
-In the **Sales VAT Adv. Notification List** window, you can create and submit sales VAT advance notifications. When you create a document, you can preview it before submitting it to the ELSTER portal. The documents that are created are based on the XML stylesheets that are published at the ELSTER portal, and on the certificate and other information that you have set up in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+In the **Sales VAT Adv. Notification List** page, you can create and submit sales VAT advance notifications. When you create a document, you can preview it before submitting it to the ELSTER portal. The documents that are created are based on the XML stylesheets that are published at the ELSTER portal, and on the certificate and other information that you have set up in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
-After you have submitted a document to ELSTER, an entry is made in the **VAT Transmission Log Entries** window. When the ELSTER online portal processed the submitted document, errors can occur, and [!INCLUDE[d365fin](../../includes/d365fin_md.md)] displays an error message that is based on the error code from ELSTER. In most cases, the error is caused by problems with the user-specific certificate or with network connectivity. For more information, see [Error Messages of the ElsterTransferHandler and ELSTER Transmission Overview](error-messages-of-the-elstertransferhandler.md).
+After you have submitted a document to ELSTER, an entry is made in the **VAT Transmission Log Entries** page. When the ELSTER online portal processed the submitted document, errors can occur, and [!INCLUDE[d365fin](../../includes/d365fin_md.md)] displays an error message that is based on the error code from ELSTER. In most cases, the error is caused by problems with the user-specific certificate or with network connectivity. For more information, see [Error Messages of the ElsterTransferHandler and ELSTER Transmission Overview](error-messages-of-the-elstertransferhandler.md).
 
 ## See Also  
  [Set Up Sales VAT Advance Notifications for ELSTER](how-to-set-up-sales-vat-advance-notifications-for-elster.md)   

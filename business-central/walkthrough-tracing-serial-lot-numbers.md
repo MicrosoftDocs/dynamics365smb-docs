@@ -18,9 +18,9 @@
 # Walkthrough: Tracing Serial-Lot Numbers
 When product defects occur, the errors must be identified and affected items must be prevented from leaving the company. If defective items have already been shipped, you must trace who received them and, if you need to, recall the items.  
 
-The first task of defects management is to investigate where the defective items came from and where they were used. This investigation is based on historic data and is made easier by searching through item tracking entries using the **Item Tracing** window.  
+The first task of defects management is to investigate where the defective items came from and where they were used. This investigation is based on historic data and is made easier by searching through item tracking entries using the **Item Tracing** page.  
 
-The second task of defects management is to determine whether the traced items are planned for in open documents, such as non-posted sales orders or consumption journals. This work is performed in the **Navigate** window. You can use the Navigate feature to search all kinds of database records.  
+The second task of defects management is to determine whether the traced items are planned for in open documents, such as non-posted sales orders or consumption journals. This work is performed in the **Navigate** page. You can use the Navigate feature to search all kinds of database records.  
 
 ## About This Walkthrough  
 This walkthrough demonstrates how to identify which items are defective, which vendor supplied them, and where they are used so that those orders can be stopped or recalled.  
@@ -55,7 +55,7 @@ From the sales department, the quality controller knows that the returned racing
 
 The results of this first item tracking task identify which racing frames were defective and which vendor supplied them. Afterward, but in the same overall tracking process, the quality controller must find all the sold racing bikes that contain racing frames from the faulty lot so that those orders can be stopped or recalled. Lastly, the quality controller must find any open documents where the faulty lot is used so that no additional transactions are made.  
 
-The first two defects-management tasks are performed in the **Item Tracing** window. The last task is performed in the **Navigate** window in integration with the **Item Tracing** window.  
+The first two defects-management tasks are performed in the **Item Tracing** page. The last task is performed in the **Navigate** page in integration with the **Item Tracing** page.  
 
 ## Prepare Sample Data  
 You must create the following new items:  
@@ -76,7 +76,7 @@ Then you must create various purchase, production, and sales transactions with t
     |Racing Frame|PCS|RAW MAT|VAT25|RAW MAT|LOTALL|  
 
     > [!NOTE]  
-    >  To enter the base unit of measure, choose the **New** button, and then select **PSC** in the **Item Units of Measure** window.  
+    >  To enter the base unit of measure, choose the **New** button, and then select **PSC** in the **Item Units of Measure** page.  
 
 4.  All other fields have acceptable default data or do not have to be filled in.  
 5.  Choose the **OK** button to create the first new item card, 2000.  
@@ -88,17 +88,17 @@ Then you must create various purchase, production, and sales transactions with t
     |Racing Bike|PCS|RETAIL|VAT25|FINISHED|Prod. Order|SNALL|  
 
     > [!NOTE]  
-    >  To enter the base unit of measure, choose the **New** button, and then select **PSC** in the **Item Units of Measure** window.  
+    >  To enter the base unit of measure, choose the **New** button, and then select **PSC** in the **Item Units of Measure** page.  
 
     Next, define the item's manufacturing setup.
 
 9. On the **Replenishment** FastTab, in the **Routing No.** field, enter **1000**.  
 10. Choose the **Production BOM No.** field, and then choose **Advanced**.  
-11. In the **Production BOM List** window, choose the first line, **1000**, and then choose the **Edit** action.  
-12. In the **Production BOM** window, change the value in the **Status** field to **Under Development**.  
+11. In the **Production BOM List** page, choose the first line, **1000**, and then choose the **Edit** action.  
+12. In the **Production BOM** page, change the value in the **Status** field to **Under Development**.  
 13. Go to an empty line, enter **2000** in the **No.** field, and then enter **1** in the **Quantity Per** field.  
 14. Change the value in the **Status** field back to **Certified**.  
-15. Choose the **OK** button to insert the production BOM on the item card and close the **Production BOM** window.  
+15. Choose the **OK** button to insert the production BOM on the item card and close the **Production BOM** page.  
 
     Next, purchase racing frames from Custom Metals Incorporated.  
 
@@ -112,7 +112,7 @@ Then you must create various purchase, production, and sales transactions with t
     |2000|10|LOT1|  
 
 4.  To enter the lot number, choose the **Item Tracking Lines** action.  
-5.  In the **Item Tracking Lines** window, fill in the **Lot No.** and **Quantity (Base)** fields, and then close the window.  
+5.  In the **Item Tracking Lines** page, fill in the **Lot No.** and **Quantity (Base)** fields, and then close the page.  
 6.  In the **Vendor Invoice No.** field, enter any value.  
 7.  Choose the **Post** action, select the **Receive and Invoice** option, and then choose the **OK** button.  
 
@@ -126,7 +126,7 @@ Then you must create various purchase, production, and sales transactions with t
     |2000|11|LOT2|  
 
 11. To enter the lot number, on the **Lines** FastTab, in the **Line** group, choose the **Item Tracking Lines** action.  
-12. In the **Item Tracking Lines** window, fill in the **Lot No.** and **Quantity (Base)** fields, and then close the window.  
+12. In the **Item Tracking Lines** page, fill in the **Lot No.** and **Quantity (Base)** fields, and then close the page.  
 13. In the **Vendor Invoice No.** field, enter any value.  
 14. Choose the **Post** action, select the **Receive and Invoice** option, and then choose the **OK** button.  
 
@@ -144,13 +144,13 @@ Then you must create various purchase, production, and sales transactions with t
 
 4.  Choose the **Refresh Production Order** action, and then choose the **OK** button to fill the line.  
 5.  To enter the serial numbers, choose the **Item Tracking Lines** action.  
-6.  In the **Item Tracking Lines** window, fill in the **Serial No.** and **Quantity (Base)** fields, and then close the window.  
+6.  In the **Item Tracking Lines** page, fill in the **Serial No.** and **Quantity (Base)** fields, and then close the page.  
 
     Next, post consumption of racing frames from LOT1.  
-7.  In the **Released Production Order** window, choose the **Production Journal** action.  
-8.  In the **Production Journal** window, select the consumption line for item 2000, choose the **Item Tracking Lines** action.
-9. In the **Item Tracking Lines** window, choose the **Lot No.** field, choose **LOT1**, and then choose the **OK** button.  
-10. Leave all other defaults in the **Production Journal** window, and then choose the **Post** action.  
+7.  In the **Released Production Order** page, choose the **Production Journal** action.  
+8.  In the **Production Journal** page, select the consumption line for item 2000, choose the **Item Tracking Lines** action.
+9. In the **Item Tracking Lines** page, choose the **Lot No.** field, choose **LOT1**, and then choose the **OK** button.  
+10. Leave all other defaults in the **Production Journal** page, and then choose the **Post** action.  
 
     Next, produce two more racing bikes, SN3 and SN4.  
 
@@ -164,13 +164,13 @@ Then you must create various purchase, production, and sales transactions with t
     |1002|2|SN4|  
 
 14. Choose the **Refresh Production Order** action to fill the line.  
-15. To enter the serial numbers, choose the **Item Tracking Lines** action, and then the numbers on two lines in the **Serial No.** field in the **Item Tracking Lines** window.  
+15. To enter the serial numbers, choose the **Item Tracking Lines** action, and then the numbers on two lines in the **Serial No.** field in the **Item Tracking Lines** page.  
 
     Next, post more consumption of racing frames from LOT1.  
-16. In the **Released Production Order** window, choose the **Production Journal** action.  
-17. In the **Production Journal** window, select the consumption line for item 2000, choose the **Item Tracking Lines** action.
-18. In the **Item Tracking Lines** window, choose the **Lot No.** field, choose **LOT1**, and then choose the **OK** button.  
-19. Leave all other defaults in the **Production Journal** window, and then choose the **Post** action.  
+16. In the **Released Production Order** page, choose the **Production Journal** action.  
+17. In the **Production Journal** page, select the consumption line for item 2000, choose the **Item Tracking Lines** action.
+18. In the **Item Tracking Lines** page, choose the **Lot No.** field, choose **LOT1**, and then choose the **OK** button.  
+19. Leave all other defaults in the **Production Journal** page, and then choose the **Post** action.  
 
     You have produced four racing bikes, SN1 to SN4, and consumed four of the ten racing frames from LOT1, two frames in each production order.  
 
@@ -186,7 +186,7 @@ Then you must create various purchase, production, and sales transactions with t
     |--------------|----------|----------|----------------|  
     |Selangorian Ltd.|1002|1|SN1|  
 
-3.  To enter the serial number, choose the **Item Tracking Lines** action, and then the number in the **Serial No.** field in the **Item Tracking Lines** window.  
+3.  To enter the serial number, choose the **Item Tracking Lines** action, and then the number in the **Serial No.** field in the **Item Tracking Lines** page.  
 4.  Choose the **Post** action, select the **Ship and Invoice** option, and then choose the **OK** button.  
 
     Next, sell the racing bike with SN2 to The Cannon Group PLC.  
@@ -198,7 +198,7 @@ Then you must create various purchase, production, and sales transactions with t
     |--------------|----------|----------|----------------|  
     |Cannon Group PLC.|1002|1|SN2|  
 
-7.  To enter the serial number, choose the **Item Tracking Lines** action, and then the number in the **Serial No.** field in the **Item Tracking Lines** window.  
+7.  To enter the serial number, choose the **Item Tracking Lines** action, and then the number in the **Serial No.** field in the **Item Tracking Lines** page.  
 8.  Choose the **Post** action, select the **Ship and Invoice** option, and then choose the **OK** button.  
 
     Finally, sell some racing frames separately. The Cannon Group PLC. also orders four separate racing frames for their own assembly line.  
@@ -210,7 +210,7 @@ Then you must create various purchase, production, and sales transactions with t
     |--------------|----------|----------|----------------|  
     |Cannon Group PLC.|2000|5|LOT1|  
 
-11. To enter the serial number, on the **Lines** FastTab, in the **Line** group, choose the **Item Tracking Lines** action, and then the number in the **Serial No.** field in the **Item Tracking Lines** window.  
+11. To enter the serial number, on the **Lines** FastTab, in the **Line** group, choose the **Item Tracking Lines** action, and then the number in the **Serial No.** field in the **Item Tracking Lines** page.  
 
     > [!NOTE]  
     >  Do not post the last sales order for five racing frames.  
@@ -222,7 +222,7 @@ Then you must create various purchase, production, and sales transactions with t
 
 ### To determine which lot included the faulty frame and who supplied it  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Tracing**, and then choose the related link.  
-2.  In the **Item Tracing** window, enter **SN1** in the **Serial No. Filter** field, and then enter **1002** in the **Item Filter** field.  
+2.  In the **Item Tracing** page, enter **SN1** in the **Serial No. Filter** field, and then enter **1002** in the **Item Filter** field.  
 3.  Keep the default setting of **Item-Tracked Only** in the **Show Components** field, and keep the default trace method of **Usage – Origin** in the **Trace Method**.  
 4.  Choose the **Trace** action.  
 
@@ -244,16 +244,16 @@ Then you must create various purchase, production, and sales transactions with t
     > [!NOTE]  
     >  Do not make any additional modifications to the trace result, as you will use it in the next section.  
 
-     This completes the first defects-management task using the **Item Tracing** window. The quality controller must now determine whether other posted documents have processed racing frames from LOT1.  
+     This completes the first defects-management task using the **Item Tracing** page. The quality controller must now determine whether other posted documents have processed racing frames from LOT1.  
 
 ## Tracing from Origin to Usage  
  The quality controller has established that the faulty racing frames came from LOT1. He must now find any other racing bikes that contain racing frames from the faulty lot so that those bikes can be stopped or recalled.  
 
- One way to prepare this trace task in the **Item Tracing** window is to manually enter LOT1 in the **Lot No. Filter** field and 2000 in the **Item Filter** field. However, this walkthrough will use the **Trace Opposite - from Line** function.  
+ One way to prepare this trace task in the **Item Tracing** page is to manually enter LOT1 in the **Lot No. Filter** field and 2000 in the **Item Filter** field. However, this walkthrough will use the **Trace Opposite - from Line** function.  
 
 ### To find all usage of the faulty lot  
 
-1.  In the **Item Tracing** window, select the line of the purchase receipt, the last trace line, and then choose **Trace Opposite – from Line**.  
+1.  In the **Item Tracing** page, select the line of the purchase receipt, the last trace line, and then choose **Trace Opposite – from Line**.  
 
     The trace result is now based on the filters of the trace line for the purchase receipt, LOT1 and item 2000, and the result is based on trace method **Origin - Usage**.  
 
@@ -267,17 +267,17 @@ Then you must create various purchase, production, and sales transactions with t
 
     At the same time, he can see from the last three trace lines that another two items, SN3 and SN4, have been produced based on racing frames from LOT1. He takes action to block these end items in inventory.  
 
-    This completes the second defects management task using the **Item Tracing** window for defects management. Since the **Item Tracing** window is based on posted entries only, the quality controller must continue to the **Navigate** window to make sure that LOT1 is not used in non-posted documents.  
+    This completes the second defects management task using the **Item Tracing** page for defects management. Since the **Item Tracing** page is based on posted entries only, the quality controller must continue to the **Navigate** page to make sure that LOT1 is not used in non-posted documents.  
 
 ## Finding All Records of a Serial/Lot Number  
- With the **Item Tracing** window, the quality controller learned that LOT1 contained the faulty racing frames, which vendor supplied them, and in which posted transaction they have been used. He must now determine whether LOT1 is in any open documents by integrating from the trace result to the **Navigate** window where he can perform a search through all database records.  
+ With the **Item Tracing** page, the quality controller learned that LOT1 contained the faulty racing frames, which vendor supplied them, and in which posted transaction they have been used. He must now determine whether LOT1 is in any open documents by integrating from the trace result to the **Navigate** page where he can perform a search through all database records.  
 
 ### To find all occurrences of LOT1 in non-posted records, such as open orders  
 
-1.  In the **Item Tracing** window, select the first trace line, the purchase receipt of LOT1.  
+1.  In the **Item Tracing** page, select the first trace line, the purchase receipt of LOT1.  
 2.  Choose the **Navigate** action.  
 
-    The **Navigate** window is preset with search filters based on the trace result for LOT1. The quality controller recognizes most of the records as pertaining to documents already identified in the **Item Tracing** window. For example, the last Navigate line of type Production Order refers to the two released production orders that consumed racing frames from LOT1.  
+    The **Navigate** page is preset with search filters based on the trace result for LOT1. The quality controller recognizes most of the records as pertaining to documents already identified in the **Item Tracing** page. For example, the last Navigate line of type Production Order refers to the two released production orders that consumed racing frames from LOT1.  
 
     However, the second Navigate line of type **Sales Line** is a non-posted document line, so the quality controller proceeds to investigate.  
 
@@ -285,7 +285,7 @@ Then you must create various purchase, production, and sales transactions with t
 
     Here the quality controller sees one open sales line for the faulty racing frames. He immediately suggests to the sales department that this order be canceled and a new production order, based on good racing frames, be initiated.  
 
- This completes the walkthrough of how to use the **Navigate** window for defects management in integration with the **Item Tracing** window.  
+ This completes the walkthrough of how to use the **Navigate** page for defects management in integration with the **Item Tracing** page.  
 
 ## See Also
 [Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)  

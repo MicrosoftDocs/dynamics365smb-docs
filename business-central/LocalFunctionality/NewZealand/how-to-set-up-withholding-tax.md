@@ -22,7 +22,7 @@ If a supplier without a New Zealand Inland Revenue Department number (IRD) provi
 To use withholding tax, you must set up the business posting groups and product posting groups for withholding tax so that the correct WHT calculations are made for each vendor.  
 
 > [!NOTE]  
->  As a prerequisite, you need to set up source codes for WHT settlement in the **Source Code Setup** window.  
+>  As a prerequisite, you need to set up source codes for WHT settlement in the **Source Code Setup** page.  
 
 The following procedure describes how to set up product posting groups for WHT, but the same steps also apply to setting up business posting groups for WHT.  
 

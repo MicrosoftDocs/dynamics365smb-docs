@@ -33,7 +33,7 @@ During an examination of the books for a fiscal year, a tax inspector can ask fo
     |**End Date**|Specify the end date of the period on which the data must be based.|  
     |**Exclude Begin Balance**|Specifies if the audit file must contain the begin balance of general ledger accounts.<br /><br /> The field is editable if the start date of the period is equal to the start date of a fiscal year.|  
 
-3.  Choose the **OK** button to create the audit file. If you do not want to create the audit file, choose the **Cancel** button to close the window.  
+3.  Choose the **OK** button to create the audit file. If you do not want to create the audit file, choose the **Cancel** button to close the page.  
 
 When you run the report, you must specify the name and location of the exported file. The default file name is **audit.xaf**, but you can change that. The file extension must be .xaf.  
 

@@ -22,11 +22,11 @@ The Microsoft Pay, PayPal Payments Standard, and WorldPay Payments Standard exte
 
 ## To enable a payment service in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Services**, and then choose the related link.  
-2. In the **Payment Services** window, choose the **New** action.  
-3. Select the payment service, and then close the window.  
-4. In the **Payment Services** window, choose the **Setup** action.  
+2. In the **Payment Services** page, choose the **New** action.  
+3. Select the payment service, and then close the page.  
+4. In the **Payment Services** page, choose the **Setup** action.  
 5. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-6. Close the window.  
+6. Close the page.  
 
 ## To select a payment service on a sales invoice
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  

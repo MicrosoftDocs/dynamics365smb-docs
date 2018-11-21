@@ -23,7 +23,7 @@ The use of standard tasks simplifies the creation and maintenance of routings. T
 2. Choose the **New** action.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Choose the **Tools**, **Personnel**, **Description**, or **Tools** action.
-5. In the window that opens, describe the standard task in question.
+5. In the page that opens, describe the standard task in question.
 
 ## To add a standard task to an operation
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routings**, and then choose the related link.

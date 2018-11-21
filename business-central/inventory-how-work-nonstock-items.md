@@ -21,8 +21,8 @@ You can offer certain items to your customers for their convenience, which you d
 * From a sales order line of type **Item** with an empty **No** field, select a catalog item. An item card is then automatically created for the catalog item.
 
 > [!NOTE]  
-> You cannot select a catalog item from the **Sales Invoice** window.<br /><br />
-> You can select a catalog item from the **Sales Quote** window, but the catalog item will not be converted to a normal item when you use the **Make Order** function.
+> You cannot select a catalog item from the **Sales Invoice** page.<br /><br />
+> You can select a catalog item from the **Sales Quote** page, but the catalog item will not be converted to a normal item when you use the **Make Order** function.
 
 A catalog item typically has the item number of the vendor who supplies it. To enable conversion of a catalog item card to a normal item card, you must first set up how vendor item numbering is converted to your own item numbering.   
 
@@ -45,7 +45,7 @@ To enable conversion of a catalog item card to a normal item card, you must firs
 ## To convert a catalog item to a normal item
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Catalog Items**, and then choose the related link.
 2. Open the card for a catalog item that you want to convert to a normal item.
-3. In the **Catalog Item Card** window, choose the **Create Item** action.
+3. In the **Catalog Item Card** page, choose the **Create Item** action.
 
 A new item card prefilled with information from the catalog item and a relevant item template is created. You can then fill or edit fields on the new item card as necessary. For more information, see [Register New Items](inventory-how-register-new-items.md).
 
@@ -56,7 +56,7 @@ A new item card prefilled with information from the catalog item and a relevant 
 4. Choose the **Line** action, and then choose the **Select Catalog Items** action.
 
     The catalog item is converted to a normal item. A new item card prefilled with information from the catalog item and a relevant item template is created.
-5. In the **Catalog Items** window, select the catalog item that you want to sell, and then choose the **OK** button.
+5. In the **Catalog Items** page, select the catalog item that you want to sell, and then choose the **OK** button.
 6. When the sales order is complete, choose the **Post** action.
 
 You can then fill or edit fields on the new item card as necessary. For more information, see [Register New Items](inventory-how-register-new-items.md).

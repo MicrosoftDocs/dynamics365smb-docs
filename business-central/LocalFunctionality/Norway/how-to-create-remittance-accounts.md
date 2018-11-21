@@ -26,7 +26,7 @@ You must create one remittance account for each bank account where payment is ma
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Remittance Account Overview**, and then choose the related link.  
 2.  Choose the **New** action.  
-3.  In the **Remittance Account Card** window, on the **General** FastTab, fill in the fields as described in the following table.  
+3.  In the **Remittance Account Card** page, on the **General** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

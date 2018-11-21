@@ -36,13 +36,13 @@ Apart from the physical counting task, the complete process involves the followi
 
 You can perform the physical inventory in either of the following ways depending on your warehouse setup. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).  
 
--   If your location is not using directed put-away and pick (basic warehouse configuration), you use the **Phys. Inventory Journal** window in the **Inventory** menu, and the procedure is much the same as when you conduct a physical inventory without cycle counting.  
--   If your location is using directed put-away and pick (advanced warehouse configuration), you first use the **Whse. Phys. Invt. Journal** window, and then you use the **Item Journal** window to run the **Calculate Whse. Adjustment** function.
+-   If your location is not using directed put-away and pick (basic warehouse configuration), you use the **Phys. Inventory Journal** page in the **Inventory** menu, and the procedure is much the same as when you conduct a physical inventory without cycle counting.  
+-   If your location is using directed put-away and pick (advanced warehouse configuration), you first use the **Whse. Phys. Invt. Journal** page, and then you use the **Item Journal** page to run the **Calculate Whse. Adjustment** function.
 
 ### To calculate the expected inventory in basic warehouse configurations
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Phys. Inventory Journals**, and then choose the related link.
 2. Choose the **Calculate Inventory** action.
-3. In the **Calculate Inventory** window, specify the conditions to use to create the journal lines, such as whether to include items that have zero recorded inventory.
+3. In the **Calculate Inventory** page, specify the conditions to use to create the journal lines, such as whether to include items that have zero recorded inventory.
 4. Set filters if you only want to calculate inventory for certain items, bins, locations, or dimensions.
 5. Choose the **OK** button.
 
@@ -52,12 +52,12 @@ You can perform the physical inventory in either of the following ways depending
 ### To calculate the expected inventory in advanced warehouse configurations
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journal**, and choose the related link.  
 2.  Choose the **Calculate Whse. Adjustment** action.  
-3.  Fill in the batch job request window with the numbers of the items you want to count and with your location.
+3.  Fill in the batch job request page with the numbers of the items you want to count and with your location.
 4. Choose the **OK** button, and post the adjustments if any.
 
     If you do not do this before you perform the warehouse physical inventory, the results you post to the physical inventory journal and item ledger in the second part of the process will be the physical inventory results combined with other warehouse adjustments for the items that were counted.  
 5.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Whse. Phys. Invt. Journal**, and choose the related link.  
-6. Choose the **Calculate Inventory** action. The **Whse. Calculate Inventory** batch job request window opens.  
+6. Choose the **Calculate Inventory** action. The **Whse. Calculate Inventory** batch job request page opens.  
 7.  Set the filters to limit the items that will be counted in the journal, and then choose the **OK** button.
 
     The program creates a line for each bin that fulfills the filter requirements. You can at this point still delete some of the lines, but if you want to post the results as a physical inventory, you must count the item in all the bins that contain it.  
@@ -80,15 +80,15 @@ You can perform the physical inventory in either of the following ways depending
 When you register the warehouse physical inventory, you are not posting to the item ledger, the physical inventory ledger, or the value ledger, but the records are there for immediate reconciliation whenever necessary. If you like to keep precise records of what is happening in the warehouse, however, and you counted all of the bins where the items were registered, you should immediately post the warehouse results as an inventory physical inventory. For more information, see the "To enter and post the actual counted inventory in advanced warehouse configurations" section.
 
 ### To print the report to be used when counting
-1. In the **Phys. Inventory Journal** window containing the calculated expected inventory, Choose the **Print** action.
-2. In the **Phys. Inventory List** window, specify if the report should show the calculated quantity and if the report should list inventory items by serial/lot numbers.
+1. In the **Phys. Inventory Journal** page containing the calculated expected inventory, Choose the **Print** action.
+2. In the **Phys. Inventory List** page, specify if the report should show the calculated quantity and if the report should list inventory items by serial/lot numbers.
 3. Set filters if you only want to print the report for certain items, bins, locations, or dimensions.
 4. Choose the **Print** button.
 
 Employees can now proceed to count inventory and record any discrepancies on the printed report.
 
 ### To enter and post the actual counted inventory in basic warehouse configurations
-1. On each line in the **Phys. Inventory Journal** window where the actual inventory on hand, as determined by the physical count, differs from the calculated quantity, enter the actual inventory on hand in the **Qty. (Phys. Inventory)** field.
+1. On each line in the **Phys. Inventory Journal** page where the actual inventory on hand, as determined by the physical count, differs from the calculated quantity, enter the actual inventory on hand in the **Qty. (Phys. Inventory)** field.
 
     The related fields are updated accordingly.
 
@@ -108,7 +108,7 @@ Employees can now proceed to count inventory and record any discrepancies on the
 2.  Choose the **Calculate Whse. Adjustment** action.  
 3.  Select the same items that you counted in the cycle counting physical inventory you just performed, and any other items that require adjustment, and then choose the **OK** button.  
 
-     The **Inventory Journal** window opens and lines are created for these items. Note that the net quantities that you just counted and registered bin by bin are now ready to be consolidated and synchronized as item ledger entries.  
+     The **Inventory Journal** page opens and lines are created for these items. Note that the net quantities that you just counted and registered bin by bin are now ready to be consolidated and synchronized as item ledger entries.  
 
 4.  Post the journal without changing any quantities.  
 
@@ -119,8 +119,8 @@ Although you count all items in inventory at least once a year, you may have dec
 
 You can perform the cycle counting in either of the following ways depending on your warehouse setup. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).  
 
--   If your location is not using directed put-away and pick (basic warehouse configuration), you use the **Phys. Inventory Journal** window in the **Inventory** menu, and the procedure is much the same as when you conduct a physical inventory without cycle counting.  
--   If your location is using directed put-away and pick (advanced warehouse configuration), you first use the **Whse. Phys. Invt. Journal** window, and then you use the **Item Journal** window to run the **Calculate Whse. Adjustment** function.  
+-   If your location is not using directed put-away and pick (basic warehouse configuration), you use the **Phys. Inventory Journal** page in the **Inventory** menu, and the procedure is much the same as when you conduct a physical inventory without cycle counting.  
+-   If your location is using directed put-away and pick (advanced warehouse configuration), you first use the **Whse. Phys. Invt. Journal** page, and then you use the **Item Journal** page to run the **Calculate Whse. Adjustment** function.  
 
 ### To set up counting periods
 A physical inventory is typically taken at some recurring interval, for example monthly, quarterly, or annually. You can set up whatever inventory counting periods necessary.
@@ -134,24 +134,24 @@ You set up the inventory counting periods that you want to use and then assign o
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2. Select the item to which you want to assign a counting period.  
 3. In the **Phys Invt Counting Period Code** field, select the appropriate counting period.  
-4. Choose the **Yes** button to change the code and calculate the first counting period for the item. The next time you choose to calculate a counting period in the physical inventory journal, the item appears as a line in the **Phys. Invt. Item Selection** window. You can then begin to count the item on a periodic basis.
+4. Choose the **Yes** button to change the code and calculate the first counting period for the item. The next time you choose to calculate a counting period in the physical inventory journal, the item appears as a line in the **Phys. Invt. Item Selection** page. You can then begin to count the item on a periodic basis.
 
 ### To initiate a count based on counting periods in basic warehouse configurations
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Phys. Inventory Journal**, and then choose the related link.
 2. Choose the **Calculate Counting Period** action.
 
-    The **Phys. Invt. Item Selection** window opens showing the items that have counting periods assigned and need to be counted according to their counting periods.
+    The **Phys. Invt. Item Selection** page opens showing the items that have counting periods assigned and need to be counted according to their counting periods.
 3. Perform the physical inventory. For more information, see the "To perform a physical inventory" section.
 
 ### To initiate a count based on counting periods in advanced warehouse configurations
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Whse. Phys. Invt. Journal**, and choose the related link.  
 2. Choose the **Calculate Counting Period** action.
 
-    The **Phys. Invt. Item Selection** window opens showing the items that have counting periods assigned and need to be counted according to their counting periods.
+    The **Phys. Invt. Item Selection** page opens showing the items that have counting periods assigned and need to be counted according to their counting periods.
 3. Perform the physical inventory. For more information, see the "To perform a physical inventory" section.  
 
     > [!NOTE]  
-    >  You must count the item in all the bins that contain the particular item. If you delete some of the bin lines that the program has retrieved for counting in the **Whse. Phys. Inventory** window, then you will not be counting all the items in the warehouse. If you later post such incomplete results in the Phys. Inventory Journal, the amounts posted will be incorrect.  
+    >  You must count the item in all the bins that contain the particular item. If you delete some of the bin lines that the program has retrieved for counting in the **Whse. Phys. Inventory** page, then you will not be counting all the items in the warehouse. If you later post such incomplete results in the Phys. Inventory Journal, the amounts posted will be incorrect.  
 
 ## To adjust the inventory of one item
 After you have made a physical count of an item in your inventory area, you can use the **Adjust Inventory** function to record the actual inventory quantity.
@@ -161,7 +161,7 @@ After you have made a physical count of an item in your inventory area, you can 
 3. In the **New Inventory** field, enter the inventory quantity that you want to record for the item.
 4. Choose the **OK** button.
 
-The item’s inventory is now adjusted. The new quantity is shown in the **Current Inventory** field in the **Adjust Inventory** window and in the **Inventory** field in the **Item Card** window.
+The item’s inventory is now adjusted. The new quantity is shown in the **Current Inventory** field in the **Adjust Inventory** page and in the **Inventory** field in the **Item Card** page.
 
 You can also use the **Adjust Inventory** function as a simple way to place purchased items on inventory if you do not use purchase invoices or orders to record your purchases. For more information, [Record Purchases](purchasing-how-record-purchases.md).
 
@@ -169,9 +169,9 @@ You can also use the **Adjust Inventory** function as a simple way to place purc
 >   After you have adjusted inventory, you must update it with the current, calculated value. For more information, see [Revalue Inventory](inventory-how-revalue-inventory.md).
 
 ### To adjust the inventory quantity of multiple items in basic warehouse configurations
-In the **Item Journal** window, you can post item transaction directly to adjust inventory in connection with purchases, sales, and positive or negative adjustments without using documents.
+In the **Item Journal** page, you can post item transaction directly to adjust inventory in connection with purchases, sales, and positive or negative adjustments without using documents.
 
-If you often use the item journal to post the same or similar journal lines, for example, in connection with material consumption, you can use the **Standard Item Journal** window to make this recurring work easier. For more information, see the "Standard Journals" section in [Working with General Journals](ui-work-general-journals.md).
+If you often use the item journal to post the same or similar journal lines, for example, in connection with material consumption, you can use the **Standard Item Journal** page to make this recurring work easier. For more information, see the "Standard Journals" section in [Working with General Journals](ui-work-general-journals.md).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journals**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -197,7 +197,7 @@ At appropriate intervals as defined by company policy, you must post the warehou
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journal**, and then choose the related link.  
 2.  Fill in the fields on each journal line.  
-3.  Choose the **Calculate Whse. Adjustment** action, and fill in the filters as appropriate in the batch job request window. The adjustments are calculated only for the entries in the adjustment bin that meet filter requirements.  
+3.  Choose the **Calculate Whse. Adjustment** action, and fill in the filters as appropriate in the batch job request page. The adjustments are calculated only for the entries in the adjustment bin that meet filter requirements.  
 4.  On the **Options** FastTab, fill in the **Document No.** field with a number that you enter manually. Because no number series has been set up for this batch job, use the number scheme set up by the warehouse, or enter the date followed by your initials.  
 5.  Choose the **OK** button. The positive and negative adjustments are totaled for each item and lines are created in the item journal for any items where the sum is a positive or negative quantity.  
 6.  Post the journal lines to enter the quantity differences in the item ledger. The inventory in the warehouse bins now corresponds precisely to the inventory in the item ledger.  
@@ -210,7 +210,7 @@ Special steps apply when you want to reclassify serial or lot numbers and their 
 The following example is based on a location code. The steps are similar for other types of item attributes.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Reclass. Journals**, and then choose the related link.
-2. In the **Item Reclass. Journal** window, fill in the fields as necessary.
+2. In the **Item Reclass. Journal** page, fill in the fields as necessary.
 3. In the **Location Code** field, enter the item's current location code.
 4. In the **New Location Code** field, enter the item's new location code.
 5. Choose the **Post** action.

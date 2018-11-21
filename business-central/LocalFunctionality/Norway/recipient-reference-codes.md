@@ -27,7 +27,7 @@ The recipient reference codes are described in the following table.
 |--------------|---------------------------------------|  
 |**%1**|The document type. Either invoice or credit memo.|  
 |**%2**|The vendor's invoice number.|  
-|**%3**|The **Our Account No.** field from the **Vendor Card** window. This is usually the customer number that is used by the vendor.|  
+|**%3**|The **Our Account No.** field from the **Vendor Card** page. This is usually the customer number that is used by the vendor.|  
 |**%4**|The invoice or credit memo number.|  
 |**%5**|The description from the vendor ledger entry.|  
 |**%6**|The original amount from the vendor ledger entries. The amount is shown as positive.|  

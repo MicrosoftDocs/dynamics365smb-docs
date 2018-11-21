@@ -29,10 +29,10 @@ If you set up the fields for maintenance, you can post maintenance expenses from
 When you post maintenance costs from a general journal, you fill in the **Maintenance Code** field to record what kind of maintenance has been performed, such as routine service or repair.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Maintenance**, and then choose the related link.
-2. In the **Maintenance** window, set up codes for different types of maintenance work.
+2. In the **Maintenance** page, set up codes for different types of maintenance work.
 
 ## To set up maintenance expense accounts
-To post maintenance costs, you must first enter an account number in the **FA Posting Groups** window.
+To post maintenance costs, you must first enter an account number in the **FA Posting Groups** page.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Posting Groups**, and then choose the related link.
 2. Fill in the **Maintenance Expense Account** field for each posting group.

@@ -36,7 +36,7 @@ For more information, see [About Calculating Standard Cost](finance-about-calcul
     5. Run the **Roll Up Standard Cost** batch job.
     6.  Review the results and make changes as necessary.
     7.  Run the **Implement Standard Cost Changes** batch job.  
-4.  Review and post the **Revaluation Journal** window, which has been populated with entries from the previous steps in this process.  
+4.  Review and post the **Revaluation Journal** page, which has been populated with entries from the previous steps in this process.  
 
 ## See Also  
  [About Calculating Standard Cost](finance-about-calculating-standard-cost.md)   

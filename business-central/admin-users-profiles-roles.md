@@ -44,7 +44,7 @@ Profiles are collections of [!INCLUDE[d365fin](includes/d365fin_md.md)] users wh
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Profile List**, and then choose the related link.  
 
-2.  On the **Profile List** page, choose the **New** action to open the **New Profile Card** window.  
+2.  On the **Profile List** page, choose the **New** action to open the **New Profile Card** page.  
 
 3.  In the **Profile ID** field, enter a name that describes the intended role of the users.  
 

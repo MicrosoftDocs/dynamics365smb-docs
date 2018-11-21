@@ -1,6 +1,6 @@
 ---
     title: Service Order Status and Repair Status | Microsoft Docs
-    description: The Status field in the Service Order window and the service item repair status, which is represented by the Repair Status Code field in the Service Order window have a certain relationship in Service Management. The service order status reflects the repair status of all the service items in the service order.
+    description: The Status field in the Service Order page and the service item repair status, which is represented by the Repair Status Code field in the Service Order page have a certain relationship in Service Management. The service order status reflects the repair status of all the service items in the service order.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # Service Order Status and Repair Status
-The **Status** field in the **Service Order** window and the service item repair status, which is represented by the **Repair Status Code** field in the **Service Order** window have a certain relationship in Service Management. The service order status reflects the repair status of all the service items in the service order.  
+The **Status** field in the **Service Order** page and the service item repair status, which is represented by the **Repair Status Code** field in the **Service Order** page have a certain relationship in Service Management. The service order status reflects the repair status of all the service items in the service order.  
 
 > [!NOTE]  
 >  These two status field are not related to the **Release Status** field on the service order header, which determines how the warehouse handles service items.  

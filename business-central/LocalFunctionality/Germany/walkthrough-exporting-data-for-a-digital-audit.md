@@ -45,7 +45,7 @@ Cassie sets up the requirements for the data export. The auditors have asked her
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Data Export**, and then choose the related link.  
 2.  Choose the **New** action.  
-3.  In the **Data Exports** window, fill in the fields as described in the following table.  
+3.  In the **Data Exports** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -56,9 +56,9 @@ Cassie sets up the requirements for the data export. The auditors have asked her
 
     Next, Cassie adds descriptions of the kind of data that she needs in the export.  
 
-4.  In the **Data Exports** window, choose the **Record Definitions** action.  
-5.  In the **Data Export Record Definitions** window, choose the **Record Code** field, and then, in the window that appears, choose the **New** action.  
-6.  In the **Data Export Record Types** window, fill in the fields as described in the following table.  
+4.  In the **Data Exports** page, choose the **Record Definitions** action.  
+5.  In the **Data Export Record Definitions** page, choose the **Record Code** field, and then, in the page that appears, choose the **New** action.  
+6.  In the **Data Export Record Types** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -66,7 +66,7 @@ Cassie sets up the requirements for the data export. The auditors have asked her
     |**Description**|The description for the record type, **G/L, Cust., Vend.**.|  
 
 7.  Choose the **OK** button.  
-8.  In the **Data Export Record Definitions** window, fill in the fields as described in the following table.  
+8.  In the **Data Export Record Definitions** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -84,8 +84,8 @@ Next, Cassie specifies the source for the data that will be exported. She knows 
 
 ### To specify requirements for the source for the data export  
 
-1.  In the **Data Export Record Definitions** window, choose the **Record Source** action.  
-2.  In the **Data Export Record Source** window, in the **Table No.** field, enter **15**.  
+1.  In the **Data Export Record Definitions** page, choose the **Record Source** action.  
+2.  In the **Data Export Record Source** page, in the **Table No.** field, enter **15**.  
 
     The **Table Name** field is automatically updated with the name of the **G/L Account** table.  
 
@@ -108,16 +108,16 @@ First, Sean adds the required .dtd file to the data export record definition.
 
 ### To add a .dtd file to a record definition  
 
-1.  In the **Data Exports** window, choose the **AUDIT-Q113** data export, and then choose the **Record Definitions** action.  
-2.  In the **Data Export Record Definitions** window, choose the line where the **Data Export Record Type Code** field is set to **GLCUSTVEND**, and then choose the **Import** action.  
-3.  In the **Import** window, navigate to the location of the relevant DTD file, and then choose the **Open** button.  
+1.  In the **Data Exports** page, choose the **AUDIT-Q113** data export, and then choose the **Record Definitions** action.  
+2.  In the **Data Export Record Definitions** page, choose the line where the **Data Export Record Type Code** field is set to **GLCUSTVEND**, and then choose the **Import** action.  
+3.  In the **Import** page, navigate to the location of the relevant DTD file, and then choose the **Open** button.  
 
 Next, Sean adds the **G/L Entry** table to the source. Then he adds fields from that table and the **G/L Account** table.  
 
 ### To add the G/L Entry table to the data export record source  
 
-1.  In the **Data Export Record Definitions** window, choose the line where the **Data Export Record Type Code** field is set to **GLCUSTVEND**, and then choose the **Record Source** action.  
-2.  In the **Data Export Record Source** window, select the line under the line for the **G/L Account** table, and then choose the **New** action.  
+1.  In the **Data Export Record Definitions** page, choose the line where the **Data Export Record Type Code** field is set to **GLCUSTVEND**, and then choose the **Record Source** action.  
+2.  In the **Data Export Record Source** page, select the line under the line for the **G/L Account** table, and then choose the **New** action.  
 3.  In the **Table No.** field, enter **17**.  
 
     The **Table Name** field is automatically updated with the name of the **G/L Entry** table.  
@@ -127,7 +127,7 @@ Next, Sean adds the **G/L Entry** table to the source. Then he adds fields from 
     This indents the **G/L Entry** table under the **G/L Account** table. Next, Sean adds a table relationship between the two tables.  
 
 5.  Choose the **Relationships** action.  
-6.  In the **Data Exp. Table Relationship** window, fill in the fields as described in the following table.  
+6.  In the **Data Exp. Table Relationship** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -138,7 +138,7 @@ Next, Sean adds the **G/L Entry** table to the source. Then he adds fields from 
 
 ### To add fields from the G/L Account and G/L Entry tables to the data export record source  
 
-1.  In the **Data Export Record Source** window, select the line for the **G/L Account** table, and then choose the **Add** action.  
+1.  In the **Data Export Record Source** page, select the line for the **G/L Account** table, and then choose the **Add** action.  
 2.  Choose the following fields, and then choose the **OK** button.  
 
     |Field number|Field name|  
@@ -149,7 +149,7 @@ Next, Sean adds the **G/L Entry** table to the source. Then he adds fields from 
     |31|**Balance at Date**|  
     |32|**Net Change**|  
 
-3.  In the **Data Export Record Source** window, select the line for the **G/L Entry** table, and then in the **Fields** pane, in the toolbar, choose the **Add** action.  
+3.  In the **Data Export Record Source** page, select the line for the **G/L Entry** table, and then in the **Fields** pane, in the toolbar, choose the **Add** action.  
 4.  Choose the following fields, and then choose the **OK** button.  
 
     |Field number|Field name|  
@@ -162,10 +162,10 @@ Sean added the **Posting Date** field from the **G/L Entry** table because Cassi
 
 ### To add a period filter to a table in a data export source  
 
-1.  In the **Data Export Record Source** window, select the line for the **G/L Entry** table, and then choose the **Period Field No.** field.  
-2.  In the **Data Exp. Field List** window, choose the **Posting Date** field, and then choose the **OK** button.  
+1.  In the **Data Export Record Source** page, select the line for the **G/L Entry** table, and then choose the **Period Field No.** field.  
+2.  In the **Data Exp. Field List** page, choose the **Posting Date** field, and then choose the **OK** button.  
 
-    The **Data Exp. Field List** window is filtered to show only the date fields.  
+    The **Data Exp. Field List** page is filtered to show only the date fields.  
 
 This means that when Cassie exports the data and specifies the start date and the end date for the period that the auditors want, the export will include entries where the **Posting Date** field is between the specified start date and end date.  
 
@@ -173,7 +173,7 @@ Next, Sean adds the **Customer** and **Vendor** tables.
 
 ### To add the Customer table  
 
-1.  In the **Data Export Record Source** window, fill in the fields as described in the following table.  
+1.  In the **Data Export Record Source** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -215,7 +215,7 @@ Sean has added the **Customer** table to the data export source. Now, he adds th
 
 ### To add the Vendor table  
 
-1.  In the **Data Export Record Source** window, fill in the fields as described in the following table.  
+1.  In the **Data Export Record Source** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -250,7 +250,7 @@ Cassie wants to export data that she can then send to the tax auditors.
 ### To export data  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Export Business Data**, and then choose the related link.  
-2.  In the **Export Business Data** window, on the **Options** FastTab, fill in the fields as described in the following table.  
+2.  In the **Export Business Data** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

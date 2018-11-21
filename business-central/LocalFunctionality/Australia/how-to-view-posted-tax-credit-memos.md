@@ -1,6 +1,6 @@
 ---
 title: How to View Posted Tax Credit Memos
-description: You can use the Posted Sales Tax Credit Memo window and Posted Purch. Tax Credit Memo window to view details of sales tax credit memos and purchase tax credit memos that have been posted.
+description: You can use the Posted Sales Tax Credit Memo page and Posted Purch. Tax Credit Memo page to view details of sales tax credit memos and purchase tax credit memos that have been posted.
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -11,7 +11,7 @@ ms.author: sgroespe
 
 ---
 # View Posted Tax Credit Memos
-You can use the **Posted Sales Tax Credit Memo** window and **Posted Purch. Tax Credit Memo** window to view details of sales tax credit memos and purchase tax credit memos that have been posted.  
+You can use the **Posted Sales Tax Credit Memo** page and **Posted Purch. Tax Credit Memo** page to view details of sales tax credit memos and purchase tax credit memos that have been posted.  
 
 The following procedure describes how to view posted sales tax credit memos, but the same steps also apply for viewing posted purchase tax credit memos.  
 

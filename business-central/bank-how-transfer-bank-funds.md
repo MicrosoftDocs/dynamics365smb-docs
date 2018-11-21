@@ -46,7 +46,7 @@ To transfer funds between bank accounts that use different currencies, you must 
 12. In the **Bal. Account No.** field, select the bank account from which you want to transfer the funds.
 
     > [!NOTE]  
-    > If the exchange rates used in the journal are different than the exchange rates in the **Currency Exchange Rates** window, enter a third line for the exchange rate gain or loss. Enter **G/L Account** in the **Account Type** field. Enter the G/L account number for exchange rate gain or loss in the **Account No.** field. Enter the exchange rate gain or loss in the **Amount** field with or without a minus sign for credits and debits respectively.
+    > If the exchange rates used in the journal are different than the exchange rates in the **Currency Exchange Rates** page, enter a third line for the exchange rate gain or loss. Enter **G/L Account** in the **Account Type** field. Enter the G/L account number for exchange rate gain or loss in the **Account No.** field. Enter the exchange rate gain or loss in the **Amount** field with or without a minus sign for credits and debits respectively.
 13. Post the journal.
 
 ## See Also

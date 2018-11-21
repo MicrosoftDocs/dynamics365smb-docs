@@ -22,7 +22,7 @@ Checks are designed to print in both the United States and Canadian check image 
 
 ## To define check layouts
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Selections Bank Account**, and then choose the related link.
-2. In the **Report Selection - Bank Acc.** window, in the **Usage** field, select **Check**.
+2. In the **Report Selection - Bank Acc.** page, in the **Usage** field, select **Check**.
 3. Select one of the following report IDs.
 
 | Report ID | Report Name | Description |
@@ -31,7 +31,7 @@ Checks are designed to print in both the United States and Canadian check image 
 | 10401 |Check (Stub/Stub/Check) |This report is designed to print checks in a stub/stub/check format. |
 | 10411 |Check (Stub/Check/Stub) |This report is designed to print checks in a check/stub/check format. |
 
-When you have set up check layouts, you can print checks from the **Payment Journal** window. For more information, see [Work with Checks](payables-how-work-checks.md).
+When you have set up check layouts, you can print checks from the **Payment Journal** page. For more information, see [Work with Checks](payables-how-work-checks.md).
 
 ## See Also
 [Managing Payables](payables-manage-payables.md)  

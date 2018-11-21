@@ -16,7 +16,7 @@ ms.author: sgroespe
 
 ---
 # Record Usage for Jobs
-In the **Job Planning Lines** window, you can review and record usage on various parts of your job, which is automatically updated as you modify and transfer information between jobs and job journals or job invoices. This requires that you have set up a job so that the **Apply Usage Link by Default** is turned on. For more information, see [Set Up Jobs](projects-how-setup-jobs.md).  
+In the **Job Planning Lines** page, you can review and record usage on various parts of your job, which is automatically updated as you modify and transfer information between jobs and job journals or job invoices. This requires that you have set up a job so that the **Apply Usage Link by Default** is turned on. For more information, see [Set Up Jobs](projects-how-setup-jobs.md).  
 
 For example, for planning lines of type **Budget**, you can enter the quantity of a resource, and indicate what quantity to transfer to the job journal. If the type of the planning line is **Billable**, you can enter the quantity of the resource, and indicate what quantity to transfer to an invoice. By comparing the quantity that has been transferred to the journal or invoice with the remaining quantity, you can quickly review usage information.
 
@@ -30,10 +30,10 @@ The following procedures describe how to record actual (billable) or budgeted jo
 
     The **Remaining Quantity** field shows the quantity that remains to complete the job and be transferred to the journal.  
 5. Choose the **Create Job Journal Lines** action.
-6. In the **Job Transfer Job Planning Line** window, fill in the fields as necessary, and then choose the **OK** button. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. In the **Job Transfer Job Planning Line** page, fill in the fields as necessary, and then choose the **OK** button. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Choose the **Open Job Journal** action.  
-8. In the **Job Journal** window, select the relevant line and then choose the **Post** action.
-9. In the **Job Planning Lines** window, review the recorded usage by observing the **Quantity**, **Remaining Quantity**, and **Qty. To Transfer to Journal** fields.  
+8. In the **Job Journal** page, select the relevant line and then choose the **Post** action.
+9. In the **Job Planning Lines** page, review the recorded usage by observing the **Quantity**, **Remaining Quantity**, and **Qty. To Transfer to Journal** fields.  
 10. Repeat steps 3 through 8 to record additional usage.  
 
 ## To record usage for a job planning line of type Billable
@@ -46,21 +46,21 @@ In the next task, you also record usage, but for a job planning line of type **B
 
     The **Quantity to Invoice** field shows the quantity that remains to complete the job and be invoiced.  
 5. Choose the **Create Sales Invoice** action.
-6. In the **Job Transfer to Sales Invoice** window, fill in the fields as necessary, and then choose the **OK** button.
-7. In the **Job Planning Lines** window, select the relevant line, and then choose the **Post** action.
+6. In the **Job Transfer to Sales Invoice** page, fill in the fields as necessary, and then choose the **OK** button.
+7. In the **Job Planning Lines** page, select the relevant line, and then choose the **Post** action.
 8. Review the recorded usage by observing the **Quantity**, **Quantity to Invoice**, **Qty. To Transfer to Invoice** fields, and, if the sales invoice is posted, the **Qty. Invoiced** fields.
 9. Repeat steps 3 through 8 to record additional usage.  
 10. To review a related posted sales invoice, choose the **Sales Invoices/Credit Memos** action.  
-11. In the **Job Invoices** window, select the relevant invoice, and then choose the **Open Sales Invoice/Credit Memo** action.         
+11. In the **Job Invoices** page, select the relevant invoice, and then choose the **Open Sales Invoice/Credit Memo** action.         
 
 ## To create job journal lines from job planning lines
 When you are ready to post financial information for jobs, you must create job journal lines that you can post.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
 2. Select a relevant open job, and then choose the **Job Planning Lines** action.  
-3. In the **Job Planning Lines** window, on a relevant job planning line, in the **Qty. to Transfer to Journal** field, enter the quantity that you want to transfer to a job journal.  
+3. In the **Job Planning Lines** page, on a relevant job planning line, in the **Qty. to Transfer to Journal** field, enter the quantity that you want to transfer to a job journal.  
 4. Choose the **Create Job Journal Lines** action.
-5. In the **Job Transfer Job Planning Line** window, fill in the fields as necessary.  
+5. In the **Job Transfer Job Planning Line** page, fill in the fields as necessary.  
 6. Choose the **OK** button. Job journal lines are created.
 7. To verify the transfer, open the relevant job journal batch and check the entries.  
 8. When the job journal lines are complete, choose the **Post** action.  
@@ -79,7 +79,7 @@ After you have posted job journal lines, you can see the planning lines that are
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.  
 2. Select a relevant job journal, and then choose the **Ledger Entries** action.  
-3. In the **Job Ledger Entries** window, choose **Show Linked Job Planning Lines** action.
+3. In the **Job Ledger Entries** page, choose **Show Linked Job Planning Lines** action.
 
 ## See Also
 [Project Management](projects-manage-projects.md)  

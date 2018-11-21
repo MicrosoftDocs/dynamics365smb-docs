@@ -71,7 +71,7 @@ You must sign an agreement of remittance with the bank when you set up electroni
     |**New Document Per Field**|Specify how documents are numbered when payments are posted. Options include **Date**, **Vendor**, and **Specified for account**.|  
 
 9. Choose the **Return File Setup List** action.  
-10. In the **Return File Setup List** window, choose the **New** action.  
+10. In the **Return File Setup List** page, choose the **New** action.  
 11. Enter the return file name in the **Return File Name** field.  
 
     > [!NOTE]  

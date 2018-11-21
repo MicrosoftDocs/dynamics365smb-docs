@@ -31,7 +31,7 @@ Before you can receive optical character recognition (OCR) payments, you must ma
     >  OCR payments can only be posted to a cash receipt journal that does not use a balance account in the **Bal. Account No.** field on the cash receipt journal line.  
 
 3.  Choose the **Import Payments** action.  
-4.  In the **OCR Payment-BBS** window, fill in the fields as described in the following table.  
+4.  In the **OCR Payment-BBS** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

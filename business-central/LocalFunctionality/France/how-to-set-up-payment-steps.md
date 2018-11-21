@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -25,16 +25,16 @@ To use payment management, you must set up steps for payment documents and defin
 2.  Select a payment class, and then choose the **Steps** action.  
 3.  In the **Name** field, enter a name for the payment step. You can enter a maximum of 50 alphanumeric characters.  
 4.  Choose the **Edit** action.  
-5.  In the **Payment Step Card** window, fill in the fields as described in the following table.  
+5.  In the **Payment Step Card** page, fill in the fields as described in the following table.  
 
     |**Field**|**Description**|  
     |---------------------------------|---------------------------------------|  
-    |**Name**|The payment step name that you entered in the **Payment Step** window.|  
+    |**Name**|The payment step name that you entered in the **Payment Step** page.|  
     |**Previous Status**|The previous status, from which the step was last executed. The default value is 0. When the previous status is equal to the next status, the status is not modified after it is executed. Therefore, this payment step is optional and can be executed indefinitely.|  
     |**Previous Status Name**|The name of the status selected in the **Previous Status** field.|  
     |**Next Status**|The status at which this payment step ends.|  
     |**Next Status Name**|The name of the status selected in the **Next Status** field. This field cannot be modified.|  
-    |**Action Type**|The type of action to be performed by this step. <br /><br /> **Ledger:** If you specify **Ledger**, you must define the additional ledger information in the **Payment Step Ledger** window.<br /><br /> **Report:** If you specify **Report**, you specify which report in the **Report No.** field.<br /><br /> **File:**<br /><br /> * If you specify **File**, you specify the type of file in the **Export Type** field: **Report** or **XMLPort**.<br /><br /> * For SEPA Credit Transfer files, specify **XMLport**, and then set the **Export No.** field to 1000.<br /><br /> * For SEPA Direct Debit files, specify **XMLport**, and then set the **Export No.** field to 1010.|  
+    |**Action Type**|The type of action to be performed by this step. <br /><br /> **Ledger:** If you specify **Ledger**, you must define the additional ledger information in the **Payment Step Ledger** page.<br /><br /> **Report:** If you specify **Report**, you specify which report in the **Report No.** field.<br /><br /> **File:**<br /><br /> * If you specify **File**, you specify the type of file in the **Export Type** field: **Report** or **XMLPort**.<br /><br /> * For SEPA Credit Transfer files, specify **XMLport**, and then set the **Export No.** field to 1000.<br /><br /> * For SEPA Direct Debit files, specify **XMLport**, and then set the **Export No.** field to 1010.|  
     |**Report No.**|The identification number for the report. This field is available if the **Action Type** field is set to **Report**.|  
     |**Export Type**|The export type for the file. This field is available if the **Action Type** field is set to **File**.<br /><br /> For example, see [Export Payments](how-to-export-payments.md).|  
     |**Export No.**|The identification code for the selected export type. This field is available if the **Action Type** field is set to **File**.|  
@@ -44,7 +44,7 @@ To use payment management, you must set up steps for payment documents and defin
     |**Reason Code**|The reason code that is linked to the payment step.<br /><br /> This field is available if the **Action Type** field is set to **Ledger**.|  
     |**Header Nos. Series**|The number series code that must be used to assign numbers to the header for a new payment slip.<br /><br /> This field is available if the **Action Type** field is set to **Create New Document**.|  
     |**Correction**|Select to mark the payment entries as corrections. This field is available if the **Action Type** field is set to **Ledger**.|  
-    |**Realize VAT**|Select to indicate that unrealized VAT should be reversed and VAT should be declared for this payment step.<br /><br /> This field is available if the **Unrealized VAT Reversal** field in the **Payment Class** window is set to **Delayed**.|  
+    |**Realize VAT**|Select to indicate that unrealized VAT should be reversed and VAT should be declared for this payment step.<br /><br /> This field is available if the **Unrealized VAT Reversal** field in the **Payment Class** page is set to **Delayed**.|  
     |**Verify Header RIB**|Select to verify that the RIB key value specified on the payment slip header has been correctly reported.|  
     |**Acceptation Code<>No**|Select to verify that the acceptance code for each payment line is not a number.|  
 
@@ -54,8 +54,8 @@ If the action type of the payment step is **Ledger**, you must set up additional
 
 ## To set up ledger information for a payment step  
 
-1.  In the **Payment Step Card** window for the payment step, choose the **Ledger** action.  
-2.  In the **Payment Step Ledger** window, choose the **New** action.  
+1.  In the **Payment Step Card** page for the payment step, choose the **Ledger** action.  
+2.  In the **Payment Step Ledger** page, choose the **New** action.  
 3.  Fill in the fields as described in the following table.  
 
     |**Field**|**Description**|  

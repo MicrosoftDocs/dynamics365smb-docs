@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -22,7 +22,7 @@ When a fiscal period is complete, you can fiscally close the period to make sure
 ## To fiscally close accounting periods  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Accounting Periods**, and then choose the relevant link.  
-2.  In the **Accounting Periods** window, choose the **Close Fiscal Period** action.  
+2.  In the **Accounting Periods** page, choose the **Close Fiscal Period** action.  
 
     If more than one fiscal period is not fiscally closed, the earliest one should be fiscally closed. A message appears to identify the period that should be closed and explains the consequences of closing it.  
 

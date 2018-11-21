@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -20,7 +20,7 @@ The Single Euro Payments Area (SEPA) unifies payment methods in participating Eu
 
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] supports the Dutch requirements for submitting SEPA payments, credit transfers, and direct debit.  
 
-Before you can submit vendor payments electronically in SEPA ISO2022 format, you must activate SEPA in the following windows:  
+Before you can submit vendor payments electronically in SEPA ISO2022 format, you must activate SEPA in the following pages:  
 
 - Countries/Regions  
 - Bank Accounts  

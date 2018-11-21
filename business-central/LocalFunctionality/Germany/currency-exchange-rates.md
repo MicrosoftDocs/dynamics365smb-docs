@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -29,7 +29,7 @@ The following table describes the valuation methods.
 |Lowest value|Exchange rates are adjusted by using the lowest value of the two exchange rates. Currency losses are always calculated and posted. Currency gains are only calculated and posted up to the original local currency value of the transaction.<br /><br /> This ensures that receivables are not valued above their original posting amounts, and that payables are not valued below their original posting amounts.|  
 |Standard|Exchange rates are adjusted according to standard valuation principles. Full unrealized gains and losses are calculated and posted. If the transaction is partially applied, only the remaining amount is included in the adjustment. For more information, see Adjust Exchange Rates.|  
 
-German companies must use the **BilMoG (Germany)** option when they run the **Adjust Exchange Rates** batch job. This ensures that each transaction is adjusted using the appropriate valuation method as required in Germany. This also enables two fields in the request window, where you can specify the two dates that must be used to calculate the adjustment. The following table describes the fields.  
+German companies must use the **BilMoG (Germany)** option when they run the **Adjust Exchange Rates** batch job. This ensures that each transaction is adjusted using the appropriate valuation method as required in Germany. This also enables two fields in the request page, where you can specify the two dates that must be used to calculate the adjustment. The following table describes the fields.  
 
 |Field|Description|  
 |---------------------------------|---------------------------------------|  

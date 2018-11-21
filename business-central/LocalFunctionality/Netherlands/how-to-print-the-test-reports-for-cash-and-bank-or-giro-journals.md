@@ -1,18 +1,13 @@
 ---
-    title: How to Print the Test Reports for Cash and Bank or Giro Journals
-    description: You can use the **CBG Posting - Test** report to edit the statement lines and see the effect of posting before you post cash journals and bank or giro journals.
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
+title: How to Print the Test Reports for Cash and Bank or Giro Journals
+description: You can use the CBG Posting - Test report to edit the statement lines and see the effect of posting before you post cash journals and bank or giro journals.
+author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 10/01/2018
+ms.author: sgroespe
 
 ---
 # Print the Test Reports for Cash and Bank or Giro Journals
@@ -23,7 +18,7 @@ This report displays the statement lines of a cash journal and bank journal or g
 ## To print the test report for cash journal  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Journal**, and then choose the related link.  
-2.  In the **Cash Journal** window, choose the **Test Report** action.  
+2.  In the **Cash Journal** page, choose the **Test Report** action.  
 3.  To include the information on applied entries for the statement lines, select the **Show Applied Entries** check box.  
 
     For more information, see [Apply and Unapply General Ledger Entries](how-to-apply-and-unapply-general-ledger-entries.md).  
@@ -37,8 +32,8 @@ This report displays the statement lines of a cash journal and bank journal or g
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank/Giro Journal**, and then choose the related link  
 2.  Choose the **General Ledger** action.  
-3.  In the **General Journal Template List** window, Choose the **OK** button.  
-4.  In the **Bank/Giro Journal** window, choose the **Test Report** action.  
+3.  In the **General Journal Template List** page, Choose the **OK** button.  
+4.  In the **Bank/Giro Journal** page, choose the **Test Report** action.  
 5.  To include the information on applied entries for the statement lines, select the **Show Applied Entries** check box.  
 6.  On the **CBG Statement** FastTab, select the appropriate filters.  
 

@@ -11,19 +11,19 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: resources, allocation, status, repairs
-    ms.date: 08/28/2017
+    ms.date: 10/01/2018
     ms.author: bholtorf
 
 ---
 # Allocation Status and Repair Status of Service Items
-The repair status of service items and the allocation status of the allocation entries for the service items have a certain relationship in Service Management. The allocation status changes when you change the repair status of the service item to **Finished** or **Partly Serviced** and when you convert a service quote to a service order. The repair status of the service item changes when you cancel the service item allocation or reallocate the service item to another resource. You can view the repair status of service items in the **Service Tasks** window and you can update the repair status in the **Repair Status Code** field in the **Service Item Worksheet** window. You can view the allocation status in the **Status** field in the **Resource Allocations** window.  
+The repair status of service items and the allocation status of the allocation entries for the service items have a certain relationship in Service Management. The allocation status changes when you change the repair status of the service item to **Finished** or **Partly Serviced** and when you convert a service quote to a service order. The repair status of the service item changes when you cancel the service item allocation or reallocate the service item to another resource. You can view the repair status of service items in the **Service Tasks** page and you can update the repair status in the **Repair Status Code** field in the **Service Item Worksheet** page. You can view the allocation status in the **Status** field in the **Resource Allocations** page.  
   
 ## Changing Repair Status  
 When you change the repair status of a service item on a service item line, there is a search for a corresponding allocation entry for this service item that has the status **Active**. If such an allocation entry is found, the status is updated in one of the following ways:  
   
 * If you change the repair status to **Finished**, the allocation status is changed from **Active** to **Finished**.  
 * If you change the repair status to **Partly Serviced**, that is, some of the service has been completed, or **Referred**, that is, no service has been done, the allocation status is changed from **Active** to **Reallocation Needed**.  
-* When a service order allocation entry is created that indicates that no resource has been allocated, the **Status** field in the **Resource Allocation** window is set to **Nonactive**.  
+* When a service order allocation entry is created that indicates that no resource has been allocated, the **Status** field in the **Resource Allocation** page is set to **Nonactive**.  
 * The allocation entry status is set to **Canceled** when you reallocate the referred service item in the service order allocation entry, which indicates that the allocated resource or resource group has not attempted the service task.  
   
 The allocation status reflects when the service process is finished, or when another resource is necessary in order to finish the service of the service item.  

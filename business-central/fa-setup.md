@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 
 ---
@@ -23,9 +23,9 @@ Before you can work with Fixed Assets, you need to define a few things:
 The table below has links to more information. After you set those things up, you can start various activities. For more information, see [Fixed Assets](fa-manage.md).  
 
 > [!NOTE]  
->   You can record fixed asset transactions in the **Fixed Asset G/L Journal** or **Fixed Asset Journal** windows, depending on whether the transactions are for financial reporting or for internal management. Help for Fixed Assets only describes how to use the **Fixed Asset G/L Journal** window.  
+>   You can record fixed asset transactions in the **Fixed Asset G/L Journal** or **Fixed Asset Journal** pages, depending on whether the transactions are for financial reporting or for internal management. Help for Fixed Assets only describes how to use the **Fixed Asset G/L Journal** page.  
 
-When you enable a fixed asset activity in the **G/L Integration** section in the **Depreciation Book Card** window, the **Fixed Asset G/L Journal** window is used to post transactions for the activity.
+When you enable a fixed asset activity in the **G/L Integration** section in the **Depreciation Book Card** page, the **Fixed Asset G/L Journal** page is used to post transactions for the activity.
 
 The following table describes a sequence of tasks, with links to the topics that describe them.  
 

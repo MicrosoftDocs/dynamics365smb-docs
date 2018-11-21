@@ -11,12 +11,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/06/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
 # Setting Up Inventory Valuation and Costing
-To make sure that inventory costs are recorded correctly, you must set up various fields and windows before you begin to make item transactions.
+To make sure that inventory costs are recorded correctly, you must set up various fields and pages before you begin to make item transactions.
 
 The following table describes a sequence of tasks, with links to the topics that describe them.
 

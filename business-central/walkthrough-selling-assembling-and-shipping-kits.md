@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -77,14 +77,14 @@ Before you can perform the tasks in the walkthrough, you must do the following:
 -   Install [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 -   Make yourself a warehouse employee at WHITE location by following these steps:  
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Warehouse Employees**, and then choose the related link.  
-2.  Choose the **User ID** field, and select your own user account in the **Users** window.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
+2.  Choose the **User ID** field, and select your own user account in the **Users** page.  
 3.  In the **Location Code** field, enter WHITE.  
 4.  Select the **Default** field.  
 
 Prepare WHITE location for assembly processing by following these steps:  
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
 2.  Open the location card for WHITE location.  
 3.  On the **Bins** FastTab, enter **W-10-0001** in the **To-Assembly Bin Code** field.  
 
@@ -96,8 +96,8 @@ Prepare WHITE location for assembly processing by following these steps:
 
 Remove the default lead time for internal processes by following these steps:  
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Manufacturing Setup**, and then choose the related link.  
-2.  In the **Manufacturing Setup** window, on the **Planning** FastTab, remove the value in the **Default Safety Lead Time** field.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Manufacturing Setup**, and then choose the related link.  
+2.  In the **Manufacturing Setup** page, on the **Planning** FastTab, remove the value in the **Default Safety Lead Time** field.  
 
 Create inventory for assembly components by following the "Prepare Sample Data" section in this walkthrough.  
 
@@ -130,7 +130,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
 ## Setting Up the Sample Data  
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Whse. Item Journals**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Whse. Item Journals**, and then choose the related link.  
 2.  Choose the **Batch Name** field, and then select the default journal.  
 3.  Create positive inventory adjustments at WHITE location on the work date, January 23, by entering the following information.  
 
@@ -147,14 +147,14 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
     Next, synchronize the new warehouse entries with inventory.  
 
-5.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Journals**, and then choose the related link. The **Item Journal** window opens.  
+5.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journals**, and then choose the related link. The **Item Journal** page opens.  
 6.  On the **Actions** tab, in the **Functions** group, choose **Calculate Whse. Adjustment**.  
-7.  In the **Calculate Whse. Adjustment** window, choose the **OK** button.  
-8.  In the **Item Journal** window, on the **Actions** tab, in the **Functions** group, choose **Post**, and then choose the **Yes** button.  
+7.  In the **Calculate Whse. Adjustment** page, choose the **OK** button.  
+8.  In the **Item Journal** page, on the **Actions** tab, in the **Functions** group, choose **Post**, and then choose the **Yes** button.  
 
 ### Creating the Assembly Items  
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2.  On the **Home** tab, in the **Manage** group, choose **New**.  
 3.  Create the first assembly item based on the following information.  
 
@@ -205,7 +205,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
 ### Selling the Assembly Items  
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2.  On the **Home** tab, in the **Manage** group, choose **New**.  
 3.  Create two sales order lines for customer 62000, The Device Shop, on the work date with the following information.  
 
@@ -217,7 +217,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
     > [!NOTE]  
     >  The following availability issue exists for the sales order line for Kit B:  
     >   
-    >  -   Assembly component 80210 is not available. This means that the three specified units of Kit B cannot be assembled, indicated by **0** in the **Able to Assemble** field in the **Assembly Availability** window.  
+    >  -   Assembly component 80210 is not available. This means that the three specified units of Kit B cannot be assembled, indicated by **0** in the **Able to Assemble** field in the **Assembly Availability** page.  
     >   
     >  The following availability issue exists for the sales order line for Kit A:  
     >   
@@ -227,7 +227,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
 4.  Select the sales order line for three units of Kit B.  
 5.  On the **Lines** FastTab, choose **Line**, choose **Assemble to Order**, and then choose **Assemble-to-Order Lines**.  
-6.  In the **Assemble-to-Order Lines** window, on the assembly order line for item 80014, enter **2** in the **Quantity per** field.  
+6.  In the **Assemble-to-Order Lines** page, on the assembly order line for item 80014, enter **2** in the **Quantity per** field.  
 7.  On the assembly order line for item 80210, choose the **No.** field, and then select item 80209 instead.  
 8.  Create a new assembly order line with the following information.  
 
@@ -235,7 +235,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
     |----------|---------|------------------|  
     |Item|80203|1|  
 
-9. Close the **Assemble-to-Order Lines** window.  
+9. Close the **Assemble-to-Order Lines** page.  
 
     Next, update the unit price of Kit B according to the customization that you just performed. Notice the current value in the **Unit Price Excl. VAT** field.  
 
@@ -243,7 +243,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 11. Choose the **Yes** button. Notice the increased value in the **Unit Price Excl. VAT** field.  
 12. Select the sales order line for 15 units of Kit A.  
 13. On the **Lines** FastTab, choose **Line**, choose **Assemble to Order**, and then choose **Assemble-to-Order Lines**.  
-14. In the **Assemble-to-Order Lines** window, create a new assembly order line with the following information.  
+14. In the **Assemble-to-Order Lines** page, create a new assembly order line with the following information.  
 
     |Type|No.|Quantity per|  
     |----------|---------|------------------|  
@@ -258,9 +258,9 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
 ### Planning for the Unavailable ATS Items  
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Planning Worksheet**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheet**, and then choose the related link.  
 2.  On the **Action** tab, in the **Functions** group, choose **Calculate Regenerative Plan**.  
-3.  In the **Calculate Plan** window, set the following filters.  
+3.  In the **Calculate Plan** page, set the following filters.  
 
     |Starting Date|Ending Date|No.|  
     |-------------------|-----------------|---------|  
@@ -271,12 +271,12 @@ When the sales order is later posted as fully invoiced, the sales order and the 
     A new planning line is created for the needed assembly order of ten units, due on January 27. It needs no changes, so now you can create the order.  
 
 5.  On the **Actions** tab, in the **Functions** group, choose **Carry Out Action Message**.  
-6.  In the **Carry Out Action Msg.** window, choose the **Assembly Order** field, and then select **Make Assembly Orders**.  
+6.  In the **Carry Out Action Msg.** page, choose the **Assembly Order** field, and then select **Make Assembly Orders**.  
 7.  Choose the **OK** button.  
 
 ### Assembling and Shipping the First ATO Quantity  
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Warehouse Shipment**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Shipment**, and then choose the related link.  
 
     > [!NOTE]  
     >  In this section, the person who is responsible for shipping is in charge of recording the completed ATO assembly work on the warehouse shipment line. This workflow may occur in environments where the assembly work is performed by the person who is responsible for shipping or by assembly workers in the shipping area.  
@@ -295,7 +295,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
     Next, perform the picker’s task.  
 
-4.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Picks**, and then choose the related link.  
+4.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Picks**, and then choose the related link.  
 5.  Open the warehouse pick document that you created in step 3 in this section.  
 
     Notice the value in the **Source Document** field and that all the pick lines are for assembly components.  
@@ -307,14 +307,14 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
     Return to performing the shipping tasks.  
 
-8.  Reopen the **Warehouse Shipment** window.  
+8.  Reopen the **Warehouse Shipment** page.  
 
     Notice that the **Qty. Picked** field is still empty on all lines. This is because you still have not picked the items to be shipped, but only the components needed to assemble the ATO quantities.  
 
     Proceed to review the related assembly order.  
 
 9. Select the shipment line for three units of Kit B.  
-10. On the **Lines** FastTab, choose **Line**, and then choose **Assemble to Order**. The **Assembly Order** window opens.  
+10. On the **Lines** FastTab, choose **Line**, and then choose **Assemble to Order**. The **Assembly Order** page opens.  
 
     Notice that several fields on the assembly order are unavailable because the order is linked to a sales order.  
 
@@ -326,7 +326,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
     The **Quantity to Assemble** field is editable is to support situations where you want to partially ship an inventory quantity instead of assembling more units to the order. For more information, see the “Combination Scenarios” section in [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md).  
 
-12. Close the **Assembly Order** window to return to the **Warehouse Shipment** window.  
+12. Close the **Assembly Order** page to return to the **Warehouse Shipment** page.  
 13. On the shipment line for three units of Kit B, in the **Qty. to Ship** field, enter **3**.  
 14. On the **Actions** tab, in the **Posting** group, choose **Post Shipment**, and then select **Ship**.  
 
@@ -336,7 +336,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
 ### Assembling and Recording the Second ATO Quantity  
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Assembly Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assembly Orders**, and then choose the related link.  
 
     Notice that the ATO order for shipped units of Kit B is still in the list, although the **Remaining Quantity** is empty. This is because the linked sales order is still not fully invoiced.  
 
@@ -352,15 +352,15 @@ When the sales order is later posted as fully invoiced, the sales order and the 
     Next, record that the assembly order is completed.  
 
 3.  On the **Navigate** tab, in the **Warehouse** group, choose **Asm.-to-Order Whse. Shpt. Line**.  
-4.  In the **Asm.-to-Order Whse. Shpt. Line** window, in the **Qty. to Ship** field, enter **5**, and then close the window.  
+4.  In the **Asm.-to-Order Whse. Shpt. Line** page, in the **Qty. to Ship** field, enter **5**, and then close the page.  
 
-    Notice in the **Assembly Order** window that the **Quantity to Assemble** and the **Quantity to Consume** fields are now filled with the output and consumption quantities that will be posted with the shipment.  
+    Notice in the **Assembly Order** page that the **Quantity to Assemble** and the **Quantity to Consume** fields are now filled with the output and consumption quantities that will be posted with the shipment.  
 
-5.  Close the **Assembly Order** window.  
+5.  Close the **Assembly Order** page.  
 
 ### Assembling the ATS Quantity  
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Assembly Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assembly Orders**, and then choose the related link.  
 2.  Open the assembly order for ten units of Kit A.  
 
     Notice that the **Quantity to Assemble** field is filled with the expected quantity.  
@@ -372,7 +372,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
     Next, perform the picker’s task.  
 
-5.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Picks**, and then choose the related link.  
+5.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Picks**, and then choose the related link.  
 6.  Open the warehouse pick document that you created in step 4 in this section.  
 
      Proceed to register the pick without changing the default information.  
@@ -388,7 +388,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
 ### Shipping the Remaining Items, Partly from Stock and Partly Assembled to the Order  
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Warehouse Shipment**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Shipment**, and then choose the related link.  
 2.  Open the most recent warehouse shipment that is created at WHITE location.  
 
     Notice on the line for ten units of Kit A that the **Qty. to Ship** and **Qty. Picked** field are empty.  
@@ -399,7 +399,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
     Next, perform the picker’s last task for this warehouse shipment.  
 
-4.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Picks**, and then choose the related link.  
+4.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Picks**, and then choose the related link.  
 5.  Open the warehouse pick document that you created in step 3 in this section.  
 
     Notice that this pick document is for assembly item, not for assembly components.  
@@ -411,15 +411,15 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
     Return to the warehouse shipment to perform the last task.  
 
-8.  Reopen the **Warehouse Shipment** window.  
+8.  Reopen the **Warehouse Shipment** page.  
 
-    In the **Warehouse Shipment** window, on the line for ten units of Kit A, notice that the **Qty. to Ship** and **Qty. Picked** fields now contain **10**.  
+    In the **Warehouse Shipment** page, on the line for ten units of Kit A, notice that the **Qty. to Ship** and **Qty. Picked** fields now contain **10**.  
 
 9. On the **Actions** tab, in the **Posting** group, choose **Post Shipment**, and the choose **Ship**.  
 
     The warehouse shipment document is removed, which indicates that the involved warehouse activities are completed. Next, verify that the sales order has been processed.  
 
-10. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link  
+10. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link  
 11. Open the sales order for The Device Shop.  
 
     Notice that the **Quantity Shipped** field contains the full quantity on both lines.  

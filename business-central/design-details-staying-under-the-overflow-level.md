@@ -11,8 +11,9 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 09/06/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
+    redirect_url: design-details-handling-reordering-policies
 
 ---
 # Design Details: Staying under the Overflow Level
@@ -20,7 +21,7 @@ When using the Maximum Qty. and Fixed Reorder Qty. policies, the planning system
 
 *Attention: The projected inventory [xx] is higher than the overflow level [xx] on the Due Date [xx].*  
 
-![Inventory overflow level](media/supplyplanning_2_overflow1_new.png "supplyplanning_2_overflow1_new")  
+![Inventory overflow level](media/supplyplanning_2_overflow1_new.png "Inventory overflow level")  
 
 ##  Calculating the Overflow Level  
 The overflow level is calculated in different ways depending on planning setup.  
@@ -55,7 +56,7 @@ Planning Line Quantity = Current Supply Quantity – (Projected Inventory – Ov
 -   If the planning line quantity is equal to or lower than 0, then the action message is Cancel  
 
 ### Composing the Warning Message  
-In case of overflow, the **Untracked Planning Elements** window displays a warning message with the following information:  
+In case of overflow, the **Untracked Planning Elements** page displays a warning message with the following information:  
 
 -   The projected inventory level that triggered the warning  
 -   The calculated overflow level  
@@ -96,7 +97,7 @@ In this scenario, a customer changes a sales order from 70 to 40 pieces between 
 ### Resulting Planning Lines  
  One planning line (warning) is created to reduce the purchase with 30 from 90 to 60 to keep the projected inventory on 100 according to the overflow level.  
 
-![Plan according to overflow level](media/nav_app_supply_planning_2_overflow2.png "nav_app_supply_planning_2_overflow2")  
+![Plan according to overflow level](media/nav_app_supply_planning_2_overflow2.png "Plan according to overflow level")  
 
 > [!NOTE]  
 >  Without the Overflow feature, no warning is created if the projected inventory level is above maximum inventory. This could cause a superfluous supply of 30.  

@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/22/2018
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -26,10 +26,10 @@ The following warehouse-related granules exist:
 -   Warehouse Shipment (4210)  
 -   Warehouse Management Systems (4620)  
 -   Internal Picks and Put-aways (4630)  
--   <!-- Automated Data Capture System (4640) -->  
+-   Automated Data Capture System (4640) 
 -   Bin Setup (4660)  
 
-For more information about each granule, see [[!INCLUDE[d365fin](includes/d365fin_md.md)] Price Sheets](http://go.microsoft.com/fwlink/?LinkId=238341) (requires PartnerSource account).  
+For more information about each granule, see [[!INCLUDE[d365fin](includes/d365fin_md.md)] Price Sheets](https://go.microsoft.com/fwlink/?LinkId=238341) (requires PartnerSource account).  
 
 The following table shows which granules are required to define different warehouse complexity levels, which UI documents support each level, and which location codes reflect these levels in the [!INCLUDE[d365fin](includes/d365fin_md.md)] demonstration database.  
 
@@ -89,7 +89,7 @@ In advanced warehousing, bins can be set up with capacity values, such as quanti
 
 On each item card, you can assign a unit of measure (UOM) for the item, such as pieces, pallets, liters, grams, or boxes. You can also have a base UOM for an item and specify larger UOMs that are based on it. For example, you can define a pallet to equal 16 pieces, the latter being the base UOM.  
 
-If you want to set a maximum quantity of a specific item to be stored in an individual bin and the item has more than one UOM, then you must set the maximum quantity for every UOM that exists on the item card. Accordingly, if an item has been set up to be handled in pieces and pallets, then the **Max. Qty.** field in the **Bin Content** window for that item must also be in pieces and pallets. Otherwise, the allowed quantity for that bin is not calculated correctly.  
+If you want to set a maximum quantity of a specific item to be stored in an individual bin and the item has more than one UOM, then you must set the maximum quantity for every UOM that exists on the item card. Accordingly, if an item has been set up to be handled in pieces and pallets, then the **Max. Qty.** field in the **Bin Content** page for that item must also be in pieces and pallets. Otherwise, the allowed quantity for that bin is not calculated correctly.  
 
 Before you set capacity restrictions for bin contents on a bin, you must first make sure that the UOM and dimensions of the item have been set up on the item card.  
 

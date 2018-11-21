@@ -1,8 +1,8 @@
 ---
     title: How to Print Withholding Tax Reports
-    description: The **Withholding Taxes** report displays a list of withholding taxes that are payable to the government.
+    description: The Withholding Taxes report displays a list of withholding taxes that are payable to the government.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---

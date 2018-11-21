@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/21/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -22,9 +22,9 @@ You cannot create a warehouse pick document from scratch because a pick activity
 
 You can create warehouse pick documents in a pull fashion by opening an empty warehouse shipment document, detect source documents that are released to shipment, and then create warehouse pick lines for those shipments. You can use the **Get Source Documents** or **Use Filter to Get Source Documents** functions to detect source documents that are ready for shipment.
 
-Alternatively, you can use the **Pick Worksheet** window to pull and create pick lines in batch mode. For more information, see [Plan Picks in Worksheets](warehouse-how-to-plan-picks-in-worksheets.md).  
+Alternatively, you can use the **Pick Worksheet** page to pull and create pick lines in batch mode. For more information, see [Plan Picks in Worksheets](warehouse-how-to-plan-picks-in-worksheets.md).  
 
-You can also create warehouse pick documents in a push fashion from the **Warehouse Shipment** window by selecting **Create Pick**.  
+You can also create warehouse pick documents in a push fashion from the **Warehouse Shipment** page by selecting **Create Pick**.  
 
 > [!NOTE]  
 >  Picking for warehouse shipment of items that are assembled to the sales order being shipped follows the same steps as for regular warehouse picks for shipment, as described in this topic. However, the number of pick lines per quantity to ship may be many to one because you pick the components, not the assembly item.  
@@ -36,7 +36,7 @@ You can also create warehouse pick documents in a push fashion from the **Wareho
 >  For information about picking components for assembly orders generally, including situations where the assembly item is not due on a sales shipment, see [Pick for Production or Assembly](warehouse-how-to-pick-for-production.md).  
 
 ## To pick items for warehouse shipment  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Picks**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Picks**, and then choose the related link.  
 
     If you need to work on a particular pick, select the pick from the list or filter the list to find the picks that have been assigned to you specifically. Open the pick card.  
 2.  If the **Assigned User ID** field is empty, enter your ID to identify yourself if necessary.  
@@ -48,7 +48,7 @@ You can also create warehouse pick documents in a push fashion from the **Wareho
 
 4.  When you have performed the pick and placed the items in the shipping area or shipping bin, choose the **Register Pick** action.  
 
-The person responsible for shipment can now bring the items to the shipment dock and post the shipment, including the related source document, in the **Warehouse Shipment** window. For more information, see [Ship Items](warehouse-how-ship-items.md).   
+The person responsible for shipment can now bring the items to the shipment dock and post the shipment, including the related source document, in the **Warehouse Shipment** page. For more information, see [Ship Items](warehouse-how-ship-items.md).   
 
 In addition to picking for source documents, as described in this topic, you can take and place items between bins without referring to source documents. For more information, see [Pick and Put Away Without a Source Document](warehouse-how-to-create-put-aways-from-internal-put-aways.md).  
 
@@ -59,7 +59,7 @@ For other warehouse shipment lines, the value in the **Qty. to Ship** field is z
 
 When workers in charge of assembly finish assembling parts or all of the assemble-to-order quantity, they record it in the **Qty. to Ship** field on the warehouse shipment line and then choose the **Post Shipment** action. The result is that the corresponding assembly output is posted, including the component consumption. A sales shipment for the quantity is posted for the sales order.
 
-From the assembly order, you can choose **Asm.-to-Order Whse. Shpt. Line** to access the warehouse shipment line. This is convenient for workers who do not typically use the **Warehouse Shipment** window.
+From the assembly order, you can choose **Asm.-to-Order Whse. Shpt. Line** to access the warehouse shipment line. This is convenient for workers who do not typically use the **Warehouse Shipment** page.
 
 After the warehouse shipment is posted, various fields on the sales order line are updated to show progress in the warehouse. The following fields are also updated to show how many assemble-to-order quantities remain to be assembled and shipped:
 

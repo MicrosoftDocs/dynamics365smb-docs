@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 09/04/2018
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -69,7 +69,7 @@ The following order modifiers exist on the item or SKU card:
 -   Maximum Order Quantity  
 -   Order Multiple  
 
-Global planning setup fields on the **Manufacturing Setup** window include:  
+Global planning setup fields in the **Manufacturing Setup** page include:  
 
 -   Dynamic Low-Level Code  
 -   Current Demand Forecast  
@@ -91,7 +91,7 @@ This specifies whether the supply represented by the production order line is co
 If the field contains **Unlimited**, then the planning system includes the line when calculating action messages. If the field contains **None**, then the line is firm and unchangeable, and the planning system does not include the line when calculating action messages.
 
 ### Warning
-The **Warning** information field in the **Planning Worksheet** window informs you of any planning line created for an unusual situation with a text, which the user can choose to read additional information. The following warning types exist:
+The **Warning** information field in the **Planning Worksheet** page informs you of any planning line created for an unusual situation with a text, which the user can choose to read additional information. The following warning types exist:
 
 - Emergency
 - Exception

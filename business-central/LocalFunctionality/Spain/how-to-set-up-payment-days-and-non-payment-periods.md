@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -36,10 +36,10 @@ For sales and purchase invoices, the customer and vendor payment days and non-pa
     |**Payment Days Code**|Enter the payment day code.|  
     |**Non-Paymt. Periods Code**|Enter the non-payment periods code.|  
 
-4.  To open the **Payment Days** window, choose the **Payment Days** action.  
-5.  In the **Payment Days** window, in the **Payment Day** field, enter the payment day for the company.  
+4.  To open the **Payment Days** page, choose the **Payment Days** action.  
+5.  In the **Payment Days** page, in the **Payment Day** field, enter the payment day for the company.  
 6.  Choose the **OK** button.  
-7.  To open the **Non-Payment Periods** window, choose the **Non-Payment Periods** action.  
+7.  To open the **Non-Payment Periods** page, choose the **Non-Payment Periods** action.  
 8.  Enter information into the relevant fields.  
 9. Choose the **OK** button.  
 
@@ -47,7 +47,7 @@ For sales and purchase invoices, the customer and vendor payment days and non-pa
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers** or enter **Vendors**, and then choose the related link.  
 2.  Select the required customer or vendor, and then choose the **Payment Days** action.  
-3.  In the **Payment Days** window, in the **Payment Day** field, enter the payment day for the customer or vendor.  
+3.  In the **Payment Days** page, in the **Payment Day** field, enter the payment day for the customer or vendor.  
 4.  Choose the **OK** button.  
 
 ## To set up non-payment periods for customers and vendors  

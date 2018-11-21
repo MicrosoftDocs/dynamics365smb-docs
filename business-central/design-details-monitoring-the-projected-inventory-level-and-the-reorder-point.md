@@ -11,8 +11,9 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: design, supply, inventory, planning
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
+    redirect_url: design-details-handling-reordering-policies
 
 ---
 # Design Details: Monitoring the Projected Inventory Level and the Reorder Point
@@ -46,7 +47,7 @@ The following sequence describes how the projected inventory level is determined
 
 The following shows a graphical illustration of this principle:  
 
-![](media/nav_app_supply_planning_2_projected_inventory.png "NAV_APP_supply_planning_2_projected_inventory")  
+![Determining the Projected Inventory Level](media/nav_app_supply_planning_2_projected_inventory.png "Determining the Projected Inventory Level")  
 
 1. Supply **Sa** of 4 (fixed) closes Demand **Da** of -3.  
 2. CloseDemand: Create a decrease reminder of -3 (not shown).  

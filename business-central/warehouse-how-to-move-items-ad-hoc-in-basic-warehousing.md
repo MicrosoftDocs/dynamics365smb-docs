@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 
 ---
@@ -18,21 +18,21 @@ You may occasionally need to move items between internal bins, not receiving or 
 
 In basic warehouse configurations, that is locations that use the **Bin Mandatory** setup field and possibly the **Require Pick** and the **Require Put-away** setup fields, you can register ad hoc movements without source documents in the following ways:  
 
-- With the **Internal Movement** window.  
-- With the **Item Reclassification Journal** window.  
+- With the **Internal Movement** page.  
+- With the **Item Reclassification Journal** page.  
 
 > [!NOTE]  
->  In advanced warehouse configurations, that is locations that use the **Directed Put-away and Pick** setup field, you use the **Movement Worksheet** window or the **Internal Whse. Pick** or the **Internal Whse. Put-away** windows to move items ad hoc between bins.  
+>  In advanced warehouse configurations, that is locations that use the **Directed Put-away and Pick** setup field, you use the **Movement Worksheet** page or the **Internal Whse. Pick** or the **Internal Whse. Put-away** pages to move items ad hoc between bins.  
 
 ## To move items as an internal movement  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Internal Movement**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Internal Movement**, and then choose the related link.  
 2.  On the **General** FastTab, fill in the **No.** field, either by leaving the field or by choosing the **AssistEdit** button to select from the number series.  
 3.  In the **Location Code** field, enter the location where the movement takes place.  
 
     If the location is set up as your default location as a warehouse employee, the location code is inserted automatically.  
 4.  In the **To Bin Code** field, enter a code for the bin that you want to move the item to. For production purposes, this could be the open shop floor bin code, for example, as defined on the location card or work center.  
 5.  In the **Due Date** field, enter the date by which the movement must be completed.  
-6.  On the **Lines** FastTab, choose the **Item No.** field to open the **Bin Contents List** window, and then select the item to move based on its availability in bins. Alternatively, choose the **Get Bin Contents** action to fill the internal movement lines based on your filters. For more information, see the tooltip for the **Get Bin Content** action.   
+6.  On the **Lines** FastTab, choose the **Item No.** field to open the **Bin Contents List** page, and then select the item to move based on its availability in bins. Alternatively, choose the **Get Bin Contents** action to fill the internal movement lines based on your filters. For more information, see the tooltip for the **Get Bin Content** action.   
 
     When you have selected the item, the **From Bin Code** field is automatically filled according to the selected bin content, but you can change it to any other bin where the item is available.  
 
@@ -50,11 +50,11 @@ In basic warehouse configurations, that is locations that use the **Bin Mandator
     > [!NOTE]  
     >  When you have created the inventory movement, the internal movement lines are deleted.  
 
-    You perform the remainder of the ad hoc movement in the **Inventory Movement** window in the same way as you would for a movement based on source documents. For more information, see for example [Move Components to an Operation Area in Basic Warehouse Configurations](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
+    You perform the remainder of the ad hoc movement in the **Inventory Movement** page in the same way as you would for a movement based on source documents. For more information, see for example [Move Components to an Operation Area in Basic Warehouse Configurations](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
 
 ## To move items with the item reclassification journal
 In stead of using warehouse movement documents, you can record the moving of items by reclassifying their bin codes. For more information, see [Count, Adjust, and Reclassify Inventory](inventory-how-count-adjust-reclassify.md).   
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Reclass. Journal**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Reclass. Journal**, and then choose the related link.  
 2.  On each journal line, define the bins from which and to which you want to move items by filling in the **Bin Code** and the **New Bin Code** fields.  
 
     1.  To move a bin's entire contents to another bin, choose the **Get Bin Contents** action.  

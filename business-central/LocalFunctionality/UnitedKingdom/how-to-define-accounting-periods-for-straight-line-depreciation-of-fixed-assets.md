@@ -8,7 +8,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.search.keywords: write down
-ms.date: 07/17/2017
+ms.date: 10/01/2018
 ms.author: edupont
 
 ---
@@ -21,7 +21,7 @@ You can define 13 accounting periods to calculate straight line depreciation. Yo
 ### To define accounting periods to calculate straight line depreciation  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Books**, and then choose the related link.  
-2.  To open a new **Depreciation Book Card** window, on the **Home** tab, choose **New**.  
+2.  To open a new **Depreciation Book Card** page, on the **Home** tab, choose **New**.  
 3.  On the **General** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 5.  Choose the **OK** button.  
 

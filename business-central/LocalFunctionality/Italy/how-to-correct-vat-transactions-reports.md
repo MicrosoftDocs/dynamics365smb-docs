@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -36,7 +36,7 @@
     > [!NOTE]  
     >  When you choose **Export** for a report with the status Open, it will be automatically validated and the status will be changed to Released. At this point, you can reopen the report to make changes.  
 
-5.  Submit the file to the authority. Use the guidelines provided by the authority. For more information, see the [Italian Revenue Agency](http://go.microsoft.com/fwlink/?LinkID=206524).  
+5.  Submit the file to the authority. Use the guidelines provided by the authority. For more information, see the [Italian Revenue Agency](https://go.microsoft.com/fwlink/?LinkID=206524).  
 
     After you receive a response from the tax authorities, you must update the VAT report.  
 

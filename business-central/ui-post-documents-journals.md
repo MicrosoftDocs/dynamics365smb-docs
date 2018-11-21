@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2017
+ms.date: 10/01/2018
 ms.author: solsen
 
 ---
@@ -26,7 +26,7 @@ The following table describes related tasks, with links to the topics that descr
 | Learn about posting purchase documents. |[Posting Purchases](ui-post-purchases.md) |
 | Learn about posting sales documents. |[Posting Sales](ui-post-sales.md) |
 | Learn about posting general journals. |[Working with General Journals](ui-work-general-journals.md) |
-| Preview, in a window, the entries that will be created when you post. |[Preview Posting Results](ui-how-preview-post-results.md) |
+| Preview, in a page, the entries that will be created when you post. |[Preview Posting Results](ui-how-preview-post-results.md) |
 | Preview, in a report, the entries that will be created when you post. |[View Test Reports Before Posting](ui-how-view-test-reports-posting.md) |
 
 ## See Also

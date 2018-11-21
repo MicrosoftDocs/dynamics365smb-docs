@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -33,7 +33,7 @@ When the collection is complete, the current collection number is assigned in th
 
 5.  Choose the **OK** button.  
 
-    In the **LSV Journal List** window, the value in the **LSV Status** field is changed from **Edit** to **Released**. The journal lines can no longer be modified.  
+    In the **LSV Journal List** page, the value in the **LSV Status** field is changed from **Edit** to **Released**. The journal lines can no longer be modified.  
 
 ## To reopen an LSV collection  
 

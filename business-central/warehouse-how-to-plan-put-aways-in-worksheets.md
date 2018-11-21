@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/16/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -25,12 +25,12 @@ If you do not select this field, the program will automatically create put-away 
 > [!NOTE]  
 >  Regardless of the status of the **Use Put-away Worksheet** field on the location card, you can always get put-away instruction lines, that is, posted receipt lines, into the put-away worksheet by doing the following:  
 >   
->  1.  In the **Warehouse Put-away** window, press Ctrl+D to delete the entire put-away instruction, or select the lines that you want to process in the worksheet and delete them.  
+>  1.  In the **Warehouse Put-away** page, press Ctrl+D to delete the entire put-away instruction, or select the lines that you want to process in the worksheet and delete them.  
 > 2.  Continue the process in as many put-aways as you wish, until you have deleted the lines you want to work on in the worksheet. Now choose **Put-away Worksheets** and proceed with planning.  
 
 ## To plan instructions in the put-away worksheet  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Put-away Worksheet**, and then choose the related link.  
-2.  Choose the **Get Warehouse Documents** action. The **Put-away Selection** window opens.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Put-away Worksheet**, and then choose the related link.  
+2.  Choose the **Get Warehouse Documents** action. The **Put-away Selection** page opens.  
 
     You see all the posted receipts and registered internal put-aways that have been forwarded to the put-away function, including those for which put-away instructions have already been created. Documents with put-away lines that have been completely put away and registered are not shown on this list.  
 
@@ -50,7 +50,7 @@ If you do not select this field, the program will automatically create put-away 
     > [!NOTE]  
     >  Lines deleted are only deleted from this worksheet, not from the put-away selection list.  
 
-7.  Choose the **Create Put-away** action. The **Create Document** window opens, where you can add more information to the put-away you are creating, as follows:  
+7.  Choose the **Create Put-away** action. The **Create Document** page opens, where you can add more information to the put-away you are creating, as follows:  
 
     -   You can assign the put-away to a specific employee.  
     -   You can sort the put-away instruction lines as you did in the worksheet or by bin ranking. When you sort according to bin ranking, the Take lines appear first, since most receipt bins have a 0 bin ranking, and the Place lines appear last, starting with the bins with the lowest bin ranking. If you have structured your warehouse so bins of similar bin ranking are side by side, sorting lines in this way will ultimately save steps for your warehouse employees.  

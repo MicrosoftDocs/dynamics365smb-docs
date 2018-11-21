@@ -4,13 +4,13 @@
     services: project-madeira 
     documentationcenter: ''
     author: bholtorf
-    ms.service: dynamics365-financials
+    ms.service: dynamics365-business-central
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 06/20/2018
+    ms.date: 10/01/2018
     ms.author: bholtorf
 
 ---
@@ -20,7 +20,7 @@ You can create check installments for post-dated checks. You can define the numb
 ## To create a check installment  
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Post Dated checks-Purchases**, and then choose the relevant link.  
 2.  Choose the relevant check, and then, on the **Home** tab, choose **Edit**.  
-3.  In the **Post Dated Checks-Purchase** window, on the **Home** tab, choose **Create Check Installments**.  
+3.  In the **Post Dated Checks-Purchase** page, on the **Home** tab, choose **Create Check Installments**.  
 4.  On the **Options** FastTab, fill in the fields as described in the following table.  
 
 5.  |Field|Description|  
@@ -32,7 +32,7 @@ You can create check installments for post-dated checks. You can define the numb
 
 6.  Choose the **OK** button.  
 
-     The installment checks are created and displayed in the **Post Dated Checks-Purchases** window.
+     The installment checks are created and displayed in the **Post Dated Checks-Purchases** page.
 
 ## See Also
 [New Zealand Local Functionality](new-zealand-local-functionality.md)

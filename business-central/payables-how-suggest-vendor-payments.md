@@ -11,12 +11,12 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 05/15/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 
 ---
 # Suggest Vendor Payments
-In the **Payment Journal** window, you can use the **Suggest Vendor Payments** batch job to suggest payment lines. Lines for payments that are due soon or payments where a payment discount is available are suggested based on your settings.
+In the **Payment Journal** page, you can use the **Suggest Vendor Payments** batch job to suggest payment lines. Lines for payments that are due soon or payments where a payment discount is available are suggested based on your settings.
 
 To benefit fully from payment suggestions, you must first prioritize your vendors. For more information, see [Prioritize Vendors](purchasing-how-prioritize-vendors.md).  
 
@@ -25,13 +25,12 @@ To benefit fully from payment suggestions, you must first prioritize your vendor
 
 > [!IMPORTANT]  
 >   If you want to take advantage of payment discounts, and have entered an available amount, the amount will be used for:  
-
-* Prioritized overdue vendor entries first in order of priority.  
-* Overdue vendor entries that are not prioritized.  
-* Open vendor entries that qualify for payment discounts, arranged by vendor number.  
+    * Prioritized overdue vendor entries first in order of priority.   
+    * Overdue vendor entries that are not prioritized.  
+    * Open vendor entries that qualify for payment discounts, arranged by vendor number.  
 
 ## To use the Suggest Vendor Payments function
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
 2. Open the relevant journal, and then choose the **Suggest Vendor Payments** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Choose the **OK** button.  

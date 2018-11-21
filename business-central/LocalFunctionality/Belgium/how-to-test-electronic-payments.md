@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -31,7 +31,7 @@ Some of the information that is validated includes:
 - If payment lines are in Euro for SEPA.  
 - If a number series has been defined for SEPA.  
 
-You can view any errors in the **Export Check Error Logs** window.  
+You can view any errors in the **Export Check Error Logs** page.  
 
 > [!IMPORTANT]  
 >  You have to correct all errors before you can post the lines.  
@@ -41,7 +41,7 @@ You can view any errors in the **Export Check Error Logs** window.
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.  
 2.  In the **Batch Name** field, select the required journal batch.  
 3.  In the **Export Protocol** field, select the export protocol.  
-4.  Enter the payment journal line information, and then choose the **Check Payment Lines** action to validate the payment journal lines. The validation that is performed on the journal lines depends on the type of check that is specified in the **Export Protocols** window.  
+4.  Enter the payment journal line information, and then choose the **Check Payment Lines** action to validate the payment journal lines. The validation that is performed on the journal lines depends on the type of check that is specified in the **Export Protocols** page.  
 
 ## See Also  
  [Belgian Electronic Payments](belgian-electronic-payments.md)   

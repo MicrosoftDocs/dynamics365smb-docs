@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -37,9 +37,9 @@ To use automatic payments and automatic bills, you must set up the relevant info
 5.  Choose the **OK** button.  
 
     > [!IMPORTANT]  
-    >  Before you can export a vendor bill, you must select a payment format in the **Payment Export Format** field in the **Bank Account Card** window.  
+    >  Before you can export a vendor bill, you must select a payment format in the **Payment Export Format** field in the **Bank Account Card** page.  
     >   
-    >  Before you can export a customer bill, you must select a payment format in the **SEPA Direct Debit Exp. Format** field in the **Bank Account Card** window.  
+    >  Before you can export a customer bill, you must select a payment format in the **SEPA Direct Debit Exp. Format** field in the **Bank Account Card** page.  
 
 The following procedure describes how to set up automatic bills for sales and receivables, but the same steps also apply to setting up purchases and payables for using automatic payments.  
 
@@ -64,7 +64,7 @@ The following procedure describes how to set up automatic bills for sales and re
 2.  Select the payment method that you use for bank transfers to vendors, and then, in the **Bill Code** field, select a bill code.  
 
     1.  To create a bill code, in the **Bill Code** field, choose the field, and then choose the **New** action.  
-    2.  In the **Bill** window, fill in the fields.
+    2.  In the **Bill** page, fill in the fields.
 
 Now, you can process customer bills and vendor bills so that they are handled automatically.  
 

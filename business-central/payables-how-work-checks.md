@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 06/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 
 ---
@@ -33,12 +33,12 @@ You can print up to 10 invoices on a page for a check stub. If a check applies t
 ## To pay a vendor invoice with a computer check
 The following describes how to pay a vendor by check. The steps are similar to refund a customer by check.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
 2. Fill in the payment journal lines. For more information, see [Record Payments and Refunds](payables-how-post-payments-refunds.md).
 3. In the **Payment Method Code** field, select **Check**.
 4. In the **Bank Payment Type** field, select **Computer Check**.
 5. Choose the **Print Check** action.
-6. In the **Check** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. In the **Check** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Choose the **Send to** button, select the **PDF Document** option, and then choose the **OK** button.
 
     The physical checks can now be brought to the bank for processing. Proceed to post the payment as applied to the vendor and thereby paid in the system.
@@ -50,22 +50,22 @@ Fully applied vendor ledger entries and bank ledger entries are created.
 > If you want to print and pay checks in more than one currency from different bank accounts, you must run the **Print Check** batch job separately for each currency and specify the appropriate bank account.
 
 ## To cancel printed checks that are not posted
-You can cancel non-posted checks after they have been printed by using the **Void Check** action in the **Payment Journal** window.
+You can cancel non-posted checks after they have been printed by using the **Void Check** action in the **Payment Journal** page.
 
-1. In the **Payment Journal** window, choose the **Void Check**, and then choose which checks to cancel.
+1. In the **Payment Journal** page, choose the **Void Check**, and then choose which checks to cancel.
 
 ## To void checks
 When check payment have been posted, you can only cancel (void) checks from the resulting bank ledger entries.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
 2. Select the relevant bank account, choose the **Edit** action, and then choose the **Check Ledger Entries** action.
-3. In the **Check Ledger Entries** window, choose the **Void Check** action.
+3. In the **Check Ledger Entries** page, choose the **Void Check** action.
 4. Select the **Void Check Only** check box.
 5. Choose the **OK** button.
 
 ## To view a summary of posted checks
 If you want to review posted checks, for example to verify multiple checks paid to one vendor, you can use the **Bank Account - Check Details** report.
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Account - Check Details**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Account - Check Details**, and then choose the related link.
 2. Set filters as relevant, and then choose the **Preview** button.
 
 ## See Also

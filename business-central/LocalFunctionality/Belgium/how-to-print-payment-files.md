@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -36,7 +36,7 @@ In the payment journal, the **Status** field on the exported lines will be set t
 
 3.  Choose the **Check Payment Lines** action.
 
-    The **Export Check Error Logs** window displays any errors that may exist. If there are errors, you must fix the errors before you can continue.
+    The **Export Check Error Logs** page displays any errors that may exist. If there are errors, you must fix the errors before you can continue.
 
 4. If there are no errors, choose the **Export Payment Lines** action.  
 

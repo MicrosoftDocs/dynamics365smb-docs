@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: design, item tracking, posting, inventory
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -20,7 +20,7 @@ To align with inventory costing functionality and to obtain a simpler and more r
   
 Item tracking numbers on order network entities and non-order network entities are specified in the **Reservation Entry** table (T337). Item tracking numbers that are related to historical information are retrieved directly from the item ledger entries that are related to the transaction in question. This means that item ledger entries reflect the item tracking specification of the posted order line.  
   
-The **Item Tracking Lines** window retrieves the information from T337 and the item ledger entries and shows it through the temporary table, **Tracking Specification** (T336). T336 also hold the temporary data in the **Item Tracking Lines window** for item tracking quantities that remain to be invoiced.  
+The **Item Tracking Lines** page retrieves the information from T337 and the item ledger entries and shows it through the temporary table, **Tracking Specification** (T336). T336 also hold the temporary data in the **Item Tracking Lines page** for item tracking quantities that remain to be invoiced.  
   
 ## One-to-Many Relation  
 The **Item Entry Relation** table, which is used to link a posted document line with its related item ledger entries, consists of two main parts:  

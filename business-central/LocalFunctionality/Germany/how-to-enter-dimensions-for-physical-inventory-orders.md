@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -27,10 +27,10 @@ That is why you should create the physical inventory order lines first after com
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Phys. Inventory Order**, and then choose the related link.  
 2.  Select the physical inventory order that you want to create an inventory recording for, and then choose the **Edit** action.  
 3.  Choose the **Dimensions** action.  
-4.  In the **Edit Dimension Set Entries** window, enter the dimensions for the inventory order header.  
+4.  In the **Edit Dimension Set Entries** page, enter the dimensions for the inventory order header.  
 5.  Create a new physical inventory order line and enter the item number.  
 6.  Choose the **Line** action, and then choose the **Dimensions** action.  
-7.  In the **Edit Dimension Set Entries** window, optionally, enter the dimensions for the inventory order line.  
+7.  In the **Edit Dimension Set Entries** page, optionally, enter the dimensions for the inventory order line.  
 
 ## See Also  
  [Enter Physical Inventory Orders](how-to-enter-physical-inventory-orders.md)   

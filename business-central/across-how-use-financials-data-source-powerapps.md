@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Odata, Power App, SOAP
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: edupont
 
 ---
@@ -33,9 +33,9 @@ You can make your [!INCLUDE[d365fin](includes/d365fin_md.md)] data available as 
 
    For the *OData URL*, you can copy the OData V4 URL of any of the web services that are listed in the **Web Services** page in [!INCLUDE[d365fin](includes/d365fin_md.md)], such as `https://mycompany.businesscentral.dynamics.com:7048/MS/ODataV4/`.  
 
-   For the *Company Name*, use the name that is shown in the **Name** field in the **Company Information** window in [!INCLUDE[d365fin](includes/d365fin_md.md)]. If your [!INCLUDE[d365fin](includes/d365fin_md.md)] contains multiple companies, choose the relevant company name from the list in the **Companies** window. In both cases, make sure that the name that you specify in the PowerApps wizard matches exactly the text shown in [!INCLUDE[d365fin](includes/d365fin_md.md)], such as `My Company`.
+   For the *Company Name*, use the name that is shown in the **Name** field in the **Company Information** page in [!INCLUDE[d365fin](includes/d365fin_md.md)]. If your [!INCLUDE[d365fin](includes/d365fin_md.md)] contains multiple companies, choose the relevant company name from the list in the **Companies** page. In both cases, make sure that the name that you specify in the PowerApps wizard matches exactly the text shown in [!INCLUDE[d365fin](includes/d365fin_md.md)], such as `My Company`.
 
-   For the username and password, use the name and web service access key that are specified for your account in the **Users** window in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For example, your username is *ADMIN*, and the web service access key that serves as your password is *EgzeUFQ9Uv0o5O0lUMyqCzo1ueUW9yRF3SsLU=*.
+   For the username and password, use the name and web service access key that are specified for your account in the **Users** page in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For example, your username is *ADMIN*, and the web service access key that serves as your password is *EgzeUFQ9Uv0o5O0lUMyqCzo1ueUW9yRF3SsLU=*.
 7. Choose the **Connection** button to continue. PowerApps will display a default dataset for [!INCLUDE[d365fin](includes/d365fin_md.md)]. Choose the **Default** dataset.
 
    PowerApps will display a list of tables that are available from [!INCLUDE[d365fin](includes/d365fin_md.md)]. These tables, or end points,  represent all the web services you have published from [!INCLUDE[d365fin](includes/d365fin_md.md)].

@@ -4,13 +4,13 @@
     services: project-madeira 
     documentationcenter: ''
     author: SorenGP
-    ms.service: dynamics365-financials
+    ms.service: dynamics365-business-central
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 06/20/2018
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -21,7 +21,7 @@ This is a legal report that is required for auditing accounts. This report displ
 
 ## To print the income statement report  
 1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Income Statement**, and then choose the relevant link.  
-2. In the **Income Statement** window, on the **Options** FastTab, fill in the fields as described in the following table.  
+2. In the **Income Statement** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

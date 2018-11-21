@@ -2,17 +2,18 @@
     title: How to Determine Sales Price by Cost Plus Percentage
     description: Use the cost plus percentage function to set a sales price based on the cost of an item. The cost of the item can be calculated along with cost plus calculation. The discount will be based on this calculation.
 
-    services: project-madeira 
+    services: project-madeira
+    ms.custom: en-CA, fr-CA
     documentationcenter: ''
     author: SorenGP
 
-    ms.service: dynamics365-financials
+    ms.service: dynamics365-business-central
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -32,7 +33,7 @@ Use the cost plus percentage function to set a sales price based on the cost of 
     > [!NOTE]  
     >  For a new customer, in the **No.** field, enter the customer number.  
 
-5.  To open the **Sales Prices** window, choose the **Prices** action.  
+5.  To open the **Sales Prices** page, choose the **Prices** action.  
 6.  In the **General** section, fill in the fields as described in the following table.  
 
     |Field|Description|  

@@ -1,6 +1,6 @@
 ---
     title: Reversing Journal Entries
-    description: Controls have been added to the **Reverse Transaction Entries** window to comply with local laws.
+    description: Controls have been added to the **Reverse Transaction Entries** page to comply with local laws.
 
     services: project-madeira 
     documentationcenter: ''
@@ -12,12 +12,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
 # Reversing Journal Entries
-Controls have been added to the **Reverse Transaction Entries** window to comply with local laws. These controls ensure the following:  
+Controls have been added to the **Reverse Transaction Entries** page to comply with local laws. These controls ensure the following:  
 
 - You cannot reverse an invoice, credit note, or document involving VAT management.  
 - You cannot reverse posted invoices, credit memos, or debit memos.  

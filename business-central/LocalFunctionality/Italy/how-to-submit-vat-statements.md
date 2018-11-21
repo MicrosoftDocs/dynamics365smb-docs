@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -24,7 +24,7 @@ You must submit periodic VAT statements to the tax authorities to list transacti
 ## To review and print VAT statements  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Statements**, and then choose the related link.  
-2.  In the **VAT Statement** window, in the **Name** field, select the required VAT statement, and then choose the **Print** action.  
+2.  In the **VAT Statement** page, in the **Name** field, select the required VAT statement, and then choose the **Print** action.  
 3.  On the **Options** FastTab, enter a date interval to limit the period covered by the statement and define what type of VAT entries that you want to include.  
 4.  Choose the **Print** button to print the VAT statement.  
 
@@ -41,7 +41,7 @@ After you calculate and post the VAT settlement, VAT amounts are transferred to 
 ## To submit VAT statements  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Statements**, and then choose the related link.  
-2.  In the **VAT Statement** window, in the **Name** field, select the required VAT statement, choose the **Print** action, and then choose the **PDF** option.  
+2.  In the **VAT Statement** page, in the **Name** field, select the required VAT statement, choose the **Print** action, and then choose the **PDF** option.  
 
 The exported file can now be submitted to the tax authorities.  
 

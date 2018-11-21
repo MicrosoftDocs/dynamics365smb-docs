@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 03/29/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 
 ---
@@ -25,7 +25,7 @@ The process for closing the book includes these main tasks:
 
 1. Closing the accounting period.
 
-    A fiscal year is defined as one or more open periods as defined in the **Accounting Periods** window. A typical fiscal year contains 12 periods of one month each, but you can also choose another method of defining a year.
+    A fiscal year is defined as one or more open periods as defined in the **Accounting Periods** page. A typical fiscal year contains 12 periods of one month each, but you can also choose another method of defining a year.
 
     For more information, see [Close Accounting Periods](year-close-account-periods.md).
 2. Registering prior-year entries.

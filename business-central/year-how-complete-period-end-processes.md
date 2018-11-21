@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
-ms.date: 06/19/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 
 ---
@@ -26,7 +26,7 @@ ms.author: jswymer
 * Update and post Recurring Journals.  
   <!--* Process Consolidations-->
 * Run account schedules as follows:  
-  * Open the **Account Schedule** window, and then choose the **Print** action.  
+  * Open the **Account Schedule** page, and then choose the **Print** action.  
 
 ## Sales and Receivables
 * Post all sales orders, invoices, credit memos, and return orders.  

@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 
 ---
@@ -27,24 +27,24 @@ When you receive the inventory items, or when the purchased service is completed
 
 You can easily correct or cancel a posted purchase invoice before you pay the vendor. This is useful if you want to correct a typing mistake or if you want to change the purchase early in the order process. For more information, see [Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). If you have already paid for items on the posted purchase invoice, then you must create a purchase credit memo to reverse the purchase. For more information, see [Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md).
 
-Items can be type **Inventory** or **Service**. For more information, see [Register New Items](inventory-how-register-new-items.md). The purchase invoice process is the same for both item types.
+The item card can be of type **Inventory**, **Service**, and **Non-Inventory** to specify if the item is a physical inventory unit, a labor time unit, or a physical unit that is not kept on inventory. For more information, see [Register New Items](inventory-how-register-new-items.md). The purchase invoice process is the same for all three item types.
 
 You can fill vendor fields on the purchase invoice in two ways depending on whether the vendor is already registered.
 
 ## To create a purchase invoice
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoices**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.  
 2. In the **Vendor** field, enter the name of an existing vendor.
 
-    Other fields in the **Purchase Invoice** window are now filled with the standard information of the selected vendor. If the vendor is not registered, then follow these steps:
+    Other fields in the **Purchase Invoice** page are now filled with the standard information of the selected vendor. If the vendor is not registered, then follow these steps:
 3. In the **Vendor** field, enter the name of the new vendor.
 4. In the dialog box about registering the new vendor, choose the **Yes** button.
-5. In the **Select a template for a new vendor** window, choose a template to base the new vendor card on, and then choose the **OK** button.
+5. In the **Select a template for a new vendor** page, choose a template to base the new vendor card on, and then choose the **OK** button.
 6. A new vendor card opens, prefilled with the information on the selected vendor template. The **Name** field is prefilled with the new vendor’s name that you entered on the purchase invoice.
 7. Proceed to fill in the remaining fields on the vendor card. For more information, see [Register New Vendors](purchasing-how-register-new-vendors.md).  
-8. When you have completed the vendor card, choose the **OK** button to return to the **Purchase Invoice** window.
+8. When you have completed the vendor card, choose the **OK** button to return to the **Purchase Invoice** page.
 
-    Several fields in the **Purchase Invoice** window are filled with information that you specified on the new vendor card.
-9. Fill in the remaining fields in the **Purchase Invoice** window as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+    Several fields in the **Purchase Invoice** page are filled with information that you specified on the new vendor card.
+9. Fill in the remaining fields in the **Purchase Invoice** page as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     You are now ready to fill in the purchase invoice lines with inventory items or services that you have purchased from the vendor.
 

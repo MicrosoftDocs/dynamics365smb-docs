@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 03/05/2018
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -23,7 +23,7 @@ As you continue with your work, you can assign each table the status that reflec
 By default, when you add a table to the configuration worksheet, its status is set to blank. This means that configuration of the table has not begun. This is reflected in the **Not Started** count in the **Activities** tile.  
 
 ## To update the status of a configuration table  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Worksheet**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.  
 2.  Choose the **Edit List** action.  
 3.  Select a table, and in the **Status** field, choose the appropriate status.  
 4.  Choose the **OK** button.  

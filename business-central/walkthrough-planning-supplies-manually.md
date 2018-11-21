@@ -11,12 +11,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 09/07/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
 # Walkthrough: Planning Supplies Manually
-This walkthrough demonstrates the process of planning supply orders to fulfill new demand. You can initiate supply planning at fixed intervals, for example, every morning or every Monday, or when you are notified by sales or production, depending on the type of demand. In this walkthrough you will use the **Order Planning** window, a simple supply planning tool that is based on manual decision-making instead of parameter-based automatic planning.  
+This walkthrough demonstrates the process of planning supply orders to fulfill new demand. You can initiate supply planning at fixed intervals, for example, every morning or every Monday, or when you are notified by sales or production, depending on the type of demand. In this walkthrough you will use the **Order Planning** page, a simple supply planning tool that is based on manual decision-making instead of parameter-based automatic planning.  
 
 ## About This Walkthrough  
  This walkthrough illustrates the following tasks:  
@@ -44,7 +44,7 @@ This walkthrough demonstrates the process of planning supply orders to fulfill n
 ## Story  
  Eduardo, the Production Planner of a small manufacturing company, is about to plan production and purchase orders to fulfill new sales demand.  
 
- Because the products have few BOM levels and the flow of orders is relatively low, Eduardo uses the **Order Planning** window to manually create supply orders, one product level at a time.  
+ Because the products have few BOM levels and the flow of orders is relatively low, Eduardo uses the **Order Planning** page to manually create supply orders, one product level at a time.  
 
  In a more complex manufacturing environment, the planning worksheet is used to plan supply based on item parameters such as rescheduling period, safety lead time, reorder point, and batch calculations of consolidated demand from all product levels.  
 
@@ -54,20 +54,20 @@ This walkthrough demonstrates the process of planning supply orders to fulfill n
 ## Using the Order Planning Window  
 
 <!-- 
-The **Order Planning** window can be accessed from several different locations on the **Departments** menu in the navigation pane:  
+The **Order Planning** page can be accessed from several different locations on the **Departments** menu in the navigation pane:  
 
 -   Manufacturing, Planning  
 -   Sales & Marketing, Order Processing  
 -   Purchase, Planning  
--   In addition, you can open this window for a specific production order by choosing **Planning** on the **Navigate** tab in the **Order** group.
+-   In addition, you can open this page for a specific production order by choosing **Planning** on the **Navigate** tab in the **Order** group.
 
 -->  
 
-### To use the Order Planning window  
+### To use the Order Planning page  
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Order Planning**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Order Planning**, and then choose the related link.  
 
-     When the **Order Planning** window first opens, a plan must be calculated to show the new demand since it was last calculated.  
+     When the **Order Planning** page first opens, a plan must be calculated to show the new demand since it was last calculated.  
 
 2.  Choose the **Calculate Plan** action.  
 
@@ -75,9 +75,9 @@ The **Order Planning** window can be accessed from several different locations o
 
      Based on total availability, the quantity needed for each demand line is calculated. This calculation is performed order-by-order. This means that the order which includes the demand line with the earliest due date or shipment date will be calculated first. After that, additional demand lines will be calculated in the same order, regardless of the due date or shipment date.  
 
-3.  Be sure that the **Order Planning** window is maximized and that column fields are resized to show all the default field names.  
+3.  Be sure that the **Order Planning** page is maximized and that column fields are resized to show all the default field names.  
 
-     When the calculation is completed, the window displays all unfulfilled demand as collapsed order header lines sorted by earliest demand date.  
+     When the calculation is completed, the page displays all unfulfilled demand as collapsed order header lines sorted by earliest demand date.  
 
      Notice that CRONUS has several orders with unfulfilled demand. Each bold planning line represents an order, sales order, or production order, including at least one order line with insufficient availability.  
 
@@ -94,7 +94,7 @@ The **Order Planning** window can be accessed from several different locations o
 
 1.  Expand the first line (choose the + symbol).  
 2.  Choose the first demand line, with item **LSU-15**, and then choose the **Show Document** action.  
-3.  Close the opened production order to return to the **Order Planning** window.  
+3.  Close the opened production order to return to the **Order Planning** page.  
 4.  In the **Replenishment System** field, select **Purchase**.  
 
      The default value is from the item card, or SKU card, but you can change it to one of the following options:  
@@ -114,13 +114,13 @@ The **Order Planning** window can be accessed from several different locations o
     >  If the components have a default vendor number set up on the item cards, the lines will be preset.  
 
 6.  Choose the **Supply From**  field.  
-7.  In the **Item Vendor Catalogue** window, choose the **New** action, and then select vendor **30000**.  
-8.  Choose the **OK** button to return to the **Order Planning** window.  
+7.  In the **Item Vendor Catalogue** page, choose the **New** action, and then select vendor **30000**.  
+8.  Choose the **OK** button to return to the **Order Planning** page.  
 9. Copy vendor **30000** to the other lines for loudspeaker components on this production order.  
 
      You are now ready to create a purchase order.  
 
-10. Choose the **Make Orders** action. The **Make Supply Orders** window opens.  
+10. Choose the **Make Orders** action. The **Make Supply Orders** page opens.  
 11. On the **Order Planning** FastTab, in the **Make Orders for** field, choose the **Active Order** option.  
 12. On the **Options** FastTab, in the **Create Purchase Order** field, choose the **Make Purch. Order** option.  
 13. Choose the **OK** button to create purchase orders for all the components of the order.  
@@ -140,15 +140,15 @@ The **Order Planning** window can be accessed from several different locations o
      The item’s defined replenishment system and default vendor will display.  
 
     > [!NOTE]  
-    >  At the bottom of the window, there are four information fields. In the **Earliest Date Available** field, the ten pieces that are needed will be available, on an inbound supply order, nine days later than the current due date. If this is too late for the customer, the **Available for Transfer** field shows 13 pieces of the item at another location. You will want to plan for this stock.  
+    >  At the bottom of the page, there are four information fields. In the **Earliest Date Available** field, the ten pieces that are needed will be available, on an inbound supply order, nine days later than the current due date. If this is too late for the customer, the **Available for Transfer** field shows 13 pieces of the item at another location. You will want to plan for this stock.  
 
-3.  Choose the **Available for Transfer** field to open the **Get Alternative Supply** window.  
+3.  Choose the **Available for Transfer** field to open the **Get Alternative Supply** page.  
 4.  Choose the **OK** button to book the ten items that are available.  
 
     > [!NOTE]  
     >  In the demand line, the suggested purchase has been exchanged with a transfer from GREEN location. The **Make Orders** function creates a transfer order from GREEN to the demanded location. The **Substitutes Exists** field works in the same way.  
 
-5.  Choose the **Make Orders** action. The **Make Supply Orders** window opens.  
+5.  Choose the **Make Orders** action. The **Make Supply Orders** page opens.  
 6.  On the **Order Planning** FastTab, in the **Make Orders for** field, choose the **The Active Order** option.  
 7.  On the **Options** FastTab, in the **Create Transfer Order** field, select the **Make Trans. Orders** option.  
 8.  Choose the **OK** button to create the transfer order to supply the sales order.  
@@ -164,26 +164,26 @@ The **Order Planning** window can be accessed from several different locations o
 
      This demand is a sales line, but the item has a defined replenishment system of **Prod. Order**. Proceed to add an extra bell to the component need of each bicycle.  
 
-2.  Choose the **Components** action to open the **Planning Components** window.  
+2.  Choose the **Components** action to open the **Planning Components** page.  
 3.  On the line with the Bell item, change the **Quantity per** field from **1** to **2**.  
-4.  In the **Order Planning** window, consider your planning alternatives. In this case, you have no alternative means of supply, no transfer, substitute, or later delivery. You must create the suggested supply order, a production order.  
+4.  In the **Order Planning** page, consider your planning alternatives. In this case, you have no alternative means of supply, no transfer, substitute, or later delivery. You must create the suggested supply order, a production order.  
 5.  Choose the **Make Orders** action to create the production order.  
 
-     In the **Order Planning** window, notice that the planning line for sales order **1001** no longer exists and that the initial sales demand has been covered.  
+     In the **Order Planning** page, notice that the planning line for sales order **1001** no longer exists and that the initial sales demand has been covered.  
 
-6.  Close the **Order Planning** window.  
+6.  Close the **Order Planning** page.  
 
-     Now, you could choose to stay in this view and complete all the planning tasks. Instead, you will now take on the Production Planner role by going to the production order that you just created and access the **Order Planning** window.  
+     Now, you could choose to stay in this view and complete all the planning tasks. Instead, you will now take on the Production Planner role by going to the production order that you just created and access the **Order Planning** page.  
 
  As a production planner you now must plan a specific production order.  
 
 ### To plan a specific production order  
 
 1.  Open the production order **101001**, for ten bicycles, that you just created by using the **Make Orders** function.  
-2.  Open the **Prod. Order Components** window to check that the extra bell is reflected on the production order.  
+2.  Open the **Prod. Order Components** page to check that the extra bell is reflected on the production order.  
 3.  Choose the **Planning** action.  
 
-     The **Order Planning** window opens in a view that is always filtered on the specific production demand. Sales demand is not displayed. You must calculate a plan before you can see any additional demand.  
+     The **Order Planning** page opens in a view that is always filtered on the specific production demand. Sales demand is not displayed. You must calculate a plan before you can see any additional demand.  
 
 4.  Choose the **Calculate Plan** action.  
 
@@ -203,11 +203,11 @@ The **Order Planning** window can be accessed from several different locations o
 
      Before you choose the **OK** button, notice the text on the **Order Planning** FastTab. This text is important because you know that the bicycle has several produced components, subassemblies, in its product structure that might be in demand when you create this production order.  
 
-7.  In the **Make Supply Order** window, in the **Make Orders for** field, choose the **All Lines** option, and then choose the **OK** button to create production orders for the second product level of the order.  
+7.  In the **Make Supply Order** page, in the **Make Orders for** field, choose the **All Lines** option, and then choose the **OK** button to create production orders for the second product level of the order.  
 
      Note that the top-level production demand for production order 101001 no longer exists. This means that the initial production demand for subassemblies has been planned for.  
 
-     In the **Order Planning** window, you calculate a plan again in order to plan the bicycle structure.  
+     In the **Order Planning** page, you calculate a plan again in order to plan the bicycle structure.  
 
 8.  Choose the **Calculate Plan** action to recalculate the plan as instructed by the embedded Help text.  
 
@@ -223,9 +223,9 @@ The **Order Planning** window can be accessed from several different locations o
 
      The message indicates that all required items are now supplied. Verify the firm planned production orders that are created.  
 
-13. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Firm Planned Prod. Orders**, and then choose the related link.  
+13. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Orders**, and then choose the related link.  
 
-     In the **Firm Planned Prod. Orders** window review how start times and end times of individual orders are scheduled according to the product structure. The lowest-level components are produced first. Therefore, you must plan multilevel orders as demonstrated in this planning workflow.  
+     In the **Firm Planned Prod. Orders** page review how start times and end times of individual orders are scheduled according to the product structure. The lowest-level components are produced first. Therefore, you must plan multilevel orders as demonstrated in this planning workflow.  
 
 ## See Also  
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)   

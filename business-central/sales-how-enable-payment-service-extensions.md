@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online payment
-ms.date: 07/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 
 ---
@@ -21,15 +21,15 @@ After you enable a payment service in [!INCLUDE[d365fin](includes/d365fin_md.md)
 The Microsoft Pay, PayPal Payments Standard, and WorldPay Payments Standard extensions are installed in [!INCLUDE[d365fin](includes/d365fin_md.md)], and are ready for you to enable.  
 
 ## To enable a payment service in [!INCLUDE[d365fin](includes/d365fin_md.md)]
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Services**, and then choose the related link.  
-2. In the **Payment Services** window, choose the **New** action.  
-3. Select the payment service, and then close the window.  
-4. In the **Payment Services** window, choose the **Setup** action.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Services**, and then choose the related link.  
+2. In the **Payment Services** page, choose the **New** action.  
+3. Select the payment service, and then close the page.  
+4. In the **Payment Services** page, choose the **Setup** action.  
 5. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-6. Close the window.  
+6. Close the page.  
 
 ## To select a payment service on a sales invoice
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Invoices**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
 2. Open the sales invoice that you want to pay by using the payment service.  
 3. In the **Payment Service** field, choose the payment service.  
 

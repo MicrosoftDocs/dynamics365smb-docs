@@ -1,6 +1,6 @@
 ---
 title: Business profile | Invoicing
-description: Define information about your business that is included in your invoices.
+description: Define information about your business that is included in your invoices, such as your logo and company address.
 author: edupont04
 
 ms.service: dynamics365-business-central
@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 08/08/2018
+ms.date: 10/01/2018
 ms.author: edupont
 
 ---
@@ -28,8 +28,7 @@ The following table describes the settings that you can specify.
 |--------------|---------|
 |**Email account**|Specify the email account that is used to send emails to your customers. This can be your business email or any other other email that you use to represent your business.|
 |**Invoice and estimate numbers**|Verify that the numbers have the format that you want. To change the format, choose the button next to the number that you want to change.|
-|**Payments**|The payment terms describe how quickly you want to get paid. Choose the button next to the field to change the value. You can add new terms to the list.|
-|**Payment instructions**|Define the different ways your customers can pay you. For each invoice, you can choose the payment method that works best for that document.|
+|**Payments**|The payment terms describe how quickly you want to get paid. Choose the button next to the field to change the value. You can add new terms to the list. </br> </br> The **Payment instructions** field defines the ways that your customers can pay you. For each invoice, you can choose the payment method that works best for that document.|
 |**Tax rates**|Tax rates are needed so that your invoices can include tax. Add a default tax rate and, optionally, more. Check with your accountant if you're not sure.|
 |**Payment services**|If you prefer online payments, you can connect [!INCLUDE[d365inv](includes/d365inv.md)] to Microsoft Pay. However, in the current version of [!INCLUDE[d365inv](includes/d365inv.md)], Microsoft Pay is not supported. The next update will add Microsoft Pay.|
 |**Share**|Send the list of existing invoices to yourself or another email.|

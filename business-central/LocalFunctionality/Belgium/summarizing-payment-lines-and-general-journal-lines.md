@@ -1,23 +1,17 @@
 ---
-    title: Summarizing Payment Lines and General Journal Lines
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] handles several types of transactions in the same way.
+title: Summarizing Payment Lines and General Journal Lines
+description: Business Central summarizes payment lines and journal lines.
+author: SorenGP
 
-    services: project-madeira 
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-business-central
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 10/01/2018
+ms.author: sgroespe
 
 ---
 # Summarizing Payment Lines and General Journal Lines
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] handles the following types of transactions in the same way:  
+Business Central summarizes payment lines and journal line across the following types of payments:  
 
 - Domestic payments  
 - International payments  
@@ -27,12 +21,12 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] handles the following types
 ## How Payment Journal Lines are Transferred to the General Journal  
 When you export the payment journal lines to a file, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] transfers the payment journal lines to the specified general journal. By default, a general journal line is created for each payment journal line.  
 
-The following two fields in the **Electronic Banking Setup** window affect how the payment lines are summarized:  
+The following two fields in the **Electronic Banking Setup** page affect how the payment lines are summarized:  
 
 - **Summarize Gen. Jnl. Lines**  
 - **Cut off Payment Message Texts**  
 
-If you have selected the **Summarize Gen. Jnl. Lines** check box in the **Electronic Banking Setup** window, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] summarizes all payment journal lines for a specific vendor into one general journal line. The general description "Payment %1," where %1 is the vendor number, is used for the summarized journal line description. A separate payment line and a separate general journal line are created to handle:  
+If you have selected the **Summarize Gen. Jnl. Lines** check box in the **Electronic Banking Setup** page, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] summarizes all payment journal lines for a specific vendor into one general journal line. The general description "Payment %1," where %1 is the vendor number, is used for the summarized journal line description. A separate payment line and a separate general journal line are created to handle:  
 
 - Payment journal lines that contain partial payments, with both the **Partial Payment** and the **Separate Line** fields selected.  
 
@@ -65,4 +59,4 @@ The EndToEndId in the SEPA message is taken from the payment message and can be 
 ## See Also  
  [Set Up Electronic Banking](how-to-set-up-electronic-banking.md)   
  [Setting Up Finance](../../finance-setup-finance.md)  
- [Record Purchases](../../purchasing-how-record-purchases.md) 
+ [Record Purchases](../../purchasing-how-record-purchases.md)

@@ -11,16 +11,17 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 11/13/2018
     ms.author: sgroespe
+    redirect_url: finance-define-and-allocate-costs
 
 ---
 # Set Up Allocation Source and Targets
 Each allocation consists of an allocation source and one or more allocation targets. The allocation source defines which costs will be allocated. The allocation targets determine where the costs will be allocated.  
 
 ## To set up cost allocations  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cost Allocation**, and then chose the related link.  
-2.  In the **Cost Allocation** window, choose the **Edit** action.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cost Allocation**, and then chose the related link.  
+2.  In the **Cost Allocation** page, choose the **Edit** action.  
 3.  Enter an ID for the allocation source in the **ID** field.  
 4.  Define a level as a number between 1 and 99 in the **Level** field. The allocation posting will follow the order of the levels.  
 5.  Enter a cost type to define which cost types will be allocated in the **Cost Type Range** field. If all costs for a cost type are allocated, no range is defined.  

@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -24,15 +24,15 @@ If these rates do not match the currency rates used in the purchase or sales inv
 You can run this batch job as often as you like, however make sure that you always run it before creating a VAT statement.  
 
 > [!NOTE]  
->  When using a report currency, make sure that the **VAT Exchange Rate Adjustment** field in the **General Ledger Setup** window is set to **No Adjustment**.  
+>  When using a report currency, make sure that the **VAT Exchange Rate Adjustment** field in the **General Ledger Setup** page is set to **No Adjustment**.  
 
-For more information about VAT and foreign currencies, see the [ESTV](http://go.microsoft.com/fwlink/?LinkId=285999) website.  
+For more information about VAT and foreign currencies, see the [ESTV](https://go.microsoft.com/fwlink/?LinkId=285999) website.  
 
 ## To adjust an exchange rate  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Currencies**, and then choose the related link.  
 2.  Choose the **Exch. Rates** action.  
-3.  In the **Currency Exchange Rates** window, enter the official VAT rate per period for each currency in the **VAT Exch. Rate Amount** and the **Relational VAT Exch. Rate Amt** fields.  
+3.  In the **Currency Exchange Rates** page, enter the official VAT rate per period for each currency in the **VAT Exch. Rate Amount** and the **Relational VAT Exch. Rate Amt** fields.  
 4.  Choose the **OK** button.  
 5.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Adjust Exchange Rates**, and then choose the related link.  
 6.  On the **Options** FastTab, fill in the fields as described in the following table.   

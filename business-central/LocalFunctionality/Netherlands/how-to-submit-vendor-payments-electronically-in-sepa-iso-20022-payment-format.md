@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -42,7 +42,7 @@ Before you can create and submit SEPA vendor payments, you must enable SEPA paym
 
 8.  Choose the **OK** button.  
 
-The proposal lines populate in the **Telebank Proposal** window.  
+The proposal lines populate in the **Telebank Proposal** page.  
 
 ## See Also  
  [Activate SEPA Payments](how-to-activate-sepa-payments.md)   

@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -19,7 +19,7 @@
 Proposals can be generated manually or automatically based on either vendor or customer ledger entries.  
 
 > [!IMPORTANT]  
->  To create a proposal, you must use the **Owner Information** field in the Vendor Bank Account Card and Customer Bank Account Card windows.  
+>  To create a proposal, you must use the **Owner Information** field in the Vendor Bank Account Card and Customer Bank Account Card pages.  
 
 > [!NOTE]  
 >  At any time and at any level, before processing a proposal, the transaction mode and bank account can be modified. At the lowest level on the relevant vendor or customer ledger entries.  
@@ -30,7 +30,7 @@ Proposals can be generated manually or automatically based on either vendor or c
 2.  Select the relevant bank account and then choose the **Proposal** action.  
 3.  At a minimum, you must fill in the **Account Type**, **Account No.**, **Transaction Mode**, **Bank Account No.**, and **Amount** fields.  
 
-4.  If you want to view or adjust the proposal's detail lines, choose the **Detail Information** action. To return to the proposal, close the **Proposal Detail Line** window.  
+4.  If you want to view or adjust the proposal's detail lines, choose the **Detail Information** action. To return to the proposal, close the **Proposal Detail Line** page.  
 
 ## To create proposals automatically from sales  
 
@@ -47,7 +47,7 @@ Proposals can be generated manually or automatically based on either vendor or c
     > [!NOTE]  
     >  Only proposal lines will be created for ledger entries that have a transaction mode of account type **Customer** and a link to the active bank account.  
 
-6.  If you want to view or adjust the proposal's detail lines, choose the **Detail Information** action. To return to the proposal, close the **Proposal Detail Line** window.  
+6.  If you want to view or adjust the proposal's detail lines, choose the **Detail Information** action. To return to the proposal, close the **Proposal Detail Line** page.  
 
 ## To create proposals automatically from purchases  
 
@@ -64,7 +64,7 @@ Proposals can be generated manually or automatically based on either vendor or c
     > [!NOTE]  
     >  Only proposal lines will be created for ledger entries that have a transaction mode of account type **Vendor** and a link to the active bank account.  
 
-6.  If you want to view or adjust the proposal's detail lines, choose the **Detail Information** action. To return to the proposal, close the **Proposal Detail Line** window.  
+6.  If you want to view or adjust the proposal's detail lines, choose the **Detail Information** action. To return to the proposal, close the **Proposal Detail Line** page.  
 
 ## See Also  
  [Register New Customers](../../sales-how-register-new-customers.md)   

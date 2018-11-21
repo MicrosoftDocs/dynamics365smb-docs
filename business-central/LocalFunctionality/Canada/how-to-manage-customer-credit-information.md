@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/11/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
     redirect_url: ../../receivables-how-block-customers
 
@@ -19,8 +19,8 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can add comments to cu
 
 ## To add comments to customer credit information  
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Credit Management**, and then choose the related link.  
-2.  In the **Customer List - Credit Mgmt.** window, select a customer, and then choose the **Comments** action.  
-3.  In the **Comment Sheet** window, fill in the fields as described in the following table.  
+2.  In the **Customer List - Credit Mgmt.** page, select a customer, and then choose the **Comments** action.  
+3.  In the **Comment Sheet** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

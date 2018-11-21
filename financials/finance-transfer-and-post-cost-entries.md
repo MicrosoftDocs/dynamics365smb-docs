@@ -11,8 +11,9 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 01/13/2017
     ms.author: sgroespe
+    redirect_url: finance-set-up-cost-accounting
 
 ---
 # Transferring and Posting Cost Entries
@@ -22,12 +23,6 @@ Before you define cost allocations, you must understand how cost entries come fr
 -   Manual cost posting for pure cost entries, internal charges, and manual allocations.  
 -   Automatic allocation postings for actual costs.  
 -   Transfer of budget entries to actual.  
-
-|**To**|**See**|  
-|------------|-------------|  
-|Understand criteria for transferring cost entries from general ledger.|[Criteria for Transferring General Ledger Entries to Cost Entries](finance-criteria-for-transferring-general-ledger-entries-to-cost-entries.md)|  
-|Transfer general ledger entries to cost entries with a batch job.|[Transfer General Ledger Entries to Cost Entries](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)|  
-|See the results of the transfer.|[Results of the Transfer](finance-results-of-the-transfer.md)|  
 
 ## See Also  
  [About Cost Accounting](finance-about-cost-accounting.md)   

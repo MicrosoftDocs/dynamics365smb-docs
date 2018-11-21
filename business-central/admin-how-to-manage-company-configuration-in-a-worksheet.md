@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 03/06/2018
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -26,10 +26,10 @@ The following procedures demonstrate how to add and customize table information 
 
 ## To open the configuration worksheet  
 1.  In [!INCLUDE[d365fin](includes/d365fin_md.md)], open the company that is the baseline for configuration, and then open its RapidStart Services Implementer Role Center.  
-2.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Configuration Worksheet**, and then choose the related link.  
+2.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.  
 
 ## To add a table to the worksheet  
-1.  In the **Config. Worksheet** window, choose the **Edit List** action.  
+1.  In the **Config. Worksheet** page, choose the **Edit List** action.  
 2.  On the first line, in the **Line Type** field, select **Table**.  
 4.  In the **Table ID** field, select the table that you want to add to your configuration.  
 5.  In the **Page ID** field, enter the ID of the page that is associated with the table. For standard tables, this value is automatically filled in. For custom tables, you must provide the ID.
@@ -49,7 +49,7 @@ The following procedures demonstrate how to add and customize table information 
 10. To remove duplicate table information that can result from using the **Get Related Tables** action, choose the **Delete Duplicate Lines** action. This will remove duplicate tables that have the same package code.  
 
 ## To add multiple tables to the configuration worksheet  
-1. Choose the **Get Tables** action. The **Get Config. Tables** batch job window opens.  
+1. Choose the **Get Tables** action. The **Get Config. Tables** batch job page opens.  
 2. On the **Options** FastTab, specify the types of tables that you want to add to the configuration, as described in the following table.
 
     |Option|Description|  
@@ -69,7 +69,7 @@ The following procedures demonstrate how to add and customize table information 
     > - The relation is conditional.  
     > Example: If you get related tables for the **Customer** table, then the **Location** table will not be added, since it is only conditionally related to the **Customer** table, namely if the **Location Code** field in the **Customer** table is filled in.  
     > - The related table is filtered.  
-    > Example: A field in the related table has a WHERE clause. The reason for this is that the involved relations information is stored in the **Field** virtual table and is not available in windows such as the configuration worksheet for performance reasons.  
+    > Example: A field in the related table has a WHERE clause. The reason for this is that the involved relations information is stored in the **Field** virtual table and is not available in pages such as the configuration worksheet for performance reasons.  
     > You must add related tables with such complex relationships manually by following step 4 in the "To add a table to the worksheet" section.
 
 7. To delete tables in the resulting list of tables, select a table to remove, and then choose the **Delete** action.  

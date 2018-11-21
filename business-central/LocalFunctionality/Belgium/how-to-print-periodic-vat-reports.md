@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -26,7 +26,7 @@ The VAT reporting feature enables you to print VAT transaction details. You must
 ## To print the monthly/quarterly declaration  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Form/Intervat Declaration**, and then choose the related link.  
-2.  In the **VAT – Form** window, fill in the fields.  
+2.  In the **VAT – Form** page, fill in the fields.  
 
     |Field|Description|  
     |------------------------------------|---------------------------------------|  
@@ -42,7 +42,7 @@ The VAT reporting feature enables you to print VAT transaction details. You must
 ## To print the VAT annual listing on disk  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Annual Listing – Disk**, and then enter the related link.  
-2.  In the **VAT Annual Listing – Disk** window, fill in the fields as described in the following table.  
+2.  In the **VAT Annual Listing – Disk** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -29,12 +29,12 @@ Domestic customer payments can be imported from the bank and linked to the assoc
 - Post the cash receipt journal and close the open accounts receivable entries with the applied payments from the file.  
 
 ## Reference Number  
-A reference number is automatically created when an invoice is posted or when an order is posted for invoicing. However, you can enter a reference number manually on a sales journal transaction. This reference number is not based on the reference number options in the **Sales & Receivables Setup** window. If you enter a reference number for the sales journal, only the validity of the reference number is checked.  
+A reference number is automatically created when an invoice is posted or when an order is posted for invoicing. However, you can enter a reference number manually on a sales journal transaction. This reference number is not based on the reference number options in the **Sales & Receivables Setup** page. If you enter a reference number for the sales journal, only the validity of the reference number is checked.  
 
 ## Vendor Payments  
 To send electronic bank payments to vendors, you can export domestic or foreign vendor payments into a transfer file that can be sent to the bank. The following steps show how to export vendor payments.  
 
-- Use the **Bank Payments to Send** window to select the vendors for which you want to create payment files.  
+- Use the **Bank Payments to Send** page to select the vendors for which you want to create payment files.  
 - Enter payment information for each transaction in the payment journal or use **Suggest Vendor Payments** to create suggested payments.  
 - Generate and preview the payment report.  
 - Create a transfer file for domestic or foreign vendor payments.  

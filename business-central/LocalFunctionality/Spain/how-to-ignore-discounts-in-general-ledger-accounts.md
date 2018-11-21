@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -22,7 +22,7 @@ Some general ledger accounts do not accept payment discounts or invoice discount
 ## To ignore discounts in general ledger accounts  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Chart of Accounts**, and then choose the related link.  
-2.  Choose the **New** action to open the **G/L Account Card** window.  
+2.  Choose the **New** action to open the **G/L Account Card** page.  
 3.  Expand the **Posting** FastTab.  
 4.  To ignore the discounts, select the **Ignore Discounts** check box.  
 5.  Enter information into the required fields.  

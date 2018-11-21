@@ -999,7 +999,7 @@
 ### [Set Up Use Tax and Purchase Tax](LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md)  
 ### [Set Up Unrealized Sales Tax and Sales Payment Discounts](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
 ### [US Sales Tax](LocalFunctionality/UnitedStates/us-sales-tax.md)
-
+## [Submit Regulatory Alert](LocalFunctionality/submit-regulatory-alerts.md)
 # [Compliance](compliance/compliance-overview.md)
 ## [Application Compliance](compliance/compliance-application-compliance.md)
 ## [Service Compliance](compliance/compliance-service-compliance.md)

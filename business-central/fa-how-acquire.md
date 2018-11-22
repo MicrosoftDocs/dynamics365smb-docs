@@ -34,12 +34,12 @@ The following procedure describes how to create a fixed asset and then acquire i
 
     When all fields required to acquire a fixed asset are filled in, the **You are ready to acquire the fixed asset. Acquire** notification appears at the top of the page.
 5. Choose the **Acquire** action in the notification.
-6. Follow the steps in the **Assisted Fixed Asset Acquisition** page to complete the automatic acquisition of the fixed asset.
+6. Follow the steps on the **Assisted Fixed Asset Acquisition** page to complete the automatic acquisition of the fixed asset.
 
 > [!NOTE]  
 >   You can also post acquisition cost as credits. In that case, remember that the value in the **Acquisition Cost Incl. VAT** field must be with a minus sign to indicate a credit.
 
-When you choose **Finish**, the **Book Value** field in the **Fixed Asset Card** page is filled, indicating that the fixed asset has been acquired at the specified acquisition cost.  
+When you choose **Finish**, the **Book Value** field on the **Fixed Asset Card** page is filled, indicating that the fixed asset has been acquired at the specified acquisition cost.  
 
 ## To set up a component list for a main asset
 You can group your fixed assets into main assets and their components. For example, you may have a production machine that consists of many parts that you want to group in this manner.  
@@ -55,7 +55,7 @@ Both the main asset and all its components must be set up as individual fixed as
 7. Select the **Allow Posting to Main Assets** check box.
 
 ## To post a fixed asset acquisition manually with the fixed asset G/L journal
-The following procedure describes how to acquire a fixed asset manually by creating and posting lines in the **Fixed Asset G/L Journal** page. You can also acquire a fixed asset automatically by using the **Assisted Fixed Asset Acquisition** page. For more information, see step 5 in the "To create a fixed asset and acquire it automatically" section.
+The following procedure describes how to acquire a fixed asset manually by creating and posting lines on the **Fixed Asset G/L Journal** page. You can also acquire a fixed asset automatically by using the **Assisted Fixed Asset Acquisition** page. For more information, see step 5 in the "To create a fixed asset and acquire it automatically" section.
 
 > [!NOTE]  
 >   You can also post acquisition cost as credits. In that case, remember that the value in the **Amount** field must be with a minus sign to indicate a credit.
@@ -92,7 +92,7 @@ You can post the salvage value together with the acquisition cost from a fixed a
 4. Choose the **Post** action.
 
 > [!NOTE]  
->   The **Salvage Value** posting type is an option in the **Fixed Asset Journal** page only. It is not available in the **Fixed Asset G/L Journal** page because salvage value is never posted to the general ledger.
+>   The **Salvage Value** posting type is an option on the **Fixed Asset Journal** page only. It is not available on the **Fixed Asset G/L Journal** page because salvage value is never posted to the general ledger.
 
 ## See Also
 [Fixed Assets](fa-manage.md)  

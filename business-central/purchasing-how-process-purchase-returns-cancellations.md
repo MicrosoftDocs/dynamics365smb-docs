@@ -38,8 +38,8 @@ Two functions exist to assign exact cost reversing automatically.
 
 |Function|Description|  
 |------------------|---------------------------------------|  
-|**Get Posted Document Lines to Reverse** function in the **Purchase Return Order** page|Copies lines of one or more posted documents to be reversed into the purchase return order. For more information, see the "To create a purchase return order, and related purchase credit memo, for on one or more a posted purchase invoices" section.|  
-|**Copy Document** function in the **Purchase Credit Memo** and **Purchase Return Order** pages|Copies both the header and lines of one posted document to be reversed.<br /><br /> Requires that the **Exact Cost Reversing Mandatory** check box is selected in the **Purchases & Payables Setup** page.|
+|**Get Posted Document Lines to Reverse** function on the **Purchase Return Order** page|Copies lines of one or more posted documents to be reversed into the purchase return order. For more information, see the "To create a purchase return order, and related purchase credit memo, for on one or more a posted purchase invoices" section.|  
+|**Copy Document** function in the **Purchase Credit Memo** and **Purchase Return Order** pages|Copies both the header and lines of one posted document to be reversed.<br /><br /> Requires that the **Exact Cost Reversing Mandatory** check box is selected on the **Purchases & Payables Setup** page.|
 
 To assign exact cost reversing manually, you must choose the **Appl.-from Item Entry** field on any type of return document line, and then select the number of the original purchase entry. This links the purchase credit memo or purchase return order to the original purchase sales entry and ensures that the item is valued at the original unit cost.
 
@@ -83,7 +83,7 @@ The purchase credit memo is removed and replaced with a new document in the list
 4. On the **Lines** FastTab, fill the lines manually, or copy information from other documents to fill the lines automatically:
 
     - Use the **Get Posted Document Lines to Reverse** function to copy one or more posted document lines from one or more posted documents. This function always exactly reverses the costs from the posted document line. This function is described in the following steps.    
-    - Use the **Copy Document** function to copy an existing document to the return order. Use this function to copy the entire document. It can be either a posted document or a document that is not yet posted. This function only enables exact cost reversing when the **Exact Cost Reversing Mandatory** check box is selected in the **Sales and Receivables Setup** page.  
+    - Use the **Copy Document** function to copy an existing document to the return order. Use this function to copy the entire document. It can be either a posted document or a document that is not yet posted. This function only enables exact cost reversing when the **Exact Cost Reversing Mandatory** check box is selected on the **Sales and Receivables Setup** page.  
 
 4. Choose the **Get Posted Document Lines to Reverse** action.
 5. At the top of the **Posted Purchase Document Lines** page, select the **Show Reversible Lines Only** check box if you want to see only lines that have quantities that have not yet been returned. For example, if a posted purchase invoice quantity has already been returned, you may not want to include that quantity on a new purchase return document.
@@ -115,7 +115,7 @@ The purchase credit memo is removed and replaced with a new document in the list
 
     -   If the posted document line contains item tracking lines, the **Appl.-to Item Entry** field on the item tracking lines is filled with the appropriate item ledger entry numbers from the posted item tracking lines.  
 
-     When you copy from a posted invoice or posted credit memo, the program copies any relevant invoice discounts and line discounts as valid at the time of posting that document from the posted document line to the new document line. Be aware, however, that if the **Calc. Inv. Discount** option is activated in the **Purchases & Payables Setup** page, then the invoice discount will be newly calculated when you post the new document line. The line amount for the new line may therefore be different than the line amount for the posted document line, depending on the new calculation of the invoice discount.  
+     When you copy from a posted invoice or posted credit memo, the program copies any relevant invoice discounts and line discounts as valid at the time of posting that document from the posted document line to the new document line. Be aware, however, that if the **Calc. Inv. Discount** option is activated on the **Purchases & Payables Setup** page, then the invoice discount will be newly calculated when you post the new document line. The line amount for the new line may therefore be different than the line amount for the posted document line, depending on the new calculation of the invoice discount.  
 
     > [!NOTE]  
     >  If part of the quantity of the posted document line has already been reversed or sold or consumed, a line is created for only the quantity that remains in inventory or that has not been returned. If the full quantity of the posted document line has already been reversed, a new document line is not created.  

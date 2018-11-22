@@ -120,7 +120,7 @@ VAT statements let you calculate your VAT settlement amount for a certain period
 To define a VAT statement, follow these steps:
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statements**, and then choose the related link.  
-2. Choose the **Name** field, and then choose **New** in the **VAT Statement Names** page.
+2. Choose the **Name** field, and then choose **New** on the **VAT Statement Names** page.
 3. Fill in the required fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!Tip]
@@ -173,7 +173,7 @@ To set up codes for import VAT, follow these steps:
 ## To verify VAT registration numbers
 It is important that the VAT registration numbers you have for customers, vendors, and contacts are valid. For example, companies sometimes change their tax liability status, and in some countries tax authorities might ask you to provide reports, such as the EC Sales List report, that list the VAT registration numbers you use when you do business.
 
-The European Commission provides the VIES VAT Number Validation service on its website, which is public and free. [!INCLUDE[d365fin](includes/d365fin_md.md)] can save you a step and let you use the VIES service to validate and track VAT numbers for customers, vendors, and contacts straight from the customer, vendor, and contact cards. The service in [!INCLUDE[d365fin](includes/d365fin_md.md)] is named **EU VAT Reg. No. Validation Service**. The service is available in the **Service Connections** page, and you can start using it right away. The service connection is free, and signup is not required.
+The European Commission provides the VIES VAT Number Validation service on its website, which is public and free. [!INCLUDE[d365fin](includes/d365fin_md.md)] can save you a step and let you use the VIES service to validate and track VAT numbers for customers, vendors, and contacts straight from the customer, vendor, and contact cards. The service in [!INCLUDE[d365fin](includes/d365fin_md.md)] is named **EU VAT Reg. No. Validation Service**. The service is available on the **Service Connections** page, and you can start using it right away. The service connection is free, and signup is not required.
 
 > [!Note]
 > To enable the EU VAT Reg. No. Validation Service, you must have administrator permissions.

@@ -16,9 +16,9 @@
 
 ---
 # Reserve Items
-You can reserve items for sales orders, purchase orders, service orders, assembly orders, and production orders. You can reserve items on inventory or inbound on open document or journal lines. You perform the work in the **Reservation** page.
+You can reserve items for sales orders, purchase orders, service orders, assembly orders, and production orders. You can reserve items on inventory or inbound on open document or journal lines. You perform the work on the **Reservation** page.
 
-Each line in the **Reservation** page, which you open to reserve items, displays information about one type of line (sales, purchase, journal) or inventory entry. The lines describe how many items are available to be reserved from each type of line or entry.
+Each line on the **Reservation** page, which you open to reserve items, displays information about one type of line (sales, purchase, journal) or inventory entry. The lines describe how many items are available to be reserved from each type of line or entry.
 
 ## To reserve items for sales
 The following describes how to reserve items from a sales order. The steps are similar for purchase, service, and assembly orders.  
@@ -29,7 +29,7 @@ The following describes how to reserve items from a sales order. The steps are s
 
     |**Function**|**Description**|
     |------------------|---------------------|  
-    |**Auto Reserve**|To automatically reserve items in the **Reservation** page.|  
+    |**Auto Reserve**|To automatically reserve items on the **Reservation** page.|  
     |**Reserve from Current Line**|To reserve the items from the document on the line you have selected.|  
     |**Cancel Reservation from Current Line**|To cancel reservation of the items from the document on the line you have selected.|
 

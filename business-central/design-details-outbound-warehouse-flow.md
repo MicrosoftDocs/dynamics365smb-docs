@@ -105,7 +105,7 @@ In addition, the following internal source documents exist that function like ou
  The warehouse worker who perform picks create a warehouse pick document, in a pull fashion, based on the released source document. Alternatively, the warehouse pick document is created and assigned to the warehouse worker in a push fashion.  
 
 ### 9: Register Warehouse Pick  
- On each line for items that have been picked, partially or fully, the warehouse worker fills in the **Quantity** field in the **Warehouse Pick** page and then registers the warehouse pick.  
+ On each line for items that have been picked, partially or fully, the warehouse worker fills in the **Quantity** field on the **Warehouse Pick** page and then registers the warehouse pick.  
 
  Warehouse entries are created, and the warehouse pick lines are deleted, if fully handled. The warehouse pick document remains open until the full quantity of the related warehouse shipment is registered. The **Qty. Picked** field on the warehouse shipment lines is updated accordingly.  
 

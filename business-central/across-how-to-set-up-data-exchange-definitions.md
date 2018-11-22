@@ -18,7 +18,7 @@ You can set up [!INCLUDE[d365fin](includes/d365fin_md.md)] to exchange data in s
 
 As preparation for creating a data exchange definition for a data file or stream, you can use the related XML schema to define which data elements to include on the **Column Definitions** FastTab. See step 6 in the “To describe the formatting of lines and columns in the file” section. For more information, see the [Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
-You normally set up data exchange definitions in the **Data Exchange Definition** page. However, when you set up a data exchange definition for the service of refreshing currency exchange rates, you start the process in the simplified **Exch. Rate Update Setup Card** page.  
+You normally set up data exchange definitions on the **Data Exchange Definition** page. However, when you set up a data exchange definition for the service of refreshing currency exchange rates, you start the process in the simplified **Exch. Rate Update Setup Card** page.  
 
 > [!NOTE]  
 >  If the file that is being converted is in XML format, the term *“column”* in this topic should be interpreted as *“XML element containing data”*.  
@@ -101,7 +101,7 @@ Creating a data exchange definition involves two tasks:
  The next step in creating a data exchange definition is to decide which columns or XML elements in the data file map to which fields in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!NOTE]  
->  The specific mapping depends on the business purpose of the data file to be exchanged and on local variations. Even the SEPA bank standard has local variations. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports import of SEPA CAMT bank statement files out\-of\-the\-box. This is represented by the **SEPA CAMT** data exchange definition record code in the **Data Exchange Definitions** page. For information about the specific field mapping of this SEPA CAMT support, see [Field Mapping When Importing SEPA CAMT Files](across-field-mapping-when-importing-sepa-camt-files.md).  
+>  The specific mapping depends on the business purpose of the data file to be exchanged and on local variations. Even the SEPA bank standard has local variations. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports import of SEPA CAMT bank statement files out\-of\-the\-box. This is represented by the **SEPA CAMT** data exchange definition record code on the **Data Exchange Definitions** page. For information about the specific field mapping of this SEPA CAMT support, see [Field Mapping When Importing SEPA CAMT Files](across-field-mapping-when-importing-sepa-camt-files.md).  
 
 #### To map columns in the data file to fields in [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 1. On the **Line Definitions** FastTab, select the line for which you want to map columns to fields, and then choose **Field Mapping**. The **Data Exchange Mapping** page opens.  
@@ -120,7 +120,7 @@ Creating a data exchange definition involves two tasks:
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Column No.**|Specify which column in the data file that you want to define a map for.<br /><br /> You can only select columns that are represented by lines on the **Column Definitions** FastTab in the **Data Exchange Definition** page.|  
+    |**Column No.**|Specify which column in the data file that you want to define a map for.<br /><br /> You can only select columns that are represented by lines on the **Column Definitions** FastTab on the **Data Exchange Definition** page.|  
     |**Field ID**|Specify which field the column in the **Column No.** field maps to.<br /><br /> You can only select from fields that exist in the table that you specified in the **Table** field on the **General** FastTab.|  
     |**Optional**|Specify that the map will be skipped if the field is empty. **Note:**  If you do not select this check box, an export error will occur if the field is empty. **Note:**  This field is only relevant for export.|  
     |**Target Table ID**|Only visible when the **Use as Intermediate Table** check box is selected.<br /><br /> Specify the table that the value in the **Column Caption** field is mapped to, when you are using an intermediate table for data import.|  

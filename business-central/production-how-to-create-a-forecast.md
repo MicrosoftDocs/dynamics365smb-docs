@@ -30,7 +30,7 @@ The forecasting functionality in the program can be used to create sales or prod
 
 In most cases, then, the production planner modifies the sales forecast to fit the conditions of production, yet still satisfies the sales forecast.  
 
-You create forecasts manually in the **Demand Forecast** page. Multiple forecasts can exist in the system, and are differentiated by name and type. Forecasts can be copied and edited as necessary. Note that only one forecast is valid for planning purposes at a time.  
+You create forecasts manually on the **Demand Forecast** page. Multiple forecasts can exist in the system, and are differentiated by name and type. Forecasts can be copied and edited as necessary. Note that only one forecast is valid for planning purposes at a time.  
 
 The forecast consists of a number of records each stating item number, forecast date, and forecasted quantity. The forecast of an item covers a period, which is defined by the forecast date and the forecast date of the next (later) forecast record. From a planning point of view, the forecasted quantity should be available at the start of the demand period.  
 

@@ -1,6 +1,6 @@
 ---
     title: How to View Archived Workflow Step Instances | Microsoft Docs
-    description: All completed workflow step instances are saved in the **Archived Workflow Step Instances** page.
+    description: All completed workflow step instances are saved on the **Archived Workflow Step Instances** page.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # View Archived Workflow Step Instances
-All completed workflow step instances are saved in the **Archived Workflow Step Instances** page.  
+All completed workflow step instances are saved on the **Archived Workflow Step Instances** page.  
 
  In the **Workflow** page, you create a workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code. For more information, see [Create Workflows](across-how-to-create-workflows.md).  
 

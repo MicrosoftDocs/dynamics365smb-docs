@@ -26,7 +26,7 @@ In a fixed asset depreciation book, you specify how fixed assets are depreciated
 3. In the **Depreciation Book Card** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >   You can record fixed asset transactions in the **Fixed Asset G/L Journal** page or in the **Fixed Asset Journal** page, depending on whether the transactions are for financial reporting or for internal management. Follow the next step to define which type of journal is used for the different fixed asset activities by default.
+    >   You can record fixed asset transactions on the **Fixed Asset G/L Journal** page or on the **Fixed Asset Journal** page, depending on whether the transactions are for financial reporting or for internal management. Follow the next step to define which type of journal is used for the different fixed asset activities by default.
 4. On the **Integration** FastTab, select the check box for each fixed asset activity whose transactions you want to post using the **Fixed Asset G/L Journal** page.
 5. Repeat steps 2 through 4 for each depreciation method or posting method that you want to assign to fixed assets as a depreciation book.
 
@@ -61,7 +61,7 @@ For each depreciation book, you must set up how you want [!INCLUDE[d365fin](incl
 3. In the **FA Posting Type Setup** page, fill in the fields as necessary.
 
     > [!NOTE]  
-    >   You cannot insert or delete lines in the **FA Posting Type Setup** page. You can only modify the existing lines.
+    >   You cannot insert or delete lines on the **FA Posting Type Setup** page. You can only modify the existing lines.
 
 We recommend that you do not change the setup for depreciation books for entries that have already been posted. Changes will not affect the entries that are already posted, which would make depreciation book statistics misleading.
 

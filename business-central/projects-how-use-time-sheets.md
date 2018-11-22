@@ -34,7 +34,7 @@ You can use the **Create Time Sheets** batch job to set up time sheets for a spe
 
 1. Choose the **OK** button.  
 
-You can view the time sheets that you have created in the **Time Sheet list** page.
+You can view the time sheets that you have created on the **Time Sheet list** page.
 
 ## To copy job planning lines to a time sheet
 The following procedure describes how to quickly add job planning lines to a time sheet.
@@ -73,7 +73,7 @@ Time sheet registration is tracked in hours, the standard base unit of measure f
     > [!TIP]  
     >   You can review the sum of time sheet hours that you have entered in the **Actual/Budgeted Summary** FactBox.  
 4. Repeat step 3 for other work types that the resource performs.
-5. Choose the **Submit** action, and then choose the **All open lines** action to submit all lines or the **Selected lines only** action to submit only the lines that are selected in the **Time Sheet** page.  
+5. Choose the **Submit** action, and then choose the **All open lines** action to submit all lines or the **Selected lines only** action to submit only the lines that are selected on the **Time Sheet** page.  
 
     > [!NOTE]  
     >   You can only submit time sheet lines for which you have entered time.  
@@ -91,7 +91,7 @@ A time sheet must be submitted for approval before it can be used. You can appro
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Manager Time Sheets**, and then choose the related link.
 2. Select a time sheet from the list.  
-3. In the **Time Sheet** page, choose the **Approve** action, and then choose the **All submitted lines** action to approve all lines or the **Selected lines only** action to approve only the lines that are selected in the **Time Sheet** page.
+3. In the **Time Sheet** page, choose the **Approve** action, and then choose the **All submitted lines** action to approve all lines or the **Selected lines only** action to approve only the lines that are selected on the **Time Sheet** page.
 4. Choose the **OK** button.  
 5. Alternatively, choose the **Reject** action and follow steps 4 through 5.  
 
@@ -106,7 +106,7 @@ After you have approved or rejected a time sheet, it cannot be modified unless i
 
     > [!NOTE]  
     >   You can only reopen lines that have the status **Approved**. You cannot reopen lines that have the status **Rejected**. You cannot reopen a time sheet if it has been posted.  
-3. In the **Time Sheet** page, choose the **Reopen** action, and then choose the **All submitted lines** action to reopen all lines or the **Selected lines only** action to reopen only the lines that are selected in the **Time Sheet** page.
+3. In the **Time Sheet** page, choose the **Reopen** action, and then choose the **All submitted lines** action to reopen all lines or the **Selected lines only** action to reopen only the lines that are selected on the **Time Sheet** page.
 4. Choose the **OK** button. The status of the time sheets line or lines is changes to **Submitted**.  
 
 ## To post time sheet lines in a resource journal

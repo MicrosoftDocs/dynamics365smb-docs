@@ -23,7 +23,7 @@ The item card can be of type **Inventory**, **Service**, or **Non-Inventory** to
 
 An item can be structured as a parent item with underlying child items in a bill of materials (BOM). In [!INCLUDE[d365fin](includes/d365fin_md.md)], a bill of material can be either an assembly BOM or a production BOM, depending on its use. For more information, see [Work with Bills of Material](inventory-how-work-BOMs.md).
 
-If you purchase the same item from more than one vendor, you can connect those vendors to the item card. The vendors will then appear in the **Item Vendor Catalog** page, so that you can easily select an alternate vendor.
+If you purchase the same item from more than one vendor, you can connect those vendors to the item card. The vendors will then appear on the **Item Vendor Catalog** page, so that you can easily select an alternate vendor.
 
 Items that you offer to your customers but you do not want manage in your system until you start selling them can be set up as catalog items. Catalog items are not to be mistaken with regular items of type **Non-Inventory**. For more information, see [Work with Catalog Items](inventory-how-work-nonstock-items.md).  
 
@@ -42,7 +42,7 @@ Items that you offer to your customers but you do not want manage in your system
 > [!NOTE]
 > In the **Costing Method** field, you set up how the item's unit cost is calculated by making assumptions about the flow of physical items through your company. Five costing methods are available, depending on the type of item. For more information, see [Design Details: Costing Methods](design-details-costing-methods.md).
 >
-> If you select **Average**, then the item’s unit cost is calculated as the average unit cost at each point in time after a purchase. Inventory is valuated with the assumption that all inventories are sold simultaneously. With this setting, you can choose the **Unit Cost** field to view, in the **Average Cost Calc. Overview** page, the history of transactions that the average cost is calculated from.
+> If you select **Average**, then the item’s unit cost is calculated as the average unit cost at each point in time after a purchase. Inventory is valuated with the assumption that all inventories are sold simultaneously. With this setting, you can choose the **Unit Cost** field to view, on the **Average Cost Calc. Overview** page, the history of transactions that the average cost is calculated from.
 
 On the **Price and Posting** FastTab, you can view special prices or discounts that you grant for the item if certain criteria are met, such as customer, minimum order quantity, or ending date. Each row represents a special price or line discount. Each column represents a criterion that must apply to warrant the special price that you enter in the **Unit Price** field, or the line discount that you enter in the **Line Discount %** field. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).
 
@@ -69,7 +69,7 @@ If you purchase the same item from more than one vendor, you must enter informat
 5.  Optionally, fill in the remaining fields.  
 6.  Repeat steps 2 through 5 for each vendor that you want to buy the item from.
 
-The vendors will now appear in the **Item Vendor Catalog** page, which you open from the item card, so that you can easily select an alternate vendor.
+The vendors will now appear on the **Item Vendor Catalog** page, which you open from the item card, so that you can easily select an alternate vendor.
 
 ## See Also
 [Create Number Series](ui-create-number-series.md)  

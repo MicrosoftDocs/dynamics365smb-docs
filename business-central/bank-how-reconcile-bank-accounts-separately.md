@@ -16,21 +16,21 @@ ms.author: sgroespe
 
 ---
 # Reconcile Bank Accounts Separately
-To reconcile bank accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)] with statements received from the bank, you begin by filling in the left-hand pane in the **Bank Acc. Reconciliation** page with bank statement information that you then match (reconcile) with bank account ledger entries in the right-hand pane. A smart way to fill in bank statement lines is by importing a bank statement file or feed.
+To reconcile bank accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)] with statements received from the bank, you begin by filling in the left-hand pane on the **Bank Acc. Reconciliation** page with bank statement information that you then match (reconcile) with bank account ledger entries in the right-hand pane. A smart way to fill in bank statement lines is by importing a bank statement file or feed.
 
 > [!NOTE]  
-> In North American versions, you can also perform this work in the **Bank Rec. Worksheet** page, which is better suited for checks and deposits but does not offer import of bank statement files. To use this page instead of the **Bank Acc. Reconciliation** page, deselect the **Bank Recon. with Auto. Match** field in the **General Ledger Setup** page. For more information, see the "Reconcile Bank Accounts" section under United States Local Functionality.
+> In North American versions, you can also perform this work on the **Bank Rec. Worksheet** page, which is better suited for checks and deposits but does not offer import of bank statement files. To use this page instead of the **Bank Acc. Reconciliation** page, deselect the **Bank Recon. with Auto. Match** field on the **General Ledger Setup** page. For more information, see the "Reconcile Bank Accounts" section under United States Local Functionality.
 
 > [!TIP]  
-> You can also reconcile bank accounts in the **Payment Reconciliation Journal** page. Any open bank account ledger entries related to the applied customer or vendor ledger entries will be closed when you choose the **Post Payments and Reconcile Bank Account** action. This means that the bank account is automatically reconciled for payments that you post with the journal. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
+> You can also reconcile bank accounts on the **Payment Reconciliation Journal** page. Any open bank account ledger entries related to the applied customer or vendor ledger entries will be closed when you choose the **Post Payments and Reconcile Bank Account** action. This means that the bank account is automatically reconciled for payments that you post with the journal. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
 
 To enable import of bank statements as bank feeds, you must first set up and enable the Envestnet Yodlee Bank Feed service, and then link your bank accounts to the related online bank accounts. For more information, see [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md).
 
-The lines in the **Bank Acc. Reconciliation** page are divided into two panes. The **Bank Statement Lines** pane shows either imported bank transactions or ledger entries with outstanding payments. The **Bank Account Ledger Entries** pane shows the ledger entries in the bank account.
+The lines on the **Bank Acc. Reconciliation** page are divided into two panes. The **Bank Statement Lines** pane shows either imported bank transactions or ledger entries with outstanding payments. The **Bank Account Ledger Entries** pane shows the ledger entries in the bank account.
 
 The activity of finding and applying entries to be reconciled is referred to as *matching*. You can choose to perform matching automatically by using the **Match Automatically** function. Alternatively, you can manually select lines in both panes to link each bank statement line to one or more related bank account ledger entries, and then use the **Match Manually** function. The **Applied** checkbox is selected on lines where entries match.
 
-You can fill in the **Bank Statement Lines** pane in the **Bank Acc. Reconciliation** page in the following ways:
+You can fill in the **Bank Statement Lines** pane on the **Bank Acc. Reconciliation** page in the following ways:
 
 * Automatically, by using the **Import Bank Statement** function to fill in the lines according to actual bank statements based on a file provided by the bank.
 * Manually, by using the **Suggest Lines** function to fill in the lines with ledger entries for invoices that have outstanding payments.

@@ -21,7 +21,7 @@ Similar functionality exists to reconcile excess amounts on payment reconciliati
 Payments posted based on text-to-account mapping are not applied to open entries, but are merely posted to the specified accounts in addition to creating bank account ledger entries. Accordingly, text-to-account mapping is suited for recurring cash receipts or expenses, such as frequent purchases of car fuel or bank fees and interest, that regularly occur on the bank statement and do not need a related business document. For more information, see the “Example - Text-to-Account Mapping for Fuel Expense” section in this topic.
 
 > [!NOTE]  
->   Payments on reconciliation journal lines are only set to posting according to text-to-account mapping if the automatic application function can only provide a match confidence of **Low** or **Medium**. If the automatic application function provides a match confidence of High, then the payment is automatically applied to one or more open entries, and the payment is not posted to the accounts specified in the **Text-to-Account Mapping** page. In other words, a match confidence of **High** overrules a text-to-account mapping.
+>   Payments on reconciliation journal lines are only set to posting according to text-to-account mapping if the automatic application function can only provide a match confidence of **Low** or **Medium**. If the automatic application function provides a match confidence of High, then the payment is automatically applied to one or more open entries, and the payment is not posted to the accounts specified on the **Text-to-Account Mapping** page. In other words, a match confidence of **High** overrules a text-to-account mapping.
 
 On a payment reconciliation journal line where the payment has been set to posting according to text-to-account mapping, the **Match Confidence** field contains **High - Text-to-Account Mapping**, and the **Account Type** and **Account No.** fields contain the mapped accounts.
 
@@ -42,10 +42,10 @@ On a payment reconciliation journal line where the payment has been set to posti
 
 8. Repeat steps 3 through 7 for all text on payments that you want to map to accounts for direct posting without application.
 
-Next time you import a bank statement file or choose the **Apply Automatically** action in the **Payment Reconciliation Journal** page, journal lines for the payments that contain the specified mapping text will contain the mapped accounts in the **Account Type** and **Account No.** fields. The **Match Confidence** field will contain **High - Text-to-Account Mapping**. This is on the condition that the automatic application function can only provide a match confidence of **Low** or **Medium**.
+Next time you import a bank statement file or choose the **Apply Automatically** action on the **Payment Reconciliation Journal** page, journal lines for the payments that contain the specified mapping text will contain the mapped accounts in the **Account Type** and **Account No.** fields. The **Match Confidence** field will contain **High - Text-to-Account Mapping**. This is on the condition that the automatic application function can only provide a match confidence of **Low** or **Medium**.
 
 ## Example: Text-to-Account Mapping for Fuel Expense
-To always post fuel expenses incurred at Shell gas stations to the general ledger account for gasoline (account 8510), fill a line in the **Text-to-Account Mapping** page as follows.
+To always post fuel expenses incurred at Shell gas stations to the general ledger account for gasoline (account 8510), fill a line on the **Text-to-Account Mapping** page as follows.
 
 | Mapping Text | Debit Acc. No. | Credit Acc. No. | Bal. Source Type | Bal. Source No. |
 | --- | --- | --- | --- | --- |

@@ -27,7 +27,7 @@ Withholding Tax (WHT) is calculated for local vendors who do not have an Austral
 4.  Choose the **OK** button.  
 
     > [!NOTE]  
-    >  The WHT percentage is automatically withheld in accordance with what was specified in the **WHT Posting Setup** page. The WHT certificate is produced for submission to the vendor. For more information, see [Withholding Tax](withholding-tax.md).  
+    >  The WHT percentage is automatically withheld in accordance with what was specified on the **WHT Posting Setup** page. The WHT certificate is produced for submission to the vendor. For more information, see [Withholding Tax](withholding-tax.md).  
 
 ## See Also  
  [Withholding Tax](withholding-tax.md)   

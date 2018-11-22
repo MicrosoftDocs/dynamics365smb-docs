@@ -50,7 +50,7 @@ You can view general ledger budgets and compare them with actual figures in seve
 The leftmost columns contain the chart of accounts. Of the five columns on the rightmost side, the first four columns show actual and budgeted debit and credit amounts for each account. The fifth column shows the proportional relationship between the actual and the budgeted amounts on the general ledger account.  
 
 > [!TIP]  
->   Use the **View by** field in the **G/L Balance/Budget** page to select the period length. Use the **View as** field to select the way the amounts will be calculated, **Net Change** or **Balance at Date**. Choose the **Previous Period** or **Next Period** action to change the period.  
+>   Use the **View by** field on the **G/L Balance/Budget** page to select the period length. Use the **View as** field to select the way the amounts will be calculated, **Net Change** or **Balance at Date**. Choose the **Previous Period** or **Next Period** action to change the period.  
 
 ## To view actual and budgeted amounts for several periods  
 Instead of viewing the actual and budgeted amounts for all accounts within a single period, you can view a number of periods for a single account.  

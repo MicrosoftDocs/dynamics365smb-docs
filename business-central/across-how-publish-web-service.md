@@ -36,7 +36,7 @@ The following steps explain how to create and publish a web service.
 
 When you publish the web service, in the **OData URL** and **SOAP URL** fields, you can see the URLs that are generated for the web service. You can test the web service immediately by choosing the links in the **OData URL** and **SOAP URL** fields. Optionally, you can copy the value of the field and save it for later use.  
 
-After you publish a web service, it is available to external parties. You can verify the availability of that web service by using a browser, or you can choose the link in the **OData URL** and **SOAP URL** fields in the **Web Services** page. The following procedure illustrates how you can verify the availability of the web service for later use.  
+After you publish a web service, it is available to external parties. You can verify the availability of that web service by using a browser, or you can choose the link in the **OData URL** and **SOAP URL** fields on the **Web Services** page. The following procedure illustrates how you can verify the availability of the web service for later use.  
 
 ### To verify the availability of a web service  
 

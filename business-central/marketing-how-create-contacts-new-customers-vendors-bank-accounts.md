@@ -18,7 +18,7 @@ ms.author: jswymer
 # Create a Customer, Vendor, or Bank Account From a Contact
 You may want to record some of your existing contacts as customers, vendors, or bank accounts. Creating a customer, vendor, or bank account from a contact enables you use existing data. When you create a customer, vendor, or bank account this way, it is synchronized with the contact. Synchronization makes information that is common between contacts and customers, vendors, or bank account the same.
 
-Before you can record contacts this way, you must specify a business relation code for customers, vendors, and bank accounts in the **Marketing Setup** page. If you will be recording contacts as bank accounts, you must also specify numbers series for bank accounts in the **General Ledger Setup** page.
+Before you can record contacts this way, you must specify a business relation code for customers, vendors, and bank accounts on the **Marketing Setup** page. If you will be recording contacts as bank accounts, you must also specify numbers series for bank accounts on the **General Ledger Setup** page.
 
 ## To create a contact as a customer, vendor, or bank account
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, and then choose the related link.

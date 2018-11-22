@@ -25,7 +25,7 @@ Using web sources on contacts is a two-step process. First, you define the web s
 2. Choose the **New** actions.
 3. Fill in the **Code**, **Description**, and **URL** fields.
 
-    Type %1 in the **URL** field to insert a placeholder for a search word in the URL. When you launch the web source from a contact, the %1 is replaced with the search word, for example, the name of the company that you have entered in the **Contact Web Sources** page.
+    Type %1 in the **URL** field to insert a placeholder for a search word in the URL. When you launch the web source from a contact, the %1 is replaced with the search word, for example, the name of the company that you have entered on the **Contact Web Sources** page.
 
 Repeat these steps to set up as many web sources as you want.
 

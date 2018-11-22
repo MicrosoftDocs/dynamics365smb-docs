@@ -99,7 +99,7 @@ With jobs, you can schedule the usage of your company's resources and keep track
 
      The **Job WIP Entries** page shows the WIP entries that were last calculated on a job, even if WIP has not yet been posted to the general ledger.  
 
-2.  You can follow the steps in the procedure that explains how to calculate WIP to recalculate WIP. Every time WIP is calculated, an entry is created in the **Job WIP Entries** page.  
+2.  You can follow the steps in the procedure that explains how to calculate WIP to recalculate WIP. Every time WIP is calculated, an entry is created on the **Job WIP Entries** page.  
 3.  Close the page.  
 
 > [!NOTE]  
@@ -117,7 +117,7 @@ With jobs, you can schedule the usage of your company's resources and keep track
 5.  Choose the **OK** button to post WIP to the general ledger.  
 6.  Choose the **OK** button to close the confirmation page.  
 
-     After you have completed the posting, you can view the posting information in the **WIP G/L Entries** page.  
+     After you have completed the posting, you can view the posting information on the **WIP G/L Entries** page.  
 
 7.  In the **Jobs** list, select the **Deerfield** job, and then choose the **WIP G/L Entries** action.  
 

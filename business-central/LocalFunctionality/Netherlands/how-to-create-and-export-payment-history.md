@@ -31,7 +31,7 @@ After you have created a proposal and made any modifications, you can process th
     If you want to print the proposal before you process it, choose the **Print** button.  
 
 2.  To process the proposal, choose the **Process** action.  
-3.  To view the payment history, close the **Telebank Proposal** page. Make sure the same bank account in the **Telebank – Bank Overview** page is selected, and then choose the **Payment History** action.  
+3.  To view the payment history, close the **Telebank Proposal** page. Make sure the same bank account on the **Telebank – Bank Overview** page is selected, and then choose the **Payment History** action.  
 
 The **Payment History List** page displays the payment history that you just created.  
 

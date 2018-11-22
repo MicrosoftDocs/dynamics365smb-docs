@@ -75,7 +75,7 @@ The shop calendar can now be assigned to a work center to calculate the work sho
     The left side of the matrix page lists the work centers that are set up. The right side shows a calendar displaying the available capacity values for each working day in the defined unit of measure, for example, **480** minutes. Each line represents the calendar of one work center.  
 
     > [!NOTE]  
-    >  You can also select to view the capacity values for each week or month by changing the selection in the **View By** field in the **Work Center Calendar** page.  
+    >  You can also select to view the capacity values for each week or month by changing the selection in the **View By** field on the **Work Center Calendar** page.  
 
     To reflect the new shop calendar as a line on the selected work center, it must first be calculated.  
 

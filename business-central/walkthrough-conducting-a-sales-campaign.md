@@ -61,7 +61,7 @@ A campaign is any kind of activity that involves several contacts. An important 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Campaigns**, and then choose the related link.  
 2.  Choose the **New** action to create a new campaign. On the campaign card, press Enter to have a campaign number automatically inserted.  
 3.  In the **Description** field, enter a description for the campaign, for example, **FUTURUS trade show**.  
-4.  Choose the **Status Code** field, and select a status code from the list that opens in the **Campaign Status** page.  
+4.  Choose the **Status Code** field, and select a status code from the list that opens on the **Campaign Status** page.  
 5.  Fill in the **Starting Date** and **Ending Date** fields of the campaign as appropriate.  
 
 ## Selecting the Target Audience  
@@ -189,7 +189,7 @@ A campaign is any kind of activity that involves several contacts. An important 
 10. In the **Segment** page, choose the **Log** action.  
 11. In the **Log Segment** page, clear the **Send Attachments** check box, and then choose the **OK** button and confirm the message that appears.  
 
-     After the segment is logged, an entry for the campaign is automatically created to record this action in the **Campaign Entries** page.  
+     After the segment is logged, an entry for the campaign is automatically created to record this action on the **Campaign Entries** page.  
 
 ## See Also  
 [Relationship Management](marketing-relationship-management.md)  

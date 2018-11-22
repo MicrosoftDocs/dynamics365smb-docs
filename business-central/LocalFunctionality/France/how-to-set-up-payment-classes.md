@@ -33,7 +33,7 @@ To use payment management, you must set up payment classes to define operation t
     |**Header No. Series**|The number series code for the payment slip header.|  
     |**Line No. Series**|The number series code for the payment slip lines. If you leave this field blank, the number for each payment line is created based on the payment header number.|  
     |**Suggestions**|The type of payment proposals that can be created automatically on a payment slip.|  
-    |**Unrealized VAT Reversal**|Specify the method to handle unrealized VAT.<br /><br /> If you select **Application**, VAT will be realized when you post the invoice application and payment application.<br /><br /> If you select **Delayed**, you must define the payment step during which VAT must be realized, by selecting the **Realize VAT** field in the **Payment Step Card** page. For more information, see Realize VAT and Payment Step.|  
+    |**Unrealized VAT Reversal**|Specify the method to handle unrealized VAT.<br /><br /> If you select **Application**, VAT will be realized when you post the invoice application and payment application.<br /><br /> If you select **Delayed**, you must define the payment step during which VAT must be realized, by selecting the **Realize VAT** field on the **Payment Step Card** page. For more information, see Realize VAT and Payment Step.|  
     |**SEPA Transfer Type**|Specify the SEPA export format, either **Credit Transfer** or **Direct Debit**.|  
 
 4.  Choose the **OK** button.  

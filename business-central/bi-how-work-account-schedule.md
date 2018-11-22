@@ -32,14 +32,14 @@ You can also compare two or more account schedules and column layouts by using f
 * Set up various report layouts and print the reports with the current figures.
 
 ## Account Categories
-You can use account categories to change the layout of your financial statements. After you set up your account categories in the **G/L Account Categories** page, and you choose the **Generate Account Schedules** action, the underlying account schedules for the core financial reports are updated. The next time you run one of these reports, such as the Balance Statement report, new totals and subentries are added, based on your changes. For more information, see The "Account Categories" section in [Understanding the General Ledger and the COA](finance-general-ledger.md).  
+You can use account categories to change the layout of your financial statements. After you set up your account categories on the **G/L Account Categories** page, and you choose the **Generate Account Schedules** action, the underlying account schedules for the core financial reports are updated. The next time you run one of these reports, such as the Balance Statement report, new totals and subentries are added, based on your changes. For more information, see The "Account Categories" section in [Understanding the General Ledger and the COA](finance-general-ledger.md).  
 
 ## To create a new account schedule  
 You use account schedules to analyze figures in general ledger accounts or to compare general ledger entries with general ledger budget entries. For example, you can view the general ledger entries as percentages of the budget entries.
 
 The account schedules in the standard version of [!INCLUDE[d365fin](includes/d365fin_md.md)] are the basis of the standard financial reports, which may not suit the needs of your business. To quickly create your own financial reports, you can start by copying an existing account schedule. See step 3 below.
 
-The **Acc. Schedule Overview** page is where you preview the financial report that the account schedule defines. In the following, it is important to understand that what you set up as account schedule rows and columns can only be seen and validated in the **Acc. Schedule Overview** page, which you open from an account schedule by choosing the **Overview** action. The **Account Schedule** page itself is only a setup area.  
+The **Acc. Schedule Overview** page is where you preview the financial report that the account schedule defines. In the following, it is important to understand that what you set up as account schedule rows and columns can only be seen and validated on the **Acc. Schedule Overview** page, which you open from an account schedule by choosing the **Overview** action. The **Account Schedule** page itself is only a setup area.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedules**, and then choose the related link.  
 2. In the **Account Schedules** page, choose the **New** action to create a new account schedule name.
@@ -60,7 +60,7 @@ You have now defined the basis of the account schedule, the rows of financial da
 You use column layouts to define what columns should be included in the resulting report. For example, you can design a layout to compare net change and balance for the same period this year and last year.
 
 > [!NOTE]
-> A printed/previewed/saved version of an account schedule can display a maximum of five columns. If the account schedule is only meant for analysis in the **Acc. Schedule Overview** page, you can create as many columns as you want.
+> A printed/previewed/saved version of an account schedule can display a maximum of five columns. If the account schedule is only meant for analysis on the **Acc. Schedule Overview** page, you can create as many columns as you want.
 
 1. In the **Account Schedules** page, select the relevant account schedule, and then choose the **Edit Column Layout Setup** action.
 2. In the **Column Layouts** page, create a row for each column by which financial data is shown in the financial report. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -68,7 +68,7 @@ You use column layouts to define what columns should be included in the resultin
 4. Open the **Acc. Schedule Overview** page from time to time to verify that the new column layout works as intended.
 
 > [!NOTE]
-> The columns that you define on each row represent columns 3 and up in the **Acc. Schedule Overview** page. The first two columns, **Row No.** and **Description**, are fixed.  
+> The columns that you define on each row represent columns 3 and up on the **Acc. Schedule Overview** page. The first two columns, **Row No.** and **Description**, are fixed.  
 
 ### To create a column that calculates percentages  
 Sometimes you may want to include a column in an account schedule to calculate percentages of a total. For example, if you have a number of rows that break down sales by dimension, you may want a column to indicate the percentage of total sales that each row represents.

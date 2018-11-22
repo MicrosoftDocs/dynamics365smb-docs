@@ -49,7 +49,7 @@ The VAT rate is calculated from the combination of VAT business posting groups, 
 
 Now, when you post a document in the general journal and close it, the information specified in the **VAT Posting Setup** card is applied.  
 
-For example, the VAT rate posted in the journal is defined by the setup that you have specified in the **VAT Posting Setup** page.  
+For example, the VAT rate posted in the journal is defined by the setup that you have specified on the **VAT Posting Setup** page.  
 
 > [!NOTE]  
 >  The **VAT Code** and the **Bal. VAT Code**  fields have been added to the journal. The **Bal. VAT Code** is the VAT code that is used to calculate the balancing account.  

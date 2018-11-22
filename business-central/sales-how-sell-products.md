@@ -41,7 +41,7 @@ You can fill customer fields on the sales order in two ways depending on whether
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
 2. In the **Customer** field, enter the name of an existing customer.
 
-    Other fields in the **Sales Order** page are now filled with the standard information of the selected customer. If the customer is not registered, then follow these steps:
+    Other fields on the **Sales Order** page are now filled with the standard information of the selected customer. If the customer is not registered, then follow these steps:
 3. In the **Customer** field, enter the name of the new customer.
 4. In the dialog box about registering the new customer, choose the **Yes** button.
 5. In the **Select a template for a new customer** page, choose a template to base the new customer card on, and then choose the **OK** button.
@@ -51,7 +51,7 @@ You can fill customer fields on the sales order in two ways depending on whether
 7. When you have completed the customer card, choose the **OK** button to return to the **Sales Order** page.
 
     Several fields on the sales order are now filled with information that you specified on the new customer card.
-8. Fill in the remaining fields in the **Sales Order** page as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+8. Fill in the remaining fields on the **Sales Order** page as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
     > If you allow the customer to pay immediately, for example, by credit card or PayPal, then fill in the **Payment Method Code** field. The payment is then recorded as soon as you post the sales order as invoiced. If you select CASH, then the payment is recorded in a specified balancing account.
@@ -79,7 +79,7 @@ You can fill customer fields on the sales order in two ways depending on whether
 15. When you have completed the customer card, choose the **OK** button to return to the **Sales Order** page.
 
     Several fields on the sales order are now filled with information that you specified on the new customer card.
-16. Fill in the remaining fields in the **Sales Order** page as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+16. Fill in the remaining fields on the **Sales Order** page as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     You are now ready to fill in the sales order lines for products that you are selling to the customer or for any transaction with the customer that you want to record in a G/L account.   
 

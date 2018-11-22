@@ -1,6 +1,6 @@
 ---
     title: How to Delete Remittance Payment Orders
-    description: Orders can be deleted if they are managed in full and are in a closed financial year. An order is managed in full if no payments in the **Waiting Journal** page have a status of **Sent** or **Approved**.
+    description: Orders can be deleted if they are managed in full and are in a closed financial year. An order is managed in full if no payments on the **Waiting Journal** page have a status of **Sent** or **Approved**.
 
     services: project-madeira 
     documentationcenter: ''
@@ -17,7 +17,7 @@
 
 ---
 # Delete Remittance Payment Orders
-Orders can be deleted if they are managed in full and are in a closed financial year. An order is managed in full if no payments in the **Waiting Journal** page have a status of **Sent** or **Approved**.  
+Orders can be deleted if they are managed in full and are in a closed financial year. An order is managed in full if no payments on the **Waiting Journal** page have a status of **Sent** or **Approved**.  
 
 ## To delete a remittance payment order  
 

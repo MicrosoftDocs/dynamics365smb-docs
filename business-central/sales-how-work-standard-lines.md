@@ -46,7 +46,7 @@ If recurring sales lines exist for the customer, you can insert them on all type
 4. In the **Recurring Sales Lines** page, choose the lookup button in the **Code** field, and then select a set of standard sales lines.
 
     > [!NOTE]
-    > To use the recurring sales lines set together with the **Create Recurring Sales Invoices** batch job, you must also fill in the **Valid From Date** and **Valid To Date** fields in the **Recurring Sales Lines** page. For more information, see the "To create multiple sales invoices based on standard sales lines" section.
+    > To use the recurring sales lines set together with the **Create Recurring Sales Invoices** batch job, you must also fill in the **Valid From Date** and **Valid To Date** fields on the **Recurring Sales Lines** page. For more information, see the "To create multiple sales invoices based on standard sales lines" section.
 
 5. Choose the **OK** button to insert the standard sales lines on the invoice where you can reuse them as is or edit the information.
 

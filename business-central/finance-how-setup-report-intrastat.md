@@ -67,7 +67,7 @@ All items that you buy or sell must have a commodity code.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### To set up which Intrastat report fields are mandatory
-In some countries, such as Spain and UK, the authorities require that Intrastat reports include, for example, the shipment method for purchases or some other values when sales is over a certain threshold. In the **Intrastat Setup** page, you can select to make **Intrastat Checkist Setup** to set mandatory fields in the **Intrastat Journal** page.
+In some countries, such as Spain and UK, the authorities require that Intrastat reports include, for example, the shipment method for purchases or some other values when sales is over a certain threshold. In the **Intrastat Setup** page, you can select to make **Intrastat Checkist Setup** to set mandatory fields on the **Intrastat Journal** page.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Setup**, and then choose the related link.
 2. Chooes the **Intrastat Checklist Setup** action.
@@ -86,7 +86,7 @@ After you fill in the Intrastat journal, you can run the **Checklist report** ac
 The batch job retrieves all the item entries in the statistics period and inserts them as lines in the Intrastat journal. You can edit the lines if needed.  
 
 > [!IMPORTANT]  
->  The batch job retrieves only the entries that contain a country/region code for which an Intrastat code has been entered in the **Countries/Regions** page. Therefore, you must enter Intrastat codes for the country/region codes for which you will run the batch job.  
+>  The batch job retrieves only the entries that contain a country/region code for which an Intrastat code has been entered on the **Countries/Regions** page. Therefore, you must enter Intrastat codes for the country/region codes for which you will run the batch job.  
 
 ### Report Intrastat on a form or a file
 To get the information that is required on the Intrastat form from the statistical authorities, you must print the **Intrastat – Form** report. Before you can do this, you must prepare the Intrastat journal and fill it in. If you have both sales and purchase transactions, you must complete a separate form for each type, so that you must print the report two times.  

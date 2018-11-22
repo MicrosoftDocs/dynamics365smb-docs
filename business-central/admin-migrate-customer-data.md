@@ -164,9 +164,9 @@ Customer data must be validated before you apply the records to the [!INCLUDE[d3
 3. To review errors, select a line, and then choose the **Show Error** action.  
 
     The **Error Text** field contains the reason for the error. The **Field Caption** field contains the caption of the field that contains the error.  
-4.  To correct an error or otherwise make an update, in the **Migration Overview** page, choose the **Migration Record** action, and then, in the **Migration Record** page, correct the record with the error.  
+4.  To correct an error or otherwise make an update, on the **Migration Overview** page, choose the **Migration Record** action, and then, on the **Migration Record** page, correct the record with the error.  
 
-When you make a correction, the record is removed from the list of records in the **Migration Data Errors** page.  
+When you make a correction, the record is removed from the list of records on the **Migration Data Errors** page.  
 
 You are now ready to apply the customer’s data to the database.  
 

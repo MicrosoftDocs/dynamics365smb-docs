@@ -56,7 +56,7 @@ Intrastat reporting is required throughout the European Union (EU) and must foll
 
 The Intrastat information is exported, and you can either save the data to a file, or you can open the file in the appropriate program.  
 
- When the file is exported, the **Reported** check box in the **Intrastat Jnl. Batches** page will be selected, and the **Internal Ref. No.** field on every entry in the journal will be filled in. You can manually change the contents of the field. For example, you can make changes when you need to run the report again. For more information, see Intrastat Jnl. Batch.  
+ When the file is exported, the **Reported** check box on the **Intrastat Jnl. Batches** page will be selected, and the **Internal Ref. No.** field on every entry in the journal will be filled in. You can manually change the contents of the field. For example, you can make changes when you need to run the report again. For more information, see Intrastat Jnl. Batch.  
 
 ## See Also  
  [VAT Reporting](vat-reporting.md)  

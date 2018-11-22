@@ -35,7 +35,7 @@ If the field is not selected, the program will fill in the **Unit Price** and **
 
 You can set up the default setting of the **Prices Including VAT** for all sales documents for a customer in the **Prices Including VAT** field on the **Customer** card. You can also set up item prices to include or exclude VAT. Normally, item prices contained in the Item Card will be the price excluding VAT. The program uses the information from the **Price Includes VAT** field on the **Item** card to determine the unit price amount for sales documents.  
 
-The following table provides an overview of how the program calculates the unit price amounts for a sales document when you have not set up prices in the **Sales Prices** page:  
+The following table provides an overview of how the program calculates the unit price amounts for a sales document when you have not set up prices on the **Sales Prices** page:  
 
 |**Price Includes VAT field on Item Card**|**Prices Including VAT field in Sales Header**|**Action Performed**|  
 |-----------------------------------------------|----------------------------------------------------|--------------------------|  
@@ -134,7 +134,7 @@ When you sell goods to a customer in another EU country/region, you must send th
 7. In the **Certificate of Supply** page, choose the **Print** action to print the report, or choose the **Preview** action to view it on the screen.  
 
     > [!Note]  
-    > The **Certificate of Supply Status** field and the **Printed** field are updated for the shipment in the **Certificates of Supply** page.  
+    > The **Certificate of Supply Status** field and the **Printed** field are updated for the shipment on the **Certificates of Supply** page.  
 
 8. Send the printed certificate of supply to the customer for signature.  
 
@@ -162,7 +162,7 @@ To view a group of certificates, you start from the **Certificates of Supply** p
    You can modify the date to reflect the date that you received the signed the certificate of supply. You can also add a link to the signed certificate using standard [!INCLUDE[d365fin](includes/d365fin_md.md)] document linking.  
 
     > [!NOTE]  
-    >  You cannot create a new certificate of supply in the **Certificate of Supply** page when you navigate to it using this procedure. To create a certificate for a shipment that was not set up to require one, open the posted sales shipment, and use either of two procedures described above:  
+    >  You cannot create a new certificate of supply on the **Certificate of Supply** page when you navigate to it using this procedure. To create a certificate for a shipment that was not set up to require one, open the posted sales shipment, and use either of two procedures described above:  
     >   
     > * To manually create a certificate of supply certificate  
     > * To print a certificate of supply.

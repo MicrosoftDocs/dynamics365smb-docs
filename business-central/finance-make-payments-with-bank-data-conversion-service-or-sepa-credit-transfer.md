@@ -52,7 +52,7 @@ Before you can process payment electronically by exporting payment files in the 
 3. On the **Payment** FastTab, in the **Payment Method Code** field, choose **BANK**.  
 4. In the **Preferred Bank Account** field, choose the bank to which the money will be transferred when it is processed by your electronic bank.  
 
-     The value in the **Preferred Bank Account** field is copied to the **Recipient Bank Account** field in the **Payment Journal** page.  
+     The value in the **Preferred Bank Account** field is copied to the **Recipient Bank Account** field on the **Payment Journal** page.  
 
 ### To set the payment journal up to export payment files  
 1. In the **Search** box, enter **Payment Journals**, and then choose the related link.  
@@ -72,12 +72,12 @@ The direct-debit mandate is automatically inserted in the **Direct Debit Mandate
 Fill the payment journal with lines for due payments to vendors, with the option to insert posting dates based on the due date of the related purchase documents. For more information, see [Managing Payables](payables-manage-payables.md).
 
 ## Exporting Payments to a Bank File
-When you are ready to make payments to your vendors, or reimbursements to your employees, you can export a file with the payment information on the lines in the **Payment Journal** page. You can then upload the file to your bank to process the related money transfers.
+When you are ready to make payments to your vendors, or reimbursements to your employees, you can export a file with the payment information on the lines on the **Payment Journal** page. You can then upload the file to your bank to process the related money transfers.
 
 In the generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)], a global provider of services to convert bank data to any file format that your bank requires is set up and connected. In North American versions, the same service can be used to send payment files as electronic funds transfer (EFT), however with a slightly different process. See step 6 in the "To export payments to a bank file" section.    
 
 > [!NOTE]  
->   Before you can export payment files from the payment journal, you must specify the electronic format for the involved bank account, and you must enable the bank data conversion service. For more information, see [Set Up Bank Accounts](bank-how-setup-bank-accounts.md) and [Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md). In addition, you must select the **Allow Payment Export** check box in the **General Journal Batches** page. For more information, see [Working with General Journals](ui-work-general-journals.md).  
+>   Before you can export payment files from the payment journal, you must specify the electronic format for the involved bank account, and you must enable the bank data conversion service. For more information, see [Set Up Bank Accounts](bank-how-setup-bank-accounts.md) and [Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md). In addition, you must select the **Allow Payment Export** check box on the **General Journal Batches** page. For more information, see [Working with General Journals](ui-work-general-journals.md).  
 
 You use the **Credit Transfer Registers** page to view the payment files that have been exported from the payment journal. From this page, you can also re-export payment files in case of technical errors or file changes. Note, however, that exported EFT files are not shown in this page and cannot be re-exported.  
 
@@ -96,7 +96,7 @@ The following describes how to pay a vendor by check. The steps are similar to r
     Any error messages will be shown in the **Payment File Errors** FactBox where you can also choose an error message to see detailed information. You must resolve all errors before the payment file can be exported.
 
     > [!TIP]  
-    >   When you use the bank data conversion service, a common error message states that the bank account number does not have the length that your bank requires. To avoid or resolve the error, you must remove the value in the **IBAN** field in the **Bank Account Card** page and then, in the **Bank Account No.** field, enter a bank account number in the format that your bank requires.
+    >   When you use the bank data conversion service, a common error message states that the bank account number does not have the length that your bank requires. To avoid or resolve the error, you must remove the value in the **IBAN** field on the **Bank Account Card** page and then, in the **Bank Account No.** field, enter a bank account number in the format that your bank requires.
 
 5. In the **Save As** page, specify the location that the file is exported to, and then choose **Save**.
 
@@ -124,7 +124,7 @@ To see information about exported payments, choose the **Payment Export History*
 You can re-export payment files from the **Credit Transfer Registers** page. Before you delete or post payment journal lines, you can also re-export the payment file from the **Payment Journal** page by simply exporting it again. If you have deleted or posted the payment journal lines after exporting them, you can re-export the same payment file from the **Credit Transfer Registers** page. Select the line for the batch of credit transfers that you want to re-export, and then use the **Reexport Payments to File** action.
 
 > [!NOTE]  
->   Exported EFT files are not shown in the **Credit Transfer Registers** page and cannot be re-exported.
+>   Exported EFT files are not shown on the **Credit Transfer Registers** page and cannot be re-exported.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Credit Transfer Registers**, and then choose the related link.
 2. Select a payment export that you want to re-export, and then choose the **Reexport Payment to File** action.

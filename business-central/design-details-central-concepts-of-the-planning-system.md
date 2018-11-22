@@ -154,7 +154,7 @@ An order-to-order link between demand and supply is another type of attribute th
 ### Specific Attributes  
 Certain attributes on demand are specific and must be matched exactly by a corresponding supply. The following two specific attributes exist:  
 
--   Demanded serial/lot numbers that require specific application (The **SN Specific Tracking** or **Lot Specific Tracking** check box is selected in the **Item Tracking Code Card** page for the item tracking code that is used by the item.)  
+-   Demanded serial/lot numbers that require specific application (The **SN Specific Tracking** or **Lot Specific Tracking** check box is selected on the **Item Tracking Code Card** page for the item tracking code that is used by the item.)  
 -   Links to supply orders created manually or automatically for a specific demand (order-to-order links).  
 
 For these attributes, the planning system applies the following rules:  
@@ -207,7 +207,7 @@ The first column in the planning worksheet is for the warning fields. Any planni
 
 Supply on planning lines with warnings will normally not be modified according to planning parameters. Instead, the planning system only suggests a supply to cover the exact demand quantity. However, the system can be set up to respect certain planning parameters for planning lines with certain warnings. For more information, see the description of these options for the **Calculate Plan - Plan. Wksh.** batch job and the **Calculate Plan - Req. Wksh.** batch job respectively.  
 
-The warning information is shown in the **Untracked Planning Elements** page, which is also used to show order tracking links to non-order network entities. The following warning types exist:  
+The warning information is shown on the **Untracked Planning Elements** page, which is also used to show order tracking links to non-order network entities. The following warning types exist:  
 
 -   Emergency  
 -   Exception  

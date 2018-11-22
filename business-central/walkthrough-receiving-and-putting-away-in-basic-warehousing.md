@@ -59,7 +59,7 @@ To complete this walkthrough, you will need:
 -   To make yourself a warehouse employee at SILVER location by following these steps:  
 
     1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
-    2.  Choose the **User ID** field, and select your own user account in the **Users** page.  
+    2.  Choose the **User ID** field, and select your own user account on the **Users** page.  
     3.  In the **Location Code** field, enter SILVER.  
     4.  Select the **Default** field.  
 
@@ -80,7 +80,7 @@ Ellen, the warehouse manager at CRONUS International Ltd., creates a purchase or
 4.  Choose the **Bins** action.  
 5.  Select the first row, for bin S-01-0001, and then choose the **Contents** action.  
 
-    Notice in the **Bin Content** page that item LS-75 is already set up as content in bin S-01-0001.  
+    Notice on the **Bin Content** page that item LS-75 is already set up as content in bin S-01-0001.  
 
 6.  Choose the **New** action.  
 7.  Select the **Fixed** and the **Default** fields.  

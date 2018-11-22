@@ -69,7 +69,7 @@ You can also assign item attributes to item categories, which then apply to the 
     **Example**: To filter on items where the material description begins with "blue", fill in the fields as follows: **Attribute** field: Material Description, **Condition** field: Begins With, **Value** field: blue.
 8. Choose the **OK** button.   
 
-The items in the **Items** page are filtered by the specified item attribute values.
+The items on the **Items** page are filtered by the specified item attribute values.
 
 ## See Also
 [Categorize Items](inventory-how-categorize-items.md)    

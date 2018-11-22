@@ -16,7 +16,7 @@ ms.author: sgroespe
 
 ---
 # Set Up the Envestnet Yodlee Bank Feeds Service
-You can import electronic bank statements from your bank to quickly fill in the **Payment Reconciliation Journal** page so you can apply payments and reconcile the bank account. For more information, see [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+You can import electronic bank statements from your bank to quickly fill on the **Payment Reconciliation Journal** page so you can apply payments and reconcile the bank account. For more information, see [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 The Envestnet Yodlee Bank Feeds service is installed as an extension to [!INCLUDE[d365fin](includes/d365fin_md.md)] and is ready to be enabled. For more information, see [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md).
 
@@ -30,7 +30,7 @@ After you enable the bank feed service, you must link a bank account to the onli
 * A linked bank account must be unlinked because you want to stop using the bank feed service for the account.
 * Online bank accounts have changed and you want to update the information on bank accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-When the bank feed service is enabled, you can set a bank account up to automatically import new bank statements into the **Payment Reconciliation Journal** page every two hour. Transactions for payments that have already been posted as applied and/or reconciled in the **Payment Reconciliation Journal** page will not be imported. For more information, see the “To enable automatic import of bank statements” section.
+When the bank feed service is enabled, you can set a bank account up to automatically import new bank statements into the **Payment Reconciliation Journal** page every two hour. Transactions for payments that have already been posted as applied and/or reconciled on the **Payment Reconciliation Journal** page will not be imported. For more information, see the “To enable automatic import of bank statements” section.
 
 > [!NOTE]  
 > If you use the Set Up Company assisted setup, some of the steps in the following procedures happen automatically when you get to the company bank account setup. For more information, see [Getting Started](product-get-started.md).
@@ -94,7 +94,7 @@ In the **Bank Account List** page, the **Linked** check box is selected.
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
 2. Select the relevant bank account, and then choose the **Update Bank Account Linking** action.
 
-If issues exist for any of the linked bank accounts in the **Bank Account List** page, the **Bank Account Linking** page opens specifying which bank accounts have issues. Issues can best be resolved by unlinking the online bank account and then re-creating the link. For more information, see the “To link a bank account to an online bank account“ section.
+If issues exist for any of the linked bank accounts on the **Bank Account List** page, the **Bank Account Linking** page opens specifying which bank accounts have issues. Issues can best be resolved by unlinking the online bank account and then re-creating the link. For more information, see the “To link a bank account to an online bank account“ section.
 
 ## To enable automatic import of bank statements
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
@@ -108,7 +108,7 @@ If issues exist for any of the linked bank accounts in the **Bank Account List**
 Every hour, the **Payment Reconciliation Journal** page will display new payments that are made on the online bank account.
 
 > [!NOTE]  
-> Transactions for payments that have already been posted as applied and/or reconciled in the **Payment Reconciliation Journal** page will not be imported.
+> Transactions for payments that have already been posted as applied and/or reconciled on the **Payment Reconciliation Journal** page will not be imported.
 
 ## See Also
 [Setting Up Banking](bank-setup-banking.md)  

@@ -38,7 +38,7 @@ You can export all pages, of course, but that might be more than you really need
 * Banks  
 * Items  
 
-If you want all your financial transactions as well, this is a large amount of data, so the export will often take more than a few minutes of time. The financial transactions are shown in the **General Ledger Entries** page.  
+If you want all your financial transactions as well, this is a large amount of data, so the export will often take more than a few minutes of time. The financial transactions are shown on the **General Ledger Entries** page.  
 
 We recommend that you also consider exporting data from the following pages:  
 

@@ -37,7 +37,7 @@ Then you can set up columns like these:
 - Sales in Pct. of last Month  
 
 ## Setting Up Line and Column Layouts  
- In the **Analysis Report** page, you can view different line and column layouts according to what you have set up. You set up your lines or line templates in the **Analysis Line Templates** page. In this page, you can define the name of the report and the objects you want to show in the lines of your report. You set up your columns in the **Analysis Column Templates** page. In this page, you can define the name of the column template and the analysis parameters that you want to show in the report as columns. In the **Analysis Column Templates** page, each line represents a column in your report. Note that analysis lines and analysis columns are independent from each other.  
+ In the **Analysis Report** page, you can view different line and column layouts according to what you have set up. You set up your lines or line templates on the **Analysis Line Templates** page. In this page, you can define the name of the report and the objects you want to show in the lines of your report. You set up your columns on the **Analysis Column Templates** page. In this page, you can define the name of the column template and the analysis parameters that you want to show in the report as columns. In the **Analysis Column Templates** page, each line represents a column in your report. Note that analysis lines and analysis columns are independent from each other.  
 
 Based on the lines and columns you have set up, the program will aggregate the result of your report in the **Analysis Report** matrix page, such as in this example:  
 
@@ -63,7 +63,7 @@ A template contains a set of lines each representing the analysis columns that y
 4. In the **Analysis Columns** page, fill in the fields to specify the columns that you want to include in your analysis report.  
 
     > [!NOTE]  
-    >   To define a column, you must fill in the **Analysis Type Codes** field for all column types except **Formula**. Set up the analysis type codes in the **Analysis Types** page.  
+    >   To define a column, you must fill in the **Analysis Type Codes** field for all column types except **Formula**. Set up the analysis type codes on the **Analysis Types** page.  
     Also, in the **Ledger Entry Type** field, if you select **Item Entries**, the actual figures from the item ledger entry are copied. If you select **Item Budget Entries**, the budgeted figures from the budget are copied.  
 5.  Choose the **OK** button to save your changes.  
 
@@ -94,7 +94,7 @@ You use analysis reports to analyze the dynamics of your sales according to key 
 5. In the **Sales Analysis Report** page, choose the **Show Matrix** action  
 
 > [!NOTE]  
->   Building combinations of line and column templates to create reports and assigning them unique names is optional. If you do this, selecting a report name means that you will not need to select line and column templates in the **Sales Analysis Report** page. After you have chosen a report name, you can change line and column templates independently and then later select the report name again to restore the original combination.
+>   Building combinations of line and column templates to create reports and assigning them unique names is optional. If you do this, selecting a report name means that you will not need to select line and column templates on the **Sales Analysis Report** page. After you have chosen a report name, you can change line and column templates independently and then later select the report name again to restore the original combination.
 
 ## See Also
 [Business Intelligence](bi.md)  

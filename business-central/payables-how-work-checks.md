@@ -50,7 +50,7 @@ Fully applied vendor ledger entries and bank ledger entries are created.
 > If you want to print and pay checks in more than one currency from different bank accounts, you must run the **Print Check** batch job separately for each currency and specify the appropriate bank account.
 
 ## To cancel printed checks that are not posted
-You can cancel non-posted checks after they have been printed by using the **Void Check** action in the **Payment Journal** page.
+You can cancel non-posted checks after they have been printed by using the **Void Check** action on the **Payment Journal** page.
 
 1. In the **Payment Journal** page, choose the **Void Check**, and then choose which checks to cancel.
 

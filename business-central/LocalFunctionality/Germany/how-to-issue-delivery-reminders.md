@@ -18,7 +18,7 @@
 # Issue Delivery Reminders
 After you have created delivery reminders, you must issue and print them so that you can send reminders to vendors. Before you issue the delivery reminders, you can print a test report. For more information, see [Print Test Reports for Delivery Reminders](how-to-print-test-reports-for-delivery-reminders.md).  
 
-When you issue the delivery reminders, delivery reminder ledger entries are created. You can view the created ledger entries in the **Deliv. Reminder Ledger Entries** page.  
+When you issue the delivery reminders, delivery reminder ledger entries are created. You can view the created ledger entries on the **Deliv. Reminder Ledger Entries** page.  
 
 ## To issue delivery reminders  
 
@@ -40,7 +40,7 @@ When you issue the delivery reminders, delivery reminder ledger entries are crea
 
 6.  Choose the **OK** button.  
 
-You can view the issued reminders in the **Issued Delivery Reminder** page. Optionally, you can now print a delivery reminder.  
+You can view the issued reminders on the **Issued Delivery Reminder** page. Optionally, you can now print a delivery reminder.  
 
 ## To view delivery reminder ledger entries  
 

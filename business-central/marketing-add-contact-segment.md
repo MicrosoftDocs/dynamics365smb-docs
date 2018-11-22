@@ -16,7 +16,7 @@ ms.author: jswymer
 
 ---
 # Add Contacts to Segments
-After you have created a segment and entered basic information about it, you may want to add contacts to the segment. You can do this by filling in the lines in the **Segment** page manually, but it is easier and faster to use the **Add Contacts** action.
+After you have created a segment and entered basic information about it, you may want to add contacts to the segment. You can do this by filling in the lines on the **Segment** page manually, but it is easier and faster to use the **Add Contacts** action.
 
 ## To add a contact to a segment
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Segments**, and then choose the related link.  
@@ -28,7 +28,7 @@ To enter additional filters, repeat this procedure on each of the remaining sect
 If you have added contacts by mistake and want to go back one step, then choose the **Go Back** action.
 
 ## To refine the number of contacts
-After you have selected the contacts within a segment, you may decide to remove some but keep others. You can manually remove contacts from the lines in the **Segment** page, but it is easier and faster to use the **Refine Contacts** action.
+After you have selected the contacts within a segment, you may decide to remove some but keep others. You can manually remove contacts from the lines on the **Segment** page, but it is easier and faster to use the **Refine Contacts** action.
 
 1. Open the segment.
 2. Choose **Contacts**, and then choose the **Refine Contacts** action. The **Remove Contacts - Refine** page opens.

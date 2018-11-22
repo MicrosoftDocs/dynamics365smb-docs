@@ -33,7 +33,7 @@ If you will make intercompany sales transactions that include resources, you mus
 
 ## To set up intercompany vendors and intercompany customers
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
-2. Alternatively, access the vendor from the **Vendor No.** field in the **Intercompany Partner** page.
+2. Alternatively, access the vendor from the **Vendor No.** field on the **Intercompany Partner** page.
 3. Open the card for a vendor that is an intercompany partner. For more information, see [Register New Vendors](purchasing-how-register-new-vendors.md).
 4. In the **Intercompany Partner Code** field, select the relevant intercompany partner code.
 5. Repeat steps 1 through 4 for customers.
@@ -103,7 +103,7 @@ When a file exists for the defining intercompany dimensions, intercompany partne
 2. In the **Intercompany Dimensions** page, choose the **Import** action.  
 3. Specify the file name and location of the XML file, and then choose the **Open** button.  
 
-The lines in the **Intercompany Dimensions** page and the **Intercompany Dimension Values** page are imported.  
+The lines on the **Intercompany Dimensions** page and the **Intercompany Dimension Values** page are imported.  
 
 ### To map intercompany dimensions to your company's dimensions
 When you have defined or imported the dimensions that you and your intercompany partners have agreed to use, you must associate each of the intercompany dimensions with one of your company's dimensions, and vice versa. In the **Intercompany Dimensions** page, you specify how intercompany dimensions on incoming transactions will be translated into dimensions from your company's list of dimensions. In the **Dimensions** page, you specify how your dimensions will be translated into intercompany dimensions on outgoing transactions.

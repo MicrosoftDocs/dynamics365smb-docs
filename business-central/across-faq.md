@@ -62,7 +62,7 @@ If you have signed up for a trial and have not yet purchased [!INCLUDE[d365fin](
 You can find a Business Central partner on the [https://www.microsoft.com/solution-providers/search](https://go.microsoft.com/fwlink/?linkid=2038145) page.  
 
 ## Why does Help describe functionality that I cannot access?
-If your Experience setting in the **Company Information** page is set to **Essential**, then UI elements for the Manufacturing and Service Management features are not visible to you because they require the **Premium** experience. A text note is inserted in high-level help topics for these feature areas. For more information, see [Changing Which Features are Displayed](ui-experiences.md).    
+If your Experience setting on the **Company Information** page is set to **Essential**, then UI elements for the Manufacturing and Service Management features are not visible to you because they require the **Premium** experience. A text note is inserted in high-level help topics for these feature areas. For more information, see [Changing Which Features are Displayed](ui-experiences.md).    
 
 ## See Also
 [Getting Started](product-get-started.md)  

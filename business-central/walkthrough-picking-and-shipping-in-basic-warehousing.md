@@ -52,7 +52,7 @@ To complete this walkthrough, you will need:
 -   To make yourself a warehouse employee at SILVER location by following these steps:  
 
     1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
-    2.  Choose the **User ID** field, and select your own user account in the **Users** page.  
+    2.  Choose the **User ID** field, and select your own user account on the **Users** page.  
     3.  In the **Location Code** field, enter SILVER.  
     4.  Select the **Default** field.  
 
@@ -69,7 +69,7 @@ To complete this walkthrough, you will need:
     3.  Choose the **Post** action, and then select the **Yes** button.  
 
 ## Story  
-Ellen, the warehouse manager at CRONUS, sets up SILVER warehouse for basic pick handling where warehouse workers process outbound orders individually. Susan, the order processor, creates a sales order for 30 units of item LS-81 to be shipped to customer 10000 from the SILVER Warehouse. John, the warehouse worker must make sure that the shipment is prepared and delivered to the customer. John manages all involved tasks in the **Inventory Pick** page, which automatically points to the bins where LS-81 is stored.  
+Ellen, the warehouse manager at CRONUS, sets up SILVER warehouse for basic pick handling where warehouse workers process outbound orders individually. Susan, the order processor, creates a sales order for 30 units of item LS-81 to be shipped to customer 10000 from the SILVER Warehouse. John, the warehouse worker must make sure that the shipment is prepared and delivered to the customer. John manages all involved tasks on the **Inventory Pick** page, which automatically points to the bins where LS-81 is stored.  
 
 ## Setting Up the Location  
 The setup of the **Location Card** page defines the company’s warehouse flows.  

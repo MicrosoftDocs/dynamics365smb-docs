@@ -40,7 +40,7 @@ To create a purchase order for each unavailable item quantity on the sales order
     >   You can also change the **Quantity to Purchase** field on grayed lines even though they represent fully available sales quantities.
 5. Choose the **OK** button.
 
-    A purchase order is created for each vendor of items on the sales order, including any quantity changes that you made in the **Create Purchase Orders** page.
+    A purchase order is created for each vendor of items on the sales order, including any quantity changes that you made on the **Create Purchase Orders** page.
 7. Proceed to process the purchase order or orders, for example, by editing or adding purchase order lines. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 
 

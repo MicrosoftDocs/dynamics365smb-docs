@@ -24,7 +24,7 @@ If these rates do not match the currency rates used in the purchase or sales inv
 You can run this batch job as often as you like, however make sure that you always run it before creating a VAT statement.  
 
 > [!NOTE]  
->  When using a report currency, make sure that the **VAT Exchange Rate Adjustment** field in the **General Ledger Setup** page is set to **No Adjustment**.  
+>  When using a report currency, make sure that the **VAT Exchange Rate Adjustment** field on the **General Ledger Setup** page is set to **No Adjustment**.  
 
 For more information about VAT and foreign currencies, see the [ESTV](https://go.microsoft.com/fwlink/?LinkId=285999) website.  
 

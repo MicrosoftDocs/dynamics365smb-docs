@@ -144,7 +144,7 @@ Phrases like “run planning” and “run MRP” refer to the calculation of th
 
 1.  Select the planning line for item 1300, and then choose the **Order Tracking** action.  
 
-     The two lines in the **Order Tracking** page show that five pieces are tracked from the planning line (first order tracking line) to sales order 1001 (second order tracking line). The last five pieces suggested on the planning line are not related to any document lines, but to a planning parameter, forecast entry, or blanket order entry. Such untracked quantities are summed in the **Untracked Quantity** field in the header of the **Order Tracking** page.  
+     The two lines on the **Order Tracking** page show that five pieces are tracked from the planning line (first order tracking line) to sales order 1001 (second order tracking line). The last five pieces suggested on the planning line are not related to any document lines, but to a planning parameter, forecast entry, or blanket order entry. Such untracked quantities are summed in the **Untracked Quantity** field in the header of the **Order Tracking** page.  
 
 2.  Choose the **Untracked Quantity** field.  
 
@@ -240,7 +240,7 @@ Phrases like “run planning” and “run MRP” refer to the calculation of th
 
 1.  Select the planning line for item 1250, and then choose the **Order Tracking** action.  
 
-     The seven lines in the **Order Tracking** page show that five and ten pieces are tracked through the back wheel to the touring bikes on the two sales orders respectively.  
+     The seven lines on the **Order Tracking** page show that five and ten pieces are tracked through the back wheel to the touring bikes on the two sales orders respectively.  
 
      The last five pieces are untracked. Proceed to analyze.  
 

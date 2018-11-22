@@ -112,7 +112,7 @@ The following diagram shows how cost applications are made.
 -   In the **Posted Sales Shipment** page, look up from the **Appl.-from Item Entry** field to see if the field is populated, and in that case to which item ledger entry the return receipt is cost applied.  
 
 > [!NOTE]  
->  Cost applications cannot be identified in the **Applied Item Entries** page because that page only shows quantity applications.  
+>  Cost applications cannot be identified on the **Applied Item Entries** page because that page only shows quantity applications.  
 
  For both scenarios, identify the involved cost application as follows:  
 

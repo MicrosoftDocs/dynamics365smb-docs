@@ -14,11 +14,11 @@
 
 ---
 # Work with Serial and Lot Numbers
-You can assign serial numbers and lot numbers to any outbound or inbound document, and its posted item tracking entries are displayed in the related item ledger entries. You perform the work in the **Item Tracking Lines** page.
+You can assign serial numbers and lot numbers to any outbound or inbound document, and its posted item tracking entries are displayed in the related item ledger entries. You perform the work on the **Item Tracking Lines** page.
 
 The matrix of quantity fields at the top of the **Item Tracking Lines** page displays the quantities and sums of item tracking numbers being defined on the lines. The quantities must correspond to those of the document line, which is indicated by 0 in the **Undefined** fields.
 
-As a performance measure, the program collects the availability information in the **Item Tracking Lines** page only once, when you open the page. This means that the program does not update the availability information during the time that you have the page open, even if changes occur in inventory or on other documents during that time.
+As a performance measure, the program collects the availability information on the **Item Tracking Lines** page only once, when you open the page. This means that the program does not update the availability information during the time that you have the page open, even if changes occur in inventory or on other documents during that time.
 
 Items with serial or lot numbers can be traced both backwards and forward in their supply chain. This is useful for general quality assurance and for product recalls. For more information, see [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md).
 
@@ -29,7 +29,7 @@ In some processes, the inventory items do not carry serial or lot numbers, and t
 
 In simple processes, the inventory items already carry serial or lot numbers, for example assigned during the put-away, and these numbers are automatically transferred through all outbound warehouse activities without interaction by warehouse workers.
 
-In special situations for serial- or lot-numbered inventory, specific serial or lot numbers are defined on the source document, such as a sales order, which the warehouse worker must respect during the outbound warehouse handling. This may be because the customer requested a specific lot during the order process. When the inventory pick or warehouse pick document is created from an outbound source document where serial or lot numbers are already defined, then all fields in the **Item Tracking Lines** page under the inventory pick are locked for writing, except the **Qty. to Handle** field. In that case, the inventory pick lines specify the item tracking numbers on individual take and place lines. The quantity is already split into unique serial or lot number combinations because the sales order specifies the item tracking numbers to ship.  
+In special situations for serial- or lot-numbered inventory, specific serial or lot numbers are defined on the source document, such as a sales order, which the warehouse worker must respect during the outbound warehouse handling. This may be because the customer requested a specific lot during the order process. When the inventory pick or warehouse pick document is created from an outbound source document where serial or lot numbers are already defined, then all fields on the **Item Tracking Lines** page under the inventory pick are locked for writing, except the **Qty. to Handle** field. In that case, the inventory pick lines specify the item tracking numbers on individual take and place lines. The quantity is already split into unique serial or lot number combinations because the sales order specifies the item tracking numbers to ship.  
 
 ## Item Tracking Availability
 When you work with serial and lot numbers, [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates availability information for lot and serial numbers and shows it in the various item tracking pages. This lets you see how much of a lot or serial number is currently being used on other documents. This reduces errors and uncertainty caused by double allocations.
@@ -46,7 +46,7 @@ In the **Lot No./Serial No.-List** page, the **Lot No./Serial No.-Availability**
 |**Current Requested Quantity**|The number of items that are requested that will be used on the current document|
 |**Total Available Quantity**|The total number of items in inventory, minus the quantity of the item that are requested on this and other documents (total requested quantity), and minus the quantity that is requested but not yet committed on this document (current pending quantity)|
 
-If you work in the **Item Tracking Lines** page for a long period of time or if there is a great deal of activity with the item you are working with, then you can choose the **Refresh Availability** action. In addition, the availability of the item is automatically rechecked when you close the page to confirm that there are no availability problems.
+If you work on the **Item Tracking Lines** page for a long period of time or if there is a great deal of activity with the item you are working with, then you can choose the **Refresh Availability** action. In addition, the availability of the item is automatically rechecked when you close the page to confirm that there are no availability problems.
 
 ## To set up item tracking codes
 An item tracking code reflects the different considerations a company has regarding the use of serial and lot numbers for items moving through the inventory.  
@@ -109,7 +109,7 @@ You cannot modify the serial or lot numbers or quantities. To do so, you must re
 ## To assign serial or lot numbers during an inbound transaction  
 Companies may want to keep track of items from the moment they enter the company. In this situation, the purchase order is often the central document, although item tracking may be handled from any inbound document and its posted entries displayed in the related item ledger entries.  
 
-The exact rules for handling item tracking numbers across your company are governed by the setup in the **Item Tracking Code Card** page.  
+The exact rules for handling item tracking numbers across your company are governed by the setup on the **Item Tracking Code Card** page.  
 
 > [!NOTE]  
 >  To use item tracking numbers in warehouse activities, the **Lot Warehouse Tracking** and **SN Warehouse Tracking** setup fields must be selected, as they define the special principles in handling serial and lot numbers in warehouse activities.  
@@ -145,7 +145,7 @@ There are two ways to add serial and lot numbers to outbound transactions:
 -   Selecting from existing serial or lot numbers. This applies when item tracking numbers have already been assigned during an inbound transaction. For more information, see the "To select from existing serial numbers and lot numbers" section.
 -   Assigning new serial or lot numbers during outbound transactions. This applies when item tracking numbers are not assigned to items until they are sold and ready to be shipped.  
 
-The different rules for item tracking numbers are set up in the **Item Tracking Code Card** page.  
+The different rules for item tracking numbers are set up on the **Item Tracking Code Card** page.  
 
 > [!NOTE]  
 >  To assign item tracking numbers in warehouse activities, the **SN Warehouse Tracking** and **Lot Warehouse Tracking** check boxes must be selected on the item’s item tracking code card.    

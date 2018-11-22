@@ -42,7 +42,7 @@ Before you can send electronic declarations to the tax authorities you must perf
 
     - Obtain a **Digipoort Service certificate**, which can be obtained at the Dutch Tax Administration website: [https://aansluiten.procesinfrastructuur.nl](https://aansluiten.procesinfrastructuur.nl).
 
-2. Enter general data and personal data received from the tax authorities in the **Elec. Tax Declaration Setup** page. For more information, see [Setting Up Electronic VAT and ICP Declarations](how-to-set-up-electronic-vat-and-icp-declarations.md).
+2. Enter general data and personal data received from the tax authorities on the **Elec. Tax Declaration Setup** page. For more information, see [Setting Up Electronic VAT and ICP Declarations](how-to-set-up-electronic-vat-and-icp-declarations.md).
 
 3. Set up a VAT category code for all XML elements in the electronic VAT declaration. For more information, see [Set Up VAT Categories](how-to-set-up-vat-categories.md).
 
@@ -52,12 +52,12 @@ Before you can send electronic declarations to the tax authorities you must perf
 3. In the **Elec. Tax Declaration Card** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]  
 4. Choose the **OK** button.
 
-The XML elements and the accompanying data of the electronic declaration are displayed on the **Lines** FastTab in the **Elec. Tax Declaration Card** page.
+The XML elements and the accompanying data of the electronic declaration are displayed on the **Lines** FastTab on the **Elec. Tax Declaration Card** page.
 
 The XBRL reporter ensures that all account numbers that are imported from Business Central are mapped to the XBRL elements in a report. The XBRL reporter also displays a list of errors of unmapped elements or accounts.
 
 ## To submit an electronic declaration
-With the XBRL reporter, you can submit the Intracommunautaire Leveringen (ICP) declaration or the VAT declaration in the required XML format. When it is submitted, the file is sent to the tax authorities as defined in the **Elec. Tax Declaration Setup** page.
+With the XBRL reporter, you can submit the Intracommunautaire Leveringen (ICP) declaration or the VAT declaration in the required XML format. When it is submitted, the file is sent to the tax authorities as defined on the **Elec. Tax Declaration Setup** page.
 
 1. In the **Elec. Tax Declaration Card** page, choose the **Submit Electronic Tax Declaration** action.
 2. Fill in the fields as described in the following table.
@@ -92,7 +92,7 @@ and be processed. The first step is to import the response message into [!INCLUD
 4. Choose the **OK** button.
 
 ## To process a response message from the tax authorities
-When a response message is imported, it must be processed by validating its content against the related electronic declaration. If no errors are found in the electronic declaration and the data has been processed by the tax authorities, then the **Status** field in the **Elec. Tax Declaration Card** page is changed to **Acknowledgement**.
+When a response message is imported, it must be processed by validating its content against the related electronic declaration. If no errors are found in the electronic declaration and the data has been processed by the tax authorities, then the **Status** field on the **Elec. Tax Declaration Card** page is changed to **Acknowledgement**.
 
 1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Elec. Tax Decl. Response Msgs.**, and then choose the related link.  
 2. Choose the **Process Response Messages** action.  

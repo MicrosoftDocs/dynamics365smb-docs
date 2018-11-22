@@ -81,7 +81,7 @@ Phyllis requires all customers to be invoiced a 20% deposit for item 1100. Custo
 5.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 6.  Open the card for customer 1100.
 7.  Choose the **Prepayment Percentages** action.  
-8.  Fill in two lines in the **Sales Prepayment Percentages** page as follows.  
+8.  Fill in two lines on the **Sales Prepayment Percentages** page as follows.  
 
     |**Sales Type**|**Sales Code**|**Item No.**|**Prepayment %**|  
     |--------------------|--------------------|------------------|----------------------|  
@@ -122,7 +122,7 @@ Susan creates the prepayment invoice and sends it to the customer.
 
 7. Verify that the **Prepayment %** field on the line with item **1000** contains **30**. The default value was taken from the sales header, which was populated from the customer card.  
 
-    The **Prepayment %** field on the line with item **1100** contains **40**. This is the percentage you entered in the **Sales Prepayment Percentages** page for item **1100** and customer **20000**.  
+    The **Prepayment %** field on the line with item **1100** contains **40**. This is the percentage you entered on the **Sales Prepayment Percentages** page for item **1100** and customer **20000**.  
 
     For more information, see [Set Up Prepayments](finance-set-up-prepayments.md).  
 8. Choose the **Statistics** action.  

@@ -25,7 +25,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can export payment jou
 |SEPA|**Payment Journal** or **Payment Orders**|  
 
 > [!IMPORTANT]  
->  Before you can export a payment, you must select a payment format in the **Payment Export Format** field in the **Bank Account Card** page.  
+>  Before you can export a payment, you must select a payment format in the **Payment Export Format** field on the **Bank Account Card** page.  
 
 ## To export electronic payments using the Payment Orders page  
 

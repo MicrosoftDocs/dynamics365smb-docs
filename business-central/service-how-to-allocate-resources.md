@@ -101,9 +101,9 @@ If the resource allocated to a service task cannot accomplish the work, it means
     > * If you are reallocating a service order that you have converted from a quote, the status of the allocation entries registered for the quote always changes to **Finished** when you reallocate the service items in the service order.  
 
 ## To register resource hours  
-When working on service items in service orders, you need to register the resource hours used for the service. The following procedure shows how to register the resource hours in the **Service Item Worksheet** page.  
+When working on service items in service orders, you need to register the resource hours used for the service. The following procedure shows how to register the resource hours on the **Service Item Worksheet** page.  
 
-You can use the same procedure to register the hours in the **Service Lines** page, which you can open from the Service Order page. Open the relevant service card, and then choose **Actions**, choose **Order**, and then choose **Service Lines**.  
+You can use the same procedure to register the hours on the **Service Lines** page, which you can open from the Service Order page. Open the relevant service card, and then choose **Actions**, choose **Order**, and then choose **Service Lines**.  
 
 If the same resource works on all the service items in the service order, you can register the total resource hours for one service item only and then split the resource line to assign the resource hours to the other service items.
 
@@ -114,7 +114,7 @@ If the same resource works on all the service items in the service order, you ca
 ## To assign a resource to all service items in an order
 If the same resource, for example a technician, works on all the service items in the service order, you can register the total resource hours for one service item only and then split the resource line to divide the resource hours onto the resource lines for the other service items.  
 
-The following procedure shows how to split resource lines in the **Service Invoice Lines** page.  
+The following procedure shows how to split resource lines on the **Service Invoice Lines** page.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Orders**, and then choose the related link.  
 2. Open the relevant service order.  

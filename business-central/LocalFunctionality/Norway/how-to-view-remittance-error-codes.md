@@ -1,6 +1,6 @@
 ---
     title: How to View Remittance Error Codes
-    description: For a remittance error, the error code from the bank and an explanation of the error will be shown for the payment in the **Waiting Journal** page.
+    description: For a remittance error, the error code from the bank and an explanation of the error will be shown for the payment on the **Waiting Journal** page.
 
     services: project-madeira 
     documentationcenter: ''
@@ -17,7 +17,7 @@
 
 ---
 # View Remittance Error Codes
-For a remittance error, the error code from the bank and an explanation of the error will be shown for the payment in the **Waiting Journal** page.  
+For a remittance error, the error code from the bank and an explanation of the error will be shown for the payment on the **Waiting Journal** page.  
 
 ## To view error codes  
 

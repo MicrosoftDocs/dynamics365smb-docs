@@ -37,9 +37,9 @@ To use automatic payments and automatic bills, you must set up the relevant info
 5.  Choose the **OK** button.  
 
     > [!IMPORTANT]  
-    >  Before you can export a vendor bill, you must select a payment format in the **Payment Export Format** field in the **Bank Account Card** page.  
+    >  Before you can export a vendor bill, you must select a payment format in the **Payment Export Format** field on the **Bank Account Card** page.  
     >   
-    >  Before you can export a customer bill, you must select a payment format in the **SEPA Direct Debit Exp. Format** field in the **Bank Account Card** page.  
+    >  Before you can export a customer bill, you must select a payment format in the **SEPA Direct Debit Exp. Format** field on the **Bank Account Card** page.  
 
 The following procedure describes how to set up automatic bills for sales and receivables, but the same steps also apply to setting up purchases and payables for using automatic payments.  
 

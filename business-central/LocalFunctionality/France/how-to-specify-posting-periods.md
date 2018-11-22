@@ -32,9 +32,9 @@ When you specify posting periods, you limit the period in which posting is allow
 The dates that you define here apply to the whole company, that is, to all users.  
 
 > [!NOTE]  
->  You can define different posting periods for different users and apply a posting period to a user in the **User Setup** page.
+>  You can define different posting periods for different users and apply a posting period to a user on the **User Setup** page.
 
-If you enter dates here, the dates entered on the **General** tab in the **General Ledger Setup** page will not apply to these users.  
+If you enter dates here, the dates entered on the **General** tab on the **General Ledger Setup** page will not apply to these users.  
 
 ## See Also  
  [Fiscal Periods and Fiscal Years](fiscal-periods-and-fiscal-years.md)

@@ -28,9 +28,9 @@ You can apply customer ledger entries in several ways:
 > [!NOTE]  
 >   If the **Application Method** field on the customer card contains **Apply to Oldest**, payments are applied to the oldest open credit entry, unless you manually specify an entry. If the application method is **Manual**, you always apply entries manually.
 
-You can apply customer payments manually in the **Cash Receipt Journal** page. A cash receipt journal is a type of general journal, so you can use it to post transactions to general ledger, bank, customer, vendor, and fixed assets accounts. You can apply the payment to one or more debit entries when you post the payment, or you can apply from the posted entries later.
+You can apply customer payments manually on the **Cash Receipt Journal** page. A cash receipt journal is a type of general journal, so you can use it to post transactions to general ledger, bank, customer, vendor, and fixed assets accounts. You can apply the payment to one or more debit entries when you post the payment, or you can apply from the posted entries later.
 
-You can also apply customer and vendor payments in the **Payment Reconciliation Journal** page, by using functions for bank statement import, automatic application, and bank account reconciliation. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md). Alternatively, you can reconcile customer payments based on a list of unpaid sales documents in the **Payment Registration** page. For more information, see [Reconcile Customer Payments From a List of Unpaid Sales Documents](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
+You can also apply customer and vendor payments on the **Payment Reconciliation Journal** page, by using functions for bank statement import, automatic application, and bank account reconciliation. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md). Alternatively, you can reconcile customer payments based on a list of unpaid sales documents on the **Payment Registration** page. For more information, see [Reconcile Customer Payments From a List of Unpaid Sales Documents](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
 
 ## To fill and post a cash receipt journal
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Receipt Journal**, and then choose the related link.
@@ -118,12 +118,12 @@ You can also apply customer and vendor payments in the **Payment Reconciliation 
 On the ledger entry list, on the line that contains the ledger entry that was fully applied to, you can see that the **Open** check box is not selected.  
 
 > [!NOTE]  
->   After you select an entry in the **Apply Customer Entries** page, or several entries by setting the **Applies-to ID**, the **Applied Amount** field on the journal line will contain the sum of the remaining amounts for the posted entries you have selected, unless the field contains something already. If you select **Apply to Oldest** in the **Application Method** field on the customer card, the application occurs automatically.
+>   After you select an entry on the **Apply Customer Entries** page, or several entries by setting the **Applies-to ID**, the **Applied Amount** field on the journal line will contain the sum of the remaining amounts for the posted entries you have selected, unless the field contains something already. If you select **Apply to Oldest** in the **Application Method** field on the customer card, the application occurs automatically.
 
 ## To apply customer ledger entries in different currencies to one another
 If you sell to a customer in one currency and receive payment in another currency, you can still apply the invoice to the payment.  
 
-If you apply an entry (Entry 1) in one currency to an entry (Entry 2) in a different currency, the posting date on Entry 1 is used to find the relevant exchange rate to convert amounts on Entry 2. The relevant exchange rate is found in the **Currency Exchange Rates** page.  
+If you apply an entry (Entry 1) in one currency to an entry (Entry 2) in a different currency, the posting date on Entry 1 is used to find the relevant exchange rate to convert amounts on Entry 2. The relevant exchange rate is found on the **Currency Exchange Rates** page.  
 
 Applying customer ledger entries in different currencies must be enabled. For more information, see [Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md).  
 
@@ -135,7 +135,7 @@ Applying customer ledger entries in different currencies must be enabled. For mo
 6. Post the sales journal.  
 
 > [!IMPORTANT]  
->   When you apply entries in different currencies, the entries are converted to USD. Although the exchange rates for the two currencies are fixed, for example between USD and EUR, there may be a small residual amount when they are converted to USD. These small residual amounts are posted as gains and losses to the account specified in the **Realized Gains Account** or **Realized Losses Account** fields in the **Currencies** page. The **Amount (USD)** field is also adjusted on the vendor ledger entries.  
+>   When you apply entries in different currencies, the entries are converted to USD. Although the exchange rates for the two currencies are fixed, for example between USD and EUR, there may be a small residual amount when they are converted to USD. These small residual amounts are posted as gains and losses to the account specified in the **Realized Gains Account** or **Realized Losses Account** fields on the **Currencies** page. The **Amount (USD)** field is also adjusted on the vendor ledger entries.  
 
 ## To correct an application of customer entries
 When you correct an application, correcting entries that are identical to the original entry but with opposite sign in the amount field are created and posted for all entries, including all general ledger posting derived from the application, such as payment discount and currency gains/losses. The entries that were closed by the application are reopened.  

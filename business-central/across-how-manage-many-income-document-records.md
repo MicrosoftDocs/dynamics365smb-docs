@@ -16,7 +16,7 @@ ms.author: sgroespe
 
 ---
 # Manage Many Incoming Document Records
-As you create or process incoming document records, the number of lines in the **Incoming Documents** page may grow to an extent where you lose overview. Therefore, you can set incoming document records to Processed to remove them from the default view. When you choose the **Show All** action, you can view both processed and unprocessed records.
+As you create or process incoming document records, the number of lines on the **Incoming Documents** page may grow to an extent where you lose overview. Therefore, you can set incoming document records to Processed to remove them from the default view. When you choose the **Show All** action, you can view both processed and unprocessed records.
 
 > [!NOTE]  
 >   You cannot edit information, attach files, or perform other processes on incoming document records that are set to Processed. You must first set it to Unprocessed.
@@ -33,7 +33,7 @@ The **Processed** check box is automatically selected on incoming document recor
     The incoming document records are removed from the default view, and the **Processed** check box is selected on the lines.
 
 > [!NOTE]  
->   You can also perform this action for the individual record in the **Incoming Document Card** page.
+>   You can also perform this action for the individual record on the **Incoming Document Card** page.
 
 ## To view all incoming document records
 1. In the **Incoming Documents** page, choose the **Show All** action.
@@ -46,7 +46,7 @@ All incoming document records are displayed, including those where the **Process
 3. Choose the **Set to Unprocessed** action.  
 
 > [!NOTE]  
->   You can also perform this action for the individual record in the **Incoming Document Card** page.
+>   You can also perform this action for the individual record on the **Incoming Document Card** page.
 
 ## See Also
 [Process Incoming Documents](across-process-income-documents.md)  

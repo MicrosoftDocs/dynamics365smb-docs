@@ -19,7 +19,7 @@
 Plan movements in the worksheet using a bin replenishment function or manually planning the lines that you want to create as movement instructions.  
 
 ## To calculate a replenishment movement  
-As the warehouse ships items out to customers, the bins with the highest bin rankings contain fewer and fewer items. To fill up these high-ranking pick bins with items from other bins, run the **Calculate Bin Replenishment** function in the **Movement Worksheet** page
+As the warehouse ships items out to customers, the bins with the highest bin rankings contain fewer and fewer items. To fill up these high-ranking pick bins with items from other bins, run the **Calculate Bin Replenishment** function on the **Movement Worksheet** page
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Movement Worksheet**, and then choose the related link.  
 2.  Choose the **Calculate Bin Replenishment** action.  

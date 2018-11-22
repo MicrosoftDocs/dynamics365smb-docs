@@ -15,12 +15,12 @@ ms.author: SorenGP
 
 ---
 # Manage Employee Absence
-To manage an employee's absence, you must record the absence in the **Absence Registration** page. It can then be viewed in different ways for analysis and reporting needs.
+To manage an employee's absence, you must record the absence on the **Absence Registration** page. It can then be viewed in different ways for analysis and reporting needs.
 
 You can view employee absence in two different pages:
 
 * The **Absence Registration** page, where you register all employee absences with a line for each absence.
-* The **Employee Absences** page, where the absences for one employee only is shown. This is the information that you entered in the **Absence Registration** page, filtered by the particular employee.
+* The **Employee Absences** page, where the absences for one employee only is shown. This is the information that you entered on the **Absence Registration** page, filtered by the particular employee.
 
 To obtain meaningful statistics, you should always use the same unit of measure (hour or day) when registering employee absences.
 

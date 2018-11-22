@@ -23,7 +23,7 @@ You can record and maintain an up-to-date file on maintenance and service of you
 Indexation is used to adjust values for general price-level changes. The **Index Fixed Assets** batch job can be used to recalculate the maintenance costs.
 
 ## To record maintenance work on a fixed asset
-Every time maintenance has been performed, such as a service visit, you can record it for the relevant fixed asset in the **Maintenance Registrations** page.  
+Every time maintenance has been performed, such as a service visit, you can record it for the relevant fixed asset on the **Maintenance Registrations** page.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.  
 2. Select the fixed asset that you want to record maintenance for, and then choose the **Maintenance Registration** action.

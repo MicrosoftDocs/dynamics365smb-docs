@@ -17,7 +17,7 @@
 
 ---
 # Import Payment Return Data
-To import receipt and settlement returns, use the **Rem. payment order – import** page. If any errors are indicated when importing settlement returns, you can view this information in the **Settlement Info** page.  
+To import receipt and settlement returns, use the **Rem. payment order – import** page. If any errors are indicated when importing settlement returns, you can view this information on the **Settlement Info** page.  
 
 ## To import return data  
 

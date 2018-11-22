@@ -21,7 +21,7 @@ You must submit a periodic report of trade with other EU countries/regions to th
 
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the Report 349 declaration is based on VAT entries that are filtered by the EU country/region codes. You must create a 349 declaration and then submit the file to the [Spanish Tax Agency](https://go.microsoft.com/fwlink/?LinkId=238181) website or on CD-ROM.  
 
-When you create a Report 349 declaration that includes credit memos, the entries will display in the **Customer/Vendor Warnings 349** page so that you can include them as corrections to invoices. You must make the appropriate changes to the lines in the **Customer/Vendor Warnings 349** page before you can submit the declaration. For more information, [Create Report 349](how-to-create-report-349.md).  
+When you create a Report 349 declaration that includes credit memos, the entries will display on the **Customer/Vendor Warnings 349** page so that you can include them as corrections to invoices. You must make the appropriate changes to the lines on the **Customer/Vendor Warnings 349** page before you can submit the declaration. For more information, [Create Report 349](how-to-create-report-349.md).  
 
 ## Delivery Operation Codes  
 The **Report 349** declaration must specify separate operation codes for the delivery of goods to other EU countries/regions. You can set up separate VAT product posting groups for each type of export delivery. Then, when you apply a VAT posting group to an item that is sold, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] stores the delivery operation code, and the transaction is included in the quarterly 349 declaration.  

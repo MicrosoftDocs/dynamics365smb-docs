@@ -38,7 +38,7 @@ You create a job card and then create job task lines and job planning lines for 
 >   If you are using time sheets with your job, you must also designate a person responsible. This person can approve time sheets for the employee tasks associated with the job. For more information, see [Set Up Timesheets](projects-how-setup-time-sheets.md).
 
 ## To create tasks for a job
-A key part of creating a job is to specify the various tasks involved in the job. You do this by adding new lines on the **Tasks** FastTab in the **Job Card** page, one task per line. Every job must have at least one task.
+A key part of creating a job is to specify the various tasks involved in the job. You do this by adding new lines on the **Tasks** FastTab on the **Job Card** page, one task per line. Every job must have at least one task.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.
 2. Open the job card for a relevant job.

@@ -78,7 +78,7 @@ Before you can perform the tasks in the walkthrough, you must do the following:
 -   Make yourself a warehouse employee at WHITE location by following these steps:  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
-2.  Choose the **User ID** field, and select your own user account in the **Users** page.  
+2.  Choose the **User ID** field, and select your own user account on the **Users** page.  
 3.  In the **Location Code** field, enter WHITE.  
 4.  Select the **Default** field.  
 
@@ -217,7 +217,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
     > [!NOTE]  
     >  The following availability issue exists for the sales order line for Kit B:  
     >   
-    >  -   Assembly component 80210 is not available. This means that the three specified units of Kit B cannot be assembled, indicated by **0** in the **Able to Assemble** field in the **Assembly Availability** page.  
+    >  -   Assembly component 80210 is not available. This means that the three specified units of Kit B cannot be assembled, indicated by **0** in the **Able to Assemble** field on the **Assembly Availability** page.  
     >   
     >  The following availability issue exists for the sales order line for Kit A:  
     >   
@@ -354,7 +354,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 3.  On the **Navigate** tab, in the **Warehouse** group, choose **Asm.-to-Order Whse. Shpt. Line**.  
 4.  In the **Asm.-to-Order Whse. Shpt. Line** page, in the **Qty. to Ship** field, enter **5**, and then close the page.  
 
-    Notice in the **Assembly Order** page that the **Quantity to Assemble** and the **Quantity to Consume** fields are now filled with the output and consumption quantities that will be posted with the shipment.  
+    Notice on the **Assembly Order** page that the **Quantity to Assemble** and the **Quantity to Consume** fields are now filled with the output and consumption quantities that will be posted with the shipment.  
 
 5.  Close the **Assembly Order** page.  
 

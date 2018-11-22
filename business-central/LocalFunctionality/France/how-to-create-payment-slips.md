@@ -44,7 +44,7 @@ The following procedure describes how to create payment slips for vendor payment
     |**Account No.**|The unique identification number for the account to which the entry will be posted.|  
 
 7.  In the **Bank Account Code** field, select a bank name from the list, and then choose **Advanced**.  
-8.  Optionally, for SEPA, in the **Select – Vendor Account List** page, and then choose the **Edit** action.  
+8.  Optionally, for SEPA, on the **Select – Vendor Account List** page, and then choose the **Edit** action.  
 
     Fill in the following fields if needed:  
 
@@ -115,7 +115,7 @@ After you create a payment slip, you can generate payment files and send them to
 3.  In the **Payment Slip** page, choose the **Generate file** action.  
 4.  Choose the **Yes** button, and then choose the **OK** button.  
 
-    The payment file is generated and exported according to the export type that is specified in the **Payment Step** page.  
+    The payment file is generated and exported according to the export type that is specified on the **Payment Step** page.  
 
 5.  In the case of error, review the errors listed in the **File Export Errors** FactBox, and take the appropriate action.  
 

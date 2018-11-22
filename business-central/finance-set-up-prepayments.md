@@ -31,7 +31,7 @@ Because the prepaid amount belongs to the buyer until they have received the goo
     - **Sales Prepayments Account**  
     - **Purch. Prepayments Account**  
 
-If you have not already set up general ledger accounts for prepayments, you can do that in the **G/L Account List** page.  
+If you have not already set up general ledger accounts for prepayments, you can do that on the **G/L Account List** page.  
 
 ## To set up number series for prepayment documents  
 

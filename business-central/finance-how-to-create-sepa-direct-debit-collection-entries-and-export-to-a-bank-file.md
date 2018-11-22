@@ -50,14 +50,14 @@ If the exported file cannot be processed, for example because the customer is in
 ### To reject a direct-debit collection entry  
 * In the **Direct Debit Collect. Entries** page, select the entry that was not successfully processed, and then, on the **Home** tab, in the **Process** group, choose **Reject Entry**.  
 
-     The value in the **Status** field in the **Direct Debit Collect. Entries** page is changed to **Rejected**.  
+     The value in the **Status** field on the **Direct Debit Collect. Entries** page is changed to **Rejected**.  
 
 ### To close a direct-debit collection  
 * In the **Direct Debit Collect. Entries** page, select the entry that was successfully processed, and then, on the **Home** tab, in the **Process** group, choose **Close Collection**.  
 
      The related direct-debit collection is closed.  
 
-You can now post receipts of payment for the involved sales invoices. You can do this as you typically post payment receipts, such as in the **Payment Registration** page, or you can post the related payment receipts directly from the **Direct Debit Collect. Entries** page. For more information, see [Post SEPA Direct Debit Payment Receipts](finance-how-to-post-sepa-direct-debit-payment-receipts.md).  
+You can now post receipts of payment for the involved sales invoices. You can do this as you typically post payment receipts, such as on the **Payment Registration** page, or you can post the related payment receipts directly from the **Direct Debit Collect. Entries** page. For more information, see [Post SEPA Direct Debit Payment Receipts](finance-how-to-post-sepa-direct-debit-payment-receipts.md).  
 
 ## See Also  
 [Set Up SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)   

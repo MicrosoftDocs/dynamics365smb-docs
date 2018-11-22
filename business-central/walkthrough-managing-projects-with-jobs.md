@@ -205,7 +205,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
     -   **Quantity**: **2**  
     -   **Unit Cost**: **400**  
 
-2.  Choose the **OK** button to close the page. The totals are updated in the **Job Task Lines** page.  
+2.  Choose the **OK** button to close the page. The totals are updated on the **Job Task Lines** page.  
 3.  Select line 1020, and then choose the **Job Planning Lines** action. Enter the following information:  
 
      **Line 1**  
@@ -224,7 +224,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
     -   **No.**: **80201 (Graphic program)**  
     -   **Quantity**: **1**  
 
-4.  Choose the **OK** button to close the page. Totals are updated in the **Job Task Lines** page.  
+4.  Choose the **OK** button to close the page. Totals are updated on the **Job Task Lines** page.  
 
 ## Calculating Remaining Usage  
  Tricia, the team project member, has been working on the job for a while and wants to register her hours and usage on the job. She has not worked more hours than was agreed upon with the customer in advance. She uses the **Calculate Remaining Usage** batch job to calculate remaining usage for the job in a job journal. For each task, the batch job calculates the difference between scheduled usage of items, resources, and general ledger expenses and the actual usage posted in job ledger entries. The remaining usage is then displayed in the job journal from where she can post it.  
@@ -267,7 +267,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 2.  Select any of the planning lines that have been invoiced, and then choose the **Sales Invoice/Credit Memo** action.
 3. In the **Job Invoices** page, choose the **Open Sales Invoice/Credit Memo** action.  
 
- Tricia has a question about the prices, costs, and profits that are relevant to this particular job, so she accesses that information in the **Statistics** page.  
+ Tricia has a question about the prices, costs, and profits that are relevant to this particular job, so she accesses that information on the **Statistics** page.  
 
 ### To open the Statistics page  
 
@@ -295,7 +295,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
     -   **Quantity**: **30**  
 
 7.  Choose the **OK** button to close the page.  
-8.  In the **Schedule (Total Cost)** field, right-click the field, and choose **Drilldown** again in the **Job Task Lines** page. View the changes to the schedule. You see that 30 hours have been added to the schedule.  
+8.  In the **Schedule (Total Cost)** field, right-click the field, and choose **Drilldown** again on the **Job Task Lines** page. View the changes to the schedule. You see that 30 hours have been added to the schedule.  
 9. Choose the **OK** button to close the pages.  
 
  After Tricia has been added to the schedule for this task line, she works 25 hours on the job. She enters these hours into the job journal.  

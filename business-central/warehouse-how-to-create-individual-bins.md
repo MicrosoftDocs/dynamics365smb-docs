@@ -16,7 +16,7 @@
 
 ---
 # Create Bins
-The most effective way to create the bins of your warehouse is to generate groups of similar bins in the bin creation worksheet, but you can also create your bins individually from the location card. You can also use a function in the **Bin Creation Worksheet** page to create bins automatically.  
+The most effective way to create the bins of your warehouse is to generate groups of similar bins in the bin creation worksheet, but you can also create your bins individually from the location card. You can also use a function on the **Bin Creation Worksheet** page to create bins automatically.  
 
 ## To create a bin from the location card  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and choose the related link.  

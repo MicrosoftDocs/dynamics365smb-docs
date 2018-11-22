@@ -83,7 +83,7 @@ When you fill in journal lines to post to a depreciation book, you can duplicate
     > [!NOTE]  
     >   Another way to duplicate an entry in a separate book is to enter a depreciation book code in the **Duplicate in Depreciation Book** field when you fill in a journal line.  
 
-You can copy entries from one depreciation book to another by using the **Copy Depreciation Book** batch job. The batch job creates journal lines in the journal batch that you have specified in the **FA Journal Setup** page for the depreciation book that you want to copy to. For more information, see the following procedure.  
+You can copy entries from one depreciation book to another by using the **Copy Depreciation Book** batch job. The batch job creates journal lines in the journal batch that you have specified on the **FA Journal Setup** page for the depreciation book that you want to copy to. For more information, see the following procedure.  
 
 ## To copy fixed asset ledger entries between depreciation books
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Books**, and then choose the related link.  

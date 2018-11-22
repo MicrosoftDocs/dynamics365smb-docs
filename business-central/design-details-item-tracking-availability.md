@@ -28,7 +28,7 @@ The **Item Tracking Lines** and **Item Tracking Summary** pages provide dynamic 
 |**Total Available Quantity**|The quantity of the serial or lot number that is available for the user to request.<br /><br /> This quantity is calculated from other fields on the page as follows:<br /><br /> total quantity – (total requested quantity + current pending quantity).|  
 
 > [!NOTE]  
->  You can also see the information in the preceding table by using the **Select Entries** function in the **Item Tracking Lines** page.  
+>  You can also see the information in the preceding table by using the **Select Entries** function on the **Item Tracking Lines** page.  
 
  To preserve database performance, availability data is only retrieved once from the database when you open the **Item Tracking Lines** page and when you use the **Refresh Availability** function on the page.  
 

@@ -42,7 +42,7 @@ To create pick requests, both for pull and for push scenarios, the source docume
 2.  Choose the **Get Warehouse Documents** action, and then select the component lines from the released production order.  
 3.  Inspect the lines, sort them to ensure an efficient picking round, and combine them with other worksheet lines if necessary to make best use of employee time.  
 4.  Choose the **Create Pick** action.  
-5.  Define how to create the warehouse pick documents and how to sort pick lines by filling fields in the **Create Pick** page.  
+5.  Define how to create the warehouse pick documents and how to sort pick lines by filling fields on the **Create Pick** page.  
 6.  Choose the **OK** button. Warehouse pick documents are created with pick lines for each component that is required in the internal operation.  
 
 If the internal operation area, such as a production shop floor, is set up with a default bin for placement of components to be used in the operation, then that bin code is inserted in the Place lines on the warehouse pick document to instruct warehouse workers where to place the items. For more information, see the **To-Production Bin Code** or the **To-Assembly Bin Code** field.

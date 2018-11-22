@@ -34,7 +34,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], availability figures are shown i
 >   The following procedures describe how to view advanced availability information from the items list and item card. You can also access the information from sales document lines, for the item on the line. For more information, see [Sell Products](sales-how-sell-products.md).
 
 ## To view the availability of an item according to when it will be received or shipped
-You view the availability of an item according to scheduled item transactions in the **Availability by Event** page.
+You view the availability of an item according to scheduled item transactions on the **Availability by Event** page.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. Open the card of an item that you want to view availability for.
@@ -44,7 +44,7 @@ You view the availability of an item according to scheduled item transactions in
 4. Choose the value in the **Projected Available Balance** field to view the item ledger entries or open documents that make up the value.
 
 ## To view the availability of an item in different periods
-You view the availability of an item over time for specified time periods in the **Item Availability by Periods** page.
+You view the availability of an item over time for specified time periods on the **Item Availability by Periods** page.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. Open the card of an item that you want to view availability for.
@@ -54,7 +54,7 @@ You view the availability of an item over time for specified time periods in the
 4. Choose the value in the **Projected Available Balance** field to view the item ledger entries or open documents that make up the value.
 
 ## To view the availability of an item at the locations where it is stored
-You view the availability of an item at the different places where it is stored in the **Item Availability by Location** page.
+You view the availability of an item at the different places where it is stored on the **Item Availability by Location** page.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. Open the card of an item that you want to view availability for.
@@ -65,7 +65,7 @@ You view the availability of an item at the different places where it is stored 
 5. Choose the value in the **Projected Available Balance** field to view the item ledger entries or open documents that make up the value.
 
 ## To view the availability of all items by the location where they are stored
-You view the availability of all your items across all your locations in the **Items by Location** page.
+You view the availability of all your items across all your locations on the **Items by Location** page.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. Choose the **Items by Location** action.
@@ -74,7 +74,7 @@ You view the availability of all your items across all your locations in the **I
 3. Choose the value in the **Qty. on Hand** field to view the item ledger entries that make up the value.
 
 ## To view the availability of an item by its use in assembly or production BOMs
-If an item exists in assembly or production BOMs, either as a parent item or as a component, then you can view how many units of its are required in the **Item Availability by BOM Level** page. The page shows how many units of a parent you can make based on the availability of child items on underlying lines. Any item that has an assembly or production BOM is shown on the page as a collapsible line. You can expand this line to see the underlying components and lower-level subassemblies with their own BOMs.
+If an item exists in assembly or production BOMs, either as a parent item or as a component, then you can view how many units of its are required on the **Item Availability by BOM Level** page. The page shows how many units of a parent you can make based on the availability of child items on underlying lines. Any item that has an assembly or production BOM is shown on the page as a collapsible line. You can expand this line to see the underlying components and lower-level subassemblies with their own BOMs.
 
 You can use the page to find out whether you can fulfill a sales order for an item on a specified date by looking at its current availability and the quantities that can be supplied by its components. You can also use the page to identify bottlenecks in related BOMs.
 

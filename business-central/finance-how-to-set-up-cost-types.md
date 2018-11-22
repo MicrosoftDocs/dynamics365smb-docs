@@ -36,7 +36,7 @@ The chart of cost types is similar to the chart of accounts in the general ledge
 2.  Fill in the fields as described as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >  You can set up and maintain cost types in either the **Cost Type Card** page or in the **Chart of Cost Types** page. In this procedure, you set up cost types in the **Chart of Cost Types** page.
+    >  You can set up and maintain cost types in either the **Cost Type Card** page or on the **Chart of Cost Types** page. In this procedure, you set up cost types on the **Chart of Cost Types** page.
 
 3.  After you have created all cost types, choose the **Indent Cost Types** action. In the dialog box, choose the **Yes** button.  
 4.  Link the new cost type to the corresponding general ledger account.  

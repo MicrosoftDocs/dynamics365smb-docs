@@ -95,8 +95,8 @@ Notice that the value in the **Status** field has changed to **Pending Approval*
 
 ### To approve the purchase order, as Sean  
 1. Log in as Sean.
-2.  On the Role Center, in the **My Notifications** page, look for a new note from Alicia.  
-3.  When the note appears in the **My Notifications** page, choose the **Approval Entry: XX, XX** value in the **Page** field. The **Requests to Approve** page opens with Alicia’s request for the purchase order highlighted.  
+2.  On the Role Center, on the **My Notifications** page, look for a new note from Alicia.  
+3.  When the note appears on the **My Notifications** page, choose the **Approval Entry: XX, XX** value in the **Page** field. The **Requests to Approve** page opens with Alicia’s request for the purchase order highlighted.  
 4.  In the **Requests to Approve** page, choose the **Approve** action.  
 
     The value in the **Status** field on Alicia’s purchase order changes to **Released**.  

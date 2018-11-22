@@ -36,7 +36,7 @@ The payment journal is a general journal that is optimized for making payments. 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
 2. Open the journal batch that is dedicated to payments.
 3. If you know who to pay or refund, fill in the fields manually. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. To also apply the payment to the related invoice or credit memo, choose the **Applies-to Doc No.** field, in the **Apply Vendor Entries** page, select the relevant invoice or credit memo, and then choose the **OK** button.
+4. To also apply the payment to the related invoice or credit memo, choose the **Applies-to Doc No.** field, on the **Apply Vendor Entries** page, select the relevant invoice or credit memo, and then choose the **OK** button.
 
     Many fields, such as the **Document Amount** and **Due Date** fields, are now filled in with information from the selected document.
 5. Alternatively, use the **Suggest Vendor Payments** function. All the applies-to information and amounts are then also entered on the journal lines. For more information, see [Suggest Vendor Payments](payables-how-suggest-vendor-payments.md).

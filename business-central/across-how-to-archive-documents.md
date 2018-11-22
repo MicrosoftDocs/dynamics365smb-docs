@@ -38,7 +38,7 @@ The following procedure describes how to archive a sales order. The steps are si
 2.  Open a sales order that you want to archive.  
 3.  Choose the **Archive Document** action.
 
-The sales order is archived. You can view it in the **Archived Sales orders** page. From here, you can also use it to recreate the sales order that it was archived from.
+The sales order is archived. You can view it on the **Archived Sales orders** page. From here, you can also use it to recreate the sales order that it was archived from.
 
 ## To recreate a sales order from the archive
 The following procedure describes how to recreate a sales order. The steps are similar for all orders, blanket orders, return orders, and quotes.

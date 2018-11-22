@@ -30,7 +30,7 @@ You can apply vendor ledger entries in three different ways:
 > [!NOTE]  
 >   If the **Application Method** field on the vendor card contains **Apply to Oldest**, then payments will automatically be applied to the oldest open credit entry if you do not manually specify which entry to apply to. If the application method for a customer is **Manual**, then you must apply entries manually.
 
-You can apply vendor payments manually to their related purchase documents when you post the payments in the **Payment Journal** page. For information about filling the payment journal, see [Making Payments](payables-make-payments.md).
+You can apply vendor payments manually to their related purchase documents when you post the payments on the **Payment Journal** page. For information about filling the payment journal, see [Making Payments](payables-make-payments.md).
 
 You can also apply vendor payments, and customer payments, after the payments appear as negative bank transactions in your bank. In the **Payment Reconciliation Journal** page, you can use functions for bank statement import, automatic application, and bank account reconciliation. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
 
@@ -89,7 +89,7 @@ You can also apply vendor payments, and customer payments, after the payments ap
 ## To apply vendor ledger entries in different currencies to one another
 If you buy from a vendor in one currency and make payment in another currency, you can still apply the invoice to the payment.
 
-If you apply an entry (Entry 1) in one currency to an entry (Entry 2) in a different currency, the posting date on Entry 1 is used to find the relevant exchange rate to convert amounts on Entry 2. The relevant exchange rate is found in the **Currency Exchange Rates** page. In that case, you must enable application of vendor ledger entries in different currencies. For more information, see [Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md)
+If you apply an entry (Entry 1) in one currency to an entry (Entry 2) in a different currency, the posting date on Entry 1 is used to find the relevant exchange rate to convert amounts on Entry 2. The relevant exchange rate is found on the **Currency Exchange Rates** page. In that case, you must enable application of vendor ledger entries in different currencies. For more information, see [Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md)
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journal**, and then choose the related link.
 2. Open the journal you want, and fill in the first empty journal line using a currency code.
@@ -99,7 +99,7 @@ If you apply an entry (Entry 1) in one currency to an entry (Entry 2) in a diffe
 6. Post the payment journal.
 
 > [!IMPORTANT]  
->   When you apply entries in different currencies to one another, the entries are converted to USD. Even though the exchange rates for the two relevant currencies are fixed, for example between USD and EUR, there may be a small residual amount when these foreign-currency amounts are converted to USD. These small residual amounts are posted as gains and losses to the account specified in the **Realized Gains Account** or **Realized Losses Account** field in the **Currencies** page. The **Amount (USD)** field is also adjusted on the relevant vendor ledger entries.
+>   When you apply entries in different currencies to one another, the entries are converted to USD. Even though the exchange rates for the two relevant currencies are fixed, for example between USD and EUR, there may be a small residual amount when these foreign-currency amounts are converted to USD. These small residual amounts are posted as gains and losses to the account specified in the **Realized Gains Account** or **Realized Losses Account** field on the **Currencies** page. The **Amount (USD)** field is also adjusted on the relevant vendor ledger entries.
 
 ## To unapply an application of vendor entries
 When you unapply an erroneous application, correcting entries that are identical to the original entry but with opposite sign in the amount field are created and posted for all entries, including all general ledger posting derived from the application, such as payment discount and currency gains/losses. The entries that were closed by the application are reopened.

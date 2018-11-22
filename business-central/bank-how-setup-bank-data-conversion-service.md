@@ -49,7 +49,7 @@ To import or export bank files, you must set up your own bank account and your v
 2. In the **Bank Data Conv. Service Setup** page, choose the **Bank Name - Data Conversion List** action to open the list of bank names representing bank data formats that are supported by the conversion service.
 3. In the **Bank Name - Data Conversion List** page, choose the **Update Bank Name List** action.
 
-The list of bank data formats that are supported by the bank data conversion service is now updated. This is the list of bank names, filtered by the country/region, that you can select from in the **Bank Name - Data Conversion** field in the **Bank Account Card** page.
+The list of bank data formats that are supported by the bank data conversion service is now updated. This is the list of bank names, filtered by the country/region, that you can select from in the **Bank Name - Data Conversion** field on the **Bank Account Card** page.
 
 > [!NOTE]  
 >   The update of supported bank data formats also occurs when you select or enter a value in the **Bank Name - Data Conversion** field on the bank account.

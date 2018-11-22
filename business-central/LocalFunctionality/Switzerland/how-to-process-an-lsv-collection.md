@@ -46,7 +46,7 @@ You can view, edit, or delete the suggested payment lines. If you correct the su
 
 6.  Choose the **OK** button.  
 
-All related lines are transferred to the LSV journal. After processing the LSV collection, you can view, check, or edit the suggested payments in the **LSV Journal** page. For more information, see the LSV Journal Line table.  
+All related lines are transferred to the LSV journal. After processing the LSV collection, you can view, check, or edit the suggested payments on the **LSV Journal** page. For more information, see the LSV Journal Line table.  
 
 ## To manage suggested payments  
 

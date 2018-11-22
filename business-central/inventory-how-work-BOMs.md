@@ -54,7 +54,7 @@ There are two parts to creating an assembly BOM:
 From the **Assembly BOM** page, you can open a separate page that shows the components and any resources indented according to their BOM position under the assembly item.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
-2. Open the card for an assembly item. (The **Assembly BOM** field in the **Items** page contains **Yes**.)
+2. Open the card for an assembly item. (The **Assembly BOM** field on the **Items** page contains **Yes**.)
 3. In the **Item Card** page, choose the **Assembly** action, and then choose the **Assembly BOM** action.
 4. In the **Assembly BOM** page, choose the **Show BOM** action.
 
@@ -71,17 +71,17 @@ The following procedure is based on a sales invoice. The same steps apply to oth
 
 All fields on the sales invoice line for the assembly item are cleared except for the **Item** and **Description** fields. Complete sales invoice lines are inserted for the components and possible resources that comprise the assembly item.
 
-**Note**: The Explode BOM function is also available in the **Assembly BOM** page.
+**Note**: The Explode BOM function is also available on the **Assembly BOM** page.
 
 ## To calculate the standard cost of an assembly item
 You calculate the unit cost of an assembly item by rolling up the unit cost of each component and resource in the item’s assembly BOM.
 
-You can also calculate and update the standard cost for one or many items in the **Standard Cost Worksheet** page. For more information, see [Update Standard Costs](finance-how-to-update-standard-costs.md).  
+You can also calculate and update the standard cost for one or many items on the **Standard Cost Worksheet** page. For more information, see [Update Standard Costs](finance-how-to-update-standard-costs.md).  
 
 The unit cost of an assembly BOM always equals the total of the unit costs of its components, including other assembly BOMs, and any resources.
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Items**, and then choose the related link.
-2. Open the card for an assembly item. (The **Assembly BOM** field in the **Items** page contains **Yes**.)
+2. Open the card for an assembly item. (The **Assembly BOM** field on the **Items** page contains **Yes**.)
 3. In the **Item Card** page, choose the **Assembly** action, and then choose the **Assembly BOM** action.
 4. In the **Assembly BOM** page, choose the **Calc. Standard Cost** action.
 5. Select one of the following options, and then choose the **OK** button.

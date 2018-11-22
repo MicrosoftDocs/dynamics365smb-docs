@@ -33,10 +33,10 @@ You use the **Apply Automatically** function, either automatically when you impo
 
 On journal lines where a payment has been applied automatically to one or more open entries, the **Match Confidence** field has a value between Low and High to indicate the quality of the data matching that the suggested payment application is based on. In addition, the **Account Type** and **Account No.** fields are filled with information about the customer or vendor that the payment is applied to. If you have set up a text-to-account mapping, the automatic application can result in a match confidence value of **High - Text-to-Account Mapping**.
 
-For each journal line in the **Payment Reconciliation Journal** page, you can open the **Payment Application** page to see all candidate open entries for the payment and view detailed information for each entry about the data matching that a payment application is based on. Here, you can manually apply payments or reapply payments that were applied automatically to a wrong entry. For more information, see [Review or Apply Payments After Automatic Application](receivables-how-review-apply-payments-auto-application.md).
+For each journal line on the **Payment Reconciliation Journal** page, you can open the **Payment Application** page to see all candidate open entries for the payment and view detailed information for each entry about the data matching that a payment application is based on. Here, you can manually apply payments or reapply payments that were applied automatically to a wrong entry. For more information, see [Review or Apply Payments After Automatic Application](receivables-how-review-apply-payments-auto-application.md).
 
 > [!NOTE]  
-> You can start the bank transactions import at the same time as you open the **Payment Reconciliation** Journal page for an existing payment reconciliation journal in the **Payment Reconciliation Journals** page. The following procedure describes how to import bank transactions into the **Payment Reconciliation Journal** page after you have created a new journal.
+> You can start the bank transactions import at the same time as you open the **Payment Reconciliation** Journal page for an existing payment reconciliation journal on the **Payment Reconciliation Journals** page. The following procedure describes how to import bank transactions into the **Payment Reconciliation Journal** page after you have created a new journal.
 
 ## To reconcile payments using automatic application
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Reconciliation Journals**, and then choose the related link.
@@ -46,12 +46,12 @@ For each journal line in the **Payment Reconciliation Journal** page, you can op
 4. Choose the **Import Bank Transactions** action.
    If the bank account for the selected journal is not set up for import of bank transactions, then a dialog box will open to help you fill in the relevant fields.
 5. In the **Select a file to import** page, select the file that contains the bank transactions for payments that you want to reconcile, and then choose the **Open** button.  
-6. If the Bank Statement service is enabled, in the **Bank Statement Filter** page that opens automatically, specify the date interval for the bank statements to be imported.
+6. If the Bank Statement service is enabled, on the **Bank Statement Filter** page that opens automatically, specify the date interval for the bank statements to be imported.
 
     The **Payment Reconciliation Journal** page is filled with lines for payments representing bank transactions in the imported bank statement.
 
     On lines for payments that have been automatically applied to their related open entries, the **Match Confidence** field has a value between **Low** and **High** to indicate the quality of the data matching that the suggested payment application is based on. In addition, the **Account Type** and **Account No.** fields are filled with information about the customer or vendor that the payment is applied to.
-7. Select a journal line, and then, choose the **Apply Manually** action to review, reapply, or apply the payment manually in the **Payment Application** page. For more information, see [Review or Apply Payments After Automatic Application](receivables-how-review-apply-payments-auto-application.md).
+7. Select a journal line, and then, choose the **Apply Manually** action to review, reapply, or apply the payment manually on the **Payment Application** page. For more information, see [Review or Apply Payments After Automatic Application](receivables-how-review-apply-payments-auto-application.md).
 
     When you have finished your manual application, the **Match Confidence** field on the journal line that you have processed manually contains **Accepted**.
 8. Select an unapplied journal line for a recurring cash receipt or expense, such as a car gasoline purchase, and then choose the **Map Text to Account** action. For more information, see [Map Text on Recurring Payments to Accounts for Automatic Reconciliation](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)

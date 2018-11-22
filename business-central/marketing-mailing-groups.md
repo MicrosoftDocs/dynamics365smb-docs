@@ -33,7 +33,7 @@ The mailing group code defines the type or category of the group, such as MOVE f
 
 Repeat these steps to assign as many mailing groups as you want. You can also assign mailing groups from the contact list by following the same procedure.
 
-The number of mailing groups you have assigned to the contact is displayed in the **No. of Mailing Groups** field in the **Segmentation** section in the **Contact** page.
+The number of mailing groups you have assigned to the contact is displayed in the **No. of Mailing Groups** field in the **Segmentation** section on the **Contact** page.
 
 After you have assigned mailing groups to your contacts, you can use this information to select contacts for your segments. For more information, see [Add Contacts to Segments](marketing-add-contact-segment.md).
 

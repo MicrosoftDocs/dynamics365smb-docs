@@ -53,7 +53,7 @@ Any base calendar defined for the vendor or the location affects how the dates a
 > [!Important]
 > If your location uses a significantly different calendar than your vendors do, then it is important that you set up specific calendars for those vendors, to calculate optimal vendor lead times. For information about how to set up vendor calendars, see the "To assign a base calendar" section.
 
-The contents of the **Lead Time Calculation** field is copied from either the item card or the SKU card, if the lead time is defined for the item, or in the **Item Vendor Catalog** page, if the lead time is defined for the vendor.
+The contents of the **Lead Time Calculation** field is copied from either the item card or the SKU card, if the lead time is defined for the item, or on the **Item Vendor Catalog** page, if the lead time is defined for the vendor.
 
 ## To customize a calendar
 The main task in customizing a base calendar for your company, or one of its business partners, is to enter any changes to working and nonworking day status.
@@ -96,7 +96,7 @@ Base calendars are assigned to your own company, customers, vendors, locations, 
 -   On the **Company Information** and **Customer** cards, the base calendar is assigned on the **Shipping** FastTab.  
 -   On the **Vendor** card, the base calendar is assigned on the **Receiving** FastTab.  
 -   On the **Location** card, the base calendar is assigned on the **Warehouse** FastTab.  
--   In the **Shipping Agents** page, the base calendar is assigned in the **Shipping Agent Services** page.  
+-   In the **Shipping Agents** page, the base calendar is assigned on the **Shipping Agent Services** page.  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
 2.  Open the **Customer** card for whom you will assign a base calendar.  

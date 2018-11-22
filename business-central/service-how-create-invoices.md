@@ -58,7 +58,7 @@ Typically, after you post a service order with the **Invoice** or **Ship and Inv
 3. Fill in the **No.** field.  
   
     > [!NOTE]  
-    >  If you have set up number series for service invoices in the **Service Mgt. Setup** page, you can press Enter to select the next available service invoice number.  
+    >  If you have set up number series for service invoices on the **Service Mgt. Setup** page, you can press Enter to select the next available service invoice number.  
   
 4. In the **Customer No.** field, enter the number of a customer. Select the relevant customer from the list.  
   

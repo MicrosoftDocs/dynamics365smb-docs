@@ -21,7 +21,7 @@ The Warehouse Management application area and the Inventory application area int
 ## Physical Inventory  
  The **Whse. Phys. Inventory Journal** page is used with the **Phys. Inventory Journal** page for all advanced warehouse locations. The inventory on bin level is calculated, and a printed list is provided for the warehouse employee. The list shows which items in which bins must be counted.  
   
- The warehouse employee enters the counted quantity in the **Whse. Phys. Inventory Journal** page and then posts the journal.  
+ The warehouse employee enters the counted quantity on the **Whse. Phys. Inventory Journal** page and then posts the journal.  
   
  If the counted quantity is greater than the quantity on the journal line, a movement is posted for this difference from the default adjustment bin to the counted bin. This increases the quantity in the counted bin and decreases the quantity in the default adjustment bin.  
   

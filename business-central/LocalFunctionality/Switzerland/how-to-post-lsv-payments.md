@@ -35,9 +35,9 @@ You can post payments after you have received Lastschrift Verfahren (LSV+) payme
 
 5.  Choose the **OK** button.  
 
-    The LSV journal line is imported into the cash receipt journal. The value in the **LSV Status** field in the **LSV Journal List** page changes from **File Created** to **Finished**.  
+    The LSV journal line is imported into the cash receipt journal. The value in the **LSV Status** field on the **LSV Journal List** page changes from **File Created** to **Finished**.  
 
-    You can check the imported payments, and compare them with your bank payment advice in the **Cash Receipt Journal** page. You can also delete the payment lines that could not be processed by the bank, and for which you must follow up with the customer manually.  
+    You can check the imported payments, and compare them with your bank payment advice on the **Cash Receipt Journal** page. You can also delete the payment lines that could not be processed by the bank, and for which you must follow up with the customer manually.  
 
 6.  Choose the **Post** action.  
 

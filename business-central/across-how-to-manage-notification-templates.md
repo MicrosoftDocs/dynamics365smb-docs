@@ -48,14 +48,14 @@ Notifications are sent to workflow users to notify them about steps they must ma
 6.  Edit the content of the notification template by adding, changing, or removing parameter variables to define the content that you want, and then save it. For more information, see the “Content of the Notification Templates” section.  
 
     Proceed to import the modified content back into the same or a new notification template.  
-7.  To modify the notification template that you exported, in the **Notification Templates** page, select the template that you selected in step 2.  
+7.  To modify the notification template that you exported, on the **Notification Templates** page, select the template that you selected in step 2.  
 
     Alternatively, to import the modified template content into a new notification template, follow the “To create a new notification template” procedure, and then select the new notification template.  
 8.  Choose the **Import Template Content** action.  
 9. If you are modifying an existing notification template, choose the **Yes** button on the message about overwriting the existing template.  
 10. In the **Select a file to import** page, choose the HTML file that you modified in step 6, and then choose the **Open** button.  
 
-The existing or new notification template in the **Notification Templates** page is now updated with the modified content.  
+The existing or new notification template on the **Notification Templates** page is now updated with the modified content.  
 
 ### Content of the Notification Templates  
 The three notification template types, **New Record**, **Approval**, and **Overdue**, have different content.  

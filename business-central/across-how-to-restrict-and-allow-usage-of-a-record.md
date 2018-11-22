@@ -30,7 +30,7 @@ The following procedure describes how to restrict purchase orders from being pos
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.  
 2. In the **Workflows** page, create a new workflow named Purchase Order Approval Workflow. For more information, see [Create Workflows](across-how-to-create-workflows.md).  
 3. Choose the **Copy From Workflow Template** action.  
-4. Choose the **Source Workflow Code** field, and then, in the **Workflow Templates** page, choose the Purchase Invoice Approval Workflow workflow template.  
+4. Choose the **Source Workflow Code** field, and then, on the **Workflow Templates** page, choose the Purchase Invoice Approval Workflow workflow template.  
 
      Notice that the first two workflow steps are about restricting and then allowing usage of purchase invoices. Proceed to change the event condition on the first step of the new workflow to specify that it applies to purchase orders.  
 5. On the **Workflow Steps** FastTab, choose the **Event Conditions** field, and then, for the **Document Type** filter, select **Order**.  

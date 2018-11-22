@@ -23,7 +23,7 @@ In conjunction with Telebanking, they allow you to import electronic bank statem
 
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the cash and bank journals to enter the transactions that affect the cash and bank accounts by using the **Cash Book** and **Bank Book** types.  
 
-You can enter increases or decreases to the cash account in the **Cash Journal** page. For example, you can use this journal for paying out petty cash or receiving transfers from a different bank account.  
+You can enter increases or decreases to the cash account on the **Cash Journal** page. For example, you can use this journal for paying out petty cash or receiving transfers from a different bank account.  
 
 The **Bank/Giro Journal** page records the inflow or outflow of the cash to a specific bank account. This journal forms the basis for bank reconciliation. The layout of this journal resembles the paper bank statement, so you can transpose the required fields from the paper statement to the journal, or you can import an electronic bank statement file. The transactions can be customer payments or vendor payments.  
 

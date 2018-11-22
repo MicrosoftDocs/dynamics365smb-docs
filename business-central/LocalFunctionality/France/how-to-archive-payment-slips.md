@@ -43,7 +43,7 @@ You can archive the payment slip by using the following methods:
 The payment slips are archived.  
 
 > [!NOTE]  
->  This batch job will only archive payment slips that have the **Archiving Authorized** check box selected in the **Payment Status** page. For more information, see [Set Up Payment Statuses](how-to-set-up-payment-statuses.md).  
+>  This batch job will only archive payment slips that have the **Archiving Authorized** check box selected on the **Payment Status** page. For more information, see [Set Up Payment Statuses](how-to-set-up-payment-statuses.md).  
 
 ## See Also  
  [Payment Management](payment-management.md)   

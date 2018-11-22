@@ -16,7 +16,7 @@ ms.author: edupont
 Before you can manage fixed assets, you must set up default G/L accounts, allocation keys, journal templates and batches for fixed asset posting and reclassification, and you can classify fixed assets in classes, such as Tangible and Intangible.
 
 ## To set up general default values for fixed assets
-You define the general behavior or the fixed asset functionality and set up document number series in the  in the **Fixed Assets Setup** page.
+You define the general behavior or the fixed asset functionality and set up document number series in the  on the **Fixed Assets Setup** page.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets Setup**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]

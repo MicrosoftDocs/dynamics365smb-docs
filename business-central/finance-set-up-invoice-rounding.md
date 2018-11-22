@@ -39,7 +39,7 @@ To use the automatic invoice rounding function, you must set up the general ledg
 3. Depending on whether you use VAT or sales tax, in the **Tax Prod. Posting Group** or **VAT Prod. Posting Group** fields, choose a posting group for rounded amounts. You may want to set up a new group code to use for invoice rounding.
 4. Leave the **Gen. Posting Type**, and either the **Tax Bus. Posting Group** or **VAT Bus. Posting Group** fields blank. <!-- Why do we say to leave these blank, when there are a lot of other fields we also leave blank but don't mention? -->  
 
-Now you can assign the invoice rounding account to posting groups in the **Vendor Posting Groups** page.  <!-- Why only the vendor posting groups? -->
+Now you can assign the invoice rounding account to posting groups on the **Vendor Posting Groups** page.  <!-- Why only the vendor posting groups? -->
 
 ## Set up rounding for foreign and local currencies
 Before you can use the automatic invoice rounding function, you must set up rounding rules for foreign and local currencies.

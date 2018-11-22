@@ -26,7 +26,7 @@ You can import the BC Bank Master file—the official Swiss bank clearing number
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Directory**, and choose the related link.  
 2.  Choose the **Import Bank Directory** action.  
 3.  In the **Import Bank Directory** page, on the **Options** FastTab, select the **Automatically Update Clearing Numbers** field to update the bank clearing numbers automatically.  
-4.  Choose the **Print** button or the **Preview** button to import the bank clearing numbers, and then, in the **Open** page, locate the file that you have downloaded from the SIX Interbank Clearing website.
+4.  Choose the **Print** button or the **Preview** button to import the bank clearing numbers, and then, on the **Open** page, locate the file that you have downloaded from the SIX Interbank Clearing website.
 5. Choose the **Open** button.  
 
     If you choose the **Print** button, the contents of the file will be printed. If you choose the **Preview** button, the **Bank Directory** table will be updated and a report that has clearing numbers that have changed will be displayed.  

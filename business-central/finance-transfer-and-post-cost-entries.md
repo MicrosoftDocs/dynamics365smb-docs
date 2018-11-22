@@ -55,7 +55,7 @@ Before you run the process for transferring general ledger entries to cost entri
 3.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Cost Types**, and then choose the related link.  
 4.  In the **Cost Type Card** page, verify that the **G/L Account Range** field is linked correctly for each cost type to take entries from the general ledger.  
 5.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
-6.  For each relevant general ledger account, in the **G/L Account Card** page, verify that the **Cost Type No.** field is linked correctly to a cost type. For more information, see [Setting Up Cost Accounting](finance-set-up-cost-accounting.md).  
+6.  For each relevant general ledger account, on the **G/L Account Card** page, verify that the **Cost Type No.** field is linked correctly to a cost type. For more information, see [Setting Up Cost Accounting](finance-set-up-cost-accounting.md).  
 7.  Verify that all relevant general ledger entries have dimension values that correspond to a cost center and a cost object.  
 
 ### To transfer general ledger entries to cost entries  
@@ -74,7 +74,7 @@ In cost accounting, you can transfer general ledger entries to a cost type by us
 |Month|All general ledger entries in the same calendar month are transferred as one entry to the corresponding cost type.|  
 
 > [!IMPORTANT]  
->  If you have selected the **Auto Transfer from G/L** check box in the **Cost Accounting Setup** page, [!INCLUDE[d365fin](includes/d365fin_md.md)] updates the cost accounting after every posting in the general ledger. Combined entries are not possible.
+>  If you have selected the **Auto Transfer from G/L** check box on the **Cost Accounting Setup** page, [!INCLUDE[d365fin](includes/d365fin_md.md)] updates the cost accounting after every posting in the general ledger. Combined entries are not possible.
 
 ## Results of Transferring General Ledger Entries to Cost Entries
 During the transfer of general ledger entries to cost entries, [!INCLUDE[d365fin](includes/d365fin_md.md)] creates connections in the entries in the **G/L Entry** table, the **Cost Entry** table, and the **Cost Register** table to make it possible to trace the connections between cost entries and general ledger entries.  

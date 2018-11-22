@@ -48,7 +48,7 @@ Use the **Bank Rec. Worksheet** page to reconcile bank account ledger entries wi
     >  If needed, you can also use the **Bank Rec. Worksheet** page to view the **Bank Reconciliation Comments** card or the **Bank Reconciliation** card.
 
 ## To post a bank reconciliation
-You can post bank reconciliation if you have reconciled the bank accounts in the **Bank Rec. Worksheet** page. After the bank reconciliation has been posted a bank account statement is created and can be viewed on the bank account card.  
+You can post bank reconciliation if you have reconciled the bank accounts on the **Bank Rec. Worksheet** page. After the bank reconciliation has been posted a bank account statement is created and can be viewed on the bank account card.  
 
 1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Account Reconciliations**, and then choose the related link.
 2. Choose the bank account reconciliation that you want to post, and then choose the **Edit** action.  

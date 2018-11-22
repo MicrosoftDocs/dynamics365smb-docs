@@ -31,7 +31,7 @@ If your business scenario requires workflow events or responses that are not sup
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.  
 2. Choose the **New** action. The **Workflow** page opens.  
 3. In the **Code** field, enter a maximum of 20 characters to identify the workflow.  
-4. To create the workflow from a workflow template, in the **Workflows** page, choose the **Create Workflow from Template** action. For more information, see [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md).  
+4. To create the workflow from a workflow template, on the **Workflows** page, choose the **Create Workflow from Template** action. For more information, see [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md).  
 5. In the **Description** field, describe the workflow.  
 6. In the **Category** field, specify which category the workflow belongs to.  
 7. In the **When Event** field, specify the event that must occur to start the workflow step.  
@@ -43,7 +43,7 @@ If your business scenario requires workflow events or responses that are not sup
 
     If the workflow event is the change of a specific field on a record, then the **Event Conditions** page opens with options to select the field and the type of change.  
 
-    1.  To specify a field change for the event, in the **Event Conditions** page, in the **Field** field, select the field that changes.  
+    1.  To specify a field change for the event, on the **Event Conditions** page, in the **Field** field, select the field that changes.  
     2.  In the **Operator** field, select either **Decreased**, **Increased**, or **Changed**.  
 9. In the **Then Response** field, specify the response that will follow when the workflow event occurs.  
 
@@ -63,7 +63,7 @@ If your business scenario requires workflow events or responses that are not sup
         |----------------------------------|---------------------------------------|  
         |**Due Date Formula**|Specify in how many days the approval request must be resolved from the date when it was sent.|  
         |**Delegate After**|Specify if and when an approval request will automatically be delegated to the relevant substitute. You can select to automatically delegate one, two, or five days after the date when the approval was requested.|  
-        |**Approver Type**|Specify who the approver is, according to the setup of approval users and workflow users.<br /><br /> The following options exist:<br /><br /> -   **Salesperson/Purchaser** specifies that the user who is set up in the **Salespers./Purch. Code** field in the **Approval User Setup** page determines the approver. Approval request entries are then created according to the value in the **Approver Limit Type** field.<br />     For more information, see [Set Up Approval Users](across-how-to-set-up-workflow-users.md).|  
+        |**Approver Type**|Specify who the approver is, according to the setup of approval users and workflow users.<br /><br /> The following options exist:<br /><br /> -   **Salesperson/Purchaser** specifies that the user who is set up in the **Salespers./Purch. Code** field on the **Approval User Setup** page determines the approver. Approval request entries are then created according to the value in the **Approver Limit Type** field.<br />     For more information, see [Set Up Approval Users](across-how-to-set-up-workflow-users.md).|  
         |**Show Confirmation Message**|Specify if a confirmation message is shown to users after they request an approval.|  
         |**Approver Limit Type**|Specify how approvers’ approval limits affect when approval request entries are created for them. A qualified approver is an approver whose approval limit is above the value on the request being made.<br /><br /> The following options exist:<br /><br /> 1.  **Approver Chain** specifies that approval request entries are created for all the requester’s approvers up to and including the first qualified approver.<br />2.  **Direct Approver** specifies that an approval request entry is only created for the requester’s immediate approver, regardless of the approver’s approval limit.<br />3.  **First Qualified Approver** specifies that an approval request entry is only created for the requester’s first qualified approver.<br />|  
     3.  To specify options for a workflow response that involves creating journal lines, fill the fields as described in the following table.  

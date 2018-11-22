@@ -42,7 +42,7 @@ Before you can process payment electronically by exporting payment files in the 
 3. On the **Payment** FastTab, in the **Payment Method Code** field, choose **BANK**.  
 4. In the **Preferred Bank Account** field, choose the bank to which the money will be transferred when it is processed by your electronic bank.  
 
-     The value in the **Preferred Bank Account** field is copied to the **Recipient Bank Account** field in the **Payment Journal** page.  
+     The value in the **Preferred Bank Account** field is copied to the **Recipient Bank Account** field on the **Payment Journal** page.  
 
 ### To set the payment journal up to export payment files  
 1. In the **Search** box, enter **Payment Journals**, and then choose the related link.  

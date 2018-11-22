@@ -32,13 +32,13 @@ Another system that defines what users can access is the Experience setting. For
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
 2. Choose the **Get Users from Office 365** action.
 
-Any new user that has been created for your Office 365 subscription will be added in the **Users** page.
+Any new user that has been created for your Office 365 subscription will be added on the **Users** page.
 
 ## To group users in a user group
 You can set up users groups to help you manage permission sets for groups of users in your company.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Groups**, and then choose the related link.
-2. Alternatively, in the **Users** page, choose the **User Groups** action.
+2. Alternatively, on the **Users** page, choose the **User Groups** action.
 3. In the **User Group** page, choose the **User Group Members** action.
 4. In the **User Group Members** page, choose the **Add Users** action.
 
@@ -84,7 +84,7 @@ When you create new permission sets, you can use a copy function to quickly carr
 2. In the **Copy Permission Set** page, specify the name of the new permission set, and then choose the **OK** button.
 3. Select the **Notify on Changed Permission Set** check box if you want to maintain a link between the original and the copied permission sets. The link is then used to notify you if the name or content of the original permission set changes in a future version that the solution is upgraded to later.
 
-The new permission set, containing all the permissions of the copied permission set, is added as a new line in the **Permission Sets** page. Note that the lines are sorted alphabetically within each type.
+The new permission set, containing all the permissions of the copied permission set, is added as a new line on the **Permission Sets** page. Note that the lines are sorted alphabetically within each type.
 
 ## To create or modify permissions manually
 This procedure explains how to add or edit permissions manually. You can also have a permission sets generated automatically from your actions in the UI. For more information, see the "To create or modify permission sets by recording your actions" section.
@@ -108,7 +108,7 @@ However, the user does not need to have full access to the Sales Line table to r
 
 ## To create or modify permission sets by recording your actions
 1.	Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Permission Sets**, and then choose the related link.
-2.	Alternatively, in the **Users** page, choose the **Permission Sets** action.
+2.	Alternatively, on the **Users** page, choose the **Permission Sets** action.
 3.	In the **Permission Sets** page, choose the **New** Action.
 4.	On a new line, fill in the fields as necessary.
 5.	Choose the **Permissions** action.
@@ -126,7 +126,7 @@ However, the user does not need to have full access to the Sales Line table to r
 ## To assign permission sets to users or user groups
 You can assign permissions to users in two ways:
 - Define permission sets on a user's user card.
-- Select the check box for a user, on a column, for a related permission set, on a row, in the **Permission Set by User** page.
+- Select the check box for a user, on a column, for a related permission set, on a row, on the **Permission Set by User** page.
     With this method, you can also assign permissions sets to user groups.
 
 ### To assign a permission set on a user card
@@ -136,8 +136,8 @@ Any permission sets that are already assigned to the user are displayed in the *
 3. Choose the **Edit** action to open the **User Card** page.
 4. On the **User Permission Sets** FastTab, on a new line, fill in the fields as necessary. For more information, see the "To create or edit a permission set" section.
 
-### To assign a permission set in the **Permission Set by User** page  
-The following procedure explains how to assign permission sets to a user in the **Permission Set by User** page. The steps are similar in the **Permission Set by User Group** page.
+### To assign a permission set on the **Permission Set by User** page  
+The following procedure explains how to assign permission sets to a user on the **Permission Set by User** page. The steps are similar on the **Permission Set by User Group** page.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
 2. In the **Users** page, select the relevant user, and then choose the **Permission Set by User** action.

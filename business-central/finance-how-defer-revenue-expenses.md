@@ -32,7 +32,7 @@ For both types of deferral, select **Balance Sheet** in the **Type** field, and 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Deferral Templates**, and then choose the related link.
 2. Choose the **New** action.
 3. Fill in the fields as necessary.
-4. In the **Calc. Method** field, specify how the **Amount** field for each period in the **Deferral Schedule** page is calculated. You can choose between the following options:
+4. In the **Calc. Method** field, specify how the **Amount** field for each period on the **Deferral Schedule** page is calculated. You can choose between the following options:
 
    * **Straight-Line**: The periodic deferral amounts are calculated according to the number of periods, distributed according to period length.
    * **Equal Per Period**: The periodic deferral amounts are calculated according to the number of periods, distributed evenly on periods.

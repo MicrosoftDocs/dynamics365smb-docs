@@ -47,7 +47,7 @@ If you cannot use a document to reapply, such as when you have to correct a fixe
 6.  Choose the **Remove Application** action. This removes the item application entry that links the two item ledger entries and moves it to the **View Applied Entries – Unapplied Entries** page.  
 7.  Close the **View Applied Entries – Applied Entries** page.  
 
- The **Remaining Quantity** field of the two item ledger entries are increased by the quantity that has been unapplied. The removed item ledger entry is now available for reapplication in the **View Applied Entries – Unapplied Entries** page.  
+ The **Remaining Quantity** field of the two item ledger entries are increased by the quantity that has been unapplied. The removed item ledger entry is now available for reapplication on the **View Applied Entries – Unapplied Entries** page.  
 
 > [!IMPORTANT]  
 >  You should not leave application entries unapplied for longer periods of time because other users cannot process the affected items until you reapply the application entries or close the **Application Worksheet** page. The following error message is displayed if you try to perform actions that involve a manually unapplied application entry:  
@@ -62,7 +62,7 @@ If you cannot use a document to reapply, such as when you have to correct a fixe
     > [!NOTE]  
     >  This reapplication to the original balance also occurs automatically when you close the **Application Worksheet** page.  
 4.  To apply an available open item ledger entry to another entry, select the item ledger entry that you want to apply. Choose the **Unapplied Entries** action. The **View Applied Entries – Unapplied Entries** page opens.  
-5.  Select one or more item ledger entries that you want to apply to the entry selected in the **Application Worksheet** page, and then choose the **OK** button.  
+5.  Select one or more item ledger entries that you want to apply to the entry selected on the **Application Worksheet** page, and then choose the **OK** button.  
 
      An item application entry is created between the two item ledger entries. The **Remaining Quantity** fields of the two entries are reduced by the applied quantity.  
 

@@ -102,7 +102,7 @@ When all put-aways are planned and assigned to warehouse workers, the user gener
 The warehouse worker who performs put-aways creates a warehouse put-away document in a pull fashion, based on the posted warehouse receipt. Alternatively, the warehouse put-away document is created and assigned to a warehouse worker in a push fashion.  
 
 ### 9: Register Warehouse Put-Away  
-On each line for items that have been put away, partially or fully, the warehouse worker fills in the **Quantity** field in the **Warehouse Put-away** page, and then registers the warehouse put-away.  
+On each line for items that have been put away, partially or fully, the warehouse worker fills in the **Quantity** field on the **Warehouse Put-away** page, and then registers the warehouse put-away.  
 
 Warehouse entries are created, and the warehouse put-away lines are deleted, if fully handled. The warehouse put-away document remains open until the full quantity of the related posted warehouse receipt is registered. The **Qty. Put Away** field on the warehouse receipt order lines is updated.  
 

@@ -42,7 +42,7 @@ To manually download CODA files, log  on to the Isabel server and select the fil
     > [!NOTE]  
     >  You cannot delete any files from the Isabel server by using the **IBS Download Request Options** page. You must manually delete the files by logging on to the Isabel server.  
 
-     After the CODA files have been downloaded, the **Process Status** field will display **Created** in the **IBS Logs** page. You can log on to the Isabel server to manually retrieve the files. For more information, see [Import CODA Statements](how-to-import-coda-statements.md).  
+     After the CODA files have been downloaded, the **Process Status** field will display **Created** on the **IBS Logs** page. You can log on to the Isabel server to manually retrieve the files. For more information, see [Import CODA Statements](how-to-import-coda-statements.md).  
 
 ## See Also  
 [Belgium Local Functionality](belgium-local-functionality.md)

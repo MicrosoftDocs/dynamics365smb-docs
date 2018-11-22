@@ -16,9 +16,9 @@ ms.author: sgroespe
 
 ---
 # Set Up Incoming Documents
-If you create general journal lines from incoming document records, you must specify in the **Incoming Documents Setup** page which journal template and batch to use.
+If you create general journal lines from incoming document records, you must specify on the **Incoming Documents Setup** page which journal template and batch to use.
 
-If you do not want users to create invoices or general journal lines from incoming document records unless the documents are first approved, you must set up approvers in the **Incoming Document Approvers** page.
+If you do not want users to create invoices or general journal lines from incoming document records unless the documents are first approved, you must set up approvers on the **Incoming Document Approvers** page.
 
 To turn PDF and image files into electronic documents that you can convert to, for example, purchase invoices inside [!INCLUDE[d365fin](includes/d365fin_md.md)], you must first set up the OCR feature and enable the service.
 
@@ -35,7 +35,7 @@ When the Incoming Documents feature is set up, you can use different functions t
     The **Incoming Document Approvers** page shows all users that are set up in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 3. Select one or more users that can approve an incoming document before a related document or journal line can be created.
 
-When approvers have been set up in the **Incoming Document Approvers** page, only those users can approve an incoming document if the **Require Approval To Create** check box in the **Incoming Documents Setup** page is selected.
+When approvers have been set up on the **Incoming Document Approvers** page, only those users can approve an incoming document if the **Require Approval To Create** check box on the **Incoming Documents Setup** page is selected.
 
 > [!NOTE]  
 >   This approval setup is not related to approval workflows. For more information, see [Use Approval Workflows](across-how-use-approval-workflows.md).

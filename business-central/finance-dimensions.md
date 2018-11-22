@@ -40,7 +40,7 @@ A dimension set is a unique combination of dimension values. It is stored as dim
 When you create a journal line, document header, or document line, you can specify a combination of dimension values. Instead of explicitly storing each dimension value in the database, a dimension set ID is assigned to the journal line, document header, or document line to specify the dimension set.  
 
 ## Setting Up Dimensions
-You can define the dimensions and dimension values to categorize journals and documents, such as sales orders and purchase orders. You set up dimensions in the **Dimensions** page, where you create one line for each dimension, such as *Project*, *Department*, *Area*, and *Salesperson*.
+You can define the dimensions and dimension values to categorize journals and documents, such as sales orders and purchase orders. You set up dimensions on the **Dimensions** page, where you create one line for each dimension, such as *Project*, *Department*, *Area*, and *Salesperson*.
 
 You also set up values for dimensions. For example, values might be departments in your company. Dimension values can be set up in a hierarchical structure similar to the chart of accounts, so that data can be broken down into various levels of granularity, and subsets of dimension values can be totaled. You can define as many dimensions and dimension values as you need, and everyone in your company can use them.
 
@@ -85,7 +85,7 @@ To avoid posting entries with contradictory or irrelevant dimensions, you can bl
     |Field|Description|
     |----------------------------------|---------------------------------------|  
     |**No limitation**|This dimension combination has no restrictions. All dimensions values are allowed.|  
-    |**Limited**|This dimension combination has restrictions depending on which dimension values that you enter. You must define the limitations in the **Dimension Value Combination** page.|  
+    |**Limited**|This dimension combination has restrictions depending on which dimension values that you enter. You must define the limitations on the **Dimension Value Combination** page.|  
     |**Blocked**|This dimension combination is not allowed.|  
 
 3.  If you selected the **Limited** option, you must define which combinations of dimension values are blocked. To do this, choose the field to define the dimension combination.  
@@ -109,7 +109,7 @@ The **Default Dimensions-Multiple** page contains the following fields:
 |**Value Posting**|Shows either a single value posting rule or the term (Conflict). If a value posting rule is shown in the field, then all highlighted accounts have the same value posting rule for a dimension value. If the term (Conflict) is shown in the field, then not all of the highlighted accounts have the same value posting rule for a dimension value. By choosing the Value Posting field, you can see a list of value posting rules. If you select a value posting rule, it will be applied for all highlighted accounts.|
 
 ### Example of Dimension Setup
-Let's say that your company wants to track transactions based on organizational structure and geographic locations. To do that, you can set up two dimensions in the **Dimensions** page:
+Let's say that your company wants to track transactions based on organizational structure and geographic locations. To do that, you can set up two dimensions on the **Dimensions** page:
 
 * **AREA**  
 * **DEPARTMENT**  
@@ -145,10 +145,10 @@ For **DEPARTMENT**, you add the following dimension values:
 | PROD |Production |Standard |
 | SALES |Sales |Standard |
 
-With this set up, you then add your two dimensions as the two global dimensions in the **General Ledger Setup** page. This means that you can use AREA and DEPARTMENT as filters for general ledger entries, as well as on all reports and account schedules. Both global dimensions are also automatically available for use on entry lines and document headers as shortcut dimensions.  
+With this set up, you then add your two dimensions as the two global dimensions on the **General Ledger Setup** page. This means that you can use AREA and DEPARTMENT as filters for general ledger entries, as well as on all reports and account schedules. Both global dimensions are also automatically available for use on entry lines and document headers as shortcut dimensions.  
 
 ## Using Dimensions
-In a document such as a sales order, you can add dimension information for both an individual document line and the document itself. For example, in the **Sales Order** page, you can enter dimension values for the first two shortcut dimensions on the individual sales lines, and you can add more dimension information if you choose the **Dimensions** button.  
+In a document such as a sales order, you can add dimension information for both an individual document line and the document itself. For example, on the **Sales Order** page, you can enter dimension values for the first two shortcut dimensions on the individual sales lines, and you can add more dimension information if you choose the **Dimensions** button.  
 
 If you work in a journal instead, you can add dimension information to an entry in the same way, if you have set up shortcut dimensions as fields directly on journal lines.  
 
@@ -165,7 +165,7 @@ In a ledger entry page, you can see whether there are global dimensions for the 
 4.  To see all the dimensions for an entry, select the entry, and then choose the **Dimensions** action.  
 
 > [!NOTE]  
->  The **Ledger Entry Dimensions** page displays the dimensions for one ledger entry at a time. As you scroll through the ledger entries, the content in the **Ledger Entry Dimensions** page changes accordingly.  
+>  The **Ledger Entry Dimensions** page displays the dimensions for one ledger entry at a time. As you scroll through the ledger entries, the content on the **Ledger Entry Dimensions** page changes accordingly.  
 
 ## See Also
 [Business Intelligence](bi.md)  

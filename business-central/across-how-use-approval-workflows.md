@@ -17,7 +17,7 @@ ms.author: sgroespe
 # Use Approval Workflows
 When a record, such as a purchase document or a customer card, needs to be approved by someone in your organization, you send an approval request as part of a workflow. Based on how the workflow is set up, the appropriate approver is then notified that the record requires their approval.
 
-You set up approval workflows in the **Workflow** page. For more information, see [Setting Up Workflows](across-set-up-workflows.md).
+You set up approval workflows on the **Workflow** page. For more information, see [Setting Up Workflows](across-set-up-workflows.md).
 
 In addition to approval workflows described in this topic, you can perform various other workflow tasks. For more information, [Using Workflows](across-use-workflows.md).
 
@@ -45,7 +45,7 @@ When the approval request has been canceled, the status of the related approval 
 ## To approve or reject requests for approval
 The following task is performed by an approval user with approver rights.
 
-You can process approval requests in the **Requests to Approve** page, for example to approve multiple requests at a time. Alternatively, you can process each request on the related record, such as the **Purchase Invoice** page, by choosing the link in the notification that you receive.
+You can process approval requests on the **Requests to Approve** page, for example to approve multiple requests at a time. Alternatively, you can process each request on the related record, such as the **Purchase Invoice** page, by choosing the link in the notification that you receive.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Requests to Approve**, and then choose the related link.
 2. Select one or more lines for the record or records that you want to approve or reject.

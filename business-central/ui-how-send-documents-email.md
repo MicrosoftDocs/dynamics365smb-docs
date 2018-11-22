@@ -23,7 +23,7 @@ You can email practically all document types as attachments to email messages di
 
 From all supported documents, you initiate emailing by choosing the **Send** action, on posted documents, or the **Post and Send** action, on non-posted documents.
 
-If the **Email** field in the **Send Document to** page is set to **Yes (Prompt for Settings)**, then the **Send Email** page opens prefilled with the contact person in the **To:** field and the document attached as a PDF file. In the **Body** field, you can either enter text manually or you can have the field filled with a document-specific email body that you have set up.
+If the **Email** field on the **Send Document to** page is set to **Yes (Prompt for Settings)**, then the **Send Email** page opens prefilled with the contact person in the **To:** field and the document attached as a PDF file. In the **Body** field, you can either enter text manually or you can have the field filled with a document-specific email body that you have set up.
 
 The following procedure describes how to set the **Sales - Invoice** report up to be used for document-specific email bodies when you email posted sales invoices.
 
@@ -35,11 +35,11 @@ The following procedure describes how to set the **Sales - Invoice** report up t
 5. Choose the **Email Body Layout Code** field, and then select a layout from the drop-down list.
 
     Report layouts define both the style and the content of the email body, including the standard text that precedes the core document information in the email body. You can see all available report layouts if you choose the **Select from full list** button in the drop-down list.
-6. To view or edit the layout that the email body is based on, select the layout in the **Custom Report Layouts** page, and then choose the **Edit Layout** action.
+6. To view or edit the layout that the email body is based on, select the layout on the **Custom Report Layouts** page, and then choose the **Edit Layout** action.
 7. If you want to offer customers to pay for sales electronically, you can set up the related payment service, such as PayPal, and then have the PayPal information and hyperlink inserted in the email body as well. For more information, see [Enable Customer Payments Through PayPal](sales-how-enable-payment-service-extensions.md).
 8. Choose the **OK** button.
 
-Now, when you choose, for example, the **Send** action in the **Posted Sales Invoice** page, the email body will contain the document information of report 1306 preceded by styled standard text according to the report layout that you selected in step 5.
+Now, when you choose, for example, the **Send** action on the **Posted Sales Invoice** page, the email body will contain the document information of report 1306 preceded by styled standard text according to the report layout that you selected in step 5.
 
 The following procedure describes how to send a posted sales invoice as an email message with the document attached as a PDF file and with a document-specific email body.
 
@@ -53,11 +53,11 @@ The following procedure describes how to send a posted sales invoice as an email
 7. In the **Attachment** field, the generated invoice is attached by default as a PDF file. Choose the lookup button to open the file or attach another one.
 8. In the **Body** field, enter a short message to the recipient.
 
-    If a document-specific email body is set up in the **Report Selection - Sales** page, then the **Body** field is filled in automatically. For more information, see the "To set up a document-specific email body for sales invoices" section in this topic.
+    If a document-specific email body is set up on the **Report Selection - Sales** page, then the **Body** field is filled in automatically. For more information, see the "To set up a document-specific email body for sales invoices" section in this topic.
 9. Choose the **OK** button to send the email message.
 
 > [!NOTE]  
->   If you do not want to specify email settings each time you email a document, you can select the **Yes (Use Default Settings)** option in the **Email** field in the **Send Document to** page. In that case, the **Send Email** page will not open. See Step 4. For more information, see [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
+>   If you do not want to specify email settings each time you email a document, you can select the **Yes (Use Default Settings)** option in the **Email** field on the **Send Document to** page. In that case, the **Send Email** page will not open. See Step 4. For more information, see [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
 
 ## See Also
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  

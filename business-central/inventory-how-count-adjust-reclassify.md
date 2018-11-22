@@ -88,7 +88,7 @@ When you register the warehouse physical inventory, you are not posting to the i
 Employees can now proceed to count inventory and record any discrepancies on the printed report.
 
 ### To enter and post the actual counted inventory in basic warehouse configurations
-1. On each line in the **Phys. Inventory Journal** page where the actual inventory on hand, as determined by the physical count, differs from the calculated quantity, enter the actual inventory on hand in the **Qty. (Phys. Inventory)** field.
+1. On each line on the **Phys. Inventory Journal** page where the actual inventory on hand, as determined by the physical count, differs from the calculated quantity, enter the actual inventory on hand in the **Qty. (Phys. Inventory)** field.
 
     The related fields are updated accordingly.
 
@@ -134,7 +134,7 @@ You set up the inventory counting periods that you want to use and then assign o
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2. Select the item to which you want to assign a counting period.  
 3. In the **Phys Invt Counting Period Code** field, select the appropriate counting period.  
-4. Choose the **Yes** button to change the code and calculate the first counting period for the item. The next time you choose to calculate a counting period in the physical inventory journal, the item appears as a line in the **Phys. Invt. Item Selection** page. You can then begin to count the item on a periodic basis.
+4. Choose the **Yes** button to change the code and calculate the first counting period for the item. The next time you choose to calculate a counting period in the physical inventory journal, the item appears as a line on the **Phys. Invt. Item Selection** page. You can then begin to count the item on a periodic basis.
 
 ### To initiate a count based on counting periods in basic warehouse configurations
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Phys. Inventory Journal**, and then choose the related link.
@@ -151,7 +151,7 @@ You set up the inventory counting periods that you want to use and then assign o
 3. Perform the physical inventory. For more information, see the "To perform a physical inventory" section.  
 
     > [!NOTE]  
-    >  You must count the item in all the bins that contain the particular item. If you delete some of the bin lines that the program has retrieved for counting in the **Whse. Phys. Inventory** page, then you will not be counting all the items in the warehouse. If you later post such incomplete results in the Phys. Inventory Journal, the amounts posted will be incorrect.  
+    >  You must count the item in all the bins that contain the particular item. If you delete some of the bin lines that the program has retrieved for counting on the **Whse. Phys. Inventory** page, then you will not be counting all the items in the warehouse. If you later post such incomplete results in the Phys. Inventory Journal, the amounts posted will be incorrect.  
 
 ## To adjust the inventory of one item
 After you have made a physical count of an item in your inventory area, you can use the **Adjust Inventory** function to record the actual inventory quantity.
@@ -161,7 +161,7 @@ After you have made a physical count of an item in your inventory area, you can 
 3. In the **New Inventory** field, enter the inventory quantity that you want to record for the item.
 4. Choose the **OK** button.
 
-The item’s inventory is now adjusted. The new quantity is shown in the **Current Inventory** field in the **Adjust Inventory** page and in the **Inventory** field in the **Item Card** page.
+The item’s inventory is now adjusted. The new quantity is shown in the **Current Inventory** field on the **Adjust Inventory** page and in the **Inventory** field on the **Item Card** page.
 
 You can also use the **Adjust Inventory** function as a simple way to place purchased items on inventory if you do not use purchase invoices or orders to record your purchases. For more information, [Record Purchases](purchasing-how-record-purchases.md).
 

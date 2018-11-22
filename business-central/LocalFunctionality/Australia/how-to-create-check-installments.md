@@ -33,7 +33,7 @@ You can create check installments for post-dated checks. You can define the numb
 
 6.  Choose the **OK** button.  
 
-     The installment checks are created and displayed in the **Post Dated Checks-Purchases** page.
+     The installment checks are created and displayed on the **Post Dated Checks-Purchases** page.
 
 ## See Also
 [Australia Local Functionality](australia-local-functionality.md)

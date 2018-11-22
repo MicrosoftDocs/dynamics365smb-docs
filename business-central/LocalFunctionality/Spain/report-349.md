@@ -21,7 +21,7 @@ You must submit a periodic report of trade with other EU countries/regions to th
 
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the Report 349 declaration is based on VAT entries that are filtered by the EU country/region codes. You must create a 349 declaration and then submit the file to the [Spanish Tax Agency](https://go.microsoft.com/fwlink/?LinkId=238181) website or on CD-ROM.  
 
-When you create a Report 349 declaration that includes credit memos, the entries will display in the **Customer/Vendor Warnings 349** window so that you can include them as corrections to invoices. You must make the appropriate changes to the lines in the **Customer/Vendor Warnings 349** window before you can submit the declaration. For more information, [Create Report 349](how-to-create-report-349.md).  
+When you create a Report 349 declaration that includes credit memos, the entries will display in the **Customer/Vendor Warnings 349** page so that you can include them as corrections to invoices. You must make the appropriate changes to the lines in the **Customer/Vendor Warnings 349** page before you can submit the declaration. For more information, [Create Report 349](how-to-create-report-349.md).  
 
 ## Delivery Operation Codes  
 The **Report 349** declaration must specify separate operation codes for the delivery of goods to other EU countries/regions. You can set up separate VAT product posting groups for each type of export delivery. Then, when you apply a VAT posting group to an item that is sold, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] stores the delivery operation code, and the transaction is included in the quarterly 349 declaration.  
@@ -37,7 +37,7 @@ Before you submit the 349 declaration, you must make sure that all VAT entries h
  To help you manage exports to other EU countries/regions in [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create VAT product posting groups for each operation code. Then, when you apply a VAT posting group to an item that is sold, the Delivery Operation Code field in the **VAT Entry** table identifies the VAT transactions according to the operation code.  
 
 ### Delivery Operation Codes and Item Setup  
-You can set up a VAT product posting group for each delivery operation type and then assign the appropriate VAT product posting group to items in the Item Card window.  
+You can set up a VAT product posting group for each delivery operation type and then assign the appropriate VAT product posting group to items in the Item Card page.  
 
 If you have an inventory item that can be imported in different ways, for example if it is tax exempt in some cases and not tax exempt in other cases, you can create separate item cards with the appropriate VAT product posting group.  
 

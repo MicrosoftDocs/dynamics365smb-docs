@@ -36,7 +36,7 @@ The settlement return is received from the bank after the payment is executed. W
 The following occurs when the settlement return is imported:  
 
 - Payment status in the **Waiting Journal** table is set to **Settled**.  
-- Information will be transferred from the **Waiting Journal** window to the payment journal.  
+- Information will be transferred from the **Waiting Journal** page to the payment journal.  
 - A balancing account will be created for each transaction.  
 - Document numbers will be inserted for each transaction.  
 
@@ -48,7 +48,7 @@ For a payment, the exchange rates are managed in the following ways:
 - Payment from a currency account - If payment is made from a currency account, the exchange rate for this currency and LCY is used. This is because the bank does not inform the system about the exchange rate.  
 
 ## Warnings on Settlement Returns  
-When the settlement return is imported, warnings can occur. Payment journal lines with warnings are marked with a symbol. To view the information about the warning, you can open the **Settlement Info** window.  
+When the settlement return is imported, warnings can occur. Payment journal lines with warnings are marked with a symbol. To view the information about the warning, you can open the **Settlement Info** page.  
 
 ## See Also  
  [Electronic Payments to Vendors in Norway](electronic-payments-to-vendors-in-norway.md)   

@@ -56,7 +56,7 @@ Planning Line Quantity = Current Supply Quantity – (Projected Inventory – Ov
 -   If the planning line quantity is equal to or lower than 0, then the action message is Cancel  
 
 ### Composing the Warning Message  
-In case of overflow, the **Untracked Planning Elements** window displays a warning message with the following information:  
+In case of overflow, the **Untracked Planning Elements** page displays a warning message with the following information:  
 
 -   The projected inventory level that triggered the warning  
 -   The calculated overflow level  

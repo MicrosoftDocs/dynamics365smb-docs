@@ -30,7 +30,7 @@ Before you can file a non-euro SEPA payment you must complete the following admi
     |**Journal Template Name**|Specify the general journal template for the non-euro SEPA payment report.|  
     |**Journal Batch**|Specify the general journal batch for the non-euro SEPA payment report.|  
     |**Post General Journal Lines**|Specify if you want to transfer the payment lines to the general ledger.|  
-    |**Include Dimensions**|Enter the dimensions that you want to include in the non-euro SEPA payment report. The option is only available if the **Summarize Gen. Jnl. Lines** field in the **Electronic Banking Setup** window is selected.|  
+    |**Include Dimensions**|Enter the dimensions that you want to include in the non-euro SEPA payment report. The option is only available if the **Summarize Gen. Jnl. Lines** field in the **Electronic Banking Setup** page is selected.|  
     |**Execution Date**|Enter an execution date if you want an execution date that differs from the posting date on the payment lines.|  
     |**File Name**|Enter the name of the file, including the drive and folder, to which you want to print the report.|  
 

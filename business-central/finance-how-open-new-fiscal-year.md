@@ -9,18 +9,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting year, fiscal period  
-ms.date: 10/01/2018
+ms.date: 11/21/2018
 ms.author: edupont
+redirect_url: finance-accounting-periods-and-fiscal-years
 
 ---
 # Open a New Fiscal Year and Create Accounting Periods
 Before you can post in a fiscal year, you must open the fiscal year and define its accounting periods.  
 
-For many companies, the fiscal year does not coincide with the calendar year. Fiscal periods can be measured in other units of time, such as months or quarters. You can use the **Create Fiscal Year** window to set up the accounting periods that suit your business needs. However,   
+For many companies, the fiscal year does not coincide with the calendar year. Fiscal periods can be measured in other units of time, such as months or quarters. You can use the **Create Fiscal Year** page to set up the accounting periods that suit your business needs. However,   
 
 ## To open a new fiscal year
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Accounting Periods**, and then choose the related link.
-2. In the **Accounting Periods** window, choose the **Create Year** action.
+2. In the **Accounting Periods** page, choose the **Create Year** action.
 3. Fill in the fields to define the structure of the fiscal year.
 
     The fiscal year is typically 12 periods of one month each, but you can also divide it in other ways.

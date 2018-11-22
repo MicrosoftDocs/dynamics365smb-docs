@@ -44,7 +44,7 @@ You can set up users so that in their daily routines the program retrieves only 
 To set this up, you assign responsibility centers to users in three functional areas: Purchases, Sales, and Service Management.  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Setup**, and then choose the related link.  
-2.  In the **User Setup** window, select the user you want to assign a responsibility center to. If the user not is on the list, you must enter a user ID in the **User ID** field.  
+2.  In the **User Setup** page, select the user you want to assign a responsibility center to. If the user not is on the list, you must enter a user ID in the **User ID** field.  
 3.  In the **Sales Resp. Ctr. Filter** field, enter the responsibility center where the user will have tasks related to sales.  
 4.  In the **Purchase Resp. Ctr. Filter** field, enter the responsibility center where the user will have tasks related to purchasing.  
 5.  In the **Service Resp. Ctr. Filter** field, enter the responsibility center where the user will have tasks related to service management.  

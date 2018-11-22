@@ -18,7 +18,7 @@
 # Work with Production Families
 A production family is a group of individual items whose relationship is based on the similarity of their manufacturing processes. By forming production families, some items can be manufactured twice or more in one production, which will optimize material consumption.
 
-In the **Quantity** field in the **Family** window, you enter the quantity that will be produced when the whole family has been manufactured once.
+In the **Quantity** field in the **Family** page, you enter the quantity that will be produced when the whole family has been manufactured once.
 
 ## Example
 In punching processes, four pieces of the same item can be produced from one sheet and 10 pieces of another, different, item at the same time. The punching machine will punch all 14 pieces in one step.

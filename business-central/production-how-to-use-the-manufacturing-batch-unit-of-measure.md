@@ -19,7 +19,7 @@
 If an item is stocked in one unit of measure but produced in another, a production order is created that uses a manufacturing batch unit of measure to calculate the correct quantity of the components during the **Refresh Production Order** batch job. An example of a manufacturing batch unit of measure calculation is when a manufactured item is stocked in pieces but produced in tons.  
 
 ## To create a production BOM using a batch unit of measure  
-1.  The manufacturing batch unit of measure is set up as an alternative unit of measure in the **Item Units of Measure** window on the item to be produced. The batch unit of measure will not replace the base unit of measure on the item.  
+1.  The manufacturing batch unit of measure is set up as an alternative unit of measure in the **Item Units of Measure** page on the item to be produced. The batch unit of measure will not replace the base unit of measure on the item.  
 2.  Create a production BOM for the item set up with the manufacturing batch unit of measure. For more information, see [Create Production BOMs](production-how-to-create-production-boms.md).  
 3.  In the **Unit of Measure Code** field, select the manufacturing batch unit of measure.  
 4.  For each production BOM line, in the **Quantity Per** field, enter the quantity of this component item that is required to create this batch unit of measure.  

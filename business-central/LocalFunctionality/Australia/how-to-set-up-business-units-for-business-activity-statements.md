@@ -19,13 +19,13 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can consolidate the fi
 
 You must set up a consolidation company to perform the consolidation. In this company, the total amounts for all accounts in the group, from both the parent company and subsidiaries are added together. You must also indicate the general ledger accounts in the consolidated company to which the total should be transferred.  
 
-You can use the **BAS Business Units** window to set up the following:  
+You can use the **BAS Business Units** page to set up the following:  
 
 - Parent company  
 - Subsidiaries  
 - Affiliates  
 
-You must set up information in the **General Ledger Setup** window before you can set up business units.  
+You must set up information in the **General Ledger Setup** page before you can set up business units.  
 
 ## To set up general ledger for a business activity statement  
 1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Setup**, and then choose the related link.  

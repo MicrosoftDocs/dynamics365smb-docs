@@ -28,7 +28,7 @@ For more information, see [Design Details: Inbound Warehouse Flow](design-detail
 The following walkthrough demonstrates method B in the previous table.  
 
 ## About This Walkthrough  
-In basic warehouse configurations where your location is set up to require put-away processing but not receive processing, you use the **Inventory Put-away** window to record and post put-away and receipt information for your inbound source documents. The inbound source document can be a purchase order, sales return order, inbound transfer order, or production order with output that is ready to be put away.
+In basic warehouse configurations where your location is set up to require put-away processing but not receive processing, you use the **Inventory Put-away** page to record and post put-away and receipt information for your inbound source documents. The inbound source document can be a purchase order, sales return order, inbound transfer order, or production order with output that is ready to be put away.
 
 > [!NOTE]
 > Even though the settings are called **Require Pick** and **Require Put-away**, you can still post receipts and shipments directly from the source business documents at locations where you select these check boxes.  
@@ -59,7 +59,7 @@ To complete this walkthrough, you will need:
 -   To make yourself a warehouse employee at SILVER location by following these steps:  
 
     1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
-    2.  Choose the **User ID** field, and select your own user account in the **Users** window.  
+    2.  Choose the **User ID** field, and select your own user account in the **Users** page.  
     3.  In the **Location Code** field, enter SILVER.  
     4.  Select the **Default** field.  
 
@@ -67,7 +67,7 @@ To complete this walkthrough, you will need:
 Ellen, the warehouse manager at CRONUS International Ltd., creates a purchase order for 10 units of item LS-75 and 30 units of item LS-81 from vendor 10000 to be delivered to SILVER Warehouse. When the delivery arrives at the warehouse, John, the warehouse worker, puts the items away in default bins defined for the items. When John posts the put-away, the items are posted as received into inventory and available for sale or other demand.  
 
 ## Setting up the Location  
- The setup of the **Location Card** window defines the company’s warehouse flows.  
+ The setup of the **Location Card** page defines the company’s warehouse flows.  
 
 ### To set up the location  
 
@@ -80,7 +80,7 @@ Ellen, the warehouse manager at CRONUS International Ltd., creates a purchase or
 4.  Choose the **Bins** action.  
 5.  Select the first row, for bin S-01-0001, and then choose the **Contents** action.  
 
-    Notice in the **Bin Content** window that item LS-75 is already set up as content in bin S-01-0001.  
+    Notice in the **Bin Content** page that item LS-75 is already set up as content in bin S-01-0001.  
 
 6.  Choose the **New** action.  
 7.  Select the **Fixed** and the **Default** fields.  
@@ -110,7 +110,7 @@ Purchase orders are the most common type of inbound source document.
     The delivery of loudspeakers from vendor 10000 has arrived at SILVER warehouse, and John proceeds to put them away.  
 
 ## Receiving and Putting the Items Away  
-In the **Inventory Put-away** window, you can manage all inbound warehouse activities for a specific source document, such as a purchase order.  
+In the **Inventory Put-away** page, you can manage all inbound warehouse activities for a specific source document, such as a purchase order.  
 
 ### To receive and put the items away  
 

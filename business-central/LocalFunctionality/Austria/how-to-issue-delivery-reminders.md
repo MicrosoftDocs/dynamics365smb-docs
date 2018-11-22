@@ -18,14 +18,14 @@
 # Issue Delivery Reminders
 After you have created delivery reminders, you must issue and print them so that you can send reminders to vendors. Before you issue the delivery reminders, you can print a test report. For more information, see [Print Test Reports for Delivery Reminders](how-to-print-test-reports-for-delivery-reminders.md).  
 
-When you issue the delivery reminders, delivery reminder ledger entries are created. You can view the created ledger entries in the **Deliv. Reminder Ledger Entries** window.  
+When you issue the delivery reminders, delivery reminder ledger entries are created. You can view the created ledger entries in the **Deliv. Reminder Ledger Entries** page.  
 
 ## To issue delivery reminders  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Delivery Reminder**, and then choose the related link.  
-2.  In the **Delivery Reminder** window, select the delivery reminder that you want to issue, and then choose the **Edit** action.  
+2.  In the **Delivery Reminder** page, select the delivery reminder that you want to issue, and then choose the **Edit** action.  
 3.  Choose the **Issue** action.  
-4.  In the **Issue Delivery Reminder** window, on the **Options** FastTab, fill in the fields as described in the following table.  
+4.  In the **Issue Delivery Reminder** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -40,7 +40,7 @@ When you issue the delivery reminders, delivery reminder ledger entries are crea
 
 6.  Choose the **OK** button.  
 
-You can view the issued reminders in the **Issued Delivery Reminder** window. Optionally, you can now print a delivery reminder.  
+You can view the issued reminders in the **Issued Delivery Reminder** page. Optionally, you can now print a delivery reminder.  
 
 ## To view delivery reminder ledger entries  
 
@@ -48,7 +48,7 @@ You can view the issued reminders in the **Issued Delivery Reminder** window. Op
 2.  Select the purchase order for which you want to view the reminder status, and then choose the **Edit** action.  
 3.  Choose the **Deliv. Reminder Ledger Entries** action.  
 
-In the Deliv. Reminder Ledger Entries window, you can view the delivery reminder ledger entries for the selected purchase order.  
+In the Deliv. Reminder Ledger Entries page, you can view the delivery reminder ledger entries for the selected purchase order.  
 
 ## See Also  
  [Delivery Reminders](delivery-reminders.md)   

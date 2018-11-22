@@ -18,7 +18,7 @@
 # Create Service Invoices or Credit Memos
 Ease in invoicing your service orders is a key feature of [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can send an invoice to your customers at any time, or create invoices periodically.  
   
-To create an invoice directly, you can use the **Service Contract** window. You can also set up your system so that a service technician in the field can create an invoice for service that is not connected to a contract or order.  
+To create an invoice directly, you can use the **Service Contract** page. You can also set up your system so that a service technician in the field can create an invoice for service that is not connected to a contract or order.  
 
 ## To invoice a service contract from the Service Contract page   
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Create Service Contract Invoices**, and then choose the related link.  
@@ -58,7 +58,7 @@ Typically, after you post a service order with the **Invoice** or **Ship and Inv
 3. Fill in the **No.** field.  
   
     > [!NOTE]  
-    >  If you have set up number series for service invoices in the **Service Mgt. Setup** window, you can press Enter to select the next available service invoice number.  
+    >  If you have set up number series for service invoices in the **Service Mgt. Setup** page, you can press Enter to select the next available service invoice number.  
   
 4. In the **Customer No.** field, enter the number of a customer. Select the relevant customer from the list.  
   
@@ -83,7 +83,7 @@ You can invoice the customer for services provided on different service orders. 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Invoices**, and then choose the related link.  
 2. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Choose the **Get Shipment Lines** action. The **Get Service Shipment Lines** window displays all lines that are shipped but not invoiced for the customer.  
+3. Choose the **Get Shipment Lines** action. The **Get Service Shipment Lines** page displays all lines that are shipped but not invoiced for the customer.  
 4. Choose the lines for the service to invoice, and then choose **OK** to add the service shipment lines to the invoice.  
 
 ## To create a service credit memo  

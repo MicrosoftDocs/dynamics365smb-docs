@@ -22,7 +22,7 @@
 ## Example  
 A bus company owns both buses and trucks. When gasoline is purchased, the gasoline is stored in one holding tank. When the gasoline is used in a bus for transporting children, it is not deductible. When the gasoline is used in a truck, the gasoline may be deductible. The agreement between the bus company and the Norwegian tax authorities might be that 60 percent of the VAT is deductible.  
 
-If you have a purchase invoice of $12,500 based on 25 percent VAT with the **Calc. Prop. Deduction VAT** field in the **VAT Posting Setup** window set to **Yes** and the **Proportional Deduction VAT %** field set to **60 percent**, only 60 percent of the VAT is deductible in a journal. When the invoice is posted, the postings are as follows:  
+If you have a purchase invoice of $12,500 based on 25 percent VAT with the **Calc. Prop. Deduction VAT** field in the **VAT Posting Setup** page set to **Yes** and the **Proportional Deduction VAT %** field set to **60 percent**, only 60 percent of the VAT is deductible in a journal. When the invoice is posted, the postings are as follows:  
 
 - To vendor general ledger account - $12,500 (credit)  
 - To cost account 4010 - $11,000 (debit)  

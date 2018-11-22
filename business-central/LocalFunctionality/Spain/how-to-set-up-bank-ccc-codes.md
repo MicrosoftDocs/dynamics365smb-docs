@@ -21,10 +21,10 @@ Código Cuenta Cliente (CCC) is a unique account code used by banks to identify 
 
 You can set up CCC codes in the following locations:  
 
-- **Bank Account Card** window  
-- **Company Information** window  
-- **Customer Bank Account Card** window  
-- **Vendor Bank Account Card** window  
+- **Bank Account Card** page  
+- **Company Information** page  
+- **Customer Bank Account Card** page  
+- **Vendor Bank Account Card** page  
 
 The following procedure describes how to set up bank CCC codes for your company.  
 

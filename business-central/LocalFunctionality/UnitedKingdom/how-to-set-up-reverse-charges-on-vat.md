@@ -29,7 +29,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use reverse charge
 6.  On the **Reverse Charge** FastTab, fill in the fields as necessary.
 7.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchases & Payables Setup** and then choose the related link.  
 6.  On the **Reverse Charge** FastTab, fill in the fields as necessary.
-9. To set up items subject to reverse charge, select the item, and open the **Item Card** window.  
+9. To set up items subject to reverse charge, select the item, and open the **Item Card** page.  
 10. On the **Invoicing** FastTab, fill in the **Reverse Charge Applies** field.  
 
 ## Reverse Charge Sales List

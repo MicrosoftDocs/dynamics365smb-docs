@@ -1,6 +1,6 @@
 ---
 title: How to View Posted Tax Invoices
-description: In the Australian version of Business Central, you can use the Posted Sales Tax Invoice window and the Posted Purchase Tax Invoice window to view the details of posted sales tax invoices and posted purchase tax invoices.
+description: In the Australian version of Business Central, you can use the Posted Sales Tax Invoice page and the Posted Purchase Tax Invoice page to view the details of posted sales tax invoices and posted purchase tax invoices.
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -12,7 +12,7 @@ ms.author: sgroespe
 
 ---
 # View Posted Tax Invoices
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the **Posted Sales Tax Invoice** window and the **Posted Purchase Tax Invoice** window to view the details of posted sales tax invoices and posted purchase tax invoices.  
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the **Posted Sales Tax Invoice** page and the **Posted Purchase Tax Invoice** page to view the details of posted sales tax invoices and posted purchase tax invoices.  
 
 The following procedure describes how to view the posted sales tax invoice, but the same steps also apply to viewing posted purchase tax invoices.  
 

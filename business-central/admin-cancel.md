@@ -34,7 +34,7 @@ To close your account, currently you must contact the [!INCLUDE[d365fin](include
 If you signed up for [!INCLUDE[d365fin](includes/d365fin_md.md)] using a non-Office 365 business account, you do not have an Office 365 administrator. Instead, you must unsubscribe by contacting the [!INCLUDE[d365fin](includes/d365fin_md.md)] Cancelation team by sending an email message at cancelbusinesscentra@microsoft.com. You must include the name of your [!INCLUDE[d365fin](includes/d365fin_md.md)] tenant in the message so that we can identify you. The easiest way to do that is to copy the URL from your [!INCLUDE[d365fin](includes/d365fin_md.md)] home page.  
 
 ## Resetting your [!INCLUDE[d365fin](includes/d365fin_md.md)] experience
-If you have added data to your [!INCLUDE[d365fin](includes/d365fin_md.md)] free trial, and you want to start over with a fresh experience, you can create a new company and then reset the first company. If you open the **Companies** window, you can create a copy of your current company, sign out and then sign into your new company, and then reset the original company.  
+If you have added data to your [!INCLUDE[d365fin](includes/d365fin_md.md)] free trial, and you want to start over with a fresh experience, you can create a new company and then reset the first company. If you open the **Companies** page, you can create a copy of your current company, sign out and then sign into your new company, and then reset the original company.  
 > [!NOTE]  
 >   When you reset a company that you are sharing with other people from your organization, you must make sure other people are not logged in when you reset the company.  
 

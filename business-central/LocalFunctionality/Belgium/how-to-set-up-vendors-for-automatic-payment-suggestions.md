@@ -22,7 +22,7 @@ You can set up each vendor so that unpaid invoices from that vendor are automati
 ## To set up a vendor to be included in the payment suggestion batch  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.  
-2.  In the **Vendors** window, select a relevant vendor, and then choose the **Edit** action.  
+2.  In the **Vendors** page, select a relevant vendor, and then choose the **Edit** action.  
 3.  On the **Payments** FastTab, select the **Suggest Payments** check box.  
 
     If this field is not selected, no payment suggestions will be generated for the vendor.  

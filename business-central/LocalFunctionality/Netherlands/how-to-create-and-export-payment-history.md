@@ -31,13 +31,13 @@ After you have created a proposal and made any modifications, you can process th
     If you want to print the proposal before you process it, choose the **Print** button.  
 
 2.  To process the proposal, choose the **Process** action.  
-3.  To view the payment history, close the **Telebank Proposal** window. Make sure the same bank account in the **Telebank – Bank Overview** window is selected, and then choose the **Payment History** action.  
+3.  To view the payment history, close the **Telebank Proposal** page. Make sure the same bank account in the **Telebank – Bank Overview** page is selected, and then choose the **Payment History** action.  
 
-The **Payment History List** window displays the payment history that you just created.  
+The **Payment History List** page displays the payment history that you just created.  
 
 ## To export a payment history  
 
-- In the **Payment History List** window, choose the **Export** action.  
+- In the **Payment History List** page, choose the **Export** action.  
 
     > [!NOTE]  
     >  A text file will be created. This file contains the path and file name as defined in the **Default File Names Field** field of the export protocol.  

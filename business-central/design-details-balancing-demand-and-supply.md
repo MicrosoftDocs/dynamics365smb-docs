@@ -83,7 +83,7 @@ The supply plan must be calculated per combination of the item dimensions, such 
 The planning system controls this by running through the inventory profile. When a new combination is found, the program creates an internal control record that holds the actual combination information. The program inserts the SKU as the control record, or outer loop. As a result, the proper planning parameters according to a combination of variant and location are set, and the program can proceed to the inner loop.  
 
 > [!NOTE]  
->  The program does not require the user to enter a SKU record when entering demand and/or supply for a particular combination of variant and location. Therefore, if a SKU does not exist for a given combination, the program creates its own temporary SKU record based on the item card data. If Location Mandatory is set to Yes in the Inventory Setup window, then either a SKU must be created or Components at Location must be set to Yes. For more information, see [Design Details: Demand at Blank Location](design-details-demand-at-blank-location.md).  
+>  The program does not require the user to enter a SKU record when entering demand and/or supply for a particular combination of variant and location. Therefore, if a SKU does not exist for a given combination, the program creates its own temporary SKU record based on the item card data. If Location Mandatory is set to Yes in the Inventory Setup page, then either a SKU must be created or Components at Location must be set to Yes. For more information, see [Design Details: Demand at Blank Location](design-details-demand-at-blank-location.md).  
 
 ### Serial/Lot Numbers are Loaded by Specification Level  
 Attributes in the form of serial/lot numbers are loaded into the inventory profiles along with the demand and supply that they are assigned to.  
@@ -211,7 +211,7 @@ In general, all supply has a planning flexibility that is limited by the conditi
 
     -   It represents inventory (always on day zero).  
     -   It has an order-to-order linked to another demand.  
-    -   It lies outside the reschedule window defined by the time bucket.  
+    -   It lies outside the reschedule page defined by the time bucket.  
     -   There is a closer supply that could be used.  
     -   On the other hand, the user may decide not to reschedule because:  
     -   The supply order has already been tied to another demand on a previous date.  
@@ -220,7 +220,7 @@ In general, all supply has a planning flexibility that is limited by the conditi
 -   **Reschedule In**: The date of an existing supply order can be scheduled in, except in the following conditions:  
 
     -   It is linked directly to some other demand.  
-    -   It lies outside the reschedule window defined by the time bucket.  
+    -   It lies outside the reschedule page defined by the time bucket.  
 
 > [!NOTE]  
 >  When planning an item using a reorder point, the supply order can always be scheduled in if necessary. This is common in forward-scheduled supply orders triggered by a reorder point.  

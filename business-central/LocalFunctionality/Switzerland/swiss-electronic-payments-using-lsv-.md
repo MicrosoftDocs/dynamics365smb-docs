@@ -21,7 +21,7 @@ The Lastschrift Verfahren (LSV+)—or direct debit—electronic payment method, 
 
 The LSV+ method is a direct debit principle with right of objection. Business Direct Debit (BDD) is a direct debit system without right of objection. The file format to be sent to the bank is the same for LSV+ and BDD.  
 
-Before using the LSV module, you must define the settings in the **LSV Setup** window.
+Before using the LSV module, you must define the settings in the **LSV Setup** page.
 
 ## Automatic ESR Processing  
 You can download payment credit transactions in Einzahlungsschein mit Referenznummer (ESR) file format from the bank. You can receive processed LSV payments in the ESR file if the ESR reference number is integrated with the LSV+ system. If LSV+ payments are included in your imported LSV files, the related LSV journal lines are closed automatically. Automatic ESR processing is performed only for payments that use Swiss Francs (CHF), and requires that you do the following:  

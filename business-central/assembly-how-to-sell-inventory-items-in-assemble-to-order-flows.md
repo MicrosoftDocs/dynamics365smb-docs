@@ -37,9 +37,9 @@ In this procedure, you replace assemble-to-order quantities with inventory quant
 4.  In the **Sales Line Details** FactBox, determine if all or some of the demanded quantity is available.  
 5.  In the **Qty. to Assemble to Order** field, deduct the available quantity so that only the unavailable quantity is assembled to the order. The **Reserved Quantity** field is decreased accordingly to reflect that the order-to-order link, or reservation, only applies to the quantity to be assembled.  
 6.  On the **Lines** FastTab, choose **Functions**, and then choose the **Reserve** action.  
-7.  In the **Reservation** window, select the item ledger entry line or lines that contain the available quantities, choose the **Reserve from Current Line** action, and then choose the **OK** button.  
+7.  In the **Reservation** page, select the item ledger entry line or lines that contain the available quantities, choose the **Reserve from Current Line** action, and then choose the **OK** button.  
 
-    In the **Sales Order** window, the **Reserved Quantity** field now shows that the whole order line quantity is reserved. The **Qty. to Assemble to Order** field still reflects the subquantity that has to be assembled.  
+    In the **Sales Order** page, the **Reserved Quantity** field now shows that the whole order line quantity is reserved. The **Qty. to Assemble to Order** field still reflects the subquantity that has to be assembled.  
 
 8.  Release the sales order for picking of the inventory items and for assembly of the unavailable items. For more information, see [Assemble Items](assembly-how-to-assemble-items.md).  
 

@@ -58,7 +58,7 @@ When you have decided which customers are eligible for invoice discounts, enter 
 
 Proceed to set up new the sales invoice discount terms.
 
-1. In the **Customer Card** page, choose the **Invoice Discounts** action. The **Cust. Invoice Discounts** page opens.
+1. On the **Customer Card** page, choose the **Invoice Discounts** action. The **Cust. Invoice Discounts** page opens.
 2. In the **Currency Code** field, enter the code for a currency that the invoice discount terms on the line applies to. Leave the field blank to set up invoice discount terms in USD.
 3. In the **Minimum Amount** field, enter the minimum amount that an invoice must have to be eligible for the discount.
 4. In the **Discount %** field, enter the invoice discount as a percentage of the invoice amount.
@@ -69,7 +69,7 @@ The invoice discount is now set up and assigned to the customer in question. Whe
 ## To work with sales invoice discounts and service charges
 When you use invoice discounts, the size of the invoice amount determines the size of the discount that is granted.  
 
-In the **Cust. Invoice Discounts** page, you can also add a service charge to invoices over a certain amount.  
+On the **Cust. Invoice Discounts** page, you can also add a service charge to invoices over a certain amount.  
 
 Before you can use invoice discounts with sales, you must enter certain information in the program. You must decide:  
 

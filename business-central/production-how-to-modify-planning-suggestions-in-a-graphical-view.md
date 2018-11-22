@@ -18,9 +18,9 @@
 # Modify Planning Suggestions in a Graphical View
 A typical planning activity is to change or add planning worksheet lines to modify the suggested supply orders before you commit them by running the **Carry out Action Message** function. An alternative to doing this in the planning worksheet is to use a graphical view.
 
-In the **Item Availability by Timeline** page, you can modify certain supply orders and suggestions by dragging elements on the x-axis to change quantity or dragging elements on the y-axis to change due date.  
+On the **Item Availability by Timeline** page, you can modify certain supply orders and suggestions by dragging elements on the x-axis to change quantity or dragging elements on the y-axis to change due date.  
 
- In the **Item Availability by Timeline** page and the **Planning Worksheet** page you can make the following changes:  
+ On the **Item Availability by Timeline** page and the **Planning Worksheet** page you can make the following changes:  
 
 -   Modify a suggested supply order that only exists as a planning line.  
 -   Modify an existing supply order that the planning system suggests to change.  

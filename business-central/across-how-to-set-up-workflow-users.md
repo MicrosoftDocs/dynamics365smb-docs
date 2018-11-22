@@ -17,7 +17,7 @@ ms.author: sgroespe
 # Set Up Workflow Users
 Before you can create workflows, you must set up the users who take part in workflows. This is necessary, for example, to specify who will receive a notification to act on a workflow step.  
 
-In the **Workflow User Group** page, you set up users under workflow user groups, and you specify the users’ number in a process sequence, such as an approver chain.  
+On the **Workflow User Group** page, you set up users under workflow user groups, and you specify the users’ number in a process sequence, such as an approver chain.  
 
 Workflow users that function as approval users, both approval requesters and approvers, must also be set up on the **Approval User Setup** page. For more information, see [Set Up Approval Users](across-how-to-set-up-approval-users.md).  
 

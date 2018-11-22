@@ -34,9 +34,9 @@ In special situations for serial- or lot-numbered inventory, specific serial or 
 ## Item Tracking Availability
 When you work with serial and lot numbers, [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates availability information for lot and serial numbers and shows it in the various item tracking pages. This lets you see how much of a lot or serial number is currently being used on other documents. This reduces errors and uncertainty caused by double allocations.
 
-In the **Item Tracking Lines** page, a warning icon is shown in the **Availability, Lot No.** or **Availability, Serial No.** field if some or all of the quantity you have selected is already being used in other documents or if the lot or serial number is not available.
+On the **Item Tracking Lines** page, a warning icon is shown in the **Availability, Lot No.** or **Availability, Serial No.** field if some or all of the quantity you have selected is already being used in other documents or if the lot or serial number is not available.
 
-In the **Lot No./Serial No.-List** page, the **Lot No./Serial No.-Availability** page, and the **Item Tracking - Select Entries** page, information is displayed about how much quantity of an item is being used. This includes the following information.
+On the **Lot No./Serial No.-List** page, the **Lot No./Serial No.-Availability** page, and the **Item Tracking - Select Entries** page, information is displayed about how much quantity of an item is being used. This includes the following information.
 
 |Field|Description|
 |-----|-----------|  
@@ -177,7 +177,7 @@ When you are working with items that require item tracking and you are creating 
 
 1.  From any outbound document, select the line that you want to select serial or lot numbers for.  
 2.  On the **Lines** FastTab, choose the **Actions** action, choose the **Line** or the **Item** action, and then choose the **Item Tracking Lines** action.  
-3.  In the **Item Tracking Lines** page, you have three options for specifying lot or serial number:  
+3.  On the **Item Tracking Lines** page, you have three options for specifying lot or serial number:  
 
     -   Select the **Lot No.** or **Serial No.** field, and then select a number from the **Item Tracking Summary** page.  
     -   Choose the **Select Entries** action. The **Select Entries** page shows all lot or serial numbers along with availability information.
@@ -198,7 +198,7 @@ However, the transfer order is unique in that shipment and receipt are both done
  The exact rules for handling item tracking numbers across your company are governed by the setup of the  **Item Tracking Code** table.    
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transfer Orders**, and then choose the related link.  
 2.  Open the transfer order you want to process. On the **Lines** FastTab, choose choose the **Line** action, choose the **Item Tracking Lines** action, and then choose the **Shipment** action.  
-3.  In the **Item Tracking Lines** page, assign or select serial or lot numbers as for any other outbound item transaction.  
+3.  On the **Item Tracking Lines** page, assign or select serial or lot numbers as for any other outbound item transaction.  
 
     When handling serial and lot numbers for transfer items, the items typically have numbers already assigned to them. Therefore, the process typically consists of selecting from existing serial or lot numbers.  
 
@@ -222,7 +222,7 @@ In these situations, the existing item tracking lines are copied automatically t
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then select the related link.  
 2.  Open a purchase invoice for items that are purchase with serial or lot numbers.  
 3.  From a purchase invoice line, on the **Lines** FastTab, choose the **Get Receipt Lines** action.  
-4.  In the **Get Receipt Lines** page, select a receipt lines that has item tracking lines, and then choose the **OK** button.  
+4.  On the **Get Receipt Lines** page, select a receipt lines that has item tracking lines, and then choose the **OK** button.  
 
     The source document is copied to the purchase invoice as a new line, and its item tracking lines are copied to the underlying **Item Tracking Lines** page.  
 
@@ -250,7 +250,7 @@ Reclassifying item tracking for an item means changing a lot or serial number to
 
 6.  If you have existing information on the old serial or lot number, you can copy it to the new serial or lot number.  
 
-    1.  In the **Item Tracking Lines** page, choose the **New Serial No. Information** action or the **New Lot No. Information** action.  
+    1.  On the **Item Tracking Lines** page, choose the **New Serial No. Information** action or the **New Lot No. Information** action.  
     2.  To copy information from the old lot or serial number, choose the **Copy Info** action.  
     3.  In the information list page, select the lot or serial number that you would like to copy from, and choose the **OK** button.  
 

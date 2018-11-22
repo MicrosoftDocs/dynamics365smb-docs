@@ -31,14 +31,14 @@ There are several ways to create segments:
 * You can reuse saved segmentation criteria.
 
 ## Interactions
-In the **Segment** page, you can create interactions for several contacts simultaneously. For example, you can merge a segment with a Microsoft Word document, so that you can send a letter to all the contacts in the segment.
+On the **Segment** page, you can create interactions for several contacts simultaneously. For example, you can merge a segment with a Microsoft Word document, so that you can send a letter to all the contacts in the segment.
 
 You can specify information about the interaction for the segment on the **Segment** header. For example, you can decide which interaction template you want to use for all the contacts, specify a description, a correspondence type, and so on. However, you can modify this information in the segment line for each particular contact, for example, by specifying another description for one contact. If you are merging a segment with a Microsoft Word document, you can personalize the document to be sent for one or several of the contacts within the segment, for example, by adding individualized comments to the document.
 
 ## Logging
-In the **Segment** page, when you choose **Log**, the application records the interactions on the **Interaction Log Entry** page, and logs the segment. After you have logged the segment, you can only find it on the **Logged Segments** page.
+On the **Segment** page, when you choose **Log**, the application records the interactions on the **Interaction Log Entry** page, and logs the segment. After you have logged the segment, you can only find it on the **Logged Segments** page.
 
-In the **Logged Segments** page, you can decide to create a follow-up segment containing the same contacts as the segment you have logged.
+On the **Logged Segments** page, you can decide to create a follow-up segment containing the same contacts as the segment you have logged.
 
 ## See Also
 [Create Segments](marketing-how-create-segment.md)  

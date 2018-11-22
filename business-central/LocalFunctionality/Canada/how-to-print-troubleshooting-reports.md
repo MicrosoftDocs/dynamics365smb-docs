@@ -28,13 +28,13 @@ You can print these reports and send them to your Microsoft Certified Partner to
 
 ## To print the License Information report  
 1.  In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] Object Designer, on the **Tools** menu, choose **License Information**.  
-2.  In the **License Information** page, you can preview the license information, or you can choose the **Export** button to print the **License Information** report.  
+2.  On the **License Information** page, you can preview the license information, or you can choose the **Export** button to print the **License Information** report.  
 
 ## To print the Data Dictionary report  
 1.  In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] Object Designer, on the **Tools** menu, choose **Object Designer**.  
 2.  Choose the **Report** button.  
 3.  In the **Type** column, find **ID** 10315, which is the **Data Dictionary** report.  
-4.  In the **Object Designer** page, choose the **Run** button to open the **Data Dictionary** report.  
+4.  On the **Object Designer** page, choose the **Run** button to open the **Data Dictionary** report.  
 5.  On the **Options** tab, enter the relevant information into the fields.  
 6.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 

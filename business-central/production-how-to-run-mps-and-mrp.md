@@ -62,7 +62,7 @@ With each planned method, [!INCLUDE[d365fin](includes/d365fin_md.md)] generates 
 5.  Choose the **OK** button. The batch job runs and then the planning worksheet is populated with the planning lines.  
 
 ## To perform action messages  
-1.  In the **Planning Worksheet** page, choose the **Carry Out Action Message** action.  
+1.  On the **Planning Worksheet** page, choose the **Carry Out Action Message** action.  
 2.  On the **Options** FastTab, specify how to create the supplies. Fill in the fields as described in the following table.  
 
     |Field|Description|  

@@ -42,7 +42,7 @@ The account schedules in the standard version of [!INCLUDE[d365fin](includes/d36
 The **Acc. Schedule Overview** page is where you preview the financial report that the account schedule defines. In the following, it is important to understand that what you set up as account schedule rows and columns can only be seen and validated on the **Acc. Schedule Overview** page, which you open from an account schedule by choosing the **Overview** action. The **Account Schedule** page itself is only a setup area.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedules**, and then choose the related link.  
-2. In the **Account Schedules** page, choose the **New** action to create a new account schedule name.
+2. On the **Account Schedules** page, choose the **New** action to create a new account schedule name.
 3. Alternatively, choose the **Copy Account Schedule** action, fill in the two fields, and then choose the **OK** button.
 4. Fill in the fields as necessary. In the **Default Column Layout** field select an existing layout. You can edit it later if you want.
 
@@ -51,7 +51,7 @@ The **Acc. Schedule Overview** page is where you preview the financial report th
 5. Choose the **Edit Account Schedule** action.
 6. Create a row for each financial element that you want to appear in the report, such as one row for current assets and another row for fixed assets. For inspiration, see existing account schedules in the CRONUS demonstration company.
 7. Choose the **Overview** action to see the resulting financial report.
-8. In the **Acc. Schedule Overview** page, in the **Column Layout Name** field, select another column layout to see the financial data by other parameters.
+8. On the **Acc. Schedule Overview** page, in the **Column Layout Name** field, select another column layout to see the financial data by other parameters.
 9. Choose the **OK** button.
 
 You have now defined the basis of the account schedule, the rows of financial data to be displayed, and an existing layout of columns to show the data on the rows per different parameters. If the default column layout that you selected in step 4 does not suit your purpose, follow the next procedure.
@@ -62,8 +62,8 @@ You use column layouts to define what columns should be included in the resultin
 > [!NOTE]
 > A printed/previewed/saved version of an account schedule can display a maximum of five columns. If the account schedule is only meant for analysis on the **Acc. Schedule Overview** page, you can create as many columns as you want.
 
-1. In the **Account Schedules** page, select the relevant account schedule, and then choose the **Edit Column Layout Setup** action.
-2. In the **Column Layouts** page, create a row for each column by which financial data is shown in the financial report. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. On the **Account Schedules** page, select the relevant account schedule, and then choose the **Edit Column Layout Setup** action.
+2. On the **Column Layouts** page, create a row for each column by which financial data is shown in the financial report. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Choose the **OK** button.
 4. Open the **Acc. Schedule Overview** page from time to time to verify that the new column layout works as intended.
 
@@ -74,7 +74,7 @@ You use column layouts to define what columns should be included in the resultin
 Sometimes you may want to include a column in an account schedule to calculate percentages of a total. For example, if you have a number of rows that break down sales by dimension, you may want a column to indicate the percentage of total sales that each row represents.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedules**, and then choose the related link.
-2. In the **Account Schedule Names** page, select an account schedule.  
+2. On the **Account Schedule Names** page, select an account schedule.  
 3. Choose the **Edit Account Schedule** action to set up an account schedule row to calculate the total on which the percentages will be based.  
 4. Insert a line immediately above the first row for which you want to display a percentage.  
 5. Fill in the fields on the line as follows: In the **Totaling Type** field, enter **Set Base for Percent**. In the **Totaling** field, enter a formula for the total that the percentage will be based on. For example, if row 11 contains the total sales, enter **11**.  
@@ -86,15 +86,15 @@ Sometimes you may want to include a column in an account schedule to calculate p
 You can use an account schedule to create a statement comparing general ledger figures and general leger budget figures.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedules**, and then choose the related link.
-2. In the **Account Schedule Names** page, select an account schedule.  
+2. On the **Account Schedule Names** page, select an account schedule.  
 3. Choose the **Edit Account Schedule** action  
-4. In the **Account Schedule** page, in the **Name** field, select the default account schedule name.
+4. On the **Account Schedule** page, in the **Name** field, select the default account schedule name.
 5. Choose the **Insert Accounts** action.  
 6. Select the accounts that you want to include in your statement, and then choose the **OK** button.
 
     The accounts are now inserted into your account schedule. If you want you can also change the column layout.  
 7. Choose the **Overview** action.  
-8. In the **Acc. Schedule Overview** page, on the **Dimension Filters** FastTab, set the budget filter to the desired filter name.  
+8. On the **Acc. Schedule Overview** page, on the **Dimension Filters** FastTab, set the budget filter to the desired filter name.  
 9. Choose the **OK** button.  
 
 Now you can copy and paste your budget statement into a spreadsheet.  

@@ -66,8 +66,8 @@ Before you can process customer payments electronically by exporting direct debi
 1. In the **Search** box, enter **Customers**, and then choose the related link.  
 2. Open the card for the customer that you want to set up for SEPA direct debits.  
 3. Choose the **Bank Accounts** action.  
-4. In the **Customer Bank Account List** page, select the customer bank account that will use direct debits, and then, on the **Home** tab, in the **Process** group, choose **Direct Debit Mandates**.  
-5. In the **SEPA Direct Debit Mandates** page, fill in the fields as described in the following table.  
+4. On the **Customer Bank Account List** page, select the customer bank account that will use direct debits, and then, on the **Home** tab, in the **Process** group, choose **Direct Debit Mandates**.  
+5. On the **SEPA Direct Debit Mandates** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -93,8 +93,8 @@ Before you can process customer payments electronically by exporting direct debi
 ### To create a direct-debit collection  
 
  1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Direct Debit Collections**, and then choose the related link.  
- 2. In the **Direct Debit Collections** page, on the **Home** tab, in the **New** group, choose **Create Direct Debit Collection**.  
- 3. In the **Create Direct Debit Collection** page, fill in the fields as described in the following table.  
+ 2. On the **Direct Debit Collections** page, on the **Home** tab, in the **New** group, choose **Create Direct Debit Collection**.  
+ 3. On the **Create Direct Debit Collection** page, fill in the fields as described in the following table.  
 
      |Field|Description|  
      |---------------------------------|---------------------------------------|  
@@ -111,22 +111,22 @@ Before you can process customer payments electronically by exporting direct debi
       A direct-debit collection is added to the **Direct Debit Collections** page, and one or more direct-debit collection entries are created.  
 
 ### To export a direct-debit collection entry to a bank file  
- 1. In the **Direct Debit Collections** page, on the **Home** tab, in the **Process** group, choose **Direct Debit Collect. Entries**.  
- 2. In the **Direct Debit Collect. Entries** page, select the entry that you want to export, and then, on the **Home** tab, in the **Process** group, choose **Create Direct Debit** File.  
+ 1. On the **Direct Debit Collections** page, on the **Home** tab, in the **Process** group, choose **Direct Debit Collect. Entries**.  
+ 2. On the **Direct Debit Collect. Entries** page, select the entry that you want to export, and then, on the **Home** tab, in the **Process** group, choose **Create Direct Debit** File.  
  3. Save the export file to the location from where you send or upload it to your electronic bank.  
 
-      In the **Direct Debit Collect. Entries** page, the **Direct Debit Collection Status** field is changed to File Created. In the **SEPA Direct Debit Mandates** page, the **Debit Counter** field is updated with one count.  
+      On the **Direct Debit Collect. Entries** page, the **Direct Debit Collection Status** field is changed to File Created. On the **SEPA Direct Debit Mandates** page, the **Debit Counter** field is updated with one count.  
 
  If the exported file cannot be processed, for example because the customer is insolvent, you can reject the direct-debit collection entry. If the exported file is successfully processed by the bank, the due payments of the involved sales invoices are automatically collected from the involved customers. In that case you can close the collection.  
 
 ### To reject a direct-debit collection entry  
 
- * In the **Direct Debit Collect. Entries** page, select the entry that was not successfully processed, and then, on the **Home** tab, in the **Process** group, choose **Reject Entry**.  
+ * On the **Direct Debit Collect. Entries** page, select the entry that was not successfully processed, and then, on the **Home** tab, in the **Process** group, choose **Reject Entry**.  
 
       The value in the **Status** field on the **Direct Debit Collect. Entries** page is changed to **Rejected**.  
 
 ### To close a direct-debit collection  
- *  In the **Direct Debit Collect. Entries** page, select the entry that was successfully processed, and then, on the **Home** tab, in the **Process** group, choose **Close Collection**.  
+ *  On the **Direct Debit Collect. Entries** page, select the entry that was successfully processed, and then, on the **Home** tab, in the **Process** group, choose **Close Collection**.  
 
       The related direct-debit collection is closed.  
 
@@ -141,7 +141,7 @@ Before you can process customer payments electronically by exporting direct debi
  1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Direct Debit Collections**, and then choose the related link.  
  2. Select a line for a direct debit collection that has been exported to a bank file and successfully processed by the bank. For more information, see [Create SEPA Direct Debit Collection Entries and Export to a Bank File](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md).  
  3. Choose the **Post Payment Receipts** action.  
- 4. In the **Post Direct Debit Collection** page, fill in the fields as described in the following table.  
+ 4. On the **Post Direct Debit Collection** page, fill in the fields as described in the following table.  
 
      |Field|Description|  
      |---------------------------------|---------------------------------------|  

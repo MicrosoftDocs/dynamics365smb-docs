@@ -28,7 +28,7 @@ The traffic of files to and from the OCR service is processed by a dedicated job
 ## To send a PDF or image file to the OCR service from the **Incoming Documents** page
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Documents**, and then choose the related link.
 2. Create a new incoming document record and attach the file. For more information, see [Create Incoming Document Records](across-how-create-income-document-records.md).  
-3. In the **Incoming Documents** page, select one or more lines, and then choose the **Send to Job Queue** action.
+3. On the **Incoming Documents** page, select one or more lines, and then choose the **Send to Job Queue** action.
 
     The value in the **OCR Status** field changes to **Ready**. The attached PDF or image file is sent to the OCR service by the job queue according to the schedule, provided that no errors exist.
 4. Alternatively, on the **Incoming Documents** page, select one or more lines, and then choose the **Send to OCR Service** action.
@@ -92,7 +92,7 @@ In addition to mapping to a vendor account or G/L accounts, you can also map to 
 7. Repeat steps 2 through 5 for all text on incoming documents that you want to automatically create documents for.
 
 ## To handle errors when receiving electronic documents
-1. In the **Incoming Documents** page, select the line for an electronic document received from the OCR service with errors. This is indicated by the Error value in the **OCR Status** field.
+1. On the **Incoming Documents** page, select the line for an electronic document received from the OCR service with errors. This is indicated by the Error value in the **OCR Status** field.
 2. Choose the **Edit** action to open the **Incoming Document** page.
 3. On the **Errors and Warnings** FastTab, select the message, and then choose the **Open Related Record** action.
 4. The page that contains the wrong or missing data, such as a vendor card with a missing field value, opens.
@@ -107,8 +107,8 @@ The **OCR Data Correction** page, which you open from the **Incoming Document** 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Documents**, and then choose the related link.
 2. Open an incoming document record that contains data received from OCR service, which you want to correct.
-3. In the **Incoming Document** page, choose the **Correct OCR Data** action.
-4. In the **OCR Data Correction** page, overwrite the data in the editable column for each field that has an incorrect value.
+3. On the **Incoming Document** page, choose the **Correct OCR Data** action.
+4. On the **OCR Data Correction** page, overwrite the data in the editable column for each field that has an incorrect value.
 5. To undo corrections that you have made since you opened the **OCR Data Correction** page, choose the **Reset OCR Data** action.
 6. To send the corrections to the OCR service, choose the **Send OCR Feedback** action.
 7. To save the corrections, close the **OCR Data Correction** page.

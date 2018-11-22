@@ -94,7 +94,7 @@ After repairing a service item, you can register both the fault code and the res
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Tasks**, and then choose the related link.
 2. Choose the line that includes the relevant service item, and then choose the **Item Worksheet** action.  
-3. In the **Service Item Worksheet** page, choose **Fault/Resol. Codes Relationships**. The **Fault/Resolution Codes Relationships** page opens.  
+3. On the **Service Item Worksheet** page, choose **Fault/Resol. Codes Relationships**. The **Fault/Resolution Codes Relationships** page opens.  
 
   >  [!Note]
   >  Filters are set on the relationships that are shown on the page by copying the service item group and the fault codes from the **Service Item Worksheet** page.  

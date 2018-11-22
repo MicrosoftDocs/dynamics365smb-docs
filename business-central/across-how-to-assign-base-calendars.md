@@ -23,7 +23,7 @@ You can assign a base calendar to your company and its business partners, such a
 2.  Choose the **New** action.  
 3.  Fill in the **Code** field.  
 4. Choose the **Maintain Base Calendar Changes** action.
-5. In the **Base Calendar Changes** page, use the **Recurring System** field to mark a particular date or day as a recurring nonworking day. You can select either the **Annual Recurring** or **Weekly Recurring** option.  
+5. On the **Base Calendar Changes** page, use the **Recurring System** field to mark a particular date or day as a recurring nonworking day. You can select either the **Annual Recurring** or **Weekly Recurring** option.  
 
     If you select **Annual Recurring**, you must also enter the relevant date in the **Date** field.  
 
@@ -64,7 +64,7 @@ The following procedure uses the case of the location as an example. Note that a
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.
 2. Open the location that you want to update, and then select the **Customized Calendar** field. Note that a calendar must be selected in the **Base Calendar Code** field.
-3. In the **Customized Calendar Entries** page opens, choose the **Maintain Customized Calendar Changes** action.
+3. On the **Customized Calendar Entries** page opens, choose the **Maintain Customized Calendar Changes** action.
 4. In the **Customized Calendar Changes**, add lines for customized calendar entries.
 
     When you enter a line, the **Nonworking** check box is selected. You can clear the check box if you want to change the status to a working day.
@@ -75,7 +75,7 @@ The following procedure uses the case of the location as an example. Note that a
 
 5. Choose the **OK** button.
 
-In the **Customized Calendar Entries** page, you will observe that the date entries are updated with the changes that you made.
+On the **Customized Calendar Entries** page, you will observe that the date entries are updated with the changes that you made.
 
 On the Location card, you will observe that the **Customized Calendar** field contains **Yes**, indicating that a customized calendar has been set up.
 
@@ -96,7 +96,7 @@ Base calendars are assigned to your own company, customers, vendors, locations, 
 -   On the **Company Information** and **Customer** cards, the base calendar is assigned on the **Shipping** FastTab.  
 -   On the **Vendor** card, the base calendar is assigned on the **Receiving** FastTab.  
 -   On the **Location** card, the base calendar is assigned on the **Warehouse** FastTab.  
--   In the **Shipping Agents** page, the base calendar is assigned on the **Shipping Agent Services** page.  
+-   On the **Shipping Agents** page, the base calendar is assigned on the **Shipping Agent Services** page.  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
 2.  Open the **Customer** card for whom you will assign a base calendar.  

@@ -45,7 +45,7 @@ The following procedure describes how to create a credit memo that only includes
 ### To create contract expiration dates in contract lines  
 The following procedure describes how to create new contracts by working with contract expiration dates in service contract lines.  
 
-1. In the **Service Contract** page, set the contract expiration date to **30.06.2017**.  
+1. On the **Service Contract** page, set the contract expiration date to **30.06.2017**.  
 2. Choose the **Create Credit Memo** action to automatically create a credit memo for July 2017 to December 2017.  
 3. Because the contract has expired, you need to create a new contract for the period with the new VAT rate for July 1, 2017 to December 31, 2017.  
 

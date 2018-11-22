@@ -26,7 +26,7 @@ The Role Center represents the home page, a starting screen that is designed for
 ### To change Role Center
 The default Role Center is **Business Manager**, but you can select another Role Center that fits your needs better.
 1. In the top right corner, choose the **Settings** icon ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center"), and then choose **My Settings**.
-2. In the **My Settings** page, in the **Role Center** field, select the Role Center that you want to set as the standard. For example, select **Accountant**.
+2. On the **My Settings** page, in the **Role Center** field, select the Role Center that you want to set as the standard. For example, select **Accountant**.
 3. Choose the **OK** button.
 
 ## <a name="company"></a>Company

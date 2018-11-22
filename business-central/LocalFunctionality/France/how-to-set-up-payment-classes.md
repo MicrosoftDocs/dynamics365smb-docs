@@ -22,7 +22,7 @@ To use payment management, you must set up payment classes to define operation t
 ## To set up a payment class  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Slip Setup**, and then choose the relevant link.  
-2.  In the **Payment Class** page, choose the **New** action.  
+2.  On the **Payment Class** page, choose the **New** action.  
 3.  Fill in the fields as described in the following table.  
 
     |Field|Description|  

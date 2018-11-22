@@ -30,7 +30,7 @@ When the Incoming Documents feature is set up, you can use different functions t
 
 ## To set up approvers of incoming document records
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Document Setup**, and then choose the related link.  
-2. In the **Incoming Documents Setup** page, choose the **Approvers** action.
+2. On the **Incoming Documents Setup** page, choose the **Approvers** action.
 
     The **Incoming Document Approvers** page shows all users that are set up in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 3. Select one or more users that can approve an incoming document before a related document or journal line can be created.

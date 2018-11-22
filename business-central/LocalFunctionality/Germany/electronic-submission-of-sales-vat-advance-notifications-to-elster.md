@@ -65,7 +65,7 @@ You must also download all relevant style sheets that the tax authorities make a
 For more information, see the [ELSTER online portal](https://go.microsoft.com/fwlink/?LinkId=155998)  
 
 ## Transmissions  
-In the **Sales VAT Adv. Notification List** page, you can create and submit sales VAT advance notifications. When you create a document, you can preview it before submitting it to the ELSTER portal. The documents that are created are based on the XML stylesheets that are published at the ELSTER portal, and on the certificate and other information that you have set up in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+On the **Sales VAT Adv. Notification List** page, you can create and submit sales VAT advance notifications. When you create a document, you can preview it before submitting it to the ELSTER portal. The documents that are created are based on the XML stylesheets that are published at the ELSTER portal, and on the certificate and other information that you have set up in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 After you have submitted a document to ELSTER, an entry is made on the **VAT Transmission Log Entries** page. When the ELSTER online portal processed the submitted document, errors can occur, and [!INCLUDE[d365fin](../../includes/d365fin_md.md)] displays an error message that is based on the error code from ELSTER. In most cases, the error is caused by problems with the user-specific certificate or with network connectivity. For more information, see [Error Messages of the ElsterTransferHandler and ELSTER Transmission Overview](error-messages-of-the-elstertransferhandler.md).
 

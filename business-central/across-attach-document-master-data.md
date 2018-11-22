@@ -22,7 +22,7 @@ The following procedure is based on a sales order. The steps are similar for all
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
 2. Open the sales that you want to attach a file to.
 3. Choose the **Attachments** action.
-4. In the **Attached Documents** page, in the **Attachment** field, choose the **Select File** button.
+4. On the **Attached Documents** page, in the **Attachment** field, choose the **Select File** button.
 5. Select a file from any location, and then choose the **Open** button.
 
 ## See Also

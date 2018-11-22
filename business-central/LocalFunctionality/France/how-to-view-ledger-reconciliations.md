@@ -25,7 +25,7 @@ The following procedure applies to viewing reconciliation between the general le
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger**, and then choose the related link in **General Ledger**.  
 2.  Choose the **Reports** action, choose the **France** action, and then choose the **GL/Cust. Ledger Reconciliation** action.  
-3.  In the **GL/Cust. Ledger Reconciliation** page, set the appropriate filters.  
+3.  On the **GL/Cust. Ledger Reconciliation** page, set the appropriate filters.  
 
     > [!NOTE]  
     >  You must specify a date filter.  

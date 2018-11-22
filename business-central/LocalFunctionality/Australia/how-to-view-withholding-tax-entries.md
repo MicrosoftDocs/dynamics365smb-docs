@@ -19,7 +19,7 @@
 # View Withholding Tax Entries
 You can view entries that have been posted with withholding tax (WHT) for a specified general ledger register.  
 
-In the **WHT Entry** page, you can view details about the withholding tax, such as the base amount, the calculated WHT amount, the WHT calculation method, and the unrealized WHT amount.  
+On the **WHT Entry** page, you can view details about the withholding tax, such as the base amount, the calculated WHT amount, the WHT calculation method, and the unrealized WHT amount.  
 
 ## To view withholding tax entries  
 

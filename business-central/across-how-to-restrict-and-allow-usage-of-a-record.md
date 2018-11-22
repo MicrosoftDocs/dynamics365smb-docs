@@ -28,7 +28,7 @@ The following procedure describes how to restrict purchase orders from being pos
 
 ## To create a workflow step that restricts posting of unapproved purchase orders  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.  
-2. In the **Workflows** page, create a new workflow named Purchase Order Approval Workflow. For more information, see [Create Workflows](across-how-to-create-workflows.md).  
+2. On the **Workflows** page, create a new workflow named Purchase Order Approval Workflow. For more information, see [Create Workflows](across-how-to-create-workflows.md).  
 3. Choose the **Copy From Workflow Template** action.  
 4. Choose the **Source Workflow Code** field, and then, on the **Workflow Templates** page, choose the Purchase Invoice Approval Workflow workflow template.  
 

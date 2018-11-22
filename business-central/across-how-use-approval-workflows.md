@@ -75,7 +75,7 @@ At regular intervals, you must remind approval workflow users of overdue approva
 The **Send Overdue Approval Notifications** function checks for all open approval requests that are currently overdue. Each approver that has at least one overdue approval entry receives a notification with the list of all their overdue approval requests. The notification is also sent to their approver and all the requesters of the overdue approvals. This helps if the overdue approval entry must be delegated to a substitute.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Overdue Approval Requests**, and then choose the related link.
-2. In the **Overdue Approval Requests** page, choose the **Send Overdue Approval Notifications** action.
+2. On the **Overdue Approval Requests** page, choose the **Send Overdue Approval Notifications** action.
 
 ## See Also
 [Sales](sales-manage-sales.md)    

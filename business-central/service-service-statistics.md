@@ -22,7 +22,7 @@ You can use statistics to analyze service documents and determine how well you a
 ## Viewing Statistics for Service Orders
 The service order statistics feature gives you a quick overview of the contents of the entire service order, the details on the specific service lines, and information related to invoicing, shipping and consuming, and the customer's balance.  
 
-The statistical data is displayed for a service order on the **Service Order Statistics** page for the relevant order. You can open the relevant statistics page from a service order. In the **Service Orders** page, choose **Statistics**. The FastTabs in this page show information such as quantity, amount, VAT, cost, profit, and customer credit limit. The amounts on the page are in the currency of the service order, unless otherwise indicated.  
+The statistical data is displayed for a service order on the **Service Order Statistics** page for the relevant order. You can open the relevant statistics page from a service order. On the **Service Orders** page, choose **Statistics**. The FastTabs in this page show information such as quantity, amount, VAT, cost, profit, and customer credit limit. The amounts on the page are in the currency of the service order, unless otherwise indicated.  
 
 ### View totals for a service order  
 You can view the total amount on the service lines, including and excluding VAT, VAT part, cost, and profit on the service lines. The page also displays item-specific information, such as weight, volume, and the quantity of parcels.  
@@ -50,7 +50,7 @@ You can analyze the information by the types of service lines included in the se
 See the balance on the customer's account, in addition to the maximum credit that can be endued to the customer who you created the service document for.
 
 ## Viewing Service Item Statistics
-In the **Service Item Statistics** page, you can see up-to-date information about a service item based the following service ledger entry types:  
+On the **Service Item Statistics** page, you can see up-to-date information about a service item based the following service ledger entry types:  
 
 * Resources  
 * Items  

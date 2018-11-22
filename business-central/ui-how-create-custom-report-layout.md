@@ -47,7 +47,7 @@ To modify a report layout, you must first export the report layout as a file to 
 
 ### To modify a custom layout
 1.  You export a custom layout from the **Custom Report Layouts** page. If this page is not already open, search for and open the **Report Layout Selection** page, select the report that has the layout that you want to modify, and then choose the **Custom Layouts** action.  
-2.  In the **Custom Report Layouts** page, select the layout that you want to modify, choose the **Export Layout** action, and then choose **Save** or **Save As** to save the report layout document to a location on your computer or network.  
+2.  On the **Custom Report Layouts** page, select the layout that you want to modify, choose the **Export Layout** action, and then choose **Save** or **Save As** to save the report layout document to a location on your computer or network.  
 
 3.  Open the report layout document that you just saved, and then make changes.
 

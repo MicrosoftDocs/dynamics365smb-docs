@@ -16,7 +16,7 @@
 
 ---
 # Set Up Approval Users
-Before you can create workflows that involve approval steps, you must set up the workflow users who are involved in approval processes. In the **Approval User Setup** page, you also set amount limits for specific types of requests and define substitute approvers to whom approval requests are delegated when the original approver is absent.  
+Before you can create workflows that involve approval steps, you must set up the workflow users who are involved in approval processes. On the **Approval User Setup** page, you also set amount limits for specific types of requests and define substitute approvers to whom approval requests are delegated when the original approver is absent.  
 
 > [!NOTE]  
 >  Approval users, both approval requesters and approvers, must first be set up as workflow users on the **Workflow User Group** page. For more information, see [Set Up Workflow Users](across-how-to-set-up-workflow-users.md).  

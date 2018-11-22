@@ -101,7 +101,7 @@ The version principle enables you to manage several versions of a routing. The s
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routings**, and then choose the related link.  
 2.  Select the routing to be copied, and then choose the **Versions** action.  
-3. In the **Routing Versions** page, choose the **New** action.
+3. On the **Routing Versions** page, choose the **New** action.
 4. Fill in the fields as necessary.
 5.  In the **Version Code** field, enter the unique identification of the version. Any combination of numbers and letters is permitted.  
 

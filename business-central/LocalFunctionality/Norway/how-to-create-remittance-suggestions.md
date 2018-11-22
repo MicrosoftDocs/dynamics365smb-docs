@@ -26,7 +26,7 @@ You can create a remittance suggestion so that payment proposals are sent to ven
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.  
 2.  Choose the **Remittance Suggestion** action.  
-3.  In the **Suggest Remittance Payments** page, on the **Options** FastTab, fill in the fields as described in the following table.  
+3.  On the **Suggest Remittance Payments** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

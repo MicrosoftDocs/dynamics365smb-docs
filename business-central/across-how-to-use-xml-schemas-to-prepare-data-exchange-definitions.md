@@ -102,7 +102,7 @@ To enable import/export of data in XML files through the data exchange framework
 
 3.  Make sure the relevant nodes are selected. For more information, see the “To select or clear nodes in an XML schema” section.  
 
-4.  In the **XML Schema Viewer** page, on the **Home** tab, in the **Process** group, choose **Generate Data Exchange Definition**.  
+4.  On the **XML Schema Viewer** page, on the **Home** tab, in the **Process** group, choose **Generate Data Exchange Definition**.  
 
  A data exchange definition is created on the **Posting Exchange Definition** page, which you can complete by specifying which elements in the file map to which fields in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).  
 

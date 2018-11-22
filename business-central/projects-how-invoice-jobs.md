@@ -41,11 +41,11 @@ You can create an invoice from a job planning lines, and indicate at that time t
 3. Select a job task for which the **Job Task Type** field contains **Posting**, and then choose the **Job Planning Lines** action.  
 4. On a job planning line, in the **Qty. To Transfer to Invoice** field, enter the quantity of the item, resource, general ledger account type that you want to invoice.  
 5. Choose the **Create Sales Invoice** action.
-6. In the **Job Create Sales Invoice** page, enter the posting date and whether you want to create a new invoice or append this invoice to an existing one.
+6. On the **Job Create Sales Invoice** page, enter the posting date and whether you want to create a new invoice or append this invoice to an existing one.
 7. Choose the **OK** button.  
 
     On the job planning line, in the **Qty. Transferred to Invoice** field, you can see the quantity.
-8. In the **Job Planning Lines** page, choose the **Sales Invoices/Credit Memos** action.
+8. On the **Job Planning Lines** page, choose the **Sales Invoices/Credit Memos** action.
 
     The **Sales Invoice** page opens, showing the quantity that you have transferred to the invoice.  
 9. Make any additional changes, and then choose the **Post** action.
@@ -61,11 +61,11 @@ When you have completed all activities for a job, including usage posting and in
 3. In the **Status** field, select **Completed**.
 4. Follow the assistance steps to calculate and post WIP. Alternatively, follows steps 5 and 6 to do so manually.  
 5. Choose the **Calculate WIP** action.
-6. In the **Job Calculate WIP** page, fill in the fields as necessary.  
+6. On the **Job Calculate WIP** page, fill in the fields as necessary.  
 
      The job WIP entries created by running the batch job will have the **Job Complete** check box selected to show that they are completion entries.  
 7. Choose the **Job Post WIP to G/L** action.
-8. In the **Job Post WIP to G/L** page, fill in the fields as necessary.  
+8. On the **Job Post WIP to G/L** page, fill in the fields as necessary.  
 
      The job WIP general ledger entries created by running the batch job will have the **Job Complete** check box selected to show they are completion entries.
 

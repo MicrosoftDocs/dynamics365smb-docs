@@ -143,7 +143,7 @@ You can modify or delete a VAT clause, and your modifications will be reflected 
 
 ### To set up VAT clauses
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Clauses**, and then choose the related link.  
-2. In the **VAT Clauses** page, create a new line.  
+2. On the **VAT Clauses** page, create a new line.  
 3. In the **Code** field, enter an identifier for the clause. You use this code to assign the clause to VAT posting groups.  
 4. In the **Description** field, enter the text that you want to display on documents that can include VAT. In the **Description 2** field, enter additional text, if needed. The text displays on new lines.  
 5. Optional: To assign the VAT clause to a VAT posting setup right away, choose **Setup**, and then choosing the clause. If you want to wait, you can assign the clause later on the VAT Posting Setup page.  
@@ -236,7 +236,7 @@ Before you set up the VAT rate change tool, you must make the following preparat
 
 ### To set up product posting group conversion  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Rate Change Setup**, and then choose the related link.  
-2. In the **VAT Rate Change Setup** page, on the **Home** tab, in the **Process** group, choose either **VAT Prod. Posting Group Conv.** or **Gen Prod. Posting Group Conv.**.  
+2. On the **VAT Rate Change Setup** page, on the **Home** tab, in the **Process** group, choose either **VAT Prod. Posting Group Conv.** or **Gen Prod. Posting Group Conv.**.  
 3. In the **From Code** field, enter the current posting group.  
 4. In the **To Code** field, enter the new posting group.  
 

@@ -34,22 +34,22 @@ The following describes how to pay a vendor by check. The steps are similar to r
 >   If you are using EFT, you must select either **Electronic Payment** or **Electronic Payment–IAT** in the **Bank Payment Type** field. Different file export services and their formats require different setup values in the **Bank Account Card** and **Vendor Bank Account Card** pages. You will be informed about wrong or missing setup values as you try to export the file.
 
 3. When you have completed all payment journal lines, choose the **Export** action.
-4. In the **Export Electronic Payments** page, fill in the fields as necessary.
+4. On the **Export Electronic Payments** page, fill in the fields as necessary.
 
     Any error messages will be shown in the **Payment File Errors** FactBox where you can also choose an error message to see detailed information. You must resolve all errors before the payment file can be exported.
 
     > [!TIP]  
     >   When you use the bank data conversion service, a common error message states that the bank account number does not have the length that your bank requires. To avoid or resolve the error, you must remove the value in the **IBAN** field on the **Bank Account Card** page and then, in the **Bank Account No.** field, enter a bank account number in the format that your bank requires.
 
-5. In the **Save As** page, specify the location that the file is exported to, and then choose **Save**.
+5. On the **Save As** page, specify the location that the file is exported to, and then choose **Save**.
 
     > [!NOTE]  
     >   If you are using EFT, save the resulting vendor remittance form as a Word document or select to have it emailed directly to the vendor. The payments are now added to the **Generate EFT File** page from where you can generate multiple payment orders together to save transmission cost. For more information, see the following steps.
-6. In the **Payment Journal** page, choose the **Generate EFT File** action.
+6. On the **Payment Journal** page, choose the **Generate EFT File** action.
 
-    In the **Generate EFT File** page, all payments set up for EFT that you have exported from the payment journal for a specified bank account but not yet generated are listed on the **Lines** FastTab.
+    On the **Generate EFT File** page, all payments set up for EFT that you have exported from the payment journal for a specified bank account but not yet generated are listed on the **Lines** FastTab.
 7. Choose the **Generate EFT File** action to export one file for all the EFT payments.
-8. In the **Save As** page, specify the location that the file is exported to, and then choose **Save**.
+8. On the **Save As** page, specify the location that the file is exported to, and then choose **Save**.
 
 The bank payment file is exported to the location that you specify, and you can proceed to upload it to your electronic bank account and make the actual payments. Then you can post the exported payment journal lines.
 
@@ -59,7 +59,7 @@ If you do not want to post a payment journal line for an exported payment, for e
 If you follow a process where you do not post payments until you have confirmation that they have been processed in the bank, you can control this in two ways.
 
 * In a payment journal with suggested payment lines, you can sort on either the **Exported to Payment File** column or the **Total Exported Amount** and then delete payment suggestions for open invoices for which payments have already been made and you do not want to make payments for.
-* In the **Suggest Vendor Payments** page, where you specify which payments to insert in the payment journal, you can select the **Skip Exported Payments** check box if you do not want to insert journal lines for payments that have already been exported.
+* On the **Suggest Vendor Payments** page, where you specify which payments to insert in the payment journal, you can select the **Skip Exported Payments** check box if you do not want to insert journal lines for payments that have already been exported.
 
 To see information about exported payments, choose the **Payment Export History** action.
 

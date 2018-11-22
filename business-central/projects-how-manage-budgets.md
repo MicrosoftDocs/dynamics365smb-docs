@@ -42,7 +42,7 @@ For the **Line Type** field, refer to the following information.
 > [!NOTE]  
 >   When you fill in the **Quantity** field, all total price and total cost information will be calculated and filled in for that planning line. You can edit them at any time.
 
-In the **Job Card** page, you can now see a summary of the total budgeted costs, budgeted price, billable cost and billable price for each task.
+On the **Job Card** page, you can now see a summary of the total budgeted costs, budgeted price, billable cost and billable price for each task.
 
 For information about recording budgeted versus actual job prices and costs, see [Record Usage for Jobs](projects-how-record-job-usage.md).
 

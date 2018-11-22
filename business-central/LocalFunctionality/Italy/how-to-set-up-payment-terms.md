@@ -24,7 +24,7 @@ If a payment term must be paid in one installment, you must still specify how th
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Terms**, and then choose the related link.    
 2.  Fill in the fields on the **Payment Terms** page. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]  
 3.  Choose the **Calculation** action.  
-4.  In the **Payment Terms Lines** page, fill in the fields as described in the following table.  
+4.  On the **Payment Terms Lines** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

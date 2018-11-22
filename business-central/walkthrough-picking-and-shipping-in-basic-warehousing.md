@@ -98,7 +98,7 @@ Sales orders are the most common type of outbound source document.
     John proceeds to pick and ship the sold items.  
 
 ## Picking and Shipping Items  
-In the **Inventory Pick** page, you can manage all outbound warehouse activities for a specific source document, such as a sales order.  
+On the **Inventory Pick** page, you can manage all outbound warehouse activities for a specific source document, such as a sales order.  
 
 ### To pick and ship items  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Picks**, and then choose the related link.  

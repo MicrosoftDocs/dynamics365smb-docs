@@ -17,7 +17,7 @@ ms.author: sgroespe
 When you receive a cash receipt from a customer, or you make a cash refund, you must decide whether to apply the payment or refund to close one or more open debit or credit entries. You can specify the amount you want to apply. For example, you can apply partial payments to customer ledger entries. Closing customer ledger entries makes sure that information such as customer statistics, account statements, and finance charges are correct.
 
 > [!NOTE]  
->   In the **Customer Ledger Entries** page, red font means that the related payment is past its due date. If overdue payments are becoming a problem, we can help you reduce their frequency. You can enable the **Late Payment Predictions** extension, which uses a predictive model that we built in Azure Machine Learning to predict the timing of payments. These predictions help you reduce outstanding receivables and fine-tune your collections strategy. For example, if a payment is predicted to be late, you can adjust the terms of payment or the payment method for the customer. For more information, see [Late Payment Predictions](ui-extensions-late-payment-prediction.md).  
+>   On the **Customer Ledger Entries** page, red font means that the related payment is past its due date. If overdue payments are becoming a problem, we can help you reduce their frequency. You can enable the **Late Payment Predictions** extension, which uses a predictive model that we built in Azure Machine Learning to predict the timing of payments. These predictions help you reduce outstanding receivables and fine-tune your collections strategy. For example, if a payment is predicted to be late, you can adjust the terms of payment or the payment method for the customer. For more information, see [Late Payment Predictions](ui-extensions-late-payment-prediction.md).  
 
 You can apply customer ledger entries in several ways:
 
@@ -56,7 +56,7 @@ You can also apply customer and vendor payments on the **Payment Reconciliation 
 5. In the **Account Type** field, enter **Customer**.
 6. In the **Bal. Account Type** field, enter **Bank Account**.
 7. In the **Applies-to Doc. No.** field, choose the field to open the **Apply Customer Entries** page.
-8. In the **Apply Customer Entries** page, select the entry to apply the payment to.
+8. On the **Apply Customer Entries** page, select the entry to apply the payment to.
 9. In the **Amount to Apply** field, enter the amount you want to apply to the entry. If you do not enter an amount, the maximum amount is applied.
 
     At the bottom of the **Apply Customer Entries** page, you can see the specific amount in the **Applied Amount** field and also whether the application balances.  

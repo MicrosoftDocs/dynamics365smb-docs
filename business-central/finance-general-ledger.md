@@ -21,7 +21,7 @@ The general ledger stores your financial data, and the chart of accounts shows t
 ## General Ledger Setup and General Posting Setup
 The setup of the general ledger is at the core of financial processes because it defines how you post data.  
 
-In the **General Ledger Setup** page, you specify how to handle certain accounting issues in your company, such as:  
+On the **General Ledger Setup** page, you specify how to handle certain accounting issues in your company, such as:  
 
 * Invoice rounding details  
 * Address formats  

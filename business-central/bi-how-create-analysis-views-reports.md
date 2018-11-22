@@ -37,7 +37,7 @@ Then you can set up columns like these:
 - Sales in Pct. of last Month  
 
 ## Setting Up Line and Column Layouts  
- In the **Analysis Report** page, you can view different line and column layouts according to what you have set up. You set up your lines or line templates on the **Analysis Line Templates** page. In this page, you can define the name of the report and the objects you want to show in the lines of your report. You set up your columns on the **Analysis Column Templates** page. In this page, you can define the name of the column template and the analysis parameters that you want to show in the report as columns. In the **Analysis Column Templates** page, each line represents a column in your report. Note that analysis lines and analysis columns are independent from each other.  
+ On the **Analysis Report** page, you can view different line and column layouts according to what you have set up. You set up your lines or line templates on the **Analysis Line Templates** page. In this page, you can define the name of the report and the objects you want to show in the lines of your report. You set up your columns on the **Analysis Column Templates** page. In this page, you can define the name of the column template and the analysis parameters that you want to show in the report as columns. On the **Analysis Column Templates** page, each line represents a column in your report. Note that analysis lines and analysis columns are independent from each other.  
 
 Based on the lines and columns you have set up, the program will aggregate the result of your report in the **Analysis Report** matrix page, such as in this example:  
 
@@ -60,7 +60,7 @@ A template contains a set of lines each representing the analysis columns that y
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Column Templates**, and then choose the related link.  
 2. Select the first empty line, and then fill in the fields as necessary.
 3. Choose the **Columns** action.  
-4. In the **Analysis Columns** page, fill in the fields to specify the columns that you want to include in your analysis report.  
+4. On the **Analysis Columns** page, fill in the fields to specify the columns that you want to include in your analysis report.  
 
     > [!NOTE]  
     >   To define a column, you must fill in the **Analysis Type Codes** field for all column types except **Formula**. Set up the analysis type codes on the **Analysis Types** page.  
@@ -77,7 +77,7 @@ A template contains a set of lines representing the analysis lines that you see 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Line Templates**, and then choose the related link.  
 2. Select the first empty line, and then fill in the fields as necessary.
 3. Choose the **Lines** action.  
-4. In the **Analysis Lines** page, create lines for the items, customers, vendors, or salespeople you want to view figures for in your analysis report. You must fill in the **Type**, **Range**, and the **Description** fields.  
+4. On the **Analysis Lines** page, create lines for the items, customers, vendors, or salespeople you want to view figures for in your analysis report. You must fill in the **Type**, **Range**, and the **Description** fields.  
 
 > [!NOTE]  
 >   Alternatively, when you want to create many individual lines for each item, customer, and so on, you can select the appropriate insert option to fill in all the relevant fields on the line. If you need to, you can then edit the lines manually. To insert lines, choose the **Insert Items** action or the **Insert Item Groups** action.  
@@ -88,10 +88,10 @@ The following procedure is based on analysis reports for sales. The steps are si
 You use analysis reports to analyze the dynamics of your sales according to key sales performance indicators that you select, for example, sales turnover in both amounts and quantities, contribution margin, or progress of actual sales against the budget. You can also use the report to analyze your average sales prices and evaluate the sales performance of your sales force.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Analysis Reports**, and then choose the related link.  
-2. In the **Analysis Report Sale** page, choose the **New** action.
+2. On the **Analysis Report Sale** page, choose the **New** action.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Choose the **Edit Analysis Report** action.
-5. In the **Sales Analysis Report** page, choose the **Show Matrix** action  
+5. On the **Sales Analysis Report** page, choose the **Show Matrix** action  
 
 > [!NOTE]  
 >   Building combinations of line and column templates to create reports and assigning them unique names is optional. If you do this, selecting a report name means that you will not need to select line and column templates on the **Sales Analysis Report** page. After you have chosen a report name, you can change line and column templates independently and then later select the report name again to restore the original combination.

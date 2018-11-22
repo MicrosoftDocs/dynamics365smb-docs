@@ -38,7 +38,7 @@ The following describes how to pay a vendor by check. The steps are similar to r
 3. In the **Payment Method Code** field, select **Check**.
 4. In the **Bank Payment Type** field, select **Computer Check**.
 5. Choose the **Print Check** action.
-6. In the **Check** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. On the **Check** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Choose the **Send to** button, select the **PDF Document** option, and then choose the **OK** button.
 
     The physical checks can now be brought to the bank for processing. Proceed to post the payment as applied to the vendor and thereby paid in the system.
@@ -52,14 +52,14 @@ Fully applied vendor ledger entries and bank ledger entries are created.
 ## To cancel printed checks that are not posted
 You can cancel non-posted checks after they have been printed by using the **Void Check** action on the **Payment Journal** page.
 
-1. In the **Payment Journal** page, choose the **Void Check**, and then choose which checks to cancel.
+1. On the **Payment Journal** page, choose the **Void Check**, and then choose which checks to cancel.
 
 ## To void checks
 When check payment have been posted, you can only cancel (void) checks from the resulting bank ledger entries.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
 2. Select the relevant bank account, choose the **Edit** action, and then choose the **Check Ledger Entries** action.
-3. In the **Check Ledger Entries** page, choose the **Void Check** action.
+3. On the **Check Ledger Entries** page, choose the **Void Check** action.
 4. Select the **Void Check Only** check box.
 5. Choose the **OK** button.
 

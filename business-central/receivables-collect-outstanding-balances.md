@@ -65,12 +65,12 @@ The first time a reminder is created for a customer, the setting from level 1 is
 If you create more reminders than you have defined levels for, the conditions for the highest level will be used. You can create as many reminders as are allowed by the **Max. No of Reminders** field in the reminder terms.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminder Terms**, and then choose the related link.  
-2. In the **Reminder Terms** page, select the line with the terms you want to set up levels for, and then choose **Levels** action.  
+2. On the **Reminder Terms** page, select the line with the terms you want to set up levels for, and then choose **Levels** action.  
 3. Fill in the fields as necessary.  
 
     For each reminder level, you can specify individual conditions, which can include additional fees in both LCY and in foreign currency. You can define many additional fees in foreign currencies for each code on the **Reminder Levels** page.
 4. Choose the **Currencies** action.
-5. In the **Currencies for Reminder Levels** page, define for each reminder level code and corresponding reminder level number a currency code and an additional fee.
+5. On the **Currencies for Reminder Levels** page, define for each reminder level code and corresponding reminder level number a currency code and an additional fee.
 
     > [!NOTE]  
     > When you create reminders in a foreign currency, the foreign currency conditions that you set up here will be used to create reminders. If there are no foreign currency reminder conditions set up, the LCY reminder conditions that are set up on the **Reminder Levels** page will be used and then converted to the relevant currency.
@@ -106,12 +106,12 @@ After you have set up the reminder terms, with additional levels and text, enter
 A reminder is similar to an invoice. When you create a reminder, a reminder header as well as one or more reminder lines must be filled in. You can use a function to create reminders for all customers automatically.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminders**, and then choose the related link.
-2. In the **Reminder** page, choose the **Create Reminders** action.
-3. In the **Create Reminders** page, fill in the fields to define how and to whom the reminders are created.
+2. On the **Reminder** page, choose the **Create Reminders** action.
+3. On the **Create Reminders** page, fill in the fields to define how and to whom the reminders are created.
 4. Choose the **OK** button.
 
 ## To create a reminder manually
-In the **Reminder** page, you can fill in the **General** FastTab manually and then have the lines filled in automatically.
+On the **Reminder** page, you can fill in the **General** FastTab manually and then have the lines filled in automatically.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminders**, and then choose the related link.
 2. Choose the **New** action.
@@ -130,7 +130,7 @@ There are several ways you can determine the text that appears on the printed re
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminders**, and then choose the related link.
 2. Open the relevant reminder, and then choose the **Update Reminder Text** action.
-3. In the **Update Reminder Text** page, enter the required level in the **Reminder Level** field.
+3. On the **Update Reminder Text** page, enter the required level in the **Reminder Level** field.
 3. Choose the **OK** button to update the beginning and ending texts.
 
 ## To issue a reminder
@@ -152,7 +152,7 @@ In addition, issuing the reminder may result in VAT entries.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminders**, and then choose the related link.
 2. Select the relevant reminder, and then choose the **Issue** action.
-3. In the **Issue Reminders** page, fill in the fields as necessary.
+3. On the **Issue Reminders** page, fill in the fields as necessary.
 4. Choose the **OK** button
 
 The reminder is either printed for sent to an specified email as a PDF attachment.
@@ -180,7 +180,7 @@ In addition, each code in the Finance Charge Terms table is linked to a subtable
 
     For each finance charge term, you can specify individual conditions, which can include additional fees in both LCY and in foreign currency. You can define many additional fees in foreign currencies for each code on the **Finance Charge Terms** page.
 4. Choose the **Currencies** action.
-5. In the **Currencies for Fin. Chrg. Terms** page, define for each term a currency code and an additional fee.
+5. On the **Currencies for Fin. Chrg. Terms** page, define for each term a currency code and an additional fee.
 
     > [!NOTE]  
     > When you create finance charges in a foreign currency, the foreign currency conditions that you set up here will be used to create finance charge memos. If there are no foreign currency finance charge conditions set up, then the LCY finance charge conditions that are set up on the **Finance Charge Terms** page will be used and then converted to the relevant currency.
@@ -207,7 +207,7 @@ A finance charge memo is similar to an invoice. You can fill in a header manuall
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Finance Charge Memos**, and then choose the related link.  
 2. Choose the **New** action, and then fill in the fields as necessary.  
 3. Choose **Suggest Fin. Charge Memo Lines** action.
-4. In the **Suggest Finance Charge Memo Lines** page, set a filter on the **Cust. Ledger Entry** FastTab if you want to create finance charge memos only for specific entries.  
+4. On the **Suggest Finance Charge Memo Lines** page, set a filter on the **Cust. Ledger Entry** FastTab if you want to create finance charge memos only for specific entries.  
 5.  Choose the **OK** button to start the batch job.  
 
 ## To update finance charge memo texts  
@@ -215,7 +215,7 @@ In some cases, you may want to modify the beginning and ending text that you hav
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Finance Charge Memo**, and then choose the related link.  
 2. open the finance charge memo that you want to change text for, and then choose the **Update Finance Charge Text** action.
-3. In the **Update Finance Charge Text** page, you can set a filter if you want to update several memos.
+3. On the **Update Finance Charge Text** page, you can set a filter if you want to update several memos.
 4. Choose the **OK** button to update the beginning and ending texts.  
 
 ## To issue finance charge memos
@@ -235,7 +235,7 @@ In addition, issuing the finance charge memo may result in VAT entries.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Finance Charge Memos**, and then choose the related link.
 2. Select the relevant memo, and then choose the **Issue** action.
-3. In the **Issue Finance Charge Memos** page, fill in the fields as necessary.
+3. On the **Issue Finance Charge Memos** page, fill in the fields as necessary.
 4. Choose the **OK** button
 
 The finance charge memo is either printed for sent to an specified email as a PDF attachment.
@@ -244,7 +244,7 @@ The finance charge memo is either printed for sent to an specified email as a PD
 When you issue a reminder, a reminder entry is created on the **Reminder/Fin. Charge Entries** page for each reminder line that contains a customer ledger entry. You can then get an overview of the created reminder entries for a specific customer.    
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
 2. Open the relevant customer card, and then choose the **Ledger Entries** action.
-3. In the **Customer Ledger Entries** page, select the line with the ledger entry you want to see the reminder entries for, and then choose the **Reminder/Fin. Charge Entries** action.
+3. On the **Customer Ledger Entries** page, select the line with the ledger entry you want to see the reminder entries for, and then choose the **Reminder/Fin. Charge Entries** action.
 
 ## See Also
 [Managing Receivables](receivables-manage-receivables.md)  

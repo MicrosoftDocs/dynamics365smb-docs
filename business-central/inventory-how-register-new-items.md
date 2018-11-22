@@ -32,10 +32,10 @@ Items that you offer to your customers but you do not want manage in your system
 
 ## To create a new item card
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
-2. In the **Items** page, choose the **New** action.
+2. On the **Items** page, choose the **New** action.
 
     If only one item template exists, then a new item card opens with some fields filled with information from the template.
-3. In the **Select a template for a new item** page, choose the template that you want to use for the new item card.
+3. On the **Select a template for a new item** page, choose the template that you want to use for the new item card.
 4. Choose the **OK** button. A new item card opens with some fields filled with information from the template.
 5. Proceed to fill or change fields on the item card as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -51,7 +51,7 @@ The item is now registered, and the item card is ready to be used on purchase an
 If you want to use this item card as a template when you create new item cards, you can save it as a template. For more information, see the following section.
 
 ## To save the item card as a template
-1. In the **Item Card** page, choose the **Save as Template** action. The **Item Template** page opens showing the item card as a template.
+1. On the **Item Card** page, choose the **Save as Template** action. The **Item Template** page opens showing the item card as a template.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. To reuse dimensions in templates, choose the **Dimensions** action. The **Dimension Templates** page opens showing any dimension codes that are set up for the item.
 4. Edit or enter dimension codes that will apply to new item cards created by using the template.

@@ -49,7 +49,7 @@ This procedure shows how to create an inventory movement from the **Inventory Mo
 2.  On the **General** FastTab, fill in the **No.** field. You can press the Enter key  to select from the number series.  
 3.  In the **Location Code** field, enter the location where the movement occurs.  
 4.  Choose the **Get Source Documents** action. Alternatively, fill in the **Source Document** field, and then choose the **AssistEdit** button in the **Source No.** field.  
-5.  In the **Source Documents** page, select the assembly order that you want to move components for, and then choose the **OK** button.  
+5.  On the **Source Documents** page, select the assembly order that you want to move components for, and then choose the **OK** button.  
 
     For each needed component that can be moved, one Take line and one Place line are generated on the **Inventory Movements** page. All fields except the **Qty. to Handle** field are prefilled according to the source document lines. The **Qty. to Handle** field is set to zero until you enter the quantity that you have actually moved.  
 

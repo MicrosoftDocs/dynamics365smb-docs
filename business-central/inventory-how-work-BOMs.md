@@ -47,16 +47,16 @@ There are two parts to creating an assembly BOM:
 1. Set up a new item. For more information, see [Register New Items](inventory-how-register-new-items.md).
 
     Proceed to enter components or resources on the assembly BOM.  
-2. In the **Item Card** page for an assembly item, choose the **Assembly** action, and then choose the **Assembly BOM** action.
-3. In the **Assembly BOM** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. On the **Item Card** page for an assembly item, choose the **Assembly** action, and then choose the **Assembly BOM** action.
+3. On the **Assembly BOM** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To view the components of an assembly item indented according to the BOM structure
 From the **Assembly BOM** page, you can open a separate page that shows the components and any resources indented according to their BOM position under the assembly item.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. Open the card for an assembly item. (The **Assembly BOM** field on the **Items** page contains **Yes**.)
-3. In the **Item Card** page, choose the **Assembly** action, and then choose the **Assembly BOM** action.
-4. In the **Assembly BOM** page, choose the **Show BOM** action.
+3. On the **Item Card** page, choose the **Assembly** action, and then choose the **Assembly BOM** action.
+4. On the **Assembly BOM** page, choose the **Show BOM** action.
 
 ## To replace the assembly item with its components on document lines
 From any sales and purchase document that contains an assembly item, you can use a special function to replace the line for the assembly item with new lines for its components. This function is useful, for example, if you want to sell the components as a kit that represents the assembly item.
@@ -82,8 +82,8 @@ The unit cost of an assembly BOM always equals the total of the unit costs of it
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Items**, and then choose the related link.
 2. Open the card for an assembly item. (The **Assembly BOM** field on the **Items** page contains **Yes**.)
-3. In the **Item Card** page, choose the **Assembly** action, and then choose the **Assembly BOM** action.
-4. In the **Assembly BOM** page, choose the **Calc. Standard Cost** action.
+3. On the **Item Card** page, choose the **Assembly** action, and then choose the **Assembly BOM** action.
+4. On the **Assembly BOM** page, choose the **Calc. Standard Cost** action.
 5. Select one of the following options, and then choose the **OK** button.
 
 |Option |Description |

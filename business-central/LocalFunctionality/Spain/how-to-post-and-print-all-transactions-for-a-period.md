@@ -44,7 +44,7 @@ Companies must submit their business transaction entries, grouped by transaction
     > [!NOTE]  
     >  All transactions are ordered by posting date, and a sequential number is assigned to each entry in the **Period Trans. No.** field.  
 
-5.  In the **G/L Registers** page, choose the **Print Page** action.  
+5.  On the **G/L Registers** page, choose the **Print Page** action.  
 
 ## See Also  
  [Transaction Numbers](transaction-numbers.md)

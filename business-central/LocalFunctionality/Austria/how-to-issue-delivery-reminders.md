@@ -23,9 +23,9 @@ When you issue the delivery reminders, delivery reminder ledger entries are crea
 ## To issue delivery reminders  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Delivery Reminder**, and then choose the related link.  
-2.  In the **Delivery Reminder** page, select the delivery reminder that you want to issue, and then choose the **Edit** action.  
+2.  On the **Delivery Reminder** page, select the delivery reminder that you want to issue, and then choose the **Edit** action.  
 3.  Choose the **Issue** action.  
-4.  In the **Issue Delivery Reminder** page, on the **Options** FastTab, fill in the fields as described in the following table.  
+4.  On the **Issue Delivery Reminder** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

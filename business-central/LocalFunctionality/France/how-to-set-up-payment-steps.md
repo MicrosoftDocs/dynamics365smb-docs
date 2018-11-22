@@ -25,7 +25,7 @@ To use payment management, you must set up steps for payment documents and defin
 2.  Select a payment class, and then choose the **Steps** action.  
 3.  In the **Name** field, enter a name for the payment step. You can enter a maximum of 50 alphanumeric characters.  
 4.  Choose the **Edit** action.  
-5.  In the **Payment Step Card** page, fill in the fields as described in the following table.  
+5.  On the **Payment Step Card** page, fill in the fields as described in the following table.  
 
     |**Field**|**Description**|  
     |---------------------------------|---------------------------------------|  
@@ -54,8 +54,8 @@ If the action type of the payment step is **Ledger**, you must set up additional
 
 ## To set up ledger information for a payment step  
 
-1.  In the **Payment Step Card** page for the payment step, choose the **Ledger** action.  
-2.  In the **Payment Step Ledger** page, choose the **New** action.  
+1.  On the **Payment Step Card** page for the payment step, choose the **Ledger** action.  
+2.  On the **Payment Step Ledger** page, choose the **New** action.  
 3.  Fill in the fields as described in the following table.  
 
     |**Field**|**Description**|  

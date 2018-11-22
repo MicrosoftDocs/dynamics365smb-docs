@@ -28,7 +28,7 @@ To manually download CODA files, log  on to the Isabel server and select the fil
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **IBS Logs**, and then choose the related link.  
 2.  Choose the **Download** action.  
-3.  In the **IBS Download Request Options** page, fill in the fields as described in the following table.  
+3.  On the **IBS Download Request Options** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

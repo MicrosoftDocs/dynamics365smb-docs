@@ -25,7 +25,7 @@ This topic shows an example of how to define allocations by using the dynamic al
 ## To define dynamic allocations based on items sold in the previous year  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cost Allocations**, and then choose the related link.  
-2.  In the **Cost Allocation** page, choose the **New** action.  
+2.  On the **Cost Allocation** page, choose the **New** action.  
 3.  In the **ID** field, press Enter or enter an ID.  
 4.  In the **Level** field, enter **1**.  
 5.  In the **Valid From** and **Valid To** fields, enter appropriate dates.  

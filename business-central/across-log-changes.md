@@ -14,7 +14,7 @@ ms.author: edupont
 
 ---
 # Logging Changes in Business Central
-You can enable the change log in [!INCLUDE[d365fin](includes/d365fin_md.md)] so you have a history of activities. The log is based on changes that are made to data in the tables that you track. In the **Change Log Entries** page, entries are chronologically ordered and show changes that are made to the fields on the specified tables. The change log collects all changes that are made to the table.
+You can enable the change log in [!INCLUDE[d365fin](includes/d365fin_md.md)] so you have a history of activities. The log is based on changes that are made to data in the tables that you track. On the **Change Log Entries** page, entries are chronologically ordered and show changes that are made to the fields on the specified tables. The change log collects all changes that are made to the table.
 
 > [!Important]
 > A user's changes are not visible in the **Change Log Entries** until the user's session is restarted, which happens in the following cases:
@@ -28,7 +28,7 @@ A common problem in many financial systems is to locate the origin of errors and
 
 You activate and deactivate the change log on the **Change Log Setup** page. When a user activates or deactivates the change log, this activity is logged, so you can always see which user deactivated or reactivated the change log.
 
-In the **Change Log Setup** page, if you choose the **Tables** action, you can specify which tables you want to track changes for, and which changes to track. [!INCLUDE[d365fin](includes/d365fin_md.md)] also tracks a number of system tables.
+On the **Change Log Setup** page, if you choose the **Tables** action, you can specify which tables you want to track changes for, and which changes to track. [!INCLUDE[d365fin](includes/d365fin_md.md)] also tracks a number of system tables.
 
 After you have set up the change log, activated it, and made a change to data, you can view and filter the changes on the **Change Log Entries** page. If you want to delete entries, you can do that on the **Delete Change Log Entries** page, where you can set filters based on dates and time.  
 

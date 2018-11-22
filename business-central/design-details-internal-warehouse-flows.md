@@ -27,7 +27,7 @@ The flow of items between bins at a company location centers on picking componen
  The main integration between production orders and basic warehouse activities is represented by the ability to pick production components with the **Inventory Pick** or the **Inventory Movement** pages.  
 
 > [!NOTE]  
->  In the **Inventory Pick** page, the component consumption is posted together with the pick posting. By using the **Inventory Movement** page, only bin adjustments are registered, no item ledger posting occurs.  
+>  On the **Inventory Pick** page, the component consumption is posted together with the pick posting. By using the **Inventory Movement** page, only bin adjustments are registered, no item ledger posting occurs.  
 
  In addition to component handling, the integration is represented by the ability to put produced items away with the **Inventory Put-away** page.  
 

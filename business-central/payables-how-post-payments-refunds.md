@@ -15,7 +15,7 @@ ms.author: edupont
 ---
 # Record Payments and Refunds in the Payment Journal
 
-In the **Payment Journal** page, you record payments that you make to vendors and refunds that you make to customers. When you post a payment journal line, the paid amount is recorded on the specified system bank account. You must then take steps to perform the actual money transfer from the related bank account.  
+On the **Payment Journal** page, you record payments that you make to vendors and refunds that you make to customers. When you post a payment journal line, the paid amount is recorded on the specified system bank account. You must then take steps to perform the actual money transfer from the related bank account.  
 
 The payment journal is a general journal that is optimized for making payments. You can quickly add lines manually, you can let [!INCLUDE[d365fin](includes/d365fin_md.md)] suggest vendor payments, and you can apply the payment to posted documents. Even though you are making payments, you enter a positive amount in the **Document Amount** field. Depending on the document type for the journal line, this amount is then converted to a negative amount in the underlying transactions. This way, it's faster for you to add journal lines manually. If you prefer to enter negative amounts, you can personalize the payment journal to show the **Amount** field instead.  
 

@@ -41,8 +41,8 @@ For a list of relevant countries/regions and codes, see the [Italian Revenue Age
 ## To specify the current threshold amount  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Posting Setup**, and then choose the related link.  
-2.  In the **VAT Posting Setup** page, choose the **Blacklist Comm. Amount** action.  
-3.  In the **Blacklist Comm. Amounts** page, fill in the fields as described in the following table.  
+2.  On the **VAT Posting Setup** page, choose the **Blacklist Comm. Amount** action.  
+3.  On the **Blacklist Comm. Amounts** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |------------------------------------|---------------------------------------|  

@@ -23,7 +23,7 @@ When electronic declarations are set up, you can begin to declare VAT and ICP to
 ## To set up electronic declarations  
 
 1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Elec. Tax Declaration Setup**, and then choose the related link.  
-2. In the **Elec. Tax Declaration Setup** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
+2. On the **Elec. Tax Declaration Setup** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 3. If you want the contact ID in the electronic declaration to be filled with the VAT registration number of the company, then select  **Tax Payer** in the **VAT Contact Type** field.
 4. If you want to send electronic ICP declarations for a subsidiary company of a fiscal entity, then select the select the **Part of Fiscal Entity** check box.  
 

@@ -27,9 +27,9 @@ You can export the account schedule data into a digital file format approved by 
 ## To export account schedules into ASC format  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Account Schedules**, and then choose the related link.  
-2.  In the **Account Schedule Names** page, select the relevant account schedule name, and then choose the **Edit Account Schedule** action.  
-3.  In the **Account Schedule** page, choose the **Export Schedules to ASC format** action.  
-4.  In the **Export Schedules to ASC format** page, on the **Options** FastTab, enter information into the relevant fields.  
+2.  On the **Account Schedule Names** page, select the relevant account schedule name, and then choose the **Edit Account Schedule** action.  
+3.  On the **Account Schedule** page, choose the **Export Schedules to ASC format** action.  
+4.  On the **Export Schedules to ASC format** page, on the **Options** FastTab, enter information into the relevant fields.  
 5.  Choose the **OK** button.  
   
 ## See Also  

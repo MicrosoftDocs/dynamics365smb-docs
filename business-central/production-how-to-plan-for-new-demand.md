@@ -24,13 +24,13 @@ You can enter the **Order Planning** page in two ways depending on your focus: F
 ## To plan for new production order demand  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planned Production Orders**, and then choose the related link. (You can perform these steps for planned, firm planned, or released production orders).
 2.  Open the production order you want to plan for, and then choose the **Planning** action.  
-3.  In the **Order Planning** page, choose the **Calculate Plan** action.  
+3.  On the **Order Planning** page, choose the **Calculate Plan** action.  
 
 The page displays planning lines according to the view filter **Production Demand**, meaning unfulfilled component lines of all existing production orders. Demand for only the one production order is not shown because it is necessary to plan for one production order with an overview of demand for potentially earlier components lines. Planning lines for the production order in context are expanded.  
 
 ## To plan for any new demand  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Order Planning**, and then choose the related link.  
-2.  In the **Order Planning** page, choose the **Calculate Plan** action.
+2.  On the **Order Planning** page, choose the **Calculate Plan** action.
 3.  Choose the **Expand (+)** button in front of the date in the **Demand Date** field to see the underlying planning lines that represent demand lines with insufficient availability.  
 4.  For each expanded planning line, that is, demand line, you can see values in information fields at the bottom of the page.  
 
@@ -84,7 +84,7 @@ The page displays planning lines according to the view filter **Production Deman
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planned Production Orders**, and then choose the related link. You can perform these steps for a planned, firm planned, or released production order.  
 2.  Open the production order you want to plan for, and then choose the **Planning** action.  
 3.  Place the cursor on a relevant planning line, and then choose the **Make Orders** action.  
-4.  In the **Make Supply Orders** page, on the **Order Planning** FastTab, in the **Make Orders for** field, select one of the following options.  
+4.  On the **Make Supply Orders** page, on the **Order Planning** FastTab, in the **Make Orders for** field, select one of the following options.  
 
     |Option|Description|  
     |----------------------------------|---------------------------------------|  

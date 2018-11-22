@@ -20,7 +20,7 @@ You use bank accounts in the [!INCLUDE[d365fin](includes/d365fin_md.md)] to keep
 
 ## To set up bank accounts
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
-2. In the **Bank Accounts** page, choose the **New** action.
+2. On the **Bank Accounts** page, choose the **New** action.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
@@ -42,7 +42,7 @@ Fields on the **Transfer** FastTab on the **Vendor Bank Account Card** page are 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
 2. Open the card for a vendor whose bank account you will export payment bank files to.
 3. Choose the **Bank Accounts** action.
-3. In the **Vendor Bank Account Card** page, on the **Transfer** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. On the **Vendor Bank Account Card** page, on the **Transfer** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## See Also
 [Setting Up Banking](bank-setup-banking.md)  

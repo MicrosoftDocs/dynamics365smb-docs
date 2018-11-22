@@ -29,7 +29,7 @@ The following procedures demonstrate how to add and customize table information 
 2.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.  
 
 ## To add a table to the worksheet  
-1.  In the **Config. Worksheet** page, choose the **Edit List** action.  
+1.  On the **Config. Worksheet** page, choose the **Edit List** action.  
 2.  On the first line, in the **Line Type** field, select **Table**.  
 4.  In the **Table ID** field, select the table that you want to add to your configuration.  
 5.  In the **Page ID** field, enter the ID of the page that is associated with the table. For standard tables, this value is automatically filled in. For custom tables, you must provide the ID.

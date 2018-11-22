@@ -97,7 +97,7 @@ Prepare WHITE location for assembly processing by following these steps:
 Remove the default lead time for internal processes by following these steps:  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Manufacturing Setup**, and then choose the related link.  
-2.  In the **Manufacturing Setup** page, on the **Planning** FastTab, remove the value in the **Default Safety Lead Time** field.  
+2.  On the **Manufacturing Setup** page, on the **Planning** FastTab, remove the value in the **Default Safety Lead Time** field.  
 
 Create inventory for assembly components by following the "Prepare Sample Data" section in this walkthrough.  
 
@@ -149,8 +149,8 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
 5.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journals**, and then choose the related link. The **Item Journal** page opens.  
 6.  On the **Actions** tab, in the **Functions** group, choose **Calculate Whse. Adjustment**.  
-7.  In the **Calculate Whse. Adjustment** page, choose the **OK** button.  
-8.  In the **Item Journal** page, on the **Actions** tab, in the **Functions** group, choose **Post**, and then choose the **Yes** button.  
+7.  On the **Calculate Whse. Adjustment** page, choose the **OK** button.  
+8.  On the **Item Journal** page, on the **Actions** tab, in the **Functions** group, choose **Post**, and then choose the **Yes** button.  
 
 ### Creating the Assembly Items  
 
@@ -227,7 +227,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
 4.  Select the sales order line for three units of Kit B.  
 5.  On the **Lines** FastTab, choose **Line**, choose **Assemble to Order**, and then choose **Assemble-to-Order Lines**.  
-6.  In the **Assemble-to-Order Lines** page, on the assembly order line for item 80014, enter **2** in the **Quantity per** field.  
+6.  On the **Assemble-to-Order Lines** page, on the assembly order line for item 80014, enter **2** in the **Quantity per** field.  
 7.  On the assembly order line for item 80210, choose the **No.** field, and then select item 80209 instead.  
 8.  Create a new assembly order line with the following information.  
 
@@ -243,7 +243,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 11. Choose the **Yes** button. Notice the increased value in the **Unit Price Excl. VAT** field.  
 12. Select the sales order line for 15 units of Kit A.  
 13. On the **Lines** FastTab, choose **Line**, choose **Assemble to Order**, and then choose **Assemble-to-Order Lines**.  
-14. In the **Assemble-to-Order Lines** page, create a new assembly order line with the following information.  
+14. On the **Assemble-to-Order Lines** page, create a new assembly order line with the following information.  
 
     |Type|No.|Quantity per|  
     |----------|---------|------------------|  
@@ -260,7 +260,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheet**, and then choose the related link.  
 2.  On the **Action** tab, in the **Functions** group, choose **Calculate Regenerative Plan**.  
-3.  In the **Calculate Plan** page, set the following filters.  
+3.  On the **Calculate Plan** page, set the following filters.  
 
     |Starting Date|Ending Date|No.|  
     |-------------------|-----------------|---------|  
@@ -271,7 +271,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
     A new planning line is created for the needed assembly order of ten units, due on January 27. It needs no changes, so now you can create the order.  
 
 5.  On the **Actions** tab, in the **Functions** group, choose **Carry Out Action Message**.  
-6.  In the **Carry Out Action Msg.** page, choose the **Assembly Order** field, and then select **Make Assembly Orders**.  
+6.  On the **Carry Out Action Msg.** page, choose the **Assembly Order** field, and then select **Make Assembly Orders**.  
 7.  Choose the **OK** button.  
 
 ### Assembling and Shipping the First ATO Quantity  
@@ -352,7 +352,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
     Next, record that the assembly order is completed.  
 
 3.  On the **Navigate** tab, in the **Warehouse** group, choose **Asm.-to-Order Whse. Shpt. Line**.  
-4.  In the **Asm.-to-Order Whse. Shpt. Line** page, in the **Qty. to Ship** field, enter **5**, and then close the page.  
+4.  On the **Asm.-to-Order Whse. Shpt. Line** page, in the **Qty. to Ship** field, enter **5**, and then close the page.  
 
     Notice on the **Assembly Order** page that the **Quantity to Assemble** and the **Quantity to Consume** fields are now filled with the output and consumption quantities that will be posted with the shipment.  
 
@@ -413,7 +413,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
 8.  Reopen the **Warehouse Shipment** page.  
 
-    In the **Warehouse Shipment** page, on the line for ten units of Kit A, notice that the **Qty. to Ship** and **Qty. Picked** fields now contain **10**.  
+    On the **Warehouse Shipment** page, on the line for ten units of Kit A, notice that the **Qty. to Ship** and **Qty. Picked** fields now contain **10**.  
 
 9. On the **Actions** tab, in the **Posting** group, choose **Post Shipment**, and the choose **Ship**.  
 

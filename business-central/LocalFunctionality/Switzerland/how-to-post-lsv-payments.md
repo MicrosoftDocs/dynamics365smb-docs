@@ -28,7 +28,7 @@ You can post payments after you have received Lastschrift Verfahren (LSV+) payme
     >  You can select the journal batch for LSV where the balance account you want to address is defined. You cannot import more than one LSV journal line into the same cash receipt journal. For more information, see the Cash Receipt Journal page.  
 
 3.  Choose the **Get From LSV Journal** action.  
-4.  In the **LSV Journal List** page, select the LSV journal line that you want to import to the cash receipt journal.  
+4.  On the **LSV Journal List** page, select the LSV journal line that you want to import to the cash receipt journal.  
 
     > [!NOTE]  
     >  You can only import journal lines where the **LSV Status** field is set to **File Created**.  

@@ -16,7 +16,7 @@
 
 ---
 # Remove and Reapply Item Ledger Entries
-In the **Application Worksheet** page, you can view and manually change certain item application entries that are created automatically during inventory transactions.  
+On the **Application Worksheet** page, you can view and manually change certain item application entries that are created automatically during inventory transactions.  
 
 When you post a transaction where items are moved in or out of inventory, an item application is created between each inventory increase and inventory decrease. These applications determine the flow of costs from the goods that are received in inventory to the cost of goods going out of inventory. Because of the way the unit cost is calculated, an incorrect item application could lead to a skewed average cost and a skewed unit cost. For more information, see Design Details: Item Application.
 

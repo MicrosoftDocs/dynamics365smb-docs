@@ -30,7 +30,7 @@ You can select these formats when you set up the payment status for your payment
 ## To export or import payment management setup parameters  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Slip Setup**, and then choose the relevant link.  
-2.  In the **Payment Class** page, choose the **Export Parameters** action.  
+2.  On the **Payment Class** page, choose the **Export Parameters** action.  
 
     To import a parameter, choose the **Import Parameter** action, select the file, and then choose the **Open** button.  
 

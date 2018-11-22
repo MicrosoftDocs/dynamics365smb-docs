@@ -46,7 +46,7 @@ If you delete a single record, such as a sales order line, a sales order, or a c
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Deletion**, and then choose the related link.  
 
-2.  In the **Data Deletion** page, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  -->
+2.  On the **Data Deletion** page, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  -->
 
 ## See Also  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

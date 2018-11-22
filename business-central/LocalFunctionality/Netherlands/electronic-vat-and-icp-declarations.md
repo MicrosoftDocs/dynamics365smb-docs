@@ -48,8 +48,8 @@ Before you can send electronic declarations to the tax authorities you must perf
 
 ## To create an electronic declaration
 1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Elec. Tax Declarations**, and then choose the related link.  
-2. In the **Elec. Tax Declaration List** page, choose the **New** action.  
-3. In the **Elec. Tax Declaration Card** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]  
+2. On the **Elec. Tax Declaration List** page, choose the **New** action.  
+3. On the **Elec. Tax Declaration Card** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]  
 4. Choose the **OK** button.
 
 The XML elements and the accompanying data of the electronic declaration are displayed on the **Lines** FastTab on the **Elec. Tax Declaration Card** page.
@@ -59,7 +59,7 @@ The XBRL reporter ensures that all account numbers that are imported from Busine
 ## To submit an electronic declaration
 With the XBRL reporter, you can submit the Intracommunautaire Leveringen (ICP) declaration or the VAT declaration in the required XML format. When it is submitted, the file is sent to the tax authorities as defined on the **Elec. Tax Declaration Setup** page.
 
-1. In the **Elec. Tax Declaration Card** page, choose the **Submit Electronic Tax Declaration** action.
+1. On the **Elec. Tax Declaration Card** page, choose the **Submit Electronic Tax Declaration** action.
 2. Fill in the fields as described in the following table.
 
     |Field|Description|  
@@ -96,7 +96,7 @@ When a response message is imported, it must be processed by validating its cont
 
 1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Elec. Tax Decl. Response Msgs.**, and then choose the related link.  
 2. Choose the **Process Response Messages** action.  
-3. In the **Process Response Messages Batch Job** page, select the appropriate filters, and then choose the **OK** button.  
+3. On the **Process Response Messages Batch Job** page, select the appropriate filters, and then choose the **OK** button.  
 
     The processed information about the response message is displayed in the **Elec. Tax Decl. Response Msgs.**. page.  
 

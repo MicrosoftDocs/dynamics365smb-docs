@@ -41,7 +41,7 @@ The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] supports rece
 
 2.  Select the line for the incoming document record that represents a new incoming electronic invoice, and then, on the **Home** tab, in the **Manage** group, choose **Edit**.  
 
-     In the **Incoming Document Card** page, the related XML file is attached, and most of the fields are prefilled with information from the electronic invoice. For more information, see [Create Incoming Document Records](across-how-create-income-document-records.md).  
+     On the **Incoming Document Card** page, the related XML file is attached, and most of the fields are prefilled with information from the electronic invoice. For more information, see [Create Incoming Document Records](across-how-create-income-document-records.md).  
 
 3.  In the **Data Exchange Type** field, choose **PEPPOL - Invoice** or **OCR – Invoice** depending on the source of the electronic document.  
 

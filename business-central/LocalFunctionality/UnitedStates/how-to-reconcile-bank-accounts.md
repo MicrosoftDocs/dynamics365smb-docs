@@ -33,7 +33,7 @@ Use the **Bank Rec. Worksheet** page to reconcile bank account ledger entries wi
     |**Statement Balance**|The bank statement balance.|  
 
 4. Choose the **Mark Lines** action.  
-5. In the **Bank Rec. Process Lines** page, fill in the fields as described in the following table.  
+5. On the **Bank Rec. Process Lines** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -42,7 +42,7 @@ Use the **Bank Rec. Worksheet** page to reconcile bank account ledger entries wi
 
 6. On the **Bank Rec. Line** FastTab, select the appropriate filters.  
 7. Choose the **OK** button.  
-8. In the **Bank Rec. Worksheet** page, on the **Bank Rec. Adj. Lines Subform** FastTab, enter information in the remaining fields to make adjustments.  
+8. On the **Bank Rec. Worksheet** page, on the **Bank Rec. Adj. Lines Subform** FastTab, enter information in the remaining fields to make adjustments.  
 
     > [!NOTE]  
     >  If needed, you can also use the **Bank Rec. Worksheet** page to view the **Bank Reconciliation Comments** card or the **Bank Reconciliation** card.

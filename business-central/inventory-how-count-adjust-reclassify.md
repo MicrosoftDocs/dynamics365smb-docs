@@ -42,7 +42,7 @@ You can perform the physical inventory in either of the following ways depending
 ### To calculate the expected inventory in basic warehouse configurations
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Phys. Inventory Journals**, and then choose the related link.
 2. Choose the **Calculate Inventory** action.
-3. In the **Calculate Inventory** page, specify the conditions to use to create the journal lines, such as whether to include items that have zero recorded inventory.
+3. On the **Calculate Inventory** page, specify the conditions to use to create the journal lines, such as whether to include items that have zero recorded inventory.
 4. Set filters if you only want to calculate inventory for certain items, bins, locations, or dimensions.
 5. Choose the **OK** button.
 
@@ -80,8 +80,8 @@ You can perform the physical inventory in either of the following ways depending
 When you register the warehouse physical inventory, you are not posting to the item ledger, the physical inventory ledger, or the value ledger, but the records are there for immediate reconciliation whenever necessary. If you like to keep precise records of what is happening in the warehouse, however, and you counted all of the bins where the items were registered, you should immediately post the warehouse results as an inventory physical inventory. For more information, see the "To enter and post the actual counted inventory in advanced warehouse configurations" section.
 
 ### To print the report to be used when counting
-1. In the **Phys. Inventory Journal** page containing the calculated expected inventory, Choose the **Print** action.
-2. In the **Phys. Inventory List** page, specify if the report should show the calculated quantity and if the report should list inventory items by serial/lot numbers.
+1. On the **Phys. Inventory Journal** page containing the calculated expected inventory, Choose the **Print** action.
+2. On the **Phys. Inventory List** page, specify if the report should show the calculated quantity and if the report should list inventory items by serial/lot numbers.
 3. Set filters if you only want to print the report for certain items, bins, locations, or dimensions.
 4. Choose the **Print** button.
 
@@ -169,7 +169,7 @@ You can also use the **Adjust Inventory** function as a simple way to place purc
 >   After you have adjusted inventory, you must update it with the current, calculated value. For more information, see [Revalue Inventory](inventory-how-revalue-inventory.md).
 
 ### To adjust the inventory quantity of multiple items in basic warehouse configurations
-In the **Item Journal** page, you can post item transaction directly to adjust inventory in connection with purchases, sales, and positive or negative adjustments without using documents.
+On the **Item Journal** page, you can post item transaction directly to adjust inventory in connection with purchases, sales, and positive or negative adjustments without using documents.
 
 If you often use the item journal to post the same or similar journal lines, for example, in connection with material consumption, you can use the **Standard Item Journal** page to make this recurring work easier. For more information, see the "Standard Journals" section in [Working with General Journals](ui-work-general-journals.md).
 
@@ -210,7 +210,7 @@ Special steps apply when you want to reclassify serial or lot numbers and their 
 The following example is based on a location code. The steps are similar for other types of item attributes.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Reclass. Journals**, and then choose the related link.
-2. In the **Item Reclass. Journal** page, fill in the fields as necessary.
+2. On the **Item Reclass. Journal** page, fill in the fields as necessary.
 3. In the **Location Code** field, enter the item's current location code.
 4. In the **New Location Code** field, enter the item's new location code.
 5. Choose the **Post** action.

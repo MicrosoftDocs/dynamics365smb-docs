@@ -22,7 +22,7 @@ You can copy commonly used values from an existing company to a new one, as long
 1. Open the new company.  
 2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.  
 3. Choose the **Copy Data from Company**.  
-4. In the **Copy Company Data** page, choose a company to copy from in the **Copy From** field, and then choose the **OK** button.  
+4. On the **Copy Company Data** page, choose a company to copy from in the **Copy From** field, and then choose the **OK** button.  
 5. Select a table from one of the configuration packages that you have imported, and then choose the **Copy Data** action.
 
 ## See Also

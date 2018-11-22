@@ -38,7 +38,7 @@ An example of when a blanket sales order could be used is if a customer calls an
 2.  When you are ready to create orders, choose the **Make Order**m action, and then choose **Yes**. A message appears informing you that the blanket order has been assigned an order number. Note that the blanket order has not been deleted.  
 3.  Choose the **OK** button.  
 4.  To see the results of the preceding steps, choose the **Line** action, choose the **Unposted Lines** action, and then choose the **Orders** action.  
-5.  In the **Sales Lines** page, select the appropriate sales order, choose the **Line** action, and then choose the **Show Document** action.  
+5.  On the **Sales Lines** page, select the appropriate sales order, choose the **Line** action, and then choose the **Show Document** action.  
 
 The following applies to sales orders after they have been created from blanket sales orders:  
 
@@ -56,7 +56,7 @@ You can see the status of a blanket sales order on the **Purchase Blanket Order 
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Blanket Purchase Orders**, and then choose the related link.  
 2.  Select a blanket purchase order, and then choose the **Statistics** action.  
-3.  In the **Purchase Blanket Order Statistics** page, on the **General** FastTab, you can see summary information about the entire order based on the total quantity in the various **Quantity fields** on the blanket purchase order lines.  
+3.  On the **Purchase Blanket Order Statistics** page, on the **General** FastTab, you can see summary information about the entire order based on the total quantity in the various **Quantity fields** on the blanket purchase order lines.  
 
     - On the **Invoicing** FastTab, you can see summary information based on the total quantity in the **Qty. to Invoice** fields on the purchase blanket order lines.  
     - On the **Shipping** FastTab, you can see summary information based on the total quantity in the **Qty. to Receive** fields on the purchase blanket order lines.  
@@ -116,7 +116,7 @@ The link between the blanket sales order and the originating sales order, and an
     <td>Posted credit memos that have been associated with the selected line.</td>
     </tr>
     </table>
-5. In the **Sales Lines** page, choose the **Show Document** action to view the entry.
+5. On the **Sales Lines** page, choose the **Show Document** action to view the entry.
 
 ## See Also
 [Sales](sales-manage-sales.md)  

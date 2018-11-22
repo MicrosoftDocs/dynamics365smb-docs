@@ -63,7 +63,7 @@ A job planning line can have one of the following types.
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.
 2. Open a relevant job card.
 3. Select a job task for which the **Job Task Type** field contains **Posting**, and then choose the **Job Planning Lines** action.  
-4. In the **Job Planning Lines** page, on a new line, fill in the fields as necessary.
+4. On the **Job Planning Lines** page, on a new line, fill in the fields as necessary.
 5. Repeat steps 3 and 4 for all planning lines that you need for the job task.
 
 ## See Also

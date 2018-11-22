@@ -25,12 +25,12 @@ Before you can register new customers, you must set up various sales codes that 
 
 ## To create a new customer card
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
-2. In the **Customers** page, choose the **New** action.
+2. On the **Customers** page, choose the **New** action.
 
     If only one customer template exists, then a new customer card opens with some fields filled with information from the template.
 
     If more than one customer template exists, then a page opens from which you can select a customer template. In that case, follow the next two steps.
-3. In the **Select a template for a new customer** page, choose the template that you want to use for the new customer card.
+3. On the **Select a template for a new customer** page, choose the template that you want to use for the new customer card.
 4. Choose the **OK** button. A new customer card opens with some fields filled with information from the template.  
 5. Proceed to fill or change fields on the customer card as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -41,7 +41,7 @@ The customer is now registered, and the customer card is ready to be used on sal
 If you want to use this customer card as a template when you create new customer cards, you can save it as a template. For more information, see the following section.
 
 ## To save the customer card as a template
-1. In the **Customer Card** page, choose the **Save as Template** action. The **Customer Template** page opens showing the customer card as a template.
+1. On the **Customer Card** page, choose the **Save as Template** action. The **Customer Template** page opens showing the customer card as a template.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. To reuse dimensions in templates, choose the **Dimensions** action. The **Dimension Templates** page opens showing any dimension codes that are set up for the customer.
 4. Edit or enter dimension codes that will apply to new customer cards created by using the template.  

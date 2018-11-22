@@ -166,7 +166,7 @@ You can use various percentages to calculate declining-balance.
 If you use this method, you must enter the estimated useful lifetime and a declining balance percentage on the **FA Depreciation Books** page.  
 
 ### Example - DB1-SL Depreciation
-A fixed asset has an acquisition cost of LCY 100,000. In the **FA Depreciation Books** page, the **Declining-Balance %** field contains 25 and the **No. of Depreciation Years** field contains 8. The **Calculate Depreciation** batch job is run biannually.  
+A fixed asset has an acquisition cost of LCY 100,000. On the **FA Depreciation Books** page, the **Declining-Balance %** field contains 25 and the **No. of Depreciation Years** field contains 8. The **Calculate Depreciation** batch job is run biannually.  
 
 The fixed asset ledger entries look like this:  
 
@@ -222,13 +222,13 @@ The formula for calculating the depreciation amounts is:
 Depreciation Amount = (Depreciation % x Number of Depreciation Days x Depr. Basis) / (100 x 360)  
 
 ### Depreciation Based on Number of Units
-This user-defined method can also be used to depreciate based on number of units, for example, in the case of production machines with an established lifetime capacity. In the **Depreciation Tables** page, you can enter the number of units that can be produced in each period (month, quarter, year,or accounting period).  
+This user-defined method can also be used to depreciate based on number of units, for example, in the case of production machines with an established lifetime capacity. On the **Depreciation Tables** page, you can enter the number of units that can be produced in each period (month, quarter, year,or accounting period).  
 
 ### To set up user-defined depreciation methods
-In the **Depreciation Table** page, you can set up user-defined depreciation methods. For example, you can set up depreciation based on number of units.  
+On the **Depreciation Table** page, you can set up user-defined depreciation methods. For example, you can set up depreciation based on number of units.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Tables**, and then choose the related link.  
-2. In the **Depreciation Table List** page, choose the **New** action.  
+2. On the **Depreciation Table List** page, choose the **New** action.  
 3. **Depreciation Table Card** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### Example - User-defined Depreciation
@@ -300,7 +300,7 @@ The fixed asset ledger entries look like this:
 * Depreciation starting date  
 
 ## Example - DB1/SL Depreciation Using Half-Year Convention
-A fixed asset has an acquisition cost of LCY 100,000. The **Depreciation Starting Date** is 11/01/10. The estimated life is five years, so the **Depreciation Ending Date** must be 06/30/15. In the **FA Depreciation Books** page, the **Declining-Balance %** field contains 40. The **Calculate Depreciation** batch job is run annually. This example is based on a calendar fiscal year.  
+A fixed asset has an acquisition cost of LCY 100,000. The **Depreciation Starting Date** is 11/01/10. The estimated life is five years, so the **Depreciation Ending Date** must be 06/30/15. On the **FA Depreciation Books** page, the **Declining-Balance %** field contains 40. The **Calculate Depreciation** batch job is run annually. This example is based on a calendar fiscal year.  
 
 The fixed asset ledger entries look like this:  
 

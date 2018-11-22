@@ -39,7 +39,7 @@ You may often need to see the list of service orders or service quotes that meet
 2. Choose the service order, and then choose the **Resource Allocations** action.  
 3. Choose the entry with the service task to which you want to allocate a resource.  
 4. Choose either the **Resource Availability** or **Res. Group Availability** action.  
-5. In the **Res. Availability (Service)** page, choose **Show Matrix**.  
+5. On the **Res. Availability (Service)** page, choose **Show Matrix**.  
 6. Choose a resource to allocate. You can base your selection on whether the resource is skilled for the task, whether it is located in the customer zone, and/or whether it is preferred by the customer.  
 7. Specify a date on which the resource has enough available hours for the task, and which is close to the response date of the service order.  
 8. In the **Qty. to Allocate** field, enter the number of hours you want to allocate the resource to the service task for.  
@@ -59,7 +59,7 @@ After you have created and filled in a service order or service quote, you can a
 2. Choose the service order, and then choose **Edit**.  
 3. Choose the service item line corresponding to the service task you want to allocate a resource to.  
 4. Choose **Resource Allocations**.
-5. In the **Resource Allocations** page, choose a nonactive allocation entry with the service task you want to allocate the resource to. If the allocation entry does not exist, you can create a new one by choosing **New**.  
+5. On the **Resource Allocations** page, choose a nonactive allocation entry with the service task you want to allocate the resource to. If the allocation entry does not exist, you can create a new one by choosing **New**.  
 7. Specify the service task by filling in the **Service Item No.** field on the same line.  
 8. In the **Resource No.** field, choose the resource. If the resource is a member of a resource group, the number of the resource group is entered automatically into the **Resource Group No.** field.  
 9. Fill in the **Allocation Date** and **Allocated Hours** fields. The **Status** field is set to **Active**. This means that the resource is allocated to the service task.  
@@ -78,7 +78,7 @@ You can reallocate resources directly from a service order or service quote when
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Orders**, and then choose the related link.  
 2. Open the relevant service order.  
 3. Select the service item line corresponding to the service task you want to allocate a resource to.  Choose **Actions**, choose **Line**, and then choose **Resource Allocations**.  
-4. In the **Resource Allocations** page, select an allocation entry with the service task you want to reallocate the resource to. In the **Resource No.** field, select the relevant resource. This overwrites the resource number already in the field.  
+4. On the **Resource Allocations** page, select an allocation entry with the service task you want to reallocate the resource to. In the **Resource No.** field, select the relevant resource. This overwrites the resource number already in the field.  
 5. Press the Enter key. A dialog box opens, asking whether you want to reallocate this entry. Fill in the **Reason Code** field if appropriate and choose the **Yes** button to confirm the reallocation.  
 6. Fill in the **Allocation Date** and **Allocated Hours** fields. The entry now contains the new resource and its status is **Active**.
 

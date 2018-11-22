@@ -27,7 +27,7 @@ Analyzing data by dimensions gives you greater insight into your business, so yo
 An analysis by dimensions displays a selected combination of dimensions. You can store and retrieve each analysis you have set up. The information for setting up an analysis is stored on an **Analysis View** card to simplify future analysis.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Analysis Views**, and then choose the related link.  
-2. In the **Analysis View List** page, choose the **New** action.
+2. On the **Analysis View List** page, choose the **New** action.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. To add other dimension codes in addition to the four on the **Dimensions** FastTab, choose the **Filter** action, fill in the fields, and then choose the **OK** button.  
 5. To update the view, choose the **Update** action.
@@ -37,7 +37,7 @@ You can use the **Analysis by Dimensions** matrix to view the amounts in your ge
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Analysis Views**, and then choose the related link.  
 2. Select the relevant analysis view,  and then choose the **Analysis by Dimensions** action.
-3. In the **Analysis by Dimensions** page, fill in the fields to define which data is shown and how.
+3. On the **Analysis by Dimensions** page, fill in the fields to define which data is shown and how.
 4. Choose the **Show Matrix** action to open the respective matrix page for the defined analysis view.
 5. To see a specification of an amount shown in the matrix page, choose the amount to drill down.  
 
@@ -60,9 +60,9 @@ The following procedure is for updating an analysis view from the **Analysis by 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Analysis Views**, and then choose the related link.
 2. Select the relevant analysis view,  and then choose the **Analysis by Dimensions** action.
-2. In the **Analysis by Dimensions** page, choose the **Analysis View Code** field.  
+2. On the **Analysis by Dimensions** page, choose the **Analysis View Code** field.  
 3. Select the line with the relevant analysis view.  
-4. In the **Analysis Views** page, select the analysis view, and then choose the **Update** action.  
+4. On the **Analysis Views** page, select the analysis view, and then choose the **Update** action.  
 
 > [!TIP]  
 >   If you select the **Update on Posting** check box on an analysis view card, the view is automatically updated when an involved transaction is posted.

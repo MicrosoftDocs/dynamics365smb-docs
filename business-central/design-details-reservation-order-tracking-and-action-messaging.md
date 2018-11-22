@@ -129,7 +129,7 @@ The reservations system is comprehensive and includes the interrelated and paral
 ||Demand|Sale for 100 units at BLUE location|  
 ||Supply|Released production order (generated with the **Sales Order Planning** function for the sale of 100 units)|  
 
-In the **Manufacturing Setup** page, the **Components at Location** field is set to **RED**.
+On the **Manufacturing Setup** page, the **Components at Location** field is set to **RED**.
 
  The following order tracking entries exist in the **Reservation Entry** table based on the data in the table.  
 

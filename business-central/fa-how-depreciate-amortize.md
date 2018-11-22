@@ -39,7 +39,7 @@ Once a month, or whenever you choose, you can run the **Calculate Depreciation**
     The batch job calculates the depreciation and creates lines in the fixed asset G/L journal.  
 4. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA G/L Journals**, and then choose the related link.  
 
-    In the **Fixed Asset G/L Journal** page, in the **No. of Depreciation Days** field you can see how many days of depreciation have been calculated.  
+    On the **Fixed Asset G/L Journal** page, in the **No. of Depreciation Days** field you can see how many days of depreciation have been calculated.  
 5. Choose the **Post** action.  
 
 ## To post depreciation manually from the fixed asset G/L journal
@@ -88,7 +88,7 @@ You can copy entries from one depreciation book to another by using the **Copy D
 ## To copy fixed asset ledger entries between depreciation books
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Books**, and then choose the related link.  
 2. Open the relevant depreciation book card, and then choose the **Copy Depreciation Book** action.  
-3. In the **Copy Depreciation Book** page, fill in the fields as necessary.  
+3. On the **Copy Depreciation Book** page, fill in the fields as necessary.  
 4. Choose the **OK** button.  
 
 The copied lines are created in either the fixed asset G/L journal or the fixed asset journal, depending on whether the depreciation book that you are copying has integration to the general ledger.  

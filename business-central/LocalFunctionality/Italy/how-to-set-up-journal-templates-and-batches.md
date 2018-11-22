@@ -25,7 +25,7 @@ You can print Intrastat reports on the **Intrastat Jnl. Batches** page based on 
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat Journal Templates**, and then choose the related link.  
 2.  To create a new Intrastat journal template, choose the **New** action.  
-3.  In the **Intrastat Journal Templates** page, fill in the fields as described in the following table.  
+3.  On the **Intrastat Journal Templates** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

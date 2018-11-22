@@ -159,7 +159,7 @@ Customer data must be validated before you apply the records to the [!INCLUDE[d3
 > [!NOTE]  
 >  In most cases, invalid data is not created in the database. However, the application can occasionally be blocked if an imported migration table contains errors.  
 
-1. In the **Migration Overview** page, review the **No. of Migration Errors** field to see whether any errors occurred during import.  
+1. On the **Migration Overview** page, review the **No. of Migration Errors** field to see whether any errors occurred during import.  
 2. If there are errors, select the migration table, and then, on the **Tables** tab, choose the **Errors** action. The **Invalid** check box is selected for each record that has an error.  
 3. To review errors, select a line, and then choose the **Show Error** action.  
 

@@ -37,15 +37,15 @@ To use ADCS, you must specify which warehouse locations use the technology.
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and choose the related link.
 2.  Select a warehouse from the list for which you want to enable ADCS, and then choose the **Edit** action.
-3. In the **Location Card** page, select the **Use ADCS** check box.  
+3. On the **Location Card** page, select the **Use ADCS** check box.  
 
 ## To specify an item to use ADCS  
 Each warehouse item that you want to use with ADCS must be assigned an identifier code to link it with its item number. For example, you can use the item's bar code as the identifier code. An item can also have multiple identifier codes. You may find this useful in the case where an item is available in various units of measures, such as pieces and pallets. In this case, assign an identifier code to each.    
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2.  Select an item from the list that is part of your ADCS solution, and then choose the **Edit** action.
-3. In the **Item Card** page, choose the **Identifiers** action.
-4. In the **Item Identifiers** page, choose the **New** action.
+3. On the **Item Card** page, choose the **Identifiers** action.
+4. On the **Item Identifiers** page, choose the **New** action.
 5. In the **Code** field, specify the identifier for the item. For example, the identifier could be the item's bar code number.  
 
     You can also enter a **Variant Code** and a **Unit of Measure** code.  

@@ -28,7 +28,7 @@ You may need to transfer a fixed asset to a different department when, for examp
 
     Two lines are now created in the fixed asset G/L journal using the template and batch that you have specified on the **FA Journal Setup** page for the specified depreciation book. For more information, see [Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md).
 6. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA G/L Journals**, and then choose the related link.    
-7. In the **Fixed Asset G/L Journal** page, choose the **Post** action to post the reclassification that you performed in steps 4 and 5.
+7. On the **Fixed Asset G/L Journal** page, choose the **Post** action to post the reclassification that you performed in steps 4 and 5.
 
 If you have posted an acquisition cost for one asset, you can use the fixed asset reclassification journal to split the acquisition cost among several assets.  
 
@@ -46,7 +46,7 @@ You can split one fixed asset into multiple fixed assets, for example when you n
 
     Two lines are now created in the fixed asset G/L journal using the template and batch that you have specified on the **FA Journal Setup** page for the specified depreciation book. For more information, see [Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md).    
 9. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA G/L Journals**, and then choose the related link.
-10. In the **Fixed Asset G/L Journal** page, choose the **Post** action to post the reclassification that you performed in steps 4 through 8.
+10. On the **Fixed Asset G/L Journal** page, choose the **Post** action to post the reclassification that you performed in steps 4 through 8.
 
 ## To combine two fixed assets into one
 You can combine multiple fixed assets into one fixed asset, for example when you move distributed fixed assets into one department. If you have posted acquisition costs and depreciation for the fixed asset to be moved, those values will be combined in the single fixed asset.
@@ -59,7 +59,7 @@ You can combine multiple fixed assets into one fixed asset, for example when you
 
     Two lines are now created in the fixed asset G/L journal using the template and batch that you have specified on the **FA Journal Setup** page for the specified depreciation book. For more information, see [Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md).   
 6. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA G/L Journals**, and then choose the related link.
-7. In the **Fixed Asset G/L Journal** page, choose the **Post** action to post the reclassification that you performed in steps 2 through 5.
+7. On the **Fixed Asset G/L Journal** page, choose the **Post** action to post the reclassification that you performed in steps 2 through 5.
 
 ## To view changed depreciation book values due to fixed asset reclassification
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Book Value 02**, and then choose the related link.

@@ -45,7 +45,7 @@ The chart of cost types is similar to the chart of accounts in the general ledge
     >  If you have entered definitions in the **Totaling** fields for the line type of **End-Total** before you run the **Indent Cost Types** function, then you must enter the definitions again because the function overwrites the values in all **End-Total** fields.  
 
 ## To update cost types  
-1.  In the **Cost Accounting Setup** page, select if you want the chart of cost types to be automatically updated when the chart of accounts is changed.  
+1.  On the **Cost Accounting Setup** page, select if you want the chart of cost types to be automatically updated when the chart of accounts is changed.  
 2.  In the **Align G/L Account** field, you can choose from the following options.  
 
 - **No Alignment** - There is no corresponding change in the chart of cost types when you change the chart of accounts.  

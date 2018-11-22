@@ -44,7 +44,7 @@ Entries related to credit memos display on the **Customer/Vendor Warnings 349** 
 
 ## To correct warnings for Report 349  
 
-1.  In the **Customer/Vendor Warnings 349** page, select the line for the relevant customer.  
+1.  On the **Customer/Vendor Warnings 349** page, select the line for the relevant customer.  
 2.  Make the appropriate changes to the line.  
 
     The following table describes the key fields for correcting a 349 declaration that includes a credit memo.  

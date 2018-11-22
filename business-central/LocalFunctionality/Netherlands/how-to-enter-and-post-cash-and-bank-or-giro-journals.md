@@ -33,7 +33,7 @@ You can apply the payments from customers to the open invoices from accounts rec
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Journal**, and then choose the related link.  
 2.  Choose the **New** action.  
-3.  In the **Cash Journal** page, on the **Lines** FastTab, fill in the required fields as described in the following table.  
+3.  On the **Cash Journal** page, on the **Lines** FastTab, fill in the required fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -57,7 +57,7 @@ You can apply the payments from customers to the open invoices from accounts rec
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank/Giro Journal**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  Select the relevant journal template, and then choose the **OK** button.  
-4.  In the **Bank/Giro Journal** page, fill in the fields as described in the following table.  
+4.  On the **Bank/Giro Journal** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

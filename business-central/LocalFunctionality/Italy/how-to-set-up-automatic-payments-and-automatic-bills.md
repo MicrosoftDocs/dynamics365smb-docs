@@ -64,7 +64,7 @@ The following procedure describes how to set up automatic bills for sales and re
 2.  Select the payment method that you use for bank transfers to vendors, and then, in the **Bill Code** field, select a bill code.  
 
     1.  To create a bill code, in the **Bill Code** field, choose the field, and then choose the **New** action.  
-    2.  In the **Bill** page, fill in the fields.
+    2.  On the **Bill** page, fill in the fields.
 
 Now, you can process customer bills and vendor bills so that they are handled automatically.  
 

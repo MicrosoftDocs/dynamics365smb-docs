@@ -35,7 +35,7 @@ You can allocate an entry in a general journal to several different accounts whe
 
 ## To change an allocation key that has already been set up
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Recurring General Journal**, and then choose the related link.
-2. In the **Recurring General Journal** page, select the journal with the allocation.
+2. On the **Recurring General Journal** page, select the journal with the allocation.
 3. Choose the line with the allocation, and then choose **Allocations** action.
 4. Change the relevant fields, and then choose the **OK** button.
 

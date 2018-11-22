@@ -54,7 +54,7 @@ After you create the VAT report, you have to submit it to the tax authorities.
 
 ## To submit a VAT report  
 
-1.  In the **VAT Report** page, choose the **Release** action.  
+1.  On the **VAT Report** page, choose the **Release** action.  
 2.  Confirm that you want to release the report.  
 
     [!INCLUDE[d365fin](../../includes/d365fin_md.md)] validates that the VAT report is set up correctly. If the validation fails, the errors are shown on the **VAT Report Error Log** page so that you can make the appropriate changes. For example, an error displays if you try to release a standard VAT report but you have not yet added any lines to the report.  

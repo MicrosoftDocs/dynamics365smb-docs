@@ -29,7 +29,7 @@ The following procedure describes how to set the **Sales - Invoice** report up t
 
 ## To set up a document-specific email body for sales invoices
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Selections Sales**, and then choose the related link.
-2. In the **Report Selection - Sales** page, in the **Usage** field, select **Invoice**.
+2. On the **Report Selection - Sales** page, in the **Usage** field, select **Invoice**.
 3. On a new line, in the **Report ID** field, select, for example, standard report 1306.
 4. Select the **Use for Email Body** check box.
 5. Choose the **Email Body Layout Code** field, and then select a layout from the drop-down list.

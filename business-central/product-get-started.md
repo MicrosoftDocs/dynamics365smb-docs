@@ -42,7 +42,7 @@ Each Role Center provides a **Setup and Extensions** button. Here you have acces
 > [!NOTE]  
 >   The list of setup guides, extensions, and services that are available differ depending on the user experience you choose for your company. The **Essential** experience gives access to fewer than the **Premium** experience does. The first time you sign in, you use the Essential experience. For more information, see [Changing Which Features are Displayed](ui-experiences.md).  
 
-In the **Assisted Setup** page, you will find the following with the **Essential** experience:
+On the **Assisted Setup** page, you will find the following with the **Essential** experience:
 
 | Assisted Setup | Description |
 | --- | --- |

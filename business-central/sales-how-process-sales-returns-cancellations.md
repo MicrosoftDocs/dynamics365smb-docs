@@ -45,12 +45,12 @@ For more information, see [Design Details: Inventory Costing](design-details-inv
 
 ## To create a sales credit memo from a posted sales invoice
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, and the choose the related link.  
-2. In the **Posted Sales Invoices** page, select the posted sales invoice that you want to reverse, and then choose the **Create Corrective Credit Memo** action.
+2. On the **Posted Sales Invoices** page, select the posted sales invoice that you want to reverse, and then choose the **Create Corrective Credit Memo** action.
 
     The sales credit memo header contains some information from the posted sales invoice. You can edit this, for example, with new information that reflects the return agreement.  
 3. Edit information on the lines according to the agreement, such as the number of returned items or the amount to reimburse.
 4. Choose the **Apply Entries** action.
-5. In the **Apply Customer Entries** page, select the line with the posted sales document that you want to apply the sales credit memo to, and then choose the **Applies-to ID** action.
+5. On the **Apply Customer Entries** page, select the line with the posted sales document that you want to apply the sales credit memo to, and then choose the **Applies-to ID** action.
 
     The identifier of the sales credit memo displays in the **Applies-to ID** field.
 6. In the **Amount to Apply** field, enter the amount that you want to apply if it's smaller than the original amount.  
@@ -70,7 +70,7 @@ The posted sales documents that you applied the credit memo to are now reversed,
 2. Choose the **New** action to open a new empty sales credit memo.
 3. In the **Customer** field, enter the name of an existing customer.
 4. Choose the **Copy Document** action.
-5. In the **Copy Sales Document** page, in the **Document Type** field, select **Posted Invoice**.
+5. On the **Copy Sales Document** page, in the **Document Type** field, select **Posted Invoice**.
 6. Choose the **Document No.** field to open the **Posted Sales Invoices** page, and then select the posted sales invoice that contains lines that you want to reverse.
 7. Select the **Recalculate Lines** check box if you want the copied posted sales invoice lines to be updated with any changes in item price and unit cost since the invoice was posted.
 8. Choose the **OK** button. The copied invoice lines are inserted in the sales credit memo.
@@ -122,21 +122,21 @@ The posted sales documents that you applied the credit memo to are now reversed,
      >   
      >  If the flow of goods in the posted document is the same as the flow of goods in the new document, a copy of the original posted document line in the new document is created. The **Appl.-from Item Entry** field is not filled in because, in this case, exact cost reversing is not possible. For example, if you use the **Get Posted Document Lines to Reverse** function to get a posted sales credit memo line for a new sales credit memo, only the original posted credit memo line is copied to the new credit memo.  
 
-10. In the **Sales Return Order** page, in the **Return Reason Code** field on each line, select the reason for the return.
+10. On the **Sales Return Order** page, in the **Return Reason Code** field on each line, select the reason for the return.
 11. Choose the **post** action.
 
 ## To create a replacement sales order from a sales return order
 You may decide to compensate a customer for an item that you have sold them by replacing the item. You can make a replacement with the same item or a different item. This situation could occur if you mistakenly shipped the wrong item to the customer, for example.  
 
-1. In the **Sales Return Order** page for an active return process, on an empty line, make a negative entry for the replacement item by inserting a negative amount in the **Quantity** field.  
+1. On the **Sales Return Order** page for an active return process, on an empty line, make a negative entry for the replacement item by inserting a negative amount in the **Quantity** field.  
 2. Choose the **Move Negative Lines** action.
-3. In the **Move Negative Sales Lines** page, fill in the fields as necessary.
+3. On the **Move Negative Sales Lines** page, fill in the fields as necessary.
 4. Choose the **OK** button. The negative line for the replacement item is deleted from the sales return order and inserted in a new **Sales Order** page. For more information, see [Sell Products](sales-how-sell-products.md).
 
 ## To create return-related documents from a sales return order
 You can have replacement sales orders, purchase return orders, and replacement purchase orders created automatically during the sales return process. This is useful, for example, in situations where you want to handle items with warranties provided by vendors.
 
-1. In the **Sales Return Order** page for an active return process, choose the **Create Return-Related Documents** action.
+1. On the **Sales Return Order** page for an active return process, choose the **Create Return-Related Documents** action.
 2. In the **Vendor No.** field, enter the number of a vendor if you want to create vendor documents automatically.
 3. If a returned item must be returned to the vendor, select the **Create Purch. Ret. Order** check box.
 4. If a returned item must be ordered from the vendor, select the **Create Purchase Order** check box.
@@ -197,7 +197,7 @@ To combine return receipts, the **Combine Shipments** check box must be selected
 You can automatically combine return receipts and have the option of automatically posting the credit memos using the  **Combine Return Receipts** function.  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Combine Return Receipts**, and then choose the related link.
-2. In the **Combine Return Receipts** page, fill in the fields to select the relevant return receipts.
+2. On the **Combine Return Receipts** page, fill in the fields to select the relevant return receipts.
 3. Select the **Post Credit Memos** check box. If not, you must manually post the resulting purchase credit memos.
 4.  Choose the **OK** button.  
 

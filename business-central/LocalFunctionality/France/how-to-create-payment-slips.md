@@ -25,7 +25,7 @@ The following procedure describes how to create payment slips for vendor payment
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Slips**, and then choose the relevant link.  
 2.  Choose the **New** action.  
-3.  In the **Payment Slip** page, choose a field to open the **Payment Class List** page.  
+3.  On the **Payment Slip** page, choose a field to open the **Payment Class List** page.  
 4.  Select a payment class, and then choose the **OK** button.  
 5.  On the **General** FastTab, fill in the fields as described in the following table.  
 
@@ -77,7 +77,7 @@ The following procedure describes how to create payment slips for vendor payment
 
     The payment lines are automatically created.  
 
-14. In the **Payment Slip** page, on the **Posting** FastTab, fill in the fields as described in the following table.  
+14. On the **Payment Slip** page, on the **Posting** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -89,7 +89,7 @@ The following procedure describes how to create payment slips for vendor payment
 
 15. Optionally, for SEPA, in the **Account No.** field, choose the **Advanced** option.  
 
-    1. In the **Bank Account List** page, choose the **Edit** action.  
+    1. On the **Bank Account List** page, choose the **Edit** action.  
     2. Fill in the following fields if needed:  
 
         - **General** FastTab  
@@ -112,7 +112,7 @@ After you create a payment slip, you can generate payment files and send them to
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Slips**, and then choose the relevant link.  
 2.  Select a payment slip, and then choose the **Edit** action.  
-3.  In the **Payment Slip** page, choose the **Generate file** action.  
+3.  On the **Payment Slip** page, choose the **Generate file** action.  
 4.  Choose the **Yes** button, and then choose the **OK** button.  
 
     The payment file is generated and exported according to the export type that is specified on the **Payment Step** page.  

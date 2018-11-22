@@ -110,7 +110,7 @@ Purchase orders are the most common type of inbound source document.
     The delivery of loudspeakers from vendor 10000 has arrived at SILVER warehouse, and John proceeds to put them away.  
 
 ## Receiving and Putting the Items Away  
-In the **Inventory Put-away** page, you can manage all inbound warehouse activities for a specific source document, such as a purchase order.  
+On the **Inventory Put-away** page, you can manage all inbound warehouse activities for a specific source document, such as a purchase order.  
 
 ### To receive and put the items away  
 

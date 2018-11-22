@@ -32,8 +32,8 @@ This topic includes the following procedures:
 ## To create a data exchange definition  
 Creating a data exchange definition involves two tasks:  
 
-1. In the **Data Exchange Definition** page, describe the formatting of lines and columns in the file.  
-2. In the **Data Exchange Mapping** page, map columns in the data file to fields in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+1. On the **Data Exchange Definition** page, describe the formatting of lines and columns in the file.  
+2. On the **Data Exchange Mapping** page, map columns in the data file to fields in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
      This is described in the following procedures.  
 
@@ -80,7 +80,7 @@ Creating a data exchange definition involves two tasks:
      Proceed to describe the formatting of columns in the data file by filling the fields on the **Column Definitions** FastTab as described in the table below. You can use the structure file, such as an .XSD file, for the data file to prefill the FastTab with the relevant elements. For more information, see [Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
 6. On the **Column Definitions** FastTab, choose **Get File Structure**.  
-7. In the **Get File Structure** page, select the related structure file, and then choose the **OK** button. The lines on the **Column Definitions** FastTab are filled according to the structure of the data file.  
+7. On the **Get File Structure** page, select the related structure file, and then choose the **OK** button. The lines on the **Column Definitions** FastTab are filled according to the structure of the data file.  
 8. On the **Column Definitions** FastTab, edit or fill the fields as described in the following table.  
 
     |Field|Description|  

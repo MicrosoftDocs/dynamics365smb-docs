@@ -56,7 +56,7 @@ When your vendors have informed you which invoice discounts they grant, enter th
     >   Invoice discount codes are represented by existing vendor cards. This enables you to quickly assign invoice discount terms to vendors by picking the name of another vendors who will have the same terms.
 
     Proceed to set up new the purchase invoice discount terms.
-4. In the **Vendor Card** page, choose the **Invoice Discounts** action. The **Vend. Invoice Discounts** page opens.
+4. On the **Vendor Card** page, choose the **Invoice Discounts** action. The **Vend. Invoice Discounts** page opens.
 5. In the **Currency Code** field, enter the code for a currency that the invoice discount terms on the line applies to. Leave the field blank to set up invoice discount terms in USD.
 6. In the **Minimum Amount** field, enter the minimum amount that an invoice must have to be eligible for the discount.
 7. In the **Discount %** field, enter the invoice discount as a percentage of the invoice amount.

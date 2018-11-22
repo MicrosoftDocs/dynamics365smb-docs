@@ -31,7 +31,7 @@ For more information, see the [Spanish Tax Agency](https://go.microsoft.com/fwli
     >   
     >  In the standard version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the VAT statement name for the 392 telematic statement is of the type **One Column Report**.  
 
-3.  In the **XML VAT Declaration** page, on the **Options** FastTab, fill in the fields as described in the following table.  
+3.  On the **XML VAT Declaration** page, on the **Options** FastTab, fill in the fields as described in the following table.  
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -43,7 +43,7 @@ For more information, see the [Spanish Tax Agency](https://go.microsoft.com/fwli
 
     Optionally, select additional filters.  
 5.  Choose the **OK** button.  
-6.  In the **XML Transference Format** page, verify that the VAT statement is set up as required, and then choose the **OK** button.  
+6.  On the **XML Transference Format** page, verify that the VAT statement is set up as required, and then choose the **OK** button.  
 
 You can open or save the generated XML file. You can now submit the VAT statement to the tax authorities.  
 

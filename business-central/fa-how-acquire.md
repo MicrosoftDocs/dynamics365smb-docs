@@ -48,7 +48,7 @@ Both the main asset and all its components must be set up as individual fixed as
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.
 2. Select the fixed asset that is the main asset, and then choose the **Main Asset Components** action.
-3. In the **Main Asset Components** page, choose the **FA No**. field, and then select the fixed asset that you want to add as a component of the main asset.
+3. On the **Main Asset Components** page, choose the **FA No**. field, and then select the fixed asset that you want to add as a component of the main asset.
 4. Close the page.
 5. Repeat steps 3 and 4 for each component asset that you want to add.
 6. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset Setup**, and then choose the related link.
@@ -61,7 +61,7 @@ The following procedure describes how to acquire a fixed asset manually by creat
 >   You can also post acquisition cost as credits. In that case, remember that the value in the **Amount** field must be with a minus sign to indicate a credit.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA G/L Journals**, and then choose the related link.
-2. In the **Fixed Asset G/L Journal** page, in the **FA Posting Type** field, select **Acquisition Cost**.
+2. On the **Fixed Asset G/L Journal** page, in the **FA Posting Type** field, select **Acquisition Cost**.
 3. Fill in the remaining fields as necessary.
 4. Choose the **Post** action.  
 

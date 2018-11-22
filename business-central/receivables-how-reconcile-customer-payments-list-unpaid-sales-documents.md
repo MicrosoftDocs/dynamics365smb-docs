@@ -104,7 +104,7 @@ The following procedures explains four different ways to post discounted payment
     > [!TIP]  
     >   If you want to make an exception and grant the discount even though the payment is late, follow these steps:
 4. Choose the **Details** action.  
-5. In the **Payment Registration Details** page, in the **Pmt. Discount Date** field on the **Payment Discount** FastTab, enter a date that is after the date in the **Date Received** field on the **Payment Registration** page.  
+5. On the **Payment Registration Details** page, in the **Pmt. Discount Date** field on the **Payment Discount** FastTab, enter a date that is after the date in the **Date Received** field on the **Payment Registration** page.  
 
     The error message and the red font disappear, and you can proceed to process the discounted payment.    
 6. Verify that the **Remaining Amount** field contains the amount that remains to pay the full invoice amount.  
@@ -139,7 +139,7 @@ The **Payment Registration** page supports you in tasks needed to balance intern
 
 Typically, when a payment has been made, recorded in the bank or otherwise, the related sales or purchase document is represented as a line on the **Payment Registration** page because the document in question is waiting for the payment to be posted against the outstanding amount. However, sometimes a payment that has been made is not represented by a line on the **Payment Registration** page, typically because the document in question has not been fully invoice posted.
 
-In the **Document Search** page, you can search among documents that are not fully invoiced. You can search based on one or more of the following criteria:  
+On the **Document Search** page, you can search among documents that are not fully invoiced. You can search based on one or more of the following criteria:  
 
 * Document number  
 * Amount or amount range  
@@ -148,7 +148,7 @@ The following procedure explains how to find a specific document by using both s
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration**, and then choose the related link.
 2. With the pointer on any line, Choose the **Search Documents** action.
-3. In the **Document Search** page, enter a search value in the **Document No.** field.  
+3. On the **Document Search** page, enter a search value in the **Document No.** field.  
 
     > [!NOTE]  
     >   The value that you enter in this field is enclosed in hidden wildcard characters. This means that the function searches for all document numbers that contain the entered value.    

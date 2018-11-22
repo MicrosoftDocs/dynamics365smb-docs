@@ -37,7 +37,7 @@ The **Payment History List** page displays the payment history that you just cre
 
 ## To export a payment history  
 
-- In the **Payment History List** page, choose the **Export** action.  
+- On the **Payment History List** page, choose the **Export** action.  
 
     > [!NOTE]  
     >  A text file will be created. This file contains the path and file name as defined in the **Default File Names Field** field of the export protocol.  

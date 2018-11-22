@@ -44,7 +44,7 @@ In the following procedure, a firm planned production order is used.
 2. Open the firm planned production order you want to reserve parent items for.  
 3. Select the relevant production order line.  
 4. On the **Lines** FastTab, choose the **Reserve** action.
-5. In the **Reservation** page, select the **Sales Line, Order** line, and then choose the **Reserve from Current Line** action.  
+5. On the **Reservation** page, select the **Sales Line, Order** line, and then choose the **Reserve from Current Line** action.  
 
 The quantity you entered in the firm planned production order line is now reserved.
 
@@ -58,22 +58,22 @@ In the following procedure, a firm planned production order is used.
 4. On the **Lines** FastTab, choose **Line**, and then choose **Components**.  
 5. Select the relevant component line.  
 6. Choose On the **Lines** FastTab, choose the **Reserve** action.  
-7. In the **Reservation** page, select a line, and then choose the **Reserve from Current Line** action.  
+7. On the **Reservation** page, select a line, and then choose the **Reserve from Current Line** action.  
 
 The quantity you entered in the firm planned production component line is now reserved.
 
 ## To change a reservation  
 Sometimes, you may want to change an item reservation.   
 1. From the document line that you have reserved from, on the **Lines** FastTab, choose the **Reserve** action.  
-2. In the **Reservation** page, choose the **Reservation Entries** action.
+2. On the **Reservation** page, choose the **Reservation Entries** action.
 3. The **Reservation Entries** page, update the **Quantity** field on the line you want to change.
 4. Confirm the subsequent message, by choosing the **OK** button.
 
 ## To cancel a reservation  
 Sometimes, you may want to cancel an item reservation.   
 1. From the document line that you want to cancel a reservation from, on the **Lines** FastTab, choose the **Reserve** action.  
-2. In the **Reservation** page, choose **Reservation Entries** action.  
-3.  In the **Reservation Entries** page, choose the **Cancel Reservation** action.  
+2. On the **Reservation** page, choose **Reservation Entries** action.  
+3.  On the **Reservation Entries** page, choose the **Cancel Reservation** action.  
 4.  Confirm the subsequent message, by choosing the **OK** button.  
 
 ## To reserve a specific serial or lot number  

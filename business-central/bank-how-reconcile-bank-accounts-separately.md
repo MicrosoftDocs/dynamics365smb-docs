@@ -50,7 +50,7 @@ When the value in the **Total Balance** field in the **Bank Statement Lines** pa
 7. Locate the file, and then choose the **Open** button to import the bank transactions into the lines of the **Bank Acc. Reconciliation** page.
 
 ## To fill bank reconciliation lines with the Suggest Lines function
-1. In the **Bank Acc. Reconciliation** page, choose the **Suggest Lines** action.
+1. On the **Bank Acc. Reconciliation** page, choose the **Suggest Lines** action.
 2. In the **Starting Date** field, enter the earliest posting date for the ledger entries to be reconciled.
 3. In the **Ending Date** field, enter the latest posting date for the ledger entries to be reconciled.
 4. Select the **Include Checks** check box to any suggest check ledger entries instead of the corresponding bank account ledger entries.
@@ -59,7 +59,7 @@ When the value in the **Total Balance** field in the **Bank Statement Lines** pa
 ## To match bank statement lines with bank account ledger entries automatically
 The page offers automatic matching functionality that applies payments to their related open entries based on a matching of text on a bank statement line (left pane) with text on one or more bank account ledger entries (right pane). Note that you can overwrite the suggested automatic applications, and you can choose to not use automatic application at all. For more information, see the next procedure.
 
-1. In the **Bank Acc. Reconciliation** page, choose the **Match Automatically**. **The Match Bank Entries** page opens.
+1. On the **Bank Acc. Reconciliation** page, choose the **Match Automatically**. **The Match Bank Entries** page opens.
 2. In the **Transaction Date Tolerance (Days)** field, specify the span of days before and after the bank account ledger entry posting date within which the function will search for matching transaction dates in the bank statement.
 
     If you enter 0 or leave the field blank, then the **Match Automatically** function will only search for matching transaction dates on the bank account ledger entry posting date.
@@ -69,7 +69,7 @@ The page offers automatic matching functionality that applies payments to their 
 4. To remove a match, select the bank statement line, and then choose the **Remove Match** action.
 
 ## To match bank statement lines with bank account ledger entries manually
-1. In the **Bank Acc. Reconciliation** page, select a non-applied line in the **Bank Statement Lines** pane.
+1. On the **Bank Acc. Reconciliation** page, select a non-applied line in the **Bank Statement Lines** pane.
 2. In the **Bank Account Ledger Entries** pane, select one or more banks account ledger entries that can be matched with the selected bank statement line. To choose multiple lines, press and hold the Ctrl key.
 3. Choose the **Match Manually** action.
 
@@ -80,8 +80,8 @@ The page offers automatic matching functionality that applies payments to their 
 ## To create missing ledger entries to match bank transactions with
 Sometimes a bank statement contain amounts for interest or fees charged. Such bank transactions cannot be matched because no related ledger entries exist in [!INCLUDE[d365fin](includes/d365fin_md.md)]. You must then post a journal line for each transaction to create a related ledger entry that it can be matched with.
 
-1. In the **Bank Acc. Reconciliation** page, choose the **Transfer to General Journal** action.  
-2. In the **Trans. Bank Rec. to Gen. Jnl.** page, specify which general journal to use, and then choose the **OK** button.
+1. On the **Bank Acc. Reconciliation** page, choose the **Transfer to General Journal** action.  
+2. On the **Trans. Bank Rec. to Gen. Jnl.** page, specify which general journal to use, and then choose the **OK** button.
 
     The **General Journal** page opens containing new journal lines for any banks statement lines with missing ledger entries.
 3. Complete the journal line with relevant information, such as the balancing account. For more information, see [Working with General Journals](ui-work-general-journals.md).  

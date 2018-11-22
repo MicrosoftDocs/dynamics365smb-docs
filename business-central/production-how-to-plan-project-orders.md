@@ -22,15 +22,15 @@ This planning task starts from a sales order and uses the **Sales Order Planning
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2.  Select the sales order that represents the production project, and then choose the **Planning** action.  
-4.  In the **Sales Order Planning** page, choose  the **Create Prod. Order** action.  
-5.  In the **Create Order from Sales** page, in the **Order Type** field, select **Project Order**.  
+4.  On the **Sales Order Planning** page, choose  the **Create Prod. Order** action.  
+5.  On the **Create Order from Sales** page, in the **Order Type** field, select **Project Order**.  
 6.  Choose the **Yes** button.  
 7.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Production Orders**, and then choose the related link.
 8. Open the production order just created.  
 
     Notice that the **Source Type** field of the production order contains **Sales Header** and the order has multiple lines, one for each sales line item that must be produced.  
 9. Choose the **Planning** action.
-10. In the **Order Planning** page, choose the **Refresh** action to calculate new demand.  
+10. On the **Order Planning** page, choose the **Refresh** action to calculate new demand.  
 
 The order header line for the project order is displayed with all unfulfilled demand lines expanded under it. Although the production order contains lines for several produced items, the total demand for all production order lines is listed under one order header line on the **Order Planning** page, and the original customer name is displayed. You can now proceed to plan for the demand as described in [Plan for New Demand Order by Order](production-how-to-plan-for-new-demand.md).  
 

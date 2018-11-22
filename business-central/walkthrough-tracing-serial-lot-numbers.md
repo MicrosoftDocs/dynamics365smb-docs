@@ -94,8 +94,8 @@ Then you must create various purchase, production, and sales transactions with t
 
 9. On the **Replenishment** FastTab, in the **Routing No.** field, enter **1000**.  
 10. Choose the **Production BOM No.** field, and then choose **Advanced**.  
-11. In the **Production BOM List** page, choose the first line, **1000**, and then choose the **Edit** action.  
-12. In the **Production BOM** page, change the value in the **Status** field to **Under Development**.  
+11. On the **Production BOM List** page, choose the first line, **1000**, and then choose the **Edit** action.  
+12. On the **Production BOM** page, change the value in the **Status** field to **Under Development**.  
 13. Go to an empty line, enter **2000** in the **No.** field, and then enter **1** in the **Quantity Per** field.  
 14. Change the value in the **Status** field back to **Certified**.  
 15. Choose the **OK** button to insert the production BOM on the item card and close the **Production BOM** page.  
@@ -112,7 +112,7 @@ Then you must create various purchase, production, and sales transactions with t
     |2000|10|LOT1|  
 
 4.  To enter the lot number, choose the **Item Tracking Lines** action.  
-5.  In the **Item Tracking Lines** page, fill in the **Lot No.** and **Quantity (Base)** fields, and then close the page.  
+5.  On the **Item Tracking Lines** page, fill in the **Lot No.** and **Quantity (Base)** fields, and then close the page.  
 6.  In the **Vendor Invoice No.** field, enter any value.  
 7.  Choose the **Post** action, select the **Receive and Invoice** option, and then choose the **OK** button.  
 
@@ -126,7 +126,7 @@ Then you must create various purchase, production, and sales transactions with t
     |2000|11|LOT2|  
 
 11. To enter the lot number, on the **Lines** FastTab, in the **Line** group, choose the **Item Tracking Lines** action.  
-12. In the **Item Tracking Lines** page, fill in the **Lot No.** and **Quantity (Base)** fields, and then close the page.  
+12. On the **Item Tracking Lines** page, fill in the **Lot No.** and **Quantity (Base)** fields, and then close the page.  
 13. In the **Vendor Invoice No.** field, enter any value.  
 14. Choose the **Post** action, select the **Receive and Invoice** option, and then choose the **OK** button.  
 
@@ -144,12 +144,12 @@ Then you must create various purchase, production, and sales transactions with t
 
 4.  Choose the **Refresh Production Order** action, and then choose the **OK** button to fill the line.  
 5.  To enter the serial numbers, choose the **Item Tracking Lines** action.  
-6.  In the **Item Tracking Lines** page, fill in the **Serial No.** and **Quantity (Base)** fields, and then close the page.  
+6.  On the **Item Tracking Lines** page, fill in the **Serial No.** and **Quantity (Base)** fields, and then close the page.  
 
     Next, post consumption of racing frames from LOT1.  
-7.  In the **Released Production Order** page, choose the **Production Journal** action.  
-8.  In the **Production Journal** page, select the consumption line for item 2000, choose the **Item Tracking Lines** action.
-9. In the **Item Tracking Lines** page, choose the **Lot No.** field, choose **LOT1**, and then choose the **OK** button.  
+7.  On the **Released Production Order** page, choose the **Production Journal** action.  
+8.  On the **Production Journal** page, select the consumption line for item 2000, choose the **Item Tracking Lines** action.
+9. On the **Item Tracking Lines** page, choose the **Lot No.** field, choose **LOT1**, and then choose the **OK** button.  
 10. Leave all other defaults on the **Production Journal** page, and then choose the **Post** action.  
 
     Next, produce two more racing bikes, SN3 and SN4.  
@@ -167,9 +167,9 @@ Then you must create various purchase, production, and sales transactions with t
 15. To enter the serial numbers, choose the **Item Tracking Lines** action, and then the numbers on two lines in the **Serial No.** field on the **Item Tracking Lines** page.  
 
     Next, post more consumption of racing frames from LOT1.  
-16. In the **Released Production Order** page, choose the **Production Journal** action.  
-17. In the **Production Journal** page, select the consumption line for item 2000, choose the **Item Tracking Lines** action.
-18. In the **Item Tracking Lines** page, choose the **Lot No.** field, choose **LOT1**, and then choose the **OK** button.  
+16. On the **Released Production Order** page, choose the **Production Journal** action.  
+17. On the **Production Journal** page, select the consumption line for item 2000, choose the **Item Tracking Lines** action.
+18. On the **Item Tracking Lines** page, choose the **Lot No.** field, choose **LOT1**, and then choose the **OK** button.  
 19. Leave all other defaults on the **Production Journal** page, and then choose the **Post** action.  
 
     You have produced four racing bikes, SN1 to SN4, and consumed four of the ten racing frames from LOT1, two frames in each production order.  
@@ -222,7 +222,7 @@ Then you must create various purchase, production, and sales transactions with t
 
 ### To determine which lot included the faulty frame and who supplied it  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Tracing**, and then choose the related link.  
-2.  In the **Item Tracing** page, enter **SN1** in the **Serial No. Filter** field, and then enter **1002** in the **Item Filter** field.  
+2.  On the **Item Tracing** page, enter **SN1** in the **Serial No. Filter** field, and then enter **1002** in the **Item Filter** field.  
 3.  Keep the default setting of **Item-Tracked Only** in the **Show Components** field, and keep the default trace method of **Usage – Origin** in the **Trace Method**.  
 4.  Choose the **Trace** action.  
 
@@ -253,7 +253,7 @@ Then you must create various purchase, production, and sales transactions with t
 
 ### To find all usage of the faulty lot  
 
-1.  In the **Item Tracing** page, select the line of the purchase receipt, the last trace line, and then choose **Trace Opposite – from Line**.  
+1.  On the **Item Tracing** page, select the line of the purchase receipt, the last trace line, and then choose **Trace Opposite – from Line**.  
 
     The trace result is now based on the filters of the trace line for the purchase receipt, LOT1 and item 2000, and the result is based on trace method **Origin - Usage**.  
 
@@ -274,7 +274,7 @@ Then you must create various purchase, production, and sales transactions with t
 
 ### To find all occurrences of LOT1 in non-posted records, such as open orders  
 
-1.  In the **Item Tracing** page, select the first trace line, the purchase receipt of LOT1.  
+1.  On the **Item Tracing** page, select the first trace line, the purchase receipt of LOT1.  
 2.  Choose the **Navigate** action.  
 
     The **Navigate** page is preset with search filters based on the trace result for LOT1. The quality controller recognizes most of the records as pertaining to documents already identified on the **Item Tracing** page. For example, the last Navigate line of type Production Order refers to the two released production orders that consumed racing frames from LOT1.  

@@ -28,7 +28,7 @@ The following procedures describe how to create an initial employee card and how
 ## To set up an employee
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Employees**, and then choose the related link.
 2. Choose the **New** action.
-3. In the **Employee Card** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. On the **Employee Card** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To insert a picture of an employee
 If you have a picture of an employee in .bmp format, you can insert it on the employee card.
@@ -36,7 +36,7 @@ If you have a picture of an employee in .bmp format, you can insert it on the em
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Employees**, and then choose the related link.
 2. Open the card for the relevant employee.
 3. In the **Employee Picture** FactBox, choose the drop-down button, and then choose **Import**.
-4. In the **Select a picture to upload** page, choose the **Choose** button.
+4. On the **Select a picture to upload** page, choose the **Choose** button.
 5. Select the file, and then choose **Open**.
 
 The picture is inserted in the **Employee Picture** FactBox.

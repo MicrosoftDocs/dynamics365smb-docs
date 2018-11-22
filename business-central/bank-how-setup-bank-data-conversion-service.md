@@ -38,7 +38,7 @@ To import or export bank files, you must set up your own bank account and your v
 
     Your company is now signed up for the bank data conversion service. Proceed to enter the user name and password that you specified for the service in the related setup fields in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-5. In the **Bank Data Conv. Service Setup** page, in the User **Name** field, enter the same value that you entered as logon name on the service provider’s page in step 4.
+5. On the **Bank Data Conv. Service Setup** page, in the User **Name** field, enter the same value that you entered as logon name on the service provider’s page in step 4.
 6. In the **Password** field, enter the same value that you entered in the **Password** field on the service provider’s page in step 4.
 
 > [!NOTE]  
@@ -46,8 +46,8 @@ To import or export bank files, you must set up your own bank account and your v
 
 ## To view or update the list of currently supported bank data formats
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Data Conv. Service Setup** , and then choose the related link.
-2. In the **Bank Data Conv. Service Setup** page, choose the **Bank Name - Data Conversion List** action to open the list of bank names representing bank data formats that are supported by the conversion service.
-3. In the **Bank Name - Data Conversion List** page, choose the **Update Bank Name List** action.
+2. On the **Bank Data Conv. Service Setup** page, choose the **Bank Name - Data Conversion List** action to open the list of bank names representing bank data formats that are supported by the conversion service.
+3. On the **Bank Name - Data Conversion List** page, choose the **Update Bank Name List** action.
 
 The list of bank data formats that are supported by the bank data conversion service is now updated. This is the list of bank names, filtered by the country/region, that you can select from in the **Bank Name - Data Conversion** field on the **Bank Account Card** page.
 

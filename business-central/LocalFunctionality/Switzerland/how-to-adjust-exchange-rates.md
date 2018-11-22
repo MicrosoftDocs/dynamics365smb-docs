@@ -32,7 +32,7 @@ For more information about VAT and foreign currencies, see the [ESTV](https://go
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Currencies**, and then choose the related link.  
 2.  Choose the **Exch. Rates** action.  
-3.  In the **Currency Exchange Rates** page, enter the official VAT rate per period for each currency in the **VAT Exch. Rate Amount** and the **Relational VAT Exch. Rate Amt** fields.  
+3.  On the **Currency Exchange Rates** page, enter the official VAT rate per period for each currency in the **VAT Exch. Rate Amount** and the **Relational VAT Exch. Rate Amt** fields.  
 4.  Choose the **OK** button.  
 5.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Adjust Exchange Rates**, and then choose the related link.  
 6.  On the **Options** FastTab, fill in the fields as described in the following table.   

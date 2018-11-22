@@ -23,7 +23,7 @@ Sales tax includes taxes that companies pay for using items:
 
 ## To set up use tax for a purchase order  
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Orders**, and then choose the related link in **Order Processing**.  
-2.  In the **Purchase Orders** page, on the **Home** tab, in the **New** group, choose **New**.  
+2.  On the **Purchase Orders** page, on the **Home** tab, in the **New** group, choose **New**.  
 3.  On the **Lines** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]  
 4.  On the **Invoicing** FastTab, fill in the fields as described in the following table.  
 
@@ -37,8 +37,8 @@ Sales tax includes taxes that companies pay for using items:
 
 ## To set up use tax details  
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Tax Details**, and then choose the related link.  
-2.  In the **Tax Details** page, choose the **New** action.  
-3.  In the **New - Tax Details** page, fill in the fields as described in the following table.  
+2.  On the **Tax Details** page, choose the **New** action.  
+3.  On the **New - Tax Details** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -49,7 +49,7 @@ Sales tax includes taxes that companies pay for using items:
 
 ## To set up purchase tax for a company  
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.  
-2.  In the **Company Information** page, on the **Tax** FastTab, fill in the fields as described in the following table.  
+2.  On the **Company Information** page, on the **Tax** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -60,7 +60,7 @@ Sales tax includes taxes that companies pay for using items:
 
 ## To set up purchase tax for a location  
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.  
-2.  In the **Locations** page, select the required location, and then choose the **Edit** action.  
+2.  On the **Locations** page, select the required location, and then choose the **Edit** action.  
 3.  On the **General** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -73,7 +73,7 @@ Sales tax includes taxes that companies pay for using items:
 
 ## To set up purchase tax for non-recoverable tax  
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Tax Details**, and then choose the related link.  
-2.  In the **Tax Details** page, choose the **New** action.  
+2.  On the **Tax Details** page, choose the **New** action.  
 3.  Select the **Expense/Capitalize** check box.  
 
     > [!NOTE]  

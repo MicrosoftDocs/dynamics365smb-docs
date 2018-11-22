@@ -63,7 +63,7 @@ It can be stated in the manufacturing setup if you want filter forecast accordin
 8.  In the **View as** field, select how the forecast quantities are shown for the time interval. If you select **Net Change**, then the net change in balance is displayed for the time interval. If you select **Balance at Date**, then the page displays the balance as of the last day in the time interval.  
 
 > [!NOTE]  
->  You can also edit an existing forecast. In the **Demand Forecast Matrix** page, choose the **Copy Demand Forecast** action and populate the **Demand Forecast** page with an existing forecast. You can then edit quantities as appropriate.  
+>  You can also edit an existing forecast. On the **Demand Forecast Matrix** page, choose the **Copy Demand Forecast** action and populate the **Demand Forecast** page with an existing forecast. You can then edit quantities as appropriate.  
 
 ## See Also  
 [Setting Up Manufacturing](production-configure-production-processes.md)  

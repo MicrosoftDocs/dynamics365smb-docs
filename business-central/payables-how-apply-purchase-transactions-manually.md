@@ -32,19 +32,19 @@ You can apply vendor ledger entries in three different ways:
 
 You can apply vendor payments manually to their related purchase documents when you post the payments on the **Payment Journal** page. For information about filling the payment journal, see [Making Payments](payables-make-payments.md).
 
-You can also apply vendor payments, and customer payments, after the payments appear as negative bank transactions in your bank. In the **Payment Reconciliation Journal** page, you can use functions for bank statement import, automatic application, and bank account reconciliation. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
+You can also apply vendor payments, and customer payments, after the payments appear as negative bank transactions in your bank. On the **Payment Reconciliation Journal** page, you can use functions for bank statement import, automatic application, and bank account reconciliation. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
 
 ## To apply a payment to a single or multiple vendor ledger entries
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journal**, and then choose the related link.
-2. In the **Payment Journal** page, on the first journal line, enter the relevant information about the payment entry.
+2. On the **Payment Journal** page, on the first journal line, enter the relevant information about the payment entry.
 3. To apply a single vendor ledger entry:
    1. In the **Applies-to Doc. No.** field, choose the field to open the **Apply Vendor Entries** page.
-   2. In the **Apply Vendor Entries** page, select the entry to apply the payment to.
+   2. On the **Apply Vendor Entries** page, select the entry to apply the payment to.
    3. On the line in the **Amount to Apply** field, enter the amount to apply to the entry.
 4. Or, to apply multiple vendor ledger entries:
 
    1. Choose the **Apply Entries** action.
-   2. In the **Apply Vendor Entries** page, select the lines with the entries to apply the payment to.
+   2. On the **Apply Vendor Entries** page, select the lines with the entries to apply the payment to.
    3. Choose the **Set Applies-to ID** action.  
    4. On each line in the **Amount to Apply** field, enter the amount to apply to the individual entry.
 
@@ -73,7 +73,7 @@ You can also apply vendor payments, and customer payments, after the payments ap
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
 2. Open the relevant vendor with entries that have already been posted.
 3. Choose the **Ledger Entries** action, and then choose the **Apply Entries** action.
-4. In the **Apply Vendor Entries** page, you can see the open entries for the vendor.
+4. On the **Apply Vendor Entries** page, you can see the open entries for the vendor.
 5. Select the line with the entry that will be applied.
 6. Choose the **Set Applies-to ID** action.
 

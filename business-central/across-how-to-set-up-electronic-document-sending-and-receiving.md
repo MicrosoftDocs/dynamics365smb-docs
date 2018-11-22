@@ -96,7 +96,7 @@ The topic contains the following procedures:
 ### To select the PEPPOL electronic document format for electronic document sending  
 1. In the **Search** box, enter **Document Sending Profiles**, and then choose the related link.  
 2. Open an existing document sending profile, or create a new one. For more information, see [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).  
-3. In the **Document Sending Profile** page, choose the **Electronic Format**, select the line for PEPPOL, and then choose **OK**.  
+3. On the **Document Sending Profile** page, choose the **Electronic Format**, select the line for PEPPOL, and then choose **OK**.  
 4. In the **Electronic Document** field, select **Yes (Through Document Exchange Service)**.  
 
     > [!NOTE]  

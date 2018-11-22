@@ -60,13 +60,13 @@ After you have refined the list of fields to include from a table, you can check
 ### To include a template for application to a table  
 For certain tables, such a table that will contain master data, you can specify a template to apply to the data. The template can include the required fields that you want to apply to all master data and that you never want to vary. For example, you can create a template that can be used with customer data. The template can contain all the required fields, which then enables consistent import of standardized information. Information that cannot be standardized, such as customer name, is then treated when you do an import of customer data.
 
-1. In the **Config. Package Card** page, select a table, and then choose the **Data Template** field. A list of templates based on the table is displayed.
+1. On the **Config. Package Card** page, select a table, and then choose the **Data Template** field. A list of templates based on the table is displayed.
 2. Select a template, and then choose the **OK** button.  
 
 After the package is complete, follow the next procedure to save the package to a file. You can then give the package to a customer or partner to use.
 
 ### To save and export a configuration package  
-- In the **Config. Package Card** page, choose the **Export Package** action.  
+- On the **Config. Package Card** page, choose the **Export Package** action.  
 
 The package is created in a .rapidstart file, which delivers the package contents in a compressed format. Configuration questionnaires, configuration templates, and the configuration worksheet are added to the package automatically unless you specifically decide to exclude them.  
 
@@ -126,9 +126,9 @@ After you have vetted and tested all your setup information, you can proceed to 
 1. Open and initialize the new company.  
 2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.  
 3. Choose the **Copy Data from the Company** action.  
-4. In the **Copy Company Data** page, choose the **Copy From** field. The **Companies** page opens.  
+4. On the **Copy Company Data** page, choose the **Copy From** field. The **Companies** page opens.  
 5. Select the company from which you want to copy data, and then choose the **OK** button. A list of tables selected on the configuration worksheet opens. Only tables that contain records are included in this list.
-6. Select the tables that you want to copy data from, and then choose the **Copy Data** action. In the **Copy Company Data** page, choose the **OK** button.  
+6. Select the tables that you want to copy data from, and then choose the **Copy Data** action. On the **Copy Company Data** page, choose the **OK** button.  
 
 ## See Also  
 [Gather Customer Setup Values](admin-gather-customer-setup-values.md)  

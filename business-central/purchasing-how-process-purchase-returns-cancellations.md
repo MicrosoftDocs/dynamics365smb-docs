@@ -47,12 +47,12 @@ For more information, see [Design Details: Inventory Costing](design-details-inv
 
 ## To create a purchase credit memo from a posted purchase invoice
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Purchase Invoices**, and then choose the related link.  
-2. In the **Posted Purchase Invoices** page, select the posted purchase invoice that you want to reverse, and then choose the **Create Corrective Credit Memo** action.
+2. On the **Posted Purchase Invoices** page, select the posted purchase invoice that you want to reverse, and then choose the **Create Corrective Credit Memo** action.
 
     Most fields on the purchase credit memo header are filled with the information from the posted purchase invoice. You can edit all the fields, for example with new information that reflects the return agreement.
 3. Edit information on the lines according to the agreement, such as the number of items returned or the amount to be reimbursement.
 4. Choose the **Apply Entries** action.
-5. In the **Apply Vendor Entries** page, select the line with the posted purchase document that you want to apply the purchase credit memo to, and then choose the **Applies-to ID** action. The number of the purchase credit memo is inserted in the **Applies-to ID** field.
+5. On the **Apply Vendor Entries** page, select the line with the posted purchase document that you want to apply the purchase credit memo to, and then choose the **Applies-to ID** action. The number of the purchase credit memo is inserted in the **Applies-to ID** field.
 6. In the **Amount to Apply** field, enter the amount that you want to apply if smaller than the original amount.
 
     At the bottom of the **Apply Vendor Entries** page, you can see the total amount to apply to reverse all involved entries, namely when the value in the **Balance** field is zero.
@@ -70,7 +70,7 @@ The purchase credit memo is removed and replaced with a new document in the list
 2. Choose the **New** action to open a new empty purchase credit memo.
 3. In the **Vendor** field, enter the name of an existing vendor.
 4. Choose the **Copy Document** action.
-5. In the **Copy Purchase Document** page, in the **Document Type** field, select **Posted Invoice**.
+5. On the **Copy Purchase Document** page, in the **Document Type** field, select **Posted Invoice**.
 6. Choose the **Document No.** field to open the **Posted Purchase Invoices** page, and then select the posted purchase invoice that contains lines that you want to reverse.
 7. Select the **Recalculate Lines** check box if you want the copied posted purchase invoice lines to be updated with any changes in item price and unit cost since the invoice was posted.
 8. Choose the **OK** button. The copied invoice lines are inserted in the purchase credit memo.
@@ -122,14 +122,14 @@ The purchase credit memo is removed and replaced with a new document in the list
     >   
     >  If the flow of goods in the posted document is the same as the flow of goods in the new document, a copy of the original posted document line in the new document is created. The **Appl.-from Item Entry** field is not filled in because, in this case, exact cost reversing is not possible. For example, if you use the **Get Posted Document Lines to Reverse** function to get a posted purchase credit memo line for a new purchase credit memo, only the original posted credit memo line is copied to the new credit memo.  
 
-8. In the **Purchase Return Order** page, in the **Return Reason Code** field on each line, select the reason for the return.
+8. On the **Purchase Return Order** page, in the **Return Reason Code** field on each line, select the reason for the return.
 9. Choose the **Post** action.
 
 ## To create a replacement purchase order from a purchase return order
 You may agree with your vendor that they compensate you for a purchased item by replacing the item. The replacement item can be the same or it can be different. This situation could occur if the vendor mistakenly shipped the wrong item.  
-1.  In the **Purchase Return Order** page for an active return process, on an empty line, make a negative entry for the replacement item by inserting a negative amount in the **Quantity** field.  
+1.  On the **Purchase Return Order** page for an active return process, on an empty line, make a negative entry for the replacement item by inserting a negative amount in the **Quantity** field.  
 2. Choose the **Move Negative Lines** action.  
-3. In the **Move Negative Purchase Lines** page, fill in the fields as necessary.
+3. On the **Move Negative Purchase Lines** page, fill in the fields as necessary.
 4. Choose the **OK** button. The negative line is deleted from the purchase return order, and a new purchase order is created. For more information, see [Record Purchases](purchasing-how-record-purchases.md).  
 
 ## To create a purchase allowance  

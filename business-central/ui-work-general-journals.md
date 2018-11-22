@@ -83,14 +83,14 @@ The advantage of using the field is that the line will not be deleted from the j
 If the field is blank, the line will be posted every time you post until it is deleted from the journal.
 
 ### Allocating Recurring Journal Amounts to Several Accounts
-In the **Recurring General Journal** page, you can choose the **Allocations** action to see or manage how amounts on the recurring journal line are allocated to several accounts and dimensions. Note that an allocation functions as balancing account line to the recurring journal line.
+On the **Recurring General Journal** page, you can choose the **Allocations** action to see or manage how amounts on the recurring journal line are allocated to several accounts and dimensions. Note that an allocation functions as balancing account line to the recurring journal line.
 
 Just as in a recurring journal, you need to enter an allocation only once. The allocation will remain in the allocation journal after posting, so you do not need to enter amounts and allocations every time you post the recurring journal line.
 
 If the recurring method in the recurring journal is set to **Balance** or **Reversing Balance**, then any dimension value codes in the recurring journal are disregarded when the account is set to zero. So if you allocate a recurring line to various dimension values on the **Allocations** page, then only one reversing entry will be created. Therefore, if you allocate a recurring journal line that contains a dimension value code, then you must not enter the same code on the **Allocations** page. If you do, the dimension values will be incorrect.
 
 #### Example: Allocating Rent Payments to Different Departments
-You pay rent every month, so you have entered the rent amount on the cash account on a recurring journal line. In the **Allocations** page, you can divide the expense among several departments (Department dimension) according to the number of square feet that each one occupies. The calculation is based on the allocation percentage on each line. You can enter various accounts on different allocation lines (if rent will also be divided among several accounts), or you can enter the same account but with various dimension value codes for the Department dimension on each line.
+You pay rent every month, so you have entered the rent amount on the cash account on a recurring journal line. On the **Allocations** page, you can divide the expense among several departments (Department dimension) according to the number of square feet that each one occupies. The calculation is based on the allocation percentage on each line. You can enter various accounts on different allocation lines (if rent will also be divided among several accounts), or you can enter the same account but with various dimension value codes for the Department dimension on each line.
 
 ## Working with Standard Journals
 When you have created journal lines which you know you are likely to create again later, you can save them as a standard journal before you post the journal. This functionality applies to item journals and general journals.
@@ -121,7 +121,7 @@ When you have finished saving the standard item journal, the Item Journal page i
 3. To review a standard item journal before you select it for reuse, choose the **Show Journal** action.
 
     Any changes you make in a standard item journal are implemented right away. They will be there next time you open or reuse the standard item journal in question. You should therefore be sure that the change is important enough to apply generally. Otherwise, make the specific change in the item journal after the standard item journal lines have been inserted. See step 4 below.
-4. In the **Standard Item Journals** page, select the standard item journal you want to reuse, and then choose the **OK** button.
+4. On the **Standard Item Journals** page, select the standard item journal you want to reuse, and then choose the **OK** button.
 
     Now the item journal is filled with the lines you saved as the standard item journal. If journal lines already existed in the item journal, the inserted lines will be placed under the existing journal lines.
 

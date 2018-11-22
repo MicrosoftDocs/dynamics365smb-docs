@@ -38,7 +38,7 @@ You can fill vendor fields on the purchase invoice in two ways depending on whet
     Other fields on the **Purchase Invoice** page are now filled with the standard information of the selected vendor. If the vendor is not registered, then follow these steps:
 3. In the **Vendor** field, enter the name of the new vendor.
 4. In the dialog box about registering the new vendor, choose the **Yes** button.
-5. In the **Select a template for a new vendor** page, choose a template to base the new vendor card on, and then choose the **OK** button.
+5. On the **Select a template for a new vendor** page, choose a template to base the new vendor card on, and then choose the **OK** button.
 6. A new vendor card opens, prefilled with the information on the selected vendor template. The **Name** field is prefilled with the new vendor’s name that you entered on the purchase invoice.
 7. Proceed to fill in the remaining fields on the vendor card. For more information, see [Register New Vendors](purchasing-how-register-new-vendors.md).  
 8. When you have completed the vendor card, choose the **OK** button to return to the **Purchase Invoice** page.

@@ -53,7 +53,7 @@ When you open a new document or card that a number series exists for, then the r
 ## To set up where a number series is used
 The following procedure shows how to set number series up for the Sales area. The steps are similar for other areas.
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables**, and then choose the related link.
-2. In the **Sales & Receivables** page, on the **Number Series** FastTab, select the desired number series for each sales card or document.
+2. On the **Sales & Receivables** page, on the **Number Series** FastTab, select the desired number series for each sales card or document.
 
 The selected number will now be used to fill in the **No.** field on the card or document in question, according to the settings you made on the number series line.
 

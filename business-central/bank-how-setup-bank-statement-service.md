@@ -38,7 +38,7 @@ When the bank feed service is enabled, you can set a bank account up to automati
 ## To enable the bank feed service
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
 2. Open the bank account that you will use for the bank feed service.
-3. In the **Bank Account** page, in the **Bank Statement Import Format** field, select YODLEEBANKFEED.  
+3. On the **Bank Account** page, in the **Bank Statement Import Format** field, select YODLEEBANKFEED.  
 
 The bank feed service will be enabled when you link a bank account to its related online bank account. See the next procedure.  
 
@@ -48,7 +48,7 @@ The bank feed service will be enabled when you link a bank account to its relate
 
     > [!NOTE]  
     > This page shows the actual web page of the Envestnet Yodlee Bank Feeds service. Terminology and functionality on the page may not match instructions provided in this topic.  
-3. In the **Online Bank Account Linking** page, in the **Link Account** pane, use the Search function to find the bank where you have one or more online bank accounts.
+3. On the **Online Bank Account Linking** page, in the **Link Account** pane, use the Search function to find the bank where you have one or more online bank accounts.
 4. Choose the bank name. The **Log In** pane opens.
 5. Enter the username and password that you use to log on to the online bank, and then choose the **Next** button.  
 6. The bank feed service prepares to link the first online bank account at the specified bank to a new bank account in [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -62,13 +62,13 @@ The bank feed service will be enabled when you link a bank account to its relate
     If you're only linking one online bank account, the **Bank Account Card** page opens and displays the name of the online bank account. In this case, the bank account linking task is completed. All that's left to do is to set up the bank account. For more information, see [Set Up Bank Accounts](bank-how-setup-bank-accounts.md).
 
     If you're linking more than one online bank accounts, the **Bank Account Linking** page opens and lists the online bank accounts that are not yet linked to bank accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)]. In that case, follow the next step.  
-8. In the **Bank Account Linking** page, select the line for an online bank account, and then choose the **Link to New Bank Account** action.  
+8. On the **Bank Account Linking** page, select the line for an online bank account, and then choose the **Link to New Bank Account** action.  
 
     The **Bank Account Card** page for a new bank account opens and displays the name of the online bank account.
 
     If a bank account already exists in [!INCLUDE[d365fin](includes/d365fin_md.md)] that you want to link the additional online bank account to, follow the next step.  
-9. In the **Bank Account Linking** page, select the line for an online bank account, and then choose the **Link to Existing Bank Account** action.
-10. In the **Bank Account List** page, select the bank account that you want to link to, and then choose the **OK** button.
+9. On the **Bank Account Linking** page, select the line for an online bank account, and then choose the **Link to Existing Bank Account** action.
+10. On the **Bank Account List** page, select the bank account that you want to link to, and then choose the **OK** button.
 
 ## To link a bank account to an online bank account
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
@@ -81,7 +81,7 @@ The bank feed service will be enabled when you link a bank account to its relate
     When the process has completed successfully, the bank name will appear in the **My Accounts** pane on the **Linked** tab. If the bank has more than one bank account, only the bank account that you selected in step 2 is linked.  
 5. Choose the **OK** button.
 
-In the **Bank Account List** page, the **Linked** check box is selected.
+On the **Bank Account List** page, the **Linked** check box is selected.
 
 ## To unlink a bank account
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.  
@@ -99,7 +99,7 @@ If issues exist for any of the linked bank accounts on the **Bank Account List**
 ## To enable automatic import of bank statements
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
 2. Select the line for a linked bank account, and then choose the **Automatic Bank Statement Import Setup** action.
-3. In the **Automatic Bank Statement Import Setup** page, in the **Number of Days Included** field, specify how far back in time to get new bank transactions for.
+3. On the **Automatic Bank Statement Import Setup** page, in the **Number of Days Included** field, specify how far back in time to get new bank transactions for.
 
     > [!NOTE]  
     > It is recommended that you set this value to 7 days or more.  

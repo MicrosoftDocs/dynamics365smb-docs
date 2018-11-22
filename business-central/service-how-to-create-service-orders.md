@@ -63,7 +63,7 @@ You can check and see if an item you need to fulfill an order is in stock, and i
     * For a particular order, choose the order, and then choose the **Demand Overview** action.  
     * For all orders, choose **Show Document**. The **Service Order** page opens.  
 
-3. In the **Demand Overview** page, expand the item grouping, and view information about the availability of the item. For example, you can see how many items are in inventory. You can also see if and when an item will be available if it is on back order, that is, Source Type = Purchase, or whether it has been reserved.
+3. On the **Demand Overview** page, expand the item grouping, and view information about the availability of the item. For example, you can see how many items are in inventory. You can also see if and when an item will be available if it is on back order, that is, Source Type = Purchase, or whether it has been reserved.
 
 ## To reserve an item for a service order
 If you need to be sure that an item is available for a service order, you can reserve the item.
@@ -71,8 +71,8 @@ If you need to be sure that an item is available for a service order, you can re
 1. In the **Search** box, enter **Service Orders**, and then choose the related link.  
 2. Choose the service order, and then choose **Edit**.  
 3. Choose **Actions**, choose **Order**, and then choose **Service Lines**.  
-4. In the **Service Lines** page, choose the item to reserve, and then choose the **Reserve** action.  
-5. In the **Reservation** page, choose **Reserve from Current Line**.
+4. On the **Service Lines** page, choose the item to reserve, and then choose the **Reserve** action.  
+5. On the **Reservation** page, choose **Reserve from Current Line**.
 
 ## To insert lines based on standard service codes  
 If you have set up standard service codes and assigned them to service item groups, you can insert the standard lines linked to the standard service codes on service documents. For more information, see [Set Up Standard Service Codes](service-how-setup-service-coding.md).   

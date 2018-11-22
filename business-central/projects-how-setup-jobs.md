@@ -16,7 +16,7 @@ ms.author: sgroespe
 
 ---
 # Set Up Jobs
-In the **Jobs Setup** page, you must specify how you want to use certain job features.
+On the **Jobs Setup** page, you must specify how you want to use certain job features.
 
 On the individual job cards, you must set up prices for job items, job resources, and job G/L accounts, and you must set up job posting groups.
 
@@ -48,7 +48,7 @@ You can set up specific prices for resources for a job. You use the **Job Resour
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
 2. Select the relevant job, and then choose the **Resource** action.
-3. In the **Job Resource Prices** page, fill in the fields as necessary.
+3. On the **Job Resource Prices** page, fill in the fields as necessary.
 
 The optional information in the **Job Task No.**, **Work Type**, **Currency Code**, **Line Discount %**, and **Unit Cost Factor** fields will be used on the job planning lines and usage journals when this resource is entered and added to the job.  
 
@@ -62,7 +62,7 @@ You can set up specific prices for items for a job. You use the **Job Item Price
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
 2. Select the relevant job, and then choose the **Item** action.
-3. In the **Job Item Prices** page, fill in the fields as necessary.
+3. On the **Job Item Prices** page, fill in the fields as necessary.
 
 The optional information in the **Job Task No.**, **Currency Code**, and **Line Discount %** fields will be used in the job planning lines and job journals when this item is entered or added to the job.  
 
@@ -76,7 +76,7 @@ You can set up specific prices for general ledger expenses for a job. You use th
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
 2. Select the relevant job, and then choose the **G/L Account** action.  
-3. In the **Job G/L Account Prices** page, fill in the fields as necessary.
+3. On the **Job G/L Account Prices** page, fill in the fields as necessary.
 
 The optional information in the **Job Task No.**, **Currency Code**, **Line Discount %**, **Unit Cost Factor**, and **Unit Cost** fields will be used on the job planning lines and job journals when this general ledger account is entered and added to a job.  
 

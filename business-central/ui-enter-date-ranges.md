@@ -85,7 +85,7 @@ The word for 'workdate', in the language set by **Language** setting, will set t
 
 If you have not defined a work date, the current date will be used as the work date. You may want to use a work date if you have many transactions with a date other than today's date.
 
-See also [Changing Basic Settings, such as the Work Date](ui-change-basic-settings.md#work-date)
+See also [Changing Basic Settings, such as the Work Date](ui-change-basic-settings.md#work-date).
 
 ### Closing Date
 

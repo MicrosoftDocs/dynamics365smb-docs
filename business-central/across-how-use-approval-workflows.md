@@ -26,7 +26,7 @@ Core approval workflows for purchases documents, sales documents, payment journa
 ## To request approval of a record
 The following task is performed by an approval user.
 
-1. In the page that presents the record, choose the **Send Approval Request** action.
+1. on the page that presents the record, choose the **Send Approval Request** action.
 2. To see all your approval requests, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Approval Request Entries**, and then choose the related link.  
 
 The status of the approval entry is updated from **Created** to **Open**. The status of the record, for example a purchase invoice, is updated from **Open** to **Pending Approval** and remains locked for processing until all approvers have approved the record.
@@ -38,7 +38,7 @@ The following task is performed by an approval user with approver rights.
 
 A customer may want to change an order after it has been submitted for approval. In this case, you can cancel the approval process and make the necessary changes to the order before you request approval again.
 
-- In the page that displays the record, choose the **Cancel Approval Request** action.
+- on the page that displays the record, choose the **Cancel Approval Request** action.
 
 When the approval request has been canceled, the status of the related approval entry is changed to **Canceled**. The status of the record is updated from **Pending Approval** to **Open**. The approval process can then start again.
 

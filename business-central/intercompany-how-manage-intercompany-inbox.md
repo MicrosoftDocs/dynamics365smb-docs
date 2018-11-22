@@ -19,7 +19,7 @@ ms.author: sgroespe
 All of the intercompany transactions that you receive electronically from your intercompany partners are listed in the intercompany Inbox.  
 
 ## Organizing the Inbox  
- You can use the filter fields at the top of the inbox page to determine which transactions are shown in the page. For example, if you only want to look at transactions a particular partner created, you can enter filters in the **Transaction Source** and **Intercompany Partner Code** filters.  
+ You can use the filter fields at the top of the inbox page to determine which transactions are shown on the page. For example, if you only want to look at transactions a particular partner created, you can enter filters in the **Transaction Source** and **Intercompany Partner Code** filters.  
 
 ### Transaction Source  
 What you can do with a transaction depends whether it was:  
@@ -56,7 +56,7 @@ If you have an intercompany partner that is not in the same database as your com
 2. Save the file to the location that you specified in the **Intercompany Inbox Details** field in the **Company Information** page.  
 3. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Inbox Transactions**, and then choose the related link.
 4. In the **Intercompany Inbox Transactions** page, choose the **Import Transaction File** action.  
-5. In the page that appears, select the .xml file that contains the transactions, and then choose the **Open** button.  
+5. on the page that appears, select the .xml file that contains the transactions, and then choose the **Open** button.  
 
 The transactions are imported into the inbox and you can now process them.
 

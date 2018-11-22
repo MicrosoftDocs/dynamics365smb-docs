@@ -33,7 +33,7 @@ To set up the indicator, you specify up to two threshold values that define thre
     >  If you set up a company-wide indicator and a user modifies the indicator later on, then a separate entry for the indicator appears in list for that user.  
   
 2. Choose **Edit List** action.  
-3. To set up an indicator for a Cue that is not listed in the page, choose the **New** action, and then fill in the fields as described in the following. If you want to modify an existing indicator, go to the next step.  
+3. To set up an indicator for a Cue that is not listed on the page, choose the **New** action, and then fill in the fields as described in the following. If you want to modify an existing indicator, go to the next step.  
   
     |  Field  |  Description  |    
     |---------|---------------|  

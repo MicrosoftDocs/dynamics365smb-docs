@@ -47,8 +47,8 @@ If your company is a subsidiary company and you receive an XML file containing t
 
 ### To set up the defining intercompany chart of accounts
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Chart of Accounts**, and then choose the related link.
-2. In the **Intercompany Chart of Accounts** page, enter each account on a line in the page.  
-3. If your intercompany chart of accounts will be identical or similar to your regular chart of accounts, you can fill in the page automatically by choosing the **Copy from Chart of Accounts** action. You can edit the new lines as needed.
+2. In the **Intercompany Chart of Accounts** page, enter each account on a line on the page.  
+3. If your intercompany chart of accounts will be identical or similar to your regular chart of accounts, you can fill on the page automatically by choosing the **Copy from Chart of Accounts** action. You can edit the new lines as needed.
 
 ### To export an intercompany chart of accounts
 To allow your intercompany partners to import the defining chart of accounts, you must export it to a file.      
@@ -62,7 +62,7 @@ When a file exists for the defining intercompany chart of accounts, intercompany
 2. In the **Intercompany Chart of Accounts** page, choose the **Import** action.  
 3. Select the file name and location of the XML file, and then choose the **Open** button.  
 
-The **IC Chart of Accounts** page is filled with new or edited G/L account lines according to the intercompany chart of accounts in the file. Any existing, unrelated lines in the page remain unchanged.
+The **IC Chart of Accounts** page is filled with new or edited G/L account lines according to the intercompany chart of accounts in the file. Any existing, unrelated lines on the page remain unchanged.
 
 ### To map the intercompany chart of accounts to your company's chart of accounts  
 When you have defined or imported the intercompany chart of accounts that you and your intercompany partners have agreed to use, you must associate each of the intercompany G/L accounts with one of your company's G/L accounts. In the **IC Chart of Accounts** page, you specify how intercompany G/L accounts on incoming transactions will be translated into G/L accounts from your company's chart of accounts.
@@ -91,9 +91,9 @@ If your company is a subsidiary company and you receive an XML file containing t
 
 ### To define the intercompany dimensions
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Dimensions**, and then choose the related link.  
-2. In the **Intercompany Dimensions** page, enter each dimension on a line in the page.
+2. In the **Intercompany Dimensions** page, enter each dimension on a line on the page.
 
-    If your intercompany dimensions will be similar or identical to your company dimensions, you can fill in the page automatically by using the **Copy from Dimensions** function, and then you can edit the resulting lines.  
+    If your intercompany dimensions will be similar or identical to your company dimensions, you can fill on the page automatically by using the **Copy from Dimensions** function, and then you can edit the resulting lines.  
 3. To export the intercompany dimensions to an XML file for distribution to your partner companies, choose the **Export** action.  
 4. Specify the file name and the location where you want to save the XML file, and then choose the **Save** button.  
 

@@ -35,7 +35,7 @@ You can fill in the **Bank Statement Lines** pane in the **Bank Acc. Reconciliat
 * Automatically, by using the **Import Bank Statement** function to fill in the lines according to actual bank statements based on a file provided by the bank.
 * Manually, by using the **Suggest Lines** function to fill in the lines with ledger entries for invoices that have outstanding payments.
 
-When the value in the **Total Balance** field in the **Bank Statement Lines** pane equals the value in the **Balance To Reconcile** field in the **Bank Account Ledger Entries** pane, you can choose the **Post** action to reconcile the applied bank account ledger entries. Any non-applied bank account ledger entries will remain in the page, indicating that payments processed for the bank account are not reflected in the latest bank statement, or that some payments were received on checks.
+When the value in the **Total Balance** field in the **Bank Statement Lines** pane equals the value in the **Balance To Reconcile** field in the **Bank Account Ledger Entries** pane, you can choose the **Post** action to reconcile the applied bank account ledger entries. Any non-applied bank account ledger entries will remain on the page, indicating that payments processed for the bank account are not reflected in the latest bank statement, or that some payments were received on checks.
 
 > [!NOTE]  
 >   If bank statement lines relate to check ledger entries, then you cannot use the matching functions. Instead, you must choose the **Apply Entries** action, and then select the relevant check ledger entry to match the bank statement line with.

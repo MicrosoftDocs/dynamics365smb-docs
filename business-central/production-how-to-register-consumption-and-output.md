@@ -60,7 +60,7 @@ If values remain to be posted, the journal will contain these remaining values n
 >  If you close the journal without posting, the changes will be lost.  
 
 > [!WARNING]  
->  The **Production Journal** page cannot be used by two users simultaneously. This means that if User 2 opens the page and enters data when User 1 is already working in the page, then User 2 may lose data when User 1 closes the page.  
+>  The **Production Journal** page cannot be used by two users simultaneously. This means that if User 2 opens the page and enters data when User 1 is already working on the page, then User 2 may lose data when User 1 closes the page.  
 
 ## See Also  
 [Manufacturing](production-manage-manufacturing.md)    

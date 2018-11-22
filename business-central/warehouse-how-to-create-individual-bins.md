@@ -41,7 +41,7 @@ To work with the **Bin Creation Worksheet** page, you must be set up as a wareho
 2.  Choose the **Calculate Bins** action.
 3. In the **Calculate Bins** page, in the **Bin Template Code** field, select the bin template that you want to use as the model for the bins you are creating.
 4.  Fill in a description for the bins you are in the process of creating.  
-5.  To create the bin codes, fill in the **From No.** and **To No.** fields in the three categories shown in the page: **Rack**, **Section,**, and **Level.** The bin code can contain up to 20 characters.  
+5.  To create the bin codes, fill in the **From No.** and **To No.** fields in the three categories shown on the page: **Rack**, **Section,**, and **Level.** The bin code can contain up to 20 characters.  
 
     > [!NOTE]  
     >  The number of characters that you have entered in the three categories for either field, for example, the characters you have entered in the three **From No.** fields, plus the field separators, if any, must be 20 or less.  

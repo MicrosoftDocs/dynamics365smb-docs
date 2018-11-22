@@ -45,7 +45,7 @@ You can view general ledger budgets and compare them with actual figures in seve
 4. To see a specification that makes up the amount shown, choose the field.  
 
 > [!NOTE]  
->   The filters you set in the page header will be applied to general ledger entries and also budget entries.
+>   The filters you set on the page header will be applied to general ledger entries and also budget entries.
 
 The leftmost columns contain the chart of accounts. Of the five columns on the rightmost side, the first four columns show actual and budgeted debit and credit amounts for each account. The fifth column shows the proportional relationship between the actual and the budgeted amounts on the general ledger account.  
 

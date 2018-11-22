@@ -47,7 +47,7 @@ The bank feed service will be enabled when you link a bank account to its relate
 2. Select the relevant bank account, and then choose the **Create New Linked Bank Account**. The **Bank Account Linking** page opens after a few moments.
 
     > [!NOTE]  
-    > This page shows the actual web page of the Envestnet Yodlee Bank Feeds service. Terminology and functionality in the page may not match instructions provided in this topic.  
+    > This page shows the actual web page of the Envestnet Yodlee Bank Feeds service. Terminology and functionality on the page may not match instructions provided in this topic.  
 3. In the **Online Bank Account Linking** page, in the **Link Account** pane, use the Search function to find the bank where you have one or more online bank accounts.
 4. Choose the bank name. The **Log In** pane opens.
 5. Enter the username and password that you use to log on to the online bank, and then choose the **Next** button.  

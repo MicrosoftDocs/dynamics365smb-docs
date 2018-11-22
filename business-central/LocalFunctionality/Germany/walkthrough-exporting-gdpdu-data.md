@@ -57,7 +57,7 @@ Cassie sets up the requirements for the data export. The auditors have asked her
     Next, Cassie adds descriptions of the kind of data that she needs in the export.  
 
 4.  In the **Data Exports** page, choose the **Record Definitions** action.  
-5.  In the **Data Export Record Definitions** page, choose the **Record Code** field, and then, in the page that appears, choose the **New** action.  
+5.  In the **Data Export Record Definitions** page, choose the **Record Code** field, and then, on the page that appears, choose the **New** action.  
 6.  In the **Data Export Record Types** page, fill in the fields as described in the following table.  
 
     |Field|Description|  

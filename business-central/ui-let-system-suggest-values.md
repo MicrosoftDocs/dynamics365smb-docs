@@ -30,7 +30,7 @@ For information about how to set up a personal general journal batch, for exampl
 ## The **Automatically Fill Date Received** field in the **Payment Registration** page
 The **Payment Registration** page shows outstanding incoming payments as lines that represent sales documents where an amount is due for payment. For more information about applying customer payments, see [Reconcile Customer Payments Manually From a List of Unpaid Sales Documents](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
 
-You main actions in the page are to fill in the **Payment Made** check box and the **Date Received** field. You can set [!INCLUDE[d365fin](includes/d365fin_md.md)] up to automatically enter work date in the **Date Received** field when you select the **Payment Made** check box.
+You main actions on the page are to fill in the **Payment Made** check box and the **Date Received** field. You can set [!INCLUDE[d365fin](includes/d365fin_md.md)] up to automatically enter work date in the **Date Received** field when you select the **Payment Made** check box.
 
 ### To have the **Date Received** field in the **Payment Registration** page filled automatically
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration Setup**, and then choose the related link.

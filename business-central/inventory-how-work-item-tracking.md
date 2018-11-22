@@ -135,7 +135,7 @@ The exact rules for handling item tracking numbers across your company are gover
 
 A lot number with individual serial numbers is created according to the item quantity of the document line, starting from **S/N-Vend0001**.  
 
-The matrix of quantity fields in the header displays dynamically the quantities and sums of the item tracking numbers you define in the page. The quantities must correspond to those of the document line, which is signified by 0 in the **Undefined** fields.  
+The matrix of quantity fields in the header displays dynamically the quantities and sums of the item tracking numbers you define on the page. The quantities must correspond to those of the document line, which is signified by 0 in the **Undefined** fields.  
 
 When the document is posted, the item tracking entries are carried to the associated item ledger entries.
 
@@ -163,7 +163,7 @@ The different rules for item tracking numbers are set up in the **Item Tracking 
 3.  Select the **Create New Lot No.** field to organize the new serial numbers in a distinct lot.  
 4.  Choose the **OK** button to create a lot number and new individual serial numbers according to the quantity to handle on the related document line.  
 
-The matrix of quantity fields at the top displays dynamically the quantities and sums of the item tracking numbers that you define in the page. The quantities must correspond to those of the document line, which is signified by **0** in the **Undefined** fields.  
+The matrix of quantity fields at the top displays dynamically the quantities and sums of the item tracking numbers that you define on the page. The quantities must correspond to those of the document line, which is signified by **0** in the **Undefined** fields.  
 
 When the document is posted, the item tracking entries are carried to the associated item ledger entries.  
 
@@ -186,7 +186,7 @@ When you are working with items that require item tracking and you are creating 
 5. Choose the **OK** button, and the selected item tracking information is transferred to the **Item Tracking Lines** page.  
 6. Type or scan in the item tracking number.
 
-The matrix of quantity fields in the header dynamically displays the quantities and sums of the item tracking numbers you define in the page. The quantities must correspond to those of the document line, which is signified by **0** in the **Undefined** fields.  
+The matrix of quantity fields in the header dynamically displays the quantities and sums of the item tracking numbers you define on the page. The quantities must correspond to those of the document line, which is signified by **0** in the **Undefined** fields.  
 
  When you post the document line, the item tracking information is transferred to the associated item ledger entries.
 

@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 11/23/2018
     ms.author: sgroespe
 
 ---
@@ -57,7 +57,7 @@ When [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates the customer’s del
 
 If the customer does not request a specific delivery date, the shipment date is set to equal the work date, and availability is then based on that date. If the item is in inventory, [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates forward in time to determine when the order can be delivered. This is accomplished by the following formulas:  
 
-- Shipment Date + Outbound Warehouse + Planned Shipment + Handling Time = Date  
+- Shipment Date + Outbound Warehouse Handling Time = Planned Shipment Date  
 - Planned Shipment Date + Shipping Time = Planned Delivery Date  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] then verifies if the calculated delivery date is realistic by calculating backward in time to determine when the item must be available to meet the promised date. This is accomplished by the following formulas:  

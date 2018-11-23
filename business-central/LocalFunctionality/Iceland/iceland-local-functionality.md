@@ -6,13 +6,13 @@
     documentationcenter: ''
     author: bholtorf
 
-    ms.service: dynamics365-financials
+    ms.service: dynamics365-business-central
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/12/2018
     ms.author: bholtorf
 
 ---
@@ -20,8 +20,10 @@
 The following topics describe local functionality that is unique to the Icelandic version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)]
 
 ## In This Section  
-[Electronic Invoicing Requirement: Issuing Single Copy Invoice](electronic-invoicing-requirement-issuing-single-copy-invoice.md)  
 [Deleting Posted Invoices and Credit Memos](deleting-posted-invoices-and-credit-memos.md)  
+[Electronic Invoicing Requirement: Issuing Single Copy Invoice](electronic-invoicing-requirement-issuing-single-copy-invoice.md)  
+[Icelandic Tax Regulations for Conditional Discounts](icelandic-tax-regulations-of-conditional-discounts.md)  
+[Map IRS Numbers to the Chart of Accounts](how-to-map-irs-numbers-to-chart-of-accounts.md)  
 [Print VAT Summary Information on Documents](how-to-print-vat-summary-information-on-documents.md)  
 [Special Data Output and Reports for the Tax Authority](special-data-output-and-reports-for-the-tax-authority.md)  
 

@@ -28,7 +28,7 @@ You can archive the payment slip by using the following methods:
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Slips**, and then choose the relevant link.  
 2.  Select the relevant payment slip, and then choose the **Edit** action.  
-3.  In the **Payment Slip** window, choose the **Archive** action.  
+3.  On the **Payment Slip** page, choose the **Archive** action.  
 4.  Choose the **Yes** button to archive the payment slip.  
 
     > [!NOTE]  
@@ -37,13 +37,13 @@ You can archive the payment slip by using the following methods:
 ## To archive a batch of payment slips  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Archive Payment Slips**, and then choose the relevant link.  
-2.  In the **Archive Payment Slips** window, on the **Payment Header** FastTab, select the appropriate filters.  
+2.  On the **Archive Payment Slips** page, on the **Payment Header** FastTab, select the appropriate filters.  
 3.  Choose the **OK** button.  
 
 The payment slips are archived.  
 
 > [!NOTE]  
->  This batch job will only archive payment slips that have the **Archiving Authorized** check box selected in the **Payment Status** window. For more information, see [Set Up Payment Statuses](how-to-set-up-payment-statuses.md).  
+>  This batch job will only archive payment slips that have the **Archiving Authorized** check box selected on the **Payment Status** page. For more information, see [Set Up Payment Statuses](how-to-set-up-payment-statuses.md).  
 
 ## See Also  
  [Payment Management](payment-management.md)   

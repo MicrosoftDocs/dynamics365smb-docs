@@ -52,7 +52,7 @@ Additionally, you must assign vendors to a domestic **Gen. Bus. Posting Group** 
 
 ### To allow [!INCLUDE[d365fin](includes/d365fin_md.md)] to export payment data
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journal**, and then choose the related link.  
-2. In the **Edit Payment Journal** window, choose the **Bank** batch.  
+2. On the **Edit Payment Journal** page, choose the **Bank** batch.  
 3. Choose the **Allow Payment Export** check box.  
 
 ### To specify a payment method for a vendor

@@ -31,7 +31,7 @@ The following topics describe local functionality that is unique to the United K
 ||[Print Remittance Advice](how-to-print-remittance-advice.md)|Current|
 |**Fixed Assets**|[Define Accounting Periods for Straight Line Depreciation of Fixed Assets](how-to-define-accounting-periods-for-straight-line-depreciation-of-fixed-assets.md)|Current|
 |**Miscellaneous**|[Enter Statutory Information](how-to-enter-statutory-information.md)|Current|
-||[The GetAddress.io UK Postcodes Extension](../../ui-extensions-getaddressio.md)|Current|
+||[The GetAddress.io UK Postcodes Extension](ui-extensions-getaddressio.md)|Current|
 ||[Set Up the GetAddress.io UK Postcodes Extension](uk-setup-postal-code-service.md)|Current|
 ||[Enter External Document Numbers](how-to-enter-external-document-numbers.md)|Current|
 ||[Print Direct Sales and Purchase Details Reports](how-to-print-direct-sales-and-purchase-details-reports.md)|Current|

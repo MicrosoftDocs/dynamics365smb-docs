@@ -28,6 +28,7 @@
     "externalReference": [
     ],
     "template": "../Templates/HelpServer",
-    "dest": "c:/output"
+    "dest": "c:/output",
+    "markdownEngineName": "markdig"
   }
 }

@@ -26,7 +26,7 @@ If an item is stocked in one unit of measure but produced in another, a producti
 ## To set up a unit of measure
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. Open the card of the item for which you want to set up alternate units of measure.
-3. Choose the **Units of Measure** action. The **Item Units of Measure** window opens.
+3. Choose the **Units of Measure** action. The **Item Units of Measure** page opens.
 4. If the **Base Unit of Measure** field on the item card is filled, then that unit of measure is already set up.
 5. Choose the **New** action. A new empty line is inserted.
 6. In the **Code** field, enter the name of the unit of measure. Alternatively, choose the field to select from the unit of measure codes that are in the database.
@@ -45,12 +45,12 @@ When you sell items to foreign customers, you may want to specify the unit of me
 5. Repeat steps 2 through 4 for the unit of measure codes and the languages for which you want to enter translations.
 
 ## To enter a default unit of measure code for sales and purchasing transactions
-If you usually buy or sell in units different from the base unit of measure, you can specify separate units of measure for purchases and sales. To do this, the units of measure must be set up in the **Item Units of Measure** window.
+If you usually buy or sell in units different from the base unit of measure, you can specify separate units of measure for purchases and sales. To do this, the units of measure must be set up on the **Item Units of Measure** page.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. Open the relevant item card for which you want to specify a default sales or purchase unit of measure code.
-3. For sales, on the **Invoicing** FastTab, in the **Sales Unit of Measure** field, open the **Item Units of Measure** window.
-4. For purchasing, on the **Replenishment** FastTab, in the **Purch. Unit of Measure** field, open the **Item Units of Measure** window.
+3. For sales, on the **Invoicing** FastTab, in the **Sales Unit of Measure** field, open the **Item Units of Measure** page.
+4. For purchasing, on the **Replenishment** FastTab, in the **Purch. Unit of Measure** field, open the **Item Units of Measure** page.
 5. Select the code you want to set up as the default unit of measure for sales or purchasing respectively, and then choose the **OK** button.
 
 ## See Also

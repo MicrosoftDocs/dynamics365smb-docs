@@ -27,11 +27,11 @@ In the capacity journal, you post consumed capacities that are not assigned to t
 6.  Choose the **Post** action to post the capacities.  
 
 ## To view work center ledger entries  
-In the **Work Center Card** and **Machine Center Card** windows, you can view the posted capacities as a result of finished production orders.    
+In the **Work Center Card** and **Machine Center Card** pages, you can view the posted capacities as a result of finished production orders.    
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Work Centers**, and then choose the related link.  
 2.  Open the relevant **Work Center** card from the list, and then choose the **Capacity Ledger Entries** action.  
 
-The **Capacity Ledger Entries** window displays the posted entries from the work center in the order they were posted.   
+The **Capacity Ledger Entries** page displays the posted entries from the work center in the order they were posted.   
 
 ## See Also  
 [Manufacturing](production-manage-manufacturing.md)    

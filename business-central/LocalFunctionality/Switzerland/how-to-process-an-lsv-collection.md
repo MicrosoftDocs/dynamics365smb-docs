@@ -17,7 +17,7 @@
 
 ---
 # Process an LSV Collection
-You can use **LSV Journals** to create and process payments from Lastschrift Verfahren (LSV+) customers. You can register these payments in the cash receipt journal, create an LSV file, and then print the collection order. For more information, see the Cash Receipt Journal window and [Export Payments Using LSV](how-to-export-payments-using-lsv.md).  
+You can use **LSV Journals** to create and process payments from Lastschrift Verfahren (LSV+) customers. You can register these payments in the cash receipt journal, create an LSV file, and then print the collection order. For more information, see the Cash Receipt Journal page and [Export Payments Using LSV](how-to-export-payments-using-lsv.md).  
 
 When you run the **LSV Suggest Collection** batch job, each suggested collection is registered on an LSV journal line, and the open invoices are transferred to the LSV journals. For more information, see the LSV Journal table.  
 
@@ -27,7 +27,7 @@ You can view, edit, or delete the suggested payment lines. If you correct the su
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **LSV Journal List**, and then choose the related link.  
 2.  Choose the **New** action.  
-3.  In the **LSV Journal List** window, fill in the required fields as described in the following table.  
+3.  On the **LSV Journal List** page, fill in the required fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -35,7 +35,7 @@ You can view, edit, or delete the suggested payment lines. If you correct the su
     |**LSV Journal Description**|Enter a description for the entry.|
 
 4.  Select the required LSV journal entry, and then choose the **LSV Suggest Collection** action to create the payments to be collected automatically by LSV+.  
-5.  In the **LSV Suggest Collection** window, on the **Options** FastTab, fill in the fields as described in the following table.  
+5.  On the **LSV Suggest Collection** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -46,13 +46,13 @@ You can view, edit, or delete the suggested payment lines. If you correct the su
 
 6.  Choose the **OK** button.  
 
-All related lines are transferred to the LSV journal. After processing the LSV collection, you can view, check, or edit the suggested payments in the **LSV Journal** window. For more information, see the LSV Journal Line table.  
+All related lines are transferred to the LSV journal. After processing the LSV collection, you can view, check, or edit the suggested payments on the **LSV Journal** page. For more information, see the LSV Journal Line table.  
 
 ## To manage suggested payments  
 
-1.  In the **LSV Journal List** window, select the required journal entry, and then choose the **LSV Journal Line** action.  
+1.  On the **LSV Journal List** page, select the required journal entry, and then choose the **LSV Journal Line** action.  
 
-    You can view and modify the suggested payments in this window. You can enter the required payments manually. For new journal lines, the **LSV Status** field is set to **Open** to indicate that the invoice is unpaid.  
+    You can view and modify the suggested payments in this page. You can enter the required payments manually. For new journal lines, the **LSV Status** field is set to **Open** to indicate that the invoice is unpaid.  
 
 3.  Choose the **OK** button.  
 

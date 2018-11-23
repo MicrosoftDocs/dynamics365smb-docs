@@ -1,6 +1,6 @@
 ---
     title: FIK Details in the Payment Reconciliation Journal | Microsoft Docs
-    description: The **Transaction Text** field in the **Payment Reconciliation Journal** window shows information about the automatic application of payments using the Danish FIK standard.
+    description: The Transaction Text field on the **Payment Reconciliation Journal** page shows information about the automatic application of payments using the Danish FIK standard.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # FIK Details in the Payment Reconciliation Journal
-The **Transaction Text** field in the **Payment Reconciliation Journal** window shows information about the automatic application of payments using the Danish FIK standard. For more information, see [Reconcile Payments Using Automatic Application](../../receivables-how-reconcile-payments-auto-application.md).  
+The **Transaction Text** field on the **Payment Reconciliation Journal** page shows information about the automatic application of payments using the Danish FIK standard. For more information, see [Reconcile Payments Using Automatic Application](../../receivables-how-reconcile-payments-auto-application.md).  
 
  The following table describes the six values that may be shown in the **Transaction Text** field.  
 

@@ -6,7 +6,7 @@
     documentationcenter: ''
     author: SorenGP
 
-    ms.service: dynamics365-financials
+    ms.service: dynamics365-business-central
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -19,7 +19,7 @@
 # Set Up Revenue Types for Withholding Tax
 Revenue types are used to categorize withholding tax (WHT) entries and are used for WHT certificates.  
 
-You can use the **WHT Revenue Types** window to set up the revenue types for withholding tax.  
+You can use the **WHT Revenue Types** page to set up the revenue types for withholding tax.  
 
 ## To set up revenue types for withholding tax  
 

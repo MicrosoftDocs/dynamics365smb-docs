@@ -46,22 +46,22 @@ Typically, employee responsible for shipping creates a warehouse shipment.
 
     > [!NOTE]  
     >  If you wish to ship items with warehouse class codes other than the class code of the bin in the **Bin Code** field on the document header, you must delete the contents of the **Bin Code** field on the header before you retrieve source document lines for the items.  
-3.  Choose the **Get Source Documents** action. The **Source Documents** window opens.
+3.  Choose the **Get Source Documents** action. The **Source Documents** page opens.
 
-    From a new or an open warehouse shipment, you can use the **Filters to Get Source Docs.** window to retrieve the released source document lines that define which items to ship.
+    From a new or an open warehouse shipment, you can use the **Filters to Get Source Docs.** page to retrieve the released source document lines that define which items to ship.
 
     1. Choose the **Use Filters to Get Src. Docs.** action.  
     2. To set up a new filter, enter a descriptive code in the **Code** field, and then choose the **Modify** action.  
     3. Define the type of source document lines that you want to retrieve by filling in the relevant filter fields.  
     4. Choose the **Run** action.  
 
-    All released source document lines that fulfill the filter criteria are now inserted in **Warehouse Shipment** window from which you activated the filter function.  
+    All released source document lines that fulfill the filter criteria are now inserted in **Warehouse Shipment** page from which you activated the filter function.  
 
-    The filter combinations that you define are saved in the **Filters to Get Source Docs.** window until the next time you need it. You can make an unlimited number of filter combinations. You can change the criteria at any time by choosing the **Modify** action.
+    The filter combinations that you define are saved on the **Filters to Get Source Docs.** page until the next time you need it. You can make an unlimited number of filter combinations. You can change the criteria at any time by choosing the **Modify** action.
 
 4.  Select the source documents for which you want to ship items, and then choose the **OK** button.  
 
-The lines of the source documents appear in the **Warehouse Shipment** window. The **Qty. to Ship** field is filled with the quantity outstanding for each line, but you can change the quantity as necessary. If you deleted the contents of the **Bin Code** field on the **General** FastTab before getting the lines, you must fill in an appropriate bin code on each shipment line.  
+The lines of the source documents appear on the **Warehouse Shipment** page. The **Qty. to Ship** field is filled with the quantity outstanding for each line, but you can change the quantity as necessary. If you deleted the contents of the **Bin Code** field on the **General** FastTab before getting the lines, you must fill in an appropriate bin code on each shipment line.  
 
 > [!NOTE]  
 >  You cannot ship more items than the number in the **Qty. Outstanding** field on the source document line. To ship more items, retrieve another source document that contains a line for the item by using the filter function to get source documents with the item.  
@@ -72,7 +72,7 @@ When you have the lines you want to ship, you can start the process that sends t
 Typically, a warehouse worker responsible for picking creates a pick document, or opens an already created pick document.
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Shipments**, and then choose the related link.
 2. Select the warehouse shipment that you want to pick for, and then choose the **Create Pick** action.
-3. Fill in the fields in the request window, and then choose the **OK** button. The specified warehouse pick document is created.
+3. Fill in the fields in the request page, and then choose the **OK** button. The specified warehouse pick document is created.
 
     Alternatively, open an existing warehouse pick.
 4. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Picks**, and then choose the related link. Select the warehouse pick that you want to work on.

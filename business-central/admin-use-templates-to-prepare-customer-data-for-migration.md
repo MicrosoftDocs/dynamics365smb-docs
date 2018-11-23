@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 11/07/2018
     ms.author: sgroespe
 
 ---
@@ -41,32 +41,46 @@ When you select an existing data template, you must evaluate if the templates th
 >  You can also use data templates to create new records quickly. Use them for faster and more accurate data creation. For more information, see [Register New Items](inventory-how-register-new-items.md).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Templates**, and then choose the related link.  
-2. In the **Config. Template List** window, select a data template from the list, and then choose the **Edit** action.  
+2. On the **Configuration Templates** page, select a data template from the list, and then choose the **Edit** action.  
 
 If the default templates do not meet your needs, you can create new templates or add fields to an existing template. If the default templates are sufficient, you can use them to create records based on master data templates.
 
-## To create a data template
-You can create a new data template if the default templates do not the needs of your new company. If you are creating more than one, you may find it useful to adopt a naming convention for the **Code** field.
+## To create a new data template
+You can create a new data template if the default templates do not meet the needs of your new company. If you are creating more than one, you may find it useful to adopt a naming convention for the **Code** field.
 
 Each template consists of a header and lines. When you create a template, you can specify which fields to always apply to data of a certain type. For example, you can create different customer templates to apply to different customer types. When you create the customer using a template, you can use template data to prepopulate certain fields.
 
-### To create a data template header
-1. Open the **Config. Template List** window.
+### To copy an existing data template
+You can quickly create a new data template by copying information from an existing data template, which you then edit.
+
+1. Open the **Configuration Templates** page.
 2. Choose the **New** action.
+3. Fill in the **Code** field.
+4. Choose the **Copy Config. Template** action.
+5. On the **Configuration Templatesd** page, select an existing template to copy, and then choose the **OK** button.
+
+The table ID, table name, and lines of the existing data template are inserted in the new template.
+
+### To create a data template header manually
+1. Open the **Configuration Templates** page.
+2. Choose the **New** action.
+3. Fill in the **Code** field.
 3. In the **Table ID** field, enter the table to which this template applies. The **Table Name** field is automatically filled in when the **Table ID** field is set.
 
-### To create a data template line
-1. On the first line, select the **Field Name** field. The **Field List** window displays the list of fields in the table.
+### To create a data template line manually
+1. On the first line, select the **Field Name** field. The **Field List** page displays the list of fields in the table.
 2. Select a field, and then choose the **OK** button. The **Field Caption** field is filled in with the field name.
 3. In the **Default Value** field, enter an appropriate value. In some cases, you may want to use a value that is not a value that is available in the database. In that case, you can select the **Skip Relation Check** check box, to make it possible to apply data without error.
 
     > [!TIP]  
     > Since the **Default Value** field does not have a look up to the corresponding [!INCLUDE[d365fin](includes/d365fin_md.md)] field options, you copy and paste the value that you want from the related page into the template.
 
-    > Select the **Mandatory** check box. The check box is informational only. It tells you that information must be entered in the field by the user, but no business logic is enforced. For example, you cannot invoice and post an order if posting groups have not been set up. Since posting groups are required, you can select the **Mandatory** check box for those fields.
+4. Select the **Mandatory** check box if users must fill in the field in question.
 
-3. In the **Reference** field, enter information about the field as needed.
-4. Choose the **OK** button
+    > [!NOTE]
+    > The check box is informational only. No business logic is enforced. For example, ushers cannot post an invoice if posting groups have not been set up. You can select the **Mandatory** check box for those fields to have the user fill them in and thereby avoid a posting error later.
+5. In the **Reference** field, enter information about the field as needed.
+6. Choose the **OK** button
 
 ## To export to a template in Excel
 You can create an Excel workbook to serve as a template that is based on the structure of an existing database table quickly. You can then use the template to gather together customer data in a consistent format for later import into [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -83,7 +97,7 @@ You can now enter customer data in the Excel worksheet. If you have exported mul
 > You may encounter the following error when you run an English version of Excel, but have your regional settings configured for a non-English language: "Old format or invalid type library." To fix this error, make sure that the language pack for the non-English language is installed.
 
 ## To import from a template in Excel
-1. In the **Config. Worksheet** window, choose the **Import from Template** action.
+1. On the **Configuration Worksheet** page, and then choose the **Import from Template** action.
 3. Navigate to the template worksheet that you have created, and then choose the **Open** action.
 4. To add the collected customer data to the database, choose the **Apply Data** action.
 
@@ -113,8 +127,8 @@ You can apply a data template to any record that is in [!INCLUDE[d365fin](includ
 The following procedure is based on a new customer card.  
 
 1. Create a customer. For more information, see [Register New Customers](sales-how-register-new-customers.md).
-2. In the **Customer Card** window, choose the **Apply Template** action.  
-3. In the **Customer Templates** window, select one of the templates, and then choose the **OK** button.  
+2. On the **Customer Card** page, choose the **Apply Template** action.  
+3. On the **Customer Templates** page, select one of the templates, and then choose the **OK** button.  
 
 The default values from the chosen customer template are inserted on the customer card.
 

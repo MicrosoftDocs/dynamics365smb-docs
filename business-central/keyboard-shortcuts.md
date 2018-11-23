@@ -13,9 +13,9 @@ ms.author: jswymer
 ---
 
 # Keyboard Shortcuts
-This article provides an overview of some of the shortcut key combinations that you can use when you are working with [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
+This article provides an overview of some of the shortcut key combinations that you can use when you are working with [!INCLUDE[prodshort](includes/prodshort.md)].
 
-[Print-friendly keyboard shortcut cheatsheet](keyboard-shortcuts-cheatsheet.md)
+[Print-friendly keyboard shortcut reference](keyboard-shortcuts-cheatsheet.md)
 
 ## Overview
 The keyboard shortcuts aide accessibility and can make it easier and more efficient to navigate to different areas and elements on a page.
@@ -24,19 +24,22 @@ The keyboard shortcuts are supported by most web browsers; however, the behavior
 
 The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.
 
-Most of the shortcuts are the same no matter whether the operating system is Windows or macOS; however, there are some shortcuts that differ for macOS. These are indicated in parantheses in the tables in the sections that follow.
+Most of the shortcuts are the same no matter whether the operating system is Pages or macOS; however, there are some shortcuts that differ for macOS. These are indicated in parentheses in the tables in the sections that follow.
 
 ##  <a name="Keyboard"></a> General Keyboard Shortcuts
 The following table describes keyboard shortcuts for navigating and accessing different elements of a page, such as actions, drop-down lists, lookups, and more. For details about keyboard shortcuts for navigating records once you get inside a list, see the next section.
 
-|Press these keys|To do this|  
+|Press these keys<br />(in macOS)|To do this|  
 |----------------|-----------|  
-|Alt+Q|Open **Tell me what you want to do** box that can help you find a page, a report, an action on the current page, or an article in the documentation.|
+|Alt+Q<br />(Ctrl+Alt+Q)|Open **Tell me what you want to do** box that can help you find a page, a report, an action on the current page, or an article in the documentation.|
+|Alt+Up Arrow|Show tooltip for a field or a column header of a table. If the field has validation errors, press "Alt+Up Arrow" to show the validation error. Press "Esc" or "Alt+Up Arrow" to close the tooltip.|
 |Tab|Move focus to the next control or element on a page, such as actions, buttons, fields, or list headings.|
 |Shift+Tab|Move focus to the previous control or element on a page, such as actions, buttons, fields, or list headings.|   
 |Enter|Enable or access the element or control that is in focus.|   
 |Alt+Down Arrow|Open a drop-down list or look up a value for a field.|    
 |Alt+Right Arrow|See the transactions that resulted in a calculated value in a field.|  
+|F5|Refresh the data on the current page.|Use this to ensure that the data on the page is up-to-date with any changes that others have made while you are working.|
+|Ctrl+F5|Reload the [!INCLUDE[prodshort](includes/prodshort.md)] application.|This is similar to selecting refresh/reload in the browser.|
 |Esc|Close the current page or drop-down.|
 
 
@@ -120,7 +123,7 @@ When setting a date field, you can either enter the date manually or open a cale
 |Up Arrow|Scroll up the page.|
 |Right Arrow|Scroll to the right when the page is zoomed in so that it is not entirely in view. |
 |Left Arrow|Scroll to the left when the page is zoomed in so that it is not entirely in view. |
-|Ctrl+0 (zero)<br />(Cmd+0)|Fits the entire page in the window. |
+|Ctrl+0 (zero)<br />(Cmd+0)|Fits the entire page on the page. |
 |Ctrl+Home<br />(Cmd+Home)|Go to the first page of the report.|
 |Ctrl+End<br />(Cmd+Home)|Go to the last page of the report.|
 |Page Down<br />(Fn+Down Arrow)|Go to the next page of the report.|

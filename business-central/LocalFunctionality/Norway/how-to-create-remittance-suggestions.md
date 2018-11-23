@@ -6,7 +6,7 @@
     documentationcenter: ''
     author: SorenGP
 
-    ms.service: dynamics365-financials
+    ms.service: dynamics365-business-central
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -20,13 +20,13 @@
 You can create a remittance suggestion so that payment proposals are sent to vendors who are set up to receive remittance payments. One payment transaction per posting date for each vendor is transferred to the bank.  
 
 > [!NOTE]  
->  To avoid creating payment suggestions for vendors who are remitted when the usual vendor suggestion process is used, add a filter for **Remittance** in the **Suggest Vendor Payments** window and set the filter to **No**.  
+>  To avoid creating payment suggestions for vendors who are remitted when the usual vendor suggestion process is used, add a filter for **Remittance** on the **Suggest Vendor Payments** page and set the filter to **No**.  
 
 ## To create a remittance suggestion  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.  
 2.  Choose the **Remittance Suggestion** action.  
-3.  In the **Suggest Remittance Payments** window, on the **Options** FastTab, fill in the fields as described in the following table.  
+3.  On the **Suggest Remittance Payments** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

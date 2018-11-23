@@ -6,7 +6,7 @@
     documentationcenter: ''
     author: SorenGP
 
-    ms.service: dynamics365-financials
+    ms.service: dynamics365-business-central
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -60,10 +60,10 @@ Electronic documents can only be created after a document has been posted or iss
     > [!IMPORTANT]  
     >  The **E-Invoice** check box must be selected on the invoice in order to create an electronic invoice.  
 
-4.  Optionally, in the **Create Electronic Invoices** batch job window, set additional filters.  
+4.  Optionally, in the **Create Electronic Invoices** batch job page, set additional filters.  
 5.  Choose the **OK** button.  
 
-An XML file is created and stored at the location that was defined in the **Sales & Receivables Setup** window. You can now submit the document to the customer.  
+An XML file is created and stored at the location that was defined on the **Sales & Receivables Setup** page. You can now submit the document to the customer.  
 
 ## See Also  
  [EHF Electronic Invoicing in Norway](ehf-electronic-invoicing-in-norway.md)

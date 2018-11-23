@@ -21,7 +21,9 @@ You can get access to [!INCLUDE [d365acc](includes/d365acc_md.md)] by signing up
 
 ## Working with individual clients
 The dashboard shows the most important information about each client.  
-![Accountant Hub](./media/accountant-get-started/accountant-dashboard.png)
+
+> [!div class="mx-imgBorder"]
+> ![Accountant Hub](./media/accountant-get-started/accountant-dashboard.png)
 
 The **Client Name** column shows the names of your clients, and the **Company Name** column lists all companies if the client has more than one company in [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)]. There are also fields to show you tasks that are assigned to you in your client's company, including overdue tasks.  
 
@@ -61,7 +63,8 @@ In your client's [!INCLUDE [d365fin](includes/d365fin_md.md)], you can assign ta
 
 In the client company, you also have cues that call out tasks assigned to you in this particular client.
 
-![Tasks assigned to the accountant in the client company](./media/accountant-get-started/accountant-company-details-tasks.png)
+> [!div class="mx-imgBorder"]
+> ![Tasks assigned to the accountant in the client company](./media/accountant-get-started/accountant-company-details-tasks.png)
 
 ### My user tasks
 The **My User Tasks** list in [!INCLUDE [d365acc](includes/d365acc_md.md)] helps you prioritize your day by showing more information about tasks assigned to you across all your clients.  
@@ -76,8 +79,9 @@ To pick up a task, simply choose it from the list of pending user tasks. In the 
 When you have completed a task, simply mark it as completed.  
 
 ## See Also
+
 [Add Clients to Your Dashboard in [!INCLUDE[d365acc](includes/d365acc_md.md)]](add-client.md)  
 [Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](index.md)  
-[Analyzing Financial Statements in Microsoft Excel](/dynamics365/business-central/finance-analyze-excel?toc=/dynamics365/accountants/toc.json)   
+[Analyzing Financial Statements in Microsoft Excel](/dynamics365/business-central/finance-analyze-excel?toc=/dynamics365/accountants/toc.json)  
 [Accountant Experiences in [!INCLUDE[d365fin](includes/d365fin_md.md)]](/dynamics365/business-central/finance-accounting?toc=/dynamics365/accountants/toc.json)  
 [Dynamics 365 — Accountant Hub on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  

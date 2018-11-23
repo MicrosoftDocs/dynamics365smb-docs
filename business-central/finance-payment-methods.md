@@ -14,17 +14,16 @@ ms.author: bholtorf
 
 ---
 # Defining Payment Methods
-Payment methods define how you prefer customers to pay you, and how your vendors prefer for you to pay them. Examples of typical payment methods are **bank**, **cash**, **check**, or **account**. After you assign a payment method to customers and vendors, the method will be added by default to the sales and purchase documents that you create for them. If needed, you can change the method on the sales or purchase document. For example, if you want to pay a purchase invoice in cash rather than by check. This does not change the default payment method assigned to the vendor.
+Payment methods define the way you prefer for customers to pay you, and how you like to pay your vendors. The method can vary for each customer or vendor. Examples of typical payment methods are **bank**, **cash**, **check**, or **account**. 
 
-The same payment methods are used for sales and purchase documents. For example, a cash payment method is used both when you make payments and when you receive them. [!INCLUDE[d365fin](includes/d365fin_md.md)] knows that when you are creating a sales invoice you expect to receive payment, and the opposite for purchase invoices.
+You can assign a payment method to customers and vendors so that the same method is always used on the sales and purchase documents you create for them. If needed, you can change the method on the sales or purchase document. For example, if you want to pay a particular purchase invoice in cash rather than by check. This does not change the default payment method assigned to the vendor.
 
-Credit memos, however, are an exception because money is flowing in the opposite directions, from you to your customer and from your vendor to you. Therefore a default payment method is not assigned by default to credit memos. For example, if you need to return money to your customer you will probably want to use a bank transfer payment method and not direct debit. There is, however, a workaround. Though the **Calc. Pmt. Disc. on Cr. Memos** field is not intended for this, if you choose the check box for a payment method it will be added by default when you create credit memos.
+The same payment methods are used for sales and purchase documents. For example, a _cash_ payment method is used both when you make payments and when you receive them. [!INCLUDE[d365fin](includes/d365fin_md.md)] knows that when you are creating a sales invoice you expect to receive payment, and the opposite for purchase invoices. 
+
+Credit memos for returns, however, are exceptions because money is flowing in the opposite directions, from you to your customer and from your vendor to you. Therefore, a default payment method is not assigned to credit memos. There is, however, a workaround if you have specified terms of payment for the customer or vendor. Though the **Calc. Pmt. Disc. on Cr. Memos** field is not intended for this, if you choose the check box on the **Payment Terms** page a default payment method will be added when you create a credit memo.
 
 ## To set up a payment method
 [!INCLUDE[d365fin](includes/d365fin_md.md)] provides a few payment methods that businesses often use. You can, however, add as many as you need.
-
-## To set up a payment methods
-Several typical payment methods are already defined in [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can define new payment methods on the **Payment Methods** page, which you can find with the search function or open from the **Payment Method** field on an a vendor or customer card.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Methods**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]

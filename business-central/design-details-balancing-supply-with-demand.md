@@ -55,7 +55,7 @@ In general, all supply has a planning flexibility that is limited by the conditi
 
     -   It represents inventory (always on day zero).  
     -   It has an order-to-order linked to another demand.  
-    -   It lies outside the reschedule window defined by the time bucket.  
+    -   It lies outside the reschedule page defined by the time bucket.  
     -   There is a closer supply that could be used.  
     -   On the other hand, the user may decide not to reschedule because:  
     -   The supply order has already been tied to another demand on a previous date.  
@@ -64,7 +64,7 @@ In general, all supply has a planning flexibility that is limited by the conditi
 -   **Reschedule In**: The date of an existing supply order can be scheduled in, except in the following conditions:  
 
     -   It is linked directly to some other demand.  
-    -   It lies outside the reschedule window defined by the time bucket.  
+    -   It lies outside the reschedule page defined by the time bucket.  
 
 > [!NOTE]  
 >  When planning an item using a reorder point, the supply order can always be scheduled in if necessary. This is common in forward-scheduled supply orders triggered by a reorder point.  

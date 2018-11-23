@@ -20,16 +20,16 @@ You can assign an alternate address where your contacts are sometimes sent mail 
 
 ## To assign an alternate address
 1. Open the contact.
-2. Choose the **Alternative Address** action, and then choose **Card**. The **Contact Alt. Address List** window opens.
-3. Enter a new alternate address and fill in the fields in the **Contact Alternative Address** window.
+2. Choose the **Alternative Address** action, and then choose **Card**. The **Contact Alt. Address List** page opens.
+3. Enter a new alternate address and fill in the fields on the **Contact Alternative Address** page.
 
 Repeat these steps to assign as many alternate addresses as you want. For each alternate address you may want to specify one or several date ranges.
 
-You can also assign alternate addresses from the contact list window by following the same procedure.
+You can also assign alternate addresses from the contact list page by following the same procedure.
 
 ## To assign an alternate address date range
 1. Open the contact.
-2. Choose the **Alternate Address** action, and then choose **Date Range**. The **Contact Alt. Addr. Date Ranges** window opens.
+2. Choose the **Alternate Address** action, and then choose **Date Range**. The **Contact Alt. Addr. Date Ranges** page opens.
 3. Choose **New** action.
 4. In the **Contact Alt. Address Code** field, select an alternate address for this contact, and then fill in the **Starting Date** and **Ending Date** fields.
 

@@ -69,7 +69,7 @@ The **My User Tasks** list in [!INCLUDE [d365acc](includes/d365acc_md.md)] helps
 
 You can sort by due date, for example, or any other type of data that helps you prioritize your day. By default, the list shows all tasks that are assigned to you, but you can set up filters to only show tasks that are marked as high priority, for example.
 
-To pick up a task, simply choose it from the list of pending user tasks. In the ribbon, the link **Go to Task Item** opens the window where you can do the work.  
+To pick up a task, simply choose it from the list of pending user tasks. In the ribbon, the link **Go to Task Item** opens the page where you can do the work.  
 
 When you have completed a task, simply mark it as completed.  
 

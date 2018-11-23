@@ -25,7 +25,7 @@ The following procedure describes how to print sales orders, but the same steps 
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.  
 2.  Choose the **Post Batch** action.  
-3.  In the **Batch Post Sales Orders** window, on the **Options** FastTab, select the **Print** check box.  
+3.  On the **Batch Post Sales Orders** page, on the **Options** FastTab, select the **Print** check box.  
 4.  Optionally, on the **Options** FastTab, fill in the additional fields.  
 5.  To batch post and print the sales orders, choose the **OK** button.  
 

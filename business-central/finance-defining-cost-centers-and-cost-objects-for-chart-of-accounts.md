@@ -36,7 +36,7 @@ For each general ledger account, you can define default dimension values in the 
 |Cost Object|No Code|Code Mandatory|  
 
 > [!NOTE]  
->  To make sure that the predefined cost center and cost object that you set up in the general ledger are automatically carried over to cost accounting, select the **Check G/L Postings** check box in the Cost Accounting Setup window.  
+>  To make sure that the predefined cost center and cost object that you set up in the general ledger are automatically carried over to cost accounting, select the **Check G/L Postings** check box in the Cost Accounting Setup page.  
 
 ## See Also  
 [Accounting for Costs](finance-manage-cost-accounting.md)  

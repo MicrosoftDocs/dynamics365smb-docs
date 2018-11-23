@@ -28,7 +28,7 @@ This topic describes how to define three new allocation target cost objects for 
 ## To define the allocation source PROD cost center on the General FastTab  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cost Allocation**, and then choose the related link.  
-2.  In the **Cost Allocation** window, choose the **New** action.  
+2.  On the **Cost Allocation** page, choose the **New** action.  
 3.  In the **ID** field, press Enter or enter an ID.  
 4.  In the **Level** field, enter **1**.  
 5.  In the **Valid From** and **Valid To** fields, enter appropriate dates.  

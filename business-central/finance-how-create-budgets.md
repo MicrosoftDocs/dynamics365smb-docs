@@ -30,11 +30,11 @@ In cost accounting, you work with cost budgets in a similar way. For more inform
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **G/L Budgets**, and then choose the related link.  
 2. Choose the **Edit List** action, and then fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Choose the **Edit Budget** action.
-4. At the top of the **Budget** window, fill in the fields as necessary to define what is displayed.  
+4. At the top of the **Budget** page, fill in the fields as necessary to define what is displayed.  
 
-    Only entries that contain the budget name that you entered in the **budget Name** field are shown. Because the budget name has just been created, there are no entries that match the filter. Therefore, the window is empty.  
-5. To enter an amount, choose the relevant cell in the matrix. The **G/L Budget Entries** window opens.  
-6. Create a new line and fill in the **Amount** field. Close the **G/L Budget Entries** window.  
+    Only entries that contain the budget name that you entered in the **budget Name** field are shown. Because the budget name has just been created, there are no entries that match the filter. Therefore, the page is empty.  
+5. To enter an amount, choose the relevant cell in the matrix. The **G/L Budget Entries** page opens.  
+6. Create a new line and fill in the **Amount** field. Close the **G/L Budget Entries** page.  
 7. Repeat steps 5 and 6 until you have entered all of the budget amounts.  
 
 > [!NOTE]  

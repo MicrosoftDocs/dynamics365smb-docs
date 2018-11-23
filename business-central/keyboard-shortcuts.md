@@ -24,7 +24,7 @@ The keyboard shortcuts are supported by most web browsers; however, the behavior
 
 The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.
 
-Most of the shortcuts are the same no matter whether the operating system is Windows or macOS; however, there are some shortcuts that differ for macOS. These are indicated in parentheses in the tables in the sections that follow.
+Most of the shortcuts are the same no matter whether the operating system is Pages or macOS; however, there are some shortcuts that differ for macOS. These are indicated in parentheses in the tables in the sections that follow.
 
 ##  <a name="Keyboard"></a> General Keyboard Shortcuts
 The following table describes keyboard shortcuts for navigating and accessing different elements of a page, such as actions, drop-down lists, lookups, and more. For details about keyboard shortcuts for navigating records once you get inside a list, see the next section.
@@ -67,8 +67,6 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Page Down<br />(Fn+down Arrow)|Scrolls to display the set rows below the current rows in view.|Scrolls to display the set of tiles below the current tiles in view.||
 |Enter<br />(Fn+down Arrow)|Open the record that is associated with the field.|Opens the record.| Only relevant if a card page is associated with the record.|
 |Ctrl+Enter|Move focus to the next element outside the list.|Move focus to the next element outside the list.||
-
-We also support Ctrl+F5 which reloads the Business Central application, similar to pressing Refresh in the browser itself.||
 
 ### <a name="CopyRows"></a>Select, copy and paste
 |Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |Remarks|
@@ -125,7 +123,7 @@ When setting a date field, you can either enter the date manually or open a cale
 |Up Arrow|Scroll up the page.|
 |Right Arrow|Scroll to the right when the page is zoomed in so that it is not entirely in view. |
 |Left Arrow|Scroll to the left when the page is zoomed in so that it is not entirely in view. |
-|Ctrl+0 (zero)<br />(Cmd+0)|Fits the entire page in the window. |
+|Ctrl+0 (zero)<br />(Cmd+0)|Fits the entire page on the page. |
 |Ctrl+Home<br />(Cmd+Home)|Go to the first page of the report.|
 |Ctrl+End<br />(Cmd+Home)|Go to the last page of the report.|
 |Page Down<br />(Fn+Down Arrow)|Go to the next page of the report.|

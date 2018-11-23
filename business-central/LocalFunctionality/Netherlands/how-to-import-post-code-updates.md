@@ -21,8 +21,8 @@ Every month a post code file will be delivered with all post code mutations in a
 ## To import the update file  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Post Codes Updates**, and then choose the related link.  
-2.  In the **Post Codes Updates** window, choose the **Import Post Codes Update** action.  
-3.  Specify the path and name of the post code update file, and then choose the **OK** button. If you do not want to import the file, choose the **Cancel** button to close the window.  
+2.  On the **Post Codes Updates** page, choose the **Import Post Codes Update** action.  
+3.  Specify the path and name of the post code update file, and then choose the **OK** button. If you do not want to import the file, choose the **Cancel** button to close the page.  
 
 If there is no file imported with a full set of post code data, then a message appears.  
 

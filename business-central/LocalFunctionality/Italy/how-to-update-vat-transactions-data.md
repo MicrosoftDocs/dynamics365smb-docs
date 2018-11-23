@@ -16,7 +16,7 @@ Before you create the first VAT transaction report, you should prepare the exist
 You can run the **Update VAT Transaction Data** report as a test before you change any data. When you have verified that the filters meet your expectations and the requirements of the tax authorities, you should run the report again to make the appropriate changes to data.  
 
 > [!CAUTION]  
->  Before you run the **Update VAT Transaction Data** report, you should activate the change log in the **Change Log Setup** window. Also, you should enable logging for modifications to the **Include in VAT Transac. Report** field on the **VAT Entry** table.  
+>  Before you run the **Update VAT Transaction Data** report, you should activate the change log on the **Change Log Setup** page. Also, you should enable logging for modifications to the **Include in VAT Transac. Report** field on the **VAT Entry** table.  
 
 ## To update VAT transaction data  
 

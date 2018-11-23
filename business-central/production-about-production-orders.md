@@ -36,7 +36,7 @@ Production orders are the starting points for:
 -   Tracking of finished manufacturing  
 
 ## Production Order Creation  
-Production orders can be created on an order-by-order basis manually from the **Production Order** window, or generated from the **Sales Order Planning** or **Order Planning** windows. Multiple orders are created from the **Planning Worksheet** window.  
+Production orders can be created on an order-by-order basis manually from the **Production Order** page, or generated from the **Sales Order Planning** or **Order Planning** pages. Multiple orders are created from the **Planning Worksheet** page.  
 
 Production orders are created using information from:  
 
@@ -50,8 +50,8 @@ Production orders are created using information from:
 Production orders are automatically reserved and tracked to their source when:  
 
 -   Created from the **Planning Worksheet**  
--   Created with the Order function in the **Sales Order Planning** window  
--   Created from the **Order Planning** window  
+-   Created with the Order function on the **Sales Order Planning** page  
+-   Created from the **Order Planning** page  
 -   Using the **Replan** function on production orders  
 
 For more information, see [Track Relations Between Demand and Supply](production-how-track-demand-supply.md).
@@ -59,7 +59,7 @@ For more information, see [Track Relations Between Demand and Supply](production
 Production orders created through other means are not automatically reserved and tracked.   
 
 ## Production Order Status  
-The production order status controls how the production order behaves within the program. The form and content of the production are dictated by the order's status. The production orders are displayed in different windows according to their status. You cannot change the status of a production order manually; you must use the **Change Status** function.  
+The production order status controls how the production order behaves within the program. The form and content of the production are dictated by the order's status. The production orders are displayed in different pages according to their status. You cannot change the status of a production order manually; you must use the **Change Status** function.  
 
 ### Simulated Production Order  
 The Simulated Production Order is unique based on the following characteristics:  

@@ -73,8 +73,9 @@ Enter the word for `today`, in the language set by **Language** setting, that wi
 
 ### Period
 
-To filter on a specific accounting period, in a date field enter the letter `p`, or the word `period`, followed by a number that identifies the accounting period, like `p2` or `period4`. The accounting period is relative to the fiscal year of the current work date that set in your Role Center. For example, if the work date is **03/21/20**, then `p1`, or just `p`, filters on the first accounting period of the fiscal year 2020 (such as `01/01/20..01/31/20`). `p15` filters on the fifteenth accounting period from the start of fiscal year 2020 (such as `03/01/21..03/31/21`).
+To filter on a specific accounting period, in a date field enter the letter `p`, or the word `period`, followed by a number that identifies the accounting period, like `p2` or `period4`. The accounting period is relative to the fiscal year of the current work date that set in your Role Center. For example, if the work date is **03/21/20**, then `p1`, or just `p`, filters on the first accounting period of the fiscal year 2020 (such as `01/01/20..01/31/20`). `p15` filters on the fifteenth accounting period from the start of fiscal year 2020 (such as `03/01/21..03/31/21`). 
 
+The accounting periods are defined on the **Accounting Periods** page. To view or change the accounting periods, open the page [here](https://businesscentral.dynamics.com/?page=100).
 
 ### Current work date
 
@@ -84,7 +85,7 @@ The word for 'workdate', in the language set by **Language** setting, will set t
 
 If you have not defined a work date, the current date will be used as the work date. You may want to use a work date if you have many transactions with a date other than today's date.
 
-See also [Changing Basic Settings, such as the Work Date](ui-change-basic-settings.md#work-date)
+See also [Changing Basic Settings, such as the Work Date](ui-change-basic-settings.md#work-date).
 
 ### Closing Date
 
@@ -118,6 +119,7 @@ The following table contains examples of dates using all the formats. It assumes
 |`t-1`|Tuesday of week 1 of the work date year|
 
 ##  <a name="BKMK_SettingDateRanges"></a> Setting Ranges
+
 On lists, totals and reports, you can set filters on dates, times and datetimes containing a start value and optionally an end value to display only the data contained in that range. The standard rules apply to the way you set date ranges.
 
 |**Meaning**|**Sample expression (Date)**|**Data included in the filter**|

@@ -49,7 +49,7 @@ You can copy rows in any kind of list, including worksheets, FactBoxes, or list 
 In some pages, the application design may prevent you from pasting of rows. Contact your administrator or application developer to change the [Editable property](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-editable-property) on the page or [PasteIsValid property](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-pasteisvalid-property) on the source table.
 
 ## On which clients is copy and paste available?
-Copy and paste are available in the browser or the [!INCLUDE[d365fin](includes/d365fin_md.md)] app for Windows 10.
+Copy and paste are available in the browser or the [!INCLUDE[d365fin](includes/d365fin_md.md)] app for Pages 10.
 
 ## What is the maximum number of rows that can be copied?
 You can copy as many rows as you have scrolled into view. For example, to copy all 1000 rows in a page, you must first scroll to the bottom of the page and wait for the rows to appear before copying. The maximum number of rows you can copy is only limited by the memory of your device.

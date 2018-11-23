@@ -22,9 +22,9 @@ You can choose to have VAT amounts calculated and posted to a temporary general 
 
 To use accounts for unrealized VAT, follow these steps:
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, and enter **General Ledger Setup**.
-2. In the **General Ledger Setup** window, select the **Unrealized VAT** check box.
+2. On the **General Ledger Setup** page, select the **Unrealized VAT** check box.
 3. Choose the **Search for Page or Report** icon ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do"), and enter **VAT Posting Setup**.
-4. In the **VAT Posting Setup** window, choose the VAT posting group, and then choose the **Edit** action.
+4. On the **VAT Posting Setup** page, choose the VAT posting group, and then choose the **Edit** action.
 5. In the **Unrealized VAT Type** field, choose an option to specify how to allocate payments to the invoice amount (excluding VAT) and the VAT amount itself, and how to transfer VAT amounts from the unrealized VAT account to the realized account. The following table describes the options.
 
 | Option | Description |

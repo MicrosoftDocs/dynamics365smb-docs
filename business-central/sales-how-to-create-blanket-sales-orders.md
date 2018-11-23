@@ -38,7 +38,7 @@ An example of when a blanket sales order could be used is if a customer calls an
 2.  When you are ready to create orders, choose the **Make Order**m action, and then choose **Yes**. A message appears informing you that the blanket order has been assigned an order number. Note that the blanket order has not been deleted.  
 3.  Choose the **OK** button.  
 4.  To see the results of the preceding steps, choose the **Line** action, choose the **Unposted Lines** action, and then choose the **Orders** action.  
-5.  In the **Sales Lines** window, select the appropriate sales order, choose the **Line** action, and then choose the **Show Document** action.  
+5.  On the **Sales Lines** page, select the appropriate sales order, choose the **Line** action, and then choose the **Show Document** action.  
 
 The following applies to sales orders after they have been created from blanket sales orders:  
 
@@ -49,14 +49,14 @@ The following applies to sales orders after they have been created from blanket 
 - When sales orders are not created directly from the blanket order but still relate to it, a link between a sales order and a blanket order can be established by entering the associated blanket order number in the **Blanket Order No.** field on the sales order line.  
 - After the sales order has been created for the total quantity of a blanket order line, no other sales order can be created for the same line. Users are prevented from entering a quantity in the **Qty. to Ship** field. If, however, additional quantities need to be added to a blanket order, the value in the **Quantity** field can be increased and additional orders can then be created.  
 - The invoiced blanket sales order remains in the system until it is deleted, either by deleting individual blanket orders or by running the **Delete Invoiced Blanket Sales Orders** batch job.  
-- If a customer is also recorded as a contact in the Marketing application area, and if you have specified an interaction template code for blanket sales order in the **Marketing Setup** window, an interaction is recorded in the Interaction Log Entry table when you select **Print** to print the blanket sales order.
+- If a customer is also recorded as a contact in the Marketing application area, and if you have specified an interaction template code for blanket sales order on the **Marketing Setup** page, an interaction is recorded in the Interaction Log Entry table when you select **Print** to print the blanket sales order.
 
 ## To view the status of a blanket purchase order  
-You can see the status of a blanket sales order in the **Purchase Blanket Order Statistics** window. This may be relevant when you start to invoice the order that is created from the blanket purchase order.  
+You can see the status of a blanket sales order on the **Purchase Blanket Order Statistics** page. This may be relevant when you start to invoice the order that is created from the blanket purchase order.  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Blanket Purchase Orders**, and then choose the related link.  
 2.  Select a blanket purchase order, and then choose the **Statistics** action.  
-3.  In the **Purchase Blanket Order Statistics** window, on the **General** FastTab, you can see summary information about the entire order based on the total quantity in the various **Quantity fields** on the blanket purchase order lines.  
+3.  On the **Purchase Blanket Order Statistics** page, on the **General** FastTab, you can see summary information about the entire order based on the total quantity in the various **Quantity fields** on the blanket purchase order lines.  
 
     - On the **Invoicing** FastTab, you can see summary information based on the total quantity in the **Qty. to Invoice** fields on the purchase blanket order lines.  
     - On the **Shipping** FastTab, you can see summary information based on the total quantity in the **Qty. to Receive** fields on the purchase blanket order lines.  
@@ -116,7 +116,7 @@ The link between the blanket sales order and the originating sales order, and an
     <td>Posted credit memos that have been associated with the selected line.</td>
     </tr>
     </table>
-5. In the **Sales Lines** window, choose the **Show Document** action to view the entry.
+5. On the **Sales Lines** page, choose the **Show Document** action to view the entry.
 
 ## See Also
 [Sales](sales-manage-sales.md)  

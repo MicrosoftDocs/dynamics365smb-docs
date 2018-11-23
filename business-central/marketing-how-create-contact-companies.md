@@ -21,14 +21,14 @@ You can create a contact for each new company you interact with, for example, a 
 There are two ways to create a contact:
 from scratch or from an existing customer, vendor, or bank account.
 
-Before creating a contact, you may want to check the settings in the **Marketing Setup** window. For more information, see [Setting Up Relationship Management](marketing-setup-marketing.md).
+Before creating a contact, you may want to check the settings on the **Marketing Setup** page. For more information, see [Setting Up Relationship Management](marketing-setup-marketing.md).
 
 ## Create a company contact from scratch
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, and then choose the related link.
 2. Choose the **New** action.
 3. In the **No. field**, enter a number for the contact.
 
-    Alternatively, if you have set up a number series for contacts in the **Marketing Setup** window, you can press the Enter key to select the next available contact number.  
+    Alternatively, if you have set up a number series for contacts on the **Marketing Setup** page, you can press the Enter key to select the next available contact number.  
 4. Set **Type** to **Company**.
 5. Fill in the other fields as required.
 
@@ -36,16 +36,16 @@ Before creating a contact, you may want to check the settings in the **Marketing
 If you have already set up a number of customers, vendors, and bank accounts, you can create contacts on the basis of the existing data. When you create a contact this way, the contact information is synchronized with the customer, vendor, or bank account information.
 
 > [!NOTE]  
->   Before you can create contact companies this way, you must specify a business relation code for customers, vendors, and bank accounts in the **Marketing Setup** window. If you will be creating contacts from a bank accounts, you must also specify numbers series for bank accounts in the **General Ledger Setup** window.
+>   Before you can create contact companies this way, you must specify a business relation code for customers, vendors, and bank accounts on the **Marketing Setup** page. If you will be creating contacts from a bank accounts, you must also specify numbers series for bank accounts on the **General Ledger Setup** page.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter one of the following, depending on from where you want to create contacts, and then choose the related link.
    * **Create Contacts from Customers**
    * **Create Contacts from Vendors**
    * **Create Contacts from Bank Accounts**
-2. In the batch job window that opens, in the **Customer**, **Vendor**, or **Bank Account** section, set filters if you want to create contacts from specific customers, vendors, or bank accounts.
+2. In the batch job page that opens, in the **Customer**, **Vendor**, or **Bank Account** section, set filters if you want to create contacts from specific customers, vendors, or bank accounts.
 3. Choose the **OK** button to start creating contacts.
 
-    The next contact numbers in the number series are assigned to the new contacts. The business relation for vendors that is specified in the **Marketing Setup** window is assigned to the newly created contacts.
+    The next contact numbers in the number series are assigned to the new contacts. The business relation for vendors that is specified on the **Marketing Setup** page is assigned to the newly created contacts.
 
 > [!TIP]  
 >   You can also create a customer, vendor, or bank account from a contact. For more information, see [Create a Customer, Vendor, or Bank Account From a Contact](marketing-how-create-contacts-new-customers-vendors-bank-accounts.md).

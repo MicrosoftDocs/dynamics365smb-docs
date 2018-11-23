@@ -26,7 +26,7 @@ If you want some help to decide what to do with your cash, have a look at the ch
 This topic describes where the data in the charts comes from and, if necessary, what to do to start using the charts.  
 
 ## The Cash Cycle and Income & Expense charts
-The **Cash Cycle** and **Income & Expense** charts are ready to go, based on the Chart of Accounts and account schedules. The accounts are where the data comes from, and account schedules calculate the relationship between sales and receivables. Some accounts and account schedules are provided. You can use them as-is, change them, and add new ones. If you add G/L accounts to your chart of accounts, for example, by importing them from QuickBooks, you'll need to map to the accounts in the **Account Schedules** window for the following account schedule names:  
+The **Cash Cycle** and **Income & Expense** charts are ready to go, based on the Chart of Accounts and account schedules. The accounts are where the data comes from, and account schedules calculate the relationship between sales and receivables. Some accounts and account schedules are provided. You can use them as-is, change them, and add new ones. If you add G/L accounts to your chart of accounts, for example, by importing them from QuickBooks, you'll need to map to the accounts on the **Account Schedules** page for the following account schedule names:  
 
 | Account Schedule Name | Where it's used |
 | --- | --- |
@@ -64,14 +64,14 @@ To use the assisted setup guide:
 1. In the Accountant Role Center, under the **Cash Flow Forecast** chart, choose the **Open Assisted Setup** action.  
 2. Fill in the fields in each step of the guide.  
 3. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Flow Forecast**, and then choose the related link.
-4. In the **Cash Flow Forecast** window, choose the **Recalculate Forecast** action.  
+4. On the **Cash Flow Forecast** page, choose the **Recalculate Forecast** action.  
 
 To use a manual process:  
 
 1. In the Accountant Role Center, search for **Cash Flow Setup**, and then choose the related link.  
 2. Expand the **Cortana Intelligence** FastTab, and then choose the **Cortana Intelligence Enabled** check box.  
 3. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Flow Forecast**, and then choose the related link.
-4. In the **Cash Flow Forecast** window, choose the **Recalculate Forecast** action.  
+4. On the **Cash Flow Forecast** page, choose the **Recalculate Forecast** action.  
 
 > [!TIP]  
 >   Consider the length of the periods that the service will use in its calculations. The more data you provide, the more accurate the predictions will be. Also, watch out for large variances in periods. They will also impact predictions. If Cortana Intelligence does not find enough data, or the data varies a lot, the service will not make a prediction.  

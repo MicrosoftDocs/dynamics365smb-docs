@@ -19,7 +19,7 @@ ms.author: edupont
 
 For example, if you are using the Canadian version of [!INCLUDE[d365fin](includes/d365fin_md.md)], you can see the user interface in English and in French, but it is still the Canadian version of [!INCLUDE[d365fin](includes/d365fin_md.md)] in all other aspects. It is not the same as, say, [!INCLUDE[d365fin](includes/d365fin_md.md)] in the United Kingdom.  
 
-To change the language of the user interface, go to the **My Settings** window. For more information, see [Changing Basic Settings](ui-change-basic-settings.md#language).  
+To change the language of the user interface, go to the **My Settings** page. For more information, see [Changing Basic Settings](ui-change-basic-settings.md#language).  
 
 Changing the texts that are stored as application data is not part of the multilanguage capability. This is an application design issue. Examples of such texts are the names of items in the inventory or the comments for a customer. In other words, these types of text are not translated.  
 
@@ -34,13 +34,13 @@ You can change the locale in the browser tab that you are using to work in [!INC
 > [!IMPORTANT]  
 >  When you change the locale, you will see a long list of languages and locales. However, only the locale setting is used in the current version of [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-To change the locale, go to the **My Settings** window. For more information, see [Changing Basic Settings](ui-change-basic-settings.md).  
+To change the locale, go to the **My Settings** page. For more information, see [Changing Basic Settings](ui-change-basic-settings.md).  
 
 ## Languages of the [!INCLUDE[d365fin](includes/d365fin_md.md)] Help
 The Help content for the core functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)] publishes to the Microsoft Docs site and available in a number of different languages. If you access the docs from inside [!INCLUDE[d365fin](includes/d365fin_md.md)], the content will display in your language. If a particular page is not available in your language yet, it will be shown in English.
 
 ### How Do I Change the Language?
-It's simple - scroll to the bottom of the browser window and choose the globe symbol in the bottom left corner.
+It's simple - scroll to the bottom of the browser page and choose the globe symbol in the bottom left corner.
 
 > [!NOTE]  
 > The list shows all languages that are supported by the Microsoft Docs site. [!INCLUDE[d365fin](includes/d365fin_md.md)] is available in a limited number of countries/regions, but the Help content is made available in more languages. However, the Help content is not available in all languages that the Microsoft Docs site supports.

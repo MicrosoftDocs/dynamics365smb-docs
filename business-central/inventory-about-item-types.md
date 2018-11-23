@@ -16,7 +16,7 @@ ms.author: sgroespe
 
 ---
 # About Item Types
-In the **Type** field in the **Item Card** window, you can select what the item is used for in your business and therefore how it is managed in the system. Three options exist:
+In the **Type** field on the **Item Card** page, you can select what the item is used for in your business and therefore how it is managed in the system. Three options exist:
 
 |Option|Typical Purpose|
 |------|-----------|

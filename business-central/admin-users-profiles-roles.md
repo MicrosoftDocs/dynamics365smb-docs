@@ -44,7 +44,7 @@ Profiles are collections of [!INCLUDE[d365fin](includes/d365fin_md.md)] users wh
 
 1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Profile List**, and then choose the related link.  
 
-2.  On the **Profile List** page, choose the **New** action to open the **New Profile Card** window.  
+2.  On the **Profile List** page, choose the **New** action to open the **New Profile Card** page.  
 
 3.  In the **Profile ID** field, enter a name that describes the intended role of the users.  
 
@@ -52,7 +52,7 @@ Profiles are collections of [!INCLUDE[d365fin](includes/d365fin_md.md)] users wh
 
 5.  Set the **Role Center ID** field to the Role Center that you want to assign to the profile.  
 
-The procedure for modifying an existing profile is the same, except you select an existing profile in the **Profile List** page instead of choosing the **New** action.  
+The procedure for modifying an existing profile is the same, except you select an existing profile on the **Profile List** page instead of choosing the **New** action.  
 
 
 ### Copy a profile

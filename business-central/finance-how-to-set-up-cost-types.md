@@ -31,12 +31,12 @@ The chart of cost types is similar to the chart of accounts in the general ledge
     > [!IMPORTANT]  
     >  The **Register Cost Types in Chart of Accounts** function updates the relationship between the chart of accounts and the chart of cost types. The **No.** field is filled and verified to make sure that each general ledger account is related to only one cost type. The function runs automatically before transferring general ledger entries to cost accounting.  
 
-## To set up new cost types in the Chart of Cost Types window  
-1.  Open the **Chart of Cost Types** window in edit mode.  
+## To set up new cost types in the Chart of Cost Types page  
+1.  Open the **Chart of Cost Types** page in edit mode.  
 2.  Fill in the fields as described as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >  You can set up and maintain cost types in either the **Cost Type Card** window or in the **Chart of Cost Types** window. In this procedure, you set up cost types in the **Chart of Cost Types** window.
+    >  You can set up and maintain cost types in either the **Cost Type Card** page or on the **Chart of Cost Types** page. In this procedure, you set up cost types on the **Chart of Cost Types** page.
 
 3.  After you have created all cost types, choose the **Indent Cost Types** action. In the dialog box, choose the **Yes** button.  
 4.  Link the new cost type to the corresponding general ledger account.  
@@ -45,7 +45,7 @@ The chart of cost types is similar to the chart of accounts in the general ledge
     >  If you have entered definitions in the **Totaling** fields for the line type of **End-Total** before you run the **Indent Cost Types** function, then you must enter the definitions again because the function overwrites the values in all **End-Total** fields.  
 
 ## To update cost types  
-1.  In the **Cost Accounting Setup** window, select if you want the chart of cost types to be automatically updated when the chart of accounts is changed.  
+1.  On the **Cost Accounting Setup** page, select if you want the chart of cost types to be automatically updated when the chart of accounts is changed.  
 2.  In the **Align G/L Account** field, you can choose from the following options.  
 
 - **No Alignment** - There is no corresponding change in the chart of cost types when you change the chart of accounts.  

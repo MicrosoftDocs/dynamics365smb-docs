@@ -1,6 +1,6 @@
 ---
     title: How to Create Routings | Microsoft Docs
-    description: A routing holds master data that captures the process requirements of a given produced item. Once a production order is created for that item, its routing will govern the scheduling of operations as represented in the **Prod. Order Routing** window under the production order.
+    description: A routing holds master data that captures the process requirements of a given produced item. Once a production order is created for that item, its routing will govern the scheduling of operations as represented on the **Prod. Order Routing** page under the production order.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -20,7 +20,7 @@ Manufacturing companies use routings to visualize and direct the manufacturing p
 
 The routing is the basis of process scheduling, capacity scheduling, scheduled assignment of material needs, and manufacturing documents.  
 
-As for production BOMs, the routings are assigned to the manufacturing end item. A routing holds master data that captures the process requirements of a given produced item. Once a production order is created for that item, its routing will govern the scheduling of operations as represented in the **Prod. Order Routing** window under the production order.  
+As for production BOMs, the routings are assigned to the manufacturing end item. A routing holds master data that captures the process requirements of a given produced item. Once a production order is created for that item, its routing will govern the scheduling of operations as represented on the **Prod. Order Routing** page under the production order.  
 
 Before you can set up a routing, the following must be in place:  
 
@@ -57,7 +57,7 @@ Before you can set up a routing, the following must be in place:
 ## To create routing links
 You can create routing links to connect components to specific operations in order to retain their relationship even though the production BOM or routing is modified. It also facilitates just-in-time flushing of components, namely when the specific linked operation starts, not when the complete production order is released. For more information see [Flush Components According to Operation Output](production-how-to-flush-components-according-to-operation-output.md).  
 
-Another important benefit is that linked components and operations are displayed in a logical process structure when you use the **Production Journal** window for output and consumption posting.  
+Another important benefit is that linked components and operations are displayed in a logical process structure when you use the **Production Journal** page for output and consumption posting.  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routings**, and then choose the related link.  
 2.  Open the routing that contains the operations that you want to link.  
@@ -85,7 +85,7 @@ Another important benefit is that linked components and operations are displayed
     > [!NOTE]  
     >  To enable the routing links on an existing production order, you must refresh the productio1n order. For more information, see [Create Production Orders](production-how-to-create-production-orders.md).  
 
-The selected components will now be linked to the selected operations when you create or refresh a production order using the production BOM and routing in question. This is visible in the **Prod. Order Components** window under the production order, and here you can also remove and add the defined routing link codes at any time.
+The selected components will now be linked to the selected operations when you create or refresh a production order using the production BOM and routing in question. This is visible on the **Prod. Order Components** page under the production order, and here you can also remove and add the defined routing link codes at any time.
 
 ## To assign personnel, tools, and quality measures to routing operations.
 If you require personnel with qualifications, special knowledge, or special authorization for an operation, you can assign these personnel to the operation. In addition, you can assign tools and quality requirements to the operation. This procedure describes how to assign personnel. The steps are similar for other types of operation information.
@@ -93,15 +93,15 @@ If you require personnel with qualifications, special knowledge, or special auth
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routings**, and then choose the related link.  
 2.  Open the relevant routing.  
 3.  On the **Lines** FastTab, select the line that you want to process, and then choose the **Personnel** action.  
-4.  Fill in the fields in the **Routing Personnel** window.  
-5.  Choose the **OK** button to exit the window. The entered values are copied and assigned to the operation.    
+4.  Fill in the fields on the **Routing Personnel** page.  
+5.  Choose the **OK** button to exit the page. The entered values are copied and assigned to the operation.    
 
 ## To create a new versions of a routing  
 The version principle enables you to manage several versions of a routing. The structure of the routing version corresponds to the structure of the routing consisting of the routing version header and the routing version lines. The basic difference is defined by the starting date.  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routings**, and then choose the related link.  
 2.  Select the routing to be copied, and then choose the **Versions** action.  
-3. In the **Routing Versions** window, choose the **New** action.
+3. On the **Routing Versions** page, choose the **New** action.
 4. Fill in the fields as necessary.
 5.  In the **Version Code** field, enter the unique identification of the version. Any combination of numbers and letters is permitted.  
 

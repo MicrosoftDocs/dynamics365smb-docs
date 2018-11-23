@@ -42,12 +42,12 @@ The chart of cost types is similar to the chart of accounts in the general ledge
     > [!IMPORTANT]  
     >  The **Register Cost Types in Chart of Accounts** function updates the relationship between the chart of accounts and the chart of cost types. The **No.** field is filled and verified to make sure that each general ledger account is related to only one cost type. The function runs automatically before transferring general ledger entries to cost accounting.  
 
-### To set up new cost types in the Chart of Cost Types window  
-1.  Open the **Chart of Cost Types** window in edit mode.  
+### To set up new cost types in the Chart of Cost Types page  
+1.  Open the **Chart of Cost Types** page in edit mode.  
 2.  Fill in the fields as described as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >  You can set up and maintain cost types in either the **Cost Type Card** window or in the **Chart of Cost Types** window. In this procedure, you set up cost types in the **Chart of Cost Types** window.
+    >  You can set up and maintain cost types in either the **Cost Type Card** page or on the **Chart of Cost Types** page. In this procedure, you set up cost types on the **Chart of Cost Types** page.
 
 3.  After you have created all cost types, choose the **Indent Cost Types** action. In the dialog box, choose the **Yes** button.  
 4.  Link the new cost type to the corresponding general ledger account.  
@@ -56,7 +56,7 @@ The chart of cost types is similar to the chart of accounts in the general ledge
     >  If you have entered definitions in the **Totaling** fields for the line type of **End-Total** before you run the **Indent Cost Types** function, then you must enter the definitions again because the function overwrites the values in all **End-Total** fields.  
 
 ### To update cost types  
-1.  In the **Cost Accounting Setup** window, select if you want the chart of cost types to be automatically updated when the chart of accounts is changed.  
+1.  On the **Cost Accounting Setup** page, select if you want the chart of cost types to be automatically updated when the chart of accounts is changed.  
 2.  In the **Align G/L Account** field, you can choose from the following options.  
 
 - **No Alignment** - There is no corresponding change in the chart of cost types when you change the chart of accounts.  
@@ -95,7 +95,7 @@ Cost centers are departments that are responsible for costs and income. The char
 -   Create a new chart of cost center that is independent of the general ledger or add a new cost center to an existing chart of cost center. You must create each cost center individually.  
 
 ### To transfer dimension values in the general ledger to the chart of cost centers  
-1.  Set up a dimension to be the cost center dimension in the **Update Cost Acctg. Dimensions** window. Only the values from this dimension are transferred.  
+1.  Set up a dimension to be the cost center dimension on the **Update Cost Acctg. Dimensions** page. Only the values from this dimension are transferred.  
 2.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Cost Centers**, and then choose the related link.  
 3.  On the **Actions** tab, in the **Functions** group, choose **Get Cost Centers from Dimension** to transfer dimension values to the chart of cost centers. The function transfers the dimension values that you defined in step 1.  
 
@@ -104,10 +104,10 @@ Cost centers are departments that are responsible for costs and income. The char
 
 The chart of cost centers now contains all specified dimension values from the general ledger and includes titles and subtotals.  
 
-### To create new cost centers in the Chart of Cost Centers window  
-You can set up and maintain cost centers in either the **Cost Center Card** card or in the **Chart of Cost Centers** window. In this procedure, you set up cost centers in the **Chart of Cost Centers** window.  
+### To create new cost centers in the Chart of Cost Centers page  
+You can set up and maintain cost centers in either the **Cost Center Card** card or on the **Chart of Cost Centers** page. In this procedure, you set up cost centers on the **Chart of Cost Centers** page.  
 
-1. Open the **Chart of Cost Centers** window in edit mode.  
+1. Open the **Chart of Cost Centers** page in edit mode.  
 2. In the **Code** field, enter the cost center code. All cost centers must have a code.  
 3. In the **Name** field, enter the cost center name.  
 4. Choose the drop-down arrow in the **Line Type** field to specify the purpose of the cost center.  
@@ -128,7 +128,7 @@ Cost objects are projects, products, or services of a company. The chart of cost
 * Create a new chart of cost object that is independent of the general ledger or add a new cost object to an existing chart of cost objects. You must create each cost object individually.  
 
 ### To transfer dimension values from the general ledger to the chart of cost objects  
-1.  Set a dimension to be the cost object dimension in the **Update CA Dimensions** window. Only the values from this dimension are transferred.  
+1.  Set a dimension to be the cost object dimension on the **Update CA Dimensions** page. Only the values from this dimension are transferred.  
 2.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Cost Objects**, and then choose the related link.  
 3.  Choose the **Get Cost Objects from Dimension** action to transfer dimension values to the chart of cost objects. The function transfers the dimension values that you defined in step 1.  
 
@@ -137,10 +137,10 @@ Cost objects are projects, products, or services of a company. The chart of cost
 
 The chart of cost objects now contains all specified dimension values from the general ledger and includes titles and subtotals.  
 
-### To create new cost objects in the Chart of Cost Objects window  
-You can set up and maintain cost objects in either the **Cost Object Card** card or in the **Chart of Cost Objects** window. In this procedure, you set up cost objects in the **Chart of Cost Objects** window.  
+### To create new cost objects in the Chart of Cost Objects page  
+You can set up and maintain cost objects in either the **Cost Object Card** card or on the **Chart of Cost Objects** page. In this procedure, you set up cost objects on the **Chart of Cost Objects** page.  
 
-1.  Open the **Chart of Cost Objects** window in edit mode.  
+1.  Open the **Chart of Cost Objects** page in edit mode.  
 2.  In the **Code** field, enter the cost object code. All cost objects must have a code.  
 3.  In the **Name** field, enter the cost object name.  
 4.  Choose the drop-down arrow in the **Line Type** field to specify the purpose of the cost object.  
@@ -174,7 +174,7 @@ For each general ledger account, you can define default dimension values in the 
 |Cost Object|No Code|Code Mandatory|  
 
 > [!NOTE]  
->  To make sure that the predefined cost center and cost object that you set up in the general ledger are automatically carried over to cost accounting, select the **Check G/L Postings** check box in the Cost Accounting Setup window.
+>  To make sure that the predefined cost center and cost object that you set up in the general ledger are automatically carried over to cost accounting, select the **Check G/L Postings** check box in the Cost Accounting Setup page.
 
 ## See Also  
 [Accounting for Costs](finance-manage-cost-accounting.md)  

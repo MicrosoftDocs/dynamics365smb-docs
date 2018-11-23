@@ -67,25 +67,25 @@ When the invoice is finished it can be posted.
 When creating a purchase invoice for Hernandez Ortiz we enter **ORTIZ** in the **Buy-from Vendor No.** field. By default, the **Currency Code**, **Transaction Mode**, and **Bank Account** fields will be populated with values taken from the Hernandez Ortiz's vendor card. Therefore, the **Currency Code**, **Transaction Mode**, and **Bank Account** fields will be **MXN**, **ABN**, and **HOBA** respectively. Nevertheless, these values can be changed.  
 
 ## Create Proposal  
-Open the **Telebank - Bank Overview** window and browse to the bank through which we want to perform our payment. Open the **Proposal** window and generate payment proposals using the **Get Proposal Entries** batch job.  
+Open the **Telebank - Bank Overview** page and browse to the bank through which we want to perform our payment. Open the **Proposal** page and generate payment proposals using the **Get Proposal Entries** batch job.  
 
 ### Example  
-Through the **Telebank - Bank Overview** window, we open the **Proposal** window for our bank, ABN. Using the batch job, one proposal line will be created for the purchase invoice we just created and posted for the vendor ORTIZ. The amount of the payment will be in local currency (LCY).  
+Through the **Telebank - Bank Overview** page, we open the **Proposal** page for our bank, ABN. Using the batch job, one proposal line will be created for the purchase invoice we just created and posted for the vendor ORTIZ. The amount of the payment will be in local currency (LCY).  
 
 ## Create Payment History  
-From the **Proposal** window, we process our proposal into a payment history. The proposal will disappear and can be found in the **Payment History Overview** window for the same bank.  
+From the **Proposal** page, we process our proposal into a payment history. The proposal will disappear and can be found on the **Payment History Overview** page for the same bank.  
 
 ### Example  
-We process our proposal concerning the payment to the vendor ORTIZ and open the **Payment History Overview** window for our bank, ABN. The last payment history is the one we just created.  
+We process our proposal concerning the payment to the vendor ORTIZ and open the **Payment History Overview** page for our bank, ABN. The last payment history is the one we just created.  
 
 ## Export Payment History  
-Open the **Payment History Overview** window, browse to the relevant payment history and then choose the **Export** action. The export batch job will appear for the export protocol that is linked to this payment. For this export the system already has entered appropriate filters. Check, if wanted, any of the fields on the **Options** FastTab, and choose the **OK** button to export the payment. The system will generate a text file using a filename as defined in the **Default File Names Field** field of the export protocol, which now is ready to be sent to our bank.  
+Open the **Payment History Overview** page, browse to the relevant payment history and then choose the **Export** action. The export batch job will appear for the export protocol that is linked to this payment. For this export the system already has entered appropriate filters. Check, if wanted, any of the fields on the **Options** FastTab, and choose the **OK** button to export the payment. The system will generate a text file using a filename as defined in the **Default File Names Field** field of the export protocol, which now is ready to be sent to our bank.  
 
 ### Example  
 As the transaction mode associated with our payment is *ABN**, the **BBV** or **PAYMUL** batch job will appear.  
 
 ## Import Bank Statement  
-After receiving electronic bank statements from our bank we can import them by running the appropriate import protocol from the **Import Protocol List** window.  
+After receiving electronic bank statements from our bank we can import them by running the appropriate import protocol from the **Import Protocol List** page.  
 
 ### Example  
 The bank statement containing our payment to Hernandez Ortiz will be sent to us by our bank, ABN. Therefore, we should chose **OFFICE NET EXTRA** as the appropriate import protocol.  

@@ -38,15 +38,15 @@ You can fill customer fields on the sales invoice in two ways depending on wheth
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
 2. In the **Customer** field, enter the name of an existing customer.
 
-   Other fields in the **Sales Invoice** page contain standard information about the selected customer. If the customer is not registered, follow these steps:
+   Other fields on the **Sales Invoice** page contain standard information about the selected customer. If the customer is not registered, follow these steps:
 3. In the **Customer** field, enter the name of the new customer.
 4. In the dialog box about registering the new customer, choose the **Yes** button.
-5. In the **Select a template for a new customer** page, choose a template to base the new customer card on, and then choose the **OK** button.
+5. On the **Select a template for a new customer** page, choose a template to base the new customer card on, and then choose the **OK** button.
 6. A new customer card displays the information on the selected customer template. Fill in the remaining fields. For more information, see [Register New Customers](sales-how-register-new-customers.md).  
 7. When you have completed the customer card, choose the **OK** button to return to the **Sales Invoice** page.
 
    Several fields on the sales invoice are now filled with information that you specified on the new customer card.  
-8. Fill in the remaining fields in the **Sales Invoice** page as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+8. Fill in the remaining fields on the **Sales Invoice** page as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
     > If you allow the customer to pay immediately, for example, by cash or by PayPal, then fill in the **Payment Method Code** field. The payment is then recorded as soon as you post the sales invoice. If you select CASH, then the payment is recorded in a specified balancing account.

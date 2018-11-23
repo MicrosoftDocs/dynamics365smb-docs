@@ -25,7 +25,7 @@ You can use the **BAS Business Units** page to set up the following:
 - Subsidiaries  
 - Affiliates  
 
-You must set up information in the **General Ledger Setup** page before you can set up business units.  
+You must set up information on the **General Ledger Setup** page before you can set up business units.  
 
 ## To set up general ledger for a business activity statement  
 1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Setup**, and then choose the related link.  

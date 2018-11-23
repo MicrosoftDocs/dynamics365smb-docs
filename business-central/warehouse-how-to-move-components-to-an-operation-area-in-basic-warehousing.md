@@ -38,7 +38,7 @@ Two different roles can create the initial inventory movement. An assembly worke
 Alternatively, a warehouse worker can create it by pointing to the released assembly order in question. This is described in the following procedure.  
 
 > [!NOTE]  
->  If the movement is for an assembly order where the item is assembled to a sales order, then you can define that the inventory movement document is automatically created when you create the inventory pick document that takes the finished assembly item and posts the shipment. To set this up, select the **Create Movements Automatically** field in the **Assembly Setup** page  
+>  If the movement is for an assembly order where the item is assembled to a sales order, then you can define that the inventory movement document is automatically created when you create the inventory pick document that takes the finished assembly item and posts the shipment. To set this up, select the **Create Movements Automatically** field on the **Assembly Setup** page  
 >   
 >  For more information about assembly orders and basic warehouse configurations, see the "Handling Assemble-to-Order Items with Inventory Picks" section in [Pick for Production or Assembly](warehouse-how-to-pick-for-production.md).  
 
@@ -49,9 +49,9 @@ This procedure shows how to create an inventory movement from the **Inventory Mo
 2.  On the **General** FastTab, fill in the **No.** field. You can press the Enter key  to select from the number series.  
 3.  In the **Location Code** field, enter the location where the movement occurs.  
 4.  Choose the **Get Source Documents** action. Alternatively, fill in the **Source Document** field, and then choose the **AssistEdit** button in the **Source No.** field.  
-5.  In the **Source Documents** page, select the assembly order that you want to move components for, and then choose the **OK** button.  
+5.  On the **Source Documents** page, select the assembly order that you want to move components for, and then choose the **OK** button.  
 
-    For each needed component that can be moved, one Take line and one Place line are generated in the **Inventory Movements** page. All fields except the **Qty. to Handle** field are prefilled according to the source document lines. The **Qty. to Handle** field is set to zero until you enter the quantity that you have actually moved.  
+    For each needed component that can be moved, one Take line and one Place line are generated on the **Inventory Movements** page. All fields except the **Qty. to Handle** field are prefilled according to the source document lines. The **Qty. to Handle** field is set to zero until you enter the quantity that you have actually moved.  
 
     You can change the bin code on a Take line but only according to availability. If you choose the **AssistEdit** button in the **Bin Code** field on a Take line, then the **Bin Contents** page opens and only shows bins where the component is available.  
 

@@ -26,7 +26,7 @@ You can lend customers loaners to temporarily replace service items that you hav
 5. Choose **Yes** to confirm the loan.  
 
 ## To receive a loaner  
-When you receive a loaner from a customer, you must register the receipt. You do this in the **Service Order**, **Posted Service Shipment**, and **Loaner Card** pages. This procedure shows how to receive loaners in the **Service Order** page.  
+When you receive a loaner from a customer, you must register the receipt. You do this in the **Service Order**, **Posted Service Shipment**, and **Loaner Card** pages. This procedure shows how to receive loaners on the **Service Order** page.  
   
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Orders**, and then choose the related link.  
 2. Open the relevant service order.  

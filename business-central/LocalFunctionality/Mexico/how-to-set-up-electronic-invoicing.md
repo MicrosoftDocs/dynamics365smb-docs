@@ -22,12 +22,12 @@ Before you can send electronic documents, you must set up [!INCLUDE[d365fin](../
 > [!IMPORTANT]  
 >  The certificate that you received from the Mexico tax authority must be installed for each user who sends electronic invoices. For more information, see the [Servicio de Administracíon Tributaria](https://go.microsoft.com/fwlink/?LinkId=242772) website.  
 >   
->  Your company must also have SMTP mail set up for emailing electronic invoices. Depending on the configuration in your company, you may need to grant explicit SMTP permissions to each relevant user and computer. The documents will be sent from the address that is specified in the **Company Information** page.  
+>  Your company must also have SMTP mail set up for emailing electronic invoices. Depending on the configuration in your company, you may need to grant explicit SMTP permissions to each relevant user and computer. The documents will be sent from the address that is specified on the **Company Information** page.  
 
 ## To set up company information  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.  
-2.  In the **Company Information** page, on the **Tax** FastTab, fill in the fields as described in the following table.  
+2.  On the **Company Information** page, on the **Tax** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |------------------------------------|---------------------------------------|  

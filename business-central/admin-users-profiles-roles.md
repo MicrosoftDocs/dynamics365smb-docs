@@ -52,7 +52,7 @@ Profiles are collections of [!INCLUDE[d365fin](includes/d365fin_md.md)] users wh
 
 5.  Set the **Role Center ID** field to the Role Center that you want to assign to the profile.  
 
-The procedure for modifying an existing profile is the same, except you select an existing profile in the **Profile List** page instead of choosing the **New** action.  
+The procedure for modifying an existing profile is the same, except you select an existing profile on the **Profile List** page instead of choosing the **New** action.  
 
 
 ### Copy a profile

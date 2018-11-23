@@ -25,7 +25,7 @@ The following Intrastat reports are available:
 3.  To open the **Intrastat - Monthly** report or the **Intrastat - Quarterly** report, choose the **Monthly Report** action or the **Quarterly Report** action.  
 4.  On the **Intrastat Jnl. Line** FastTab, select the appropriate filters.  
 5.  Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.  
-6.  In the **Intrastat Journal** page, to save the report details to a diskette, on the **Actions** tab, in the **Print** group, choose **Make Diskette**.  
+6.  On the **Intrastat Journal** page, to save the report details to a diskette, on the **Actions** tab, in the **Print** group, choose **Make Diskette**.  
 
     > [!NOTE]  
     >  Before you print, you can select the path and file name. If you do not specify this information, the file will be named **scambi.cee** and will print to the root of the C drive.  

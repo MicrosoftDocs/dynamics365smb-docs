@@ -73,7 +73,7 @@ Open the **Telebank - Bank Overview** page and browse to the bank through which 
 Through the **Telebank - Bank Overview** page, we open the **Proposal** page for our bank, ABN. Using the batch job, one proposal line will be created for the purchase invoice we just created and posted for the vendor ORTIZ. The amount of the payment will be in local currency (LCY).  
 
 ## Create Payment History  
-From the **Proposal** page, we process our proposal into a payment history. The proposal will disappear and can be found in the **Payment History Overview** page for the same bank.  
+From the **Proposal** page, we process our proposal into a payment history. The proposal will disappear and can be found on the **Payment History Overview** page for the same bank.  
 
 ### Example  
 We process our proposal concerning the payment to the vendor ORTIZ and open the **Payment History Overview** page for our bank, ABN. The last payment history is the one we just created.  

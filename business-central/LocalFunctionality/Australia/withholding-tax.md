@@ -25,7 +25,7 @@ The Australian government requires taxes to be withheld from payment to vendors 
 
 -   The vendor is a non-resident supplier and the payment is to be made to this non-resident entity in the form of interest, royalty, or dividend payments. Currently, there is no minimum threshold amount. Withholding rates may vary due to payment, or international tax treaties existing between Australia and the vendor's country.  
 
-Fields within **WHT Business Posting Groups** and **WHT Product Posting Groups** must be set up in the **WHT Posting Setup** page so that the correct WHT calculations are made for each vendor.  
+Fields within **WHT Business Posting Groups** and **WHT Product Posting Groups** must be set up on the **WHT Posting Setup** page so that the correct WHT calculations are made for each vendor.  
 
 -   **WHT Calculation Rule** – This field controls how calculation applies to the **WHT Minimum Invoice Amount**, or the invoice threshold amount. The following options exist:  
 

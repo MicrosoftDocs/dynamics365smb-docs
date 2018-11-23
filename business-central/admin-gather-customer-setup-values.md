@@ -90,10 +90,10 @@ A common validation task is to check that text strings are not entered in date f
 > [!NOTE]  
 >  In general, validation of the configuration questionnaire is a manual process. However, there are checks for regional formatting inconsistencies. In addition, you will get errors if the structure of your [!INCLUDE[d365fin](includes/d365fin_md.md)] database does not match the structure of the migration database.  
 
-1. In the **Configuration Questionnaire** page, select the relevant questionnaire, and then choose the **Question Areas** action.  
+1. On the **Configuration Questionnaire** page, select the relevant questionnaire, and then choose the **Question Areas** action.  
 2. Open the relevant question area.  
 3. For each question, validate that the value in the **Answer** field corresponds to the format provided in the **Answer Option** field. For example, validate that the address of a company is in text format.  
-4. If you find errors, you can troubleshoot and make corrections in Excel by exporting the questionnaire, and then importing it again. Alternatively, you can correct errors directly in [!INCLUDE[d365fin](includes/d365fin_md.md)] as you review the answers in the **Config. Question Area** page.  
+4. If you find errors, you can troubleshoot and make corrections in Excel by exporting the questionnaire, and then importing it again. Alternatively, you can correct errors directly in [!INCLUDE[d365fin](includes/d365fin_md.md)] as you review the answers on the **Config. Question Area** page.  
 5. Repeat these steps for each question area.  
 
 When you have completed your validation, the data is ready to be applied to the database.  

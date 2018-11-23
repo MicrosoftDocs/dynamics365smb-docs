@@ -38,7 +38,7 @@ Another example could be when you receive printed invoices from vendors. You can
 
 ## To delete a link from a record  
 
-To delete a link, in the **Links** page, you can select **...** and then **Delete**.
+To delete a link, on the **Links** page, you can select **...** and then **Delete**.
 
 If you delete a single record, such as a sales order line, a sales order, or a customer, then all the links attached to the record are deleted. However, if you delete records using a batch job, such as the **Delete Invoiced Sales Orders** batch job, then the links are still stored in the database. To delete the links from the database, run the **Delete Orphaned Record Links** codeunit. To do this, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete Orphaned Record Links**, and then choose the related link.   
 
@@ -46,7 +46,7 @@ If you delete a single record, such as a sales order line, a sales order, or a c
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Deletion**, and then choose the related link.  
 
-2.  In the **Data Deletion** page, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  -->
+2.  On the **Data Deletion** page, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  -->
 
 ## See Also  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

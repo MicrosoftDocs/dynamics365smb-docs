@@ -48,7 +48,7 @@ In some cases, the add-ins do not get added automatically to Outlook. Even if yo
 
 First, you must verify that you have access to the add-ins in your Office 365 account. Quite simply open your Outlook Web Access in a browser, and then add `/owa/#path=/options/manageapps` to the URL in the address bar. This opens the **Manage add-ins** page, where you can enable [!INCLUDE[d365fin](includes/d365fin_md.md)] for your Outlook. Then, when you navigate back to Outlook, [!INCLUDE[d365fin](includes/d365fin_md.md)] should be available.  
 
-Similarly in the Outlook desktop client, you can verify that [!INCLUDE[d365fin](includes/d365fin_md.md)] is listed in the **Manage Add-ins** page.  
+Similarly in the Outlook desktop client, you can verify that [!INCLUDE[d365fin](includes/d365fin_md.md)] is listed on the **Manage Add-ins** page.  
 
 In both cases, if [!INCLUDE[d365fin](includes/d365fin_md.md)] is still not available, you have to get the add-in manifest files. For more information, please contact your Office 365 administrator.
 

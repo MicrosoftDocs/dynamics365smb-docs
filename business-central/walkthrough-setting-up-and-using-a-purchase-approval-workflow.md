@@ -48,7 +48,7 @@ When logged in as yourself, set Alicia up as an approval user whose approver is 
 
 #### To set up yourself and Alicia as approval users  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Approval User Setup**, and then choose the related link.  
-2.  In the **Approval User Setup** page, choose the **New** action.  
+2.  On the **Approval User Setup** page, choose the **New** action.  
 
     > [!NOTE]  
     >  You must set up an approver before you can set up users who require that approver's approval. Therefore, you must set up yourself before you set up Alicia.  
@@ -64,11 +64,11 @@ When logged in as yourself, set Alicia up as an approval user whose approver is 
 In this walkthrough, the user is notified by internal note about requests to approve. Approval notification can also be by email. For more information, see [Specify When and How to Receive Notifications](across-how-to-specify-when-and-how-to-receive-notifications.md). 
 
 #### To set up how and when you are notified  
-1.  In the **Approval User Setup** page, select the line for yourself, and then choose the **Notification Setup** action.  
-2.  In the **Notification Setup** page, in the **Notification Type** field, choose **Approval**.  
+1.  On the **Approval User Setup** page, select the line for yourself, and then choose the **Notification Setup** action.  
+2.  On the **Notification Setup** page, in the **Notification Type** field, choose **Approval**.  
 3.  In the **Notification Method** field, choose **Note**.  
-6.  In the **Notification Setup** page, choose the **Notification Schedule** action.  
-7.  In the **Notification Schedule** page, in the **Occurence** field, select **Instantly**.  
+6.  On the **Notification Setup** page, choose the **Notification Schedule** action.  
+7.  On the **Notification Schedule** page, in the **Occurence** field, select **Instantly**.  
 8. Choose the **OK** button.  
 
 ## Creating the Approval Workflow  
@@ -76,8 +76,8 @@ In this walkthrough, the user is notified by internal note about requests to app
 
 ### To create and enable a purchase order approval workflow  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.  
-2.  In the **Workflows** page, choose the **Create Workflow from Template** action.  
-3.  In the **Workflow Templates** page, select the workflow template named Purchase Order Approval Workflow, and then choose the **OK** button.  
+2.  On the **Workflows** page, choose the **Create Workflow from Template** action.  
+3.  On the **Workflow Templates** page, select the workflow template named Purchase Order Approval Workflow, and then choose the **OK** button.  
 
     The **Workflow** page opens for a new workflow containing all the information of the selected template. The value in the **Code** field is extended with “-01” to indicate that this is the first workflow that is created from the Purchase Order Approval Workflow workflow template.  
 5.  On the header of the **Workflow** page, select the **Enabled** check box.  
@@ -89,15 +89,15 @@ Use the new Purchase Order Approval Workflow workflow by first logging into [!IN
 1. Log in as Alicia.
 2.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
 3.  Select the line for open purchase order 104001, and then choose the **Edit** action.  
-4.  In the **Purchase Order** page, choose the **Send Approval Request** action.  
+4.  On the **Purchase Order** page, choose the **Send Approval Request** action.  
 
 Notice that the value in the **Status** field has changed to **Pending Approval**.  
 
 ### To approve the purchase order, as Sean  
 1. Log in as Sean.
-2.  On the Role Center, in the **My Notifications** page, look for a new note from Alicia.  
-3.  When the note appears in the **My Notifications** page, choose the **Approval Entry: XX, XX** value in the **Page** field. The **Requests to Approve** page opens with Alicia’s request for the purchase order highlighted.  
-4.  In the **Requests to Approve** page, choose the **Approve** action.  
+2.  On the Role Center, on the **My Notifications** page, look for a new note from Alicia.  
+3.  When the note appears on the **My Notifications** page, choose the **Approval Entry: XX, XX** value in the **Page** field. The **Requests to Approve** page opens with Alicia’s request for the purchase order highlighted.  
+4.  On the **Requests to Approve** page, choose the **Approve** action.  
 
     The value in the **Status** field on Alicia’s purchase order changes to **Released**.  
 

@@ -42,7 +42,7 @@ All the tables that you have designated for inclusion in the new company are imp
 ## To modify and apply package data  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then select the related link.  
 2. Select a table that you want to modify data for, and then choose the **Package Data** action.  
-3. In the **Config. Package Records** page, make your modifications. For example, you can delete options that do not apply.  
+3. On the **Config. Package Records** page, make your modifications. For example, you can delete options that do not apply.  
 4. Choose the **Apply Data** action, and then choose the **OK** button.  
 5. To confirm that the data is now in the database and that the application has succeeded, return to the **Config. Worksheet** page and choose the **Database Data** action.  
 

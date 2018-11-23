@@ -22,11 +22,11 @@ ms.author: sgroespe
 In a fixed asset depreciation book, you specify how fixed assets are depreciated. To accommodate various methods of depreciation, you can set up multiple depreciation books.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Books**, and then choose the related link.
-2. In the **Depreciation Books List** page, choose the **New** action.
-3. In the **Depreciation Book Card** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. On the **Depreciation Books List** page, choose the **New** action.
+3. On the **Depreciation Book Card** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >   You can record fixed asset transactions in the **Fixed Asset G/L Journal** page or in the **Fixed Asset Journal** page, depending on whether the transactions are for financial reporting or for internal management. Follow the next step to define which type of journal is used for the different fixed asset activities by default.
+    >   You can record fixed asset transactions on the **Fixed Asset G/L Journal** page or on the **Fixed Asset Journal** page, depending on whether the transactions are for financial reporting or for internal management. Follow the next step to define which type of journal is used for the different fixed asset activities by default.
 4. On the **Integration** FastTab, select the check box for each fixed asset activity whose transactions you want to post using the **Fixed Asset G/L Journal** page.
 5. Repeat steps 2 through 4 for each depreciation method or posting method that you want to assign to fixed assets as a depreciation book.
 
@@ -45,8 +45,8 @@ If you want to assign a depreciation book to several fixed assets, you can use t
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.
 2. Select the fixed asset that you want to set up a assign a depreciation book to, and then choose the **Edit** action.
-3. In the **Depreciation Book Card** page, choose the **Create FA Depreciation Books** action.
-4. In the **Create FA Depreciation Books** page, fill in the **Depreciation Book** field.
+3. On the **Depreciation Book Card** page, choose the **Create FA Depreciation Books** action.
+4. On the **Create FA Depreciation Books** page, fill in the **Depreciation Book** field.
 5. Choose the **Copy from FA No.** field, and then select the fixed asset number that you want to use as the basis for creating new fixed asset depreciation books.
 
     If you fill in this field, the depreciation fields in the new fixed asset depreciation books will contain the same information as the corresponding fields in the fixed asset depreciation book that you copy from. Leave the field blank if you want to create new fixed asset depreciation books with empty depreciation fields.  
@@ -58,10 +58,10 @@ For each depreciation book, you must set up how you want [!INCLUDE[d365fin](incl
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Books**, and then choose the related link.  
 2. Select the depreciation book that you want to set up, and them choose the **FA Posting Type Setup** action.
-3. In the **FA Posting Type Setup** page, fill in the fields as necessary.
+3. On the **FA Posting Type Setup** page, fill in the fields as necessary.
 
     > [!NOTE]  
-    >   You cannot insert or delete lines in the **FA Posting Type Setup** page. You can only modify the existing lines.
+    >   You cannot insert or delete lines on the **FA Posting Type Setup** page. You can only modify the existing lines.
 
 We recommend that you do not change the setup for depreciation books for entries that have already been posted. Changes will not affect the entries that are already posted, which would make depreciation book statistics misleading.
 

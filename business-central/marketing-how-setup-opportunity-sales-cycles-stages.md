@@ -27,7 +27,7 @@ This topic also describes how to set up tasks and activities, and how to assign 
 Repeat these steps to set up as many sales cycles as you want. After you have set up opportunity sales cycles, you may want to set up the different stages within each cycle.
 
 ## To define opportunity sales cycle stages
-1. In the **Sales Cycles** page, select the opportunity sales cycle for which you want to set up stages, and then choose the **Stages** action. The **Sales Cycle Stages** page opens.
+1. On the **Sales Cycles** page, select the opportunity sales cycle for which you want to set up stages, and then choose the **Stages** action. The **Sales Cycle Stages** page opens.
 2. Choose the **New** action to enter a new stage in the sales cycle.
 
 Repeat these steps to set up as many stages as you want within the sales cycle.
@@ -50,13 +50,13 @@ When you have set up a task, you can assign it to a sales opportunity and thereb
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Opportunities**, and then choose the related link.
 2. Select an opportunity, and then choose the **Tasks** action.
-3. In the **Task List** page, choose the **Create Task** action.
+3. On the **Task List** page, choose the **Create Task** action.
 4.  The **Create Task** page, fill in the fields as necessary.
 
     Notice in the **Opportunity** field, that it is automatically assigned to the opportunity in question.
 5. Choose the **OK** button.
-6. In the **Task List** page, select the new task, and then choose the **Assign Activities** action.
-7. In the **Assign Activity** page, fill in the fields as necessary, and then choose the **OK** button.
+6. On the **Task List** page, select the new task, and then choose the **Assign Activities** action.
+7. On the **Assign Activity** page, fill in the fields as necessary, and then choose the **OK** button.
 
 ## See Also
 [Processing Sales Opportunities](marketing-processing-sales-opportunities.md)  

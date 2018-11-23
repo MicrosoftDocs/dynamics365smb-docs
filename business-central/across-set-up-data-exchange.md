@@ -31,7 +31,7 @@ Before you can send and receive electronic documents or import and export bank f
 |Set up user authentication and the URL of the bank data conversion service provider that is required to have bank files converted to your bank’s format.|[Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md)|  
 |Set up and enable an external service that enables you to import bank statements directly as bank feeds.|[Set Up the Bank Statement Service](bank-how-setup-bank-statement-service.md)|  
 |After the Bank Statement service is enabled, link bank accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Set Up Bank Accounts](bank-how-setup-bank-accounts.md)|  
-|Prepare to set up a new data exchange definition for a data file or stream by using the file’s XML schema to prefill the **Column Definitions** FastTab in the **Posting Exchange Definition** page.|[Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  
+|Prepare to set up a new data exchange definition for a data file or stream by using the file’s XML schema to prefill the **Column Definitions** FastTab on the **Posting Exchange Definition** page.|[Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  
 |Set up the Data Exchange Framework to enable users to receive a new purchase document format, send a new sales document format, import a new bank file, or other data exchange.|[Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md)|  
 
 ## See Also  

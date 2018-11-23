@@ -15,7 +15,7 @@ ms.author: edupont
 
 ---
 # Set Up Email Manually or Using the Assisted Setup
-To send and receive emails from within [!INCLUDE[d365fin](includes/d365fin_md.md)], you must fill in the fields in the **SMTP Mail Setup** page.
+To send and receive emails from within [!INCLUDE[d365fin](includes/d365fin_md.md)], you must fill in the fields on the **SMTP Mail Setup** page.
 
 > [!NOTE]  
 >   Instead of entering the SMTP server details, you can use a function to enter them with information from your Office 365 subscription.

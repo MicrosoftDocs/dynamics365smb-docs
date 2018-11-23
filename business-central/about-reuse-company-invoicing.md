@@ -28,7 +28,7 @@ So you will have to log into [!INCLUDE[d365fin](includes/d365fin_md.md)] and ren
 ### To rename your company
 1.	Sign in to your [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 2.	Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Companies**, and then choose the related link.  
-3.	In the **Companies** page, choose the **Edit List** button.  
+3.	On the **Companies** page, choose the **Edit List** button.  
 4.  Change the name of the *My Company* entry to something else.  
 
     Wait a number of minutes. We’ll be making a number of changes in the underlying database, and that takes a while.

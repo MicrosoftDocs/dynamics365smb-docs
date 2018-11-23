@@ -1,6 +1,6 @@
 ---
     title: How to Create and Print a Swiss VAT Statement
-    description: Based on the information that you have specified in the **VAT Posting Setup** page, Business Central can automatically create a new VAT Statement Setup for realized VAT reporting. Before proceeding with the procedures in this topic, make sure that you have set up VAT posting setup with values specified for the sales and purchase cipher fields.
+    description: Based on the information that you have specified on the **VAT Posting Setup** page, Business Central can automatically create a new VAT Statement Setup for realized VAT reporting. Before proceeding with the procedures in this topic, make sure that you have set up VAT posting setup with values specified for the sales and purchase cipher fields.
 
     services: project-madeira
     documentationcenter: ''
@@ -17,7 +17,7 @@
 
 ---
 # Create and Print a Swiss VAT Statement
-Based on the information that you have specified in the **VAT Posting Setup** page, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] can automatically create a new VAT Statement Setup for realized VAT reporting. Before proceeding with the procedures in this topic, make sure that you have set up VAT posting setup with values specified for the sales and purchase cipher fields.  
+Based on the information that you have specified on the **VAT Posting Setup** page, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] can automatically create a new VAT Statement Setup for realized VAT reporting. Before proceeding with the procedures in this topic, make sure that you have set up VAT posting setup with values specified for the sales and purchase cipher fields.  
 
 ## To set up a Swiss VAT statement template  
 
@@ -26,7 +26,7 @@ Based on the information that you have specified in the **VAT Posting Setup** pa
 3.  Choose the **OK** button. Choose the **Yes** button to confirm that you want to create a new template.  
 4.  Check the resulting VAT Statement and adjust as needed.  
 
-     he VAT Statement page contains the **VAT Statement Cipher** field, which indicates in which cipher of the report the result will be printed. This field is automatically populated by the batch job based on the information in the **VAT Posting Setup** page. The field can be edited if needed.  
+     he VAT Statement page contains the **VAT Statement Cipher** field, which indicates in which cipher of the report the result will be printed. This field is automatically populated by the batch job based on the information on the **VAT Posting Setup** page. The field can be edited if needed.  
 
 ## To print the Swiss VAT statement  
 

@@ -22,7 +22,7 @@ To account for salary payments and related transactions, you must import and pos
 ## To import a payroll file
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.
 2. In the relevant general journal batch, choose the **Import Payroll Transactions** action. An assisted setup guide opens.
-3. Follow the steps in the **Import Payroll Transactions** page.
+3. Follow the steps on the **Import Payroll Transactions** page.
 
     > [!TIP]  
     >   In the step about mapping the external payroll records to your G/L accounts, the mappings that you make will be remembered next time the same records are imported. This will save you time as you do not have to manually fill in the **Account No.** field in the general journal every time you have imported recurring payroll transactions.   

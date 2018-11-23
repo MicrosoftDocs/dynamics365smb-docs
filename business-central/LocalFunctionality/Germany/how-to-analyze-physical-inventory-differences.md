@@ -33,7 +33,7 @@ You can view the differences in the statistic page or you can print them as a re
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Phys. Inventory Order**, and then choose the related link.  
 2.  Open physical inventory order that you want to print the difference list of.  
 3.  Choose the **Print** action.  
-4.  In the **Phys. Invt. Order Diff. List** page, choose the **Print** button to print the report on paper or choose the **Preview** button to see them on the screen.  
+4.  On the **Phys. Invt. Order Diff. List** page, choose the **Print** button to print the report on paper or choose the **Preview** button to see them on the screen.  
 
 ## See Also  
  [Finish a Physical Inventory Order](how-to-finish-a-physical-inventory-order.md)   

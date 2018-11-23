@@ -41,8 +41,8 @@ For a list of relevant countries/regions and codes, see the [Italian Revenue Age
 ## To specify the current threshold amount  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Posting Setup**, and then choose the related link.  
-2.  In the **VAT Posting Setup** page, choose the **Blacklist Comm. Amount** action.  
-3.  In the **Blacklist Comm. Amounts** page, fill in the fields as described in the following table.  
+2.  On the **VAT Posting Setup** page, choose the **Blacklist Comm. Amount** action.  
+3.  On the **Blacklist Comm. Amounts** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |------------------------------------|---------------------------------------|  
@@ -52,7 +52,7 @@ For a list of relevant countries/regions and codes, see the [Italian Revenue Age
     |**VAT Statement Report ID**|Specifies the report that prints the list of transactions for the blacklist communication, **12128**.|  
     |**VAT Stat. Export Report ID**|Specifies the report that exports the list of transactions for the blacklist communication, **12129**.|  
 
-3.  Optional. Select the VAT Statement template, and then choose the **Statement Names** action. You can provide the template with a name and description. Otherwise, the template will have the name Default when you access it in the **Blacklist Communication** page.  
+3.  Optional. Select the VAT Statement template, and then choose the **Statement Names** action. You can provide the template with a name and description. Otherwise, the template will have the name Default when you access it on the **Blacklist Communication** page.  
 
 ## Creating the List of Transactions  
 Depending on the size and type of company, you must generate and submit a report of transactions with vendors in blacklisted countries/regions on a monthly or quarterly basis. A suggested mapping of transactions to [!INCLUDE[d365fin](../../includes/d365fin_md.md)] accounts is provided in the following procedure, based on Spesometro 2013.  

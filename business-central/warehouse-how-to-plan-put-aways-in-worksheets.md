@@ -25,7 +25,7 @@ If you do not select this field, the program will automatically create put-away 
 > [!NOTE]  
 >  Regardless of the status of the **Use Put-away Worksheet** field on the location card, you can always get put-away instruction lines, that is, posted receipt lines, into the put-away worksheet by doing the following:  
 >   
->  1.  In the **Warehouse Put-away** page, press Ctrl+D to delete the entire put-away instruction, or select the lines that you want to process in the worksheet and delete them.  
+>  1.  On the **Warehouse Put-away** page, press Ctrl+D to delete the entire put-away instruction, or select the lines that you want to process in the worksheet and delete them.  
 > 2.  Continue the process in as many put-aways as you wish, until you have deleted the lines you want to work on in the worksheet. Now choose **Put-away Worksheets** and proceed with planning.  
 
 ## To plan instructions in the put-away worksheet  

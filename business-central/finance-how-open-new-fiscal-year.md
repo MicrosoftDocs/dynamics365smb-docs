@@ -21,7 +21,7 @@ For many companies, the fiscal year does not coincide with the calendar year. Fi
 
 ## To open a new fiscal year
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Accounting Periods**, and then choose the related link.
-2. In the **Accounting Periods** page, choose the **Create Year** action.
+2. On the **Accounting Periods** page, choose the **Create Year** action.
 3. Fill in the fields to define the structure of the fiscal year.
 
     The fiscal year is typically 12 periods of one month each, but you can also divide it in other ways.

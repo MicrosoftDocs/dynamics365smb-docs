@@ -22,7 +22,7 @@ You can use statistics to analyze service documents and determine how well you a
 ## Viewing Statistics for Service Orders
 The service order statistics feature gives you a quick overview of the contents of the entire service order, the details on the specific service lines, and information related to invoicing, shipping and consuming, and the customer's balance.  
 
-The statistical data is displayed for a service order in the **Service Order Statistics** page for the relevant order. You can open the relevant statistics page from a service order. In the **Service Orders** page, choose **Statistics**. The FastTabs in this page show information such as quantity, amount, VAT, cost, profit, and customer credit limit. The amounts on the page are in the currency of the service order, unless otherwise indicated.  
+The statistical data is displayed for a service order on the **Service Order Statistics** page for the relevant order. You can open the relevant statistics page from a service order. On the **Service Orders** page, choose **Statistics**. The FastTabs in this page show information such as quantity, amount, VAT, cost, profit, and customer credit limit. The amounts on the page are in the currency of the service order, unless otherwise indicated.  
 
 ### View totals for a service order  
 You can view the total amount on the service lines, including and excluding VAT, VAT part, cost, and profit on the service lines. The page also displays item-specific information, such as weight, volume, and the quantity of parcels.  
@@ -50,7 +50,7 @@ You can analyze the information by the types of service lines included in the se
 See the balance on the customer's account, in addition to the maximum credit that can be endued to the customer who you created the service document for.
 
 ## Viewing Service Item Statistics
-In the **Service Item Statistics** page, you can see up-to-date information about a service item based the following service ledger entry types:  
+On the **Service Item Statistics** page, you can see up-to-date information about a service item based the following service ledger entry types:  
 
 * Resources  
 * Items  
@@ -84,7 +84,7 @@ A contract gain or loss entry is generated when a contract quote is converted to
 |**Contract Gain/Loss (Resp.Ctr)**|To view the contract gain/loss by responsibility center.|  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter the name of the page to display, and then choose the related link.  
-2. Fill in the filter criteria you want to apply. For example, in the **Contract Gain/Loss (Reasons)** page, choose a value for **Reason Code Filter**.  
+2. Fill in the filter criteria you want to apply. For example, on the **Contract Gain/Loss (Reasons)** page, choose a value for **Reason Code Filter**.  
 3. Choose the **Show Matrix** action.
 
 ## Viewing Statistics for Posted Service Documents
@@ -96,7 +96,7 @@ The statistical information is displayed in the statistics page for the correspo
 The **Service Shipment Statistics** page provides an overview of a posted service shipment. This includes information about the physical contents of the shipment, such as quantity of the shipped items, resource hours or costs, and weight and volume of the shipped items.  
 
 ### Posted Service Invoice Statistics  
-You can see a statistical summary on a posted service invoice in the **Service Invoice Statistics** page. You can view the totals of the posted service invoice. The data includes total amount on the service lines (including and excluding VAT) that has been posted as invoiced, VAT part, cost, and profit on the posted invoice. The page also displays information about the following:  
+You can see a statistical summary on a posted service invoice on the **Service Invoice Statistics** page. You can view the totals of the posted service invoice. The data includes total amount on the service lines (including and excluding VAT) that has been posted as invoiced, VAT part, cost, and profit on the posted invoice. The page also displays information about the following:  
 
 * The items on the service invoice lines, such as weight, volume, and the quantity of parcels.  
 * The balance on the customer's account, and the maximum credit that you can extend the customer.  

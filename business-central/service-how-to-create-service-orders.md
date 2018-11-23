@@ -25,11 +25,11 @@ When creating a service order, you only have to fill in a few fields. Some field
 2. Create a new service order.  
 3. In the **No.** field, enter a number for the service order.  
 
-     Alternatively, if you have set up number series for service orders in the **Service Mgt. Setup** page, you can press Enter to select the next available service order number.  
+     Alternatively, if you have set up number series for service orders on the **Service Mgt. Setup** page, you can press Enter to select the next available service order number.  
 
 4. In the **Customer No.** field, select the relevant customer from the list. The customer-relevant fields are filled in with information from the **Customer** table.  
 
-5. Depending on the settings on the **Mandatory Fields** FastTab in the **Service Mgt. Setup** page, you may need to fill in the **Service Order Type** field and the **Salesperson Code** field.  
+5. Depending on the settings on the **Mandatory Fields** FastTab on the **Service Mgt. Setup** page, you may need to fill in the **Service Order Type** field and the **Salesperson Code** field.  
 6. Optionally, fill in the rest of the fields.  
 7. Register the service item lines.  
 
@@ -41,7 +41,7 @@ You can automatically create service orders for the maintenance of service items
 3. On the **Options** FastTab, fill in the **Starting Date** and **Ending Date** fields with the starting date and ending date for the period that you want to create contract service orders for. The batch job creates service orders that include service items in service contracts with next planned service dates within this period.  
 
     > [!NOTE]  
-    >  There is a limit to the number of days you can use as the date range each time you use this batch job. You set this limit in the **Contract Serv. Ord. Max. Days** field in the **Service Mgt. Setup** page.  
+    >  There is a limit to the number of days you can use as the date range each time you use this batch job. You set this limit in the **Contract Serv. Ord. Max. Days** field on the **Service Mgt. Setup** page.  
 
 4. In the **Action** field, choose **Create Service Order**.  
 
@@ -63,7 +63,7 @@ You can check and see if an item you need to fulfill an order is in stock, and i
     * For a particular order, choose the order, and then choose the **Demand Overview** action.  
     * For all orders, choose **Show Document**. The **Service Order** page opens.  
 
-3. In the **Demand Overview** page, expand the item grouping, and view information about the availability of the item. For example, you can see how many items are in inventory. You can also see if and when an item will be available if it is on back order, that is, Source Type = Purchase, or whether it has been reserved.
+3. On the **Demand Overview** page, expand the item grouping, and view information about the availability of the item. For example, you can see how many items are in inventory. You can also see if and when an item will be available if it is on back order, that is, Source Type = Purchase, or whether it has been reserved.
 
 ## To reserve an item for a service order
 If you need to be sure that an item is available for a service order, you can reserve the item.
@@ -71,8 +71,8 @@ If you need to be sure that an item is available for a service order, you can re
 1. In the **Search** box, enter **Service Orders**, and then choose the related link.  
 2. Choose the service order, and then choose **Edit**.  
 3. Choose **Actions**, choose **Order**, and then choose **Service Lines**.  
-4. In the **Service Lines** page, choose the item to reserve, and then choose the **Reserve** action.  
-5. In the **Reservation** page, choose **Reserve from Current Line**.
+4. On the **Service Lines** page, choose the item to reserve, and then choose the **Reserve** action.  
+5. On the **Reservation** page, choose **Reserve from Current Line**.
 
 ## To insert lines based on standard service codes  
 If you have set up standard service codes and assigned them to service item groups, you can insert the standard lines linked to the standard service codes on service documents. For more information, see [Set Up Standard Service Codes](service-how-setup-service-coding.md).   
@@ -85,13 +85,13 @@ If you have set up standard service codes and assigned them to service item grou
 6. Choose the appropriate code, and choose the **OK** button to enter standard service lines.  
 
 > [!NOTE]  
->  If the **Service Item Group Code** field on the service item line of the document is blank, this means that the service item does not belong to any service item group. In this case, the **Standard Serv. Item Gr. Codes** page will contain a list of all standard service codes. You should select from the list to insert standard service lines in the document. You may also select from the list of standard service codes assigned to a specific service item group. To view the list, select the relevant code in the **Service Item Group Code** field in the **Standard Serv. Item Gr. Codes** page.  
+>  If the **Service Item Group Code** field on the service item line of the document is blank, this means that the service item does not belong to any service item group. In this case, the **Standard Serv. Item Gr. Codes** page will contain a list of all standard service codes. You should select from the list to insert standard service lines in the document. You may also select from the list of standard service codes assigned to a specific service item group. To view the list, select the relevant code in the **Service Item Group Code** field on the **Standard Serv. Item Gr. Codes** page.  
 
 ## To register internal or public comments
 You can add comments that will be printed on service orders and service quotes to provide additional information. You can add up to 80 characters, including spaces. If you need to enter additional text, choose another line. To register a comment, choose a line, and then choose the **Comments** action.  
 
 ## To delete invoiced service orders  
-Orders are usually deleted automatically after having been fully invoiced. When an invoice is posted, a corresponding entry is created in the **Posted Service Invoices** page. The posted document can be viewed in the **Posted Service Invoice** page.  
+Orders are usually deleted automatically after having been fully invoiced. When an invoice is posted, a corresponding entry is created on the **Posted Service Invoices** page. The posted document can be viewed on the **Posted Service Invoice** page.  
 
 Service orders are not deleted automatically, however, if the total quantity on the order has been posted not from the service order itself, but from the **Service Invoice** page. Then you may need to delete invoiced orders that were not deleted. You can do this by running the **Delete Invoiced Service Orders** batch job.  
 

@@ -50,7 +50,7 @@ Production orders are created using information from:
 Production orders are automatically reserved and tracked to their source when:  
 
 -   Created from the **Planning Worksheet**  
--   Created with the Order function in the **Sales Order Planning** page  
+-   Created with the Order function on the **Sales Order Planning** page  
 -   Created from the **Order Planning** page  
 -   Using the **Replan** function on production orders  
 

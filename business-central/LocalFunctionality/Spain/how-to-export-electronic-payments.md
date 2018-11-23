@@ -25,7 +25,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can export payment jou
 |SEPA|**Payment Journal** or **Payment Orders**|  
 
 > [!IMPORTANT]  
->  Before you can export a payment, you must select a payment format in the **Payment Export Format** field in the **Bank Account Card** page.  
+>  Before you can export a payment, you must select a payment format in the **Payment Export Format** field on the **Bank Account Card** page.  
 
 ## To export electronic payments using the Payment Orders page  
 
@@ -37,7 +37,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can export payment jou
 
     Payments of type N34 or N34.1 will be exported when you run the **Payment order - Export N34** or **PO - Export N34.1** report, which automatically opens when you choose **Export** in step 3.  
 
-4.  In the **PO - Export N34.1** page, fill in the fields as described in the following table.  
+4.  On the **PO - Export N34.1** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -67,7 +67,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can export payment jou
 
     Payments of type E-PAY will be exported when you run the **Export Electronic Payments** report, which automatically opens when you choose **Export** in step 3.  
 
-4.  In the **Export Electronic Payments** page, fill in the fields as described in the following table.  
+4.  On the **Export Electronic Payments** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

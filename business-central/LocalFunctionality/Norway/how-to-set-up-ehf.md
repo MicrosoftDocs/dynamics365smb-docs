@@ -22,7 +22,7 @@ You must define a location for storing Elektronisk Handelsformat (EHF) files whe
 ## To set up EHF file locations for sales and receivables  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales & Receivables Setup**, and then choose the related link.  
-2.  In the **Sales & Receivables Setup** page, on the **E-Invoice** FastTab, in the **Output Paths** section, fill in the fields as described in the following table.  
+2.  On the **Sales & Receivables Setup** page, on the **E-Invoice** FastTab, in the **Output Paths** section, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -36,7 +36,7 @@ You must define a location for storing Elektronisk Handelsformat (EHF) files whe
 ## To set up EHF file locations for service management  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Mgt. Setup**, and then choose the related link.  
-2.  In the **Service Mgt. Setup** page, on the **E-Invoice** FastTab, in the **Output Paths** section, fill in the fields as described in the following table.  
+2.  On the **Service Mgt. Setup** page, on the **E-Invoice** FastTab, in the **Output Paths** section, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

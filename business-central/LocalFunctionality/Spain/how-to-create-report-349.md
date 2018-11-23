@@ -40,11 +40,11 @@ You must submit a periodic report of trade with other EU countries/regions to th
 
 If the period includes a credit memo, a message appears, and if you choose the **OK** button, the **Customer/Vendor Warnings 349** page opens and shows all credit memos for that period.  
 
-Entries related to credit memos display in the **Customer/Vendor Warnings 349** page because you may want to include them as corrections to invoices. For example, if you posted a sales invoice in October, and you then post a credit memo in November that corrects the October invoice, a warning displays. Then, you can make the appropriate changes in the **Customer/Vendor Warnings 349** page. You must specify which section of the total amount for that customer must be included in the November 349 declaration.  
+Entries related to credit memos display on the **Customer/Vendor Warnings 349** page because you may want to include them as corrections to invoices. For example, if you posted a sales invoice in October, and you then post a credit memo in November that corrects the October invoice, a warning displays. Then, you can make the appropriate changes on the **Customer/Vendor Warnings 349** page. You must specify which section of the total amount for that customer must be included in the November 349 declaration.  
 
 ## To correct warnings for Report 349  
 
-1.  In the **Customer/Vendor Warnings 349** page, select the line for the relevant customer.  
+1.  On the **Customer/Vendor Warnings 349** page, select the line for the relevant customer.  
 2.  Make the appropriate changes to the line.  
 
     The following table describes the key fields for correcting a 349 declaration that includes a credit memo.  

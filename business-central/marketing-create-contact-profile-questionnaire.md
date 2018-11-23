@@ -37,7 +37,7 @@ After you have created a questionnaire, you must create contact ratings to class
 > If you enter a question that is automatically answered, choose <STRONG>Line</STRONG>, and then choose <STRONG>Question Details</STRONG>, to enter the criteria to automatically answer the question.
 
 ## The Automatic Classification of Contacts
-You can automatically classify your contacts according to customer, vendor, and contact information, by setting up automatically answered profile questions in the **Profile Questionnaire Setup** page.  
+You can automatically classify your contacts according to customer, vendor, and contact information, by setting up automatically answered profile questions on the **Profile Questionnaire Setup** page.  
 
 > [!NOTE]
 > Only contacts that are recorded as customers can be assigned a classification based on customer data and only contacts that are recorded as vendors can be assigned a classification based on vendor data. The automatic classification is not updated automatically. Consequently, you may want to update the profile questionnaires, after you have updated the customer, vendor or contact data they are based on.  
@@ -74,7 +74,7 @@ You can classify your contacts according to how much they bought from you:
 </tbody>
 </table>
 
-To do this, fill in the **Profile Questionnaire Setup** page as follows:
+To do this, fill on the **Profile Questionnaire Setup** page as follows:
 
 
 <table>
@@ -126,7 +126,7 @@ To do this, fill in the **Profile Questionnaire Setup** page as follows:
 </tbody>
 </table>
 
-Then fill in the **Profile Question Details** page as follows:
+Then fill on the **Profile Question Details** page as follows:
 <table>
 <colgroup>
 <col style="width: 50%" />

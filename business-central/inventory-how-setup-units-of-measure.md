@@ -45,7 +45,7 @@ When you sell items to foreign customers, you may want to specify the unit of me
 5. Repeat steps 2 through 4 for the unit of measure codes and the languages for which you want to enter translations.
 
 ## To enter a default unit of measure code for sales and purchasing transactions
-If you usually buy or sell in units different from the base unit of measure, you can specify separate units of measure for purchases and sales. To do this, the units of measure must be set up in the **Item Units of Measure** page.
+If you usually buy or sell in units different from the base unit of measure, you can specify separate units of measure for purchases and sales. To do this, the units of measure must be set up on the **Item Units of Measure** page.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. Open the relevant item card for which you want to specify a default sales or purchase unit of measure code.

@@ -16,7 +16,7 @@
 
 ---
 # Create Bins
-The most effective way to create the bins of your warehouse is to generate groups of similar bins in the bin creation worksheet, but you can also create your bins individually from the location card. You can also use a function in the **Bin Creation Worksheet** page to create bins automatically.  
+The most effective way to create the bins of your warehouse is to generate groups of similar bins in the bin creation worksheet, but you can also create your bins individually from the location card. You can also use a function on the **Bin Creation Worksheet** page to create bins automatically.  
 
 ## To create a bin from the location card  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and choose the related link.  
@@ -39,7 +39,7 @@ To work with the **Bin Creation Worksheet** page, you must be set up as a wareho
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bin Creation Worksheet**, and then choose the related link.  
 2.  Choose the **Calculate Bins** action.
-3. In the **Calculate Bins** page, in the **Bin Template Code** field, select the bin template that you want to use as the model for the bins you are creating.
+3. On the **Calculate Bins** page, in the **Bin Template Code** field, select the bin template that you want to use as the model for the bins you are creating.
 4.  Fill in a description for the bins you are in the process of creating.  
 5.  To create the bin codes, fill in the **From No.** and **To No.** fields in the three categories shown on the page: **Rack**, **Section,**, and **Level.** The bin code can contain up to 20 characters.  
 

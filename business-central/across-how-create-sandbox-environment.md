@@ -54,7 +54,7 @@ In a sandbox environment, you will find the in-client designer feature enabled, 
 ![In-client Designer](./media/across-sandbox/sandbox-inclient-designer.png)
 
 ### Enable the advanced user experience
-It is possible to enable and try the advanced (full) functionality of [!INCLUDE[d365fin](includes/d365fin_md.md)] in a sandbox tenant by setting the **Experience** field in the **Company Information** page.
+It is possible to enable and try the advanced (full) functionality of [!INCLUDE[d365fin](includes/d365fin_md.md)] in a sandbox tenant by setting the **Experience** field on the **Company Information** page.
 
 ![Sandbox Environment Advanced](./media/across-sandbox/sandbox-advanced.png)
 

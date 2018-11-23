@@ -21,7 +21,7 @@ You can assign an alternate address where your contacts are sometimes sent mail 
 ## To assign an alternate address
 1. Open the contact.
 2. Choose the **Alternative Address** action, and then choose **Card**. The **Contact Alt. Address List** page opens.
-3. Enter a new alternate address and fill in the fields in the **Contact Alternative Address** page.
+3. Enter a new alternate address and fill in the fields on the **Contact Alternative Address** page.
 
 Repeat these steps to assign as many alternate addresses as you want. For each alternate address you may want to specify one or several date ranges.
 

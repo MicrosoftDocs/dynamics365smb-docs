@@ -31,7 +31,7 @@ You can apply payments to close invoices when you post the payment, or after you
 [!INCLUDE[d365fin](includes/d365fin_md.md)] can suggest various payments to vendors, such as payments that will be due soon, or payments where a discount is available. The payment suggestion can consider an amount that you specify as available funds for payment, and eligibility for payment discounts.
 
 ## Issue Checks
-[!INCLUDE[d365fin](includes/d365fin_md.md)] lets you issue checks to vendors manually and electronically. You do both in the **Payment Journals** page, where you can also void checks and view check ledger entries.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] lets you issue checks to vendors manually and electronically. You do both on the **Payment Journals** page, where you can also void checks and view check ledger entries.
 
 ## Export Payments to a Bank File
 When you are ready to pay a vendor, from the **Payment Journal** page you can export a file with the payment information from the journal lines. You can then upload the file to your electronic bank to process the money transfers.

@@ -24,7 +24,7 @@ You can make corrections to posted VAT entries without posting the correction in
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Statement Preview**, and then choose the related link.  
 2.  Select the line that needs to be corrected. You can make the VAT correction on both the **Row Totaling** and **VAT Entry Totaling** row **Type**.  
 3.  To make the correction, choose the **Correction Amount** field. The **Manual VAT Correction List** page opens.  
-4.  Choose the **Edit List** action. In the **Manual VAT Correction List** page, fill in the fields as described in the following table.  
+4.  Choose the **Edit List** action. On the **Manual VAT Correction List** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -39,7 +39,7 @@ You can make corrections to posted VAT entries without posting the correction in
     |Action|Description|  
     |------------|---------------------------------------|  
     |**Detailed Report**|Opens the **VAT Statement** report. For more information, see VAT Statement.|  
-    |**Form/Intervat Declaration**|Opens the **VAT –Form** report. For more information, see VAT - Form.<br /><br /> The **Form/Intervat Declaration** report is based on the VAT Statement template that is defined in the general ledger setup. Therefore, it may export data that is not the same as what is shown in the **VAT Statement Preview** page.|  
+    |**Form/Intervat Declaration**|Opens the **VAT –Form** report. For more information, see VAT - Form.<br /><br /> The **Form/Intervat Declaration** report is based on the VAT Statement template that is defined in the general ledger setup. Therefore, it may export data that is not the same as what is shown on the **VAT Statement Preview** page.|  
     |**Declaration Summary Report**|Opens the **VAT Statement Summary** report. For more information, see VAT Statement Summary.|  
 
 ## See Also  

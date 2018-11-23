@@ -48,7 +48,7 @@ You also must specify the web services that you will use to communicate with the
 ## Sending Electronic Invoices  
 When you have posted an invoice or credit memo, you can send it to your customer. But first you must obtain a digital stamp from a PAC. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] communicates with the PAC through web services to request a stamp, and the document is automatically digitally signed by your company and the PAC.  
 
-When you send an electronic invoice or credit memo to your customer, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] uses the email address that you have specified in the **Company Information** page. The document is sent to the email address that you have specified in the **Customer Card** page for the bill-to customer on the invoice or credit memo. In the **General Ledger Setup** page, you also can choose to include the documents as PDF files in the email that is sent.  
+When you send an electronic invoice or credit memo to your customer, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] uses the email address that you have specified on the **Company Information** page. The document is sent to the email address that you have specified on the **Customer Card** page for the bill-to customer on the invoice or credit memo. On the **General Ledger Setup** page, you also can choose to include the documents as PDF files in the email that is sent.  
 
 > [!IMPORTANT]  
 >  The users who will send electronic invoices must be able to send mail using the Simple Mail Transfer Protocol (SMTP). Depending on the configuration in your company, you may have to grant explicit permissions to each relevant user and computer.  

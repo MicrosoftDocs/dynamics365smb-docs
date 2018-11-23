@@ -23,9 +23,9 @@ When you set up a warehouse location for directed put-away and pick, you have ne
 2.  Open the card for the item that you want to set up for directed put-away and pick.
 3. On the **Warehouse** FastTab of the item card, fill in the fields to define how the item should be handled in the warehouse.  
 4.  Choose the **Units of Measure** action.
-5. In the **Item Units of Measure** page, fill in the fields to define the different units of measure in which the item may be transacted, including the height, width, length, cubage, and weight for the unit of measure.
+5. On the **Item Units of Measure** page, fill in the fields to define the different units of measure in which the item may be transacted, including the height, width, length, cubage, and weight for the unit of measure.
 6. Choose the **Bin Contents** action.
-7. In the **Bin Contents** page, define the location and bin to which the item should be associated. The **Default** field is not used when the location is set up for directed put-away and pick.  
+7. On the **Bin Contents** page, define the location and bin to which the item should be associated. The **Default** field is not used when the location is set up for directed put-away and pick.  
 
 ## To activate directed put away and pick functionality  
 Directed put-away and pick gives you access to advanced warehouse configuration features that can greatly enhance your efficiency and data reliability. In order to use this functionality, you must first set up a number of parameters in your warehouse location.  
@@ -49,7 +49,7 @@ You are now ready to set up zones, if you want to operate zones in your warehous
 ## To set up a zone in your warehouse  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
 2.  Select the location where you want to set up zone and open the location card, and then choose the **Zones** action.  
-3.  In the **Zones** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3.  On the **Zones** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 When you change a zone parameter, all bins created thereafter in that zone will have the new characteristics, but the original bins will not be changed.  
 

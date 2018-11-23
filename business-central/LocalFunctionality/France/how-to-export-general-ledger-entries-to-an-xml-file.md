@@ -22,7 +22,7 @@ You can export financial transactions for a particular period to an XML file for
 ## To export general ledger entries to an XML file  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Export G/L Entries to XML**, and then choose the relevant link.  
-2.  In the **Export G/L Entries to XML** page, on the **Options** FastTab, fill in the fields as described in the following table.  
+2.  On the **Export G/L Entries to XML** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

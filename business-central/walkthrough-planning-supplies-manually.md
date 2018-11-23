@@ -114,7 +114,7 @@ The **Order Planning** page can be accessed from several different locations on 
     >  If the components have a default vendor number set up on the item cards, the lines will be preset.  
 
 6.  Choose the **Supply From**  field.  
-7.  In the **Item Vendor Catalogue** page, choose the **New** action, and then select vendor **30000**.  
+7.  On the **Item Vendor Catalogue** page, choose the **New** action, and then select vendor **30000**.  
 8.  Choose the **OK** button to return to the **Order Planning** page.  
 9. Copy vendor **30000** to the other lines for loudspeaker components on this production order.  
 
@@ -166,10 +166,10 @@ The **Order Planning** page can be accessed from several different locations on 
 
 2.  Choose the **Components** action to open the **Planning Components** page.  
 3.  On the line with the Bell item, change the **Quantity per** field from **1** to **2**.  
-4.  In the **Order Planning** page, consider your planning alternatives. In this case, you have no alternative means of supply, no transfer, substitute, or later delivery. You must create the suggested supply order, a production order.  
+4.  On the **Order Planning** page, consider your planning alternatives. In this case, you have no alternative means of supply, no transfer, substitute, or later delivery. You must create the suggested supply order, a production order.  
 5.  Choose the **Make Orders** action to create the production order.  
 
-     In the **Order Planning** page, notice that the planning line for sales order **1001** no longer exists and that the initial sales demand has been covered.  
+     On the **Order Planning** page, notice that the planning line for sales order **1001** no longer exists and that the initial sales demand has been covered.  
 
 6.  Close the **Order Planning** page.  
 
@@ -203,11 +203,11 @@ The **Order Planning** page can be accessed from several different locations on 
 
      Before you choose the **OK** button, notice the text on the **Order Planning** FastTab. This text is important because you know that the bicycle has several produced components, subassemblies, in its product structure that might be in demand when you create this production order.  
 
-7.  In the **Make Supply Order** page, in the **Make Orders for** field, choose the **All Lines** option, and then choose the **OK** button to create production orders for the second product level of the order.  
+7.  On the **Make Supply Order** page, in the **Make Orders for** field, choose the **All Lines** option, and then choose the **OK** button to create production orders for the second product level of the order.  
 
      Note that the top-level production demand for production order 101001 no longer exists. This means that the initial production demand for subassemblies has been planned for.  
 
-     In the **Order Planning** page, you calculate a plan again in order to plan the bicycle structure.  
+     On the **Order Planning** page, you calculate a plan again in order to plan the bicycle structure.  
 
 8.  Choose the **Calculate Plan** action to recalculate the plan as instructed by the embedded Help text.  
 
@@ -225,7 +225,7 @@ The **Order Planning** page can be accessed from several different locations on 
 
 13. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Orders**, and then choose the related link.  
 
-     In the **Firm Planned Prod. Orders** page review how start times and end times of individual orders are scheduled according to the product structure. The lowest-level components are produced first. Therefore, you must plan multilevel orders as demonstrated in this planning workflow.  
+     On the **Firm Planned Prod. Orders** page review how start times and end times of individual orders are scheduled according to the product structure. The lowest-level components are produced first. Therefore, you must plan multilevel orders as demonstrated in this planning workflow.  
 
 ## See Also  
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)   

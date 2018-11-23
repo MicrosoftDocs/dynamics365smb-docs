@@ -16,7 +16,7 @@ ms.author: edupont
 Before you can manage fixed assets, you must set up default G/L accounts, allocation keys, journal templates and batches for fixed asset posting and reclassification, and you can classify fixed assets in classes, such as Tangible and Intangible.
 
 ## To set up general default values for fixed assets
-You define the general behavior or the fixed asset functionality and set up document number series in the  in the **Fixed Assets Setup** page.
+You define the general behavior or the fixed asset functionality and set up document number series in the  on the **Fixed Assets Setup** page.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets Setup**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -26,7 +26,7 @@ You use posting groups to define groups of fixed assets. Entries for these posti
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Posting Groups**, and then choose the related link.  
 2. Choose the **New** action.
-3. In the **FA Posting Group Card** page, fill in the fields as necessary.
+3. On the **FA Posting Group Card** page, fill in the fields as necessary.
 
     > [!NOTE]  
     >   To make sure that balancing accounts for different fixed assets postings are automatically inserted when you choose the **Insert FA Bal. Account** action on journal lines, follow the next step, based on appreciation posting.
@@ -40,8 +40,8 @@ Transactions can be allocated to various departments or projects, according to u
 Allocation keys apply to fixed asset classes, not to individual assets.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Posting Groups**, and then choose the related link.  
-2. In the **FA Posting Groups** page, choose the **Allocations** action, and then choose a posting type.
-3. In the **FA Allocations** page, fill in the fields as necessary.
+2. On the **FA Posting Groups** page, choose the **Allocations** action, and then choose a posting type.
+3. On the **FA Allocations** page, fill in the fields as necessary.
 4. Repeat steps 2 and 3 for each posting type that you want to define allocation keys for.
 
 ## To set up fixed asset journal templates
@@ -57,7 +57,7 @@ You can set up multiple journal batches, which are individual journals for each 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Journal Templates**, and then choose the related link.  
 2. Select the relevant journal template, and then choose the **Batches** action.
-3. In the **FA Journal Batches** page, fill in the fields as necessary.
+3. On the **FA Journal Batches** page, fill in the fields as necessary.
 
 ## To set up fixed asset reclassification journal templates
 You use dedicated reclassification journals when you need to transfer, split, or combine fixed assets. [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically creates a fixed asset reclassification journal template the first time that you open the **FA Reclass. Journal** page, but you can set up additional reclassification journal templates. For more information, see [Work with General Journals](ui-work-general-journals.md).  
@@ -70,7 +70,7 @@ You can set up multiple journal batches, which are individual journals for each 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Reclass. Journal Templates**, and then choose the related link.  
 2. Select the relevant journal template, and then choose the **Batches** action.
-3. In the **FA Reclass. Journal Batches** page, fill in the fields as necessary.
+3. On the **FA Reclass. Journal Batches** page, fill in the fields as necessary.
 
 ## To set up fixed asset class codes
 Fixed asset class codes can be used to group fixed assets, for example, in tangible and intangible assets.

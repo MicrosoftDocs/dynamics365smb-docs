@@ -52,7 +52,7 @@ To complete this walkthrough, you will need:
 -   To make yourself a warehouse employee at WHITE location by following these steps:  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
-2.  Choose the **User ID** field, and select your own user account in the **Users** page.  
+2.  Choose the **User ID** field, and select your own user account on the **Users** page.  
 3.  In the **Location Code** field, enter WHITE.  
 4.  Select the **Default** field.  
 
@@ -107,7 +107,7 @@ Purchase orders are the most common type of inbound source document.
     The deliveries of items from vendors 10000 and 20000 have arrived at WHITE warehouse, and Sammy starts to process the purchase receipts.  
 
 ## Receiving the Items  
-In the **Warehouse Receipt** page, you can manage multiple inbound orders for source documents, such as a purchase order.  
+On the **Warehouse Receipt** page, you can manage multiple inbound orders for source documents, such as a purchase order.  
 
 ### To receive the items  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Receipts**, and then choose the related link.  
@@ -118,14 +118,14 @@ In the **Warehouse Receipt** page, you can manage multiple inbound orders for so
 6.  In the **Description** field, enter **Vendors 10000 and 20000**.  
 7.  Choose the **Modify** action.  
 8.  On the **Purchase** FastTab, in the **Buy-from Vendor No. Filter** field, enter **10000&#124;20000**.  
-9. Choose the **Run** action. The warehouse receipt is filled with four lines representing purchase order lines for the specified vendors. The **Qty. to Receive** field is filled because you did not select the **Do not Fill Qty. to Handle** check box in the **Filters to Get Source Docs.** page.  
+9. Choose the **Run** action. The warehouse receipt is filled with four lines representing purchase order lines for the specified vendors. The **Qty. to Receive** field is filled because you did not select the **Do not Fill Qty. to Handle** check box on the **Filters to Get Source Docs.** page.  
 10. Optionally, if you want to use a filter as described earlier in this section, choose the **Get Source Document** action, and then select purchase orders from the vendors in question.  
 11. Choose the **Post Receipt** action, and then choose the **Yes** button.  
 
     Positive item ledger entries are created reflecting the posted purchase receipts of accessories from vendors 10000 and 20000, and the items are ready to be put away in the warehouse from the receiving bin.  
 
 ## Putting the Items Away  
-In the **Warehouse Put-away** page, you can manage put-aways for a specific warehouse receipt document covering multiple source documents. Like all warehouse activity documents, each item on the warehouse put-away is represented by a Take line and a Place line. In the following procedure, the bin code on the Take lines is the default receiving bin at WHITE location, W-08-0001.  
+On the **Warehouse Put-away** page, you can manage put-aways for a specific warehouse receipt document covering multiple source documents. Like all warehouse activity documents, each item on the warehouse put-away is represented by a Take line and a Place line. In the following procedure, the bin code on the Take lines is the default receiving bin at WHITE location, W-08-0001.  
 
 ### To put the items away  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Put-Aways**, and then choose the related link.  
@@ -135,7 +135,7 @@ In the **Warehouse Put-away** page, you can manage put-aways for a specific ware
 
     The warehouse worker is told that 40 hinges are needed in the assembly department, and he proceeds to split the single Place line to specify a second Place line for bin W-02-0001 in the assembly department where he places that part of the received hinges.  
 
-3.  Select the second line in the **Warehouse Put-away** page, the Place line for item 70200.  
+3.  Select the second line on the **Warehouse Put-away** page, the Place line for item 70200.  
 4.  In the **Qty. to Handle** field, change the value from 100 to 60.  
 5.  On the **Lines** FastTab, choose **Functions**, and then choose **Split Line**. A new line is inserted for item 70200 with 40 in **Qty. to Handle** field.  
 6.  In the **Bin Code** field, enter W-02-0001. The **Zone Code** field is automatically filled.  

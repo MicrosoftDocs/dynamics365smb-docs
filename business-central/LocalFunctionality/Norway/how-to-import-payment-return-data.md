@@ -17,7 +17,7 @@
 
 ---
 # Import Payment Return Data
-To import receipt and settlement returns, use the **Rem. payment order – import** page. If any errors are indicated when importing settlement returns, you can view this information in the **Settlement Info** page.  
+To import receipt and settlement returns, use the **Rem. payment order – import** page. If any errors are indicated when importing settlement returns, you can view this information on the **Settlement Info** page.  
 
 ## To import return data  
 
@@ -31,7 +31,7 @@ To import receipt and settlement returns, use the **Rem. payment order – impor
     |**Return files**|Specifies how many return files are found and imported.|  
 
 3.  Choose the **Return Files** button to display the return files.  
-4.  In the **Return Files** page, select the **Import** option next to each file to be imported. If the option is cleared, the file will not be imported.  
+4.  On the **Return Files** page, select the **Import** option next to each file to be imported. If the option is cleared, the file will not be imported.  
 5.  Choose the **OK** button.  
 
 ## To view settlement information  

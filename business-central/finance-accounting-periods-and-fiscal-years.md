@@ -22,7 +22,7 @@ For many companies the fiscal year does not align with the calendar year. For ex
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] only requires accounting periods only if you want to close an income statement, or run data compression tasks. 
 
-You can use accounting periods in reporting. For example, when you are reviewing posted entries in the **Balance/Budget** page where the reporting interval can be specified. One of the options you may specify to report by accounting period. You can also build an account schedule that compares results for different accounting periods.
+You can use accounting periods in reporting. For example, when you are reviewing posted entries on the **Balance/Budget** page where the reporting interval can be specified. One of the options you may specify to report by accounting period. You can also build an account schedule that compares results for different accounting periods.
 
 ## Creating a new fiscal year
 You can create accounting periods in bulk, by using eh **Create Fiscal Year** batch job, or manually.

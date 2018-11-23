@@ -30,7 +30,7 @@ The following describes how to add a comment to an item card. The steps are simi
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. Open the relevant item card.
 3. Choose the **Comments** action.
-4. In the **Comment Sheet** page, enter any text, and then choose the **OK** button.
+4. On the **Comment Sheet** page, enter any text, and then choose the **OK** button.
 
 ## See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

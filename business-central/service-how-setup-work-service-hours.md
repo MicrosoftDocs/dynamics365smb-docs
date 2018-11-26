@@ -29,7 +29,7 @@ You use the **Default Service Hours** page to set up the usual service working h
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
   
 > [!IMPORTANT]  
->  If you leave the lines in the **Default Service Hours** page empty, the default value is 24 hours, valid only for calendar working days.  
+>  If you leave the lines on the **Default Service Hours** page empty, the default value is 24 hours, valid only for calendar working days.  
   
 ## To set up work-hour templates
 You can use the **Work-Hour Template** page to set up templates that contain the typical working hours in your company. For example, you can create templates for full time technicians and part time technicians. You can use work-hour templates when you add capacity to resources.  

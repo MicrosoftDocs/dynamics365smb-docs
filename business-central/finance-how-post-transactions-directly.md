@@ -34,7 +34,7 @@ Unlike for entries that are posted with documents, which require a credit memo p
 4. Repeat step 3 for all the separate transactions that you want to post.
 
     > [!TIP]  
-    > If you want to enter multiple transaction lines above one balance-account line, for example, for one bank account, then select the **Suggest Balancing Amount** check box on the line for your batch in the **General Journal Batches** page. Then the **Amount** field on the balance-account line is automatically prefilled with the value that is required to balance the transactions.
+    > If you want to enter multiple transaction lines above one balance-account line, for example, for one bank account, then select the **Suggest Balancing Amount** check box on the line for your batch on the **General Journal Batches** page. Then the **Amount** field on the balance-account line is automatically prefilled with the value that is required to balance the transactions.
 5. Choose the **Post** action to record the transactions on the specified G/L accounts.
 
 ## See Also

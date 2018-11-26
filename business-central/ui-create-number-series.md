@@ -18,7 +18,7 @@ ms.author: sgroespe
 For each company that you set up, you need to assign unique identification codes to things such as general ledger accounts, customer and vendor accounts, invoices, and other documents. Numbering is important not only for identification. A well-designed numbering system also makes the company more manageable and easy to analyze, and can reduce the number of errors that occur in data entry.
 
 > [!NOTE]  
->   We recommend that you use the same number series codes as you see listed in the **No. Series List** page in the CRONUS demonstration company. Codes such as *P-INV+* might not make immediate sense to you, but [!INCLUDE[d365fin](includes/d365fin_md.md)] has a number of default settings that depend on these number series codes.
+>   We recommend that you use the same number series codes as you see listed on the **No. Series List** page in the CRONUS demonstration company. Codes such as *P-INV+* might not make immediate sense to you, but [!INCLUDE[d365fin](includes/d365fin_md.md)] has a number of default settings that depend on these number series codes.
 
 You create a numbering system by setting up one or more codes for each type of master data or document. For example, you can set up one code for numbering customers, another code for numbering sales invoices, and another code for numbering documents in general journals. After you have set up a code, you set must set up at least one number series line. The number series line contains information such as the first and last number in the series and the starting date. You can set up more than one number series line per number series code, with a different starting date for each line. The series will be used consecutively, starting each series on the respective starting date.
 
@@ -34,7 +34,7 @@ The **No.** field can be filled in three ways:
 1. If only one number series for the type of document or card exists where the **Default Nos.** check box is selected and the **Manual Nos.** check box is not selected, then the field is automatically filled with the next number in the series, and the **No.** field will not be visible.
 
     > [!NOTE]  
-    > If the number series does not function, for example because it has run out of numbers, then the **No.** field will be visible and you can manually enter a number or resolve the issues in the **No. Series List** page.
+    > If the number series does not function, for example because it has run out of numbers, then the **No.** field will be visible and you can manually enter a number or resolve the issues on the **No. Series List** page.
 
 2. If more than one number series for the type of document or card exist, and the **Default Nos.** check box is not selected for the number series that is currently assigned, then the **No.** field is visible, and you can look up to the **No. Series List** page and select the number series you want to use. The next number in the series is then inserted in the **No.** field.
 
@@ -53,7 +53,7 @@ When you open a new document or card that a number series exists for, then the r
 ## To set up where a number series is used
 The following procedure shows how to set number series up for the Sales area. The steps are similar for other areas.
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables**, and then choose the related link.
-2. In the **Sales & Receivables** page, on the **Number Series** FastTab, select the desired number series for each sales card or document.
+2. On the **Sales & Receivables** page, on the **Number Series** FastTab, select the desired number series for each sales card or document.
 
 The selected number will now be used to fill in the **No.** field on the card or document in question, according to the settings you made on the number series line.
 

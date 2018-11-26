@@ -23,7 +23,7 @@ Cost centers are departments that are responsible for costs and income. The char
 -   Create a new chart of cost center that is independent of the general ledger or add a new cost center to an existing chart of cost center. You must create each cost center individually.  
 
 ## To transfer dimension values in the general ledger to the chart of cost centers  
-1.  Set up a dimension to be the cost center dimension in the **Update Cost Acctg. Dimensions** page. Only the values from this dimension are transferred.  
+1.  Set up a dimension to be the cost center dimension on the **Update Cost Acctg. Dimensions** page. Only the values from this dimension are transferred.  
 2.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Cost Centers**, and then choose the related link.  
 3.  On the **Actions** tab, in the **Functions** group, choose **Get Cost Centers from Dimension** to transfer dimension values to the chart of cost centers. The function transfers the dimension values that you defined in step 1.  
 
@@ -33,7 +33,7 @@ Cost centers are departments that are responsible for costs and income. The char
 The chart of cost centers now contains all specified dimension values from the general ledger and includes titles and subtotals.  
 
 ## To create new cost centers in the Chart of Cost Centers page  
-You can set up and maintain cost centers in either the **Cost Center Card** card or in the **Chart of Cost Centers** page. In this procedure, you set up cost centers in the **Chart of Cost Centers** page.  
+You can set up and maintain cost centers in either the **Cost Center Card** card or on the **Chart of Cost Centers** page. In this procedure, you set up cost centers on the **Chart of Cost Centers** page.  
 
 1. Open the **Chart of Cost Centers** page in edit mode.  
 2. In the **Code** field, enter the cost center code. All cost centers must have a code.  

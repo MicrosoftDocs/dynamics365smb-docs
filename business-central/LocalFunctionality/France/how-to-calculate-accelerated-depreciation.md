@@ -28,16 +28,16 @@ Entries are transferred to the fixed asset general journal when you select an ac
 ## To calculate accelerated depreciation  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Calculate Depreciation**, and then choose the relevant link.  
-2.  In the **Calculate Depreciation** page, on the **Options** FastTab, fill in the fields as described in the following table.  
+2.  On the **Calculate Depreciation** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Depreciation Book**|The unique identification code for the accounting depreciation book.|  
-    |**FA Posting Date**|Specify the ending date for the depreciation calculation, if this is the first depreciation entry for the asset. The depreciation starting date that is defined in the **FA Depreciation Books** page is used as the starting date for the depreciation calculation. If you have already depreciated the asset, the fixed asset posting date of the last depreciation entry is used as the starting date for the depreciation calculation.|  
+    |**FA Posting Date**|Specify the ending date for the depreciation calculation, if this is the first depreciation entry for the asset. The depreciation starting date that is defined on the **FA Depreciation Books** page is used as the starting date for the depreciation calculation. If you have already depreciated the asset, the fixed asset posting date of the last depreciation entry is used as the starting date for the depreciation calculation.|  
     |**Use Force No. of Days**|Select to use the number of days in the **Force No. of Days** field for the depreciation calculation.|  
     |**Force No. of Days**|The number of days for the depreciation calculation. You can only enter a number in this field if the **Use Force No of Days** check box is selected.|  
     |**Posting Date**|The posting date for the calculated depreciation.<br /><br /> You can leave this field blank if the **Use Same FA + G/L Posting Dates** field in the accounting depreciation book is selected. The posting date is copied to the resulting journal lines.|  
-    |**Document No.**|The document number for the fixed asset journal batch. Leave this field blank if you have set up a numbering series for the fixed asset journal batch in the **No. Series** page. For more information, see No. Series.|  
+    |**Document No.**|The document number for the fixed asset journal batch. Leave this field blank if you have set up a numbering series for the fixed asset journal batch on the **No. Series** page. For more information, see No. Series.|  
     |**Posting Description**|The posting description for the fixed asset journal entries.|  
     |**Insert Bal. Account**|Select to automatically insert balancing accounts in the resulting journal. The **Calculate Depreciation** batch job only uses balancing accounts that are defined in the FA Posting Group.|  
 

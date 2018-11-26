@@ -22,10 +22,10 @@ Use posting periods to specify when users can post to the general ledger.
 
 ## To specify posting periods
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
-2. In the **General Ledger Setup** page, define the period by entering dates in the **Allow Posting From** and **Allow Posting To** fields.  
+2. On the **General Ledger Setup** page, define the period by entering dates in the **Allow Posting From** and **Allow Posting To** fields.  
 
 > [!NOTE]  
->   These posting periods apply to the company and to all users. To allow for exceptions, you can define different posting periods for specific users in the **User Setup** page. These posting periods overrule those specified in the **General Ledger Setup** page. For more information, see the "To set up user time constraints" section in [Managing Users and Permissions](ui-how-users-permissions.md).
+>   These posting periods apply to the company and to all users. To allow for exceptions, you can define different posting periods for specific users on the **User Setup** page. These posting periods overrule those specified on the **General Ledger Setup** page. For more information, see the "To set up user time constraints" section in [Managing Users and Permissions](ui-how-users-permissions.md).
 
 ## See Also
 [Finance](finance.md)  

@@ -37,7 +37,7 @@ You can specify an item as a variant in the sales quote line. This allows you to
 For purchase invoices and sales invoices, the invoice amount is reduced by the discount amount, and then rounded. The invoice total is also rounded if there is a discount. For more information, see the General Ledger Setup table.  
 
 ## Shipment Documents  
-In the **Sales & Receivables Setup** page, the **Shipment on Ship and Invoice** field is used to turn off printing of additional shipment documents for purchase invoices and sales invoices. When you post an order, a posted shipment and a posted invoice are automatically created. If the printed invoice is also used as a shipment document, additional shipment documentation does not need to be printed. You can turn off printing of additional shipment documents for purchase invoices and sales invoices by clearing the **Shipment on Ship and Invoice** field in the **Sales & Receivables Setup** page. For more information, see the Sales & Receivables Setup table.  
+On the **Sales & Receivables Setup** page, the **Shipment on Ship and Invoice** field is used to turn off printing of additional shipment documents for purchase invoices and sales invoices. When you post an order, a posted shipment and a posted invoice are automatically created. If the printed invoice is also used as a shipment document, additional shipment documentation does not need to be printed. You can turn off printing of additional shipment documents for purchase invoices and sales invoices by clearing the **Shipment on Ship and Invoice** field on the **Sales & Receivables Setup** page. For more information, see the Sales & Receivables Setup table.  
 
 ## See Also  
  [Import Swiss Post Codes](how-to-import-swiss-post-codes.md)   

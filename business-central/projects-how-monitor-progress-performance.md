@@ -45,14 +45,14 @@ When you create a new job, you must specify which job WIP method that applies. I
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.
 2. Choose the **New** action. For more information, see [Create Jobs](projects-how-create-jobs.md).  
-3. In the **Job Card** page, in the **WIP Method** field, select a WIP method from the list. If a default method has been defined, you can select another option if needed.  
+3. On the **Job Card** page, in the **WIP Method** field, select a WIP method from the list. If a default method has been defined, you can select another option if needed.  
 
 ## To calculate WIP
 You can determine the WIP amount that is to be posted to balance sheet accounts for the period end reporting. You use the **Job Calculate WIP** batch job to do this.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Calculate WIP**, and then choose the related link.  
 2. Choose the **Calculate WIP** action.
-3. In the **Job Calculate WIP** page, fill in the fields as necessary.
+3. On the **Job Calculate WIP** page, fill in the fields as necessary.
 4. Choose the **OK** button.  
 
 > [!NOTE]  
@@ -62,7 +62,7 @@ You can determine the WIP amount that is to be posted to balance sheet accounts 
 When you have calculated WIP, you can post it to balance sheet accounts for the period end reporting. You use the **Job Post WIP to G/L** batch job to do this.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Post WIP to G/L**, and then choose the related link.  
-2. In the **Job Post WIP to G/L** page, fill in the fields as necessary.  
+2. On the **Job Post WIP to G/L** page, fill in the fields as necessary.  
 3. Choose the **OK** button.
 
 ## To view job usage estimates and post updates
@@ -75,7 +75,7 @@ This lets you track and compare your original estimates against actual results a
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.  
 2. Select a relevant job journal, and then choose the **Calc. Remaining Usage** action.  
-3. In the **Job Calc. Remaining Usage** page, enter the document number and posting date that is to be inserted in the journal, and then choose the **OK** button.  
+3. On the **Job Calc. Remaining Usage** page, enter the document number and posting date that is to be inserted in the journal, and then choose the **OK** button.  
 4. Update the journal with any modifications that may be needed.  
 5. Choose the **Post**.
 
@@ -85,7 +85,7 @@ All job-related entries are recorded in job registers and are numbered sequentia
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Registers**, and then choose the related link.
 2. Select a relevant register, and then choose **Job Ledger** action.
 
-In the **Job Ledger Entries** page you can review the entries that are associated with any job.  
+On the **Job Ledger Entries** page you can review the entries that are associated with any job.  
 
 ## See Also
 [Managing Projects](projects-manage-projects.md)

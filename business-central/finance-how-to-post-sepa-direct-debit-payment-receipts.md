@@ -23,7 +23,7 @@ You can post the payment receipt directly from the **Direct Debit Collections** 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Direct Debit Collections**, and then choose the related link.  
 2. Select a line for a direct debit collection that has been exported to a bank file and successfully processed by the bank. For more information, see [Create SEPA Direct Debit Collection Entries and Export to a Bank File](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md).  
 3. Choose the **Post Payment Receipts** action.  
-4. In the **Post Direct Debit Collection** page, fill in the fields as described in the following table.  
+4. On the **Post Direct Debit Collection** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

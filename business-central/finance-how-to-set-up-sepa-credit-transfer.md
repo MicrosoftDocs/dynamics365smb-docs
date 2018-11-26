@@ -42,19 +42,19 @@ Before you can process payment electronically by exporting payment files in the 
 3. On the **Payment** FastTab, in the **Payment Method Code** field, choose **BANK**.  
 4. In the **Preferred Bank Account** field, choose the bank to which the money will be transferred when it is processed by your electronic bank.  
 
-     The value in the **Preferred Bank Account** field is copied to the **Recipient Bank Account** field in the **Payment Journal** page.  
+     The value in the **Preferred Bank Account** field is copied to the **Recipient Bank Account** field on the **Payment Journal** page.  
 
 ### To set the payment journal up to export payment files  
 1. In the **Search** box, enter **Payment Journals**, and then choose the related link.  
 2. Open the payment journal that you use to process payments by exporting files in the SEPA Credit Transfer format.  
 3. In the **Batch Name** field, choose the drop\-down button.  
-4. In the **General Journal Batches** page, on the **Home** tab, in the **Manage** group, choose **Edit List**.  
+4. On the **General Journal Batches** page, on the **Home** tab, in the **Manage** group, choose **Edit List**.  
 5. On the line for the payment journal that you will use to export payments, select the **Allow Payment Export** check box.  
 
 ### To connect the data exchange definition for one or more payment types with the relevant payment method or methods  
 1. In the **Search** box, enter **Payment Methods**, and then choose the related link.  
-2. In the **Payment Methods** page, select the payment method that is used to export payments from, and then choose the **Pmt. Export Line Definition** field.  
-3. In the **Pmt. Export Line Definitions** page, select the code that you specified in the **Code** field on the **Line Definitions** FastTab in step 4 in the “To describe the formatting of lines and columns in the file” section in the [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md) procedure.  
+2. On the **Payment Methods** page, select the payment method that is used to export payments from, and then choose the **Pmt. Export Line Definition** field.  
+3. On the **Pmt. Export Line Definitions** page, select the code that you specified in the **Code** field on the **Line Definitions** FastTab in step 4 in the “To describe the formatting of lines and columns in the file” section in the [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md) procedure.  
 
 ## See Also  
 [Collecting Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  

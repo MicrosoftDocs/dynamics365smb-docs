@@ -41,7 +41,7 @@ The inheritance of fields overwrites the default values you have set up. For exa
 For more information, see [Automatically Record Interactions with Contacts](marketing-auto-record-interactions.md).
 
 ## Synchronizing Contacts with Customers and More
-In order to synchronize the contact card with the customer card, the vendor card and the bank account card, you must select a business relation code for customers, vendors, and bank accounts. For example, you can only link a contact with an existing customer if you have selected a business relation code for customers in the **Marketing Setup** page.
+In order to synchronize the contact card with the customer card, the vendor card and the bank account card, you must select a business relation code for customers, vendors, and bank accounts. For example, you can only link a contact with an existing customer if you have selected a business relation code for customers on the **Marketing Setup** page.
 
 For more information, see [Synchronizing Contacts with Customers, Vendors and Bank Accounts](marketing-synchronize-contacts-customers-vendors-bank-accounts.md).
 

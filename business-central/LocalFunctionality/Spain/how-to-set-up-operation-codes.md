@@ -22,7 +22,7 @@ You can add as many operation codes as you want to the table. However, the opera
 ## To set up operation codes  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Operation Codes**, and then choose the related link.  
-2.  In the **Operation Codes** page, fill in the fields as described in the following table  
+2.  On the **Operation Codes** page, fill in the fields as described in the following table  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -33,7 +33,7 @@ You can add as many operation codes as you want to the table. However, the opera
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posting Groups**, and then choose the related link.  
 2.  Choose the **General Product Posting Groups** action.  
-3.  In the **General Product Posting Groups** page, link each operation code to a general product posting group.  
+3.  On the **General Product Posting Groups** page, link each operation code to a general product posting group.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

@@ -233,7 +233,7 @@ Because of the way an item’s unit cost is calculated, an incorrect item applic
 * You want to overrule the application created automatically when posting, according to the item’s costing method.  
 * You have to return an item to which a sale has already been manually applied, without using the **Get Posted Document Lines to Reverse** function, and you must therefore undo the application.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] offers a feature for analyzing and correcting item applications. This work is performed in the **Application Worksheet** page.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] offers a feature for analyzing and correcting item applications. This work is performed on the **Application Worksheet** page.  
 
 ## See Also  
 [Design Details: Known Item Application Issue](design-details-inventory-zero-level-open-item-ledger-entries.md)  

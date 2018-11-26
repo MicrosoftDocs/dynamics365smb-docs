@@ -34,7 +34,7 @@ You can group your insurance policies into categories, such as insurance against
 You may accumulate information about each insurance policy on the insurance card.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Insurance**, and then choose the related link.  
-2. In the **Insurance** page, choose the **New** action to create a  new insurance card.  
+2. On the **Insurance** page, choose the **New** action to create a  new insurance card.  
 3. Fill in the fields as necessary.
 
 ## To set up insurance journal templates
@@ -48,7 +48,7 @@ You can set up batches in an insurance journal template. The values in the journ
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Insurance Journal Templates**, and then choose the related link.  
 2. Select an insurance journal template, and then choose the **Batches** action.
-3. In the **Insurance Journal Batches** page, fill in the fields as necessary.
+3. On the **Insurance Journal Batches** page, fill in the fields as necessary.
 
 > [!NOTE]  
 >   Numbers have a special function in journal names. If a journal template name or journal batch name contains a number, the number automatically advances by one every time that the journal is posted. For example, if HH1 is entered in the **Name** field, the journal name will change to HH2 after the journal named HH1 has been posted.

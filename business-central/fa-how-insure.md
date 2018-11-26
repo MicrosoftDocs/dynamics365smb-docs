@@ -20,19 +20,19 @@ An insurance policy for a fixed asset is represented by an insurance card. You c
 
 You assign a fixed asset to an insurance policy by posting to the insurance coverage ledger from the **Insurance Journal** page.
 
-In addition, you can assign a fixed asset to an insurance policy and create coverage ledger entries when you post its acquisition cost. You do this by posting an acquisition cost from the fixed asset journal with the **Insurance No.** field filled in. The **Automatic Insurance Posting** check box in the **Fixed Asset Setup** page must be selected. For more information, see the "To post a fixed asset acquisition manually with the fixed asset G/L journal" section in [Acquire Fixed Assets](fa-how-acquire.md).
+In addition, you can assign a fixed asset to an insurance policy and create coverage ledger entries when you post its acquisition cost. You do this by posting an acquisition cost from the fixed asset journal with the **Insurance No.** field filled in. The **Automatic Insurance Posting** check box on the **Fixed Asset Setup** page must be selected. For more information, see the "To post a fixed asset acquisition manually with the fixed asset G/L journal" section in [Acquire Fixed Assets](fa-how-acquire.md).
 
-If the **Automatic Insurance Posting** check box in the **Fixed Asset Setup** page is not selected, then posting acquisitions from the fixed asset journal will create lines in the **Insurance Journal** page, which you must then post manually.
+If the **Automatic Insurance Posting** check box on the **Fixed Asset Setup** page is not selected, then posting acquisitions from the fixed asset journal will create lines on the **Insurance Journal** page, which you must then post manually.
 
 > [!WARNING]  
->   If you do not select the **Automatic Insurance Posting** check box in the **Fixed Asset Setup** page, then your insurance journal should be based on a journal template without a number series. This is because the inserted document numbers from the fixed asset journal line will otherwise conflict with the number series of the insurance journal. For more information about journal templates and batches, see [Set Up General Fixed Assets Information](fa-how-setup-general.md).
+>   If you do not select the **Automatic Insurance Posting** check box on the **Fixed Asset Setup** page, then your insurance journal should be based on a journal template without a number series. This is because the inserted document numbers from the fixed asset journal line will otherwise conflict with the number series of the insurance journal. For more information about journal templates and batches, see [Set Up General Fixed Assets Information](fa-how-setup-general.md).
 
 After you have assigned a fixed asset to an insurance policy, the **Insured** check box is selected on the fixed asset card. When you sell the fixed asset, the check box is automatically deselected.
 
 ## To create or modify an insurance card
 An insurance policy for a fixed asset must be represented by an insurance card.
 
-When you receive information about changes in the coverage amount, you must enter the new information in the **Insurance Card** page to ensure that you analyze insurance policy coverage correctly.  
+When you receive information about changes in the coverage amount, you must enter the new information on the **Insurance Card** page to ensure that you analyze insurance policy coverage correctly.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Insurance**, and then choose the related link.
 2. Choose the **New** action to create a new card for an insurance policy. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -41,7 +41,7 @@ When you receive information about changes in the coverage amount, you must ente
 ## To assign a fixed asset to an insurance policy by posting from the insurance journal
 You assign a fixed asset to an insurance policy by posting to the insurance coverage ledger.  
 
-The following procedure explains how to create an insurance journal line manually. If the **Automatic Insurance Posting** check box is selected in the **FA Setup** page, then insurance journal lines are automatically created when you post acquisition costs. In that case, all you have to do is to post the journal.  
+The following procedure explains how to create an insurance journal line manually. If the **Automatic Insurance Posting** check box is selected on the **FA Setup** page, then insurance journal lines are automatically created when you post acquisition costs. In that case, all you have to do is to post the journal.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Insurance Journals**, and then choose the related link.  
 2. Open the relevant journal, and fill in the journal lines as necessary.  
@@ -61,7 +61,7 @@ You can use the **Index Insurance** batch job to update the value of the fixed a
     >   In the **Index Figure** field, you enter a decrease of 5%, for example, as 95, whereas you enter an increase of 2% as 102.  
 3. Choose the **OK** button.  
 
-   The batch job calculates the new amount as a percentage of the total value insured, as stated in the **Insurance Statistics** page, and then creates a line in the insurance journal.  
+   The batch job calculates the new amount as a percentage of the total value insured, as stated on the **Insurance Statistics** page, and then creates a line in the insurance journal.  
 4. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Insurance Journals**, and then choose the related link.  
 5. Open the relevant insurance journal, review the created values, and then post them to the insurance coverage ledger.  
 

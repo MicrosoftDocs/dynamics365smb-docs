@@ -20,9 +20,9 @@
 You can use the export remittance payments process to export the payments file to your computer. You can then transfer the remittance payments to the bank.  
 
 > [!IMPORTANT]  
->  Before you can export a remittance payment, you must select a payment format in the **Payment Export Format** field in the **Bank Account Card** page.  
+>  Before you can export a remittance payment, you must select a payment format in the **Payment Export Format** field on the **Bank Account Card** page.  
 
-You export payments to a bank file by choosing the **Export Payments** button in the **Payment Journal** page. The process may be different, depending on the export format that you select:  
+You export payments to a bank file by choosing the **Export Payments** button on the **Payment Journal** page. The process may be different, depending on the export format that you select:  
 
 - Payments using the SEPA payment standard are directly exported to a file when you choose the **Export Payments** button. For more information, see [Making Payments](../../payables-make-payments.md).  
 

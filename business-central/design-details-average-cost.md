@@ -19,7 +19,7 @@ The average cost of an item is calculated with a periodic weighted average, base
  The valuation date is set automatically.  
 
 ## Setting Up Average Cost Calculation  
- The following table describes the two fields in the **Inventory Setup** page that must be filled to enable average cost calculation.  
+ The following table describes the two fields on the **Inventory Setup** page that must be filled to enable average cost calculation.  
 
 |Field|Description|  
 |---------------------------------|---------------------------------------|  
@@ -47,7 +47,7 @@ The average cost of an item is calculated with a periodic weighted average, base
  The calculated average cost is then applied to the inventory decreases for the item (or item, location, and variant) with posting dates in the average cost period. If any inventory increases exist that were fixed applied to inventory decreases in the average cost period, then the calculated average cost is forwarded from the increase to the decrease.  
 
 ### Example: Average Cost Period = Day  
- The following example shows the effect of calculating the average cost based on an average cost period of one day. The **Average Cost Calc. Type** field in the **Inventory Setup** page is set to **Item**.  
+ The following example shows the effect of calculating the average cost based on an average cost period of one day. The **Average Cost Calc. Type** field on the **Inventory Setup** page is set to **Item**.  
 
  The following table shows item ledger entries for the sample average-cost item, ITEM1, before the **Adjust Cost - Item Entries** batch job has been run.  
 
@@ -84,7 +84,7 @@ The average cost of an item is calculated with a periodic weighted average, base
 |02-03-20|Sale|-1|-100.00|6|  
 
 ### Example: Average Cost Period = Month  
- The following example shows the effect of calculating the average cost based on an average cost period of one month. The **Average Cost Calc. Type** field in the **Inventory Setup** page  is set to **Item**.  
+ The following example shows the effect of calculating the average cost based on an average cost period of one month. The **Average Cost Calc. Type** field on the **Inventory Setup** page  is set to **Item**.  
 
  If the average cost period is one month, then only one entry is created for each combination of item number, variant code, location code, and valuation date.  
 

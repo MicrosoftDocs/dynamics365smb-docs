@@ -24,7 +24,7 @@ To analyze budgeted amounts, you must first create G(L budgets. For more informa
 In a budget with dimensions, you can filter the entries and see specific budgets.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **G/L Budgets**, and then choose the related link.
-2. In the **G/L Budgets** page, open the budget that you want to view.  
+2. On the **G/L Budgets** page, open the budget that you want to view.  
 3. At the top of the page, fill in the fields as necessary to define what is shown. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
@@ -40,23 +40,23 @@ In a budget with dimensions, you can filter the entries and see specific budgets
 You can view general ledger budgets and compare them with actual figures in several areas of [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
-2. In the **Chart of Accounts** page, choose the **G/L Balance/Budget** action.
+2. On the **Chart of Accounts** page, choose the **G/L Balance/Budget** action.
 3. At the top of the page, fill in the fields as necessary to define what is shown.  
 4. To see a specification that makes up the amount shown, choose the field.  
 
 > [!NOTE]  
->   The filters you set in the page header will be applied to general ledger entries and also budget entries.
+>   The filters you set on the page header will be applied to general ledger entries and also budget entries.
 
 The leftmost columns contain the chart of accounts. Of the five columns on the rightmost side, the first four columns show actual and budgeted debit and credit amounts for each account. The fifth column shows the proportional relationship between the actual and the budgeted amounts on the general ledger account.  
 
 > [!TIP]  
->   Use the **View by** field in the **G/L Balance/Budget** page to select the period length. Use the **View as** field to select the way the amounts will be calculated, **Net Change** or **Balance at Date**. Choose the **Previous Period** or **Next Period** action to change the period.  
+>   Use the **View by** field on the **G/L Balance/Budget** page to select the period length. Use the **View as** field to select the way the amounts will be calculated, **Net Change** or **Balance at Date**. Choose the **Previous Period** or **Next Period** action to change the period.  
 
 ## To view actual and budgeted amounts for several periods  
 Instead of viewing the actual and budgeted amounts for all accounts within a single period, you can view a number of periods for a single account.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
-2. In the **Chart of Accounts** page, select the relevant general ledger account, and then choose the **G/L Account Balance/Budget** action.  
+2. On the **Chart of Accounts** page, select the relevant general ledger account, and then choose the **G/L Account Balance/Budget** action.  
 3. At the top of the page, fill in the fields as necessary to define what is shown.   
 4. To see a specification of an amount shown, choose the field.  
 

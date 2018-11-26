@@ -18,7 +18,7 @@ ms.author: edupont
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to help you run your business, regardless which line of business you are in. At the core of [!INCLUDE[d365fin](includes/d365fin_md.md)], you find financial reporting and sales and purchasing processes. You add experiences to that according to your business needs by adding extensions from AppSource or by changing the Experience setting for your company. For more information, see [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md), or the "Choosing a User Experience to Show or Hide Features" section below.
 
 ## Choosing a User Experience to Show or Hide Features
-The user experience determines how much of the core functionality is available when you and your colleagues use [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can choose the user experience for your company in the **Company Information** page, in the **Experience** field.
+The user experience determines how much of the core functionality is available when you and your colleagues use [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can choose the user experience for your company on the **Company Information** page, in the **Experience** field.
 
 > [!NOTE]  
 > This setting applies to all users in your company. Users can customize their own experience even further by changing page layouts and content. For more information, see [Personalizing Your Workspace and Pages](ui-personalization-user.md).  
@@ -46,14 +46,14 @@ When you have made a change to users plans in Office 365 Admin Center, such as a
 
 1. Sign is as an administrator.
 2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
-3. In the **Users** page, choose the **Refresh all User Groups** action.
+3. On the **Users** page, choose the **Refresh all User Groups** action.
 
 All new information about the users’ plans and their assigned user groups are now updated according to the plan changes.
 
 ### To select the Premium experience
 You can now proceed to select the new experience.
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.
-2. In the **Company Information** page, on the **User Experience** FastTab, select Premium  in the **Experience** field.
+2. On the **Company Information** page, on the **User Experience** FastTab, select Premium  in the **Experience** field.
 
 ## Help Assumes Premium Experience
 All feature descriptions in user documentation for [!INCLUDE[d365fin](includes/d365fin_md.md)] assume the **Premium** experience, meaning the descriptions cover the full scope of UI elements. A text note is inserted in high-level help topics for the Manufacturing and Service Managements feature areas stating that they require the **Premium** experience.

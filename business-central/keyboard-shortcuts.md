@@ -123,7 +123,7 @@ When setting a date field, you can either enter the date manually or open a cale
 |Up Arrow|Scroll up the page.|
 |Right Arrow|Scroll to the right when the page is zoomed in so that it is not entirely in view. |
 |Left Arrow|Scroll to the left when the page is zoomed in so that it is not entirely in view. |
-|Ctrl+0 (zero)<br />(Cmd+0)|Fits the entire page in the page. |
+|Ctrl+0 (zero)<br />(Cmd+0)|Fits the entire page on the page. |
 |Ctrl+Home<br />(Cmd+Home)|Go to the first page of the report.|
 |Ctrl+End<br />(Cmd+Home)|Go to the last page of the report.|
 |Page Down<br />(Fn+Down Arrow)|Go to the next page of the report.|

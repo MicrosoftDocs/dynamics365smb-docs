@@ -35,7 +35,7 @@ If the field is not selected, the program will fill in the **Unit Price** and **
 
 You can set up the default setting of the **Prices Including VAT** for all sales documents for a customer in the **Prices Including VAT** field on the **Customer** card. You can also set up item prices to include or exclude VAT. Normally, item prices contained in the Item Card will be the price excluding VAT. The program uses the information from the **Price Includes VAT** field on the **Item** card to determine the unit price amount for sales documents.  
 
-The following table provides an overview of how the program calculates the unit price amounts for a sales document when you have not set up prices in the **Sales Prices** page:  
+The following table provides an overview of how the program calculates the unit price amounts for a sales document when you have not set up prices on the **Sales Prices** page:  
 
 |**Price Includes VAT field on Item Card**|**Prices Including VAT field in Sales Header**|**Action Performed**|  
 |-----------------------------------------------|----------------------------------------------------|--------------------------|  
@@ -52,8 +52,8 @@ Although you may have set up one or more combinations to handle import VAT, you 
 If a payment discount has been calculated on the basis of an invoice amount that includes VAT, you revert the payment discount part of the VAT amount when the payment discount is granted. Note that you must activate the **Adjust for Payments Disc.** field in both the general ledger setup in general and the VAT posting setup for specific combinations of a VAT business posting group and a VAT product posting group.  
 
 #### To manually enter VAT in sales documents  
-1. In the **General Ledger Setup** page, specify a **Max. VAT Difference Allowed** between the amount calculated by the program and the manual amount.  
-2. In the **Sales & Receivables Setup** page, place a check mark in the **Allow Vat Difference** field.  
+1. On the **General Ledger Setup** page, specify a **Max. VAT Difference Allowed** between the amount calculated by the program and the manual amount.  
+2. On the **Sales & Receivables Setup** page, place a check mark in the **Allow Vat Difference** field.  
 
 #### To adjust VAT for a sales document  
 1. Open the relevant sales order.  
@@ -67,11 +67,11 @@ If a payment discount has been calculated on the basis of an invoice amount that
 You can also adjust VAT amounts in general, sales, and purchase journals. For example, you might need to do this when you enter a vendor invoice in your journal and there is a difference between the VAT amount that [!INCLUDE[d365fin](includes/d365fin_md.md)] calculated and the VAT amount on the vendor's invoice.  
 
 #### Before you manually enter VAT on a general journal  
-1. In the **General Ledger Setup** page, specify a **Max. VAT Difference Allowed** between the amount calculated by the program and the manual amount.  
-2. In the **General Journal Templates** page, choose the **Allow VAT Difference** check box for the relevant journal.  
+1. On the **General Ledger Setup** page, specify a **Max. VAT Difference Allowed** between the amount calculated by the program and the manual amount.  
+2. On the **General Journal Templates** page, choose the **Allow VAT Difference** check box for the relevant journal.  
 
 #### Before you manually enter VAT on sales and purchase journals  
-1. In the **Purchases & Payables Setup** page, choose the **Allow VAT Difference** check box.  
+1. On the **Purchases & Payables Setup** page, choose the **Allow VAT Difference** check box.  
 2. After you complete the setup described above, you can adjust the **VAT Amount** field on the general journal line, or the **Bal. VAT Amount** field on the sales or purchase journal line. [!INCLUDE[d365fin](includes/d365fin_md.md)] will check that the difference is not greater than the specified maximum.  
   
     > [!NOTE]  
@@ -131,10 +131,10 @@ When you sell goods to a customer in another EU country/region, you must send th
 4. To include information from the lines on the shipment document in the certificate, select the **Print Line Details** check box.  
 5. Choose the **Create Certificates of Supply if Not Already Created** check box to have [!INCLUDE[d365fin](includes/d365fin_md.md)] create certificates for posted shipments that do not have one at the moment of execution. When you choose the check box, new certificates will be created for all posted shipments that do not have certificates within the selected range.  
 6. By default, the filter settings are for the shipment document that you have selected. Fill in the filter information to select a specific certificate of supply that you want to print.  
-7. In the **Certificate of Supply** page, choose the **Print** action to print the report, or choose the **Preview** action to view it on the screen.  
+7. On the **Certificate of Supply** page, choose the **Print** action to print the report, or choose the **Preview** action to view it on the screen.  
 
     > [!Note]  
-    > The **Certificate of Supply Status** field and the **Printed** field are updated for the shipment in the **Certificates of Supply** page.  
+    > The **Certificate of Supply Status** field and the **Printed** field are updated for the shipment on the **Certificates of Supply** page.  
 
 8. Send the printed certificate of supply to the customer for signature.  
 
@@ -162,7 +162,7 @@ To view a group of certificates, you start from the **Certificates of Supply** p
    You can modify the date to reflect the date that you received the signed the certificate of supply. You can also add a link to the signed certificate using standard [!INCLUDE[d365fin](includes/d365fin_md.md)] document linking.  
 
     > [!NOTE]  
-    >  You cannot create a new certificate of supply in the **Certificate of Supply** page when you navigate to it using this procedure. To create a certificate for a shipment that was not set up to require one, open the posted sales shipment, and use either of two procedures described above:  
+    >  You cannot create a new certificate of supply on the **Certificate of Supply** page when you navigate to it using this procedure. To create a certificate for a shipment that was not set up to require one, open the posted sales shipment, and use either of two procedures described above:  
     >   
     > * To manually create a certificate of supply certificate  
     > * To print a certificate of supply.

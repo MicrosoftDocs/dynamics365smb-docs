@@ -63,7 +63,7 @@ Electronic documents can only be created after a document has been posted or iss
 4.  Optionally, in the **Create Electronic Invoices** batch job page, set additional filters.  
 5.  Choose the **OK** button.  
 
-An XML file is created and stored at the location that was defined in the **Sales & Receivables Setup** page. You can now submit the document to the customer.  
+An XML file is created and stored at the location that was defined on the **Sales & Receivables Setup** page. You can now submit the document to the customer.  
 
 ## See Also  
  [EHF Electronic Invoicing in Norway](ehf-electronic-invoicing-in-norway.md)

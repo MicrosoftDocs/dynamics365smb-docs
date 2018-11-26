@@ -50,7 +50,7 @@ The **Inventory Pick** page is also used to pick and ship for sales where items 
 
 Items to be shipped are not physically present in a bin until they are assembled and posted as output to a bin in the assembly area. This means that picking assemble-to-order items for shipment follows a special flow. From a bin, warehouse workers take the assembly items to the shipping dock and then post the inventory pick. The posted inventory pick then posts the assembly output, the component consumption, and the sales shipment.
 
-You can set up [!INCLUDE[d365fin](includes/d365fin_md.md)] to automatically create an inventory movement when the inventory pick for the assembly item is created. To enable this, you must select the **Create Movements Automatically** field in the **Assembly Setup** page. For more information, see [Move Components to an Operation Area in Basic Warehousing](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+You can set up [!INCLUDE[d365fin](includes/d365fin_md.md)] to automatically create an inventory movement when the inventory pick for the assembly item is created. To enable this, you must select the **Create Movements Automatically** field on the **Assembly Setup** page. For more information, see [Move Components to an Operation Area in Basic Warehousing](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
 Inventory pick lines for sales items are created in different ways depending on whether none, some, or all of the sales line quantities are assembled to order.
 
@@ -90,7 +90,7 @@ To create pick requests, both for pull and for push scenarios, the source docume
 2.  Choose the **Get Warehouse Documents** action, and then select the component lines from the released production order.  
 3.  Inspect the lines, sort them to ensure an efficient picking round, and combine them with other worksheet lines if necessary to make best use of employee time.  
 4.  Choose the **Create Pick** action.  
-5.  Define how to create the warehouse pick documents and how to sort pick lines by filling fields in the **Create Pick** page.  
+5.  Define how to create the warehouse pick documents and how to sort pick lines by filling fields on the **Create Pick** page.  
 6.  Choose the **OK** button.
 
 Warehouse pick documents are now created with pick lines for each component that is required in the internal operation.

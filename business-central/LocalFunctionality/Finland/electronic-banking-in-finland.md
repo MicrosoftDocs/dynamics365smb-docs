@@ -29,7 +29,7 @@ Domestic customer payments can be imported from the bank and linked to the assoc
 - Post the cash receipt journal and close the open accounts receivable entries with the applied payments from the file.  
 
 ## Reference Number  
-A reference number is automatically created when an invoice is posted or when an order is posted for invoicing. However, you can enter a reference number manually on a sales journal transaction. This reference number is not based on the reference number options in the **Sales & Receivables Setup** page. If you enter a reference number for the sales journal, only the validity of the reference number is checked.  
+A reference number is automatically created when an invoice is posted or when an order is posted for invoicing. However, you can enter a reference number manually on a sales journal transaction. This reference number is not based on the reference number options on the **Sales & Receivables Setup** page. If you enter a reference number for the sales journal, only the validity of the reference number is checked.  
 
 ## Vendor Payments  
 To send electronic bank payments to vendors, you can export domestic or foreign vendor payments into a transfer file that can be sent to the bank. The following steps show how to export vendor payments.  

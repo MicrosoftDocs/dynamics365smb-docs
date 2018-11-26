@@ -37,7 +37,7 @@ If you selected a built-in RDLC or Word report layout, then no further action is
 
 ## To specify a custom layout on a report
 1. You specify which custom layout to use on the report from the **Custom Report Layouts** page. If the **Custom Report Layouts** page is not open, then in the **Report Layout Description** field, choose the lookup button.
-2. In the **Custom Report Layouts** page, select the row for custom layout that you want to use, and then close the page.
+2. On the **Custom Report Layouts** page, select the row for custom layout that you want to use, and then close the page.
 
 You return to the **Report Layout Selection** page. The name of the selected custom layout displays in the **Custom Layout Description** field. The custom layout will be used the next time that you run the report.
 

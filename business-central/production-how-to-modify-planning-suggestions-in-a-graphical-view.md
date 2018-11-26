@@ -18,9 +18,9 @@
 # Modify Planning Suggestions in a Graphical View
 A typical planning activity is to change or add planning worksheet lines to modify the suggested supply orders before you commit them by running the **Carry out Action Message** function. An alternative to doing this in the planning worksheet is to use a graphical view.
 
-In the **Item Availability by Timeline** page, you can modify certain supply orders and suggestions by dragging elements on the x-axis to change quantity or dragging elements on the y-axis to change due date.  
+On the **Item Availability by Timeline** page, you can modify certain supply orders and suggestions by dragging elements on the x-axis to change quantity or dragging elements on the y-axis to change due date.  
 
- In the **Item Availability by Timeline** page and the **Planning Worksheet** page you can make the following changes:  
+ On the **Item Availability by Timeline** page and the **Planning Worksheet** page you can make the following changes:  
 
 -   Modify a suggested supply order that only exists as a planning line.  
 -   Modify an existing supply order that the planning system suggests to change.  
@@ -28,9 +28,9 @@ In the **Item Availability by Timeline** page, you can modify certain supply ord
 
 For more information about the planning line types that are shown, see the Description field on the **Event Changes** FastTab.  
 
-When you choose **Save Changes** in the **Item Availability by Timeline** page, the modifications that you have made are copied to the planning or requisition worksheet. You can now implement them using the **Carry Out Action Msg.-Plan.** function.  
+When you choose **Save Changes** on the **Item Availability by Timeline** page, the modifications that you have made are copied to the planning or requisition worksheet. You can now implement them using the **Carry Out Action Msg.-Plan.** function.  
 
-The following procedure shows how to modify supply suggestions by drag and drop. As an alternative, you can change the **Due Date** and **Quantity** fields on the **Event Changes** FastTab and immediately see the changes graphically on the **Timeline** FastTab in the **Planning Worksheet** page.  
+The following procedure shows how to modify supply suggestions by drag and drop. As an alternative, you can change the **Due Date** and **Quantity** fields on the **Event Changes** FastTab and immediately see the changes graphically on the **Timeline** FastTab on the **Planning Worksheet** page.  
 
 ## To modify suggested supply orders in the graphical view  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Availability by Timeline**, and then choose the related link.  

@@ -22,7 +22,7 @@
 
 You can submit domiciliations to your bank by exporting the data to a file. When you export to a file, you can choose to automatically post the lines to the general ledger.  
 
-Depending on setup of the **SEPA Direct Debit Exp. Format** field in the **Bank Account Card** page, the **File Domiciliations** action opens either of these request pages:  
+Depending on setup of the **SEPA Direct Debit Exp. Format** field on the **Bank Account Card** page, the **File Domiciliations** action opens either of these request pages:  
 
 - **Create Gen. Jnl. Lines** page – for the SEPA Direct Debit format.  
 - **File Domiciliations** page – for domestic formats.  
@@ -31,7 +31,7 @@ Depending on setup of the **SEPA Direct Debit Exp. Format** field in the **Bank 
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Domiciliation Journals**, and then choose the related link.  
 2.  In the **Batch Name** field, select the required journal batch, and then choose the **File Domiciliations** action.  
-3.  In the **Create Gen. Jnl. Lines** page, select the **Options** FastTab, and then fill in the fields as described in the following table.  
+3.  On the **Create Gen. Jnl. Lines** page, select the **Options** FastTab, and then fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -46,13 +46,13 @@ Depending on setup of the **SEPA Direct Debit Exp. Format** field in the **Bank 
     If you did not select the **Post General Journal Lines** check box, you will have to post the domiciliations manually in the general journal.  
 
     > [!NOTE]  
-    >  After you have posted domiciliations in the general journal, delete the posted domiciliations in the **Domiciliation Journal** page. To do this, select all lines with status **Posted**, and then choose the **Delete** button.  
+    >  After you have posted domiciliations in the general journal, delete the posted domiciliations on the **Domiciliation Journal** page. To do this, select all lines with status **Posted**, and then choose the **Delete** button.  
 
 ## To export and post domiciliations in Isabel format  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Domiciliation Journals**, and then choose the related link.  
 2.  In the **Batch Name** field, select the required journal batch, and then choose the **File Domiciliations** action.  
-3.  In the **File Domiciliations** page, select the **Options** FastTab, and then fill in the fields as described in the following table.  
+3.  On the **File Domiciliations** page, select the **Options** FastTab, and then fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -70,7 +70,7 @@ Depending on setup of the **SEPA Direct Debit Exp. Format** field in the **Bank 
     If you did not select the **Post General Journal Lines** check box, you will have to post the domiciliations manually in the general journal.  
 
     > [!NOTE]  
-    >  After you have posted domiciliations in the general journal, delete the posted domiciliations in the **Domiciliation Journal** page. To do this, select all lines with status **Posted**, and then choose the **Delete** button.  
+    >  After you have posted domiciliations in the general journal, delete the posted domiciliations on the **Domiciliation Journal** page. To do this, select all lines with status **Posted**, and then choose the **Delete** button.  
 
 ## See Also  
  [Direct Debit Using Domiciliation](direct-debit-using-domiciliation.md)   

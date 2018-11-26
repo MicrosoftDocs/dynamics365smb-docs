@@ -18,9 +18,9 @@ ms.author: sgroespe
 # Applying Payments Automatically and Reconciling Bank Accounts
 You must regularly reconcile your bank, receivables, and payables accounts by applying payments recorded in the bank to their related unpaid invoices and credit memos or other open entries in [!INCLUDE[d365fin](includes/d365fin_long_md.md)].  
 
-You can perform this task in the **Payment Reconciliation Journal** page by importing a bank statement file or feed to quickly register the payments. Payments are applied to open customer or vendor ledger entries based on matches between payment text and entry information. You can review and change automatic applications before you post the journal. You can choose to close any open bank account ledger entries related to the applied ledger entries when you post the journal. The bank account is automatically reconciled when all payments are applied.
+You can perform this task on the **Payment Reconciliation Journal** page by importing a bank statement file or feed to quickly register the payments. Payments are applied to open customer or vendor ledger entries based on matches between payment text and entry information. You can review and change automatic applications before you post the journal. You can choose to close any open bank account ledger entries related to the applied ledger entries when you post the journal. The bank account is automatically reconciled when all payments are applied.
 
-You can also reconcile bank accounts without simultaneously applying payments. You perform this work in the **Bank Acc. Reconciliation** page. For more information, see [Reconcile Bank Account Separately](bank-how-reconcile-bank-accounts-separately.md).   
+You can also reconcile bank accounts without simultaneously applying payments. You perform this work on the **Bank Acc. Reconciliation** page. For more information, see [Reconcile Bank Account Separately](bank-how-reconcile-bank-accounts-separately.md).   
 
 To import bank statements as a bank feed, you must first set up and enable the Envestnet Yodlee Bank Feed service, and then link your bank accounts to the related online bank accounts. For more information, see [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md).  
 

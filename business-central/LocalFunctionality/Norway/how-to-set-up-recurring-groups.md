@@ -17,7 +17,7 @@
 
 ---
 # Set Up Recurring Groups
-The **Recurring Group Code** field in the **Blanket Sales Order** page defines date formulas that can be used both as a template and to create sales orders based on date intervals. You must set up recurring groups before you can set up recurring orders.  
+The **Recurring Group Code** field on the **Blanket Sales Order** page defines date formulas that can be used both as a template and to create sales orders based on date intervals. You must set up recurring groups before you can set up recurring orders.  
 
 ## To set up recurring groups  
 

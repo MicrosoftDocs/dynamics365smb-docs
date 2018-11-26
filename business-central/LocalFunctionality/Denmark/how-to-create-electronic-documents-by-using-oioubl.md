@@ -42,7 +42,7 @@ After you post a document, you can create an electronic invoice in an OIOUBL for
 3.  Choose the **Create Electronic <*document type*>** action.  
 4.  Optionally, in the **Create Electronic <*document type*>** page, set additional filters, and then choose the **OK** button.  
 
-An XML file is created and stored at the location that was defined in the **Sales & Receivables Setup** page. You can now submit the document to the customer.  
+An XML file is created and stored at the location that was defined on the **Sales & Receivables Setup** page. You can now submit the document to the customer.  
 
 ## See Also  
 [Denmark Local Functionality](denmark-local-functionality.md)  

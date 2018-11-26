@@ -15,7 +15,7 @@ ms.author: edupont
 ---
 # Making Payments
 
-When you make payments to vendors or customers, or reimburse your employees, you post the related payment lines in the **Payment Journal** page. The payment journal is a general journal that is optimized for making payments and includes a number of powerful functions such as the **Suggest Vendor Payments** function that finds vendor payments that are due, and the **Vendor - Summary Aging** report that shows an overview of due vendor payments.  
+When you make payments to vendors or customers, or reimburse your employees, you post the related payment lines on the **Payment Journal** page. The payment journal is a general journal that is optimized for making payments and includes a number of powerful functions such as the **Suggest Vendor Payments** function that finds vendor payments that are due, and the **Vendor - Summary Aging** report that shows an overview of due vendor payments.  
 
 You can start the process of making the payment from the lists, cards, and ledger entries for vendors, customers, and employees. Each of these pages has a button that starts the payment flow and helps you fill in the payment journal.  
 
@@ -31,7 +31,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | --- | --- |
 |Understand basic functions of the **Payment Journal** page, which is a based on the general journal, to prepare to post payments to vendors or employees.|[Working with General Journals](ui-work-general-journals.md)|
 |Post payments to vendors or employees and refunds to customers, and optionally apply the payments to the related unpaid invoices/credit memos to close them as paid.|[Record Payments and Refunds](payables-how-post-payments-refunds.md)|
-| Use a function in the **Payment Journal** page to suggest vendor payments according to selected criteria, such as due date, discount eligibility, and your liquidity. |[Suggest Vendor Payments](payables-how-suggest-vendor-payments.md) |
+| Use a function on the **Payment Journal** page to suggest vendor payments according to selected criteria, such as due date, discount eligibility, and your liquidity. |[Suggest Vendor Payments](payables-how-suggest-vendor-payments.md) |
 | Issue checks for vendor payments or customer refunds, either as print-outs or as computer checks. Void checks before or after posting. |[Make Check Payments](payables-how-work-checks.md) |
 |Make electronic payments by exporting payments to a bank file that you upload to your bank for processing, including EFT (electronic funds transfer) in North America. |[Make Electronic Payments](payables-how-export-payments-bank-file.md)|
 |Make electronic payments according to the EU SEPA Credit Transfer standard.|[Making Payments with Bank Data Conversion Service or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|

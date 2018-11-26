@@ -24,7 +24,7 @@ If there is no data to export, [!INCLUDE[d365fin](../../includes/d365fin_md.md)]
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Export Business Data**, and then choose the related link.  
 
-2.  In the **Data Export** page, on the **Options** FastTab, fill in the fields as described in the following table.  
+2.  On the **Data Export** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Option|Description|  
     |----------------------------------|---------------------------------------|  

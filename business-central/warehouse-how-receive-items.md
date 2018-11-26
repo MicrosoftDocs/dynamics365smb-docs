@@ -50,11 +50,11 @@ The following describes how to receive items with a purchase order. The steps ar
 
     All released source document lines that fulfill the filter criteria are now inserted in **Warehouse Receipt** page from which you activated the filter function.  
 
-    The filter combinations that you define are saved in the **Filters to Get Source Docs.** page until the next time you need it. You can make an unlimited number of filter combinations. You can change the criteria at any time by choosing the **Modify** action.
+    The filter combinations that you define are saved on the **Filters to Get Source Docs.** page until the next time you need it. You can make an unlimited number of filter combinations. You can change the criteria at any time by choosing the **Modify** action.
 
 4.  Select the source documents for which you want to receive items, and then choose the **OK** button.  
 
-    The lines of the source documents appear in the **Warehouse Receipt** page. The **Qty. to Receive** field is filled with the quantity outstanding for each line, but you can change the quantity as necessary. If you deleted the contents of the **Bin Code** field on the **General** FastTab before getting the lines, you must fill in an appropriate bin code on each receipt line.  
+    The lines of the source documents appear on the **Warehouse Receipt** page. The **Qty. to Receive** field is filled with the quantity outstanding for each line, but you can change the quantity as necessary. If you deleted the contents of the **Bin Code** field on the **General** FastTab before getting the lines, you must fill in an appropriate bin code on each receipt line.  
 
     > [!NOTE]  
     >  To fill in the **Qty. to Receive** field on all the lines with zero, choose the **Delete Qty. to Receive** action. To fill it in once again with the quantity outstanding, choose the **Autofill Qty. to Receive** action.  

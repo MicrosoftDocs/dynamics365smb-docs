@@ -32,7 +32,7 @@ The following procedure describes how to print or reprint the **G/L Book - Print
     |**Starting Date**|Enter the first date in the period from which posted entries will be shown.|  
     |**Ending Date**|Enter the last date in the period from which posted entries will be shown.|  
     |**From Progressive No.**|Specifies the progressive number for the report.|  
-    |**Print Company Information**|Select to print company information on the report.<br /><br /> The remaining fields are populated based in the **Company Information** page.|  
+    |**Print Company Information**|Select to print company information on the report.<br /><br /> The remaining fields are populated based on the **Company Information** page.|  
 
     When you print the report, you will be reminded to update the **General Ledger Setup** page with the page number on the last page.  
 
@@ -52,7 +52,7 @@ The following procedure describes how to view or change the page numbering for p
 ## To view or change page numbering for reprinting the general ledger book report  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Setup**, and then choose the related link.  
-2.  Choose the **Change G/L Book Reprint Info.** action. In the **G/L Book Reprint Info** page, the **First Page Number** field specifies the first page number of the previously printed reports.  
+2.  Choose the **Change G/L Book Reprint Info.** action. On the **G/L Book Reprint Info** page, the **First Page Number** field specifies the first page number of the previously printed reports.  
 
 When you update the **General Ledger Setup** page or the **VAT Registers** page with the page number of the last page of the printed report, make sure that you specify the correct page number. If the reprinted report starts with the wrong page number, the report will not be accepted by the tax authorities. The **G/L Book Reprint Info** page and the **VAT Register Reprint Info** can help you identify the correct page number.  
 

@@ -23,7 +23,7 @@ The terms "running the planning worksheet" or "running MRP" refer to the calcula
 
 The planning algorithms used for both MPS and MRP are identical. The planning algorithms pertain to netting, reuse of existing replenishment orders, and action messages. The planning system process examines what is needed or will be needed (demand) and what is on-hand or expected (supply). When these quantities are netted against each other, [!INCLUDE[d365fin](includes/d365fin_md.md)] provides action messages. Action messages are suggestions to create a new order, change an order (quantity or date), or cancel an order already on order. The term "order" includes purchase orders, assembly orders, production orders, and transfer orders.
 
-Links created by the planning engine between demand and its related supply can be tracked in the **Order Tracking** page. For more information, see [Track Relations Between Demand and Supply](production-how-track-demand-supply.md).   
+Links created by the planning engine between demand and its related supply can be tracked on the **Order Tracking** page. For more information, see [Track Relations Between Demand and Supply](production-how-track-demand-supply.md).   
 
 Proper planning results depend on the set up done on item cards, assembly BOMs, production BOMs, and routings.  
 
@@ -50,11 +50,11 @@ With each planned method, [!INCLUDE[d365fin](includes/d365fin_md.md)] generates 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**MPS**|Select to initiate the calculation of a master production schedule. Items with open sales orders or demand forecasts are considered in this run.|  
-    |**MRP**|Select to initiate the calculation of material requirements planning. Items with dependent requirements are considered in this run. Typically,  MPS and MRP are run at the same time. To run MPS and MRP at the same time, the **Combined MPS/MRP Calculation** field must be selected on the **Planning** FastTab in the **Manufacturing Setup** page.|  
+    |**MRP**|Select to initiate the calculation of material requirements planning. Items with dependent requirements are considered in this run. Typically,  MPS and MRP are run at the same time. To run MPS and MRP at the same time, the **Combined MPS/MRP Calculation** field must be selected on the **Planning** FastTab on the **Manufacturing Setup** page.|  
     |**Starting Date**|This date is used to evaluate inventory availability. If an item's on-hand quantity is below the reorder point, the system forward-schedules a replenishment order from this date. If an item is below its safety stock (as of the starting date), the system back-schedules a replenishment order due on the planning starting date.|  
     |**Ending Date**|This is the ending date of the planning horizon. Neither demand nor supply is considered after this date. If the reorder cycle for an item extends beyond the ending date, the effective planning horizon for that item is equal to the order date + reorder cycle.<br /><br /> The planning horizon is the time that the plan is extended to. If the horizon is too short, items with a longer lead time are not ordered on time. If the horizon is too long, too much time is spent reviewing and processing information that likely changes before it is needed. It is possible to set one planning horizon for production and a longer one for purchases, although it is not required. A planning horizon for purchases and production should be set to cover the cumulative lead time for components.|  
     |**Stop and Show First Error**|Select if you want the planning run to stop as soon as it encounters an error. At the same time, a message is displayed with information about the first error. If an error exists, only the successful planning lines made before the error was encountered will be presented in the planning worksheet. If you do not select this field, the **Calculate Plan** batch job will continue until it has completed, that is, errors will not interrupt the batch job. If one or more errors exist, a message will display after completion with information about how many items are affected. The **Planning Error Log** page will then open to provide more details about the error and links to the affected item cards.|  
-    |**Use Forecast**|Select a forecast that should be included as demand when you run the planning batch job. The default forecast is set up on the **Planning** FastTab in the **Manufacturing Setup** page.|  
+    |**Use Forecast**|Select a forecast that should be included as demand when you run the planning batch job. The default forecast is set up on the **Planning** FastTab on the **Manufacturing Setup** page.|  
     |**Exclude Forecast Before**|Define how much of the selected forecast to include in the planning run by entering a date before which forecast demand is not included, thus allowing you to exclude old information.|  
     |**Respect Planning Parameters for Exception Warnings**|By default, this field is selected.<br /><br /> Supply on planning lines with warnings is normally not modified according to planning parameters. Instead, the planning system only suggests a supply to cover the exact demand quantity. However, you can define certain planning parameters for planning lines to be respected with certain warnings.<br /><br />|  
 
@@ -62,7 +62,7 @@ With each planned method, [!INCLUDE[d365fin](includes/d365fin_md.md)] generates 
 5.  Choose the **OK** button. The batch job runs and then the planning worksheet is populated with the planning lines.  
 
 ## To perform action messages  
-1.  In the **Planning Worksheet** page, choose the **Carry Out Action Message** action.  
+1.  On the **Planning Worksheet** page, choose the **Carry Out Action Message** action.  
 2.  On the **Options** FastTab, specify how to create the supplies. Fill in the fields as described in the following table.  
 
     |Field|Description|  

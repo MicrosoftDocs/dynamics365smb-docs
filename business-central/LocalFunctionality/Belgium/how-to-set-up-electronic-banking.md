@@ -36,7 +36,7 @@ Before you can use electronic banking, you must set up the following information
 ## To set up electronic banking  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Electronic Banking Setup**, and then choose the related link.  
-2.  In the **Electronic Banking Setup** page, on the **General** FastTab, fill in the fields as described in the following table.   
+2.  On the **Electronic Banking Setup** page, on the **General** FastTab, fill in the fields as described in the following table.   
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

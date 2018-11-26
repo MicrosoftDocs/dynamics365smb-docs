@@ -31,13 +31,13 @@ To create a custom layout, you can either make a copy of an existing custom layo
 3. Select the row for the report that you want to create the layout for, and then choose the **Custom Layouts** action.  
    The **Custom Report Layouts** page appears and lists all the custom layouts that are available for the selected report.
 4. If you want to create a copy of an existing custom layout, select the existing custom layout in the list, and then choose the **Copy** action.  
-   The copy of the custom layout appears in the **Custom Report Layouts** page and has the words *Copy of* in the **Description** field.
+   The copy of the custom layout appears on the **Custom Report Layouts** page and has the words *Copy of* in the **Description** field.
 5. If you want to add a new custom layout that is based on a built-in layout, do the following:  
    1. Choose the **New** action. The **Insert Built-in Layout for a Report** page appears. The **ID** and **Name** fields are automatically filled in.
    2. To add a custom Word report layout type, then select the **Insert Word Layout** check box.
    3. To add a custom RDLC report layout type, then select the **Insert RDLC Layout** check box.
    4. Choose the **OK** button.  
-      The new custom layouts appear in the **Custom Report Layouts** page. If a new layout is based on a built-in layout, then it has the words **Copy of a Built-in Layout** in the **Description** field. If there was no built-in layout for the report, then the new layout has the words **New Layout** in the **Description** field, which indicates that custom layout is blank.
+      The new custom layouts appear on the **Custom Report Layouts** page. If a new layout is based on a built-in layout, then it has the words **Copy of a Built-in Layout** in the **Description** field. If there was no built-in layout for the report, then the new layout has the words **New Layout** in the **Description** field, which indicates that custom layout is blank.
 6. By default, the **Company Name** field is blank, which means that the custom layout will be available for the report in all companies. To make the custom layout available in a specific company only, choose **Edit**, and then set the **Company Name** field to the company that you want.
 
 The custom layout has been created. You can now modify the custom layout as needed.
@@ -47,7 +47,7 @@ To modify a report layout, you must first export the report layout as a file to 
 
 ### To modify a custom layout
 1.  You export a custom layout from the **Custom Report Layouts** page. If this page is not already open, search for and open the **Report Layout Selection** page, select the report that has the layout that you want to modify, and then choose the **Custom Layouts** action.  
-2.  In the **Custom Report Layouts** page, select the layout that you want to modify, choose the **Export Layout** action, and then choose **Save** or **Save As** to save the report layout document to a location on your computer or network.  
+2.  On the **Custom Report Layouts** page, select the layout that you want to modify, choose the **Export Layout** action, and then choose **Save** or **Save As** to save the report layout document to a location on your computer or network.  
 
 3.  Open the report layout document that you just saved, and then make changes.
 
@@ -67,7 +67,11 @@ To can make general formatting and layout changes, such as changing text font, a
 If you are designing a Word report layout from scratch or adding new data fields, then start by adding a table that includes rows and columns that will eventually hold the data fields.
 
 > [!TIP]  
->  Show the table gridlines so that you see the boundaries of table cells. Remember to hide the gridlines when you are done editing. To show or hide table gridlines, select the table, and then under **Layout** on the **Table** tab, choose **View Gridlines**.  
+>  Show the table gridlines so that you see the boundaries of table cells. Remember to hide the gridlines when you are done editing. To show or hide table gridlines, select the table, and then under **Layout** on the **Table** tab, choose **View Gridlines**. 
+
+### Embedding Fonts in Word Layouts for Consistency 
+
+To ensure that reports always display and print with the intended fonts, regardless of where users open or print the reports, you can embed the fonts in the Word document. However, be aware that embedding fonts can significantly increase the size of the Word files. For more information about embedding fonts in Word, see [Embed fonts in Word, PowerPoint, or Excel](https://support.office.com/en-us/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc). 
 
 ###  <a name="RemoveField"></a> Removing Label and Data Fields in Word Layouts  
  Label and data fields of a report are contained in content controls in Word. The following figure illustrates a content control when it is selected in the Word document.  
@@ -86,6 +90,8 @@ If you are designing a Word report layout from scratch or adding new data fields
 
 ### Adding data fields
 Adding data fields from a report dataset is a more advanced and requires some knowledge of the report dataset. For information about adding fields for data, labels, data, and images, see [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md).  
+
+### 
 
 
 ## See Also

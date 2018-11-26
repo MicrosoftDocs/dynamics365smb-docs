@@ -21,7 +21,7 @@ This is a legal report that is required for auditing accounts. This report displ
 
 ## To print the income statement report  
 1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Income Statement**, and then choose the relevant link.  
-2. In the **Income Statement** page, on the **Options** FastTab, fill in the fields as described in the following table.  
+2. On the **Income Statement** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

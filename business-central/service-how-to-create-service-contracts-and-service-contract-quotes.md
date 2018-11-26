@@ -62,17 +62,17 @@ You can use a contract service credit memo when a customer cancels a prepaid ser
      The **Invoicing** FastTab shows information copied from the **Customer** card. If you want to post the credit memo to a different customer than the one specified on the **General** FastTab, enter the number of that customer in the **Bill-to Customer No.** field.  
 
     > [!NOTE]  
-    >  You can compare the credit memo to the original posted document in the **Posted Service Invoices** page. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Service Invoices**, and then choose the related link.  
+    >  You can compare the credit memo to the original posted document on the **Posted Service Invoices** page. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Service Invoices**, and then choose the related link.  
 
 5. Fill in the **Posting Date** and **Document Date** fields.  
 6. On the credit memo lines, enter information about the items that have been returned or removed, or the allowance that will be sent. You can also use the **Get Prepaid Contract Entries** batch job.  
 
- To automatically create a credit memo when contract lines are removed from a service contract, in the **Service Contract** page, on the **Invoice Details** FastTab, select the **Automatic Credit Memos** check box.  
+ To automatically create a credit memo when contract lines are removed from a service contract, on the **Service Contract** page, on the **Invoice Details** FastTab, select the **Automatic Credit Memos** check box.  
 
- To manually create a credit memo when contract lines are removed from a service contract, in the **Service Contract** page, on the **Actions** tab, in the **Functions** group, choose **Credit Memo**.  
+ To manually create a credit memo when contract lines are removed from a service contract, on the **Service Contract** page, on the **Actions** tab, in the **Functions** group, choose **Credit Memo**.  
 
 ## Updating and evaluating contracts
-Sometimes you have to change the terms of a contract after it has been created. In most cases, you open the relevant contract in the **Service Contract** page, and change it as necessary.  
+Sometimes you have to change the terms of a contract after it has been created. In most cases, you open the relevant contract on the **Service Contract** page, and change it as necessary.  
 
 You can change the status of the contract, initially set to **Locked**, add and remove contract lines, and cancel a contract. If you want to see how your business is doing as measured by gain and loss, you can do quick business analysis using the contract trendscape feature.
 
@@ -98,7 +98,7 @@ You may need to remove contract lines from the service contract as you remove co
 7. Fill in the fields on the **Options** FastTab. In the **Action** field, select **Delete Lines**.  
 
 > [!NOTE]  
->  If the contract is not detailed, you must update the value in the **Annual Amount** field on the **Invoice Details** FastTab in the **Service Contract** page, reflecting the loss of the service item from the contract.  
+>  If the contract is not detailed, you must update the value in the **Annual Amount** field on the **Invoice Details** FastTab on the **Service Contract** page, reflecting the loss of the service item from the contract.  
 >   
 >  If the contract is detailed and prepaid, and you have posted invoices for the contract, you can create a credit memo for the contract. On the **Actions** tab, in the **Functions** group, choose **Create Credit Memo**. This is unnecessary if the check box in the **Automatic Credit Memos** field on the **Invoice Details** FastTab is selected. In that case, a credit memo is created automatically when you remove a contract line.
 
@@ -161,7 +161,7 @@ You can update the prices on service contracts by specifying a price update perc
 ## To post prepaid contract entries  
 If you work with prepaid service contracts, you must regularly post prepaid contract entries, thereby transferring the prepaid payments from the prepaid contract accounts to the regular contract accounts.  
 
-Before you can post prepaid contract entries, you must specify a number series in the **Prepaid Posting Document Nos.** field in the **Service Mgt. Setup** page.  
+Before you can post prepaid contract entries, you must specify a number series in the **Prepaid Posting Document Nos.** field on the **Service Mgt. Setup** page.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Post Prepaid Contract Entries**, and then choose the related link.  
 2. In the **Post until Date** field, enter a date. The batch job posts prepaid service ledger entries with posting dates up to this date.  
@@ -186,7 +186,7 @@ You may need to cancel a service contract when the contract has expired or has b
 3. Choose the **Open Contract** action to open the service contract for editing.  
 4. In the **Cancel Reason Code** field, choose the relevant reason code. To add more reason codes, choose the **Advanced** action.  
 
-     If the check box in the **Use Contract Cancel Reason** field in the **Service Mgt. Setup** page is selected, you must specify a cancel reason code when canceling contracts.  
+     If the check box in the **Use Contract Cancel Reason** field on the **Service Mgt. Setup** page is selected, you must specify a cancel reason code when canceling contracts.  
 
 5. In the **Status** field, choose **Canceled**.  
 6. If there are unposted invoices, credit memos, or opened prepaid entries for the contract, a confirmation message will appear. In the message box, choose **No** to return to the contract and post the documents, or **Yes** to continue the cancellation process.  

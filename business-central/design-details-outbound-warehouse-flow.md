@@ -81,7 +81,7 @@ In addition, the following internal source documents exist that function like ou
  When the inbound source document is released, an outbound warehouse request is created automatically. It contains references to the source document type and number and is not visible to the user.  
 
 ### 3: Create Warehouse Shipment  
- In the **Warehouse Shipment** page, the shipping worker who is responsible retrieves pending source document lines based on the outbound warehouse request. Several source document lines can be combined in one warehouse shipment document.  
+ On the **Warehouse Shipment** page, the shipping worker who is responsible retrieves pending source document lines based on the outbound warehouse request. Several source document lines can be combined in one warehouse shipment document.  
 
 ### 4: Release Shipment / Create Warehouse Pick  
  The shipping worker who is responsible releases the warehouse shipment, so that warehouse workers can  create or coordinate warehouse picks for the shipment in question.  
@@ -105,7 +105,7 @@ In addition, the following internal source documents exist that function like ou
  The warehouse worker who perform picks create a warehouse pick document, in a pull fashion, based on the released source document. Alternatively, the warehouse pick document is created and assigned to the warehouse worker in a push fashion.  
 
 ### 9: Register Warehouse Pick  
- On each line for items that have been picked, partially or fully, the warehouse worker fills in the **Quantity** field in the **Warehouse Pick** page and then registers the warehouse pick.  
+ On each line for items that have been picked, partially or fully, the warehouse worker fills in the **Quantity** field on the **Warehouse Pick** page and then registers the warehouse pick.  
 
  Warehouse entries are created, and the warehouse pick lines are deleted, if fully handled. The warehouse pick document remains open until the full quantity of the related warehouse shipment is registered. The **Qty. Picked** field on the warehouse shipment lines is updated accordingly.  
 

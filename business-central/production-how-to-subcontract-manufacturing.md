@@ -50,10 +50,10 @@ The **Subcontracting Worksheet** page functions like the **Planning Worksheet** 
 ### To calculate the subcontracting worksheet  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Subcontracting Worksheet**, and then choose the related link.  
 2.  To calculate the worksheet, choose the **Calculate Subcontracts** action.  
-3.  In the **Calculate Subcontracts** page, set filters for the subcontracted operations, or the work centers where they are performed, to calculate only the relevant production orders.  
+3.  On the **Calculate Subcontracts** page, set filters for the subcontracted operations, or the work centers where they are performed, to calculate only the relevant production orders.  
 4.  Choose the **OK** button.  
 
-    Review the lines in the **Subcontracting Worksheet** page. The information in this worksheet comes from the production order and production order routing lines and flows to the purchase order when that document is created. You can delete a row from the worksheet without affecting the original information, just as you can with the other worksheets. The information will reappear the next time you run the **Calculate Subcontracts** function.  
+    Review the lines on the **Subcontracting Worksheet** page. The information in this worksheet comes from the production order and production order routing lines and flows to the purchase order when that document is created. You can delete a row from the worksheet without affecting the original information, just as you can with the other worksheets. The information will reappear the next time you run the **Calculate Subcontracts** function.  
 
 ### To create the subcontract purchase order  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Subcontracting Worksheet**, and then choose the related link.  

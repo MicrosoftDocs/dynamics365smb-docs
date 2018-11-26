@@ -38,7 +38,7 @@ You cannot assign industry groups to a contact person - only companies.
 
 Repeat these steps to assign as many industry groups as you want. You can also assign industry groups from the contact list by following the same procedure.
 
-The number of industry groups that you have assigned to the contact is displayed in the **No. of Industry Groups** field in the **Segmentation** section in the **Contact** page.
+The number of industry groups that you have assigned to the contact is displayed in the **No. of Industry Groups** field in the **Segmentation** section on the **Contact** page.
 
 After you have assigned industry groups to your contacts, you can use this information to select contacts for your segments. For more information, see [Add Contacts to Segments](marketing-add-contact-segment.md).
 

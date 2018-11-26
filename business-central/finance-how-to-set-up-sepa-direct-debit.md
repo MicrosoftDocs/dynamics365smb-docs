@@ -53,8 +53,8 @@ Before you can process customer payments electronically by exporting direct debi
 1. In the **Search** box, enter **Customers**, and then choose the related link.  
 2. Open the card for the customer that you want to set up for SEPA direct debits.  
 3. Choose the **Bank Accounts** action.  
-4. In the **Customer Bank Account List** page, select the customer bank account that will use direct debits, and then, on the **Home** tab, in the **Process** group, choose **Direct Debit Mandates**.  
-5. In the **SEPA Direct Debit Mandates** page, fill in the fields as described in the following table.  
+4. On the **Customer Bank Account List** page, select the customer bank account that will use direct debits, and then, on the **Home** tab, in the **Process** group, choose **Direct Debit Mandates**.  
+5. On the **SEPA Direct Debit Mandates** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

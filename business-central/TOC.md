@@ -291,6 +291,7 @@
 ## [Convert Service Contracts that Include VAT Amounts](service-how-to-convert-service-contracts.md)
 ## [Analyzing Financial Statements in Excel](finance-analyze-excel.md)
 ## [Analyzing Cash Flows in Your Company](finance-analyze-cash-flow.md)
+## [Walkthrough: Making Cash Flow Forecasts by Using Account Schedules](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 
 # [Business Intelligence](bi.md)
 ## [Analyze Actual Amounts Versus Budgeted Amounts](bi-how-analyze-actual-versus-budget.md)
@@ -412,6 +413,7 @@
 ## [About Finished Production Order Costs](finance-about-finished-production-order-costs.md)
 
 # [Warehouse Management](warehouse-manage-warehouse.md)
+## [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)
 ## [Find Your Warehouse Assignments](warehouse-how-to-find-your-warehouse-assignments.md)
 ## [Calculate Bin Replenishment](warehouse-how-to-calculate-bin-replenishment.md)
 ## [Assign Default Bins to Items](warehouse-how-to-assign-default-bins-to-items.md)
@@ -437,8 +439,6 @@
 ## [Pick and Put Away Without a Source Document](warehouse-how-to-create-put-aways-from-internal-put-aways.md)
 ## [Ship Items](warehouse-how-ship-items.md)
 ## [Use Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)
-## []()
-
 
 # [Service Management](service-service.md)
 ## [Planning Service](service-plan-service.md)
@@ -520,6 +520,7 @@
 ## [Walkthrough: Calculating Work in Process for a Job](walkthrough-calculating-work-in-process-for-a-job.md)
 ## [Walkthrough: Picking and Shipping in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 ## [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)
+## [Walkthrough: Making Cash Flow Forecasts by Using Account Schedules](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 
 # [Design Details](design-details-application-design.md)
 ## [Design Details: Dimension Set Entries](design-details-dimension-set-entries.md)

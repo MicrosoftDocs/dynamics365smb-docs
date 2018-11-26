@@ -15,7 +15,7 @@
 ## [Using Business Central Without Outlook](admin-no-outlook.md)
 ## [Enabling Your Business Data for Power BI](admin-powerbi.md)
 ## [Using Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md)
-### [Troubleshooting Integration with Microsoft Flow - Request URL Too Long](across-troubleshooting-how-use-financials-data-source-flow)
+### [Troubleshooting Integration with Microsoft Flow - Request URL Too Long](across-troubleshooting-how-use-financials-data-source-flow.md)
 ## [Using Business Central as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)
 ## [Connecting to Your Business Central Data to Build a Business App Using PowerApps](across-how-use-financials-data-source-powerapps.md)
 ## [Bulk Invoicing for Microsoft Bookings](finance-bookings.md)

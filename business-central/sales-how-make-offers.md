@@ -25,15 +25,15 @@ You can fill customer fields on the sales quote in two ways depending on whether
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Quotes**, and then choose the related link.
 2. In the **Customer** field, enter the name of an existing customer.
 
-   Other fields in the **Sales Quote** window contain standard information of the selected customer. If the customer is not registered, follow these steps:
+   Other fields on the **Sales Quote** page contain standard information of the selected customer. If the customer is not registered, follow these steps:
 3. In the **Customer** field, enter the name of the new customer.
 4. In the dialog box about registering the new customer, choose the **Yes** button.
-5. In the **Select a template for a new customer** window, choose a template to base the new customer card on, and then choose the **OK** button.
+5. On the **Select a template for a new customer** page, choose a template to base the new customer card on, and then choose the **OK** button.
 6. A new customer card displays the information on the selected customer template. Fill in the remaining fields. For more information, see [Register New Customers](sales-how-register-new-customers.md).  
-7. When you have completed the customer card, choose the **OK** button to return to the **Sales Quote** window.
+7. When you have completed the customer card, choose the **OK** button to return to the **Sales Quote** page.
 
    Several fields on the sales quote are now filled with information that you specified on the new customer card.  
-8. Fill in the remaining fields in the **Sales Quote** window as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+8. Fill in the remaining fields on the **Sales Quote** page as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     You are now ready to fill in the sales order lines for products that you are selling to the customer or for any transaction with the customer that you want to record in a G/L account.   
 
@@ -65,10 +65,10 @@ You can fill customer fields on the sales quote in two ways depending on whether
     If you have set up invoice discounts for the customer, then the specified percentage value is automatically inserted in the **Invoice Discount %** field if the criteria are met, and the related amount is inserted in the **Inv. Discount Amount Excl. Tax** field. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).
 
     > [!TIP]
-    > To have the **Quote Valid Until Date** filled in automatically with a certain number of days after quote creation, you can fill in the **Quote Validity Calculation** field in the **Sales & Receivables** window. 
+    > To have the **Quote Valid Until Date** filled in automatically with a certain number of days after quote creation, you can fill in the **Quote Validity Calculation** field on the **Sales & Receivables** page. 
 
 15. When the sales quote lines are completed, choose the **Send by Email** action.
-16. In the **Send Email** window, fill in any remaining fields and review the embedded sales quote. For more information, see [Send Documents by Email](ui-how-send-documents-email.md).
+16. On the **Send Email** page, fill in any remaining fields and review the embedded sales quote. For more information, see [Send Documents by Email](ui-how-send-documents-email.md).
 17. If the customer accepts the quote, choose the **Make Invoice** or the **Make Order** action.
 
 The sales quote is removed from the database. A sales invoice or a sales order is created based on the information in the sales quote in which you can process the sale. In the **Quote No.** field on the sales invoice or sales order, you can see the number of the sales quote that it was made from. For more information, see [Invoice Sales](sales-how-invoice-sales.md) or [Sell Products](sales-how-sell-products.md).

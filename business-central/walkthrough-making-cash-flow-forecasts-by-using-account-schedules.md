@@ -47,7 +47,7 @@ An account schedule consists of a cash flow account schedule name with a series 
 ### To set up a new account schedule name  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedules**, and then choose the related link.  
-2.  In the **Account Schedule Names** window, choose the **New** to create a new cash flow account schedule name.  
+2.  On the **Account Schedule Names** page, choose the **New** to create a new cash flow account schedule name.  
 3.  In the **Name** field, enter **Forecast**.  
 4.  In the **Description** field, enter **Cash Flow Forecast**.  
 5.  Leave the **Default Column Layout** and **Analysis View Name** fields blank.  
@@ -57,8 +57,8 @@ After an account schedule name is set up, Ken defines each line that appears in 
 
 ### To set up account schedule lines  
 
-1.  In the **Account Schedule Names** window, select the new **Forecast** account schedule name that you have created. On the **Home** tab, in the **Process** group, choose **Edit Account Schedule**.  
-2.  In the **Account Schedule** window, enter each line exactly as shown in the following table.  
+1.  On the **Account Schedule Names** page, select the new **Forecast** account schedule name that you have created. On the **Home** tab, in the **Process** group, choose **Edit Account Schedule**.  
+2.  On the **Account Schedule** page, enter each line exactly as shown in the following table.  
 
     > [!NOTE]  
     >  Using the **Insert CF Accounts** function, you can quickly mark the cash flow accounts from the chart of cash flow accounts and copy them to account schedule lines.  
@@ -76,12 +76,12 @@ Ken is now ready to assign the column layout to the account schedule name.
 
 ### To assign the column layout to the account schedule name  
 
-1.  In the **Account Schedule Names** window, select **Forecast** in the **Name** field.  
+1.  On the **Account Schedule Names** page, select **Forecast** in the **Name** field.  
 2.  In the **Default Column Layout** field, choose the column layout **Cash Flow** to assign as the default column layout.  
 
 ### To view and print the cash flow forecast  
-1.  In the **Account Schedule Names** window, choose the **Overview** action to view the cash flow forecast.  
-2.  In the **Acc. Schedule Overview** window, you can select an amount and then view the cash flow forecast entries that make up the amount. In addition, you can view the formula that is used to calculate the amount. You can also filter the amounts by date and dimension.  
+1.  On the **Account Schedule Names** page, choose the **Overview** action to view the cash flow forecast.  
+2.  On the **Acc. Schedule Overview** page, you can select an amount and then view the cash flow forecast entries that make up the amount. In addition, you can view the formula that is used to calculate the amount. You can also filter the amounts by date and dimension.  
 3.  Choose the **Print** action to print the cash flow forecast.  
 
 ## See Also  

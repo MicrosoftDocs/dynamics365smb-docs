@@ -6,7 +6,7 @@
     documentationcenter: ''
     author: SorenGP
 
-    ms.service: dynamics365-financials
+    ms.service: dynamics365-business-central
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -28,7 +28,7 @@ The VAT rate is calculated from the combination of VAT business posting groups, 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Codes**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  Enter information in the **Code**, **General Posting Type**, and **Description** fields for each VAT code.  
-4.  Choose the **OK** button to close the **VAT Codes** window.  
+4.  Choose the **OK** button to close the **VAT Codes** page.  
 
  he following procedure explains the VAT posting setup.  
 
@@ -49,7 +49,7 @@ The VAT rate is calculated from the combination of VAT business posting groups, 
 
 Now, when you post a document in the general journal and close it, the information specified in the **VAT Posting Setup** card is applied.  
 
-For example, the VAT rate posted in the journal is defined by the setup that you have specified in the **VAT Posting Setup** window.  
+For example, the VAT rate posted in the journal is defined by the setup that you have specified on the **VAT Posting Setup** page.  
 
 > [!NOTE]  
 >  The **VAT Code** and the **Bal. VAT Code**  fields have been added to the journal. The **Bal. VAT Code** is the VAT code that is used to calculate the balancing account.  

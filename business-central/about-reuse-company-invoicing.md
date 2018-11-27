@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 10/01/2018
+ms.date: 11/26/2018
 ms.author: edupont
 
 ---
 # Using the same Office 365 Account in [!INCLUDE[d365fin](includes/d365fin_long_md.md)] and Microsoft Invoicing
-When you sign up for a trial with [!INCLUDE[d365fin](includes/d365fin_md.md)], you can move to a 30-day evaluation phase, you can start a subscription, or you can stop using [!INCLUDE[d365fin](includes/d365fin_md.md)]. In all cases, if you log into the Office Portal, you might see a tile called **Business center** and click it. This is part of the Office 365 Business Premium subscription, so not everyone will see that tile in the Office Portal.  
+When you sign up for a trial with [!INCLUDE[d365fin](includes/d365fin_md.md)], you can move to a 30-day evaluation phase, you can start a subscription, or you can stop using [!INCLUDE[d365fin](includes/d365fin_md.md)]. In all cases, if you log into the Office Portal, you might see a tile called **Microsoft Invoicing** and click it. This is part of the Office 365 Business Premium subscription, so not everyone will see that tile in the Office Portal.  
 
-If you do access the Business center, you will see a section called **Invoicing**. If you access that section, you will see a message that you cannot access Microsoft Invoicing because your account is used in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+If you access Microsoft Invoicing, you will see a message that you cannot access Microsoft Invoicing because your account is used in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 You see a similar message if you install the mobile app for Invoicing.  
 
@@ -28,7 +28,7 @@ So you will have to log into [!INCLUDE[d365fin](includes/d365fin_md.md)] and ren
 ### To rename your company
 1.	Sign in to your [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 2.	Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Companies**, and then choose the related link.  
-3.	In the **Companies** window, choose the **Edit List** button.  
+3.	On the **Companies** page, choose the **Edit List** button.  
 4.  Change the name of the *My Company* entry to something else.  
 
     Wait a number of minutes. We’ll be making a number of changes in the underlying database, and that takes a while.

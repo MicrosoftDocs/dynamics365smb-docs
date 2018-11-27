@@ -119,7 +119,7 @@ A filter pane is divided in three sections: **Views**, **Filter list by**, and *
   To add a filter, select **+ Filter**, select one of the predefined dimensions, and then add the filter criteria in the box.
 
   > [!NOTE]
-  > Filters in the **Filter totals by** section are controlled by FlowFilters in the page design. For technical information, see [FlowFilters](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
+  > Filters in the **Filter totals by** section are controlled by FlowFilters on the page design. For technical information, see [FlowFilters](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
 
 
 ### Entering filter criteria in the filter pane

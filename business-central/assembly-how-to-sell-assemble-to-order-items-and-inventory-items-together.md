@@ -27,7 +27,7 @@ Similar flexibility exists when you are selling items to be assembled to the ord
 >  The following procedure does not include the standard sales order steps that you need to follow before you create an assembly order for unavailable quantities.
 
 ## To sell assemble-to-order items and inventory items together  
-1.  On a sales order line for an item that is set up to be assembled to stock, enter a quantity in the **Quantity** field that exceeds inventory. The **Check Availability** window appears. For more information, see [View the Availability of Items](inventory-how-availability-overview.md).
+1.  On a sales order line for an item that is set up to be assembled to stock, enter a quantity in the **Quantity** field that exceeds inventory. The **Check Availability** page appears. For more information, see [View the Availability of Items](inventory-how-availability-overview.md).
 2.  Note the **Total Quantity** field (a negative value), which you will enter in the next step.  
 3.  In the **Qty. to Assemble to Order** field, enter the value from the previous step.  
 4.  Perform any changes to the assembly components. For more information, see [Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md).  

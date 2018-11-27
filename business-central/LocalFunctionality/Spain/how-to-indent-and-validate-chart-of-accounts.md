@@ -1,6 +1,6 @@
 ---
     title: How to Indent and Validate Chart of Accounts
-    description: You can indent and validate the chart of accounts in the **G/L Account Card** window. You can enter a maximum of 20 numbers. Accounts are sorted in string order, as shown in the following example.
+    description: You can indent and validate the chart of accounts on the **G/L Account Card** page. You can enter a maximum of 20 numbers. Accounts are sorted in string order, as shown in the following example.
 
     services: project-madeira 
     documentationcenter: ''
@@ -17,7 +17,7 @@
 
 ---
 # Indent and Validate Chart of Accounts
-You can indent and validate the chart of accounts in the **G/L Account Card** window. You can enter a maximum of 20 numbers. Accounts are sorted in string order, as shown in the following example.  
+You can indent and validate the chart of accounts on the **G/L Account Card** page. You can enter a maximum of 20 numbers. Accounts are sorted in string order, as shown in the following example.  
 
 1  
 10  
@@ -40,14 +40,14 @@ You can indent and validate the chart of accounts in the **G/L Account Card** wi
 
 5.  In the **Income Stmt. Bal. Acc.** field, select the account to which the changes will be sent after correction.  
 6.  Enter information into the other relevant fields.  
-7.  Choose the **OK** button to close the **G/L Account Card** window.  
-8.  In the **Chart of Accounts** window, select an account, and then choose **Indent Chart of Accounts**.  
+7.  Choose the **OK** button to close the **G/L Account Card** page.  
+8.  On the **Chart of Accounts** page, select an account, and then choose **Indent Chart of Accounts**.  
 9. To validate the chart of accounts, choose the **Yes** button in the dialog box. After validation, you will be notified whether the chart of accounts is correct.  
 10. Choose the **OK** button.  
 
 ## To validate the chart of accounts in Portugal  
 
-1.  In the **Chart of Accounts** window, choose the **Check Chart of Accounts** action.  
+1.  On the **Chart of Accounts** page, choose the **Check Chart of Accounts** action.  
 2.  Choose the **Yes** button.  
 
 ## See Also  

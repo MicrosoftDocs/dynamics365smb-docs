@@ -34,7 +34,7 @@ If you want to invoice more than one shipment at a time, you can use the combine
 7. To post the invoice, choose the **Post** action.  
 
 ## To automatically combine shipments on a single invoice  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Combine Shipments**, and then choose the related link. The batch job request window opens.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Combine Shipments**, and then choose the related link. The batch job request page opens.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Select the **Post Invoices** check box.  
 4.  Choose the **OK** button.  

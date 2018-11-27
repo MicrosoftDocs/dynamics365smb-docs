@@ -8,11 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 10/01/2018
+ms.date: 10/04/2018
 ms.author: sgroespe
 
 ---
-# Enable Automated Data Capture Systems (ADCS)
+# Use Automated Data Capture Systems (ADCS)
+
+> [!NOTE]
+> In the standard version of [!INCLUDE[d365fin](includes/d365fin_md.md)], ADCS only works in on-premise deployments. However, a Microsoft partner can make it work in online deployments by using PowerApps or similar.
+
 You can use your automatic data capture system (ADCS) to register the movement of items in the warehouse and to register some journal activities, such as quantity adjustments in the warehouse item journal and physical inventories.  
 
 To use ADCS, you must give each item stored in the warehouse an item identifier. You must also set up miniforms, handheld functions, data exchanges, and specify settings for fields that control ADCS. You specify whether to use ADCS on the location card of a warehouse.
@@ -33,25 +37,25 @@ To use ADCS, you must specify which warehouse locations use the technology.
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and choose the related link.
 2.  Select a warehouse from the list for which you want to enable ADCS, and then choose the **Edit** action.
-3. In the **Location Card** window, select the **Use ADCS** check box.  
+3. On the **Location Card** page, select the **Use ADCS** check box.  
 
 ## To specify an item to use ADCS  
 Each warehouse item that you want to use with ADCS must be assigned an identifier code to link it with its item number. For example, you can use the item's bar code as the identifier code. An item can also have multiple identifier codes. You may find this useful in the case where an item is available in various units of measures, such as pieces and pallets. In this case, assign an identifier code to each.    
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2.  Select an item from the list that is part of your ADCS solution, and then choose the **Edit** action.
-3. In the **Item Card** window, choose the **Identifiers** action.
-4. In the **Item Identifiers** window, choose the **New** action.
+3. On the **Item Card** page, choose the **Identifiers** action.
+4. On the **Item Identifiers** page, choose the **New** action.
 5. In the **Code** field, specify the identifier for the item. For example, the identifier could be the item's bar code number.  
 
     You can also enter a **Variant Code** and a **Unit of Measure** code.  
 
 6. If needed, enter multiple codes for each item.
 7. Choose the **OK** button.  
-8.  To review the information, choose the **Identifier Code** field to open the **Item Identifiers** window.
+8.  To review the information, choose the **Identifier Code** field to open the **Item Identifiers** page.
 
 ## To add an ADCS user  
-You can add any user as a user of an Automated Data Capture System (ADCS). When you do this, the user must also provide a password. Optionally, you can also provide a connection that identifies the ADCS user as a warehouse employee. The ADCS user password can be different from the Windows logon password of the user. For more information, see [Managing Users and Permissions](ui-how-users-permissions.md).
+You can add any user as a user of an Automated Data Capture System (ADCS). When you do this, the user must also provide a password. Optionally, you can also provide a connection that identifies the ADCS user as a warehouse employee. The ADCS user password can be different from the Pages logon password of the user. For more information, see [Managing Users and Permissions](ui-how-users-permissions.md).
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **ADCS Users**, and then choose the related link.  
 2. Choose the **New** action.  

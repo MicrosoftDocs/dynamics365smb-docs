@@ -23,7 +23,7 @@ For more information about OIOUBL electronic invoicing, see [oioubl.info](https:
 ## Implementation in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]  
 The current requirements for sending electronic invoices are based on OIOUBL, which is based on the Universal Business Language (UBL) version 2.0 standard. For more information, see the [OASIS UBL](https://aka.ms/OasisUblSite) web site. The generated XML documents can then be sent to the customer.  
 
-To send documents electronically, you must assign European Article Numbering (EAN) location numbers and account codes to the relevant customers in the **Customer Card** window. For more information, see [Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md). These numbers are the included when you create documents, and post or issue them. After the documents have been posted or issued, you can create electronic versions to be sent to the customer. You can submit the following types of documents:  
+To send documents electronically, you must assign European Article Numbering (EAN) location numbers and account codes to the relevant customers on the **Customer Card** page. For more information, see [Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md). These numbers are the included when you create documents, and post or issue them. After the documents have been posted or issued, you can create electronic versions to be sent to the customer. You can submit the following types of documents:  
 
 -   Sales invoice  
 -   Service invoice  

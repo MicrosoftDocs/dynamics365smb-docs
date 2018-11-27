@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
-ms.date: 10/01/2018
+ms.date: 11/18/2018
 ms.author: sgroespe
 
 ---
@@ -24,9 +24,10 @@ You may sometimes need to transfer an amount from one bank account to another. T
 3. In the **Account Type** field, select **Bank Account**.
 4. In the **Account No.** field, select the bank from which you want to transfer the funds.
 5. In the **Amount** field, enter the amount to be transferred.
-6. In the **Bal. Account Type** field, select **Bank Account**.
-7. In the **Bal. Account No.** field, select the bank account to which you want to transfer the funds.
-8. Post the journal.
+6. Choose the **Show More Columns** action to view all available fields.
+7. In the **Bal. Account Type** field, select **Bank Account**.
+8. In the **Bal. Account No.** field, select the bank account to which you want to transfer the funds.
+9. Post the journal.
 
 ## To post a transfer between bank accounts with different currency codes
 To transfer funds between bank accounts that use different currencies, you must post two general journal lines.
@@ -45,7 +46,7 @@ To transfer funds between bank accounts that use different currencies, you must 
 12. In the **Bal. Account No.** field, select the bank account from which you want to transfer the funds.
 
     > [!NOTE]  
-    > If the exchange rates used in the journal are different than the exchange rates in the **Currency Exchange Rates** window, enter a third line for the exchange rate gain or loss. Enter **G/L Account** in the **Account Type** field. Enter the G/L account number for exchange rate gain or loss in the **Account No.** field. Enter the exchange rate gain or loss in the **Amount** field with or without a minus sign for credits and debits respectively.
+    > If the exchange rates used in the journal are different than the exchange rates on the **Currency Exchange Rates** page, enter a third line for the exchange rate gain or loss. Enter **G/L Account** in the **Account Type** field. Enter the G/L account number for exchange rate gain or loss in the **Account No.** field. Enter the exchange rate gain or loss in the **Amount** field with or without a minus sign for credits and debits respectively.
 13. Post the journal.
 
 ## See Also

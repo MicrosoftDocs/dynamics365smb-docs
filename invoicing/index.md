@@ -20,7 +20,7 @@ ms.author: edupont
 To get access to [!INCLUDE[d365inv](includes/d365inv.md)], you must have an [Office 365 Business Premium subscription](https://products.office.com/en-us/business/office-365-business-premium). You can access [!INCLUDE[d365inv](includes/d365inv.md)] from the Office 365 app launcher. [!INCLUDE[d365inv](includes/d365inv.md)] is currently available to customers in Canada, the United States, and the United Kingdom.
 
 ## Get to the [!INCLUDE[d365inv](includes/d365inv.md)] dashboard
-To get an overview of your business, use [!INCLUDE[d365inv](includes/d365inv.md)] as your dashboard. Just sign in to Office 365, choose the **Business center** tile in the app launcher, and then go to the **Invoicing** tab. Alternatively, bookmark this page and log in with your Office 365 account: [https://businesscentral.dynamics.com/invoicing](https://businesscentral.dynamics.com/invoicing?redirectedfromsignup)  
+To get an overview of your business, use [!INCLUDE[d365inv](includes/d365inv.md)] as your dashboard. Just sign in to Office 365, choose the **Business center** tile in the app launcher, and then go to the **Invoicing** tab. Alternatively, bookmark this page and log in with your Office 365 account: [https://businesscentral.dynamics.com/invoicing?redirectedfromsignup=1](https://businesscentral.dynamics.com/invoicing?redirectedfromsignup=1)  
 
 The [!INCLUDE[d365inv](includes/d365inv.md)] home page shows key points of interest about your business, such as the outstanding amount for invoices that have not yet been paid, and the overdue amount for invoices that should have been paid by now.  
 

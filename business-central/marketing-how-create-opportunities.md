@@ -18,7 +18,7 @@ ms.author: jswymer
 # Create Sales Opportunities
 You can create opportunities for the sales opportunities you have on your contacts. All opportunities must be assigned to a salesperson or purchaser and must have a contact.
 
-You can create opportunities from the **Opportunity List** window. But you typically will create opportunities from the specific contact or salespeople.
+You can create opportunities from the **Opportunity List** page. But you typically will create opportunities from the specific contact or salespeople.
 
 Before you can create opportunities, you must set up opportunity sales cycles. For more information see [Set Up Opportunity Sales Cycles and Stages](marketing-how-setup-opportunity-sales-cycles-stages.md).
 

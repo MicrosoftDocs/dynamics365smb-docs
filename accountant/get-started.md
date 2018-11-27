@@ -6,7 +6,7 @@ author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: article
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 11/05/2018
+ms.date: 11/23/2018
 ms.author: edupont
 ---
 # Get started with [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
@@ -21,13 +21,15 @@ You can get access to [!INCLUDE [d365acc](includes/d365acc_md.md)] by signing up
 
 ## Working with individual clients
 The dashboard shows the most important information about each client.  
-![Accountant Hub](./media/accountant-get-started/accountant-dashboard-tasks.png)
+
+> [!div class="mx-imgBorder"]
+> ![Accountant Hub](./media/accountant-get-started/accountant-dashboard.png)
 
 The **Client Name** column shows the names of your clients, and the **Company Name** column lists all companies if the client has more than one company in [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)]. There are also fields to show you tasks that are assigned to you in your client's company, including overdue tasks.  
 
 You can customize the dashboard to show the data points that you want to see by adding or removing columns. For example, you might want to see taxes that are due, how many open sales documents each client has, or the number of purchase invoices that are due next week. You can configure the view to suit your needs. If you have many clients, you can use filters to sort your view.  
 
-Next to the client name, the ellipsis (...) reveals a short menu:
+Next to the client name, the three dots reveal a short menu:
 
 - Refresh the current company and get fresh data for the client  
 - Go to the client's [!INCLUDE [d365fin](includes/d365fin_md.md)]  
@@ -46,26 +48,29 @@ You can see more information about your clients' data by choosing the name of th
 * Overdue purchase invoices  
 * Overdue sales invoices  
 
-![Client company details in the accountant's dashboard](./media/accountant-get-started/accountant-company-details.png)
+> [!div class="mx-imgBorder"]
+> ![Client company details in the accountant's dashboard](./media/accountant-get-started/accountant-company-details.png)
 
 Technically, you have now logged into your client's [!INCLUDE [d365fin](includes/d365fin_md.md)], and data you see is live data. If you want to take a closer look at the data, such as an overdue purchase invoice, choose the link, and you are taken to the client company.  
 
 > [!TIP]
->  You can launch predefined Excel workbooks from the **Reports** tab in the ribbon. These Excel workbooks are designed as ready-to-print key financial statements and reports, but you can also modify them to fit your needs. For more information, see [Analyzing Financial Statements in Microsoft Excel](/dynamics365/business-central/finance-analyze-excel?toc=/dynamics365/accountants/toc.json) in the Help for [!INCLUDE [d365fin](includes/d365fin_md.md)].  
+> You can launch predefined Excel workbooks from the **Reports** tab in the ribbon. These Excel workbooks are designed as ready-to-print key financial statements and reports, but you can also modify them to fit your needs. For more information, see [Analyzing Financial Statements in Microsoft Excel](/dynamics365/business-central/finance-analyze-excel?toc=/dynamics365/accountants/toc.json) in the Help for [!INCLUDE [d365fin](includes/d365fin_md.md)].  
 
 Otherwise, close the details pane and continue to the next client.  
 
 ## Assigned tasks
-In your client's [!INCLUDE [d365fin](includes/d365fin_md.md)], you can assign tasks to yourself and others, and others can assign tasks to you. Your dashboard in [!INCLUDE [d365acc](includes/d365acc_md.md)] gives you an overview of assigned tasks for each client, and you can also access a list of all assigned tasks by choosing **My User Tasks** ont he **Home** page.  
+In your client's [!INCLUDE [d365fin](includes/d365fin_md.md)], you can assign tasks to yourself and others, and others can assign tasks to you. Your dashboard in [!INCLUDE [d365acc](includes/d365acc_md.md)] gives you an overview of assigned tasks for each client, and you can also access a list of all assigned tasks by choosing **My User Tasks** on the **Home** page.  
 
 In the client company, you also have cues that call out tasks assigned to you in this particular client.
 
-![Tasks assigned to the accountant in the client company](./media/accountant-get-started/accountant-company-details-tasks.png)
+> [!div class="mx-imgBorder"]
+> ![Tasks assigned to the accountant in the client company](./media/accountant-get-started/accountant-company-details-tasks.png)
 
 ### My user tasks
 The **My User Tasks** list in [!INCLUDE [d365acc](includes/d365acc_md.md)] helps you prioritize your day by showing more information about tasks assigned to you across all your clients.  
 
-![List of tasks assigned to me as an external accountant](./media/accountant-get-started/accountant-tasklist.png)
+> [!div class="mx-imgBorder"]
+> ![List of tasks assigned to me as an external accountant](./media/accountant-get-started/accountant-tasklist.png)
 
 You can sort by due date, for example, or any other type of data that helps you prioritize your day. By default, the list shows all tasks that are assigned to you, but you can set up filters to only show tasks that are marked as high priority, for example.
 
@@ -74,8 +79,9 @@ To pick up a task, simply choose it from the list of pending user tasks. In the 
 When you have completed a task, simply mark it as completed.  
 
 ## See Also
+
 [Add Clients to Your Dashboard in [!INCLUDE[d365acc](includes/d365acc_md.md)]](add-client.md)  
 [Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](index.md)  
-[Analyzing Financial Statements in Microsoft Excel](/dynamics365/business-central/finance-analyze-excel?toc=/dynamics365/accountants/toc.json)   
+[Analyzing Financial Statements in Microsoft Excel](/dynamics365/business-central/finance-analyze-excel?toc=/dynamics365/accountants/toc.json)  
 [Accountant Experiences in [!INCLUDE[d365fin](includes/d365fin_md.md)]](/dynamics365/business-central/finance-accounting?toc=/dynamics365/accountants/toc.json)  
 [Dynamics 365 — Accountant Hub on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  

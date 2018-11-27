@@ -19,13 +19,21 @@ There are many general features that help you enter data in a quick and easy way
 
 <!-- The examples in this article use the demonstration data.-->
 
-## Quick Entry Fields
+## Using Quick Entry on Fields
 
-After you enter data in a field, you can press Enter to go to the next field and start entering data. However, there might be some fields that you typically want to skip when entering data.  
+After you enter data in a field, you press Enter to go to the next field in sequence, and then start entering data there. However, there might be some fields that you typically want to skip when entering data, especially with repetitive tasks. This is where the quick entry feature comes in handy.
 
-You might have already seen this in action because system administrators and page developers might have already removed fields from the quick entry list. noticed noticed that sometimes when you press Enter, you do not go the very next field, but instead you skip one or fields. This is the Quick Entry feature at work.    
-Terminology: "Quick Entry" (note Q, E, space)
-Describe benefits
+### How it works
+
+Each field can be marked for either quick entry or not quick entry. When a field is marked for quick entry, it is included in the sequence when pressing Enter. When a field is not marked for quick entry, it is skipped when pressing Enter.
+
+You have perhaps have already seen this in action because system administrators and page developers might have already marked fields as non-quick entry list.
+
+
+### Benefits
+Quick Entry helps you focus on the most essential fields when working without a mouse or pointing device. It accelerates repetitve typing tasks, ideal for quickly creating multiple records in sequence, such as a creating a batch of sales orders or registering a sequence of new items. 
+
+-freeDescribe benefits
 Recommended phrases: "Accelerate repetitive typing", "helps you focus on the most essential fields when working mouse-free", "great for quickly creating multiple records in sequence, such as a batch of orders or registering a sequence of new items"
 Describe how QE works high-level, without describing each micro behaviour
 Should mention that it works across fields and rows, is intended for editable fields, will automatically expand fasttabs

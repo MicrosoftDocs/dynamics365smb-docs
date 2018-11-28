@@ -110,7 +110,7 @@ The best price is the lowest permissible price with the highest permissible line
 If no special price can be calculated for the item on the line, then either the last direct cost or the unit price from the item card is inserted.
 
 ## To copy sales prices  
-If you want to copy sales prices, such as an individual customer's sales prices to use for a customer price group, you must run the **Suggest Sales Price on Wksh.** batch job. You find the batch job on the **Sales Price Worksheet** page.    
+If you want to copy sales prices, such as an individual customer's sales prices to use for a customer price group, you must run the **Suggest Sales Price on Wksh.** batch job. You can find a link to the batch job on the **Sales Price Worksheet** page.    
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Price Worksheet**, and then choose the related link.  
 2.  Choose the **Suggest Sales Price on Wksh.** action.  

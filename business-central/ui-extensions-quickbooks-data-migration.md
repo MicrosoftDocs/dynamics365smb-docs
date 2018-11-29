@@ -40,10 +40,14 @@ An important part of the migration process is to specify the accounts to migrate
 - The sale of items or services to customers  
 - The purchase of items or services from vendors  
 - Adjustments in the general ledger  
-Business Central requires that general ledger accounts have account numbers assigned to them. Make sure that account numbers are assigned to your accounts in QuickBooks Online.
-If transactions in QuickBooks Online have tax amounts, you must set up a tax account for your tax jurisdictions in Business Central before you can post transactions.
 
-In order to get your data out of the QuickBooks desktop application you will need to download the Microsoft Data Exporter Tool.  The instructions for the tool are in the Data Migration Wizard in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The tool will connect to your QuickBooks application and export the applicable data to a *.zip file.  
+Business Central requires that general ledger accounts have account numbers assigned to them. Make sure that account numbers are assigned to your accounts in QuickBooks.
+If transactions in QuickBooks have tax amounts, you must set up a tax account for your tax jurisdictions in Business Central before you can post transactions.
+
+In order to get your data out of the QuickBooks desktop application you will need to download the Microsoft Data Exporter Tool.  The instructions for the tool are in the Data Migration Wizard in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The tool will connect to your QuickBooks application and export the applicable data to a .zip file.  
+
+> [!NOTE]
+> Currently the data exporter tool only works with QuickBooks 2017 and 2018.
 
 ## Finding the QuickBooks Data Migration Extension
 The QuickBooks Data Migration extension is installed and ready to go as an integrated part of the Data Migration assisted setup guide. If you are ready to get started now, and have exported your data from QuickBooks, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link. Choose **Migrate business data**, and then follow the steps in the guide.  

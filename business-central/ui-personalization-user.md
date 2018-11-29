@@ -71,7 +71,7 @@ Depending on the type of page and what it includes, you can do various things, l
 
 ## <a name="What"></a>What you can personalize
 
-|What|How to do it|Remarks|
+|What you can do|How to do it|Remarks|
 |----|------------|-------|
 |Move something, like a field, column in list, tile, or part|Point anywhere on what you want to move, and drag it to its new location. The location is indicated by either a thick horizontal or vertical line.||
 |Remove something|Select the arrowhead, and choose <b>Hide</b>.|If the field you hide is also shown in the FastTab heading when the FastTab is collapsed, the field will no longer appear there.|

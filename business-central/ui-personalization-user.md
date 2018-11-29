@@ -80,7 +80,7 @@ Depending on the type of page and what it includes, you can do various things, l
 |Change the width of a column|In the table header row, drag the column's right border. <br /><br />To maximize the column width to fit the longest line of text in the column, double-click the right border.||
 |Make a field appear in the heading of a Fastab when the FastTab is collapsed|Select the arrowhead, and choose <b>Show when collapsed</b>. |*FastTab* is the term used for a group of fields that appear under a common heading. Use the <b>Show when collapsed</b> option to display the most important fields. If you select a field in the heading, the FastTab will open and focus on the selected field.<br /><br />This option is only applicable if a page has a more than one FastTab. If the is only one FastTab, it cannot be collapsed, so the <b>Show when collapsed</b> option is not available.|
 |Make a field only appear when you select **Show more**|Select the arrowhead, and choose <b>Show under "Show More"</b>.|
-|Change a field from only appearing when **Show more** is selected to always appearing.|Select the arrowhead, under **Low**, select <b>Low</b> so that a check mark is cleared. ||
+|Change a field from only displaying when **Show more** is selected to display always.|Select the arrowhead, and choose <b>Show always</b>.||
 
 ## Clear personalization to change a page back to its original layout
 At some point, you might want to undo all the personalization changes that you have made to a page over time so that page looks like it did originally. To do this, in the **Personalizing** banner, choose **More**, and then **Clear personalization**.

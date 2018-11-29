@@ -60,7 +60,7 @@ Administrators can define periods of time during which specified users are able 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Setup**, and then choose the related link.
 2. On the **User Setup** page opens, choose the **New** action.
-3. In the **User ID** field, enter the ID of a user, or choose the field to see all current Pages users in the system.
+3. In the **User ID** field, enter the ID of a user, or choose the field to see all current Windows users in the system.
 4. Fill in the fields as necessary.
 
 ## To create or modify a permission set

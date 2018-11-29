@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 11/26/2018
     ms.author: sgroespe
 
 ---
@@ -46,7 +46,7 @@ Creating a data exchange definition involves two tasks:
     |---------------------------------|---------------------------------------|  
     |**Code**|Enter a code to identify the data exchange definition.|  
     |**Name**|Enter a name for the data exchange definition.|  
-    |**File Type**|Specify what type of file that the data exchange definition is used for. You can select between three file types:<br /><br /> -   **XML**: Layered strings of content and markup surrounded by tags indicating function.<br />-   **Variable Text**: Records have variable length and are separated by a character, such as comma or semi\-colon. Also known as *delimited file*.<br />-   **Fixed Text**: Records have the same length, using pad characters, and each record is on a separate line. Also known as *fixed-width file*.|  
+    |**File Type**|Specify what type of file that the data exchange definition is used for. You can select between four file types:<br /><br /> -   **XML**: Layered strings of content and markup surrounded by tags indicating function.<br />-   **Variable Text**: Records have variable length and are separated by a character, such as comma or semi\-colon. Also known as *delimited file*.<br />-   **Fixed Text**: Records have the same length, using pad characters, and each record is on a separate line. Also known as *fixed-width file*.<br />- **Json**: Layered strings of content in JavaScript.|  
     |**Type**|Specify what type of business activity the data exchange definition is used for, such as **Payment Export**.|  
     |**Data Handling Codeunit**|Specify the codeunit that transfers data in and out of tables in [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
     |**Validation Codeunit**|Specify the codeunit that is used to validate data against pre-defined business rules.|  

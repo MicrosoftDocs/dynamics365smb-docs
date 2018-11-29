@@ -32,7 +32,7 @@ Page Search has evolved into Tell Me to help you get work done quickly. Page Sea
 You can use Tell Me in the on-premises Web Client to find actions, pages, and reports, but not documentation. Users connecting to [!INCLUDE[d365fin](includes/d365fin_md.md)] from the Dynamics NAV client continue to use Page Search.
 
 ### Is Tell Me available for all form factors?
-Tell Me is only available in the Web Client or Pages desktop app.
+Tell Me is only available in the Web Client or Windows desktop app.
 
 ### Are the documentation results available in any language?
 The help articles display in the language you have specified in **My Settings**, if help is available in that language.

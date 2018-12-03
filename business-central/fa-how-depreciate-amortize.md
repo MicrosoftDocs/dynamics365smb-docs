@@ -39,7 +39,7 @@ Once a month, or whenever you choose, you can run the **Calculate Depreciation**
     The batch job calculates the depreciation and creates lines in the fixed asset G/L journal.  
 4. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA G/L Journals**, and then choose the related link.  
 
-    In the **Fixed Asset G/L Journal** window, in the **No. of Depreciation Days** field you can see how many days of depreciation have been calculated.  
+    On the **Fixed Asset G/L Journal** page, in the **No. of Depreciation Days** field you can see how many days of depreciation have been calculated.  
 5. Choose the **Post** action.  
 
 ## To post depreciation manually from the fixed asset G/L journal
@@ -77,18 +77,18 @@ When you fill in journal lines to post to a depreciation book, you can duplicate
 5. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Journals**, and then choose the related link.  
 
     > [!NOTE]  
-    >   The **Fixed Asset Journal** window contains new lines for different depreciation books according to the duplication list.  
+    >   The **Fixed Asset Journal** page contains new lines for different depreciation books according to the duplication list.  
 6. Review or edit the lines, and then choose the **Post** action.  
 
     > [!NOTE]  
     >   Another way to duplicate an entry in a separate book is to enter a depreciation book code in the **Duplicate in Depreciation Book** field when you fill in a journal line.  
 
-You can copy entries from one depreciation book to another by using the **Copy Depreciation Book** batch job. The batch job creates journal lines in the journal batch that you have specified in the **FA Journal Setup** window for the depreciation book that you want to copy to. For more information, see the following procedure.  
+You can copy entries from one depreciation book to another by using the **Copy Depreciation Book** batch job. The batch job creates journal lines in the journal batch that you have specified on the **FA Journal Setup** page for the depreciation book that you want to copy to. For more information, see the following procedure.  
 
 ## To copy fixed asset ledger entries between depreciation books
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Books**, and then choose the related link.  
 2. Open the relevant depreciation book card, and then choose the **Copy Depreciation Book** action.  
-3. In the **Copy Depreciation Book** window, fill in the fields as necessary.  
+3. On the **Copy Depreciation Book** page, fill in the fields as necessary.  
 4. Choose the **OK** button.  
 
 The copied lines are created in either the fixed asset G/L journal or the fixed asset journal, depending on whether the depreciation book that you are copying has integration to the general ledger.  

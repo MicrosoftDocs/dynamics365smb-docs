@@ -45,8 +45,8 @@ Both batch jobs will check if there is already a line with the same values in th
 
 ## To automatically add physical inventory order lines from inventory  
 
-1.  In the **Phys. Inventory Order** window, choose the **Calculate Lines** action.  
-2.  In the **Calc. Phys. Invt. Order Lines** window, on the **Options** FastTab, fill in the fields as described in the following table.  
+1.  On the **Phys. Inventory Order** page, choose the **Calculate Lines** action.  
+2.  On the **Calc. Phys. Invt. Order Lines** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -58,8 +58,8 @@ Both batch jobs will check if there is already a line with the same values in th
 
 ## To automatically add physical inventory order lines by copying documents  
 
-1.  In the **Phys. Inventory Order** window, choose the **Copy Document** action.  
-2.  In the **Copy Phys. Invt. Order** window, on the **Options** FastTab, fill in the fields as described in the following table.  
+1.  On the **Phys. Inventory Order** page, choose the **Copy Document** action.  
+2.  On the **Copy Phys. Invt. Order** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

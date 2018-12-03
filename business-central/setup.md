@@ -18,7 +18,7 @@ ms.author: edupont
 
 For example, your chart of accounts is prefilled with a number of posting accounts ready for use. You can, of course, change the chart of accounts to suit your needs. For more information, see [Finance](finance.md).
 
-From your Role Center, you can access assisted setup guides that help you configure certain scenarios and add features to [!INCLUDE[d365fin](includes/d365fin_md.md)]. For information about how to access all assisted and manual setup windows, see [Getting Ready for Doing Business](ui-get-ready-business.md).
+From your Role Center, you can access assisted setup guides that help you configure certain scenarios and add features to [!INCLUDE[d365fin](includes/d365fin_md.md)]. For information about how to access all assisted and manual setup pages, see [Getting Ready for Doing Business](ui-get-ready-business.md).
 
 > [!NOTE]
 > You can set up a new company in [!INCLUDE[d365fin](includes/d365fin_md.md)] with RapidStart Services, which is a tool designed to shorten deployment times, improve quality of implementation, introduce a repeatable approach to implementations, and enhance productivity by automating and simplifying recurring tasks. For more information, see [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md).

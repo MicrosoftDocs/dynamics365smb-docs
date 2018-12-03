@@ -21,9 +21,9 @@ A batch job is a routine that processes data in batches, for example the **Adjus
 A batch job is like a report, except the batch job uses the result of its work to update information directly, instead of printing the results.
 
 ## To run a batch job
-1. To open the request window for the relevant batch job, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter the name of the batch job, and then choose the related link.
+1. To open the request page for the relevant batch job, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter the name of the batch job, and then choose the related link.
 2. If there is an **Options** FastTab for the batch job, fill in the fields to determine what the batch job will do.
-3. The window may contain one or more FastTab with filters, which you can use to limit the data included in the batch job. You can enter criteria in the suggested filters or add more filters.
+3. The page may contain one or more FastTab with filters, which you can use to limit the data included in the batch job. You can enter criteria in the suggested filters or add more filters.
 4. Choose the **OK** button to start the batch job.
 
 ## See Also

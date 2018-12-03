@@ -18,14 +18,14 @@
 # Set Up Basic Warehouses with Operations Areas
 If internal operation areas such as production or assembly exist in basic warehouse configurations where locations use the **Bin Mandatory** setup field and possibly the **Require Pick** and **Require Put-away** setup fields, then you can use the following basic warehouse documents to record your warehouse activities for internal operation areas:  
 
-- **Inventory Movement** window.  
-- **Inventory Pick** window.  
-- **Inventory Put-away** window.
+- **Inventory Movement** page.  
+- **Inventory Pick** page.  
+- **Inventory Put-away** page.
 
 > [!NOTE]
 > Even though the settings are called **Require Pick** and **Require Put-away**, you can still post receipts and shipments directly from the source business documents at locations where you select these check boxes.  
 
-To use these windows with internal operations, such as to pick and move components to production, you must make some or all the following setup steps depending on how much control you need:  
+To use these pages with internal operations, such as to pick and move components to production, you must make some or all the following setup steps depending on how much control you need:  
 
 - Enable the inventory pick, move, and put-away documents.  
 - Define default bin structures for components and end items flowing to and from operation resources.  
@@ -55,14 +55,14 @@ The following procedures are based on setting up basic warehouse activities arou
 
 5. On the **Bins** FastTab, in the **From-Production Bin Code** field, enter the code of the bin in the production area where finished end items are taken from by default when the process involves a warehouse activity. In basic warehouse configurations, the activity is recorded as an inventory put-away or an inventory movement.  
 
-Now, production order component lines with the default bin code require that forward-flushed components are placed there. However, until the components are consumed from that bin, other component demands may pick or consume from that bin because they are still considered available bin contents. To make sure that bin content is only available to component demand that uses that to-production bin, you must select the **Dedicated** field on the line for that bin code in the **Bins** window that you open from the location card.
+Now, production order component lines with the default bin code require that forward-flushed components are placed there. However, until the components are consumed from that bin, other component demands may pick or consume from that bin because they are still considered available bin contents. To make sure that bin content is only available to component demand that uses that to-production bin, you must select the **Dedicated** field on the line for that bin code on the **Bins** page that you open from the location card.
 
 This flow chart shows how the **Bin Code** field on production order component lines is filled according to your setup.  
 
 ![Bin flow chart](media/binflow.png "BinFlow")    
 
 ## To define a default bin structure in the assembly area
-Components for assembly orders cannot be picked or posted with inventory picks. Instead, use the **Inventory Movement** window. For more information, see [Move Components to an Operation Area in Basic Warehousing](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+Components for assembly orders cannot be picked or posted with inventory picks. Instead, use the **Inventory Movement** page. For more information, see [Move Components to an Operation Area in Basic Warehousing](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
 When picking and shipping sales line quantities that are assembled to the order, you must follow certain rules when creating the inventory pick lines. For more information, see the “Handling Assemble-to-Order Items in Inventory Picks” section in [Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md).
 
@@ -115,14 +115,14 @@ The same bin code is in turn copied to the **Bin Code** field on the inventory p
 ## To create dedicated component bins
 You can specify that quantities in a bin are protected from being picked for other demands than demand from their current purpose.
 
-Quantities in dedicated bins can still be reserved. Accordingly, the quantities in dedicated bins are included in the **Total Available Quantity** field in the **Reservation** window.
+Quantities in dedicated bins can still be reserved. Accordingly, the quantities in dedicated bins are included in the **Total Available Quantity** field on the **Reservation** page.
 
-For example, is a work center is set up with a bin code in the **To-Production Bin Code** field. Production order component lines with that bin code require that forward-flushed components are placed there. However, until the components are consumed from that bin, other component demands may pick or consume from that bin because they are still considered available bin contents. To make sure that bin content is only available to component demand that uses that to-production bin, you must select the **Dedicated** field on the line for that bin code in the **Bins** window that you open from the location card.
+For example, is a work center is set up with a bin code in the **To-Production Bin Code** field. Production order component lines with that bin code require that forward-flushed components are placed there. However, until the components are consumed from that bin, other component demands may pick or consume from that bin because they are still considered available bin contents. To make sure that bin content is only available to component demand that uses that to-production bin, you must select the **Dedicated** field on the line for that bin code on the **Bins** page that you open from the location card.
 
 Making a bin dedicated provides similar functionality to using bin types, which is only available in advanced warehousing. For more information, see [Set Up Bin Types](warehouse-how-to-set-up-bin-types.md).
 
 > [!Caution]
-> Items in dedicated bins are not protected when they are picked and consumed as production components with the Inventory Pick window.
+> Items in dedicated bins are not protected when they are picked and consumed as production components with the Inventory Pick page.
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link. Select the location that you want to update.  
 2.  Choose the **Bins** action.  

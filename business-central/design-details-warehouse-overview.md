@@ -64,7 +64,7 @@ Warehouse functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)] can be im
 -   **Whse. Item Reclass. Journal**  
 -   (Various reports)  
 
-For more information about each document, see the respective window topics.  
+For more information about each document, see the respective page topics.  
 
 ### Terminology  
 To align with the financial concepts of purchases and sales, [!INCLUDE[d365fin](includes/d365fin_md.md)] warehouse documentation refers to the following terms for item flow in the warehouse.  

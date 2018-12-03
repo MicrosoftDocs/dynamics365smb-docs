@@ -18,7 +18,7 @@
 # Work on Service Tasks
 After you have created a service order or service quote, registered service item lines, and allocated resources to the service items in the order or quote, you can start repairing and maintaining the service items.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] features a **Service Tasks** window that gives an overview of all the service items that need attention. Think of it as your service dashboard where you can see what orders are pending, look for and register spare parts, and keep your inventory up-to-date.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] features a **Service Tasks** page that gives an overview of all the service items that need attention. Think of it as your service dashboard where you can see what orders are pending, look for and register spare parts, and keep your inventory up-to-date.  
 
 To track changes and get a graphical view of your service business, use [!INCLUDE[d365fin](includes/d365fin_md.md)] statistics tools for quick, automatically generated charting and analysis.  
 
@@ -27,7 +27,7 @@ To track changes and get a graphical view of your service business, use [!INCLUD
 2. If you want a list of service tasks a certain resource or resource group is allocated to, fill in the **Resource Filter** or **Resource Group Filter** field and press Enter.  
 3. If you want a list of service tasks with a certain response date or response dates within a certain time period, fill in the **Response Date Filter** field and press Enter.  
 4. If you want a list of service tasks with a certain allocation status or repair status, fill in the **Allocation Status Filter** or **Repair Status Code Filter** field and press Enter.  
-5. Select the service task you want to work on. On the **Navigate** tab, in the **Service Tasks** group, choose **Item Worksheet**. The **Service Item Worksheet** window opens.  
+5. Select the service task you want to work on. On the **Navigate** tab, in the **Service Tasks** group, choose **Item Worksheet**. The **Service Item Worksheet** page opens.  
 6. Register standard texts, spare parts, resource hours, and costs as appropriate using the corresponding options in the **Type** field:  <Blank>, **Item**, **Resource**, and **Cost**.  
 7. In the **Repair Status** field, select the appropriate status.  
 
@@ -35,7 +35,7 @@ To track changes and get a graphical view of your service business, use [!INCLUD
    >  Fill in the **Repair Status** field with the **Finished** or **Partly Serviced** status if the service item has been completely serviced or another resource will continue servicing. The **Finished** or **Reallocation Needed** status is specified automatically for the allocation entry corresponding to the service item.  
 
 ## To register service operations  
-When performing a service on a service order, you can register the details specifying the items used, costs incurred, and the time spent. The data you specify is stored in the **Service Item Worksheet** window. You can update the data when necessary.
+When performing a service on a service order, you can register the details specifying the items used, costs incurred, and the time spent. The data you specify is stored on the **Service Item Worksheet** page. You can update the data when necessary.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Orders**, and then choose the related link.  
 2. Open the service order to register the service for, and choose the item line.  
@@ -46,7 +46,7 @@ When performing a service on a service order, you can register the details speci
    >  You can also register service directly on the service lines linked to the service order.  
 
 ## To register spare parts  
-When working on service items in service orders, you may need to use spare parts for the service. The following procedure shows how to register the spare parts you use in the **Service Item Worksheet** window.  
+When working on service items in service orders, you may need to use spare parts for the service. The following procedure shows how to register the spare parts you use on the **Service Item Worksheet** page.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Tasks**, and then choose the related link.
 2. Choose the line that includes the relevant service item, and then choose the **Item Worksheet** action.  
@@ -55,7 +55,7 @@ When working on service items in service orders, you may need to use spare parts
 5. In the **No.** field, choose the relevant spare part.  
 6. In the **Quantity** field, enter the quantity of items you want to use.  
 
- You can use a similar procedure to register the spare parts in the **Service Lines** window, which you can open from the **Service Order** window.  
+ You can use a similar procedure to register the spare parts on the **Service Lines** page, which you can open from the **Service Order** page.  
 
 ## To register spare parts from a service order  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Orders**, and then choose the related link.  
@@ -90,16 +90,16 @@ When you register a service item line in a service order or quote, depending on 
 3. On the service item line you want to change the response time for, either in the **Response Time (Hours)** field or in the **Response Date** and **Response Time** fields, enter the new response hours or response date and time.  
 
 ## To register fault/resolution codes  
-After repairing a service item, you can register both the fault code and the resolution code for the item by selecting a combination from the existing fault/resolution codes relationships. The fault and resolution codes will appear in the corresponding fields in the **Service Item Worksheet** window. You can also register the codes directly in this window.  
+After repairing a service item, you can register both the fault code and the resolution code for the item by selecting a combination from the existing fault/resolution codes relationships. The fault and resolution codes will appear in the corresponding fields on the **Service Item Worksheet** page. You can also register the codes directly in this page.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Tasks**, and then choose the related link.
 2. Choose the line that includes the relevant service item, and then choose the **Item Worksheet** action.  
-3. In the **Service Item Worksheet** window, choose **Fault/Resol. Codes Relationships**. The **Fault/Resolution Codes Relationships** window opens.  
+3. On the **Service Item Worksheet** page, choose **Fault/Resol. Codes Relationships**. The **Fault/Resolution Codes Relationships** page opens.  
 
   >  [!Note]
-  >  Filters are set on the relationships that are shown in the window by copying the service item group and the fault codes from the **Service Item Worksheet** window.  
+  >  Filters are set on the relationships that are shown on the page by copying the service item group and the fault codes from the **Service Item Worksheet** page.  
 
-4. Fill out the line. Choose the combination of fault and resolution codes, and then choose **OK** to copy it to the service item. If an appropriate combination cannot be found, you can create a new combination in the window.  
+4. Fill out the line. Choose the combination of fault and resolution codes, and then choose **OK** to copy it to the service item. If an appropriate combination cannot be found, you can create a new combination on the page.  
 
 ## See Also  
 [Set Up Fault Reporting](service-how-setup-fault-reporting.md)

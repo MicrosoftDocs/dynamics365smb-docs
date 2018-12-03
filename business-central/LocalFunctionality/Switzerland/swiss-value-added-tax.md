@@ -25,7 +25,7 @@
 For more information about Swiss VAT reporting and coding requirements, see [Swiss VAT Information](https://www.estv.admin.ch/estv/en/home/estv-suissetax/sw-hersteller.html). The information is available in French, German, and Italian.  
 
 ## VAT Amounts and VAT Exchange Rates  
-According to local VAT laws, the VAT base amount for an invoice can be reduced by the payment discount if a discount is granted. To allow automatic VAT adjustment for a payment discount on an invoice, the **Adjust for Payment Discount** field is activated by default in the **General Ledger Setup** window. You can also activate this function in the VAT posting setup. For more information, see the General Ledger Setup table and the VAT Posting Setup table.  
+According to local VAT laws, the VAT base amount for an invoice can be reduced by the payment discount if a discount is granted. To allow automatic VAT adjustment for a payment discount on an invoice, the **Adjust for Payment Discount** field is activated by default on the **General Ledger Setup** page. You can also activate this function in the VAT posting setup. For more information, see the General Ledger Setup table and the VAT Posting Setup table.  
 
 ### Currency Exchange Rates for VAT Reporting  
 For invoices in foreign currency, you must use the official exchange rate provided by the government for the VAT calculation itself. You can also set up additional exchange rates for VAT, which you can use for aspects of the invoice other than the VAT calculation. You can provide the correct government VAT exchange rate for each relevant foreign currency in the exchange rate setup for invoices. For more information, see the Currency Exchange Rate table.  

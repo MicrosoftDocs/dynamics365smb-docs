@@ -14,6 +14,7 @@
     ms.search.keywords:
     ms.date: 10/01/2018
     ms.author: sgroespe
+    redirect_url: finance-define-and-allocate-costs
 
 ---
 # Scenario Example: Defining Static Allocations Based on Allocation Ratio
@@ -27,7 +28,7 @@ This topic describes how to define three new allocation target cost objects for 
 ## To define the allocation source PROD cost center on the General FastTab  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cost Allocation**, and then choose the related link.  
-2.  In the **Cost Allocation** window, choose the **New** action.  
+2.  On the **Cost Allocation** page, choose the **New** action.  
 3.  In the **ID** field, press Enter or enter an ID.  
 4.  In the **Level** field, enter **1**.  
 5.  In the **Valid From** and **Valid To** fields, enter appropriate dates.  
@@ -56,7 +57,4 @@ This topic describes how to define three new allocation target cost objects for 
 >  [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically calculates the **Percent** field using a percentage rate that is dependent on all three allocation ratios that are entered in the **Share** field for all three lines.  
 
 ## See Also  
-[Set Up Allocation Source and Targets](finance-how-to-set-up-allocation-source-and-targets.md)   
 [Defining and Allocating Costs](finance-define-and-allocate-costs.md)   
-[Scenario Example: Defining Dynamic Allocations Based on Items Sold](finance-scenario-example-defining-dynamic-allocations-based-on-items-sold.md)   
-[Defining and Allocating Costs](finance-define-and-allocate-costs.md)

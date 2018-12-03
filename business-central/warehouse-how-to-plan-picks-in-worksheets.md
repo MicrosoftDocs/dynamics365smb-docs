@@ -38,8 +38,8 @@ If you sort by due date, you can choose to delete from the worksheet all lines e
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Pick Worksheet**, and then choose the related link.  
 2.  Choose the **Get Whse. Documents** action.  
 3.  Select the shipments for which you want to prepare a pick. You can now sort the lines to some degree, but the sorting you do here will not be carried through to the pick instruction. You can also delete some of the lines to make a more effective pick. For instance, if there are a number of lines with items in cross-dock bins, you might want to create a pick for all the lines associated with these lines. The cross-docked items will be shipped, along with the other items on the shipments, and the cross-dock bins will have space for more incoming items.  
-4.  Choose the **Create Pick** action, and fill in the **Create Pick** request window. The sorting you request here will order the pick lines you create. For example, you can create one pick for each zone and sort the lines by bin ranking within each pick.  
-5.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Picks**, and then choose the related link. The **Picks** window opens.  
+4.  Choose the **Create Pick** action, and fill in the **Create Pick** request page. The sorting you request here will order the pick lines you create. For example, you can create one pick for each zone and sort the lines by bin ranking within each pick.  
+5.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Picks**, and then choose the related link. The **Picks** page opens.  
 6.  You can now find the pick assignment you just created by selecting the pick with the highest number.  
 7.  In the pick, you can still alter, if necessary, the assigned user ID and the way the lines are sorted.  
 8.  Choose the **Print** action to print the pick instructions.  

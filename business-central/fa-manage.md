@@ -26,7 +26,7 @@ For each asset, you can record maintenance costs and the next service date. Keep
 Each fixed asset can be attached to one or more insurance policies. You can therefore easily verify that insurance policy amounts are in accordance with the value of the assets that are linked to the policy. This also makes it easy to monitor annual insurance premiums.
 
 > [!NOTE]  
->   You can record fixed asset transactions in the **Fixed Asset G/L Journal** window or in the **Fixed Asset Journal** window, depending on whether the transactions are for financial reporting or for internal management. Help for Fixed Assets only describes how to use the **Fixed Asset G/L Journal** window. For more information, see [Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md).
+>   You can record fixed asset transactions on the **Fixed Asset G/L Journal** page or on the **Fixed Asset Journal** page, depending on whether the transactions are for financial reporting or for internal management. Help for Fixed Assets only describes how to use the **Fixed Asset G/L Journal** page. For more information, see [Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md).
 
 Before you can begin to manage fixed assets, you must set up default values, fixed asset accounting, posting groups, allocation keys, journals, and posting types. For more information, see [Setting Up Fixed Assets](fa-setup.md).
 

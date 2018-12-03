@@ -26,7 +26,7 @@ A NACE code serves as a basis to compile statistics for many things, including:
 - Fixed capital formation operations  
 - Financial operations  
 
-You can enter NACE codes in the **Company Information** window. NACE codes are unique five- or six-digit codes that are assigned to industry sectors. For example, DA.15.83 - Manufacture of Sugar.  
+You can enter NACE codes on the **Company Information** page. NACE codes are unique five- or six-digit codes that are assigned to industry sectors. For example, DA.15.83 - Manufacture of Sugar.  
 
 ## To enter NACE codes  
 

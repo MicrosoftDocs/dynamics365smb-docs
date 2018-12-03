@@ -46,7 +46,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 ## Keyboard Shortcuts in Lists
 
 The following table describes the keyboard shortcuts that you can use in a list page. The shortcut action is slightly different depending on whether the page is shown in the list view or tile view.
-<!-- 
+<!--
 > [!Note]
 > In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
 -->
@@ -55,7 +55,7 @@ The following table describes the keyboard shortcuts that you can use in a list 
 
 |Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |Remarks|
 |-----------------|-------|-------|-------|
-|Up Arrow|Move in the same column to the field in the row above.| Move in the same column to the tile in the row above.  |  | 
+|Up Arrow|Move in the same column to the field in the row above.| Move in the same column to the tile in the row above.  |  |
 |Down Arrow|Move in the same column to the field in the row below. |Move in the same column to the tile in the row below. | |
 |Right Arrow|In a view-only list, move in the same row to the next field to the right.<br /><br />In an editable list, move to the right within the current field.| Move in the same row to the next tile to the right. ||
 |Left Arrow|In a view-only list, move in the same row to the previous field to the left. <br /><br />In an editable list, move to the left within the current field.| Move in the same row to the previous tile to the left. ||
@@ -67,8 +67,6 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Page Down<br />(Fn+down Arrow)|Scrolls to display the set rows below the current rows in view.|Scrolls to display the set of tiles below the current tiles in view.||
 |Enter<br />(Fn+down Arrow)|Open the record that is associated with the field.|Opens the record.| Only relevant if a card page is associated with the record.|
 |Ctrl+Enter|Move focus to the next element outside the list.|Move focus to the next element outside the list.||
-
-We also support Ctrl+F5 which reloads the Business Central application, similar to pressing Refresh in the browser itself.||
 
 ### <a name="CopyRows"></a>Select, copy and paste
 |Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |Remarks|
@@ -100,7 +98,7 @@ We also support Ctrl+F5 which reloads the Business Central application, similar 
 |Shift+Alt+F3|Opens the filter pane and adds a filter on the selected column in the list. Focus is on the new filter field which lets start typing the filter criteria right away.<br /><br /> This does the same as selecting **Filter** from the column heading. er menu. Displays the filter pane, adds the filter, sets focus to it so the user can type a value to filter on.<br /><br />If there is already a filter on the field, a new filter is added. |
 |Ctrl+Shift+Alt+F3|Resets filters. This does the same as choosing **Reset filters** in the filter pane, and it applies to field and totals filters.<br /><br /> Filters return to the default filters for the current view. If the current view is **All**, then this is the equivalent to returning to an unfiltered view with all records. |
 |Ctrl+Enter|Returns to the list from the filter pane.|
- 
+
 ## <a name="calendarshortcuts"/> Keyboard Shortcuts in the Calendar (Date Picker)
 When setting a date field, you can either enter the date manually or open a calendar (date picker) that lets you select the date you want. The following table describes the keyboard shortcuts for the calendar.
 
@@ -125,7 +123,7 @@ When setting a date field, you can either enter the date manually or open a cale
 |Up Arrow|Scroll up the page.|
 |Right Arrow|Scroll to the right when the page is zoomed in so that it is not entirely in view. |
 |Left Arrow|Scroll to the left when the page is zoomed in so that it is not entirely in view. |
-|Ctrl+0 (zero)<br />(Cmd+0)|Fits the entire page in the window. |
+|Ctrl+0 (zero)<br />(Cmd+0)|Fits the entire page on the page. |
 |Ctrl+Home<br />(Cmd+Home)|Go to the first page of the report.|
 |Ctrl+End<br />(Cmd+Home)|Go to the last page of the report.|
 |Page Down<br />(Fn+Down Arrow)|Go to the next page of the report.|

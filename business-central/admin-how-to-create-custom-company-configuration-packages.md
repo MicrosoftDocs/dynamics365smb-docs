@@ -42,7 +42,7 @@ To see a complete list of setup tables, Choose the ![Lightbulb that opens the Te
 2.  Create a new company for the industry or solution template. For more information, see [Create a New Company](admin-how-to-create-a-new-company.md).  
 3.  Setup the new company in the way you need. Fill in all required setup tables.  
 4.  Open the new company.
-5. Open the **Configuration Worksheet** window.  
+5. Open the **Configuration Worksheet** page.  
 6.  Add the tables that you want to transfer to another company to the worksheet. Assign the worksheet lines to the package.  
 7.  Create a questionnaire for the most frequently used setup tables.  
 8.  Create configuration templates to make it easier to create master data, such as customers or items.  

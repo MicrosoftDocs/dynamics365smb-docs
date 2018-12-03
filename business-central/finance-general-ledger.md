@@ -21,13 +21,13 @@ The general ledger stores your financial data, and the chart of accounts shows t
 ## General Ledger Setup and General Posting Setup
 The setup of the general ledger is at the core of financial processes because it defines how you post data.  
 
-In the **General Ledger Setup** window, you specify how to handle certain accounting issues in your company, such as:  
+On the **General Ledger Setup** page, you specify how to handle certain accounting issues in your company, such as:  
 
 * Invoice rounding details  
 * Address formats  
 * Financial reporting  
 
-Similarly, in the **General Posting Setup** window, you specify how you want to set up combinations of general business and general product posting groups. Posting groups map entities like customers, vendors, items, resources, and sales and purchase documents to general ledger accounts. You fill in a line for each combination of business posting group and product posting group. For more information, see [Posting Group Setups](finance-posting-groups.md)  
+Similarly, on the **General Posting Setup** page, you specify how you want to set up combinations of general business and general product posting groups. Posting groups map entities like customers, vendors, items, resources, and sales and purchase documents to general ledger accounts. You fill in a line for each combination of business posting group and product posting group. For more information, see [Posting Group Setups](finance-posting-groups.md)  
 
 ## The Chart of Accounts
 The chart of accounts shows all general ledger accounts. From the chart of accounts, you can do things like:  
@@ -43,9 +43,9 @@ You can add, change, or delete general ledger accounts. However, to prevent disc
 ## Account Categories
 You can personalize the structure of your financial statements by mapping general ledger accounts to account categories.  
 
-The **G/L Account Categories** window shows your categories and subcategories, and the G/L accounts that are assigned to them. You can create new subcategories and assign those categories to existing accounts.  
+The **G/L Account Categories** page shows your categories and subcategories, and the G/L accounts that are assigned to them. You can create new subcategories and assign those categories to existing accounts.  
 
-You create a category group by indenting other subcategories under a line in the **G/L Account Categories** window. This makes it easy for you to get an overview, because each grouping shows a total balance. For example, you can create subcategories for different types of assets, and then create category groups for fixed assets versus current assets.  
+You create a category group by indenting other subcategories under a line on the **G/L Account Categories** page. This makes it easy for you to get an overview, because each grouping shows a total balance. For example, you can create subcategories for different types of assets, and then create category groups for fixed assets versus current assets.  
 
 You can specify whether the accounts in each subcategory must be included in specific types of reports. The account categories help define the layout of your financial statements.  
 

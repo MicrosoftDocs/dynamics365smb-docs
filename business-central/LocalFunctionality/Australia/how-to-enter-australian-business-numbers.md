@@ -1,6 +1,6 @@
 ---
     title: How to Enter Australian Business Numbers
-    description: You can enter an Australian Business Number (ABN) in certain windows.
+    description: You can enter an Australian Business Number (ABN) in certain pages.
 
     services: project-madeira 
     documentationcenter: ''
@@ -17,7 +17,7 @@
 
 ---
 # Enter Australian Business Numbers
-You can enter an Australian Business Number (ABN) in the following windows:  
+You can enter an Australian Business Number (ABN) in the following pages:  
 
 - **Company Information**  
 - **Vendor Card**  

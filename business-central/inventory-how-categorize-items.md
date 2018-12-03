@@ -22,8 +22,8 @@ To find items by characteristics, you can assign item attributes to items and al
 
 ## To create an item category
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Categories**, and then choose the related link.
-2. In the **Item Categories** window, choose the **New** action.
-3. In the **Item Category Card** window, on the **General** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. On the **Item Categories** page, choose the **New** action.
+3. On the **Item Category Card** page, on the **General** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. On the **Attributes** FastTab, specify any item attributes for the item category. For more information, see the "To assign item attributes to an item category" section in [Work with Item Attributes](inventory-how-work-item-attributes.md).
 
 > [!NOTE]  

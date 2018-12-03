@@ -26,7 +26,7 @@ If you have a large number of service orders, you can save time by using a batch
 ## To post a service order    
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Orders**, and then choose the related link.  
 2. Open the relevant service order.  
-3. In the **Service Order** window, choose one of the following actions.  
+3. On the **Service Order** page, choose one of the following actions.  
   
     |**Action**|**Result**|  
     |------------------|----------------|  
@@ -87,13 +87,13 @@ After specifying the details of a service, you can adjust and post the quantitie
   
 The following procedure shows how to post shipment of service line items in locations that are not set up to require warehouse handling.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Order**, and then choose the related link. 2. In the window for the selected service order, choose **Actions**, **Order**, **Service Lines**.  
-3. In the **Service Lines** window, find the required entries and specify the quantity to be posted in the **Qty. to Ship** field.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Order**, and then choose the related link. 2. on the page for the selected service order, choose **Actions**, **Order**, **Service Lines**.  
+3. On the **Service Lines** page, find the required entries and specify the quantity to be posted in the **Qty. to Ship** field.  
   
    > [!NOTE]  
    >  The quantity to ship value depends on whether you want to post shipment fully or partially. If you choose to ship fully, the value in the **Qty. to Ship** field must be equal to the value in the **Quantity** field. When you post a partial shipment, you must specify the quantity you want to ship initially. If you have already shipped part of the service on the order, make a note of the value in the **Quantity Shipped** field. The maximum quantity you can enter in the **Quantity to Ship** field is the number of units that have not yet been shipped.  
   
-4. Choose **Actions**, **Posting**, **Post**. In the window that appears, choose **Ship**.  
+4. Choose **Actions**, **Posting**, **Post**. on the page that appears, choose **Ship**.  
   
 [!INCLUDE[d365fin](includes/d365fin_md.md)] creates ledger entries (in the warranty ledger, item ledger, service ledger, or G/L), produces the posted service shipment document, and updates the relevant fields on the service lines of the service order.  
   

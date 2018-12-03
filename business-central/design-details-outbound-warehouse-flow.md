@@ -62,7 +62,7 @@ In addition, the following internal source documents exist that function like ou
  When the outbound source document is released, an outbound warehouse request is created automatically. It contains references to the source document type and number and is not visible to the user.  
 
 ### 3: Create Inventory Pick or Movement  
- In the **Inventory Pick** or **Inventory Movement** window, the warehouse worker retrieves, in a pull fashion, the pending source document lines based on outbound warehouse requests. Alternatively, the inventory pick lines are already created, in a push fashion, by the user who is responsible for the source document.  
+ In the **Inventory Pick** or **Inventory Movement** page, the warehouse worker retrieves, in a pull fashion, the pending source document lines based on outbound warehouse requests. Alternatively, the inventory pick lines are already created, in a push fashion, by the user who is responsible for the source document.  
 
 ### 4: Post Inventory Pick or Register Inventory Movement  
  On each line for items that have been picked or moved, partially or fully, the warehouse worker fills in the **Quantity** field, and then posts the inventory pick or registers the inventory movement. Source documents related to the inventory pick are posted as shipped or consumed. Source documents related to inventory movements are not posted.  
@@ -81,7 +81,7 @@ In addition, the following internal source documents exist that function like ou
  When the inbound source document is released, an outbound warehouse request is created automatically. It contains references to the source document type and number and is not visible to the user.  
 
 ### 3: Create Warehouse Shipment  
- In the **Warehouse Shipment** window, the shipping worker who is responsible retrieves pending source document lines based on the outbound warehouse request. Several source document lines can be combined in one warehouse shipment document.  
+ On the **Warehouse Shipment** page, the shipping worker who is responsible retrieves pending source document lines based on the outbound warehouse request. Several source document lines can be combined in one warehouse shipment document.  
 
 ### 4: Release Shipment / Create Warehouse Pick  
  The shipping worker who is responsible releases the warehouse shipment, so that warehouse workers can  create or coordinate warehouse picks for the shipment in question.  
@@ -105,7 +105,7 @@ In addition, the following internal source documents exist that function like ou
  The warehouse worker who perform picks create a warehouse pick document, in a pull fashion, based on the released source document. Alternatively, the warehouse pick document is created and assigned to the warehouse worker in a push fashion.  
 
 ### 9: Register Warehouse Pick  
- On each line for items that have been picked, partially or fully, the warehouse worker fills in the **Quantity** field in the **Warehouse Pick** window and then registers the warehouse pick.  
+ On each line for items that have been picked, partially or fully, the warehouse worker fills in the **Quantity** field on the **Warehouse Pick** page and then registers the warehouse pick.  
 
  Warehouse entries are created, and the warehouse pick lines are deleted, if fully handled. The warehouse pick document remains open until the full quantity of the related warehouse shipment is registered. The **Qty. Picked** field on the warehouse shipment lines is updated accordingly.  
 

@@ -31,16 +31,16 @@ You can make your [!INCLUDE[d365fin](includes/d365fin_md.md)] data available as 
 5. In the list of available connections, choose **Dynamics 365 Business Central**.
 6. PowerApps will display a connection page that prompts you for the information that is required to connect to your [!INCLUDE[d365fin](includes/d365fin_md.md)] data. To connect, you must specify an OData URL, username, password, and company name.
 
-   For the *OData URL*, you can copy the OData V4 URL of any of the web services that are listed in the **Web Services** window in [!INCLUDE[d365fin](includes/d365fin_md.md)], such as `https://mycompany.businesscentral.dynamics.com:7048/MS/ODataV4/`.  
+   For the *OData URL*, you can copy the OData V4 URL of any of the web services that are listed on the **Web Services** page in [!INCLUDE[d365fin](includes/d365fin_md.md)], such as `https://mycompany.businesscentral.dynamics.com:7048/MS/ODataV4/`.  
 
-   For the *Company Name*, use the name that is shown in the **Name** field in the **Company Information** window in [!INCLUDE[d365fin](includes/d365fin_md.md)]. If your [!INCLUDE[d365fin](includes/d365fin_md.md)] contains multiple companies, choose the relevant company name from the list in the **Companies** window. In both cases, make sure that the name that you specify in the PowerApps wizard matches exactly the text shown in [!INCLUDE[d365fin](includes/d365fin_md.md)], such as `My Company`.
+   For the *Company Name*, use the name that is shown in the **Name** field on the **Company Information** page in [!INCLUDE[d365fin](includes/d365fin_md.md)]. If your [!INCLUDE[d365fin](includes/d365fin_md.md)] contains multiple companies, choose the relevant company name from the list on the **Companies** page. In both cases, make sure that the name that you specify in the PowerApps wizard matches exactly the text shown in [!INCLUDE[d365fin](includes/d365fin_md.md)], such as `My Company`.
 
-   For the username and password, use the name and web service access key that are specified for your account in the **Users** window in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For example, your username is *ADMIN*, and the web service access key that serves as your password is *EgzeUFQ9Uv0o5O0lUMyqCzo1ueUW9yRF3SsLU=*.
+   For the username and password, use the name and web service access key that are specified for your account on the **Users** page in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For example, your username is *ADMIN*, and the web service access key that serves as your password is *EgzeUFQ9Uv0o5O0lUMyqCzo1ueUW9yRF3SsLU=*.
 7. Choose the **Connection** button to continue. PowerApps will display a default dataset for [!INCLUDE[d365fin](includes/d365fin_md.md)]. Choose the **Default** dataset.
 
    PowerApps will display a list of tables that are available from [!INCLUDE[d365fin](includes/d365fin_md.md)]. These tables, or end points,  represent all the web services you have published from [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-   Alternatively, create a new web service URL in [!INCLUDE[d365fin](includes/d365fin_md.md)] by using the **Create Data Set** action in the **Web Services** window, using the **Set Up Reporting** Assisted Setup guide, or by choosing the **Edit in Excel** action in any lists.
+   Alternatively, create a new web service URL in [!INCLUDE[d365fin](includes/d365fin_md.md)] by using the **Create Data Set** action on the **Web Services** page, using the **Set Up Reporting** Assisted Setup guide, or by choosing the **Edit in Excel** action in any lists.
 8. Choose the table that you want to use for your PowerApp, and then choose the **Connect** button.
 9. Repeat the previous steps to add additional [!INCLUDE[d365fin](includes/d365fin_md.md)] data to your Power BI data model.
 

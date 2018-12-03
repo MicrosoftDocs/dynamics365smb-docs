@@ -1,19 +1,13 @@
 ---
-    title: How to File SEPA Payments
-    description: In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use Single Euro Payments Area (SEPA) credit transfers to file SEPA payments with the bank.
+title: How to File SEPA Payments
+description: In Business Central, you can use Single Euro Payments Area (SEPA) credit transfers to file SEPA payments with the bank.
+author: SorenGP
 
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-business-central
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 10/01/2018
-    ms.author: sgroespe
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 10/01/2018
+ms.author: sgroespe
 
 ---
 # File SEPA Payments
@@ -38,7 +32,7 @@ Before you can file a SEPA payment you must complete the following administratio
     |**Journal Template Name**|Specify the general journal template for the SEPA payment report.|  
     |**Journal Batch**|Specify the general journal batch for the SEPA payment report.|  
     |**Post General Journal Lines**|Specify if you want to transfer the payment lines to the general ledger.|  
-    |**Include Dimensions**|Enter the dimensions that you want to include in the SEPA payment report. The option is only available if the **Summarize Gen. Jnl. Lines** field in the **Electronic Banking Setup** window is selected.|  
+    |**Include Dimensions**|Enter the dimensions that you want to include in the SEPA payment report. The option is only available if the **Summarize Gen. Jnl. Lines** field on the **Electronic Banking Setup** page is selected.|  
     |**Execution Date**|Enter an execution date if you want an execution date that differs from the posting date on the payment lines.|  
     |**File Name**|Enter the name of the file, including the drive and folder, to which you want to print the report.|  
 

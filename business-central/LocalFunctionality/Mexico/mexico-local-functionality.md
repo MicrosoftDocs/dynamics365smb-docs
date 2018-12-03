@@ -1,19 +1,13 @@
 ---
-    title: Mexico Local Functionality
-    description: The following topics describe the local functionality in the Mexican version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
+title: Mexico Local Functionality
+description: The following topics describe the local functionality in the Mexican version of Business Central.
+author: SorenGP
 
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-business-central
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 10/12/2018
-    ms.author: sgroespe
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 10/12/2018
+ms.author: sgroespe
 
 ---
 # Mexico Local Functionality

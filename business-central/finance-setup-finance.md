@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 10/01/2018
+ms.date: 11/15/2018
 ms.author: edupont
 
 ---
@@ -29,12 +29,16 @@ The following table describes a sequence of tasks, with links to the topics that
 |Create account schedules and define account categories to define the contents of financial charts and reports, such as the Balance Sheet and Income Statement reports.|[Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md)|
 |Set up a tolerance by which the system closes an invoice even though the payment, including any discount, does not fully cover the amount on the invoice.|[Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Set up fiscal periods. |[Open a New Fiscal Year](finance-how-open-new-fiscal-year.md) |
-| Define how you report value-added tax amounts that you have collected for sales to the tax authorities. |[Report VAT to Tax Authorities](finance-how-report-vat.md)|
+| Define how you report value-added tax amounts that you have collected for sales to the tax authorities. |[Setting Up Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md)|
+|Prepare to handle unrealized VAT in connection with cash-based accounting methods.|[Set Up Unrealized VAT for Cash-Based Accounting](finance-setup-unrealized-vat.md)|
 | Set your Sales and Purchases features up to handle payments in foreign currencies.|[Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md)
+|Define multiple interest rates to be used for different periods for delayed payments in trade transactions.|[Set Up Multiple Interest Rates](finance-how-to-set-up-multiple-interest-rates.md)|
+|Prepare to round invoice amounts automatically when you create invoices.|[Set Up Invoice Rounding](finance-set-up-invoice-rounding.md)|
 | Add new accounts to the existing chart of accounts. |[Setting Up the Chart of Accounts](finance-setup-chart-accounts.md) |
 | Set up business intelligence (BI) charts to analyze cash flow. |[Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md) |
 |Enable invoicing of a customer who is not set up in the system.|[Set Up Cash Customers](finance-how-to-set-up-cash-customers.md)|
 | Set up Intrastat reporting, and submit the report to an authority | [Set Up and Report Intrastat](finance-how-setup-report-intrastat.md)|
+|Prepare the Consolidated Trial Balance report on the Accountant Role Center to get a financial overview across multiple companies.|[Consolidating Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)|
 
 ## See Also
 [Finance](finance.md)  

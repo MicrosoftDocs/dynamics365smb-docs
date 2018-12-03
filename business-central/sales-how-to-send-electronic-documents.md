@@ -43,7 +43,7 @@ The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] supports send
      The sales invoice is posted and sent to the customer as an electronic document in the PEPPOL format.  
 
     > [!NOTE]  
-    >  You can also send a posted sales invoice as an electronic document. The procedure is the same as described in this topic for non-posted sales documents. In the **Posted Sales Invoice** window, on the **Actions** tab, in the **General** group, choose **Activity Log** to view the status of the electronic document. For more information, see **Activity Log**.  
+    >  You can also send a posted sales invoice as an electronic document. The procedure is the same as described in this topic for non-posted sales documents. On the **Posted Sales Invoice** page, on the **Actions** tab, in the **General** group, choose **Activity Log** to view the status of the electronic document. For more information, see **Activity Log**.  
 
 ## See Also  
 [Invoice Sales](sales-how-invoice-sales.md)  

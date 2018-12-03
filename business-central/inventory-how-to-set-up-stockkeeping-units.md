@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 11/15/2018
     ms.author: sgroespe
 
 ---
@@ -31,7 +31,11 @@ When you have set up the first stockkeeping unit for an item, the **Stockkeeping
 To create several stockkeeping units for an item, use the **Create Stockkeeping Unit** batch job.  
 
 > [!NOTE]  
->  The information on the **Stockkeeping Unit** card has priority over the **Item** card.  
+>  The information on the **Stockkeeping Unit** card has priority over the **Item** card.
+
+> [!Warning]
+> If the SKU is supplied through production, then the **Standard Cost** field is not used when invoicing and adjusting the actual cost of the produced item. Instead, the **Standard Cost** field on the underlying item card is used, and any variances are calculated against the cost shares of that item.<br /><br />
+> Because production BOMs and routing cannot be assigned to SKUs, then the unit cost roll-up and the related calculation of cost shares are also not available on SKUs. For more information, see [About Calculating Standard Cost](finance-about-calculating-standard-cost.md)
 
 ## See Also  
 [Register New Items](inventory-how-register-new-items.md)  

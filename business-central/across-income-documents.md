@@ -20,20 +20,20 @@ Some business transactions are not recorded in [!INCLUDE[d365fin](includes/d365f
 
 From PDF or image files representing incoming documents, you can have an external OCR service (Optical Character Recognition) generate electronic documents that can then be converted to document records inside [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-In the **Incoming Documents** window, you can use different functions to review expense receipts, manage OCR tasks, and convert incoming document files, manually or automatically, to the relevant documents or journal lines. The external files can be attached at any process stage, including to posted documents and to the resulting vendor, customer, and general ledger entries.
+On the **Incoming Documents** page, you can use different functions to review expense receipts, manage OCR tasks, and convert incoming document files, manually or automatically, to the relevant documents or journal lines. The external files can be attached at any process stage, including to posted documents and to the resulting vendor, customer, and general ledger entries.
 
 The incoming document process can consist of the following main activities:
 
-* Record the external documents inside [!INCLUDE[d365fin](includes/d365fin_md.md)] by creating lines in the **Incoming Documents** window in either of the following ways:
+* Record the external documents inside [!INCLUDE[d365fin](includes/d365fin_md.md)] by creating lines on the **Incoming Documents** page in either of the following ways:
   * Manually, by using simple functions, either from a PC or from a mobile device, in one of the following ways:
-    * Use the **Create from File** button, and then fill relevant fields in the **Incoming Document** window. The file is automatically attached.  
-    * Use the **New** button, and then fill relevant fields in the **Incoming Document** window and manually attach the related file.
+    * Use the **Create from File** button, and then fill relevant fields on the **Incoming Document** page. The file is automatically attached.  
+    * Use the **New** button, and then fill relevant fields on the **Incoming Document** page and manually attach the related file.
     * From a tablet or phone, use the **Create from Camera** button to create a new incoming document record, and then send the image to the OCR service, for example.
-  * Automatically, by receiving the document from the OCR service as an electronic document after you have emailed the related PDF or image file to the OCR service. The **Financial Information** FastTab is automatically filled in the **Incoming Document** window.
+  * Automatically, by receiving the document from the OCR service as an electronic document after you have emailed the related PDF or image file to the OCR service. The **Financial Information** FastTab is automatically filled on the **Incoming Document** page.
 * Use the OCR service to have PDF or image files turned into electronic documents that can be converted to document records in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 * Create new documents or general journal lines for incoming document records by entering the information as you read it from incoming document files.
 * Attach incoming document files to purchase and sales documents of any status, including to the vendor, customer, and general ledger entries that result from posting.
-* View incoming document records and their attachments from any purchase and sales document or entry, or find all general ledger entries without incoming document records from the **Chart of Accounts** window.
+* View incoming document records and their attachments from any purchase and sales document or entry, or find all general ledger entries without incoming document records from the **Chart of Accounts** page.
 
 | To | See |
 | --- | --- |

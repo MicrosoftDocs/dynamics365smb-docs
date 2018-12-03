@@ -40,7 +40,7 @@ There can be a couple of reasons, including the following:
   Your client can have multiple business units or companies in [!INCLUDE [d365fin](includes/d365fin_md.md)], and your invitation does not always include all companies. Work with your client to make sure that you have access to the companies that the client wants you to work in.  
 
 ## Why doesn't the data refresh in my dashboard?
-When you add a client or request a refresh of the data, [!INCLUDE [d365acc](includes/d365acc_md.md)] fetches the data. But you must refresh the window yourself, such as choosing the "Redisplay all companies" action, refresh the browser window, navigate away from the dashboard and then back again, or similar. This is a known issue that we are working on improving in a later update.  
+When you add a client or request a refresh of the data, [!INCLUDE [d365acc](includes/d365acc_md.md)] fetches the data. But you must refresh the page yourself, such as choosing the "Redisplay all companies" action, refresh the browser page, navigate away from the dashboard and then back again, or similar. This is a known issue that we are working on improving in a later update.  
 
 ## See Also
 [Get Started with [!INCLUDE[d365acc](includes/d365acc_md.md)]](get-started.md)  

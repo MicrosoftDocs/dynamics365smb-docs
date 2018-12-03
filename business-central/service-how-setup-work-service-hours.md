@@ -23,16 +23,16 @@ After you set the default service hours of your company, you can calculate respo
 As you work on a service order, you will want to update it's status so that you can monitor progress. The service order status reflects the repair status of all the service items in the service order. For more information, see [Understanding Service Order and Repair Status](service-order-repair-status.md). 
 
 ## To set up default service hours  
-You use the **Default Service Hours** window to set up the usual service working hours in your company. These service hours are used to calculate the response date and time for service orders and quotes and to send response time warnings. The default service hours are used for service contracts unless you specify special service hours for a contract.  
+You use the **Default Service Hours** page to set up the usual service working hours in your company. These service hours are used to calculate the response date and time for service orders and quotes and to send response time warnings. The default service hours are used for service contracts unless you specify special service hours for a contract.  
   
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Default Service Hours**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
   
 > [!IMPORTANT]  
->  If you leave the lines in the **Default Service Hours** window empty, the default value is 24 hours, valid only for calendar working days.  
+>  If you leave the lines on the **Default Service Hours** page empty, the default value is 24 hours, valid only for calendar working days.  
   
 ## To set up work-hour templates
-You can use the **Work-Hour Template** window to set up templates that contain the typical working hours in your company. For example, you can create templates for full time technicians and part time technicians. You can use work-hour templates when you add capacity to resources.  
+You can use the **Work-Hour Template** page to set up templates that contain the typical working hours in your company. For example, you can create templates for full time technicians and part time technicians. You can use work-hour templates when you add capacity to resources.  
   
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Work Hour Templates**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -41,7 +41,7 @@ You can use the **Work-Hour Template** window to set up templates that contain t
 > After you enter work hours for each day, the value in the **Total per Week** field is calculated automatically.  
 
 ## To set up contract specific service hours  
-You can use the **Service Hours** window to set up specific service hours for the customer that owns the service contract. Service hours are used to calculate the response date and time for service orders and quotes that belong to the service contract.  
+You can use the **Service Hours** page to set up specific service hours for the customer that owns the service contract. Service hours are used to calculate the response date and time for service orders and quotes that belong to the service contract.  
   
 If you do not set up specific service hours for the service contract, the default service hours for service contracts are used.  
   

@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 10/01/2018
+ms.date: 12/03/2018
 ms.author: edupont
 
 ---
@@ -65,7 +65,15 @@ Thinking about subscribing? You can easily change from the demonstration company
 
 To create a company to try things out, go to the **My Settings** menu in the top right corner, and change the company to **My Company**. Sign out of [!INCLUDE[d365fin](includes/d365fin_md.md)] and then sign in again to apply the change. An assisted setup guide will help you provide basic information about your company. When that's done, explore the Role Center and find the **Assisted Setup** action.  
 
-Alternatively, find a [!INCLUDE[d365fin](includes/d365fin_md.md)] partner [here](https://www.microsoft.com/en-us/solution-providers/search).
+Alternatively, find a [!INCLUDE[d365fin](includes/d365fin_md.md)] partner [here](https://www.microsoft.com/en-us/solution-providers/search).  
+
+## Getting answers to questions
+
+If you are not sure how to do something in [!INCLUDE[d365fin](includes/d365fin_md.md)], you can hopefully find the answer either from reading the tooltip for the field that you are unsure of, or by reading the content by opening the *Learn more* link in a tooltip. You can also get to the documentation by choosing the related link in the Help menu.  
+
+All fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] are described in tooltips. You can access tooltips by choosing the name of the field. For example, in a page like the **Customer Card**, simply choose the name of the field to read the tooltip. In a list such as the **Customers** list, or the lines in a document such as a sales order, you have to choose the drop-down menu to the right of the name of the column and then choose the **What's this?** menu item.  
+
+If you have additional questions, we recommend that you ask the community or contact your reselling partner. For more information, see [Where do I go if I have questions?](across-faq.md#where-do-i-go-if-i-have-questions).  
 
 ## Ready to subscribe?
 Each time you sign in during the trial period, a notification in a blue bar at the top displays the time remaining. If you decide to subscribe, find a [!INCLUDE[d365fin](includes/d365fin_md.md)] partner [here](https://www.microsoft.com/en-us/solution-providers/search). You can also contact the [[!INCLUDE[d365fin](includes/d365fin_md.md)] Sales team](https://go.microsoft.com/fwlink/?linkid=828707).  

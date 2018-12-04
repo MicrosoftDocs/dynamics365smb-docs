@@ -63,7 +63,7 @@ You are now ready to use the features that communicates with HMRC.
 
 ## VAT Obligations (VAT Return Periods)
 
-HMRC maintains a list of VAT Obligations for companies and exposes this information through their APIs. This makes it possible for [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to read these and store them. These VAT Obligations hold information about the period to which an obligation is related and the due date at which the VAT Return must be submitted. These VAT Obligations are stored in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] as **VAT Return Periods**. Because VAT Return Periods holds this information [!INCLUDE[d365fin](../../includes/d365fin_md.md)] is able to:
+HMRC maintains a list of VAT Obligations for companies and exposes this information through their APIs. This makes it possible for [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to read these and store them. These VAT Obligations hold information about the period to which an obligation is related and the due date at which the VAT Return must be submitted. These VAT Obligations are stored in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] as [**VAT Return Periods**](https://businesscentral.dynamics.com?page=737). Because VAT Return Periods holds this information [!INCLUDE[d365fin](../../includes/d365fin_md.md)] is able to:
 
 * Remind you aboutof due or overdue VAT Returns.
 
@@ -71,17 +71,17 @@ HMRC maintains a list of VAT Obligations for companies and exposes this informat
 
 To retrieve the VAT Return Periods:
 
-1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Return Periods**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter [**VAT Return Periods**](https://businesscentral.dynamics.com?page=737), and then choose the related link.  
 
 2. In the **VAT Return Periods** window, choose **Process** and select **Get VAT Return Periods**.
 
 3. Enter the **Start Date** and **End Date** to specify for which period to get the VAT Return Periods and choose **OK**.
 
-4. The VAT Return Periods are now retrieved from HMRC and stored in the **VAT Return Periods** table and a confirmation will display how many periods were retrieved.
+4. The VAT Return Periods are now retrieved from HMRC and stored in the [**VAT Return Periods**](https://businesscentral.dynamics.com?page=737) table and a confirmation will display how many periods were retrieved.
 
 ## VAT Returns
 
-VAT Returns in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] can be created directly from the VAT Return Period.
+VAT Returns in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] can be created directly from the [VAT Return Period](https://businesscentral.dynamics.com?page=737).
 
 To create a VAT Return:
 
@@ -103,23 +103,23 @@ HMRC also makes it possible for [!INCLUDE[d365fin](../../includes/d365fin_md.md)
 
 To retrieve VAT Liabilities:
 
-1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Liabilities**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter [**VAT Liabilities**](https://businesscentral.dynamics.com?page=10530), and then choose the related link.  
 
-2. In the **VAT Liabilities** window, choose **Process** and select **Get Liabilities**.
+2. In the [**VAT Liabilities**](https://businesscentral.dynamics.com?page=10530) window, choose **Process** and select **Get Liabilities**.
 
 3. Enter the **Start Date** and **End Date** that specifies the period for which you want to retrieve VAT liabilities and choose **OK**.
 
-4. The VAT liabilities are now retrieved from HMRC and stored in the **VAT Liabilities** table and a confirmation will display how many periods were retrieved.
+4. The VAT liabilities are now retrieved from HMRC and stored in the [**VAT Liabilities**](https://businesscentral.dynamics.com?page=10530) table and a confirmation will display how many periods were retrieved.
 
 To retrieve VAT Payments:
 
-1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Payments**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter [**VAT Payments**](https://businesscentral.dynamics.com?page=10531), and then choose the related link.  
 
-2. In the **VAT Payments** window, choose **Process** and select **Get Payments**.
+2. In the [**VAT Payments**](https://businesscentral.dynamics.com?page=10531) window, choose **Process** and select **Get Payments**.
 
 3. Enter the **Start Date** and **End Date** that specifies the period for which you want to retrieve VAT payments and choose **OK**.
 
-4. The VAT payments are now retrieved from HMRC and stored in the **VAT Payments** table and a confirmation will display how many periods were retrieved.
+4. The VAT payments are now retrieved from HMRC and stored in the [**VAT Payments**](https://businesscentral.dynamics.com?page=10531) table and a confirmation will display how many periods were retrieved.
 
 
 ## See Also

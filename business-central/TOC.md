@@ -1122,6 +1122,7 @@
 ### [Define Accounting Periods for Straight Line Depreciation of Fixed Assets](LocalFunctionality/UnitedKingdom/how-to-define-accounting-periods-for-straight-line-depreciation-of-fixed-assets.md)
 ### [Enter Statutory Information](LocalFunctionality/UnitedKingdom/how-to-enter-statutory-information.md)
 ### [Enter External Document Numbers](LocalFunctionality/UnitedKingdom/how-to-enter-external-document-numbers.md)
+### [Making Tax Digital - VAT Returns submission](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)
 ### [Print Checks for APACS](LocalFunctionality/UnitedKingdom/how-to-print-checks-for-apacs.md)
 ### [Print Direct Sales and Purchase Details Reports](LocalFunctionality/UnitedKingdom/how-to-print-direct-sales-and-purchase-details-reports.md)
 ### [Print Remittance Advice](LocalFunctionality/UnitedKingdom/how-to-print-remittance-advice.md)

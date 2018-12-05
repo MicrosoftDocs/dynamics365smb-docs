@@ -13,7 +13,7 @@ ms.date: 11/14/2018
 ms.author: edupont
 
 ---
-# Logging Changes in Business Central
+# Auditing Changes in Business Central
 
 You can enable the change log in [!INCLUDE[d365fin](includes/d365fin_md.md)] so you have a history of activities. The log is based on changes that are made to data in the tables that you track. On the **Change Log Entries** page, entries are chronologically ordered and show changes that are made to the fields on the specified tables. The change log collects all changes that are made to the table.
 

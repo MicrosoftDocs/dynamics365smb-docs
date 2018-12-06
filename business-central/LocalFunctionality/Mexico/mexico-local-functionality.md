@@ -16,6 +16,7 @@ The following topics describe local functionality that is unique to the Mexican 
 ## In This Section  
 [Create Deposits](how-to-create-deposits.md)  
 [Electronic Invoicing](electronic-invoicing.md)  
+[Electronic Accounting Regulations in Mexico](electronic-accounting-regulations.md)
 [Generate Electronic Invoices](how-to-generate-electronic-invoices.md)  
 [Manage Customer Credit Information](how-to-manage-customer-credit-information.md)  
 [Mexico Sales Tax](mexico-sales-tax.md)  

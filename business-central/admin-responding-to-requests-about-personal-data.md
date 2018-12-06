@@ -12,7 +12,7 @@ ms.topic: article
 ---
 
 # Responding to Requests About Personal Data  
-Data subjects can request several types of actions regarding their personal data. For example, under the General Data Protection Regulation (GDPR), EU residents have the right to request the export, deletion and modification of their personal data. This is known as a *Data Subject Request*. If you have classified the sensitivity of your data, and are sure they are correct, an administrator can respond to requests by using the options under **Data Privacy** on the **Manage Users, User Groups, and Permissions** Role Center or, if you are using the Pages client, in the **IT Manager** Role Center. For more information about classifying data and classifying data sensitivity in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], see [Classifying Data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) and [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md).  
+Data subjects can request several types of actions regarding their personal data. For example, under the General Data Protection Regulation (GDPR), EU residents have the right to request the export, deletion and modification of their personal data. This is known as a *Data Subject Request*. If you have classified the sensitivity of your data, and are sure they are correct, an administrator can respond to requests by using the options under **Data Privacy** on the **Manage Users, User Groups, and Permissions** Role Center or, if you are using the Windows client, in the **IT Manager** Role Center. For more information about classifying data and classifying data sensitivity in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], see [Classifying Data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) and [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md).  
 
 ## Types of Requests
 
@@ -42,8 +42,8 @@ On the Work and School Privacy page, you can also close your account. However, w
 You can still mark people as blocked due to privacy and export, edit, or delete transactions as explained elsewhere in this article.  
 
 ## Exporting Data from Tables not Classified by Data Subject
-If you have a situation where you have to export data that is not classified in a way so that it gets automatically exported, such as data from the Profile Answers table, you must do the following: 
--	Consider if you really want or have to export this supplemental data that is unrelated to the contact, meaning that it has no direct relationship to it 
+If you have a situation where you have to export data that is not classified in a way so that it gets automatically exported, such as data from the Profile Answers table, you must do the following:
+-	Consider if you really want or have to export this supplemental data that is unrelated to the contact, meaning that it has no direct relationship to it
 -	Add this table and relationship manually to the Rapid Start package and export it directly from the Rapid Start package – that’s why we generate a Rapid Start package for you, so that you can tweak it in situations such as this.
 
 ## Handling Data About Minors

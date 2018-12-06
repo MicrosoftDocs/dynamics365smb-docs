@@ -39,7 +39,7 @@ For the file that contains journal transactions:
 
 ## To generate the XML files
 1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Export Elect. Accounting**, and then choose the related link.
-2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 
 ## See Also
 [Mexico Local Funcationality](mexico-local-functionality.md)

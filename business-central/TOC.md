@@ -921,7 +921,7 @@
 ## [Mexico](LocalFunctionality/Mexico/mexico-local-functionality.md)
 ### [Create Deposits](LocalFunctionality/Mexico/how-to-create-deposits.md)  
 ### [Electronic Invoicing](LocalFunctionality/Mexico/electronic-invoicing.md)  
-### [Electronic Accounting Regulations in Mexico](electronic-accounting-regulations.md)
+### [Electronic Accounting Regulations in Mexico](LocalFunctionality/Mexico/electronic-accounting-regulations.md)
 ### [Generate Electronic Invoices](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
 ### [Manage Customer Credit Information](LocalFunctionality/Mexico/how-to-manage-customer-credit-information.md)
 ### [Mexico Sales Tax](LocalFunctionality/Mexico/mexico-sales-tax.md)

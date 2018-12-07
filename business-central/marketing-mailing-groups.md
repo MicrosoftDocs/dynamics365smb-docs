@@ -13,6 +13,7 @@ ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
 
 ---
 # Set Up Mailing Groups for Contacts

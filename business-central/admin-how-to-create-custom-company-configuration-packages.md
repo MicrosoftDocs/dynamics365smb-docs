@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 12/07/2018
     ms.author: sgroespe
 
 ---
@@ -35,12 +35,11 @@ Another approach would be to create a package that includes the tables that defi
 -   VAT Posting Setup  
 -   Inventory Posting Setup  
 
-To see a complete list of setup tables, Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Setup**, and then choose the related link.  
+To see a complete list of setup tables, Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Manual Setup**, and then choose the related link.  
 
 ## To create a custom company configuration package  
-1.  Create a new [!INCLUDE[d365fin](includes/d365fin_md.md)]. ***NOT POSSIBLE Link to help for "Creating a New Tenant"***.   
-2.  Create a new company for the industry or solution template. For more information, see [Create a New Company](admin-how-to-create-a-new-company.md).  
-3.  Setup the new company in the way you need. Fill in all required setup tables.  
+1.  Create a new company. For more information, see [Creating New Companies in Business Central](about-new-company.md).  
+3.  Set up the new company in the way you need. Fill in all required setup tables.  
 4.  Open the new company.
 5. Open the **Configuration Worksheet** page.  
 6.  Add the tables that you want to transfer to another company to the worksheet. Assign the worksheet lines to the package.  

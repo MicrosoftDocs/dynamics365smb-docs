@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 12/07/2018
     ms.author: sgroespe
 
 ---
@@ -103,6 +103,22 @@ After you have added all necessary tables to a configuration package, determine 
 
     > [!NOTE]  
     >  The tables remain in the package even though they are deleted from the worksheet.  
+
+## To review and customize existing database data
+As you create a configuration package for a solution, you can view and customize the available database data to suit your customer needs. The database table has to have an associated page.  
+
+## To customize data in the database  
+
+1.  On the **Configuration Worksheet** page, identify the tables whose data that you want to view or customize.  
+
+    > [!NOTE]  
+    >  Make sure that each table has a page ID assigned to it. For standard [!INCLUDE[d365fin](includes/d365fin_md.md)] tables, this value is automatically filled in. For custom tables, you have to provide the ID.  
+
+2.  Choose the **Database Data** action.  
+
+     The [!INCLUDE[d365fin](includes/d365fin_md.md)] page for the page opens.  
+
+3.  Review the available information. Modify it as necessary by deleting records that are not relevant or by adding new ones.
 
 ## See Also  
 [Set Up Company Configuration](admin-set-up-company-configuration.md)  

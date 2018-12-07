@@ -13,6 +13,7 @@ ms.workload: na
 ms.search.keywords: personalize, customize
 ms.date: 10/01/2018
 ms.author: solsen
+redirect_url: admin-how-set-up-colored-indicator-on-cues
 
 ---
 # Set Up a Colored Indicator on Cues

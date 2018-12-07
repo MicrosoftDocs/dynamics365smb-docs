@@ -21,7 +21,7 @@ There are many general features that help you enter data in a quick and easy way
 
 ## Making data entry faster using Quick Entry 
 
-After you enter data in one field, you can press Enter to go to the next field in sequence, and then start entering data again. However, there might be some fields that you typically want to skip when entering data. For example, when creating sales orders, perhaps you rarely set the **Example** field. This is where the quick entry feature comes in handy.
+After you enter data in one field, you can press Enter to go to the next field in sequence, enter data, press . However, there might be some fields that you typically want to skip when entering data. For example, when creating sales orders, perhaps you rarely set the **Example** field. This is where the Quick Entry feature comes in handy.
 
 ### How it works
 
@@ -30,7 +30,7 @@ Each field can be marked for either quick entry or not. When a field is marked f
 You have perhaps have already seen this in action because system administrators and page developers might have already excluded fields from quick entry.
 
 ### Benefits
-Quick Entry helps you focus on the most essential fields when working without a mouse or pointing device. It accelerates repetitve typing tasks, ideal for quickly creating multiple records in sequence, such as a creating a batch of sales orders or registering a sequence of new items. 
+Quick Entry helps you focus on the most essential fields when working without a mouse or pointing device. It accelerates repetitive typing tasks, and is ideal for quickly creating multiple records in sequence, such as a creating a batch of sales orders or registering a sequence of new items. 
 
 -freeDescribe benefits
 Recommended phrases: "Accelerate repetitive typing", "helps you focus on the most essential fields when working mouse-free", "great for quickly creating multiple records in sequence, such as a batch of orders or registering a sequence of new items"

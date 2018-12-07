@@ -13,6 +13,7 @@
     ms.search.keywords:
     ms.date: 10/01/2018
     ms.author: sgroespe
+    redirect_url: admin-how-to-create-custom-company-configuration-packages
 
 ---
 # Review and Customize Existing Database Data

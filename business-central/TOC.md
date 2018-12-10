@@ -42,7 +42,6 @@
 ### [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)
 ### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 ### [Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
-### []
 ### [The C5 Data Migration Extension](ui-extensions-c5-data-migration.md)
 ### [Microsoft Business Central Extensions by Other Providers](ui-extensions-other.md)
 ## [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)
@@ -82,6 +81,7 @@
 ## [Run Batch Jobs](ui-how-run-batch-jobs.md)
 ## [Working with General Journals](ui-work-general-journals.md)
 ## [Customizing Business Central](ui-customizing-overview.md)
+### [Personalizing Your Workspace](ui-personalization-user.md)
 ### [Why a Page is Locked From Personalizing](ui-personalization-locked.md)
 ### [Displaying Lists in Different Ways](across-display-lists-different-views.md)
 ### [Setting Up a Colored Indicator on Cues](admin-how-set-up-colored-indicator-on-cues.md)
@@ -413,7 +413,7 @@
 # [Relationship Management](marketing-relationship-management.md)
 ## [Setting Up Relationship Management](marketing-setup-marketing.md)
 ## [Managing Contacts](marketing-contacts.md)
-### [Preparing to Set Up Contacts](marketing-setup-contacts.md)
+### [Settleing Up Contacts](marketing-setup-contacts.md)
 ### [Creating Contact Companies](marketing-create-contact-companies.md)
 ### [Creating Contact Persons](marketing-create-contact-persons.md)
 ## [Managing Segments](marketing-segments.md)
@@ -1086,7 +1086,7 @@
 
 ## [Switzerland](LocalFunctionality/Switzerland/switzerland-local-functionality.md)
 ### [Balance](LocalFunctionality/Switzerland/balance.md)
-### [Delivery4 Reminders](LocalFunctionality/Switzerland/delivery-reminders.md)
+### [Delivery Reminders](LocalFunctionality/Switzerland/delivery-reminders.md)
 ### [Adjust Exchange Rates](LocalFunctionality/Switzerland/how-to-adjust-exchange-rates.md)
 ### [Assign Delivery Codes to Vendors](LocalFunctionality/Switzerland/how-to-assign-delivery-reminder-codes-to-vendors.md)
 ### [Close an LSV Collection](LocalFunctionality/Switzerland/how-to-close-an-lsv-collection.md)

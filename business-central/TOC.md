@@ -1090,7 +1090,7 @@
 
 ## [Switzerland](LocalFunctionality/Switzerland/switzerland-local-functionality.md)
 ### [Balance](LocalFunctionality/Switzerland/balance.md)
-### [Delivery4 Reminders](LocalFunctionality/Switzerland/delivery-reminders.md)
+### [Delivery Reminders](LocalFunctionality/Switzerland/delivery-reminders.md)
 ### [Adjust Exchange Rates](LocalFunctionality/Switzerland/how-to-adjust-exchange-rates.md)
 ### [Assign Delivery Codes to Vendors](LocalFunctionality/Switzerland/how-to-assign-delivery-reminder-codes-to-vendors.md)
 ### [Close an LSV Collection](LocalFunctionality/Switzerland/how-to-close-an-lsv-collection.md)

@@ -11,6 +11,7 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-create-contact-persons
 
 ---
 # Create Contact Persons

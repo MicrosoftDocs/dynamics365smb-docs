@@ -13,6 +13,7 @@ ms.workload: na
 ms.search.keywords: relationship, CRM, integration, couple
 ms.date: 10/01/2018
 ms.author: edupont
+redirect_url: marketing-create-contact-companies
 
 ---
 # Synchronizing Contacts With Customers, Vendors, and Bank Accounts

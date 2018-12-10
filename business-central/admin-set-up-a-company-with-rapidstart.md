@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 12/07/2018
     ms.author: sgroespe
 
 ---
@@ -40,7 +40,8 @@ You can use the following components to speed up your company setup:
 |Deploy the configured package to your customer for implementation.|[Apply Configurations to New Companies](admin-apply-configuration-to-new-companies.md)|
 |Define and validate your customer’s setup values for all core areas, such as company information, general ledger, inventory, sales, or manufacturing.|[Gather Customer Setup Values](admin-gather-customer-setup-values.md)|  
 |Configure core master data records using templates to prepare to migrate existing customer data.|[Prepare to Migrate Customer Data](admin-use-templates-to-prepare-customer-data-for-migration.md)|  
-|Define tables and fields, validate existing customer data, and migrate data into the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.|[Migrate Customer Data](admin-migrate-customer-data.md)|  
+|Define tables and fields, validate existing customer data, and migrate data into the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.|[Migrate Customer Data](admin-migrate-customer-data.md)|
+|Prepare to reuse company configurations in other companies.|[Create Custom Company Configuration Packages](admin-how-to-create-custom-company-configuration-packages.md)|
 |Find solutions to known issues in the RapidStart Services toolkit.|[Tips and Tricks: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)|  
 
 ## See Also  

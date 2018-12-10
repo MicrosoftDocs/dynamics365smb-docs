@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
 
-# Create a Sandbox Environment
+# Creating a Sandbox Environment
 A sandbox environment (Preview) is a non-production instance of [!INCLUDE[d365fin](includes/d365fin_md.md)]. Isolated from production, a sandbox environment is the place to safely explore, learn, demo, develop, and test the service without the risk of affecting the data and settings of your production environment.
 
 ## To create a sandbox environment

@@ -13,6 +13,7 @@ ms.workload: na
 ms.search.keywords: relationship, client, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-create-contact-companies
 
 ---
 # Create a Customer, Vendor, or Bank Account From a Contact

@@ -18,18 +18,22 @@ With pages that display a list of records in rows and columns, like a list of cu
 
 ## Open in Excel
 
-With this action, Excel respects any filters on the page the limit the records shown. This means that the Excel workbook will contain the same rows and columns that appear on the the page in [!INCLUDE[prodshort](includes/prodshort.md)].
+-    With this action, Excel respects any filters on the page the limit the records shown. This means that the Excel workbook will contain the same rows and columns that appear on the the page in [!INCLUDE[prodshort](includes/prodshort.md)].
 
-You can make changes to the records in Excel, but you cannot save the changes in [!INCLUDE[prodshort](includes/prodshort.md)]. You can only save the changes to Excel file on your computer.
+-    You can make changes to the records in Excel, but you cannot publish the changes back to [!INCLUDE[prodshort](includes/prodshort.md)]. You can only save the changes to Excel file on your computer. 
+
+-    This action works on both on Windows and macOS. 
 
 >[!NOTE]
 >For [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, the **Open in Excel** action is not available if the **Edit in Excel** action is.
 
 ## Edit in Excel
 
-With this action, the Excel workbook does not respect filters on the page the limit the records shown. This means that the Excel workbook will contain all the available records and columns, regardless of what is shown on the page. 
+-    With this action, the Excel workbook does not respect filters on the page the limit the records shown. This means that the Excel workbook will contain all the available records and columns, regardless of what is shown on the page. 
 
-The advantage of the **Edit in Excel** action is that it lets you make changes to records in Excel and then save the changes back to the page in Business Central.
+-    The advantage of the **Edit in Excel** action is that it lets you make changes to records in Excel and then publish the changes back to [!INCLUDE[prodshort](includes/prodshort.md)].
+
+-    It only works on Windows; not macOS.
 
 >[!NOTE]
 >For [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, the **Edit in Excel** action is only available if the Excel add-in has been installed by your administrator. For administrators, if you want to learn how to install the excel add-in, see [Setting up the Excel Add-In](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).

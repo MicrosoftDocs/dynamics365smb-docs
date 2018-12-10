@@ -13,6 +13,7 @@ ms.workload: na
 ms.search.keywords: task, to-do, relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
 
 ---
 # Set Up Job Responsibilities for Contact Persons

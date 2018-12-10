@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 11/15/2018
+ms.date: 12/07/2018
 ms.author: edupont
 
 ---
@@ -39,6 +39,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Enable invoicing of a customer who is not set up in the system.|[Set Up Cash Customers](finance-how-to-set-up-cash-customers.md)|
 | Set up Intrastat reporting, and submit the report to an authority | [Set Up and Report Intrastat](finance-how-setup-report-intrastat.md)|
 |Prepare the Consolidated Trial Balance report on the Accountant Role Center to get a financial overview across multiple companies.|[Consolidating Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)|
+|Make sure an entry in a general journal is allocated to several different accounts when you post the journal, either quantity, percentage, or amount.|[Use Allocation Keys in General Journals](ui-how-use-allocation-keys-general-journals.md)|
 
 ## See Also
 [Finance](finance.md)  

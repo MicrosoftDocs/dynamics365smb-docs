@@ -32,7 +32,7 @@ With this action, the Excel workbook does not respect filters on the page the li
 The advantage of the **Edit in Excel** action is that it lets you make changes to records in Excel and then save the changes back to the page in Business Central.
 
 >[!NOTE]
->For [!INCLUDE[prodshort](../developer/includes/prodshort.md)] on-premises, the **Edit in Excel** action is only available if the Excel add-in has been installed by your administrator. For administrators, if you want to learn how to install the excel add-in, see [Setting up the Excel Add-In](configuring-excel-addin.md).
+>For [!INCLUDE[prodshort](../developer/includes/prodshort.md)] on-premises, the **Edit in Excel** action is only available if the Excel add-in has been installed by your administrator. For administrators, if you want to learn how to install the excel add-in, see [Setting up the Excel Add-In](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).
 
 ## See Also
   

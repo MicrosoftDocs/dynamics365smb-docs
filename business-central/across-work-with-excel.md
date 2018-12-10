@@ -14,7 +14,7 @@ ms.author: jswymer
 ---
 # Viewing and Editing in Excel From Business Central 
 
-With pages that display a list of records in rows and columns, like a list of customers, sale orders, or general ledger entries, you can also view the records using Microsoft Excel. To do this, you have two options. You can either select the **Open in Excel** action or the **Edit in Excel** action on the page. The differences between the two actions is as follows:  
+With pages that display a list of records in rows and columns, like a list of customers, sale orders, or invoices, you can also view the records using Microsoft Excel. To do this, you have two options. You can either select the **Open in Excel** action or the **Edit in Excel** action on the page. The differences between the two actions is as follows:  
 
 ## Open in Excel
 
@@ -27,7 +27,7 @@ You can make changes to the records in Excel, but you cannot save the changes in
 
 ## Edit in Excel
 
-With this action, the Excel workbook does not respect filters on the page the limit the records shown. This means that the Excel workbook will contain all the available records, regardless of what is shown. 
+With this action, the Excel workbook does not respect filters on the page the limit the records shown. This means that the Excel workbook will contain all the available records and columns, regardless of what is shown on the page. 
 
 The advantage of the **Edit in Excel** action is that it lets you make changes to records in Excel and then save the changes back to the page in Business Central.
 
@@ -35,4 +35,5 @@ The advantage of the **Edit in Excel** action is that it lets you make changes t
 >For [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, the **Edit in Excel** action is only available if the Excel add-in has been installed by your administrator. For administrators, if you want to learn how to install the excel add-in, see [Setting up the Excel Add-In](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).
 
 ## See Also
-  
+
+[Working with Business Central](ui-work-product.md)  

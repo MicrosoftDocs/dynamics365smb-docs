@@ -90,6 +90,7 @@
 ## [Preview Posting Results](ui-how-preview-post-results.md)
 ## [Use Allocation Keys in General Journals](ui-how-use-allocation-keys-general-journals.md)
 ## [Working with Reports](ui-work-report.md)
+## [Viewing and Editing in Excel](across-work-with-excel.md)
 ### [Scheduling a Report to Run](ui-work-report.md#ScheduleReport)
 ### [Managing Saved Settings on Reports](reports-saving-reusing-settings.md)
 ## [Managing Report and Document Layouts](ui-manage-report-layouts.md)

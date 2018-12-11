@@ -19,13 +19,19 @@ There are many general features that help you enter data in a quick and easy way
 
 <!-- The examples in this article use the demonstration data.-->
 
-## Making data entry faster using Quick Entry 
+## Using Quick Entry 
 
-After you enter data in one field, you can press Enter to go to the next field in sequence, enter data, press . However, there might be some fields that you typically want to skip when entering data. For example, when creating sales orders, perhaps you rarely set the **Example** field. This is where the Quick Entry feature comes in handy.
+Quick Entry is a feature designed for accelerating data entry when using the keyboard. Normally, you might press Tab to go from one field on a page to the next field, even if the next field is non-editable or seldom filled in. Quick Entry changes this flow. It lets you press Enter to go through only those fields that you are interested in, skipping non-editable fields and fields that you typically do not fill in. You might have already noticed this behavior on some pages. This is because page designers have already designated which fields to include when pressing Enter and which ones to skip.
 
-### How it works
+<!-- 
 
-Each field can be marked for either quick entry or not. When a field is marked for quick entry, it is included in the sequence of fields when pressing Enter. When a field is not marked for quick entry, it is skipped when pressing Enter.
+After you enter data in one field, you can press Enter to go to the next field in sequence, enter data, press . However, there might be some fields that you typically want to skip when entering data. For example, when creating sales orders, perhaps you rarely set the **Example** field. This is where the Quick Entry feature comes in handy.-->
+
+### How Quick Entry works
+
+Every field can be marked as either being *included in Quick Entry* or *excluded from Quick Entry*. Fields that are included in Quick Entry, will be included in the path when pressing Enter; fields that are excluded from Quick Entry, will not.
+
+  ther quick entry or not. When a field is marked for quick entry, it is included in the sequence of fields when pressing Enter. When a field is not marked for quick entry, it is skipped when pressing Enter.
 
 You have perhaps have already seen this in action because system administrators and page developers might have already excluded fields from quick entry.
 
@@ -60,7 +66,8 @@ Even though the field contains a red asterisk, you are not forced to fill the fi
 
 -   Drop-down - Displays the set of options that exist for the field. You can select only one of the options.  
 
-## Copy and Pastwe Fields or Lines  
+## Copy and Paste Fields or Lines
+  
 You can copy one or more rows from a list or a single field on a page, and then paste what you copied into the same page, another page, or an external document (like Microsoft Excel and Outlook email). In short, to copy, you press CTRL+C (cmd+C in macOS) on your keyboard. To paste, you press CTRL+V (cmd+V in macOS).
 
 For more information, see [Copying and Pasting in Business Central](ui-copy-paste.md).

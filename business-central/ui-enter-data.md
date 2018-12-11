@@ -43,11 +43,11 @@ When you are finished entering data in a field, press Enter to go to the next fi
 - FastTabs do not have to be expanded for Quick Entry to work. If the next Quick Entry field is located in collapsed FastTab, that FastTab will automatically expand and focus on the designated field.
 - Quick Entry works irrespective of whether fields are mandatory. So it is a good idea to ensure that mandatory fields are included in Quick Entry.
 
-### Personalize Quick Entry
+### How to Change Quick Entry Fields
 
 By default, most fields are automatically included in Quick Entry. To change which fields are included in or exclude from Quick Entry on a page, you use personalization.
 
-1.    
+The first step is to 
 
 Quick Entry helps you focus on the most essential fields when working without a mouse or pointing device. It accelerates repetitive typing tasks, and is ideal for quickly creating multiple records in sequence, such as a creating a batch of sales orders or registering a sequence of new items. 
 

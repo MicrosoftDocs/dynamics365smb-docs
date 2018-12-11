@@ -30,7 +30,7 @@ Use the cost plus percentage function to set a sales price based on the cost of 
     > [!NOTE]  
     >  For a new customer, in the **No.** field, enter the customer number.  
 
-5.  To open the **Sales Prices** window, choose the **Prices** action.  
+5.  To open the **Sales Prices** page, choose the **Prices** action.  
 6.  In the **General** section, fill in the fields as described in the following table.  
 
     |Field|Description|  

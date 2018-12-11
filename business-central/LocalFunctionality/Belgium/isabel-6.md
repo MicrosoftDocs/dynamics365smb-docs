@@ -1,19 +1,13 @@
 ---
-    title: Isabel 6
-    description: The Isabel organization has developed a Client Isabel Synchronizer (CIS) platform that allows [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to securely integrate with Isabel. CIS handles document exchange to and from the Isabel server.
+title: Isabel 6
+description: The Isabel organization has developed a Client Isabel Synchronizer (CIS) platform so that Business Central can securely integrate with Isabel. CIS handles document exchange to and from the Isabel server.
+author: SorenGP
 
-    services: project-madeira 
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-business-central
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 10/01/2018
-    ms.author: sgroespe
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 10/01/2018
+ms.author: sgroespe
 
 ---
 # Isabel 6

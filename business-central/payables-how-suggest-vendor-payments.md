@@ -16,7 +16,7 @@ ms.author: sgroespe
 
 ---
 # Suggest Vendor Payments
-In the **Payment Journal** window, you can use the **Suggest Vendor Payments** batch job to suggest payment lines. Lines for payments that are due soon or payments where a payment discount is available are suggested based on your settings.
+On the **Payment Journal** page, you can use the **Suggest Vendor Payments** batch job to suggest payment lines. Lines for payments that are due soon or payments where a payment discount is available are suggested based on your settings.
 
 To benefit fully from payment suggestions, you must first prioritize your vendors. For more information, see [Prioritize Vendors](purchasing-how-prioritize-vendors.md).  
 

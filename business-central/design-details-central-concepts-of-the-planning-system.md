@@ -18,7 +18,7 @@
 # Design Details: Central Concepts of the Planning System
 The planning functions are contained in a batch job that first selects the relevant items and period to plan for. Then, according to each item’s low-level code (BOM position), the batch job calls a code unit, which calculates a supply plan by balancing supply-demand sets and suggesting possible actions for the user to take. The suggested actions appear as lines in the planning worksheet or the requisition worksheet.  
 
-![Contents of the Planning Worksheet window](media/NAV_APP_supply_planning_1_planning_worksheet.png "Contents of the Planning Worksheet window")  
+![Contents of the Planning Worksheet page](media/NAV_APP_supply_planning_1_planning_worksheet.png "Contents of the Planning Worksheet page")  
 
 The planner of a company, such as a purchaser or a production planner is presumed to be the user of the planning system. The planning system assists the user by performing the extensive but rather straightforward calculations of a plan. The user can then concentrate on solving the more difficult problems, such as when things differ from normal.  
 
@@ -49,7 +49,7 @@ For more information, see [Design Details: Dealing with Orders Before the Planni
 ## Dynamic Order Tracking (Pegging)  
 Dynamic Order Tracking, with its simultaneous creation of action messages in the planning worksheet, is not a part of the supply planning system in [!INCLUDE[d365fin](includes/d365fin_md.md)]. This feature links, in real-time, the demand and the quantities that could cover them, whenever a new demand or supply is created or changed.  
 
-For example, if the user enters or changes a sales order, the dynamic order tracking system will instantly and search for an appropriate supply to cover the demand. This could be from inventory or from an expected supply order (such as a purchase order or a production order). When a supply source is found, the system creates a link between the demand and the supply, and displays it in view-only windows that are accessed from the involved document lines. When appropriate supply cannot be found, the dynamic order tracking system creates action messages in the planning worksheet with supply plan suggestions reflecting the dynamic balancing. Accordingly, the dynamic order tracking system offers a very basic planning system that can be of help both to the planner and other roles in the internal supply chain.  
+For example, if the user enters or changes a sales order, the dynamic order tracking system will instantly and search for an appropriate supply to cover the demand. This could be from inventory or from an expected supply order (such as a purchase order or a production order). When a supply source is found, the system creates a link between the demand and the supply, and displays it in view-only pages that are accessed from the involved document lines. When appropriate supply cannot be found, the dynamic order tracking system creates action messages in the planning worksheet with supply plan suggestions reflecting the dynamic balancing. Accordingly, the dynamic order tracking system offers a very basic planning system that can be of help both to the planner and other roles in the internal supply chain.  
 
 Accordingly, Dynamic Order Tracking can be considered a tool that assists the user in assessing whether to accept supply order suggestions. From the supply side, a user can see which demand has created the supply, and from the demand side, which supply should cover the demand.  
 
@@ -154,7 +154,7 @@ An order-to-order link between demand and supply is another type of attribute th
 ### Specific Attributes  
 Certain attributes on demand are specific and must be matched exactly by a corresponding supply. The following two specific attributes exist:  
 
--   Demanded serial/lot numbers that require specific application (The **SN Specific Tracking** or **Lot Specific Tracking** check box is selected in the **Item Tracking Code Card** window for the item tracking code that is used by the item.)  
+-   Demanded serial/lot numbers that require specific application (The **SN Specific Tracking** or **Lot Specific Tracking** check box is selected on the **Item Tracking Code Card** page for the item tracking code that is used by the item.)  
 -   Links to supply orders created manually or automatically for a specific demand (order-to-order links).  
 
 For these attributes, the planning system applies the following rules:  
@@ -207,7 +207,7 @@ The first column in the planning worksheet is for the warning fields. Any planni
 
 Supply on planning lines with warnings will normally not be modified according to planning parameters. Instead, the planning system only suggests a supply to cover the exact demand quantity. However, the system can be set up to respect certain planning parameters for planning lines with certain warnings. For more information, see the description of these options for the **Calculate Plan - Plan. Wksh.** batch job and the **Calculate Plan - Req. Wksh.** batch job respectively.  
 
-The warning information is shown in the **Untracked Planning Elements** window, which is also used to show order tracking links to non-order network entities. The following warning types exist:  
+The warning information is shown on the **Untracked Planning Elements** page, which is also used to show order tracking links to non-order network entities. The following warning types exist:  
 
 -   Emergency  
 -   Exception  
@@ -248,7 +248,7 @@ The attention warning is displayed in three situations:
 ## Error Logs  
 In the Calculate Plan request page, the user can select the **Stop and Show First Error** field to have the planning run stop when it encounters the first error. At the same time, a message is displayed with information about the error. If an error exists, only the successful planning lines that were made before the error was encountered will be presented in the planning worksheet.  
 
-If the field is not selected, the Calculate Plan batch job will continue until it has completed. Errors will not interrupt the batch job. If one or more errors exist, the program will display a message after completion saying how many items are affected by errors. The **Planning Error Log** window then opens to provide more details about the error and to provide links to the affected documents or setup cards.  
+If the field is not selected, the Calculate Plan batch job will continue until it has completed. Errors will not interrupt the batch job. If one or more errors exist, the program will display a message after completion saying how many items are affected by errors. The **Planning Error Log** page then opens to provide more details about the error and to provide links to the affected documents or setup cards.  
 
 ![Error messages in the planning worksheet](media/NAV_APP_supply_planning_1_error_log.png "Error messages in the planning worksheet")  
 
@@ -260,10 +260,10 @@ The field can be manually set by the user, however, in some cases it will be set
 For more information about how this field is used, see [Design Details: Transfers in Planning](design-details-transfers-in-planning.md).  
 
 ## Order Planning  
-The basic supply planning tool represented by the **Order Planning** window is designed for manual decision making. It does not consider any planning parameters and is therefore not discussed further in this document. For more information on the Order Planning feature, refer to Help in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+The basic supply planning tool represented by the **Order Planning** page is designed for manual decision making. It does not consider any planning parameters and is therefore not discussed further in this document. For more information on the Order Planning feature, refer to Help in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!NOTE]  
->  It is not advisable to use Order Planning if the company already uses the planning or requisition worksheets. Supply orders created through the **Order Planning** window may be changed or deleted during the automated planning runs. This is because the automated planning run uses planning parameters and these may not be considered by the user who made the manual plan in the Order Planning window.  
+>  It is not advisable to use Order Planning if the company already uses the planning or requisition worksheets. Supply orders created through the **Order Planning** page may be changed or deleted during the automated planning runs. This is because the automated planning run uses planning parameters and these may not be considered by the user who made the manual plan in the Order Planning page.  
 
 ##  Finite Loading  
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is a standard ERP system, not a dispatching or shop floor control system. It plans for a feasible utilization of resources by providing a rough-cut schedule, but it does not automatically create and maintain detailed schedules based on priorities or optimization rules.  

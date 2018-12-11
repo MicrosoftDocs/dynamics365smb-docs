@@ -41,7 +41,7 @@ Before you can work with contracts, you must set up the following:
 2. Create a new service contract template.  
 3. In the **No.** field, enter a number for the contract template.  
   
-     Alternatively, if you have set up number series for contract templates in the **Service Mgt. Setup** window, you can press the Enter key to enter the next available contract template number. Fill in the other fields if appropriate.  
+     Alternatively, if you have set up number series for contract templates on the **Service Mgt. Setup** page, you can press the Enter key to enter the next available contract template number. Fill in the other fields if appropriate.  
   
 4. On the **Invoice** FastTab, fill in the **Serv. Contract Acc. Group Code** field, the **Invoice Period**, and so on. Fill in the other fields if appropriate.  
 5. Choose the **Service Discounts** action to add contract discounts.  

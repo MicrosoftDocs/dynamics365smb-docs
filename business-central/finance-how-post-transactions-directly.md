@@ -1,7 +1,7 @@
 ---
 title: Record expenses or income directly in G/L| Microsoft Docs
-description: For business activities that are not represented by a document in, such as smaller expenses or cash receipts, you can create the related transactions by posting journal lines in the General Journal window.
-author: edupont04
+description: For business activities that are not represented by a document in, such as smaller expenses or cash receipts, you can create the related transactions by posting journal lines in the General Journal page.
+author: SorenGP
 
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,8 +9,8 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct posting, general ledger
-ms.date: 10/01/2018
-ms.author: edupont
+ms.date: 11/27/2018
+ms.author: sgroespe
 
 ---
 # Post Transactions Directly to the General Ledger
@@ -29,12 +29,12 @@ Unlike for entries that are posted with documents, which require a credit memo p
 2. Open the relevant general journal batch. For more information, see [Working with General Journals](ui-work-general-journals.md).
 3. On a new journal line, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]    
 
-    > [!TIP]
+    > [!NOTE]
     > [!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]
 4. Repeat step 3 for all the separate transactions that you want to post.
 
     > [!TIP]  
-    > If you want to enter multiple transaction lines above one balance-account line, for example, for one bank account, then select the **Suggest Balancing Amount** check box on the line for your batch in the **General Journal Batches** window. Then the **Amount** field on the balance-account line is automatically prefilled with the value that is required to balance the transactions.
+    > If you want to enter multiple transaction lines above one balance-account line, for example, for one bank account, then select the **Suggest Balancing Amount** check box on the line for your batch on the **General Journal Batches** page. Then the **Amount** field on the balance-account line is automatically prefilled with the value that is required to balance the transactions.
 5. Choose the **Post** action to record the transactions on the specified G/L accounts.
 
 ## See Also

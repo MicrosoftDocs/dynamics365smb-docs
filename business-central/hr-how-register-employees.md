@@ -20,15 +20,15 @@ To use the Human Resources functionality, you must first register each employee 
 
 You can modify an employee's details at any time. Keeping up-to-date records about your employees simplifies personnel tasks. For example, if an employee's address changes, you register this on the employee card.
 
-The following procedures describe how to create an initial employee card and how to assign two types of employee details to an employee. In addition, you can assign various other related information, such as qualifications and causes of inactivity. You assign employee information either by choosing a field or an action in the **Employee Card** window.
+The following procedures describe how to create an initial employee card and how to assign two types of employee details to an employee. In addition, you can assign various other related information, such as qualifications and causes of inactivity. You assign employee information either by choosing a field or an action on the **Employee Card** page.
 
 > [!NOTE]  
-> You can reimburse employees for their expenses during business activities. For this purpose, you must fill in the fields on the **Payments** FastTab in the **Employee Card** window. For more information, see [Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md).
+> You can reimburse employees for their expenses during business activities. For this purpose, you must fill in the fields on the **Payments** FastTab on the **Employee Card** page. For more information, see [Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md).
 
 ## To set up an employee
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Employees**, and then choose the related link.
 2. Choose the **New** action.
-3. In the **Employee Card** window, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. On the **Employee Card** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To insert a picture of an employee
 If you have a picture of an employee in .bmp format, you can insert it on the employee card.
@@ -36,7 +36,7 @@ If you have a picture of an employee in .bmp format, you can insert it on the em
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Employees**, and then choose the related link.
 2. Open the card for the relevant employee.
 3. In the **Employee Picture** FactBox, choose the drop-down button, and then choose **Import**.
-4. In the **Select a picture to upload** window, choose the **Choose** button.
+4. On the **Select a picture to upload** page, choose the **Choose** button.
 5. Select the file, and then choose **Open**.
 
 The picture is inserted in the **Employee Picture** FactBox.
@@ -49,7 +49,7 @@ You can use alternate addresses to keep track of your employees’ location, for
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Employees**, and then choose the related link.
 2. Open the card for the relevant employee.
 3. Choose the **Alternate Addresses** action.
-4. **In the Alternate Address List** window, fill in the fields as necessary.
+4. **In the Alternate Address List** page, fill in the fields as necessary.
 5. Repeat step 4 for each alternate address.
 
 ## See Also

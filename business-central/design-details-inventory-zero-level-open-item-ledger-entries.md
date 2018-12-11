@@ -98,7 +98,7 @@ The following diagram shows how cost applications are made.
 
  For scenario 1, identify the issue as follows:  
 
--   In the **Posted Sales Credit Memo** or **Posted Return Receipt** window, look up from the **Appl.\-from Item Entry** field to see if the field is populated, and in that case to which item ledger entry the return receipt is cost applied.  
+-   In the **Posted Sales Credit Memo** or **Posted Return Receipt** page, look up from the **Appl.\-from Item Entry** field to see if the field is populated, and in that case to which item ledger entry the return receipt is cost applied.  
 
  For scenario 2, identify the issue in either of the following ways:  
 
@@ -109,10 +109,10 @@ The following diagram shows how cost applications are made.
 |333|01/28/2018|Sale|Sales Shipment|102043|TEST|BLUE|-1|-10|-1|-1|Yes|No|  
 |334|01/28/2018|Sale|Sales Shipment|102043|TEST|BLUE|1|10|1|1|Yes|**Yes**|  
 
--   In the **Posted Sales Shipment** window, look up from the **Appl.-from Item Entry** field to see if the field is populated, and in that case to which item ledger entry the return receipt is cost applied.  
+-   On the **Posted Sales Shipment** page, look up from the **Appl.-from Item Entry** field to see if the field is populated, and in that case to which item ledger entry the return receipt is cost applied.  
 
 > [!NOTE]  
->  Cost applications cannot be identified in the **Applied Item Entries** window because that window only shows quantity applications.  
+>  Cost applications cannot be identified on the **Applied Item Entries** page because that page only shows quantity applications.  
 
  For both scenarios, identify the involved cost application as follows:  
 
@@ -134,7 +134,7 @@ The following diagram shows how cost applications are made.
  Notice above that inbound item ledger entry 334 is cost applied to outbound item ledger entry 333.  
 
 ## Workaround for the Issue  
- In the **Item Journal** window, post the following lines for the item in question:  
+ On the **Item Journal** page, post the following lines for the item in question:  
 
 -   A positive adjustment to close the open outbound item ledger entry.  
 

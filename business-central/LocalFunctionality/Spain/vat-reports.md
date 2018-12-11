@@ -28,7 +28,7 @@ Preset general posting groups have an EC percentage in addition to their VAT per
 For printing sales and purchase invoice books, the VAT percent and EC percentages are displayed in the **VAT Entry** table during posting.  
 
 > [!NOTE]  
->  If the item has no taxable VAT, 0 is automatically displayed in the **VAT %** field in the VAT information windows.  
+>  If the item has no taxable VAT, 0 is automatically displayed in the **VAT %** field in the VAT information pages.  
 
 ### Telematic VAT  
 With telematic VAT you can design and generate monthly and yearly tax reports as electronic files or printed files. You can submit these reports to the tax authorities using a third-party program or an XML file from the tax authorities' website.  

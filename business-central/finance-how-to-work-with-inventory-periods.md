@@ -48,7 +48,7 @@ This means that all outbound transaction quantities, such as those from sales or
 
      Run the **Post Inventory Cost to G/L** batch job to ensure that all costs are posted to the general ledger.  
 3. Choose the **Post Inventory to G/L** action.  
-4. In the **Inventory Periods** window, select the inventory period you want to close.  
+4. On the **Inventory Periods** page, select the inventory period you want to close.  
 5. Choose the **Close Period** action. After the inventory period has been closed, you cannot post inventory changes before the ending date. The cost of all items must be adjusted with the **Adjust Cost – Item Entries** batch job before you close the inventory period.  
 6. Choose the **Yes** button to confirm that you want to close the period, or choose **No** to cancel the closing.  
 7. The inventory period is closed and a confirmation message is displayed when it is finished.  

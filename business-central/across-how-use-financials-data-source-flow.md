@@ -27,7 +27,7 @@ You can use your [!INCLUDE[d365fin](includes/d365fin_md.md)] data as part of a w
 1. In your browser, navigate to [flow.microsoft.com](https://flow.microsoft.com/en-us/), and then sign in.
 2. Choose **My Flows** from the ribbon at the top of the page.
 3. There are 2 ways to create a Flow; **Create from template** and **Create from blank**. A template is a predefined Flow that has been created for you.  To use a template, simply select it and create a connection for each service the template uses. A blank template enables you to create a new Flow completely from scratch.
-4. To Create from blank, in the **My Flows** window, choose the **Create from blank** option.
+4. To Create from blank, on the **My Flows** page, choose the **Create from blank** option.
 5. Search for **Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]** connector.
 6. From the list of available triggers, select one of the [!INCLUDE[d365fin](includes/d365fin_md.md)] triggers available:  
     *When a customer approval is requested*,  

@@ -56,7 +56,7 @@ When your vendors have informed you which invoice discounts they grant, enter th
     >   Invoice discount codes are represented by existing vendor cards. This enables you to quickly assign invoice discount terms to vendors by picking the name of another vendors who will have the same terms.
 
     Proceed to set up new the purchase invoice discount terms.
-4. In the **Vendor Card** window, choose the **Invoice Discounts** action. The **Vend. Invoice Discounts** window opens.
+4. On the **Vendor Card** page, choose the **Invoice Discounts** action. The **Vend. Invoice Discounts** page opens.
 5. In the **Currency Code** field, enter the code for a currency that the invoice discount terms on the line applies to. Leave the field blank to set up invoice discount terms in USD.
 6. In the **Minimum Amount** field, enter the minimum amount that an invoice must have to be eligible for the discount.
 7. In the **Discount %** field, enter the invoice discount as a percentage of the invoice amount.
@@ -84,7 +84,7 @@ If you have fixed terms for invoice discounts with any vendors, you can enter th
 
  Before you can use invoice discounts with purchases, you must specify the vendors that offer you the discounts.  
 
- You link discount percentages to specific invoice amounts in **Vend. Invoice Discounts** windows. You can enter any number of percentages in each window. Each vendor can have its own window, or you can link several vendors to the same window.  
+ You link discount percentages to specific invoice amounts in **Vend. Invoice Discounts** pages. You can enter any number of percentages in each page. Each vendor can have its own page, or you can link several vendors to the same page.  
 
  In addition to a discount percentage, you can link a service charge amount to a specific invoice amount.  
 
@@ -93,7 +93,7 @@ If you have fixed terms for invoice discounts with any vendors, you can enter th
  You can choose to have [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically calculate the invoice discounts for quotes, blanket orders, orders, invoices, or credit memos.  
 
 > [!TIP]  
->  Before you enter this information, it is a good idea to prepare an outline of the discount structure that you want to use. This makes it easier to see which vendors can be linked to the same invoice discount window. The fewer windows that you have to set up, the faster that you can enter the basic information.
+>  Before you enter this information, it is a good idea to prepare an outline of the discount structure that you want to use. This makes it easier to see which vendors can be linked to the same invoice discount page. The fewer pages that you have to set up, the faster that you can enter the basic information.
 
 ## Best Price Calculation
 When you have recorded special prices and line discounts for sales and purchases, [!INCLUDE[d365fin](includes/d365fin_md.md)] ensures that your profit on item trade is always optimal by automatically calculating the best price on sales and purchase documents and on job and item journal lines.

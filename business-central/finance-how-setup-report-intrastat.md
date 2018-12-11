@@ -16,7 +16,7 @@ ms.author: bholtorf
 
 ---
 # How To: Set Up and Report Intrastat
-All companies in the European Union must report their trade with other EU countries/regions. You must report the movement of goods to the statistics authorities in your country/region every month, and the report must be delivered to the tax authorities. This is referred to as Intrastat Reporting. You use the **Intrastat Journal** window to complete periodic Intrastat reports.  
+All companies in the European Union must report their trade with other EU countries/regions. You must report the movement of goods to the statistics authorities in your country/region every month, and the report must be delivered to the tax authorities. This is referred to as Intrastat Reporting. You use the **Intrastat Journal** page to complete periodic Intrastat reports.  
 
 ## Required and Optional Setups
 Before you can use the Intrastat journal to report Intrastat information, there are several things you must set up:  
@@ -53,32 +53,32 @@ All items that you buy or sell must have a commodity code.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Commodity Codes**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. To assign a commodity code to an item, go to the **Item Card** window, expand the **Costs & Posting** FastTab, and then enter the code in the **Commodity Code** field.   
+3. To assign a commodity code to an item, go to the **Item Card** page, expand the **Costs & Posting** FastTab, and then enter the code in the **Commodity Code** field.   
 
 ### To set up transaction nature codes
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transaction Nature Codes**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 > [!Tip]
-> If you frequently use a particular transaction nature code, you can make it the default. To do this, go to the **Intrastat Setup** window, and choose the code.
+> If you frequently use a particular transaction nature code, you can make it the default. To do this, go to the **Intrastat Setup** page, and choose the code.
 
 ### To set up transport methods
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transport Methods**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### To set up which Intrastat report fields are mandatory
-In some countries, such as Spain and UK, the authorities require that Intrastat reports include, for example, the shipment method for purchases or some other values when sales is over a certain threshold. In the **Intrastat Setup** window, you can select to make **Intrastat Checkist Setup** to set mandatory fields in the **Intrastat Journal** window.
+In some countries, such as Spain and UK, the authorities require that Intrastat reports include, for example, the shipment method for purchases or some other values when sales is over a certain threshold. On the **Intrastat Setup** page, you can select to make **Intrastat Checkist Setup** to set mandatory fields on the **Intrastat Journal** page.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Setup**, and then choose the related link.
 2. Chooes the **Intrastat Checklist Setup** action.
-3. In the **Intrastat Checklist Setup** window, click in the **Field Name** to pick Intrastat report field you want to make mandatory. 
+3. On the **Intrastat Checklist Setup** page, click in the **Field Name** to pick Intrastat report field you want to make mandatory. 
 
 ## To Report Intrastat
-After you fill in the Intrastat journal, you can run the **Checklist report** action to make sure that that all information in the journal is correct. Mandatory fields you have set in **Intrastat Checklist Setup** window that are missing values, will be shown in Errors and warning factbox on **Intrastat Journal** window. Afterward, you can print an Intrastat report as a form, or create a file to submit to the tax authority in your country/region.  
+After you fill in the Intrastat journal, you can run the **Checklist report** action to make sure that that all information in the journal is correct. Mandatory fields you have set in **Intrastat Checklist Setup** page that are missing values, will be shown in Errors and warning factbox on **Intrastat Journal** page. Afterward, you can print an Intrastat report as a form, or create a file to submit to the tax authority in your country/region.  
 
 ### To fill in Intrastat journals  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journal** and then choose the related link.  
-2. In the **Intrastat Journal** window, in the **Batch Name** field, choose the relevant journal batch, and then choose **OK**.  
+2. On the **Intrastat Journal** page, in the **Batch Name** field, choose the relevant journal batch, and then choose **OK**.  
 3. Choose the **Suggest Lines** action. The **Starting Date** and **Ending Date** fields will already contain the dates specified for the statistics period on the journal batch.  
 4. In the **Cost Regulation %** field, you can enter a percentage to cover transport and insurance. If you enter a percentage, the content of the **Statistical Value** field in the journal is proportionally higher.  
 5. Choose **OK** to start the batch job.  
@@ -86,13 +86,13 @@ After you fill in the Intrastat journal, you can run the **Checklist report** ac
 The batch job retrieves all the item entries in the statistics period and inserts them as lines in the Intrastat journal. You can edit the lines if needed.  
 
 > [!IMPORTANT]  
->  The batch job retrieves only the entries that contain a country/region code for which an Intrastat code has been entered in the **Countries/Regions** window. Therefore, you must enter Intrastat codes for the country/region codes for which you will run the batch job.  
+>  The batch job retrieves only the entries that contain a country/region code for which an Intrastat code has been entered on the **Countries/Regions** page. Therefore, you must enter Intrastat codes for the country/region codes for which you will run the batch job.  
 
 ### Report Intrastat on a form or a file
 To get the information that is required on the Intrastat form from the statistical authorities, you must print the **Intrastat – Form** report. Before you can do this, you must prepare the Intrastat journal and fill it in. If you have both sales and purchase transactions, you must complete a separate form for each type, so that you must print the report two times.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journals**, and then choose the related link.  
-2. In the **Intrastat Journal** window, choose the relevant journal batch in the **Batch Name** field.  
+2. On the **Intrastat Journal** page, choose the relevant journal batch in the **Batch Name** field.  
 3. If you have not already done this, fill in the journal manually or choose **Suggest Lines**.  
 4. Choose the **Prints Intrastat Journal** action.  
 5. On the **Intrastat Jnl. Line** FastTab, add a **Type** filter and then specify whether this is a **Receipt** or a **Shipment**.  
@@ -102,10 +102,10 @@ To get the information that is required on the Intrastat form from the statistic
 You can submit the Intrastat report as a file. Before creating the file, you can print a checklist that contains the same information that will be in the file.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journal**, and then choose the related link.  
-2. In the **Intrastat Journal** window, select the relevant journal batch in the **Batch Name** field.  
+2. On the **Intrastat Journal** page, select the relevant journal batch in the **Batch Name** field.  
 3. If you have not already done this, fill in the journal manually or by choosing **Suggest Lines**.  
 4. Choose the **Create File** action.  
-5. In the batch job window, choose **OK**.  
+5. In the batch job page, choose **OK**.  
 6. Choose **Save**.  
 7. Browse to the location where you want to save the file, enter the file name, and then choose **Save**.
 

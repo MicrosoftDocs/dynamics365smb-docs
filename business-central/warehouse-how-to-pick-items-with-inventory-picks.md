@@ -16,16 +16,16 @@
 
 ---
 # Pick Items with Inventory Picks
-When your location is set up to require pick processing but not shipment processing, you use the **Inventory Pick** window to record and post picking and shipping information for your source documents. The outbound source document can be a sales order, a purchase return order, an outbound transfer order, or a production order whose components are ready to be picked.
+When your location is set up to require pick processing but not shipment processing, you use the **Inventory Pick** page to record and post picking and shipping information for your source documents. The outbound source document can be a sales order, a purchase return order, an outbound transfer order, or a production order whose components are ready to be picked.
 
 > [!NOTE]  
-> Components for assembly orders cannot be picked or posted with inventory picks. Instead, use the **Inventory Movement** window. For more information, see [Move Components to an Operation Area in Basic Warehousing](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+> Components for assembly orders cannot be picked or posted with inventory picks. Instead, use the **Inventory Movement** page. For more information, see [Move Components to an Operation Area in Basic Warehousing](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
 >  When picking and shipping sales line quantities that are assembled to the order, you must follow certain rules when creating the inventory pick lines. For more information, see the “Handling Assemble-to-Order Items in Inventory Picks” section.  
 
 You can create an inventory pick in three ways:  
 
-- Create the pick in two steps by first requesting an inventory pick by releasing the source document. This signals to the warehouse that the source document is ready for picking. The inventory pick can then be created in the **Inventory Pick** window based on the source document.  
+- Create the pick in two steps by first requesting an inventory pick by releasing the source document. This signals to the warehouse that the source document is ready for picking. The inventory pick can then be created on the **Inventory Pick** page based on the source document.  
 - Create the inventory pick directly from the source document itself.  
 - You can create inventory picks for several source documents at the same time by using the batch job.  
 
@@ -66,7 +66,7 @@ Now that the request is created, the warehouse employee can create a new invento
 
 ## To record the inventory picks  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Pick**, and then choose the related link.  
-2. In the **Bin Code** field on the pick lines, the bin that the items must be picked from is suggesting per the item's default bin. You can change the bin in this window if necessary.  
+2. In the **Bin Code** field on the pick lines, the bin that the items must be picked from is suggesting per the item's default bin. You can change the bin in this page if necessary.  
 3. Perform the pick and enter the information for the actual quantity put away in the **Qty. to Handle** field.
 
     If it is necessary to pick the items for one line from more than one bin, for example because they are not available in the designated bin, then use the **Split Line** function on the **Lines** FastTab. For more information about splitting lines, see [Split Warehouse Activity Lines](warehouse-how-to-split-warehouse-activity-lines.md).  
@@ -83,11 +83,11 @@ If items on the inventory pick are not available, then you can delete those inve
 >  If inventory pick lines have serial/lot numbers that are not available, you must not delete the lines in question. Instead, you must change the **Qty. to Handle** field to zero, post the actual picks, and then delete the inventory pick document. This ensures that the inventory pick lines for those serial/lot numbers can be recreated from the sales order later.  
 
 ## Handling Assemble-to-Order Items with Inventory Picks
-The **Inventory Pick** window is also used to pick and ship for sales where items must be assembled before they can be shipped. For more information, see [Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md).
+The **Inventory Pick** page is also used to pick and ship for sales where items must be assembled before they can be shipped. For more information, see [Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md).
 
 Items to be shipped are not physically present in a bin until they are assembled and posted as output to a bin in the assembly area. This means that picking assemble-to-order items for shipment follows a special flow. From a bin, warehouse workers take the assembly items to the shipping dock and then post the inventory pick. The posted inventory pick then posts the assembly output, the component consumption, and the sales shipment.
 
-You can set up [!INCLUDE[d365fin](includes/d365fin_md.md)] to automatically create an inventory movement when the inventory pick for the assembly item is created. To enable this, you must select the **Create Movements Automatically** field in the **Assembly Setup** window. For more information, see [Move Components to an Operation Area in Basic Warehousing](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+You can set up [!INCLUDE[d365fin](includes/d365fin_md.md)] to automatically create an inventory movement when the inventory pick for the assembly item is created. To enable this, you must select the **Create Movements Automatically** field on the **Assembly Setup** page. For more information, see [Move Components to an Operation Area in Basic Warehousing](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
 Inventory pick lines for sales items are created in different ways depending on whether none, some, or all of the sales line quantities are assembled to order.
 
@@ -97,7 +97,7 @@ In assemble-to-order sales where the full quantity on the sales order line is as
 
 If an assembly output flow is set up for the location, then the value in the **Asm.-to-Order Shpt. Bin Code** field or the value in the **From-Assembly Bin Code** field, in that order, is inserted in the **Bin Code** field on the inventory pick line.
 
-If no bin code is specified on the sales order line, and no assembly output flow is set up for the location, then the **Bin Code** field on the inventory pick line is empty. The warehouse worker must open the **Bin Contents** window and select the bin where the assembly items are assembled.
+If no bin code is specified on the sales order line, and no assembly output flow is set up for the location, then the **Bin Code** field on the inventory pick line is empty. The warehouse worker must open the **Bin Contents** page and select the bin where the assembly items are assembled.
 
 In combination scenarios, where a part of the quantity must first be assembled and another must be picked from inventory, a minimum of two inventory pick lines are created. One pick line is for the assemble-to-order quantity. The other pick line depends on which bins can fulfill the remaining quantity from inventory. Bin codes on the two lines are filled in different ways as described for the two different sales types respectively. For more information, see the “Combination Scenarios” section in [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md).
 

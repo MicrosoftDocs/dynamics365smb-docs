@@ -61,7 +61,7 @@ A campaign is any kind of activity that involves several contacts. An important 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Campaigns**, and then choose the related link.  
 2.  Choose the **New** action to create a new campaign. On the campaign card, press Enter to have a campaign number automatically inserted.  
 3.  In the **Description** field, enter a description for the campaign, for example, **FUTURUS trade show**.  
-4.  Choose the **Status Code** field, and select a status code from the list that opens in the **Campaign Status** window.  
+4.  Choose the **Status Code** field, and select a status code from the list that opens on the **Campaign Status** page.  
 5.  Fill in the **Starting Date** and **Ending Date** fields of the campaign as appropriate.  
 
 ## Selecting the Target Audience  
@@ -79,16 +79,16 @@ A campaign is any kind of activity that involves several contacts. An important 
 
      You use filters to add contacts according to the criteria that best fit your purposes. For example, you can choose to filter by the job responsibility of the contact person or the business relation or industry of the contact company. For this walkthrough, choose the **Job Responsibility** filter to select contacts.  
 
-4.  In the **Segment** window, choose the **Add Contacts** action to open the **Add Contacts** filter.  
+4.  On the **Segment** page, choose the **Add Contacts** action to open the **Add Contacts** filter.  
 5.  On the **Job Responsibility** FastTab, select the **Purchase** filter as the **Job Responsibility Code** and choose the **OK** button.  
 
-     The **Segment** window now contains a list of contacts based on the filter you entered. On the **General** FastTab, in the **No. of Lines** field, you can see at a glance the number of contacts that meet these criteria.  
+     The **Segment** page now contains a list of contacts based on the filter you entered. On the **General** FastTab, in the **No. of Lines** field, you can see at a glance the number of contacts that meet these criteria.  
 
     > [!NOTE]  
     >  You can save your segmentation criteria to be reused at a later stage.
 
-    1.  In the **Segment** window, choose the **Segment** action, and then choose the **Save Criteria** action.  
-    2.  In the **Save Segment Criteria** window, enter a code for the segment. In the **Description** field, enter a description of the segment criteria.
+    1.  On the **Segment** page, choose the **Segment** action, and then choose the **Save Criteria** action.  
+    2.  On the **Save Segment Criteria** page, enter a code for the segment. In the **Description** field, enter a description of the segment criteria.
     3.  Choose the **OK** button.  
 
 ## Mining the Data  
@@ -96,15 +96,15 @@ A campaign is any kind of activity that involves several contacts. An important 
 
 ### To remove contacts from the segment  
 
-1.  In the **Segment** window, choose the **Contacts** action, and then choose the **Reduce Contacts** action to open the **Remove Contacts – Reduce** window.  
+1.  On the **Segment** page, choose the **Contacts** action, and then choose the **Reduce Contacts** action to open the **Remove Contacts – Reduce** page.  
 2.  On the **Business Relation** FastTab, select the **PROS** filter as the **Business Relation Code**, and choose the **OK** button.  
 
-     The **Segment** window now contains a reduced list of contacts, and in the **No. of Lines** field, you can see the number of contacts that now meet these new criteria.  
+     The **Segment** page now contains a reduced list of contacts, and in the **No. of Lines** field, you can see the number of contacts that now meet these new criteria.  
 
     > [!NOTE]  
     >  If you have to reverse this removal of a group of contacts, you can do this using the **Go Back** function. In other words, you can undo your last segmentation.  
     >   
-    >  In the **Segment** window, choose the **Segment** action, and then choose the **Go Back** action.  
+    >  On the **Segment** page, choose the **Segment** action, and then choose the **Go Back** action.  
     >   
     >  The contacts that you just removed are added back to the list of contacts.  
 
@@ -113,7 +113,7 @@ A campaign is any kind of activity that involves several contacts. An important 
 
 ### To link a segment to the campaign  
 
-1.  In the **Segment** window, on the **Campaign** FastTab, choose the **Campaign No.** field to select the campaign that you want the segment to be attached to, for example, **CP0001**.  
+1.  On the **Segment** page, on the **Campaign** FastTab, choose the **Campaign No.** field to select the campaign that you want the segment to be attached to, for example, **CP0001**.  
 2.  Since this segment is the target of the campaign, select the **Campaign Target** check box.  
 
 ## Sending Letters and Email Messages to Contacts  
@@ -128,7 +128,7 @@ A campaign is any kind of activity that involves several contacts. An important 
     > [!NOTE]  
     >  This template consists of more than one attachment document, each of them written in a different language. Example languages include English and Danish.  
 
-4.  Choose the **Language Code (Default)** field to open the **Segment Interaction Languages** window. Select a language code and then choose the **OK** button.  
+4.  Choose the **Language Code (Default)** field to open the **Segment Interaction Languages** page. Select a language code and then choose the **OK** button.  
 5.  You can display the document in the selected language. Choose the **Attachment** action, and then choose the **Open** action.  
 
      To respond to the message that requests permission to start Word, choose the **Allow for this client session** option.  
@@ -156,7 +156,7 @@ A campaign is any kind of activity that involves several contacts. An important 
 2.  In the **Subject (Default)** field, enter the following example text: **Thank you for visiting the trade show**.  
 3.  In the **Correspondence Type** field, choose **E-Mail**.  
 4.  Specify language settings, as in the previous procedure.  
-5.  Choose the **Log** action. The **Log Segment** window opens.  
+5.  Choose the **Log** action. The **Log Segment** page opens.  
 6.  Select the **Send Attachments** check box to have the attachments sent by email.  
 7.  Select the **Create Follow-up Segment** check box.  
 8.  Choose the **OK** button.  
@@ -170,12 +170,12 @@ A campaign is any kind of activity that involves several contacts. An important 
 
 ### To register campaign responses  
 
-1.  In the **Segment** window, expand the **Interaction** FastTab.  
+1.  On the **Segment** page, expand the **Interaction** FastTab.  
 2.  Choose the **Interaction Template Code** field.  
 
      There is no interaction template for recording responses to campaigns. Therefore, create a new template.  
 
-3.  In the **Interaction Templates** window, choose the **New** action.  
+3.  On the **Interaction Templates** page, choose the **New** action.  
 4.  In the **Code** field, enter **RESP**, and in the **Description** field, enter **Campaign Responses**.  
 5.  Choose the **OK** button.  
 6.  Select this interaction template in the **Interaction Template Code** field and confirm the message that asks if you want to update the segment lines with the same Interaction Template Code.  
@@ -186,10 +186,10 @@ A campaign is any kind of activity that involves several contacts. An important 
 9. Select the **Campaign Response** field and confirm the subsequent message.  
 
      Log the segment to make sure that the interactions are recorded.  
-10. In the **Segment** window, choose the **Log** action.  
-11. In the **Log Segment** window, clear the **Send Attachments** check box, and then choose the **OK** button and confirm the message that appears.  
+10. On the **Segment** page, choose the **Log** action.  
+11. On the **Log Segment** page, clear the **Send Attachments** check box, and then choose the **OK** button and confirm the message that appears.  
 
-     After the segment is logged, an entry for the campaign is automatically created to record this action in the **Campaign Entries** window.  
+     After the segment is logged, an entry for the campaign is automatically created to record this action on the **Campaign Entries** page.  
 
 ## See Also  
 [Relationship Management](marketing-relationship-management.md)  

@@ -33,16 +33,16 @@ Applying temporary general ledger entries allows companies to work with temporar
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Registers**, and then choose the related link.  
 2.  Select a general ledger register, and then choose the **General Ledger** action.  
-3.  In the **General Ledger Entries** window, choose the **Apply Entries** action.  
+3.  On the **General Ledger Entries** page, choose the **Apply Entries** action.  
 
-    All open ledger entries for the general ledger account are displayed in the **Apply General Ledger Entries** window.  
+    All open ledger entries for the general ledger account are displayed on the **Apply General Ledger Entries** page.  
 
     > [!NOTE]  
     >  By default, the **Include Entries** field is set to **Open**. You can change the value of the **Include Entries** field to **All** or **Closed**. You can only apply general ledger entries that are **Open**.  
 
 4.  Select the relevant general ledger entry, and then, on the **Navigate** tab, in the **Application** group, choose **Set Applies-to ID**.  
 
-    The **Applies-to ID** field is updated with the user ID. The remaining amount is displayed in the **Balance** field in the **Apply General Ledger Entries** window.  
+    The **Applies-to ID** field is updated with the user ID. The remaining amount is displayed in the **Balance** field on the **Apply General Ledger Entries** page.  
 
 5.  Choose the **Post Application**.  
 

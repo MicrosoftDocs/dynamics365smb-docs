@@ -72,7 +72,7 @@ The following table describes the keyboard shortcuts that you can use in a list 
 
 |Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |Remarks|
 |-----------------|-------|-------|-------|
-|Enter|Confirm the value in the current field and go to the next Quick Entry field.|Not applicable.|See [Accelerating Data Entry Using Quick Entry](ui-enter-data#QuickEntry)
+|Enter|Confirm the value in the current field and go to the next Quick Entry field.|Not applicable.|See [Accelerating Data Entry Using Quick Entry](ui-enter-data#QuickEntry)|
 |Shift+Enter|Confirm the value in the current field and go to the previous Quick Entry field.||
 |Ctrl+Shift+Enter|Confirm the value in the current field and go to next Quick Entry field outside the list.||
 

@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 10/01/2018
+ms.date: 12/03/2018
 ms.author: edupont
 
 ---
@@ -32,7 +32,7 @@ For some quick, nice-to-know tricks, see:
 
 For more information, see [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
-When you are ready to start working and you want to look at some of the business processes that [!INCLUDE[d365fin](includes/d365fin_md.md)] supports, see [Business Functionality](across-business-functionality.md). For an overview of current capabilities and what is coming, take a look at our roadmap at [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
+When you are ready to start working and you want to look at some of the business processes that [!INCLUDE[d365fin](includes/d365fin_md.md)] supports, see [Business Functionality](across-business-functionality.md). For an overview of current capabilities and what is coming, take a look at our release notes at [Microsoft Dynamics 365 Business Central Release Notes](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
 ## The Role Centers
 The Role Center page is based on a role-centric design to give you fast access to the business process and intelligence tools that you need to do your job. For example, an accountant can monitor payments and approvals, and view finance performance charts. Check out the various Role Center by choosing the **Settings** icon ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") in the top right corner,  choosing **My Settings**, and then the Role Center to explore. Sign in again to apply the change. For more information, see [Changing Basic Settings](ui-change-basic-settings.md).
@@ -65,7 +65,15 @@ Thinking about subscribing? You can easily change from the demonstration company
 
 To create a company to try things out, go to the **My Settings** menu in the top right corner, and change the company to **My Company**. Sign out of [!INCLUDE[d365fin](includes/d365fin_md.md)] and then sign in again to apply the change. An assisted setup guide will help you provide basic information about your company. When that's done, explore the Role Center and find the **Assisted Setup** action.  
 
-Alternatively, find a [!INCLUDE[d365fin](includes/d365fin_md.md)] partner [here](https://www.microsoft.com/en-us/solution-providers/search).
+Alternatively, find a [!INCLUDE[d365fin](includes/d365fin_md.md)] partner [here](https://www.microsoft.com/en-us/solution-providers/search).  
+
+## Getting answers to questions
+
+If you are not sure how to do something in [!INCLUDE[d365fin](includes/d365fin_md.md)], you can hopefully find the answer either from reading the tooltip for the field that you are unsure of, or by reading the content by opening the *Learn more* link in a tooltip. You can also get to the documentation by choosing the related link in the Help menu.  
+
+All fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] are described in tooltips. You can access tooltips by choosing the name of the field. For example, in a page like the **Customer Card**, simply choose the name of the field to read the tooltip. In a list such as the **Customers** list, or the lines in a document such as a sales order, you have to choose the drop-down menu to the right of the name of the column and then choose the **What's this?** menu item.  
+
+If you have additional questions, we recommend that you ask the community or contact your reselling partner. For more information, see [Where do I go if I have questions?](across-faq.md#where-do-i-go-if-i-have-questions).  
 
 ## Ready to subscribe?
 Each time you sign in during the trial period, a notification in a blue bar at the top displays the time remaining. If you decide to subscribe, find a [!INCLUDE[d365fin](includes/d365fin_md.md)] partner [here](https://www.microsoft.com/en-us/solution-providers/search). You can also contact the [[!INCLUDE[d365fin](includes/d365fin_md.md)] Sales team](https://go.microsoft.com/fwlink/?linkid=828707).  
@@ -82,7 +90,7 @@ If you are an accountant, you can sign up for [!INCLUDE[d365acc_long](includes/d
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as my Business Inbox in Outlook](admin-outlook.md)  
 [Getting [!INCLUDE[d365fin](includes/d365fin_md.md)] on Your Mobile Device](install-mobile-app.md)  
 [Dynamics 365 Documentation](https://docs.microsoft.com/en-us/dynamics365/)  
-[Business Central Roadmap](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
+[Microsoft Dynamics 365 Business Central Release Notes](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

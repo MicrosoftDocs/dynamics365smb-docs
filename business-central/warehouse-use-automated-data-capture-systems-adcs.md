@@ -55,7 +55,7 @@ Each warehouse item that you want to use with ADCS must be assigned an identifie
 8.  To review the information, choose the **Identifier Code** field to open the **Item Identifiers** page.
 
 ## To add an ADCS user  
-You can add any user as a user of an Automated Data Capture System (ADCS). When you do this, the user must also provide a password. Optionally, you can also provide a connection that identifies the ADCS user as a warehouse employee. The ADCS user password can be different from the Pages logon password of the user. For more information, see [Managing Users and Permissions](ui-how-users-permissions.md).
+You can add any user as a user of an Automated Data Capture System (ADCS). When you do this, the user must also provide a password. Optionally, you can also provide a connection that identifies the ADCS user as a warehouse employee. The ADCS user password can be different from the Windows logon password of the user. For more information, see [Managing Users and Permissions](ui-how-users-permissions.md).
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **ADCS Users**, and then choose the related link.  
 2. Choose the **New** action.  

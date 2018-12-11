@@ -24,7 +24,7 @@ The keyboard shortcuts are supported by most web browsers; however, the behavior
 
 The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.
 
-Most of the shortcuts are the same no matter whether the operating system is Pages or macOS; however, there are some shortcuts that differ for macOS. These are indicated in parentheses in the tables in the sections that follow.
+Most of the shortcuts are the same no matter whether the operating system is Windows or macOS; however, there are some shortcuts that differ for macOS. These are indicated in parentheses in the tables in the sections that follow.
 
 ##  <a name="Keyboard"></a> General Keyboard Shortcuts
 The following table describes keyboard shortcuts for navigating and accessing different elements of a page, such as actions, drop-down lists, lookups, and more. For details about keyboard shortcuts for navigating records once you get inside a list, see the next section.
@@ -46,7 +46,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 ## Keyboard Shortcuts in Lists
 
 The following table describes the keyboard shortcuts that you can use in a list page. The shortcut action is slightly different depending on whether the page is shown in the list view or tile view.
-<!-- 
+<!--
 > [!Note]
 > In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
 -->
@@ -55,7 +55,7 @@ The following table describes the keyboard shortcuts that you can use in a list 
 
 |Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |Remarks|
 |-----------------|-------|-------|-------|
-|Up Arrow|Move in the same column to the field in the row above.| Move in the same column to the tile in the row above.  |  | 
+|Up Arrow|Move in the same column to the field in the row above.| Move in the same column to the tile in the row above.  |  |
 |Down Arrow|Move in the same column to the field in the row below. |Move in the same column to the tile in the row below. | |
 |Right Arrow|In a view-only list, move in the same row to the next field to the right.<br /><br />In an editable list, move to the right within the current field.| Move in the same row to the next tile to the right. ||
 |Left Arrow|In a view-only list, move in the same row to the previous field to the left. <br /><br />In an editable list, move to the left within the current field.| Move in the same row to the previous tile to the left. ||
@@ -65,7 +65,7 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |End<br />(Fn+right Arrow)|Move to the last field in the row.|Move to the last tile in the row.||
 |Page Up<br />(Fn+up Arrow)|Scrolls to display the set rows above the current rows in view. |Scrolls to display the set of tiles above the current tiles in view. ||
 |Page Down<br />(Fn+down Arrow)|Scrolls to display the set rows below the current rows in view.|Scrolls to display the set of tiles below the current tiles in view.||
-|Enter<br />(Fn+down Arrow)|Open the record that is associated with the field.|Opens the record.| Only relevant if a card page is associated with the record.|
+|Enter|Open the record that is associated with the field.|Opens the record.| Only relevant if a card page is associated with the record.|
 |Ctrl+Enter|Move focus to the next element outside the list.|Move focus to the next element outside the list.||
 
 ### <a name="CopyRows"></a>Select, copy and paste
@@ -98,7 +98,7 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Shift+Alt+F3|Opens the filter pane and adds a filter on the selected column in the list. Focus is on the new filter field which lets start typing the filter criteria right away.<br /><br /> This does the same as selecting **Filter** from the column heading. er menu. Displays the filter pane, adds the filter, sets focus to it so the user can type a value to filter on.<br /><br />If there is already a filter on the field, a new filter is added. |
 |Ctrl+Shift+Alt+F3|Resets filters. This does the same as choosing **Reset filters** in the filter pane, and it applies to field and totals filters.<br /><br /> Filters return to the default filters for the current view. If the current view is **All**, then this is the equivalent to returning to an unfiltered view with all records. |
 |Ctrl+Enter|Returns to the list from the filter pane.|
- 
+
 ## <a name="calendarshortcuts"/> Keyboard Shortcuts in the Calendar (Date Picker)
 When setting a date field, you can either enter the date manually or open a calendar (date picker) that lets you select the date you want. The following table describes the keyboard shortcuts for the calendar.
 

@@ -1,6 +1,6 @@
 ---
-title: "Keyboard Shortcuts"
-description: "List of keyboard shortcuts for navigating in lists."
+title: "Keyboard Shortcuts Quick Reference"
+description: "A print-friendly reference sheet containing the most popular keyboard shortcuts."
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article

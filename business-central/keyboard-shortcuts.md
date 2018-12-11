@@ -65,7 +65,7 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |End<br />(Fn+right Arrow)|Move to the last field in the row.|Move to the last tile in the row.||
 |Page Up<br />(Fn+up Arrow)|Scrolls to display the set rows above the current rows in view. |Scrolls to display the set of tiles above the current tiles in view. ||
 |Page Down<br />(Fn+down Arrow)|Scrolls to display the set rows below the current rows in view.|Scrolls to display the set of tiles below the current tiles in view.||
-|Enter<br />(Fn+down Arrow)|Open the record that is associated with the field.|Opens the record.| Only relevant if a card page is associated with the record.|
+|Enter|Open the record that is associated with the field.|Opens the record.| Only relevant if a card page is associated with the record.|
 |Ctrl+Enter|Move focus to the next element outside the list.|Move focus to the next element outside the list.||
 
 ### <a name="CopyRows"></a>Select, copy and paste

@@ -6,7 +6,7 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan, application area, experience, support
-ms.date: 11/05/2018
+ms.date: 12/03/2018
 ms.author: edupont
 
 ---
@@ -30,7 +30,11 @@ No. But if you want to experience [!INCLUDE[d365fin](includes/d365fin_md.md)] as
 Yes, but depending on how you signed up to [!INCLUDE[d365fin](includes/d365fin_md.md)], your data can be deleted or preserved. For more information, see [Canceling [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md).  
 
 ## Where do I go if I have questions?
-If you have questions about [!INCLUDE[d365fin](includes/d365fin_md.md)] that you can't find an answer for in this documentation, you can ask the Business Central community. For more information, see [Dynamics 365 Business Central community](https://community.dynamics.com/business). Also, our Support team post tips and tricks. For more information, see [Dynamics 365 Business Central Support Blog](https://blogs.msdn.microsoft.com/dyn365finsupport).  
+If you have questions about [!INCLUDE[d365fin](includes/d365fin_md.md)] that you can't find an answer for in this documentation, you can ask the Business Central community. For more information, see [Dynamics 365 Business Central community](https://community.dynamics.com/business).  
+
+From the community home page, you can also find links to our blogs where you can also find tips and tricks. For more information, see [Dynamics 365 Business Central Blog](https://community.dynamics.com/business/b/financials) and [Dynamics 365 Business Central Support Blog](https://community.dynamics.com/business/b/dynamics365financialssupport).  
+
+Finally, you can contact your [!INCLUDE[d365fin](includes/d365fin_md.md)] reselling partner. For more information, see the [How do I get technical support?](across-faq.md#how-do-i-get-technical-support-for-) section.  
 
 ## Is it possible to extend my 30-day “New Company” trial period?
 Yes. If you want to extend your trial, you should contact Microsoft in your country or region. To find the right phone number, see the list in [CustomerSource](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-news/Support_Telephone#linkc). The list refers to phone numbers for Dynamics CRM Online, but the same numbers apply to all Dynamics 365 apps.  
@@ -42,10 +46,10 @@ Yes. If you want to extend your trial, you should contact Microsoft in your coun
 This is a bit complicated, but it looks like your administrator didn't change your Role Center and assign user groups that match the new license. Essentially, your access to [!INCLUDE[d365fin](includes/d365fin_md.md)] is determined by the type of plan (license) that you have - this sets permissions and your default Role Center page. You can change your Role Center manually in My Settings, but if you are moved to another plan, such as moving you from the Business plan to the Team Members plan, you might see the old Home because your permissions were not changed.  
 
 ## Why can't I find that capability in my [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-Did you read about a new capability in the roadmap or on our blog recently? In that case, your [!INCLUDE[d365fin](includes/d365fin_md.md)] might not have been upgraded to the latest version yet. If the capability is published as an extension in AppSource, then there is a delay between the extension being announced and its availability in AppSource.  
+Did you read about a new capability in the release notes or on our blog recently? In that case, your [!INCLUDE[d365fin](includes/d365fin_md.md)] might not have been upgraded to the latest version yet. If the capability is published as an extension in AppSource, then there is a delay between the extension being announced and its availability in AppSource.  
 
 ## Can I get training in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-Yes, you can. But currently, you have to ask your reselling partner. If you don't know who that is, find a Business Central partner [here](https://go.microsoft.com/fwlink/?linkid=2038145).  
+Yes, you can. But currently, you have to ask your reselling partner. If you don't know who that is, find a Business Central partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page.  
 
 If you have access to Microsoft CustomerSource, you can get access to the Imagine Academy site with  eLearning material. For more information on how to get access, see the [Microsoft Dynamics 365 training](/dynamics365/get-started/training/index#dynamics-365-customers) page.  
 
@@ -59,10 +63,10 @@ If you have access to Microsoft CustomerSource, you can get access to the Imagin
 
 If you have signed up for a trial and have not yet purchased [!INCLUDE[d365fin](includes/d365fin_md.md)], you do not have a reselling partner, and you cannot contact the Microsoft support team.  
 
-You can find a Business Central partner on the [https://www.microsoft.com/solution-providers/search](https://go.microsoft.com/fwlink/?linkid=2038145) page.  
+You can find a Business Central partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page.  
 
 ## Why does Help describe functionality that I cannot access?
-If your Experience setting on the **Company Information** page is set to **Essential**, then UI elements for the Manufacturing and Service Management features are not visible to you because they require the **Premium** experience. A text note is inserted in high-level help topics for these feature areas. For more information, see [Changing Which Features are Displayed](ui-experiences.md).    
+If your Experience setting on the **Company Information** page is set to **Essential**, then UI elements for the Manufacturing and Service Management features are not visible to you because they require the **Premium** experience. A text note is inserted in high-level help topics for these feature areas. For more information, see [Changing Which Features are Displayed](ui-experiences.md).  
 
 ## See Also
 [Getting Started](product-get-started.md)  
@@ -70,5 +74,6 @@ If your Experience setting on the **Company Information** page is set to **Essen
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] without Outlook](admin-no-outlook.md)  
 [Changing Basic Settings](ui-change-basic-settings.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Getting answers to questions](product-get-started.md#getting-answers-to-questions)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

@@ -21,19 +21,28 @@ There are many general features that help you enter data in a quick and easy way
 
 ## Using Quick Entry 
 
-Quick Entry is a feature designed for accelerating data entry when using the keyboard. Normally, you might press Tab to go from one field on a page to the next field, even if the next field is non-editable or seldom filled in. Quick Entry changes this flow. It lets you press Enter to go through only those fields that you are interested in, skipping non-editable fields and fields that you typically do not fill in. You might have already noticed this behavior on some pages. This is because page designers have already designated which fields to include when pressing Enter and which ones to skip.
+Quick Entry is a feature designed for accelerated data entry when using the keyboard. You might already be familiar with using Tab to navigate sequentially from one field on a page to the next, even if the next field is non-editable or seldom filled in. Quick Entry lets you change this path. With Quick Entry, you use the Enter key to navigate through only those fields that you are interested in, skipping non-editable fields and fields that you typically do not fill in. You might have already noticed this behavior on some pages. This is because page designers have already designated which fields to include when pressing Enter and which ones to skip.
+
+Quick Entry helps you focus on the most essential fields when working without a point device, like a mouse. It is beneficial when performing repetitive typing tasks that require creating multiple records in sequence, such as a batch of sales orders or registering new items.
 
 <!-- 
 
 After you enter data in one field, you can press Enter to go to the next field in sequence, enter data, press . However, there might be some fields that you typically want to skip when entering data. For example, when creating sales orders, perhaps you rarely set the **Example** field. This is where the Quick Entry feature comes in handy.-->
 
-### How Quick Entry works
+### How Quick Entry Works
 
-Every field can be marked as either being *included in Quick Entry* or *excluded from Quick Entry*. Fields that are included in Quick Entry, will be included in the path when pressing Enter; fields that are excluded from Quick Entry, will not.
+Every field can be marked as either being *included in Quick Entry* or *excluded from Quick Entry*. Fields that are included in Quick Entry, will be included in the path when pressing Enter; fields that are excluded from Quick Entry, will not. 
 
-  ther quick entry or not. When a field is marked for quick entry, it is included in the sequence of fields when pressing Enter. When a field is not marked for quick entry, it is skipped when pressing Enter.
+When you are finished entering data in a field, press Enter to go to the next field. If you want to reverse direction, and go the previous field, press Shift+Enter.
 
-You have perhaps have already seen this in action because system administrators and page developers might have already excluded fields from quick entry.
+#### Tips and tricks
+
+- Quick Entry works across columns and rows.
+- Although any field can be included in Quck Entry, it is intended for editable fields.
+- Quick Entry does not prevent accessing other elements of a page, such as actions. These are still accessible by using Tab and Shift+Tab.  
+- FastTabs do not have to be expanded for Quick Entry to work. If the next Quick Entry field is located in collapsed FastTab, that FastTab will automatically expand and focus on the designated field.
+- Quick Entry works irrespective of whether fields are mandatory. So it is a good idea to ensure that mandatory fields are included in Quick Entry.
+-  
 
 ### Benefits
 Quick Entry helps you focus on the most essential fields when working without a mouse or pointing device. It accelerates repetitive typing tasks, and is ideal for quickly creating multiple records in sequence, such as a creating a batch of sales orders or registering a sequence of new items. 
@@ -47,6 +56,7 @@ Is irrespective of which fields are mandatory
 refer to shortcuts
 How to personalize
 Point out that this is mostly an exercise of "excluding fields from Quick Entry"
+
 
 
 ## Mandatory Fields

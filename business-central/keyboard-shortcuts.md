@@ -68,6 +68,17 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Enter|Open the record that is associated with the field.|Opens the record.| Only relevant if a card page is associated with the record.|
 |Ctrl+Enter|Move focus to the next element outside the list.|Move focus to the next element outside the list.||
 
+### <a name="QuickEntry"></a>Quick Entry for fields in grids and lists
+
+|Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |Remarks|
+|-----------------|-------|-------|-------|
+|Enter|Confirm the value in the current field and go to the next Quick Entry field.|Not applicable.|See [Accelerating Data Entry Using Quick Entry](ui-enter-data#QuickEntry)
+|Shift+Enter|Confirm the value in the current field and go to the previous Quick Entry field.||
+|Ctrl+Shift+Enter|Confirm the value in the current field and go to next Quick Entry field outside the list.||
+
+We should also add these shortcuts to the printable quick reference, in order of priority space permitting: Ctrl+Shift+Enter, Enter, Shift+Enter
+
+
 ### <a name="CopyRows"></a>Select, copy and paste
 |Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |Remarks|
 |-----------------|-------|-------|-------|

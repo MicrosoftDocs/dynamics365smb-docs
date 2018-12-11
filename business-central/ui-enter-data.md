@@ -19,11 +19,11 @@ There are many general features that help you enter data in a quick and easy way
 
 <!-- The examples in this article use the demonstration data.-->
 
-## Using Quick Entry 
+## <a name="QuickEntry"></a>Accelerating Data Entry Using Quick Entry 
 
-Quick Entry is a feature designed for accelerated data entry when using the keyboard. You might already be familiar with using Tab to navigate from one field on a page to the next. A disadvantage of using Tab is that it always goes sequentially to the next field, even if the field is non-editable or seldom filled it in. Quick Entry lets you change this path. With Quick Entry, you use the Enter key to navigate through only those fields that you are interested in, skipping non-editable fields and fields that you typically do not fill in. You might have already noticed this behavior on some pages. This is because page designers have already designated which fields to include when pressing Enter and which ones to skip.
+Quick Entry is a feature designed for data entry when using the keyboard. You might already be familiar with using Tab to navigate from one field on a page to the next editable. A disadvantage of using Tab is that it always goes sequentially to the next field. <!-- even if the field is non-editable or seldom filled it in.-->Quick Entry lets you change this path. With Quick Entry, you use the Enter key to navigate through only those fields that you are interested in, skipping non-editable fields and fields that you typically do not fill in. You might have already noticed this behavior on some pages. This is because page designers have already designated which fields to include when pressing Enter and which ones to skip.
 
-Quick Entry helps you focus on the most essential fields when working without a point device, like a mouse. It is beneficial when performing repetitive typing tasks that require creating multiple records in sequence, such as a batch of sales orders or registering new items.
+Quick Entry works on fields in a grid (like a card page) and in lists (rows and columns). Quick Entry helps you focus on the most essential fields when working without a point device, like a mouse. It is beneficial when performing repetitive typing tasks that require creating multiple records in sequence, such as a batch of sales orders or registering new items. 
 
 <!-- 
 
@@ -31,37 +31,27 @@ After you enter data in one field, you can press Enter to go to the next field i
 
 ### How Quick Entry Works
 
-Every field can be marked as either being *included in Quick Entry* or *excluded from Quick Entry*. Fields that are included in Quick Entry, will be included in the path when pressing Enter; fields that are excluded from Quick Entry, will not. 
+Every field can be marked as either being *included in Quick Entry* or *excluded from Quick Entry*. Fields that are included in Quick Entry, will be included in the path when you press Enter; fields that are excluded from Quick Entry, will not.
 
-When you are finished entering data in a field, press Enter to go to the next field. If you want to reverse direction, and go the previous field, press Shift+Enter.
+When you are finished entering data in a field, you simply press Enter to confirm the changes and go to the next field. If you want to reverse direction, and go the previous field, press Shift+Enter. For more information about shortcuts, see [Quick Entry keyboard shortcuts](keyboard-shortcuts.md#QuickEntry). 
 
 #### Tips and tricks
 
 - Quick Entry works across columns and rows.
-- Although any field can be included in Quck Entry, it is intended for editable fields.
+- Although any field can be included in Quick Entry, it is intended for editable fields.
 - Quick Entry does not prevent accessing other elements of a page, such as actions. These are still accessible by using Tab and Shift+Tab.  
 - FastTabs do not have to be expanded for Quick Entry to work. If the next Quick Entry field is located in collapsed FastTab, that FastTab will automatically expand and focus on the designated field.
 - Quick Entry works irrespective of whether fields are mandatory. So it is a good idea to ensure that mandatory fields are included in Quick Entry.
+- By default, most fields are automatically included in Quick Entry. So initially your task will most likely be excluding fields from Quick Entry.
 
 ### How to Change Quick Entry Fields
 
-By default, most fields are automatically included in Quick Entry. To change which fields are included in or exclude from Quick Entry on a page, you use personalization.
+To change which fields are included in or excluded from Quick Entry on a page, you use personalization. 
 
-The first step is to 
+1. Start personalization by selecting the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, and then **Personalize**.
+2. Select a field that you want change, and then choose either **Include in Quick Entry** or **Exclude from Quick Entry**. 
 
-Quick Entry helps you focus on the most essential fields when working without a mouse or pointing device. It accelerates repetitive typing tasks, and is ideal for quickly creating multiple records in sequence, such as a creating a batch of sales orders or registering a sequence of new items. 
-
--freeDescribe benefits
-Recommended phrases: "Accelerate repetitive typing", "helps you focus on the most essential fields when working mouse-free", "great for quickly creating multiple records in sequence, such as a batch of orders or registering a sequence of new items"
-Describe how QE works high-level, without describing each micro behaviour
-Should mention that it works across fields and rows, is intended for editable fields, will automatically expand fasttabs
-is a desktop productivity feature that does not prevent all elements on the page remaining accessible via Tab/Shift+Tab keys.
-Is irrespective of which fields are mandatory
-refer to shortcuts
-How to personalize
-Point out that this is mostly an exercise of "excluding fields from Quick Entry"
-
-
+For more information about personalization, see [Personalizing Your Workspace](ui-personalization.md).
 
 ## Mandatory Fields
 

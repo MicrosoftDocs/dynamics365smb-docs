@@ -36,10 +36,11 @@ Every field can be marked as either being *included in Quick Entry* or *excluded
 When you are finished entering data in a field, you simply press Enter to confirm the changes and go to the next field. If you want to reverse direction, and go the previous field, press Shift+Enter. For more information about shortcuts, see [Quick Entry keyboard shortcuts](keyboard-shortcuts.md#QuickEntry). 
 
 #### Tips and tricks
+The following provides some useful information about using Quick Entry.
 
-- Quick Entry works across columns and rows.
-- Although any field can be included in Quick Entry, it is intended for editable fields.
-- Quick Entry does not prevent accessing other elements of a page, such as actions. These are still accessible by using Tab and Shift+Tab.  
+- It is intended for editable fields.
+- It works across columns and rows.
+- It does not prevent accessing other elements of a page, such as actions. These are still accessible by using Tab and Shift+Tab.  
 - FastTabs do not have to be expanded for Quick Entry to work. If the next Quick Entry field is located in collapsed FastTab, that FastTab will automatically expand and focus on the designated field.
 - Quick Entry works irrespective of whether fields are mandatory. So it is a good idea to ensure that mandatory fields are included in Quick Entry.
 - By default, most fields are automatically included in Quick Entry. So initially your task will most likely be excluding fields from Quick Entry.

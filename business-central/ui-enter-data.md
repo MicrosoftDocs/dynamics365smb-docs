@@ -23,7 +23,7 @@ There are many general features that help you enter data in a quick and easy way
 
 Quick Entry is a feature designed for data entry when using the keyboard. You might already be familiar with using Tab to navigate from one field on a page to the next editable. A disadvantage of using Tab is that it always goes sequentially to the next field. <!-- even if the field is non-editable or seldom filled it in.-->Quick Entry lets you change this path. With Quick Entry, you use the Enter key to navigate through only those fields that you are interested in, skipping non-editable fields and fields that you typically do not fill in. You might have already noticed this behavior on some pages. This is because page designers have already designated which fields to include when pressing Enter and which ones to skip.
 
-Quick Entry works on fields in a grid (like a card page) and in lists (rows and columns). Quick Entry helps you focus on the most essential fields when working without a point device, like a mouse. It is beneficial when performing repetitive typing tasks that require creating multiple records in sequence, such as a batch of sales orders or registering new items. 
+Quick Entry works on fields in a grid (like a card page) and in lists (rows and columns). Quick Entry helps you focus on the most essential fields when working without a pointing device, like a mouse. It is beneficial when performing repetitive typing tasks that require creating multiple records in sequence, such as a batch of sales orders or registering new items. 
 
 <!-- 
 
@@ -46,7 +46,7 @@ When you are finished entering data in a field, you simply press Enter to confir
 
 ### How to Change Quick Entry Fields
 
-To change which fields are included in or excluded from Quick Entry on a page, you use personalization. 
+To change which fields are included in or excluded from Quick Entry path on a page, you use personalization. 
 
 1. Start personalization by selecting the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, and then **Personalize**.
 2. Select a field that you want change, and then choose either **Include in Quick Entry** or **Exclude from Quick Entry**. 

@@ -46,6 +46,14 @@ The default work date is usually today's date. You may have to temporarily chang
 > [!IMPORTANT]  
 >   The work date is only changed until you close the company or until the date changes. If you open a different company or open the same company the next day and still have to use a different work date, then you must set the work date again.
 
+### Work Date Indication
+
+Whenever the work date is not set to the current day (today), there are two indicators that will let you know this:
+
+- A reminder will appear at the top of the page that tells you what the work date is set to, and provides a direct link to the work date setting on the **My Settings** page. You can turn off the reminder for the rest of your session by choosing the Disable reminder action.
+
+- After you disable the reminder, the work date will appear after the title of the page.  
+
 ## <a name="region"></a> Region
 The **Region** setting determines how dates, times, numbers, and currencies are shown or formatted.   
 

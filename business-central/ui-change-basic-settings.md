@@ -48,11 +48,11 @@ The default work date is usually today's date. You may have to temporarily chang
 
 ### Work Date Indication
 
-Whenever the work date is not set to the current day (today), there are two indicators that will let you know this:
+Whenever the work date is not set to the current day (today), there are two indicators on pages that you open for editing:
 
-- A reminder will appear at the top of the page that tells you what the work date is set to, and provides a direct link to the work date setting on the **My Settings** page. You can turn off the reminder for the rest of your session by choosing the Disable reminder action.
+- A reminder appears at the top of the page that tells you what the work date is set to. The reminder provides a direct link to the work date setting on the **My Settings** page so you change the date if you want. From the reminder, you can also choose to dismiss the reminder for the rest of your session. Unless you change the work date to "today", the reminder will appear the next time you sign in. 
 
-- After you disable the reminder, the work date will appear after the title of the page.  
+- If you dismiss the reminder, the work date will appear in the title of the page.  
 
 ## <a name="region"></a> Region
 The **Region** setting determines how dates, times, numbers, and currencies are shown or formatted.   

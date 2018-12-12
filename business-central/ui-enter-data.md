@@ -50,7 +50,7 @@ The following provides some useful information about using Quick Entry.
 To change which fields are included in or excluded from Quick Entry path on a page, you use personalization. 
 
 1. Start personalization by selecting the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, and then **Personalize**.
-2. Select a field that you want change, and then choose either **Include in Quick Entry** or **Exclude from Quick Entry**. 
+2. Select a field that you want change, or in list, select the corresponding column heading, and then choose either **Include in Quick Entry** or **Exclude from Quick Entry**. 
 
 For more information about personalization, see [Personalizing Your Workspace](ui-personalization-user.md).
 

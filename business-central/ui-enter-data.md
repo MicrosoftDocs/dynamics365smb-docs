@@ -51,14 +51,13 @@ To change which fields are included in or excluded from Quick Entry on a page, y
 1. Start personalization by selecting the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, and then **Personalize**.
 2. Select a field that you want change, and then choose either **Include in Quick Entry** or **Exclude from Quick Entry**. 
 
-For more information about personalization, see [Personalizing Your Workspace](ui-personalization.md).
+For more information about personalization, see [Personalizing Your Workspace](ui-personalization-user.md).
 
 ## Mandatory Fields
 
 When you enter data on pages, certain fields are marked with a red asterisk. The red asterisk means that the field must be filled to complete a certain process that uses the field, such as posting a transaction that uses the value in the field.  
 
 Even though the field contains a red asterisk, you are not forced to fill the field before you continue to other fields or close the page. The red asterisk only serves as a reminder that you will be blocked from completing a certain process.  
-
 
 ## Finding Data As You Type
   

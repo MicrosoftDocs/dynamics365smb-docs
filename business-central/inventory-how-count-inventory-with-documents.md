@@ -1,25 +1,26 @@
 ---
-    title: Physical Inventory Documents
-    description: You can take inventory of your items using the physical inventory order and the physical inventory recording documents.
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
+title: Count Inventory With Document-Based Functionality| Microsoft Docs
+description: Describes how to perform physical counting using the Physical Order Inventory and Physical Inventory Recording pages.
+author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 10/01/2018
-    ms.author: sgroespe
-    redirect_url: ../../inventory-how-count-inventory-with-documents
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: adjustment, negative, positive, increase, decrease
+ms.date: 12/12/2018
+ms.author: sgroespe
 
 ---
-# Physical Inventory Documents
+# Counting Inventory Using Documents
 You can take inventory of your items using the physical inventory order and the physical inventory recording documents.  
 
 The physical inventory order contains data for planning, realizing, and analyzing physical inventory. The item, location, and bin information are also available.  
+
+> [!NOTE]
+> This procedure describes how to perform a physical inventory using documents, which provide more control and support distributing the counting to multiple employees. You can also perform the task using journals, the **Phys. Inventory Journals** and **Whse. Phys. Inventory Journals** pages. For more information, see [Count, Adjust, and Reclassify Inventory With Journals](inventory-how-count-adjust-reclassify.md).<br /><br />
+> Note that if you have locations set up with bins, you must use the **Whse. Phys. Inventory Journal** page to count your warehouse entries before synchronizing them with item ledger entries.
 
 ## Physical Inventory Recording  
 The physical inventory recording contains the item names and quantities counted while taking physical inventory. An item may be counted in more than one physical inventory recording.  
@@ -41,12 +42,9 @@ It is possible to use the posted physical inventory order to create new physical
 
 You can use Navigate to view the inventory ledger entries and other related ledger entries for a posted physical inventory order.  
 
-## See Also  
- [Warehouse Management](../../warehouse-manage-warehouse.md)   
- [Physical Inventory Order Lines With Item Tracking Lines](physical-inventory-order-lines-with-item-tracking-lines.md)   
- [Physical Inventory Recording - Counting Physical Inventory](physical-inventory-recording-counting-physical-inventory.md)   
- [Set Up Physical Inventory Documents](how-to-set-up-physical-inventory-documents.md)   
- [Enter Physical Inventory Orders](how-to-enter-physical-inventory-orders.md)   
- [Create a Physical Inventory Recording](how-to-create-a-physical-inventory-recording.md)   
- [Post Physical Inventory Orders](how-to-post-physical-inventory-orders.md)   
- [Germany Local Functionality](germany-local-functionality.md)
+## See Also
+[Inventory](inventory-manage-inventory.md)
+[Warehouse Management](warehouse-manage-warehouse.md)    
+[Sales](sales-manage-sales.md)  
+[Purchasing](purchasing-manage-purchasing.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

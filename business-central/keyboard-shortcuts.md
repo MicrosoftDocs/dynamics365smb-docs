@@ -100,7 +100,7 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Ctrl+Shift+Alt+F3|Resets filters. This does the same as choosing **Reset filters** in the filter pane, and it applies to field and totals filters.<br /><br /> Filters return to the default filters for the current view. If the current view is **All**, then this is the equivalent to returning to an unfiltered view with all records. |
 |Ctrl+Enter|Returns to the list from the filter pane.|
 
-## <a name="QuickEntry"></a>Quick Entry for fields in cards and lists
+## <a name="QuickEntry"></a>Quick Entry for Fields in Cards and Lists
 
 |Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |Remarks|
 |-----------------|-------|-------|-------|

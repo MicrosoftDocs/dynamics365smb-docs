@@ -68,18 +68,8 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Enter|Open the record that is associated with the field.|Opens the record.| Only relevant if a card page is associated with the record.|
 |Ctrl+Enter|Move focus to the next element outside the list.|Move focus to the next element outside the list.||
 
-### <a name="QuickEntry"></a>Quick Entry for fields in grids and lists
-
-|Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |Remarks|
-|-----------------|-------|-------|-------|
-|Enter|Confirm the value in the current field and go to the next Quick Entry field.|Not applicable.|See [Accelerating Data Entry Using Quick Entry](ui-enter-data#QuickEntry)|
-|Shift+Enter|Confirm the value in the current field and go to the previous Quick Entry field.||
-|Ctrl+Shift+Enter|Confirm the value in the current field and go to next Quick Entry field outside the list.||
-
-We should also add these shortcuts to the printable quick reference, in order of priority space permitting: Ctrl+Shift+Enter, Enter, Shift+Enter
-
-
 ### <a name="CopyRows"></a>Select, copy and paste
+
 |Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |Remarks|
 |-----------------|-------|-------|-------|
 |Ctrl+Home<br />(Fn+Ctrl+Left Arrow)|Select the first row in the list; focus moves to the first field in row.|Move to the first tile in first row. ||
@@ -110,6 +100,15 @@ We should also add these shortcuts to the printable quick reference, in order of
 |Ctrl+Shift+Alt+F3|Resets filters. This does the same as choosing **Reset filters** in the filter pane, and it applies to field and totals filters.<br /><br /> Filters return to the default filters for the current view. If the current view is **All**, then this is the equivalent to returning to an unfiltered view with all records. |
 |Ctrl+Enter|Returns to the list from the filter pane.|
 
+### <a name="QuickEntry"></a>Quick Entry for fields in cards and lists
+
+|Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |Remarks|
+|-----------------|-------|-------|-------|
+|Enter|Confirm the value in the current field and go to the next Quick Entry field.|Not applicable.|See [Accelerating Data Entry Using Quick Entry](ui-enter-data#QuickEntry)|
+|Shift+Enter|Confirm the value in the current field and go to the previous Quick Entry field.||
+|Ctrl+Shift+Enter|Confirm the value in the current field and go to next Quick Entry field outside the list.|This shortcut is application in embedded lists on a page, like line items on a sales order. It enables you to quickly get out of the list and continue entering data in other fields on the page.|
+
+We should also add these shortcuts to the printable quick reference, in order of priority space permitting: Ctrl+Shift+Enter, Enter, Shift+Enter
 ## <a name="calendarshortcuts"/> Keyboard Shortcuts in the Calendar (Date Picker)
 When setting a date field, you can either enter the date manually or open a calendar (date picker) that lets you select the date you want. The following table describes the keyboard shortcuts for the calendar.
 

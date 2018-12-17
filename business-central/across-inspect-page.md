@@ -26,25 +26,11 @@ Page inspection is especially designed for administrators, power users, support 
 - Debug the application, complementing Designer.
 
 
-
-
-S 
-To see more information about a page, use the Page Inspection feature to view all the fields that make up the current page. These fields are the fields for the current record in the table on which the page is based. For example, if you open a sales order page, choose the Help button, and then choose **About This Page**, the **About This Page: Sales Order** window opens. The **About This Page** window shows the following FastTabs:  
-
-
-For power users, partner/MS support, admins
-Help troubleshoot data issues (eg. obscure errors due to field dependencies) without the need to copy Prod databases, view entire table, or go into SQL.
-Learn the data model behind a page.
-For devs
-
-Helps discover pages and parts to be reused or to learn from them.
-
 ## Start Page Inspection
 
-To inspect a page, in the top right corner, choose ![Settings icon](media/ui-experience/settings_icon_small.png), then choose **Inspect**. The **Inspect Page** pane opens on the right. The following figure illustrates the **Page Inspection** pane on the **Sales Order** page. 
+To inspect a page, in the top right corner, choose ![Settings icon](media/ui-experience/settings_icon_small.png), then choose **Inspect**. Or, you can press Crtl+Alt+F1. The **Inspect Page** pane opens on the right. The following figure illustrates the **Page Inspection** pane on the **Sales Order** page. 
 
 ![Page Inspection](media/page-inspection-example.png)
-
 
 You can move focus to different areas on the page by using a mouse or keyboard. If you select a page part or FactBox on the page, the area is highlighted with an orange border, and the **Page Inspection** pane shows information about the selected element. For example, the figure shows information about the list part in the Sales Order page. 
 
@@ -53,14 +39,18 @@ Once you start page inspection, you can navigate to other pages in the applicati
 
 ## What Page Inspection Shows
 
+Page inspections shows the following information for any page, page part, or FactBoxes:
 
-What information to show per Page
 - Page name and ID
-- Source table name and ID
-- List of table fields, including name,
-- Link to open the table
-- 
-- MUST show source table caption, source table ID
+- Source table of page, including the name and ID.
+- Table fields of the current record, including name, number, data type, and value.
+
+    There is also a link that allows you to open the full table in the client.
+- Filters on the current page, including those that are set by code, Views, or user-defined.
+- Extensions that are used on the page.
+
+
+<!-- MUST show source table caption, source table ID
 MUST show all field captions+values of current record.
 MUST respect security features such as masking, field/row-level security etc.
 SHOULD show field ID (or any better non-language-specific identifier)
@@ -115,9 +105,6 @@ SHOULD be able to select a field in page inspector and keep that field in view w
   
 - Microsoft Excel spreadsheet  
   
-  You can also print the About This Page information directly from the **About This Page** window.  
+  You can also print the About This Page information directly from the **About This Page** window.  -->
   
 ## See Also  
- [How to: View All Table Fields for a Record](How-to--View-All-Table-Fields-for-a-Record.md)   
- [How to: View and Export the Dataset for a Report](How-to--View-and-Export-the-Dataset-for-a-Report.md)   
- [How to: Copy the URL to Open a Page or Report](How-to--Copy-the-URL-to-Open-a-Page-or-Report.md)

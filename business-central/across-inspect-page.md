@@ -105,7 +105,8 @@ SHOULD be able to select a field in page inspector and keep that field in view w
 ## Troubleshooting with About This Page and About This Report  
  You can use the About This Page and About This Report features to help you troubleshoot and debug issues. For example, if you create a new page and need to troubleshoot the data that is displayed on the page, then you can use the About This Page feature to view all the fields for the current record, including filters that were set by the user and FlowFilter fields.  
   
-## Exporting About This Page Information  
+## Exporting About This Page Information
+  
  You can export the About This Page information to the following formats:  
   
 - HTML attachment in a new e-mail message  

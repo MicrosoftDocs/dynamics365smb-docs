@@ -40,4 +40,4 @@ You can view the differences in the statistic page or you can print them as a re
  [Finish a Physical Inventory Order](how-to-finish-a-physical-inventory-order.md)   
  [Post Physical Inventory Orders](how-to-post-physical-inventory-orders.md)   
  [Physical Inventory Order Lines With Item Tracking Lines](physical-inventory-order-lines-with-item-tracking-lines.md)  
- [Count, Adjust, and Reclassify Inventory](../../inventory-how-count-adjust-reclassify.md)
+ 

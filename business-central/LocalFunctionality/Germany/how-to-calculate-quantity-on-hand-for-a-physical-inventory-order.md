@@ -43,4 +43,4 @@ You must calculate the expected quantities for all physical inventory order line
  [Finish a Physical Inventory Order](how-to-finish-a-physical-inventory-order.md)   
  [Finish a Physical Inventory Recording](how-to-finish-a-physical-inventory-recording.md)   
  [Physical Inventory Order Lines With Item Tracking Lines](physical-inventory-order-lines-with-item-tracking-lines.md)  
- [Count, Adjust, and Reclassify Inventory](../../inventory-how-count-adjust-reclassify.md)
+ 

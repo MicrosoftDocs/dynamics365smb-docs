@@ -49,4 +49,4 @@ For more information about VAT and foreign currencies, see the [ESTV](https://go
  [Swiss Value Added Tax](swiss-value-added-tax.md)   
  [VAT Rates for Switzerland](vat-rates-for-switzerland.md)   
 [Update Currency Exchange Rates](../../finance-how-update-currencies.md)  
-[Set Up an Additional Reporting Currency](../../finance-how-set-up-additional-currencies.md)
+[Set Up an Additional Reporting Currency](../../finance-how-setup-additional-currencies.md)

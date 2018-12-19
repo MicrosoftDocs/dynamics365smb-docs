@@ -109,7 +109,7 @@
 ### [Setting Up Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md)
 ### [Set Up Unrealized VAT for Cash-Based Accounting](finance-setup-unrealized-vat.md)
 ### [Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md)
-### [Set Up an Additional Reporting Currency](finance-how-set-up-additional-currencies.md)
+### [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md)
 ### [Update Currency Exchange Rates](finance-how-update-currencies.md)
 ### [Set Up Multiple Interest Rates](finance-how-to-set-up-multiple-interest-rates.md)
 ### [Set Up Invoice Rounding](finance-set-up-invoice-rounding.md)

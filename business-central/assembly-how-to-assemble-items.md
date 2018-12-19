@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: kit, kitting
-    ms.date: 10/01/2018
+    ms.date: 12/17/2018
     ms.author: sgroespe
 
 ---
@@ -57,7 +57,7 @@ In this procedure, you create and process an assembly order for items that are a
 
     > [!NOTE]  
     >  To make sure that component consumption posting matches the assembly item output posting, the quantity fields in the assembly order lines automatically adjust to the value that you enter in the **Quantity to Assemble** field.  
-7.  On assembly order lines of type **Item** or **Resource**, in the **Quantity to Consume** field, specify how many units you want to post as consumed the next time that you post the assembly order. By default, the expected quantity to consume according to the assembly BOM and the assembly order header quantity is inserted, but you can increase or decrease it, such as to reflect an overconsumption of components or that extra resources were used.  
+7.  On assembly order lines of type **Item** or **Resource**, in the **Quantity to Consume** field, specify how many units you want to post as consumed the next time that you post the assembly order.
 8.  When you are ready to partially or fully post, choose the **Post** action.  
 
     > [!NOTE]  

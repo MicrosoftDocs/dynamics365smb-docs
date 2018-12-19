@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 12/19/2018
     ms.author: sgroespe
 
 ---
@@ -34,7 +34,7 @@ An example of when a blanket sales order could be used is if a customer calls an
 
 ## To create a sales order from a blanket sales order  
 
-1.  To create an order for any of the lines in the blanket assembly order, remove the quantity in the **Qty. to Ship** field on all the lines that you DO NOT wish to ship at this time.  
+1.  To create an order for any of the lines in the blanket sales order, remove the quantity in the **Qty. to Ship** field on all the lines that you DO NOT wish to ship at this time.  
 2.  When you are ready to create orders, choose the **Make Order**m action, and then choose **Yes**. A message appears informing you that the blanket order has been assigned an order number. Note that the blanket order has not been deleted.  
 3.  Choose the **OK** button.  
 4.  To see the results of the preceding steps, choose the **Line** action, choose the **Unposted Lines** action, and then choose the **Orders** action.  
@@ -70,52 +70,22 @@ The link between the blanket sales order and the originating sales order, and an
 2. Open the blanket sales order you want to view.
 3. To view unposted entries, select the line in question, choose the **Line** action, and then choose the **Unposted Lines** action. Choose one of the following options.  
 
-    <table>
-    <tr>
-    <th>Option</th>
-    <th>Description</th>
-    </tr>
-    <tr>
-    <td>**Orders**</td>
-    <td>Specifies open orders associated with the selected line.</td>
-    </tr>
-    <tr>
-    <td>**Invoices**</td>
-    <td>Specifies open invoices that have been associated with the selected line. Open invoices are manually associated with a blanket order by entering the blanket order number on the sales invoice line.</td>
-    </tr>
-    <tr>
-    <td>**Return Orders**</td>
-    <td>Specifies open return orders that have been associated with the selected line.</td>
-    </tr>
-    <tr>
-    <td>**Credit Memos**</td>
-    <td>Specifies open credit memos that have been associated with the selected line.</td>
-    </tr>
-    </table>
+|Option|Description|
+|--|--|
+|**Orders**|Specifies open orders associated with the selected line.|
+|**Invoices**|Specifies open invoices that have been associated with the selected line. Open invoices are manually associated with a blanket order by entering the blanket order number on the sales invoice line.|
+|**Return Orders**|Specifies open return orders that have been associated with the selected line.|
+|**Credit Memos**|Specifies open credit memos that have been associated with the selected line.|
+
 4. To view posted entries, select the line in question, choose the **Line** action, and then choose the **Posted Lines** action. Choose one of the following options.  
 
-    <table>
-    <tr>
-    <th>Option</th>
-    <th>Description</th>
-    </tr>
-    <tr>
-    <td>**Shipments**</td>
-    <td>Posted shipments associated with the selected line.</td>
-    </tr>
-    <tr>
-    <td>**Invoices**</td>
-    <td>Posted invoices associated with the selected line.</td>
-    </tr>
-    <tr>
-    <td>**Return Receipts**</td>
-    <td>Posted return receipts that have been associated with the selected line.</td>
-    </tr>
-    <tr>
-    <td>**Credit Memos**</td>
-    <td>Posted credit memos that have been associated with the selected line.</td>
-    </tr>
-    </table>
+|Option|Description|
+|---|----|
+|**Shipments**|Posted shipments associated with the selected line.|
+|**Invoices**|Posted invoices associated with the selected line.|
+|**Return Receipts**|Posted return receipts that have been associated with the selected line.|
+|**Credit Memos**|Posted credit memos that have been associated with the selected line.|
+
 5. On the **Sales Lines** page, choose the **Show Document** action to view the entry.
 
 ## See Also

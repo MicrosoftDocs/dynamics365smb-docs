@@ -22,36 +22,39 @@ Companies must send sales invoices and credit memos to the Norwegian public sect
 For more information on EHF electronic invoicing, see [E-Procurement](https://www.anskaffelser.no/public-procurement-information-english).  
 
 ## Implementation in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]  
- The current requirements for sending electronic invoices are based on the Universal Business Language (UBL) version 2.1 standard. For more information, see the https://aka.ms/OasisUblSite web site. The generated XML documents can then be sent to the customer.  
+ From January 2019 the requirements for sending electronic invoices are based on the PEPPOL 3.0 BIS Billing 3.0 standard. Please see [https://test-vefa.difi.no/ehf/g3/billing-3.0/norway/](https://test-vefa.difi.no/ehf/g3/billing-3.0/norway/) for more information. Companies already sending electronic documents in the pre-2019 format can continue doing so during 2019. The generated XML documents can then be sent to the customer manually or through the [Document Exchange functionality](../../across-how-to-set-up-electronic-document-sending-and-receiving.md).
 
  To send documents electronically, you must assign European Article Numbering (EAN) location numbers and account codes to the relevant customers on the **Customer Card** page. For more information, see [Set Up Customers for EHF](how-to-set-up-customers-for-ehf.md). These numbers are included when you create documents, and post or issue them. After the documents have been posted or issued, you can create electronic versions to be sent to the customer.  
 
- [!INCLUDE[d365fin](../../includes/d365fin_md.md)] exports certain electronic documents in version 2.0, which uses UBL version 2.1. You can submit the following types of documents:  
+ [!INCLUDE[d365fin](../../includes/d365fin_md.md)] exports certain electronic documents in EHF version 3.0, which uses UBL version 2.1. You can submit the following types of documents:  
 
-- Sales invoice  
-- Service invoice  
-- Sales credit memo  
-- Service credit memo  
+- Sales and Service invoices
+- Sales and Service credit memos
 
  [!INCLUDE[d365fin](../../includes/d365fin_md.md)] exports other electronic documents in version 1.6, which uses UBL version 2.0. You can submit the following types of documents:  
 
 - Finance charge memo  
 - Reminder  
 
-The electronic documents are stored in the locations that are defined in the Sales & Receivables Setup.  
+The electronic documents are stored in the locations that are defined in the Sales & Receivables Setup or they can be generated and handled by the [Document Exchange functionality](../../across-how-to-set-up-electronic-document-sending-and-receiving.md). 
 
 ## VAT Treatment  
  VAT percentages and the type of transaction determine the VAT Type that is exported in the electronic document.  
 
-|XML|Type|Percentage Rate|  
-|---------|----------|---------------------|  
-|S|Outgoing VAT, ordinary rate|25|  
-|H|Outgoing VAT, reduced rate – food and beverage|15|  
-|R|Outgoing VAT, reduced rate – raw fish|11.11|  
-|AA|Outgoing VAT, low rate|8|  
-|E|VAT Exempt|0|  
-|Z|VAT Exempt (goods and services not included in the VAT regulations)|None, reported as 0|  
-|K|Emission allowances for private or public businesses – buyer calculates VAT|None, reported as 0|  
+|XML|Type| 
+|---------|----------|  
+|S|Outgoing VAT, ordinary rate|
+|H|Outgoing VAT, reduced rate – food and beverage|
+|R|Outgoing VAT, reduced rate – raw fish|
+|AA|Outgoing VAT, low rate|
+|AE|VAT Reverse Charge|
+|L|Canary Islands general indirect tax|
+|M|Tax for production, services and importation in Ceuta and Melilla|
+|G|Free export item, tax not charged|
+|O|Services outside scope of tax|
+|E|VAT Exempt|
+|Z|VAT Exempt (goods and services not included in the VAT regulations)|
+|K|VAT exempt for EEA intra-community supply of goods and services|
 
 ## See Also  
  [Set Up Customers for EHF](how-to-set-up-customers-for-ehf.md)

@@ -25,8 +25,8 @@ Her Majesty's Revenue and Customs (HMRC) is implementing the first step of Makin
 
 The Making Tax Digital VAT extension lets you:
 
-* Retrieve VAT obligations from HMRC 
-* Get reminded about VAT obligations that are approaching or already past due   
+* Retrieve VAT obligations from HMRC
+* Get reminded about VAT obligations that are approaching or already past due
 * Submit VAT returns to HMRC  
 * View the VAT return  
 * View VAT payments with HMRC  
@@ -36,10 +36,10 @@ The Making Tax Digital VAT extension lets you:
 The Making Tax Digital feature uses a service connection to communicate with HMRC. To make it easy to establish communications, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] provides the **HMRC VAT Setup** service connection, which contains most of the information needed to communicate with HMRC. To finish the connection, you must give the **Dynamics 365 Business Central MTD VAT** application the authority to interact with HMRC on your behalf. Microsoft manages the **Dynamics 365 Business Central MTD VAT** application on the HMRC web site, and the application is a requirement for the connection. You give permission by requesting an authorization code from HMRC, and then copying the code to the service connection. The following steps describe how to set up the service connection.   
 
 1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Connections**, and then choose the related link.  
-2. On the **Service Connections** page, choose **HMRC VAT Setup**. 
+2. On the **Service Connections** page, choose **HMRC VAT Setup**.
 
-    > [!Tip]
-    > If you just want to try these features, choose **HMRC VAT Sandbox Setup** instead.  
+    > [!Note]
+    > If you use an on premises version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)] you will need additional setup information available on PartnerSource. Please go to [this](https://mbs.microsoft.com/partnersource/global/deployment/downloads/tax-regulatory-updates/365dynamicsbctaxdigitsupinfo) page for this additional setup information.
 
 3. To open a GOV.UK website and request an authorizaton code, choose **Process**, then **Request Authorization Code**, and then choose **Continue**. 
 4. Sign in with your HMRC credentials. To allow the **Dynamics 365 Business Central MTD VAT** application to interact with HMRC on your behalf, choose **Grant authority**.

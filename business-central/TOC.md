@@ -456,6 +456,7 @@
 ## [Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md)
 ## [Sell Inventory Items in Assemble-to-Order Flows](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md)
 ## [Sell Assemble-to-Order Items and Inventory Items Together](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)
+## [Create Blanket Assembly Orders](assembly-how-to-create-blanket-assembly-orders.md)
 ## [Undo Assembly Posting](assembly-how-to-undo-assembly-posting.md)
 ## [Work with Bills of Material](inventory-how-work-BOMs.md)
 ## [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)

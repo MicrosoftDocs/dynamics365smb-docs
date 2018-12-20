@@ -34,7 +34,7 @@ The following topics describe local functionality that is unique to the Austrian
 [Set Up Delivery Reminders](how-to-set-up-delivery-reminders.md)  
 [Set Up Delivery Reminder Terms, Levels, and Text](how-to-set-up-delivery-reminder-terms-levels-and-text.md)  
 [Update Currency Exchange Rates](../../finance-how-update-currencies.md)
-[Set Up an Additional Reporting Currency](../../finance-how-set-up-additional-currencies.md)    
+[Set Up an Additional Reporting Currency](../../finance-how-setup-additional-currencies.md)    
 [VAT Reporting](vat-reporting.md)
 
 ## See Also

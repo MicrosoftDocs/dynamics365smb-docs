@@ -32,7 +32,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Define how you report value-added tax amounts that you have collected for sales to the tax authorities. |[Setting Up Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md)|
 |Prepare to handle unrealized VAT in connection with cash-based accounting methods.|[Set Up Unrealized VAT for Cash-Based Accounting](finance-setup-unrealized-vat.md)|
 | Set your Sales and Purchases features up to handle payments in foreign currencies.|[Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md)
-|Define one or more additional currencies so that amounts are automatically reported in both LCY and an additional reporting currency on each G/L entry and on other entries.|[Set Up an Additional Reporting Currency](finance-how-set-up-additional-currencies.md)|
+|Define one or more additional currencies so that amounts are automatically reported in both LCY and an additional reporting currency on each G/L entry and on other entries.|[Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md)|
 |Periodically adjust additional currency equivalents to make up for fluctuating exchange rates.|[Update Currency Exchange Rates](finance-how-update-currencies.md)|
 |Define multiple interest rates to be used for different periods for delayed payments in trade transactions.|[Set Up Multiple Interest Rates](finance-how-to-set-up-multiple-interest-rates.md)|
 |Prepare to round invoice amounts automatically when you create invoices.|[Set Up Invoice Rounding](finance-set-up-invoice-rounding.md)|

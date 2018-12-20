@@ -38,4 +38,4 @@ German companies must use the **BilMoG (Germany)** option when they run the **Ad
 
 ## See Also  
 [Update Currency Exchange Rates](../../finance-how-update-currencies.md)  
-[Set Up an Additional Reporting Currency](../../finance-how-set-up-additional-currencies.md)
+[Set Up an Additional Reporting Currency](../../finance-how-setup-additional-currencies.md)

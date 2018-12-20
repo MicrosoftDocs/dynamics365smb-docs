@@ -18,10 +18,7 @@ ms.author: sgroespe
 # Update Currency Exchange Rates
 As companies operate in increasingly more countries/regions, it becomes more important that they be able to trade and report financials in more than one currency. You must set up a code for each currency you use if you buy or sell in currencies other than your local currency, have receivables or payables in other currencies, or record G/L transactions in different currencies.
 
-Your general ledger is set up to use your local currency (LCY), and another currency is set up as an additional currency, with a current exchange rate assigned. By designating a second currency as a so-called additional reporting currency, [!INCLUDE[d365fin](includes/d365fin_md.md)] will automatically record amounts in both LCY and this additional reporting currency on each G/L entry and on other entries, such as VAT entries. When G/L entry amounts are calculated in an additional reporting currency, [!INCLUDE[d365fin](includes/d365fin_md.md)] uses the information from the **Currency Exchange Rates** page to find the relevant exchange rate. For more information, see [Set Up an Additional Reporting Currency](finance-how-set-up-additional-currencies.md).
-
-> [!Warning]
-> The Additional Reporting Currency functionality should NOT be used as a basis for financial statement translation. It is not a tool that can perform translation of foreign subsidiary financial statements as part of a company consolidation. The additional reporting currency can only be used to prepare reports in another currency, as if that currency was the company’s local currency.
+Your general ledger is set up to use your local currency (LCY), but you can set it up to also use another currency with a current exchange rate assigned. By designating a second currency as a so-called additional reporting currency, [!INCLUDE[d365fin](includes/d365fin_md.md)] will automatically record amounts in both LCY and this additional reporting currency on each G/L entry and other entries, such as VAT entries. For more information, see [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md).
 
 ## Adjusting Exchange Rates
 Because exchange rates fluctuate constantly, additional currency equivalents in your system must be adjusted periodically. If these adjustments are not done, amounts that have been converted from foreign (or additional) currencies and posted to the general ledger in LCY may be misleading. In addition, daily entries posted before a daily exchange rate is entered into the program must be updated after the daily exchange rate information is entered. The Adjust Exchange Rates batch job is used to adjust the exchange rates of posted customer, vendor and bank account entries. It can also update additional reporting currency amounts on G/L entries.
@@ -41,6 +38,6 @@ You can use an external service to keep your currency exchange rates up to date,
 The value in the **Exchange Rate** field on the **Currencies** page is updated with the latest currency exchange rate.
 
 ## See Also
-[Set Up an Additional Reporting Currency](finance-how-set-up-additional-currencies.md)  
+[Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md)  
 [Closing Years and Periods](year-close-years-periods.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

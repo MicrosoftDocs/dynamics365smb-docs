@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: making tax digital, vat, vat return, submit vat, making tax digital software, hmrc, tax
-ms.date: 12/01/2018
+ms.date: 12/20/2018
 ms.author: soalex
 
 ---
@@ -39,7 +39,7 @@ The Making Tax Digital feature uses a service connection to communicate with HMR
 2. On the **Service Connections** page, choose **HMRC VAT Setup**.
 
     > [!Note]
-    > If you use an on premises version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)] you will need additional setup information available on PartnerSource. Please go to [this](https://mbs.microsoft.com/partnersource/global/deployment/downloads/tax-regulatory-updates/365dynamicsbctaxdigitsupinfo) page for this additional setup information.
+    > If you use an on-premises version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)] you will also need to provide a client ID and client secret. If you are not sure what these are, contact your partner. They can get the information for you on [PartnerSource](https://mbs.microsoft.com/partnersource/global/deployment/downloads/tax-regulatory-updates/365dynamicsbctaxdigitsupinfo). 
 
 3. To open a GOV.UK website and request an authorizaton code, choose **Process**, then **Request Authorization Code**, and then choose **Continue**. 
 4. Sign in with your HMRC credentials. To allow the **Dynamics 365 Business Central MTD VAT** application to interact with HMRC on your behalf, choose **Grant authority**.

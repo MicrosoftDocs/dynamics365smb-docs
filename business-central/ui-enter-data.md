@@ -1,6 +1,6 @@
 ---
 title: How to Enter Data in Fields| Microsoft Docs
-description: There are many general functions that help you enter data  in a quick and easy way. The general functions for entering data are described in this topic.
+description: Learn about general features that help you enter data in fields.
 author: jswymer
 
 ms.service: dynamics365-business-central
@@ -21,9 +21,9 @@ There are many general features that help you enter data in a quick and easy way
 
 ## <a name="QuickEntry"></a>Accelerating Data Entry Using Quick Entry 
 
-Quick Entry is a feature designed for data entry when using the keyboard. You might already be familiar with using Tab to navigate from one field on a page to the next editable. A disadvantage of using Tab is that it always goes sequentially to the next field. <!-- even if the field is non-editable or seldom filled it in.-->Quick Entry lets you change this path. With Quick Entry, you use the Enter key to navigate through only those fields that you are interested in, skipping non-editable fields and fields that you typically do not fill in. You might have already noticed this behavior on some pages. This is because page designers have already designated which fields to include when pressing Enter and which ones to skip.
+Quick Entry is a feature designed for data entry when using the keyboard. Quick Entry works on fields (like on card pages) and in lists (rows and columns). It is beneficial when performing repetitive typing tasks that require creating multiple records in sequence, such as a batch of sales orders or registering new items. 
 
-Quick Entry works on fields in a grid (like a card page) and in lists (rows and columns). Quick Entry helps you focus on the most essential fields when working without a pointing device, like a mouse. It is beneficial when performing repetitive typing tasks that require creating multiple records in sequence, such as a batch of sales orders or registering new items. 
+You might already be familiar with using the Tab key to navigate from one field on a page to the next editable field. A disadvantage of using Tab is that it always goes sequentially to the next field. <!-- even if the field is non-editable or seldom filled it in.-->Quick Entry lets you change this path. With Quick Entry, you use the Enter key to navigate through only those fields that you are interested in, skipping non-editable fields and fields that you typically do not fill in. You might have already noticed this behavior on some pages. This is because the application already designates which fields to include when pressing Enter and which ones to skip. You can customize Quick Entry when personalizing your workspace, to optimize for how you enter data on each page.
 
 <!-- 
 
@@ -38,19 +38,19 @@ When you are finished entering data in a field, you simply press Enter to confir
 #### Tips and tricks
 The following provides some useful information about using Quick Entry.
 
-- It is intended for editable fields.
-- It works across columns and rows.
+- It is available for any editable fields.
+- It also works across columns and rows.
 - It does not prevent accessing other elements of a page, such as actions. These are still accessible by using Tab and Shift+Tab.  
-- FastTabs do not have to be expanded for Quick Entry to work. If the next Quick Entry field is located in collapsed FastTab, that FastTab will automatically expand and focus on the designated field.
+- FastTabs do not have to be expanded for Quick Entry to work. If the next Quick Entry field is located in a collapsed FastTab, that FastTab will automatically expand and focus on the designated field.
 - Quick Entry works irrespective of whether fields are mandatory. So it is a good idea to ensure that mandatory fields are included in Quick Entry.
 - By default, most fields are automatically included in Quick Entry. So initially your task will most likely be excluding fields from Quick Entry.
 
 ### How to Change Quick Entry Fields
 
-To change which fields are included in or excluded from Quick Entry path on a page, you use personalization. 
+To change which fields are included in or excluded from Quick Entry on a page, you use personalization. 
 
 1. Start personalization by selecting the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, and then **Personalize**.
-2. Select a field that you want change, or in list, select the corresponding column heading, and then choose either **Include in Quick Entry** or **Exclude from Quick Entry**. 
+2. Select a field that you want change, or in lists, select the corresponding column heading, and then choose either **Include in Quick Entry** or **Exclude from Quick Entry**. 
 
 For more information about personalization, see [Personalizing Your Workspace](ui-personalization-user.md).
 

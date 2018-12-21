@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 10/01/2018
+ms.date: 12/21/2018
 ms.author: sgroespe
 
 ---
@@ -38,7 +38,13 @@ In cost accounting, you work with cost budgets in a similar way. For more inform
 7. Repeat steps 5 and 6 until you have entered all of the budget amounts.  
 
 > [!NOTE]  
->  On the **Filters** FastTab, you can filter the budget information by budget dimensions you have set up under the budget name.   
+>  On the **Filters** FastTab, you can filter the budget information by budget dimensions you have set up under the budget name.
+
+## Exporting and Importing G/L Budgets with Excel
+As for practically all other pages, you can export data on budget pages to Excel for further processing or analysis. For more information, see [Exporting Your Business Data to Excel](about-export-data.md).
+
+> [!NOTE]
+> The chart of accounts, that G/L budgets are based, on have Heading lines that contain the total of the lines above it. Special behavior applies for data on lines of account type Heading: <br /><br / **When you export/import, any values on Heading lines will be blank.** ><br /><br /> This is to avoid wrong totals after importing data that has been created or edited in Excel. Therefore, you must manually reenter totals, on Heading lines, after import.<br /><br /> **Scenario**: Your current budget total for salaries is LCY 1.000.000. You know that you new budgeted cost is going to be a total of LCY 1.200.000. You want to let the Salaries department budget the three specific lines, of type Posting, for Full-time Employees, Part-time Employees, and Temp Help, and.><br /><br /> So you just enter 1.200.000 in the Personnel Costs heading in the G/L budget, export it to Excel, and send it to Salaries department.><br /><br /> The department distributes the LCY 1.200.000 on the three posting accounts.><br /><br /> When you import back into the G/L budget, the three accounts are filled in with the new Excel data, summing to LCY 1.200.000, and the Heading line under them is blank. You then enter LCY 1.200.000. ><br /><br /> If the old total had been preserved, then it would now be wrong and you would have to post something to one of the posting accounts to correct it. Another unfortunate effect is that you loose track of what the target budget is when you start your detailed budgeting.     
 
 ## See Also
 [Finance](finance.md)  

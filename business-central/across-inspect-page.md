@@ -22,7 +22,7 @@ Page inspection is especially designed for administrators, power users, support 
 
 - Troubleshoot data issues without having to perform tasks like copying the production database, viewing the entire source table, or digging into SQL.
 
-- Debug the application, complementing Designer.
+- Debug the application, complementing [Designer](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer).
 
 
 ## Start Page Inspection

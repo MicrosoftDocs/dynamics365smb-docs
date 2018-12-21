@@ -89,9 +89,9 @@ To make a fixed application, you use the **Appl.-to Item Entry** field or the **
 ### Example – Fixed Application in Purchase Return  
 The following example, which illustrates the effect of fixed application of a purchase return of an item using the FIFO costing method, is based on the following scenario:  
 
--In entry 1, the user posts a purchase at a cost of LCY 10.00.  
--In entry 2, the user posts a purchase at a cost of LCY 20.00.  
--In entry 3, the user posts a purchase return. The user makes a fixed application to the second purchase by entering the item ledger entry number in the **Appl.-to Item Entry** field on the purchase return order line.  
+1. In entry 1, the user posts a purchase at a cost of LCY 10.00.  
+2. In entry 2, the user posts a purchase at a cost of LCY 20.00.  
+3. In entry 3, the user posts a purchase return. The user makes a fixed application to the second purchase by entering the item ledger entry number in the **Appl.-to Item Entry** field on the purchase return order line.  
 
 The following table shows item ledger entries resulting from the scenario.  
 

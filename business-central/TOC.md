@@ -1079,6 +1079,7 @@
 ### [Set Up Bank CCC Codes](LocalFunctionality/Spain/how-to-set-up-bank-ccc-codes.md)
 ### [Set Limits for Due Dates](LocalFunctionality/Spain/how-to-set-limits-for-due-dates.md)
 ### [Set Up Payment Days and Non-Payment Periods](LocalFunctionality/Spain/how-to-set-up-payment-days-and-non-payment-periods.md)
+### [SII - Invoice and Credit Memo Types in Sales and Purchase Documents](SII-invoice-types-sales-purchase-documents.md)
 ### [Transaction Numbers](LocalFunctionality/Spain/transaction-numbers.md)
 ### [VAT Reports](LocalFunctionality/Spain/vat-reports.md)
 ### [Void Electronic Payments](LocalFunctionality/Spain/how-to-void-electronic-payments.md)

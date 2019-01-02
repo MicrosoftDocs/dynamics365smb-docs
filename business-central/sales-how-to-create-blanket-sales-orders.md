@@ -58,10 +58,10 @@ You can see the status of a blanket sales order on the **Blanket Sales Order Sta
 2.  Select a blanket sales order, and then choose the **Statistics** action.  
 3.  On the **Blanket Sales Order Statistics** page, on the **General** FastTab, you can see summary information about the entire order based on the total quantity in the various **Quantity fields** on the blanket sales order lines.  
 
-    - On the **Invoicing** FastTab, you can see summary information based on the total quantity in the **Qty. to Invoice** fields on the sales blanket order lines.  
-    - On the **Shipping** FastTab, you can see summary information based on the total quantity in the **Qty. to Receive** fields on the sales blanket order lines.  
-    - On the **Prepayment** FastTab, you can see summary information about any prepaid amounts.  
-    - On the **Vendor** FastTab, you can see certain basic information about the vendor.    
+- On the **Invoicing** FastTab, you can see summary information based on the total quantity in the **Qty. to Invoice** fields on the sales blanket order lines.  
+- On the **Shipping** FastTab, you can see summary information based on the total quantity in the **Qty. to Receive** fields on the sales blanket order lines.  
+- On the **Prepayment** FastTab, you can see summary information about any prepaid amounts.  
+- On the **Vendor** FastTab, you can see certain basic information about the vendor.    
 
 ## To view unposted and posted blanket sales order lines   
 The link between the blanket sales order and the originating sales order, and any other sales document, is retained after posting as a list of posted and unposted sales order invoice lines.  
@@ -70,21 +70,21 @@ The link between the blanket sales order and the originating sales order, and an
 2. Open the blanket sales order you want to view.
 3. To view unposted entries, select the line in question, choose the **Line** action, and then choose the **Unposted Lines** action. Choose one of the following options.  
 
-|Option|Description|
-|--|--|
-|**Orders**|Specifies open orders associated with the selected line.|
-|**Invoices**|Specifies open invoices that have been associated with the selected line. Open invoices are manually associated with a blanket order by entering the blanket order number on the sales invoice line.|
-|**Return Orders**|Specifies open return orders that have been associated with the selected line.|
-|**Credit Memos**|Specifies open credit memos that have been associated with the selected line.|
+    |Option|Description|
+    |--|--|
+    |**Orders**|Specifies open orders associated with the selected line.|
+    |**Invoices**|Specifies open invoices that have been associated with the selected line. Open invoices are manually associated with a blanket order by entering the blanket order number on the sales invoice line.|
+    |**Return Orders**|Specifies open return orders that have been associated with the selected line.|
+    |**Credit Memos**|Specifies open credit memos that have been associated with the selected line.|
 
 4. To view posted entries, select the line in question, choose the **Line** action, and then choose the **Posted Lines** action. Choose one of the following options.  
 
-|Option|Description|
-|---|----|
-|**Shipments**|Posted shipments associated with the selected line.|
-|**Invoices**|Posted invoices associated with the selected line.|
-|**Return Receipts**|Posted return receipts that have been associated with the selected line.|
-|**Credit Memos**|Posted credit memos that have been associated with the selected line.|
+    |Option|Description|
+    |---|----|
+    |**Shipments**|Posted shipments associated with the selected line.|
+    |**Invoices**|Posted invoices associated with the selected line.|
+    |**Return Receipts**|Posted return receipts that have been associated with the selected line.|
+    |**Credit Memos**|Posted credit memos that have been associated with the selected line.|
 
 5. On the **Sales Lines** page, choose the **Show Document** action to view the entry.
 

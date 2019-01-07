@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 12/21/2018
+ms.date: 12/27/2018
 ms.author: sgroespe
 
 ---
@@ -44,7 +44,7 @@ In cost accounting, you work with cost budgets in a similar way. For more inform
 As for practically all other pages, you can export data on budget pages to Excel for further processing or analysis. For more information, see [Exporting Your Business Data to Excel](about-export-data.md).
 
 > [!NOTE]
-> The chart of accounts, that G/L budgets are based on, have lines of account type Heading that contain the total of the lines above it. Special behavior applies for data on Heading lines: <br /><br /> **When you export/import, any values on Heading lines will be blank.** <br /><br /> This is to avoid wrong totals after importing data that has been created or edited in Excel. Therefore, you must manually reenter totals on Heading lines after import.<br /><br /> **Scenario**: Your current budget total for salaries is LCY 1.000.000. You know that the new budgeted salaries cost is going to be LCY 1.200.000.<br /><br /> You want to let the Salaries department budget the three specific lines  (of account type Posting) for Full-time Employees, Part-time Employees, and Temp Help. You export the budget to Excel and send it to the Salaries department, telling them that the total cost must be LCY 1.200.000.<br /><br /> The department distributes the amount on the three posting accounts. When you import back into the G/L budget, the three accounts are filled in with the new Excel data, summing to LCY 1.200.000, and the Heading line under them is blank. You then enter the total of LCY 1.200.000 on the Heading line. <br /><br /> If the old total (LCY 1.000.000) had been preserved, then it would now be wrong and you would have to post something to one of the posting accounts to correct it. Another unfortunate effect is that you would loose track of what the target budget is when you start your detailed budgeting.     
+> The chart of accounts, that G/L budgets are based on, have lines of account type Heading that contain the total of the lines above it. When you export a G/L budget, data on all lines is exported regardless of the account type. However, only data on lines of account type Posting can be imported back in. Accordingly: <br /><br /> **When you import a G/L budget, any values that existed on Heading lines will be deleted.** <br /><br /> This is to avoid wrong totals after importing data that has been created or edited in Excel. Therefore, you must manually reenter totals on Heading lines after import.<br /><br /> **Scenario**: You know that the new budgeted salaries cost is going to be LCY 1.200.000. You want to let the Salaries department budget for the three specific lines (of account type Posting) for Full-time Employees, Part-time Employees, and Temp Help. <br /><br />You enter 1.200.000 on the Heading line, export the budget to Excel, and then send it to the Salaries department, telling them to distribute the LCY 1.200.000.<br /><br /> The Salaries department distributes the amount on the three posting accounts. When you import back into the G/L budget, the three accounts are filled in with the new Excel data, summing to LCY 1.200.000, and the Heading line under them is blank. You then enter the total of LCY 1.200.000 on the Heading line.
 
 ## See Also
 [Exporting Your Business Data to Excel](about-export-data.md)  

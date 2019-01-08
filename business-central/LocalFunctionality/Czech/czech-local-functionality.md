@@ -20,7 +20,7 @@ The following topics describe local functionality that is unique to the Czech ve
 
 ## In This Section  
 [EET](eet.md)  
-[Control Report](control-report.md)
+[Control Report](vat-control-report.md)
 
 
 ## See Also

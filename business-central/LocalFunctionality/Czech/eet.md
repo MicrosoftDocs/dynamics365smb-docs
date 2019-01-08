@@ -52,4 +52,4 @@ With posting of defined documents (and with defined payment method) is created E
 
 ## See Also
 [Czech Local Functionality](czech-local-functionality.md)  
-[Finance](finance.md)  
+[Finance](../../finance.md) 

@@ -770,6 +770,10 @@
 ### [Set Up Unrealized Sales Tax and Sales Payment Discounts](LocalFunctionality/Canada/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
 ### [Work With GIFI Codes](LocalFunctionality/Canada/work-gifi-codes.md)  
 
+## [Czech Republic](LocalFunctionality/Czech/czech-local-functionality.md)
+### [Registration of Sales (EET)](LocalFunctionality/Czech/eet.md)
+### [VAT Control Report](LocalFunctionality/Czech/vat-control-report.md)
+
 ## [Denmark](LocalFunctionality/Denmark/denmark-local-functionality.md)
 ### [Create Electronic Documents in an OIOUBL Format](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md)
 ### [FIK Details in the Payment Reconciliation Journal](LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal.md)

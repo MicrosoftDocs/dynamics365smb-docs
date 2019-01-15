@@ -21,7 +21,7 @@ The following topics describe local functionality that is unique to the United K
 
 |Feature Area|Feature|Availability|
 |------------|-------|------------|
-|**VAT**|Making Tax Digital - VAT Returns submission|In development, estimated end 2018|
+|**VAT**|[Making Tax Digital - VAT Returns submission](making-tax-digital-submit-vat-return.md)|Current|
 ||[Change VAT Setup in Journals](how-to-change-vat-setup-in-journals.md)|Current|
 ||[Print VAT Audit Reports](how-to-print-vat-audit-reports.md)|Current|
 ||[Print VAT Reports](how-to-print-vat-reports.md)|Current|

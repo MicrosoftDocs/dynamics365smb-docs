@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: multiple currencies
-ms.date: 12/19/2018
+ms.date: 01/07/2019
 ms.author: sgroespe
 
 ---
@@ -21,7 +21,7 @@ As companies operate in increasingly more countries/regions, it becomes more imp
 Your general ledger is set up to use your local currency (LCY), but you can set it up to also use another currency with a current exchange rate assigned. By designating a second currency as a so-called additional reporting currency, [!INCLUDE[d365fin](includes/d365fin_md.md)] will automatically record amounts in both LCY and this additional reporting currency on each G/L entry and other entries, such as VAT entries.
 
 > [!Warning]
-> The Additional Reporting Currency functionality should NOT be used as a basis for financial statement translation. It is not a tool that can perform translation of foreign subsidiary financial statements as part of a company consolidation. The additional reporting currency can only be used to prepare reports in another currency, as if that currency was the company’s local currency.
+> The Additional Reporting Currency functionality should not be used as a basis for financial statement translation. It is not a tool that can perform translation of foreign subsidiary financial statements as part of a company consolidation. The additional reporting currency can only be used to prepare reports in another currency, as if that currency was the company’s local currency.
 
 ## Displaying Reports and Amounts in the Additional Reporting Currency
 Using an additional reporting currency can assist the reporting process for a company in the following cases:
@@ -98,9 +98,11 @@ For each general ledger account, you must specify how general ledger amounts for
 4. Choose the **Yes** button to confirm that you want to activate the currency.  
 5. The **Adjust Add. Reporting Currency** batch job opens.
 
-    This batch job converts LCY amounts on existing entries to the additional reporting currency. The batch job uses a default exchange rate copied from the exchange rate that is valid on the work date on the **Currency Exchange Rates** page. Residual amounts that occur on conversion of LCY to additional reporting currency are posted to the residual gains and losses accounts specified on the **Currencies** page. The posting date and document number for these entries are the same as for the original general ledger entry. After all these residual entries are posted, the batch job posts a rounding entry on the closing date of each closed year to the retained earnings account. This is to make sure that the ending balance of the income accounts for each closed years is 0 in both LCY and the additional reporting currency.  
-6. Choose the **OK** button to run the batch job.  
-7. After running the batch job, amounts on the following existing entries will be in both LCY and in the additional reporting currency:  
+    This batch job converts LCY amounts on existing entries to the additional reporting currency. The batch job uses a default exchange rate copied from the exchange rate that is valid on the work date on the **Currency Exchange Rates** page. Residual amounts that occur on conversion of LCY to additional reporting currency are posted to the residual gains and losses accounts specified on the **Currencies** page. The posting date and document number for these entries are the same as for the original general ledger entry. After all these residual entries are posted, the batch job posts a rounding entry on the closing date of each closed year to the retained earnings account. This is to make sure that the ending balance of the income accounts for each closed years is 0 in both LCY and the additional reporting currency.
+6. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]      
+7. Choose the **OK** button to run the batch job.  
+
+After running the batch job, amounts on the following existing entries will be in both LCY and in the additional reporting currency:  
 
 - General ledger entries  
 - Item application entries  

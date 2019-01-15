@@ -51,7 +51,6 @@ The following topics describe local functionality that is unique to the German v
 [Set Up Delivery Reminders](how-to-set-up-delivery-reminders.md)  
 [Set Up Delivery Reminder Terms, Levels, and Text](how-to-set-up-delivery-reminder-terms-levels-and-text.md)  
 [Set Up Reports for VAT and Intrastat](how-to-set-up-reports-for-vat-and-intrastat.md)  
-[Set Up Sales VAT Advance Notifications for Elster](how-to-set-up-sales-vat-advance-notifications-for-elster.md)  
 [Set Up VAT Reports](how-to-set-up-vat-reports.md)  
 [Upgrade a .DTD Definition File](how-to-upgrade-a-.dtd-definition-file.md)  
 [VAT Reporting](vat-reporting.md)  

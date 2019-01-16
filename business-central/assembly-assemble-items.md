@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: kit, kitting
-    ms.date: 10/01/2018
+    ms.date: 12/20/2018
     ms.author: sgroespe
 
 ---
@@ -39,6 +39,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Sell assembly items that are not currently available by creating a linked assembly order to supply the full or partial sales order quantity.|[Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md)|
 |When some assemble-to-order items are already in inventory, deduct that quantity from the assembly order and reserve it from inventory.|[Sell Inventory Items in Assemble-to-Order Flows](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md)|  
 |When you are selling assembly items from inventory and all items are not available, initiate an assembly order to automatically supply a part or all of the sales order quantity.|[Sell Assemble-to-Order Items and Inventory Items Together](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)|
+|Make customized assembly items for blanket sales orders before periodically making the actual sales orders according to the blanket order agreement.|[Create Blanket Assembly Orders](assembly-how-to-create-blanket-assembly-orders.md)|
 |Undo a posted assembly order, for example because the order was posted with mistakes that must be corrected.|[Undo Assembly Posting](assembly-how-to-undo-assembly-posting.md)|
 |Learn about the difference between assembly BOMs and production BOMs and the involved processing differences.|[Work with Bills of Material](inventory-how-work-BOMs.md)|
 |Learn how assembly consumption and output are handled when you post assembly orders and how the derived item and resource costs are processed and distributed to the general ledger.|[Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)|  
@@ -50,4 +51,3 @@ The following table describes a sequence of tasks, with links to the topics that
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 

@@ -11,6 +11,7 @@
     ms.search.keywords: direct-debit, collection, payment, sepa
     ms.date: 10/01/2018
     ms.author: sgroespe
+    redirect_url: finance-collect-payments-with-sepa-direct-debit
 
 ---
 # Create SEPA Direct Debit Collection Entries and Export to a Bank File

@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 12/19/2018
     ms.author: sgroespe
 
 ---
@@ -37,4 +37,5 @@ German companies must use the **BilMoG (Germany)** option when they run the **Ad
 |**Short term liabilities until**|Specifies the date that separates short-term entries from long-term entries. Short-term entries have a due date that is before or on this date. The default value is the value of the **Valuation Reference Date** field plus one year.|  
 
 ## See Also  
-[Update Currency Exchange Rates](../../finance-how-update-currencies.md)
+[Update Currency Exchange Rates](../../finance-how-update-currencies.md)  
+[Set Up an Additional Reporting Currency](../../finance-how-setup-additional-currencies.md)

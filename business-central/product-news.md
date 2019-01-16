@@ -5,7 +5,7 @@ author: edupont04
 
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
-ms.search.keywords: news, release notes, roadmap, what's new 
+ms.search.keywords: news, release notes, roadmap, whats new 
 ms.date: 12/03/2018
 ms.author: edupont
 

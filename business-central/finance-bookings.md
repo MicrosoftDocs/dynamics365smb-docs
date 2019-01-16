@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: invoicing, bookings
-ms.date: 10/01/2018
+ms.date: 01/07/2019
 ms.author: edupont
 
 ---
@@ -20,6 +20,14 @@ If your company uses the Bookings app in Office 365, you can do bulk invoicing f
 To connect your [!INCLUDE[d365fin](includes/d365fin_md.md)] with Bookings, you must specify your Bookings company, what to synchronize with Bookings, how often to synchronize, and which templates to use. You set up this information on the **Booking Sync. Setup** page, which you can launch from the **Exchange Sync. Setup** page, which you can find through [Search](ui-search.md).  
 
 For example, if you want to synchronize customers between Bookings and [!INCLUDE[d365fin](includes/d365fin_md.md)], you must specify the default template to use to add new customers in [!INCLUDE[d365fin](includes/d365fin_md.md)] based on the customers in your Bookings company.  
+
+> [!NOTE]
+> The Bookings app is designed to book appointments for individual customers rather than companies. The synchronization with [!INCLUDE[d365fin](includes/d365fin_md.md)] will, therefore, only synchronize customer contacts with a Type of "Person". An email address is also required for the contact to synchronize.  
+
+Similarly, if you want to synchronize service items between Bookings and [!INCLUDE[d365fin](includes/d365fin_md.md)], you must specify the default template to use to add new service items in [!INCLUDE[d365fin](includes/d365fin_md.md)] based on the services in our Bookings company.  
+
+> [!NOTE]
+> Only items of type *Service* will synchronize between Bookings and [!INCLUDE[d365fin](includes/d365fin_md.md)]. The template that you set up in the **Configuration Templates** page so it can be used for the item synchronization must define the type as *Service*.
 
 ## Invoice Appointments
 When it is time to send invoices for the completed bookings, you go to the **Uninvoiced Bookings** page. Depending on how often the information is synchronized, the list is long or short. You can create invoices for all bookings in the list or one booking at a time. You can select one or more entries in the list and invoice those only.  

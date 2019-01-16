@@ -30,4 +30,4 @@ If your first 30-day trial period is expired, you can extend it yourself and thi
 
 ## See Also
 [Creating New Companies](about-new-company.md)  
-[Access to a Preview](accross-preview.md)  
+[Access to a Preview](across-preview.md)  

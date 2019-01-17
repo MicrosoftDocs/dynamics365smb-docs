@@ -4,7 +4,7 @@
 
     services: project-madeira 
     documentationcenter: ''
-    author: SorenGP
+    author: sorenfriisalexandersen
 
     ms.service: dynamics365-business-central
     ms.topic: article
@@ -12,8 +12,8 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
-    ms.author: sgroespe
+    ms.date: 11/30/2018
+    ms.author: soalex
 
 ---
 # Export Intrastat Third-Party Declarations
@@ -29,6 +29,7 @@ Before you export the file, it's a good idea to preview the report. For more inf
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Nihil declaration**|Select if you do not have any trade transactions with European Union (EU) countries/regions and want to send an empty declaration.|  
+    |**Counter party info**|Check this field to include counter party information in the Intrastat file (new requirement from 2019). The counter party information added to the file is taken from the **Country/Region of Origin Code** and **Partner ID** from the Intrastat Journal.|  
     |**Enterprise No./VAT Reg. No.**|Enter the enterprise or VAT registration number.|  
     
 4.  Choose the **OK** button.  

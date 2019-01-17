@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 10/01/2018
+ms.date: 12/06/2018
 ms.author: edupont
 
 ---
@@ -30,15 +30,18 @@ To learn about the local functionality for each country, choose the related link
 |        | Germany | [Germany Local Functionality](localfunctionality/germany/germany-local-functionality.md) |
 |        | Finland | [Finland Local Functionality](localfunctionality/finland/finland-local-functionality.md) |
 |        | France | [France Local Functionality](localfunctionality/france/france-local-functionality.md) |
+|        | Iceland | [Iceland Local Functionality](localfunctionality/iceland/iceland-local-functionality.md) |
 |        | Italy | [Italy Local Functionality](localfunctionality/italy/italy-local-functionality.md) |
 |        | Netherlands | [Netherlands Local Functionality](localfunctionality/netherlands/netherlands-local-functionality.md) |
+|        | Norway | [Norway Local Functionality](localfunctionality/norway/norway-local-functionality.md) |
 |        | Spain | [Spain Local Functionality](localfunctionality/spain/spain-local-functionality.md) |
 |        | Sweden | [Sweden Local Functionality](localfunctionality/sweden/sweden-local-functionality.md) |
 |        | Switzerland | [Switzerland Local Functionality](localfunctionality/switzerland/switzerland-local-functionality.md) |
 |        | United Kingdom | [United Kingdom Local Functionality](localfunctionality/unitedkingdom/united-kingdom-local-functionality.md) |
 | North America |       |  |
-|               | Canada|[Canada Local Functionality](localfunctionality/canada/canada-local-functionality.md) |
-|               | United States|[United States Local Functionality](localfunctionality/unitedstates/united-states-local-functionality.md) |
+|        | Canada|[Canada Local Functionality](localfunctionality/canada/canada-local-functionality.md) |
+|        | Mexico | [Mexico Local Functionality](localfunctionality/mexico/mexico-local-functionality.md) |
+|        | United States|[United States Local Functionality](localfunctionality/unitedstates/united-states-local-functionality.md) |
 | Asia Pacific |       |  |
 |        | Australia | [Australia Local Functionality](localfunctionality/australia/australia-local-functionality.md) |
 |        | New Zealand | [New Zealand Local Functionality](localfunctionality/newzealand/new-zealand-local-functionality.md) |

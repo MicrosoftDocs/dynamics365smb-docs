@@ -31,6 +31,7 @@ The following table lists these general business areas with links to topics that
 | Set up standard text codes so you can extend standard text by adding extra lines, and set up conditions for use of the extra lines. |[Add Extended Item Text](ui-how-define-ext-text.md) |
 |Create tasks to remind you of work to be done. You can create tasks for yourself, but you can also assign tasks to others or be assigned a task by someone else in your organization.|[Defining User Tasks](across-user-tasks.md)|
 |Attach pictures, documents, and other types of files to all cards, such as the item card and job card, and attach files to all types of sales and purchase documents.|[Attaching Files to Cards and Documents](across-attach-document-master-data.md)|
+|Work with your Business Central data in Excel.|[Exporting Your Business Data to Excel](about-export-data.md)| 
 |Let the system help you complete tasks quicker and more correctly by prefilling fields or complete lines with data that you would otherwise have to calculate and enter yourself.|[Letting Business Central Suggest Values](ui-let-system-suggest-values.md)|
 |Record external documents, including their file attachments, and then manually create the related documents or automatically convert the files to electronic documents.|[Incoming Documents](across-income-documents.md)|
 |Set up and use workflows that connect tasks performed by different users or by the system, such as automatic posting. Requesting and granting approval to create or post documents are typical workflow steps.|[Workflow](across-workflow.md)|

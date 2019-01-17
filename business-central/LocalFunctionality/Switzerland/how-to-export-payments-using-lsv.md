@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -22,9 +22,9 @@ You can export or write Lastschrift Verfahren (LSV+) files that contain payments
 ## To export payments using LSV  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **LSV Journal List**, and then choose the related link.  
-2.  In the **LSV Journal List** window, select the required LSV journal.  
+2.  On the **LSV Journal List** page, select the required LSV journal.  
 3.  Choose the **Write LSV File** action.  
-4.  In the **Write LSV File** window, on the **Options** FastTab, fill in the fields as described in the following table.  
+4.  On the **Write LSV File** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

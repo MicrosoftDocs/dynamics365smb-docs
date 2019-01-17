@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -27,7 +27,7 @@ End Date = 12/31/2013
 ## Setting Up Export Record Source Examples  
 
 ### Period Field No.  
-In the **Data Export Record Source** window, the set up is as described in the following table.  
+On the **Data Export Record Source** page, the set up is as described in the following table.  
 
 |Table No.|Table Name|Period Field No.|Period Field Name|Table Filter|  
 |---------------|----------------|----------------------|-----------------------|------------------|  

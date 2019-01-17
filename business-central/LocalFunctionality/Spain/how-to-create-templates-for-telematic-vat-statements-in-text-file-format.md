@@ -12,25 +12,25 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
 # Create Templates for Telematic VAT Statements in Text File Format
 In order to submit VAT statements electronically, you must create templates to generate the required files. You can submit files in text format and in XML format. This procedure describes how to create templates for text files.  
 
-For more information, see the [Spanish Tax Agency](http://go.microsoft.com/fwlink/?LinkID=238181) website.  
+For more information, see the [Spanish Tax Agency](https://go.microsoft.com/fwlink/?LinkID=238181) website.  
 
 ## To create a template for VAT statements in text file format  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Statement**, and then choose the appropriate link.  
 2.  Select the required VAT statement, and then choose the **Design txt file** action.  
-3.  In the **Transference Format** window, fill in the fields as described in the following table.  
+3.  On the **Transference Format** page, fill in the fields as described in the following table.  
 
     > [!IMPORTANT]  
     >  The values for the fields are determined by the tax authorities.  
     >   
-    >  For more information, see the [Spanish Tax Agency](http://go.microsoft.com/fwlink/?LinkID=238181) website.  
+    >  For more information, see the [Spanish Tax Agency](https://go.microsoft.com/fwlink/?LinkID=238181) website.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 03/29/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 
 ---
@@ -21,9 +21,9 @@ A report can be set up with more than one report layout, which you can then swit
 Depending on the layouts that are available for a report, you can choose to use a built-in RDLC report layout, a built-in Word report layout, or a custom layout. For more information about RDLC and Word report layouts, built-in and custom layouts, and more, see [Manage Report Layouts](ui-manage-report-layouts.md).
 
 ## To change the layout that is used on a report
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Report Layout Selection**, and then choose the related link.  
-   The **Report Layout Selection** window lists all the reports that are available for the company that is specified in the Company field at the top of the window. The Selected Layout field specifies the layout that is currently used on the report.
-2. Set the **Company** field at the top of the window to the company that includes the report.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.  
+   The **Report Layout Selection** page lists all the reports that are available for the company that is specified in the Company field at the top of the page. The Selected Layout field specifies the layout that is currently used on the report.
+2. Set the **Company** field at the top of the page to the company that includes the report.
 3. To change the layout that is used by a report, in the row for the report in the list, set the **Selected Layout** field to one of the following options:
    * RDLC (built-in), uses the built-in RDLC report layout on the report.
    * Word (built-in), uses the built-in Word report layout on the report.
@@ -36,10 +36,10 @@ Depending on the layouts that are available for a report, you can choose to use 
 If you selected a built-in RDLC or Word report layout, then no further action is required and the layout will be used the next time the report is run.
 
 ## To specify a custom layout on a report
-1. You specify which custom layout to use on the report from the **Custom Report Layouts** window. If the **Custom Report Layouts** window is not open, then in the **Report Layout Description** field, choose the lookup button.
-2. In the **Custom Report Layouts** window, select the row for custom layout that you want to use, and then close the window.
+1. You specify which custom layout to use on the report from the **Custom Report Layouts** page. If the **Custom Report Layouts** page is not open, then in the **Report Layout Description** field, choose the lookup button.
+2. On the **Custom Report Layouts** page, select the row for custom layout that you want to use, and then close the page.
 
-You return to the **Report Layout Selection** window. The name of the selected custom layout displays in the **Custom Layout Description** field. The custom layout will be used the next time that you run the report.
+You return to the **Report Layout Selection** page. The name of the selected custom layout displays in the **Custom Layout Description** field. The custom layout will be used the next time that you run the report.
 
 ## See Also
 [Managing Report Layouts](ui-manage-report-layouts.md)  

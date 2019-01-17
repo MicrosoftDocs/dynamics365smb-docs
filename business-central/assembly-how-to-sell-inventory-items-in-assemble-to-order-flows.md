@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: kit, kitting
-    ms.date: 08/15/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -31,15 +31,15 @@ Similar functionality is available when you are selling assembly items from inve
 In this procedure, you replace assemble-to-order quantities with inventory quantities on a sales order line. The steps include detecting that availability exists, deducting that quantity from the linked assembly order, and then reserving the inventory quantity to make sure that it is picked and shipped for the order.  
 
 ## To sell inventory items in assemble-to-order flows  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2.  Create a sales order. For more information, see [Sell Products](sales-how-sell-products.md).  
 3.  On a sales order line for an assemble-to-order item, in the **Quantity** field, enter the demanded quantity.  
 4.  In the **Sales Line Details** FactBox, determine if all or some of the demanded quantity is available.  
 5.  In the **Qty. to Assemble to Order** field, deduct the available quantity so that only the unavailable quantity is assembled to the order. The **Reserved Quantity** field is decreased accordingly to reflect that the order-to-order link, or reservation, only applies to the quantity to be assembled.  
 6.  On the **Lines** FastTab, choose **Functions**, and then choose the **Reserve** action.  
-7.  In the **Reservation** window, select the item ledger entry line or lines that contain the available quantities, choose the **Reserve from Current Line** action, and then choose the **OK** button.  
+7.  On the **Reservation** page, select the item ledger entry line or lines that contain the available quantities, choose the **Reserve from Current Line** action, and then choose the **OK** button.  
 
-    In the **Sales Order** window, the **Reserved Quantity** field now shows that the whole order line quantity is reserved. The **Qty. to Assemble to Order** field still reflects the subquantity that has to be assembled.  
+    On the **Sales Order** page, the **Reserved Quantity** field now shows that the whole order line quantity is reserved. The **Qty. to Assemble to Order** field still reflects the subquantity that has to be assembled.  
 
 8.  Release the sales order for picking of the inventory items and for assembly of the unavailable items. For more information, see [Assemble Items](assembly-how-to-assemble-items.md).  
 

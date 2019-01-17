@@ -4,18 +4,18 @@
     services: project-madeira 
     documentationcenter: ''
     author: bholtorf
-    ms.service: dynamics365-financials
+    ms.service: dynamics365-business-central
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 06/20/2018
+    ms.date: 10/01/2018
     ms.author: bholtorf
 
 ---
 # Calculate and Post Withholding Tax Settlements
-You can use the **Calc. and Post WHT Settlement** window to calculate and post the withholding tax (WHT). You can close WHT entries that are open or not settled and transfer the corresponding amount to the WHT settlement account.  
+You can use the **Calc. and Post WHT Settlement** page to calculate and post the withholding tax (WHT). You can close WHT entries that are open or not settled and transfer the corresponding amount to the WHT settlement account.  
 
 The sum of all withheld amounts is reported as a truncated whole number to the New Zealand tax authorities.  
 

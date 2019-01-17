@@ -1,8 +1,6 @@
 ---
 title: Arranging Data Using the Sorting Function | Microsoft Docs
 description: You can use the sorting function to get an overview of your data. For example, you can sort customers by Currency Code to get a select sample of customers.
-services: project-madeira
-documentationcenter: ''
 author: SusanneWindfeldPedersen
 
 ms.service: dynamics365-business-central
@@ -10,7 +8,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/07/2017
+ms.date: 10/01/2018
 ms.author: solsen
 redirect_url: ui-enter-criteria-filters
 ---
@@ -24,4 +22,4 @@ Choose a column heading and use the small arrow to sort ascending or descending.
 
 ## See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Entering Criteria in Filters](ui-enter-criteria-filters.md)
+[Searching, Filtering, and Sorting Data](ui-enter-criteria-filters.md)

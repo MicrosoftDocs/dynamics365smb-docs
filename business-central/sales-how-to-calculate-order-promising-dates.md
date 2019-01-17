@@ -11,12 +11,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 01/19/2019
+    ms.date: 11/23/2018
     ms.author: sgroespe
 
 ---
 # Calculate Order Promising Dates
-A company must be able to inform their customers of order delivery dates. The **Order Promising Lines** window enables you to do this from a sales order line.  
+A company must be able to inform their customers of order delivery dates. The **Order Promising Lines** page enables you to do this from a sales order line.  
 
 Based on an item’s known and expected availability dates, [!INCLUDE[d365fin](includes/d365fin_md.md)] instantly calculates shipment and delivery dates, which can then be promised to the customer.  
 
@@ -57,7 +57,7 @@ When [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates the customer’s del
 
 If the customer does not request a specific delivery date, the shipment date is set to equal the work date, and availability is then based on that date. If the item is in inventory, [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates forward in time to determine when the order can be delivered. This is accomplished by the following formulas:  
 
-- Shipment Date + Outbound Warehouse + Planned Shipment + Handling Time = Date  
+- Shipment Date + Outbound Warehouse Handling Time = Planned Shipment Date  
 - Planned Shipment Date + Shipping Time = Planned Delivery Date  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] then verifies if the calculated delivery date is realistic by calculating backward in time to determine when the item must be available to meet the promised date. This is accomplished by the following formulas:  
@@ -67,14 +67,14 @@ If the customer does not request a specific delivery date, the shipment date is 
 
 The shipment date is used to make the availability check. If the item is available on this date, [!INCLUDE[d365fin](includes/d365fin_md.md)] confirms that therequested/promised delivery can be met by setting the planned delivery date to equal the requested/promised delivery date. If the item is unavailable, it returns a blank date and the order processor can then use the CTP functionality.  
 
-Based on new dates and times, all related dates are calculated according to the formulas listed earlier in this section. The CTP calculation takes longer but it gives an accurate date when the customer can expect to have the item delivered. The dates that are calculated from CTP are presented in the **Planned Delivery Date** and **Earliest Shipment Date** fields in the **Order Promising Lines** window.  
+Based on new dates and times, all related dates are calculated according to the formulas listed earlier in this section. The CTP calculation takes longer but it gives an accurate date when the customer can expect to have the item delivered. The dates that are calculated from CTP are presented in the **Planned Delivery Date** and **Earliest Shipment Date** fields on the **Order Promising Lines** page.  
 
 The order processor finishes the CTP process by accepting the dates. This means that a planning line and a reservation entry are created for the item before the calculated dates to ensure that the order is fulfilled.  
 
-In addition to the external order promising that you can perform in the **Order Promising Lines** window, you can also promise internal or external delivery dates for bill-of-material items. For more information, see [View the Availability of Items](inventory-how-availability-overview.md).
+In addition to the external order promising that you can perform on the **Order Promising Lines** page, you can also promise internal or external delivery dates for bill-of-material items. For more information, see [View the Availability of Items](inventory-how-availability-overview.md).
 
 ## To set up order promising  
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Order Promising Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Order Promising Setup**, and then choose the related link.  
 2. Enter a number and time unit code in the **Offset(Time)** field. Select one of the following codes.  
 
     |Code|Description|  
@@ -86,51 +86,51 @@ In addition to the external order promising that you can perform in the **Order 
     |**y**|Year|  
 
     For example, "3w" indicates that the offset time is three weeks. To indicate the current period, prefix to any of these codes with the letter “c”. For example, if you want the offset time to be the current month, enter **cm**.  
-3. Enter a number series in the **Order Promising Nos.** field by selecting a line from the list in the **No. Series** window.  
-4. Enter an order promising template in the **Order Promising Template** field by selecting a line from the list in the **Req. Worksheet Template List** window.  
-5. Enter a requisition worksheet in the **Order Promising Worksheet** field by selecting a line from the list on the **Req. Wksh. Names** window.
+3. Enter a number series in the **Order Promising Nos.** field by selecting a line from the list on the **No. Series** page.  
+4. Enter an order promising template in the **Order Promising Template** field by selecting a line from the list on the **Req. Worksheet Template List** page.  
+5. Enter a requisition worksheet in the **Order Promising Worksheet** field by selecting a line from the list on the **Req. Wksh. Names** page.
 
-### To enter inbound warehouse handling time in the inventory setup window  
+### To enter inbound warehouse handling time in the inventory setup page  
 If you want to include warehouse handling time in the order promising calculation on the purchase line, you can set it up as a default for the inventory and for your location.    
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Inventory Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Setup**, and then choose the related link.  
 2. On the **General** FastTab, in the **Inbound Whse. Handling Time** field, enter the number of days that you want to include in the order promising calculation.  
 
 > [!NOTE]  
 >  If you have filled in the **Inbound Whse. Handling Time** field on the **Location Card** for your location this field is used as the default inbound warehouse handling time.  
 
 ### To enter inbound warehouse handling time on location cards  
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Location**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Location**, and then choose the related link.  
 2.  Open the relevant location card.  
 3.  On the **Warehouse** FastTab, in the **Inbound Whse. Handling Time** field, enter the number of days that you want to be included in the order promising calculation.  
 
 > [!NOTE]  
->  If you leave the **Inbound Whse. Handling Time** field blank, then the calculation uses the value in the **Inventory Setup**  window.
+>  If you leave the **Inbound Whse. Handling Time** field blank, then the calculation uses the value in the **Inventory Setup**  page.
 
-### To enter outbound warehouse handling time in the inventory setup window  
+### To enter outbound warehouse handling time in the inventory setup page  
 If you want to set up an outbound warehouse handling time to be included in the order promising calculation on the sales line, you can set this up as a default for the inventory.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Inventory Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Setup**, and then choose the related link.  
 2. On the **General** FastTab, in the **Outbound Whse. Handling Time** field, enter the number of days you want to include in the order promising calculation.  
 
 > [!NOTE]  
 >  If you have filled in the **Outbound Whse. Handling Time** field on the Location card for your location, this field is used as the default outbound warehouse handling time.  
 
 ### To enter outbound warehouse handling time on location cards  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
 2.  Open the relevant location card.  
 3.  On the **Warehouse** FastTab, in the **Outbound Whse. Handling Time** field, enter the number of days that you want to include in the order promising calculation.  
 
 > [!NOTE]  
->  If you leave the **Outbound Whse. Handling Time** field blank, then the calculation uses the value in the **Inventory Setup**  window.
+>  If you leave the **Outbound Whse. Handling Time** field blank, then the calculation uses the value in the **Inventory Setup**  page.
 
 ## To make an item critical  
 Before an item can be included in the order promising calculation, it must be marked as critical. This setup ensures that non-critical items do not cause irrelevant order promising calculations.   
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2.  Open the relevant item card.  
 3.  On the **Planning** FastTab, select the **Critical** field.  
 
 ## To calculate an order promising date  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Order**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Order**, and then choose the related link.  
 2.  Open the relevant sales order and select the sales order lines that you want the program to calculate.  
 3.  Choose the **Order Promising** action, and then choose the **Order Promising Lines** action.  
 4.  Select a line, and then select one of the following options:  

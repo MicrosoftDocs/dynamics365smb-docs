@@ -1,6 +1,6 @@
 ---
     title: Setup Best Practices - Reordering Policies | Microsoft Docs
-    description: The **Reordering Policy** field on item cards offers four different planning methods that determine how the individual planning parameters interact.
+    description: The Reordering Policy field on item cards offers four different planning methods that determine how the individual planning parameters interact.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 09/07/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---

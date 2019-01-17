@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 09/01/2017
+ms.date: 10/01/2018
 ms.author: edupont
 
 ---
@@ -17,14 +17,14 @@ ms.author: edupont
 Job queues in [!INCLUDE[d365fin](includes/d365fin_md.md)] enables users to schedule and run specific reports and codeunits. You can set jobs to run one time, or on a recurring basis. For example, you might want to run the **Salesperson - Sales Statistics** report weekly, to track sales by salesperson each week, or you might want to run the **Process Service E-mail Queue** codeunit daily, to make sure pending email messages to customers regarding their service orders are sent out in a timely manner.  
 
 ## Add Jobs to the Job Queue
-The **Job Queue Entries** window lists all existing jobs. If you add a new job queue entry that you want to schedule, you must specify information about the type of object you want to run, such as a report or codeunit, and the name and object ID of the object that you want to run. You can also add parameters to specify the behavior of the job queue entry. For example, you can add a parameter to only send posted sales orders. You must have permission to run the particular report or codeunit, or an error will be returned when the job queue is run.  
+The **Job Queue Entries** page lists all existing jobs. If you add a new job queue entry that you want to schedule, you must specify information about the type of object you want to run, such as a report or codeunit, and the name and object ID of the object that you want to run. You can also add parameters to specify the behavior of the job queue entry. For example, you can add a parameter to only send posted sales orders. You must have permission to run the particular report or codeunit, or an error will be returned when the job queue is run.  
 
 Optionally, you can set a filter in the **Job Queue Category Filter** field. Job queue categories can be used to group jobs in the list.
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically runs the jobs according to the specified schedules for each job queue entry. You can also start, stop, and put a job queue entry on hold manually.
 
 ### Log Files
-Errors are listed in the **Job Queue Log Entries** window that you can access from the ribbon. You can also troubleshoot job queue errors. Data that is generated when a job queue is run is stored in the database.  
+Errors are listed on the **Job Queue Log Entries** page that you can access from the ribbon. You can also troubleshoot job queue errors. Data that is generated when a job queue is run is stored in the database.  
 
 ### Background Posting with Job Queues
 Job queues are an effective tool to schedule the running of business processes in the background. For example, there may be an instance in which multiple users are trying to post sales orders at the same time, but only one order can be processed at a time. By setting up a background posting routine, you can place the postings in a queue for processing in the background.  
@@ -42,7 +42,7 @@ Job queues are an effective tool to schedule the running of business processes i
 > [!NOTE]  
 >  When you schedule a document for posting and the posting process begins, the posting routine is automatically configured to time out within two hours if the posting routine stops responding for any reason.  
 
-You set up this use of the job queue in the **Sales & Receivables Setup** window or the **Purchases & Payables** window, respectively. On the **Background Posting** FastTab, you choose the **Post Documents via Job Queue** check box and then fill in the relevant information. Here you can also use the **Job Queue Category Code** field to run all job queue entries with that code. For example, you can use  a **SalesPost** category that filters to all sales orders that match any job queue that has the same category code.  
+You set up this use of the job queue on the **Sales & Receivables Setup** page or the **Purchases & Payables** page, respectively. On the **Background Posting** FastTab, you choose the **Post Documents via Job Queue** check box and then fill in the relevant information. Here you can also use the **Job Queue Category Code** field to run all job queue entries with that code. For example, you can use  a **SalesPost** category that filters to all sales orders that match any job queue that has the same category code.  
 
 > [!IMPORTANT]  
 >  If you set up a job that will post and print documents, and the printer displays a dialog box, such as a request for credentials or a warning about low printer ink, your document is posted but not printed. The corresponding job queue entry eventually times out and the **Status** field is set to **Error**. Accordingly, we recommend that you do not use a printer setup that requires interaction with the display of printer dialog boxes in conjunction with background posting.  

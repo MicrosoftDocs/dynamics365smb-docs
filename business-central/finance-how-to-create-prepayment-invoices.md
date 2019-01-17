@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/07/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -23,7 +23,7 @@ After you create a sales or purchase order, you can create a prepayment invoice.
 The following procedure describes how to invoice a prepayment for a sales orders. The steps are similar for purchase orders.  
 
 ## To create a prepayment invoice  
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2. Create a new sales order. For more information, see [sell Products](sales-how-sell-products.md).  
 
     On the **Prepayment** FastTab, the **Prepayment %** field will be filled in automatically if there is a default prepayment percentage on the customer card. You can change the contents of the field. The prepayment percentage is only copied from the header to lines that do not copy the default prepayment percentage from the item.  
@@ -40,7 +40,7 @@ The following procedure describes how to invoice a prepayment for a sales orders
 4. If you want to apply one prepayment percentage to the entire order, change the **Prepayment %** field on the header after filling in the lines.  
 5. To view the total prepayment amount, choose the **Statistics** action.
 
-    If you want to adjust the total prepayment amount for the order, you can change the contents of the **Prepayment Amount** field in the **Sales Order Statistics** window.  
+    If you want to adjust the total prepayment amount for the order, you can change the contents of the **Prepayment Amount** field on the **Sales Order Statistics** page.  
 
     If the **Prices Including VAT** field is selected, the **Prepayment Amount Incl. VAT** field is editable.  
 

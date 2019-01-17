@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -20,7 +20,7 @@ Budgeting in cost accounting resembles budgeting in the general ledger. A cost b
 
 A cost budget is created for a certain period of time, for example, a fiscal year. You can create as many cost budgets as needed. You can create a new cost budget manually, or by importing a cost budget, or by copying an existing cost budget as the budget base. For more information, see [Create G/L Budgets](finance-how-create-budgets.md).
 
-You use the following windows to create and analyze cost budgets. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon to find a window, and then read the tooltip for each.
+You use the following pages to create and analyze cost budgets. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon to find a page, and then read the tooltip for each.
 
 |To|See|  
 |--------|---------|  

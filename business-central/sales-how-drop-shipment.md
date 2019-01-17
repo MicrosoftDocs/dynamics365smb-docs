@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct shipment
-ms.date: 08/22/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 
 ---
@@ -32,7 +32,7 @@ To prepare a drop shipment for the item to be sold, you create a purchase order 
 1. Create a purchase order. Do not fill any fields on the lines. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 2. In the **Sell-to Customer No.** field, select the customer that you are selling to.
 3. Choose the **Drop Shipments** action, and then choose the **Get Sales Order** action.
-4. In the **Sales List** window, select the sales order that you prepared in the "To create a sales order for drop shipment" section.
+4. On the **Sales List** page, select the sales order that you prepared in the "To create a sales order for drop shipment" section.
 5. Choose the **OK** button.
 
 The line information from the sales order is inserted on the purchase order line(s).
@@ -45,7 +45,7 @@ You can now instruct the vendor to ship the items to your customer, for example,
 ## To post a drop shipment
 After the vendor ships the items, you can post the sales order as shipped. You can also post the purchase order, but only with the **Receive** option until the sales order has been invoiced.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
 2. Open the sales order that you created in the "To create a sales order for drop shipment" section.
 3. In the **Qty. to Ship** field, specify how many of the order quantity to ship, the full or a partial order quantity.
 4. Choose the **Post** or **Post and Send** action.

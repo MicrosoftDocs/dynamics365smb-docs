@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -42,7 +42,7 @@ For more information, see [Delivery Reminders](delivery-reminders.md).
 
 ## To add delivery reminder levels to a delivery reminder term  
 
-1.  In the **Delivery Reminder Terms** window, select the delivery reminder term for which you want to set up levels, and then choose the **Levels** action.  
+1.  On the **Delivery Reminder Terms** page, select the delivery reminder term for which you want to set up levels, and then choose the **Levels** action.  
 2.  Choose the **New** action.  
 3.  Fill in the fields as described in the following table.  
 
@@ -59,7 +59,7 @@ The following procedure describes how to set up beginning text messages, but the
 
 ## To set up delivery reminder text messages  
 
-1.  In the **Delivery Reminder Levels** window, select a level, and then choose the **Beginning Text** action.  
+1.  On the **Delivery Reminder Levels** page, select a level, and then choose the **Beginning Text** action.  
 2.  Choose the **New** action.  
 3.  In the **Description** field, enter the beginning text message for the delivery reminder.  
 4.  Choose the **OK** button.  

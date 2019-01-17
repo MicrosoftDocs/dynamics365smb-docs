@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -23,7 +23,7 @@ The Belgian customs and tax authorities have established an 8-digit item code fo
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Tariff Numbers**, and then choose the related link.  
 2.  Choose the **New** action.  
-3.  In the **Tariff Numbers** window, fill in the fields as described in the following table.  
+3.  On the **Tariff Numbers** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -29,7 +29,7 @@ The **Suggest Lines** action recalculates the values to report. The **Correct Li
     > [!NOTE]  
     >  If you manually changed the amount for a customer or vendor, this amount will be overwritten when additional VAT entries are posted. Update the amount accordingly.  
 
-2.  If you want to change the amount of a report line that has already been submitted and no new VAT entries are posted, choose the  **Correct Lines** action. In the **VAT Report Lines** window, select the lines that you want to correct, and then choose the **OK** button.  
+2.  If you want to change the amount of a report line that has already been submitted and no new VAT entries are posted, choose the  **Correct Lines** action. On the **VAT Report Lines** page, select the lines that you want to correct, and then choose the **OK** button.  
 
     For each entry, two lines are displayed: Cancellation and Correction. You can now change the amount on the Correction line.  
 

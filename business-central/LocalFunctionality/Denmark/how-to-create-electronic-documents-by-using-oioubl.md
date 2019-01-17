@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 01/04/2018
+    ms.date: 10/01/2018
     ms.author: bholtorf
 
 ---
@@ -40,9 +40,9 @@ After you post a document, you can create an electronic invoice in an OIOUBL for
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Sales Invoices**, and then choose the related link.  
 2.  Open the relevant posted sales invoice.  
 3.  Choose the **Create Electronic <*document type*>** action.  
-4.  Optionally, in the **Create Electronic <*document type*>** window, set additional filters, and then choose the **OK** button.  
+4.  Optionally, in the **Create Electronic <*document type*>** page, set additional filters, and then choose the **OK** button.  
 
-An XML file is created and stored at the location that was defined in the **Sales & Receivables Setup** window. You can now submit the document to the customer.  
+An XML file is created and stored at the location that was defined on the **Sales & Receivables Setup** page. You can now submit the document to the customer.  
 
 ## See Also  
 [Denmark Local Functionality](denmark-local-functionality.md)  

@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -31,7 +31,7 @@ After posting the order, you can view the posted physical inventory orders. Post
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Phys. Inventory Order**, and then choose the related link.  
 2.  Select the physical inventory order that you want to complete, and then choose the **Edit** action.  
 
-    In the **Phys. Inventory Order** window, you can view the quantity recorded after taking physical inventory in the **Qty. Recorded (Base)** field.  
+    On the **Phys. Inventory Order** page, you can view the quantity recorded after taking physical inventory in the **Qty. Recorded (Base)** field.  
 
 3.  Choose the **Finish** action.  
 4.  Choose the **Yes** button. The value in the **Status** field is changed to **Finished**.  
@@ -44,12 +44,12 @@ After posting the order, you can view the posted physical inventory orders. Post
 ## To view posted physical inventory orders  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Phys. Invt. Order**, and then choose the related link.  
-2.  In the **Posted Phys. Invt. Order** window, select the posted inventory order that you want to view, and then choose the **View** action.  
+2.  On the **Posted Phys. Invt. Order** page, select the posted inventory order that you want to view, and then choose the **View** action.  
 3.  To view a list of related physical inventory recordings, choose the **Recordings** action.  
 
     You can also run a report that returns the difference between the expected quantity and the physical (recorded) quantity.  
 
-4.  Close the window.  
+4.  Close the page.  
 
 ## See Also  
  [Physical Inventory Documents](physical-inventory-documents.md)   

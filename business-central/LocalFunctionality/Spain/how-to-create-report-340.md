@@ -2,7 +2,7 @@
     title: How to Create Report 340
     description: Report 340 includes all sales invoices and purchase invoices posted by a company during a given period. The report also includes the operation codes with related taxes and payments in cash.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -24,7 +24,7 @@ This report is generated in a format approved by the tax authorities. You should
 ## To create Report 340  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Make 340 Declaration**, and then choose the related link.  
-2.  In the **Make 340 Declaration** window, on the **Options** FastTab, fill in the fields as described in the following table.  
+2.  On the **Make 340 Declaration** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -58,4 +58,4 @@ If you print the posted document, for example, a posted sales invoice, it will i
 ## See Also  
  [Report 340](report-340.md)   
  [Payments in Cash](payments-in-cash.md)   
- [Spanish Tax Agency](http://www.aeat.es/wps/portal/Home?channel=1af861cd949a1010VgnVCM100000d7005a80____&ver=L&site=56d8237c0bc1ff00VgnVCM100000d7005a80____&idioma=es_ES&menu=0&img=0)
+ [Spanish Tax Agency](https://www.agenciatributaria.es/AEAT.internet/en_gb/Inicio.shtml)

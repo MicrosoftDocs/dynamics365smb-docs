@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 07/03/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 
 ---
@@ -30,7 +30,7 @@ Concerning discounts, you can set up and use two types of purchase discounts:
 Because purchase line discounts and purchase prices are based on a combination of item and vendor, you can also enter this configuration from the item card, where the rules and values are defined. For more information, see [Register New Items](inventory-how-register-new-items.md).
 
 ## To set up a special purchase price for a vendor
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
 2. Open the relevant vendor card, and then choose the **Prices** action.
 
     The **Purchase Type** field is prefilled with **Vendor**, and the **Purchase Code** field is prefilled with the vendor number.
@@ -38,7 +38,7 @@ Because purchase line discounts and purchase prices are based on a combination o
 4. Fill a line for each combination for which the vendor grants you a purchase line discount.
 
 ## To set up a line discount for a vendor
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
 2. Open the relevant vendor card, and then choose the **Line Discounts** action.
 
     The **Purchase Type** field is prefilled with **Vendor**, and the **Purchase Code** field is prefilled with the vendor number.
@@ -48,7 +48,7 @@ Because purchase line discounts and purchase prices are based on a combination o
 ## To set up an invoice discount for a vendor
 When your vendors have informed you which invoice discounts they grant, enter the invoice discount code on the vendor cards and set up the terms for each code.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
 2. Open the vendor card for a vendor that will be eligible for invoice discounts.
 3. In the **Invoice Disc. Code** field, select a code for the relevant invoice discount terms to use to calculate invoice discounts for the vendor.
 
@@ -56,7 +56,7 @@ When your vendors have informed you which invoice discounts they grant, enter th
     >   Invoice discount codes are represented by existing vendor cards. This enables you to quickly assign invoice discount terms to vendors by picking the name of another vendors who will have the same terms.
 
     Proceed to set up new the purchase invoice discount terms.
-4. In the **Vendor Card** window, choose the **Invoice Discounts** action. The **Vend. Invoice Discounts** window opens.
+4. On the **Vendor Card** page, choose the **Invoice Discounts** action. The **Vend. Invoice Discounts** page opens.
 5. In the **Currency Code** field, enter the code for a currency that the invoice discount terms on the line applies to. Leave the field blank to set up invoice discount terms in USD.
 6. In the **Minimum Amount** field, enter the minimum amount that an invoice must have to be eligible for the discount.
 7. In the **Discount %** field, enter the invoice discount as a percentage of the invoice amount.
@@ -69,7 +69,7 @@ When you post a purchase invoice that includes one or more discounts, you can ch
 
 Before you can do this, you must have already set up the necessary accounts for posting discount amounts in the chart of accounts. You must also check that you have entered the correct account numbers in the general posting setup in the **Purch. Line Disc. Account** and **Purch. Inv. Disc. Account** fields.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchases & Payables Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchases & Payables Setup**, and then choose the related link.
 2. In the **Discount Posting** field, choose one of the following principles for posting discounts.
 
 |**Discount Posting Principle**|**Invoice Discount**|**Line Discount**|  
@@ -84,7 +84,7 @@ If you have fixed terms for invoice discounts with any vendors, you can enter th
 
  Before you can use invoice discounts with purchases, you must specify the vendors that offer you the discounts.  
 
- You link discount percentages to specific invoice amounts in **Vend. Invoice Discounts** windows. You can enter any number of percentages in each window. Each vendor can have its own window, or you can link several vendors to the same window.  
+ You link discount percentages to specific invoice amounts in **Vend. Invoice Discounts** pages. You can enter any number of percentages in each page. Each vendor can have its own page, or you can link several vendors to the same page.  
 
  In addition to a discount percentage, you can link a service charge amount to a specific invoice amount.  
 
@@ -93,7 +93,7 @@ If you have fixed terms for invoice discounts with any vendors, you can enter th
  You can choose to have [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically calculate the invoice discounts for quotes, blanket orders, orders, invoices, or credit memos.  
 
 > [!TIP]  
->  Before you enter this information, it is a good idea to prepare an outline of the discount structure that you want to use. This makes it easier to see which vendors can be linked to the same invoice discount window. The fewer windows that you have to set up, the faster that you can enter the basic information.
+>  Before you enter this information, it is a good idea to prepare an outline of the discount structure that you want to use. This makes it easier to see which vendors can be linked to the same invoice discount page. The fewer pages that you have to set up, the faster that you can enter the basic information.
 
 ## Best Price Calculation
 When you have recorded special prices and line discounts for sales and purchases, [!INCLUDE[d365fin](includes/d365fin_md.md)] ensures that your profit on item trade is always optimal by automatically calculating the best price on sales and purchase documents and on job and item journal lines.

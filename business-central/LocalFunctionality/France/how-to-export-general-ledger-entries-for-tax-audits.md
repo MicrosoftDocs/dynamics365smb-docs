@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -37,7 +37,7 @@ If you do not close your fiscal year or do not run the **Close Year** action bef
 ## To export general ledger entries to a text file for a tax audit  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Export G/L Entries – Tax Audit**, and then choose the relevant link.  
-2.  In the **Export G/L Entries – Tax Audit** window, on the **Options** FastTab, fill in the fields as described in the following table.  
+2.  On the **Export G/L Entries – Tax Audit** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

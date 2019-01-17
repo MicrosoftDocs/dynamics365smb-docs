@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/057/2018
+ms.date: 10/01/2018
 ms.author: solsen
 
 ---
 # Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]
 When performing business tasks, you interact with data in different ways, such as creating records and entering data, sorting and filtering data, writing notes, and outputting data to other applications.
 
-For example, you can adjust the size and position of any window, expand the width of columns and increase the height of column headers, and change the sorting of data in columns. And if you want to use the horizontal scroll bar to view all columns on a list page or on document lines, you will see that there is a vertical freeze pane to restrict some columns from scrolling.
+For example, you can adjust the size and position of any page, expand the width of columns and increase the height of column headers, and change the sorting of data in columns. And if you want to use the horizontal scroll bar to view all columns on a list page or on document lines, you will see that there is a vertical freeze pane to restrict some columns from scrolling.
 
 The following table lists some of the general functionality with links to topics that describe them.
 
@@ -24,7 +24,7 @@ The following table lists some of the general functionality with links to topics
 | --- | --- |
 | Change basic settings such as company, work date, and Role Center. |[Changing Basic Settings](ui-change-basic-settings.md) |
 | Find a specific page or report. |[Using Search for Page or Report](ui-search.md) |
-| Filter data in views, reports, or functions by using special symbols and characters. |[Entering Criteria in Filters](ui-enter-criteria-filters.md) |
+| Filter data in views, reports, or functions by using special symbols and characters. |[Searching, Filtering, and Sorting Data](ui-enter-criteria-filters.md) |
 | Learn about how to sort data. |[Sorting Data](ui-sorting.md) |
 | View or process data in specific date ranges. |[Entering Date Ranges](ui-enter-date-ranges.md) |
 | See which fields must be filled in. |[Detecting Mandatory Fields](ui-mandatory-fields.md) |
@@ -39,10 +39,14 @@ The following table lists some of the general functionality with links to topics
 |Learn about features and capabilities that make [!INCLUDE[d365fin](includes/d365fin_md.md)] readily available to people with disabilities.|[Accessibility and Keyboard Shortcuts](ui-accessibility.md)|
 |Watch videos on selected functionality to help you get started.|[Videos on Common Tasks](across-videos.md)|  
 
+## Getting Around in Business Central
+Here's a short video about how to get around in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+> [!VIDEO https://www.youtube.com/embed/zqz03iMihx0]
+
 ## See Also
 [Getting Started](product-get-started.md)  
 [Setting Up Business Central](setup.md)  
 [General Business Functionality](ui-across-business-areas.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 

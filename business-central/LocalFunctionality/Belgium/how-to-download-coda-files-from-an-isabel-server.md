@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -28,7 +28,7 @@ To manually download CODA files, log  on to the Isabel server and select the fil
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **IBS Logs**, and then choose the related link.  
 2.  Choose the **Download** action.  
-3.  In the **IBS Download Request Options** window, fill in the fields as described in the following table.  
+3.  On the **IBS Download Request Options** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -40,9 +40,9 @@ To manually download CODA files, log  on to the Isabel server and select the fil
 4.  Choose the **OK** button.  
 
     > [!NOTE]  
-    >  You cannot delete any files from the Isabel server by using the **IBS Download Request Options** window. You must manually delete the files by logging on to the Isabel server.  
+    >  You cannot delete any files from the Isabel server by using the **IBS Download Request Options** page. You must manually delete the files by logging on to the Isabel server.  
 
-     After the CODA files have been downloaded, the **Process Status** field will display **Created** in the **IBS Logs** window. You can log on to the Isabel server to manually retrieve the files. For more information, see [Import CODA Statements](how-to-import-coda-statements.md).  
+     After the CODA files have been downloaded, the **Process Status** field will display **Created** on the **IBS Logs** page. You can log on to the Isabel server to manually retrieve the files. For more information, see [Import CODA Statements](how-to-import-coda-statements.md).  
 
 ## See Also  
 [Belgium Local Functionality](belgium-local-functionality.md)

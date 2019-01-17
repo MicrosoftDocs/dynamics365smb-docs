@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -25,7 +25,7 @@ Before you post a payment slip, you must create the payment slip. For more infor
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Slips**, and then choose the relevant link.  
 2.  Select a payment slip, and then choose the **Edit** action.  
-3.  In the **Payment Slip** window, choose the **Post** action.  
+3.  On the **Payment Slip** page, choose the **Post** action.  
 4.  Choose the **OK** button.  
 
 The payment slip is posted.  

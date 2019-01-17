@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 11/23/2017
+ms.date: 12/21/2018
 ms.author: sgroespe
 
 ---
@@ -89,9 +89,9 @@ To make a fixed application, you use the **Appl.-to Item Entry** field or the **
 ### Example – Fixed Application in Purchase Return  
 The following example, which illustrates the effect of fixed application of a purchase return of an item using the FIFO costing method, is based on the following scenario:  
 
-1. In entry number 1, the user posts a purchase at a cost of LCY 10.00.  
-2. In entry number 2, the user posts a purchase at a cost of LCY 20.00.  
-3. In entry number 3, the user posts a purchase return. The user makes a fixed application to the second purchase by entering the item ledger entry number in the **Appl.-to Item Entry** field on the purchase return order line.  
+1. In entry 1, the user posts a purchase at a cost of LCY 10.00.  
+2. In entry 2, the user posts a purchase at a cost of LCY 20.00.  
+3. In entry 3, the user posts a purchase return. The user makes a fixed application to the second purchase by entering the item ledger entry number in the **Appl.-to Item Entry** field on the purchase return order line.  
 
 The following table shows item ledger entries resulting from the scenario.  
 
@@ -107,7 +107,7 @@ The following table shows the item application entry that results from the fixed
 
 |Posting Date|Inbound Item Entry No.|Outbound Item Entry No.|Quantity|Item Ledger Entry No.|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|01-06-20|1|3|10|3|  
+|01-06-20|2|3|10|3|  
 
 The cost of the second purchase, LCY 20.00, is passed correctly to the purchase return.  
 
@@ -185,7 +185,7 @@ The following table shows the effect of the exact cost reversal on the item’s 
 When you run the **Adjust Cost - Item Entries** batch job, the increased cost of the purchase entry, due to the item charge, is forwarded to the sales entry (entry number 2). The sales entry then forwards this increased cost to the sales credit entry (entry number 3). The final result is that the cost is correctly reversed.  
 
 > [!NOTE]  
->  If you are working with returns or credit memos and you have set up the **Exact Cost Reversing Mandatory** field in either the **Purchases & Payables Setup** window or the **Sales & Receivables Setup** window, as appropriate for your situation, then [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically fills the various application entry fields when you use the **Copy Document** function. If you use the **Get Posted Document Lines to Reverse** function, then the fields are always filled automatically.  
+>  If you are working with returns or credit memos and you have set up the **Exact Cost Reversing Mandatory** field in either the **Purchases & Payables Setup** page or the **Sales & Receivables Setup** page, as appropriate for your situation, then [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically fills the various application entry fields when you use the **Copy Document** function. If you use the **Get Posted Document Lines to Reverse** function, then the fields are always filled automatically.  
 
 > [!NOTE]  
 >  If you post a transaction with a fixed application, and the item ledger entry that you are applying to is closed, meaning that the remaining quantity is zero, then the old application is automatically undone and reapplies the item ledger entry using the fixed application that you specified.  
@@ -233,7 +233,7 @@ Because of the way an item’s unit cost is calculated, an incorrect item applic
 * You want to overrule the application created automatically when posting, according to the item’s costing method.  
 * You have to return an item to which a sale has already been manually applied, without using the **Get Posted Document Lines to Reverse** function, and you must therefore undo the application.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] offers a feature for analyzing and correcting item applications. This work is performed in the **Application Worksheet** window.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] offers a feature for analyzing and correcting item applications. This work is performed on the **Application Worksheet** page.  
 
 ## See Also  
 [Design Details: Known Item Application Issue](design-details-inventory-zero-level-open-item-ledger-entries.md)  

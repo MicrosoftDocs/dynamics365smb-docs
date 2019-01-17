@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade
-ms.date: 06/29/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 
 ---
@@ -38,20 +38,20 @@ The item card can be of type **Inventory**, **Service**, and **Non-Inventory** t
 You can fill customer fields on the sales order in two ways depending on whether the customer is already registered. See steps 2 and 3 in the following procedure.
 
 ## To create a sales order
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
 2. In the **Customer** field, enter the name of an existing customer.
 
-    Other fields in the **Sales Order** window are now filled with the standard information of the selected customer. If the customer is not registered, then follow these steps:
+    Other fields on the **Sales Order** page are now filled with the standard information of the selected customer. If the customer is not registered, then follow these steps:
 3. In the **Customer** field, enter the name of the new customer.
 4. In the dialog box about registering the new customer, choose the **Yes** button.
-5. In the **Select a template for a new customer** window, choose a template to base the new customer card on, and then choose the **OK** button.
+5. On the **Select a template for a new customer** page, choose a template to base the new customer card on, and then choose the **OK** button.
 
     A new customer card opens, prefilled with the information on the selected customer template. The **Name** field is prefilled with the new customer’s name that you entered on the sales order.
 6. Proceed to fill in the remaining fields on the customer card. For more information, see [Register New Customers](sales-how-register-new-customers.md).  
-7. When you have completed the customer card, choose the **OK** button to return to the **Sales Order** window.
+7. When you have completed the customer card, choose the **OK** button to return to the **Sales Order** page.
 
     Several fields on the sales order are now filled with information that you specified on the new customer card.
-8. Fill in the remaining fields in the **Sales Order** window as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+8. Fill in the remaining fields on the **Sales Order** page as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
     > If you allow the customer to pay immediately, for example, by credit card or PayPal, then fill in the **Payment Method Code** field. The payment is then recorded as soon as you post the sales order as invoiced. If you select CASH, then the payment is recorded in a specified balancing account.
@@ -76,10 +76,10 @@ You can fill customer fields on the sales order in two ways depending on whether
 
     The totals under the lines are automatically calculated as you create or modify lines.
 14. A new customer card displays the information on the selected customer template. Fill in the remaining fields. For more information, see [Register New Customers](sales-how-register-new-customers.md).  
-15. When you have completed the customer card, choose the **OK** button to return to the **Sales Order** window.
+15. When you have completed the customer card, choose the **OK** button to return to the **Sales Order** page.
 
     Several fields on the sales order are now filled with information that you specified on the new customer card.
-16. Fill in the remaining fields in the **Sales Order** window as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+16. Fill in the remaining fields on the **Sales Order** page as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     You are now ready to fill in the sales order lines for products that you are selling to the customer or for any transaction with the customer that you want to record in a G/L account.   
 
@@ -91,7 +91,7 @@ You can fill customer fields on the sales order in two ways depending on whether
     You leave the **No.** field empty in the following cases:
 
     * If the line is for a comment. Write the comment in the **Description** field.
-    * If the line is for a catalog item. Choose the **Select Catalog Items** action. For more information, see [Work With Catalog Items](inventory-how-work-catalog-items.md).
+    * If the line is for a catalog item. Choose the **Select Catalog Items** action. For more information, see [Work With Catalog Items](inventory-how-work-nonstock-items.md).
 
 19. In the **Quantity** field, enter how many units of the product, charge, or transaction that the line will record for the customer.  
 

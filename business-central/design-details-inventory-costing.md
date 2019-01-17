@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: design, inventory, costing
-    ms.date: 11/23/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -34,5 +34,6 @@ Inventory costing, also referred to as cost management, is concerned with record
 [Design Details: Production Order Posting](design-details-production-order-posting.md)  
 [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)  
 [Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md)  
-[Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md)  
+[Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md)
+[Design Details: Inventory Valuation](design-details-inventory-valuation.md)  
 [Design Details: Revaluation](design-details-revaluation.md)

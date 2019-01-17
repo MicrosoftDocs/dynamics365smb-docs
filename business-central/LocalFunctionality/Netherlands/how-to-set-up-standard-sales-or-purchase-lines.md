@@ -12,14 +12,14 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
 # Set Up Standard Sales or Purchase Lines
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can specify how the standard sales or purchase codes will be entered when you are creating the specified sales or purchase documents.  
 
-The following procedure describes how to set up a standard sales line, but the same steps apply to setting up standard purchase lines in the **Purchases & Payables Setup** window.  
+The following procedure describes how to set up a standard sales line, but the same steps apply to setting up standard purchase lines on the **Purchases & Payables Setup** page.  
 
 ## To set up a standard sales line  
 
@@ -28,7 +28,7 @@ The following procedure describes how to set up a standard sales line, but the s
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Insert Std. Cust. Sales Lines**|Specify the method by which to insert the standard customer sales lines.<br /><br /> -   **Manual** - You must insert the standard sales lines that you set up for that customer. If you select this option, then you will not be able to select the **Quotes**, **Orders**, **Invoices**, or **Credit Memos** fields in the **Sales & Receivables Setup** window.<br />-   **Automatic** - Automatically insert standard sales lines on sales documents that you create for a customer.<br />-   **Always Ask** - Display a window with all the existing standard sales codes that you set up for the customer.|  
+    |**Insert Std. Cust. Sales Lines**|Specify the method by which to insert the standard customer sales lines.<br /><br /> -   **Manual** - You must insert the standard sales lines that you set up for that customer. If you select this option, then you will not be able to select the **Quotes**, **Orders**, **Invoices**, or **Credit Memos** fields on the **Sales & Receivables Setup** page.<br />-   **Automatic** - Automatically insert standard sales lines on sales documents that you create for a customer.<br />-   **Always Ask** - Display a page with all the existing standard sales codes that you set up for the customer.|  
     |**Quotes**|Select to insert standard sales lines on sales quotes.|  
     |**Orders**|Select to insert standard sales lines on sales orders.|  
     |**Invoices**|Select to insert standard sales lines on sales invoices.|  

@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -36,7 +36,7 @@ Before you can use electronic banking, you must set up the following information
 ## To set up electronic banking  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Electronic Banking Setup**, and then choose the related link.  
-2.  In the **Electronic Banking Setup** window, on the **General** FastTab, fill in the fields as described in the following table.   
+2.  On the **Electronic Banking Setup** page, on the **General** FastTab, fill in the fields as described in the following table.   
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -72,7 +72,7 @@ Before you can use electronic banking, you must set up the following information
 6.  Choose the **OK** button.  
 
 ## See Also  
- [Isabel website](http://go.microsoft.com/fwlink/?LinkId=210323)   
+ [Isabel website](https://go.microsoft.com/fwlink/?LinkId=210323)   
  [Belgian Electronic Banking](belgian-electronic-banking.md)   
  [Belgian Electronic Payments](belgian-electronic-payments.md)   
  [Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md)   

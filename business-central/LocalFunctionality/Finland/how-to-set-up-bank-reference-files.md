@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -51,7 +51,7 @@ To process electronic payments, you must first set up bank reference files to de
     |**File Name**|Enter the full path of the SEPA payment file. **Note:**  This field is only used for the SEPA pain.001.001.02 standard.|  
 
     > [!IMPORTANT]  
-    >  To export vendor payments using the SEPA standard, you must fill the **Payment Export Format** field in the **Bank Account Card** window.  
+    >  To export vendor payments using the SEPA standard, you must fill the **Payment Export Format** field on the **Bank Account Card** page.  
 
 5.  Choose the **OK** button.  
 

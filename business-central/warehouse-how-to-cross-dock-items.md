@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/23/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -39,22 +39,22 @@ The program does not keep separate records about items that have been cross-dock
 
     If you are using zones, create a zone for your cross-dock bins, and select the **Cross-Dock Bin Zone** field. For more information, see [Set Up Locations to Use Bins](warehouse-how-to-set-up-locations-to-use-bins.md).  
 
-2.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Location**, and then choose the related link.  
-3.  In the **Location** window, select the location that you want to set up the warehouse for cross-docking, and then choose the **Edit** action.  
+2.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Location**, and then choose the related link.  
+3.  On the **Location** page, select the location that you want to set up the warehouse for cross-docking, and then choose the **Edit** action.  
 4.  On the **Warehouse** FastTab, select the **Use Cross-Docking** check box and fill in the **Cross-Dock Due Date Calc.** field with the time to search for cross-dock opportunities.
 
     The **Use Cross-Docking** option is only available if the **Require Receive**, **Require Shipment**, **Require Pick**, and **Require Put-away** fields are selected.  
 
 5.  If you are using bins, on the **Bins** FastTab, fill in the **Cross-Dock Bin Code** field with the code of the bin you would like to use as the default cross-dock bin.  
-6.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Stockkeeping Unit**, and select the related link.  
+6.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Stockkeeping Unit**, and select the related link.  
 7.  For each item or stockkeeping unit that you want to be able to cross-dock, select the item, and then choose the **Edit** action.
-8. In the **Stockkeeping Unit Card** window, select the **Use Cross-Docking** check box.  
+8. On the **Stockkeeping Unit Card** page, select the **Use Cross-Docking** check box.  
 
 > [!NOTE]  
 >  Cross-docking is only possible if your location is set up to require warehouse receive and put-away processing.  
 
 ## To cross-dock items without viewing the opportunities  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Warehouse Receipts**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Receipts**, and then choose the related link.  
 2.  Create a warehouse receipts for an item that has arrived and can perhaps be cross-docked. For more information, see [Receive Items](warehouse-how-receive-items.md).  
 3.  Fill in the **Qty. to Receive** field, and then choose the **Calculate Cross-Dock** action.  
 
@@ -71,16 +71,16 @@ The program does not keep separate records about items that have been cross-dock
 7.  To register the cross-docked items as being put-away and available for picking, choose the **Register** action.  
 
 ## To cross-dock items after viewing the opportunities  
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Warehouse Receipts**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Receipts**, and then choose the related link.  
 2.  Create a warehouse receipts for an item that has arrived and can perhaps be cross-docked. For more information, see [Receive Items](warehouse-how-receive-items.md).  
 
     You want to view the source document lines that are requesting the item before you post the receipt.  
 3.  Choose the **Calculate Cross-Dock** action.  
 
-    In the **Cross-Dock Opportunities** window you can see the most important details about the lines requesting the item, such as type of document, quantity requested, and due date. This information might help you to decide how much to cross-dock, where to place the items in the cross-dock area, or how to group them.  
+    On the **Cross-Dock Opportunities** page you can see the most important details about the lines requesting the item, such as type of document, quantity requested, and due date. This information might help you to decide how much to cross-dock, where to place the items in the cross-dock area, or how to group them.  
 
 4.  Choose **Autofill Qty. to Cross-Dock** action to see how the quantities on the receipt lines are calculated. When you change the number of items in the **Qty. to Cross-Dock** field on each line, the calculation is updated as you make changes. This does not mean that the particular shipment or production order will actually receive the items being suggested for cross-docking, because these manipulations are for testing purposes only. The process can be informative, however, if more than one unit of measure is involved.  
-5.  If you want to reserve a quantity of the item for a particular order line, place your cursor on that line, and then choose the **Reserve** action. In the **Reservation** window, you can now reserve any available quantity of the item for this specific order. This reservation is like any other reservation and does not have higher priority because it was created in connection with cross-docking. For more information, see [Reserve Items](inventory-how-to-reserve-items.md).   
+5.  If you want to reserve a quantity of the item for a particular order line, place your cursor on that line, and then choose the **Reserve** action. On the **Reservation** page, you can now reserve any available quantity of the item for this specific order. This reservation is like any other reservation and does not have higher priority because it was created in connection with cross-docking. For more information, see [Reserve Items](inventory-how-to-reserve-items.md).   
 6.  When you are finished recalculating or reserving, choose the **OK** button to bring the calculation as you have revised it into the **Qty. to Cross-Dock** field on the receipt line, or choose the **Cancel** button if you want to return to the warehouse receipt, where you can calculate the cross-dock again if you wish.  
 7.  Now post the receipt, and you can continue in the put-away instruction as described in steps 3 through 7 in the “To cross-dock items without viewing the opportunities” section.  
 

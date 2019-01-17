@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 07/23/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ---
 
@@ -35,7 +35,7 @@ Even though inventory costs are automatically posted to the general ledger, it i
 |Structure parent items that you sell as kits consisting of the parent's components or that you assemble to order or to stock.|[Work with Bills of Material](inventory-how-work-BOMs.md)|
 |Maintain an overview of items and help you find and sort items by organizing them in categories.|[Categorize Items](inventory-how-categorize-items.md)|
 |Assign item attributes of different value types to your items to help you sort and find items.|[Work with Item Attributes](inventory-how-work-item-attributes.md)|
-|Create special item cards for items that you offer to customers but do not maintain inventory for.|[Work with Catalog Items](inventory-how-work-catalog-items.md)|
+|Create special item cards for items that you offer to customers but do not maintain inventory for.|[Work with Catalog Items](inventory-how-work-nonstock-items.md)|
 |Perform physical counting, make negative or positive adjustments, and change information, such as location or lot number, on item ledger entries.|[Count, Adjust, and Reclassify Inventory Inventory](inventory-how-count-adjust-reclassify.md)|
 |View the availability of items per location, by period, by sales or purchase event, or by their use on assembly or production BOMs.|[View the Availability of Items](inventory-how-availability-overview.md)|
 |Transfer inventory items between locations with transfer orders, to manage warehouse activities, or with the item reclassification journal.|[Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)|

@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -40,15 +40,15 @@ The main difference between specific and nonspecific reservation is defined by t
 |**Specific**|Serial or lot number.|Serial or lot number.|  
 |**Nonspecific**|Serial or lot number.|No serial or lot number.|  
   
-When you reserve inventory quantities from an outbound document line for an item that has item tracking numbers assigned and is set up for specific item tracking, the **Reservation** window leads you through different workflows depending on your need for the serial or lot numbers.  
+When you reserve inventory quantities from an outbound document line for an item that has item tracking numbers assigned and is set up for specific item tracking, the **Reservation** page leads you through different workflows depending on your need for the serial or lot numbers.  
   
 ## Specific Reservation  
-When you choose **Reserve** from the outbound document line, a dialog box appears that asks you if you want to reserve specific serial or lot numbers. If you choose **Yes**, then a list is displayed with all the serial or lot numbers that are assigned to the document line. The **Reservation** window opens after you select one of the serial or lot numbers, and you can then reserve among the selected serial or lot numbers in a typical fashion.  
+When you choose **Reserve** from the outbound document line, a dialog box appears that asks you if you want to reserve specific serial or lot numbers. If you choose **Yes**, then a list is displayed with all the serial or lot numbers that are assigned to the document line. The **Reservation** page opens after you select one of the serial or lot numbers, and you can then reserve among the selected serial or lot numbers in a typical fashion.  
   
-If some of the specific item tracking numbers that you are trying to reserve are held in nonspecific reservations, then a message at the bottom of the **Reservation** window informs you how many of the total reserved quantity are held in nonspecific reservations and whether they are still available.  
+If some of the specific item tracking numbers that you are trying to reserve are held in nonspecific reservations, then a message at the bottom of the **Reservation** page informs you how many of the total reserved quantity are held in nonspecific reservations and whether they are still available.  
   
 ## Nonspecific Reservation  
-If you choose **No** in the dialog box that appears, the **Reservation** window opens and allows you to reserve among all serial or lot numbers in inventory.  
+If you choose **No** in the dialog box that appears, the **Reservation** page opens and allows you to reserve among all serial or lot numbers in inventory.  
   
 Because of the structure of the reservation system, when you place a nonspecific reservation on an item-tracked item, the system must select specific item ledger entries to reserve against. Because the item ledger entries carry the item tracking numbers, the reservation indirectly reserves specific serial or lot numbers, even though you did not intend to. To handle this situation, the reservation system tries to reshuffle nonspecific reservation entries before posting.  
   
@@ -77,7 +77,7 @@ For example, the need arises when an order processor has first made a nonspecifi
 ### Reserve Specific Serial or Lot Numbers  
 In this business scenario, Late Binding functionality ensures that a user who is trying to reserve a particular serial or lot number that is currently nonspecifically reserved can do so. A nonspecific reservation is reshuffled at the time of reservation to free the serial or lot number for the specific request.  
   
-The reshuffle happens automatically, but embedded Help is displayed at the bottom of the **Reservation** window and shows the following text:  
+The reshuffle happens automatically, but embedded Help is displayed at the bottom of the **Reservation** page and shows the following text:  
   
 **XX of the Total Reserved Quantity are nonspecific and may be available.**  
   

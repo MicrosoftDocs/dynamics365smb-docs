@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: design, reconciliation, general ledger, inventory
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -31,7 +31,7 @@ The posting dates of the general ledger entries are set to the posting date of t
 When you run the **Post Inventory Cost to G/L** batch job, you might receive errors because of missing setup or incompatible dimension setup. If the batch job encounters errors in the dimension setup, it overrides these errors and uses the dimensions of the value entry. For other errors, the batch job does not post the value entries and lists them at the end of the report in a section titled, **Skipped Entries**. To post these entries, you must first fix the errors. To see a list of errors before you run the batch job, you can run the **Post Invt. Cost to G/L - Test** report. This report lists all of the errors that are encountered during a test posting. You can fix the errors, and then run the inventory cost posting batch job without skipping any entries.  
 
 ## Automatic Cost Posting  
-To set up cost posting to the general ledger to run automatically when you post an inventory transaction, select the **Automatic Cost Posting** check box in the **Inventory Setup** window. The posting date of the general ledger entry is the same as the posting date of the item ledger entry.  
+To set up cost posting to the general ledger to run automatically when you post an inventory transaction, select the **Automatic Cost Posting** check box on the **Inventory Setup** page. The posting date of the general ledger entry is the same as the posting date of the item ledger entry.  
 
 ## Account Types  
 During reconciliation, inventory values are posted to the inventory account in the balance sheet. The same amount, but with the reverse sign, is posted to the relevant balancing account. Usually the balancing account is an income statement account. However, when you post direct cost related to consumption or output, the balancing account is a balance sheet account. The type of the item ledger entry and value entry determines which general ledger account to post to.  
@@ -41,7 +41,7 @@ The entry type indicates which general ledger account to post to. This is determ
 ### Example  
 The following example shows a bike chain that is manufactured from purchased links. This example shows how the various general ledger account types are used in a typical scenario.  
 
-The **Expected Cost Posting to G/L** check box in the **Inventory Setup** window is selected, and the following setup is defined.  
+The **Expected Cost Posting to G/L** check box on the **Inventory Setup** page is selected, and the following setup is defined.  
 
 The following table shows how the link is set up on the item card.  
 
@@ -80,16 +80,16 @@ The following table shows how the work center is set up on the work center card.
     1. The interim accounts are cleared. (Sale)  
     2. Cost of goods sold (COGS) is posted. (Sale)  
 
-        ![Results of sale posting to G&#47;L accounts](media/design_details_inventory_costing_3_gl_posting_sales.png "design_details_inventory_costing_3_GL_posting_sales")  
+        ![Results of sales posting to GL accounts](media/design_details_inventory_costing_3_gl_posting_sales.png "Results of sales posting to GL accounts")  
 5. The user posts consumption of 150 links, which is the number of links used to produce one chain. (Consumption, Material)  
 
-    ![Results of material posting to G&#47;L accounts](media/design_details_inventory_costing_3_gl_posting_material.png "design_details_inventory_costing_3_GL_posting_material")  
+    ![Results of material posting to GL accounts](media/design_details_inventory_costing_3_gl_posting_material.png "Results of material posting to GL accounts")  
 6. The work center used 60 minutes to produce the chain. The user posts the conversion cost. (Consumption, Capacity)  
 
     1. The direct costs are posted. (Consumption, Capacity)  
     2. The indirect costs are calculated and posted. (Consumption, Capacity)  
 
-        ![Results of capacity posting to G&#47;L accounts](media/design_details_inventory_costing_3_gl_posting_capacity.png "design_details_inventory_costing_3_GL_posting_capacity")  
+        ![Results of capacity posting to GL accounts](media/design_details_inventory_costing_3_gl_posting_capacity.png "Results of capacity posting to GL accounts")  
 7. The user posts the expected cost of one chain. (Output)  
 8. The user finishes the production order and runs the **Adjust Cost - Item Entries** batch job. (Output)  
 
@@ -98,7 +98,7 @@ The following table shows how the work center is set up on the work center card.
     3. The indirect cost (overhead) is transferred from the indirect cost account to the inventory account. (Output)  
     4. This results in a variance amount of LCY 157.00. Variances are only calculated for standard-cost items. (Output)  
 
-        ![Results of output posting to G&#47;L accounts](media/design_details_inventory_costing_3_gl_posting_output.png "design_details_inventory_costing_3_GL_posting_output")  
+        ![Results of output posting to GL accounts](media/design_details_inventory_costing_3_gl_posting_output.png "Results of output posting to GL accounts")  
 
         > [!NOTE]  
         >  For the sake of simplicity, only one variance account is shown. In reality, five different accounts exist:  
@@ -111,7 +111,7 @@ The following table shows how the work center is set up on the work center card.
 
 9. The user revalues the chain from LCY 150.00 to LCY 140.00. (Adjustment/Revaluation/Rounding/Transfer)  
 
-    ![Results of adjustment posting to G&#47;L accounts](media/design_details_inventory_costing_3_gl_posting_adjustment.png "design_details_inventory_costing_3_GL_posting_adjustment")  
+    ![Results of adjustment posting to GL accounts](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Results of adjustment posting to GL accounts")  
 
 For more information about the relationship between the account types and the different types of value entries, see [Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md).  
 

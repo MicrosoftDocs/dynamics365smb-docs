@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 02/27/2018
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -22,9 +22,9 @@ If a payment term must be paid in one installment, you must still specify how th
 
 ## To set up payment terms  
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Terms**, and then choose the related link.    
-2.  Fill in the fields in the **Payment Terms** window. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]  
+2.  Fill in the fields on the **Payment Terms** page. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]  
 3.  Choose the **Calculation** action.  
-4.  In the **Payment Terms Lines** window, fill in the fields as described in the following table.  
+4.  On the **Payment Terms Lines** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -35,8 +35,8 @@ If a payment term must be paid in one installment, you must still specify how th
 
 5.  Choose the **OK** button.  
 
-The **Payment Nos.** field in the **Payment Terms** window is updated. The payment terms that you set here will be a reference for automatic due date calculation for documents that you post for relevant customers and vendors.  
+The **Payment Nos.** field on the **Payment Terms** page is updated. The payment terms that you set here will be a reference for automatic due date calculation for documents that you post for relevant customers and vendors.  
 
 ## See Also  
- [How to: Set Up Automatic Payments and Automatic Bills](how-to-set-up-automatic-payments-and-automatic-bills.md)   
+ [Set Up Automatic Payments and Automatic Bills](how-to-set-up-automatic-payments-and-automatic-bills.md)   
  [Italy Local Functionality](italy-local-functionality.md)   

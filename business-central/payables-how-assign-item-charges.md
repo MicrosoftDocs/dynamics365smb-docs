@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: transportation, added cost, landed cost
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 
 ---
@@ -36,14 +36,14 @@ For both purchase and sales documents, you can assign an item charge in two ways
 ## To set up item charge numbers
 You use item charge numbers to distinguish between the different kinds of item charges that are used in your company.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Charges**, and then choose the related link.
-2. In the **Item Charges** window, choose the **New** action to create a new line.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Charges**, and then choose the related link.
+2. On the **Item Charges** page, choose the **New** action to create a new line.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To assign an item charge directly to the purchase invoice for the item
 If you know the item charge at the time when you post a purchase invoice for the item, follow this procedure.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoices**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.
 2. Create a new purchase invoice. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 3. Make sure the purchase invoice has one or more lines of type Item.
 4. On a new line, in the **Type** field, select **Charge (Item)**.
@@ -54,9 +54,9 @@ If you know the item charge at the time when you post a purchase invoice for the
     In the following steps, you will perform the actual assignment. Until the item charge is fully assigned, the value in the **Qty. to Assign** field is in red font.
 8. On the **Lines** tab, choose the **Item Charge Assignment** action.
 
-    The **Item Charge Assignment** window opens showing one line for each line of type Item on the purchase invoice. To assign the item charge to one or more invoice lines, you can use a function that assigns and distributes it for you or you can manually fill in the **Qty. to Assign** field. The following steps describe how to use the Suggest Item Charge Assignment function.
+    The **Item Charge Assignment** page opens showing one line for each line of type Item on the purchase invoice. To assign the item charge to one or more invoice lines, you can use a function that assigns and distributes it for you or you can manually fill in the **Qty. to Assign** field. The following steps describe how to use the Suggest Item Charge Assignment function.
 
-9. In the **Item Charge Assignment** window, choose the **Suggest Item Charge Assignment** action.
+9. On the **Item Charge Assignment** page, choose the **Suggest Item Charge Assignment** action.
 10. If there are more than one invoice lines of type Item, choose one of the four distribution options.  
 
 It the item charge is fully assigned, the value in the **Qty. to Assign** field on the purchase invoice is zero.
@@ -66,8 +66,8 @@ The item charge is now assigned to the purchase invoice. When you post the recei
 ## To assign an item charge from a separate invoice to the purchase invoice for the item
 If you received an invoice for the item charge after you posted the original purchase receipt, follow this procedure.
 1. Repeat steps 1 through 8 in the "To assign an item charge directly to the purchase invoice for the item" section.
-2. In the **Item Charge Assignment** window, choose the **Get Receipt Lines** action.
-3. In the **Purch. Receipt Lines** window, select the posted purchase receipt for the item that you want to assign the item charge to, and then choose the **OK** button.
+2. On the **Item Charge Assignment** page, choose the **Get Receipt Lines** action.
+3. On the **Purch. Receipt Lines** page, select the posted purchase receipt for the item that you want to assign the item charge to, and then choose the **OK** button.
 4. Choose the **Suggest Item Charge Assignment** action.
 
 The item charge on the separate purchase invoice is now assigned to the item on the posted purchase receipt, thereby updating the item's inventory value with the cost of the item charge.

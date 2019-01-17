@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 09/06/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -25,19 +25,19 @@ Order tracking shows how sales orders, production orders, and purchase orders ar
 
 The following describes how to track linked items on a firm planned production order. The steps are similar for all other order types, and from planning worksheet lines.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Firm Planned Prod. Order**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Order**, and then choose the related link.
 2. Open the relevant firm planned production order from the list.
 3. On the **Lines** FastTab, choose the **Functions** action, and then choose the **Order Tracking** action.
 
 The lines in the **Order Tracking** display the documents that are related to the current production order line.
 
 ## Untracked Planning Elements
-The **Untracked Planning Elements** window opens when you choose the **Untracked Qty.** field in the **order Planning** window. It serves two purposes:
+The **Untracked Planning Elements** page opens when you choose the **Untracked Qty.** field on the **order Planning** page. It serves two purposes:
 
-1. To hold information about untracked quantities displayed when the user looks up from the Order Tracking window to see untracked quantities.
-2. To hold warning messages displayed when the user chooses the **Warning** icon in the **Planning Worksheet** window.
+1. To hold information about untracked quantities displayed when the user looks up from the Order Tracking page to see untracked quantities.
+2. To hold warning messages displayed when the user chooses the **Warning** icon on the **Planning Worksheet** page.
 
-The window contains entries which account for an untracked surplus quantity in order tracking network. These entries are generated during the planning run and explain where the untracked surplus quantity in the order tracking lines came from. This untracked surplus can come from:
+The page contains entries which account for an untracked surplus quantity in order tracking network. These entries are generated during the planning run and explain where the untracked surplus quantity in the order tracking lines came from. This untracked surplus can come from:
 
 - Production forecast
 - Blanket orders

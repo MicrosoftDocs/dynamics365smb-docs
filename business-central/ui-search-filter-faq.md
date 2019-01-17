@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
-ms.date: 08/26/2018
+ms.date: 10/01/2018
 ms.author: mikebc
 ---
 
@@ -41,6 +41,12 @@ No. The report filter dialog, commonly referred to as the request page, currentl
 
 ## Will Microsoft extend the filter pane experience?
 At Microsoft, we're constantly listening to feedback from our diverse community of users and acting upon the top community suggestions. If you are interested in extending the filter pane to more form factors, more types of lists and reports, or have a great idea on how to improve it, add an idea or vote for existing ideas at [aka.ms/BusinessCentralIdeas](https://aka.ms/businesscentralideas).
+
+## Can I do anything about the "Searching for rows is taking too long" message?
+
+There is a time-limit on how a long a search operation can take. First, try changing the search criteria and search again. If you are using [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, contact your system administrator, because an administrator can increase the time-limit for searches.
+
+As an on-premises administrator, you increase the time-limit on searches by changing the **Search Timeout** setting of [!INCLUDE[prodshort](includes/prodshort.md)] server. For more information, see [Configuring Business Central Server](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance?#Database) in the Business Central Developer and IT Pro Help.
 
 ## See also
 [Getting Started](product-get-started.md)  

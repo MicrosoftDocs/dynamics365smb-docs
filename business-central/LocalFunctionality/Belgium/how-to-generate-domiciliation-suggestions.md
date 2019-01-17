@@ -1,19 +1,13 @@
 ---
-    title: How to Generate Domiciliation Suggestions
-    description: After you have set up domiciliations, you can start generating domiciliation suggestions. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can only create domiciliation suggestions for domestic customers.
+title: How to Generate Domiciliation Suggestions
+description: After you have set up domiciliations, you can start generating domiciliation suggestions. You can only create domiciliation suggestions for domestic customers.
+author: SorenGP
 
-    services: project-madeira
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-business-central
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 10/01/2018
+ms.author: sgroespe
 
 ---
 # Generate Domiciliation Suggestions

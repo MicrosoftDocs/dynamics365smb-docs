@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -42,7 +42,7 @@ You can make deposits to maintain a transaction record that contains information
     |**Document No.**|The journal line entry document number.|  
     |**Credit Amount**|The total credit amount on the journal line.|  
 
-5.  Optionally, on the **Navigate** tab, choose **Dimensions**, and then add relevant dimensions in the **Dimension Set Entries** window.  
+5.  Optionally, on the **Navigate** tab, choose **Dimensions**, and then add relevant dimensions on the **Dimension Set Entries** page.  
 
 After you have created a deposit, you must post it.  
 

@@ -6,13 +6,13 @@
     documentationcenter: ''
     author: SorenGP
 
-    ms.service: dynamics365-financials
+    ms.service: dynamics365-business-central
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 10/01/2018
     ms.author: sgroespe
 
 ---
@@ -24,7 +24,7 @@ If a supplier without an Australian Business Number (ABN) provides an invoice, a
 To use withholding tax, you must set up the business posting groups and product posting groups for withholding tax so that the correct WHT calculations are made for each vendor.  
 
 > [!NOTE]  
->  As a prerequisite, you need to set up source codes for WHT settlement in the **Source Code Setup** window.  
+>  As a prerequisite, you need to set up source codes for WHT settlement on the **Source Code Setup** page.  
 
 The following procedure describes how to set up product posting groups for WHT, but the same steps also apply to setting up business posting groups for WHT.  
 
@@ -74,4 +74,4 @@ The following procedure describes how to set up product posting groups for WHT, 
  [View Withholding Tax Entries](how-to-view-withholding-tax-entries.md)   
  [Calculate and Post Withholding Tax Settlements](how-to-calculate-and-post-withholding-tax-settlements.md)   
  [Withholding Tax](withholding-tax.md)   
- [Australian Taxation Office (ATO)](http://www.ato.gov.au/)
+ [Australian Taxation Office (ATO)](https://www.ato.gov.au/)

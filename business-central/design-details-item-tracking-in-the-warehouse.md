@@ -1,6 +1,6 @@
 ---
-    title: Design Details - Item Tracking Availability | Microsoft Docs
-    description: This topic discusses how to make sure that the people who process orders can rely on the availability of serial or lot numbers.
+    title: Design Details - Item Tracking in the Warehouse | Microsoft Docs
+    description: Serial number and lot number handling is primarily a warehouse task and therefore all inbound and outbound warehouse documents have standard functionality for assigning and selecting item tracking numbers. However, because the reservation system is based on item ledger entries, warehouse activity documents that register only warehouse entries are not fully supported.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -11,34 +11,21 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: design, item, tracking, serial number, lot number, outbound documents
-    ms.date: 10/01/2018
+    ms.date: 01/15/2019
     ms.author: sgroespe
 
 ---
-# Design Details: Item Tracking Availability
-The **Item Tracking Lines** and **Item Tracking Summary** pages provide dynamic availability information for serial or lot numbers. The purpose of this is to increase transparency for users on outbound documents, such as sales orders, by showing them which serial numbers or how many units of a lot number are currently assigned on other open documents. This reduces uncertainty that is caused by double allocation and instills confidence in order processors that the item tracking numbers and dates that they are promising on unposted sales orders can be fulfilled. For more information, see [Design Details: Item Tracking Lines Page](design-details-item-tracking-lines-window.md).  
+# Design Details: Item Tracking in the Warehouse
+Serial number and lot number handling is primarily a warehouse task and therefore all inbound and outbound warehouse documents have standard functionality for assigning and selecting item tracking numbers.  
 
-When you open the **Item Tracking Lines** page, availability data is retrieved from the **Item Ledger Entry** table and the **Reservation Entry** table, with no date filter. When you choose the **Serial No.** field or the **Lot No.** field, the **Item Tracking Summary** page opens and shows a summary of the item tracking information in the **Reservation Entry** table. The summary contains the following information about each serial or lot number on the item tracking line:  
+However, because the reservation system is based on item ledger entries, warehouse activity documents that register only warehouse entries are not fully supported. Because reservations and item tracking numbers can be handled only at the location level, not at the bin and zone level, the **Item Tracking Lines** page cannot be opened from warehouse activity documents. The same applies to the **Reservation** page.  
 
-|Field|Description|  
-|---------------------------------|---------------------------------------|  
-|**Total Quantity**|The total quantity of the serial or lot number that is currently in inventory.|  
-|**Total Requested Quantity**|The total quantity of the serial or lot number that is currently requested in all documents.|  
-|**Current Pending Quantity**|The quantity that is entered in the current instance of the **Item Tracking Lines** page but is not yet committed to the database.|  
-|**Total Available Quantity**|The quantity of the serial or lot number that is available for the user to request.<br /><br /> This quantity is calculated from other fields on the page as follows:<br /><br /> total quantity – (total requested quantity + current pending quantity).|  
+After a serial or lot number has been added to an item at a warehouse location, it can be moved and reclassified freely within the warehouse by using an independent item tracking structure that is unrelated to the reservation system. **Serial No.** and **Lot No.** fields are accessed directly on warehouse document lines. When the serial or lot number later partakes in outbound posting, it is synchronized with the reservation system as a part of ordinary bin adjustment. For more information, see [Design Details: Integration with Inventory](design-details-integration-with-inventory.md).  
 
-> [!NOTE]  
->  You can also see the information in the preceding table by using the **Select Entries** function on the **Item Tracking Lines** page.  
-
-To preserve database performance, availability data is only retrieved once from the database when you open the **Item Tracking Lines** page and use the **Refresh Availability** function on the page.  
-
-## Calculation Formula  
-As described in the preceding table, the availability of a given serial or lot number is calculated as follows:  
-
-* total available quantity = quantity in inventory – (all demands + quantity not yet committed to the database)  
-
-> [!IMPORTANT]  
->  This formula implies that the serial or lot number availability calculation considers only inventory and ignores projected receipts. Accordingly, supply that is not yet posted to inventory does not affect item tracking availability, as opposed to regular item availability where projected receipts are included.  
+However, the reservation system does take warehouse activities into consideration when it calculates availability. For example, items that are allocated to picks, or registered as picked, cannot be reserved. For more information, see [Design Details: Warehouse Availability](design-details-availability-in-the-warehouse.md).
 
 ## See Also  
-[Design Details: Item Tracking](design-details-item-tracking.md)
+[Design Details: Item Tracking](design-details-item-tracking.md)  
+[Design Details: Integration with Inventory](design-details-integration-with-inventory.md)  
+[Design Details: Warehouse Availability](design-details-availability-in-the-warehouse.md)  
+[Design Details: Item Tracking Design](design-details-item-tracking-design.md)

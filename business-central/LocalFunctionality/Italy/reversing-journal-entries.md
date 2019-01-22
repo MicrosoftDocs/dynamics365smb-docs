@@ -1,8 +1,8 @@
 ---
     title: Reversing Journal Entries
-    description: Controls have been added to the **Reverse Transaction Entries** page to comply with local laws.
+    description: Controls have been added to the Reverse Transaction Entries page to comply with local laws.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 

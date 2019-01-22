@@ -11,11 +11,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 01/22/2019
     ms.author: sgroespe
 
 ---
-# Pick for Production or Assembly
+# Pick for Production or Assembly in Basic Warehouse Configurations
 How you put away your pick components for production or assembly orders depends on how your warehouse is set up as a location. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).
 
 In basic warehouse configurations where the location requires pick processing but not shipment processing, you use the **Inventory Pick** page to organize and record the picking of components.  

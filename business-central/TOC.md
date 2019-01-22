@@ -494,8 +494,8 @@
 ## [Picking Items](warehouse-pick-items.md)
 ### [Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md)
 ### [Pick Items for Warehouse Shipment](warehouse-how-to-pick-items-for-warehouse-shipment.md)
-### [Pick for Production or Assembly](warehouse-how-to-pick-for-production.md)
-### [Pick for Assembly or Production in Advanced Warehouse Configurations](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
+### [Pick for Production or Assembly in Basic Warehouse Configurations](warehouse-how-to-pick-for-production.md)
+### [Pick for Production or Assembly in Advanced Warehouse Configurations](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
 ### [Plan Picks in Worksheets](warehouse-how-to-plan-picks-in-worksheets.md)
 ### [Pick and Put Away Without a Source Document](warehouse-how-to-create-put-aways-from-internal-put-aways.md)
 ### [Picking By FEFO](warehouse-picking-by-fefo.md)
@@ -503,7 +503,6 @@
 ### [Walkthrough: Picking and Shipping in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 ## [Ship Items](warehouse-how-ship-items.md)
 ## [Find Your Warehouse Assignments](warehouse-how-to-find-your-warehouse-assignments.md)
-## [Assign Default Bins to Items](warehouse-how-to-assign-default-bins-to-items.md)
 ## [Use Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)
 
 # [Service Management](service-service.md)

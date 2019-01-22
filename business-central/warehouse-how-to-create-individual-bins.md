@@ -25,14 +25,14 @@ The most effective way to create the bins of your warehouse is to generate group
 4. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### The Dedicated field
-The **dedicated** field on the **Bins** page specifies that quantities in the bin are protected from being picked for other demands. Quantities in dedicated bins can still be reserved. Accordingly, the quantities in dedicated bins are included in the **Total Available Quantity** field in the Reservation window.
+The **dedicated** field on the **Bins** page specifies that quantities in the bin are protected from being picked for other demands. However, quantities in dedicated bins can still be reserved. Accordingly, the quantities in dedicated bins are included in the **Total Available Quantity** field on the **Reservation** page.
+
 Making a bin dedicated results in similar functionality in basic warehousing to using bin types, which is only available in advanced warehousing. For more information, see [Set Up Bin Types](warehouse-how-to-set-up-bin-types.md).
 
-**Example**
-A work center is set up with a bin code in the **To-Production Bin Code** field. Production order component lines with that bin code require that forward-flushed components are placed there. However, until the components are consumed from that bin, other component demands may pick or consume from that bin because they are still considered available bin contents. To make sure that bin content is only available to component demand that uses that to-production bin, you must select the **Dedicated** field on the line for that bin code in the Bins window that you open from the location card.
+**Example:** A work center is set up with a bin code in the **To-Production Bin Code** field. Production order component lines with that bin code require that forward-flushed components are placed there. However, until the components are consumed from that bin, other component demands may pick or consume from that bin because they are still considered available bin contents. To make sure that bin content is only available to component demand that uses that to-production bin, you must select the **Dedicated** field on the line for that bin code in the Bins window that you open from the location card.
 
 > [!Caution]
-> Items in dedicated bins are not protected when they are picked and consumed as production components with the **Inventory Pick** window. For more information, see [To pick components in basic warehouse configurations](warehouse-how-to-pick-for-production#to-pick-components-in-basic-warehouse-configurations).
+> Items in dedicated bins are not protected when they are picked and consumed as production components with the **Inventory Pick** page. For more information, see [To pick components in basic warehouse configurations](warehouse-how-to-pick-for-production#to-pick-components-in-basic-warehouse-configurations).
 
 ## To create bins individually in the bin creation worksheet  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bin Creation Worksheet**, and choose the related link.  

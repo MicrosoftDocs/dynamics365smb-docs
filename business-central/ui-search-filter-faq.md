@@ -18,23 +18,23 @@ This article answers common questions you might have about searching and filteri
 ## Is there a difference between searching and filtering?
 Yes.
 - Search is simple and broad: it matches records that contain the search text across any visible fields on the page, and is case insensitive.
-- Filtering is highly flexible and can be applied to specific fields, including those not visible on the page: it displays records with exact, case-sensitive matches, but can be adjusted with powerful search symbols, tokens and formulas. For more information on how to use these features, see [Sorting, Searching and Filtering in Lists](ui-enter-criteria-filters.md)
+- Filtering is highly flexible and can be applied to specific fields, including those not visible on the page: it displays records with exact, case-sensitive matches, but can be adjusted with powerful search symbols, tokens and formulas. For more information on how to use these features, see [Sorting, Searching and Filtering in Lists](ui-enter-criteria-filters.md).
 
 ## Is there a keyboard experience for search and filter?
 Search and filter have been highly optimized for users who prefer mouse-free interaction to work efficiently with their data. There are a variety of shortcut keys that can be used in sequence to work at high speed. For more information see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
 
 ## Is the filter pane available on all lists?
-The filter pane is available on screens where the list is the primary content on the page, such as worksheets and list pages, including lists reachable from the navigation bar. The filter pane is not yet available for embedded lists, such as sales lines on sales orders, or for lists with dynamic columns (often referred to as matrix pages). 
+The filter pane is available on pages where the list is the primary content on the page, such as worksheets and list pages, including lists reachable from the navigation bar. The filter pane is not yet available for embedded lists, such as sales lines on sales orders, or for lists with dynamic columns (often referred to as matrix pages). 
 
 ## How can I save my filters?
-Your filters and adjustments to predefined filters are remembered throughout the session (while you remain logged in), even if you navigate away from the page. It is currently not possible to permanently save filters.
-Unlike filters, search text is not remembered when you navigate away from a page.
+
+Your filters and adjustments to predefined filters are remembered throughout the session (while you remain logged in), even if you navigate away from the page. It is currently not possible to permanently save filters. Unlike filters, search text is not remembered when you navigate away from a page.
 
 ## Is this the same as Advanced Filters and Limit Totals in Microsoft Dynamics NAV?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] builds upon these popular features and delivers a modern and highly usable experience for finding and analyzing your data. With more keyboard shortcuts and the introduction of search, [!INCLUDE[d365fin](includes/d365fin_md.md)] surpasses the functionality provided in Dynamics NAV.
 
 ## Can I search and filter using the companion apps and Outlook AddIn?
-On different form factors such as mobile devices or in Outlook, you can search in lists but cannot filter on individual fields in most cases.
+On different display targets such as mobile devices or in Outlook, you can search in lists but cannot filter on individual fields in most cases.
 
 ## Is the filter pane available for filtering reports?
 No. The report filter dialog, commonly referred to as the request page, currently use a different experience that provides some, but not all, of the capabilities of the filter pane.

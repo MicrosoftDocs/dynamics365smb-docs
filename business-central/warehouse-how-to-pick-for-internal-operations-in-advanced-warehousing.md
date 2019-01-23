@@ -11,11 +11,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 01/22/2019
     ms.author: sgroespe
 
 ---
-# Pick for Assembly or Production in Advanced Warehouse Configurations
+# Pick for Production or Assembly in Advanced Warehouse Configurations
 In advanced warehouse configurations where the location is set up to use picking as well as shipping, you can pick components for production and assembly activities with the **Warehouse Pick** page.  
 
 Alternatively, you can use the **Movement Worksheet** page to move items between bins ad hoc, meaning without reference to a source document. For more information, see [Move Items in advanced warehouse configurations](warehouse-how-to-move-items-in-advanced-warehousing.md).  

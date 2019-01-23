@@ -1,8 +1,8 @@
 ---
     title: How to Print the OCR Journal - Test Report
-    description: You can print the **OCR Journal – Test** report to test the imported payment transactions in the cash receipt journal.
+    description: You can print the OCR Journal – Test report to test the imported payment transactions in the cash receipt journal.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 

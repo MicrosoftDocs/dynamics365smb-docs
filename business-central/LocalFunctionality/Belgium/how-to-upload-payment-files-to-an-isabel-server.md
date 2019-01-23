@@ -1,8 +1,8 @@
 ---
     title: How to Upload Payment Files to an Isabel Server
-    description: Payment files can be uploaded using the **IBS Logs** page. The **Upload Integration Mode** and **Download Integration Mode** fields on the **Electronic Banking Setup** page must be set to **Attended** to upload payment files.
+    description: Payment files can be uploaded using the IBS Logs page. The Upload Integration Mode and Download Integration Mode fields on the Electronic Banking Setup page must be set to Attended to upload payment files.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 

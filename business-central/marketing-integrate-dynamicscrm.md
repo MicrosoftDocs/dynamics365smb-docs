@@ -17,7 +17,7 @@ ms.author: edupont
 If you use Dynamics 365 for Sales for customer engagement, you can use [!INCLUDE[d365fin](includes/d365fin_md.md)] for order processing and finances and have seamless integration in the lead-to-cash process.
 
 > [!NOTE]
-> This topic assumes that both [!INCLUDE[d365fin](includes/d365fin_md.md)] and the integrated Sales solution are deployed in a SaaS environment. Mixing online and on-premises is possible, but requires special configuration requirements in case of on-premises deployment. For more information, see [Preparing to Integrate to Dynamics 365 for Sales On-Premises](/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
+> This topic assumes that both [!INCLUDE[d365fin](includes/d365fin_md.md)] and the integrated Sales solution are deployed in a SaaS environment. Mixing online and on-premises is possible, but requires special configuration requirements in case of on-premises deployment. For more information, see [Preparing to Integrate to Dynamics 365 for Sales On-Premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 When your application is set up to integrate with Sales, you have access to Sales data from [!INCLUDE[d365fin](includes/d365fin_md.md)] and the other way around in some cases. This integration enables you to work with and synchronize data types that are common to both services, such as customers, contacts, and sales information, and keep the data up to date in both locations.  
 

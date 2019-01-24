@@ -142,7 +142,7 @@ This can also work if the original sales order contains write-in products, meani
 If the item description on the original sales order is very long, then an additional sales order line of type Comment is created to hold the full text on the sales order in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## See Also
-[Preparing to Integrate to Dynamics 365 for Sales On-Premises](/business-central/prepare-dynamics-365-for-sales-for-integration)  
+[Preparing to Integrate to Dynamics 365 for Sales On-Premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)  
 [Relationship Management](marketing-relationship-management.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Changing Which Features are Displayed](ui-experiences.md)  

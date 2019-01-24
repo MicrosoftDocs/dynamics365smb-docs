@@ -10,11 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map
-ms.date: 10/01/2018
+ms.date: 01/24/2018
 ms.author: edupont
 ---
 # Managing Customers and Sales Created in Dynamics 365 for Sales
-If you use Dynamics 365 for Sales (Sales) for customer engagement, you can use [!INCLUDE[d365fin](includes/d365fin_md.md)] for order processing and finances and have seamless integration in the lead-to-cash process.
+If you use Dynamics 365 for Sales for customer engagement, you can use [!INCLUDE[d365fin](includes/d365fin_md.md)] for order processing and finances and have seamless integration in the lead-to-cash process.
+
+> [!NOTE]
+> This topic assumes that both [!INCLUDE[d365fin](includes/d365fin_md.md)] and the integrated Sales solution are deployed in a SaaS environment. Mixing online and on-premises is possible, but requires special configuration requirements in case of on-premises deployment. For more information, see [Preparing to Integrate to Dynamics 365 for Sales On-Premises](/business-central/prepare-dynamics-365-for-sales-for-integration).
 
 When your application is set up to integrate with Sales, you have access to Sales data from [!INCLUDE[d365fin](includes/d365fin_md.md)] and the other way around in some cases. This integration enables you to work with and synchronize data types that are common to both services, such as customers, contacts, and sales information, and keep the data up to date in both locations.  
 
@@ -139,6 +142,7 @@ This can also work if the original sales order contains write-in products, meani
 If the item description on the original sales order is very long, then an additional sales order line of type Comment is created to hold the full text on the sales order in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## See Also
+[Preparing to Integrate to Dynamics 365 for Sales On-Premises](/business-central/prepare-dynamics-365-for-sales-for-integration)  
 [Relationship Management](marketing-relationship-management.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Changing Which Features are Displayed](ui-experiences.md)  

@@ -1,6 +1,6 @@
 ---
 title: Manage Customers Using Dynamics 365 for Sales| Microsoft Docs
-description: You can use Dynamics 365 for Sales from inside Business Central  to map data and have seamless integration and synchronization in the lead-to-cash process.
+description: You can use Dynamics 365 for Sales from inside Business Central to map data and have seamless integration and synchronization in the lead-to-cash process.
 documentationcenter: ''
 author: edupont04
 
@@ -9,7 +9,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: integration, synchronize, map
+ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 01/24/2019
 ms.author: edupont
 ---

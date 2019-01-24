@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map
-ms.date: 01/24/2018
+ms.date: 01/24/2019
 ms.author: edupont
 ---
 # Integrating with Dynamics 365 for Sales

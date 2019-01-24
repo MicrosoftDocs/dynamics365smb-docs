@@ -106,6 +106,6 @@
   "targets": {
     "pdf": {
       "template_folder": "_themes.pdf"
-    },
-  "need_generate_intellisense": false
+    }
+  }
 }

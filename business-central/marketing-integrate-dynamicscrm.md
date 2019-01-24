@@ -13,7 +13,7 @@ ms.search.keywords: integration, synchronize, map
 ms.date: 01/24/2018
 ms.author: edupont
 ---
-# Managing Customers and Sales Created in Dynamics 365 for Sales
+# Integrating with Dynamics 365 for Sales
 If you use Dynamics 365 for Sales for customer engagement, you can use [!INCLUDE[d365fin](includes/d365fin_md.md)] for order processing and finances and have seamless integration in the lead-to-cash process.
 
 > [!NOTE]

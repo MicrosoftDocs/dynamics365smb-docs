@@ -21,9 +21,7 @@ Her Majesty's Revenue and Customs (HMRC) is implementing the first step of Makin
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] already supports submitting VAT returns to HMRC using the GovTalk service. From April, 2019 HMRC is switching to newer technology and communication mechanisms that required changes in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
 
 ## Making Tax Digital for VAT Capabilities in Dynamics 365 Business Central
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] has functionality to create VAT reports, called a VAT Return. The Making Tax Digital VAT features extend this foundational VAT capability to allow for communication with HMRC.  
-
-The Making Tax Digital VAT extension lets you:
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] you can use the VAT Return report for creating VAT reports. The Making Tax Digital VAT features extend this capability to communicate with HMRC. For example, the Making Tax Digital VAT extension lets you:
 
 * Retrieve VAT obligations from HMRC
 * Get reminded about VAT obligations that are approaching or already past due
@@ -67,7 +65,7 @@ The Making Tax Digital feature uses a service connection to communicate with HMR
     b. In the **Report Version** field, choose the VAT report configuration that you created in the previous step.  
     c. In the **Manual Receive Codeunit ID** field, choose codeunit **10535**.  
     d. In the **Receive Submitted Return Codeunit ID** field, choose codeunit **10536**.  
-    e. Optional: If you want to automatically update the information about VAT obligations, specify how often to do so in the **Update Period Job Frequency** field, and then specify codeunit **10535** in the **Auto Receive Codeunit ID** field.
+    e. Optional: If you want to automatically update the information about VAT obligations, specify how often to do so in the **Update Period Job Frequency** field, and then specify codeunit **10535** in the **Auto Receive Codeunit ID** field.  
     f. Fill in the remaining fields, as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 
 ## VAT Obligations

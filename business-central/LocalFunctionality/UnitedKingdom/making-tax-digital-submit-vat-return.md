@@ -54,16 +54,21 @@ The Making Tax Digital feature uses a service connection to communicate with HMR
 
 ### Additional Setup Requirements for On-Premises Versions
 1. You must add a VAT report configuration on the **VAT Reports Configuration** page.  
+  
     a. Create a new configuration, and choose the VAT Return type.  
     b. Give the configuration a descriptive name, such as **HMRC MTD**.  
     c. In the **Suggest Lines Codeunit ID** field, choose codeunit **745**.  
     d. In the **Content Coneunit ID** field, choose codeunit **10531**.  
+    e. Fill in the remaining fields, as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
+
 2. You must edit the VAT report setup on the **VAT Report Setup** page.  
-    On the **Return Period** FastTab, fill in the fields.  
-    a. In the **Report Version** field, choose the VAT report configuration that you created in the previous step.  
-    b. In the **Manual Receive Codeunit ID** field, choose codeunit **10535**.  
-    c. In the **Receive Submitted Return Codeunit ID** field, choose codeunit **10536**.  
-    d. Optional: If you want to automatically update the information about VAT obligations, specify how often to do so in the **Update Period Job Frequency** field, and then specify codeunit **10535** in the **Auto Receive Codeunit ID** field.
+  
+    a. Expand the **Return Period** FastTab.  
+    b. In the **Report Version** field, choose the VAT report configuration that you created in the previous step.  
+    c. In the **Manual Receive Codeunit ID** field, choose codeunit **10535**.  
+    d. In the **Receive Submitted Return Codeunit ID** field, choose codeunit **10536**.  
+    e. Optional: If you want to automatically update the information about VAT obligations, specify how often to do so in the **Update Period Job Frequency** field, and then specify codeunit **10535** in the **Auto Receive Codeunit ID** field.
+    f. Fill in the remaining fields, as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 
 ## VAT Obligations
 HMRC maintains a list of VAT obligations for companies, which are the periods for which they must report VAT and the due date for the report. HMRC exposes this information through their APIs, which enables [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to retrieve the obligations. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] stores VAT obligations as **VAT Return Periods**, and uses them to:

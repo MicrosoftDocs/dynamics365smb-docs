@@ -34,9 +34,9 @@ The Making Tax Digital VAT extension lets you:
 
 ## Set up Making Tax Digital for VAT
 The Making Tax Digital feature uses a service connection to communicate with HMRC. To make it easy to establish communications, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] provides the **HMRC VAT Setup** service connection, which contains most of the information needed to communicate with HMRC. To finish the connection, you must give the **Dynamics 365 Business Central MTD VAT** application the authority to interact with HMRC on your behalf. Microsoft manages the **Dynamics 365 Business Central MTD VAT** application on the HMRC web site, and the application is a requirement for the connection. You give permission by requesting an authorization code from HMRC, and then copying the code to the service connection. The following steps describe how to set up the service connection.   
-
+  
 > [!Note]
-> If you are using an on-premises version, there are some additional steps to set up the features for Making Tax Digital. In the cloud version, these happen automatically. For more information, see the section titled [Additional Setup Requirements for On-Premises Versions](#additional-setups-requirements-for-on-premises-versions) below.
+> If you are using an on-premises version, there are some additional steps to set up the features for Making Tax Digital. In the cloud version, these happen automatically. For more information, see the section titled [Additional Setup Requirements for On-Premises Versions](#additional-setup-requirements-for-on-premises-versions) below.
 
 1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Connections**, and then choose the related link.  
 2. On the **Service Connections** page, choose **HMRC VAT Setup**.

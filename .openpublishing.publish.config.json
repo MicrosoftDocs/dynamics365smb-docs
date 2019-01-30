@@ -103,6 +103,9 @@
     ]
   },
   "need_generate_pdf_url_template": true,
-  "targets": {},
-  "need_generate_intellisense": false
+  "targets": {
+    "pdf": {
+      "template_folder": "_themes.pdf"
+    }
+  }
 }

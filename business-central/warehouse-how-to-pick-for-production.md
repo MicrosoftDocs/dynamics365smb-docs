@@ -11,18 +11,18 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 01/22/2019
     ms.author: sgroespe
 
 ---
-# Pick for Production or Assembly
+# Pick for Production or Assembly in Basic Warehouse Configurations
 How you put away your pick components for production or assembly orders depends on how your warehouse is set up as a location. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).
 
 In basic warehouse configurations where the location requires pick processing but not shipment processing, you use the **Inventory Pick** page to organize and record the picking of components.  
 
 In basic warehouse configurations, you must pick for assembly orders with the **Inventory Movement** page. For more information, see the "Handling Assemble-to-Order Item with Inventory Picks" section in [Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md).  
 
-In advanced warehouse configurations where locations require both picks and shipments, you use the **Warehouse Pick** page to bring components to production or assembly orders.
+In advanced warehouse configurations where locations require both picks and shipments, you use the **Warehouse Pick** page to bring components to production or assembly orders. For more information, see [Pick for Production or Assembly in Advanced Warehouse Configurations](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).
 
 > [!NOTE]  
 >  The following important differences exist between inventory picks and inventory movements:  
@@ -63,39 +63,6 @@ If an assembly output flow is set up for the location, then the value in the **A
 If no bin code is specified on the sales order line, and no assembly output flow is set up for the location, then the **Bin Code** field on the inventory pick line is empty. The warehouse worker must open the **Bin Contents** page and select the bin where the assembly items are assembled.
 
 In combination scenarios, where a part of the quantity must first be assembled and another must be picked from inventory, a minimum of two inventory pick lines are created. One pick line is for the assemble-to-order quantity. The other pick line depends on which bins can fulfill the remaining quantity from inventory. Bin codes on the two lines are filled in different ways as described for the two different sales types respectively. For more information, see the “Combination Scenarios” section in [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md).
-
-## To pick components in advanced warehouse configurations
-In advanced warehouse configurations where the location is set up to use picking as well as shipping, you can pick components for production and assembly activities with the **Warehouse Pick** page. For more information, see [Pick Items with Warehouse Picks](warehouse-how-to-pick-items-for-warehouse-shipment.md).
-
-Alternatively, you can use the **Movement Worksheet** page to move items between bins ad hoc, meaning without reference to a source document. For more information, see [Move Items in Advanced Warehouse Configurations](warehouse-how-to-move-items-in-advanced-warehousing.md).  
-
-You cannot create a warehouse pick document from scratch because a pick activity is always part of a workflow, either in a pull or a push scenario.  
-
-You can create the warehouse pick document in a push fashion by selecting the **Create Whse. Pick** action on the source document, such as a released assembly order or warehouse shipment. For more information, see [Pick Items with Warehouse Picks](warehouse-how-to-pick-items-for-warehouse-shipment.md).  
-
-Alternatively, you can create the warehouse pick document in a pull fashion by using the **Pick Worksheet** page to detect pick requests, both for shipment and internal operations, and then create the required warehouse pick documents.  
-
-The following procedure explains a pull scenario where you pick components for a released production order through the **Pick Worksheet** page. The procedure also applies to assembly orders.  
-
-To create pick requests, both for pull and for push scenarios, the source documents in question must be released. Release source documents for internal operations in the following ways.  
-
- |Source Document|Release Method|  
- |---------------------|--------------------|  
- |Production Order|Change order type to released production order.|  
- |Assembly Order|Change status to Released.|  
-
-## To pick components using the pick worksheet  
-
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Pick Worksheet**, and then choose the related link.  
-2.  Choose the **Get Warehouse Documents** action, and then select the component lines from the released production order.  
-3.  Inspect the lines, sort them to ensure an efficient picking round, and combine them with other worksheet lines if necessary to make best use of employee time.  
-4.  Choose the **Create Pick** action.  
-5.  Define how to create the warehouse pick documents and how to sort pick lines by filling fields on the **Create Pick** page.  
-6.  Choose the **OK** button.
-
-Warehouse pick documents are now created with pick lines for each component that is required in the internal operation.
-
-If the internal operation area, such as a production shop floor, is set up with a default bin for placement of components to be used in the operation, then that bin code is inserted in the Place lines on the warehouse pick document to instruct warehouse workers where to place the items. For more information, see [Set Up Basic Warehouses with Operation Areas](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md).
 
 ## Filling the Consumption Bin
 This flow chart shows how the **Bin Code** field on production order component lines is filled according to your location setup.

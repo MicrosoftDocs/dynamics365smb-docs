@@ -234,6 +234,7 @@
 ## [Publishing a Web Service](across-how-publish-web-service.md)
 ## [Configuring API Templates](admin-configuring-api-template.md)
 ## [Managing Data Encryption](admin-manage-data-encryption.md)
+## [Integrating with Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)
 
 # [Finance](finance.md)
 ## [Managing Receivables](receivables-manage-receivables.md)
@@ -431,7 +432,7 @@
 ### [Create Opportunities](marketing-how-create-opportunities.md)
 ### [Processing Sales Opportunities](marketing-processing-sales-opportunities.md)
 ## [Use Profile Questionnaires to Classify Business Contacts](marketing-create-contact-profile-questionnaire.md)
-## [Managing Customers and Sales Created in Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)
+## [Integrating with Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)
 
 # [Human Resources](hr-manage-human-resources.md)
 ## [Register Employees](hr-how-register-employees.md)

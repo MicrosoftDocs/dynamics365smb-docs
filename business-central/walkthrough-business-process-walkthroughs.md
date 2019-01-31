@@ -26,17 +26,17 @@ This selection of walkthroughs provides step-by-step, end-to-end business proces
 |To|See|  
 |--------|---------|  
 |Set up a marketing campaign.|[Walkthrough: Conducting a Sales Campaign](walkthrough-conducting-a-sales-campaign.md)|  
-|Use prepayments to manage part payments for sales and purchases. **Requires a Full Evaluation - Complete Sample Data company** |[Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)|  
+|Use prepayments to manage part payments for sales and purchases. **Requires Full sample data** |[Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)|  
 |Set up approval users, when and how the users receive notification about approval workflows, and then modify and enable the relevant approval workflow.|[Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
-|Put received items away in basic warehouse configurations. **Requires a Full Evaluation - Complete Sample Data company**|[Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)|  
-|Put received items away in advanced warehouse configurations. **Requires a Full Evaluation - Complete Sample Data company**|[Walkthrough: Receiving and Putting Away in advanced warehouse configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)|  
-|Plan supply orders to fulfill demand manually. **Requires a Full Evaluation - Complete Sample Data company**|[Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)|  
-|Plan supply orders to fulfill demand automatically. **Requires a Full Evaluation - Complete Sample Data company**|[Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md)|  
-|Assemble and ship items that are customized on the sales order. **Requires a Full Evaluation - Complete Sample Data company**|[Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)|  
-|Plan a project, from start to finish. **Requires a Full Evaluation - Complete Sample Data company**|[Walkthrough: Managing Projects with Jobs](walkthrough-managing-projects-with-jobs.md)|  
-|Report on the costs of a project. **Requires a Full Evaluation - Complete Sample Data company**|[Walkthrough: Calculating Work in Process for a Job](walkthrough-calculating-work-in-process-for-a-job.md)|  
-|Pick items for shipment in basic warehouse configurations. **Requires a Full Evaluation - Complete Sample Data company**|[Walkthrough: Picking and Shipping in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)|  
-|Perform defects management. **Requires a Full Evaluation - Complete Sample Data company**|[Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)|  
+|Put received items away in basic warehouse configurations. **Requires Full sample data**|[Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)|  
+|Put received items away in advanced warehouse configurations. **Requires Full sample data**|[Walkthrough: Receiving and Putting Away in advanced warehouse configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)|  
+|Plan supply orders to fulfill demand manually. **Requires Full sample data**|[Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)|  
+|Plan supply orders to fulfill demand automatically. **Requires Full sample data**|[Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md)|  
+|Assemble and ship items that are customized on the sales order. **Requires Full sample data**|[Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)|  
+|Plan a project, from start to finish. **Requires Full sample data**|[Walkthrough: Managing Projects with Jobs](walkthrough-managing-projects-with-jobs.md)|  
+|Report on the costs of a project. **Requires Full sample data**|[Walkthrough: Calculating Work in Process for a Job](walkthrough-calculating-work-in-process-for-a-job.md)|  
+|Pick items for shipment in basic warehouse configurations. **Requires Full sample data**|[Walkthrough: Picking and Shipping in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)|  
+|Perform defects management. **Requires Full sample data**|[Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)|  
 
 ## See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

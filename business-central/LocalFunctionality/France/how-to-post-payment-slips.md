@@ -1,8 +1,8 @@
 ---
     title: How to Post Payment Slips
-    description: You must post payment slips to complete a payment transaction and to create the related financial data. You can post a payment slip if the payment slip's **Action Type** is set to **Ledger**.
+    description: You must post payment slips to complete a payment transaction and to create the related financial data. You can post a payment slip if the payment slip's Action Type is set to Ledger.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 

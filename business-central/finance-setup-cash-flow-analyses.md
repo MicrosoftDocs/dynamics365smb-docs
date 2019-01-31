@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 10/01/2018
+ms.date: 01/18/2019
 ms.author: bholtorf
 
 ---
@@ -77,7 +77,7 @@ To use a manual process:
 >   Consider the length of the periods that the service will use in its calculations. The more data you provide, the more accurate the predictions will be. Also, watch out for large variances in periods. They will also impact predictions. If Cortana Intelligence does not find enough data, or the data varies a lot, the service will not make a prediction.  
 
 ## <a name="AnchorText"> </a>Create and use your own predictive web service for cash flow forecasts
-You can also create your own predictive web service based on a public model named **Forecasting model for Microsoft Business Central **. This predictive model is available online in the Cortana Intelligence Gallery. To use the model, follow these steps:  
+You can also create your own predictive web service based on a public model named **Forecasting model for Microsoft Business Central**. This predictive model is available online in the Cortana Intelligence Gallery. To use the model, follow these steps:  
 
 1. Open a browser and go to the [Cortana Intelligence Gallery](https://go.microsoft.com/fwlink/?linkid=828352).  
 2. Search for **Forecasting Model for Microsoft Business Central **, and then open the model in Azure Machine Learning Studio.  

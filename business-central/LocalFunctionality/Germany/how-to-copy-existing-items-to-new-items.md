@@ -1,6 +1,6 @@
 ---
     title: How to Copy Existing Items to New Items
-    description: You can group items with similar settings in an item catalog. When you add a new item, to save time, you can use **Copy Item** to copy an existing item to use as a template for a new item.
+    description: You can group items with similar settings in an item catalog. When you add a new item, to save time, you can use Copy Item to copy an existing item to use as a template for a new item.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

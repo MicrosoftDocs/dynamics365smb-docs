@@ -77,8 +77,8 @@ The **Extensions** tab displays extensions that affect the page. "Ext. page, Ext
 
 Only extensions that add or extend the page or source table are shown. Any other extensions are ignored.
 
-### [Page Filters](#tab/tablefields)
+### [Page Filters](#tab/pagefilters)
 
-Filters on the current page. This includes those that are set by code, Views, or user-defined.
+The **Page Filters** tab displays the current filters used on the current page. This includes those that are set by code, Views, or user-defined.
 
 ## See Also  

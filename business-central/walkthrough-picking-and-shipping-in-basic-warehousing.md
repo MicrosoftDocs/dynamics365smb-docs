@@ -9,11 +9,14 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 01/31/2019
     ms.author: sgroespe
 
 ---
 # Walkthrough: Picking and Shipping in Basic Warehouse Configurations
+
+**Note**: This walkthrough must be performed on a demonstration company with the **Full Evaluation - Complete Sample Data** option, which is available in the Sandbox environment. For more information, see [Creating a Sandbox Environment](across-how-create-sandbox-environment.md).
+
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], the outbound processes for picking and shipping can be performed in four ways using different functionalities depending on the warehouse complexity level.  
 
 |Method|Inbound process|Bins|Picks|Shipments|Complexity level (See [Design Details: Warehouse Setup](design-details-warehouse-setup.md))|  

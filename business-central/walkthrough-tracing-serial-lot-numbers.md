@@ -11,11 +11,14 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 01/31/2019
     ms.author: sgroespe
 
 ---
 # Walkthrough: Tracing Serial-Lot Numbers
+
+**Note**: This walkthrough must be performed on a demonstration company with the **Full Evaluation - Complete Sample Data** option, which is available in the Sandbox environment. For more information, see [Creating a Sandbox Environment](across-how-create-sandbox-environment.md).
+
 When product defects occur, the errors must be identified and affected items must be prevented from leaving the company. If defective items have already been shipped, you must trace who received them and, if you need to, recall the items.  
 
 The first task of defects management is to investigate where the defective items came from and where they were used. This investigation is based on historic data and is made easier by searching through item tracking entries using the **Item Tracing** page.  

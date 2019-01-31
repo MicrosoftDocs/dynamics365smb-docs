@@ -51,13 +51,31 @@ Page inspection shows the following information for any page or sub-page in a pa
 - Filters on the current page. This includes those that are set by code, Views, or user-defined.
 - Extensions that affect the page. "Ext. page, Ext. table" or "New page, new table" (when it was added by the extension)
 
+**Elements shown with limited information**  
+
+- System parts, such as links and notes
+- Reports request pages
+- Role Center page types
+- Pages that do not have a source table.
+
+
 ### [Table Fields](#tab/tablefields)
 
-Table fields for the current record. Each field is shown with its name, number, data type, value, and a primary key indicator.
+Table Fields tab displays information about all fields in the the current record. Each field is shown with its name, number, data type, value, and an indicator if the field is a primary key.
+
+Page fields that are not bound to the source table field in their source expression are not shown.
+Fields in temporary tables are not shown.
+The value of fields that have a data type of blob, byte, media, or mediaset are not shown. 
+
+
+Only extensions extending the page or source table are shown. Any other extensions are ignored.
+We cannot show the value for some Field data types  (blob, byte, media/mediaset
 
 ### [Extensions](#tab/extensions)
 
-Extensions that affect the page. "Ext. page, Ext. table" or "New page, new table" (when it was added by the extension)
+The **Extensions** tab displays extensions that affect the page. "Ext. page, Ext. table" or "New page, new table" (when it was added by the extension)
+
+Only extensions that add or extend the page or source table are shown. Any other extensions are ignored.
 
 ### [Page Filters](#tab/tablefields)
 

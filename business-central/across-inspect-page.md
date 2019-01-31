@@ -35,7 +35,7 @@ The **Inspect Page** pane opens on the right side. The following figure illustra
 
 When the **Page Inspection** pane first opens, it shows information that pertains to the main page object.
 
-Use the keyboard or mouse to move focus to different elements on the page. When you select a sub-page in a part or FactBox on the page, the related area is highlighted by an orange border, and the **Page Inspection** pane shows information about the selected element. For example, the previous figure shows information about the list part in the **Sales Order** page.
+Use the keyboard or pointing device to move focus to different elements on the page. When you select a sub-page in a part or FactBox on the page, the related area is highlighted by an orange border, and the **Page Inspection** pane shows information about the selected element. For example, the previous figure shows information about the list part in the **Sales Order** page.
 
 As you navigate to other pages in the application, the **Page Inspection** pane will automatically update with page information as you move along.
 
@@ -52,15 +52,15 @@ Page inspection shows the following information for any page or sub-page in a pa
 - Extensions that affect the page. "Ext. page, Ext. table" or "New page, new table" (when it was added by the extension)
 
 
-## [Table Fields](#tab/tablefields)
+### [Table Fields](#tab/tablefields)
 
 Table fields for the current record. Each field is shown with its name, number, data type, value, and a primary key indicator.
 
-## [Extensions](#tab/extensions)
+### [Extensions](#tab/extensions)
 
 Extensions that affect the page. "Ext. page, Ext. table" or "New page, new table" (when it was added by the extension)
 
-## [Page Filters](#tab/tablefields)
+### [Page Filters](#tab/tablefields)
 
 Filters on the current page. This includes those that are set by code, Views, or user-defined.
 

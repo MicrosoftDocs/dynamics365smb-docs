@@ -11,11 +11,14 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 01/31/2019
     ms.author: sgroespe
 
 ---
 # Walkthrough: Calculating Work in Process for a Job
+
+**Note**: This walkthrough must be performed on a demonstration company with the **Full Evaluation - Complete Sample Data** option, which is available in the Sandbox environment. For more information, see [Creating a Sandbox Environment](across-how-create-sandbox-environment.md).
+
 With jobs, you can schedule the usage of your company's resources and keep track of the various costs associated with the usage of resources on a specific project. Jobs involve the consumption of employee hours, machine hours, inventory items, and other types of usage that have to be tracked as a job progresses. If a job runs over a long period, you may want to transfer these costs to a Work in Process (WIP) account on the balance sheet while the job is being completed. You can then recognize the costs and sales in your income statement accounts when it is appropriate.  
 
 ## About This Walkthrough  

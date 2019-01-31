@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 01/23/2019
+ms.date: 01/31/2019
 ms.author: sgroespe
 
 ---
@@ -72,28 +72,49 @@ When employees have counted and written down the inventory quantities, you must 
 6. Select the **Recorded** check box for each line.
 7. When you have entered all data for a physical inventory recording, choose the **Finish** action. Note that all lines must have the **Recorded** checkbox selected.
 
+The physical inventory recording lines are transferred to the related physical inventory order.
+
 > [!NOTE]
-> When you finish the current physical inventory recording, every physical inventory recording line is assigned to one line of the related physical inventory order. The physical inventory order lines are assigned with the same values in the **Item No.**, **Variant Code**, **Location Code**, and **Bin Code** fields as the physical inventory recording line has.<br /><br />
+> When you finish a physical inventory recording, each line is transferred to the line on the related physical inventory order that matches it exactly. To match, the values in the **Item No.**, **Variant Code**, **Location Code**, and **Bin Code** fields must be the same on the recording and the order lines.<br /><br />
 
-> If no such physical inventory order line exists, and if the **Allow Recording Without Order** checkbox is selected, then a new line is inserted automatically and the **Recorded Without Order** checkbox on the related physical inventory order line is selected. Otherwise, an error message is displayed and the process is canceled. Also, if there are more than one such physical inventory order lines, an error message is displayed and the process is canceled.
+> If no matching physical inventory order line exists, and if the **Allow Recording Without Order** checkbox is selected, then a new line is inserted automatically and the **Recorded Without Order** checkbox on the related physical inventory order line is selected. Otherwise, an error message is displayed and the process is canceled.<br /><br />
 
-## To finish a physical inventory order
-After completing the physical inventory recordings and the physical inventory order, you can post the physical inventory order. The information is transferred to the physical inventory journal. After this transfer, the physical inventory order will be available as a posted physical inventory order for future retrieval.
+> If more than one physical inventory recording lines match a physical inventory order line, then a message is displayed and the process is canceled. If, for some reason, two identical physical inventory lines end up on the physical inventory order, you can use a function to resolve it. For more information, see the "To find duplicate physical inventory order lines" section.
 
-## To view posted physical inventory documents  
-After posting the physical inventory order will be deleted and you can view and evaluate the document as posted physical inventory order.  
+## To find duplicate physical inventory order lines
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Physical Inventory Orders**, and then choose the related link.
+2. Open the physical inventory order that you want to view to duplicate lines for.
+3. Choose the **Show Duplicate Lines** action.
 
-When posting the physical inventory orders also physical inventory recording headers and physical inventory recording lines and physical inventory comment lines will be transferred to posted documents.  
+Any duplicate physical inventory order lines are displayed, so that you can delete them and keep only one line with a unique set of values in the **Item No.**, **Variant Code**, **Location Code**, and **Bin Code** fields.
 
-The posted inventory documents offer you the possibility to get a complete overview about the whole process of physical inventory. You cannot change the data of posted physical inventory order headers and posted physical inventory order lines because the documents have been already posted.  
+## To post a physical inventory order
+After completing a physical inventory order and changing its status to **Finished**, you can post it. You can set the status of a physical inventory order to **Finished** if the following are true:
 
-If you have used also item tracking lines to register serial nos. and lot nos. the program will save the expected item tracking lines, the recorded item tracking lines and the posted item tracking ledger entries.  
+- All related physical inventory recordings have a status of **Finished**.
+- Each physical inventory order line has been counted by at least one inventory recording line.
+- The **In Recording Lines** and the **Qty. Exp. Calculated** check boxes have been selected for all of the physical inventory order lines.
 
-It is possible to use the posted physical inventory order to create new physical inventory orders using the copy function.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Physical Inventory Orders**, and then choose the related link.
+2. Select the physical inventory order that you want to complete, and then choose the **Edit** action.
 
-You can use Navigate to view the inventory ledger entries and other related ledger entries for a posted physical inventory order.  
+    On the **Physical Inventory Order** page, you can view the quantity recorded after taking physical inventory in the **Qty. Recorded (Base)** field.
+4. Choose the **Finish** action.
+
+The value in the Status field is changed to **Finished**, and you can now only change the order by first choosing the **Reopen** action.
+5. To post the order, choose the **Post** action, and then choose the **OK** button.
+
+## To view posted physical inventory orders
+After posting, the physical inventory order will be deleted and you can view and evaluate the document as a posted physical inventory order including its physical inventory recordings and any comments made.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Phys. Invt. Orders**, and then choose the related link.
+2. In the **Posted Phys. Invt. Orders** window, select the posted inventory order that you want to view, and then choose the **View** action.
+3. To view a list of related physical inventory recordings, choose the **Recordings** action.
+
+You can also choose the **Phys. Inventory Order Diff.** action  to view any differences between the expected quantity and the quantity actually counted (recorded).
 
 ## See Also
+[Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md)  
 [Inventory](inventory-manage-inventory.md)
 [Warehouse Management](warehouse-manage-warehouse.md)    
 [Sales](sales-manage-sales.md)  

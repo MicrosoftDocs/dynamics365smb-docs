@@ -51,7 +51,6 @@ Page inspection shows the following information for any page or sub-page in a pa
 - Filters on the current page. This includes those that are set by code, Views, or user-defined.
 - Extensions that affect the page. "Ext. page, Ext. table" or "New page, new table" (when it was added by the extension)
 
-
 ### [Table Fields](#tab/tablefields)
 
 Table fields for the current record. Each field is shown with its name, number, data type, value, and a primary key indicator.

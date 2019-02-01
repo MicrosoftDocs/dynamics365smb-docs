@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 01/31/2019
+ms.date: 02/01/2019
 ms.author: sgroespe
 
 ---
@@ -43,7 +43,9 @@ The following procedure only describes how to use the **Calculate Lines** functi
 
 6.  Choose the **OK** button.
 
-A line for each item that exists on the chosen location and per the set filters and options is inserted on the order. You can now proceed to create one or more recordings, which are instructions to the employees who perform the actual counting.  
+A line for each item that exists on the chosen location and per the set filters and options is inserted on the order. For items that are set up for item tracking, the **Use Item Tracking** check box is selected, and information about the expected quantity of serial and lot numbers is available by choosing the **Lines** action and then **Item Tracking Lines**. For more information, see the "Handling Item Tracking when Counting Inventory" section.
+
+You can now proceed to create one or more recordings, which are instructions to the employees who perform the actual counting.  
 
 ## To create a physical inventory recording
 For each physical inventory order, you can create one or more physical inventory recording documents on which you enter the counted quantities, either manually or through an integrated scanning device.
@@ -61,7 +63,7 @@ In case of manual counting, you can print a list, the **Phys. Inventory Recordin
 5. Choose the **Recordings** action to see it on the **Phys. Inventory Recording List** page.
 6. Choose the **Print** action to prepare the physical documents that employees will use to write down the counted quantities.
 
-## To complete a physical Inventory recording
+## To finish a physical Inventory recording
 When employees have counted and written down the inventory quantities, you must prepare to record them in the system.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Physical Inventory Recordings**, and then choose the related link.
@@ -72,23 +74,27 @@ When employees have counted and written down the inventory quantities, you must 
 6. Select the **Recorded** check box for each line.
 7. When you have entered all data for a physical inventory recording, choose the **Finish** action. Note that all lines must have the **Recorded** checkbox selected.
 
-The physical inventory recording lines are transferred to the related physical inventory order.
-
 > [!NOTE]
-> When you finish a physical inventory recording, each line is transferred to the line on the related physical inventory order that matches it exactly. To match, the values in the **Item No.**, **Variant Code**, **Location Code**, and **Bin Code** fields must be the same on the recording and the order lines.<br /><br />
-
-> If no matching physical inventory order line exists, and if the **Allow Recording Without Order** checkbox is selected, then a new line is inserted automatically and the **Recorded Without Order** checkbox on the related physical inventory order line is selected. Otherwise, an error message is displayed and the process is canceled.<br /><br />
-
+> When you finish a physical inventory recording, each line is transferred to the line on the related physical inventory order that matches it exactly. To match, the values in the **Item No.**, **Variant Code**, **Location Code**, and **Bin Code** fields must be the same on the recording and the order lines.<br />
+> If no matching physical inventory order line exists, and if the **Allow Recording Without Order** checkbox is selected, then a new line is inserted automatically and the **Recorded Without Order** checkbox on the related physical inventory order line is selected. Otherwise, an error message is displayed and the process is canceled.<br />
 > If more than one physical inventory recording lines match a physical inventory order line, then a message is displayed and the process is canceled. If, for some reason, two identical physical inventory lines end up on the physical inventory order, you can use a function to resolve it. For more information, see the "To find duplicate physical inventory order lines" section.
 
-## To find duplicate physical inventory order lines
+## To complete a physical inventory order
+When you have finished a physical inventory recording, the **Qty. Recorder (Base)** field on the related physical inventory order is updated with the counted (recorded) values, and the **On Recording** check box is selected. If a counted value is different from the expected, then that difference is shown in the **Pos Qty. (Base)** and **Neg Qty. (Base)** field respectively.
+
+To see a expected quantities and any recorded differences for items with item tracking, choose the **Lines** action, and then choose the **Item Tracking Lines** action to select various views of serial and lot numbers involved in the physical inventory count. For more information, see the "Handling Item Tracking when Counting Inventory" section.
+
+You can also choose the **Phys. Inventory Order Diff.** action to view any differences between the expected quantity and the counted quantity.
+
+### To find duplicate physical inventory order lines
+
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Physical Inventory Orders**, and then choose the related link.
 2. Open the physical inventory order that you want to view to duplicate lines for.
 3. Choose the **Show Duplicate Lines** action.
 
 Any duplicate physical inventory order lines are displayed, so that you can delete them and keep only one line with a unique set of values in the **Item No.**, **Variant Code**, **Location Code**, and **Bin Code** fields.
 
-## To post a physical inventory order
+### To post a physical inventory order
 After completing a physical inventory order and changing its status to **Finished**, you can post it. You can set the status of a physical inventory order to **Finished** if the following are true:
 
 - All related physical inventory recordings have a status of **Finished**.
@@ -101,20 +107,55 @@ After completing a physical inventory order and changing its status to **Finishe
     On the **Physical Inventory Order** page, you can view the quantity recorded after taking physical inventory in the **Qty. Recorded (Base)** field.
 4. Choose the **Finish** action.
 
-The value in the Status field is changed to **Finished**, and you can now only change the order by first choosing the **Reopen** action.
+The value in the **Status** field is changed to **Finished**, and you can now only change the order by first choosing the **Reopen** action.
 5. To post the order, choose the **Post** action, and then choose the **OK** button.
 
-## To view posted physical inventory orders
+The
+
+### To view posted physical inventory orders
 After posting, the physical inventory order will be deleted and you can view and evaluate the document as a posted physical inventory order including its physical inventory recordings and any comments made.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Phys. Invt. Orders**, and then choose the related link.
 2. In the **Posted Phys. Invt. Orders** window, select the posted inventory order that you want to view, and then choose the **View** action.
 3. To view a list of related physical inventory recordings, choose the **Recordings** action.
 
-You can also choose the **Phys. Inventory Order Diff.** action  to view any differences between the expected quantity and the quantity actually counted (recorded).
+## Handling Item Tracking when Counting Inventory
+Item tracking lines are used on physical inventory orders as on any other inbound document or journal line to handle serial or lot numbers assigned to the item in question. For more information, see [Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md).
+
+The **Use Item Tracking** check box on physical inventory order lines is automatically selected is an item tracking code is set up for the item, but you can also select or deselect it manually.
+
+### Example - Record and Post Counted Lot Number Differences
+A lot-tracked item A is stored in inventory with the "LOT" lot number series.
+
+**Expected Inventory**:
+|Lot No.|Quantity|
+|--|--|
+|LOT1001|80|
+|LOT1003|30|
+|LOT1006|10|
+|Total|120|
+
+**Recorded Quantities**:
+|Lot No.|Quantity|
+|--|--|
+|LOT1001|80|
+|LOT0002|12|
+|LOT1003|20|
+|LOT1006|10|
+|Total|112|
+
+**Quantities to Post**:
+|Lot No.|Expected Quantity|Recorded Quantity|Quantity to Post|
+|--|--|--
+|LOT1001|80|80|0|
+|LOT1002|0|12|+12|
+|LOT1003|30|20|-10|
+|LOT1006|10|0|-10|
+|Total|120|112|-8|
 
 ## See Also
 [Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md)  
+[Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)  
 [Inventory](inventory-manage-inventory.md)
 [Warehouse Management](warehouse-manage-warehouse.md)    
 [Sales](sales-manage-sales.md)  

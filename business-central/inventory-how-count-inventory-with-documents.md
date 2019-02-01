@@ -76,7 +76,9 @@ When employees have counted and written down the inventory quantities, you must 
 
 > [!NOTE]
 > When you finish a physical inventory recording, each line is transferred to the line on the related physical inventory order that matches it exactly. To match, the values in the **Item No.**, **Variant Code**, **Location Code**, and **Bin Code** fields must be the same on the recording and the order lines.<br />
+
 > If no matching physical inventory order line exists, and if the **Allow Recording Without Order** checkbox is selected, then a new line is inserted automatically and the **Recorded Without Order** checkbox on the related physical inventory order line is selected. Otherwise, an error message is displayed and the process is canceled.<br />
+
 > If more than one physical inventory recording lines match a physical inventory order line, then a message is displayed and the process is canceled. If, for some reason, two identical physical inventory lines end up on the physical inventory order, you can use a function to resolve it. For more information, see the "To find duplicate physical inventory order lines" section.
 
 ## To complete a physical inventory order
@@ -105,12 +107,12 @@ After completing a physical inventory order and changing its status to **Finishe
 2. Select the physical inventory order that you want to complete, and then choose the **Edit** action.
 
     On the **Physical Inventory Order** page, you can view the quantity recorded after taking physical inventory in the **Qty. Recorded (Base)** field.
-4. Choose the **Finish** action.
+3. Choose the **Finish** action.
 
 The value in the **Status** field is changed to **Finished**, and you can now only change the order by first choosing the **Reopen** action.
-5. To post the order, choose the **Post** action, and then choose the **OK** button.
+4. To post the order, choose the **Post** action, and then choose the **OK** button.
 
-The
+The involved item ledger entries are updated along with any related item tracking entries.
 
 ### To view posted physical inventory orders
 After posting, the physical inventory order will be deleted and you can view and evaluate the document as a posted physical inventory order including its physical inventory recordings and any comments made.
@@ -129,7 +131,7 @@ A lot-tracked item A is stored in inventory with the "LOT" lot number series.
 
 **Expected Inventory**:
 |Lot No.|Quantity|
-|--|--|
+|-------|--------|
 |LOT1001|80|
 |LOT1003|30|
 |LOT1006|10|
@@ -137,7 +139,7 @@ A lot-tracked item A is stored in inventory with the "LOT" lot number series.
 
 **Recorded Quantities**:
 |Lot No.|Quantity|
-|--|--|
+|-------|--------|
 |LOT1001|80|
 |LOT0002|12|
 |LOT1003|20|
@@ -146,7 +148,7 @@ A lot-tracked item A is stored in inventory with the "LOT" lot number series.
 
 **Quantities to Post**:
 |Lot No.|Expected Quantity|Recorded Quantity|Quantity to Post|
-|--|--|--
+|-------|-----------------|-----------------|----------------|
 |LOT1001|80|80|0|
 |LOT1002|0|12|+12|
 |LOT1003|30|20|-10|
@@ -156,7 +158,7 @@ A lot-tracked item A is stored in inventory with the "LOT" lot number series.
 ## See Also
 [Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md)  
 [Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)  
-[Inventory](inventory-manage-inventory.md)
+[Inventory](inventory-manage-inventory.md)  
 [Warehouse Management](warehouse-manage-warehouse.md)    
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  

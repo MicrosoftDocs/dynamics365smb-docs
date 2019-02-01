@@ -57,7 +57,7 @@ The Making Tax Digital feature uses a service connection to communicate with HMR
     b. Give the configuration a descriptive name, such as **HMRC MTD**.  
     c. In the **Suggest Lines Codeunit ID** field, choose codeunit **745**.  
     d. In the **Content Coneunit ID** field, choose codeunit **10531**.  
-    e. In the **Submission Codeunit ID** field, choose codeunit **10532**.
+    e. In the **Submission Codeunit ID** field, choose codeunit **10532**.  
     f. In the **Validate Codeunit ID** field, choose codeunit **10533**.  
     e. Fill in the remaining fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 

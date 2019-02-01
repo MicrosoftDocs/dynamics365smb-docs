@@ -75,10 +75,8 @@ When employees have counted and written down the inventory quantities, you must 
 7. When you have entered all data for a physical inventory recording, choose the **Finish** action. Note that all lines must have the **Recorded** checkbox selected.
 
 > [!NOTE]
-> When you finish a physical inventory recording, each line is transferred to the line on the related physical inventory order that matches it exactly. To match, the values in the **Item No.**, **Variant Code**, **Location Code**, and **Bin Code** fields must be the same on the recording and the order lines.<br />
-
-> If no matching physical inventory order line exists, and if the **Allow Recording Without Order** checkbox is selected, then a new line is inserted automatically and the **Recorded Without Order** checkbox on the related physical inventory order line is selected. Otherwise, an error message is displayed and the process is canceled.<br />
-
+> When you finish a physical inventory recording, each line is transferred to the line on the related physical inventory order that matches it exactly. To match, the values in the **Item No.**, **Variant Code**, **Location Code**, and **Bin Code** fields must be the same on the recording and the order lines.<br /><br />
+> If no matching physical inventory order line exists, and if the **Allow Recording Without Order** checkbox is selected, then a new line is inserted automatically and the **Recorded Without Order** checkbox on the related physical inventory order line is selected. Otherwise, an error message is displayed and the process is canceled.<br /><br />
 > If more than one physical inventory recording lines match a physical inventory order line, then a message is displayed and the process is canceled. If, for some reason, two identical physical inventory lines end up on the physical inventory order, you can use a function to resolve it. For more information, see the "To find duplicate physical inventory order lines" section.
 
 ## To complete a physical inventory order
@@ -127,15 +125,15 @@ Item tracking lines are used on physical inventory orders as on any other inboun
 The **Use Item Tracking** check box on physical inventory order lines is automatically selected is an item tracking code is set up for the item, but you can also select or deselect it manually.
 
 ### Example - Record and Post Counted Lot Number Differences
-A lot-tracked item A is stored in inventory with the "LOT" lot number series.
+A lot-tracked item A is stored in inventory with the "LOT" number series.
 
 **Expected Inventory**:
-|Lot No.|Quantity|
-|-------|--------|
-|LOT1001|80|
-|LOT1003|30|
-|LOT1006|10|
-|Total|120|
+| Lot No. | Quantity |
+| ------- | -------- |
+| LOT1001 | 80 |
+| LOT1003 | 30 |
+| LOT1006 | 10 |
+| Total | 120 |
 
 **Recorded Quantities**:
 |Lot No.|Quantity|

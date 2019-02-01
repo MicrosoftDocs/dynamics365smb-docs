@@ -128,16 +128,18 @@ The **Use Item Tracking** check box on physical inventory order lines is automat
 A lot-tracked item A is stored in inventory with the "LOT" number series.
 
 **Expected Inventory**:
-| Lot No. | Quantity |
-| ------- | -------- |
-| LOT1001 | 80 |
-| LOT1003 | 30 |
-| LOT1006 | 10 |
-| Total | 120 |
+
+|Lot No.|Quantity|
+|-|-|
+|LOT1001|80|
+|LOT1003|30|
+|LOT1006|10|
+|Total|120|
 
 **Recorded Quantities**:
+
 |Lot No.|Quantity|
-|-------|--------|
+|-|-|
 |LOT1001|80|
 |LOT0002|12|
 |LOT1003|20|
@@ -145,8 +147,9 @@ A lot-tracked item A is stored in inventory with the "LOT" number series.
 |Total|112|
 
 **Quantities to Post**:
+
 |Lot No.|Expected Quantity|Recorded Quantity|Quantity to Post|
-|-------|-----------------|-----------------|----------------|
+|-|-|-|-|
 |LOT1001|80|80|0|
 |LOT1002|0|12|+12|
 |LOT1003|30|20|-10|

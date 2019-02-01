@@ -60,19 +60,20 @@ In case of manual counting, you can print a list, the **Phys. Inventory Recordin
 4. For every set of items to be counted, load them on the related physical inventory order and repeat steps 1 through 3 with the **Only Lines Not in Recordings** check box selected.
 
     A physical inventory recording document is created.
-5. Choose the **Recordings** action to see it on the **Phys. Inventory Recording List** page.
-6. Choose the **Print** action to prepare the physical documents that employees will use to write down the counted quantities.
+5. Choose the **Recordings** action to open it from the **Phys. Inventory Recording List** page.
+6. On the **General** FastTab, fill in the fields as necessary.
+7. For items that use item tracking, create an additional line for each lot number or serial number code by choosing the **Functions** action, and then the **Copy Line** action. For more information, see the "Handling Item Tracking when Counting Inventory" section.    
+8. Choose the **Print** action to prepare the physical document that employees will use to write down the counted quantities.
 
 ## To finish a physical Inventory recording
-When employees have counted and written down the inventory quantities, you must prepare to record them in the system.
+When employees have counted the inventory quantities, you must prepare to record them in the system.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Physical Inventory Recordings**, and then choose the related link.
-2. Select the physical inventory recording that you want to complete, and then choose the **Edit** action.
-3. On the **General** FastTab, fill in the fields as necessary.
-4. On the **Lines** FastTab, fill the actual counted quantity in the **Quantity** field for each line.
-5. For items with serial or not numbers, select the **Use Item Tracking** check box, to enable that the counted quantities are entered in the **Serial No.** and **Lot No.** fields respectively.
-6. Select the **Recorded** check box for each line.
-7. When you have entered all data for a physical inventory recording, choose the **Finish** action. Note that all lines must have the **Recorded** checkbox selected.
+2. Select the physical inventory recording that you want to finish, and then choose the **Edit** action.
+3. On the **Lines** FastTab, fill the actual counted quantity in the **Quantity** field for each line.
+4. For items with serial or lot numbers (the **Use Item Tracking** check box is selected), enter the counted quantities in the **Serial No.** and **Lot No.** fields respectively.
+5. Select the **Recorded** check box for each line.
+6. When you have entered all data for a physical inventory recording, choose the **Finish** action. Note that all lines must have the **Recorded** checkbox selected.
 
 > [!NOTE]
 > When you finish a physical inventory recording, each line is transferred to the line on the related physical inventory order that matches it exactly. To match, the values in the **Item No.**, **Variant Code**, **Location Code**, and **Bin Code** fields must be the same on the recording and the order lines.<br /><br />
@@ -122,10 +123,12 @@ After posting, the physical inventory order will be deleted and you can view and
 ## Handling Item Tracking when Counting Inventory
 Item tracking lines are used on physical inventory orders as on any other inbound document or journal line to handle serial or lot numbers assigned to the item in question. For more information, see [Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md).
 
-The **Use Item Tracking** check box on physical inventory order lines is automatically selected is an item tracking code is set up for the item, but you can also select or deselect it manually.
+The **Use Item Tracking** check box on physical inventory order lines is automatically selected if an item tracking code is set up for the item, but you can also select or deselect it manually.
+
+Employees that count inventory items  
 
 ### Example - Record and Post Counted Lot Number Differences
-A lot-tracked item A is stored in inventory with the "LOT" number series.
+A lot-tracked item is stored in inventory with the "LOT" number series.
 
 **Expected Inventory**:
 
@@ -155,6 +158,8 @@ A lot-tracked item A is stored in inventory with the "LOT" number series.
 |LOT1003|30|20|-10|
 |LOT1006|10|0|-10|
 |Total|120|112|-8|
+
+On the **Physical Inventory Order** page, the **Neg. Qty. (Base)** field will contain *8*. For the order line in question, the **Phys. Invt. Item Track. List** page will contain the positive or negative quantities for the individual lot numbers.
 
 ## See Also
 [Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md)  

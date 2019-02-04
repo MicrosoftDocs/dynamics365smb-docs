@@ -9,12 +9,18 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: item, finished good, component, raw material, assembly item
+ms.search.keywords: product, image
 ms.date: 12/19/2018
 ms.author: sgroespe
 
 ---
 # Import Multiple Item Pictures
+You can now import multiple item pictures in one go. Simply name your picture files with a name corresponding to your item numbers, compress them to a zip file, and then use the **Import Item Pictures** page to manage . 
+
+
+
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Setup**, and then choose the related link.
+2.
 
 ## See Also
 [Register New Items](inventory-how-register-new-items.md)  

@@ -1,6 +1,6 @@
 ---
 title: Count Inventory With Document-Based Functionality| Microsoft Docs
-description: Describes how to perform physical counting using the Physical Order Inventory and Physical Inventory Recording pages.
+description: Describes how to perform physical inventory counting using the Physical Order Inventory and Physical Inventory Recording pages.
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -8,7 +8,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: adjustment, negative, positive, increase, decrease
+ms.search.keywords: adjustment, status, negative, positive, increase, decrease
 ms.date: 02/04/2019
 ms.author: sgroespe
 

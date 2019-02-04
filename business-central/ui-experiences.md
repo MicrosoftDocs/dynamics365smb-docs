@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 10/01/2018
+ms.date: 02/04/2019
 ms.author: edupont
 
 ---
@@ -31,7 +31,7 @@ The following table lists the experiences that are currently available.
 | **Premium** |Shows all actions and fields for all business functionality, including Manufacturing and Service Management.|
 
 > [!NOTE]  
-> The experiences that you can select from in [!INCLUDE[d365fin](includes/d365fin_md.md)] depend on your solution license, called a plan. For information about the **Essential** and **Premium** plans, see [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) on the Microsoft Dynamics 365 marketing site. See also the [[!INCLUDE[d365fin](includes/d365fin_md.md)] Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409).
+> The experiences that you can select from in [!INCLUDE[d365fin](includes/d365fin_md.md)] depend on your solution license, called a plan. For information about the **Essential** and **Premium** plans, see [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) on the Microsoft Dynamics 365 marketing site. See also the [[!INCLUDE[d365fin](includes/d365fin_md.md)] Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2068931) (requires access to CustomerSource or PartnerSource).
 
 > [!IMPORTANT]  
 > All regular users in a solution must be assigned the same plan, Essential or Premium, before that experience can be selected for the company. Accordingly, one user cannot access Premium features if one or more other users can only access Essential features. This is not the case for non-regular users of type Team Member, Internal Admin, External Accountant, and Delegated Admin, who can each be assigned a different plan than other users in the solution.

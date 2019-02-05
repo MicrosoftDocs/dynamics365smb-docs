@@ -25,7 +25,7 @@ To learn about the local functionality for each country, choose the related link
 | --- | --- |--- |
 | Europe |  | |
 |        | Austria | [Austria Local Functionality](localfunctionality/austria/austria-local-functionality.md) |
-|        | Belgium |  [Australia Local Functionality](localfunctionality/belgium/belgium-local-functionality.md) |
+|        | Belgium |  [Belgium Local Functionality](localfunctionality/belgium/belgium-local-functionality.md) |
 |        | Denmark | [Denmark Local Functionality](localfunctionality/denmark/denmark-local-functionality.md) |
 |        | Germany | [Germany Local Functionality](localfunctionality/germany/germany-local-functionality.md) |
 |        | Finland | [Finland Local Functionality](localfunctionality/finland/finland-local-functionality.md) |

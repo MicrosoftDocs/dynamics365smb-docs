@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 01/22/2019
     ms.author: sgroespe
 
 ---
@@ -34,7 +34,8 @@ The following table describes a sequence of tasks, with links to the topics that
 |Post the shipment of items directly in the outbound order document because no warehouse features exist. (Works the same for sales orders, outbound transfer orders, and return shipments.)|[Ship Items](warehouse-how-ship-items.md)|  
 |Pick items order by order and post the shipment in the same activity, in a basic warehouse configuration.|[Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md)|
 |Pick items for multiple orders in an advanced warehouse configuration.|[Pick Items with Warehouse Picks](warehouse-how-to-pick-items-for-warehouse-shipment.md)|  
-|Pick components for production or assembly in a basic or an advanced warehouse configuration.|[Pick for Production or Assembly](warehouse-how-to-pick-for-production.md)|  
+|Pick components for production or assembly in a basic warehouse configuration.|[Pick for Production or Assembly in Basic Warehouse Configurations](warehouse-how-to-pick-for-production.md)|
+|Pick components for production or assembly in an advanced warehouse configuration.|[Pick for Production or Assembly in Advanced Warehouse Configurations](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)|  
 |Plan optimized pick instructions for a number of shipments rather than have warehouse workers act directly on posted shipments.|[Plan Picks in Worksheets](warehouse-how-to-plan-picks-in-worksheets.md)|  
 |Pick items technically for a special purpose, such as a production unit in need of extra components, in such a way that the items do not technically leave the warehouse.|[Pick and Put Away Without a Source Document](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
 |Understand how to automatically pick items according to their expiration date, for example perishable goods.|[Picking By FEFO](warehouse-picking-by-fefo.md)|

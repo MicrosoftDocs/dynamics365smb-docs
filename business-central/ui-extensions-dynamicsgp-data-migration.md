@@ -15,7 +15,7 @@ ms.author: edupont
 
 ---
 # The Dynamics GP Data Migration Extension 
-This extension makes it easy to migrate customers, vendors, inventory items, general ledger accounts, open payables and open receivables transactions from Dynamics GP to [!INCLUDE[prodshort](includes/prodshort.md)]. If your business uses Dynamics GP today, you can export the relevant records and then open an assisted setup guide to add the data to [!INCLUDE[prodshort](includes/prodshort.md)]. For more information, see [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md).
+This extension makes it easy to migrate customers, vendors, inventory items, general ledger accounts, open payables and open receivables transactions from Dynamics GP to [!INCLUDE[prodshort](includes/prodshort.md)]. If your business uses Dynamics GP today, you can export the relevant records and then open an assisted setup guide to add the data to [!INCLUDE[prodshort](includes/prodshort.md)]. The migration extension works for all supported versions of Microsoft Dyanmics GP. For more information, see [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md).
 
 ## Exporting Data from Dynamics GP
 You must have exported some or all of your existing customers, vendors, inventory items, and general ledger accounts using data export functionality within Dynamics GP. When selecting the data to export the following types can be selected:

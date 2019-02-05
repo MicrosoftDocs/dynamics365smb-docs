@@ -21,9 +21,7 @@ Her Majesty's Revenue and Customs (HMRC) is implementing the first step of Makin
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] already supports submitting VAT returns to HMRC using the GovTalk service. From April, 2019 HMRC is switching to newer technology and communication mechanisms that required changes in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
 
 ## Making Tax Digital for VAT Capabilities in Dynamics 365 Business Central
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] has functionality to create VAT reports, called a VAT Return. The Making Tax Digital VAT features extend this foundational VAT capability to allow for communication with HMRC.  
-
-The Making Tax Digital VAT extension lets you:
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] you can use the VAT Return report for creating VAT reports. The Making Tax Digital VAT features extend this capability to communicate with HMRC. For example, the Making Tax Digital VAT extension lets you:
 
 * Retrieve VAT obligations from HMRC
 * Get reminded about VAT obligations that are approaching or already past due
@@ -34,6 +32,9 @@ The Making Tax Digital VAT extension lets you:
 
 ## Set up Making Tax Digital for VAT
 The Making Tax Digital feature uses a service connection to communicate with HMRC. To make it easy to establish communications, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] provides the **HMRC VAT Setup** service connection, which contains most of the information needed to communicate with HMRC. To finish the connection, you must give the **Dynamics 365 Business Central MTD VAT** application the authority to interact with HMRC on your behalf. Microsoft manages the **Dynamics 365 Business Central MTD VAT** application on the HMRC web site, and the application is a requirement for the connection. You give permission by requesting an authorization code from HMRC, and then copying the code to the service connection. The following steps describe how to set up the service connection.   
+  
+> [!Note]
+> If you are using an on-premises version, there are some additional steps to set up the features for Making Tax Digital. In the cloud version, these happen automatically. For more information, see the section titled [Additional Setup Requirements for On-Premises Versions](#additional-setup-requirements-for-on-premises-versions) below.
 
 1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Connections**, and then choose the related link.  
 2. On the **Service Connections** page, choose **HMRC VAT Setup**.
@@ -48,6 +49,26 @@ The Making Tax Digital feature uses a service connection to communicate with HMR
 
     > [!Note] 
     > [!INCLUDE[d365fin](../../includes/d365fin_md.md)] will use the authorization code to test whether the service connection can communicate with HMRC. If the connection is successful, a confirmation page prompts you to verify your VAT registration number. To open the **Company Information** page and verify the number is correct, and the one you have used to register with HMRC, choose **Yes**.
+
+### Additional Setup Requirements for On-Premises Versions
+1. You must add a VAT report configuration on the **VAT Reports Configuration** page.  
+  
+    a. Create a new configuration, and choose the VAT Return type.  
+    b. Give the configuration a descriptive name, such as **HMRC MTD**.  
+    c. In the **Suggest Lines Codeunit ID** field, choose codeunit **745**.  
+    d. In the **Content Coneunit ID** field, choose codeunit **10531**.  
+    e. In the **Submission Codeunit ID** field, choose codeunit **10532**.  
+    f. In the **Validate Codeunit ID** field, choose codeunit **10533**.  
+    g. Fill in the remaining fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
+
+2. You must edit the VAT report setup on the **VAT Report Setup** page.  
+  
+    a. Expand the **Return Period** FastTab.  
+    b. In the **Report Version** field, choose the VAT report configuration that you created in the previous step.  
+    c. In the **Manual Receive Codeunit ID** field, choose codeunit **10534**.  
+    d. In the **Receive Submitted Return Codeunit ID** field, choose codeunit **10536**.  
+    e. Optional: If you want to automatically update the information about VAT obligations, specify how often to do so in the **Update Period Job Frequency** field, and then specify codeunit **10535** in the **Auto Receive Codeunit ID** field.  
+    f. Fill in the remaining fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 
 ## VAT Obligations
 HMRC maintains a list of VAT obligations for companies, which are the periods for which they must report VAT and the due date for the report. HMRC exposes this information through their APIs, which enables [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to retrieve the obligations. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] stores VAT obligations as **VAT Return Periods**, and uses them to:

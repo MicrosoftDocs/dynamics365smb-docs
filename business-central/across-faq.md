@@ -6,7 +6,7 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan, application area, experience, support
-ms.date: 12/03/2018
+ms.date: 01/24/2019
 ms.author: edupont
 
 ---
@@ -22,6 +22,10 @@ If you want to deploy [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises, t
 
 ## Do I have to buy Office 365?
 No. But if you want to experience [!INCLUDE[d365fin](includes/d365fin_md.md)] as fully integrated with Office 365, you can sign up for a 1-month free trial of Office 365 [here](https://products.office.com/try).  
+
+If the account you sign up with is a non-Office 365 work account (such as joe@mysolution.com), and you have an Office 365 subscription, then you can associate your domain (mysolution.com) with the Office 365 subscription. For more information, see [Get help with Office 365 domains](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
+
+If you do not have an Office 365 subscription, and you do not want to buy one, then, when you sign up, we provision a new Azure Active Directory tenant for you so that you have access to the Azure portal where you have access to advanced administration tools.  
 
 ## What is the integration with Office 365 about?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is fully integrated with Office 365 so that you can navigate freely between Office 365 apps and [!INCLUDE[d365fin](includes/d365fin_md.md)] using the app launcher. In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can open data in Excel, print reports using Word, and you can work with your [!INCLUDE[d365fin](includes/d365fin_md.md)] data in Outlook, for example. For more information, see [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as your Business Inbox in Outlook](admin-outlook.md).  
@@ -80,5 +84,6 @@ There is no *save* button on pages like in other programs that you might be fami
 [Changing Basic Settings](ui-change-basic-settings.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Getting answers to questions](product-get-started.md#getting-answers-to-questions)  
+[Managing Users and Permissions](ui-how-users-permissions.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

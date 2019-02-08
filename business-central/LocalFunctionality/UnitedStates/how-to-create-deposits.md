@@ -11,12 +11,20 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 02/08/2019
     ms.author: sgroespe
 
 ---
 # Create Deposits
 You can make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos.  
+
+The **Deposit** page specifies bank deposit information. The information includes the bank account number, total deposit amount, deposit lines, posting date, document date, department code, currency code, and deposit notes. You can use the page to create new deposits, post deposits, print deposits, view deposit comments, or view a report that shows the deposit amount to be reconciled.
+
+The **Deposit** report displays customer and vendor deposits with the original deposit amount, the amount of the deposit that remains open, and the amount applied. The report also shows the total posted deposit amount to be reconciled.
+
+Deposit lines contain information about the individual deposited items, such as checks from customers. This information includes the document date and number, account type and number, and amount. The total of the amounts on the lines must add up to the total amount of the deposit entered on the deposit header.
+
+After you have filled in the deposit information and the associated deposit lines, you must post it in order to update the bank ledger, general ledger, customer ledger, and any other relevant ledgers. Posted deposits are stored for future reference and can be viewed on the **Posted Deposits** page.
 
 ## To create a deposit  
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Deposits**, and then choose the related link.  
@@ -42,17 +50,13 @@ You can make deposits to maintain a transaction record that contains information
     |**Document No.**|The journal line entry document number.|  
     |**Credit Amount**|The total credit amount on the journal line.|  
 
-5.  Optionally, on the **Navigate** tab, choose **Dimensions**, and then add relevant dimensions on the **Dimension Set Entries** page.  
-
-After you have created a deposit, you must post it.  
-
-## To post a deposit  
-1. Choose the **Post** action.  
+5.  Optionally, choose the **Dimensions** action, and then add relevant dimensions on the **Dimension Set Entries** page.  
+6. Choose the **Post** action.  
 
     > [!NOTE]  
     >  You can post a deposit only if the amount displayed in the **Total Deposit Lines** field is equal to the amount in the **Total Deposit Amount** field.  
 
-Next, you can use the Deposit Test Report and Deposit reports to reconcile your posted deposits with outstanding invoices and credit memos.  
+Next, you can use the **Deposit Test** and **Deposit** reports to reconcile your posted deposits with outstanding invoices and credit memos.  
 
 ## See Also  
 [United States Local Functionality](united-states-local-functionality.md)  

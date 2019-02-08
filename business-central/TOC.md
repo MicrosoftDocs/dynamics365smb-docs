@@ -1152,7 +1152,6 @@
 ## [United States](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 ### [Create Deposits](LocalFunctionality/UnitedStates/how-to-create-deposits.md)  
 ### [Export a Positive Pay File](finance-how-positive-pay.md)
-### [How to Manage Customer Credit Information](LocalFunctionality/UnitedStates/how-to-manage-customer-credit-information.md)
 ### [Print Troubleshooting Reports](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ### [Reconcile Bank Accounts](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md)
 ### [Reporting Sales Tax in the US](LocalFunctionality/UnitedStates/us-sales-tax.md)  

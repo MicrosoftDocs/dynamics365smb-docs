@@ -81,7 +81,7 @@ Only extensions that add or extend the page or source table are shown. Any other
 
 The **Page Filters** tab displays the current filters used on the current page. This includes those that are set by code, Views, or user-defined.
 
-### Elements shown with limited information**  
+#### Elements shown with limited information
 
 - System parts, such as links and notes
 - Reports request pages

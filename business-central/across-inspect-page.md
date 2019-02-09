@@ -71,17 +71,17 @@ The value of fields that have a data type of blob, byte, media, or mediaset are 
 Only extensions extending the page or source table are shown. Any other extensions are ignored.
 We cannot show the value for some Field data types  (blob, byte, media/mediaset
 
-### [Extensions](#tab/extensions)
+## [Extensions](#tab/extensions)
 
 The **Extensions** tab displays extensions that affect the page. "Ext. page, Ext. table" or "New page, new table" (when it was added by the extension)
 
 Only extensions that add or extend the page or source table are shown. Any other extensions are ignored.
 
-### [Page Filters](#tab/pagefilters)
+## [Page Filters](#tab/pagefilters)
 
 The **Page Filters** tab displays the current filters used on the current page. This includes those that are set by code, Views, or user-defined.
 
-#### Elements shown with limited information
+## Elements shown with limited information
 
 - System parts, such as links and notes
 - Reports request pages

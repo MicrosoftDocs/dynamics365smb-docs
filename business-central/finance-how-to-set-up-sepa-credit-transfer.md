@@ -57,7 +57,7 @@ Before you can process payment electronically by exporting payment files in the 
 3. On the **Pmt. Export Line Definitions** page, select the code that you specified in the **Code** field on the **Line Definitions** FastTab in step 4 in the “To describe the formatting of lines and columns in the file” section in the [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md) procedure.  
 
 ## See Also  
-[Collecting Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  
+[Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  
 [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md)  
 [Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)  
 [Exchanging Data Electronically](across-data-exchange.md)  

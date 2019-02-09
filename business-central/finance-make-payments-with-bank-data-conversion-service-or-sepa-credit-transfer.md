@@ -137,4 +137,4 @@ When the electronic payment is successfully processed by the bank, post the paym
 [Set Up SEPA Credit Transfer](finance-how-to-set-up-sepa-credit-transfer.md)  
 [Managing Payables](payables-manage-payables.md)   
 [Working with General Journals](ui-work-general-journals.md)  
-[Collecting Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)   
+[Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)   

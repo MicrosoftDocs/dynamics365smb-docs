@@ -65,9 +65,7 @@ The **Table Fields** tab displays information about all fields in the source tab
 
 ![Page Inspection](media/page-inspection-table-fields.png)
 
- Each field is shown with the following information:
-
-
+Each field is shown with the following information:
 
 - Field name as specified by the Name property.
 - Field number as specified by the Field No property.

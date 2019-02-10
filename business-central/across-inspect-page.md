@@ -43,6 +43,8 @@ As you navigate to other pages in the application, the **Page Inspection** pane 
 
 Page inspection shows the following information for any page or sub-page in a part or FactBox:
 
+![Page Inspection](media/page-inspection-table-fields.png)
+
 - Page name and ID.
 - Source table of page, including the table's name and ID.
 
@@ -61,31 +63,31 @@ Page inspection shows the following information for any page or sub-page in a pa
 
 ### [Table Fields](#tab/tablefields)
 
-Table Fields tab displays information about all fields in the the current record. Each field is shown with its name, number, data type, value, and an indicator if the field is a primary key.
+The **Table Fields** tab displays information about all fields in the source table for the current record, including those fields that do not appear on the page. Each field is shown with the following information:
 
-Page fields that are not bound to the source table field in their source expression are not shown.
-Fields in temporary tables are not shown.
-The value of fields that have a data type of blob, byte, media, or mediaset are not shown. 
+- The name as specified by the Name property.
+- The number assigned to the field as specified by the Field No property.
+- The data type as specified by the DataType property.
+- If the field is a primary key, it is indicated by **PK**.
+- The value of the field.
 
+#### What field information is not shown
 
-Only extensions extending the page or source table are shown. Any other extensions are ignored.
-We cannot show the value for some Field data types  (blob, byte, media/mediaset
+- Page fields that are not bound to the source table by the SourceExp property in their source expression are not shown.
+- Fields in temporary tables.
+- The value of fields that have a data type of blob, byte, media, or mediaset.
 
 ## [Extensions](#tab/extensions)
 
-The **Extensions** tab displays extensions that affect the page. "Ext. page, Ext. table" or "New page, new table" (when it was added by the extension)
+The **Extensions** tab displays extensions that are installed on the tenant and affect the selected page or source table.
+
+
+"Ext. page, Ext. table" or "New page, new table" (when it was added by the extension)
 
 Only extensions that add or extend the page or source table are shown. Any other extensions are ignored.
 
 ## [Page Filters](#tab/pagefilters)
 
 The **Page Filters** tab displays the current filters used on the current page. This includes those that are set by code, Views, or user-defined.
-
-## Elements shown with limited information
-
-- System parts, such as links and notes
-- Reports request pages
-- Role Center page types
-- Pages that do not have a source table.
 
 ## See Also  

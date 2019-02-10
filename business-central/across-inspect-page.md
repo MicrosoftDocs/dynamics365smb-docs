@@ -43,8 +43,6 @@ As you navigate to other pages in the application, the **Page Inspection** pane 
 
 Page inspection shows the following information for any page or sub-page in a part or FactBox:
 
-![Page Inspection](media/page-inspection-table-fields.png)
-
 - Page name and ID.
 - Source table of page, including the table's name and ID.
 
@@ -63,13 +61,19 @@ Page inspection shows the following information for any page or sub-page in a pa
 
 ### [Table Fields](#tab/tablefields)
 
-The **Table Fields** tab displays information about all fields in the source table for the current record, including those fields that do not appear on the page. Each field is shown with the following information:
+The **Table Fields** tab displays information about all fields in the source table for the current record, including those fields that do not appear on the page.
 
-- The name as specified by the Name property.
-- The number assigned to the field as specified by the Field No property.
-- The data type as specified by the DataType property.
+![Page Inspection](media/page-inspection-table-fields.png)
+
+ Each field is shown with the following information:
+
+
+
+- Field name as specified by the Name property.
+- Field number as specified by the Field No property.
+- Data type as specified by the DataType property.
 - If the field is a primary key, it is indicated by **PK**.
-- The value of the field.
+- Value of the field.
 
 #### What field information is not shown
 

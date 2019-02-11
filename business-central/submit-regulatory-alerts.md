@@ -64,4 +64,4 @@ We invite you to use Microsoft Dynamics Lifecycle Services (LCS) to submit regul
 [Welcome to Business Central](index.md)  
 [Getting Started](product-get-started.md)  
 
-## [!INCLUDE[d365fin](/includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

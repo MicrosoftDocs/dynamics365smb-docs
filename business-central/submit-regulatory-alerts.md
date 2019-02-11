@@ -34,8 +34,9 @@ We invite you to use Microsoft Dynamics Lifecycle Services (LCS) to submit regul
       - This part is not relevant for Dynamics 365 Business Central. Choose **Skip** to proceed to the next step.
     - Describe the alert
       - Enter information about the alert in the appropriate fields. Required fields are indicated by an asterisk (\*).
-        |Field        |Description                                                                                                                  |
-        |-------------|-----------------------------------------------------------------------------------------------------------------------------|
+
+        |Field        |Description                               |
+        |-------------|------------------------------------------|
         |Title  | Enter a descriptive title to identify the area of impact. For example, enter *Changes in invoice document as of January 1, 2018*. |
         |Description  | Enter a brief overview of the law. Your description should focus on issues that are relevant to enterprise resource planning (ERP), so that users can understand the requirements at a high level without having to read the legislation first.|
         |Country  | Specify the country or region that the legislation applies to.|

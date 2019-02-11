@@ -33,7 +33,7 @@ We invite you to use Microsoft Dynamics Lifecycle Services (LCS) to submit regul
     - Attach business processes
         - This part is not relevant for Dynamics 365 Business Central. Choose **Skip** to proceed to the next step.
     - Describe the alert
-        - Enter information about the alert in the appropriate fields. Required fields are indicated by an asterisk (<strong>\*</strong>).
+        - Enter information about the alert in the appropriate fields. Required fields are indicated by an asterisk (\*).
             |Field  |Description  |
             |---------|---------|
             |Title  |Enter a descriptive title to identify the area of impact. For example, enter *Changes in invoice document as of January 1, 2018*. |
@@ -64,4 +64,4 @@ We invite you to use Microsoft Dynamics Lifecycle Services (LCS) to submit regul
 [Welcome to Business Central](index.md)  
 [Getting Started](product-get-started.md)  
 
-## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](/includes/free_trial_md.md)]  

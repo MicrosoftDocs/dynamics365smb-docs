@@ -29,19 +29,19 @@ We invite you to use Microsoft Dynamics Lifecycle Services (LCS) to submit regul
 4. You can add a new alert by clicking the plus sign **(+)** sign at the top of the list
     This will present you with a 4-step guide to create the alert. The guide has the following steps:
     - Search for existing items
-      - Search for any information you think is relevant for the alert you are going to create. If you do not find any relevant search results you can select the **Submit regulatory alert** button at the bottom of the page to proceed with the alert submission.
+      Search for any information you think is relevant for the alert you are going to create. If you do not find any relevant search results you can select the **Submit regulatory alert** button at the bottom of the page to proceed with the alert submission.
     - Attach business processes
-      - This part is not relevant for Dynamics 365 Business Central. Choose **Skip** to proceed to the next step.
+      This part is not relevant for Dynamics 365 Business Central. Choose **Skip** to proceed to the next step.
     - Describe the alert
-      - Enter information about the alert in the appropriate fields. Required fields are indicated by an asterisk (\*).
+      Enter information about the alert in the appropriate fields. Required fields are indicated by an asterisk (\*).
 
         |Field        |Description                               |
         |-------------|------------------------------------------|
-        |Title  | Enter a descriptive title to identify the area of impact. For example, enter *Changes in invoice document as of January 1, 2018*. |
+        |Title  | Enter a descriptive title to identify the area of impact. For example, enter *Changes in invoice document as of July 1, 2019*. |
         |Description  | Enter a brief overview of the law. Your description should focus on issues that are relevant to enterprise resource planning (ERP), so that users can understand the requirements at a high level without having to read the legislation first.|
         |Country  | Specify the country or region that the legislation applies to.|
         |Industry| Specify the industry, if the requirement applies only to specific industries. For example, choose **Public sector**, **Retail**, or **Manufacturing**.|
-        |Feature reference  | Enter the feature reference, if you know it. The list of feature for specific country can be discovered in the [Localization portal](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC). **This is not relevant for Dynamics 365 Business Central**.|
+        |Feature reference  | This is not relevant for Dynamics 365 Business Central, but you can enter a feature reference, if you know it. The list of features for the specific country can be found in the [Localization portal](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC). |
         |Law enforcement date  | Specify the date when affected customers must start to comply with the law.|
         |Government announcement date  | Specify the date when the authority announced the change.|
         |Latest filing date  | Select the deadline for the first submission of the new or changed report.|
@@ -58,7 +58,8 @@ We invite you to use Microsoft Dynamics Lifecycle Services (LCS) to submit regul
         If you don't have all of the required information, or if you're not yet ready to submit the alert, you can save a partially completed alert.
 
     - Submission confirmation
-        After submitting the alert you will get a confirmation that the alert was successfully submitted to Microsoft.
+
+      After you submit the alert, you will get a confirmation that the alert was successfully submitted to Microsoft.
 
 ## See Also
 

@@ -18,10 +18,10 @@ We invite you to use Microsoft Dynamics Lifecycle Services (LCS) to submit regul
 ## To submit a regulatory alert in LCS
 
 1. Go to https://lcs.dynamics.com and log in
-    You will be presented with the projects you have access to.
+    You will be presented with the projects you have access to
 
 2. Select the **Regulatory Alerts - Worldwide** project
-    This will open the project and show a variety of things related to this project.
+    This will open the project and show a variety of things related to this project
 
 3. Select the **Alert service** on the right side in the **More tools** section
     You will see a list of alerts with the headline **Dynamics Regulatory Alert Submission**
@@ -34,23 +34,23 @@ We invite you to use Microsoft Dynamics Lifecycle Services (LCS) to submit regul
         - This part is not relevant for Dynamics 365 Business Central. Choose **Skip** to proceed to the next step.
     - Describe the alert
         - Enter information about the alert in the appropriate fields. Required fields are indicated by an asterisk (\*).
-            |Field  |Description  |
-            |-------|-------------|
-            |Title  |Enter a descriptive title to identify the area of impact. For example, enter *Changes in invoice document as of January 1, 2018*. |
-            |Description|Enter a brief overview of the law. Your description should focus on issues that are relevant to enterprise resource planning (ERP), so that users can understand the requirements at a high level without having to read the legislation first.|
-            |Country| Specify the country or region that the legislation applies to.|
+            |Field        |Description                                                                                                                  |
+            |-------------|-----------------------------------------------------------------------------------------------------------------------------|
+            |Title  | Enter a descriptive title to identify the area of impact. For example, enter *Changes in invoice document as of January 1, 2018*. |
+            |Description  | Enter a brief overview of the law. Your description should focus on issues that are relevant to enterprise resource planning (ERP), so that users can understand the requirements at a high level without having to read the legislation first.|
+            |Country  | Specify the country or region that the legislation applies to.|
             |Industry| Specify the industry, if the requirement applies only to specific industries. For example, choose **Public sector**, **Retail**, or **Manufacturing**.|
-            |Feature reference|Enter the feature reference, if you know it. The list of feature for specific country can be discovered in the [Localization portal](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC).</br>This is not relevant for Dynamics 365 Business Central.</i>|
-            |Law enforcement date|Specify the date when affected customers must start to comply with the law. |
-            |Government announcement date|Specify the date when the authority announced the change.|
-            |Latest filing date|Select the deadline for the first submission of the new or changed report. |
-            |Link to legislation|Enter one or more links to the published law, interpretation guideline, implementation guidance, or any other useful documentation that will help users understand or implement the requirement.|
-            |Company name|Enter the company name for the person who is submitting the alert.|
-            |Contact name|Enter the name of the person who is submitting the alert. |
-            |Contact email|The email address of the person who is submitting the alert.|
-            |Business process|The business processes that you selected through the **Alert submission** wizard|
-            |Comments|Enter any additional information that might be help users understand or implement the requirement. Click **Submit** to save your comment. Multiple comments can be added and should be submitted separately. Comments are saved in the order that they are added. |
-            |Attachments|Click the **Upload** button, and then browse to select a file to add as an attachment. After you select the file, it is uploaded and appears as a linked file. You can add up to three files that have a size of 5 MB each. To delete files that have been attached, click **Remove** under the title of the file. </br>Attachments must be publicly available materials. They cannot be propriety or customer-specific/partner-specific.|
+            |Feature reference  | Enter the feature reference, if you know it. The list of feature for specific country can be discovered in the [Localization portal](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC). **This is not relevant for Dynamics 365 Business Central**.|
+            |Law enforcement date  | Specify the date when affected customers must start to comply with the law.|
+            |Government announcement date  | Specify the date when the authority announced the change.|
+            |Latest filing date  | Select the deadline for the first submission of the new or changed report.|
+            |Link to legislation  | Enter one or more links to the published law, interpretation guideline, implementation guidance, or any other useful documentation that will help users understand or implement the requirement.|
+            |Company name  | Enter the company name for the person who is submitting the alert.|
+            |Contact name  | Enter the name of the person who is submitting the alert. |
+            |Contact email  | The email address of the person who is submitting the alert.|
+            |Business process  | The business processes that you selected through the **Alert submission** wizard|
+            |Comments  | Enter any additional information that might be help users understand or implement the requirement. Click **Submit** to save your comment. Multiple comments can be added and should be submitted separately. Comments are saved in the order that they are added. |
+            |Attachments  | Click the **Upload** button, and then browse to select a file to add as an attachment. After you select the file, it is uploaded and appears as a linked file. You can add up to three files that have a size of 5 MB each. To delete files that have been attached, click **Remove** under the title of the file. Attachments must be publicly available materials. They cannot be propriety or customer-specific/partner-specific.|
 
         Click **Submit** to save and submit the alert.
 

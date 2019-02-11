@@ -43,7 +43,7 @@ As you navigate to other pages in the application, the **Page Inspection** pane 
 
 In short, the page inspection pane shows the information for any page or sub-page in a part, including its source table (if any), fields, extensions that affect the page, and filters. The following section describe details about what is shown.
 
-### Page
+### [Page](#tab/page)
 
 The **Page** field shows information about the main page or a selected (highlighted) sub-page in a part. The field shows the following information:
 
@@ -58,14 +58,14 @@ The **Page** field shows information about the main page or a selected (highligh
     
     If a page has the type Role Center, the **Table** field does not appear, and the text **This is a Role Center page** is shown instead. Because the Role Center consists of several parts, there is no more information shown. To see more details, select the different parts that make up the page.
 
-- Reports and report request pages
+- Report request pages and previews
 
-    If you open a report preview or report request page for inspection, the only information that is shown in the Page Inspection pane is the rpeort name and its ID.
+    If you open a report request page or preview for inspection, the only information that is shown in the Page Inspection pane is the report's name and ID.
 
 - System parts, such as links and notes.
 
 
-### Table
+### [Table](#tab/table)
 
 The **Table** field displays information about the source table of the main page or the selected page in a part, as specified by the page's [SourceTable property](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-sourcetable-property). The **Table** field shows the following information:
 
@@ -74,7 +74,7 @@ The **Table** field displays information about the source table of the main page
 
 - If the page does not have a source table.
 
-### View Table
+#### View Table
 
 If a page has a source table, the **View table** link is available. This  link will open the table in a separate browser window, allowing you to see all records and fields in the table.
 

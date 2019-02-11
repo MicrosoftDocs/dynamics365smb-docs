@@ -43,7 +43,10 @@ As you navigate to other pages in the application, the **Page Inspection** pane 
 
 Page inspection shows the following information for any page or sub-page in a part or FactBox:
 
-- Page name and ID.
+### Page
+The Page field shows the name and ID of the highlighted page, as specified by the pages' Name property and ID property.
+
+
 - Source table of page, including the table's name and ID.
 
   For most tables, there is also a link that allows you to open the full table in a separate browser window.
@@ -67,10 +70,10 @@ The **Table Fields** tab displays information about all fields in the source tab
 
 Each field is shown with the following information:
 
-- Field name as specified by the Name property.
-- Field number as specified by the Field No property.
-- Data type as specified by the DataType property.
-- If the field is a primary key, it is indicated by **PK**.
+- Field name as specified by the [Name property](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-name-property).
+- Field number as specified by the [Field No property](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-field-no.-property).
+- Data type as specified by the [Data Type property](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-data-type-property).
+- If the field is a primary key, it is indicated by **PK**. A primary is  specified by the [Key property](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-key-property).
 - Value of the field.
 
 #### What field information is not shown

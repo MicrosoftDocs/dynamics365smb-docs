@@ -29,11 +29,14 @@ We invite you to use Microsoft Dynamics Lifecycle Services (LCS) to submit regul
 4. You can add a new alert by clicking the plus sign **(+)** sign at the top of the list
     This will present you with a 4-step guide to create the alert. The guide has the following steps:
     - Search for existing items
-      Search for any information you think is relevant for the alert you are going to create. If you do not find any relevant search results you can select the **Submit regulatory alert** button at the bottom of the page to proceed with the alert submission.
+
+        Search for any information you think is relevant for the alert you are going to create. If you do not find any relevant search results you can select the **Submit regulatory alert** button at the bottom of the page to proceed with the alert submission.
     - Attach business processes
-      This part is not relevant for Dynamics 365 Business Central. Choose **Skip** to proceed to the next step.
+
+        This part is not relevant for Dynamics 365 Business Central. Choose **Skip** to proceed to the next step.
     - Describe the alert
-      Enter information about the alert in the appropriate fields. Required fields are indicated by an asterisk (\*).
+
+        Enter information about the alert in the appropriate fields. Required fields are indicated by a red asterisk (\*) in the guide.
 
         |Field        |Description                               |
         |-------------|------------------------------------------|

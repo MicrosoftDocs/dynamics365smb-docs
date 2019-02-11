@@ -693,7 +693,7 @@
 ### [Set Up Goods and Service Tax Posting](LocalFunctionality/Australia/how-to-set-up-goods-and-service-tax-posting.md)
 ### [Set Up Revenue Types for Withholding Tax](LocalFunctionality/Australia/how-to-set-up-revenue-types-for-withholding-tax.md)
 ### [Set Up Vendors Without ABN for Calculating the Withholding Tax](LocalFunctionality/Australia/how-to-set-up-vendors-without-abn-for-calculating-the-withholding-tax.md)
-### [Set Up Withholding Tax]LocalFunctionality/Australia/(how-to-set-up-withholding-tax.md)
+### [Set Up Withholding Tax](LocalFunctionality/Australia/how-to-set-up-withholding-tax.md)
 ### [Tax](LocalFunctionality/Australia/tax.md)
 ### [View Posted Tax Invoices](LocalFunctionality/Australia/how-to-view-posted-tax-invoices.md)
 ### [View Posted Tax Credit Memos](LocalFunctionality/Australia/how-to-view-posted-tax-credit-memos.md)

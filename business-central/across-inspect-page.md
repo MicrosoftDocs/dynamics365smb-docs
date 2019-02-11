@@ -41,7 +41,7 @@ As you navigate to other pages in the application, the **Page Inspection** pane 
 
 ## What Page Inspection Shows
 
-Page inspection shows the following information for any page or sub-page in a part:
+In short, the page inspection pane shows the information for any page or sub-page in a part, including its source table (if any), fields, extensions that affect the page, and filters. The following section describe details about what is shown.
 
 ### Page
 
@@ -52,16 +52,7 @@ The **Page** field shows information about the main page or a selected (highligh
 - The type, as specified by the [PageType property](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-pagetype-property).
 
 
-
-
-- Source table of page, including the table's name and ID.
-
-
-- Table fields for the current record. Each field is shown with its name, number, data type, value, and a primary key indicator.
-- Filters on the current page. This includes those that are set by code, Views, or user-defined.
-- Extensions that affect the page. "Ext. page, Ext. table" or "New page, new table" (when it was added by the extension)
-
-**Elements shown with limited information**  
+#### Elements shown with limited information  
 
 - Role Center page types
     

@@ -41,7 +41,7 @@ As you navigate to other pages in the application, the **Page Inspection** pane 
 
 ## What Page Inspection Shows
 
-In short, the page inspection pane shows the information for any page or sub-page in a part, including its source table (if any), fields, extensions that affect the page, and filters. The following section describe details about what is shown.
+In short, the page inspection pane shows the information for the main page or sub-page in a part, the page's source table (if any) and fields, extensions that affect the page, and current filters applied to the page. The following sections describe details about what is shown.
 
 ### [Page](#tab/page)
 
@@ -78,7 +78,8 @@ The **Table** field displays information about the source table of the main page
 
 If a page has a source table, the **View table** link is available. This  link will open the table in a separate browser window, allowing you to see all records and fields in the table.
 
-To view a table, above having read permission on the table, you must have execute permission on the system object **1350 Run Table**. This is granted by in permission set on your user account. 
+> [!NOTE]
+> To view a table, you must read permission on the table and direct execute permission on the system object **1350 Run table**. This is granted by in permission set on your user account. For more information, see [Managing Users and Permissions](ui-how-users-permissions.md) 
 
 ### [Table Fields](#tab/tablefields)
 

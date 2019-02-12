@@ -15,8 +15,6 @@ ms.author: edupont
 # Create a product or service in [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
 Products are the basis of your business, the goods or services that you trade in. Each product must be registered as an item in the Prices list. An item holds the information that is required to buy, store, sell, deliver, and account for products you sell.  
 
-> [!VIDEO https://www.youtube.com/embed/A_eCrHibuGU]
-
 ## To create a product or service
 1. In [!INCLUDE[d365inv](includes/d365inv.md)], on the Home page, choose **Prices**.  
 2. Choose **New** in the upper right corner of the page  to add a new item to the **Prices** list.  

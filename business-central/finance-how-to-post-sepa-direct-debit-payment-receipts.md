@@ -35,5 +35,5 @@ You can post the payment receipt directly from the **Direct Debit Collections** 
 5. Choose the **OK** button.  
 
 ## See Also  
- [Collecting Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)   
+ [Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)   
  [Sales](sales-manage-sales.md)

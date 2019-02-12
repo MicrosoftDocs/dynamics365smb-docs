@@ -100,5 +100,5 @@ The following table shows the combinations of FIK and GIRO payment methods that 
 [Create SEPA Direct Debit Collection Entries and Export to a Bank File](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)  
 [Set Up SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)  
 [Post SEPA Direct Debit Payment Receipts](finance-how-to-post-sepa-direct-debit-payment-receipts.md)  
-[Collecting Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  
+[Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  
 [Working with General Journals](ui-work-general-journals.md)  

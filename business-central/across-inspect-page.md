@@ -118,6 +118,17 @@ There are four different types:
 
 ## [Page Filters](#tab/pagefilters)
 
-The **Page Filters** tab displays the current filters used on the current page. This includes those that are set by code, Views, or user-defined.
+The **Page Filters** tab displays the current filters used on the current page. This includes those that are set by code, Views, or defined by the user in the Filter pane of the page.
 
+![Page Inspection](media/page-inspection-page-filters.png)
+
+The following table described the different filter types.
+
+|Type|Description|
+|----|-----------|
+|UserFilters|Filter that is defined by the client user via the Filter pane or defined in code using filter methods like SETFILTER or SETRANGE.|
+|TableViewFilter|Filters that is defined on the page by the [SourceTableView property](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-sourcetableview-property)|
+|SubFormLinkFilters|Filter that is defined by the [SubPageLink property](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-subpagelink-property) on the `part` control that contains the sub-page.|
+|FormViewFilters|Filter that is defined by [RunPageView property](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-runpageview-property) of the action that opens the page.|
+ 
 ## See Also  

@@ -62,7 +62,7 @@ The **Page** field shows information about the main page or a selected (highligh
 
     If you open a report request page or preview for inspection, the only information that is shown in the Page Inspection pane is the report's name and ID.
 
-- System parts, such as links and notes.
+- System parts, such as Links, Notes, and Charts.
 
 
 ### [Table](#tab/table)
@@ -96,7 +96,7 @@ Each field is shown with the following information:
 
 #### What field information is not shown
 
-- Page fields that are not bound to the source table by the SourceExp property in their source expression are not shown.
+- Page fields that are not bound to the source table by the [SourceExp property](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-sourceexpr-property)
 - Fields in temporary tables.
 - The value of fields that have a data type of blob, byte, media, or mediaset.
 
@@ -104,10 +104,17 @@ Each field is shown with the following information:
 
 The **Extensions** tab displays extensions that are installed on the tenant and affect the selected page or source table.
 
+![Page Inspection](media/page-inspection-extensions.png)
 
-"Ext. page, Ext. table" or "New page, new table" (when it was added by the extension)
 
-Only extensions that add or extend the page or source table are shown. Any other extensions are ignored.
+The data shown is defined in the app.json of the ex
+
+There are four different types:
+
+- **Adds page** indicates that the extensions adds the page object.
+- **Extends page** indicates that the extension modifies the page, like adding a field, and action, or code. In AL, this is specified by a page extension object.
+- **Adds table** indicates that the extensions adds the table object.
+- **Extends table** indicates that the extension modifies the source table, like adding a field or code. In AL, this is specified by a table extension object.  
 
 ## [Page Filters](#tab/pagefilters)
 

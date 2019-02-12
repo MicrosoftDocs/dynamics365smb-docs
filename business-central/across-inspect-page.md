@@ -126,9 +126,9 @@ The following table described the different filter types.
 
 |Type|Description|
 |----|-----------|
-|UserFilters|Filter that is defined by the client user via the Filter pane or defined in code using filter methods like SETFILTER or SETRANGE.|
+|UserFilters|Filter that is defined by the client user via the Filter pane (see [Filtering](ui-enter-criteria-filters.md#Filtering) or defined in code using filter methods like [SETFILTER](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/table/table-setfilter-method) or [SETRANGE](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/table/table-setrange-method).|
 |TableViewFilter|Filters that is defined on the page by the [SourceTableView property](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-sourcetableview-property)|
 |SubFormLinkFilters|Filter that is defined by the [SubPageLink property](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-subpagelink-property) on the `part` control that contains the sub-page.|
 |FormViewFilters|Filter that is defined by [RunPageView property](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-runpageview-property) of the action that opens the page.|
  
-## See Also  
+<!-- ## See Also -->  

@@ -107,7 +107,7 @@ The **Extensions** tab displays extensions that are installed on the tenant and 
 
 ![Page Inspection](media/page-inspection-extensions.png)
 
-Except for the type. the data that is shown is defined in the app.json the extension during development. For more information, see [App.json](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-json-files#Appjson).
+Except for the type, the data that is shown is defined in the extension's app.json file during development. For more information, see [App.json](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-json-files#Appjson).
 
 There are four different types:
 

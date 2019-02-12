@@ -102,12 +102,11 @@ Each field is shown with the following information:
 
 ## [Extensions](#tab/extensions)
 
-The **Extensions** tab displays extensions that are installed on the tenant and affect the selected page or source table.
+The **Extensions** tab displays extensions that are installed on the tenant and affect the selected page or its source table.
 
 ![Page Inspection](media/page-inspection-extensions.png)
 
-
-The data shown is defined in the app.json of the ex
+Except for the type. the data that is shown is defined in the app.json the extension during development. For more information, see [App.json](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-json-files#Appjson).
 
 There are four different types:
 

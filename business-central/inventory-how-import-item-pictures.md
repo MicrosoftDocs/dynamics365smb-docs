@@ -22,11 +22,11 @@ All common file formats are supported.
 ## To name picture files by the item names and prepare the zip file
 1. At the location where your item pictures are stored, name each files according to the number of the related item. For example:
 
-|Item No.|File Name|
-|-|-|
-|1000|1000.bmp|
-|1001|1001.bmp|
-|1002|1002.bmp|
+    |Item No.|File Name|
+    |-|-|
+    |1000|1000.bmp|
+    |1001|1001.bmp|
+    |1002|1002.bmp|
 
 2. Collect all the files in a ZIP file. For example, in Windows Explorer, select the files, and then choose **Send to**, **Compressed (zipped) folder**.     
 

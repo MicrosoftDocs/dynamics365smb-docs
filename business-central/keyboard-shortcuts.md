@@ -39,13 +39,29 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Alt+Down Arrow|Open a drop-down list or look up a value for a field.|    
 |Alt+Right Arrow|See the transactions that resulted in a calculated value in a field.|  
 |F5|Refresh the data on the current page.|Use this to ensure that the data on the page is up-to-date with any changes that others have made while you are working.|
-|Crtl+Alt+F1|Open the page inspection pane to see information about the page, like its source table, fields, filters, extensions, and more.|[Inspecting Pages](across-inspect-page.md)|
+|Crtl+Alt+F1|Open and close the page inspection pane. The page inspection pane shows information about the page, like its source table, fields, filters, extensions, and more.|[Inspecting Pages](across-inspect-page.md)|
 |Ctrl+F5|Reload the [!INCLUDE[prodshort](includes/prodshort.md)] application.|This is similar to selecting refresh/reload in the browser.|
-|Ctrl+F12|Switch between wide and narrow layout|
-|Alt+F2|Show and hide the FactBox.|
-|Alt+T|Open the **My Settings**.|
+|Ctrl+F12|Switch between wide and narrow layout view.|
+|Alt+F2|Show and hide the FactBox pane.|
+|Alt+T|Open and close the **My Settings** page.|
 |Esc|Close the current page or drop-down.|
 
+## New records
+
+|Press these keys<br />(in macOS)|To do this|  
+|----------------|-----------|  
+|Alt+N |Creates a new entity, the same way as selecting **New** action |The same|Lists, Cards, Document pages|
+|Alt+Shift+N |Closes the current card page and creates a new entity; the same as selecting the back arrow and then the **New** action.|The same|Cards, Document pages||
+
+## Cards
+|Press these keys<br />(in macOS)|To do this|  
+|----------------|-----------|  
+|Ctrl+RightArrow|Open the next record for an entity.|Cards, Documents ||
+|Ctrl+LeftArrow |Open the previous record for an entity.|Cards, Documents ||
+|F6|Move to next FastTab/Section/Subpage |Cards, Documents |
+|Shift+F6|Move to previous FastTab/Section/Subpage |Cards, Documents |
+|Alt+F6|Collapse and expand the current FastTab.|Cards, Documents|
+|Ctrl+Shift+F12 |Switch focus mode on and off |Documents|
 
 ## Keyboard Shortcuts in Lists
 
@@ -58,17 +74,9 @@ The following table describes the keyboard shortcuts that you can use in a list 
 
 |Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |Remarks|
 |-----------------|-------|-------|-------|
-|Alt+F7 |Sort by current column on a list ||
-|Shift+F10 |Display context menu of an item ||
-|Alt+N |‘New’ action - creates a new element |Lists, Cards, Document|
-|Alt+Shift+N |'OK & New’ action (closes current card and opens new)|Cards, Documents |
-|Ctrl+Delete| Delete a line on a worksheet |Worksheets|
-|Ctrl+LeftArrow|Previous navigation |Cards, Documents |
-|Ctrl+RightArrow|Next navigation|Cards, Documents |
-|F6|move to next FastTab/Section/Subpage |Cards, Documents |
-|Shift+F6|move to previous FastTab/Section/Subpage |Cards, Documents |
-|Alt+F6|Collapse/expand current FastTab |Cards, Documents|
-|Ctrl+Shift+F12 |Switch focus mode on and off |Documents|
+|Alt+F7 |Sort the selected column in ascending or descending order.|Not applicable.||
+|Shift+F10 |Opens a menu of options that are available for selected row.|Not applicable.||
+|Ctrl+Delete| Delete a line on a worksheet |Only available on Worksheet pages, like **Item Journals**|
 
 ### <a name="navigateshortcuts"></a> Navigate between rows and columns
 

@@ -70,7 +70,12 @@ If you have signed up for a trial and have not yet purchased [!INCLUDE[d365fin](
 You can find a Business Central partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page.  
 
 ## Why does Help describe functionality that I cannot access?
-If your Experience setting on the **Company Information** page is set to **Essential**, then UI elements for the Manufacturing and Service Management features are not visible to you because they require the **Premium** experience. A text note is inserted in high-level help topics for these feature areas. For more information, see [Changing Which Features are Displayed](ui-experiences.md).  
+If your Experience setting on the **Company Information** page is set to **Essential**, then UI elements for the Manufacturing and Service Management features are not visible to you because they require the **Premium** experience. A text note is inserted in high-level help topics for these feature areas. For more information, see [Changing Which Features are Displayed](ui-experiences.md).
+
+## Where is the save button?
+
+There is no *save* button on pages like in other programs that you might be familiar with. In [!INCLUDE[d365fin](includes/d365fin_md.md)], changes that you make to a field are automatically saved as soon as you move to the next field or close the page, as long as there are no errors. When you make changes to a field and move to another field, you will see the text **Saving** in the top-right corner of the page, which will quickly change to **Saved** if no errors occur. If an error occurs, the text will change to **Not Saved**.
+
 
 ## See Also
 [Getting Started](product-get-started.md)  

@@ -40,6 +40,9 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Alt+Right Arrow|See the transactions that resulted in a calculated value in a field.|  
 |F5|Refresh the data on the current page.|Use this to ensure that the data on the page is up-to-date with any changes that others have made while you are working.|
 |Ctrl+F5|Reload the [!INCLUDE[prodshort](includes/prodshort.md)] application.|This is similar to selecting refresh/reload in the browser.|
+|Ctrl+F12|Switch between wide and narrow layout|
+|Alt+F2|Show and hide the FactBox.|
+|Alt+T|Open the **My Settings**.|
 |Esc|Close the current page or drop-down.|
 
 
@@ -50,6 +53,21 @@ The following table describes the keyboard shortcuts that you can use in a list 
 > [!Note]
 > In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
 -->
+### General
+
+|Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |Remarks|
+|-----------------|-------|-------|-------|
+|Alt+F7 |Sort by current column on a list ||
+|Shift+F10 |Display context menu of an item ||
+|Alt+N |‘New’ action - creates a new element |Lists, Cards, Document|
+|Alt+Shift+N |'OK & New’ action (closes current card and opens new)|Cards, Documents |
+|Ctrl+Delete| Delete a line on a worksheet |Worksheets|
+|Ctrl+LeftArrow|Previous navigation |Cards, Documents |
+|Ctrl+RightArrow|Next navigation|Cards, Documents |
+|F6|move to next FastTab/Section/Subpage |Cards, Documents |
+|Shift+F6|move to previous FastTab/Section/Subpage |Cards, Documents |
+|Alt+F6|Collapse/expand current FastTab |Cards, Documents|
+|Ctrl+Shift+F12 |Switch focus mode on and off |Documents|
 
 ### <a name="navigateshortcuts"></a> Navigate between rows and columns
 

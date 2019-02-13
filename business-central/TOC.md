@@ -151,6 +151,7 @@
 ### [Set Up Item Units of Measure](inventory-how-setup-units-of-measure.md)
 ### [Set Up Stockkeeping Units](inventory-how-to-set-up-stockkeeping-units.md)
 ### [Categorize Items](inventory-how-categorize-items.md)
+### [Import Multiple Item Pictures](inventory-how-import-item-pictures.md)
 
 ## [Setting Up Project Management](projects-setup-projects.md)
 ### [Set Up Resources](projects-how-setup-resources.md)

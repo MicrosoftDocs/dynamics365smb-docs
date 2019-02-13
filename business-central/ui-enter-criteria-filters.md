@@ -83,7 +83,7 @@ The Quick Filter provides an easy access to filter data by entering plain text, 
 > [!TIP]
 > You can press F3 to activate and deactivate the search box. For more information see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
 
-## Filtering
+## <a name="Filtering"> </a>Filtering
 Filtering provides a more advanced and versatile way of controlling which records display in a list. There are two major differences between searching and filtering, as described in the table below.
 
 || **Searching** | **Filtering** |

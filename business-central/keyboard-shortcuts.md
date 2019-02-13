@@ -39,6 +39,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Alt+Down Arrow|Open a drop-down list or look up a value for a field.|    
 |Alt+Right Arrow|See the transactions that resulted in a calculated value in a field.|  
 |F5|Refresh the data on the current page.|Use this to ensure that the data on the page is up-to-date with any changes that others have made while you are working.|
+|Crtl+Alt+F1|Open the page inspection pane to see information about the page, like its source table, fields, filters, extensions, and more.|[Inspecting Pages](across-inspect-page.md)|
 |Ctrl+F5|Reload the [!INCLUDE[prodshort](includes/prodshort.md)] application.|This is similar to selecting refresh/reload in the browser.|
 |Ctrl+F12|Switch between wide and narrow layout|
 |Alt+F2|Show and hide the FactBox.|

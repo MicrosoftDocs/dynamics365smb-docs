@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: product, image
-ms.date: 02/11/2018
+ms.date: 02/13/2019
 ms.author: sgroespe
 
 ---
 # Import Multiple Item Pictures
 You can import multiple item pictures in one go. Simply name your picture files with a name corresponding to your item numbers, compress them to a zip file, and then use the **Import Item Pictures** page to manage which item pictures to import.
 
-Practically all image file types are supported.
+All common file formats are supported.
 
 ## To name picture files by the item names and prepare the zip file
 1. At the location where your item pictures are stored, name each files according to the number of the related item.
@@ -33,7 +33,16 @@ Practically all image file types are supported.
 
 ## To import item pictures
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Setup**, and then choose the related link.
-2.
+2. Choose the **Select a ZIP file** field, select the ZIP folder, and then choose the **Open** button.
+
+    A line for each item and picture is created.
+
+    > [!NOTE]
+    > For item cards that already have a picture, the **Picture Already Exists** check box is selected. If you do not want any existing pictures to be replaced, deselect the **Replace Pictures** check box. If you do not want individual existing pictures to be replaced, delete the lines in question.
+
+3. Choose the **Import Pictures** action.
+
+The **Import Status** field is updated to show if the picture import was skipped or completed.       
 
 ## See Also
 [Register New Items](inventory-how-register-new-items.md)  

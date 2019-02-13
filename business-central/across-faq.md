@@ -6,7 +6,7 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan, application area, experience, support
-ms.date: 01/24/2019
+ms.date: 02/13/2019
 ms.author: edupont
 
 ---
@@ -65,9 +65,7 @@ If you have access to Microsoft CustomerSource, you can get access to the Imagin
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is sold through partners, and you should contact your reselling partner to get help with technical problems. If your [!INCLUDE[d365fin](includes/d365fin_md.md)] partner then cannot resolve the problem, they will raise a support ticket with Microsoft.  
 
-If you have signed up for a trial and have not yet purchased [!INCLUDE[d365fin](includes/d365fin_md.md)], you do not have a reselling partner, and you cannot contact the Microsoft support team.  
-
-You can find a Business Central partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page.  
+For more information, see [Help and Support](product-help-and-support.md).  
 
 ## Why does Help describe functionality that I cannot access?
 If your Experience setting on the **Company Information** page is set to **Essential**, then UI elements for the Manufacturing and Service Management features are not visible to you because they require the **Premium** experience. A text note is inserted in high-level help topics for these feature areas. For more information, see [Changing Which Features are Displayed](ui-experiences.md).

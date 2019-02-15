@@ -29,6 +29,8 @@ Countries that follow the CMR Convention adhere to a standard form for CMR notes
 
 - **CMR - Transfer Shipment** – This report is used to print CMR documents for transfer shipments. For each CMR document, the report shows address data for the location from which the items are shipped, the location to which the items are shipped, and information regarding the shipping agent, along with data about the shipped items.
 
+- **CMR - Purchase Return Shipment** – This report is used to print CMR documents for purchase return shipments. For each CMR document, the report shows address data for the sender, shipping agent and consignee, along with data about the shipped items.
+
 > [!NOTE]  
 >  CMR notes are formatted to print on preprinted CMR forms.  
 

@@ -12,6 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
+    redirect_url: how-to-set-up-and-export-sales-vat-advance-notifications.md
     ms.date: 10/01/2018
     ms.author: sgroespe
 
@@ -27,7 +28,7 @@ You must first set up [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to be ab
 The tax authorities' server processes the submitted XML document, and sends an XML document in response. This response document displays codes and descriptions for errors that occurred during the processing of the submitted XML document. The XML documents are encrypted during transmission. For more information, see the [ELSTER online portal](https://go.microsoft.com/fwlink/?LinkId=155998).  
 
 ## Architectural Overview  
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] includes an interface to the ELSTER portal, the Microsoft.Dynamics.ElsterTransferHandler.dll assembly. The assembly manages the communication with the ELSTER portal and installs when you install the [!INCLUDE[d365fin](../../includes/d365fin_md.md)] Pages client. For more information, see [ELSTER Transmission Overview](elster-transmission-overview.md).
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] includes an interface to the ELSTER portal, the Microsoft.Dynamics.ElsterTransferHandler.dll assembly. The assembly manages the communication with the ELSTER portal and installs when you install the [!INCLUDE[d365fin](../../includes/d365fin_md.md)] Windows client. For more information, see [ELSTER Transmission Overview](elster-transmission-overview.md).
 
 The ELSTER portal has requirements for computers that will submit documents. This includes a software certificate that you must acquire for each user who will submit documents to ELSTER. You must verify your installation against the information that is available on [ELSTER online portal](https://go.microsoft.com/fwlink/?LinkId=155998). The following section describes installation considerations for your [!INCLUDE[d365fin](../../includes/d365fin_md.md)] implementation.  
 

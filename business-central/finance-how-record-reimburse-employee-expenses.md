@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 10/01/2018
+ms.date: 11/27/2018
 ms.author: sgroespe
 
 ---
@@ -28,6 +28,9 @@ You post employees' expenses on the **General Journal** page.
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.
 2. Open the relevant general journal batch. For more information, see [Working with General Journals](ui-work-general-journals.md).
 3. On a new journal line, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]    
+
+    > [!NOTE]
+    > [!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]
 4. Repeat step 3 for all the expenses that the employee has incurred.
 
     > [!TIP]  
@@ -43,7 +46,7 @@ You reimburse employees by posting payments to their bank account on the **Payme
 5. Choose the **Post** action to register the reimbursement.  
 
 ## To reconcile reimbursements with employee ledger entries
-You apply employee payments to their related open employee ledger entries in the same way as you do for vendor payments, for example on the **Payment Reconciliation Journal** page, based on the related bank statement entries. For more information, see [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md). Alternatively, you can apply manually on the **Employee Ledger Entries** page. For more information, see the related [Reconcile Vendor Payments Manually](payables-how-apply-purchase-transactions-manually.md).  
+You apply employee payments to their related open employee ledger entries in the same way as you do for vendor payments, for example on the **Payment Reconciliation Journal** page, based on the related bank statement entries. For more information, see [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md). Alternatively, you can apply manually on the **Employee Ledger Entries** page. For more information, see the related [Reconcile Vendor Payments with the Payment Journal or from Vendor Ledger Entries](payables-how-apply-purchase-transactions-manually.md).  
 
 ## See Also
 [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)  

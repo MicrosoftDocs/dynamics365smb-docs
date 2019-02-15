@@ -1,5 +1,4 @@
 {
-  "need_generate_pdf": true,
   "docsets_to_publish": [
     {
       "docset_name": "d365accountant",
@@ -70,14 +69,15 @@
   ],
   "notification_subscribers": [
     "edupont@microsoft.com",
-    "solsen@microsoft.com",
-    "sgroespe@microsoft"
+    "solsen@microsoft.com"
   ],
+  "sync_notification_subscribers": [],
   "branches_to_filter": [],
   "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/dynamics365smb-docs",
   "git_repository_branch_open_to_public_contributors": "live",
   "skip_source_output_uploading": false,
   "need_preview_pull_request": false,
+  "contribution_branch_mappings": {},
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
@@ -104,9 +104,8 @@
   },
   "need_generate_pdf_url_template": true,
   "targets": {
-    "Pdf": {
+    "pdf": {
       "template_folder": "_themes.pdf"
     }
-  },
-  "need_generate_intellisense": false
+  }
 }

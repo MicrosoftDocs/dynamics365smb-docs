@@ -1,6 +1,6 @@
 ---
     title: How to Delete Cost Budget Entries | Microsoft Docs
-    description: You use the **Delete Cost Budget Entries** batch job to cancel cost budget entries from the cost budget register.
+    description: You use the Delete Cost Budget Entries batch job to cancel cost budget entries from the cost budget register.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

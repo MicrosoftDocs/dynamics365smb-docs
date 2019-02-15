@@ -17,8 +17,8 @@ ms.author: edupont
 Access your [!INCLUDE[d365fin](includes/d365fin_md.md)] data from your mobile device. You can navigate through your business data, use features such as send to Excel or Office 365, view up-to-date charts and KPIs, email sales quotes and invoices, and shoot and attach pictures with your camera. Follow the steps below to download the app and get started.
 
 ## To get the app on my mobile device
-1. Install the [!INCLUDE[d365fin](includes/d365fin_md.md)] app on your mobile device by downloading the app from the Pages Store, App Store, or Google Play.  
-[![Pages Store](./media/install-mobile-app/windowsstore.png)](https://go.microsoft.com/fwlink/?LinkId=734848)
+1. Install the [!INCLUDE[d365fin](includes/d365fin_md.md)] app on your mobile device by downloading the app from the Windows Store, App Store, or Google Play.  
+[![Windows Store](./media/install-mobile-app/windowsstore.png)](https://go.microsoft.com/fwlink/?LinkId=734848)
 [![App Store](./media/install-mobile-app/appstore.png)](https://go.microsoft.com/fwlink/?LinkId=734847) [![Google Play](./media/install-mobile-app/googleplay.png)](https://go.microsoft.com/fwlink/?LinkId=734849)  
 2. Launch the app from your mobile device.
 3. Enter your user name and password that you created during sign-up for [!INCLUDE[d365fin](includes/d365fin_md.md)] and follow the instructions on the screen.

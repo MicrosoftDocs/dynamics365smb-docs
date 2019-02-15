@@ -3,7 +3,7 @@ title: Set Up Financial Processes| Microsoft Docs
 description: Learn about the tasks to set up finance in your business to suit all your accounting, auditing, or bookkeeping needs.
 services: project-madeira
 documentationcenter: ''
-author: edupont04
+author: SorenGP
 
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,8 +11,8 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 11/15/2018
-ms.author: edupont
+ms.date: 12/19/2018
+ms.author: sgroespe
 
 ---
 # Setting Up Finance
@@ -32,6 +32,8 @@ The following table describes a sequence of tasks, with links to the topics that
 | Define how you report value-added tax amounts that you have collected for sales to the tax authorities. |[Setting Up Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md)|
 |Prepare to handle unrealized VAT in connection with cash-based accounting methods.|[Set Up Unrealized VAT for Cash-Based Accounting](finance-setup-unrealized-vat.md)|
 | Set your Sales and Purchases features up to handle payments in foreign currencies.|[Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md)
+|Define one or more additional currencies so that amounts are automatically reported in both LCY and an additional reporting currency on each G/L entry and on other entries.|[Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md)|
+|Periodically adjust additional currency equivalents to make up for fluctuating exchange rates.|[Update Currency Exchange Rates](finance-how-update-currencies.md)|
 |Define multiple interest rates to be used for different periods for delayed payments in trade transactions.|[Set Up Multiple Interest Rates](finance-how-to-set-up-multiple-interest-rates.md)|
 |Prepare to round invoice amounts automatically when you create invoices.|[Set Up Invoice Rounding](finance-set-up-invoice-rounding.md)|
 | Add new accounts to the existing chart of accounts. |[Setting Up the Chart of Accounts](finance-setup-chart-accounts.md) |
@@ -39,6 +41,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Enable invoicing of a customer who is not set up in the system.|[Set Up Cash Customers](finance-how-to-set-up-cash-customers.md)|
 | Set up Intrastat reporting, and submit the report to an authority | [Set Up and Report Intrastat](finance-how-setup-report-intrastat.md)|
 |Prepare the Consolidated Trial Balance report on the Accountant Role Center to get a financial overview across multiple companies.|[Consolidating Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)|
+|Make sure an entry in a general journal is allocated to several different accounts when you post the journal, either quantity, percentage, or amount.|[Use Allocation Keys in General Journals](ui-how-use-allocation-keys-general-journals.md)|
 
 ## See Also
 [Finance](finance.md)  

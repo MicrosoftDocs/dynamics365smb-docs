@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 12/20/2018
     ms.author: sgroespe
 
 ---
@@ -23,7 +23,7 @@ On the blanket order, each separate shipment can be set up as an order line, whi
 An example of when a blanket sales order could be used is if a customer calls and places an order of 1000 units of an item and they want the items to be delivered in 250 units every week over the next month.
 
 > [!NOTE]
-> Blanket purchase orders work in a similar way as blanket sales orders. This documentation does not cover blanket purchase orders.
+> Blanket purchase orders work in a similar way as blanket sales orders. This documentation covers blanket sales orders only.
 
 ## To create a blanket sales order  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Blanket Sales Orders**, and then choose the related link.  
@@ -34,7 +34,7 @@ An example of when a blanket sales order could be used is if a customer calls an
 
 ## To create a sales order from a blanket sales order  
 
-1.  To create an order for any of the lines in the blanket assembly order, remove the quantity in the **Qty. to Ship** field on all the lines that you DO NOT wish to ship at this time.  
+1.  To create an order for any of the lines in the blanket sales order, remove the quantity in the **Qty. to Ship** field on all the lines that you do not wish to ship at this time.  
 2.  When you are ready to create orders, choose the **Make Order**m action, and then choose **Yes**. A message appears informing you that the blanket order has been assigned an order number. Note that the blanket order has not been deleted.  
 3.  Choose the **OK** button.  
 4.  To see the results of the preceding steps, choose the **Line** action, choose the **Unposted Lines** action, and then choose the **Orders** action.  
@@ -51,17 +51,17 @@ The following applies to sales orders after they have been created from blanket 
 - The invoiced blanket sales order remains in the system until it is deleted, either by deleting individual blanket orders or by running the **Delete Invoiced Blanket Sales Orders** batch job.  
 - If a customer is also recorded as a contact in the Marketing application area, and if you have specified an interaction template code for blanket sales order on the **Marketing Setup** page, an interaction is recorded in the Interaction Log Entry table when you select **Print** to print the blanket sales order.
 
-## To view the status of a blanket purchase order  
-You can see the status of a blanket sales order on the **Purchase Blanket Order Statistics** page. This may be relevant when you start to invoice the order that is created from the blanket purchase order.  
+## To view the status of a blanket sales order  
+You can see the status of a blanket sales order on the **Blanket Sales Order Statistics** page. This may be relevant when you start to invoice the order that is created from the blanket sales order.  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Blanket Purchase Orders**, and then choose the related link.  
-2.  Select a blanket purchase order, and then choose the **Statistics** action.  
-3.  On the **Purchase Blanket Order Statistics** page, on the **General** FastTab, you can see summary information about the entire order based on the total quantity in the various **Quantity fields** on the blanket purchase order lines.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Blanket Sales Orders**, and then choose the related link.  
+2.  Select a blanket sales order, and then choose the **Statistics** action.  
+3.  On the **Blanket Sales Order Statistics** page, on the **General** FastTab, you can see summary information about the entire order based on the total quantity in the various **Quantity fields** on the blanket sales order lines.  
 
-    - On the **Invoicing** FastTab, you can see summary information based on the total quantity in the **Qty. to Invoice** fields on the purchase blanket order lines.  
-    - On the **Shipping** FastTab, you can see summary information based on the total quantity in the **Qty. to Receive** fields on the purchase blanket order lines.  
-    - On the **Prepayment** FastTab, you can see summary information about any prepaid amounts.  
-    - On the **Vendor** FastTab, you can see certain basic information about the vendor.    
+- On the **Invoicing** FastTab, you can see summary information based on the total quantity in the **Qty. to Invoice** fields on the sales blanket order lines.  
+- On the **Shipping** FastTab, you can see summary information based on the total quantity in the **Qty. to Receive** fields on the sales blanket order lines.  
+- On the **Prepayment** FastTab, you can see summary information about any prepaid amounts.  
+- On the **Vendor** FastTab, you can see certain basic information about the vendor.    
 
 ## To view unposted and posted blanket sales order lines   
 The link between the blanket sales order and the originating sales order, and any other sales document, is retained after posting as a list of posted and unposted sales order invoice lines.  
@@ -70,55 +70,26 @@ The link between the blanket sales order and the originating sales order, and an
 2. Open the blanket sales order you want to view.
 3. To view unposted entries, select the line in question, choose the **Line** action, and then choose the **Unposted Lines** action. Choose one of the following options.  
 
-    <table>
-    <tr>
-    <th>Option</th>
-    <th>Description</th>
-    </tr>
-    <tr>
-    <td>**Orders**</td>
-    <td>Specifies open orders associated with the selected line.</td>
-    </tr>
-    <tr>
-    <td>**Invoices**</td>
-    <td>Specifies open invoices that have been associated with the selected line. Open invoices are manually associated with a blanket order by entering the blanket order number on the sales invoice line.</td>
-    </tr>
-    <tr>
-    <td>**Return Orders**</td>
-    <td>Specifies open return orders that have been associated with the selected line.</td>
-    </tr>
-    <tr>
-    <td>**Credit Memos**</td>
-    <td>Specifies open credit memos that have been associated with the selected line.</td>
-    </tr>
-    </table>
+    |Option|Description|
+    |--|--|
+    |**Orders**|Specifies open orders associated with the selected line.|
+    |**Invoices**|Specifies open invoices that have been associated with the selected line. Open invoices are manually associated with a blanket order by entering the blanket order number on the sales invoice line.|
+    |**Return Orders**|Specifies open return orders that have been associated with the selected line.|
+    |**Credit Memos**|Specifies open credit memos that have been associated with the selected line.|
+
 4. To view posted entries, select the line in question, choose the **Line** action, and then choose the **Posted Lines** action. Choose one of the following options.  
 
-    <table>
-    <tr>
-    <th>Option</th>
-    <th>Description</th>
-    </tr>
-    <tr>
-    <td>**Shipments**</td>
-    <td>Posted shipments associated with the selected line.</td>
-    </tr>
-    <tr>
-    <td>**Invoices**</td>
-    <td>Posted invoices associated with the selected line.</td>
-    </tr>
-    <tr>
-    <td>**Return Receipts**</td>
-    <td>Posted return receipts that have been associated with the selected line.</td>
-    </tr>
-    <tr>
-    <td>**Credit Memos**</td>
-    <td>Posted credit memos that have been associated with the selected line.</td>
-    </tr>
-    </table>
+    |Option|Description|
+    |---|----|
+    |**Shipments**|Posted shipments associated with the selected line.|
+    |**Invoices**|Posted invoices associated with the selected line.|
+    |**Return Receipts**|Posted return receipts that have been associated with the selected line.|
+    |**Credit Memos**|Posted credit memos that have been associated with the selected line.|
+
 5. On the **Sales Lines** page, choose the **Show Document** action to view the entry.
 
 ## See Also
-[Sales](sales-manage-sales.md)  
+[Sales](sales-manage-sales.md)
+[Create Blanket Assembly Orders](assembly-how-to-create-blanket-assembly-orders.md)  
 [Setting Up Sales](sales-setup-sales.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -1,5 +1,5 @@
 ---
-title: Reconcile Vendor Payments Manually| Microsoft Docs
+title: Reconcile Vendor Payments with the Payment Journal or from Vendor Ledger Entries| Microsoft Docs
 description: To process, match, or reconcile vendor payments or refunds manually, you apply the amount to one or more open vendor ledger entries.
 services: project-madeira
 documentationcenter: ''
@@ -15,7 +15,7 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 
 ---
-# Reconcile Vendor Payments Manually
+# Reconcile Vendor Payments with the Payment Journal or from Vendor Ledger Entries
 When you send a payment or receive a refund from a vendor, you must decide whether to apply the payment or refund to one or more open entries. You can specify the exact amount that you want to apply to the payment receipt or refund, and then only partially apply vendor ledger entries. You must apply all vendor ledger entries to obtain correct vendor statistics and reports of the account statements and finance charges.
 
 > [!NOTE]  

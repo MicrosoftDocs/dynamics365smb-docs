@@ -12,6 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
+    redirect_url: how-to-set-up-and-export-sales-vat-advance-notifications.md
     ms.date: 10/01/2018
     ms.author: sgroespe
 
@@ -35,7 +36,7 @@ You must also download components from the ELSTER portal. For more information, 
     |Field|Description|  
     |------------------------------------|---------------------------------------|  
     |**Use Proxy Server**|Select to use a proxy server for communication.|  
-    |**Proxy Server Authent. Required**|Select to use a dedicated proxy server for authentication.<br /><br /> If you use a proxy server and the required dedicated authentication, then you must enter the user account and the password before transmitting. If you use Pages authentication, do not select this field.|  
+    |**Proxy Server Authent. Required**|Select to use a dedicated proxy server for authentication.<br /><br /> If you use a proxy server and the required dedicated authentication, then you must enter the user account and the password before transmitting. If you use Windows authentication, do not select this field.|  
     |**Proxy Server IP-Address/Port**|The address and the port that will be used for communication if you use a proxy server.|  
 
 4.  On the **HTTP Servers** FastTab, fill in the fields as described in the following table.  

@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 11/08/2018
+ms.date: 02/08/2019
 ms.author: sgroespe
 
 ---
@@ -60,7 +60,7 @@ Administrators can define periods of time during which specified users are able 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Setup**, and then choose the related link.
 2. On the **User Setup** page opens, choose the **New** action.
-3. In the **User ID** field, enter the ID of a user, or choose the field to see all current Pages users in the system.
+3. In the **User ID** field, enter the ID of a user, or choose the field to see all current Windows users in the system.
 4. Fill in the fields as necessary.
 
 ## To create or modify a permission set
@@ -105,6 +105,10 @@ You can assign an indirect permission to use an object only through another obje
 For example, a user can have permission to run codeunit 80, Sales-Post. The Sales-Post codeunit performs many tasks, including modifying table 37, Sales Line. When the user posts a sales document, the Sales-Post codeunit, [!INCLUDE[d365fin](includes/d365fin_md.md)] checks if the user has permission to modify theSales Line table. If not, the codeunit cannot complete its tasks, and the user receives an error message. If so, the codeunit runs successfully.
 
 However, the user does not need to have full access to the Sales Line table to run the codeunit. If the user has indirect permission for the Sales Line table, then the Sales-Post codeunit runs successfully. When a user has indirect permission, that user can only modify the Sales Line table by running the Sales-Post codeunit or another object that has permission to modify the Sales Line table. The user can only modify the Sales Line table when doing so from supported application areas. The user cannot run the feature inadvertently or maliciously by other methods.
+
+### To limit a user's access to specific records in a table
+For record-level security in [!INCLUDE[d365fin](includes/d365fin_md.md)], you use security filters to limit a user's access to data in a table. You create security filters on table data. A security filter describes a set of records in a table that a user has permission to access. You can specify, for example, that a user can only read the records that contain information about a particular customer. This means that the user cannot access the records that contain information about other customers. For more information, see [Using Security Filters](/dynamics365/business-central/dev-itpro/security/security-filters) in Developer and IT-Pro help.
+
 
 ## To create or modify permission sets by recording your actions
 1.	Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Permission Sets**, and then choose the related link.
@@ -167,6 +171,7 @@ The following procedure explains how to assign permission sets to a user on the 
 > When you edit a permission set, the changes will also apply to other users that have the permission set assigned.
 
 ## See Also
+[Security and Protection in Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
 [Understanding Users, Profiles, and Role Centers](admin-users-profiles-roles.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Changing Which Features are Displayed](ui-experiences.md)  

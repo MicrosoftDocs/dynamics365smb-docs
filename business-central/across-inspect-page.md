@@ -12,18 +12,16 @@ author: jswymer
 ---
 # Inspecting Pages in Business Central
 
-The page inspection feature enables you to get details about a page, providing insight into the page design, the different elements that comprise the page, and the source behind the data it displays.
+The page inspection feature enables you to get details about a page, providing insight into the page design, the different elements that comprise the page, and the source behind the data it displays. Page inspection is especially designed for administrators, power users, support personnel, and developers. It is ideal for learning the data model behind a page and troubleshooting. For example, if you are experiencing a problem with a page, the information you see when you inspect a page can be useful when communicating with your system administrator or support personnel.
 
-Page inspection is especially designed for administrators, power users, support personnel, and developers. Page inspection helps you:
+<!-- 
+Page inspection helps you:
 
 - Learn the data model behind a page.
-
-- Discover pages and parts that can be reused in your application design.
-
+- Discover pages and parts that can be reused in you application design.
 - Troubleshoot data issues without having to perform tasks like copying the production database, viewing the entire source table, or digging into SQL.
-
-- Debug the application, complementing [Designer](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer).
-
+- Debug the application, complementing [Designer](devenv-inclient-designer.md).
+-->
 
 ## Working with Page Inspection
 
@@ -39,6 +37,9 @@ Use the keyboard or pointing device to move focus to different elements on the p
 
 As you navigate to other pages in the application, the **Page Inspection** pane will automatically update with page information as you move along.
 
+For more information about what is shown in page inspection, see [Inspecting and Troubleshooting Pages](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-pagetype-property) in the Business Central Developer and IT Pro help.
+
+<!--
 ## What Page Inspection Shows
 
 In short, the page inspection pane shows the information for the main page or sub-page in a part, the page's source table (if any) and fields, extensions that affect the page, and current filters applied to the page. The following sections describe details about what is shown.
@@ -129,5 +130,5 @@ The following table describes the different filter types.
 |TableViewFilter|Filters that is defined on the page by the [SourceTableView property](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-sourcetableview-property)|
 |SubFormLinkFilters|Filter that is defined by the [SubPageLink property](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-subpagelink-property) on the `part` control that contains the sub-page.|
 |FormViewFilters|Filter that is defined by [RunPageView property](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-runpageview-property) of the action that opens the page.|
- 
-<!-- ## See Also -->  
+-->
+## See Also  

@@ -1,6 +1,6 @@
 ---
 title: "Inspecting Pages in Business Central"
-description: Use the page inspection feature to get details about the page design and data source. 
+description: Use the page inspection feature to zoom into details about the page design and data source. Page inspector is ideal for troubleshooting issues with your data. 
 ms.custom: na
 ms.date: 17/12/2018
 ms.reviewer: na
@@ -18,7 +18,7 @@ Page inspection is especially designed for administrators, power users, support 
 
 - Learn the data model behind a page.
 
-- Discover pages and parts that can be reused in you application design.
+- Discover pages and parts that can be reused in your application design.
 
 - Troubleshoot data issues without having to perform tasks like copying the production database, viewing the entire source table, or digging into SQL.
 
@@ -27,15 +27,15 @@ Page inspection is especially designed for administrators, power users, support 
 
 ## Working with Page Inspection
 
-To inspect a page, in the top right corner, choose ![Settings icon](media/ui-experience/settings_icon_small.png), then choose **Inspect**. Or, you can use the keyboard shortcut Crtl+Alt+F1.
+To inspect a page, in the top right corner, choose ![Settings icon](media/ui-experience/settings_icon_small.png), then choose **Inspect**. Or, you can use the keyboard shortcut **Ctrl+Alt+F1**.
 
-The **Inspect Page** pane opens on the right side. The following figure illustrates the **Page Inspection** pane on the **Sales Order** page.
+The **Page inspection** pane opens on the side. The following figure illustrates the **Page Inspection** pane on the **Sales Order** page.
 
 ![Page Inspection](media/page-inspection-example.png)
 
 When the **Page Inspection** pane first opens, it shows information that pertains to the main page object.
 
-Use the keyboard or pointing device to move focus to different elements on the page. When you select a sub-page in a part of the main page or FactBox, the related area is highlighted by an orange border, and the **Page Inspection** pane shows information about the selected element. For example, the previous figure shows information about the list part in the **Sales Order** page.
+Use the keyboard or pointing device to move focus to different elements on the page. When you select a FactBox or a part on the main page, the bounding area is highlighted by an orange border, and the **Page Inspection** pane shows information about the selected element. For example, the previous figure shows information about the list part in the **Sales Order** page.
 
 As you navigate to other pages in the application, the **Page Inspection** pane will automatically update with page information as you move along.
 
@@ -54,25 +54,24 @@ The **Page** field shows information about the main page or a selected (highligh
 
 #### Elements shown with limited information  
 
-- Role Center page types
+- Role Center pages
     
-    If a page has the type Role Center, the **Table** field does not appear, and the text **This is a Role Center page** is shown instead. Because the Role Center consists of several parts, there is no more information shown. To see more details, select the different parts that make up the page.
+    If a page has the type Role Center, the **Table** field does not appear. Because the Role Center consists of several parts, there is no more information shown. To see more details, select the different parts that make up the Role Center.
 
 - Report request pages and previews
 
     If you open a report request page or preview for inspection, the only information that is shown in the Page Inspection pane is the report's name and ID.
 
-- System parts, such as Links, Notes, and Charts.
+- System parts, such as Links or Notes, and parts containing charts.
 
 
 ### [Table](#tab/table)
 
-The **Table** field displays information about the source table of the main page or the selected page in a part, as specified by the page's [SourceTable property](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-sourcetable-property). The **Table** field shows the following information:
+If the page is associated with a source table, the **Table** field displays information about the source table of the main page or the selected page in a part, as specified by the page's [SourceTable property](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-sourcetable-property). The **Table** field shows the following information:
 
 - The name, as specifed by its [Name property](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-name-property)
 - The ID as specifed by the [ID property](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-id-property).
 
-- If the page does not have a source table.
 
 #### View Table
 
@@ -118,11 +117,11 @@ There are four different types:
 
 ## [Page Filters](#tab/pagefilters)
 
-The **Page Filters** tab displays the current filters used on the current page. This includes those that are set by code, Views, or defined by the user in the Filter pane of the page.
+The **Page Filters** tab displays the current filters used on the current page. This includes filters that are set by code, list Views, or defined by the user in the Filter pane of the page.
 
 ![Page Inspection](media/page-inspection-page-filters.png)
 
-The following table described the different filter types.
+The following table describes the different filter types.
 
 |Type|Description|
 |----|-----------|

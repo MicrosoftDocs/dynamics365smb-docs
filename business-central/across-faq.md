@@ -5,8 +5,8 @@ author: edupont04
 
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan, application area, experience, support
-ms.date: 02/13/2019
+ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
+ms.date: 02/18/2019
 ms.author: edupont
 
 ---
@@ -40,11 +40,11 @@ From the community home page, you can also find links to our blogs where you can
 
 Finally, you can contact your [!INCLUDE[d365fin](includes/d365fin_md.md)] reselling partner. For more information, see the [How do I get technical support?](across-faq.md#how-do-i-get-technical-support-for-) section.  
 
-## Is it possible to extend my 30-day “New Company” trial period?
-Yes. If you want to extend your trial, you should contact Microsoft in your country or region. To find the right phone number, see the list in [CustomerSource](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-news/Support_Telephone#linkc). The list refers to phone numbers for Dynamics CRM Online, but the same numbers apply to all Dynamics 365 apps.  
+## Can I extend my 30-day “New Company” trial period?
+Yes. When the expiration date for your trial period is approaching we will display a notification to alert you when you sign in. The notification contains a link to the **Extend Trial Period** guide that you can use to extend your trial period. The extra 30 days start the moment you choose **Extend Trial** in the guide. You can extend the trial period one time yourself. After that, a Microsoft partner can extend it for another 30 days. For more information, see [Extend Your Trial Version](admin-extend-trial.md). To contact a Microsoft partner in your country or region now, see the list of phone numbers in [CustomerSource](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-news/Support_Telephone#linkc).  
 
 > [!NOTE]
-> It may take up to 2 business days to complete the trial extension process.  
+> It may take up to two business days to complete the trial extension process.  
 
 ## Our administrator has moved me to another plan to give me another role, but I still see the same Role Center in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 This is a bit complicated, but it looks like your administrator didn't change your Role Center and assign user groups that match the new license. Essentially, your access to [!INCLUDE[d365fin](includes/d365fin_md.md)] is determined by the type of plan (license) that you have - this sets permissions and your default Role Center page. You can change your Role Center manually in My Settings, but if you are moved to another plan, such as moving you from the Business plan to the Team Members plan, you might see the old Home because your permissions were not changed.  

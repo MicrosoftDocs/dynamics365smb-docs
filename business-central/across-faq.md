@@ -5,8 +5,8 @@ author: edupont04
 
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan, application area, experience, support
-ms.date: 01/24/2019
+ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
+ms.date: 02/18/2019
 ms.author: edupont
 
 ---

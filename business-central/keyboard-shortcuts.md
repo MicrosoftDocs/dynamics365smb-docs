@@ -31,37 +31,21 @@ The following table describes keyboard shortcuts for navigating and accessing di
 
 |Press these keys<br />(in macOS)|To do this|  
 |----------------|-----------|  
-|Alt+Q<br />(Ctrl+Alt+Q)|Open **Tell me what you want to do** box that can help you find a page, a report, an action on the current page, or an article in the documentation.|
-|Alt+Up Arrow|Show tooltip for a field or a column header of a table. If the field has validation errors, press "Alt+Up Arrow" to show the validation error. Press "Esc" or "Alt+Up Arrow" to close the tooltip.|
-|Tab|Move focus to the next control or element on a page, such as actions, buttons, fields, or list headings.|
-|Shift+Tab|Move focus to the previous control or element on a page, such as actions, buttons, fields, or list headings.|   
-|Enter|Enable or access the element or control that is in focus.|   
 |Alt+Down Arrow|Open a drop-down list or look up a value for a field.|    
 |Alt+Right Arrow|See the transactions that resulted in a calculated value in a field.|  
-|F5|Refresh the data on the current page.|Use this to ensure that the data on the page is up-to-date with any changes that others have made while you are working.|
-|Crtl+Alt+F1|Open and close the page inspection pane. The page inspection pane shows information about the page, like its source table, fields, filters, extensions, and more.|[Inspecting Pages](across-inspect-page.md)|
-|Ctrl+F5|Reload the [!INCLUDE[prodshort](includes/prodshort.md)] application.|This is similar to selecting refresh/reload in the browser.|
-|Ctrl+F12|Switch between wide and narrow layout view.|
 |Alt+F2|Show and hide the FactBox pane.|
+|Alt+Q<br />(Ctrl+Alt+Q)|Open **Tell me what you want to do** box that can help you find a page, a report, an action on the current page, or an article in the documentation.|
 |Alt+T|Open and close the **My Settings** page.|
-|Esc|Close the current page or drop-down.|
-
-## New records
-
-|Press these keys<br />(in macOS)|To do this|  
-|----------------|-----------|  
-|Alt+N |Creates a new entity, the same way as selecting **New** action |The same|Lists, Cards, Document pages|
-|Alt+Shift+N |Closes the current card page and creates a new entity; the same as selecting the back arrow and then the **New** action.|The same|Cards, Document pages||
-
-## Cards
-|Press these keys<br />(in macOS)|To do this|  
-|----------------|-----------|  
-|Ctrl+RightArrow|Open the next record for an entity.|Cards, Documents ||
-|Ctrl+LeftArrow |Open the previous record for an entity.|Cards, Documents ||
-|F6|Move to next FastTab/Section/Subpage |Cards, Documents |
-|Shift+F6|Move to previous FastTab/Section/Subpage |Cards, Documents |
-|Alt+F6|Collapse and expand the current FastTab.|Cards, Documents|
-|Ctrl+Shift+F12 |Switch focus mode on and off |Documents|
+|Alt+Up Arrow|Show tooltip for a field or a column header of a table. If the field has validation errors, press "Alt+Up Arrow" to show the validation error. Press "Esc" or "Alt+Up Arrow" to close the tooltip.|
+|Crtl+Alt+F1|Open and close the page inspection pane. The page inspection pane shows information about the page, like its source table, fields, filters, extensions, and more.|[Inspecting Pages](across-inspect-page.md)|
+|Crtl+F1|Open the Business Central help for the page.||
+|Ctrl+F5|Reload the [!INCLUDE[prodshort](includes/prodshort.md)] application.|This is similar to selecting refresh/reload in the browser.|
+|F5|Refresh the data on the current page.|Use this to ensure that the data on the page is up-to-date with any changes that others have made while you are working.|
+|Ctrl+F12|Switch between wide and narrow layout view.|
+|Enter|Enable or access the element or control that is in focus.|
+|Esc|Close the current page or drop-down.| 
+|Tab|Move focus to the next control or element on a page, such as actions, buttons, fields, or list headings.|
+|Shift+Tab|Move focus to the previous control or element on a page, such as actions, buttons, fields, or list headings.|
 
 ## Keyboard Shortcuts in Lists
 
@@ -76,7 +60,7 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |-----------------|-------|-------|-------|
 |Alt+F7 |Sort the selected column in ascending or descending order.|Not applicable.||
 |Shift+F10 |Opens a menu of options that are available for selected row.|Not applicable.||
-|Ctrl+Delete| Delete a line on a worksheet |Only available on Worksheet pages, like **Item Journals**|
+|Alt+N |Opens a page for creating a new record; the same way as selecting **New** action. |The same||
 
 ### <a name="navigateshortcuts"></a> Navigate between rows and columns
 
@@ -115,11 +99,11 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Ctrl+V<br />(Cmd+V)|Paste the selected rows from the Clipboard into the current page or external document, like Microsoft Excel or Outlook email.|Not applicable.|You can only do this editable lists.|
 |F8|Copy the field in the same column of the row above, and paste it into the current row.|Not applicable.|You can only do this in editable lists. Using this shortcut followed by a Tab lets you quickly fill out fields in line items that you want to have the same value as the row above.|
 
-### <a name="KeyboardFilter"></a> Keyboard Shortcuts for Searching and Filtering Lists
+### <a name="KeyboardFilter"></a>Searching and filtering lists
 
 |Press these keys<br />(in macOS)|To do this|
 |-----------------|-------|
-|F3|Toggles the search box.<ul><li>Activates the search box, so you can start typing your search text.</li><li>If the search box is already activated, F3 returns to the list without clearing the search text.</li><ul>|  
+|F3|Toggles the search box.<ul><li>Activates the search box, so you can start typing your search text.</li><li>If the search box is already activated, F3 returns to the list without clearing the search text.</li><ul>|
 |Shift+F3|Opens and closes the filter pane.<ul><li> If the filter pane is not open, Shift+F3 opens it and focuses on the **+ Filter** action under **Filter list by**, which lets you just hit Enter to start adding a field filter.</li><li>If the filter pane is already open, Shift+F3 closes it but does not clear any filters that you have added.</li></ul>|
 |Ctrl+Shift+F3|Opens and closes the filter pane.<ul><li> If the filter pane is not open, Ctrl+Shift+F3 opens it and focuses on the **+ Filter** action under **Filter total by**, which lets you just hit Enter to start adding a totals filter.</li><li>If the filter pane is already open, Ctrl+Shift+F3 closes it but does not clear any filters that you have added.</li></ul>  |
 |Alt+F3|Toggles filtering to this value.<ul><li>Applies a column filter on the selected field value in the list. This does the same as choosing **Filter to this value** from a column heading. It opens the filter pane, sets filter to the selected value, while focus remains on cell in the list.</li><li>If the column is already filtered, Alt+F3 clears the filter on that column.</li></ul> |
@@ -127,21 +111,45 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Ctrl+Shift+Alt+F3|Resets filters. This does the same as choosing **Reset filters** in the filter pane, and it applies to field and totals filters.<br /><br /> Filters return to the default filters for the current view. If the current view is **All**, then this is the equivalent to returning to an unfiltered view with all records. |
 |Ctrl+Enter|Returns to the list from the filter pane.|
 
+## Keyboard Shortcuts in Cards and Documents
+
+The following shortcuts are available on card pages (like **Customer**) and document pages (like **Sales Order**) for displaying and modifying records.
+
+|Press these keys<br />(in macOS)|To do this| Remarks|  
+|----------------|-----------|--------|  
+|Alt+F6|Collapse and expand the current FastTab.||
+|Alt+N |Opens a page for creating a new record; the same way as selecting **New** action. |The same||
+|Alt+Shift+N |Closes the current card page and creates a new entity; the same as selecting the back arrow and then the **New** action.||
+|Ctrl+RightArrow|Open the next record for an entity.||
+|Ctrl+LeftArrow |Open the previous record for an entity.||
+|Ctrl+Shift+F12 |Switch focus mode on and off |Documents only|
+|F6|Move to next FastTab/Section/Subpage ||
+|Shift+F6|Move to previous FastTab/Section/Subpage ||
+
+## Keyboard Shortcuts in Worksheets
+
+The following shortcuts are only available on Worksheet pages, like **Item Journals**.
+
+|Press these keys<br />(in macOS)|To do this|  
+|----------------|-----------|  
+|Ctrl+Delete| Delete a line item.|
+
 ## <a name="QuickEntry"></a>Quick Entry for Fields in Cards and Lists
 
-|Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |Remarks|
-|-----------------|-------|-------|-------|
-|Enter|Confirm the value in the current field and go to the next Quick Entry field.|Not applicable.|See [Accelerating Data Entry Using Quick Entry](ui-enter-data.md#QuickEntry)|
-|Shift+Enter|Confirm the value in the current field and go to the previous Quick Entry field.|Not applicable.|
+The following shortcuts pertain to the Quick Entry feature on cards and list page. On lists, the shortcuts cannot be used only when the list is in the tile view. For more information about Quick Entry, see [Accelerating Data Entry Using Quick Entry](ui-enter-data.md#QuickEntry).
+
+|Press these keys<br />(in macOS)|To do this|Remarks|
+|-----------------|-------|-------|
+|Enter|Confirm the value in the current field and go to the next Quick Entry field.||
+|Shift+Enter|Confirm the value in the current field and go to the previous Quick Entry field.||
 |Ctrl+Shift+Enter|Confirm the value in the current column and go to next Quick Entry field outside the list.|This shortcut applies to embedded lists on a page, such as line items on a sales order. It enables you to quickly get out of the list and continue entering data in other fields on the page.|
 
 ## <a name="calendarshortcuts"/> Keyboard Shortcuts in the Calendar (Date Picker)
+
 When setting a date field, you can either enter the date manually or open a calendar (date picker) that lets you select the date you want. The following table describes the keyboard shortcuts for the calendar.
 
 |Press these keys<br />(in macOS)|To do this|
 |-----------------|-------|
-|Page Up|Move to the previous month.|  
-|Page Down|Move to the next month.|
 |Ctrl+Home|Open the calendar if closed.|
 |Ctrl+Home<br />(Cmd+Home)|Move to the current month, current day.|
 |Ctrl+Left Arrow<br />(Cmd+Left Arrow)|Move to the previous day.|
@@ -151,41 +159,26 @@ When setting a date field, you can either enter the date manually or open a cale
 |Enter|Select the focused date.|
 |Ctrl+End<br />(Cmd+End)|Close the calendar and delete current the date.|
 |Esc|Close the calendar without a selection, keep current date.|
+|Page Down|Move to the next month.|
+|Page Up|Move to the previous month.|  
 
 ## <a name="reportpreviewshortcuts"/>Keyboard Shortcuts in the Report Preview
+
 |Press these keys<br />(in macOS)|To do this|
 |-----------------|-------|
 |Down Arrow|Scroll down the page.|  
 |Up Arrow|Scroll up the page.|
-|Right Arrow|Scroll to the right when the page is zoomed in so that it is not entirely in view. |
-|Left Arrow|Scroll to the left when the page is zoomed in so that it is not entirely in view. |
 |Ctrl+0 (zero)<br />(Cmd+0)|Fits the entire page on the page. |
 |Ctrl+Home<br />(Cmd+Home)|Go to the first page of the report.|
 |Ctrl+End<br />(Cmd+Home)|Go to the last page of the report.|
+|Left Arrow|Scroll to the left when the page is zoomed in so that it is not entirely in view. |
+|Right Arrow|Scroll to the right when the page is zoomed in so that it is not entirely in view. |
 |Page Down<br />(Fn+Down Arrow)|Go to the next page of the report.|
 |Page Up<br />(Fn+Up Arrow)|Go to the previous page of the report.|
 
 
-<!--
-## Keyboard shortcuts in list (shown as tiles)
-
-The following table describes the keyboard shortcuts that you can use in a list page when the page is shown as a tiles.
-
-
-|Keyboard Shortcut<br />(shortcut in osX)| Action|Remarks|
-|-----------------|-------|-------|
-|Up Arrow|Move to the tile above in the same column|  |   
-|Down Arrow|Move to the tile below in the same column|  |
-|Right Arrow|Move to the next tile in the same row| |
-|Left Arrow|Move to the previous tile in the same row | |
-|Home<br />(Fn+left Arrow)|Move to the first tile in the row|
-|End<br />Fn+right Arrow)|Move to the last tile in the row|
-|Page Up<br />(Fn+up Arrow)|Move up in the same column to the uppermost visible row|
-|Page Down<br />(Fn+down Arrow)|Move down in the same column to the lowermost visible row|
-|Enter<br />(Fn+down Arrow)|Opens the record (when a card page is available).|
--->
-
 ## See also
+
 [Assistive Features](ui-accessibility.md)  
 [Getting Started](product-get-started.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

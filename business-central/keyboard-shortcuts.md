@@ -29,8 +29,8 @@ Most of the shortcuts are the same no matter whether the operating system is Win
 ##  <a name="Keyboard"></a> General Keyboard Shortcuts
 The following table describes keyboard shortcuts for navigating and accessing different elements of a page, such as actions, drop-down lists, lookups, and more. For details about keyboard shortcuts for navigating records once you get inside a list, see the next section.
 
-|Press these keys<br />(in macOS)|To do this|  
-|----------------|-----------|  
+|Press these keys<br />(in macOS)|To do this| Remarks | 
+|----------------|-----------|----------|  
 |Alt+Down Arrow|Open a drop-down list or look up a value for a field.|    
 |Alt+Right Arrow|See the transactions that resulted in a calculated value in a field.|  
 |Alt+F2|Show and hide the FactBox pane.|
@@ -118,7 +118,7 @@ The following shortcuts are available on card pages (like **Customer**) and docu
 |Press these keys<br />(in macOS)|To do this| Remarks|  
 |----------------|-----------|--------|  
 |Alt+F6|Collapse and expand the current FastTab.||
-|Alt+N |Opens a page for creating a new record; the same way as selecting **New** action. |The same||
+|Alt+N |Opens a page for creating a new record; the same way as selecting **New** action. |||
 |Alt+Shift+N |Closes the current card page and creates a new entity; the same as selecting the back arrow and then the **New** action.||
 |Ctrl+RightArrow|Open the next record for an entity.||
 |Ctrl+LeftArrow |Open the previous record for an entity.||

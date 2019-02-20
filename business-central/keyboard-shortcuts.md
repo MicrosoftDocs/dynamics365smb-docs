@@ -61,7 +61,7 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Alt+F7 |Sort the selected column in ascending or descending order.|
 |Shift+F10 |Opens a menu of options that are available for selected row.|
 |Alt+N |Opens a page for creating a new record; the same way as selecting **New** action. |
-|Ctrl+C |Copy the value from field. If the field is in focus, and you have not selected any te|
+|Ctrl+C |Copy the value of field. If the field is in focus, and you have not selected any text in the field, this will copy the entire value. If you have selected any text in the field, then it will copy the selected text only.|
 
 ### <a name="navigateshortcuts"></a> Navigate between rows and columns
 

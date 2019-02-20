@@ -21,13 +21,11 @@ The **Job Queue Entries** page lists all existing jobs. If you add a new job que
 A job queue can have many entries, which are the jobs that the queue manages and runs. Information in the entry specifies what codeunit or report is run, when and how often the entry is run, in what category the job runs, and how it runs.  
 
 ## To set up background posting with job queues
-Job queues are an effective tool to schedule the running of business processes in the background, for example, if multiple users are trying to post sales orders at the same time, but only one order can be processed at a time. Alternatively, you may want to schedule postings for hours when it is convenient for your organization. For example, it may make sense in your business to run certain routines when most of the data entry for the day has concluded.
+Job queues are an effective tool to schedule the running of business processes in the background, such as when multiple are trying to post sales orders at the same time, but only one order can be processed at a time. Alternatively, you may want to schedule postings for hours when it is convenient for your organization. For example, it may make sense in your business to run certain routines when most of the data entry for the day has concluded.
 
-You can achieve this by setting the job queue up to run various batch-posting reports, such as the **Batch Post Sales Orders**, **Batch Post Sales Invoices**, and **Batch Post Sales Credit Memos** reports. For more information, see the "To create a job queue entry for background sales order posting" section.  
+You can achieve this by setting the job queue up to run various batch-posting reports, such as the **Batch Post Sales Orders**, **Batch Post Sales Invoices**, **Batch Post Sales Return Orders**, and **Batch Post Sales Credit Memos** reports. For more information, see the "To create a job queue entry for background sales order posting" section.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] supports background posting for the following document types:  
-    - Sales: sales order, return order, credit memo, invoice  
-    - Purchases: purchase order, return order, credit memo, invoice  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] supports background posting for all sales, purchase, and service documents.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup** or **Purchases & Payables**, and then choose the related link.
 2. On the **Background Posting** FastTab, choose the **Post with Job Queue** check box.
@@ -67,8 +65,19 @@ After a job has finished successfully, it is removed from the list of job queue 
 ## To view errors in the job queue
 Data that is generated when a job queue is run is stored in the database, so that you can troubleshoot job queue errors.
 
+### To view all errors for any job
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Queue Entries**, and then choose the related link.
 2. On the **Job Queue Entries** page, select a job queue entry, and then choose the **Log Entries** action.  
+
+### To view an error from a sales or purchase document
+1. From the document that you have tried to post with the job queue, choose the **Job Queue Status** field, which will contain **Error**.
+
+The error message is displayed. Review the error message and fix the problem.
+
+### To view an error from the My Job Queue part
+1. On an error with the status **Error**, choose the **Show Error** action.
+
+The error message is displayed. Review the error message and fix the problem.
 
 > [!IMPORTANT]  
 > If you set up a job that will post and print documents, and the printer displays a dialog box, such as a request for credentials or a warning about low printer ink, your document is posted but not printed. The corresponding job queue entry eventually times out and the **Status** field is set to **Error**. Accordingly, we recommend that you do not use a printer setup that requires interaction with the display of printer dialog boxes in conjunction with background posting.  

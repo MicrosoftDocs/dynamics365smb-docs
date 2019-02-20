@@ -22,7 +22,7 @@ You can send an estimate (the same as a quote or an offer) to existing customers
 4. Optionally, apply a discount to the individual lines or the whole document.  
 4. Send the estimate. The invoice is attached to the email that gets sent. You can also save the PDF file to your computer, print it, and email it to your customer. You can also add up to 5 other files to the email that gets sent, such as pictures or related documents. If you're not ready to send the estimate, simply close it by clicking the X and agree to save the draft.  
 
-If the customer accepts the estimate, you can turn it into an invoice
+If the customer accepts the estimate, you can turn it into an invoice.
 
 ## To change an estimate into an invoice
 1. On the Home page, tap **Estimates**, and then find the estimate that your customer has accepted and open it.  

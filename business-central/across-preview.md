@@ -9,12 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox
-ms.date: 10/01/2018
+ms.date: 02/18/2019
 ms.author: bholtorf
 
 ---
 # Access to the [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Preview
-Starting in the spring of 2018, [!INCLUDE[d365fin](includes/d365fin_md.md)] will become available in new countries. To ensure that [!INCLUDE[d365fin](includes/d365fin_md.md)] is the right solution for those customers we're offering a preview version of the service ahead of the spring launch. The preview for Denmark became available in January, 2018, and additional markets will soon follow.  
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] is available in an increasing number of countries across the world. To ensure that [!INCLUDE[d365fin](includes/d365fin_md.md)] is the right solution for customers in each new country, we're offering a preview version of the service ahead of the launch.  
 
 ## Getting Started with Previews and Sandboxes
 Previews and sandboxes are great ways to get started with [!INCLUDE[d365fin](includes/d365fin_md.md)]. A preview instance contains functionality that is in addition to what's available in the current version. Previews give partners and customers the opportunity to try and provide feedback about functionality that we're thinking about releasing. Though previews are primarily intended for partners, customers are also welcome to use them for a limited time. The current preview of [!INCLUDE[d365fin](includes/d365fin_md.md)] contains most of the capabilities that are available in Dynamics NAV 2018, which typically require some help from a partner to set up.
@@ -31,7 +32,7 @@ To work in a sandbox environment, you must have a subscription to [!INCLUDE[d365
 ### Advanced Functionality Available in a Sandbox Environment
 Sandboxes contain an in-client Designer feature that lets you design pages using a drag-and-drop interface and build extensions in the client itself by adding and rearranging fields.
 
-For more information, see [Using Designer](https://docs.microsoft.com/en-us/dynamics-nav/developer/devenv-inclient-designer).
+For more information, see [Using Designer](/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer).
 
 ### To create a sandbox environment
 1.	Sign in to your production or preview instance of [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -61,8 +62,11 @@ For more information, see [Using Designer](https://docs.microsoft.com/en-us/dyna
 ### Building New Solutions and Intellectual Property
 [!INCLUDE[d365fin](includes/d365fin_md.md)] offers a set of development tools and a modern platform to build on so you can create your own add-on apps and embed solutions to connect or extend [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] provides tools that you can use to implement your own add-on and embed functionality to add new industry-specific end-to-end experiences or integrate third-party solutions. For example, you can use an API to build a connected app to exchange data between [!INCLUDE[d365fin](includes/d365fin_md.md)] and your payroll app. Connect apps can also make use of extensions to create pages to be used for setup, configuration, or to support app-specific features. For more information, see [Developing Apps for [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://aka.ms/getstartedwithapps).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] provides tools that you can use to implement your own add-on and embed functionality to add new industry-specific end-to-end experiences or integrate third-party solutions. For example, you can use an API to build a connected app to exchange data between [!INCLUDE[d365fin](includes/d365fin_md.md)] and your payroll app. Connect apps can also make use of extensions to create pages to be used for setup, configuration, or to support app-specific features. For more information, see [Build Your Business on Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-welcome).
 
 ## See Also
+
 [Getting Started](product-get-started.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Choosing Your Dynamics 365 Business Central Development Sandbox Environment](/dynamics365/business-central/dev-itpro/developer/devenv-sandbox-overview)  
+[The Business Central Administration Center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center)  

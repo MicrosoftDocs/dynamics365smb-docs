@@ -48,7 +48,7 @@ The sales order is archived. You can view it on the **Archived Sales orders** pa
 The following procedure describes how to bring the contents of an archived sales order back to the original sales order. This is only possible when the original document has not been posted. The steps are similar for all orders, blanket orders, return orders, and quotes.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Archived Sales Orders**, and then choose the related link.
-2. Select the archived sales order that you want to restore, or version of if in case several exist, and then choose the **Restore** action.  
+2. Select the archived sales order, or version of it, that you want to restore, and then choose the **Restore** action.  
 
 The contents of the original sales order is replaced with that of the selected archived version.
 

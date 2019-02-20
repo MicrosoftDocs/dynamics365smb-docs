@@ -39,6 +39,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Alt+Down Arrow|Open a drop-down list or look up a value for a field.|    
 |Alt+Right Arrow|See the transactions that resulted in a calculated value in a field.|  
 |F5|Refresh the data on the current page.|Use this to ensure that the data on the page is up-to-date with any changes that others have made while you are working.|
+|Crtl+Alt+F1|Open the page inspection pane to see information about the page, like its source table, fields, filters, extensions, and more.|[Inspecting Pages](across-inspect-page.md)|
 |Ctrl+F5|Reload the [!INCLUDE[prodshort](includes/prodshort.md)] application.|This is similar to selecting refresh/reload in the browser.|
 |Esc|Close the current page or drop-down.|
 
@@ -69,6 +70,7 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Ctrl+Enter|Move focus to the next element outside the list.|Move focus to the next element outside the list.||
 
 ### <a name="CopyRows"></a>Select, copy and paste
+
 |Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |Remarks|
 |-----------------|-------|-------|-------|
 |Ctrl+Home<br />(Fn+Ctrl+Left Arrow)|Select the first row in the list; focus moves to the first field in row.|Move to the first tile in first row. ||
@@ -98,6 +100,14 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Shift+Alt+F3|Opens the filter pane and adds a filter on the selected column in the list. Focus is on the new filter field which lets start typing the filter criteria right away.<br /><br /> This does the same as selecting **Filter** from the column heading. er menu. Displays the filter pane, adds the filter, sets focus to it so the user can type a value to filter on.<br /><br />If there is already a filter on the field, a new filter is added. |
 |Ctrl+Shift+Alt+F3|Resets filters. This does the same as choosing **Reset filters** in the filter pane, and it applies to field and totals filters.<br /><br /> Filters return to the default filters for the current view. If the current view is **All**, then this is the equivalent to returning to an unfiltered view with all records. |
 |Ctrl+Enter|Returns to the list from the filter pane.|
+
+## <a name="QuickEntry"></a>Quick Entry for Fields in Cards and Lists
+
+|Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |Remarks|
+|-----------------|-------|-------|-------|
+|Enter|Confirm the value in the current field and go to the next Quick Entry field.|Not applicable.|See [Accelerating Data Entry Using Quick Entry](ui-enter-data.md#QuickEntry)|
+|Shift+Enter|Confirm the value in the current field and go to the previous Quick Entry field.|Not applicable.|
+|Ctrl+Shift+Enter|Confirm the value in the current column and go to next Quick Entry field outside the list.|This shortcut applies to embedded lists on a page, such as line items on a sales order. It enables you to quickly get out of the list and continue entering data in other fields on the page.|
 
 ## <a name="calendarshortcuts"/> Keyboard Shortcuts in the Calendar (Date Picker)
 When setting a date field, you can either enter the date manually or open a calendar (date picker) that lets you select the date you want. The following table describes the keyboard shortcuts for the calendar.

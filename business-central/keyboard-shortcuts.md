@@ -38,6 +38,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Alt+T|Open and close the **My Settings** page.|
 |Alt+Up Arrow|Show tooltip for a field or a column header of a table. If the field has validation errors, press "Alt+Up Arrow" to show the validation error. Press "Esc" or "Alt+Up Arrow" to close the tooltip.|
 |Crtl+Alt+F1|Open and close the page inspection pane. The page inspection pane shows information about the page, like its source table, fields, filters, extensions, and more.|See [Inspecting Pages](across-inspect-page.md)|
+|Ctrl+C |Copy the value of field. If the field is in focus, and you have not selected any text in the field, this will copy the entire value. If you have selected any text in the field, then it will copy the selected text only.|
 |Crtl+F1|Open the Business Central help for the page.||
 |Ctrl+F5|Reload the [!INCLUDE[prodshort](includes/prodshort.md)] application.|This is similar to selecting refresh/reload in the browser.|
 |F5|Refresh the data on the current page.|Use this to ensure that the data on the page is up-to-date with any changes that others have made while you are working.|
@@ -56,12 +57,11 @@ The following table describes the keyboard shortcuts that you can use in a list 
 -->
 ### General
 
-|Press these keys<br />(in macOS)|To do this|
-|-----------------|-------|
-|Alt+F7 |Sort the selected column in ascending or descending order.|
-|Shift+F10 |Opens a menu of options that are available for selected row.|
-|Alt+N |Opens a page for creating a new record; the same way as selecting **New** action. |
-|Ctrl+C |Copy the value of field. If the field is in focus, and you have not selected any text in the field, this will copy the entire value. If you have selected any text in the field, then it will copy the selected text only.|
+|Press these keys<br />(in macOS)|To do this|To do this in a tile view |Remarks|
+|-----------------|-------|-------|-------|
+|Alt+F7 |Sort the selected column in ascending or descending order.|Not applicable.||
+|Shift+F10 |Opens a menu of options that are available for selected row.||Not applicable.||
+|Alt+N |Opens a page for creating a new record; the same way as selecting **New** action. |Same.||
 
 ### <a name="navigateshortcuts"></a> Navigate between rows and columns
 

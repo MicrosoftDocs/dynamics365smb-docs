@@ -23,7 +23,7 @@ There are many general features that help you enter data easier, faster, and mor
 
 There are several keyboard shortcuts that let you to work "mouse-free" and speed up your data entry, especially with large scale entries and repetitive typing tasks. 
 
-For more information about shortcuts, see [Quick Entry keyboard shortcuts](keyboard-shortcuts.md). 
+For more information about shortcuts, see [Keyboard Shortcuts](keyboard-shortcuts.md). A few of the shortcuts are discussed in this article.
 
 ## <a name="QuickEntry"></a>Accelerating Data Entry Using Quick Entry 
 

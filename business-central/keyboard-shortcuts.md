@@ -56,11 +56,12 @@ The following table describes the keyboard shortcuts that you can use in a list 
 -->
 ### General
 
-|Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |Remarks|
-|-----------------|-------|-------|-------|
-|Alt+F7 |Sort the selected column in ascending or descending order.|Not applicable.||
-|Shift+F10 |Opens a menu of options that are available for selected row.|Not applicable.||
-|Alt+N |Opens a page for creating a new record; the same way as selecting **New** action. |The same||
+|Press these keys<br />(in macOS)|To do this|
+|-----------------|-------|
+|Alt+F7 |Sort the selected column in ascending or descending order.|
+|Shift+F10 |Opens a menu of options that are available for selected row.|
+|Alt+N |Opens a page for creating a new record; the same way as selecting **New** action. |
+|Ctrl+C |Copy the value of a focused field.|
 
 ### <a name="navigateshortcuts"></a> Navigate between rows and columns
 

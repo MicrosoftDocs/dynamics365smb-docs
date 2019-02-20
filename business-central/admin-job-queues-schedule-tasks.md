@@ -39,21 +39,21 @@ The following procedure shows how to set the **Batch Post Sales Orders** report 
 4. In the **Object ID to Run** filed, select 296, **Batch Post Sales Orders**.
 5. Select the **Report Request Page** check box.
 6. In the **Batch Post Sales Orders** request page, define what is included during automatic posting of sales orders, and then choose the **OK** button.
-7. Select all checkboxes from **Run on Mondays** through to **Run on Fridays**.
+7. Select all checkboxes from **Run on Mondays** through **Run on Fridays**.
 8. In the **Starting Time** field, enter 6 PM.
 9. On the action bar, choose the **Set Status to Ready**.
-On the 6. [!INCLUDE[d365fin](includes/d365fin_md.md)] sets the initial status of a job to **On Hold**. This allows time for you to finish set up before a job is run. To change the status, choose the **Set Status to Ready** action.
 
     Proceed to define in sales setup that you allow background posting. For more information, see the "To set up background posting with job queues" section.
 10. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.
-11. On the **Sales & Receivables Setup** page, On the **Background Posting** FastTab, Select the **Post with Job Queue** check box.
+11. On the **Sales & Receivables Setup** page, on the **Background Posting** FastTab, select the **Post with Job Queue** check box.
 
-Sales orders that are ready to post will now be posted every week night at 6 PM.
+Sales orders that are ready to post will now be posted every week day at 6 PM.
 
 > [!NOTE]
 > If the job queue cannot post the sales order, the status is changed to **Error** and the sales order is added to the list of sales orders that the user must handle manually. For more information, see the "To view errors in the job queue" section.
 
-After job queues are set up and running, the status will change as follows within each recurring period:
+After job queues are set up and running, the status can change as follows within each recurring period:
+
     - **On Hold**  
     - **Ready**  
     - **In Process**  

@@ -74,7 +74,7 @@ Filtering enables you to display records for specific accounts or customers, dat
 
 ### Working in the filter pane
 
-To display the filter pane, select ![Filter pane icon](media/open-filter-pane-icon.png "Filter pane icon") at the top of the list or press **Shift+F3**. For lists within the Role Center, you can also choose the down arrow near the page title in the navigation bar above the list, and then choose **Show filter pane**.
+To display the filter pane, select ![Filter pane icon](media/open-filter-pane-icon.png "Filter pane icon") at the top of the list or press **Shift+F3**. For lists within the Role Center, you can also choose the down arrow near the page title in the navigation bar above the list, and then choose **Show filter pane** as shown here:
 
 ![Show filter pane](media/open-filter-pane.png "Show filter pane")
 

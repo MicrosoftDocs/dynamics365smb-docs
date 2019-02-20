@@ -86,18 +86,21 @@ For more information, see [Copying and Pasting in Business Central](ui-copy-past
 
 ## Focusing on Line Items
 
-When working on documents that includes a line items part, like a sales order or invoice page, you can switch your view to focus only on the line items, essentially expanding the line items part so that it occupies pretty much the entire workspace - hiding other parts of the page except the actions area at the top. This gives you a better overview of the lines items, and provides more room to work on them. This is particularly beneficial when working with large line item lists and fast data entry is desired. It also provides advanced filtering capability, like on other lists, so browsing and searching through line items becomes even easier.
+When working on documents that includes a line items part, like a sales order or invoice page, you can switch your view to focus only on the line items, essentially expanding the line items part so that it occupies pretty much the entire workspace - hiding other parts of the page except the actions area at the top. This gives you a better overview of the lines items, and provides more room to work on them. This is particularly beneficial when working with large line item lists and fast data entry is desired.
+
+Another advantage is that it also provides advanced filtering capability, like on other lists, so browsing and searching through line items becomes even easier.
 
 ### Switch the focus on and off
 
-To focus on lines items, select anywhere in the line item part, and then choose ![Focus Mode icon](media/focus-mode.png "Focus mode icon") in the upper right corner or just press Ctrl+Shift+F12.
+To focus on lines items, select anywhere in the line item part, and then choose ![Focus Mode icon](media/focus-mode.png "Focus mode icon") in the upper right corner or press Ctrl+Shift+F12.
 
 To switch back to the normal view, choose ![Focus Mode icon](media/focus-mode.png "Focus mode icon") or press Ctrl+Shift+F12 again.
 
 ### Filtering the line items
 
-When you switch to focus on line items, the filter automatically appears. You work with the filter pane as you do on any other list. For more information, see []()This helps especially when viewing and analysing longer documents. Imagine you can open a posted sales invoice and filter the line items to all that have the individual discount above 5%. Or filter to only bike accessories with 'pro' in the name.
+Te start filtering, select ![Filter pane icon](media/open-filter-pane-icon.png "Filter pane icon") at the top of the list or press **Shift+F3** to open the filter pane. You work with the filter pane as you do on any other list. For more information, see [Filtering](ui-enter-criteria-filter.md#Filtering). 
 
+Filtering is especially helpful when viewing and analysing longer documents. For example, imagine you open a posted sales invoice and filter the line items to display all line items that have an individual discount above 5%, or filter to display only bike accessories with 'pro' in the name.
 
 ## Entering Quantities by Calculation
   

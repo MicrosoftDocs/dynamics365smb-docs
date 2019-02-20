@@ -37,7 +37,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Alt+Q<br />(Ctrl+Alt+Q)|Open **Tell me what you want to do** box that can help you find a page, a report, an action on the current page, or an article in the documentation.|
 |Alt+T|Open and close the **My Settings** page.|
 |Alt+Up Arrow|Show tooltip for a field or a column header of a table. If the field has validation errors, press "Alt+Up Arrow" to show the validation error. Press "Esc" or "Alt+Up Arrow" to close the tooltip.|
-|Crtl+Alt+F1|Open and close the page inspection pane. The page inspection pane shows information about the page, like its source table, fields, filters, extensions, and more.|Se  [Inspecting Pages](across-inspect-page.md)|
+|Crtl+Alt+F1|Open and close the page inspection pane. The page inspection pane shows information about the page, like its source table, fields, filters, extensions, and more.|See [Inspecting Pages](across-inspect-page.md)|
 |Crtl+F1|Open the Business Central help for the page.||
 |Ctrl+F5|Reload the [!INCLUDE[prodshort](includes/prodshort.md)] application.|This is similar to selecting refresh/reload in the browser.|
 |F5|Refresh the data on the current page.|Use this to ensure that the data on the page is up-to-date with any changes that others have made while you are working.|
@@ -126,9 +126,9 @@ The following shortcuts are available on card pages (like **Customer**) and docu
 |F6|Move to next FastTab/Section/Subpage ||
 |Shift+F6|Move to previous FastTab/Section/Subpage ||
 
-## <a name="QuickEntry"></a>Quick Entry for Fields in Cards and Lists
+## <a name="QuickEntry"></a>Quick Entry Shortcuts for Fields
 
-The following shortcuts pertain to the Quick Entry feature on cards and list page. On lists, the shortcuts cannot be used only when the list is in the tile view. For more information about Quick Entry, see [Accelerating Data Entry Using Quick Entry](ui-enter-data.md#QuickEntry).
+The following shortcuts pertain to the Quick Entry feature on cards, documents, and list pages. On lists, the shortcuts cannot be used only when the list is in the tile view. For more information about Quick Entry, see [Accelerating Data Entry Using Quick Entry](ui-enter-data.md#QuickEntry).
 
 |Press these keys<br />(in macOS)|To do this|Remarks|
 |-----------------|-------|-------|

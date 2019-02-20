@@ -1,6 +1,7 @@
 # [Welcome to Microsoft Invoicing](index.md)
 ## Get started
 ### [Set up your business information](set-up-business-profile.md)
+### [Managing customer information](add-customers.md)
 ### [Add products or services](add-items.md)
 ### [Add value added tax (VAT) to your invoices](add-vat.md)
 ### [US tax rates in Invoicing](us-sales-tax.md)

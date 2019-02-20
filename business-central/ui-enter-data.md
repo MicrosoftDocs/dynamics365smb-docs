@@ -15,9 +15,15 @@ ms.author: jswymer
 
 # Entering Data
 
-There are many general features that help you enter data in a quick and easy way. The general functions for entering data are described in this article.  
+There are many general features that help you enter data easier, faster, and more accurate. The general functions for entering data are described in this article.  
 
 <!-- The examples in this article use the demonstration data.-->
+
+## Keyboard Shortcuts
+
+There are several keyboard shortcuts that let you to work "mouse-free" and speed up your data entry, especially with large scale entries and repetitive typing tasks. 
+
+For more information about shortcuts, see [Quick Entry keyboard shortcuts](keyboard-shortcuts.md). 
 
 ## <a name="QuickEntry"></a>Accelerating Data Entry Using Quick Entry 
 
@@ -70,15 +76,28 @@ Even though the field contains a red asterisk, you are not forced to fill the fi
 
 -   Drop-down - Displays the set of options that exist for the field. You can select only one of the options.  
 
-## Copy and Paste Fields or Lines
+## Copying and Pasting Fields and Lines
   
 You can copy one or more rows from a list or a single field on a page, and then paste what you copied into the same page, another page, or an external document (like Microsoft Excel and Outlook email). In short, to copy, you press CTRL+C (cmd+C in macOS) on your keyboard. To paste, you press CTRL+V (cmd+V in macOS).
 
+In a list, to copy the field in the same column of the row above, and paste it into the current row, just press F8.
+
 For more information, see [Copying and Pasting in Business Central](ui-copy-paste.md).
 
-#### To copy previous field  
+## Focusing on Line Items
 
--   To enter the value of the field immediately above the active field, select **Copy Previous** from the shortcut menu.-->
+When working on documents that includes a line items part, like a sales order or invoice page, you can switch your view to focus only on the line items, essentially expanding the line items part so that it occupies pretty much the entire workspace - hiding other parts of the page except the actions area at the top. This gives you a better overview of the lines items, and provides more room to work on them. This is particularly beneficial when working with large line item lists and fast data entry is desired. It also provides advanced filtering capability, like on other lists, so browsing and searching through line items becomes even easier.
+
+### Switch the focus on and off
+
+To focus on lines items, select anywhere in the line item part, and then choose ![Focus Mode icon](media/focus-mode.png "Focus mode icon") in the upper right corner or just press Ctrl+Shift+F12.
+
+To switch back to the normal view, choose ![Focus Mode icon](media/focus-mode.png "Focus mode icon") or press Ctrl+Shift+F12 again.
+
+### Filtering the line items
+
+When you switch to focus on line items, the filter automatically appears. You work with the filter pane as you do on any other list. For more information, see []()This helps especially when viewing and analysing longer documents. Imagine you can open a posted sales invoice and filter the line items to all that have the individual discount above 5%. Or filter to only bike accessories with 'pro' in the name.
+
 
 ## Entering Quantities by Calculation
   

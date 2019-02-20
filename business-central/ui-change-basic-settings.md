@@ -44,7 +44,7 @@ The default work date is usually today's date. You may have to temporarily chang
 >   Type **w** to quickly enter the work date in a date field. Write **t** to quickly enter the current date in the date field.
 
 > [!IMPORTANT]  
->   The work date is only changed until you close the company or until the date changes. If you open a different company or open the same company the next day and still have to use a different work date, then you must set the work date again.
+>   After you change the work date, if you sign out or switch to another company, the work data reverts to the default work date. So the next time you sign in or switch back to the original company, you may have to set the work date again. 
 
 ### Work Date Indication
 
@@ -55,7 +55,8 @@ Whenever the work date is not set to the current day (today), there are two indi
 - If you dismiss the reminder, the work date will appear in the title of the page.  
 
 ## <a name="region"></a> Region
-The **Region** setting determines how dates, times, numbers, and currencies are shown or formatted.   
+
+The **Region** setting determines how dates, times, numbers, and currencies are shown or formatted.
 
 
 ## <a name="language"></a> Language

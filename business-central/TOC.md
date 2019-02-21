@@ -24,7 +24,6 @@
 ### [Troubleshooting Integration with Microsoft Flow - Request URL Too Long](across-troubleshooting-how-use-financials-data-source-flow.md)
 ## [Customizing Business Central Using Extensions](ui-extensions.md)
 ### [Extending Dynamics 365 Business Central](about-develop-extensions.md)
-### [Accountant Portal](ui-extensions-accountant-portal.md)
 ### [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
 ### [Data Replication](ui-extensions-data-replication.md)
 ### [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)

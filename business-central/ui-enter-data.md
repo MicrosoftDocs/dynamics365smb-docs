@@ -84,7 +84,7 @@ In a list, to copy the field in the same column of the row above, and paste it i
 
 For more information, see [Copying and Pasting in Business Central](ui-copy-paste.md).
 
-## Focusing on Line Items
+## <a name="Focus"></a>Focusing on Line Items
 
 When working on documents that includes a line items part, like a sales order or invoice page, you can switch your view to focus only on the line items, essentially expanding the line items part so that it occupies pretty much the entire workspace - hiding other parts of the page except the actions area at the top. This gives you a better overview of the lines items, and provides more room to work on them. This is particularly beneficial when working with large line item lists and fast data entry is desired.
 

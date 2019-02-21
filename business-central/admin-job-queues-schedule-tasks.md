@@ -39,7 +39,7 @@ The following procedure explains how to set up background posting of sales order
 6. In the **Object ID to Run** field, select 88, **Sales Post via Job Queue**.
 
     No other fields are relevant for this scenario.
-7. Choose the **Start Job Queue** action.
+7. Choose the **Set Status to Ready** action.
 8. To verify that the job queue is working as expected, post a sales order. For more information, see [Sell Products](sales-how-sell-products.md).
 9. Review on the **Job Queue Log Entries** page if the sales order was posted successfully. For more information, see the "To view status or errors in the job queue" section.
 
@@ -59,16 +59,12 @@ The following procedure shows how to set the **Batch Post Sales Orders** report 
 6. In the **Batch Post Sales Orders** request page, define what is included during automatic posting of sales orders, and then choose the **OK** button.
 7. Select all check boxes from **Run on Mondays** through **Run on Fridays**.
 8. In the **Starting Time** field, enter 4 PM.
-9. On the action bar, choose the **Set Status to Ready**.
-
-    Proceed to define in sales setup that you allow background posting. For more information, see the "To set up background posting with job queues" section.
-10. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.
-11. On the **Sales & Receivables Setup** page, on the **Background Posting** FastTab, select the **Post with Job Queue** check box.
+9. Choose the **Set Status to Ready** action.
 
 Sales orders that are ready to post will now be posted every week day at 4 PM.
 
 > [!NOTE]
-> If the job queue cannot post the sales order, the status is changed to **Error** and the sales order is added to the list of sales orders that the user must handle manually. For more information, see the "To view errors in the job queue" section.
+> If the job queue cannot post the sales order, the status is changed to **Error** and the sales order is added to the list of sales orders that the user must handle manually. For more information, see the "To view status or errors in the job queue" section.
 
 After job queues are set up and running, the status can change as follows within each recurring period:
 
@@ -88,19 +84,17 @@ Data that is generated when a job queue is run is stored in the database, so tha
 2. On the **Job Queue Entries** page, select a job queue entry, and then choose the **Log Entries** action.  
 
 ### To view status from a sales or purchase document
-* From the document that you have tried to post with the job queue, choose the **Job Queue Status** field, which will contain **Error**.
-
-The error message is displayed. Review the error message and fix the problem.
-
-### To view an error from the My Job Queue part
-* On an error with the status **Error**, choose the **Show Error** action.
-
-The error message is displayed. Review the error message and fix the problem.
+1. From the document that you have tried to post with the job queue, choose the **Job Queue Status** field, which will contain **Error**.
+2. Review the error message and fix the problem.
 
 ## The My Job Queue Part
 The **My Job Queue** part on your Role Center shows the job queues entries that you have started, but which are not yet finished. By default, the part is not visible, so you have to add it to your Role Center. For more information, see [Changing Basic Settings](ui-change-basic-settings.md).  
 
 The part shows which documents with your ID in the **Assigned User ID** field are being processed or are queued, including those related to background posting. The part can tell you at a glance whether there has been an error in the posting of a document or if there are errors in a job queue entry. The part also lets you cancel a document posting if it is not running.
+
+### To view an error from the My Job Queue part
+1. On an entry with the status **Error**, choose the **Show Error** action.
+2. Review the error message and fix the problem.
 
 ## Security  
 Job queue entries run based on permissions. Those permissions must allow the execution of the report or codeunit.  

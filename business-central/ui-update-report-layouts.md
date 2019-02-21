@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 02/19/2019
     ms.author: jswymer
 
 ---
@@ -38,7 +38,7 @@ If no errors occur, then the updates is applied to the report layouts. If errors
   
 2.  On the **Report Layout Selection** page, choose the **Test Layout Updates** action.  
   
- Chnages to the report layouts are tested but not applied to the actual report layouts. A **Report Layout Update Log** page appears that provides the status a potential updates for each report layout. If there are errors for a report layout, you can access the report layout directly for editing from the message to fix any issues. For more information, see [Fixing Errors](ui-update-report-layouts.md#FixErrors).  
+ Changes to the report layouts are tested but not applied to the actual report layouts. A **Report Layout Update Log** page appears that provides the status a potential updates for each report layout. If there are errors for a report layout, you can access the report layout directly for editing from the message to fix any issues. For more information, see [Fixing Errors](ui-update-report-layouts.md#FixErrors).  
   
 ##  <a name="UpdateLimitations"></a> Limitations of the Custom Report Layout Update  
  There are several types of changes that the automatic update can apply to custom report layouts, for example, a field that is used in the layout has been removed from the report data set. However, the automatic update cannot handle the following changes to a report dataset.  

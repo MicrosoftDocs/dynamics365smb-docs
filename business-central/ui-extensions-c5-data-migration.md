@@ -92,6 +92,9 @@ If you migrate accounts, the following data is also migrated:
 > [!Note]
 > Historical G/L transactions are treated a little differently. When you migrate data you set a **Current Period** parameter. This parameter specifies how to process G/L transactions. Transactions after this date are migrated individually. Transactions before this date are aggregated per account and migrated as a single amount. For example, let's say there are transactions in 2015, 2016, 2017, 2018, and you specify January 01, 2017 in the Current Period field. For each account, amounts for transactions on or before December 31, 2106, will be aggregated in a single general journal line for each G/L account. All trascations after this date will be migrated individually.
 
+## File Size Requirements
+The largest file size you can upload to [!INCLUDE[d365fin](includes/d365fin_md.md)] is 150 MB. If the file you export from C5 is larger than that, consider migrating data in multiple files. For example, export one or two types of entities from C5, such as customers and vendors, to a file, and then export items to another file, and so on. You can import files individually in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
 ## To migrate data
 There are just a few steps to export data from C5, and import it in [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 

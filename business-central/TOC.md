@@ -193,7 +193,7 @@
 ### [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)
 ### [Setup Best Practices: Planning Parameters](setup-best-practices-planning-parameters.md)
 ### [Setup Best Practices: Global Planning Setup](setup-best-practices-global-planning-setup.md)
-#### [Setup Best Practices: Reordering Policies](reports-saving-reusing-settings.md)
+#### [Setup Best Practices: Reordering Policies](setup-best-practices-reordering-policies.md)
 #### [Setup Best Practices: Planning Parameters](setup-best-practices-planning-parameters.md)
 #### [Setup Best Practices: Global Planning Setup](setup-best-practices-global-planning-setup.md)
 ### [Setup Best Practices: Costing Methods](setup-best-practices-costing-method.md)

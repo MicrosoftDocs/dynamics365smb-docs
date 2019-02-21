@@ -1,17 +1,13 @@
 ---
 title: Create a Job Card for a Job and Specify Tasks| Microsoft Docs'
 description: For a new project, you create a job card that contains job tasks and planning lines, to help you manage progress and budgets.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, task
-ms.date: 10/01/2018
+ms.date: 02/21/2019
 ms.author: sgroespe
 
 ---
@@ -24,8 +20,8 @@ The second layer consists of job planning lines, which specify the detailed use 
 
 The layer structure enables you to divide the job into smaller tasks, and therefore use more specific details in budgeting, quotes, and registration. In addition, it gives you insight into how a job is progressing. For example, you can track whether you are meeting designated milestones or if you are on target to meet budget expectations.
 
-> [!NOTE]  
->   The **New Job** action on the **Project Manager** Role Center launches an assisted setup that guides you through the steps of creating a job with integrated tasks and planning lines. The following procedure describes how to perform the steps manually.
+> [!TIP]
+> Choose the **New Job** action on the **Project Manager** Role Center to launch an assisted setup guide that takes you through the steps of creating a job with integrated tasks and planning lines. The following procedure describes how to perform the steps manually. For an example of how to create a job manually, see [Video: How to create a job in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw).
 
 ## To create a job card
 You create a job card and then create job task lines and job planning lines for it.
@@ -67,8 +63,10 @@ A job planning line can have one of the following types.
 5. Repeat steps 3 and 4 for all planning lines that you need for the job task.
 
 ## See Also
+
 [Project Management](projects-manage-projects.md)  
+[Video: How to create a job in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
 [Finance](finance.md)  
-[Purchasing](purchasing-manage-purchasing.md)         
-[Sales](sales-manage-sales.md)      
+[Purchasing](purchasing-manage-purchasing.md)  
+[Sales](sales-manage-sales.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

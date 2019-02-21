@@ -1,18 +1,14 @@
 ---
 title: Job Tasks using Resources and Time Sheets| Microsoft Docs
 description: Outlines how to use resources, time sheets, and jobs to manage projects.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 10/01/2018
-ms.author: sgroespe
+ms.date: 02/21/2019
+ms.author: edupont
 
 ---
 # Project Management
@@ -34,13 +30,18 @@ The following table describes a sequence of tasks, with links to the topics that
 | Post the consumption of materials, resources, and other expenses of job work in process (WIP) to monitor its financial value and to maintain correct financial statements even though you post job expenses before invoicing the job. |[Monitor Job Progress and Performance](projects-how-monitor-progress-performance.md) |
 | Record job costs for resource usage, materials, and job-related purchases on an on-going basis and invoice the customer, either when the job is finished or according to an invoicing schedule. |[Invoice Jobs](projects-how-invoice-jobs.md) |
 
+## Get started with projects
+
+Project management is complicated enough in itself, and learning how to create jobs and managing work in process in a new tool can be another complication. To help you get started with project management in [!INCLUDE [prodshort](includes/prodshort.md)], you can see [a video about creating jobs](https://www.youtube.com/watch?v=VqaPWr7BWmw) on the [!INCLUDE [prodshort](includes/prodshort.md)] YouTube channel.  
+
 ## See Also
+
 [Setting Up Project Management](projects-setup-projects.md)  
-[Changing Which Features are Displayed](ui-experiences.md)      
-[Purchasing](purchasing-manage-purchasing.md)         
-[Sales](sales-manage-sales.md)    
+[Video: How to create a job in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
+[Changing Which Features are Displayed](ui-experiences.md)  
+[Purchasing](purchasing-manage-purchasing.md)  
+[Sales](sales-manage-sales.md)  
 [Finance](finance.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 

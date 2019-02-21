@@ -2,13 +2,13 @@
 title: "Inspecting Pages in Business Central"
 description: Use the page inspection feature to get details about the page design and data source. 
 ms.custom: na
-ms.date: 17/12/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.service: dynamics365-business-central
 author: jswymer
+ms.date: 02/21/2019
 ---
 # Inspecting Pages in Business Central
 
@@ -23,7 +23,6 @@ Page inspection is especially designed for administrators, power users, support 
 - Troubleshoot data issues without having to perform tasks like copying the production database, viewing the entire source table, or digging into SQL.
 
 - Debug the application, complementing [Designer](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer).
-
 
 ## Working with Page Inspection
 
@@ -51,7 +50,6 @@ The **Page** field shows information about the main page or a selected (highligh
 - The ID as specifed by the [ID property](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-id-property).
 - The type, as specified by the [PageType property](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-pagetype-property).
 
-
 #### Elements shown with limited information  
 
 - Role Center page types
@@ -63,7 +61,6 @@ The **Page** field shows information about the main page or a selected (highligh
     If you open a report request page or preview for inspection, the only information that is shown in the Page Inspection pane is the report's name and ID.
 
 - System parts, such as Links, Notes, and Charts.
-
 
 ### [Table](#tab/table)
 
@@ -130,5 +127,9 @@ The following table described the different filter types.
 |TableViewFilter|Filters that is defined on the page by the [SourceTableView property](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-sourcetableview-property)|
 |SubFormLinkFilters|Filter that is defined by the [SubPageLink property](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-subpagelink-property) on the `part` control that contains the sub-page.|
 |FormViewFilters|Filter that is defined by [RunPageView property](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-runpageview-property) of the action that opens the page.|
- 
-<!-- ## See Also -->  
+
+## See Also
+
+[Resources for Help and Support](product-help-and-support.md)  
+[Resources for Help and Support for Partners](/dynamics365/business-central/dev-itpro/help-and-support)  
+[Business Central developer and ITpro docs](/dynamics365/business-central/dev-itpro/)  

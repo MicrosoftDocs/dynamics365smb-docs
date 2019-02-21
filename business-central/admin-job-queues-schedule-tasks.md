@@ -30,18 +30,19 @@ You can achieve this by setting the job queue up to run various batch-posting re
 The following procedure explains how to set up background posting of sales orders. The steps are similar for purchasing and service.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.
-2. On the **Sales & Receivables Setup** page, on the **Background Posting** FastTab, choose the **Post with Job Queue** check box.
+2. On the **Sales & Receivables Setup** page, choose the **Post with Job Queue** check box.
 3. To filter to job queue entries for sales order posting, choose the **Job Queue Category Code** field, and then select the **SalesPost** category.
 
-    A job queue object, codeunit 88 **Sales Post via Job Queue**, is automatically created. Proceed to enable it on the **Job Queue Entries** page.
-4. On the **Job Queue Entries** page, choose the **New** action.
-5. In the **Object Type to Run** field, select **Codeunit**.  
-6. In the **Object ID to Run** field, select 88, **Sales Post via Job Queue**.
+    A job queue object, codeunit 88 **Sales Post via Job Queue**, is created. Proceed to enable it on the **Job Queue Entries** page.
+4. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Queue Entries**, and then choose the related link.
+5. On the **Job Queue Entries** page, choose the **New** action.
+6. In the **Object Type to Run** field, select **Codeunit**.  
+7. In the **Object ID to Run** field, select 88, **Sales Post via Job Queue**.
 
     No other fields are relevant for this scenario.
-7. Choose the **Set Status to Ready** action.
-8. To verify that the job queue is working as expected, post a sales order. For more information, see [Sell Products](sales-how-sell-products.md).
-9. Review on the **Job Queue Log Entries** page if the sales order was posted successfully. For more information, see the "To view status or errors in the job queue" section.
+8. Choose the **Set Status to Ready** action.
+9. To verify that the job queue is working as expected, post a sales order. For more information, see [Sell Products](sales-how-sell-products.md).
+10. Review on the **Job Queue Log Entries** page if the sales order was posted successfully. For more information, see the "To view status or errors in the job queue" section.
 
 If you also want sales documents to be printed when they are posted, select the **Post & Print with Job Queue** check box on the **Sales & Receivables Setup** page.  
 
@@ -79,7 +80,7 @@ After a job has finished successfully, it is removed from the list of job queue 
 ## To view status or errors in the job queue
 Data that is generated when a job queue is run is stored in the database, so that you can troubleshoot job queue errors.
 
-### To view all status for any job
+### To view status for any job
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Queue Entries**, and then choose the related link.
 2. On the **Job Queue Entries** page, select a job queue entry, and then choose the **Log Entries** action.  
 

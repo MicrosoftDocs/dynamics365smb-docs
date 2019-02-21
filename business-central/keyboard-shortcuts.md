@@ -29,8 +29,8 @@ Most of the shortcuts are the same no matter whether the operating system is Win
 ##  <a name="Keyboard"></a> General Keyboard Shortcuts
 The following table describes keyboard shortcuts for navigating and accessing different elements of a page, such as actions, drop-down lists, lookups, and more. For details about keyboard shortcuts for navigating records once you get inside a list, see the next section.
 
-|Press these keys<br />(in macOS)|To do this| Remarks | 
-|----------------|-----------|----------|  
+|Press these keys<br />(in macOS)|To do this|
+|----------------|-----------| 
 |Alt+Down Arrow|Open a drop-down list or look up a value for a field.|    
 |Alt+Right Arrow|See the transactions that resulted in a calculated value in a field.|  
 |Alt+F2|Show and hide the FactBox pane.|
@@ -39,7 +39,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Alt+Up Arrow|Show tooltip for a field or a column header of a table. If the field has validation errors, press "Alt+Up Arrow" to show the validation error. Press "Esc" or "Alt+Up Arrow" to close the tooltip.|
 |Crtl+Alt+F1|Open and close the page inspection pane. The page inspection pane shows information about the page, like its source table, fields, filters, extensions, and more.|See [Inspecting Pages](across-inspect-page.md)|
 |Ctrl+C |Copy the value of field. If the field is in focus, and you have not selected any text in the field, this will copy the entire value. If you have selected any text in the field, then it will copy the selected text only.|
-|Crtl+F1|Open the Business Central help for the page.||
+|Crtl+F1|Open the Business Central help for the page.|
 |Ctrl+F5|Reload the [!INCLUDE[prodshort](includes/prodshort.md)] application.|This is similar to selecting refresh/reload in the browser.|
 |F5|Refresh the data on the current page.|Use this to ensure that the data on the page is up-to-date with any changes that others have made while you are working.|
 |Ctrl+F12|Switch between wide and narrow layout view.|
@@ -57,48 +57,48 @@ The following table describes the keyboard shortcuts that you can use in a list 
 -->
 ### General
 
-|Press these keys<br />(in macOS)|To do this|To do this in a tile view |Remarks|
-|-----------------|-------|-------|-------|
-|Alt+F7 |Sort the selected column in ascending or descending order.|Not applicable.||
-|Shift+F10 |Opens a menu of options that are available for selected row.||Not applicable.||
-|Alt+N |Opens a page for creating a new record; the same way as selecting **New** action. |Same.||
+|Press these keys<br />(in macOS)|To do this|In the tile view |
+|-----------------|-------|-------|
+|Alt+F7 |Sort the selected column in ascending or descending order.|Not applicable.|
+|Shift+F10 |Opens a menu of options that are available for selected row.|Not applicable.|
+|Alt+N |Opens a page for creating a new record; the same way as selecting **New** action. |Same.|
 
 ### <a name="navigateshortcuts"></a> Navigate between rows and columns
 
-|Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |Remarks|
-|-----------------|-------|-------|-------|
-|Up Arrow|Move in the same column to the field in the row above.| Move in the same column to the tile in the row above.  |  |
-|Down Arrow|Move in the same column to the field in the row below. |Move in the same column to the tile in the row below. | |
-|Right Arrow|In a view-only list, move in the same row to the next field to the right.<br /><br />In an editable list, move to the right within the current field.| Move in the same row to the next tile to the right. ||
-|Left Arrow|In a view-only list, move in the same row to the previous field to the left. <br /><br />In an editable list, move to the left within the current field.| Move in the same row to the previous tile to the left. ||
+|Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |
+|-----------------|-------|-------|
+|Up Arrow|Move in the same column to the field in the row above.| Move in the same column to the tile in the row above.  |
+|Down Arrow|Move in the same column to the field in the row below. |Move in the same column to the tile in the row below. |
+|Right Arrow|In a view-only list, move in the same row to the next field to the right.<br /><br />In an editable list, move to the right within the current field.| Move in the same row to the next tile to the right. |
+|Left Arrow|In a view-only list, move in the same row to the previous field to the left. <br /><br />In an editable list, move to the left within the current field.| Move in the same row to the previous tile to the left. |
 |Tab|In editable list, move in the same row to the next field to the right.|Not applicable.||
-|Shift+Tab|In editable list, move in the same row to the previous field to the left. | Not applicable. ||
-|Home<br />(Fn+Left Arrow)|Move to the first field in the row.|Move to the first tile in the row.||
-|End<br />(Fn+right Arrow)|Move to the last field in the row.|Move to the last tile in the row.||
-|Page Up<br />(Fn+up Arrow)|Scrolls to display the set rows above the current rows in view. |Scrolls to display the set of tiles above the current tiles in view. ||
-|Page Down<br />(Fn+down Arrow)|Scrolls to display the set rows below the current rows in view.|Scrolls to display the set of tiles below the current tiles in view.||
+|Shift+Tab|In editable list, move in the same row to the previous field to the left. | Not applicable. |
+|Home<br />(Fn+Left Arrow)|Move to the first field in the row.|Move to the first tile in the row.|
+|End<br />(Fn+right Arrow)|Move to the last field in the row.|Move to the last tile in the row.|
+|Page Up<br />(Fn+up Arrow)|Scrolls to display the set rows above the current rows in view. |Scrolls to display the set of tiles above the current tiles in view. |
+|Page Down<br />(Fn+down Arrow)|Scrolls to display the set rows below the current rows in view.|Scrolls to display the set of tiles below the current tiles in view.|
 |Enter|Open the record that is associated with the field.|Opens the record.| Only relevant if a card page is associated with the record.|
-|Ctrl+Enter|Move focus to the next element outside the list.|Move focus to the next element outside the list.||
+|Ctrl+Enter|Move focus to the next element outside the list.|Move focus to the next element outside the list.|
 
 ### <a name="CopyRows"></a>Select, copy and paste
 
-|Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |Remarks|
-|-----------------|-------|-------|-------|
-|Ctrl+Home<br />(Fn+Ctrl+Left Arrow)|Select the first row in the list; focus moves to the first field in row.|Move to the first tile in first row. ||
-|Ctrl+End<br />(Fn+Ctrl+Right Arrow)|Select the last row in the list; focus moves to the last field in row.|Move to the last tile in last row.||
-|Ctrl+Click<br />(Cmd+Click)|Extend the selection of rows to include the row that you click.|Not applicable.||
-|Shift+Click|Extend the selection of rows to include the row that you click and all the rows in between.|Not applicable.|You can use this after using Ctrl+Up Arrow or Ctrl+Up Down to expand your selection.|
-|Ctrl+Up Arrow<br />(Ctrl+Cmd+Up Arrow)|Move focus to the row above and keep the current row selected.|Not applicable.||
-|Ctrl+Down Arrow<br />(Ctrl+Cmd+Down Arrow)|Move focus to the row below and keep the current row selected.|Not applicable.||
-|Ctrl+Space Bar<br />(Ctrl+Cmd+Space )|Extend the selection of rows to include the focused row.|Not applicable.|You can use this after using Ctrl+Up Arrow or Ctrl+Down Arrow to expand your selection.|
-|Ctrl+A|Select all rows.|Not applicable.||
-|Shift+Up Arrow|Extend the selection of rows to include the row above.|Not applicable.||
-|Shift+Down Arrow|Extend the selection of rows to include the row below.|Not applicable.||
-|Shift+Page Up<br />(Shift+Fn+Up Arrow)|Extend the selection of rows to include all visible rows above the current selection of rows.|Not applicable.||
-|Shift+Page Down<br />(Shift+Fn+Down Arrow)|Extend the selection of rows to include all all visible rows below the current selection of rows.|Not applicable.||
-|Ctrl+C<br />(Cmd+C)|Copy the selected rows to the Clipboard.|Not applicable.||
-|Ctrl+V<br />(Cmd+V)|Paste the selected rows from the Clipboard into the current page or external document, like Microsoft Excel or Outlook email.|Not applicable.|You can only do this editable lists.|
-|F8|Copy the field in the same column of the row above, and paste it into the current row.|Not applicable.|You can only do this in editable lists. Using this shortcut followed by a Tab lets you quickly fill out fields in line items that you want to have the same value as the row above.|
+|Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |
+|-----------------|-------|-------|
+|Ctrl+Home<br />(Fn+Ctrl+Left Arrow)|Select the first row in the list; focus moves to the first field in row.|Move to the first tile in first row. |
+|Ctrl+End<br />(Fn+Ctrl+Right Arrow)|Select the last row in the list; focus moves to the last field in row.|Move to the last tile in last row.|
+|Ctrl+Click<br />(Cmd+Click)|Extend the selection of rows to include the row that you click.|Not applicable.|
+|Shift+Click|Extend the selection of rows to include the row that you click and all the rows in between.<br /><br />You can use this after using Ctrl+Up Arrow or Ctrl+Up Down to expand your selection.|Not applicable.|
+|Ctrl+Up Arrow<br />(Ctrl+Cmd+Up Arrow)|Move focus to the row above and keep the current row selected.|Not applicable.|
+|Ctrl+Down Arrow<br />(Ctrl+Cmd+Down Arrow)|Move focus to the row below and keep the current row selected.|Not applicable.|
+|Ctrl+Space Bar<br />(Ctrl+Cmd+Space )|Extend the selection of rows to include the focused row.<br /><br />You can use this after using Ctrl+Up Arrow or Ctrl+Down Arrow to expand your selection.|Not applicable.|
+|Ctrl+A|Select all rows.|Not applicable.|
+|Shift+Up Arrow|Extend the selection of rows to include the row above.|Not applicable.|
+|Shift+Down Arrow|Extend the selection of rows to include the row below.|Not applicable.|
+|Shift+Page Up<br />(Shift+Fn+Up Arrow)|Extend the selection of rows to include all visible rows above the current selection of rows.|Not applicable.|
+|Shift+Page Down<br />(Shift+Fn+Down Arrow)|Extend the selection of rows to include all all visible rows below the current selection of rows.|Not applicable.|
+|Ctrl+C<br />(Cmd+C)|Copy the selected rows to the Clipboard.|Not applicable.|
+|Ctrl+V<br />(Cmd+V)|Paste the selected rows from the Clipboard into the current page or external document, like Microsoft Excel or Outlook email.<br /><br />You can only do this editable lists.|Not applicable.|
+|F8|Copy the field in the same column of the row above, and paste it into the current row.<br /><br />You can only do this in editable lists. Using this shortcut followed by a Tab lets you quickly fill out fields in line items that you want to have the same value as the row above.|Not applicable.||
 
 ### <a name="KeyboardFilter"></a>Searching and filtering lists
 
@@ -116,16 +116,16 @@ The following table describes the keyboard shortcuts that you can use in a list 
 
 The following shortcuts are available on card pages (like **Customer**) and document pages (like **Sales Order**) for displaying and modifying records.
 
-|Press these keys<br />(in macOS)|To do this| Remarks|  
-|----------------|-----------|--------|  
-|Alt+F6|Collapse and expand the current FastTab.||
-|Alt+N |Opens a page for creating a new record; the same way as selecting **New** action. |||
-|Alt+Shift+N |Closes the current card page and creates a new entity; the same as selecting the back arrow and then the **New** action.||
-|Ctrl+RightArrow|Open the next record for an entity.||
-|Ctrl+LeftArrow |Open the previous record for an entity.||
-|Ctrl+Shift+F12 |Switch focus mode on and off |Documents only|
-|F6|Move to next FastTab/Section/Subpage ||
-|Shift+F6|Move to previous FastTab/Section/Subpage ||
+|Press these keys<br />(in macOS)|To do this|
+|----------------|-----------|
+|Alt+F6|Collapse and expand the current FastTab.|
+|Alt+N |Opens a page for creating a new record; the same way as selecting **New** action. |
+|Alt+Shift+N |Closes the current card page and creates a new entity; the same as selecting the back arrow and then the **New** action.|
+|Ctrl+RightArrow|Open the next record for an entity.|
+|Ctrl+LeftArrow |Open the previous record for an entity.|
+|Ctrl+Shift+F12 |Focus on the line items part in a document page, like a sales order or invoice. When in focus, press the keys again to return to the normal view.<br /><br />For more information, see [Focusing on Line Items](ui-enter-data.md#Focus)|
+|F6|Move to next FastTab or part (sub-page).|
+|Shift+F6|Move to previous FastTab or part (sub-page).|
 
 ## <a name="QuickEntry"></a>Quick Entry Shortcuts for Fields
 

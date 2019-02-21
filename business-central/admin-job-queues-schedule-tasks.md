@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 02/20/2019
+ms.date: 02/21/2019
 ms.author: edupont
 
 ---
@@ -21,71 +21,81 @@ The **Job Queue Entries** page lists all existing jobs. If you add a new job que
 A job queue can have many entries, which are the jobs that the queue manages and runs. Information in the entry specifies what codeunit or report is run, when and how often the entry is run, in what category the job runs, and how it runs.  
 
 ## To set up background posting with job queues
-Job queues are an effective tool to schedule the running of business processes in the background, such as when multiple are trying to post sales orders at the same time, but only one order can be processed at a time. Alternatively, you may want to schedule postings for hours when it is convenient for your organization. For example, it may make sense in your business to run certain routines when most of the data entry for the day has concluded.
+Job queues are an effective tool to schedule the running of business processes in the background, such as when multiple users are trying to post sales orders, but only one order can be processed at a time. Alternatively, you may want to schedule postings for hours when it is convenient for your organization. For example, it may make sense in your business to run certain routines when most of the data entry for the day has concluded.
 
 You can achieve this by setting the job queue up to run various batch-posting reports, such as the **Batch Post Sales Orders**, **Batch Post Sales Invoices**, **Batch Post Sales Return Orders**, and **Batch Post Sales Credit Memos** reports. For more information, see the "To create a job queue entry for background sales order posting" section.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] supports background posting for all sales, purchase, and service documents.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] supports background posting for all sales, purchasing, and service documents.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup** or **Purchases & Payables**, and then choose the related link.
-2. On the **Background Posting** FastTab, choose the **Post with Job Queue** check box.
+The following procedure explains how to set up background posting of sales orders. The steps are similar for purchasing and service.  
 
-## To create a job queue entry for background sales order posting
-The following procedure shows how to set the **Batch Post Sales Orders** report up to automatically post released sales orders at 6 PM on week days.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.
+2. On the **Sales & Receivables Setup** page, choose the **Post with Job Queue** check box.
+3. To filter to job queue entries for sales order posting, choose the **Job Queue Category Code** field, and then select the **SalesPost** category.
+
+    A job queue object, codeunit 88 **Sales Post via Job Queue**, is created. Proceed to enable it on the **Job Queue Entries** page.
+4. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Queue Entries**, and then choose the related link.
+5. On the **Job Queue Entries** page, choose the **New** action.
+6. In the **Object Type to Run** field, select **Codeunit**.  
+7. In the **Object ID to Run** field, select 88, **Sales Post via Job Queue**.
+
+    No other fields are relevant for this scenario.
+8. Choose the **Set Status to Ready** action.
+9. To verify that the job queue is working as expected, post a sales order. For more information, see [Sell Products](sales-how-sell-products.md).
+10. Review on the **Job Queue Log Entries** page if the sales order was posted successfully. For more information, see the "To view status or errors in the job queue" section.
+
+If you also want sales documents to be printed when they are posted, select the **Post & Print with Job Queue** check box on the **Sales & Receivables Setup** page.  
+
+> [!IMPORTANT]  
+> If you set up a job that will post and print documents, and the printer displays a dialog box, such as a request for credentials or a warning about low printer ink, your document is posted but not printed. The corresponding job queue entry eventually times out and the **Status** field is set to **Error**. Accordingly, we recommend that you do not use a printer setup that requires interaction with the display of printer dialog boxes in conjunction with background posting.
+
+## To create a job queue entry for batch posting of sales orders
+The following procedure shows how to set the **Batch Post Sales Orders** report up to automatically post released sales orders at 4 PM on week days.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Queue Entries**, and then choose the related link.  
 2. Choose the **New** action.  
 3. In the **Object Type to Run** field, select **Report**.  
-4. In the **Object ID to Run** filed, select 296, **Batch Post Sales Orders**.
+4. In the **Object ID to Run** field, select 296, **Batch Post Sales Orders**.
 5. Select the **Report Request Page** check box.
 6. In the **Batch Post Sales Orders** request page, define what is included during automatic posting of sales orders, and then choose the **OK** button.
-7. Select all checkboxes from **Run on Mondays** through **Run on Fridays**.
-8. In the **Starting Time** field, enter 6 PM.
-9. On the action bar, choose the **Set Status to Ready**.
+7. Select all check boxes from **Run on Mondays** through **Run on Fridays**.
+8. In the **Starting Time** field, enter 4 PM.
+9. Choose the **Set Status to Ready** action.
 
-    Proceed to define in sales setup that you allow background posting. For more information, see the "To set up background posting with job queues" section.
-10. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.
-11. On the **Sales & Receivables Setup** page, on the **Background Posting** FastTab, select the **Post with Job Queue** check box.
-
-Sales orders that are ready to post will now be posted every week day at 6 PM.
+Sales orders that are ready to post will now be posted every week day at 4 PM.
 
 > [!NOTE]
-> If the job queue cannot post the sales order, the status is changed to **Error** and the sales order is added to the list of sales orders that the user must handle manually. For more information, see the "To view errors in the job queue" section.
+> If the job queue cannot post the sales order, the status is changed to **Error** and the sales order is added to the list of sales orders that the user must handle manually. For more information, see the "To view status or errors in the job queue" section.
 
 After job queues are set up and running, the status can change as follows within each recurring period:
 
-    - **On Hold**  
-    - **Ready**  
-    - **In Process**  
-    - **Error**  
-    - **Finished**  
+* **On Hold**  
+* **Ready**  
+* **In Process**  
+* **Error**  
+* **Finished**  
 
 After a job has finished successfully, it is removed from the list of job queue entries unless it is a recurring job. If it is a recurring job, the **Earliest Start Time** field is adjusted to show the next time that the job is expected to run.  
 
-## To view errors in the job queue
+## To view status or errors in the job queue
 Data that is generated when a job queue is run is stored in the database, so that you can troubleshoot job queue errors.
 
-### To view all errors for any job
+### To view status for any job
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Queue Entries**, and then choose the related link.
 2. On the **Job Queue Entries** page, select a job queue entry, and then choose the **Log Entries** action.  
 
-### To view an error from a sales or purchase document
+### To view status from a sales or purchase document
 1. From the document that you have tried to post with the job queue, choose the **Job Queue Status** field, which will contain **Error**.
-
-The error message is displayed. Review the error message and fix the problem.
-
-### To view an error from the My Job Queue part
-1. On an error with the status **Error**, choose the **Show Error** action.
-
-The error message is displayed. Review the error message and fix the problem.
-
-> [!IMPORTANT]  
-> If you set up a job that will post and print documents, and the printer displays a dialog box, such as a request for credentials or a warning about low printer ink, your document is posted but not printed. The corresponding job queue entry eventually times out and the **Status** field is set to **Error**. Accordingly, we recommend that you do not use a printer setup that requires interaction with the display of printer dialog boxes in conjunction with background posting.  
+2. Review the error message and fix the problem.
 
 ## The My Job Queue Part
 The **My Job Queue** part on your Role Center shows the job queues entries that you have started, but which are not yet finished. By default, the part is not visible, so you have to add it to your Role Center. For more information, see [Changing Basic Settings](ui-change-basic-settings.md).  
 
 The part shows which documents with your ID in the **Assigned User ID** field are being processed or are queued, including those related to background posting. The part can tell you at a glance whether there has been an error in the posting of a document or if there are errors in a job queue entry. The part also lets you cancel a document posting if it is not running.
+
+### To view an error from the My Job Queue part
+1. On an entry with the status **Error**, choose the **Show Error** action.
+2. Review the error message and fix the problem.
 
 ## Security  
 Job queue entries run based on permissions. Those permissions must allow the execution of the report or codeunit.  

@@ -30,23 +30,23 @@ You can achieve this by setting the job queue up to run various batch-posting re
 The following procedure explains how to set up background posting of sales orders. The steps are similar for purchasing and service.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.
-2. On the **Background Posting** FastTab, choose the **Post with Job Queue** check box.
+2. On the **Sales & Receivables Setup** page, on the **Background Posting** FastTab, choose the **Post with Job Queue** check box.
 3. To filter to job queue entries for sales order posting, choose the **Job Queue Category Code** field, and then select the **SalesPost** category.
 
-    A job queue entry based on codeunit 88, **Sales Post via Job Queue**, is automatically created. Proceed to enable it on the **Job Queue Entries** page.
-4. On the **Job Queue Entries** page, ,choose the **New** action.
+    A job queue object, codeunit 88 **Sales Post via Job Queue**, is automatically created. Proceed to enable it on the **Job Queue Entries** page.
+4. On the **Job Queue Entries** page, choose the **New** action.
 5. In the **Object Type to Run** field, select **Codeunit**.  
 6. In the **Object ID to Run** field, select 88, **Sales Post via Job Queue**.
 
     No other fields are relevant for this scenario.
 7. Choose the **Start Job Queue** action.
+8. To verify that the job queue is working as expected, post a sales order. For more information, see [Sell Products](sales-how-sell-products.md).
+9. Review on the **Job Queue Log Entries** page if the sales order was posted successfully. For more information, see the "To view status or errors in the job queue" section.
 
-To verify that the job queue is working as expected, post a sales order. For more information, see [Sell Products](sales-how-sell-products.md).
+If you also want sales documents to be printed when they are posted, select the **Post & Print with Job Queue** check box on the **Sales & Receivables Setup** page.  
 
-8. Verify on the **Job Queue Log Entries** page that the sales order has been posted automatically. For more information, see the "To view status or errors in the job queue" section.
-
-> [!Tip]
-> If you do not want to post an individual sales order that is scheduled for posting, you can remove it from the job queue. Select the order that you want to remove from the queue, and then choose the **Remove From Job Queue** action.
+> [!IMPORTANT]  
+> If you set up a job that will post and print documents, and the printer displays a dialog box, such as a request for credentials or a warning about low printer ink, your document is posted but not printed. The corresponding job queue entry eventually times out and the **Status** field is set to **Error**. Accordingly, we recommend that you do not use a printer setup that requires interaction with the display of printer dialog boxes in conjunction with background posting.
 
 ## To create a job queue entry for batch posting of sales orders
 The following procedure shows how to set the **Batch Post Sales Orders** report up to automatically post released sales orders at 4 PM on week days.  
@@ -96,9 +96,6 @@ The error message is displayed. Review the error message and fix the problem.
 * On an error with the status **Error**, choose the **Show Error** action.
 
 The error message is displayed. Review the error message and fix the problem.
-
-> [!IMPORTANT]  
-> If you set up a job that will post and print documents, and the printer displays a dialog box, such as a request for credentials or a warning about low printer ink, your document is posted but not printed. The corresponding job queue entry eventually times out and the **Status** field is set to **Error**. Accordingly, we recommend that you do not use a printer setup that requires interaction with the display of printer dialog boxes in conjunction with background posting.  
 
 ## The My Job Queue Part
 The **My Job Queue** part on your Role Center shows the job queues entries that you have started, but which are not yet finished. By default, the part is not visible, so you have to add it to your Role Center. For more information, see [Changing Basic Settings](ui-change-basic-settings.md).  

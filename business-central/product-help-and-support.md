@@ -40,7 +40,7 @@ The [Business Central blog](https://community.dynamics.com/business/b/financials
 
 ### Roadmap
 
-The [!INCLUDE[prodshort](includes/prodshort.md)] [roadmap page](https://dynamics.microsoft.com/roadmap/business-central/) shows the general direction in the coming years. [!INCLUDE[prodshort](includes/prodshort.md)] is updated with major feature updates every 6 months and monthly service updates, and you can get an overview of upcoming and recently released capabilities in the release notes at [https://dynamics.microsoft.com/en-us/business-applications/release/#release-notes](https://dynamics.microsoft.com/en-us/business-applications/release/#release-notes).  
+The [!INCLUDE[prodshort](includes/prodshort.md)] [roadmap page](https://dynamics.microsoft.com/roadmap/business-central/) shows the general priorities for [!INCLUDE[prodshort](includes/prodshort.md)] in the coming years. [!INCLUDE[prodshort](includes/prodshort.md)] is updated with major feature updates every 6 months and monthly service updates, and you can get an overview of upcoming and recently released capabilities in the release notes at [https://dynamics.microsoft.com/en-us/business-applications/release/#release-notes](https://dynamics.microsoft.com/en-us/business-applications/release/#release-notes).  
 
 ## Feedback
 
@@ -50,7 +50,7 @@ Make sure to search through the list of submitted suggestions, as chances are th
 
 ## Troubleshooting
 
-The **Troubleshooting** section shows technical information that your administrator or [!INCLUDE[prodshort](includes/prodshort.md)] partner can use to unblock users. This includes information about the latest error message, the current version of [!INCLUDE[prodshort](includes/prodshort.md)], and a link to go to the **Page Inspection** page. For more information, see [Inspecting Pages in Business Central](across-inspect-pages.md)
+The **Troubleshooting** section shows technical information that your administrator or [!INCLUDE[prodshort](includes/prodshort.md)] partner can use to unblock users. This includes information about the latest error message, the current version of [!INCLUDE[prodshort](includes/prodshort.md)], and a link to go to the **Page Inspection** page. For more information, see [Inspecting Pages in Business Central](across-inspect-page.md)
 
 ## Report a problem
 

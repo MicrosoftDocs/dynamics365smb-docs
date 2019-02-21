@@ -57,7 +57,7 @@ The following table describes the keyboard shortcuts that you can use in a list 
 -->
 ### General
 
-|Press these keys<br />(in macOS)|To do this|In the tile view |
+|Press these keys<br />(in macOS)|To do this in a list view|To do this in a tile view |
 |-----------------|-------|-------|
 |Alt+F7 |Sort the selected column in ascending or descending order.|Not applicable.|
 |Shift+F10 |Opens a menu of options that are available for selected row.|Not applicable.|
@@ -123,7 +123,7 @@ The following shortcuts are available on card pages (like **Customer**) and docu
 |Alt+Shift+N |Closes the current card page and creates a new entity; the same as selecting the back arrow and then the **New** action.|
 |Ctrl+RightArrow|Open the next record for an entity.|
 |Ctrl+LeftArrow |Open the previous record for an entity.|
-|Ctrl+Shift+F12 |Focus on the line items part in a document page, like a sales order or invoice. When in focus, press the keys again to return to the normal view.<br /><br />For more information, see [Focusing on Line Items](ui-enter-data.md#Focus)|
+|Ctrl+Shift+F12 |Maximize the line items part in a document page, like a sales order or invoice. Othere parts of the page are hidden, and the line items part expands to entire workspace. Press the keys again to return to the normal display.<br /><br />For more information, see [Focusing on Line Items](ui-enter-data.md#Focus).|
 |F6|Move to next FastTab or part (sub-page).|
 |Shift+F6|Move to previous FastTab or part (sub-page).|
 

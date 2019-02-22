@@ -2,13 +2,13 @@
 title: "Inspecting Pages in Business Central"
 description: Use the page inspection feature to zoom into details about the page design and data source. Page inspector is ideal for troubleshooting issues with your data. 
 ms.custom: na
-ms.date: 17/12/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.service: dynamics365-business-central
 author: jswymer
+ms.date: 02/21/2019
 ---
 # Inspecting Pages in Business Central
 

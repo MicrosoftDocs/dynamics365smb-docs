@@ -123,10 +123,24 @@ After you have consolidated all the companies, you must find any transactions th
 
 You can process consolidation eliminations by following these steps:
 * Find transactions that potentially need to be adjusted and enter general journal lines to eliminate them.
-* Run the **G/L Consolidation Eliminations** report to help you find and calculate the eliminations.
-* Post adjusting transactions in a general journal.
+* Run the **G/L Consolidation Eliminations** report to help you assess the effect of the general journal lines before posting.
+* Post the adjusting transactions.
 
-The **G/L Consolidation Eliminations** report displays a tentative trial balance where you can simulate the consequences of eliminating entries by comparing the entries in the consolidated company with the eliminations that have been entered in the general journal. Calculating the eliminations is a time-consuming manual process that may be aided by setting up specific intercompany accounts, intercompany customers/vendors, and intercompany posting groups.
+The **G/L Consolidation Eliminations** report displays a tentative trial balance where you can simulate the consequences of eliminating entries by comparing the entries in the consolidated company with the eliminations that have been entered in the general journal.
+
+Before a business unit can be included in the report, it must be set up on the **Business Units** page and the **Consolidate** field must be selected.
+
+Each account appears on a line by itself, following the structure of the chart of accounts. An account is not shown if all the amounts on the line are 0. The following information is shown for each account:
+
+* Account number
+* Account name.
+* If you have selected one or more business unit codes in the **Business Unit Code** field in the definition window, a total is shown for the consolidated company excluding the selected business units and eliminations. If you have not filled in the **Business Unit Code** field, a total is shown for the consolidated company excluding eliminations.
+* If you have selected a business unit code in the **Business Unit Code** field in the definition window, a total is shown for the imported entries from the business unit. If you have not filled in the **Business Unit Code** field, a total is shown for the posted eliminations in the consolidated company.
+* The total for the consolidated company with all the business units and all posted eliminations.
+* The eliminations to be made in the consolidated company, that is, the entries in the general journal that is selected in the definition window.
+* The posting text copied from the general journal.
+* The consolidated company's total after the eliminations, if they are posted.
+
 
 ## To export and import consolidated data between databases
 If data for a business unit is in another database, you must export the data to a file before you can include it in the consolidation. Each company must be exported separately. For this purpose, use the **Export Consolidation** batch job.  

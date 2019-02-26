@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 10/01/2018
+ms.date: 02/26/2019
 ms.author: bholtorf
 
 ---
@@ -116,7 +116,17 @@ After you have tested the data, you can transfer it to the consolidated company.
 1. Sign in to the consolidated company.  
 2. On the **Accountant Role Center**, choose the **Run Consolidation** action.  
 3. Fill in the required fields.  
-4. In the **Where** field, choose **Company Name**, and then choose the consolidated company in the **is** field.  
+4. In the **Where** field, choose **Company Name**, and then choose the consolidated company in the **is** field.
+
+## To eliminate repeated transactions
+After you have consolidated all the companies, you must find any transactions that are recorded more than once across companies and then post elimination entries to remove them.
+
+You can process consolidation eliminations by following these steps:
+* Find transactions that potentially need to be adjusted and enter general journal lines to eliminate them.
+* Run the **G/L Consolidation Eliminations** report to help you find and calculate the eliminations.
+* Post adjusting transactions in a general journal.
+
+The **G/L Consolidation Eliminations** report displays a tentative trial balance where you can simulate the consequences of eliminating entries by comparing the entries in the consolidated company with the eliminations that have been entered in the general journal. Calculating the eliminations is a time-consuming manual process that may be aided by setting up specific intercompany accounts, intercompany customers/vendors, and intercompany posting groups.
 
 ## To export and import consolidated data between databases
 If data for a business unit is in another database, you must export the data to a file before you can include it in the consolidation. Each company must be exported separately. For this purpose, use the **Export Consolidation** batch job.  

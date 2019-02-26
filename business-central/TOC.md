@@ -7,7 +7,7 @@
 ## [Getting Ready for Doing Business](ui-get-ready-business.md)
 ## [Videos on Common Tasks](across-videos.md)
 ## [Overview of Business Functionality](across-business-functionality.md)
-## [Trying Out a Preview Version](across-preview.md)
+## [Trials and Previews](across-preview.md)
 ## [Unsubscribe, Remove, or Reset Business Central](admin-cancel.md)
 ## [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
 ## [Your Access to the Intelligent Cloud](about-intelligent-cloud.md)

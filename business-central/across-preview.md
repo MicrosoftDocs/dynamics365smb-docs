@@ -17,18 +17,20 @@ ms.author: edupont
 
 ## Getting Started with Previews and Sandboxes
 
-Previews based on sandboxes is a great way to get started with [!INCLUDE[d365fin](includes/d365fin_md.md)]. As a partner, you can provide customers with trials based on already existing functionality, customizations, and previews of future capabilities. With previews like this, you can try and provide feedback about upcoming capabilities.
+Previews based on sandboxes are great ways to get started with [!INCLUDE[d365fin](includes/d365fin_md.md)]. A preview instance contains functionality that is in addition to what's available in the current version. As a partner, you can provide customers with trials based on already existing functionality, customizations, and previews of future capabilities. With previews like this, you can try and provide feedback about upcoming capabilities.  
+
+<!--To get started with a preview, go to [this page](https://go.microsoft.com/fwlink/?linkid=866045) and provide your work email address. To learn more about [!INCLUDE[d365fin](includes/d365fin_md.md)] and the capabilities it offers, refer to the documentation here on this site.-->
 
 You can think of a sandbox as a non-production environment that you can use on top of your production or preview instance of [!INCLUDE[d365fin](includes/d365fin_md.md)]. A sandbox lets you safely build and test extensions and develop new functionality to customize the service without affecting the data and settings of your production or preview instances. Right now, all customers who have a production or preview version can use a sandbox.
 
-For more information about how to get started with a sandbox, see [Creating a Sandbox Environment](across-how-create-sandbox-environment.md).
+For more information about how to get started with a sandbox, see [Creating a Sandbox Environment](across-how-create-sandbox-environment.md).  
 
-> [!Note]
+> [!NOTE]
 > The sandbox contains demonstration data for the fictitious CRONUS company. No data is copied or otherwise transferred from the production environment.  
 
 ### Building New Solutions and Intellectual Property
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] offers a set of development tools and a modern platform to build on so you can create your own add-on apps and embed solutions to connect or extend [!INCLUDE[d365fin](includes/d365fin_md.md)].
+[!INCLUDE[d365fin](includes/d365fin_md.md)] offers a set of development tools and a modern platform to build on so you can create your own add-on apps and embed solutions to connect or extend [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 For example, you can use an API to build a connected app to exchange data between [!INCLUDE[d365fin](includes/d365fin_md.md)] and your payroll app. Connect apps can also make use of extensions to create pages to be used for setup, configuration, or to support app-specific features. For more information, see [Build Your Business on Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-welcome).
 

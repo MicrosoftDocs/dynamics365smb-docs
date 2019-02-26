@@ -121,10 +121,10 @@ After you have tested the data, you can transfer it to the consolidated company.
 ## To eliminate repeated transactions
 After you have consolidated all the companies, you must find any transactions that are recorded more than once across companies and then post elimination entries to remove them.
 
-You can process consolidation eliminations by following these steps:
-* Find transactions that potentially need to be adjusted and enter general journal lines to eliminate them.
-* Run the **G/L Consolidation Eliminations** report to help you assess the effect of the general journal lines before posting.
-* Post the adjusting transactions.
+Processing consolidation eliminations is a manual process. You can follow these steps:
+1. Find transactions that potentially need to be adjusted and enter general journal lines to eliminate them.
+2. Run the **G/L Consolidation Eliminations** report to help you assess the effect of the general journal lines before posting.
+3. Post the adjusting transactions.
 
 The **G/L Consolidation Eliminations** report displays a tentative trial balance where you can simulate the consequences of eliminating entries by comparing the entries in the consolidated company with the eliminations that have been entered in the general journal.
 

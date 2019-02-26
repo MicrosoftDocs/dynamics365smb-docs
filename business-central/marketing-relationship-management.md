@@ -30,7 +30,6 @@ To get started, see the following topics:
 
 ## See Also
 [Sales](sales-manage-sales.md)  
-[Setting Up Relationship Management](marketing-setup-marketing.md)  
 [Integrating with Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

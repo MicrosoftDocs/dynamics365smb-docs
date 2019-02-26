@@ -32,7 +32,6 @@ The contact information is transferred from the **Contact** card to the **Bank A
 ## See Also
 [Create Contact Companies](marketing-create-contact-companies.md)  
 [Create Contact Persons](marketing-create-contact-persons.md)  
-[Setting Up Relationship Management](marketing-setup-marketing.md)  
 [Synchronizing Contacts With Customers, Vendors, and Bank Accounts](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
 [Link Contacts to Existing Customers, Vendors, or Bank Accounts](marketing-how-link-contact.md)  
 [Assign Business Relations to a Contact](marketing-business-relations.md#AssignBusRelContact)  

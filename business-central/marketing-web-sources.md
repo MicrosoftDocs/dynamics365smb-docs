@@ -43,5 +43,5 @@ Repeat these steps to assign as many web sources as you want.
 You can also assign web sources from the **Contact List** page by following the same procedure.
 
 ## See Also
-[Creating Contact Companies](marketing-create-contact-companies.md)  
+[Creating Contacts](marketing-create-contact-companies.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

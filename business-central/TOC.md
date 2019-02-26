@@ -416,11 +416,9 @@
 ## [Manage Budgets for Fixed Assets](fa-how-manage-budgets.md)
 
 # [Relationship Management](marketing-relationship-management.md)
-## [Setting Up Relationship Management](marketing-setup-marketing.md)
 ## [Managing Contacts](marketing-contacts.md)
 ### [Setting Up Contacts](marketing-setup-contacts.md)
-### [Creating Contact Companies](marketing-create-contact-companies.md)
-### [Creating Contact Persons](marketing-create-contact-persons.md)
+### [Creating Contacts](marketing-create-contact-companies.md)
 ## [Managing Segments](marketing-segments.md)
 ### [Create Segments](marketing-how-create-segment.md)
 ### [Add Contacts to Segments](marketing-add-contact-segment.md)

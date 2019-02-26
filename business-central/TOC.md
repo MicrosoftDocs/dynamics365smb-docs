@@ -416,7 +416,6 @@
 ## [Manage Budgets for Fixed Assets](fa-how-manage-budgets.md)
 
 # [Relationship Management](marketing-relationship-management.md)
-## [Setting Up Relationship Management](marketing-setup-marketing.md)
 ## [Managing Contacts](marketing-contacts.md)
 ### [Setting Up Contacts](marketing-setup-contacts.md)
 ### [Creating Contacts](marketing-create-contact-companies.md)

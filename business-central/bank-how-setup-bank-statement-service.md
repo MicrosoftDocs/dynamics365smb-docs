@@ -44,7 +44,7 @@ When the bank feed service is enabled, you can set a bank account up to automati
 The bank feed service will be enabled when you link a bank account to its related online bank account. See the next procedure.  
 
 > [!NOTE]
-> If you use the **Company Setup** assisted setup guide, then you enable the service by selecting the **Use a bank feed service** check box. For more information, see [Creating New Companies in Business Central](business-central/about-new-company.md).
+> If you use the **Company Setup** assisted setup guide, then you enable the service by selecting the **Use a bank feed service** check box. For more information, see [Creating New Companies in Business Central](about-new-company.md).
 
 ## To create a new linked bank account
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.

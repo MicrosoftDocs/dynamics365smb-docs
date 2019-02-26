@@ -22,7 +22,6 @@ The Envestnet Yodlee Bank Feeds service is installed as an extension to [!INCLUD
 
 > [!NOTE]
 > The Envestnet Yodlee Bank Feeds service is only supported in the US, Canada, and UK.<br /><br />
-
 > The functionality is only supported in the online version of Business Central. To use this functionality on-premise, you must obtain a cobrand account from Envestnet Yodlee.
 
 After you enable the bank feed service, you must link a bank account to the online bank account that the feed will come from. You link bank accounts to online bank accounts in the following different scenarios:
@@ -44,7 +43,7 @@ When the bank feed service is enabled, you can set a bank account up to automati
 
 The bank feed service will be enabled when you link a bank account to its related online bank account. See the next procedure.  
 
-> ]!NOTE]
+> [!NOTE]
 > If you use the **Company Setup** assisted setup guide, then you enable the service by selecting the **Use a bank feed service** check box. For more information, see [Creating New Companies in Business Central](business-central/about-new-company.md).
 
 ## To create a new linked bank account

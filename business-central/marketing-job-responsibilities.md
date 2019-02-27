@@ -41,6 +41,5 @@ The number of job responsibilities you have assigned to the contact is displayed
 After you have assigned job responsibilities to your contacts, you can use this information to select contacts for your segments. For more information, see [Add Contacts to Segments](marketing-add-contact-segment.md).
 
 ## See Also
-[Creating Contact Persons](marketing-create-contact-persons.md)  
-[Creating Contact Companies](marketing-create-contact-companies.md)  
+[Creating Contacts](marketing-create-contact-companies.md)  
 [Working with Business Central](ui-work-product.md)

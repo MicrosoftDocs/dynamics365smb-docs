@@ -39,6 +39,5 @@ The number of mailing groups you have assigned to the contact is displayed in th
 After you have assigned mailing groups to your contacts, you can use this information to select contacts for your segments. For more information, see [Add Contacts to Segments](marketing-add-contact-segment.md).
 
 ## See Also
-[Creating Contact Companies](marketing-create-contact-companies.md)  
-[Creating Contact Persons](marketing-create-contact-persons.md)  
+[Creating Contacts](marketing-create-contact-companies.md)  
 [Working with Business Central](ui-work-product.md)

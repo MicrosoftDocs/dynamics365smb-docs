@@ -16,13 +16,11 @@ ms.author: jswymer
 redirect_url: marketing-create-contact-companies
 
 ---
-# Create Contact Companies
+# Create Contacts
 You can create a contact for each new company you interact with, for example, a customer, vendor, prospective customer, bank, law firm, consultant, and so on.
 
 There are two ways to create a contact:
 from scratch or from an existing customer, vendor, or bank account.
-
-Before creating a contact, you may want to check the settings on the **Marketing Setup** page. For more information, see [Setting Up Relationship Management](marketing-setup-marketing.md).
 
 ## Create a company contact from scratch
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, and then choose the related link.

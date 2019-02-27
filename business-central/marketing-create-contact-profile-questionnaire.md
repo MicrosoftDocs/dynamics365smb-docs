@@ -153,6 +153,4 @@ Then fill on the **Profile Question Details** page as follows:
 When you assign the profile questionnaire containing this question to a contact, the program automatically enters the relevant answer for this contact on the profile lines of the contact card.
 
 ## See Also
-[Creating Contact Persons](marketing-create-contact-persons.md)  
-[Create Contact Persons](marketing-how-create-contact-persons.md)  
-[Creating Contact Companies](marketing-create-contact-companies.md)  
+[Creating Contacts](marketing-create-contact-companies.md)  

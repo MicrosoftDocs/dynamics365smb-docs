@@ -10,8 +10,9 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
-ms.date: 12/07/2018
+ms.date: 02/26/2019
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
 
 ---
 # Setting Up Relationship Management
@@ -43,7 +44,7 @@ For more information, see [Automatically Record Interactions with Contacts](mark
 ## Synchronizing Contacts with Customers and More
 In order to synchronize the contact card with the customer card, the vendor card and the bank account card, you must select a business relation code for customers, vendors, and bank accounts. For example, you can only link a contact with an existing customer if you have selected a business relation code for customers on the **Marketing Setup** page.
 
-For more information, see [Synchronizing Contacts with Customers, Vendors and Bank Accounts](marketing-synchronize-contacts-customers-vendors-bank-accounts.md).
+For more information, see [Synchronizing Contacts with Customers, Vendors and Bank Accounts](marketing-synchronize-contacts-customers-vendors-bank-accounts/Synchronizing Contacts With Customers, Vendors, and Bank Accounts).
 
 ## Assigning a Number Series to Contacts and Opportunities
 You can set up a number series for contacts and opportunities. If you have set up a number series for contacts, when you create a contact, and press Enter in the No. field on the contact card, the program automatically enters the next available contact number.

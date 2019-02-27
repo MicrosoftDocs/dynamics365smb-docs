@@ -38,6 +38,5 @@ After you have assigned organizational levels to your contacts, you can use this
 After you have assigned job responsibilities to your contacts, you can use this information to select contacts for your segments. For more information, see [Add Contacts to Segments](marketing-add-contact-segment.md).
 
 ## See Also
-[Creating Contact Companies](marketing-create-contact-companies.md)  
-[Creating Contact Persons](marketing-create-contact-persons.md)  
+[Creating Contacts](marketing-create-contact-companies.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

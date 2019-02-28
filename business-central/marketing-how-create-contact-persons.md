@@ -33,7 +33,6 @@ You can create a contact card for each contact who works for the companies you i
 >   The contents of the fields that you have selected in the **Inheritance** section of the **Marketing Setup** page are copied from the company to the persons within that company.
 
 ## See Also
-[Setting Up Relationship Management](marketing-setup-marketing.md)  
 [Assigning Mailing Groups to a Contact](marketing-mailing-groups.md#AssignMailGroupContact)  
 [Set Up Job Responsibilities on Contacts](marketing-job-responsibilities.md)  
 [Set Up Organizational Levels for Contact Persons](marketing-organizational-levels.md)  

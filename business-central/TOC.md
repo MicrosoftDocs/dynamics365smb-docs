@@ -3,6 +3,7 @@
 ## [What's New](product-news.md)
 ## [Minimum Requirements](product-requirements.md)
 ## [Frequently Asked Questions](across-faq.md)
+## [Resources for Help and Support](product-help-and-support.md)
 ## [Getting Ready for Doing Business](ui-get-ready-business.md)
 ## [Videos on Common Tasks](across-videos.md)
 ## [Overview of Business Functionality](across-business-functionality.md)

@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 01/31/2019
+    ms.date: 03/01/2019
     ms.author: sgroespe
 
 ---
@@ -105,7 +105,7 @@ If you need to link special information to a specific item tracking number, for 
 5. Select a card, and then choose the **Lot No./Serial No. Information Card** action.  
 6. Modify the short description text, the comment record, or the **Blocked** field.  
 
-You cannot modify the serial or lot numbers or quantities. To do so, you must reclassify the item ledger entry in question. For more information, see the "To reclassifying lot or serial numbers" section.
+You cannot modify the serial or lot numbers or quantities. To do so, you must reclassify the item ledger entry in question. For more information, see [To reclassify lot or serial numbers](inventory-how-work-item-tracking.md#to-reclassify-serial-or-lot-numbers).
 
 ## To assign serial or lot numbers during an inbound transaction  
 Companies may want to keep track of items from the moment they enter the company. In this situation, the purchase order is often the central document, although item tracking may be handled from any inbound document and its posted entries displayed in the related item ledger entries.  
@@ -143,7 +143,7 @@ When the document is posted, the item tracking entries are carried to the associ
 ## To assign a serial or lot number during an outbound transaction  
 There are two ways to add serial and lot numbers to outbound transactions:  
 
--   Selecting from existing serial or lot numbers. This applies when item tracking numbers have already been assigned during an inbound transaction. For more information, see the "To select from existing serial numbers and lot numbers" section.
+-   Selecting from existing serial or lot numbers. This applies when item tracking numbers have already been assigned during an inbound transaction. For more information, see [To select from existing serial numbers and lot numbers](inventory-how-work-item-tracking.md#to-select-from-existing-serial-or-lot-numbers).
 -   Assigning new serial or lot numbers during outbound transactions. This applies when item tracking numbers are not assigned to items until they are sold and ready to be shipped.  
 
 The different rules for item tracking numbers are set up on the **Item Tracking Code Card** page.  

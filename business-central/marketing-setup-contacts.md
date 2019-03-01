@@ -145,7 +145,7 @@ The inheritance of fields overwrites the default values you have set up. For exa
 ## Synchronizing Contacts with Customers, Vendors, and Bank Accounts
 In order to synchronize the contact card with a linked customer, vendor, or bank account card, you must fill in the relevant field in the **Bus. Relation Code for** section on the **Interactions** FastTab on the **Marketing Setup** page.  
 
-For more information, see the "To synchronize contacts with customers, vendors, and bank accounts" section in [Creating Contacts](marketing-create-contact-companies.md).
+For more information, see [Synchronizing contacts with customers, vendors, and bank accounts](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
 
 ## Searching for Duplicate Contacts when Contacts are Created
 You can choose to have the program automatically search for duplicates each time you create a contact company, or you can choose to search manually after you have created contacts. You can also choose to have the program update the search strings automatically each time you modify contact information or create a contact. You can decide the search hit percentage, that is, the percentage of identical strings two contacts must have for the program to consider them as duplicates.

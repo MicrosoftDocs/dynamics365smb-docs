@@ -67,7 +67,7 @@ There are certain types of errors that may occur when you apply data to a databa
     > [!NOTE]  
     >  If you import the same package again, you may overwrite any data modifications that you have already made. For that reason, you may want to add any new tables in a new package and import that instead.  
 
-7. Apply the data to the database, as described in [To modify and apply package data](admin-how-to-configure-new-companies#to-modify-and-apply-package-data).
+7. Apply the data to the database, as described in [To modify and apply package data](admin-how-to-configure-new-companies.md#to-modify-and-apply-package-data).
 
 ## See Also  
 [Apply Configurations to New Companies](admin-apply-configuration-to-new-companies.md)  

@@ -9,7 +9,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
 
 ---
@@ -38,7 +38,7 @@ Assembly BOMs usually contain items but can also contain one or more resources t
 
 Assembly BOMs can have multiple levels, which means that a component on the assembly BOM can be an assembly item itself. In that case, the **Assembly BOM** field on the assembly BOM line contains **Yes**.
 
-Special requirements apply to items on assembly BOMs with regards to availability. For more information, see the "To see the availability of an item by its use in assembly BOMs" section in [View the Availability of Items](inventory-how-availability-overview.md).
+Special requirements apply to items on assembly BOMs with regards to availability. For more information, see [To see the availability of an item by its use in assembly BOMs](inventory-how-availability-overview.md#to-view-the-availability-of-an-item-by-its-use-in-assembly-or-production-boms).
 
 There are two parts to creating an assembly BOM:
 - Setting up a new item

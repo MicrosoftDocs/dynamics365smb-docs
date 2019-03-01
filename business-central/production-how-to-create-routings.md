@@ -39,11 +39,11 @@ Before you can set up a routing, the following must be in place:
 6.  In the **Operation No.** field, enter the number of the first operation, for example,  **10**.  
 7.  In the **Type** field, specify which kind of resource is used, for example, **Work Center**.  
 8.  In the **No.** field, select the resource to be used, or type it in the field.  
-9.  In the **Routing Link Code** field, enter a code to connect the component to a specific operation. For more information, see the "To create routing links" section.
-10.  In the **Run Time** and **Setup Time** fields, enter the process times needed to perform the operation.  
+9.  In the **Routing Link Code** field, enter a code to connect the component to a specific operation. For more information, see [To create routing links](production-how-to-create-routings.md#to-create-routing-links).
+10.  In the **Run Time** and **Setup Time** fields, enter the process times needed to perform the operation.
 
-    > [!NOTE]  
-    >  Setup time is calculated per production order, whereas run time is calculated per produced item.  
+    > [!NOTE]
+    > Setup time is calculated per production order, whereas run time is calculated per produced item.  
 
 11.  In the **Concurrent Capacities** field, specify how many units of the selected resource are used to perform the operation. For example, two people allocated to one packing operation will halve the run time.  
 12.  Continue to fill in lines for all operations involved in producing the item in question.  

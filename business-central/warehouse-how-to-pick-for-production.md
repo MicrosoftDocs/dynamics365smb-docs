@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 01/22/2019
+    ms.date: 03/01/2019
     ms.author: sgroespe
 
 ---
@@ -20,7 +20,7 @@ How you put away your pick components for production or assembly orders depends 
 
 In basic warehouse configurations where the location requires pick processing but not shipment processing, you use the **Inventory Pick** page to organize and record the picking of components.  
 
-In basic warehouse configurations, you must pick for assembly orders with the **Inventory Movement** page. For more information, see the "Handling Assemble-to-Order Item with Inventory Picks" section in [Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md).  
+In basic warehouse configurations, you must pick for assembly orders with the **Inventory Movement** page. For more information, see [Handling Assemble-to-Order Item with Inventory Picks](warehouse-how-to-pick-for-production.md#handling-assemble-to-order-items-with-inventory-picks).  
 
 In advanced warehouse configurations where locations require both picks and shipments, you use the **Warehouse Pick** page to bring components to production or assembly orders. For more information, see [Pick for Production or Assembly in Advanced Warehouse Configurations](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).
 

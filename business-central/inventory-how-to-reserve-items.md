@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 03/01/2019
     ms.author: sgroespe
 
 ---
@@ -34,7 +34,7 @@ The following describes how to reserve items from a sales order. The steps are s
     |**Cancel Reservation from Current Line**|To cancel reservation of the items from the document on the line you have selected.|
 
 > [!NOTE]  
->  If item tracking lines exist for the sales order, the reservation system will take you through special steps. For more information, see the "To reserve a specific serial or lot number" section.  
+>  If item tracking lines exist for the sales order, the reservation system will take you through special steps. For more information, see [To reserve a specific serial or lot number](inventory-how-to-reserve-items.md#to-reserve-a-specific-serial-or-lot-number).  
 
 ## To reserve an item for a production order line  
 You can reserve items for production orders. You have to distinguish between production order lines, meaning the parent item, and production order components.

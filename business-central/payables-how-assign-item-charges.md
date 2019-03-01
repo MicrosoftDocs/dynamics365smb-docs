@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: transportation, added cost, landed cost
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
 
 ---
@@ -65,7 +65,7 @@ The item charge is now assigned to the purchase invoice. When you post the recei
 
 ## To assign an item charge from a separate invoice to the purchase invoice for the item
 If you received an invoice for the item charge after you posted the original purchase receipt, follow this procedure.
-1. Repeat steps 1 through 8 in the "To assign an item charge directly to the purchase invoice for the item" section.
+1. Repeat steps 1 through 8 in [To assign an item charge directly to the purchase invoice for the item](payables-how-assign-item-charges.md#to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item).
 2. On the **Item Charge Assignment** page, choose the **Get Receipt Lines** action.
 3. On the **Purch. Receipt Lines** page, select the posted purchase receipt for the item that you want to assign the item charge to, and then choose the **OK** button.
 4. Choose the **Suggest Item Charge Assignment** action.

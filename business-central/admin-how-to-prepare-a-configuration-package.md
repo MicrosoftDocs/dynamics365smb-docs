@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 03/01/2019
     ms.author: sgroespe
 
 ---
@@ -89,7 +89,7 @@ Use the configuration worksheet to gather and categorize the information that yo
 3.  In the **Line Type** field, choose **Group**. In the **Name** field, enter a descriptive name.  
 4.  In the **Line Type** field, choose **Table**. In the **Table ID** field, select the table you want to include in the worksheet.  
 
-You can now assign the tables to specific configuration packages that you have created or plan to create. For more information, see the "To assign a table to a configuration package" section.
+You can now assign the tables to specific configuration packages that you have created or plan to create. For more information, see [To assign a table to a configuration package](admin-how-to-prepare-a-configuration-package.md#to-assign-a-table-to-a-configuration-package).
 
 ## To work with promoted tables  
 1. Select the **Promoted Table** check box to indicate a table that is frequently used during the setup process by a typical customer, for example, the **G/L Account** table. When a table has this designation, a customer will be able to easily filter his worksheet to see just the list of promoted tables that require attention.  
@@ -99,7 +99,7 @@ You can now assign the tables to specific configuration packages that you have c
 After you have defined the tables that you want to treat as part of your configuration, you can easily assign the tables to configuration packages. You can assign a table to one package only. In the following procedure, you assign the package from within configuration worksheet.  
 
 > [!NOTE]  
->  You can also create a package directly, and add tables to it. For more information, see the "To create a configuration package" section.
+>  You can also create a package directly, and add tables to it. For more information, see [To create a configuration package](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.
 2. In the configuration worksheet, select a line or group of lines that you want to assign to a configuration package, and then choose the **Assign Package** action.  

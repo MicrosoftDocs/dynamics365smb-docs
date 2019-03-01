@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 03/01/2019
     ms.author: sgroespe
 
 ---
@@ -55,7 +55,7 @@ When you set up a data export, you can filter data on different levels as descri
 
 If you include a FlowField such as the **Net Change (LCY)** field on the **Customer** table, you can specify that the entries must be filtered based on the remaining amount at the end date of the GDPdU period. If you add this as a field filter, then the calculation formulas are based on the dates that are specified during the export.
 
-For more informa.tion, see the "GDPdU Filter Examples" section in [Set Up Data Exports for Digital Audits](how-to-set-up-data-exports-for-digital-audits.md).
+For more information, see [GDPdU Filter Examples](gdpdu-filter-examples.md).
 
 ## Export Performance  
  If you want to export large sets of data, it can take a very long time. We recommend that you set up data exports based on advice from your tax advisor to establish your business needs, and the requirements of the tax auditor. The number of records in a table is also something that you should consider.  

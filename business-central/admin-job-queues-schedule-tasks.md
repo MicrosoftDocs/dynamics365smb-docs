@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 02/21/2019
+ms.date: 03/01/2019
 ms.author: edupont
 
 ---
@@ -23,7 +23,7 @@ A job queue can have many entries, which are the jobs that the queue manages and
 ## To set up background posting with job queues
 Job queues are an effective tool to schedule the running of business processes in the background, such as when multiple users are trying to post sales orders, but only one order can be processed at a time. Alternatively, you may want to schedule postings for hours when it is convenient for your organization. For example, it may make sense in your business to run certain routines when most of the data entry for the day has concluded.
 
-You can achieve this by setting the job queue up to run various batch-posting reports, such as the **Batch Post Sales Orders**, **Batch Post Sales Invoices**, **Batch Post Sales Return Orders**, and **Batch Post Sales Credit Memos** reports. For more information, see the "To create a job queue entry for background sales order posting" section.  
+You can achieve this by setting the job queue up to run various batch-posting reports, such as the **Batch Post Sales Orders**, **Batch Post Sales Invoices**, **Batch Post Sales Return Orders**, and **Batch Post Sales Credit Memos** reports. For more information, see [To create a job queue entry for background sales order posting](admin-job-queues-schedule-tasks.md#to-create-a-job-queue-entry-for-batch-posting-of-sales-orders).  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] supports background posting for all sales, purchasing, and service documents.
 
@@ -42,7 +42,7 @@ The following procedure explains how to set up background posting of sales order
     No other fields are relevant for this scenario.
 8. Choose the **Set Status to Ready** action.
 9. To verify that the job queue is working as expected, post a sales order. For more information, see [Sell Products](sales-how-sell-products.md).
-10. Review on the **Job Queue Log Entries** page if the sales order was posted successfully. For more information, see the "To view status or errors in the job queue" section.
+10. Review on the **Job Queue Log Entries** page if the sales order was posted successfully. For more information, see [To view status or errors in the job queue](admin-job-queues-schedule-tasks.md#to-view-status-or-errors-in-the-job-queue).
 
 If you also want sales documents to be printed when they are posted, select the **Post & Print with Job Queue** check box on the **Sales & Receivables Setup** page.  
 
@@ -65,7 +65,7 @@ The following procedure shows how to set the **Batch Post Sales Orders** report 
 Sales orders that are ready to post will now be posted every week day at 4 PM.
 
 > [!NOTE]
-> If the job queue cannot post the sales order, the status is changed to **Error** and the sales order is added to the list of sales orders that the user must handle manually. For more information, see the "To view status or errors in the job queue" section.
+> If the job queue cannot post the sales order, the status is changed to **Error** and the sales order is added to the list of sales orders that the user must handle manually. For more information, see [To view status or errors in the job queue](admin-job-queues-schedule-tasks.md#to-view-status-or-errors-in-the-job-queue).
 
 After job queues are set up and running, the status can change as follows within each recurring period:
 

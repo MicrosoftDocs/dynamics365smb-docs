@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
 
 ---
@@ -30,7 +30,7 @@ Indexation is used to adjust multiple fixed asset values, for example per genera
 4. Choose the **Insert FA Bal. Account** action. A second journal line is created for the balancing account that is set up for appreciation posting.
 
     > [!NOTE]  
-    >   Step 4 only works if you have set up the following: On the **FA Posting Group Card** page for the posting group of the fixed asset, the **Appreciation Account** field contains the general ledger debit account and the **Appreciation Bal. Account** field contains the general ledger account to which you want to post balancing entries for appreciation. For more information, see the "To set up fixed asset posting groups" section in [Set Up General Fixed Asset Information](fa-how-setup-general.md).  
+    >   Step 4 only works if you have set up the following: On the **FA Posting Group Card** page for the posting group of the fixed asset, the **Appreciation Account** field contains the general ledger debit account and the **Appreciation Bal. Account** field contains the general ledger account to which you want to post balancing entries for appreciation. For more information, see [To set up fixed asset posting groups](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).  
 5. Choose the **Post** action.
 
 ## To post a write-down from the fixed asset G/L journal
@@ -40,7 +40,7 @@ Indexation is used to adjust multiple fixed asset values, for example per genera
 4. Choose the **Insert FA Bal. Account** action. A second journal line is created for the balancing account that is set up for write-down posting.
 
     > [!NOTE]  
-    >   Step 4 only works if you have set up the following: On the **FA Posting Group Card** page for the posting group of the fixed asset, the **Write-Down Account** field contains the general ledger credit account and the **Write-Down Expense Account** field contains the general ledger debit account to which you want to post balancing entries for write-downs. For more information, see the "To set up fixed asset posting groups" section in [Set Up General Fixed Asset Information](fa-how-setup-general.md).
+    >   Step 4 only works if you have set up the following: On the **FA Posting Group Card** page for the posting group of the fixed asset, the **Write-Down Account** field contains the general ledger credit account and the **Write-Down Expense Account** field contains the general ledger debit account to which you want to post balancing entries for write-downs. For more information, see [To set up fixed asset posting groups](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
 5. Choose the **Post** action.
 
 ## To perform general revaluation of fixed assets

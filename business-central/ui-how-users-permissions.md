@@ -53,7 +53,7 @@ The user group members are not copied to the new user group. You must add them m
 2. Select the user group that you want to copy, and then choose the **Copy User Group** action.
 3. In the **New User Group Code** field, enter a name for the group, and then choose the **OK** button.
 
-The new user group is added to the **User Groups** page. Proceed to add users. For more information, see [To group users in user groups](ui-how-users-permissions#to-group-users-in-a-user-group).  
+The new user group is added to the **User Groups** page. Proceed to add users. For more information, see [To group users in user groups](ui-how-users-permissions.md#to-group-users-in-a-user-group).  
 
 ## To set up user time constraints
 Administrators can define periods of time during which specified users are able to post, and also specify if the system logs the amount of time users are logged on. Administrators can also assign responsibility centers to users. For more information, see [Work with Responsibility Centers](inventory-responsibility-centers.md).

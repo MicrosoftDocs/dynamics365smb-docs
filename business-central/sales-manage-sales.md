@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 02/28/2019
+ms.date: 03/04/2019
 ms.author: sgroespe
 
 ---
@@ -47,7 +47,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Sell assembly items that are not currently available by creating a linked assembly order to supply the full or partial sales order quantity.|[Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md)|
 |Invoice a customer once for multiple shipments by combining the shipments on one invoice.|[Combine Shipments on a Single Invoice](sales-how-to-combine-shipments-on-a-single-invoice.md)|
 |Inform your customers of order delivery dates by calculating either the capable-to-promise date or the available-to-promise date.|[Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)|
-|Resolve confusion when two or more records exist for the same customer.|[Merge Duplicate Customer or Vendor Records](sales-how-merge-duplicate-records.md)| 
+|Resolve confusion when two or more records exist for the same customer.|[Merge Duplicate Customer or Vendor Records](sales-how-merge-duplicate-records.md)|
 
 ## See Also
 [Setting Up Sales](sales-setup-sales.md)  

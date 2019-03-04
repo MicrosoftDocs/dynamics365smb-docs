@@ -70,7 +70,7 @@ The following procedures demonstrate how to add and customize table information 
     > Example: If you get related tables for the **Customer** table, then the **Location** table will not be added, since it is only conditionally related to the **Customer** table, namely if the **Location Code** field in the **Customer** table is filled in.  
     > - The related table is filtered.  
     > Example: A field in the related table has a WHERE clause. The reason for this is that the involved relations information is stored in the **Field** virtual table and is not available in pages such as the configuration worksheet for performance reasons.  
-    > You must add related tables with such complex relationships manually by following step 4 in the "To add a table to the worksheet" section.
+    > You must add related tables with such complex relationships manually by following step 4 in [To add a table to the worksheet](admin-how-to-manage-company-configuration-in-a-worksheet.md#to-add-a-table-to-the-worksheet).
 
 7. To delete tables in the resulting list of tables, select a table to remove, and then choose the **Delete** action.  
 

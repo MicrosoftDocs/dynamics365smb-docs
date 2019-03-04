@@ -88,14 +88,14 @@ When you apply data that you have imported from Excel or from a RapidStart packa
 
 - If the same mappings are defined directly for a field and in the related table, but have different new values, the mapping that is defined directly for the field takes priority over the mapping that is defined for the table that the field is referencing.  
 
-In the following procedures, you should review in advance which values you want to retain during the migration process. To perform the following procedures, you need data migration files (.xlsx) that you have exported from [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see the "To export data migration files" section.
+In the following procedures, you should review in advance which values you want to retain during the migration process. To perform the following procedures, you need data migration files (.xlsx) that you have exported from [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [To export data migration files](admin-migrate-customer-data.md#to-export-data-migration-files).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Packages**, and then choose the related link.
 2. Open the package for the company in question.  
 3. Select the table for which you want to map values, and then, on the **Tables** tab, choose the **Fields** action.  
 4. For each field that you want to map, choose the **Mapping** action.  
 5. In the **Old Value** field, enter the value that you want to change. In the **New Value** field, enter the value that you want the old value to be changed to. Choose the **OK** button.  
-6. Import the customer data. For more information, see the "To import customer data" section.
+6. Import the customer data. For more information, see [To import customer data](admin-migrate-customer-data.md#to-import-customer-data).
 7. In the **No. of Package Errors** field, see if there are any errors reported. If there are, drill down to see the errors. The **Config. Package Records** page opens.
 8. Choose the **Show Error** action. You will receive the following error: **<option> is not a valid option. Valid options are <valid option list>**. Choose the **OK** button.  
 9. To apply the mapping that you have set up, choose the **Apply Data** action.  
@@ -111,7 +111,7 @@ The following example illustrates how [!INCLUDE[d365fin](includes/d365fin_md.md)
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Packages**, and then choose the related link.  
 2. Select the table for which you want to add additional values, and then, on the **Tables** tab, choose the **Fields** action.  
 3. For the fields for which you want [!INCLUDE[d365fin](includes/d365fin_md.md)] to permit additional values during migration, select the **Create Missing Codes** check box.  
-4. Import the customer data. For more information, see the "To import customer data" section.
+4. Import the customer data. For more information, see [To import customer data](admin-migrate-customer-data.md#to-import-customer-data).
 
 ## To clean up and process data before applying data
 In some cases, you may want to clean up customer data and process it before you apply it to the database. To do that, you can use the **Config. Package - Process** batch job to fix issues, such as:  
@@ -130,7 +130,7 @@ When you have exported a migration table, your next step is to enter the custome
 
 For assistance with XML, enable the **Developer** tab of the Excel ribbon, and then choose the **Source** action to see the XML schema of your migration table as represented in Excel.
 
-The following procedure is based on an Excel worksheet that you have created for migration. For more information, see the "To export data migration files" section.
+The following procedure is based on an Excel worksheet that you have created for migration. For more information, see [To export data migration files](admin-migrate-customer-data.md#to-export-data-migration-files).
 
 > [!IMPORTANT]  
 > Do not change the columns in the Excel worksheets. If they are moved, changed, or deleted, the worksheet cannot be imported into [!INCLUDE[d365fin](includes/d365fin_md.md)].

@@ -11,14 +11,14 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 03/01/2019
     ms.author: sgroespe
 
 ---
 # Track Relations Between Demand and Supply
 From any supply or demand document in the so-called order network, you can track the order demand (tracked quantity), forecast, blanket sales order, or planning parameter (untracked quantity) that has given rise to the planning line in question.
 
-The planning worksheets also offers supporting planning information about non-order entities to help the planner obtain an optimal supply plan. For more information, see the "Untracked Planning Elements" section.
+The planning worksheets also offers supporting planning information about non-order entities to help the planner obtain an optimal supply plan. For more information, see [Untracked Planning Elements](production-how-track-demand-supply.md#untracked-planning-elements).
 
 ## To track linked items
 Order tracking shows how sales orders, production orders, and purchase orders are related to the manufacturing order through the planning and reservation systems.

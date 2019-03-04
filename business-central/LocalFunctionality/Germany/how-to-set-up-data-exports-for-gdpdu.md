@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 03/01/2019
     ms.author: sgroespe
 
 ---
@@ -65,7 +65,7 @@ Next, you must specify the source for the data that will be exported.
     |**Export File Name**|Specify the name of the file that data from this table will be exported to.<br /><br /> For example, if the table is the **G/L Account** table, the value of the **Export Table Name** can be **GLAccount**, and the value of the **Export File Name** field can be **GLAccount.txt**.|  
     |**Key No.**|Optional. Specify the key field.|
 
-    For more linformation, see the "GDPdU Filter Examples" section.  
+    For more information, see [GDPdU Filter Examples](gdpdu-filter-examples.md).  
 
     Next, you must specify the fields that data will be exported from.  
 
@@ -101,68 +101,6 @@ After you have added tables and fields, you must validate that the structure of 
 On the **Data Exp. Record Source** page, choose the **Validate** action.  
 
 This validates the list of fields against the keys for the tables. If you select a primary key after you select a secondary key, an error message displays, and you must change the order of the fields in the **Fields** pane.
-
-## Filter Examples
-The following section provides examples of how you can use and combine different filter types when you set up your data exports. By setting filters appropriately, you can improve performance.  
-
-The following examples use the G/L Entry and Cust. Ledger Entry tables for data. They assume that you have specified the following date in the **Export Business Data** batch job.  
-
-- Start Date = 01/01/2013  
-- End Date = 12/31/2013  
-
-### Setting Up Export Record Source Examples  
-
-#### Period Field No.  
-On the **Data Export Record Source** page, the set up is as described in the following table.  
-
-|Table No.|Table Name|Period Field No.|Period Field Name|Table Filter|  
-|---------------|----------------|----------------------|-----------------------|------------------|  
-|17|G/L Entry|4|Posting Date|No filter set.|  
-|21|Cust. Ledger Entry|4|Posting Date|No filter set.|  
-
-**Export Results**  
-
-- G/L Entries with Posting Date between 1/1/2013 and 12/31/2013.  
-- Cust. Ledger Entries with Posting Date between 1/1/2013 and 12/31/2013.  
-
-#### Table Filter  
-In this example, in addition to Period Field No. information, you also specify a table filter. This is useful when you want to not only include a starting date and ending date for your export, but also include an additional filter to specify other criteria, for example, amounts.  
-
-|Table No.|Table Name|Period Field No.|Period Field Name|Table Filter|  
-|---------------|----------------|----------------------|-----------------------|------------------|  
-|17|G/L Entry|4|Posting Date||  
-|21|Cust. Ledger Entry|||Cust. Ledger Entry: **Posting Date=..31-12-13**|  
-
-**Export Results**  
-
-- G/L Entries with Posting Date between 1/1/2013 and 12/31/2013.  
-- Cust. Ledger Entries with Posting Date earlier than 01/01/2014.  
-
-#### Date Filter Field No. and Date Filter Handling  
-The following example demonstrates setting Date type FlowFilters. If a table has more than one date FlowFilter, you cannot specify one to use, but you can specify how the date filter should be handled.  
-
-|Table No.|Table Name|Period Field No.|Period Field Name|Table Filter|Date Filter Handling|  
-|---------------|----------------|----------------------|-----------------------|------------------|--------------------------|  
-|18|Customer|||Customer: **Net Change (LCY)**=<>0|**Period**|  
-|21|Cust. Ledger Entry|4|Posting Date|Cust. Ledger Entry: **Remaining Amt. (LCY)**=<>0|**End Date Only**|  
-
-**Export Results**  
-
-- Customers that have Net Change (LCY) <> 0 in the period from 1/1/2013 and 12/31/2013.  
-- Cust. Ledger Entries with Posting Date between 01/01/2013 and 12/31/2013 that have Remaining Amt. (LCY) <> 0 at 12/31/2013.  
-
-#### Date Filter Handling for the Same Table  
-In this example, you set multiple filter definitions for the same table.  
-
-|Table No.|Table Name|Table Filter|Date Filter Handling|  
-|---------------|----------------|------------------|--------------------------|  
-|18|Customer|Customer: **Net Change (LCY)**=<>0|**Period**|  
-|18|Customer|Customer: **Net Change (LCY)**=<>0|**Start Date Only**|  
-
-**Export Results**  
-
-- Customers that have Net Change (LCY) <> 0 in the period from 1/1/2013 and 12/31/2013.  
-- Customers that have Net Change (LCY) <> 0 on the day before the start date.  
 
 ## See Also  
 [Process for Digital Audits (GoBD/GDPdU)](process-for-digital-audits.md)   

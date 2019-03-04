@@ -16,7 +16,7 @@ ms.author: sgroespe
 
 ---
 # Merge Duplicate Customer or Vendor Records
-As different users create new customer or vendor cards over time, or the records are created automatically, for example, in data migration, a customer or vendor may be represented in the system with more than one record. In this case, you can use the **Merge Duplicate** page from the card of the record that you want to keep. The page gives you an overview of duplicated field values and provides functions to select which values to keep or discard when merging two records into one. The duplicate record is deleted when you have completed the process.
+As different users create new customer or vendor cards over time, or new records are created automatically during migration, a customer or vendor may be represented in the system with more than one record. In this case, you can use the **Merge Duplicate** page from the card of the record that you want to keep. The page gives you an overview of duplicated field values and provides functions to select which values to keep or discard when merging two records into one.
 
 > [!TIP]
 > The **Merge Duplicate** page shows all fields where the values are different for the two records being compared. Therefore, a duplicate is indicated by the page showing very few fields. Whereas, if the page shows many fields, then the suspected record is probably not a duplicate.
@@ -30,20 +30,20 @@ The following procedure is based on a customer card. The steps are similar for a
 
     The **Fields** FastTab lists fields where the values are different for the two customers. This means that if the selected customer is really a duplicate, then only very few fields should be listed, such as typing errors and other data entry mistakes.
 
-    The **Related Tables** FastTab lists tables where there are fields with relation to both customers. The **Current Count** and **Duplicate Count** fields show the number of fields in related tables where the **No.** value of the current and the duplicate customer respectively is used. On the **Merge Duplicate** page, this section is informational only, however, if merge conflicts exist, you will resolve them (Override) on the **Merge Duplicate Conflicts** page. See steps 8 through 12.   
+    The **Related Tables** FastTab lists tables where there are fields with a relation to both customers. The **Current Count** and **Duplicate Count** fields show the number of fields in related tables where the **No.** value of both the current and the duplicate customer is used. On the **Merge Duplicate** page, this section is informational only, however, if merge conflicts exist, you will resolve them on the **Merge Duplicate Conflicts** page. See steps 8 through 12.   
 
 5. For each field where you want to use another value than the current one, select the **Override** check box. The value in the **Alternate Value** field will then be transferred to the current record when you complete the process.
 6. When you have finished selecting which values to keep or override, choose the **Merge** action.
 
     The system checks if the merge of values for the duplicate customer into the current customer causes any conflicts. A conflicts exists if a value in at least one primary-key field is the same for both customers while the value in the **No** field is different for the two customers.
 
-7. If no conflicts are not found, choose the **Yes** button in the confirmation message box.
+7. If no conflicts are found, choose the **Yes** button in the confirmation message box.
 
     The duplicate customer is renamed so that all usage of its **No.** value in all fields with relations to the customer table will be replaced with the **No.** value of the current customer.
 8. If conflicts exist, choose the **Resolve XX conflicts before merge** action on the **Conflicts** FastTab, which will appear if conflicts exist.
 9. On the **Merge Duplicate Conflicts** page, select the line for a related table with a conflict, and then choose the **View Details** action.
 
-    The **Merge Duplicate** page shows the fields in the selected table that cause a merge conflict between the two customer records. Notice in both the summarized values in the **Current** and **Conflicts With** fields and on the lines that at least one primary-key field is the same for both customers and the value of the **No.** field is different for the two customers.   
+    The **Merge Duplicate** page now shows the fields in the selected table that cause a merge conflict between the two customer records. Notice in both the summarized values in the **Current** and **Conflicts With** fields and on the lines that at least one primary-key field is the same for both customers and the value of the **No.** field is different for the two customers.   
 10. If you do not want to keep the duplicate customer record, choose the **Remove Conflicting Field Value** action, and then choose the **Close** button.
 
     Identical field values, other than the value in the **No.** field, are removed from the duplicate record and inserted on the current record.
@@ -52,7 +52,7 @@ The following procedure is based on a customer card. The steps are similar for a
 
     The conflicting field value is updated on the duplicate record so that it can be merged with the current record. The duplicate record continues to exist after the merge.
 13. Repeat steps 8 through 12 until all conflicts are resolved. The **Conflicts** FastTab disappears.
-14. On the **Merge Duplicate** page, choose the **Merge** action again, and then select the **Yes** button in the confirmation message box. 
+14. On the **Merge Duplicate** page, choose the **Merge** action again, and then select the **Yes** button in the confirmation message box.
 
 ## See Also
 [Sales](sales-manage-sales.md)    

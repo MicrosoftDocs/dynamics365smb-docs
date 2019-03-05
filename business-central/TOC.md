@@ -1131,22 +1131,22 @@
 ### Setup
 #### [Set Up a Posting Date Warning](how-to-set-up-a-posting-date-warning.md)
 ### VAT
-#### [Making Tax Digital - VAT Returns submission](making-tax-digital-submit-vat-return.md)
-#### [Change VAT Setup in Journals](how-to-change-vat-setup-in-journals.md)
-#### [Print VAT Audit Reports](how-to-print-vat-audit-reports.md)
-#### [Print VAT Reports](how-to-print-vat-reports.md)
-#### [Set Up Reverse Charges on VAT](how-to-set-up-reverse-charges-on-vat.md)
+#### [Making Tax Digital - VAT Returns submission](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)
+#### [Change VAT Setup in Journals](LocalFunctionality/UnitedKingdom/how-to-change-vat-setup-in-journals.md)
+#### [Print VAT Audit Reports](LocalFunctionality/UnitedKingdom/how-to-print-vat-audit-reports.md)
+#### [Print VAT Reports](LocalFunctionality/UnitedKingdom/how-to-print-vat-reports.md)
+#### [Set Up Reverse Charges on VAT](LocalFunctionality/UnitedKingdom/how-to-set-up-reverse-charges-on-vat.md)
 ### Banking and Payments
-#### [Print Checks for APACS](how-to-print-checks-for-apacs.md)
-#### [Print Remittance Advice](how-to-print-remittance-advice.md)
+#### [Print Checks for APACS](LocalFunctionality/UnitedKingdom/how-to-print-checks-for-apacs.md)
+#### [Print Remittance Advice](LocalFunctionality/UnitedKingdom/how-to-print-remittance-advice.md)
 ### Fixed Assets
-#### [Define Accounting Periods for Straight Line Depreciation of Fixed Assets](how-to-define-accounting-periods-for-straight-line-depreciation-of-fixed-assets.md)
+#### [Define Accounting Periods for Straight Line Depreciation of Fixed Assets](LocalFunctionality/UnitedKingdom/how-to-define-accounting-periods-for-straight-line-depreciation-of-fixed-assets.md)
 ### General Business Functionality
-#### [Enter Statutory Information](how-to-enter-statutory-information.md)
-#### [The GetAddress.io UK Postcodes Extension](ui-extensions-getaddressio.md)
-#### [Set Up the GetAddress.io UK Postcodes Extension](uk-setup-postal-code-service.md)
-#### [Enter External Document Numbers](how-to-enter-external-document-numbers.md)
-#### [Print Direct Sales and Purchase Details Reports](how-to-print-direct-sales-and-purchase-details-reports.md)
+#### [Enter Statutory Information](LocalFunctionality/UnitedKingdom/how-to-enter-statutory-information.md)
+#### [The GetAddress.io UK Postcodes Extension](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
+#### [Set Up the GetAddress.io UK Postcodes Extension](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
+#### [Enter External Document Numbers](LocalFunctionality/UnitedKingdom/how-to-enter-external-document-numbers.md)
+#### [Print Direct Sales and Purchase Details Reports](LocalFunctionality/UnitedKingdom/how-to-print-direct-sales-and-purchase-details-reports.md)
 
 ## [United States](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 ### [Create Deposits](LocalFunctionality/UnitedStates/how-to-create-deposits.md)  

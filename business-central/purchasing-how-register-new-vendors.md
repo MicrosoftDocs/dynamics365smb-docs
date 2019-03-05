@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
-ms.date: 10/01/2018
+ms.date: 03/05/2019
 ms.author: sgroespe
 
 ---
@@ -50,6 +50,7 @@ If you want to use this vendor card as a template when you create new vendor car
    The vendor template is added to the list of vendor templates, so that you can use it to create new vendor cards.
 
 ## See Also
+[Merge Duplicate Records](sales-how-merge-duplicate-records.md)  
 [Create Number Series](ui-create-number-series.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Record Purchases](purchasing-how-record-purchases.md)   

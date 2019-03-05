@@ -58,7 +58,7 @@ The following procedure is based on a customer card. The steps are similar for a
 14. On the **Merge Duplicate** page, choose the **Merge** action again, and then select the **Yes** button in the confirmation message box.
 
 > [!NOTE]
-> For contacts, you can use functionality to find duplicate contacts before you use the **Merge Duplicate** page. For more information, see [Searching for Duplicate Contacts](marketing-setup-contacts.md#searching-for-duplicate-contacts-when-contacts-are-created).
+> For contacts, you can use functionality to find duplicate contacts before you use the **Merge Duplicate** page. For more information, see [Searching for Duplicate Contacts](marketing-setup-contacts.md#searching-for-duplicate-contacts).
 
 ## See Also
 [Sales](sales-manage-sales.md)  

@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account linking, direct payment posting, automatic payment processing, reconcile payment, recurring expense, recurring cash receipt
-ms.date: 10/01/2018
+ms.date: 03/05/2019
 ms.author: sgroespe
 
 ---
@@ -50,9 +50,6 @@ To always post fuel expenses incurred at Shell gas stations to the general ledge
 | Mapping Text | Debit Acc. No. | Credit Acc. No. | Bal. Source Type | Bal. Source No. |
 | --- | --- | --- | --- | --- |
 | Shell |BLANK |8510 |G/L Account |BLANK |
-
-> [!TIP]  
->   For more information about how to work with fields and columns, see [Working with [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md). For more information about how to find specific pages, see [Search](ui-search.md).
 
 ## See Also
 [Managing Receivables](receivables-manage-receivables.md)  

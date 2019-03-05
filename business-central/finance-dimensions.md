@@ -96,9 +96,7 @@ To avoid posting entries with contradictory or irrelevant dimensions, you can bl
 >  To show the name of the dimensions instead of the code, select the **Show Column Name** field.
 
 ### To set up global and shortcut dimensions
-Global and shortcut dimensions can be used as a filter anywhere in [!INCLUDE[d365fin](includes/d365fin_md.md)], including on reports, batch jobs, and analysis views. Global and shortcut dimensions are always available to be inserted directly without first opening the **Dimensions** page. On journal and document lines, you can select global and shortcut dimensions in a field on the line.
-
-You can set up two global dimensions and eight shortcut. Choose the dimensions that you will use most frequently.
+Global and shortcut dimensions can be used as a filter anywhere in [!INCLUDE[d365fin](includes/d365fin_md.md)], including on reports, batch jobs, and analysis views. Global and shortcut dimensions are always available to be inserted directly without first opening the **Dimensions** page. On journal and document lines, you can select global and shortcut dimensions in a field on the line. You can set up two global dimensions and eight shortcut dimensions. Choose the dimensions that you use most frequently.
 
 > [!Important]  
 > Changing a global or shortcut dimension requires that all entries posted with the dimension are updated. You can perform this task with the **Change Global Dimensions** function, but it can be time-consuming and may affect performance. Therefore, choose your global and shortcut dimensions carefully so that you do not have to change them later.

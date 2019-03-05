@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 02/26/2019
+ms.date: 03/05/2019
 ms.author: sgroespe
 
 ---
@@ -24,8 +24,9 @@ The following table describes a sequence of tasks, with links to the topics that
 
 | To | See |
 | --- | --- |
-| Set up contact management prior to creating contacts. |[Setting Up Contacts](marketing-setup-contacts.md) |
-| Create a contact card for each new person or company that you interact with, such as a customer or vendor. |[Creating Contacts](marketing-create-contact-companies.md) |
+| Set up contact management prior to creating contacts. |[Set Up Contacts](marketing-setup-contacts.md) |
+| Create a contact card for each new person or company that you interact with, such as a customer or vendor. |[Create Contacts](marketing-create-contact-companies.md) |
+|Resolve confusion when two or more records exist for the same customer.|[Merge Duplicate Records](sales-how-merge-duplicate-records.md)|
 
 ## See Also
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  

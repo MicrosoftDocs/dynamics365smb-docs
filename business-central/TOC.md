@@ -1128,20 +1128,29 @@
 ### [VAT Rates for Switzerland](LocalFunctionality/Switzerland/vat-rates-for-switzerland.md)
 
 ## [United Kingdom](LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.md)
-### [Change VAT Setup in Journals](LocalFunctionality/UnitedKingdom/how-to-change-vat-setup-in-journals.md)
-### [Define Accounting Periods for Straight Line Depreciation of Fixed Assets](LocalFunctionality/UnitedKingdom/how-to-define-accounting-periods-for-straight-line-depreciation-of-fixed-assets.md)
-### [Enter Statutory Information](LocalFunctionality/UnitedKingdom/how-to-enter-statutory-information.md)
-### [Enter External Document Numbers](LocalFunctionality/UnitedKingdom/how-to-enter-external-document-numbers.md)
-### [Making Tax Digital - VAT Returns submission](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)
-### [Print Checks for APACS](LocalFunctionality/UnitedKingdom/how-to-print-checks-for-apacs.md)
-### [Print Direct Sales and Purchase Details Reports](LocalFunctionality/UnitedKingdom/how-to-print-direct-sales-and-purchase-details-reports.md)
-### [Print Remittance Advice](LocalFunctionality/UnitedKingdom/how-to-print-remittance-advice.md)
-### [Print VAT Audit Reports](LocalFunctionality/UnitedKingdom/how-to-print-vat-audit-reports.md)
-### [Print VAT Reports](LocalFunctionality/UnitedKingdom/how-to-print-vat-reports.md)
-### [Set Up Reverse Charges on VAT](LocalFunctionality/UnitedKingdom/how-to-set-up-reverse-charges-on-vat.md)
-### [Set Up a Posting Date Warning](LocalFunctionality/UnitedKingdom/how-to-set-up-a-posting-date-warning.md)
-### [The GetAddress.io UK Postcodes Extension](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
-### [Set Up the GetAddress.io UK Postcodes Extension](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
+### Setup
+#### [Set Up a Posting Date Warning](how-to-set-up-a-posting-date-warning.md)|Current|
+
+### VAT
+#### [Making Tax Digital - VAT Returns submission](making-tax-digital-submit-vat-return.md)|Current|
+#### [Change VAT Setup in Journals](how-to-change-vat-setup-in-journals.md)|Current|
+#### [Print VAT Audit Reports](how-to-print-vat-audit-reports.md)|Current|
+#### [Print VAT Reports](how-to-print-vat-reports.md)|Current|
+#### [Set Up Reverse Charges on VAT](how-to-set-up-reverse-charges-on-vat.md)|Current|
+
+### Banking and Payments
+#### [Print Checks for APACS](how-to-print-checks-for-apacs.md)|Current|
+#### [Print Remittance Advice](how-to-print-remittance-advice.md)|Current|
+
+### Fixed Assets
+#### [Define Accounting Periods for Straight Line Depreciation of Fixed Assets](how-to-define-accounting-periods-for-straight-line-depreciation-of-fixed-assets.md)|Current|
+
+### General Business Functionality
+#### [Enter Statutory Information](how-to-enter-statutory-information.md)|Current|
+#### [The GetAddress.io UK Postcodes Extension](ui-extensions-getaddressio.md)|Current|
+#### [Set Up the GetAddress.io UK Postcodes Extension](uk-setup-postal-code-service.md)|Current|
+#### [Enter External Document Numbers](how-to-enter-external-document-numbers.md)|Current|
+#### [Print Direct Sales and Purchase Details Reports](how-to-print-direct-sales-and-purchase-details-reports.md)|Current|
 
 ## [United States](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 ### [Create Deposits](LocalFunctionality/UnitedStates/how-to-create-deposits.md)  

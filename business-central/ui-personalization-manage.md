@@ -15,11 +15,54 @@ ms.author: jswymer
 
 ---
 # Managing Personalization as an Administrator
-<!--NAV in the Web client-->
-Users can personalize their workspace to suit their own preferences. As an administrator, you can control and manage personalization by disabling the ability for users to personalize pages and clearing any page personalizations that users have made.
+
+Users can personalize their workspace to suit their own preferences. As an administrator, you control and manage personalization by:
+
+-   Enabling or disabling the personalization feature for the entire the application (on-premises installation only).
+-   Enabling or disabling the personalization feature for users of a specific profile.
+-   Clearing any page personalizations that users have made.
+
+## <a name="EnablePersonalization"></a>Enable/Disable Personalization (On-Premises Only)
+
+By default, personalization is not enabled in the client. You enable or disable personalization by modifying the configuration file (navsettings.json) of the Business Central Web Server instance that serves the clients. 
+
+To enable personalization, add the following line in the navsettings.json file:
+
+```
+"PersonalizationEnabled": "true"
+```
+
+To disable personalization, remove this line or change it to:
+
+```
+"PersonalizationEnabled": "false"
+```
+
+For more information about how to modify the navsettings.json file, see [Modify the navsettings.json file directly](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-web-server?branch=master#Settings).
+
+2. Generate and download the application symbols.
+
+    This step is optional, and not required to enable personalization. However, it ensures that new pages that are created by developers can be personalized. 
+
+    1. You first generate the symbols by running finsql.exe with `generatesymbolreference` command. The finsql.exe file is located in the installation folder for the [!INCLUDE[server](includes/server.md)] and Dynamics NAV Development Environment (CSIDE). To generate the symbols, open a command prompt, change to the directory where the file is store, and the run the following command:
+
+    ```
+    finsql.exe Command=generatesymbolreference, Database="<Database Name>", ServerName=<SQL Server Name\<Server Instance>
+    ```
+    For example:
+
+    ```
+    finsql.exe Command=generatesymbolreference, Database="Demo Database BC", ServerName=MySQLServer\BCDEMO
+    ```
+
+    For more information, see [Running C/SIDE and AL Side-by-Side](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-running-cside-and-al-side-by-side).
+
+    2. Then, configure [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance to **Enable loading application symbol references at server startup** (EnableSymbolLoadingAtServerStartup). For more information, see [Configuring Business Central Server](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance#development-settings).
 
 ## Disable personalization for a profile
+
 You can prevent all users that belong to a specific profile from being able to personalize their pages.
+
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles**, and then choose the related link.
 2.  Select the profile in the list that you want to modify.
 3. Select the **Disable personalization** check box, and then choose the **OK** button.

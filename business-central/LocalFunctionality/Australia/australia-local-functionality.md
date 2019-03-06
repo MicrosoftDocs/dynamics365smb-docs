@@ -25,8 +25,8 @@ The following topics describe local functionality that is unique to the Australi
     * [Set Up Withholding Tax](how-to-set-up-withholding-tax.md) **Available Now**
 
 * VAT & Tax
-    * [Tax](tax.md) **Available Now**
-    * [Adjust Settlement Exchange Rates for VAT Entries] (how-to-adjust-settlement-exchange-rates-for-vat-entries.md) **Available Now**
+    * [Tax](tax.md) **Available Now** 
+    * [Adjust Settlement Exchange Rates for VAT Entries](how-to-adjust-settlement-exchange-rates-for-vat-entries.md) **Available Now**
     * [Calculate and Post Withholding Tax Settlements](how-to-calculate-and-post-withholding-tax-settlements.md) **Available Now**
     * [Calculate Goods and Services Tax on Prepayments](how-to-calculate-goods-and-services-tax-on-prepayments.md) **Available Now**
     * [Print Goods and Service Tax Settlement Reports](how-to-print-goods-and-service-tax-settlement-reports.md) **Available Now**

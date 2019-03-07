@@ -38,7 +38,7 @@ The sum of all withheld amounts is reported as a truncated whole number to the A
     |**Show WHT Entries**|Select to view the withholding tax entries for the specified period.|  
     |**Post**|Select to post the WHT settlement entries.|  
 
-3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
+3.  Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.  
 
 ## See Also  
  [Withholding Tax](withholding-tax.md)   

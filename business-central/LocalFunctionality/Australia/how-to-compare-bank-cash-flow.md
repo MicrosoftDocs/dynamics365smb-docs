@@ -41,7 +41,7 @@ The debit and credit amounts are displayed in the local currency. You can also v
     |**Compare End Date**|Specifies the end date for comparison.|  
     |**New Page per Bank Account**|Specifies if the details of each bank account will be printed on a separate page.|  
 
-3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
+3.  Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.  
 
 ## See Also  
  [Create Check Installments](how-to-create-check-installments.md)   

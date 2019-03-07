@@ -812,17 +812,21 @@
 #### [Payroll Data Definitions (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
 
 ## [Finland](LocalFunctionality/Finland/finland-local-functionality.md)
-### [Automatic Account Codes](LocalFunctionality/Finland/automatic-account-codes.md)
-### [Disregard Payment Discounts](LocalFunctionality/Finland/how-to-disregard-payment-discounts.md)
-### [Electronic Banking in Finland](LocalFunctionality/Finland/electronic-banking-in-finland.md)
-### [Generate Payment Files](LocalFunctionality/Finland/how-to-generate-payment-files.md)
-### [Posting Depreciation Differences](LocalFunctionality/Finland/posting-depreciation-differences.md)
-### [Print Finnish Intrastat Reports](LocalFunctionality/Finland/how-to-print-finnish-intrastat-reports.md)
-### [Print VAT Information on Invoices](LocalFunctionality/Finland/how-to-print-vat-information-on-invoices.md)
-### [SEPA Credit Transfer Payments](LocalFunctionality/Finland/sepa-credit-transfer-payments.md)  
-### [Set Up Automatic Account Posting Groups](LocalFunctionality/Finland/how-to-set-up-automatic-account-posting-groups.md)
-### [Set Up Bank Reference Files](LocalFunctionality/Finland/how-to-set-up-bank-reference-files.md)
-### [VAT-VIES Declaration in Finland](LocalFunctionality/Finland/vat-vies-declaration-in-finland.md)
+### Setup
+#### [Set Up Automatic Account Posting Groups](LocalFunctionality/Finland/how-to-set-up-automatic-account-posting-groups.md)
+#### [Set Up Bank Reference Files](LocalFunctionality/Finland/how-to-set-up-bank-reference-files.md)
+### VAT & Tax
+#### [Print Finnish Intrastat Reports](LocalFunctionality/Finland/how-to-print-finnish-intrastat-reports.md)
+#### [Print VAT Information on Invoices](LocalFunctionality/Finland/how-to-print-vat-information-on-invoices.md)
+#### [VAT-VIES Declaration in Finland](LocalFunctionality/Finland/vat-vies-declaration-in-finland.md)
+### Banking & Payments
+#### [Electronic Banking in Finland](LocalFunctionality/Finland/electronic-banking-in-finland.md)
+#### [Generate Payment Files](LocalFunctionality/Finland/how-to-generate-payment-files.md)
+#### [SEPA Credit Transfer Payments](LocalFunctionality/Finland/sepa-credit-transfer-payments.md)
+### General Business Functionality
+#### [Automatic Account Codes](LocalFunctionality/Finland/automatic-account-codes.md)
+#### [Disregard Payment Discounts](LocalFunctionality/Finland/how-to-disregard-payment-discounts.md)
+#### [Posting Depreciation Differences](LocalFunctionality/Finland/posting-depreciation-differences.md)
 
 ## [France](LocalFunctionality/France/france-local-functionality.md)
 ### [Accelerated Depreciation](LocalFunctionality/France/accelerated-depreciation.md)  

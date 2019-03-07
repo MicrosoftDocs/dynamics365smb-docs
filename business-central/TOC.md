@@ -679,12 +679,12 @@
 ## [Australia](LocalFunctionality/Australia/australia-local-functionality.md)
 ### Setup
 #### [Set Up Business Units for Business Activity Statements](LocalFunctionality/Australia/how-to-set-up-business-units-for-business-activity-statements.md)
-#### [Set Up Goods and Service Tax Posting](how-to-set-up-goods-and-service-tax-posting.md)
+#### [Set Up Goods and Service Tax Posting](LocalFunctionality/Australia/how-to-set-up-goods-and-service-tax-posting.md)
 #### [Set Up Revenue Types for Withholding Tax](LocalFunctionality/Australia/how-to-set-up-revenue-types-for-withholding-tax.md)
 #### [Set Up Vendors Without ABN for Calculating the Withholding Tax](LocalFunctionality/Australia/how-to-set-up-vendors-without-abn-for-calculating-the-withholding-tax.md)
 #### [Set Up Withholding Tax](LocalFunctionality/Australia/how-to-set-up-withholding-tax.md)
 ### VAT & Tax
-#### [Tax](tax.md)
+#### [Tax](LocalFunctionality/Australia/tax.md)
 #### [Adjust Settlement Exchange Rates for VAT Entries](LocalFunctionality/Australia/how-to-adjust-settlement-exchange-rates-for-vat-entries.md)
 #### [Calculate and Post Withholding Tax Settlements](LocalFunctionality/Australia/how-to-calculate-and-post-withholding-tax-settlements.md)
 #### [Calculate Goods and Services Tax on Prepayments](LocalFunctionality/Australia/how-to-calculate-goods-and-services-tax-on-prepayments.md)
@@ -708,10 +708,8 @@
 ### Setup
 #### [Set Up Delivery Reminders](LocalFunctionality/Austria/how-to-set-up-delivery-reminders.md)
 #### [Set Up Delivery Reminder Terms, Levels, and Text](LocalFunctionality/Austria/how-to-set-up-delivery-reminder-terms-levels-and-text.md)
-#### [Set Up an Additional Reporting Currency](../../finance-how-setup-additional-currencies.md)
 ### VAT & Tax
 #### [Create a VAT Statement](LocalFunctionality/Austria/how-to-create-a-vat-statement.md)
-#### [Report VAT to Tax Authorities](../../finance-how-report-vat.md)
 #### [VAT Reporting](LocalFunctionality/Austria/vat-reporting.md)
 ### Banking & Payments
 #### [Print Vendor Payments List Reports](LocalFunctionality/Austria/how-to-print-vendor-payments-list-reports.md)
@@ -724,7 +722,6 @@
 #### [Print General Ledger Setup Information](LocalFunctionality/Austria/how-to-print-general-ledger-setup-information.md)
 #### [Print Sales and Purchase Orders During Batch Posting](LocalFunctionality/Austria/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 #### [Print Test Reports for Delivery Reminders](LocalFunctionality/Austria/how-to-print-test-reports-for-delivery-reminders.md)
-#### [Update Currency Exchange Rates](../../finance-how-update-currencies.md)
 
 ## [Belgium](LocalFunctionality/Belgium/belgium-local-functionality.md)
 ### Setup

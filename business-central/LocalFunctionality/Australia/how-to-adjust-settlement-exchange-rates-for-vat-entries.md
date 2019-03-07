@@ -29,4 +29,4 @@ You can use the **Adjust Settlement Exch. Rates** batch job to settle VAT entrie
 
 3.  Choose the **OK** button.  
 
-The VAT entries are adjusted and you can view them in the **VAT Register** report.
+The VAT entries are adjusted, and you can view them in the **VAT Register** report.

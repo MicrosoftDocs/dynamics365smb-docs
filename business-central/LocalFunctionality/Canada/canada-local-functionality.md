@@ -1,7 +1,7 @@
 ---
     title: Canada Local Functionality | Microsoft Docs
     description: The following topics describe the local functionality in the Canadian version of Business Central.
-    author: SorenGP
+    author: sorenfriisalexandersen
 
     ms.service: dynamics365-business-central
     ms.topic: article
@@ -9,8 +9,8 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/11/2018
-    ms.author: sgroespe
+    ms.date: 03/07/2019
+    ms.author: soalex
 
 ---
 # Canada Local Functionality

@@ -3,7 +3,7 @@
     description: The following topics describe the local functionality in the Austrian version of Business Central.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: sorenfriisalexandersen
 
     ms.service: dynamics365-business-central
     ms.topic: article
@@ -11,8 +11,8 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 12/19/2018
-    ms.author: sgroespe
+    ms.date: 03/07/2019
+    ms.author: soalex
 
 ---
 # Austria Local Functionality

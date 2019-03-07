@@ -1,13 +1,13 @@
 ---
 title: Belgium Local Functionality
 description: The following topics describe the local functionality in the Belgian version of Business Central.
-author: SorenGP
+author: sorenfriisalexandersen
 
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords:
-ms.date: 10/11/2018
-ms.author: sgroespe
+ms.date: 03/07/2019
+ms.author: soalex
 
 ---
 # Belgium Local Functionality

@@ -790,23 +790,26 @@
 #### [Print Troubleshooting Reports](LocalFunctionality/Canada/how-to-print-troubleshooting-reports.md)
 #### [Work With GIFI Codes](LocalFunctionality/Canada/work-gifi-codes.md)
 
-
 ## [Czech Republic](LocalFunctionality/Czech/czech-local-functionality.md)
 ### [Registration of Sales (EET)](LocalFunctionality/Czech/eet.md)
 ### [VAT Control Report](LocalFunctionality/Czech/vat-control-report.md)
 
 ## [Denmark](LocalFunctionality/Denmark/denmark-local-functionality.md)
-### [Create Electronic Documents in an OIOUBL Format](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md)
-### [FIK Details in the Payment Reconciliation Journal](LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal.md)
-### [Overview of OIOUBL Electronic Invoicing](LocalFunctionality/Denmark/oioubl-electronic-invoicing-overview.md)
-### [Print VAT Reconciliation Reports](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
-### [Payroll Data Definitions (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
-### [Set Up Customers for OIOUBL](LocalFunctionality/Denmark/how-to-set-up-customers-for-oioubl.md)
-### [Set Up OIOUBL](LocalFunctionality/Denmark/how-to-set-up-oioubl.md)
-### [The OIOUBL Extension for Electronic Invoicing](LocalFunctionality/Denmark/ui-extensions-oioubl.md)
-### [The Payments and Reconciliations (DK) Extension](ui-extensions-payments-reconciliation-formats-dk.md)
-### [The Tax File Formats (DK) Extension](ui-extensions-tax-file-formats-dk.md)
-### [VAT-VIES Reporting](LocalFunctionality/Denmark/vat-vies-reporting.md)
+### Setup
+#### [Set Up Customers for OIOUBL](LocalFunctionality/Denmark/how-to-set-up-customers-for-oioubl.md)
+#### [Set Up OIOUBL Electronic Invoicing](LocalFunctionality/Denmark/how-to-set-up-oioubl.md)
+### VAT & Tax
+#### [Print VAT Reconciliation Reports](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
+#### [VAT-VIES Reporting](LocalFunctionality/Denmark/vat-vies-reporting.md)
+### Banking & Payments
+#### [FIK Details in the Payment Reconciliation Journal](LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal.md)
+#### [The Payments and Reconciliations (DK) Extension](ui-extensions-payments-reconciliation-formats-dk.md)
+### Electronic Invoicing
+#### [Overview of OIOUBL Electronic Invoicing](LocalFunctionality/Denmark/oioubl-electronic-invoicing-overview.md)
+#### [The OIOUBL Extension for Electronic Invoicing](LocalFunctionality/Denmark/ui-extensions-oioubl.md)
+#### [Create Electronic Documents in an OIOUBL Format](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md)
+### General Business Functionality
+#### [Payroll Data Definitions (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
 
 ## [Finland](LocalFunctionality/Finland/finland-local-functionality.md)
 ### [Automatic Account Codes](LocalFunctionality/Finland/automatic-account-codes.md)

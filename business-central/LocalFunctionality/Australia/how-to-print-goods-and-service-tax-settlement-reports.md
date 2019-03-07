@@ -30,7 +30,7 @@ You must submit a periodic report of goods and services tax (GST) settlement. Yo
     |**Document No.**|The document number of the settlement entries.|  
     |**Description**|The settlement description.|  
     |**Post**|Select to post the withholding tax settlement entries.|  
-    |**Inter Company**|Select if the posting is inter company.|  
+    |**Inter Company**|Select if the posting is intercompany.|  
 
 3. On the **BAS Calculation Sheet** FastTab, select the appropriate filters.  
 4. Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.  

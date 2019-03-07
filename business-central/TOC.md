@@ -778,14 +778,18 @@
 #### [Set the Work Date as the Posting Date](LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date.md)
 
 ## [Canada](LocalFunctionality/Canada/canada-local-functionality.md)
-### [Create Deposits](LocalFunctionality/Canada/how-to-create-deposits.md)  
-### [Manage Customer Credit Information](LocalFunctionality/Canada/how-to-manage-customer-credit-information.md)
-### [Print Troubleshooting Reports](LocalFunctionality/Canada/how-to-print-troubleshooting-reports.md)
-### [Reporting Sales Tax and Goods/Services Tax in Canada](LocalFunctionality/Canada/sales-tax-goods-services.md)
-### [Set Up Use Tax and Purchase Tax](LocalFunctionality/Canada/how-to-set-up-use-tax-and-purchase-tax.md)
-### [Reporting Sales Tax in Canada](LocalFunctionality/Canada/ca-sales-tax.md)
-### [Set Up Unrealized Sales Tax and Sales Payment Discounts](LocalFunctionality/Canada/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
-### [Work With GIFI Codes](LocalFunctionality/Canada/work-gifi-codes.md)  
+### Setup
+#### [Set Up Unrealized Sales Tax and Sales Payment Discounts](LocalFunctionality/Canada/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
+#### [Set Up Use Tax and Purchase Tax](LocalFunctionality/Canada/how-to-set-up-use-tax-and-purchase-tax.md)
+### VAT & Tax
+#### [Reporting Sales Tax and Goods/Services Tax in Canada](LocalFunctionality/Canada/sales-tax-goods-services.md)
+#### [Reporting Sales Tax in Canada](LocalFunctionality/Canada/ca-sales-tax.md)
+### General Business Functionality
+#### [Create Deposits](LocalFunctionality/Canada/how-to-create-deposits.md)
+#### [Manage Customer Credit Information](LocalFunctionality/Canada/how-to-manage-customer-credit-information.md)
+#### [Print Troubleshooting Reports](LocalFunctionality/Canada/how-to-print-troubleshooting-reports.md)
+#### [Work With GIFI Codes](LocalFunctionality/Canada/work-gifi-codes.md)
+
 
 ## [Czech Republic](LocalFunctionality/Czech/czech-local-functionality.md)
 ### [Registration of Sales (EET)](LocalFunctionality/Czech/eet.md)

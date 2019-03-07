@@ -13,6 +13,8 @@ ms.author: sgroespe
 # Belgium Local Functionality
 The following topics describe local functionality that is unique to the Belgian version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
+## Feature Availability
+
 * Setup
     * [Set Up Bank Accounts for CODA](how-to-set-up-bank-accounts-for-coda.md) **Available Now**
     * [Set Up Belgian Tariff Numbers](how-to-set-up-belgian-tariff-numbers.md) **Available Now**

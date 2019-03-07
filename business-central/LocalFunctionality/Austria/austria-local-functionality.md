@@ -18,6 +18,8 @@
 # Austria Local Functionality
 The following topics describe local functionality that is unique to the Austrian version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
+## Feature Availability
+
 * Setup
     * [Set Up Delivery Reminders](how-to-set-up-delivery-reminders.md) **Available Now**
     * [Set Up Delivery Reminder Terms, Levels, and Text](how-to-set-up-delivery-reminder-terms-levels-and-text.md) **Available Now**

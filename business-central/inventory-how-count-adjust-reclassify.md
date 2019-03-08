@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 03/01/2019
+ms.date: 03/08/2019
 ms.author: sgroespe
 
 ---
@@ -29,7 +29,7 @@ If you need to change attributes on item ledger entries, you can use the item re
 You must take a physical inventory, that is, count the actual items on hand, to check if the quantity registered is the same as the physical quantity in stock at the end of a fiscal year, if not more often. If there are differences, you must post them to the item accounts before you do the inventory valuation.
 
 > [!NOTE]
-> This procedure describes how to perform a physical inventory using a journal, the **Phys. Inventory Journal** page. You can also perform the task using documents, the **Physical Inventory Order** and **Physical Inventory Recording** pages, which provide more control and support distributing the counting to multiple employees. For more information, see [Counting the Physical Inventory Using Documents](inventory-how-count-inventory-with-documents.md).<br /><br />
+> This procedure describes how to perform a physical inventory using a journal, the **Phys. Inventory Journal** page. You can also perform the task using documents, the **Physical Inventory Order** and **Physical Inventory Recording** pages, which provide more control and support distributing the counting to multiple employees. For more information, see [Count Inventory Using Documents](inventory-how-count-inventory-with-documents.md).<br /><br />
 > Note that the document-based functionality cannot be used to count items in bins, warehouse entries.
 
 Apart from the physical counting task, the complete process involves the following three tasks:
@@ -222,7 +222,7 @@ The following example is based on a location code. The steps are similar for oth
 For information about transferring items with full control of quantities shipped and received, see [Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md).
 
 ## See Also
-[Counting the Physical Inventory Using Documents](inventory-how-count-inventory-with-documents.md)  
+[CountInventory Using Documents](inventory-how-count-inventory-with-documents.md)  
 [Inventory](inventory-manage-inventory.md)
 [Warehouse Management](warehouse-manage-warehouse.md)    
 [Sales](sales-manage-sales.md)  

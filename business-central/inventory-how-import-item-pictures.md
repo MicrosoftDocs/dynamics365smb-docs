@@ -1,6 +1,6 @@
 ---
 title: Importing Many Item Pictures from a ZIP File| Microsoft Docs
-description: You can import multiple item pictures in one go. Simply name your picture files with a name corresponding to your item numbers, compress them to a zip file, and then use the Import Item Pictures page to manage which item pictures to import.
+description: You can import multiple item pictures in one go. Simply name your picture files with names corresponding to your item numbers, compress them to a zip file, and then use the Import Item Pictures page to manage which item pictures to import.
 documentationcenter: ''
 author: SorenGP
 
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: product, image
-ms.date: 02/13/2019
+ms.date: 03/08/2019
 ms.author: sgroespe
 
 ---
 # Import Multiple Item Pictures
-You can import multiple item pictures in one go. Simply name your picture files with a name corresponding to your item numbers, compress them to a zip file, and then use the **Import Item Pictures** page to manage which item pictures to import.
+You can import multiple item pictures in one go. Simply name your picture files with names corresponding to your item numbers, compress them to a ZIP file, and then use the **Import Item Pictures** page to manage which item pictures to import.
 
 All common file formats are supported.
 
-## To name picture files by the item names and prepare the zip file
+## To name picture files by the item names and prepare the ZIP file
 1. At the location where your item pictures are stored, name each files according to the number of the related item. For example:
 
     |Item No.|File Name|
@@ -32,9 +32,10 @@ All common file formats are supported.
 
 ## To import item pictures
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Setup**, and then choose the related link.
-2. Choose the **Select a ZIP file** field, select the ZIP folder, and then choose the **Open** button.
+2. Choose the **Import Item Pictures** action.
+3. In the **Select a ZIP file** field, select the relevant ZIP folder, and then choose the **Open** button.
 
-    A line for each item and picture is created.
+    A line for each item and picture is created on the **Import Item Pictures** page.
 
     > [!NOTE]
     > For item cards that already have a picture, the **Picture Already Exists** check box is selected. If you do not want any existing pictures to be replaced, deselect the **Replace Pictures** check box. If you do not want individual existing pictures to be replaced, delete the lines in question.

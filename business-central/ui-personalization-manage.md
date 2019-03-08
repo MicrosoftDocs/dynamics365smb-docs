@@ -57,14 +57,14 @@ For more information about how to modify the navsettings.json file, see [Modify 
 
     For more information, see [Running C/SIDE and AL Side-by-Side](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-running-cside-and-al-side-by-side).
 
-    2. Then, configure [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance to **Enable loading application symbol references at server startup** (EnableSymbolLoadingAtServerStartup). For more information, see [Configuring Business Central Server](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance#development-settings).
+    2. Configure [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance to **Enable loading application symbol references at server startup** (EnableSymbolLoadingAtServerStartup). For more information, see [Configuring Business Central Server](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance#development-settings).
 
 ## Disable personalization for a profile
 
 You can prevent all users that belong to a specific profile from being able to personalize their pages.
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles**, and then choose the related link.
-2.  Select the profile in the list that you want to modify.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles**, and then choose the related link.
+2. Select the profile in the list that you want to modify.
 3. Select the **Disable personalization** check box, and then choose the **OK** button.
 
 ## Clear user personalizations
@@ -75,7 +75,7 @@ Clearing page personalization changes the page back to its original layout befor
 
 The **Delete User Personalization** page enables you to clear personalizations on a per-page basis for each user individually.
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete User Personalization**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete User Personalization**, and then choose the related link.
 
     The page lists all the pages that have been personalized and the user it belongs to.
 
@@ -90,13 +90,13 @@ The **Delete User Personalization** page enables you to clear personalizations o
 
 The **User Personalization Card** page enables you to clear the personalization on all pages for specific user. This requires write permission to Table 2000000072 **Profile**.
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Personalization**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Personalization**, and then choose the related link.
 
     The **User Personalization** page lists all users who potentially have personalized pages. If you cannot find a user in the list, this means that they do not have any personalized pages.
 
 2. Select the user from the list, and then choose the **Edit** action.
 
-3.  On the **Actions** tab, choose **Clear Personalized Pages**.
+3. On the **Actions** tab, choose **Clear Personalized Pages**.
 
     The user will see the changes the next time they sign-in.
 

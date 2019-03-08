@@ -15,7 +15,7 @@ ms.author: jswymer
 ---
 # Why Can't I Personalize the Page
 
-There are two conditions that prevent you from personalizing a page. Either the page is locked (as indicated by ![Personalize Lock](media/personalization-lock-icon.png "Personalize lock") or it is blocked (as indicated by ![Personalization blocked](media/personalization-blocked-icon.png "Personalization blocked")).
+There are two conditions that prevent you from personalizing a page. Either the page is locked (as indicated by ![Personalize Lock](media/personalization-lock-icon.png "Personalize lock")) or it is blocked (as indicated by ![Personalization blocked](media/personalization-blocked-icon.png "Personalization blocked")).
 
 ## The page is locked from personalizing
 
@@ -31,9 +31,9 @@ The page currently includes the last personalization changes that you made. If y
 
 There can be two reasons for this:
 
-1. You have personalized the page before, but it was done using an earlier version of the product. We changed the way personalization works behind the scenes since the last time that you personalized the page. Unfortunately, the old way and new of doing things do not work together.
+1. You have personalized the page before, but it was done using an earlier version of the product. We changed the way personalization works behind the scenes since the last time that you personalized the page. Unfortunately, the old way and new way of doing things do not work together.
 
-2.  Until now, you have only used the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] to personalize the page.
+2. Until now, you have only used the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] to personalize the page.
 
 ### Unlocking the page
 
@@ -41,9 +41,9 @@ If you want to unlock a page and continue personalizing it, choose ![Personalize
 
 Before you unlock the page, be aware of the following:
 
--  The current personalization of the page in the will be cleared, meaning that the page will go back to its original layout and you will have to start from scratch.
+- The current personalization of the page will be cleared. The page will go back to its original layout, and you will have to start from scratch.
 
-- In the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)], the page will remain as-is and will not be affected by the new personalization changes made in the Business Central client. Going forward, the personalization in the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] and Business Central client will now be completely separate from each other.
+- In the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)], the page will remain as-is and will not be affected by the new personalization changes made in the Business Central client. Going forward, the personalization in the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] and Business Central client will be completely separate from each other.
 
 ## The page is blocked from personalizing
 

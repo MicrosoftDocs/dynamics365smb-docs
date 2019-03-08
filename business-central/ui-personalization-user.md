@@ -73,7 +73,7 @@ Depending on the type of page and what it includes, you can do various things, l
 
 |What do you want to do|How to do it|Remarks|
 |----|------------|-------|
-|Move something, like a field, column in list, tile, action, or part|Point anywhere on what you want to move, and drag it to its new location. The location is indicated by either a thick horizontal or vertical line.<br /><br />![Cannot move here icon](media/personalization-cannot-move-here.png "Personalize mode - Cannot move here icon") indicates that you cannot move the element to the selected location.|Parts are subdivisions or areas on a page that contain things like multiple fields, another page, a chart, or tiles.<br /><br />For more details about action personalization, see the [next section](#Action). |
+|Move something, like a field, column in list, tile, action, or part|Point anywhere on what you want to move, and drag it to its new location. The location is indicated by either a thick horizontal or vertical line.<br /><br />![Cannot move here icon](media/personalization-cannot-move-here.png "Personalize mode - Cannot move here icon") indicates that you cannot move the element to the selected location.|Parts are subdivisions or areas on a page that contain things like multiple fields, another page, a chart, or tiles.<br /><br />For more details about action personalization, see the [next section](ui-personalization-user.md#Action). |
 |Hide something, like a field, column in list, tile, or part.|Select the arrowhead, and choose <b>Hide</b>.|If the field you hide is also shown in the FastTab heading when the FastTab is collapsed, the field will no longer appear there.|
 |Add a field or column.|In the <b>Personalizing</b> banner, choose <b>More</b>, and then choose <b>Field</b>.<br /></br>The <b>Add Field to Page</b> pane opens on the right. It lists the fields that you can add to the page.<br /><br />To add a field, drag it from the pane to the location that you want it. The location is indicated by either a thick horizontal or vertical line.|Each page includes a predefined set of fields that you can display. Use this procedure to add fields or columns that have not been previously displayed or to show fields that you have hidden.|
 |Display a field in the heading of a Fastab when the FastTab is collapsed.|Select the arrowhead, and choose <b>Show when collapsed</b>. <br /> <br />If you do not see this option, then it is already set. In this case, to stop displaying the field in the FastTab heading, choose <b>Show always</b>.|*FastTab* is the term used for a group of fields that appear under a common heading. Use the <b>Show when collapsed</b> option to display the most important fields. If you select a field in the heading, the FastTab will open and focus on the selected field.<br /><br />This option is only applicable if a page has a more than one FastTab. If the is only one FastTab, it cannot be collapsed, so the <b>Show when collapsed</b> option is not available.|
@@ -84,7 +84,7 @@ Depending on the type of page and what it includes, you can do various things, l
 
 ## <a name="Actions"></a>Personalizing Actions
 
-You can personalize the action bar that is located at the top of the page, as indicated by the highlighted area in the following figure.
+You can personalize the action bar that is located at the top of the page, as indicated by the highlighted area in the following illustration.
 
 ![Personalize action bar](media/personalize-action-bar.png "Personalize action bar")
 
@@ -96,7 +96,7 @@ There are a couple terms that you should be familiar with to better understand a
 
 An *action group* is item that expands to display other actions or groups. For example, in the following illustration, **Posting** is an action group.
 
-A *promoted category* is an action group that appears between the two vertical lines `|` in the action bar. These are typically actions groups that always appear on the page. For example, in the following illustration, **Release**, **Posting**, **Invoice**, and **Navigate** are promoted categories.
+A *promoted category* is an action group that appears between the two vertical lines `|` in the action bar. These are typically actions that always appear on the page. For example, in the following illustration, **Release**, **Posting**, **Invoice**, and **Navigate** are promoted categories.
 
 ![Personalize action bar group](media/personalize-action-bar-group-clip.png "Personalize action bar group ")
 
@@ -114,7 +114,7 @@ To show or hide and action or action group, select it, and then choose from one 
 
 To move an action or action group, drag and drop it to the desired location, just like with fields and columns.
 
-Where you can drop actions or actions groups is indicated by a horizontal red line between to actions or red border around an action group.
+Where you can drop actions or actions groups is indicated by a horizontal line between to actions or border around an action group.
 
 - You can move individual actions into the promoted categories, but you cannot rearrange the order of the actions in the category.
 - You cannot move an action group into a promoted category.

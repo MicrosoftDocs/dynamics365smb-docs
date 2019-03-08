@@ -48,12 +48,12 @@ The following primarily describes how to set up a work center. The steps to set 
 
     |Option|Description|
     |------|-----------|
-    |Manual|Concumption is posted manually in the output journal or production journal.|
-    |Forward|Consumption is calculated and posted automatically when the production order is released.|
-    |Backward|Consumption is calculated and posted automatically when the production order is finished.|
+    |**Manual**|Concumption is posted manually in the output journal or production journal.|
+    |**Forward**|Consumption is calculated and posted automatically when the production order is released.|
+    |**Backward**|Consumption is calculated and posted automatically when the production order is finished.|**
 
     > [!NOTE]
-    > If necessary, the flushing method selected here and on the **Item** card, can be overridden for individual operations by changing the setting on routing lines.
+    > If necessary, the flushing method selected here and on the **Item** card, can be overridden for individual operations by changing the setting on routing lines
 
 12.  In the **Unit of Measure Code** field, enter the time unit in which this work center’s cost calculation and capacity planning are made.
     In order to be able to constantly monitor consumption, you must first set up a method of measure. The units you enter are basic units. For example, the processing time is measured in hours and minutes.

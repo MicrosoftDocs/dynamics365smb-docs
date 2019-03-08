@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 03/01/2019
     ms.author: sgroespe
 
 ---
@@ -233,7 +233,7 @@ Violating the safety stock level is considered an exception because it should no
 In general, exceptional order proposals ensure that the projected available inventory is never lower than the safety stock level. This means that the proposed quantity is just enough to cover the safety stock, without considering planning parameters. However, in some scenarios, order modifiers will be considered.  
 
 > [!NOTE]  
->  The planning system may have consumed the safety stock intentionally and will then replenish it straight away. For more information, see the "Safety Stock May Be Consumed" section in [Design Details: Loading the Inventory Profile](design-details-loading-the-inventory-profiles.md).
+>  The planning system may have consumed the safety stock intentionally and will then replenish it straight away. For more information, see [Safety Stock May Be Consumed](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).
 
 ### Attention  
 The attention warning is displayed in three situations:  

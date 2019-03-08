@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
 
 ---
@@ -53,7 +53,7 @@ The following procedure describes how to send a posted sales invoice as an email
 7. In the **Attachment** field, the generated invoice is attached by default as a PDF file. Choose the lookup button to open the file or attach another one.
 8. In the **Body** field, enter a short message to the recipient.
 
-    If a document-specific email body is set up on the **Report Selection - Sales** page, then the **Body** field is filled in automatically. For more information, see the "To set up a document-specific email body for sales invoices" section in this topic.
+    If a document-specific email body is set up on the **Report Selection - Sales** page, then the **Body** field is filled in automatically. For more information, see [To set up a document-specific email body for sales invoices](ui-how-send-documents-email.md#to-set-up-a-document-specific-email-body-for-sales-invoices).
 9. Choose the **OK** button to send the email message.
 
 > [!NOTE]  

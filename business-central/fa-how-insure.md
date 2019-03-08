@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: policy, coverage
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
 
 ---
@@ -20,7 +20,7 @@ An insurance policy for a fixed asset is represented by an insurance card. You c
 
 You assign a fixed asset to an insurance policy by posting to the insurance coverage ledger from the **Insurance Journal** page.
 
-In addition, you can assign a fixed asset to an insurance policy and create coverage ledger entries when you post its acquisition cost. You do this by posting an acquisition cost from the fixed asset journal with the **Insurance No.** field filled in. The **Automatic Insurance Posting** check box on the **Fixed Asset Setup** page must be selected. For more information, see the "To post a fixed asset acquisition manually with the fixed asset G/L journal" section in [Acquire Fixed Assets](fa-how-acquire.md).
+In addition, you can assign a fixed asset to an insurance policy and create coverage ledger entries when you post its acquisition cost. You do this by posting an acquisition cost from the fixed asset journal with the **Insurance No.** field filled in. The **Automatic Insurance Posting** check box on the **Fixed Asset Setup** page must be selected. For more information, see [To post a fixed asset acquisition manually with the fixed asset G/L journal](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
 
 If the **Automatic Insurance Posting** check box on the **Fixed Asset Setup** page is not selected, then posting acquisitions from the fixed asset journal will create lines on the **Insurance Journal** page, which you must then post manually.
 

@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: planning, design
-    ms.date: 10/01/2018
+    ms.date: 03/01/2019
     ms.author: sgroespe
 
 ---
@@ -40,7 +40,7 @@ The **Time Bucket** field is used by reorder point policies (**Fixed Reorder Qty
 
 The default safety lead time, on the **Manufacturing Setup** page, should be set to at least one day. The due date of the demand may be known, but not the due time. The planning schedules backward to meet gross demand, and, if no safety lead time is defined, the goods may arrive too late to meet the demand.  
 
-Three additional reorder period fields, **Rescheduling Period**, **Lot Accumulation Period**, and **Dampener Period**, also play a role in defining when to reorder. For more information, see the "Optimize When and How Much to Reorder" section.  
+Three additional reorder period fields, **Rescheduling Period**, **Lot Accumulation Period**, and **Dampener Period**, also play a role in defining when to reorder. For more information, see [Optimize When and How Much to Reorder](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
 ## Define How Much to Reorder  
 If the planning system detects the need to reorder, the selected reordering policy is used to determine when and how much to order.  
@@ -53,7 +53,7 @@ Independent of the reordering policy, the planning system usually follows this l
 4. If there is more gross demand due before the ending date of the forward-scheduled order proposal, and this demand brings the currently calculated projected available inventory below the safety stock quantity, the order quantity is increased to make up the deficit. The suggested supply order is then scheduled backward from the due date of the gross demand that would have violated the safety stock quantity.  
 5. If the **Time Bucket** field is not filled in, only the gross demand on the same due date will be added.  
 
-     The following reorder period fields also play a role in defining how much to reorder: **Rescheduling Period**, **Lot Accumulation Period**, and **Dampener Period**. For more information, see the "Optimize When and How Much to Reorder" section.  
+     The following reorder period fields also play a role in defining how much to reorder: **Rescheduling Period**, **Lot Accumulation Period**, and **Dampener Period**. For more information, see [Optimize When and How Much to Reorder](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
 ### Reordering Policies  
 The following reordering policies affect the quantity that is being reordered.  

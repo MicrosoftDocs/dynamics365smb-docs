@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 02/08/2019
+ms.date: 03/01/2019
 ms.author: sgroespe
 
 ---
@@ -22,7 +22,7 @@ You can then proceed to assign permission sets to the users to define which data
 
 A permission set is a collection of permissions for specific objects in the database. All users must be assigned one or more permission sets before they can access [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-From the **User Card** page, you can open the **Effective Permissions** page to see which permissions the user has and through which permission sets they are granted. Here you can also change permission details for permission sets of type **User-Defined**. For more information, see the "To view or edit a user's permissions" section.
+From the **User Card** page, you can open the **Effective Permissions** page to see which permissions the user has and through which permission sets they are granted. Here you can also change permission details for permission sets of type **User-Defined**. For more information, see [To get an overview of a user's permissions](ui-how-users-permissions.md#to-get-an-overview-of-a-users-permissions).
 
 Administrators can use the **User Setup** page to define periods of time during which specified users are able to post, and also specify if the system logs the amount of time users are logged on.
 
@@ -34,7 +34,7 @@ Another system that defines what users can access is the Experience setting. For
 
 Any new user that has been created for your Office 365 subscription will be added on the **Users** page.
 
-## To group users in a user group
+## To group users in user groups
 You can set up users groups to help you manage permission sets for groups of users in your company.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Groups**, and then choose the related link.
@@ -42,7 +42,7 @@ You can set up users groups to help you manage permission sets for groups of use
 3. On the **User Group** page, choose the **User Group Members** action.
 4. On the **User Group Members** page, choose the **Add Users** action.
 
-When users or user groups are created, you must assign permission sets to each to define which object a user can access. First, you must organize the relevant permissions in permission sets. For more information, see the "To create or edit a permission set" section.
+When users or user groups are created, you must assign permission sets to each to define which object a user can access. First, you must organize the relevant permissions in permission sets. For more information, see [To get an overview of a user's permissions](ui-how-users-permissions.md#to-get-an-overview-of-a-users-permissions).
 
 ## To copy a user group and all its permission sets
 To quickly define a new user group, you can copy all permission sets from an existing user group to your new user group.
@@ -53,7 +53,7 @@ The user group members are not copied to the new user group. You must add them m
 2. Select the user group that you want to copy, and then choose the **Copy User Group** action.
 3. In the **New User Group Code** field, enter a name for the group, and then choose the **OK** button.
 
-The new user group is added to the **User Groups** page. Proceed to add users. For more information, see the "To group users in user groups" section.  
+The new user group is added to the **User Groups** page. Proceed to add users. For more information, see [To group users in user groups](ui-how-users-permissions.md#to-group-users-in-a-user-group).  
 
 ## To set up user time constraints
 Administrators can define periods of time during which specified users are able to post, and also specify if the system logs the amount of time users are logged on. Administrators can also assign responsibility centers to users. For more information, see [Work with Responsibility Centers](inventory-responsibility-centers.md).
@@ -64,7 +64,7 @@ Administrators can define periods of time during which specified users are able 
 4. Fill in the fields as necessary.
 
 ## To create or modify a permission set
-Permission sets function as containers of permissions, so that you can easily manage multiple permissions in one record. When you have created a permission set, you must add the actual permissions. For more information, see the "To create or edit permissions" section.
+Permission sets function as containers of permissions, so that you can easily manage multiple permissions in one record. When you have created a permission set, you must add the actual permissions. For more information, see [To create or edit permissions manually](ui-how-users-permissions.md#to-create-or-modify-permissions-manually).
 
 > [!NOTE]  
 > A [!INCLUDE[d365fin](includes/d365fin_md.md)] solution typically contains a number of predefined permission sets that are added by Microsoft or by your software provider. These permission sets are of type **System** or **Extension**. You cannot create or edit these types of permission sets or the permissions within them. However, you can copy them to define your own permission sets and permissions. <br /><br />
@@ -87,7 +87,7 @@ When you create new permission sets, you can use a copy function to quickly carr
 The new permission set, containing all the permissions of the copied permission set, is added as a new line on the **Permission Sets** page. Note that the lines are sorted alphabetically within each type.
 
 ## To create or modify permissions manually
-This procedure explains how to add or edit permissions manually. You can also have a permission sets generated automatically from your actions in the UI. For more information, see the "To create or modify permission sets by recording your actions" section.
+This procedure explains how to add or edit permissions manually. You can also have a permission sets generated automatically from your actions in the UI. For more information, see [To create or modify permission sets by recording your actions](ui-how-users-permissions.md#to-create-or-modify-permission-sets-by-recording-your-actions).
 
 1. On the **Permission Sets** page, select the line for a permission set, and then choose the **Permissions** action.
 2. On the **Permissions** page, create a new line or edit the fields on an existing line.
@@ -138,7 +138,7 @@ You can assign permissions to users in two ways:
 2. Select the user that you want to assign permission to.
 Any permission sets that are already assigned to the user are displayed in the **Permission Sets** FactBox.
 3. Choose the **Edit** action to open the **User Card** page.
-4. On the **User Permission Sets** FastTab, on a new line, fill in the fields as necessary. For more information, see the "To create or edit a permission set" section.
+4. On the **User Permission Sets** FastTab, on a new line, fill in the fields as necessary. For more information, see [To create or edit a permission set](ui-how-users-permissions.md#to-create-or-modify-a-permission-set).
 
 ### To assign a permission set on the **Permission Set by User** page  
 The following procedure explains how to assign permission sets to a user on the **Permission Set by User** page. The steps are similar on the **Permission Set by User Group** page.
@@ -161,11 +161,11 @@ The following procedure explains how to assign permission sets to a user on the 
 
     > [!NOTE]  
     > Only permission sets of type **User-Defined** can be edited.<br /><br />
-    > Rows of source Entitlement originate from the subscription plan. The permission values of the entitlement overrule values in other permission sets if they have a higher ranking. A value in a non-entitlement permission set that has a higher ranking than the related value in the entitlement will be surrounded by brackets to indicate that it is not effective as it is overruled by the entitlement. For an explanation of ranking, see the "To create or edit permissions" section.  
+    > Rows of source Entitlement originate from the subscription plan. The permission values of the entitlement overrule values in other permission sets if they have a higher ranking. A value in a non-entitlement permission set that has a higher ranking than the related value in the entitlement will be surrounded by brackets to indicate that it is not effective as it is overruled by the entitlement. For an explanation of ranking, see [To create or edit permissions manually](ui-how-users-permissions.md#to-create-or-modify-permissions-manually).  
 
 4. To edit a permission set, in the **By Permission Set** part, on the line for a relevant permission set of type **User-Defined**, choose one of the five access type fields and select a different value.
 
-5. To edit individual permissions within the permission set, choose the value in the **Permission Set** field to open the **Permissions** page. Follow the steps described in the "To create or edit permissions" section.  
+5. To edit individual permissions within the permission set, choose the value in the **Permission Set** field to open the **Permissions** page. Follow the steps described in [To create or edit permissions](ui-how-users-permissions.md#to-create-or-modify-permissions-manually).  
 
 > [!NOTE]  
 > When you edit a permission set, the changes will also apply to other users that have the permission set assigned.

@@ -9,8 +9,9 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 12/07/2018
+ms.date: 02/26/2019
 ms.author: jswymer
+redirect_url: marketing-create-contact-companies
 
 ---
 # Creating Contact Persons
@@ -40,7 +41,6 @@ You can create a contact card for each contact who works for the companies you i
 >   The contents of the fields that you have selected in the **Inheritance** section of the **Marketing Setup** page are copied from the company to the persons within that company.
 
 ## See Also
-[Creating Contact Companies](marketing-create-contact-companies.md)  
-[Creating Contact Persons](marketing-create-contact-persons.md)  
+[Creating Contacts](marketing-create-contact-companies.md)  
 [Use Profile Questionnaires to Classify Business Contacts](marketing-create-contact-profile-questionnaire.md)  
 [Working with Business Central](ui-work-product.md)

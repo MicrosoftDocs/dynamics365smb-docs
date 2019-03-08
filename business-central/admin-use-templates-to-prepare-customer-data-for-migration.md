@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 11/07/2018
+    ms.date: 03/01/2019
     ms.author: sgroespe
 
 ---
@@ -111,7 +111,7 @@ You can use the structure of data that is contained in the data templates to con
 The following steps illustrate how to create an item card from an item data template. You can create a record from any data template using the same procedure.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Templates**, and then choose the related link.  
-2. Select the **Item** template, and then choose the **Edit** action. For more information, see the "To create a data template" section.
+2. Select the **Item** template, and then choose the **Edit** action. For more information, see [To create a data template](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Choose the **Create Instance** action. An item card is created.  
 4. Choose the **OK** button.  
 5. To review the new item card, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  

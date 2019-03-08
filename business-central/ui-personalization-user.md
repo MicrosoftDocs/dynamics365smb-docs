@@ -96,7 +96,7 @@ There are a couple terms that you should be familiar with to better understand a
 
 An *action group* is item that expands to display other actions or groups. For example, in the following illustration, **Posting** is an action group.
 
-A *promoted category* is an action group that appears between the two vertical lines `|` in the action bar. These are typically actions that always appear on the page. For example, in the following illustration, **Release**, **Posting**, **Invoice**, and **Navigate** are promoted categories.
+A *promoted category* is an action group that appears between the two vertical lines `|` in the action bar. The categories typically include the most commonly used actions, so that you can quickly find them. For example, in the following illustration, **Release**, **Posting**, **Invoice**, and **Navigate** are promoted categories.
 
 ![Personalize action bar group](media/personalize-action-bar-group-clip.png "Personalize action bar group ")
 

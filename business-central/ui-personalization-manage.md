@@ -24,7 +24,7 @@ Users can personalize their workspace to suit their own preferences. As an admin
 
 ## <a name="EnablePersonalization"></a>Enable/Disable Personalization (On-Premises Only)
 
-By default, personalization is not enabled in the client. You enable or disable personalization by modifying the configuration file (navsettings.json) of the Business Central Web Server instance that serves the clients. 
+By default, personalization is not enabled in the client. You enable or disable personalization by modifying the configuration file (navsettings.json) of the Business Central Web Server instance that serves the clients.
 
 To enable personalization, add the following line in the navsettings.json file:
 
@@ -42,7 +42,7 @@ For more information about how to modify the navsettings.json file, see [Modify 
 
 2. Generate and download the application symbols.
 
-    This step is optional, and not required to enable personalization. However, it ensures that new pages that are created by developers can be personalized. 
+    This step is optional, and not required to enable personalization. However, it ensures that new pages that are created by developers can be personalized.
 
     1. You first generate the symbols by running finsql.exe with `generatesymbolreference` command. The finsql.exe file is located in the installation folder for the [!INCLUDE[server](includes/server.md)] and Dynamics NAV Development Environment (CSIDE). To generate the symbols, open a command prompt, change to the directory where the file is store, and the run the following command:
 

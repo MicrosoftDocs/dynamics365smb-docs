@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 03/05/2019
+ms.date: 03/11/2019
 ms.author: sgroespe
 
 ---
@@ -31,7 +31,7 @@ The following procedure is based on a customer card. The steps are similar for a
 3. On the **Customer Card** page, choose the **Merge With** action.
 4. On the **Merge Duplicate** page, in the **Merge With** field, select the customer that you believe is a duplicate of the one you have opened, indicated in the **Current** field.
 
-    The **Choose field values to keep or override** FastTab lists fields where the values are different for the two customers. This means that if the selected customer is really a duplicate, then only very few fields should be listed, such as typing errors and other data entry mistakes.
+    The **Fields** FastTab lists fields where the values are different for the two customers. This means that if the selected customer is really a duplicate, then only very few fields should be listed, such as typing errors and other data entry mistakes.
 
     The **Related Tables** FastTab lists tables where there are fields with a relation to both customers. The **Current Count** and **Duplicate Count** fields show the number of fields in related tables where the **No.** value of both the current and the duplicate customer is used. On the **Merge Duplicate** page, this section is informational only, however, if merge conflicts exist, you will resolve them on the **Merge Duplicate Conflicts** page. See steps 8 through 12.   
 
@@ -43,7 +43,7 @@ The following procedure is based on a customer card. The steps are similar for a
 7. If no conflicts are found, choose the **Yes** button in the confirmation message box.
 
     The duplicate customer is renamed so that all usage of its **No.** value in all fields with relations to the customer table will be replaced with the **No.** value of the current customer.
-8. If conflicts exist, choose the **Resolve (xx) conflicts before merge** action on the **Conflicts** FastTab, which will appear if conflicts exist.
+8. If conflicts exist, choose the **Resolve (xx) conflicts before merge.** action on the **Conflicts** FastTab, which will appear if conflicts exist.
 9. On the **Merge Duplicate Conflicts** page, select the line for a related table with a conflict, and then choose the **View Details** action.
 
     The **Merge Duplicate** page now shows the fields in the selected table that cause a merge conflict between the two customer records. Notice in both the summarized values in the **Current** and **Conflicts With** fields and on the lines that at least one primary-key field is the same for both customers and the value of the **No.** field is different for the two customers.   

@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 02/26/2019
+ms.date: 03/11/2019
 ms.author: bholtorf
 
 ---
@@ -46,7 +46,7 @@ To use the assisted setup guide, follow these steps:
 2. Choose **Set up consolidation reporting**, and then complete each step in the assisted setup guide.
 
 ## To do an advanced consolidation setup
-If you need more advanced settings for your consolidation, you can set up consolidation manually. For example, if you have companies that you own only partially, or you have companies that you do not want to include in the consolidation. You set up the consolidated company in the say way that you set up other companies. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md).  
+If you need more advanced settings for your consolidation, you can set up consolidation manually. For example, if you have companies that you own only partially, or you have companies that you do not want to include in the consolidation. You set up the consolidated company in the same way that you set up other companies. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md).  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] lets you set up a list of companies to consolidate, verify the accounting data before you consolidate it, import files, and generate consolidation reports.  
 
@@ -55,7 +55,7 @@ If you need more advanced settings for your consolidation, you can set up consol
 3. Choose **New**, and then fill in the required fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!IMPORTANT]
-> When you fill in the **Starting Date** and **Ending Date** fields, make sure you comply with GAAP rules concerning the fiscal year period of the business unit compared to that of the parent company, for example, that the periods must be no more than three months apart.
+> When you fill in the **Starting Date** and **Ending Date** fields, make sure you comply with GAAP rules concerning the fiscal periods of the business unit versus the parent company.
 
 If your business unit uses a foreign currency, you must specify the exchange rate to use in the consolidation. You must also enter consolidation information about the business unit's general ledger accounts. These processes are described in the following sections.
 

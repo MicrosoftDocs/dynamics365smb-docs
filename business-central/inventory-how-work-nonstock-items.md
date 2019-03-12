@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: non-inventoriable
-ms.date: 10/01/2018
+ms.date: 03/12/2019
 ms.author: sgroespe
 
 ---
@@ -62,7 +62,7 @@ A new item card prefilled with information from the catalog item and a relevant 
 You can then fill or edit fields on the new item card as necessary. For more information, see [Register New Items](inventory-how-register-new-items.md).
 
 > [!NOTE]  
->   An Item cross reference record is automatically created for the vendor of the item between the vendor's item number and your new item number.
+>   An Item cross reference record is automatically created for the vendor of the item between the vendor's item number and your new item number. For more information, see [Use Item Cross References](inventory-how-use-item-cross-refs.md).
 
 ## See Also
 [Register New Items](inventory-how-register-new-items.md)  

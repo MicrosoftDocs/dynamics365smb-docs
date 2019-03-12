@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 03/01/2019
+ms.date: 03/12/2019
 ms.author: sgroespe
 
 ---
@@ -65,9 +65,7 @@ Now you can proceed to create document records for the received electronic docum
 The following procedure describes how to create a purchase invoice record from a vendor invoice received as an electronic document from the OCR service. The procedure is the same when you create, for example, a general journal line from an expense receipt or a sales return order from a customer.
 
 > [!NOTE]  
->   The **Description** and **No.** fields on the created document lines will only be filled if you have first mapped text found on the OCR document to the two fields in [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can do this mapping as item cross-references, for document lines of type Item. You can also use the Text-to-Account Mapping function. For more information, see [To map text on an incoming document to a specific vendor, G/L, or bank account](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account).
-
-To map the item numbers on the document to your descriptions of the vendor's items, open the card of each item, and then choose the **Cross References** action to set up cross-references between your item descriptions and those of the vendor. For more information, see the tooltip for the **Cross References** action on item cards.
+>   The **Description** and **No.** fields on the created document lines will only be filled if you have first mapped text found on the OCR document to the two fields in [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can do this mapping as item cross-references, for document lines of type Item. For more information, see [Use Item Cross References](inventory-how-use-item-cross-refs.md). You can also use the Text-to-Account Mapping function. For more information, see [To map text on an incoming document to a specific vendor, G/L, or bank account](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account).
 
 1. Select the line for the incoming document, and then choose the **Create Document** action.
 

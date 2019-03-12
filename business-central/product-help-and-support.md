@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.topic: article
 ms.service: "dynamics365-business-central"
 ms.author: edupont
-ms.date: 02/21/2019
+ms.date: 03/12/2019
 ---
 
 # Resources for Help and Support
@@ -42,7 +42,14 @@ The [Business Central blog](https://community.dynamics.com/business/b/financials
 
 The [!INCLUDE[prodshort](includes/prodshort.md)] [roadmap page](https://dynamics.microsoft.com/roadmap/business-central/) shows the general priorities for [!INCLUDE[prodshort](includes/prodshort.md)] in the coming years. [!INCLUDE[prodshort](includes/prodshort.md)] is updated with major feature updates every 6 months and monthly service updates, and you can get an overview of upcoming and recently released capabilities in the release notes at [https://dynamics.microsoft.com/en-us/business-applications/release/#release-notes](https://dynamics.microsoft.com/en-us/business-applications/release/#release-notes).  
 
-## Feedback
+## Do more with your trial
+
+This section gives you shortcuts to Microsoft AppSource where you can find solutions and services from [!INCLUDE [prodshort](includes/prodshort.md)] partners. You can also find a link to contact the sales team.
+
+> [!NOTE]
+> This section is only available in trial experiences. If you already bought [!INCLUDE [prodshort](includes/prodshort.md)], the section is not longer visible.
+
+## Give feedback
 
 On the [Dynamics 365 Ideas site](https://aka.ms/bcideas), you can provide suggestions for new feature and capabilities. Your input goes directly to Business Central’s engineering backlog for investigation and prioritization.  
 
@@ -56,16 +63,17 @@ The **Troubleshooting** section shows technical information that your administra
 
 Your [!INCLUDE[prodshort](includes/prodshort.md)] reselling partner is expected to help you with technical support. [!INCLUDE[prodshort](includes/prodshort.md)] is sold through partners, and the email address in this section enables you to contact your reselling partner. If your [!INCLUDE[prodshort](includes/prodshort.md)]  partner then cannot resolve the problem, they will raise a support ticket with Microsoft.  
 
-If you have signed up for a trial and have not yet purchased [!INCLUDE[prodshort](includes/prodshort.md)], you do not have a reselling partner, and you cannot contact the Microsoft support team.  
-
-You can find a [!INCLUDE[prodshort](includes/prodshort.md)] partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page.  
+> [!NOTE]
+> This section is only available if you have paid for a [!INCLUDE [prodshort](includes/prodshort.md)] subscription. If you have signed up for a trial and have not yet purchased [!INCLUDE[prodshort](includes/prodshort.md)], you do not have a reselling partner, and you cannot contact the Microsoft support team. You can find a [!INCLUDE[prodshort](includes/prodshort.md)] partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page.  
 
 ### Support email address
 
-The email address that is shown in the **Report a problem** section can be for a person or a team. If you are the [!INCLUDE[prodshort](includes/prodshort.md)] reselling partner for a tenant, you can set up this email address in the **Support Contact Info Card** page. <!--TODO: More info on which link to click-->
+The email address that is shown in the **Report a problem** section can be for a person or a team. If you are the [!INCLUDE[prodshort](includes/prodshort.md)] reselling partner for a tenant, you can set up this email address in the **Support Contact Info Card** page. For more information, see [Configuring Technical Support for [!INCLUDE[prodlong](developer/includes/prodlong.md)]](/dynamics365/business-central/dev-itpro/technical-support).
+<!--TODO: More info on which link to click-->
 
 ## See also
 
 [Blog post: Find the right resources and provide feedback](https://community.dynamics.com/business/b/financials/archive/2018/12/04/find-the-right-resources-and-provide-feedback)  
 [Business Central developer and ITpro docs](/dynamics365/business-central/dev-itpro/)  
 [Resources for Help and Support for Partners](/dynamics365/business-central/dev-itpro/help-and-support)  
+[Configuring Technical Support](/dynamics365/business-central/dev-itpro/technical-support)  

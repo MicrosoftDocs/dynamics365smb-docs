@@ -389,7 +389,7 @@
 ## [Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)
 ## [Reserve Items](inventory-how-to-reserve-items.md)
 ## [Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)
-## [Use Item Cross-References](inventory-how-use-item-cross-refs.md)
+## [Use Item Cross References](inventory-how-use-item-cross-refs.md)
 ## [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)
 ## [Block Items](inventory-how-block-items.md)
 ## [Work with Responsibility Centers](inventory-responsibility-centers.md)

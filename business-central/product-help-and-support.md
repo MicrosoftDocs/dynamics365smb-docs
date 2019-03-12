@@ -68,7 +68,7 @@ Your [!INCLUDE[prodshort](includes/prodshort.md)] reselling partner is expected 
 
 ### Support email address
 
-The email address that is shown in the **Report a problem** section can be for a person or a team. If you are the [!INCLUDE[prodshort](includes/prodshort.md)] reselling partner for a tenant, you can set up this email address in the **Support Contact Info Card** page. For more information, see [Configuring Technical Support for [!INCLUDE[prodlong](developer/includes/prodlong.md)]](/dynamics365/business-central/dev-itpro/technical-support).
+The email address that is shown in the **Report a problem** section can be for a person or a team. If you are the [!INCLUDE[prodshort](includes/prodshort.md)] reselling partner for a tenant, you can set up this email address in the **Support Contact Info Card** page. For more information, see [Configuring Technical Support](/dynamics365/business-central/dev-itpro/technical-support).
 <!--TODO: More info on which link to click-->
 
 ## See also

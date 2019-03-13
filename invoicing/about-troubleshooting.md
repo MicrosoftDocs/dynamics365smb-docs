@@ -58,6 +58,9 @@ You have access to [!INCLUDE[d365inv](includes/d365inv.md)] through your Office 
 ## Why can't I use my Dynamics 365 company in [!INCLUDE[d365inv](includes/d365inv.md)]?
 If you've signed up for a trial of Dynamics 365 Business Central, but you haven't accessed your trial since April 1, 2017, then you need to log into Dynamics 365 and recreate the company before you can use it in [!INCLUDE[d365inv](includes/d365inv.md)].  
 
+## Can I use multi-factor authentication?
+Sure. If you do, you might need an app password in order to send email messages. App passwords give an app or a device access to your email account. The steps for getting an app password vary, depending on your email provider. For more information, see the help from your provider. For example, if you're using Outlook, see [Create an app password for Office 365](https://go.microsoft.com/fwlink/?linkid=2082543). 
+
 ## See also
 [Welcome to [!INCLUDE[d365inv](includes/d365inv.md)]](index.md)  
 [Set up your business information](set-up-business-profile.md)  

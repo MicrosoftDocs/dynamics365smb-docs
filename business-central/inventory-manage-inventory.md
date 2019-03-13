@@ -41,7 +41,7 @@ Even though inventory costs are automatically posted to the general ledger, it i
 |View the availability of items per location, by period, by sales or purchase event, or by their use on assembly or production BOMs.|[View the Availability of Items](inventory-how-availability-overview.md)|
 |Transfer inventory items between locations with transfer orders, to manage warehouse activities, or with the item reclassification journal.|[Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)|
 |Reserve inventory or inbound items for sales orders, purchase orders, service orders, assembly orders, or production orders.|[Reserve Items](inventory-how-to-reserve-items.md)|
-|Set up a vendor's or customer's own number and description for an item, so that their item number and description is easily inserted on trade documents.|[Use Item Cross References](inventory-how-use-item-cross-refs.md)|
+|Set up a vendor's or customer's own description for an item, so that you can easily insert their item description on trade documents.|[Use Item Cross References](inventory-how-use-item-cross-refs.md)|
 |Assign serial numbers or lot numbers to any outbound or inbound document or journal line, for example to track items in case of recalls.|[Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)|
 |Set up a vendor's or customer's own item description on your item card so that you can quickly insert their item description on trade documents.|[Use Item Cross-References](inventory-how-use-item-cross-refs.md)|
 |Find where any serial or lot number was used in its supply chain, for example in recall situations.|[Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)|

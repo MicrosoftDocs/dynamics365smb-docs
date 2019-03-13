@@ -32,15 +32,15 @@ The following table lists some of the general functionality with links to topics
 | View or process data in specific date ranges. |[Entering Date Ranges](ui-enter-date-ranges.md) |
 |Learn how to quickly copy and paste data including by using keyboard shortcuts.|[Copying and Pasting](ui-copy-paste.md)|
 | See which fields must be filled in. |[Detecting Mandatory Fields](ui-mandatory-fields.md) |
-|Learn how to interact with Excel from practically anywhere in [!INCLUDE[d365fin](includes/d365fin_md.md)|[Viewing and Editing in Excel](across-work-with-excel.md)|
+|Understand how the computer locale affects the user interface and the Help site and how to change the language.|[Changing Language and Locale](about-locale-language.md)|
+|Learn how to interact with Excel from practically anywhere in [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Viewing and Editing in Excel](across-work-with-excel.md)|
 |Get notified about certain events or changes in status, such as when you are about to invoice a customer who has an overdue balance.|[Viewing Notifications](ui-smart-notifications.md)|
 | Change basic settings such as company, work date, and Role Center. |[Changing Basic Settings](ui-change-basic-settings.md) |
+|Watch videos on selected functionality to help you get started.|[Videos on Common Tasks](across-videos.md)|
 | Change which fields and actions are shown in the user interface to fit your company's business processes. |[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md) |
-| Change how you view lists of, for example, customers, vendors, or items. |[Displaying Lists in Different Ways](across-display-lists-different-views.md) |
-| Modify the colored indicator on cues. |[Setting Up a Colored Indicator on Cues](ui-how-setup-colored-indicator-cues.md) |
-|Understand how the computer locale affects the user interface and the Help site and how to change the language.|[Changing Language and Locale](about-locale-language.md)|
+|Preview, print, or save reports.|[Working with Reports](ui-work-report.md)|
+| Manage the content and format of reports and documents, including which data fields of a report dataset appear on the report and how they are arranged, text style, images, and more.|[Managing Report and Document Layouts](ui-manage-report-layouts.md) |
 |Learn about features and capabilities that make [!INCLUDE[d365fin](includes/d365fin_md.md)] readily available to people with disabilities.|[Accessibility and Keyboard Shortcuts](ui-accessibility.md)|
-|Watch videos on selected functionality to help you get started.|[Videos on Common Tasks](across-videos.md)|  
 
 ## Getting Around in Business Central
 Here's a short video about how to get around in [!INCLUDE[d365fin](includes/d365fin_md.md)].

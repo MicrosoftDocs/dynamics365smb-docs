@@ -25,12 +25,16 @@ The following table lists some of the general functionality with links to topics
 
 | To | See |
 | --- | --- |
-| Change basic settings such as company, work date, and Role Center. |[Changing Basic Settings](ui-change-basic-settings.md) |
 | Find a specific page or report. |[Using Search for Page or Report](ui-search.md) |
 | Filter data in views, reports, or functions by using special symbols and characters. |[Searching, Filtering, and Sorting Data](ui-enter-criteria-filters.md) |
 | Learn about how to sort data. |[Sorting Data](ui-sorting.md) |
+|Learn the many general functions that help you enter data in a quick and easy way.|[Entering Data](ui-enter-data.md)|
 | View or process data in specific date ranges. |[Entering Date Ranges](ui-enter-date-ranges.md) |
+|Learn how to quickly copy and paste data including by using keyboard shortcuts.|[Copying and Pasting](ui-copy-paste.md)|
 | See which fields must be filled in. |[Detecting Mandatory Fields](ui-mandatory-fields.md) |
+|Learn how to interact with Excel from practically anywhere in [!INCLUDE[d365fin](includes/d365fin_md.md)|[Viewing and Editing in Excel](across-work-with-excel.md)|
+|Get notified about certain events or changes in status, such as when you are about to invoice a customer who has an overdue balance.|[Viewing Notifications](ui-smart-notifications.md)|
+| Change basic settings such as company, work date, and Role Center. |[Changing Basic Settings](ui-change-basic-settings.md) |
 | Change which fields and actions are shown in the user interface to fit your company's business processes. |[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md) |
 | Change how you view lists of, for example, customers, vendors, or items. |[Displaying Lists in Different Ways](across-display-lists-different-views.md) |
 | Modify the colored indicator on cues. |[Setting Up a Colored Indicator on Cues](ui-how-setup-colored-indicator-cues.md) |

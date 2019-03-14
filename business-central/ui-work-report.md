@@ -21,10 +21,14 @@ A report gathers information based on a specified set of criteria, and organizes
 You can find reports in the **Reports** tab on selected pages, or you can use search ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") to find reports by name.
 
 
-## Specifying the data to include in the report
+## Specifying the Data to Include in the Report
 When you open a report, you are typically presented with a page where you set various options and filters that determine what to include in the report. This page is called the report request page. For example, the report request page lets you create a report for a specific customer, a certain date range, or sort the order of information in the report. Here is an example of a report request page:
 
 ![Report options](media/report_options.png "Report options")
+
+> [!NOTE]
+> The **Show results** section on a request page provides a generic filtering capability for reports. These filters are optional.<br /><br /> In some reports, the code that runs the report will ignore any such filters, meaning that no matter what filter is set in the **Show results** section, the output of the report is the same. It is not possible to provide a list of which fields are ignored in which reports, so you will have to experiment with the filters when using them.<br /><br />
+**Example**: When you use the **Create Reminders** batch job, a filter for the **Customer Ledger Entries** field of **Last Issued Reminder Level** will be ignored filters are fixed for that batch job.
 
 ### <a name="SavedSettings"></a>Using Saved Settings
 With some reports, depending on how they are designed, the report page might include the **Saved Settings** section that contains one or more entries in the **Use default value from** box. The entries in this box are called *saved settings*. A saved setting is basically a predefined group of options and filters that you can apply to the report before previewing or sending the report to a file. The saved settings entry called **Last used options and filters** is always available. This entry sets the report to use options and filters that were used the last time you looked at the report.
@@ -45,7 +49,7 @@ Depending on what type field you are filtering, you can specify the filter crite
 -   [Filtering](ui-enter-criteria-filters.md#FilterCriteria)
 -   [Working with Calendar Dates and Times](ui-enter-date-ranges.md)
 
-## Previewing a report
+## Previewing a Report
 Choose **Preview** to see the report in the Internet browser. Point to an area of the report to show the menu bar.  
 
 ![Report preview toolbar](media/report_viewer.png "Report preview toolbar")

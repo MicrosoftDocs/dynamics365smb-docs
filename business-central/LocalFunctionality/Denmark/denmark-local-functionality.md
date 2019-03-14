@@ -18,10 +18,6 @@ The following topics describe the local functionality in the Danish version of [
 
 ## Feature Availability
 
-* Setup
-    * [Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md) **Available Now**
-    * [Set Up OIOUBL Electronic Invoicing](how-to-set-up-oioubl.md) **Available Now**
-
 * VAT & Tax
     * [Print VAT Reconciliation Reports](how-to-print-vat-reconciliation-reports.md) **Available Now**
     * [VAT-VIES Reporting](vat-vies-reporting.md) **Available Now**
@@ -32,10 +28,12 @@ The following topics describe the local functionality in the Danish version of [
 
 * Electronic Invoicing
     * [Overview of OIOUBL Electronic Invoicing](oioubl-electronic-invoicing-overview.md) **Available Now**
+    * [Set Up OIOUBL Electronic Invoicing](how-to-set-up-oioubl.md) **Available Now**
+    * [Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md) **Available Now***
     * [The OIOUBL Extension for Electronic Invoicing](ui-extensions-oioubl.md) **Available Now**
     * [Create Electronic Documents in an OIOUBL Format](how-to-create-electronic-documents-by-using-oioubl.md) **Available Now**
 
-* General Business Functionality
+* Payroll
     * [Payroll Data Definitions (DK)](ui-extensions-payroll-data-definitions-dk.md) **Available Now**
 
 ## See Also

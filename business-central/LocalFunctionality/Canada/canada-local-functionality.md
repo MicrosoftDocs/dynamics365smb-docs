@@ -18,19 +18,19 @@ The following topics describe local functionality that is unique to the Canadian
 
 ## Feature Availability
 
-* Setup
-    * [Set Up Unrealized Sales Tax and Sales Payment Discounts](how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md) **Available Now**
-    * [Set Up Use Tax and Purchase Tax](how-to-set-up-use-tax-and-purchase-tax.md) **Available Now**
-
 * VAT & Tax
     * [Reporting Sales Tax and Goods/Services Tax in Canada](sales-tax-goods-services.md) **Available Now**
     * [Reporting Sales Tax in Canada](ca-sales-tax.md) **Available Now**
+    * [Set Up Unrealized Sales Tax and Sales Payment Discounts](how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md) **Available Now**
+    * [Set Up Use Tax and Purchase Tax](how-to-set-up-use-tax-and-purchase-tax.md) **Available Now**
 
-* General Business Functionality
+* Banking & Payments
     * [Create Deposits](how-to-create-deposits.md) **Available Now**
     * [Manage Customer Credit Information](how-to-manage-customer-credit-information.md) **Available Now**
+
+* General
     * [Print Troubleshooting Reports](how-to-print-troubleshooting-reports.md) **Available Now**
-    * [Work With GIFI Codes](work-gifi-codes.md) **Available Now**
+    * [Work With GIFI Codes](work-gifi-codes.md) **Available Now**    
 
 ## See Also
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)   

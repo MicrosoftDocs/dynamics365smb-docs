@@ -21,7 +21,7 @@ There are different ways to customize the application to give you and your colle
 |-----|---------------|---------|-------|
 |Install an extension|Extensions are like small applications that add functionality, change behavior, provide access to new online services, and more. For example, Microsoft provides an extension that provides integration with PayPal Payments Standard.|All users in all companies.|[Customizing Using Extensions](ui-extensions.md)|
 |Change which UI elements are visible.|The **Experience** setting determines how much of the functionality is displayed in the user interface. Choose between Essential and Premium.|All users in a specific company.|[Changing Which Features are Displayed](ui-experiences.md)|
-|Control and manage users' personalization by disabling the ability to personalize pages and clearing any page personalizations.|[Managing Personalization as an Administrator](ui-personalization-manage.md)|
+|Manage users' permsonalizations.|Control and manage users' personalization by disabling the ability to personalize pages and clearing any page personalizations.|All users in all companies.|[Managing Personalization as an Administrator](ui-personalization-manage.md)|
 |As a user, personalize your workspace.|Change the layout and content of your pages.|Only you.|[Personalizing Your Workspace](ui-personalization-user.md)|
 
 > [!NOTE]

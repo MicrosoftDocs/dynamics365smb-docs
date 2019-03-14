@@ -22,7 +22,6 @@
 ### [Using Business Central as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)
 ## [Using Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md)
 ### [Troubleshooting Integration with Microsoft Flow - Request URL Too Long](across-troubleshooting-how-use-financials-data-source-flow.md)
-## [Customizing Business Central Using Extensions](ui-extensions.md)
 ### [Extending Dynamics 365 Business Central](about-develop-extensions.md)
 ### [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
 ### [Data Replication](ui-extensions-data-replication.md)
@@ -55,7 +54,7 @@
 ## [Viewing and Editing in Excel](across-work-with-excel.md)  
 ## [Managing Notifications](ui-smart-notifications.md)
 ## [Changing Basic Settings](ui-change-basic-settings.md)
-## [Personalizing Business Central](ui-customizing-overview.md)
+## Personalizing Business Central
 ### [Personalizing Your Workspace](ui-personalization-user.md)
 ### [Why a Page is Locked From Personalizing](ui-personalization-locked.md)
 ### [Displaying Lists in Different Ways](across-display-lists-different-views.md)

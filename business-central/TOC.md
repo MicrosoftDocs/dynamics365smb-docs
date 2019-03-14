@@ -54,8 +54,7 @@
 ## [Viewing and Editing in Excel](across-work-with-excel.md)  
 ## [Managing Notifications](ui-smart-notifications.md)
 ## [Changing Basic Settings](ui-change-basic-settings.md)
-## Personalizing Business Central
-### [Personalizing Your Workspace](ui-personalization-user.md)
+## [Personalizing Your Workspace](ui-personalization-user.md)
 ### [Why a Page is Locked From Personalizing](ui-personalization-locked.md)
 ### [Displaying Lists in Different Ways](across-display-lists-different-views.md)
 ### [Setting Up a Colored Indicator on Cues](admin-how-set-up-colored-indicator-on-cues.md)
@@ -230,7 +229,6 @@
 ### [Customizing Using Extensions](ui-extensions.md)
 ### [Changing Which Features are Displayed](ui-experiences.md)
 ### [Managing Personalization as an Administrator](ui-personalization-manage.md)
-### [Personalizing Your Workspace](ui-personalization-user.md)
 
 # [Finance](finance.md)
 ## [Managing Receivables](receivables-manage-receivables.md)

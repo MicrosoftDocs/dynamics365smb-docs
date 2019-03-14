@@ -25,18 +25,16 @@ The following table lists some of the general functionality with links to topics
 
 | To | See |
 | --- | --- |
-| Find a specific page or report. |[Using Search for Page or Report](ui-search.md) |
-| Filter data in views, reports, or functions by using special symbols and characters. |[Searching, Filtering, and Sorting Data](ui-enter-criteria-filters.md) |
-| Learn about how to sort data. |[Sorting Data](ui-sorting.md) |
+| Find a specific page, report, action, help topic, or partner extension. |[Using Tell Me to Find Features and Information](ui-search.md) |
+| Filter data in views, reports, or functions by using special symbols and characters. |[Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md) |
 |Learn the many general functions that help you enter data in a quick and easy way.|[Entering Data](ui-enter-data.md)|
-| View or process data in specific date ranges. |[Entering Date Ranges](ui-enter-date-ranges.md) |
+| View or process data in specific date ranges. |[Working with Calendar Dates and Times](ui-enter-date-ranges.md) |
 |Learn how to quickly copy and paste data including by using keyboard shortcuts.|[Copying and Pasting](ui-copy-paste.md)|
 | See which fields must be filled in. |[Detecting Mandatory Fields](ui-mandatory-fields.md) |
 |Understand how the computer locale affects the user interface and the Help site and how to change the language.|[Changing Language and Locale](about-locale-language.md)|
 |Learn how to interact with Excel from practically anywhere in [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Viewing and Editing in Excel](across-work-with-excel.md)|
-|Get notified about certain events or changes in status, such as when you are about to invoice a customer who has an overdue balance.|[Viewing Notifications](ui-smart-notifications.md)|
+|Get notified about certain events or changes in status, such as when you are about to invoice a customer who has an overdue balance.|[Managing Notifications](ui-smart-notifications.md)|
 | Change basic settings such as company, work date, and Role Center. |[Changing Basic Settings](ui-change-basic-settings.md) |
-|Watch videos on selected functionality to help you get started.|[Videos on Common Tasks](across-videos.md)|
 | Change which fields and actions are shown in the user interface to fit your company's business processes. |[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md) |
 |Preview, print, or save reports.|[Working with Reports](ui-work-report.md)|
 | Manage the content and format of reports and documents, including which data fields of a report dataset appear on the report and how they are arranged, text style, images, and more.|[Managing Report and Document Layouts](ui-manage-report-layouts.md) |

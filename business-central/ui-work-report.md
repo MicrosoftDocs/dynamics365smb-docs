@@ -43,7 +43,7 @@ You can add more filters by setting the **Add** boxes. When you have more than o
 
 Depending on what type field you are filtering, you can specify the filter criteria to look for an exact match, partial match, range of values, and more. For help about how to set up filters, see:
 -   [Filtering](ui-enter-criteria-filters.md#FilterCriteria)
--   [Entering Date Ranges ](ui-enter-date-ranges.md)
+-   [Working with Calendar Dates and Times](ui-enter-date-ranges.md)
 
 ## Previewing a report
 Choose **Preview** to see the report in the Internet browser. Point to an area of the report to show the menu bar.  

@@ -27,5 +27,5 @@ A batch job is like a report, except the batch job uses the result of its work t
 4. Choose the **OK** button to start the batch job.
 
 ## See Also
-[Searching, Filtering, and Sorting Data](ui-enter-criteria-filters.md)  
+[Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -20,8 +20,9 @@ The following topics describe the local functionality in the Czech version of [!
 
 * VAT & Tax
     * [VAT Control Report](vat-control-report.md) **Available Now**
-* Banking and Payments
-    *  [Registration of Sales (EET)](LocalFunctionality/Czech/eet.md)[EET](eet.md) **Available Now**
+
+* Banking & Payments
+    *  [Registration of Sales (EET)](eet.md) **Available Now**
 
 ## See Also
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)   

@@ -24,6 +24,7 @@
 ## [Using Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md)
 ### [Troubleshooting Integration with Microsoft Flow - Request URL Too Long](across-troubleshooting-how-use-financials-data-source-flow.md)
 ## [Extending Dynamics 365 Business Central](about-develop-extensions.md)
+### [Business Central Extensions by Other Providers](ui-extensions-other.md)
 
 # [Working with Business Central](ui-work-product.md)
 ## [Finding Features and Information](ui-search.md)
@@ -225,6 +226,7 @@
 #### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 #### [Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
 #### [The C5 Data Migration Extension](ui-extensions-c5-data-migration.md)
+#### [Business Central Extensions by Other Providers](ui-extensions-other.md)
 ### [Changing Which Features are Displayed](ui-experiences.md)
 ### [Managing Personalization as an Administrator](ui-personalization-manage.md)
 ### [Setting Up a Colored Indicator on Cues](admin-how-set-up-colored-indicator-on-cues.md)

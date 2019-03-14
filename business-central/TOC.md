@@ -57,7 +57,6 @@
 ## [Personalizing Your Workspace](ui-personalization-user.md)
 ### [Why a Page is Locked From Personalizing](ui-personalization-locked.md)
 ### [Displaying Lists in Different Ways](across-display-lists-different-views.md)
-### [Setting Up a Colored Indicator on Cues](admin-how-set-up-colored-indicator-on-cues.md)
 ## [Working with Reports](ui-work-report.md)
 ### [Specify Printer Selection for Reports](ui-specify-printer-selection-reports.md)
 ### [Schedule a Report to Run](ui-work-report.md#ScheduleReport)
@@ -229,6 +228,7 @@
 ### [Customizing Using Extensions](ui-extensions.md)
 ### [Changing Which Features are Displayed](ui-experiences.md)
 ### [Managing Personalization as an Administrator](ui-personalization-manage.md)
+### [Setting Up a Colored Indicator on Cues](admin-how-set-up-colored-indicator-on-cues.md)
 
 # [Finance](finance.md)
 ## [Managing Receivables](receivables-manage-receivables.md)

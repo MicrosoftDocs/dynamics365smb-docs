@@ -15,8 +15,13 @@ ms.date: 10/01/2018
 ms.author: jswymer
 
 ---
-# Working with Reports
+# Working with Reports and Batch Jobs
 A report gathers information based on a specified set of criteria, and organizes and presents the information in an easy-to-read, printable format. There are many reports that you can access throughout the application. The reports typically provide information relative to the context of the page you are on. For example, the **Customer** page includes reports for the top 10 customers and the sales statistics, and more.
+
+Batch jobs do more or less the same as reports but for the purpose of performing a process. For example, the **Create Reminders** batch job creates reminder documents for customers with overdue payments.  
+
+> [!NOTE]
+> This topic refers mainly to "report", but similar information applies to batch jobs.
 
 You can find reports in the **Reports** tab on selected pages, or you can use search ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") to find reports by name.
 
@@ -26,9 +31,9 @@ When you open a report, you are typically presented with a page where you set va
 
 ![Report options](media/report_options.png "Report options")
 
-> [!NOTE]
-> The **Show results** section on a request page provides a generic filtering capability for reports. These filters are optional.<br /><br /> In some reports, the code that runs the report will ignore any such filters, meaning that no matter what filter is set in the **Show results** section, the output of the report is the same. It is not possible to provide a list of which fields are ignored in which reports, so you will have to experiment with the filters when using them.<br /><br />
-**Example**: When you use the **Create Reminders** batch job, a filter for the **Customer Ledger Entries** field of **Last Issued Reminder Level** will be ignored filters are fixed for that batch job.
+> [!Caution]
+> The **Show results** section on a request page provides a generic filtering capability for reports. These filters are optional.<br /><br /> Some reports will ignore any such filters, meaning that no matter what filter is set in the **Show results** section, the output of the report is the same. It is not possible to provide a list of which fields are ignored in which reports, so you will have to experiment with the filters when using them.<br /><br />
+**Example**: When you use the **Create Reminders** batch job, a filter for the **Customer Ledger Entries** field of **Last Issued Reminder Level** will be ignored because filters are fixed for that batch job.
 
 ### <a name="SavedSettings"></a>Using Saved Settings
 With some reports, depending on how they are designed, the report page might include the **Saved Settings** section that contains one or more entries in the **Use default value from** box. The entries in this box are called *saved settings*. A saved setting is basically a predefined group of options and filters that you can apply to the report before previewing or sending the report to a file. The saved settings entry called **Last used options and filters** is always available. This entry sets the report to use options and filters that were used the last time you looked at the report.

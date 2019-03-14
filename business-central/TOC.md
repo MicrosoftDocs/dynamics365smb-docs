@@ -10,7 +10,7 @@
 ## [Unsubscribe, Remove, or Reset Business Central](admin-cancel.md)
 ## [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
 ## [Your Access to the Intelligent Cloud with Business Central](about-intelligent-cloud.md)
-## [Extending Dynamics 365 Business Central](about-develop-extensions.md)
+## [Extending Business Central](about-develop-extensions.md)
 ### [Business Central Extensions by Other Providers](ui-extensions-other.md)
 
 # [Working with Business Central](ui-work-product.md)

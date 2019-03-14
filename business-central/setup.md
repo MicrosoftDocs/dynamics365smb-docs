@@ -40,6 +40,13 @@ Some functionality, either general or for specific business processes, can be se
 |Read best practices for setting items up for up inventory costing and supply planning.|[Setting Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)|
 |Improve the quality of implementation and shorten deployment time by using a toolset for setting up a new company using wizards, templates, worksheets, and customer questionnaires.|[Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)|
 |Transfer customers, vendors, inventory, and bank accounts information from another system into [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md).|
+|Use Business Central Outlook add-ins to see financial data related to customers and vendors or create and send financial documents, such as quotes and invoices.|[Using Business Central as Your Business Inbox in Outlook](admin-outlook.md)|
+|Get insights into your Business Central data with Power BI and the Business Central content packs.|[Enabling Your Business Data for Power BI](admin-powerbi.md)|
+|Use your Business Central data as part of a workflow in Microsoft Flow.|[Using Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md)|
+|Make your Business Central data available as a data source in PowerApps.|[Connecting to Your Business Central Data to Build a Business App Using PowerApps](across-how-use-financials-data-source-powerapps.md)|
+|Use dedicated Quickbooks migration guides.|[Changing from a QuickBooks App to Business Central]across-quickbooks-to-business-edition.md|
+|Access your Business Central data from your mobile device.|[Getting Business Central on Your Mobile Device](install-mobile-app.md)|
+|Do bulk invoicing of appointments created in Bookings.|[Bulk Invoicing for Microsoft Bookings](finance-bookings.md)|
 |Set up an SMTP server to enable e-mail communication in and out of [!INCLUDE[d365fin](includes/d365fin_md.md)]| [Set Up Email Manually or Using the Assisted Setup](admin-how-setup-email.md)|
 | Set up unique identification codes for records, such as cards, documents, and journal lines, to track them in the system. |[Create Number Series](ui-create-number-series.md) |
 |Set up and assign a base calendar to your company and its business partners, such as customers, vendors, or locations. Delivery and receipt dates on future sales order, purchase order, transfer order, and production order lines are then calculated according to the calendar’s specified working days.|[Set Up Base Calendars](across-how-to-assign-base-calendars.md)|  

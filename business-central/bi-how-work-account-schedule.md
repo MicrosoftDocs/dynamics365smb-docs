@@ -32,7 +32,7 @@ You can also compare two or more account schedules and column layouts by using f
 * Set up various report layouts and print the reports with the current figures.
 
 ## Account Categories
-You can use account categories to change the layout of your financial statements. After you set up your account categories on the **G/L Account Categories** page, and you choose the **Generate Account Schedules** action, the underlying account schedules for the core financial reports are updated. The next time you run one of these reports, such as the Balance Statement report, new totals and subentries are added, based on your changes. For more information, see The "Account Categories" section in [Understanding the General Ledger and the COA](finance-general-ledger.md).  
+You can use account categories to change the layout of your financial statements. After you set up your account categories on the **G/L Account Categories** page, and you choose the **Generate Account Schedules** action, the underlying account schedules for the core financial reports are updated. The next time you run one of these reports, such as the Balance Statement report, new totals and subentries are added, based on your changes. For more information, see [Account Categories](finance-general-ledger.md#account-categories).  
 
 ## To create a new account schedule  
 You use account schedules to analyze figures in general ledger accounts or to compare general ledger entries with general ledger budget entries. For example, you can view the general ledger entries as percentages of the budget entries.

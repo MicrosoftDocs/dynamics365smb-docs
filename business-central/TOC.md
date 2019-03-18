@@ -1020,7 +1020,7 @@
 #### [Electronic Funds Transfer](LocalFunctionality/NewZealand/electronic-funds-transfer-eft-.md)
 #### [Print Deposit Slip Reports](LocalFunctionality/NewZealand/how-to-print-deposit-slip-reports.md)
 #### [Print Bank Account Reconciliation Reports](LocalFunctionality/NewZealand/how-to-print-bank-account-reconciliation-reports.md)
-## Core Finance
+### Core Finance
 #### [Calculating Distribution Amounts](LocalFunctionality/NewZealand/calculating-distribution-amounts.md)
 #### [Print Balance Sheet Reports](LocalFunctionality/NewZealand/how-to-print-balance-sheet-reports.md)
 #### [Print Income Statements](LocalFunctionality/NewZealand/how-to-print-income-statements.md)

@@ -725,7 +725,7 @@
 
 ## [Belgium](LocalFunctionality/Belgium/belgium-local-functionality.md)
 ### VAT & Tax
-#### [Belgian VAT]((LocalFunctionality/Belgium/belgian-vat.md)
+#### [Belgian VAT](LocalFunctionality/Belgium/belgian-vat.md)
 #### [Set Up Non-Deductible VAT](LocalFunctionality/Belgium/how-to-set-up-non-deductible-vat.md)
 #### [Make Manual Corrections to VAT](LocalFunctionality/Belgium/how-to-make-manual-corrections-to-vat.md)
 #### [Print Periodic VAT Reports](LocalFunctionality/Belgium/how-to-print-periodic-vat-reports.md)

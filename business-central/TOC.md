@@ -905,12 +905,12 @@
 #### [Certification of Business Central for German market (document is in German)](https://go.microsoft.com/fwlink/?linkid=875256)
 
 ## [Iceland](LocalFunctionality/Iceland/iceland-local-functionality.md)
-### Electronic Invoicing
-#### [Electronic Invoicing Requirement: Issuing Single Copy Invoice](LocalFunctionality/Iceland/electronic-invoicing-requirement-issuing-single-copy-invoice.md)
 ### VAT & Tax
 #### [Icelandic Tax Regulations for Conditional Discounts](LocalFunctionality/Iceland/icelandic-tax-regulations-of-conditional-discounts.md)
 #### [Print VAT Summary Information on Documents](LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md)  
 #### [Special Data Output and Reports for the Tax Authority](LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md)
+### Electronic Invoicing
+#### [Electronic Invoicing Requirement: Issuing Single Copy Invoice](LocalFunctionality/Iceland/electronic-invoicing-requirement-issuing-single-copy-invoice.md)
 ### General  
 #### [Map IRS Numbers to the Chart of Accounts](LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts.md)  
 #### [Deleting Posted Invoices and Credit Memos](LocalFunctionality/Iceland/deleting-posted-invoices-and-credit-memos.md)  
@@ -1004,7 +1004,7 @@
 #### [Import Postal Code Updates](LocalFunctionality/Netherlands/how-to-import-post-code-updates.md)
 
 ## [New Zealand](LocalFunctionality/NewZealand/new-zealand-local-functionality.md)  
-### [Tax](LocalFunctionality/NewZealand/tax.md)
+### [VAT & Tax](LocalFunctionality/NewZealand/tax.md)
 #### [Withholding Tax](LocalFunctionality/NewZealand/withholding-tax.md)
 #### [Calculate and Post Withholding Tax Settlements](LocalFunctionality/NewZealand/how-to-calculate-and-post-withholding-tax-settlements.md)
 #### [Set Up Withholding Tax](LocalFunctionality/NewZealand/how-to-set-up-withholding-tax.md)

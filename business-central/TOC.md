@@ -905,7 +905,7 @@
 
 ## [Iceland](LocalFunctionality/Iceland/iceland-local-functionality.md)
 ### Electronic Invoicing
-##### [Electronic Invoicing Requirement: Issuing Single Copy Invoice](LocalFunctionality/Iceland/electronic-invoicing-requirement-issuing-single-copy-invoice.md)
+#### [Electronic Invoicing Requirement: Issuing Single Copy Invoice](LocalFunctionality/Iceland/electronic-invoicing-requirement-issuing-single-copy-invoice.md)
 ### VAT & Tax
 #### [Icelandic Tax Regulations for Conditional Discounts](LocalFunctionality/Iceland/icelandic-tax-regulations-of-conditional-discounts.md)
 #### [Print VAT Summary Information on Documents](LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md)  

@@ -16,11 +16,13 @@
 # Czech Local Functionality
 The following topics describe the local functionality in the Czech version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
-## In This Section  
-[EET](eet.md)  
-[VAT Control Report](vat-control-report.md)
+## Feature Availability
 
+* VAT & Tax
+    * [VAT Control Report](vat-control-report.md) **Available Now**
 
+* Banking & Payments
+    *  [Registration of Sales (EET)](eet.md) **Available Now**
 
 ## See Also
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)   

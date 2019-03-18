@@ -1,6 +1,6 @@
 ---
 title: Assigning and managing tasks| Microsoft Docs
-description: Learn how to assign tasks to users, including your accountant, in Business Central 
+description: Learn how to assign tasks to users, including your accountant, in Business Central
 author: edupont04
 
 ms.service: dynamics365-business-central
@@ -13,7 +13,7 @@ ms.date: 10/01/2018
 ms.author: edupont
 
 ---
-# Defining User Tasks
+# Define User Tasks
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can create tasks to remind you of work to be done. You can create tasks for yourself, but you can also assign tasks to others or be assigned a task by someone else in your organization.  
 
 ## Managing User Tasks

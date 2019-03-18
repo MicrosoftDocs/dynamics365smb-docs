@@ -41,9 +41,9 @@ If you will make intercompany sales transactions that include resources, you mus
 ## To set up intercompany charts of accounts
 In order for a group of companies to make intercompany transactions, they must agree on a chart of accounts to use as a common reference. You must agree with your partner companies on the account numbers that all of you will use when you create intercompany transactions. For example, the parent company of the group creates a simplified version of their own chart of accounts, exports this intercompany chart of accounts from their database into an XML file and distributes it to each of the companies in the group.  
 
-If your company is the parent company and has the defining intercompany chart of accounts that your group will use as a common reference, follow the "To set up the intercompany chart of accounts" procedure.  
+If your company is the parent company and has the defining intercompany chart of accounts that your group will use as a common reference, follow the [To set up the defining intercompany chart of accounts](intercompany-how-setup.md#to-set-up-the-defining-intercompany-chart-of-accounts) procedure.  
 
-If your company is a subsidiary company and you receive an XML file containing the common intercompany chart of accounts, follow the ""To Import the intercompany chart of accounts"" procedure.  
+If your company is a subsidiary company and you receive an XML file containing the common intercompany chart of accounts, follow the [To Import the intercompany chart of accounts](intercompany-how-setup.md#to-import-the-intercompany-chart-of-accounts) procedure.  
 
 ### To set up the defining intercompany chart of accounts
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Chart of Accounts**, and then choose the related link.
@@ -80,14 +80,14 @@ Then, when you enter a general ledger account in the **Bal. Account No.** field 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
 2. On the line for a G/L account that is used for intercompany transactions, in the **Default IC Partner G/L Account** field, enter the intercompany general ledger account that your partner will post to when you post to the general ledger account on the line.  
-3. Repeat step 3 for each account that you often enter in the **Bal. Account No.** field on a line in an intercompany journal or document.
+3. Repeat step 2 for each account that you often enter in the **Bal. Account No.** field on a line in an intercompany journal or document.
 
 ## To set up intercompany dimensions
 If you and your intercompany partners want to be able to exchange transactions with dimensions linked to them, then you must agree on the dimensions that all of you will use. For example, the parent company of the group creates a simplified version of their own set of dimensions, exports these intercompany dimensions into an XML file and distributes it to each of the companies in the group. Each of the subsidiaries then imports the XML file into the **Intercompany Dimensions** page and maps the intercompany dimensions to the dimensions in their own **Dimensions** page.  
 
-If your company is the parent company and has the defining set of intercompany dimensions that your group will use as a common reference, follow the "To define the intercompany dimensions" procedure.
+If your company is the parent company and has the defining set of intercompany dimensions that your group will use as a common reference, follow the [To define the intercompany dimensions](intercompany-how-setup.md#to-define-the-intercompany-dimensions) procedure.
 
-If your company is a subsidiary company and you receive an XML file containing the intercompany dimensions that your group will use as a common reference, follow the "To import intercompany dimensions" procedure.
+If your company is a subsidiary company and you receive an XML file containing the intercompany dimensions that your group will use as a common reference, follow the [To import intercompany dimensions](intercompany-how-setup.md#to-import-the-intercompany-dimensions) procedure.
 
 ### To define the intercompany dimensions
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Dimensions**, and then choose the related link.  

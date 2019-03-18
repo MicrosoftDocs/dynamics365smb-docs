@@ -43,11 +43,11 @@ If you've sent an invoice to a customer, you can cancel the invoice, but you can
 Not yet.  
 
 ## Who has access to [!INCLUDE[d365inv](includes/d365inv.md)]?
-To get access to [!INCLUDE[d365inv](includes/d365inv.md)], you must have an [Office 365 Business Premium subscription](https://products.office.com/en-us/business/office-365-business-premium).  
+To get access to [!INCLUDE[d365inv](includes/d365inv.md)] you must sign up for an [Office 365 Business Premium subscription](https://products.office.com/en-us/business/office-365-business-premium). The person who signs up becomes what's called a "global administrator" for the subscription and can access all apps and manage settings and business information. This includes managing other people's access to the apps. Invoicing is part of the Microsoft 365 Business license. 
 
-However, small businesses often deal with sensitive customer information like credit card numbers, social security numbers, or health records. In the tech world, this is called personally identifiable information, or PII for short. It’s the job of the business owner to protect this information. One way you can protect PII is to control which of your employees has access. If you choose not to give access to [!INCLUDE[d365inv](includes/d365inv.md)] to your employees, they can't use it. Any user in your business who is a global admin already has access to [!INCLUDE[d365inv](includes/d365inv.md)].  
+However, small businesses often deal with sensitive customer information like credit card numbers, social security numbers, or health records. In the tech world, this is called personally identifiable information, or PII for short. It’s the job of the business owner to protect this information. One way you can protect PII is to control which of your employees has access. If you choose not to give access to [!INCLUDE[d365inv](includes/d365inv.md)] to one or more employees, you can deselect the license for them and they won't be able to access the app.   
 
-Go to Office 365 Admin center > Settings > Services & add-ins > Business apps, and then add employees to [!INCLUDE[d365inv](includes/d365inv.md)].  
+To turn licenses on or off for users, from your Microsoft Office Home page, choose the **Admin** tile to open the Office 365 admin center. Then choose **Active users**, choose one or more users, and then choose **Edit** next to **Product licenses**. Now select or deselect the licenses for the products for the user.  
 
 ## Can I cancel my subscription?
 Yes, you can remove [!INCLUDE[d365inv](includes/d365inv.md)] from your Office 365 subscription. But you can also choose to simply not use [!INCLUDE[d365inv](includes/d365inv.md)].  

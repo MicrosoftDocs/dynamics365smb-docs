@@ -26,7 +26,7 @@ The following topics describe local functionality that is unique to the French v
 * Banking & Payments
     * [Set Up Payment Addresses](how-to-set-up-payment-addresses.md) **Available Now**
     * [Set Up Payment Statuses](how-to-set-up-payment-statuses.md) **Available Now**
-    * [Set Up {Payment Steps}](how-to-set-up-payment-steps.md) **Available Now**
+    * [Set Up Payment Steps](how-to-set-up-payment-steps.md) **Available Now**
     * [Archive Payment Slips](how-to-archive-payment-slips.md) **Available Now**
     * [Create Payment Slips](how-to-create-payment-slips.md) **Available Now**
     * [Export Payments](how-to-export-payments.md) **Available Now**

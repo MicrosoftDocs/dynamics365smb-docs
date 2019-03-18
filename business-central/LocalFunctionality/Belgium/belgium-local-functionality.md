@@ -63,7 +63,7 @@ The following topics describe local functionality that is unique to the Belgian 
 
 * Core Finance
     * [Apply and Unapply General Ledger Entries](how-to-apply-and-unapply-general-ledger-entries.md) **Available Now**
-    * [Create Financial Journals](how-to-create-financial-journals.md) **Available Now*
+    * [Create Financial Journals](how-to-create-financial-journals.md) **Available Now**
     * [Export to Accon](how-to-export-to-accon.md) **Available Now**
 
 * General

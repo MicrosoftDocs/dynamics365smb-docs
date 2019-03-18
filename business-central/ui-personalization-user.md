@@ -27,10 +27,11 @@ Depending on the type of page and what it includes, you can do various things, l
 -   Adjust the width of columns in a list.
 -   Move and remove Cues (tiles).
 -   Move and remove parts. Parts are subdivisions or areas on a page that contain things like multiple fields, another page, a chart, or tiles.
-- Make fields only appear when you select **See more**.
-- Make fields appear on the FastTab heading when the FastTab is collapsed.  
--->
-## How to personalize a page
+
+> [!NOTE]
+> In addition to what users can personalize, administrators and super users can override users' personalizations and define which features are accessible in all or specific companies. For more information, see [Customizing Business Central](ui-customizing-overview.md).
+
+## To personalize a page
 
 1. In the upper-right corner, select the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, and then **Personalize**.
 
@@ -48,7 +49,7 @@ Depending on the type of page and what it includes, you can do various things, l
     -   If the component is a part, the extent of the part is indicated by a border.
     -   The freeze pane in a list is indicated by a vertical line along the entire right-side of the last column of the freeze pane.
     -->
-<!-- 
+<!--
 4.  Use this table to help make changes:
         <table>
         <tr><th>What do you want to do</td><th>How to do it</th></tr>

@@ -23,7 +23,7 @@ To support just-in-time inventory and the ability to customize products to custo
 
 Special functionality exists to govern the shipping of assemble-to-order quantities, both in basic and in advanced warehouse configurations. When workers in charge of assembly finish assembling parts or all of the assemble-to-order quantity, they record it in the **Qty. to Ship** field on the warehouse shipment line, in advanced configurations, and then choose **Post Shipment**. The result is that the corresponding assembly output is posted, including the related component consumption, and a sales shipment for the quantity is posted for the linked sales order. This walkthrough illustrates the advanced warehouse process.  
 
-In basic warehouse configurations, when an assemble-to-order quantity is ready to be shipped, the warehouse worker in charge posts an inventory pick for the sales order lines. This creates an inventory movement for the components, posts the assembly output, and the sales order shipment. For more information, see the “Handling Assemble-to-Order Items in Inventory Picks” section in Inventory Pick.  
+In basic warehouse configurations, when an assemble-to-order quantity is ready to be shipped, the warehouse worker in charge posts an inventory pick for the sales order lines. This creates an inventory movement for the components, posts the assembly output, and the sales order shipment. For more information, see [Handling Assemble-to-Order Items in Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).  
 
 ## About This Walkthrough  
 This walkthrough demonstrates the following tasks:  
@@ -102,7 +102,7 @@ Remove the default lead time for internal processes by following these steps:
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Manufacturing Setup**, and then choose the related link.  
 2.  On the **Manufacturing Setup** page, on the **Planning** FastTab, remove the value in the **Default Safety Lead Time** field.  
 
-Create inventory for assembly components by following the "Prepare Sample Data" section in this walkthrough.  
+Create inventory for assembly components by following [Prepare Sample Data](walkthrough-selling-assembling-and-shipping-kits.md#setting-up-the-sample-data).  
 
 ## Story  
 On January 23, Susan, the sales order processor takes an order from The Device Shop for three units of Kit B, which is an ATO item. All three units are customized and must contain the strong graphics card and an extra RAM block. The disc drives are upgraded to DWD because the CD drives are unavailable. Susan knows that the units can be assembled immediately, so she leaves the suggested shipment date of January 23.  
@@ -131,7 +131,7 @@ Sammy packs the ten ATS units with the five ATO units that Linda assembled earli
 
 When the sales order is later posted as fully invoiced, the sales order and the linked assembly orders are removed.  
 
-## Setting Up the Sample Data  
+## Prepare Sample Data  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Whse. Item Journals**, and then choose the related link.  
 2.  Choose the **Batch Name** field, and then select the default journal.  

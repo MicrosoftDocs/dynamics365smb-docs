@@ -15,7 +15,7 @@ ms.author: bmeier
 
 ---
 
-# Your Access to the Intelligent Cloud with [!INCLUDE[prodlong](includes/prodlong.md)]
+# Your Access to the Intelligent Cloud with [!INCLUDE[prodshort](includes/prodshort.md)]
 
 As a user of [!INCLUDE[prodshort](includes/prodshort.md)] online, you have full access to scenarios that are based on the intelligent cloud, such as editing data in Excel and pushing changes back to [!INCLUDE[prodshort](includes/prodshort.md)], or when you view your data in Power BI. However, while [!INCLUDE[prodshort](includes/prodshort.md)] is a cloud-first service, also those customers who need to run their workloads fully on-premises or on the intelligent edge connected to the cloud can do so.  
 

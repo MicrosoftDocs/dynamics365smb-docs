@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# Walkthrough: Tracing Serial-Lot Numbers
+# Walkthrough: Tracing Serial/Lot Numbers
 
 **Note**: This walkthrough must be performed on a demonstration company with the **Full Evaluation - Complete Sample Data** option, which is available in the Sandbox environment. For more information, see [Creating a Sandbox Environment](across-how-create-sandbox-environment.md).
 
@@ -46,7 +46,7 @@ This walkthrough demonstrates tasks that are performed by the following user rol
 To complete this walkthrough, you will need:  
 
 -   The [!INCLUDE[d365fin](includes/d365fin_md.md)] company.  
--   To create new items and several business transactions by following the "Prepare Sample Data" section, later in this walkthrough.  
+-   To create new items and several business transactions by following the [Prepare Sample Data](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data)..  
 
 ## Story  
 Ricardo, the quality controller, is acting on a sales return of item 1002, Racing Bike. The customer, Selangorian Ltd., complained that the frame has cracked welding seams. Quality control engineers have confirmed that the racing frame of the returned bike is defective. The quality controller must now determine:  

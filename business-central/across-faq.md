@@ -84,6 +84,9 @@ This is a bit complicated, but it looks like your administrator didn't change yo
 ## Can I cancel my subscription?
 Yes, but depending on how you signed up to [!INCLUDE[d365fin](includes/d365fin_md.md)], your data can be deleted or preserved. For more information, see [Canceling [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md).  
 
+## Can I use multi-factor authentication?
+Sure. If you do, you might need an app password in order to send email messages. App passwords give an app or a device access to your email account. The steps for getting an app password vary, depending on your email provider. For more information, see the help from your provider. For example, if you're using Outlook, see [Create an app password for Office 365](https://go.microsoft.com/fwlink/?linkid=2082543).
+
 ## See Also
 
 [Getting Started](product-get-started.md)  

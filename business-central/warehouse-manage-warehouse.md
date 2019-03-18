@@ -24,6 +24,8 @@ In large warehouses, these different handling tasks can be separated by departme
 
 Before you can perform warehouse activities, you must set the system up for the relevant complexity of warehouse processing. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).
 
+The inventory-related tasks of counting, adjusting, and reclassifying items may involve warehouse tasks that must be performed on warehouse entries before they can be synchronized with the related item ledger entries. For more information, see [Count, Adjust, and Reclassify Inventory](inventory-how-count-adjust-reclassify.md).
+
  The following table describes a sequence of tasks, with links to the topics that describe them.   
 
 |**To**|**See**|  
@@ -43,4 +45,3 @@ Before you can perform warehouse activities, you must set the system up for the 
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 

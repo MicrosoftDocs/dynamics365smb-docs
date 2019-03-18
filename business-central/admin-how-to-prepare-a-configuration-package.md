@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 03/01/2019
     ms.author: sgroespe
 
 ---
@@ -32,10 +32,10 @@ Make sure that you are on the RapidStart Services Implementer Role Center. For m
 2. Choose the **New** action.  
 3. On the **General** FastTab, fill in the fields as appropriate. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. To exclude the configuration questionnaires, configuration templates, and configuration worksheet tables from the package, select the **Exclude Configuration Tables** check box. Otherwise, these tables will be added to the list of package tables automatically when you export the package.  
-5. Choose the **Get Tables** action. The **Get Package Tables** batch job window opens.  
-6. Choose the **Select Tables** field. The **Config. Selection** window opens.  
+5. Choose the **Get Tables** action. The **Get Package Tables** batch job page opens.  
+6. Choose the **Select Tables** field. The **Config. Selection** page opens.  
 7. Choose the **Select All** action to add all tables to the package, or select the **Selected** check box for each table in the list that you want to add.
-8. Choose the **OK** button. The count of tables that you have selected is indicated in the **Select Tables** field. Specify additional options, and then choose the **OK** button. [!INCLUDE[d365fin](includes/d365fin_md.md)] tables are added to the lines of the **Config. Package** window.  
+8. Choose the **OK** button. The count of tables that you have selected is indicated in the **Select Tables** field. Specify additional options, and then choose the **OK** button. [!INCLUDE[d365fin](includes/d365fin_md.md)] tables are added to the lines of the **Config. Package** page.  
 
     > [!NOTE]  
     >  You can also do this in the configuration worksheet. Select the tables you want to include in the package, and then choose the **Assign Package** action.
@@ -60,13 +60,13 @@ After you have refined the list of fields to include from a table, you can check
 ### To include a template for application to a table  
 For certain tables, such a table that will contain master data, you can specify a template to apply to the data. The template can include the required fields that you want to apply to all master data and that you never want to vary. For example, you can create a template that can be used with customer data. The template can contain all the required fields, which then enables consistent import of standardized information. Information that cannot be standardized, such as customer name, is then treated when you do an import of customer data.
 
-1. In the **Config. Package Card** window, select a table, and then choose the **Data Template** field. A list of templates based on the table is displayed.
+1. On the **Config. Package Card** page, select a table, and then choose the **Data Template** field. A list of templates based on the table is displayed.
 2. Select a template, and then choose the **OK** button.  
 
 After the package is complete, follow the next procedure to save the package to a file. You can then give the package to a customer or partner to use.
 
 ### To save and export a configuration package  
-- In the **Config. Package Card** window, choose the **Export Package** action.  
+- On the **Config. Package Card** page, choose the **Export Package** action.  
 
 The package is created in a .rapidstart file, which delivers the package contents in a compressed format. Configuration questionnaires, configuration templates, and the configuration worksheet are added to the package automatically unless you specifically decide to exclude them.  
 
@@ -89,7 +89,7 @@ Use the configuration worksheet to gather and categorize the information that yo
 3.  In the **Line Type** field, choose **Group**. In the **Name** field, enter a descriptive name.  
 4.  In the **Line Type** field, choose **Table**. In the **Table ID** field, select the table you want to include in the worksheet.  
 
-You can now assign the tables to specific configuration packages that you have created or plan to create. For more information, see the "To assign a table to a configuration package" section.
+You can now assign the tables to specific configuration packages that you have created or plan to create. For more information, see [To assign a table to a configuration package](admin-how-to-prepare-a-configuration-package.md#to-assign-a-table-to-a-configuration-package).
 
 ## To work with promoted tables  
 1. Select the **Promoted Table** check box to indicate a table that is frequently used during the setup process by a typical customer, for example, the **G/L Account** table. When a table has this designation, a customer will be able to easily filter his worksheet to see just the list of promoted tables that require attention.  
@@ -99,7 +99,7 @@ You can now assign the tables to specific configuration packages that you have c
 After you have defined the tables that you want to treat as part of your configuration, you can easily assign the tables to configuration packages. You can assign a table to one package only. In the following procedure, you assign the package from within configuration worksheet.  
 
 > [!NOTE]  
->  You can also create a package directly, and add tables to it. For more information, see the "To create a configuration package" section.
+>  You can also create a package directly, and add tables to it. For more information, see [To create a configuration package](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.
 2. In the configuration worksheet, select a line or group of lines that you want to assign to a configuration package, and then choose the **Assign Package** action.  
@@ -117,7 +117,7 @@ As you create a configuration package for a solution, you can view and customize
     > [!NOTE]  
     >  Make sure that each table has a page ID assigned to it. For standard [!INCLUDE[d365fin](includes/d365fin_md.md)] tables, this value is automatically filled in. For custom tables, you must provide the ID.
 
-3. Choose the **Database Data** action. The window for the related page opens.
+3. Choose the **Database Data** action. The page for the related page opens.
 4. Review the available information. Modify it as necessary by deleting records that are not relevant or by adding new ones.    
 
 ## To copy data from a test environment to a production environment  
@@ -126,9 +126,9 @@ After you have vetted and tested all your setup information, you can proceed to 
 1. Open and initialize the new company.  
 2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.  
 3. Choose the **Copy Data from the Company** action.  
-4. In the **Copy Company Data** window, choose the **Copy From** field. The **Companies** window opens.  
+4. On the **Copy Company Data** page, choose the **Copy From** field. The **Companies** page opens.  
 5. Select the company from which you want to copy data, and then choose the **OK** button. A list of tables selected on the configuration worksheet opens. Only tables that contain records are included in this list.
-6. Select the tables that you want to copy data from, and then choose the **Copy Data** action. In the **Copy Company Data** window, choose the **OK** button.  
+6. Select the tables that you want to copy data from, and then choose the **Copy Data** action. On the **Copy Company Data** page, choose the **OK** button.  
 
 ## See Also  
 [Gather Customer Setup Values](admin-gather-customer-setup-values.md)  

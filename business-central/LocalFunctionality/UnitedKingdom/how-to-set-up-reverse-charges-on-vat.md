@@ -9,11 +9,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 10/01/2018
+ms.date: 01/07/2019
 ms.author: edupont
 
 ---
-# Set Up Multiple Interest Rates
+# Set Up Reverse Charge VAT
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use reverse charge VAT accounting for a specific range of items to prevent Missing Trader Intercommunity Fund Fraud (MTIC), also known as carousel fraud. This feature is supplemented by the **Reverse Charge Sales List** report. The VAT accounting changes will affect companies trading in electronic goods and integrated circuit devices, such as mobile telephones, microprocessors, and central processing units. These goods will apply to reverse charges.
 
 > [!IMPORTANT]  
@@ -29,7 +29,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use reverse charge
 6.  On the **Reverse Charge** FastTab, fill in the fields as necessary.
 7.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchases & Payables Setup** and then choose the related link.  
 6.  On the **Reverse Charge** FastTab, fill in the fields as necessary.
-9. To set up items subject to reverse charge, select the item, and open the **Item Card** window.  
+9. To set up items subject to reverse charge, select the item, and open the **Item Card** page.  
 10. On the **Invoicing** FastTab, fill in the **Reverse Charge Applies** field.  
 
 ## Reverse Charge Sales List

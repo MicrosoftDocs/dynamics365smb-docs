@@ -35,13 +35,13 @@ Before you create interactions, you must set up interaction templates. For more 
 
 ## To create an interaction on a segment
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Segments**, and then choose the related link.
-2. In the **Segment window**, in the **Interaction** section, fill in the fields to specify which interaction you want to assign to the segment.
+2. In the **Segment page**, in the **Interaction** section, fill in the fields to specify which interaction you want to assign to the segment.
 
-    After you have assigned an interaction to the segment, you can personalize the interaction for each particular contact within the segment, for example, by selecting another interaction template on the lines in the **Segment** window.  
-3. To log the segment and interactions, choose the **Log** action. The **Log Segment** window opens.
-4. If you want to create a new segment containing the same contacts, select the **Create Follow-up Segment** check box. To create a follow-up segment, you must have specified number series for segments in the **Marketing Setup** window.
+    After you have assigned an interaction to the segment, you can personalize the interaction for each particular contact within the segment, for example, by selecting another interaction template on the lines on the **Segment** page.  
+3. To log the segment and interactions, choose the **Log** action. The **Log Segment** page opens.
+4. If you want to create a new segment containing the same contacts, select the **Create Follow-up Segment** check box. To create a follow-up segment, you must have specified number series for segments on the **Marketing Setup** page.
 
-An interaction is recorded for each contact within the segment in the **Interaction Log Entry** table, and the segment is logged. Logged segments can be found in the **Logged Segment** window.
+An interaction is recorded for each contact within the segment in the **Interaction Log Entry** table, and the segment is logged. Logged segments can be found on the **Logged Segment** page.
 
 If you have selected the **Create Follow-up Segment** check box, a new segment is created that contains the same contacts as the segment you have just logged.
 
@@ -49,5 +49,4 @@ If you have selected the **Create Follow-up Segment** check box, a new segment i
 [Recording Interactions](marketing-interactions.md)  
 [Managing Contacts](marketing-contacts.md)  
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
-[Setting Up Relationship Management](marketing-setup-marketing.md)  
 [Working with Business Central](ui-work-product.md)

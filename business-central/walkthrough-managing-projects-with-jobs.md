@@ -80,7 +80,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
     - **Name**: **Tricia**  
     - **Type**: **Person**  
 
-4.  Choose the **Base Unit of Measure** field, and choose the **New** action to open the **Resource Unit of Measure** window. In the **Code** field, select **Hour**. Choose the **OK** button.  
+4.  Choose the **Base Unit of Measure** field, and choose the **New** action to open the **Resource Unit of Measure** page. In the **Code** field, select **Hour**. Choose the **OK** button.  
 5.  On the **Invoicing** FastTab, enter the following information:  
 
     -   **Direct Unit Cost**: **5**  
@@ -96,14 +96,14 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 ### To create a Job Journal batch  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.  
-2.  In the **Job Journal** window, choose the **Batch Name** field. The **Job Journal Batches** window opens.  
+2.  On the **Job Journal** page, choose the **Batch Name** field. The **Job Journal Batches** page opens.  
 3.  Choose the **New** action to create a new line with the following information:  
 
     -   **Name**: **Tricia**  
     -   **Description**: **Tricia**  
     -   **No. Series**: **JJNL-GEN**  
 
-4.  Choose the **OK** button to close all open windows.  
+4.  Choose the **OK** button to close all open pages.  
 
 ## Setting Up a Job  
  In this scenario, CRONUS has won a contract with a customer, Progressive Home Furnishings, to design a conference and dining hall. The customer is based in the United States and the project will require special software. The project manager reaches an agreement with the customer and creates a job that covers the agreement.  
@@ -131,26 +131,26 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 ### To customize pricing  
 
 1.  From the job card, choose the **Resource** action.  
-2.  In the **Job Resource Prices** window, enter the following information:  
+2.  On the **Job Resource Prices** page, enter the following information:  
 
     -   **Code**: **Tricia**  
     -   **Unit Price**: **20**  
 
-3.  Choose the **OK** button to close the window.  
+3.  Choose the **OK** button to close the page.  
 4.  Choose the **Item** action.  
-5.  In the **Job Item Prices** window, enter the following information and customized price:  
+5.  On the **Job Item Prices** page, enter the following information and customized price:  
 
     1.  **Item No.**: **80201 (Graphic Program)**  
     2.  **Unit Price**: **200**  
 
-6.  Choose the **OK** button to close the window.  
+6.  Choose the **OK** button to close the page.  
 7.  Choose the **G/L Account** action.  
-8.  In the **Job G/L Account Prices** window, enter the following information and the cost of travel, for which the customer has agreed to pay cost plus 25 percent:  
+8.  On the **Job G/L Account Prices** page, enter the following information and the cost of travel, for which the customer has agreed to pay cost plus 25 percent:  
 
     1.  **G/L Account**: **8430 (Travel)**  
     2.  **Unit Cost Factor**: **1.25**  
 
-9. Choose the **OK** button to close the window.  
+9. Choose the **OK** button to close the page.  
 
  The final steps in setting up a job are adding the job tasks and the planning lines that are part of each task. The planning lines determine what is invoiced to the customer.  
 
@@ -205,7 +205,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
     -   **Quantity**: **2**  
     -   **Unit Cost**: **400**  
 
-2.  Choose the **OK** button to close the window. The totals are updated in the **Job Task Lines** window.  
+2.  Choose the **OK** button to close the page. The totals are updated on the **Job Task Lines** page.  
 3.  Select line 1020, and then choose the **Job Planning Lines** action. Enter the following information:  
 
      **Line 1**  
@@ -224,7 +224,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
     -   **No.**: **80201 (Graphic program)**  
     -   **Quantity**: **1**  
 
-4.  Choose the **OK** button to close the window. Totals are updated in the **Job Task Lines** window.  
+4.  Choose the **OK** button to close the page. Totals are updated on the **Job Task Lines** page.  
 
 ## Calculating Remaining Usage  
  Tricia, the team project member, has been working on the job for a while and wants to register her hours and usage on the job. She has not worked more hours than was agreed upon with the customer in advance. She uses the **Calculate Remaining Usage** batch job to calculate remaining usage for the job in a job journal. For each task, the batch job calculates the difference between scheduled usage of items, resources, and general ledger expenses and the actual usage posted in job ledger entries. The remaining usage is then displayed in the job journal from where she can post it.  
@@ -232,15 +232,15 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 ### To calculate remaining usage  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.  
-2.  In the **Job Journal** window, in the **Batch Name** field, open the **Job Journals Batches** list. Select the **Tricia** job journal batch.  
+2.  On the **Job Journal** page, in the **Batch Name** field, open the **Job Journals Batches** list. Select the **Tricia** job journal batch.  
 3.  Choose the **Calc. Remaining Usage** action.  
-4.  In the **Job Calc. Remaining Usage** window, on the **Job Task** FastTab, choose the **Job No.** field, and select the relevant job number, typically job J00010.  
+4.  On the **Job Calc. Remaining Usage** page, on the **Job Task** FastTab, choose the **Job No.** field, and select the relevant job number, typically job J00010.  
 5.  On the **Options** FastTab, type **J00001** in the **Document No.** field. This makes future tracking of the posting easier.  
 6.  Enter today’s date as the posting date.  
 7.  Choose the **OK** button. This will generate job journal lines derived from the planning lines that Prakash created for the job.  
-8.  Choose the **OK** button in the confirmation window. The generated lines are added to the job journal.  
+8.  Choose the **OK** button in the confirmation page. The generated lines are added to the job journal.  
 9. Make sure that all the document numbers are J00001, and then choose the **Post** action. Choose **Yes** to confirm the posting.  
-10. The lines are now posted. Choose the **OK** button to close the windows.  
+10. The lines are now posted. Choose the **OK** button to close the pages.  
 
 ## Creating and Posting a Job Sales Invoice  
  Next, Tricia can create a new invoice for the whole job or for part of a job. She can also attach the invoice to another invoice for the same customer for the same job. In this case, she invoices for the whole job, because the project is now completed.  
@@ -251,7 +251,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 2.  Select the job that you created earlier, and then choose the **Create Job Sales Invoice** action.  
 3.  On the **Job Task** FastTab, clear any filter on **Job Task No.** in order to invoice the job. In the **Job No.** field, select the relevant job.  
 4.  On the **Options** FastTab, fill in the posting date and define whether you want to create one invoice per task or just a single invoice for all tasks.  
-5.  Choose the **OK** button to create the invoice and choose the **OK** button in the confirmation window.  
+5.  Choose the **OK** button to create the invoice and choose the **OK** button in the confirmation page.  
 
  After Tricia creates the invoice, she can access it from **Sales & Marketing** under **Order Processing** and do additional processing.  
 
@@ -265,15 +265,15 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
 1.  Open the job, and then choose the **Job Planning Lines** action.  
 2.  Select any of the planning lines that have been invoiced, and then choose the **Sales Invoice/Credit Memo** action.
-3. In the **Job Invoices** window, choose the **Open Sales Invoice/Credit Memo** action.  
+3. On the **Job Invoices** page, choose the **Open Sales Invoice/Credit Memo** action.  
 
- Tricia has a question about the prices, costs, and profits that are relevant to this particular job, so she accesses that information in the **Statistics** window.  
+ Tricia has a question about the prices, costs, and profits that are relevant to this particular job, so she accesses that information on the **Statistics** page.  
 
-### To open the Statistics window  
+### To open the Statistics page  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
 2.  Choose the **Statistics** action. You can review detailed information about the job prices, costs, and profits in both local and foreign currencies.  
-3.  Choose the **Close** button to close the **Job Statistics** window.  
+3.  Choose the **Close** button to close the **Job Statistics** page.  
 
 ## Handling Fixed Prices  
  CRONUS has been contracted to set up conference rooms. As the project manager, Prakash wants a good overview of the tasks required for the job with the associated budgeted and incurred costs for each task. In addition, he wants to know the total contracted price for the job and the amount that has been invoiced to this point. He has reached an agreement with the customer regarding fixed pricing for the job.  
@@ -286,7 +286,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
      By reviewing the Job Planning lines, Prakash determines that he will also need Tricia for 30 hours for this stage of the project. He agrees on a fixed price with the customer.  
 
-4.  In the **Job Task Lines** window, select line 1120, and then choose the **Job Planning Lines** action.  
+4.  On the **Job Task Lines** page, select line 1120, and then choose the **Job Planning Lines** action.  
 5.  Choose the **New** to create a new line with the following information:  
 
     -   **Line Type**: **Both Schedule and Contract**  
@@ -294,9 +294,9 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
     -   **No.**: **Tricia**  
     -   **Quantity**: **30**  
 
-7.  Choose the **OK** button to close the window.  
-8.  In the **Schedule (Total Cost)** field, right-click the field, and choose **Drilldown** again in the **Job Task Lines** window. View the changes to the schedule. You see that 30 hours have been added to the schedule.  
-9. Choose the **OK** button to close the windows.  
+7.  Choose the **OK** button to close the page.  
+8.  In the **Schedule (Total Cost)** field, right-click the field, and choose **Drilldown** again on the **Job Task Lines** page. View the changes to the schedule. You see that 30 hours have been added to the schedule.  
+9. Choose the **OK** button to close the pages.  
 
  After Tricia has been added to the schedule for this task line, she works 25 hours on the job. She enters these hours into the job journal.  
 
@@ -318,8 +318,8 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
      A few days later, Tricia works for another 10 hours on the job. She has now worked 35 hours in all. Because the agreement is for 30 hours with the customer, only five of these hours will be charged to the customer. Tricia will manually add the additional five hours she worked to the schedule.  
 
-4.  In the **Job Journal** window, choose the **Calc. Remaining Usage** action.  
-5.  In the **Job Calc. Remaining Usage** window, on the **Options** FastTab, enter the following information:  
+4.  On the **Job Journal** page, choose the **Calc. Remaining Usage** action.  
+5.  On the **Job Calc. Remaining Usage** page, on the **Options** FastTab, enter the following information:  
 
     -   **Document No.**: **J00003**  
     -   **Posting Date**: **(today's date)**  
@@ -342,14 +342,14 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
      By using the **Schedule** line type, there are updates to the scheduled costs and prices, but no updates to the contract costs and prices that are invoiced to the customer.  
 
-8.  Choose the **Post** action. Choose the **OK** button to close the window.  
+8.  Choose the **Post** action. Choose the **OK** button to close the page.  
 9. Open the **Jobs** list.  
 10. Select the GUILDFORD job, and then choose the **Job Task Lines** action.  
 11. Select line 1120 and in the **Schedule (Total Cost)** field, right-click the amount. Choose **DrillDown** to view the information.  
 
      Changes are automatically entered on the line for Job Task No. 1120. In the total cost of scheduled work, five additional hours of work by Tricia has been added to the schedule.  
 
-12. Choose the **Close** button to close the window.  
+12. Choose the **Close** button to close the page.  
 13. Right-click the amount in the **Contract (Total Cost)** field and choose **DrillDown** to view the information.  
 
      In the total price for the contract, only the original contracted 30 hours are included, because this is what was agreed upon with the customer.  
@@ -357,7 +357,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 ## Copying Jobs  
  Prakash has reached an agreement with a customer, Selagorian Ltd, to set up 10 conference rooms. The agreement resembles an earlier job. Therefore, it will save time to copy that earlier job.  
 
- In the **Copy Job** window, you can select the job and task lines that you want to copy. You can also select to copy the source job ledger entries, which creates planning lines based on actual usage, or you can copy the source job planning lines, which copies the original planning lines to the new job. You can then choose what planning line or ledger entry line type that you want to include, selecting only what is relevant to this new job. Finally, you can select the job that you want to copy to and define whether prices and quantities should be copied as well.  
+ On the **Copy Job** page, you can select the job and task lines that you want to copy. You can also select to copy the source job ledger entries, which creates planning lines based on actual usage, or you can copy the source job planning lines, which copies the original planning lines to the new job. You can then choose what planning line or ledger entry line type that you want to include, selecting only what is relevant to this new job. Finally, you can select the job that you want to copy to and define whether prices and quantities should be copied as well.  
 
 ### To copy a job  
 
@@ -368,7 +368,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
     -   **Bill-To Customer No.**: **20000**  
 
 3.  Choose the **Copy Job Tasks from** action.  
-4.  In the **Copy Job Tasks** window, enter the following:  
+4.  On the **Copy Job Tasks** page, enter the following:  
 
     -   **Job No.**: **Guildford**  
     -   **Job Task No. From**: **1000**  
@@ -377,7 +377,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
     -   **To Job No.**: **GuildfordSetting up 10 Conference Rooms**  
     -   Select the **Copy Dimensions** and **Copy Quantity** fields.  
 
-5.  Choose the **OK** button to copy the job and then choose the **OK** button to close the confirmation window.  
+5.  Choose the **OK** button to copy the job and then choose the **OK** button to close the confirmation page.  
 
      By comparing prices, job task lines, and job planning lines for the two jobs, you can see that the information was successfully copied.  
 
@@ -387,14 +387,14 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 ### To set up a new account  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
-2.  In the **Chart of Accounts** window, choose the **New** action to create a new card.  
+2.  On the **Chart of Accounts** page, choose the **New** action to create a new card.  
 3.  On the **New G/L Account** card, enter the following information:  
 
     -   **No.**: **6630**  
     -   **Name**: **Job Payment**  
 
-4.  On the **Posting** FastTab, in the **Gen. Prod. Posting Group** field, select **MISC**. Choose the **OK** button to close the window.  
-5.  In the **Chart of Accounts** window, select **No. 6630 Job Payment**, and then choose the **Indent Chart of Accounts** action. Choose **Yes** to confirm.  
+4.  On the **Posting** FastTab, in the **Gen. Prod. Posting Group** field, select **MISC**. Choose the **OK** button to close the page.  
+5.  On the **Chart of Accounts** page, select **No. 6630 Job Payment**, and then choose the **Indent Chart of Accounts** action. Choose **Yes** to confirm.  
 
  The following procedures show how to create a new job, set pricing, and then set up payment by installment. In the job task lines, you can create specific lines dedicated to the payment by installments. All work completed on the job that is added to the schedule will be entered on the usage lines. For each payment task line on the planning lines, the line type is Contract, which means that the customer will be invoiced. Enter a new line for the down payment. On the usage task line, you can enter the information for the items and resources that have been used in this project, which will increase the schedule, such as employee hours and items used on the job.  
 
@@ -413,7 +413,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
     -   **Code**: **Tricia**  
     -   **Unit Price**: **10**  
 
-     Choose the **OK** button to close the window.  
+     Choose the **OK** button to close the page.  
 
 4.  On the **Job** card, choose the **Job Task Lines** action.  
 
@@ -426,7 +426,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
     |3|3000|Payment - Midway|Posting|  
     |4|4000|Payment - Completion|Posting|  
 
-5.  In the **Job Task Lines** window, select task 1000, and then choose the **Job Planning Lines** action.  
+5.  On the **Job Task Lines** page, select task 1000, and then choose the **Job Planning Lines** action.  
 6.  Create a planning line with the following information:  
 
     -   **Line Type**: **Contract**  
@@ -436,9 +436,9 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
     -   **Quantity**: **1**  
     -   **Unit Price**: **5000**  
 
-     Choose the **OK** button to close the window.  
+     Choose the **OK** button to close the page.  
 
-7.  In the **Job Task Lines** window, select **task 2000**, and open its **Job Planning Lines**.  
+7.  On the **Job Task Lines** page, select **task 2000**, and open its **Job Planning Lines**.  
 
      The following table describes the planning lines that you will create.  
 
@@ -447,9 +447,9 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
     |1|Schedule|(today’s date)|Resource|Tricia|120|  
     |2|Schedule|(today’s date)|Item|70104|10|  
 
-     Choose the **OK** button to close the window. In the **Job Task Lines** window, you can see the schedule amounts have been updated.  
+     Choose the **OK** button to close the page. On the **Job Task Lines** page, you can see the schedule amounts have been updated.  
 
-8.  In the **Job Task Lines** window, select **task 3000**.  
+8.  On the **Job Task Lines** page, select **task 3000**.  
 9. Create a planning line with the following information:  
 
     -   **Line Type**: **Contract**  
@@ -459,7 +459,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
     -   **Quantity**: **1**  
     -   **Unit Price**: **5000**  
 
-     Choose the **OK** button to close the window.  
+     Choose the **OK** button to close the page.  
 
 10. Create a similar planning line entry for job task 4000.  
 
@@ -467,8 +467,8 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
 
 ### To create an invoice  
 
-1.  In the **Job Task Lines** window, select line 1000, and then choose the **Create Sales Invoice** action.  
-2.  In the **Create Sales Invoice** window, set today’s date as the posting date, specify **Per Task**, and choose the **OK** button to create an invoice with the default information. Choose the **OK** button to close the confirmation window.  
+1.  On the **Job Task Lines** page, select line 1000, and then choose the **Create Sales Invoice** action.  
+2.  On the **Create Sales Invoice** page, set today’s date as the posting date, specify **Per Task**, and choose the **OK** button to create an invoice with the default information. Choose the **OK** button to close the confirmation page.  
 3.  Choose the **Sales Invoice/Credit Memo** action. On the sales invoice, you can see that only the down payment is included in the invoice. You can now send this to the customer as agreed.  
 
 ## Next Steps  

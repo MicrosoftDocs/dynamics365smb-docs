@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 01/22/2019
     ms.author: sgroespe
 
 ---
@@ -23,9 +23,9 @@ If you decide to organize and record your picking activity with warehouse docume
 > [!NOTE]
 > Even though the setting is called **Require Pick**, you can still post shipments directly from the source business document at location where you select this check box.
 
-If your location is set up to require pick processing but not shipment processing, you use the **Inventory Pick** window to organize the picking information, print the picking information, enter the result of the pick, and post the picking information, which in turn posts the shipment of the items. In the case of picking components for a production order, the posting of the pick also posts the consumption.
+If your location is set up to require pick processing but not shipment processing, you use the **Inventory Pick** page to organize the picking information, print the picking information, enter the result of the pick, and post the picking information, which in turn posts the shipment of the items. In the case of picking components for a production order, the posting of the pick also posts the consumption.
 
-If your location is set up to require both pick and shipment processing, so that you have placed check marks in both the **Require Pick** and **Require Shipment** field on the location card, you use the **Warehouse Pick** window to handle the pick. The warehouse pick functions similarly to the inventory pick, except that instead of posting the picking information, you register the pick. This registering process does not post the shipment, but merely makes the items available for shipment. As a warehouse manager, you can use a pick worksheets to organize pick information before creating the individual warehouse pick instructions.
+If your location is set up to require both pick and shipment processing, so that you have placed check marks in both the **Require Pick** and **Require Shipment** field on the location card, you use the **Warehouse Pick** page to handle the pick. The warehouse pick functions similarly to the inventory pick, except that instead of posting the picking information, you register the pick. This registering process does not post the shipment, but merely makes the items available for shipment. As a warehouse manager, you can use a pick worksheets to organize pick information before creating the individual warehouse pick instructions.
 
 The following table describes a sequence of tasks, with links to the topics that describe them.   
 
@@ -34,7 +34,8 @@ The following table describes a sequence of tasks, with links to the topics that
 |Post the shipment of items directly in the outbound order document because no warehouse features exist. (Works the same for sales orders, outbound transfer orders, and return shipments.)|[Ship Items](warehouse-how-ship-items.md)|  
 |Pick items order by order and post the shipment in the same activity, in a basic warehouse configuration.|[Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md)|
 |Pick items for multiple orders in an advanced warehouse configuration.|[Pick Items with Warehouse Picks](warehouse-how-to-pick-items-for-warehouse-shipment.md)|  
-|Pick components for production or assembly in a basic or an advanced warehouse configuration.|[Pick for Production or Assembly](warehouse-how-to-pick-for-production.md)|  
+|Pick components for production or assembly in a basic warehouse configuration.|[Pick for Production or Assembly in Basic Warehouse Configurations](warehouse-how-to-pick-for-production.md)|
+|Pick components for production or assembly in an advanced warehouse configuration.|[Pick for Production or Assembly in Advanced Warehouse Configurations](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)|  
 |Plan optimized pick instructions for a number of shipments rather than have warehouse workers act directly on posted shipments.|[Plan Picks in Worksheets](warehouse-how-to-plan-picks-in-worksheets.md)|  
 |Pick items technically for a special purpose, such as a production unit in need of extra components, in such a way that the items do not technically leave the warehouse.|[Pick and Put Away Without a Source Document](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
 |Understand how to automatically pick items according to their expiration date, for example perishable goods.|[Picking By FEFO](warehouse-picking-by-fefo.md)|

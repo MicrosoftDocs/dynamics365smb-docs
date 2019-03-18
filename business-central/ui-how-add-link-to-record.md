@@ -12,7 +12,7 @@
     ms.date: 10/01/2018
     ms.author: jswymer
 ---
-# Adding Links to Websites, Documents, or Programs on Records
+# Add Links to Websites, Documents, or Programs on Records
 On a specific record, such as a customer, document, or sales order, you can add a link to an external document, website, or program. Or, you may want a link that opens a new empty email to a specific recipient when you select it. The card page for some records, such as customer and vendor cards, include a **Home Page** field where you can enter an Internet address (URL). To include other links, you can use the method described in this article.
 
 Another example could be when you receive printed invoices from vendors. You can scan them and store them as .pdf files on a SharePoint site. Then you can make a link from a purchase invoice in [!INCLUDE[d365fin_md](includes/d365fin_md.md)] to the corresponding invoice on  SharePoint. Or, you can make a link from an item card to the corresponding page in your vendor's online catalog.
@@ -21,7 +21,7 @@ Another example could be when you receive printed invoices from vendors. You can
 
 1.  Open the record that you want to attach the link to, such as a customer card or sales order. If you want to attach the link to a specific line, such as a journal line, select the line.  
 
-2.  Choose the **Links** action to open the **Links** windows that shows all the current links that are added to the record.
+2.  Choose the **Links** action to open the **Links** pages that shows all the current links that are added to the record.
 
 3. To add a new link, choose **+new**.
 
@@ -38,7 +38,7 @@ Another example could be when you receive printed invoices from vendors. You can
 
 ## To delete a link from a record  
 
-To delete a link, in the **Links** window, you can select **...** and then **Delete**.
+To delete a link, on the **Links** page, you can select **...** and then **Delete**.
 
 If you delete a single record, such as a sales order line, a sales order, or a customer, then all the links attached to the record are deleted. However, if you delete records using a batch job, such as the **Delete Invoiced Sales Orders** batch job, then the links are still stored in the database. To delete the links from the database, run the **Delete Orphaned Record Links** codeunit. To do this, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete Orphaned Record Links**, and then choose the related link.   
 
@@ -46,7 +46,7 @@ If you delete a single record, such as a sales order line, a sales order, or a c
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Deletion**, and then choose the related link.  
 
-2.  In the **Data Deletion** window, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  -->
+2.  On the **Data Deletion** page, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  -->
 
 ## See Also  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

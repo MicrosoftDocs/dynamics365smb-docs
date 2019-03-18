@@ -19,7 +19,7 @@ You can use the **Balance Sheet** report to view the company’s balance sheet. 
   
 ## To print a balance sheet report    
 1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Balance Sheet**, and then choose the relevant link.  
-2. In the **Balance Sheet** window, on the **Options** FastTab, fill in the fields as described in the following table.  
+2. On the **Balance Sheet** page, on the **Options** FastTab, fill in the fields as described in the following table.  
   
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

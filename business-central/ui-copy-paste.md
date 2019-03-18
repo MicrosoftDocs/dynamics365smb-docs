@@ -12,7 +12,7 @@ ms.date: 10/01/2018
 ms.author: jswymer
 ---
 
-# Copying and Pasting in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# Copying and Pasting
 You can copy one or more rows from a list or a single field on a page, and then paste what you copied into the same page, another page, or an external document (like Microsoft Excel and Outlook email). In short, to copy, you press CTRL+C (cmd+C in macOS) on your keyboard. To paste, you press CTRL+V (cmd+V in macOS).
 
 There are several other keyboard shortcuts for copying and pasting that help you save time when entering data. For more information about these, see [Keyboard Shortcuts](keyboard-shortcuts.md#CopyRows).
@@ -57,7 +57,7 @@ You can copy as many rows as you have scrolled into view. For example, to copy a
 ## Must I have the exact same number of columns when pasting rows?
 Yes. Whether you are copying from [!INCLUDE[d365fin](includes/d365fin_md.md)], from Excel, or from some other table source, the rows that you paste must have the exact matching columns - no more no less.
 
-## Why do I get errors when pasting rows? 
+## Why do I get errors when pasting rows?
 When pasting into [!INCLUDE[d365fin](includes/d365fin_md.md)], each row is checked to make sure that values in each column are valid. If a column contains a value that is not valid, the pasting is stopped, and an error message is displayed. To avoid this, make sure that the columns have valid values before you paste them.
 
 

@@ -13,6 +13,7 @@
     ms.search.keywords:
     ms.date: 10/01/2018
     ms.author: sgroespe
+    redirect_url: admin-how-to-create-custom-company-configuration-packages
 
 ---
 # Review and Customize Existing Database Data
@@ -27,7 +28,7 @@ As you create a configuration package for a solution, you can view and customize
 
 2.  On the **Actions** tab, in the **Show** group, choose **Database Data**.  
 
-     The [!INCLUDE[d365fin](includes/d365fin_md.md)] window for the page opens.  
+     The [!INCLUDE[d365fin](includes/d365fin_md.md)] page for the page opens.  
 
 3.  Review the available information. Modify it as necessary by deleting records that are not relevant or by adding new ones.  
 

@@ -13,15 +13,15 @@ ms.author: edupont
 
 ---
 # Create a product or service in [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
-
 Products are the basis of your business, the goods or services that you trade in. Each product must be registered as an item in the Prices list. An item holds the information that is required to buy, store, sell, deliver, and account for products you sell.  
 
-## To create a product or service
+> [!VIDEO https://www.youtube.com/embed/A_eCrHibuGU]
 
+## To create a product or service
 1. In [!INCLUDE[d365inv](includes/d365inv.md)], on the Home page, choose **Prices**.  
-2. Choose **New** in the upper right corner of the page  to add a new item to the **Prices** list.  
+2. Choose **New** in the upper right corner of the page to add a new item to the **Prices** list.  
 3. Enter a descriptive name, which will make it easier for you to find the item again, and enter a price. Check the **Add sales tax** box if appropriate.  
-4. Click the arrow next to the **Price is per** box to choose a unit. On the **Select a unit** page, select the unit you want, and then click OK.  
+4. Click the arrow next to the **Price is per** box to choose a unit. On the **Select a unit** page, select the unit you want, and then click **OK**.  
 
     You can also add new units:  
 
@@ -30,11 +30,10 @@ Products are the basis of your business, the goods or services that you trade in
 
         You can add or delete rows, or edit the existing values. For example, you can enter code = 16 oz. and a description = Large cup.  
 
-    3. Click OK when you're done editing the list.
+    3. Click **OK** when you're done editing the list.
 
-Choose X to close the window (data is saved continuously).
+5. Choose **X** to close the page (no need to save anything because data is saved continuously).
 
 ## See also
-
 [Send an invoice to a new customer](send-invoice.md)  
 [Troubleshooting](about-troubleshooting.md)  

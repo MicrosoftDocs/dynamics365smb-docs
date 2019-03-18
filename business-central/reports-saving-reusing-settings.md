@@ -18,7 +18,7 @@ When running a reports, users are typically presented with a page that lets them
 
 If you have the proper permissions, you can view, create, and modify the saved settings for all reports for all users in company. You can assign saved settings for a report to individual users or all users in the company.
 
-<!-- 
+<!--
 ## Apply saved settings to a report
 1. Open the report.
 
@@ -36,7 +36,7 @@ You manage saved settings from page **1560 Reports Settings**. There are two way
 
 The page displays all the existing save settings entries for all users. If there is a user name in the **Assigned to** column, only that user can use the saved settings for the associated report. If there is a check mark in the **Share with all users** column, all users can use the saved settings for the report.
 
-From the **Report Settings** window, you can:
+From the **Report Settings** page, you can:
 -   Choose **New** to create a new saved settings entry from scratch.
 -   Select a saved settings entry from the list, and choose **Copy** to create a copy.
 -   Select a saved settings entry from the list, and choose **Edit** to modify a saved settings entry.
@@ -49,4 +49,4 @@ From the **Report Settings** window, you can:
 > The saved settings feature is available only on reports where the [SaveValues property](https://docs.microsoft.com/en-us/dynamics-nav/savevalues-property) of the report's request page is set to `Yes`. The **SaveValues** property is set in the development environment.  
 
 ## See Also
-[Working with Reports](ui-work-report.md)  
+[Working with Reports and Batch Jobs](ui-work-report.md)  

@@ -11,19 +11,23 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 02/14/2018
     ms.author: sgroespe
 
 ---
 # Archive Documents
-You can archive sales and purchase orders, quotes, return orders, and blanket orders, and you can use the archived document to recreate the document that it was archived from.
+You can archive sales and purchase orders, quotes, return orders, and blanket orders, for example because you want to save a copy of a document for reuse later. You can archive a sales or purchase document several times, saving a different archived version each time.
+
+For archived documents where the original still exists and is not posted, you can use the **Restore** function to overwrite the original with the archived version of the document. This is practical if you need to restore the contents of a document to an earlier state.
+
+For archived documents where the original is deleted, you can only reuse the content by copying the data, for example with the **Copy Document** function.   
 
 ## To set up automatic document archiving  
 You can set up automatic archiving of sales and purchase orders, quotes, blanket orders, and return orders, before you delete documents.
 
 The following procedure describes how to set up automatic archiving of sales documents. The steps are similar for purchase documents.
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.
-2. In the **Sales & Receivables Setup** window, fill in the fields as follows.
+2. On the **Sales & Receivables Setup** page, fill in the fields as follows.
 
 |Field|Description|
 |-----|-----------|
@@ -38,21 +42,21 @@ The following procedure describes how to archive a sales order. The steps are si
 2.  Open a sales order that you want to archive.  
 3.  Choose the **Archive Document** action.
 
-The sales order is archived. You can view it in the **Archived Sales orders** window. From here, you can also use it to recreate the sales order that it was archived from.
+The sales order is archived. You can view it on the **Archived Sales orders** page.
 
-## To recreate a sales order from the archive
-The following procedure describes how to recreate a sales order. The steps are similar for all orders, blanket orders, return orders, and quotes.
+## To restore a non-posted sales order from the archive
+The following procedure describes how to bring the contents of an archived sales order back to the original sales order. This is only possible when the original document has not been posted. The steps are similar for all orders, blanket orders, return orders, and quotes.
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Archived Sales Orders**, and then choose the related link.
-2.  Select the archived sales order that you want to recreate, and then choose the **Restore** action.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Archived Sales Orders**, and then choose the related link.
+2. Select the archived sales order, or version of it, that you want to restore, and then choose the **Restore** action.  
 
-The sales order is created and added to the **Sales Orders** window.
+The contents of the original sales order is replaced with that of the selected archived version.
 
 ## To delete archived sales orders
 The following procedure describes how to delete archived sales orders. The steps are similar for other archived sales and purchase documents.
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete Archived Sales Order Versions**, and then choose the related link.  
-2.  In the **Delete Archived Sales Order Versions** window, select the appropriate filters.  
+2.  On the **Delete Archived Sales Order Versions** page, select the appropriate filters.  
 3.  Choose the **OK** button.
 
 ## See Also

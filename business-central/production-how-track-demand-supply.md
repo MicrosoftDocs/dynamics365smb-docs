@@ -11,14 +11,14 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 03/01/2019
     ms.author: sgroespe
 
 ---
 # Track Relations Between Demand and Supply
 From any supply or demand document in the so-called order network, you can track the order demand (tracked quantity), forecast, blanket sales order, or planning parameter (untracked quantity) that has given rise to the planning line in question.
 
-The planning worksheets also offers supporting planning information about non-order entities to help the planner obtain an optimal supply plan. For more information, see the "Untracked Planning Elements" section.
+The planning worksheets also offers supporting planning information about non-order entities to help the planner obtain an optimal supply plan. For more information, see [Untracked Planning Elements](production-how-track-demand-supply.md#untracked-planning-elements).
 
 ## To track linked items
 Order tracking shows how sales orders, production orders, and purchase orders are related to the manufacturing order through the planning and reservation systems.
@@ -32,12 +32,12 @@ The following describes how to track linked items on a firm planned production o
 The lines in the **Order Tracking** display the documents that are related to the current production order line.
 
 ## Untracked Planning Elements
-The **Untracked Planning Elements** window opens when you choose the **Untracked Qty.** field in the **order Planning** window. It serves two purposes:
+The **Untracked Planning Elements** page opens when you choose the **Untracked Qty.** field on the **order Planning** page. It serves two purposes:
 
-1. To hold information about untracked quantities displayed when the user looks up from the Order Tracking window to see untracked quantities.
-2. To hold warning messages displayed when the user chooses the **Warning** icon in the **Planning Worksheet** window.
+1. To hold information about untracked quantities displayed when the user looks up from the Order Tracking page to see untracked quantities.
+2. To hold warning messages displayed when the user chooses the **Warning** icon on the **Planning Worksheet** page.
 
-The window contains entries which account for an untracked surplus quantity in order tracking network. These entries are generated during the planning run and explain where the untracked surplus quantity in the order tracking lines came from. This untracked surplus can come from:
+The page contains entries which account for an untracked surplus quantity in order tracking network. These entries are generated during the planning run and explain where the untracked surplus quantity in the order tracking lines came from. This untracked surplus can come from:
 
 - Production forecast
 - Blanket orders

@@ -12,6 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
+    redirect_url: how-to-set-up-and-export-sales-vat-advance-notifications.md
     ms.date: 10/01/2018
     ms.author: sgroespe
 
@@ -29,7 +30,7 @@ You must also download components from the ELSTER portal. For more information, 
 ## To set up company information  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.  
-2.  In the **Company Information** window, on the **General** FastTab, in the **VAT Representative** field, enter the contact person for VAT related information.  
+2.  On the **Company Information** page, on the **General** FastTab, in the **VAT Representative** field, enter the contact person for VAT related information.  
 3.  On the **Tax Office** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -53,7 +54,7 @@ You must also download components from the ELSTER portal. For more information, 
 
     For more information about ELSTER certificates, see the [ELSTER online portal](https://go.microsoft.com/fwlink/?LinkId=155998).  
 
-    1.  In the **Certificates** window, in the **User ID** field, specify the user who you want to authorize to submit documents to ELSTER.  
+    1.  On the **Certificates** page, in the **User ID** field, specify the user who you want to authorize to submit documents to ELSTER.  
     2.  Choose the **Upload Elster Certificate** action, and then specify the certificate file, such as Coala2019.pem.cer.  
     3.  Choose **Upload PFX File**, and then specify the personal certificate file for this user, such as test-soft-pse.pfx.  
 
@@ -68,8 +69,8 @@ You must also download components from the ELSTER portal. For more information, 
 ## To set up a VAT statement for sales VAT advance notifications  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Statement**, and then choose the related link.  
-2.  In the **VAT Statement** window, in the **Name** field, choose the drop-down arrow.  
-3.  In the **VAT Statement Names** window, in the line for the appropriate VAT statement name select the **Sales VAT Adv. Notification** field.  
+2.  On the **VAT Statement** page, in the **Name** field, choose the drop-down arrow.  
+3.  On the **VAT Statement Names** page, in the line for the appropriate VAT statement name select the **Sales VAT Adv. Notification** field.  
 
     > [!NOTE]  
     >  Only one VAT statement name can be selected for sales VAT advance notification at one time. The VAT statement must have a VAT statement line for each key figure required by the tax authority, where the **Row No.** field contains the key figure and the **Amount Type** field specifies if this is a base amount or a tax amount. Ask your tax office if you have questions concerning the key figures and their definition.  

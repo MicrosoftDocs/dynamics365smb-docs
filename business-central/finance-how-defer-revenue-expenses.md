@@ -32,12 +32,12 @@ For both types of deferral, select **Balance Sheet** in the **Type** field, and 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Deferral Templates**, and then choose the related link.
 2. Choose the **New** action.
 3. Fill in the fields as necessary.
-4. In the **Calc. Method** field, specify how the **Amount** field for each period in the **Deferral Schedule** window is calculated. You can choose between the following options:
+4. In the **Calc. Method** field, specify how the **Amount** field for each period on the **Deferral Schedule** page is calculated. You can choose between the following options:
 
    * **Straight-Line**: The periodic deferral amounts are calculated according to the number of periods, distributed according to period length.
    * **Equal Per Period**: The periodic deferral amounts are calculated according to the number of periods, distributed evenly on periods.
    * **Days Per Period**: The periodic deferral amounts are calculated according to the number of days in the period.
-   * **User-Defined**: The periodic deferral amounts are not calculated. You must manually fill the **Amount** field for each period in the Deferral Schedule window. For more information, see the “To change a deferral schedule from a sales invoice” section.
+   * **User-Defined**: The periodic deferral amounts are not calculated. You must manually fill the **Amount** field for each period in the Deferral Schedule page. For more information, see the “To change a deferral schedule from a sales invoice” section.
 5. In the **Period Desc.** field, specify a description that will be shown on entries for the deferral posting. You can enter the following placeholder codes for typical values, which will be inserted automatically when the period description is displayed.
 
    * %1 = The day number of the period posting date
@@ -63,7 +63,7 @@ Example: The posting date is 02/06/2016. If you enter “Expenses deferred for %
 
     Notice that as soon as you enter the item (or resource or G/L account) on the invoice line, the **Deferral Code** field is filled with the code of the assigned deferral template.
 3. Choose the **Deferral Schedule** action.
-4. In the **Deferral Schedule** window, change settings on the header or values on the lines, for example to defer the amount to an additional accounting period.
+4. On the **Deferral Schedule** page, change settings on the header or values on the lines, for example to defer the amount to an additional accounting period.
 5. Choose the **Calculate Schedule** action.
 6. Choose the **OK** button. The deferral schedule is updated for the sales invoice. The related deferral template is unchanged.
 
@@ -71,8 +71,8 @@ Example: The posting date is 02/06/2016. If you enter “Expenses deferred for %
 > [!NOTE]  
 >   The steps in this procedure are the same as when you preview how expense deferrals are posted.
 
-1. In the **Sales Invoice** window, choose the **Preview Posting** action.
-2. In the **Posting Preview** window, choose the **G/L Entry** action, and then choose the **Show Related Entries** action.
+1. On the **Sales Invoice** page, choose the **Preview Posting** action.
+2. On the **Posting Preview** page, choose the **G/L Entry** action, and then choose the **Show Related Entries** action.
 
 G/L entries to be posted to the specified deferral account, for example, Unearned Income, are denoted by the description that you entered in the **Period Desc.** field in the deferral template, for example, "Expenses deferred for February 2016".
 
@@ -81,7 +81,7 @@ G/L entries to be posted to the specified deferral account, for example, Unearne
 >   The steps in this procedure are the same as when you review the Purchasing Deferral Summary report.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Deferral Summary**, and then choose the related link.
-2. In the **Sales Deferral Summary** window, in the **Balance as of** field, enter the date up to which you want to see deferred revenues.
+2. On the **Sales Deferral Summary** page, in the **Balance as of** field, enter the date up to which you want to see deferred revenues.
 3. Choose the **Preview** button.
 
 ## See Also

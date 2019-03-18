@@ -2,7 +2,7 @@
     title: How to Adjust Exchange Rates
     description: If you have taxable sales in a foreign currency, you must use the official rate for VAT currency conversion as set by the Federal Tax Administration.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 12/19/2018
     ms.author: sgroespe
 
 ---
@@ -24,7 +24,7 @@ If these rates do not match the currency rates used in the purchase or sales inv
 You can run this batch job as often as you like, however make sure that you always run it before creating a VAT statement.  
 
 > [!NOTE]  
->  When using a report currency, make sure that the **VAT Exchange Rate Adjustment** field in the **General Ledger Setup** window is set to **No Adjustment**.  
+>  When using a report currency, make sure that the **VAT Exchange Rate Adjustment** field on the **General Ledger Setup** page is set to **No Adjustment**.  
 
 For more information about VAT and foreign currencies, see the [ESTV](https://go.microsoft.com/fwlink/?LinkId=285999) website.  
 
@@ -32,7 +32,7 @@ For more information about VAT and foreign currencies, see the [ESTV](https://go
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Currencies**, and then choose the related link.  
 2.  Choose the **Exch. Rates** action.  
-3.  In the **Currency Exchange Rates** window, enter the official VAT rate per period for each currency in the **VAT Exch. Rate Amount** and the **Relational VAT Exch. Rate Amt** fields.  
+3.  On the **Currency Exchange Rates** page, enter the official VAT rate per period for each currency in the **VAT Exch. Rate Amount** and the **Relational VAT Exch. Rate Amt** fields.  
 4.  Choose the **OK** button.  
 5.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Adjust Exchange Rates**, and then choose the related link.  
 6.  On the **Options** FastTab, fill in the fields as described in the following table.   
@@ -48,4 +48,5 @@ For more information about VAT and foreign currencies, see the [ESTV](https://go
 ## See Also  
  [Swiss Value Added Tax](swiss-value-added-tax.md)   
  [VAT Rates for Switzerland](vat-rates-for-switzerland.md)   
-[Update Currency Exchange Rates](../../finance-how-update-currencies.md)
+[Update Currency Exchange Rates](../../finance-how-update-currencies.md)  
+[Set Up an Additional Reporting Currency](../../finance-how-setup-additional-currencies.md)

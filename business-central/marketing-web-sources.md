@@ -13,6 +13,7 @@ ms.workload: na
 ms.search.keywords: internet
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
 
 ---
 # Set Up Web Sources for Contact Companies
@@ -25,7 +26,7 @@ Using web sources on contacts is a two-step process. First, you define the web s
 2. Choose the **New** actions.
 3. Fill in the **Code**, **Description**, and **URL** fields.
 
-    Type %1 in the **URL** field to insert a placeholder for a search word in the URL. When you launch the web source from a contact, the %1 is replaced with the search word, for example, the name of the company that you have entered in the **Contact Web Sources** window.
+    Type %1 in the **URL** field to insert a placeholder for a search word in the URL. When you launch the web source from a contact, the %1 is replaced with the search word, for example, the name of the company that you have entered on the **Contact Web Sources** page.
 
 Repeat these steps to set up as many web sources as you want.
 
@@ -33,14 +34,14 @@ Repeat these steps to set up as many web sources as you want.
 When assigning web sources, you specify which search engine and search word that the application will use to find the requested information.
 
 1. Open the contact.
-2. Choose the **Company** action, and then choose the **Web Sources** action. The **Contact Web Sources** window opens.
+2. Choose the **Company** action, and then choose the **Web Sources** action. The **Contact Web Sources** page opens.
 3. In the **Web Source Code** field, choose the web source you want to assign.
 4. In the **Search Word** field, enter the search word that you want to use to find the information.
 
 Repeat these steps to assign as many web sources as you want.
 
-You can also assign web sources from the **Contact List** window by following the same procedure.
+You can also assign web sources from the **Contact List** page by following the same procedure.
 
 ## See Also
-[Creating Contact Companies](marketing-create-contact-companies.md)  
+[Creating Contacts](marketing-create-contact-companies.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

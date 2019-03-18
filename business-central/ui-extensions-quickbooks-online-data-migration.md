@@ -51,7 +51,7 @@ Getting started is easy. All you need to do is run the **Data Migration** assist
 2. Follow the instructions on each step in the assisted setup guide.
 
 ## What do I do after I migrate data?
-After you migrate data, transactions have the status **Unposted**, so you can review them and make adjustments. To review the transactions, go to the page where you would normally find them. For example, to review unposted sales invoices, go to the **Sales Invoices** window. To review payment journals, go to the **Payment Journals** window.   
+After you migrate data, transactions have the status **Unposted**, so you can review them and make adjustments. To review the transactions, go to the page where you would normally find them. For example, to review unposted sales invoices, go to the **Sales Invoices** page. To review payment journals, go to the **Payment Journals** page.   
 
 There are a few things in particular that you should do:
 

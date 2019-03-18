@@ -1,6 +1,6 @@
 ---
     title: How to Print Checks for APACS | Microsoft Docs
-    description: The Association for Payment Clearing Services (APACS) specification defines a standard layout for fields on checks. The **Check** report uses this specification.
+    description: The Association for Payment Clearing Services (APACS) specification defines a standard layout for fields on checks. The Check report uses this specification.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -29,7 +29,7 @@ The Association for Payment Clearing Services (APACS) specification defines a st
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Bank Account**|Specifies bank account code.|  
-    |**Last Check No.**|Specifies the last check number that was specified in the **Bank Account Card** window.|  
+    |**Last Check No.**|Specifies the last check number that was specified on the **Bank Account Card** page.|  
     |**One Check per Vendor per Document No.**|Select to print only one check per vendor for each document number.|  
     |**Reprint Checks**|Select to reprint canceled checks.|  
     |**Test Print**|Select to print checks on blank paper before printing them on check forms.|  

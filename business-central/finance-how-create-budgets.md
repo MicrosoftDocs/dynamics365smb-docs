@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 10/01/2018
+ms.date: 01/07/2019
 ms.author: sgroespe
 
 ---
@@ -30,17 +30,24 @@ In cost accounting, you work with cost budgets in a similar way. For more inform
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **G/L Budgets**, and then choose the related link.  
 2. Choose the **Edit List** action, and then fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Choose the **Edit Budget** action.
-4. At the top of the **Budget** window, fill in the fields as necessary to define what is displayed.  
+4. At the top of the **Budget** page, fill in the fields as necessary to define what is displayed.  
 
-    Only entries that contain the budget name that you entered in the **budget Name** field are shown. Because the budget name has just been created, there are no entries that match the filter. Therefore, the window is empty.  
-5. To enter an amount, choose the relevant cell in the matrix. The **G/L Budget Entries** window opens.  
-6. Create a new line and fill in the **Amount** field. Close the **G/L Budget Entries** window.  
+    Only entries that contain the budget name that you entered in the **budget Name** field are shown. Because the budget name has just been created, there are no entries that match the filter. Therefore, the page is empty.  
+5. To enter an amount, choose the relevant cell in the matrix. The **G/L Budget Entries** page opens.  
+6. Create a new line and fill in the **Amount** field. Close the **G/L Budget Entries** page.  
 7. Repeat steps 5 and 6 until you have entered all of the budget amounts.  
 
 > [!NOTE]  
->  On the **Filters** FastTab, you can filter the budget information by budget dimensions you have set up under the budget name.   
+>  On the **Filters** FastTab, you can filter the budget information by budget dimensions you have set up under the budget name.
+
+## Exporting and Importing G/L Budgets with Excel
+As for practically all other pages, you can export data on budget pages to Excel for further processing or analysis. For more information, see [Exporting Your Business Data to Excel](about-export-data.md).
+
+> [!NOTE]
+> The chart of accounts, that G/L budgets are based on, have lines of account type Heading that contain the total of the lines below it. When you export a G/L budget, data on all lines is exported regardless of the account type. However, only data on lines of account type Posting can be imported back in. Accordingly: <br /><br /> **When you import a G/L budget, any values that existed on Heading lines will be deleted.** <br /><br /> This is to avoid wrong totals after importing data that has been created or edited in Excel.<br /><br /> **Scenario**: You know that the new budgeted salaries cost is going to be LCY 1.200.000. You want to let the Salaries department budget for the three specific lines (of account type Posting) for Full-time Employees, Part-time Employees, and Temp Help. The three lines are grouped under a Salaries heading line.<br /><br />You enter 1.200.000 on the Heading line, export the budget to Excel, and then send it to the Salaries department, telling them to distribute the LCY 1.200.000.<br /><br /> The Salaries department distributes the amount on the three posting accounts. When you import back into the G/L budget, the three accounts are filled in with the new Excel data, summing to LCY 1.200.000, and the Heading line is blank.
 
 ## See Also
+[Exporting Your Business Data to Excel](about-export-data.md)  
 [Finance](finance.md)  
 [Business Intelligence](bi.md)  
 [Setting Up Finance](finance-setup-finance.md)  

@@ -32,16 +32,16 @@ Fault codes describe the typical service item faults or the actions taken on ser
     |Fault + Symptom | You provide a combination of codes in the **Fault Codes** and **Symptom Codes** tables. Typical symptom codes include indicators that a customer might use to describe a problem, such as a noise or a quality.|  
     |Fault + Symptom + Area | You use fault, symptom, and fault area codes as an implementation of the International Repair Coding System (IRIS).|  
 
-To complete the setup of fault reporting, you can also specify what repairs or resolutions are associated with a fault or defect. You set that up in the **Fault/Resolution Code Relationships** window, where you set up combinations of codes for the service item group of the service item from which you accessed the witndow and the number of occurrences for each one.
+To complete the setup of fault reporting, you can also specify what repairs or resolutions are associated with a fault or defect. You set that up on the **Fault/Resolution Code Relationships** page, where you set up combinations of codes for the service item group of the service item from which you accessed the witndow and the number of occurrences for each one.
 
 ## To create fault and resolution code relationships
 <!--this needs to go in a working with topic-->
-To be able to see the most common methods of repair for particular item faults when you are servicing the items, you need to build up information on fault/resolution codes relationships. Use the **Insert Fault/Resol. Codes Relationships** batch job to find all the combination of fault and resolution codes in posted service orders and record them in the **Fault/Resol. Codes Relationships** window.
+To be able to see the most common methods of repair for particular item faults when you are servicing the items, you need to build up information on fault/resolution codes relationships. Use the **Insert Fault/Resol. Codes Relationships** batch job to find all the combination of fault and resolution codes in posted service orders and record them on the **Fault/Resol. Codes Relationships** page.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Insert Fault/Resol. Codes Relationships**, and then choose the related link.  
 2. Enter dates to define the period you want to include in the batch job.  
 3. To group the relationships by service item group, choose the **Relation Based on Service Item Group** check box.  
-4. To retain the records that you have already inserted manually in the **Fault/Resol. Codes Relationships** window, choose the **Retain Manually Inserted Rec.** check box.  
+4. To retain the records that you have already inserted manually on the **Fault/Resol. Codes Relationships** page, choose the **Retain Manually Inserted Rec.** check box.  
 
 ## See Also
 [Setting Up Service Management](service-setup-service.md)  

@@ -18,7 +18,7 @@ ms.author: edupont
 
 For example, your chart of accounts is prefilled with a number of posting accounts ready for use. You can, of course, change the chart of accounts to suit your needs. For more information, see [Finance](finance.md).
 
-From your Role Center, you can access assisted setup guides that help you configure certain scenarios and add features to [!INCLUDE[d365fin](includes/d365fin_md.md)]. For information about how to access all assisted and manual setup windows, see [Getting Ready for Doing Business](ui-get-ready-business.md).
+From your Role Center, you can access assisted setup guides that help you configure certain scenarios and add features to [!INCLUDE[d365fin](includes/d365fin_md.md)]. For information about how to access all assisted and manual setup pages, see [Getting Ready for Doing Business](ui-get-ready-business.md).
 
 > [!NOTE]
 > You can set up a new company in [!INCLUDE[d365fin](includes/d365fin_md.md)] with RapidStart Services, which is a tool designed to shorten deployment times, improve quality of implementation, introduce a repeatable approach to implementations, and enhance productivity by automating and simplifying recurring tasks. For more information, see [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
@@ -36,10 +36,20 @@ Some functionality, either general or for specific business processes, can be se
 | Configure how to insure, maintain, and depreciate fixed assets, and how you record the costs of fixed assets in your company books. |[Setting Up Fixed Assets](fa-setup.md) |
 |Define the general rules and values for warehouse processes and the specific handling at each location.|[Setting Up Warehouse Management](warehouse-setup-warehouse.md)|
 |Prepare production BOMs and routings to define how end items are produced, and prepare machine or work centers to perform the required operations.|[Setting Up Manufacturing](production-configure-production-processes.md)|
+|Establish standard services, symptoms, and fault codes and set up the service items, resources, and documentation needed to provide service to your customers.|[Setting Up Service Management](service-setup-service.md)|
 |Read best practices for setting items up for up inventory costing and supply planning.|[Setting Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)|
-|Set up an SMTP server to enable e-mail communication in and out of [!INCLUDE[d365fin](includes/d365fin_md.md)]| [Setting Up Email Manually or Using the Assisted Setup](admin-how-setup-email.md)|
-| Set up unique identification codes for records, such as cards, documents, and journal lines, to track them in the system. |[Creating Number Series](ui-create-number-series.md) |
-|Set up and assign a base calendar to your company and its business partners, such as customers, vendors, or locations. Delivery and receipt dates on future sales order, purchase order, transfer order, and production order lines are then calculated according to the calendar’s specified working days.|[Setting Up Base Calendars](across-how-to-assign-base-calendars.md)|  
+|Improve the quality of implementation and shorten deployment time by using a toolset for setting up a new company using wizards, templates, worksheets, and customer questionnaires.|[Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)|
+|Transfer customers, vendors, inventory, and bank accounts information from another system into [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md).|
+|Use Business Central Outlook add-ins to see financial data related to customers and vendors or create and send financial documents, such as quotes and invoices.|[Using Business Central as Your Business Inbox in Outlook](admin-outlook.md)|
+|Get insights into your Business Central data with Power BI and the Business Central content packs.|[Enabling Your Business Data for Power BI](admin-powerbi.md)|
+|Use your Business Central data as part of a workflow in Microsoft Flow.|[Using Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md)|
+|Make your Business Central data available as a data source in PowerApps.|[Connecting to Your Business Central Data to Build a Business App Using PowerApps](across-how-use-financials-data-source-powerapps.md)|
+|Use dedicated Quickbooks migration guides.|[Changing from a QuickBooks App to Business Central]across-quickbooks-to-business-edition.md|
+|Access your Business Central data from your mobile device.|[Getting Business Central on Your Mobile Device](install-mobile-app.md)|
+|Do bulk invoicing of appointments created in Bookings.|[Bulk Invoicing for Microsoft Bookings](finance-bookings.md)|
+|Set up an SMTP server to enable e-mail communication in and out of [!INCLUDE[d365fin](includes/d365fin_md.md)]| [Set Up Email Manually or Using the Assisted Setup](admin-how-setup-email.md)|
+| Set up unique identification codes for records, such as cards, documents, and journal lines, to track them in the system. |[Create Number Series](ui-create-number-series.md) |
+|Set up and assign a base calendar to your company and its business partners, such as customers, vendors, or locations. Delivery and receipt dates on future sales order, purchase order, transfer order, and production order lines are then calculated according to the calendar’s specified working days.|[Set Up Base Calendars](across-how-to-assign-base-calendars.md)|  
 
 Some areas require you to be an administrator in your [!INCLUDE[d365fin](includes/d365fin_md.md)] subscription. For more information, see [Administration](admin-setup-and-administration.md).  
 
@@ -60,4 +70,3 @@ Some areas require you to be an administrator in your [!INCLUDE[d365fin](include
 [Getting Started](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 

@@ -35,16 +35,16 @@ You can fill vendor fields on the purchase invoice in two ways depending on whet
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.  
 2. In the **Vendor** field, enter the name of an existing vendor.
 
-    Other fields in the **Purchase Invoice** window are now filled with the standard information of the selected vendor. If the vendor is not registered, then follow these steps:
+    Other fields on the **Purchase Invoice** page are now filled with the standard information of the selected vendor. If the vendor is not registered, then follow these steps:
 3. In the **Vendor** field, enter the name of the new vendor.
 4. In the dialog box about registering the new vendor, choose the **Yes** button.
-5. In the **Select a template for a new vendor** window, choose a template to base the new vendor card on, and then choose the **OK** button.
+5. On the **Select a template for a new vendor** page, choose a template to base the new vendor card on, and then choose the **OK** button.
 6. A new vendor card opens, prefilled with the information on the selected vendor template. The **Name** field is prefilled with the new vendor’s name that you entered on the purchase invoice.
 7. Proceed to fill in the remaining fields on the vendor card. For more information, see [Register New Vendors](purchasing-how-register-new-vendors.md).  
-8. When you have completed the vendor card, choose the **OK** button to return to the **Purchase Invoice** window.
+8. When you have completed the vendor card, choose the **OK** button to return to the **Purchase Invoice** page.
 
-    Several fields in the **Purchase Invoice** window are filled with information that you specified on the new vendor card.
-9. Fill in the remaining fields in the **Purchase Invoice** window as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+    Several fields on the **Purchase Invoice** page are filled with information that you specified on the new vendor card.
+9. Fill in the remaining fields on the **Purchase Invoice** page as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     You are now ready to fill in the purchase invoice lines with inventory items or services that you have purchased from the vendor.
 

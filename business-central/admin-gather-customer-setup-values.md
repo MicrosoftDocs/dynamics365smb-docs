@@ -28,7 +28,7 @@ When your customer completes the questionnaire, you import the file into the cus
 ## To create a configuration questionnaire
 You can use a questionnaire to help you determine the scope and needs of configuration. You can create a new questionnaire, or modify an existing questionnaire by adding new questions or question areas.  
 
- You can create questionnaires for setup-type tables only. For example you can use the tool to provide information to the following windows:  
+ You can create questionnaires for setup-type tables only. For example you can use the tool to provide information to the following pages:  
 
 -   Company Information  
 -   Fixed Asset Setup  
@@ -46,9 +46,9 @@ You can use a questionnaire to help you determine the scope and needs of configu
 >  To see a complete list of setup tables, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Setup**, and then choose the related link. To determine the scope of migration of records data, use migration functionality. For more information, see [Migrating Customer Data](admin-migrate-customer-data.md).  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Questionnaire**, and choose the related link.  
-2. Choose the **New** action. The **Config. Questionnaire** window opens.  
-3. Choose the **Questions Areas** action. The **Question Areas** window opens.  
-4. Choose the **New** action. The **Config. Question Area** window opens.  
+2. Choose the **New** action. The **Config. Questionnaire** page opens.  
+3. Choose the **Questions Areas** action. The **Question Areas** page opens.  
+4. Choose the **New** action. The **Config. Question Area** page opens.  
 5. In the **Table ID** field, choose the ID of the table for which you want to collect information. The **Table Name** field is automatically filled in.  
 6. Choose the **Update Questions** action. Each field in the table is added to the questionnaire with a question mark following its label.
 
@@ -90,10 +90,10 @@ A common validation task is to check that text strings are not entered in date f
 > [!NOTE]  
 >  In general, validation of the configuration questionnaire is a manual process. However, there are checks for regional formatting inconsistencies. In addition, you will get errors if the structure of your [!INCLUDE[d365fin](includes/d365fin_md.md)] database does not match the structure of the migration database.  
 
-1. In the **Configuration Questionnaire** window, select the relevant questionnaire, and then choose the **Question Areas** action.  
+1. On the **Configuration Questionnaire** page, select the relevant questionnaire, and then choose the **Question Areas** action.  
 2. Open the relevant question area.  
 3. For each question, validate that the value in the **Answer** field corresponds to the format provided in the **Answer Option** field. For example, validate that the address of a company is in text format.  
-4. If you find errors, you can troubleshoot and make corrections in Excel by exporting the questionnaire, and then importing it again. Alternatively, you can correct errors directly in [!INCLUDE[d365fin](includes/d365fin_md.md)] as you review the answers in the **Config. Question Area** window.  
+4. If you find errors, you can troubleshoot and make corrections in Excel by exporting the questionnaire, and then importing it again. Alternatively, you can correct errors directly in [!INCLUDE[d365fin](includes/d365fin_md.md)] as you review the answers on the **Config. Question Area** page.  
 5. Repeat these steps for each question area.  
 
 When you have completed your validation, the data is ready to be applied to the database.  
@@ -101,7 +101,7 @@ When you have completed your validation, the data is ready to be applied to the 
 ## To apply answers from the configuration questionnaire
 After you have imported and validated information from a configuration questionnaire, you can transfer, or apply the setup data to the corresponding tables in the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Questionnaire**, and then choose the related link. The **Config. Questionnaire** window opens.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Questionnaire**, and then choose the related link. The **Config. Questionnaire** page opens.  
 2. Select a configuration questionnaire from the list, and then choose the **Edit List** action.  
 3. You can apply answers in one of two ways.  
 
@@ -109,7 +109,7 @@ After you have imported and validated information from a configuration questionn
 - To apply answers for a specific **Question Area** only, choose the **Question Areas** action, select a **Question Area** in the list, and then choose the **Apply Answers** action.  
 
 ### To verify that answers have been applied successfully  
-1. Check setup windows for the various functional areas of [!INCLUDE[d365fin](includes/d365fin_md.md)]. To locate the window, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter the name of the setup window, and then choose the related link.  
+1. Check setup pages for the various functional areas of [!INCLUDE[d365fin](includes/d365fin_md.md)]. To locate the page, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter the name of the setup page, and then choose the related link.  
 2. Verify that the fields have been populated with the correct data from the various question areas in the configuration questionnaire.  
 
 You have now configured setup with the customer’s business information and rules.

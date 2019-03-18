@@ -11,6 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
+    redirect_url: how-to-set-up-and-export-sales-vat-advance-notifications.md
     ms.date: 10/01/2018
     ms.author: sgroespe
 
@@ -21,8 +22,8 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can submit the sales V
 ## To create an XML document for sales VAT advance notification  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Vat Advanced Notification List**, and then choose the related link.  
-2.  In the **Sales Vat Advanced Notification List** window, choose the **New** action.  
-3.  In the **Sales VAT Adv. Notif. Card** window, fill in the fields as described in the following table.  
+2.  On the **Sales Vat Advanced Notification List** page, choose the **New** action.  
+3.  On the **Sales VAT Adv. Notif. Card** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |------------------------------------|---------------------------------------|  
@@ -36,7 +37,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can submit the sales V
 
 ## To submit an XML document for sales VAT advance notification  
 
-1.  In the **Sales VAT Advance Notification List** window, select the document that you want to submit to ELSTER.  
+1.  On the **Sales VAT Advance Notification List** page, select the document that you want to submit to ELSTER.  
 2.  Choose the **Transmit XML-File** action.  
 
 The XML file is transmitted to ELSTER.  

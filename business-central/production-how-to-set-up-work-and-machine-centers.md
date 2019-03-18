@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 03/08/2019
     ms.author: sgroespe
 
 ---
@@ -44,22 +44,22 @@ The following primarily describes how to set up a work center. The steps to set 
 
 9.  In the **Unit Cost Calculation** field, define whether the above calculation should be based on the amount of time used:  **Time**, or on the number of produced units:  **Units**.  
 10.  Select the **Specific Unit Cost** field if you want to define the work center’s unit cost on the routing line where it is being used. This may be relevant for operations with dramatically different capacity costs than what would normally be processed at that work center.  
-11.  In the **Flushing Method** field, select whether output posting at this work center should be calculated and posted manually or automatically, using either of the following methods.  
+11.  In the **Flushing Method** field, select whether output posting at this work center should be calculated and posted manually or automatically, using either of the following methods.
 
-    |Option|Description|  
-    |----------------------------------|---------------------------------------|  
-    |**Manual**|Concumption is posted manually in the output journal or production journal.|
-    |**Forward**|Consumption is calculated and posted automatically when the production order is released.|  
-    |**Backward**|Consumption is calculated and posted automatically when the production order is finished.|  
+|Option|Description|
+|------|-----------|
+|**Manual**|Concumption is posted manually in the output journal or production journal.|
+|**Forward**|Consumption is calculated and posted automatically when the production order is released.|
+|**Backward**|Consumption is calculated and posted automatically when the production order is finished.|
 
-    > [!NOTE]  
-    >  If necessary, the flushing method selected here and on the **Item** card, can be overridden for individual operations by changing the setting on routing lines.
+> [!NOTE]
+> If necessary, the flushing method selected here and on the **Item** card, can be overridden for individual operations by changing the setting on routing lines
 
 12.  In the **Unit of Measure Code** field, enter the time unit in which this work center’s cost calculation and capacity planning are made.
     In order to be able to constantly monitor consumption, you must first set up a method of measure. The units you enter are basic units. For example, the processing time is measured in hours and minutes.
 
-    > [!NOTE]  
-    > If you select to use Days then remember that 1 day = 24 hours - and not 8 (working hours).
+> [!NOTE]  
+> If you select to use Days then remember that 1 day = 24 hours - and not 8 (working hours).
 
 13.  In the **Capacity** field, define whether the work center has more than one machine or person working at the same time. If your [!INCLUDE[d365fin](includes/d365fin_md.md)] installation does not include the Machine Center functionality, then the value in this field must be **1**.  
 14.  In the **Efficiency** field, enter the percentage of the expected standard output that this work center actually outputs. If you enter **100**, it means that the work center has an actual output that is the same as the standard output.  
@@ -81,7 +81,7 @@ You must set up production resources that you regard as critical and mark them t
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] does not support detailed shop floor control. It plans for a feasible utilization of resources by providing a rough-cut schedule, but it does not automatically create and maintain detailed schedules based on priorities or optimization rules.
 
-In the **Capacity-Constrained Resources** window, you can make setup that avoids overload of specific resources and ensure that no capacity is left unallocated if it could increase the turn-around time of a production order. In the **Dampener (% of Total Capacity)** field, you can add dampener time to resources to minimize operation splitting. This enables the system to schedule load on the last possible day by exceeding the critical load percent slightly if this can reduce the number of operations that are split.
+On the **Capacity-Constrained Resources** page, you can make setup that avoids overload of specific resources and ensure that no capacity is left unallocated if it could increase the turn-around time of a production order. In the **Dampener (% of Total Capacity)** field, you can add dampener time to resources to minimize operation splitting. This enables the system to schedule load on the last possible day by exceeding the critical load percent slightly if this can reduce the number of operations that are split.
 
 When planning with capacity-constrained resources, the system ensures that no resource is loaded above its defined capacity (critical load). This is done by assigning each operation to the nearest available time slot. If the time slot is not big enough to complete the entire operation, then the operation will be split into two or more parts placed in the nearest available time slots.
 

@@ -1,6 +1,6 @@
 ---
     title: How to Import Post Codes
-    description: You can import a file that specifies post codes for marketing and relationship management activities. The post code data that you import will be saved in the **Post Code Range** table.
+    description: You can import a file that specifies post codes for marketing and relationship management activities. The post code data that you import will be saved in the Post Code Range table.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -21,8 +21,8 @@ You can import a file that specifies post codes for marketing and relationship m
 ## To import a post code file  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Post Codes Updates**, and then choose the related link.  
-2.  In the **Post Codes Updates** window, choose the **Import Post Codes** action.  
-3.  Specify the path and name of the post code file, and then choose the **OK** button. If you do not want to import the file, choose the **Cancel** button to close the window.  
+2.  On the **Post Codes Updates** page, choose the **Import Post Codes** action.  
+3.  Specify the path and name of the post code file, and then choose the **OK** button. If you do not want to import the file, choose the **Cancel** button to close the page.  
 
 Information about the imported post code will be saved in the Post Code Update Log Entry Table table.  
 

@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 10/01/2018
+ms.date: 03/11/2019
 ms.author: bholtorf
 
 ---
@@ -31,7 +31,7 @@ You can consolidate:
 
 Depending on the complexity of your businesses, there are two ways to set up the report:
 
-* If you don't need advanced settings, such as including a company that you only own part of, you can use the **Company Consolidation** assisted setup guide to quickly set up a consolidation. The guide helps you through the basic steps.
+* If you do not need advanced settings, such as including a company that you only own part of, you can use the **Company Consolidation** assisted setup guide to quickly set up a consolidation. The guide helps you through the basic steps.
 * If you do need more advanced settings, you can set up the consolidated company and business units yourself.
 
 ## To do a simple consolidation setup
@@ -46,13 +46,16 @@ To use the assisted setup guide, follow these steps:
 2. Choose **Set up consolidation reporting**, and then complete each step in the assisted setup guide.
 
 ## To do an advanced consolidation setup
-If you need more advanced settings for your consolidation, you can set up consolidation manually. For example, if you have companies that you own only partially, or you have companies that you don’t want to include in the consolidation. You set up the consolidated company in the say way that you set up other companies. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md).  
+If you need more advanced settings for your consolidation, you can set up consolidation manually. For example, if you have companies that you own only partially, or you have companies that you do not want to include in the consolidation. You set up the consolidated company in the same way that you set up other companies. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md).  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] lets you set up a list of companies to consolidate, verify the accounting data before you consolidate it, import files, and generate consolidation reports.  
 
 1. Sign in to the consolidated company.
 2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Business Units**, and then choose the related link.  
-3. Choose **New**, and then fill in the required fields.  
+3. Choose **New**, and then fill in the required fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!IMPORTANT]
+> When you fill in the **Starting Date** and **Ending Date** fields, make sure you comply with GAAP rules concerning the fiscal periods of the business unit versus the parent company.
 
 If your business unit uses a foreign currency, you must specify the exchange rate to use in the consolidation. You must also enter consolidation information about the business unit's general ledger accounts. These processes are described in the following sections.
 
@@ -79,8 +82,8 @@ The following table describes the exchange rate methods you can use for accounts
 To specify exchange rates for business units, follow these steps:
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Business Units**, and then choose the related link.  
-2. In the **Business Unit List** window, choose the business unit, and then choose the **Average Rate (Manual)** action.   
-3. In the **Change Exchange Rate** window, the contents of the **Relational Exch. Rate** field have been copied from the **Currency Exchange Rate** table, but you can modify them. Close the page.  
+2. On the **Business Unit List** page, choose the business unit, and then choose the **Average Rate (Manual)** action.   
+3. On the **Change Exchange Rate** page, the contents of the **Relational Exch. Rate** field have been copied from the **Currency Exchange Rate** table, but you can modify them. Close the page.  
 4. Choose the **Closing Rate** action.  
 5. In the **Relational Exch. Rate Amount** field, enter the exchange rate.
 
@@ -116,7 +119,31 @@ After you have tested the data, you can transfer it to the consolidated company.
 1. Sign in to the consolidated company.  
 2. On the **Accountant Role Center**, choose the **Run Consolidation** action.  
 3. Fill in the required fields.  
-4. In the **Where** field, choose **Company Name**, and then choose the consolidated company in the **is** field.  
+4. In the **Where** field, choose **Company Name**, and then choose the consolidated company in the **is** field.
+
+## To eliminate repeated transactions
+After you have consolidated all the companies, you must find any transactions that are recorded more than once across companies and then post elimination entries to remove them.
+
+Processing consolidation eliminations is a manual process. You can follow these steps:
+1. Find transactions that potentially need to be adjusted and enter general journal lines to eliminate them.
+2. Run the **G/L Consolidation Eliminations** report to help you assess the effect of the general journal lines before posting.
+3. Post the adjusting transactions.
+
+The **G/L Consolidation Eliminations** report displays a tentative trial balance where you can simulate the consequences of eliminating entries by comparing the entries in the consolidated company with the eliminations that have been entered in the general journal.
+
+Before a business unit can be included in the report, it must be set up on the **Business Units** page and the **Consolidate** field must be selected.
+
+Each account appears on a line by itself, following the structure of the chart of accounts. An account is not shown if all the amounts on the line are 0. The following information is shown for each account:
+
+* Account number
+* Account name.
+* If you have selected one or more business unit codes in the **Business Unit Code** field on the request page, a total is shown for the consolidated company excluding the selected business units and eliminations. If you have not filled in the **Business Unit Code** field, a total is shown for the consolidated company excluding eliminations.
+* If you have selected a business unit code in the **Business Unit Code** field on the request page, a total is shown for the imported entries from the business unit. If you have not filled in the **Business Unit Code** field, a total is shown for the posted eliminations in the consolidated company.
+* The total for the consolidated company with all the business units and all posted eliminations.
+* The eliminations to be made in the consolidated company, that is, the entries in the general journal that is selected on the request page.
+* The posting text copied from the general journal.
+* The consolidated company's total after the eliminations, if they are posted.
+
 
 ## To export and import consolidated data between databases
 If data for a business unit is in another database, you must export the data to a file before you can include it in the consolidation. Each company must be exported separately. For this purpose, use the **Export Consolidation** batch job.  

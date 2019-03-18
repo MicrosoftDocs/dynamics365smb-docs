@@ -13,6 +13,7 @@
     ms.search.keywords:
     ms.date: 10/01/2018
     ms.author: sgroespe
+    redirect_url: finance-set-up-cost-accounting
 
 ---
 # Defining Cost Centers and Cost Objects for Chart of Accounts
@@ -35,10 +36,9 @@ For each general ledger account, you can define default dimension values in the 
 |Cost Object|No Code|Code Mandatory|  
 
 > [!NOTE]  
->  To make sure that the predefined cost center and cost object that you set up in the general ledger are automatically carried over to cost accounting, select the **Check G/L Postings** check box in the Cost Accounting Setup window.  
+>  To make sure that the predefined cost center and cost object that you set up in the general ledger are automatically carried over to cost accounting, select the **Check G/L Postings** check box in the Cost Accounting Setup page.  
 
 ## See Also  
 [Accounting for Costs](finance-manage-cost-accounting.md)  
-[Set Up Cost Centers](finance-how-to-set-up-cost-centers.md)   
-[Set Up Cost Objects](finance-how-to-set-up-cost-objects.md)  
+[Setting Up Cost Accounting](finance-set-up-cost-accounting.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

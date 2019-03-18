@@ -119,7 +119,7 @@ A filter pane is divided in three sections: **Views**, **Filter list by**, and *
   To add a filter, select **+ Filter**, select one of the predefined dimensions, and then add the filter criteria in the box.
 
   > [!NOTE]
-  > Filters in the **Filter totals by** section are controlled by FlowFilters in the page design. For technical information, see [FlowFilters](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
+  > Filters in the **Filter totals by** section are controlled by FlowFilters on the page design. For technical information, see [FlowFilters](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
 
 
 ### Entering filter criteria in the filter pane
@@ -253,7 +253,7 @@ Use `%me` or `%userid` when filtering fields that contain the user ID, such as *
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
-|`%me`<br />or<br />`%userid`|Records the are assigned to your user account. |  
+|`%me`<br />or<br />`%userid`|Records that are assigned to your user account. |  
 
 ### (%mycustomers) Customers in My Customers
 
@@ -277,7 +277,7 @@ Use `%myvendors` in the vendor **No** field to display all records for vendors t
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
-|`%myvendors`|Venders in the **My Vendors** on your Role Center. |  
+|`%myvendors`|Vendors in the **My Vendors** on your Role Center. |  
 
 
 ## See Also

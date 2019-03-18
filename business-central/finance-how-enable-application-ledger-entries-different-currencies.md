@@ -20,7 +20,7 @@ If you purchase from a vendor in one currency and submit payment in another curr
 
 Likewise, if you sell to a customer in one currency and receive payment in another currency, you can apply the payment to the sales invoice.
 
-The following procedure describes how to set this up for vendor ledger entries in the **Purchases & Payables Setup** window. The setup is similar for customer ledger entries in the **Sales & Receivables Setup** window.
+The following procedure describes how to set this up for vendor ledger entries on the **Purchases & Payables Setup** page. The setup is similar for customer ledger entries on the **Sales & Receivables Setup** page.
 
 ## To enable application of vendor ledger entries in different currencies
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchases & Payables Setup**, and then choose the related link.

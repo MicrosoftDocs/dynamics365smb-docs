@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 10/01/2018
+ms.date: 03/18/2018
 ms.author: sgroespe
 
 ---
@@ -31,6 +31,8 @@ When you enter a transaction, you do not need to specify the accounts for an ind
 
  After you set up business partners as customers and vendors in the system, and assign them intercompany partner codes, it is possible to exchange intercompany purchase and sales documents, including items and item charges. The Intercompany functionality allows intercompany transactions between multiple databases, for example, in different countries/regions, as well as multiple currencies, different charts of accounts, different dimensions, and different item numbering.  
 
+Consolidating financial data may especially be relevant in connection with intercompany processes. For more information, see [Consolidating Financial Data from Multiple Companies](finance-consolidated-company-reporting.md).
+
 The following table describes a sequence of tasks, with links to the topics that describe them.
 
  |To |See|
@@ -46,4 +48,3 @@ The following table describes a sequence of tasks, with links to the topics that
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 

@@ -28,7 +28,7 @@ The following topics describe local functionality that is unique to the Belgian 
     * [Export Intrastat Third-Party Declarations](how-to-export-intrastat-third-party-declararations.md) **Available Now**
 
 * Banking & Payments
-        * [Set Up Bank Accounts for CODA](how-to-set-up-bank-accounts-for-coda.md) **Available Now**
+    * [Set Up Bank Accounts for CODA](how-to-set-up-bank-accounts-for-coda.md) **Available Now**
     * [Apply CODA Statements](how-to-apply-coda-statements.md) **Available Now**
     * [Automatically Transfer and Post CODA Statements](how-to-automatically-transfer-and-post-coda-statements.md) **Available Now**
     * [CODA Bank Statements](coda-bank-statements.md) **Available Now**

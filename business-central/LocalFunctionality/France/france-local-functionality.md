@@ -21,6 +21,7 @@ The following topics describe local functionality that is unique to the French v
 * VAT & Tax
     * [Export General Ledger Entries for Tax Audits](how-to-export-general-ledger-entries-for-tax-audits.md) **Available Now**
     * [Export General Ledger Entries to an XML File](how-to-export-general-ledger-entries-to-an-xml-file.md) **Available Now**
+    * [Requirements for Reporting Declaration of Trade in Goods](requirements-for-reporting-declaration-of-trade-in-goods.md) **Available Now**
 
 * Banking & Payments
     * [Set Up Payment Addresses](how-to-set-up-payment-addresses.md) **Available Now**
@@ -54,9 +55,6 @@ The following topics describe local functionality that is unique to the French v
     * [Set Up Accelerated Depreciation](how-to-set-up-accelerated-depreciation.md) **Available Now**
     * [Accelerated Depreciation](accelerated-depreciation.md) **Available Now**
     * [Calculate Accelerated Depreciation](how-to-calculate-accelerated-depreciation.md) **Available Now**
-
-* Foreign Trade
-    *  [Requirements for Reporting Declaration of Trade in Goods](requirements-for-reporting-declaration-of-trade-in-goods.md) **Available Now**
 
 ## See Also
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)     

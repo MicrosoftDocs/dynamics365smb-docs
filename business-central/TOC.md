@@ -860,8 +860,6 @@
 #### [Set Up Accelerated Depreciation](LocalFunctionality/France/how-to-set-up-accelerated-depreciation.md)
 #### [Accelerated Depreciation](LocalFunctionality/France/accelerated-depreciation.md)
 #### [Calculate Accelerated Depreciation](LocalFunctionality/France/how-to-calculate-accelerated-depreciation.md)
-### Foreign Trade
-#### [Requirements for Reporting Declaration of Trade in Goods](LocalFunctionality/France/requirements-for-reporting-declaration-of-trade-in-goods.md)
 
 ## [Germany](LocalFunctionality/Germany/germany-local-functionality.md)
 ### VAT & Tax
@@ -906,12 +904,15 @@
 #### [Certification of Business Central for German market (document is in German)](https://go.microsoft.com/fwlink/?linkid=875256)
 
 ## [Iceland](LocalFunctionality/Iceland/iceland-local-functionality.md)
-### [Deleting Posted Invoices and Credit Memos](LocalFunctionality/Iceland/deleting-posted-invoices-and-credit-memos.md)  
-### [Electronic Invoicing Requirement: Issuing Single Copy Invoice](LocalFunctionality/Iceland/electronic-invoicing-requirement-issuing-single-copy-invoice.md)  
-### [Icelandic Tax Regulations for Conditional Discounts](LocalFunctionality/Iceland/icelandic-tax-regulations-of-conditional-discounts.md)
-### [Map IRS Numbers to the Chart of Accounts](LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts.md)
-### [Print VAT Summary Information on Documents](LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md)  
-### [Special Data Output and Reports for the Tax Authority](LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md)  
+### Electronic Invoicing
+##### [Electronic Invoicing Requirement: Issuing Single Copy Invoice](LocalFunctionality/Iceland/electronic-invoicing-requirement-issuing-single-copy-invoice.md)
+### VAT & Tax
+#### [Icelandic Tax Regulations for Conditional Discounts](LocalFunctionality/Iceland/icelandic-tax-regulations-of-conditional-discounts.md)
+#### [Print VAT Summary Information on Documents](LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md)  
+#### [Special Data Output and Reports for the Tax Authority](LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md)
+### General  
+#### [Map IRS Numbers to the Chart of Accounts](LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts.md)  
+#### [Deleting Posted Invoices and Credit Memos](LocalFunctionality/Iceland/deleting-posted-invoices-and-credit-memos.md)  
 
 ## [Italy](LocalFunctionality/Italy/italy-local-functionality.md)
 ### [Close a Fiscal Year](LocalFunctionality/Italy/how-to-close-a-fiscal-year.md)  

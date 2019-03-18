@@ -11,11 +11,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 02/26/2019
+ms.date: 03/05/2019
 ms.author: sgroespe
 
 ---
-# Setting Up Contacts
+# Set Up Contacts
 When creating contacts, you can enter specific information, such as the industry that the contact belong to and your business relationship with the contacts.
 
 Before you create contacts and record details about your business relationships, you must set up the different codes that you will use to assign this information to your contact companies and people. Codes can be set up for mailing groups, industry groups, business relationships, Web sources, organizational levels and job responsibilities. You can set these up by choosing the **New** action as you look up to the lists from the contact card.  
@@ -147,10 +147,10 @@ In order to synchronize the contact card with a linked customer, vendor, or bank
 
 For more information, see [Synchronizing contacts with customers, vendors, and bank accounts](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
 
-## Searching for Duplicate Contacts when Contacts are Created
-You can choose to have the program automatically search for duplicates each time you create a contact company, or you can choose to search manually after you have created contacts. You can also choose to have the program update the search strings automatically each time you modify contact information or create a contact. You can decide the search hit percentage, that is, the percentage of identical strings two contacts must have for the program to consider them as duplicates.
+## Searching for Duplicate Contacts
+You can choose to have the program automatically search for duplicates each time you create a contacts, or you can choose to search manually after you have created contacts. You can also choose to have the program update the search strings automatically each time you modify contact information or create a contact. You can decide the search hit percentage, that is, the percentage of identical strings two contacts must have for the program to consider them as duplicates. You set this up on the **Duplicates** FastTab on the **Marketing Setup** page.
 
-You set this up on the **Duplicates** FastTab on the **Marketing Setup** page.
+When you have found a duplicate contact, you can use the **Merge Duplicate** page to merge it into an existing contact record that you want to keep. For more information, see [Merge Duplicate Records](sales-how-merge-duplicate-records.md).
 
 ## See Also
 [Managing Contacts](marketing-contacts.md)  

@@ -1,6 +1,6 @@
 ---
     title: How to Create Blanket Assembly Orders | Microsoft Docs
-    description: If the **Replenishment System** field on the item card contains **Assembly**, then the default method of supplying the item is to assemble it from defined components and potentially by a defined resource.
+    description: Create blanket sales orders for customized assembly items before periodically making the actual sales orders according to the blanket order agreement.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP

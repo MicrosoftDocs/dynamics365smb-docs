@@ -13,6 +13,7 @@
     ms.search.keywords:
     ms.date: 10/01/2018
     ms.author: sgroespe
+    redirect_url: ../../inventory-how-count-inventory-with-documents
 
 ---
 # Create a Physical Inventory Recording

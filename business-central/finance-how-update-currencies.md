@@ -45,7 +45,7 @@ If you post in an additional reporting currency, you can have the batch job crea
 ##### Dimensions on G/L Account Entries
 The adjustment entries are assigned the default dimensions from the accounts they are posted to.
 
-> [Important]
+> [!Important]
 > Before you can use the batch job, you must enter the adjustment exchange rates that are used to adjust the foreign currency balances. You do so on the **Currency Exchange Rates** page.
 
 ## To set up a currency exchange rate service

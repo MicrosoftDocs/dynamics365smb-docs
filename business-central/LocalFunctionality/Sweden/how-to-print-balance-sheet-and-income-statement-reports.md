@@ -2,7 +2,7 @@
     title: How to Print Balance Sheet and Income Statement Reports
     description: You can print balance sheet reports and income statement reports to submit to banks and other authorities.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -34,5 +34,5 @@ You can print balance sheet reports and income statement reports to submit to ba
 4.  Choose the **Print** action to print the report or choose the **Preview** action to view it on the screen.  
 
 ## See Also  
- [Working with Reports](../../ui-work-report.md)   
+ [Working with Reports and Batch Jobs](../../ui-work-report.md)   
  [Sweden Local Functionality](sweden-local-functionality.md)

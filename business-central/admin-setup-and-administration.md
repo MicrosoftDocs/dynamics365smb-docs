@@ -34,7 +34,6 @@ The following table describes a sequence of tasks, with links to the topics that
 |Classify data sensitivities for fields so that you can respond to requests from data subjects related to their personal data.|[Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)|
 |Respond to requests from data subjects related to their personal data.|[Responding to Requests About Personal Data](admin-responding-to-requests-about-personal-data.md)|
 |Set up a new business unit using templates|[Creating New Companies](about-new-company.md)|
-|Change which fields and actions are shown in the user interface to fit your company's business processes. |[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md) |
 |Track all direct modifications that users make to data in the database to identify the origin of errors and data changes.|[Logging Changes](across-log-changes.md)|  
 |Enter single or recurring requests to run reports or codeunits.|[Using Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)|  
 |Manage, delete, or compress documents|[Deleting Documents](admin-manage-documents.md)|  
@@ -42,6 +41,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |As a part of creating Connect apps between [!INCLUDE[d365fin](includes/d365fin_md.md)] and 3rd-party solutions through REST APIs, define templates that are used to populate empty properties on an entity when you create a POST action through an API.|[Configuring API Templates](admin-configuring-api-template.md)|
 |Encrypt data on the [!INCLUDE[d365fin](includes/d365fin_md.md)] server by generating new or importing existing encryption keys that you enable on the server.|[Managing Data Encryption](admin-manage-data-encryption.md)|
 |Connect Dynamics 365 for Sales with [!INCLUDE[d365fin](includes/d365fin_md.md)] to obtain seamless integration between customer relations and order processing in the lead-to-cash process.|[Integrating with Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)|
+|Change which fields and actions are shown in the user interface to fit your company's business processes and extend the solution with apps.|[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)|
 
 ## See Also
 [Business Functionality](across-business-functionality.md)  

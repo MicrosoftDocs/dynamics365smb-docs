@@ -1209,8 +1209,7 @@
 ### General
 #### [How to Manage Customer Credit Information](LocalFunctionality/UnitedStates/how-to-manage-customer-credit-information.md)  
 #### [Print Troubleshooting Reports](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
-## [Submit Regulatory Alerts](
-    submit-regulatory-alerts.md)
+## [Submit Regulatory Alerts](submit-regulatory-alerts.md)
 # [Compliance](compliance/compliance-overview.md)
 ## [Application Compliance](compliance/compliance-application-compliance.md)
 ## [Service Compliance](compliance/compliance-service-compliance.md)

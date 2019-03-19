@@ -18,24 +18,22 @@ The following topics describe local functionality that is unique to the United K
 
 ## Feature Availability
 
-* Setup
-    * [Set Up a Posting Date Warning](how-to-set-up-a-posting-date-warning.md) **Available Now**
-
-* VAT
+* VAT & Tax
     * [Making Tax Digital - VAT Returns submission](making-tax-digital-submit-vat-return.md) **Available Now**
     * [Change VAT Setup in Journals](how-to-change-vat-setup-in-journals.md) **Available Now**
     * [Print VAT Audit Reports](how-to-print-vat-audit-reports.md) **Available Now**
     * [Print VAT Reports](how-to-print-vat-reports.md)|Current|
     * [Set Up Reverse Charges on VAT](how-to-set-up-reverse-charges-on-vat.md) **Available Now**
 
-* Banking and Payments
+* Banking & Payments
     * [Print Checks for APACS](how-to-print-checks-for-apacs.md) **Available Now**
     * [Print Remittance Advice](how-to-print-remittance-advice.md) **Available Now**
 
 * Fixed Assets
     * [Define Accounting Periods for Straight Line Depreciation of Fixed Assets](how-to-define-accounting-periods-for-straight-line-depreciation-of-fixed-assets.md) **Available Now**
 
-* General Business Functionality
+* General
+    * [Set Up a Posting Date Warning](how-to-set-up-a-posting-date-warning.md) **Available Now**
     * [Enter Statutory Information](how-to-enter-statutory-information.md) **Available Now**
     * [The GetAddress.io UK Postcodes Extension](ui-extensions-getaddressio.md) **Available Now**
     * [Set Up the GetAddress.io UK Postcodes Extension](uk-setup-postal-code-service.md) **Available Now**

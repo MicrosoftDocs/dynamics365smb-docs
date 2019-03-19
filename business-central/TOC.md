@@ -1126,16 +1126,15 @@
 #### [Set Limits for Due Dates](LocalFunctionality/Spain/how-to-set-limits-for-due-dates.md)
 
 ## [Sweden](LocalFunctionality/Sweden/sweden-local-functionality.md)
-### [Automatic Account Codes](LocalFunctionality/Sweden/automatic-account-codes.md)  
-### [Set Up Automatic Account Posting Groups](LocalFunctionality/Sweden/how-to-set-up-automatic-account-posting-groups.md)
-### [Import and Export Data in Standard Import Export Format](LocalFunctionality/Sweden/how-to-import-and-export-data-in-standard-import-export-format.md)  
-### [Print Balance Sheet and Income Statement Reports](LocalFunctionality/Sweden/how-to-print-balance-sheet-and-income-statement-reports.md)  
-### [Set Up EU Third-Party Purchase Transactions](LocalFunctionality/Sweden/how-to-set-up-eu-third-party-purchase-transactions.md)
+### VAT & Tax
+#### [Set Up EU Third-Party Purchase Transactions](LocalFunctionality/Sweden/how-to-set-up-eu-third-party-purchase-transactions.md)
+### Core Finance
+#### [Automatic Account Codes](LocalFunctionality/Sweden/automatic-account-codes.md)  
+#### [Set Up Automatic Account Posting Groups](LocalFunctionality/Sweden/how-to-set-up-automatic-account-posting-groups.md)
+#### [Import and Export Data in Standard Import Export Format](LocalFunctionality/Sweden/how-to-import-and-export-data-in-standard-import-export-format.md)  
+#### [Print Balance Sheet and Income Statement Reports](LocalFunctionality/Sweden/how-to-print-balance-sheet-and-income-statement-reports.md)  
 
 ## [Switzerland](LocalFunctionality/Switzerland/switzerland-local-functionality.md)
-### Setup
-#### [Set Up Delivery Reminders](LocalFunctionality/Switzerland/how-to-set-up-delivery-reminders.md)
-#### [Set Up Delivery Reminder Terms, Levels, and Texts](LocalFunctionality/Switzerland/how-to-set-up-delivery-reminder-terms-levels-and-text.md)
 ### VAT & Tax
 #### [Create and print a Swiss VAT Statement](LocalFunctionality/Switzerland/how-to-create-and-print-a-swiss-vat-statement.md)
 #### [Print Swiss VAT Statements (Older Versions)](LocalFunctionality/Switzerland/how-to-print-swiss-vat-statements-older-version-.md)
@@ -1153,53 +1152,64 @@
 #### [Swiss Electronic Payments](LocalFunctionality/Switzerland/swiss-electronic-payments.md)
 #### [Swiss Electronic Payments Using ESR](LocalFunctionality/Switzerland/swiss-electronic-payments-using-esr.md)
 #### [Swiss Electronic Payments Using LSV](LocalFunctionality/Switzerland/swiss-electronic-payments-using-lsv-.md)
-### General Business Functionality
+### Core Finance
+#### [Swiss General Ledger Accounts](LocalFunctionality/Switzerland/swiss-general-ledger-accounts.md)
 #### [Balance](LocalFunctionality/Switzerland/balance.md)
+#### [Adjust Exchange Rates](LocalFunctionality/Switzerland/how-to-adjust-exchange-rates.md)
+#### [View Temporary Balances in General Ledger Journals](LocalFunctionality/Switzerland/how-to-view-temporary-balances-in-general-ledger-journals.md)
+#### [Print General Ledger Setup Information](LocalFunctionality/Switzerland/how-to-print-general-ledger-setup-information.md)
+### Purchasing
 #### [Delivery Reminders](LocalFunctionality/Switzerland/delivery-reminders.md)
+#### [Set Up Delivery Reminders](LocalFunctionality/Switzerland/how-to-set-up-delivery-reminders.md)
+#### [Set Up Delivery Reminder Terms, Levels, and Texts](LocalFunctionality/Switzerland/how-to-set-up-delivery-reminder-terms-levels-and-text.md)
 #### [Assign Delivery Codes to Vendors](LocalFunctionality/Switzerland/how-to-assign-delivery-reminder-codes-to-vendors.md)
 #### [Create Delivery Reminders Manually](LocalFunctionality/Switzerland/how-to-create-delivery-reminders-manually.md)
-#### [Generate Delivery Reminders](LocalFunctionality/Switzerland/how-to-generate-delivery-reminders.md)
-#### [Import Swiss Post Codes](LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md)
 #### [Issue Delivery Reminders](LocalFunctionality/Switzerland/how-to-issue-delivery-reminders.md)
-#### [Print an Inventory Picking List from a Sales Order](LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order.md)
-#### [Print General Ledger Setup Information](LocalFunctionality/Switzerland/how-to-print-general-ledger-setup-information.md)
-#### [Print Sales and Purchase Orders During Batch Posting](LocalFunctionality/Switzerland/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
+#### [Generate Delivery Reminders](LocalFunctionality/Switzerland/how-to-generate-delivery-reminders.md)
 #### [Print Test Reports for Delivery Reminders](LocalFunctionality/Switzerland/how-to-print-test-reports-for-delivery-reminders.md)
-#### [View Temporary Balances in General Ledger Journals](LocalFunctionality/Switzerland/how-to-view-temporary-balances-in-general-ledger-journals.md)  
+### Inventory
 #### [Swiss Inventory Management](LocalFunctionality/Switzerland/swiss-inventory-management.md)
-#### [Swiss General Ledger Accounts](LocalFunctionality/Switzerland/swiss-general-ledger-accounts.md)
+#### [Copy Existing Items to New Items](LocalFunctionality/Switzerland/how-to-copy-existing-items-to-new-items.md)
+#### [Print an Inventory Picking List from a Sales Order](LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order.md)
+### General    
+#### [Import Swiss Post Codes](LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md)
+#### [Swiss Purchase Documents and Sales Orders](LocalFunctionality/Switzerland/swiss-purchase-documents-and-sales-documents.md)
+#### [Print Sales and Purchase Orders During Batch Posting](LocalFunctionality/Switzerland/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 
 ## [United Kingdom](LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.md)
 ### Setup
-#### [Set Up a Posting Date Warning](LocalFunctionality/UnitedKingdom/how-to-set-up-a-posting-date-warning.md)
-### VAT
+### VAT & Tax
 #### [Making Tax Digital - VAT Returns submission](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)
 #### [Change VAT Setup in Journals](LocalFunctionality/UnitedKingdom/how-to-change-vat-setup-in-journals.md)
 #### [Print VAT Audit Reports](LocalFunctionality/UnitedKingdom/how-to-print-vat-audit-reports.md)
 #### [Print VAT Reports](LocalFunctionality/UnitedKingdom/how-to-print-vat-reports.md)
 #### [Set Up Reverse Charges on VAT](LocalFunctionality/UnitedKingdom/how-to-set-up-reverse-charges-on-vat.md)
-### Banking and Payments
+### Banking & Payments
 #### [Print Checks for APACS](LocalFunctionality/UnitedKingdom/how-to-print-checks-for-apacs.md)
 #### [Print Remittance Advice](LocalFunctionality/UnitedKingdom/how-to-print-remittance-advice.md)
 ### Fixed Assets
 #### [Define Accounting Periods for Straight Line Depreciation of Fixed Assets](LocalFunctionality/UnitedKingdom/how-to-define-accounting-periods-for-straight-line-depreciation-of-fixed-assets.md)
-### General Business Functionality
-#### [Enter Statutory Information](LocalFunctionality/UnitedKingdom/how-to-enter-statutory-information.md)
+### General
+#### [Set Up a Posting Date Warning](LocalFunctionality/UnitedKingdom/how-to-set-up-a-posting-date-warning.md)######## [Enter Statutory Information](LocalFunctionality/UnitedKingdom/how-to-enter-statutory-information.md)
 #### [The GetAddress.io UK Postcodes Extension](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
 #### [Set Up the GetAddress.io UK Postcodes Extension](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
 #### [Enter External Document Numbers](LocalFunctionality/UnitedKingdom/how-to-enter-external-document-numbers.md)
 #### [Print Direct Sales and Purchase Details Reports](LocalFunctionality/UnitedKingdom/how-to-print-direct-sales-and-purchase-details-reports.md)
 
 ## [United States](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
-### [Create Deposits](LocalFunctionality/UnitedStates/how-to-create-deposits.md)  
-### [Export a Positive Pay File](finance-how-positive-pay.md)
-### [Print Troubleshooting Reports](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
-### [Reconcile Bank Accounts](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md)
-### [Reporting Sales Tax in the US](LocalFunctionality/UnitedStates/us-sales-tax.md)  
-### [Reporting Transactions as 1099 Liable in the US](LocalFunctionality/UnitedStates/tax-1099.md)  
-### [Set Up Use Tax and Purchase Tax](LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md)  
-### [Set Up Unrealized Sales Tax and Sales Payment Discounts](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
-### [US Sales Tax](LocalFunctionality/UnitedStates/us-sales-tax.md)
+### Tax
+#### [US Sales Tax](us-sales-tax.md)
+#### [Reporting Sales Tax in the US](us-sales-tax.md)  
+#### [Reporting Transactions as 1099 Liable in the US](tax-1099.md)  
+#### [Set Up Use Tax and Purchase Tax](how-to-set-up-use-tax-and-purchase-tax.md)  
+#### [Set Up Unrealized Sales Tax and Sales Payment Discounts](how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
+### Banking & Payments
+#### [Create Deposits](how-to-create-deposits.md)  
+#### [Export a Positive Pay File](../../finance-how-positive-pay.md)
+#### [Reconcile Bank Accounts](how-to-reconcile-bank-accounts.md)
+### General
+#### [How to Manage Customer Credit Information](how-to-manage-customer-credit-information.md)  
+#### [Print Troubleshooting Reports](how-to-print-troubleshooting-reports.md)
 ## [Submit Regulatory Alerts](submit-regulatory-alerts.md)
 # [Compliance](compliance/compliance-overview.md)
 ## [Application Compliance](compliance/compliance-application-compliance.md)

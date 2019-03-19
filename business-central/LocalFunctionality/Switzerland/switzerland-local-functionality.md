@@ -21,10 +21,6 @@ The following topics describe local functionality that is unique to the Swiss ve
 
 ## Feature Availability
 
-* Setup
-    * [Set Up Delivery Reminders](how-to-set-up-delivery-reminders.md) **Available Now**
-    * [Set Up Delivery Reminder Terms, Levels, and Texts](how-to-set-up-delivery-reminder-terms-levels-and-text.md) **Available Now**
-
 * VAT & Tax
     * [Create and print a Swiss VAT Statement](how-to-create-and-print-a-swiss-vat-statement.md) **Available Now**
     * [Print Swiss VAT Statements (Older Versions)](how-to-print-swiss-vat-statements-older-version-.md) **Available Now**
@@ -44,23 +40,32 @@ The following topics describe local functionality that is unique to the Swiss ve
     * [Swiss Electronic Payments Using ESR](swiss-electronic-payments-using-esr.md) **Available Now**
     * [Swiss Electronic Payments Using LSV](swiss-electronic-payments-using-lsv-.md) **Available Now**
 
-* General Business Functionality
+* Core Finance
+    * [Swiss General Ledger Accounts](swiss-general-ledger-accounts.md) **Available Now**
     * [Balance](balance.md) **Available Now**
-    * [Delivery Reminders](delivery-reminders.md) **Available Now**
     * [Adjust Exchange Rates](how-to-adjust-exchange-rates.md) **Available Now**
+    * [View Temporary Balances in General Ledger Journals](how-to-view-temporary-balances-in-general-ledger-journals.md) **Available Now**
+    * [Print General Ledger Setup Information](how-to-print-general-ledger-setup-information.md) **Available Now**
+
+* Purchasing
+    * [Delivery Reminders](delivery-reminders.md) **Available Now**
+    * [Set Up Delivery Reminders](how-to-set-up-delivery-reminders.md) **Available Now**
+    * [Set Up Delivery Reminder Terms, Levels, and Texts](how-to-set-up-delivery-reminder-terms-levels-and-text.md) **Available Now**
     * [Assign Delivery Codes to Vendors](how-to-assign-delivery-reminder-codes-to-vendors.md) **Available Now**
     * [Create Delivery Reminders Manually](how-to-create-delivery-reminders-manually.md) **Available Now**
-    * [Generate Delivery Reminders](how-to-generate-delivery-reminders.md) **Available Now**
-    * [Import Swiss Post Codes](how-to-import-swiss-post-codes.md) **Available Now**
     * [Issue Delivery Reminders](how-to-issue-delivery-reminders.md) **Available Now**
-    * [Print an Inventory Picking List from a Sales Order](how-to-print-an-inventory-picking-list-from-a-sales-order.md) **Available Now**
-    * [Print General Ledger Setup Information](how-to-print-general-ledger-setup-information.md) **Available Now**
-    * [Print Sales and Purchase Orders During Batch Posting](how-to-print-sales-and-purchase-orders-during-batch-posting.md) **Available Now**
+    * [Generate Delivery Reminders](how-to-generate-delivery-reminders.md) **Available Now**
     * [Print Test Reports for Delivery Reminders](how-to-print-test-reports-for-delivery-reminders.md) **Available Now**
-    * [View Temporary Balances in General Ledger Journals](how-to-view-temporary-balances-in-general-ledger-journals.md) **Available Now**  
+
+* Inventory
     * [Swiss Inventory Management](swiss-inventory-management.md) **Available Now**
+    * [Copy Existing Items to New Items](how-to-copy-existing-items-to-new-items.md)
+    * [Print an Inventory Picking List from a Sales Order](how-to-print-an-inventory-picking-list-from-a-sales-order.md) **Available Now**
+
+* General    
+    * [Import Swiss Post Codes](how-to-import-swiss-post-codes.md) **Available Now**
     * [Swiss Purchase Documents and Sales Orders](swiss-purchase-documents-and-sales-documents.md) **Available Now**
-    *[Swiss General Ledger Accounts](swiss-general-ledger-accounts.md) **Available Now**
+    * [Print Sales and Purchase Orders During Batch Posting](how-to-print-sales-and-purchase-orders-during-batch-posting.md) **Available Now**
 
 ## See Also
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)

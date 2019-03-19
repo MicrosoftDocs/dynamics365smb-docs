@@ -22,6 +22,7 @@ The following topics describe local functionality that is unique to the Spanish 
 ## Feature Availability  
 
 * VAT & Tax  
+    * [SII - Invoice and Credit Memo Types in Sales and Purchase Documents](SII-invoice-types-sales-purchase-documents.md) **Available Now**
     * [VAT Reports](vat-reports.md) **Available Now**
     * [Report 340](report-340.md) **Available Now**  
     * [Create Report 340](how-to-create-report-340.md) **Available Now**  
@@ -52,7 +53,6 @@ The following topics describe local functionality that is unique to the Spanish 
     * [Cartera Module](cartera-module.md) **Available Now**
     * [Receivables Cartera Module](receivables-cartera-module.md) **Available Now**
     * [Payments Cartera Module](payments-cartera-module.md) **Available Now**
-    * [SII - Invoice and Credit Memo Types in Sales and Purchase Documents](SII-invoice-types-sales-purchase-documents.md) **Available Now**
 
 * Core Finance
     * [Set Up and Close Income Statement Balances](how-to-set-up-and-close-income-statement-balances.md) **Available Now**
@@ -69,7 +69,7 @@ The following topics describe local functionality that is unique to the Spanish 
     * [Calculating Due Dates](calculating-due-dates.md) **Available Now**
     * [Set Up Operation Codes](how-to-set-up-operation-codes.md) **Available Now**
     * [Enter NACE Codes](how-to-enter-nace-codes.md) **Available Now**
-    * [Set Limits for Due Dates](how-to-set-limits-for-due-dates.md) **Available Now** 
+    * [Set Limits for Due Dates](how-to-set-limits-for-due-dates.md) **Available Now**
 
 ## See Also
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)

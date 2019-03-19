@@ -19,11 +19,16 @@
 # Sweden Local Functionality
 The following topics describe local functionality that is unique to the Swedish version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
-## In This Section  
-  [Automatic Account Codes](automatic-account-codes.md)  
-  [Import and Export Data in Standard Import Export Format](how-to-import-and-export-data-in-standard-import-export-format.md)  
-  [Print Balance Sheet and Income Statement Reports](how-to-print-balance-sheet-and-income-statement-reports.md)  
-  [Set Up EU Third-Party Purchase Transactions](how-to-set-up-eu-third-party-purchase-transactions.md)
+## Feature Availability  
+
+* VAT & Tax
+    * [Set Up EU Third-Party Purchase Transactions](how-to-set-up-eu-third-party-purchase-transactions.md) **Available Now**
+
+* Core Finance
+    * [Automatic Account Codes](automatic-account-codes.md) **Available Now**
+    * [Set Up Automatic Account Posting Groups](LocalFunctionality/Sweden/how-to-set-up-automatic-account-posting-groups.md)  **Available Now**
+    * [Import and Export Data in Standard Import Export Format](how-to-import-and-export-data-in-standard-import-export-format.md) **Available Now**  
+    * [Print Balance Sheet and Income Statement Reports](how-to-print-balance-sheet-and-income-statement-reports.md) **Available Now**  
 
 ## See Also
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)    

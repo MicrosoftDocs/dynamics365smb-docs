@@ -26,7 +26,7 @@ The following topics describe local functionality that is unique to the Swedish 
 
 * Core Finance
     * [Automatic Account Codes](automatic-account-codes.md) **Available Now**
-    * [Set Up Automatic Account Posting Groups](LocalFunctionality/Sweden/how-to-set-up-automatic-account-posting-groups.md)  **Available Now**
+    * [Set Up Automatic Account Posting Groups](how-to-set-up-automatic-account-posting-groups.md)  **Available Now**
     * [Import and Export Data in Standard Import Export Format](how-to-import-and-export-data-in-standard-import-export-format.md) **Available Now**  
     * [Print Balance Sheet and Income Statement Reports](how-to-print-balance-sheet-and-income-statement-reports.md) **Available Now**  
 

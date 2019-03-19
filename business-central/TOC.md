@@ -1198,19 +1198,19 @@
 
 ## [United States](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 ### Tax
-#### [US Sales Tax](us-sales-tax.md)
-#### [Reporting Sales Tax in the US](us-sales-tax.md)  
-#### [Reporting Transactions as 1099 Liable in the US](tax-1099.md)  
-#### [Set Up Use Tax and Purchase Tax](how-to-set-up-use-tax-and-purchase-tax.md)  
-#### [Set Up Unrealized Sales Tax and Sales Payment Discounts](how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
+#### [US Sales Tax](LocalFunctionality/UnitedStates/us-sales-tax.md)
+#### [Reporting Sales Tax in the US](LocalFunctionality/UnitedStates/us-sales-tax.md)  
+#### [Reporting Transactions as 1099 Liable in the US](LocalFunctionality/UnitedStates/tax-1099.md)  
+#### [Set Up Use Tax and Purchase Tax](LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md)  
+#### [Set Up Unrealized Sales Tax and Sales Payment Discounts](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
 ### Banking & Payments
-#### [Create Deposits](how-to-create-deposits.md)  
-#### [Export a Positive Pay File](../../finance-how-positive-pay.md)
-#### [Reconcile Bank Accounts](how-to-reconcile-bank-accounts.md)
+#### [Create Deposits](LocalFunctionality/UnitedStates/how-to-create-deposits.md)  
+#### [Reconcile Bank Accounts](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md)
 ### General
-#### [How to Manage Customer Credit Information](how-to-manage-customer-credit-information.md)  
-#### [Print Troubleshooting Reports](how-to-print-troubleshooting-reports.md)
-## [Submit Regulatory Alerts](submit-regulatory-alerts.md)
+#### [How to Manage Customer Credit Information](LocalFunctionality/UnitedStates/how-to-manage-customer-credit-information.md)  
+#### [Print Troubleshooting Reports](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
+## [Submit Regulatory Alerts](
+    submit-regulatory-alerts.md)
 # [Compliance](compliance/compliance-overview.md)
 ## [Application Compliance](compliance/compliance-application-compliance.md)
 ## [Service Compliance](compliance/compliance-service-compliance.md)

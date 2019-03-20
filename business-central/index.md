@@ -8,7 +8,7 @@ ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2018
+ms.date: 03/20/2019
 ms.author: sgroespe
 
 ---
@@ -24,7 +24,9 @@ ms.author: sgroespe
 |**Community Resources**|-   [Microsoft Dynamics 365 Business Central Community](https://community.dynamics.com/business)<br />-   [Microsoft Dynamics 365 Business Central Blog](https://community.dynamics.com/business/b/financials)<br />-   [Microsoft Dynamics 365 Business Central Release Notes](https://go.microsoft.com/fwlink/?linkid=2047422)<br />-   [Microsoft Dynamics PartnerSource \(requires PartnerSource account\)](https://mbs.microsoft.com/partnersource)<br />-   [Microsoft Partner Network \(requires Microsoft Partner Network membership account\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)|  
 
 ## See Also
+
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as my Business Inbox in Outlook](admin-outlook.md)  
 [Getting [!INCLUDE[d365fin](includes/d365fin_md.md)] on Your Mobile Device](install-mobile-app.md)  
+[Resources for Help and Support](product-help-and-support.md)  
 [Dynamics 365 documentation](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)

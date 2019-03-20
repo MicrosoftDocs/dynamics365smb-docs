@@ -42,13 +42,13 @@ The [Business Central blog](https://community.dynamics.com/business/b/financials
 
 ### Capabilities coming soon
 
-[!INCLUDE[prodshort](includes/prodshort.md)] is updated with major feature updates every 6 months, and with monthly service updates. Choose the link to view the latest release notes. You can also get an overview of upcoming and recently released capabilities in the release notes across Dynamics 365 at [https://dynamics.microsoft.com/en-us/business-applications/release/#release-notes](https://dynamics.microsoft.com/en-us/business-applications/release/#release-notes).  
+[!INCLUDE[prodshort](includes/prodshort.md)] is updated with major feature updates every 6 months, and with monthly service updates. Choose the link to view the latest release notes. You can also get an overview of upcoming and recently released capabilities in the release notes across Dynamics 365 at [https://dynamics.microsoft.com/en-us/business-applications/release/](https://dynamics.microsoft.com/en-us/business-applications/release/#release-notes).  
 
-The [!INCLUDE[prodshort](includes/prodshort.md)] [roadmap page](https://dynamics.microsoft.com/roadmap/business-central/) shows the general priorities for [!INCLUDE[prodshort](includes/prodshort.md)] in the coming years.  
+For the longer term overview, the [!INCLUDE[prodshort](includes/prodshort.md)] [roadmap page](https://dynamics.microsoft.com/roadmap/business-central/) shows the general priorities for [!INCLUDE[prodshort](includes/prodshort.md)] in the coming years.  
 
 ## Do more with your trial
 
-This section gives you shortcuts to Microsoft AppSource where you can find solutions and services from [!INCLUDE [prodshort](includes/prodshort.md)] partners. Use the links to explorer the full capabilities of [!INCLUDE [prodshort](includes/prodshort.md)] before you decide if you want to buy a subscription. You can also find a link to contact the sales team.
+This section gives you shortcuts to Microsoft AppSource where you can find solutions and services from [!INCLUDE [prodshort](includes/prodshort.md)] partners. Use the links to explore the full capabilities of [!INCLUDE [prodshort](includes/prodshort.md)] before you decide if you want to buy a subscription. You can also find a link to contact the sales team.
 
 > [!NOTE]
 > This section is only available in trial experiences. If you already bought [!INCLUDE [prodshort](includes/prodshort.md)], the section is not longer visible.
@@ -57,7 +57,7 @@ This section gives you shortcuts to Microsoft AppSource where you can find solut
 
 On the [Dynamics 365 Ideas site](https://aka.ms/bcideas), you can provide suggestions for new feature and capabilities. Your input goes directly to Business Central’s engineering backlog for investigation and prioritization.  
 
-Make sure to search through the list of submitted suggestions, as chances are that someone already submitted something similar and might have already received votes. Vote if an idea already has been submitted to get it prioritized on the engineering backlog.  
+Make sure that you search through the list of submitted suggestions. Chances are that someone already submitted something similar, and that entry might have already received votes. Vote if an idea already has been submitted to get it prioritized on the engineering backlog.  
 
 ## Troubleshooting
 

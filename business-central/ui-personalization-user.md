@@ -32,7 +32,7 @@ Depending on the type of page and what it includes, you can do various things, l
 > In addition to what users can personalize, administrators and super users can override users' personalizations and define which features are accessible in all or specific companies. For more information, see [Customizing Business Central](ui-customizing-overview.md).
 
 -->
-## To personalize a page
+## How to personalize a page
 
 1. In the upper-right corner, select the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, and then choose **Personalize**.
 

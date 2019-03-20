@@ -35,7 +35,7 @@ The following table lists some of the general functionality with links to topics
 |Learn how to interact with Excel from practically anywhere in [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Viewing and Editing in Excel](across-work-with-excel.md)|
 |Get notified about certain events or changes in status, such as when you are about to invoice a customer who has an overdue balance.|[Managing Notifications](ui-smart-notifications.md)|
 | Change basic settings such as company, work date, and Role Center. |[Changing Basic Settings](ui-change-basic-settings.md) |
-| Change which fields and actions are shown in the user interface to fit your company's business processes. |[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md) |
+| Change which and where UI elements are shown to fit your preferences.|[Personalizing Your Workspace](ui-personalization-user.md) |
 |Define, preview, print, or save reports and define and run batch jobs.|[Working with Reports and Batch Jobs](ui-work-report.md)|
 | Manage the content and format of reports and documents, including which data fields of a report dataset appear on the report and how they are arranged, text style, images, and more.|[Managing Report and Document Layouts](ui-manage-report-layouts.md) |
 |Learn about features and capabilities that make [!INCLUDE[d365fin](includes/d365fin_md.md)] readily available to people with disabilities.|[Accessibility and Keyboard Shortcuts](ui-accessibility.md)|

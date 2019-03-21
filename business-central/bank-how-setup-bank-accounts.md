@@ -46,5 +46,6 @@ Fields on the **Transfer** FastTab on the **Vendor Bank Account Card** page are 
 
 ## See Also
 [Setting Up Banking](bank-setup-banking.md)  
+[Setting Up Posting Groups](finance-posting-groups.md)  
 [Managing Bank Accounts](bank-manage-bank-accounts.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

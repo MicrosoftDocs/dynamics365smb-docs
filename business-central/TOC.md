@@ -209,6 +209,7 @@
 ## [Configuring API Templates](admin-configuring-api-template.md)
 ## [Managing Data Encryption](admin-manage-data-encryption.md)
 ## [Extending Your Trial Version](admin-extend-trial.md)
+## [Integrating with Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)
 ## [Customizing Business Central](ui-customizing-overview.md)
 ### [Customizing Using Extensions](ui-extensions.md)
 #### [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
@@ -363,6 +364,7 @@
 ## [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)
 ## [Track Packages](sales-how-track-packages.md)
 ## [Date Calculation for Sales](sales-date-calculation-for-sales.md)
+## [Create a Forecast](production-how-to-create-a-forecast.md)
 ## [Merge Duplicate Records](sales-how-merge-duplicate-records.md)
 
 # [Purchasing](purchasing-manage-purchasing.md)

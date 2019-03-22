@@ -168,35 +168,24 @@ In a ledger entry page, you can see whether there are global dimensions for the 
 >  The **Ledger Entry Dimensions** page displays the dimensions for one ledger entry at a time. As you scroll through the ledger entries, the content on the **Ledger Entry Dimensions** page changes accordingly.
 
 ## Troubleshooting Dimensions Errors
+When you post documents or journal lines that contain dimensions, various errors may occur that are typically related to wrong dimension setup or assignment. In the following list of potential error messages, the *%X* are placeholders for the variable data that the actual message will contain in the UI depending on the context.   
 
 |Issue|Error Message|Possible Solution|
 |-----|-------------|-----------------|
-|Blocked Dimension|%1 %2 is blocked.|1.	Look for non-posted documents containing the dimension sets with the blocked dimension and unblock it.<br />2. Remove the dimension set line for the blocked dimension.|
-|Deleted Dimension|%1 %2 can't be found.|1.	Restore the missing dimension.<br />2. Look for non-posted documents containing the dimension sets with the missing dimension and add it.<br />2. Remove the dimension set line for the missing dimension.|
-
-Blocked Dim Value	%1 %2 - %3 is blocked.	1.	Unblock the dim value
-2.	Remove line from the set
-Deleted Dim Value	%1 for %2 is missing.	1.	Restore the deleted dimension value manually
-2.	Remove line from the set
-Not Allowed Dim Value ( when "Dimension Value Type" is not "Standard" nor "Begin-Total")	Dimension Value Type for %1 %2 - %3 must not be %4.	1.	Change "Dimension Value Type" in the Dimension Value to "Standard" or "Begin-Total"
-2.	Remove line from the set
-Blocked Dim Combination	Dimensions %1 and %2 can't be used concurrently.	1.	Unblock the dim combination
-2.	Modify one of conflicting lines in the set
-Blocked Dim Value Combination	Dimension combinations %1 - %2 and %3 - %4 can't be used concurrently.	1.	Unblock the dim value combination
-2.	Modify Dim Value Code in one of conflicting lines in the set
-Blank Dimension Value Code for Default Dimension with "Value Posting"::"Code Mandatory"	Select a %1 for the %2 %3.
-Select a %1 for the %2 %3 for %4 %5.	1.	Change "Value Posting" in Default Dimension
-2.	Put a not blank dimension value for the conflicting dimension in the set
-Wrong Dimension Value Code for Default Dimension with "Value Posting"::"Same Code"	Select %1 %2 for the %3 %4.
-Select %1 %2 for the %3 %4 for %5 %6.	1.	Change "Value Posting" in Default Dimension
-2.	Put a the required dimension value for the conflicting dimension in the set
-Not Blank Dimension Value Code for blank Default Dimension with "Value Posting"::"Same Code"	%1 %2 must be blank.
-%1 %2 must be blank for %3 %4.	1.	Change "Value Posting" in Default Dimension
-2.	Put a blank dimension value code for the conflicting dimension in the set
-Unexpected Dimension Value for Default Dimension with "Value Posting"::"No Code"	%1 %2 must not be mentioned.
-%1 %2 must not be mentioned for %3 %4	1.	Change "Value Posting" in Default Dimension
-2.	Remove the conflicting line from the set
-
+|Blocked dimension|%1 %2 is blocked.|*	Find non-posted documents containing the dimension set with the blocked dimension and unblock it.<br />* Remove the dimension set line for the blocked dimension.|
+|Deleted dimension|%1 %2 can't be found.|*	Restore the missing dimension.<br />* Find non-posted documents containing the dimension set with the missing dimension and add it.<br />* Remove the dimension set line for the missing dimension.|
+|Blocked dimension value|%1 %2 - %3 is blocked.|* Find the non-posted documents containing the dimension set with the blocked dimension value and unblock it.<br />* Remove the dimension set line for the blocked dimension value.|
+|Deleted dimension value|	%1 for %2 is missing.|*	Restore the missing dimension value.<br />* Look for non-posted documents containing the dimension set with the missing dimension value and add it.<br />* Remove the dimension set line for the missing dimension value.|
+|Disallowed dimension value|Dimension Value Type for %1 %2 - %3 must not be %4.|* Change the **Dimension Value Type" field on the **Dimension Values** page to **Standard** or **Begin-Total**. <br /* Remove the dimension set line for the blocked dimension value.|
+|Blocked dimension combination|Dimensions %1 and %2 can't be used concurrently.|* Find non-posted documents containing the dimension set with the blocked dimension combination and unblock it.<br />* Modify one of the conflicting permission set line for the dimension combination.|
+|Blocked dimension value Combination|Dimension combinations %1 - %2 and %3 - %4 can't be used concurrently.|* Find non-posted documents containing the dimension set with the blocked dimension value combination and unblock it.<br />* Modify one of the conflicting permission set line for the dimension value combination.|
+|Blank dimension value code for default dimension where the **Value Posting** field contains **Code Mandatory**|Select a %1 for the %2 %3.<br /
+Select a %1 for the %2 %3 for %4 %5.|* Change the **Value Posting** field on the **Default Dimension** page.<br /* Enter a non-blank dimension value for the conflicting dimension in the dimension set.|
+|Wrong dimension value code for default dimension where the **Value Posting** field contains **Same Code**|Select %1 %2 for the %3 %4.<br /
+Select %1 %2 for the %3 %4 for %5 %6|* Change the **Value Posting** field on the **Default Dimension** page.<br /* Enter the required dimension value for the conflicting dimension in the dimension set.|
+|Non-blank dimension value code for blank default dimension wherev the **Value Posting** contains **Same Code**|%1 %2 must be blank.<br /
+%1 %2 must be blank for %3 %4.|<br /* Change the **Value Posting** field on the **Default Dimension** page.<br /* Enter a blank dimension value code for the conflicting dimension in the dimension set.|
+|Unexpected dimension value for default dimension where the **Value Posting** field contains **No Code**|%1 %2 must not be mentioned.<br /%1 %2 must not be mentioned for %3 %4	1.|<br /* Change the **Value Posting** field on the **Default Dimension** page.<br /*Remove the conflicting line from the dimension set.|
 
 ## See Also
 [Business Intelligence](bi.md)  

@@ -47,6 +47,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Sell assembly items that are not currently available by creating a linked assembly order to supply the full or partial sales order quantity.|[Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md)|
 |Invoice a customer once for multiple shipments by combining the shipments on one invoice.|[Combine Shipments on a Single Invoice](sales-how-to-combine-shipments-on-a-single-invoice.md)|
 |Inform your customers of order delivery dates by calculating either the capable-to-promise date or the available-to-promise date.|[Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)|
+|Register your estimates for future sales, specified by item and by period, to function mainly as input to production planning.|[Create a Forecast](production-how-to-create-a-forecast.md)|
 
 ## See Also
 [Setting Up Sales](sales-setup-sales.md)  

@@ -36,18 +36,22 @@ The following steps explain how to create and publish a web service.
 
 When you publish the web service, in the **OData URL** and **SOAP URL** fields, you can see the URLs that are generated for the web service. You can test the web service immediately by choosing the links in the **OData URL** and **SOAP URL** fields. Optionally, you can copy the value of the field and save it for later use.  
 
+> [!IMPORTANT]
+> For codeunits that are published as a SOAP web service, the methods exposed in the codeunit must be marked as `[External]` in the code.
+
 After you publish a web service, it is available to external parties. You can verify the availability of that web service by using a browser, or you can choose the link in the **OData URL** and **SOAP URL** fields on the **Web Services** page. The following procedure illustrates how you can verify the availability of the web service for later use.  
 
 ### To verify the availability of a web service  
 
-1.  In your browser, enter the relevant URL. The following table illustrates the types of URLs that you can enter for different web service types.  
-> [!div class="mx-tdBreakAll"]
-> |Type|Syntax|Example|
-> |----------------|------|-------|
-> |SOAP |https://*Server*:*SOAPWebServicePort*/*ServerInstance*/WS/*CompanyName*/salesDocuments/ |https://mycompany.financials.dynamics.com:7047/MS/WS/MyCompany/Page/salesDocuments?tenant=mycompany.financials.dynamics.com |
-> |OData |https://*Server*:*ODataWebServicePort*/*ServerInstance*/OData/Company('*CompanyName*')|[https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com](https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com) <br />    The company name is case-sensitive.|
+1. In your browser, enter the relevant URL. The following table illustrates the types of URLs that you can enter for different web service types.  
 
-2.  Review the information that is displayed in the browser. Verify that you can see the name of the web service that you have created.  
+    > [!div class="mx-tdBreakAll"]
+    > |Type|Syntax|Example|
+    > |----------------|------|-------|
+    > |SOAP |https://https://api.businesscentral.dynamics.com/*version*/*tenant*/WS/*CompanyName*/*entity*/ |`https://api.businesscentral.dynamics.com/v1.0/a10b3ee6-d9a2-42fe-926f-946e23bb8ddd/WS/CRONUS%20USA%2C%20Inc./Page/InvoiceDocument`|
+    > |OData V4|https://api.businesscentral.dynamics.com/*version*/*tenant*/ODataV4/Company('*CompanyName*')/*entity*|`https://api.businesscentral.dynamics.com/v1.0/a10b3ee6-d9a2-42fe-926f-946e23bb8ddd/ODataV4/Company('CRONUS%20USA%2C%20Inc.')/InvoiceDocument`<br />    The company name is case-sensitive.|
+
+2. Review the information that is displayed in the browser. Verify that you can see the name of the web service that you have created.  
 
 When you access a web service, and you want to write data back to [!INCLUDE[d365fin](includes/d365fin_md.md)], you must specify the company name. You can specify the company as part of the URI as shown in the examples, or you can specify the company as part of the query parameters. For example, the following URIs point to the same OData web service and are both valid URIs.  
 
@@ -59,5 +63,6 @@ https://localhost:7048/server/OData/Company('CRONUS International Ltd.')/Custome
 https://localhost:7048/server/OData/Customer?company='CRONUS International Ltd.'  
 ```  
 
-## See Also  
+## See Also
+
 [Administration](admin-setup-and-administration.md)  

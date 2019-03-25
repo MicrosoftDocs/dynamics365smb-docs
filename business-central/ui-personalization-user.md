@@ -1,8 +1,6 @@
 ---
 title: Personalizing Pages | Microsoft Docs
-description: Learn how to customize the user interface to suit your way of working.
-services: project-madeira
-documentationcenter: ''
+description: Learn how to customize the user interface to suit your way of working in Business Central.
 author: jswymer
 
 ms.service: dynamics365-business-central
@@ -40,19 +38,19 @@ Depending on the type of page and what it includes, you can do various things, l
 
     ![Personalize mode](media/ui_personalize_mode_small.png "Personalize mode")
 
-2.  Go to a page that you want to personalize.
+2. Go to a page that you want to personalize.
 
     If you see a ![Personalize Lock](media/personalization-lock-icon.png "Personalize lock") or ![Personalization blocked](media/personalization-blocked-icon.png "Personalization blocked") in the banner, you cannot personlize the page. For more details, see [Why Can't I Personalize the Page](ui-personalization-locked.md).
 
-3.  Point to an area that you want to personalize, such as a field or column header in a list. Anything that you can personalize is immediately highlighted with an arrowhead or border. See the [next section](#What) for details about what you can do.
+3. Point to an area that you want to personalize, such as a field or column header in a list. Anything that you can personalize is immediately highlighted with an arrowhead or border. See the [next section](#What) for details about what you can do.
 
-4.  You can continue to make changes on the same page or open another page. Your changes are automatically saved as you make them. When you are done, in the **Personalizing** banner, choose **Done**.
+4. You can continue to make changes on the same page or open another page. Your changes are automatically saved as you make them. When you are done, in the **Personalizing** banner, choose **Done**.
 
 ## <a name="What"></a>What you can personalize
 
 |What do you want to do|How to do it|Remarks|
 |----|------------|-------|
-|Move something, like a field, column in list, tile, action, or part|Point anywhere on what you want to move, and drag it to its new location. The location is indicated by either a thick horizontal or vertical line.<br /><br />![Cannot move here icon](media/personalization-cannot-move-here.png "Personalize mode - Cannot move here icon") indicates that you cannot move the element to the selected location.|Parts are subdivisions or areas on a page that contain things like multiple fields, another page, a chart, or tiles.<br /><br />For more details about action personalization, see the [next section](ui-personalization-user.md#Action). |
+|Move something, like a field, column in list, tile, action, or part|Point anywhere on what you want to move, and drag it to its new location. The location is indicated by either a thick horizontal or vertical line.<br /><br />![Cannot move here icon](media/personalization-cannot-move-here.png "Personalize mode - Cannot move here icon") indicates that you cannot move the element to the selected location.|Parts are subdivisions or areas on a page that contain things like multiple fields, another page, a chart, or tiles.<br /><br />For more details about action personalization, see the [next section](ui-personalization-user.md#Actions). |
 |Hide something, like a field, column in list, tile, or part.|Select the arrowhead, and choose <b>Hide</b>.|If the field you hide is also shown in the FastTab heading when the FastTab is collapsed, the field will no longer appear there.|
 |Add a field or column.|In the <b>Personalizing</b> banner, choose <b>More</b>, and then choose <b>Field</b>.<br /></br>The <b>Add Field to Page</b> pane opens on the right. It lists the fields that you can add to the page.<br /><br />To add a field, drag it from the pane to the location that you want it. The location is indicated by either a thick horizontal or vertical line.|Each page includes a predefined set of fields that you can display. Use this procedure to add fields or columns that have not been previously displayed or to show fields that you have hidden.|
 |Display a field in the heading of a Fastab when the FastTab is collapsed.|Select the arrowhead, and choose <b>Show when collapsed</b>. <br /> <br />If you do not see this option, then it is already set. In this case, to stop displaying the field in the FastTab heading, choose <b>Show always</b>.|*FastTab* is the term used for a group of fields that appear under a common heading. Use the <b>Show when collapsed</b> option to display the most important fields. If you select a field in the heading, the FastTab will open and focus on the selected field.<br /><br />This option is only applicable if a page has a more than one FastTab. If the is only one FastTab, it cannot be collapsed, so the <b>Show when collapsed</b> option is not available.|
@@ -102,10 +100,11 @@ Where you can drop actions or actions groups is indicated by a horizontal line b
 ## Additional points-of-interest
 
 To help you better understand personalization, here are some pointers.  
--   When you make changes to a card page that you open from a list, the changes will take effect on all records that you open from that list. For example, let's say you open a specific customer from the Customers list page, and then personalize the page by adding a field. When you open other customers from the list, the field that you added will also be shown.
--   Changes that you make will take effect on all your Role Centers. For example, if you make a change to the Customer list when the Role Center is set to Business Manager, you will also see the change in the Customer list when Role Center is set to Sales Order Processor.
--   Changes to a page in a pane will take effect on the page where ever it is shown.  
--   You can only add fields and columns from a predefined list, which is based on the page. You cannot create new ones.
+
+- When you make changes to a card page that you open from a list, the changes will take effect on all records that you open from that list. For example, let's say you open a specific customer from the Customers list page, and then personalize the page by adding a field. When you open other customers from the list, the field that you added will also be shown.
+- Changes that you make will take effect on all your Role Centers. For example, if you make a change to the Customer list when the Role Center is set to Business Manager, you will also see the change in the Customer list when Role Center is set to Sales Order Processor.
+- Changes to a page in a pane will take effect on the page where ever it is shown.  
+- You can only add fields and columns from a predefined list, which is based on the page. You cannot create new ones.
 
 ## Clear personalization
 

@@ -1,1 +1,1 @@
-Microsoft Dynamics 365 for Sales
+Dynamics 365 for Sales

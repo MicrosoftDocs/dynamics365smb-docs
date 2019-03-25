@@ -1,6 +1,6 @@
 ---
 title: Synchronization and Data Integration | Microsoft Docs
-description: The synchronization copies data between Microsoft Dynamics 365 for Sales entries and Business Central records, and keeps the data in both systems up-to-date.
+description: The synchronization copies data between Dynamics 365 for Sales entries and Business Central records, and keeps the data in both systems up-to-date.
 author: bholtorf
 
 ms.service: dynamics365-business-central
@@ -17,12 +17,12 @@ ms.author: bholtorf
 # Synchronizing Data in Business Central and Dynamics 365 for Sales
 When you integrate [!INCLUDE[crm_md](includes/crm_md.md)] with [!INCLUDE[d365fin](includes/d365fin_md.md)], you can decide whether to synchronize data in selected fields of [!INCLUDE[d365fin](includes/d365fin_md.md)] records (such as customers, contacts, and sales people) with equivalent records in [!INCLUDE[d365fin](includes/d365fin_md.md)] (such as accounts, contacts, and users). Depending on the type of record, you can synchronize data from [!INCLUDE[crm_md](includes/crm_md.md)] to [!INCLUDE[d365fin](includes/d365fin_md.md)], or vice versa. For more information, see [About Integrating Dynamics 365 Business Central with Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
 
-Synchronization uses the following elements: 
+Synchronization uses the following elements:
 
 * Integration table mappings
 * Integration field mappings
 * Synchronization rules
-* Coupled records 
+* Coupled records
 
 When synchronization is set up you can couple [!INCLUDE[d365fin](includes/d365fin_md.md)] records to [!INCLUDE[crm_md](includes/crm_md.md)] records to synchronize their data. You can start a synchronization manually, or based on a schedule. The following table provides on overview of the ways you can synchronize records.  
 

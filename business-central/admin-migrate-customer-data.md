@@ -149,7 +149,11 @@ When the customer data has been entered in the data migration files in Excel, yo
 
 1. Open the **Config. Package Card** page.
 2. Select the table for which you want to import data, and then, on the **Tables** tab, choose the **Import from Excel** action.
-3. Locate and open the file that you want from which you want to import data to [!INCLUDE[d365fin](includes/d365fin_md.md)].
+3. Locate and open the file that you want to import data from.
+4. On the **Config. Package Import Preview** page, review the content that will be imported.
+
+    The **Config. Package Import Preview** page provides an overview of the Excel file content to be imported. It also indicates if a new configuration package is created or the existing one is updated, and if new configuration package lines (tables) are created or existing ones are updated.    
+5. Choose the **Import** action
 
 Data from the file is imported into the configuration package tables. In the **No. of Package Records** field, you can see the number of records that have been imported. In addition, you can see the number of migration errors.
 

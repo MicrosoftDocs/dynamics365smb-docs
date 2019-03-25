@@ -11,11 +11,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/01/2019
+ms.date: 03/05/2019
 ms.author: sgroespe
 
 ---
-# Creating Contacts
+# Create Contacts
 Your company regularly meets prospective companies that usually develop into future business relationships. When a new contact is made, this information needs to be recorded so that communication can continue.
 
 Assigning as much data as possible about a specific company ensures efficient communication. For example, assigning the relevant industry group, ensures that specific companies are included in any relevant communication. You can also define the business relationship that you have with a contact. For example, a contact could be a prospect, bank, or contractor.

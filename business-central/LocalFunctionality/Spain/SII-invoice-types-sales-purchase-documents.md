@@ -17,6 +17,8 @@
 
 ---
 # SII - Invoice and Credit Memo Types in Sales and Purchase Documents
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] supports the Spanish SII requirements for VAT reporting (Immediate Information Supply). For more information, see [Setup and user guide for electronic VAT information under SII in the Spanish version of Dynamics NAV](https://aka.ms/SIISetup).
+
 The following table shows the output of the various types that are used for invoices and credit memos in connection with SII and how they are implemented in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
 
 ## Sales Invoices

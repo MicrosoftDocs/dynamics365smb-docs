@@ -51,27 +51,6 @@ However, you can make a more exact search by using the following special charact
 
 The following table provides some examples to explain how you can use the search.
 
-
-<!--
-In search criteria you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.-->
-
-<!--
-The Quick Filter provides an easy access to filter data by entering plain text, but does also provide a lot of search criteria options. Depending on whether you enter plain text or text including symbols, the Quick Filter behaves differently.  
-
-* If you enter plain text in the search criteria, the search criteria is interpreted as a case insensitive search that contains certain text.  
-* If you enter text including symbols in the search criteria, the search criteria is interpreted exactly as you entered it, and the search is case sensitive.
--->
-<!--
-
-|Search Criteria|Interpreted as...|Finds...|
-|---------------|----------------|----------|
-|`man`<br />or <br />`Man`|Contains the text; case insensitive|All records with fields that contain the text **man**, regardless of the case.|
-|`'Man'`|Entire text match; case sensitive.|All records with fields that only contain **Man** exactly.|
-|`Man*`|Starts with the text; case sensitive.|All records with fields that start with the text <b>Man</b> exactly.|
-|`@Man*`|Starts with the text; case insensitive.|All records with fields that start with **man**, regardless of the case.|
-|`@*man`|Ends with the text; case insensitive.|All records that end with **man**, regardless of the case.|
--->
-
 |Search Criteria|Finds...|
 |---------------|----------|
 |`man`<br />or <br />`Man`|All records with fields that contain the text **man**, regardless of the case. For example, **Manchester**, **manual**, or **Sportsman**. |
@@ -83,7 +62,7 @@ The Quick Filter provides an easy access to filter data by entering plain text, 
 > [!TIP]
 > You can press F3 to activate and deactivate the search box. For more information see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
 
-## Filtering
+## <a name="Filtering"> </a>Filtering
 Filtering provides a more advanced and versatile way of controlling which records display in a list. There are two major differences between searching and filtering, as described in the table below.
 
 || **Searching** | **Filtering** |
@@ -94,13 +73,14 @@ Filtering provides a more advanced and versatile way of controlling which record
 Filtering enables you to display records for specific accounts or customers, dates, amounts, and other information by specifying filter criteria. Only records that match the criteria are displayed. If you specify criteria for multiple fields, then only records that match all criteria will be displayed.
 
 ### Working in the filter pane
+
+To display the filter pane, select ![Filter pane icon](media/open-filter-pane-icon.png "Filter pane icon") at the top of the list or press **Shift+F3**. For lists within the Role Center, you can also choose the down arrow near the page title in the navigation bar above the list, and then choose **Show filter pane** as shown here:
+
+![Show filter pane](media/open-filter-pane.png "Show filter pane")
+
 The filter pane displays the current filters for a list, and enables you to set your own custom filters on one or more fields. The following figure shows an example filter pane for a Sales Quotes list.
 
 ![Filter pane overview ](media/filter-pane-overview.png "Filter icon")
-
-To display the filter pane, use the **Shift+F3** keyboard shortcut. For lists within the Role Center, you can also choose the down arrow near the page title in the navigation bar above the list, and then choose **Show filter pane**.
-
-![Show filter pane](media/open-filter-pane.png "Show filter pane")
 
 A filter pane is divided in three sections: **Views**, **Filter list by**, and **Filter totals by**:
 

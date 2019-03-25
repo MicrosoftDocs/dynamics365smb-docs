@@ -56,7 +56,7 @@ EXIT(DimSet.ID);
 
 ```  
 
- However, to preserve the ability of [!INCLUDE[d365fin](includes/d365fin_md.md)] to rename a dimension and dimension value, table 349 **Dimension Value** is extended with an integer field, **Dimension Value ID**. This table converts the field pair **Dimension** and **Dimension Value** to an integer value. When you rename the dimension and dimension value, the integer value is not changed.  
+However, to preserve the ability of [!INCLUDE[d365fin](includes/d365fin_md.md)] to rename both a dimension and a dimension value, table 349, **Dimension Value**, is extended with an integer field, **Dimension Value ID**. This table converts the field pair, **Dimension** and **Dimension Value**, to an integer value. When you rename the dimension and dimension value, the integer value is not changed.  
 
 ```  
 DimSet."Parent ID" := 0;  // 'root'  

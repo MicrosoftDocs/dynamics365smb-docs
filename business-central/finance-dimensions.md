@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 10/01/2018
+ms.date: 03/05/2019
 ms.author: sgroespe
 
 ---
@@ -44,7 +44,7 @@ You can define the dimensions and dimension values to categorize journals and do
 
 You also set up values for dimensions. For example, values might be departments in your company. Dimension values can be set up in a hierarchical structure similar to the chart of accounts, so that data can be broken down into various levels of granularity, and subsets of dimension values can be totaled. You can define as many dimensions and dimension values as you need, and everyone in your company can use them.
 
-You can also set up some global and shortcut dimensions:  
+When dimensions and values are set up, you can define global and shortcut dimensions on the **General Ledger Setup** page that will always be available to select as fields on journal and document lines, without having to open the **Dimensions** page first. For more information, see [To set up global and shortcut dimensions](finance-dimensions.md#to-set-up-global-and-shortcut-dimensions).
 
 * **Global dimensions** are used as filters, for example, on reports and batch jobs. You can use only two global dimensions, so choose dimensions you will use often.
 * **Shortcut dimensions** are available as fields on journal and document lines. You can create up to six of these.  
@@ -98,16 +98,21 @@ To avoid posting entries with contradictory or irrelevant dimensions, you can bl
 >   
 >  To show the name of the dimensions instead of the code, select the **Show Column Name** field.
 
-### Getting an Overview of Dimensions used Multiple Times
-The **Default Dimensions-Multiple** page specifies how a group of accounts use dimensions and dimension values. You can do this by highlighting multiple accounts and then specifying default dimensions and dimension values for all the accounts you have highlighted in the account list. When you specify default dimensions for the highlighted accounts, the program will suggest these dimensions and dimension values whenever one of these accounts is used, for example on a journal line. This makes entry posting easier for the user, as the dimension fields are filled in automatically. However, the dimension values that are suggested can be changed on, for example, a journal line.
+### To set up global and shortcut dimensions
+Global and shortcut dimensions can be used as a filter anywhere in [!INCLUDE[d365fin](includes/d365fin_md.md)], including on reports, batch jobs, and analysis views. Global and shortcut dimensions are always available to be inserted directly without first opening the **Dimensions** page. On journal and document lines, you can select global and shortcut dimensions in a field on the line. You can set up two global dimensions and eight shortcut dimensions. Choose the dimensions that you use most frequently.
 
-The **Default Dimensions-Multiple** page contains the following fields:
+> [!Important]  
+> Changing a global or shortcut dimension requires that all entries posted with the dimension are updated. You can perform this task with the **Change Global Dimensions** function, but it can be time-consuming and may affect performance. Therefore, choose your global and shortcut dimensions carefully so that you do not have to change them later.
 
-|Field|Description|
-|-----|-----------|  
-|**Dimension Code**|Shows all dimensions that have been defined as default dimensions on one or more of the highlighted accounts. By choosing the field, you can see a list of all available dimensions. If you select a dimension, the selected dimension will be defined as a default dimension for all highlighted accounts.|
-|**Dimension Value Code**|Shows either a single dimension value or the term (Conflict). If a dimension value is shown in the field, then all highlighted accounts have the same default dimension value for a dimension. If the term (Conflict) is shown in the field, then not all of the highlighted accounts have the same default dimension value for a dimension. By choosing the field, you can see a list of all available dimension values for a dimension. If you select a dimension value, the selected dimension value will be defined as a default dimension value for all highlighted accounts.|
-|**Value Posting**|Shows either a single value posting rule or the term (Conflict). If a value posting rule is shown in the field, then all highlighted accounts have the same value posting rule for a dimension value. If the term (Conflict) is shown in the field, then not all of the highlighted accounts have the same value posting rule for a dimension value. By choosing the Value Posting field, you can see a list of value posting rules. If you select a value posting rule, it will be applied for all highlighted accounts.|
+> [!Note]
+> When you add or change a global or shortcut dimension, you are automatically signed out and back in so that the new value is prepared for use all over the application.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.
+2. On the **Dimensions** FastTab, fill in the fields. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+#### To change global dimensions
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Change Global Dimensions**, and then choose the related link.
+2. Hover over actions and fields on the page to learn how to change global and shortcut dimensions.
 
 ### Example of Dimension Setup
 Let's say that your company wants to track transactions based on organizational structure and geographic locations. To do that, you can set up two dimensions on the **Dimensions** page:
@@ -134,7 +139,8 @@ For **AREA**, you add the following dimension values:
 | 80 |Non-EU |Standard |
 | 90 |Europe, Total |End-Total |
 
-For the two main geographic areas, Americas and Europe, you add subcategories for regions by indenting the dimension values. This will let you report on sales or expenses in regions, and get totals for the larger geographic areas. You could also choose to use countries or regions as your dimension values, or counties or cities, depending on your business.  
+For the two main geographic areas, Americas and Europe, you add subcategories for regions by indenting the dimension values. This will let you report on sales or expenses in regions, and get totals for the larger geographic areas. You could also choose to use countries or regions as your dimension values, or counties or cities, depending on your business.
+
 > [!NOTE]  
 >   To set up a hierarchy, the codes must be in alphabetical order. This includes the codes of the dimension values that are provided in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
@@ -146,7 +152,18 @@ For **DEPARTMENT**, you add the following dimension values:
 | PROD |Production |Standard |
 | SALES |Sales |Standard |
 
-With this set up, you then add your two dimensions as the two global dimensions on the **General Ledger Setup** page. This means that you can use AREA and DEPARTMENT as filters for general ledger entries, as well as on all reports and account schedules. Both global dimensions are also automatically available for use on entry lines and document headers as shortcut dimensions.  
+With this set up, you can add your two dimensions as the two global dimensions on the **General Ledger Setup** page. This means that you can use AREA and DEPARTMENT as filters for general ledger entries, as well as on all reports and account schedules. Both global dimensions are also automatically available for use on entry lines and document headers as shortcut dimensions.
+
+## Getting an Overview of Dimensions used Multiple Times
+The **Default Dimensions-Multiple** page specifies how a group of accounts use dimensions and dimension values. You can do this by highlighting multiple accounts and then specifying default dimensions and dimension values for all the accounts you have highlighted in the account list. When you specify default dimensions for the highlighted accounts, the program will suggest these dimensions and dimension values whenever one of these accounts is used, for example on a journal line. This makes entry posting easier for the user, as the dimension fields are filled in automatically. However, the dimension values that are suggested can be changed on, for example, a journal line.
+
+The **Default Dimensions-Multiple** page contains the following fields:
+
+|Field|Description|
+|-----|-----------|  
+|**Dimension Code**|Shows all dimensions that have been defined as default dimensions on one or more of the highlighted accounts. By choosing the field, you can see a list of all available dimensions. If you select a dimension, the selected dimension will be defined as a default dimension for all highlighted accounts.|
+|**Dimension Value Code**|Shows either a single dimension value or the term (Conflict). If a dimension value is shown in the field, then all highlighted accounts have the same default dimension value for a dimension. If the term (Conflict) is shown in the field, then not all of the highlighted accounts have the same default dimension value for a dimension. By choosing the field, you can see a list of all available dimension values for a dimension. If you select a dimension value, the selected dimension value will be defined as a default dimension value for all highlighted accounts.|
+|**Value Posting**|Shows either a single value posting rule or the term (Conflict). If a value posting rule is shown in the field, then all highlighted accounts have the same value posting rule for a dimension value. If the term (Conflict) is shown in the field, then not all of the highlighted accounts have the same value posting rule for a dimension value. By choosing the Value Posting field, you can see a list of value posting rules. If you select a value posting rule, it will be applied for all highlighted accounts.|
 
 ## Using Dimensions
 In a document such as a sales order, you can add dimension information for both an individual document line and the document itself. For example, on the **Sales Order** page, you can enter dimension values for the first two shortcut dimensions on the individual sales lines, and you can add more dimension information if you choose the **Dimensions** button.  

@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 12/03/2018
+ms.date: 03/20/2019
 ms.author: edupont
 
 ---
@@ -69,7 +69,7 @@ Alternatively, find a [!INCLUDE[d365fin](includes/d365fin_md.md)] partner [here]
 
 ## Getting answers to questions
 
-If you are not sure how to do something in [!INCLUDE[d365fin](includes/d365fin_md.md)], you can hopefully find the answer either from reading the tooltip for the field that you are unsure of, or by reading the content by opening the *Learn more* link in a tooltip. You can also get to the documentation by choosing the related link in the Help menu.  
+If you are not sure how to do something in [!INCLUDE[d365fin](includes/d365fin_md.md)], you can hopefully find the answer either from reading the tooltip for the field that you are unsure of, or by reading the content by opening the *Learn more* link in a tooltip (use the keyboard shortcut Ctrl+F1 ). You can also get to the documentation by choosing the related link in the [Help and Support page](product-help-and-support.md).  
 
 All fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] are described in tooltips. You can access tooltips by choosing the name of the field. For example, in a page like the **Customer Card**, simply choose the name of the field to read the tooltip. In a list such as the **Customers** list, or the lines in a document such as a sales order, you have to choose the drop-down menu to the right of the name of the column and then choose the **What's this?** menu item.  
 
@@ -84,11 +84,13 @@ Navigate to content about the other Dynamics 365 apps by choosing the [Dynamics 
 If you are an accountant, you can sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] and have seamless integration with [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).
 
 ## See Also
+
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as my Business Inbox in Outlook](admin-outlook.md)  
 [Getting [!INCLUDE[d365fin](includes/d365fin_md.md)] on Your Mobile Device](install-mobile-app.md)  
+[Resources for Help and Support](product-help-and-support.md)  
 [Dynamics 365 Documentation](https://docs.microsoft.com/en-us/dynamics365/)  
 [Microsoft Dynamics 365 Business Central Release Notes](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  

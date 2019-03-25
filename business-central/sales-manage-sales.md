@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 10/01/2018
+ms.date: 03/05/2019
 ms.author: sgroespe
 
 ---
@@ -48,6 +48,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Invoice a customer once for multiple shipments by combining the shipments on one invoice.|[Combine Shipments on a Single Invoice](sales-how-to-combine-shipments-on-a-single-invoice.md)|
 |Inform your customers of order delivery dates by calculating either the capable-to-promise date or the available-to-promise date.|[Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)|
 |Register your estimates for future sales, specified by item and by period, to function mainly as input to production planning.|[Create a Forecast](production-how-to-create-a-forecast.md)|
+|Resolve confusion when two or more records exist for the same customer.|[Merge Duplicate Records](sales-how-merge-duplicate-records.md)|
 
 ## See Also
 [Setting Up Sales](sales-setup-sales.md)  

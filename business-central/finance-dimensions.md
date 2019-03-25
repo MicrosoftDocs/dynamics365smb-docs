@@ -46,12 +46,9 @@ You also set up values for dimensions. For example, values might be departments 
 
 When dimensions and values are set up, you can define global and shortcut dimensions on the **General Ledger Setup** page that will always be available to select as fields on journal and document lines, without having to open the **Dimensions** page first. For more information, see [To set up global and shortcut dimensions](finance-dimensions.md#to-set-up-global-and-shortcut-dimensions).
 
-<<<<<<< HEAD
-=======
 * **Global dimensions** are used as filters, for example, on reports and batch jobs. You can use only two global dimensions, so choose dimensions you will use often.
 * **Shortcut dimensions** are available as fields on journal and document lines. You can create up to six of these.  
 
->>>>>>> refs/remotes/origin/master
 ### To set up default dimensions for customers, vendors, and other accounts
 You can assign a default dimension for a specific account. The dimension will be copied to the journal or document when you enter the account number on a line, but you can delete or change the code on the line if appropriate. You can also make a dimension required for posting an entry with a specific type of account.  
 

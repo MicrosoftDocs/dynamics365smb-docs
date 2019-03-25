@@ -1,5 +1,5 @@
 ---
-    title: How to: View the Status of a Synchronization | Microsoft Docs
+    title: View the Status of a Synchronization | Microsoft Docs
     description: Learn how to view the status of an individual synchronization job.
     author: bholtorf
 

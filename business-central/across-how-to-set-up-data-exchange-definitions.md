@@ -16,7 +16,7 @@
 # Set Up Data Exchange Definitions
 You can set up [!INCLUDE[d365fin](includes/d365fin_md.md)] to exchange data in specific tables with data on external files, for example to send and receive electronic documents, import and export bank data or other data, such as payroll, currency exchange rates, and item catalogues. For more information, see [Exchanging Data Electronically](across-data-exchange.md).  
 
-As preparation for creating a data exchange definition for a data file or stream, you can use the related XML schema to define which data elements to include on the **Column Definitions** FastTab. See step 6 in the “To describe the formatting of lines and columns in the file” section. For more information, see the [Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
+As preparation for creating a data exchange definition for a data file or stream, you can use the related XML schema to define which data elements to include on the **Column Definitions** FastTab. See step 6 in [To describe the formatting of lines and columns in the file](across-how-to-set-up-data-exchange-definitions.md#to-describe-the-formatting-of-lines-and-columns-in-the-file). For more information, see the [Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
 You normally set up data exchange definitions on the **Data Exchange Definition** page. However, when you set up a data exchange definition for the service of refreshing currency exchange rates, you start the process in the simplified **Exch. Rate Update Setup Card** page.  
 
@@ -35,7 +35,10 @@ Creating a data exchange definition involves two tasks:
 1. On the **Data Exchange Definition** page, describe the formatting of lines and columns in the file.  
 2. On the **Data Exchange Mapping** page, map columns in the data file to fields in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-     This is described in the following procedures.  
+This is described in the following procedures.  
+
+> [!TIP]
+> To see which codeunits Microsoft uses in existing definitions in the standard product, review the three **Codeunit** fields on the header of the **Field Mapping** page for each definition.
 
 #### To describe the formatting of lines and columns in the file  
 1. In the **Search** box, enter **Data Exchange Definitions**, and then choose the related link.  

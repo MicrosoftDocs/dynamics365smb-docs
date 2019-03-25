@@ -121,9 +121,9 @@ The following shortcuts are available on card pages (like **Customer**) and docu
 |Alt+F6|Collapse and expand the current FastTab.|
 |Alt+N |Opens a page for creating a new record; the same way as selecting **New** action. |
 |Alt+Shift+N |Closes the current card page and creates a new entity; the same as selecting the back arrow and then the **New** action.|
-|Ctrl+Right Arrow|Open the next record for an entity.|
-|Ctrl+Left Arrow |Open the previous record for an entity.|
-|Ctrl+Shift+F12 |Maximize the line items part in a document page, like a sales order or invoice. Othere parts of the page are hidden, and the line items part expands to entire workspace. Press the keys again to return to the normal display.<br /><br />For more information, see [Focusing on Line Items](ui-enter-data.md#Focus).|
+|Ctrl+Down Arrow|Open the next record for an entity.|
+|Ctrl+Up Arrow |Open the previous record for an entity.|
+|Ctrl+Shift+F12 |Maximize the line items part in a document page, like a sales order or invoice. Other parts of the page are hidden, and the line items part expands to entire workspace. Press the keys again to return to the normal display.<br /><br />For more information, see [Focusing on Line Items](ui-enter-data.md#Focus).|
 |F6|Move to next FastTab or part (sub-page).|
 |Shift+F6|Move to previous FastTab or part (sub-page).|
 

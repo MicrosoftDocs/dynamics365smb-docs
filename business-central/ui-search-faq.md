@@ -29,7 +29,7 @@ Actions, pages, and reports that originate from extensions are picked up by Tell
 Page Search has evolved into Tell Me to help you get work done quickly. Page Search could only help you navigate to pages or reports. At a technical level, Tell Me is no longer based on the legacy MenuSuite concept.
 
 ### I use on-premises [!INCLUDE[d365fin](includes/d365fin_md.md)]. Does that include Tell Me?
-You can use Tell Me in the on-premises Web Client to find actions, pages, and reports, but not documentation. Users connecting to [!INCLUDE[d365fin](includes/d365fin_md.md)] from the Dynamics NAV client continue to use Page Search.
+You can use Tell Me in the on-premises Web Client to find actions, pages, and reports, but not documentation, or apps and consulting services on AppSource. Users connecting to [!INCLUDE[d365fin](includes/d365fin_md.md)] from the Dynamics NAV client continue to use Page Search.
 
 ### Is Tell Me available for all form factors?
 Tell Me is only available in the Web Client or Windows desktop app.

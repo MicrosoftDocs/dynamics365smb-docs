@@ -38,7 +38,7 @@ Two functions exist to assign exact cost reversing automatically.
 
 |Function|Description|  
 |------------------|---------------------------------------|  
-|**Get Posted Document Lines to Reverse** function on the **Purchase Return Order** page|Copies lines of one or more posted documents to be reversed into the purchase return order. For more information, see [To create a purchase return order based on one or more posted purchase invoices](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-return-order-based-on-one-or-more-a-posted-purchase-documents).|  
+|**Get Posted Document Lines to Reverse** function on the **Purchase Return Order** page|Copies lines of one or more posted documents to be reversed into the purchase return order. For more information, see [To create a purchase return order based on one or more posted purchase documents](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-return-order-based-on-one-or-more-posted-purchase-documents).|  
 |**Copy Document** function in the **Purchase Credit Memo** and **Purchase Return Order** pages|Copies both the header and lines of one posted document to be reversed.<br /><br /> Requires that the **Exact Cost Reversing Mandatory** check box is selected on the **Purchases & Payables Setup** page.|
 
 To assign exact cost reversing manually, you must choose the **Appl.-from Item Entry** field on any type of return document line, and then select the number of the original purchase entry. This links the purchase credit memo or purchase return order to the original purchase sales entry and ensures that the item is valued at the original unit cost.

@@ -172,7 +172,7 @@ In a ledger entry page, you can see whether there are global dimensions for the 
 When you post documents or journal lines that contain dimensions, various errors may occur that are typically related to wrong dimension setup or assignment.
 
 > [!NOTE]
-> In the following list of potential error messages, the **%X** codes are placeholders for the data variables that the actual message will contain in the UI depending on the context. For example, **%1 %2 is blocked.** could appear in the UI as **Dimension code AREA is blocked.**.  
+> In the following list of potential error messages, the *%X* codes are placeholders for the data variables that the actual message will contain in the UI depending on the context. For example, *%1 %2 is blocked.* could appear in the UI as "Dimension Code AREA is blocked.".  
 
 |Issue|Error Message|Possible Solution|
 |-----|-------------|-----------------|

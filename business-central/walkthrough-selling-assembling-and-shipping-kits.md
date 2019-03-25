@@ -102,7 +102,7 @@ Remove the default lead time for internal processes by following these steps:
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Manufacturing Setup**, and then choose the related link.  
 2.  On the **Manufacturing Setup** page, on the **Planning** FastTab, remove the value in the **Default Safety Lead Time** field.  
 
-Create inventory for assembly components by following [Prepare Sample Data](walkthrough-selling-assembling-and-shipping-kits.md#setting-up-the-sample-data).  
+Create inventory for assembly components by following [Prepare Sample Data](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).  
 
 ## Story  
 On January 23, Susan, the sales order processor takes an order from The Device Shop for three units of Kit B, which is an ATO item. All three units are customized and must contain the strong graphics card and an extra RAM block. The disc drives are upgraded to DWD because the CD drives are unavailable. Susan knows that the units can be assembled immediately, so she leaves the suggested shipment date of January 23.  

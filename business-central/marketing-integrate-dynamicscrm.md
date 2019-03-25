@@ -23,7 +23,7 @@ Integrating the applications lets you access data in Sales from [!INCLUDE[d365fi
 
 For example, a sales person in Sales can use the price lists from [!INCLUDE[d365fin](includes/d365fin_md.md)] when they create a sales order. When they add the item to the sales order line in Sales, they can see the inventory level (availability) of the item from [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Conversely, order processors in [!INCLUDE[d365fin](includes/d365fin_md.md)] can handle sales orders that are automatically or manually transferred from sales. For example, they can create and post sales order lines for items or resources that were entered in Sales as write-in products. For more information, see [Handling Sales Order Data](marketing-integrate-dynamicscrm.md#handling-special-sales-order-data).
+Conversely, order processors in [!INCLUDE[d365fin](includes/d365fin_md.md)] can handle sales orders that are automatically or manually transferred from sales. For example, they can create and post sales order lines for items or resources that were entered in Sales as write-in products. For more information, see [Handling Sales Order Data](marketing-integrate-dynamicscrm.md#handling-sales-order-data).
 
 > [!IMPORTANT]  
 > [!INCLUDE[d365fin](includes/d365fin_md.md)] integrates only with Dynamics 365 for Sales. Other Dynamics 365 applications that change the standard workflow or data model in Sales, for example Project Service Automation, can break the integration between [!INCLUDE[d365fin](includes/d365fin_md.md)] and Sales.

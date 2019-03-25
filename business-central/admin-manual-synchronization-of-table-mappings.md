@@ -1,16 +1,16 @@
 ---
-title: Manual Synchronization of Table Mappings | Microsoft Docs
-description: The synchronization copies data between Microsoft Dynamics 365 for Sales entries and Business Central to keep both systems up-to-date.
-author: bholtorf
+    title: Manual Synchronization of Table Mappings | Microsoft Docs
+    description: The synchronization copies data between Microsoft Dynamics 365 for Sales entries and Business Central to keep both systems up-to-date.
+    author: bholtorf
 
-ms.service: dynamics365-business-central
-ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 03/20/2019
-ms.author: bholtorf
+    ms.service: dynamics365-business-central
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords: sales, crm, integration, sync, synchronize
+    ms.date: 03/20/2019
+    ms.author: bholtorf
 
 ---
 

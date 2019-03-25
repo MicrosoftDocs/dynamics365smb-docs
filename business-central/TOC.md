@@ -230,7 +230,7 @@
 ### [Changing Which Features are Displayed](ui-experiences.md)
 ### [Managing Personalization as an Administrator](ui-personalization-manage.md)
 ### [Setting Up a Colored Indicator on Cues](admin-how-set-up-colored-indicator-on-cues.md)
-## [Integration with Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
+## [Integrating with Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
 ### [Setting Up Integration with Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)
 ### [Set Up a Dynamics 365 for Sales Connection](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Synchronizing Business Central and Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)

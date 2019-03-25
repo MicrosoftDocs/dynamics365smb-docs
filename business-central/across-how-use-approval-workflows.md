@@ -21,7 +21,7 @@ You set up approval workflows on the **Workflow** page. For more information, se
 
 In addition to approval workflows described in this topic, you can perform various other workflow tasks. For more information, [Using Workflows](across-use-workflows.md).
 
-Core approval workflows for purchases documents, sales documents, payment journals, customer cards, and item cards are ready to start as assisted setup. For more information, see [Getting Started](product-get-started.md).
+Core approval workflows for purchases documents, sales documents, payment journals, customer cards, and item cards are ready to start as guides. For more information, see [Getting Started](product-get-started.md).
 
 ## To request approval of a record
 The following task is performed by an approval user.

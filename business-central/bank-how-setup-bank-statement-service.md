@@ -34,7 +34,7 @@ After you enable the bank feed service, you must link a bank account to the onli
 When the bank feed service is enabled, you can set a bank account up to automatically import new bank statements into the **Payment Reconciliation Journal** page every two hour. Transactions for payments that have already been posted as applied and/or reconciled on the **Payment Reconciliation Journal** page will not be imported. For more information, see the “To enable automatic import of bank statements” section.
 
 > [!NOTE]  
-> If you use the Set Up Company assisted setup, some of the steps in the following procedures happen automatically when you get to the company bank account setup. For more information, see [Getting Started](product-get-started.md).
+> If you use the Set Up Company assisted setup guide, some of the steps in the following procedures happen automatically when you get to the company bank account setup. For more information, see [Getting Started](product-get-started.md).
 
 ## To enable the bank feed service
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.

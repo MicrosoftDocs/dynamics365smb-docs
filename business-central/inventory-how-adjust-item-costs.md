@@ -24,7 +24,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], item costs are automatically adj
 
 You can also use a function to manually adjust the costs of one or more items. This is useful, for example, when you know that item costs have changed for other reasons than item transactions.
 
-Item costs are adjusted by the FIFO or the Average costing method, depending on your selection in the **Set Up My Company** assisted setup or in the **Costing Method** field on the item card. For more information, see [Register New Items](inventory-how-register-new-items.md).  
+Item costs are adjusted by the FIFO or the Average costing method, depending on your selection in the **Set Up My Company** assisted setup guide or in the **Costing Method** field on the item card. For more information, see [Register New Items](inventory-how-register-new-items.md).  
 
 If you use the FIFO costing method, then an item’s unit cost is the actual value of any receipt of the item. Inventory is valuated with the assumption that the first items placed in inventory are sold first.
 

@@ -23,7 +23,7 @@ From your Role Center, you can access assisted setup guides that help you config
 > [!NOTE]
 > You can set up a new company in [!INCLUDE[d365fin](includes/d365fin_md.md)] with RapidStart Services, which is a tool designed to shorten deployment times, improve quality of implementation, introduce a repeatable approach to implementations, and enhance productivity by automating and simplifying recurring tasks. For more information, see [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
-Some functionality, either general or for specific business processes, can be set up manually in addition to the assisted setup. The following lists some of functionality that can you can set up manually.
+Some functionality, either general or for specific business processes, can be set up manually in addition to the assisted setup guide. The following lists some of functionality that can you can set up manually.
 
 | To | See |
 | --- | --- |

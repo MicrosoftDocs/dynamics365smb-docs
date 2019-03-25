@@ -17,7 +17,7 @@ ms.author: edupont
 In [!INCLUDE [d365fin](includes/d365fin_md.md)], the containers for business data that belongs to a business unit or legal entity is referred to as a *company*. When you sign up for [!INCLUDE [d365fin](includes/d365fin_md.md)], you are given a demonstration company and an empty company, *My Company*. Switching between the companies is easy - just got to **My Settings** and move to the other company. But you can also create new companies in [!INCLUDE [d365fin](includes/d365fin_md.md)], depending on your business needs. When you create a new company, an assisted setup guide helps you get the basics in place. Then, you can import relevant data from your legacy system or another company in [!INCLUDE [d365fin](includes/d365fin_md.md)].  
 
 ## Create New Company
-If you decide to add a company to your [!INCLUDE [d365fin](includes/d365fin_md.md)], you can use the **Create New Company** assisted setup wizard to get you started. The setup wizard is available from the **Companies** window and from the lookup in the **Company** field in **My Settings**.  
+If you decide to add a company to your [!INCLUDE [d365fin](includes/d365fin_md.md)], you can use the **Create New Company** assisted setup guide to get you started. The setup wizard is available from the **Companies** window and from the lookup in the **Company** field in **My Settings**.  
 
 The setup wizard offers three templates:
 

@@ -20,7 +20,7 @@ To send and receive emails from within [!INCLUDE[d365fin](includes/d365fin_md.md
 > [!NOTE]  
 >   Instead of entering the SMTP server details, you can use a function to enter them with information from your Office 365 subscription.
 
-You can either set email up manually or you can get help by using the **Email Setup** assisted setup. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md).  
+You can either set email up manually or you can get help by using the **Email Setup** assisted setup guide. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md).  
 
 ## To set up email
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.

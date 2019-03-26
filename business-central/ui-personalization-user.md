@@ -65,7 +65,7 @@ You can personalize the action bar that is located at the top of the page, as in
 
 ![Personalize action bar](media/personalize-action-bar.png "Personalize action bar")
 
-Personalization lets you decide which actions to show on the action bar and where to show them. You can show, hide, or move individual actions or action groups. Personalizing the action bar is done basically the same way as with other elements of the workspace. However, exactly what you can do with an action or group depends on where the action is located in the action bar. The best way to find out is to just try things out and let the screen guide you. The following sections will explain some of the nuances of personalizing the action bar.
+Personalization lets you decide which actions to show on the action bar and where to show them. You can show, hide, or move individual actions or action groups. Personalizing the action bar is done basically the same way as with other elements of the workspace. However, exactly what you can do with an action or group depends on where the action or group is located in the action bar. The best way to find out is to just try things out and let the screen guide you. The following sections will explain some of the nuances of personalizing the action bar.
 
 ### Action bar overview
 
@@ -77,14 +77,14 @@ A *promoted category* is an action group that appears between the two vertical l
 
 ![Personalize action bar group](media/personalize-action-bar-group-clip.png "Personalize action bar group ")
 
-### Remove, hide and show actions and groups
+### Remove, hide, and show actions and groups
 
 To show or hide and action or action group, select it, and then choose from one of the following options:
 
 |Option|What it does|
 |------|------------
 |**Remove**|This option appears if the selected action is also shown somewhere else in the action bar. Choosing this option deletes the action from the selected location so that it no longer appears. The action or action group will remain in the other locations. |
-|**Hide**|This option appears if the action or action group is not located anywhere else in the action bar. Like **Remove**, choosing this option will make the action or action group disappear from the action bar. However, in the personalization mode, the action or action group is still shown except that it appears dimmed.|
+|**Hide**|This option appears if the action or action group is not located anywhere else in the action bar. Like **Remove**, choosing this option will make the action or action group disappear from the action bar. However, in the personalization mode, the action or action group will still be shown in the current location, except that it appears dimmed.|
 |**Show**|This option appears if the action or action group has been previously hidden (dimmed). Choosing this option will make the action or action group appear in the action bar.|
 
 ### Move actions and action groups

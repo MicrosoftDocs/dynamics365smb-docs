@@ -113,7 +113,7 @@ You can now type or select your filter criteria in the box. The type of field yo
 Columns that already have filters are indicated by the ![Filter icon](media/ui-search/filter-icon.png "Filter icon") in the column heading. To remove a filter, select the column heading, then choose **Clear Filter**.
 
 
-### Entering filter criteria without the filter pane
+### Entering filter criteria without using the filter pane
 You can specify simple filters directly within the list without having to use the filter pane.
 With any field selected on a row, use the **Alt+F3** keyboard shortcut to display only the records having that same value. You can then select another field and use the same shortcut again to continue refining your filters. If the selected field is already filtered, using **Alt+F3** will clear that filter.
 
@@ -224,7 +224,7 @@ When you enter criteria, you can use all the numbers and letters that you can no
 When entering filter criteria, you can also type words that have special meaning, called filter tokens. After entering the token word, the word is replaced by the value or values that it represents. This makes filtering easier by reducing the need to navigate to other pages to look up values you want to add to your filter. The tables below describe some of the tokens you can type as filter criteria.
 
 > [!TIP]
-> Your organization may use custom tokens. To learn about the complete set of tokens available to you or to add more custom tokens, talk to your administrator. For technical information see [Adding Filter Tokens](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens)
+> Your organization may use custom tokens. To learn about the complete set of tokens available to you or to add more custom tokens, talk to your administrator. For technical information see [Adding Filter Tokens](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens).
 
 
 ### (%me or %userid) Records assigned to you

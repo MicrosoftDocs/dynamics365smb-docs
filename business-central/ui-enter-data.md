@@ -15,7 +15,7 @@ ms.author: jswymer
 
 # Entering Data
 
-There are many general features that help you enter data easier, faster, and more accurate. The general functions for entering data are described in this article.  
+There are many general features that help you enter data easier, faster, and more accurate. The general features for entering data are described in this article.  
 
 <!-- The examples in this article use the demonstration data.-->
 
@@ -29,11 +29,7 @@ For more information about shortcuts, see [Keyboard Shortcuts](keyboard-shortcut
 
 Quick Entry is a feature designed for data entry when using the keyboard. Quick Entry works on fields (like on card pages) and in lists (rows and columns). It is beneficial when performing repetitive typing tasks that require creating multiple records in sequence, such as a batch of sales orders or registering new items. 
 
-You might already be familiar with using the Tab key to navigate from one field on a page to the next editable field. A disadvantage of using Tab is that it always goes sequentially to the next field. <!-- even if the field is non-editable or seldom filled it in.-->Quick Entry lets you change this path. With Quick Entry, you use the Enter key to navigate through only those fields that you are interested in, skipping non-editable fields and fields that you typically do not fill in. You might have already noticed this behavior on some pages. This is because the application already designates which fields to include when pressing Enter and which ones to skip. You can customize Quick Entry when personalizing your workspace, to optimize for how you enter data on each page.
-
-<!-- 
-
-After you enter data in one field, you can press Enter to go to the next field in sequence, enter data, press . However, there might be some fields that you typically want to skip when entering data. For example, when creating sales orders, perhaps you rarely set the **Example** field. This is where the Quick Entry feature comes in handy.-->
+You might already be familiar with using the Tab key to navigate from one field on a page to the next editable field. A disadvantage of using Tab is that it always goes sequentially to the next field. <!-- even if the field is non-editable or seldom filled it in.-->Quick Entry lets you change this path. With Quick Entry, you use the Enter key to navigate through only those fields that you are interested in, skipping non-editable fields and fields that you typically do not fill in. You might have already noticed this behavior on some pages. This is because the application already designates which fields to include when pressing Enter and which ones to skip. You can customize Quick Entry by personalizing your workspace and optimizing how you enter data on each page.
 
 ### How Quick Entry Works
 
@@ -86,7 +82,7 @@ For more information, see [Copying and Pasting in Business Central](ui-copy-past
 
 ## <a name="Focus"></a>Focusing on Line Items
 
-When working on documents that includes a line items part, like a sales order or invoice page, you can switch your view to focus only on the line items, essentially expanding the line items part so that it occupies pretty much the entire workspace - hiding other parts of the page except the actions area at the top. This gives you a better overview of the lines items, and provides more room to work on them. This is particularly beneficial when working with large line item lists and fast data entry is desired.
+When working on documents that include a line items part, like a sales order or invoice page, you can switch your view to focus only on the line items, essentially expanding the line items part so that it occupies pretty much the entire workspace - hiding other parts of the page except the actions area at the top. This gives you a better overview of the lines items, and provides more room to work on them. This is particularly beneficial when working with large line item lists and fast data entry is desired.
 
 Another advantage is that it also provides advanced filtering capability, like on other lists, so browsing and searching through line items becomes even easier.
 
@@ -98,7 +94,7 @@ To switch back to the normal view, choose ![Focus Mode icon](media/focus-mode.pn
 
 ### Filtering the line items
 
-Te start filtering, select ![Filter pane icon](media/open-filter-pane-icon.png "Filter pane icon") at the top of the list or press **Shift+F3** to open the filter pane. You work with the filter pane as you do on any other list. For more information, see [Filtering](ui-enter-criteria-filters.md#Filtering). 
+To start filtering, select ![Filter pane icon](media/open-filter-pane-icon.png "Filter pane icon") at the top of the list or press **Shift+F3** to open the filter pane. You work with the filter pane as you do on any other list. For more information, see [Filtering](ui-enter-criteria-filters.md#Filtering). 
 
 Filtering is especially helpful when viewing and analysing longer documents. For example, imagine you open a posted sales invoice and filter the line items to display all line items that have an individual discount above 5%, or filter to display only bike accessories with 'pro' in the name.
 

@@ -51,7 +51,7 @@ If there is a ![Personalization blocked](media/personalization-blocked-icon.png 
 
 ![Personalize blocked](media/personalization-blocked.png "Personalize lock")
                           
-The reason for this is that the Role Center or profile that is currently associated with your user account modifies this page specifically for your role. Unfortunately, the old way of role-tailoring pages does not permit you to personalize this page. Please contact your administrator for assistance or, if it makes sense, try switching to a Role Center (from  [**My Settings**](https://businesscentral.dynamics.com?page=9176 "Go directly to your user settings page in Business Central")) that does include role-tailoring for this page.
+The reason for this is that the Role Center or profile that is currently associated with your user account modifies this page specifically for your role. Please contact your administrator for assistance or, if it makes sense, try switching to a Role Center (from  [**My Settings**](https://businesscentral.dynamics.com?page=9176 "Go directly to your user settings page in Business Central")) that does include role-tailoring for this page.
 
 ## See Also
 [Personalizing Your Workspace](ui-personalization-manage.md)  

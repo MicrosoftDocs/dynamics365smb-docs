@@ -60,8 +60,8 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Press these keys<br />(in macOS)|To do this in a list view|To do this in a tile view |
 |-----------------|-------|-------|
 |Alt+F7 |Sort the selected column in ascending or descending order.|Not applicable.|
-|Shift+F10 |Opens a menu of options that are available for selected row.|Not applicable.|
-|Alt+N |Opens a page for creating a new record; the same way as selecting **New** action. |Same.|
+|Shift+F10 |Open a menu of options that are available for selected row.|Not applicable.|
+|Alt+N |Open a page for creating a new record; the same way as selecting the **New** action. |Same.|
 
 ### <a name="navigateshortcuts"></a> Navigate between rows and columns
 
@@ -77,8 +77,8 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Up Arrow|Move in the same column to the field in the row above.| Move in the same column to the tile in the row above.  |
 |Right Arrow|In a view-only list, move in the same row to the next field to the right.<br /><br />In an editable list, move to the right within the current field.| Move in the same row to the next tile to the right. |
 |Left Arrow|In a view-only list, move in the same row to the previous field to the left. <br /><br />In an editable list, move to the left within the current field.| Move in the same row to the previous tile to the left. |
-|Page Up<br />(Fn+up Arrow)|Scrolls to display the set rows above the current rows in view. |Scrolls to display the set of tiles above the current tiles in view. |
-|Page Down<br />(Fn+down Arrow)|Scrolls to display the set rows below the current rows in view.|Scrolls to display the set of tiles below the current tiles in view.|
+|Page Up<br />(Fn+up Arrow)|Scroll to display the set rows above the current rows in view. |Scrolls to display the set of tiles above the current tiles in view. |
+|Page Down<br />(Fn+down Arrow)|Scroll to display the set rows below the current rows in view.|Scroll to display the set of tiles below the current tiles in view.|
 |Tab|In editable list, move in the same row to the next field to the right.|Not applicable.||
 |Shift+Tab|In editable list, move in the same row to the previous field to the left. | Not applicable. |
 
@@ -95,22 +95,22 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Shift+Up Arrow|Extend the selection of rows to include the row above.|Not applicable.|
 |Shift+Down Arrow|Extend the selection of rows to include the row below.|Not applicable.|
 |Shift+Page Up<br />(Shift+Fn+Up Arrow)|Extend the selection of rows to include all visible rows above the current selection of rows.|Not applicable.|
-|Shift+Page Down<br />(Shift+Fn+Down Arrow)|Extend the selection of rows to include all all visible rows below the current selection of rows.|Not applicable.|
+|Shift+Page Down<br />(Shift+Fn+Down Arrow)|Extend the selection of rows to include all visible rows below the current selection of rows.|Not applicable.|
 |Ctrl+C<br />(Cmd+C)|Copy the selected rows to the Clipboard.|Not applicable.|
-|Ctrl+V<br />(Cmd+V)|Paste the selected rows from the Clipboard into the current page or external document, like Microsoft Excel or Outlook email.<br /><br />You can only do this editable lists.|Not applicable.|
+|Ctrl+V<br />(Cmd+V)|Paste the selected rows from the Clipboard into the current page or external document, like Microsoft Excel or Outlook email.<br /><br />You can only do this in editable lists.|Not applicable.|
 |F8|Copy the field in the same column of the row above, and paste it into the current row.<br /><br />You can only do this in editable lists. Using this shortcut followed by a Tab lets you quickly fill out fields in line items that you want to have the same value as the row above.|Not applicable.||
 
 ### <a name="KeyboardFilter"></a>Searching and filtering lists
 
 |Press these keys<br />(in macOS)|To do this|
 |-----------------|-------|
-|F3|Toggles the search box.<ul><li>Activates the search box, so you can start typing your search text.</li><li>If the search box is already activated, F3 returns to the list without clearing the search text.</li><ul>|
-|Shift+F3|Opens and closes the filter pane.<ul><li> If the filter pane is not open, Shift+F3 opens it and focuses on the **+ Filter** action under **Filter list by**, which lets you just hit Enter to start adding a field filter.</li><li>If the filter pane is already open, Shift+F3 closes it but does not clear any filters that you have added.</li></ul>|
-|Ctrl+Shift+F3|Opens and closes the filter pane.<ul><li> If the filter pane is not open, Ctrl+Shift+F3 opens it and focuses on the **+ Filter** action under **Filter total by**, which lets you just hit Enter to start adding a totals filter.</li><li>If the filter pane is already open, Ctrl+Shift+F3 closes it but does not clear any filters that you have added.</li></ul>  |
-|Alt+F3|Toggles filtering to this value.<ul><li>Applies a column filter on the selected field value in the list. This does the same as choosing **Filter to this value** from a column heading. It opens the filter pane, sets filter to the selected value, while focus remains on cell in the list.</li><li>If the column is already filtered, Alt+F3 clears the filter on that column.</li></ul> |
-|Shift+Alt+F3|Opens the filter pane and adds a filter on the selected column in the list. Focus is on the new filter field which lets start typing the filter criteria right away.<br /><br /> This does the same as selecting **Filter** from the column heading. er menu. Displays the filter pane, adds the filter, sets focus to it so the user can type a value to filter on.<br /><br />If there is already a filter on the field, a new filter is added. |
-|Ctrl+Shift+Alt+F3|Resets filters. This does the same as choosing **Reset filters** in the filter pane, and it applies to field and totals filters.<br /><br /> Filters return to the default filters for the current view. If the current view is **All**, then this is the equivalent to returning to an unfiltered view with all records. |
-|Ctrl+Enter|Returns to the list from the filter pane.|
+|F3|Toggles the search box.<ul><li>Activate the search box, so you can start typing your search text.</li><li>If the search box is already activated, F3 returns to the list without clearing the search text.</li><ul>|
+|Shift+F3|Open and close the filter pane.<ul><li> If the filter pane is not open, Shift+F3 opens it and focuses on the **+ Filter** action under **Filter list by**, which lets you just hit Enter to start adding a field filter.</li><li>If the filter pane is already open, Shift+F3 closes it but does not clear any filters that you have added.</li></ul>|
+|Ctrl+Shift+F3|Open and close the filter pane.<ul><li> If the filter pane is not open, Ctrl+Shift+F3 opens it and focuses on the **+ Filter** action under **Filter total by**, which lets you just hit Enter to start adding a totals filter.</li><li>If the filter pane is already open, Ctrl+Shift+F3 closes it but does not clear any filters that you have added.</li></ul>  |
+|Alt+F3|Toggle filtering to the selected value.<ul><li>Applies a column filter on the selected field value in the list. This does the same as choosing **Filter to this value** from a column heading. It opens the filter pane, sets filter to the selected value, while focus remains on cell in the list.</li><li>If the column is already filtered, Alt+F3 clears the filter on that column.</li></ul> |
+|Shift+Alt+F3|Open the filter pane and add a filter on the selected column in the list. Focus is on the new filter field which lets start typing the filter criteria right away.<br /><br /> This does the same as selecting **Filter** from the column heading.<br /><br />If there is already a filter on the field, a new filter is added. |
+|Ctrl+Shift+Alt+F3|Reset filters. This does the same as choosing **Reset filters** in the filter pane, and it applies to field and totals filters.<br /><br /> Filters return to the default filters for the current view. If the current view is **All**, then this is the same as returning to an unfiltered view with all records. |
+|Ctrl+Enter|Change focus from the the filter pane back to the list.|
 
 ## Keyboard Shortcuts in Cards and Documents
 
@@ -119,8 +119,8 @@ The following shortcuts are available on card pages (like **Customer**) and docu
 |Press these keys<br />(in macOS)|To do this|
 |----------------|-----------|
 |Alt+F6|Collapse and expand the current FastTab.|
-|Alt+N |Opens a page for creating a new record; the same way as selecting **New** action. |
-|Alt+Shift+N |Closes the current card page and creates a new entity; the same as selecting the back arrow and then the **New** action.|
+|Alt+N |Open a page for creating a new record; the same way as choosing the **New** action. |
+|Alt+Shift+N |Close the current card page and creates a new entity; the same as selecting the back arrow and then the **New** action.|
 |Ctrl+Down Arrow|Open the next record for an entity.|
 |Ctrl+Up Arrow |Open the previous record for an entity.|
 |Ctrl+Shift+F12 |Maximize the line items part in a document page, like a sales order or invoice. Other parts of the page are hidden, and the line items part expands to entire workspace. Press the keys again to return to the normal display.<br /><br />For more information, see [Focusing on Line Items](ui-enter-data.md#Focus).|
@@ -129,7 +129,7 @@ The following shortcuts are available on card pages (like **Customer**) and docu
 
 ## <a name="QuickEntry"></a>Quick Entry Shortcuts for Fields
 
-The following shortcuts pertain to the Quick Entry feature on cards, documents, and list pages. On lists, the shortcuts cannot be used only when the list is in the tile view. For more information about Quick Entry, see [Accelerating Data Entry Using Quick Entry](ui-enter-data.md#QuickEntry).
+The following shortcuts pertain to the Quick Entry feature on cards, documents, and list pages. On lists, the shortcuts cannot be used when the list is in the tile view. For more information about Quick Entry, see [Accelerating Data Entry Using Quick Entry](ui-enter-data.md#QuickEntry).
 
 |Press these keys<br />(in macOS)|To do this|Remarks|
 |-----------------|-------|-------|
@@ -176,7 +176,6 @@ When setting a date field, you can either enter the date manually or open a cale
 |Right Arrow|Scroll to the right when the page is zoomed in so that it is not entirely in view. |
 |Page Down<br />(Fn+Down Arrow)|Go to the next page of the report.|
 |Page Up<br />(Fn+Up Arrow)|Go to the previous page of the report.|
-
 
 ## See also
 

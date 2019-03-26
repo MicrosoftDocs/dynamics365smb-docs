@@ -15,7 +15,7 @@ In [!INCLUDE[prodlong](includes/prodlong.md)], the Help menu item (the question 
 
 This page outlines the resources available to you in the different sections of the **Help and Support** page.  
 
-## Find it
+## Find It
 
 The **Find it** section provides links to the most common places to find answers to your questions. The links fall into four catagories and are explained in the following subsections. Some of the links can be configured by your [!INCLUDE [prodshort](includes/prodshort.md)] partner, and as a result the behavior can be slightly different.  
 
@@ -46,14 +46,14 @@ The [Business Central blog](https://community.dynamics.com/business/b/financials
 
 For the longer term overview, the [!INCLUDE[prodshort](includes/prodshort.md)] [roadmap page](https://dynamics.microsoft.com/roadmap/business-central/) shows the general priorities for [!INCLUDE[prodshort](includes/prodshort.md)] in the coming years.  
 
-## Do more with your trial
+## Do More with Your Trial
 
 This section gives you shortcuts to Microsoft AppSource where you can find solutions and services from [!INCLUDE [prodshort](includes/prodshort.md)] partners. Use the links to explore the full capabilities of [!INCLUDE [prodshort](includes/prodshort.md)] before you decide if you want to buy a subscription. You can also find a link to contact the sales team.
 
 > [!NOTE]
 > This section is only available in trial experiences. If you already bought [!INCLUDE [prodshort](includes/prodshort.md)], the section is not longer visible.
 
-## Give feedback
+## Give Feedback
 
 On the [Dynamics 365 Ideas site](https://aka.ms/bcideas), you can provide suggestions for new feature and capabilities. Your input goes directly to Business Central’s engineering backlog for investigation and prioritization.  
 
@@ -63,7 +63,7 @@ Make sure that you search through the list of submitted suggestions. Chances are
 
 The **Troubleshooting** section shows technical information that your administrator or [!INCLUDE[prodshort](includes/prodshort.md)] partner can use to unblock users. This includes information about the latest error message, the current version of [!INCLUDE[prodshort](includes/prodshort.md)], and a link to go to the **Page Inspection** page. For more information, see [Inspecting Pages in Business Central](across-inspect-page.md).  
 
-## Report a problem
+## Report a Problem
 
 Your [!INCLUDE[prodshort](includes/prodshort.md)] reselling partner is expected to help you with technical support. [!INCLUDE[prodshort](includes/prodshort.md)] is sold through partners, and this section makes it easy for you to contact your reselling partner if they have submitted their support email address. If your [!INCLUDE[prodshort](includes/prodshort.md)] partner then cannot resolve the problem, they will raise a support ticket with Microsoft.  
 
@@ -76,7 +76,7 @@ The email address that is shown in the **Report a problem** section can be for a
 
 To alert your partner to a problem, choose the link. This opens a new email in your default email editor, and you can then add the technical information about your Azure Active Directory tenant and any other information that you find relevant.  
 
-## See also
+## See Also
 
 [Blog post: Find the right resources and provide feedback](https://community.dynamics.com/business/b/financials/archive/2018/12/04/find-the-right-resources-and-provide-feedback)  
 [Business Central developer and ITpro docs](/dynamics365/business-central/dev-itpro/)  

@@ -13,6 +13,7 @@
     ms.search.keywords:
     ms.date: 10/01/2018
     ms.author: sgroespe
+    redirect_url: design-details-dimension-set-entries
 
 ---
 # Design Details: Codeunit 408 Dimension Management

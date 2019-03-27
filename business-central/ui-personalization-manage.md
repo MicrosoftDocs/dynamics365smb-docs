@@ -22,7 +22,7 @@ Users can personalize their workspace to suit their own preferences. As an admin
 -   Enabling or disabling the personalization feature for users of a specific profile.
 -   Clearing any page personalizations that users have made.
 
-## <a name="EnablePersonalization"></a>Enable/Disable Personalization (On-Premises Only)
+## <a name="EnablePersonalization"></a>To enable or disable personalization (On-Premises Only)
 
 By default, personalization is not enabled in the client. You enable or disable personalization by modifying the configuration file (navsettings.json) of the Business Central Web Server instance that serves the clients.
 
@@ -31,15 +31,15 @@ By default, personalization is not enabled in the client. You enable or disable 
     ```
     "PersonalizationEnabled": "true"
     ```
-    
+
     To disable personalization, remove this line or change it to:
-    
+
     ```
     "PersonalizationEnabled": "false"
     ```
-    
+
     For more information about how to modify the navsettings.json file, see [Modify the navsettings.json file directly](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-web-server?branch=master#Settings).
-    
+
 2. Generate and download the application symbols.
 
     This step is optional, and not required to enable personalization. However, it ensures that new pages that are created by developers can be personalized.
@@ -59,7 +59,7 @@ By default, personalization is not enabled in the client. You enable or disable 
 
     2. Configure [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance to **Enable loading application symbol references at server startup** (EnableSymbolLoadingAtServerStartup). For more information, see [Configuring Business Central Server](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance#development-settings).
 
-## Disable personalization for a profile
+## To disable personalization for a profile
 
 You can prevent all users that belong to a specific profile from being able to personalize their pages.
 
@@ -67,11 +67,11 @@ You can prevent all users that belong to a specific profile from being able to p
 2. Select the profile in the list that you want to modify.
 3. Select the **Disable personalization** check box, and then choose the **OK** button.
 
-## Clear user personalizations
+## To clear user personalizations
 
 Clearing page personalization changes the page back to its original layout before any personalization was made. There are two ways to clear the personalizations that users have made to pages: using the **Delete User Personalization** page and using the **User Personalization Card** page.
 
-### Clear user personalizations by using the Delete User Personalization page
+### To clear user personalizations by using the Delete User Personalization page
 
 The **Delete User Personalization** page enables you to clear personalizations on a per-page basis for each user individually.
 
@@ -86,7 +86,7 @@ The **Delete User Personalization** page enables you to clear personalizations o
 
     The user will see the changes the next time they sign-in.
 
-### Clear user personalizations by using the User Personalization Card page
+### To clear user personalizations by using the User Personalization Card page
 
 The **User Personalization Card** page enables you to clear the personalization on all pages for specific user. This requires write permission to Table 2000000072 **Profile**.
 

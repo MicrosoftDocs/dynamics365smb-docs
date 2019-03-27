@@ -26,11 +26,11 @@ Depending on the type of page and what it includes, you can do various things, l
 -   Move and remove Cues (tiles).
 -   Move and remove parts. Parts are subdivisions or areas on a page that contain things like multiple fields, another page, a chart, or tiles.
 
-> [!NOTE]
-> In addition to what users can personalize, administrators and super users can override users' personalizations and define which features are accessible in all or specific companies. For more information, see [Customizing Business Central](ui-customizing-overview.md).
-
 -->
-## How to personalize a page
+> [!NOTE]
+> In addition to what users can personalize, administrators and super users can override users' personalization and define which features are accessible in all or specific companies. For more information, see [Customizing Business Central](ui-customizing-overview.md).
+
+## To personalize a page
 
 1. In the upper-right corner, select the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, and then choose **Personalize**.
 
@@ -46,7 +46,7 @@ Depending on the type of page and what it includes, you can do various things, l
 
 4. You can continue to make changes on the same page or open another page. Your changes are automatically saved as you make them. When you are done, in the **Personalizing** banner, choose **Done**.
 
-## <a name="What"></a>What you can personalize
+## <a name="What"></a>What You Can Personalize
 
 |What do you want to do|How to do it|Remarks|
 |----|------------|-------|
@@ -67,7 +67,7 @@ You can personalize the action bar that is located at the top of the page, as in
 
 Personalization lets you decide which actions to show on the action bar and where to show them. You can show, hide, or move individual actions or action groups. Personalizing the action bar is done basically the same way as with other elements of the workspace. However, exactly what you can do with an action or group depends on where the action or group is located in the action bar. The best way to find out is to just try things out and let the screen guide you. The following sections will explain some of the nuances of personalizing the action bar.
 
-### Action bar overview
+### Action Bar Overview
 
 There are a couple terms that you should be familiar with to better understand action personalization: *action group* and *promoted category*.  
 
@@ -77,7 +77,7 @@ A *promoted category* is an action group that appears between the two vertical l
 
 ![Personalize action bar group](media/personalize-action-bar-group-clip.png "Personalize action bar group ")
 
-### Remove, hide, and show actions and groups
+### To remove, hide, and show actions and groups
 
 To show or hide and action or action group, select it, and then choose from one of the following options:
 
@@ -87,7 +87,7 @@ To show or hide and action or action group, select it, and then choose from one 
 |**Hide**|This option appears if the action or action group is not located anywhere else in the action bar. Like **Remove**, choosing this option will make the action or action group disappear from the action bar. However, in the personalization mode, the action or action group will still be shown in the current location, except that it appears dimmed.|
 |**Show**|This option appears if the action or action group has been previously hidden (dimmed). Choosing this option will make the action or action group appear in the action bar.|
 
-### Move actions and action groups
+### To move actions and action groups
 
 To move an action or action group, drag and drop it to the desired location, just like with fields and columns.
 
@@ -95,18 +95,18 @@ Where you can drop actions or actions groups is indicated by a horizontal line b
 
 - You can move individual actions into the promoted categories, but you cannot rearrange the order of the actions in the category.
 - You cannot move an action group into a promoted category.
-- To move an action or action group into another action group that is empty, drag the action or action group to the new group and drop it in the **Drop an action here** box. 
+- To move an action or action group into another action group that is empty, drag the action or action group to the new group and drop it in the **Drop an action here** box.
 
-## Additional points-of-interest
+## Additional Points of Interest
 
-To help you better understand personalization, here are some pointers.  
+To help you better understand personalization, here are some pointers.
 
 - When you make changes to a card page that you open from a list, the changes will take effect on all records that you open from that list. For example, let's say you open a specific customer from the Customers list page, and then personalize the page by adding a field. When you open other customers from the list, the field that you added will also be shown.
 - Changes that you make will take effect on all your Role Centers. For example, if you make a change to the Customer list when the Role Center is set to Business Manager, you will also see the change in the Customer list when Role Center is set to Sales Order Processor.
 - Changes to a page in a pane will take effect on the page where ever it is shown.  
 - You can only add fields and columns from a predefined list, which is based on the page. You cannot create new ones.
 
-## Clear personalization
+## To clear personalization
 
 At some point, you might want to undo some or all of the personalization changes that you have made to a page over time. To do this, in the **Personalizing** banner, choose **More**, **Clear Personalization**, and then choose one of the following options. Be aware that clearing personalization cannot be undone.
 

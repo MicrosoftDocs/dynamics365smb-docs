@@ -36,7 +36,7 @@ At the top of each list page, there is a ![Search list](media/ui-search/search-l
 
 To search, simply select the search icon, and then in the box, type the text that you are looking for. You can enter letters, numbers, and other symbols.
 
-### Fine-tune the search
+### Fine-tune the Search
 In general, search will attempt to match text across all fields; it does not distinguish between uppercase and lowercase characters (in other words, case insensitive), and will match text placed anwhere in the field (at the beginning, end, or in the middle).
 
 However, you can make a more exact search by using the following special characters:
@@ -72,7 +72,7 @@ Filtering provides a more advanced and versatile way of controlling which record
 
 Filtering enables you to display records for specific accounts or customers, dates, amounts, and other information by specifying filter criteria. Only records that match the criteria are displayed. If you specify criteria for multiple fields, then only records that match all criteria will be displayed.
 
-### Working in the filter pane
+### Working in the Filter Pane
 
 To display the filter pane, select ![Filter pane icon](media/open-filter-pane-icon.png "Filter pane icon") at the top of the list or press **Shift+F3**. For lists within the Role Center, you can also choose the down arrow near the page title in the navigation bar above the list, and then choose **Show filter pane** as shown here:
 
@@ -102,7 +102,7 @@ A filter pane is divided in three sections: **Views**, **Filter list by**, and *
   > Filters in the **Filter totals by** section are controlled by FlowFilters on the page design. For technical information, see [FlowFilters](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
 
 
-### Entering filter criteria in the filter pane
+### Entering Filter Criteria in the Filter Pane
 To select a field to filter, do one of the following:
   - In the filter pane, choose **+ Field**. Type the name of the field you wish to filter, or pick a field from the menu that displays all fields in the table.
 
@@ -113,7 +113,7 @@ You can now type or select your filter criteria in the box. The type of field yo
 Columns that already have filters are indicated by the ![Filter icon](media/ui-search/filter-icon.png "Filter icon") in the column heading. To remove a filter, select the column heading, then choose **Clear Filter**.
 
 
-### Entering filter criteria without using the filter pane
+### Entering Filter Criteria Without Using the Filter Pane
 You can specify simple filters directly within the list without having to use the filter pane.
 With any field selected on a row, use the **Alt+F3** keyboard shortcut to display only the records having that same value. You can then select another field and use the same shortcut again to continue refining your filters. If the selected field is already filtered, using **Alt+F3** will clear that filter.
 
@@ -122,7 +122,7 @@ With any field selected on a row, use the **Alt+F3** keyboard shortcut to displa
 For more information see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
 
 
-## <a name="FilterCriteria"> </a>Filter criteria and symbols
+## <a name="FilterCriteria"> </a>Filter Criteria and Symbols
 When you enter criteria, you can use all the numbers and letters that you can normally use in the field. In addition, you can use special symbols to further filter the results. The following tables show the symbols which can be used in filters. For dates and times, you can also refer to [Working with Calendar Dates and Times](ui-enter-date-ranges.md) for more detailed information.
 
 > [!IMPORTANT]  
@@ -211,7 +211,7 @@ When you enter criteria, you can use all the numbers and letters that you can no
 |-----------------------|-----------------------|  
 |`Hans?n`|Text such as Hansen or Hanson|  
 
-### Combined format expressions  
+### Combined Format Expressions  
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
@@ -220,14 +220,14 @@ When you enter criteria, you can use all the numbers and letters that you can no
 |`>50&<100`|Include records with numbers that are greater than 50 and less than 100 (numbers 51 through 99).|  
 
 
-## <a name="FilterTokens"> </a>Filter tokens
+## <a name="FilterTokens"> </a>Filter Tokens
 When entering filter criteria, you can also type words that have special meaning, called filter tokens. After entering the token word, the word is replaced by the value or values that it represents. This makes filtering easier by reducing the need to navigate to other pages to look up values you want to add to your filter. The tables below describe some of the tokens you can type as filter criteria.
 
 > [!TIP]
 > Your organization may use custom tokens. To learn about the complete set of tokens available to you or to add more custom tokens, talk to your administrator. For technical information see [Adding Filter Tokens](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens).
 
 
-### (%me or %userid) Records assigned to you
+### (%me or %userid) Records Assigned to You
 
 Use `%me` or `%userid` when filtering fields that contain the user ID, such as **Assigned to User ID** field, to display all records that are assigned to you.
 

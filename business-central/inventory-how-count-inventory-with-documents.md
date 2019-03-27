@@ -122,7 +122,7 @@ The involved item ledger entries are updated along with any related item trackin
 After posting, the physical inventory order will be deleted and you can view and evaluate the document as a posted physical inventory order including its physical inventory recordings and any comments made.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Phys. Invt. Orders**, and then choose the related link.
-2. In the **Posted Phys. Invt. Orders** window, select the posted inventory order that you want to view, and then choose the **View** action.
+2. On the **Posted Phys. Invt. Orders** page, select the posted inventory order that you want to view, and then choose the **View** action.
 3. To view a list of related physical inventory recordings, choose the **Recordings** action.
 
 ## Handling Item Tracking when Counting Inventory

@@ -29,7 +29,7 @@
 ## [Managing Notifications](ui-smart-notifications.md)
 ## [Changing Basic Settings](ui-change-basic-settings.md)
 ## [Personalizing Your Workspace](ui-personalization-user.md)
-### [Why a Page is Locked From Personalizing](ui-personalization-locked.md)
+### [Why a Page is Locked from Personalizing](ui-personalization-locked.md)
 ### [Displaying Lists in Different Ways](across-display-lists-different-views.md)
 ## [Working with Reports and Batch Jobs](ui-work-report.md)
 ### [Specify Printer Selection for Reports](ui-specify-printer-selection-reports.md)

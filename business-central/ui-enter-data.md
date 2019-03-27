@@ -21,13 +21,13 @@ There are many general features that help you enter data easier, faster, and mor
 
 ## Keyboard Shortcuts
 
-There are several keyboard shortcuts that let you to work "mouse-free" and speed up your data entry, especially with large scale entries and repetitive typing tasks. 
+There are several keyboard shortcuts that let you to work "mouse-free" and speed up your data entry, especially with large scale entries and repetitive typing tasks.
 
 For more information about shortcuts, see [Keyboard Shortcuts](keyboard-shortcuts.md). A few of the shortcuts are discussed in this article.
 
-## <a name="QuickEntry"></a>Accelerating Data Entry Using Quick Entry 
+## <a name="QuickEntry"></a>Accelerating Data Entry Using Quick Entry
 
-Quick Entry is a feature designed for data entry when using the keyboard. Quick Entry works on fields (like on card pages) and in lists (rows and columns). It is beneficial when performing repetitive typing tasks that require creating multiple records in sequence, such as a batch of sales orders or registering new items. 
+Quick Entry is a feature designed for data entry when using the keyboard. Quick Entry works on fields (like on card pages) and in lists (rows and columns). It is beneficial when performing repetitive typing tasks that require creating multiple records in sequence, such as a batch of sales orders or registering new items.
 
 You might already be familiar with using the Tab key to navigate from one field on a page to the next editable field. A disadvantage of using Tab is that it always goes sequentially to the next field. <!-- even if the field is non-editable or seldom filled it in.-->Quick Entry lets you change this path. With Quick Entry, you use the Enter key to navigate through only those fields that you are interested in, skipping non-editable fields and fields that you typically do not fill in. You might have already noticed this behavior on some pages. This is because the application already designates which fields to include when pressing Enter and which ones to skip. You can customize Quick Entry by personalizing your workspace and optimizing how you enter data on each page.
 
@@ -35,7 +35,7 @@ You might already be familiar with using the Tab key to navigate from one field 
 
 Every field can be marked as either being *included in Quick Entry* or *excluded from Quick Entry*. Fields that are included in Quick Entry, will be included in the path when you press Enter; fields that are excluded from Quick Entry, will not.
 
-When you are finished entering data in a field, you simply press Enter to confirm the changes and go to the next field. If you want to reverse direction, and go the previous field, press Shift+Enter. For more information about shortcuts, see [Quick Entry keyboard shortcuts](keyboard-shortcuts.md#QuickEntry). 
+When you are finished entering data in a field, you simply press Enter to confirm the changes and go to the next field. If you want to reverse direction, and go the previous field, press Shift+Enter. For more information about shortcuts, see [Quick Entry keyboard shortcuts](keyboard-shortcuts.md#QuickEntry).
 
 #### Tips and tricks
 The following provides some useful information about using Quick Entry.
@@ -49,10 +49,10 @@ The following provides some useful information about using Quick Entry.
 
 ### How to Change Quick Entry Fields
 
-To change which fields are included in or excluded from Quick Entry on a page, you use personalization. 
+To change which fields are included in or excluded from Quick Entry on a page, you use personalization.
 
 1. Start personalization by selecting the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, and then **Personalize**.
-2. Select a field that you want change, or in lists, select the corresponding column heading, and then choose either **Include in Quick Entry** or **Exclude from Quick Entry**. 
+2. Select a field that you want change, or in lists, select the corresponding column heading, and then choose either **Include in Quick Entry** or **Exclude from Quick Entry**.
 
 For more information about personalization, see [Personalizing Your Workspace](ui-personalization-user.md).
 
@@ -63,7 +63,7 @@ When you enter data on pages, certain fields are marked with a red asterisk. The
 Even though the field contains a red asterisk, you are not forced to fill the field before you continue to other fields or close the page. The red asterisk only serves as a reminder that you will be blocked from completing a certain process.  
 
 ## Finding Data As You Type
-  
+
  When you start to type characters in a field, a drop-down list is displayed and shows possible field values. The list changes as you type more characters, and you can select the correct value when it is displayed.  
 
  Many fields have a down arrow button that you can choose. You choose the arrow to get a list of data that is available to enter in the field. The button has two functions depending on the type of field:  
@@ -73,7 +73,7 @@ Even though the field contains a red asterisk, you are not forced to fill the fi
 -   Drop-down - Displays the set of options that exist for the field. You can select only one of the options.  
 
 ## Copying and Pasting Fields and Lines
-  
+
 You can copy one or more rows from a list or a single field on a page, and then paste what you copied into the same page, another page, or an external document (like Microsoft Excel and Outlook email). In short, to copy, you press CTRL+C (cmd+C in macOS) on your keyboard. To paste, you press CTRL+V (cmd+V in macOS).
 
 In a list, to copy the field in the same column of the row above, and paste it into the current row, just press F8.
@@ -86,20 +86,20 @@ When working on documents that include a line items part, like a sales order or 
 
 Another advantage is that it also provides advanced filtering capability, like on other lists, so browsing and searching through line items becomes even easier.
 
-### Switch the focus on and off
+### Switch the Focus On and Off
 
 To focus on lines items, select anywhere in the line item part, and then choose ![Focus Mode icon](media/focus-mode.png "Focus mode icon") in the upper right corner or press Ctrl+Shift+F12.
 
 To switch back to the normal view, choose ![Focus Mode icon](media/focus-mode.png "Focus mode icon") or press Ctrl+Shift+F12 again.
 
-### Filtering the line items
+### Filtering the Line Items
 
-To start filtering, select ![Filter pane icon](media/open-filter-pane-icon.png "Filter pane icon") at the top of the list or press **Shift+F3** to open the filter pane. You work with the filter pane as you do on any other list. For more information, see [Filtering](ui-enter-criteria-filters.md#Filtering). 
+To start filtering, select ![Filter pane icon](media/open-filter-pane-icon.png "Filter pane icon") at the top of the list or press **Shift+F3** to open the filter pane. You work with the filter pane as you do on any other list. For more information, see [Filtering](ui-enter-criteria-filters.md#Filtering).
 
 Filtering is especially helpful when viewing and analysing longer documents. For example, imagine you open a posted sales invoice and filter the line items to display all line items that have an individual discount above 5%, or filter to display only bike accessories with 'pro' in the name.
 
 ## Entering Quantities by Calculation
-  
+
 When entering numbers into quantity fields, such as the **Quantity** field on an item journal line, you can enter the formula instead of the sum quantity.  
 
 ### Examples  
@@ -156,7 +156,7 @@ Instead of entering a specific date, you can enter one of these codes.
 |c|This specifies that the date after `c`is a closing date, for example `C123101`.|  
 
 ## Entering Times
-  
+
 When you enter times, you can insert any separator sign that you want between the units, but it is not required. You do not have to write minutes, seconds, or AM/PM.  
 
 The following table lists the various ways in which times can be entered and how they are interpreted.  
@@ -174,7 +174,7 @@ The following table lists the various ways in which times can be entered and how
  You must enter two digits for each unit of time if you do not enter a separator.  
 
 ## Entering Datetimes
-  
+
 When you enter datetimes you must enter a space between the date and the time.  
 
 The following table lists the various ways in which you can enter datetimes and how they are interpreted.  
@@ -203,7 +203,7 @@ The following table lists the various ways in which you can enter datetimes and 
 |tu 3:3:3|Tuesday of the current week 03:03:03|  
 
 ## Entering Duration
-  
+
 You enter a duration as a number followed by its unit of measure.  
 
 Here are some examples.  
@@ -237,10 +237,10 @@ Here are some examples.
 |**Sample expression**|**Entries included**|  
 |---------------------------|--------------------------|  
 |12 15 00&#124;12 01 00..12 10 00|Entries posted either on 12 15 00 or on dates between and including 12 01 00 and 12 10 00.|  
-|..12 14 00&#124;12 30 00..|Entries posted on 12 14 00 or earlier, or entries posted on 12 30 00 or later - that is, all entries except those posted on dates between and including 12 15 00 and 12 29 00.| 
+|..12 14 00&#124;12 30 00..|Entries posted on 12 14 00 or earlier, or entries posted on 12 30 00 or later - that is, all entries except those posted on dates between and including 12 15 00 and 12 29 00.|
 
 ## Using Date Formulas
-  
+
  A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.  
 
 > [!NOTE]  
@@ -298,11 +298,11 @@ Here are some examples.
 
 |||  
 |-|-|  
-|-1Y|1 year ago from today| 
+|-1Y|1 year ago from today|
 
 [!CAUTION]  
->  If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, a 1W means seven working days. For more information, see Base Calendar Card.--> 
- 
+>  If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, a 1W means seven working days. For more information, see Base Calendar Card.-->
+
 ## See Also  
  [Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

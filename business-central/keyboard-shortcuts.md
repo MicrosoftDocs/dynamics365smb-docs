@@ -30,7 +30,7 @@ Most of the shortcuts are the same no matter whether the operating system is Win
 The following table describes keyboard shortcuts for navigating and accessing different elements of a page, such as actions, drop-down lists, lookups, and more. For details about keyboard shortcuts for navigating records once you get inside a list, see the next section.
 
 |Press these keys<br />(in macOS)|To do this|
-|----------------|-----------| 
+|----------------|-----------|
 |Alt+Down Arrow|Open a drop-down list or look up a value for a field.|    
 |Alt+Right Arrow|See the transactions that resulted in a calculated value in a field.|  
 |Alt+F2|Show and hide the FactBox pane.|
@@ -44,7 +44,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |F5|Refresh the data on the current page.<br /><br />Use this to ensure that the data on the page is up-to-date with any changes that others have made while you are working.|
 |Ctrl+F12|Switch between wide and narrow layout view.|
 |Enter|Enable or access the element or control that is in focus.|
-|Esc|Close the current page or drop-down.| 
+|Esc|Close the current page or drop-down.|
 |Tab|Move focus to the next control or element on a page, such as actions, buttons, fields, or list headings.|
 |Shift+Tab|Move focus to the previous control or element on a page, such as actions, buttons, fields, or list headings.|
 
@@ -63,7 +63,7 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Shift+F10 |Open a menu of options that are available for selected row.|Not applicable.|
 |Alt+N |Open a page for creating a new record; the same way as selecting the **New** action. |Same.|
 
-### <a name="navigateshortcuts"></a> Navigate between rows and columns
+### <a name="navigateshortcuts"></a>Navigating Between Rows and Columns
 
 |Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |
 |-----------------|-------|-------|
@@ -82,7 +82,7 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Tab|In editable list, move in the same row to the next field to the right.|Not applicable.||
 |Shift+Tab|In editable list, move in the same row to the previous field to the left. | Not applicable. |
 
-### <a name="CopyRows"></a>Select, copy and paste
+### <a name="CopyRows"></a>Selecting, Copying, and Pasting
 
 |Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |
 |-----------------|-------|-------|
@@ -100,7 +100,7 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Ctrl+V<br />(Cmd+V)|Paste the selected rows from the Clipboard into the current page or external document, like Microsoft Excel or Outlook email.<br /><br />You can only do this in editable lists.|Not applicable.|
 |F8|Copy the field in the same column of the row above, and paste it into the current row.<br /><br />You can only do this in editable lists. Using this shortcut followed by a Tab lets you quickly fill out fields in line items that you want to have the same value as the row above.|Not applicable.||
 
-### <a name="KeyboardFilter"></a>Searching and filtering lists
+### <a name="KeyboardFilter"></a>Searching and Filtering Lists
 
 |Press these keys<br />(in macOS)|To do this|
 |-----------------|-------|

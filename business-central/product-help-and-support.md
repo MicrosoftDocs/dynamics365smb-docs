@@ -15,9 +15,9 @@ In [!INCLUDE[prodlong](includes/prodlong.md)], the Help menu item (the question 
 
 This page outlines the resources available to you in the different sections of the **Help and Support** page.  
 
-## Find It
+## Finding Answers
 
-The **Find it** section provides links to the most common places to find answers to your questions. The links fall into four catagories and are explained in the following subsections. Some of the links can be configured by your [!INCLUDE [prodshort](includes/prodshort.md)] partner, and as a result the behavior can be slightly different.  
+The **Find it** section provides links to the most common places to find answers to your questions. The links fall into four categories and are explained in the following subsections. Some of the links can be configured by your [!INCLUDE [prodshort](includes/prodshort.md)] partner, and as a result the behavior can be slightly different.  
 
 ### Product Help
 
@@ -40,7 +40,7 @@ If you are using a trial version of [!INCLUDE [prodshort](includes/prodshort.md)
 
 The [Business Central blog](https://community.dynamics.com/business/b/financials) is where you can learn more about new [!INCLUDE[prodshort](includes/prodshort.md)] capabilities, new app releases, tips and tricks, as well as updates about new country releases.  
 
-### Capabilities coming soon
+### Capabilities Coming Soon
 
 [!INCLUDE[prodshort](includes/prodshort.md)] is updated with major feature updates every 6 months, and with monthly service updates. Choose the link to view the latest release notes. You can also get an overview of upcoming and recently released capabilities in the release notes across Dynamics 365 at [https://dynamics.microsoft.com/en-us/business-applications/release/](https://dynamics.microsoft.com/en-us/business-applications/release/#release-notes).  
 

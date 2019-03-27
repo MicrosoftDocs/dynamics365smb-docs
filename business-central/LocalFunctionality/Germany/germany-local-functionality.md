@@ -68,7 +68,7 @@ The following topics describe local functionality that is unique to the German v
     * [Copy Existing Items to New Items](how-to-copy-existing-items-to-new-items.md) **Available Now**
 
 ## See Also
-[Certification of Business Central for German market (document is in German)](https://go.microsoft.com/fwlink/?linkid=875256)
+[Certification of Business Central for German market (document is in German)](https://go.microsoft.com/fwlink/?linkid=875256)  
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  

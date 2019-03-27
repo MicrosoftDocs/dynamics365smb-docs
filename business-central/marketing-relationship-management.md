@@ -30,7 +30,7 @@ To get started, see the following topics:
 
 ## See Also
 [Sales](sales-manage-sales.md)  
-[Integrating with Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)  
+[Using Dynamics 365 for Sales from Business Central](marketing-integrate-dynamicscrm.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

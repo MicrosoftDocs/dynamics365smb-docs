@@ -13,7 +13,7 @@ ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 02/24/2019
 ms.author: bholtorf
 ---
-# Integrating with Dynamics 365 for Sales
+# Using Dynamics 365 for Sales from Business Central
 If you use Dynamics 365 for Sales for customer engagement, you can enjoy seamless integration in the lead-to-cash process by using [!INCLUDE[d365fin](includes/d365fin_md.md)] for backend activities such as processing orders, managing inventory, and doing your finances.
 
 > [!NOTE]
@@ -35,7 +35,7 @@ For example, if you want to see accounts in Sales as customers in [!INCLUDE[d365
 
 You can also create (and couple) an account in Sales based on, for example, customer record in [!INCLUDE[d365fin](includes/d365fin_md.md)] using **Create Account in Dynamics 365 for Sales**, or vice versa, using **Create Customer in [!INCLUDE[d365fin](includes/d365fin_md.md)]**.
 
-When you set up coupling between two records, you can also manually request current record, for example a customer, to be overwritten immediately by account data from Sales (or from [!INCLUDE[d365fin](includes/d365fin_md.md)]) using **Synchronize Now** action. **Synchronize Now** action which will ask whether to overwrite Sales or [!INCLUDE[d365fin](includes/d365fin_md.md)] record data. 
+When you set up coupling between two records, you can also manually request current record, for example a customer, to be overwritten immediately by account data from Sales (or from [!INCLUDE[d365fin](includes/d365fin_md.md)]) using **Synchronize Now** action. **Synchronize Now** action which will ask whether to overwrite Sales or [!INCLUDE[d365fin](includes/d365fin_md.md)] record data.
 
 In some cases you must couple certain sets of data before other sets of data, as shown in the following table.
 
@@ -58,7 +58,7 @@ To check the progress of individual jobs in a full synchronization, on the **Dyn
 From the **Microsoft Dynamics 365 Connection Setup** page, you can get details about full synchronization at any time. From here, you can also open the **Integration Table Mappings** page to see details about the tables in [!INCLUDE[d365fin](includes/d365fin_md.md)] and Sales that must be synchronized.
 
 ## Handling Sales Order Data
-Sales orders that people submit in [!INCLUDE[crm_md](includes/crm_md.md)] will be transferred to [!INCLUDE[d365fin](includes/d365fin_md.md)] if you select the **Automatically Create Sales Orders** check box on the **Microsoft Dynamics 365 Connection Setup** page. 
+Sales orders that people submit in [!INCLUDE[crm_md](includes/crm_md.md)] will be transferred to [!INCLUDE[d365fin](includes/d365fin_md.md)] if you select the **Automatically Create Sales Orders** check box on the **Microsoft Dynamics 365 Connection Setup** page.
 Alternatively, you can manually convert submitted sales orders from [!INCLUDE[crm_md](includes/crm_md.md)] by using the **Create in [!INCLUDE[d365fin](includes/d365fin_md.md)]** action available on **Sales Orders - Dynamics 365 for Sales** page.
 On such sales orders, the **Name** field on the original order is transferred and mapped to the **External Document Number** field on the sales order in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
@@ -69,7 +69,7 @@ If the description of the item on the original sales order is long, an additiona
 Updates to sales order header fields, such as Last Shipment Date or Requested Delivery Date, that are mapped in SALESORDER-ORDER **Integration table mapping** are periodically synchronized to [!INCLUDE[crm_md](includes/crm_md.md)]. Processes such as releasing a sales order and shipping or invoicing a sales order are posted to the sales order timeline in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [Introduction to activity feeds](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/introduction-activity-feeds).
 
 ## Handling Sales Quotes Data
-Sales quotes that are activated in [!INCLUDE[crm_md](includes/crm_md.md)] will be transferred to [!INCLUDE[d365fin](includes/d365fin_md.md)] if you select the **Automatically Process Quotes** check box on the **Microsoft Dynamics 365 Connection Setup** page. 
+Sales quotes that are activated in [!INCLUDE[crm_md](includes/crm_md.md)] will be transferred to [!INCLUDE[d365fin](includes/d365fin_md.md)] if you select the **Automatically Process Quotes** check box on the **Microsoft Dynamics 365 Connection Setup** page.
 Alternatively, you can manually convert activated sales quotes from [!INCLUDE[crm_md](includes/crm_md.md)] by using the **Process in [!INCLUDE[d365fin](includes/d365fin_md.md)]** action on the **Sales Quotes - Dynamics 365 for Sales** page.
 On such sales quotes, the **Name** field on the original quote is transferred and mapped to the **External Document Number** field on the sales order in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Also **Effective To** field on quote is transferred and mapped to the  **Quote Valid Until** field on sales quote in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 

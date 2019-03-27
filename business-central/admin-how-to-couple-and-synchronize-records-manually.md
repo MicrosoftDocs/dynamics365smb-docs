@@ -41,4 +41,4 @@ This topic describes how to couple one or more records in [!INCLUDE[d365fin](inc
 3.  If records can be synchronized either from [!INCLUDE[d365fin](includes/d365fin_md.md)] to [!INCLUDE[crm_md](includes/crm_md.md)] or from [!INCLUDE[crm_md](includes/crm_md.md)] to [!INCLUDE[d365fin](includes/d365fin_md.md)], select the option that specifies the direction of data update, and then choose **OK**.  
 
 ## See Also  
-[Integrating with Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)
+[Using Dynamics 365 for Sales from Business Central](marketing-integrate-dynamicscrm.md)

@@ -474,7 +474,7 @@
 ### [Create Opportunities](marketing-how-create-opportunities.md)
 ### [Processing Sales Opportunities](marketing-processing-sales-opportunities.md)
 ## [Use Profile Questionnaires to Classify Business Contacts](marketing-create-contact-profile-questionnaire.md)
-## [Integrating with Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)
+## [Using Dynamics 365 for Sales from Business Central](marketing-integrate-dynamicscrm.md)
 ### [Couple and Synchronize Records Manually](admin-how-to-couple-and-synchronize-records-manually.md)
 ### [View the Status of a Synchronization](admin-how-to-view-synchronization-status.md)
 # [Human Resources](hr-manage-human-resources.md)

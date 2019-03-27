@@ -1186,7 +1186,7 @@
 #### [Close an LSV Collection](LocalFunctionality/Switzerland/how-to-close-an-lsv-collection.md)
 #### [Export Payments Using LSV](LocalFunctionality/Switzerland/how-to-export-payments-using-lsv.md)
 #### [Import ESR Payments](LocalFunctionality/Switzerland/how-to-import-esr-payments.md)
-#### [Print ESR Invoices]([LocalFunctionality/Switzerland/how-to-print-esr-invoices.md)
+#### [Print ESR Invoices](LocalFunctionality/Switzerland/how-to-print-esr-invoices.md)
 #### [Import Swiss Bank Clearing Numbers](LocalFunctionality/Switzerland/how-to-import-swiss-bank-clearing-numbers.md)
 #### [Post LSV Payments](LocalFunctionality/Switzerland/how-to-post-lsv-payments.md)
 #### [Print Vendor Payments List Reports](LocalFunctionality/Switzerland/how-to-print-vendor-payments-list-reports.md)

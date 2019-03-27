@@ -44,7 +44,7 @@ Some functionality, either general or for specific business processes, can be se
 |Get insights into your Business Central data with Power BI and the Business Central content packs.|[Enabling Your Business Data for Power BI](admin-powerbi.md)|
 |Use your Business Central data as part of a workflow in Microsoft Flow.|[Using Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md)|
 |Make your Business Central data available as a data source in PowerApps.|[Connecting to Your Business Central Data to Build a Business App Using PowerApps](across-how-use-financials-data-source-powerapps.md)|
-|Use dedicated Quickbooks migration guides.|[Changing from a QuickBooks App to Business Central]across-quickbooks-to-business-edition.md|
+|Use dedicated Quickbooks migration guides.|[Changing from a QuickBooks App to Business Central](across-quickbooks-to-business-edition.md)|
 |Access your Business Central data from your mobile device.|[Getting Business Central on Your Mobile Device](install-mobile-app.md)|
 |Do bulk invoicing of appointments created in Bookings.|[Bulk Invoicing for Microsoft Bookings](finance-bookings.md)|
 |Set up an SMTP server to enable e-mail communication in and out of [!INCLUDE[d365fin](includes/d365fin_md.md)]| [Set Up Email Manually or Using the Assisted Setup](admin-how-setup-email.md)|

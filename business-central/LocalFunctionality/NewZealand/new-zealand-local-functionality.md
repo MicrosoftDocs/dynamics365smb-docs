@@ -11,7 +11,7 @@ ms.author: bholtorf
 
 ---
 # New Zealand Local Functionality
-The following topics describe local functionality that is unique to the New Zealand version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)]  
+The following topics describe local functionality that is unique to the New Zealand version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## Feature Availability
 

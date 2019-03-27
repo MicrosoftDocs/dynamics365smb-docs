@@ -2,7 +2,7 @@
     title: How to Set Up KID Numbers on Sales Documents
     description: Kunde ID (KID) is a customer identification number that provides a payment reference to the vendor and ensures that the vendor is posting the payment correctly.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -30,8 +30,7 @@ Kunde ID (KID) is a customer identification number that provides a payment refer
     |**Document No. length**|Enter the number of digits used for the document number.|  
     |**Customer No. length**|Enter the number of digits used for the customer number.|  
     |**Use KID on Fin. Charge Memo**|Select to print KID numbers on finance charge memos. **Note:**  If selected, then you must also select the **Document Type + Document No.** format in the **KID Setup** field.|  
-    |**Use KID on Reminder**|Select to print KID numbers on reminders. **Note:**  If selected, then you must also select the **Document Type + Document No.** format in the **KID Setup** field.|  
-    |**Print Receipt on Giro**|Select to print the receipt section on sales invoices, credit memos, reminders, or finance charge memos.There are several layout options available when printing the receipt section on sales documents that contain a Giro. For more information, see [Norwegian Sales Documents](norwegian-sales-documents.md)|  
+    |**Use KID on Reminder**|Select to print KID numbers on reminders. **Note:**  If selected, then you must also select the **Document Type + Document No.** format in the **KID Setup** field.|
 
 3.  Choose the **OK** button.  
 

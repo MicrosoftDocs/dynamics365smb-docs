@@ -16,18 +16,12 @@ ms.author: sgroespe
 
 ---
 # Create Contacts
-Your company regularly meets prospective companies that usually develop into future business relationships. When a new contact is made, this information needs to be recorded so that communication can continue.
+You regularly meet persons from other companies that may develop into business relationships, such as a customer relation. When such a new contact is made, as much information as possible must be recorded on a contact card so that communication can continue.
 
-Assigning as much data as possible about a specific company ensures efficient communication. For example, assigning the relevant industry group, ensures that specific companies are included in any relevant communication. You can also define the business relationship that you have with a contact. For example, a contact could be a prospect, bank, or contractor.
+## Person or Company
+You can decide to set up a contact as a person or a company, typically depending on whether you know the name of the contact person at the time of creation. You do this when you fill in the **Type** field on the **Contact Card** page. You can also maintain contact cards for both a company and one or more persons working in the company. This happens automatically when you fill in the **Company Name** field on a contact card of type **Person**.
 
-> [!NOTE]
-> In the **Type** field on the **Contact Card** page, you can set up a contact as a person or a company, typically depending on whether you know the name of the contact person at the time of creation. Functionality is the same for both types, except for some of the additional information types that can be assigned. You can change the value of the field later, or you can use the fields on the **Inheritance** FastTab on the **Marketing Setup** page to control which data is shared between a person and the related company.
-
-You can create a contact for each new person or company that you interact with, for example, a customer, vendor, prospective customer, bank, law firm, consultant, and so on.
-
-There are two ways to create a contact:
- * Manually.
- * From an existing customer, vendor, or bank account.
+Functionality is the same for both types, except that the options for additional information changes depending on the type. For example, you can only assign job responsibilities to a person and industry group to a company. This is indicated in the UI by garying out the fields and actions that do not apply. You can change the value of the **Type** field later, or you can use the fields on the **Inheritance** FastTab on the **Marketing Setup** page to control which data is shared between a person and the person's related company. For more information, see [Setting Up Contacts](marketing-setup-contacts.md).
 
 ## To create a contact manually
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, and then choose the related link.

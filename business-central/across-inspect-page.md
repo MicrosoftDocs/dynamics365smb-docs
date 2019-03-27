@@ -8,7 +8,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.service: dynamics365-business-central
 author: jswymer
-ms.date: 02/21/2019
+ms.date: 04/01/2019
 ---
 # Inspecting Pages in Business Central
 

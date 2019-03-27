@@ -8,7 +8,7 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords:
-ms.date: 12/12/2018
+ms.date: 04/01/2019
 ms.author: edupont
 
 ---

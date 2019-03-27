@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, CRM, integration, couple
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
 redirect_url: marketing-create-contact-companies
 

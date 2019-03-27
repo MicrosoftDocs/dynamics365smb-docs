@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
-ms.date: 02/24/2019
+ms.date: 04/01/2019
 ms.author: bholtorf
 ---
 # Using Dynamics 365 for Sales from Business Central

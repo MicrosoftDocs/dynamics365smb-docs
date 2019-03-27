@@ -36,6 +36,7 @@ The following table lists these general business areas with links to topics that
 |Attach pictures, documents, and other types of files to all cards, such as the item card and job card, and attach files to all types of sales and purchase documents.|[Attach Files to Cards and Documents](across-attach-document-master-data.md)|
 |Work with your Business Central data in Excel.|[Exporting Your Business Data to Excel](about-export-data.md)|
 |Understand what happens when you choose the **Post** action.|[Posting Documents and Journals](ui-post-documents-journals.md)|
+|Review the result of posting before you post.|[Preview Posting Results](ui-how-preview-post-results.md)| 
 |Learn how to work with general journals, which are used to post to general ledger accounts and other accounts such as bank, customer, vendor, and fixed assets accounts. |[Working with General Journals](ui-work-general-journals.md) |
 | Schedule a report to run at a specific date and time. |[Scheduling a Report to Run](ui-work-report.md#ScheduleReport) |
 |Let the system help you complete tasks quicker and more correctly by prefilling fields or complete lines with data that you would otherwise have to calculate and enter yourself.|[Letting Business Central Suggest Values](ui-let-system-suggest-values.md)|

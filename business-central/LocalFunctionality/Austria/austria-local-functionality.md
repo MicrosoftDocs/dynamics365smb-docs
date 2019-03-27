@@ -31,9 +31,10 @@ The following topics describe local functionality that is unique to the Austrian
     * [Delivery Reminders](delivery-reminders.md) **Available Now**
     * [Set Up Delivery Reminders](how-to-set-up-delivery-reminders.md) **Available Now**
     * [Set Up Delivery Reminder Terms, Levels, and Text](how-to-set-up-delivery-reminder-terms-levels-and-text.md) **Available Now**
+    * [Assign Delivery Reminder Codes to Vendors](how-to-assign-delivery-reminder-codes-to-vendors.md) **Available Now**
     * [Generate Delivery Reminders](how-to-generate-delivery-reminders.md) **Available Now**
     * [Create Delivery Reminders Manually](how-to-create-delivery-reminders-manually.md) **Available Now**
-    * [Assign Delivery Reminder Codes to Vendors](how-to-assign-delivery-reminder-codes-to-vendors.md) **Available Now**
+    * [Issue Delivery Reminders](how-to-issue-delivery-reminders.md) **Available Now**
     * [Print Test Reports for Delivery Reminders](how-to-print-test-reports-for-delivery-reminders.md) **Available Now**
 
 * General

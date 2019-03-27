@@ -32,6 +32,7 @@ The following topics describe local functionality that is unique to the Swiss ve
     * [Close an LSV Collection](how-to-close-an-lsv-collection.md) **Available Now**
     * [Export Payments Using LSV](how-to-export-payments-using-lsv.md) **Available Now**
     * [Import ESR Payments](how-to-import-esr-payments.md) **Available Now**
+    * [Print ESR Invoices]([how-to-print-esr-invoices.md) **Available Now**
     * [Import Swiss Bank Clearing Numbers](how-to-import-swiss-bank-clearing-numbers.md) **Available Now**
     * [Post LSV Payments](how-to-post-lsv-payments.md) **Available Now**
     * [Print Vendor Payments List Reports](how-to-print-vendor-payments-list-reports.md) **Available Now**

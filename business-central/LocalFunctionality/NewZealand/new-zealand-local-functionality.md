@@ -18,10 +18,12 @@ The following topics describe local functionality that is unique to the New Zeal
 * VAT & Tax  
     * [Tax](tax.md)
     * [Withholding Tax](withholding-tax.md)
-    * [Calculate and Post Withholding Tax Settlements](how-to-calculate-and-post-withholding-tax-settlements.md) **Available Now**
     * [Set Up Withholding Tax](how-to-set-up-withholding-tax.md) **Available Now**
+    * [Set Up Revenue Types for Withholding Tax](how-to-set-up-revenue-types-for-withholding-tax.md) **Available Now**
     * [Set Up Goods and Services Tax Posting](how-to-set-up-goods-and-service-tax-posting.md) **Available Now**
     * [Set Up Vendors Without ABN for Calculating Withholding Tax](how-to-set-up-vendors-without-abn-for-calculating-the-withholding-tax.md) **Available Now**
+    * [Calculate and Post Withholding Tax Settlements](how-to-calculate-and-post-withholding-tax-settlements.md) **Available Now**
+    * [View Withholding Tax Entries](how-to-view-withholding-tax-entries.md)
     * [View Posted Tax Credit Memos](how-to-view-posted-tax-credit-memos.md) **Available Now**  
     * [View Posted Tax Invoices](how-to-view-posted-tax-invoices.md) **Available Now**
     * [Adjust Settlement Exchange Rates for VAT Entries](how-to-adjust-settlement-exchange-rates-for-vat-entries.md) **Available Now**

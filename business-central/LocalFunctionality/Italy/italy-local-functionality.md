@@ -27,6 +27,7 @@ The following topics describe local functionality that is unique to the Italian 
     * [Correct VAT Transactions Reports](how-to-correct-vat-transactions-reports.md) **Available Now**
     * [Create Electronic VAT Transactions Reports](how-to-create-electronic-vat-transactions-reports.md) **Available Now**
     * [Export VAT Transactions Reports](how-to-export-vat-transactions-reports.md) **Available Now**
+    * [Update VAT Transactions Data](how-to-update-vat-transactions-data.md) **Available Now**
     * [Prepare for VAT Transactions Reports](how-to-prepare-for-vat-transactions-reports.md) **Available Now**
     * [Print and Reprint G/L Books and VAT Registers](how-to-print-and-reprint-g-l-books-and-vat-registers.md) **Available Now**
     * [Print Intrastat Reports for Italy](how-to-print-intrastat-reports-for-italy.md) **Available Now**
@@ -45,6 +46,7 @@ The following topics describe local functionality that is unique to the Italian 
 
 * Inventory
     * [Set Up Initial Item Costs](how-to-set-up-initial-item-costs.md) **Available Now**
+    * [Fiscal Inventory Valuation](fiscal-inventory-valuation.MD) **Available Now**
     * [Set Up Fiscal Inventory Valuation](how-to-set-up-fiscal-inventory-valuation.md) **Available Now**
 
 * Fixed Assets

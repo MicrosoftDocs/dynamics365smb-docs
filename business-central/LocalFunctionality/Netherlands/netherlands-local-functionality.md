@@ -23,6 +23,7 @@ The following topics describe local functionality that is unique to the Dutch ve
 
 * VAT & Tax
     * [Create a Audit File for the Tax Authority](how-to-create-an-audit-file-for-the-tax-authority.md) **Available Now**
+    * [Set Up VAT Categories](how-to-set-up-vat-categories.md) **Available Now**
     * [Electronic VAT and ICP Declarations](electronic-vat-and-icp-declarations.md) **Available Now**
     * [Set Up Electronic VAT and ICP Declarations](how-to-set-up-electronic-vat-and-icp-declarations.md) **Available Now**
     * [Submitting Electronic VAT and ICP Declarations](electronic-vat-and-icp-declarations.md) **Available Now**
@@ -34,6 +35,7 @@ The following topics describe local functionality that is unique to the Dutch ve
     * [Payment Scenario 1 - Domestic Payments (LCY to LCY)](payment-scenario-1-domestic-payments-lcy-to-lcy-.md) **Available Now**  
     * [Payment Scenario 2 - Foreign Payment (FCY to FCY)](payment-scenario-2-foreign-payment-fcy-to-fcy-.md **Available Now**  
     * [Payment Scenario 3 - Foreign Payment (LCY  to FCY)](payment-scenario-3-foreign-payment-lcy-to-fcy-.md) **Available Now**
+    * [Create Proposals](how-to-create-proposals.md) **Available Now**
     * [Docket Reports](docket-reports.md) **Available Now**
     * [Enter and Post Cash and Bank or Giro Journals](how-to-enter-and-post-cash-and-bank-or-giro-journals.md) **Available Now**
     * [Print Test Reports for Cash and Bank or Giro Journals](how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md) **Available Now**
@@ -41,6 +43,7 @@ The following topics describe local functionality that is unique to the Dutch ve
     * [Activate SEPA Payments](how-to-activate-sepa-payments.md) **Available Now**
     * [Submit Vendor Payments Electronically in SEPA ISO 20022 Payment Format](how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format.md) **Available Now**
     * [Create and Export Payment History](how-to-create-and-export-payment-history.md) **Available Now**
+    * [Import and Reconcile Bank Statements](how-to-import-and-reconcile-bank-statements.md) **Available Now**
 
 * Core Finance
     * [General Ledger](general-ledger.md) **Available Now**

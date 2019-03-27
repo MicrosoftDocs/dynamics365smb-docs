@@ -27,6 +27,7 @@ The following topics describe local functionality that is unique to the German v
     * [VAT Reporting](vat-reporting.md) **Available Now**
     * [Create VAT Reports](how-to-create-vat-reports.md) **Available Now**
     * [Correct VAT Reports](how-to-correct-vat-reports.md) **Available Now**
+    * [Sales VAT Advance Notifications](LocalFunctionality\Germany\how-to-set-up-and-export-sales-vat-advance-notifications.md) **Available Now**
     * [Create and Submit Sales VAT Advance Notifications](how-to-create-and-submit-sales-vat-advance-notifications.md) **Available Now**
     * [Electronic Submission of Sales VAT Advance Notifications to ELSTER](electronic-submission-of-sales-vat-advance-notifications-to-elster.md) **Available Now**
     * [Declare VAT-VIES Tax](how-to-declare-vat-vies-tax.md) **Available Now**
@@ -38,6 +39,7 @@ The following topics describe local functionality that is unique to the German v
 
 * Core Finance
     * [Export and Print Intrastat Reports](how-to-export-and-print-intrastat-reports.md) **Available Now**
+    * [Post a Negative Entry](how-to-post-a-negative-entry.md) **Available Now**
     * [Process for Digital Audits](process-for-digital-audits.md) **Available Now**
     * [Set Up Data Exports for Digital Audits](how-to-set-up-data-exports-for-digital-audits.md) **Available Now**
     * [Set Up Data Exports for GDPDU](how-to-set-up-data-exports-for-gdpdu.md) **Available Now**

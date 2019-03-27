@@ -16,7 +16,7 @@
 
 ---
 # Design Details: Table Structure
-To understand how the dimension entry storing and posting is redesigned, it is important to understand the table structure.  
+To understand how dimension entries are stored storing and posting is redesigned, it is important to understand the table structure.  
 
 ## New Tables  
  Three new tables have been designed to manage dimension set entries.  

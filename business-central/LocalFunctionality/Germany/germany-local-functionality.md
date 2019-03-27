@@ -27,7 +27,7 @@ The following topics describe local functionality that is unique to the German v
     * [VAT Reporting](vat-reporting.md) **Available Now**
     * [Create VAT Reports](how-to-create-vat-reports.md) **Available Now**
     * [Correct VAT Reports](how-to-correct-vat-reports.md) **Available Now**
-    * [Sales VAT Advance Notifications](LocalFunctionality\Germany\how-to-set-up-and-export-sales-vat-advance-notifications.md) **Available Now**
+    * [Sales VAT Advance Notifications](how-to-set-up-and-export-sales-vat-advance-notifications.md) **Available Now**
     * [Create and Submit Sales VAT Advance Notifications](how-to-create-and-submit-sales-vat-advance-notifications.md) **Available Now**
     * [Electronic Submission of Sales VAT Advance Notifications to ELSTER](electronic-submission-of-sales-vat-advance-notifications-to-elster.md) **Available Now**
     * [Declare VAT-VIES Tax](how-to-declare-vat-vies-tax.md) **Available Now**

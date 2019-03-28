@@ -38,6 +38,8 @@ With pages that display a list of records in rows and columns, like a list of cu
 >[!NOTE]
 >For [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, the **Edit in Excel** action is only available if the Excel add-in has been installed by your administrator. For administrators, if you want to learn how to install the excel add-in, see [Setting up the Excel Add-In](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).
 
+> [!Video https://go.microsoft.com/fwlink/?linkid=2086039]
+
 ## See Also
 
 [Working with Business Central](ui-work-product.md)  

@@ -18,7 +18,7 @@
 # Setting Up User Accounts for Integrating with Dynamics 365 for Sales
 This article provides an overview of how to set up the user accounts that are required to integrate [!INCLUDE[crm_md](includes/crm_md.md)] with [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-<!-->> [!VIDEO https://www.youtube.com/embed/VWVmJQpqbHU]-->
+> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085500]
 
 ## Setting Up the Admininstrator User Account in Sales
 You must add your administrator user account for [!INCLUDE[d365fin](includes/d365fin_md.md)] as a user in [!INCLUDE[crm_md](includes/crm_md.md)], and then promote the user to administrator in [!INCLUDE[crm_md](includes/crm_md.md)]. The administrator user account must also have the System Customizer role and at least one other non-administrative user role, such as Sales Manager, in [!INCLUDE[crm_md](includes/crm_md.md)].

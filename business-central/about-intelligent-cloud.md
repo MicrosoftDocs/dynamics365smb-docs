@@ -35,7 +35,7 @@ In your [!INCLUDE[prodshort](includes/prodshort.md)] online company, the **Intel
 Next to the KPI charts, you get insights into potential areas of concern, including overdue payments. Choose each insight to drill into the data.  
 
 > [!div class="mx-imgBorder"]
-> ![Intelligent cloud insights](media/across-intelligent-cloud/intelligentcloudinsights.png "Shows the intelligent Cloud Insights page in Business Central")
+> ![Intelligent cloud insights](media/across-intelligent-cloud/intelligentcloudApril19.png "Shows the intelligent Cloud Insights page in Business Central")
 
 The page also connects to Power BI for even more insights.
 

@@ -23,11 +23,9 @@ To integrate with [!INCLUDE[crm_md](includes/crm_md.md)], you must set up a conn
 > Before you start to connect the apps, there are a few pieces of informtion that will be useful to have ready:  
 
 * A URL for your [!INCLUDE[crm_md](includes/crm_md.md)] app. A fast way to get the URL is to open [!INCLUDE[crm_md](includes/crm_md.md)] and copy the URL, and then paste it in the **Dynamics 365 for Sales URL** field in [!INCLUDE[d365fin](includes/d365fin_md.md)]. [!INCLUDE[d365fin](includes/d365fin_md.md)] will correct the formatting for you.  
-
-* A user name and password of a user account that is used only for the integration. 
-
-* The user name and password of the account that has administrator permissions. 
-
+* A user name and password of a user account that is used only for the integration.  
+* The user name and password of the account that has administrator permissions.  
+  
 > [!Note]
 > These steps describe the procedure for the online version of [!INCLUDE[d365fin](includes/d365fin_md.md)].
 

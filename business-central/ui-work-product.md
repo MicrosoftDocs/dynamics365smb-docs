@@ -51,3 +51,4 @@ Here's a short video about how to get around in [!INCLUDE[d365fin](includes/d365
 [General Business Functionality](ui-across-business-areas.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]

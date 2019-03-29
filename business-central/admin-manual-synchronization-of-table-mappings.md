@@ -22,9 +22,9 @@ Manually synchronizing integration table mappings can be useful during the initi
 This article describes three methods for manually synchronizing integration table mappings. Each method provides a different level of synchronization.
 
 ## Run a Full Synchronization
-A full synchronization runs all the default integration synchronization jobs for synchronizing [!INCLUDE[d365fin](includes/d365fin_md.md)] records and [!INCLUDE[crm_md](includes/crm_md.md)] entities, as defined on the **Integration Table Mappings** page. A full synchronization performs the following operations:  
+A full synchronization runs all the default integration synchronization jobs for synchronizing [!INCLUDE[d365fin](includes/d365fin_md.md)] records and [!INCLUDE[crm_md](includes/crm_md.md)] entities, as defined on the **Integration Table Mappings** page. 
 
-For [!INCLUDE[d365fin](includes/d365fin_md.md)] or [!INCLUDE[crm_md](includes/crm_md.md)] records that are:
+A full synchronization performs the following operations For [!INCLUDE[d365fin](includes/d365fin_md.md)] or [!INCLUDE[crm_md](includes/crm_md.md)] records that are:
 
 * Not coupled, a new matching record will be created and coupled in the opposing solution.
 Whether and where a record gets created depends on the synchronization direction. For example, when synchronizing data from [!INCLUDE[d365fin](includes/d365fin_md.md)] customers to [!INCLUDE[crm_md](includes/crm_md.md)] accounts, if there is a customer that is not coupled to an account, then a new account will be automatically added in [!INCLUDE[crm_md](includes/crm_md.md)] and coupled to the customer in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The opposite holds true when the synchronization direction is from [!INCLUDE[crm_md](includes/crm_md.md)] to [!INCLUDE[d365fin](includes/d365fin_md.md)]. For each account that is not already coupled to a customer, a new matching customer will be created in [!INCLUDE[d365fin](includes/d365fin_md.md)] and coupled to the account in [!INCLUDE[crm_md](includes/crm_md.md)].  
@@ -46,6 +46,9 @@ The jobs are run in the following order to avoid coupling dependencies between e
 
 > [!IMPORTANT]  
 >  You typically only use the full synchronization when you initially set up integration between [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] and only one of solutions contains data, which you want to copy to the other solution. A full synchronization can be useful in a demonstration environment. Because the full synchronization automatically creates and couples records between the solutions, it makes it faster to start working with synchronizing data between records. On the other hand, you should only run a full synchronization if you want a record in [!INCLUDE[d365fin](includes/d365fin_md.md)] for each record in [!INCLUDE[crm_md](includes/crm_md.md)] for the given table mappings. Otherwise, you can have unwanted or duplicate records in either [!INCLUDE[d365fin](includes/d365fin_md.md)] or [!INCLUDE[crm_md](includes/crm_md.md)].  
+
+### See the process for a full synchronization
+> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085502]
 
 ### To run a full synchronization  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Microsoft Dynamics 365 for Sales Connection Setup**, and then choose the related link.

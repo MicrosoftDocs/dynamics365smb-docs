@@ -19,8 +19,10 @@
 # Set Up a Connection to Dynamics 365 for Sales
 To integrate with [!INCLUDE[crm_md](includes/crm_md.md)], you must set up a connection between [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)]. 
 
-> [!Tip]
-> Before you start to connect the apps, there are a few pieces of informtion that will be useful to have ready:  
+> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2086048]
+
+## Before You Start
+Before you start to connect the apps, there are a few pieces of informtion that will be useful to have ready:  
 
 * A URL for your [!INCLUDE[crm_md](includes/crm_md.md)] app. A fast way to get the URL is to open [!INCLUDE[crm_md](includes/crm_md.md)] and copy the URL, and then paste it in the **Dynamics 365 for Sales URL** field in [!INCLUDE[d365fin](includes/d365fin_md.md)]. [!INCLUDE[d365fin](includes/d365fin_md.md)] will correct the formatting for you.  
 * A user name and password of a user account that is used only for the integration.  
@@ -30,7 +32,6 @@ To integrate with [!INCLUDE[crm_md](includes/crm_md.md)], you must set up a conn
 > These steps describe the procedure for the online version of [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## Set Up, Test, and Enable a Connection to [!INCLUDE[crm_md](includes/crm_md.md)]  
-<!-- Authentication types different from Office 365 are available in on prem version only. In saas version you can't actually pick authentication type as the only one that is available is Office 365 authentication type. This should be re-worded to focus only on saas. we can probably put a note that in on-prem this will be different. -->
 For all authentication types other than Office 365 authentication, you set up your connection to Dynamics 365 for Sales on the **Microsoft Dynamics 365 for Sales Connection Setup** page. For Office 365 authentication, you can also use the **Set Up Dynamics 365 for Sales Connection** assisted setup guide, which will help you provide the required information.
 
 ### To use an assisted setup guide

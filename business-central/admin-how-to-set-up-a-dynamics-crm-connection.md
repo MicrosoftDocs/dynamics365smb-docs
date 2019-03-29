@@ -19,7 +19,7 @@
 # Set Up a Connection to Dynamics 365 for Sales
 To integrate with [!INCLUDE[crm_md](includes/crm_md.md)], you must set up a connection between [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)]. 
 
-> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2086048]
+> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085501]
 
 ## Before You Start
 Before you start to connect the apps, there are a few pieces of informtion that will be useful to have ready:  

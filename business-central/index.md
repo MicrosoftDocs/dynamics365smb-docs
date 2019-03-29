@@ -30,3 +30,4 @@ ms.author: sgroespe
 [Getting [!INCLUDE[d365fin](includes/d365fin_md.md)] on Your Mobile Device](install-mobile-app.md)  
 [Resources for Help and Support](product-help-and-support.md)  
 [Dynamics 365 documentation](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
+[!INCLUDE[d365fin](includes/training_link_md.md)]

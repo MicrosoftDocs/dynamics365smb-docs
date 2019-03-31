@@ -6,7 +6,7 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 10/24/2018
+ms.date: 04/01/2019
 ms.author: edupont
 
 ---

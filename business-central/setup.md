@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
 
 ---
@@ -23,7 +23,7 @@ From your Role Center, you can access assisted setup guides that help you config
 > [!NOTE]
 > You can set up a new company in [!INCLUDE[d365fin](includes/d365fin_md.md)] with RapidStart Services, which is a tool designed to shorten deployment times, improve quality of implementation, introduce a repeatable approach to implementations, and enhance productivity by automating and simplifying recurring tasks. For more information, see [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
-Some functionality, either general or for specific business processes, can be set up manually in addition to the assisted setup. The following lists some of functionality that can you can set up manually.
+Some functionality, either general or for specific business processes, can be set up manually in addition to the assisted setup guide. The following lists some of functionality that can you can set up manually.
 
 | To | See |
 | --- | --- |
@@ -44,7 +44,7 @@ Some functionality, either general or for specific business processes, can be se
 |Get insights into your Business Central data with Power BI and the Business Central content packs.|[Enabling Your Business Data for Power BI](admin-powerbi.md)|
 |Use your Business Central data as part of a workflow in Microsoft Flow.|[Using Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md)|
 |Make your Business Central data available as a data source in PowerApps.|[Connecting to Your Business Central Data to Build a Business App Using PowerApps](across-how-use-financials-data-source-powerapps.md)|
-|Use dedicated Quickbooks migration guides.|[Changing from a QuickBooks App to Business Central]across-quickbooks-to-business-edition.md|
+|Use dedicated Quickbooks migration guides.|[Changing from a QuickBooks App to Business Central](across-quickbooks-to-business-edition.md)|
 |Access your Business Central data from your mobile device.|[Getting Business Central on Your Mobile Device](install-mobile-app.md)|
 |Do bulk invoicing of appointments created in Bookings.|[Bulk Invoicing for Microsoft Bookings](finance-bookings.md)|
 |Set up an SMTP server to enable e-mail communication in and out of [!INCLUDE[d365fin](includes/d365fin_md.md)]| [Set Up Email Manually or Using the Assisted Setup](admin-how-setup-email.md)|

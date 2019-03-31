@@ -6,7 +6,7 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: prepayment
-ms.date: 12/04/2018
+ms.date: 04/01/2019
 ms.author: edupont
 
 ---

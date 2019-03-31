@@ -1,0 +1,120 @@
+﻿Merge remote-tracking branch 'refs/remotes/origin/Spring-2019' into tell-me
+
+# Conflicts:
+#	business-central/finance-dimensions.md
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Committer: Brent Holtorf <bholtorf@microsoft.com>
+#
+# On branch tell-me
+# Your branch is based on 'origin/tell-me', but the upstream is gone.
+#   (use "git branch --unset-upstream" to fixup)
+#
+# All conflicts fixed but you are still merging.
+#
+# Changes to be committed:
+#	modified:   business-central/LocalFunctionality/Australia/australia-local-functionality.md
+#	modified:   business-central/LocalFunctionality/Austria/austria-local-functionality.md
+#	modified:   business-central/LocalFunctionality/Belgium/belgium-local-functionality.md
+#	modified:   business-central/LocalFunctionality/Canada/canada-local-functionality.md
+#	modified:   business-central/LocalFunctionality/Czech/czech-local-functionality.md
+#	modified:   business-central/LocalFunctionality/Denmark/denmark-local-functionality.md
+#	modified:   business-central/LocalFunctionality/Finland/finland-local-functionality.md
+#	modified:   business-central/LocalFunctionality/France/france-local-functionality.md
+#	modified:   business-central/LocalFunctionality/Germany/example-inventory-order-line-with-tracking-lines.md
+#	modified:   business-central/LocalFunctionality/Germany/germany-local-functionality.md
+#	modified:   business-central/LocalFunctionality/Germany/how-to-analyze-physical-inventory-differences.md
+#	modified:   business-central/LocalFunctionality/Germany/how-to-calculate-quantity-on-hand-for-a-physical-inventory-order.md
+#	modified:   business-central/LocalFunctionality/Germany/how-to-create-a-physical-inventory-recording.md
+#	modified:   business-central/LocalFunctionality/Germany/how-to-enter-physical-inventory-orders.md
+#	modified:   business-central/LocalFunctionality/Germany/how-to-finish-a-physical-inventory-order.md
+#	modified:   business-central/LocalFunctionality/Germany/how-to-finish-a-physical-inventory-recording.md
+#	modified:   business-central/LocalFunctionality/Germany/how-to-post-physical-inventory-orders.md
+#	modified:   business-central/LocalFunctionality/Germany/how-to-set-up-physical-inventory-documents.md
+#	modified:   business-central/LocalFunctionality/Germany/how-to-view-duplicate-physical-inventory-order-lines.md
+#	modified:   business-central/LocalFunctionality/Germany/physical-inventory-documents.md
+#	modified:   business-central/LocalFunctionality/Germany/physical-inventory-order-lines-with-item-tracking-lines.md
+#	modified:   business-central/LocalFunctionality/Germany/physical-inventory-recording-counting-physical-inventory.md
+#	modified:   business-central/LocalFunctionality/Iceland/iceland-local-functionality.md
+#	modified:   business-central/LocalFunctionality/Italy/how-to-set-up-payment-terms.md
+#	modified:   business-central/LocalFunctionality/Italy/italy-local-functionality.md
+#	modified:   business-central/LocalFunctionality/Mexico/mexico-local-functionality.md
+#	modified:   business-central/LocalFunctionality/Netherlands/netherlands-local-functionality.md
+#	modified:   business-central/LocalFunctionality/NewZealand/new-zealand-local-functionality.md
+#	modified:   business-central/LocalFunctionality/Norway/norway-local-functionality.md
+#	modified:   business-central/LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents.md
+#	modified:   business-central/LocalFunctionality/Spain/spain-local-functionality.md
+#	modified:   business-central/LocalFunctionality/Sweden/sweden-local-functionality.md
+#	modified:   business-central/LocalFunctionality/Switzerland/switzerland-local-functionality.md
+#	modified:   business-central/LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.md
+#	modified:   business-central/LocalFunctionality/UnitedStates/united-states-local-functionality.md
+#	modified:   business-central/TOC.md
+#	modified:   business-central/across-faq.md
+#	modified:   business-central/across-import-data-configuration-packages.md
+#	new file:   business-central/across-inspect-page.md
+#	modified:   business-central/admin-how-to-prepare-a-configuration-package.md
+#	modified:   business-central/admin-migrate-customer-data.md
+#	modified:   business-central/assembly-how-to-create-blanket-assembly-orders.md
+#	modified:   business-central/design-details-searching-for-dimension-combinations.md
+#	modified:   business-central/finance-dimensions.md
+#	new file:   business-central/includes/nav_windows_md.md
+#	modified:   business-central/index.md
+#	modified:   business-central/inventory-how-count-adjust-reclassify.md
+#	new file:   business-central/inventory-how-count-inventory-with-documents.md
+#	new file:   business-central/inventory-how-import-item-pictures.md
+#	modified:   business-central/inventory-how-work-item-tracking.md
+#	modified:   business-central/inventory-manage-inventory.md
+#	modified:   business-central/inventory-setup-inventory.md
+#	modified:   business-central/keyboard-shortcuts-cheatsheet.md
+#	modified:   business-central/keyboard-shortcuts.md
+#	modified:   business-central/marketing-contacts.md
+#	modified:   business-central/marketing-create-contact-companies.md
+#	modified:   business-central/marketing-setup-contacts.md
+#	new file:   business-central/media/filter-icon2.png
+#	new file:   business-central/media/focus-mode.png
+#	new file:   business-central/media/open-filter-pane-icon.png
+#	new file:   business-central/media/page-inspection-example.png
+#	new file:   business-central/media/page-inspection-extensions.png
+#	new file:   business-central/media/page-inspection-extensions.vsdx
+#	new file:   business-central/media/page-inspection-page-filters.png
+#	new file:   business-central/media/page-inspection-table-fields.png
+#	new file:   business-central/media/personalization-blocked-icon.png
+#	new file:   business-central/media/personalization-blocked.png
+#	new file:   business-central/media/personalization-cannot-move-here.png
+#	modified:   business-central/media/personalization-lock-icon.png
+#	new file:   business-central/media/personalize-action-bar-group-clip.png
+#	new file:   business-central/media/personalize-action-bar.png
+#	modified:   business-central/media/ui_personalize_mode_small.png
+#	copied:     business-central/media/ui_personalize_mode_small.png -> business-central/media/ui_personalize_mode_small_old.png
+#	modified:   business-central/product-get-started.md
+#	new file:   business-central/product-help-and-support.md
+#	modified:   business-central/projects-how-create-jobs.md
+#	modified:   business-central/projects-how-setup-jobs.md
+#	modified:   business-central/projects-manage-projects.md
+#	modified:   business-central/projects-setup-projects.md
+#	modified:   business-central/purchasing-how-register-new-vendors.md
+#	modified:   business-central/purchasing-manage-purchasing.md
+#	new file:   business-central/sales-how-merge-duplicate-records.md
+#	modified:   business-central/sales-how-register-new-customers.md
+#	modified:   business-central/sales-manage-sales.md
+#	modified:   business-central/ui-change-basic-settings.md
+#	modified:   business-central/ui-enter-criteria-filters.md
+#	modified:   business-central/ui-enter-data.md
+#	modified:   business-central/ui-personalization-locked.md
+#	modified:   business-central/ui-personalization-manage.md
+#	modified:   business-central/ui-personalization-user.md
+#	modified:   business-central/warehouse-how-to-convert-existing-locations-to-warehouse-locations.md
+#	modified:   business-central/warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md
+#
+# Changes not staged for commit:
+#	modified:   README.md
+#
+

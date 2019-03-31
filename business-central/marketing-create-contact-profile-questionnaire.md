@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ---
 
 # Use Profile Questionnaires to Classify Business Contacts

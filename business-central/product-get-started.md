@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 12/03/2018
+ms.date: 04/01/2019
 ms.author: edupont
 
 ---
@@ -37,7 +37,7 @@ When you are ready to start working and you want to look at some of the business
 ## The Role Centers
 The Role Center page is based on a role-centric design to give you fast access to the business process and intelligence tools that you need to do your job. For example, an accountant can monitor payments and approvals, and view finance performance charts. Check out the various Role Center by choosing the **Settings** icon ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") in the top right corner,  choosing **My Settings**, and then the Role Center to explore. Sign in again to apply the change. For more information, see [Changing Basic Settings](ui-change-basic-settings.md).
 
-Each Role Center provides a **Setup and Extensions** button. Here you have access to a list of assisted setup that can help you get started by setting selected areas up quickly. If an area is not covered by an assisted setup, choose the **Manual Setup** action to access setup pages where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+Each Role Center provides a **Setup and Extensions** button. Here you have access to a list of assisted setup guides that can help you get started by setting selected areas up quickly. If an area is not covered by an assisted setup, choose the **Manual Setup** action to access setup pages where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 > [!NOTE]  
 >   The list of setup guides, extensions, and services that are available differ depending on the user experience you choose for your company. The **Essential** experience gives access to fewer than the **Premium** experience does. The first time you sign in, you use the Essential experience. For more information, see [Changing Which Features are Displayed](ui-experiences.md).  
@@ -69,7 +69,7 @@ Alternatively, find a [!INCLUDE[d365fin](includes/d365fin_md.md)] partner [here]
 
 ## Getting answers to questions
 
-If you are not sure how to do something in [!INCLUDE[d365fin](includes/d365fin_md.md)], you can hopefully find the answer either from reading the tooltip for the field that you are unsure of, or by reading the content by opening the *Learn more* link in a tooltip. You can also get to the documentation by choosing the related link in the Help menu.  
+If you are not sure how to do something in [!INCLUDE[d365fin](includes/d365fin_md.md)], you can hopefully find the answer either from reading the tooltip for the field that you are unsure of, or by reading the content by opening the *Learn more* link in a tooltip (use the keyboard shortcut Ctrl+F1 ). You can also get to the documentation by choosing the related link in the [Help and Support page](product-help-and-support.md).  
 
 All fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] are described in tooltips. You can access tooltips by choosing the name of the field. For example, in a page like the **Customer Card**, simply choose the name of the field to read the tooltip. In a list such as the **Customers** list, or the lines in a document such as a sales order, you have to choose the drop-down menu to the right of the name of the column and then choose the **What's this?** menu item.  
 
@@ -84,14 +84,16 @@ Navigate to content about the other Dynamics 365 apps by choosing the [Dynamics 
 If you are an accountant, you can sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] and have seamless integration with [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).
 
 ## See Also
+
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as my Business Inbox in Outlook](admin-outlook.md)  
 [Getting [!INCLUDE[d365fin](includes/d365fin_md.md)] on Your Mobile Device](install-mobile-app.md)  
+[Resources for Help and Support](product-help-and-support.md)  
 [Dynamics 365 Documentation](https://docs.microsoft.com/en-us/dynamics365/)  
 [Microsoft Dynamics 365 Business Central Release Notes](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/training_link_md.md)]  

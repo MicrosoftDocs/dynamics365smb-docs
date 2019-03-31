@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 11/28/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
 
 ---

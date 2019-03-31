@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 11/13/2018
+    ms.date: 04/01/2019
     ms.author: sgroespe
     redirect_url: finance-define-and-allocate-costs
 

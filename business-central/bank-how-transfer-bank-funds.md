@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
-ms.date: 11/18/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
 
 ---

@@ -8,7 +8,7 @@ ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ---
 
 # Classifying Data Sensitivity

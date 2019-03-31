@@ -230,6 +230,7 @@
 ## [Extending Your Trial Version](admin-extend-trial.md)
 ## [Inspecting Pages](across-inspect-page.md)
 ## [Creating a Sandbox Environment](across-how-create-sandbox-environment.md)
+## [Integrating with Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)
 ## [Customizing Business Central](ui-customizing-overview.md)
 ### [Customizing Using Extensions](ui-extensions.md)
 #### [Ceridian Payroll](ui-extensions-ceridian-payroll.md)

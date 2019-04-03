@@ -15,7 +15,10 @@ ms.author: jswymer
 # Keyboard Shortcuts
 This article provides an overview of some of the shortcut key combinations that you can use when you are working with [!INCLUDE[prodshort](includes/prodshort.md)].
 
-[Print-friendly keyboard shortcut reference](keyboard-shortcuts-cheatsheet.md)
+> [!TIP]
+> For a quick, print-friendly overview of the most popular shortcuts, [see the reference article here](keyboard-shortcuts-cheatsheet.md) or click the following image:
+>
+>[ ![To download for printing, right-click and select Save Picture As](media/bckeyboardmap-inline.png) ](media/bckeyboardmap.png#lightbox)
 
 ## Overview
 The keyboard shortcuts aide accessibility and can make it easier and more efficient to navigate to different areas and elements on a page.

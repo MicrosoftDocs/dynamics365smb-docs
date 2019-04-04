@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contact, prospect, client
-ms.date: 04/04/2019
+ms.date: 04/01/2019
 ms.author: jswymer
 
 ---
@@ -26,8 +26,7 @@ To get started, see the following topics:
 [Managing Segments](marketing-segments.md)  
 [Recording Interactions](marketing-interactions.md)  
 [Managing Marketing Campaigns](marketing-campaigns.md)  
-[Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
-[Using Dynamics 365 for Sales from Business Central](marketing-integrate-dynamicscrm.md)
+[Managing Sales Opportunities](marketing-manage-sales-opportunities.md)
 
 ## See Also
 [Sales](sales-manage-sales.md)  

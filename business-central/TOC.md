@@ -1,5 +1,5 @@
-# [Welcome to Business Central](index.md)
 # [Getting Started](product-get-started.md)
+# [Welcome to Business Central](index.md)
 ## [What's New](product-news.md)
 ## [Minimum Requirements](product-requirements.md)
 ## [Frequently Asked Questions](across-faq.md)
@@ -1107,10 +1107,6 @@
 ### Core Finance    
 #### [Apply General Ledger Entries in Closed Periods](LocalFunctionality/Norway/how-to-apply-general-ledger-entries-in-closed-periods.md)  
 ### General
-<<<<<<< HEAD
-#### [Norwegian Sales Documents](LocalFunctionality/Norway/norwegian-sales-documents.md)
-=======
->>>>>>> refs/remotes/origin/master
 #### [Recurring Orders](LocalFunctionality/Norway/recurring-orders.md)  
 #### [Create Recurring Orders](LocalFunctionality/Norway/how-to-create-recurring-orders.md)
 #### [Set Up Recurring Groups](LocalFunctionality/Norway/how-to-set-up-recurring-groups.md)  

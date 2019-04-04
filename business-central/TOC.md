@@ -1108,7 +1108,6 @@
 ### Core Finance    
 #### [Apply General Ledger Entries in Closed Periods](LocalFunctionality/Norway/how-to-apply-general-ledger-entries-in-closed-periods.md)  
 ### General
-#### [Norwegian Sales Documents](LocalFunctionality/Norway/norwegian-sales-documents.md)
 #### [Recurring Orders](LocalFunctionality/Norway/recurring-orders.md)  
 #### [Create Recurring Orders](LocalFunctionality/Norway/how-to-create-recurring-orders.md)
 #### [Set Up Recurring Groups](LocalFunctionality/Norway/how-to-set-up-recurring-groups.md)  

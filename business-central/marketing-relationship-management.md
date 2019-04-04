@@ -26,7 +26,8 @@ To get started, see the following topics:
 [Managing Segments](marketing-segments.md)  
 [Recording Interactions](marketing-interactions.md)  
 [Managing Marketing Campaigns](marketing-campaigns.md)  
-[Managing Sales Opportunities](marketing-manage-sales-opportunities.md)
+[Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
+[Integrating with Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)
 
 ## See Also
 [Sales](sales-manage-sales.md)  

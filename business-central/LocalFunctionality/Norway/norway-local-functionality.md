@@ -57,7 +57,6 @@ The following topics describe local functionality that is unique to the Norwegia
     * [Apply General Ledger Entries in Closed Periods](how-to-apply-general-ledger-entries-in-closed-periods.md) **Available Now**  
 
 * General
-    * [Norwegian Sales Documents](norwegian-sales-documents.md) **Available Now**
     * [Recurring Orders](recurring-orders.md) **Available Now**  
     * [Create Recurring Orders](how-to-create-recurring-orders.md) **Available Now**
     * [Set Up Recurring Groups](how-to-set-up-recurring-groups.md) **Available Now**  

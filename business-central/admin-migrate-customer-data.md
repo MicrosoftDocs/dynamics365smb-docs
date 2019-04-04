@@ -97,7 +97,7 @@ In the following procedures, you should review in advance which values you want 
 5. In the **Old Value** field, enter the value that you want to change. In the **New Value** field, enter the value that you want the old value to be changed to. Choose the **OK** button.  
 6. Import the customer data. For more information, see [To import customer data](admin-migrate-customer-data.md#to-import-customer-data).
 7. In the **No. of Package Errors** field, see if there are any errors reported. If there are, drill down to see the errors. The **Config. Package Records** page opens.
-8. Choose the **Show Error** action. You will receive the following error: **<option> is not a valid option. Valid options are <valid option list>**. Choose the **OK** button.  
+8. Choose the **Show Error** action. You will receive the following error: **XX is not a valid option. Valid options are: XX**. Choose the **OK** button.  
 9. To apply the mapping that you have set up, choose the **Apply Data** action.  
 
 ### Mapping Example  

@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 04/01/2019
+ms.date: 04/05/2019
 ms.author: edupont
 
 ---
@@ -54,18 +54,18 @@ Some functionality, either general or for specific business processes, can be se
 Some areas require you to be an administrator in your [!INCLUDE[d365fin](includes/d365fin_md.md)] subscription. For more information, see [Administration](admin-setup-and-administration.md).  
 
 ## See Also
+
 [Administration](admin-setup-and-administration.md)  
 [Finance](finance.md)  
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Inventory](inventory-manage-inventory.md)    
+[Inventory](inventory-manage-inventory.md)  
 [Project Management](projects-manage-projects.md)  
-[Fixed Assets](fa-manage.md)    
+[Fixed Assets](fa-manage.md)  
 [Assembly Management](assembly-assemble-items.md)  
 [Manufacturing](production-manage-manufacturing.md)  
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Administration](admin-setup-and-administration.md)  
 [Creating New Companies in [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
 [Getting Started](product-get-started.md)  
 

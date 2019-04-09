@@ -1245,6 +1245,7 @@
 ### Banking & Payments
 #### [Create Deposits](LocalFunctionality/UnitedStates/how-to-create-deposits.md)  
 #### [Reconcile Bank Accounts](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md)
+#### [Make Electronic Payments](payables-how-export-payments-bank-file.md)
 ### General
 #### [How to Manage Customer Credit Information](LocalFunctionality/UnitedStates/how-to-manage-customer-credit-information.md)  
 #### [Print Troubleshooting Reports](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)

@@ -25,7 +25,7 @@ The **Deposit Slip** report displays cash and check details in a format required
 2.  Select the **Bank** journal.  
 3.  Choose the **Edit Journal** action.  
 4.  On the **Cash Receipt Journal** page, choose the **Print Deposit Slip** action.  
-5.  On the **Gen. Journal Line** FastTab, select the appropriate filters.  
+5.  Select the appropriate filters.  
 6.  Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.  
 
 ## See Also  

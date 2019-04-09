@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2019
+    ms.date: 04/09/2019
     ms.author: soalex
 
 ---
@@ -27,6 +27,7 @@ The following topics describe local functionality that is unique to the Canadian
 * Banking & Payments
     * [Create Deposits](how-to-create-deposits.md) **Available Now**
     * [Manage Customer Credit Information](how-to-manage-customer-credit-information.md) **Available Now**
+    * [Make Electronic Payments](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file) **Available Now**
 
 * General
     * [Print Troubleshooting Reports](how-to-print-troubleshooting-reports.md) **Available Now**

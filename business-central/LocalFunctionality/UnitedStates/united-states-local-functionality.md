@@ -28,7 +28,7 @@ The following topics describe local functionality that is unique to the United S
 * Banking & Payments
     * [Create Deposits](how-to-create-deposits.md) **Available Now**  
     * [Reconcile Bank Accounts](how-to-reconcile-bank-accounts.md) **Available Now**
-    * [Make Electronic Payments](../../payables-how-export-payments-bank-file.md) **Available Now**
+    * [Make Electronic Payments](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file) **Available Now**
 
 * General
     * [How to Manage Customer Credit Information](how-to-manage-customer-credit-information.md) **Available Now**  

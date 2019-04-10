@@ -40,9 +40,9 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Alt+Q<br />(Ctrl+Alt+Q)|Open **Tell me what you want to do** box that can help you find a page, a report, an action on the current page, or an article in the documentation.|
 |Alt+T|Open and close the **My Settings** page.|
 |Alt+Up Arrow|Show tooltip for a field or a column header of a table. If the field has validation errors, press "Alt+Up Arrow" to show the validation error. Press "Esc" or "Alt+Up Arrow" to close the tooltip.|
-|Crtl+Alt+F1|Open and close the page inspection pane. The page inspection pane shows information about the page, like its source table, fields, filters, extensions, and more.<br /><br />For more information, see [Inspecting Pages](across-inspect-page.md).|
+|Ctrl+Alt+F1|Open and close the page inspection pane. The page inspection pane shows information about the page, like its source table, fields, filters, extensions, and more.<br /><br />For more information, see [Inspecting Pages](across-inspect-page.md).|
 |Ctrl+C |Copy the value of field. If the field is in focus, and you have not selected any text in the field, this will copy the entire value. If you have selected any text in the field, then it will copy the selected text only.|
-|Crtl+F1|Open the Business Central help for the page.|
+|Ctrl+F1|Open the Business Central help for the page.|
 |Ctrl+F5|Reload the [!INCLUDE[prodshort](includes/prodshort.md)] application.<br/><br />This is similar to selecting refresh/reload in the browser.|
 |F5|Refresh the data on the current page.<br /><br />Use this to ensure that the data on the page is up-to-date with any changes that others have made while you are working.|
 |Ctrl+F12|Switch between wide and narrow layout view.|

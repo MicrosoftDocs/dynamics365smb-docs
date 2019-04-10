@@ -1,6 +1,6 @@
 ---
     title: Delivery Reminders
-    description: Delivery reminders are used to track overdue vendor shipments, and to remind vendors about overdue deliveries.
+    description: Delivery reminders are used to track overdue vendor shipments and to remind vendors about overdue deliveries.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # Delivery Reminders
-Delivery reminders are used to track overdue vendor shipments, and to remind vendors about overdue deliveries. To create delivery reminders, you must set up the following:  
+Delivery reminders are used to track overdue vendor shipments and to remind vendors about overdue deliveries. To create delivery reminders, you must set up the following:  
 
 - Delivery reminder terms  
 

@@ -6,7 +6,7 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords:
-ms.date: 04/01/2019
+ms.date: 04/09/2019
 ms.author: sgroespe
 
 ---
@@ -29,6 +29,7 @@ The following topics describe local functionality that is unique to the Mexican 
     * [Set Up Electronic Invoicing](how-to-set-up-electronic-invoicing.md) **Available Now**
     * [Generate Electronic Invoices](how-to-generate-electronic-invoices.md) **Available Now**
     * [Electronic Accounting Regulations in Mexico](electronic-accounting-regulations.md) **Available Now**
+    * [Make Electronic Payments](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file) **Available Now**
 
 * General
     * [Set Up PAC Web Services](how-to-set-up-pac-web-services.md) **Available Now**

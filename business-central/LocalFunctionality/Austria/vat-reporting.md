@@ -22,7 +22,7 @@ You can print the following local VAT reports.
 
 |Report|Description|  
 |------------|---------------------------------------|  
-|**VAT Statement AT**|The Austrian VAT statement serves as the basis for VAT registration for a selected period, and is printed according to the VAT statement in the VAT Statement Line table. You can generate the report in three different formats. For more information, see VAT Statement AT.|  
+|**VAT Statement AT**|The Austrian VAT statement serves as the basis for VAT registration for a selected period and is printed according to the VAT statement in the VAT Statement Line table. You can generate the report in three different formats. For more information, see VAT Statement AT.|  
 |**VAT-VIES Declaration XML Report**|Shows the VAT-VIES declaration for sales in other countries/regions of the EU. This data is written to an XML file, which you can submit to the Austrian tax authorities by uploading it to the Finanz Online Portal. The report is based on information in the VAT Entry table.|  
 
 ## See Also  

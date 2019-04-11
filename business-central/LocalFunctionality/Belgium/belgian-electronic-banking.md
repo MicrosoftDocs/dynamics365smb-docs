@@ -24,9 +24,9 @@ Electronic banking allows you to electronically exchange data with Belgian finan
 
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use electronic banking to perform the following functions:  
 
-- Send electronic payments  
-- Process bank statements with CODA  
-- Process direct debits with domiciliations  
+- Send electronic payments.  
+- Process bank statements with CODA.  
+- Process direct debits with domiciliations.  
 
 ## See Also  
 [Belgium Local Functionality](belgium-local-functionality.md)  

@@ -56,7 +56,6 @@ The following topics describe local functionality that is unique to the Dutch ve
     * [Set Up Validation of Purchase Amounts](how-to-set-up-validation-of-purchase-amounts.md) **Available Now**
 
 * General
-    * [Set Up Standard Sales or Purchase Lines](how-to-set-up-standard-sales-or-purchase-lines.md) **Available Now**
     * [CMR Notes](cmr-notes.md) **Available Now**
     * [Dutch Postal Codes](dutch-post-codes.md) **Available Now**
     * [Import Postal Codes](how-to-import-post-codes.md) **Available Now**

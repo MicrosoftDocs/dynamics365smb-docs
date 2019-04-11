@@ -1035,7 +1035,6 @@
 #### [Edit Document Amounts in Purchase Invoices and Credit Memos](LocalFunctionality/Netherlands/how-to-edit-document-amounts-in-purchase-invoices-and-credit-memos.md)  
 #### [Set Up Validation of Purchase Amounts](LocalFunctionality/Netherlands/how-to-set-up-validation-of-purchase-amounts.md)
 ### General
-#### [Set Up Standard Sales or Purchase Lines](LocalFunctionality/Netherlands/how-to-set-up-standard-sales-or-purchase-lines.md)
 #### [CMR Notes](LocalFunctionality/Netherlands/cmr-notes.md)
 #### [Dutch Postal Codes](LocalFunctionality/Netherlands/dutch-post-codes.md)
 #### [Import Postal Codes](LocalFunctionality/Netherlands/how-to-import-post-codes.md)

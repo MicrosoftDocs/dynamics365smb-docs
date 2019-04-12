@@ -25,7 +25,7 @@ Applying temporary general ledger entries allows companies to work with temporar
 - Financial transaction transfers from one system to another in which part of the information temporarily resides on the original system.  
 - Transactions for which you have issued a sales invoice to a customer but have not yet received the corresponding purchase invoice from the vendor.  
 
- When the ledger entries have been processed, you can use the apply entries function to update the posted ledger entries and the posting account type.  
+ When the ledger entries have been processed, you can use the **Apply Entries** function to update the posted ledger entries and the posting account type.  
 
  You can unapply the applied general ledger entries and then open the closed entries to make changes.  
 
@@ -38,13 +38,13 @@ Applying temporary general ledger entries allows companies to work with temporar
     All open ledger entries for the general ledger account are displayed on the **Apply General Ledger Entries** page.  
 
     > [!NOTE]  
-    >  By default, the **Include Entries** field is set to **Open**. You can change the value of the **Include Entries** field to **All** or **Closed**. You can only apply general ledger entries that are **Open**.  
+    >  By default, the **Include Entries** field is set to **Open**. You can change the value of the **Include Entries** field to **All** or **Closed**. You can apply only those general ledger entries that are **Open**.  
 
-4.  Select the relevant general ledger entry, and then, on the **Navigate** tab, in the **Application** group, choose **Set Applies-to ID**.  
+4.  Select the relevant general ledger entry, and then choose **Set Applies-to ID**.  
 
     The **Applies-to ID** field is updated with the user ID. The remaining amount is displayed in the **Balance** field on the **Apply General Ledger Entries** page.  
 
-5.  Choose the **Post Application**.  
+5.  Choose the **Post Application** action.  
 
     You can post the application even if the balance amount is equal to 0. When posted, the **Remaining Amount** field is affected as follows:  
 
@@ -52,10 +52,10 @@ Applying temporary general ledger entries allows companies to work with temporar
 
     - If the **Balance** is not equal to 0, then the amount in the **Balance** field is transferred to the **Remaining Amount** field for the general ledger entry that was selected when you posted the application.  
 
-    - For all other general ledger entries, the **Remaining Amount** field is set to 0 and the **Open**, **Closed by Entry No.**, **Closed by Amount**, and **Closed at Date** fields are updated.  
+    - For all other general ledger entries, the **Remaining Amount** field is set to 0, and the **Open**, **Closed by Entry No.**, **Closed by Amount**, and **Closed at Date** fields are updated.  
 
     > [!NOTE]  
-    >  When posted, the general ledger entries which update the **Applies-to ID** field are deleted.  
+    >  When posted, the general ledger entries that update the **Applies-to ID** field are deleted.  
 
 6.  Choose the **OK** button.  
 

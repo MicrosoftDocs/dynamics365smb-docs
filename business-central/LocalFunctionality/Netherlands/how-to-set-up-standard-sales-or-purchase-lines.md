@@ -14,6 +14,7 @@
     ms.search.keywords:
     ms.date: 04/01/2019
     ms.author: sgroespe
+    redirect_url: netherlands-local-functionality
 
 ---
 # Set Up Standard Sales or Purchase Lines

@@ -26,7 +26,7 @@ Alternatively, you can manually transfer and post CODA statements. For informati
 ## To automatically transfer statement lines  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.  
-2.  Select the bank account, and then choose **CODA Statements** action.  
+2.  Select the bank account, and then choose the **CODA Statements** action.  
 3.  Select the CODA statement, and then choose the **Edit** action.  
 4.  Choose the **Transfer to General Ledger** action.  
 5.  Choose the **Yes** button.  

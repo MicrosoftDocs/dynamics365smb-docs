@@ -21,8 +21,8 @@ The **Link to Accon** report enables you to create a file that can be imported i
 
 ## To export the Link to Accon report  
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Link to Accon**, and then choose the related link.  
-2.  On the **Options** FastTab, choose the **Show Amounts in Add. Reporting Currency** check box so that amounts print in the additional reporting currency. If the check box is cleared, the amounts will be printed in local currency.  
-3.  On the **G/L Account** FastTab, enter the filter information.  
+2.  Choose the **Show Amounts in Add. Reporting Currency** check box so that amounts print in the additional reporting currency. If the check box is cleared, the amounts will be printed in local currency.  
+3.  Enter the filter information.  
 4.  Choose the **OK** button.  
 
 ## See Also  

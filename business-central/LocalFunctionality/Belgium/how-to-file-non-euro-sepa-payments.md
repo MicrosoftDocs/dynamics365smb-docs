@@ -20,6 +20,8 @@ Before you can file a non-euro SEPA payment you must complete the following admi
 - Verify that the **Currency Euro** field in the **General Ledger Setup** table is not in euro currency.  
 - Verify that the vendor’s **Preferred Bank Account** field in the **Vendor** table contains the IBAN and SWIFT code.  
 
+<!--note from editor: In first item in list above, add link to "Export Protocol"?   -->
+
 ## To file a non-euro SEPA payment  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **File Non Euro SEPA Payments**, and then choose the related link.  
@@ -30,7 +32,7 @@ Before you can file a non-euro SEPA payment you must complete the following admi
     |**Journal Template Name**|Specify the general journal template for the non-euro SEPA payment report.|  
     |**Journal Batch**|Specify the general journal batch for the non-euro SEPA payment report.|  
     |**Post General Journal Lines**|Specify if you want to transfer the payment lines to the general ledger.|  
-    |**Include Dimensions**|Enter the dimensions that you want to include in the non-euro SEPA payment report. The option is only available if the **Summarize Gen. Jnl. Lines** field on the **Electronic Banking Setup** page is selected.|  
+    |**Include Dimensions**|Enter the dimensions that you want to include in the non-euro SEPA payment report. The option is available only if the **Summarize Gen. Jnl. Lines** field on the **Electronic Banking Setup** page is selected.|  
     |**Execution Date**|Enter an execution date if you want an execution date that differs from the posting date on the payment lines.|  
     |**File Name**|Enter the name of the file, including the drive and folder, to which you want to print the report.|  
 

@@ -22,7 +22,7 @@
 
 CODA files can be downloaded manually or in attended mode.  
 
-To manually download CODA files, log  on to the Isabel server and select the files that you want to download. The downloaded files can then be imported from the **Bank Account** table. For more information, see [Import CODA Statements](how-to-import-coda-statements.md).  
+To manually download CODA files, log  on to the Isabel server, and select the files that you want to download. The downloaded files can then be imported from the **Bank Account** table. For more information, see [Import CODA Statements](how-to-import-coda-statements.md).  
 
 ## To download CODA files in attended mode  
 
@@ -35,7 +35,7 @@ To manually download CODA files, log  on to the Isabel server and select the fil
     |**From Date**|Specify the start date of the download.|  
     |**To Date**|Specify the end date of the download.|  
     |**File Format**|Select **Coda** as the file format.|  
-    |**File Status**|Select the file status of the download. File statuses include **Not Downloaded**, **Downloaded**, and **All**. Typically you will select **Not Downloaded**, because you are downloading the CODA files that have not been downloaded to your system.|  
+    |**File Status**|Select the file status of the download. File statuses include **Not Downloaded**, **Downloaded**, and **All**. Typically, you will select **Not Downloaded**, because you are downloading the CODA files that have not been downloaded to your system.|  
 
 4.  Choose the **OK** button.  
 

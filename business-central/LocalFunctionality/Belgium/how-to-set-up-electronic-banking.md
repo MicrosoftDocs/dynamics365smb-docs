@@ -22,11 +22,15 @@
 
 With electronic banking, you can make electronic payments to domestic, international, SEPA, and non-Euro SEPA vendors and customers.  
 
-Your company subscribes to an eBanking contract with the bank to maintain a certain bank account or several bank accounts. The company also subscribes to Isabel to send payment files to and receive bank statement files from the bank electronically. Therefore, the company receives smartcards linked to the eBanking contract. The smartcards are secured by PIN codes.  
+Your company subscribes to an eBanking contract with the bank to maintain a certain bank account or several bank accounts. The company also subscribes to Interbanks Standards Association Belgium (Isabel) to send payment files to and receive bank statement files from the bank electronically. Therefore, the company receives smart cards linked to the eBanking contract. The smart cards are secured by PIN codes.  
 
-You will receive one of these smartcards to connect to IBS so that you are connected to the eBanking contract of the company.  
+You will receive one of these smart cards to connect to IBS so that you are connected to the eBanking contract of the company. 
 
-When uploading to or downloading files from the IBS platform, you will insert the smartcard in the card reader and use a PIN code to make connection to IBS. When the IBS session is established, the eBanking contract and eBanking user is known by the system. Also the eBanking contract and user linked bank account numbers are known.  
+<!--note from editor: What does "IBS" stand for?    -->
+
+When uploading to or downloading files from the IBS platform, you will insert the smart card in the card reader and use a PIN code to make a connection to IBS. When the IBS session is established, the eBanking contract and eBanking user are known by the system. The eBanking contract and user linked bank account numbers are also known.  
+
+<In last sentence, paragraph above, change "user linked bank account numbers" to "the user's linked bank account numbers"   -->
 
 Before you can use electronic banking, you must set up the following information:  
 
@@ -36,7 +40,7 @@ Before you can use electronic banking, you must set up the following information
 ## To set up electronic banking  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Electronic Banking Setup**, and then choose the related link.  
-2.  On the **Electronic Banking Setup** page, on the **General** FastTab, fill in the fields as described in the following table.   
+2.  On the **Electronic Banking Setup** page, fill in the fields as described in the following table.   
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -47,21 +51,21 @@ Before you can use electronic banking, you must set up the following information
     |**Language**|Specify the language that you want to use for electronic bank balance and transaction messages.|  
     |**IBS Service Version**|Specify the service version that is used to communicate with the Isabel server.|  
 
-3.  On the **Upload** FastTab, fill in the fields as described in the following table.   
+3.  Fill in the fields as described in the following table.   
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Upload integration Mode**|Specify the mode that you want to use to upload content to the Isabel server. The integration mode options include **Attended** and **Manual**. If the integration mode is set to **Attended**, you must set the **IBS Version** field to **6**. The entries in the **IBS Log** table will be created when payment files are generated. If the integration mode is set to **Manual**, you must log on to the Isabel server manually and no log entries will be created.|  
     |**Upload Path**|Specify the path to the folder where the files will be saved during the upload process.|  
 
-4.  On the **Download** FastTab, fill in the fields as described in the following table.   
+4.  Fill in the fields as described in the following table.   
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Download integration Mode**|Specify the mode that you want to use to download content to the Isabel server. The options include **Attended** and **Manual**. If the integration mode is set to **Attended**, you must set the **IBS Version** field to **6**. The entries in the **IBS Log** table will be created when the download is performed. If the integration mode is set to **Manual**, you must log on to the Isabel server manually and no log entries will be created.|  
+    |**Download integration Mode**|Specify the mode that you want to use to download content to the Isabel server. The options include **Attended** and **Manual**. If the integration mode is set to **Attended**, you must set the **IBS Version** field to **6**. The entries in the **IBS Log** table will be created when the download is performed. If the integration mode is set to **Manual**, you must log on to the Isabel server manually, and no log entries will be created.|  
     |**Download Path**|Specify the path to the folder where the files will be saved during the download process.|  
 
-5.  On the **Numbering** FastTab, fill in the fields as described in the following table.   
+5.  Fill in the fields as described in the following table.   
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

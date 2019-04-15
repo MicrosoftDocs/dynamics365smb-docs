@@ -29,7 +29,7 @@ You can make corrections to posted VAT entries without posting the correction in
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Posting Date**|Enter the posting date of the VAT correction.|  
-    |**Amount**|Enter the amount of the VAT correction. You must enter the correction amount, not the new amount. For example, if the amount is 1000.00 and should be 1200.00, enter 200.00.|  
+    |**Amount**|Enter the amount of the VAT correction. You must enter the correction amount, not the new amount. For example, if the amount is 1,000.00 and should be 1,200.00, enter 200.00.|  
     |**Additional-Currency Amount**|This field displays the amount of the VAT correction in the additional reporting currency.<br /><br /> The field is automatically calculated, based on the contents of the **Amount** field and the current exchange rate.|  
 
 5.  Choose the **OK** button.  
@@ -39,8 +39,12 @@ You can make corrections to posted VAT entries without posting the correction in
     |Action|Description|  
     |------------|---------------------------------------|  
     |**Detailed Report**|Opens the **VAT Statement** report. For more information, see VAT Statement.|  
-    |**Form/Intervat Declaration**|Opens the **VAT –Form** report. For more information, see VAT - Form.<br /><br /> The **Form/Intervat Declaration** report is based on the VAT Statement template that is defined in the general ledger setup. Therefore, it may export data that is not the same as what is shown on the **VAT Statement Preview** page.|  
+    |**Form/Intervat Declaration**|Opens the **VAT –Form** report. For more information, see VAT - Form.<br /><br /> The **Form/Intervat Declaration** report is based on the VAT Statement template that is defined in the general ledger setup. Therefore, it might export data that is not the same as what is shown on the **VAT Statement Preview** page.|  
     |**Declaration Summary Report**|Opens the **VAT Statement Summary** report. For more information, see VAT Statement Summary.|  
+
+<!--note from editor: Line 42: Is it "VAT -Form" or "VAT - Form"?    -->
+
+<!--note from editor: Add links to the "see" phrases at Lines 41, 42, and 43?    -->
 
 ## See Also  
  [Belgian VAT](belgian-vat.md)   

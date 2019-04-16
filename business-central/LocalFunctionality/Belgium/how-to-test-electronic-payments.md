@@ -24,12 +24,15 @@ After you have set up electronic banking and generated payment suggestions, you 
 
 Some of the information that is validated includes:  
 
-- Bank accounts numbers are valid.  
-- Positive payment lines are present.  
-- If domestic and international payments are made from only one bank account.  
-- If only one bank account can be used for Isabel.  
-- If payment lines are in Euro for SEPA.  
-- If a number series has been defined for SEPA.  
+- Whether bank account numbers are valid.  
+- Whether positive payment lines are present.  
+- Whether domestic and international payments are made from only one bank account.  
+- Whether only one bank account can be used for Interbanks Standards Association Belgium (Isabel).  
+- Whether payment lines are in Euro for Single Euro Payments Area (SEPA).  
+- Whether a number series has been defined for SEPA.  
+
+<!--note from editor: In list above, "Whether payment lines are in Euro"--change to "euro" per NAV Style Guide?   -->
+
 
 You can view any errors on the **Export Check Error Logs** page.  
 

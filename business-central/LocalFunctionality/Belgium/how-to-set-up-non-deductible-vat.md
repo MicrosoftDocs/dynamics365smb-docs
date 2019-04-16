@@ -1,6 +1,6 @@
 ---
     title: How to Set Up Non-Deductible VAT
-    description: You can calculate VAT amounts for specific types of expenses which can be partially declared as VAT.
+    description: You can calculate VAT amounts for specific types of expenses that can be partially declared as VAT.
 
     services: project-madeira 
     documentationcenter: ''
@@ -17,7 +17,9 @@
 
 ---
 # Set Up Non-Deductible VAT
-You can calculate VAT amounts for specific types of expenses which can be partially declared as VAT. For example, on the **G/L Account Card** page, if you enter 75 percent in the **% Non-Deductible VAT** field, then 75 percent of the regular VAT amount is considered an additional cost and will be added to the net amount during posting. The remaining 25 percent will be posted as regular VAT.  
+You can calculate VAT amounts for specific types of expenses that can be partially declared as VAT. For example, on the **G/L Account Card** page, if you enter 75 percent in the **% Non-Deductible VAT** field, then 75 percent of the regular VAT amount is considered an additional cost and will be added to the net amount during posting. The remaining 25 percent will be posted as regular VAT.  
+
+<!--note from editor: In 2nd sentence in para above, change "if you enter 75 percent in the..." to "if you enter **75** in the ..."?  -->
 
 > [!NOTE]  
 >  If no value is entered in the **% Non-Deductible VAT** field, the VAT amount is 100 percent deductible.  
@@ -26,7 +28,7 @@ You can calculate VAT amounts for specific types of expenses which can be partia
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Chart of Accounts**, and then choose the related link.  
 2.  Select a general ledger expense account that requires the partial deduction, and then choose the **Edit** action.  
-3.  On the **Posting** FastTab, enter the amount in **% Non deductible VAT** field.  
+3.  Enter the amount in **% Non deductible VAT** field.  
 4.  Choose the **OK** button.  
 
 ## See Also  

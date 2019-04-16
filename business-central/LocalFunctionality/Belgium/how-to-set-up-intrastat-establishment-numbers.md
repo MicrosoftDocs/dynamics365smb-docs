@@ -22,7 +22,7 @@ The Intrastat establishment number is a company identification number that is pr
 ## To set up an Intrastat establishment number  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.  
-2.  On the **Other** FastTab, enter the Intrastat establishment number in the **Intrastat Establishment No.** field.  
+2.  Enter the Intrastat establishment number in the **Intrastat Establishment No.** field.  
 3.  Choose the **OK** button.  
   
 ## See Also  

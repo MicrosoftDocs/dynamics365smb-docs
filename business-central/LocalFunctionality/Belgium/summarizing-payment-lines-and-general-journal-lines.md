@@ -39,14 +39,14 @@ If you have selected the **Summarize Gen. Jnl. Lines** check box on the **Electr
 In this example, you export payment lines, and the **Summarize Gen. Jnl. Lines** check box is selected. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] creates:  
 
 - One combined payment line in an XML file that has a concatenated payment message. White space is the delimiter.  
-- One payment line in the general journal with a generic description that ../../includes the vendor name.  
+- One payment line in the general journal with a generic description that includes the vendor name.  
 
 ## Example 2  
 In this example, you export payment lines, and the **Summarize Gen. Jnl. Lines** check box is selected. The **Cut off Payment Message Texts** check box is cleared, and the combined SEPA and non-euro SEPA payment lines exceed 140 characters in the payment message. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] creates:  
 
 - Two combined payment lines in an XML file. The first payment line contains the first concatenated payment messages. The second payment line contains the payment message from the third line.  
 
-- One payment line in the general journal with a generic description that ../../includes the vendor name.  
+- One payment line in the general journal with a generic description that includes the vendor name.  
 
 ## Example 3  
 In this example, you export payment lines, and the **Summarize Gen. Jnl. Lines** check box is selected. The **Cut off Payment Message Texts** check box is also selected, and the combined SEPA and non-SEPA payment lines exceed 140 characters in the payment message. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] creates:  

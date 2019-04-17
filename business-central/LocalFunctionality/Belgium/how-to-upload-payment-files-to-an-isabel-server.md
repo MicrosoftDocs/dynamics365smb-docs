@@ -23,7 +23,7 @@
 Payment files can be uploaded using the **IBS Logs** page. The **Upload Integration Mode** and **Download Integration Mode** fields on the **Electronic Banking Setup** page must be set to **Attended** to upload payment files.  
 
 > [!NOTE]  
->  Before you can upload payment files you must be logged on to the Isabel server.  
+>  Before you can upload payment files, you must be logged on to the Isabel server.  
 
 ## To upload payment files in attended mode  
 
@@ -31,9 +31,9 @@ Payment files can be uploaded using the **IBS Logs** page. The **Upload Integrat
 2.  Choose the **Get Contract and User** action.  
 3.  After verifying the payment files, a user ID and contract ID will be displayed in the **IBS User ID** and **IBS Contract ID** fields.  
 
-    The **Upload Status** field will be set to **Ready for Upload**. If more than one contract exists on the Isabel server for the bank account, the **Upload Status** will be set to **Conflict Exists**. Select the correct contract.  
+    The **Upload Status** field will be set to **Ready for Upload**. If more than one contract exists on the Isabel server for the bank account, the **Upload Status** field will be set to **Conflict Exists**. Select the correct contract.  
 
-4.  Choose the **Perform Download** action. The payment files will be uploaded to the Isabel server and the **Process Status** field will be set to **Processed**.  
+4.  Choose the **Perform Download** action. The payment files will be uploaded to the Isabel server, and the **Process Status** field will be set to **Processed**.  
 5.  Continue processing the payment files by signing and sending the files on the Isabel server.  
 
 ## See Also  

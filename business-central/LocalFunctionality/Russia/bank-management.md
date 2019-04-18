@@ -50,4 +50,4 @@
 
 ## См. также
 
- Практическое руководство. Настройка платежного поручения
+ [Практическое руководство. Настройка платежного поручения](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-set-up-a-bank-payment-order.md)

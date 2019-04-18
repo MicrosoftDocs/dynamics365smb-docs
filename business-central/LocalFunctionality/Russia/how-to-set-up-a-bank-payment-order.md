@@ -21,6 +21,4 @@
 
 ## См. также
 
-Практическое руководство. Настройка файлов интерфейса
-
-Управление банком
+[Управление банком](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/bank-management.md)

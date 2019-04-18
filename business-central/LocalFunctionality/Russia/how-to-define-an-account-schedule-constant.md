@@ -19,5 +19,7 @@ Business Central  позволяет определить константу д�
 ## См. также
 
 Практическое руководство. Работа с финансовыми отчетами*
+
 [Обзор финансовых отчетов](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/account-schedules-overview.md)
+
 [Практическое руководство. Определение расширения финансового отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-define-an-account-schedule-extension.md)

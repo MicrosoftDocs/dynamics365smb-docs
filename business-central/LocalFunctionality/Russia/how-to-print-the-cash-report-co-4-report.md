@@ -30,4 +30,4 @@
 
 ## См. также
 
- Настройка запасов
+ [Настройка запасов](https://docs.microsoft.com/ru-ru/dynamics365/business-central/inventory-setup-inventory)

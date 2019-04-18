@@ -27,6 +27,6 @@
 
 ## См. также
 
-Управление мелкими доходами/расходами
+[Управление мелкими доходами/расходами](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/petty-cash-management.md)
 
-Управление банками и кассами
+[Управление банками и кассами](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/bank-and-cash-management.md)

@@ -27,7 +27,7 @@
 
 ## См. также
 
-[Практическое руководство. Импорт и экспорт финансовых отчетов]()
+[Практическое руководство. Импорт и экспорт финансовых отчетов](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-import-and-export-account-schedules.md)
 
 [Практическое руководство. Определение расширения финансового отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-define-an-account-schedule-extension.md)
 

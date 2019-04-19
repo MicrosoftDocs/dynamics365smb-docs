@@ -8,7 +8,7 @@
 
  
 
-1. Выберите значок![](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png) , введите **Шаблоны финансовых журналов**, а затем выберите связанную ссылку.
+1. Выберите значок ![](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png) , введите **Шаблоны финансовых журналов**, а затем выберите связанную ссылку.
 2. Создайте раздел финансового журнала для каждой операции.
 3. В поле **Тип баланс. счета** выберите тип банковского счета.
 4. В поле **Номер баланс. счета** введите номер банковского счета.

@@ -10,7 +10,7 @@
 
  
 
-1. Выберите значок ![Поиск страницы или отчета]https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Журнал регистрации кассовых документов КО-3**, а затем выберите связанную ссылку.
+1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Журнал регистрации кассовых документов КО-3**, а затем выберите связанную ссылку.
 
 2. В окне **Журнал регистрации кассовых документов КО-3** заполните поля.
 

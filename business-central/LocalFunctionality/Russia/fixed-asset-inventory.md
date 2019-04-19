@@ -77,4 +77,4 @@
 
 ## См. также
 
-[ОС: местоположения и ответственные сотрудники]()
+[ОС: местоположения и ответственные сотрудники](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/fixed-asset-locations-and-employees.md)

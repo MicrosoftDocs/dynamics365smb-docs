@@ -52,4 +52,4 @@
 
 ## См. также
 
-[Инвентаризация основных средств]()
+[Инвентаризация основных средств](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/fixed-asset-inventory.md)

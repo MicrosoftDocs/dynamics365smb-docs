@@ -33,4 +33,4 @@
 
 [Практическое руководство. Определение константы финансового отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-define-an-account-schedule-constant.md)
 
-Практическое руководство. Работа с финансовыми отчетами*
+

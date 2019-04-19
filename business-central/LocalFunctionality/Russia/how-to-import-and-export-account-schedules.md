@@ -22,4 +22,4 @@ Business Central позволяет импортировать и экспорт
 
 ## См. также
 
- [Практическое руководство. Работа с финансовыми отчетами
+ [Подготовка финансовой отчетности с помощью финансовых отчетов и категорий счетов](https://docs.microsoft.com/ru-ru/dynamics365/business-central/bi-how-work-account-schedule)

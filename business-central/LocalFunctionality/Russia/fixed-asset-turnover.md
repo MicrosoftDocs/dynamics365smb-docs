@@ -39,11 +39,11 @@
 
  
 
-[ОС: местоположения и ответственные сотрудники]()
+[ОС: местоположения и ответственные сотрудники](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/fixed-asset-locations-and-employees.md)
 
-[Издержки ОС]()
+[Издержки ОС](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/fixed-asset-charges.md)
 
-[Основные Средства]()
+[Основные Средства](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/fixed-assets.md)
 
-[Инвентаризация основных средств]()
+[Инвентаризация основных средств](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/fixed-asset-inventory.md)
 

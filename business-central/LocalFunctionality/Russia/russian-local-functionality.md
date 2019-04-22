@@ -23,7 +23,7 @@
 | [Расчеты с клиентами и поставщиками](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/payables-and-receivables.md)                       | Позволяет управлять расчетами с клиентами и поставщиками, предоплатами, договорами и карточками. |
 | [Регламентные отчеты](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/statutory-reports.md)                                      | Позволяет импортировать и экспортировать данные для электронной отчетности и других документов, установленных законом. |
 | [Налоговый учет](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-accounting.md)                                           | Позволяет соблюдать принципы налогового учета путем настройки налоговых регистров и расчета налоговых разниц. |
-| [НДС](https://docs.microsoft.com/ru-ru/dynamics-nav-app/localfunctionality/russia/vat)                                                      | Позволяет настраивать, рассчитывать и уплачивать суммы НДС согласно ставкам НДС и российскому законодательству. |
+| [НДС](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/vat.md)                                                      | Позволяет настраивать, рассчитывать и уплачивать суммы НДС согласно ставкам НДС и российскому законодательству. |
 
  
 

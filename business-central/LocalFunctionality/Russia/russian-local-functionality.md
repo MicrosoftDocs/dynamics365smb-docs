@@ -21,8 +21,8 @@
 | [Практическое руководство. Настройка материально-ответственных сотрудников и авансовых отчетов](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-set-up-responsible-employees-and-advance-statements.md) | Позволяет печатать и просматривать информацию о платежах сотрудникам и от сотрудников. |
 | [Наличие](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/inventory.md)                                                  | Позволяет настраивать и управлять складом, включая товарные документы, акты инвентаризации и оборот по главной книге. |
 | [Расчеты с клиентами и поставщиками](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/payables-and-receivables.md)                       | Позволяет управлять расчетами с клиентами и поставщиками, предоплатами, договорами и карточками. |
-| [Регламентные отчеты]()                                      | Позволяет импортировать и экспортировать данные для электронной отчетности и других документов, установленных законом. |
-| [Налоговый учет]()                                           | Позволяет соблюдать принципы налогового учета путем настройки налоговых регистров и расчета налоговых разниц. |
+| [Регламентные отчеты](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/statutory-reports.md)                                      | Позволяет импортировать и экспортировать данные для электронной отчетности и других документов, установленных законом. |
+| [Налоговый учет](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-accounting.md)                                           | Позволяет соблюдать принципы налогового учета путем настройки налоговых регистров и расчета налоговых разниц. |
 | [НДС]()                                                      | Позволяет настраивать, рассчитывать и уплачивать суммы НДС согласно ставкам НДС и российскому законодательству. |
 
  

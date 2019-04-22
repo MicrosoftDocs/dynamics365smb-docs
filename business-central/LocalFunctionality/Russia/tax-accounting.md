@@ -1,6 +1,6 @@
 # Налоговый Учет
 
-В Dynamics NAV можно настроить и вести налоговые регистры для отслеживания подлежащих налогообложению прибылей и убытков. Это основано на следующих методах налогового учета: 
+В Business central можно настроить и вести налоговые регистры для отслеживания подлежащих налогообложению прибылей и убытков. Это основано на следующих методах налогового учета: 
 
 - Финансовая база данных используется для налогового учета.
 - План счетов используется для отслеживания налогооблагаемых прибылей и убытков.
@@ -36,14 +36,12 @@
 
 ## См. также
 
-[Практическое руководство. Настройка налогового учета]()
+[Практическое руководство. Настройка налогового учета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-set-up-tax-accounting.md)
 
-[Налоговые регистры]()
+[Налоговые регистры](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-registers.md)
 
-[Практическое руководство. Создание налоговых регистров]()
+[Практическое руководство. Создание налоговых регистров](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-create-tax-registers.md)
 
-[Практическое руководство. Настройка секций налогового регистра]()
+[Практическое руководство. Настройка секций налогового регистра](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-set-up-tax-register-sections.md)
 
-[Налоговые разницы]()
-
-[Налоговые отчеты]()
+[Налоговые разницы](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-differences.md)

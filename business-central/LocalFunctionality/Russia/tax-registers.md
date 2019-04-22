@@ -17,10 +17,10 @@
 
 ## См. также
 
-[Практическое руководство. Настройка налогового учета]()
+[Практическое руководство. Настройка налогового учета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-set-up-tax-accounting.md)
 
-[Практическое руководство. Создание налоговых регистров]()
+[Практическое руководство. Создание налоговых регистров](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-create-tax-registers.md)
 
-[Практическое руководство. Настройка секций налогового регистра]()
+[Практическое руководство. Настройка секций налогового регистра](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-set-up-tax-register-sections.md)
 
-[Налоговые разницы]()
+[Налоговые разницы](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-differences.md)

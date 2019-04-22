@@ -10,7 +10,7 @@
 
 ## Создание книги НДС
 
-1. Выберите значок ![Поиск страницы или отчета](), введите **НДС-книги продаж** или **НДС-книги покупок**, а затем выберите связанную ссылку.
+1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **НДС-книги продаж** или **НДС-книги покупок**, а затем выберите связанную ссылку.
 
 2. Заполните поля в окне, как описано в следующей таблице.
 
@@ -38,8 +38,8 @@
 
 ## См. также
 
-[Книги НДС]()
+[Книги НДС](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/vat-ledgers.md)
 
-[Практическое руководство. Настройка книг НДС]()
+[Практическое руководство. Настройка книг НДС](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-set-up-vat-ledgers.md)
 
-[Практическое руководство. Создание дополнительных листов]()
+[Практическое руководство. Создание дополнительных листов](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-create-additional-sheets.md)

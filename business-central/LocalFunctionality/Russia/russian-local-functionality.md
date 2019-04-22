@@ -31,8 +31,8 @@
 
  
 
-[Российский план счетов]()
+[Российский план счетов](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/russian-chart-of-accounts.md)
 
-[Отчеты по расчетам с клиентами (Россия)]()
+[Отчеты по расчетам с клиентами (Россия)](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/russian-receivables-reports.md)
 
-[Отчеты по платежам (Россия)]()
+[Отчеты по платежам (Россия)](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/russian-payables-reports.md)

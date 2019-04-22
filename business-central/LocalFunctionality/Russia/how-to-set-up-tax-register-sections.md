@@ -6,7 +6,7 @@
 
 ## Настройка налогового регистра
 
-1. Выберите значок ![Поиск страницы или отчета](), введите **Налоговые регистры**, а затем выберите связанную ссылку.
+1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Налоговые регистры**, а затем выберите связанную ссылку.
 
 2. В окне **Секции налоговые регистров**, выберите действие **Создать**.
 
@@ -69,11 +69,11 @@
 
 ## См. также
 
-[Налоговый учет]()
+[Налоговый учет](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-accounting.md)
 
-[Налоговые регистры]()
+[Налоговые регистры](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-registers.md)
 
-[Практическое руководство. Создание налоговых регистров]()
+[Практическое руководство. Создание налоговых регистров](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-create-tax-registers.md)
 
-[Сбор сведений о налоге на прибыль для налоговой декларации]()
+[Сбор сведений о налоге на прибыль для налоговой декларации](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/collecting-profit-tax-information-for-tax-declaration.md)
 

@@ -6,7 +6,7 @@
 
 ## Активация налогового учета 
 
-1. Выберите значок ![Поиск страницы или отчета](), введите **Настройка налоговых регистров**, а затем выберите связанную ссылку.
+1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Настройка налоговых регистров**, а затем выберите связанную ссылку.
 
 2. На экспресс-вкладке **Общее** выберите коды для следующих измерений.
 
@@ -31,18 +31,16 @@
 
  
 
-Дополнительные сведения о том, как настроить налоговые регистры, см. в разделе [Практическое руководство. Создание налоговых регистров]().
+Дополнительные сведения о том, как настроить налоговые регистры, см. в разделе [Практическое руководство. Создание налоговых регистров](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-create-tax-registers.md).
 
  
 
 ## См. также 
 
-[Налоговый учет]()
+[Налоговый учет](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-accounting.md)
 
-[Налоговые отчеты]()
+[Налоговые регистры](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-registers.md)
 
-[Налоговые регистры]()
+[Практическое руководство. Создание налоговых регистров](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-create-tax-registers.md)
 
-[Практическое руководство. Создание налоговых регистров]()
-
-[Налоговые разницы]()
+[Налоговые разницы](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-differences.md)

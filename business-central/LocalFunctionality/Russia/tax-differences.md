@@ -27,12 +27,10 @@
 
 ## См. также
 
-[Настройка расчета налоговых разниц]()
+[Настройка расчета налоговых разниц](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/setting-up-tax-difference-calculation.md)
 
-[Регистры налоговых разниц]()
+[Регистры налоговых разниц](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-difference-registers.md)
 
-[Налоговые отчеты]()
+[Налоговый учет](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-accounting.md)
 
-[Налоговый учет]()
-
-[Налоговые регистры]()
+[Налоговые регистры](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-registers.md)

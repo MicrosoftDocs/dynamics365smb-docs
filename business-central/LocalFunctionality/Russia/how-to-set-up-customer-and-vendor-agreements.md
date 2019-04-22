@@ -12,7 +12,7 @@
 
 ## Настройка договора
 
-1. Выберите значок ![Поиск страницы или отчета](), введите **Настройка модуля "Продажи"**, затем выберите связанную ссылку.
+1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Настройка модуля "Продажи"**, затем выберите связанную ссылку.
 
 2. Чтобы настроить договор, на экспресс-вкладке **Измерения** и экспресс-вкладках **Нумерация** заполните поля, перечисленные в таблице ниже.
 
@@ -26,7 +26,7 @@
 
 ## Создание договора с клиентом или поставщиком 
 
-1. Выберите значок ![Поиск страницы или отчета](), введите **Клиенты**, а затем выберите связанную ссылку.
+1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Клиенты**, а затем выберите связанную ссылку.
 
 2. Выберите клиента из списка и выберите действие **Правка**.
 
@@ -60,6 +60,6 @@
 
 ## См. также
 
-[Отчеты по расчетам с клиентами (Россия)]()
+[Отчеты по расчетам с клиентами (Россия)](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/russian-receivables-reports.md)
 
-[Отчеты по платежам (Россия)]()
+[Отчеты по платежам (Россия)](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/russian-payables-reports.md)

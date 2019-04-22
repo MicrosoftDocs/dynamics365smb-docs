@@ -6,7 +6,7 @@
 
 ## Настройка учетных групп 
 
-Выберите значок ![Поиск страницы или отчета](), введите **Учетные группы налоговых разниц**. Здесь необходимо указать финансовые счета из настроенного плана счетов, на которых будут учитываться финансовые транзакции с налоговыми разницами.
+Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Учетные группы налоговых разниц**. Здесь необходимо указать финансовые счета из настроенного плана счетов, на которых будут учитываться финансовые транзакции с налоговыми разницами.
 
 Если имеются строки журнала, которые необходимо нормализовать перед списанием расходов, эти журналы невозможно учесть без запуска периодического задания нормализации.
 
@@ -26,8 +26,8 @@
 
 [Налоговые разницы](https://github.com/DianaMalina/dynamics365smb-docs/edit/live/business-central/LocalFunctionality/Russia/tax-differences.md)
 
-[Регистры налоговых разниц]()
+[Регистры налоговых разниц](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-difference-registers.md)
 
-[Практическое руководство. Настройка юрисдикций нормы]()
+[Практическое руководство. Настройка юрисдикций нормы](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-set-up-norm-jurisdictions.md)
 
-[Практическое руководство. Учет налоговых разниц]()
+[Практическое руководство. Учет налоговых разниц](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-post-tax-differences.md)

@@ -86,5 +86,5 @@
 
 ## См. также
 
-[Книги НДС]()
+[Книги НДС](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/vat-ledgers.md)
 

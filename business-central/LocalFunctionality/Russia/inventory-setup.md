@@ -26,7 +26,7 @@
 
  
 
-Дополнительные сведения см. в разделе [Практическое руководство. Учет корректировок "красный сторно"]().
+Дополнительные сведения см. в разделе [Практическое руководство. Учет корректировок "красный сторно"](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-post-red-storno-corrections.md).
 
  
 
@@ -40,11 +40,11 @@
 
  
 
-[Акты Оприходования]()
+[Акты Оприходования](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/item-documents.md)
 
-[Акты обязательств по товару]()
+[Акты обязательств по товару](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/item-obligatory-acts.md)
 
-[Практическое руководство. Учет коррекций "красный сторно"]()
+[Практическое руководство. Учет коррекций "красный сторно"](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-post-red-storno-corrections.md)
 
-[Практическое руководство. Использование товарных издержек для учета дополнительных торговых расходов]()
+[Практическое руководство. Использование товарных издержек для учета дополнительных торговых расходов](https://docs.microsoft.com/ru-ru/dynamics365/business-central/payables-how-assign-item-charges)
 

@@ -31,16 +31,15 @@ Business Central позволяет настроить регламентные 
 | Параметр                            | Описанием                                                    |
 | :---------------------------------- | :----------------------------------------------------------- |
 | **Финансовый отчет**                | Данные основаны на финансовом отчете.                        |
-| **Налоговый регистр**               | Данные основаны на налоговом регистре. Дополнительные сведения см. в разделе [Налоговые регистры](). |
-| **Налоговая разница**               | Данные основаны на налоговой разнице. Дополнительные сведения см. в разделе [Налоговые разницы](). |
+| **Налоговый регистр**               | Данные основаны на налоговом регистре. Дополнительные сведения см. в разделе [Налоговые регистры](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-registers.md). |
+| **Налоговая разница**               | Данные основаны на налоговой разнице. Дополнительные сведения см. в разделе [Налоговые разницы](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-differences.md). |
 | **Аналитический отчет по зарплате** | Данные основаны на анализе заработной платы.                 |
 
  
 
 ## См. также 
 
-[Налоговый учет]()
+[Налоговый учет](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-accounting.md)
 
-[Налоговые разницы]()
+[Налоговые разницы](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-differences.md)
 
-[Выбор источника данных отчета]()

@@ -6,7 +6,7 @@
 
 ## Регистрация НДС по заказам на покупку 
 
-1. Выберите значок ![Поиск страницы или отчета](), введите **Заказ на покупку**, затем выберите связанную ссылку. Выберите соответствующий заказ на покупку.
+1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Заказ на покупку**, затем выберите связанную ссылку. Выберите соответствующий заказ на покупку.
 
 2. На экспресс-вкладке **Отгрузка** заполните поля, как описано в следующей таблице.
 
@@ -31,8 +31,8 @@
 
 ## См. также 
 
-[Практическое руководство. Настройка книг НДС]()
+[Практическое руководство. Настройка книг НДС](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-set-up-vat-ledgers.md)
 
-[Практическое руководство. Подготовка операций НДС к учету]()
+[Практическое руководство. Подготовка операций НДС к учету](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-prepare-vat-entries-for-posting.md)
 
 [Практическое руководство. Подача отчета об НДС в налоговые органы](https://docs.microsoft.com/ru-ru/dynamics365/business-central/finance-how-report-vat)

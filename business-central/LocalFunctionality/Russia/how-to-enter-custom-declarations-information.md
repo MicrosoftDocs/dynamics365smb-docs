@@ -6,7 +6,7 @@
 
 ## Ввод сведений таможенных деклараций 
 
-1. Выберите значок ![Поиск страницы или отчета](), введите **Декларации на товары**, а затем выберите связанную ссылку.
+1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Декларации на товары**, а затем выберите связанную ссылку.
 
 2. В окне карточки **Декларации на товары** заполните поля.
 
@@ -25,4 +25,4 @@
 
 ## См. также 
 
-[Практическое руководство. Печать счета-фактуры]()
+[Практическое руководство. Печать счета-фактуры](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-print-the-factura-invoice.md)

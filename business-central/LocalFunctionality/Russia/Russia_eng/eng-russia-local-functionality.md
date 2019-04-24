@@ -45,6 +45,8 @@ Use the following table to learn more about local functionality that is availabl
  
 
 [Russian Chart of Accounts]()
+
 [Russian Receivables Reports]()
+
 [Russian Payables Reports]()
 

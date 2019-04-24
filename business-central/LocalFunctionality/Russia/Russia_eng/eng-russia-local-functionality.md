@@ -1,3 +1,16 @@
+---
+title: Russia Local Functionality
+description: The following topics describe the local functionality in the Russian version of Business Central.
+author: AliiaSalikhova
+
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.workload: na
+ms.search.keywords:
+ms.date: 04/24/2019
+ms.author: soalex
+
+---
 # Russia Local Functionality
 
 In Business Central, there are Russian-specific features that you can use to track and manage your business. For example, you can use the local functionality features in Business Central to calculate VAT due based on Russian VAT rates and regulations.

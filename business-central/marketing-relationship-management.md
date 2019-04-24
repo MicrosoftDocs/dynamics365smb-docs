@@ -22,7 +22,7 @@ Good sales and marketing practices are all about how to make the best decisions 
 
 To get started, see the following topics:
 
-[Setting Up Relationship Management](marketing-setup-marketing.md)
+[Setting Up Relationship Management](marketing-setup-marketing.md)  
 [Managing Contacts](marketing-contacts.md)  
 [Managing Segments](marketing-segments.md)  
 [Recording Interactions](marketing-interactions.md)  

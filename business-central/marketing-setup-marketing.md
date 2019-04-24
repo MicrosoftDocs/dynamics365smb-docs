@@ -3,16 +3,15 @@ title: Set Up Marketing and Contact Management Information| Microsoft Docs
 description: You can set up marketing and contact management in Business Central to optimize relationships with prospects or customers, and improve campaigns and promotions.
 services: project-madeira
 documentationcenter: ''
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
-ms.date: 04/01/2019
-ms.author: jswymer
-redirect_url: marketing-setup-contacts
+ms.date: 04/24/2019
+ms.author: sgroespe
 
 ---
 # Setting Up Relationship Management

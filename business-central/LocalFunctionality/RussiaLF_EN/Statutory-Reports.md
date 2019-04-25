@@ -37,6 +37,7 @@ The statutory reports are based on account schedules and tax registers. For each
 
 ## See Also 
 
-[Tax Accounting]()
-[Tax Differences]()
+[Tax Accounting](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Tax-Differences.md)
+
+[Tax Differences](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Tax-Accounting.md)
 

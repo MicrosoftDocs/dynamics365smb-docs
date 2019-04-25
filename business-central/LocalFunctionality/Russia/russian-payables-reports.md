@@ -136,7 +136,7 @@
 
 Для доступа к отчету:
 
-Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Поставщик - акт выверки упрощенный** а затем выберите связанную ссылку.
+Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Поставщик - акт выверки** а затем выберите связанную ссылку.
 
 Возможные уровни подробностей:
 

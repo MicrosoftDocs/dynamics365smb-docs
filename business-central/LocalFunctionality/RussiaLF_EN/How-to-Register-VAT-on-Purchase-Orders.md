@@ -6,7 +6,7 @@ In Russia, organizations are required to keep a journal of received and issued V
 
 ## To register VAT on a purchase order 
 
-1. Choose the ![Search for Page or Report]() icon, enter **Purchase Order**, and then choose the related link. Select the relevant purchase order.
+1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **Purchase Order**, and then choose the related link. Select the relevant purchase order.
 
 2. On the **Shipping** FastTab, fill in the fields as described in the following table.
 
@@ -29,8 +29,8 @@ In Russia, organizations are required to keep a journal of received and issued V
 
 ## See Also 
 
-[How to: Set Up VAT Ledgers]()
+[How to: Set Up VAT Ledgers](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Set-Up-VAT-Ledgers.md)
 
-[How to: Prepare VAT Entries for Posting]()
+[How to: Prepare VAT Entries for Posting](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Prepare-VAT-Entries-for-Posting.md)
 
 [How to: Report VAT to Tax Authorities](https://docs.microsoft.com/en-us/dynamics365/business-central/finance-how-report-vat)

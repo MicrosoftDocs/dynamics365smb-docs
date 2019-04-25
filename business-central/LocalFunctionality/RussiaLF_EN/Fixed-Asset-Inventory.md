@@ -19,7 +19,7 @@ You can create special templates in the **Fixed Asset Journal** window.
 
 The following procedure shows how to generate a list of fixed assets that are to be inventoried. 
 
-1. Choose the ![Search for Page or Report]() icon, enter **FA Journals**, and then choose the related link.
+1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **FA Journals**, and then choose the related link.
 
 2. Choose the **Calculate FA** action. The request form of a report that makes fixed asset inventory lists is displayed.
 
@@ -69,4 +69,4 @@ The following procedure shows how to begin inventory auditing by fixed asset loc
 
 ## See Also
 
-[Fixed Asset Locations and Employees]()
+[Fixed Asset Locations and Employees](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Fixed-Asset-Locations-and-Employees.md)

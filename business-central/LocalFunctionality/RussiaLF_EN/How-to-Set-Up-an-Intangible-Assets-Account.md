@@ -8,10 +8,10 @@ The procedure for posting an intangible asset account is similar to the procedur
 
 ## To set up an intangible asset account 
 
-1. Choose the ![Search for Page or Report]() icon, enter **Fixed Assets**, and then choose the related link.
+1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **Fixed Assets**, and then choose the related link.
 2. Open the card for a fixed asset.
 3. In the **Fixed Asset Card** window, select **Intangible Asset** in the **FA Type** field.
-4. Purchase and release the intangible asset. For more information, see [How to: Purchase and Release Undepreciable Fixed Assets]().
+4. Purchase and release the intangible asset. For more information, see [How to: Purchase and Release Undepreciable Fixed Assets](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Undepreciable-Fixed-Assets.md).
 
  
 

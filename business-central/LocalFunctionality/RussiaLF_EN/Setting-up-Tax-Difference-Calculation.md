@@ -26,8 +26,8 @@ The following procedure shows how to process a normalization function.
 
 [Tax Differences](https://github.com/DianaMalina/dynamics365smb-docs/edit/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Tax-Differences.md)
 
-[Tax Difference Registers]()
+[Tax Difference Registers](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Tax-Difference-Registers.md)
 
-[How to: Set Up Norm Jurisdictions]()
+[How to: Set Up Norm Jurisdictions](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Set-Up-Norm-Jurisdictions.md)
 
-[How to: Post Tax Differences]()
+[How to: Post Tax Differences](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Post-Tax-Differences.md)

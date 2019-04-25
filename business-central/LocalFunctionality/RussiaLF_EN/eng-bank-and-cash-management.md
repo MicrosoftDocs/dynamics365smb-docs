@@ -2,8 +2,7 @@
 
 Russian functionality for bank and cash management in described in several topics.
 
-
-## In This Section
+## In This Section 
 
 [Bank Management](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Bank-Management.md)
 

@@ -12,7 +12,7 @@ The following procedure shows how to set up an agreement for a customer, but the
 
 ## To set up an agreement 
 
-1. Choose the ![Search for Page or Report]() icon, enter **Sales & Receivables Setup**, and then choose the related link.
+1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **Sales & Receivables Setup**, and then choose the related link.
 
 2. To set up agreement, on the **Dimensions** FastTab and **Numbering** FastTabs, enter information in the fields listed in the following table.
 
@@ -26,7 +26,7 @@ The following procedure shows how to set up an agreement for a customer, but the
 
 ## To create a customer or vendor agreement 
 
-1. Choose the ![Search for Page or Report]() icon, enter **Customers**, and then choose the related link.
+1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **Customers**, and then choose the related link.
 
 2. Select a customer from the list, and then choose the **Edit** action.
 
@@ -60,6 +60,6 @@ The agreements are fully synchronized with dimensions. You can post transactions
 
 ## See Also 
 
-[Russian Receivables Reports]()
+[Russian Receivables Reports](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Russian-Receivables-Reports.md)
 
-[Russian Payables Reports]()
+[Russian Payables Reports](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Russian-Payables-Reports.md)

@@ -71,7 +71,7 @@ The header of the **General Ledger - Correspondence** window contains the follow
 
 In the subform, the report shows the turnover in correspondence with other accounts:
 
-![General-Ledger-Correspondence](C:\GitHub\dynamics365smb-docs\business-central\LocalFunctionality\business-central\LocalFunctionality\RussiaLF_EN\General-Ledger-Correspondence.png)
+![General-Ledger-Correspondence](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/General-Ledger-Correspondence.png)
 
  
 

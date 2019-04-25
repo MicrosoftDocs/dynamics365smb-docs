@@ -28,6 +28,6 @@ For most organizations, VAT payments are required to be submitted no later than 
 
 [How to: Report VAT to Tax Authorities](https://docs.microsoft.com/ru-ru/dynamics365/business-central/finance-how-report-vat)
 
-[How to: Set Up VAT Ledgers]()
+[How to: Set Up VAT Ledgers](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Set-Up-VAT-Ledgers.md)
 
-[How to: Prepare VAT Entries for Posting]()
+[How to: Prepare VAT Entries for Posting](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Prepare-VAT-Entries-for-Posting.md)

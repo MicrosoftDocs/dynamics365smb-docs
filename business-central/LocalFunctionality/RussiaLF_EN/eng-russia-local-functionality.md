@@ -31,7 +31,7 @@ Use the following table to learn more about local functionality that is availabl
 
  
 
-[Russian Chart of Accounts]()
+[Russian Chart of Accounts](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Russian-Chart-of-Accounts.md)
 
 [Russian Receivables Reports](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Russian-Receivables-Reports.md)
 

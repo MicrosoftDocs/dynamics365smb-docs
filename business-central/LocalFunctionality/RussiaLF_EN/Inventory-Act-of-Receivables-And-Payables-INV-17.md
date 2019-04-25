@@ -11,7 +11,7 @@ The inventory act of receivables and payables feature enables you to prepare an 
 
 The following procedure shows how to set up a number series for inventory acts. 
 
-1. Choose the ![Search for Page or Report]() icon, enter **General Ledger Setup**, and then choose the related link.
+1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **General Ledger Setup**, and then choose the related link.
 2. In the **General Ledger Setup** window, fill in the **Contractor Invent. Act Nos.** field.
 
  
@@ -112,6 +112,6 @@ The following procedure shows how to print the INV-17 form and the Supplement to
 
 ## See Also 
 
-[Russian Payables Reports]()
+[Russian Payables Reports](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Russian-Payables-Reports.md)
 
-[Russian Receivables Reports]()
+[Russian Receivables Reports](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Russian-Receivables-Reports.md)

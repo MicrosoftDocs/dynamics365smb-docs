@@ -20,7 +20,7 @@ Use the following table to learn more about local functionality that is availabl
 | [General Ledger Correspondence](https://github.com/AliiaSalikhova/dynamics365smb-docs/blob/pr/10/business-central/LocalFunctionality/Russia/Russia_eng/eng-general-ledger-correspondence.md) | Enables you to create, view, and print account turnover information. |
 | [How to: Set Up Responsible Employees and Advance Statements]() | Enables you to print and view information about payments made to and from employees. |
 | [Inventory]()                                                | Enables you to set up and manage your inventory including item documents, item and inventory acts, and general ledger turnover. |
-| [Payables and Receivables]()                                 | Enables you to manage your payables and receivables reports, prepayments, agreements, and cards. |
+| [Payables and Receivables](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Payables-and-Receivables.md)                                 | Enables you to manage your payables and receivables reports, prepayments, agreements, and cards. |
 | [Statutory Reports]()                                        | Enables you to import and export data for electronic tax reporting and other documents required by law. |
 | [Tax Accounting]()                                           | Enables you to follow tax accounting principles by setting up tax registers and calculating tax differences. |
 | [VAT]()                                                      | Enables you to set up, calculate, and pay VAT amounts based on Russian VAT rates and regulations. |
@@ -32,6 +32,6 @@ Use the following table to learn more about local functionality that is availabl
  
 
 [Russian Chart of Accounts]()
-[Russian Receivables Reports]()
-[Russian Payables Reports]()
+[Russian Receivables Reports](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Russian-Receivables-Reports.md)
+[Russian Payables Reports](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Russian-Payables-Reports.md)
 

@@ -80,7 +80,7 @@ The following functions are available in the **Item Receipt** window.
 
 The following procedure shows how to analyze a posted document item receipt without a vendor.
 
-1. Choose the ![Search for Page or Report]() icon, enter **Posted Item Receipts**, and then choose the related link.
+1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Item-General-Ledger-Turnover.md) icon, enter **Posted Item Receipts**, and then choose the related link.
 
    > :speechbaloon: Note
 

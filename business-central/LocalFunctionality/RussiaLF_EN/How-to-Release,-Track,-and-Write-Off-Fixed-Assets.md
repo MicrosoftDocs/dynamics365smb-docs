@@ -6,13 +6,13 @@ The first step to managing your fixed assets is to set up fixed assets numbering
 
 ## To set up fixed asset numbering
 
-1. Choose the ![Search for Page or Report]() icon, enter **Fixed Asset Setup**, and then choose the related link.
+1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **Fixed Asset Setup**, and then choose the related link.
 2. On the **Numbering** FastTab, select a number series for each type of fixed asset transaction.
 3. Choose the **OK** button to close the window and save your entries.
 
 ## To set up fixed asset source codes
 
-1. Choose the ![Search for Page or Report]() icon, enter **Source Code Setup**, and then choose the related link.
+1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **Source Code Setup**, and then choose the related link.
 2. On the **Fixed Assets** FastTab, select a source code for each type of fixed asset.
 3. Choose the **OK** button to close the window and save your entries.
 
@@ -22,7 +22,7 @@ An asset is recognized as a fixed asset after it is released into service for th
 
 ### To release fixed assets into service
 
-1. Choose the ![Search for Page or Report]() icon, enter **FA Release Act**, and then choose the related link.
+1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **FA Release Act**, and then choose the related link.
 
 2. On the **General** FastTab, fill in the fields as described in the following table.
 
@@ -55,7 +55,7 @@ Tracking the location and status of fixed assets is an important function within
 
 ### To track the movement of fixed assets
 
-1. Choose the ![Search for Page or Report]() icon, enter **FA Movement Act**, and then choose the related link.
+1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **FA Movement Act**, and then choose the related link.
 
 2. On the **General** FastTab, fill in the fields as described in the following table.
 
@@ -92,7 +92,7 @@ During the sale or disposal of a fixed asset, you may want to write-off the rema
 
 ### To write-off the value of a fixed asset
 
-1. Choose the ![Search for Page or Report]() icon, enter **FA Writeoff Act**, and then choose the related link.
+1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **FA Writeoff Act**, and then choose the related link.
 
 2. On the **General** FastTab, fill in the fields as described in the following table.
 

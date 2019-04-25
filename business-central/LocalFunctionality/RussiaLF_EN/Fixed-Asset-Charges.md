@@ -16,12 +16,10 @@ In addition, you can also specify how the fixed asset will be depreciated. You c
 
 ## See Also
 
-[How to: Create a Fixed Asset Charge]()
+[How to: Create a Fixed Asset Charge](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Create-a-Fixed-Asset-Charge.md)
 
-[How to: Allocate and Post Fixed Asset Charges]()
+[How to: Create a Credit Memo for a Fixed Asset Charge](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Create-a-Credit-Memo-for-a-Fixed-Asset-Charge.md)
 
-[How to: Create a Credit Memo for a Fixed Asset Charge]()
-
-[How to: View Posted Entries on a Fixed Asset Charge]()
+[How to: View Posted Entries on a Fixed Asset Charge](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-View-Posted-Entries-on-a-Fixed-Asset-Charge.md)
 
 [Setting Up Fixed Assets](https://docs.microsoft.com/en-us/dynamics365/business-central/fa-setup)

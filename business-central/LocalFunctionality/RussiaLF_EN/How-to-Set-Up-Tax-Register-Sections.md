@@ -6,7 +6,7 @@ The following procedure shows how to set up tax register sections.
 
 ## To set up a tax register
 
-1. Choose the ![Search for Page or Report]() icon, enter **Tax Registers**, and choose the related link.
+1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **Tax Registers**, and choose the related link.
 
 2. In the **Tax Registers Sections** window, choose the **New** action.
 
@@ -69,10 +69,10 @@ The following procedure shows how to remove a tax register from the register lis
 
 ## See Also
 
-[Tax Accounting]()
+[Tax Accounting](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Tax-Accounting.md)
 
-[Tax Registers]()
+[Tax Registers](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Tax-Registers.md)
 
-[How to: Create Tax Registers]()
+[How to: Create Tax Registers](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Create-Tax-Registers.md)
 
-[Collecting Profit Tax Information for Tax Declaration]()
+[Collecting Profit Tax Information for Tax Declaration](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Collecting-Profit-Tax-Information-for-Tax-Declaration.md)

@@ -26,10 +26,10 @@ Account schedules are set up in the **Account Schedules** window.
 
  
 
-[How to: Import and Export Account Schedules]()
+[How to: Import and Export Account Schedules](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Import-and-Export-Account-Schedules.md)
  
-[How to: Define an Account Schedule Extension]()
+[How to: Define an Account Schedule Extension](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Define-an-Account-Schedule-Extension.md)
 
-[How to: Define an Account Schedule Constant]()
+[How to: Define an Account Schedule Constant](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Define-an-Account-Schedule-Constant.md)
 
-[How to: Work with Account Schedules]()
+[How to: Work with Account Schedules](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Work-with-Account-Schedules.md)

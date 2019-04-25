@@ -1,0 +1,31 @@
+# How to: Create Cash Account Cards
+
+Cash accounts are similar to bank accounts and are created identically. You can create as many cash account cards as needed.
+
+ 
+
+## To create a cash account card
+
+1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **Cash Accounts**, and then choose the related link.
+
+2. In the **Cash Account Card** window, fill in the fields on the **Posting** FastTab as described in the following table.
+
+   | Field                            | Description                                                  |
+   | :------------------------------- | :----------------------------------------------------------- |
+   | **Currency Code**                | Specifies the currency code that is associated with the cash account. |
+   | **Debit Cash Order No. Series**  | Specifies the serial numbers for outgoing cash orders.       |
+   | **Credit Cash Order No. Series** | Specifies the serial numbers for ingoing cash orders.        |
+   | **Last Cash Report Page No.**    | Specifies the last printed cash additional sheet report page number. |
+   | **Bank Acc. Posting Group**      | Specifies the bank account posting group that is associated with the cash account. |
+   | **VAT % for Document**           | Specifies the VAT percentage for calculating VAT in cash or bank documents. This VAT percentage is not used in VAT posting calculations. |
+
+3. Choose the **OK** button.
+
+ 
+
+## See Also 
+
+[Petty Cash Management](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Petty-Cash-Management.md)
+
+[Bank and Cash Management](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/eng-bank-and-cash-management.md)
+

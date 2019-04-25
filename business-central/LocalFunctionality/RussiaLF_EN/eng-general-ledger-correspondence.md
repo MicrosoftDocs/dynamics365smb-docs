@@ -16,7 +16,7 @@ The following procedure shows how to periodically create general ledger correspo
 
  
 
-1. Choose the ![Search for Page or Report](C:\GitHub\dynamics365smb-docs\business-central\LocalFunctionality\business-central\LocalFunctionality\RussiaLF_EN\search-icon.png) icon, enter **Create G/L Correspondence**, and then choose the related link.
+1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **Create G/L Correspondence**, and then choose the related link.
 2. Enter the **Transaction No.** field with the transaction number if general ledger correspondence is to be created only for the selected transaction. Otherwise, leave it blank.
 
  
@@ -25,7 +25,7 @@ To set up automatic general ledger correspondence
 
  
 
-1. Choose the ![Search for Page or Report](C:\GitHub\dynamics365smb-docs\business-central\LocalFunctionality\business-central\LocalFunctionality\RussiaLF_EN\search-icon.png) icon, enter **General Ledger Setup**, and then choose the related link.
+1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **General Ledger Setup**, and then choose the related link.
 2. Select the **Automatic G/L Correspondence** check box.
 
  
@@ -53,7 +53,7 @@ The **General Ledger - Correspondence** window shows turnovers in the chosen per
 
  
 
-1. Choose the ![Search for Page or Report](C:\GitHub\dynamics365smb-docs\business-central\LocalFunctionality\business-central\LocalFunctionality\RussiaLF_EN\search-icon.png) icon, enter **Correspondence**, and then choose the related link.
+1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **Correspondence**, and then choose the related link.
 2. Choose the **General Ledger - Correspondence** action.
 
  
@@ -71,7 +71,7 @@ The header of the **General Ledger - Correspondence** window contains the follow
 
 In the subform, the report shows the turnover in correspondence with other accounts:
 
-![General-Ledger-Correspondence](C:\GitHub\dynamics365smb-docs\business-central\LocalFunctionality\business-central\LocalFunctionality\RussiaLF_EN\General-Ledger-Correspondence.png)
+![General-Ledger-Correspondence](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/General-Ledger-Correspondence.png)
 
  
 
@@ -83,7 +83,7 @@ The **G/L Corresp Entries Analysis** report shows the correspondence entries for
 
  
 
-1. Choose the ![Search for Page or Report](C:\GitHub\dynamics365smb-docs\business-central\LocalFunctionality\business-central\LocalFunctionality\RussiaLF_EN\search-icon.png) icon, enter **Correspondence**, and then choose the related link.
+1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **Correspondence**, and then choose the related link.
 2. Choose the **G/L Corresp Entries Analysis** action.
 
  

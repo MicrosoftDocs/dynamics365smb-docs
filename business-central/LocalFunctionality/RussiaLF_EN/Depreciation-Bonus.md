@@ -1,6 +1,6 @@
 # Depreciation Bonus
 
-*Depreciation bonus* is an accelerated depreciation method applied in tax accounting because of provisions in the Russian tax laws. A depreciation bonus enables you to include fixed asset and capital investment expenses in the current period at the rate of 10 percent or 30 percent.
+Depreciation bonus is an accelerated depreciation method applied in tax accounting because of provisions in the Russian tax laws. A depreciation bonus enables you to include fixed asset and capital investment expenses in the current period at the rate of 10 percent or 30 percent.
 
  
 
@@ -43,4 +43,4 @@ You can cancel depreciation bonus transactions by running the **Cancel FA Ledger
 
 ## See Also 
 
-[Fixed Assets]()
+[Fixed Assets](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/eng-fixed-assets.md)

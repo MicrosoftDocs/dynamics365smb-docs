@@ -40,4 +40,4 @@ You can print the following required bank management documents.
 
 ## See Also 
 
-[How to: Set Up a Bank Payment Order]()
+[How to: Set Up a Bank Payment Order](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Set-Up-a-Bank-Payment-Order.md)

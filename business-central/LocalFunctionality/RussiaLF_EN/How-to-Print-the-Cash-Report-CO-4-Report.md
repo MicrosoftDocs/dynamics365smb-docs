@@ -8,7 +8,7 @@ This report shows the opening balance of all the posted ingoing and outgoing cas
 
 ## To print the cash report CO-4 
 
-1. Choose the ![Search for Page or Report]() icon, enter **Cash Report CO-4**, and then choose the related link.
+1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **Cash Report CO-4**, and then choose the related link.
 
 2. In the **Cash Report CO-4** window, fill in the fields.
 

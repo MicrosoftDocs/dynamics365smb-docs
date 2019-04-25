@@ -8,7 +8,7 @@ You can use the **Tax Difference Journal** window to manually create tax differe
 
 ## To post tax differences 
 
-1. Choose the ![Search for Page or Report]() icon, enter **Tax Difference Journals**, and then choose the related link.
+1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **Tax Difference Journals**, and then choose the related link.
 
 2. Fill in the fields as described in the following table.
 
@@ -53,7 +53,7 @@ You can use the **Tax Difference Journal** window to manually create tax differe
 
 [Tax Differences](https://github.com/DianaMalina/dynamics365smb-docs/edit/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Tax-Differences.md)
 
-[Setting up Tax Difference Calculation]()
+[Setting up Tax Difference Calculation](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Setting-up-Tax-Difference-Calculation.md)
 
 [Tax Accounting](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Tax-Accounting.md)
 

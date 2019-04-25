@@ -78,7 +78,7 @@ The **Vendor Turnover** report is used to print the data about a vendor's entrie
 
 To access the Vendor Turnover report
 
-Choose the ![Search for Page or Report](../../media/ui-search/search_small.png) icon, enter **Vendor Turnover**, and then choose the related link.
+Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **Vendor Turnover**, and then choose the related link.
 
 The **Vendor** FastTab of the request page contains the same fields as the **Vendor** FastTab of the **Vendor General Ledger Turnover** report. On the **Options** FastTab, you can specify the same format options as on the **Options** FastTab of the **Vendor General Ledger** report.
 
@@ -186,6 +186,6 @@ On the **Vendor** FastTab of the request page, you can define the vendor number 
 
 ## See Also
 
-[Russian Receivables Reports]()
+[Russian Receivables Reports](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Russian-Receivables-Reports.md)
 
-[How to: Set Up Customer and Vendor Agreements]()
+[How to: Set Up Customer and Vendor Agreements](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Set-Up-Customer-and-Vendor-Agreements.md)

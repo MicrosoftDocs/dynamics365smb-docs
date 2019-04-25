@@ -49,10 +49,10 @@ The **Fixed Asset G/L Turnover** report is similar to the **FA G/L Turnover** wi
 
 ## See Also 
 
-[Fixed Asset Locations and Employees]()
+[Fixed Asset Locations and Employees](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Fixed-Asset-Locations-and-Employees.md)
 
-[Fixed Asset Charges]()
+[Fixed Asset Charges](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Fixed-Asset-Charges.md)
 
-[Fixed Assets]()
+[Fixed Assets](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/eng-fixed-assets.md)
 
-[Fixed Asset Inventory]()
+[Fixed Asset Inventory](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Fixed-Asset-Inventory.md)

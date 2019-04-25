@@ -27,9 +27,9 @@ The following procedure shows how to create tax registers.
 
 6. Choose **OK** to create the tax register.
 
-    Note
-
-   If the creation of registers for an already counted period is selected, a warning is displayed. At this stage of the tax register creation, it is possible either to continue counting and delete all existing data, or stop.
+    > :speech_balloon: Note
+    >
+    > If the creation of registers for an already counted period is selected, a warning is displayed. At this stage of the tax register     > creation, it is possible either to continue counting and delete all existing data, or stop.
 
 7. To view the calculated information in the **Tax Register Accumulation** window, choose **Financial Management**, choose **Tax Accounting**, choose **Reporting,** and then choose **Profit Tax**.
 
@@ -47,10 +47,10 @@ The following procedure shows how to create tax registers.
 
 ## See Also 
 
-[Tax Accounting]()
+[Tax Accounting](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Tax-Accounting.md)
 
-[Tax Registers]()
+[Tax Registers](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Tax-Registers.md)
 
-[How to: Set Up Tax Register Sections]()
+[How to: Set Up Tax Register Sections](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Set-Up-Tax-Register-Sections.md)
 
-[Collecting Profit Tax Information for Tax Declaration]()
+[Collecting Profit Tax Information for Tax Declaration](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Collecting-Profit-Tax-Information-for-Tax-Declaration.md)

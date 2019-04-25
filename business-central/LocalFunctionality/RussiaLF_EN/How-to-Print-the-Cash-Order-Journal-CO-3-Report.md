@@ -8,7 +8,7 @@ This report shows the register of posted ingoing and outgoing cash orders during
 
 ## To print the cash order journal CO-3 report
 
-1. Choose the ![Search for Page or Report]() icon, enter **Cash Order Journal CO-3**, and then choose the related link.
+1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **Cash Order Journal CO-3**, and then choose the related link.
 
 2. In the **Cash Order Journal CO-3** window, fill in the fields.
 
@@ -25,4 +25,4 @@ This report shows the register of posted ingoing and outgoing cash orders during
 
 ## See Also 
 
-[Russia Local Functionality]()
+[Russia Local Functionality](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/eng-russia-local-functionality.md)

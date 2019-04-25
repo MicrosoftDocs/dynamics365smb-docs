@@ -23,7 +23,7 @@ Use the following table to learn more about local functionality that is availabl
 | [Payables and Receivables](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Payables-and-Receivables.md)                                 | Enables you to manage your payables and receivables reports, prepayments, agreements, and cards. |
 | [Statutory Reports](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Statutory-Reports.md)                                        | Enables you to import and export data for electronic tax reporting and other documents required by law. |
 | [Tax Accounting](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Tax-Accounting.md)                                           | Enables you to follow tax accounting principles by setting up tax registers and calculating tax differences. |
-| [VAT]()                                                      | Enables you to set up, calculate, and pay VAT amounts based on Russian VAT rates and regulations. |
+| [VAT](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/VAT.md)                                                      | Enables you to set up, calculate, and pay VAT amounts based on Russian VAT rates and regulations. |
 
  
 

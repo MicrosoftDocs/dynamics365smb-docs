@@ -82,7 +82,7 @@ The following procedure shows how to analyze a posted document item receipt with
 
 1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Item-General-Ledger-Turnover.md) icon, enter **Posted Item Receipts**, and then choose the related link.
 
-   > :speech_baloon: Note
+   > :speech_balloon: Note
    > The posted item receipt displays all the information from the item receipt.
 
 2. Choose the **Sort** action to sort the list of documents selected for printing in ascending or descending order.
@@ -127,9 +127,8 @@ The following procedure shows how to analyze a posted document item writing-off 
 
 1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **Posted Item Shipments**, and then choose the related link.
 
-    Note
-
-   The posted item shipment displays all the information from the item shipment.
+  > :speech_balloon:  Note
+  > The posted item shipment displays all the information from the item shipment.
 
 2. Choose the **Sort** action to sort the list of documents selected for printing in ascending or descending order.
 

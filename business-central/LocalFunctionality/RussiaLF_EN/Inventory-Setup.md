@@ -26,7 +26,7 @@ You can use red storno posting to post corrections for the following inventory e
 
  
 
-For more information, see [How to: Post Red Storno Corrections]().
+For more information, see [How to: Post Red Storno Corrections](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Post-Red-Storno-Corrections.md).
 
  
 
@@ -38,10 +38,10 @@ If you select the Enable Red Storno field in the **Inventory Setup** window, the
 
 ## See Also 
 
-[Item Documents]()
+[Item Documents](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Item-Documents.md)
 
-[Item Obligatory Acts]()
+[Item Obligatory Acts](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Item-Obligatory-Acts.md)
 
-[How to: Post Red Storno Corrections]()
+[How to: Post Red Storno Corrections](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Post-Red-Storno-Corrections.md)
 
 [How to: Use Item Charges to Account for Additional Trade Costs](https://docs.microsoft.com/en-us/dynamics365/business-central/payables-how-assign-item-charges)

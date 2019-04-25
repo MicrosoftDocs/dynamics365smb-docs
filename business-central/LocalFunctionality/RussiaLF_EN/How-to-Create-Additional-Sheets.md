@@ -89,4 +89,4 @@ Processing of corrective documents for sales book is similar to processing for p
 
 ## See Also
 
-[VAT Ledgers]()
+[VAT Ledgers](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/VAT-Ledgers.md)

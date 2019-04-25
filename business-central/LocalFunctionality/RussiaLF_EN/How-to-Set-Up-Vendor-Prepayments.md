@@ -6,7 +6,7 @@ Prepayments are advance payments on purchase orders that are paid before the fin
 
 ## To set up vendor prepayments
 
-1. Choose the ![Search for Page or Report]() icon, enter **Purchases & Payables Setup**, and then choose the related link.
+1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **Purchases & Payables Setup**, and then choose the related link.
 
 2. On the **Numbering** FastTab, verify that the number series for the **Posted Prepmt. Inv. Nos.** is the same as the **Posted Invoice Nos.**. Also verify that the number series for **Posted Prepmt. Cr. Memo Nos.** is the same as the **Posted Credit Memo Nos.**.
 

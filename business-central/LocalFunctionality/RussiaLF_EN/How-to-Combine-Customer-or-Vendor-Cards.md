@@ -26,5 +26,5 @@ The old customer or vendor card is deleted, and all documents with the old custo
 
 ## See Also 
 
-[Russia Local Functionality](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/eng-russia-local-functionality.md)
+[Russia Local Functionality](russia-local-functionality.md)
 

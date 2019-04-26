@@ -6,7 +6,7 @@ Prepayments are advance payments on sales orders that are received, invoiced, an
 
 ## To set up customer prepayments 
 
-1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **Sales & Receivables Setup**, and then choose the related link.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Sales & Receivables Setup**, and then choose the related link.
 
 2. On the **Numbering** FastTab, verify that the number series for the **Posted Prepmt. Inv. Nos.** is the same as the **Posted Invoice Nos.**. Also verify that the number series for the **Posted Prepmt. Cr. Memo Nos.** is the same as the **Posted Credit Memo Nos.**.
 
@@ -39,6 +39,6 @@ You can now invoice and collect advance payments from customers and post the pay
 
 ## See Also 
 
-[Invoicing Prepayments](https://docs.microsoft.com/en-us/dynamics365/business-central/finance-invoice-prepayments)
+[Invoicing Prepayments](../../finance-invoice-prepayments)
 
-[Walkthrough: Setting Up and Invoicing Sales Prepayments](https://docs.microsoft.com/en-us/dynamics365/business-central/walkthrough-setting-up-and-invoicing-sales-prepayments)
+[Walkthrough: Setting Up and Invoicing Sales Prepayments](../../walkthrough-setting-up-and-invoicing-sales-prepayments)

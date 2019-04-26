@@ -27,10 +27,10 @@ To set up and view tax difference entries, you will use the following tables, wh
 
 ## See Also 
 
-[Setting up Tax Difference Calculation](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Setting-up-Tax-Difference-Calculation.md)
+[Setting up Tax Difference Calculation](Setting-up-Tax-Difference-Calculation.md)
 
-[Tax Difference Registers](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Tax-Difference-Registers.md)
+[Tax Difference Registers](Tax-Difference-Registers.md)
 
-[Tax Accounting](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Tax-Accounting.md)
+[Tax Accounting](Tax-Accounting.md)
 
-[Tax Registers](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Tax-Registers.md)
+[Tax Registers](Tax-Registers.md)

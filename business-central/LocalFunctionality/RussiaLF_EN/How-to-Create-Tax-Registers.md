@@ -47,10 +47,10 @@ The following procedure shows how to create tax registers.
 
 ## See Also 
 
-[Tax Accounting](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Tax-Accounting.md)
+[Tax Accounting](Tax-Accounting.md)
 
-[Tax Registers](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Tax-Registers.md)
+[Tax Registers](Tax-Registers.md)
 
-[How to: Set Up Tax Register Sections](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Set-Up-Tax-Register-Sections.md)
+[How to: Set Up Tax Register Sections](How-to-Set-Up-Tax-Register-Sections.md)
 
-[Collecting Profit Tax Information for Tax Declaration](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Collecting-Profit-Tax-Information-for-Tax-Declaration.md)
+[Collecting Profit Tax Information for Tax Declaration](Collecting-Profit-Tax-Information-for-Tax-Declaration.md)

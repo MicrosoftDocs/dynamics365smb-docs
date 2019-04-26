@@ -17,10 +17,10 @@ There are two types of tax registers that are used for tracking taxable profits 
 
 ## See Also
 
-[How to: Set Up Tax Accounting](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Set-Up-Tax-Accounting.md)
+[How to: Set Up Tax Accounting](How-to-Set-Up-Tax-Accounting.md)
 
-[How to: Create Tax Registers](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Create-Tax-Registers.md)
+[How to: Create Tax Registers](How-to-Create-Tax-Registers.md)
 
-[How to: Set Up Tax Register Sections](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Set-Up-Tax-Register-Sections.md)
+[How to: Set Up Tax Register Sections](How-to-Set-Up-Tax-Register-Sections.md)
 
-[Tax Differences](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Tax-Differences.md)
+[Tax Differences](Tax-Differences.md)

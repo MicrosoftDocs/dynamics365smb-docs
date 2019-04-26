@@ -6,7 +6,7 @@ The following procedure shows how to create a new fixed asset charge.
 
 ## To create a fixed asset charge 
 
-1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **FA Charge Card**, and then choose the related link.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **FA Charge Card**, and then choose the related link.
 
 2. On the **General** FastTab, fill in the fields as described in the following table.
 
@@ -26,4 +26,4 @@ The following procedure shows how to create a new fixed asset charge.
 
 ## See Also 
 
-[Setting Up Fixed Assets](https://docs.microsoft.com/en-us/dynamics365/business-central/fa-setup)
+[Setting Up Fixed Assets](../../fa-setup)

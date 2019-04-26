@@ -6,7 +6,7 @@ If you need to fix an error on a fixed asset charge of an invoice, you can post 
 
 ## To create a credit memo for a fixed asset charge
 
-1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **Purchase Credit Memo**, and then choose the related link.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Purchase Credit Memo**, and then choose the related link.
 2. Enter the credit memo information for the erroneous fixed asset charge.
 3. Post the credit memo.
 
@@ -20,6 +20,6 @@ If you need to fix an error on a fixed asset charge of an invoice, you can post 
 
 ## See Also
 
-[Fixed Assets](https://docs.microsoft.com/en-us/dynamics365/business-central/fa-manage)
+[Fixed Assets](../../fa-manage)
 
-[Russia Local Functionality](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/eng-russia-local-functionality.md)
+[Russia Local Functionality](russia-local-functionality.md)

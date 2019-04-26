@@ -8,7 +8,7 @@ When you run the report for a location, the **Last Goods Report No.** and **Last
 
 ## To create the TORG-29 report 
 
-1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **Item Report TORG-29**, and then choose the related link.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Item Report TORG-29**, and then choose the related link.
 
 2. On the **Options** FastTab, fill in the fields as described in the following table.
 
@@ -37,4 +37,4 @@ When you run the report for a location, the **Last Goods Report No.** and **Last
 
 ## See Also 
 
-[Setting Up Inventory](https://docs.microsoft.com/en-us/dynamics365/business-central/inventory-setup-inventory)
+[Setting Up Inventory](../../inventory-setup-inventory)

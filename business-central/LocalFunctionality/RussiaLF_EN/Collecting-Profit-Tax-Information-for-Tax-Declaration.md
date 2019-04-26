@@ -16,10 +16,10 @@ In the tax accounting module, the following synthetic registers of the Profit Ta
 
 ## See Also 
 
-[Tax Accounting](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Tax-Accounting.md)
+[Tax Accounting](Tax-Accounting.md)
 
-[How to: Set Up Tax Register Sections](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Set-Up-Tax-Register-Sections.md)
+[How to: Set Up Tax Register Sections](How-to-Set-Up-Tax-Register-Sections.md)
 
- [How to: Create Tax Registers](https://github.com/DianaMalina/dynamics365smb-docs/edit/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Create-Tax-Registers.md)
+ [How to: Create Tax Registers](How-to-Create-Tax-Registers.md)
 
-[Tax Differences](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Tax-Differences.md)
+[Tax Differences](Tax-Differences.md)

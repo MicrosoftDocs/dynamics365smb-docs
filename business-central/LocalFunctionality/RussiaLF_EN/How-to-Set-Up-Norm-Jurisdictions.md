@@ -6,7 +6,7 @@ Norm jurisdictions are based on Russian tax laws that define a variety of tax ra
 
 ## To set up norm jurisdictions 
 
-1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **Norm Jurisdictions**, and then choose the related link.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Norm Jurisdictions**, and then choose the related link.
 
 2. Enter an identifying **Code** and **Description** for the norm jurisdiction that you want to set up.
 
@@ -41,12 +41,12 @@ The norm jurisdiction that you set up is now available for use in calculating ta
 
 ## See Also 
 
-[Tax Differences](https://github.com/DianaMalina/dynamics365smb-docs/edit/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Tax-Differences.md)
+[Tax Differences](Tax-Differences.md)
 
-[Setting up Tax Difference Calculation](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Setting-up-Tax-Difference-Calculation.md)
+[Setting up Tax Difference Calculation](Setting-up-Tax-Difference-Calculation.md)
 
-[Tax Accounting](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Tax-Accounting.md)
+[Tax Accounting](Tax-Accounting.md)
 
-[Tax Registers](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Tax-Registers.md)
+[Tax Registers](Tax-Registers.md)
 
-[How to: Create Tax Registers](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Create-Tax-Registers.md)
+[How to: Create Tax Registers](How-to-Create-Tax-Registers.md)

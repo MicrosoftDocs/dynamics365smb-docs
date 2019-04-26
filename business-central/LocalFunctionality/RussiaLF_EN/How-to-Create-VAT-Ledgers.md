@@ -10,7 +10,7 @@ You can create and store any number of VAT ledgers. For example, you can create 
 
 ## To create a VAT ledger 
 
-1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **VAT Ledger List**, and then choose the related link.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **VAT Ledger List**, and then choose the related link.
 
 2. In the **VAT Ledger List** window, fill in the fields as described in the following table.
 
@@ -39,8 +39,8 @@ Now, you can print the VAT ledger as a VAT ledger or as an additional sheet.
 
 ## See Also
 
-[VAT Ledgers](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/VAT-Ledgers.md)
+[VAT Ledgers](VAT-Ledgers.md)
 
-[How to: Set Up VAT Ledgers](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Set-Up-VAT-Ledgers.md)
+[How to: Set Up VAT Ledgers](How-to-Set-Up-VAT-Ledgers.md)
 
-[How to: Create Additional Sheets](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Create-Additional-Sheets.md)
+[How to: Create Additional Sheets](How-to-Create-Additional-Sheets.md)

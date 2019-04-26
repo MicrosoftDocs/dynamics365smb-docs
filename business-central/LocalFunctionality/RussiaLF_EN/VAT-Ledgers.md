@@ -11,7 +11,7 @@ The VAT ledger feature enables you to create and print the following windows:
 
 ## VAT Purchase Ledgers and VAT Sales Ledgers 
 
-Before you can create VAT ledgers, you must set up number series and vendor posting groups. You must also set up VAT posting groups to identify how VAT entries must be included in VAT ledgers. Also, for each VAT posting setup, you must specify if entries that use the setup must be included in VAT ledgers, and if the entries are VAT exempt. For more information, see [How to: Set Up VAT Ledgers](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Set-Up-VAT-Ledgers.md).
+Before you can create VAT ledgers, you must set up number series and vendor posting groups. You must also set up VAT posting groups to identify how VAT entries must be included in VAT ledgers. Also, for each VAT posting setup, you must specify if entries that use the setup must be included in VAT ledgers, and if the entries are VAT exempt. For more information, see [How to: Set Up VAT Ledgers](How-to-Set-Up-VAT-Ledgers.md).
 
  
 
@@ -27,7 +27,7 @@ To create a VAT ledger, first you must define a VAT ledger type, and then you mu
 
  
 
-For more information, see [How to: Create VAT Ledgers](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Create-VAT-Ledgers.md).
+For more information, see [How to: Create VAT Ledgers](How-to-Create-VAT-Ledgers.md).
 
  
 
@@ -49,11 +49,11 @@ These marked documents will be reflected in the purchase book or in the sales bo
 
 ## See Also 
 
-[How to: Set Up VAT Ledgers](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Set-Up-VAT-Ledgers.md)
+[How to: Set Up VAT Ledgers](How-to-Set-Up-VAT-Ledgers.md)
 
-[How to: Create VAT Ledgers](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Create-VAT-Ledgers.md)
+[How to: Create VAT Ledgers](How-to-Create-VAT-Ledgers.md)
 
-[How to: Create Additional Sheets](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Create-Additional-Sheets.md)
+[How to: Create Additional Sheets](How-to-Create-Additional-Sheets.md)
 
-[Posting VAT on Sales](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Posting-VAT-on-Sales.md)
+[Posting VAT on Sales](Posting-VAT-on-Sales.md)
 

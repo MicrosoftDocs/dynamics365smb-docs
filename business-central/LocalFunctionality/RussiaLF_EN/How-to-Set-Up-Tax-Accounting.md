@@ -6,7 +6,7 @@ Tax accounting lets you apply rules for recognizing income and expenses that fol
 
 ## To activate tax accounting 
 
-1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **Tax Register Setup**, and then choose the related link.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Tax Register Setup**, and then choose the related link.
 
 2. On the **General** FastTab, select codes for the following dimensions.
 
@@ -31,16 +31,16 @@ Tax accounting lets you apply rules for recognizing income and expenses that fol
 
  
 
-For more information about how to set up and customize tax registers, see [How to: Create Tax Registers](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Create-Tax-Registers.md).
+For more information about how to set up and customize tax registers, see [How to: Create Tax Registers](How-to-Create-Tax-Registers.md).
 
  
 
 ## See Also 
 
-[Tax Accounting](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Tax-Accounting.md)
+[Tax Accounting](Tax-Accounting.md)
 
-[Tax Registers](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Tax-Registers.md)
+[Tax Registers](Tax-Registers.md)
 
-[How to: Create Tax Registers](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Create-Tax-Registers.md)
+[How to: Create Tax Registers](How-to-Create-Tax-Registers.md)
 
-[Tax Differences](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Tax-Differences.md)
+[Tax Differences](Tax-Differences.md)

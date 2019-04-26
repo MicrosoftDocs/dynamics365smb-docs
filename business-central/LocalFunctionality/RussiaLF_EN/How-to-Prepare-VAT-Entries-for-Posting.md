@@ -6,7 +6,7 @@ You may want to periodically remit the net VAT from sales and purchase transacti
 
 ## To prepare VAT entries for posting 
 
-1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **VAT Settlement Worksheet**, and then choose the related link.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **VAT Settlement Worksheet**, and then choose the related link.
 
 2. Select the filters that define the VAT related transactions that you want to include in the VAT settlement.
 
@@ -30,5 +30,5 @@ The entries are copied to the appropriate VAT settlement journals. You can now r
 
 ## See Also 
 
-[How to: Report VAT to Tax Authorities](https://docs.microsoft.com/en-us/dynamics365/business-central/finance-how-report-vat)
+[How to: Report VAT to Tax Authorities](../../finance-how-report-vat)
 

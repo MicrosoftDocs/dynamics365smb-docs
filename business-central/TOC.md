@@ -1,4 +1,4 @@
-# [Getting Started](product-get-started.md)
+﻿# [Getting Started](product-get-started.md)
 # [Welcome to Business Central](index.md)
 ## [What's New](product-news.md)
 ## [Minimum Requirements](product-requirements.md)
@@ -1115,6 +1115,8 @@
 #### [Import Payroll Transactions](LocalFunctionality/Norway/how-to-import-payroll-transactions.md)
 #### [Set Up KID Numbers on Sales Documents](LocalFunctionality/Norway/how-to-set-up-kid-numbers-on-sales-documents.md)
 #### [Set Up Document Printing](LocalFunctionality/Norway/how-to-set-up-document-printing.md)
+
+## [Russia](LocalFunctionality/RussiaLF_EN/russia-local-functionality.md)
 
 ## [Spain](LocalFunctionality/Spain/spain-local-functionality.md)
 ### VAT & Tax

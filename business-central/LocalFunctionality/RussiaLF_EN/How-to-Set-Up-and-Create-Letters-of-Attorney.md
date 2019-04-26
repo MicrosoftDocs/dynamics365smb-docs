@@ -10,7 +10,7 @@ The following procedure shows how to set up the numbering for Letters of Attorne
 
 ## To set up a letter of attorney 
 
-1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **Purchases & Payables Setup**, and then choose the related link.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Purchases & Payables Setup**, and then choose the related link.
 2. On the **Background Posting** FastTab, fill in the **Letter of Attorney Nos.** and **Released Letter of Attorney Nos.** fields.
 3. Choose the **OK** button.
 
@@ -22,7 +22,7 @@ The following procedure shows how to create a Letter of Attorney.
 
 ## To create a letter of attorney 
 
-1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **Letters of Attorney** and then choose the related link.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Letters of Attorney** and then choose the related link.
 
 2. Create a new document and fill in the fields in the following table.
 
@@ -49,4 +49,4 @@ The following procedure shows how to create a Letter of Attorney.
 
 ## See Also
 
-[How to: Set Up Responsible Employees and Advance Statements](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Set-Up-Responsible-Employees-and-Advance-Statements.md)
+[How to: Set Up Responsible Employees and Advance Statements](How-to-Set-Up-Responsible-Employees-and-Advance-Statements.md)

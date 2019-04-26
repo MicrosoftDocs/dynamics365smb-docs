@@ -71,19 +71,19 @@ The functions executed from the window are the same as those for the **Cash rece
 
 ## Cash Order Journal CO-3 Report
 
-The **Cash Order Journal CO-3** report shows the register of posted ingoing and outgoing cash orders during some reporting period in the unified standard printing window that is certified by Russian accounting legislation. For more information, see [How to: Print the Cash Order Journal CO-3 Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Print-the-Cash-Order-Journal-CO-3-Report.md).
+The **Cash Order Journal CO-3** report shows the register of posted ingoing and outgoing cash orders during some reporting period in the unified standard printing window that is certified by Russian accounting legislation. For more information, see [How to: Print the Cash Order Journal CO-3 Report](How-to-Print-the-Cash-Order-Journal-CO-3-Report.md).
 
 ## Cash Report CO-4
 
-The **Cash Report CO-4** report shows mandatory daily cash transactions in standard format as required by Russian accounting legislation. For more information, see[How to: Print the Cash Report CO-4 Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Print-the-Cash-Report-CO-4-Report.md).
+The **Cash Report CO-4** report shows mandatory daily cash transactions in standard format as required by Russian accounting legislation. For more information, see[How to: Print the Cash Report CO-4 Report](How-to-Print-the-Cash-Report-CO-4-Report.md).
 
 ## See Also
 
-[Bank Management](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Bank-Management.md)
+[Bank Management](Bank-Management.md)
 
-[How to: Create Cash Account Cards](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Create-Cash-Account-Cards.md)
+[How to: Create Cash Account Cards](How-to-Create-Cash-Account-Cards.md)
 
-[How to: Print the Cash Order Journal CO-3 Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Print-the-Cash-Order-Journal-CO-3-Report.md)
+[How to: Print the Cash Order Journal CO-3 Report](How-to-Print-the-Cash-Order-Journal-CO-3-Report.md)
 
-[How to: Print the Cash Report CO-4 Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Print-the-Cash-Report-CO-4-Report.md)
+[How to: Print the Cash Report CO-4 Report](How-to-Print-the-Cash-Report-CO-4-Report.md)
 

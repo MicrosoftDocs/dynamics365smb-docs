@@ -163,5 +163,5 @@ On the **Options** FastTab, you can specify the format options listed in the fol
 
 ## See Also
 
-[Russian Payables Reports](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Russian-Payables-Reports.md)
-[How to: Set Up Customer and Vendor Agreements](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Set-Up-Customer-and-Vendor-Agreements.md)
+[Russian Payables Reports](Russian-Payables-Reports.md)
+[How to: Set Up Customer and Vendor Agreements](How-to-Set-Up-Customer-and-Vendor-Agreements.md)

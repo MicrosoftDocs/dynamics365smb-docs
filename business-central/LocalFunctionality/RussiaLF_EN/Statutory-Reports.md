@@ -29,15 +29,15 @@ The statutory reports are based on account schedules and tax registers. For each
 | Option                      | Description                                                  |
 | :-------------------------- | :----------------------------------------------------------- |
 | **Acc. Schedule**           | The data is based on an account schedule.                    |
-| **Tax Register**            | The data is based on a tax register. For more information, see [Tax Registers](https://docs.microsoft.com/en-us/dynamics-nav-app/localfunctionality/russia/tax-registers). |
-| **Tax Difference**          | The data is based on a tax difference. For more information, see [Tax Differences](https://docs.microsoft.com/en-us/dynamics-nav-app/localfunctionality/russia/tax-differences). |
+| **Tax Register**            | The data is based on a tax register. For more information, see [Tax Registers](tax-registers.md). |
+| **Tax Difference**          | The data is based on a tax difference. For more information, see [Tax Differences](tax-differences.md). |
 | **Payroll Analysis Report** | The data is based on payroll analysis.                       |
 
  
 
 ## See Also 
 
-[Tax Accounting](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Tax-Differences.md)
+[Tax Accounting](Tax-Differences.md)
 
-[Tax Differences](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Tax-Accounting.md)
+[Tax Differences](Tax-Accounting.md)
 

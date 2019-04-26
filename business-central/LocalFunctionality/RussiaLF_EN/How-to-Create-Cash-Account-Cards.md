@@ -6,7 +6,7 @@ Cash accounts are similar to bank accounts and are created identically. You can 
 
 ## To create a cash account card
 
-1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **Cash Accounts**, and then choose the related link.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Cash Accounts**, and then choose the related link.
 
 2. In the **Cash Account Card** window, fill in the fields on the **Posting** FastTab as described in the following table.
 
@@ -25,7 +25,7 @@ Cash accounts are similar to bank accounts and are created identically. You can 
 
 ## See Also 
 
-[Petty Cash Management](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Petty-Cash-Management.md)
+[Petty Cash Management](Petty-Cash-Management.md)
 
-[Bank and Cash Management](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/eng-bank-and-cash-management.md)
+[Bank and Cash Management](bank-and-cash-management.md)
 

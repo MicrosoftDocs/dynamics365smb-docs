@@ -50,4 +50,4 @@ In the **Trans. VAT Account** field, enter Subaccount 90-3 Gain VAT or Subaccoun
 
 ## See Also
 
-[VAT Ledgers](https://github.com/DianaMalina/dynamics365smb-docs/edit/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/VAT-Ledgers.md)
+[VAT Ledgers](VAT-Ledgers.md)

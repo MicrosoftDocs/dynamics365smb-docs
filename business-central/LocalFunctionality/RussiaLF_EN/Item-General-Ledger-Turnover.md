@@ -16,7 +16,7 @@ The **Item General Ledger Turnover** window is usually created monthly, and can 
 
 To access the **Item General Ledger Turnover** window
 
-1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **Item G/L Turnover**, and then choose the related link.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Item G/L Turnover**, and then choose the related link.
 2. On the **Options** FastTab, you can specify the format options listed in the following table.
 
 | Field                         | Description                                                  |
@@ -57,7 +57,7 @@ To analyze net changes and balances of items and materials, you can print the It
 
 The following procedure shows how to access the turnover sheet.
 
-1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **Item General Ledger Turnover**, and then choose the related link.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Item General Ledger Turnover**, and then choose the related link.
 2. Choose the **Print** action, and then choose the **Turnover Sheet** action.
 
 The turnover sheet is printed monthly and on the date of inventory, but it can be printed for any given period.
@@ -88,5 +88,5 @@ On the **Options** FastTab, you can specify the format options listed in the fol
 
 ## See Also
 
-[Item Obligatory Acts](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Item-Obligatory-Acts.md)
+[Item Obligatory Acts](Item-Obligatory-Acts.md)
 

@@ -11,7 +11,7 @@ You can set up inventory to use the same column for original and corrective post
 
 > :speech_balloon: Note
 >
-> You must enable red storno in the **Inventory Setup** window before you can post corrective entries. For more information, see [Inventory Setup](https://github.com/DianaMalina/dynamics365smb-docs/edit/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Inventory-Setup.md).
+> You must enable red storno in the **Inventory Setup** window before you can post corrective entries. For more information, see [Inventory Setup](Inventory-Setup.md).
 
  
 
@@ -79,5 +79,5 @@ The correction is posted, and any general ledger account correspondence that you
 
 ## See Also 
 
-[Setting Up Inventory](https://github.com/DianaMalina/dynamics365smb-docs/edit/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Inventory-Setup.md)
+[Setting Up Inventory](Inventory-Setup.md)
 

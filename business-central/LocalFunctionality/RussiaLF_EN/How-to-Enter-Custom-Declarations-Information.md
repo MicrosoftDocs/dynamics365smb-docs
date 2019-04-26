@@ -6,7 +6,7 @@ Use the following procedure to enter custom declaration information.
 
 ## To enter custom declarations information 
 
-1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **Custom Declarations**, and then choose the related link.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Custom Declarations**, and then choose the related link.
 
 2. In the **Custom Declaration** window, fill in the fields.
 
@@ -25,4 +25,4 @@ Use the following procedure to enter custom declaration information.
 
 ## See Also 
 
-[How to: Print the Factura-Invoice](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Print-the-Factura-Invoice.md)
+[How to: Print the Factura-Invoice](How-to-Print-the-Factura-Invoice.md)

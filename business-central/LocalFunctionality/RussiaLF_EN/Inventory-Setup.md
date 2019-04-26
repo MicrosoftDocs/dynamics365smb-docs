@@ -9,7 +9,7 @@ As part of inventory management, you can set up inventory to:
 
 ## Item Charge Assignment in Purchase Documents 
 
-In Russia, Dynamics NAV can assign item charges on purchases from foreign countries/regions based on weight or volume. For each item, in the **Item Card** window, on the **Foreign Trade** FastTab, if the **Gross Weight Mandatory** and **Unit Volume Mandatory** check boxes are selected, you must fill in the **Gross Weight** and **Unit Volume** fields. When you suggest an item charge assignment on a purchase order, you must specify that the distribution principle, weight, and volume are added to the options to choose from. For more information, see [How to: Use Item Charges to Account for Additional Trade Costs](https://docs.microsoft.com/en-us/dynamics365/business-central/payables-how-assign-item-charges).
+In Russia, Dynamics NAV can assign item charges on purchases from foreign countries/regions based on weight or volume. For each item, in the **Item Card** window, on the **Foreign Trade** FastTab, if the **Gross Weight Mandatory** and **Unit Volume Mandatory** check boxes are selected, you must fill in the **Gross Weight** and **Unit Volume** fields. When you suggest an item charge assignment on a purchase order, you must specify that the distribution principle, weight, and volume are added to the options to choose from. For more information, see [How to: Use Item Charges to Account for Additional Trade Costs](../../payables-how-assign-item-charges).
 
  
 
@@ -26,7 +26,7 @@ You can use red storno posting to post corrections for the following inventory e
 
  
 
-For more information, see [How to: Post Red Storno Corrections](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Post-Red-Storno-Corrections.md).
+For more information, see [How to: Post Red Storno Corrections](How-to-Post-Red-Storno-Corrections.md).
 
  
 
@@ -38,10 +38,10 @@ If you select the Enable Red Storno field in the **Inventory Setup** window, the
 
 ## See Also 
 
-[Item Documents](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Item-Documents.md)
+[Item Documents](Item-Documents.md)
 
-[Item Obligatory Acts](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Item-Obligatory-Acts.md)
+[Item Obligatory Acts](Item-Obligatory-Acts.md)
 
-[How to: Post Red Storno Corrections](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Post-Red-Storno-Corrections.md)
+[How to: Post Red Storno Corrections](How-to-Post-Red-Storno-Corrections.md)
 
-[How to: Use Item Charges to Account for Additional Trade Costs](https://docs.microsoft.com/en-us/dynamics365/business-central/payables-how-assign-item-charges)
+[How to: Use Item Charges to Account for Additional Trade Costs](../../payables-how-assign-item-charges)

@@ -6,7 +6,7 @@ The assessed tax feature enables you to calculate the assessed tax for fixed ass
 
 ## To calculate assessed tax 
 
-1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **Assessed Tax Allowances**, and then choose the related link.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Assessed Tax Allowances**, and then choose the related link.
 
 2. In the **Assessed Tax Allowances** window, fill in the fields as described in the following table.
 
@@ -17,7 +17,7 @@ The assessed tax feature enables you to calculate the assessed tax for fixed ass
 
 3. Choose the **OK** button.
 
-4. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **Assessed Tax Codes**, and then choose the related link.
+4. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Assessed Tax Codes**, and then choose the related link.
 
 5. In the **Assessed Tax Codes** window, fill in the fields as described in the following table.
 
@@ -35,11 +35,11 @@ The assessed tax feature enables you to calculate the assessed tax for fixed ass
 
 6. Choose the **Close** button.
 
-7. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **OKATO Codes**, and then choose the related link.
+7. Choose the ![Search for Page or Report](search-icon.png) icon, enter **OKATO Codes**, and then choose the related link.
 
 8. In the **OKATO Codes** window, fill in the **Region Code** and the **Tax Authority No.** fields, and then choose the **OK** button.
 
-9. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **Fixed Assets**, and then choose the related link.
+9. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Fixed Assets**, and then choose the related link.
 
 10. On the **Assessed Tax** FastTab, fill in the fields as described in the following table.
 
@@ -55,7 +55,7 @@ The assessed tax feature enables you to calculate the assessed tax for fixed ass
 
 12. To print the assessed tax declaration, you have to first import the declaration template. In the **Fixed Asset Setup** window, select the template name from the **Templates** FastTab.
 
-13. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **Calculate Assessed Tax**, and then choose the related link.
+13. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Calculate Assessed Tax**, and then choose the related link.
 
 14. In the **Calculate Assessed Tax** window, fill in the **Tax Authority No.**, **Year**, and the **Reporting Period** fields.
 
@@ -65,6 +65,6 @@ The assessed tax feature enables you to calculate the assessed tax for fixed ass
 
 ## See Also
 
-[Fixed Assets](https://docs.microsoft.com/en-us/dynamics365/business-central/fa-manage)
+[Fixed Assets](../../fa-manage)
 
-[Setting Up Fixed Assets](https://docs.microsoft.com/en-us/dynamics365/business-central/fa-setup)
+[Setting Up Fixed Assets](../../fa-setup)

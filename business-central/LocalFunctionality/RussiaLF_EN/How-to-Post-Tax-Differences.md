@@ -8,7 +8,7 @@ You can use the **Tax Difference Journal** window to manually create tax differe
 
 ## To post tax differences 
 
-1. Choose the ![Search for Page or Report](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png) icon, enter **Tax Difference Journals**, and then choose the related link.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Tax Difference Journals**, and then choose the related link.
 
 2. Fill in the fields as described in the following table.
 
@@ -51,12 +51,12 @@ You can use the **Tax Difference Journal** window to manually create tax differe
 
 ## See Also 
 
-[Tax Differences](https://github.com/DianaMalina/dynamics365smb-docs/edit/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Tax-Differences.md)
+[Tax Differences](Tax-Differences.md)
 
-[Setting up Tax Difference Calculation](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Setting-up-Tax-Difference-Calculation.md)
+[Setting up Tax Difference Calculation](Setting-up-Tax-Difference-Calculation.md)
 
-[Tax Accounting](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Tax-Accounting.md)
+[Tax Accounting](Tax-Accounting.md)
 
-[Tax Registers](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/Tax-Registers.md)
+[Tax Registers](Tax-Registers.md)
 
-[How to: Create Tax Registers](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/How-to-Create-Tax-Registers.md)
+[How to: Create Tax Registers](How-to-Create-Tax-Registers.md)

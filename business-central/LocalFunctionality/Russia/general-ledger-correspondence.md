@@ -55,8 +55,7 @@
 
 В субформе  отчет отображает обороты по счету в корреспонденции с другими счетами:
 
-![General-Ledger-Correspondence](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/General-Ledger-Correspondence.png)
-
+![General-Ledger-Correspondence](General-Ledger-Correspondence.png)
 
 
 ### Отчет Анализ операций корреспонденции

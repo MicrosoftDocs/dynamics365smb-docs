@@ -1,5 +1,6 @@
-# [Getting Started](product-get-started.md)
 # [Welcome to Business Central](index.md)
+# Getting Started
+## [Overview](product-get-started.md)
 ## [What's New](product-news.md)
 ## [Minimum Requirements](product-requirements.md)
 ## [Frequently Asked Questions](across-faq.md)
@@ -13,9 +14,10 @@
 ## [Visit Our Video Library](across-videos.md)
 ## [Become a Reseller](product-sell.md)
 ## [Extending Business Central](about-develop-extensions.md)
-### [Business Central Extensions by Other Providers](ui-extensions-other.md)
+## [Business Central Extensions by Other Providers](ui-extensions-other.md)
 
-# [Working with Business Central](ui-work-product.md)
+# Working with Business Central
+## [Overview](ui-work-product.md)
 ## [Finding Features and Information](ui-search.md)
 ## [Tell Me FAQ](ui-search-faq.md)
 ## [Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md)
@@ -28,22 +30,26 @@
 ## [Viewing and Editing in Excel](across-work-with-excel.md)  
 ## [Managing Notifications](ui-smart-notifications.md)
 ## [Changing Basic Settings](ui-change-basic-settings.md)
-## [Personalizing Your Workspace](ui-personalization-user.md)
+## Personalizing Business Central
+### [Personalizing Your Workspace](ui-personalization-user.md)
 ### [Why a Page is Locked from Personalizing](ui-personalization-locked.md)
 ### [Displaying Lists in Different Ways](across-display-lists-different-views.md)
-## [Working with Reports and Batch Jobs](ui-work-report.md)
+## Printing Reports and Running Batch Jobs
+### [Working with Reports and Batch Jobs](ui-work-report.md)
 ### [Specify Printer Selection for Reports](ui-specify-printer-selection-reports.md)
 ### [Schedule a Report or Batch Job to Run](ui-work-report.md#ScheduleReport)
 ### [Managing Saved Settings on Reports](reports-saving-reusing-settings.md)
 ### [View Test Reports Before Posting](ui-how-view-test-reports-posting.md)
 ### [Run Batch Jobs](ui-how-run-batch-jobs.md)
-## [Managing Report and Document Layouts](ui-manage-report-layouts.md)
+## Changing how Documents Look
+### [Managing Report and Document Layouts](ui-manage-report-layouts.md)
 ### [Updating Report or Document Layouts](ui-update-report-layouts.md)
 ### [Making Changes to a Word Report Layout](ui-how-create-custom-report-layout.md)
 ### [Import and Export a Report or Document Layout](ui-how-import-and-export-report-layout.md)
 ### [Change Which Layout is Currently Used on a Report](ui-how-change-layout-currently-used-report.md)
 ### [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md)
-## [Accessibility and Keyboard Shortcuts](ui-accessibility.md)
+## Using Keyboard Shortcuts
+### [Accessibility and Keyboard Shortcuts](ui-accessibility.md)
 ### [Keyboard Shortcuts](keyboard-shortcuts.md)
 ### [Keyboard Shortcuts Quick Reference](keyboard-shortcuts-cheatsheet.md)
 

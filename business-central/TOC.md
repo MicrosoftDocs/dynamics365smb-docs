@@ -47,7 +47,8 @@
 ### [Keyboard Shortcuts](keyboard-shortcuts.md)
 ### [Keyboard Shortcuts Quick Reference](keyboard-shortcuts-cheatsheet.md)
 
-# [Setting Up Business Central](setup.md)
+# Setting Up Business Central
+## [Overview](setup.md)
 ## [Setting Up Finance](finance-setup-finance.md)
 ### [Defining Payment Methods](finance-payment-methods.md)
 ### [Setting Up Posting Groups](finance-posting-groups.md)

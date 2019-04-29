@@ -174,24 +174,21 @@
 
 ## Setting Up Complex Application Areas Using Best Practices
 ### [Overview](set-up-complex-application-areas-using-best-practices.md)
-### [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)
-### [Setup Best Practices: Planning Parameters](setup-best-practices-planning-parameters.md)
-### Setup Best Practices: Global Planning Setup
-#### [Overview](setup-best-practices-global-planning-setup.md)
-#### [Setup Best Practices: Reordering Policies](setup-best-practices-reordering-policies.md)
+### Setup Best Practices: Supply Planning
+#### [Overview](setup-best-practices-supply-planning.md)
 #### [Setup Best Practices: Planning Parameters](setup-best-practices-planning-parameters.md)
-#### [Setup Best Practices: Global Planning Setup](setup-best-practices-global-planning-setup.md)
+#### [Setup Best Practices: Global Planning Setup]((setup-best-practices-global-planning-setup.md)
+#### [Setup Best Practices: Reordering Policies](setup-best-practices-reordering-policies.md)
 ### [Setup Best Practices: Costing Methods](setup-best-practices-costing-method.md)
-### [Setup Best Practices: Reordering Policies](setup-best-practices-reordering-policies.md)
 
 ## Setting Up a Company With RapidStart Services
 ### [Overview](admin-set-up-a-company-with-rapidstart.md)
 ### [Use the RapidStart Services Implementer Role Center](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md)
-### Set Up Company Configuration
+### Setting Up Company Configuration
 #### [Overview](admin-set-up-company-configuration.md)
 #### [Manage Company Configuration in a Worksheet](admin-how-to-manage-company-configuration-in-a-worksheet.md)
 #### [Prepare a Configuration Package](admin-how-to-prepare-a-configuration-package.md)
-### Apply Configurations to New Companies
+### Applying Configurations to New Companies
 #### [Overview](admin-apply-configuration-to-new-companies.md)
 #### [Create a New Company](admin-how-to-create-a-new-company.md)
 #### [Configure New Companies](admin-how-to-configure-new-companies.md)
@@ -203,15 +200,15 @@
 ### [Migrate Customer Data](admin-migrate-customer-data.md)
 ### [Create Custom Company Configuration Packages](admin-how-to-create-custom-company-configuration-packages.md)
 ### [Tips and Tricks: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
-## Outlook
+## Using Outlook with Business Central
 ### [Using Business Central as Your Business Inbox in Outlook](admin-outlook.md)
 ### [Synchronize with Contacts in Microsoft Outlook](admin-synchronize-outlook-contacts.md)
 ### [Using Business Central Without Outlook](admin-no-outlook.md)
-## Power BI
+## Using Power BI with Business Central
 ### [Enabling Your Business Data for Power BI](admin-powerbi.md)
 ### [Viewing List Data in Power BI Reports in Business Central](across-how-use-powerbi-reports-factbox.md)
 ### [Using Business Central as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)
-## Flow
+## Using Flow with Business Central
 ### [Using Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md)
 ### [Troubleshooting Integration with Microsoft Flow - Request URL Too Long](across-troubleshooting-how-use-financials-data-source-flow.md)
 ## [Connecting to Your Business Central Data to Build a Business App Using PowerApps](across-how-use-financials-data-source-powerapps.md)

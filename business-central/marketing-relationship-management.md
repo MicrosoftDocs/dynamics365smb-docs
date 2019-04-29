@@ -3,7 +3,7 @@ title: Relationship Management| Microsoft Docs
 description: The relationship management features in Business Central support your sales efforts and let you access information about contacts and prospects so you can serve customers efficiently.
 services: project-madeira
 documentationcenter: ''
-author: jswymer
+author: SorenGP
 
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,8 +11,8 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contact, prospect, client
-ms.date: 04/01/2019
-ms.author: jswymer
+ms.date: 04/24/2019
+ms.author: sgroespe
 
 ---
 # Managing Relationships
@@ -22,6 +22,7 @@ Good sales and marketing practices are all about how to make the best decisions 
 
 To get started, see the following topics:
 
+[Setting Up Relationship Management](marketing-setup-marketing.md)  
 [Managing Contacts](marketing-contacts.md)  
 [Managing Segments](marketing-segments.md)  
 [Recording Interactions](marketing-interactions.md)  

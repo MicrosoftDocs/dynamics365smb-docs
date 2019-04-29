@@ -49,7 +49,8 @@
 
 # Setting Up Business Central
 ## [Overview](setup.md)
-## [Setting Up Finance](finance-setup-finance.md)
+## Setting Up Finance
+### [Overview](finance-setup-finance.md)
 ### [Defining Payment Methods](finance-payment-methods.md)
 ### [Setting Up Posting Groups](finance-posting-groups.md)
 ### [Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md)
@@ -69,13 +70,15 @@
 ### [Consolidating Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)
 ### [Use Allocation Keys in General Journals](ui-how-use-allocation-keys-general-journals.md)
 
-## [Setting Up Banking](bank-setup-banking.md)
+## Setting Up Banking
+### [Overview](bank-setup-banking.md)
 ### [Set Up Bank Accounts](bank-how-setup-bank-accounts.md)
 ### [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)
 ### [Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md)
 ### [Define Check Layouts](finance-how-define-check-layouts.md)
 
-## [Setting Up Sales](sales-setup-sales.md)
+## Setting Up Sales
+### [Overview](sales-setup-sales.md)
 ### [Register New Customers](sales-how-register-new-customers.md)
 ### [Enable Customer Payments Through Payment Services](sales-how-enable-payment-service-extensions.md)
 ### [Record Special Sales Prices and Discounts](sales-how-record-sales-price-discount-payment-agreements.md)
@@ -84,13 +87,15 @@
 ### [Send Documents by Email](ui-how-send-documents-email.md)
 ### [Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md)
 
-## [Setting Up Purchasing](purchasing-setup-purchasing.md)
+## Setting Up Purchasing
+### [Overview](purchasing-setup-purchasing.md)
 ### [Register New Vendors](purchasing-how-register-new-vendors.md)
 ### [Record Special Purchase Prices and Discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md)
 ### [Prioritize Vendors](purchasing-how-prioritize-vendors.md)
 ### [Set Up Purchasers](purchasing-how-setup-purchasers.md)
 
-## [Setting Up Inventory](inventory-setup-inventory.md)
+## Setting Up Inventory
+### [Overview](inventory-setup-inventory.md)
 ### [Set Up General Inventory Information](inventory-how-setup-general.md)
 ### [Work with Responsibility Centers](inventory-responsibility-centers.md)
 ### [Set Up Locations](inventory-how-setup-locations.md)
@@ -101,19 +106,22 @@
 ### [Categorize Items](inventory-how-categorize-items.md)
 ### [Import Multiple Item Pictures](inventory-how-import-item-pictures.md)
 
-## [Setting Up Project Management](projects-setup-projects.md)
+## Setting Up Project Management
+### [Overview](projects-setup-projects.md)
 ### [Set Up Resources](projects-how-setup-resources.md)
 ### [Set Up Time Sheets](projects-how-setup-time-sheets.md)
 ### [Set Up Jobs](projects-how-setup-jobs.md)
 
-## [Setting Up Fixed Assets](fa-setup.md)
+## Setting Up Fixed Assets
+### [Overview](fa-setup.md)
 ### [Set Up General Fixed Assets Information](fa-how-setup-general.md)
 ### [Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md)
 ### [Define Depreciation Methods](fa-depreciation-methods.md)
 ### [Set Up Fixed Asset Insurance](fa-how-setup-insurance.md)
 ### [Set Up Fixed Asset Maintenance](fa-how-setup-maintenance.md)
 
-## [Setting Up Warehouse Management](warehouse-setup-warehouse.md)
+## Setting Up Warehouse Management
+### [Overview](warehouse-setup-warehouse.md)
 ### [Design Details: Warehouse Overview](design-details-warehouse-overview.md)
 ### [Set Up Bin Types](warehouse-how-to-set-up-bin-types.md)
 ### [Create Bins](warehouse-how-to-create-individual-bins.md)
@@ -130,7 +138,8 @@
 ### [Enable Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)
 ### [Restructure Warehouses](warehouse-how-to-restructure-warehouses.md)
 
-## [Setting Up Manufacturing](production-configure-production-processes.md)
+## Setting Up Manufacturing
+### [Overview](production-configure-production-processes.md)
 ### [Create Work Center Calendars](production-how-to-create-work-center-calendars.md)
 ### [Set Up Work Centers and Machine Centers](production-how-to-set-up-work-and-machine-centers.md)
 ### [Create Routings](production-how-to-create-routings.md)
@@ -141,7 +150,8 @@
 ### [Set Up Standard Routing Lines](production-how-set-up-standard-routing-lines.md)
 ### [Subcontract Manufacturing](production-how-to-subcontract-manufacturing.md)
 
-## [Setting Up Service Management](service-setup-service.md)
+## Setting Up Service Management
+### [Overview](service-setup-service.md)
 ### [Create Service Items](service-how-to-create-service-items.md)
 ### [Set Up Standard Service Codes](service-how-setup-service-coding.md)
 ### [Configure Service Processes](service-setup-service-processes.md)
@@ -156,22 +166,27 @@
 ### [Set Up a Loaner Program](service-how-setup-loaner-program.md)
 ### [Set Up Service Contracts](service-how-setup-service-contracts.md)
 
-## [Setting Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)
+## Setting Up Complex Application Areas Using Best Practices
+### [Overview](set-up-complex-application-areas-using-best-practices.md)
 ### [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)
 ### [Setup Best Practices: Planning Parameters](setup-best-practices-planning-parameters.md)
-### [Setup Best Practices: Global Planning Setup](setup-best-practices-global-planning-setup.md)
+### Setup Best Practices: Global Planning Setup
+#### [Overview](setup-best-practices-global-planning-setup.md)
 #### [Setup Best Practices: Reordering Policies](setup-best-practices-reordering-policies.md)
 #### [Setup Best Practices: Planning Parameters](setup-best-practices-planning-parameters.md)
 #### [Setup Best Practices: Global Planning Setup](setup-best-practices-global-planning-setup.md)
 ### [Setup Best Practices: Costing Methods](setup-best-practices-costing-method.md)
 ### [Setup Best Practices: Reordering Policies](setup-best-practices-reordering-policies.md)
 
-## [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)
+## Setting Up a Company With RapidStart Services
+### [Overview](admin-set-up-a-company-with-rapidstart.md)
 ### [Use the RapidStart Services Implementer Role Center](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md)
-### [Set Up Company Configuration](admin-set-up-company-configuration.md)
+### Set Up Company Configuration
+#### [Overview](admin-set-up-company-configuration.md)
 #### [Manage Company Configuration in a Worksheet](admin-how-to-manage-company-configuration-in-a-worksheet.md)
 #### [Prepare a Configuration Package](admin-how-to-prepare-a-configuration-package.md)
-### [Apply Configurations to New Companies](admin-apply-configuration-to-new-companies.md)
+### Apply Configurations to New Companies
+#### [Overview](admin-apply-configuration-to-new-companies.md)
 #### [Create a New Company](admin-how-to-create-a-new-company.md)
 #### [Configure New Companies](admin-how-to-configure-new-companies.md)
 #### [Configure a Company with the RapidStart Wizard](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md)
@@ -182,13 +197,16 @@
 ### [Migrate Customer Data](admin-migrate-customer-data.md)
 ### [Create Custom Company Configuration Packages](admin-how-to-create-custom-company-configuration-packages.md)
 ### [Tips and Tricks: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
-## [Using Business Central as Your Business Inbox in Outlook](admin-outlook.md)
+## Outlook
+### [Using Business Central as Your Business Inbox in Outlook](admin-outlook.md)
 ### [Synchronize with Contacts in Microsoft Outlook](admin-synchronize-outlook-contacts.md)
 ### [Using Business Central Without Outlook](admin-no-outlook.md)
-## [Enabling Your Business Data for Power BI](admin-powerbi.md)
+## Power BI
+### [Enabling Your Business Data for Power BI](admin-powerbi.md)
 ### [Viewing List Data in Power BI Reports in Business Central](across-how-use-powerbi-reports-factbox.md)
 ### [Using Business Central as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)
-## [Using Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md)
+## Flow
+### [Using Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md)
 ### [Troubleshooting Integration with Microsoft Flow - Request URL Too Long](across-troubleshooting-how-use-financials-data-source-flow.md)
 ## [Connecting to Your Business Central Data to Build a Business App Using PowerApps](across-how-use-financials-data-source-powerapps.md)
 ## [Changing from a QuickBooks App to Business Central](across-quickbooks-to-business-edition.md)

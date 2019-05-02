@@ -73,7 +73,6 @@
 ### [Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md)
 ### [Set Up Cash Customers](finance-how-to-set-up-cash-customers.md)
 ### [Set Up and Report Intrastat](finance-how-setup-report-intrastat.md)
-### [Consolidating Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)
 ### [Use Allocation Keys in General Journals](ui-how-use-allocation-keys-general-journals.md)
 
 ## Setting Up Banking
@@ -221,7 +220,8 @@
 ## [Creating Number Series](ui-create-number-series.md)
 ## [Setting Up Base Calendars](across-how-to-assign-base-calendars.md)
 
-# [General Business Functionality](ui-across-business-areas.md)
+# General Business Functionality
+## [Overview](ui-across-business-areas.md)
 ## [Add Comments to Cards and Documents](across-how-use-comments.md)
 ## [Track Document Lines](across-how-to-track-document-lines.md)
 ## [Send Documents by Email](ui-how-send-documents-email.md)
@@ -237,7 +237,71 @@
 ## [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)
 ## [Letting Business Central Suggest Values](ui-let-system-suggest-values.md)
 
-# [Administration](admin-setup-and-administration.md)
+## Incoming Documents
+### [Overview](across-income-documents.md)
+### [Set Up Incoming Documents](across-how-setup-income-documents.md)
+### Processing Incoming Documents
+#### [Overview](across-process-income-documents.md)
+#### [Create Incoming Document Records](across-how-create-income-document-records.md)
+#### [Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md)
+#### [Create Incoming Document Records Directly from Documents and Entries](across-how-connect-disconnect-income-document-records.md)
+#### [Find Posted Documents without Incoming Document Records](across-how-find-posted-documents-without-income-document-records.md)
+#### [Manage Many Incoming Document Records](across-how-manage-many-income-document-records.md)
+
+## Workflow
+### [Overview](across-workflow.md)
+### Setting Up Workflows
+#### [Overview](across-set-up-workflows.md)
+#### [Set Up Workflow Users](across-how-to-set-up-workflow-users.md)
+#### [Set Up Approval Users](across-how-to-set-up-approval-users.md)
+#### [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)
+#### [Specify When and How to Receive Notifications](across-how-to-specify-when-and-how-to-receive-notifications.md)
+#### [Create and Modify a Custom Report or Document Layout](ui-how-create-custom-report-layout.md)
+#### [Set up Email](admin-how-setup-email.md)
+#### [Create Workflows](across-how-to-create-workflows.md)
+#### [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)
+#### [Export and Import Workflows](across-how-to-export-and-import-workflows.md)
+#### [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
+#### [Walkthrough: Implementing New Workflow Events and Responses](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)
+### Using Workflows
+#### [Overview](across-use-workflows.md)
+#### [Enable Workflows](across-how-to-enable-workflows.md)
+#### [Use Approval Workflows](across-how-use-approval-workflows.md)
+#### [Restrict and Allow Usage of a Record](across-how-to-restrict-and-allow-usage-of-a-record.md)
+#### [View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md)
+#### [Delete Workflows](across-how-to-delete-workflows.md)
+
+## Exchanging Data Electronically
+### [Overview](across-data-exchange.md)
+### [About the Data Exchange Framework](across-about-the-data-exchange-framework.md)
+### Setting Up Data Exchange
+#### [Overview](across-set-up-data-exchange.md)
+#### [Set Up a Document Exchange Service](across-how-to-set-up-a-document-exchange-service.md)
+#### [Set Up Incoming Documents](across-how-setup-income-documents.md)
+#### [Update Currency Exchange Rates](finance-how-update-currencies.md)
+#### [Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md)
+#### [Set Up SEPA Credit Transfer](finance-how-to-set-up-sepa-credit-transfer.md)
+#### [Set Up SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)
+#### [Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md)
+#### [Set Up the Bank Statement Service](bank-how-setup-bank-statement-service.md)
+#### [Set Up Bank Accounts](bank-how-setup-bank-accounts.md)
+#### [Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
+#### [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md)
+### Exchanging Data
+#### [Overview](across-exchange-data.md)
+#### [Send Electronic Documents](sales-how-to-send-electronic-documents.md)
+#### [Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md)
+#### [Receive and Convert Electronic Documents](purchasing-how-to-receive-and-convert-electronic-documents.md)
+#### [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)
+#### [Export Payments to a Bank File](payables-how-export-payments-bank-file.md)
+#### [Making Payments with Bank Data Conversion Service or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+#### [Collecting Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)
+#### [Update Currency Exchange Rates](finance-how-update-currencies.md)
+#### [Field Mapping When Importing SEPA CAMT Files](across-field-mapping-when-importing-sepa-camt-files.md)
+#### [Field Mapping When Exporting Payment Files Using Bank Data Conversion Service](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
+
+# Administration
+## [Overview](admin-setup-and-administration.md)
 ## [Understanding Profiles, and Role Centers](admin-users-profiles-roles.md)
 ## [Managing Users and Permissions](ui-how-users-permissions.md)
 ## [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)
@@ -252,15 +316,19 @@
 ## [Extending Your Trial Version](admin-extend-trial.md)
 ## [Inspecting Pages](across-inspect-page.md)
 ## [Creating a Sandbox Environment](across-how-create-sandbox-environment.md)
-## [Integrating with Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
+## Integrating with Dynamics 365 for Sales
+### [Overview](admin-prepare-dynamics-365-for-sales-for-integration.md)
 ### [Setting Up Integration with Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)
 ### [Set Up a Dynamics 365 for Sales Connection](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Synchronizing Business Central and Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)
 ### [Modify Table Mappings for Synchronization](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Manually Synchronize Table Mappings](admin-manual-synchronization-of-table-mappings.md)
 ### [Schedule a Synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
-## [Customizing Business Central](ui-customizing-overview.md)
-### [Customizing Using Extensions](ui-extensions.md)
+## Customizing Business Central
+### [Overview](ui-customizing-overview.md)
+### Customizing Using Extensions
+#### [Overview](ui-extensions.md)
+#### [Customizing Using Extensions](ui-extensions.md)
 #### [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
 #### [Data Replication](ui-extensions-data-replication.md)
 #### [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)
@@ -284,9 +352,12 @@
 ### [Managing Personalization as an Administrator](ui-personalization-manage.md)
 ### [Setting Up a Colored Indicator on Cues](admin-how-set-up-colored-indicator-on-cues.md)
 
-# [Finance](finance.md)
-## [Managing Receivables](receivables-manage-receivables.md)
-### [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
+# Finance
+## [Overview](finance.md)
+## Managing Receivables
+### [Overview](receivables-manage-receivables.md)
+### Applying Payments Automatically and Reconciling Bank Accounts
+#### [Overview](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 #### [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md)
 #### [Review or Apply Payments Manually after Automatic Application](receivables-how-review-apply-payments-auto-application.md)
 #### [Reconcile Payments that Cannot be Applied Automatically](receivables-how-reconcile-payments-cannot-apply-auto.md)
@@ -300,8 +371,10 @@
 ### [Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 ### [The Late Payment Prediction Extension](ui-extensions-late-payment-prediction.md)
 
-## [Managing Payables](payables-manage-payables.md)
-### [Making Payments](payables-make-payments.md)
+## Managing Payables
+### [Overview](payables-manage-payables.md)
+### Making Payments
+#### [Overview](payables-make-payments.md)
 #### [Working with General Journals](ui-work-general-journals.md)
 #### [Record Payments and Refunds](payables-how-post-payments-refunds.md)
 #### [Suggest Vendor Payments](payables-how-suggest-vendor-payments.md)
@@ -309,7 +382,8 @@
 #### [Making Payments with Bank Data Conversion Service or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 #### [Settle Purchase Invoices Promptly](finance-how-to-settle-purchase-invoices-promptly.md)
 #### [Export a Positive Pay file](finance-how-positive-pay.md)
-### [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
+### Applying Payments Automatically and Reconciling Bank Accounts
+#### [Overview](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 #### [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md)
 #### [Review or Apply Payments Manually after Automatic Application](receivables-how-review-apply-payments-auto-application.md)
 #### [Reconcile Payments that Cannot be Applied Automatically](receivables-how-reconcile-payments-cannot-apply-auto.md)
@@ -324,22 +398,26 @@
 ### [Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 ### [The Late Payment Prediction Extension](ui-extensions-late-payment-prediction.md)
 
-## [Invoicing Prepayments](finance-invoice-prepayments.md)
+## Invoicing Prepayments
+### [Overview](finance-invoice-prepayments.md)
 ### [Set Up Prepayments](finance-set-up-prepayments.md)
 ### [Create Prepayment Invoices](finance-how-to-create-prepayment-invoices.md)
 ### [Correct Prepayments](finance-how-to-correct-prepayments.md)
 
-## [Managing Bank Accounts](bank-manage-bank-accounts.md)
+## Managing Bank Accounts
+### [Overview](bank-manage-bank-accounts.md)
 ### [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ### [Reconcile Bank Accounts Separately](bank-how-reconcile-bank-accounts-separately.md)  
 ### [Transfer Bank Funds](bank-how-transfer-bank-funds.md)
 
-## [Managing Intercompany Transactions](intercompany-manage.md)
+## Managing Intercompany Transactions
+### [Overview](intercompany-manage.md)
 ### [Set Up Intercompany](intercompany-how-setup.md)
 ### [Work with Intercompany Documents and Journals](intercompany-how-work-documents-journals.md)
 ### [Manage the Intercompany Inbox and Outbox](intercompany-how-manage-intercompany-inbox.md)
 
-## [Accounting for Costs](finance-manage-cost-accounting.md)
+## Accounting for Costs
+### [Overview](finance-manage-cost-accounting.md)
 ### [Terminology in Cost Accounting](finance-terminology-in-cost-accounting.md)
 ### [About Cost Accounting](finance-about-cost-accounting.md)
 ### [Setting Up Cost Accounting](finance-set-up-cost-accounting.md)
@@ -348,7 +426,8 @@
 ### [Creating Cost Budgets](finance-create-cost-budgets.md)
 ### [Deleting Cost Budget Entries](finance-how-to-delete-cost-budget-entries.md)
 
-## [Managing Inventory Costs](finance-manage-inventory-costs.md)
+## Managing Inventory Costs
+### [Overview](finance-manage-inventory-costs.md)
 ### [About Inventory Costing](finance-learn-about-costing.md)
 ### [About Calculating Standard Cost](finance-about-calculating-standard-cost.md)
 ### [Design Details: Inventory Costing](design-details-inventory-costing.md)
@@ -360,11 +439,14 @@
 ### [Update Standard Costs](finance-how-to-update-standard-costs.md)
 ### [Remove and Reapply Item Ledger Entries](finance-how-to-remove-and-reapply-item-entries.md)
 ### [Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
-### [Reporting Costs and Reconciling with the General Ledger](finance-report-costs-and-reconcile-with-the-general-ledger.md)
+### Reporting Costs and Reconciling with the General Ledger
+#### [Overview](finance-report-costs-and-reconcile-with-the-general-ledger.md)
 #### [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
 #### [Monitor Job Progress and Performance](projects-how-monitor-progress-performance.md)
 
-## [Closing Years and Periods](year-close-years-periods.md)
+## Closing Years and Periods
+### [Overview](year-close-years-periods.md)
+### [Working with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)
 ### [Specify Posting Periods](finance-how-specify-posting-periods.md)
 ### [Closing Periods](year-how-complete-period-end-processes.md)
 ### [Update Currency Exchange Rates](finance-how-update-currencies.md)
@@ -377,10 +459,7 @@
 ### [Close Income Statement Accounts](year-close-income-statement.md)
 ### [Post the Year-End Closing Entry](year-how-post-year-end-close-entry.md)
 
-## [Accountant Experiences in Business Central](finance-accounting.md)
-### [Inviting Your External Accountant to Your Business Central](finance-invite-external-accountant.md)  
 ## [Understanding the General Ledger and the COA](finance-general-ledger.md)
-## [Working with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)
 ## [Consolidating Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)
 ## [Working with Dimensions](finance-dimensions.md)
 ## [Create G/L Budgets](finance-how-create-budgets.md)
@@ -390,15 +469,18 @@
 ## [Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)
 ## [Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)
 ## [Defer Revenues and Expenses](finance-how-defer-revenue-expenses.md)
+## [Update Currency Exchange Rates](finance-how-update-currencies.md)
 ## [Import Payroll Transactions](finance-how-import-payroll-transactions.md)
-## [Report VAT to Tax Authorities](finance-how-report-vat.md)
 ## [Work with VAT on Sales and Purchases](finance-work-with-vat.md)
+## [Report VAT to Tax Authorities](finance-how-report-vat.md)
 ## [Convert Service Contracts that Include VAT Amounts](service-how-to-convert-service-contracts.md)
-## [Analyzing Financial Statements in Excel](finance-analyze-excel.md)
 ## [Analyzing Cash Flows in Your Company](finance-analyze-cash-flow.md)
 ## [Walkthrough: Making Cash Flow Forecasts by Using Account Schedules](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+## [Analyzing Financial Statements in Excel](finance-analyze-excel.md)
+## [Accountant Experiences in Business Central](finance-accounting.md)
 
-# [Business Intelligence](bi.md)
+# Business Intelligence
+## [Overview](bi.md)
 ## [Analyze Actual Amounts Versus Budgeted Amounts](bi-how-analyze-actual-versus-budget.md)
 ## [Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md)
 ## [Set Up and Publish KPI Web Services Based on Account Schedules](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
@@ -406,7 +488,8 @@
 ## [Create Analysis Reports](bi-how-create-analysis-views-reports.md)
 ## [Create Reports with XBRL](bi-create-reports-with-xbrl.md)
 
-# [Sales](sales-manage-sales.md)
+# Sales
+## [Overview](sales-manage-sales.md)
 ## [Register New Customers](sales-how-register-new-customers.md)
 ## [Make Sales Quotes](sales-how-make-offers.md)
 ## [Invoice Sales](sales-how-invoice-sales.md)
@@ -425,7 +508,8 @@
 ## [Create a Forecast](production-how-to-create-a-forecast.md)
 ## [Merge Duplicate Records](sales-how-merge-duplicate-records.md)
 
-# [Purchasing](purchasing-manage-purchasing.md)
+# Purchasing
+## [Overview](purchasing-manage-purchasing.md)
 ## [Record Purchases](purchasing-how-record-purchases.md)
 ## [Request Quotes](purchasing-how-request-quotes.md)
 ## [Purchase Items for a Sale](purchasing-how-purchase-products-sale.md)
@@ -437,7 +521,8 @@
 ## [Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)
 ## [Merge Duplicate Records](sales-how-merge-duplicate-records.md)
 
-# [Inventory](inventory-manage-inventory.md)
+# Inventory
+## [Overview](inventory-manage-inventory.md)
 ## [Register New Items](inventory-how-register-new-items.md)
 ## [Work with Bills of Material](inventory-how-work-BOMs.md)
 ## [Categorize Items](inventory-how-categorize-items.md)
@@ -454,7 +539,8 @@
 ## [Block Items](inventory-how-block-items.md)
 ## [Work with Responsibility Centers](inventory-responsibility-centers.md)
 
-# [Project Management](projects-manage-projects.md)
+# Project Management
+## [Overview](projects-manage-projects.md)
 ## [Create Jobs](projects-how-create-jobs.md)
 ## [Use Resources for Jobs](projects-how-use-resources.md)
 ## [Use Time Sheets for Jobs](projects-how-use-time-sheets.md)
@@ -465,7 +551,8 @@
 ## [Monitor Job Progress and Performance](projects-how-monitor-progress-performance.md)
 ## [Invoice Jobs](projects-how-invoice-jobs.md)
 
-# [Fixed Assets](fa-manage.md)
+# Fixed Assets
+## [Overview](fa-manage.md)
 ## [Acquire Fixed Assets](fa-how-acquire.md)
 ## [Maintain Fixed Assets](fa-how-maintain.md)
 ## [Insure Fixed Assets](fa-how-insure.md)
@@ -475,34 +562,43 @@
 ## [Dispose of or Retire Fixed Assets](fa-how-dispose-retire.md)
 ## [Manage Budgets for Fixed Assets](fa-how-manage-budgets.md)
 
-# [Relationship Management](marketing-relationship-management.md)
+# Relationship Management
+## [Overview](marketing-relationship-management.md)
 ## [Setting Up Relationship Management](marketing-setup-marketing.md)
-## [Managing Contacts](marketing-contacts.md)
+## Managing Contacts
+### [Overview](marketing-contacts.md)
 ### [Set Up Contacts](marketing-setup-contacts.md)
 ### [Create Contacts](marketing-create-contact-companies.md)
+### [Use Profile Questionnaires to Classify Business Contacts](marketing-create-contact-profile-questionnaire.md)
 ### [Merge Duplicate Records](sales-how-merge-duplicate-records.md)
-### [Creating Contact Persons](marketing-create-contact-persons.md)
-## [Managing Segments](marketing-segments.md)
+## Managing Segments
+### [Overview](marketing-segments.md)
 ### [Create Segments](marketing-how-create-segment.md)
 ### [Add Contacts to Segments](marketing-add-contact-segment.md)
-### [Managing Interaction and Segments](marketing-interaction-segments.md)
-## [Managing Interactions](marketing-interactions.md)
-## [Managing Marketing Campaigns](marketing-campaigns.md)
+### [Manage Interactions for Segments](marketing-interaction-segments.md)
+## Managing Interactions
+### [Overview](marketing-interactions-overview.md)
+### [Record Interactions with Contacts](marketing-interactions.md)
 ### [Create Interactions on Contacts and Segments](marketing-how-create-interactions.md)
 ### [Automatically Record Interactions with Contacts](marketing-auto-record-interactions.md)
-## [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)
+## Managing Sales Opportunities
+### [Overview](marketing-manage-sales-opportunities.md)
 ### [Set Up Opportunity Sales Cycles and Cycle Stages](marketing-how-setup-opportunity-sales-cycles-stages.md)
 ### [Create Opportunities](marketing-how-create-opportunities.md)
-### [Processing Sales Opportunities](marketing-processing-sales-opportunities.md)
-## [Use Profile Questionnaires to Classify Business Contacts](marketing-create-contact-profile-questionnaire.md)
-## [Using Dynamics 365 for Sales from Business Central](marketing-integrate-dynamicscrm.md)
+### [Process Sales Opportunities](marketing-processing-sales-opportunities.md)
+## [Managing Marketing Campaigns](marketing-campaigns.md)
+## Integrating with Dynamics 365 for Sales
+### [Using Dynamics 365 for Sales from Business Central](marketing-integrate-dynamicscrm.md)
 ### [Couple and Synchronize Records Manually](admin-how-to-couple-and-synchronize-records-manually.md)
 ### [View the Status of a Synchronization](admin-how-to-view-synchronization-status.md)
-# [Human Resources](hr-manage-human-resources.md)
+
+# Human Resources
+## [Overview](hr-manage-human-resources.md)
 ## [Register Employees](hr-how-register-employees.md)
 ## [Manage Employee Absence](hr-how-manage-absence.md)
 
-# [Planning](production-planning.md)
+# Planning
+## [Overview](production-planning.md)
 ## [About Planning Functionality](production-about-planning-functionality.md)
 ## [Subcontract Manufacturing](production-how-to-subcontract-manufacturing.md)
 ## [Planning With or Without Locations](production-planning-with-without-locations.md)
@@ -515,7 +611,8 @@
 ## [Track Relations Between Demand and Supply](production-how-track-demand-supply.md)
 ## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)
 
-# [Assembly Management](assembly-assemble-items.md)
+# Assembly Management
+## [Overview](assembly-assemble-items.md)
 ## [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md)
 ## [Quote an Assemble-to-Order Sale](assembly-how-to-quote-an-assemble-to-order-sale.md)
 ## [Assemble Items](assembly-how-to-assemble-items.md)
@@ -527,7 +624,8 @@
 ## [Work with Bills of Material](inventory-how-work-BOMs.md)
 ## [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)
 
-# [Manufacturing](production-manage-manufacturing.md)
+# Manufacturing
+## [Overview](production-manage-manufacturing.md)
 ## [About Production Orders](production-about-production-orders.md)
 ## [Create Production Orders](production-how-to-create-production-orders.md)
 ## [Subcontract Manufacturing](production-how-to-subcontract-manufacturing.md)
@@ -540,10 +638,12 @@
 ## [Post Capacities](production-how-to-post-capacities.md)
 ## [About Finished Production Order Costs](finance-about-finished-production-order-costs.md)
 
-# [Warehouse Management](warehouse-manage-warehouse.md)
+# Warehouse Management
+## [Overview](warehouse-manage-warehouse.md)
 ## [Receive Items](warehouse-how-receive-items.md)
 ## [Cross-Dock Items](warehouse-how-to-cross-dock-items.md)
-## [Putting Items Away](warehouse-put-away-items.md)
+## Putting Items Away
+### [Overview](warehouse-put-away-items.md)
 ### [Put Items Away with Inventory Put-aways](warehouse-how-to-put-items-away-with-inventory-put-aways.md)
 ### [Put Items Away with Warehouse Put-aways](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)
 ### [Put Away Production or Assembly Output](warehouse-how-to-put-away-production-output.md)
@@ -551,13 +651,15 @@
 ### [Pick and Put Away Without a Source Document](warehouse-how-to-create-put-aways-from-internal-put-aways.md)
 ### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)
 ### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
-## [Moving Items](warehouse-move-items.md)
+## Moving Items
+### [Overview](warehouse-move-items.md)
 ### [Move Items Ad Hoc in Basic Warehouse Configurations](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
 ### [Move Items in Advanced Warehouse Configurations](warehouse-how-to-move-items-in-advanced-warehousing.md)
 ### [Move Components to an Operation Area in Basic Warehouse Configurations](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
 ### [Calculate Bin Replenishment](warehouse-how-to-calculate-bin-replenishment.md)
 ### [Plan Warehouse Movements in Worksheets](warehouse-how-to-plan-warehouse-movements-in-worksheets.md)
-## [Picking Items](warehouse-pick-items.md)
+## Picking Items
+### [Overview](warehouse-pick-items.md)
 ### [Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md)
 ### [Pick Items for Warehouse Shipment](warehouse-how-to-pick-items-for-warehouse-shipment.md)
 ### [Pick for Production or Assembly in Basic Warehouse Configurations](warehouse-how-to-pick-for-production.md)
@@ -571,17 +673,21 @@
 ## [Find Your Warehouse Assignments](warehouse-how-to-find-your-warehouse-assignments.md)
 ## [Use Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)
 
-# [Service Management](service-service.md)
-## [Planning Service](service-plan-service.md)
+# Service Management
+## [Overview](service-service.md)
+## Planning Service
+### [Overview](service-plan-service.md)
 ### [Service Price Management](service-service-price-management.md)
 ### [Service Order Status and Repair Status](service-service-order-status-and-repair-status.md)
 ### [Allocation Status and Repair Status of Service Items](service-allocation-status-and-repair-status.md)
 ### [Viewing Service Statistics](service-service-statistics.md)
-## [Fulfilling Service Contracts](service-fulfill-service-contracts.md)
+## Fulfilling Service Contracts
+### [Overview](service-fulfill-service-contracts.md)
 ### [Multiple Contracts](service-multiple-contracts.md)
 ### [Work with Service Contracts and Service Contract Quotes](service-how-to-create-service-contracts-and-service-contract-quotes.md)
 ### [Change the Annual Amount on Service Contracts or Contract Quotes](service-how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)
-## [Delivering Service](service-deliver-service.md)
+## Delivering Service
+### [Overview](service-deliver-service.md)
 ### [Create Service Quotes](service-how-to-create-service-quotes.md)
 ### [Create Service Orders](service-how-to-create-service-orders.md)
 ### [Create Service Invoices or Credit Memos](service-how-create-invoices.md)
@@ -591,62 +697,8 @@
 ### [Post Service Orders and Credit Memos](service-how-to-post-service-orders.md)
 ### [Lend and Receive Loaners](service-how-to-lend-receive-loaners.md)
 
-## [Incoming Documents](across-income-documents.md)
-### [Set Up Incoming Documents](across-how-setup-income-documents.md)
-### [Processing Incoming Documents](across-process-income-documents.md)
-#### [Create Incoming Document Records](across-how-create-income-document-records.md)
-#### [Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md)
-#### [Create Incoming Document Records Directly from Documents and Entries](across-how-connect-disconnect-income-document-records.md)
-#### [Find Posted Documents without Incoming Document Records](across-how-find-posted-documents-without-income-document-records.md)
-#### [Manage Many Incoming Document Records](across-how-manage-many-income-document-records.md)
-
-## [Workflow](across-workflow.md)
-### [Setting Up Workflows](across-set-up-workflows.md)
-#### [Set Up Workflow Users](across-how-to-set-up-workflow-users.md)
-#### [Set Up Approval Users](across-how-to-set-up-approval-users.md)
-#### [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)
-#### [Specify When and How to Receive Notifications](across-how-to-specify-when-and-how-to-receive-notifications.md)
-#### [Create and Modify a Custom Report or Document Layout](ui-how-create-custom-report-layout.md)
-#### [Set up Email](admin-how-setup-email.md)
-#### [Create Workflows](across-how-to-create-workflows.md)
-#### [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)
-#### [Export and Import Workflows](across-how-to-export-and-import-workflows.md)
-#### [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
-#### [Walkthrough: Implementing New Workflow Events and Responses](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)
-### [Using Workflows](across-use-workflows.md)
-#### [Enable Workflows](across-how-to-enable-workflows.md)
-#### [Use Approval Workflows](across-how-use-approval-workflows.md)
-#### [Restrict and Allow Usage of a Record](across-how-to-restrict-and-allow-usage-of-a-record.md)
-#### [View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md)
-#### [Delete Workflows](across-how-to-delete-workflows.md)
-
-## [Exchanging Data Electronically](across-data-exchange.md)
-### [About the Data Exchange Framework](across-about-the-data-exchange-framework.md)
-### [Setting Up Data Exchange](across-set-up-data-exchange.md)
-#### [Set Up a Document Exchange Service](across-how-to-set-up-a-document-exchange-service.md)
-#### [Set Up Incoming Documents](across-how-setup-income-documents.md)
-#### [Update Currency Exchange Rates](finance-how-update-currencies.md)
-#### [Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md)
-#### [Set Up SEPA Credit Transfer](finance-how-to-set-up-sepa-credit-transfer.md)
-#### [Set Up SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)
-#### [Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md)
-#### [Set Up the Bank Statement Service](bank-how-setup-bank-statement-service.md)
-#### [Set Up Bank Accounts](bank-how-setup-bank-accounts.md)
-#### [Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
-#### [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md)
-### [Exchanging Data](across-exchange-data.md)
-#### [Send Electronic Documents](sales-how-to-send-electronic-documents.md)
-#### [Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md)
-#### [Receive and Convert Electronic Documents](purchasing-how-to-receive-and-convert-electronic-documents.md)
-#### [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)
-#### [Export Payments to a Bank File](payables-how-export-payments-bank-file.md)
-#### [Making Payments with Bank Data Conversion Service or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
-#### [Collecting Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)
-#### [Update Currency Exchange Rates](finance-how-update-currencies.md)
-#### [Field Mapping When Importing SEPA CAMT Files](across-field-mapping-when-importing-sepa-camt-files.md)
-#### [Field Mapping When Exporting Payment Files Using Bank Data Conversion Service](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
-
-# [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)
+# Business Process Walkthroughs
+## [Overview](walkthrough-business-process-walkthroughs.md)
 ## [Walkthrough: Conducting a Sales Campaign](walkthrough-conducting-a-sales-campaign.md)
 ## [Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ## [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
@@ -661,8 +713,10 @@
 ## [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)
 ## [Walkthrough: Making Cash Flow Forecasts by Using Account Schedules](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 
-# [Design Details](design-details-application-design.md)
-## [Design Details: Supply Planning](design-details-supply-planning.md)
+# Design Details
+## [Overview](design-details-application-design.md)
+## Design Details: Supply Planning
+### [Overview](design-details-supply-planning.md)
 ### [Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md)  
 ### [Design Details: Reservation, Order Tracking, and Action Messaging](design-details-reservation-order-tracking-and-action-messaging.md)  
 ### [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)  
@@ -671,7 +725,8 @@
 ### [Design Details: Planning Assignment Table](design-details-planning-assignment-table.md)  
 ### [Design Details: Demand at Blank Location](design-details-demand-at-blank-location.md)  
 ### [Design Details: Transfers in Planning](design-details-transfers-in-planning.md)
-## [Design Details: Inventory Costing](design-details-inventory-costing.md)
+## Design Details: Inventory Costing
+### [Overview](design-details-inventory-costing.md)
 ### [Design Details: Costing Methods](design-details-costing-methods.md)  
 ### [Design Details: Item Application](design-details-item-application.md)  
 ### [Design Details: Known Item Application Issue](design-details-inventory-zero-level-open-item-ledger-entries.md)  
@@ -690,7 +745,8 @@
 ### [Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md)
 ### [Design Details: Inventory Valuation](design-details-inventory-valuation.md)  
 ### [Design Details: Revaluation](design-details-revaluation.md)
-## [Design Details: Warehouse Management](design-details-warehouse-management.md)
+## Design Details: Warehouse Management
+### [Overview](design-details-warehouse-management.md)
 ### [Design Details: Warehouse Overview](design-details-warehouse-overview.md)  
 ### [Design Details: Warehouse Setup](design-details-warehouse-setup.md)  
 ### [Design Details: Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md)  
@@ -698,7 +754,8 @@
 ### [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md)  
 ### [Design Details: Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md)  
 ### [Design Details: Integration with Inventory](design-details-integration-with-inventory.md)
-## [Design Details: Item Tracking](design-details-item-tracking.md)
+## Design Details: Item Tracking
+### [Overview](design-details-item-tracking.md)
 ### [Design Details: Item Tracking Design](design-details-item-tracking-design.md)  
 ### [Design Details: Item Tracking Posting Structure](design-details-item-tracking-posting-structure.md)  
 ### [Design Details: Active versus Historic Item Tracking Entries](design-details-active-versus-historic-item-tracking-entries.md)  
@@ -707,21 +764,25 @@
 ### [Design Details: Item Tracking and Planning](design-details-item-tracking-and-planning.md)  
 ### [Design Details: Item Tracking and Reservations](design-details-item-tracking-and-reservations.md)  
 ### [Design Details: Item Tracking in the Warehouse](design-details-item-tracking-in-the-warehouse.md)
-## [Design Details: General Journal Post Line](design-details-general-journal-post-line.md)
+## Design Details: General Journal Post Line
+### [Overview](design-details-general-journal-post-line.md)
 ### [General Journal Post Line Overview](design-details-general-journal-post-line-overview.md)  
 ### [Design Details: Posting Interface Structure](design-details-posting-interface-structure.md)  
 ### [Design Details: Posting Engine Structure](design-details-posting-engine-structure.md)  
 ### [Design Details: Codeunit 12 Changes: Mapping Global Variables for General Journal Post Line](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)  
 ### [Design Details: Codeunit 12 Changes: Changes in General Journal Post Procedures](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
-## [Design Details: Dimension Set Entries](design-details-dimension-set-entries.md)
+## Design Details: Dimension Set Entries
+### [Overview](design-details-dimension-set-entries.md)
 ### [Design Details: Dimension Set Entries Overview](design-details-dimension-set-entries-overview.md)  
 ### [Design Details: Searching for Dimension Combinations](design-details-searching-for-dimension-combinations.md)  
 ### [Design Details: Table Structure](design-details-table-structure.md)  
 
-# [Local Functionality](about-localization.md)
+# Local Functionality
+## [Overview](about-localization.md)
 
-## [Australia](LocalFunctionality/Australia/australia-local-functionality.md)
-### VAT & Tax
+## Australia
+### [Overview](LocalFunctionality/Australia/australia-local-functionality.md)
+### Tax
 #### [Tax](LocalFunctionality/Australia/tax.md)
 #### [Withholding Tax](LocalFunctionality/Australia/withholding-tax.md)
 #### [Set Up Withholding Tax](LocalFunctionality/Australia/how-to-set-up-withholding-tax.md)
@@ -752,8 +813,9 @@
 #### [Australian Business Numbers and Adjustment Notes](LocalFunctionality/Australia/australian-business-numbers-and-adjustment-notes.md)
 #### [Enter Australian Business Numbers](LocalFunctionality/Australia/how-to-enter-australian-business-numbers.md)
 
-## [Austria](LocalFunctionality/Austria/austria-local-functionality.md)
-### VAT & Tax
+## Austria
+### [Overview](LocalFunctionality/Austria/austria-local-functionality.md)
+### VAT
 #### [Create a VAT Statement](LocalFunctionality/Austria/how-to-create-a-vat-statement.md)
 #### [VAT Reporting](LocalFunctionality/Austria/vat-reporting.md)
 ### Banking & Payments
@@ -772,8 +834,9 @@
 #### [Print General Ledger Setup Information](LocalFunctionality/Austria/how-to-print-general-ledger-setup-information.md)
 #### [Print Sales and Purchase Orders During Batch Posting](LocalFunctionality/Austria/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 
-## [Belgium](LocalFunctionality/Belgium/belgium-local-functionality.md)
-### VAT & Tax
+## Belgium
+### [Overview](LocalFunctionality/Belgium/belgium-local-functionality.md)
+### VAT
 #### [Belgian VAT](LocalFunctionality/Belgium/belgian-vat.md)
 #### [Set Up Non-Deductible VAT](LocalFunctionality/Belgium/how-to-set-up-non-deductible-vat.md)
 #### [Make Manual Corrections to VAT](LocalFunctionality/Belgium/how-to-make-manual-corrections-to-vat.md)
@@ -826,8 +889,9 @@
 #### [Limit the Posting Period](LocalFunctionality/Belgium/how-to-limit-the-posting-period.md)
 #### [Set the Work Date as the Posting Date](LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date.md)
 
-## [Canada](LocalFunctionality/Canada/canada-local-functionality.md)
-### VAT & Tax
+## Canada
+### [Overview](LocalFunctionality/Canada/canada-local-functionality.md)
+### Tax
 #### [Reporting Sales Tax and Goods/Services Tax in Canada](LocalFunctionality/Canada/sales-tax-goods-services.md)
 #### [Reporting Sales Tax in Canada](LocalFunctionality/Canada/ca-sales-tax.md)
 #### [Set Up Unrealized Sales Tax and Sales Payment Discounts](LocalFunctionality/Canada/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
@@ -840,13 +904,16 @@
 #### [Print Troubleshooting Reports](LocalFunctionality/Canada/how-to-print-troubleshooting-reports.md)
 #### [Work With GIFI Codes](LocalFunctionality/Canada/work-gifi-codes.md)
 
-## [Czech Republic](LocalFunctionality/Czech/czech-local-functionality.md)
-### VAT & Tax
+## Czech Republic
+### [Overview](LocalFunctionality/Czech/czech-local-functionality.md)
+### VAT
 #### [VAT Control Report](LocalFunctionality/Czech/vat-control-report.md)
 ### Banking & Payments
 #### [Registration of Sales (EET)](LocalFunctionality/Czech/eet.md)
-## [Denmark](LocalFunctionality/Denmark/denmark-local-functionality.md)
-### VAT & Tax
+
+## Denmark
+### [Overview](LocalFunctionality/Denmark/denmark-local-functionality.md)
+### VAT
 #### [Print VAT Reconciliation Reports](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 #### [VAT-VIES Reporting](LocalFunctionality/Denmark/vat-vies-reporting.md)
 ### Banking & Payments
@@ -861,8 +928,9 @@
 ### Payroll
 #### [Payroll Data Definitions (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
 
-## [Finland](LocalFunctionality/Finland/finland-local-functionality.md)
-### VAT & Tax
+## Finland
+### [Overview](LocalFunctionality/Finland/finland-local-functionality.md)
+### VAT
 #### [Print Finnish Intrastat Reports](LocalFunctionality/Finland/how-to-print-finnish-intrastat-reports.md)
 #### [Print VAT Information on Invoices](LocalFunctionality/Finland/how-to-print-vat-information-on-invoices.md)
 #### [VAT-VIES Declaration in Finland](LocalFunctionality/Finland/vat-vies-declaration-in-finland.md)
@@ -877,8 +945,9 @@
 #### [Automatic Account Codes](LocalFunctionality/Finland/automatic-account-codes.md)
 #### [Posting Depreciation Differences](LocalFunctionality/Finland/posting-depreciation-differences.md)
 
-## [France](LocalFunctionality/France/france-local-functionality.md)
-### VAT & Tax
+## France
+### [Overview](LocalFunctionality/France/france-local-functionality.md)
+### VAT
 #### [Export General Ledger Entries for Tax Audits](LocalFunctionality/France/how-to-export-general-ledger-entries-for-tax-audits.md)
 #### [Export General Ledger Entries to an XML File](LocalFunctionality/France/how-to-export-general-ledger-entries-to-an-xml-file.md)
 #### [Requirements for Reporting Declaration of Trade in Goods](LocalFunctionality/France/requirements-for-reporting-declaration-of-trade-in-goods.md)
@@ -914,8 +983,9 @@
 #### [Accelerated Depreciation](LocalFunctionality/France/accelerated-depreciation.md)
 #### [Calculate Accelerated Depreciation](LocalFunctionality/France/how-to-calculate-accelerated-depreciation.md)
 
-## [Germany](LocalFunctionality/Germany/germany-local-functionality.md)
-### VAT & Tax
+## Germany
+### [Overview](LocalFunctionality/Germany/germany-local-functionality.md)
+### VAT
 #### [Set Up Reports for VAT and Intrastat](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md)  
 #### [Set Up VAT Reports](LocalFunctionality/Germany/how-to-set-up-vat-reports.md)
 #### [VAT Reporting](LocalFunctionality/Germany/vat-reporting.md)
@@ -958,8 +1028,9 @@
 #### [Copy Existing Items to New Items](LocalFunctionality/Germany/how-to-copy-existing-items-to-new-items.md)
 #### [Certification of Business Central for German market (document is in German)](https://go.microsoft.com/fwlink/?linkid=875256)
 
-## [Iceland](LocalFunctionality/Iceland/iceland-local-functionality.md)
-### VAT & Tax
+## Iceland
+### [Overview](LocalFunctionality/Iceland/iceland-local-functionality.md)
+### VAT
 #### [Icelandic Tax Regulations for Conditional Discounts](LocalFunctionality/Iceland/icelandic-tax-regulations-of-conditional-discounts.md)
 #### [Print VAT Summary Information on Documents](LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md)  
 #### [Special Data Output and Reports for the Tax Authority](LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md)
@@ -969,8 +1040,9 @@
 #### [Map IRS Numbers to the Chart of Accounts](LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts.md)  
 #### [Deleting Posted Invoices and Credit Memos](LocalFunctionality/Iceland/deleting-posted-invoices-and-credit-memos.md)  
 
-## [Italy](LocalFunctionality/Italy/italy-local-functionality.md)
-### VAT & Tax
+## Italy
+### [Overview](LocalFunctionality/Italy/italy-local-functionality.md)
+### VAT
 #### [Italian VAT](LocalFunctionality/Italy/italian-vat.md)
 #### [Submit VAT Statements](LocalFunctionality/Italy/how-to-submit-vat-statements.md)
 #### [Correct VAT Transactions Reports](LocalFunctionality/Italy/how-to-correct-vat-transactions-reports.md)
@@ -1006,8 +1078,9 @@
 #### [Set Up Journal Templates and Batches](LocalFunctionality/Italy/how-to-set-up-journal-templates-and-batches.md)
 #### [Report Trade with Customers and Vendors in Blacklist Countries and Regions](LocalFunctionality/Italy/how-to-report-trade-with-customers-and-vendors-in-blacklist-countries-regions.md)  
 
-## [Mexico](LocalFunctionality/Mexico/mexico-local-functionality.md)
-### VAT & Tax
+## Mexico
+### [Overview](LocalFunctionality/Mexico/mexico-local-functionality.md)
+### Tax
 #### [Mexico Sales Tax](LocalFunctionality/Mexico/mexico-sales-tax.md)  
 #### [Set Up Use Tax and Purchase Tax](LocalFunctionality/Mexico/how-to-set-up-use-tax-and-purchase-tax.md)  
 #### [Set Up Unrealized Sales Tax and Sales Payment Discounts](LocalFunctionality/Mexico/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
@@ -1025,8 +1098,9 @@
 #### [Set Up PAC Web Services](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
 #### [Print Troubleshooting Reports](LocalFunctionality/Mexico/how-to-print-troubleshooting-reports.md)  
 
-## [Netherlands](LocalFunctionality/Netherlands/netherlands-local-functionality.md)
-### VAT & Tax
+## Netherlands
+### [Overview](LocalFunctionality/Netherlands/netherlands-local-functionality.md)
+### VAT
 #### [Create a Audit File for the Tax Authority](LocalFunctionality/Netherlands/how-to-create-an-audit-file-for-the-tax-authority.md)
 #### [Set Up VAT Categories](LocalFunctionality\Netherlands\how-to-set-up-vat-categories.md)
 #### [Electronic VAT and ICP Declarations](LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations.md)
@@ -1062,8 +1136,9 @@
 #### [Import Postal Codes](LocalFunctionality/Netherlands/how-to-import-post-codes.md)
 #### [Import Postal Code Updates](LocalFunctionality/Netherlands/how-to-import-post-code-updates.md)
 
-## [New Zealand](LocalFunctionality/NewZealand/new-zealand-local-functionality.md)  
-### [VAT & Tax](LocalFunctionality/NewZealand/tax.md)
+## New Zealand
+### [Overview](LocalFunctionality/NewZealand/new-zealand-local-functionality.md)
+### Tax
 #### [Withholding Tax](LocalFunctionality/NewZealand/withholding-tax.md)
 #### [Set Up Withholding Tax](LocalFunctionality/NewZealand/how-to-set-up-withholding-tax.md)
 #### [Set Up Revenue Types for Withholding Tax](LocalFunctionality\NewZealand\how-to-set-up-revenue-types-for-withholding-tax.md)
@@ -1092,8 +1167,9 @@
 #### [Enter New Zealand Business Numbers](LocalFunctionality/NewZealand/how-to-enter-new-zealand-business-numbers.md)  
 #### [New Zealand Inland Revenue Department Numbers and Adjustment Notes](LocalFunctionality/NewZealand/new-zealand-business-numbers-and-adjustment-notes.md)
 
-## [Norway](LocalFunctionality/Norway/norway-local-functionality.md)
-### VAT & Tax
+## Norway
+### [Overview](LocalFunctionality/Norway/norway-local-functionality.md)
+### VAT
 #### [Norwegian VAT Reporting](LocalFunctionality/Norway/norwegian-vat-reporting.md)
 #### [Norwegian VAT Codes](LocalFunctionality/Norway/norwegian-vat-codes.md)  
 #### [How to Use One VAT Code in Journals](LocalFunctionality/Norway/how-to-use-one-vat-code-in-journals.md)
@@ -1138,8 +1214,9 @@
 #### [Set Up KID Numbers on Sales Documents](LocalFunctionality/Norway/how-to-set-up-kid-numbers-on-sales-documents.md)
 #### [Set Up Document Printing](LocalFunctionality/Norway/how-to-set-up-document-printing.md)
 
-## [Spain](LocalFunctionality/Spain/spain-local-functionality.md)
-### VAT & Tax
+## Spain
+### [Overview](LocalFunctionality/Spain/spain-local-functionality.md)
+### VAT
 #### [VAT Reports](LocalFunctionality/Spain/vat-reports.md)
 #### [Report 340](LocalFunctionality/Spain/report-340.md)  
 #### [Create Report 340](LocalFunctionality/Spain/how-to-create-report-340.md)  
@@ -1185,8 +1262,9 @@
 #### [Enter NACE Codes](LocalFunctionality/Spain/how-to-enter-nace-codes.md)
 #### [Set Limits for Due Dates](LocalFunctionality/Spain/how-to-set-limits-for-due-dates.md)
 
-## [Sweden](LocalFunctionality/Sweden/sweden-local-functionality.md)
-### VAT & Tax
+## Sweden
+### [Overview](LocalFunctionality/Sweden/sweden-local-functionality.md)
+### VAT
 #### [Set Up EU Third-Party Purchase Transactions](LocalFunctionality/Sweden/how-to-set-up-eu-third-party-purchase-transactions.md)
 ### Core Finance
 #### [Automatic Account Codes](LocalFunctionality/Sweden/automatic-account-codes.md)  
@@ -1194,8 +1272,9 @@
 #### [Import and Export Data in Standard Import Export Format](LocalFunctionality/Sweden/how-to-import-and-export-data-in-standard-import-export-format.md)  
 #### [Print Balance Sheet and Income Statement Reports](LocalFunctionality/Sweden/how-to-print-balance-sheet-and-income-statement-reports.md)  
 
-## [Switzerland](LocalFunctionality/Switzerland/switzerland-local-functionality.md)
-### VAT & Tax
+## Switzerland
+### [Overview](LocalFunctionality/Switzerland/switzerland-local-functionality.md)
+### VAT
 #### [Create and print a Swiss VAT Statement](LocalFunctionality/Switzerland/how-to-create-and-print-a-swiss-vat-statement.md)
 #### [Print Swiss VAT Statements (Older Versions)](LocalFunctionality/Switzerland/how-to-print-swiss-vat-statements-older-version-.md)
 #### [Swiss Value Added Tax](LocalFunctionality/Switzerland/swiss-value-added-tax.md)
@@ -1237,8 +1316,9 @@
 #### [Swiss Purchase Documents and Sales Orders](LocalFunctionality/Switzerland/swiss-purchase-documents-and-sales-documents.md)
 #### [Print Sales and Purchase Orders During Batch Posting](LocalFunctionality/Switzerland/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 
-## [United Kingdom](LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.md)
-### VAT & Tax
+## United Kingdom
+### [Overview](LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.md)
+### VAT
 #### [Making Tax Digital - VAT Returns submission](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)
 #### [Change VAT Setup in Journals](LocalFunctionality/UnitedKingdom/how-to-change-vat-setup-in-journals.md)
 #### [Print VAT Audit Reports](LocalFunctionality/UnitedKingdom/how-to-print-vat-audit-reports.md)
@@ -1257,7 +1337,8 @@
 #### [Enter External Document Numbers](LocalFunctionality/UnitedKingdom/how-to-enter-external-document-numbers.md)
 #### [Print Direct Sales and Purchase Details Reports](LocalFunctionality/UnitedKingdom/how-to-print-direct-sales-and-purchase-details-reports.md)
 
-## [United States](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
+## United States
+### [Overview](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 ### Tax
 #### [US Sales Tax](LocalFunctionality/UnitedStates/us-sales-tax.md)
 #### [Reporting Sales Tax in the US](LocalFunctionality/UnitedStates/us-sales-tax.md)  
@@ -1272,7 +1353,8 @@
 #### [How to Manage Customer Credit Information](LocalFunctionality/UnitedStates/how-to-manage-customer-credit-information.md)  
 #### [Print Troubleshooting Reports](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ## [Submit Regulatory Alerts](submit-regulatory-alerts.md)
-# [Compliance](compliance/compliance-overview.md)
+# Compliance
+## [Overview](compliance/compliance-overview.md)
 ## [Application Compliance](compliance/compliance-application-compliance.md)
 ## [Service Compliance](compliance/compliance-service-compliance.md)
 ## [Certifications](compliance/compliance-certifications.md)

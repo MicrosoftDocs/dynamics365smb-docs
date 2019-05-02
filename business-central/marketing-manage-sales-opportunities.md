@@ -26,7 +26,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | --- | --- |
 | Set up the sales cycles that you usually follow, and the different stages within each opportunity sales cycle. |[Set Up Opportunity Sales Cycles and Cycle Stages](marketing-how-setup-opportunity-sales-cycles-stages.md) |
 | Create sales opportunities that you have from your contacts. |[Create Opportunities](marketing-how-create-opportunities.md) |
-| Move a sales opportunity through the sales cycle to completion. |[Processing Sales Opportunities](marketing-processing-sales-opportunities.md) |
+| Move a sales opportunity through the sales cycle to completion. |[Process Sales Opportunities](marketing-processing-sales-opportunities.md) |
 
 ## See Also
 [Sales](sales-manage-sales.md)  

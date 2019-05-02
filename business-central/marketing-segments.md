@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2019
+ms.date: 05/02/2019
 ms.author: jswymer
 
 ---
@@ -23,13 +23,13 @@ There are two main tasks in creating a segment:
 * Enter general information about the segment. Before you can select the contacts within the segment, you must first create the segment.
 * Select the contacts to be included within the segment.
 
-The following table describes a sequence of tasks, with links to the topics that describe them. 
+The following table describes a sequence of tasks, with links to the topics that describe them.
 
 | To | See |
 | --- | --- |
 | Create segments which allow you to select a group of contacts. For example, direct mail. |[Create Segments](marketing-how-create-segment.md) |
 | Manage the contacts that are assigned to segments. |[Add Contacts to Segments](marketing-add-contact-segment.md) |
-| Learn about using interactions and segments, including logging. |[Managing Interaction and Segments](marketing-interaction-segments.md) |
+| Learn about using interactions for segments, including logging. |[Managing Interactions for Segments](marketing-interaction-segments.md) |
 
 ## See Also
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  

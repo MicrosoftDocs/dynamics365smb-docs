@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 04/01/2019
+ms.date: 05/02/2019
 ms.author: soalex
 
 ---
@@ -17,7 +17,7 @@ The following topics describe local functionality that is unique to the Australi
 
 ## Feature Availability
 
-* VAT & Tax
+* Tax
     * [Tax](tax.md) **Available Now**
     * [Withholding Tax](withholding-tax.md) **Available Now**
     * [Set Up Withholding Tax](how-to-set-up-withholding-tax.md) **Available Now**

@@ -32,7 +32,6 @@ The following table describes a sequence of tasks, with links to the topics that
 |Analyze the costs of running your business by allocating actual and budgeted costs of operations, departments, products, and projects to cost centers.|[Accounting for Costs](finance-manage-cost-accounting.md)|
 |Manage inventory and manufacturing costs, report costs, and reconcile costs with the general ledger.|[Managing Inventory Costs](finance-manage-inventory-costs.md)|
 | Understand the general ledger and the chart of accounts. |[Understanding the General Ledger and the COA](finance-general-ledger.md) |
-
 |Combine general ledger entries from multiple companies in one virtual consolidated company for financial analysis.|[Consolidating Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)|
 | Add dimensions for richer business intelligence. |[Working with Dimensions](finance-dimensions.md) |
 | Create G/L budgets to forecast different financial activities and assign dimensions for business intelligence purposes. |[Create G/L Budgets](finance-how-create-budgets.md) |

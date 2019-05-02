@@ -237,6 +237,69 @@
 ## [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)
 ## [Letting Business Central Suggest Values](ui-let-system-suggest-values.md)
 
+## Incoming Documents
+### [Overview](across-income-documents.md)
+### [Set Up Incoming Documents](across-how-setup-income-documents.md)
+### Processing Incoming Documents
+#### [Overview](across-process-income-documents.md)
+#### [Create Incoming Document Records](across-how-create-income-document-records.md)
+#### [Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md)
+#### [Create Incoming Document Records Directly from Documents and Entries](across-how-connect-disconnect-income-document-records.md)
+#### [Find Posted Documents without Incoming Document Records](across-how-find-posted-documents-without-income-document-records.md)
+#### [Manage Many Incoming Document Records](across-how-manage-many-income-document-records.md)
+
+## Workflow
+### [Overview](across-workflow.md)
+### Setting Up Workflows
+#### [Overview](across-set-up-workflows.md)
+#### [Set Up Workflow Users](across-how-to-set-up-workflow-users.md)
+#### [Set Up Approval Users](across-how-to-set-up-approval-users.md)
+#### [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)
+#### [Specify When and How to Receive Notifications](across-how-to-specify-when-and-how-to-receive-notifications.md)
+#### [Create and Modify a Custom Report or Document Layout](ui-how-create-custom-report-layout.md)
+#### [Set up Email](admin-how-setup-email.md)
+#### [Create Workflows](across-how-to-create-workflows.md)
+#### [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)
+#### [Export and Import Workflows](across-how-to-export-and-import-workflows.md)
+#### [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
+#### [Walkthrough: Implementing New Workflow Events and Responses](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)
+### Using Workflows
+#### [Overview](across-use-workflows.md)
+#### [Enable Workflows](across-how-to-enable-workflows.md)
+#### [Use Approval Workflows](across-how-use-approval-workflows.md)
+#### [Restrict and Allow Usage of a Record](across-how-to-restrict-and-allow-usage-of-a-record.md)
+#### [View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md)
+#### [Delete Workflows](across-how-to-delete-workflows.md)
+
+## Exchanging Data Electronically
+### [Overview](across-data-exchange.md)
+### [About the Data Exchange Framework](across-about-the-data-exchange-framework.md)
+### Setting Up Data Exchange
+#### [Overview](across-set-up-data-exchange.md)
+#### [Set Up a Document Exchange Service](across-how-to-set-up-a-document-exchange-service.md)
+#### [Set Up Incoming Documents](across-how-setup-income-documents.md)
+#### [Update Currency Exchange Rates](finance-how-update-currencies.md)
+#### [Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md)
+#### [Set Up SEPA Credit Transfer](finance-how-to-set-up-sepa-credit-transfer.md)
+#### [Set Up SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)
+#### [Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md)
+#### [Set Up the Bank Statement Service](bank-how-setup-bank-statement-service.md)
+#### [Set Up Bank Accounts](bank-how-setup-bank-accounts.md)
+#### [Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
+#### [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md)
+### Exchanging Data
+#### [Overview](across-exchange-data.md)
+#### [Send Electronic Documents](sales-how-to-send-electronic-documents.md)
+#### [Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md)
+#### [Receive and Convert Electronic Documents](purchasing-how-to-receive-and-convert-electronic-documents.md)
+#### [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)
+#### [Export Payments to a Bank File](payables-how-export-payments-bank-file.md)
+#### [Making Payments with Bank Data Conversion Service or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+#### [Collecting Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)
+#### [Update Currency Exchange Rates](finance-how-update-currencies.md)
+#### [Field Mapping When Importing SEPA CAMT Files](across-field-mapping-when-importing-sepa-camt-files.md)
+#### [Field Mapping When Exporting Payment Files Using Bank Data Conversion Service](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
+
 # Administration
 ## [Overview](admin-setup-and-administration.md)
 ## [Understanding Profiles, and Role Centers](admin-users-profiles-roles.md)
@@ -264,7 +327,7 @@
 ## Customizing Business Central
 ### [Overview](ui-customizing-overview.md)
 ### Customizing Using Extensions
-### [Overview](ui-extensions.md)
+#### [Overview](ui-extensions.md)
 #### [Customizing Using Extensions](ui-extensions.md)
 #### [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
 #### [Data Replication](ui-extensions-data-replication.md)
@@ -376,7 +439,8 @@
 ### [Update Standard Costs](finance-how-to-update-standard-costs.md)
 ### [Remove and Reapply Item Ledger Entries](finance-how-to-remove-and-reapply-item-entries.md)
 ### [Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
-### [Reporting Costs and Reconciling with the General Ledger](finance-report-costs-and-reconcile-with-the-general-ledger.md)
+### Reporting Costs and Reconciling with the General Ledger
+#### [Overview](finance-report-costs-and-reconcile-with-the-general-ledger.md)
 #### [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
 #### [Monitor Job Progress and Performance](projects-how-monitor-progress-performance.md)
 
@@ -523,11 +587,10 @@
 ### [Create Opportunities](marketing-how-create-opportunities.md)
 ### [Process Sales Opportunities](marketing-processing-sales-opportunities.md)
 ## [Managing Marketing Campaigns](marketing-campaigns.md)
-## Using Dynamics 365 for Sales from Business Central](marketing-integrate-dynamicscrm.md)
-### [Overview](marketing-integrate-dynamicscrm.md)
+## Integrating with Dynamics 365 for Sales
+### [Using Dynamics 365 for Sales from Business Central](marketing-integrate-dynamicscrm.md)
 ### [Couple and Synchronize Records Manually](admin-how-to-couple-and-synchronize-records-manually.md)
 ### [View the Status of a Synchronization](admin-how-to-view-synchronization-status.md)
-## [Setting Up Relationship Management](marketing-setup-marketing.md)
 
 # Human Resources
 ## [Overview](hr-manage-human-resources.md)
@@ -611,7 +674,7 @@
 ## [Use Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)
 
 # Service Management
-##b [Overview](service-service.md)
+## [Overview](service-service.md)
 ## Planning Service
 ### [Overview](service-plan-service.md)
 ### [Service Price Management](service-service-price-management.md)
@@ -633,69 +696,6 @@
 ### [Service Posting](service-service-posting.md)
 ### [Post Service Orders and Credit Memos](service-how-to-post-service-orders.md)
 ### [Lend and Receive Loaners](service-how-to-lend-receive-loaners.md)
-
-## Incoming Documents
-### [Overview](across-income-documents.md)
-### [Set Up Incoming Documents](across-how-setup-income-documents.md)
-### Processing Incoming Documents
-#### [Overview](across-process-income-documents.md)
-#### [Create Incoming Document Records](across-how-create-income-document-records.md)
-#### [Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md)
-#### [Create Incoming Document Records Directly from Documents and Entries](across-how-connect-disconnect-income-document-records.md)
-#### [Find Posted Documents without Incoming Document Records](across-how-find-posted-documents-without-income-document-records.md)
-#### [Manage Many Incoming Document Records](across-how-manage-many-income-document-records.md)
-
-## Workflow
-### [Overview](across-workflow.md)
-### Setting Up Workflows
-#### [Overview](across-set-up-workflows.md)
-#### [Set Up Workflow Users](across-how-to-set-up-workflow-users.md)
-#### [Set Up Approval Users](across-how-to-set-up-approval-users.md)
-#### [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)
-#### [Specify When and How to Receive Notifications](across-how-to-specify-when-and-how-to-receive-notifications.md)
-#### [Create and Modify a Custom Report or Document Layout](ui-how-create-custom-report-layout.md)
-#### [Set up Email](admin-how-setup-email.md)
-#### [Create Workflows](across-how-to-create-workflows.md)
-#### [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)
-#### [Export and Import Workflows](across-how-to-export-and-import-workflows.md)
-#### [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
-#### [Walkthrough: Implementing New Workflow Events and Responses](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)
-### Using Workflows
-#### [Overview](across-use-workflows.md)
-#### [Enable Workflows](across-how-to-enable-workflows.md)
-#### [Use Approval Workflows](across-how-use-approval-workflows.md)
-#### [Restrict and Allow Usage of a Record](across-how-to-restrict-and-allow-usage-of-a-record.md)
-#### [View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md)
-#### [Delete Workflows](across-how-to-delete-workflows.md)
-
-## Exchanging Data Electronically
-### [Overview](across-data-exchange.md)
-### [About the Data Exchange Framework](across-about-the-data-exchange-framework.md)
-### Setting Up Data Exchange
-#### [Overview](across-set-up-data-exchange.md)
-#### [Set Up a Document Exchange Service](across-how-to-set-up-a-document-exchange-service.md)
-#### [Set Up Incoming Documents](across-how-setup-income-documents.md)
-#### [Update Currency Exchange Rates](finance-how-update-currencies.md)
-#### [Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md)
-#### [Set Up SEPA Credit Transfer](finance-how-to-set-up-sepa-credit-transfer.md)
-#### [Set Up SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)
-#### [Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md)
-#### [Set Up the Bank Statement Service](bank-how-setup-bank-statement-service.md)
-#### [Set Up Bank Accounts](bank-how-setup-bank-accounts.md)
-#### [Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
-#### [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md)
-### Exchanging Data
-#### [Overview](across-exchange-data.md)
-#### [Send Electronic Documents](sales-how-to-send-electronic-documents.md)
-#### [Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md)
-#### [Receive and Convert Electronic Documents](purchasing-how-to-receive-and-convert-electronic-documents.md)
-#### [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)
-#### [Export Payments to a Bank File](payables-how-export-payments-bank-file.md)
-#### [Making Payments with Bank Data Conversion Service or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
-#### [Collecting Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)
-#### [Update Currency Exchange Rates](finance-how-update-currencies.md)
-#### [Field Mapping When Importing SEPA CAMT Files](across-field-mapping-when-importing-sepa-camt-files.md)
-#### [Field Mapping When Exporting Payment Files Using Bank Data Conversion Service](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 
 # Business Process Walkthroughs
 ## [Overview](walkthrough-business-process-walkthroughs.md)
@@ -910,8 +910,10 @@
 #### [VAT Control Report](LocalFunctionality/Czech/vat-control-report.md)
 ### Banking & Payments
 #### [Registration of Sales (EET)](LocalFunctionality/Czech/eet.md)
-## [Denmark](LocalFunctionality/Denmark/denmark-local-functionality.md)
-### VAT & Tax
+
+## Denmark
+### [Overview](LocalFunctionality/Denmark/denmark-local-functionality.md)
+### VAT
 #### [Print VAT Reconciliation Reports](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 #### [VAT-VIES Reporting](LocalFunctionality/Denmark/vat-vies-reporting.md)
 ### Banking & Payments

@@ -11,11 +11,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2019
+ms.date: 05/02/2019
 ms.author: sgroespe
 
 ---
-# Creating and Managing Contacts
+# Managing Contacts
 Different groups at your company will have business relationships with various companies. For example, a salesperson might regularly meet prospective customers and at the end of the week record the results of these visits.
 
 All of the external entities that you have business relationships with (for example, customers, prospective customers, vendors, lawyers, and consultants) should be recorded as contacts. Having this data recorded in one central location ensures every group in your company can view and use the information efficiently. Communication with your contacts will be more successful if all details are readily available. For example, a marketing person might like to know what other products a specific customer has purchased before attempting to interest them in a new product.

@@ -73,7 +73,6 @@
 ### [Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md)
 ### [Set Up Cash Customers](finance-how-to-set-up-cash-customers.md)
 ### [Set Up and Report Intrastat](finance-how-setup-report-intrastat.md)
-### [Consolidating Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)
 ### [Use Allocation Keys in General Journals](ui-how-use-allocation-keys-general-journals.md)
 
 ## Setting Up Banking
@@ -221,7 +220,8 @@
 ## [Creating Number Series](ui-create-number-series.md)
 ## [Setting Up Base Calendars](across-how-to-assign-base-calendars.md)
 
-# [General Business Functionality](ui-across-business-areas.md)
+# General Business Functionality
+## [Overview](ui-across-business-areas.md)
 ## [Add Comments to Cards and Documents](across-how-use-comments.md)
 ## [Track Document Lines](across-how-to-track-document-lines.md)
 ## [Send Documents by Email](ui-how-send-documents-email.md)
@@ -237,7 +237,8 @@
 ## [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)
 ## [Letting Business Central Suggest Values](ui-let-system-suggest-values.md)
 
-# [Administration](admin-setup-and-administration.md)
+# Administration
+## [Overview](admin-setup-and-administration.md)
 ## [Understanding Profiles, and Role Centers](admin-users-profiles-roles.md)
 ## [Managing Users and Permissions](ui-how-users-permissions.md)
 ## [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)
@@ -252,15 +253,19 @@
 ## [Extending Your Trial Version](admin-extend-trial.md)
 ## [Inspecting Pages](across-inspect-page.md)
 ## [Creating a Sandbox Environment](across-how-create-sandbox-environment.md)
-## [Integrating with Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
+## Integrating with Dynamics 365 for Sales
+### [Overview](admin-prepare-dynamics-365-for-sales-for-integration.md)
 ### [Setting Up Integration with Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)
 ### [Set Up a Dynamics 365 for Sales Connection](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Synchronizing Business Central and Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)
 ### [Modify Table Mappings for Synchronization](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Manually Synchronize Table Mappings](admin-manual-synchronization-of-table-mappings.md)
 ### [Schedule a Synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
-## [Customizing Business Central](ui-customizing-overview.md)
-### [Customizing Using Extensions](ui-extensions.md)
+## Customizing Business Central
+### [Overview](ui-customizing-overview.md)
+### Customizing Using Extensions
+### [Overview](ui-extensions.md)
+#### [Customizing Using Extensions](ui-extensions.md)
 #### [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
 #### [Data Replication](ui-extensions-data-replication.md)
 #### [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)
@@ -284,9 +289,12 @@
 ### [Managing Personalization as an Administrator](ui-personalization-manage.md)
 ### [Setting Up a Colored Indicator on Cues](admin-how-set-up-colored-indicator-on-cues.md)
 
-# [Finance](finance.md)
-## [Managing Receivables](receivables-manage-receivables.md)
-### [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
+# Finance
+## [Overview](finance.md)
+## Managing Receivables
+### [Overview](receivables-manage-receivables.md)
+### Applying Payments Automatically and Reconciling Bank Accounts
+#### [Overview](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 #### [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md)
 #### [Review or Apply Payments Manually after Automatic Application](receivables-how-review-apply-payments-auto-application.md)
 #### [Reconcile Payments that Cannot be Applied Automatically](receivables-how-reconcile-payments-cannot-apply-auto.md)
@@ -300,8 +308,10 @@
 ### [Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 ### [The Late Payment Prediction Extension](ui-extensions-late-payment-prediction.md)
 
-## [Managing Payables](payables-manage-payables.md)
-### [Making Payments](payables-make-payments.md)
+## Managing Payables
+### [Overview](payables-manage-payables.md)
+### Making Payments
+#### [Overview](payables-make-payments.md)
 #### [Working with General Journals](ui-work-general-journals.md)
 #### [Record Payments and Refunds](payables-how-post-payments-refunds.md)
 #### [Suggest Vendor Payments](payables-how-suggest-vendor-payments.md)
@@ -309,7 +319,8 @@
 #### [Making Payments with Bank Data Conversion Service or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 #### [Settle Purchase Invoices Promptly](finance-how-to-settle-purchase-invoices-promptly.md)
 #### [Export a Positive Pay file](finance-how-positive-pay.md)
-### [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
+### Applying Payments Automatically and Reconciling Bank Accounts
+#### [Overview](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 #### [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md)
 #### [Review or Apply Payments Manually after Automatic Application](receivables-how-review-apply-payments-auto-application.md)
 #### [Reconcile Payments that Cannot be Applied Automatically](receivables-how-reconcile-payments-cannot-apply-auto.md)
@@ -324,22 +335,26 @@
 ### [Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 ### [The Late Payment Prediction Extension](ui-extensions-late-payment-prediction.md)
 
-## [Invoicing Prepayments](finance-invoice-prepayments.md)
+## Invoicing Prepayments
+### [Overview](finance-invoice-prepayments.md)
 ### [Set Up Prepayments](finance-set-up-prepayments.md)
 ### [Create Prepayment Invoices](finance-how-to-create-prepayment-invoices.md)
 ### [Correct Prepayments](finance-how-to-correct-prepayments.md)
 
-## [Managing Bank Accounts](bank-manage-bank-accounts.md)
+## Managing Bank Accounts
+### [Overview](bank-manage-bank-accounts.md)
 ### [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ### [Reconcile Bank Accounts Separately](bank-how-reconcile-bank-accounts-separately.md)  
 ### [Transfer Bank Funds](bank-how-transfer-bank-funds.md)
 
-## [Managing Intercompany Transactions](intercompany-manage.md)
+## Managing Intercompany Transactions
+### [Overview](intercompany-manage.md)
 ### [Set Up Intercompany](intercompany-how-setup.md)
 ### [Work with Intercompany Documents and Journals](intercompany-how-work-documents-journals.md)
 ### [Manage the Intercompany Inbox and Outbox](intercompany-how-manage-intercompany-inbox.md)
 
-## [Accounting for Costs](finance-manage-cost-accounting.md)
+## Accounting for Costs
+### [Overview](finance-manage-cost-accounting.md)
 ### [Terminology in Cost Accounting](finance-terminology-in-cost-accounting.md)
 ### [About Cost Accounting](finance-about-cost-accounting.md)
 ### [Setting Up Cost Accounting](finance-set-up-cost-accounting.md)
@@ -348,7 +363,8 @@
 ### [Creating Cost Budgets](finance-create-cost-budgets.md)
 ### [Deleting Cost Budget Entries](finance-how-to-delete-cost-budget-entries.md)
 
-## [Managing Inventory Costs](finance-manage-inventory-costs.md)
+## Managing Inventory Costs
+### [Overview](finance-manage-inventory-costs.md)
 ### [About Inventory Costing](finance-learn-about-costing.md)
 ### [About Calculating Standard Cost](finance-about-calculating-standard-cost.md)
 ### [Design Details: Inventory Costing](design-details-inventory-costing.md)
@@ -364,7 +380,9 @@
 #### [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
 #### [Monitor Job Progress and Performance](projects-how-monitor-progress-performance.md)
 
-## [Closing Years and Periods](year-close-years-periods.md)
+## Closing Years and Periods
+### [Overview](year-close-years-periods.md)
+### [Working with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)
 ### [Specify Posting Periods](finance-how-specify-posting-periods.md)
 ### [Closing Periods](year-how-complete-period-end-processes.md)
 ### [Update Currency Exchange Rates](finance-how-update-currencies.md)
@@ -377,10 +395,7 @@
 ### [Close Income Statement Accounts](year-close-income-statement.md)
 ### [Post the Year-End Closing Entry](year-how-post-year-end-close-entry.md)
 
-## [Accountant Experiences in Business Central](finance-accounting.md)
-### [Inviting Your External Accountant to Your Business Central](finance-invite-external-accountant.md)  
 ## [Understanding the General Ledger and the COA](finance-general-ledger.md)
-## [Working with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)
 ## [Consolidating Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)
 ## [Working with Dimensions](finance-dimensions.md)
 ## [Create G/L Budgets](finance-how-create-budgets.md)
@@ -390,15 +405,18 @@
 ## [Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)
 ## [Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)
 ## [Defer Revenues and Expenses](finance-how-defer-revenue-expenses.md)
+## [Update Currency Exchange Rates](finance-how-update-currencies.md)
 ## [Import Payroll Transactions](finance-how-import-payroll-transactions.md)
-## [Report VAT to Tax Authorities](finance-how-report-vat.md)
 ## [Work with VAT on Sales and Purchases](finance-work-with-vat.md)
+## [Report VAT to Tax Authorities](finance-how-report-vat.md)
 ## [Convert Service Contracts that Include VAT Amounts](service-how-to-convert-service-contracts.md)
-## [Analyzing Financial Statements in Excel](finance-analyze-excel.md)
 ## [Analyzing Cash Flows in Your Company](finance-analyze-cash-flow.md)
 ## [Walkthrough: Making Cash Flow Forecasts by Using Account Schedules](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+## [Analyzing Financial Statements in Excel](finance-analyze-excel.md)
+## [Accountant Experiences in Business Central](finance-accounting.md)
 
-# [Business Intelligence](bi.md)
+# Business Intelligence
+## [Overview](bi.md)
 ## [Analyze Actual Amounts Versus Budgeted Amounts](bi-how-analyze-actual-versus-budget.md)
 ## [Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md)
 ## [Set Up and Publish KPI Web Services Based on Account Schedules](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
@@ -406,7 +424,8 @@
 ## [Create Analysis Reports](bi-how-create-analysis-views-reports.md)
 ## [Create Reports with XBRL](bi-create-reports-with-xbrl.md)
 
-# [Sales](sales-manage-sales.md)
+# Sales
+## [Overview](sales-manage-sales.md)
 ## [Register New Customers](sales-how-register-new-customers.md)
 ## [Make Sales Quotes](sales-how-make-offers.md)
 ## [Invoice Sales](sales-how-invoice-sales.md)
@@ -425,7 +444,8 @@
 ## [Create a Forecast](production-how-to-create-a-forecast.md)
 ## [Merge Duplicate Records](sales-how-merge-duplicate-records.md)
 
-# [Purchasing](purchasing-manage-purchasing.md)
+# Purchasing
+## [Overview](purchasing-manage-purchasing.md)
 ## [Record Purchases](purchasing-how-record-purchases.md)
 ## [Request Quotes](purchasing-how-request-quotes.md)
 ## [Purchase Items for a Sale](purchasing-how-purchase-products-sale.md)
@@ -437,7 +457,8 @@
 ## [Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)
 ## [Merge Duplicate Records](sales-how-merge-duplicate-records.md)
 
-# [Inventory](inventory-manage-inventory.md)
+# Inventory
+## [Overview](inventory-manage-inventory.md)
 ## [Register New Items](inventory-how-register-new-items.md)
 ## [Work with Bills of Material](inventory-how-work-BOMs.md)
 ## [Categorize Items](inventory-how-categorize-items.md)
@@ -454,7 +475,8 @@
 ## [Block Items](inventory-how-block-items.md)
 ## [Work with Responsibility Centers](inventory-responsibility-centers.md)
 
-# [Project Management](projects-manage-projects.md)
+# Project Management
+## [Overview](projects-manage-projects.md)
 ## [Create Jobs](projects-how-create-jobs.md)
 ## [Use Resources for Jobs](projects-how-use-resources.md)
 ## [Use Time Sheets for Jobs](projects-how-use-time-sheets.md)
@@ -465,7 +487,8 @@
 ## [Monitor Job Progress and Performance](projects-how-monitor-progress-performance.md)
 ## [Invoice Jobs](projects-how-invoice-jobs.md)
 
-# [Fixed Assets](fa-manage.md)
+# Fixed Assets
+## [Overview](fa-manage.md)
 ## [Acquire Fixed Assets](fa-how-acquire.md)
 ## [Maintain Fixed Assets](fa-how-maintain.md)
 ## [Insure Fixed Assets](fa-how-insure.md)
@@ -475,27 +498,33 @@
 ## [Dispose of or Retire Fixed Assets](fa-how-dispose-retire.md)
 ## [Manage Budgets for Fixed Assets](fa-how-manage-budgets.md)
 
-# [Relationship Management](marketing-relationship-management.md)
+# Relationship Management
+## [Overview](marketing-setup-marketing.md)
 ## [Setting Up Relationship Management](marketing-setup-marketing.md)
-## [Managing Contacts](marketing-contacts.md)
+## Managing Contacts
+### [Overview](marketing-contacts.md)
 ### [Set Up Contacts](marketing-setup-contacts.md)
 ### [Create Contacts](marketing-create-contact-companies.md)
 ### [Merge Duplicate Records](sales-how-merge-duplicate-records.md)
-### [Creating Contact Persons](marketing-create-contact-persons.md)
-## [Managing Segments](marketing-segments.md)
+## Managing Segments(marketing-segments.md)
+### [Overview](marketing-segments.md)
 ### [Create Segments](marketing-how-create-segment.md)
 ### [Add Contacts to Segments](marketing-add-contact-segment.md)
-### [Managing Interaction and Segments](marketing-interaction-segments.md)
-## [Managing Interactions](marketing-interactions.md)
-## [Managing Marketing Campaigns](marketing-campaigns.md)
+### [Manage Interactions for Segments](marketing-interaction-segments.md)
+## Managing Interactions
+### [Overview](marketing-interactions-overview.md)
+### [Record Interactions With Contacts](marketing-interactions.md)
 ### [Create Interactions on Contacts and Segments](marketing-how-create-interactions.md)
 ### [Automatically Record Interactions with Contacts](marketing-auto-record-interactions.md)
-## [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)
+## Managing Sales Opportunities
+### [Overview](marketing-manage-sales-opportunities.md)
 ### [Set Up Opportunity Sales Cycles and Cycle Stages](marketing-how-setup-opportunity-sales-cycles-stages.md)
 ### [Create Opportunities](marketing-how-create-opportunities.md)
-### [Processing Sales Opportunities](marketing-processing-sales-opportunities.md)
+### [Process Sales Opportunities](marketing-processing-sales-opportunities.md)
+## [Managing Marketing Campaigns](marketing-campaigns.md)
 ## [Use Profile Questionnaires to Classify Business Contacts](marketing-create-contact-profile-questionnaire.md)
-## [Using Dynamics 365 for Sales from Business Central](marketing-integrate-dynamicscrm.md)
+## Using Dynamics 365 for Sales from Business Central](marketing-integrate-dynamicscrm.md)
+### [Overview](marketing-integrate-dynamicscrm.md)
 ### [Couple and Synchronize Records Manually](admin-how-to-couple-and-synchronize-records-manually.md)
 ### [View the Status of a Synchronization](admin-how-to-view-synchronization-status.md)
 # [Human Resources](hr-manage-human-resources.md)

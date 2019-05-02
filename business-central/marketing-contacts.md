@@ -26,6 +26,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | --- | --- |
 | Set up contact management prior to creating contacts. |[Set Up Contacts](marketing-setup-contacts.md) |
 | Create a contact card for each new person or company that you interact with, such as a customer or vendor. |[Create Contacts](marketing-create-contact-companies.md) |
+|Set up profile questionnaires that you want to use when entering information about your contacts' profiles.|[Use Profile Questionnaires to Classify Business Contacts](marketing-create-contact-profile-questionnaire.md)|
 |Resolve confusion when two or more records exist for the same contact.|[Merge Duplicate Records](sales-how-merge-duplicate-records.md)|
 
 ## See Also

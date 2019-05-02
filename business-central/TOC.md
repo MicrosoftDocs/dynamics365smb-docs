@@ -836,7 +836,7 @@
 
 ## Belgium
 ### [Overview](LocalFunctionality/Belgium/belgium-local-functionality.md)
-### VAT & Tax
+### VAT
 #### [Belgian VAT](LocalFunctionality/Belgium/belgian-vat.md)
 #### [Set Up Non-Deductible VAT](LocalFunctionality/Belgium/how-to-set-up-non-deductible-vat.md)
 #### [Make Manual Corrections to VAT](LocalFunctionality/Belgium/how-to-make-manual-corrections-to-vat.md)
@@ -1136,7 +1136,7 @@
 
 ## New Zealand
 ### [Overview](LocalFunctionality/NewZealand/new-zealand-local-functionality.md)
-### [Tax](LocalFunctionality/NewZealand/tax.md)
+### Tax
 #### [Withholding Tax](LocalFunctionality/NewZealand/withholding-tax.md)
 #### [Set Up Withholding Tax](LocalFunctionality/NewZealand/how-to-set-up-withholding-tax.md)
 #### [Set Up Revenue Types for Withholding Tax](LocalFunctionality\NewZealand\how-to-set-up-revenue-types-for-withholding-tax.md)
@@ -1351,7 +1351,8 @@
 #### [How to Manage Customer Credit Information](LocalFunctionality/UnitedStates/how-to-manage-customer-credit-information.md)  
 #### [Print Troubleshooting Reports](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ## [Submit Regulatory Alerts](submit-regulatory-alerts.md)
-# [Compliance](compliance/compliance-overview.md)
+# Compliance
+## [Overview](compliance/compliance-overview.md)
 ## [Application Compliance](compliance/compliance-application-compliance.md)
 ## [Service Compliance](compliance/compliance-service-compliance.md)
 ## [Certifications](compliance/compliance-certifications.md)

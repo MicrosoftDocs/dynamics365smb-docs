@@ -1,7 +1,7 @@
 ---
 title: Russia Local Functionality
 description: The following topics describe the local functionality in the Russian version of Business Central.
-author: AliiaSalikhova
+author: AliiaSalikhova, DianaMaLina
 
 ms.service: dynamics365-business-central
 ms.topic: article

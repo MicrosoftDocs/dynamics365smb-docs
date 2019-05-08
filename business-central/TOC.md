@@ -992,11 +992,7 @@
 #### [Create VAT Reports](LocalFunctionality/Germany/how-to-create-vat-reports.md)
 #### [Correct VAT Reports](LocalFunctionality/Germany/how-to-correct-vat-reports.md)  
 #### [Sales VAT Advance Notifications](LocalFunctionality\Germany\how-to-set-up-and-export-sales-vat-advance-notifications.md)
-#### [Create and Submit Sales VAT Advance Notifications](LocalFunctionality/Germany/how-to-create-and-submit-sales-vat-advance-notifications.md)
-#### [Electronic Submission of Sales VAT Advance Notifications to ELSTER](LocalFunctionality/Germany/electronic-submission-of-sales-vat-advance-notifications-to-elster.md)
 #### [Declare VAT-VIES Tax](LocalFunctionality/Germany/how-to-declare-vat-vies-tax.md)
-#### [ELSTER Transmission Overview](LocalFunctionality/Germany/elster-transmission-overview.md)
-#### [Error Messages of the Elster Transfer Handler](LocalFunctionality/Germany/error-messages-of-the-elstertransferhandler.md)    
 ### Banking & Payments
 #### [Print Vendor Payments List Reports](LocalFunctionality/Germany/how-to-print-vendor-payments-list-reports.md)
 ### Core Finance

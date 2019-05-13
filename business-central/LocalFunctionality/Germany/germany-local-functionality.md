@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2019
+    ms.date: 05/07/2019
     ms.author: sgroespe
 
 ---
@@ -28,11 +28,7 @@ The following topics describe local functionality that is unique to the German v
     * [Create VAT Reports](how-to-create-vat-reports.md) **Available Now**
     * [Correct VAT Reports](how-to-correct-vat-reports.md) **Available Now**
     * [Sales VAT Advance Notifications](how-to-set-up-and-export-sales-vat-advance-notifications.md) **Available Now**
-    * [Create and Submit Sales VAT Advance Notifications](how-to-create-and-submit-sales-vat-advance-notifications.md) **Available Now**
-    * [Electronic Submission of Sales VAT Advance Notifications to ELSTER](electronic-submission-of-sales-vat-advance-notifications-to-elster.md) **Available Now**
     * [Declare VAT-VIES Tax](how-to-declare-vat-vies-tax.md) **Available Now**
-    * [ELSTER Transmission Overview](elster-transmission-overview.md) **Available Now**
-    * [Error Messages of the Elster Transfer Handler](error-messages-of-the-elstertransferhandler.md) **Available Now**
 
 * Banking & Payments
     * [Print Vendor Payments List Reports](how-to-print-vendor-payments-list-reports.md) **Available Now**

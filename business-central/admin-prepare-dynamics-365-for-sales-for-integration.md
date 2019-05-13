@@ -28,7 +28,7 @@ You must have an Office 365 subscription, and both [!INCLUDE[crm_md](includes/cr
 The following steps provide an overview of the steps to integrate [!INCLUDE[crm_md](includes/crm_md.md)] with [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 > [!Note]  
-> These tasks require the **System Administrator** security role in [!INCLUDE[crm_md](includes/crm_md.md) and [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+> These tasks require the **System Administrator** security role in [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 1. In the Office 365 admin center, set up a user account for connecting to and synchronizing data with [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [Setting Up Integration with Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md).
 

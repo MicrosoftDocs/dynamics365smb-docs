@@ -30,6 +30,8 @@ You can make your [!INCLUDE[d365fin](includes/d365fin_md.md)] data available as 
 
 4. If you have more than one company in your [!INCLUDE [prodshort](includes/prodshort.md)], you must choose the company to connect to. Then, PowerApps displays a list of *tables* that are available from [!INCLUDE [prodshort](includes/prodshort.md)]. These so-called tables are part of the [!INCLUDE [prodshort](includes/prodshort.md)] API. You do not have to configure the end points yourself - the [!INCLUDE [prodshort](includes/prodshort.md)] connector for PowerApps does it for you.  
 
+    If you want to include data from other tables in [!INCLUDE [prodshort](includes/prodshort.md)] in your app, then you must work with a developer to define a custom API in [!INCLUDE [prodshort](includes/prodshort.md)] and then consume that custom API through a custom connector in PowerApps. For more information, see [Create a custom connector from scratch](/connectors/custom-connectors/define-blank).  
+
 At this point, you have successfully connected to your [!INCLUDE [prodshort](includes/prodshort.md)] data and are ready to begin building your PowerApp. You can add additional screens and connect to additional data from your [!INCLUDE [prodshort](includes/prodshort.md)]. For more information, see [Create a canvas app from a template in PowerApps](/powerapps/maker/canvas-apps/get-started-test-drive).  
 
 When you have designed and built your app, you can share it with your colleagues. For more information, see [Save and publish a canvas app in PowerApps](/powerapps/maker/canvas-apps/save-publish-app).  
@@ -44,3 +46,4 @@ When you have designed and built your app, you can share it with your colleagues
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finance](finance.md)  
+[Getting Started Developing Connect Apps for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  

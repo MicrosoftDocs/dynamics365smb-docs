@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 11/27/2018
+ms.date: 04/01/2019
 ms.author: edupont
 
 ---
@@ -67,6 +67,7 @@ Microsoft provides the following extensions:
 
 ## See Also
 [Extending Dynamics 365 Business Central](about-develop-extensions.md)  
+[Business Central Extensions by Other Providers](ui-extensions-other.md)  
 [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)  
 [Enable Customer Payment Through PayPal](sales-how-enable-payment-service-extensions.md)  
 [Migrating Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  

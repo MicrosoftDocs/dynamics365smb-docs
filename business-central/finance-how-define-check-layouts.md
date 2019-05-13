@@ -1,8 +1,6 @@
 ---
 title: Specify the Layout of a Check| Microsoft Docs
 description: You can design and print your checks in different formats to conform with standards.
-services: project-madeira
-documentationcenter: ''
 author: edupont04
 
 ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 10/01/2018
+ms.date: 04/24/2019
 ms.author: edupont
 
 ---
@@ -25,11 +23,12 @@ Checks are designed to print in both the United States and Canadian check image 
 2. On the **Report Selection - Bank Acc.** page, in the **Usage** field, select **Check**.
 3. Select one of the following report IDs.
 
-| Report ID | Report Name | Description |
-| --- | --- | --- |
-| 1401 |Check |This is the default report. |
-| 10401 |Check (Stub/Stub/Check) |This report is designed to print checks in a stub/stub/check format. |
-| 10411 |Check (Stub/Check/Stub) |This report is designed to print checks in a check/stub/check format. |
+  | Report ID | Report Name | Description |
+  | --- | --- | --- |
+  | 1401 |Check |This is the default report. |
+  | 10411 |Check (Stub/Stub/Check) |This report is designed to print checks in a stub/stub/check format. |
+  | 10412 |Check (Stub/Check/Stub) |This report is designed to print checks in a stub/check/stub format. |
+  | 10413 |Three Checks per Page |This report is designed to print three checks on each page. |
 
 When you have set up check layouts, you can print checks from the **Payment Journal** page. For more information, see [Work with Checks](payables-how-work-checks.md).
 
@@ -37,5 +36,5 @@ When you have set up check layouts, you can print checks from the **Payment Jour
 [Managing Payables](payables-manage-payables.md)  
 [Managing Bank Accounts](bank-manage-bank-accounts.md)   
 [Completing Period-End Processes](year-how-complete-period-end-processes.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prodshort](includes/prodshort.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)

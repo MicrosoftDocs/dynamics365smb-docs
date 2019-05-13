@@ -6,7 +6,7 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 02/21/2019
+ms.date: 04/01/2019
 ms.author: edupont
 
 ---
@@ -45,12 +45,15 @@ If you have access to Microsoft CustomerSource, you can get access to the Imagin
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is sold through partners, and you should contact your reselling partner to get help with technical problems. If your [!INCLUDE[d365fin](includes/d365fin_md.md)] partner then cannot resolve the problem, they will raise a support ticket with Microsoft.  
 
-If you have signed up for a trial and have not yet purchased [!INCLUDE[d365fin](includes/d365fin_md.md)], you do not have a reselling partner, and you cannot contact the Microsoft support team.  
-
-You can find a Business Central partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page.  
+For more information, see [Help and Support](product-help-and-support.md).  
 
 ## Why does Help describe functionality that I cannot access?
-If your Experience setting on the **Company Information** page is set to **Essential**, then UI elements for the Manufacturing and Service Management features are not visible to you because they require the **Premium** experience. A text note is inserted in high-level help topics for these feature areas. For more information, see [Changing Which Features are Displayed](ui-experiences.md).  
+If your Experience setting on the **Company Information** page is set to **Essential**, then UI elements for the Manufacturing and Service Management features are not visible to you because they require the **Premium** experience. A text note is inserted in high-level help topics for these feature areas. For more information, see [Changing Which Features are Displayed](ui-experiences.md).
+
+## Where is the save button?
+
+There is no *save* button on pages like in other programs that you might be familiar with. In [!INCLUDE[d365fin](includes/d365fin_md.md)], changes that you make to a field are automatically saved as soon as you move to the next field or close the page, as long as there are no errors. When you make changes to a field and move to another field, you will see the text **Saving** in the top-right corner of the page, which will quickly change to **Saved** if no errors occur. If an error occurs, the text will change to **Not Saved**.
+
 
 ## What email address can I use with [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] requires that you use a work, or school, email address to sign up. [!INCLUDE[d365fin](includes/d365fin_md.md)] does not support email addresses provided by consumer email services or telecommunication providers. This includes outlook.com, hotmail.com, gmail.com, and others.  
@@ -80,6 +83,9 @@ This is a bit complicated, but it looks like your administrator didn't change yo
 
 ## Can I cancel my subscription?
 Yes, but depending on how you signed up to [!INCLUDE[d365fin](includes/d365fin_md.md)], your data can be deleted or preserved. For more information, see [Canceling [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md).  
+
+## Can I use multi-factor authentication?
+Sure. If you do, you might need an app password in order to send email messages. App passwords give an app or a device access to your email account. The steps for getting an app password vary, depending on your email provider. For more information, see the help from your provider. For example, if you're using Outlook, see [Create an app password for Office 365](https://go.microsoft.com/fwlink/?linkid=2082543).
 
 ## See Also
 

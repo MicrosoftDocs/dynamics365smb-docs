@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 04/01/2019
     ms.author: sgroespe
 
 ---
@@ -34,7 +34,7 @@ Proposals can be generated manually or automatically based on either vendor or c
 
 ## To create proposals automatically from sales  
 
-1. Set up a card for the customer who sent the invoice with appropriate values for the **Currency Code**, **Transaction Mode**, and **Bank Account** fields.  
+1. Set up a card for the customer who sent the invoice with appropriate values for the **Currency Code**, **Transaction Mode**, and **Bank Account** fields.
 2. Create a sales invoice or credit memo, enter the customer and relevant items and post the invoice.
 3. Check whether the **Currency Code**, **Transaction Mode**, and **Bank Account** fields of the invoice/credit memo contain appropriate values. By default, they will be copied from the customer card.  
 

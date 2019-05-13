@@ -10,12 +10,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms. search.keywords: cloud, edge
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bmeier
 
 ---
 
-# Your Access to the Intelligent Cloud with [!INCLUDE[prodlong](includes/prodlong.md)]
+# Your Access to the Intelligent Cloud with [!INCLUDE[prodshort](includes/prodshort.md)]
 
 As a user of [!INCLUDE[prodshort](includes/prodshort.md)] online, you have full access to scenarios that are based on the intelligent cloud, such as editing data in Excel and pushing changes back to [!INCLUDE[prodshort](includes/prodshort.md)], or when you view your data in Power BI. However, while [!INCLUDE[prodshort](includes/prodshort.md)] is a cloud-first service, also those customers who need to run their workloads fully on-premises or on the intelligent edge connected to the cloud can do so.  
 
@@ -35,7 +35,7 @@ In your [!INCLUDE[prodshort](includes/prodshort.md)] online company, the **Intel
 Next to the KPI charts, you get insights into potential areas of concern, including overdue payments. Choose each insight to drill into the data.  
 
 > [!div class="mx-imgBorder"]
-> ![Intelligent cloud insights](media/across-intelligent-cloud/intelligentcloudinsights.png "Shows the intelligent Cloud Insights page in Business Central")
+> ![Intelligent cloud insights](media/across-intelligent-cloud/intelligentcloudApril19.png "Shows the intelligent Cloud Insights page in Business Central")
 
 The page also connects to Power BI for even more insights.
 

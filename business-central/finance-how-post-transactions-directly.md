@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct posting, general ledger
-ms.date: 11/27/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
 
 ---

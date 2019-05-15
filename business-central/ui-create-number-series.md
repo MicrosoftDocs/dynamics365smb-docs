@@ -27,7 +27,7 @@ You typically set up your number series to automatically insert the next consecu
 If you want to use more than one number series code for one type of master data - for example, if you want to use different number series for different categories of items - you can use number series relationships.
 
 ## Gaps in Number Series
-By default, gaps are not allowed in number series because the exact history of financial transactions must be available for auditing, by law, and therefore must follow an unbroken sequence with no deleted numbers. However, not all records that you create in [!INCLUDE[d365fin](includes/d365fin_md.md)] are transactional. Customer cards, sales quotes, and warehouse activities are examples of records that are assigned a number from a number series, but are not subject to financial auditing and can/or be deleted. For such number series, you can select the **Allow Gaps in Nos.** on the **No. Series Lines** page. For more information, see [To create a new number series](business-central/ui-create-number-series.md#to-create-a-new-number-series)
+By default, gaps are not allowed in number series because the exact history of financial transactions must be available for auditing, by law, and therefore must follow an unbroken sequence with no deleted numbers. However, not all records that you create in [!INCLUDE[d365fin](includes/d365fin_md.md)] are transactional. Customer cards, sales quotes, and warehouse activities are examples of records that are assigned a number from a number series, but are not subject to financial auditing and/or can be deleted. For such number series, you can select the **Allow Gaps in Nos.** on the **No. Series Lines** page. For more information, see [To create a new number series](ui-create-number-series.md#to-create-a-new-number-series)
 
 ## Behavior of the No. field on Documents and Cards
 On sales, purchase, and transfer documents and on all cards, the **No.** can be filled in automatically from a number series or manually, and it can be set up to be invisible.
@@ -53,7 +53,7 @@ When you open a new document or card that a number series exists for, then the r
 2. Choose the **New** action.
 3. On the new line, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Choose the **Lines** action.
-5. On the **No. Series Lines** page, fill in the fields to define the actual use and content of the number series that you created in step 3.
+5. On the **No. Series Lines** page, fill in the fields to define the actual use and content of the number series that you created in step 2.
 6. Repeat step 5 for as many different uses of the number series that you need. The **Starting Date** field defines which number series line is active.
 
 ## To set up where a number series is used

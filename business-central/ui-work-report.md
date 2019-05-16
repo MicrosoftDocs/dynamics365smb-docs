@@ -1,8 +1,6 @@
 ---
 title: Scheduling a Report to Run at a Specific Date and Time | Microsoft Docs
 description: Learn about entering a report into a job queue and scheduling it to be processed at a specific date and time.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 
 ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report
-ms.date: 04/01/2019
+ms.date: 05/16/2019
 ms.author: jswymer
 
 ---
@@ -84,7 +82,12 @@ You can schedule a report to run at a specific date and time. Scheduled reports 
 You can schedule a report when you open a report. You choose the **Schedule** action and then you enter information such as printer, and time and date. The report is then added to the job queue and will be run at the specified time. When the report is processed, the item will be removed from the job queue. If you saved the processed report to a file, it will be available in the **Report Inbox** area.
 
 ## <a name="PrintReport"></a>Printing a Report
-You can print a report from the **Print** button on the options page that appears when you open the report or from the menu bar in Preview.
+You can print a report from the **Print** button on the options page that appears when you open the report or from the menu bar in Preview.  
+
+### Printing reports in Thai
+Specifically for the Thai version of [!INCLUDE[prodshort](includes/prodshort.md)], the **Print** button cannot print reports correctly due to limitations in the service that generates the printable PDF file. Instead, you can open the report in Word and then save the report as a printable PDF.  
+
+Alternatively, you can ask your administrator to create a Word report layout for your most used reports. For more information, see [Managing Report and Document Layouts](ui-manage-report-layouts.md).  
 
 ## Changing the layout and look of a report
 A report layout controls what is shown on a report, how it is arranged, and how it is styled. If you want to switch to a different layout, see [Change Which Layout is Currently Used on a Report](ui-how-change-layout-currently-used-report.md). Or, if you want to customize your own report layout, see [Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md).

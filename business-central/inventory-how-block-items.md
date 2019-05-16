@@ -25,7 +25,10 @@ The following table illustrates what occurs when items are blocked.
 |--------------------|------------|  
 |**Sales Blocked**|You cannot enter the item in a sales document or in a sales item journal.|  
 |**Purchasing Blocked**|You cannot enter the item in a purchase document, in a purchase item journal, or in purchase planning processes.|  
-|**Blocked**|You cannot use the item for any item transaction. For more information about blocking an item for all purposes, see Item Card.|  
+|**Blocked**|You cannot use the item for any item transaction.|  
+
+> [!NOTE]
+> Blocked items can be returned. This means that none of the above settings apply when the item is used on return orders and credit memos.
 
 ## To block an item from being entered on sales lines  
 

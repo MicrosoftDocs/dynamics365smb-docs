@@ -8,7 +8,7 @@ Business Central позволяет определить расширение д
 
  
 
-1. Перейдите в **Финансовые отчеты**.
+1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Финансовые отчеты**, а затем выберите связанную ссылку.
 2. Выберите финансовый отчет, для которого необходимо определить расширение.
 3. Выберите **Обработать** и **Изменение финансового отчета**.
 4. В открывшемся окне  выберите строку финансового отчета, для которой необходимо определить расширение.
@@ -22,8 +22,5 @@ Business Central позволяет определить расширение д
 
 ## См. также
 
-[Подготовка финансовой отчетности с помощью финансовых отчетов и категорий счетов](https://docs.microsoft.com/ru-ru/dynamics365/business-central/bi-how-work-account-schedule)
-
-[Обзор финансовых отчетов](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/account-schedules-overview.md)
-
-[Практическое руководство. Определение константы финансового отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-define-an-account-schedule-constant.md)
+[Подготовка финансовой отчетности с помощью финансовых отчетов и категорий счетов](/dynamics365/business-central/bi-how-work-account-schedule)
+[Практическое руководство. Определение константы финансового отчета](how-to-define-an-account-schedule-constant.md)

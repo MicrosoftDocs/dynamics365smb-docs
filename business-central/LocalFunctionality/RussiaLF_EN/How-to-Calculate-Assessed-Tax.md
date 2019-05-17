@@ -2,7 +2,18 @@
 
 The assessed tax feature enables you to calculate the assessed tax for fixed assets. The assessed tax is based on the information provided in the **Fixed Asset Setup** window. You can also export the results of the calculated tax as a Microsoft Office Excel template.
 
- 
+To work with the functionality of calculating assessed tax, you must specify a  settings:
+
+\- parameters in the "Fixed Asset Setup»;
+
+\- create and fill the card of "Tax authorities»;
+
+\- fill in information about the organization;
+
+\- create current directories;
+
+\- fill in the parameters in the fixed asset cards.
+
 
 ## To calculate assessed tax 
 

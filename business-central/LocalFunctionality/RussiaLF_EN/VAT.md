@@ -32,9 +32,9 @@ For most organizations, VAT payments are required to be submitted no later than 
 
 [How to: Prepare VAT Entries for Posting](How-to-Prepare-VAT-Entries-for-Posting.md)  
 
-[Settlement VAT]()
+[Settlement VAT](Settlement-VAT.md)
 
-[Unload books of purchased and sales in XML. VAT Declaration]()
+[Unload books of purchased and sales in XML. VAT Declaration](Unload-books-of-purchases-and-sales-in-XML-VAT-Declaration.md)
 
 [VAT by customer prepayments](VAT-by-Customer-prepayments.md)
 

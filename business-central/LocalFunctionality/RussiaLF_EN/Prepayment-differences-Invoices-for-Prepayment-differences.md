@@ -30,3 +30,6 @@ In the **Sales & Receivables setup** page fill the fields:
 | PD Doc. Nos. Type         | Specifies if you want to use a number series or symbol to identify prepayment transaction entries. |
 | Symbol for PD Doc.        | Specifies a symbol that identifies prepayment related entries. |
 
+## See Also
+
+[Russia Local Functionality](russia-local-functionality.md)  

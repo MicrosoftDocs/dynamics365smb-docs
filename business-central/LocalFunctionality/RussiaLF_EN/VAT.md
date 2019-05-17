@@ -27,5 +27,17 @@ For most organizations, VAT payments are required to be submitted no later than 
 ## See Also
 
 [How to: Report VAT to Tax Authorities](../../finance-how-report-vat)  
+
 [How to: Set Up VAT Ledgers](How-to-Set-Up-VAT-Ledgers.md)  
+
 [How to: Prepare VAT Entries for Posting](How-to-Prepare-VAT-Entries-for-Posting.md)  
+
+[Settlement VAT]()
+
+[Unload books of purchased and sales in XML. VAT Declaration]()
+
+[VAT by customer prepayments](VAT-by-Customer-prepayments.md)
+
+[VAT reinstatement](VAT-reinstatement.md)
+
+[Vendor Tax Agent scheme](Vendor-Tax-Agent-scheme.md)

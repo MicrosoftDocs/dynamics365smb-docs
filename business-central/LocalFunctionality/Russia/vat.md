@@ -28,6 +28,16 @@
 
 [Практическое руководство. Подача отчета об НДС в налоговые органы](https://docs.microsoft.com/ru-ru/dynamics365/business-central/finance-how-report-vat)
 
-[Практическое руководство. Настройка книг НДС](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-set-up-vat-ledgers.md)
+[Практическое руководство. Настройка книг НДС](how-to-set-up-vat-ledgers.md)
 
-[Практическое руководство. Подготовка операций НДС к учету](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-prepare-vat-entries-for-posting.md)
+[Практическое руководство. Подготовка операций НДС к учету](how-to-prepare-vat-entries-for-posting.md)
+
+[Зачет НДС](Settlement-VAT.md) 
+
+[Выгрузка книг покупок и продаж в XML , формирование декларации по НДС](Unload-books-of-purchases-and-sales-in-XML-VAT-Declaration.md)
+
+[НДС по предоплате клиентов](VAT-by-Customer-prepayments.md)
+
+[Восстановление НДС](VAT-reinstatement.md)
+
+[Схема налогового агента поставщика](Vendor-Tax-Agent-scheme.md)

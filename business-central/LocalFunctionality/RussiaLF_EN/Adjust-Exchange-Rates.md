@@ -19,3 +19,7 @@ The difference for Russian task and worldwide task - Russian report create adjus
    | Adjust Vendor                                   | Specifies if you want to adjust vendor entries               |
 
    3. Click "Ok".
+   
+   ## See Also 
+
+[Russia Local Functionality](russia-local-functionality.md)

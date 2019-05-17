@@ -45,7 +45,7 @@ Operations with VAT are automatically generated in rubles.
 - Applies-to Doc. No. - No. of posted invoice
 
 7. Create and post payment to the Tax Authority.
-8. Go to VAT Settlement Worksheet. Post VAT (see [Settlement VAT]()).
+8. Go to VAT Settlement Worksheet. Post VAT (see [Settlement VAT](Settlement-VAT.md)).
 
 ### **VAT from Vendor Funds**
 
@@ -105,7 +105,7 @@ You can change the Currency Code and Amount in the Invoice.
 
 6. Apply Entry.
 
-7. Go to VAT Settlement Worksheet. Post VAT (see [Settlement VAT]()).
+7. Go to VAT Settlement Worksheet. Post VAT (see [Settlement VAT](Settlement-VAT.md)).
 
 At the end of the period will be formed entries as a result of revaluation of debt.
 
@@ -139,3 +139,7 @@ For the payment in the currency for the bank and in rubles for the vendor it is 
 - Bal. Account - “ ”
 - Currency Code 
 - Amount - in USD/EUR
+
+## See Also
+
+[Russia Local Functionality](russia-local-functionality.md)  

@@ -48,3 +48,7 @@ It is possible to consider only part of the amount of the VAT and write off the 
 - Specify the percentage or amount of the allocation.
 
 3. Click OK. Post the journal.
+
+## See Also
+
+[Russia Local Functionality](russia-local-functionality.md)  

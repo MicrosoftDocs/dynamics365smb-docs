@@ -37,3 +37,7 @@ The field **Realized VAT Amount** reflects the amount of VAT on the document, wh
 3. In this worksheet, select the lines that you want to reinstate and click the "Copy lines to Jornal" button. Before that, you need to set a filter by date by right-clicking on the name of any column. Add filter "Filter totals by". 
 4. You can reistate the entire transaction (for the entire amount of VAT sold), you can set a factor (for example, 0.5) to reistate part of the amount.
 5. The selected line will be transferred to the VAT Reinstatement journal for posting.
+
+## See Also
+
+[Russia Local Functionality](russia-local-functionality.md)  

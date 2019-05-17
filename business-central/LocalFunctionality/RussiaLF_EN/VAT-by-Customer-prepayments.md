@@ -39,3 +39,7 @@ Fill in the fields:
 | Correction          | Specifies the operation is corrective.                       |
 
 Click "OK". The system will automatically create corrective entries.
+
+## See Also
+
+[Russia Local Functionality](russia-local-functionality.md)  

@@ -35,4 +35,5 @@ Go to **Currency**. Оn the **General tab** fill fields for each currency:
 ## See Also 
 
 [Adjust Exchange Rates](Adjust-Exchange-Rates.md)
+
 [Russia Local Functionality](russia-local-functionality.md)

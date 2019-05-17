@@ -31,3 +31,8 @@ Go to **Currency**. Оn the **General tab** fill fields for each currency:
 1. Go to Departments -> Financial management -> Periodic activities -> Currency -> Import currency rates.
 
 2. Enter the start and end dates of the period for which you want to adjust the exchange rates.
+
+## See Also 
+
+[Adjust Exchange Rates](Adjust-Exchange-Rates.md)
+[Russia Local Functionality](russia-local-functionality.md)

@@ -68,3 +68,7 @@ The system automatically completes the data on the names of XML files for VAT Pu
 To upload the Declaration, click OK in the lower right corner of the form.
 
 The generated file will be located in the folder specified in the configuration **Statutory Report Setup, Electronic Files Folder Name**.
+
+## See Also
+
+[Russia Local Functionality](russia-local-functionality.md)  

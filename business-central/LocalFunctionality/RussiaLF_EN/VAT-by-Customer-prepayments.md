@@ -19,7 +19,7 @@ When a company receives a prepayment from a Customer, you must create a VAT invo
 
 After you receive prepayment from a customer, the system creates unrealized VAT records and VAT invoices. 
 
-Post prepayment in the General journal (see [Prepayment to the vendor and customers]()).
+Post prepayment in the General journal (see [Prepayment to the vendor and customers](Prepayments-Vendor-and-Customers.md)).
 
 ### **Return prepayment.** 
 

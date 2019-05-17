@@ -27,3 +27,7 @@ Post General Journal.
 4. Select the line with the invoice to which you want to apply the prepayment.
 5. Press **Set applies-to ID**.
 6. Press **Post Application**.
+
+## See Also
+
+[Russia Local Functionality](russia-local-functionality.md)  

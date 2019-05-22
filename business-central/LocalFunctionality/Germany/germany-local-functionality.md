@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 05/07/2019
+    ms.date: 05/22/2019
     ms.author: sgroespe
 
 ---
@@ -21,7 +21,7 @@ The following topics describe local functionality that is unique to the German v
 
 ## Feature Availability
 
-* VAT & Tax
+* VAT
     * [Set Up Reports for VAT and Intrastat](how-to-set-up-reports-for-vat-and-intrastat.md) **Available Now**
     * [Set Up VAT Reports](how-to-set-up-vat-reports.md) **Available Now**
     * [VAT Reporting](vat-reporting.md) **Available Now**

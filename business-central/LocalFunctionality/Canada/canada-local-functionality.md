@@ -18,7 +18,7 @@ The following topics describe local functionality that is unique to the Canadian
 
 ## Feature Availability
 
-* VAT & Tax
+* Tax
     * [Reporting Sales Tax and Goods/Services Tax in Canada](sales-tax-goods-services.md) **Available Now**
     * [Reporting Sales Tax in Canada](ca-sales-tax.md) **Available Now**
     * [Set Up Unrealized Sales Tax and Sales Payment Discounts](how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md) **Available Now**

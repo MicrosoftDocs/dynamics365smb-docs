@@ -18,7 +18,7 @@ The following topics describe the local functionality in the Danish version of [
 
 ## Feature Availability
 
-* VAT & Tax
+* VAT
     * [Print VAT Reconciliation Reports](how-to-print-vat-reconciliation-reports.md) **Available Now**
     * [VAT-VIES Reporting](vat-vies-reporting.md) **Available Now**
 

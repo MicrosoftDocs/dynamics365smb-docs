@@ -21,7 +21,7 @@ The following topics describe local functionality that is unique to the Swedish 
 
 ## Feature Availability  
 
-* VAT & Tax
+* VAT
     * [Set Up EU Third-Party Purchase Transactions](how-to-set-up-eu-third-party-purchase-transactions.md) **Available Now**
 
 * Core Finance

@@ -21,7 +21,7 @@ The following topics describe local functionality that is unique to the Swiss ve
 
 ## Feature Availability
 
-* VAT & Tax
+* VAT
     * [Create and print a Swiss VAT Statement](how-to-create-and-print-a-swiss-vat-statement.md) **Available Now**
     * [Print Swiss VAT Statements (Older Versions)](how-to-print-swiss-vat-statements-older-version-.md) **Available Now**
     * [Swiss Value Added Tax](swiss-value-added-tax.md) **Available Now**

@@ -15,7 +15,7 @@ The following topics describe local functionality that is unique to the Belgian 
 
 ## Feature Availability
 
-* VAT & Tax
+* VAT
     * [Belgian VAT](belgian-vat.md) **Available Now**
     * [Set Up Non-Deductible VAT](how-to-set-up-non-deductible-vat.md) **Available Now**
     * [Make Manual Corrections to VAT](how-to-make-manual-corrections-to-vat.md) **Available Now**

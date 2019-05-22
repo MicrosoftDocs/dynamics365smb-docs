@@ -21,7 +21,7 @@ The following topics describe local functionality that is unique to the Icelandi
 
 ## Feature Availability
 
-* VAT & Tax
+* VAT
     * [Icelandic Tax Regulations for Conditional Discounts](icelandic-tax-regulations-of-conditional-discounts.md) **Available Now**
     * [Print VAT Summary Information on Documents](how-to-print-vat-summary-information-on-documents.md) **Available Now**
     * [Special Data Output and Reports for the Tax Authority](special-data-output-and-reports-for-the-tax-authority.md) **Available Now**

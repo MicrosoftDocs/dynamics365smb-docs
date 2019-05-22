@@ -18,7 +18,7 @@ The following topics describe the local functionality in the Czech version of [!
 
 ## Feature Availability
 
-* VAT & Tax
+* VAT
     * [VAT Control Report](vat-control-report.md) **Available Now**
 
 * Banking & Payments

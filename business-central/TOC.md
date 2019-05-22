@@ -51,7 +51,7 @@
 ## Using Keyboard Shortcuts
 ### [Accessibility and Keyboard Shortcuts](ui-accessibility.md)
 ### [Keyboard Shortcuts](keyboard-shortcuts.md)
-### [Keyboard Shortcuts Quick Reference](keyboard-shortcuts-cheatsheet.md)
+### [Keyboard Quick Reference - PC Only](keyboard-shortcuts-cheatsheet.md)
 
 # Setting Up Business Central
 ## [Overview](setup.md)

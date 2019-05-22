@@ -1,7 +1,7 @@
 ---
 title: PC Keyboard Shortcuts Quick Reference
 description: "A print-friendly reference sheet containing the most popular keyboard shortcuts for PC users."
-author: sgroespe
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -9,7 +9,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 05/22/2019
-ms.author: SorenGP
+ms.author: sgroespe 
 ---
 
 # Keyboard Quick Reference - PC Only

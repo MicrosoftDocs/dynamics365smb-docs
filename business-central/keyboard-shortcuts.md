@@ -1,7 +1,7 @@
 ---
 title: "Keyboard Shortcuts"
 description: "The complete list of keyboard shortcut combinations to work efficiently with your data."
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -9,7 +9,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2019
-ms.author: jswymer
+ms.author: sgroespe
 ---
 
 # Keyboard Shortcuts
@@ -181,7 +181,7 @@ When setting a date field, you can either enter the date manually or open a cale
 |Page Up<br />(Fn+Up Arrow)|Go to the previous page of the report.|
 
 ## See also
-
+[Keyboard Quick Reference - PC Only](keyboard-shortcuts-cheatsheet.md)  
 [Assistive Features](ui-accessibility.md)  
 [Getting Started](product-get-started.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

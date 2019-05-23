@@ -16,7 +16,7 @@ ms.author: sgroespe
 This article provides an overview of some of the shortcut key combinations that you can use when you are working with [!INCLUDE[prodshort](includes/prodshort.md)].
 
 > [!TIP]
-> For a quick, print-friendly overview of the most popular shortcuts for PC use, [see Keyboard Quick Reference - PC Only](keyboard-shortcuts-cheatsheet.md) or click the following image:
+> For a quick, print-friendly overview of the most popular shortcuts for PC use, see [Keyboard Quick Reference - PC Only](keyboard-shortcuts-cheatsheet.md) or click the following image:
 >
 >[ ![To download for printing, right-click and select Save Picture As](media/bckeyboardmap-inline.png) ](media/bckeyboardmap.png#lightbox)
 

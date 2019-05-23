@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/01/2019
+ms.date: 05/23/2019
 ms.author: sgroespe
 ---
 
@@ -16,7 +16,7 @@ ms.author: sgroespe
 This article provides an overview of some of the shortcut key combinations that you can use when you are working with [!INCLUDE[prodshort](includes/prodshort.md)].
 
 > [!TIP]
-> For a quick, print-friendly overview of the most popular shortcuts, [see the reference article here](keyboard-shortcuts-cheatsheet.md) or click the following image:
+> For a quick, print-friendly overview of the most popular shortcuts for PC use, [see Keyboard Quick Reference - PC Only](keyboard-shortcuts-cheatsheet.md) or click the following image:
 >
 >[ ![To download for printing, right-click and select Save Picture As](media/bckeyboardmap-inline.png) ](media/bckeyboardmap.png#lightbox)
 
@@ -97,9 +97,9 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Ctrl+A|Select all rows.|Not applicable.|
 |Shift+Up Arrow|Extend the selection of rows to include the row above.|Not applicable.|
 |Shift+Down Arrow|Extend the selection of rows to include the row below.|Not applicable.|
-|Shift+Page Up<br />(Shift+Fn+Up Arrow)|Extend the selection of rows to include all visible rows above the current selection of rows.|Not applicable.|
+<!--|Shift+Page Up<br />(Shift+Fn+Up Arrow)|Extend the selection of rows to include all visible rows above the current selection of rows.|Not applicable.|
 |Shift+Page Down<br />(Shift+Fn+Down Arrow)|Extend the selection of rows to include all visible rows below the current selection of rows.|Not applicable.|
-|Ctrl+C<br />(Cmd+C)|Copy the selected rows to the Clipboard.|Not applicable.|
+|Ctrl+C<br />(Cmd+C)|Copy the selected rows to the Clipboard.|Not applicable.|-->
 |Ctrl+V<br />(Cmd+V)|Paste the selected rows from the Clipboard into the current page or external document, like Microsoft Excel or Outlook email.<br /><br />You can only do this in editable lists.|Not applicable.|
 |F8|Copy the field in the same column of the row above, and paste it into the current row.<br /><br />You can only do this in editable lists. Using this shortcut followed by a Tab lets you quickly fill out fields in line items that you want to have the same value as the row above.|Not applicable.||
 

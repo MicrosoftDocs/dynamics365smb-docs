@@ -22,7 +22,7 @@ The production operations required to transform inputs into finished goods must 
 > This topic mainly describes planning for companies involved in manufacturing or assembly management where the resulting supply orders can be either production, assembly, transfer, or purchase orders. The main interface for this planning work is the **Planning Worksheet** page.<br /><br />
 > [!INCLUDE[d365fin](includes/d365fin_md.md)] also supports supply planning for wholesale companies where the resulting supply orders can only be transfer and purchase orders. The main interface for this planning work is the **Requisition Worksheet** page, which is described indirectly in this topic as most planning functionality applies to both worksheets.
 
-Planning can be seen as the preparation of required supply orders in the purchasing, assembly, or manufacturing departments to fulfill sales or end-item demand. For more information, see [Purchasing](purchasing-manage-purchasing), [Assembly Management](assembly-assemble-items.md), and [Manufacturing](production-manage-manufacturing.md).
+Planning can be seen as the preparation of required supply orders in the purchasing, assembly, or manufacturing departments to fulfill sales or end-item demand. For more information, see [Purchasing](purchasing-manage-purchasing.md), [Assembly Management](assembly-assemble-items.md), and [Manufacturing](production-manage-manufacturing.md).
 
 The following table describes a sequence of tasks, with links to the topics that describe them.   
 

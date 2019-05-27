@@ -25,3 +25,7 @@ The code of obligatory compensation payment is also linked to the reason of term
 - Creates a new record of dismissal in the history of the employee at the enterprise. 
 
 6. The employee card contains information about the dismissal (in the field **Status** set the value *Dismissed*, filled in the fields **date of dismissal** and **Code of the reason for dismissal**.
+
+## See Also
+
+[Human Resources](Human-Resources.md)

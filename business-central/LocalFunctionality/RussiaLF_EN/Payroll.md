@@ -65,3 +65,7 @@ The organization and principle of calculation of both types of documents is the 
 > If you have generated documents but have not found any new documents in the list, try to update the page (Actions – Update). 
 
 5. For the formation of transactions in the Ledger and the possibility of payment of wages in the interperiod salary documents must be post.
+
+## See Also
+
+[Human Resources](Human-Resources.md)

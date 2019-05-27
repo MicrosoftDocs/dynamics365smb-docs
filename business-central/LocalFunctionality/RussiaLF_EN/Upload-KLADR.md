@@ -13,3 +13,7 @@ Upload of KLADR can be carried out on separate regions as required.
 3. Specify the region code.
 
 4. Click "OK".
+
+## See Also 
+
+[Tax Accounting](Tax-Accounting.md)

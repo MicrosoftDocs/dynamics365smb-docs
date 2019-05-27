@@ -58,3 +58,7 @@ In order to cancel or change a previously made employee accrual, you must genera
 | Applies-to entry | The entry number from the Employee Ledger Entries that you want to close or update. |
 
 In the process of posting a journal line of this type, the specified entry is modified in the Employee Ledger Entries. The modification changes the Amount or end date of the operation.
+
+## See Also
+
+[Human Resources](Human-Resources.md)

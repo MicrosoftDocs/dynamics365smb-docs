@@ -100,8 +100,8 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Shift+Page Up<br />(Shift+Fn+Up Arrow)|Extend the selection of rows to include all visible rows above the current selection of rows.|Not applicable.|
 |Shift+Page Down<br />(Shift+Fn+Down Arrow)|Extend the selection of rows to include all visible rows below the current selection of rows.|Not applicable.|
 |Ctrl+C<br />(Cmd+C)|Copy the selected rows to the Clipboard.|Not applicable.|
-|Ctrl+V<br />(Cmd+V)|Paste the selected rows from the Clipboard into the current page or external document, like Microsoft Excel or Outlook email.<br /><br />You can only do this in editable lists.|Not applicable.|
-|F8|Copy the field in the same column of the row above, and paste it into the current row.<br /><br />You can only do this in editable lists. Using this shortcut followed by a Tab lets you quickly fill out fields in line items that you want to have the same value as the row above.|Not applicable.||
+|Ctrl+V<br />(Cmd+V)|Paste the selected rows from the Clipboard into the current page or external document, like Microsoft Excel or Outlook email. You can only do this in editable lists.|Not applicable.|
+|F8|Copy the field in the same column of the row above, and paste it into the current row. You can only do this in editable lists. Using this shortcut followed by a Tab lets you quickly fill out fields in line items that you want to have the same value as the row above.|Not applicable.|
 
 ### <a name="KeyboardFilter"></a>Searching and Filtering Lists
 

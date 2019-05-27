@@ -57,3 +57,7 @@ To create a printed form of Staff Arrangement, find (or form) an archive form of
 When you run the report, check the box **Staff Arrangement** and select the desired mode of report generation in the field **Show Staff**.
 
 Click OK to generate the report.
+
+## See Also
+
+[Human Resources](Human-Resources.md)

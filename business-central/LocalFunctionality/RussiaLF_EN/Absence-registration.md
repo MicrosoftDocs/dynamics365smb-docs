@@ -39,3 +39,7 @@ All types of orders are issued in a similar way.
 Absence types defined by a considered order, recorded in the Employee Ledger Entries. 
 
 The considered order can be cancelled. The function is available in the form of a card of the considered order. Only orders for which wages are not calculated may be cancelled.
+
+## See Also
+
+[Human Resources](Human-Resources.md)

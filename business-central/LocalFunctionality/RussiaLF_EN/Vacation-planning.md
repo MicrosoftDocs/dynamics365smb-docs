@@ -14,3 +14,7 @@ Business Central provides a schedule of vacations for a calendar year:
 Field **Fctual Start Date** is filled automatically when the orders to vacation is posted. If necessary, the field can be filled in manually.
 
 The remaining fields of the form are filled in as needed in case of transfer of leave.
+
+## See Also
+
+[Human Resources](Human-Resources.md)

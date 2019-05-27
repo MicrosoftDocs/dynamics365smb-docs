@@ -46,3 +46,7 @@ Transactions are processed using specific tax accounting principles that are app
 
 [Tax Differences](Tax-Differences.md)
 
+[Accounting for personal income tax payments](Accounting-for-personal-income-tax-payments.md)
+
+[Upload KLADR](Upload-KLADR.md)
+

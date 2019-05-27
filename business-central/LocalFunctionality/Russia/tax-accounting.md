@@ -36,12 +36,17 @@
 
 ## См. также
 
-[Практическое руководство. Настройка налогового учета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-set-up-tax-accounting.md)
+[Практическое руководство. Настройка налогового учета](how-to-set-up-tax-accounting.md)
 
-[Налоговые регистры](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-registers.md)
+[Налоговые регистры](tax-registers.md)
 
-[Практическое руководство. Создание налоговых регистров](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-create-tax-registers.md)
+[Практическое руководство. Создание налоговых регистров](how-to-create-tax-registers.md)
 
-[Практическое руководство. Настройка секций налогового регистра](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-set-up-tax-register-sections.md)
+[Практическое руководство. Настройка секций налогового регистра](how-to-set-up-tax-register-sections.md)
 
-[Налоговые разницы](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-differences.md)
+[Налоговые разницы](tax-differences.md)
+
+[Учет расчетов по НДФЛ](Accounting-for-personal-income-tax-payments.md)
+
+[Загрузка КЛАДР](Upload-KLADR.md)
+

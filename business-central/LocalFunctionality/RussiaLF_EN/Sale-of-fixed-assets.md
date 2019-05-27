@@ -33,3 +33,7 @@ Stage 2. Sale of fixed assets by the sales account
 | Unit Price | Price of Fixed Asset |
 
 4. Post invoice.
+
+## See Also
+
+[Fixed Assets](fixed-assets.md)

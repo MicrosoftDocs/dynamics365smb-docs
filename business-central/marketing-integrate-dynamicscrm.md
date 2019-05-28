@@ -73,7 +73,11 @@ Sales quotes that are activated in [!INCLUDE[crm_md](includes/crm_md.md)] will b
 Alternatively, you can manually convert activated sales quotes from [!INCLUDE[crm_md](includes/crm_md.md)] by using the **Process in [!INCLUDE[d365fin](includes/d365fin_md.md)]** action on the **Sales Quotes - Dynamics 365 for Sales** page.
 On such sales quotes, the **Name** field on the original quote is transferred and mapped to the **External Document Number** field on the sales order in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Also **Effective To** field on quote is transferred and mapped to the  **Quote Valid Until** field on sales quote in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-Sales quotes go through many revisions while they are being finalized. Both manual and automatic processing of sales quotes in [!INCLUDE[d365fin](includes/d365fin_md.md)] ensures that previous versions of sales quotes are archived before processing new revisions of sales quotes from [!INCLUDE[crm_md](includes/crm_md.md)].  
+Sales quotes go through many revisions while they are being finalized. Both manual and automatic processing of sales quotes in [!INCLUDE[d365fin](includes/d365fin_md.md)] ensures that previous versions of sales quotes are archived before processing new revisions of sales quotes from [!INCLUDE[crm_md](includes/crm_md.md)]. 
+
+## Handling Posted Sales Invoices, Customer payments and statistics
+After fulfilling sales order, invoices will be created for it. When you invoice sales order you can transfer posted sales invoice to [!INCLUDE[crm_md](includes/crm_md.md)] if you select **Create Invoice in [!INCLUDE[crm_md](includes/crm_md.md)]** on posted sales invoice page. Posted invoices are transfered to [!INCLUDE[crm_md](includes/crm_md.md)] with Status **Billed**. Once customer payment is received for sales invoice in [!INCLUDE[d365fin](includes/d365fin_md.md)], sales invoice status will be changed to **Paid** with Status Reason set to **Partial**, if partially paid, or **Complete** if completely paid, when you run **Update Account Statistics** on customer page in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Alternatively, you can have scheduled jobs (Customer Statistics and POSTEDSALESINV-INV) automaticaly run both of these processes in the background. 
 
 ## See Also
 [Preparing to Integrate to Dynamics 365 for Sales On-Premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)  

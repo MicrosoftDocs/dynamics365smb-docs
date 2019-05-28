@@ -75,7 +75,7 @@ On such sales quotes, the **Name** field on the original quote is transferred an
 
 Sales quotes go through many revisions while they are being finalized. Both manual and automatic processing of sales quotes in [!INCLUDE[d365fin](includes/d365fin_md.md)] ensures that previous versions of sales quotes are archived before processing new revisions of sales quotes from [!INCLUDE[crm_md](includes/crm_md.md)]. 
 
-## Handling Posted Sales Invoices, Customer payments and statistics
+## Handling Posted Sales Invoices, Customer Payments and Statistics
 After fulfilling sales order, invoices will be created for it. When you invoice sales order you can transfer posted sales invoice to [!INCLUDE[crm_md](includes/crm_md.md)] if you select **Create Invoice in [!INCLUDE[crm_md](includes/crm_md.md)]** on posted sales invoice page. Posted invoices are transfered to [!INCLUDE[crm_md](includes/crm_md.md)] with Status **Billed**. 
 Once customer payment is received for sales invoice in [!INCLUDE[d365fin](includes/d365fin_md.md)], sales invoice status will be changed to **Paid** with Status Reason set to **Partial**, if partially paid, or **Complete** if completely paid, when you run **Update Account Statistics** on customer page in [!INCLUDE[d365fin](includes/d365fin_md.md)]. **Update Account Statistics** will also refresh values such as Balance and Total Sales in [!INCLUDE[d365fin](includes/d365fin_md.md)] Account Statistics FactBox in [!INCLUDE[crm_md](includes/crm_md.md)].
 Alternatively, you can have scheduled jobs (Customer Statistics and POSTEDSALESINV-INV) automaticaly run both of these processes in the background. 

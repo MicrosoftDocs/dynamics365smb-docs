@@ -21,7 +21,7 @@ The following topics describe local functionality that is unique to the Dutch ve
 
 ## Feature Availability  
 
-* VAT & Tax
+* VAT
     * [Create a Audit File for the Tax Authority](how-to-create-an-audit-file-for-the-tax-authority.md) **Available Now**
     * [Set Up VAT Categories](how-to-set-up-vat-categories.md) **Available Now**
     * [Electronic VAT and ICP Declarations](electronic-vat-and-icp-declarations.md) **Available Now**

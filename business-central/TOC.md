@@ -51,7 +51,7 @@
 ## Using Keyboard Shortcuts
 ### [Accessibility and Keyboard Shortcuts](ui-accessibility.md)
 ### [Keyboard Shortcuts](keyboard-shortcuts.md)
-### [Keyboard Shortcuts Quick Reference](keyboard-shortcuts-cheatsheet.md)
+### [Keyboard Quick Reference - PC Only](keyboard-shortcuts-cheatsheet.md)
 
 # Setting Up Business Central
 ## [Overview](setup.md)
@@ -330,11 +330,11 @@
 #### [Overview](ui-extensions.md)
 #### [Customizing Using Extensions](ui-extensions.md)
 #### [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
-#### [Data Replication](ui-extensions-data-replication.md)
 #### [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)
 #### [Essential Business Insights](ui-extensions-essential-business-insights.md)
 #### [Image Analyzer](ui-extensions-image-analyzer.md)
-#### [Intelligent Cloud](ui-extensions-intelligent-cloud.md)
+#### [Intelligent Cloud](ui-extensions-data-replication.md)
+#### [Intelligent Cloud Base](ui-extensions-intelligent-cloud.md)
 #### [Microsoft Pay Payments](ui-extensions-microsoft-pay-payments.md)
 #### [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
 #### [QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)

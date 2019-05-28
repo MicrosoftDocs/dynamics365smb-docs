@@ -18,7 +18,7 @@ The following topics describe local functionality that is unique to the Norwegia
 
 ## Feature Availability
 
-* VAT & Tax
+* VAT
     * [Norwegian VAT Reporting](norwegian-vat-reporting.md) **Available Now**
     * [Norwegian VAT Codes](norwegian-vat-codes.md) **Available Now**  
     * [How to Use One VAT Code in Journals](how-to-use-one-vat-code-in-journals.md) **Available Now**

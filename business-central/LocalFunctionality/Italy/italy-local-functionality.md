@@ -21,7 +21,7 @@ The following topics describe local functionality that is unique to the Italian 
 
 ## Feature Availability
 
-* VAT & Tax
+* VAT
     * [Italian VAT](italian-vat.md)
     * [Submit VAT Statements](how-to-submit-vat-statements.md) **Available Now**
     * [Correct VAT Transactions Reports](how-to-correct-vat-transactions-reports.md) **Available Now**

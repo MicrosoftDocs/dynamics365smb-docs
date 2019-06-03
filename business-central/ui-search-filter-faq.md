@@ -16,7 +16,7 @@ This article answers common questions you might have about searching and filteri
 ## Is there a difference between searching and filtering?
 Yes.
 - Search is simple and broad: it matches records that contain the search text across any visible fields on the page, and is case insensitive.
-- Filtering is highly flexible and can be applied to specific fields, including those not visible on the page: it displays records with exact, case-sensitive matches, but can be adjusted with powerful search symbols, tokens, and formulas. For more information on how to use these features, see [Sorting, Searching and Filtering in Lists](ui-enter-criteria-filters.md).
+- Filtering is highly flexible and can be applied to specific fields, including those not visible on the page: it displays records with exact, case-sensitive matches, but can be adjusted with powerful search symbols, tokens, and formulas. For more information on how to use these features, see [Sorting, Searching, and Filtering in Lists](ui-enter-criteria-filters.md).
 
 ## Is there a keyboard experience for search and filter?
 Search and filter have been highly optimized for users who prefer mouse-free interaction to work efficiently with their data. There are a variety of shortcut keys that can be used in sequence to work at high speed. For more information see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
@@ -52,4 +52,4 @@ As an on-premises administrator, you increase the time-limit on searches by chan
 ## See also
 
 [Getting Started](product-get-started.md)  
-[Sorting, Searching and Filtering in Lists](ui-enter-criteria-filters.md)  
+[Sorting, Searching, and Filtering in Lists](ui-enter-criteria-filters.md)  

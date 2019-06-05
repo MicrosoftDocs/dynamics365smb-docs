@@ -53,6 +53,9 @@ The **Set Up Dynamics 365 for Sales Connection** assisted setup guide can help y
 |**Enable Dynamics 365 for Sales Connection**|Enable the connection to [!INCLUDE[crm_md](includes/crm_md.md)].|
 |**Dynamics 365 SDK Version**|This is relevant only if you are integrating with an on-premises version of [!INCLUDE[crm_md](includes/crm_md.md)]. This is the Dynamics 365 software development kit (also referred to as Xrm) you use to connect [!INCLUDE[d365fin](includes/d365fin_md.md)] to [!INCLUDE[crm_md](includes/crm_md.md)]. The version must be compatible with the SDK version that is used by [!INCLUDE[crm_md](includes/crm_md.md)], and equal to or newer than the version used by [!INCLUDE[crm_md](includes/crm_md.md)].|
 
+> [!Note]
+> **Set Up Dynamics 365 for Sales Connection** assisted setup guide automatically assigns **Integration Administrator** and **Integration User** security roles to user account used for integration. 
+
 ### To create or maintain the connection manually
 The following procedure describes how to fill in the fields on the **Microsoft Dynamics 365 for Sales Connection Setup** page manually. This is also the page where you manage settings for the integration.
 
@@ -100,6 +103,10 @@ The following procedure describes how to fill in the fields on the **Microsoft D
     >  If data encryption is not enabled in [!INCLUDE[d365fin](includes/d365fin_md.md)], you will be asked whether you want to enable it. To enable data encryption, choose **Yes** and provide the required information. Otherwise, choose **No**. You can enable data encryption later. For more information, see [Encrypting Data in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data) in Developer and IT-Pro help.  
 
 7. If [!INCLUDE[crm_md](includes/crm_md.md)] synchronization is not already set up, you will be asked whether you want to use the default synchronization setup. Depending on whether you want to keep records aligned in [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[d365fin](includes/d365fin_md.md)], choose **Yes** or **No**. 
+
+> [!Note]
+> Connecting to Dynamics 365 for Sales using **Microsoft Dynamics 365 for Sales Connection Setup** page may require you to [assign  **Integration Administrator** and **Integration User** security roles](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user) to user account used for integration. 
+
 
 ### To disconnect from [!INCLUDE[crm_md](includes/crm_md.md)]  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Microsoft Dynamics 365 for Sales Connection Setup**, and then choose the related link.

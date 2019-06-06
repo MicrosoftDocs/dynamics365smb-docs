@@ -105,7 +105,7 @@ The following procedure describes how to fill in the fields on the **Microsoft D
 7. If [!INCLUDE[crm_md](includes/crm_md.md)] synchronization is not already set up, you will be asked whether you want to use the default synchronization setup. Depending on whether you want to keep records aligned in [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[d365fin](includes/d365fin_md.md)], choose **Yes** or **No**.
 
 > [!Note]
-> Connecting to Dynamics 365 for Sales using the **Microsoft Dynamics 365 for Sales Connection Setup** page may require that you assign the **Integration Administrator** and **Integration User** security roles. For more information, see [Assign a security role to a user](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
+> Connecting to Dynamics 365 for Sales using the **Microsoft Dynamics 365 for Sales Connection Setup** page may require that you assign the Integration Administrator and Integration User security roles to the account used for integration. For more information, see [Assign a security role to a user](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
 
 
 ### To disconnect from [!INCLUDE[crm_md](includes/crm_md.md)]  

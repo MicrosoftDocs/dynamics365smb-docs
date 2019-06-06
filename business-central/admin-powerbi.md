@@ -16,7 +16,7 @@ ms.author: edupont
 # Enabling Your Business Data for Power BI
 Getting insights into your [!INCLUDE[d365fin](includes/d365fin_md.md)] data is easy with Power BI and the [!INCLUDE[d365fin](includes/d365fin_md.md)] content packs. Power BI retrieves your data and then builds an out-of-the-box dashboard and reports based on that data.  
 
-You must have a valid account with Microsoft Dynamics 365 Business Central and with Power BI. Also, you must download [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) if you wish to create your own Power BI reports. Power BI content packs require permissions to the tables where data is retrieved from. More details on the requirements are described below.  
+You must have a valid account with [!INCLUDE[prodshort](includes/prodshort.md)] and with Power BI. Also, you must download [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) if you wish to create your own Power BI reports. Power BI content packs require permissions to the tables where data is retrieved from. More details on the requirements are described below.  
 
 > [!IMPORTANT]
 > The content packs that are described in this article are designed to use Azure Active Directory as the authentication mechanism. If you use [!INCLUDE [prodshort](includes/prodshort.md)] on-premises and use a different authentication mechanism, then Power BI cannot connect to your data.  

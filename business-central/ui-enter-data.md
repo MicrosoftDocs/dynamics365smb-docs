@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 04/01/2019
+ms.date: 06/03/2019
 ms.author: jswymer
 ---
 
@@ -35,7 +35,7 @@ You might already be familiar with using the Tab key to navigate from one field 
 
 Every field can be marked as either being *included in Quick Entry* or *excluded from Quick Entry*. Fields that are included in Quick Entry, will be included in the path when you press Enter; fields that are excluded from Quick Entry, will not.
 
-When you are finished entering data in a field, you simply press Enter to confirm the changes and go to the next field. If you want to reverse direction, and go the previous field, press Shift+Enter. For more information about shortcuts, see [Quick Entry keyboard shortcuts](keyboard-shortcuts.md#QuickEntry).
+When you are finished entering data in a field, you simply press Enter to confirm the changes and go to the next field. If you want to reverse direction, and go the previous field, press Shift+Enter. For more information about shortcuts, see [Quick Entry Keyboard Shortcuts for Fields](keyboard-shortcuts.md#QuickEntry).
 
 #### Tips and tricks
 The following provides some useful information about using Quick Entry.
@@ -86,7 +86,7 @@ When working on documents that include a line items part, like a sales order or 
 
 Another advantage is that it also provides advanced filtering capability, like on other lists, so browsing and searching through line items becomes even easier.
 
-### Switch the Focus On and Off
+### Switching the Focus On and Off
 
 To focus on lines items, select anywhere in the line item part, and then choose ![Focus Mode icon](media/focus-mode.png "Focus mode icon") in the upper right corner or press Ctrl+Shift+F12.
 

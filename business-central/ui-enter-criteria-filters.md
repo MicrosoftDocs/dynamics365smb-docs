@@ -1,15 +1,15 @@
 ---
 title: Sorting, Searching, and Filtering Lists | Microsoft Docs
 description: Work efficiently in lists by searching across your data, sorting columns, and refining results using powerful filter symbols and keyboard shortcuts.
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 04/01/2019
-ms.author: jswymer
+ms.date: 06/03/2019
+ms.author: sgroespe
 
 ---
 # Sorting, Searching, and Filtering Lists
@@ -36,7 +36,7 @@ At the top of each list page, there is a ![Search list](media/ui-search/search-l
 
 To search, simply select the search icon, and then in the box, type the text that you are looking for. You can enter letters, numbers, and other symbols.
 
-### Fine-tune the Search
+### Fine-tuning the Search
 In general, search will attempt to match text across all fields; it does not distinguish between uppercase and lowercase characters (in other words, case insensitive), and will match text placed anwhere in the field (at the beginning, end, or in the middle).
 
 However, you can make a more exact search by using the following special characters:

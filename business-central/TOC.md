@@ -588,7 +588,7 @@
 ### [Create Opportunities](marketing-how-create-opportunities.md)
 ### [Process Sales Opportunities](marketing-processing-sales-opportunities.md)
 ## [Managing Marketing Campaigns](marketing-campaigns.md)
-## Integrating with Dynamics 365 for Sales
+## Engaging with Customers Through Dynamics 365 for Sales
 ### [Using Dynamics 365 for Sales from Business Central](marketing-integrate-dynamicscrm.md)
 ### [Couple and Synchronize Records Manually](admin-how-to-couple-and-synchronize-records-manually.md)
 ### [View the Status of a Synchronization](admin-how-to-view-synchronization-status.md)

@@ -39,5 +39,5 @@ Use the **Coupled Data Synchronization Errors** page to view the status of synch
 2. Choose the **Synchronization Log** action to view the synchronization log for a selected record. For example, a specific customer you synchronized manually.
 
 ## See Also  
-[Setting Up Dynamics 365 for Sales Integration in Business Central](admin-setting-up-integration-with-dynamics-sales.md)  
+[Setting Up User Accounts for Integrating with Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)  
 [Using Dynamics 365 for Sales from Business Central](marketing-integrate-dynamicscrm.md)

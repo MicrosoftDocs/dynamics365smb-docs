@@ -16,8 +16,10 @@ ms.author: bholtorf
 # Using Dynamics 365 for Sales from Business Central
 If you use Dynamics 365 for Sales for customer engagement, you can enjoy seamless integration in the lead-to-cash process by using [!INCLUDE[d365fin](includes/d365fin_md.md)] for backend activities such as processing orders, managing inventory, and doing your finances.
 
+Before you can use the integration capabilities, you must set up the connection and define users in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [Integrating with Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).
+
 > [!NOTE]
-> These steps describe the process of integrating online versions of [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[d365fin](includes/d365fin_md.md)]. For information about on-prem configuration, see [Preparing Dynamics 365 for Sales for Integration](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
+> These steps describe the process of integrating online versions of [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[d365fin](includes/d365fin_md.md)]. For information about on-prem configuration, see [Preparing Dynamics 365 for Sales for Integration on-premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 Integrating the applications lets you access data in Sales from [!INCLUDE[d365fin](includes/d365fin_md.md)], and in some cases the other way around. You can work with and synchronize data that both services have in common, such as customers, contacts, and sales information, and keep the data up to date in both applications.  
 
@@ -81,7 +83,7 @@ Once customer payment is received for sales invoice in [!INCLUDE[d365fin](includ
 Alternatively, you can have scheduled jobs (Customer Statistics and POSTEDSALESINV-INV) automaticaly run both of these processes in the background.
 
 ## See Also
-[Preparing to Integrate to Dynamics 365 for Sales On-Premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)  
+[Integrating with Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Relationship Management](marketing-relationship-management.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Changing Which Features are Displayed](ui-experiences.md)  

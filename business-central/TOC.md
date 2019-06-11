@@ -324,6 +324,7 @@
 ### [Modify Table Mappings for Synchronization](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Manually Synchronize Table Mappings](admin-manual-synchronization-of-table-mappings.md)
 ### [Schedule a Synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
+### [Troubleshooting Synchronization Errors](admin-troubleshoot-sales-synchronization.md)
 ## Customizing Business Central
 ### [Overview](ui-customizing-overview.md)
 ### Customizing Using Extensions

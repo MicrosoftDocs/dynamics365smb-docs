@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2019
+    ms.date: 06/07/2019
     ms.author: sgroespe
 
 ---
@@ -214,7 +214,7 @@ Remaining Amount per
 
 Normal Application Rules  
 
-![Multiple payment tolerance rules 2](media/multiplePmtTolRules(GracePeriodInv1).gif "Multiple payment tolerance rules 2")  
+![Multiple payment tolerance rules 2](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Multiple payment tolerance rules 2")  
 
 (1) If payment falls in these ranges, all application entries can be closed with or without tolerance.  
 
@@ -225,7 +225,7 @@ Remaining Amount per
 
 Normal Application Rules  
 
-![Multiple payment tolerance rules 3](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Multiple payment tolerance rules 3")  
+![Multiple payment tolerance rules 3](media/multiplePmtTolRules(GracePeriodInv1).gif "Multiple payment tolerance rules 3")  
 
 (1) If payment falls in these ranges, all application entries can be closed with or without tolerance.  
 

@@ -10,12 +10,12 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 05/20/2019
+ms.date: 06/13/2019
 ms.author: edupont
 
 ---
 
-# Business Central Intelligent Cloud Extensions
+# Intelligent Cloud Extensions
 
 This extension will connect your data from [!INCLUDE [prodshort](includes/prodshort.md)] on-premises with [!INCLUDE [prodshort](includes/prodshort.md)] online for intelligent insights.  
 

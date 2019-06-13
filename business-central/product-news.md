@@ -18,7 +18,7 @@ This page points you to topics that can help you learn about the new features in
 
 On a regular basis, we will update [!INCLUDE[d365fin](includes/d365fin_md.md)] with additional capabilities in the core application and with new extensions. For the current list of Microsoft extensions, see [Customizing Business Central Using Extensions](ui-extensions.md).
 
-To see all extensions offered by partners, see [AppSource, Business central]((http://go.microsoft.com/fwlink/?linkid=2081646)).  
+To see all extensions offered by [!INCLUDE[d365fin](includes/d365fin_md.md)] partners, see [AppSource, Business Central](http://go.microsoft.com/fwlink/?linkid=2081646).  
 
 ## Check the Business Central Blog
 We also talk about new capabilities on [the Business Central blog](https://community.dynamics.com/business/b/financials/), including when they are made available, and if there are special considerations.  

@@ -6,7 +6,7 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 04/01/2019
+ms.date: 06/13/2019
 ms.author: edupont
 
 ---
@@ -34,7 +34,10 @@ From the community home page, you can also find links to our blogs where you can
 Finally, you can contact your [!INCLUDE[d365fin](includes/d365fin_md.md)] reselling partner. For more information, see the [How do I get technical support?](across-faq.md#how-do-i-get-technical-support-for-) section.  
 
 ## Why can't I find that capability in my [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-Did you read about a new capability in the release notes or on our blog recently? In that case, your [!INCLUDE[d365fin](includes/d365fin_md.md)] might not have been upgraded to the latest version yet. If the capability is published as an extension in AppSource, then there is a delay between the extension being announced and its availability in AppSource.  
+Did you read about a new capability in the release plan or on our blog recently? In that case, your [!INCLUDE[d365fin](includes/d365fin_md.md)] might not have been upgraded to the latest version yet. If the capability is published as an extension in AppSource, then there is a delay between the extension being announced and its availability in AppSource.  
+
+## Are there any differences between an on-premises deployment and the cloud version of Business Central?
+Yes. Some Cloud-based features may run on premises in certain cases and others are not supported at all. For more information, see [Features not implemented in on-premises deployments of Dynamics 365 Business Central](/business-central/dev-itpro/features-not-implemented-on-premises) in Developer and ITPro help.
 
 ## Can I get training in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Yes, you can. But currently, you have to ask your reselling partner. If you don't know who that is, find a Business Central partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page.  

@@ -19,7 +19,7 @@ ms.author: edupont
 When you sign up for the [!INCLUDE[d365fin](includes/d365fin_md.md)] preview you get access to a demonstration company. The demonstration company contains sample data, but you can create your own sales documents, for example, or set up a bank account.  
 
 ## Get to know [!INCLUDE[d365fin](includes/d365fin_md.md)]
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], some things will be familiar to you, and other things might be unfamiliar. In the demonstration company, visual guides explain core functionality, and help you try out daily tasks like creating a sales invoice and viewing a report. If you leave a guide, for example, to explore [!INCLUDE[d365fin](includes/d365fin_md.md)] on your own, but want to return to it, go back to the Role Center and launch the Getting Started tour. If you want more assistance, you can find a [!INCLUDE[d365fin](includes/d365fin_md.md)] partner [here](https://www.microsoft.com/en-us/solution-providers/search).  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], some things will be familiar to you, and other things might be unfamiliar. In the demonstration company, visual guides explain core functionality, and help you try out daily tasks like creating a sales invoice and viewing a report. If you leave a guide, for example, to explore [!INCLUDE[d365fin](includes/d365fin_md.md)] on your own, but want to return to it, go back to the Role Center and launch the Getting Started tour. If you want more assistance, contact a [!INCLUDE[d365fin](includes/d365fin_md.md)] partner.  
 
 > [!TIP]  
 > You can get back to the Role Center by selecting the company name in the upper left corner.

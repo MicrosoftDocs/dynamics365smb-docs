@@ -54,7 +54,7 @@ The **Set Up Dynamics 365 for Sales Connection** assisted setup guide can help y
 |**Dynamics 365 SDK Version**|This is relevant only if you are integrating with an on-premises version of [!INCLUDE[crm_md](includes/crm_md.md)]. This is the Dynamics 365 software development kit (also referred to as Xrm) you use to connect [!INCLUDE[d365fin](includes/d365fin_md.md)] to [!INCLUDE[crm_md](includes/crm_md.md)]. The version must be compatible with the SDK version that is used by [!INCLUDE[crm_md](includes/crm_md.md)], and equal to or newer than the version used by [!INCLUDE[crm_md](includes/crm_md.md)].|
 
 > [!Note]
-> **Set Up Dynamics 365 for Sales Connection** assisted setup guide automatically assigns **Integration Administrator** and **Integration User** security roles to user account used for integration.
+> **Set Up Dynamics 365 for Sales Connection** assisted setup guide automatically assigns **Integration Administrator** and **Integration User** security roles to the user account used for integration. 
 
 ### To create or maintain the connection manually
 The following procedure describes how to fill in the fields on the **Microsoft Dynamics 365 for Sales Connection Setup** page manually. This is also the page where you manage settings for the integration.
@@ -106,6 +106,10 @@ The following procedure describes how to fill in the fields on the **Microsoft D
 
 > [!Note]
 > Connecting to Dynamics 365 for Sales using the **Microsoft Dynamics 365 for Sales Connection Setup** page may require that you assign the Integration Administrator and Integration User security roles to the account used for integration. For more information, see [Assign a security role to a user](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
+
+
+> [!Note]
+> Connecting to Dynamics 365 for Sales using **Microsoft Dynamics 365 for Sales Connection Setup** page may require you to [assign  **Integration Administrator** and **Integration User** security roles](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user) to user account used for integration.
 
 
 ### To disconnect from [!INCLUDE[crm_md](includes/crm_md.md)]  

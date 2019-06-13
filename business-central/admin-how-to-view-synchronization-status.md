@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: sales, crm, integration, sync, synchronize
-    ms.date: 04/01/2019
+    ms.date: 06/13/2019
     ms.author: bholtorf
 
 ---
@@ -34,7 +34,7 @@ Use the **Coupled Data Synchronization Errors** page to view the status of synch
 |**Synchronize**|The app will try to resolve a conflict where a record was changed in both business apps. You can choose the version of the record to use in both apps.|
 |**Restore Records** and **Delete Records**|These are useful when a record was deleted in one of the apps. Delete Records deletes the record in the app where it still exists. Restore recreates the record in the app where it was deleted.|
 
-### To view synchronization log for specific (manually synchronized) record
+### To view the synchronization log for a specific (manually synchronized) record
 1. Open, for example, a customer, item or any other record that is synchronizing data between [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)].
 2. Choose the **Synchronization Log** action to view the synchronization log for a selected record. For example, a specific customer you synchronized manually.
 

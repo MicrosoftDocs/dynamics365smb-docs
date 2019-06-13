@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
-ms.date: 06/07/2019
+ms.date: 06/13/2019
 ms.author: bholtorf
 ---
 # Using Dynamics 365 for Sales from Business Central
@@ -77,10 +77,10 @@ On such sales quotes, the **Name** field on the original quote is transferred an
 
 Sales quotes go through many revisions while they are being finalized. Both manual and automatic processing of sales quotes in [!INCLUDE[d365fin](includes/d365fin_md.md)] ensures that previous versions of sales quotes are archived before processing new revisions of sales quotes from [!INCLUDE[crm_md](includes/crm_md.md)].
 
-## Handling Posted Sales Invoices, Customer Payments and Statistics
-After fulfilling sales order, invoices will be created for it. When you invoice sales order you can transfer posted sales invoice to [!INCLUDE[crm_md](includes/crm_md.md)] if you select **Create Invoice in [!INCLUDE[crm_md](includes/crm_md.md)]** on posted sales invoice page. Posted invoices are transfered to [!INCLUDE[crm_md](includes/crm_md.md)] with Status **Billed**.
-Once customer payment is received for sales invoice in [!INCLUDE[d365fin](includes/d365fin_md.md)], sales invoice status will be changed to **Paid** with Status Reason set to **Partial**, if partially paid, or **Complete** if completely paid, when you run **Update Account Statistics** on customer page in [!INCLUDE[d365fin](includes/d365fin_md.md)]. **Update Account Statistics** will also refresh values such as Balance and Total Sales in [!INCLUDE[d365fin](includes/d365fin_md.md)] Account Statistics FactBox in [!INCLUDE[crm_md](includes/crm_md.md)].
-Alternatively, you can have scheduled jobs (Customer Statistics and POSTEDSALESINV-INV) automaticaly run both of these processes in the background.
+## Handling Posted Sales Invoices, Customer Payments, and Statistics
+After fulfilling a sales order, invoices will be created for it. When you invoice a sales order, you can transfer the posted sales invoice to [!INCLUDE[crm_md](includes/crm_md.md)] if you select the **Create Invoice in [!INCLUDE[crm_md](includes/crm_md.md)]** check box on the **Posted Sales Invoice** page. Posted invoices are transferred to [!INCLUDE[crm_md](includes/crm_md.md)] with the status, **Billed**.
+
+When the customer payment is received for the sales invoice in [!INCLUDE[d365fin](includes/d365fin_md.md)], the sales invoice status will be changed to **Paid** with the **Status Reason** field set to **Partial**, if partially paid, or **Complete** if completely paid, when you choose the **Update Account Statistics** action on the customer page in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The **Update Account Statistics** function will also refresh values, such as the **Balance** and **Total Sales** fields in the **[!INCLUDE[d365fin](includes/d365fin_md.md)] Account Statistics** FactBox in [!INCLUDE[crm_md](includes/crm_md.md)]. Alternatively, you can have the scheduled jobs, Customer Statistics and POSTEDSALESINV-INV automatically run both of these processes in the background.
 
 ## See Also
 [Integrating with Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  

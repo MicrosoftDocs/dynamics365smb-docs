@@ -11,15 +11,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
-ms.date: 04/01/2019
+ms.date: 06/07/2019
 ms.author: bholtorf
 
 ---
 # Integrating with Dynamics 365 for Sales
 The sales person role is often considered as one the most outward-facing jobs in a business. However, it can be helpful for sales people to be able to look inward in the business and see what is happening on the back end. By integrating [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)], you can give your sales people that insight by enabling them to view information in [!INCLUDE[d365fin](includes/d365fin_md.md)] while they are working in [!INCLUDE[crm_md](includes/crm_md.md)]. For example, when preparing a sales quote it could be useful to know whether you have enough inventory to fulfill the order. For more information, see [Using Dynamics 365 for Sales from Business Central](marketing-integrate-dynamicscrm.md).
 
-> [!Note]
-> These steps describe the process of integrating online versions of [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> [!NOTE]
+> These steps describe the process of integrating online versions of [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[d365fin](includes/d365fin_md.md)]. For information about on-prem configuration, see [Preparing Dynamics 365 for Sales for Integration on-premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 <!--## Software Requirements
 You must have an Office 365 subscription, and both [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[d365fin](includes/d365fin_md.md)] must be part of the same organization.  -->
@@ -30,7 +30,7 @@ The following steps provide an overview of the steps to integrate [!INCLUDE[crm_
 > [!Note]  
 > These tasks require the **System Administrator** security role in [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-1. In the Office 365 admin center, set up a user account for connecting to and synchronizing data with [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [Setting Up Integration with Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md).
+1. In the Office 365 admin center, set up a user account for connecting to and synchronizing data with [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [Setting Up User Accounts for Integrating with Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md).
 
 2. Assign licenses for [!INCLUDE[crm_md](includes/crm_md.md)] to the [!INCLUDE[d365fin](includes/d365fin_md.md)] users who will use the integrated apps.
 
@@ -48,7 +48,7 @@ By default, the Set Up Dynamics 365 for Sales Connection assisted setup guide wi
 * System Administrator  
 * Solution Customizer  
 
-For more information, see [Setting Up User Accounts for Integrating with Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md), [Create users in Microsoft Dynamics 365 (online) and assign security roles](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles.md), and [Managing Users and Permissions](ui-how-users-permissions.md).  
+For more information, see [Setting Up User Accounts for Integrating with Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md), [Create users in Microsoft Dynamics 365 (online) and assign security roles](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles), and [Managing Users and Permissions](ui-how-users-permissions.md).  
 
 This account is used only one time during the setup. After the solution is imported into [!INCLUDE[d365fin](includes/d365fin_md.md)] the account is no longer needed. Integration will continue to use the user account that was created specifically for the integration.
 
@@ -62,5 +62,6 @@ At the end of the setup guide, [!INCLUDE[d365fin](includes/d365fin_md.md)] promp
 
 ## See Also  
 [Setting Up User Accounts for Integrating with Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)  
-[Set Up a Connection to Dynamics 365 for Sales](admin-how-to-set-up-a-dynamics-crm-connection.md)
-[Synchronizing Business Central and Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)
+[Set Up a Connection to Dynamics 365 for Sales](admin-how-to-set-up-a-dynamics-crm-connection.md)  
+[Synchronizing Business Central and Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)  
+[Preparing Dynamics 365 for Sales for Integration on-premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)

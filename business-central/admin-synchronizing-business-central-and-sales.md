@@ -74,7 +74,7 @@ The following table shows mappings from [!INCLUDE[d365fin](includes/d365fin_md.m
 The following table describes rules that control the synchronization between the apps.
 
 > [!NOTE]  
-> Changes to data in [!INCLUDE[crm_md](includes/crm_md.md)] that were made by the [!INCLUDE[crm_md](includes/crm_md.md)] connection user account are not synchronized. Therefore, we recommended that you do not change data while using that account. For more information, see [Setting Up Integration with Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md).
+> Changes to data in [!INCLUDE[crm_md](includes/crm_md.md)] that were made by the [!INCLUDE[crm_md](includes/crm_md.md)] connection user account are not synchronized. Therefore, we recommended that you do not change data while using that account. For more information, see [Setting Up User Accounts for Integrating with Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md).
 
 |Table|Rule|
 |-----|----|

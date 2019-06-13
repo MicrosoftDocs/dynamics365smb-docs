@@ -16,7 +16,9 @@ ms.author: edupont
 
 This page points you to topics that can help you learn about the new features in the latest versions of [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]. If you haven't already, then sign up for a [trial](https://trials.dynamics.com/), get introduced to the basics of what you can do with [!INCLUDE[d365fin](includes/d365fin_md.md)], and then try things out on your own for a while. When you are ready, you can open a blank company and set things up for yourself.  
 
-On a regular basis, we will update [!INCLUDE[d365fin](includes/d365fin_md.md)] with additional capabilities in the core application and with new extensions. For the current list of Microsoft extensions, see [Customizing Business Central Using Extensions](ui-extensions.md).  
+On a regular basis, we will update [!INCLUDE[d365fin](includes/d365fin_md.md)] with additional capabilities in the core application and with new extensions. For the current list of Microsoft extensions, see [Customizing Business Central Using Extensions](ui-extensions.md).
+
+To see all extensions offered by partners, see [AppSource, Business central]((http://go.microsoft.com/fwlink/?prd=2081646)).  
 
 ## Check the Business Central Blog
 We also talk about new capabilities on [the Business Central blog](https://community.dynamics.com/business/b/financials/), including when they are made available, and if there are special considerations.  

@@ -25,4 +25,7 @@ We also talk about new capabilities on [the Business Central blog](https://commu
 [Getting Started](product-get-started.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Business Central pricing](https://dynamics.microsoft.com/en-us/business-central/overview/#pricing)  
-[Dynamics 365 Business Central Community](https://community.dynamics.com/business/)  
+[Dynamics 365 Business Central Community](https://community.dynamics.com/business/)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/training_link_md.md)]  

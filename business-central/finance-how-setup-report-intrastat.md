@@ -21,6 +21,7 @@ All companies in the European Union must report their trade with other EU countr
 ## Required and Optional Setups
 Before you can use the Intrastat journal to report Intrastat information, there are several things you must set up:  
 
+* **Intrastat Setup**: Intrastat Setup page is used to enable intrastat reporting and set defaults for it. You can specify whether you need to report Intrastat from shipments (dispatches), receipts (arrivals) or both depending on thresholds set by your local regulations. You can also set default transaction types for regular and return documents, used for nature of transaction reporting. 
 * **Intrastat journal templates**: You must set up the Intrastat journal templates and batches you will use. Because Intrastat is reported monthly, you must create 12 Intrastat journal batches based on the same template.  
 * **Commodity codes**: Customs and tax authorities have established numerical codes that classify items and services. You specify these codes on items.
 * **Transaction nature codes**: Countries and regions have different codes for types of Intrastat transactions, such as ordinary purchase and sale, exchange of returned goods, and exchange of non-returned goods. Set up all of the codes that apply to your country/region. You use these codes on sales and purchase documents, and when you process returns.  

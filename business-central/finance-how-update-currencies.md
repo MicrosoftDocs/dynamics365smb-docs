@@ -1,17 +1,12 @@
 ---
-title: Updating Currency Exchange Rates| Microsoft Docs
-description: To use multiple currencies in your business, you can set up a code for each currency and use an external exchange rate service.
-services: project-madeira
-documentationcenter: ''
+title: Update Currency Exchange Rates| Microsoft Docs
+description: Track amounts in different currencies using currency codes, and let Business Central help you adjust exchange rates of posted entries with an external service.
 author: SorenGP
 
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: multiple currencies
-ms.date: 04/01/2019
+ms.search.keywords: multiple currencies, adjust exchange rates
+ms.date: 06/04/2019
 ms.author: sgroespe
 
 ---

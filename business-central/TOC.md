@@ -51,7 +51,7 @@
 ## Using Keyboard Shortcuts
 ### [Accessibility and Keyboard Shortcuts](ui-accessibility.md)
 ### [Keyboard Shortcuts](keyboard-shortcuts.md)
-### [Keyboard Shortcuts Quick Reference](keyboard-shortcuts-cheatsheet.md)
+### [Keyboard Quick Reference - PC Only](keyboard-shortcuts-cheatsheet.md)
 
 # Setting Up Business Central
 ## [Overview](setup.md)
@@ -90,6 +90,7 @@
 ### [Set Up Salespeople](sales-how-setup-salespeople.md)
 ### [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md)
 ### [Send Documents by Email](ui-how-send-documents-email.md)
+### [Set Up Shipment Methods](sales-how-set-up-shipment-methods.md)
 ### [Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md)
 
 ## Setting Up Purchasing
@@ -318,35 +319,39 @@
 ## [Creating a Sandbox Environment](across-how-create-sandbox-environment.md)
 ## Integrating with Dynamics 365 for Sales
 ### [Overview](admin-prepare-dynamics-365-for-sales-for-integration.md)
-### [Setting Up Integration with Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)
+### [Setting Up User Accounts for Integrating with Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)
 ### [Set Up a Dynamics 365 for Sales Connection](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Synchronizing Business Central and Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)
 ### [Modify Table Mappings for Synchronization](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Manually Synchronize Table Mappings](admin-manual-synchronization-of-table-mappings.md)
 ### [Schedule a Synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
+### [Troubleshooting Synchronization Errors](admin-troubleshoot-sales-synchronization.md)
 ## Customizing Business Central
 ### [Overview](ui-customizing-overview.md)
 ### Customizing Using Extensions
 #### [Overview](ui-extensions.md)
 #### [Customizing Using Extensions](ui-extensions.md)
+#### [Accountant Portal for Business Central](ui-extensions-accountant-portal.md)
 #### [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
-#### [Data Replication](ui-extensions-data-replication.md)
 #### [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)
+#### [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
 #### [Essential Business Insights](ui-extensions-essential-business-insights.md)
 #### [Image Analyzer](ui-extensions-image-analyzer.md)
-#### [Intelligent Cloud](ui-extensions-intelligent-cloud.md)
-#### [Microsoft Pay Payments](ui-extensions-microsoft-pay-payments.md)
+#### [Intelligent Cloud](ui-extensions-data-replication.md)
+#### [Intelligent Cloud Base](ui-extensions-intelligent-cloud.md)
+#### [Late Payment Predictions](ui-extensions-late-payment-prediction.md)
+#### [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
 #### [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
 #### [QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)
 #### [QuickBooks Online Data Migration](ui-extensions-quickbooks-online-data-migration.md)
-#### [QuickBooks Payroll](ui-extensions-quickbooks-payroll.md)
+#### [Quickbooks Payroll File Import](ui-extensions-quickbooks-payroll.md)
 #### [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)
 #### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
-#### [Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
-#### [Accountant Portal for Business Central](ui-extensions-accountant-portal.md)
 #### [DK - C5 Data Migration](ui-extensions-c5-data-migration.md)
+#### [DK - Payments and Reconciliations](ui-extensions-payments-reconciliation-formats-dk.md)
 #### [DK - Tax File Formats](ui-extensions-tax-file-formats-dk.md)
 #### [UK - GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)
+#### [US/CA/UK/AU/NZ/ZA - Send Remittance Advice](ui-extensions-send-remittance-advice.md)
 #### [Business Central Extensions by Other Providers](ui-extensions-other.md)
 ### [Changing Which Features are Displayed](ui-experiences.md)
 ### [Managing Personalization as an Administrator](ui-personalization-manage.md)
@@ -587,7 +592,7 @@
 ### [Create Opportunities](marketing-how-create-opportunities.md)
 ### [Process Sales Opportunities](marketing-processing-sales-opportunities.md)
 ## [Managing Marketing Campaigns](marketing-campaigns.md)
-## Integrating with Dynamics 365 for Sales
+## Engaging with Customers through Dynamics 365 for Sales
 ### [Using Dynamics 365 for Sales from Business Central](marketing-integrate-dynamicscrm.md)
 ### [Couple and Synchronize Records Manually](admin-how-to-couple-and-synchronize-records-manually.md)
 ### [View the Status of a Synchronization](admin-how-to-view-synchronization-status.md)

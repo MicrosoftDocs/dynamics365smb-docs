@@ -15,7 +15,7 @@ The following topics describe local functionality that is unique to the New Zeal
 
 ## Feature Availability
 
-* VAT & Tax  
+* Tax  
     * [Tax](tax.md)
     * [Withholding Tax](withholding-tax.md)
     * [Set Up Withholding Tax](how-to-set-up-withholding-tax.md) **Available Now**

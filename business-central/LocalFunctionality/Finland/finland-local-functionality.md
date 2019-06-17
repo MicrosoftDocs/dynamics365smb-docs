@@ -21,7 +21,7 @@ The following topics describe local functionality that is unique to the Finnish 
 
 ## Feature Availability
 
-* VAT & Tax
+* VAT
     * [Print Finnish Intrastat Reports](how-to-print-finnish-intrastat-reports.md) **Available Now**
     * [Print VAT Information on Invoices](how-to-print-vat-information-on-invoices.md) **Available Now**
     * [VAT-VIES Declaration in Finland](vat-vies-declaration-in-finland.md) **Available Now**

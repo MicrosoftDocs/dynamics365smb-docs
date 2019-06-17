@@ -21,7 +21,7 @@ The following topics describe local functionality that is unique to the Spanish 
 
 ## Feature Availability  
 
-* VAT & Tax  
+* VAT  
     * [SII - Invoice and Credit Memo Types in Sales and Purchase Documents](SII-invoice-types-sales-purchase-documents.md) **Available Now**
     * [VAT Reports](vat-reports.md) **Available Now**
     * [Report 340](report-340.md) **Available Now**  

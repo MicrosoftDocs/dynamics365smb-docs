@@ -170,6 +170,10 @@ The following procedure explains how to assign permission sets to a user on the 
 > [!NOTE]  
 > When you edit a permission set, the changes will also apply to other users that have the permission set assigned.
 
+## To remove a user's access to the system
+
+As an administrator, you can remove a user's access to the system by setting the **State** field to **Disabled**. All references to the user will be retained, but the user can no longer sign in to the system, and active sessions for the user will be terminated. To give the user access again, set the **State** field to **Enabled**.
+
 ## See Also
 [Security and Protection in Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
 [Understanding Users, Profiles, and Role Centers](admin-users-profiles-roles.md)  

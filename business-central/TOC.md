@@ -90,6 +90,7 @@
 ### [Set Up Salespeople](sales-how-setup-salespeople.md)
 ### [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md)
 ### [Send Documents by Email](ui-how-send-documents-email.md)
+### [Set Up Shipment Methods](sales-how-set-up-shipment-methods.md)
 ### [Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md)
 
 ## Setting Up Purchasing

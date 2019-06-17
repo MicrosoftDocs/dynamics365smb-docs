@@ -1,28 +1,27 @@
 ---
 title: Personalizing Pages | Microsoft Docs
 description: Learn how to customize the user interface to suit your way of working in Business Central.
-author: jswymer
+author: SorenGP
 
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 04/01/2019
-ms.author: jswymer
+ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
+ms.date: 06/17/2019
+ms.author: sgroespe
 
 ---
 # Personalizing Your Workspace
 
-You can customize, or *personalize*, your workspace to suit your work and preferences by changing pages so that they display only the information you need, where you need it. The personalization changes that you make will only affect what you see, not what other users see.
+You can personalize your workspace to suit your work and preferences by changing pages so that they display only the information you need, where you need it. The personalization changes that you make will only affect what you see, not what other users see.
 
-Depending on the type of page and what it includes, you can do various things, like moving or hiding fields, columns and actions, moving and hiding entire parts, and more.
+Depending on the type of page and what it includes, you can do various things, like moving or hiding fields, columns and actions, moving and hiding entire parts, and more. Most personalization must be done by first activating the **Personalizing** banner, but very simple adjustments, such as column width can be performed immediately on any list.  
 <!--
 -   Add, move, and remove fields.
 -   Add, move, and remove columns in a list.
 -   Change the freeze pane of columns in a list. The freeze pane locks one or more columns to the left side of a list so that are always present, even when you scroll horizontally.
--   Adjust the width of columns in a list.
 -   Move and remove Cues (tiles).
 -   Move and remove parts. Parts are subdivisions or areas on a page that contain things like multiple fields, another page, a chart, or tiles.
 
@@ -30,7 +29,14 @@ Depending on the type of page and what it includes, you can do various things, l
 > [!NOTE]
 > In addition to what users can personalize, administrators and super users can override users' personalization and define which features are accessible in all or specific companies. For more information, see [Customizing Business Central](ui-customizing-overview.md).
 
-## To personalize a page
+## To change the width of a column
+You can easily resize columns on any list by dragging the boundary between two columns to the left or the right.
+1. In the header of a list, select and drag the boundary between two columns.
+2. Alternatively, double-click the boundary between two columns to auto-fit the width of the column. This sets the width to the optimal size for readability.
+
+As for other personalization, the changes you make to column width are stored on your account and follows you no matter which device you sign into.
+
+## To personalize a page through the **Personalizing** banner
 
 1. In the upper-right corner, select the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, and then choose **Personalize**.
 
@@ -56,7 +62,6 @@ Depending on the type of page and what it includes, you can do various things, l
 |Display a field in the heading of a Fastab when the FastTab is collapsed.|Select the arrowhead, and choose <b>Show when collapsed</b>. <br /> <br />If you do not see this option, then it is already set. In this case, to stop displaying the field in the FastTab heading, choose <b>Show always</b>.|*FastTab* is the term used for a group of fields that appear under a common heading. Use the <b>Show when collapsed</b> option to display the most important fields. If you select a field in the heading, the FastTab will open and focus on the selected field.<br /><br />This option is only applicable if a page has a more than one FastTab. If the is only one FastTab, it cannot be collapsed, so the <b>Show when collapsed</b> option is not available.|
 |Make a field display only when you select **Show more**.|Select the arrowhead, and choose <b>Show under "Show More"</b>. <br /> <br />If you do not see the <b>Show under "Show More"</b> option, then it is already set. In this case, to make a field display always, not just when you select **Show more**, choose <b>Show always</b>.||
 |Change the freeze pane in a list to another column. |Select the arrowhead of the column that you want as the last column of the freeze pane, and then choose <b>Set Freeze Pane</b>.<br /><br/>If you want to set the freeze pane back to its original designed location, select the arrowhead for the current freeze pane column, and choose <b>Clear Freeze Pane</b>. Note: You cannot remove this freeze pane.|The freeze pane specifies the columns that always appear on the left, even as you scroll horizontally.|  
-|Change the width of a column.|In the header of the list, drag the boundary between columns. <br /><br />You can double-click the boundary between column headers to auto-fit, which sets the width to a comfortable size for readability.||
 |Skip over a field when pressing Enter.|Select the arrowhead next to the field, or column heading in a list, and choose **Exclude from Quick Entry**. <br /><br /> If you do not see this option, then the field is already set to be skipped. In this case, to stop skipping the field, choose **Include in Quick Entry**. |See [Accelerating Data Entry Using Quick Entry](ui-enter-data.md#QuickEntry)|
 
 ## <a name="Actions"></a>Personalizing Actions

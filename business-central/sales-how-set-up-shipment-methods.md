@@ -10,13 +10,13 @@
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
-    ms.search.keywords: incoterm
+    ms.search.keywords: incoterms
     ms.date: 06/17/2019
     ms.author: sgroespe
 
 ---
 # Set Up Shipment Methods
-The shipment method, also called incoterm, often depends on the items, the customers, and the vendors. For example, if the customer lives on an island, they can choose to have items always shipped by air or always by sea. Some customers may require next day delivery. Some may want to pick up the order. On the customer and vendor cards, you can specify what sort of delivery is desired.
+Shipment methods, also called incoterms, often depend on the items, the customers, and the vendors. For example, if the customer lives on an island, they can choose to have items always shipped by air or always by sea. Some customers may require next day delivery. Some may want to pick up the order. On the customer and vendor cards, you can specify what sort of delivery is desired.
 
 You set up the description and code for each shipment method on the **Shipment Methods** page. For example, you can set up the code FOB, and enter Free on Board in the **Description** field. You can then enter the code in **Shipment Method Code** fields elsewhere in the system, such as on a customer card. Then when you create new orders, invoices, credit memos, and so on, the system will enter the description represented by the code. You can change it on the document as needed.
 
@@ -26,6 +26,7 @@ You set up the description and code for each shipment method on the **Shipment M
 3. On the new line, specify a code and description for the shipment method.
 
 ## See Also
+[Incoterms](https://iccwbo.org/resources-for-business/incoterms-rules)  
 [Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md)  
 [Track Packages](sales-how-track-packages.md)    
 [Warehouse Management](warehouse-manage-warehouse.md)  

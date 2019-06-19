@@ -22,11 +22,12 @@ A sandbox environment (Preview) is a non-production instance of [!INCLUDE[d365fi
 You must have a subscription to [!INCLUDE[d365fin](includes/d365fin_md.md)] to be able to create a sandbox environment. There can only be one sandbox environment per subscription.
 
 1. Sign in to your production instance of the [!INCLUDE[d365fin](includes/d365fin_md.md)] service.
+
 2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sandbox Environment**, and then choose the related link.
 <!-- ![Sandbox Environment Setup](./media/across-sandbox/sandbox-environment-setup.png) -->
 3. Choose the **Create** button.  
 
-    Another tab with [!INCLUDE[d365fin](includes/d365fin_md.md)] opens where you must finish the setup of your sandbox environment.
+    Another tab with [!INCLUDE[d365fin](includes/d365fin_md.md)] opens where you can finish the setup of your sandbox environment.
 
     > [!NOTE]  
     >  If you have pop-up blocker enabled in your browser, change it to allow URLs from the *.businesscentral.dynamics.com address.
@@ -34,13 +35,14 @@ You must have a subscription to [!INCLUDE[d365fin](includes/d365fin_md.md)] to b
 4. When the sandbox environment is ready, you will be redirected to sandbox environment's Welcome wizard.
 <!-- ![Sandbox Welcome Wizard](./media/across-sandbox/sandbox-wizard.png) -->
 
-5. Choose **Learn more** to read about scenarios that you can try in a sandbox environment. Or, choose **Close** to continue to the Role Center of your [!INCLUDE[d365fin](includes/d365fin_md.md)] sandbox instance.
+5. Choose the **Learn more** button to read about scenarios that you can try in a sandbox environment or choose the **Close** button to continue to the Role Center of your [!INCLUDE[d365fin](includes/d365fin_md.md)] sandbox instance.
 
     At the top of the Role Center, a notification appears to inform you that this is a sandbox environment. You can also see the type of the environment in the title bar of the client.
     <!-- ![Sandbox RoleCenter Notification](./media/across-sandbox/sandbox-rolecenter-notification.png) -->
 
     > [!NOTE]
-    > A sandbox environment created in this way contains the default demonstration data for the CRONUS company. No data is copied or otherwise transferred from the production environment during the sandbox creation.<br /></br>
+    > A sandbox environment created in this way only contains the default demonstration data for the CRONUS company. No data is copied or otherwise transferred from the production environment.<br /></br>
+
     > You can also create a sandbox environment containing the production data. You must do this through the administration center. For more information, see [Managing Environments](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) in the Developer and IT-Pro help.
 
 6. At any time, you can return to the **Sandbox Environment** page, and reset the sandbox environment.

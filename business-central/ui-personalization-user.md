@@ -34,7 +34,7 @@ You can easily resize columns on any list by dragging the boundary between two c
 1. In the header of a list, select and drag the boundary between two columns.
 2. Alternatively, double-click the boundary between two columns to auto-fit the width of the column. This sets the width to the optimal size for readability.
 
-As for other personalization, the changes you make to column width are stored on your account and follows you no matter which device you sign into.
+As for other personalization, the changes you make to column width are stored on your account and follow you no matter which device you sign into.
 
 ## To personalize a page through the **Personalizing** banner
 

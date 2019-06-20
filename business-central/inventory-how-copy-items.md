@@ -15,7 +15,7 @@
     ms.author: sgroespe
 
 ---
-# Copy Existing Items to New Items
+# Copy Existing Items to Create New Items
 When you add a new item, to save time, you can use the **Copy Item** function to copy an existing item to use as a template for a new item.  
 
 ## To copy an existing item to a new item  

@@ -836,7 +836,6 @@
 #### [Issue Delivery Reminders](LocalFunctionality\Austria\how-to-issue-delivery-reminders.md)
 #### [Print Test Reports for Delivery Reminders](LocalFunctionality/Austria/how-to-print-test-reports-for-delivery-reminders.md)
 ### General
-#### [Copy Existing Items to New Items](LocalFunctionality/Austria/how-to-copy-existing-items-to-new-items.md)
 #### [Print General Ledger Setup Information](LocalFunctionality/Austria/how-to-print-general-ledger-setup-information.md)
 #### [Print Sales and Purchase Orders During Batch Posting](LocalFunctionality/Austria/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 
@@ -1027,7 +1026,6 @@
 #### [Include Company Registration Numbers on Sales Reports and Purchase Reports](LocalFunctionality/Germany/how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md)
 #### [Print Sales and Purchase Orders During Batch Posting](LocalFunctionality/Germany/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 #### [Print General Ledger Setup Information](LocalFunctionality/Germany/how-to-print-general-ledger-setup-information.md)
-#### [Copy Existing Items to New Items](LocalFunctionality/Germany/how-to-copy-existing-items-to-new-items.md)
 #### [Certification of Business Central for German market (document is in German)](https://go.microsoft.com/fwlink/?linkid=875256)
 
 ## Iceland
@@ -1310,7 +1308,6 @@
 #### [Print Test Reports for Delivery Reminders](LocalFunctionality/Switzerland/how-to-print-test-reports-for-delivery-reminders.md)
 ### Inventory
 #### [Swiss Inventory Management](LocalFunctionality/Switzerland/swiss-inventory-management.md)
-#### [Copy Existing Items to New Items](LocalFunctionality/Switzerland/how-to-copy-existing-items-to-new-items.md)
 #### [Print an Inventory Picking List from a Sales Order](LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order.md)
 ### General    
 #### [Import Swiss Post Codes](LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md)

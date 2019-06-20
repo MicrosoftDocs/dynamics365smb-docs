@@ -1077,7 +1077,6 @@
 #### [Set Up Company Information](LocalFunctionality/Italy/how-to-set-up-company-information.md)
 #### [Italian Subcontracting](LocalFunctionality/Italy/italian-subcontracting.md)
 #### [Set Up Journal Templates and Batches](LocalFunctionality/Italy/how-to-set-up-journal-templates-and-batches.md)
-#### [Report Trade with Customers and Vendors in Blacklist Countries and Regions](LocalFunctionality/Italy/how-to-report-trade-with-customers-and-vendors-in-blacklist-countries-regions.md)  
 
 ## Mexico
 ### [Overview](LocalFunctionality/Mexico/mexico-local-functionality.md)

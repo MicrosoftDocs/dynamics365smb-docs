@@ -19,7 +19,7 @@
 When you add a new item, to save time, you can use the **Copy Item** function to copy an existing item to use as a template for a new item.  
 
 ## To copy an existing item to a new item  
-1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2. Select the item that you want to copy, and then choose the **Copy Item** action.  
 3. On the **Copy Item** page, fill in the fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 

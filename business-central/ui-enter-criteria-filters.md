@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 06/13/2019
+ms.date: 06/20/2019
 ms.author: sgroespe
 
 ---
 # Sorting, Searching, and Filtering Lists
-There are a few things that you can do that will help you scan, find, and limit records in a list. These include sorting, searching and filtering. You can apply some or all of these simultaneously to quickly find or analyze your data.
+There are a few things that you can do that will help you scan, find, and limit records in a list or a report. These include sorting, searching, and filtering. You can apply some or all of these simultaneously to quickly find or analyze your data. For reports, you can set any filter to delimit which data to include.
 
 > [!TIP]
 > When viewing your data as tiles, you can search and use basic filtering. To use the full set of powerful features for sorting, searching and filtering, choose the ![Show as list](media/ui_show_as_list_icon.png "Show as list arrow left") icon to show as a list.
 
 <!--
-When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
+When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria, you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
 -->
 
 ## Sorting
@@ -63,7 +63,7 @@ The following table provides some examples to explain how you can use the search
 > You can press F3 to activate and deactivate the search box. For more information see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
 
 ## <a name="Filtering"> </a>Filtering
-Filtering provides a more advanced and versatile way of controlling which records display in a list. There are two major differences between searching and filtering, as described in the table below.
+Filtering provides a more advanced and versatile way of controlling which records display in a list or in a report. There are two major differences between searching and filtering, as described in the table below.
 
 || **Searching** | **Filtering** |
 |--|----------|------------|
@@ -74,7 +74,11 @@ Filtering enables you to display records for specific accounts or customers, dat
 
 ### Working in the Filter Pane
 
-To display the filter pane, select ![Filter pane icon](media/open-filter-pane-icon.png "Filter pane icon") at the top of the list or press **Shift+F3**. For lists within the Role Center, you can also choose the down arrow near the page title in the navigation bar above the list, and then choose **Show filter pane** as shown here:
+**New**To display the filter pane for a column, open the drop-down menu, and then choose the **Filter** action or press **Shift+F3**.
+
+On reports *** waiting for build***
+
+**Old**To display the filter pane, select the ![Filter pane icon](media/open-filter-pane-icon.png "Filter pane icon") icon at the top of the list or press **Shift+F3**. For lists within the Role Center, you can also choose the down arrow near the page title in the navigation bar above the list, and then choose **Show filter pane** as shown here:
 
 ![Show filter pane](media/open-filter-pane.png "Show filter pane")
 

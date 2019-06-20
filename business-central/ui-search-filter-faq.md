@@ -6,7 +6,7 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
-ms.date: 06/03/2019
+ms.date: 06/20/2019
 ms.author: mikebc
 ---
 
@@ -32,16 +32,11 @@ Your filters and adjustments to predefined filters are remembered throughout the
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] builds upon these popular features and delivers a modern and highly usable experience for finding and analyzing your data. With more keyboard shortcuts and the introduction of search, [!INCLUDE[d365fin](includes/d365fin_md.md)] surpasses the functionality provided in Dynamics NAV.  
 
-See also [Is the filter pane available for filtering reports?](#is-the-filter-pane-available-for-filtering-reports).  
-
 ## Can I search and filter using the companion apps and Outlook AddIn?
 On different display targets such as mobile devices or in Outlook, you can search in lists but cannot filter on individual fields in most cases.
 
-## Is the filter pane available for filtering reports?
-No. The report filter dialog, commonly referred to as the request page, currently use a different experience that provides some, but not all, of the capabilities of the filter pane.
-
 ## Will Microsoft extend the filter pane experience?
-At Microsoft, we're constantly listening to feedback from our diverse community of users and acting upon the top community suggestions. If you are interested in extending the filter pane to more form factors, more types of lists and reports, or have a great idea on how to improve it, add an idea or vote for existing ideas at [aka.ms/BusinessCentralIdeas](https://aka.ms/businesscentralideas).
+At Microsoft, we're constantly listening to feedback from our diverse community of users and acting upon the top community suggestions. If you are interested in extending the filter pane to more form factors and more types of lists, or have a great idea on how to improve it, add an idea or vote for existing ideas at [aka.ms/BusinessCentralIdeas](https://aka.ms/businesscentralideas).
 
 ## Can I do anything about the "Searching for rows is taking too long" message?
 

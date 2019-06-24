@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 04/01/2019
+ms.date: 06/24/2019
 ms.author: sgroespe
 
 ---
@@ -19,6 +19,7 @@ ms.author: sgroespe
 You can import electronic bank statements from your bank to quickly fill on the **Payment Reconciliation Journal** page so you can apply payments and reconcile the bank account. For more information, see [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 > [!NOTE]
+> If you have a financial consultant who uses the Yodlee platform, the Envestnet Yodlee Bank Feeds service is installed as an extension to Business Central and is ready to be enabled. Ask your financial consultant for more details.<br /><br />
 > The Envestnet Yodlee Bank Feeds service is only supported in the online version of Business Central. To use this functionality on-premises, you must obtain a cobrand account from Envestnet Yodlee.<br /><br />
 > The Envestnet Yodlee Bank Feeds service is only supported in the US, Canada, and UK.
 

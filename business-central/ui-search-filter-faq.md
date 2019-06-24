@@ -38,7 +38,7 @@ See also [Is the filter pane available for filtering reports?](#is-the-filter-pa
 On different display targets such as mobile devices or in Outlook, you can search in lists but cannot filter on individual fields in most cases.
 
 ## Is the filter pane available for filtering reports?
-No. The report filter dialog, commonly referred to as the request page, currently use a different experience that provides some, but not all, of the capabilities of the filter pane.
+No. The report filter dialog, commonly referred to as the request page, currently uses a different experience that provides some, but not all, of the capabilities of the filter pane.
 
 ## Will Microsoft extend the filter pane experience?
 At Microsoft, we're constantly listening to feedback from our diverse community of users and acting upon the top community suggestions. If you are interested in extending the filter pane to more form factors, more types of lists and reports, or have a great idea on how to improve it, add an idea or vote for existing ideas at [aka.ms/BusinessCentralIdeas](https://aka.ms/businesscentralideas).

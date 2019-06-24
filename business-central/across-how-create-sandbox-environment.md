@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 04/01/2019
+ms.date: 06/19/2019
 ms.author: solsen
 
 ---
@@ -22,29 +22,36 @@ A sandbox environment (Preview) is a non-production instance of [!INCLUDE[d365fi
 You must have a subscription to [!INCLUDE[d365fin](includes/d365fin_md.md)] to be able to create a sandbox environment. There can only be one sandbox environment per subscription.
 
 1. Sign in to your production instance of the [!INCLUDE[d365fin](includes/d365fin_md.md)] service.
+
 2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sandbox Environment**, and then choose the related link.
 <!-- ![Sandbox Environment Setup](./media/across-sandbox/sandbox-environment-setup.png) -->
-3. Select **Create**.  
-  Another tab in your browser will open for finishing the setup of your sandbox environment.
-> [!NOTE]  
->  If you have pop-up blocker enabled in your browser, change it to allow URLs from the *.businesscentral.dynamics.com address.   
+3. Choose the **Create** button.  
+
+    Another tab with [!INCLUDE[d365fin](includes/d365fin_md.md)] opens where you can finish the setup of your sandbox environment.
+
+    > [!NOTE]  
+    >  If you have pop-up blocker enabled in your browser, change it to allow URLs from the *.businesscentral.dynamics.com address.
 
 4. When the sandbox environment is ready, you will be redirected to sandbox environment's Welcome wizard.
 <!-- ![Sandbox Welcome Wizard](./media/across-sandbox/sandbox-wizard.png) -->
 
-5. Choose **Learn more** to read about scenarios that you can try in a sandbox environment. Or, choose **Close** to continue to the Role Center of your [!INCLUDE[d365fin](includes/d365fin_md.md)] sandbox instance.
-6. At the top of the Role Center, a notification appears to inform you that this is a sandbox environment. You can also see the type of the environment in the title bar of the client.
-<!-- ![Sandbox RoleCenter Notification](./media/across-sandbox/sandbox-rolecenter-notification.png) --> 
-In the sandbox environment, a new tenant has been created. This tenant is loaded with default demonstration data for the CRONUS company. No data is copied or otherwise transferred from the production environment during the sandbox creation.
+5. Choose the **Learn more** button to read about scenarios that you can try in a sandbox environment or choose the **Close** button to continue to the Role Center of your [!INCLUDE[d365fin](includes/d365fin_md.md)] sandbox instance.
 
-7. At any time, you can return to the **Sandbox Environment** page, and reset the sandbox environment.
-> [!NOTE]  
->  Resetting the sandbox environment will remove it completely, and then create it again with the default demonstration data.  
+    At the top of the Role Center, a notification appears to inform you that this is a sandbox environment. You can also see the type of the environment in the title bar of the client.
+    <!-- ![Sandbox RoleCenter Notification](./media/across-sandbox/sandbox-rolecenter-notification.png) -->
 
-8. To switch between your production and sandbox environments, you can use the Business Central app launcher.
+    > [!NOTE]
+    > A sandbox environment created in this way only contains the default demonstration data for the CRONUS company. No data is copied or otherwise transferred from the production environment.<br /><br />
+    > You can also create a sandbox environment containing the production data. You must do this through the administration center. For more information, see [Managing Environments](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) in the Developer and IT-Pro help.
+
+6. At any time, you can return to the **Sandbox Environment** page, and reset the sandbox environment.
+    > [!NOTE]  
+    >  Resetting the sandbox environment will remove it completely, and then create it again with the default demonstration data.  
+
+7. To switch between your production and sandbox environments, you can use the Business Central app launcher.
 <!-- ![Sandbox Dynamics365 Menu](./media/across-sandbox/sandbox-dynamics365-menu.png) -->
 
-9. It is possible for an administrator or another user to limit or even block access for some users to the sandbox environment. This can be done by using the standard security features of the product, such as the User card, User Groups, and Permission Sets.
+8. It is possible for an administrator or another user to limit or even block access for some users to the sandbox environment. This can be done by using the standard security features of the product, such as the User card, user groups, and permission sets.
 
 <!-- ![Sandbox Permission Sets](./media/across-sandbox/sandbox-permission-sets.png) -->
 

@@ -80,7 +80,7 @@
 ### [Set Up Bank Accounts](bank-how-setup-bank-accounts.md)
 ### [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)
 ### [Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md)
-### [Define Check Layouts](finance-how-define-check-layouts.md)
+### [Select a Check Layout](finance-how-define-check-layouts.md)
 
 ## Setting Up Sales
 ### [Overview](sales-setup-sales.md)

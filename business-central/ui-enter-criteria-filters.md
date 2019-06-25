@@ -18,7 +18,7 @@ There are a few things that you can do that will help you scan, find, and limit 
 For reports, you can set filters as on lists to delimit which data to include in the report, but you cannot sort and search.
 
 > [!TIP]
-> When viewing your data as tiles, you can search and use basic filtering. To use the full set of powerful features for sorting, searching, and filtering, choose the ![Show as list](media/ui_show_as_list_icon.png "Show as list arrow left") icon to show as a list.
+> When viewing your data as tiles, you can search and use basic filtering. To use the full set of powerful features for sorting, searching, and filtering, choose the ![Show as list](media/ui_show_as_list_icon.png "Show as list arrow left") icon to view the records as a list.
 
 <!--
 When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria, you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
@@ -103,7 +103,7 @@ The filter pane displays the current filters for a list, and enables you to set 
 You can set a simple filter directly on a list within using the filter pane, namely a filter that displays only records with the same value as in the selected cell. Select a cell on the list, choose the drop-down arrow, and then choose the **Filter to This Value** action. Alternatively, press **Alt+F3**.
 
 ### Setting Filters in Reports
-For reports, the filters are visible directly on the report request page. The request page displays the last used filters according to your selection in the **Use default values from** field.
+For reports, the filters are visible directly on the report request page. The request page displays the last used filters according to your selection in the **Use default values from** field. For more information, see [Using Saved Settings](ui-work-report.md#SavedSettings).
 
 The main **Filter** section shows the default filter fields that you use to delimit which records to include in the report. To add a filter, choose the **+ Filter** action, type the name of the field that you want to filter by, or pick a field from the drop-down list.
 
@@ -256,4 +256,4 @@ Use `%myvendors` in the vendor **No** field to display all records for vendors t
 
 ## See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Common questions about Searching and Filtering](ui-search-filter-faq.md)
+[Searching and Filtering FAQ](ui-search-filter-faq.md)

@@ -8,12 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 06/20/2019
+ms.date: 06/25/2019
 ms.author: sgroespe
 
 ---
 # Sorting, Searching, and Filtering Lists
-There are a few things that you can do that will help you scan, find, and limit records in a list or a report. These include sorting, searching, and filtering. You can apply some or all of these simultaneously to quickly find or analyze your data. For reports, you can set any filter to delimit which data to include.
+There are a few things that you can do that will help you scan, find, and limit records in a list or a report. These include sorting, searching, and filtering. You can apply some or all of these simultaneously to quickly find or analyze your data.
+
+For reports, you can set filters as on lists to delimit which data to include in the report, but you cannot sort and search.
 
 > [!TIP]
 > When viewing your data as tiles, you can search and use basic filtering. To use the full set of powerful features for sorting, searching and filtering, choose the ![Show as list](media/ui_show_as_list_icon.png "Show as list arrow left") icon to show as a list.
@@ -70,23 +72,20 @@ Filtering provides a more advanced and versatile way of controlling which record
 | **Applicable fields** | Searches across all fields that are visible on the page. | Filters one or more fields individually, selecting from any field on the table, including fields that are not visible on the page. |
 | **Matching** | Displays records with fields that match the search text, irrespective of casing or placement of that text. | Displays records where the field matches the filter exactly and is case sensitive, unless special filter symbols are entered.
 
-Filtering enables you to display records for specific accounts or customers, dates, amounts, and other information by specifying filter criteria. Only records that match the criteria are displayed. If you specify criteria for multiple fields, then only records that match all criteria will be displayed.
+Filtering enables you to display records for specific accounts or customers, dates, amounts, and other information by specifying filter criteria. Only records that match the criteria are displayed on the list or included in the report. If you specify criteria for multiple fields, then only records that match all criteria will be displayed.
 
-### Working in the Filter Pane
+For lists, the filters are displayed on a filter pane appears that appears to the left of the list when you activate it. For reports, the filters are visible directly on the report request page.
 
-**New**To display the filter pane for a column, open the drop-down menu, and then choose the **Filter** action or press **Shift+F3**.
+### Setting Filters on Lists
+On lists, you set filters by using the filter pane.
 
-On reports *** waiting for build***
+To display the filter pane for a list, choose the drop-down arrow next to the name of the page, and then choose the **Show filter pane** action. Alternatively, press **Shift+F3**.
 
-**Old**To display the filter pane, select the ![Filter pane icon](media/open-filter-pane-icon.png "Filter pane icon") icon at the top of the list or press **Shift+F3**. For lists within the Role Center, you can also choose the down arrow near the page title in the navigation bar above the list, and then choose **Show filter pane** as shown here:
+To display the filter pane for a column on a list, choose the drop-down arrow, and then choose the **Filter** action. Alternatively, press **Shift+F3**. The filter pane opens with the selected column shown as a filter field in the **Filter list by** section.
 
-![Show filter pane](media/open-filter-pane.png "Show filter pane")
+The filter pane displays the current filters for a list, and enables you to set your own custom filters on one or more fields by choosing the **+ Filter** action.
 
-The filter pane displays the current filters for a list, and enables you to set your own custom filters on one or more fields. The following figure shows an example filter pane for a Sales Quotes list.
-
-![Filter pane overview ](media/filter-pane-overview.png "Filter icon")
-
-A filter pane is divided in three sections: **Views**, **Filter list by**, and **Filter totals by**:
+ A filter pane is divided in three sections: **Views**, **Filter list by**, and **Filter totals by**:
 
 - **Views**
 
@@ -94,37 +93,33 @@ A filter pane is divided in three sections: **Views**, **Filter list by**, and *
 
 - **Filter list by**
 
-  The **Filter list by** section is where you add filters on specific fields to reduce the number of displayed records. To add a filter, select **+ Filter**, select the field that you want to filter from any field in the table, and then enter filter criteria in the box.
+  This is where you add filters on specific fields to reduce the number of displayed records. To add a filter, choose the **+ Filter** action, type the name of the field that you want to filter the list by, or pick a field from the drop-down list.
 
 - **Filter totals by**
 
-  Some lists that display calculated fields, such as amounts and quantities, will include the **Filter totals by** section where you can adjust various dimensions that influence calculations. For example, you can quickly analyze your chart of accounts by filtering amounts to a specific period, or you can view the totals for sales orders only from a specific warehouse.
-
-  To add a filter, select **+ Filter**, select one of the predefined dimensions, and then add the filter criteria in the box.
+  Some lists that display calculated fields, such as amounts and quantities, will include the **Filter totals by** section where you can adjust various dimensions that influence calculations. To add a filter, choose the **+ Filter** action, type the name of the field that you want to filter the list by, or pick a field from the drop-down list.
 
   > [!NOTE]
   > Filters in the **Filter totals by** section are controlled by FlowFilters on the page design. For technical information, see [FlowFilters](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
 
+You can set a simple filter directly on a list within using the filter pane, namely a filter that displays only records with the same value as in the selected cell. Select a cell in the list, choose the drop-down arrow, and then choose the **Filter to This Value** action. Alternatively, press **Alt+F3**.
 
-### Entering Filter Criteria in the Filter Pane
-To select a field to filter, do one of the following:
-  - In the filter pane, choose **+ Field**. Type the name of the field you wish to filter, or pick a field from the menu that displays all fields in the table.
+### Setting Filters in Reports
+For reports, the filters are visible directly on the report request page. The request page displays the last used filters according to your selection in the **Use default values from** field.
 
-  - In a column heading, choose the down arrow, and then choose **Filter...**. This will open the filter pane and add the column to the filter pane.
+The main **Filter** section shows the default filter fields that you use to delimit which records to include in the report. To add a filter, choose the **+ Filter** action, type the name of the field that you want to filter by, or pick a field from the drop-down list.
 
-You can now type or select your filter criteria in the box. The type of field you filter determines which criteria you can enter. For example, filtering a field that has fixed values will only let you choose from those values. For more information about special filter symbols, see [Filter criteria](#FilterCriteria) and [Filter tokens](#FilterTokens).
+In the **Filter totals by** section, you can adjust various dimensions that influence calculations in the report. To add a filter, choose the **+ Filter** action, type the name of the field that you want to filter by, or pick a field from the drop-down list.
 
-Columns that already have filters are indicated by the ![Filter icon](media/ui-search/filter-icon.png "Filter icon") in the column heading. To remove a filter, select the column heading, then choose **Clear Filter**.
+### Entering Filter Criteria
+Both in the filter pane and on a report request page, you enter your filter criteria in the box under the filter field.
 
+The type of the filter field determines which criteria you can enter. For example, filtering a field that has fixed values will only let you choose from those values. For more information about special filter symbols, see [Filter criteria](#FilterCriteria) and [Filter tokens](#FilterTokens).
 
-### Entering Filter Criteria Without Using the Filter Pane
-You can specify simple filters directly within the list without having to use the filter pane.
-With any field selected on a row, use the **Alt+F3** keyboard shortcut to display only the records having that same value. You can then select another field and use the same shortcut again to continue refining your filters. If the selected field is already filtered, using **Alt+F3** will clear that filter.
+Columns that already have filters are indicated by the ![Filter icon](media/ui-search/filter-icon.png "Filter icon") in the column heading. To remove a filter, choose the drop-down arrow, and then choose the **Clear Filter** action.
 
 > [!TIP]
-> Accelerate finding and analyzing your data by using combinations of keyboard shortcuts. For example, select a field, use **Shift+Alt+F3** to add that field to the filter pane, type the filter criteria, use **Ctrl+Enter** to return to the rows, select another field, and use **Alt+F3** to filter to that value.
-For more information see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
-
+> Accelerate finding and analyzing your data by using combinations of keyboard shortcuts. For example, select a field, use **Shift+Alt+F3** to add that field to the filter pane, type the filter criteria, use **Ctrl+Enter** to return to the rows, select another field, and use **Alt+F3** to filter to that value. For more information see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
 
 ## <a name="FilterCriteria"> </a>Filter Criteria and Symbols
 When you enter criteria, you can use all the numbers and letters that you can normally use in the field. In addition, you can use special symbols to further filter the results. The following tables show the symbols which can be used in filters. For dates and times, you can also refer to [Working with Calendar Dates and Times](ui-enter-date-ranges.md) for more detailed information.
@@ -223,13 +218,11 @@ When you enter criteria, you can use all the numbers and letters that you can no
 |`..1299|1400..`|Include records with a number less than or equal to 1299 or a number equal to 1400 or greater (all numbers except 1300 through 1399).|  
 |`>50&<100`|Include records with numbers that are greater than 50 and less than 100 (numbers 51 through 99).|  
 
-
 ## <a name="FilterTokens"> </a>Filter Tokens
 When entering filter criteria, you can also type words that have special meaning, called filter tokens. After entering the token word, the word is replaced by the value or values that it represents. This makes filtering easier by reducing the need to navigate to other pages to look up values you want to add to your filter. The tables below describe some of the tokens you can type as filter criteria.
 
 > [!TIP]
 > Your organization may use custom tokens. To learn about the complete set of tokens available to you or to add more custom tokens, talk to your administrator. For technical information see [Adding Filter Tokens](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens).
-
 
 ### (%me or %userid) Records Assigned to You
 
@@ -262,7 +255,6 @@ Use `%myvendors` in the vendor **No** field to display all records for vendors t
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`%myvendors`|Vendors in the **My Vendors** on your Role Center. |  
-
 
 ## See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

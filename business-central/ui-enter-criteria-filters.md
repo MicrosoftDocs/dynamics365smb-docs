@@ -12,13 +12,13 @@ ms.date: 06/25/2019
 ms.author: sgroespe
 
 ---
-# Sorting, Searching, and Filtering Lists
-There are a few things that you can do that will help you scan, find, and limit records in a list or a report. These include sorting, searching, and filtering. You can apply some or all of these simultaneously to quickly find or analyze your data.
+# Sorting, Searching, and Filtering
+There are a few things that you can do that will help you scan, find, and limit records on a list or in a report. These include sorting, searching, and filtering. You can apply some or all of these simultaneously to quickly find or analyze your data.
 
 For reports, you can set filters as on lists to delimit which data to include in the report, but you cannot sort and search.
 
 > [!TIP]
-> When viewing your data as tiles, you can search and use basic filtering. To use the full set of powerful features for sorting, searching and filtering, choose the ![Show as list](media/ui_show_as_list_icon.png "Show as list arrow left") icon to show as a list.
+> When viewing your data as tiles, you can search and use basic filtering. To use the full set of powerful features for sorting, searching, and filtering, choose the ![Show as list](media/ui_show_as_list_icon.png "Show as list arrow left") icon to show as a list.
 
 <!--
 When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria, you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
@@ -27,21 +27,21 @@ When you want to search for data, such as customer names, addresses, or product 
 ## Sorting
 Sorting makes it easy for you to get a quick overview of your data. If you have many customers, for example, you can choose to sort them by **Customer No.**, **Customer Posting Group**, **Currency Code**, **Country Region Code**, or **Sales Tax Registration No.** to get the overview you need.
 
-To sort a list, you can either choose a column heading text to toggle between ascending and descending order, or choose the small down arrow in the column heading, and then choose **Ascending** or **Descending**.  
+To sort a list, you can either choose a column heading text to toggle between ascending and descending order, or choose the drop-down arrow in the column heading, and then choose the **Ascending** or **Descending** action.  
 
 > [!NOTE]  
 >   Sorting is not supported on images, BLOB fields, FlowFilters, and fields that do not belong to a table.  
 
 ## Searching
 <!--## Searching by using the Quick Filter -->
-At the top of each list page, there is a ![Search list](media/ui-search/search-list.png "Search list icon") **Search** icon that provides a quick and easy way to reduce the records in a list and display only those records that contain the data that you are interested in seeing.
+At the top of each list page, there is a ![Search list](media/ui-search/search-list.png "Search list icon") **Search** action that provides a quick and easy way to reduce the records in a list and display only those records that contain the data that you are interested in seeing.
 
-To search, simply select the search icon, and then in the box, type the text that you are looking for. You can enter letters, numbers, and other symbols.
+To search, simply choose the **Search** action, and then in the box, type the text that you are looking for. You can enter letters, numbers, and other symbols.
 
 ### Fine-tuning the Search
-In general, search will attempt to match text across all fields; it does not distinguish between uppercase and lowercase characters (in other words, case insensitive), and will match text placed anywhere in the field (at the beginning, end, or in the middle).
+In general, search will attempt to match text across all fields. It does not distinguish between uppercase and lowercase characters (case insensitive) and will match text placed anywhere in the field, at the beginning, end, or in the middle.
 
-However, you can make a more exact search by using the following special characters:
+However, you can make a more exact search by using special characters.
 
 - To find only field values that match the entire text and case exactly, place the search text between single quotes `''` (for example, `'man'`).
 
@@ -62,24 +62,22 @@ The following table provides some examples to explain how you can use the search
 |`@*man`|All records that end with **man**, regardless of the case. For example **Sportsman**, but not **Manchester** or **manual**.|
 
 > [!TIP]
-> You can press F3 to activate and deactivate the search box. For more information see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
+> You can press **F3** to activate and deactivate the search box. For more information see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
 
 ## <a name="Filtering"> </a>Filtering
-Filtering provides a more advanced and versatile way of controlling which records display in a list or in a report. There are two major differences between searching and filtering, as described in the table below.
+Filtering provides a more advanced and versatile way of controlling which records display on a list or in a report. There are two major differences between searching and filtering, as described in the table below.
 
 || **Searching** | **Filtering** |
 |--|----------|------------|
-| **Applicable fields** | Searches across all fields that are visible on the page. | Filters one or more fields individually, selecting from any field on the table, including fields that are not visible on the page. |
+| **Applicable Fields** | Searches across all fields that are visible on the page. | Filters one or more fields individually, selecting from any field on the table, including fields that are not visible on the page. |
 | **Matching** | Displays records with fields that match the search text, irrespective of casing or placement of that text. | Displays records where the field matches the filter exactly and is case sensitive, unless special filter symbols are entered.
 
 Filtering enables you to display records for specific accounts or customers, dates, amounts, and other information by specifying filter criteria. Only records that match the criteria are displayed on the list or included in the report. If you specify criteria for multiple fields, then only records that match all criteria will be displayed.
 
-For lists, the filters are displayed on a filter pane appears that appears to the left of the list when you activate it. For reports, the filters are visible directly on the report request page.
+For lists, the filters are displayed on a filter pane that appears to the left of the list when you activate it. For reports, the filters are visible directly on the report request page.
 
 ### Setting Filters on Lists
-On lists, you set filters by using the filter pane.
-
-To display the filter pane for a list, choose the drop-down arrow next to the name of the page, and then choose the **Show filter pane** action. Alternatively, press **Shift+F3**.
+On lists, you set filters by using the filter pane. To display the filter pane for a list, choose the drop-down arrow next to the name of the page, and then choose the **Show filter pane** action. Alternatively, press **Shift+F3**.
 
 To display the filter pane for a column on a list, choose the drop-down arrow, and then choose the **Filter** action. Alternatively, press **Shift+F3**. The filter pane opens with the selected column shown as a filter field in the **Filter list by** section.
 
@@ -102,7 +100,7 @@ The filter pane displays the current filters for a list, and enables you to set 
   > [!NOTE]
   > Filters in the **Filter totals by** section are controlled by FlowFilters on the page design. For technical information, see [FlowFilters](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
 
-You can set a simple filter directly on a list within using the filter pane, namely a filter that displays only records with the same value as in the selected cell. Select a cell in the list, choose the drop-down arrow, and then choose the **Filter to This Value** action. Alternatively, press **Alt+F3**.
+You can set a simple filter directly on a list within using the filter pane, namely a filter that displays only records with the same value as in the selected cell. Select a cell on the list, choose the drop-down arrow, and then choose the **Filter to This Value** action. Alternatively, press **Alt+F3**.
 
 ### Setting Filters in Reports
 For reports, the filters are visible directly on the report request page. The request page displays the last used filters according to your selection in the **Use default values from** field.
@@ -116,7 +114,7 @@ Both in the filter pane and on a report request page, you enter your filter crit
 
 The type of the filter field determines which criteria you can enter. For example, filtering a field that has fixed values will only let you choose from those values. For more information about special filter symbols, see [Filter criteria](#FilterCriteria) and [Filter tokens](#FilterTokens).
 
-Columns that already have filters are indicated by the ![Filter icon](media/ui-search/filter-icon.png "Filter icon") in the column heading. To remove a filter, choose the drop-down arrow, and then choose the **Clear Filter** action.
+Columns that already have filters are indicated by the ![Filter icon](media/ui-search/filter-icon.png "Filter icon") icon in the column heading. To remove a filter, choose the drop-down arrow, and then choose the **Clear Filter** action.
 
 > [!TIP]
 > Accelerate finding and analyzing your data by using combinations of keyboard shortcuts. For example, select a field, use **Shift+Alt+F3** to add that field to the filter pane, type the filter criteria, use **Ctrl+Enter** to return to the rows, select another field, and use **Alt+F3** to filter to that value. For more information see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).

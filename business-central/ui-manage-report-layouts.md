@@ -3,7 +3,7 @@ title: Custom and Built-In Layouts for Reports and Documents | Microsoft Docs
 description: Use report layouts to customize documents, for example, to personalize the font, logo, or page settings of PDF files you send to customers.
 services: project-madeira
 documentationcenter: ''
-author: SusanneWindfeldPedersen
+author: SorenGP
 
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,8 +11,8 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 05/22/2019
-ms.author: solsen
+ms.date: 06/25/2019
+ms.author: sgroespe
 
 ---
 # Managing Report and Document Layouts
@@ -52,7 +52,7 @@ The general design concepts for Word and RDLC layouts are very similar. However 
 
 The process for setting up Word report layouts and RDLC report layouts on reports is the same. The main difference is in the way you modify the layouts. Word report layouts are typically easier to create and modify than RDLC report layouts because you can use Word. RDLC report layouts are modified by using SQL Server Report builder which targets more advanced users.
 
-For information on how to change which layout to use, see [Change Which Layout is Currently Used on a Report](ui-how-change-layout-currently-used-report.md).
+For information on how to change which layout to use, see [Change the Current Report Layout](ui-how-change-layout-currently-used-report.md).
 
 ## See Also
 [Updating Report or Document Layouts](ui-update-report-layouts.md)  

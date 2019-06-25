@@ -38,7 +38,7 @@
 ### [Working with Reports and Batch Jobs](ui-work-report.md)
 ### [Specify Printer Selection for Reports](ui-specify-printer-selection-reports.md)
 ### [Schedule a Report or Batch Job to Run](ui-work-report.md#ScheduleReport)
-### [Managing Saved Settings on Reports](reports-saving-reusing-settings.md)
+### [Manage Saved Settings on Reports](reports-saving-reusing-settings.md)
 ### [View Test Reports Before Posting](ui-how-view-test-reports-posting.md)
 ### [Run Batch Jobs](ui-how-run-batch-jobs.md)
 ## Changing how Documents Look
@@ -46,7 +46,7 @@
 ### [Updating Report or Document Layouts](ui-update-report-layouts.md)
 ### [Making Changes to a Word Report Layout](ui-how-create-custom-report-layout.md)
 ### [Import and Export a Report or Document Layout](ui-how-import-and-export-report-layout.md)
-### [Change Which Layout is Currently Used on a Report](ui-how-change-layout-currently-used-report.md)
+### [Change the Current Report Layout](ui-how-change-layout-currently-used-report.md)
 ### [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md)
 ## Using Keyboard Shortcuts
 ### [Accessibility and Keyboard Shortcuts](ui-accessibility.md)

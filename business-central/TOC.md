@@ -20,7 +20,7 @@
 ## [Overview](ui-work-product.md)
 ## [Finding Features and Information](ui-search.md)
 ## [Tell Me FAQ](ui-search-faq.md)
-## [Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md)
+## [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)
 ## [Searching and Filtering FAQ](ui-search-filter-faq.md)
 ## [Entering Data](ui-enter-data.md)
 ## [Working with Calendar Dates and Times](ui-enter-date-ranges.md)

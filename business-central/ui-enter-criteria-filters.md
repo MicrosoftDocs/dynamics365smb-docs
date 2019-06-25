@@ -255,5 +255,5 @@ Use `%myvendors` in the vendor **No** field to display all records for vendors t
 |`%myvendors`|Vendors in the **My Vendors** on your Role Center. |  
 
 ## See Also
+[Searching and Filtering FAQ](ui-search-filter-faq.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Searching and Filtering FAQ](ui-search-filter-faq.md)

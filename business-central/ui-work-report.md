@@ -9,36 +9,36 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report
-ms.date: 06/25/2019
+ms.date: 06/26/2019
 ms.author: sgroespe
 
 ---
-# Working with Reports and Batch Jobs
+# Working with Reports, Batch Jobs, and XMLports
 A report gathers information based on a specified set of criteria, and organizes and presents the information in an easy-to-read format that you can print or save as a file. There are many reports that you can access throughout the application. The reports typically provide information relative to the context of the page you are on. For example, the **Customer** page includes reports for the top 10 customers, sales statistics, and more.
 
-Batch jobs do more or less the same as reports, but for the purpose of performing a process. For example, the **Create Reminders** batch job creates reminder documents for customers with overdue payments.  
+Batch jobs and XMLports do more or less the same as reports, but for the purpose of performing a process or exporting data. For example, the **Create Reminders** batch job creates reminder documents for customers with overdue payments.  
 
 > [!NOTE]
-> This topic refers mainly to "report", but similar information applies to batch jobs.
+> This topic refers mainly to "report", but similar information applies to batch jobs and XMLports.
 
 You can find reports in the **Reports** tab on selected pages, or you can use search ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") to find reports by name.
 
 ## Specifying the Data to Include in Reports
-When you open a report or a batch job, you are typically presented with a report request page where you set various options and filters that determine what to include in the report.
+When you open a report, batch job, or XMLport, you are typically presented with a request page where you set various options and filters that determine what to include in the report.
 
 You set filters in a report in more or less the same way as you set filters on lists. For more information, see [Filtering](ui-enter-criteria-filters.md#-filtering).
 
 > [!Caution]
-> The **Filter list by** section on a report request page provides a generic filtering capability for reports. These filters are optional.<br /><br /> Some reports will ignore any such filters, meaning that no matter what filter is set in the **Filter list by** section, the output of the report is the same. It is not possible to provide a list of which fields are ignored in which reports, so you will have to experiment with the filters when using them.<br /><br />
+> The **Filter list by** section on a request page provides a generic filtering capability for reports. These filters are optional.<br /><br /> Some reports will ignore any such filters, meaning that no matter what filter is set in the **Filter list by** section, the output of the report is the same. It is not possible to provide a list of which fields are ignored in which reports, so you will have to experiment with the filters when using them.<br /><br />
 **Example**: When you use the **Create Reminders** batch job, a filter for the **Customer Ledger Entries** field of **Last Issued Reminder Level** will be ignored because filters are fixed for that batch job.
 
 ## <a name="SavedSettings"></a>Using Saved Settings
-The report request page can include the **Saved Settings** section that contains one or more entries in the **Use default value from** box. A saved setting is basically a predefined group of options and filters that you can apply to the report before previewing or sending the report to a file. The saved settings entry called **Last used options and filters** is always available. This entry sets the report to use options and filters that were used the last time you used the report.
+The request page can include the **Saved Settings** section that contains one or more entries in the **Use default value from** box. A saved setting is basically a predefined group of options and filters that you can apply to the report before previewing or sending the report to a file. The saved settings entry called **Last used options and filters** is always available. This entry sets the report to use options and filters that were used the last time you used the report.
 
 Using saved settings is a fast and reliable way to consistently generate reports that contain the correct data. After you set the **Use default value from** box to a saved settings entry, you can change any of the options and filters before previewing or saving the report. The changes that you make will not be saved to the saved settings entry you selected, but they will be saved to the **Last used options and filters** entry.
 
 >[!NOTE]
->If you are an administrator, you can create and manage the saved settings for reports for all users. For more information, see [Manage Saved Settings on Reports](reports-saving-reusing-settings.md).
+>If you are an administrator, you can create and manage the saved settings for reports for all users. For more information, see [Manage Saved Settings on Reports, Batch Jobs, and XMLports](reports-saving-reusing-settings.md).
 
 ## Previewing a Report
 Choose the **Preview** button to view the report in the. Use the menu bar on the report preview to:

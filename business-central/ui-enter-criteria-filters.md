@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 06/25/2019
+ms.date: 06/26/2019
 ms.author: sgroespe
 
 ---
 # Sorting, Searching, and Filtering
-There are a few things that you can do that will help you scan, find, and limit records on a list or in a report. These include sorting, searching, and filtering. You can apply some or all of these simultaneously to quickly find or analyze your data.
+There are a few things that you can do that will help you scan, find, and limit records on a list or in a report or XMLport. These include sorting, searching, and filtering. You can apply some or all of these simultaneously to quickly find or analyze your data.
 
-For reports, you can set filters as on lists to delimit which data to include in the report, but you cannot sort and search.
+For reports and XMLports, you can set filters as on lists to delimit which data to include in the report or XMLport, but you cannot sort and search.
 
 > [!TIP]
 > When viewing your data as tiles, you can search and use basic filtering. To use the full set of powerful features for sorting, searching, and filtering, choose the ![Show as list](media/ui_show_as_list_icon.png "Show as list arrow left") icon to view the records as a list.
@@ -65,16 +65,16 @@ The following table provides some examples to explain how you can use the search
 > You can press **F3** to activate and deactivate the search box. For more information see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
 
 ## <a name="Filtering"> </a>Filtering
-Filtering provides a more advanced and versatile way of controlling which records display on a list or in a report. There are two major differences between searching and filtering, as described in the table below.
+Filtering provides a more advanced and versatile way of controlling which records display on a list or include in a report or XMLport. There are two major differences between searching and filtering, as described in the table below.
 
 || **Searching** | **Filtering** |
 |--|----------|------------|
 | **Applicable Fields** | Searches across all fields that are visible on the page. | Filters one or more fields individually, selecting from any field on the table, including fields that are not visible on the page. |
 | **Matching** | Displays records with fields that match the search text, irrespective of casing or placement of that text. | Displays records where the field matches the filter exactly and is case sensitive, unless special filter symbols are entered.
 
-Filtering enables you to display records for specific accounts or customers, dates, amounts, and other information by specifying filter criteria. Only records that match the criteria are displayed on the list or included in the report. If you specify criteria for multiple fields, then only records that match all criteria will be displayed.
+Filtering enables you to display records for specific accounts or customers, dates, amounts, and other information by specifying filter criteria. Only records that match the criteria are displayed on the list or included in the report or XMLport. If you specify criteria for multiple fields, then only records that match all criteria will be displayed.
 
-For lists, the filters are displayed on a filter pane that appears to the left of the list when you activate it. For reports, the filters are visible directly on the report request page.
+For lists, the filters are displayed on a filter pane that appears to the left of the list when you activate it. For reports and XMLports, the filters are visible directly on the request page.
 
 ### Setting Filters on Lists
 On lists, you set filters by using the filter pane. To display the filter pane for a list, choose the drop-down arrow next to the name of the page, and then choose the **Show filter pane** action. Alternatively, press **Shift+F3**.
@@ -102,15 +102,15 @@ The filter pane displays the current filters for a list, and enables you to set 
 
 You can set a simple filter directly on a list within using the filter pane, namely a filter that displays only records with the same value as in the selected cell. Select a cell on the list, choose the drop-down arrow, and then choose the **Filter to This Value** action. Alternatively, press **Alt+F3**.
 
-### Setting Filters in Reports
-For reports, the filters are visible directly on the report request page. The request page displays the last used filters according to your selection in the **Use default values from** field. For more information, see [Using Saved Settings](ui-work-report.md#SavedSettings).
+### Setting Filters in Reports and XMLports
+For reports and XMLports, the filters are visible directly on the request page. The request page displays the last used filters according to your selection in the **Use default values from** field. For more information, see [Using Saved Settings](ui-work-report.md#SavedSettings).
 
-The main **Filter** section shows the default filter fields that you use to delimit which records to include in the report. To add a filter, choose the **+ Filter** action, type the name of the field that you want to filter by, or pick a field from the drop-down list.
+The main **Filter** section shows the default filter fields that you use to delimit which records to include in the report or XMLport. To add a filter, choose the **+ Filter** action, type the name of the field that you want to filter by, or pick a field from the drop-down list.
 
-In the **Filter totals by** section, you can adjust various dimensions that influence calculations in the report. To add a filter, choose the **+ Filter** action, type the name of the field that you want to filter by, or pick a field from the drop-down list.
+In the **Filter totals by** section, you can adjust various dimensions that influence calculations in the report or XMLport. To add a filter, choose the **+ Filter** action, type the name of the field that you want to filter by, or pick a field from the drop-down list.
 
 ### Entering Filter Criteria
-Both in the filter pane and on a report request page, you enter your filter criteria in the box under the filter field.
+Both in the filter pane and on a request page, you enter your filter criteria in the box under the filter field.
 
 The type of the filter field determines which criteria you can enter. For example, filtering a field that has fixed values will only let you choose from those values. For more information about special filter symbols, see [Filter criteria](#FilterCriteria) and [Filter tokens](#FilterTokens).
 

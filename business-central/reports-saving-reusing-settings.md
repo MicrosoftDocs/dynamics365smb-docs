@@ -9,12 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customization, personalization
-ms.date: 06/25/2019
+ms.date: 06/26/2019
 ms.author: sgroespe
 
 ---
-# Manage Saved Settings in Reports
-When running reports, users are typically presented with a page that lets them set certain options and filters to change the data that is included in the generated report. This page is called the report request page. A report can include one or more *saved settings* that users can apply to the report from the request page. *Saved settings* are basically predefined options and filters. Using saved settings is a fast and reliable way to consistently generate reports that contain the correct data. For more information, see [Using Saved Settings](ui-work-report.md#SavedSettings).
+# Manage Saved Settings in Reports, Batch jobs, and XMLports
+When running reports, users are typically presented with a page that lets them select options and and set filters to change the data that is included in the generated report. This page is called the request page. A report can include one or more *saved settings* that users can apply to the report from the request page. *Saved settings* are basically predefined options and filters. Using saved settings is a fast and reliable way to consistently generate reports that contain the correct data. For more information, see [Using Saved Settings](ui-work-report.md#SavedSettings).
+
+> [!NOTE]
+> This topic refers mainly to "report", but similar information applies to batch jobs and XMLports.
 
 If you have the proper permissions, you can view, create, and modify the saved settings for all reports for all users in a company. You can assign saved settings for a report to individual users or to all users in the company.
 
@@ -22,7 +25,7 @@ If you have the proper permissions, you can view, create, and modify the saved s
 ## Apply saved settings to a report
 1. Open the report.
 
-   The report request page appears.    
+   The request page appears.    
 2. In the **Saved Settings** section of the page, set the **Name** field  to the saved settings that you want to use.
 
    The **Saved Settings** section only appears if the report has been run before or if there are existing saved settings entries. The saved settings entry called **Last used options and filters** is always available. These settings are the option and filter values that were used the last time you ran the report.
@@ -42,10 +45,10 @@ From the **Report Settings** page, you can:
 -   Select a saved settings entry from the list, and choose the **Edit** action to modify a saved settings entry.
 
 > [!Important]
-> Consider the name that you give a saved settings entry. If you create a saved settings entry for all users, and you give it the same name as an existing saved settings entry that is assigned to a specific user only, then that user will not be able to use the saved settings entry that is assigned to everyone.  In the **Saved Settings** section on the report request page, the user will see two saved settings entries with the same name. However, no matter which option they choose, the user-specific saved settings entry will be used.
+> Consider the name that you give a saved settings entry. If you create a saved settings entry for all users, and you give it the same name as an existing saved settings entry that is assigned to a specific user only, then that user will not be able to use the saved settings entry that is assigned to everyone.  In the **Saved Settings** section on the request page, the user will see two saved settings entries with the same name. However, no matter which option they choose, the user-specific saved settings entry will be used.
 
 > [!NOTE]
 > The Saved Settings feature is available only on reports where the [SaveValues property](https://docs.microsoft.com/en-us/dynamics-nav/savevalues-property) of the report's request page is set to **Yes**. The **SaveValues** property is set in the development environment.  
 
 ## See Also
-[Working with Reports and Batch Jobs](ui-work-report.md)  
+[Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)  

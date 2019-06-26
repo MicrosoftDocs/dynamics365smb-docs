@@ -30,10 +30,7 @@ If you have selected the **Summarize Gen. Jnl. Lines** check box on the **Electr
 
 - Payment journal lines that contain partial payments, with both the **Partial Payment** and the **Separate Line** fields selected.  
 
-- Payment journal lines that contain a standard format message (that is, passes the MOD97 test), which sets **Standard Format Message** to True in the electronic banking journal. 
-
-<!--note from editor:  In bullet item above, is "passes the MOD97 test" referring to "payment journal lines" or "standard format message"? If "payment journal lines," I suggest this wording "that is, they pass the MOD 97 test"; if "standard format message", suggest "that is, the message passes the MOD97 test".  -->
-
+- Payment journal lines that contain a standard format message (passes the MOD97 test), which sets **Standard Format Message** to True in the electronic banking journal.
 
 ## Example 1  
 In this example, you export payment lines, and the **Summarize Gen. Jnl. Lines** check box is selected. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] creates:  

@@ -2,7 +2,7 @@
     title: How to Set Up Electronic Banking
     description: With electronic banking, you can make electronic payments to domestic, international, SEPA, and non-Euro SEPA vendors and customers.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -24,9 +24,7 @@ With electronic banking, you can make electronic payments to domestic, internati
 
 Your company subscribes to an eBanking contract with the bank to maintain a certain bank account or several bank accounts. The company also subscribes to Interbanks Standards Association Belgium (Isabel) to send payment files to and receive bank statement files from the bank electronically. Therefore, the company receives smart cards linked to the eBanking contract. The smart cards are secured by PIN codes.  
 
-You will receive one of these smart cards to connect to IBS so that you are connected to the eBanking contract of the company. 
-
-<!--note from editor: What does "IBS" stand for?    -->
+You will receive one of these smart cards to connect to IBS so that you are connected to the eBanking contract of the company.
 
 When uploading to or downloading files from the IBS platform, you will insert the smart card in the card reader and use a PIN code to make a connection to IBS. When the IBS session is established, the eBanking contract and eBanking user are known by the system. The eBanking contract and user linked bank account numbers are also known.  
 
@@ -87,4 +85,3 @@ Before you can use electronic banking, you must set up the following information
  [Manage Electronic Payment Lines](how-to-manage-electronic-payment-lines.md)   
  [Print Payment Files](how-to-print-payment-files.md)
  [Summarizing Payment Lines and General Journal Lines](summarizing-payment-lines-and-general-journal-lines.md)
- 

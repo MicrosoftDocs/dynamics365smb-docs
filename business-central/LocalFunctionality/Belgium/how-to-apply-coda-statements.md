@@ -48,14 +48,12 @@ Statement amounts can be applied to outstanding ledger entries by:
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Default Posting**|Select if you want the batch job to post statement amounts that cannot be linked to existing ledger entries. For more information, see Transaction Coding.|  
+    |**Default Posting**|Select if you want the batch job to post statement amounts that cannot be linked to existing ledger entries.|  
     |**Print List**|Select to print a list of statement amounts that cannot be linked automatically.|  
 
 6.  Choose the **OK** button.  
 
-    When you start the batch job, statement amounts will be applied to existing ledger entries based on the transaction codes. For more information, see [Set Up Bank Accounts for CODA](how-to-set-up-bank-accounts-for-coda.md). 
-    
-<!--note from editor: In Step 5 above, in the table, add a link to "see Transaction Coding"?   -->    
+    When you start the batch job, statement amounts will be applied to existing ledger entries based on the transaction codes. For more information, see [Set Up Bank Accounts for CODA](how-to-set-up-bank-accounts-for-coda.md).
 
 ## See Also  
  [CODA Bank Statements](coda-bank-statements.md)   

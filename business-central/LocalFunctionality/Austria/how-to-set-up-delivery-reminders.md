@@ -38,8 +38,6 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use purchase deliv
 
 4.  Choose the **OK** button.  
 
-<!--note from editor: In Step 3 above, I deleted "On the **Numbering** FastTab," from the beginning of the sentence.     -->
-
 ## See Also  
  [Delivery Reminders](delivery-reminders.md)   
  [Set Up Delivery Reminder Terms, Levels, and Text](how-to-set-up-delivery-reminder-terms-levels-and-text.md)   

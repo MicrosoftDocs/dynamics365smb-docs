@@ -17,12 +17,10 @@ SEPA unifies payment methods in participating European countries/regions, which 
 
 Before you can file a SEPA payment, you must complete the following administration tasks:  
 
-- Set up a new export protocol. For more information, see Export Protocol.  
+- Set up a new export protocol.
 - In the **Country/Region** table, select the **SEPA Allowed** field for each country that belongs to the EEA zone.  
 - Verify that the **Currency Euro** field in the **General Ledger Setup** table corresponds with the currency in the payment lines.  
 - Verify that the vendor’s **Preferred Bank Account** field in the **Vendor** table contains the IBAN and SWIFT code.  
-
-<!--note from editor: Add link to "see Export Protocol" above?   -->
 
 ## To file a SEPA payment  
 

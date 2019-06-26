@@ -25,8 +25,6 @@ In order to enable delivery reminders for overdue purchases, you must assign del
 3.  In the **Delivery Reminder Terms** field, select a delivery reminder terms code for the vendor.  
 4.  Choose the **OK** button.  
 
-<!--note from editor: Stacked noun "delivery reminder terms code"--delete "terms", as referred to in Line 18? Possibly add hyphens for clarity: delivery-reminder code or delivery-reminder-terms code.   -->
-
 ## See Also  
  [Register New Vendors](../../purchasing-how-register-new-vendors.md)   
  [Delivery Reminders](delivery-reminders.md)   

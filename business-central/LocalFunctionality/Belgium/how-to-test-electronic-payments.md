@@ -2,7 +2,7 @@
     title: How to Test Electronic Payments
     description: After you have set up electronic banking and generated payment suggestions, you can test the payment journal lines for errors before posting them.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -28,11 +28,8 @@ Some of the information that is validated includes:
 - Whether positive payment lines are present.  
 - Whether domestic and international payments are made from only one bank account.  
 - Whether only one bank account can be used for Interbanks Standards Association Belgium (Isabel).  
-- Whether payment lines are in Euro for Single Euro Payments Area (SEPA).  
+- Whether payment lines are in euro for Single Euro Payments Area (SEPA).  
 - Whether a number series has been defined for SEPA.  
-
-<!--note from editor: In list above, "Whether payment lines are in Euro"--change to "euro" per NAV Style Guide?   -->
-
 
 You can view any errors on the **Export Check Error Logs** page.  
 

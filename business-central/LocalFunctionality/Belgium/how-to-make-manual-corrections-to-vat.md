@@ -2,7 +2,7 @@
     title: How to Make Manual Corrections to VAT
     description: You can make corrections to posted VAT entries without posting the correction into the VAT or general ledger entries. This is useful if you need to make a change to the total sales or purchases VAT amounts without changing the VAT base. For example, you can manually correct VAT if you receive an invoice from a vendor who has calculated VAT incorrectly.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -39,12 +39,8 @@ You can make corrections to posted VAT entries without posting the correction in
     |Action|Description|  
     |------------|---------------------------------------|  
     |**Detailed Report**|Opens the **VAT Statement** report. For more information, see VAT Statement.|  
-    |**Form/Intervat Declaration**|Opens the **VAT –Form** report. For more information, see VAT - Form.<br /><br /> The **Form/Intervat Declaration** report is based on the VAT Statement template that is defined in the general ledger setup. Therefore, it might export data that is not the same as what is shown on the **VAT Statement Preview** page.|  
-    |**Declaration Summary Report**|Opens the **VAT Statement Summary** report. For more information, see VAT Statement Summary.|  
-
-<!--note from editor: Line 42: Is it "VAT -Form" or "VAT - Form"?    -->
-
-<!--note from editor: Add links to the "see" phrases at Lines 41, 42, and 43?    -->
+    |**Form/Intervat Declaration**|Opens the **VAT – Form** report.<br /><br /> The **Form/Intervat Declaration** report is based on the VAT Statement template that is defined in the general ledger setup. Therefore, it might export data that is not the same as what is shown on the **VAT Statement Preview** page.|  
+    |**Declaration Summary Report**|Opens the **VAT Statement Summary** report.|  
 
 ## See Also  
  [Belgian VAT](belgian-vat.md)   

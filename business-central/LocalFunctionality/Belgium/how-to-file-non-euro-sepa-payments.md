@@ -15,12 +15,10 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can file non-euro SEPA
 
 Before you can file a non-euro SEPA payment you must complete the following administration tasks:  
 
-- Set up a new export protocol for a non-euro SEPA. For more information, see Export Protocol.  
+- Set up a new export protocol for a non-euro SEPA.  
 - In the **Country/Region** table, clear the **SEPA Allowed** field for each country that belongs to the EEA zone.  
 - Verify that the **Currency Euro** field in the **General Ledger Setup** table is not in euro currency.  
 - Verify that the vendor’s **Preferred Bank Account** field in the **Vendor** table contains the IBAN and SWIFT code.  
-
-<!--note from editor: In first item in list above, add link to "Export Protocol"?   -->
 
 ## To file a non-euro SEPA payment  
 

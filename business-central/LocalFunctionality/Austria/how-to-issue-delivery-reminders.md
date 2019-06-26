@@ -42,8 +42,6 @@ When you issue the delivery reminders, delivery reminder ledger entries are crea
 
 You can view the issued reminders on the **Issued Delivery Reminder** page. Optionally, you can now print a delivery reminder.  
 
-<!--note from editor: Delete entire Step 5, plus the note? (and change last step from #6 to #5).   -->
-
 ## To view delivery reminder ledger entries  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Orders**, and then choose the related link.  

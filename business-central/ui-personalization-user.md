@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 06/17/2019
+ms.date: 06/25/2019
 ms.author: sgroespe
 
 ---
@@ -17,7 +17,7 @@ ms.author: sgroespe
 
 You can personalize your workspace to suit your work and preferences by changing pages so that they display only the information you need, where you need it. The personalization changes that you make will only affect what you see, not what other users see.
 
-Depending on the type of page and what it includes, you can do various things, like moving or hiding fields, columns and actions, moving and hiding entire parts, and more. Most personalization must be done by first activating the **Personalizing** banner, but very simple adjustments, such as column width can be performed immediately on any list.  
+Depending on the type of page and what it includes, you can do various things, like moving or hiding fields, columns, and actions, moving and hiding entire parts, and more. Most personalization must be done by first activating the **Personalizing** banner, but very simple adjustments, such as column width can be performed immediately on any list.  
 <!--
 -   Add, move, and remove fields.
 -   Add, move, and remove columns in a list.
@@ -38,7 +38,7 @@ As for other personalization, the changes you make to column width are stored on
 
 ## To personalize a page through the **Personalizing** banner
 
-1. In the upper-right corner, select the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, and then choose **Personalize**.
+1. In the upper-right corner, select the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, and then choose the **Personalize** action.
 
     The **Personalizing** banner appears at the top to indicate that you can start making changes.
 
@@ -46,18 +46,19 @@ As for other personalization, the changes you make to column width are stored on
 
 2. Go to a page that you want to personalize.
 
-    If you see a ![Personalize Lock](media/personalization-lock-icon.png "Personalize lock") or ![Personalization blocked](media/personalization-blocked-icon.png "Personalization blocked") in the banner, you cannot personlize the page. For more details, see [Why Can't I Personalize the Page](ui-personalization-locked.md).
+    If you see a ![Personalize Lock](media/personalization-lock-icon.png "Personalize lock") or ![Personalization blocked](media/personalization-blocked-icon.png "Personalization blocked") in the banner, you cannot personalize the page. For more details, see [Why a Page is Locked from Personalization](ui-personalization-locked.md).
 
-3. Point to an area that you want to personalize, such as a field or column header in a list. Anything that you can personalize is immediately highlighted with an arrowhead or border. See the [next section](#What) for details about what you can do.
+3. Point to an area that you want to personalize, such as a field or column header in a list. Anything that you can personalize is immediately highlighted with an arrowhead or border. See [What You Can Personalize](#What) for details about what you can do.
 
-4. You can continue to make changes on the same page or open another page. Your changes are automatically saved as you make them. When you are done, in the **Personalizing** banner, choose **Done**.
+4. You can continue to make changes on the same page or open another page. Your changes are automatically saved as you make them. When you are done, in the **Personalizing** banner, choose the **Done** button.
 
 ## <a name="What"></a>What You Can Personalize
 
 |What do you want to do|How to do it|Remarks|
 |----|------------|-------|
-|Move something, like a field, column in list, tile, action, or part|Point anywhere on what you want to move, and drag it to its new location. The location is indicated by either a thick horizontal or vertical line.<br /><br />![Cannot move here icon](media/personalization-cannot-move-here.png "Personalize mode - Cannot move here icon") indicates that you cannot move the element to the selected location.|Parts are subdivisions or areas on a page that contain things like multiple fields, another page, a chart, or tiles.<br /><br />For more details about action personalization, see the [next section](ui-personalization-user.md#Actions). |
-|Hide something, like a field, column in list, tile, or part.|Select the arrowhead, and choose <b>Hide</b>.|If the field you hide is also shown in the FastTab heading when the FastTab is collapsed, the field will no longer appear there.|
+|Move something, like a field, column in list, tile, action, or part|Point anywhere on what you want to move, and drag it to its new location. The location is indicated by either a thick horizontal or vertical line.<br /><br />![Cannot move here icon](media/personalization-cannot-move-here.png "Personalize mode - Cannot move here icon") indicates that you cannot move the element to the selected location.|Parts are subdivisions or areas on a page that contain things like multiple fields, another page, a chart, or tiles.<br /><br />For more details about action personalization, see [Personalizing Actions](ui-personalization-user.md#Actions). |
+|Hide something, like a field, column in list, tile, action, or part.|Select the arrowhead, and choose <b>Hide</b>.|If the field you hide is also shown in the FastTab heading when the FastTab is collapsed, the field will no longer appear there.|
+|Show hidden actions.|**** How to do this?***|***|
 |Add a field or column.|In the <b>Personalizing</b> banner, choose <b>More</b>, and then choose <b>Field</b>.<br /></br>The <b>Add Field to Page</b> pane opens on the right. It lists the fields that you can add to the page.<br /><br />To add a field, drag it from the pane to the location that you want it. The location is indicated by either a thick horizontal or vertical line.|Each page includes a predefined set of fields that you can display. Use this procedure to add fields or columns that have not been previously displayed or to show fields that you have hidden.|
 |Display a field in the heading of a Fastab when the FastTab is collapsed.|Select the arrowhead, and choose <b>Show when collapsed</b>. <br /> <br />If you do not see this option, then it is already set. In this case, to stop displaying the field in the FastTab heading, choose <b>Show always</b>.|*FastTab* is the term used for a group of fields that appear under a common heading. Use the <b>Show when collapsed</b> option to display the most important fields. If you select a field in the heading, the FastTab will open and focus on the selected field.<br /><br />This option is only applicable if a page has a more than one FastTab. If the is only one FastTab, it cannot be collapsed, so the <b>Show when collapsed</b> option is not available.|
 |Make a field display only when you select **Show more**.|Select the arrowhead, and choose <b>Show under "Show More"</b>. <br /> <br />If you do not see the <b>Show under "Show More"</b> option, then it is already set. In this case, to make a field display always, not just when you select **Show more**, choose <b>Show always</b>.||

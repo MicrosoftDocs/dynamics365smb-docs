@@ -10,13 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 04/01/2019
+ms.date: 06/25/2019
 ms.author: jswymer
 
 ---
 # Managing Personalization as an Administrator
 
-Users can personalize their workspace to suit their own preferences. As an administrator, you control and manage personalization by:
+Users can personalize their workspace to suit their own preferences. For more information, see [Personalizing Your Workspace](ui-personalization-user.md).
+
+As an administrator, you control and manage personalization by:
 
 -   Enabling or disabling the personalization feature for the entire the application (on-premises installation only).
 -   Enabling or disabling the personalization feature for users of a specific profile.

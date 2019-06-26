@@ -1,7 +1,7 @@
 ---
 title: Why Can't I Personalize a Page | Microsoft Docs
 description: Explains why you cannot personlaize a page and what yoo can do to unlock it so you can personalize it.
-author: jswymer
+author: SorenGP
 
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,8 +9,8 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 04/01/2019
-ms.author: jswymer
+ms.date: 06/26/2019
+ms.author: sgroespe
 
 ---
 # Why a Page is Locked from Personalization
@@ -20,9 +20,6 @@ There are two conditions that prevent you from personalizing a page. Either the 
 ## Locked from Personalizing
 
 If there is a ![Personalize Lock](media/personalization-lock-icon.png "Personalize lock") icon in the **Personalizing** banner when you open a page (as shown), this means that you are currently prevented from making any more personalization changes to the page.
-
-![Personalize Lock](media/personalization-locked.png "Personalize lock")
-
 
 <!-- This is because we changed the way personalization works behind the scenes since the last time that you personalized the page. Unfortunately, the old way and new of doing things do not work together.
 
@@ -49,12 +46,10 @@ Before you unlock the page, be aware of the following:
 
 If there is a ![Personalization blocked](media/personalization-blocked-icon.png "Personalization blocked") icon in the Personalizing banner, this means that you are blocked from doing any personalization to the page.
 
-![Personalize blocked](media/personalization-blocked.png "Personalize lock")
-
-The reason for this is that the Role Center or profile that is currently associated with your user account modifies this page specifically for your role. Please contact your administrator for assistance or, if it makes sense, try switching to a Role Center (from  [**My Settings**](https://businesscentral.dynamics.com?page=9176 "Go directly to your user settings page in Business Central")) that does include role-tailoring for this page.
+The reason for this is that the Role Center or profile that is currently associated with your user account modifies this page specifically for your role. Please contact your administrator for assistance or, if it makes sense, try switching to a Role Center that does include role-tailoring for this page.
 
 ## See Also
-[Personalizing Your Workspace](ui-personalization-manage.md)  
-[Managing Personalization](ui-personalization-manage.md)  
+[Personalizing Your Workspace](ui-personalization-user.md)  
+[Managing Personalization as an Administrator](ui-personalization-manage.md)  
 [Changing Basic Settings](ui-change-basic-settings.md)  
 [Changing Which Features are Displayed](ui-experiences.md)  

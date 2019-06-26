@@ -57,8 +57,8 @@ As for other personalization, the changes you make to column width are stored on
 |What do you want to do|How to do it|Remarks|
 |----|------------|-------|
 |Move something, like a field, column in list, tile, action, or part|Point anywhere on what you want to move, and drag it to its new location. The location is indicated by either a thick horizontal or vertical line.<br /><br />![Cannot move here icon](media/personalization-cannot-move-here.png "Personalize mode - Cannot move here icon") indicates that you cannot move the element to the selected location.|Parts are subdivisions or areas on a page that contain things like multiple fields, another page, a chart, or tiles.<br /><br />For more details about action personalization, see [Personalizing Actions](ui-personalization-user.md#Actions). |
-|Hide something, like a field, column in list, tile, action, or part.|Select the arrowhead, and choose <b>Hide</b>.|If the field you hide is also shown in the FastTab heading when the FastTab is collapsed, the field will no longer appear there.|
-|Show hidden actions.|**** How to do this?***|***|
+|Hide something, like a field, column in list, tile, action, or part.|Select the arrowhead, and choose <b>Hide</b>.|The element is grayed while you are in Personalize mode. If the field you hide is also shown in the FastTab heading when the FastTab is collapsed, the field will no longer appear there.|
+|Show hidden actions and fields.|For a grayed (hidden) element, select the arrowhead, and choose <b>Show</b>.|The hidden element is again visible.|
 |Add a field or column.|In the <b>Personalizing</b> banner, choose <b>More</b>, and then choose <b>Field</b>.<br /></br>The <b>Add Field to Page</b> pane opens on the right. It lists the fields that you can add to the page.<br /><br />To add a field, drag it from the pane to the location that you want it. The location is indicated by either a thick horizontal or vertical line.|Each page includes a predefined set of fields that you can display. Use this procedure to add fields or columns that have not been previously displayed or to show fields that you have hidden.|
 |Display a field in the heading of a Fastab when the FastTab is collapsed.|Select the arrowhead, and choose <b>Show when collapsed</b>. <br /> <br />If you do not see this option, then it is already set. In this case, to stop displaying the field in the FastTab heading, choose <b>Show always</b>.|*FastTab* is the term used for a group of fields that appear under a common heading. Use the <b>Show when collapsed</b> option to display the most important fields. If you select a field in the heading, the FastTab will open and focus on the selected field.<br /><br />This option is only applicable if a page has a more than one FastTab. If the is only one FastTab, it cannot be collapsed, so the <b>Show when collapsed</b> option is not available.|
 |Make a field display only when you select **Show more**.|Select the arrowhead, and choose <b>Show under "Show More"</b>. <br /> <br />If you do not see the <b>Show under "Show More"</b> option, then it is already set. In this case, to make a field display always, not just when you select **Show more**, choose <b>Show always</b>.||
@@ -77,11 +77,9 @@ Personalization lets you decide which actions to show on the action bar and wher
 
 There are a couple terms that you should be familiar with to better understand action personalization: *action group* and *promoted category*.  
 
-An *action group* is item that expands to display other actions or groups. For example, in the following illustration, **Posting** is an action group.
+An *action group* is item that expands to display other actions or groups. For example, on the **Sales Orders** page, the **Functions** action that appear when you choose the **Actions** action is an action groups.
 
-A *promoted category* is an action group that appears between the two vertical lines `|` in the action bar. The categories typically include the most commonly used actions, so that you can quickly find them. For example, in the following illustration, **Release**, **Posting**, **Invoice**, and **Navigate** are promoted categories.
-
-![Personalize action bar group](media/personalize-action-bar-group-clip.png "Personalize action bar group ")
+A *promoted category* is an action group that appears before the vertical line `|` on the action bar. The categories typically include the most commonly used actions, so that you can quickly find them. For example, on the **Sales Orders** page, the **Order**, **Release**, and  **Posting** actions are promoted categories.
 
 ### To remove, hide, and show actions and groups
 

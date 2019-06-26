@@ -42,8 +42,6 @@ As for other personalization, the changes you make to column width are stored on
 
     The **Personalizing** banner appears at the top to indicate that you can start making changes.
 
-    ![Personalize mode](media/ui_personalize_mode_small.png "Personalize mode")
-
 2. Go to a page that you want to personalize.
 
     If you see a ![Personalize Lock](media/personalization-lock-icon.png "Personalize lock") or ![Personalization blocked](media/personalization-blocked-icon.png "Personalization blocked") in the banner, you cannot personalize the page. For more details, see [Why a Page is Locked from Personalization](ui-personalization-locked.md).
@@ -65,6 +63,9 @@ As for other personalization, the changes you make to column width are stored on
 |Change the freeze pane in a list to another column. |Select the arrowhead of the column that you want as the last column of the freeze pane, and then choose <b>Set Freeze Pane</b>.<br /><br/>If you want to set the freeze pane back to its original designed location, select the arrowhead for the current freeze pane column, and choose <b>Clear Freeze Pane</b>. Note: You cannot remove this freeze pane.|The freeze pane specifies the columns that always appear on the left, even as you scroll horizontally.|  
 |Skip over a field when pressing Enter.|Select the arrowhead next to the field, or column heading in a list, and choose **Exclude from Quick Entry**. <br /><br /> If you do not see this option, then the field is already set to be skipped. In this case, to stop skipping the field, choose **Include in Quick Entry**. |See [Accelerating Data Entry Using Quick Entry](ui-enter-data.md#QuickEntry)|
 
+> [!NOTE]
+> While in Personalize mode, and the arrowhead appears when you click on an action, you can use **Ctrl+Click** to perform the normal action.
+
 ## <a name="Actions"></a>Personalizing Actions
 
 You can personalize the action bar that is located at the top of the page, as indicated by the highlighted area in the following illustration.
@@ -77,7 +78,7 @@ Personalization lets you decide which actions to show on the action bar and wher
 
 There are a couple terms that you should be familiar with to better understand action personalization: *action group* and *promoted category*.  
 
-An *action group* is item that expands to display other actions or groups. For example, on the **Sales Orders** page, the **Functions** action that appear when you choose the **Actions** action is an action groups.
+An *action group* is an element that expands to display other actions or groups. For example, on the **Sales Orders** page, the **Functions** action that appear when you choose the **Actions** action is an action groups.
 
 A *promoted category* is an action group that appears before the vertical line `|` on the action bar. The categories typically include the most commonly used actions, so that you can quickly find them. For example, on the **Sales Orders** page, the **Order**, **Release**, and  **Posting** actions are promoted categories.
 

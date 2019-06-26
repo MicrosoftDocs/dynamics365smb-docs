@@ -55,13 +55,13 @@ You must have a subscription to [!INCLUDE[d365fin](includes/d365fin_md.md)] to b
 
 <!-- ![Sandbox Permission Sets](./media/across-sandbox/sandbox-permission-sets.png) -->
 
-## Advanced functionality in the sandbox environment
+## Advanced Functionality in the Sandbox Environment
 ### Designer
 In a sandbox environment, you will find the **Designer** enabled, which you can activate by selecting the design icon ![Designer](./media/across-sandbox/sandbox-inclient-design-icon.png) on a page.
 
 <!-- ![In-client Designer](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-### Enable the advanced user experience
+### To enable the advanced user experience
 It is possible to enable and try the advanced (full) functionality of [!INCLUDE[d365fin](includes/d365fin_md.md)] in a sandbox tenant by setting the **Experience** field on the **Company Information** page.
 
 <!-- ![Sandbox Environment Advanced](./media/across-sandbox/sandbox-advanced.png) -->

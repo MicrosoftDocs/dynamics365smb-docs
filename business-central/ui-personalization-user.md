@@ -68,13 +68,7 @@ As for other personalization, the changes you make to column width are stored on
 
 ## <a name="Actions"></a>Personalizing Actions
 
-You can personalize the action bar that is located at the top of the page, as indicated by the highlighted area in the following illustration.
-
-![Personalize action bar](media/personalize-action-bar.png "Personalize action bar")
-
-Personalization lets you decide which actions to show on the action bar and where to show them. You can show, hide, or move individual actions or action groups. Personalizing the action bar is done basically the same way as with other elements of the workspace. However, exactly what you can do with an action or group depends on where the action or group is located in the action bar. The best way to find out is to just try things out and let the screen guide you. The following sections will explain some of the nuances of personalizing the action bar.
-
-### Action Bar Overview
+Personalization lets you decide which actions to show on the action bar and on Role Centers and where to show them. You can show, hide, or move individual actions or action groups. Personalizing the action bar is done basically the same way as with other UI elements. However, exactly what you can do with an action or group depends on where the action or group is located. The best way to find out is to enter Personalize mode and then let the red arrowheads guide you.
 
 There are a couple terms that you should be familiar with to better understand action personalization: *action group* and *promoted category*.  
 

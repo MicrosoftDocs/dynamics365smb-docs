@@ -27,7 +27,7 @@ Before you can use electronic banking, you must set up export protocols. Export 
 |2000003 Check International Payments|Report 2000002 File International Payments|  
 |2000004 Check SEPA Payments|Report 2000005 File SEPA Payments|  
 |2000005 Check Non Euro SEPA Payments|Report 2000006 File Non Euro SEPA Payments|  
-|If you do not want this option, set to zero, otherwise select another option.|XMLport 1000 (SEPA pain.001.001.03 Payments)|  
+|If you do not want this option, set it to zero; otherwise, select another option.|XMLport 1000 (SEPA pain.001.001.03 Payments)|  
 
  After you have set up export protocols, you can use them in your electronic banking payment journals.  
 
@@ -35,7 +35,7 @@ Before you can use electronic banking, you must set up export protocols. Export 
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Export Protocols**, and then choose the related link.  
 2.  Choose the **New** action.  
-3.  In the **Export Protocols**  page, fill in the fields as described in the following table.  
+3.  On the **Export Protocols**  page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

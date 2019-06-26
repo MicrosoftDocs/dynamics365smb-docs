@@ -15,9 +15,9 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use Single Euro Pa
 
 SEPA unifies payment methods in participating European countries/regions, which makes international payments as easy to process as domestic payments. European citizens and companies can make and receive payments in euros, whether within or across national borders, with the same basic conditions, rights, and obligations, regardless of location.  
 
-Before you can file a SEPA payment you must complete the following administration tasks:  
+Before you can file a SEPA payment, you must complete the following administration tasks:  
 
-- Set up a new export protocol. For more information, see Export Protocol.  
+- Set up a new export protocol.
 - In the **Country/Region** table, select the **SEPA Allowed** field for each country that belongs to the EEA zone.  
 - Verify that the **Currency Euro** field in the **General Ledger Setup** table corresponds with the currency in the payment lines.  
 - Verify that the vendor’s **Preferred Bank Account** field in the **Vendor** table contains the IBAN and SWIFT code.  
@@ -32,7 +32,7 @@ Before you can file a SEPA payment you must complete the following administratio
     |**Journal Template Name**|Specify the general journal template for the SEPA payment report.|  
     |**Journal Batch**|Specify the general journal batch for the SEPA payment report.|  
     |**Post General Journal Lines**|Specify if you want to transfer the payment lines to the general ledger.|  
-    |**Include Dimensions**|Enter the dimensions that you want to include in the SEPA payment report. The option is only available if the **Summarize Gen. Jnl. Lines** field on the **Electronic Banking Setup** page is selected.|  
+    |**Include Dimensions**|Enter the dimensions that you want to include in the SEPA payment report. The option is available only if the **Summarize Gen. Jnl. Lines** field on the **Electronic Banking Setup** page is selected.|  
     |**Execution Date**|Enter an execution date if you want an execution date that differs from the posting date on the payment lines.|  
     |**File Name**|Enter the name of the file, including the drive and folder, to which you want to print the report.|  
 

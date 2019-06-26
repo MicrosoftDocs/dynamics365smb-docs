@@ -30,29 +30,29 @@ If you have selected the **Summarize Gen. Jnl. Lines** check box on the **Electr
 
 - Payment journal lines that contain partial payments, with both the **Partial Payment** and the **Separate Line** fields selected.  
 
-- Payment journal lines that contain a standard format message (that is, passes the MOD97 test), which sets **Standard Format Message** to True in the electronic banking journal.  
+- Payment journal lines that contain a standard format message (passes the MOD97 test), which sets **Standard Format Message** to True in the electronic banking journal.
 
 ## Example 1  
 In this example, you export payment lines, and the **Summarize Gen. Jnl. Lines** check box is selected. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] creates:  
 
-- One combined payment line in a XML file that has a concatenated payment message. White space is the delimiter.  
-- One payment line in the general journal with a generic description that ../../includes the vendor name.  
+- One combined payment line in an XML file that has a concatenated payment message. White space is the delimiter.  
+- One payment line in the general journal with a generic description that includes the vendor name.  
 
 ## Example 2  
-In this example, you export payment lines, and the **Summarize Gen. Jnl. Lines** check box is selected. The **Cut off Payment Message Texts** check box is cleared, and combined SEPA and non-euro SEPA payment lines exceed 140 characters in payment message. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] creates:  
+In this example, you export payment lines, and the **Summarize Gen. Jnl. Lines** check box is selected. The **Cut off Payment Message Texts** check box is cleared, and the combined SEPA and non-euro SEPA payment lines exceed 140 characters in the payment message. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] creates:  
 
-- Two combined payment lines in a XML file. The first payment line contains the first concatenated payment messages. The second payment line contains the payment message from the third line.  
-
-- One payment line in the general journal with a generic description that ../../includes the vendor name.  
-
-## Example 3  
-In this example, you export payment lines, and the **Summarize Gen. Jnl. Lines** check box is selected. The **Cut off Payment Message Texts** check box is also selected and combined SEPA and non-SEPA payment lines exceed 140 characters in payment message. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] creates:  
-
-- One combined payment line in a XML file that has two concatenated payment messages. An ellipsis (…) is used to indicate that the message is truncated.  
+- Two combined payment lines in an XML file. The first payment line contains the first concatenated payment messages. The second payment line contains the payment message from the third line.  
 
 - One payment line in the general journal with a generic description that includes the vendor name.  
 
-Based on the XML structure, the payments are summarized per account number and beneficiary bank account no and bank account no. The bank account filter can be empty.  
+## Example 3  
+In this example, you export payment lines, and the **Summarize Gen. Jnl. Lines** check box is selected. The **Cut off Payment Message Texts** check box is also selected, and the combined SEPA and non-SEPA payment lines exceed 140 characters in the payment message. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] creates:  
+
+- One combined payment line in an XML file that has two concatenated payment messages. An ellipsis (…) is used to indicate that the message is truncated.  
+
+- One payment line in the general journal with a generic description that includes the vendor name.  
+
+Based on the XML structure, the payments are summarized per account number, beneficiary bank account number, and bank account number. The bank account filter can be empty.  
 
 The EndToEndId in the SEPA message is taken from the payment message and can be truncated to the maximum length of 45 characters.  
 

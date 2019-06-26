@@ -34,13 +34,13 @@
 ### [Personalizing Your Workspace](ui-personalization-user.md)
 ### [Why a Page is Locked from Personalizing](ui-personalization-locked.md)
 ### [Displaying Lists in Different Ways](across-display-lists-different-views.md)
-## Printing Reports and Running Batch Jobs
+## Printing Reports and Running Batch Jobs and XMLports
 ### [Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)
 ### [Specify Printer Selection for Reports](ui-specify-printer-selection-reports.md)
-### [Schedule a Report or Batch Job to Run](ui-work-report.md#ScheduleReport)
+### [Schedule a Report to Run](ui-work-report.md#ScheduleReport)
 ### [Manage Saved Settings on Reports, Batch Jobs, and XMLports](reports-saving-reusing-settings.md)
 ### [View Test Reports Before Posting](ui-how-view-test-reports-posting.md)
-### [Run Batch Jobs](ui-how-run-batch-jobs.md)
+### [Run Batch Jobs and XML ports](ui-how-run-batch-jobs.md)
 ## Changing how Documents Look
 ### [Managing Report and Document Layouts](ui-manage-report-layouts.md)
 ### [Updating Report or Document Layouts](ui-update-report-layouts.md)

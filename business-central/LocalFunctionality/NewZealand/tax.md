@@ -1,7 +1,7 @@
 ---
     title: New Zealand Tax
     description: Tax functionality in New Zealand is described in several topics.
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: bholtorf
     ms.service: dynamics365-business-central
@@ -10,8 +10,9 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 04/01/2019
     ms.author: bholtorf
+    redirect_url: new-zealand-local-functionality
 
 ---
 # Tax

@@ -8,7 +8,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: solsen
 redirect_url: ui-enter-criteria-filters
 ---
@@ -22,4 +22,4 @@ Choose a column heading and use the small arrow to sort ascending or descending.
 
 ## See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Searching, Filtering, and Sorting Data](ui-enter-criteria-filters.md)
+[Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md)

@@ -9,22 +9,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 10/01/2018
+ms.date: 04/26/2019
 ms.author: edupont
 
 ---
 # Enabling Your Business Data for Power BI
 Getting insights into your [!INCLUDE[d365fin](includes/d365fin_md.md)] data is easy with Power BI and the [!INCLUDE[d365fin](includes/d365fin_md.md)] content packs. Power BI retrieves your data and then builds an out-of-the-box dashboard and reports based on that data.  
 
-You must have a valid account with Dynamics 365 and with Power BI. Also, you must download [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) if you wish to create your own Power BI reports. Power BI content packs require permissions to the tables where data is retrieved from. More details on the requirements are described below.  
+You must have a valid account with [!INCLUDE[prodshort](includes/prodshort.md)] and with Power BI. Also, you must download [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) if you wish to create your own Power BI reports. Power BI content packs require permissions to the tables where data is retrieved from. More details on the requirements are described below.  
+
+> [!IMPORTANT]
+> The content packs that are described in this article are designed to use Azure Active Directory as the authentication mechanism. If you use [!INCLUDE [prodshort](includes/prodshort.md)] on-premises and use a different authentication mechanism, then Power BI cannot connect to your data.  
 
 Microsoft has published the following content packs:
 
-| App | Description |
-| --- | --- |
-| Microsoft Business Central | Provides a dashboard with key financial data over time, such as earnings versus expenses, operating margin, and cash cycle.|
-| Microsoft Business Central - CRM | Provides a dashboard with key data about sales opportunities and contacts.  |
-| Microsoft Business Central - Sales | Provides a dashboard with key data about sales and inventory. |
+- [!INCLUDE [prodlong](includes/prodlong.md)] - CRM  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Finance  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Sales  
 
 ## Using the Dashboards
 Each content pack provides reports that you can drill into:
@@ -43,14 +44,14 @@ The content packs are preconfigured to work with data from the demonstration com
 1. Select **Get Data** at the bottom of the left navigation pane.  
 ![Navigating to Get Data](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
-You may also get starting from within Dynamics 365 Business Edition. From the role center, navigate to **Report Selection** in the Power BI Role Center part. Select either **Service** or **My Organization** from the ribbon. When either of these actions are selected, you will be taken to either the Organization gallery in Power BI or to the services library in Power BI, which will also be filtered to only display content packs related to [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
+You may also get starting from within [!INCLUDE [prodshort](includes/prodshort.md)]. From the role center, navigate to **Report Selection** in the Power BI Role Center part. Select either **Service** or **My Organization** from the ribbon. When either of these actions are selected, you will be taken to either the Organization gallery in Power BI or to the services library in Power BI, which will also be filtered to only display content packs related to [!INCLUDE[prodshort](includes/prodshort.md)].
 
 2. In the **Services** box, select **Get**. This will open a page with the **AppSource** and **Apps for Power BI apps**.  
 ![Choose content packs from online services](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)
 3. Select **Apps** from the **Apps for Power BI apps** tab, choose the **Microsoft Dynamics 365 Business Central** content pack that you want to use, and then select **Get it now**.  
 ![Select Dynamics 365 Business Central and select Get it now](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-dynamics365-for-financials-get-it-now.png)
 4. When prompted, enter the name of *your company* in [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)]. This is not the display name. The company name can be found on the 'Companies' page within your [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)] instance.  
-![Select Dynamics 365 Business Central and select Get it now](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-connect-to-d365-finance-and-operations-crm.png)
+![Select Dynamics 365 Business Central and select Get it now](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-connect-to-d365-business-central-finance.png)
 5. Once connected, a dashboard, report and dataset will automatically be loaded into your Power BI workspace. When completed, the tiles will update with data from your [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)] company.
 ![Select Dynamics 365 Business Central  and select Get it now](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
@@ -64,7 +65,7 @@ You may also get starting from within Dynamics 365 Business Edition. From the ro
 ## System Requirements
 To import your [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] data into Power BI, you need to have permissions to the web services used to retrieve data. The web services required for each content pack include:
 
-## Role Center Reports
+### Role Center Reports
 
 **Microsoft Dynamics 365 Business Central – CRM**
 - Sales Opportunities
@@ -76,64 +77,9 @@ To import your [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] data int
 - Excel Template View Company
 - Power BI Report Labels
 
-**Microsoft Dynamics 365 Business Central – Jobs**
-- Job List
-- Job Planning Lines
-- Job Task Lines
-- Power BI Report Labels
-- Excel Template View Company
-
 **Microsoft Dynamics 365 Business Central - Sales**
 - Sales Dashboard
 - Excel Template View Company
-- Power BI Report Labels
-
-## List Page Reports
-
-**Microsoft Dynamics 365 Business Central – Customers List**
-- Item Sales by Customer
-- Power BI Item Purchase List
-- Power BI Item Sales List
-- Sales Dashboard
-- Power BI Customer List
-- ExcelTemplateViewCompany
-- Power BI Report Labels
-
-**Microsoft Dynamics 365 Business Central - General Ledger Entries List**
-- Power BI GL Amount List
-- Power BI GL Budgeted Amount
-- ExcelTemplateViewCompany
-- Power BI Report Labels
-
-**Microsoft Dynamics 365 Business Central – Items List**
-- Item Sales by Customer
-- Power BI Item Purchase List
-- Power BI Item Sales List
-- Sales Dashboard
-- ExcelTemplateViewCompany
-- Power BI Report Labels
-
-**Microsoft Dynamics 365 Business Central – Jobs List**
-- Power BI Jobs List
-- ExcelTemplateViewCompany
-- Power BI Report Labels
-
-**Microsoft Dynamics 365 Business Central – Purchase Invoices List**
-- Power BI Purchase List
-- ExcelTemplateViewCompany
-- Power BI Report Labels
-
-**Microsoft Dynamics 365 Business Central – Sales Orders List**
-- Power BI Sales List
-- ExcelTemplateViewCompany
-- Power BI Report Labels
-
-
-**Microsoft Dynamics 365 Business Central – Vendors List**
-- Power BI Item Purchase List
-- Power BI Item Sales List
-- Power BI Vendor List
-- ExcelTemplateViewCompany
 - Power BI Report Labels
 
 ## Web Services
@@ -146,8 +92,7 @@ The Power BI dashboard relies on the published web services that are listed abov
 A common mistake is to enter the company display name instead of the company name. To find the company name search for **Companies**. Then use the **Name** field when entering your company name.
 
 ### Incorrect User Name and Password  
-The user name and password used to connect will be the same as what is used to connect to your Microsoft Office 365 account.  
-
+The user name and password used to sign into Power BI will be the same as what is used to connect to your Microsoft Office 365 account.  
 The content packs also require that you have a Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] account. Once you enter your credentials, we will auto discover any Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] tenants you have access to. If you do not have a licensed or trial Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] account, you will receive an error message.
 
 ### The Key Didn't Match Any Rows in the Table

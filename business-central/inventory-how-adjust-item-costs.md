@@ -11,20 +11,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
 
 ---
 # Adjust Item Costs
 The cost of an item (inventory value) that you purchase and later sell may change during its lifetime, for example because a freight cost is added to its purchase cost after you have sold the item. Cost adjustment is especially relevant in situations where you sell goods before you invoice the purchase of those goods. To always know the correct inventory value, item costs must therefore regularly be adjusted. This ensures that sales and profit statistics are up to date and that financial KPIs are correct. For more information, see [Design Details: Cost Adjustment](design-details-cost-adjustment.md).
 
-As a rule, the value in the **Unit Cost** field on the item card is based on the standard cost for items with costing method standard. For items with all other costing methods, it is based on the calculation of the inventory available (invoiced costs and expected costs) divided by the quantity on hand. For more information, see the "Understanding Unit Cost Calculation" section.
+As a rule, the value in the **Unit Cost** field on the item card is based on the standard cost for items with costing method standard. For items with all other costing methods, it is based on the calculation of the inventory available (invoiced costs and expected costs) divided by the quantity on hand. For more information, see [Understanding Unit Cost Calculation](inventory-how-adjust-item-costs.md#understanding-unit-cost-calculation).
 
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], item costs are automatically adjusted every time that an inventory transaction occurs, such as when posting a purchase invoice for an item.
 
 You can also use a function to manually adjust the costs of one or more items. This is useful, for example, when you know that item costs have changed for other reasons than item transactions.
 
-Item costs are adjusted by the FIFO or the Average costing method, depending on your selection in the **Set Up My Company** assisted setup or in the **Costing Method** field on the item card. For more information, see [Register New Items](inventory-how-register-new-items.md).  
+Item costs are adjusted by the FIFO or the Average costing method, depending on your selection in the **Set Up My Company** assisted setup guide or in the **Costing Method** field on the item card. For more information, see [Register New Items](inventory-how-register-new-items.md).  
 
 If you use the FIFO costing method, then an item’s unit cost is the actual value of any receipt of the item. Inventory is valuated with the assumption that the first items placed in inventory are sold first.
 

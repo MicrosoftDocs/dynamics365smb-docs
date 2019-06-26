@@ -1,7 +1,7 @@
 ---
     title: Norwegian Sales Documents
     description: Norwegian local functionality supports a range of sales documents and reports.
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: bholtorf
 
@@ -11,8 +11,9 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 04/01/2019
     ms.author: bholtorf
+    redirect_url: norway-local-functionality
 
 ---
 # Norwegian Sales Documents

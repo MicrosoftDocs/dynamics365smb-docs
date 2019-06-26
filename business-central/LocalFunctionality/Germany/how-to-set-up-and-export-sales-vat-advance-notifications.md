@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 11/30/2018
+    ms.date: 05/22/2019
     ms.author: soalex
 
 ---
@@ -24,7 +24,7 @@ A Sales VAT Advance Notification in [!INCLUDE[d365fin](../../includes/d365fin_md
 To create valid sales VAT advance notifications, you must set up the following:  
 
 - The company registration information and tax office information.  
-- Basic sales VAT advance notification on the **Electronic VAT Decl. Setup** page. 
+- Basic sales VAT advance notification on the **Electronic VAT Decl. Setup** page.
 - The VAT statement.  
 
 ### To set up company information  
@@ -45,10 +45,10 @@ To create valid sales VAT advance notifications, you must set up the following:
 ### To set up a VAT statement for sales VAT advance notifications  
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Statement**, and then choose the related link.  
 2.  On the **VAT Statement** page, in the **Name** field, choose the drop-down arrow.  
-3.  On the **VAT Statement Names** page, in the line for the appropriate VAT statement name, select the **Sales VAT Adv. Notification** check box. 
+3.  On the **VAT Statement Names** page, in the line for the appropriate VAT statement name, select the **Sales VAT Adv. Notification** check box.
 
 > [!NOTE]  
- >  The VAT statement must have a VAT statement line for each key figure required by the tax authority, where the **Row No.** field contains the key figure and the **Amount Type** field specifies whether this is a base amount or a tax amount. Ask your tax office if you have questions concerning the key figures and their definition. 
+ >  The VAT statement must have a VAT statement line for each key figure required by the tax authority, where the **Row No.** field contains the key figure and the **Amount Type** field specifies whether this is a base amount or a tax amount. Ask your tax office if you have questions concerning the key figures and their definition.
 
 4. Choose the **OK** button.  
 
@@ -57,8 +57,9 @@ To create valid sales VAT advance notifications, you must set up the following:
 2. On the **Sales Vat Advanced Notification List** page, choose the **New** action.  
 3. On the **Sales VAT Adv. Notif. Card** page, fill in the fields.
 4. Choose **Process**, and then choose the **Create XML-File** action.  
-5. On **Create XML - VAT Adv. Notif.** page, in the **XML-File** field, choose either the **Create** or the **Create and Export** option.  
+5. On the **Create XML - VAT Adv. Notif.** page, in the **XML-File** field, choose either the **Create** or the **Create and Export** option.  
 6. Choose the **OK** button.  
 
 ## See Also
+[VAT Reporting](vat-reporting.md)  
 [Germany Local Functionality](germany-local-functionality.md)

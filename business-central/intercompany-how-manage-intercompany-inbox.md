@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoming document
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
 
 ---
@@ -39,7 +39,7 @@ You can use the **Show Transaction Source** field to filter the **Intercompany I
 #### Returned from Intercompany Partner  
  If the transaction was rejected by your intercompany partner, your only choice is to cancel the transaction in the inbox. Then you must create correction lines or reverse the journal or document in your company.  
 
-## Re-creating Inbox Entries  
+## Recreating Inbox Entries  
  If you accepted a transaction in your inbox but then deleted the document or journal instead of posting it, you can re-create the inbox entry and accept it again.  
 
 ## Getting an Overview of Intercompany Transactions for a Period  

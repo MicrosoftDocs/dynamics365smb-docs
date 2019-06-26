@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/16/2018
+ms.date: 04/01/2019
 ms.author: edupont
 
 ---
@@ -32,7 +32,7 @@ You can also compare two or more account schedules and column layouts by using f
 * Set up various report layouts and print the reports with the current figures.
 
 ## Account Categories
-You can use account categories to change the layout of your financial statements. After you set up your account categories on the **G/L Account Categories** page, and you choose the **Generate Account Schedules** action, the underlying account schedules for the core financial reports are updated. The next time you run one of these reports, such as the Balance Statement report, new totals and subentries are added, based on your changes. For more information, see The "Account Categories" section in [Understanding the General Ledger and the COA](finance-general-ledger.md).  
+You can use account categories to change the layout of your financial statements. After you set up your account categories on the **G/L Account Categories** page, and you choose the **Generate Account Schedules** action, the underlying account schedules for the core financial reports are updated. The next time you run one of these reports, such as the Balance Statement report, new totals and subentries are added, based on your changes. For more information, see [Account Categories](finance-general-ledger.md#account-categories).  
 
 ## To create a new account schedule  
 You use account schedules to analyze figures in general ledger accounts or to compare general ledger entries with general ledger budget entries. For example, you can view the general ledger entries as percentages of the budget entries.
@@ -46,7 +46,7 @@ The **Acc. Schedule Overview** page is where you preview the financial report th
 3. Alternatively, choose the **Copy Account Schedule** action, fill in the two fields, and then choose the **OK** button.
 4. Fill in the fields as necessary. In the **Default Column Layout** field select an existing layout. You can edit it later if you want.
 
-    You use column layouts to define columns for different parameters by which the financial data on the rows are shown. For example, you can design a column layout to compare net change and balance for the same period this year and last year, with four columns. For more information, see the "To edit a column layout" section.
+    You use column layouts to define columns for different parameters by which the financial data on the rows are shown. For example, you can design a column layout to compare net change and balance for the same period this year and last year, with four columns. For more information, see [To edit a column layout](bi-how-work-account-schedule.md#to-edit-a-column-layout).
 
 5. Choose the **Edit Account Schedule** action.
 6. Create a row for each financial element that you want to appear in the report, such as one row for current assets and another row for fixed assets. For inspiration, see existing account schedules in the CRONUS demonstration company.

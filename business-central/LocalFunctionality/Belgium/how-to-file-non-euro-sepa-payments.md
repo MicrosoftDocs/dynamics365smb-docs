@@ -15,7 +15,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can file non-euro SEPA
 
 Before you can file a non-euro SEPA payment you must complete the following administration tasks:  
 
-- Set up a new export protocol for a non-euro SEPA. For more information, see Export Protocol.  
+- Set up a new export protocol for a non-euro SEPA.  
 - In the **Country/Region** table, clear the **SEPA Allowed** field for each country that belongs to the EEA zone.  
 - Verify that the **Currency Euro** field in the **General Ledger Setup** table is not in euro currency.  
 - Verify that the vendor’s **Preferred Bank Account** field in the **Vendor** table contains the IBAN and SWIFT code.  
@@ -30,7 +30,7 @@ Before you can file a non-euro SEPA payment you must complete the following admi
     |**Journal Template Name**|Specify the general journal template for the non-euro SEPA payment report.|  
     |**Journal Batch**|Specify the general journal batch for the non-euro SEPA payment report.|  
     |**Post General Journal Lines**|Specify if you want to transfer the payment lines to the general ledger.|  
-    |**Include Dimensions**|Enter the dimensions that you want to include in the non-euro SEPA payment report. The option is only available if the **Summarize Gen. Jnl. Lines** field on the **Electronic Banking Setup** page is selected.|  
+    |**Include Dimensions**|Enter the dimensions that you want to include in the non-euro SEPA payment report. The option is available only if the **Summarize Gen. Jnl. Lines** field on the **Electronic Banking Setup** page is selected.|  
     |**Execution Date**|Enter an execution date if you want an execution date that differs from the posting date on the payment lines.|  
     |**File Name**|Enter the name of the file, including the drive and folder, to which you want to print the report.|  
 

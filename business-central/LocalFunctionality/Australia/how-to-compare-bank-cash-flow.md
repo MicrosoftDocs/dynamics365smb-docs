@@ -33,7 +33,7 @@ The debit and credit amounts are displayed in the local currency. You can also v
 ## To compare bank cash flow  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Detail Cashflow Compare**, and then choose the relevant link.  
-2.  On the **Options** FastTab, fill in the fields as described in the following table.  
+2.  Fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -41,7 +41,7 @@ The debit and credit amounts are displayed in the local currency. You can also v
     |**Compare End Date**|Specifies the end date for comparison.|  
     |**New Page per Bank Account**|Specifies if the details of each bank account will be printed on a separate page.|  
 
-3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
+3.  Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.  
 
 ## See Also  
  [Create Check Installments](how-to-create-check-installments.md)   

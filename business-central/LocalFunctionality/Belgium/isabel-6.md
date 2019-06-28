@@ -8,6 +8,7 @@ ms.topic: article
 ms.search.keywords:
 ms.date: 04/01/2019
 ms.author: sgroespe
+redirect_url: belgium-local-functionality
 
 ---
 # Isabel 6

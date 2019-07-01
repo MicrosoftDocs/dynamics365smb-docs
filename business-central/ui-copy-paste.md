@@ -41,7 +41,7 @@ Select an empty row, and press Crtl+V. If you want to replace existing rows, sel
 Yes. This is pasted as a nicely-formatted table that preserves indentation, numeric alignment and coloring, just as you would see in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## Does copy and paste work with tiles?
-No. The list must be viewed as rows (List View) for you to copy and paste.
+Yes, but only for a single selected tile.
 
 ## In which lists can I copy and paste rows?
 You can copy rows in any kind of list, including worksheets, FactBoxes, or list that are embedded on a page (like lines of a sales order). However, to paste rows, the list must be editable.
@@ -55,7 +55,7 @@ Copy and paste are available in the browser or the [!INCLUDE[d365fin](includes/d
 You can copy as many rows as you have scrolled into view. For example, to copy all 1000 rows in a page, you must first scroll to the bottom of the page and wait for the rows to appear before copying. The maximum number of rows you can copy is only limited by the memory of your device.
 
 ## Must I have the exact same number of columns when pasting rows?
-Yes. Whether you are copying from [!INCLUDE[d365fin](includes/d365fin_md.md)], from Excel, or from some other table source, the rows that you paste must have the exact matching columns - no more no less.
+Yes. Whether you are copying from [!INCLUDE[d365fin](includes/d365fin_md.md)], from Excel, or from some other table source, the rows that you paste into !INCLUDE[d365fin](includes/d365fin_md.md)] must have the exact matching columns - no more no less.
 
 ## Why do I get errors when pasting rows?
 When pasting into [!INCLUDE[d365fin](includes/d365fin_md.md)], each row is checked to make sure that values in each column are valid. If a column contains a value that is not valid, the pasting is stopped, and an error message is displayed. To avoid this, make sure that the columns have valid values before you paste them.

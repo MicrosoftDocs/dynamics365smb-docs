@@ -8,12 +8,13 @@ ms.topic: article
 ms.search.keywords:
 ms.date: 04/01/2019
 ms.author: sgroespe
+redirect_url: belgium-local-functionality
 
 ---
 # Isabel 6
 The Isabel organization has developed a Client Isabel Synchronizer (CIS) platform that allows [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to securely integrate with Isabel. CIS handles document exchange to and from the Isabel server.  
 
-To upload or download the bank files, you will have to set up your environment to work with Isabel. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] communicates to the CIS.dll through a COM wrapper.  
+To upload or download the bank files, you will have to set up your environment to work with Isabel. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] communicates to the CIS.dll file through a COM wrapper.  
 
 To set up your system to work with Isabel, complete the following:  
 
@@ -21,7 +22,7 @@ To set up your system to work with Isabel, complete the following:
 
 - Install the COM wrapper that is manufactured by the Isabel organization. This wrapper is included with the Isabel GO 6.20 package.  
 
-- Register the COM wrapper on your computer. At the command prompt, locate the CIS.dll and then execute the **regsvr32 CISComWrapper.dll** command.  
+- Register the COM wrapper on your computer. At the command prompt, locate the CIS.dll file, and then execute the **regsvr32 CISComWrapper.dll** command.  
 
 ## See Also  
  [Isabel website](https://go.microsoft.com/fwlink/?LinkId=210323)   

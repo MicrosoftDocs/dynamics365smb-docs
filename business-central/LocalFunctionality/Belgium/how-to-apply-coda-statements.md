@@ -29,11 +29,11 @@ Statement amounts can be applied to outstanding ledger entries by:
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.  
 2.  Select the bank account, and then choose the **CODA Statements** action.  
 3.  Select the CODA statement, and then choose the **Edit** action.  
-4.  In the **CODA Statement Lines** FastTab, for each statement line, fill in the fields as described in the following table.  
+4.  For each statement line, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Account No.**|Enter the number of the general ledger account, bank, customer, vendor, or fixed asset, which the bank account statement line is linked to.|  
+    |**Account No.**|Enter the number of the general ledger account, bank, customer, vendor, or fixed asset that the bank account statement line is linked to.|  
     |**Description**|[!INCLUDE[d365fin](../../includes/d365fin_md.md)] automatically retrieves the description from the imported CODA file, but you can modify the contents of this field.|  
 
 5.  Choose the **OK** button.  
@@ -48,12 +48,12 @@ Statement amounts can be applied to outstanding ledger entries by:
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Default Posting**|Select if you want the batch job to post statement amounts that cannot be linked to existing ledger entries. For more information, see Transaction Coding.|  
+    |**Default Posting**|Select if you want the batch job to post statement amounts that cannot be linked to existing ledger entries.|  
     |**Print List**|Select to print a list of statement amounts that cannot be linked automatically.|  
 
 6.  Choose the **OK** button.  
 
-    When you start the batch job, statement amounts will be applied to existing ledger entries based on the transaction codes. For more information, see [Set Up Bank Accounts for CODA](how-to-set-up-bank-accounts-for-coda.md).  
+    When you start the batch job, statement amounts will be applied to existing ledger entries based on the transaction codes. For more information, see [Set Up Bank Accounts for CODA](how-to-set-up-bank-accounts-for-coda.md).
 
 ## See Also  
  [CODA Bank Statements](coda-bank-statements.md)   

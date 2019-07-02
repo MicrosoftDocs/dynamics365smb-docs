@@ -55,7 +55,7 @@ Copy and paste are available in the browser or the [!INCLUDE[d365fin](includes/d
 You can copy as many records as you have scrolled into view. For example, to copy all 1000 records in a page, you must first scroll to the bottom of the page and wait for the records to appear before copying. The maximum number of records you can copy is only limited by the memory of your device.
 
 ## Must I have the exact same number of columns when pasting records?
-Yes. Whether you are copying from [!INCLUDE[d365fin](includes/d365fin_md.md)], from Excel, or from some other table source, the records that you paste into !INCLUDE[d365fin](includes/d365fin_md.md)] must have the exact matching columns - no more no less.
+Yes. Whether you are copying from [!INCLUDE[d365fin](includes/d365fin_md.md)], from Excel, or from some other table source, the records that you paste into [!INCLUDE[d365fin](includes/d365fin_md.md)] must have the exact matching columns - no more no less.
 
 ## Why do I get errors when pasting records?
 When pasting into [!INCLUDE[d365fin](includes/d365fin_md.md)], each record is checked to make sure that values in each column are valid. If a column contains a value that is not valid, the pasting is stopped, and an error message is displayed. To avoid this, make sure that the columns have valid values before you paste them.
